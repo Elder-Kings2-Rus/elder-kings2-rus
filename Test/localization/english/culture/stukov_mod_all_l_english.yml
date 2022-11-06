@@ -1,0 +1,38 @@
+﻿l_english:
+
+ #############################################
+### Holy Roman Empire ###
+# Feudal / Tribal 
+ emperor_feudal_male_german:0 "Kaiser"
+ emperor_feudal_female_german:0 "Kaiserine"
+ duke_feudal_independent_german:0 "Grand Duke"
+ duke_feudal_independent_female_german:0 "Grand Duchess"
+ duchy_feudal_independent_german:0 "Grand Duchy of"
+ imperial_prince_feudal_hre:0 "Imperial Prince"
+ imperial_princess_feudal_hre:0 "Imperial Princess"
+
+ 
+# Republic
+
+ county_republic_german:0 "Free City of"
+ duke_republic_male_german:0 "Stadtholder"
+ duke_republic_female_german:0 "Stadtholder"
+ duchy_republic_german:0 "Republic of"
+ king_republic_male_german:0 "General Stadtholder"
+ king_republic_female_german:0 "General Stadtholder"
+ kingdom_republic_german:0 "Great Republic of"
+ 
+ # Theocracy
+ prince_bishop_christianity:0 "Prince-bishop"
+ princess_bishop_christianity:0 "Princess-bishop"
+ princely_bishopic_christianity:0 "Княжество-епископство"
+ prince_archbishop_christianity:0 "Князь-архиепископ"
+ princess_archbishop_christianity:0 "Княгиня-архиепископ"
+ princely_archbishopy_christianity:0 "Княжество-архиепископство"
+
+ prince_bishop_christianity:0 "Prince-bishop"
+ princess_bishop_christianity:0 "Princess-bishop"
+ princely_bishopic_christianity:0 "Княжество-епископство"
+ prince_archbishop_christianity:0 "Князь-архиепископ"
+ princess_archbishop_christianity:0 "Княгиня-архиепископ"
+ princely_archbishopy_christianity:0 "Княжество-архиепископство"
