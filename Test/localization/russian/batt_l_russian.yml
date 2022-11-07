@@ -2,7 +2,7 @@
  # Knight wounded/slain event strings for use in battle events. 
  knight_wounded_no_enemy_friendly:2 "Наш $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] получает рану от руки вражеского солдата!"
  knight_wounded_no_enemy_enemy:2 "Вражеский [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] [CHARACTER.GetShortUINameNoTooltip] получает рану от руки нашего доблестного солдата!"
- knight_wounded_by_enemy_friendly:2 "Наш $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] получает рану от руки персонажа [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ knight_wounded_by_enemy_friendly:2 "Наш $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] получает рану от руки персонажа 123 [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
  knight_wounded_by_enemy_enemy:2 "Наш $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] ранит персонажа [CHARACTER.GetShortUINameNoTooltip]!"
  knight_maimed_no_enemy_friendly:2 "Наш $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] получает увечье от руки вражеского солдата!"
  knight_maimed_no_enemy_enemy:2 "Вражеский [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] [CHARACTER.GetShortUINameNoTooltip] получает увечье от руки одного из наших доблестных солдат!"
