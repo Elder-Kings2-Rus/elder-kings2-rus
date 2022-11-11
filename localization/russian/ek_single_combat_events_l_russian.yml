@@ -1,0 +1,23 @@
+﻿l_russian:
+ single_combat.0001.unbounded_flames:1 "Let's see if you like being engulfed in #EMP Unbounded Flames#!!"
+ single_combat.0001.telekinesis:1 "My #EMP Telekinesis# will take you off your feet!"
+ single_combat.0001.crystallized_shield:1 "My #EMP Crystallized Shield#! will not let me down!"
+ single_combat.0001.force_shock:1 "Go forth, my arcane powers!"
+ single_combat.0001.storm_wall:1 "My magical aptitude allows me to raise a #EMP Wall of Storms#!!"
+ 
+ single_combat.0001.desc.my_feedback.unbounded_flames:0 "I hurl a series of fireballs in an arc formation, exploding the area all around my foe. After the explosion, a wall of fire remains for a while, burning as hot as the flames of Oblivion."
+ single_combat.0001.desc.my_feedback.telekinesis:0 "I wave my hand slightly, focusing my arcane energy in my foe's body. [my_foe.GetFirstNameNoTooltip] looks at me confused, wondering why [my_foe.GetSheHe] can't feel the ground anymore, then [my_foe.GetSheHe] feels the ground again, with full force."
+ single_combat.0001.desc.my_feedback.force_shock:0 "I wave my [myself.Custom('signature_weapon')], focusing on the arcane elements and summoning their power. [my_foe.GetFirstNameNoTooltip] doesn't have any time to parry the confused spark of elements that shoot from my [myself.Custom('signature_weapon')], hitting [my_foe.GetHerHim]."
+ single_combat.0001.desc.my_feedback.crystallized_shield:0 "I focus on the frost element, focusing my arcane energy in the cold air that surrounds me. [my_foe.GetFirstNameNoTooltip] sees a thick ice shield appear before me and [my_foe.GetHerHim], protecting me from [my_foe.GetHerHis] attacks."
+ single_combat.0001.desc.my_feedback.storm_wall:0 "Using ancient magical hand signs, I spray the power of the storms itself on the ground, creating a wall of lightning that separates me from my enemy."
+
+ single_combat.0001.desc.opponent_response.unbounded_flames:0 "[my_foe.GetFirstNameNoTooltip] waves [my_foe.GetHerHis] fingers, reciting magic words, while a barrage of unbounded flames surround me, exploding in contact with anything they touch. When I think my torment is over, a wall of fire remains between me and my foe."
+ single_combat.0001.desc.opponent_response.telekinesis:0 "[my_foe.GetFirstNameNoTooltip] waves [my_foe.GetFirstHerHis] hand slightly, focusing [my_foe.GetHerHis] arcane energy in my body. I look at [my_foe.GetFirstHerHim] confused, wondering why I can't feel the ground anymore, then I feel the ground again, with full force."
+ single_combat.0001.desc.opponent_response.force_shock:0 "[my_foe.GetFirstNameNoTooltip] waves [my_foe.GetFirstHerHis] [my_foe.Custom('signature_weapon')], closing [my_foe.GetHerHis] eyes and summoning some arcane power. I don't have any time to parry the confused spark of elements that shoot from [my_foe.GetHerHis] [my_foe.Custom('signature_weapon')], hitting me."
+ single_combat.0001.desc.opponent_response.crystallized_shield:0 "I see my foe closing [my_foe.GetHerHis] eyes, as our surroundings get colder. In a matter of seconds, I see a thick ice shield appear before me and [my_foe.GetHerHim], protecting [my_foe.GetHerHim] from my attacks."
+ single_combat.0001.desc.opponent_response.storm_wall:0 "Using ancient magical hand signs, [my_foe.GetFirstNameNoTooltip] sprays the power of the storms itself on the ground, creating a wall of lightning that separates me from my enemy."
+ 
+ single_combat.0001.tt.unbounded_flames:0 "#BOL Unbounded Flames:#! with great magickal might, you create a stream of fireballs that raise a huge wall of fire that lingers, burning your opponent"
+ single_combat.0001.tt.force_shock:0 "#BOL Force Shock:#! you wave your [myself.Custom('signature_weapon')], focusing on the arcane elements and summoning their power, shooting a fused spark of the three arcane elements"
+ single_combat.0001.tt.storm_wall:0 "#BOL Storm Wall:#! use your magic abilities to create a Wall of Storms between you and your opponent"
+ 

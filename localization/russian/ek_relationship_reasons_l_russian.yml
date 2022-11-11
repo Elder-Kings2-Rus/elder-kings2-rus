@@ -1,0 +1,3 @@
+﻿l_russian:
+ nemesis_rival_killed_sibling:0 "[CHARACTER.GetShortUIName|U] swore vengeance on [TARGET_CHARACTER.GetShortUIName] for killing [TARGET_CHARACTER_2.GetShortUIName], [CHARACTER.GetShortUINamePossessive] sibling."
+ nemesis_rival_killed_child_sibling:0 "[TARGET_CHARACTER.GetShortUIName|U] swore vengeance on [CHARACTER.GetShortUIName] for killing [TARGET_CHARACTER_2.GetShortUIName], [TARGET_CHARACTER.GetShortUINamePossessive] sibling."

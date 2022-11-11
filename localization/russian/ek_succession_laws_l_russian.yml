@@ -1,0 +1,58 @@
+﻿l_russian:
+ pirate_succession_law:0 "Pirate Share"
+ pirate_succession_law_subname:0 "Each county decides what is best"
+ pirate_succession_law_effects:0 "\n#V Under $pirate_succession_law$ [succession], each [county|E] will decide if they follow your [heir|E], or if they decide their own course.#!\n\n#weak $pirate_succession_base_desc$#!"
+ pirate_succession_base_desc:0 "#weak Upon succession, all [counties|E] held by the late [ruler|E] will have a chance to put a local ruler in charge, depending on their [county_opinion|E] and [income|E]. Commanders that have a similar [culture|E] or [faith|E] might be chosen to lead them, and if there isn't any a new governor will be generated.\n\nCounties that have a high enough [county_opinion|E] will stay with the late ruler's primary heir.\n\nYour capital county will always be given to your heir.\n#!"
+ 
+ pirate_elective_succession_law:0 "Pirate Council Elective"
+ tooltip_pirate_elective_taxes:0 "Total [county|E] [income|E]: $VALUE|=+0$"
+ pirate_elective_candidates:0 "Adult Close Family, Commanders, and Pirate Vassals"
+ pirate_elective_candidates_tooltip:0 "In order to be a valid Candidate under $pirate_elective_succession_law$, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate [adult|E] [close_family|E] member of the current ruler, who is not in line to inherit a Theocracy or Republic\n$EFFECT_LIST_BULLET$Be a [commander|E]\n$EFFECT_LIST_BULLET$Be a valid Pirate [vassal|E] to the title"
+ pirate_elective_electors:0 "Ruler and Vassals"
+ pirate_elective_electors_tooltip:0 "In order to be a valid [elector|E] under $pirate_elective_succession_law$, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a [de_jure|E] vassal of the title\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$Be only one or two [ranks|E] below the title"
+
+#Militaristic government's Merit based succession
+
+ merit_succession_law:0 "Meritocratic"
+ merit_succession_law_subname:0 "Your Conclave convenes to elect a fitting successor"
+ merit_succession_law_effects:0 "\n#V Under $merit_succession_law$ [succession], each member of your [council|E] will cast a vote to appoint an [heir|E], they will choose a candidate from among their own ranks based on their ability to lead ( [martial|E], [intrigue|E] and age).#!\n\n#weak $merit_succession_base_desc$#!"
+ merit_succession_base_desc:0 "#weak Upon succession, all [counties|E] held by the late [ruler|E] will have a chance to break away from your rule, depending on their [control|E]. \n\nCounties that have a high enough [control|E] will stay with the late ruler's primary heir.\n\nYour capital county will always be given to your heir.\n#!"
+ 
+ merit_elective_candidates:0 "Military Council Members"
+ merit_elective_candidates_tooltip:0 "In order to be a valid Candidate under $merit_succession_law$ Elective, a character must fulfill the following condition:\n$EFFECT_LIST_BULLET$Be a member of the military [council|E]."
+ merit_elective_electors:0 "Military Council Members"
+ merit_elective_electors_tooltip:0 "In order to be a valid [elector|E] under $merit_succession_law$ Elective, a courtier must be a member of the military [council|E]."
+ 
+ mbhof_succession_law:0 "Mystical Birthright"
+ mbhof_succession_law_subname:0 "The divine decides who will succeed us"
+ mbhof_succession_law_effects:0 "\n#V Under $mbhof_succession_law$ [succession], a successor chosen by the current [head_of_faith|E] will inherit.\n\n$mbhof_succession_base_desc$"
+ mbhof_succession_base_desc:0 "#weak Under $mbhof_succession_law$ [succession], a successor [head_of_faith|E] is chosen among the faithful, if they have the [GetTrait('mystic_3').GetName(GetNullCharacter)] trait. A new successor is chosen when the current [head_of_faith|E] or the successor dies.#!"
+ 
+ rule_by_might_succession_law:0 "Rule by Might"
+ rule_by_might_succession_law_subname:0 "Only the strongest shall lead us"
+ rule_by_might_succession_law_effects:0 "\n#V Under $rule_by_might_succession_law$ [succession], the strongest child can inherit.\n#N Children might push their claim before the ruler's death if they feel strong enough.#!\n\n$rule_by_might_succession_law_base_desc$"
+ rule_by_might_succession_law_base_desc:0 "#weak Under $rule_by_might_succession_law$ [succession], the current ruler designates their [primary_heir|E] among all the eligible children.\n\nUpon succession, other children with a similar or higher [prowess|E] can challenge the new ruler, or leave in exile.\n\nChildren of non-eligible genders can contest the succession if their [prowess|E] is high enough.#!"
+
+#Moot Sucession Law
+ moot_elective_succession_law:0 "Moot Elective"
+ moot_elective_succession_law_effects:0 "The High King and the nine Jarls can nominate a [title_heir|E] from among themselves, any [legitimate|E] children and siblings of the [ruler|E], as well as any other major [de_jure|E] [vassal|E] of the Empire. If a historical elector [title|E] is held by foreigners or does not exist, another [de_jure|E] vassal will take its place. This [succession_law|E] places a significant importance on [heritage|E], [prestige|E] and [prowess|E].\n\nThe Electoral titles for this realm are the Holds of Whiterun, Markarth, Morthal, Solitude, Falkreath, Windhelm, Winterhold, Riften and Dawnstar."
+ moot_elective_candidates:0 "$feudal_elective_candidates$"
+ moot_elective_candidates_tooltip:0 "In order to be a valid Candidate under Moot Elective, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate [close_family|E] member of the current ruler, who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated\n$EFFECT_LIST_BULLET$Be a [claimant|E] to the title, who is not in line to inherit a Theocracy or Republic\n$EFFECT_LIST_BULLET$Be a valid Feudal [elector|E] to the title"
+ moot_elective_electors:0 "Jarls"
+ moot_elective_electors_tooltip:0 "In addition to the [SuccessionElectionWindow.GetTitle.GetHolder.GetTitleAsNameNoTooltip], holders of the following [titles|E] are favored as [electors|E] under [SuccessionElectionWindow.GetSuccessionLaw.GetName]:[SuccessionElectionWindow.GetTitle.Custom('GetMootElector1')][SuccessionElectionWindow.GetTitle.Custom('GetMootElector2')][SuccessionElectionWindow.GetTitle.Custom('GetMootElector3')][SuccessionElectionWindow.GetTitle.Custom('GetMootElector4')][SuccessionElectionWindow.GetTitle.Custom('GetMootElector5')][SuccessionElectionWindow.GetTitle.Custom('GetMootElector6')][SuccessionElectionWindow.GetTitle.Custom('GetMootElector7')][SuccessionElectionWindow.GetTitle.Custom('GetMootElector8')][SuccessionElectionWindow.GetTitle.Custom('GetMootElector9')]"
+ tooltip_feudal_elector_vote_pact_of_chieftains:0 "The High Kingship should stay in the same lineage: $VALUE|=+0$"
+ tooltip_feudal_elector_vote_moot:0 "The High King should embody Nordic values: $VALUE|=+0$"
+ tooltip_feudal_elector_vote_moot_bad:0 "The High King should not shame our ancestors: $VALUE|=+0$"
+ tooltip_feudal_elector_vote_moot_fame:0 "Respected High King: $VALUE|=+0$"
+ tooltip_feudal_elector_vote_moot_fame_big:0 "Exalted High King: $VALUE|=+0$"
+ tooltip_feudal_elector_vote_moot_fame_biggest:0 "Legendary High King: $VALUE|=+0$"
+
+ get_skyrim_elector_1:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('skyrim_elector_1').GetLandedTitle.GetName]"
+ get_skyrim_elector_2:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('skyrim_elector_2').GetLandedTitle.GetName]"
+ get_skyrim_elector_3:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('skyrim_elector_3').GetLandedTitle.GetName]"
+ get_skyrim_elector_4:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('skyrim_elector_4').GetLandedTitle.GetName]"
+ get_skyrim_elector_5:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('skyrim_elector_5').GetLandedTitle.GetName]"
+ get_skyrim_elector_6:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('skyrim_elector_6').GetLandedTitle.GetName]"
+ get_skyrim_elector_7:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('skyrim_elector_7').GetLandedTitle.GetName]"
+ get_skyrim_elector_8:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('skyrim_elector_8').GetLandedTitle.GetName]"
+ get_skyrim_elector_9:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('skyrim_elector_9').GetLandedTitle.GetName]"

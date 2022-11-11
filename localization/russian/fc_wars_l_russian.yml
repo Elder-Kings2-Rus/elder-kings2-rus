@@ -1,0 +1,40 @@
+﻿l_russian:
+ HOSTAGES_WAR_NAME:0 "Free Captives"
+ hostages_war_victory_desc:0 "All [prisoners|E] and forced [concubines|E] considered close to [attacker.GetShortUIName|U] and held in the court of [defender.GetShortUIName|U] are freed. [defender.GetShortUIName|U] will pay a tribute to [attacker.GetShortUIName|U] as reparations."
+ hostages_war_white_peace_desc:0 "The [prisoners|E] and forced [concubines|E] stay within the court of [attacker.GetShortUIName|U]."
+ hostages_war_defeat_desc:0 "The [prisoners|E] and forced [concubines|E] stay within the court of [defender.GetShortUIName|U]. [attacker.GetShortUIName|U] will pay a tribute to [defender.GetShortUIName|U] as reparations."
+
+ fc_war_event.0001.t:0 "Freeing One's Own Kin"
+ fc_war_event.0001.desc:0 "[attacker.GetShortUIName|U] marches upon us, seeking to free [attacker.GetHerHis] close-kin that we hold prisoners.\n\nPerhaps we could sue for peace and free the captives [attacker.GetFirstName] wishes to liberate?\n\nOr perhaps we should show [attacker.GetHerHim] that we aren't to be messed with. [fc_chosen_captive.GetFirstName] has been brought to us, and [fc_chosen_captive.GetSheHe] could serve as an exemple."
+ fc_war_event.0001.a:0 "Send the prisoners back. Hopefully this will be enough..."
+ fc_war_event.0001.a.end_war:0 "[attacker.GetFirstName] is satisfied"
+ fc_war_event.0001.a.end_war.ct:0 "The prisoners are escorted back home, and our armies won't clash on the battlefield."
+ fc_war_event.0001.a.continue_war:0 "[attacker.GetFirstName] presses on!"
+ fc_war_event.0001.a.continue_war.ct:0 "Despite our generous offer, [attacker.GetFirstName] refuses to make peace and forces our hand!"
+ fc_war_event.0001.b:0 "[fc_chosen_captive.GetFirstName] will serve as an exemple!"
+ fc_war_event.0001.c:0 "Execute them all! Let [attacker.GetFirstName] what happens when someone marches on us!"
+ fc_war_event.0001.d:0 "This will be settled on the battlefield!"
+ fc_war_event.0001.d.ct:0 "The war will go on until we can declare total victory!"
+ fc_war_event.0001.d.loss:0 "Should we lose, we will have to #N pay a heavy tribute#! as well as liberate the prisoners."
+ 
+ fc_war_event.0002.desc:0 "It seems that the threat of our armies was enough to make [defender.GetShortUIName] understand the precarity of [defender.GetHerHis] situation. [defender.GetSheHe|U] offered us to liberate [fc_chosen_captive.GetFirstName] and the others, should we agree to stop the ongoing hostilities.\n\nMost expect us to order our armies to stand down and acceot the ceasefire. But perhaps we should show [defender.GetFirstName], and the world, what happens when someone threatens our family.\nAnd by forcing [defender.GetFirstName] to surrender, we could also seize most of [defender.GetHerHis] treasury..."
+ fc_war_event.0002.a:0 "Everyone is back. And that is what matters."
+ fc_war_event.0002.b:0 "Let the world see what happens when someone tries to attack our family!"
+ fc_war_event.0002.b.ct:0 "While refusing the proposition of [defender.GetFirstName] will put us in a potentially dishonorable position, it would also show the world that we are ready to fight for our family."
+ fc_war_event.0002.b.potential_execution.ct:0 "[defender.GetFirstName] might decide to take action and execute the prisoners!"
+ 
+ fc_war_event.0003.desc:0 "[attacker.GetShortUIName] sent a small party of trusted soldiers along with [attacker.GetHerHis] answer. The prisoners have been delivered to them, and [fc_chosen_captive.GetFirstName] along with the others will be escorted safely to [attacker.GetFirstName].\n\nAs promised, the hostilities have immediatley ceased.\n\nIt seems that we avoided the worst..."
+ fc_war_event.0003.a:0 "It is perhaps for the best."
+ fc_war_event.0003.a.prisoner_liberated.ct:0 "[current_hostages_war_prisoner.GetFirstName] has been liberated"
+ fc_war_event.0003.a.end_war.ct:0 "The armies of [attacker.GetShortUIName] have been called back"
+ 
+ fc_war_event.0004.desc:0 "We thought that setting [fc_chosen_captive.GetFirstName] free would be enough to make [attacker.GetShortUIName] reconsider the war. It seems that it was not enough, and [attacker.GetSheHe] is looking for more than just liberating [attacker.GetHerHis] family!\n\nThe prisoners have been brought back to their dungeon, and it seems we will have to teach [attacker.GetFirstName] a lesson."
+ fc_war_event.0004.a:0 "So be it..."
+ fc_war_event.0004.a.ct:0 "The war will continue until one side declares victory."
+ fc_war_event.0004.b:0 "[attacker.GetFirstName] will never see them alive!"
+ 
+ fc_war_event.0005.desc:0 "We expected [defender.GetShortUIName] to back down and release the prisoners, or perhaps to pretend to be brave and never send us an answer.\n\nIt seems however that the treachery and cruelty of [defender.GetFirstName] has been understimated. While we are receiving conflicting reports, it seems that [defender.GetSheHe] decided to execute [fc_chosen_captive.GetShortUIName]...\n\nWe have no choice but to press on, march on the lands of [defender.GetFirstName], and avenge [fc_chosen_captive.GetFirstName]!"
+ fc_war_event.0005.a:0 "For [fc_chosen_captive.GetFirstName]!"
+ 
+ fc_war_event.0006.desc:0 "Even our worst predictions did not foresee this. [defender.GetShortUIName], enraged by our declaration of war, decided to execute all those [defender.GetSheHe] held prisoners and who were close to us...\n\nWe have no choice but to press on, and avenge them all on the battlefield!"
+ fc_war_event.0006.a:0 "Damn you!"

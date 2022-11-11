@@ -1,0 +1,26 @@
+﻿l_russian:
+ autocracy_authority_3_effects:0 "$EFFECT_LIST_BULLET$Lieges can [revoke|E] titles and [retract|E] vassals without incuring any [tyranny|E]"
+ 
+ crown_authority_0_feudal:0 "Aristocratic Monarchy"
+ crown_authority_0_autocracy:0 "Strong Landed Oligarchy"
+ crown_authority_0_hierocracy:0 "Dualist Council"
+ crown_authority_0_default:0 "Autonomous Vassals"
+ crown_authority_1_feudal:0 "Oligarchic Monarchy"
+ crown_authority_1_autocracy:0 "Influent Landed Oligarchy"
+ crown_authority_1_hierocracy:0 "Weak Hierocratic Council"
+ crown_authority_1_default:0 "Limited Crown Authority"
+ crown_authority_2_feudal:0 "Despotic Monarchy"
+ crown_authority_2_autocracy:0 "Strong Autocracy"
+ crown_authority_2_hierocracy:0 "Strong Hierocratic Council"
+ crown_authority_2_default:0 "High Crown Authority"
+ crown_authority_3_feudal:0 "Absolute Monarchy"
+ crown_authority_3_autocracy:0 "Absolute Autocracy"
+ crown_authority_3_hierocracy:0 "Absolute Hierocracy"
+ crown_authority_3_default:0 "Absolute Crown Authority"
+ 
+ feudal_government_authority_modifier:0 "Feudal Government - Crown Authority"
+ liege_modify_vassal_contract_cannot_exceed_tyranny_cap_0:0 "Your current Crown Authority forbids you from demanding any [tyrannical|E] change.\n#weak Note: Lieges with the #V $crown_authority_2$#! law can make one change otherwise considered [tyrannical|E] free of charge.#!"
+ 
+ feudal_contrib_normal_ca:0 "[crown_authority|E] of the [liege|E] must be #V $crown_authority_1$#!, #V $crown_authority_2$#!, or #V $crown_authority_3$#!"
+ feudal_contrib_high_ca:0 "[crown_authority|E] of the [liege|E] must be #V $crown_authority_2$#!, or #V $crown_authority_3$#!"
+ feudal_contrib_extortionate_ca:0 "[crown_authority|E] of the [liege|E] must be #V $crown_authority_3$#!"

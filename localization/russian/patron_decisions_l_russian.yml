@@ -1,0 +1,38 @@
+﻿l_russian:
+ patron_offer_gold_decision:0 "Offer Drakes"
+#  patron_offer_gold_decision_type:0 "offering"
+ patron_offer_gold_decision_tooltip:0 "Offer drakes to [GetPlayer.Custom('GetPatronName')]"
+ patron_offer_gold_decision_desc:0 "Offer tribute in the form of drakes to [GetPlayer.Custom('GetPatronName')]"
+ patron_offer_gold_decision_confirm:0 "Confirm"
+
+ patron_offer_sacrifice_decision:0 "Offer Sacrifice"
+#  patron_offer_sacrifice_decision_type:0 "offering"
+ patron_offer_sacrifice_decision_tooltip:0 "Sacrifice a prisoner to [GetPlayer.Custom('GetPatronName')]"
+ patron_offer_sacrifice_decision_desc:0 "Sacrifice a prisoner in the name of [GetPlayer.Custom('GetPatronName')]"
+ patron_offer_sacrifice_decision_confirm:0 "Confirm"
+
+ patron_boon_gold_decision:0 "Wealth of Oblivion"
+#  patron_boon_gold_decision_type:0 "minor_boon"
+ patron_boon_gold_decision_tooltip:0 "Receive gold from [GetPlayer.Custom('GetPatronName')]"
+ patron_boon_gold_decision_desc:0 "[GetPlayer.Custom('GetPatronName')] grants Wealth of Oblivion"
+ patron_boon_gold_decision_confirm:0 "Confirm"
+
+ patron_boon_training_decision:0 "Daedric Training"
+#  patron_boon_training_decision_type:0 "minor_boon"
+ patron_boon_training_decision_tooltip:0 "Receive a permenant stat boost"
+ patron_boon_training_decision_desc:0 "[GetPlayer.Custom('GetPatronName')]'s power envigorates your being"
+ patron_boon_training_decision_confirm:0 "Confirm"
+
+ patron_boon_horde_decision:0 "Daedric Horde"
+#  patron_boon_horde_decision_type:0 "minor_boon"
+ patron_boon_horde_decision_tooltip:0 "Summon a horde of Daedra"
+ patron_boon_horde_decision_desc:0 "[GetPlayer.Custom('GetPatronName')] Grants you command over a horde of Daedra"
+ patron_boon_horde_decision_confirm:0 "Confirm"
+
+ patron_boon_invasion_decision:0 "Daedric Invasion"
+#  patron_boon_invasion_decision_type:0 "major_boon"
+ patron_boon_invasion_decision_tooltip:0 "Invade Nirn!"
+ patron_boon_invasion_decision_desc:0 "Launch an invasion of Nirn with the backing of [GetPlayer.Custom('GetPatronName')]"
+ patron_boon_invasion_decision_confirm:0 "Confirm"
+ 
+ dremora_horde:0 "[ROOT.Char.GetNamePossessiveNoTooltip] Dremora Horde"

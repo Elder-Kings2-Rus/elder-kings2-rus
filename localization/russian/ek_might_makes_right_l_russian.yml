@@ -1,0 +1,13 @@
+﻿l_russian:
+ might_makes_right_law_insufficient_prestige_level:0 "#weak Not having the required [prestige_level|E] will revert the [law|E] to its previous level.#!"
+ might_makes_right_law_insufficient_piety_level:0 "#weak Not having the required [prestige_level|E] will revert the [law|E] to its previous level.#!"
+ might_makes_right_law_insufficient_prestige_or_piety_level:0 "#weak Not having the required [prestige_level|E] or [piety_level|E] will revert the [law|E] to its previous level.#!"
+ might_makes_right_law_insufficient_prestige_and_piety_level:0 "#weak Having neither the required [prestige_level|E] or [piety_level|E] will revert the [law|E] to its previous level.#!"
+ might_makes_right_law_requires_prestige_or_piety_level:0 "#weak Having either enough [prestige_experience|E] or [piety_experience|E] is enough"
+ 
+ might_makes_right_level_amount:0 "[prestige_level|E] required: [GetModifier( 'prestige_level_$VALUE|0$' ).GetNameWithTooltip|L] ([might_makes_right|E])"
+ might_makes_right_devotion_level_amount:0 "One of those: ([might_makes_right|E])\n * [prestige_level|E] required: [GetModifier( 'prestige_level_$VALUE|0$' ).GetNameWithTooltip|L]\n * [piety_level|E] required: [GetModifier( 'piety_level_$VALUE|0$' ).GetNameWithTooltip|L]"
+ might_makes_right_level_amount_war:0 "$might_makes_right_level_amount$\n\nThe [casus_belli|E] can also be used with the right [innovation|E] (#V $innovation_casus_belli$#!, #V $innovation_chronicle_writing$#!, #V $innovation_provincial_governors$#!, or #V $innovation_rightful_ownership$#!)"
+ might_makes_right_level_amount_law:0 "$might_makes_right_level_amount$\n$might_makes_right_law_insufficient_prestige_level$\n\nThe [law|E] can also be unlocked with the right [innovation|E] (#V $innovation_plenary_assemblies$#! or #V $innovation_royal_prerogative$#!)"
+ might_makes_right_devotion_level_amount_war:0 "$might_makes_right_devotion_level_amount$\n$might_makes_right_law_requires_prestige_or_piety_level$ to use the [casus_belli|E].#!\n\nThe [casus_belli|E] can also be used with the right [innovation|E] (#V $innovation_casus_belli$#!, #V $innovation_chronicle_writing$#!, #V $innovation_provincial_governors$#!, or #V $innovation_rightful_ownership$#!)"
+ might_makes_right_devotion_level_amount_law:0 "$might_makes_right_devotion_level_amount$\n$might_makes_right_law_insufficient_prestige_and_piety_level$\n\nThe [law|E] can also be unlocked with the right [innovation|E] (#V $innovation_plenary_assemblies$#! or #V $innovation_royal_prerogative$#!)"

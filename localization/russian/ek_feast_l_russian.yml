@@ -1,0 +1,23 @@
+﻿l_russian:
+ek_feast.0001.new_life.t:0 "New Life Festival: A Night to Remember"
+ek_feast.0001.t:0 "$feast_header$ A Night to Remember"
+ek_feast.0001.desc:0 "What started as an ordinary feast became an exceptional one thanks to the presence of a mysterious guest, known only as Sam Guevenne!\n\nWe spoke all evening about all manner of subjects, and as the night went on, he made me a proposal: if I beat him in a drinking contest, he would give me a great boon. But, and this came with a chilling yet charming grin, if I were to lose, I would have to worship him for eternity.\n\nThat last part had to be a joke."
+Sam_G:0 "Sam Guevenne"
+Haskill:0 "Haskill"
+ek_feast.0001.a:0 "A drinking contest? You don't stand a chance!"
+ek_feast.0001.b:0 "Maybe next time."
+ek_feast.0002.desc:0 ""Very well", said Guevenne. "I am able to acknowledge a true challenger when I'm faced with [ROOT.GetCharacter.GetHerHim]. So, what will it be?"\n\nWith my head spinning, I utter an answer the best way I can."
+ek_feast.0002.a:0 "I wish to have the power to seduce any mortal."
+ek_feast.0002.b:0 "I don't need any boon, I just need hard, cold drakes."
+ek_feast.0002.c:0 "My only wish is to serve you!"
+ek_feast.0002.c.tt:0 "You'll become Sanguine's Champion!"
+ek_feast.0003.desc:0 "I wasn't able to keep myself sober for much longer. I passed out hearing Sam's laughter getting deeper and distorted.\n\nWhen I woke up, Sam had turned into something out of a nightmare, with towering height and horrifying appearance. "Who are you?" I asked.\n"I am Sanguine, Daedric Prince of Debauchery! I know, I know, how could I lie to you? Well, how could I trust you until we've shared a few drinks? But it wasn't long before I realized you'd make a more interesting bearer of my blessings and curses."\n\nI was shocked, left without words, but he was unscathed in his intent. "So, what about that bet, huh? Ready to become a worshipper of the Prince of Debauchery?""
+ek_feast.0003.a:0 "As you wish... Master."
+ek_feast.0003.a.tt:0 "You'll become a Sanguine Worshipper in secret!"
+ek_feast.0003.b:0 "I will never serve the kinds of you!"
+ek_feast.0003.b.tt:0 "You'll invoke Sanguine's wrath!"
+
+#xxxxx:0 "xxxxx"
+#“”
+#[ROOT.GetCharacter.GetFirstNameNoTooltip]
+#[naked_witch.GetFirstNameNoTooltip]

@@ -1,0 +1,214 @@
+﻿l_russian:
+ #Flavor localization for Court Chaplains, sorted by Religion.
+ 
+ #Yokudan Religion
+ councillor_court_chaplain_yokudan_religion_county:0 "Court Imam"
+ councillor_court_chaplain_yokudan_religion_county_possessive:0 "Court Imam's"
+ councillor_court_chaplain_yokudan_religion_duchy:0 "Mufti"
+ councillor_court_chaplain_yokudan_religion_duchy_possessive:0 "Mufti's"
+ councillor_court_chaplain_yokudan_religion_kingdom:0 "Allamah"
+ councillor_court_chaplain_yokudan_religion_kingdom_possessive:0 "Allamah's"
+ councillor_court_chaplain_yokudan_religion_kingdom_female:0 "Allamaha"
+ councillor_court_chaplain_yokudan_religion_kingdom_female_possessive:0 "Allamaha's"
+ councillor_court_chaplain_yokudan_religion_empire:0 "Caliph"
+ councillor_court_chaplain_yokudan_religion_empire_possessive:0 "Caliph's"
+ councillor_court_chaplain_yokudan_religion_empire_female:0 "Calipha"
+ councillor_court_chaplain_yokudan_religion_empire_female_possessive:0 "Calipha's"
+ 
+ #Aldmer Religion
+ councillor_court_chaplain_aldmer_religion_duchy:0 "Aldarch"
+ councillor_court_chaplain_aldmer_religion_duchy_possessive:0 "Aldarch's"
+ councillor_court_chaplain_aldmer_religion_kingdom:0 "Curate"
+ councillor_court_chaplain_aldmer_religion_kingdom_possessive:0 "Curate's"
+ councillor_court_chaplain_aldmer_religion_kingdom_female:0 "Curate"
+ councillor_court_chaplain_aldmer_religion_kingdom_female_possessive:0 "Curate's"
+ councillor_court_chaplain_aldmer_religion_empire:0 "Arch-Curate"
+ councillor_court_chaplain_aldmer_religion_empire_possessive:0 "Arch-Curate's"
+ councillor_court_chaplain_aldmer_religion_empire_female:0 "Arch-Curate"
+ councillor_court_chaplain_aldmer_religion_empire_female_possessive:0 "Arch-Curate's"
+ 
+ #Druids
+ councillor_court_chaplain_druid_circles_county:0 "Druid"
+ councillor_court_chaplain_druid_circles_county_possessive:0 "Druid's"
+ councillor_court_chaplain_druid_circles_duchy:0 "Druid"
+ councillor_court_chaplain_druid_circles_duchy_possessive:0 "Druid's"
+ councillor_court_chaplain_druid_circles_kingdom:0 "Arch-Druid"
+ councillor_court_chaplain_druid_circles_kingdom_possessive:0 "Arch-Druid's"
+ councillor_court_chaplain_druid_circles_empire:0 "Arch-Druid"
+ councillor_court_chaplain_druid_circles_empire_possessive:0 "Arch-Druid's"
+ 
+ #Wyrd
+ councillor_court_chaplain_wyrd_religion_county:0 "Wyr"
+ councillor_court_chaplain_wyrd_religion_county_possessive:0 "Wyr's"
+ councillor_court_chaplain_wyrd_religion_duchy:0 "Wyr"
+ councillor_court_chaplain_wyrd_religion_duchy_possessive:0 "Wyr's"
+ councillor_court_chaplain_wyrd_religion_kingdom:0 "Arch-Wyr"
+ councillor_court_chaplain_wyrd_religion_kingdom_possessive:0 "Arch-Wyr'"
+ councillor_court_chaplain_wyrd_religion_empire:0 "Arch-Wyr"
+ councillor_court_chaplain_wyrd_religion_empire_possessive:0 "Arch-Wyr's"
+ 
+ councillor_court_chaplain_wyrd_religion_county_female:0 "Wyress"
+ councillor_court_chaplain_wyrd_religion_county__female_possessive:0 "Wyress's"
+ councillor_court_chaplain_wyrd_religion_duchy_female:0 "Wyress"
+ councillor_court_chaplain_wyrd_religion_duchy__female_possessive:0 "Wyress's"
+ councillor_court_chaplain_wyrd_religion_kingdom_female:0 "Arch-Wyress"
+ councillor_court_chaplain_wyrd_religion_kingdom__female_possessive:0 "Arch-Wyress'"
+ councillor_court_chaplain_wyrd_religion_empire_female:0 "Arch-Wyress"
+ councillor_court_chaplain_wyrd_religion_empire_female_possessive:0 "Arch-Wyress's"
+ 
+ #Bosmer Faith
+ councillor_court_chaplain_greenpact_county:0 "Green Spinner"
+ councillor_court_chaplain_greenpact_county_possessive:0 "Green Spinner's"
+ councillor_court_chaplain_greenpact_duchy:0 "Green Keeper"
+ councillor_court_chaplain_greenpact_duchy_possessive:0 "Green Keeper's"
+ councillor_court_chaplain_greenpact_kingdom:0 "Green Keeper"
+ councillor_court_chaplain_greenpact_kingdom_possessive:0 "Green Keeper'"
+ councillor_court_chaplain_greenpact_empire:0 "Green Keeper"
+ councillor_court_chaplain_greenpact_empire_possessive:0 "Green Keeper's"
+ 
+ #Tribunal
+ councillor_court_chaplain_tribunal_temple_county:0 "Court Priest"
+ councillor_court_chaplain_tribunal_temple_county_possessive:0 "Court Priest's"
+ councillor_court_chaplain_tribunal_temple_duchy:0 "Court Priest"
+ councillor_court_chaplain_tribunal_temple_duchy_possessive:0 "Court Priest's"
+ councillor_court_chaplain_tribunal_temple_kingdom:0 "Court Priest"
+ councillor_court_chaplain_tribunal_temple_kingdom_possessive:0 "Court Priest's"
+ councillor_court_chaplain_tribunal_temple_empire:0 "Patriarch"
+ councillor_court_chaplain_tribunal_temple_empire_possessive:0 "Patriarch's"
+ 
+ councillor_court_chaplain_tribunal_temple_county_female:0 "Court Priestess"
+ councillor_court_chaplain_tribunal_temple_county__female_possessive:0 "Court Priestess's"
+ councillor_court_chaplain_tribunal_temple_duchy_female:0 "Court Priest"
+ councillor_court_chaplain_tribunal_temple_duchy__female_possessive:0 "Court Priestess's"
+ councillor_court_chaplain_tribunal_temple_kingdom_female:0 "Court Priestess"
+ councillor_court_chaplain_tribunal_temple_kingdom__female_possessive:0 "Court Priestess's"
+ councillor_court_chaplain_tribunal_temple_empire_female:0 "Matriarch"
+ councillor_court_chaplain_tribunal_temple_empire__female_possessive:0 "Matriarch's"
+ 
+ #Two Moons
+ councillor_court_chaplain_twomoonsdance_county:0 "Moon-Priest"
+ councillor_court_chaplain_twomoonsdance_county_possessive:0 "Moon-Priest's"
+ councillor_court_chaplain_twomoonsdance_duchy:0 "Moon-Priest"
+ councillor_court_chaplain_twomoonsdance_duchy_possessive:0 "Moon-Priest's"
+ councillor_court_chaplain_twomoonsdance_kingdom:0 "Moon-Bishop"
+ councillor_court_chaplain_twomoonsdance_kingdom_possessive:0 "Moon-Bishop's"
+ councillor_court_chaplain_twomoonsdance_empire:0 "Moon-Archbishop"
+ councillor_court_chaplain_twomoonsdance_empire_possessive:0 "Moon-Archbishop's"
+ 
+ councillor_court_chaplain_twomoonsdance_county_female:0 "Moon-Priestess"
+ councillor_court_chaplain_twomoonsdance_county__female_possessive:0 "Moon-Priestess's"
+ councillor_court_chaplain_twomoonsdance_duchy_female:0 "Moon-Priestess"
+ councillor_court_chaplain_twomoonsdance_duchy__female_possessive:0 "Moon-Priestess's"
+ councillor_court_chaplain_twomoonsdance_kingdom_female:0 "Moon-Bishop"
+ councillor_court_chaplain_twomoonsdance_kingdom__female_possessive:0 "Moon-Bishop's"
+ councillor_court_chaplain_twomoonsdance_empire_female:0 "Moon-Archbishop"
+ councillor_court_chaplain_twomoonsdance_empire__female_possessive:0 "Moon-Archbishop's"
+ 
+ #Daedric
+ councillor_court_chaplain_daedric_county:0 "Court Priest"
+ councillor_court_chaplain_daedric_county_possessive:0 "Court Priest's"
+ councillor_court_chaplain_daedric_duchy:0 "Court Priest"
+ councillor_court_chaplain_daedric_duchy_possessive:0 "Court Priest's"
+ councillor_court_chaplain_daedric_kingdom:0 "Court Priest"
+ councillor_court_chaplain_daedric_kingdom_possessive:0 "Court Priest's"
+ councillor_court_chaplain_daedric_empire:0 "Patriarch"
+ councillor_court_chaplain_daedric_empire_possessive:0 "Patriarch's"
+ 
+ councillor_court_chaplain_daedric_county_female:0 "Court Priestess"
+ councillor_court_chaplain_daedric_county__female_possessive:0 "Court Priestess's"
+ councillor_court_chaplain_daedric_duchy_female:0 "Court Priest"
+ councillor_court_chaplain_daedric_duchy__female_possessive:0 "Court Priestess's"
+ councillor_court_chaplain_daedric_kingdom_female:0 "Court Priestess"
+ councillor_court_chaplain_daedric_kingdom__female_possessive:0 "Court Priestess's"
+ councillor_court_chaplain_daedric_empire_female:0 "Matriarch"
+ councillor_court_chaplain_daedric_empire__female_possessive:0 "Matriarch's"
+ 
+ #Lilmothiiti
+ councillor_court_chaplain_lilmothiiti_county:0 "Lawspeaker"
+ councillor_court_chaplain_lilmothiiti_county_possessive:0 "Lawspeaker's"
+ 
+ #Worm Cult
+ councillor_court_chaplain_worm_cult_county:0 "Court Anchorite"
+ councillor_court_chaplain_worm_cult_county_possessive:0 "Court Anchorite's"
+ 
+ #Xanmeer
+ councillor_court_chaplain_xanmeer_county:0 "Voh-vastei"
+ councillor_court_chaplain_xanmeer_county_possessive:0 "Voh-vastei's"
+ 
+ #Idolatry
+ councillor_court_chaplain_idolatry_county:0 "Tone Keeper"
+ councillor_court_chaplain_idolatry_county_possessive:0 "Tone Keeper's"
+ 
+ #Hero Cult
+ councillor_court_chaplain_hero_cult_county:0 "Predicant"
+ councillor_court_chaplain_hero_cult_county_possessive:0 "Predicant's"
+ councillor_court_chaplain_hero_cult_duchy:0 "Predicant"
+ councillor_court_chaplain_hero_cult_duchy_possessive:0 "Predicant's"
+ councillor_court_chaplain_hero_cult_kingdom:0 "Sacerdote"
+ councillor_court_chaplain_hero_cult_kingdom_possessive:0 "Sacerdote's"
+ councillor_court_chaplain_hero_cult_empire:0 "Prelate"
+ councillor_court_chaplain_hero_cult_empire_possessive:0 "Prelate's"
+ 
+ #Alessian Order
+ councillor_court_chaplain_alessian_county:0 "Oblate"
+ councillor_court_chaplain_alessian_county_possessive:0 "Oblate's"
+ councillor_court_chaplain_alessian_duchy:0 "Oblate"
+ councillor_court_chaplain_alessian_duchy_possessive:0 "Oblate's"
+ councillor_court_chaplain_alessian_kingdom:0 "Prelate"
+ councillor_court_chaplain_alessian_kingdom_possessive:0 "Prelate's"
+ councillor_court_chaplain_alessian_empire:0 "Prelate"
+ councillor_court_chaplain_alessian_empire_possessive:0 "Prelate's"
+ 
+ #Malacath / Shaman
+ councillor_court_chaplain_malacath_county:0 "Shaman"
+ councillor_court_chaplain_malacath_county_possessive:0 "Shaman's"
+ councillor_court_chaplain_malacath_duchy:0 "Shaman"
+ councillor_court_chaplain_malacath_duchy_possessive:0 "Shaman's"
+ councillor_court_chaplain_malacath_kingdom:0 "Shaman"
+ councillor_court_chaplain_malacath_kingdom_possessive:0 "Shaman's"
+ councillor_court_chaplain_malacath_empire:0 "High Shaman"
+ councillor_court_chaplain_malacath_empire_possessive:0 "High Shaman's"
+ 
+ #Baandari / Lorekeeper
+ councillor_court_chaplain_baandari_county:0 "Lorekeeper"
+ councillor_court_chaplain_baandari_county_possessive:0 "Lorekeeper's"
+ councillor_court_chaplain_baandari_duchy:0 "Lorekeeper"
+ councillor_court_chaplain_baandari_duchy_possessive:0 "Lorekeeper's"
+ councillor_court_chaplain_baandari_kingdom:0 "Lorekeeper"
+ councillor_court_chaplain_baandari_kingdom_possessive:0 "Lorekeeper's"
+ councillor_court_chaplain_baandari_empire:0 "Lorekeeper"
+ councillor_court_chaplain_baandari_empire_possessive:0 "Lorekeeper's"
+ 
+ #Chimeris Group + Ashlander + Orcish
+ councillor_court_chaplain_wise_woman:0 "Wise-Woman"
+ councillor_court_chaplain_wise_woman_possessive:0 "Wise-Woman's"
+
+ #Argonian Group
+ councillor_court_chaplain_sap_speaker:0 "Sap-Speaker"
+ councillor_court_chaplain_sap_speaker_possessive:0 "Sap-Speaker's"
+ councillor_steward_fruit_bearer:0 "Fruit-Bearer"
+ councillor_steward_fruit_bearer_possessive:0 "Fruit-Bearer's"
+ councillor_chancellor_root_herald:0 "Root-Herald"
+ councillor_chancellor_root_herald_possessive:0 "Root-Herald's"
+ councillor_marshal_ka_deelith:0 "War-Teacher"
+ councillor_marshal_ka_deelith_possessive:0 "War-Teacher's"
+ councillor_marshal_krona_kaal:0 "Great-Captain"
+ councillor_marshal_krona_kaal_possessive:0 "Great-Captain's"
+ councillor_spymaster_branch_pruner:0 "Leaf-Whisperer"
+ councillor_spymaster_branch_pruner_possessive:0 "Leaf-Whisperer's"
+
+ #Goblinken Group
+ councillor_court_chaplain_shaman:0 "Shaman"
+ councillor_court_chaplain_shaman_possessive:0 "Shaman's"
+ 
+ #Pirate Group
+ councillor_court_chaplain_pirate:0 "Chaplain"
+ councillor_court_chaplain_pirate_possessive:0 "Chaplain's"
+ councillor_steward_pirate:0 "Boatswain"
+ councillor_steward_pirate_possessive:0 "Boatswain's"
+ councillor_chancellor_pirate:0 "First Mate"
+ councillor_chancellor_pirate_possessive:0 "First Mate's"
+ councillor_marshal_pirate:0 "Master-at-Arms"
+ councillor_marshal_pirate_possessive:0 "Master-at-Arms's"
+ councillor_spymaster_pirate:0 "Quartermaster"
+ councillor_spymaster_pirate_possessive:0 "Quartermaster's"

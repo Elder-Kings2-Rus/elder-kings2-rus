@@ -1,0 +1,99 @@
+﻿l_russian:
+ #Default
+ holy_order_default:1 "[FAITH.GetAdjectiveNoTooltip] Militant Order of [TITLE.GetNameNoTierNoTooltip]"
+ #Dunmer
+ holy_order_dunmer:0 "Militant Ordinators of [TITLE.GetNameNoTierNoTooltip]"
+ #Dwemer
+ holy_order_artificer:0 "Artificers of [FAITH.HighGodName]"
+ holy_order_craftlords:0 "Craftlords of [TITLE.GetNameNoTierNoTooltip]"
+ #Atmoran
+ holy_order_companions:0 "[FAITH.GetAdjectiveNoTooltip] Companions of [TITLE.GetNameNoTierNoTooltip]"
+ #Akaviri
+ holy_order_syffim:0 "[FAITH.GetAdjectiveNoTooltip] Syffim of [TITLE.GetNameNoTierNoTooltip]"
+ #Fox People
+ holy_order_judicators:0 "[FAITH.GetAdjectiveNoTooltip] Judicators of [TITLE.GetNameNoTierNoTooltip]"
+ #Special
+ holy_order_necromancers_god:0 "[FAITH.HighGodName] Necromancers"
+ holy_order_necromancers:0 "[FAITH.GetAdjectiveNoTooltip] Necromancers of [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_silencers_god:0 "Silencers of [FAITH.HighGodName]"
+ holy_order_silencers:0 "[FAITH.GetAdjectiveNoTooltip] Silencers of [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_vampire_god:0 "Blood Host of [FAITH.HighGodName]"
+ holy_order_vampire:0 "Blood Host of [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_warden:0 "[FAITH.GetAdjectiveNoTooltip] Wardens of [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_spirit_wardens:0 "[FAITH.GetAdjectiveNoTooltip] Spirit Wardens of [TITLE.GetNameNoTierNoTooltip]""
+ holy_order_cultists:0 "[FAITH.HighGodName] Cultists of [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_champions:0 "[FAITH.GetAdjectiveNoTooltip] Champions of [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_zealot:0 "[FAITH.GetAdjectiveNoTooltip] Zealots of [TITLE.GetNameNoTierNoTooltip]"
+ #Named
+ holy_order_pride_of_alkosh:0 "Pride of Alkosh"
+ holy_order_stags_of_zen:0 "Stags of Z'en"
+ holy_order_brackenleaf_briars:0 "Brackenleaf Briars"
+ holy_order_green_wardens:0 "Wardens of the Green"
+ holy_order_templars_stendarr:0 "Resolute Templars of Stendarr"
+ holy_order_paladins_auriel:0 "Paladins of Auri-el"
+ holy_order_maruhkati_selective:0 "Maruhkati Selective"
+ holy_order_knights_eight:0 "Knights of the Eight"
+ holy_order_knights_iron:0 "Knights of Iron"
+ holy_order_vosh_rakh:0 "Vosh Rakh"
+ holy_order_agra_crun:0 "Agra Crun"
+ holy_order_wrathful_flame:0 "Wrathful Flame"
+ holy_order_penitent:0 "Penitent"
+ holy_order_preservers_of_the_root:0 "Preservers of the Root"
+ holy_order_boethiah:0 "Boethiah's Chosen"
+ holy_order_meridia:0 "Knights of the Gleaming Blade"
+ 
+ #Generic
+ holy_order_knights:0 "[FAITH.GetAdjectiveNoTooltip] Knights of [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_knights_of_highgod:0 "Knights of [FAITH.WarGodName]"
+ holy_order_knights_wargod:0 "Knights of [FAITH.WarGodName]"
+ holy_order_knights_healthgod:0 "Knights of [FAITH.HealthGodName]" 
+ holy_order_knights_fertilitygod:0 "Knights of [FAITH.FertilityGodName]" 
+ holy_order_knights_wealthgod:0 "Knights of [FAITH.WealthGodName]" 
+ holy_order_knights_householdgod:0 "Knights of [FAITH.HouseholdGodName]" 
+ holy_order_knights_fategod:0 "Knights of [FAITH.FateGodName]"  
+ holy_order_knights_trickstergod:0 "Knights of [FAITH.TricksterGodName]" 
+ holy_order_knights_knowledgegod:0 "Knights of [FAITH.KnowledgeGodName]" 
+ holy_order_knights_nightgod:0 "Knights of [FAITH.NightGodName]" 
+ holy_order_knights_watergod:0 "Knights of [FAITH.WaterGodName]" 
+ holy_order_knights_of_realm:0 "Knights of [FAITH.DivineRealm]"
+ holy_order_paladins:0 "[FAITH.GetAdjectiveNoTooltip] Paladins of [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_warriors:0 "[FAITH.GetAdjectiveNoTooltip] Warriors of [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_warriors_wargod:0 "Warriors of [FAITH.WarGodName]"
+ holy_order_warriors_healthgod:0 "Warriors of [FAITH.HealthGodName]" 
+ holy_order_warriors_fertilitygod:0 "Warriors of [FAITH.FertilityGodName]" 
+ holy_order_warriors_wealthgod:0 "Warriors of [FAITH.WealthGodName]" 
+ holy_order_warriors_householdgod:0 "Warriors of [FAITH.HouseholdGodName]" 
+ holy_order_warriors_fategod:0 "Warriors of [FAITH.FateGodName]"  
+ holy_order_warriors_trickstergod:0 "Warriors of [FAITH.TricksterGodName]" 
+ holy_order_warriors_knowledgegod:0 "Warriors of [FAITH.KnowledgeGodName]" 
+ holy_order_warriors_nightgod:0 "Warriors of [FAITH.NightGodName]" 
+ holy_order_warriors_watergod:0 "Warriors of [FAITH.WaterGodName]" 
+ holy_order_warriors_of_realm:0 "Warriors of [FAITH.DivineRealm]"
+ 
+#Possible
+#Buoyant Armigers
+
+#Vanilla
+#holy_order_guardians_of_divinerealm
+#holy_order_warriors_of_highgod
+
+#Things
+#[TITLE.GetNameNoTierNoTooltip]
+#[FAITH.HighGodName]
+#[FAITH.WarGodName]
+#[FAITH.DivineRealm]
+#[FAITH.ReligiousSymbol]
+#[FAITH.GetAdjectiveNoTooltip]
+
+#		{ name = "holy_order_warriors_of_highgod" }
+#       { name = "holy_order_knights_wargod" }
+#		{ name = "holy_order_knights_fertilitygod" }        
+#		{ name = "holy_order_knights_wealthgod" }        
+#		{ name = "holy_order_knights_householdgod" } 
+#		{ name = "holy_order_knights_fategod" }  
+#		{ name = "holy_order_knights_trickstergod" }  
+# 		{ name = "holy_order_knights_knowledgegod" }
+# 		{ name = "holy_order_knights_nightgod" } 
+# 		{ name = "holy_order_knights_watergod" } 
+# 		{ name = "holy_order_knights_of_realm" }         
+        

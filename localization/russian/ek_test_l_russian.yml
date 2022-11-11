@@ -1,0 +1,10 @@
+﻿l_russian:
+ TEST_WAR_GOD_NAME:0 "[ROOT.Char.GetFaith.WarGodName]"
+ TEST_HIGH_GOD_NAME:0 "[ROOT.Char.GetFaith.HighGodName]"
+ TEST_PRAXIS_EVENT_DESC:0 "DEBUG - IF YOU SEE THIS EVENT IN PLAY, RAISE A BUG. \n \n Increase or decrease Praxis?"
+ TEST_PRAXIS_EVENT_SMALL_INCREASE.DESC:0 "Increase Praxis a little"
+ TEST_PRAXIS_EVENT_INCREASE.DESC:0 "Increase Praxis"
+ TEST_PRAXIS_EVENT_LARGE_INCREASE.DESC:0 "Increase Praxis a lot"
+ TEST_PRAXIS_EVENT_SMALL_DECREASE.DESC:0 "Decrease Praxis a little"
+ TEST_PRAXIS_EVENT_DECREASE.DESC:0 "Decrease Praxis"
+ TEST_PRAXIS_EVENT_LARGE_DECREASE.DESC:0 "Decrease Praxis a lot"

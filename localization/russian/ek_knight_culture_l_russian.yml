@@ -1,0 +1,144 @@
+﻿l_russian:
+ knight_culture_player:0 "[GetPlayer.Custom( 'KnightCulture' )]"
+ knight_culture_player_plural:0 "[GetPlayer.Custom( 'KnightCulturePlural' )]"
+ knight_culture_player_no_tooltip:0 "[GetPlayer.Custom( 'KnightCultureNoTooltip' )]"
+ knight_culture_player_plural_no_tooltip:0 "[GetPlayer.Custom( 'KnightCulturePluralNoTooltip' )]"
+ knight_culture_player_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )]"
+ knight_culture_player_plural_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCulturePluralNoTooltipLowercase' )]"
+ knight_culture_player_plural_possessive_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCulturePluralPossessiveNoTooltipLowercase' )]"
+ knight_culture_player_adjective_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCultureAdjectiveNoTooltipLowercase' )]"
+  
+  # No tooltip versions
+
+ knight_nord_no_tooltip:0 "Shield-Thane"
+ knight_nord_no_tooltip_plural:0 "Shield-Thanes"
+ 
+ knight_dunmer_no_tooltip:0 "Oathman"
+ knight_dunmer_no_tooltip_plural:0 "Oathmen"
+
+ knight_champion_no_tooltip:0 "Champion"
+ knight_champion_no_tooltip_plural:0 "Champions"
+ 
+ knight_redguard_no_tooltip:0 "Sword-Sworn"
+ knight_redguard_no_tooltip_plural:0 "Sword-Sworn"
+ 
+ knight_altmer_no_tooltip:0 "Battlereeve"
+ knight_altmer_no_tooltip_plural:0 "Battlereeves"
+ 
+ knight_pirate_no_tooltip:0 "Buccaneer"
+ knight_pirate_no_tooltip_plural:0 "Buccaneers"
+ 
+ knight_ordinator_no_tooltip:0 "Ordinator"
+ knight_ordinator_no_tooltip_plural:0 "Ordinators"
+ 
+ knight_ayleid_no_tooltip:0 "Pelin"
+ knight_ayleid_no_tooltip_plural:0 "Pelin"
+ 
+ knight_syffim_no_tooltip:0 "Syffi"
+ knight_syffim_no_tooltip_plural:0 "Syffim"
+ 
+ knight_khajiit_no_tooltip:0 "Do-radhin"
+ knight_khajiit_no_tooltip_plural:0 "Do-radhin"
+ 
+ knight_bosmer_no_tooltip:0 "Jaqspur"
+ knight_bosmer_no_tooltip_plural:0 "Jaqspuri"
+ 
+ knight_lilmothiit_no_tooltip:0 "Ranger"
+ knight_lilmothiit_no_tooltip_plural:0 "Rangers"
+ 
+  
+  # Lowercase versions
+
+ knight_nord_no_tooltip_lowercase:0 "shield-thane"
+ knight_nord_no_tooltip_lowercase_plural:0 "shield-thanes"
+ knight_nord_no_tooltip_lowercase_plural_possessive:0 "shield-thanes'"
+ knight_nord_no_tooltip_lowercase_adjective:0 "shield-thane"
+ 
+ knight_dunmer_no_tooltip_lowercase:0 "oathman"
+ knight_dunmer_no_tooltip_lowercase_plural:0 "oathmen"
+ knight_dunmer_no_tooltip_lowercase_plural_possessive:0 "oathmen'"
+ knight_dunmer_no_tooltip_lowercase_adjective:0 "oathmen"
+ 
+ knight_redguard_no_tooltip_lowercase:0 "sword-sworn"
+ knight_redguard_no_tooltip_lowercase_plural:0 "sword-sworns"
+ knight_redguard_no_tooltip_lowercase_plural_possessive:0 "sword-sworns'"
+ knight_redguard_no_tooltip_lowercase_adjective:0 "sword-sworn"
+ 
+ knight_pirate_no_tooltip_lowercase:0 "buccaneer"
+ knight_pirate_no_tooltip_lowercase_plural:0 "buccaneers"
+ knight_pirate_no_tooltip_lowercase_plural_possessive:0 "buccaneers'"
+ knight_pirate_no_tooltip_lowercase_adjective:0 "buccaneer"
+
+ knight_ordinator_no_tooltip_lowercase:0 "ordinator"
+ knight_ordinator_no_tooltip_lowercase_plural:0 "ordinator"
+ knight_ordinator_no_tooltip_lowercase_plural_possessive:0 "ordinator'"
+ knight_ordinator_no_tooltip_lowercase_adjective:0 "ordinator"
+ 
+ knight_altmer_no_tooltip_lowercase:0 "battlereeve"
+ knight_altmer_no_tooltip_lowercase_plural:0 "battlereeves"
+ knight_altmer_no_tooltip_lowercase_plural_possessive:0 "battlereeves'"
+ knight_altmer_no_tooltip_lowercase_adjective:0 "battlereeve"
+ 
+ knight_ayleid_no_tooltip_lowercase:0 "pelin"
+ knight_ayleid_no_tooltip_lowercase_plural:0 "pelin"
+ knight_ayleid_no_tooltip_lowercase_plural_possessive:0 "pelin'"
+ knight_ayleid_no_tooltip_lowercase_adjective:0 "pelin"
+ 
+ knight_syffim_no_tooltip_lowercase:0 "syffi"
+ knight_syffim_no_tooltip_lowercase_plural:0 "syffim"
+ knight_syffim_no_tooltip_lowercase_plural_possessive:0 "syffim'"
+ knight_syffim_no_tooltip_lowercase_adjective:0 "syffi"
+ 
+ knight_khajiit_no_tooltip_lowercase:0 "do-radhin"
+ knight_khajiit_no_tooltip_lowercase_plural:0 "do-radhin"
+ knight_khajiit_no_tooltip_lowercase_plural_possessive:0 "do-radhin's"
+ knight_khajiit_no_tooltip_lowercase_adjective:0 "do-radhin"
+ 
+ knight_bosmer_no_tooltip_lowercase:0 "jaqspur"
+ knight_bosmer_no_tooltip_lowercase_plural:0 "jaqspuri"
+ knight_bosmer_no_tooltip_lowercase_plural_possessive:0 "jaqspuri's"
+ knight_bosmer_no_tooltip_lowercase_adjective:0 "jaqspur"
+ 
+ knight_lilmothiit_no_tooltip_lowercase:0 "ranger"
+ knight_lilmothiit_no_tooltip_lowercase_plural:0 "rangers"
+ knight_lilmothiit_no_tooltip_lowercase_plural_possessive:0 "rangers'"
+ knight_lilmothiit_no_tooltip_lowercase_adjective:0 "ranger"
+ 
+  #Game Concept versions
+
+ knight_nord:0 "[Concept( 'knight', '$knight_nord_no_tooltip$' )|E]"
+ knight_nord_plural:0 "[Concept( 'knight', '$knight_nord_no_tooltip_plural$' )|E]"
+
+ knight_champion:0 "[Concept( 'knight', '$knight_champion_no_tooltip$' )|E]"
+ knight_champion_plural:0 "[Concept( 'knight', '$knight_champion_no_tooltip_plural$' )|E]"
+ 
+ knight_dunmer:0 "[Concept( 'knight', '$knight_dunmer_no_tooltip$' )|E]"
+ knight_dunmer_plural:0 "[Concept( 'knight', '$knight_dunmer_no_tooltip_plural$' )|E]"
+
+ knight_redguard:0 "[Concept( 'knight', '$knight_redguard_no_tooltip$' )|E]"
+ knight_redguard_plural:0 "[Concept( 'knight', '$knight_redguard_no_tooltip_plural$' )|E]"
+
+ knight_pirate:0 "[Concept( 'knight', '$knight_pirate_no_tooltip$' )|E]"
+ knight_pirate_plural:0 "[Concept( 'knight', '$knight_pirate_no_tooltip_plural$' )|E]"
+
+ knight_ordinator:0 "[Concept( 'knight', '$knight_ordinator_no_tooltip$' )|E]"
+ knight_ordinator_plural:0 "[Concept( 'knight', '$knight_ordinator_no_tooltip_plural$' )|E]"
+ 
+ knight_altmer:0 "[Concept( 'knight', '$knight_altmer_no_tooltip$' )|E]"
+ knight_altmer_plural:0 "[Concept( 'knight', '$knight_altmer_no_tooltip_plural$' )|E]"
+ 
+ knight_ayleid:0 "[Concept( 'knight', '$knight_ayleid_no_tooltip$' )|E]"
+ knight_ayleid_plural:0 "[Concept( 'knight', '$knight_ayleid_no_tooltip_plural$' )|E]"
+ 
+ knight_syffim:0 "[Concept( 'knight', '$knight_syffim_no_tooltip$' )|E]"
+ knight_syffim_plural:0 "[Concept( 'knight', '$knight_syffim_no_tooltip_plural$' )|E]"
+ 
+ knight_khajiit:0 "[Concept( 'knight', '$knight_khajiit_no_tooltip$' )|E]"
+ knight_khajiit_plural:0 "[Concept( 'knight', '$knight_khajiit_no_tooltip_plural$' )|E]"
+ 
+ knight_lilmothiit:0 "[Concept( 'knight', '$knight_lilmothiit_no_tooltip$' )|E]"
+ knight_lilmothiit_plural:0 "[Concept( 'knight', '$knight_lilmothiit_no_tooltip_plural$' )|E]"
+ 
+ knight_bosmer:0 "[Concept( 'knight', '$knight_bosmer_no_tooltip$' )|E]"
+ knight_bosmer_plural:0 "[Concept( 'knight', '$knight_bosmer_no_tooltip_plural$' )|E]"
+
