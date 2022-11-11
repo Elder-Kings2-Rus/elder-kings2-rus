@@ -1,0 +1,465 @@
+﻿l_russian:
+ rf_aedra:0 "Aedric"
+ rf_daedra:0 "Daedric"
+ rf_aurbis:0 "Aurbic"
+
+ ###Religions
+ ##Aedric
+ #Nedic-Nordic
+
+ nedic_nordichouse_of_worship:0 "Temple"
+ nedic_nordichouse_of_worship_plural:0 "Temples"
+ nedic_nordicreligious_symbol:0 "Sigil of Akatosh"
+ nedic_nordicreligious_text:0 "Scriptures"
+
+ nedic_nordicreligious_head_title:0 "Arch-Primate"
+ nedic_nordicreligious_head_title_name:0 "Primacy"
+ nedic_nordicdevotee_male:0 "Monk"
+ nedic_nordicdevotee_plural:0 "Monks"
+ nedic_nordicpriest_male:0 "Priest"
+ nedic_nordicpriest_male_plural:0 "Priests"
+ nedic_nordicpriest_alternate_plural:0 "Priors"
+ nedic_nordicbishop:0 "Prior"
+ nedic_nordicbishop_plural:0 "Priors"
+ 
+ #Imperial
+ imperialreligious_head_title:0 "Arch-Prelate"
+ imperialreligious_head_title_name:0 "Chapel of Cyrodiil"
+
+ #Nordic
+ nordichouse_of_worship:0 "Shrine"
+ nordichouse_of_worship_plural:0 "Shrine"
+ nordicreligious_symbol:0 "Heart"
+ nordicreligious_text:0 "Legends"
+
+ nordicreligious_head_title:0 "Arch-Prelate"
+ nordicreligious_head_title_name:0 "Chapel of Skyrim"
+ nordicdevotee:0 "Mystic"
+ nordicdevotee_plural:0 "Mystics"
+ nordicpriest_male:0 "Clever Man"
+ nordicpriest_male_plural:0 "Clever Men"
+ nordicpriest_female:0 "Clever Woman"
+ nordicpriest_female_plural:0 "Clever Women"
+ nordicpriest_neuter:0 "Clever Folk"
+ nordicpriest_alternate_plural:0 "Priests"
+
+ #Breton
+ bretonhouse_of_worship:0 "Temple"
+ bretonhouse_of_worship_plural:0 "Temple"
+ bretonreligious_symbol:0 "Divine Banner"
+ bretonreligious_text:0 "Teachings"
+
+ bretonreligious_head_title:0 "Arch-Prelate"
+ bretonreligious_head_title_name:0 "Chapel of High Rock"
+ bretondevotee:0 "Acolyte"
+ bretondevotee_plural:0 "Acolytes"
+ bretonpriest_male:0 "Priest"
+ bretonpriest_male_plural:0 "Priests"
+ bretonpriest_female:0 "Priestess"
+ bretonpriest_female_plural:0 "Priestesses"
+ bretonpriest_neuter:0 "Priest"
+ bretonpriest_neuter_plural:0 "Priests"
+ bretonpriest_alternate_plural:0 "Priests"
+ bretonbishop_male:0 "Patriarch"
+ bretonbishop_male_plural:0 "Patriarchs"
+ bretonbishop_female:0 "Matriarch"
+ bretonbishop_female_plural:0 "Matriarchs"
+ bretonbishop_neuter:0 "Parensiarch"
+ bretonbishop_neuter_plural:0 "Parensiarchs"
+
+ #Forebear
+ redguardhouse_of_worship:0 "Temple"
+ redguardhouse_of_worship_plural:0 "Temples"
+ redguardreligious_symbol:0 "Divine Banner"
+ redguardreligious_text:0 "the Writings"
+
+ redguardreligious_head_title:0 "Arch-Prelate"
+ redguardreligious_head_title_name:0 "Chapel of Hammerfell"
+ redguarddevotee:0 "Acolyte"
+ redguarddevotee_plural:0 "Acolytes"
+ redguardpriest:0 "Priest"
+ redguardpriest_plural:0 "Priests"
+ redguardbishop:0 "Dervish"
+ redguardbishop_plural:0 "Dervishes"
+ yokudanpriest_male:0 "Dervish"
+ yokudanpriest_male_plural:0 "Dervishes"
+ yokudanpriest_alternate:0 "Dervish" #PLACEHOLDER
+ yokudanpriest_alternate_plural:0 "Dervishes" #PLACEHOLDER
+ yokudanhouse_of_worship:0 "Temple"
+ yokudanreligious_text:0 "the Writings"
+
+ #Cult of Heroes/Reman
+ hero_cult_religious_symbol:0 "Red Diamond"
+ hero_cult_religious_text:0 "Alessia's Covenant"
+
+ hero_cult_religious_head_title:0 "Diamond-Voice"
+ hero_cult_religious_head_title_name:0 "Imperial Temple"
+ hero_cult_devotee:0 "Supplicant"
+ hero_cult_devotee_plural:0 "Supplicant"
+ hero_cult_priest:0 "Predicant"
+ hero_cult_priest_plural:0 "Predicants"
+ hero_cult_priest_alternate_plural:0 "Clergy"
+ hero_cult_bishop:0 "Sacerdote"
+ hero_cult_bishop_plural:0 "Sacerdotes"
+
+ reman_cult_religious_text:0 "The Remanada"
+ reman_cult_religious_head_title:0 "Voice-of-Reman"
+ reman_cult_religious_head_title_name:0 "Remanite Temple"
+
+ #Alessian Order
+ alessian_religious_symbol:0 "The One"
+ alessian_religious_text:0 "The 77 Inflexible Doctrines"
+ alessian_houseofworship:0 "Temple"
+ alessian_houseofworship_plural:0 "Temples"
+
+ alessian_religious_head_title:0 "Arch-Prelate"
+ alessian_religious_head_title_name:0 "Alessian Order"
+ alessian_devotee:0 "Alesstic"
+ alessian_devotee_plural:0 "Alesstic"
+ alessian_priest:0 "Oblate"
+ alessian_priest_plural:0 "Oblates"
+ alessian_priest_female:0 "Abbotess"
+ alessian_priest_female_plural:0 "Abbotesses"
+ alessian_priest_alternate_plural:0 "Clergy"
+ alessian_bishop:0 "Prelate"
+ alessian_bishop_plural:0 "Prelate"
+ alessian_bishop_female:0 "Prelate"
+ alessian_bishop_female_plural:0 "Prelate"
+
+
+ #Aldmeri
+ aldmerihouse_of_worship:0 "Temple"
+ aldmerihouse_of_worship_plural:0 "Temples"
+ aldmerireligious_symbol:0 "Auri-El's Solar"
+ aldmerireligious_text:0 "Aedra's Teachings"
+
+ ceremoniarch_head_title:0 "Ceremoniarch"
+ aldmerireligious_head_title:0 "Arch-Curate"
+ aldmerireligious_head_title_name:0 "Chantry of the Aedra"
+ aldmeridevotee:0 "Monk"
+ aldmeridevotee_plural:0 "Monks"
+ aldmeripriest:0 "Curate"
+ aldmeri_priest_plural:0 "Curates"
+ aldmeribishop:0 "Aldarch"
+ aldmeri_priest_alternate:0 "Curate"
+ aldmeri_priest_alternate_plural:0 "Curates"
+ 
+ #Bosmeri
+ greenpact_house_of_worship:0 "Sacred Grove"
+ greenpact_house_of_worship_plural:0 "Sacred Groves"
+ greenpact_religious_symbol:0 "Frond and Leaf"
+ greenpact_religious_text:0 "the Green Pact"
+
+ greenpact_devotee:0 "Green Acolyte"
+ greenpact_devotee_plural:0 "Green Acolytes"
+ greenpact_priest:0 "Spinner"
+ greenpact_priest_plural:0 "Spinners"
+ greenpact_bishop:0 "Elder Spinner"
+ greenpact_bishop_plural:0 "Elder Spinners"
+ greenpact_religious_head_title:0 "Silvenar"
+ greenpact_religious_head_title_name:0 "Silvenar"
+
+ wilderking_religious_head_title:0 "Guardian-Speaker"
+ wilderqueen_religious_head_title:0 "Guardian-Speaker"
+ wilderking_religious_head_title_name:0 "the Wilderking's Court"
+
+
+##Daedric
+#Azura
+ azura_priest_male:0 "Priest"
+ azura_priest_male_plural:0 "Priests"
+ azura_positive_afterlife:0 "Moonshadow"
+ azura_religious_text:0 "Invocation of Azura"
+ azura_witchgodname_the_horned_god:0 "Azura"
+#Sanguine
+ sanguine_house_of_worship:0 "Temple"
+#Reach
+ reach_house_of_worship:0 "Shrine"
+ reach_house_of_worship_plural:0 "Shrines"
+ reach_religious_symbol:0 "Fetish"
+ reach_religious_text:0 "Lessons"
+
+ reach_religious_head_title:0 "Doricann"
+ reach_religious_head_title_name:0 "Hunting Grounds"
+ reach_devotee:0 "Shaman"
+ reach_devotee_plural:0 "Shamans"
+ reach_priest_male:0 "High Shaman"
+ reach_priest_male_plural:0 "High Shamans"
+ reach_bishop_male:0 "Hag-Husband"
+ reach_bishop_male_plural:0 "Hag-Husbands"
+ reach_bishop_female:0 "Hag"
+ reach_bishop_female_plural:0 "Hags"
+ reach_priest_alternate_plural:0 "Priests"
+
+ #Dwemer Idolatry
+ idolatryhouse_of_worship:0 "Gallery"
+ idolatryhouse_of_worship_plural:0 "Galleries"
+ idolatryreligious_symbol:0 "Cog"
+ idolatryreligious_text:0 "Lessons"
+
+ idolatryreligious_head_title:0 "Chief Architect"
+ idolatryreligious_head_title_name:0 "Shield City"
+ idolatrydevotee:0 "Tone Keeper"
+ idolatrydevotee_plural:0 "Tone Keepers"
+ idolatrypriest_male:0 "Host"
+ idolatrypriest_male_plural:0 "Hosts"
+ idolatrybishop:0 "Architect"
+ idolatrybishop_plural:0 "Architects"
+ idolatrypriest_alternate_plural:0 "Priests"
+
+ #Hagraven Cults
+ hagravenreligious_head_title:0 "Great Crone"
+ hagravenreligious_head_title_name:0 "Roost"
+ hagravenpriest:0 "Hagraven"
+ hagravenpriest_plural:0 "Hagravens"
+ hagravenbishop:0 "Crone"
+ hagravenbishop_plural:0 "Crones"
+
+#Velothi
+ velothihouse_of_worship:0 "Temple"
+ velothihouse_of_worship_plural:0 "Temples"
+ velothireligious_symbol:0 "Triplicate Banner"
+ velothireligious_text:0 "Hymns"
+
+ velothireligious_head_title:0 "Prophet"
+ velothireligious_head_title_name:0 "Velothi Faith"
+ velothidevotee:0 "Adept"
+ velothidevotee_plural:0 "Adepts"
+ velothipriest:0 "Curate"
+
+ velothipriest_plural:0 "Curates"
+ velothipriest_alternate_plural:0 "Canons"
+ velothibishop:0 "Master"
+ velothibishop_plural:0 "Masters"
+
+ #Old Velothi
+ oldvelothireligious_symbol:0 "Triplicate Banner"
+ oldvelothireligious_text:0 "Teachings of Veloth"
+
+ oldvelothireligious_head_title_name:0 "Old Temple"
+
+ #Nerevarine
+ nerevarreligious_symbol:0 "Moon-and-Star"
+ nerevarreligious_text:0 "Wraithmail Prophecies"
+
+ nerevarreligious_head_title_name:0 "New Temple"
+ nerevardevotee:0 "Initiate"
+ nerevardevotee_plural:0 "Initiates"
+ nerevarpriest:0 "Wise Woman"
+ nerevarpriest_plural:0 "Wise Women"
+ nerevarpriest_alternate_plural:0 "Shamans"
+ nerevarbishop:0 "Farseer"
+ nerevarbishop_plural:0 "Farseers"
+
+ #Tribunal
+ tribunalreligious_text:0 "Sermons"
+ tribunalreligious_head_title:0 "Alma Rula"
+ tribunalreligious_head_title_name:0 "Tribunal Temple"
+
+#Malacath
+ malacath_religious_text:0 "Code"
+ malacath_death_deity_name:0 "Malacath"
+ malacath_house_of_worship_plural:0 "Temples"
+ malacath_bishop:0 "High Priest"
+ malacath_bishop_plural:0 "High Priests"
+ malacath_house_of_worship:0 "Temple"
+ #Goblin
+ goblin_house_of_worship:0 "Sacred Cave"
+ goblin_house_of_worship_plural:0 "Sacred Caves"
+ goblin_religious_symbol:0 "Staff"
+ goblin_religious_text:0 "the Tribe's Stories"
+
+ goblin_religious_head_title:0 "Muluk-Voice"
+ goblin_religious_head_title_name:0 "The Grand Shamanocracy"
+ goblin_devotee:0 "Faithful"
+ goblin_devotee_plural:0 "Faithful"
+ goblin_priest:0 "Shaman"
+ goblin_priest_plural:0 "Shamans"
+ goblin_bishop:0 "Godspeaker"
+ goblin_bishop_plural:0 "Godspeakers"
+
+ #Hircine
+ hircine_house_of_worship:0 "Shrine"
+ hircine_priest_male:0 "Huntsman"
+ hircine_religious_text:0 "Invocation of Hircine"
+
+##Aurbic
+#Atmoran
+ atmoranhouse_of_worship:0 "Shrine"
+ atmoranhouse_of_worship_plural:0 "Shrines"
+ atmoranreligious_symbol:0 "Totems"
+ atmoranreligious_text:0 "Legends"
+
+ atmoranreligious_head_title:0 "High Totem Priest"
+ atmoranreligious_head_title_name:0 "Sovngarde"
+ atmorandevotee:0 "Greybeard"
+ atmorandevotee_plural:0 "Greybeards"
+ atmoranpriest_male:0 "Clever Man"
+ atmoranpriest_male_plural:0 "Clever Men"
+ atmoranpriest_female:0 "Clever Woman"
+ atmoranpriest_female_plural:0 "Clever Women"
+ atmoranpriest_neuter:0 "Clever Folk"
+ atmoran_bishop:0 "Totem Priest"
+ atmoran_bishop_plural:0 "Totemic Priests"
+ atmoranpriest_alternate_plural:0 "Priests"
+
+ #All Maker
+ skaal_house_of_worship:0 "Stone"
+ skaal_house_of_worship_plural:0 "Stones"
+ skaal_religious_symbol:0 "World Stones"
+ skaal_religious_text:0 "Portents"
+
+ skaalreligious_head_title:0 "Eldest"
+ skaalreligious_head_title_name:0 "Skaalacy"
+ skaaldevotee:0 "Shaman"
+ skaaldevotee_plural:0 "Shaman"
+ skaal_priest_male:0 "Shaman"
+ skaal_priest_male_plural:0 "Shaman"
+ skaal_bishop:0 "Elder"
+ skaal_bishop_plural:0 "Elder"
+ skaal_priest_alternate_plural:0 "Priests"
+ 
+ # Dragon Cult
+ dragon_cult_religious_symbol:0 "Dragon"
+ dragon_cult_religious_text:0 "Word Walls"
+ dragon_cult_religious_head_title:0 "Dragoncaller"
+ dragon_cult_religious_head_title_name:0 "Alduin's Realm"
+ dragon_cult_devotee:0 "Dragon Cultist"
+ dragon_cult_devotee_plural:0 "Dragon Cultists"
+ dragon_cult_bishop_male:0 "Dragon Priest"
+ dragon_cult_bishop_male_plural:0 "Dragon Priests"
+ dragon_cult_bishop_female:0 "Dragon Priestess"
+ dragon_cult_bishop_female_plural:0 "Dragon Priestesses"
+ dragon_cult_priest_male:0 "Priest"
+ dragon_cult_priest_male_plural:0 "Priests"
+ dragon_cult_priest_female:0 "Priestess"
+ dragon_cult_priest_female_plural:0 "Priestesses"
+ dragon_cult_priest_alternate_plural:0 "Priesthood"
+ 
+ # Ternion Totems
+ ternion_totems_house_of_worship:0 "Shrine"
+ ternion_totems_house_of_worship_plural:0 "Shrines"
+ ternion_totems_religious_symbol:0 "Totems"
+ ternion_totems_religious_text:0 "Legends"
+ ternion_totems_devotee_male:0 "Monk"
+ ternion_totems_devotee_plural:0 "Monks"
+ ternion_totems_priest_male:0 "Priest"
+ ternion_totems_priest_male_plural:0 "Priests"
+ ternion_totems_bishop:0 "Priest"
+ ternion_totems_bishop_plural:0 "Priests"
+ 
+ #Khajiiti
+ 
+ khajiiti_religious_symbol:0 "Moons"
+ khajiiti_religious_text:0 "Word of the Mane"
+
+ khajiiti_religious_head_title:0 "Mane"
+ khajiiti_religious_head_title_name:0 "Mane's Realm" 
+ #Yes I know Mane's Realm is a dumb title, but it won't actually be used in game
+ khajiiti_devotee:0 "Moon-Watcher"
+ khajiiti_devotee_plural:0 "Moon-Watchers"
+ khajiiti_priest_male:0 "Moon-Priest"
+ khajiiti_priest_male_plural:0 "Moon-Priests"
+ khajiiti_priest_female:0 "Moon-Priestess"
+ khajiiti_priest_female_plural:0 "Moon-Priestesses"
+ khajiiti_bishop:0 "Moon-Bishop"
+ khajiiti_bishop_plural:0 "Moon-Bishop" 
+ 
+ #Lilmothiiti
+ 
+ lilmothiiti_religious_symbol:0 "The Diapason"
+ lilmothiiti_religious_text:0 "The Living Law"
+
+ lilmothiiti_religious_head_title:0 "Lawgifter" #Lawgiver but I'm feeling cute :p
+ lilmothiiti_religious_head_title_name:0 "Earthly Court" #cause a Earth is a term for a large expanse of land, meant to symbolize how big (universal) this jurisdiction is 
+ lilmothiiti_devotee:0 "Jurist"
+ lilmothiiti_devotee_plural:0 "Jurists"
+ lilmothiiti_priest_male:0 "Lawspeaker"
+ lilmothiiti_priest_male_plural:0 "Lawspeakers"
+ lilmothiiti_priest_female:0 "Lawspeaker"
+ lilmothiiti_priest_female_plural:0 "Lawspeakers"
+ lilmothiiti_bishop:0 "Legist"
+ lilmothiiti_bishop_plural:0 "Legists"
+ 
+ # Worm Cult
+ wormking_religious_head_title:0 "Ascendant"
+ wormsdevotee_neuter:0 "Worm Thrall"
+ wormsdevotee_neuter_plural:0 "Worm Thralls"
+ wormspriest_male:0 "Worm Adept"
+ wormspriest_male_plural:0 "Worm Adepts"
+ wormsbishop:0 "Worm Anchorite"
+ wormsbishop_plural:0 "Worm Anchorites"
+
+ # Dwemer
+ dwemer_religious_head_title:0 "High Craftlord"
+
+ # Coiled Path
+ cppriest_female:0 "Wise Woman"
+ cppriest_female_plural:0 "Wise Women"
+
+ # Wyrd
+
+ wyrdreligious_text:0 "Root Figures"
+
+ wyrdhouse_of_worship:0 "Wyrd Tree" 
+ wyrdreligious_head_title:0 "Arch-Beldam"
+ wyrdreligious_head_title_name:0 "Arch-Beldam"
+ wyrddevotee_male:0 "Devotee"
+ wyrddevotee_male_plural:0 "Devotees"
+ wyrddevotee_female:0 "Devotee"
+ wyrddevotee_female_plural:0 "Devotees"
+ wyrddevotee_neuter:0 "Devotee"
+ wyrddevotee_neuter_plural:0 "Devotees"
+ wyrdpriest_male:0 "Wyr"
+ wyrdpriest_male_plural:0 "Wyrs"
+ wyrdpriest_female:0 "Wyress"
+ wyrdpriest_female_plural:0 "Wyrs"
+ wyrdpriest_alternate_plural:0 "Wyrs"
+ wyrdbishop_male:0 "Wyr"
+ wyrdbishop_male_plural:0 "Wyrs"
+ wyrdbishop_female:0 "Wyress"
+ wyrdbishop_female_plural:0 "Wyrs"
+ wyrdbishop_neuter:0 "Wyr"
+ wyrdbishop_neuter_plural:0 "Wyrs"
+ 
+ druidreligious_text:0 "True Way"
+ druiddreligious_head_title:0 "Arch-Druid"
+ druidreligious_head_title_name:0 "Arch-Circle"
+ druidddevotee_male:0 "Devotee"
+ druidddevotee_male_plural:0 "Devotees"
+ druidddevotee_female:0 "Devotee"
+ druidddevotee_female_plural:0 "Devotees"
+ druidddevotee_neuter:0 "Devotee"
+ druidddevotee_neuter_plural:0 "Devotees"
+ druiddpriest_male:0 "Druid"
+ druiddpriest_male_plural:0 "Druids"
+ druiddpriest_female:0 "Druid"
+ druiddpriest_female_plural:0 "Druids"
+ druiddpriest_alternate_plural:0 "Druids"
+ druiddbishop_male:0 "Druid"
+ druiddbishop_male_plural:0 "Druids"
+ druiddbishop_female:0 "Druid"
+ druiddbishop_female_plural:0 "Druids"
+ druiddbishop_neuter:0 "Druid"
+ druidbishop_neuter_plural:0 "Druids"
+ 
+ # Celestials
+
+ celestialshouse_of_worship:0 "Apex Tower"
+ celestialspriest_male_plural:0 "Priests"
+ celestialpriest_alternate_plural:0 "Priests"
+
+ # Molag Bal
+
+ molag_priest_male:0 "Priest"
+
+ # Vaermina
+
+ vaermina_priest_alternate_plural:0 "Priests"
+ vaermina_house_of_worship:0 "Temple"
+ vaermina_house_of_worship_plural:0 "Temples"
+ vaermina_religious_text:0 "Nightmares"
+
+ # Namira
+
+ namira_priest_male:0 "Priest"

@@ -1,0 +1,12 @@
+l_english:
+ #MARRIAGE
+ MARRIAGE_NO_OFFSPRING_REASON:0 "This union wouldn't produce a child: $VALUE|+0$"
+ MARRIAGE_DIFFERENT_HERITAGE_REASON:0 "Different [heritage|E]: $VALUE|+0$"
+ MARRIAGE_DIFFERENT_CULTURE_REASON:0 "Different [culture|E]: $VALUE|+0$"
+ MARRIAGE_INSULAR_CULTURE_REASON:0 "Their union would be considered culturally innapropriate: $VALUE|+0$"
+ MARRIAGE_LIFESPAN_REASON:0 "Different expected lifespan: $VALUE|+0$"
+ MARRIAGE_HEIRESS_MATRILINEAL_REASON:0 "[secondary_recipient.GetShortUIName|U] is a heiress and [recipient.GetShortUIName|U] would prefer a [matrilineal|E] marriage: $VALUE|+0$"
+ MARRIAGE_CROWN_FOREBEAR_REASON:0 "A child of the House of Akos Kasaz shall not marry an infidel of another house: $VALUE|+0$"
+ #RELIGION
+ ASK_FOR_CONVERSION_CROWN_FOREBEAR:0 "[recipient.GetCulture.GetName|E] dislikes your [actor.GetCulture.GetName|E] ways: $VALUE|+0$".
+ 

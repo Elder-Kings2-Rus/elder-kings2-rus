@@ -1,0 +1,25 @@
+﻿l_russian:
+
+ ############################
+ #          Intro           #
+ ############################
+
+  ek_narrative_intro.yashnag.t:0 "[orsinium.GetBaseNameNoTier] Lost"
+  ek_narrative_intro.yashnag.desc:0 "With the collapse of the Potentate 10 years ago, Orsinium's status as an Imperial Province was void. And instead of caring about the stability of their own crumbling realms, Breton and Redguard rulers rallied behind the banner of [edgar.GetName] and his ally, [anton.GetName], to lay siege to our glorious Orsinium. Within months they breached the outer walls and started to slaughter orcs, goblins, ogres and any other race that called Orsinium its home. Weeks later [edgar.GetFirstName] slew our king in a duel, while his men razed the king's keep to the ground.\n\nIt was then that I rallied the remainder of my clan to travel east, to our ancestral lands beyond the Karth Valley: the rich region known to the Nords as Falkreath. My horde fell upon the capital of these unprepared smalltusks, where I slew their king [falk.GetFirstName] in a duel and took his Kingdom by right of conquest and by right of our ancestors."
+  ek_narrative_intro.yashnag.a:0 "We will never forget Orsinium."
+  ek_narrative_intro.scivia.t:0 "Devoted as the Dragon"
+  ek_narrative_intro.scivia.desc:0 "Having followed the tradition of serving the Abbey of the Eight since the founding of House Scivia, I'm now riddled with doubt. While being respected by my liege, [primate.GetName] and allowed to follow my ancestral Nibenean customs, the people of the lands I rule see me only as a foreign usurper.\n\nShould I stay true to my customs and remain as a foreigner to my own peasants, convert to their culture and the culture of my liege or make an effort in converting my realm?"
+  ek_narrative_intro.scivia.a:0 "A hard decision."
+  ek_narrative_intro.telvanni_103.t:0 "Double Trouble"
+  ek_narrative_intro.telvanni_103.t.desc:0 "When me and my brother were born sixty years ago as twins as the moons, the members of House Telvanni wondered in awe what that could mean for their future. While my brother sired a bastard while carousing his life away, I spent my life secluded under infinite walls of tomes and ancient scrolls.\n\nRecently, I have heard a voice calling for me between forbidden incunabula and he promised me infinite knowledge and arcane power in return for meaningless favors. Now, I'm riddled with doubt. Should I keep my new benefactor hidden or should I embrace His power as my new faith and guide the Telvanni to an age of wise glory?"
+  ek_narrative_intro.telvanni_103.a:0 "Guide me, oh Prince of Fate!"
+
+
+  ek_narrative_intro.calantius.t:0 "Blood under the Oak Tree"
+  ek_narrative_intro.calantius.desc:0 "It was two years ago when [attrebus.GetFirstName] died. After serving him for eight long years we found ourselves once again on the battlefield, with his dying breath he named me his successor to the county of [chorrol.GetBaseNameNoTier]. [ilnori.GetFirstName] who's arrogance knows no bounds rushed for Castle [chorrol.GetBaseNameNoTier] upon hearing the news. By the time I returned and conducted a proper burial for my late king and emperor. I discovered that I now serve a new liege, None other then [ilnori.GetName]. I have reluctantly served [ilnori.GetFirstName] the usurper for the past couple of years but that shall end soon, I have amassed enough wealth and signed an alliance through marrige, all to ensure my rightful place.\n\nIt is my destiny and that of the future members of the [calantius.GetDynastyName] dynasty to reign as counts of [chorrol.GetBaseNameNoTier]. May the name [ilnori.GetDynastyName] be no more then a minor footnote on the pages of history."
+  ek_narrative_intro.calantius.a:0 "Kyne, grant me your blessing and a swift victory!"
+
+
+  ek_calantius.0001.t:0 "In the shade of the Oak Tree"
+  ek_calantius.0001.desc:0 "Finally, I have secured my rightful place and brought peace to my late liege, [attrebus.GetFirstName]. I now reign in [chorrol.GetBaseNameNoTier], the true heart of Colovia. While [ilnori.GetFirstName] pays the price for crossing me. If he knows any better he'd never challange my right again.\n\nNow that my rule is no longer disputed, my destiny is finally back on it's track, let the [calantius.GetDynastyName] dynasty and the county of [chorrol.GetBaseNameNoTier] be fused as one. Now and forever."
+  ek_calantius.0001.a:0 "To the [calantius.GetDynastyName]s, Now and Forever!"

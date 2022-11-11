@@ -1,0 +1,33 @@
+﻿l_russian:
+ modifier_spell_fortify_walls:0 "Walls Fortified"
+ modifier_spell_fortify_walls_desc:0 "The fortresses in this province have been magically warded, making any attack more difficult." #PLACEHOLDER
+ modifier_spell_destroy_walls:0 "Walls Destroyed"
+ modifier_spell_destroy_walls_desc:0 "The fortresses in this province have been magically damaged, reducing their ability to withstand a siege." #PLACEHOLDER
+ modifier_spell_shield:0 "Shielded" #wip ritual
+ modifier_spell_shield_desc:0 "This character is under the effect of a shield spell, and their troops will be less likely to die in combat." #wip ritual
+ modifier_invisibility:0 "Invisible" #wip ritual
+ modifier_invisibility_desc:0 "This character is under the effect of an invisibility spell, and will have a bonus on scheming and avoiding suffering from schemes." #wip ritual
+ modifier_consort_daedra:0 "Consorts with Daedra"
+ modifier_consort_daedra_desc:0 "Despite the risks, this mage consorts with the forces of Oblivion." #PLACEHOLDER
+ modifier_spell_burden_lesser:0 "Burdened"
+ modifier_spell_burden_lesser_desc:0 "This character is under the effect of a lesser burden spell, and their troops will move slightly slower."
+ modifier_spell_burden:0 "Burdened"
+ modifier_spell_burden_desc:0 "This character is under the effect of a burden spell, and their troops will move slower."
+ modifier_spell_burden_greater:0 "Burdened"
+ modifier_spell_burden_greater_desc:0 "This character is under the effect of a greater burden spell, and their troops will move significantly slower."
+ modifier_spell_feather:0 "Feather"
+ modifier_spell_feather_desc:0 "This character is under the effect of a feather spell, and their troops will move faster."
+ modifier_spell_still_waters:0 "Still Waters"
+ modifier_spell_still_waters_desc:0 "This character is under the effect of a still waters spell, and their ships will move slower."
+ modifier_spell_mass_paralysis:0 "Mass Paralysis"
+ modifier_spell_mass_paralysis_desc:0 "This character is under the effect of a mass paralysis spell, rendering their armies useless."
+ modifier_spell_weakness_disease:0 "Weakness to Disease"
+ modifier_spell_weakness_disease_desc:0 "This character is under the effect of a weakness to disease spell, and their health will be weaker until the spell wears off."
+ modifier_spell_weakness_weapons:0 "Weakness to Weapons"
+ modifier_spell_weakness_weapons_desc:0 "This character is under the effect of a weakness to weapons spell, and their troops will be more likely to die in combat."
+ modifier_spell_demoralize:0 "Demoralize"
+ modifier_spell_demoralize_desc:0 "This character is under the effect of a demoralization spell, and their troops will be suffering from low morale."
+ modifier_spell_hysteria:0 "Mass Hysteria"
+ modifier_spell_hysteria_desc:0 "The people in this province had their minds magically tampered with, reducing their opinion of their liege." #PLACEHOLDER
+ modifier_spell_resilience:0 "Resilience"
+ modifier_spell_resilience_desc:0 "This character is under the effect of a resilience spell, and their health is magically fortified."

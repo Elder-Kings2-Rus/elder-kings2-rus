@@ -1,0 +1,8 @@
+﻿l_russian:
+ ### sibyl of Dibella
+ divines.0002.t:0 "A Sibyl Rests"
+ divines.0002.desc:0 "One of the holy Sibyls of Dibella, [dead_sibyl_of_dibella.GetFullNameNicknamed], [dead_sibyl_of_dibella.GetDeathReason]. This is an enormous loss to all the faithful followers of the Lady of Love."
+ divines.0002.a:0 "Our Blessed Lady will guide her soul."
+ divines.0004.t:0 "A New Sibyl Was Found!"
+ divines.0004.desc:0 "After performing the secretive Exalted Protocol of the Dibellan Sibyl, the faithful priesthood of Dibella has been able to localize her new Sibyl: [new_sibyl_of_dibella.GetFullNameNicknamed]! \n\n The Sibyls of Dibella act as direct links between mortals and the Lady of Love, transmitting her sacred message to all her followers."
+ divines.0004.a:0 "A blessed day!"

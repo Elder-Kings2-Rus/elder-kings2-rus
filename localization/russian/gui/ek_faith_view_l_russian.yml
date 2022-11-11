@@ -1,0 +1,24 @@
+﻿l_russian:
+ FAITH_DOCTRINES_PANTHEON:0 "[pantheon|E] Doctrines"
+ FAITH_DOCTRINES_SECONDARY_PANTHEON:0 "Secondary Pantheon Doctrines"
+ FAITH_DOCTRINES_DAEDRIC_PRINCES:0 "Daedric Doctrines"
+ FAITH_DOCTRINES_VIRTUES_SINS:0 "[virtues|E] and [sins|E]"
+ FAITH_DOCTRINES_IMPORTANT_SPECIAL:0 "Special Doctrines"
+ 
+ FAITH_WINDOW_FERVOR_EQUILIBRIUM:0 "/[Faith.MakeScope.Var('fervor_equilibrium').GetValue|0]%"
+ 
+ 
+ ### Dynamic holy sites
+ DYNAMIC_HOLY_SITE_HELD_FAITH:0 "Held by the Faith"
+ DYNAMIC_HOLY_SITE_NOT_HELD_FAITH:0 "NOT held by the Faith"
+ DYNAMIC_HOLY_SITE_NOT_HELD_FAITH_HOSTILITY:0 "[Title.GetHolder.GetFaith.GetRelationNameTo( GetPlayer.GetFaith )|V]"
+ DYNAMIC_HOLY_SITE_ACTIVE:0 "#P Active#! Holy Site"
+ DYNAMIC_HOLY_SITE_INACTIVE:0 "#N Inactive#! Holy Site"
+ FAITH_DYNAMIC_HOLY_SITE_EXPLANATION:0 "Holy Sites held by your [faith|E] or a Faith with the correct [doctrines|E] and [faith_hostility|E] are considered #V Active#! and can be selected during a [pilgrimage|E].\nA few select Holy Sites have special abilities, which are only available if your [faith|E] owns the Holy Site."
+ 
+ dhs_effect_none:0 "Controlled Holy Site modifier:\nNo special effect"
+ dhs_effect_conversion_resistance_50:0 "Controlled Holy Site modifier:\n#P +50%#! resistance to conversion"
+ COURT_CHAPLAIN_CONVERSION_DYNAMIC_HOLY_SITE_IMPERIAL_CITY:0 "Special [holy_site|E] effect: Imperial City"
+
+ #TRADITION_CATEGORY_NAME:0 "" # <DELETE THIS KEY>
+ tradition_group_core:0 "Core"

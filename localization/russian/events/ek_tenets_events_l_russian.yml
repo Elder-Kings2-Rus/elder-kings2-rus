@@ -1,0 +1,42 @@
+﻿l_russian:
+ character_is_declared_impure:0 "[impure_character.GetFirstName] is declared [impure|E]"
+
+ ###
+ ek_tenets.0002.titleDef:0 "The Taint of Deformity"
+ ek_tenets.0002.titleImpPa:0 "The Impure Bloodline"
+ ek_tenets.0002.titleBoth:0 "A Cursed Child"
+ ek_tenets.0002.descDef:0 "It seems that [impure_character.GetFirstName] was cursed with unspeakable deformities. The elders are very clear, any imperfect child cannot pretend to be a rightful descendant of the Gods. If we are to keep our Divine parentage pure, [impure_character.GetSheHe] has to be cast aside, and declared Impure."
+ ek_tenets.0002.descImpPa:0 "The taint of impurity runs deep. Unfortunately for [impure_character.GetFirstName], [impure_character.GetHerHis] parents tainted [impure_character.GetHerHim] blood by having Impure lineage themselves. The elders have declared [impure_character.GetHerHim] Impure."
+ ek_tenets.0002.descBoth:0 "It seems that [impure_character.GetFirstName] was determined to be cursed. Born from impure parents, and tainted with untold deformities, it is said the elders themselves could barely look at [impure_character.GetHerHim] before declaring [impure_character.GetHerHim] Impure."
+ ek_tenets.0002.optA:0 "I am sorry, my child..."
+ ###
+ ek_tenets.0010.title:0 "The Taint of Impurity"
+ ek_tenets.0010.desc:0 "The tenets of our faiths are clear. To maintain our direct link from the Divine, we must ensure that we stay pure, and do not taint ourselves with lesser companions. The tenets of the heart, however, are not as clear... [impure_source.GetFirstName], with whom I have spent many nights, has been decried by the Elders as tainted, and they now claim that I have been corrupted by [impure_source.GetHerHis] touch!\n\nThey are however ready to forgive my transgression, if I swear to never see [impure_source.GetFirstName] ever again."
+ ek_tenets.0010.optA:0 "I love [impure_source.GetFirstName], and nothing will change that."
+ ek_tenets.0010.optB:0 "I am sorry [impure_source.GetFirstName]..."
+ ek_tenets.0011.title:0 "The Taint of Impurity"
+ ek_tenets.0011.desc:0 "[impure_target.GetFirstName] was recently confronted by the Elders of [impure_target.GetHerHis] faith, seemingly because of [impure_target.GetHerHis] relationship with me! They threatened [impure_target.GetHerHim] to make [impure_target.GetHerHim] an outcast in [impure_target.GetHerHis] own faith, but [impure_target.GetSheHe] stood [impure_target.GetHerHis] ground, declaring that [impure_target.GetHerHis] love for me was worth being treated as traitor."
+ ek_tenets.0011.optA:0 "We will keep loving each other, no matter what."
+ ek_tenets.0012.title:0 "The Taint of Impurity"
+ ek_tenets.0012.desc:0 "I received a missive from [impure_target.GetFirstName] yesterday. In it, [impure_target.GetSheHe] explained that we would never see each other again, as [impure_target.GetSheHe] fears that I would make [impure_target.GetHerHim] be seen as Impure and tainted among [impure_target.GetHerHis] peers. I have no choice but to accept, as the Elders of [impure_target.GetHerHis] faith would never allow such a relationship to be permitted under the [impure_target.GetFaith.GetAdjective] tenets."
+ ek_tenets.0012.optA:0 "So be it. Farewell [impure_target.GetFirstName]."
+ 
+ ###
+ ek_tenets.0101.t:0 "The old ritual"
+ ek_tenets.0101.desc_hagraven:0 "Hagravens are revered throughout the Reach, and are worshipped among some tribes. But to become a Hagraven, an already potent Witch must be ready to endure days and nights of dangerous and secret rituals. Most who try die a painful death, but those who survive become transformed with powers no other warlock or witch could claim to have.\n\nShould I seek the powers of the Hagraven, and become one of the most powerful witches of the Reach?"
+ ek_tenets.0101.desc_briarheart:0 "When the Reach and its people need to be defended, the most powerful of the Reachfolk will trade their very heart to the Hagravens, in exchange for dark and incredible powers. Their new heart, made of a briar root, gives them the name of Briarheart. The first of them, Faolan, used these new found powers to defend the Reach from countless Imperial soldiers, ages ago.\n\nShould we trade our heart, as our ancient leader did centuries ago?"
+ ek_tenets.0101.desc:0 "We have powers defying the common rules of magicka, and instead of fearing it our faith encourages us to use them to defend our people and land. Some of us are even powerful enough to tap into even greater powers and energies, and are known to cause fear and chaos among the ranks of entires armies.\n\nShould I seek the ancient rituals and ceremonies, in order to unlock these terrifying, but dangerous, powers?"
+ ek_tenets.0101.a:0 "I am ready..."
+ ek_tenets.0101.a_success:0 "The ritual is a success, and I become a [GetTrait('occultist').GetName( GetPlayer )]"
+ ek_tenets.0101.a_failure:0 "The ritual is a failure, my body and my mind falter as the dark energies shatter them"
+ ek_tenets.0101.b:0 "This sounds too risky"
+ 
+ ek_tenets.0102.desc_hagraven:0 "I have convened several of my sisters, and together we gathered the required ingredients and artifacts for this ritual. I have now been left alone for two days and two nights, surrounded by the powers unleashed at the start of the ritual. I can feel the light of the third day coming up, and I soon hear the buzzling whispers soften and the see the dark mist clear. I can finally see myself. My body has underwent a lot of changes, as the powers of the Hagraven coursed through my body.\n\nThe ritual has been a success."
+ ek_tenets.0102.desc_briarheart:0 "I feel the cold of the sacrificial stone on my back as I lay down, surrounded by Hagravens. The ritual ingredients have been gathered around me, and the chanting has begun. One of the Hagravens is handled an old stone blade, and I feel the tip of the blade on my chest before I am put to sleep. Even if the pain is subdued, I can the claws of the Hagravens searching my heart and taking it out, before a cursed briar root is placed where my heart used to be. Several hours afterwards, I open my eyes and feel the dark power coursing through my veins.\n\nThe ritual has been a success, and I am now a Briarheart."
+ ek_tenets.0102.desc:0 "I have gathered some of my brothers and sisters. We have brought the ancient tomes and artifacts, and in the next few days a handful of us will be able to master the ancient magics of the earth. Some have already given up, and a few have even died, overcome with the powers they wanted to control. But I stayed focused. After what seemed like an eternity, I can feel the old powers under my skin.\n\nIt seems I have survived the ritual, and am now a true [GetTrait('occultist').GetName( GetPlayer )]."
+ ek_tenets.0102.a:0 "I can feel the power coursing through my veins..."
+ 
+ ek_tenets.0103.desc_hagraven:0 "As the darkness settles in, I am quickly surrounded by unfathomable energies. I have trouble breathing, and the energies break my body in their attempt to reshape it. I try to scream, to ask my sisters to help, to cancel the ritual. But it is too late."
+ ek_tenets.0103.desc_briarheart:0 "As the Hagraven puts her blade in my chest, I feel a shiver down my spine. She utters a chant, but I can already feel my consciousness slipping, and she carves my heart out. The last thing I see is a pair of dark claws pressing my heart."
+ ek_tenets.0103.desc:0 "I can feel the chants pounding my ears, I can feel the candles burning the air, I can feel the dark energies we summon carve my body and my mind. But soon, I stop feeling."
+ ek_tenets.0103.a:0 "Is it already too late?"

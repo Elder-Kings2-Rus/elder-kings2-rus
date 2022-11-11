@@ -1,0 +1,3 @@
+﻿l_russian:
+ control_duchy_capital:1 "You, or a vassal, control this Duchy's capital province"
+ subject_is_dynast_house_head_object:0 "[TARGET_CHARACTER.GetShortUINamePossessive|U] [house_head|E] or [dynast|E] is [CHARACTER.GetShortUIName]"

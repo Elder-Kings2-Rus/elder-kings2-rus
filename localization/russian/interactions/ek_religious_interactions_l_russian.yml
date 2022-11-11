@@ -1,0 +1,7 @@
+﻿l_russian:
+ duel_for_claim_interaction_desc:0 "Only the Strong Shall Rule!"
+ duel_for_claim_interaction.challenge_rejected.t:0 "[recipient.GetFirstNameNoTooltip] Rejected the Challenge"
+ duel_for_claim_default_interaction.challenge_rejected.t:0 "[recipient.GetFirstNameNoTooltip] Rejected the Challenge"
+
+ HIEROCRACY_USE_DEVOTION:0 "Proclaim a Divine Command"
+ revoke_title_interaction_effect_hierocracy_use_devotion_tt:0 "By paying a sizeable amount of [piety_experience|E], I can proclaim a command from the divine and avoid being seen as a [tyrant|E]"

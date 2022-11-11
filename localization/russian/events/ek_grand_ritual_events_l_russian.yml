@@ -1,0 +1,265 @@
+﻿l_russian:
+##  LIFE Extension  ##
+
+##  OPENING  ##
+ grand_ritual.1000.t:0 "The Path to Immortality"
+ grand_ritual.1000.desc:0 "Death is inevitable, but does it have to be so soon?\n\nThe greatest mages seemingly manage to prolong their time among the living, in some cases centuries beyond their natural life. If they can do it so can I - even with just a few more years I could achieve so much!\n\nThe path I have chosen to walk is not without risks. There are many mages who only quickened their demise in the persuit of immortality."
+ grand_ritual.1000.desc.a:0 "I am confident that extending my life presents only a low risk."
+ grand_ritual.1000.desc.b:0 "I am attempting to extend my life beyond even that of the Mer. There is a moderate risk of complications."
+ grand_ritual.1000.desc.c:0 "I already expect to live centuries beyond most mortals. Further attempts to extend my life come at a high risk."
+ grand_ritual.1000.a:0 "I shall overcome death!"
+ grand_ritual.1000.b:0 "On second thought..."
+ 
+ grand_ritual.1010.t:0 "The Path to Immortality: The First Step"
+ grand_ritual.1010.desc:0 "The way to Immortality is manifold. The most common form of immortality realises itself as simple mindless beings, roaming the land in a beastly rage or serving as thralls to all sorts of nefarious purposes.\n\nMore sophisticated means involve wizardry, complex usage of alchemical properties and even toying with divinity itself.\n\nThe only common point in all of them is the improbability of achieving this goal by oneself. I must seek assistance."
+ grand_ritual.1010.a:0 "I will read the writings of a famous immortal being."
+ grand_ritual.1010.a.tooltip:0 "Begin searching for the writings of famous immortal beings."
+ grand_ritual.1010.b:0 "I will write a letter to a famous immortal being."
+ grand_ritual.1010.b.tooltip:0 "You will attempt to contact an immortal being."
+ grand_ritual.1010.c:0 "I will seek this knowledge by any means necessary."
+ grand_ritual.1010.c.tooltip:0 "You will seek daedric knowledge directly from the source."
+ grand_ritual.1010.d:0 "Start from scratch 140" #potential do it yourself option. may be to close to stage 2 theme though
+ 
+#  grand_ritual.1010.t:0 "The Path to Immortality: Super Humerus Gigantis"
+#  grand_ritual.1010.desc:0 "Extending one's life should require research and an unsurmountable amount of effort. I worry that I would spend the rest of my short life in pursuing this knowledge on my own.\n\nBut, perhaps I could take some notes on the extensive work that is already done by others and then try to add my own insights to them."
+#  grand_ritual.1010.a:0 "I will read the writings of a famous immortal being."
+#  grand_ritual.1010.a.tooltip:0 "Begin searching for the writings of famous immortal beings."
+#  grand_ritual.1010.b:0 "I will write a letter to a famous immortal being."
+#  grand_ritual.1010.b.tooltip:0 "You will attempt to contact an immortal being."
+#  grand_ritual.1010.c:0 "I will seek this knowledge by all means necessary."
+#  grand_ritual.1010.c.tooltip:0 "You will seek daedric knowledge directly from the source."
+
+ grand_ritual.1020.t:0 "Stage 2 start"
+ grand_ritual.1020.desc.a:0 "Something, something...\nThe notes I have aquired are vague/incomplete"
+ grand_ritual.1020.desc.b:0 "Something, something...\nFailed to find anything of note. fortunaetly enough to make a start/give hints"
+ grand_ritual.1020.desc.end:0 "Something, something...\nbegin experminets"
+ #options/flavor depend on succ/fail of stage 1 & path in stage 1 
+ grand_ritual.1020.a:0 "spell experiment hr/hr 210 - advanced spells" #high risk-high reward # threshold value, exceeding +chance to positive outcome,not meeting +chance to negative
+ grand_ritual.1020.b:0 "spell experiment mr/mr 220 - intermediate spells" #mid risk-mid reward #calc in after block, save scopes
+ grand_ritual.1020.c:0 "spell experiment lr/lr 230 - spell basics" #low risk-low reward
+
+ grand_ritual.1030.t:0 "Stage 3 start"
+ grand_ritual.1030.desc.a:0 "Something, something...\nThe notes I have aquired are vague/incomplete"
+ grand_ritual.1030.desc.b:0 "Something, something...\nFailed to find anything of note. fortunaetly enough to make a start/give hints"
+ grand_ritual.1030.desc.end:0 "Something, something...\nbegin experminets"
+ #options/flavor depend on succ/fail of stage 1 & path in stage 1 
+ grand_ritual.1030.a:0 "material experiment hr/hr 310 - search rare ingredients" #high risk-high reward
+ grand_ritual.1030.b:0 "material experiment mr/mr 320 - search normal ingredient" #mid risk-mid reward
+ grand_ritual.1030.c:0 "material experiment lr/lr 330 - substiute with common ingredient" #low risk-low reward
+
+ grand_ritual.1040.t:0 "Stage 4 start"
+ grand_ritual.1040.desc.a:0 "Something, something...\nThe notes I have aquired are vague/incomplete"
+ grand_ritual.1040.desc.b:0 "Something, something...\nFailed to find anything of note. fortunaetly enough to make a start/give hints"
+ grand_ritual.1040.desc.end:0 "Something, something...\nbegin experminets"
+ #options/flavor depend on succ/fail of stage 1 & path in stage 1 
+ grand_ritual.1040.a:0 "execution experiment hr/hr 410" #high risk-high reward
+ grand_ritual.1040.b:0 "execution experiment mr/mr 420" #mid risk-mid reward
+ grand_ritual.1040.c:0 "execution experiment lr/lr 430" #low risk-low reward
+
+ grand_ritual.1050.t:0 "Stage 5 start"
+ grand_ritual.1050.desc.a:0 "Something, something...\nThe notes I have aquired are vague/incomplete"
+ grand_ritual.1050.desc.b:0 "Something, something...\nFailed to find anything of note. fortunaetly enough to make a start/give hints"
+ grand_ritual.1050.desc.end:0 "Something, something...\nbegin experminets"
+ #options/flavor depend on succ/fail of stage 1 & path in stage 1 
+ grand_ritual.1050.a:0 "spell experiment 1"
+ grand_ritual.1050.b:0 "spell experiment 2"
+ grand_ritual.1050.c:0 "spell experiment 3"
+
+# stage 1 - starting point
+# stage 2 - spells going to cast/spells can cast/material component to spells/learning to cast said spells (find info & meat requirments) - save materials to be referenced in stage 3 #basically the actual magicka portion, learning to cast component spells of ritual weave
+# stage 3 - materials - foci/catalysst/ingredients - where to get them how to get them #alchemy ingrients consumed by ritual or used as foci/catalyst - wear to find them/how to aquire them, possible substitutions (for better or worse)
+# stage 4 -  #location/time of year/incantations/sigils/canticle/etc. specialty equiptment to purify/manufacture exotic ingredients
+# stage 5 - actually executing - travel to location, prep site, etc
+
+##  STAGE 1  ##
+
+ grand_ritual.1110.t:0 "Font of Knowledge"
+ grand_ritual.1110.desc:0 "Books and scrolls contain many records...\n\nblah character known for long life.\n\nblah blah aquire their writings." #aquire immortal's notes, altmer analysis of phynaster walking thing
+ grand_ritual.1110.a:0 "Library - learning based check, stress? cost"
+ grand_ritual.1110.b:0 "Merchant/Collector - stewardship based check, gold cost"
+ grand_ritual.1110.c:0 "Find another way (opt-out)"
+ grand_ritual.1111.t.succ:0 "Font of Knowledge - Success"
+ grand_ritual.1111.t.fail:0 "Font of Knowledge - Failure"
+ #grand_ritual.1111.desc:0 "Books and scrolls contain many records...\n\nblah character known for long life.\n\nblah blah aquire their writings." #aquire immortal's notes, altmer analysis of phynaster walking thing
+ grand_ritual.1111.desc.library.succ:0 "My attempts have succeeded! I have found several pages of an ancient notebook written by an unknown mage. Though incomplete, there are several indications that the mage was pursuing immortality. Their work may prove invaluable."
+ grand_ritual.1111.desc.library.fail:0 "Nothing! There is nothing!\nOver the last months I have spent days scouring any collection of books I could access, Alas I found naught."
+ grand_ritual.1111.desc.merchant.succ:0 "A few months ago I put out feelers to my mercantile contacts, letting them know I would pay a premium for books on immortility. After several obvious forgeries, today I was delivered a pristine copy of 'Analysis of Phynaster (Annotated)' by an annonymous Altmer scholar. The content is mostly theology, however sections hint at magic means to extend ones life."
+ grand_ritual.1111.desc.merchant.fail:0 "Months ago I mad it known among the merchants that I was looking for writings on immortality. It has been a disaster! I have been presented with only forgeries and fakes. At least I will not struggle to find kindling for several years."
+ grand_ritual.1111.a:0 "Excellent Progress"
+ grand_ritual.1111.b:0 "Unfortunate"
+ 
+ grand_ritual.1120.t:0 "Letter to an Antediluvian 120" #someone find a better word than antediluvian
+ grand_ritual.1120.desc:0 "-Character- is known to have an extended their life.\nTry getting their secrets" #find someone who has extended life ritual complete, or create a 'hermit'. 1 preferable. can check if have story still when that part is done
+ grand_ritual.1120.a:0 "Flattery/Persuade - diplomacy based check" #largely same for ruler/hermit
+ grand_ritual.1120.b:0 "Threat - Dread? based check" #hermit might just disappear, blackmail if you have hook?
+ grand_ritual.1120.c:0 "Steal - intrigue based check" #can be imprisoned if caught stealing
+ grand_ritual.1120.d:0 "Find another way (opt-out)"
+ 
+ grand_ritual.1130.t:0 "The Path to Immortality: Daedric Knowledge"
+ grand_ritual.1130.desc:0 "I run my eyes through a passage in a tome describing the binding of a Daedra through blood sacrifice. Skipping through the warnings of the author about the risks and possible consequences of such practices, my eyes are drawn to the word "immortality" in the desired effects. I instantly know what I must do."
+ grand_ritual.1130.a:0 "Prepare soldiers - martial based"
+ grand_ritual.1130.b:0 "fight - prowess/arcana based - duel"
+ grand_ritual.1130.c:0 "make a deal - diplomacy based"
+ grand_ritual.1130.d:0 "Find another way (opt-out)"
+ 
+ grand_ritual.1140.t:0 "Dummy Event 140"
+ grand_ritual.1140.desc:0 "Dummy Desc"
+ grand_ritual.1140.a:0 "Option A"
+ grand_ritual.1140.b:0 "Option B"
+ grand_ritual.1140.c:0 "Find another way (opt-out)"
+ 
+ grand_ritual.1150.t:0 "Dummy Event 150"
+ grand_ritual.1150.desc:0 "Dummy Desc"
+ grand_ritual.1150.a:0 "Option A"
+ grand_ritual.1150.b:0 "Option B"
+ grand_ritual.1150.c:0 "Find another way (opt-out)"
+
+##  STAGE 2  ##
+ 
+ grand_ritual.1210.t:0 "Dummy Event 210"
+ grand_ritual.1210.desc:0 "Dummy Desc"
+ grand_ritual.1210.a:0 "Option A"
+ grand_ritual.1210.b:0 "Option B"
+ grand_ritual.1210.c:0 "Option C"
+ 
+ grand_ritual.1220.t:0 "Dummy Event 220"
+ grand_ritual.1220.desc:0 "Dummy Desc"
+ grand_ritual.1220.a:0 "Option A"
+ grand_ritual.1220.b:0 "Option B"
+ grand_ritual.1220.c:0 "Option C"
+ 
+ grand_ritual.1230.t:0 "Dummy Event 230"
+ grand_ritual.1230.desc:0 "Dummy Desc"
+ grand_ritual.1230.a:0 "Option A"
+ grand_ritual.1230.b:0 "Option B"
+ grand_ritual.1230.c:0 "Option C"
+ 
+ grand_ritual.1240.t:0 "Dummy Event 240"
+ grand_ritual.1240.desc:0 "Dummy Desc"
+ grand_ritual.1240.a:0 "Option A"
+ grand_ritual.1240.b:0 "Option B"
+ grand_ritual.1240.c:0 "Option C"
+ 
+ grand_ritual.1250.t:0 "Dummy Event 250"
+ grand_ritual.1250.desc:0 "Dummy Desc"
+ grand_ritual.1250.a:0 "Option A"
+ grand_ritual.1250.b:0 "Option B"
+ grand_ritual.1250.c:0 "Option C"
+
+##  STAGE 3  ##
+ 
+ grand_ritual.1310.t:0 "Dummy Event 310"
+ grand_ritual.1310.desc:0 "Dummy Desc"
+ grand_ritual.1310.a:0 "Option A"
+ grand_ritual.1310.b:0 "Option B"
+ grand_ritual.1310.c:0 "Option C"
+ 
+ grand_ritual.1320.t:0 "Dummy Event 320"
+ grand_ritual.1320.desc:0 "Dummy Desc"
+ grand_ritual.1320.a:0 "Option A"
+ grand_ritual.1320.b:0 "Option B"
+ grand_ritual.1320.c:0 "Option C"
+ 
+ grand_ritual.1330.t:0 "Dummy Event 330"
+ grand_ritual.1330.desc:0 "Dummy Desc"
+ grand_ritual.1330.a:0 "Option A"
+ grand_ritual.1330.b:0 "Option B"
+ grand_ritual.1330.c:0 "Option C"
+ 
+ grand_ritual.1340.t:0 "Dummy Event 340"
+ grand_ritual.1340.desc:0 "Dummy Desc"
+ grand_ritual.1340.a:0 "Option A"
+ grand_ritual.1340.b:0 "Option B"
+ grand_ritual.1340.c:0 "Option C"
+ 
+ grand_ritual.1350.t:0 "Dummy Event 350"
+ grand_ritual.1350.desc:0 "Dummy Desc"
+ grand_ritual.1350.a:0 "Option A"
+ grand_ritual.1350.b:0 "Option B"
+ grand_ritual.1350.c:0 "Option C"
+
+##  STAGE 4  ##
+ 
+ grand_ritual.1410.t:0 "Dummy Event 410"
+ grand_ritual.1410.desc:0 "Dummy Desc"
+ grand_ritual.1410.a:0 "Option A"
+ grand_ritual.1410.b:0 "Option B"
+ grand_ritual.1410.c:0 "Option C"
+ 
+ grand_ritual.1420.t:0 "Dummy Event 420"
+ grand_ritual.1420.desc:0 "Dummy Desc"
+ grand_ritual.1420.a:0 "Option A"
+ grand_ritual.1420.b:0 "Option B"
+ grand_ritual.1420.c:0 "Option C"
+ 
+ grand_ritual.1430.t:0 "Dummy Event 430"
+ grand_ritual.1430.desc:0 "Dummy Desc"
+ grand_ritual.1430.a:0 "Option A"
+ grand_ritual.1430.b:0 "Option B"
+ grand_ritual.1430.c:0 "Option C"
+ 
+ grand_ritual.1440.t:0 "Dummy Event 440"
+ grand_ritual.1440.desc:0 "Dummy Desc"
+ grand_ritual.1440.a:0 "Option A"
+ grand_ritual.1440.b:0 "Option B"
+ grand_ritual.1440.c:0 "Option C"
+ 
+ grand_ritual.1450.t:0 "Dummy Event 450"
+ grand_ritual.1450.desc:0 "Dummy Desc"
+ grand_ritual.1450.a:0 "Option A"
+ grand_ritual.1450.b:0 "Option B"
+ grand_ritual.1450.c:0 "Option C"
+
+##  STAGE 5  ##
+ 
+ grand_ritual.1510.t:0 "Dummy Event 510"
+ grand_ritual.1510.desc:0 "Dummy Desc"
+ grand_ritual.1510.a:0 "Option A"
+ grand_ritual.1510.b:0 "Option B"
+ grand_ritual.1510.c:0 "Option C"
+ 
+ grand_ritual.1520.t:0 "Dummy Event 520"
+ grand_ritual.1520.desc:0 "Dummy Desc"
+ grand_ritual.1520.a:0 "Option A"
+ grand_ritual.1520.b:0 "Option B"
+ grand_ritual.1520.c:0 "Option C"
+ 
+ grand_ritual.1530.t:0 "Dummy Event 530"
+ grand_ritual.1530.desc:0 "Dummy Desc"
+ grand_ritual.1530.a:0 "Option A"
+ grand_ritual.1530.b:0 "Option B"
+ grand_ritual.1530.c:0 "Option C"
+ 
+ grand_ritual.1540.t:0 "Dummy Event 540"
+ grand_ritual.1540.desc:0 "Dummy Desc"
+ grand_ritual.1540.a:0 "Option A"
+ grand_ritual.1540.b:0 "Option B"
+ grand_ritual.1540.c:0 "Option C"
+ 
+ grand_ritual.1550.t:0 "Dummy Event 550"
+ grand_ritual.1550.desc:0 "Dummy Desc"
+ grand_ritual.1550.a:0 "Option A"
+ grand_ritual.1550.b:0 "Option B"
+ grand_ritual.1550.c:0 "Option C"
+
+##  OUTCOME  ##
+
+ grand_ritual.1901.t:0 "Total Failure"
+ grand_ritual.1901.desc:0 "All my preparations were for naught. The ritual has failed catastrophically. I feel my conscience wavering..."
+ grand_ritual.1901.a:0 "I wonder were I went wrong..."
+
+ grand_ritual.1902.t:0 "Partial Failure"
+ grand_ritual.1902.desc:0 "All my preparations were for naught. The ritual has failed. I am wounded but alive."
+ grand_ritual.1902.a:0 "It could be worse, but not by much."
+
+ grand_ritual.1903.t:0 "Inconsequential Failure"
+ grand_ritual.1903.desc:0 "All my preparations were for naught. The ritual has failed. Fortunately I was able to maintain some control of the magicka and remain unharmed."
+ grand_ritual.1903.a:0 "I don't want to know what could have happened."
+
+ grand_ritual.1904.t:0 "Partial Success"
+ grand_ritual.1904.desc:0 "All my preparations have come to fruition. The ritual has succeeded. I was unable to maintain full control and was injured in the backlash."
+ grand_ritual.1904.a:0 "At least I have plenty of years to recover."
+
+ grand_ritual.1905.t:0 "Total Success"
+ grand_ritual.1905.desc:0 "All my preparations have come to fruition. The ritual has succeeded completely! I was able to maintain my control throughout the ritual."
+ grand_ritual.1905.a:0 "I am one step closer to immortality!"
