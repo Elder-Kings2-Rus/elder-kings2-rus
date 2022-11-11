@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_russian:
  CW_DATE_January:0 "[SelectLocalization(EqualTo_string(GetPlayer.GetCulture.GetHeritage.GetNameNoTooltip, Localize('heritage_argonian_name')), 'EK_DATE_January_ARG', 'EK_DATE_January')]"
  CW_DATE_February:0 "[SelectLocalization(EqualTo_string(GetPlayer.GetCulture.GetHeritage.GetNameNoTooltip, Localize('heritage_argonian_name')), 'EK_DATE_February_ARG', 'EK_DATE_February')]"
  CW_DATE_March:0 "[SelectLocalization(EqualTo_string(GetPlayer.GetCulture.GetHeritage.GetNameNoTooltip, Localize('heritage_argonian_name')), 'EK_DATE_March_ARG', 'EK_DATE_March')]"
