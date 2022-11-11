@@ -1,0 +1,40 @@
+﻿l_russian:
+ ek_scmc.0001.desc:0 "It seems that the procrastination to remove the plague of bandits from our land has had some unfortunate side effects.\n\n[bandit_leader.GetFirstNameNoTooltip], as the leader of the self-proclaimed [ROOT.Char.Custom('BanditFaction')], have started enacting banditry in the [bandit_county.GetTitle.GetName], claiming that our court doesn't care for the common people and robbery is the only way of feeding their families."
+ ek_scmc.0001.a:0 "Sooner or later they will be eating steel!"
+ ek_scmc.0001.t:0 "Crisis Averted!"
+ ek_scmc.0010.d:0 "The last smudge of organised crime in [GetPlayer.GetCurrentLocation.GetName] is gone and the people is saved!"
+ ek_scmc.0010.optA:0 "Rejoice, citizens!"
+ ek_scmc.0010.optA_bandits_defeated_tt:0 "You have crushed all the bandits who tried to conquer your lands!"
+ ek_scmc.8003.t:0 "Bandit Uprising: Inheritance"
+ ek_scmc.8003.desc:0 "[predecessor.GetTitledFirstName] often talked about the bandits that were plaguing [predecessor.GetHerHis] lands; ruthless and horrifying crooks.\n\nEvery step [predecessor.GetSheHe] took to curb the uprising have been left in place, and I can only hope that it is enough..."
+ ek_scmc.8003.a:0 "May the curse that plagued [GetPlayer.GetCurrentLocation.GetName] have died with [predecessor.GetHerHim]."
+
+ ek_scmc.1001.t:1 "Bandit Uprising: Pray for the Stolen Socks"
+ ek_scmc.1001.desc:1 "#EMP Crash!#! I... where am I? What's going on? I peer into the darkness, my eyes adjusting. #EMP [ROOT.Char.GetFaith.HighGodName].#! There is someone by my bedroom window.\n\nI scramble out of bed and run to intercept, but the intruder is faster. They are gone in a blink, before my own eyes!\n\nThe morning after, a guard tells me it was one of the bandits that plague the area. Luckily, all they stole were socks from my drawer."
+ ek_scmc.1001.a:0 "I will pray for the bandit."
+ ek_scmc.1001.b:0 "Make sure everyone's accounted for, at #EMP all#! times."
+ ek_scmc.1001.b.tt:0 "I will limit the movement of everyone at court — hopefully pressuring the bandit to reveal themselves"
+ ek_scmc.1001.c:0 "Double the guards!"
+ ek_scmc.1001.c.tt:0 "Extra guards will surely deter those bandits – or at least hinder them!"
+ ek_scmc.1001.d:0 "Has anyone seen anything? Please, I need your help!"
+ ek_scmc.1001.d.tt:0 "I make it known throughout the realm that I am looking for information and clues."
+ ek_scmc.1001.e:0 "I will investigate this. Personally."
+ ek_scmc.1001.e.tt:0 "I will bring my knowledge to bear in this case."
+ ek_scmc.1001.e.success:0 "You find the criminal"
+ tooltip.ek_scmc.1001.e.success:0 "You Found the Bandit"
+ ek_scmc.1001.e.failure:0 "The criminal eludes you"
+ tooltip.ek_scmc.1001.e.failure:0 "The Bandit Eludes You"
+
+ ek_scmc.1002.t:1 "Bandit Uprising: An Unrefusable Offer"
+ ek_scmc.1002.desc:0 "At first, I thought it a joke — how could [crisis_bandit_leader.GetFirstNameNoTooltip], one of the bandit leaders who have been plaguing my lands, have the nerve to come to me and make me an offer to give me a cut of their profits if I looked the other way on their operations?\n\nSurely, this audacity calls for an appropriate answer."
+ ek_scmc.1002.a:0 "And how much exactly is this profit?"
+ ek_scmc.1002.b:0 "And how much would it take for your band to leave?"
+ ek_scmc.1002.c:0 "Guards, seize this [crisis_bandit_leader.GetWomanMan] and prepare yourselves to battle!"
+ ek_scmc.1002.c.tt:0 "You imprison the bandit leader and your guards rout the bandit camp!"
+ ek_scmc.1002.d:0 "The realm cannot afford to deal with miscreants!"
+
+ ek_scmc.8001.t:0 "Bandit Uprising: Land of Outlaws"
+ ek_scmc.8001.desc:0 "The time has passed for a less violent solution. [ROOT.Char.Custom('BanditFaction')] have taken hold of [bandit_county.GetName], lead by [bandit_leader.GetFirstNameNoTooltip]."
+
+ ek_scmc.0001.goblin:0 "" #PLACEHOLDER
+

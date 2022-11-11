@@ -1,0 +1,28 @@
+﻿l_russian:
+ central_tamriel.0001.t:0 "The Seat of Sundered Kings"
+ central_tamriel.0001.desc:0 "Even though the Akaviri Potentates had no claim to the Ruby Throne, they've kept relative peace within [GetTitleByKey('e_cyrodiil').GetNameNoTier] - and thus, its two halves together.\nNow, years after the snakes have fallen, Colovia and Nibenay are once again as disconnected as they have last been since the days before Emperor [reman_cyrodiil.GetFirstName] united them both in the first place.\n\nIn a formal treaty, [ce_holder.GetTitledFirstName] and [cn_holder.GetTitledFirstName] recognized each other as the [ce_holder.GetTitleTierName] of [GetTitleByKey('e_colovian_estates').GetNameNoTier] and the [cn_holder.GetTitleTierName] of [GetTitleByKey('e_nibenay').GetNameNoTier], respectively.\n\nOnly time will tell if this marks the end of the Empires of Cyrodiil, or if one side will try to one day claim the Ruby Throne again..."
+ central_tamriel.0001.a:0 "A land divided, but a land at peace?"
+
+ central_tamriel.0002.t:0 "A Sundering Undone"
+ central_tamriel.0002.desc.intro:0 "As [attrebus_sosildor.GetFirstName]'s attempt of stabilizing [GetTitleByKey('e_cyrodiil').GetNameNoTier] failed, the two halves of Colovia and Nibenay further estranged themselves from each other, leading to a formal split."
+ central_tamriel.0002.desc.war:0 "\n\nMany in Cyrodiil feared that the stalemate could never be broken, and that the Cyrodiilics would stay divided for centuries. But it seems that fate was on the side of [winner.GetFullName], as [winner.GetHerHis] armies clashed with those of [loser.GetFullName], and prevailed! As [winner.GetSheHe] marched through [loser.GetFirstName]'s territory, each King and Duke still loyal to the now defeated pretender swore alliegeance to [winner.GetFirstName], until there was none left to contest [winner.GetHerHis] claim."
+ central_tamriel.0002.desc.other:0 "\n\nYears have passed, and while many thought an open war between the two halves of the province over the crown would never happen, fate decided that the home of the Cyrodiilics should be unified peacefully."
+ central_tamriel.0002.desc.eastern:0 "\n\nCyrodiil will once again be ruled by the Nibenese, just like in the days of holy [alessia_alessia.GetFullName]!"
+ central_tamriel.0002.desc.western:0 "\n\nCyrodiil will once again be ruled by the Colovians, just like in the days of great [reman_cyrodiil.GetFullName]."
+ central_tamriel.0002.desc.heart:0 "\n\nAnd once again the Heartlands will serve as Cyrodiils seat of power."
+ central_tamriel.0002.a:0 "Once again our people are united under the Ruby Throne."
+
+ central_tamriel.0003.t:0 "A Sundering Undone"
+ central_tamriel.0003.desc.intro:0 "As [attrebus_sosildor.GetFirstName]'s attempt of stabilizing [GetTitleByKey('e_cyrodiil').GetNameNoTier] failed, the two halves of Colovia and Nibenay further estranged themselves from each other, leading to a formal split."
+ central_tamriel.0003.desc.war:0 "\n\nMany in Cyrodiil feared that the stalemate could never be broken, and that the Cyrodiilics would stay divided for centuries. But it seems that fate was on the side of [winner.GetFullName], as [winner.GetHerHis] armies clashed with those of [loser.GetFullName], and prevailed! As [winner.GetSheHe] marched through [loser.GetFirstName]'s territory, each King and Duke still loyal to the now defeated pretender swore alliegeance to [winner.GetFirstName], until there was none left to contest [winner.GetHerHis] claim."
+ central_tamriel.0003.desc.other:0 "\n\nYears have passed, and while many thought an open war between the two halves of the province over the crown would never happen, fate decided that the home of the Cyrodiilics should be unified peacefully."
+ central_tamriel.0003.desc.eastern:0 "\n\nCyrodiil will once again be ruled by the Nibenese, just like in the days of holy [alessia_alessia.GetFullName]!"
+ central_tamriel.0003.desc.western:0 "\n\nCyrodiil will once again be ruled by the Colovians, just like in the days of great [reman_cyrodiil.GetFullName]."
+ central_tamriel.0003.desc.heart:0 "\n\nAnd once again the Heartlands will serve as Cyrodiils seat of power."
+ central_tamriel.0003.desc.default:0 "\n\nHistorically, a rising Empire at the heart of Tamriel meant only one thing: invasion and annexation of surrounding territories. It remains to be seen if this will be the case this time also."
+ central_tamriel.0003.a:0 "Once again an Empire sits at the heart of Tamriel..."
+
+ central_tamriel.0005.t:0 "The Seat of Sundered Kings"
+ central_tamriel.0005.desc:0 "For too long, the Ruby Throne has remained vacant. For too long, nobody truly came close to restoring the Empire. By now Colovia and Nibenay, the two halves of Cyrodiil, have estranged themselves so much they are once again as disconnected as they have last been since the days before Emperor [reman_cyrodiil.GetFirstName] united them both in the first place.\n\nFrom this day on, [GetTitleByKey('e_nibenay').GetNameNoTier] and [GetTitleByKey('e_colovian_estates').GetNameNoTier] are once again considered their own entities - and [GetTitleByKey('e_cyrodiil').GetNameNoTier] is but a distant memory."
+ central_tamriel.0005.a:0 "Dark days ahead..."
+ central_tamriel.explanation.tt:0 "This has happened because neither [GetTitleByKey('e_cyrodiil').GetNameNoTier] nor [GetTitleByKey('e_cyrodiilic_potentate').GetNameNoTier] existed in the last 50 years."

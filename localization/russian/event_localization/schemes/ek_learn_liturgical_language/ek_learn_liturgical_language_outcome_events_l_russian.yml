@@ -1,0 +1,10 @@
+﻿l_russian:
+ ek_learn_liturgical_language_outcome.1000.t:0 "$ek_learn_liturgical_language$: Success!"
+ ek_learn_liturgical_language_outcome.1000.desc:0 "After lots of hard work, my knowledge of the language used by the priests and written down in our sacred texts has no more secrets to me!\n\nWhile most of the common folk painfully tries to recite the tenants of our faiths, I am able to understand them in a way few can.\n\nAs I spoke with some priests fluently, I see that they now hold a renewed respect for me and my rule..."
+ ek_learn_liturgical_language_outcome.1000.a:0 "I feel accomplished!"
+ 
+ ek_learn_liturgical_language_outcome.2000.t:0 "$ek_learn_liturgical_language$: Failure"
+ ek_learn_liturgical_language_outcome.2000.desc:0 "After lots of hard work... nothing! No matter how much I try, the sacred texts of my faith and the sermons of the priests around me are impossible to understand, and I feel like I will never be able to understand the word of the divine...\n\nShould I stop? Or is it but a challenge sent by the divine to test my strength of will?"
+ ek_learn_liturgical_language_outcome.2000.a:0 "I admit defeat... The word of divine is too difficult to undersand."
+ ek_learn_liturgical_language_outcome.2000.b:0 "No! I need to start over, and do it right this time."
+ ek_learn_liturgical_language_outcome:0 "The [scheme|E] loses half of its progress, but stays active"

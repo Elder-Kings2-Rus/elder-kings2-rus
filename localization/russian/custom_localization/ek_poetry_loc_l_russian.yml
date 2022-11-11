@@ -1,0 +1,17 @@
+﻿l_russian:
+ generatepoem_title_romance_ek_01:0 "[ROOT.Char.Custom('GeneratePoem_Title_Fragment_Sobriquet')] of [ROOT.Char.Custom('GeneratePoem_Title_Fragment_Emotion')]"
+
+ generatepoem_title_pillow:0 "Pillow"
+
+ GeneratePoem_Intro_Rhyming_RomanceEK_01:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_RomanceEK_01_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_RomanceEK_01_B')]#!"
+ GeneratePoem_Intro_Rhyming_RomanceEK_02:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_RomanceEK_02_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_RomanceEK_02_B')]#!"
+ GeneratePoem_Intro_Rhyming_RomanceEK_01_A_01:0 "Head upon my pillow rest\nSweet dreams play behind my eyes,"
+ GeneratePoem_Intro_Rhyming_RomanceEK_01_B_01:0 "I long once more for sleep to come\nFor day would drown me with its lies"
+
+ GeneratePoem_Outro_Rhyming_RomanceEK_01:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Outro_Rhyming_RomanceEK_01_A')]\n[ROOT.Char.Custom('GeneratePoem_Outro_Rhyming_RomanceEK_01_B')]#!"
+ GeneratePoem_Outro_Rhyming_RomanceEK_02:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Outro_Rhyming_RomanceEK_02_A')]\n[ROOT.Char.Custom('GeneratePoem_Outro_Rhyming_RomanceEK_02_B')]#!"
+
+ GeneratePoem_Outro_Rhyming_RomanceEK_01_A_01:0 "My lover lays beside me then\n[ROOT.Var('poem_subject').Char.GetHerHis] smile bright, [ROOT.Var('poem_subject').Char.GetHerHis] skin aglow"
+ GeneratePoem_Outro_Rhyming_RomanceEK_01_B_01:0 "Death cannot contain [ROOT.Var('poem_subject').Char.GetHerHim] then\nBut morning comes and [ROOT.Var('poem_subject').Char.GetSheHe] must go"
+ GeneratePoem_Outro_Rhyming_RomanceEK_02_A_01:0 "I will sleep once more\nAnd never wake"
+ GeneratePoem_Outro_Rhyming_RomanceEK_02_B_01:0 "My soul this night\nShall take"

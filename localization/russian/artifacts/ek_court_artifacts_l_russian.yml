@@ -1,0 +1,929 @@
+﻿l_russian:
+ feature_animal_skull_type_dragon:0 "an ancient creature of legend; a dragon"
+ feature_animal_skull_type_giant_wasp:0 "a giant wasp"
+ feature_animal_skull_type_bull_netch:0 "a ferocious bull netch"
+ feature_animal_skull_type_kwama_warrior:0 "a protective kwama warrior"
+ feature_animal_skull_type_cliff_strider:0 "a relentless cliff-strider"
+ feature_animal_skull_type_alit:0 "a fearsome alit"
+ feature_animal_skull_type_gryphon:0 "a majestic gryphon"
+ feature_animal_skull_type_troll:0 "a brutish troll"
+ feature_animal_skull_type_lurcher:0 "a massive lurcher"
+ feature_animal_skull_type_crocodile:0 "an enourmous crocodile"
+ feature_animal_skull_type_dreugh:0 "a nightmarish dreugh"
+ feature_animal_skull_type_sep_adder:0 "a powerful sep-adder"
+ feature_animal_skull_type_wamasu:0 "a wamasu with shiny scales"
+ feature_animal_skull_type_giant_bat:0 "a giant bat"
+ 
+ artifact_skull_numinex_name:1 "Skull of Numinex"
+ artifact_skull_numinex_description:0 "The gigantic skull of the ancient dragon Numinex, a ferocious beast which terrorized the countryside before being defeated by Olaf One-Eye. After having beaten the beast Olaf brought it to Whiterun, where it was imprisoned for many years before its death, after which its skull was carved and placed in the throne room, watching over the Jarl's court."
+ 
+ artifact_throne_ruby_name:1 "Ruby Throne"
+ artifact_throne_ruby_description:0 "Proverbial Seat of Sundered Kings, the Ruby Throne — a fine example of Ayleid opulence tempered through Nedic craftsmanship — has served as throne on high from which issued forth the wisdom of Alessia and the fury of Reman. And now, perhaps, your own designs on Tamriel."
+
+ artifact_throne_camoran_name:1 "Camoran Throne"
+ artifact_throne_camoran_description:0 "A regal seat fashioned out of grahtwood nurtured by the best treeshapers, Eplear Camoran is reported to have chosen the saplings personally as they were surrounded by a coven of spriggans.\nThe Camoran Throne is a symbol of established power within all of Valenwood few would ignore"
+
+ artifact_flask_lillandril_name:1 "Flask of Lillandril"
+ artifact_flask_lillandril_description:0 "A precious flask of obscure origins, the Flask of Lillandril possesses the wondrous abilities to absorb and reflect magic as if it were a receptacle for magicka itself. It is one of the most treasured relics of Summerset Isle, and the people of Lillandril cherish it as a heirloom of their own great city."
+
+ artifact_varla_stone_name:1 "Varla Stone"
+ artifact_varla_stone_description:0 "An enchanted shard of cut Meteoric Glass, a rare type of Aetherial Fragment, created by the Ayleids. The luminescent crystals of white or blue hue are remarkably powerful, enabling untrained users to restore magical energy to any number of enchanted items. Because of their great value and utility, many of these artifacts were looted from Ayleid ruins."
+
+ artifact_dwemer_puzzle_box_name:1 "Dwemer Puzzle Box"
+ artifact_dwemer_puzzle_box_description:0 "An intricate little cube not bigger than the size of a fist, made of a coppery metal, with a circular design and symbols on one side and some lined marks on the other sides."
+
+ artifact_indoril_death_mask_name:1 "Indoril Death Mask"
+ artifact_indoril_death_mask_description:0 "The golden face mask purportedly buried with Indoril Nerevar, though there were many replicas fashioned for failed Nerevarines."
+
+ artifact_aok_name:1 "Amulet of Kings"
+ artifact_aok_description:0 "This amulet, also known as the Amulet of the Kings of Glory, is a pendant traditionally worn by the ruling emperor of Cyrodiil. In the center of the amulet is the Chim-el Adabal, also known as the Red Diamond, a huge soul gem of Ayleid origin." # PLACEHOLDER
+
+ artifact_lords_mail_name:1 "Lord's Mail"
+ artifact_lords_mail_description:0 "An ancient plated cuirass of unsurpassable quality, considered to grant the wearer the power to absorb or regenerate health, resist the effects of spells, and resist or even cure poison. \nIt is said that whenever Kynareth deigns the wearer unworthy, the Lord's Mail will be taken away and hidden for the next chosen one."
+
+ artifact_antique_map_name:1 "Antique Map"
+ artifact_antique_map_description:0 "A master cartographer lent their skills to the crafting of this map untold years ago." # PLACEHOLDER
+
+ artifact_nordic_urn_name:1 "Ancient Nordic Urn"
+ artifact_nordic_urn_description:0 "Usually found in antique Nordic barrows, now this urn may have contained offerings, organs or prayers for the soul of the departed" # PLACEHOLDER
+
+ artifact_old_sword_name:1 "Ancestral Nordic Sword"
+ artifact_old_sword_description:0 "Found in a Nordic burial crypt, this sword could have belonged to a number of Nordic heroes of the past." # PLACEHOLDER
+
+ artifact_redguard_flag_name:1 "Redguard Battle Flag"
+ artifact_redguard_flag_description:0 "Folded battle flag of the First Ska'vyn Camel Scouts, torn in three places and spotted with blood." # PLACEHOLDER
+
+ artifact_argonian_statuette_name:1 "Pre-Duskfall Argonian Relic"
+ artifact_argonian_statuette_description:0 "While not exactly uncommon, this pre-duskfall statuette holds immense historical significance."  # PLACEHOLDER
+
+ artifact_targe_of_the_blooded_name:1 "Targe of the Blooded"
+ artifact_targe_of_the_blooded_description:0 "Having large steel spikes attached to it, this type of shield is favored by bandits in Hammerfell."  # PLACEHOLDER
+
+ artifact_crown_verity_name:1 "Crown of Verity"
+ artifact_crown_verity_description:0 "A magical artifact created to test the worthiness of potential rulers of Skyrim, made by mages sent by each hold in Skyrim, dedicated in creating a method of electing a High King." # PLACEHOLDER
+
+ artifact_mace_aevar_name:1 "Mace of Aevar Stone-Singer"
+ artifact_mace_aevar_description:0 "According to legend, this prized Skaal artifact was used by the eponymous hero to amplify the Song of the Earth, returning the Gift of the Earth and making the land rich again for the Skaal. It is crafted out of stalhrim, a material as precious as ebony but endemic to Solstheim" # PLACEHOLDER
+
+ artifact_diadem_diagna_name:1 "Diadem of Diagna"
+ artifact_diadem_diagna_description:0 "Along with the Throne of Hegathe, this Diadem named after the Orichalc God of the Sideways Blade is traditionally used by anyone ruling over the High Kingdom of Hammerfell." # PLACEHOLDER
+
+ artifact_ansei_ward_majah_name:1 "Ansei Majah's Ward"
+ artifact_ansei_ward_radan_name:1 "Ansei Radan's Ward"
+ artifact_ansei_ward_halelah_name:1 "Ansei Halelah's Ward"
+ artifact_ansei_ward_description:0 "One of the three Ansei Wards of legend that carries the spirit of one of the Three Ansei Heroes, making sure that every dead consecrated to Tu'whacca could not be risen even by the most powerful necromancy." # PLACEHOLDER
+
+ artifact_orichalc_scalpel_name:1 "Orichalc Scalpel"
+ artifact_orichalc_scalpel_description:0 "Fashioned out of the orichalcum gear of fallen berserkers, this famous sword is a proof of House Cumberland's service during the Siege of Orsinium." # PLACEHOLDER
+
+ artifact_black_iron_name:1 "Black Iron"
+ artifact_black_iron_description:0 "A powerful blade of skyfallen iron that forged a mighty dynasty, its first owner was the Iron Son, a mighty ruler of ancient Camlorn." # PLACEHOLDER
+ 
+ artifact_kingmakers_trove_name:1 "Kingmaker's Trove"
+ artifact_kingmakers_trove_description:0 "A gorgeous chest finely decorated with filigrees similar to those found around the prows of the Bretonic All-Flags warships and a tree-shaped relief reminiscent of the First Era."  # PLACEHOLDER
+
+ artifact_rithana_name:1 "Rithana-di-Renada"
+ artifact_rithana_description:0 "The Song of Kingdoms is an ancient stone mural portraying the sixteen kingdoms of Elsweyr, symbolic of the harmony, unity, and peace between them. The Singing Crystal, its centerpiece, emits a beautiful melody when placed in the mural, hence the name." # PLACEHOLDER
+
+ artifact_veloths_judgement_name:1 "Veloth's Judgement"
+ artifact_veloths_judgement_description:0 "Saint Veloth wielded a daedric warhammer as a symbol of power and authority during his exodus from Summerset. It has been said that the Judgement of Saint Veloth, as it became known, could cleanse the corruption from the souls of those it struck down." # PLACEHOLDER
+
+ artifact_staff_rootmender_name:1 "Rootmender's Staff"
+ artifact_staff_rootmender_description:0 "A symbol of authority donned by every Sap-Speaker in the Root-Whisper Tribe. It is capable of overbearing magic attacks and ensures the continued heritage of the tribe, through thick and thin." # PLACEHOLDER
+
+ artifact_wuuthrad_name:1 "Wuuthrad"
+ artifact_wuuthrad_description:0 "Meaning "Storm's Tears" in Atmoran, this is the legendary battleaxe wielded by Ysgramor during the Merethic Era." # PLACEHOLDER
+ 
+ artifact_crown_anton_name:1 "Jeweled Crown of Anton"
+ artifact_crown_anton_description:0 "Jewels adorn this enchanted crown made for King Anton of Daggerfall after he survived a perilous regency period. It is inscribed with prayers to the Divines and dedicated to his parents and most curious of all, his Seneschal.\nThe seal of House Deleyn along with the personal arms of King Anton are stamped on the inner surface of the crown" # PLACEHOLDER
+
+ artifact_crown_shornhelm_name:1 "Crown of Shornhelm"
+ artifact_crown_shornhelm_description:0 "The grim lands of Rivenspire are quartered between rival barons but whenever the royal houses goes extinct—by crook, infertility or the horrors that stalk the land— they may convene to elect a new King or Queen from amongst their own.\nThe Crown of Shornhelm is the token of the trust the nobility confers on that individual and is as ancient as paramount power is the region" # PLACEHOLDER
+
+ artifact_ring_mane_name:1 "Ring of Rid-Thar-ri'Datta"
+ artifact_ring_mane_description:0 "A ring wore by the biggest of cats." # PLACEHOLDER
+
+ artifact_bow_malgoth_name:1 "Malgoth's Bow"
+ artifact_bow_malgoth_description:0 "The prized bow of General Malgoth, leader of the Blackroot tribe which resides Vullain. Its simple but sharp design reflects the personality of Malgoth Blackroot."
+ 
+ artifact_dragonguard_katana_name:1 "Dragonguard Katana"
+ artifact_dragonguard_katana_description:0 "This katana was once wielded by the Dragonguard, famed akaviri dragon hunters. This peculiar saber has a distinctive hilt with a small disc-shaped guard adorning a long handle wrapped with woven silk cords. The tang is held into the hilt by an exquisite animorphic pin"
+
+ artifact_throne_mane_name:1 "Mane's Palanquin"
+ artifact_throne_mane_description:0 "Where the mane sits their holy ass." # PLACEHOLDER
+ 
+ artifact_staff_magnus_name:1 "Staff of Magnus"
+ artifact_staff_magnus_description:0 "The Staff of Magnus, one of the elder artifacts of Tamriel, was a metaphysical battery of sorts for its creator, the Arch-Mage Magnus. When used, it regenerates the wielder s health at remarkable rates. In time, the Staff will abandon the bearer who wields it before he becomes too powerful and upsets the mystical balance it is sworn to protect." # PLACEHOLDER
+
+ artifact_staff_hasedoki_name:1 "Staff of Hasedoki"
+ artifact_staff_hasedoki_description:0 "Hasedoki was said to have been a very competitive wizard. He wandered the land in search for a wizard who was greater than he. To the best of all knowledge, he never found a wizard who could meet up to his challenge. It is said that he felt so lonely and isolated because so many feared his power, that he bonded his life-force into his very own staff, where his soul remains to this very day. Magic users all over Tamriel have been searching for this magical staff. Granting its wielder a protection of magicka, it is a sure prize for any magic user."
+
+ artifact_elder_scroll_name:1 "Elder Scroll"
+ artifact_elder_scroll_description:0 "The Elder Scrolls are scrolls of unknown origin which simultaneously archive both past and future events. The number of the Scrolls is unknown not necessarily due to their immense quantity, but because the number itself is unknowable, as the Scrolls "do not exist in countable form". They are fragments of creation from outside time and space and their use in divining prophecies is but a small part of their power. They simultaneously do not exist, yet always have existed."
+ 
+ artifact_armor_dragonguard_name:1 "Dragonguard Armor"
+ artifact_armor_dragonguard_description:0 "This armor was once wore by the Dragonguard, famed akaviri dragon hunters. It composed of laminar piece of metals bound between them by silk cords, splinted sleeves and boots as well as a fearsome war mask. \n Various ornamental crests can be worn on top of the helmet such as dragons, moons or flames" 
+
+ artifact_staff_sanguine_name:1 "Sanguine Rose"
+ artifact_staff_sanguine_description:0 "A Daedric artifact created by the Daedric Prince Sanguine. Each time the Rose is used it wilts a little, and when all the petals fall off, it loses its power. When this happens, a new rose blooms somewhere in Oblivion and is plucked by Sanguine to be given to another champion."
+
+ artifact_bow_shadows_name:1 "Bow of Shadows"
+ artifact_bow_shadows_description:0 "A Daedric artifact forged by the Daedric Prince Nocturnal said to grant the user invisibility and increased speed."
+
+ artifact_meridias_beacon_name:1 "Meridia's Beacon"
+ artifact_meridias_beacon_description:0 "A magical magna-geode shaped stone associated with the Daedric Prince Meridia, who is known to speak to those in possession of the Beacon, and uses it to influence and compel the owner to obey the Lady of Infinite Energies."
+
+ artifact_dawnbreaker_name:1 "Dawnbreaker"
+ artifact_dawnbreaker_description:0 "A Daedric artifact created by the Daedric Prince Meridia, forged in a holy light that breaks upon the Prince's foes."
+
+ artifact_ebony_blade_name:1 "Ebony Blade"
+ artifact_ebony_blade_description:0 "A Daedric artifact created by the Daedric Prince Mephala, resembling an ebony katana, considered to be an artifact of great evil, having the ability to absorb the life essence of those that it strikes." ### PLACEHOLDER
+
+ artifact_ebony_mail_name:1 "Ebony Mail"
+ artifact_ebony_mail_description:0 "A Daedric artifact created by the Daedric Prince Boethiah, resembling an ebony suit of armor, granting its wearer magical protection, quieter movements and the ability to poison enemies who get too close." ### PLACEHOLDER
+ 
+ artifact_harkons_sword_name:1 "Harkon's Sword"
+ artifact_harkons_sword_description:0 "It is not known if this prestigious blade was named after its most famous holder or if he came from a long lineage of Harkons, but one thing is certain: Its effect is unique in that its enchantment will only take effect if wielded by a vampire." # PLACEHOLDER
+
+ artifact_history_of_histories_name:1 "History of Histories"
+ artifact_history_of_histories_description:0 "Royal chronicle of the Phyllocid Dynasty, (The Worthy Ar-Azal, His Deeds being part of it)." # PLACEHOLDER
+
+ artifact_dragonsword_of_lainlyn_name:1 "Dragonsword of Lainlyn"
+ artifact_dragonsword_of_lainlyn_description:0 "No one is sure how the barony of Lainlyn in the middle of Hammerfell is related to dragons or how is this sword related to dragons, but many fear its power." # PLACEHOLDER
+
+ artifact_goldbrand_name:1 "Goldbrand"
+ artifact_goldbrand_description:0 "An ancient artifact created by the dragons of the North, which contains the power of the Daedric Prince Boethiah, and burns those that it strikes." # PLACEHOLDER
+
+ artifact_mace_molag_bal_name:1 "Mace of Molag Bal"
+ artifact_mace_molag_bal_description:0 "A daedric artifact attributed to Molag Bal, the Lord of Domination and Enslavement. Its enchantment drains the stamina and magicka of its victims and transfers them to the bearer. It also has been known to have the ability to transfer an enemy's strength to its wielder or trap their soul. It has been said to be a good weapon of choice for vanquishing wizards." # PLACEHOLDER
+
+ artifact_azuras_star_name:1 "Azura's Star"
+ artifact_azuras_star_description:0 "A Daedric artifact created by the Daedric Prince Azura, prominently used as her symbol. In the right hands, Azura's Star acts as a reusable soul gem of almost unlimited capacity." # PLACEHOLDER
+
+ artifact_bittercup_name:1 "Bittercup"
+ artifact_bittercup_description:0 "An artifact sacred to Clavicus Vile, the Daedric Prince of Bargains, prized by the Daedra Lord's followers. Only the strongest and smartest of mortals are advised to make covenants with Prince Clavicus, and even then are warned against sipping from the Bittercup;some sweet things require a price heavy beyond any means." # PLACEHOLDER
+ 
+ inspiration_artisan_type_alchemy_set:0 "an alchemy set"
+ artifact_alchemy_set_name:1 "Exquisite Alchemy Set"
+ artifact_alchemy_set_description:0 "A very exquisite alchemy set, fit for scientific and magical experiments of all capacities." # PLACEHOLDER
+
+ artifact_dremora_armor_name:1 "Daedric Armor"
+ artifact_dremora_armor_description:0 ""I can only tell you tales of how to make Daedric armor. I have never seen it myself, nor do I know anyone that has. The stories say that it should always be worked on at night... ideally under a new or full moon, and never during an eclipse. A red harvest moon is best. Ebony is the principle material, but at the right moment a daedra heart must be thrown into the fire."\n\n―Sven Two-Hammers"  # PLACEHOLDER
+
+ artifact_masque_vile_name:1 "Masque of Clavicus Vile"
+ artifact_masque_vile_description:0 "The Masque of Clavicus Vile is a helm which makes the wearer more popular wherever they might go by making them seem charming and trustworthy. Much like other Daedra and their artifacts, Clavicus seems to retain ultimate control of the Masque and may recall it without warning."
+
+ artifact_mehrunes_razor_name:1 "Mehrunes' Razor"
+ artifact_mehrunes_razor_description:0 "A Daedric artifact created by the Daedric Prince Mehrunes Dagon, a powerful ebony dagger that has the ability to kill instantly, claiming the souls of those struck by the it in the name of the Prince of Ambition. It is emblazoned with Daedric script and absorbs nearby light." 
+
+ artifact_princes_woe_name:1 "Prince's Woe"
+ artifact_princes_woe_description:0 "Mansel Sesnit slew many highborn scions on his road to power (and his bid to keep it) earning this nickname for his sword. He eventually discarded this material weapon once he became an Ansei but it became a treasured heirloom since then, the symbol of absolute power over the land among the Yokudan magnates. To wield this sword is to inherit the drive of an Elden Yokeda and the hope of an end to the Age of Strife."
+
+ artifact_dagger_foal_name:1 "Ritual Dagger of the Foal"
+ artifact_dagger_foal_description:0 "Legend has it that the nomadic tribes of Akos Kasaz once came upon a foal blessed by the Herd-Mother. Unwilling to let such a prize go, they warred until they cornered the now mature stallion who took a fatal blow to protect his rider. Overcome with grief, she made a keepsake dagger out of his hip bone that became a sacred item ever since. To honor this memory, upon coming of age, warriors will drink milk mixed with the blood drawn from their mount as a sacred oath to the one that may one day save their life."
+
+ artifact_bb_filament_name:1 "Black Book: Filament and Filigree"
+ artifact_bb_filament_description:0 "A part of a series of Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+
+ artifact_bb_twilight_name:1 "Black Book: The Hidden Twilight"
+ artifact_bb_twilight_description:0 "A part of a series of Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+
+ artifact_bb_sallow_name:1 "Black Book: The Hidden Twilight"
+ artifact_bb_sallow_description:0 "The first act of a play and one of the Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+
+ artifact_bb_change_name:1 "Black Book: The Winds of Changes"
+ artifact_bb_change_description:0 "A fragmented tome surrounding Jarl Elgryr the Unminded and one of the Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+
+ artifact_bb_untold_name:1 "Black Book: Untold Legends"
+ artifact_bb_untold_description:0 "A fragmented tome surrounding the other lives of Ysgramor and one of the Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+
+ artifact_bb_waking_name:1 "Black Book: Waking Dreams"
+ artifact_bb_waking_description:0 "A fragmented tome mentioning the mantling of a godhead and one of the Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+
+ artifact_oghma_infinium_name:1 "Oghma Infinium"
+ artifact_oghma_infinium_description:0 "An ancient tome of knowledge, and an artifact of great power, the Oghma Infinium was written by Xarxes, the scribe of Auri-El, who had been granted the knowledge within by Hermaeus Mora. The name of the tome comes from Oghma, the wife of Xarxes, whom he created from his favorite moments in history. The knowledge within the tome grants the reader access to the artifact's energy, which can be manipulated to achieve near miraculous abilities. Once the Oghma Infinium is used, it disappears from its owner's possession."
+
+ artifact_skeleton_key_name:1 "Skeleton Key"
+ artifact_skeleton_key_description:0 "A Daedric artifact of the Daedric Prince Nocturnal that can be used to unlock any lock. The two limitations placed on the Key by wizards who sought to protect their storehouses were that the Key could only be used once a day and it would never be the property of one thief for too long, eventually disappearing."
+
+ artifact_shadow_key_name:1 "Shadowkey"
+ artifact_skeleton_key_description:0 "A large key enchanted with Shadow Magic, with the ability to open Shadowgates across Mundus."
+
+ artifact_ring_namira_name:1 "Ring of Namira"
+ artifact_ring_namira_description:0 "A Daedric artifact bestowed by Namira upon those who do her bidding, the ring has been known to enable damage reflection, increase one's stamina or even heal their wounds if a corpse is eaten."
+
+ artifact_saviors_hide_name:1 "Savior's Hide"
+ artifact_saviors_hide_description:0 "A Daedric artifact commonly associated with Hircine. Legend has it that Hircine rewarded his peeled hide to the first and only mortal to have ever escaped his Hunting Grounds. This unknown mortal had the hide tailored into this magical Cuirass for his future adventures. It is said that the Cuirass makes the wearer resistant to magic."
+
+ artifact_ring_hircine_name:1 "Ring of Hircine"
+ artifact_ring_hircine_description:0 "A Daedric artifact created by the Daedric Prince Hircine, this metallic ring is engraved with a wolf's head. Its power temporarily bestows Lycanthropy to the wearer, and allows true lycanthropes to control their transformations."
+
+ artifact_skull_corruption_name:1 "Skull of Corruption"
+ artifact_skull_corruption_description:0 "Vaermina's signature artifact creates a duplicate of the victim to torment them until one of them are dead. Legends surrounding this staff, say that it has a mind of its own, and can feed on the memories of those around it."
+
+ artifact_volendrung_name:1 "Volendrung"
+ artifact_volendrung_description:0 "An ancient artifact created by the Dwarven Rourken clan, this Hammer of Might is known to manifest as a warhammer of Dwarven Metal. For unknown reasons, Volendrung became a Daedric artifact of Malacath. It earns its name with its capability to demolish even the walls of enemy keeps with ease. The hammer is prone to disappearing like its Dwarven creators, sometimes resurfacing in days, sometimes in eons."
+
+ artifact_wabbajack_name:1 "Wabbajack"
+ artifact_wabbajack_description:0 "A Daedric artifact created by the Daedric Prince Sheogorath that takes the appearance of a Daedric staff that is engraved with angry gaping faces at the top. As befits the Prince of Madness, the staff can produce effects such as damaging, healing, turning to stone, or instantly killing the target, among other equally insane possibilities. Sheogorath finds only a few worthy of Wabbajack's "absurdly sweet power"." # PLACEHOLDER
+
+ artifact_bow_ivory_name:1 "Ivory Bow"
+ artifact_bow_ivory_description:0 "A bow made of ivory. I don't know what to tell you, it's gonna be very important a few centuries in the future because it was some boy's first bow." # PLACEHOLDER
+
+ artifact_book_delegation_name:1 "Direnni Delegation of Rivenspire"
+ artifact_book_delegation_description:0 "Letter from the Direnni Hegemony conferring authority over Rivenspire to House Branquette in their name." # PLACEHOLDER
+
+ artifact_book_bretonnick_name:1 "Bretonnick Natalitie"
+ artifact_book_bretonnick_description:0 "Genealogy book conferring authority over Rivenspire to House Montclair." # PLACEHOLDER
+
+ artifact_book_daenia_name:1 "Geste of Daenia"
+ artifact_book_daenia_description:0 "Oldest known Breton mirror of princes, speaking on topics such a chivalry, governance and listing out a few legends cycles that led to the establishment of kingdoms." # PLACEHOLDER
+
+ artifact_armor_joile_name:1 "Armor of Joile"
+ artifact_armor_joile_description:0 "Magic armor of King Joile, who was killed in battle by Makela Leki." # PLACEHOLDER
+
+ artifact_gutwrencher_name:1 "Gutwrencher"
+ artifact_gutwrencher_description:0 "Mace of Mercedene Winterborn, which she used throughout her career." # PLACEHOLDER
+
+ artifact_sword_alessian_name:1 "Alessian General Blade"
+ artifact_sword_alessian_description:0 "A tarnished and ancient blade of an Alessian general." #PLACEHOLDER
+
+ artifact_bow_alessian_name:1 "Alessian Bow"
+ artifact_bow_alessian_description:0 "Very well-made bows, crafted back in the days of Saint Alessia." #PLACEHOLDER
+
+ artifact_sword_aphren_name:1 "Sword of King Aphren"
+ artifact_sword_aphren_description:0 "King Aphren's ornamental sword, consisting in a diamond pommel, a gem-encrusted blade and a jeweled hilt." #PLACEHOLDER
+
+ artifact_shield_green_name:1 "The Green Aegis"
+ artifact_shield_green_description:0 "An ancient shield bearing an inscription identifying its owner as the "Emerald Princess."" #PLACEHOLDER
+
+ artifact_agra_crun_name:1 "Agra Crun"
+ artifact_agra_crun_description:0 "The "blood shield" of the legendary shield-wife Bagrar Troll-Slayer, known as the first protector of Malacath's faithful." #PLACEHOLDER
+
+ artifact_staff_ulvor_name:1 "Ul'vor Staff"
+ artifact_staff_ulvor_description:0 "Beyond sharing a name with the underwater Sea Sload kingdom of Ul'vor Kus, little is known about this mysterious magical staff." #PLACEHOLDER
+
+ artifact_ritual_circle_name:1 "Ritual Circle"
+ artifact_ritual_circle_description:0 "A token of devotion to the stars above, used by Star-Gazers in their rites of initiation." #PLACEHOLDER
+
+ artifact_amulet_skystone_name:1 "Skystone Amulet"
+ artifact_amulet_skystone_description:0 "This amulet, made of a crystalline material with Nedic symbols carved into it, is said to be able to hold the power from the very stars." #PLACEHOLDER
+ 
+ artifact_amulet_ahemmusa_name:1 "Madstone of the Ahemmusa"
+ artifact_amulet_ahemmusa_description:0 "The Madstone of the Ahemmusa is a protection against the spells of witch-warriors. When one uses it, and touch an enemy, it causes the voices of the ancestors to cry out in his head, confusing them, and fuddling their witcheries. Let there be a warning: When one uses the Madstone, the ancestors also cry out in one's ears, so the user, too, is made mad by their wailing. It is the Madstone. Perhaps it will not please a wizard, but it may greatly please a warrior." #PLACEHOLDER
+
+ artifact_amulet_urshilaku_name:1 "Teeth of the Urshilaku"
+ artifact_amulet_urshilaku_description:0 "An heirloom of the Urshilaku Clan of the Ashlander People, along with other tribal heirlooms it is used as a symbol of authority. It is a part of their tribal regalia, passed through generations of Clan Leaders until the coming of the Nerevarine." #PLACEHOLDER
+
+ artifact_amulet_zainab_name:1 "Thong of Zainab"
+ artifact_amulet_zainab_description:0 "An heirloom of the Zainab Clan of the Ashlander People, along with other tribal heirlooms it is used as a symbol of authority. It is a part of their tribal regalia, passed through generations of Clan Leaders until the coming of the Nerevarine." #PLACEHOLDER
+
+ artifact_seekers_sight_name:1 "Seeker's Sight"
+ artifact_seekers_sight_description:0 "A relic connected to the Celestial Mage. It bears the Gem of Fire, the Gem of Frost and the Gem of Thunder." #PLACEHOLDER
+
+ artifact_armlet_torug_name:1 "Armlet of Torug"
+ artifact_armlet_torug_description:0 "Ancient text fragments describe the legend of this magical armlet encrusted with gems, possessed by King Torug, founder of the original city of Orsinium. With its power, Torug was able to tame the savage wilderness of Wrothgar and establish the first city of Orsinium." #PLACEHOLDER
+
+ artifact_helm_uzdabikh_name:1 "Uzdabikh's Helm"
+ artifact_helm_uzdabikh_description:0 "The blessed helm of Uzdabikh, said to have protected its owner from every attack from an entire army, leaving a pile of corpses around the relic." #PLACEHOLDER
+
+ artifact_circlet_yokudan_name:1 "Ancient Yokudan Circlet"
+ artifact_circlet_yokudan_description:0 "A sturdy, time-worn head dressing from an unidentified yokudan noble lineage." #PLACEHOLDER
+
+ artifact_seal_tarish_name:1 "Tarish-zi Royal Seal"
+ artifact_seal_tarish_description:0 "A royal seal granted to the sword shields of the Yokudan Emperor Tarish-Zi. Rumors say three of these seals are needed to gain entry to his sacred crypt." #PLACEHOLDER
+ 
+ artifact_dragonbane_name:1 "Dragonbane"
+ artifact_dragonbane_description:0 "A weapon of the Blades, perhaps dating back to the time of the Dragonguard. When the Blades were forced to seal off and abandon their ancient stronghold in Skyrim, Sky Haven Temple, the blade was left within." #PLACEHOLDER
+
+ artifact_unmelting_snow_name:1 "Unmelting Snow"
+ artifact_unmelting_snow_description:0 "On top of the Throat of the World is a patch of snow that's never melted. They say the Greybeards taught it to ignore the sun, and heat simply washes over it." #PLACEHOLDER
+
+ artifact_gauldur_jyrik_name:1 "Gauldur Amulet Fragment"
+ artifact_gauldur_jyrik_description:0 "Originally owned by the powerful wizard Archmage Gauldur during the First Era, the Gauldur Amulet was divided between his three sons after they killed him in their sleep. This fragment belonged to Jyrik, the most magically apt of the three siblings."
+
+ artifact_gauldur_mikrul_name:1 "Gauldur Amulet Fragment"
+ artifact_gauldur_mikrul_description:0 "Originally owned by the powerful wizard Archmage Gauldur during the First Era, the Gauldur Amulet was divided between his three sons after they killed him in their sleep. This fragment belonged to Mikrul, the strongest of the three siblings."
+
+ artifact_gauldur_sigdis_name:1 "Gauldur Amulet Fragment"
+ artifact_gauldur_sigdis_description:0 "Originally owned by the powerful wizard Archmage Gauldur during the First Era, the Gauldur Amulet was divided between his three sons after they killed him in their sleep. This fragment belonged to Sigdis, the nimblest of the three siblings." 
+
+ artifact_jagged_crown_name:1 "Jagged Crown"
+ artifact_jagged_crown_description:0 "Maw unleashing razor snow,\nOf dragons from the blue brought down,\nBirths the walking winter's woe,\nThe High King in his Jagged Crown." #PLACEHOLDER
+
+ artifact_red_eagles_fury_name:1 "Red Eagle's Fury"
+ artifact_red_eagles_fury_description:0 "Thousands fell to his flaming sword\nAs the blood-sun rose and set\nDespite the bite of a hundred arrows\nHe fought till death he met" #PLACEHOLDER
+
+ artifact_kahvozeins_fang_name:1 "Kahvozein's Fang"
+ artifact_kahvozeins_fang_description:0 "A Dragon Priest dagger that dates back to the Merethic Era, legendary throughout Skyrim and is known to be sharp enough to make precise carvings from the scales of a Dragon. It was created by a particular sect of the Dragon Cult, one that worshipped the eponymous Kahvozein. They were very fond of ritual sacrifices, so much so that the high priest spent much time sharpening this dagger so that it was always ready for its next victim." #PLACEHOLDER
+
+ artifact_bloodskal_blade_name:1 "Bloodskal Blade"
+ artifact_bloodskal_blade_description:0 "An ancient Nordic magic blade that was created by the Bloodskal clan, a Skaal clan on Solstheim." #PLACEHOLDER
+
+ artifact_armor_stalhrim_name:1 "Ancient Stalhrim Armor"
+ artifact_armor_stalhrim_description:0 "Carefully crafted from enchanted ice untold decades ago, this ancient Stalhrim set of armor provides increased resistance to both mundane and magical damage." #PLACEHOLDER
+ 
+ artifact_coral_claw_name:1 "Coral Dragon Claw"
+ artifact_coral_claw_description:0 "An intricate artifact made from a coral-like material, shaped like a dragon claw, engraved with the symbols of the Snake, Wolf and Moth totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER
+
+ artifact_diamond_claw_name:1 "Diamond Dragon Claw"
+ artifact_diamond_claw_description:0 "An intricate artifact made from diamonds, shaped like a dragon claw, engraved with the symbols of the Dragon, Wolf and Moth totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER
+
+ artifact_ebony_claw_name:1 "Ebony Dragon Claw"
+ artifact_ebony_claw_description:0 "An intricate artifact made from ebony, shaped like a dragon claw, engraved with the symbols of the Dragon, Fox and Moth totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER
+
+ artifact_emerald_claw_name:1 "Emerald Dragon Claw"
+ artifact_emerald_claw_description:0 "An intricate artifact encrusted with emeralds, shaped like a dragon claw, engraved with the symbols of the Bear, Whale and Snake totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER
+
+ artifact_glass_claw_name:1 "Glass Dragon Claw"
+ artifact_glass_claw_description:0 "An intricate artifact made from malachite, shaped like a dragon claw, engraved with the symbols of the Fox, Owl and Snake totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER 
+
+ artifact_golden_claw_name:1 "Golden Claw"
+ artifact_golden_claw_description:0 "An intricate artifact made from gold, shaped like a dragon claw, engraved with the symbols of the Bear, Owl and Moth totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER 
+
+ artifact_iron_claw_name:1 "Iron Dragon Claw"
+ artifact_iron_claw_description:0 "An intricate artifact made from iron, shaped like a dragon claw, engraved with the symbols of the Dragon, Hawk and Wolf totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER   
+
+ artifact_ivory_claw_name:1 "Ivory Dragon Claw"
+ artifact_ivory_claw_description:0 "An intricate artifact made from ivory, shaped like a dragon claw, engraved with the symbols of two Hawks and a Wolf totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER   
+
+ artifact_ruby_claw_name:1 "Ruby Dragon Claw"
+ artifact_ruby_claw_description:0 "An intricate artifact encrusted with rubies, shaped like a dragon claw, engraved with the symbols of two Wolves and a Hawk totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER   
+
+ artifact_sapphire_claw_name:1 "Sapphire Dragon Claw"
+ artifact_sapphire_claw_description:0 "An intricate artifact encrusted with sapphires, shaped like a dragon claw, engraved with the symbols the Owl, Moth and Wolf totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER     
+
+ artifact_eye_falmer_name:1 "Eye of the Falmer"
+ artifact_eye_falmer_description:0 "A large, white, egg-shaped gem with a pulsing red glow, rumored to be taken from the eye sockets of a large Snow Elf statue in Irkngthand." #PLACEHOLDER
+
+ artifact_shield_aetherial_name:1 "Aetherial Shield"
+ artifact_shield_aetherial_description:0 "A magical dwarven shield encrusted with several pieces of Aetherium, an incredibly rare, luminescent blue crystal found deep underground that has magical properties." #PLACEHOLDER 
+
+ artifact_mammoth_horn_name:1 "Treva's Mammoth Horn"
+ artifact_mammoth_horn_description:0 "A slightly cracked ancient horn used by generations in Treva to stun mammoths." #PLACEHOLDER 
+
+ artifact_lodorr_crown_name:1 "Lodorr's Crown"
+ artifact_lodorr_crown_description:0 "An ancient crown, warm to the touch, rumored to contain the spirit of Lodorr, a draugr lord trapped inside his own crown in the Merethic Era." #PLACEHOLDER
+
+ artifact_horn_jurgen_name:1 "Horn of Jurgen Windcaller"
+ artifact_horn_jurgen_description:0 "A horn once belonged to the founder of the Greybeards, Jurgen Windcaller, a great leader of the ancient Nords, and a Master of the Voice." #PLACEHOLDER
+
+ artifact_chillrend_name:1 "Chillrend"
+ artifact_chillrend_description:0 "Chillrend is an artifact of unknown origins, taking the form of a glass shortsword, although, unlike regular malachite, it is blue instead of green, with its hilt fashioned from rare metals and moonstone. Its enchantment causes magical frost damage to the opponent." #PLACEHOLDER
+ 
+ artifact_bloodstone_chalice_name:1 "Bloodstone Chalice"
+ artifact_bloodstone_chalice_description:0 "This Chalice has been in the Volkihar Clan's possession for quite some time. It is, when used properly, able to increase the potency of vampiric powers. It sits unused for ages, waiting forgrander things to get afoot." #PLACEHOLDER
+
+ artifact_white_phial_name:1 "White Phial"
+ artifact_white_phial_description:0 "A legendary bottle forged in the days when Skyrim was just starting to turn to ice. The small container was made of the magically infused snow that first fell on the Throat of the World, and possesses amazing alchemical properties. It is said that the Phial will replenish whatever fluid is placed inside of it. The Phial was made by the master alchemist Curalmil in ancient times, and it was buried with him." #PLACEHOLDER
+
+ artifact_messenger_diary_name:1 "Messenger's Diary"
+ artifact_messenger_diary_description:0 "Notes of a messenger showing the way to an ancient Akaviri fort, with a sketched map." #PLACEHOLDER
+
+ artifact_crown_nenalata_name:1 "Ayleid Crown of Nenalata"
+ artifact_crown_nenalata_description:0 "An ancient Ayleid artifact, shaped like an ornate and delicate crown. It can be distinguished from other Ayleid crowns by a royal glyph emblazoned upon it. Superficial enchantments grant the wearer spell reflection and increased skill at Alteration and Conjuration magic, although the true potential of the crown is seemingly much greater. It is an immensely valuable treasure." #PLACEHOLDER
+
+ artifact_mask_alkosh_name:1 "Mask of Alkosh"
+ artifact_mask_alkosh_description:0 "A holy relic of the Dragon-Cat Alkosh, his light willing it into existance to help mend the tapestry of time, worn by the champions of the Pride of Alkosh. It was first worn by Ja'darri the Endless, the first champion of Alkosh and the founder of the Pride of Alkosh. A Dragon must awaken the dormant power within the mask before it can be fully used. When the mask is empowered, it imbues its wielder, known as a Mask-Bearer, with extraordinary power." #PLACEHOLDER
+
+ artifact_mask_dragon_priest_name:1 "[dragon_priest.GetFirstNameNoTooltip]"
+ artifact_mask_dragon_priest_description:0 "A holy artifact created for [dragon_priest.GetFirstNameNoTooltip] as a symbol of power, legitimising [dragon_priest.GetHerHis] rule on Keizaal for the glory of [dragon_priest.GetFaith.HighGodName]." #PLACEHOLDER
+
+ artifact_horn_anequina_name:1 "Anequina Dragonhorn"
+ artifact_horn_anequina_description:0 "A horn that bears the name of the northern Elsweyr kingdom of Anequina. It is said that Queen Anequina Sharp-Tongue once used a Dragonhorn, likely being one and the same as the Anequina Dragonhorn. It was hidden for when the need for it would arise once again." #PLACEHOLDER
+ 
+ artifact_horn_jadarri_name:1 "Horn of Ja'darri"
+ artifact_horn_jadarri_description:0 "A combat Dragonhorn noted for its unique ability to never break. It was given to Ja'darri, a member of the Pride of Alkosh, by its donor Nahfahlaar, a powerful red dragon who was immune to its effects." #PLACEHOLDER
+
+ artifact_horn_starhaven_name:1 "Star Haven Dragonhorn"
+ artifact_horn_starhaven_description:0 "Gifted to the disciples of Star Haven Adeptorium by the Akaviri Dragonguard in a time when dragons still plagued Elsweyr, as the Dragonguard could not to stay to fight the dragons, they constructed Dragonhorn Tower as a means of safekeeping for the horn until a time came where it could be used to defend the adeptorium. It was noted as already having been charged with lunar energy, humming with arcane power like that of a heartbeat." #PLACEHOLDER
+
+ artifact_moonlight_blade_name:1 "Moonlight Blade"
+ artifact_moonlight_blade_description:0 "A crescent moon-shaped blade associated with both Azurah and the extant Order of the Hidden Moon. This ancient Khajiiti order was said to have been gifted the blade by the Mother Goddess herself, whom plucked the blade off her own Moon-Staff to be used as a weapon. The Moonlight Blade is considered a sacred tool for the duty of guiding, protecting and redeeming the souls of their People. While on its own the blade is a deadly weapon against the Dro-m'Athra, in the hands of those who know the Order's secrets, the Moonlight Blade can cut through liminal barriers, both the mundane and those between worlds. In particular, the ushering souls to their fated afterlife, this power comes from the second nature of the Moonlight Blade, as it functions as a gateway to the Crossing, a transitional realm between Nirn and Sands Behind the Stars. Within the Order of the Hidden Moon, a guardian was selected to wield the Moonlight Blade from the adepts, this position required someone with an iron will and conviction. The Blade was passed from guardian to guardian without incident until sometime in the First Era, when the warrior Shando-ri became its wielder. His friend and rival, Arum-Khal, had slowly become dissatisfied with the Order's actions and Shando-ri being chosen over him was the last straw. Arum-Khal renounced Azurah and the Order, with many adepts following him, leading to a bloody civil war within the temple. At the end of these battles, the now-lich Arum-Khal had become far too powerful for the survivors to end him permanently and he was instead sealed within the crypts. In preparation for the Dro-m'Athra Lich's return, Shando-ri underwent a six month ritual to transfer his soul and spirit to the Moonlight Blade, to remain on Nirn until he could slay the Dark Adept. Many of the surviving adepts sacrificed themselves to further empower the Moonlight Blade, though none were left to wield it in the end." #PLACEHOLDER
+
+ artifact_keening_name:1 "Keening"
+ artifact_keening_description:0 "The short blade Keening was created to flay and focus the power that the hammer Sunder produces. In song, its described as a dagger made of the sound of the shadow of the moons." #PLACEHOLDER
+
+ artifact_sunder_name:1 "Sunder"
+ artifact_sunder_description:0 "Created to produce a specific amount of power from the Heart of Lorkhan, which, when struck by Sunder, would release godlike power. It is described as a hammer of divine mass." #PLACEHOLDER
+
+ artifact_wraithguard_name:1 "Wraithguard"
+ artifact_wraithguard_description:0 "Created to safely wield the weapon tools, Sunder and Keening, for wielding the weapons without the gauntlet will often lead to the instant death of the wielder. It's described a gauntlet made of a material comparable to brass. It is also known as the Wraith Mail." #PLACEHOLDER
+
+ artifact_calderas_name:1 "Calderas"
+ artifact_calderas_description:0 "But one brave hero held no fear\nDranoth Hleran, warrior brave\nWith Calderas, his mighty spear\nBut one resounding cry he gave\n\nHe raised his spear to the beast\nHe ran, evading every blow\nHis heart was set, his speed increased\nAs he charged the mighty foe" #PLACEHOLDER
+
+ artifact_aralor_shirt_name:1 "Hair Shirt of Saint Aralor"
+ artifact_aralor_shirt_description:0 "A sacred relic of the Dunmeri Tribunal. Besides being simultaneously hurt and healed by the shirt, the wearer is also resistant to magic." #PLACEHOLDER
+
+ artifact_rilms_shoes_name:1 "Shoes of Saint Rilms"
+ artifact_rilms_shoes_description:0 "These shoes are artifacts sacred to the Dunmeri Tribunal. They are magically enchanted to enhance endurance and make the wearer more personable. Saint Rilms gave away the shoes and did her best to appear as a beggar in order to better acquaint herself with the poor." #PLACEHOLDER
+
+ artifact_felms_cleaver_name:1 "Cleaver of Saint Felms"
+ artifact_felms_cleaver_description:0 "An one-handed axe which belonged to the eponymous saint of the Dunmeri Tribunal." #PLACEHOLDER       
+
+ artifact_llothis_crosier_name:1 "Crosier of Saint Llothis"
+ artifact_llothis_crosier_description:0 "A staff sacred to the Dunmeri Tribunal as a holy relic. The undefeated spirit of St. Llothis the Pious is said to be contained within it. However, the staff's fitness for combat is questionable, as the staff's enchantments actually have various adverse effects on the wielder." #PLACEHOLDER       
+
+ artifact_eleidons_ward_name:1 "Eleidon's Ward"
+ artifact_eleidons_ward_description:0 "An enchanted shield especially built for Eleidon, a renowned holy knight of legend in Breton history. One of the many stories about him is that he saved a baron's daughter from sure death at the hands of a warlord, and the baron spent all his riches on the creation of the shield to show his gratitude. It grants the wielder the opportunity to heal wounds." #PLACEHOLDER       
+  
+ artifact_chrysamere_name:1 "Chrysamere"
+ artifact_chrysamere_description:0 "An ancient adamantium claymore artifact with offensive capabilities only surpassed by its defenses. It has magical properties which, unlike most weapons, are defensive in nature; it lends the wielder health, boosts their resistance to fire, and reflects some damage from spells." #PLACEHOLDER       
+ 
+ artifact_skull_crusher_name:1 "Skull Crusher"
+ artifact_skull_crusher_description:0 "An amazingly large and powerful warhammer created together by the wizard Dorach Gusal and the great weaponsmith Hilbongard Rolamus of Skyrim in the forge of Anudnabia sometime in the early First Era, during the Skyrim Captivity. The creation of this weapon is riddled in magic, such as the fires it was forged in and the steel that was tempered for it. It is incredibly light but hard, which provides for its deadly blows compared to those of a Daedric Prince." #PLACEHOLDER       
+
+ artifact_mentors_ring_name:1 "Mentor's Ring"
+ artifact_mentors_ring_description:0 "A prized possession for any apprentice to magic. It lends the wearer the ability to increase their intelligence and wisdom, thus making their use of magic more efficient. The High Wizard Carni Asron is said to be its creator, and he loaned it to apprentices while they were studying under him." #PLACEHOLDER       
+
+ artifact_haynekhtnamet_fang_name:1 "Fang of Haynekhtnamet"
+ artifact_haynekhtnamet_fang_description:0 "A literal fang which was carved into a blade and fashioned into a small dagger. It is named after Haynekhtnamet, a mythical wamasu from the Shadowfen region of Black Marsh. Scholars believe that Haynekhtnamet is not actually a single creature but a series of wamasu, and as such it's possible that there are multiple Fangs." #PLACEHOLDER       
+
+ artifact_shuxaltsei_staff_name:1 "Staff of Shuxaltsei"
+ artifact_shuxaltsei_staff_description:0 "An unsettling chill clings to this coiled Hist root. Forgotten Argonian glyphs cover its entire surface." #PLACEHOLDER       
+
+ artifact_serpent_fang_name:1 "Fang of the Great Serpent"
+ artifact_serpent_fang_description:0 "This ancient dagger was carved from stone in the shape of a serpent's tooth. It is deeply stained a ruddy red." #PLACEHOLDER       
+ 
+ artifact_chalice_unquenchable_name:1 "Chalice of Unquenchable Thirst"
+ artifact_chalice_unquenchable_description:0 "Used in ancient times to hold the blood of live sacrifices for ritual consumption. It shows signs of recent use." #PLACEHOLDER       
+
+ artifact_sinople_talon_name:1 "Sinople Talon"
+ artifact_sinople_talon_description:0 "Rostam was a Yokeda born in the mountains of Yath who claimed to have been raised by a dragon named Sahmaargram. His signature weapon was a saber made of refined malachite he dubbed the "Sinople Talon", through which he dealt many a killing blow.\n\nHaving never attained mastery of the Shehai, this sword followed him throughout the whole of his career and was buried in his tomb although a similar weapon started to circulate in Yokeda circles soon after."
+
+ artifact_harness_orun_name:1 "Harness of Orun"
+ artifact_harness_orun_description:0 "A lesser Yokeda during the Age of Strife, Orun was made famous by his employ of many talented smiths for his retinue—including some Sword-Singers-. The masterwork of this school of armorers is the personal panoply of their patron, a finely wrought armor made from orichalc scale, each inscribed with a prayer to Diagna, HoonDing or Leki, all gods of war and battle.\n\nThe protection from the breastplate was so outrageous it was proofed against one strike from an Ansei! Alas, Orun died from poisoned wine one of his retainers poured, the escaped son of a long dead enemy."
+
+ artifact_circlet_storms_name:1 "Circlet of Storms"
+ artifact_circlet_storms_description:0 "Anointed by the Tavan Priesthood during the height of the Yokudan empire, this electrum crown is set with amber, rubies and sapphires dominated by a carved lapis icon of Tava.\n\nThe outside of the crown is decorated with orichalc inlays depicting the power of the Goddess of Winds, beckoning her followers to submit and blessing them in return for their devotion. Any ruler who wore this crown rarely suffered drought in his estates, further cementing the divine providence of this item."
+ 
+ animal_type_senche_cougar:0 "senche-cougar"
+ artifact_hide_type_senche_cougar:0 "a senche-cougar"
+ feature_animal_hide_type_senche_cougar:0 "a senche-cougar"
+ artifact_wall_animal_skull_senche_cougar:0 "a lethal senche-cougar"
+ feature_animal_skull_type_senche_cougar:0 "a lethal senche-cougar"
+ animal_type_senche_lion:0 "senche-lion"
+ artifact_hide_type_senche_lion:0 "a senche-lion"
+ feature_animal_hide_type_senche_lion:0 "a senche-lion"
+ artifact_wall_animal_skull_senche_lion:0 "a lethal senche-lion"
+ feature_animal_skull_type_senche_lion:0 "a lethal senche-lion"
+ animal_type_senche_leopard:0 "senche-leopard"
+ artifact_hide_type_senche_leopard:0 "a senche-leopard"
+ feature_animal_hide_type_senche_leopard:0 "a senche-leopard"
+ artifact_wall_animal_skull_senche_leopard:0 "a lethal senche-leopard"
+ feature_animal_skull_type_senche_leopard:0 "a lethal senche-leopard"
+ animal_type_senche_panther:0 "senche-panther"
+ artifact_hide_type_senche_panther:0 "a senche-panther"
+ feature_animal_hide_type_senche_panther:0 "a senche-panther"
+ artifact_wall_animal_skull_senche_panther:0 "a lethal senche-panther"
+ feature_animal_skull_type_senche_panther:0 "a lethal senche-panther"
+ animal_type_dire_wolf:0 "dire wolf"
+ artifact_hide_type_dire_wolf:0 "a dire-wolf"
+ feature_animal_hide_type_dire_wolf:0 "a dire-wolf" 
+ artifact_wall_animal_skull_dire_wolf:0 "a keen-toothed dire wolf"
+ feature_animal_skull_type_dire_wolf:0 "a keen-toothed dire wolf"
+ animal_type_tusked_bristleback:0 "tusked bristleback"
+ artifact_hide_type_tusked_bristleback:0 "a tusked bristleback"
+ feature_animal_hide_type_tusked_bristleback:0 "a tusked bristleback"
+ artifact_wall_animal_skull_tusked_bristleback:0 "a bristleback with razor-sharp tusks"
+ feature_animal_skull_type_tusked_bristleback:0 "a bristleback with razor-sharp tusks"
+ animal_type_gryphon:0 "gryphon"
+ artifact_hide_type_gryphon:0 "a gryphon"
+ feature_animal_hide_type_gryphon:0 "a gryphon"
+ animal_type_hart:0 "hart"
+ artifact_hide_type_hart:0 "a hart"
+ feature_animal_hide_type_hart:0 "a hart"
+ artifact_wall_animal_skull_hart:0 "a graceful hart"
+ feature_animal_skull_type_hart:0 "a graceful hart"
+ animal_type_rabbit:0 "rabbit"
+ artifact_hide_type_rabbit:0 "a rabbit"
+ feature_animal_hide_type_rabbit:0 "a rabbit"
+ artifact_wall_animal_skull_rabbit:0 "a graceful rabbit"
+ feature_animal_skull_type_rabbit:0 "a graceful rabbit"
+ animal_type_mammoth:0 "mammoth"
+ artifact_hide_type_mammoth:0 "a mammoth"
+ feature_animal_hide_type_mammoth:0 "a mammoth"
+ artifact_wall_animal_skull_mammoth:0 "a mammoth with razor-sharp tusks"
+ feature_animal_skull_type_mammoth:0 "a mammoth with razor-sharp tusks"
+ animal_type_horker:0 "horker"
+ artifact_hide_type_horker:0 "a horker"
+ feature_animal_hide_type_horker:0 "a horker"
+ artifact_wall_animal_skull_horker:0 "a horker with razor-sharp tusks"
+ feature_animal_skull_type_horker:0 "a horker with razor-sharp tusks"
+ feature_animal_skull_type_hare:0 "a delicate hare"
+
+ decoration_material_inlay_HSB_mudcrabshell:0 "mudcrab shell"
+ feature_decoration_material_inlay_HSB_mudcrabshell:0 "mudcrab shell"
+
+ metal_stalhrim:0 "stalhrim"
+ metal_platinum:0 "platinum"
+ metal_dwarven:0 "dwarven metal"
+ metal_orichalcum:0 "orichalcum"
+ metal_quicksilver:0 "quicksilver"
+ metal_mithril:0 "mithril"
+ metal_corundum:0 "corundum"
+ metal_iron:0 "iron"
+ metal_chitin:0 "chitin"
+ metal_steel:0 "steel"
+ metal_silver:0 "silver"
+ metal_moonstone:0 "moonstone"
+ metal_malachite:0 "malachite"
+ metal_adamantium:0 "adamantium"
+ metal_ebony:0 "ebony"
+ metal_daedric:0 "daedric"
+ metal_amber:0 "amber"
+ metal_dragonbone:0 "dragonbone"
+ metal_madness:0 "madness"
+
+ gem_aetherquartz:0 "aetherquartz"
+ gem_aetherquartz_plural:0 "aetherquartzes"
+ gem_citrine:0 "citrine"
+ gem_citrine_plural:0 "citrines"
+ gem_lapis_lazuli:0 "lapis lazuli"
+ gem_lapis_lazuli_plural:0 "lapis lazuli"
+ gem_carnelian:0 "carnelian"
+ gem_carnelian_plural:0 "carnelians"
+ gem_aquamarine:0 "aquamarine"
+ gem_aquamarine_plural:0 "aquamarines"
+ gem_turquoise:0 "turquoise"
+ gem_turquoise_plural:0 "turquoises"
+ gem_bloodstone:0 "bloodstone"
+ gem_bloodstone_plural:0 "bloodstones"
+ gem_arentine:0 "arentine"
+ gem_arentine_plural:0 "arentines"
+ gem_aurbic_amber:0 "aurbic amber"
+ gem_aurbic_amber_plural:0 "aurbic ambers"
+ gem_soul:0 "soul gem"
+ gem_soul_plural:0 "soul gems"
+ gem_diamond:0 "diamond"
+ gem_diamond_plural:0 "diamonds"
+
+ cloth_jute:0 "jute"
+ cloth_spidersilk:0 "spidersilk"
+ cloth_ebonthread:0 "ebonthread"
+ cloth_kresh:0 "kresh"
+ cloth_ancestor_silk:0 "ancestor silk"
+ 
+ wood_beech:0 "beech"
+ wood_hickory:0 "hickory"
+ wood_birch:0 "birch"
+ wood_mahogany:0 "mahogany"
+ wood_nightwood:0 "nightwood"
+ wood_ruby_ash:0 "ruby ash"
+
+ material_fur:0 "fur"
+ material_hide:0 "hide"
+ material_bearskin:0 "bearskin"
+ material_netch_leather:0 "netch leather"
+ material_studded_leather:0 "studded leather"
+ material_newtscale:0 "newtscale"
+ material_trollbone:0 "trollbone"
+ material_boiled_netch:0 "boiled netch"
+ material_bonemold:0 "bonemold"
+ material_dreugh:0 "dreugh"
+ material_dragonscale:0 "dragonscale"
+ material_dragonplate:0 "dragonplate"
+  
+ feature_decoration_material_inlay_stalhrim:0 "$metal_stalhrim$"
+ feature_decoration_material_inlay_platinum:0 "$metal_platinum$"
+ feature_decoration_material_inlay_dwarven:0 "$metal_dwarven$"
+ feature_decoration_material_inlay_orichalcum:0 "$metal_orichalcum$"
+ feature_decoration_material_inlay_quicksilver:0 "$metal_quicksilver$"
+ feature_decoration_material_inlay_mithril:0 "$metal_mithril$"
+ feature_decoration_material_inlay_corundum:0 "$metal_corundum$"
+ feature_decoration_material_inlay_brass:0 "$metal_brass$"
+ feature_decoration_material_inlay_bronze:0 "$metal_bronze$"
+
+ feature_decoration_material_wire_stalhrim:0 "$metal_stalhrim$"
+ feature_decoration_material_wire_platinum:0 "$metal_platinum$"
+ feature_decoration_material_wire_bronze:0 "$metal_bronze$"
+ feature_decoration_material_wire_platinum:0 "$metal_platinum$"
+
+ feature_decoration_material_gem_aetherquartz:0 "$gem_aetherquartz$"
+ feature_decoration_material_gem_citrine:0 "$gem_citrine$"
+ feature_decoration_material_gem_lapis_lazuli:0 "$gem_lapis_lazuli$"
+ feature_decoration_material_gem_carnelian:0 "$gem_carnelian$"
+ feature_decoration_material_gem_aquamarine:0 "$gem_aquamarine$"
+ feature_decoration_material_gem_turquoise:0 "$gem_turquoise$"
+ feature_decoration_material_gem_bloodstone:0 "$gem_bloodstone$"
+ feature_decoration_material_gem_arentine:0 "$gem_arentine$"
+ feature_decoration_material_gem_aurbic_amber:0 "$gem_aurbic_amber$"
+ feature_decoration_material_gem_emerald:0 "$gem_emerald$"
+ feature_decoration_material_gem_soul:0 "$gem_soul$"
+ feature_decoration_material_gem_diamond:0 "$gem_diamond$"
+
+ feature_decoration_material_embroidery_jute:0 "$cloth_jute$"
+ feature_decoration_material_embroidery_spidersilk:0 "$cloth_spidersilk$"
+ feature_decoration_material_embroidery_satin:0 "$cloth_satin$"
+ feature_decoration_material_embroidery_ebonthread:0 "$cloth_ebonthread$"
+ feature_decoration_material_embroidery_velvet:0 "$cloth_velvet$"
+ feature_decoration_material_embroidery_kresh:0 "$cloth_kresh$"
+ feature_decoration_material_embroidery_ancestor_silk:0 "$cloth_ancestor_silk$"
+
+ feature_generic_material_cloth_jute:0 "$cloth_jute$"
+ feature_generic_material_cloth_spidersilk:0 "$cloth_spidersilk$"
+ feature_generic_material_cloth_ebonthread:0 "$cloth_ebonthread$"
+ feature_generic_material_cloth_kresh:0 "$cloth_kresh$"
+ feature_generic_material_cloth_ancestor_silk:0 "$cloth_ancestor_silk$"
+
+ feature_generic_material_cordage_jute:0 "$cloth_jute$"
+ feature_generic_material_cordage_spidersilk:0 "$cloth_spidersilk$"
+ feature_generic_material_cordage_ebonthread:0 "$cloth_ebonthread$"
+ feature_generic_material_cordage_kresh:0 "$cloth_kresh$"
+ feature_generic_material_cordage_ancestor_silk:0 "$cloth_ancestor_silk$"
+
+ feature_generic_material_wood_beech:0 "$wood_beech$"
+ feature_generic_material_wood_hickory:0 "$wood_hickory$"
+ feature_generic_material_wood_birch:0 "$wood_birch$"
+ feature_generic_material_wood_mahogany:0 "$wood_mahogany$"
+ feature_generic_material_wood_nightwood:0 "$wood_nightwood$"
+ feature_generic_material_wood_ruby_ash:0 "$wood_ruby_ash$"
+
+ feature_blade_metal_iron:0 "$metal_iron$"
+ feature_blade_metal_chitin:0 "$metal_chitin$"
+ feature_blade_metal_steel:0 "$metal_steel$"
+ feature_blade_metal_silver:0 "$metal_silver$"
+ feature_blade_metal_orichalcum:0 "$metal_orichalcum$"
+ feature_blade_metal_dwarven:0 "$metal_dwarven$"
+ feature_blade_metal_moonstone:0 "$metal_moonstone$"
+ feature_blade_metal_malachite:0 "$metal_malachite$"
+ feature_blade_metal_stalhrim:0 "$metal_stalhrim$"
+ feature_blade_metal_mithril:0 "$metal_mithril$"
+ feature_blade_metal_adamantium:0 "$metal_adamantium$"
+ feature_blade_metal_ebony:0 "$metal_ebony$"
+ feature_blade_metal_daedric:0 "$metal_daedric$"
+ feature_blade_metal_amber:0 "$metal_amber$"
+ feature_blade_metal_dragonbone:0 "$metal_dragonbone$"
+ feature_blade_metal_madness:0 "$metal_madness$"
+
+ feature_head_metal_iron:0 "$metal_iron$"
+ feature_head_metal_chitin:0 "$metal_chitin$"
+ feature_head_metal_steel:0 "$metal_steel$"
+ feature_head_metal_silver:0 "$metal_silver$"
+ feature_head_metal_orichalcum:0 "$metal_orichalcum$"
+ feature_head_metal_dwarven:0 "$metal_dwarven$"
+ feature_head_metal_moonstone:0 "$metal_moonstone$"
+ feature_head_metal_malachite:0 "$metal_malachite$"
+ feature_head_metal_stalhrim:0 "$metal_stalhrim$"
+ feature_head_metal_mithril:0 "$metal_mithril$"
+ feature_head_metal_adamantium:0 "$metal_adamantium$"
+ feature_head_metal_ebony:0 "$metal_ebony$"
+ feature_head_metal_daedric:0 "$metal_daedric$"
+ feature_head_metal_amber:0 "$metal_amber$"
+ feature_head_metal_dragonbone:0 "$metal_dragonbone$"
+ feature_head_metal_madness:0 "$metal_madness$"
+
+ feature_handle_metal_iron:0 "$metal_iron$"
+ feature_handle_metal_chitin:0 "$metal_chitin$"
+ feature_handle_metal_steel:0 "$metal_steel$"
+ feature_handle_metal_silver:0 "$metal_silver$"
+ feature_handle_metal_orichalcum:0 "$metal_orichalcum$"
+ feature_handle_metal_dwarven:0 "$metal_dwarven$"
+ feature_handle_metal_moonstone:0 "$metal_moonstone$"
+ feature_handle_metal_malachite:0 "$metal_malachite$"
+ feature_handle_metal_stalhrim:0 "$metal_stalhrim$"
+ feature_handle_metal_mithril:0 "$metal_mithril$"
+ feature_handle_metal_adamantium:0 "$metal_adamantium$"
+ feature_handle_metal_ebony:0 "$metal_ebony$"
+ feature_handle_metal_daedric:0 "$metal_daedric$"
+ feature_handle_metal_amber:0 "$metal_amber$"
+ feature_handle_metal_dragonbone:0 "$metal_dragonbone$"
+ feature_handle_metal_madness:0 "$metal_madness$"
+
+ feature_shaft_wood_beech:0 "$wood_beech$"
+ feature_shaft_wood_hickory:0 "$wood_hickory$"
+ feature_shaft_wood_birch:0 "$wood_birch$"
+ feature_shaft_wood_mahogany:0 "$wood_mahogany$"
+ feature_shaft_wood_nightwood:0 "$wood_nightwood$"
+ feature_shaft_wood_ruby_ash:0 "$wood_ruby_ash$"
+
+ feature_armor_material_fur:0 "$material_fur$"
+ feature_armor_material_hide:0 "$material_hide$"
+ feature_armor_material_bearskin:0 "$material_bearskin$"
+ feature_armor_material_netch_leather:0 "$material_netch_leather$"
+ feature_armor_material_studded_leather:0 "$material_studded_leather$"
+ feature_armor_material_newtscale:0 "$material_newtscale$"
+ feature_armor_material_iron:0 "$metal_iron$"
+ feature_armor_material_trollbone:0 "$material_trollbone$"
+ feature_armor_material_moonstone:0 "$metal_moonstone$"
+ feature_armor_material_boiled_netch:0 "$material_boiled_netch$"
+ feature_armor_material_bonemold:0 "$material_bonemold$"
+ feature_armor_material_dwarven:0 "$metal_dwarven$"
+ feature_armor_material_silver:0 "$metal_silver$"
+ feature_armor_material_corundum:0 "$metal_corundum$"
+ feature_armor_material_chitin:0 "$metal_chitin$"
+ feature_armor_material_adamantium:0 "$metal_adamantium$"
+ feature_armor_material_malachite:0 "$metal_malachite$"
+ feature_armor_material_orichalcum:0 "$metal_orichalcum$"
+ feature_armor_material_dreugh:0 "$material_dreugh$"
+ feature_armor_material_dragonscale:0 "$material_dragonscale$"
+ feature_armor_material_ebony:0 "$metal_ebony$"
+ feature_armor_material_quicksilver:0 "$metal_quicksilver$"
+ feature_armor_material_amber:0 "$metal_amber$"
+ feature_armor_material_ebony:0 "$metal_ebony$"
+ feature_armor_material_dragonplate:0 "$material_dragonplate$"
+ feature_armor_material_stalhrim:0 "$metal_stalhrim$"
+ feature_armor_material_daedric:0 "$metal_daedric$"
+ feature_armor_material_madness:0 "$metal_madness$"
+
+ feature_artifact_armor_descriptor_stalhrim_inlaid:0 "Stalhrim-inlaid"
+ feature_artifact_armor_descriptor_platinum_inlaid:0 "Platinum-inlaid"
+ feature_artifact_armor_descriptor_electrum_inlaid:0 "Electrum-inlaid"
+ feature_artifact_armor_descriptor_dwarven_inlaid:0 "Dwarven-inlaid"
+ feature_artifact_armor_descriptor_orichalcum_inlaid:0 "Orichalcum-inlaid"
+ feature_artifact_armor_descriptor_quicksilver_inlaid:0 "Quicksilver-inlaid"
+ feature_artifact_armor_descriptor_mithril_inlaid:0 "Mithril-inlaid"
+ feature_artifact_armor_descriptor_corundum_inlaid:0 "Corundum-inlaid"
+ feature_artifact_armor_descriptor_brass_inlaid:0 "Brass-inlaid"
+
+ feature_box_material_maple:0 "$wood_maple$"
+ feature_box_material_beech:0 "$wood_beech$"
+ feature_box_material_hickory:0 "$wood_hickory$"
+ feature_box_material_yew:0 "$wood_yew$"
+ feature_box_material_birch:0 "$wood_birch$"
+ feature_box_material_ash:0 "$wood_ash$"
+ feature_box_material_mahogany:0 "$wood_mahogany$"
+ feature_box_material_nightwood:0 "$wood_nightwood$"
+ feature_box_material_ruby_ash:0 "$wood_ruby_ash$"
+
+ # Staffs
+ artifact_staff_name:0 "$artifact_name_prefix$ Staff"
+ artifact_staff_description:2 "A staff of [SCOPE.Custom('ArtifactQuality')] craftsmanship. [newly_created_artifact.Custom('ArtifactStaffDescription')]"
+ artifact_staff_shaft_undecorated:1 "This simple magic tool is made with a magically-infused [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] shaft."
+ artifact_staff_shaft_undecorated_alt:2 "This intricate magic tool is made with a magically-infused [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] shaft. It is a weapon that is favored by mages everywhere."
+ artifact_staff_shaft_decorated:1 "an elegant [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] shaft that has been [ROOT.Artifact.GetFeatureText( 'shaft_decoration' )] and infused with [Artifact.GetFeatureText( 'decoration_material_gem' )]."
+
+ artifact_wall_staff_description:0 "$artifact_staff_description$"
+
+ weapon_staff_inspiration_description:1 "a staff"
+
+ weapon_staff_inspiration_name:0 "staff"
+
+ fund_inspiration.0011.ekstaff:0 "I prefer to enhance my own magical abilities."
+
+ fund_inspiration.0011.tooltip_staff:0 "$fund_inspiration.0011.tooltip_action$ a $signature_weapon_staff$"
+ fund_inspiration.0011.tooltip_staff.tt:0 "You gain a $signature_weapon_staff$ at the end of the inspiration"
+
+ signature_weapon_staff:0 "staff"
+ signature_weapon_staff_wield:0 "wield"
+ signature_weapon_staff_wields:0 "wields"
+ signature_weapon_staff_wielding:0 "wielding"
+ signature_weapon_staff_wielded:0 "wielded"
+ signature_weapon_a_skillful_ward:0 "a skillful ward"
+ signature_weapon_cast_spell:0 "cast a spell at"
+ signature_weapon_cast_present:0 "casts a spell at"
+ signature_weapon_attempted_concentrated_cast:0 "concentrated spell"
+ signature_weapon_attempted_quick_cast:0 "quick spell"
+ signature_weapon_attempted_heavy_plural_cast:0 "concentrated spells"
+ signature_weapon_attempted_light_plural_cast:0 "quick spells"
+ signature_weapon_flourish_weaving:0 "weaving"
+ signature_weapon_flourish_weaves:0 "weaves"
+ signature_weapon_attack_verb_burn:0 "burn"
+ signature_weapon_attack_verb_burning:0 "burning"
+ signature_weapon_attack_verb_burns:0 "burns"
+ signature_weapon_attack_verb_electrocute:0 "electrocute"
+ signature_weapon_attack_verb_electrocutes:0 "electrocutes"
+ signature_weapon_attack_verb_electrocuting:0 "electrocuting"
+ signature_weapon_attack_verb_freeze:0 "freeze"
+ signature_weapon_attack_verb_drain:0 "drain"
+ signature_weapon_attack_verb_drains:0 "drains"
+ signature_weapon_attack_verb_disintegrate:0 "reduce"
+ signature_weapon_attack_verb_disintegrates:0 "reduces"
+ signature_weapon_attack_verb_disintegrating:0 "reducing"
+ signature_weapon_attack_verb_strangulating:0 "strangulating"
+ signature_weapon_tip_adjective_blunt:0 "blunt"
+ signature_weapon_killed_reduce:0 "disintegrate"
+ signature_weapon_killed_reduced:0 "disintegrated"
+ signature_weapon_killed_reduce_me:0 "disintegrate me"
+ signature_weapon_killed_reduces_me:0 "disintegrates me"
+ signature_weapon_killed_reduces_my_groin:0 "disintegrates my groin"
+ signature_weapon_killed_reduced_me:0 "disintegrated me"
+ signature_weapon_killed_reduced_my_groin:0 "disintegrated my groin"
+ signature_weapon_killed_reducing_me:0 "disintegrating me"
+ signature_weapon_killed_reduced_herhim:0 "disintegrated [second.GetHerHim]"
+ signature_weapon_killed_reducing_herhim:0 "disintegrating [second.GetHerHim]"
+ signature_weapon_killed_reduced_hisher_groin:0 "disintegrated [second.GetHerHis] groin"
+ signature_weapon_killed_aftermath_exploding_me:0 "exploding me into a million pieces"
+ signature_weapon_killed_aftermath_exploding_herhim:0 "exploding [second.GetHerHim] into a million pieces"
+ signature_weapon_killed_aftermath_exploding_herhis_crotch:0 "exploding [second.GetHerHis] crotch into a million pieces"
+ signature_weapon_killed_pulverize_my_head:0 "pulverize my head"
+ signature_weapon_killed_pulverize_herhis_head:0 "pulverize [second.GetHerHis] head"
+ signature_weapon_killed_pulverizing_herhis_head:0 "pulverizing [second.GetHerHis] head"
+ signature_weapon_killed_magically_choke_me:0 "choke me with magic"
+ signature_weapon_killed_magically_chokes_me:0 "chokes me with magic"
+ signature_weapon_killed_magically_choking_me:0 "choking me with magic"
+ signature_weapon_killed_magically_chokes_herhim:0 "chokes [second.GetHerHim] with magic"
+ signature_weapon_killed_magically_choking_herhim:0 "choking [second.GetHerHim] with magic"
+ signature_weapon_killed_lightining_split_herhis_skull_in_two:0 "split [second.GetHerHis] skull with lightning"
+ signature_weapon_killed_blasts_my_sternum:0 "blasts my sternum with a magic bolt"
+ signature_weapon_killed_blasts_herhis_sternum:0 "blasts [second.GetHerHis] sternum with a magic bolt"
+ signature_weapon_killed_blast_herhis_sternum:0 "blast [second.GetHerHis] sternum with a magic bolt"
+ signature_weapon_killed_blast_my_sternum:0 "blast my sternum with a magic bolt"
+ signature_weapon_killed_blasting_my_sternum:0 "blasting my sternum with a magic bolt"
+ signature_weapon_killed_blasting_herhis_sternum:0 "blasting [second.GetHerHis] sternum with a magic bolt"
+ signature_weapon_attack_verb_pushing_through_my_ribs:0 "using telekinesis to push through my ribs"
+ signature_weapon_attack_verb_pushing_through_herhis_ribs:0 "using telekinesis to push through [second.GetHerHis] ribs"
+ signature_weapon_attack_verb_push_through_herhis_ribs:0 "use telekinesis to push through [second.GetHerHis] ribs"
+ signature_weapon_killed_withering_my_spine_away:0 "withering away my spine with a spell"
+ signature_weapon_killed_withered_my_spine_away:0 "withered away my spine with a spell"
+ signature_weapon_killed_withering_herhis_spine_away:0 "withering away [second.GetHerHis] spine with a spell"
+ signature_weapon_killed_wither_my_spine_away:0 "wither away my spine with a spell"
+ signature_weapon_killed_wither_herhis_spine_away:0 "wither away [second.GetHerHis] spine with a spell"
+ signature_weapon_killed_withers_herhis_spine_away:0 "withers away [second.GetHerHis] spine with a spell"
+ signature_weapon_killed_withering_herhis_spine_away:0 "withering away [second.GetHerHis] spine with a spell"
+
+# Bows
+ artifact_bow_name:0 "$artifact_name_prefix$ Bow"
+ artifact_bow_description:2 "A bow of [SCOPE.Custom('ArtifactQuality')] craftsmanship. [newly_created_artifact.Custom('ArtifactBowDescription')]"
+ artifact_bow_shaft_undecorated:1 "A simple weapon, composed of a sturdy [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] shaft and a common string."
+ artifact_bow_shaft_undecorated_alt:2 "A simple weapon, composed of a sturdy [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] shaft with rudimentary decorations. Its string is as strong as an ox's tendon."
+ artifact_bow_shaft_decorated:1 "A deadly instrument for bringing death from afar, elegantly composed from an ornate [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] shaft that has been [ROOT.Artifact.GetFeatureText( 'shaft_decoration' )]."
+
+ artifact_wall_bow_description:0 "$artifact_bow_description$"
+
+ weapon_bow_inspiration_description:1 "a bow"
+
+ weapon_bow_inspiration_name:0 "bow"
+
+ fund_inspiration.0011.ekbow:0 "I prefer to snipe my enemies from a distance."
+
+ fund_inspiration.0011.tooltip_bow:0 "$fund_inspiration.0011.tooltip_action$ a $signature_weapon_bow$"
+ fund_inspiration.0011.tooltip_bow.tt:0 "You gain a $signature_weapon_bow$ at the end of the inspiration"
+
+ signature_weapon_bow:0 "bow"
+ signature_weapon_bow_ready:0 "ready"
+ signature_weapon_bow_readies:0 "readies"
+ signature_weapon_bow_readying:0 "readying"
+ signature_weapon_bow_readied:0 "readied"
+ signature_weapon_a_masterful_dodge:0 "a masterful dodge"
+ signature_weapon_shoot_arrow:0 "shot an arrow at"
+ signature_weapon_shoot_present:0 "shoots an arrow at"
+ signature_weapon_attempted_concentrated_shot:0 "concentrated shot"
+ signature_weapon_attempted_quick_shot:0 "quick shot"
+ signature_weapon_attempted_heavy_plural_shot:0 "concentrated shots"
+ signature_weapon_attempted_light_plural_shot:0 "quick shots"
+ signature_weapon_flourish_drawing:0 "drawing"
+ signature_weapon_flourish_draws:0 "draws"
+ signature_weapon_attack_verb_long_shooting:0 "long shooting"
+ signature_weapon_attack_verb_shoot:0 "shoot an arrow"
+ signature_weapon_attack_verb_shooting:0 "shooting an arrow"
+ signature_weapon_attack_verb_shoots:0 "shoots an arrow"
+ signature_weapon_attack_verb_snipe:0 "snipe"
+ signature_weapon_attack_verb_snipes:0 "snipes"
+ signature_weapon_attack_verb_sniping:0 "sniping"
+ signature_weapon_attack_verb_volley:0 "shoot a volley of arrows"
+ signature_weapon_attack_verb_scatter:0 "shoot a fragmenting arrow"
+ signature_weapon_attack_verb_scatters:0 "shoots a fragmenting arrow"
+ signature_weapon_attack_verb_spray:0 "fire a burst of arrows"
+ signature_weapon_attack_verb_sprays:0 "fires a burst of arrows"
+ signature_weapon_attack_verb_spraying:0 "firing a burst of arrows"
+ signature_weapon_attack_verb_shooting:0 "shooting an arrow"
+ signature_weapon_tip_adjective_sharp_arrow:0 "sharp arrow"
+ signature_weapon_killed_go_through:0 "make an arrow go through"
+ signature_weapon_killed_went_through:0 "made an arrow go through"
+ signature_weapon_killed_went_through_herhim:0 "made an arrow go through [second.GetHerHim]"
+ signature_weapon_killed_go_through_me:0 "make an arrow go through me"
+ signature_weapon_killed_going_through_me:0 "making an arrow go through me"
+ signature_weapon_killed_going_through_herhim:0 "making an arrow go through [second.GetHerHim]"
+ signature_weapon_killed_goes_through_me:0 "makes an arrow go through me"
+ signature_weapon_killed_went_through:0 "made an arrow go through"
+ signature_weapon_killed_shot_my_groin:0 "shot my groin"
+ signature_weapon_killed_shot_hisher_groin:0 "shot [second.GetHerHim] groin"
+ signature_weapon_killed_shoots_my_groin:0 "shoots my groin"
+ signature_weapon_killed_aftermath_perforating_my_crotch:0 "perforating my crotch"
+ signature_weapon_killed_aftermath_shooting_herhim_repeatedly_in_the_groin:0 "shooting [second.GetHerHim] repeatedly in the groin"
+ signature_weapon_killed_aftermath_perforating_herhis_crotch:0 "perforating [second.GetHerHis] crotch"
+ signature_weapon_killed_headshoot_me:0 "shoot me in the head"
+ signature_weapon_killed_headshoot_herhim:0 "shoot [second.GetHerHim] in the head"
+ signature_weapon_killed_headshooting_herhim:0 "shooting [second.GetHerHim] in the head"
+ signature_weapon_killed_throatshoot_me:0 "shoot an arrow through my throat"
+ signature_weapon_killed_throatshoots_me:0 "shoots an arrow through my throat"
+ signature_weapon_killed_throatshoots_herhim:0 "shoots an arrow through [second.GetHerHis] throat"
+ signature_weapon_killed_throatshooting_me:0 "shooting an arrow through my throat"
+ signature_weapon_killed_throatshooting_herhim:0 "shooting an arrow through [second.GetHerHis] throat"
+ signature_weapon_killed_headshoot_herhim2:0 "shot [second.GetHerHim] in the base of the skull"
+ signature_weapon_killed_chestshoots_me:0 "shoots an arrow through my chest"
+ signature_weapon_killed_chestshoots_herhim:0 "shoots an arrow through [second.GetHerHis] chest"
+ signature_weapon_killed_chestshoot_me:0 "shoot an arrow through my chest"
+ signature_weapon_killed_chestshoot_herhim:0 "shoot an arrow through [second.GetHerHis] chest"
+ signature_weapon_killed_chestshooting_me:0 "shooting an arrow through my chest"
+ signature_weapon_killed_chestshooting_herhim:0 "shooting an arrow through [second.GetHerHis] chest"
+ signature_weapon_attack_verb_ribshooting_me:0 "landing an arrow between my ribs"
+ signature_weapon_attack_verb_ribshooting_herhim:0 "landing an arrow between [second.GetHerHis] ribs"
+ signature_weapon_attack_verb_ribshoot_herhim:0 "land an arrow between [second.GetHerHis] ribs"
+ signature_weapon_killed_spineshooting_me:0 "landing an arrow in my spine"
+ signature_weapon_killed_spineshoots_herhim:0 "lands an arrow in [second.GetHerHis] spine"
+ signature_weapon_killed_spineshoot_me:0 "land an arrow in my spine"
+ signature_weapon_killed_spineshoot_herhim:0 "land an arrow in [second.GetHerHis] spine"
+ signature_weapon_killed_spineshot_me:0 "landed an arrow in my spine"
+ signature_weapon_killed_spineshooting_herhim:0 "landing an arrow in [second.GetHerHis] spine"
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,105 @@
+﻿l_russian:
+ ### CULTURE PARAMETERS
+ culture_parameter_bonuses_from_plunderer_trait:0 "Characters with the [GetTrait('plunderer').GetName( GetNullCharacter )] [trait|E] are seen as [prestige_i][prestigious|E] and can [raid|E] faster"
+ culture_parameter_unlocks_feudal_government:0 "Unlocks the [feudal_government|E] for [autocratic|E] [rulers|E]"
+ culture_parameter_unlocks_pirate_government:0 "Unlocks the [pirate_government|E] for [autocratic|E] [rulers|E]"
+ culture_parameter_unlocks_praxis_government:0 "Unlocks the [praxis_government|E] for [autocratic|E] [rulers|E]"
+ culture_parameter_weak_rulers_contest_rule:0 "Rulers with high [prowess_i|E][prowess_skill|E] may pay [prestige|E] to claim [titles|E] held by other rulers. The higher the difference of Prowess between the rulers, the lower the cost."
+ culture_parameter_stewardship_education_worse_outcomes:0 "Characters of this culture do worse in Stewardship education"
+ culture_parameter_dueling_culture:0 "Characters of this culture are much more likely to propose and accept duels"
+ culture_parameter_unlock_pillage_legacy:0 "A [dynast|E] of this [culture|E] can use the #V $fp1_pillage_legacy_track_name$#! [dynasty_perk|E]"
+ culture_parameter_unlock_urbanism_legacy:0 "A [dynast|E] of this [culture|E] can use the #V $fp2_urbanism_legacy_track_name$#! [dynasty_perk|E]"
+
+## MAA PARAMETERS
+ culture_parameter_unlock_innovation_nordic_steelcarving:0 "Unlocks the $innovation_nordic_steelcarving$ [innovation|E] which allows the recruiting of [GetMaA('huscarl').GetName] [men_at_arms|E]" 
+ culture_parameter_unlock_innovation_stalhrim_reinforced_furs:0 "Unlocks the $innovation_stalhrim_reinforced_furs$ [innovation|E] which allows the recruiting of [GetMaA('skaal_hunter').GetName] [men_at_arms|E]"
+ culture_parameter_unlock_innovation_orichalc_master_smiths:0 "Unlocks the $innovation_orichalc_master_smiths$ [innovation|E] which allows the recruiting of [GetMaA('orc_marauders').GetName] [men_at_arms|E]"
+ culture_parameter_unlock_innovation_colovian_steel_lorica:0 "Unlocks the $innovation_colovian_steel_lorica$ [innovation|E] which allows the recruiting of [GetMaA('armored_legionaires').GetName] [men_at_arms|E]"
+ culture_parameter_unlock_innovation_shehai_sword_lore:0 "Unlocks the $innovation_shehai_sword_lore$ [innovation|E] which allows the recruiting of [GetMaA('yokudan_way_of_the_sword').GetName] [men_at_arms|E]"
+ culture_parameter_unlock_innovation_corsair_traditions:0 "Unlocks the $innovation_corsair_traditions$ [innovation|E] which allows the recruiting of [GetMaA('abecean_pirates').GetName] [men_at_arms|E]" 
+ culture_parameter_unlock_innovation_yoku_braided_stirrups:0 "Unlocks the $innovation_yoku_braided_stirrups$ [innovation|E] which allows the recruiting of [GetMaA('light_grazing_horde').GetName] [men_at_arms|E]"
+
+##PERK PARAMETERS
+ culture_parameter_strategist_xp_rebate:0 "It will be easier to progress in the Strategist Lifestyle"
+ culture_parameter_august_xp_rebate:0 "It will be easier to progress in the August Lifestyle"
+ culture_parameter_overseer_xp_rebate:0 "It will be easier to progress in the Overseer Lifestyle"
+ culture_parameter_torturer_xp_rebate:0 "It will be easier to progress in the Torturer Lifestyle"
+## POSITION PARAMETERS
+ culture_parameter_can_appoint_court_housecarl:0 "Can appoint the #high $court_housecarl_court_position$#! [court_position|E]"
+ culture_parameter_can_appoint_loremaster:0 "Can appoint the #high $loremaster_court_position$#! [court_position|E]" 
+ culture_parameter_can_appoint_court_wives:0 "Can appoint the #high $huntwife_court_position$, $forgewife_court_position$ and $hearthwife_court_position$#! [court_positions|E]" 
+
+##LAW PARAMETERS
+ culture_parameter_moot_elective_enabled:0 "Can enact the #high $moot_elective_succession_law$#! [succession_law|E]"
+
+##BUILDING PARAMETERS
+ culture_parameter_better_hunting_buildings:0 "The #V $building_type_hunting_grounds_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]"
+ culture_parameter_better_pasture_buildings:0 "The #V $building_type_pastures_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]"
+ culture_parameter_better_barrack_buildings:0 "The #V $building_type_barracks_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]"
+
+##TRAITS PARAMETERS
+ culture_parameter_honorable_traits_bonuses:0 "Honest and Arrogant have bonuses"
+ culture_parameter_gregarious_trait_more_common:0 "The Gregarious Trait is more common"
+ culture_parameter_arrogant_trait_more_common:0  "The Arrogant Trait is more common"
+ culture_parameter_honesty_valued:0  "Honest Characters are admired whilst Deceitful and Shy individuals are scorned"
+ culture_parameter_courage_valued:0  "Brave Characters are admired whilst Craven and Callous individuals are scorned"
+ culture_parameter_revenge_valued:0  "Vengeful Characters are admired whilst Forgiving and Fickle individuals are scorned"
+ culture_parameter_cruelty_valued:0  "Sadistic Characters are admired whilst Compassionate and Shy individuals are scorned"
+ culture_parameter_faith_valued:0  "Zealous Characters are admired whilst Cynical and Arrogant individuals are scorned" 
+ culture_parameter_forder_trait_bonuses:0  "Forder Characters can disembark without penalty and sail faster" 
+ culture_parameter_poorly_educated_leaders_greatly_distrusted_ceremoniarchy:0 "[rulers|E] with poor [education_traits|E], such as [GetTrait('education_martial_1').GetName( GetNullCharacter )] or [GetTrait('education_martial_2').GetName( GetNullCharacter )], are #N greatly#! distrusted"
+
+##CHILD PERSONALITY PARAMETERS
+ culture_parameter_curious_trait_more_common:0 "The Curious Trait is more common"
+ culture_parameter_curious_trait_less_common:0 "The Curious Trait is less common"
+ culture_parameter_bossy_trait_more_common:0 "The Bossy Trait is more common"
+ culture_parameter_bossy_trait_less_common:0 "The Bossy Trait is less common"
+ culture_parameter_charming_trait_more_common:0 "The Charming Trait is more common"
+ culture_parameter_charming_trait_less_common:0 "The Charming Trait is less common"
+
+##EVENTS PARAMETERS
+ culture_parameter_wandering_poets_may_appear:0 "Wandering poets may appear at court to glorify or ridicule your rule"
+ culture_parameter_wandering_swordsmen_may_appear:0 "Wandering swordmasters may appear at court to fight for you or challenge your warriors"
+
+ ###TRADITIONS
+ tradition_nord_core_name:0 "Children of the Sky"
+ tradition_nord_core_desc:1 "To meet and confer on great matters of the realm -including succession- is a recognized privilege of the nobility. Nordic nobles do not take kindly to being scorned"
+ tradition_skaal_core_name:0 "Secrets of the Skaal"
+ tradition_skaal_core_desc:1 "Nature can be a harsh mistress or a doting mother. The Skaal know the secrets to ensure the latter is true"
+ tradition_honor_bound_name:0 "Honor-Bound"
+ tradition_honor_bound_desc:1 "Honor is not important, it is paramount. Duels may take place to resolve contentious matters which pertain to it."
+ tradition_bards_name:0 "Skaldic Traditions"
+ tradition_bards_desc:1 "Since the dawn of time, poets have mocked, lauded and recorded the deeds of our forefathers. We have much to learn from these verses"
+ tradition_conquerors_name:0 "Gifted Conquerors"
+ tradition_conquerors_desc:1 "Anyone can be molded into a competent leader through open battles. We must seize any pretense for such battles to conquer far and wide"
+ tradition_orc_core_name:0 "Stronghold Culture"
+ tradition_orc_core_desc:1 "Living in an Orcish Stronghold is both hard and easy. Self-reliance is key…yet everyone must be dependable. Know your place and fill your role, so that the community can thrive"
+ tradition_forlorn_peace_name:0 "Forlorn Peace"
+ tradition_forlorn_peace_desc:1 "Peace has failed us..We must deter all would-be invaders and traitors with pain and terror and maintain an iron grip over power"
+ tradition_arsenal_name:0 "Garrisoned Smiths"
+ tradition_arsenal_desc:1 "Sturdy fortifications and quality weapons are the basis for safety. Our blacksmiths and masons will ensure we have no lack of both"
+ tradition_crown_core_name:0 "Na-Totambu"
+ tradition_crown_core_desc:1 "The customs must be passed down the bloodline;praising the ancestors and studying the Book of Rings. We shall keep the remains of our forefathers. To defile the honoured dead with vile magicks is to invite swift and harsh retribution upon oneself!"
+ tradition_forebear_core_name:0 "Ra Gada"
+ tradition_forebear_core_desc:1 "We conquered the Deathlands with blood, and made it through our sweat. We have learned to appreciate what other people can offer to us over the centuries and keeping an open mind has many benefits"
+ tradition_yokudan_core_name:0 "Virtues of War"
+ tradition_yokudan_core_desc:1 "From the age of strife came the greatest swordmasters on Nirn. Withing hallowed schools of war we can study strategy, swordmaking and swordfighting"
+ tradition_horsemen_core_name:0 "Akos Horsemen"
+ tradition_horsemen_core_desc:1 "The plains of Akos Kasaz are home to spirited horses and hardy folk. A most efficient combination for elite cavalry"
+ tradition_sword_meeting_name:0 "Sword Meeting"
+ tradition_sword_meeting_desc:1 "Even though the Sword-Singing of our forefathers has been nearly lost, we still cultivate swordsmanship, honing our craft against friends in spars, and foes in battle. We conquered this land with our blood and made it thrive with our sweat"
+ tradition_shattered_continent_name:0 "Shattered Continent"
+ tradition_shattered_continent_desc:1 "Old Yokuda fell to the treacherous Pankratosword, yet her people clung to life on her corpse, eventually breathing life back to the scarred land"
+ tradition_abecean_piracy_name:0 "Abecean Piracy"
+ tradition_abecean_piracy_desc:1 "The Abecean Sea is blessed with bountiful waters and prosperous commerce yet plagued with unceasing privateering. It would be foolish to keep ourselves from partaking in both!"
+ tradition_ceremoniarchy_name:0 "Ceremoniarchy"
+ tradition_ceremoniarchy_desc:1 "We are the descendants of the Aedra themselves and to live anything less than perfect lives is to dishonour our ancestors. We have built an elaborate court culture and ceremonies based on our connections to the ancient spirits."
+ tradition_sorcerer_kings_name:0 "Sorcerer-Kings"
+ tradition_sorcerer_kings_desc:0 "Our culture and people place an extreme emphasis on Arcana and one's skill in the arts of magicka. It is only fair that the strongest mages should rule."
+ culture_parameter_unlocks_court_magical:0 "Rulers with a [royal_court|E] can use the $court_magical$ [court_type|E]"
+ culture_parameter_rank_gives_bonus_to_mage_maa:0 "Mages [men_at_arms|E] receive bonuses in Size, [damage|E], [pursuit|E], [toughness|E] and [screen|E] dependind on the ruler's [rank|E]"
+ culture_parameter_unlocks_arcana_education:0 "[guardians|E] with skills in Magicka, either via a #V $trait_arcana_good$#! or #V $trait_education_magical_ability$#! [trait|E] will pass down a #V $trait_education_magical_ability$#! [trait|E] to their [ward|E]\n#weak Innovations unlocking similar abilities will instead lead to better results#!"
+ culture_parameter_good_arcana_traits_give_bonuses:0 "#V $trait_arcana_good$#! and #V $trait_education_magical_ability$#! [traits|E] are more valued"
+ culture_parameter_bad_arcana_traits_give_maluses:0 "#V $trait_arcana_bad$#! [traits|E] are looked down upon"
+
+ CULTURE_NOT_NATIVE_FOR_DIVERGENCE:0 "Your [culture|E] is already considered [native|E] to your [capital|E]'s [nativity_region|E]"

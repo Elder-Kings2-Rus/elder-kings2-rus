@@ -1,0 +1,21 @@
+﻿l_russian:
+ recreate_lost_kingdom_arnesia_decision:0 "Recreate the lost Kingdom of Arnesia"
+ recreate_lost_kingdom_arnesia_decision_desc:0 "Destroyed ages ago by Dunmeri and Argonians forces, the old city of Arnesia was a beacon in a dark and dangerous province. It is up to us to seize back the land surrounding the city, and make it shine once more!"
+ recreate_lost_kingdom_arnesia_decision_effects_de_jure_tt:0 "The [duchies|E] of [arnesia_arnesia.GetNameNoTier], [arnesia_seafalls.GetNameNoTier], [arnesia_padomeic.GetNameNoTier] and [arnesia_nootanara.GetNameNoTier] will each become [de_jure|E] Arnesia"
+ recreate_lost_kingdom_arnesia_decision_confirm: "Shine once more, before the end!"
+ recreate_lost_kingdom_arnesia_decision_tooltip: "The old city-state of Arnesia may have fallen, but it is not yet lost..."
+ 
+ integrate_tearmarsh_black_marsh_decision:0 "Integrate Tearmarsh into the Black Marsh"
+ integrate_tearmarsh_black_marsh_decision_desc:0 "Tearmarsh has been Morrowind's southern border with Black Marsh for generations now. Through these lands, the various people occupying the region, mostly the Dunmer, have launched countless raids and started many wars with our people.\nIt is time to put an end to this occupation, and to claim Tearmarsh for ourselves."
+ integrate_tearmarsh_black_marsh_decision_confirm:0 "The Marsh expands!"
+ integrate_tearmarsh_black_marsh_decision_tooltip:0 "Tearmarsh has been under our control for some time, and it is time to integrate it into Black Marsh!"
+
+xylo_border_bosmer_decision:0 "The Xylo Border Incident"
+xylo_border_bosmer_decision_desc:0 "Historically, the western bank of the Xylo river has been settled by many Bosmeri tribes - much to the dismay of the Khajiit. Over the decades and centuries, many Bosmer even began to consider the Xylo river the eastern border of Valenwood.\n\n ...something I can make a reality."
+xylo_border_bosmer_decision_confirm:0 "The Western Banks of Xylo shall be Bosmeri!"
+xylo_border_bosmer_decision_tooltip:0 "Make the Xylo Region de-jure drift into Valenwood."
+
+xylo_border_khajiit_decision:0 "The Xylo Border Incident"
+xylo_border_khajiit_decision_desc:0 "The Bosmer had no right to take the western bank of the Xylo river! Both sides of this sacret river have been the home of Khajiit for time immemorial.\n\n It is time to retake the western Xylo."
+xylo_border_khajiit_decision_confirm:0 "The Western Banks of Xylo shall be Elsweyr again!"
+xylo_border_khajiit_decision_tooltip:0 "Make the Xylo Region de-jure drift into Elsweyr."

@@ -1,0 +1,40 @@
+﻿l_russian:
+ ## Formable Kingdoms
+ # Craglorn
+ form_craglorn_kingdom_decision:0 "Form Kingdom of Craglorn"
+ form_craglorn_kingdom_decision_desc:0 "The region of Craglorn has finally become united. A new kingdom must be declared, one which claims all that lies between the Dragontails and the Jerall Mountains."
+ form_craglorn_kingdom_decision_tooltip:0 "Found the Kingdom of Craglorn"
+ form_craglorn_kingdom_decision_confirm:0 "A kingdom blessed by the stars!"
+ form_craglorn_kingdom_decision_effects_de_jure_tt:0 "All the duchies within the [region|E] of Craglorn become [de_jure|E] vassals of the Kingdom of Craglorn"
+ # Glenumbra
+ form_glenumbra_kingdom_decision:0 "Form Kingdom of Glenumbra"
+ form_glenumbra_kingdom_decision_desc:0 "The hills of Glenumbra have been filled with squabbling petty kings since time immemorial. But no more! At last, a unified kingdom of Glenumbra is within my grasp..."
+ form_glenumbra_kingdom_decision_tooltip:0 "You will create a new [kingdom|E] in Glenumbra"
+ form_glenumbra_kingdom_decision_confirm:0 "A new [ROOT.Char.GetLadyLord|U] of Glenumbra!"
+ form_glenumbra_kingdom_decision_effects_de_jure_tt:0 "All the duchies within the [region|E] of Glenumbra become [de_jure|E] vassals of the Kingdom of Glenumbra"
+ form_glenumbra_kingdom_decision_integrate_balfiera_tt:0 "If the Duchy of Balfiera is completely controlled, it becomes part of the Kingdom of Glenumbra"
+ # Rivenspire
+ form_rivenspire_kingdom_decision:0 "Form Kingdom of Rivenspire"
+ form_rivenspire_kingdom_decision_desc:0 "The craggy mountains of Rivenspire have been filled with squabbling petty kings since time immemorial. But no more! At last, a unified kingdom of Rivenspire is within my grasp..."
+ form_rivenspire_kingdom_decision_tooltip:0 "You will create a new [kingdom|E] in Rivenspire"
+ form_rivenspire_kingdom_decision_confirm:0 "A new [ROOT.Char.GetLadyLord|U] of Rivenspire!"
+ form_rivenspire_kingdom_decision_effects_de_jure_tt:0 "All the duchies within the [region|E] of Rivenspire become [de_jure|E] vassals of the Kingdom of Rivenspire"
+ # Wrothgarian Mountains
+ form_greater_wrothgar_kingdom_decision:0 "Form Kingdom of Greater Wrothgar"
+ form_greater_wrothgar_kingdom_decision_desc:0 "The disparate land of Greater Wrothgar have been claimed by Bretons, Orcs, and Reachfolk for generations. It is time to settle this once and for all, and for me to declare myself the sole ruler of the region!"
+ form_greater_wrothgar_kingdom_decision_tooltip:0 "You will create a new [kingdom|E] in Greater Wrothgar"
+ form_greater_wrothgar_kingdom_decision_confirm:0 "A new [ROOT.Char.GetLadyLord|U] of Greater Wrothgar!"
+ form_greater_wrothgar_kingdom_decision_effects_de_jure_tt:0 "All the duchies within the [region|E] of Greater Wrothgar become [de_jure|E] vassals of the Kingdom of Greater Wrothgar"
+ # Bangkorai
+ form_bangkorai_kingdom_decision:0 "Form Kingdom of Bangkorai"
+ form_bangkorai_kingdom_decision_desc:0 "At last, I have secured control of Bangkorai, the so-called 'Shield of High Rock.' This region plagued with internecine border conflict is finally unified under my rule!"
+ form_bangkorai_kingdom_decision_tooltip:0 "You will create a new [kingdom|E] in Bangkorai."
+ form_bangkorai_kingdom_decision_confirm:0 "The first [ROOT.Char.GetLadyLord|U] of Bangkorai!"
+ form_bangkorai_kingdom_decision_effects_de_jure_tt:0 "All the duchies within the [region|E] of Bangkorai become [de_jure|E] vassals of the Kingdom of Bangkorai"
+ # Auridon
+ form_auridon_kingdom_decision:0 "Unify Auridon"
+ form_auridon_kingdom_decision_desc:0 "The target of raids and attacks for centuries, the guardian of the Summerset Isles, Auridon currently stands divided and weak. If we are to prevail and claim our rightful place in the archipelago, Auridon must be unified!"
+ form_auridon_kingdom_decision_tooltip:0 "You will create a new [kingdom|E] in Auridon."
+ form_auridon_kingdom_decision_confirm:0 "The first [ROOT.Char.GetLadyLord|U] of Auridon!"
+ form_auridon_kingdom_decision_effects_de_jure_tt:0 "All the duchies within the [region|E] of Auridon become [de_jure|E] vassals of the Kingdom of Auridon"
+ ## Formable Empires

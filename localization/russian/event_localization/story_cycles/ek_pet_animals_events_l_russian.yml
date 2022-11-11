@@ -1,0 +1,137 @@
+﻿l_russian:
+ ##############
+ #   PARROT   #
+ ##############
+ parrot_story_modifier:0 "Pet Parrot"
+ parrot_story_modifier_desc:0 "This character enjoys the company of an exotic bird, flying around them wherever they go"
+ parrot_story_eating_fruit_modifier:0 "Fresh Fruits and Parrot"
+ parrot_story_eating_fruit_modifier_desc:0 "This character enjoys sharing fresh fruits with their parrot"
+ parrot_story_fighting_with_you_modifier:0 "Battle Parrot"
+ parrot_story_fighting_with_you_modifier_desc:0 "In battle, this character can always be seen with their parrot not far from them, distracting enemies and even sometimes hurting them."
+ 
+ parrot_gender_her:0 "her"
+ parrot_gender_his:0 "his"
+ parrot_gender_him:0 "him"
+ parrot_gender_she:0 "she"
+ parrot_gender_he:0 "he"
+ parrot_gender_herself:0 "herself"
+ parrot_gender_himself:0 "himself"
+ parrot_gender_female:0 "female"
+ parrot_gender_male:0 "male"
+ 
+ plumage_color_red:0 "red"
+ plumage_color_green:0 "green"
+ plumage_color_blue:0 "blue"
+ 
+ parrot_name:1 "[ROOT.Char.GetLocalizedText( 'story_cycle_parrot_name' )]"
+ parrot_name_possessive:1 "[ROOT.Char.Custom( 'ParrotStoryName' )]'s"
+ parrot_name_orsone:0 "Orsone"
+ parrot_name_coco:0 "Coco"
+ parrot_name_abby:0 "Abby"
+ 
+ ek_pet_animal.0001.t:0 "The Parrot"
+ ek_pet_animal.0001.desc:1 "As the parrot flies in the room, happily singing, I ponder what I should name [ROOT.Char.Custom('ParrotStoryHerHim')]. Something historical? Something alluding to [ROOT.Char.Custom('ParrotStoryHerHis')] [ROOT.Char.Custom('ParrotPlumageColor')] plumage? Something to describe the soothing feeling I experience when [ROOT.Char.Custom('ParrotStorySheHe')] sings around me?\n\nOh, I know! I will name [ROOT.Char.Custom('ParrotStoryHerHim')]..."
+ ek_pet_animal.0001.a:1 "What a great name!"
+ 
+ ### Random parrot events
+ # You eat some fruits with your parrots, smol health modifier
+ ek_pet_animal.0101.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: Fresh Fruits"
+ ek_pet_animal.0101.desc:0 "I have taken the habit to spend some time with [ROOT.Char.Custom('ParrotStoryName')] at the end of the day, sharing some fresh fruits with [ROOT.Char.Custom('ParrotStoryHerHim')].\n\nI don't know if that's because of the fruits or [ROOT.Char.Custom('ParrotStoryName')], but I feel more energetic and healthy!"
+ ek_pet_animal.0101.a:0 "Leave some for me [ROOT.Char.Custom('ParrotStoryName')]!"
+ 
+ # Your parrot goes with you into battle!
+ ek_pet_animal.0102.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: Beak and Claws"
+ ek_pet_animal.0102.desc:0 "It seems that the bravery of [ROOT.Char.Custom('ParrotStoryName')] knows no bound! Be it in large scale battles, small skirmishes, or even in singular duels, [ROOT.Char.Custom('ParrotStorySheHe')] never leaves your side and fights with you.\n\nYour opponents, friendly or not, seem to even be frightened of [ROOT.Char.Custom('ParrotStoryHerHim')], and more than one were defeated because [ROOT.Char.Custom('ParrotStoryName')] distracted them with [ROOT.Char.Custom('ParrotStoryHerHis')] [ROOT.Char.Custom('ParrotPlumageColor')] plumage, or even because [ROOT.Char.Custom('ParrotStorySheHe')] pecked them!"
+ ek_pet_animal.0102.a:0 "With me, into battle!"
+ 
+ # Your parrot attacked a vassal! Wound or possibly an eye removal
+ ek_pet_animal.0103.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: Pecking the Eyes"
+ ek_pet_animal.0103.desc_wounded:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with you, [ROOT.Char.Custom('ParrotStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\n[vassal.GetFirstName] managed to flee the room, but not before your parrot could severly hurt [vassal.GetHerHim]..."
+ ek_pet_animal.0103.desc_eye_removed_not_one_eyed:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with you, [ROOT.Char.Custom('ParrotStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\nAn intense scream was soon heard, and after [ROOT.Char.Custom('ParrotStoryName')] was put back into [ROOT.Char.Custom('ParrotStoryHerHis')] cage [vassal.GetFirstName] could be seen holding [vassal.GetHerHis] hand near [vassal.GetHerHis] one of her eyes... with blood dripping."
+ ek_pet_animal.0103.desc_eye_removed_one_eyed:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with you, [ROOT.Char.Custom('ParrotStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\nAn intense scream was soon heard, and after [ROOT.Char.Custom('ParrotStoryName')] was put back into [ROOT.Char.Custom('ParrotStoryHerHis')] cage [vassal.GetFirstName] could be seen holding [vassal.GetHerHis] hand near [vassal.GetHerHis] only remaining eye... with blood dripping.\n\n'I CAN'T SEE' could [vassal.GetSheHe] be heard screaming. 'THIS IS ALL YOUR FAULT, YOU AND YOUR STUPID BIRD!'"
+ ek_pet_animal.0103.a:0 "I hope [vassal.GetFirstName] will be all right..."
+ ek_pet_animal.0103.b:0 "Oh no..."
+ 
+ # Parrot dies :(
+ ek_pet_animal.0199.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: Day of Sorrow"
+ ek_pet_animal.0199.desc:0 "[ROOT.Char.Custom('ParrotStoryName')] is not as young as [ROOT.Char.Custom('ParrotStorySheHe')] once was, and I can hear it in [ROOT.Char.Custom('ParrotStoryHerHis')] singing, not as strong and stable as it was some years ago.\n\nI gently pet [ROOT.Char.Custom('ParrotStoryHerHis')] [ROOT.Char.Custom('ParrotPlumageColor')] plumage and listen to [ROOT.Char.Custom('ParrotStoryHerHim')] softly sing and try to flap [ROOT.Char.Custom('ParrotStoryHerHis')] wings, but as silence falls I know that [ROOT.Char.Custom('ParrotStoryHerHis')] morning song won't wake me up again."
+ ek_pet_animal.0199.a:0 "I will miss you, [ROOT.Char.Custom('ParrotStoryName')]!"
+ 
+ pet_parrot_decision:0 "Pet [ROOT.Char.Custom('ParrotStoryName')]"
+ pet_parrot_decision_desc:0 "I know how much [ROOT.Char.Custom('ParrotStoryName')] loves flying around, and it always soothes me to hear [ROOT.Char.Custom('ParrotStoryHerHim')] happily sing and cuddle me. While it takes a lot of effort, and money, to properly feed and take care of [ROOT.Char.Custom('ParrotStoryHerHim')], no matter how tough life gets I know [ROOT.Char.Custom('ParrotStorySheHe')] will always be there for me!"
+ pet_parrot_decision_tooltip:0 "Pet your parrot"
+ pet_parrot_decision_confirm:0 "Pet your parrot"
+ 
+ # You pet your parrot :)
+ ek_pet_animal.0501.t:0 "A nice time with [ROOT.Char.Custom('ParrotStoryName')]"
+ ek_pet_animal.0501.desc:0 "As you enter your room, you can immediatly hear [ROOT.Char.Custom('ParrotStoryName')] chirp in excitment.\nWith a smile on your face you open [ROOT.Char.Custom('ParrotStoryHerHis')] cage and let [ROOT.Char.Custom('ParrotStoryHerHim')] open [ROOT.Char.Custom('ParrotStoryHerHis')] wings before taking off.\n[ROOT.Char.Custom('ParrotStoryName')] flies around the room for a few moments, before landing in your hand and cuddling your neck with [ROOT.Char.Custom('ParrotStoryHerHis')] head.\n\nAs you laugh, you feel the weight of the world already lifting from your shoulders."
+ ek_pet_animal.0501.a:0 "You're tickling me!"
+ 
+ ek_pet_animal.0502.desc:0 "With [ROOT.Char.Custom('ParrotStoryName')]'s favorite treat in your hand, you enter your small garden where [ROOT.Char.Custom('ParrotStoryName')] usually spends most of [ROOT.Char.Custom('ParrotStoryHerHis')] time.\nAs soon as [ROOT.Char.Custom('ParrotStorySheHe')] spots you, or maybe the fruits in your hand, [ROOT.Char.Custom('ParrotStorySheHe')] starts happily singing and flying around you.\nSoon after [ROOT.Char.Custom('ParrotStorySheHe')] lands on your shoulder and picks the treats in your hand.\n\nAs you laugh, you already feel better and ready to face everything the world can send at you."
+ ek_pet_animal.0502.a:0 "Don't eat everything [ROOT.Char.Custom('ParrotStoryName')]!"
+
+ ##############
+ #   SCORPION   #
+ ##############
+ scorpion_story_modifier:0 "Play with Scorpion"
+ scorpion_story_modifier_desc:0 "This character enjoys the company of a predatory arachnid, skittling around them wherever they go"
+ scorpion_story_observing_modifier:0 "Intrigue and Scorpion"
+ scorpion_story_observing_modifier_desc:0 "This character enjoys observing their scorpion"
+ scorpion_story_fighting_with_you_modifier:0 "Battle Scorpion"
+ scorpion_story_fighting_with_you_modifier_desc:0 "In battle, this character can always be seen with their scorpion not far from them, distracting enemies and even sometimes hurting them."
+ 
+ scorpion_gender_her:0 "her"
+ scorpion_gender_his:0 "his"
+ scorpion_gender_him:0 "him"
+ scorpion_gender_she:0 "she"
+ scorpion_gender_he:0 "he"
+ scorpion_gender_herself:0 "herself"
+ scorpion_gender_himself:0 "himself"
+ scorpion_gender_female:0 "female"
+ scorpion_gender_male:0 "male"
+ 
+ color_coffee:0 "coffee"
+ 
+ scorpion_name:1 "[ROOT.Char.GetLocalizedText( 'story_cycle_scorpion_name' )]"
+ scorpion_name_possessive:1 "[ROOT.Char.Custom( 'ScorpionStoryName' )]'s"
+ scorpion_name_kaveh:0 "Kaveh"
+ 
+ ek_pet_animal.1001.t:0 "The Scorpion"
+ ek_pet_animal.1001.desc:1 "As the scorpion scuttles around the room, happily clacking [ROOT.Char.Custom('ScorpionStoryHerHim')] claws, I ponder what I should name [ROOT.Char.Custom('ScorpionStoryHerHim')]. Something historical? Something alluding to [ROOT.Char.Custom('ScorpionStoryHerHis')] [ROOT.Char.Custom('ScorpionColor')] body? Something to describe the soothing feeling I experience when [ROOT.Char.Custom('ScorpionStorySheHe')] scuttles around me?\n\nOh, I know! I will name [ROOT.Char.Custom('ScorpionStoryHerHim')]..."
+ ek_pet_animal.1001.a:1 "What a great name!"
+ 
+ ### Random scorpion events
+ # You observe your scorpion, smol intrigue modifier
+ ek_pet_animal.1101.t:0 "[ROOT.Char.Custom('ScorpionStoryName')]: Scuttling Intrigue"
+ ek_pet_animal.1101.desc:0 "I have taken the habit to spend some time with [ROOT.Char.Custom('ScorpionStoryName')] at the end of the day, observing [ROOT.Char.Custom('ScorpionStoryHerHis')] movements.\n\nI don't know if that's because of my observations or [ROOT.Char.Custom('ScorpionStoryName')], but I feel my plotting skills getting better and better by the day."
+ ek_pet_animal.1101.a:0 "Intriguing!"
+ 
+ # Your scorpion goes with you into battle!
+ ek_pet_animal.1102.t:0 "[ROOT.Char.Custom('ScorpionStoryName')]: Stinger and Claws"
+ ek_pet_animal.1102.desc:0 "It seems that the bravery of [ROOT.Char.Custom('ScorpionStoryName')] knows no bound! Be it in large scale battles, small skirmishes, or even in singular duels, [ROOT.Char.Custom('ScorpionStorySheHe')] never leaves your side and fights with you.\n\nYour opponents, friendly or not, seem to even be frightened of [ROOT.Char.Custom('ScorpionStoryHerHim')], and more than one were defeated because [ROOT.Char.Custom('ScorpionStoryName')] distracted them with [ROOT.Char.Custom('ScorpionStoryHerHis')] [ROOT.Char.Custom('ScorpionColor')] carapace, or even because [ROOT.Char.Custom('ScorpionStorySheHe')] pecked them!"
+ ek_pet_animal.1102.a:0 "With me, into battle!"
+ 
+ # Your scorpion attacked a vassal! Wound or possibly death
+ ek_pet_animal.1103.t:0 "[ROOT.Char.Custom('ScorpionStoryName')]: Sting!"
+ ek_pet_animal.1103.desc_wounded:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with you, [ROOT.Char.Custom('ScorpionStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\n[vassal.GetFirstName] managed to flee the room, but not before your scorpion could severly hurt [vassal.GetHerHim]..."
+ ek_pet_animal.1103.desc_poisoned:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with you, [ROOT.Char.Custom('ScorpionStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\nAn intense scream was soon heard, and after [ROOT.Char.Custom('ScorpionStoryName')] was put back into [ROOT.Char.Custom('ScorpionStoryHerHis')] cage [vassal.GetFirstName] could be seen shaking in fear.\n\n'IT STUNG ME!' could [vassal.GetSheHe] be heard screaming. 'THIS IS ALL YOUR FAULT, YOU AND YOUR STUPID BUG!'"
+ ek_pet_animal.1103.a:0 "I hope [vassal.GetFirstName] will be all right..."
+ ek_pet_animal.1103.b:0 "Oh no..."
+ 
+ # Scorpion dies :(
+ ek_pet_animal.1199.t:0 "[ROOT.Char.Custom('ScorpionStoryName')]: Day of Sorrow"
+ ek_pet_animal.1199.desc:0 "[ROOT.Char.Custom('ScorpionStoryName')] is not as young as [ROOT.Char.Custom('ScorpionStorySheHe')] once was, and I can see it in [ROOT.Char.Custom('ScorpionStoryHerHis')] disposition, not as strong and stable as it was some years ago.\n\nI gently pet [ROOT.Char.Custom('ScorpionStoryHerHis')] [ROOT.Char.Custom('ScorpionColor')] carapace and feel [ROOT.Char.Custom('ScorpionStoryHerHim')] softly sway and try to pinch [ROOT.Char.Custom('ScorpionStoryHerHis')] claws, but as silence falls I know that [ROOT.Char.Custom('ScorpionStoryHerHis')] morning stroll won't wake me up again."
+ ek_pet_animal.1199.a:0 "I will miss you, [ROOT.Char.Custom('ScorpionStoryName')]!"
+ 
+ pet_scorpion_decision:0 "Play with [ROOT.Char.Custom('ScorpionStoryName')]"
+ pet_scorpion_decision_desc:0 "I know how much [ROOT.Char.Custom('ScorpionStoryName')] loves strutting around, and it always soothes me to see [ROOT.Char.Custom('ScorpionStoryHerHim')] happily pinch and cuddle me. While it takes a lot of effort, and money, to properly feed and take care of [ROOT.Char.Custom('ScorpionStoryHerHim')], no matter how tough life gets I know [ROOT.Char.Custom('ScorpionStorySheHe')] will always be there for me!"
+ pet_scorpion_decision_tooltip:0 "Play with your scorpion"
+ pet_scorpion_decision_confirm:0 "Play with your scorpion"
+ 
+ # You play with your scorpion :)
+ ek_pet_animal.1501.t:0 "A nice time with [ROOT.Char.Custom('ScorpionStoryName')]"
+ ek_pet_animal.1501.desc:0 "As you enter your room, you can immediatly hear [ROOT.Char.Custom('ScorpionStoryName')] clack his claws in excitment.\nWith a smile on your face you open [ROOT.Char.Custom('ScorpionStoryHerHis')] cage and let [ROOT.Char.Custom('ScorpionStoryHerHim')] stretch [ROOT.Char.Custom('ScorpionStoryHerHis')] legs before taking off.\n[ROOT.Char.Custom('ScorpionStoryName')] scuttles around the room for a few moments, before laying in your hand and cuddling with you.\n\nAs you laugh, you feel the weight of the world already lifting from your shoulders."
+ ek_pet_animal.1501.a:0 "You're tickling me!"
+ 
+ ek_pet_animal.1502.desc:0 "With [ROOT.Char.Custom('ScorpionStoryName')]'s favorite treat in your hand, you enter your small garden where [ROOT.Char.Custom('ScorpionStoryName')] usually spends most of [ROOT.Char.Custom('ScorpionStoryHerHis')] time.\nAs soon as [ROOT.Char.Custom('ScorpionStorySheHe')] spots you, or maybe the bugs in your hand, [ROOT.Char.Custom('ScorpionStorySheHe')] starts happily clacking [ROOT.Char.Custom('ScorpionStoryHerHis')] claws and roaming around you.\n[ROOT.Char.Custom('ScorpionStorySheHe')] lays on your hand, and picks the treats.\n\nAs you laugh, you already feel better and ready to face everything the world can send at you."
+ ek_pet_animal.1502.a:0 "Don't eat everything [ROOT.Char.Custom('ScorpionStoryName')]!"
