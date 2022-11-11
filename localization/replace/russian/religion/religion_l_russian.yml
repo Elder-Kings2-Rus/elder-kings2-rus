@@ -1,0 +1,14 @@
+﻿l_russian:
+ ### These religious families do not exist in TES, so we need to scrap references to them
+ abrahamic_hostility_doctrine_name:0 "Abrahamic"
+ abrahamic_hostility_doctrine_desc:0 "There are no Abrahamic faiths in the Elder Scrolls universe. If you see this tooltip, please inform the dev team!"
+ pagan_hostility_doctrine_name:0 "Pagan"
+ pagan_hostility_doctrine_desc:0 "There are no Pagan faiths in the Elder Scrolls universe. If you see this tooltip, please inform the dev team!"
+ eastern_hostility_doctrine_name:0 "Eastern"
+ eastern_hostility_doctrine_desc:0 "There are no Eastern faiths in the Elder Scrolls universe. If you see this tooltip, please inform the dev team!"
+ 
+ ### Dynamic Hostility, go from 0 to 100
+ hostility_righteous_tooltippable:0 "[GetHostilityLevelName( '(int32)0' )|V]"
+ hostility_astray_tooltippable:0 "[GetHostilityLevelName( '(int32)1' )|V]"
+ hostility_hostile_tooltippable:0 "[GetHostilityLevelName( '(int32)34' )|V]"
+ hostility_evil_tooltippable:0 "[GetHostilityLevelName( '(int32)67' )|V]"

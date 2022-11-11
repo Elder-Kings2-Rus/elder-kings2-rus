@@ -1,0 +1,7 @@
+﻿l_russian: 
+ CHANGE_TRAIT_RANK:0 "Gains the [trait|E] [TRAIT.GetName( GetNullCharacter )|LV]"
+ I_CHANGE_TRAIT_RANK:1 "You gain the [trait|E] [TRAIT.GetName( CHARACTER.Self )|LV]"
+ THEY_CHANGE_TRAIT_RANK:0 "[CHARACTER.GetShortUIName|U] gains the [trait|E] [TRAIT.GetName( CHARACTER.Self )|LV]"
+ CHANGED_TRAIT_RANK:0 "Gained the [trait|E] [TRAIT.GetName( GetNullCharacter )|LV]"
+ I_CHANGED_TRAIT_RANK:1 "You gained the [trait|E] [TRAIT.GetName( CHARACTER.Self )|LV]"
+ THEY_CHANGED_TRAIT_RANK:0 "[CHARACTER.GetShortUIName|U] gained the [trait|E] [TRAIT.GetName( CHARACTER.Self )|LV]"

@@ -1,0 +1,10 @@
+﻿l_russian:
+  # EK EDIT: Added [PROVINCE.GetName]#!\n to other wasteland tooltips to get them named
+ IMPASSIBLE_PROVINCE_TOOLTIP:0 "#T [PROVINCE.GetName]#!\nImpassable Terrain#!"
+ IMPASSPABLE_SEA_PROVINCE_TOOLTIP:0 "#T [PROVINCE.GetName]#!\nUncharted Waters#!"
+ SEA_PROVINCE_TOOLTIP:1 "#T [PROVINCE.GetName]#!\nSea"
+ # EK EDIT: Unnavigable Rivers
+ LAKE_PROVINCE_TOOLTIP:0 "#T [PROVINCE.GetName]#!\nLake or unnavigable  River#!"
+ RIVER_PROVINCE_TOOLTIP:1 "#T [PROVINCE.GetName]#!\nMajor River"
+ # EK EDIT: Terrain of Province naming scheme
+ PROVINCE_TOOLTIP_HEADER:0 "#T [SelectLocalization(PROVINCE.GetTitle.GetHolder.IsValid, PROVINCE.GetTitle.GetNameNoTooltip, PROVINCE.GetTerrain.GetNameNoTooltip)] [SelectLocalization(PROVINCE.GetTitle.GetHolder.IsValid, '', 'of')] [SelectLocalization(PROVINCE.GetTitle.GetHolder.IsValid, '', PROVINCE.GetNameNoTooltip)]#!"

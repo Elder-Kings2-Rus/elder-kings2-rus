@@ -1,0 +1,38 @@
+﻿l_russian:
+ #Vanilla Gold to TES Drakes
+ game_concept_gold:0 "Gold Drakes"
+ game_concept_gold_desc:0 "'Gold Drakes' really represent all liquid assets of a Character; their wealth. It can be spent on many things, most notably constructing [buildings|E], paying for [regiments|E], and creating [titles|E]."
+ game_concept_gold_i:0 "@gold_icon!"
+ 
+ game_concept_raid_desc:0 "[armies|E] can be raised as $game_concept_raiders$ from [rally_points|E]. $game_concept_raiders$ can move into neighboring lands and pillage them for [gold|E].\n\nIn order to $game_concept_raid$, a Raiding Army must stop in a [holding|E] owned by a foreign [ruler|E] and choose to start Raiding — upon doing so they will be stuck Raiding for a some time, after which they will get Gold and pillage the Holding.\n\nGold will be stored on the Army, and only added to the treasury when they arrive home. If you defeat a Raiding Army carrying Gold you will take it, and they will be unable to Raid you for some time.\n\nOnly some Rulers are allowed to $game_concept_raid$, most notably [tribal|E] and [pirate|E] Rulers.\nThe Plunderer perk tree also enables raiding."
+ 
+ game_concept_feudal_contract:0 "Vassal Contract"
+ game_concept_feudal_contracts:0 "Vassal Contracts"
+ game_concept_contract:0 "Contract"
+ game_concept_feudal_contract_desc:1 "A $game_concept_feudal_contract$ specifies the [obligations|E] between a [vassal|E] and their [liege|E]. The contract specifies to what the vassal Obligations are tied to, and can include special clauses such as #V Religious Freedom#! or #V Sanctioned War Declaration Rights#!.\n\nFeudal vassals (in [cultures|E] with the #V Feudal Structure#! [innovation|E]) can negotiate their Obligations individually.\n\nSpecial contracts, such as #V $special_contract_march_short$#!, #V $special_contract_scutage_short$#! or #V $special_contract_palatinate_short$#! contracts, can only be held by [duchy|E]-tier [vassals|E] or above."
+ # game_concept_feudal_contract_desc:1 "A $game_concept_feudal_contract$ specifies the [obligations|E] between a [vassal|E] and their [liege|E]. Only the Feudal [government_form|E] allows each Vassal to negotiate their Obligations individually.\n\nSpecial contracts, such as #V $special_contract_march_short$#!, #V $special_contract_scutage_short$#! or #V $special_contract_palatinate_short$#! contracts, can only be held by [duchy|E]-tier [vassals|E] or above."
+ 
+ game_concept_faith_righteous:0 "Righteous"
+ game_concept_faith_righteous_desc:0 "This [faith|E] is considered legitimate.\nIntermarriage is common.\n\n#S Effects:\n#![GetHostilityDescription( '(int32)0' )]"
+
+ game_concept_faith_astray:0 "Astray"
+ game_concept_faith_astray_desc:0 "This [faith|E] differs in a way that is not particularly significant.\nIntermarriage may still happen.\n\n#S Effects at minimum Hostility to be considered Astray:\n#![GetHostilityDescription( '(int32)1' )]\n\n#S Effects at maximum Hostility to be considered Astray:\n#![GetHostilityDescription( '(int32)33' )]"
+
+ game_concept_faith_hostile:0 "Hostile"
+ game_concept_faith_hostile_desc:0 "This [faith|E] deviates significantly.\nIntermarriage may still happen, [holy_wars|E] can be waged.\n\n#S Effects at minimum Hostility to be considered Hostile:\n#![GetHostilityDescription( '(int32)34' )]\n\n#S Effects at minimum Hostility to be considered Hostile:\n#![GetHostilityDescription( '(int32)66' )]"
+
+ game_concept_faith_evil:0 "Evil"
+ game_concept_faith_evil_desc:0 "This [faith|E] is considered anathema.\nIntermarriage rarely happens, [holy_wars|E] can be waged.\n\n#S Effects at minimum Hostility to be considered Evil:\n#![GetHostilityDescription( '(int32)67' )]\n\n#S Effects at maximum Hostility to be considered Hostile:\n#![GetHostilityDescription( '(int32)100' )]"
+
+
+# Culture Era replacements
+ game_concept_tribal_desc:0 "Tribal realms have stunted county [development|E], cannot advance past $culture_era_tribal$ [innovations|E], cannot construct new [holdings|E], and are usually unable to change their [succession_law|E].\n\nHowever, they can make use of [prestige|E] rather than [gold|E] to build their realms and hire [men_at_arms|E], and have access to more [casus_belli|E] compared to [feudal|E] Realms. Non-Tribal armies suffer a [supply_limit|E] penalty in hostile Tribal territory."
+
+ game_concept_era_desc:1 "[innovations|E] can only be discovered if the [culture|E] has reached the requisite Era. The next Era can only start past a certain year, and if at least #V 50%#! of the Innovations of the previous Era have been discovered.\n\nRulers with [tribal_government|E] can only make use of $culture_era_tribal$ Innovations."
+
+# Barony to Lordship Tier replacement
+ game_concept_barony_desc:0 "$game_concept_baronies$ are the lowest ranked [titles|E] and have the smallest footprint on the map, organized into larger [counties|E].\n\n$game_concept_barony$ Titles must always have a [holder|E] if they contain a [holding|E]."
+
+ game_concept_county_desc:0 "A $game_concept_county$ is a [title|E] ranking below a [duchy|E] and above a [barony|E].\n\nThe title includes the [county_capital|E] in the County, as well as [de_jure|E] rights to all the Lordships in the County.\n\nCounties always have [holders|E] because county capitals cannot be destroyed."
+
+ game_concept_title_desc:1 "A $game_concept_title$ is essentially a certificate of land ownership.\n\nThe smallest unit of land on the map is the [barony|E]. $game_concept_baronies$ are organized into larger areas called [counties|E]. Counties [de_jure|E] belong to a [duchy|E], duchies to a [kingdom|E], and Kingdoms to an [empire|E].\n\nDuchies, Kingdoms and Empires do not always have a [holder|E], but are Titles that can be [created|E] by a ruler who controls enough of the corresponding territory."

@@ -1,0 +1,35 @@
+﻿l_russian:
+ health.1002.court_physician.desc:0 "\n\n"It is the Chills, my [ROOT.Char.GetLadyLord]. Not to be taken lightly. How shall we proceed?""
+
+ health.1003.court_physician.desc:0 "\n\n"You have my sympathies, my [ROOT.Char.GetLadyLord]. I have a few ideas which might lessen the symptoms of your rockjoint.""
+
+ health.1005.court_physician.desc:0 "\n\n"Do not worry, my [ROOT.Char.GetLadyLord]! The Yellow Fever is treatable, I assure you.""
+
+ health.1006.court_physician.desc:0 "\n\n"I am afraid you have contracted wither, my [ROOT.Char.GetLadyLord]. I will treat you immediately.""
+
+ health.1010.court_physician.desc:0 "\n\n"Indeed, these lesions are a sure sign of the Blight. Very dangerous if left untreated.""
+ 
+ health.1007.court_physician.desc:0 "\n\n"Yes, unfortunately, it is Rot. I only know of one efficient treatment...""
+
+ health.2101.smallpox_outbreak.desc:0 "The curse of death has fallen upon my court — a case of the Blight has been discovered!"
+ health.2101.smallpox_spreads.desc:0 "Yet another soul has been cursed with the Blight."
+ health.2101.bubonic_plague_outbreak.desc:2 "[ROOT.Char.GetFaith.DeathDeityName|U] has raised [ROOT.Char.GetFaith.DeathDeityHerHis] scythe over my realm — a case of the dreaded Knahaten Flu has been discovered!"
+ health.2101.bubonic_plague_spreads.desc:0 "Yet another soul stands at Death's door, the dreaded dried blood marring [sick_character.GetHerHis] nostrils."
+ health.2101.imporant.desc:0 "My poor [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sick_character')) ] [sick_character.GetFirstName] is fighting for [sick_character.GetHerHis] life."
+ 
+ disease_smallpox:0 "the Blight."
+ disease_bubonic_plague:0 "Knahaten Flu."
+ disease_typhus:0 "the Yellow Fever."
+ disease_pneumonic:0 "Chills."
+ disease_gout_ridden:0 "Rockjoint."
+ disease_consumption:0 "Wither."
+ disease_cancer:0 "Rot."
+ disease_lovers_pox:0 "Ticklebritch."
+
+ health.2201.b:0 "Send for [ek_new_physician.GetFirstNameNoTooltip], now!" # (EK) why is that not active?
+
+
+ health.2102.smallpox.desc:0 "the Blight"
+ health.2102.bubonic_plague.desc:0 "Knahaten Flu"
+
+ health.1005.t:1 "[SCOPE.Custom('EventTitleDisease')]: Enfeeblement"

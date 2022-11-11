@@ -1,0 +1,12 @@
+﻿l_russian:
+ fp2_yearly.8001.t:0 "Assembling the Nogoro"
+ fp2_yearly.8001.desc:0 "My [commoner_enthusiast.GetCouncilTitle] [commoner_enthusiast.GetTitledFirstName] has long pondered our finances, and now suggests it is time to assemble the #italic Nogoro Dui Yokuda#! — the "Body on the subject of Yokuda", an ancient form of conclave where elected representatives of the free municipalities take part in the deliberations of the royal council. It was last called upon in the times of vassalage under the Reman Empire.\n\n"In return for this privilege", [commoner_enthusiast.GetSheHe] says, "we could tax the cities even more. If we truly need gold, my [ROOT.Char.GetLadyLord], we could even allow some of the less wretched peasants to attend our meetings, though I would advice against that, since it would surely infuriate the nobles.""
+ fp2_yearly.8001.a:0 "Invite the cities' representatives."
+ fp2_yearly.8001.b:0 "Invite everyone! And I mean #italic everyone#!."
+ fp2_yearly.8001.c:0 "No, the nobles knows best, as we always have."
+ fp2_flavor.8001_vassal_opinion:0 "Vassals who are protective of their privilege will dislike this"
+
+ fp2_yearly.8004.desc_opening:0 "With the spirit of conciliation reigning in Hammerfell, scholars from all the region have been dawdling in the libraries of my domain. Perhaps I could direct their energy into something fruitful...\n\n"
+ fp2_yearly.8005.desc_iberian:0 "They sing in Cyrodillic, about life, loss, bittersweet love."
+ fp2_yearly.8005.desc_arabic:0 "They sing in Yoku about beauty, glory, love lost and found again."
+ fp2_yearly.8005.desc_post_troubadours:0 "I thought only the troubadours of High Rock possessed such talent and wit, but perhaps I was mistaken...\n\nWhat am I to do with these damned #italic feelings#!?"

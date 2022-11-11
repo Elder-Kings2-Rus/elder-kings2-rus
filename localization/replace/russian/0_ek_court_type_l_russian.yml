@@ -1,0 +1,7 @@
+﻿l_russian:
+ #EK:EDIT Changed Tribal Court to Pirate Court
+ court_tribal: "Pirate Court"
+ court_tribal_desc: "#low At court, might makes right – and the halls shall be decked with loot and plunder! \n\nCourtiers gain the [GetTrait('warlike_court_1').GetName( GetNullCharacter )] traits.#!"
+ court_tribal_tooltip_desc: "Martial prowess and resilience is valued in a $court_tribal$."
+
+ NO_ROCO_WRONG_GOVERNMENT:1 "@warning_icon!#X You do not have [feudal_like_government|E] or [pirate_government|E]#!"

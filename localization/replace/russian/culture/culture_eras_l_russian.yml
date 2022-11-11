@@ -1,0 +1,12 @@
+﻿l_russian:
+ #ERAS
+ culture_era_nativity:0 "Merethic Era"
+ culture_era_nativity_desc:0 "When Time became linear, and the people of Tamriel slowly emerged and evolved.\n\nOnly innovations related to [nativity_regions|E] can be found in this era."
+ culture_era_tribal:0 "First Era"
+ culture_era_tribal_desc:0 "When the first Kingdoms and Empires were formed, and most of Tamriel was settled.\n\nRulers with [tribal_government|E] can only make use of $culture_era_tribal$ [innovations|E]."
+ culture_era_early_medieval:0 "Early Interregnum"
+ culture_era_early_medieval_desc:0 "The Akaviri Potentate of Cyrodiil was not made to last. It too was doomed to fall, and Tamriel shattered afterwards."
+ culture_era_high_medieval:0 "Time of the Pretenders"
+ culture_era_high_medieval_desc:0 "Regional hegemonies are formed in most parts of the world, claiming to be the sole inheritors of the old Imperial authority."
+ culture_era_late_medieval:0 "Unification Wars"
+ culture_era_late_medieval_desc:0 "Every great era has to end. The Unification Wars were a time of great conflict and of increasing centralization, as most of Tamriel would come under the rule of a single Empire."

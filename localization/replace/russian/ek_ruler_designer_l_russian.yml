@@ -1,0 +1,639 @@
+﻿l_russian:
+ RULER_DESIGNER_BIRTH_YEAR:0 "Born: [Select_CString( GreaterThanOrEqualTo_int32( RulerDesignerWindow.GetBirthYear, '(int32)3816' ), '3E', '2E' )] [Subtract_int32( RulerDesignerWindow.GetBirthYear, '(int32)2920' )]" # 3E/2E year may not be correct
+
+ EK2_DEBUG:0 "EK Debug Menu"
+ RULERDESIGNERWINDOW_GETETHNICITY_GETNAME:0 "RulerDesignerWindow.GetEthnicity.GetName"
+ ek_tusks_enabled:0 "ek_tusks_enabled"
+ ek_is_khajiit:0 "ek_is_khajiit"
+ ek_race:0 "ek_race"
+ ek_ethnicity:0 "ek_ethnicity"
+ ek_gender:0 "ek_gender"
+ ek_selected_furstock:0 "ek_selected_furstock"
+ ek_selected_birthsign:0 "ek_selected_birthsign"
+
+
+
+ MISSING_FURSTOCK_TOOLTIP:0 "@warning_icon!#X Must Select Furstock#!"
+
+ MISSING_BIRTHSIGN_TOOLTIP:0 "@warning_icon!#X Must Select Birth Sign#!"
+
+ RULER_DESIGNER_POINTS_LIMIT_LABEL_EK:0 "Advised Limit: $RULER_DESIGNER_POINTS_LIMIT_VALUE$"
+
+ RULER_DESIGNER_FURSTOCK_TRAIT_LABEL:0 "Furstock"
+
+ RULER_DESIGNER_BIRTHSIGN_TRAIT_LABEL:0 "Birth Sign"
+
+ # can have master loc key that gets referenced rather than chaining/hardcode to stop breaking. may need Localize() instead of $$ in .gui
+ RACE_MAN:0 "Man"
+ RACE_MER:0 "Mer"
+ RACE_BEASTFOLK:0 "Beastfolk"
+
+ RACE_SELECTED:0 "Race: [VariableSystem.Get( 'ek_race' )]"
+ ETHNICITY_SELECTED:0 "Ethnicity: [VariableSystem.Get( 'ek_ethnicity' )]"
+
+ ###Beastfolk
+ race_argonian_name:0 "Argonian"
+ race_argonian:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_BEASTFOLK') ) ), Localize('race_argonian_name'), 'no' )]"
+
+ race_goblin_green_name:0 "Goblin, Green"
+ race_goblin_green:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_BEASTFOLK') ) ), Localize('race_goblin_green_name'), 'no' )]"
+
+ race_goblin_yellow_name:0 "Goblin, Tan"
+ race_goblin_yellow:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_BEASTFOLK') ) ), Localize('race_goblin_yellow_name'), 'no' )]"
+
+ race_goblin_riekr_name:0 "Riekr"
+ race_goblin_riekr:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_BEASTFOLK') ) ), Localize('race_goblin_riekr_name'), 'no' )]"
+
+ race_goblin_riekling_name:0 "Riekling"
+ race_goblin_riekling:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_BEASTFOLK') ) ), Localize('race_goblin_riekling_name'), 'no' )]"
+
+ race_khajiit_base_name:0 "Khajiit"
+ race_khajiit_base:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_BEASTFOLK') ) ), Localize('race_khajiit_base_name'), 'no' )]"
+
+ race_khajiit_housecat_name:0 "Khajiit II"
+ race_khajiit_housecat:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_BEASTFOLK') ) ), Localize('race_khajiit_housecat_name'), 'no' )]"
+
+ race_khajiit_wildcat_name:0 "Khajiit III"
+ race_khajiit_wildcat:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_BEASTFOLK') ) ), Localize('race_khajiit_wildcat_name'), 'no' )]"
+
+ race_lilmothiit_name:0 "Lilmothiit"
+ race_lilmothiit:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_BEASTFOLK') ) ), Localize('race_lilmothiit_name'), 'no' )]"
+
+ ###Other
+ race_dremora_name:0 "Dremora I"
+ race_dremora:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_BEASTFOLK') ) ), Localize('race_dremora_name'), 'no' )]"
+
+ race_dremora_eso_name:0 "Dremora II"
+ race_dremora_eso:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_BEASTFOLK') ) ), Localize('race_dremora_eso_name'), 'no' )]"
+
+ ###Akaviri
+ race_akaviri_tsaesci_1_name:0 "Tsaesci I"
+ race_akaviri_tsaesci_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_akaviri_tsaesci_1_name'), 'no' )]"
+
+ race_akaviri_tsaesci_2_name:0 "Tsaesci II"
+ race_akaviri_tsaesci_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_akaviri_tsaesci_2_name'), 'no' )]"
+
+ race_akaviri_tsaesci_3_name:0 "Tsaesci III"
+ race_akaviri_tsaesci_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_akaviri_tsaesci_3_name'), 'no' )]"
+
+ race_akaviri_tsaesci_4_name:0 "Tsaesci IV"
+ race_akaviri_tsaesci_4:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_akaviri_tsaesci_4_name'), 'no' )]"
+
+ race_akaviri_rimmen_1_name:0 "Ilniviri I"
+ race_akaviri_rimmen_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_akaviri_rimmen_1_name'), 'no' )]"
+
+ race_akaviri_rimmen_2_name:0 "Ilniviri II"
+ race_akaviri_rimmen_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_akaviri_rimmen_2_name'), 'no' )]"
+
+ race_akaviri_rimmen_3_name:0 "Ilniviri III"
+ race_akaviri_rimmen_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_akaviri_rimmen_3_name'), 'no' )]"
+
+ race_akaviri_rimmen_4_name:0 "Ilniviri IV"
+ race_akaviri_rimmen_4:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_akaviri_rimmen_4_name'), 'no' )]"
+
+ race_akaviri_jaegi_1_name:0 "Jaegi I"
+ race_akaviri_jaegi_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_akaviri_jaegi_1_name'), 'no' )]"
+
+ race_akaviri_jaegi_2_name:0 "Jaegi II"
+ race_akaviri_jaegi_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_akaviri_jaegi_2_name'), 'no' )]"
+
+ race_akaviri_jaegi_3_name:0 "Jaegi III"
+ race_akaviri_jaegi_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_akaviri_jaegi_3_name'), 'no' )]"
+ 
+ ###Bretons
+ race_breton_bjoule_1_name:0 "Breton, Bjoule I"
+ race_breton_bjoule_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_breton_bjoule_1_name'), 'no' )]"
+
+ race_breton_bjoule_2_name:0 "Breton, Bjoule II"
+ race_breton_bjoule_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_breton_bjoule_2_name'), 'no' )]"
+
+ race_breton_bjoule_3_name:0 "Breton, Bjoule III"
+ race_breton_bjoule_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_breton_bjoule_3_name'), 'no' )]"
+
+ race_breton_northman_1_name:0 "Breton, Northman I"
+ race_breton_northman_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_breton_northman_1_name'), 'no' )]"
+
+ race_breton_northman_2_name:0 "Breton, Northman II"
+ race_breton_northman_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_breton_northman_2_name'), 'no' )]"
+
+ race_breton_glenumbran_1_name:0 "Breton, Glenumbran I"
+ race_breton_glenumbran_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_breton_glenumbran_1_name'), 'no' )]"
+
+ race_breton_glenumbran_2_name:0 "Breton, Glenumbran II" 
+ race_breton_glenumbran_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_breton_glenumbran_2_name'), 'no' )]"
+
+ race_breton_glenumbran_3_name:0 "Breton, Glenumbran III"
+ race_breton_glenumbran_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_breton_glenumbran_3_name'), 'no' )]"
+
+ race_breton_glenumbran_elven_1_name:0 "Breton, Merish Glenumbran I"
+ race_breton_glenumbran_elven_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_breton_glenumbran_elven_1_name'), 'no' )]"
+
+ race_breton_glenumbran_elven_2_name:0 "Breton, Merish Glenumbran II"
+ race_breton_glenumbran_elven_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_breton_glenumbran_elven_2_name'), 'no' )]"
+
+ race_breton_glenumbran_elven_3_name:0 "Breton, Merish Glenumbran III"
+ race_breton_glenumbran_elven_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_breton_glenumbran_elven_3_name'), 'no' )]"
+
+
+ ###Cyrodils
+ race_imperial_colovian_1_name:0 "Cyrodil, Colovian I"
+ race_imperial_colovian_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_imperial_colovian_1_name'), 'no' )]"
+
+ race_imperial_colovian_2_name:0 "Cyrodil, Colovian II"
+ race_imperial_colovian_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_imperial_colovian_2_name'), 'no' )]"
+
+ race_imperial_colovian_3_name:0 "Cyrodil, Colovian III"
+ race_imperial_colovian_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_imperial_colovian_3_name'), 'no' )]"
+
+ race_imperial_colovian_4_name:0 "Cyrodil, Colovian IV"
+ race_imperial_colovian_4:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_imperial_colovian_4_name'), 'no' )]"
+
+ race_imperial_colovian_1_dark_name:0 "Cyrodil, Strident I"
+ race_imperial_colovian_1_dark:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_imperial_colovian_1_dark_name'), 'no' )]"
+
+ race_imperial_colovian_4_dark_name:0 "Cyrodil, Strident II"
+ race_imperial_colovian_4_dark:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_imperial_colovian_4_dark_name'), 'no' )]"
+
+ race_imperial_colovian_5_dark_name:0 "Cyrodil, Strident III"
+ race_imperial_colovian_5_dark:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_imperial_colovian_5_dark_name'), 'no' )]"
+
+ race_imperial_nibenese_1_name:0 "Cyrodil, Nibenese I"
+ race_imperial_nibenese_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_imperial_nibenese_1_name'), 'no' )]"
+
+ race_imperial_nibenese_2_name:0 "Cyrodil, Nibenese II"
+ race_imperial_nibenese_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_imperial_nibenese_2_name'), 'no' )]"
+
+ race_imperial_nibenese_3_name:0 "Cyrodil, Nibenese III"
+ race_imperial_nibenese_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_imperial_nibenese_3_name'), 'no' )]"
+
+ race_imperial_nibenese_4_name:0 "Cyrodil, Nibenese IV"
+ race_imperial_nibenese_4:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_imperial_nibenese_4_name'), 'no' )]"
+
+ race_imperial_nibenese_5_name:0 "Cyrodil, Nibenese V"
+ race_imperial_nibenese_5:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_imperial_nibenese_5_name'), 'no' )]"
+
+ race_imperial_nibenese_6_name:0 "Cyrodil, Nibenese VI"
+ race_imperial_nibenese_6:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_imperial_nibenese_6_name'), 'no' )]"
+
+ race_imperial_nibenese_1_dark_name:0 "Cyrodil, $blackwood$ I"
+ race_imperial_nibenese_1_dark:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_imperial_nibenese_1_dark_name'), 'no' )]"
+
+ race_imperial_nibenese_2_dark_name:0 "Cyrodil, $blackwood$ II"
+ race_imperial_nibenese_2_dark:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_imperial_nibenese_2_dark_name'), 'no' )]"
+
+ race_imperial_nibenese_3_dark_name:0 "Cyrodil, $blackwood$ III"
+ race_imperial_nibenese_3_dark:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_imperial_nibenese_3_dark_name'), 'no' )]"
+
+ race_imperial_nibenese_4_dark_name:0 "Cyrodil, $blackwood$ IV"
+ race_imperial_nibenese_4_dark:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_imperial_nibenese_4_dark_name'), 'no' )]"
+
+ 
+ ###Nedes
+ race_nede_1_name:0 "Nede, Northern I"
+ race_nede_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_1_name'), 'no' )]"
+
+ race_nede_2_name:0 "Nede, Northern II"
+ race_nede_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_2_name'), 'no' )]"
+
+ race_nede_3_name:0 "Nede, Northern III"
+ race_nede_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_3_name'), 'no' )]"
+
+ race_nede_1_dark_name:0 "Nede, Southern I"
+ race_nede_1_dark:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_1_dark_name'), 'no' )]"
+
+ race_nede_2_dark_name:0 "Nede, Southern II"
+ race_nede_2_dark:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_2_dark_name'), 'no' )]"
+
+ race_nede_3_dark_name:0 "Nede, Southern III"
+ race_nede_3_dark:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_3_dark_name'), 'no' )]"
+
+ race_nede_blackmarsh_1_name:0 "Nede, Black Marsh I"
+ race_nede_blackmarsh_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_blackmarsh_1_name'), 'no' )]"
+
+ race_nede_blackmarsh_2_name:0 "Nede, Black Marsh II"
+ race_nede_blackmarsh_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_blackmarsh_2_name'), 'no' )]"
+
+ race_orma_1_name:0 "Nede, Orma I"
+ race_orma_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_orma_1_name'), 'no' )]"
+
+ race_orma_2_name:0 "Nede, Orma II" 
+ race_orma_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_orma_2_name'), 'no' )]"
+
+ race_orma_3_name:0 "Nede, Orma III"
+ race_orma_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_orma_3_name'), 'no' )]"
+
+ race_kothringi_1_name:0 "Nede, Kothringi I"
+ race_kothringi_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_kothringi_1_name'), 'no' )]"
+
+ race_kothringi_2_name:0 "Nede, Kothringi II"
+ race_kothringi_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_kothringi_2_name'), 'no' )]"
+
+ race_kothringi_3_name:0 "Nede, Kothringi III"
+ race_kothringi_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_kothringi_3_name'), 'no' )]"
+
+
+ ###Nords
+ race_nord_1_name:0 "Nord, Fair I"
+ race_nord_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_1_name'), 'no' )]"
+
+ race_nord_2_name:0 "Nord, Fair II"
+ race_nord_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_2_name'), 'no' )]"
+
+ race_nord_3_name:0 "Nord, Fair III"
+ race_nord_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_3_name'), 'no' )]"
+
+ race_nord_4_name:0 "Nord, Fair IV"
+ race_nord_4:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_4_name'), 'no' )]"
+
+ race_nord_1_ginger_name:0 "Nord, Ruddy I"
+ race_nord_1_ginger:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_1_ginger_name'), 'no' )]"
+
+ race_nord_2_ginger_name:0 "Nord, Ruddy II"
+ race_nord_2_ginger:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_2_ginger_name'), 'no' )]"
+
+ race_nord_3_ginger_name:0 "Nord, Ruddy III"
+ race_nord_3_ginger:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_3_ginger_name'), 'no' )]"
+
+ race_nord_4_ginger_name:0 "Nord, Ruddy IV"
+ race_nord_4_ginger:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_4_ginger_name'), 'no' )]"
+
+ race_nord_2_dark_name:0 "Nord, Dark I"
+ race_nord_2_dark:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_2_dark_name'), 'no' )]"
+
+ race_nord_3_dark_name:0 "Nord, Dark II"
+ race_nord_3_dark:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_3_dark_name'), 'no' )]"
+
+ race_nord_cyronord_1_name:0 "Cyro-Nord I"
+ race_nord_cyronord_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_cyronord_1_name'), 'no' )]"
+
+ race_nord_cyronord_2_name:0 "Cyro-Nord II"
+ race_nord_cyronord_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_cyronord_2_name'), 'no' )]"
+
+ race_nord_cyronord_3_name:0 "Cyro-Nord III"
+ race_nord_cyronord_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_cyronord_3_name'), 'no' )]"
+
+ race_nord_cyronord_4_name:0 "Cyro-Nord IV"
+ race_nord_cyronord_4:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_cyronord_4_name'), 'no' )]"
+
+ race_nord_cyronord_5_name:0 "Cyro-Nord V"
+ race_nord_cyronord_5:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_cyronord_5_name'), 'no' )]"
+
+ 
+ ###Redguards
+ race_redguard_yoku_1_name:0 "Yokudan I"
+ race_redguard_yoku_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_redguard_yoku_1_name'), 'no' )]"
+
+ race_redguard_yoku_2_name:0 "Yokudan II"
+ race_redguard_yoku_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_redguard_yoku_2_name'), 'no' )]"
+
+ race_redguard_yoku_3_name:0 "Yokudan III"
+ race_redguard_yoku_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_redguard_yoku_3_name'), 'no' )]"
+
+ race_redguard_crown_1_name:0 "Redguard, Crown I"
+ race_redguard_crown_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_redguard_crown_1_name'), 'no' )]"
+
+ race_redguard_crown_2_name:0 "Redguard, Crown II"
+ race_redguard_crown_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_redguard_crown_2_name'), 'no' )]"
+
+ race_redguard_crown_3_name:0 "Redguard, Crown III"
+ race_redguard_crown_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_redguard_crown_3_name'), 'no' )]"
+
+ race_redguard_alikr_1_name:0 "Redguard, Alik'r I"
+ race_redguard_alikr_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_redguard_alikr_1_name'), 'no' )]"
+
+ race_redguard_alikr_2_name:0 "Redguard, Alik'r II"
+ race_redguard_alikr_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_redguard_alikr_2_name'), 'no' )]"
+
+ race_redguard_alikr_3_name:0 "Redguard, Alik'r III"
+ race_redguard_alikr_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_redguard_alikr_3_name'), 'no' )]"
+
+ race_redguard_forebear_1_name:0 "Redguard, Forebear I"
+ race_redguard_forebear_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_redguard_forebear_1_name'), 'no' )]"
+
+ race_redguard_forebear_2_name:0 "Redguard, Forebear II"
+ race_redguard_forebear_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_redguard_forebear_2_name'), 'no' )]"
+
+ race_redguard_forebear_3_name:0 "Redguard, Forebear III"
+ race_redguard_forebear_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_redguard_forebear_3_name'), 'no' )]"
+
+ race_redguard_forebear_4_name:0 "Redguard, Forebear IV"
+ race_redguard_forebear_4:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_redguard_forebear_4_name'), 'no' )]"
+
+ 
+ ###Altmer
+ race_altmer_pure_1_name:0 "Altmer III"
+ race_altmer_pure_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_altmer_pure_1_name'), 'no' )]"
+
+ race_altmer_pure_2_name:0 "Altmer IV"
+ race_altmer_pure_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_altmer_pure_2_name'), 'no' )]"
+
+ race_altmer_name:0 "Altmer I"
+ race_altmer:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_altmer_name'), 'no' )]"
+
+ race_altmer_ear_name:0 "Altmer II"
+ race_altmer_ear:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_altmer_ear_name'), 'no' )]"
+
+
+ ###Miscmer
+ race_ayleid_1_name:0 "Ayleid I"
+ race_ayleid_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_ayleid_1_name'), 'no' )]"
+
+ race_ayleid_2_name:0 "Ayleid II"
+ race_ayleid_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_ayleid_2_name'), 'no' )]"
+
+ race_ayleid_3_name:0 "Ayleid III"
+ race_ayleid_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_ayleid_3_name'), 'no' )]"
+
+ race_falmer_name:0 "Falmer I"
+ race_falmer:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_falmer_name'), 'no' )]"
+
+ race_falmer_ear_name:0 "Falmer II"
+ race_falmer_ear:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_falmer_ear_name'), 'no' )]"
+
+ race_falmer_betrayed_name:0 "Falmer, Betrayed"
+ race_falmer_betrayed:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_falmer_betrayed_name'), 'no' )]"
+
+ race_maormer_name:0 "Maormer"
+ race_maormer:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_maormer_name'), 'no' )]"
+
+ race_dwemer_name:0 "Dwemer"
+ race_dwemer:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_dwemer_name'), 'no' )]"
+
+
+ ###Bosmer
+ race_bosmer_name:0 "Bosmer"
+ race_bosmer:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_bosmer_name'), 'no' )]"
+
+
+ ###Dunmer
+ race_dunmer_name:0 "Dunmer I"
+ race_dunmer:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_dunmer_name'), 'no' )]"
+
+ race_dunmer_2_name:0 "Dunmer III"
+ race_dunmer_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_dunmer_2_name'), 'no' )]"
+
+ race_dunmer_ear_name:0 "Dunmer II"
+ race_dunmer_ear:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_dunmer_ear_name'), 'no' )]"
+
+ race_dunmer_ashlander_name:0 "Dunmer, Ashlander I"
+ race_dunmer_ashlander:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_dunmer_ashlander_name'), 'no' )]"
+
+ race_dunmer_ashlander_2_name:0 "Dunmer, Ashlander III"
+ race_dunmer_ashlander_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_dunmer_ashlander_2_name'), 'no' )]"
+
+ 
+ race_dunmer_ashlander_ear_name:0 "Dunmer, Ashlander II"
+ race_dunmer_ashlander_ear:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_dunmer_ashlander_ear_name'), 'no' )]"
+
+ 
+ race_chimer_name:0 "Chimer"
+ race_chimer:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_chimer_name'), 'no' )]"
+
+ 
+ ###Orsimer
+ race_orsimer_name:0 "Orsimer"
+ race_orsimer:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_orsimer_name'), 'no' )]"
+
+ 
+ race_orsimer_wood_name:0 "Orsimer, Wood"
+ race_orsimer_wood:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_orsimer_wood_name'), 'no' )]"
+
+ 
+ race_orsimer_iron_name:0 "Orsimer, Iron"
+ race_orsimer_iron:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_orsimer_iron_name'), 'no' )]"
+
+
+### TO DO: proper up to date anatomy loc and gene loc ###
+
+# # anatomy groups
+ RULER_DESIGNER_CATEGORY_tail:0 "Tail"
+
+# # EK genes
+ 
+ # Hide Skin color chart in ruler designer for khajiit and lilmothiit/other furry races
+ skin_color:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_lilmothiit') ) ), '', 'Skin Color' )]"
+
+ hair_color:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_lilmothiit') ) ), 'Fur Color', 'Hair Color' )]"
+
+
+ #Make bust genes not show up for males and for argonians
+ gene_bs_bust:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_gender', 'female' ), GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') )), 'Bust Size', '' )]"
+ 
+ # Certain Tail options are only available to Khajiit/Lilmothiit
+ tail_length:0 "Tail Length"
+ tail_base_thickness:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') ), '', 'Base Thickness' )]"
+ tail_fullness:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') ), '', 'Tail Fullness' )]"
+ tail_length:0 "Tail Length"
+ tail_end_thickness:0 "Thick Tail"
+ tail_end_tuft:0 "End Tuft"
+
+# Skin color palettes invisible to Khajiit
+ race_gene_skin_color:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_lilmothiit') ) ), '', 'Skin Color Palette' )]"
+
+ human_skin:0 "Human Color" 
+ dunmer_skin:0 "Dunmer Color"
+ chimer_skin:0 "Chimer Color"
+ altmer_skin:0 "Altmer Color"
+ bosmer_skin:0 "Bosmer Color"
+ orsimer_skin:0 "Orsimer Color"
+ falmer_skin:0 "Falmer Color"
+ maormer_skin:0 "Maormer Color"
+
+ race_gene_skin_metallic:0 "Metallic Skin"
+ metallic_skin:0 "Metallic Color"
+
+#Hide skin complexions for argonians, khajiit and lilmothiit
+ complexion:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ), Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') ) ) ), '', 'Skin Complexion' )]"
+
+ complexion_8:0 "Complexion Type 8"
+ complexion_9:0 "Complexion Type 9"
+ complexion_10:0 "Complexion Type 10"
+ complexion_11:0 "Complexion Type 11"
+ complexion_12:0 "Complexion Type 12"
+ complexion_13:0 "Complexion Type 13"
+ complexion_14:0 "Complexion Type 14"
+ complexion_15:0 "Complexion Type 15"
+ complexion_16:0 "Complexion Type 16"
+ complexion_17:0 "Complexion Type 17"
+ complexion_18:0 "Complexion Type 18"
+ complexion_19:0 "Complexion Type 19"
+ complexion_20:0 "Complexion Type 20"
+ complexion_21:0 "Complexion Type 21"
+ complexion_22:0 "Complexion Type 22"
+ complexion_23:0 "Complexion Type 23"
+ complexion_24:0 "Complexion Type 24"
+ complexion_25:0 "Complexion Type 25"
+ complexion_26:0 "Complexion Type 26"
+ complexion_27:0 "Complexion Type 27"
+ complexion_28:0 "Complexion Type 28"
+ complexion_11a:0 "Complexion Type 29"
+ complexion_12a:0 "Complexion Type 30"
+ complexion_13a:0 "Complexion Type 31"
+ complexion_14a:0 "Complexion Type 32"
+ complexion_15a:0 "Complexion Type 33"
+ complexion_16a:0 "Complexion Type 34"
+ complexion_1af:0 "Complexion Type 35"
+ complexion_2af:0 "Complexion Type 36"
+ complexion_3af:0 "Complexion Type 37"
+ complexion_4af:0 "Complexion Type 38"
+ complexion_5af:0 "Complexion Type 39"
+ complexion_6af:0 "Complexion Type 40"
+ complexion_7af:0 "Complexion Type 41"
+ complexion_29:0 "Complexion Type 42"
+ complexion_30:0 "Complexion Type 44"
+ complexion_31:0 "Complexion Type 45"
+ complexion_32:0 "Complexion Type 46"
+ complexion_33:0 "Complexion Type 47"
+ complexion_34:0 "Complexion Type 48"
+ complexion_35:0 "Complexion Type 49"
+ complexion_36:0 "Complexion Type 50"
+ complexion_37:0 "Complexion Type 51"
+ complexion_1in:0 "Complexion Type 52"
+ complexion_2in:0 "Complexion Type 53"
+ complexion_3in:0 "Complexion Type 54"
+ complexion_4in:0 "Complexion Type 55"
+ complexion_5in:0 "Complexion Type 56"
+ complexion_6in:0 "Complexion Type 57"
+ complexion_7in:0 "Complexion Type 58"
+ complexion_8in:0 "Complexion Type 59"
+ complexion_9in:0 "Complexion Type 60"
+ complexion_10in:0 "Complexion Type 61"
+ complexion_11in:0 "Complexion Type 62"
+ complexion_12in:0 "Complexion Type 63"
+ complexion_13in:0 "Complexion Type 64"
+ complexion_14in:0 "Complexion Type 65"
+ complexion_29a:0 "Complexion Type 66"
+ complexion_30a:0 "Complexion Type 67"
+ complexion_31a:0 "Complexion Type 68"
+ complexion_32a:0 "Complexion Type 69"
+ complexion_33a:0 "Complexion Type 70"
+ complexion_34a:0 "Complexion Type 71"
+ complexion_35a:0 "Complexion Type 72"
+ complexion_36a:0 "Complexion Type 73"
+ complexion_37a:0 "Complexion Type 74"
+ complexion_falmer:0 "Complexion Falmer"
+
+ gene_bs_ear_lobe:0 "Ear Lobe Shape"
+ ear_lobe_fused:0 "Fused Ear Lobe"
+ ear_lobe_detached:0 "Detached Ear Lobe"
+
+ race_gene_mer_ears_01:0 "Mer Ears Blend A"
+ race_gene_mer_ears_02:0 "Mer Ears Blend B"
+ mer_ears_01:0 "Mer Ears I"
+ mer_ears_02:0 "Mer Ears II"
+ mer_ears_03:0 "Mer Ears III"
+
+ gene_bs_head_lower_height:0 "Lower Head Height"
+ head_lower_height_max:0 "Increased Height"
+ head_lower_height_min:0 "Decreased Height"
+
+ gene_bs_eyebrow_straight:0 "Eyebrow Straightness"
+
+ gene_bs_head_asymmetry_1:0 "Head Asymmetry"
+ head_asymmetry_1:0 "Head Asymmetry 1"
+ head_asymmetry_2:0 "Head Asymmetry 2"
+ head_asymmetry_3:0 "Head Asymmetry 3"
+ head_asymmetry_4:0 "Head Asymmetry 4"
+ head_asymmetry_5:0 "Head Asymmetry 5"
+ head_asymmetry_6:0 "Head Asymmetry 6"
+ head_asymmetry_7:0 "Head Asymmetry 7"
+ head_asymmetry_8:0 "Head Asymmetry 8"
+ head_asymmetry_9:0 "Head Asymmetry 9"
+ head_asymmetry_10:0 "Head Asymmetry 10"
+
+ gene_bs_head_round_shape:0 "Face Roundness"
+
+ gene_forehead_inner_brow_width:0 "Forehead Brow Inner Width"
+
+ race_gene_mer_eyebrows_01:0 "Mer Eyebrow shape"
+
+ race_gene_mer_forehead:0 "Mer Forehead"
+ mer_forehead:0 "Mer Forehead"
+ dremora_face:0 "Dremora Face"
+ 
+ race_gene_mer_nose:0 "Mer Nose"
+ mer_nose:0 "Mer Nose"
+ orc_nose:0 "Orc Nose"
+
+ expression_brow_wrinkles:0 "Brow Wrinkles"
+ brow_wrinkles_01:0 "Brow Wrinkles 1"
+ brow_wrinkles_02:0 "Brow Wrinkles 2"
+ brow_wrinkles_03:0 "Brow Wrinkles 3"
+ brow_wrinkles_04:0 "Brow Wrinkles 4"
+
+ expression_eye_wrinkles:0 "Eye Wrinkles"
+ eye_wrinkles_01:0 "Eye Wrinkles 1"
+ eye_wrinkles_02:0 "Eye Wrinkles 2"
+ eye_wrinkles_03:0 "Eye Wrinkles 3"
+
+ eye_color_saturation:0 "Eye Color Saturation"
+
+ gene_bs_eye_fold_2:0 "Eye Fold Definition"
+
+ gene_bs_eye_height_inside:0 "Eye Corner Height Inside"
+
+ gene_bs_eye_height_outisde:0 "Eye Corner Height Outside"
+
+ gene_bs_eye_outer_width:0 "Outer Eye Corner Width"
+
+ gene_eye_shut_bottom:0 "Bottom Eyelid Shut"
+
+ gene_eye_shut_top:0 "Top Eyelid Shut"
+
+ gene_eye_size:0 "Eye Size"
+
+ gene_bs_nose_central_width:0 "Nose Central Width"
+
+ gene_bs_nose_flared_nostril:0 "Flared Nostrils"
+
+ gene_bs_nose_septum_height:0 "Nose Septum Height"
+
+ gene_bs_nose_septum_width:0 "Nose Septum Width"
+
+ gene_bs_nose_swollen:0 "Nose Swelling"
+
+ beast_teeth_tusks:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_tusks_enabled', 'true' ), 'Tusk Size', '' )]"
+
+ orc_teeth_bottom_size:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_tusks_enabled', 'true' ), 'Lower Teeth Size', '' )]"
+
+ orc_teeth_broken:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_tusks_enabled', 'true' ), 'Tusks Broken', '' )]"
+ tusks_not_broken:0 "Tusks Not Broken"
+ left_tusk_broken:0 "Left Tusk Broken"
+ right_tusk_broken:0 "Right Tusk Broken"
+ both_tusk_broken:0 "Both Tusks Broken"
+
+ orc_teeth_forward_angle:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_tusks_enabled', 'true' ), 'Tusks Forward Angle', '' )]"
+
+ orc_teeth_outward_angle:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_tusks_enabled', 'true' ), 'Tusks Outward Angle', '' )]"
+
+ gene_bs_mouth_center_curve:0 "Mouth Curve"
+
+ gene_bs_mouth_glamour_lips:0 "Lips Glamour"
+
+ gene_bs_mouth_lower_lip_forward:0 "Lower Lip Forward"
+
+ gene_bs_mouth_lower_lip_profile:0 "Lower Lip Profile"
+
+ gene_bs_mouth_upper_lip_forward:0 "Upper Lip Forward"
+
+ beast_head_attachment_01_variation:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_race', Localize('RACE_BEASTFOLK') ), 'Attachment 1 Variation', '' )]"
+ beast_head_attachment_02_variation:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_race', Localize('RACE_BEASTFOLK') ), 'Attachment 2 Variation', '' )]"
+ beast_head_attachment_03_variation:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_race', Localize('RACE_BEASTFOLK') ), 'Attachment 3 Variation', '' )]"
+ beast_head_attachment_04_variation:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_race', Localize('RACE_BEASTFOLK') ), 'Attachment 4 Variation', '' )]"
+
+hair_aging:0 "Hair Aging"
+vanilla_hair_aging:0 "Fading Hair"
+late_hair_aging:0 "Late Fading Hair"
+no_hair_aging:0 "Non-Fading Hair"
+beast_hair_aging:0 "Beast Race Hair Aging"
+
+hair_color_hue:0 "Hair Color Hue Shift"
+vanilla_hair_hue:0 "Normal Hair"
+hair_color_hue:0 "Bright Hair"
+hair_color_100_saturation:0 "Very Bright Hair"
+
+hairline_type:0 "Hairline Type"
+receding:0 "Receding Hairline"
+widows_peak:0 "Widow's Peak"
+
+

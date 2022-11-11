@@ -1,0 +1,5 @@
+﻿l_russian:
+ learning_theology.1301.desc:0 ""A local merchant has a copy of Physicalities of Werewolves but refuses to sell it to me."
+
+ learning_theology.3002.t:0 "World Unborn"
+ learning_theology.3002.desc:0 "I have been studying the ancient religious texts and the writings of scholars, and they all seem to agree that [ROOT.Char.Custom('WorldDeadline')]. According to my research, we are one of many kalpas that have come and gone.\n\nHowever, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chaplain'))], [chaplain.GetTitledFirstName], urges me to keep it to myself. "Leave it to the [ROOT.Char.GetFaith.AltPriestTermPlural] and avoid panic. What if your research is wrong?""

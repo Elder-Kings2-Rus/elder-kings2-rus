@@ -1,0 +1,8 @@
+﻿l_russian:
+ hunt.1002.desc_wounded_courtier:0 "We follow the [ROOT.Char.Custom('LocalAnimal')] on its flight through a ravine, and suddenly [hunting_courtier_1.GetTitledFirstNamePossessive] [ROOT.Char.Custom('LocalMount')] loses its footing and sends [hunting_courtier_1.GetHerHim] to the ground, screaming.\n\nIt is nothing fatal, but the [hunting_courtier_1.GetTitleTierName] is twisting in pain."
+ hunt.1002.desc:0 "My world narrows to the nature surrounding us as we follow the [ROOT.Char.Custom('LocalAnimal')] on its escape through a ravine. Riding side by side with [hunting_courtier_1.GetTitledFirstName], I can hear dogs barking, men shouting... Excitement flows through me as we slowly gain on our quarry!"
+ 
+ 
+ hunt.4012.desc:1 "I am riding ahead of the group as the [ROOT.Char.Custom('TerrainType')] suddenly grow still around me. The silence is almost palpable, and I struggle to hear even the noise of the [ROOT.Char.Custom('LocalMount')]'s breathing.\n\nJust as I am about to turn back to find the others I glimpse it ahead of me, blurry as in a dream – a [ROOT.Char.Custom('LocalAnimal')] as white as snow."
+
+ hunt.9001.desc_opening:0 "The hunt is drawing to an end. We mount our [ROOT.Char.Custom('LocalMountMultiple')] to leave the [ROOT.Char.Custom('TerrainType')] behind"

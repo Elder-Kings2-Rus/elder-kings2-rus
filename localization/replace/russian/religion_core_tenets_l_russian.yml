@@ -1,0 +1,4 @@
+﻿l_russian:
+ tenet_mystical_birthright_desc:0 "The divine has a plan for each of us. Some are destined for things greater than life, and it is our duty to follow them."
+ 
+ doctrine_parameter_conquest_cb_enabled:0 "Can use Conquest [casus_belli|E] without the required [innovations|E]. If the attacker's culture has the required [innovation|E], the [casus_belli|E] requires one less [prestige_level|E] or [piety_level|E]"
