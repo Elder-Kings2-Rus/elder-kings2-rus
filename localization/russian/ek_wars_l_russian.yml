@@ -44,12 +44,12 @@
  pirate_extract_tribute_cb_defeat_desc:0 "[attacker.GetShortUIName|U] вынужден заплатить [defender.GetShortUIName|U] за ущерб, нанесенный войной."
  
  attrebus_potentate_cb:0 "Восстание против Потентата"
- attrebus_potentate_cb_defeat_desc:0 "[defender.GetShortUIName|U] остается на посту Потентата Cиродиила. [attacker.GetShortUIName|U] заключен в тюрьму и опозорен, а конфедерация Коловианских владений распадается."
- attrebus_potentate_cb_defeat_desc_defender:0 "Вы остаетесь Потентатом Cиродиила. [attacker.GetShortUIName|U] брошен в темницу, и Конфедерация Коловианских владений распалась...".
- attrebus_potentate_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] остается на посту Потентата Cиродиила. Конфедерация Коловианских владений распадется без своей цели, а вы будете брошены в подземелья Имперского города."
- attrebus_potentate_cb_victory_desc_defender:0 "[attacker.GetShortUIName|U] сокрушит Потентат, и Cиродиил затаит дыхание, поскольку военачальник навсегда определит его историю...".
- attrebus_potentate_cb_victory_desc_attacker:0 "Потентат уничтожен. Поскольку Cиродиил нуждается в сильной направляющей руке, а Совету Старейшин необходимо провести некоторые реформы, ты останешься за главного... на некоторое время".
- attrebus_potentate_cb_victory_desc:0 "[attacker.GetShortUIName|U] сокрушает Потентат, и Cиродиил затаил дыхание, поскольку военачальник навсегда определит его историю...".
+ attrebus_potentate_cb_defeat_desc:0 "[defender.GetShortUIName|U] остается на посту Потентата Cиродила. [attacker.GetShortUIName|U] заключен в тюрьму и опозорен, а конфедерация Коловианских владений распадается."
+ attrebus_potentate_cb_defeat_desc_defender:0 "Вы остаетесь Потентатом Cиродила. [attacker.GetShortUIName|U] брошен в темницу, и Конфедерация Коловианских владений распалась...".
+ attrebus_potentate_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] остается на посту Потентата Cиродила. Конфедерация Коловианских владений распадется без своей цели, а вы будете брошены в подземелья Имперского города."
+ attrebus_potentate_cb_victory_desc_defender:0 "[attacker.GetShortUIName|U] сокрушит Потентат, и Cиродил затаит дыхание, поскольку военачальник навсегда определит его историю...".
+ attrebus_potentate_cb_victory_desc_attacker:0 "Потентат уничтожен. Поскольку Cиродил нуждается в сильной направляющей руке, а Совету Старейшин необходимо провести некоторые реформы, ты останешься за главного... на некоторое время".
+ attrebus_potentate_cb_victory_desc:0 "[attacker.GetShortUIName|U] сокрушает Потентат, и Cиродил затаил дыхание, поскольку военачальник навсегда определит его историю...".
  attrebus_potentate_cb_victory_with_liodes_desc:0 "Если [liodes.GetNameNicknamed], или [liodes.GetHerHis], все еще в войне, они получают все земли, принадлежащие Потентату в пределах любого [de_jure|E] герцогства, в котором они владеют землями".
  attrebus_potentate_cb_seize_potentate_held_land:0 "Вы захватываете все земли, принадлежащие непосредственно Потентату"
  dres_argonian_war_cb_seize_thorn:0 "Мадеси захватывает Thorn и провозглашает себя королем его земель"
