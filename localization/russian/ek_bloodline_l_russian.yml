@@ -1,39 +1,39 @@
-﻿l_russian:
- bloodline_no:0 "bloodline" #need to subtract bloodline trait count from model size for icon size use trigger 
- bloodline_show:0 "yes"
+l_russian:
+ bloodline_no:0 "родословная" #need to subtract bloodline trait count from model size for icon size use trigger 
+ bloodline_show:0 "да"
 
- BLOODLINE_LIST:0 "Bloodlines"
- OPEN_BLOODLINE_LIST_TOOLTIP:0 "#T View Bloodlines#!"
- ARTIFACT_GRID:0 "Artifacts"
- OPEN_ARTIFACT_GRID_TOOLTIP:0 "#T View Artifacts#!"
+ BLOODLINE_LIST:0 "Родословные"
+ OPEN_BLOODLINE_LIST_TOOLTIP:0 "#T Посмотреть Родословные#!"
+ ARTIFACT_GRID:0 "Артефакты"
+ OPEN_ARTIFACT_GRID_TOOLTIP:0 "#T Посмотреть Артефакты#!"
 
  bloodline_founder_name:0 "[CHARACTER.GetUINameNotMeNoFormat]" #need on death to reorder bloodline traits
- TRAIT_FLAG_DESC_bloodline_form_tamriel:0 "May form the Empire of Tamriel"
+ TRAIT_FLAG_DESC_bloodline_form_tamriel:0 "Может создать Империю Тамриэля"
 
  # default is inherit:all matri_override:yes bastards:yes
 
- bloodline_inherit_all:0 "#T Inheritance: All#!\nThe Bloodline is passed through both male and female lines"
- bloodline_inherit_matri:0 "#T Inheritance: Matrilineal#!\nThe Bloodline is passed through only the female line"
- bloodline_inherit_patri:0 "#T Inheritance: Patrilineal#!\nThe Bloodline is passed through only the male line"
- bloodline_allow_bastards:0 "#T Bastards:#! #T;P Allowed#!\nBastards may inherit the Bloodline"
- bloodline_allow_bastards_not:0 "#T Bastards:#! #T;N Disallowed#!\nBastards may #N;bold not#! inherit the Bloodline"
- bloodline_matri_override:0 "#T Matrilineal Transfer:#! #T;P Active#!\nPatrilineal Bloodlines may be passed by the mother in a matrilineal marriage, and Matrilineal by the father in a normal marriage"
- bloodline_matri_override_not:0 "#T Matrilineal Transfer:#! #T;N Inctive#!\nPatrilineal Bloodlines may #N;bold not#! be passed by the mother, and Matrilineal Bloodlines may #N;bold not#! be passes by the father"
- bloodline_special_condition:0 "#T Extra Conditions:#! #T;P Fulfilled#! \nThe Bloodline has extra conditions that must be met for it to be inherited.\nAll conditions are met"
- bloodline_special_condition_not:0 "#T Extra Conditions:#! #T;N Unfulfilled#! \nThe Bloodline has extra conditions that must be met for it to be inherited.\nThese conditions are #N;bold not#! met:\n[GetScriptedGui(Concatenate( Trait.GetKey, '_founder' )).IsValidTooltip(GuiScope.SetRoot(Character.MakeScope).End)]"
+ bloodline_inherit_all:0 "#T Наследственность: Все равны#!\nРодословная передается как по мужской, так и по женской линии"
+ bloodline_inherit_matri:0 "#T Наследственность: Матрилинейная#!\nРодословная передается только по женской линии"
+ bloodline_inherit_patri:0 "#T Наследственность: Патрилинейное#!\nРодословная передается только по мужской линии"
+ bloodline_allow_bastards:0 "#T Бастарды:#! #T;P Разрешено#!\nБастарды могут наследовать родословную"
+ bloodline_allow_bastards_not:0 "#T Бастарды:#! #T;N Запрещено#!\nБастарды могут #N;bold не#! наследовать Родословную"
+ bloodline_matri_override:0 "#T Матрилинейное наследование:#! #T;P Активно#!\nПатрилинейные родословные могут передаваться по материнской линии в матрилинейном браке, а матрилинейные по отцовской линии в обычном браке"
+ bloodline_matri_override_not:0 "#T Матрилинейное наследство:#! #T;N Неактивно#!\nПатрилинейные родословные могут передаваться по матери, а матрилинейные родословные могут передаваться по отцу"
+ bloodline_special_condition:0 "#T Дополнительные условия:#! #T;P Выполнено#! \nРодословная имеет дополнительные условия, которые должны быть выполнены, чтобы она могла быть унаследована.\nВсе условия выполнены"
+ bloodline_special_condition_not:0 "#T Дополнительные условия:#! #T;N Не выполнено#! \nРодословная имеет дополнительные условия, которые должны быть выполнены, чтобы она могла быть унаследована. \nЭти условия #N;bold не#! met:\n[GetScriptedGui(Concatenate( Trait.GetKey, '_founder' )).IsValidTooltip(GuiScope.SetRoot(Character.MakeScope).End)]"
 
  bloodline_desc_blank:0 ""
 
- trait_bloodline_direnni:0 "Blood of Clan Direnni"
- bloodline_direnni_inherit:0 "all" # inheritance all, matri, patri
- bloodline_direnni_matri_override:0 "yes" # does the bloodline pass in opposite dominant marriages, ie woman pass patri in matri marriage? yes/no
- bloodline_direnni_bastards:0 "yes" # do bastards inherit? yes/no
- bloodline_direnni_special:0 "no" # are there an extra conditions for inheritance? yes/no
- bloodline_direnni_desc:0 "The Direnni are a fabled Altmeri clan that ruled over most of High Rock during the First Era, winning a phyrric victory against the Alessian Order."
+ trait_bloodline_direnni:0 "Родословная клана Диренни"
+ bloodline_direnni_inherit:0 "все" # inheritance all, matri, patri
+ bloodline_direnni_matri_override:0 "да" # does the bloodline pass in opposite dominant marriages, ie woman pass patri in matri marriage? yes/no
+ bloodline_direnni_bastards:0 "да" # do bastards inherit? yes/no
+ bloodline_direnni_special:0 "нет" # are there an extra conditions for inheritance? yes/no
+ bloodline_direnni_desc:0 "Диренни - легендарный клан Альтмеров, правивший большей частью Хай Рока в Первую Эпоху, одержав феерическую победу над Алессианским Орденом."
  
- trait_bloodline_reman:0 "Blood of Reman"
- bloodline_reman_inherit:0 "all" # inheritance all, matri, patri
- bloodline_reman_matri_override:0 "yes" # does the bloodline pass in opposite dominant marriages, ie woman pass patri in matri marriage? yes/no
- bloodline_reman_bastards:0 "no" # do bastards inherit? yes/no
- bloodline_reman_special:0 "yes" # are there an extra conditions for inheritance? yes/no
- bloodline_reman_desc:0 "Of fabled origins, Reman I was able to unite Cyrodiil after the fall of the Alessian Order and founded the Second Cyrodiilic Empire."
+ trait_bloodline_reman:0 "Родословная Ремана"
+ bloodline_reman_inherit:0 "все" # inheritance all, matri, patri
+ bloodline_reman_matri_override:0 "да" # does the bloodline pass in opposite dominant marriages, ie woman pass patri in matri marriage? yes/no
+ bloodline_reman_bastards:0 "нет" # do bastards inherit? yes/no
+ bloodline_reman_special:0 "да" # are there an extra conditions for inheritance? yes/no
+ bloodline_reman_desc:0 "Имея легендарное происхождение, Реман I сумел объединить Сиродил после падения Алессианского ордена и основал Вторую Сиродиильскую империю."
