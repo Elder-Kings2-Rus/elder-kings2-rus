@@ -154,7 +154,7 @@
  colovia_march_east_decision_tooltip:0 "Cyrodiil needs a new Emperor!"
  colovia_march_east_decision_confirm:0 "For Cyrodiil!"
  colovia_march_east_decision.claim_nibenay.tt:0 "If you press your claim over the title of Nibenay via war, you will be crowned Emperor of Cyrodiil."
- colovia_march_east_decision.no_nibenay.tt:0 "In the event that no one claims the eastern half of Cyrodiil, you will be able to use a [de_jure|E] [casus_belli|E] over its parts, at an increased cost."
+ colovia_march_east_decision.no_nibenay.tt:0 "In the event that no one claims the eastern half of Cyrodiil, you will be able to use a [casus_belli|E] over its parts, at an increased cost."
  
  nibenay_march_west_decision:0 "Prepare to March West"
  nibenay_march_west_decision_desc:0 "For too long Cyrodiil has been divided. We stand strong in Nibenay, and it is time for the West to submit, as it did for centuries."
@@ -162,7 +162,7 @@
  nibenay_march_west_decision_tooltip:0 "Cyrodiil needs a new Emperor!"
  nibenay_march_west_decision_confirm:0 "For Cyrodiil!"
  nibenay_march_west_decision.claim_colovia.tt:0 "If you press your claim over the title of Colovia via war, you will be crowned Emperor of Cyrodiil."
- nibenay_march_west_decision.no_colovia.tt:0 "In the event that no one claims the western half of Cyrodiil, you will be able to use a [de_jure|E] [casus_belli|E] over its parts, at an increased cost."
+ nibenay_march_west_decision.no_colovia.tt:0 "In the event that no one claims the western half of Cyrodiil, you will be able to use a [casus_belli|E] over its parts, at an increased cost."
  
  ### Others
  establish_lingua_tamrielis_decision:0 "Establish a Lingua Tamrielis"
