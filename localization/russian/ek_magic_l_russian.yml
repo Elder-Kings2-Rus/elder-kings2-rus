@@ -220,7 +220,7 @@
  stage_5:0 "Master"
 
  court_mage_position:0 "Court Mage"
- court_mage_position_desc: "Some shmuck you pay minimum wage to harness the ephemeral powers capable of tearing the world asunder."
+ court_mage_position_desc: "The Court Mage is an adept of the magickal arts tasked with finding solutions to magic-related problems, casting spells on behalf of their liege, presiding over arcane studies in the realm and assisting the court with enchantments, alchemicals, and simple advice on complex mystical matters."
  court_mage_position_possessive:0 "Court Mage's"
  court_mage_employer_custom_effect_description:2 "Can cast Spells for their liege#!\n@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!"
  court_position_skill_arcana:0 "[arcana|E] Skill"
