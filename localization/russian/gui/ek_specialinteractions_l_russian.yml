@@ -1,3 +1,3 @@
 ﻿l_russian:
- MARRIAGE_DIFFERENT_CULTURE_REASON:1 "Your [culture|E] differs from [recipient.GetShortUIName]: $VALUE|+0$"
- MARRIAGE_DIFFERENT_CULTURE_GROUP_REASON:1 "Your [heritage|E] differs from [recipient.GetShortUIName]: $VALUE|+0$"
+ MARRIAGE_DIFFERENT_CULTURE_REASON:1 "Ваша [culture|E] отличается от [recipient.GetShortUIName]: $VALUE|+0$"
+ MARRIAGE_DIFFERENT_CULTURE_GROUP_REASON:1 "Ваша [heritage|E] отличается от [recipient.GetShortUIName]: $VALUE|+0$"
