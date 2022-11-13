@@ -4,6 +4,8 @@
  DEJURE_CB_KINGDOM_NAME_GENERIC:1 "Захватить [de_jure|E] [kingdom|E]".
  CONQUEST_KINGDOM_CB_NAME:0 "Завоевать [kingdom|E]"
  CONQUEST_EMPIRE_CB_NAME:1 "Завоевать [empire|E]"
+
+ HOUSE_TOMB_0_CONQUEST_CB_NAME:0 "Завоевать гробницу Великого Дома"
  
  CLEANSE_ABOMINATIONS_NAME:1 "Очищение от скверны в [TITLE.GetBaseName]"
  CLEANSE_ABOMINATIONS_DUCHY_NAME:1 "Очищение от скверны"

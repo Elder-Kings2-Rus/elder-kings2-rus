@@ -42,11 +42,11 @@
  # Martial: Дерево грабителя
  plunderer_name:1 "Расхититель"
  raider_perk_name:0 "Сухопутные набеги"
- RAIDER_PERK_EFFECT:0 "Открывает возможность [Concept('raid', 'устраивать набеги')|E]."
+ RAIDER_PERK_EFFECT:0 "Открывает возможность [Concept('raid', 'устраивать набеги')|E]\nПерсонажи, чья [Concept('faith', 'конфессия')|E] имеет  [Concept( 'core_tenet', 'основной догмат' )|El][GetFaithDoctrine('tenet_pacifism').GetBaseName], могут совершать набеги, но с при этом тратя [Concept('piety', 'благочестия')|E]."
  sea_raider_perk_name:0 "Морские рейды"
  SEA_RAIDER_PERK_EFFECT:0 "Открывает возможность [Concept('raid', 'устраивать набеги')|E] по морю."
  sacred_raids_perk_name:0 "Священные рейды"
- SACRED_RAIDS_PERK_EFFECT:0 "[Concept('raiding', 'Набеги')|E] награждаются благочестием, эквивалентным полученным [Concept('gold', 'золоту')|E] и [Concept('prestige', 'престижу')|E]"
+ SACRED_RAIDS_PERK_EFFECT:0 "[Concept('raiding', 'Набеги')|E] награждаются благочестием, эквивалентным полученным [Concept('gold', 'золоту')|E] и [Concept('prestige', 'престижу')|E]\nУбирает трату [Concept('piety', 'благочестия')|E] при набеге для персонажей, чья [Concept('faith', 'конфессия')|E] имеет  [Concept( 'core_tenet', 'основной догмат' )|El] [GetFaithDoctrine('tenet_pacifism').GetBaseName]. "
  grand_raider_perk_name:0 "Великий налётчик"
  GRAND_RAIDER_PERK_EFFECT:0 "Увеличивает добычу, получаемую в [Concept('raid', 'набегах')|E], на четверть"
  prisoners_and_loot_perk_name:0 "Пленники и добыча..."
