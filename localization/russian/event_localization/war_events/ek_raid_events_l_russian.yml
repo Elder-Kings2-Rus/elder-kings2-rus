@@ -2,6 +2,8 @@
  raiding.0011.desc_sacred_raids:0 "Your raiders bring back [ROOT.Var('raid_loot').GetValue|V0] [gold_i], [prestige_i], and [piety_i] in loot and acclaim."
  raiding.0011.desc_raider_blood:0 "\nYour raider blood also impacts your family, granting you [ROOT.Var('bonus_renown').GetValue|0] [dynasty_prestige_i]."
  raiding.0011.desc_loot_and_prisoners:0 "\nIn addition, [ROOT.Var('bonus_dev').GetValue|V0] [county_development_growth|E] have been distributed to your various counties."
+ raiding.0011.desc_pacifism:0 "Your raiders bring back [ROOT.Var('raid_loot').GetValue|V0] [gold_i] and [prestige_i] in loot and acclaim. As your faith has [GetFaithDoctrine('tenet_pacifism').GetBaseName], you lost [ROOT.Var('raid_loot').GetValue|V0] [piety_i]."
+ raiding.0011.desc_non_tribal_pacifism:0 "Your raiders bring back [ROOT.Var('raid_loot').GetValue|V0] [gold_i] in loot, costing you [SCOPE.ScriptValue('non_tribal_loot_value')|V0] [prestige_i] and [piety_i] acclaim."
  
  raiding.0011.t2:0 "Loot Redistribution"
  raiding.0011.desc_pirate_redistribution_beginning:0 "The [ROOT.Var('raid_loot').GetValue|V0] [raid_loot|E] has been redistributed according to your [amenities|E]:"

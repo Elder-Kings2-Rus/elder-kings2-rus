@@ -266,6 +266,7 @@
  trait_p_at_whale_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_whale_desc' )]"
  trait_p_at_whale_desc:0 "A follower of the Whale"
  trait_p_at_whale_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of [ROOT.Char.Custom('GetDvStendarrName')]."
+ TRAIT_FLAG_DESC_more_captives_from_battles:0 "Higher chance of capturing [prisoners|E] in [battle|E]"
  ##the long-lived Whale, who guides our souls to the afterlife.
  
  trait_p_at_bear:0 "Follower of [ROOT.Char.Custom('GetDvZenitharName')]"

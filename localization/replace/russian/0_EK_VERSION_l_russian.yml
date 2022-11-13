@@ -3,5 +3,5 @@
  TT_MODULE_VERSION_INFO_COMMON:0 "#T $MODULE$ version:#!\n   Branch: $BRANCH|V$\n   Commit: $HASH_SHORT|V$\n   Timestamp: $TIMESTAMP$\n   Commit Number: $COMMIT_COUNT$\n   EK Build: $EK_BUILD$\n   EK Version: $EK_VERSION$"
  CLIPBOARD_GAME_MODULE_VERSION_INFO:1 "$MODULE$ version:\n   Branch: $BRANCH$\n   Commit: $HASH_LONG$\n   Timestamp: $TIMESTAMP$\n   Commit Number: $COMMIT_COUNT$\n   MP Checksum: [GetMPChecksum]\n   EK Build: $EK_BUILD$\n   EK Version: $EK_VERSION$"
  EK_BUILD:0 "Release Build"
- EK_VERSION:0 "0.9.0"
+ EK_VERSION:0 "0.9.1"
  

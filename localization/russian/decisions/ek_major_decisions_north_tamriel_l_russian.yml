@@ -28,7 +28,7 @@
  western_skyrim_march_east_decision_tooltip:0 "Skyrim needs a new High King!"
  western_skyrim_march_east_decision_confirm:0 "For Skyrim!"
  western_skyrim_march_east_decision.claim_eastern_skyrim.tt:0 "If you press your claim over the title of Eastern Skyrim via war, you will be crowned High King of Skyrim."
- western_skyrim_march_east_decision.no_eastern_skyrim.tt:0 "In the event that no one claims the eastern half of Skyrim, you will be able to use a [de_jure|E] [casus_belli|E] over its parts, at an increased cost."
+ western_skyrim_march_east_decision.no_eastern_skyrim.tt:0 "In the event that no one claims the eastern half of Skyrim, you will be able to use a [casus_belli|E] over its parts, at an increased cost."
  
  eastern_skyrim_march_west_decision:0 "Prepare to March West"
  eastern_skyrim_march_west_decision_desc:0 "For too long Skyrim has been divided. We stand strong in the Old Jarldoms, and it is time for the West to submit, as it did for centuries."
@@ -36,7 +36,7 @@
  eastern_skyrim_march_west_decision_tooltip:0 "Skyrim needs a new High King!"
  eastern_skyrim_march_west_decision_confirm:0 "For Skyrim!"
  eastern_skyrim_march_west_decision.claim_western_skyrim.tt:0 "If you press your claim over the title of Western Skyrim via war, you will be crowned High King of Skyrim."
- eastern_skyrim_march_west_decision.no_western_skyrim.tt:0 "In the event that no one claims the western half of Skyrim, you will be able to use a [de_jure|E] [casus_belli|E] over its parts, at an increased cost."
+ eastern_skyrim_march_west_decision.no_western_skyrim.tt:0 "In the event that no one claims the western half of Skyrim, you will be able to use a [casus_belli|E] over its parts, at an increased cost."
  
  solstheim_claim_coast_decision:0 "Cross the Sea of Ghosts"
  solstheim_claim_coast_decision_desc:0 "The land of Solstheim has always been regarded as a strange and backwater place by our cousins in the mainland. But as we are finally united under one banner, it is time to claim our part of Skryim."
