@@ -41,7 +41,7 @@
  pilgrimage.1001.desc.short:0 "\n\nХотя я не буду отсутствовать долго, я молюсь о благополучии земель в мое отсутствие."
  pilgrimage.1001.desc.medium:0 "\n\nПока я иду с [ROOT.Char.GetFaith.HighGodNameAlternate], мои земли могут и подождать, как бы долго я ни отсутствовал"
  pilgrimage.1001.desc.long:0 "\n\nМоя точка назначения далеко от дома, но в служении [ROOT.Char.GetFaith.DivineRealm], даже мои земли могут подождать."
- pilgrimage.1001.desc.very_long:0 "\n\nМеня не будет очень долго, я могу только молить [ROOT.Char.GetFaith.HighGodNameAlternate], чтобы он присматривал за моими землями."
+ pilgrimage.1001.desc.very_long:0 "\n\nМеня не будет очень долго, я могу только молиться [ROOT.Char.GetFaith.HighGodNameAlternate], чтобы он присматривал за моими землями."
  pilgrimage.1001.a:0 "Время отправляться."
 
  # Generic Pilgrimage Journey Events 
@@ -61,23 +61,23 @@
  pilgrimage.2001.b.failure_title:0 "Повозка горит!"
  pilgrimage.2001.c:0 ""Хватит! Я заплачу чем угодно!""
 
- pilgrimage.2002.t:0 "Возлюби Ближнего Своего, $pilgrimage_header$"
+ pilgrimage.2002.t:0 "$pilgrimage_header$ Возлюби Ближнего Своего"
  pilgrimage.2002.desc:0 "Среди моих собратьев-паломников есть [dummy_gender.GetWomanMan], проповедующий сострадание и братство — до того, как [dummy_gender.GetSheHe] не доходит до язычников.\n\nОдним вечером, вокруг костра, [dummy_gender.GetSheHe] громко заявил, что они "гнусные монстры в глазах [ROOT.Char.GetFaith.PantheonTerm]! Все они извращенцы и детоубийцы!" Большинство отводит глаза, когда [dummy_gender.GetSheHe] смотрит на них. В ту ночь я не был так быстр. "Вы не согласны, o [ROOT.Char.GetTitleAsNameNoTooltip]?""
  pilgrimage.2002.a:0 "Не #EMP все#! такие плохие."
  pilgrimage.2002.b:0 "Соглашусь, я бы не стал доверять защитникам их идей!"
  pilgrimage.2002.c:0 "Воистину! Они плюют в лик [ROOT.Char.GetFaith.HighGodName]!"
 
- pilgrimage.2003.t:0 "Потеря спутников $pilgrimage_header$"
+ pilgrimage.2003.t:0 "$pilgrimage_header$ потеря спутников"
  pilgrimage.2003.desc:0 "С каждой неделей, всё меньше паломников присоединяется к нам. Некоторые уже зашли так далеко, как только могли, прежде чем им надо было вовзращаться домой; другие встретили не такую удачную судьбу.\n\nБольше всего беспокоит тот факт, что моя группа стражников редеет в пугающих сроках. Этот факт показывает, каким трудным может быть это путешествие."
  pilgrimage.2003.a:0 "Некоторые из местных жителей кажутся такими, что из них получились бы свирепые охранники."
  pilgrimage.2003.b:0 "Всё, что мне нужно,это защита [ROOT.Char.GetFaith.PantheonTerm]."
 
- pilgrimage.2004.t:0 "Неожиданная встреча $pilgrimage_header$"
+ pilgrimage.2004.t:0 "$pilgrimage_header$ неожиданная встреча"
  pilgrimage.2004.desc:0 "По мере моего приближения к [destination_title.GetNameNoTierNoTooltip], я встречаю все больше и больше паломников отовсюду.\n\nОдин из них узнал меня издалека: "[ROOT.Char.GetTitledFirstNameNoTooltip]?! Это ты?"\n\nЭто не кто иной, как [potential_friend.Custom2('MyCharacterIntroduction', ROOT.Char)]!"
  pilgrimage.2004.a:0 "Нас свел [ROOT.Char.GetFaith.PantheonTerm]!"
  pilgrimage.2004.b:0 "Знаменательная встреча, но я должен помолиться наедине с собой."
 
- pilgrimage.2005.t:0 "Грубая история о $pilgrimage_header$"
+ pilgrimage.2005.t:0 "$pilgrimage_header$ грубая история"
  pilgrimage.2005.desc:1 "Проходя мимо костра, один из попутчиков рассказывал историю, которую [dummy_peasant_gender.GetSheHe] однажды услышал, о неком [ROOT.Char.GetTitleAsNameNoTooltip], под хриплый смех. Когда я пришел, замолчали все — кроме рассказчика.\n\n"О, не волнуйтесь ми[ROOT.Char.GetLadyLord], вы не такие, как [ROOT.Char.Custom('InsultNoun')] в этой истории!"
  pilgrimage.2005.desc_close:0 "Речь идет о [ROOT.Char.GetTitleAsNameNoTooltip] этих земель.""
  pilgrimage.2005.desc_far:0 "Речь идет о [ROOT.Char.GetTitleAsNameNoTooltip] из далекого места, называемого [title.GetNameNoTierNoTooltip].""
@@ -86,25 +86,25 @@
  pilgrimage.2005.b:0 ""Стража! Подайте кнут.""
  pilgrimage.2005.c:0 "Возможно, мне стоит найти других попутчиков."
 
- pilgrimage.2006.t:0 "$pilgrimage_header$ потерялся!"
+ pilgrimage.2006.t:0 "$pilgrimage_header$ потерялись!"
  pilgrimage.2006.desc:0 "Я готов поклясться, что это был путь вперед!\n\nНи одному моему спутнику - или мне - не удалось найти путь назад к святыне. Мы вообще на те звезды смотрим? Такое ощущение, что мы потратили неделю зазря."
  pilgrimage.2006.a:0 "Мы должны найти проводника любой ценой."
  pilgrimage.2006.b:0 "Честное слово, нам просто надо пройти еще немного..."
 
- pilgrimage.2007.t:0 "Размышления $pilgrimage_header$"
+ pilgrimage.2007.t:0 "$pilgrimage_header$ размышления"
  pilgrimage.2007.desc:0 "Здесь, поздно ночью, я иногда смотрю на звезды и удивляюсь. [ROOT.Char.GetFaith.PantheonTerm] может меня вообще видеть здесь, так далеко от дома?\n\nДля чего все это?"
  pilgrimage.2007.a:0 "[ROOT.Char.GetFaith.PantheonTerm|U] пожелал бы мне этого!"
  pilgrimage.2007.b:0 "То, что я хочу, так это увидеть дальние края."
  pilgrimage.2007.c:0 "Это все ради видимости."
 
- pilgrimage.2008.t:0 "Болезнь $pilgrimage_header$"
+ pilgrimage.2008.t:0 "$pilgrimage_header$ болезнь"
  pilgrimage.2008.desc:0 "Видимо, путешествие плохо сказалось на мне. Может, это просто чужие земли с чужим воздухом, или меха недостаточно теплые.\n\nТак или иначе, мой кашель не прекращался уже несколько недель, я сегодня утром сделал над собой великое усилие, чтобы встать. Есть ли у меня вообще силы, чтобы идти дальше?"
  pilgrimage.2008.a:0 "Не время сдаваться!"
  pilgrimage.2008.a.tt:0 "Путешествовать, пока [GetTrait('ill').GetName( GetPlayer )] опасно"
  pilgrimage.2008.b:0 "Не могу так идти."
  pilgrimage.2008.whole_of_body:0 "Ах, этот кашель быстро пройдет."
 
- pilgrimage.2009.t:0 "Хриплый кашель у $pilgrimage_header$"
+ pilgrimage.2009.t:0 "$pilgrimage_header$ хриплый кашель"
  pilgrimage.2009.desc:0 "Путешествие не идет мне на пользу. Мое здоровье не укрепилось из-за моего стремления получить милость [ROOT.Char.GetFaith.PantheonTerm]. Все становится хуже и хуже. Я не помню, как я дышал без усилий."
  pilgrimage.2009.a:0 "Я дойду до конца. Пусть [ROOT.Char.GetFaith.HighGodNameAlternate] благословит меня."
  pilgrimage.2009.b:0 "Это явно воля [ROOT.Char.GetFaith.HighGodNamePossessive], чтобы я вернулся назад."
