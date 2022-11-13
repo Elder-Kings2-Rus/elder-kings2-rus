@@ -1,66 +1,66 @@
 ﻿l_russian:
- feature_animal_skull_type_dragon:0 "an ancient creature of legend; a dragon"
- feature_animal_skull_type_giant_wasp:0 "a giant wasp"
- feature_animal_skull_type_bull_netch:0 "a ferocious bull netch"
- feature_animal_skull_type_kwama_warrior:0 "a protective kwama warrior"
- feature_animal_skull_type_cliff_strider:0 "a relentless cliff-strider"
- feature_animal_skull_type_alit:0 "a fearsome alit"
- feature_animal_skull_type_gryphon:0 "a majestic gryphon"
- feature_animal_skull_type_troll:0 "a brutish troll"
- feature_animal_skull_type_lurcher:0 "a massive lurcher"
- feature_animal_skull_type_crocodile:0 "an enourmous crocodile"
- feature_animal_skull_type_dreugh:0 "a nightmarish dreugh"
- feature_animal_skull_type_sep_adder:0 "a powerful sep-adder"
- feature_animal_skull_type_wamasu:0 "a wamasu with shiny scales"
- feature_animal_skull_type_giant_bat:0 "a giant bat"
+ feature_animal_skull_type_dragon:0 "древнее существо из легенд; дракон"
+ feature_animal_skull_type_giant_wasp:0 "гигантская оса"
+ feature_animal_skull_type_bull_netch:0 "свирепый самец нетча"
+ feature_animal_skull_type_kwama_warrior:0 "воин-защитник квама"
+ feature_animal_skull_type_cliff_strider:0 "безжалостный скальный странник"
+ feature_animal_skull_type_alit:0 "огромный алит"
+ feature_animal_skull_type_gryphon:0 "величественный грифон"
+ feature_animal_skull_type_troll:0 "свирепый тролль"
+ feature_animal_skull_type_lurcher:0 "большой шатун"
+ feature_animal_skull_type_crocodile:0 "огромный крокодил"
+ feature_animal_skull_type_dreugh:0 "кошмарный дреуг"
+ feature_animal_skull_type_sep_adder:0 "могучий аспид Сепа"
+ feature_animal_skull_type_wamasu:0 "вамасу с блестящей чешуей"
+ feature_animal_skull_type_giant_bat:0 "гигантская летучая мышь"
  
- artifact_skull_numinex_name:1 "Skull of Numinex"
- artifact_skull_numinex_description:0 "The gigantic skull of the ancient dragon Numinex, a ferocious beast which terrorized the countryside before being defeated by Olaf One-Eye. After having beaten the beast Olaf brought it to Whiterun, where it was imprisoned for many years before its death, after which its skull was carved and placed in the throne room, watching over the Jarl's court."
+ artifact_skull_numinex_name:1 "Череп Нуминекса"
+ artifact_skull_numinex_description:0 "Гигантский череп древнего дракона Нуминекса, свирепого зверя, который запугивал сёла, пока не был повержен Олафом Одноглазым. Победив зверя, Олаф привез его в Вайтран, где и заточил на многие годы, пока тот не умер. После чего его череп был помещен в тронный зал, наблюдать за двором Ярла."
  
- artifact_throne_ruby_name:1 "Ruby Throne"
- artifact_throne_ruby_description:0 "Proverbial Seat of Sundered Kings, the Ruby Throne — a fine example of Ayleid opulence tempered through Nedic craftsmanship — has served as throne on high from which issued forth the wisdom of Alessia and the fury of Reman. And now, perhaps, your own designs on Tamriel."
+ artifact_throne_ruby_name:1 "Рубиновый трон"
+ artifact_throne_ruby_description:0 "Прекрасный пример смеси богатства айлейдов и мастеррства недийцев, известный также как Трон разлучённых королей. Рубиновый трон - место, с которого исходили мудрость Алессии и ярость Ремана. Возможно Вы вершите судьбу Тамриэля восседая на нём."
 
- artifact_throne_camoran_name:1 "Camoran Throne"
- artifact_throne_camoran_description:0 "A regal seat fashioned out of grahtwood nurtured by the best treeshapers, Eplear Camoran is reported to have chosen the saplings personally as they were surrounded by a coven of spriggans.\nThe Camoran Throne is a symbol of established power within all of Valenwood few would ignore"
+ artifact_throne_camoran_name:1 "Трон Каморана"
+ artifact_throne_camoran_description:0 "Величесвенный трон, выращенный лучшими садовниками Гратвуда. Легенды гласят, что сам Эплир Каморан, в окружении спринганов, лично выбирал саженцы для него. Трон Каморана - символ истинной власти над Валенвудом, пред которым преклоняют колени."
 
- artifact_flask_lillandril_name:1 "Flask of Lillandril"
- artifact_flask_lillandril_description:0 "A precious flask of obscure origins, the Flask of Lillandril possesses the wondrous abilities to absorb and reflect magic as if it were a receptacle for magicka itself. It is one of the most treasured relics of Summerset Isle, and the people of Lillandril cherish it as a heirloom of their own great city."
+ artifact_flask_lillandril_name:1 "Колба Лилландрила"
+ artifact_flask_lillandril_description:0 "Драгоценная колба неизвестного происхождения. Колба Лилландрила обладает удивительной способностью поглощать и отражать магию, словно сама является вместилищем магии. Это одна из самых сокровенных реликвий острова Саммерсет, и жители Лилландрила бережно хранят ее как реликвию своего великого города."
 
- artifact_varla_stone_name:1 "Varla Stone"
- artifact_varla_stone_description:0 "An enchanted shard of cut Meteoric Glass, a rare type of Aetherial Fragment, created by the Ayleids. The luminescent crystals of white or blue hue are remarkably powerful, enabling untrained users to restore magical energy to any number of enchanted items. Because of their great value and utility, many of these artifacts were looted from Ayleid ruins."
+ artifact_varla_stone_name:1 "Камень варла"
+ artifact_varla_stone_description:0 "Зачарованный осколок граненого метеоритного стекла, редкий вид этерическогого фрагмента, созданный Айлейдами. Люминесцентные кристаллы белого или голубого оттенка обладают необычайной силой, позволяя даже необученным людям восстанавливать магическую энергию любого количества зачарованных предметов. Из-за их огромной ценности и полезности, расхитители вынесли почти все подобные артефакты из Айлейдских руин."
 
- artifact_dwemer_puzzle_box_name:1 "Dwemer Puzzle Box"
- artifact_dwemer_puzzle_box_description:0 "An intricate little cube not bigger than the size of a fist, made of a coppery metal, with a circular design and symbols on one side and some lined marks on the other sides."
+ artifact_dwemer_puzzle_box_name:1 "Двемерская головоломка"
+ artifact_dwemer_puzzle_box_description:0 "Замысловатый маленький кубик размером не больше кулака, сделанный из металла медного цвета. На одной стороне нанесен круговой рисонок и символы. На других сторонах линии вырисовывают странные узоры."
 
- artifact_indoril_death_mask_name:1 "Indoril Death Mask"
- artifact_indoril_death_mask_description:0 "The golden face mask purportedly buried with Indoril Nerevar, though there were many replicas fashioned for failed Nerevarines."
+ artifact_indoril_death_mask_name:1 "Посмертная маска Индорила"
+ artifact_indoril_death_mask_description:0 "Золотая маска для лица, предположительно захороненная вместе с Индорилом Нереваром. Несмотря на это, существует много копий, изготовленных для несостоявшихся Нереваров."
 
- artifact_aok_name:1 "Amulet of Kings"
- artifact_aok_description:0 "This amulet, also known as the Amulet of the Kings of Glory, is a pendant traditionally worn by the ruling emperor of Cyrodiil. In the center of the amulet is the Chim-el Adabal, also known as the Red Diamond, a huge soul gem of Ayleid origin." # PLACEHOLDER
+ artifact_aok_name:1 "Амулет Королей"
+ artifact_aok_description:0 "Этот амулет, также известный как Амулет Королевской Славы, представляет собой подвеску, которую традиционно носит действующий император Сиродила. В центре амулета находится Чим-эль Адабаль, также известный как Красный алмаз. Это огромный камень душ айлейдского происхождения." # PLACEHOLDER
 
- artifact_lords_mail_name:1 "Lord's Mail"
- artifact_lords_mail_description:0 "An ancient plated cuirass of unsurpassable quality, considered to grant the wearer the power to absorb or regenerate health, resist the effects of spells, and resist or even cure poison. \nIt is said that whenever Kynareth deigns the wearer unworthy, the Lord's Mail will be taken away and hidden for the next chosen one."
+ artifact_lords_mail_name:1 "Кольчуга Повелителя"
+ artifact_lords_mail_description:0 "Древняя позолоченная кираса непревзойденного качества, которая, как считается, дает владельцу способность поглощать и восстанавливать здоровье, противостоять воздействию заклинаний, сопротивляться яду и даже излечивать от него. Говорят, что, как только Кинарет сочтет владельца недостойным, Кольчуга Повелителя исчезнет и будет спрятана для следующего избранного."
 
- artifact_antique_map_name:1 "Antique Map"
- artifact_antique_map_description:0 "A master cartographer lent their skills to the crafting of this map untold years ago." # PLACEHOLDER
+ artifact_antique_map_name:1 "Старинная карта"
+ artifact_antique_map_description:0 "Мастер-картограф вложил все свои навыки в создание этой карты бесчисленное множество лет назад." # PLACEHOLDER
 
- artifact_nordic_urn_name:1 "Ancient Nordic Urn"
- artifact_nordic_urn_description:0 "Usually found in antique Nordic barrows, now this urn may have contained offerings, organs or prayers for the soul of the departed" # PLACEHOLDER
+ artifact_nordic_urn_name:1 "Древняя нордская урна"
+ artifact_nordic_urn_description:0 "Обычно находимая в древних нордских курганах. Эта урна, возможно, содержала подношения, органы или молитву за душу усопшего." # PLACEHOLDER
 
- artifact_old_sword_name:1 "Ancestral Nordic Sword"
- artifact_old_sword_description:0 "Found in a Nordic burial crypt, this sword could have belonged to a number of Nordic heroes of the past." # PLACEHOLDER
+ artifact_old_sword_name:1 "Древний нордский меч"
+ artifact_old_sword_description:0 "Найден в нордском склепе. Этот меч мог принадлежать нескольким нордским героям прошлого." # PLACEHOLDER
 
- artifact_redguard_flag_name:1 "Redguard Battle Flag"
- artifact_redguard_flag_description:0 "Folded battle flag of the First Ska'vyn Camel Scouts, torn in three places and spotted with blood." # PLACEHOLDER
+ artifact_redguard_flag_name:1 "Редгардское боевое знамя"
+ artifact_redguard_flag_description:0 "Свёрнутое боевое знамя первых разведчиков Ска'вина. Разорванно в трех местах, виднеются следы крови." # PLACEHOLDER
 
- artifact_argonian_statuette_name:1 "Pre-Duskfall Argonian Relic"
- artifact_argonian_statuette_description:0 "While not exactly uncommon, this pre-duskfall statuette holds immense historical significance."  # PLACEHOLDER
+ artifact_argonian_statuette_name:1 "Реликвия аргониан досумеречной эпохи"
+ artifact_argonian_statuette_description:0 "Раньше эта статуэтка не явлалсь чем-то необычным, но сейчас она имеет огромное историческое значение."  # PLACEHOLDER
 
- artifact_targe_of_the_blooded_name:1 "Targe of the Blooded"
- artifact_targe_of_the_blooded_description:0 "Having large steel spikes attached to it, this type of shield is favored by bandits in Hammerfell."  # PLACEHOLDER
+ artifact_targe_of_the_blooded_name:1 "Тарч кровожадности"
+ artifact_targe_of_the_blooded_description:0 "Этот тип щита, к которому прикреплены большие стальные шипы, пользуется популярностью у бандитов Хаммерфелла."  # PLACEHOLDER
 
- artifact_crown_verity_name:1 "Crown of Verity"
- artifact_crown_verity_description:0 "A magical artifact created to test the worthiness of potential rulers of Skyrim, made by mages sent by each hold in Skyrim, dedicated in creating a method of electing a High King." # PLACEHOLDER
+ artifact_crown_verity_name:1 "Корона Истины"
+ artifact_crown_verity_description:0 "Магический артефакт, применяемый для проверки достоинств потенциальных правителей Скайрима. Для его создания из каждого владения Скайрима быд выбран маг. Все они посвятили себя изучению метода избрания верховного короля." # PLACEHOLDER
 
  artifact_mace_aevar_name:1 "Mace of Aevar Stone-Singer"
  artifact_mace_aevar_description:0 "According to legend, this prized Skaal artifact was used by the eponymous hero to amplify the Song of the Earth, returning the Gift of the Earth and making the land rich again for the Skaal. It is crafted out of stalhrim, a material as precious as ebony but endemic to Solstheim" # PLACEHOLDER
