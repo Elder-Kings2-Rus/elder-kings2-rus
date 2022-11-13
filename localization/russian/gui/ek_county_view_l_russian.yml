@@ -1,9 +1,9 @@
 ﻿l_russian:
- MOVE_REALM_CAPITAL_TOOLTIP:0 "$SET_REALM_CAPITAL_TOOLTIP_TITLE$\n\nMake this County the new Realm Capital."
+ MOVE_REALM_CAPITAL_TOOLTIP:0 "$SET_REALM_CAPITAL_TOOLTIP_TITLE$\n\nСделать это графство новой столицей владений."
 
  MOVE_REALM_CAPITAL_TITLE:0 "$SET_REALM_CAPITAL_CONFIRM_TITLE$"
  # MOVE_REALM_CAPITAL_DESC:0 "[This.GetName] will be the new $game_concept_county_capital$.\n\nSome Buildings in [TITLE_2.GetName] may become inactive."
- MOVE_REALM_CAPITAL_DESC:0 "This [county|E] will be the new $game_concept_realm_capital$.\n\nSome Buildings in the former Capital may become inactive."
+ MOVE_REALM_CAPITAL_DESC:0 "Это [county|E] будет новой $game_concept_realm_capital$.\n\nНекоторые постройки в бывшей столице могут стать неактивными."
  MOVE_REALM_CAPITAL_CANCEL:0 "$CANCEL_BUTTON$"
  MOVE_REALM_CAPITAL_CONFIRM:0 "$SET_CAPITAL_CONFIRM_ACCEPT$"
- no_recent_capital_change_or_de_jure_capital:0 "You have already moved your [realm_capital|E]. You can only change it to the [de_jure_capital|E] of your [primary_title|E]."
+ no_recent_capital_change_or_de_jure_capital:0 "Вы уже переместили свою [realm_capital|E]. Вы можете изменить его только на [de_jure_capital|E] своего [primary_title|E]."
