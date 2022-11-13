@@ -262,8 +262,8 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
 
  # Coping mechanisms
  trait_skooma_drinker:0 "Зависимость от Скумы"
- trait_skooma_drinker_desc:0 "Этот персонаж известен своим сахарным зубом и пристрастием к Скуме."
- trait_skooma_drinker_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'известна', 'известен' )] своим сахарным зубом и пристрастием к Скуме."
+ trait_skooma_drinker_desc:0 "Этот персонаж известен своим пристрастием к сладкому и к Скуме."
+ trait_skooma_drinker_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'известна', 'известен' )] своим пристрастием к сладкому и к Скуме."
 
  #Tsaescence
  trait_tsaesci:0 "Цаэски"
