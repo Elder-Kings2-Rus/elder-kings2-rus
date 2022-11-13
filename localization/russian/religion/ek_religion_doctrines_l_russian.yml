@@ -182,7 +182,8 @@
     doctrine_parameter_unlocks_patron_tab_active:0 ""
  doctrine_main_pantheon_type_daedric_prince_name:0 "Daedric Monolatrism"
     doctrine_main_pantheon_type_daedric_prince_desc:0 "The Daedric Princes are both frightening and powerful. While some decide to broker plenty of deals with them, it would be wiser to dedicate ourselves to one Prince, and worship them with all our heart."
-    doctrine_parameter_uses_daedric_prince_focus_active:0 "We will be able to dedicate our faith to a Daedric Prince. By doing so we will get access to stronger, and cheaper, [daedric_boons|E], and even be able to summon powerful Daedric invasions or claim a Prince's artifact."
+    #doctrine_parameter_uses_daedric_prince_focus_active:0 "We will be able to dedicate our faith to a Daedric Prince. By doing so we will get access to stronger, and cheaper, [daedric_boons|E], and even be able to summon powerful Daedric invasions or claim a Prince's artifact."
+    doctrine_parameter_uses_daedric_prince_focus_active:0 "We will be able to dedicate our faith to a Daedric Prince."
  doctrine_main_pantheon_type_monolatrism_name:0 "Monolatrism"
     doctrine_main_pantheon_type_monolatrism_desc:0 "There might be plenty of deities in the world, but we only recognize the word of our true divine. Through our faith and devotion, we will ascend."
     doctrine_parameter_uses_monolatry_aspect_active:0 "We will be able to select both a Deity and an Aspect.\n\n#weak Faiths worshipping the same Deity will see each other as [faith_astray|E], even if their Aspect differs. The Aspect gives a pre-defined bonus to all the faithful, scaling with their [piety_level|E].#!"
@@ -1864,6 +1865,10 @@ doctrine_sp_kj_dragon_desc: ""
  
  tenet_exalted_heroism_name:0 "Exalted Heroism" 
     tenet_exalted_heroism_desc:0 "Our faith reveres the heroes of our land, those who saved us in times of peril and those who led us to glory. The Ages of Heroes is unending, and the faithful willingly face countless challenges and hardships to emulate the heroes of old - in hope to be the heroes of tomorrow."
+    doctrine_parameter_new_saints:0 "Upon reaching the [prestige_level|E] of [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L] and the [piety_level|E] of [GetModifier( 'piety_level_5' ).GetNameWithTooltip|L], characters gain the [GetTrait('saint').GetName(GetNullCharacter)] trait"
+    doctrine_parameter_virtues_sins_decided_saints:0 "[virtues|E] and [sins|E] can be modified by new Saints\n#weak Upon ascending, the new Saint chooses one of their [personality_trait|E] to become a new [virtue|E], or the opposite of one of their [personality_trait|E] to become a [sin|E]. The same trait cannot be chosen by two different Saints.#!"
+    new_saint_change_virtue_sin:0 "As a new Saint you will have the opportunity to change a [virtue|E] or [sin|E] of your [faith|E]"
+    # Previously
     doctrine_parameter_prestige_lvl_5_piety_lvl_5_new_saint:0 "Upon reaching the [prestige_level|E] of [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L] and the [piety_level|E] of [GetModifier( 'piety_level_5' ).GetNameWithTooltip|L], characters can ascend and become a new [patron_deity|E]\n#weak The bonuses given by selecting this new Patron Deity are chosen by the ascending character#!"
     doctrine_parameter_virtues_sins_decided_patron_deities:0 "[virtues|E] and [sins|E] are tied to the [patron_deities|E]\n#weak Upon ascending, the new Patron Deity chooses one of their [personality_trait|E] to become a ne [virtue|E], or the opposite of one of their [personality_trait|E] to become a [sin|E]. The same trait cannot be chosen by two different ascending characters.#!"
   
@@ -1886,7 +1891,7 @@ doctrine_sp_kj_dragon_desc: ""
     tenet_amberhist_desc:0 "Amber Plasm is a substance leaked by some Hist trees, and is believed to be a form of 'chaotic creatia' from Oblivion. When harnessed properly it can grant those who consume it improved strength and reflexes, though excessive usage often results in insanity and glowing orange patches over the skin."
  
  tenet_all_maker_sacred_rituals_name:0 "Ristaag and Ritual of Gifts"
-    tenet_all_maker_sacred_rituals_desc:0 "When the land and our people are in need, we have to ways to reinforce our bound to the All-Maker.\nThe Ristaag is a great hunt to cleanse, bless the land, and show our gratitute towards the All-Maker.\nThe Ritual of Gifts is a sacred pilgrimage to restore the Oneness of the land.\n\nBoth restore peace in Solstheim, in their own way."
+    tenet_all_maker_sacred_rituals_desc:0 "When the land and our people are in need, we have ways to reinforce our bound to the All-Maker.\nThe Ristaag is a great hunt to cleanse, bless the land, and show our gratitute towards the All-Maker." #EK TODO \nThe Ritual of Gifts is a sacred pilgrimage to restore the Oneness of the land.\n\nBoth restore peace in Solstheim, in their own way.
     doctrine_parameter_allows_ristaag_decision_active:0 "Enables the '$start_ristaag_decision$' [decision|E]"
     doctrine_parameter_allows_ritual_of_the_gifts_decision_active:0 "Enables the '$start_ritual_of_the_gifts_decision$' [decision|E]"
     
