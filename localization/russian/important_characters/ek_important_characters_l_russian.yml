@@ -10,9 +10,9 @@
  #Attrebus
  imp_char_sosildor_100:0 ""
  imp_char_sosildor_100_desc:0 "[SelectLocalization( $imp_char_2E440_check$, 'imp_char_sosildor_100_desc_450', 'imp_char_sosildor_100_desc_440' )]" #use current yesr - gametime, careful with months
- #imp_char_sosildor_100_desc_440:0 "Attrebus Sosildor has succeeded in uniting the Colovian kingdoms under the Colovian Estates and now stands as Cyrodiil's protector.\n\nMost Nibenese, however, remain loyal to the Tsaesci, fearful of losing their influence over the Heartlands."
+ #imp_char_sosildor_100_desc_440:0 "Аттребус Сосильдор сумел объединить Коловианские королевства под властью Коловианского государства и теперь является защитником Сиродила.\n\nБольшинство нибенейцев, однако, остаются верными цаэски, боясь потерять свое влияние на Средиземье."
  imp_char_sosildor_100_desc_440:0 "$bm_warlordrising_attrebus_desc$"
- imp_char_sosildor_100_desc_450:0 "Attrebus Sosildor defeated the Potentate and established his own rule over the Imperial Isle. His plans for Cyrodiil did not please the Nibenese nobility, who saw their position in the Heartlands threatened.\n\nThus it is hardly surprising that the rulers of the Niben Valley rose up against Attrebus. The war that broke out shattered Cyrodiil and resulted in Attrebus's death."
+ imp_char_sosildor_100_desc_450:0 "Аттребус Сосильдор победил Потентата и установил свое собственное правление на Имперском острове. Его планы относительно Cиродила не понравились нибенейской знати, которая увидела угрозу своему положению в Средиземье.\n\nПоэтому неудивительно, что правители Нибенейской долины восстали против Аттребуса. Начавшаяся война разрушила Сиродил и привела к смерти Аттребуса."
 
  imp_char_chorak_101:0 ""
  imp_char_chorak_101_desc:0 "$bm_warlordrising_aixnieras_ves_desc$"
@@ -173,43 +173,43 @@
  
  #Alessia
  imp_char_alessian_100:0 ""
- imp_char_alessian_100_desc:0 "Alessia led the large scale slave revolt against the Ayleids that would result in the formation of the First Empire.\n\nUpon assuming her place as empress, she established a new faith fusing elements of Nordic and Aldmeri religion.\n\nAkatosh blessed Alessia and her lineage with Dragonblood and the Amulet of Kings as part of their covenant: so long as her line ruled the Empire in his name, Akatosh would maintain the barrier between Nirn and Oblivion." #dont know about AoK being given by aka, or originating from ayleids. going with the gem existed before with ayleids as whitegold's stone, akatosh responsible for the actual amulet and its properties
+ imp_char_alessian_100_desc:0 "Алессия возглавила масштабное восстание рабов против айлейдов, которое привело к образованию Первой Империи.\n\nПосле вступления в должность императрицы она основала новую веру, сочетающую элементы нордской и альтмерской религии.\n\nАкатош благословил Алессию и ее род Кровью Дракона и Амулетом Королей, как часть их договора: пока ее род правит Империей от его имени, Акатош будет поддерживать барьер между Нирном и Обливионом." #dont know about AoK being given by aka, or originating from ayleids. going with the gem existed before with ayleids as whitegold's stone, akatosh responsible for the actual amulet and its properties
 
  #Reman
  imp_char_reman_100:0 ""
- imp_char_reman_100_desc:0 "Though more likely the son of a sheperdess and local lord, Reman was alleged to have been born from the union of King Hrol and Alessia's spirit.\n\nDuring the Akaviri invasion of the late First Era Reman lead a unified Cyrodiil against the invaders, culminating in the battle of Pale Pass. It is said that upon hearing his voice the Tsaesci knelt and proclaimed him to be Dragonborn.\n\nThough he would never take the title in his lifetime, Reman would go on to conquer much of Tamriel and found the Second Empire."
+ imp_char_reman_100_desc:0 "Хотя более вероятно, что Реман был сыном пастушки и местного лорда, утверждалось, что он родился от союза короля Хрола и духа Алессии.\n\nВо время вторжения Акавира в конце Первой Эры Реман возглавил объединенный Сиродил против захватчиков, кульминацией чего стала битва на Белом Перевале. Говорят, что, услышав его голос, Цаэски преклонили колени и провозгласили его Драконорожденным.\n\nХотя он так и не получил этот титул при жизни, Реман завоевал большую часть Тамриэля и основал Вторую Империю."
 
  #Reman III
  imp_char_reman_104:0 ""
- imp_char_reman_104_desc:0 "Third of his name and last of his dynasty, Reman III assumed the throne in 1E 2877, around the halfway point of the Four-Score War with Morrowind. His martial prowess was never in doubt as a talented dragon-hunter. Bestowed with the same gift for war was his son Crown Prince Juilek whose poliorcetics at last ended the Morrowind quagmire.\n\nGalvanized by a victory three generations in the making, Reman III stayed oblivious to the machinations of his Potentate, Versidue-Shaie. He wiped out the entire Imperial family and signed the Cervant Truce with the Tribunal in 1E 2920, a guaranty of Morrowind independence that would endure until the fall of the Potentate."
+ imp_char_reman_104_desc:0 "Третий из своей семьи и последний из династии, Реман III вступил на престол в 1E 2877, примерно на полпути Войны Четырёх Счетов с Морровиндом. Его воинское мастерство никогда не вызывало сомнений, ведь он был талантливым охотником на драконов. Таким же военным даром был наделен и его сын, наследный принц Джуйлек, чьи политически корректные действия наконец-то положили конец войне с Морровиндом.\n\nРеман III, окрыленный победой, к которой шли три поколения, не обращал внимания на махинации своего Потентата, Версидью-Шайе. Он уничтожил всю императорскую семью и подписал Сервантское перемирие с Трибуналом в 1E 2920, гарантию независимости Морровинда, которая будет действовать до падения Потентата."
  
  #Mannimarco
  imp_char_mannimarco_1000:0 ""
- imp_char_mannimarco_1000_desc:0 "Mannimarco, the King of Worms, once a member of the Psijic Monks, now banished from the Island of Artaeum, many will fear his name in time."
+ imp_char_mannimarco_1000_desc:0 "Маннимарко, король Червей, некогда член ордена Псиджиков, ныне изгнанный с острова Артейум, многие со временем будут бояться его имени."
  
  #Vanus Galerion
  imp_char_galerion_100:0 ""
- imp_char_galerion_100_desc:0 "Vanus Galerion, born Trechtus, known as the Mystic and the Great Mage, was a member of the Psijic Monks and is the founder of the Mages' Guild."
+ imp_char_galerion_100_desc:0 "Ванус Галерион, урожденный Тректус, известный как Мистик и Великий Маг, был членом ордена Псиджиков и является основателем Гильдии магов."
 
  #Indoril Nerevar
  imp_char_mora_109:0 ""
- imp_char_mora_109_desc:0 "Serjo Indoril Nerevar Mora, was the Chimer King of Resdayn. As the Hortator and Great Ashkhan, of a united Chimer people, he forged an alliance with the Dwemer, uniting all the people of Resdayn for the first time. The alliance eventually broke down, leading to the War of the First Council. At the climactic Battle of Red Mountain, Nerevar led the Chimer to victory, though he died shortly after the battle under disputed circumstances." #Plagiarized from UESP lol someone write something better thx - delta
+ imp_char_mora_109_desc:0 "Серджо Индорил Неревар Мора был каймерским королем Ресдайна. Как Наставник и Великий Ашхан объединенного народа каймеров, он заключил союз с двемерами, впервые объединив всех жителей Ресдайна. В конце концов союз распался, что привело к Войне Первого Совета. В кульминационной битве у Красной горы Неревар привел каймеров к победе, хотя вскоре после битвы умер при странных обстоятельствах." #Plagiarized from UESP lol someone write something better thx - delta
 
  #Almalexia
  imp_char_indoril_100:0 ""
- imp_char_indoril_100_desc:0 "Alma Laesa, Ayem and later, as a Godess of the Dunmer people, Almalexia, was in her mortal life a Daughter of House Indoril, a Ruler in her own right, and the wife of Nerevar and one of his close advisors, following his death she and two other of his Companions would ascend to Godhood forming the ALMSIVI Tribunal."
+ imp_char_indoril_100_desc:0 "Альма Лаеса, Айем и позже, как богиня народа данмеров, Альмалексия, в своей земной жизни была дочерью Дома Индорил, самостоятельной правительницей, женой Неревара и одним из его близких советников, после его смерти она и еще двое его соратников вознеслись к божественности, образовав Трибунал Альмсиви."
  
  #Sotha Sil
  imp_char_sotha_100:0 ""
- imp_char_sotha_100_desc:0 "Seht of House Sotha was the only survivor of an attack by the Daedric Lord Mehrunes Dagon that killed his entire family including his mother and sister. He would eventually become a close Companion of the Chimer King Indoril Nerevar and was present during the War of the First Council. He would ascend to Godhood as one of the Three members of the ALMSIVI Tribunal under the name Sotha Sil."
+ imp_char_sotha_100_desc:0 "Сет из дома Сота был единственным выжившим после нападения даэдрического лорда Мерунеса Дагона, в результате которого погибла вся его семья, включая мать и сестру. Со временем он стал близким соратником каймерского короля Индорила Неревара и присутствовал во время Войны Первого Совета. Он вознесется к божественности как один из трех членов Трибунала Альмсиви под именем Сота Сила."
 
  #Vivec
  imp_char_vehk_100:0 ""
- imp_char_vehk_100_desc:0 "The early life of the Man that would become the Tribunal God Vivec is shrouded in mystery. His own words just as trustworthy as legends and myth. What is known is that Vehk was a close advisor and companion to the Chimer King Indoril Nerevar and that he eventually would ascend to Godhood as one of the Three members of the ALMSIVI Tribunal following the Battle of Red Mountain."
+ imp_char_vehk_100_desc:0 "Жизнь человека, который стал богом Трибунала, Вивека, окутана тайной. Его слова заслуживают такого же доверия, как легенды и мифы. Известно лишь то, что Вивек был близким советником и спутником каймерского короля Индорила Неревара и что в конце концов после битвы при Красной горе он стал одним из трех членов Трибунала Альмсиви."
  
  #Dumac Dwarf-Orc
  imp_char_duamaka_100:0 ""
- imp_char_duamaka_100_desc:0 "Dumac Dwarf-Orc also known as Dumac Dwarfking, the King of Red Mountain, was the Last King of the Dwemer, and once close friend of Indoril Nerevar. With whom he forged a Alliance and Great Friendship with. Even atending Nerevar's Wedding. Their friendship and the Peace between their people however would not last and after the War of the First Council broke out he was eventually slain during the Battle of Red Mountain. Shortly before his people's disappearance."
+ imp_char_duamaka_100_desc:0 "Думак Гноморк, также известный как Думак Король-гном, Король Красной Горы, был последним королем двемеров и некогда близким другом Индорила Неревара. С которым он заключил союз и поддерживал хорошие отношения. Он даже присутствовал на свадьбе Неревара. Однако их дружба и мир между их народами не продлились долго, и после начала Войны Первого Совета он был убит в битве у Красной горы. Незадолго до исчезновения его народа."
 
  #Mane Rid-Thar-ri'Datta
  imp_char_mane_001:0 ""

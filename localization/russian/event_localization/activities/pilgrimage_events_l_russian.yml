@@ -124,26 +124,26 @@
  pilgrimage.2011.c:0 "Скажи мне, какое это имеет отношение к [ROOT.Char.GetFaith.HighGodName]?"
  pilgrimage.2011.c.tt:0 "Вы вступаете в спор с мистиком."
  
- pilgrimage.2012.desc:0 "I cannot quite recall what happened after I entered the mystic tent. All I can remember is vague images and a sense of wooziness.\n\nNow I ask myself whether [mystic.GetSheHe] was ever here at all..."
- pilgrimage.2012.a:0 "[mystic.GetSheHe|U] had a lot of strange ideas."
+ pilgrimage.2012.desc:0 "Я не могу точно вспомнить, что произошло после того, как я вошел в мистическую палатку. Все, что я могу вспомнить, - это смутные образы и головокружение.\n\nТеперь я задаюсь вопросом, а был ли [mystic.GetSheHe] здесь вообще..."
+ pilgrimage.2012.a:0 "[mystic.GetSheHe|U] имел много странных идей."
 
- pilgrimage.2013.desc:0 "After following [mystic.GetTitledFirstNamePossessive] instructions, I can see it all much more clearly. I can #EMP feel#! it. [ROOT.Char.GetFaith.PantheonTerm|U], the world, it has all been coursing through my body. Through my soul.\n\nWhen I emerge from the tent hours later, I have a new understanding of myself, and of life."
- pilgrimage.2013.a:0 "I was blind before, and now I see."
+ pilgrimage.2013.desc:0 "После следования инструкций [mystic.GetTitledFirstNamePossessive], Я вижу все гораздо яснее. Я #EMP чувствую#! это. [ROOT.Char.GetFaith.PantheonTerm|U], мир, все это проходило через мое тело. Через душу.\n\nКогда я вышел из палатки через несколько часов, у меня появляется новое понимание себя и всей жизни."
+ pilgrimage.2013.a:0 "я был слеп, а теперь вижу."
 
- pilgrimage.2014.desc:0 "When I wake up from falling asleep in [mystic.GetTitledFirstNamePossessive] tent, the tent itself is gone. My servants are rousing me from the mat I fell asleep on, but there is no other trace of the mystic.\n\nAt least the sleep was invigorating!"
- pilgrimage.2014.a:0 "Why does my pouch feel curiously light?"
+ pilgrimage.2014.desc:0 "Когда я очнулся после того, как уснул в [mystic.GetTitledFirstNamePossessive] палатке, она исчезла. Мои слуги кружились вокруг коврика, на котором я спал, но здесь не было и следа этого мистика.\n\nЯ хотя бы выспался!"
+ pilgrimage.2014.a:0 "Почему моя сумка кажется удивительно легкой?"
 
- pilgrimage.2015.desc:0 "I'll be honest, I never expected [mystic.GetTitledFirstName] to be able to answer for [mystic.GetHerHis] strange practices as well as [mystic.GetSheHe] did.\n\nI am still suspicious of... whatever it is [mystic.GetSheHe] is up to, but I have certainly gotten some fresh perspectives to consider!"
- pilgrimage.2015.a:0 "How #EMP can#! you get closer to [ROOT.Char.GetFaith.PantheonTerm]?"
+ pilgrimage.2015.desc:0 "Честно, никогда не ожидал [mystic.GetTitledFirstName], чтобы ответить за [mystic.GetHerHis] странные практики также, как и [mystic.GetSheHe].\n\nЯ все еще с подозрением смотрю на... что бы [mystic.GetSheHe] он ни замышлял, но у меня появилсь новые идеи для рассмотрения!"
+ pilgrimage.2015.a:0 "Как ты #EMP можешь#! стать ближе к [ROOT.Char.GetFaith.PantheonTerm]?"
 
- pilgrimage.2101.t:0 "$pilgrimage_header$ A Desire for Intimacy"
- pilgrimage.2101.desc:0 "How long has it been since I last felt the warmth of another person against my skin? This pilgrimage has taken me far away from my home, as well as my comforts.\n\nOh, how I yearn for the desires of flesh, for a lover's embrace and their screams of pleasures as we guide each other to reach a climatic ecstasy. These fantasies won't stop flooding my mind, and I feel myself tempted to give in to my desires so that I can focus."
- pilgrimage.2101.desc.lust_vice:0 "\n\n[ROOT.Char.GetFaith.HighGodName], I know this feeling is sin! Why must you test me so harshly? Is my pilgrimage not enough to prove my devotion?"
- pilgrimage.2101.desc.lust_virtue:0 "\n\nSurely this must be part of [ROOT.Char.GetFaith.HighGodNamePossessive] trials! Can I remain virtuous without falling victim to possible enemies of the faith while on pilgrimage?"
- pilgrimage.2101.desc.lust_neutral:0 "This niggling feeling is an annoyance I must rid myself of! But of course, it's not without risk. These are different lands than my home, and I may be taken advantage of in this moment of weakness."
- pilgrimage.2101.a:0 "Just one night of comfort..."
- pilgrimage.2101.b:0 "Why limit myself to one brothel? Let's visit as many as we can!"
- pilgrimage.2101.c:0 "I must stay strong and focus on my pilgrimage!"
+ pilgrimage.2101.t:0 "$pilgrimage_header$ Жажда близости"
+ pilgrimage.2101.desc:0 "Как долго я не чувствовал тепла чужого тела? Это паломничество увело меня далеко от моего дома, а также от моих удобств.\n\nКак я тоскую по желаниям плоти, по объятиям любовниц и их крикам наслаждения, когда мы направляем друг друга к достижению экстаза. Эти фантазии не перестают заполнять мой разум, и я чувствую искушение уступить своим желаниям, чтобы я мог сосредоточиться."
+ pilgrimage.2101.desc.lust_vice:0 "\n\n[ROOT.Char.GetFaith.HighGodName], я знаю, что это грех! Почему ты так сурово испытываешь меня? Разве моего паломничества недостаточно, чтобы доказать мою преданность?"
+ pilgrimage.2101.desc.lust_virtue:0 "\n\nОпределенно, это часть испытаний от [ROOT.Char.GetFaith.HighGodNamePossessive]! Могу ли я оставаться добродетельным, не становясь жертвой возможных врагов веры во время паломничества?"
+ pilgrimage.2101.desc.lust_neutral:0 "Это неприятное чувство досады, от которого я должен избавиться! Но это не лишено риска. Это чужие земли, не мой дом, и мной могут воспользоваться в этот момент слабости".
+ pilgrimage.2101.a:0 "Только одну ночь..."
+ pilgrimage.2101.b:0 "Зачем ограничивать себя одним борделем? Давайте посетим столько, сколько сможем!"
+ pilgrimage.2101.c:0 "Я должен пересилить себя и продолжать паломничество!"
 
  # 'Temptation/Virtue' Journey Events
  pilgrimage.2501.t:0 "$pilgrimage_header$ Wretched Pauper"
