@@ -3,33 +3,33 @@
  ############################
  #      ATTREBUS VICTORY    #
  ############################
- attrebus_change_amount_pseudo_emperor_years_ec_immediate_action_ct:0 "#N #bold The Elder Council will immediately try to remove you from power!#!#!"
+ attrebus_change_amount_pseudo_emperor_years_ec_immediate_action_ct:0 "#N #bold Совет Старейшин немедленно попытается отстранить вас от власти!#!#!"
  
- ek_attrebus_potentate.0001.t:0 "[attrebus.GetFirstName] triumphant!"
- ek_attrebus_potentate.0001.desc:0 "When you first raised soldiers in the Colovian lands, nobody expected your rebellion to succeed. But as you army grew, so did your support among the nobility, and soon even the Elder Council backed your claim. The war between your forces and the Akaviri Potentate shook Cyrodiil for years, and now the last remnants of the Akaviri invasion have been forced out of power in the Imperial province!\n\nAs you and your forces held a parade through the Imperial City, the people erupted in joy and celebrations, happy to be finally free from the tyrannical Akaviri Potentate.\n\nYou have been invited in the Elder Council chambers, and they voted unanimously to grant you emergency powers until the situation in Cyrodiil is more stable."
- attrebus_potentate_cb_victory_zenas_allies_deal_ct:0 "[current_zenas_ally.GetFirstName] receives all the land held by the former Potentate within all the [de_jure|E] Duchies [current_zenas_ally.GetSheHe] currently holds land in"
- attrebus_potentate_cb_victory_first_legion_disbanded_ct:0 "Due to them joining the Potentate, the First Legion is disbanded and its members scattered.\nThe Legionary Council will be de facto disbanded, as they have no Legion left to command."
- ek_attrebus_potentate.0001.a:0 "I will lead Cyrodiil until it can lead itself."
- attrebus_temporary_potentate_tooltip:0 "The Elder Council has granted you vast powers over the land previously held by the Potentate. You can use these powers to further your own interests and those of the Elder Council via the [required_tasks|E] and [optional_tasks|E] at your disposal.\nYour progress can be tracked with the #V $attrebus_interregnum_decision$#! decision.\n#N Your time is limited, the Elder Council will one day want their power back.#!\n#N Should you die before stepping down, the Elder Council will seize power along the Imperial Isle, and most of your former vassals will become free.#!"
+ ek_attrebus_potentate.0001.t:0 "[attrebus.GetFirstName] празднует триумф!"
+ ek_attrebus_potentate.0001.desc:0 "Когда вы собрали свои первые войска на коловианских землях, то никто не ожидал, что ваше восстание увенчается успехом. Впрочем, по мере того, как росла ваша армия, росла и ваша поддержка среди знати, так что вскоре даже Совет Старейшин поддержал вас. Война между вами и Акавирским Потентатом сотрясала Сиродил годами, но ныне последние из акавирских захватчиков лишились власти в Имперской провинции!\n\nКогда вы и ваши войска шли парадом через Имперский Город, жители взорвались радостью и ликованием, счастливые наконец-то освободиться от тирании Акавирского Потентата.\n\nВы были приглашены в зал Совета Старейшин, где они единогласно проголосовали за предоставление вам чрезвычайных полномочий до тех пор, пока ситуация в Сиродиле не стабилизируется."
+ attrebus_potentate_cb_victory_zenas_allies_deal_ct:0 "[current_zenas_ally.GetFirstName] получает все земли, принадлежавшие бывшему потентату, во всех [de_jure|E] герцогствах, которые [current_zenas_ally.GetSheHe] сейчас удерживает"
+ attrebus_potentate_cb_victory_first_legion_disbanded_ct:0 "Первый Легион встал на сторону Потентата, вследствие чего будет расформирован, а его члены рассеяны.\nТа же судьба постигнет и легионный совет, так как у них больше нет легиона, которым они могли бы командовать."
+ ek_attrebus_potentate.0001.a:0 "Я буду руководить Сиродилом до тех пор, пока он сам не сможет управлять собой."
+ attrebus_temporary_potentate_tooltip:0 "Совет Старейшин предоставил вам огромную власть над землями, ранее принадлежавшими Потентату. Вы можете использовать эти полномочия для достижения своих собственных целей и для удовлетворения интересов Совета Старейшин, с помощью тех [required_tasks|E] и [Optional_tasks|E], которые вам доступны. \nСвой прогресс вы можете отследить с помощью данных решений - #V $attrebus_interregnum_decision$#!.\n#N Ваше время ограничено, однажды Совет Старейшин захочет вернуть свою власть обратно.#!\n#N Если вы умрёте до того, как уйдёте в отставку, то Совет Старейшин захватит власть над Имперским Островом, а большинство ваших бывших вассалов станут независимыми правителями.#!"
  
- ek_attrebus_potentate.0002.desc:0 "Cyrodiil is in shock! The Warlord [attrebus.GetFirstName], a zealot bent on destroying the Akaviri Potentate, seized the Imperial City and with it the crown of Cyrodiil!\n\nWhile it is said that the Elder Council should soon get in power, and become the ruling body of the Imperial Isles along with it most of the province, the young Warlord will still stay in control for a few years, to deal with the aftermath of the war...\n\nThe Warlord's hatred for the Akaviri is known by everyone, and some whisper that [attrebus.GetFirstName] might use this time to further his own ambitions..."
- ek_attrebus_potentate.0002.a:0 "What fate awaits the rest of Cyrodiil?"
+ ek_attrebus_potentate.0002.desc:0 "Сиродил в шоке! Полководец [attrebus.GetFirstName], фанатик, стремящийся уничтожить Акавирский Потентат, захватил Имперский Город, а вместе с ним и корону Сиродила!\n\nКак было объявлено, скоро к власти должен прийти Совет Старейшин, установив своё правление над Имперским Островом и большей частью провинции. Но пока молодой военачальник ещё на несколько лет останется у власти, чтобы справиться с последствиями войны...\n\nНенависть полководца к акавирцам общеизвестна, и ходят слухи, что [attrebus.GetFirstName] может использовать это время для реализации собственных амбиций..."
+ ek_attrebus_potentate.0002.a:0 "Какая же судьба ожидает остальную часть Сиродила?"
  
- ek_attrebus_potentate.0003.t:0 "The Tsaesci of Cyrodiil"
- ek_attrebus_potentate.0003.desc:0 "Now that the Potentate has been defeated, an urgent matter has to be dealt with. It is of no secret that the Potentate installed some of [potentate.GetHerHis] supporters as rulers in Cyrodiil, and some of the land is still under Akaviri rule.\n\n"
- ek_attrebus_potentate.0003.desc.potentate_executed:0 "With the Potentate executed, many of these lords fear for their life, and some are even ready to share a similar fate..."
- ek_attrebus_potentate.0003.desc.potentate_imprisoned:0 "Having their former Potentate in prison, these lords wait for your decision."
- ek_attrebus_potentate.0003.desc.potentate_banished:0 "It seems some of these lords are expecting to share a similar fate as their Potentate, and have arranged for quick transportation of their family and retinue to an other province."
- ek_attrebus_potentate.0003.desc.potentate_dead:0 "With the former Potentate dead, it seems the Akaviri lords do not know what to expect from you..."
- ek_attrebus_potentate.0003.a:0 "They will leave Cyrodiil, lest they wish to share a similar fate as [potentate.GetFirstName]!"
- tsaesci_rulers_leave_criminal_tooltip:0 "All Tsaesci rulers in Cyrodiil will have a choice:\nLeave the province in exile, or be branded as criminals.\n *Direct vassals are #G very likely#! to leave\n *Indirect vassals will #G probably#! leave\n *Independent rulers or vassals of another realm will #R probably#! stay"
- tsaesci_rulers_leave_development_culture_convert_tooltip:0 "Any Tsaesci county will suffer a loss of [development|E], but will be easier to convert culturally"
- tsaesci_rulers_leave_future_counties_ban_tooltip:0 "Any future counties you hold with a significant Tsaesci population will see the Akaviri driven out"
- tsaesci_rulers_leave_elder_council_tooltip:0 "The Elder Council is worried about the economical impact of such a rash action"
- ek_attrebus_potentate.0003.b:0 "They will kneel before me!"
- remove_all_special_contract_tooltip:0 "Any special feudal right will be receded"
- ek_attrebus_potentate.0003.c:0 "The Potentate was the enemy. Not them."
- tsaesci_rulers_reform_potentate_tooltip:0 "Ambitious Tsaesci rulers might try to reform the Potentate..."
+ ek_attrebus_potentate.0003.t:0 "Сиродильские цаэски"
+ ek_attrebus_potentate.0003.desc:0 "Теперь, когда Потентат побеждён, требуется срочно решить одно неотложное дело. Ни для кого не секрет, что Потентат назначал некоторых своих сторонников своими ставленниками в различные уголки Сиродила, и часть земель всё ещё находится под властью акавирцев.\n\n"
+ ek_attrebus_potentate.0003.desc.potentate_executed:0 "После казни потентата многие из этих лордов опасаются за свою жизнь, а некоторые даже готовы разделить судьбу своего господина..."
+ ek_attrebus_potentate.0003.desc.potentate_imprisoned:0 "Видя своего бывшего потентата пленённым, эти лорды ожидают вашего решения."
+ ek_attrebus_potentate.0003.desc.potentate_banished:0 "Похоже, некоторые из этих лордов ожидают, что их постигнет та же участь, что и их потентата, поэтому они быстро организовали перевозку своих семей и свиты в другую провинцию."
+ ek_attrebus_potentate.0003.desc.potentate_dead:0 "Со смертью бывшего потентата, похоже, акавирские лорды не знают, чего ожидать от вас..."
+ ek_attrebus_potentate.0003.a:0 "Пусть они покинут Сиродил, если не хотят, чтобы их действительно постигла участь их потентата!"
+ tsaesci_rulers_leave_criminal_tooltip:0 "Все правители-цаэски в Сиродиле поставлены перед выбором:\nПокинуть провинцию, отправившись в изгнание, или быть заклеймёнными как преступники.\n *Прямые вассалы #G с большой вероятностью#! уйдут\n *Непрямые вассалы #G вероятно#! уйдут\n *Независимые правители или чужие вассалы #R вероятно#! останутся"
+ tsaesci_rulers_leave_development_culture_convert_tooltip:0 "Любое графство, где большинство населения составляют цаэски, потеряет [development|E], но его будет легче культурно ассимилировать"
+ tsaesci_rulers_leave_future_counties_ban_tooltip:0 "В будущем, из любого графства, которое будет удерживаться вами, и где большинство населения будут составлять цаэски, акавирцы будут изгнаны."
+ tsaesci_rulers_leave_elder_council_tooltip:0 "Совет Старейшин обеспокоен экономическими последствиями таких опрометчивых действий."
+ ek_attrebus_potentate.0003.b:0 "Они преклонят предо мною колени!"
+ remove_all_special_contract_tooltip:0 "Любые особые феодальные права будут отменены"
+ ek_attrebus_potentate.0003.c:0 "Потентат был врагом. Не они."
+ tsaesci_rulers_reform_potentate_tooltip:0 "Амбициозные правители-цаэски могут попытаться реформировать Потентат..."
  
  ek_attrebus_potentate.0004.desc.tsaesci_exile:0 "It seems that the wrath of [attrebus.GetName] was not to be extinguished after the victory over the Potentate. The Warlord has ordered every Tsaesci ruler to leave the Imperial Province at one, lest they be branded as traitors and criminals!"
  ek_attrebus_potentate.0004.desc.tsaesci_kneel:0 "As the war against the Potentate ends, the your Warlord [attrebus.GetFirstName] summoned every Tsaesci vassal in Cyrodiil! Many were anxious about what would happen next, and some were reported to breathe a sign of relief when [attrebus.GetFirstName] ordered them to kneel before the Ruby Throne, and give up many of their former privileges.\n\nThey are now expected to contribute significantly more to the rulers of Cyrodiil."
@@ -45,7 +45,7 @@
  ek_attrebus_potentate.0004.f:0 "It could have been worse..."
  ek_attrebus_potentate.0004.g:0 "Let us put all of this behind us."
  
- ek_attrebus_potentate.0005.t:0 "The Land of a Thousand Faiths"
+ ek_attrebus_potentate.0005.t:0 "Земля тысячи религий"
  ek_attrebus_potentate.0005.desc:0 "Among the numerous crimes of the Potentate, perhaps their most severe was their utmost disrespect for the Divines, going as far as to close the Temple of the One and regularly tour in the Temple District, irregarding the religious importance of this part of the Imperial City.\n\nOne of the first concerns brought by one of our religious leaders, [traditionalist_priest.GetFirstName], is to open up the Temple District to religious processions once again, and the holding of a great ceremony in the Temple of the One.\n\n[militant_priest.GetFirstName], on the other hand, proposes that this district be restructured primarly for the housing of a newly created militant order, a new arm of our faith that would defend the Imperial City, and all the faithful, from other snakes and heathens."
  ek_attrebus_potentate.0005.a:0 "Our faith has to be armed!"
  attrebus_leases_temple_district_transform_td_not_existing:0 "The [temple_district.GetName] will be rebuilt into a Castle holding, and serve as the base of a newly found Holy Order"
@@ -64,14 +64,14 @@
  former_potentate_vassals_hook_tooltip:0 "You will get a [hook|E] on all the former vassals of the Potentate"
  ek_attrebus_potentate.0007.c:0 "The Potentate has been destroyed. We have nothing to fear from them."
  
- ek_attrebus_potentate.0009.t:0 "A Debt to the Elder Council"
+ ek_attrebus_potentate.0009.t:0 "Долг Совету Старейшин"
  ek_attrebus_potentate.0009.desc:0 "It is no secret that our war against the Potentate could not have been won without the backing of the Elder Council. While they did not have the power to raise armies, most of the members supported us financially, and most of our troops have been recruited, outfitted, and paid thanks to the Elder Council.\n\nA delegation from the Elder Council arrived today, expecting the repayment of some of their expenses.\n\nWhile angering the Elder Council could be dangerous, the price they are asking for might be too high to be repaid..."
  ek_attrebus_potentate.0009.a:0 "I will personally repay them."
  ek_attrebus_potentate.0009.b:0 "Raise the taxes in Cyrodiil."
  ek_attrebus_potentate.0009.c:0 "Being free from the Potentate should be enough!"
  attrebus_anger_elder_council:0 "This will #R anger#! the Elder Council. Unless you wish for a direct confrontation with them, it would be wise to repay them..."
  
- ek_attrebus_potentate.0051.t:0 "Peace and Prosperity"
+ ek_attrebus_potentate.0051.t:0 "Мир и процветание"
  ek_attrebus_potentate.0051.desc_intro:0 "Years ago, I fought and defeated the Akaviri Potentate, the last remnants of Tsaesci oppression over Cyrodiil. Ever since, the Elder Council has allowed me to rule in their stead, as Cyrodiil needed to be guided and protected from our enemies, both inside and outside."
  ek_attrebus_potentate.0051.desc_duties_fulfilled:0 "\n\nMy duties have now been fulfilled, and it is time for me to step down, and allow the Elder Council to lead Tamriel until a Dragonborn Emperor can be found."
  ek_attrebus_potentate.0051.desc_duties_unfulfilled:0 "\n\nDespite the powers granted to me by the Elder Council, it seems I have failed to satisfy them. They ran out of patience, and they have officially decided to take back the powers I was granted, claiming the Imperial Isle and the Heartlands in general as their own.\n\nI have no choice but to leave the Imperial City to the new High Chancellor, a bitter taste in my mouth."
@@ -85,12 +85,12 @@
  interregnum_starts_tooltip:0 "The Interregnum has now begun, and will last until someone worthy sits on the Ruby Throne, and unites Tamriel...\n(Whoever holds the Empire of Cyrodiil gains access to a form the Empire of Tamriel decision.)"
  interregnum_loses_lingua_tamrielis:0 "Every culture within the Cyrodiilic group loses access to the Lingua Tamrielis innovation."
  
- ek_attrebus_potentate.0052.t:0 "The Interregnum"
+ ek_attrebus_potentate.0052.t:0 "Междуцарствие"
  ek_attrebus_potentate.0052.desc:0 "For centuries Cyrodiil and most of Tamriel was ruled by the Reman dynasty, and then the Potentate. Over the last few decades, the authority of the Imperial Province over the other regions of Tamriel diminished, until the Potentates could only claim dominion over parts of Cyrodiil.\n\nAs the Potentate finally crumbled and fell, a power vacuum in Cyrodiil appeared, quickly filled by the Elder Council who assumed control over the Imperial City and its surrounding area.\n\nThis new power, claiming legitimacy through the powers given to its council by the Alessian and Reman lines, took the name of 'Imperial Commune'.\n\nAll over the world central authorities crumble, and the people look to their nearby lord for protection. The Interregnum has officially started."
  ek_attrebus_potentate.0052.a:0 "An interesting development."
  ek_attrebus_potentate.0052.b:0 "I missed the part where that's my problem."
  
- ek_attrebus_potentate.0053.t:0 "The Fate of Cyrodiil"
+ ek_attrebus_potentate.0053.t:0 "Судьба Сиродила"
  ek_attrebus_potentate.0053.desc:0 "While the Elder Council still trusts me to fulfill my mission, I sometimes feel like it is far too much for a single man. Overseeing Cyrodiil and having to shape it while having to follow the Elder Council's orders is a burden that might be too much to bear...\n\nPerhaps I should summon the Elder Council one last time, and hand them back the powers they have given to me?\n\nOr maybe..."
  ek_attrebus_potentate.0053.a:0 "I still need more time. The Elder Council will wait."
  attrebus_interregnum_decision_more_time_required_tt:0 "You still have a few years left to complete the Elder Council mission and shape Cyrodiil."
@@ -121,9 +121,9 @@
  ek_attrebus_potentate.0061.desc:0 "WIP"
  ek_attrebus_potentate.0061.a:0 "Interesting."
  
- ek_attrebus_potentate.0062.t:0 "A Debt Repayed"
+ ek_attrebus_potentate.0062.t:0 "Долг выплачен"
  ek_attrebus_potentate.0062.desc:0 "For years leading up to the war and when it started, the generosity of the Elder Council was one of the main driving force of the rebellion.\nWhile their open support could not be expected once the fighting started, it is nonentheless thanks to the Elder Council financial backing that the Potentate could be toppled.\nAnd the Elder Council expects to be paid back.\n\nThankfully, you have sent the last shipment of gold to the Elder Council, and your debt is now considered repaid in full."
- ek_attrebus_potentate.0062.a:0 "A [ROOT.Char.GetDynasty.GetName] always pays [ROOT.Char.GetHerHis] debts."
+ ek_attrebus_potentate.0062.a:0 "Представители рода [ROOT.Char.GetDynasty.GetName] всегда платят свои долги."
  
  ek_attrebus_potentate.0063.t:0 "The Heartlands Subdued"
  ek_attrebus_potentate.0063.desc:0 "As conflict between the Potentate and the rest of Cyrodiil exploded, the very heart of Cyrodiil was left open to attack and raids.\n\nIn order to secure its own position and keep the Imperial City safe, the Elder Council asked you to enforce their rule over Imperial Isle and the Rumare banks around it.\n\nWith loyal lords placed in positions of power around the Imperial Isle, and the land around the White-Gold Tower pacified, the Elder Council feels a lot safer and considers your task fulfilled."
@@ -161,7 +161,7 @@
  ############################
  #      POTENTATE VICTORY   #
  ############################
- ek_attrebus_potentate.0101.t:0 "A Crushed Rebellion"
+ ek_attrebus_potentate.0101.t:0 "Сокрушённое восстание"
  ek_attrebus_potentate.0101.desc:0 "The upstart warlord [attrebus.GetFirstName] has been defeated. The lords who joined [attrebus.GetHerHis] cause have been forced to walk back to their home, their tail between their legs.\n\nAs the defeated general is brought to the Bastion, I can't help but feel both relief and intense worry... While the Akaviri Potentate survives, our hold over the Province has been permanently damaged.\n\nOur victory has bought us some time, but who knows what the future holds..."
  ek_attrebus_potentate.0101.a:0 "A victory... Perhaps the turning point?"
  attrebus_potentate_potentate_win_colovian_estates_shattered:0 "The Colovian Estates are #v shattered#!, as Attrebus' failed rebellion marked the end of the confederacy."
@@ -175,14 +175,14 @@
  
  ek_attrebus_potentate.0110.t:0 "The Heartlands Potentate"
  ek_attrebus_potentate.0110.desc:0 "Our people arrived centuries ago, in search of the fabled Dragonborn. We found [reman_cyrodiil.GetHerHim] in the person [reman_cyrodiil.GetFirstName], and pledged ourselves to [reman_cyrodiil.GetHerHim].\n\nAfter the end of [reman_cyrodiil.GetHerHis] Imperial line, we became the stewards of the Empire, and for centuries the Potentate maintained order over Tamriel...\n\nBut as the world crumbles, times have to change. Gone are the days of the Potentate, but the [ROOT.Char.GetCulture.GetName] have found their new home in Tamriel, the same place they have held for now centuries!"
- ek_attrebus_potentate.0110.a:0 "Our new home!"
+ ek_attrebus_potentate.0110.a:0 "Наш новый дом!"
  culture_now_native_heartlands_tooltip:0 "Our [culture|E] is now [native|E] to the [GetGeographicalRegion('mundus_tamriel_cyrodiil_heartlands').GetName]"
  
  ############################
  #      WAR INVALIDATED     #
  ############################
  ### Attrebus died
- ek_attrebus_potentate.0201.t:0 "The Death of a Warlord"
+ ek_attrebus_potentate.0201.t:0 "Смерть Полководца"
  
  ek_attrebus_potentate.0202.desc:0 "Fate can be cruel sometimes. We were so sure of ourselves, of our cause, of our victory, that we never thought how what would happen if we were to leave Mundus before we could crush the Potentate. But as news of our tragic end reaches the other Lords of Cyrodiil, it seems our cause falters.\n\nThe Potentate, hidden in the Imperial City, must surely laugh at our end. Our allies and subjects, who swore an oath to never stop fighting until the end, chose to get back to their castles and cities.\n\nWithout us to lead Cyrodiil, it seems our people will stay under the Potentate."
  ek_attrebus_potentate.0202.a:0 "No! They need me!"
