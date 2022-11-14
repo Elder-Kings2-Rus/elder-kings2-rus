@@ -1,8 +1,8 @@
 ﻿l_russian:
- patron_offer_gold_decision:0 "Предложить драконов"
+ patron_offer_gold_decision:0 "Предложить золото"
 #  patron_offer_gold_decision_type:0 "offering"
- patron_offer_gold_decision_tooltip:0 "Предложить драконов [GetPlayer.Custom('GetPatronName')]"
- patron_offer_gold_decision_desc:0 "Предложить дань в виде драконов [GetPlayer.Custom('GetPatronName')]"
+ patron_offer_gold_decision_tooltip:0 "Предложить золото [GetPlayer.Custom('GetPatronName')]"
+ patron_offer_gold_decision_desc:0 "Предложить дань в виде золота [GetPlayer.Custom('GetPatronName')]"
  patron_offer_gold_decision_confirm:0 "Подтвердить"
 
  patron_offer_sacrifice_decision:0 "Предложить жертвоприношение"
