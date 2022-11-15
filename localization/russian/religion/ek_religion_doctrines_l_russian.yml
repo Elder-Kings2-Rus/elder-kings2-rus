@@ -74,6 +74,8 @@
  special_faith_existence_non_existent_desc:0 "This faith doesn't actually exist... Is it a glimpse from the future? The mad rambling of a so-called prophet? The imagination of a deluded priest? Who knows..."
  doctrine_parameter_faith_cannot_be_converted_to_active:0 "Converting to this [faith|E] is #N impossible#!"
  faith_cannot_be_converted_to_active_name:0 "Non-existent Faith"
+ has_all_tribal_innovations:1 "[CULTURE.GetName] [culture|E] has #V 70%#! of all Military & Civic $culture_era_tribal$ [innovations|E]"
+ is_not_hist:0 "Is not a Faith with the [GetFaithDoctrine('tenet_kuvastei').GetBaseName] tenet"
  
  ## Hierocracy
  # Clerical function replacements
@@ -1726,6 +1728,7 @@ doctrine_sp_kj_dragon_desc: ""
  
  tenet_tsaescence_name:0 "Tsaescence"
     tenet_tsaescence_desc:0 "Names, like all words, contain an essence, and all containers can be cracked like eggs, and the insides consumed. In so doing, our people become great and new."
+    doctrine_parameter_tsaescence_interaction_active:0 "Enables the '$consume_interaction$' [interaction|E] to increase [tsaescence|E], potentially gaining lifespan or traits. #bold This requires fluency in $language_tsaesci_name$#!"
  
  # Terrain stuff
  tenet_children_skyrim_name:0 "Children of Skyrim"
@@ -1879,7 +1882,7 @@ doctrine_sp_kj_dragon_desc: ""
     tenet_clan_mothers_desc:0 "We live our faith in everything we do, by the instruction of our beloved clan-mothers who teach wisdom to the clans and in the cities alike."
     
  tenet_kuvastei_name:0 "Ku-Vastei"
-    tenet_kuvastei_desc:0 "In ancient times Argonian society deeply feared change and death as embodied by Sithis the Destroyer; but a great shift occurred known as Duskfall where the Hist taught them to not fear Sithis, but simply view him as the inevitable changes of life. After this radical revelation Argonians abandoned their great stone temples and cities, and nowadays embrace change by living in ‘the now’ - dwelling in semi-permanent homes, speaking only in the present tense, and paying little attention to petty disagreements or even the passage of time."
+    tenet_kuvastei_desc:0 "#N Faiths with the [GetFaithDoctrine('tenet_kuvastei').GetBaseName] tenet cannot adopt [feudal_like_government|E]!#! \n \n In ancient times Argonian society deeply feared change and death as embodied by Sithis the Destroyer; but a great shift occurred known as Duskfall where the Hist taught them to not fear Sithis, but simply view him as the inevitable changes of life. After this radical revelation Argonians abandoned their great stone temples and cities, and nowadays embrace change by living in ‘the now’ - dwelling in semi-permanent homes, speaking only in the present tense, and paying little attention to petty disagreements or even the passage of time."
     
  tenet_shunatei_name:0 "Shunatei"
     tenet_shunatei_desc:0 "Shunatei (literally "regretful stomach") refers to the Argonian concept of being pained by thoughts of the past, and anxious of what will come in the future. It is often used to describe the outlook ancient Sithis-worshipping Argonians had on the world - constant worry and fear about the imminent destruction of the universe by their god."
