@@ -105,8 +105,8 @@
  vassal_council_male:0 "Советник"
  vassal_council_female:0 "Советница"
  
- dagoth_councillor_male:0 "Лорд Верховный Советник"
- dagoth_councillor_female:0 "Леди Верховная Советница"
+ dagoth_councillor_male:0 "Лорд верховный советник"
+ dagoth_councillor_female:0 "Леди верховная советница"
  
  county_tribal_e_black_marsh:0 "Племя"
  
@@ -248,17 +248,30 @@ title_county_city:0 "Метрополь"
  county_pirate_independent:0 "Адмиралтейство"
  duke_pirate_male:0 "Губернатор"
  duke_pirate_female:0 "Губернатор"
- duke_pirate_independent_male:0 "Великий адмирал"
- duke_pirate_independent_female:0 "Великий адмирал"
+ #duke_pirate_independent_male:0 "Великий адмирал"
+ #duke_pirate_independent_female:0 "Великий адмирал"
+ duke_pirate_independent_male:0 "[CHARACTER.Custom('PirateLord')]"
+ duke_pirate_independent_female:0 "[CHARACTER.Custom('PirateLord')]"
+ duchy_pirate_independent:0 "[CHARACTER.Custom('PirateRealm')]"
  duchy_pirate:0 "Губернаторство"
- duchy_pirate_independent:0 "Великое адмиралтейство"
- king_pirate_male:0 "Пиратский король"
- king_pirate_female:0 "Пиратская королева"
+ king_pirate_male:0 "Король пиратов"
+ king_pirate_female:0 "Королева пиратов"
  kingdom_pirate:0 "Пиратская конфедерация"
  ### Should not appear
- # emperor_pirate_male:0 "Пиратский император"
- # emperor_pirate_female:0 "Пиратская императрица"
+ # emperor_pirate_male:0 "Император пиратов"
+ # emperor_pirate_female:0 "Императрица пиратов"
  # empire_empire:0 "Пиратерхия"
+ duke_pirate_consort:0 "Лорд-консорт"
+ duke_pirate_consort_female:0 "Леди-консорт"
+ duke_pirate_grand_admiral:0 "Великий адмирал"
+ duke_pirate_fleet_king:0 "Король флота"
+ duke_pirate_fleet_queen:0 "Королева флота"
+ duke_pirate_corsair_lord:0 "Лорд-корсар"
+ duke_pirate_corsair_lady:0 "Леди-корсар"
+ 
+ duchy_pirate_grand_admiralcy:0 "Великое адмиралтейство"
+ duchy_pirate_fleet_kingdom:0 "Великий флот"
+ duchy_pirate_free_port:0 "Свободный порт"
  
   #Default Academy tiers
  baron_academy_male:0 "Мастер"
@@ -805,6 +818,9 @@ duke_feudal_female_bosmeris_group:0 "Древесный тан"
 duchy_feudal_bosmeris_group:0 "Древесное танство"
 emperor_feudal_male_bosmeris_group:0 "Король-олень"
 emperor_feudal_female_bosmeris_group:0 "Королева-олень"
+
+duke_green_lady_male:0 "Зелёный лорд"
+duke_green_lady_female:0 "Зелёная леди"
 
 #Akaviri Group
 emperor_feudal_male_akaviri_group:1 "Потентат"
