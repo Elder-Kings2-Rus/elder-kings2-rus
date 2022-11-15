@@ -302,23 +302,23 @@
  knows_liturgical_language_modifier_desc:0 "Этот персонаж выучил [liturgical_language|El] своей конфессии, несмотря на то, что не принадлежит к духовенству. Религиозные чиновники одобряют это."
 
  ### Coping mechanisms
- stress_skooma_stupor:0 "Skooma-Muddled"
+ stress_skooma_stupor:0 "Опьяненный скумой"
  stress_skooma_stupor_desc:1 "$stress_hashish_stupor_desc$"
- low_blood_modifier:0 "Low Blood"
- low_blood_modifier_desc:0 "This character feels dizzy after their recent encounter with a vampire."
- vampire_scare_modifier:0 "Vampire Scare"
- vampire_scare_modifier_desc:0 "The populace is terrified after a vampire preyed on the local peasantry."
+ low_blood_modifier:0 "Малокровие"
+ low_blood_modifier_desc:0 "Этот персонаж чувствует головокружение после недавней встречи с вампиром."
+ vampire_scare_modifier:0 "Боязнь вампира"
+ vampire_scare_modifier_desc:0 "Население охвачено ужасом после того, как вампир напал на местных крестьян."
 
  ### Orsinium
- city_of_the_orcs:0 "Capital of the Orsimer"
+ city_of_the_orcs:0 "Столица орков"
 
- orsinium_mountain_orc_advantage:0 "Defenders of Orsinium"
- orsinium_mountain_orc_advantage_desc:0 "Now that the Mountain Orcs have reclaimed or refounded the city of Orsinium, they are ready to defend it to the death.\nA million Bretons, Nords, and Redguards could march on it, and a million Bretons, Nords, and Redguard would be repelled.\n\n#weak Note: This modifier applies to every province that is both a de Jure and de Facto vassal of the Kingdom of Orsinium. For every duchy that is considered a de Jure vassal of Orsinium, this modifier loses a stack, starting at 5 stacks.#!"*
+ orsinium_mountain_orc_advantage:0 "Защитники Орсиниума"
+ orsinium_mountain_orc_advantage_desc:0 "Теперь, когда горные орки отвоевали или восстановили город Орсиниум, они готовы защищать его до смерти.\nМиллион бретонцев, нордов и редгардов могут идти на него, и миллион бретонцев, нордов и редгардов будут отбиты.\n\n#weak Примечание: Этот модификатор применяется к каждой провинции, которая является как де-юре, так и де-факто вассалом королевства Орсиниум. За каждое герцогство, которое считается вассалом Орсиниума де-юре, этот модификатор теряет по одному стеку, начиная с 5 стеков.#!"
 
  ### Autocracy
- autocracy_county_opinion:0 "Popular Opinion (Autocracy)"
+ autocracy_county_opinion:0 "Народное мнение (Автократия)" # ek_governments_l_russian.yml еще не переведен, так что локализация Autocracy может поменяться
  #autocracy_county_opinion_desc:0 "In an [autocracy|E], the relationship between local land owners or city mayors and the [count|E] is as important as the relationship between a vassal and their liege. A ruler upsetting the local ruling class will slowly lose [control|E] over the [county|E], and may even be barred from interacting with it depending on their [crown_authority|E].\n#italic Note: Each point of [county_opinion|E] #P above#! or #N below#! 0 will give #P +#!/#N -#! #V 0.01 [control|E] Growth#!, up to #P +0.5#!/#N -0.5#!. This modifier is updated once per year at a random month for the AI, and once per month for players.#!"
- autocracy_county_opinion_desc:0 "In an [autocracy|E], the relationship between local land owners or city mayors and the [count|E] is as important as the relationship between a vassal and their liege. In order to keep [control|E] over their territories, a ruler would be wise to be popular and liked by the local population.\n#italic Note: Each point of [county_opinion|E] #P above#! 0 will give #P +#!#V 0.01 [control|E] Growth#!, up to #P +0.5#!. This modifier is updated once per year at a random month for the AI, and once per month for players.#!"
+ autocracy_county_opinion_desc:0 "При [Concept('autocracy','Автократии')|E] отношения между местными землевладельцами или мэрами городов c населением [Concept('count','графства')|E] так же важны, как отношения между вассалом и его сеньором. Чтобы сохранить [control|El] над своими территориями, правитель должен быть популярным и нравиться местному населению.\n#italic Примечание: Каждый пункт [Concept('county_opinion','народного мнения')|E] #P выше#! 0 дает от #P +#!#V 0.01 [Concept('control','контроля')|E]#!, до #P +0.5#! Этот модификатор обновляется раз в год в случайный месяц для ИИ и раз в месяц для игроков.#!"
   autocracy_county_opinion_negative_01:0 "$autocracy_county_opinion$"
  autocracy_county_opinion_negative_01_desc:0 "$autocracy_county_opinion_desc$"
  autocracy_county_opinion_negative_02:0 "$autocracy_county_opinion$"
@@ -522,7 +522,7 @@
 
  ### Tribal
  tribal_holding_open_holding:0 "Open Holding"
- tribal_holding_open_holding_desc:0 "Clear land and open sky allow this tribal settlement to spread further, giving more grass to their cattle and more room for their warriors."
+ tribal_holding_open_holding_desc:0 "Благодаря чистой земле и открытому небу это племенное поселение может разрастаться дальше, получая больше травы для своего скота и больше места для своих воинов."
  tribal_holding_1_open_holding:0 "$tribal_holding_open_holding$ (1)"
  tribal_holding_1_open_holding_desc:0 "$tribal_holding_open_holding_desc$"
  tribal_holding_2_open_holding:0 "$tribal_holding_open_holding$ (2)"
@@ -543,10 +543,10 @@
  tribal_holding_9_open_holding_desc:0 "$tribal_holding_open_holding_desc$"
 
  ### Yearly Events Modifiers
- ek_yearly_events_had_cake_health:0 "Had a Healthy Cake"
- ek_yearly_events_had_cake_health_desc:0 "That alchemist sure knows how to bake."
- ek_yearly_events_had_cake_prowess:0 "Had a Powerful Cake"
- ek_yearly_events_had_cake_prowess_desc:0 "That alchemist sure knows how to bake."
+ ek_yearly_events_had_cake_health:0 "Съел полезный пирог"
+ ek_yearly_events_had_cake_health_desc:0 "Этот алхимик знает толк в выпечке."
+ ek_yearly_events_had_cake_prowess:0 "Съел пирог, дающий силу"
+ ek_yearly_events_had_cake_prowess_desc:0 "Этот алхимик знает толк в выпечке."
  beat_guevenne:0 "Sam's Blessing"
  beat_guevenne_desc:0 "Guevenne vanished but left you with this blessing."
  bear_plunge:0 "Plunged!"
