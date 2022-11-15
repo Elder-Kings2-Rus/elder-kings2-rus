@@ -155,76 +155,76 @@
 
  #long_desc direct from uesp as placeholder, should be changed
 
- desc_akatosh:0 "Chief among the gods, with mastery over the flow of time. Associated with dragons and the qualities of endurance and virtuous service."
- desc_alduin:0 "Alduin, the World-Eater, is the First-Born among dragons, worshipped as destroyer, renewer, and sometimes rightful master of the world. Known also as the Twilight God for his dominion over the end and beginning of time."
+ desc_akatosh:0 "Главный среди богов, обладающий властью над течением времени. Связан с драконами и такими качествами, как выносливость и добродетельность."
+ desc_alduin:0 "Алдуин, Пожиратель миров - перворожденный среди драконов, которому поклоняются как разрушителю, обновителю, а иногда и законному хозяину мира. Известен также как Сумеречный Бог за свою власть над концом и началом времени."
 
- desc_arkay:0 "God of cycles, particularly that of birth and death. Presides over funerals and burial rites, as well as ushering in the changes of the seasons."
- desc_orkey:0 "Serpent God of the Dead and the Old Knocker. Orkey tests all mortals, He likes to start all quarrels. A snake no one can flee, None may fool wary Orkey."
- desc_tuwhacca:0 "Tu'whacca, the Tricky God of the Dead. Creator and custodian of the Far Shores, he escorts us to them when we die, and watches over us until the next Walkabout.'"
+ desc_arkay:0 "Бог циклов, особенно циклов рождения и смерти. Он возглавляет похороны и погребальные обряды, а также предвещает смену времен года."
+ desc_orkey:0 "Змеиный Бог Мертвых и Старый Ворчун. Оркей испытывает всех смертных, Он любит затевать ссоры. От змеи никто не может убежать, никто не может обмануть настороженного Оркея."
+ desc_tuwhacca:0 "Ту'вакка, Хитрый Бог Мертвых. Создатель и хранитель Дальних Берегов, он провожает нас к ним, когда мы умираем, и наблюдает за нами до следующего пути к Обходу.'"
 
- desc_dibella:0 "Goddess of beauty and art, and one of the most popular of the Divines. Widespread cults are dedicated to both healing and sexual instruction."
+ desc_dibella:0 "Богиня красоты и искусства, одна из самых популярных богинь. Широко распространенные культы посвящены как целительству, так и сексуальному обучению."
 
- desc_julianos:0 "God of logic, wisdom, and the arts of magic. His temples act as educational institutions in literature, history, and law."
- desc_jhunal:0 "The Rune God represented by an owl. God of hermetic orders, knowledge and wisdom, who has fallen out of favour."
+ desc_julianos:0 "Бог логики, мудрости и магических искусств. Его храмы действуют как учебные заведения по литературе, истории и праву."
+ desc_jhunal:0 "Рунный бог, изображенный в виде совы. Бог герметических орденов, знаний и мудрости, потерявший свою популярность."
 
- desc_kynareth:0 "Goddess of the heavens, winds, and rain. Patron of sailors and travelers, and often propitiated for good fortune in life."
- desc_kyne:0 "Goddess of the Storm. Widow of Shor and favored god of warriors. She is often called the Mother of Men. Her daughters taught the first Nords the use of the thu'um, or Storm Voice."
- desc_tava:0 "Tava, the Lady of the Airs. Hawk-headed goddess, she holds dominion over all to do with the skies and seas save the Stars, who lead the Redguards to the island of Herne."
+ desc_kynareth:0 "Богиня неба, ветра и дождя. Покровительница моряков и путешественников, ее часто умилостивляют для получения удачи в жизни."
+ desc_kyne:0 "Богиня бури. Вдова Шора и любимая богиня воинов. Ее часто называют Матерью людей. Ее дочери научили первых нордов использовать ту'ум, так называемый Голос Бури."
+ desc_tava:0 "Тава, Владычица Воздуха. Богиня с головой ястреба, она властвует над всем, что связано с небом и морями, кроме Звезд, что ведут редгардов на остров Херн."
 
- desc_mara:0 "Goddess of love, compassion, and the bounty of nature. Presides over marriage ceremonies, befitting her ancient origins as a fertility goddess."
- desc_morwha:0 "Morwha, the Teat God, the fertility goddess and favoured wife of Tall Papa. Depicted with four arms and four breasts, to grab more husbands."
+ desc_mara:0 "Богиня любви, сострадания и богатства природы. Является хранительницей брачных церемоний, что соответствует ее древнему происхождению как богини плодородия."
+ desc_morwha:0 "Морва, Кормящая Богиня, покровительница плодородия и любимая жена Высокого Папы. Изображалась с четырьмя руками и четырьмя грудями, чтобы захватить побольше мужей."
 
- desc_stendarr:0 "God of mercy, justice, and righteousness. Patron of all those who wield righteous might to protect the weak, from emperors to holy warriors."
- desc_stuhn:0 "Stuhn, the Whale God of Ransom, brother of Tsun and Shield-Thane of Shor. He taught us the benefits of ransom and taking prisoners of war."
+ desc_stendarr:0 "Бог милосердия, справедливости и праведности. Покровитель всех тех, кто использует праведную силу для защиты слабых, от императоров до святых воинов."
+ desc_stuhn:0 "Стун — Бог искупления, брат Цуна и тан Шора. Он научил нас преимуществам выкупа и захвата военнопленных."
 
 #  patron_talos_name:0 "Talos"
 #  patron_talos_desc:0 "Hero-God of Mankind"
 #  patron_talos_long_desc:0 ""
 
- desc_zenithar:0 "God of work, commerce, and wealth, invoked for success in business ventures. Teaches prosperity through honest industry, rather than violence or deceit."
- patron_tsun_name:0 "Tsun"
- desc_tsun:0 "Dead God of trials against adversity. He died defending Shor from foreign gods, with his death remembered as bringing about the current world."
- desc_zeht:0 "Zeht, the god of agriculture. Forsaken son of Tall Papa, and forsaking father of Zeqqi. The bad blood in the family is responsible for the difficulty growing food."
+ desc_zenithar:0 "Бог работы, торговли и богатства, к которому обращаются за успехом в деловых начинаниях. Учит процветанию через честный труд, а не через насилие или обман."
+ patron_tsun_name:0 "Цун"
+ desc_tsun:0 "Мертвый бог испытаний против невзгод. Он умер, защищая Шора от чужеземных богов, и его смерть помнят как появление нынешнего мира."
+ desc_zeht:0 "Зет, бог земледелия. Отвергнутый сын Высокого Папы и отвергнутый отец Зекки. Дурная кровь в семье является причиной трудностей с выращиванием пищи."
 
- desc_shezarr:0 "Shezarr, spirit of Human Undertaking, particularly against Aldmeri Aggression. Patron of the Imperial Battlemages, but since less popular due to the cosmopolitan nature of the Cult."
- desc_shor:0 "Shor, Dead God of the Underworld. Ruler of sovngarde and dead chief of the Gods. Long time warrior-king of the Nords before foreign gods brought about his demise, dooming him to Sovngarde."
- desc_hoonding:0 "HoonDing, god of Make Way. The Incarnating god of the Warrior Waves, who leads us to persevere against infidels. He has incarnated twice, once as Diagna, once as Frandar Hunding."
+ desc_shezarr:0 "Шезарр, дух человеческих стараний, особенно против альдмерской агрессии. Покровитель Имперских боевых магов, но сейчас менее популярен из-за космополитической природы имперского культа."
+ desc_shor:0 "Шор, мертвый бог подземного мира. Правитель Совнгарда и мертвый вождь богов. Долгое время был королем-воином нордов, пока чужие боги не погубили его, обрекая на заточение в Совнгарде."
+ desc_hoonding:0 "Хундинг, бог Прокладывания Пути. Воплощающийся бог Воинственных Волн, который ведет нас к победе над неверными. Он воплощался дважды: один раз как Диагна, другой - как Франдар Хундинг."
 
  desc_auriel:0 "[GetPlayer.Custom('GetAurielVerse')]"
- normal_desc_auriel:0 "King of the Aldmer, war-leader during the War of Manifest Metaphors, who then achieved Praxis, returning to Aetherius through the Sun, in full observance of the first of the Aldmer, so they could follow."
- poet_desc_auriel:0 "Last praise Auri-El\nForefather of all\nFormed us to be like him\nWise, noble, and tall"
+ normal_desc_auriel:0 "Король альдмеров, военачальник во время Войны Проявленных Метафор, который затем достиг Праксиса, вернувшись на Этериус через Солнце, в полном соответствии с первыми из альдмеров, чтобы они могли последовать за ним."
+ poet_desc_auriel:0 "И последним славим Аури-Эля,\nПрародителя всего.\nДал нам рост, волю, мудрость,\nВсе мы — продолжение его." 
 
  desc_jephre:0 "[GetPlayer.Custom('GetJephreVerse')]"
- normal_desc_jephre:0 "God of the Forest, the Storyteller, spirit of the "now", who made the stars sway in the wake of his symphony, turned himself into the Earth Bones and established the laws of nature for all to follow."
- poet_desc_jephre:0 "Praise we now Jephre\nO first Ehlnofey\nGod of the forest\nEarth Bones showed the way"
+ normal_desc_jephre:0 "Бог леса, сказитель, дух нашего времени, который заставил звезды качаться в такт своей симфонии, превратил себя в Кости Земли и установил законы природы для всех."
+ poet_desc_jephre:0 "Praise we now Jephre\nO first Ehlnofey\nGod of the forest\nEarth Bones showed the way" #стих
 
- desc_yffre:0 "God of the Forest, the Storyteller, spirit of the "now", who made the stars sway in the wake of his symphony, turned himself into the Earth Bones and established the laws of nature for all to follow."
+ desc_yffre:0 "Бог леса, сказитель, дух нашего времени, который заставил звезды качаться в такт своей симфонии, превратил себя в Кости Земли и установил законы природы для всех."
 
  desc_magnus:0 "[GetPlayer.Custom('GetMagnusVerse')]"
- normal_desc_magnus:0 "God of Magic, Sun God, Sorceror-King. Known as the Architect of Mundus, as he created the schematics and diagrams needed to construct it, but fled to Aetherius before its completion, bringing the Magna-Ge with him."
- poet_desc_magnus:0 "Praise we now Magnus\nThe Sorceror-King\nGives us his magic\nNirn under his wing"
+ normal_desc_magnus:0 "Бог магии, бог солнца, король-колдун. Известен как Архитектор Мундуса, поскольку создал схемы и диаграммы, необходимые для его строительства, но бежал на Этериус до его завершения, прихватив с собой Магна-Ге."
+ poet_desc_magnus:0 "Praise we now Magnus\nThe Sorceror-King\nGives us his magic\nNirn under his wing" #стих
  
  desc_phynaster:0 "[GetPlayer.Custom('GetPhynasterVerse')]"
- normal_desc_phynaster:0 "The cult of the Hero-God of the Summerset Isles, while not formally part of the Aldmeri Pantheon, still persists throughout the province and beyond. He is famous for teaching the Altmer to extend their lives a hundred more years, simply by shortening their stride."
- poet_desc_phynaster:0 "Phynaster, teach us your stride\nFor years are long\nSo long is gone\nThe youth from our eyes"
+ normal_desc_phynaster:0 "Культ бога-героя Саммерсета, хотя формально и не является частью пантеона Альдмери, все еще сохраняется по всей провинции и за ее пределами. Он знаменит тем, что научил альтмеров продлевать свою жизнь еще на сотню лет, просто укорачивая шаг."
+ poet_desc_phynaster:0 "Phynaster, teach us your stride\nFor years are long\nSo long is gone\nThe youth from our eyes" #стих
 
  desc_syrabane:0 "[GetPlayer.Custom('GetSyrabaneVerse')]"
- poet_desc_syrabane:0 "Oh, Syrabane, oh Syrabane\nYe mer of godly fate\nOh Syrabane, oh syrabane\nThe youngest of the Eight"
- normal_desc_syrabane:0 "The Aldmeri god-ancestor of magic, also known as the Warlock's God, famous for taking part in the Fall of the Sload, saved many mer from the scourge of the Thrassian Plague, through judicious use of his magical ring."
+ poet_desc_syrabane:0 "Сирабейн, о Сирабейн!\nСудьбу свою прими.\nСирабейн, о Сирабейн,\nМладший из Восьми."
+ normal_desc_syrabane:0 "Альдмерский бог-предок магии, также известный как Бог чародей, знаменитый тем, что участвовал в Падении Слоада, спас множество меров от бедствий Трассианской чумы, благодаря разумному использованию своего магического кольца."
  
 
  desc_trinimac:0 "[GetPlayer.Custom('GetTrinimacVerse')]"
- poet_desc_trinimac:0 "Oh, Fallen Paragon\nWielder of Penitent\nJustice to bear upon\nthe Mortal Offence"
- normal_desc_trinimac:0 "A proeminent god of early Aldmer, often depicted holding Penintent, his sword, Trinimac is known to be the champion of the Revered Ancestors. He was in the front line in the battle against Lorkhan and ripped his heart out with more than hands."
+ poet_desc_trinimac:0 "Oh, Fallen Paragon\nWielder of Penitent\nJustice to bear upon\nthe Mortal Offence" #стих
+ normal_desc_trinimac:0 "Выдающийся бог первых альдмеров, часто изображаемый с Пенинтентом, своим мечом, Тринимак известен как защитник Почитаемых Предков. Он был на передовой в битве против Лорхана и вырвал его сердце своими руками."
 
  desc_xarxes:0 "[GetPlayer.Custom('GetXarxesVerse')]"
- poet_desc_xarxes:0 "Praise we now Xarxes\nWho transcribes our story\nHonor the scrivener\nArchivist of glory"
- normal_desc_xarxes:0 "The Ageless One, the One Who Watches, the god of secrets and hidden knowledge. He keeps track of all Aldmeri accomplishments, since the beginning of time. Xarxes whispers in our ear, encouraging us to always learn, always seek, and always discover."
+ poet_desc_xarxes:0 "Восславим Заркса,\nЛетописца веков,\nКто память о былых свершеньях\nХранить согласен вновь и вновь."
+ normal_desc_xarxes:0 "Вечный, тот, кто наблюдает, бог тайн и скрытых знаний. Он ведет учет всех достижений Альдмери с начала времен. Заркс шепчет нам на ухо, побуждая нас всегда учиться, всегда искать и всегда открывать для себя новое."
 
  desc_xen:0 "[GetPlayer.Custom('GetXenVerse')]"
- poet_desc_xen:0 "Bountiful Xen\nBless our plows\nSeeds sowed again\nHeed our bows"
- normal_desc_xen:0 "An aspect of Aurbis, like the other Aedra, he's the God of Toil, vengeance, agriculture and payment in kind. Some consider him to be a foreign god, but the Altmer worship him like any other of their ancestors."
- desc_zen:0 "An aspect of Aurbis, like the other Aedra, he's the God of Toil, vengeance, agriculture and payment in kind. Some consider him to be a foreign god, but the Altmer worship him like any other of their ancestors."
+ poet_desc_xen:0 "Bountiful Xen\nBless our plows\nSeeds sowed again\nHeed our bows" #стих
+ normal_desc_xen:0 "Аспект Аурбиса, как и другие Аэдра. Он - бог труда, мести, земледелия и расплаты. Некоторые считают его чужеземным богом, но альтмеры поклоняются ему, как любому другому из своих предков."
+ desc_zen:0 "Аспект Аурбиса, как и другие Аэдра. Он - бог труда, мести, земледелия и расплаты. Некоторые считают его чужеземным богом, но альтмеры поклоняются ему, как любому другому из своих предков."
  
  # Dwemer Ancestors
  desc_da_architect:0 "The Architect built the Soldiers and the Ruins to house and protect us. His gifts are many, and will allow us to thrive and prosper until he comes back."
