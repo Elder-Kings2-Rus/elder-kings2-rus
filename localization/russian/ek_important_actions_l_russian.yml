@@ -6,7 +6,7 @@
  action_can_consume_combined_group_description:1 "Вы можете поглотить своего [prisoners|E] и достичь более высокого [tsaescence|E]!"
  action_can_consume_label:0 "Вы можете поглотить [recipient.GetShortUINameNoTooltip] @scheme_icon!"
  action_can_consume_combined_label:0 "[recipient.GetRelationToString( GetPlayer )], [recipient.GetShortUINameNoTooltip]"
- action_can_consume_click:0 "#Я Нажмите, чтобы поглотить [prisoner]#!"
+ action_can_consume_click:0 "#Я Щёлкните, чтобы поглотить [prisoner]#!"
  action_can_consume_HELP:0 "\n\n#помощь Если заключенный представляет для вас угрозу, например [rival|E], вы можете сначала поглотить их.#!"
 
  action_can_clone:0 "Череп Порчи можно использовать"
@@ -16,10 +16,10 @@
  action_can_clone_combined_group_description:1 "Вы используете Череп Порчи против цели!"
  action_can_clone_label:0 "Вы создали [recipient.GetShortUINameNoTooltip] боевой дупликат @artifact_icon!"
  action_can_clone_combined_label:0 "[recipient.GetRelationToString( GetPlayer )], [recipient.GetShortUINameNoTooltip]"
- action_can_clone_click:0 "#Я Нажмите, чтобы использовать Череп Порчи#!"
+ action_can_clone_click:0 "#Я Щёлкните, чтобы использовать Череп Порчи#!"
  action_can_clone_HELP:0 "\n\n#помощь Если кто-то представляет для вас угрозу, например [rival|E], вы можете сначала заставить их сразиться с боевым дубликатом.#!"
 
  action_can_hire_court_mage:0 "Нанять Придворного Мага"
  action_can_hire_court_mage_label:0 "Вы можете нанять Придворного Мага"
  action_can_hire_court_mage_desc:0 "У вас нет Придворного Мага в качестве [court_position|E], вы должны нанять его."
- action_can_hire_court_mage_click:0 "#Я Нажмите для просмотра#!"
+ action_can_hire_court_mage_click:0 "#Я Щёлкните, чтобы посмотреть#!"
