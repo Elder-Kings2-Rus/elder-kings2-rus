@@ -10,7 +10,7 @@
   
   # No tooltip versions
 
- knight_nord_no_tooltip:0 "Тан-Щитоносца"
+ knight_nord_no_tooltip:0 "Тан-Щитоносец"
  knight_nord_no_tooltip_plural:0 "Таны-Щитоносцы"
  
  knight_dunmer_no_tooltip:0 "[Select_CString(CHARACTER.IsFemale, 'Присягнувшая', 'Присягнувший')]"
@@ -19,20 +19,20 @@
  knight_champion_no_tooltip:0 "Чемпион"
  knight_champion_no_tooltip_plural:0 "Чемпионы"
  
- knight_redguard_no_tooltip:0 "Меченый мечом"
- knight_redguard_no_tooltip_plural:0 "Меченые мечом"
+ knight_redguard_no_tooltip:0 "Верный меч"
+ knight_redguard_no_tooltip_plural:0 "Верные мечи"
  
  knight_altmer_no_tooltip:0 "Рив-Командир"
  knight_altmer_no_tooltip_plural:0 "Рив-Командиры"
  
- knight_pirate_no_tooltip:0 "Разбойник"
+ knight_pirate_no_tooltip:0 "[Select_CString(CHARACTER.IsFemale, 'Разбойница', 'Разбойник')]"
  knight_pirate_no_tooltip_plural:0 "Разбойники"
  
  knight_ordinator_no_tooltip:0 "Ординатор"
  knight_ordinator_no_tooltip_plural:0 "Ординаторы"
  
  knight_ayleid_no_tooltip:0 "Пелин"
- knight_ayleid_no_tooltip_plural:0 "Пелина"
+ knight_ayleid_no_tooltip_plural:0 "Пелин"
  
  knight_syffim_no_tooltip:0 "Сиффи"
  knight_syffim_no_tooltip_plural:0 "Сиффим"
@@ -49,60 +49,60 @@
   
   # Lowercase versions
 
- knight_nord_no_tooltip_lowercase:0 "shield-thane"
- knight_nord_no_tooltip_lowercase_plural:0 "shield-thanes"
- knight_nord_no_tooltip_lowercase_plural_possessive:0 "shield-thanes'"
- knight_nord_no_tooltip_lowercase_adjective:0 "shield-thane"
+ knight_nord_no_tooltip_lowercase:0 "Тан-Щитоносца"
+ knight_nord_no_tooltip_lowercase_plural:0 "Таны-Щитоносцы"
+ knight_nord_no_tooltip_lowercase_plural_possessive:0 "Таны-Щитоносцы'"
+ knight_nord_no_tooltip_lowercase_adjective:0 "Тан-Щитоносца"
  
- knight_dunmer_no_tooltip_lowercase:0 "oathman"
- knight_dunmer_no_tooltip_lowercase_plural:0 "oathmen"
- knight_dunmer_no_tooltip_lowercase_plural_possessive:0 "oathmen'"
- knight_dunmer_no_tooltip_lowercase_adjective:0 "oathmen"
+ knight_dunmer_no_tooltip_lowercase:0 "[Select_CString(CHARACTER.IsFemale, 'Присягнувшая', 'Присягнувший')]"
+ knight_dunmer_no_tooltip_lowercase_plural:0 "Присягнувшие"
+ knight_dunmer_no_tooltip_lowercase_plural_possessive:0 "Присягнувшие'"
+ knight_dunmer_no_tooltip_lowercase_adjective:0 "[Select_CString(CHARACTER.IsFemale, 'Присягнувшая', 'Присягнувший')]"
  
- knight_redguard_no_tooltip_lowercase:0 "sword-sworn"
- knight_redguard_no_tooltip_lowercase_plural:0 "sword-sworns"
- knight_redguard_no_tooltip_lowercase_plural_possessive:0 "sword-sworns'"
- knight_redguard_no_tooltip_lowercase_adjective:0 "sword-sworn"
+ knight_redguard_no_tooltip_lowercase:0 "Верный меч"
+ knight_redguard_no_tooltip_lowercase_plural:0 "Верные мечи"
+ knight_redguard_no_tooltip_lowercase_plural_possessive:0 "Верные мечи'"
+ knight_redguard_no_tooltip_lowercase_adjective:0 "Верный меч"
  
- knight_pirate_no_tooltip_lowercase:0 "buccaneer"
- knight_pirate_no_tooltip_lowercase_plural:0 "buccaneers"
- knight_pirate_no_tooltip_lowercase_plural_possessive:0 "buccaneers'"
- knight_pirate_no_tooltip_lowercase_adjective:0 "buccaneer"
+ knight_pirate_no_tooltip_lowercase:0 "[Select_CString(CHARACTER.IsFemale, 'Разбойница', 'Разбойник')]"
+ knight_pirate_no_tooltip_lowercase_plural:0 "Разбойники"
+ knight_pirate_no_tooltip_lowercase_plural_possessive:0 "Разбойники'"
+ knight_pirate_no_tooltip_lowercase_adjective:0 "[Select_CString(CHARACTER.IsFemale, 'Разбойница', 'Разбойник')]"
 
- knight_ordinator_no_tooltip_lowercase:0 "ordinator"
- knight_ordinator_no_tooltip_lowercase_plural:0 "ordinator"
- knight_ordinator_no_tooltip_lowercase_plural_possessive:0 "ordinator'"
- knight_ordinator_no_tooltip_lowercase_adjective:0 "ordinator"
+ knight_ordinator_no_tooltip_lowercase:0 "Ординатор"
+ knight_ordinator_no_tooltip_lowercase_plural:0 "Ординаторы"
+ knight_ordinator_no_tooltip_lowercase_plural_possessive:0 "Ординаторы'"
+ knight_ordinator_no_tooltip_lowercase_adjective:0 "Ординатор"
  
- knight_altmer_no_tooltip_lowercase:0 "battlereeve"
- knight_altmer_no_tooltip_lowercase_plural:0 "battlereeves"
- knight_altmer_no_tooltip_lowercase_plural_possessive:0 "battlereeves'"
- knight_altmer_no_tooltip_lowercase_adjective:0 "battlereeve"
+ knight_altmer_no_tooltip_lowercase:0 "Рив-Командир"
+ knight_altmer_no_tooltip_lowercase_plural:0 "Рив-Командиры"
+ knight_altmer_no_tooltip_lowercase_plural_possessive:0 "Рив-Командиры'"
+ knight_altmer_no_tooltip_lowercase_adjective:0 "Рив-Командир"
  
- knight_ayleid_no_tooltip_lowercase:0 "pelin"
- knight_ayleid_no_tooltip_lowercase_plural:0 "pelin"
- knight_ayleid_no_tooltip_lowercase_plural_possessive:0 "pelin'"
- knight_ayleid_no_tooltip_lowercase_adjective:0 "pelin"
+ knight_ayleid_no_tooltip_lowercase:0 "Пелин"
+ knight_ayleid_no_tooltip_lowercase_plural:0 "Пелин"
+ knight_ayleid_no_tooltip_lowercase_plural_possessive:0 "Пелин'"
+ knight_ayleid_no_tooltip_lowercase_adjective:0 "Пелин"
  
- knight_syffim_no_tooltip_lowercase:0 "syffi"
- knight_syffim_no_tooltip_lowercase_plural:0 "syffim"
- knight_syffim_no_tooltip_lowercase_plural_possessive:0 "syffim'"
- knight_syffim_no_tooltip_lowercase_adjective:0 "syffi"
+ knight_syffim_no_tooltip_lowercase:0 "Сиффи"
+ knight_syffim_no_tooltip_lowercase_plural:0 "Сиффим"
+ knight_syffim_no_tooltip_lowercase_plural_possessive:0 "Сиффим'"
+ knight_syffim_no_tooltip_lowercase_adjective:0 "Сиффи"
  
- knight_khajiit_no_tooltip_lowercase:0 "do-radhin"
- knight_khajiit_no_tooltip_lowercase_plural:0 "do-radhin"
- knight_khajiit_no_tooltip_lowercase_plural_possessive:0 "do-radhin's"
- knight_khajiit_no_tooltip_lowercase_adjective:0 "do-radhin"
+ knight_khajiit_no_tooltip_lowercase:0 "До-радин"
+ knight_khajiit_no_tooltip_lowercase_plural:0 "До-радин"
+ knight_khajiit_no_tooltip_lowercase_plural_possessive:0 "До-радин'"
+ knight_khajiit_no_tooltip_lowercase_adjective:0 "До-радин"
  
- knight_bosmer_no_tooltip_lowercase:0 "jaqspur"
- knight_bosmer_no_tooltip_lowercase_plural:0 "jaqspuri"
- knight_bosmer_no_tooltip_lowercase_plural_possessive:0 "jaqspuri's"
- knight_bosmer_no_tooltip_lowercase_adjective:0 "jaqspur"
+ knight_bosmer_no_tooltip_lowercase:0 "Джакспур"
+ knight_bosmer_no_tooltip_lowercase_plural:0 "Джакспуры"
+ knight_bosmer_no_tooltip_lowercase_plural_possessive:0 "Джакспуры'"
+ knight_bosmer_no_tooltip_lowercase_adjective:0 "Джакспур"
  
- knight_lilmothiit_no_tooltip_lowercase:0 "ranger"
- knight_lilmothiit_no_tooltip_lowercase_plural:0 "rangers"
- knight_lilmothiit_no_tooltip_lowercase_plural_possessive:0 "rangers'"
- knight_lilmothiit_no_tooltip_lowercase_adjective:0 "ranger"
+ knight_lilmothiit_no_tooltip_lowercase:0 "Следопыт"
+ knight_lilmothiit_no_tooltip_lowercase_plural:0 "Следопыты"
+ knight_lilmothiit_no_tooltip_lowercase_plural_possessive:0 "Следопыты'"
+ knight_lilmothiit_no_tooltip_lowercase_adjective:0 "Следопыты"
  
   #Game Concept versions
 
