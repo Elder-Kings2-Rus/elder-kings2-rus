@@ -10,41 +10,41 @@
   
   # No tooltip versions
 
- knight_nord_no_tooltip:0 "Shield-Thane"
- knight_nord_no_tooltip_plural:0 "Shield-Thanes"
+ knight_nord_no_tooltip:0 "Тан-Щитоносца"
+ knight_nord_no_tooltip_plural:0 "Таны-Щитоносцы"
  
- knight_dunmer_no_tooltip:0 "Oathman"
- knight_dunmer_no_tooltip_plural:0 "Oathmen"
+ knight_dunmer_no_tooltip:0 "[Select_CString(CHARACTER.IsFemale, 'Присягнувшая', 'Присягнувший')]"
+ knight_dunmer_no_tooltip_plural:0 "Присягнувшие"
 
- knight_champion_no_tooltip:0 "Champion"
- knight_champion_no_tooltip_plural:0 "Champions"
+ knight_champion_no_tooltip:0 "Чемпион"
+ knight_champion_no_tooltip_plural:0 "Чемпионы"
  
- knight_redguard_no_tooltip:0 "Sword-Sworn"
- knight_redguard_no_tooltip_plural:0 "Sword-Sworn"
+ knight_redguard_no_tooltip:0 "Меченый мечом"
+ knight_redguard_no_tooltip_plural:0 "Меченые мечом"
  
- knight_altmer_no_tooltip:0 "Battlereeve"
- knight_altmer_no_tooltip_plural:0 "Battlereeves"
+ knight_altmer_no_tooltip:0 "Рив-Командир"
+ knight_altmer_no_tooltip_plural:0 "Рив-Командиры"
  
- knight_pirate_no_tooltip:0 "Buccaneer"
- knight_pirate_no_tooltip_plural:0 "Buccaneers"
+ knight_pirate_no_tooltip:0 "Разбойник"
+ knight_pirate_no_tooltip_plural:0 "Разбойники"
  
- knight_ordinator_no_tooltip:0 "Ordinator"
- knight_ordinator_no_tooltip_plural:0 "Ordinators"
+ knight_ordinator_no_tooltip:0 "Ординатор"
+ knight_ordinator_no_tooltip_plural:0 "Ординаторы"
  
- knight_ayleid_no_tooltip:0 "Pelin"
- knight_ayleid_no_tooltip_plural:0 "Pelin"
+ knight_ayleid_no_tooltip:0 "Пелин"
+ knight_ayleid_no_tooltip_plural:0 "Пелина"
  
- knight_syffim_no_tooltip:0 "Syffi"
- knight_syffim_no_tooltip_plural:0 "Syffim"
+ knight_syffim_no_tooltip:0 "Сиффи"
+ knight_syffim_no_tooltip_plural:0 "Сиффим"
  
- knight_khajiit_no_tooltip:0 "Do-radhin"
- knight_khajiit_no_tooltip_plural:0 "Do-radhin"
+ knight_khajiit_no_tooltip:0 "До-радин"
+ knight_khajiit_no_tooltip_plural:0 "До-радин"
  
- knight_bosmer_no_tooltip:0 "Jaqspur"
- knight_bosmer_no_tooltip_plural:0 "Jaqspuri"
+ knight_bosmer_no_tooltip:0 "Джакспур"
+ knight_bosmer_no_tooltip_plural:0 "Джакспуры"
  
- knight_lilmothiit_no_tooltip:0 "Ranger"
- knight_lilmothiit_no_tooltip_plural:0 "Rangers"
+ knight_lilmothiit_no_tooltip:0 "Следопыт"
+ knight_lilmothiit_no_tooltip_plural:0 "Следопыты"
  
   
   # Lowercase versions
