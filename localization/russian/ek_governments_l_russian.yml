@@ -33,7 +33,7 @@
  special_contract_provincial_governor:0 "Договор губернатора провинции"
     special_contract_provincial_governor_desc:2 "#emphasis #bold Привилегии [Concept('vassal', 'вассала')|E]:#!#!\n [liege|E] не может отзывать титулы или вассалов в де-юре пределах провинции\n\n#flavor Губернаторы провинции назначаются сюзеренами-императорами для управления чужеземными провинциями. Несмотря на то, что они правят от имени своего сюзерена, они наделены абсолютной властью над подконтрольными им землями, для обеспечения лояльности местного населения к империи и ее правителю.#!"
     special_contract_provincial_governor_short:0 "Губернатор провинции"
-    ek_character_interactions_cannot_revoke_title_provincial_governor_province:0 "Вы не можете отозвать титул, принадлежащий персонажу, который занимает такой пост, как #high $special_contract_provincial_governor_short$#!, если эта титул является провинцией, переданной губернатору"
+    ek_character_interactions_cannot_revoke_title_provincial_governor_province:0 "Вы не можете отозвать титул, принадлежащий персонажу, который занимает такой пост, как #high $special_contract_provincial_governor_short$#!, если этот титул является провинцией, переданной губернатору"
  # Cultural Protection
  cultural_rights:0 "Культурные права"
     cultural_rights_none:0 "Культурные притеснения"
