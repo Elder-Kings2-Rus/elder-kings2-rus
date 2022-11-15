@@ -201,124 +201,124 @@
  black_marsh_levy_size:0 "$MOD_LEVY_SIZE$ в Чернотопье"
 
  ### Governments
- pirate_government_opinion:0 "[pirate|E] Ruler Opinion"
- pirate_government_tax_contribution_add:1 "[pirate|E] [vassal|E] [tax|E] [modifier_base_contribution|E]"
- pirate_government_tax_contribution_mult:1 "[pirate|E] [vassal|E] [tax|E] [modifier_contribution|E]"
+ pirate_government_opinion:0 "Мнение [Concept('pirate','пиратского')|E] правителя"
+ pirate_government_tax_contribution_add:1 "[modifier_base_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept('pirate','пиратов')|E]"
+ pirate_government_tax_contribution_mult:1 "[modifier_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept('pirate','пиратов')|E]"
 
- magocracy_government_opinion:0 "[magocracy|E] Ruler Opinion"
- magocracy_government_tax_contribution_add:1 "[magocracy|E] [vassal|E] [tax|E] [modifier_base_contribution|E]"
- magocracy_government_tax_contribution_mult:1 "[magocracy|E] [vassal|E] [tax|E] [modifier_contribution|E]"
+ magocracy_government_opinion:0 "Мнение [Concept('magocracy','магократического')|E] правителя"
+ magocracy_government_tax_contribution_add:1 "[modifier_base_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept('magocracy','магократов')|E]"
+ magocracy_government_tax_contribution_mult:1 "[modifier_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept('magocracy','магократов')|E]"
 
- praxis_government_opinion:0 "[ceremoniarchy|E] Ruler Opinion"
- praxis_government_tax_contribution_add:1 "[ceremoniarchy|E] [vassal|E] [tax|E] [modifier_base_contribution|E]"
- praxis_government_tax_contribution_mult:1 "[ceremoniarchy|E] [vassal|E] [tax|E] [modifier_contribution|E]"
+ praxis_government_opinion:0 "Мнение [Concept('ceremoniarchy','церемониархического')|E] правителя"
+ praxis_government_tax_contribution_add:1 "[modifier_base_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept('ceremoniarchy','церемониархов')|E]"
+ praxis_government_tax_contribution_mult:1 " [modifier_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept('ceremoniarchy','церемониархов')|E]"
 
  ### Event modifiers
- recent_migration_in:0 "Recent migration"
- recent_migration_in_desc:0 "A nomadic people recently took control of the province."
- recent_migration_out:0 "Recent emigration"
- recent_migration_out_desc:0 "This province was once held by a nomadic people, but they left recently, leaving this province almost empty."
+ recent_migration_in:0 "Недавняя миграция"
+ recent_migration_in_desc:0 "Недавно кочевой народ захватил контроль над провинцией."
+ recent_migration_out:0 "Недавняя эмиграция"
+ recent_migration_out_desc:0 "Когда-то эта провинция принадлежала кочевому народу, но недавно они ушли, оставив эту провинцию почти пустой."
 
  ### Imperial City
- imperial_city_arena_01_duchy_modifier:0 "Owner of the Imperial City Arena"
- imperial_city_arena_01_duchy_modifier_desc:0 "While not being its direct owner, this character benefits from the presence of the Imperial City Arena.\n\n#weak Note: This modifier only applies as long as the Imperial City is your capital and you do not personally own the Arena District#!"
+ imperial_city_arena_01_duchy_modifier:0 "Властитель арены Имперского города" #Возможно, требутся правка! Как и в дальнейшем Owner - властитель, ибо прямой перевод, «владелец» вступает в противоречие с определением, что персонаж не является непосредственным владельцем...
+ imperial_city_arena_01_duchy_modifier_desc:0 "Не являясь её непосредственным владельцем, этот персонаж получает выгоду от существования Арены Имперского города.\n\n#weak Примечание: Этот модификатор действует только до тех пор, пока Имперский город является вашей столицей и вы лично не владеете районом Арены#!"
 
- the_bastion_01_duchy_modifier:0 "Owner of the Bastion"
- the_bastion_01_duchy_modifier_desc:0 "While not being its direct owner, this character benefits from the presence of the Bastion.\n\n#weak Note: This modifier only applies as long as the Imperial City is your capital and you do not personally own Fort Legion#!"
- the_bastion_02_duchy_modifier:0 "Owner of the Bastion"
- the_bastion_02_duchy_modifier_desc:0 "While not being its direct owner, this character benefits from the presence of the Bastion.\n\n#weak Note: This modifier only applies as long as the Imperial City is your capital and you do not personally own Fort Legion#!"
+ the_bastion_01_duchy_modifier:0 "Властитель Бастиона"
+ the_bastion_01_duchy_modifier_desc:0 "Не являясь его непосредственным владельцем, этот персонаж получает выгоду от существования Бастиона.\n\n#weak Примечание: Этот модификатор действует только до тех пор, пока Имперский город является вашей столицей и вы не владеете лично Фортом Легиона#!"
+ the_bastion_02_duchy_modifier:0 "Властитель Бастиона"
+ the_bastion_02_duchy_modifier_desc:0 "Не являясь его непосредственным владельцем, этот персонаж получает выгоду от существования Бастиона.\n\n#weak Примечание: Этот модификатор действует только до тех пор, пока Имперский город является вашей столицей и вы не владеете лично Фортом Легиона#!"
 
- port_hestra_01_duchy_modifier:0 "Owner of Port Hestra"
- port_hestra_01_duchy_modifier_desc:0 "While not being its direct owner, this character benefits from the presence of Port Hestra.\n\n#weak Note: This modifier only applies as long as the Imperial City is your capital and you do not personally own Port Hestra#!"
+ port_hestra_01_duchy_modifier:0 "Властитель над портом Гестры"
+ port_hestra_01_duchy_modifier_desc:0 "Не являясь его непосредственным владельцем, этот персонаж получает выгоду от существования Порта Гестры. \n\n#weak Примечание: Этот модификатор действует только до тех пор, пока Имперский город является вашей столицей и вы лично не владеете Портом Гестры#!"
 
- arcane_university_01_duchy_modifier:0 "Owner of the Arcane University"
- arcane_university_01_duchy_modifier_desc:0 "While not being its direct owner, this character benefits from the presence of the Arcane University.\n\n#weak Note: This modifier only applies as long as the Imperial City is your capital and you do not personally own the Arcanorum#!"
+ arcane_university_01_duchy_modifier:0 "Властитель над Университетом волшебства"
+ arcane_university_01_duchy_modifier_desc:0 "Не являясь его непосредственным владельцем, этот персонаж получает выгоду от присутствия Университета волшебства. \n\n#weak Примечание: Этот модификатор действует только до тех пор, пока Имперский город является вашей столицей и вы лично не владеете Арканорумом#!"
 
- imperial_city_harbor_01_duchy_modifier:0 "Influence of the Imperial City Harbor"
- imperial_city_harbor_01_duchy_modifier_desc:0 "The Imperial City Harbor handles most of the trade in the Imperial City. As long as the Harbor is open, all the Imperial Isle will benefit from it."
+ imperial_city_harbor_01_duchy_modifier:0 "Влияние гавани Имперского города"
+ imperial_city_harbor_01_duchy_modifier_desc:0 "Гавань Имперского города обслуживает большую часть торговли Имперского города. Пока гавань открыта, все Имперские острова получают от нее выгоду."
 
- nord_coward_modifier:0 "Cowardly Behaviour"
- nord_coward_modifier_desc:0 "This character acted in a way that brought shame upon their ancestors."
+ nord_coward_modifier:0 "Малодушное поведение"
+ nord_coward_modifier_desc:0 "Этот персонаж поступил так, что опозорил своих предков."
 
  ## Attrebus vs Potentate
- attrebus_opened_temple_district:0 "Opened the Temple District"
- attrebus_opened_temple_district_desc:0 "After being closed to the general population of the Imperial Isles for decades, the Temple District is finally available for religious celebrations"
- ic_attrebus_opened_temple_district:0 "Opened the Temple District"
- ic_attrebus_opened_temple_district_desc:0 "After being closed to the general population of the Imperial Isles for decades, the Temple District is finally available for religious celebrations"
+ attrebus_opened_temple_district:0 "Открыт Храмовый район"
+ attrebus_opened_temple_district_desc:0 "После того, как Храмовый район был закрыт для населения Имперских островов на протяжении десятилетий, он наконец-то доступен для проведения религиозных праздников"
+ ic_attrebus_opened_temple_district:0 "Открыт Храмовый район"
+ ic_attrebus_opened_temple_district_desc:0 "После того, как Храмовый район был закрыт для населения Имперских островов на протяжении десятилетий, он наконец-то доступен для проведения религиозных праздников"
 
- debt_ec_raised_taxes:0 "Debt to the Elder Council"
- debt_ec_raised_taxes_desc:0 "Unable to repay their debt in full, a ruler decided to pass on some of their debt to their realm. As could be expected, the locals aren't really happy about it."
+ debt_ec_raised_taxes:0 "Долг перед Советом старейшин"
+ debt_ec_raised_taxes_desc:0 "Не имея возможности полностью погасить свой долг, правитель решил передать часть долга своей державе. Как и следовало ожидать, местные жители не в восторге от этого."
 
- caius_lex_chosen_ec_modifier:0 "Chosen by the Elder Council"
- caius_lex_chosen_ec_modifier_desc:0 "As the Elder Council prepares itself to secure control over the Imperial Isle, this character is likely to be put in charge of the Imperial City by the Elder Council."
+ caius_lex_chosen_ec_modifier:0 "Избранник Совета старейшин"
+ caius_lex_chosen_ec_modifier_desc:0 "Пока Совет старейшин готовится к установлению контроля над Имперским островом, этот персонаж, скорее всего, будет поставлен Советом во главе Имперского города."
 
- direnni_reclaim_hegemony_1:0 "Direnni expansionism"
- direnni_reclaim_hegemony_1_desc:0 "Eager to reclaim the old Direnni Hegemony, the members of the Direnni bloodline have been tasked with conquering what was once theirs. Only time will tell if their efforts will bear fruit.\n\nMembers of this [dynasty|E] also receive: #P -10%#! Casus Belli cost"
- direnni_reclaim_hegemony_2:0 "New Direnni Renaissane"
- direnni_reclaim_hegemony_2_desc:0 "The reclamation of all the territories from the former Direnni Hegemony have put the old Elven line once again at the front center of Tamrieli politics. Scholars and refugees once again flock to their holdings, and most kingly courts in Tamriel have a Direnni ambassade attached to them."
- direnni_reclaim_hegemony_3:0 "A New Hegemon"
- direnni_reclaim_hegemony_3_desc:0 "This family claimed the territory from the old Direnni Hegemony. While they do not claim the same blood as the former Elven masters of High Rock, their place in Tamriel and their achievements force most rulers to respect them."
- hegemony_new_capital_temp:0 "A new Hegemony capital?"
- hegemony_new_capital_temp_desc:0 "The whole county buzzes with workers and scholars, as their holders have publicly proclaimed the return of the Hegemony that once ruled over High Rock."
- hegemony_new_capital_perm:0 "A new Hegemonic capital."
- hegemony_new_capital_perm_desc:0 "As the Hegemony once again controls High Rock and the surrounding provinces, scholars, workers, and political refugees once again court the now Hegemon family of High Rock."
+ direnni_reclaim_hegemony_1:0 "Экспансионизм Диренни"
+ direnni_reclaim_hegemony_1_desc:0 "Стремясь восстановить былую Гегемонию Диренни, члены рода Диренни получили задачу завоевать то, что когда-то принадлежало им. Только время покажет, принесут ли их усилия плоды.\n\nЧлены этой [Concept('dynasty','династии')|E] также получают: #P -10%#! от стоимости Casus Belli"
+ direnni_reclaim_hegemony_2:0 "Новое Возрождение Диренни"
+ direnni_reclaim_hegemony_2_desc:0 "Отвоевание всех территорий бывшей Гегемонии Диренни вновь поставило старый эльфийский род в центр политики Тамриэля. В их владения вновь стекаются ученые и беженцы, а большинство королевских дворов Тамриэля принимают послов Диренни."
+ direnni_reclaim_hegemony_3:0 "Новый Гегемон"
+ direnni_reclaim_hegemony_3_desc:0 "Эта семья отвоевала территорию старой Гегемонии Диренни. Хотя они не претендуют на ту же кровь, что и бывшие эльфийские хозяева Хай Рока, их место в Тамриэле и их достижения заставляют большинство правителей уважать их."
+ hegemony_new_capital_temp:0 "Столица новой Гегемонии?"
+ hegemony_new_capital_temp_desc:0 "Вся округа гудит от рабочих и ученых, поскольку их владельцы публично провозгласили возвращение Гегемонии, которая когда-то правила Хай Роком."
+ hegemony_new_capital_perm:0 "Столица новой Гегемонии."
+ hegemony_new_capital_perm_desc:0 "Поскольку Гегемония снова контролирует Хай-Рок и близлежащие провинции, ученые, рабочие и политические беженцы снова ухаживают за Хай-Роком, который теперь принадлежит семье Гегемона."
 
  ### Lingua Tamrielis
- established_lingua_tamrielis_modifier:0 "Established Lingua Tamrielis"
- established_lingua_tamrielis_modifier_desc:0 "This character established their culture and tongue as the language used all throughout Tamriel."
+ established_lingua_tamrielis_modifier:0 "Установлен Тамриэлик" # https://elderscrolls.fandom.com/ru/wiki/Тамриэлик или же просто оставить Lingua Tamrielis
+ established_lingua_tamrielis_modifier_desc:0 "Этот персонаж установил свою культуру и язык в качестве языка, используемого во всем Тамриэле."
 
  ### Ristaag
- performed_ristaag_modifier:0 "Performed the Ristaag"
- performed_ristaag_modifier_desc:0 "This character summoned and slew a powerful spirit sent by the All-Maker."
+ performed_ristaag_modifier:0 "Совершил Ристааг" # https://elderscrolls.fandom.com/ru/wiki/Ристааг_(квест)
+ performed_ristaag_modifier_desc:0 "Этот персонаж вызвал и уничтожил могущественного духа, посланного Все-Создателем."
 
  ### Rite of Passage
- rite_of_passage_sucess_modifier:0 "Successful Rite of Passage"
- rite_of_passage_sucess_modifier_desc:0 "This ruler undertook a dangerous but sacred Rite of Passage, and proved their worth to the eyes of their ancestors and kin."
+ rite_of_passage_sucess_modifier:0 "Успешный Обряд Вознесения"
+ rite_of_passage_sucess_modifier_desc:0 "Этот правитель совершил опасный, но священный Обряд Вознесения и доказал свою ценность в глазах своих предков и родственников."
 
  ### Ritual Nightmares
- ritual_nightmares_defeat_1_modifier:0 "Eternal Nightmares"
- ritual_nightmares_defeat_1_modifier_desc:0 "This character tried to summon and defeat a Nightmare, but failed. They have been plagued with sleepless nights and night terrors ever since."
- ritual_nightmares_triumph_1_modifier:0 "Triumphed from a Nightmare"
- ritual_nightmares_triumph_1_modifier_desc:0 "To get closer to the divine, this character summoned a Nightmare and triumphed. Their force of will have been strengthened, and they are certain the divine has blessed them."
+ ritual_nightmares_defeat_1_modifier:0 "Бесконечные кошмары"
+ ritual_nightmares_defeat_1_modifier_desc:0 "Этот персонаж пытался вызвать и победить Кошмар, но потерпел неудачу. С тех пор его мучают бессонные ночи и ночные ужасы."
+ ritual_nightmares_triumph_1_modifier:0 "Победа над кошмаром"
+ ritual_nightmares_triumph_1_modifier_desc:0 "Чтобы приблизиться к божественному, этот персонаж вызвал Кошмар и одержал победу. Его сила воли окрепла, и он уверен, что божество благословило его."
 
  ### Commune with the Hist
- hist_domination_blessing:0 "Dreaded Roots"
- hist_domination_blessing_desc:0 "The Hist blesses you with roots of dread."
- hist_fruitful_blessing:0 "Fruitful Branches"
- hist_fruitful_blessing_desc:0 "The Hist blesses you with fruitful branches."
- hist_resilient_blessing:0 "Resilient Trunk"
- hist_resilient_blessing_desc:0 "The Hist blesses you with a resilient trunk."
- hist_sharp_blessing:0 "Sharp Leaves"
- hist_sharp_blessing_desc:0 "The Hist blesses you with sharp leaves."
- hist_insight_blessing:0 "Insightful Crown"
- hist_insight_blessing_desc:0 "The Hist blesses you with an insightful crown."
+ hist_domination_blessing:0 "Страшные корни"
+ hist_domination_blessing_desc:0 "Хист благословляет вас корнями страха."
+ hist_fruitful_blessing:0 "Плодовитые ветви"
+ hist_fruitful_blessing_desc:0 "Хист благословляет вас плодоносными ветвями."
+ hist_resilient_blessing:0 "Прочный дорожный сундук"
+ hist_resilient_blessing_desc:0 "Хист благословляет вас крепким дорожным сундуком."
+ hist_sharp_blessing:0 "Острые листья"
+ hist_sharp_blessing_desc:0 "Хист благословляет вас острыми листьями."
+ hist_insight_blessing:0 "Проникновенная корона"
+ hist_insight_blessing_desc:0 "Хист благословляет вас проникновенной короной."
 
  ### Dynamic holy sites
- consecrated_holy_site_modifier:0 "Consecrated Holy Site"
- consecrated_holy_site_modifier_desc:0 "This character consecrated a new Holy Site in their capital."
+ consecrated_holy_site_modifier:0 "Освятил новое святое место"
+ consecrated_holy_site_modifier_desc:0 "Этот персонаж освятил новое святое место в своей столице."
 
  ### Liturgical language
- knows_liturgical_language_modifier:0 "Knows Liturgical Language"
- knows_liturgical_language_modifier_desc:0 "This character has learned their Faith's [liturgical_language|E], despite not being part of the clergy. Religious officials approve of this."
+ knows_liturgical_language_modifier:0 "Знает литургический язык"
+ knows_liturgical_language_modifier_desc:0 "Этот персонаж выучил [liturgical_language|El] своей конфессии, несмотря на то, что не принадлежит к духовенству. Религиозные чиновники одобряют это."
 
  ### Coping mechanisms
- stress_skooma_stupor:0 "Skooma-Muddled"
+ stress_skooma_stupor:0 "Опьяненный скумой"
  stress_skooma_stupor_desc:1 "$stress_hashish_stupor_desc$"
- low_blood_modifier:0 "Low Blood"
- low_blood_modifier_desc:0 "This character feels dizzy after their recent encounter with a vampire."
- vampire_scare_modifier:0 "Vampire Scare"
- vampire_scare_modifier_desc:0 "The populace is terrified after a vampire preyed on the local peasantry."
+ low_blood_modifier:0 "Малокровие"
+ low_blood_modifier_desc:0 "Этот персонаж чувствует головокружение после недавней встречи с вампиром."
+ vampire_scare_modifier:0 "Боязнь вампира"
+ vampire_scare_modifier_desc:0 "Население охвачено ужасом после того, как вампир напал на местных крестьян."
 
  ### Orsinium
- city_of_the_orcs:0 "Capital of the Orsimer"
+ city_of_the_orcs:0 "Столица орков"
 
- orsinium_mountain_orc_advantage:0 "Defenders of Orsinium"
- orsinium_mountain_orc_advantage_desc:0 "Now that the Mountain Orcs have reclaimed or refounded the city of Orsinium, they are ready to defend it to the death.\nA million Bretons, Nords, and Redguards could march on it, and a million Bretons, Nords, and Redguard would be repelled.\n\n#weak Note: This modifier applies to every province that is both a de Jure and de Facto vassal of the Kingdom of Orsinium. For every duchy that is considered a de Jure vassal of Orsinium, this modifier loses a stack, starting at 5 stacks.#!"*
+ orsinium_mountain_orc_advantage:0 "Защитники Орсиниума"
+ orsinium_mountain_orc_advantage_desc:0 "Теперь, когда горные орки отвоевали или восстановили город Орсиниум, они готовы защищать его до смерти.\nМиллион бретонцев, нордов и редгардов могут идти на него, и миллион бретонцев, нордов и редгардов будут отбиты.\n\n#weak Примечание: Этот модификатор применяется к каждой провинции, которая является как де-юре, так и де-факто вассалом королевства Орсиниум. За каждое герцогство, которое считается вассалом Орсиниума де-юре, этот модификатор теряет по одному стеку, начиная с 5 стеков.#!"
 
  ### Autocracy
- autocracy_county_opinion:0 "Popular Opinion (Autocracy)"
+ autocracy_county_opinion:0 "Народное мнение (Автократия)" # ek_governments_l_russian.yml еще не переведен, так что локализация Autocracy может поменяться
  #autocracy_county_opinion_desc:0 "In an [autocracy|E], the relationship between local land owners or city mayors and the [count|E] is as important as the relationship between a vassal and their liege. A ruler upsetting the local ruling class will slowly lose [control|E] over the [county|E], and may even be barred from interacting with it depending on their [crown_authority|E].\n#italic Note: Each point of [county_opinion|E] #P above#! or #N below#! 0 will give #P +#!/#N -#! #V 0.01 [control|E] Growth#!, up to #P +0.5#!/#N -0.5#!. This modifier is updated once per year at a random month for the AI, and once per month for players.#!"
- autocracy_county_opinion_desc:0 "In an [autocracy|E], the relationship between local land owners or city mayors and the [count|E] is as important as the relationship between a vassal and their liege. In order to keep [control|E] over their territories, a ruler would be wise to be popular and liked by the local population.\n#italic Note: Each point of [county_opinion|E] #P above#! 0 will give #P +#!#V 0.01 [control|E] Growth#!, up to #P +0.5#!. This modifier is updated once per year at a random month for the AI, and once per month for players.#!"
+ autocracy_county_opinion_desc:0 "При [Concept('autocracy','Автократии')|E] отношения между местными землевладельцами или мэрами городов c населением [Concept('count','графства')|E] так же важны, как отношения между вассалом и его сеньором. Чтобы сохранить [control|El] над своими территориями, правитель должен быть популярным и нравиться местному населению.\n#italic Примечание: Каждый пункт [Concept('county_opinion','народного мнения')|E] #P выше#! 0 дает от #P +#!#V 0.01 [Concept('control','контроля')|E]#!, до #P +0.5#! Этот модификатор обновляется раз в год в случайный месяц для ИИ и раз в месяц для игроков.#!"
   autocracy_county_opinion_negative_01:0 "$autocracy_county_opinion$"
  autocracy_county_opinion_negative_01_desc:0 "$autocracy_county_opinion_desc$"
  autocracy_county_opinion_negative_02:0 "$autocracy_county_opinion$"
@@ -522,7 +522,7 @@
 
  ### Tribal
  tribal_holding_open_holding:0 "Open Holding"
- tribal_holding_open_holding_desc:0 "Clear land and open sky allow this tribal settlement to spread further, giving more grass to their cattle and more room for their warriors."
+ tribal_holding_open_holding_desc:0 "Благодаря чистой земле и открытому небу это племенное поселение может разрастаться дальше, получая больше травы для своего скота и больше места для своих воинов."
  tribal_holding_1_open_holding:0 "$tribal_holding_open_holding$ (1)"
  tribal_holding_1_open_holding_desc:0 "$tribal_holding_open_holding_desc$"
  tribal_holding_2_open_holding:0 "$tribal_holding_open_holding$ (2)"
@@ -543,10 +543,10 @@
  tribal_holding_9_open_holding_desc:0 "$tribal_holding_open_holding_desc$"
 
  ### Yearly Events Modifiers
- ek_yearly_events_had_cake_health:0 "Had a Healthy Cake"
- ek_yearly_events_had_cake_health_desc:0 "That alchemist sure knows how to bake."
- ek_yearly_events_had_cake_prowess:0 "Had a Powerful Cake"
- ek_yearly_events_had_cake_prowess_desc:0 "That alchemist sure knows how to bake."
+ ek_yearly_events_had_cake_health:0 "Съел полезный пирог"
+ ek_yearly_events_had_cake_health_desc:0 "Этот алхимик знает толк в выпечке."
+ ek_yearly_events_had_cake_prowess:0 "Съел пирог, дающий силу"
+ ek_yearly_events_had_cake_prowess_desc:0 "Этот алхимик знает толк в выпечке."
  beat_guevenne:0 "Sam's Blessing"
  beat_guevenne_desc:0 "Guevenne vanished but left you with this blessing."
  bear_plunge:0 "Plunged!"
