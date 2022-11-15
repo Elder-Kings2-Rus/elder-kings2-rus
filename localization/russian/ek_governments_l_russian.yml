@@ -79,6 +79,8 @@
  action_stronger_autocratic_vassal_combined_group_description:0 "Некоторые из ваших вассалов имеют более высокую военную мощь, чем у вас. Их [Concept('opinion', 'мнение')|E] о вас будет значительно снижено.\n\n#help Попробуйте добиться их верности, улучшив их мнение о вас, увеличив военную мощь, либо найдя способ ослабить их.#!\n\n#weak Автократические вассалы будут лояльны вам только до тех пор, пока вы можете навязать им свою власть. Если они решат, что смогут победить вас в войне, они начнут выказывать недовольство вашим правлением.#!"
  action_stronger_autocratic_vassal_combined_label:0 "[recipient.GetRelationToString( GetPlayer )], [recipient.GetShortUINameNoTooltip]"
  high_enough_ratio_vassal_max_military_strength_max_military_strength:0 "Общая военная мощь ваших вассалов не должна превышать #V $VALUE|0$%#! от вашей\n#weak Текущий показатель: [Character.MakeScope.ScriptValue('ratio_vassal_max_military_strength_max_military_strength')|1]%#!#!"
+ vassal_revocation_tyranny_effect_low_ca_tyranny:0 "#N Ваша [Concept('tyranny', 'тирания')|E] возрастает из-за низкого [Concept('crown_authority', 'авторитета короны')|E]. Повысьте его до уровня #V [GetPlayer.Custom('GetCrownAuthority0')]#!, чтобы избежать дальнейшего роста тирании.#!"
+ revocation_tyranny_effect_low_ca_tyranny:0 "#N Ваша [Concept('tyranny', 'тирания')|E] возрастает из-за низкого [Concept('crown_authority', 'авторитета короны')|E]. Повысьте его до уровня #V [GetPlayer.Custom('GetCrownAuthority0')]#!, чтобы избежать дальнейшего роста тирании.#!"
  ### Magocracy
  magocracy_government:0 "Магократия"
     magocracy_government_adjective:0 "Магократическ"
