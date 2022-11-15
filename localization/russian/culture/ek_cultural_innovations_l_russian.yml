@@ -8,6 +8,7 @@
  # Military
  innovation_war_magic:0 "War Magic"
  innovation_war_magic_desc:0 "Raw energy pours into our world through the stars and the [enc_sun|E]. By learning how to tap into this energy, and focus it to impact our world, we can train some of our soldiers to use it."
+ unlock_academy_holding:0 "Unlocks the ability to build [academy|E] [holdings|E]"
  unlock_tribal_academy_buildings:0 "Unlocks all $culture_era_tribal$ Academy [buildings|E]"
  required_other_magical_innovations:0 "This [innovation|E] is required for all other magicka-related Military Innovations"
  innovation_basic_armor_forging:0 "Basic Armor Forging"

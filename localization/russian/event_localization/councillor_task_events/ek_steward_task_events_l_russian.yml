@@ -27,7 +27,7 @@
  ek_steward_task.0001.nomadic_culture_not_native_tooltip:0 "A nomadic [culture|E] takes more time to settle on any territory, but it does not suffer from the massive malus given to non-[native|E] cultures"
  ek_steward_task.0001.fallback_culture_1:0 "Invite [fallback_culture_1.GetName] settlers."
  ek_steward_task.0001.fallback_culture_2:0 "Invite [fallback_culture_2.GetName] settlers."
- ek_steward_task.0001.fallback_culture_2:0 "Invite [fallback_culture_3.GetName] settlers."
+ ek_steward_task.0001.fallback_culture_3:0 "Invite [fallback_culture_3.GetName] settlers."
  ek_steward_task.0001.convert_native_fallback_culture_tooltip:0 "As we lack any [native|E] or [nomadic|E] culture, we are forced to rely on foreign settlers who will need decades to make themselves at home."
  ek_steward_task.0001.refresh:0 "Is there anyone else I can invite?"
  ek_steward_task.0001.refresh_cultures:0 "You will be given a new list of cultures"
