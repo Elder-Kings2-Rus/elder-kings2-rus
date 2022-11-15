@@ -41,6 +41,7 @@
  magicka_legacy_1_name:0 "Arcane Blood"
  ARCANA_BOOST_PERK_BONUS:0 "[arcana|E]: [arcana_i|E][EmptyScope.ScriptValue('arcana_magicka_legacy_1')|+=0]"
  MAGICKA_REGENERATION_PERK_BONUS:0 "[magicka|E] Generation: [magicka_i|E][EmptyScope.ScriptValue('magicka_mult_magicka_legacy_1')|%+=0]"
+ GOOD_ARCANA_GENETIC_TRAIT_PERK_BONUS:0 "[children|E] have a high chance of getting a #V $trait_arcana_good$#! trait"
  magicka_legacy_2_name:0 "Magical Drills"
  magicka_legacy_3_name:0 "Thaumaturgic Heritage"
  CAN_EDUCATE_MAGICAL_ARTS_NO_INNOVATION_PERK_BONUS:0 "[children|E] can receive a #V $trait_education_magical_ability$#! trait if their [guardian|E] has a #V $trait_arcana_good$#! or #V $trait_education_magical_ability$#! trait"
