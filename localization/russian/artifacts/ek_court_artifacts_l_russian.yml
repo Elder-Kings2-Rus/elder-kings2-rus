@@ -1,125 +1,125 @@
 ﻿l_russian:
- feature_animal_skull_type_dragon:0 "an ancient creature of legend; a dragon"
- feature_animal_skull_type_giant_wasp:0 "a giant wasp"
- feature_animal_skull_type_bull_netch:0 "a ferocious bull netch"
- feature_animal_skull_type_kwama_warrior:0 "a protective kwama warrior"
- feature_animal_skull_type_cliff_strider:0 "a relentless cliff-strider"
- feature_animal_skull_type_alit:0 "a fearsome alit"
- feature_animal_skull_type_gryphon:0 "a majestic gryphon"
- feature_animal_skull_type_troll:0 "a brutish troll"
- feature_animal_skull_type_lurcher:0 "a massive lurcher"
- feature_animal_skull_type_crocodile:0 "an enourmous crocodile"
- feature_animal_skull_type_dreugh:0 "a nightmarish dreugh"
- feature_animal_skull_type_sep_adder:0 "a powerful sep-adder"
- feature_animal_skull_type_wamasu:0 "a wamasu with shiny scales"
- feature_animal_skull_type_giant_bat:0 "a giant bat"
+ feature_animal_skull_type_dragon:0 "древнее существо из легенд; дракон"
+ feature_animal_skull_type_giant_wasp:0 "гигантская оса"
+ feature_animal_skull_type_bull_netch:0 "свирепый самец нетча"
+ feature_animal_skull_type_kwama_warrior:0 "воин-защитник квама"
+ feature_animal_skull_type_cliff_strider:0 "безжалостный скальный странник"
+ feature_animal_skull_type_alit:0 "огромный алит"
+ feature_animal_skull_type_gryphon:0 "величественный грифон"
+ feature_animal_skull_type_troll:0 "свирепый тролль"
+ feature_animal_skull_type_lurcher:0 "большой шатун"
+ feature_animal_skull_type_crocodile:0 "огромный крокодил"
+ feature_animal_skull_type_dreugh:0 "кошмарный дреуг"
+ feature_animal_skull_type_sep_adder:0 "могучий аспид Сепа"
+ feature_animal_skull_type_wamasu:0 "вамасу с блестящей чешуей"
+ feature_animal_skull_type_giant_bat:0 "гигантская летучая мышь"
  
- artifact_skull_numinex_name:1 "Skull of Numinex"
- artifact_skull_numinex_description:0 "The gigantic skull of the ancient dragon Numinex, a ferocious beast which terrorized the countryside before being defeated by Olaf One-Eye. After having beaten the beast Olaf brought it to Whiterun, where it was imprisoned for many years before its death, after which its skull was carved and placed in the throne room, watching over the Jarl's court."
+ artifact_skull_numinex_name:1 "Череп Нуминекса"
+ artifact_skull_numinex_description:0 "Гигантский череп древнего дракона Нуминекса, свирепого зверя, который запугивал сёла, пока не был повержен Олафом Одноглазым. Победив зверя, Олаф привез его в Вайтран, где и заточил на многие годы, пока тот не умер. После чего его череп был помещен в тронный зал, наблюдать за двором Ярла."
  
- artifact_throne_ruby_name:1 "Ruby Throne"
- artifact_throne_ruby_description:0 "Proverbial Seat of Sundered Kings, the Ruby Throne — a fine example of Ayleid opulence tempered through Nedic craftsmanship — has served as throne on high from which issued forth the wisdom of Alessia and the fury of Reman. And now, perhaps, your own designs on Tamriel."
+ artifact_throne_ruby_name:1 "Рубиновый трон"
+ artifact_throne_ruby_description:0 "Прекрасный пример смеси богатства айлейдов и мастеррства недийцев, известный также как Трон разлучённых королей. Рубиновый трон - место, с которого исходили мудрость Алессии и ярость Ремана. Возможно Вы вершите судьбу Тамриэля восседая на нём."
 
- artifact_throne_camoran_name:1 "Camoran Throne"
- artifact_throne_camoran_description:0 "A regal seat fashioned out of grahtwood nurtured by the best treeshapers, Eplear Camoran is reported to have chosen the saplings personally as they were surrounded by a coven of spriggans.\nThe Camoran Throne is a symbol of established power within all of Valenwood few would ignore"
+ artifact_throne_camoran_name:1 "Трон Каморана"
+ artifact_throne_camoran_description:0 "Величесвенный трон, выращенный лучшими садовниками Гратвуда. Легенды гласят, что сам Эплир Каморан, в окружении спринганов, лично выбирал саженцы для него. Трон Каморана - символ истинной власти над Валенвудом, пред которым преклоняют колени."
 
- artifact_flask_lillandril_name:1 "Flask of Lillandril"
- artifact_flask_lillandril_description:0 "A precious flask of obscure origins, the Flask of Lillandril possesses the wondrous abilities to absorb and reflect magic as if it were a receptacle for magicka itself. It is one of the most treasured relics of Summerset Isle, and the people of Lillandril cherish it as a heirloom of their own great city."
+ artifact_flask_lillandril_name:1 "Колба Лилландрила"
+ artifact_flask_lillandril_description:0 "Драгоценная колба неизвестного происхождения. Колба Лилландрила обладает удивительной способностью поглощать и отражать магию, словно сама является вместилищем магии. Это одна из самых сокровенных реликвий острова Саммерсет, и жители Лилландрила бережно хранят ее как реликвию своего великого города."
 
- artifact_varla_stone_name:1 "Varla Stone"
- artifact_varla_stone_description:0 "An enchanted shard of cut Meteoric Glass, a rare type of Aetherial Fragment, created by the Ayleids. The luminescent crystals of white or blue hue are remarkably powerful, enabling untrained users to restore magical energy to any number of enchanted items. Because of their great value and utility, many of these artifacts were looted from Ayleid ruins."
+ artifact_varla_stone_name:1 "Камень варла"
+ artifact_varla_stone_description:0 "Зачарованный осколок граненого метеоритного стекла, редкий вид этерическогого фрагмента, созданный Айлейдами. Люминесцентные кристаллы белого или голубого оттенка обладают необычайной силой, позволяя даже необученным людям восстанавливать магическую энергию любого количества зачарованных предметов. Из-за их огромной ценности и полезности, расхитители вынесли почти все подобные артефакты из Айлейдских руин."
 
- artifact_dwemer_puzzle_box_name:1 "Dwemer Puzzle Box"
- artifact_dwemer_puzzle_box_description:0 "An intricate little cube not bigger than the size of a fist, made of a coppery metal, with a circular design and symbols on one side and some lined marks on the other sides."
+ artifact_dwemer_puzzle_box_name:1 "Двемерская головоломка"
+ artifact_dwemer_puzzle_box_description:0 "Замысловатый маленький кубик размером не больше кулака, сделанный из металла медного цвета. На одной стороне нанесен круговой рисонок и символы. На других сторонах линии вырисовывают странные узоры."
 
- artifact_indoril_death_mask_name:1 "Indoril Death Mask"
- artifact_indoril_death_mask_description:0 "The golden face mask purportedly buried with Indoril Nerevar, though there were many replicas fashioned for failed Nerevarines."
+ artifact_indoril_death_mask_name:1 "Посмертная маска Индорила"
+ artifact_indoril_death_mask_description:0 "Золотая маска для лица, предположительно захороненная вместе с Индорилом Нереваром. Несмотря на это, существует много копий, изготовленных для несостоявшихся Нереваров."
 
- artifact_aok_name:1 "Amulet of Kings"
- artifact_aok_description:0 "This amulet, also known as the Amulet of the Kings of Glory, is a pendant traditionally worn by the ruling emperor of Cyrodiil. In the center of the amulet is the Chim-el Adabal, also known as the Red Diamond, a huge soul gem of Ayleid origin." # PLACEHOLDER
+ artifact_aok_name:1 "Амулет Королей"
+ artifact_aok_description:0 "Этот амулет, также известный как Амулет Королевской Славы, представляет собой подвеску, которую традиционно носит действующий император Сиродила. В центре амулета находится Чим-эль Адабаль, также известный как Красный алмаз. Это огромный камень душ айлейдского происхождения." # PLACEHOLDER
 
- artifact_lords_mail_name:1 "Lord's Mail"
- artifact_lords_mail_description:0 "An ancient plated cuirass of unsurpassable quality, considered to grant the wearer the power to absorb or regenerate health, resist the effects of spells, and resist or even cure poison. \nIt is said that whenever Kynareth deigns the wearer unworthy, the Lord's Mail will be taken away and hidden for the next chosen one."
+ artifact_lords_mail_name:1 "Кольчуга Повелителя"
+ artifact_lords_mail_description:0 "Древняя позолоченная кираса непревзойденного качества, которая, как считается, дает владельцу способность поглощать и восстанавливать здоровье, противостоять воздействию заклинаний, сопротивляться яду и даже излечивать от него. Говорят, что, как только Кинарет сочтет владельца недостойным, Кольчуга Повелителя исчезнет и будет спрятана для следующего избранного."
 
- artifact_antique_map_name:1 "Antique Map"
- artifact_antique_map_description:0 "A master cartographer lent their skills to the crafting of this map untold years ago." # PLACEHOLDER
+ artifact_antique_map_name:1 "Старинная карта"
+ artifact_antique_map_description:0 "Мастер-картограф вложил все свои навыки в создание этой карты бесчисленное множество лет назад." # PLACEHOLDER
 
- artifact_nordic_urn_name:1 "Ancient Nordic Urn"
- artifact_nordic_urn_description:0 "Usually found in antique Nordic barrows, now this urn may have contained offerings, organs or prayers for the soul of the departed" # PLACEHOLDER
+ artifact_nordic_urn_name:1 "Древняя нордская урна"
+ artifact_nordic_urn_description:0 "Обычно находимая в древних нордских курганах. Эта урна, возможно, содержала подношения, органы или молитву за душу усопшего." # PLACEHOLDER
 
- artifact_old_sword_name:1 "Ancestral Nordic Sword"
- artifact_old_sword_description:0 "Found in a Nordic burial crypt, this sword could have belonged to a number of Nordic heroes of the past." # PLACEHOLDER
+ artifact_old_sword_name:1 "Древний нордский меч"
+ artifact_old_sword_description:0 "Найден в нордском склепе. Этот меч мог принадлежать нескольким нордским героям прошлого." # PLACEHOLDER
 
- artifact_redguard_flag_name:1 "Redguard Battle Flag"
- artifact_redguard_flag_description:0 "Folded battle flag of the First Ska'vyn Camel Scouts, torn in three places and spotted with blood." # PLACEHOLDER
+ artifact_redguard_flag_name:1 "Редгардское боевое знамя"
+ artifact_redguard_flag_description:0 "Свёрнутое боевое знамя первых разведчиков Ска'вина. Разорванно в трех местах, виднеются следы крови." # PLACEHOLDER
 
- artifact_argonian_statuette_name:1 "Pre-Duskfall Argonian Relic"
- artifact_argonian_statuette_description:0 "While not exactly uncommon, this pre-duskfall statuette holds immense historical significance."  # PLACEHOLDER
+ artifact_argonian_statuette_name:1 "Реликвия аргониан досумеречной эпохи"
+ artifact_argonian_statuette_description:0 "Раньше эта статуэтка не явлалсь чем-то необычным, но сейчас она имеет огромное историческое значение."  # PLACEHOLDER
 
- artifact_targe_of_the_blooded_name:1 "Targe of the Blooded"
- artifact_targe_of_the_blooded_description:0 "Having large steel spikes attached to it, this type of shield is favored by bandits in Hammerfell."  # PLACEHOLDER
+ artifact_targe_of_the_blooded_name:1 "Тарч кровожадности"
+ artifact_targe_of_the_blooded_description:0 "Этот тип щита, к которому прикреплены большие стальные шипы, пользуется популярностью у бандитов Хаммерфелла."  # PLACEHOLDER
 
- artifact_crown_verity_name:1 "Crown of Verity"
- artifact_crown_verity_description:0 "A magical artifact created to test the worthiness of potential rulers of Skyrim, made by mages sent by each hold in Skyrim, dedicated in creating a method of electing a High King." # PLACEHOLDER
+ artifact_crown_verity_name:1 "Корона Истины"
+ artifact_crown_verity_description:0 "Магический артефакт, применяемый для проверки достоинств потенциальных правителей Скайрима. Для его создания из каждого владения Скайрима быд выбран маг. Все они посвятили себя изучению магических методов избрания верховного короля." # PLACEHOLDER
 
- artifact_mace_aevar_name:1 "Mace of Aevar Stone-Singer"
- artifact_mace_aevar_description:0 "According to legend, this prized Skaal artifact was used by the eponymous hero to amplify the Song of the Earth, returning the Gift of the Earth and making the land rich again for the Skaal. It is crafted out of stalhrim, a material as precious as ebony but endemic to Solstheim" # PLACEHOLDER
+ artifact_mace_aevar_name:1 "Булава Эйвара - певца камней"
+ artifact_mace_aevar_description:0 "Согласно легенде, этот ценный артефакт скаалов был использован, чтобы усилить Песнь Земли, вернув Дар Земли, возродив плодовитость земле скаалов. Он изготовлен из сталгрима, материала столь же ценного, как эбонит, но более распространенного на Солстхейме." # PLACEHOLDER
 
- artifact_diadem_diagna_name:1 "Diadem of Diagna"
- artifact_diadem_diagna_description:0 "Along with the Throne of Hegathe, this Diadem named after the Orichalc God of the Sideways Blade is traditionally used by anyone ruling over the High Kingdom of Hammerfell." # PLACEHOLDER
+ artifact_diadem_diagna_name:1 "Диадема Диагны"
+ artifact_diadem_diagna_description:0 "Наряду с Троном Хегата, эта диадема, названная в честь Орихалкового Бога Лезвий. Традиционно, её новит тот, кто правит королевством Хаммерфелл." # PLACEHOLDER
 
- artifact_ansei_ward_majah_name:1 "Ansei Majah's Ward"
- artifact_ansei_ward_radan_name:1 "Ansei Radan's Ward"
- artifact_ansei_ward_halelah_name:1 "Ansei Halelah's Ward"
- artifact_ansei_ward_description:0 "One of the three Ansei Wards of legend that carries the spirit of one of the Three Ansei Heroes, making sure that every dead consecrated to Tu'whacca could not be risen even by the most powerful necromancy." # PLACEHOLDER
+ artifact_ansei_ward_majah_name:1 "Оберег Маджи"
+ artifact_ansei_ward_radan_name:1 "Оберег Радана"
+ artifact_ansei_ward_halelah_name:1 "Оберег Халелы"
+ artifact_ansei_ward_description:0 "Один из трех легендарных оберегов Ансеев, который несет дух одного из владельцев, гарантируя, что каждый мертвец, служивший Ту'вакке, не сможет воскреснуть даже с помощью самой могущественной некромантии." # PLACEHOLDER
 
- artifact_orichalc_scalpel_name:1 "Orichalc Scalpel"
- artifact_orichalc_scalpel_description:0 "Fashioned out of the orichalcum gear of fallen berserkers, this famous sword is a proof of House Cumberland's service during the Siege of Orsinium." # PLACEHOLDER
+ artifact_orichalc_scalpel_name:1 "Орихалковое лезвие"
+ artifact_orichalc_scalpel_description:0 "Зачарованный меч, сделанный из орихалкового снаряжения павших берсерков. Этот знаменитый меч является доказательством службы дому Камберленд во время осады Орсиниума." # PLACEHOLDER
 
- artifact_black_iron_name:1 "Black Iron"
- artifact_black_iron_description:0 "A powerful blade of skyfallen iron that forged a mighty dynasty, its first owner was the Iron Son, a mighty ruler of ancient Camlorn." # PLACEHOLDER
+ artifact_black_iron_name:1 "Чёрное железо"
+ artifact_black_iron_description:0 "Клинок, сделанный из упавшего с неба железа. Выкованный представителями могущественной династии. Его первым владельцем был Железный Наследник - правитель древнего Камлорна." # PLACEHOLDER
  
- artifact_kingmakers_trove_name:1 "Kingmaker's Trove"
- artifact_kingmakers_trove_description:0 "A gorgeous chest finely decorated with filigrees similar to those found around the prows of the Bretonic All-Flags warships and a tree-shaped relief reminiscent of the First Era."  # PLACEHOLDER
+ artifact_kingmakers_trove_name:1 "Сокровищница творца королей"
+ artifact_kingmakers_trove_description:0 "Великолепный сундук, искусно украшенный золотом. Подобный рисунок можно встретить на флагах военных бретонских кораблей. Рельеф и форма дерева напоминают изделия из первой эры."  # PLACEHOLDER
 
- artifact_rithana_name:1 "Rithana-di-Renada"
- artifact_rithana_description:0 "The Song of Kingdoms is an ancient stone mural portraying the sixteen kingdoms of Elsweyr, symbolic of the harmony, unity, and peace between them. The Singing Crystal, its centerpiece, emits a beautiful melody when placed in the mural, hence the name." # PLACEHOLDER
+ artifact_rithana_name:1 "Ритана-ди-Ренада"
+ artifact_rithana_description:0 ""Песнь королевств" - древний каменный барельеф с изображением шестнадцати королевств Эльсвейра. Символизирует гармонию, единство и мир между ними. Название дано из-за центральной части барельефа, где располагается "Поющий кристалл", который издаёт мелодию, пока соприкасается с камнем." # PLACEHOLDER
 
- artifact_veloths_judgement_name:1 "Veloth's Judgement"
- artifact_veloths_judgement_description:0 "Saint Veloth wielded a daedric warhammer as a symbol of power and authority during his exodus from Summerset. It has been said that the Judgement of Saint Veloth, as it became known, could cleanse the corruption from the souls of those it struck down." # PLACEHOLDER
+ artifact_veloths_judgement_name:1 "Правосудие Велота"
+ artifact_veloths_judgement_description:0 "Во время своего исхода из Саммерсета, Святой Велот овладел даэдрическим боевым молотом как символом силы и власти. Было сказано, что Правосудие Велота, как он позже стал известен, очистит души тех, кого поразит, от порчи." # PLACEHOLDER
 
- artifact_staff_rootmender_name:1 "Rootmender's Staff"
- artifact_staff_rootmender_description:0 "A symbol of authority donned by every Sap-Speaker in the Root-Whisper Tribe. It is capable of overbearing magic attacks and ensures the continued heritage of the tribe, through thick and thin." # PLACEHOLDER
+ artifact_staff_rootmender_name:1 "Посох корнеправа"
+ artifact_staff_rootmender_description:0 "Символ власти, который носят все Голоса живицы в племени Шепота-Корня. Он способен выдерживать магические атаки, тем самым обеспечивая выживание племени." # PLACEHOLDER
 
- artifact_wuuthrad_name:1 "Wuuthrad"
- artifact_wuuthrad_description:0 "Meaning "Storm's Tears" in Atmoran, this is the legendary battleaxe wielded by Ysgramor during the Merethic Era." # PLACEHOLDER
+ artifact_wuuthrad_name:1 "Вутрад"
+ artifact_wuuthrad_description:0 ""Вутрад" в переводе с языка Атморы значит "Слёзы бури". Этой секирой владел Исгрмор в Меретическую эру." # PLACEHOLDER
  
- artifact_crown_anton_name:1 "Jeweled Crown of Anton"
- artifact_crown_anton_description:0 "Jewels adorn this enchanted crown made for King Anton of Daggerfall after he survived a perilous regency period. It is inscribed with prayers to the Divines and dedicated to his parents and most curious of all, his Seneschal.\nThe seal of House Deleyn along with the personal arms of King Anton are stamped on the inner surface of the crown" # PLACEHOLDER
+ artifact_crown_anton_name:1 "Драгоценная корона Антона"
+ artifact_crown_anton_description:0 "Драгоценные камни украшают эту зачарованную корону, изготовленную для короля Антона из Даггерфолла, после того, как он пережил опасный период регентства. На ней начертаны молитвы божествам, родителям Антона и, что самое любопытное, его сенешалю. Печать дома Делейн вместе с личным гербом короля Антона выбита на внутренней поверхности короны." # PLACEHOLDER
 
- artifact_crown_shornhelm_name:1 "Crown of Shornhelm"
- artifact_crown_shornhelm_description:0 "The grim lands of Rivenspire are quartered between rival barons but whenever the royal houses goes extinct—by crook, infertility or the horrors that stalk the land— they may convene to elect a new King or Queen from amongst their own.\nThe Crown of Shornhelm is the token of the trust the nobility confers on that individual and is as ancient as paramount power is the region" # PLACEHOLDER
+ artifact_crown_shornhelm_name:1 "Корона Шорнхельма"
+ artifact_crown_shornhelm_description:0 "Мрачные земли Ривенспайра поделены между соперничающими баронами. Но всякий раз, когда конфликты затихает, из-за интриг, болезней или ужаса войны, бароны могут собраться, чтобы избрать нового короля или королеву из числа своих. Корона Шорнхельма - это знак доверия, которое дворянство оказывает этому человеку, и она такая же дреаняя, как сам регион." # PLACEHOLDER
 
- artifact_ring_mane_name:1 "Ring of Rid-Thar-ri'Datta"
- artifact_ring_mane_description:0 "A ring wore by the biggest of cats." # PLACEHOLDER
+ artifact_ring_mane_name:1 "Кольцо Рид-Тар-ри'Датты"
+ artifact_ring_mane_description:0 "Кольцо, которое носил самый большой из котов." # PLACEHOLDER
 
- artifact_bow_malgoth_name:1 "Malgoth's Bow"
- artifact_bow_malgoth_description:0 "The prized bow of General Malgoth, leader of the Blackroot tribe which resides Vullain. Its simple but sharp design reflects the personality of Malgoth Blackroot."
+ artifact_bow_malgoth_name:1 "Лук Мальгота"
+ artifact_bow_malgoth_description:0 "Лук генерала Мальгота, вождя племени Черного Корня. Простая конструкция оружия отражает индивидуальность свого первого хозяйна."
  
- artifact_dragonguard_katana_name:1 "Dragonguard Katana"
- artifact_dragonguard_katana_description:0 "This katana was once wielded by the Dragonguard, famed akaviri dragon hunters. This peculiar saber has a distinctive hilt with a small disc-shaped guard adorning a long handle wrapped with woven silk cords. The tang is held into the hilt by an exquisite animorphic pin"
+ artifact_dragonguard_katana_name:1 "Катана Драконьей стражи"
+ artifact_dragonguard_katana_description:0 "Этой катаной когда-то владели Драконьи стражи, знаменитые акавирские охотники на драконов. Этот своеобразный меч имеет характерную рукоять с небольшой гардой в форме диска, украшающей длинную рукоять, обмотанную ткаными шелковыми шнурами."
 
- artifact_throne_mane_name:1 "Mane's Palanquin"
- artifact_throne_mane_description:0 "Where the mane sits their holy ass." # PLACEHOLDER
+ artifact_throne_mane_name:1 "Паланкин Гривы"
+ artifact_throne_mane_description:0 "Где Грива восседает своей святой жопой." # PLACEHOLDER
  
- artifact_staff_magnus_name:1 "Staff of Magnus"
- artifact_staff_magnus_description:0 "The Staff of Magnus, one of the elder artifacts of Tamriel, was a metaphysical battery of sorts for its creator, the Arch-Mage Magnus. When used, it regenerates the wielder s health at remarkable rates. In time, the Staff will abandon the bearer who wields it before he becomes too powerful and upsets the mystical balance it is sworn to protect." # PLACEHOLDER
+ artifact_staff_magnus_name:1 "Посох Магнуса"
+ artifact_staff_magnus_description:0 "Посох Магнуса, один из старейших артефактов Тамриэля, был создан Магнусом как некая «метафизическая батарейка». При использовании он вбирает в себя здоровье и магическую энергию жертвы. Посох всегда покидает носителя прежде, чем тот станет слишком силен и разрушит магический баланс, который призван охранять Посох." # PLACEHOLDER
 
- artifact_staff_hasedoki_name:1 "Staff of Hasedoki"
- artifact_staff_hasedoki_description:0 "Hasedoki was said to have been a very competitive wizard. He wandered the land in search for a wizard who was greater than he. To the best of all knowledge, he never found a wizard who could meet up to his challenge. It is said that he felt so lonely and isolated because so many feared his power, that he bonded his life-force into his very own staff, where his soul remains to this very day. Magic users all over Tamriel have been searching for this magical staff. Granting its wielder a protection of magicka, it is a sure prize for any magic user."
+ artifact_staff_hasedoki_name:1 "Посох Хаседоки"
+ artifact_staff_hasedoki_description:0 "Хаседоки был волшебником, в котором жил дух соперничества. Он странствовал по земле в поисках мага, который был бы сильнее его. Насколько известно, он так никогда и не встретил того, кто принял бы его вызов. В итоге он стал одиноким и несчастным — ведь столько людей боялось его — и заключил собственную жизненную силу в этот Посох, где его душа остается по сей день. Маги всего Тамриэля страстно ищут этот волшебный Посох. Он дает владельцу защиту от магии, а это подарок для любого волшебника."
 
- artifact_elder_scroll_name:1 "Elder Scroll"
- artifact_elder_scroll_description:0 "The Elder Scrolls are scrolls of unknown origin which simultaneously archive both past and future events. The number of the Scrolls is unknown not necessarily due to their immense quantity, but because the number itself is unknowable, as the Scrolls "do not exist in countable form". They are fragments of creation from outside time and space and their use in divining prophecies is but a small part of their power. They simultaneously do not exist, yet always have existed."
+ artifact_elder_scroll_name:1 "Древний свиток"
+ artifact_elder_scroll_description:0 "Древние свитки - это свитоки неизвестного происхождения, в которых записанно одноверменно как прошлые, так и будущие события. Количество свитков невозможно определить, но не потому что их слишком много, а потому, что число их непозноваемо, поскольку свитки "не существуют в счетной форме". Они являются фрагментами творения вне времени и пространства, и их использование для предсказания - лишь малая часть их силы. Они одновременно не существуют, но всегда существовали."
  
  artifact_armor_dragonguard_name:1 "Dragonguard Armor"
  artifact_armor_dragonguard_description:0 "This armor was once wore by the Dragonguard, famed akaviri dragon hunters. It composed of laminar piece of metals bound between them by silk cords, splinted sleeves and boots as well as a fearsome war mask. \n Various ornamental crests can be worn on top of the helmet such as dragons, moons or flames" 
