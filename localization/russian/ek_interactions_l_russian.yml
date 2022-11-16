@@ -25,12 +25,13 @@
  ek_perk_interaction.0100.optA:0 "A stupid tradition!"
  
  duel_for_claim_default_interaction:0 "Duel for a Title"
- duel_for_claim_default_interaction_desc:0 "Challenge a ruler to a [duel|E] to gain a [title|E] you have a [claim|E] upon"
+ duel_for_claim_default_interaction_desc:0 "Challenge a ruler to a [single_combat_duel|E] to gain a [title|E] you have a [claim|E] upon"
  duel_for_claim_default_interaction.non_lethal.tt:0 "A non-lethal [single_combat_fight|E] will commence immediately"
  duel_for_claim_default_interaction.actor_victory.tt:0 "Should [actor.GetFirstNameOrMeNoTooltip] win, [actor.GetFirstNameOrMeNoTooltip] will receive the [target.GetName]. If the title is a [duchy|E] or above, [actor.GetFirstNameOrMeNoTooltip] will also get every [county|E] directly held by [recipient.GetFirstNameOrMeNoTooltip] within it"
  duel_for_claim_default_interaction.actor_defeat.tt:0 "Should [actor.GetFirstNameOrMeNoTooltip] lose, [actor.GetFirstNameOrMeNoTooltip] will lose your claim on the [target.GetName], and all claims on titles currently held by [recipient.GetFirstNameOrMeNoTooltip]"
  duel_for_claim_default_interaction.actor_victory_game_over.tt:0 "#N [recipient.GetFirstNamePossessiveOrMy|U] defeat would result in a game over#!"
  duel_for_claim_default_interaction.actor_default_victory.tt:0 "[actor.GetFirstNameOrMeNoTooltip|U] will keep [actor.GetFirstNamePossessiveOrMy] claim on the [target.GetName]"
+ culture_parameter_unlock_duel_for_title:0 "Unlocks the #V $duel_for_claim_default_interaction$#!, allowing characters to start a [single_combat_duel|E] in order press a [claim|E]"
  
  duel_for_claim_strong_interaction:0 "Duel to the Death for a Title"
  duel_for_claim_strong_interaction.lethal.tt:0 "A [single_combat_fight|E] to the death will commence immediately"

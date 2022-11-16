@@ -1,131 +1,132 @@
 ﻿l_russian:
  language_tamrielic_name:0 "Тамриэльский"
  
- language_altmeris_name:0 "Альтмерский"
- language_altmeris_desc:0 "Гордые альтмеры имеют долгую историю со своим языком, который оставил в наследство как письменность, так и лексику «Тамриэля». Альтмеры — печально известные сторонники грамматики, учителя, очень заботящиеся о том, чтобы внушить своим ученикам правильную грамматику, ораторское искусство и синтаксис. Считается постыдным не иметь возможности декламировать классику альтмерской литературы разрешенным способом."
+ language_altmeris_name:0 "Альдмерский"
+ language_altmeris_desc:0 "Первоначальный эльфийский язык, до сих пор используемый в качестве основного в частях альдмерского общества, изолированных от влияния Империи и сохранивших независимость в собственных традициях. На нём могут говорить и писать все образованные эльфы среди босмеров и альтмеров, (возможно, и некоторые данмеры); также это язык эльфийских искусств. Некоторые представители других рас (например, дипломаты, историки, учёные) тоже изучают этот язык."
  
- language_falmeris_name:0 "Фалммерский"
+ language_falmeris_name:0 "Фалмерский"
  
  language_atmoran_name:0 "Атморский"
- language_atmoran_desc:0 "Коренные жители Атморы говорили на своем языке до колонизации Тамриэля и Войн Драконов. Нордский язык отличается, но в произошел от старого Атморского языка."
+ language_atmoran_desc:0 "До колонизации Тамриэля и Войны Драконов люди, жившие на Атморе, говорили на своем собственном языке. Позднее они стали известны как норды, но уже с видоизменённой формой языка, благодаря появлению рунического письма, повзаимствованного из алфавита альдмериса или прото-альдмериса"
  
- language_ayleidoon_name:0 "Айлейдунский"
- language_ayleidoon_desc:0 "Старые айлейды давно пали, но их язык хорошо засвидетельствован и сохранился в их уцелевших сообществах. Он оказал сильное влияние на Сиродильский и, следовательно, на языки Тамриэля в целом. Айлейдунский близок к Альтмерскому, но имеет несколько экзотические особенности, такие как использование суффикса -che вместо -mer для обозначения эльфийских народов."
+ language_ayleidoon_name:0 "Айлейдский"
+ language_ayleidoon_desc:0 "Древние айлейды давно пали, но их язык хорошо засвидетельствован и сохранился в их уцелевших общинах. Он оказал сильное влияние на сиродильский язык и, таким образом, на языки Тамриэля в целом. Айлейдский язык близок к альдмерису, но имеет несколько экзотических особенностей, например, использование суффикса -че вместо -мер для обозначения эльфийских народов. В разных провинциях айлейдов говорили, скорее всего, на незначительно (за исключением валенвудских айлеидов) различающихся местных диалектах."
  
  language_bosmeris_name:0 "Босмерский"
- language_bosmeris_desc:0 "Родной язык босмеров возник в Валенвуде среди последователей Зеленого пакта. Многие враждующие племена и города расположились в джунглях, но вместе с босмерским религиозное руководство Сильвенар и непреходящее политическое наследие клана Каморан составляют краеугольные камни их общей идентичности."
+ language_bosmeris_desc:0 "Босмерский язык зародился в Валенвуде, среди последователей Зеленого пакта. Является "варварской" вариацией альдмериса"
  
- language_bretic_name:0 "Бретик"
- language_bretic_desc:0 "На Бретике говорят по всему Хай Року. Он имеет недийские корни, но долгие годы Гегемонии наложили на него заметный надслой Альтмерского."
+ language_bretic_name:0 "Бретонский"
+ language_bretic_desc:0 "Язык бретонцев, на котором говорят по всему Хай Року. Он имеет недийские корни, но долгие годы под властью Гегемонии Диренни наложили на него заметный отпечаток эльфийских наречий. Слово "бретон", как и название языка, происходят из "берату" - "половина", что в свою очередь отсылает на смешение крови недийцев и эльфов во времена Гегемонии."
  
- language_chimeris_name:0 "Ald Chimeris"
- language_chimeris_desc:0 "Ald Chimeris was originally a specific dialect of Altmeris, but it gained status during the Velothi Exodus and went on to found its own language family. Chimeris is the closest one can get to the language of Veloth and the people he led during the Exodus. Chimeris is spoken by those left untouched by Azura's wrath at the Battle of Red Mountain."
+ language_chimeris_name:0 "Кимерский"
+ language_chimeris_desc:0 "Альд Кимерис - язык, возникший у народа Велота, после события, называемого "Исходом". В его основу легли альдмерис и даэдрическая письменность. На кимерисе говорят те, кто остался нетронутым гневом Азуры после битвы у Красной горы. "
  
- language_cyrodiilic_name:0 "Cyrodiilic"
- language_cyrodiilic_desc:0 "Cyrodilic is spoken in the Heart of Tamriel but also everywhere where Imperial influence once extended. As a mother tongue, however, it is only in Cyrodiil proper and some heavily imperialized cultures that you will find it. Ayleidoon and Nordic amongst others have all bestowed something upon this Nedic language, a testament to the Cyrodiils history of cultural exchange."
+ language_cyrodiilic_name:0 "Сиродильский"
+ language_cyrodiilic_desc:0 "Старый диалект тамриэльского, на котором говорили (и кое-где до сих пор говорят) в Имперской провинции. В конце Первой Эры он стал языком всех законодательных и юридических документов Империи, вытеснив альдмерис. На Сиродилик некоторым образом повлияли айлейдский, нордский и акавирский языки."
  
- language_daedric_name:0 "Daedric"
+ language_daedric_name:0 "Даэдрический"
  
- language_dunmeris_name:0 "Dunmeris"
- language_dunmeris_desc:0 "High Velothi culture underwent a period of decline with urban settlement receding and the Chimer devolving into all out tribalism. The War of the First Council united them once more and following the Battle of Red Mountain, the Tribunal kept what was now the Dunmer together. This fostered a dialect continuum that has an acrolect for diplomacy, education, literature and trade, the so-called Dunmeris."
+ language_dunmeris_name:0 "Данмерский"
+ language_dunmeris_desc:0 "Культура Велоти пережила период упадка: города начали исчезать, ведь кимеры переходили к племенному укладу. Война Первого Совета вновь объединила их под единым знаменем, но после битвы при Красной горе, грех Трибунала и гнев Азуры явил то, кем сейчас являются Данмеры. Это способствовало образованию диалектового континуума, образовавшего новый язык - Данмерис."
  
- language_duraki_name:0 "Duraki"
- language_duraki_desc:0 "The Duraki language was once spoken throughout most of the Deathlands, and even though the Duraki's many enemies characterized them as a savage and warlike people, most surviving texts are sophisticated heroic tales and astrological treatises, which both reveal a complex grammar and a great dedication to nuance in describing the stars and human virtues."
+ language_duraki_name:0 "Доракский"
+ language_duraki_desc:0 "На языки дораков когда-то говорили на большей части Мёртвых земель, и хотя многочисленные враги дораков характеризовали их как дикий и воинственный народ, большинство сохранившихся текстов - это высокопарные героические сказания и сложные астралогические трактаты, которые одновременно демонстрируют изощрённую грамматику и большое внимание к нюансам в описании звёзд и человеческих черт."
  
- language_dwemeris_name:0 "Dwemeris"
- language_dwemeris_desc:0 "The Deep Folk were highly literate and carved at length in their enigmatic tongue. It is said that proficient speakers can stir Tonal Magic"
+ language_dwemeris_name:0 "Двемерский"
+ language_dwemeris_desc:0 "Глубинный народ отличался не только своим развитием в технологиях, но и в сфере грамоты. Их язык формировался многие года и чем-то напоминает айлейдские диалекты. Говорят, что знатоки языка могут использовать Тональную магию."
  
- language_galen_name:0 "Galen"
- language_galen_desc:0 "The native language of the Men-of-Galen appears to be related to old Bretic, but has minimal Elven influence and as a consequence bears a superficial resemblence to Reachtongue. The Galen people used to write this language exclusively with a repertoire of Druidic ideograms, but under Systrean influence have slowly adopted the Tamrielic alphabet."
+ language_galen_name:0 "Галенский"
+ language_galen_desc:0 "Родной язык жителей Галена,острова в составе архипелага Систрес, исходя из информации, полученный в входе исследований, связан с древнебретическим, но имеет минимальное эльфийское влияние и, как следствие, имеет поверхностное сходство с языком ричменов. Носители языка в качестве письменности использовали исключительно друидические идеограммы, но под влиянием других представителей архипелага Систрес, постепенно переняли алфавит тамриэльского языка."
  
- language_gemha_name:0 "Gemha"
- language_gemha_desc:0 "The Gemha spoke a melodic, florid language related to that of the Men-of-Ge, but somewhat more intelligible to Cyrodiilic speakers. Gemha is still found in some placenames in eastern Nibenay, though even the locals tend to be unaware of this connection."
+ language_gemha_name:0 "Гемхский"
+ language_gemha_desc:0 "Гемха говорили на мелодичном, витиеватом языке, родственном языку Людей-из-ге, но несколько более понятном для носителей сиродильского языка. Название некоторых местностей в восточной части Нибенея до сих пор могут содержать слова на языке Гемха, хотя даже местные жители, как правило, не знают его."
  
- language_goblin_name:0 "Goblinspeak"
- language_goblin_desc:0 "The Goblins' language is an isolate, descending neither from the Merish language of the Dawn Era nor the earliest Mannish languages. Because it is so different in such fundamental ways, the people of Tamriel have propagated the misconception that Goblins communicate in gibberish and overall convey no more than simple ideas. However, those who take the time to learn the Goblin-ken's language find that it is different, but by no means inferior or even more simple than other languages on Nirn."
+ language_goblin_name:0 "Гоблинский"
+ language_goblin_desc:0 "Язык гоблинов является изолированным, он не восходит ни к меришскому языку Эпохи Рассвета, ни к самым ранним маннийским языкам. Поскольку он отличается от других столь фундаментально, среди людей Тамриэля распространилось заблуждение, что гоблины общаются на тарабарском языке и в целом передают не более чем простые идеи. Однако те, кто уделяет время изучению языка гоблинов-кинов, обнаруживают, что он отличается, но ни в коем случае не уступает другим языки Нирна."
  
- language_horsemen_name:0 "Horsemen"
- language_horsemen_desc:0 "The Horsemen speak a creole of Breton and Yoku"
+ language_horsemen_name:0 "Новокасазийский"
+ language_horsemen_desc:0 "Язык племени редгардов, именуемая "лошадниками", родом с Акос Касазая. Своё начало язык берёт из старойокуданского, подвергшегося видоизменению из-за влияния бретонского языка, распространённого на территории, где в данный момент обитает племя."
  
- language_iron_orcish_name:0 "Iron Orcish"
- language_iron_orcish_desc:0 "The Iron Orcs have their own manner of Orcish, incomprehensible to those versed in stronghold Orcish. Along with their curious religion (for Orcs that is) it further sets apart this unique and mysterious culture. Speculation abounds on this dissimilarity in both speech and religion."
+ language_iron_orcish_name:0 "Железноорочий"
+ language_iron_orcish_desc:0 "Железные орки имеют свой собственный язык, непонятный тем, кто знает орочий язык, распространённых в орочьих крепостях. Вместе с их диковинной религией (по меркам орков) это еще больше выделяет эту уникальную и загадочную культуру. О непохожести речи и религии ходит множество домыслов."
  
- language_keptu_name:0 "Keptu"
- language_keptu_desc:0 "The Ket-Keptu language is curt and simple, but spoken phrases can cascade to considerable length due to its long (and often untranslatable) compound words. The Redguards claim that the Keptu language knows more than a hundred words for stone, but this anecdote is not usually taken seriously."
+ language_keptu_name:0 "Кептский"
+ language_keptu_desc:0 "Язык кет-кепту немногословен и прост, но разговорные фразы могут достигать значительной длины из-за сложносоченённых (и часто непереводимых) слов. Редгарды утверждают, что язык Кепту хранит более сотни слов для обозначения камня, но этот факт чаще всего воспринимается в качестве анекдота"
  
- language_kothri_name:0 "Kothri"
- language_kothri_desc:0 "Least conservative among all the Nedic languages in Black Marsh, Kothri has borrowed much from its neighbours, including Cyrod verbs, Dunmeri onomastics and phonemes native to Jel. Despite this generous borrowing, the Kothri tongue remains recognisable as a Mannish language, and preserves ancient Nedic roots."
+ language_kothri_name:0 "Котринский"
+ language_kothri_desc:0 "Наименее консервативный из всех недийских языков Чернотопья.Язык Котри заимствовал многое у своих соседей, включая глаголы из сиродильского, ономастику данмериса и фонемы, родные для Джеля. Несмотря на эти щедрые заимствования, язык Котри остается одним из маннских языков и сохраняет древние недийские корни."
  
- language_kreathish_name:0 "Kreathtongue"
- language_kreathish_desc:0 "The Men-of-Kreath spoke a language that has much in common with Reachtongue, but also archaic Nordic as passed down in the skaldic tradition. To some, this proves that the Atmorans were once Nedes before they departed towards the northern continent, while others assume that Kreathtongue preserved early Atmoran influence better than other local dialects."
+ language_kreathish_name:0 "Фолкритский"
+ language_kreathish_desc:0 "Данный язык имеет много общего с языком ричменов, а также с скальдическим нордским языком. Некоторые считают, что данное явление является подтверждением теории о том, что атморцы имеют недические корни, перед тем как обосноваться на северном континенте. Другие считают, что фолкритский язык перенял многое из раннего атморского языка"
  
- language_jaegi_name:0 "Jaegi"
- language_jaegi_desc:0 "The Jaegi speak the ancestral language that the Tsaesci rejected. It could, in theory, be traced to its hypothetical ancestors back on Tamriel, but such an endeavor would surely kill a corpus of scholars."
+ language_jaegi_name:0 "Джаэгский"
+ language_jaegi_desc:0 "Язык Джаэги, один из числа забытых языков цаэски. Теоритически можно проследить за его видеизменением вплоть до того, как он появился на Тамриэле, но цена такой попытки обойдётся жизнями и временем множества учёных из-за опасностей, таящихся на родине данного языка."
  
- language_jel_name:0 "Jel"
- language_jel_name_desc:0 "Jel, the language spoken by the Saxhleel, defies classification and to many outsiders, comprehension. It is defined as much by what can be expressed in it as by that which is impossible to express, such as the fundamental concept of time, or things odious to the Argonians' ethics. Spoken Jel is usually embellished and modulated through body language, and can convey concepts so specific yet indistinct that translation into other languages is outright impossible."
+ language_jel_name:0 "Аргонианский"
+ language_jel_name_desc:0 "Более известный как джель - язык, на котором говорят саксхлил. Не поддается классификаций, а для многих посторонних - и пониманию. Он определяется как тем, что можно выразить на нем, так и тем, что невозможно выразить, например, фундаментальным понятием времени или вещами, одиозными для аргониан. Речь на языке джел обычно приукрашивается и модулируется языком тела и может передавать настолько конкретные и в то же время нечеткие понятия, что перевод на другие языки становится совершенно невозможным."
 
- language_lilmothiit_name:0 "Lilmothiit"
- language_lilmothiit_desc:0 "Unique among languages in Tamriel, the Lilmothiit tongue makes no distinction between the sexes, but instead employs a number of other registers in its spoken form to address others according to their relative status, age, current location relative to their prowl, travelling experience, and so on. Most outsiders attempting to learn it have a hard time adjusting to this, and tend to use simple "standard" Lilmothiit that makes them sound boorish and a little naive, which some Lilmothiit, at least, find endearing."
+ language_lilmothiit_name:0 "Лилмотитский"
+ language_lilmothiit_desc:0 "Уникальный среди языков Тамриэля, лилмотиитский язык не делает различий между полами, но вместо этого использует ряд других слов в своей разговорной форме, позволяя обратиться к другим в соответствии с их относительным статусом, возрастом, текущим местоположением относительно их прайда, опытом путешествий и т.д. Большинство чужаков, пытающихся выучить этот язык, с трудом приспосабливаются к нему и используют "стандартный" лилмотиитский, который звучит весьма хамовато и наивно, что некоторые лилмотитцы находят очаровательным."
  
- language_nedic_name:0 "Nedic"
- language_nedic_desc:0 "The ancient Nedes spoke innumerable dialects, some of which are close to languages spoken to this day while others are so different as to boggle the mind and complicate attempts at categorization. The prevalent belief is that the Nedic languages descend from the primordial Ehlnofex of the et'Ada, and that though the various Nedic dialects share a common ancestry with the Elven languages, they developed in metaphysical opposition to them."
+ language_nedic_name:0 "Недийский"
+ language_nedic_desc:0 "Древние неды говорили на бесчисленных диалектах, некоторые из которых близки к языкам, на которых говорят до сих пор, в то время как другие настолько различны, что сбивают с толку и усложняют попытки классификации. Распространено мнение, что недские языки произошли от первобытного эльнофекса эт'Ада, и что, хотя различные недские диалекты имеют общих предков с эльфийскими языками, они развивались в противопоставлении с ними."
  
- language_nordic_name:0 "Nordic"
- language_nordic_desc:0 "Nordic is spoken all across Skyrim and in many communities with Nord roots. It descends from Atmoran but has seen intensifying Cyrodilic influence due to both foreign trade and education, and the effective hegemony of the Second Empire over the Nords in the last centuries. Draconic also influenced it during the heyday of the Dragon Cult."
+ language_nordic_name:0 "Нордский"
+ language_nordic_desc:0 "На нордском языке говорят по всему Скайриму и во многих общинах с нордскими корнями. Он происходит от атморанского, но в последние столетия в нем усилилось сиродильское влияние, благодаря внешней торговле, а также долгосрочной гегемонии Второй империи над нордами. Драконий язык также оставил на нём свой след во времена расцвета культа Дракона."
 
- language_old_bretic_name:0 "Old Bretic"
+ language_old_bretic_name:0 "Старобретонский"
  
- language_old_cyrod_name:0 "Old Cyrod"
- language_old_cyrod_desc:0 "The most pristine of the Nedic tongues in Cyrodiil, the isolated and marginal communities of Old Cyrodilic speakers have been left on the periphery of Ayleid then Imperial civilization. This enabled them to keep a speech relatively free of outside influence."
+ language_old_cyrod_name:0 "Старосиродильский"
+ language_old_cyrod_desc:0 "Самый нетронутый из недических языков Сиродила. Изолированные и маргинальные сообщества носителей старосиродильского языка остались на периферии айлейдской, а затем и имперской цивилизаций. Это позволило им сохранить речь, относительно свободную от внешнего влияния."
  
- language_orma_name:0 "Orma"
- language_orma_desc:0 "Orma has been mistaken as a primitive stage in the Cyrodiilic language, but this understanding is merely skin-deep; while it does have much in common with the languages of Cyrod, the Orma language is tonal, and contains close to a dozen vowel tones, the subtle distinctions to which can add hints of irony, innuendo, and even contradicton to otherwise perfect homophones." 
+ language_orma_name:0 "Ормийский"
+ language_orma_desc:0 "Орма был ошибочно принят за примитивную стадию сиродильского языка, что является лишь поверхностным его описанием; хотя он имеет много общего с языками Сиродила, язык Орма тонален и содержит около дюжины гласных тонов, тонкие различия которых могут добавить намек на иронию, намек, создавая идеальные омофоны." 
  
- language_horwalli_name:0 "Horwalli"
- language_horwalli_desc:0 "The Horwalli language has long puzzled scholars, who have attempted to connect it to ancient riverine dialects of Nibenese, to the Keptulet tongue, and even to a sacred language once spoken by the Rontha ruling class. It remains alien even in the alien Black Marsh, but its rules and sounds correspond to those of a Nedic language."
+ language_horwalli_name:0 "Хорвалийский"
+ language_horwalli_desc:0 "Язык Хорвалли долгое время озадачивал ученых, которые пытались связать его с древними диалектами нибенийского языка, с языком кепту и даже со священным языком, на котором когда-то говорил правящий класс Ронта. Он остается инородным даже для Чернотопья. При всём этом его правила и звуки соответствуют недийского языку."
  
- language_orcish_name:0 "Orcish"
- language_orcish_desc:0 "Orcish is perhaps the most misunderstood and scorned idiom in Tamriel. It is a specialist skill to know the tongue of the Orsimer due to prejudice (some likened it to “learning Centaurian or Giantish”) and their distrust. Thankfully, stronghold exiles with didactic leanings have contributed to disseminating the language and - hopefully - furthering the acceptance of their kin in Tamriel."
+ language_orcish_name:0 "Орочий"
+ language_orcish_desc:0 "Орочий язык - это, пожалуй, самый непонятный и наполненный идиомами язык в Тамриэле. Сложность в изучении языка орсимеров связана из-за предрассудков (некоторые сравнивают его с "изучением кентаврского или великанского") и недоверия к его носителям. К счастью, изгнанники из крепостей, склонные к дидактике, внесли свой вклад в распространение языка и - будем надеяться - в дальнейшее принятие своих сородичей в Тамриэле."
  
- language_perena_name:0 "Perena"
- language_perena_desc:0 "Scholars have found it troublesome to reconstruct the Perena language, not only due to the scarceness of its sources: the Perena ruling class placed great importance on the acquisition of foreign language, Nedic and otherwise, and Perena inscriptions resemble a linguistic patchwork."
+ language_perena_name:0 "Перенский"
+ language_perena_desc:0 "Изучение языка Перены вызывает затруднения у ученых не только из-за скудости источников. Перенский язык напоминает лоскутное одеяло, что вызвано большим вниманием правящего класа Перены к изучению иностранных языков, как недийских, так и иных, с взаимствованием оттуда терминов."
  
- language_quey_name:0 "Quey"
- language_quey_desc:0 "Lying halfway between Tamriel and Akavir, the thalassocratic Chimer of Cathnoquey understandably have their own vernacular. Just like its speakers went further away in their Exodus, Quey has strayed further yet from Aldmeris than either Chimeris or Dunmeris back in Dawn's Beauty."
+ language_quey_name:0 "Квейский"
+ language_quey_desc:0 "Находясь между Тамриэлем и Акавиром, талассократические кимеры Катнокея имеют свой собственный диалект. Подобно тому, как его носители ушли дальше во время Исхода, Квей еще дальше ушел от Альдмериса, чем кимерский или данмерский во времена Тамриэля"
  
- language_reachtongue_name:0 "Reachtongue"
- language_reachtongue_desc:0 "The fractious Reachfolk have their own parlances, despite constant warring, alliances, trade and intermarriage. Although there isn't any official standard, the Witchfolk are shrewd, and have grasped how to overcome dialectal differences on the fly. Generations of envoys have tacitly created a standard variant of Reachtongue."
+ language_reachtongue_name:0 "Ричменский"
+ language_reachtongue_desc:0 "Несмотря на постоянные войны, союзы, торговлю и браки, у раздробленных ричменов есть свои собственные диалекты. Хотя официального стандарта не существует, колдуны проницательны и научились преодолевать диалектные различия на лету. За столь долгий период контакта они негласно создали стандартный вариант языка ричменов."
  
- language_rontha_name:0 "Rontha"
- language_rontha_desc:0 "The Rontha language has a reputation for being chaotic, full of exceptions and irregularities, and appearing more like three languages pretending to be one than an organic whole. Despite this, the old Stonefalls Nedic language holds the eccentric honour of being the sole human tongue to have influenced Chimeris, accounting for the non-Daedric substrate that distinguishes it from the language of Summerset, mostly through martial loanwords."
+ language_rontha_name:0 "Ронтийский"
+ language_rontha_desc:0 "Язык Ронта имеет репутацию хаотичного, полного исключений и противоречий, и больше похожего на три языка, выдающих себя за один, чем на органичное целое. Несмотря на это,данному древнему языку принадлежит честь быть единственным человеческим языком, оказавшим влияние на кимерский. "
  
- language_riektongue_name:0 "Riektongue"
- language_riektongue_desc:0 "Riektongue is the single other language on Tamriel related to that of the Goblins, though divergence a long time ago and the isolation of the Rieklings and Riekrs has made it so distinct as to make it unintelligible to other Goblins. Speakers of other languages find it just as unintelligible, in general."
+ language_riektongue_name:0 "Риеклингский"
+ language_riektongue_desc:0 "Риеклинский язык единственный в Тамриэле, родственный языку гоблинов, хотя давнее расхождение и изоляция риеклингов сделали его настолько отличным, что он не понятен гоблинам. Говорящие на других языках находят его столь же неразборчивым."
  
- language_skaal_name:0 "Skaal"
- language_skaal_desc:0 "The insular Skaal have their own branch of Atmoran language known as Skaal or “Skaal Nordic”. Their isolation has left their tongue free of much continental influence and it is more conservative than Nordic, much like their religion."
+ language_skaal_name:0 "Скаальский"
+ language_skaal_desc:0 "У изолированных скаалов есть своя ветвь атморского языка, известная как скаальский или скаальский нордский. Благодаря своей изолированности их язык не подвержен влиянию континента, и он более консервативен,как и их религия, чем нордский язык."
  
- language_taagra_name:0 "Ta'agra"
- language_taagra_desc:0 "Khajiit means “sandwalker” in Ta'agra, a clear reference to the many dunes of Elsweyr. Ta'agra supposedly has no word for rules calling them “foolish concepts”. Still, the Khajiit have formed prosperous kingdoms, have a rich religious canon and established an Empire that stretched into Valenwood up to Arenthia. This means they are no strangers to law and organization."
+ language_taagra_name:0 "Каджитский"
+ language_taagra_desc:0 "Более известен как Та'агра. Каджит означает "пустынный путешественник" на языке Та'агра - явная отссылка на многочисленные дюны Эльсвейра. В Та'агра якобы нет слова для обозначения правил, ведь они являются "глупыми понятиями". Тем не менее, каджиты создали процветающие королевства, имеют богатый религиозный канон и основали империю, простиравшуюся от Валенвуда до Арентии. Это означает, что им не чужды закон и организация."
  
- language_tsaesci_name:0 "Tsaesci"
- language_tsaesci_desc:0 "The defining feature of Tsaesci is its artificiality. All other languages emerged naturally, but Tsaesci has been created, and such deliberation can be noticed throughout its grammar and vocabulary. It is often described as a cross between poetry and mathematics, and an acquired fluency is always a source of prestige and personal pride. One of the most fascinating things about Tsaesci is total lack of influences, or even ancestry, from other languages; its linguistic sterility is kept via thorough, regular reforms."
+ language_tsaesci_name:0 "Змеиный"
+ language_tsaesci_desc:0 "Определяющей чертой змеиного является его искусственность. Все другие языки возникли естественным путем, но змеиный был создан, и такая продуманность заметна во всей его грамматике и словарном запасе. Его часто описывают как нечто среднее между поэзией и математикой, а свободное владение языком всегда является источником престижа и личной гордости. Одна из самых интересных вещей в змеином - полное отсутствие влияния или даже происхождения из других языков; его лингвистическая стерильность поддерживается путем тщательных, регулярных реформ."
  
- language_velothis_name:0 "Velothis"
- language_velothis_desc:0 "Following the ascension of the Tribunal, the nascent Low Velothi culture was split along sectarian lines that solidified into an ethnic divide. The hostile and hardened Velothi people kept the name and religion of their forefathers as they developed their culture. The Ashlanders and House Dunmer do not share the same language anymore."
+ language_velothis_name:0 "Велотийский"
+ language_velothis_desc:0 "После возвышения Трибунала культура Ранних Велоти раскололась на разные этносы. Враждебный и ожесточенный народ Велоти сохранил имя и религию своих предков по мере развития своей культуры. Эшлендеры и данмеры из великих домов больше не говорят на одном языке."
 
- language_yespest_name:0 "Yespest"
- language_yespest_desc:0 "The Yespest speak a Nedic language that bears some tenuous resemblance to ancient Cyrodiilic, but which seems to at once preserve archaic forms that Cyrodiilic has simplified under elven influence, and yet revel in Ayleidoon loanwords and affectations. This seeming contradiction has made it difficult to learn for both human and elven outsiders."
+ language_yespest_name:0 "Йеспетский"
+ language_yespest_desc:0 "Йеспест говорят на недическом языке, который имеет слабое сходство с старосиродильским, но, похоже, одновременно сохраняет архаичные формы, упрощенного сиродильского со времён гегемонии меров, и в то же время изобилует айлейдскими заимствованиями и жеманством. Это кажущееся противоречие сделало его трудным для изучения как для людей, так и для меров."
  
- language_yoku_name:0 "Classical Yoku"
- language_yoku_desc:0 "'Classical Yoku' is a bit of a misnomer, Yoku having obviously evolved since the First Era. From the standpoint of the Redguards it is much closer to the ancient epics. It is common practice among the affluent—moreso Crowns— to have their heirs learn it. "
- language_tamrielic_yoku_name:0 "Tamrielic Yoku"
- language_tamrielic_yoku_desc:0 "The Yoku spoken in Hammerfell can be qualified as 'Tamrielic'. It has substantial influence from Cyrodilic as one can guess but also from Altmer and even Nedic sources but ultimately Yokudan in character. Forebears tend to fully embrace it whilst Crowns make a point of learning Classical Yoku #italic 'to keep the old ways alive'#!."
+ language_yoku_name:0 "Йокуданский (классический)"
+ language_yoku_desc:0 ""Классический йокуданский" - это немного неправильный термин, йокуданский явно эволюционировал со времен Первой Эры. С точки зрения редгардов он гораздо больше отличается от того, на котором написаны их древние эпосы. Среди богатых людей - в первую очередь среди королей - принято, чтобы их наследники изучали этот язык."
+
+ language_tamrielic_yoku_name:0 "Йокуданский (тамриэль)"
+ language_tamrielic_yoku_desc:0 "Йокуданский, на котором говорят в Хаммерфелле, можно назвать "тамриэльским". Как можно догадаться, в нем есть значительное влияние сиродильского языка, а также альдмерских и даже недийских источников, но в конечном итоге он имеет йокуданский характер. Обычные редгарды лояльны к нему, как к упрощённой форме своего языка, в то время как королевские семьи стремятся выучить классический йокуданский #italic "чтобы сохранить старые традиции"!"
  
- language_dovahzul_name:0 "Dovahzul"
+ language_dovahzul_name:0 "Драконий"
  
  #language_maormeris_name:0 "Aldmeris"
- language_maormeris_name:0 "Maormeris"
- language_maormeris_desc:0 "The Aldmeris dialect of the Maormer, colloquially called Pyandoneaic at times. The tongue of the southern reavers is seldom known in Tamriel due to limited interaction"
+ language_maormeris_name:0 "Маомерский"
+ language_maormeris_desc:0 "Диалект альдмерского языка маомеров, в просторечии иногда называемый пиандонейским. Язык южных маомеров редко известен в Тамриэле из-за ограниченного взаимодействия."
 
