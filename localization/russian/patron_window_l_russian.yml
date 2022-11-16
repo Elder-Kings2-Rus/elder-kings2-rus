@@ -5,30 +5,30 @@
  COMMUNE:0 "Commune"
  #patron_commune_tt:0 "Commune with [GetPlayer.Custom('GetPatronName')]"
  #patron_commune_tt:0 "Commune with [Localize(Concatenate(Concatenate('patron_', GetVariableSystem.Get('active_patron')), '_name'))]"
- patron_commune_tt:0 "Commune with [Localize(Concatenate(Concatenate('patron', ValueBreakdown.GetName), '_name'))]"
- NO_PATRONS:0 "No Available Devotion"
- PATRON_MINOR_BOONS:0 "Minor Boons"
- PATRON_OFFERINGS:0 "Offerings"
- PATRON_MAJOR_BOONS:0 "Major Boons"
- patron_back_tt:0 "Back"
+ patron_commune_tt:0 "Общаться с [Localize(Concatenate(Concatenate('patron', ValueBreakdown.GetName), '_name'))]" #?
+ NO_PATRONS:0 "Нет доступной преданности" #???
+ PATRON_MINOR_BOONS:0 "Малые бонусы"
+ PATRON_OFFERINGS:0 "Подношения"
+ PATRON_MAJOR_BOONS:0 "Значительные бонусы"
+ patron_back_tt:0 "Назад"
  #Faith window
- FAITH_PATRONS:0 "Patrons"
- PATRONS_AVAILABLE:0 "Patrons available to [Faith.GetAdherentNamePluralNoTooltip]"
- EFFECTS_ONLY:0 "Effects Only"
- show_desc:0 "Show descriptions"
- show_modifier:0 "Show patron modifiers"
- NO_PATRONS:0 "No Patrons"
- CONFIRM_PATRON:0 "Confirm Patron"
- CONFIRM_PATRON_DESC:0 "You will be unable to change your patron for five years"
- CONFIRM_PATRON_BUTTON:0 "Become a [Trait.GetNameNoTooltip(GetPlayer)]"
- PATRON_TIMEOUT:0 "You cannot select a new patron until [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'recent_patron_selected' ) )]"
- YOUR_PATRON:0 "Your [patron|E]"
+ FAITH_PATRONS:0 "Покровители"
+ PATRONS_AVAILABLE:0 "Покровители, доступные для [Faith.GetAdherentNamePluralNoTooltip]"
+ EFFECTS_ONLY:0 "Эффекты"
+ show_desc:0 "Показать описания"
+ show_modifier:0 "Показать модификаторы покровителя"
+ NO_PATRONS:0 "Нет покровителей"
+ CONFIRM_PATRON:0 "Подтвердить покровителя"
+ CONFIRM_PATRON_DESC:0 "Вы не сможете изменить своего покровителя в течение пяти лет"
+ CONFIRM_PATRON_BUTTON:0 "Стать [Trait.GetNameNoTooltip(GetPlayer)]"
+ PATRON_TIMEOUT:0 "Вы не можете выбрать нового покровителя до [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'recent_patron_selected' ) )]"
+ YOUR_PATRON:0 "Ваш [patron|E]"
  #pantheons
- PATRON_DAEDRIC_PRINCES:0 "Daedric Princes"
- show_hide_desc:0 "[Select_CString( GetVariableSystem.Exists('patron_hide_desc'), 'Hide', 'Show' )] Description"
- gain_ardor_effect:0 "You gain $VALUE|+0$ Ardor@ardor_icon!"
- lose_ardor_effect:0 "You lose $VALUE|-0$ Ardor@ardor_icon!"
- insufficient_ardor:0 "You do not have $VALUE|0$ Ardor@ardor_icon!"
+ PATRON_DAEDRIC_PRINCES:0 "Даэдрические принцы"
+ show_hide_desc:0 "[Select_CString( GetVariableSystem.Exists('patron_hide_desc'), 'Скрыть', 'Показать' )] Описание" #нужен контекст
+ gain_ardor_effect:0 "Вы получаете $VALUE|+0$ Ardor@ardor_icon!"
+ lose_ardor_effect:0 "Вы теряете $VALUE|-0$ Ardor@ardor_icon!"
+ insufficient_ardor:0 "У вас нет $VALUE|0$ Ardor@ardor_icon!"
  #customisable
  selected_patron_name:0 "[GetPlayer.Custom('GetPatronName')]"
  selected_patron_desc:0 "[GetPlayer.Custom('GetPatronDesc')]"
@@ -36,7 +36,7 @@
  patron_ardor:0 "#T Ardor: [GetPlayer.MakeScope.Var(Concatenate('ardor', GetVariableSystem.Get('patron_active'))).GetValue|V0]#!"
  patron_status:0 "#T Status:#!\n[GetPlayer.Custom(Concatenate('GetPatronStatus', GetVariableSystem.Get('patron_active')))]"
  # global variable [patron]_status w/ flag
- patron_status_nominal:0 "Nominal"
+ patron_status_nominal:0 "Nominal" #нужен контекст
  patron_status_ascendant:0 "#P Ascendant#!"
  patron_status_convalescing:0 "#Z Convalescing#!"
  patron_status_cataclysm:0 "#N Cataclym#!"
@@ -47,111 +47,111 @@
  patron_worship_type_allowed:0 "[daedric_allowed|E]"
  patron_worship_type_secret:0 "#N [daedric_secret]#!"
 
- game_concept_patron_trait:0 "Patron Trait"
- game_concept_patron_traits:0 "Patron Traits"
- game_concept_patron_trait_desc:1 "A $game_concept_patron_trait$ is a [trait|E] representing the god or deity a person favours. The [pantheon|E] of a [faith|E] comprises its available deities. Not all [faiths|E] have [patrons|E] available."
+ game_concept_patron_trait:0 "Черта покровителя"
+ game_concept_patron_traits:0 "Черты покровителя"
+ game_concept_patron_trait_desc:1 "$game_concept_patron_trait$ - это [Concept('trait', 'черта')|E], представляющая бога или божество, которому отдает предпочтение человек. В [Concept('pantheon', 'пантеон')|E] [Concept('faith', 'веры')|E] входят доступные божества. Не у всех [Concept('faiths', 'конфессий')|E] есть [Concept('patrons', 'покровители')|E]."
 
- patron_no_selection:0 "No Patron Selected"
+ patron_no_selection:0 "Покровитель не выбран"
 
  patron_azura_name:0 "[GetPlayer.Custom('GetObAzuraName')]"
- patron_azura_desc:0 "Queen of Dawn and Dusk"
+ patron_azura_desc:0 "Королева рассвета и заката"
  patron_azura_long_desc:0 "[GetPlayer.Custom('GetObAzuraDesc')]"
  patron_azura_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_azura')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_azura')]\nArdor: [GetPlayer.MakeScope.Var('ardor_azura').GetValue|+0]"
- desc_azura:0 "Daedric Prince of Dawn and Dusk, Azura rules over Moonshadow in Oblivion. She is typically depicted as a woman holding a star and cresent moon. Azura is known for the curse that transformed the Chimer into the Dunmer after the Battle of Red Mountain."
+ desc_azura:0 "Даэдрический принц рассвета и заката, Азура правит Лунной тенью в Обливионе. Обычно ее изображают в виде женщины, держащей в руках звезду и луну. Азура известна проклятием, которое превратило кимеров в данмеров после битвы у Красной горы."
 
  patron_boethiah_name:0 "[GetPlayer.Custom('GetObBoethiahName')]"
- patron_boethiah_desc:0 "Deceiver of Nations"
+ patron_boethiah_desc:0 "Обманщик народов"
  patron_boethiah_long_desc:0 "[GetPlayer.Custom('GetObBoethiahDesc')]"
  patron_boethiah_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_boethiah')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_boethiah')]\nArdor: [GetPlayer.MakeScope.Var('ardor_boethiah').GetValue|+0]"
- desc_boethiah:0 "Daedric Prince of Plots, Boethiah rules over the Realm of Boethia in Oblivion. She is typically depicted as a warrior - male or female. In the Merethic Era Boethiah is aledged to have 'eaten' Trinimac, giving rise to Malacath and the Orsimer."
+ desc_boethiah:0 "Даэдрический принц заговоров, Боэтия правит своим королевством в Обливионе. Обычно ее изображают в виде воина - мужчины или женщины. Считается, что в Меретическую эпоху Боэтия "съела" Тринимака, породив Малаката."
  
  patron_clavicus_name:0 "[GetPlayer.Custom('GetObClavicusName')]"
- patron_clavicus_desc:0 "Master of Insidious Wishes"
+ patron_clavicus_desc:0 "Мастер коварных желаний"
  patron_clavicus_long_desc:0 "[GetPlayer.Custom('GetObClavicusDesc')]"
  patron_clavicus_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_clavicus')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_clavicus')]\nArdor: [GetPlayer.MakeScope.Var('ardor_clavicus').GetValue|+0]"
- desc_clavicus:0 "Daedric Prince of Trickery and Bargains, Clavicus Vile rules over the Fields of Regret in Oblivion. He is typically depicted as a horned daedra, accompanied by Barbas. This depiction has endured since the Merethic Era, being found in cave paintings from the period." #cant actually find anything major he's done prior to the Khanaten Flu, everything is in the future, relative to the start date
+ desc_clavicus:0 "Даэдрический принц хитрости и сделок, Клавикус Виле правит Полями Сожаления в Забвении. Обычно его изображают в виде рогатого даэдра в сопровождении Барбаса. Это изображение сохранилось со времен Меретической эры, его можно найти на наскальных рисунках того периода.." #cant actually find anything major he's done prior to the Khanaten Flu, everything is in the future, relative to the start date
  
  patron_hermaeus_name:0 "[GetPlayer.Custom('GetObHermaeusName')]"
- patron_hermaeus_desc:0 "Demon of Knowledge"
+ patron_hermaeus_desc:0 "Демон знаний"
  patron_hermaeus_long_desc:0 "[GetPlayer.Custom('GetObHermaeusDesc')]"
  patron_hermaeus_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_hermaeus')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_hermaeus')]\nArdor: [GetPlayer.MakeScope.Var('ardor_hermaeus').GetValue|+0]"
- desc_hermaeus:0 "Daedric Prince of Forbidden Knowledge, Hermaeus Mora rules over Apocrypha in Oblivion. He is typically depicted as the Wretched Abyss, a swirling mass of eyes and tentacles. Nordic Myth tells that Ysgramor was almost tricked by Hermaeus Mora into becoming an Elf."
+ desc_hermaeus:0 "Даэдрический принц Запретного знания, Хермеус Мора, правит Апокрифом в Обливионе. Обычно его изображают в виде Отвратительной Бездны, клубящейся массы глаз и щупалец. Нордические мифы рассказывают, что он  обманом почти превратил Исграмора в эльфа."
  
  patron_hircine_name:0 "[GetPlayer.Custom('GetObHircineName')]"
- patron_hircine_desc:0 "Father of Manbeasts"
+ patron_hircine_desc:0 "Отец зверолюдей"
  patron_hircine_long_desc:0 "[GetPlayer.Custom('GetObHircineDesc')]"
  patron_hircine_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_hircine')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_hircine')]\nArdor: [GetPlayer.MakeScope.Var('ardor_hircine').GetValue|+0]"
- desc_hircine:0 "Daedric Prince of the Hunt, Hircine rules over the Hunting Grounds in Oblivion. He is typically depicted as a humanoid figure with the head replaced by the skull of a buck deer."
+ desc_hircine:0 "Даэдрический принц охоты, Хирсин правит охотничьими угодьями в Обливионе. Обычно его изображают в виде человекоподобной фигуры с головой, замененной черепом оленя."
  
- patron_jyggalag_name:0 "Jyggalag"
- patron_jyggalag_desc:0 "Prince of Order"
- patron_jyggalag_long_desc:0 "Daedric Prince of Order, Jyggalag currently exists in the form of Sheogorath. He is relatively unknown in Tamriel, thus few depictions of him exist. At the end of each Era Jyggalag assumes his original form and restores the Shivering Isles to order."
+ patron_jyggalag_name:0 "Джиггалаг"
+ patron_jyggalag_desc:0 "Принц порядка"
+ patron_jyggalag_long_desc:0 "Даэдрический принц порядка, Джиггалаг в настоящее время существует в облике Шеогората. Он относительно неизвестен в Тамриэле, поэтому существует мало его изображений. В конце каждой Эпохи Джиггалаг принимает свой первоначальный облик и восстанавливает порядок на Дрожащих островах."
  
  patron_malacath_name:0 "[GetPlayer.Custom('GetObMalacathName')]"
- patron_malacath_desc:0 "Defender of the Betrayed"
+ patron_malacath_desc:0 "Защитник преданных"
  patron_malacath_long_desc:0 "[GetPlayer.Custom('GetObMalacathDesc')]"
  patron_malacath_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_malacath')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_malacath')]\nArdor: [GetPlayer.MakeScope.Var('ardor_malacath').GetValue|+0]"
- desc_malacath:0 "Daedric Prince of the Spurned, Malacath rules over the Ashpit in Oblivion. He is typically depicted as an Orc wielding a sword or axe. Malacath has a dedicated following among the Orsimer, with many living by his creed - The Code of Malacath."
+ desc_malacath:0 "Даэдрический принц Отверженных. Обычно его изображают в виде орка с мечом или топором. У Малаката есть преданные последователи среди орсимеров, многие из которых живут по его кредо - Кодексу Малаката."
  
  patron_mehrunes_name:0 "[GetPlayer.Custom('GetObMehrunesName')]"
- patron_mehrunes_desc:0 "Most Puissant Lord"
+ patron_mehrunes_desc:0 "Могучий Владыка"
  patron_mehrunes_long_desc:0 "[GetPlayer.Custom('GetObMehrunesDesc')]"
  patron_mehrunes_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_mehrunes')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_mehrunes')]\nArdor: [GetPlayer.MakeScope.Var('ardor_mehrunes').GetValue|+0]"
- desc_mehrunes:0 "Daedric Prince of Destruction, Mehrunes Dagon rules over the Deadlands in Oblivion. He is typically depicted as having four arms with features resembling an Orc. The destruction of Mournhold in the First Era was caused by Mehrunes Dagon." #if someone has a better description, please add it
+ desc_mehrunes:0 "Даэдрический принц разрушения, Мерунес Дагон, правит Мертвыми землями в Обливионе. Обычно его изображают с четырьмя руками и чертами лица, напоминающими орка. Разрушение Морнхолда в Первую эпоху было вызвано именно Мерунесом Дагоном." #if someone has a better description, please add it
  
  patron_mephala_name:0 "[GetPlayer.Custom('GetObMephalaName')]"
- patron_mephala_desc:0 "Teacher of the Secret Arts"
+ patron_mephala_desc:0 "Учитель тайных искусств"
  patron_mephala_long_desc:0 "[GetPlayer.Custom('GetObMephalaDesc')]"
  patron_mephala_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_mephala')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_mephala')]\nArdor: [GetPlayer.MakeScope.Var('ardor_mephala').GetValue|+0]"
- desc_mephala:0 "Daedric Prince of an obscured sphere, Mephala rules over the Spiral Skein in Oblivion. She is typically depicted as a Dunmer woman with the lefs of a spider growing from her back, but is known to assume other forms depending on her target."
+ desc_mephala:0 "Даэдрический принц непонятной сферы, Мефала правит Спиральным мотком в Обливионе. Обычно ее изображают в виде данмерской женщины с листьями паука, растущими из спины, но известно, что она может принимать и другие формы в зависимости от цели."
  
  patron_meridia_name:0 "[GetPlayer.Custom('GetObMeridiaName')]"
- patron_meridia_desc:0 "Lady of Infinite Energies"
+ patron_meridia_desc:0 "Госпожа бесконечных энергий"
  patron_meridia_long_desc:0 "[GetPlayer.Custom('GetObMeridiaDesc')]"
  patron_meridia_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_meridia')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_meridia')]\nArdor: [GetPlayer.MakeScope.Var('ardor_meridia').GetValue|+0]"
- desc_meridia:0 "Daedric Prince of Energy and Life, Meridia rules over the Colored Rooms in Oblivion. She is typically depicted as a woman with large feathered wings wearing a robe. She is considered to be one of the more benevolent Princes due to her hatred of the undead."
+ desc_meridia:0 "Даэдрический принц энергии и жизни, Меридия правит Цветными комнатами в Обливионе. Обычно ее изображают в виде женщины с большими пернатыми крыльями, облаченной в мантию. Она считается одним из самых доброжелательных принцев из-за своей ненависти к нежити."
  
  patron_molag_name:0 "[GetPlayer.Custom('GetObMolagName')]"
- patron_molag_desc:0 "Harvester of Souls"
+ patron_molag_desc:0 "Жнец душ"
  patron_molag_long_desc:0 "[GetPlayer.Custom('GetObMolagDesc')]"
  patron_molag_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_molag')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_molag')]\nArdor: [GetPlayer.MakeScope.Var('ardor_molag').GetValue|+0]"
- desc_molag:0 "Daedric Prince of Dominion, Molag Bal rules over Coldharbour in Oblivion. He is typically depicted with the rough form of a satyr and a lamprey like mouth. Also known as the Patriarch of Vampires, dedicated followers maybe rewarded with Pureblood Vampirism" #really really need better description
+ desc_molag:0 "Даэдрический принц господства Молаг Бал правит Хладной Гаванью в Обливионе. Также известен как Патриарх вампиров, преданные последователи могут быть вознаграждены чистокровным вампиризмом." #really really need better description
  
  patron_namira_name:0 "[GetPlayer.Custom('GetObNamiraName')]"
- patron_namira_desc:0 "Lady of Decay"
+ patron_namira_desc:0 "Госпожа разложения"
  patron_namira_long_desc:0 "[GetPlayer.Custom('GetObNamiraDesc')]"
  patron_namira_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_namira')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_namira')]\nArdor: [GetPlayer.MakeScope.Var('ardor_namira').GetValue|+0]"
- desc_namira:0 "Daedric Prince of Ancient Darkness, Namira rules over the Scuttling Void in Oblivion. She is typically depicted as a woman in a heavy robe. She has a strong association with beggars, granting the Gift of Pity to the Beggar Prince according to the book by the same name."
+ desc_namira:0 "Даэдрический принц Древней Тьмы, Намира правит Гибельной Пустотой в Обливионе. Обычно ее изображают в виде женщины в тяжелой мантии. Она имеет тесную связь с нищими, наделяя Даром Жалости Принца Нищих, согласно одноименной книге."
  
  patron_nocturnal_name:0 "[GetPlayer.Custom('GetObNocturnalName')]"
- patron_nocturnal_desc:0 "Mistress of Shadows"
+ patron_nocturnal_desc:0 "Хозяйка теней"
  patron_nocturnal_long_desc:0 "[GetPlayer.Custom('GetObNocturnalDesc')]"
  patron_nocturnal_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_nocturnal')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_nocturnal')]\nArdor: [GetPlayer.MakeScope.Var('ardor_nocturnal').GetValue|+0]"
- desc_nocturnal:0 "Daedric Prince of Night and Darkness, Nocturnal rules over the Evergloam in Oblivion. She is typically depicted as a woman with two deep black ravens. She is recognized by many thieves as thier patron, bringing them luck via the sould of departed Nightingales."
+ desc_nocturnal:0 "Даэдрический принц ночи и тьмы, Ноктюрнал правит Вечнотенью в Обливионе. Обычно ее изображают в виде женщины с двумя черными воронами. Многие воры считают ее своим покровителем, приносящим им удачу через могилы ушедших соловьев."
  
  patron_peryite_name:0 "[GetPlayer.Custom('GetObPeryiteName')]"
- patron_peryite_desc:0 "Bringer of Pestilence"
+ patron_peryite_desc:0 "Приносящий мор"
  patron_peryite_long_desc:0 "[GetPlayer.Custom('GetObPeryiteDesc')]"
  patron_peryite_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_peryite')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_peryite')]\nArdor: [GetPlayer.MakeScope.Var('ardor_peryite').GetValue|+0]"
- desc_peryite:0 "Daedric Prince of Natural Order, Peryite rules over the Pits in Oblivion. He is typically depicted as a six limbed dragon, dispite being one of the weaker Princes. Followers of Peryite consider diseases and other maladies to be a blessing from the Prince."
+ desc_peryite:0 "Даэдрический принц естественного порядка, Периит правит Ямами в Обливионе. Обычно его изображают в виде дракона с шестью конечностями, несмотря на то, что он один из самых слабых принцев. Последователи Периита считают болезни и другие недуги благословением принца."
  
  patron_sanguine_name:0 "[GetPlayer.Custom('GetObSanguineName')]"
- patron_sanguine_desc:0 "Lord of Dark Indulgence" #uesp didn't include an actual title, so made one up
+ patron_sanguine_desc:0 "Повелитель темной праздности" #uesp didn't include an actual title, so made one up
  patron_sanguine_long_desc:0 "[GetPlayer.Custom('GetObSanguineDesc')]"
  patron_sanguine_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_sanguine')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_sanguine')]\nArdor: [GetPlayer.MakeScope.Var('ardor_sanguine').GetValue|+0]"
- desc_sanguine:0 "Daedric Prince of Hedonistic Revelry, Sanguine rules over the Myriad Realms of Revelry in Oblivion. He is typically depicted as corpulent dremora holding some form of alcohol. He is considered to be one of the more harmless Princes due to his Sphere."
+ desc_sanguine:0 "Даэдрический принц праздности, Сангвин правит Мириадами царств праздности в Обливионе. Обычно его изображают в виде коренастого дремора, держащего в руках какой-нибудь алкогольный напиток. Он считается одним из самых безобидных принцев благодаря своей сфере."
  
  patron_sheogorath_name:0 "[GetPlayer.Custom('GetObSheogorathName')]"
- patron_sheogorath_desc:0 "Comforter of Men"
+ patron_sheogorath_desc:0 "Утешитель людей"
  patron_sheogorath_long_desc:0 "[GetPlayer.Custom('GetObSheogorathDesc')]"
  patron_sheogorath_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_sheogorath')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_sheogorath')]\nArdor: [GetPlayer.MakeScope.Var('ardor_sheogorath').GetValue|+0]"
- desc_sheogorath:0 "Daedric Prince of Madness, Sheogorath rules over the Shivering Isles in Oblivion. He is typically depicted as a man in fine clothes holding a cane. He was originally the Prince of Order, but was cursed to madness by the other Princes as they feared his power."
+ desc_sheogorath:0 "Даэдрический принц безумия, Шеогорат правит Дрожащими островами в Обливионе. Обычно его изображают в виде человека в изысканной одежде, держащего в руках трость. Изначально он был принцем порядка, но другие принцы, опасаясь его власти, прокляли его до безумия."
  
  patron_vaermina_name:0 "[GetPlayer.Custom('GetObVaerminaName')]"
- patron_vaermina_desc:0 "Weaver of the Panoply"
+ patron_vaermina_desc:0 "Ткач судеб"
  patron_vaermina_long_desc:0 "[GetPlayer.Custom('GetObVaerminaDesc')]"
  patron_vaermina_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_vaermina')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_vaermina')]\nArdor: [GetPlayer.MakeScope.Var('ardor_vaermina').GetValue|+0]"
- desc_vaermina:0 "Daedric Prince of Dreams, Vaermina rules over Quagmire in Oblivion. He is typically depicted as an older woman wielding a staff, sometimes accompanied by a snake. Her followers are often alchemists, their most notable concoction being Vaermina's Torpor."
+ desc_vaermina:0 "Даэдрический принц снов, Ваэрмина правит Куагмиром в Забвении. Обычно её изображают в виде пожилой женщины с посохом, иногда в сопровождении змеи. Ее последователи часто являются алхимиками, их самое известное снадобье - Торпор Ваермины."
 
  #long_desc direct from uesp as placeholder, should be changed
 
@@ -196,17 +196,17 @@
 
  desc_jephre:0 "[GetPlayer.Custom('GetJephreVerse')]"
  normal_desc_jephre:0 "Бог леса, сказитель, дух нашего времени, который заставил звезды качаться в такт своей симфонии, превратил себя в Кости Земли и установил законы природы для всех."
- poet_desc_jephre:0 "Praise we now Jephre\nO first Ehlnofey\nGod of the forest\nEarth Bones showed the way" #стих
+ poet_desc_jephre:0 "Кто Земли Кости чтит,\nСлавит Джефре сильней,\nИ леса защитит\nПервый из эльнофей." 
 
  desc_yffre:0 "Бог леса, сказитель, дух нашего времени, который заставил звезды качаться в такт своей симфонии, превратил себя в Кости Земли и установил законы природы для всех."
 
  desc_magnus:0 "[GetPlayer.Custom('GetMagnusVerse')]"
  normal_desc_magnus:0 "Бог магии, бог солнца, король-колдун. Известен как Архитектор Мундуса, поскольку создал схемы и диаграммы, необходимые для его строительства, но бежал на Этериус до его завершения, прихватив с собой Магна-Ге."
- poet_desc_magnus:0 "Praise we now Magnus\nThe Sorceror-King\nGives us his magic\nNirn under his wing" #стих
+ poet_desc_magnus:0 "Ты прими наши гимны,\nМагнус, Нирна творец,\nНашей магии дивной\nВсемогущий отец." 
  
  desc_phynaster:0 "[GetPlayer.Custom('GetPhynasterVerse')]"
  normal_desc_phynaster:0 "Культ бога-героя Саммерсета, хотя формально и не является частью пантеона Альдмери, все еще сохраняется по всей провинции и за ее пределами. Он знаменит тем, что научил альтмеров продлевать свою жизнь еще на сотню лет, просто укорачивая шаг."
- poet_desc_phynaster:0 "Phynaster, teach us your stride\nFor years are long\nSo long is gone\nThe youth from our eyes" #стих
+ poet_desc_phynaster:0 "В трудный, Финастер, час\nТы наставь нас на путь,\nВедь никак ясность глаз\nНам уже не вернуть." 
 
  desc_syrabane:0 "[GetPlayer.Custom('GetSyrabaneVerse')]"
  poet_desc_syrabane:0 "Сирабейн, о Сирабейн!\nСудьбу свою прими.\nСирабейн, о Сирабейн,\nМладший из Восьми."
@@ -214,7 +214,7 @@
  
 
  desc_trinimac:0 "[GetPlayer.Custom('GetTrinimacVerse')]"
- poet_desc_trinimac:0 "Oh, Fallen Paragon\nWielder of Penitent\nJustice to bear upon\nthe Mortal Offence" #стих
+ poet_desc_trinimac:0 "Парагон Снизошедший,\nМолим мы с покаяньем:\nТы на выродков грешных\nОбрушь наказанье." 
  normal_desc_trinimac:0 "Выдающийся бог первых альдмеров, часто изображаемый с Пенинтентом, своим мечом, Тринимак известен как защитник Почитаемых Предков. Он был на передовой в битве против Лорхана и вырвал его сердце своими руками."
 
  desc_xarxes:0 "[GetPlayer.Custom('GetXarxesVerse')]"
@@ -222,7 +222,7 @@
  normal_desc_xarxes:0 "Вечный, тот, кто наблюдает, бог тайн и скрытых знаний. Он ведет учет всех достижений Альдмери с начала времен. Заркс шепчет нам на ухо, побуждая нас всегда учиться, всегда искать и всегда открывать для себя новое."
 
  desc_xen:0 "[GetPlayer.Custom('GetXenVerse')]"
- poet_desc_xen:0 "Bountiful Xen\nBless our plows\nSeeds sowed again\nHeed our bows" #стих
+ poet_desc_xen:0 "Молим, Зен, мы о малом:\nСемя скоро взойдёт,\nТак что наши орала\nТвоих жаждут щедрот." 
  normal_desc_xen:0 "Аспект Аурбиса, как и другие Аэдра. Он - бог труда, мести, земледелия и расплаты. Некоторые считают его чужеземным богом, но альтмеры поклоняются ему, как любому другому из своих предков."
  desc_zen:0 "Аспект Аурбиса, как и другие Аэдра. Он - бог труда, мести, земледелия и расплаты. Некоторые считают его чужеземным богом, но альтмеры поклоняются ему, как любому другому из своих предков."
  
