@@ -306,10 +306,10 @@
  #  PATRON_PASSIVE_MISSION:0 "Divine Mission"
  #  dagoth_the_sharmat:0 "Did you ever hear the tragedy of Dagoth Ur The Sharmat? I thought not. It's not a story the Tribunal would tell you. It's a Sixth House legend. Dagoth Ur was the High Councilor of House Dagoth, so powerful and so wise he could use the Tools to influence the Heart to become a god… He had such a knowledge of the Heart, he could even keep himself from dying. The Heart of Lorkhan is a pathway to many abilities some consider to be divine. He became so powerful… the only thing he was afraid of was facing the Nerevarine, which eventually, of course, he did. Unfortunately, he welcomed the Nerevarine to the Heart Chamber, then the Nerevarine used the Tools on the Heart. Ironic. He could keep the Tribunal from The Heart, but was kept himself."
  
- action_pick_patron:0 "Choose a Patron"
+ action_pick_patron:0 "Выберите покровителя"
  action_pick_patron_label:0 "$action_pick_patron$"
- action_pick_patron_desc:2 "You have no patron.\n\n#help Your [faith|E] has patron traits. Each trait gives you a bonus of some form.#!"
- action_pick_patron_click:0 "#I Click to view potential patrons for your faith#!"
+ action_pick_patron_desc:2 "У вас нет покровителя.\n\n#help Ваша [faith|E] имеет покровителей. Каждый признак дает вам бонус в той или иной форме.#!"
+ action_pick_patron_click:0 "#I Нажмите, чтобы просмотреть потенциальных покровителей для вашей веры#!"
 
  within_date:0 "Within one month of [Localize(Concatenate('prince_', '$VALUE|0$'))]'s summoning day #F ([Localize(Concatenate('date_prince_', '$VALUE|0$'))])#!"
  #not_within_date:0 "Not within one month of [SCOPE.GetFlagName('prince')]'s summoning day"
