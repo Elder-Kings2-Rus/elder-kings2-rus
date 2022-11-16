@@ -1,15 +1,15 @@
 ﻿l_russian:
- GAME_YEARS_SINCE_START_DATE_STRING:0 "Years from game start: $YEARS|V$\nIt has been [GetCurrentDate.GetYear] years since the start of the First Era"
- THIS_IS_YOU_WHOLESOME_CHONKER:0 "This is you, the wholesome chonker"
- GOLD_COST_LONG:0 "Gold Drakes: [gold_i] $VALUE|0$" # EK EDIT
- GOLD_TEXT:0 "$VALUE|0$ Gold Drakes" # EK EDIT
+ GAME_YEARS_SINCE_START_DATE_STRING:0 "Прошло лет с начала игры: $YEARS|V$\nПрошло [GetCurrentDate.GetYear] лет с начала Первой эры"
+ THIS_IS_YOU_WHOLESOME_CHONKER:0 "Это ты, здоровенная туша"
+ GOLD_COST_LONG:0 "Золотые дрейки: [gold_i] $VALUE|0$" # EK EDIT
+ GOLD_TEXT:0 "$VALUE|0$ золотых дрейков" # EK EDIT
  SCOPE_DYNASTY:1 "[dynasty|E] [ROOT.Dynasty.GetBaseName]:"
- GAME_DATE_STRING:0 "$DAY|O$ of $MONTH$, [Select_CString( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ), '2E', '1E' )] [Subtract_int32( '(int32)$YEAR$', Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ) ), '(int32)1' ), '(int32)2920' ) )]"
+ GAME_DATE_STRING:0 "$DAY|O$ $MONTH$, [Select_CString( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ), '2E', '1E' )] [Subtract_int32( '(int32)$YEAR$', Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ) ), '(int32)1' ), '(int32)2920' ) )]"
  GAME_DATE_STRING_SHORT:0 "$DAY$ $MONTH_SHORT$ [Select_CString( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ), '2E', '1E' )] [Subtract_int32( '(int32)$YEAR$', Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ) ), '(int32)1' ), '(int32)2920' ) )]" # EK Era System
- GAME_DATE_STRING_LONG:2 "$DAY|O$ of $MONTH$, [Select_CString( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ), '2E', '1E' )] [Subtract_int32( '(int32)$YEAR$', Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ) ), '(int32)1' ), '(int32)2920' ) )]"
- 2E_DATE:0 "2E [Subtract_int32( GetCurrentDate.GetYear, '(int32)2920' )]" # EK Era System
+ GAME_DATE_STRING_LONG:2 "$DAY|O$ $MONTH$, [Select_CString( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ), '2E', '1E' )] [Subtract_int32( '(int32)$YEAR$', Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ) ), '(int32)1' ), '(int32)2920' ) )]"
+ 2E_DATE:0 "2Э [Subtract_int32( GetCurrentDate.GetYear, '(int32)2920' )]" # EK Era System
  
- game_concept_barony:0 "Lordship"
- game_concept_baronies:0 "Lordships"
- game_concept_barons:0 "Lords"
- game_concept_baron:0 "Lord"
+ game_concept_barony:0 "лордство"
+ game_concept_baronies:0 "лордства"
+ game_concept_barons:0 "лорды"
+ game_concept_baron:0 "лорд"

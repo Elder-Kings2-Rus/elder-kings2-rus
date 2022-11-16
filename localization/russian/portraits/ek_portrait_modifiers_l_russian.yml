@@ -230,6 +230,8 @@
  PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_war_01:0 "Альтмерская стеклянная броня"
  PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_male_noble_war_01:0 "Альтмерский стеклянный шлем"
  
+ PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_common_war_01:0 "Альтмерская броня из лунного камня"
+ 
  PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_01_common:0 "Альтмерская обычная одежда 1"
  PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_02_common:0 "Альтмерская обычная одежда 2"
  
@@ -254,10 +256,32 @@
  PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_female_noble_war_01:0 "Альтмерская стеклянная броня"
  PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_female_noble_war_01:0 "Альтмерский стеклянный шлем"
  
+ PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_female_common_war_01:0 "Альтмерская броня из лунного камня"
+ 
  PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_01_low:0 "Альтмерский нашейный доспех низшее дворянство"
  PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_02_low:0 "Альтмерская накидка низшее дворянство"
  PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_01_high:0 "Альтмерский нашейный доспех высшее дворянство"
  PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_02_high:0 "Альтмерская накидка высшее дворянство"
+ 
+ #########################################
+################ Akaviri ################
+#########################################
+
+
+### Male ###
+PORTRAIT_MODIFIER_custom_clothes_male_clothes_kimono_samurai_01_common:0 "Акавирская обычная одежда"
+PORTRAIT_MODIFIER_custom_clothes_male_clothes_kimono_samurai_01_low:0 "Акавирское низшее дворянство"
+PORTRAIT_MODIFIER_custom_clothes_male_clothes_kimono_samurai_01_high:0 "Акавирское высшеее дворянство"
+
+PORTRAIT_MODIFIER_custom_legwear_male_legwear_tabi_01_high:0 "Акавирские Таби носки"
+
+### Female ###
+PORTRAIT_MODIFIER_custom_clothes_female_clothes_kimono_kosode_01_common:0 "Акавирская обычная одежда"
+PORTRAIT_MODIFIER_custom_clothes_female_clothes_kimono_kosode_01_low:0 "Акавирское низшее дворянство"
+PORTRAIT_MODIFIER_custom_clothes_female_clothes_kimono_kosode_01_high:0 "Акавирское высшеее дворянство"
+
+PORTRAIT_MODIFIER_custom_legwear_female_legwear_tabi_01_high:0 "Акавирские Таби носки"
+ 
  
  #########################################
  ################ Misc ################

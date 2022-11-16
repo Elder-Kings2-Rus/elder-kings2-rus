@@ -2,7 +2,7 @@
  ### CULTURE PARAMETERS
  culture_parameter_bonuses_from_plunderer_trait:0 "Characters with the [GetTrait('plunderer').GetName( GetNullCharacter )] [trait|E] are seen as [prestige_i][prestigious|E] and can [raid|E] faster"
  culture_parameter_unlocks_feudal_government:0 "Unlocks the [feudal_government|E] for [autocratic|E] [rulers|E]"
- culture_parameter_unlocks_pirate_government:0 "Unlocks the [pirate_government|E] for [autocratic|E] [rulers|E]"
+ culture_parameter_unlock_pirate_government:0 "Unlocks the [pirate_government|E] for [autocratic|E] [rulers|E]"
  culture_parameter_unlocks_praxis_government:0 "Unlocks the [praxis_government|E] for [autocratic|E] [rulers|E]"
  culture_parameter_weak_rulers_contest_rule:0 "Rulers with high [prowess_i|E][prowess_skill|E] may pay [prestige|E] to claim [titles|E] held by other rulers. The higher the difference of Prowess between the rulers, the lower the cost."
  culture_parameter_stewardship_education_worse_outcomes:0 "Characters of this culture do worse in Stewardship education"
