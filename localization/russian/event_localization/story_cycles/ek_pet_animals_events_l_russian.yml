@@ -3,72 +3,72 @@
  #   PARROT   #
  ##############
  parrot_story_modifier:0 "Pet Parrot"
- parrot_story_modifier_desc:0 "This character enjoys the company of an exotic bird, flying around them wherever they go"
- parrot_story_eating_fruit_modifier:0 "Fresh Fruits and Parrot"
- parrot_story_eating_fruit_modifier_desc:0 "This character enjoys sharing fresh fruits with their parrot"
- parrot_story_fighting_with_you_modifier:0 "Battle Parrot"
- parrot_story_fighting_with_you_modifier_desc:0 "In battle, this character can always be seen with their parrot not far from them, distracting enemies and even sometimes hurting them."
+ parrot_story_modifier_desc:0 "Этот персонаж наслаждается обществом экзотической птицы, которая летает вокруг них, куда бы они ни пошли"
+ parrot_story_eating_fruit_modifier:0 "Свежие фрукты и попугай"
+ parrot_story_eating_fruit_modifier_desc:0 "Этот персонаж с удовольствием делится свежими фруктами со своим попугаем"
+ parrot_story_fighting_with_you_modifier:0 "Боевой попугай"
+ parrot_story_fighting_with_you_modifier_desc:0 "В бою этого персонажа всегда можно увидеть со своим попугаем неподалеку от себя, отвлекающим врагов и даже иногда нападающим на их."
  
- parrot_gender_her:0 "her"
- parrot_gender_his:0 "his"
- parrot_gender_him:0 "him"
- parrot_gender_she:0 "she"
- parrot_gender_he:0 "he"
- parrot_gender_herself:0 "herself"
- parrot_gender_himself:0 "himself"
- parrot_gender_female:0 "female"
- parrot_gender_male:0 "male"
+ parrot_gender_her:0 "её"
+ parrot_gender_his:0 "его"
+ parrot_gender_him:0 "ему"
+ parrot_gender_she:0 "она"
+ parrot_gender_he:0 "он"
+ parrot_gender_herself:0 "сама"
+ parrot_gender_himself:0 "сам"
+ parrot_gender_female:0 "самка"
+ parrot_gender_male:0 "самец"
  
- plumage_color_red:0 "red"
- plumage_color_green:0 "green"
- plumage_color_blue:0 "blue"
+ plumage_color_red:0 "красный"
+ plumage_color_green:0 "зелёный"
+ plumage_color_blue:0 "синий"
  
  parrot_name:1 "[ROOT.Char.GetLocalizedText( 'story_cycle_parrot_name' )]"
  parrot_name_possessive:1 "[ROOT.Char.Custom( 'ParrotStoryName' )]'s"
- parrot_name_orsone:0 "Orsone"
- parrot_name_coco:0 "Coco"
- parrot_name_abby:0 "Abby"
+ parrot_name_orsone:0 "Орсон"
+ parrot_name_coco:0 "Коко"
+ parrot_name_abby:0 "Эбби"
  
- ek_pet_animal.0001.t:0 "The Parrot"
- ek_pet_animal.0001.desc:1 "As the parrot flies in the room, happily singing, I ponder what I should name [ROOT.Char.Custom('ParrotStoryHerHim')]. Something historical? Something alluding to [ROOT.Char.Custom('ParrotStoryHerHis')] [ROOT.Char.Custom('ParrotPlumageColor')] plumage? Something to describe the soothing feeling I experience when [ROOT.Char.Custom('ParrotStorySheHe')] sings around me?\n\nOh, I know! I will name [ROOT.Char.Custom('ParrotStoryHerHim')]..."
- ek_pet_animal.0001.a:1 "What a great name!"
+ ek_pet_animal.0001.t:0 "Попугай"
+ ek_pet_animal.0001.desc:1 "Пока попугай летает по комнате, радостно напевая, я размышляю, как его назвать [ROOT.Char.Custom('ParrotStoryHerHim')]. Что нибудь историческое? Что-то опирающиеся на [ROOT.Char.Custom('ParrotStoryHerHis')] [ROOT.Char.Custom('ParrotPlumageColor')] цвет? Что-то, чтобы описать успокаивающее чувство, которое я испытываю, когда [ROOT.Char.Custom('ParrotStorySheHe')] поет рядом со мной?\n\nО, я знаю! я назову его [ROOT.Char.Custom('ParrotStoryHerHim')]..."
+ ek_pet_animal.0001.a:1 "Что за чудесное имя!"
  
  ### Random parrot events
  # You eat some fruits with your parrots, smol health modifier
- ek_pet_animal.0101.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: Fresh Fruits"
- ek_pet_animal.0101.desc:0 "I have taken the habit to spend some time with [ROOT.Char.Custom('ParrotStoryName')] at the end of the day, sharing some fresh fruits with [ROOT.Char.Custom('ParrotStoryHerHim')].\n\nI don't know if that's because of the fruits or [ROOT.Char.Custom('ParrotStoryName')], but I feel more energetic and healthy!"
+ ek_pet_animal.0101.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: Свежие фрукты"
+ ek_pet_animal.0101.desc:0 "Я взял за привычку иногда проводить время с [ROOT.Char.Custom('ParrotStoryName')] в конце дня, давая свежие фрукты [ROOT.Char.Custom('ParrotStoryHerHim')].\n\nНе знаю, связано ли это с фруктами или с [ROOT.Char.Custom('ParrotStoryName')], но я чувствую себя более энергичным и здоровым!"
  ek_pet_animal.0101.a:0 "Leave some for me [ROOT.Char.Custom('ParrotStoryName')]!"
  
  # Your parrot goes with you into battle!
- ek_pet_animal.0102.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: Beak and Claws"
- ek_pet_animal.0102.desc:0 "It seems that the bravery of [ROOT.Char.Custom('ParrotStoryName')] knows no bound! Be it in large scale battles, small skirmishes, or even in singular duels, [ROOT.Char.Custom('ParrotStorySheHe')] never leaves your side and fights with you.\n\nYour opponents, friendly or not, seem to even be frightened of [ROOT.Char.Custom('ParrotStoryHerHim')], and more than one were defeated because [ROOT.Char.Custom('ParrotStoryName')] distracted them with [ROOT.Char.Custom('ParrotStoryHerHis')] [ROOT.Char.Custom('ParrotPlumageColor')] plumage, or even because [ROOT.Char.Custom('ParrotStorySheHe')] pecked them!"
+ ek_pet_animal.0102.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: Клюв и когти"
+ ek_pet_animal.0102.desc:0 "Кажется, что храбрость [ROOT.Char.Custom('ParrotStoryName')] не знает границ! Будь то крупномасштабные сражения, небольшие стычки или даже одиночные поединки, [ROOT.Char.Custom('ParrotStorySheHe')] никогда не покидает вас и сражается вместе с вами.\n\nВаши противники, кажется, даже боятся [ROOT.Char.Custom('ParrotStoryHerHim')], и не один враг был побежден потому что [ROOT.Char.Custom('ParrotStoryName')] отвлек их про помощи [ROOT.Char.Custom('ParrotStoryHerHis')] [ROOT.Char.Custom('ParrotPlumageColor')] окраса, или даже потому что [ROOT.Char.Custom('ParrotStorySheHe')] клевал их!"
  ek_pet_animal.0102.a:0 "With me, into battle!"
  
  # Your parrot attacked a vassal! Wound or possibly an eye removal
- ek_pet_animal.0103.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: Pecking the Eyes"
- ek_pet_animal.0103.desc_wounded:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with you, [ROOT.Char.Custom('ParrotStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\n[vassal.GetFirstName] managed to flee the room, but not before your parrot could severly hurt [vassal.GetHerHim]..."
- ek_pet_animal.0103.desc_eye_removed_not_one_eyed:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with you, [ROOT.Char.Custom('ParrotStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\nAn intense scream was soon heard, and after [ROOT.Char.Custom('ParrotStoryName')] was put back into [ROOT.Char.Custom('ParrotStoryHerHis')] cage [vassal.GetFirstName] could be seen holding [vassal.GetHerHis] hand near [vassal.GetHerHis] one of her eyes... with blood dripping."
- ek_pet_animal.0103.desc_eye_removed_one_eyed:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with you, [ROOT.Char.Custom('ParrotStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\nAn intense scream was soon heard, and after [ROOT.Char.Custom('ParrotStoryName')] was put back into [ROOT.Char.Custom('ParrotStoryHerHis')] cage [vassal.GetFirstName] could be seen holding [vassal.GetHerHis] hand near [vassal.GetHerHis] only remaining eye... with blood dripping.\n\n'I CAN'T SEE' could [vassal.GetSheHe] be heard screaming. 'THIS IS ALL YOUR FAULT, YOU AND YOUR STUPID BIRD!'"
- ek_pet_animal.0103.a:0 "I hope [vassal.GetFirstName] will be all right..."
- ek_pet_animal.0103.b:0 "Oh no..."
+ ek_pet_animal.0103.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: Пристальный взгляд"
+ ek_pet_animal.0103.desc_wounded:0 "Ужас в тронном зале! Пока [vassal.GetName] ожидал аудиенции с вами, [ROOT.Char.Custom('ParrotStoryName')], казалось бы, из ниоткуда, решил напасть на [vassal.GetHerHim]!\n\n[vassal.GetFirstName] успел убежать из комнаты, но не раньше, чем ваш попугай сильно покалечил [vassal.GetHerHim]..."
+ ek_pet_animal.0103.desc_eye_removed_not_one_eyed:0 "Ужас в тронном зале! Пока [вассал.GetName] ожидал аудиенции с вами, [ROOT.Char.Custom('ParrotStoryName')], казалось бы из ниоткуда, решил напасть на [вассала.GetHerHim]!\n\nВскоре раздался сильный крик, и после того, как [ROOT.Char. Custom('ParrotStoryName')] был помещен обратно в [ROOT.Char.Custom('ParrotStoryHerHis')] клетку. Смотря на [vassal.GetFirstName] можно было увидеть, как он держит руку [vassal.GetHerHis] возле одного из глаз [vassal.GetHerHis]... из которого капала кровь."
+ ek_pet_animal.0103.desc_eye_removed_one_eyed:0 "Ужас в тронном зале! Пока [вассал.GetName] ожидал аудиенции с вами, [ROOT.Char.Custom('ParrotStoryName')], казалось бы из ниоткуда, решил напасть на [вассала.GetHerHim]!\n\nВскоре раздался сильный крик, и после того, как [ROOT.Char. Custom('ParrotStoryName')] был помещен обратно в [ROOT.Char.Custom('ParrotStoryHerHis')] клетку. Смотря на [vassal.GetFirstName] можно было увидеть, как он держит руку [vassal.GetHerHis] возле одного из глаз [vassal.GetHerHis]... из которого капала кровь.\n\n'Я НЕ ВИЖУ!!!' был слышего [vassal.GetSheHe] пронзительный крик. 'ЭТО ТВОЯ ВИНА! ЭТО ВСЕ ТВОЯ ИДИОТСКАЯ ПТИЦА!'"
+ ek_pet_animal.0103.a:0 "Я надеюсь что с [vassal.GetFirstName] все будет хорошо..."
+ ek_pet_animal.0103.b:0 "О нет..."
  
  # Parrot dies :(
- ek_pet_animal.0199.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: Day of Sorrow"
- ek_pet_animal.0199.desc:0 "[ROOT.Char.Custom('ParrotStoryName')] is not as young as [ROOT.Char.Custom('ParrotStorySheHe')] once was, and I can hear it in [ROOT.Char.Custom('ParrotStoryHerHis')] singing, not as strong and stable as it was some years ago.\n\nI gently pet [ROOT.Char.Custom('ParrotStoryHerHis')] [ROOT.Char.Custom('ParrotPlumageColor')] plumage and listen to [ROOT.Char.Custom('ParrotStoryHerHim')] softly sing and try to flap [ROOT.Char.Custom('ParrotStoryHerHis')] wings, but as silence falls I know that [ROOT.Char.Custom('ParrotStoryHerHis')] morning song won't wake me up again."
- ek_pet_animal.0199.a:0 "I will miss you, [ROOT.Char.Custom('ParrotStoryName')]!"
+ ek_pet_animal.0199.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: День скорби"
+ ek_pet_animal.0199.desc:0 "[ROOT.Char.Custom('ParrotStoryName')] больше не так молод и бодр как раньше, я все еще слышу [ROOT.Char.Custom('ParrotStoryHerHis')] пение, но оно больше не такое яркое и сильное как раньше.\n\nЯ нежно погладил [ROOT.Char.Custom('ParrotStoryHerHis')] [ROOT.Char.Custom('ParrotPlumageColor')] перья и прислушался к [ROOT.Char.Custom('ParrotStoryHerHim')] тихому пению и попыткам взмахнуть [ROOT.Char.Custom('ParrotStoryHerHis')] крыльями, но когда наступила тишина, я понял что [ROOT.Char.Custom('ParrotStoryHerHis')] пение не разбудит меня следующим утром..."
+ ek_pet_animal.0199.a:0 "Я буду скучать по тебе, [ROOT.Char.Custom('ParrotStoryName')]!"
  
- pet_parrot_decision:0 "Pet [ROOT.Char.Custom('ParrotStoryName')]"
- pet_parrot_decision_desc:0 "I know how much [ROOT.Char.Custom('ParrotStoryName')] loves flying around, and it always soothes me to hear [ROOT.Char.Custom('ParrotStoryHerHim')] happily sing and cuddle me. While it takes a lot of effort, and money, to properly feed and take care of [ROOT.Char.Custom('ParrotStoryHerHim')], no matter how tough life gets I know [ROOT.Char.Custom('ParrotStorySheHe')] will always be there for me!"
- pet_parrot_decision_tooltip:0 "Pet your parrot"
- pet_parrot_decision_confirm:0 "Pet your parrot"
+ pet_parrot_decision:0 "Погладить [ROOT.Char.Custom('ParrotStoryName')]"
+ pet_parrot_decision_desc:0 "Я знаю насколько [ROOT.Char.Custom('ParrotStoryName')] любил летать вокруг, и меня всегда успокаивало [ROOT.Char.Custom('ParrotStoryHerHim')] счастливое пение. Хоть правильное питание и забота за [ROOT.Char.Custom('ParrotStoryHerHim')] жизнью требует много усилий и средств, я знаю что [ROOT.Char.Custom('ParrotStorySheHe')] всегда будет рядом со мной!"
+ pet_parrot_decision_tooltip:0 "Погладить вашего попугая"
+ pet_parrot_decision_confirm:0 "Погладить вашего попугая"
  
  # You pet your parrot :)
- ek_pet_animal.0501.t:0 "A nice time with [ROOT.Char.Custom('ParrotStoryName')]"
- ek_pet_animal.0501.desc:0 "As you enter your room, you can immediatly hear [ROOT.Char.Custom('ParrotStoryName')] chirp in excitment.\nWith a smile on your face you open [ROOT.Char.Custom('ParrotStoryHerHis')] cage and let [ROOT.Char.Custom('ParrotStoryHerHim')] open [ROOT.Char.Custom('ParrotStoryHerHis')] wings before taking off.\n[ROOT.Char.Custom('ParrotStoryName')] flies around the room for a few moments, before landing in your hand and cuddling your neck with [ROOT.Char.Custom('ParrotStoryHerHis')] head.\n\nAs you laugh, you feel the weight of the world already lifting from your shoulders."
- ek_pet_animal.0501.a:0 "You're tickling me!"
+ ek_pet_animal.0501.t:0 "Приятное времяпрепровождение с [ROOT.Char.Custom('ParrotStoryName')]"
+ ek_pet_animal.0501.desc:0 "Как только вы входите в комнату, вы видите как [ROOT.Char.Custom('ParrotStoryName')] cвзволнованно щебечет.\nС улыбкой на лице вы открываете [ROOT.Char.Custom('ParrotStoryHerHis')] клетку и даете [ROOT.Char.Custom('ParrotStoryHerHim')] раскрыть свои крылья, прежде чем взлететь.\n[ROOT.Char.Custom('ParrotStoryName')] облетает всю комнату в считанные секунды, прежде чем сесть вам на плечи и положить [ROOT.Char.Custom('ParrotStoryHerHis')] голову на вашу шею.\n\nВы смеясь, ощущаете как вся тяжесть и сходит с ваших плеч, и вам становится легче..."
+ ek_pet_animal.0501.a:0 "Мне щекотно!"
  
- ek_pet_animal.0502.desc:0 "With [ROOT.Char.Custom('ParrotStoryName')]'s favorite treat in your hand, you enter your small garden where [ROOT.Char.Custom('ParrotStoryName')] usually spends most of [ROOT.Char.Custom('ParrotStoryHerHis')] time.\nAs soon as [ROOT.Char.Custom('ParrotStorySheHe')] spots you, or maybe the fruits in your hand, [ROOT.Char.Custom('ParrotStorySheHe')] starts happily singing and flying around you.\nSoon after [ROOT.Char.Custom('ParrotStorySheHe')] lands on your shoulder and picks the treats in your hand.\n\nAs you laugh, you already feel better and ready to face everything the world can send at you."
- ek_pet_animal.0502.a:0 "Don't eat everything [ROOT.Char.Custom('ParrotStoryName')]!"
+ ek_pet_animal.0502.desc:0 "С любимымым лакомством вашего [ROOT.Char.Custom('ParrotStoryName')] вы входите в небольшой сад, где [ROOT.Char.Custom('ParrotStoryName')] обычно проводит большую часть своего времени.\nКак только [ROOT.Char.Custom('ParrotStorySheHe')] заметит вас, или фрукты в вашей руке, [ROOT.Char.Custom('ParrotStorySheHe')] начинает радостно петь и летать вокруг вас.\nВскоре после этого [ROOT.Char.Custom('ParrotStorySheHe')] садится на ваше плечо и клюет лакомства с ваших рук.\n\nВы смеясь, чувствуете как вам становится легче и вы готовы встетить лицом все что готовит для вас этот мир"
+ ek_pet_animal.0502.a:0 "Не ешь что попало! [ROOT.Char.Custom('ParrotStoryName')]!"
 
  ##############
  #   SCORPION   #
