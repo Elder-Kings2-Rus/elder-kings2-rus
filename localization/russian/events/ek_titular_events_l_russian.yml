@@ -1,14 +1,14 @@
 ﻿l_russian:
  ### Unify nativity region
- ektitulartitle.0001.t:0 "The [new_kingdom.GetName]"
- ektitulartitle.0001.desc:0 "With the unification of [ROOT.Char.GetHerHis] home region, [ROOT.Char.GetNameNoTooltip] has declared [ROOT.Char.GetHerselfHimself] to be the new ruler of [new_kingdom.GetName]. Celebrations are to be held across the land, from [city_1.GetNameNoTier] to [city_2.GetNameNoTier]!"
- ektitulartitle.0001.a:0 "Thus begins my new rule!"
+ ektitulartitle.0001.t:0 "[new_kingdom.GetName]"
+ ektitulartitle.0001.desc:0 "После объединения [ROOT.Char.GetHerHis] родного региона, [ROOT.Char.GetNameNoTooltip] [Select_CString(CHARACTER.IsFemale, 'объявила', 'объявил' )] [ROOT.Char.GetHerselfHimself] новым правителем [new_kingdom.GetName]. По всей стране, от [city_1.GetNameNoTier] до [city_2.GetNameNoTier], пройдут пиршества!"
+ ektitulartitle.0001.a:0 "Так начинается моё новое правление!"
  ### Forming an Empire
  ## Reach
- ektitulartitle.1001.t:0 "A true High King of the Reach?"
- ektitulartitle.1001.desc:0 "The diverse lands and people of the Reach had been divided for millenia. Each tribe was ruled by its chief, and while a handful of Chief-of-Chiefs would dare call themselves 'Ard' or High Chief, none truly took the title of King of the Reach.\n\nToday, [ROOT.Char.GetName] has officially been crowned [ROOT.Char.GetTitleTierName] of the Reach, a first in written history."
- ektitulartitle.1001.a:0 "I shall go on to greater things still!"
- ektitulartitle.1001.b:0 "Now my people can rest."
- ektitulartitle.1002.desc:0 "In a shocking turn of events, the disparate tribes and cities of the Reach have been unified around a single ruler! [FROM.Char.GetTitledFirstName] is now the sole ruler of the Reach, and a true power in Tamriel.\n\nThe neighbouring lords hold their breath, waiting to see what fate has in store for them."
- ektitulartitle.1002.a:0 "Savages, nothing more."
- ektitulartitle.1002.b:0 "Will thehy stand the test of time?"
+ ektitulartitle.1001.t:0 "Истинный Верховный король Предела?"
+ ektitulartitle.1001.desc:0 "Земли и народ Предела были разделены тысячелетиями. Каждое племя управлялось своим вождем, и хотя горстка осмеливалась называть себя "Ардом" или Верховным вождем, ни один из них не носил титул короля Предела.\n\nСегодня [ROOT.Char.GetName] [Select_CString(CHARACTER.IsFemale, 'коронована', 'коронован' )] как [ROOT.Char.GetTitleTierName] Предела - впервые в письменной истории."
+ ektitulartitle.1001.a:0 "Я пойду дальше, к еще большим свершениям!"
+ ektitulartitle.1001.b:0 "Теперь мой народ сможет отдохнуть."
+ ektitulartitle.1002.desc:0 "В результате поразительного поворота событий разрозненные племена и города Предела объединились вокруг одного правителя! [FROM.Char.GetTitledFirstName] теперь является единственным правителем Предела и истинной силой в Тамриэле.\n\nСоседние лорды затаили дыхание, ожидая, что им уготовила судьба."
+ ektitulartitle.1002.a:0 "Дикари, не более."
+ ektitulartitle.1002.b:0 "Выдержат ли они проверку временем?"
