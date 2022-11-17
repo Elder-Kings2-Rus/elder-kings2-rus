@@ -45,7 +45,7 @@
  culture_parameter_courage_valued:0  "Храбрыми персонажами восхищаються, а Трусливых и Бесчуственных презирают"
  culture_parameter_revenge_valued:0  "Мстительными персонажами восхищаються, а Незлобливых и Переменчевых презирают"
  culture_parameter_cruelty_valued:0  "Садистами персонажами восхищаються, а Сострадательных и Застенчевых презирают"
- culture_parameter_faith_valued:0  "Zealous Characters are admired whilst Cynical and Arrogant individuals are scorned Фанатичными персонажами восхищаються, а Циничных и Заносчивых презирают" 
+ culture_parameter_faith_valued:0  "Фанатичными персонажами восхищаються, а Циничных и Заносчивых презирают" 
  culture_parameter_forder_trait_bonuses:0  "Персонажи с Знанием брода могут высаживаться без штрафа и плыть быстрее" 
  culture_parameter_poorly_educated_leaders_greatly_distrusted_ceremoniarchy:0 "[rulers|E] с плохим [education_traits|E], такими как [GetTrait('education_martial_1').GetName( GetNullCharacter )] или [GetTrait('education_martial_2').GetName( GetNullCharacter )], полузуются #N greatly#! недоверием"
 
@@ -55,7 +55,7 @@
  culture_parameter_bossy_trait_more_common:0 "Черта Властность встречается чаще"
  culture_parameter_bossy_trait_less_common:0 "Черта Властность встречается реже"
  culture_parameter_charming_trait_more_common:0 "Черта Очарование встречается чаще"
- culture_parameter_charming_trait_less_common:0 "TЧерта Очарование встречается реже"
+ culture_parameter_charming_trait_less_common:0 "Черта Очарование встречается реже"
 
 ##EVENTS PARAMETERS
  culture_parameter_wandering_poets_may_appear:0 "Бродячие поэты могут появиться при дворе, чтобы прославить или высмеять ваше правление"
