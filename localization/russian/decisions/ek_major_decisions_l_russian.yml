@@ -6,7 +6,6 @@
  has_raided_for_two_hundred_gold_ct:0 "От налётов вы получили 200 [gold|E]"
  become_pirate_government_decision_duchy_tier_title_ct:0 "Вы создадите титул, подберёте имя и собственный флаг, который будет развеваться во время плавания в открытом море"
  become_pirate_government_decision_total_loot_workaround_ct:0 "#N Приведенное ниже количество золота соответсвует общей добыче, накопленной за годы налётов.#!"
-## "It is purely informative" решил не переводить 
  
  disorganized_military_reform_military_decision:0 "Reform the [ROOT.Char.GetCulture.GetNameNoTooltip] Military"
  disorganized_military_reform_military_decision_desc:0 "Most of our kind does not believe in elite soldiers and professional warriors, preferring to overwhelm the battlefield with bodies.\n\nBut most of our kind does not understand anything about war. It is time to reorganize our way of waging war from the ground up, and finally form a proper army, capable of clashing with the rest of Tamriel."
