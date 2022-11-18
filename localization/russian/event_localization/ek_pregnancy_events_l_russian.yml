@@ -1,22 +1,21 @@
 ﻿l_russian:
- pregnancy.argonian.1001.t:0 "Egg Laid!"
- pregnancy.argonian.1001.d:0 "I have just laid an egg. My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], will be proud!"
+ pregnancy.argonian.1001.t:0 "Яйцо отложено!"
+ pregnancy.argonian.1001.d:0 "Я только что отложила яйцо. Мой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], будет гордиться!"
 
- pregnancy.argonian.1002.t:0 "Egg Laid!"
- pregnancy.argonian.1002.d:0 "Fate smiles upon me! My [spouse.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], has laid an egg!"
+ pregnancy.argonian.1002.t:0 "Яйцо отложено!"
+ pregnancy.argonian.1002.d:0 "Судьба улыбается мне! Моя [spouse.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], снесла яйцо!"
 
- pregnancy.argonian.2101.t:0 "Still Egg"
- pregnancy.argonian.2101.desc_other_children:0 "As my egg grows still so does my unease. This is not the first time I am egg-tending, but this ominous sensation is new; something is amiss.\n\nI can barely sleep all night, and as I rise in the morning I find my egg-tenders grieving."
- pregnancy.argonian.2101.desc_pain:0 "As my egg grows still so does my unease. This is the first time I am egg-tending, but this ominous sensation cannot be right; something is amiss.\n\nI can barely sleep the night, and as I rise in the morning I find my egg-tenders grieving."
- pregnancy.argonian.2101.desc:0 "As the days go I grow restless instead of my egg. Surely it should show more activity by now? Surely the hatchling would have made itself known?\n\nSomething must have gone wrong, for I can feel no spark of life within my egg."
- pregnancy.argonian.2101.a:0 "My egg is no more."
+ pregnancy.argonian.2101.t:0 "Неподвижное яйцо"
+ pregnancy.argonian.2101.desc_other_children:0 "По мере того, как мое яйцо растет, растет и мое беспокойство. Я ухаживаю за яйцом не в первый раз, но это зловещее ощущение в новинку: что-то не так.\n\nЯ едва могу спать всю ночь, и когда я встаю утром, я вижу, что мои наседки скорбят".
+ pregnancy.argonian.2101.desc_pain:0 "По мере того, как мое яйцо растет, растет и мое беспокойство. Я впервые ухаживаю за яйцом, но это зловещее ощущение не может быть хорошим; что-то не так.\n\nЯ едва могу спать ночь, и когда я встаю утром, я вижу, что мои наседки скорбят".
+ pregnancy.argonian.2101.desc:0 "С течением времени я начинаю больше беспокоиться за свое яйцо. Наверное оно уже должно проявлять признаки активности? Наверное детеныш должен дал бы о себе знать.\n\nЧто-то пошло не так, потому что я не чувствую искры жизни в своем яйце".
+ pregnancy.argonian..2101.a:0 "Моего яйца больше нет."
  
- pregnancy.argonian.2102.desc:0 ""The hatchling was not meant to be."\n\n[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] assures me it is the way of life, but [mother.GetHerHis] gaze seems lost."
+ pregnancy.argonian.2102.desc:0 ""Детенышу не суждено было родиться."\n\n[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] уверяет меня, что такова жизнь, но [mother.GetHerHis] взгляд кажется потерянным"".
 
- birth.argonian.1001.first_birth_good.desc:0 ""When the first cracks started, a great calm came over me. There was no room for my worries from before — I was about to witness one of [ROOT.Char.GetFaith.FertilityGodNamePossessive] greatest miracles. After a long but glorious struggle, the egg cracked open and brought forth"
- birth.argonian.1001.first_birth_scary.desc:0 "I have talked to countless egg-mothers and tenders, taken their advice to heart. Yet, when my time arrived, I realized that no amount of preparation could ever be enough.\n\nThe anxiety was all-consuming and I feared for my life. But I made it through, and now I have"
- birth.argonian.1001.other_gender_heir.desc:0 "One day, Hatchling, you will carry on my legacy."
- birth.argonian.3001.desc_other_child:0 ""Wait just a little bit longer, my [ROOT.Char.GetLadyLord]! The baby is almost here!" A shout of excitement escapes my lips as I gaze upon the egg. Everyone is excited, people have been commenting about this for months and then, it is over. The egg stopped moving.\n\nThe egg-tender cracked the egg and reached inside. "Is [dummy_gender.GetSheHe] alright?" I barely recognize my own voice. "Is [dummy_gender.GetSheHe]... Is it a [dummy_gender.Custom('GirlBoy')]?"\n\nThe egg-tender does not answer me, does not even look at me. No, she only has eyes for the unmoving infant in her arms."
+ birth.argonian.1001.first_birth_good.desc:0 ""Когда появились первые трещины, меня охватило огромное спокойствие. Моим прежним беспокойствам не было места — я собиралась стать свидетелем одного из величайших чудес [ROOT.Char.GetFaith.FertilityGodNamePossessive]. После долгой, но славной борьбы яйцо раскололось и вылупилось".
+ birth.argonian.1001.first_birth_scary.desc:0 "Я разговаривала с бесчисленным количеством наседок и кормильцев, прислушивалась к их советам. Но когда пришло мое время, я поняла, что какой угодно подготовки никогда не будет достаточно.\n \nТревога была всепоглощающей, и я боялась за свою жизнь. Но я я справилась, и теперь у меня есть"
+ birth.argonian.1001.other_gender_heir.desc:0 "Однажды, Детеныш, ты унаследуешь мое наследие."
+ birth.argonian.3001.desc_other_child:0 ""Подожди еще немного, [ROOT.Char.GetLadyLord]! Ребенок почти здесь!" С моих губ срывается крик возбуждения, когда я смотрю на яйцо. Все взволнованы, ведь все судачили об этом событии в течение последних месяцев, а затем все кончается.. Яйцо перестало перестало дрожать.\n\nНаседка разбила яйцо и заглянула внутрь. «С [dummy_gender.GetSheHe] все в порядке?» Я едва узнаю собственный голос. «Это [dummy_gender.GetSheHe]... Это [dummy_gender.Custom('GirlBoy')]? "\n\nНаседкаа мне не отвечает, даже не смотрит на меня. Нет, она смотрит только на неподвижного младенца у нее на руках."
 
-
- laid_egg_not_first_child_message:1 "Your [spouse.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], has layed your egg"
+ laid_egg_not_first_child_message:1 "Ваша [spouse.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], отложила ваше яйцо"
