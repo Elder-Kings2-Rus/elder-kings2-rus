@@ -27,9 +27,9 @@
  liege_not_praxis_ct:0 "У вашего правителя не должно быть [GetGovernment( 'praxis_government' ).GetName] типа правительства."
 ## Become Praxis Government
  become_praxis_government_decision:0 "Принять Церемониархию"
- become_praxis_government_decision_desc:0 "Церемония Альдмеров имеет большое значение для нас.\nВедя упорядоченную жизнь, мы, несомненно, должны иметь упорядоченное царство. Давайте неукоснительно следовать Пути к Алаксону, а вместе с ним к процветанию." 
+ become_praxis_government_decision_desc:0 "Церемония Альтмеров имеет большое значение для нас.\nВедя упорядоченную жизнь, мы, несомненно, должны иметь упорядоченное царство. Давайте неукоснительно следовать Пути к Алаксону, а вместе с ним к процветанию." 
  become_praxis_government_decision_tooltip:0 "Мы должны стремиться к совершенству во всём."
- become_praxis_government_decision_confirm:0 "Древние Альдмеры указывают нам путь."
+ become_praxis_government_decision_confirm:0 "Древние Альтмеры указывают нам путь."
 
 
  proclaim_tamriel_empire_decision:0 "Провозгласить Империю Тамриэль."
