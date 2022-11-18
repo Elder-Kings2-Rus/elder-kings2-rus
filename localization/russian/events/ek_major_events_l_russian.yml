@@ -1,7 +1,7 @@
 ﻿l_russian:
  ek_major_decisions.0010.t:0 "Новый Нибеней!"
- ek_major_decisions.0010.desc: "Теперь, когда Восточный Нибеней снова независим, мы должны выбрать новую столицу и назвать наше новое королевство соответственно."
- ek_major_decisions.0010.caer_suvio:0 "Благородное пристанище Каэр Кувио"
+ ek_major_decisions.0010.desc: "Теперь, когда Восточный Нибеней снова независим, мы должны выбрать новую столицу и назвать наше королевство соответственно."
+ ek_major_decisions.0010.caer_suvio:0 "Благородное пристанище Каэр Сувио"
  ek_major_decisions.0010.mir_corrup:0 "Термальные земли в Мир Корруп"
  ek_major_decisions.0010.artemon:0 "Забытый центр Артемона"
  ek_major_decisions.0010.grief:0 "Остров-крепость Гриф"
@@ -11,7 +11,7 @@
  ek_major_decisions.0010.redwater:0 "Коварные пороги Красной Воды"
  ek_major_decisions.0010.entius:0 "Восстановленный форт Энтиус"
  ek_major_decisions.0020.t:0 "Новый Орсиниум!"
- ek_major_decisions.0020.desc:0 "Славься [ROOT.Char.GetFaith.HighGodName]! \n \nУсердствуя, [ROOT.Char.GetFullNameNicknamed] [ROOT.Char.GetNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'смогла', 'смог' )] воплотить великую цель, - теперь орсимеры снова обладают местом, которое можно назвать домом: Орсиниум! Вырван из земель, формально принадлежащих [orsinium_original_liege_kingdom.getName]. \n\nНовости о восстановлении столицы народа-изгоя в [orsinium_capital.getName] распространились повсеместно, и ожидается, что многие племена присоединятся к Орсиниуму, чтобы защитить его от иностранной агрессии. \n\nПусть это будет Орсиниум, который продлится вечно."
+ ek_major_decisions.0020.desc:0 "Славься [ROOT.Char.GetFaith.HighGodName]! \n \nУсердствуя, [ROOT.Char.GetFullNameNicknamed] [Select_CString(ROOT.GetCharacter.IsFemale, 'смогла', 'смог' )] воплотить великую цель, - теперь орсимеры снова обладают местом, которое можно назвать домом: Орсиниум! Он вырван из земель, формально принадлежащих [orsinium_original_liege_kingdom.getName]. \n\nНовости о восстановлении столицы народа-изгоя в [orsinium_capital.getName] распространились повсеместно, и ожидается, что многие племена присоединятся к Орсиниуму, чтобы защитить его от иностранной агрессии. \n\nПусть это будет Орсиниум, который продлится вечно."
  ek_major_decisions.0020.option:0 "Никто не победит орка!"
  ek_major_decisions.0021.t:0 "Новый Орсиниум!"
  ek_major_decisions.0021.desc:0 "Повелевая, [new_orsinium_king.GetFullNameNicknamed] со своим народом, орсимерами, [Select_CString(ROOT.GetCharacter.IsFemale, 'основала', 'основал' )] новый Орсиниум в [orsinium_capital.GetName]. Легендарная столица орков, Орсиниум, уже много раз возвышалась и падала. \n \n Это может оказаться неприятным событием для новых соседей Орсиниума."
