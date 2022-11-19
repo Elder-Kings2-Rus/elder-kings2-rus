@@ -1,11 +1,11 @@
 ﻿l_russian:
- court_magical:0 "Arcane Court"
- court_magical_desc:0 "#low We take pride in our magical abilities and our strong connection to Aetherius. The powers of the arcane both impress and frighten, and sorcerers are placed in all positions of power. \n\nCourtiers gain the [GetTrait('magical_court_1').GetName( GetNullCharacter )] traits.#!"
- court_magical_tooltip_desc:0 "In a $court_magical$ power is shown and exerted via magicka, not mindless force."
+ court_magical:0 "Магический двор"
+ court_magical_desc:0 "# Мы гордимся своими магическими способностями и тесной связью с Этериусом. Арканные силы одновременно впечатляют и пугают, и колдуны занимают все властные посты.. \n\nПридворные получают свойства [GetTrait('magical_court_1').GetName( GetNullCharacter )].#!"
+ court_magical_tooltip_desc:0 "В $court_magical$ сила проявляется и применяется с помощью магии, а не бездумной силы."
  
- multiple_courtiers_gained_magical_2_trait_desc:0 "[courtier_1.GetShortUIName], [courtier_2.GetShortUIName], and [THIS.Var('num_other_relevant_courtiers').GetValue|V0] other courtiers gained the [trait|E] [GetTrait('magical_court_2').GetName( GetNullCharacter )]"
- multiple_courtiers_gained_magical_1_trait_desc:0 "[courtier_1.GetShortUIName], [courtier_2.GetShortUIName], and [THIS.Var('num_other_relevant_courtiers').GetValue|V0] other courtiers gained the [trait|E] [GetTrait('magical_court_1').GetName( GetNullCharacter )]"
+ multiple_courtiers_gained_magical_2_trait_desc:0 "[courtier_1.GetShortUIName], [courtier_2.GetShortUIName], и [THIS.Var('num_other_relevant_courtiers').GetValue|V0] другие придворные получают [trait|E] [GetTrait('magical_court_2').GetName( GetNullCharacter )]"
+ multiple_courtiers_gained_magical_1_trait_desc:0 "[courtier_1.GetShortUIName], [courtier_2.GetShortUIName], и [THIS.Var('num_other_relevant_courtiers').GetValue|V0] other courtiers gained the [trait|E] [GetTrait('magical_court_1').GetName( GetNullCharacter )]"
  
- arcane_court_more_magicka_regen_desc:0 "#P +25%#! [magicka|E] Regeneration"
- arcane_court_more_max_magicka_desc:0 "#P +25%#! Maximum [magicka|E]"
- arcane_court_more_ritual_desc:0 "#P +1#! Ritual Slot"
+ arcane_court_more_magicka_regen_desc:0 "#P +25%#! к генерации [Concept('magicka', 'маны')|E]"
+ arcane_court_more_max_magicka_desc:0 "#P +25%#! к максимальной [Concept('magicka', 'мане')|E]"
+ arcane_court_more_ritual_desc:0 "#P +1#! слот для ритуалов"
