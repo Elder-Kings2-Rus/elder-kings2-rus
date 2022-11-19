@@ -1,7 +1,7 @@
 ﻿l_russian:
  ### Unify nativity region
  ektitulartitle.0001.t:0 "[new_kingdom.GetName]"
- ektitulartitle.0001.desc:0 "После объединения [ROOT.Char.GetHerHis] родного региона, [ROOT.Char.GetNameNoTooltip] [Select_CString(CHARACTER.IsFemale, 'объявила', 'объявил' )] [ROOT.Char.GetHerselfHimself] новым правителем [new_kingdom.GetName]. По всей стране, от [city_1.GetNameNoTier] до [city_2.GetNameNoTier], пройдут пиршества!"
+ ektitulartitle.0001.desc:0 "После объединения [ROOT.Char.GetHerHis] родного региона, [ROOT.Char.GetNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'объявила', 'объявил' )] [ROOT.Char.GetHerselfHimself] новым правителем [new_kingdom.GetName]. По всей стране, от [city_1.GetNameNoTier] до [city_2.GetNameNoTier], пройдут пиршества!"
  ektitulartitle.0001.a:0 "Так начинается моё новое правление!"
  ### Forming an Empire
  ## Reach

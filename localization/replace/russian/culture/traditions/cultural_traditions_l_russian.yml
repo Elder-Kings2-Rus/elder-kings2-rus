@@ -1,25 +1,25 @@
 ﻿l_russian:
  tradition_byzantine_succession_name:1 "Byzantine Traditions" #Not loccing this cause deeply linked to a Vanilla culture
 
- tradition_african_tolerance_name:0 "Религиозная Толерантнось"
+ tradition_african_tolerance_name:0 "Религиозная толерантнось"
 
  tradition_the_witenagemot_name:0 "The Witenagemot" #Not loccing this cause deeply linked to a Vanilla culture
 
  tradition_things_name:1 "Ting-Meet" #Not loccing this cause deeply linked to a Vanilla culture
  
- tradition_saharan_nomads_name:0 "Алик'рские Кочевники"
+ tradition_saharan_nomads_name:0 "Алик'рские кочевники"
  tradition_saharan_nomads_desc:1 "Эта культура тесно связана с пустыней Алик'р, которую она пересекала веками, соединяя Залив Илиак с царствами суб-Алик'р Залива Хубаладжад."
  tradition_himalayan_settlers_name:0 "Жители Гор"
  
- tradition_spartan_name:0 "Выносливый"
+ tradition_spartan_name:0 "Стойкость"
  
- tradition_polders_name:0 "Восстановление Земель"
+ tradition_polders_name:0 "Восстановление земель"
  
  culture_parameter_not_tribal_raiding_malus:0 "После возвращения с успешного [raid|E], non-[tribal|E] and non-[pirate|E] characters #EMP lose#! [EmptyScope.ScriptValue('not_tribal_raid_prestige_multiplier')|1] [prestige_i][prestige|E] per 1 [raid_loot|E] delivered\n#F Characters with the [GetPerk('raider_perk').GetName(GetPlayer)] [perk|E] are unaffected by this penalty#!"
 
- tradition_roman_legacy_name:1 "Имперсоке Наследие"
+ tradition_roman_legacy_name:1 "Имперсоке наследие"
  tradition_roman_legacy_desc:1 "Военная организация Сиродильской Империи до сих пор живёт в памяти этой культуры. Профессиональная армия предпочтительнее ополчения."
  
- tradition_nubian_warrior_queens_name:0 "Королева Воинов"
+ tradition_nubian_warrior_queens_name:0 "Королева воинов"
  tradition_nubian_warrior_queens_desc:0 "Те, кто живет в Акавире, хорошо помнят великих Королев-Воительниц, которые когда-то создавали королевства по всей Цакаре. Наши соседи могут настаивать на превосходстве мужчин, но мы прослеживаем наши родословные по нашим матерям, и боевой клич могущественных женщин Цаэски заставит всех «мужчин» бежать домой."
  

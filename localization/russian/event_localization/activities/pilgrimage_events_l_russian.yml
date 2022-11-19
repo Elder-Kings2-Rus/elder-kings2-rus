@@ -377,12 +377,12 @@
  pilgrimage.5911.b:0 "$pilgrimage.4001.b$"
 
    # Sanctity of Nature
- pilgrimage.5921.t:0 "$pilgrimage_header$ Sacred Groves"
- pilgrimage.5921.desc:0 "At last I have finally arrived in [destination_title.GetNameNoTierNoTooltip]. While some worship in churches or mosques, I know the most sacred of places are in the open forest where bare feet are caressed by the soft, nourishing earth.\n\nThe old groves here are especially venerable, and I find myself wondering about my place in the natural world as I stand amongst the great trees."
+ pilgrimage.5921.t:0 "$pilgrimage_header$ Священные рощи"
+ pilgrimage.5921.desc:0 "Наконец-то я наконец-то прибыл в [destination_title.GetNameNoTierNoTooltip]. В то время как некоторые поклоняются в церквях, я знаю, что самые священные места находятся в открытом лесу, где босые ноги ласкает мягкая, питающая земля.\n\nСтарые рощи здесь особенно почтенны, и я ловлю себя на том, что размышляю о своем месте в мире природы, стоя среди огромных деревьев."
  pilgrimage.5921.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5921.b:0 "$pilgrimage.4001.b$"
 
  # Generic Pilgrimage Return Events
- pilgrimage.9001.t:0 "$pilgrimage_header$ The Return"
- pilgrimage.9001.desc:0 "My journey has been a long one, but I have finally come home again. While much remains the same, something has changed in how the [ROOT.Char.GetFaith.PriestNeuterPlural] and [ROOT.Char.GetFaith.BishopNeuterPlural] treat me.\n\nI have undergone the journey of a holy [ROOT.Char.GetWomanMan], and they insist it has changed something about me, whether I can see it myself or not."
- pilgrimage.9001.a:0 "It is good to be home."
+ pilgrimage.9001.t:0 "$pilgrimage_header$ Возвращение"
+ pilgrimage.9001.desc:0 "Мое путешествие было долгим, но я, наконец, снова вернулся домой. Хотя многое осталось прежним, кое-что изменилось в том, как [ROOT.Char.GetFaith.PriestNeuterPlural] и [ROOT.Char.GetFaith.BishopNeuterPlural] относятся ко мне.\n\nЯ прошел путь правоверного человека, и они настаивают, что это что-то изменило во мне, независимо от того, вижу я это сам или нет."
+ pilgrimage.9001.a:0 "Хорошо снова быть дома."
