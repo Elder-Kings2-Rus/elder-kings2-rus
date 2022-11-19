@@ -1,9 +1,9 @@
 ﻿l_russian:
- task_promote_local_culture:0 "Promote [local_culture|E]"
- task_promote_local_culture_effect_desc:1 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to a [local|E] and [native|E] culture within their [heritage|E]"
- NOT_NATIVE_REGION_REASON:0 "Your culture is not [native|E] to the county [region|E]"
- NOMADIC_CULTURE_CULTURE_CONVERT_TO:0 "Your culture is considered Nomadic"
- NOMADIC_CULTURE_CULTURE_CONVERT_FROM:0 "You try to convert a province with a Nomadic culture"
+ task_promote_local_culture:0 "Продвигать [Concept('local_culture', 'местную культуру')|E]"
+ task_promote_local_culture_effect_desc:1 "#S При #V 100%#!#!:\n$TAB$[county|E] меняет [Concept('culture', 'культуру')|E] на [Concept('local', 'местную')|E] и [Concept('native', 'исконную')|E] культуру в рамках своего [Concept('heritage', 'наследия')|E]"
+ NOT_NATIVE_REGION_REASON:0 "Ваша культура не является [Concept('native', 'исконной')|E] в отношении [Concept('region', 'региона')|E] провинции"
+ NOMADIC_CULTURE_CULTURE_CONVERT_TO:0 "Ваша культура считается кочевой"
+ NOMADIC_CULTURE_CULTURE_CONVERT_FROM:0 "Вы пытаетесь преобразовать культуру в провинции с кочевой культурой"
  
- task_promote_culture_effect_no_culure_to_convert_desc:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to a Culture of your choosing"
- task_promote_culture_acceptance_effect_no_culure_to_convert_desc:0 "\n$TAB$The [cultural_acceptance|E] between the [county.GetProvince.GetCounty.GetCulture.GetCollectiveNoun] and the Culture that you choose decreases by [SCOPE.ScriptValue('culture_conversion_acceptance_impact')|N^/%]"
+ task_promote_culture_effect_no_culure_to_convert_desc:0 "#S При #V 100%#!#!:\n$TAB$[county|E] меняет [Concept('culture', 'культуру')|E] на выбранную вами культуру"
+ task_promote_culture_acceptance_effect_no_culure_to_convert_desc:0 "\n$TAB$[cultural_acceptance|E] между [county.GetProvince.GetCounty.GetCulture.GetCollectiveNoun] и выбранной вами культурой уменьшиться на [SCOPE.ScriptValue('culture_conversion_acceptance_impact')|N^/%]"
