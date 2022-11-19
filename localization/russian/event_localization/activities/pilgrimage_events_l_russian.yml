@@ -178,14 +178,14 @@
  pilgrimage.2504.c.virtue:0 "Пожалуйста. А теперь ступай, с благословением [ROOT.Char.GetFaith.HighGodNamePossessive]."
  pilgrimage.2504.c.sin:0 "Да, да.. а теперь иди."
 
- pilgrimage.2511.t:0 "$pilgrimage_header$ Cocky Lordling"
- pilgrimage.2511.desc.start:0 "[destination_title.GetNameNoTierNoTooltip] attracts pilgrims from all over the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] world, so it is not inconceivable that I would run into [lordling.Custom2('MyCharacterIntroduction', ROOT.Char)] on my journey.\n\nWhat #EMP is#! inconceivable is the insolent way [lordling.GetSheHe] has treated me, cutting off my entourage on [lordling.GetHerHis] horse and calling me a [ROOT.Char.Custom('InsultNoun')]... #EMP to my face#!, no less!"
- pilgrimage.2511.desc.wrathful:0 "\n\nMy blood boils, tempered only by the knowledge that the [ROOT.Char.GetFaith.PriestNeuterPlural] tell us to exercise restraint and not let our emotions take control."
- pilgrimage.2511.desc.vengeful:0 "\n\nIt is times like this I am reminded [ROOT.Char.GetFaith.PantheonTerm] commands us to forgive those who have wronged us."
+ pilgrimage.2511.t:0 "$pilgrimage_header$ Самоуверенный мелкий лорд"
+ pilgrimage.2511.desc.start:0 "[destination_title.GetNameNoTierNoTooltip] привлекает паломников со всего [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] мира, так что вполне возможно, что я столкнулся бы с [lordling.Custom2('MyCharacterIntroduction', ROOT.Char)] на своем пути.\n\n #EMP Это#! непостижимо дерзкий способ, как [lordling.GetSheHe] обошелся со мной, отрезав мое окружение от [lordling.GetHerHis] лошади и зовущий меня [ROOT.Char.Custom('InsultNoun')]... #EMP в лицо#!, никак иначе!"
+ pilgrimage.2511.desc.wrathful:0 "\n\nМоя кровь кипит, я сдерживаю себя только тем, что [ROOT.Char.GetFaith.PriestNeuterPlural] сказал нам проявлять сдержанность и не позволять нашим эмоциям брать верх."
+ pilgrimage.2511.desc.vengeful:0 "\n\nИменно в такие моменты мне напоминают [ROOT.Char.GetFaith.PantheonTerm] повелевает нам прощать тех, кто причинил нам зло."
  pilgrimage.2511.desc.vengeful.christian:0 "\n\nIt is times like this I am reminded Jesus commanded us to turn the other cheek..."
- pilgrimage.2511.a:0 "Damn it all, I'll teach that whelp a lesson!"
- pilgrimage.2511.b:0 "Breathe in... breathe out..."
- pilgrimage.2511.c:0 "There #EMP has#! to be a better way to deal with this anger."
+ pilgrimage.2511.a:0 "К черту это, я тебе преподам урок!"
+ pilgrimage.2511.b:0 "Вдох... выдох..."
+ pilgrimage.2511.c:0 "Должен же быть способ чтобы лучше справиться с этим гневом."
 
  # Christian Pilgrimage Journey Events
 
@@ -249,17 +249,17 @@
 
  # Generic Pilgrimage Destination Events
  # Standard arrival
- pilgrimage.4001.t:0 "$pilgrimage_header$ The Arrival"
- pilgrimage.4001.desc:0 "I am finally here, body and soul, at the great [ROOT.Char.GetFaith.HouseOfWorship] of [destination_title.GetNameNoTierNoTooltip].\n\nAs the [ROOT.Char.GetFaith.BishopNeuter] offers me blessings, I reflect on everything that had to happen for [ROOT.Char.GetFaith.PantheonTerm] to bring me here, at this moment in time."
- pilgrimage.4001.cynical_end:0 "\n\nA whole lot of walking."
- pilgrimage.4001.a:0 "I have walked the holy path."
- pilgrimage.4001.b:0 "What's important is that I am seen and heard here."
+ pilgrimage.4001.t:0 "$pilgrimage_header$ прибытие"
+ pilgrimage.4001.desc:0 "Я наконец-то здесь, душой и телом, в великом [ROOT.Char.GetFaith.HouseOfWorship] от [destination_title.GetNameNoTierNoTooltip].\n\nКак [ROOT.Char.GetFaith.BishopNeuter] предлагает мне благословение, я думаю обо всем, что должно было произойти, чтобы [ROOT.Char.GetFaith.PantheonTerm] привел меня сюда именно сейчас."
+ pilgrimage.4001.cynical_end:0 "\n\nКак много я прошел пешком..."
+ pilgrimage.4001.a:0 "Я прошел священный путь."
+ pilgrimage.4001.b:0 "Важно то, что меня здесь видят и слышат."
 
  # The Mystic is there!
- pilgrimage.4002.desc:0 "I am finally here, body and soul, at the end of my great pilgrimage. And who should meet me there but [mystic.GetTitledFirstName], the seeker of true knowledge of the divine?\n\n"Look around you, [ROOT.Char.GetFirstNameNoTooltip]!" [mystic.GetSheHe] says. "Is this glory not as I said it would be?""
- pilgrimage.4002.a:0 "Indeed it is, my friend!"
- pilgrimage.4002.b:0 "It's... something all right."
- pilgrimage.4002.c:0 "Oh yes, I do like what I'm seeing."
+ pilgrimage.4002.desc:0 "Наконец-то я здесь, телом и душой, в конце моего великого паломничества. Я, видимо, должен был встретить [mystic.GetTitledFirstName], искателя истинного знания о божественном?\n\n"Осмотрись, [ROOT.Char.GetFirstNameNoTooltip]!" - говорит [mystic.GetSheHe]. "Разве эта слава не та, как я говорил, что она будет?""
+ pilgrimage.4002.a:0 "Действительно, это так, друг мой!"
+ pilgrimage.4002.b:0 "Это... все в порядке."
+ pilgrimage.4002.c:0 "О да, мне нравится, что я вижу."
 
  # Specific Pilgrimage Destination Events
 
@@ -377,12 +377,12 @@
  pilgrimage.5911.b:0 "$pilgrimage.4001.b$"
 
    # Sanctity of Nature
- pilgrimage.5921.t:0 "$pilgrimage_header$ Sacred Groves"
- pilgrimage.5921.desc:0 "At last I have finally arrived in [destination_title.GetNameNoTierNoTooltip]. While some worship in churches or mosques, I know the most sacred of places are in the open forest where bare feet are caressed by the soft, nourishing earth.\n\nThe old groves here are especially venerable, and I find myself wondering about my place in the natural world as I stand amongst the great trees."
+ pilgrimage.5921.t:0 "$pilgrimage_header$ Священные рощи"
+ pilgrimage.5921.desc:0 "Наконец-то я наконец-то прибыл в [destination_title.GetNameNoTierNoTooltip]. В то время как некоторые поклоняются в церквях, я знаю, что самые священные места находятся в открытом лесу, где босые ноги ласкает мягкая, питающая земля.\n\nСтарые рощи здесь особенно почтенны, и я ловлю себя на том, что размышляю о своем месте в мире природы, стоя среди огромных деревьев."
  pilgrimage.5921.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5921.b:0 "$pilgrimage.4001.b$"
 
  # Generic Pilgrimage Return Events
- pilgrimage.9001.t:0 "$pilgrimage_header$ The Return"
- pilgrimage.9001.desc:0 "My journey has been a long one, but I have finally come home again. While much remains the same, something has changed in how the [ROOT.Char.GetFaith.PriestNeuterPlural] and [ROOT.Char.GetFaith.BishopNeuterPlural] treat me.\n\nI have undergone the journey of a holy [ROOT.Char.GetWomanMan], and they insist it has changed something about me, whether I can see it myself or not."
- pilgrimage.9001.a:0 "It is good to be home."
+ pilgrimage.9001.t:0 "$pilgrimage_header$ Возвращение"
+ pilgrimage.9001.desc:0 "Мое путешествие было долгим, но я, наконец, снова вернулся домой. Хотя многое осталось прежним, кое-что изменилось в том, как [ROOT.Char.GetFaith.PriestNeuterPlural] и [ROOT.Char.GetFaith.BishopNeuterPlural] относятся ко мне.\n\nЯ прошел путь правоверного человека, и они настаивают, что это что-то изменило во мне, независимо от того, вижу я это сам или нет."
+ pilgrimage.9001.a:0 "Хорошо снова быть дома."

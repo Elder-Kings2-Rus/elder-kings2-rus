@@ -7,4 +7,4 @@
  LAKE_PROVINCE_TOOLTIP:0 "#T [PROVINCE.GetName]#!\nОзеро или небольшая река#!"
  RIVER_PROVINCE_TOOLTIP:1 "#T [PROVINCE.GetName]#!\nКрупная река"
  # EK EDIT: Terrain of Province naming scheme
- PROVINCE_TOOLTIP_HEADER:0 "#T [SelectLocalization(PROVINCE.GetTitle.GetHolder.IsValid, '', PROVINCE.GetNameNoTooltip)|U][SelectLocalization(PROVINCE.GetTitle.GetHolder.IsValid, '', ', ')][SelectLocalization(PROVINCE.GetTitle.GetHolder.IsValid, PROVINCE.GetTitle.GetNameNoTooltip, PROVINCE.GetTerrain.GetNameNoTooltip)]#!"
+"#T [SelectLocalization(PROVINCE.GetTitle.GetHolder.IsValid, PROVINCE.GetTitle.GetNameNoTooltip, PROVINCE.GetNameNoTooltip)|U][SelectLocalization(PROVINCE.GetTitle.GetHolder.IsValid, '', ', ')][SelectLocalization(PROVINCE.GetTitle.GetHolder.IsValid, '', PROVINCE.GetTerrain.GetNameNoTooltip)|l]#!"
