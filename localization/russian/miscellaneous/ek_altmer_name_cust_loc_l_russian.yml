@@ -4,7 +4,7 @@
  #-'cal for the "main" clan. | always added unless lowborn
  #-'ata is for the "secondary" clan | added if both mother and father present, both valid
 
- #call_with:0 "I am [ROOT.Char.Custom('GetAltmerName')]"
+ #call_with:0 "Я [ROOT.Char.Custom('GetAltmerName')]"
  alt_name_len:0 " 'лен "
  alt_name_cal:0 " 'кал "
  alt_name_ata:0 " 'ата "
