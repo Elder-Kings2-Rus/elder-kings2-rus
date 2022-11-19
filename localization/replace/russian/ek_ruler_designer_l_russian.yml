@@ -51,7 +51,7 @@
  race_goblin_yellow_name:0 "Гоблин, Смуглый"
  race_goblin_yellow:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_GOBLINKEN') ) ), Localize('race_goblin_yellow_name'), 'no' )]"
 
- race_goblin_riekr_name:0 "Рикер"
+ race_goblin_riekr_name:0 "Рикр"
  race_goblin_riekr:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_GOBLINKEN') ) ), Localize('race_goblin_riekr_name'), 'no' )]"
 
  race_goblin_riekling_name:0 "Риклинг"

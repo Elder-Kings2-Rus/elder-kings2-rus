@@ -105,7 +105,7 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_arcana_good_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] обладает острым восприятием магии, легко выполняя впечатляющие заклинания."
  trait_arcana_good_3:0 "Связь Этериуса"
  trait_arcana_good_3_desc:0 "Этот персонаж манипулирует магией, так, словно [ROOT.GetCharacter.GetSheHe][Select_CString(ROOT.GetCharacter.IsFemale, 'благословлена', 'благословлен' )] Этериусом, достигая магических чудес, едва прилагая усилия."
- trait_arcana_good_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] манипулирует магией, так, словно [ROOT.GetCharacter.GetSheHe][Select_CString(ROOT.GetCharacter.IsFemale, 'благословлена', 'благословлен' )] Этериусом, достигая магических чудес, едва прилагая усилия."
+ trait_arcana_good_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] манипулирует магией, так, словно [ROOT.GetCharacter.GetSheHe] [Select_CString(ROOT.GetCharacter.IsFemale, 'благословлена', 'благословлен' )] Этериусом, достигая магических чудес, едва прилагая усилия."
  trait_arcana_bad:0 "Негативное сродство с Арканой"
  trait_arcana_bad_1:0 "Недостаточность"
  trait_arcana_bad_1_desc:0 "Этот персонаж недостаточно восприимчив к магии, что затрудняет выполнение заклинаний"
@@ -340,21 +340,21 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
 
  ### PRAXIS
  # PLACEHOLDER
- trait_praxis_negative_3:0 "Апраксический III"
- trait_praxis_negative_3_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] проживает свою жизнь вопреки Пути к Алаксону."
- trait_praxis_negative_2:0 "Апраксический II"
- trait_praxis_negative_2_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'сбилась', 'сбился' )] с Пути к Алаксону."
- trait_praxis_negative_1:0 "Апраксический I"
- trait_praxis_negative_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] известно, что [Select_CString(ROOT.GetCharacter.IsFemale, 'она', 'он' )]  с трудом соответствует стандартам Пути к Алаксону."
- trait_praxis_positive_1:0 "Праксический I"
- trait_praxis_positive_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] следует философии Пути к Алаксону."
- trait_praxis_positive_2:0 "Праксический II"
- trait_praxis_positive_2_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'известна', 'известен' )] своей преданностью Пути в Алаксон."
- trait_praxis_positive_3:0 "Праксический III"
- trait_praxis_positive_3_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] строго следует Пути к Алаксону и стремится к совершенству во всем, что делает."
+ trait_praxis_negative_3:0 "Апраксик III"
+ trait_praxis_negative_3_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] проживает свою жизнь вопреки пути к Алаксону."
+ trait_praxis_negative_2:0 "Апраксик II"
+ trait_praxis_negative_2_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'сбилась', 'сбился' )] с пути к Алаксону."
+ trait_praxis_negative_1:0 "Апраксик I"
+ trait_praxis_negative_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] известно, что [Select_CString(ROOT.GetCharacter.IsFemale, 'она', 'он' )]  с трудом соответствует стандартам пути к Алаксону."
+ trait_praxis_positive_1:0 "Праксик I"
+ trait_praxis_positive_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] следует философии пути к Алаксону."
+ trait_praxis_positive_2:0 "Праксик II"
+ trait_praxis_positive_2_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'известна', 'известен' )] своей преданностью пути в Алаксон."
+ trait_praxis_positive_3:0 "Праксик III"
+ trait_praxis_positive_3_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] строго следует пути к Алаксону и стремится к совершенству во всем, что делает."
 # Praxis trait groups 
-trait_praxis_positive:0 "Праксический"
-trait_praxis_negative:0 "Апраксический"
+trait_praxis_positive:0 "Праксик"
+trait_praxis_negative:0 "Апраксик"
 
  
  ### Court types traits
