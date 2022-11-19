@@ -510,7 +510,7 @@ absorb_skill_perk_name: "Поглотить навык"
 
  OPEN_RITUAL:0 "Открыть ритуалы"
  RITUAL:0 "Ритуалы"
- RITUAL_SLOTS:0 "Влот ритуала: [GetPlayer.MakeScope.ScriptValue('ritual_slot_active')|V0]/[GetPlayer.MakeScope.ScriptValue('ritual_slot_limit')|V0]"
+ RITUAL_SLOTS:0 "Слот ритуала: [GetPlayer.MakeScope.ScriptValue('ritual_slot_active')|V0]/[GetPlayer.MakeScope.ScriptValue('ritual_slot_limit')|V0]"
  RITUAL_PERM:0 "Перманетные ритуалы"
  RITUAL_UPKEEP:0 "Потребление: [GetPlayer.MakeScope.Var('ritual_upkeep').GetValue|+=1]"
  UPKEEP_TT:0 "Регенерация: [GetPlayer.MakeScope.ScriptValue('magicka_regen')|+=1]\nNet Change: [GetPlayer.MakeScope.ScriptValue('magicka_monthly')|+=1]"
