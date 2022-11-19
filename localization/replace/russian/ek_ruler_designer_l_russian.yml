@@ -23,18 +23,18 @@
  RULER_DESIGNER_BIRTHSIGN_TRAIT_LABEL:0 "Знак рождения"
 
  RULER_DESIGNER_CHOOSE_ETHNICITY:0 "Выберите расу"
- RACE_MAN:0 "Мужчина"
- RACE_MER:0 "Мер"
- RACE_BEASTFOLK:0 "Зверолюд"
- RACE_KHAJIIT:0 "Каджит"
- RACE_ARGONIAN:0 "Аргонианин"
- RACE_GOBLINKEN:0 "Гоблин-кен"
- RACE_LILMOTHIIT:0 "Лилмотиит"
- RACE_DREMORA:0 "Дремора"
+ RACE_MAN:0 "Люди"
+ RACE_MER:0 "Меры"
+ RACE_BEASTFOLK:0 "Зверолюди"
+ RACE_KHAJIIT:0 "Каджиты"
+ RACE_ARGONIAN:0 "Аргонианине"
+ RACE_GOBLINKEN:0 "Гоблины"
+ RACE_LILMOTHIIT:0 "Лилмотииты"
+ RACE_DREMORA:0 "Дреморы"
 
 
  INCOMPATABLE_CULTURE:0 "@warning_icon!#X Неправильная культура#"
- INCOMPATABLE_CULTURE_TOOLTIP:0 "Зверолюды не могут начинать с человеческой культурой и наоборот. Пожалуйста, выберите действительную культуру."
+ INCOMPATABLE_CULTURE_TOOLTIP:0 "Зверолюды не могут начинать с человеческой культурой или мерской и наоборот. Пожалуйста, выберите действительную культуру."
 
  RULER_DESIGNER_ETHNICITY_INFO:0 "Определенные расы не позволят вам выбрать несовместимые культурные группы в Редакторе правителя. Вы сможете переходить в другие культуры, как обычно, в игре."
 
@@ -324,7 +324,7 @@
  race_redguard_forebear_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_redguard_forebear_2_name'), 'no' )]"
 
  race_redguard_forebear_3_name:0 "Редгард, Предшественник III"
- race_redguard_forebear_3:0 "[Select_CString( OrПредкиNot(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_redguard_forebear_3_name'), 'no' )]"
+ race_redguard_forebear_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_redguard_forebear_3_name'), 'no' )]"
 
  race_redguard_forebear_4_name:0 "Редгард, Предшественник IV"
  race_redguard_forebear_4:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_redguard_forebear_4_name'), 'no' )]"
@@ -396,7 +396,7 @@
  race_dunmer_ashlander_ear:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_dunmer_ashlander_ear_name'), 'no' )]"
 
  
- race_chimer_name:0 "Химер"
+ race_chimer_name:0 "Кимер"
  race_chimer:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_chimer_name'), 'no' )]"
 
  
@@ -431,8 +431,8 @@
  
  # Certain Tail options are only available to Khajiit/Lilmothiit
  tail_length:0 "Длина хвоста"
- tail_base_thickness:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') ), '', 'Base Thickness' )]"
- tail_fullness:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') ), '', 'Tail Fullness' )]"
+ tail_base_thickness:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') ), '', 'Базовая толщина' )]"
+ tail_fullness:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') ), '', 'Полнота хвоста' )]"
  tail_length:0 "Длина хвоста"
  tail_end_thickness:0 "Толщина хвоста"
  tail_end_tuft:0 "Конечный пучок"
@@ -450,7 +450,7 @@
  maormer_skin:0 "Цвет кожи"
 
  race_gene_skin_metallic:0 "Металлическая кожа"
- metallic_skin:0 "Металлический цвет кожи"
+ metallic_skin:0 "Металлическая кожа"
 
 #Hide skin complexions for argonians, khajiit and lilmothiit
  complexion:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ), Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') ) ) ), '', 'Skin Complexion' )]"
@@ -527,11 +527,11 @@
  ear_lobe_fused:0 "Сросшаяся мочка уха"
  ear_lobe_detached:0 "Отделенная мочка уха"
 
- race_gene_mer_ears_01:0 "Меры - уши (смешанные) A"
- race_gene_mer_ears_02:0 "Меры - уши (смешанные) B"
- mer_ears_01:0 "Меры - уши I"
- mer_ears_02:0 "Меры - уши II"
- mer_ears_03:0 "Меры - уши III"
+ race_gene_mer_ears_01:0 "Мерские уши (Смешиваеммые) A"
+ race_gene_mer_ears_02:0 "Мерские уши (Смешиваеммые) B"
+ mer_ears_01:0 "Мерские уши I"
+ mer_ears_02:0 "Мерские уши II"
+ mer_ears_03:0 "Мерские уши III"
 
  gene_bs_head_lower_height:0 "Высота низа головы"
  head_lower_height_max:0 "Увеличенная высота"
@@ -555,14 +555,14 @@
 
  gene_forehead_inner_brow_width:0 "Внутренняя ширина лба"
 
- race_gene_mer_eyebrows_01:0 "Меры - форма бровей"
+ race_gene_mer_eyebrows_01:0 "Мерская форма бровей"
 
- race_gene_mer_forehead:0 "Меры - Лоб"
- mer_forehead:0 "Меры - Лоб"
- dremora_face:0 "Дреморское лицо"
+ race_gene_mer_forehead:0 "Мерский Лоб"
+ mer_forehead:0 "Мерский Лоб"
+ dremora_face:0 "Дреморский лоб"
  
- race_gene_mer_nose:0 "Меры - нос"
- mer_nose:0 "Меры - нос"
+ race_gene_mer_nose:0 "Мерский нос"
+ mer_nose:0 "Мерский нос"
  orc_nose:0 "Орочий нос"
 
  expression_brow_wrinkles:0 "Морщины бровей"
@@ -590,7 +590,7 @@
 
  gene_eye_shut_top:0 "Верхнее веко закрыто"
 
- gene_eye_size:0 "Размер глаз"
+ gene_eye_size:0 "Увеличение глаз"
 
  gene_bs_nose_central_width:0 "Ширина центра носа"
 
