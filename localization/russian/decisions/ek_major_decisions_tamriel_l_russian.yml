@@ -78,7 +78,7 @@
  potentate_control_heartlands_decision:0 "Потентат Хартленда"
  potentate_control_heartlands_decision_desc:0 "Мы, как Потентат поздней Империи Ремана, были управляющими Имперского Острова на протяжении веков. Теперь, когда наше время почти закончилось, мы должны убедиться, что у нашего народа будет место в Тамриэле — и что подходит лучше, чем самое сердце Сиродила?"
  potentate_control_heartlands_decision_tooltip:0 "Наш народ найдет свой дом в сердце Империи!"
- potentate_control_heartlands_decision_effect:0 "Наша [culture|El] станет [Concept( 'native', 'аборигенной' )|E] для региона [GetGeographicalRegion('mundus_tamriel_cyrodiil_heartlands').GetName]"
+ potentate_control_heartlands_decision_effect:0 "Наша [culture|El] станет [Concept( 'native', 'коренной' )|E] для региона [GetGeographicalRegion('mundus_tamriel_cyrodiil_heartlands').GetName]"
  potentate_control_heartlands_decision_confirm:0 "Новый дом!"
  
  destroy_bridges_leyawiin_decision:0 "Разрушить мосты Лейавина"
