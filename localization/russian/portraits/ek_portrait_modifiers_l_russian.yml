@@ -1,11 +1,11 @@
 ﻿l_russian:
- PORTRAIT_MODIFIER_facepaint:0 "Decals"
- PORTRAIT_MODIFIER_facepaint_colour:0 "Decal Colour"
- PORTRAIT_MODIFIER_custom_legwear:0 "Legwear"
- PORTRAIT_MODIFIER_custom_jewellery:0 "Jewellery"
+ PORTRAIT_MODIFIER_facepaint:0 "Боевая Раскраска"
+ PORTRAIT_MODIFIER_facepaint_colour:0 "Цвет раскраски"
+ PORTRAIT_MODIFIER_custom_legwear:0 "Нижнее белье"
+ PORTRAIT_MODIFIER_custom_jewellery:0 "Украшения"
  
- PORTRAIT_MODIFIER_special:0 "Special"
- PORTRAIT_MODIFIER_special_no_portrait:0 "None"
+ PORTRAIT_MODIFIER_special:0 "Специальное"
+ PORTRAIT_MODIFIER_special_no_portrait:0 "Ничего"
 
 #########################################
 ################ FACEPAINT ################
@@ -13,251 +13,275 @@
 
 ### Facepaint Colours ###
 
- PORTRAIT_MODIFIER_facepaint_colour_facepaint_colour_1:0 "Color 1"
- PORTRAIT_MODIFIER_facepaint_colour_facepaint_colour_2:0 "Color 2"
- PORTRAIT_MODIFIER_facepaint_colour_facepaint_colour_3:0 "Color 3"
- PORTRAIT_MODIFIER_facepaint_colour_facepaint_colour_4:0 "Color 4"
- PORTRAIT_MODIFIER_facepaint_colour_facepaint_colour_5:0 "Color 5"
+ PORTRAIT_MODIFIER_facepaint_colour_facepaint_colour_1:0 "Цвет 1"
+ PORTRAIT_MODIFIER_facepaint_colour_facepaint_colour_2:0 "Цвет 2"
+ PORTRAIT_MODIFIER_facepaint_colour_facepaint_colour_3:0 "Цвет 3"
+ PORTRAIT_MODIFIER_facepaint_colour_facepaint_colour_4:0 "Цвет 4"
+ PORTRAIT_MODIFIER_facepaint_colour_facepaint_colour_5:0 "Цвет 5"
  
  ### No Paint ###
 
- PORTRAIT_MODIFIER_facepaint_facepaint_none:0 "No Paint"
+ PORTRAIT_MODIFIER_facepaint_facepaint_none:0 "Без цвета"
  
  ### Nord  ###
 
- PORTRAIT_MODIFIER_facepaint_facepaint_nord_01:0 "Nordic Stripe"
- PORTRAIT_MODIFIER_facepaint_facepaint_nord_02:0 "Nordic Forstaag"
- PORTRAIT_MODIFIER_facepaint_facepaint_nord_03:0 "Nordic Cross"
- PORTRAIT_MODIFIER_facepaint_facepaint_nord_04:0 "Nordic Dunk"
- PORTRAIT_MODIFIER_facepaint_facepaint_nord_05:0 "Nordic Bear"
- PORTRAIT_MODIFIER_facepaint_facepaint_nord_06:0 "Nordic Hero"
- PORTRAIT_MODIFIER_facepaint_facepaint_nord_07:0 "Nordic Braveheart"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nord_01:0 "Нордская Полоса"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nord_02:0 "Нордский Форстааг"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nord_03:0 "Нордский Крест"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nord_04:0 "Нордский Данк"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nord_05:0 "Нордский Медведь"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nord_06:0 "Нордский Герой"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nord_07:0 "Нордское Храброе Сердце"
 
 
 ### Dunmer  ###
 
- PORTRAIT_MODIFIER_facepaint_facepaint_dunmer_01:0 "Dunmer Rings"
- PORTRAIT_MODIFIER_facepaint_facepaint_dunmer_02:0 "Dunmer Stripe"
- PORTRAIT_MODIFIER_facepaint_facepaint_dunmer_03:0 "Dunmer Tall Cross"
- PORTRAIT_MODIFIER_facepaint_facepaint_dunmer_04:0 "Dunmer Wide Cross"
+ PORTRAIT_MODIFIER_facepaint_facepaint_dunmer_01:0 "Данмерские кольца"
+ PORTRAIT_MODIFIER_facepaint_facepaint_dunmer_02:0 "Данмерская полоса"
+ PORTRAIT_MODIFIER_facepaint_facepaint_dunmer_03:0 "Данмерский длинный Крест"
+ PORTRAIT_MODIFIER_facepaint_facepaint_dunmer_04:0 "Данмерский широкий крест"
  
  ### Nibenese ###
  
- PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_01:0 "Nibenese 1"
- PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_02:0 "Nibenese 2"
- PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_03:0 "Nibenese 3"
- PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_04:0 "Nibenese 4"
- PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_05:0 "Nibenese 5"
- PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_06:0 "Nibenese 6"
- PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_07:0 "Nibenese 7"
- PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_08:0 "Nibenese 8"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_01:0 "Нибенейцы 1"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_02:0 "Нибенейцы 2"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_03:0 "Нибенейцы 3"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_04:0 "Нибенейцы 4"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_05:0 "Нибенейцы 5"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_06:0 "Нибенейцы 6"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_07:0 "Нибенейцы 7"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_08:0 "Нибенейцы 8"
  
  ### South Nedic  ###
 
- PORTRAIT_MODIFIER_facepaint_facepaint_nede_south_01:0 "Nede Full Body 1"
- PORTRAIT_MODIFIER_facepaint_facepaint_nede_south_02:0 "Nede Full Body 2"
- PORTRAIT_MODIFIER_facepaint_facepaint_nede_south_03:0 "Nede Full Body 3"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nede_south_01:0 "Недеcский полный костюм 1"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nede_south_02:0 "Недеcский полный костюм 2"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nede_south_03:0 "Недеcский полный костюм 3"
  
  #########################################
 ################ Jewellery ################
 #########################################
 
- PORTRAIT_MODIFIER_custom_jewellery_male_empty:0 "No Jewellery"
- PORTRAIT_MODIFIER_custom_jewellery_female_empty:0 "No Jewellery"
- PORTRAIT_MODIFIER_custom_jewellery_boy_empty:0 "No Jewellery"
- PORTRAIT_MODIFIER_custom_jewellery_girl_empty:0 "No Jewellery"
+ PORTRAIT_MODIFIER_custom_jewellery_male_empty:0 "Без украшений"
+ PORTRAIT_MODIFIER_custom_jewellery_female_empty:0 "Без украшений"
+ PORTRAIT_MODIFIER_custom_jewellery_boy_empty:0 "Без украшений"
+ PORTRAIT_MODIFIER_custom_jewellery_girl_empty:0 "Без украшений"
 
- PORTRAIT_MODIFIER_custom_jewellery_female_jewellery_ashlander_beads_01:0 "Ashlander Beads 1"
- PORTRAIT_MODIFIER_custom_jewellery_female_jewellery_ashlander_beads_02:0 "Ashlander Beads 2"
- PORTRAIT_MODIFIER_custom_jewellery_female_jewellery_ashlander_beads_03:0 "Ashlander Beads 3"
- PORTRAIT_MODIFIER_custom_jewellery_female_jewellery_ashlander_beads_04:0 "Ashlander Beads 4"
+ PORTRAIT_MODIFIER_custom_jewellery_female_jewellery_ashlander_beads_01:0 "Эшлендерские Бусины 1"
+ PORTRAIT_MODIFIER_custom_jewellery_female_jewellery_ashlander_beads_02:0 "Эшлендерские Бусины 2"
+ PORTRAIT_MODIFIER_custom_jewellery_female_jewellery_ashlander_beads_03:0 "Эшлендерские Бусины 3"
+ PORTRAIT_MODIFIER_custom_jewellery_female_jewellery_ashlander_beads_04:0 "Эшлендерские Бусины 4"
  
- PORTRAIT_MODIFIER_custom_jewellery_male_clothes_ayleid_moonstone_01:0 "Ayleid Moonstone with Neckguard"
- PORTRAIT_MODIFIER_custom_jewellery_male_clothes_ayleid_moonstone_02:0 "Ayleid Moonstone without Neckguard"
- PORTRAIT_MODIFIER_custom_jewellery_female_clothes_ayleid_moonstone_01:0 "Ayleid Moonstone with Neckguard"
- PORTRAIT_MODIFIER_custom_jewellery_female_clothes_ayleid_moonstone_02:0 "Ayleid Moonstone without Neckguard"
- PORTRAIT_MODIFIER_custom_jewellery_male_clothes_ayleid_moonstone_01_low:0 "Ayleid Moonstone Neckguard Low"
- PORTRAIT_MODIFIER_custom_jewellery_female_clothes_ayleid_moonstone_01_low:0 "Ayleid Moonstone Neckguard Low"
+ PORTRAIT_MODIFIER_custom_jewellery_male_clothes_ayleid_moonstone_01:0 "Айлейдский лунный камень с шейным доспехом"
+ PORTRAIT_MODIFIER_custom_jewellery_male_clothes_ayleid_moonstone_02:0 "Айлейдский лунный камень без шейного доспеха"
+ PORTRAIT_MODIFIER_custom_jewellery_female_clothes_ayleid_moonstone_01:0 "Айлейдский лунный камень с шейным доспехом"
+ PORTRAIT_MODIFIER_custom_jewellery_female_clothes_ayleid_moonstone_02:0 "Айлейдский лунный камень без шейного доспеха"
+ PORTRAIT_MODIFIER_custom_jewellery_male_clothes_ayleid_moonstone_01_low:0 "Нашейный доспех из айлейдского лунного камня"
+ PORTRAIT_MODIFIER_custom_jewellery_female_clothes_ayleid_moonstone_01_low:0 "Нашейный доспех из айлейдского лунного камня"
  
- PORTRAIT_MODIFIER_custom_jewellery_male_jewellery_horwalli_necklace_01_high:0 "Horwalli Necklace 1"
- PORTRAIT_MODIFIER_custom_jewellery_male_jewellery_horwalli_necklace_02_high:0 "Horwalli Necklace 2"
- PORTRAIT_MODIFIER_custom_jewellery_male_jewellery_horwalli_necklace_03_high:0 "Horwalli Necklace 3"
+ PORTRAIT_MODIFIER_custom_jewellery_male_jewellery_horwalli_necklace_01_high:0 "Ожерелье Хорвалли 1"
+ PORTRAIT_MODIFIER_custom_jewellery_male_jewellery_horwalli_necklace_02_high:0 "Ожерелье Хорвалли 2"
+ PORTRAIT_MODIFIER_custom_jewellery_male_jewellery_horwalli_necklace_03_high:0 "Ожерелье Хорвалли 3"
 
  #########################################
 ################ Dunmer ################
 #########################################
 
 ### Male ###
- PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_ashlander_scarf_01_high:0 "Ashlander Scarf High Nobility 1"
- PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_ashlander_scarf_01_low:0 "Ashlander Scarf Low Nobility 1"
- PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_ashlander_scarf_02_high:0 "Ashlander Scarf High Nobility 2"
- PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_ashlander_scarf_02_low:0 "Ashlander Scarf Low Nobility 2"
- PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_gahjulan_scarf_01_high:0 "Gah-Gulan High Nobility 1"
- PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_gahjulan_scarf_01_low:0 "Gah-Gulan Low Nobility 1"
- PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_gahjulan_scarf_02_high:0 "Gah-Gulan High Nobility 2"
- PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_gahjulan_scarf_02_low:0 "Gah-Gulan Low Nobility 2"
- PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_ashlander_pauldrons:0 "Ashlander Pauldrons"
+ PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_ashlander_scarf_01_high:0 "Эшлендерский шарф высшего дворянство 1"
+ PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_ashlander_scarf_01_low:0 "Эшлендерский шарф низшего дворянство 1"
+ PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_ashlander_scarf_02_high:0 "Эшлендерский шарф высшего дворянство 2"
+ PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_ashlander_scarf_02_low:0 "Эшлендерский шарф низшего дворянство 2"
+ PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_gahjulan_scarf_01_high:0 "Га-Джуланское высшего дворянство 1"
+ PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_gahjulan_scarf_01_low:0 "Га-Джуланское низшего дворянство 1"
+ PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_gahjulan_scarf_02_high:0 "Га-Джуланское высшего дворянство 2"
+ PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_gahjulan_scarf_02_low:0 "Га-Джуланское низшего дворянство 2"
+ PORTRAIT_MODIFIER_custom_cloaks_male_clothes_secular_ashlander_pauldrons:0 "Эшлендерские Наплечники"
  
- PORTRAIT_MODIFIER_custom_cloaks_male_clothes_religious_dunmer_pauldrons:0 "Temple Priest Pauldrons"
- PORTRAIT_MODIFIER_custom_cloaks_male_clothes_religious_ordinator:0 "Ordinator Pauldrons"
- PORTRAIT_MODIFIER_custom_cloaks_male_clothes_religious_almarula:0 " Alma Rula Pauldrons"
+ PORTRAIT_MODIFIER_custom_cloaks_male_clothes_religious_dunmer_pauldrons:0 "Наплечники храмовых жрецов"
+ PORTRAIT_MODIFIER_custom_cloaks_male_clothes_religious_ordinator:0 "Наплечники Ординатора"
+ PORTRAIT_MODIFIER_custom_cloaks_male_clothes_religious_almarula:0 " Наплечники Альма Рула"
  
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_dunmer_temple:0 "Temple Priest Robes"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_dunmer_ordinator:0 "Ordinator Robes"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_almarula_robe:0 "Alma Rula Robes"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_dunmer_temple:0 "Одеяния храмовых жрецов"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_dunmer_ordinator:0 "Одеяния ординатора"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_almarula_robe:0 "Одеяния Альма Рула"
  
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_war_nobility:0 "Bonemold Armor"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_war_nobility:0 "Костяная броня"
  
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_01_high:0 "Dunmer High Nobility Clothing 1"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_01b_high:0 "Dunmer High Nobility Clothing 1b"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_01b_low:0 "Dunmer Low Nobility Clothing 1b"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_02_high:0 "Dunmer High Nobility Clothing 2"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_03_high:0 "Dunmer High Nobility Clothing 3"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_03_low:0 "Dunmer Low Nobility Clothing 1"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_03_common:0 "Dunmer Common Clothing"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ashlander_01_high:0 "Ashlander High Nobility Clothing 1"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ashlander_01_low:0 "Ashlander Low Nobility Clothing 1"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ashlander_02_high:0 "Ashlander High Nobility Clothing 2"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ashlander_02_low:0 "Ashlander Low Nobility Clothing 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_01_high:0 "Данмерское низшее дворянство 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_01b_high:0 "Данмерское низшее дворянство 1Б"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_01b_low:0 "Данмерское низшее дворянство 1Б"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_02_high:0 "Данмерское низшее дворянство 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_03_high:0 "Данмерское низшее дворянство 3"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_03_low:0 "Данмерское низшее дворянство 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_03_common:0 "Обычная Данмерская Одежда"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ashlander_01_high:0 "Эшлендерское низшее дворянство 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ashlander_01_low:0 "Эшлендерское низшее дворянство 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ashlander_02_high:0 "Эшлендерское низшее дворянство 2"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ashlander_02_low:0 "Эшлендерское низшее дворянство 2"
  
- PORTRAIT_MODIFIER_custom_cloaks_male_headgear_secular_dunmer_war_headwrap_01:0 "Dunmer Headwrap"
+ PORTRAIT_MODIFIER_custom_cloaks_male_headgear_secular_dunmer_war_headwrap_01:0 "Данмерский головной убор"
 
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_ordinator:0 "Ordinator Helmet"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_almarula:0 "Alma Rula Helmet"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_ordinator:0 "Шлем ординатора"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_almarula:0 "Шлем Альма Рула"
  
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dunmer_war_02:0 "Bonemold Helmet"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dunmer_war_02:0 "Костяной шлем"
  
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_dunmer_war_nobility:0 "Bonemold Greaves"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_dunmer_war_nobility:0 "Костяные наголенники"
  
 
  ### Female ###
- PORTRAIT_MODIFIER_custom_cloaks_female_clothes_secular_ashlander_scarf_01_high:0 "Ashlander Scarf High Nobility 1"
- PORTRAIT_MODIFIER_custom_cloaks_female_clothes_secular_ashlander_scarf_01_low:0 "Ashlander Scarf Low Nobility 1"
- PORTRAIT_MODIFIER_custom_cloaks_female_clothes_secular_gahjulan_scarf_01_high:0 "Gah-Gulan High Nobility 1"
- PORTRAIT_MODIFIER_custom_cloaks_female_clothes_secular_gahjulan_scarf_01_low:0 "Gah-Gulan Low Nobility 1"
+ PORTRAIT_MODIFIER_custom_cloaks_female_clothes_secular_ashlander_scarf_01_high:0 "Эшлендерский шарф высшего дворянство 1"
+ PORTRAIT_MODIFIER_custom_cloaks_female_clothes_secular_ashlander_scarf_01_low:0 "Эшлендерский шарф низшего дворянство 1"
+ PORTRAIT_MODIFIER_custom_cloaks_female_clothes_secular_gahjulan_scarf_01_high:0 "Га-Джуланское высшего дворянство 1"
+ PORTRAIT_MODIFIER_custom_cloaks_female_clothes_secular_gahjulan_scarf_01_low:0 "Га-Джуланское низшеее дворянство 1"
  
- PORTRAIT_MODIFIER_custom_cloaks_female_clothes_religious_dunmer_pauldrons:0 "Temple Priest Pauldrons"
- PORTRAIT_MODIFIER_custom_cloaks_female_clothes_religious_ordinator:0 "Ordinator Pauldrons"
- PORTRAIT_MODIFIER_custom_cloaks_female_clothes_religious_almarula:0 "Alma Rula Pauldrons"
+ PORTRAIT_MODIFIER_custom_cloaks_female_clothes_religious_dunmer_pauldrons:0 "Наплечники храмовых жрецов"
+ PORTRAIT_MODIFIER_custom_cloaks_female_clothes_religious_ordinator:0 "Наплечники ординатора"
+ PORTRAIT_MODIFIER_custom_cloaks_female_clothes_religious_almarula:0 "Наплечники Альма Рула"
 
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_dunmer_temple:0 "Temple Priest Robes"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_dunmer_ordinator:0 "Ordinator Robes"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_almarula_robe:0 "Alma Rula Robes"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_dunmer_temple:0 "Одеяния храмовых жрецов"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_dunmer_ordinator:0 "Одеяния ординатора"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_almarula_robe:0 "Одеяния Альма Рула"
  
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_dunmer_temple:0 "Temple Priest Robes"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dunmer_war_nobility:0 "Bonemold Armor"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_ashlander_01_high:0 "Wise Woman Robes"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_dunmer_temple:0 "Одеяния храмовых жрецов"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dunmer_war_nobility:0 "Костяная броня"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_ashlander_01_high:0 "Одеяния мудрой женщины"
  
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ashlander_01_low:0 "Ashlander Low Nobility Clothing 1" 
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ashlander_01_high:0 "Ashlander High Nobility Clothing 1" 
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ashlander_02_low:0 "Ashlander Low Nobility Clothing 2" 
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ashlander_02_high:0 "Ashlander High Nobility Clothing 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ashlander_01_low:0 "Эшлендерское низшее дворянство 1" 
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ashlander_01_high:0 "Эшлендерское низшее дворянство 1" 
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ashlander_02_low:0 "Эшлендерское низшее дворянство 2" 
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ashlander_02_high:0 "Эшлендерское низшее дворянство 2"
  
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dunmer_03_low:0 "Dunmer Low Nobility Clothing 1" 
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dunmer_03_common:0 "Dunmer Common Clothing 1" 
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dunmer_01_high:0 "Dunmer High Nobility Clothing 1"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dunmer_02_high:0 "Dunmer High Nobility Clothing 2"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dunmer_03_high:0 "Dunmer High Nobility Clothing 3"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dunmer_03_low:0 "Данмерское низшее дворянство 1" 
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dunmer_03_common:0 "Обычная Данмерская Одежда 1" 
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dunmer_01_high:0 "Dunmer Данмерское низшее дворянство 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dunmer_02_high:0 "Dunmer Данмерское низшее дворянство 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dunmer_03_high:0 "Dunmer Данмерское низшее дворянство 3"
  
- PORTRAIT_MODIFIER_custom_cloaks_female_headgear_secular_dunmer_war_headwrap_01:0 "Dunmer Headwrap"
+ PORTRAIT_MODIFIER_custom_cloaks_female_headgear_secular_dunmer_war_headwrap_01:0 "Данмерский головной убор"
  
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_ordinator:0 "Ordinator Helmet"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_almarula:0 "Alma Rula Helmet"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_ordinator:0 "Шлем ординатора"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_almarula:0 "Шлем Альма Рула"
 
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dunmer_war_02:0 "Bonemold Helmet" 
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dunmer_war_02:0 "Костяной шлем" 
 
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_dunmer_war_nobility:0 "Bonemold Greaves"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_dunmer_war_nobility:0 "Костяные наголенники"
 
 #########################################
 ################ Riekr ################
 #########################################
  
- PORTRAIT_MODIFIER_facepaint_facepaint_riekling_01:0 "Riekling Paint 1"
- PORTRAIT_MODIFIER_facepaint_facepaint_riekling_02:0 "Riekling Paint 2"
- PORTRAIT_MODIFIER_facepaint_facepaint_riekling_03:0 "Riekling Paint 3"
+ PORTRAIT_MODIFIER_facepaint_facepaint_riekling_01:0 "Риклингская Раскраска 1"
+ PORTRAIT_MODIFIER_facepaint_facepaint_riekling_02:0 "Риклингская Раскраска 2"
+ PORTRAIT_MODIFIER_facepaint_facepaint_riekling_03:0 "Риклингская Раскраска 3"
 
 ### Male ###
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_riekling_01:0 "Riekling Clothing 1"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_riekling_02:0 "Riekling Clothing 2"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_riekling_war_01:0 "Riekling War Mask"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_riekling_01:0 "Риклингская Одежда 1"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_riekling_02:0 "Риклингская Одежда 2"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_riekling_war_01:0 "Риклингская боевая маска"
  
 ### Female ###
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_riekling_01:0 "Riekling Clothing 1"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_riekling_02:0 "Riekling Clothing 2"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_riekling_war_01:0 "Riekling War Mask"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_riekling_01:0 "Риклингская Одежда 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_riekling_02:0 "Риклингская Одежда 2"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_riekling_war_01:0 "Риклингская боевая маска"
  
  #########################################
 ################ Ayleid / Nedic ################
 #########################################
 ### Male ###
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ayleid_crown_01:0 "Ayleid Circlet"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ayleid_crown_02:0 "Ayleid Crown"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ayleid_01_common:0 "Ayleid Common Clothing"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ayleid_01_low:0 "Ayleid Low Nobility Clothing"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ayleid_01_high:0 "Ayleid High Nobility Clothing"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_south_nedic_01:0 "Nedic Male 'Clothing'"	
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_01_common:0 "Ayleid Common Legwear Clothing 1"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_02_common:0 "Ayleid Common Legwear Clothing 2"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_01_low:0 "Ayleid Low Nobility Legwear 1"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_02_low:0 "Ayleid Low Nobility Legwear 2"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_01_high:0 "Ayleid High Nobility Legwear 1"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_02_high:0 "Ayleid High Nobility Legwear 2"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_01_low:0 "Nedic Low Nobility Legwear 1"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_02_low:0 "Nedic Low Nobility Legwear 2"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_01_high:0 "Nedic High Nobility Legwear 1"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_02_high:0 "Nedic High Nobility Legwear 2"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ayleid_crown_01:0 "Айлейдская диадема"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ayleid_crown_02:0 "Айлейдская корона"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ayleid_01_common:0 "Айлейдская обычная одежда"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ayleid_01_low:0 "Айлейдское низшее дворянство"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ayleid_01_high:0 "Айлейдское высшее дворянство"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_south_nedic_01:0 "Недическая мужская одежда"	
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_01_common:0 "Айлейдские обычные поножи 1"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_02_common:0 "Айлейдские обычные поножи 2"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_01_low:0 "Айлейдские поножи низшего дворянства 1"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_02_low:0 "Айлейдские поножи низшего дворянства 2"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_01_high:0 "Айлейдские поножи высшего дворянства 1"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_02_high:0 "Айлейдские поножи высшего дворянства 2"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_01_low:0 "Недические поножи низшего дворянства 1"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_02_low:0 "Недические поножи низшего дворянства 2"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_01_high:0 "Недические поножи высшего дворянства 1"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_02_high:0 "Недические поножи высшего дворянства 2"
  
 ### Female ###
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ayleid_crown_01:0 "Ayleid Circlet"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ayleid_crown_02:0 "Ayleid Crown"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ayleid_02_common:0 "Ayleid Common Clothing"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ayleid_02_low:0 "Ayleid Low Nobility Clothing"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ayleid_02_high:0 "Ayleid High Nobility Clothing"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_south_nedic_01_low:0 "Nedic Low Nobility Clothing"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_south_nedic_01_high:0 "Nedic High Nobility Clothing"
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_ayleid_01_common:0 "Ayleid Common Legwear"
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_ayleid_01_low:0 "Ayleid Low Nobility Legwear"
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_ayleid_01_high:0 "Ayleid High Nobility Legwear"
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_south_nedic_01_low:0 "Nedic Low Nobility Legwear"
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_south_nedic_01_high:0 "Nedic High Nobility Legwear"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ayleid_crown_01:0 "Айлейдская диадема"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ayleid_crown_02:0 "Айлейдская корона"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ayleid_02_common:0 "Айлейдская обычная одежда"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ayleid_02_low:0 "Айлейдское низшее дворянство"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ayleid_02_high:0 "Айлейдское высшее дворянство"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_south_nedic_01_low:0 "Недическое низшее дворянства"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_south_nedic_01_high:0 "Недическое высшее дворянства"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_ayleid_01_common:0 "Айлейдские обычные поножи"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_ayleid_01_low:0 "Айлейдские поножи низшего дворянства"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_ayleid_01_high:0 "Айлейдские поножи высшего дворянства"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_south_nedic_01_low:0 "Недические поножи низшего дворянства"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_south_nedic_01_high:0 "Недические поножи высшего дворянства"
 
 #########################################
 ################ Altmer ################
 #########################################
 
  ### Male ###
- PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_war_01:0 "Altmer Glass Greaves"
- PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_war_01:0 "Altmer Glass Armor"
- PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_male_noble_war_01:0 "Altmer Glass Helmet"
+ PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_war_01:0 "Альтмерские стеклянные поножи"
+ PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_war_01:0 "Альтмерская стеклянная броня"
+ PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_male_noble_war_01:0 "Альтмерский стеклянный шлем"
  
- PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_01_common:0 "Altmer Common Clothing 1"
- PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_02_common:0 "Altmer Common Clothing 2"
+ PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_common_war_01:0 "Альтмерская броня из лунного камня"
  
- PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_01_low:0 "Altmer Low Nobility Clothing 1"
- PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_01b_low:0 "Altmer Low Nobility Clothing 1b"
- PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_02_low:0 "Altmer Low Nobility Clothing 2"
+ PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_01_common:0 "Альтмерская обычная одежда 1"
+ PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_02_common:0 "Альтмерская обычная одежда 2"
  
- PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_01_high:0 "Altmer High Nobility Clothing 1"
- PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_02_high:0 "Altmer High Nobility Clothing 2"
+ PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_01_low:0 "Альтмерское низшее дворянство 1"
+ PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_01b_low:0 "Альтмерское низшее дворянство 1b"
+ PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_02_low:0 "Альтмерское низшее дворянство 2"
  
- PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_01_common:0 "Altmer Common Legwear 1"
- PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_02_common:0 "Altmer Common Legwear 2"
+ PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_01_high:0 "Альтмерское высшее дворянство 1"
+ PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_02_high:0 "Альтмерское высшее дворянство 2"
  
- PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_01_low:0 "Altmer Low Nobility Legwear 1"
- PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_02_low:0 "Altmer Low Nobility Legwear 2"
+ PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_01_common:0 "Альтмерские обычные поножи 1"
+ PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_02_common:0 "Альтмерские обычные поножи 2"
  
- PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_01_high:0 "Altmer High Nobility Legwear 1"
- PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_02_high:0 "Altmer High Nobility Legwear 2"
+ PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_01_low:0 "Альтмерские поножи низшего дворянства 1"
+ PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_02_low:0 "Альтмерские поножи низшего дворянства 2"
+ 
+ PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_01_high:0 "Альтмерские поножи высшего дворянства 1"
+ PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_02_high:0 "Альтмерские поножи высшего дворянства 2"
  
  ### Female ###
- PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_female_noble_war_01:0 "Altmer Glass Greaves"
- PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_female_noble_war_01:0 "Altmer Glass Armor"
- PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_female_noble_war_01:0 "Altmer Glass Helmet"
+ PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_female_noble_war_01:0 "Альтмерские стеклянные поножи"
+ PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_female_noble_war_01:0 "Альтмерская стеклянная броня"
+ PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_female_noble_war_01:0 "Альтмерский стеклянный шлем"
  
- PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_01_low:0 "Altmer Low Nobility Neckguard"
- PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_02_low:0 "Altmer Low Nobility Cape"
- PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_01_high:0 "Altmer High Nobility Neckguard"
- PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_02_high:0 "Altmer High Nobility Cape"
+ PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_female_common_war_01:0 "Альтмерская броня из лунного камня"
+ 
+ PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_01_low:0 "Альтмерский нашейный доспех низшее дворянство"
+ PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_02_low:0 "Альтмерская накидка низшее дворянство"
+ PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_01_high:0 "Альтмерский нашейный доспех высшее дворянство"
+ PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_02_high:0 "Альтмерская накидка высшее дворянство"
+ 
+ #########################################
+################ Akaviri ################
+#########################################
+
+
+### Male ###
+PORTRAIT_MODIFIER_custom_clothes_male_clothes_kimono_samurai_01_common:0 "Акавирская обычная одежда"
+PORTRAIT_MODIFIER_custom_clothes_male_clothes_kimono_samurai_01_low:0 "Акавирское низшее дворянство"
+PORTRAIT_MODIFIER_custom_clothes_male_clothes_kimono_samurai_01_high:0 "Акавирское высшеее дворянство"
+
+PORTRAIT_MODIFIER_custom_legwear_male_legwear_tabi_01_high:0 "Акавирские Таби носки"
+
+### Female ###
+PORTRAIT_MODIFIER_custom_clothes_female_clothes_kimono_kosode_01_common:0 "Акавирская обычная одежда"
+PORTRAIT_MODIFIER_custom_clothes_female_clothes_kimono_kosode_01_low:0 "Акавирское низшее дворянство"
+PORTRAIT_MODIFIER_custom_clothes_female_clothes_kimono_kosode_01_high:0 "Акавирское высшеее дворянство"
+
+PORTRAIT_MODIFIER_custom_legwear_female_legwear_tabi_01_high:0 "Акавирские Таби носки"
+ 
  
  #########################################
  ################ Misc ################
@@ -265,81 +289,81 @@
  
  
   ### Male ###
-  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01:0 "No Clothes"
-  PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_western_bedchamber_01_common:0 "No Clothes"
-  PORTRAIT_MODIFIER_custom_clothes_male_empty:0 "EMPTY PLACEHOLDER REPLACE ME"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01:0 "Нет одежды"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_western_bedchamber_01_common:0 "Нет одежды"
+  PORTRAIT_MODIFIER_custom_clothes_male_empty:0 "ПУСТОЙ ЗАПОЛНИТЕЛЬ ЗАМЕНИТЕ МЕНЯ"
  
-  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_mage:0 "Extravagant Mage Robes"
-  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_moth_priest:0 "Moth Priest Robes"
-  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_orc_war:0 "Orcish Armor"
-  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_daedric:0 "Daedric Armor"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_mage:0 "Экстравагантные магические одеяния"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_moth_priest:0 "Одеяние жреца Мотылька"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_orc_war:0 "Орочий доспех"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_daedric:0 "Даэдрическая броня"
   
-  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_mage:0 "Mage Hood"
-  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_mage_02:0 "Extravagant Mage Hood"
-  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_moth_priest:0 "Moth Priest Hood"
-  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_monk_01:0 "Priest Hood Variant 1"
-  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_monk_02:0 "Priest Hood Variant 2"
-  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_colovian_01:0 "Colovian Fur Helm"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_mage:0 "Капюшон мага"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_mage_02:0 "Экстравагантный Капюшон мага"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_moth_priest:0 "Капюшон жреца Мотылька"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_monk_01:0 "Капюшон священника 1"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_monk_02:0 "Капюшон священника 2"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_colovian_01:0 "Коловианский меховой шлем"
   
-  PORTRAIT_MODIFIER_custom_cloaks_boy_empty:0 "No Cloak"
+  PORTRAIT_MODIFIER_custom_cloaks_boy_empty:0 "Без плаща"
  
-  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_daedric:0 "Daedric Greaves"
+  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_daedric:0 "Даэдрические поножи"
   
-  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_dragon_priest:0 "Dragon Priest Mask"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_dragon_priest:0 "Маска драконьего жреца"
   
-  PORTRAIT_MODIFIER_custom_cloaks_cloaks_nibenese_male_noble_01_high:0 "Nibenese Noble Cloak"
+  PORTRAIT_MODIFIER_custom_cloaks_cloaks_nibenese_male_noble_01_high:0 "Нибенейский благородный плащ"
   
-  PORTRAIT_MODIFIER_custom_clothes_male_clothes_plate_war_01:0 "Breton Plate Armor"
-  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_plate_war_01:0 "Breton Plate Greaves"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_plate_war_01:0 "Бретонский латный доспех"
+  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_plate_war_01:0 "Бретонские ножные латы"
   
   ### Female ###
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nudity_01:0 "No Clothes"
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_situational_western_bedchamber_01_common:0 "No Clothes"
-  PORTRAIT_MODIFIER_custom_clothes_female_empty:0 "EMPTY PLACEHOLDER REPLACE ME"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nudity_01:0 "Нет одежды"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_situational_western_bedchamber_01_common:0 "Нет одежды"
+  PORTRAIT_MODIFIER_custom_clothes_female_empty:0 "ПУСТОЙ ЗАПОЛНИТЕЛЬ ЗАМЕНИТЕ МЕНЯ"
   
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_mage:0 "Extravagant Mage Robes"
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_moth_priest:0 "Moth Priest Robes"
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orc_war:0 "Orcish Armor"
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_daedric:0 "Daedric Armor"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_mage:0 "Экстравагантные магические одеяния"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_moth_priest:0 "Одеяния жреца Мотылька"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orc_war:0 "Орочий Доспех"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_daedric:0 "Даэдрическая Броня"
   
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_mage:0 "Mage Hood"
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_mage_02:0 "Extravagant Mage Hood"
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_moth_priest:0 "Moth Priest Hood"
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_monk_01:0 "Priest Hood Variant 1"
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_monk_02:0 "Priest Hood Variant 2"
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_colovian_01:0 "Colovian Fur Helm"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_mage:0 "Капюшон Мага"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_mage_02:0 "Экстравагантный Капюшон Мага"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_moth_priest:0 "Капюшон жреца Мотылька"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_monk_01:0 "Капюшон священника 1"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_monk_02:0 "Капюшон священника 2"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_colovian_01:0 "Коловианский меховой шлем"
   
-  PORTRAIT_MODIFIER_custom_cloaks_girl_empty:0 "No Cloak"
+  PORTRAIT_MODIFIER_custom_cloaks_girl_empty:0 "Без плаща"
   
-  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_daedric:0 "Daedric Greaves"
+  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_daedric:0 "Даэдрические поножи"
   
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_dragon_priest:0 "Dragon Priest Mask"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_dragon_priest:0 "Маска драконьего жреца"
   
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_plate_war_01:0 "Breton Plate Armor"
-  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_plate_war_01:0 "Breton Plate Greaves"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_plate_war_01:0 "Бретонский латный доспех"
+  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_plate_war_01:0 "Бретонские ножные латы"
 
   
   
   ### Vanilla Legwear ###
- PORTRAIT_MODIFIER_custom_legwear_male_empty:0 "No Legwear" 
- PORTRAIT_MODIFIER_custom_legwear_female_empty:0 "No Legwear" 
- PORTRAIT_MODIFIER_custom_legwear_boy_empty:0 "No Legwear" 
- PORTRAIT_MODIFIER_custom_legwear_girl_empty:0 "No Legwear" 
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_common_01:0 "Common Legwear" 
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_western_common_01:0 "Common Legwear"  
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_war_01:0 "Common War Legwear" 
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_western_war_01:0 "Common War Legwear"  
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mena_war_nobility_01:0 "Sturdy War Legwear" 
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_mena_war_nobility_01:0 "Sturdy War Legwear"  
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_fp1_common_01:0 "Nordic Legwear" 
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_fp1_common_01:0 "Nordic Legwear"  
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_fp1_common_01:0 "Nordic Legwear"     
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_ep1_jester_01:1 "Jester's Legwear" 
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_ep1_jester_01:1 "Jester's Legwear"  
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mena_common_01:1 "Southern Legwear" 
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_mena_common_01:1 "Southern Legwear" 
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mena_nobility_01:1 "Nobility Legwear" 
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_mena_nobility_01:1 "Nobility Legwear" 
+ PORTRAIT_MODIFIER_custom_legwear_male_empty:0 "Без поножей" 
+ PORTRAIT_MODIFIER_custom_legwear_female_empty:0 "Без поножей" 
+ PORTRAIT_MODIFIER_custom_legwear_boy_empty:0 "Без поножей" 
+ PORTRAIT_MODIFIER_custom_legwear_girl_empty:0 "Без поножей" 
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_common_01:0 "Обычная одежда" 
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_western_common_01:0 "Обычные поножи"  
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_western_war_01:0 "Обычные боевые поножи" 
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_western_war_01:0 "Обычные боевые поножи"  
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mena_war_nobility_01:0 "Прочные боевые штаны" 
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_mena_war_nobility_01:0 "Прочные боевые штаны"  
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_fp1_common_01:0 "Нордские поножи" 
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_fp1_common_01:0 "Нордские поножи"  
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_fp1_common_01:0 "Нордские поножи"     
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_ep1_jester_01:1 "Поножи шута" 
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_ep1_jester_01:1 "Поножи шута"  
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mena_common_01:1 "Южные поножи" 
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_mena_common_01:1 "Южные поножи" 
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mena_nobility_01:1 "Дворянские поножи" 
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_mena_nobility_01:1 "Дворянские поножи" 
  
  #PORTRAIT_MODIFIER_custom_clothes_
  #PORTRAIT_MODIFIER_custom_legwear_

@@ -1,8 +1,8 @@
 ﻿l_russian:
- ek_learn_liturgical_language_ongoing.0001.t:0 "Learning [ROOT.Char.Custom('GetLiturgicalLanguage')]"
- ek_learn_liturgical_language_ongoing.0001.desc:0 "To prove my devotion to [ROOT.Char.GetFaith.PantheonTerm], I should try to learn the mystical and foreign language use by our Priesthood.\nBy conversing with numerous [ROOT.Char.GetFaith.PriestNeuter] and reading the [ROOT.Char.GetFaith.ReligiousText], I should be able to slowly but surely master the [ROOT.Char.Custom('GetLiturgicalLanguage')] language.\n\nThis will take lots of efforts and months, if not years, but I am sure [ROOT.Char.GetFaith.PantheonTerm] will reward me for my strength of will!"
- ek_learn_liturgical_language_ongoing.0001.a:0 "I will show my devotion by mastering [ROOT.Char.Custom('GetLiturgicalLanguage')]!"
- starts_ek_learn_liturgical_language_scheme_now:0 "You will start a new personal [scheme|E] to learn your [faith|E]'s [liturgical_language|E].\nUpon successfully completing the scheme, you will learn it, and get #P a [piety|E] and [clergy|E] Opinion bonus#!."
- ek_learn_liturgical_language_ongoing.0001.b:0 "Is it really the matter of mortalkind?"
- can_start_ek_learn_liturgical_language_scheme_later:0 "You will be able to start the [scheme|E] later, with the $learn_liturgical_language_decision$ [decision|E]"
+ ek_learn_liturgical_language_ongoing.0001.t:0 "Изучение [ROOT.Char.Custom('GetLiturgicalLanguage')]"
+ ek_learn_liturgical_language_ongoing.0001.desc:0 "Чтобы доказать свою преданность [ROOT.Char.GetFaith.PantheonTerm], я должен попытаться выучить мистический и иностранный язык, используемый нашим духовенством.\nОбщаясь с многочисленными [ROOT.Char.GetFaith. PriestNeuter] и читая [ROOT.Char.GetFaith.ReligiousText], я должен медленно, но верно освоить язык [ROOT.Char.Custom('GetLiturgicalLanguage')].\n\nЭто потребует много усилий и месяцев , если не годы, но я уверен, что [ROOT.Char.GetFaith.PantheonTerm] вознаградит меня за мою силу воли!"
+ ek_learn_liturgical_language_ongoing.0001.a:0 "Я продемонстрирую свою преданность, освоив [ROOT.Char.Custom('GetLiturgicalLanguage')]!"
+ starts_ek_learn_liturgical_language_scheme_now:0 "Вы начнете [scheme|E] по изучению [liturgical_language|E] вашей [Concept('faith', 'конфессии')|E].\nПосле успешного завершения вы изучите язык, получите [piety|E] и бонус мнения [Concept('clergy', 'духовенства')|E]."
+ ek_learn_liturgical_language_ongoing.0001.b:0 "Это действительно важное дело для смертных?"
+ can_start_ek_learn_liturgical_language_scheme_later:0 "Вы сможете начать [scheme|E] позже, через [decision|E] $learn_liturgical_language_decision$"
  # GetLiturgicalLanguage

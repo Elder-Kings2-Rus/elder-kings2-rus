@@ -338,8 +338,8 @@
 
  ek_daedric_artifacts.0040.t:0 "Unlocking Potential"
  ek_daedric_artifacts.0040.desc:0 "The Shadowkey functions as a tool for "unlocking" all things, including portals, hidden potential, and other unknown possibilities.\n\nI've been wondering what hidden potential it could unlock in me, making me a better [ROOT.Char.GetTitleAsName]."
- ek_daedric_artifacts.0029.a:0 "I'll unlock my true potential!"
- ek_daedric_artifacts.0029.b:0 "I'd rather keep the key."
+ ek_daedric_artifacts.0040.a:0 "I'll unlock my true potential!"
+ ek_daedric_artifacts.0040.b:0 "I'd rather keep the key."
 
  ek_murder_outcome.1001.t:0 "Boethiah's Proving"
  ek_murder_outcome.1001.desc:0 "The time has come. My agents are in place. One of them will kidnap the target the very night the deed will happen. Another will ensure the wall is unguarded. A third will leave a subtle trail of candles to [target.GetTitledFirstNamePossessive] bedchamber.\n\nEverything is in place."
