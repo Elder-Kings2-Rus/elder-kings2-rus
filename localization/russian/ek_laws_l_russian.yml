@@ -19,7 +19,7 @@
  crown_authority_3_default:0 "Абсолютная власть короны"
  
  feudal_government_authority_modifier:0 "Феодальное правительство - власть Короны"
- liege_modify_vassal_contract_cannot_exceed_tyranny_cap_0:0 "Ваша текущая власть Короны запрещает вам требовать каких-либо [.tyrannical|E] изменений.\n#weak Примечание: сюзерены с законом #V $crown_authority_2$#! могут вносить одно изменение, которое считается [.tyrannical|E] без штрафа.#!"
+ liege_modify_vassal_contract_cannot_exceed_tyranny_cap_0:0 "Ваша текущая власть Короны запрещает вам требовать каких-либо [Concept('tyrannical', 'тиранических')|E] изменений.\n#weak Примечание: сюзерены с законом #V $crown_authority_2$#! могут вносить одно изменение, которое считается [Concept('tyrannical', 'тираническим')|E] без штрафа.#!"
   
  feudal_contrib_normal_ca:0 "[crown_authority|E] [Concept('liege', 'сюзерена')|E] требуется #V $crown_authority_1$#!, #V $crown_authority_2$#!, или #V $crown_authority_3$#!"
  feudal_contrib_high_ca:0 "[crown_authority|E] [Concept('liege', 'сюзерена')|E] требуется #V $crown_authority_2$#!, или #V $crown_authority_3$#!"
