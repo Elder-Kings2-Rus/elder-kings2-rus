@@ -1,0 +1,6 @@
+﻿l_russian:
+
+ INNOVATION_ERA_NOT_IN_YEAR:0 "#N This Era is not available until $YEAR$#!"
+
+# EK TODO: If someone can turn this GetJoinedLeftString year being called into our Era Date format somehow, feel free
+# CULTURE_ERA_INNOVATION_COUNT_JOIN_LEAVE:0 "[GuiCultureEra.GetJoinedLeftString]\n[CultureEra.GetNumberOfActiveInnovations]/[CultureEra.GetNumberOfInnovations]"
