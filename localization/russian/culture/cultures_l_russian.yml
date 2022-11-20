@@ -59,6 +59,18 @@
     game_concept_cg_akaviri_desc:0 "akaviri_group"
     akaviri_group_desc:0 "Чужестранцы с Востока"
     
+    tsaesci:0 "Tsaesci" ## Placeholder DO NOT REMOVE. HISTORY USE ONLY (FOR NOW).
+    tsaesci_prefix:0 "Tsaesci"
+    tsaesci_collective_noun:1 "Tsaesci"
+    tsaesci_desc:0 "The Tsaesci are the fabled Snake-People from Akavir. Not much is known about them in Tamriel." ## Placeholder DO NOT USE. HISTORY USE ONLY (FOR NOW).
+    tsaesci_opinion:1 "$tsaesci$ Opinion" 
+
+ jaegi:0 "Jaegi" ## Placeholder DO NOT REMOVE. HISTORY USE ONLY (FOR NOW).
+    jaegi_prefix:0 "Jaegi"
+    jaegi_collective_noun:1 "Jaegi"
+    jaegi_desc:0 "A remnant of pre-Tsaescence human Akaviri clinging to the westernmost edge of Akavir, Jaegi lead a pastorial lifestyle and value honesty and humility above all. Their martial fame, however, precedes them in most contexts."
+    jaegi_opinion:1 "$jaegi$ Opinion"    
+
  ilniviri:0 "Ильнивири"
     ilniviri_prefix:0 "Ильнивиро"
     ilniviri_collective_noun:1 "Ильнивирск"
@@ -69,17 +81,7 @@
     rimmen_collective_noun:1 "Римменнск"
     rimmen_desc:0 "Риммены - это яркий плавильный котел родословных и влияний. Культурно акавирские, но этнически тамриэльские, они утверждают, что представляют лучшее, что могут предложить эти двое."
     rimmen_opinion:0 "$rimmen$ Мнение"
- jaegi:0 "Джеги" ## Placeholder DO NOT REMOVE. HISTORY USE ONLY (FOR NOW).
-    jaegi_prefix:0 "Джего"
-    jaegi_collective_noun:1 "Джегск"
-    jaegi_desc:0 "Остатки людей-акавири до Цаэссенции, живущие на самой западной окраине Акавира, Джеги ведут пастушеский образ жизни и превыше всего ценят честность и смирение. Однако их боевая слава в большинстве случаев предшествует им."
-    jaegi_opinion:1 "$jaegi$ Мнение"
-    
- tsaesci:0 "Цаэски" ## Placeholder DO NOT REMOVE. HISTORY USE ONLY (FOR NOW).
-    tsaesci_prefix:0 "Цаэско"
-    tsaesci_collective_noun:1 "Цаэскск"
-    tsaesci_desc:0 "" ## Placeholder DO NOT USE. HISTORY USE ONLY (FOR NOW).
-    tsaesci_opinion:1 "$tsaesci$ Мнение"
+
 
 #ALDMERI
  aldmeris_group:0 "[cg_aldmeris|L]"
@@ -545,29 +547,34 @@
 
  bosmer:1 "Бойчи"
     bosmer_prefix:0 "Бойчо"
-    bosmer_prefix:0 "Бойчо"
     bosmer_collective_noun:1 "Бойчск"
     bosmer_desc:0 "'Бойчи' населяют Глубокие леса Валенвуда. Они - живое сердце босмерской культуры и самые верные приверженцы Зеленого пакта. Бойче живут полукочевыми племенами, выживая за счет охоты, набегов и торговли с оседлыми общинами."
     bosmer_opinion:0 "$bosmer$ Мнение"
  altmeribosmer:0 "Salaboiche"
-    altmeribosmer_prefix:0 "Salaboiche"
     altmeribosmer_prefix:0 "Salaboiche"
     altmeribosmer_collective_noun:1 "Salaboiche"
     altmeribosmer_desc:0 "The Salaboiche inhabit coastal zones under Altmer cultural influence. The cross-cultural exchange sustained over generations produced Bosmer which may answer to Jephre - or even Auri-El - rather than Yffre, and shun tribal raiding in favour of sea trade and privateering. There are fruitful trade connections between Auridon and the Cape of the Blue Divide, some even blossoming into familial ties as fledgling merchants take root into the native lineages."
     altmeribosmer_opinion:0 "$altmeribosmer$ Мнение"
  cyrobosmer:0 "Cyroboiche"
     cyrobosmer_prefix:0 "Cyroboiche"
-    cyrobosmer_prefix:0 "Cyroboiche"
     cyrobosmer_collective_noun:1 "Cyroboiche"
     cyrobosmer_desc:0 "The Cyroboiche are those Bosmer which embraced elements of Cyrodilic culture during the Reman Empire. They are more urban and link the Deepwoods with the wider world. Cosmopolitan spirits are common amongst them, some even journeying and settling outside Valenwood."
     cyrobosmer_opinion:0 "$cyrobosmer$ Мнение"
  arenthi:0 "Arenthi"
-    arenthi_prefix:0 "Arentho"
     arenthi_prefix:0 "Arenthi"
     arenthi_collective_noun:1 "Arenthi"
     arenthi_desc:0 "Reaper’s March estranged the Arenthi from their kin, as it forced many exemptions to the Green Pact, just to endure constant warfare with the Khajiit and Colovians. Nevertheless the Arenthi are a steadfast lot, risking life and limb to retain their ancestral lands and rallying against bold warlords and heroics fighters to prevail time and again."
     arenthi_opinion:0 "$arenthi$ Мнение"
-    
+silvenari:0 "Silvenari"
+    silvenari_prefix:0 "Silvenari"
+    silvenari_collective_noun:1 "Silvenari"
+    silvenari_desc:0 "Incarnation of the Bosmer's dual nature, Malabal Tor's greatest city hosts the Silvenar and their consort, the Green Lady. Under this twin protection, the Silvenari thrive. Sagacity enables them to navigate the Broken Coast or the darkwoods with ease. Above all else, the Silvenari value hospitality due to the unforgiving nature of the wilds. Few can claim to have never invoked guest right—and fewer still to have been denied it. Valenwood has been the first refuge of many Saliache fleeing the disorders of Late Ayleid Cyrodiil. Faced with starkly alien customs, most settled in enclaves further south, far from any enemies. These became the 'Home-Driven' But virgin glades were not infinite, as was the patience of the deepwood Bosmer. Malabal Tor was at the front of the renewed crisis caused by the Abolition of the Ayleid Lordships in 1E 361. True to their values, the Silvenari welcomed the refugees, dispersing them amongst their myriad communities. Yet many also heeded the call of Silvenar Laelrion to incorporate the displaced populace, feeling the beginnings of a merge into Y'ffre people. Perhaps influenced by his consort, Green Lady Mordaya—scion of Ayleids from the First Diaspora of 1E 243—, Laelrion's injunction lead a few denizens of Highstone Hill."
+    silvenari_opinion:0 "$silvenari$ Opinion"
+ grahtwood:0 "Etarani"
+    grahtwood_prefix:0 "Etarani"
+    grahtwood_collective_noun:1 "Etarani"
+    grahtwood_desc:0 "Characteristic graht-oak villages populate the groves of southeastern Valenwood, with Elden Root standing by far the tallest—as befits the Elden Tree. Second only to Falinesti, the capital of Grahtwood shelters the royal elite of the Bosmer nation: the Etarani or 'Children of the King'. When Hart-King Eplear ruled atop Falinesti, the only period he anticipated would be winter. For he knew the two greatest cities of his land would stand beside each other. The subjects settled in the area profited from the generosity of the itinerant court, coming to be —or rather act— superior to all others. Having the two Elden Tree cities within their borders bestowed them this right. When the Second Empire absorbed their lands in 1E 2714, the woodlords of Grahtwood selectively adopted Imperial customs into dress, speech and governance. As the link between the deepwoods and the Cyro-Bosmer class, they play kingmakers in Bosmer politics."
+    grahtwood_opinion:0 "$grahtwood$ Opinion" 
     
 #ARGONIAN
  argonian_group:0 "[cg_argonian|L]"
