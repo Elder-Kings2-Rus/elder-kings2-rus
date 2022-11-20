@@ -2,7 +2,7 @@
  trait_null_desc:0 ""
  
  # Divines
- trait_p_dv_akatosh:0 "Божество-покровитель - [ROOT.Char.Custom('GetDvAkatoshName')]а"
+ trait_p_dv_akatosh:0 "Божество-покровитель - [ROOT.Char.Custom('GetDvAkatoshName')]"
  trait_p_dv_akatosh_base:0 "Последователь Акатоша"
  trait_p_dv_akatosh_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_dv_akatosh_desc' )]"
  trait_p_dv_akatosh_desc:0 "Последователь Акатоша. Также известного как Ауриэль, Алкош и Ака."
