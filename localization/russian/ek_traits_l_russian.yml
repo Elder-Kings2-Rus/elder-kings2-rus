@@ -268,17 +268,17 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  #Tsaescence
  trait_tsaesci:0 "Цаэски"
  trait_tsaesci_1:1 "Цаэсцендентность I"
- trait_tsaesci_1_character_desc:1 "Впервые попробовав кровь, [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'познала', 'познал' )]  чудеса [tsaescence|E]."
- trait_tsaesci_1_desc:1 "Впервые попробовав кровь, этот персонаж познал чудеса [tsaescence|E]."
+ trait_tsaesci_1_character_desc:1 "Впервые попробовав кровь, [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'познала', 'познал' )]  чудеса [Concept( 'tsaescence', 'цаэсценции' )|E]."
+ trait_tsaesci_1_desc:1 "Впервые попробовав кровь, этот персонаж познал чудеса [Concept( 'tsaescence', 'цаэсценции' )|E]."
  trait_tsaesci_2:0 "Цаэсцендентность II"
- trait_tsaesci_2_character_desc:1 "Сквозь завесу крови пленников, [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'постигла', 'постиг' )] тайны [tsaescence|E]."
- trait_tsaesci_2_desc:1 "Сквозь завесу крови пленников, этот персонаж постиг тайны [tsaescence|E]."
+ trait_tsaesci_2_character_desc:1 "Сквозь завесу крови пленников, [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'постигла', 'постиг' )] тайны [Concept( 'tsaescence', 'цаэсценции' )|E]."
+ trait_tsaesci_2_desc:1 "Сквозь завесу крови пленников, этот персонаж постиг тайны [Concept( 'tsaescence', 'цаэсценции' )|E]."
  trait_tsaesci_3:1 "Цаэсцендентность III"
- trait_tsaesci_3_character_desc:1 "Через размышления о сбрасывании собственной кожи, [ROOT.GetCharacter.GetFirstNameNoTooltip] познал [tsaescence|E]."
- trait_tsaesci_3_desc:1 "Через размышления о сбрасывании собственной кожи, этот персонаж познал [tsaescence|E]."
+ trait_tsaesci_3_character_desc:1 "Через размышления о сбрасывании собственной кожи, [ROOT.GetCharacter.GetFirstNameNoTooltip] познал [Concept( 'tsaescence', 'цаэсценцию' )|E]."
+ trait_tsaesci_3_desc:1 "Через размышления о сбрасывании собственной кожи, этот персонаж познал [Concept( 'tsaescence', 'цаэсценцию' )|E]."
  trait_tsaesci_4:1 "Цаэсцендентность IV"
- trait_tsaesci_4_character_desc:1 "Через ритуалы наре|чения яиц, [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'стала', 'стал' )] многообразным и амбивалентным в [tsaescence|E]."
- trait_tsaesci_4_desc:1 "Через ритуалы наречения яиц, этот персонаж стал многообразным и амбивалентным в [tsaescence|E]."
+ trait_tsaesci_4_character_desc:1 "Через ритуалы наречения яиц, [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'стала', 'стал' )] многообразным и амбивалентным в [Concept( 'tsaescence', 'цаэсценции' )|E]."
+ trait_tsaesci_4_desc:1 "Через ритуалы наречения яиц, этот персонаж стал многообразным и амбивалентным в [Concept( 'tsaescence', 'цаэсценции' )|E]."
 
  #Furstocks
 
