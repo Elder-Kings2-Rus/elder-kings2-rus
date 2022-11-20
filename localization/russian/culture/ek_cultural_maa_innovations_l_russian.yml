@@ -1,47 +1,47 @@
 ﻿l_russian:
 
- unlocks_raiding:0 "Unlocks the ability to [raid|E]"
- cannot_get_regional_innovations:0 "This culture cannot research regional [innovations|E]"
+ unlocks_raiding:0 "Открывает возможность устраивать [Concept ('raid','рейды')|E]"
+ cannot_get_regional_innovations:0 "Эта культура не может исследовать данную [Concept ('innovations','инновацию')|E]"
  
  ### Military
  # Akaviri
  innovation_lacquered_goldscale:0 "Златочешуйчатые доспехи"
- innovation_lacquered_goldscale_desc:0 "Fashioned according to the Serpentine Ways of Making, the impressive lamellar armors of the Tsaesci invaders, our ancestors, were created for the specific purpose of protecting their boldest warriors from dragonfire itself."
+ innovation_lacquered_goldscale_desc:0 "Созданные на подобии чешуи Цаэски, данные доспехи разработны специльно для защиты от драконьего огня"
  # Aldmeris
  innovation_refined_moonstone_plate:0 "Пластины из очищенного лунного камня"
- innovation_refined_moonstone_plate_desc:0 "Moonstone has exceptional qualities when refined with quicksilver, but the two material are so difficult to alloy as to make the smithing of complex articulated armors impossible. Except to us, who have kept this secret since the Dawn Era."
+ innovation_refined_moonstone_plate_desc:0 "Сплав лунного каменя и серебра обладает исключительными качествами, но эти два материала настолько трудно сплавить, что массовое изготовление доспехов из него становится невозможным. Невозможным для всех, кроме нас, хранящих тайну изготовления данного сплава с эпохи Рассвета."
  innovation_mnemolichite_foci:0 "Обработка очищенного малахита"
  innovation_mnemolichite_foci_desc:0 ""
  innovation_eton_nir_gryphon_riders:0 "Наездники на грифонах"
- innovation_eton_nir_gryphon_riders_desc:0 "Historically, there have only ever been four Welkynar at a time. The Unification Wars and our ambitions on Tamriel, however, have necessitated a significant increase in the number of these gryphon knights, and their deployment outside of the isles."
+ innovation_eton_nir_gryphon_riders_desc:0 "Исторически сложилось так, что было лишь четыре известных велкинара. Однако многочисленные войны и наши амбиции в Тамриэле потребовали значительного увеличения наездников на грифонах и размещения их за пределами острова."
  # Argonian
- innovation_ka_deelith_instructions:0 "Обучение у Ка-Дилит"
- innovation_ka_deelith_instructions_desc:0 "The Ka-Deelith, our war teachers, have devised both instructions and trials to teach and test our adolescents in the arts of war, imparting upon them lesson that others learn only through years of battlefield experience."
+ innovation_ka_deelith_instructions:0 "Испытания Ка-Дилит"
+ innovation_ka_deelith_instructions_desc:0 "Ка-Дилиты, наши военные учителя, разработали тренировки и испытания для развития навыков ведения боя у наших подростков, передавая им уроки, которые другие получают только через годы боевого опыта."
  innovation_black_marsh_materials:0 "Материалы Чернотопья"
- innovation_black_marsh_materials_desc:0 "Flint and bone, hackwing feathers and volcanic glass, bog iron and brass, all these and more can be found in Black Marsh. Perhaps the armors we crete from such disparate materials cannot rival steel plate, but wherever our warrios fight, it is Black Marsh itself that armors them."
+ innovation_black_marsh_materials_desc:0 "Кремень и кости, перья крылобоя и вулканическое стекло, болотное железо и латунь - все это и многое другое можно найти в Чернотопье. Возможно, доспехи, которые мы создаем из таких разрозненных материалов, не могут соперничать со стальными пластинами, но где бы ни сражались наши воины, их доспехами служит само Чернотопье."
  # Ayleidon
  innovation_welkynd_stone_foci:0 "Обработка велкиндского камня"
- innovation_welkynd_stone_foci_desc:0 "Meteoric glass that holds pure magicka from Aetherius, the cultivation of which remains our solve provenance, can be cut into welkynd and yarla stones that provide manifold enchantments to our halls, and also serve as conduits for impressive magic feats."
+ innovation_welkynd_stone_foci_desc:0 "Метеоритное стекло, содержащее чистую магию из Этериуса, создание которого остается тайной нашей родословной, может быть огранено в камни велкинд, которые поддерживают разнообразные чары в наших залах, а также служат проводниками для впечатляющего объема магической энергии."
  # Bosmeris
- innovation_bone_sinew_cuirboulli:0 "Bone-Sinew Cuirbouilli" #Надо править
+ innovation_bone_sinew_cuirboulli:0 "Доспехи из костей" #Надо править
  innovation_bone_sinew_cuirboulli_desc:0 ""
  # Breton
  innovation_adamantine_plate_forging:0 "Адамантовые доспехи"
- innovation_adamantine_plate_forging_desc:0 "Adamantine is a lustrous metal not unlike silver that is particularly sturdy and resistant, but heavy and cumbersome. Allegedly the same metal as that which makes up the Adamantine Tower, it is the pride and glory of every true Breton knight to own an Adamantine suit."
+ innovation_adamantine_plate_forging_desc:0 "Адамантин - блестящий металл, не похожий на серебро, крайне прочный и стойкий, но тяжелый и громоздкий. Утверждается, что это тот же металл, из которого сделана Адамантиновая башня, поэтому адамантиновый костюм - гордость и слава каждого истинного бретонского рыцаря."
  innovation_molybdenum_polearms_expertise:0 "Молибденовое оружие"
- innovation_molybdenum_polearms_expertise_desc:0 "The properties of the versatile Molybednum metal allows for easy forging of long and otherwise brittle weapons."
+ innovation_molybdenum_polearms_expertise_desc:0 "Исключительные свойства молибдена позволяют ковать из него лёгкое, длинное и смертоносно острое оружие."
  innovation_breton_hills_gladiators:0 "Бретонские гладиаторы"
  innovation_breton_hills_gladiators_desc:0 ""
- innovation_yoku_braided_stirrups:0 "Yoku Braided Stirrups" #Надо править
+ innovation_yoku_braided_stirrups:0 "Плетённые йокуданские штаны" #Надо править
  innovation_yoku_braided_stirrups_desc:0 ""
  # Chimeris
  # Dunmeris
  innovation_heavy_bonemold_casts:0 "Тяжёлые костяные доспехи"
- innovation_heavy_bonemold_casts_desc:0 "By using resin glues and sophisticated casting techniques, we can create heavy and costly bonemold armors in the new Gah-Julan and Armun-An styles that will be perfect for the aristocratic warriors of the Great Houses."
+ innovation_heavy_bonemold_casts_desc:0 "Используя смоляные клеи и сложные технологии литья, мы можем создать тяжелые и дорогостоящие доспехи из костяной муки в стилях Гах-Джул и Армун-Ан, которые идеально подойдут для воинов Великих Домов."
  innovation_netch_leather_protection:0 "Доспехи из кожи нетча"
- innovation_netch_leather_protection_desc:0 "Cured and riveted netch leather is light and durable enough to be worn in sufficient layers and quantities to protect the skin from even the ash storms, allowing our warriors ease of maneuver where others struggle with nature."
+ innovation_netch_leather_protection_desc:0 "Выделанная и проклепанная кожа нетча достаточно легка и прочна, чтобы склеивая её слоями, делать доспехи, способные защитить кожу даже от пепельных бурь. Это позволяет нашим воинам легко маневрировать там, где другие борются с природой."
  innovation_guar:0 "Разведение гуаров"
- innovation_guar_desc:0 "Guars are the primary domesticated herd animals of Morrowind and Black Marsh, and are often raised as pack animals, beasts of burden and providers of hide, eggs and meat. Their more aggresive cousins, the Kagouti, are used as war mounts."
+ innovation_guar_desc:0 "Гуары - самые распространённые одомашненные животные Морровинда и Чернотопья, их часто разводят как вьючных животных, тяговых зверей и поставщиков шкур, яиц и мяса. Их более агрессивные сородичи, кагути, используются в качестве боевых животных."
  # Goblin-ken
  # Cyrodiilic
  innovation_colovian_steel_lorica:0 "Стальные доспехи"
@@ -49,7 +49,7 @@
  innovation_colovian_auxilia_cavalry:0 "Коловианские седла"
  innovation_colovian_auxilia_cavalry_desc:0 ""
  innovation_ancestor_silk_robes:0 "Мантии из шёлка мотыльков предка"
- innovation_ancestor_silk_robes_desc:0 "It was in monasteries among the Niben that the first ancestor moths were domesticated, and blind mystics first learned the art of weaving their silk into shawls and robes inscribed with spirit in song, that resonate with the wearers genealogy and innate magic."
+ innovation_ancestor_silk_robes_desc:0 "Именно в нибенийских монастырях были одомашнены первые мотыльки предка, а слепые мистики впервые научились искусству ткать из их шелка шали и мантии, пропитанные магией, которая резонирует с врожденным магическим потенциалом владельца."
  innovation_newtscale_cloaks:0 "Плащи из шкуры тритона"
  innovation_newtscale_cloaks_desc:0 ""
  # Khajiiti
@@ -65,66 +65,66 @@
  innovation_stalhrim_reinforced_furs_desc:0 ""
  # Orsimer
  innovation_orichalc_master_smiths:0 "Ковка из орихалка"
- innovation_orichalc_master_smiths_desc:0 "Simple to mine but difficult to smelt, orichalcum is most often adulterated with iron to make it pliable by smiths across Tamriel. But we Pariah Folk know how to work pure orichalcum to produce impenetrable panoplies that are no more cumbersome than steel."
+ innovation_orichalc_master_smiths_desc:0 "Простой в добыче, но сложный в выплавке, орихалк чаще всего сплавляется с железом, что делает его выплавку для кузнецов по всему Тамриэлю. Но мы умеем обрабатывать чистый орихалк, создавая прочные и непробиваемые доспехи."
  innovation_bear_taming:0 "Укрощение медведей"
- innovation_bear_taming_desc:0 "Our people are not alone in their respect for physical might. The wild bears are often considered a formidable opponent, and one of the quickest ways for one of our kind to earn the respect of others is by finding, defeating, and taming a bear. They might be difficult to control, but our enemies will be mauled and crushed by our wild allies."
+ innovation_bear_taming_desc:0 "Среди нас распространено уважение к физической силе. Дикие медведи часто считаются грозным противником, и один из самых быстрых способов для нашего рода заслужить уважение других - это найти, победить и приручить медведя. С ними может быть трудно справиться, но в случаи успеха наши враги будут растерзаны нашими дикими союзниками."
  # Yoku
  innovation_shehai_sword_lore:0 "Шехай - искусство владения мечом"
- innovation_shehai_sword_lore_desc:0 "Even if the art of Sword-Singing has been lost in the recent centuries, our warriors still follow the Way of the Sword, and honour this long tradition that guided us through the ages."
+ innovation_shehai_sword_lore_desc:0 "Даже если искусство Поющих мечей было утрачено в последние столетия, наши воины по-прежнему следуют Пути меча и чтят эту давнюю традицию, которая вела нас сквозь века."
  innovation_corsair_traditions:0 "Пиратские традиции"
- innovation_corsair_traditions_desc:0 "Strong fleets of privateers and pirates have roamed the Abecean Sea for centuries, raiding towns and seizing ships. While not conventional, they could be a powerful addition to any armies looking to fight both at sea and on open land."
+ innovation_corsair_traditions_desc:0 "Сильные флотилии каперов и пиратов веками кочевали по Абейскому морю, совершая набеги на города и захватывая корабли. Хотя они и не являются нашими сторонниками,но стоит им заплатить и они могут стать мощным дополнением к любой армии, способной сражаться как на море, так и на открытой земле."
  # Riekling
  innovation_bristleback:0 "Разведение щетиноспинов"
- innovation_bristleback_desc:0 "It is customary for the Rieklings to breed the bristleback boars into war mounts, taking advantage of their amazing ability to reflect magical effects used against them."
+ innovation_bristleback_desc:0 "Обычно риклинги разводят кабанов-щетиноспинов в качестве боевых животных, пользуясь их удивительной способностью отражать магические воздействия, применяемые против них."
  innovation_scavenging:0 "Грабеж"
- innovation_scavenging_desc:0 "To the outsiders and invaders, Rieklings seem to be little more than beasts with little culture of their own but it's part of their culture and society to take everything they can from the weak, rather than produce for themselves."
+ innovation_scavenging_desc:0 "Для чужаков и захватчиков риклинги кажутся не более чем зверями с небольшой собственной культурой, но это часть их культуры и общества - отбирать все, что они могут, у слабых, а не производить самостоятельно."
  # Goblin-ken
  innovation_durzog:0 "Разведение дурзогов"
- innovation_durzog_desc:0 "Goblinken have raised durzogs for war, company and for hunting down their victims for millenia. The sludgepuppies are also bred for their hides to make armor, livers for cuisine, meat for alchemical properties and even guts for bowstrings."
+ innovation_durzog_desc:0 "Гоблины кены тысячелетиями разводили дурзогов для войны и охоты на своих жертв. Щенков также разводят ради их шкур для изготовления доспехов, печени для кулинарии, мяса для алхимических свойств и даже кишок для тетивы."
  innovation_primal_tradition:0 "Племенные традиции" 
- innovation_primal_tradition_desc:0 "Contrary to popular belief, goblinken are very traditionally-inclined, with some pieces of goblinken design outfits dating back to the First Era. However, it is debated whether if they inherited this style from previous generations, looted it from ancient ruins, scavenged it from other civilizations, or forged it themselves." 
+ innovation_primal_tradition_desc:0 "Вопреки распространенному мнению, гоблины кены очень склонны к традициям, некоторые предметы одежды гоблинов кенов относятся к Первой эпохе. Однако спорным остается вопрос, унаследовали ли они их от предыдущих поколений, унаследовали у других цивилизаций или изобрели сами." 
  
  
  
  
  
  innovation_witch_knight:0 "Рыцари-колдуны"
- innovation_witch_knight_desc:0 "The world fears our old magic. By training our witches and warlocks to unleash their power on horseback, we will force the rest of the world to kneel before us."
+ innovation_witch_knight_desc:0 "Мир боится нашей старой магии. Обучив наших ведьм и колдунов концентрировать и высвобождать свою силу верхом на лошади, мы заставим весь остальной мир преклонить пред нами колени."
  
  innovation_huscarl:0 "Хускарлы"
- innovation_huscarl_desc:0 "As the dust settles in Skyrim, the old traditions of Tongues and ice magic are almost irremediably lost. Our warriors are now wearing heavy carved armors, strong enough to withstand a mammoth's charge."
+ innovation_huscarl_desc:0 "Пыль покрыла древние писания Скайрима, старые традиции Языков и магии льда почти безвозвратно утрачены. Наши воины теперь носят тяжелые резные доспехи, достаточно прочные, чтобы выдержать натиск мамонта."
  innovation_skaal_hunter:0 "Охотники скаалов"
- innovation_skaal_hunter_desc:0 "Our hunters are trained to live and thrive in the cold land we call home. Should the need arise, they will protect us."
+ innovation_skaal_hunter_desc:0 "Наши охотники обучены жить в холодной земле, которую мы называем своим домом. Если возникнет необходимость, они защитят нас."
  
  innovation_armored_legionaires:0 "Тяжёлые легионеры"
- innovation_armored_legionaires_desc:0 "The harsh terrain and history of Colovia forced us, ever since the days of the Alessian Empire, to uphold a very strong martial culture. Our Legionaires, heavy-armored soldiers feared throughout the provinces, are the pride of this culture."
+ innovation_armored_legionaires_desc:0 "Суровый рельеф и история Коловии заставили нас со времен Алессианской империи поддерживать очень сильную боевую культуру. Наши легионеры, тяжеловооруженные солдаты, которых боятся во всех провинциях, являются гордостью этой культуры."
  innovation_nibenese_battlemages:0 "Нибенийские боевые маги"
- innovation_nibenese_battlemages_desc:0 "At the top of the Nibenese hierarchy and society, the Battlemages of the Nibenay have held most of the power in the region after the fall of the Alessian Empire."
+ innovation_nibenese_battlemages_desc:0 "Находясь на вершине нибенейской иерархии и общества, боевые маги Нибенея удерживают большую часть власти в регионе после падения Алессианской империи."
  
  innovation_way_of_the_sword:0 "Путь меча"
- innovation_way_of_the_sword_desc:0 "Even if the art of Sword-Singing has been lost in the recent centuries, our warriors still follow the Way of the Sword, and honour this long tradition that guided us through the ages."
+ innovation_way_of_the_sword_desc:0 "Даже если искусство Поющих мечей было утрачено в последние столетия, наши воины по-прежнему следуют Пути меча и чтят эту давнюю традицию, которая вела нас сквозь века."
  innovation_abecean_pirates:0 "Абесинские пираты"
- innovation_abecean_pirates_desc:0 "Strong fleets of privateers and pirates have roamed the Abecean Sea for centuries, raiding towns and seizing ships. While not conventional, they could be a powerful addition to any armies looking to fight both at sea and on open land."
+ innovation_abecean_pirates_desc:0 "Сильные флотилии каперов и пиратов веками кочевали по Абейскому морю, совершая набеги на города и захватывая корабли. Хотя они и не являются нашими сторонниками,но стоит им заплатить и они могут стать мощным дополнением к любой армии, способной сражаться как на море, так и на открытой земле."
  
  innovation_lunar_lattice:0 "Джа-Ка'джей"
- innovation_lunar_lattice_desc:0 "Eons ago we were forced to live shapeless, constantly changing and never assuming a stable form. We have then been tied to the Moons, so that our people's form depends on the cycle of Masser and Secunda."
- unlocks_other_maa_innovations:0 "Automatically unlocks other Khajiiti army innovations when the regular innovation is researched"
- replaces_innovation_basic_armor_forging:0 "#I This [innovation|E] replaces $innovation_basic_armor_forging$#!"
- innovation_unlocked_by_innovation_lunar_lattice:0 "Is unlocked with the $innovation_lunar_lattice$ [innovation|E]"
+ innovation_lunar_lattice_desc:0 "Эоны назад мы были вынуждены жить бесформенно, постоянно меняясь и никогда не принимая физической формы. Затем нас привязали к лунам, так что форма нашего народа зависит от цикла Массера и Секунды."
+ unlocks_other_maa_innovations:0 "Автоматически разблокирует другие инновации армии каджитов, когда инновация исследована"
+ replaces_innovation_basic_armor_forging:0 "#I Эта [Concept ('innovation','инновация')|E] заменяет $innovation_basic_armor_forging$#!"
+ innovation_unlocked_by_innovation_lunar_lattice:0 "Разблокируется вместе с [Concept('innovation','инновацией)|E] $innovation_lunar_lattice$"
  
  innovation_alfiq:0 "Обучение альфиков"
- innovation_alfiq_desc:0 "We are bound to the Moons, and our physiology is deeply tied to their form when we are born. The smallest of us, the Alfiq, are predisposed to the magical arts, and can support our warriors either in the backline, or by sitting in a shoulder harness worn by our largest warriors."
- innovation_unlocked_by_innovation_war_magic:0 "Is unlocked with the $innovation_war_magic$ [innovation|E]"
+ innovation_alfiq_desc:0 "Мы связаны с лунами, и наша физиология глубоко привязана к их форме, когда мы рождаемся. Самые маленькие из нас, альфики, предрасположены к магическим искусствам и могут поддерживать наших воинов либо в тылу, либо сидя в плечевой сбруе, которую носят самые крупные из наших воинов."
+ innovation_unlocked_by_innovation_war_magic:0 "Разблокируется вместе с [Concept('innovation','инновацией)|E] $innovation_war_magic$"
  
  innovation_pahmar:0 "Обучение памар-ратов"
- innovation_pahmar_desc:0 "We are bound to the Moons, and our physiology is deeply tied to their form when we are born. The largest of the two-legged furstock, the Pahmar can easily wear even the heaviest armor and wield the biggest weapons. They will be great on the battlefield, charging the enemy frontline and paving the way for their smaller brethren."
- innovation_unlocked_by_innovation_quilted_armor:0 "Is unlocked with the $innovation_quilted_armor$ [innovation|E]"
+ innovation_pahmar_desc:0 "Мы связаны с лунами, и наша физиология глубоко привязана к их форме, когда мы рождаемся. Самые крупные из двуногих каджитов - памары, могут легко носить даже самые тяжелые доспехи и владеть самым большим оружием. Они отлично проявляют себя на поле боя, атакуя вражеский фронт и прокладывая путь своим меньшим собратьям."
+ innovation_unlocked_by_innovation_quilted_armor:0 "Разблокируется вместе с [Concept('innovation','инновацией)|E] $innovation_quilted_armor$"
  
  innovation_senche_raht:0 "Обучение сенч-ратов"
- innovation_senche_raht_desc:0 "We are bound to the Moons, and our physiology is deeply tied to their form when we are born. Some of us, the Senche-Raht, are capable of charging the enemy lines on four feet, and are strong enough to carry a regular-sized soldier on their back. We should integrate them into our armies."
- innovation_unlocked_by_innovation_arched_saddle:0 "Is unlocked with the $innovation_arched_saddle$ [innovation|E]"
+ innovation_senche_raht_desc:0 "Мы связаны с лунами, и наша физиология глубоко привязана к их форме, когда мы рождаемся. Некоторые из нас, сенч-раты, способны атаковать врага на четырех ногах и достаточно сильны, чтобы нести на спине других наших сородичей. Мы должны включить их в наши армии."
+ innovation_unlocked_by_innovation_arched_saddle:0 "Разблокируется вместе с [Concept('innovation','инновацией)|E] $innovation_arched_saddle$"
  
  innovation_lacquered_goldscale:0 "Акавирские охотники на драконов"
- innovation_lacquered_goldscale_desc:0 "With the tradition dating back to the pre-Akaviri Invasion of Cyrodiil, the Dragon Hunters are among the most feared and deadly troops under the Tsaesci realms. Especially powerful against the Dragons, they have helped enforce the Potentate's peace ever since its rise to power in Tamriel."
+ innovation_lacquered_goldscale_desc:0 "Охотники на драконов, традиция которых восходит к временам до вторжения акавирцев в Сиродил, являются одними из самых страшных и смертоносных войск в королевстве Цаэски. Особенно сильные в борьбе с драконами, они помогают обеспечивать мир в землях Потентата с момента его прихода к власти в Тамриэле."
 
  

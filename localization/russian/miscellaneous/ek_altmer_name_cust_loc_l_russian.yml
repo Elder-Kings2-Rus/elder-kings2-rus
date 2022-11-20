@@ -4,10 +4,10 @@
  #-'cal for the "main" clan. | always added unless lowborn
  #-'ata is for the "secondary" clan | added if both mother and father present, both valid
 
- #call_with:0 "I am [ROOT.Char.Custom('GetAltmerName')]"
- alt_name_len:0 " 'len "
- alt_name_cal:0 " 'cal "
- alt_name_ata:0 " 'ata "
+ #call_with:0 "Я [ROOT.Char.Custom('GetAltmerName')]"
+ alt_name_len:0 " 'лен "
+ alt_name_cal:0 " 'кал "
+ alt_name_ata:0 " 'ата "
 
  alt_name_matri:0 "[ROOT.Char.GetFirstName][SelectLocalization(Or(ROOT.Char.GetMother.IsValid, ROOT.Char.GetFather.IsValid), 'alt_name_len', '')]$alt_name_mother$[SelectLocalization(And(ROOT.Char.GetMother.IsValid, ROOT.Char.GetFather.IsValid), 'alt_name_ata', '')]$alt_name_father$[SelectLocalization(ROOT.Char.GetHouse.IsValid, 'alt_name_cal', '')][AddTextIf(ROOT.Char.GetHouse.IsValid, ROOT.Char.GetHouse.GetBaseName)]"
  alt_name_patri:0 "[ROOT.Char.GetFirstName][SelectLocalization(Or(ROOT.Char.GetMother.IsValid, ROOT.Char.GetFather.IsValid), 'alt_name_len', '')]$alt_name_father$[SelectLocalization(And(ROOT.Char.GetMother.IsValid, ROOT.Char.GetFather.IsValid), 'alt_name_ata', '')]$alt_name_mother$[SelectLocalization(ROOT.Char.GetHouse.IsValid, 'alt_name_cal', '')][AddTextIf(ROOT.Char.GetHouse.IsValid, ROOT.Char.GetHouse.GetBaseName)]"
