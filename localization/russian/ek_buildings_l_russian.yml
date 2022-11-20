@@ -34,8 +34,8 @@
  bridges_leyawiin_01_enabled:0 "$building_type_bridges_leyawiin_01$ доступны. Их можно разрушить используя $destroy_bridges_leyawiin_decision$."
  bridges_leyawiin_01_disabled:0 "$building_type_bridges_leyawiin_01$ недоступны. Их можно починить используя $repair_bridges_leyawiin_decision$."
  
- building_type_port_hestra_01:0 "Порт Гестра"
- building_type_port_hestra_01_desc:0 "Построенный императрицей Хестрой перед ее противостаянием с пиратством в Чернотопье, порт Хестра в мирное время вмещает большую часть имперского флота. Способен демонстрировать власть на большую часть Тамриэля, это неотъемлемая часть усилий различных имперских администраций по обеспечению мира в стране.."
+ building_type_port_hestra_01:0 "Порт Гестры"
+ building_type_port_hestra_01_desc:0 "Построенный императрицей Гестрой перед ее противостаянием с пиратством в Чернотопье, порт Гестры в мирное время вмещает большую часть имперского флота. Способен демонстрировать власть на большую часть Тамриэля, это неотъемлемая часть усилий различных имперских администраций по обеспечению мира в стране.."
  building_port_hestra_01:0 "$building_type_port_hestra_01$"
  building_port_hestra_01_desc:0 "$building_type_port_hestra_01_desc$"
  
@@ -293,6 +293,16 @@
  building_type_fahlbtharz_01_desc:0 "Despite much discussion among the scholars, the ruins of the Dwemer city of Falbtharz leave no doubt that the dwarven ambition expanded to every place it could reach, no matter how remote."
  building_fahlbtharz_01:1 "$building_type_fahlbtharz_01$"
  building_fahlbtharz_01_desc:1 "$building_type_fahlbtharz_01_desc$"
+ 
+ building_type_garlas_agea_01:0 "Garlas Agea"
+ building_type_garlas_agea_01_desc:0 "In the early First Era, Garlas Agea was home to the most prominent Sorcerer-King on the Gold Coast, and the de facto “capitol” of the Ayleids in the area. It served as a sort of Arcane High Palace, until Garlas Malatar began to eclipse the influence of Garlas Agea. This early demise might be what saved the structure from being destroyed following the Alessian Slave Rebellion in the early 1E 240s.\nHowever to this day its exact arcane functions remain a mystery, making it a prime destination of regional scholars and noble tourists alike."
+ building_garlas_agea_01:1 "$building_type_garlas_agea_01$"
+ building_garlas_agea_01_desc:1 "$building_type_garlas_agea_01_desc$"
+
+ building_type_cloudruler_temple_01:0 "Cloudruler Temple"
+ building_type_cloudruler_temple_01_desc:0 "Cloud Ruler Temple lords over the Jerall Mountains like a stone dragon perched upon its roost. In this resolute Tsaesci complex, more fortress than temple, the Dragonguard prepare themselves for the hunt, train new blood, preserve ancient Akaviri texts, and pursue all other duties to the Emperor that were once entrusted to them. Even now, secure within its walls even as the Interregnum rages outside, the Dragonguard await a new Dragonborn Emperor to which they may pledge allegiance."
+ building_cloudruler_temple_01:1 "$building_type_cloudruler_temple_01$"
+ building_cloudruler_temple_01_desc:1 "$building_type_cloudruler_temple_01_desc$"
  
  building_type_white_gold_tower_01:0 "White-Gold Tower"
  building_type_white_gold_tower_01_desc:0 "Standing in the center of the Imperial City, White-Gold was built ages ago by the Ayleids, in reverence of the Adamantine Tower. Some say the very powers of the world course through here, and the shape of the Tower allows it to radiate throughout the entire province of Cyrodiil..."
