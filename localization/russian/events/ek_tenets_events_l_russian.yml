@@ -11,14 +11,14 @@
  ek_tenets.0002.optA:0 "Прости, дитя мое..."
  ###
  ek_tenets.0010.title:0 "Порча нечестивости"
- ek_tenets.0010.desc:0 "Принципы нашей веры ясны. Чтобы поддерживать прямую связь с Божественным, мы должны следить за тем, чтобы оставаться чистыми и не загрязнять себя младшими родами. Однако веления сердца не так ясны... [impure_source.GetFirstName], в чьей компании провел много ночей, признается Старейшинами прокаженным, и теперь они утверждают, что и я был прокажен [impure_source.GetHerHis] прикосновением!\n\ Однако они готовы простить мой проступок, если я поклянусь никогда больше не видеть [impure_source.GetFirstName]".
+ ek_tenets.0010.desc:0 "Принципы нашей веры ясны. Чтобы поддерживать прямую связь с Божественным, мы должны следить за тем, чтобы оставаться чистыми и не загрязнять себя младшими родами. Однако веления сердца не так ясны... [impure_source.GetFirstName], в чьей компании провел много ночей, признается Старейшинами прокаженным, и теперь они утверждают, что и я был прокажен [impure_source.GetHerHis] прикосновением!\n Однако они готовы простить мой проступок, если я поклянусь никогда больше не видеть [impure_source.GetFirstName]".
  ek_tenets.0010.optA:0 "Я люблю [impure_source.GetFirstName], и ​​ничто этого не изменит".
  ek_tenets.0010.optB:0 "Извините, [impure_source.GetFirstName]..."
  ek_tenets.0011.title:0 "Порча нечестивости"
  ek_tenets.0011.desc:0 "[impure_target.GetFirstName] недавно столкнулся со Старейшинами веры [impure_target.GetHerHis], по-видимому, из-за отношений [impure_target.GetHerHis] со мной! Они угрожали [impure_target.GetHerHim], чтобы сделать [impure_target.GetHerHim] изгоем в [impure_target.GetHerHis] собственной вере, но [impure_target.GetSheHe] стоял [impure_target.GetHerHis] на своем, заявляя, что [impure_target.GetHerHis] любовь ко мне стоила того, чтобы меня считали предателем."
  ek_tenets.0011.optA:0 "Мы продолжим любить друг друга, несмотря ни на что."
  ek_tenets.0012.title:0 "Порча нечестивости"
- ek_tenets.0012.desc:0 "Вчера я получил письмо от [impure_target.GetFirstName]. В нем [impure_target.GetHerHis] слова твердят, что мы больше никогда не увидимся, так как [impure_target.GetSheHe] опасается, что я [impure_target.GetSheHe] будет расцениваться как нечестивый и испорченный среди [impure_target.GetHerHis] сверстников. У меня нет другого выбора, кроме как согласиться, поскольку Старейшины [impure_target.GetHerHis] веры никогда не допустят, чтобы такие отношения были разрешены в соответствии с [impure_target.GetFaith.GetAdjective] верой.
+ ek_tenets.0012.desc:0 "Вчера я получил письмо от [impure_target.GetFirstName]. В нем [impure_target.GetHerHis] слова твердят, что мы больше никогда не увидимся, так как [impure_target.GetSheHe] опасается, что я [impure_target.GetSheHe] будет расцениваться как нечестивый и испорченный среди [impure_target.GetHerHis] сверстников. У меня нет другого выбора, кроме как согласиться, поскольку Старейшины [impure_target.GetHerHis] веры никогда не допустят, чтобы такие отношения были разрешены в соответствии с [impure_target.GetFaith.GetAdjective] верой."
  ek_tenets.0012.optA:0 "Да будет так. Прощай, [impure_target.GetFirstName]".
  
  ###
