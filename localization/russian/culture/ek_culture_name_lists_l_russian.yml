@@ -31,6 +31,7 @@ l_russian:
  name_list_wrothgarian:0 "Ротгарианские"
  #ek_chimeri
  name_list_chimer:0 "Каймерские"
+ name_list_cantemiric:0 "Кантемирские"
  #ek_cyrodiilic
  name_list_colovian:0 "Коловианские"
  name_list_strident:0 "Стридские"
@@ -69,8 +70,11 @@ l_russian:
  name_list_galen:0 "Севернонедские"
  name_list_duraki:0 "Доракийские"
  #ek_nedic_south
- name_list_yespest:0 "Йеспестские"
  name_list_nede:0 "Недские"
+ name_list_yespest:0 "Йеспестские"
+ name_list_kothringi:0 "Котрингийские"
+ name_list_horwalli:0 "Хорваллийские"
+ name_list_orma:0 "Ормские"
  #ek_old_breton
  name_list_bjoule:0 "Бьйольские"
  #ek_orsimeri
