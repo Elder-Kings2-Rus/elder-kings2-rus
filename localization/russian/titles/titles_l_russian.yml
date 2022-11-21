@@ -19,7 +19,7 @@
  e_cyrodiilic_potentate_article:0 ""
  d_worm_kingdom:0 "Орден Черного Червя"
  d_worm_kingdom_article:0 ""
- k_west_ghosts:0 "West Ghosts"
+ k_west_ghosts:0 "Западные Призраки"
  e_orsinium:0 "Великий Орсиниум"
  k_orsinium:0 "Орсиниум"
  d_orsinium:0 "Орсиниум"
@@ -32,7 +32,7 @@
  k_archcanon_sotha_sil:0 "Сота Сил"
  k_wilderking_court_article:0 ""
  k_wilderking_court:0 "Двор Лесного Короля"
- k_falinesti:0 "Фаленести"
+ k_falinesti:0 "Фалинести"
  # History Titles
  AKAVIRI_POTENTATE:0 "Акавирский Потентат"
  AKAVIRI_POTENTATE_article:0 ""
@@ -56,25 +56,25 @@
  d_masconian_pirates:0 "Масконианские Рейдеры"
  d_heartless_horde_article:0 ""
  d_heartless_horde:0 "Бессердечная Орда"
- d_yoku_freeport_article:0 "the "
+ d_yoku_freeport_article:0 ""
  d_yoku_freeport:0 "Свободные Порты Йокуды"
  d_ruddy_fangs_article:0 ""
  d_ruddy_fangs:0 "Гордость Красного клыка"
  d_bonechime_gang_article:0 ""
  d_bonechime_gang:0 "Костяная Гордость"
  d_topal_corsairs_article:0 ""
- d_topal_corsairs:0 "Топальие Корсары"
+ d_topal_corsairs:0 "Топальские Корсары"
  d_ra_ugakta_article:0 ""
  d_ra_ugakta:0 "Ра Угакта" #literally 'angered warriors'
  d_napere_do_kotu_article:0 ""
  d_napere_do_kotu:0 "Искатели-Меча" #translation = 'Sword-Seekers' (literally 'finders of the weapon's edge')
  d_hiradirge_article:0 ""
- d_hiradirge:0 "Hiradirge"
+ d_hiradirge:0 "Хирадирг"
  d_padomaic_slavers:0 "Падомайская Гильдия Работорговцев"
  d_padomaic_slavers_article:0 ""
  # Legions
  d_first_legion_article:0 ""
- d_first_legion:0 "Первый Легион "
+ d_first_legion:0 "Имперская Гвардия "
  # Religious Heads
  k_council_of_the_eight:1 "Храм Восьми Богов"
  d_imperial_cult:1 "Храм Сиродила"
@@ -96,10 +96,12 @@
  # Holy Orders
  d_order_of_the_eight:0 "Орден Восьми"
  d_order_of_the_eight_article:0 ""
- d_order_of_the_hour:0 "Oрден Часа"
+ d_order_of_the_hour:0 "Орден Часа"
  d_order_of_the_hour_article:0 ""
  d_dawnguard:0 "Стража Рассвета"
  d_dawnguard_article:0 ""
+ d_ordinator_order_of_war:0 "Орден Войны"
+ d_ordinator_order_of_war_article:0 ""
  # Mercenaries
  d_pale_watch:0 "Бледный Дозор"
  d_pale_watch_article:0 ""
@@ -134,7 +136,6 @@
  d_south_argonia_adj:0 "Южноаргонианский"
  d_orma_ka:0 "Орма-Ка"
  d_orma_ka_adj:0 "Орма-Канский"
- d_orma_ka_article:0 ""
 
  ##Cyrodiil
  k_abbey_eight:0 "Аббатство Восьми"

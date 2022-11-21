@@ -125,17 +125,17 @@ love_letter_test:0 "[letterAuthor.Custom2('love_letter', SCOPE.sC('love_letter_t
  #Section 3 part 2:
 
  #Single compliment adjective:
- ll_compliment_lovely:0 "прекрасный(ая)"
- ll_compliment_charming:0 "очаровательный(ая)"
- ll_compliment_radiant:0 "сияющий(ая)"
- ll_compliment_glorious:0 "великолепный(ая)"
- ll_compliment_heavenly:0 "богоподобный(ая)"
- ll_compliment_shrill:0 "пронзительный(ая)"
- ll_compliment_biting:0 "искусительный(ая)"
- ll_compliment_tolerable:0 "терпимый(ая)"
- ll_compliment_round:0 "круглый(ая)"
- ll_compliment_balanced:0 "уравновешенный(ая)"
- ll_compliment_delicate:0 "нежный(ая)"
+ ll_compliment_lovely:0 "[Select_CString(CHARACTER.IsFemale, 'прекрасная', 'прекрасный' )]" 
+ ll_compliment_charming:0 "[Select_CString(CHARACTER.IsFemale, 'очаровательная', 'очаровательный' )]"
+ ll_compliment_radiant:0 "[Select_CString(CHARACTER.IsFemale, 'сияющая', 'сияющий' )]"
+ ll_compliment_glorious:0 "[Select_CString(CHARACTER.IsFemale, 'великолепная', 'великолепный' )]"
+ ll_compliment_heavenly:0 "[Select_CString(CHARACTER.IsFemale, 'богоподобная', 'богоподобный' )]"
+ ll_compliment_shrill:0 "[Select_CString(CHARACTER.IsFemale, 'пронзительная', 'пронзительный' )]"
+ ll_compliment_biting:0 "[Select_CString(CHARACTER.IsFemale, 'искусительная', 'искусительный' )]"
+ ll_compliment_tolerable:0 "[Select_CString(CHARACTER.IsFemale, 'терпимая', 'терпимый' )]"
+ ll_compliment_round:0 "[Select_CString(CHARACTER.IsFemale, 'круглая', 'круглый' )]"
+ ll_compliment_balanced:0 "[Select_CString(CHARACTER.IsFemale, 'уравновешенная', 'уравновешенный' )]"
+ ll_compliment_delicate:0 "[Select_CString(CHARACTER.IsFemale, 'нежная', 'нежный' )]"
  #Knowledge object:
  ll_knowledge_depths_of_love:0 "глубины Вашей любви"
  ll_knowledge_true_joy:0 "настоящую радость"
