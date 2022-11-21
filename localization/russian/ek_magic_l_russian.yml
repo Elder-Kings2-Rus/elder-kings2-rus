@@ -501,7 +501,8 @@ absorb_skill_perk_name: "Поглотить навык"
  spell_frenzy_desc:0 "Causes the target to enter a furious state"
  spell_mend_wound_desc:0 "Mends wounds and makes infections disappear"
  spell_remedy_illness_desc:0 "Remedies a lesser illness, not having any effect on greater maladies"
- spell_increase_wounds_desc:0 "Uses elemental magic to inflict wounds upon a distant target"
+ spell_increase_wounds_desc:0 "Uses elemental magic to inflict wounds upon a distant target\n\n#N You can't use this spell on a character more than once a year!#!"
+ spell_inflicted_wounds_failed:0 "This character is already afflicted by this spell!"
 
  
  ####################
