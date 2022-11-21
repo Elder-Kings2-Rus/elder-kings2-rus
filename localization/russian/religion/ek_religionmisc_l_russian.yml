@@ -70,7 +70,7 @@
  #Forebear
  redguardhouse_of_worship:0 "Храм"
  redguardhouse_of_worship_plural:0 "Храмы"
- redguardreligious_symbol:0 "Божественное Знамя
+ redguardreligious_symbol:0 "Божественное Знамя"
  redguardreligious_text:0 "Писания"
 
  redguardreligious_head_title:0 "Архиепископ"
@@ -134,7 +134,7 @@
  aldmerireligious_text:0 "Учения Аэдра"
 
  ceremoniarch_head_title:0 "Церимониарх"
- aldmerireligious_head_title:0 "Архивикарий
+ aldmerireligious_head_title:0 "Архивикарий"
  aldmerireligious_head_title_name:0 "Часовня Аэдра"
  aldmeridevotee:0 "Монах"
  aldmeridevotee_plural:0 "Монахи"
@@ -159,8 +159,8 @@
  greenpact_religious_head_title:0 "Сильвенар"
  greenpact_religious_head_title_name:0 "Сильвенар"
 
- wilderking_religious_head_title:0 "Говрящий Хранитель"
- wilderqueen_religious_head_title:0 "Говрящая Хранительница"
+ wilderking_religious_head_title:0 "Страж-Главнокомандующий"
+ wilderqueen_religious_head_title:0 "Страж-Главнокомандующая"
  wilderking_religious_head_title_name:0 "Двор Диких Королей"
 
 
@@ -321,13 +321,13 @@
  
  # Dragon Cult
  dragon_cult_religious_symbol:0 "Дракон"
- dragon_cult_religious_text:0 "Стены слов»
+ dragon_cult_religious_text:0 "Стены слов"
  dragon_cult_religious_head_title:0 "Призыватель Драконов"
  dragon_cult_religious_head_title_name:0 "Царство Алдуина"
  dragon_cult_devotee:0 "Драконий Культист"
  dragon_cult_devotee_plural:0 "Краконие Культисты"
  dragon_cult_bishop_male:0 "Драконий Жрец"
- dragon_cult_bishop_male_plural:0 "Драконьи Жрецы»
+ dragon_cult_bishop_male_plural:0 "Драконьи Жрецы"
  dragon_cult_bishop_female:0 "Драконья Жрица"
  dragon_cult_bishop_female_plural:0 "драконьи Жрицы"
  dragon_cult_priest_male:0 "Жрец"
@@ -411,7 +411,7 @@
  wyrddevotee_female_plural:0 "Преданные"
  wyrddevotee_neuter:0 "Преданный"
  wyrddevotee_neuter_plural:0 "Преданные"
- wyrdpriest_male:0 "Вир
+ wyrdpriest_male:0 "Вир"
  wyrdpriest_male_plural:0 "Виры"
  wyrdpriest_female:0 "Виресса"
  wyrdpriest_female_plural:0 "Вирессы"

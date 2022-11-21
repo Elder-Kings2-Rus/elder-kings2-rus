@@ -1,0 +1,12 @@
+﻿l_russian:
+ become_lich_decision:0 "Become a Lich"
+ become_lich_decision_desc:0 "Every day, my flesh grows weaker and, every night, the dim glow of Arkay taunts me. No more! My understanding of unlife grows, and the chains that bind me to mortality can be eroded away by my will. I shall suspend my very soul in a liminal space where neither the dark waters of Oblivion nor the blinding light of Aetherius will be able to find it!\n\nI will have need of exotic matter from all across the Aurbis and plenty of sacrificial souls. This is fell work, and unless my faith accepts my aspirations, it will be that much more difficult."
+ become_lich_decision_tooltip:0 "Undertake a religious ritual to transform into a lich."
+ become_lich_decision_confirm:0 "I will not live. I will not die."
+ 
+ become_necromancer_decision:0 "Become a Necromancer"
+ become_necromancer_decision_desc:0 "There are things in this world that are, at large, considered to be unwise to partake in. Necromancy is one of such things. It is an ignoble science, it is the Darkest Art; this practice alone is enough to give Conjuration a stigma as a school of magic. Some of the worst people in Tamriel's history have been necromancers.\n\nThat being said... it is a science. It may not be a respected one, but it offers real solutions to practical problems and brings a new dimension to magical theory in the field of transplanar nymicomachy. Just how unethical can this be?"
+ become_necromancer_decision_tooltip:0 "Take on the dark arts."
+ become_necromancer_decision_confirm:0 "Surely they won't notice a few empty graves?"
+ 
+ doctrine_necromancy_accepted_custom_desc:0 "Has the Necromancy [GetFaithDoctrine('doctrine_necromancy_accepted').GetBaseName] doctrine"

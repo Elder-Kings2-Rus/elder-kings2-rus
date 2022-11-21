@@ -102,4 +102,4 @@
  culture_parameter_good_arcana_traits_give_bonuses:0 "#V $trait_arcana_good$#! и #V $trait_education_magical_ability$#! [traits|E] ценятся больше"
  culture_parameter_bad_arcana_traits_give_maluses:0 "#V $trait_arcana_bad$#! [traits|E] на них смотрят свысока"
 
- CULTURE_NOT_NATIVE_FOR_DIVERGENCE:0 "Ваша [culture|E] же считается [Concept('native', 'аборигенской')|E] для вашего [Concept('capital', 'столичного')|E] [Concept('nativity_region', 'аборигенского региона')|E]"
+ CULTURE_NOT_NATIVE_FOR_DIVERGENCE:0 "[Concept('culture', 'Культура')|E] с таким [Concept('heritage', 'наследием')|E] уже считается [Concept('native', 'коренной')|E] для вашего [Concept('capital', 'столичного')|E] [Concept('nativity_region', 'родного региона')|E]"
