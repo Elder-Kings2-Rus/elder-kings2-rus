@@ -308,7 +308,7 @@
  
  action_pick_patron:0 "Выберите покровителя"
  action_pick_patron_label:0 "$action_pick_patron$"
- action_pick_patron_desc:2 "У вас нет покровителя.\n\n#help Ваша [faith|E] имеет покровителей. Каждый признак дает вам бонус в той или иной форме.#!"
+ action_pick_patron_desc:2 "У вас нет покровителя.\n\n#help Ваша [Concept('faith', 'конфесися')|E] имеет покровителей. Каждый признак дает вам бонус в той или иной форме.#!"
  action_pick_patron_click:0 "#I Нажмите, чтобы просмотреть потенциальных покровителей для вашей веры#!"
 
  within_date:0 "Within one month of [Localize(Concatenate('prince_', '$VALUE|0$'))]'s summoning day #F ([Localize(Concatenate('date_prince_', '$VALUE|0$'))])#!"
