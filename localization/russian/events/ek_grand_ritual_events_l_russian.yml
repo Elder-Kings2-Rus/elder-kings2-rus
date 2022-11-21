@@ -3,8 +3,8 @@
 
 ##  OPENING  ##
  grand_ritual.1000.t:0 "Путь к бессмертию"
- grand_ritual.1000.desc:0 "Смерть неизбежна, но обязательно ли она должна наступить так скоро?\n\n Величайшим магам, похоже, удается продлить свое пребывание среди живых, в некоторых случаях на несколько столетий дольше естественной жизни. Если они могут это сделать, то и я смогу - даже имея еще несколько лет, я смогу достичь многого.\n\n\nПуть, который я [Select_CString(ROOT.GetCharacter.IsFemale, 'выбрала', 'выбрал' )], не лишен риска. Есть много магов, которые только ускорили свою смерть в погоне за бессмертием."
- grand_ritual.1000.desc.a:0 "Я [ROOT.Char.GetNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'уверена', 'уверен' )], что продление моей жизни сопряжено только с незначительным риском."
+ grand_ritual.1000.desc:0 "Смерть неизбежна, но обязательно ли она должна наступить так скоро?\n\nВеличайшим магам, похоже, удается продлить свое пребывание среди живых, в некоторых случаях на несколько столетий дольше естественной жизни. Если они могут это сделать, то и я смогу - даже имея всего несколько лет, я смогу достичь многого.\n\n\nПуть, который я [Select_CString(ROOT.GetCharacter.IsFemale, 'выбрала', 'выбрал' )], не лишен риска. Есть много магов, которые только ускорили свою смерть в погоне за бессмертием."
+ grand_ritual.1000.desc.a:0 "Я [Select_CString(ROOT.GetCharacter.IsFemale, 'уверена', 'уверен' )], что продление моей жизни сопряжено только с незначительным риском."
  grand_ritual.1000.desc.b:0 "Я пытаюсь продлить свою жизнь даже по сравнению с мерской. Существует умеренный риск осложнений."
  grand_ritual.1000.desc.c:0 "Я уже рассчитываю прожить на столетия больше, чем большинство смертных. Дальнейшие попытки продлить мою жизнь сопряжены с большим риском."
  grand_ritual.1000.a:0 "Я преодолею смерть!"
@@ -34,27 +34,27 @@
  grand_ritual.1020.desc.b:0 "Что-то, что-то...\nНе удалось найти ничего достаточно примечательного, чтобы дать подсказки."
  grand_ritual.1020.desc.end:0 "Что-то, что-то...\nначать эксперименты."
  #options/flavor depend on succ/fail of stage 1 & path in stage 1 
- grand_ritual.1020.a:0 "эксперимент с заклинанием, высокий уровень 210 - продвинутые заклинания" #high risk-high reward # threshold value, exceeding +chance to positive outcome,not meeting +chance to negative
- grand_ritual.1020.b:0 "эксперимент с заклинанием, средний уровень 220 - усредненные заклинания" #mid risk-mid reward #calc in after block, save scopes
- grand_ritual.1020.c:0 "эксперимент с заклинанием, низкий уровень 230 - базовые заклинания" #low risk-low reward
+ grand_ritual.1020.a:0 "эксперимент с заклинанием, высокий уровень - продвинутые заклинания" #high risk-high reward # threshold value, exceeding +chance to positive outcome,not meeting +chance to negative
+ grand_ritual.1020.b:0 "эксперимент с заклинанием, средний уровень - усредненные заклинания" #mid risk-mid reward #calc in after block, save scopes
+ grand_ritual.1020.c:0 "эксперимент с заклинанием, низкий уровень - базовые заклинания" #low risk-low reward
 
  grand_ritual.1030.t:0 "Начало третьего этапа"
  grand_ritual.1030.desc.a:0 "Что-то, что-то...\nЗаметки, которые я получил, расплывчаты/неполны."
  grand_ritual.1030.desc.b:0 "Что-то, что-то...\nНе удалось найти ничего достаточно примечательного, чтобы дать подсказки."
  grand_ritual.1030.desc.end:0 "Что-то, что-то...\nначать эксперименты"
  #options/flavor depend on succ/fail of stage 1 & path in stage 1 
- grand_ritual.1030.a:0 "эксперимент с материалом, высокий уровень 310 - поиск редких ингредиентов" #high risk-high reward
- grand_ritual.1030.b:0 "эксперимент с материалом, средний уровень 320 - поиск обычных ингредиентов" #mid risk-mid reward
- grand_ritual.1030.c:0 "эксперимент с материалом, низкий уровень 330 - заменить простым ингредиеном" #low risk-low reward
+ grand_ritual.1030.a:0 "эксперимент с материалом, высокий уровень - поиск редких ингредиентов" #high risk-high reward
+ grand_ritual.1030.b:0 "эксперимент с материалом, средний уровень - поиск обычных ингредиентов" #mid risk-mid reward
+ grand_ritual.1030.c:0 "эксперимент с материалом, низкий уровень - заменить простым ингредиеном" #low risk-low reward
 
  grand_ritual.1040.t:0 "Начало четвертого этапа"
  grand_ritual.1040.desc.a:0 "Что-то, что-то...\nЗаметки, которые я получил, расплывчаты/неполны."
  grand_ritual.1040.desc.b:0 "Что-то, что-то...\nНе удалось найти ничего достаточно примечательного, чтобы дать подсказки."
  grand_ritual.1040.desc.end:0 "Что-то, что-то...\nначать эксперимент"
  #options/flavor depend on succ/fail of stage 1 & path in stage 1 
- grand_ritual.1040.a:0 "эксперимент болью, высокий уровень 410" #high risk-high reward
- grand_ritual.1040.b:0 "эксперимент болью, средний уровень 420" #mid risk-mid reward
- grand_ritual.1040.c:0 "эксперимент болью, низкий уровень 430" #low risk-low reward
+ grand_ritual.1040.a:0 "эксперимент болью, высокий уровень" #high risk-high reward
+ grand_ritual.1040.b:0 "эксперимент болью, средний уровень" #mid risk-mid reward
+ grand_ritual.1040.c:0 "эксперимент болью, низкий уровень" #low risk-low reward
 
  grand_ritual.1050.t:0 "Начало пятого этапа"
  grand_ritual.1050.desc.a:0 "Что-то, что-то...\nЗаметки, которые я получил, расплывчаты/неполны."
@@ -74,7 +74,7 @@
 ##  STAGE 1  ##
 
  grand_ritual.1110.t:0 "Кладезь знаний"
- grand_ritual.1110.desc:0 "Книги и свитки содержат множество записей...\nбла-бла.. персонаж известен долгой жизнью.\n\nбла-бла.. приобрести их записи." #aquire immortal's notes, altmer analysis of phynaster walking thing
+ grand_ritual.1110.desc:0 "Книги и свитки содержат множество записей...\n\ бла-бла.. персонаж известен долгой жизнью...\n\nбла-бла.. приобрести их записи." #aquire immortal's notes, altmer analysis of phynaster walking thing
  grand_ritual.1110.a:0 "Библиотека - проверка, основанная на учености, стоимость в стрессе."
  grand_ritual.1110.b:0 "Торговец/коллекционер - проверка, основанная на управлении, стоимость в золоте."
  grand_ritual.1110.c:0 "Найти другой способ (отказаться)."
@@ -82,25 +82,25 @@
  grand_ritual.1111.t.fail:0 "Кладезь знаний - Провал"
  #grand_ritual.1111.desc:0 "Books and scrolls contain many records...\n\nblah character known for long life.\n\nblah blah aquire their writings." #aquire immortal's notes, altmer analysis of phynaster walking thing
  grand_ritual.1111.desc.library.succ:0 "Мои попытки увенчались успехом! Я [Select_CString(ROOT.GetCharacter.IsFemale, 'нашла', 'нашел' )] несколько страниц древней тетради, написанной неизвестным магом. Хотя она неполная, есть несколько признаков того, что маг стремился к бессмертию. Их работа может оказаться бесценной."
- grand_ritual.1111.desc.library.fail:0 "Nothing! There is nothing!\nOver the last months I have spent days scouring any collection of books I could access, Alas I found naught."
- grand_ritual.1111.desc.merchant.succ:0 "A few months ago I put out feelers to my mercantile contacts, letting them know I would pay a premium for books on immortility. After several obvious forgeries, today I was delivered a pristine copy of 'Analysis of Phynaster (Annotated)' by an annonymous Altmer scholar. The content is mostly theology, however sections hint at magic means to extend ones life."
- grand_ritual.1111.desc.merchant.fail:0 "Months ago I mad it known among the merchants that I was looking for writings on immortality. It has been a disaster! I have been presented with only forgeries and fakes. At least I will not struggle to find kindling for several years."
- grand_ritual.1111.a:0 "Excellent Progress"
- grand_ritual.1111.b:0 "Unfortunate"
+ grand_ritual.1111.desc.library.fail:0 "Ничего! Ничего нет!\nЗа последние месяцы я [Select_CString(ROOT.GetCharacter.IsFemale, 'провела', 'провел' )] несколько дней, прочесывая все доступные мне собрания книг, но, увы, ничего не [Select_CString(ROOT.GetCharacter.IsFemale, 'нашла', 'нашел' )]."
+ grand_ritual.1111.desc.merchant.succ:0 "Несколько месяцев назад я обратился к своим знакомым торговцам, сообщив им, что готов заплатить высокую цену за книги о бессмертии. После нескольких очевидных подделок, сегодня мне доставили нетронутую копию "Анализа Финастера (с комментариями)", написанную анонимным альтмерским ученым. Содержание в основном теологическое, однако некоторые разделы намекают на магические средства продления жизни."
+ grand_ritual.1111.desc.merchant.fail:0 "Несколько месяцев назад я [Select_CString(ROOT.GetCharacter.IsFemale, 'дала', 'дал' )] знать торговцам, что ищу труды о бессмертии. Это была катастрофа! Мне попадались только подделки и фальшивки. По крайней мере, несколько лет я не буду мучиться в поисках хвороста."
+ grand_ritual.1111.a:0 "Отличный прогресс"
+ grand_ritual.1111.b:0 "Несчастье"
  
- grand_ritual.1120.t:0 "Letter to an Antediluvian 120" #someone find a better word than antediluvian
+ grand_ritual.1120.t:0 "Письмо в прошлое" #someone find a better word than antediluvian
  grand_ritual.1120.desc:0 "-Character- is known to have an extended their life.\nTry getting their secrets" #find someone who has extended life ritual complete, or create a 'hermit'. 1 preferable. can check if have story still when that part is done
- grand_ritual.1120.a:0 "Flattery/Persuade - diplomacy based check" #largely same for ruler/hermit
- grand_ritual.1120.b:0 "Threat - Dread? based check" #hermit might just disappear, blackmail if you have hook?
- grand_ritual.1120.c:0 "Steal - intrigue based check" #can be imprisoned if caught stealing
- grand_ritual.1120.d:0 "Find another way (opt-out)"
+ grand_ritual.1120.a:0 "Лесть/Убеждение - дипломатическая проверка" #largely same for ruler/hermit
+ grand_ritual.1120.b:0 "Угроза - проверка на основе ужаса #hermit might just disappear, blackmail if you have hook?
+ grand_ritual.1120.c:0 "Кража - проверка на основе интриги" #can be imprisoned if caught stealing
+ grand_ritual.1120.d:0 "Найти другой способ (отказаться)"
  
- grand_ritual.1130.t:0 "The Path to Immortality: Daedric Knowledge"
- grand_ritual.1130.desc:0 "I run my eyes through a passage in a tome describing the binding of a Daedra through blood sacrifice. Skipping through the warnings of the author about the risks and possible consequences of such practices, my eyes are drawn to the word "immortality" in the desired effects. I instantly know what I must do."
- grand_ritual.1130.a:0 "Prepare soldiers - martial based"
- grand_ritual.1130.b:0 "fight - prowess/arcana based - duel"
- grand_ritual.1130.c:0 "make a deal - diplomacy based"
- grand_ritual.1130.d:0 "Find another way (opt-out)"
+ grand_ritual.1130.t:0 "Путь к бессмертию: Даэдрическое знание"
+ grand_ritual.1130.desc:0 "Я пробегаю глазами отрывок из фолианта, описывающий связывание даэдра посредством кровавого жертвоприношения. Проскочив через предупреждения автора о рисках и возможных последствиях такой практики, мой взгляд привлекает слово "бессмертие" в желаемом эффекте. Я мгновенно понимаю, что [Select_CString(ROOT.GetCharacter.IsFemale, 'должна', 'должен' )] сделать."
+ grand_ritual.1130.a:0 "Подготовить солдат - на основе военного дела"
+ grand_ritual.1130.b:0 "Драка - на основе доблести/арканы - дуэль"
+ grand_ritual.1130.c:0 "Заключить сделку - на основе дипломатии"
+ grand_ritual.1130.d:0 "Найти другой способ (отказаться)"
  
  grand_ritual.1140.t:0 "Dummy Event 140"
  grand_ritual.1140.desc:0 "Dummy Desc"
@@ -244,22 +244,22 @@
 
 ##  OUTCOME  ##
 
- grand_ritual.1901.t:0 "Total Failure"
- grand_ritual.1901.desc:0 "All my preparations were for naught. The ritual has failed catastrophically. I feel my conscience wavering..."
+ grand_ritual.1901.t:0 "Полный провал"
+ grand_ritual.1901.desc:0 "Все мои приготовления оказались напрасными. Ритуал катастрофически провалился. Я чувствую, что мое сознание колеблется..."
  grand_ritual.1901.a:0 "I wonder were I went wrong..."
 
- grand_ritual.1902.t:0 "Partial Failure"
- grand_ritual.1902.desc:0 "All my preparations were for naught. The ritual has failed. I am wounded but alive."
- grand_ritual.1902.a:0 "It could be worse, but not by much."
+ grand_ritual.1902.t:0 "Частичный провал"
+ grand_ritual.1902.desc:0 "Все мои приготовления были напрасны. Ритуал провалился. Я [Select_CString(ROOT.GetCharacter.IsFemale, 'ранена', 'ранен' )], но жив."
+ grand_ritual.1902.a:0 "Могло быть и хуже, но не намного."
 
- grand_ritual.1903.t:0 "Inconsequential Failure"
- grand_ritual.1903.desc:0 "All my preparations were for naught. The ritual has failed. Fortunately I was able to maintain some control of the magicka and remain unharmed."
- grand_ritual.1903.a:0 "I don't want to know what could have happened."
+ grand_ritual.1903.t:0 "Бесполезный провал"
+ grand_ritual.1903.desc:0 "Все мои приготовления были напрасны. Ритуал провалился. К счастью, мне удалось сохранить контроль над магией и остаться [Select_CString(ROOT.GetCharacter.IsFemale, 'невредимой', 'невредимым' )]."
+ grand_ritual.1903.a:0 "Я не хочу знать, что могло бы произойти."
 
- grand_ritual.1904.t:0 "Partial Success"
- grand_ritual.1904.desc:0 "All my preparations have come to fruition. The ritual has succeeded. I was unable to maintain full control and was injured in the backlash."
- grand_ritual.1904.a:0 "At least I have plenty of years to recover."
+ grand_ritual.1904.t:0 "Частичный успех"
+ grand_ritual.1904.desc:0 "Все мои приготовления увенчались успехом. Ритуал удался. Мне не удалось сохранить полный контроль и я [Select_CString(ROOT.GetCharacter.IsFemale, 'получила', 'получил' )] травму в результате ответной реакции."
+ grand_ritual.1904.a:0 "По крайней мере, у меня есть время на восстановление."
 
- grand_ritual.1905.t:0 "Total Success"
- grand_ritual.1905.desc:0 "All my preparations have come to fruition. The ritual has succeeded completely! I was able to maintain my control throughout the ritual."
- grand_ritual.1905.a:0 "I am one step closer to immortality!"
+ grand_ritual.1905.t:0 "Полный успех"
+ grand_ritual.1905.desc:0 "Все мои приготовления увенчались успехом. Ритуал полностью удался! Мне удалось сохранить контроль на протяжении всего ритуала."
+ grand_ritual.1905.a:0 "Я на шаг ближе к бессмертию!"
