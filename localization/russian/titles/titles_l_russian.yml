@@ -74,7 +74,7 @@
  d_padomaic_slavers_article:0 ""
  # Legions
  d_first_legion_article:0 ""
- d_first_legion:0 "Первый Легион "
+ d_first_legion:0 "Имперская Гвардия "
  # Religious Heads
  k_council_of_the_eight:1 "Храм Восьми Богов"
  d_imperial_cult:1 "Храм Сиродила"
@@ -96,10 +96,12 @@
  # Holy Orders
  d_order_of_the_eight:0 "Орден Восьми"
  d_order_of_the_eight_article:0 ""
- d_order_of_the_hour:0 "Oрден Часа"
+ d_order_of_the_hour:0 "Орден Часа"
  d_order_of_the_hour_article:0 ""
  d_dawnguard:0 "Стража Рассвета"
  d_dawnguard_article:0 ""
+ d_ordinator_order_of_war:0 "Орден Войны"
+ d_ordinator_order_of_war_article:0 ""
  # Mercenaries
  d_pale_watch:0 "Бледный Дозор"
  d_pale_watch_article:0 ""
@@ -134,7 +136,6 @@
  d_south_argonia_adj:0 "Южноаргонианский"
  d_orma_ka:0 "Орма-Ка"
  d_orma_ka_adj:0 "Орма-Канский"
- d_orma_ka_article:0 ""
 
  ##Cyrodiil
  k_abbey_eight:0 "Аббатство Восьми"
