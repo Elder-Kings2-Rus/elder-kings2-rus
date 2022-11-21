@@ -2,23 +2,23 @@
 ##  LIFE Extension  ##
 
 ##  OPENING  ##
- grand_ritual.1000.t:0 "The Path to Immortality"
- grand_ritual.1000.desc:0 "Death is inevitable, but does it have to be so soon?\n\nThe greatest mages seemingly manage to prolong their time among the living, in some cases centuries beyond their natural life. If they can do it so can I - even with just a few more years I could achieve so much!\n\nThe path I have chosen to walk is not without risks. There are many mages who only quickened their demise in the persuit of immortality."
- grand_ritual.1000.desc.a:0 "I am confident that extending my life presents only a low risk."
- grand_ritual.1000.desc.b:0 "I am attempting to extend my life beyond even that of the Mer. There is a moderate risk of complications."
- grand_ritual.1000.desc.c:0 "I already expect to live centuries beyond most mortals. Further attempts to extend my life come at a high risk."
- grand_ritual.1000.a:0 "I shall overcome death!"
- grand_ritual.1000.b:0 "On second thought..."
+ grand_ritual.1000.t:0 "Путь к бессмертию"
+ grand_ritual.1000.desc:0 "Смерть неизбежна, но обязательно ли она должна наступить так скоро?\n\n Величайшим магам, похоже, удается продлить свое пребывание среди живых, в некоторых случаях на несколько столетий дольше естественной жизни. Если они могут это сделать, то и я смогу - даже имея еще несколько лет, я смогу достичь многого.\n\n\nПуть, который я [Select_CString(ROOT.GetCharacter.IsFemale, 'выбрала', 'выбрал' )], не лишен риска. Есть много магов, которые только ускорили свою смерть в погоне за бессмертием."
+ grand_ritual.1000.desc.a:0 "Я [ROOT.Char.GetNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'уверена', 'уверен' )], что продление моей жизни сопряжено только с незначительным риском."
+ grand_ritual.1000.desc.b:0 "Я пытаюсь продлить свою жизнь даже по сравнению с мерской. Существует умеренный риск осложнений."
+ grand_ritual.1000.desc.c:0 "Я уже рассчитываю прожить на столетия больше, чем большинство смертных. Дальнейшие попытки продлить мою жизнь сопряжены с большим риском."
+ grand_ritual.1000.a:0 "Я преодолею смерть!"
+ grand_ritual.1000.b:0 "Если подумать..."
  
- grand_ritual.1010.t:0 "The Path to Immortality: The First Step"
- grand_ritual.1010.desc:0 "The way to Immortality is manifold. The most common form of immortality realises itself as simple mindless beings, roaming the land in a beastly rage or serving as thralls to all sorts of nefarious purposes.\n\nMore sophisticated means involve wizardry, complex usage of alchemical properties and even toying with divinity itself.\n\nThe only common point in all of them is the improbability of achieving this goal by oneself. I must seek assistance."
- grand_ritual.1010.a:0 "I will read the writings of a famous immortal being."
- grand_ritual.1010.a.tooltip:0 "Begin searching for the writings of famous immortal beings."
- grand_ritual.1010.b:0 "I will write a letter to a famous immortal being."
- grand_ritual.1010.b.tooltip:0 "You will attempt to contact an immortal being."
- grand_ritual.1010.c:0 "I will seek this knowledge by any means necessary."
- grand_ritual.1010.c.tooltip:0 "You will seek daedric knowledge directly from the source."
- grand_ritual.1010.d:0 "Start from scratch 140" #potential do it yourself option. may be to close to stage 2 theme though
+ grand_ritual.1010.t:0 "Путь к бессмертию: Первый шаг"
+ grand_ritual.1010.desc:0 "Путь к бессмертию многообразен. Наиболее распространенная форма бессмертия реализуется в виде простых безмозглых существ, бродящих по земле в звериной ярости или служащих рабами для всевозможных гнусных целей.\n\nБолее изощренные способы включают в себя чародейство, сложное использование алхимических свойств и даже игру с самой божественностью.\n\nЕдинственным общим моментом во всех них является невероятность достижения этой цели в одиночку. Мне нужна помощь."
+ grand_ritual.1010.a:0 "Я буду читать труды известного бессмертного существа."
+ grand_ritual.1010.a.tooltip:0 "Начните поиск трудов известных бессмертных существ."
+ grand_ritual.1010.b:0 "Я напишу письмо известному бессмертному существу."
+ grand_ritual.1010.b.tooltip:0 "Вы попытаетесь связаться с бессмертным существом."
+ grand_ritual.1010.c:0 "Я буду искать эти знания любыми средствами."
+ grand_ritual.1010.c.tooltip:0 "Вы будете искать даэдрические знания непосредственно у источника."
+ grand_ritual.1010.d:0 "Начать с нуля" #potential do it yourself option. may be to close to stage 2 theme though
  
 #  grand_ritual.1010.t:0 "The Path to Immortality: Super Humerus Gigantis"
 #  grand_ritual.1010.desc:0 "Extending one's life should require research and an unsurmountable amount of effort. I worry that I would spend the rest of my short life in pursuing this knowledge on my own.\n\nBut, perhaps I could take some notes on the extensive work that is already done by others and then try to add my own insights to them."
@@ -29,41 +29,41 @@
 #  grand_ritual.1010.c:0 "I will seek this knowledge by all means necessary."
 #  grand_ritual.1010.c.tooltip:0 "You will seek daedric knowledge directly from the source."
 
- grand_ritual.1020.t:0 "Stage 2 start"
- grand_ritual.1020.desc.a:0 "Something, something...\nThe notes I have aquired are vague/incomplete"
- grand_ritual.1020.desc.b:0 "Something, something...\nFailed to find anything of note. fortunaetly enough to make a start/give hints"
- grand_ritual.1020.desc.end:0 "Something, something...\nbegin experminets"
+ grand_ritual.1020.t:0 "Начало второго этапа"
+ grand_ritual.1020.desc.a:0 "Что-то, что-то...\nЗаметки, которые я получил, расплывчаты/неполны."
+ grand_ritual.1020.desc.b:0 "Что-то, что-то...\nНе удалось найти ничего достаточно примечательного, чтобы дать подсказки."
+ grand_ritual.1020.desc.end:0 "Что-то, что-то...\nначать эксперименты."
  #options/flavor depend on succ/fail of stage 1 & path in stage 1 
- grand_ritual.1020.a:0 "spell experiment hr/hr 210 - advanced spells" #high risk-high reward # threshold value, exceeding +chance to positive outcome,not meeting +chance to negative
- grand_ritual.1020.b:0 "spell experiment mr/mr 220 - intermediate spells" #mid risk-mid reward #calc in after block, save scopes
- grand_ritual.1020.c:0 "spell experiment lr/lr 230 - spell basics" #low risk-low reward
+ grand_ritual.1020.a:0 "эксперимент с заклинанием, высокий уровень 210 - продвинутые заклинания" #high risk-high reward # threshold value, exceeding +chance to positive outcome,not meeting +chance to negative
+ grand_ritual.1020.b:0 "эксперимент с заклинанием, средний уровень 220 - усредненные заклинания" #mid risk-mid reward #calc in after block, save scopes
+ grand_ritual.1020.c:0 "эксперимент с заклинанием, низкий уровень 230 - базовые заклинания" #low risk-low reward
 
- grand_ritual.1030.t:0 "Stage 3 start"
- grand_ritual.1030.desc.a:0 "Something, something...\nThe notes I have aquired are vague/incomplete"
- grand_ritual.1030.desc.b:0 "Something, something...\nFailed to find anything of note. fortunaetly enough to make a start/give hints"
- grand_ritual.1030.desc.end:0 "Something, something...\nbegin experminets"
+ grand_ritual.1030.t:0 "Начало третьего этапа"
+ grand_ritual.1030.desc.a:0 "Что-то, что-то...\nЗаметки, которые я получил, расплывчаты/неполны."
+ grand_ritual.1030.desc.b:0 "Что-то, что-то...\nНе удалось найти ничего достаточно примечательного, чтобы дать подсказки."
+ grand_ritual.1030.desc.end:0 "Что-то, что-то...\nначать эксперименты"
  #options/flavor depend on succ/fail of stage 1 & path in stage 1 
- grand_ritual.1030.a:0 "material experiment hr/hr 310 - search rare ingredients" #high risk-high reward
- grand_ritual.1030.b:0 "material experiment mr/mr 320 - search normal ingredient" #mid risk-mid reward
- grand_ritual.1030.c:0 "material experiment lr/lr 330 - substiute with common ingredient" #low risk-low reward
+ grand_ritual.1030.a:0 "эксперимент с материалом, высокий уровень 310 - поиск редких ингредиентов" #high risk-high reward
+ grand_ritual.1030.b:0 "эксперимент с материалом, средний уровень 320 - поиск обычных ингредиентов" #mid risk-mid reward
+ grand_ritual.1030.c:0 "эксперимент с материалом, низкий уровень 330 - заменить простым ингредиеном" #low risk-low reward
 
- grand_ritual.1040.t:0 "Stage 4 start"
- grand_ritual.1040.desc.a:0 "Something, something...\nThe notes I have aquired are vague/incomplete"
- grand_ritual.1040.desc.b:0 "Something, something...\nFailed to find anything of note. fortunaetly enough to make a start/give hints"
- grand_ritual.1040.desc.end:0 "Something, something...\nbegin experminets"
+ grand_ritual.1040.t:0 "Начало четвертого этапа"
+ grand_ritual.1040.desc.a:0 "Что-то, что-то...\nЗаметки, которые я получил, расплывчаты/неполны."
+ grand_ritual.1040.desc.b:0 "Что-то, что-то...\nНе удалось найти ничего достаточно примечательного, чтобы дать подсказки."
+ grand_ritual.1040.desc.end:0 "Что-то, что-то...\nначать эксперимент"
  #options/flavor depend on succ/fail of stage 1 & path in stage 1 
- grand_ritual.1040.a:0 "execution experiment hr/hr 410" #high risk-high reward
- grand_ritual.1040.b:0 "execution experiment mr/mr 420" #mid risk-mid reward
- grand_ritual.1040.c:0 "execution experiment lr/lr 430" #low risk-low reward
+ grand_ritual.1040.a:0 "эксперимент болью, высокий уровень 410" #high risk-high reward
+ grand_ritual.1040.b:0 "эксперимент болью, средний уровень 420" #mid risk-mid reward
+ grand_ritual.1040.c:0 "эксперимент болью, низкий уровень 430" #low risk-low reward
 
- grand_ritual.1050.t:0 "Stage 5 start"
- grand_ritual.1050.desc.a:0 "Something, something...\nThe notes I have aquired are vague/incomplete"
- grand_ritual.1050.desc.b:0 "Something, something...\nFailed to find anything of note. fortunaetly enough to make a start/give hints"
- grand_ritual.1050.desc.end:0 "Something, something...\nbegin experminets"
+ grand_ritual.1050.t:0 "Начало пятого этапа"
+ grand_ritual.1050.desc.a:0 "Что-то, что-то...\nЗаметки, которые я получил, расплывчаты/неполны."
+ grand_ritual.1050.desc.b:0 "Что-то, что-то...\nНе удалось найти ничего достаточно примечательного, чтобы дать подсказки."
+ grand_ritual.1050.desc.end:0 "Что-то, что-то...\nначать эксперимент"
  #options/flavor depend on succ/fail of stage 1 & path in stage 1 
- grand_ritual.1050.a:0 "spell experiment 1"
- grand_ritual.1050.b:0 "spell experiment 2"
- grand_ritual.1050.c:0 "spell experiment 3"
+ grand_ritual.1050.a:0 "эксперимент с заклинанием 1"
+ grand_ritual.1050.b:0 "эксперимент с заклинанием 2"
+ grand_ritual.1050.c:0 "эксперимент с заклинанием 3"
 
 # stage 1 - starting point
 # stage 2 - spells going to cast/spells can cast/material component to spells/learning to cast said spells (find info & meat requirments) - save materials to be referenced in stage 3 #basically the actual magicka portion, learning to cast component spells of ritual weave
@@ -73,15 +73,15 @@
 
 ##  STAGE 1  ##
 
- grand_ritual.1110.t:0 "Font of Knowledge"
- grand_ritual.1110.desc:0 "Books and scrolls contain many records...\n\nblah character known for long life.\n\nblah blah aquire their writings." #aquire immortal's notes, altmer analysis of phynaster walking thing
- grand_ritual.1110.a:0 "Library - learning based check, stress? cost"
- grand_ritual.1110.b:0 "Merchant/Collector - stewardship based check, gold cost"
- grand_ritual.1110.c:0 "Find another way (opt-out)"
- grand_ritual.1111.t.succ:0 "Font of Knowledge - Success"
- grand_ritual.1111.t.fail:0 "Font of Knowledge - Failure"
+ grand_ritual.1110.t:0 "Кладезь знаний"
+ grand_ritual.1110.desc:0 "Книги и свитки содержат множество записей...\nбла-бла.. персонаж известен долгой жизнью.\n\nбла-бла.. приобрести их записи." #aquire immortal's notes, altmer analysis of phynaster walking thing
+ grand_ritual.1110.a:0 "Библиотека - проверка, основанная на учености, стоимость в стрессе."
+ grand_ritual.1110.b:0 "Торговец/коллекционер - проверка, основанная на управлении, стоимость в золоте."
+ grand_ritual.1110.c:0 "Найти другой способ (отказаться)."
+ grand_ritual.1111.t.succ:0 "Кладезь знаний - Успех"
+ grand_ritual.1111.t.fail:0 "Кладезь знаний - Провал"
  #grand_ritual.1111.desc:0 "Books and scrolls contain many records...\n\nblah character known for long life.\n\nblah blah aquire their writings." #aquire immortal's notes, altmer analysis of phynaster walking thing
- grand_ritual.1111.desc.library.succ:0 "My attempts have succeeded! I have found several pages of an ancient notebook written by an unknown mage. Though incomplete, there are several indications that the mage was pursuing immortality. Their work may prove invaluable."
+ grand_ritual.1111.desc.library.succ:0 "Мои попытки увенчались успехом! Я [Select_CString(ROOT.GetCharacter.IsFemale, 'нашла', 'нашел' )] несколько страниц древней тетради, написанной неизвестным магом. Хотя она неполная, есть несколько признаков того, что маг стремился к бессмертию. Их работа может оказаться бесценной."
  grand_ritual.1111.desc.library.fail:0 "Nothing! There is nothing!\nOver the last months I have spent days scouring any collection of books I could access, Alas I found naught."
  grand_ritual.1111.desc.merchant.succ:0 "A few months ago I put out feelers to my mercantile contacts, letting them know I would pay a premium for books on immortility. After several obvious forgeries, today I was delivered a pristine copy of 'Analysis of Phynaster (Annotated)' by an annonymous Altmer scholar. The content is mostly theology, however sections hint at magic means to extend ones life."
  grand_ritual.1111.desc.merchant.fail:0 "Months ago I mad it known among the merchants that I was looking for writings on immortality. It has been a disaster! I have been presented with only forgeries and fakes. At least I will not struggle to find kindling for several years."
