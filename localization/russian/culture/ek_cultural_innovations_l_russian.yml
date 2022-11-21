@@ -131,11 +131,11 @@
  ### Special
  nativity_region_hack_tooltip_desc:0 "Эту инновацию нельзя исследовать, как и другие. Триггер ниже приведен только для того, чтобы показать вам масштабы аборигенских регионов".
  # EK TODO: Give the regions some better description, as it's kinda boring atm
- faster_culture_convert_region:0 "Как [Concept('natives', 'аборигены')|E] из провинции, эта культура имеет значительно увеличенную скорость преобразования культуры"
+ faster_culture_convert_region:0 "Как [Concept('natives', 'коренные жители')|E] провинции, эта культура имеет значительно увеличенную скорость преобразования культуры"
  ## Nativity
- innovation_native_nomadic:0 "Кочевая культура"
+ innovation_native_nomadic:0 "Мигрирующая культура"
  innovation_native_nomadic_desc:0 "Когда большинство людей предпочитают поселиться в одном месте, мы путешествуем по всему миру и берем с собой наших людей.."
- negate_non_native_penalty:0 "Может свести на нет часть штрафа за преобразование [Concept('culture', 'культуры')|E] от того, что вы не [Concept('native', 'абориген')|E] этой провинции"
+ negate_non_native_penalty:0 "Может свести на нет часть штрафа за преобразование [Concept('culture', 'культуры')|E] от того, что вы не [Concept('native', 'коренной житель')|E] этой провинции"
  easily_displaced_culture:0 "Провинции будут отходить от этой [Concept('culture', 'культуры')|E] гораздо более быстрыми темпами"
  
  innovation_native_glenumbra:0 "Аборигены Гленумбры"
