@@ -1,4 +1,4 @@
 ﻿l_russian:
- secure_mediterranean_decision.a:0 "Unlocks the #italic Abecean Conquest#! [casus_belli|E], allowing you to conquer any county along the shores of the Abecean Sea for the duration of the [house|E] modifier while you control [mediterranean_title.GetName]."
- secure_mediterranean_decision.involved_notif:0 "[mediterranean_conqueror.GetPrimaryTitle.GetBaseName] Secured The Abecean"
- secure_mediterranean_decision.involved_notif_desc:0 "The [mediterranean_house.GetName] have unified various islands such as [mallorca.GetNameNoTier], [sardinas.GetNameNoTier] and [sicily.GetNameNoTier]. Declaring ownership over the Abecean and creating a valid [casus_belli|E] against your coastal Abecean counties."
+ secure_mediterranean_decision.a:0 "Открывает #italic Абесинское завоевание#! [casus_belli|E], позволяющий вам завоевать любое графство на берегу Абесинского моря на время действия модификатора [house|E], пока вы контролируете [mediterranean_title.GetName]."
+ secure_mediterranean_decision.involved_notif:0 "[mediterranean_conqueror.GetPrimaryTitle.GetBaseName] Абесинское побережье под защитой"
+ secure_mediterranean_decision.involved_notif_desc:0 "[mediterranean_house.GetName] объединяет различные острова, такие как [mallorca.GetNameNoTier], [sardinas.GetNameNoTier] и [sicily.GetNameNoTier]. Объявление права собственности на Абесинское побережье и создание [casus_belli|E] против Абесинских прибрежных графств..."

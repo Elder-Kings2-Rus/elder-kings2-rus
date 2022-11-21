@@ -18,7 +18,7 @@
  artifact_skull_numinex_description:0 "Гигантский череп древнего дракона Нуминекса, свирепого зверя, который запугивал сёла, пока не был повержен Олафом Одноглазым. Победив зверя, Олаф привез его в Вайтран, где и заточил на многие годы, пока тот не умер. После чего его череп был помещен в тронный зал, наблюдать за двором Ярла."
  
  artifact_throne_ruby_name:1 "Рубиновый трон"
- artifact_throne_ruby_description:0 "Прекрасный пример смеси богатства айлейдов и мастеррства недийцев, известный также как Трон разлучённых королей. Рубиновый трон - место, с которого исходили мудрость Алессии и ярость Ремана. Возможно Вы вершите судьбу Тамриэля восседая на нём."
+ artifact_throne_ruby_description:0 "Прекрасный пример смеси богатства айлейдов и мастерства недийцев, известный также как "Трон разлучённых королей". Рубиновый трон - место, с которого исходили мудрость Алессии и ярость Ремана. Возможно вы вершите судьбу Тамриэля, восседая на нём."
 
  artifact_throne_camoran_name:1 "Трон Каморана"
  artifact_throne_camoran_description:0 "Величесвенный трон, выращенный лучшими садовниками Гратвуда. Легенды гласят, что сам Эплир Каморан, в окружении спринганов, лично выбирал саженцы для него. Трон Каморана - символ истинной власти над Валенвудом, пред которым преклоняют колени."
@@ -60,504 +60,513 @@
  artifact_targe_of_the_blooded_description:0 "Этот тип щита, к которому прикреплены большие стальные шипы, пользуется популярностью у бандитов Хаммерфелла."  # PLACEHOLDER
 
  artifact_crown_verity_name:1 "Корона Истины"
- artifact_crown_verity_description:0 "Магический артефакт, применяемый для проверки достоинств потенциальных правителей Скайрима. Для его создания из каждого владения Скайрима быд выбран маг. Все они посвятили себя изучению метода избрания верховного короля." # PLACEHOLDER
+ artifact_crown_verity_description:0 "Магический артефакт, применяемый для проверки достоинств потенциальных правителей Скайрима. Для его создания из каждого владения Скайрима быд выбран маг. Все они посвятили себя изучению магических методов избрания верховного короля." # PLACEHOLDER
 
- artifact_mace_aevar_name:1 "Mace of Aevar Stone-Singer"
- artifact_mace_aevar_description:0 "According to legend, this prized Skaal artifact was used by the eponymous hero to amplify the Song of the Earth, returning the Gift of the Earth and making the land rich again for the Skaal. It is crafted out of stalhrim, a material as precious as ebony but endemic to Solstheim" # PLACEHOLDER
+ artifact_mace_aevar_name:1 "Булава Эйвара - певца камней"
+ artifact_mace_aevar_description:0 "Согласно легенде, этот ценный артефакт скаалов был использован, чтобы усилить Песнь Земли, вернув Дар Земли, возродив плодовитость земле скаалов. Он изготовлен из сталгрима, материала столь же ценного, как эбонит, но более распространенного на Солстхейме." # PLACEHOLDER
 
- artifact_diadem_diagna_name:1 "Diadem of Diagna"
- artifact_diadem_diagna_description:0 "Along with the Throne of Hegathe, this Diadem named after the Orichalc God of the Sideways Blade is traditionally used by anyone ruling over the High Kingdom of Hammerfell." # PLACEHOLDER
+ artifact_diadem_diagna_name:1 "Диадема Диагны"
+ artifact_diadem_diagna_description:0 "Наряду с Троном Хегата, эта диадема, названная в честь Орихалкового Бога Лезвий. Традиционно, её новит тот, кто правит королевством Хаммерфелл." # PLACEHOLDER
 
- artifact_ansei_ward_majah_name:1 "Ansei Majah's Ward"
- artifact_ansei_ward_radan_name:1 "Ansei Radan's Ward"
- artifact_ansei_ward_halelah_name:1 "Ansei Halelah's Ward"
- artifact_ansei_ward_description:0 "One of the three Ansei Wards of legend that carries the spirit of one of the Three Ansei Heroes, making sure that every dead consecrated to Tu'whacca could not be risen even by the most powerful necromancy." # PLACEHOLDER
+ artifact_ansei_ward_majah_name:1 "Оберег Маджи"
+ artifact_ansei_ward_radan_name:1 "Оберег Радана"
+ artifact_ansei_ward_halelah_name:1 "Оберег Халелы"
+ artifact_ansei_ward_description:0 "Один из трех легендарных оберегов Ансеев, который несет дух одного из владельцев, гарантируя, что каждый мертвец, служивший Ту'вакке, не сможет воскреснуть даже с помощью самой могущественной некромантии." # PLACEHOLDER
 
- artifact_orichalc_scalpel_name:1 "Orichalc Scalpel"
- artifact_orichalc_scalpel_description:0 "Fashioned out of the orichalcum gear of fallen berserkers, this famous sword is a proof of House Cumberland's service during the Siege of Orsinium." # PLACEHOLDER
+ artifact_orichalc_scalpel_name:1 "Орихалковое лезвие"
+ artifact_orichalc_scalpel_description:0 "Зачарованный меч, сделанный из орихалкового снаряжения павших берсерков. Этот знаменитый меч является доказательством службы дому Камберленд во время осады Орсиниума." # PLACEHOLDER
 
- artifact_black_iron_name:1 "Black Iron"
- artifact_black_iron_description:0 "A powerful blade of skyfallen iron that forged a mighty dynasty, its first owner was the Iron Son, a mighty ruler of ancient Camlorn." # PLACEHOLDER
+ artifact_black_iron_name:1 "Чёрное железо"
+ artifact_black_iron_description:0 "Клинок, сделанный из упавшего с неба железа. Выкованный представителями могущественной династии. Его первым владельцем был Железный Наследник - правитель древнего Камлорна." # PLACEHOLDER
  
- artifact_kingmakers_trove_name:1 "Kingmaker's Trove"
- artifact_kingmakers_trove_description:0 "A gorgeous chest finely decorated with filigrees similar to those found around the prows of the Bretonic All-Flags warships and a tree-shaped relief reminiscent of the First Era."  # PLACEHOLDER
+ artifact_kingmakers_trove_name:1 "Сокровищница творца королей"
+ artifact_kingmakers_trove_description:0 "Великолепный сундук, искусно украшенный золотом. Подобный рисунок можно встретить на флагах военных бретонских кораблей. Рельеф и форма дерева напоминают изделия из первой эры."  # PLACEHOLDER
 
- artifact_rithana_name:1 "Rithana-di-Renada"
- artifact_rithana_description:0 "The Song of Kingdoms is an ancient stone mural portraying the sixteen kingdoms of Elsweyr, symbolic of the harmony, unity, and peace between them. The Singing Crystal, its centerpiece, emits a beautiful melody when placed in the mural, hence the name." # PLACEHOLDER
+ artifact_rithana_name:1 "Ритана-ди-Ренада"
+ artifact_rithana_description:0 ""Песнь королевств" - древний каменный барельеф с изображением шестнадцати королевств Эльсвейра. Символизирует гармонию, единство и мир между ними. Название дано из-за центральной части барельефа, где располагается "Поющий кристалл", который издаёт мелодию, пока соприкасается с камнем." # PLACEHOLDER
 
- artifact_veloths_judgement_name:1 "Veloth's Judgement"
- artifact_veloths_judgement_description:0 "Saint Veloth wielded a daedric warhammer as a symbol of power and authority during his exodus from Summerset. It has been said that the Judgement of Saint Veloth, as it became known, could cleanse the corruption from the souls of those it struck down." # PLACEHOLDER
+ artifact_veloths_judgement_name:1 "Правосудие Велота"
+ artifact_veloths_judgement_description:0 "Во время своего исхода из Саммерсета, Святой Велот овладел даэдрическим боевым молотом как символом силы и власти. Было сказано, что Правосудие Велота, как он позже стал известен, очистит души тех, кого поразит, от порчи." # PLACEHOLDER
 
- artifact_staff_rootmender_name:1 "Rootmender's Staff"
- artifact_staff_rootmender_description:0 "A symbol of authority donned by every Sap-Speaker in the Root-Whisper Tribe. It is capable of overbearing magic attacks and ensures the continued heritage of the tribe, through thick and thin." # PLACEHOLDER
+ artifact_staff_rootmender_name:1 "Посох корнеправа"
+ artifact_staff_rootmender_description:0 "Символ власти, который носят все Голоса живицы в племени Шепота-Корня. Он способен выдерживать магические атаки, тем самым обеспечивая выживание племени." # PLACEHOLDER
 
- artifact_wuuthrad_name:1 "Wuuthrad"
- artifact_wuuthrad_description:0 "Meaning "Storm's Tears" in Atmoran, this is the legendary battleaxe wielded by Ysgramor during the Merethic Era." # PLACEHOLDER
+ artifact_wuuthrad_name:1 "Вутрад"
+ artifact_wuuthrad_description:0 ""Вутрад" в переводе с языка Атморы значит "Слёзы бури". Этой секирой владел Исгрмор в Меретическую эру." # PLACEHOLDER
  
- artifact_crown_anton_name:1 "Jeweled Crown of Anton"
- artifact_crown_anton_description:0 "Jewels adorn this enchanted crown made for King Anton of Daggerfall after he survived a perilous regency period. It is inscribed with prayers to the Divines and dedicated to his parents and most curious of all, his Seneschal.\nThe seal of House Deleyn along with the personal arms of King Anton are stamped on the inner surface of the crown" # PLACEHOLDER
+ artifact_crown_anton_name:1 "Драгоценная корона Антона"
+ artifact_crown_anton_description:0 "Драгоценные камни украшают эту зачарованную корону, изготовленную для короля Антона из Даггерфолла, после того, как он пережил опасный период регентства. На ней начертаны молитвы божествам, родителям Антона и, что самое любопытное, его сенешалю. Печать дома Делейн вместе с личным гербом короля Антона выбита на внутренней поверхности короны." # PLACEHOLDER
 
- artifact_crown_shornhelm_name:1 "Crown of Shornhelm"
- artifact_crown_shornhelm_description:0 "The grim lands of Rivenspire are quartered between rival barons but whenever the royal houses goes extinct—by crook, infertility or the horrors that stalk the land— they may convene to elect a new King or Queen from amongst their own.\nThe Crown of Shornhelm is the token of the trust the nobility confers on that individual and is as ancient as paramount power is the region" # PLACEHOLDER
+ artifact_crown_shornhelm_name:1 "Корона Шорнхельма"
+ artifact_crown_shornhelm_description:0 "Мрачные земли Ривенспайра поделены между соперничающими баронами. Но всякий раз, когда конфликты затихает, из-за интриг, болезней или ужаса войны, бароны могут собраться, чтобы избрать нового короля или королеву из числа своих. Корона Шорнхельма - это знак доверия, которое дворянство оказывает этому человеку, и она такая же дреаняя, как сам регион." # PLACEHOLDER
 
- artifact_ring_mane_name:1 "Ring of Rid-Thar-ri'Datta"
- artifact_ring_mane_description:0 "A ring wore by the biggest of cats." # PLACEHOLDER
+ artifact_ring_mane_name:1 "Кольцо Рид-Тар-ри'Датты"
+ artifact_ring_mane_description:0 "Кольцо, которое носил самый большой из котов." # PLACEHOLDER
 
- artifact_bow_malgoth_name:1 "Malgoth's Bow"
- artifact_bow_malgoth_description:0 "The prized bow of General Malgoth, leader of the Blackroot tribe which resides Vullain. Its simple but sharp design reflects the personality of Malgoth Blackroot."
+ artifact_bow_malgoth_name:1 "Лук Мальгота"
+ artifact_bow_malgoth_description:0 "Лук генерала Мальгота, вождя племени Черного Корня. Простая конструкция оружия отражает индивидуальность свого первого хозяйна."
  
- artifact_dragonguard_katana_name:1 "Dragonguard Katana"
- artifact_dragonguard_katana_description:0 "This katana was once wielded by the Dragonguard, famed akaviri dragon hunters. This peculiar saber has a distinctive hilt with a small disc-shaped guard adorning a long handle wrapped with woven silk cords. The tang is held into the hilt by an exquisite animorphic pin"
+ artifact_dragonguard_katana_name:1 "Катана Драконьей стражи"
+ artifact_dragonguard_katana_description:0 "Этой катаной когда-то владели Драконьи стражи, знаменитые акавирские охотники на драконов. Этот своеобразный меч имеет характерную рукоять с небольшой гардой в форме диска, украшающей длинную рукоять, обмотанную ткаными шелковыми шнурами."
 
- artifact_throne_mane_name:1 "Mane's Palanquin"
- artifact_throne_mane_description:0 "Where the mane sits their holy ass." # PLACEHOLDER
+ artifact_throne_mane_name:1 "Паланкин Гривы"
+ artifact_throne_mane_description:0 "Где Грива восседает своей святой жопой." # PLACEHOLDER
  
- artifact_staff_magnus_name:1 "Staff of Magnus"
- artifact_staff_magnus_description:0 "The Staff of Magnus, one of the elder artifacts of Tamriel, was a metaphysical battery of sorts for its creator, the Arch-Mage Magnus. When used, it regenerates the wielder s health at remarkable rates. In time, the Staff will abandon the bearer who wields it before he becomes too powerful and upsets the mystical balance it is sworn to protect." # PLACEHOLDER
+ artifact_staff_magnus_name:1 "Посох Магнуса"
+ artifact_staff_magnus_description:0 "Посох Магнуса, один из старейших артефактов Тамриэля, был создан Магнусом как некая «метафизическая батарейка». При использовании он вбирает в себя здоровье и магическую энергию жертвы. Посох всегда покидает носителя прежде, чем тот станет слишком силен и разрушит магический баланс, который призван охранять Посох." # PLACEHOLDER
 
- artifact_staff_hasedoki_name:1 "Staff of Hasedoki"
- artifact_staff_hasedoki_description:0 "Hasedoki was said to have been a very competitive wizard. He wandered the land in search for a wizard who was greater than he. To the best of all knowledge, he never found a wizard who could meet up to his challenge. It is said that he felt so lonely and isolated because so many feared his power, that he bonded his life-force into his very own staff, where his soul remains to this very day. Magic users all over Tamriel have been searching for this magical staff. Granting its wielder a protection of magicka, it is a sure prize for any magic user."
+ artifact_staff_hasedoki_name:1 "Посох Хаседоки"
+ artifact_staff_hasedoki_description:0 "Хаседоки был волшебником, в котором жил дух соперничества. Он странствовал по земле в поисках мага, который был бы сильнее его. Насколько известно, он так никогда и не встретил того, кто принял бы его вызов. В итоге он стал одиноким и несчастным — ведь столько людей боялось его — и заключил собственную жизненную силу в этот Посох, где его душа остается по сей день. Маги всего Тамриэля страстно ищут этот волшебный Посох. Он дает владельцу защиту от магии, а это подарок для любого волшебника."
 
- artifact_elder_scroll_name:1 "Elder Scroll"
- artifact_elder_scroll_description:0 "The Elder Scrolls are scrolls of unknown origin which simultaneously archive both past and future events. The number of the Scrolls is unknown not necessarily due to their immense quantity, but because the number itself is unknowable, as the Scrolls "do not exist in countable form". They are fragments of creation from outside time and space and their use in divining prophecies is but a small part of their power. They simultaneously do not exist, yet always have existed."
+ artifact_elder_scroll_name:1 "Древний свиток"
+ artifact_elder_scroll_description:0 "Древние свитки - это свитоки неизвестного происхождения, в которых записанны одноверменно как прошлые, так и будущие события. Количество свитков невозможно определить, но не потому что их слишком много, а потому, что число их непозноваемо, поскольку свитки "не существуют в форме возможного исчисления". Они являются фрагментами творения вне времени и пространства, и их использование для предсказания - лишь малая часть их силы. Они одновременно не существуют, но всегда существовали."
  
- artifact_armor_dragonguard_name:1 "Dragonguard Armor"
- artifact_armor_dragonguard_description:0 "This armor was once wore by the Dragonguard, famed akaviri dragon hunters. It composed of laminar piece of metals bound between them by silk cords, splinted sleeves and boots as well as a fearsome war mask. \n Various ornamental crests can be worn on top of the helmet such as dragons, moons or flames" 
+ artifact_armor_dragonguard_name:1 "Броня Драконьей стражи"
+ artifact_armor_dragonguard_description:0 "Эту броню когда-то носили гвардейцы драконьей стражи, знаменитые акавирские охотники на драконов. Доспех состоял из пластинчатых кусков металла, соединенных между собой шелковыми шнурами, укреплённых наручей, ботинок, а также устрашающей боевой маски. Поверх шлема можно носить различные декоративные гребни." 
 
- artifact_staff_sanguine_name:1 "Sanguine Rose"
- artifact_staff_sanguine_description:0 "A Daedric artifact created by the Daedric Prince Sanguine. Each time the Rose is used it wilts a little, and when all the petals fall off, it loses its power. When this happens, a new rose blooms somewhere in Oblivion and is plucked by Sanguine to be given to another champion."
+ artifact_staff_sanguine_name:1 "Роза Сангвина"
+ artifact_staff_sanguine_description:0 "Даэдрический артефакт, созданный Сангвином. Постепенно, в процессе использования Роза увядает. И чем больше её силы будет использовано, тем сильнее увядание. В конце концов она полностью исчезает, и в то же время где-то на просторах Обливиона расцветает новая Роза, которую в скором времени срывает сам Сангвин, чтобы вручить её новому чемпиону"
 
- artifact_bow_shadows_name:1 "Bow of Shadows"
- artifact_bow_shadows_description:0 "A Daedric artifact forged by the Daedric Prince Nocturnal said to grant the user invisibility and increased speed."
+ artifact_bow_shadows_name:1 "Лук теней"
+ artifact_bow_shadows_description:0 "Это легендарное оружие, принадлежащее Принцессе Даэдра Ноктюрнал. Лук даёт носителю возможность становиться невидимым и увеличивает его скорость."
 
- artifact_meridias_beacon_name:1 "Meridia's Beacon"
- artifact_meridias_beacon_description:0 "A magical magna-geode shaped stone associated with the Daedric Prince Meridia, who is known to speak to those in possession of the Beacon, and uses it to influence and compel the owner to obey the Lady of Infinite Energies."
+ artifact_meridias_beacon_name:1 "Маяк Меридии"
+ artifact_meridias_beacon_description:0 "Магический камень, связанный с принцем Даэдра - Меридией, которая, как известно, разговаривает с теми, у кого есть Маяк. Она использует его, чтобы влиять на владельца и заставляет его подчиняться Леди Бесконечных Энергий."
 
- artifact_dawnbreaker_name:1 "Dawnbreaker"
- artifact_dawnbreaker_description:0 "A Daedric artifact created by the Daedric Prince Meridia, forged in a holy light that breaks upon the Prince's foes."
+ artifact_dawnbreaker_name:1 "Сияние Рассвета"
+ artifact_dawnbreaker_description:0 "Даэдрический артефакт, созданный Меридией. Этот меч выкован в святом сиянии, которое обрушивается на врагов принцаессы."
 
- artifact_ebony_blade_name:1 "Ebony Blade"
- artifact_ebony_blade_description:0 "A Daedric artifact created by the Daedric Prince Mephala, resembling an ebony katana, considered to be an artifact of great evil, having the ability to absorb the life essence of those that it strikes." ### PLACEHOLDER
+ artifact_ebony_blade_name:1 "Эбонитовый клинок"
+ artifact_ebony_blade_description:0 "Даэдрический артефакт, созданный принцем Мефалой. Напоминает эбонитовую катану. Считается артефактом великого зла, обладающим способностью поглощать жизненную энергию тех, кого он поражает." ### PLACEHOLDER
 
- artifact_ebony_mail_name:1 "Ebony Mail"
- artifact_ebony_mail_description:0 "A Daedric artifact created by the Daedric Prince Boethiah, resembling an ebony suit of armor, granting its wearer magical protection, quieter movements and the ability to poison enemies who get too close." ### PLACEHOLDER
+ artifact_ebony_mail_name:1 "Эбонитовая кольчуга"
+ artifact_ebony_mail_description:0 "Даэдрический артефакт, созданный принцем Боэтией. Внешне схож с эбонитовым доспехом, в отличии от которого даёт своему владельцу магическую защиту, споссобность бесшумно передвигаться, и отравлять тех врагов, которые подойдут слишком близко." ### PLACEHOLDER
  
- artifact_harkons_sword_name:1 "Harkon's Sword"
- artifact_harkons_sword_description:0 "It is not known if this prestigious blade was named after its most famous holder or if he came from a long lineage of Harkons, but one thing is certain: Its effect is unique in that its enchantment will only take effect if wielded by a vampire." # PLACEHOLDER
+ artifact_harkons_sword_name:1 "Меч Харкона"
+ artifact_harkons_sword_description:0 "Неизвестно, был ли этот клинок назван в честь его самого знаменитого владельца, или он давно принадлежит роду Харкона, но одно можно сказать наверняка - эффект его зачарования будет работать только в том случае, если оружие находится в руках вампира." # PLACEHOLDER
 
- artifact_history_of_histories_name:1 "History of Histories"
- artifact_history_of_histories_description:0 "Royal chronicle of the Phyllocid Dynasty, (The Worthy Ar-Azal, His Deeds being part of it)." # PLACEHOLDER
+ artifact_history_of_histories_name:1 "История историй"
+ artifact_history_of_histories_description:0 "Королевская хроника династии Филлоцидов." # PLACEHOLDER
 
- artifact_dragonsword_of_lainlyn_name:1 "Dragonsword of Lainlyn"
- artifact_dragonsword_of_lainlyn_description:0 "No one is sure how the barony of Lainlyn in the middle of Hammerfell is related to dragons or how is this sword related to dragons, but many fear its power." # PLACEHOLDER
+ artifact_dragonsword_of_lainlyn_name:1 "Драконий меч Лайнлина"
+ artifact_dragonsword_of_lainlyn_description:0 "Никто не знает, как баронство Лайнлин в центре Хаммерфелла связано с драконами, или как этот меч связан с драконами, но многие боятся его силы." # PLACEHOLDER
 
- artifact_goldbrand_name:1 "Goldbrand"
- artifact_goldbrand_description:0 "An ancient artifact created by the dragons of the North, which contains the power of the Daedric Prince Boethiah, and burns those that it strikes." # PLACEHOLDER
+ artifact_goldbrand_name:1 "Золотой меч"
+ artifact_goldbrand_description:0 "Древний артефакт, созданный драконами Севера, который содержит силу даэдрического принца Боэтии и сжигает тех, кого он поражает." # PLACEHOLDER
 
- artifact_mace_molag_bal_name:1 "Mace of Molag Bal"
- artifact_mace_molag_bal_description:0 "A daedric artifact attributed to Molag Bal, the Lord of Domination and Enslavement. Its enchantment drains the stamina and magicka of its victims and transfers them to the bearer. It also has been known to have the ability to transfer an enemy's strength to its wielder or trap their soul. It has been said to be a good weapon of choice for vanquishing wizards." # PLACEHOLDER
+ artifact_mace_molag_bal_name:1 "Булава Молага Бала"
+ artifact_mace_molag_bal_description:0 "Даэдрический артефакт, приписываемый Молагу Балу, Повелителю Господства и Порабощения. Его чары истощают выносливость и магические силы жертвы, передавая их носителю. Также известно, что булава обладает способностью передавать силу врага своему владельцу или заманивать его душу в ловушку. Говорят, что это хорошее оружие для битвы с волшебниками." # PLACEHOLDER
 
- artifact_azuras_star_name:1 "Azura's Star"
- artifact_azuras_star_description:0 "A Daedric artifact created by the Daedric Prince Azura, prominently used as her symbol. In the right hands, Azura's Star acts as a reusable soul gem of almost unlimited capacity." # PLACEHOLDER
+ artifact_azuras_star_name:1 "Звезда Азуры"
+ artifact_azuras_star_description:0 "Даэдрический артефакт, созданный даэдрическим принцем Азурой. Часто используется в качестве ее символа. В умелых руках Звезда Азуры действует как многоразовый камень душ практически неограниченной емкости." # PLACEHOLDER
 
- artifact_bittercup_name:1 "Bittercup"
- artifact_bittercup_description:0 "An artifact sacred to Clavicus Vile, the Daedric Prince of Bargains, prized by the Daedra Lord's followers. Only the strongest and smartest of mortals are advised to make covenants with Prince Clavicus, and even then are warned against sipping from the Bittercup;some sweet things require a price heavy beyond any means." # PLACEHOLDER
+ artifact_bittercup_name:1 "Горькая Чаша"
+ artifact_bittercup_description:0 "Артефакт, священный для Клавикуса Вайла, даэдрического принца, покровителя сделок. Высоко ценится в среде последователями Повелителя Даэдра. Только самым сильным и умным из смертных рекомендуется заключать соглашения с принцем Клавикусом, и даже тогда их предостерегают от того, чтобы пить из Горькой Чаши; некоторые сладости требуют непомерно высокой цены." # PLACEHOLDER
  
- inspiration_artisan_type_alchemy_set:0 "an alchemy set"
- artifact_alchemy_set_name:1 "Exquisite Alchemy Set"
- artifact_alchemy_set_description:0 "A very exquisite alchemy set, fit for scientific and magical experiments of all capacities." # PLACEHOLDER
+ inspiration_artisan_type_alchemy_set:0 "Набор алхимика"
+ artifact_alchemy_set_name:1 "Изысканный набор алхимика"
+ artifact_alchemy_set_description:0 "Очень изысканный алхимический набор, пригодный для научных и магических экспериментов любого уровня." # PLACEHOLDER
 
- artifact_dremora_armor_name:1 "Daedric Armor"
- artifact_dremora_armor_description:0 ""I can only tell you tales of how to make Daedric armor. I have never seen it myself, nor do I know anyone that has. The stories say that it should always be worked on at night... ideally under a new or full moon, and never during an eclipse. A red harvest moon is best. Ebony is the principle material, but at the right moment a daedra heart must be thrown into the fire."\n\n―Sven Two-Hammers"  # PLACEHOLDER
+ artifact_dremora_armor_name:1 "Даэдрическая броня"
+ artifact_dremora_armor_description:0 "Я могу только рассказать вам истории о том, как сделать даэдрическую броню. Я никогда не видел этого сам, и я не знаю никого, кто видел. В историях говорится, что над этим всегда следует работать ночью... в идеале при новолунии или полнолунии, и никогда во время затмения. Красная луна - лучший выбор. Эбонит ― основной материал брони, однако в нужный момент, в горн должно быть брошено сердце дадра."\n\n - Свен Два Молотка"  # PLACEHOLDER
 
- artifact_masque_vile_name:1 "Masque of Clavicus Vile"
- artifact_masque_vile_description:0 "The Masque of Clavicus Vile is a helm which makes the wearer more popular wherever they might go by making them seem charming and trustworthy. Much like other Daedra and their artifacts, Clavicus seems to retain ultimate control of the Masque and may recall it without warning."
+ artifact_masque_vile_name:1 "Маска Клавикуса Вайла"
+ artifact_masque_vile_description:0 "Маска Клавикуса Вайла - это шлем, в котором носитель имеет большую вероятность понравиться любому из жителей Тамриэля. Чем выше привлекательность самого носителя, тем сильнее действует маска. Подобно другим Даэдра и их артефактам, Клавикус, похоже, сохраняет полный контроль над Маской и может отозвать ее без предупреждения."
 
- artifact_mehrunes_razor_name:1 "Mehrunes' Razor"
- artifact_mehrunes_razor_description:0 "A Daedric artifact created by the Daedric Prince Mehrunes Dagon, a powerful ebony dagger that has the ability to kill instantly, claiming the souls of those struck by the it in the name of the Prince of Ambition. It is emblazoned with Daedric script and absorbs nearby light." 
+ artifact_mehrunes_razor_name:1 "Бритва Мерунеса"
+ artifact_mehrunes_razor_description:0 "Даэдрический артефакт, созданный даэдрическим принцем Мерунесом Дагоном. Кинжал из эбонита, который обладает способностью мгновенно убить, забирав души тех, кого он поразил во имя Принца Амбиций. Он украшен даэдрическими письменами и поглощает любой свет." 
 
- artifact_princes_woe_name:1 "Prince's Woe"
- artifact_princes_woe_description:0 "Mansel Sesnit slew many highborn scions on his road to power (and his bid to keep it) earning this nickname for his sword. He eventually discarded this material weapon once he became an Ansei but it became a treasured heirloom since then, the symbol of absolute power over the land among the Yokudan magnates. To wield this sword is to inherit the drive of an Elden Yokeda and the hope of an end to the Age of Strife."
+ artifact_princes_woe_name:1 "Горе принца"
+ artifact_princes_woe_description:0 "Мансель Сеснит убил многих именитых людей на своем пути к власти, и в попытках сохранить ее. В конце концов он отказался от этого материального оружия, как только стал Ансеем, но с тех пор оно стало драгоценной семейной реликвией, символом абсолютной власти над землей среди магнатов Йокудана. Владеть этим мечом - значит унаследовать стремление Элдена Йокеды и надежду на окончание Эпохи Раздора."
 
- artifact_dagger_foal_name:1 "Ritual Dagger of the Foal"
- artifact_dagger_foal_description:0 "Legend has it that the nomadic tribes of Akos Kasaz once came upon a foal blessed by the Herd-Mother. Unwilling to let such a prize go, they warred until they cornered the now mature stallion who took a fatal blow to protect his rider. Overcome with grief, she made a keepsake dagger out of his hip bone that became a sacred item ever since. To honor this memory, upon coming of age, warriors will drink milk mixed with the blood drawn from their mount as a sacred oath to the one that may one day save their life."
+ artifact_dagger_foal_name:1 "Ритуальный кинжал из лошадиной кости"
+ artifact_dagger_foal_description:0 "Легенда гласит, что однажды кочевые племена Акос Казаза наткнулись на всадника конь которого была благословлена самой Матерью Табуна. Возжелав заполучить ценный трофей, всадники попытались убить встречного, но смертельный удар принял на себя жеребец. Охваченная горем богиня, сделала из его тазовой кости кинжал, который с тех пор стал священным предметом. Теперь, по достижении совершеннолетия, воины будут пить молоко, смешанное с кровью их лошадей, в качестве священной клятвы тому, кто однажды может спасти им жизнь."
 
- artifact_bb_filament_name:1 "Black Book: Filament and Filigree"
- artifact_bb_filament_description:0 "A part of a series of Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+ artifact_bb_filament_name:1 "Черная книга. Филамент и филигрань"
+ artifact_bb_filament_description:0 "Одна из Черных книг, даэдрических артефактов, созданных Хермеусом Морой, Даэдрическим принцем Судьбы и Знаний. Каждая книга содержит какое-то запретное знание. Некоторые книги раскрывают тайны прошлого, некоторые - будущего. На обложке изображён символ Хермеуса Моры, испускающий черный туман."
 
- artifact_bb_twilight_name:1 "Black Book: The Hidden Twilight"
- artifact_bb_twilight_description:0 "A part of a series of Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+ artifact_bb_twilight_name:1 "Черная книга. Скрытый сумрак"
+ artifact_bb_twilight_description:0 "Одна из Черных книг, даэдрических артефактов, созданных Хермеусом Морой, Даэдрическим принцем Судьбы и Знаний. Каждая книга содержит какое-то запретное знание. Некоторые книги раскрывают тайны прошлого, некоторые - будущего. На обложке изображён символ Хермеуса Моры, испускающий черный туман."
 
- artifact_bb_sallow_name:1 "Black Book: The Hidden Twilight"
- artifact_bb_sallow_description:0 "The first act of a play and one of the Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+ artifact_bb_sallow_name:1 "Черная книга. Болезненный регент"
+ artifact_bb_sallow_description:0 "Первая из многих Черных книг, даэдрических артефактов, созданных Хермеусом Морой, Даэдрическим принцем Судьбы и Знаний. Каждая книга содержит какое-то запретное знание. Некоторые книги раскрывают тайны прошлого, некоторые - будущего. На обложке изображён символ Хермеуса Моры, испускающий черный туман."
 
- artifact_bb_change_name:1 "Black Book: The Winds of Changes"
- artifact_bb_change_description:0 "A fragmented tome surrounding Jarl Elgryr the Unminded and one of the Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+ artifact_bb_change_name:1 "Черная книга. Ветры перемен"
+ artifact_bb_change_description:0 "Одна из Черных книг, даэдрических артефактов, созданных Хермеусом Морой, Даэдрическим принцем Судьбы и Знаний. Каждая книга содержит какое-то запретное знание. Некоторые книги раскрывают тайны прошлого, некоторые - будущего. На обложке изображён символ Хермеуса Моры, испускающий черный туман. Влиянию этого тома подвергся ярл Эргрир Неразумный."
 
- artifact_bb_untold_name:1 "Black Book: Untold Legends"
- artifact_bb_untold_description:0 "A fragmented tome surrounding the other lives of Ysgramor and one of the Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+ artifact_bb_untold_name:1 "Черная книга. Нерассказанные легенды"
+ artifact_bb_untold_description:0 "Одна из Черных книг, даэдрических артефактов, созданных Хермеусом Морой, Даэдрическим принцем Судьбы и Знаний. Каждая книга содержит какое-то запретное знание. Некоторые книги раскрывают тайны прошлого, некоторые - будущего. На обложке изображён символ Хермеуса Моры, испускающий черный туман. В томе имеется информация о реинкарнациях Исграмора."
 
- artifact_bb_waking_name:1 "Black Book: Waking Dreams"
- artifact_bb_waking_description:0 "A fragmented tome mentioning the mantling of a godhead and one of the Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+ artifact_bb_waking_name:1 "Черная книга. Пробуждающие сны"
+ artifact_bb_waking_description:0 "Одна из Черных книг, даэдрических артефактов, созданных Хермеусом Морой, Даэдрическим принцем Судьбы и Знаний. Каждая книга содержит какое-то запретное знание. Некоторые книги раскрывают тайны прошлого, некоторые - будущего. На обложке изображён символ Хермеуса Моры, испускающий черный туман. В томе имеется информация о реинкарнациях Исграмора. В этом томе есть информация о призые божеств."
 
- artifact_oghma_infinium_name:1 "Oghma Infinium"
- artifact_oghma_infinium_description:0 "An ancient tome of knowledge, and an artifact of great power, the Oghma Infinium was written by Xarxes, the scribe of Auri-El, who had been granted the knowledge within by Hermaeus Mora. The name of the tome comes from Oghma, the wife of Xarxes, whom he created from his favorite moments in history. The knowledge within the tome grants the reader access to the artifact's energy, which can be manipulated to achieve near miraculous abilities. Once the Oghma Infinium is used, it disappears from its owner's possession."
+ artifact_oghma_infinium_name:1 "Огма Инфиниум"
+ artifact_oghma_infinium_description:0 "Древний том знаний и артефакт великой силы, Огма Инфиниум, был написан Зарксом, писцом Ауриэля, которому Хермеус Мора даровал знания. Название тома происходит от имени Огмы, жены Заркса, которую он создал из кусков своих любимых моментов в истории. Знания, содержащиеся в томе, предоставляют читателю доступ к энергии артефакта, которой можно манипулировать для достижения почти любых целей. Как только Огма Инфиниум будет использована, они исчезнет из рук своего владельца."
 
- artifact_skeleton_key_name:1 "Skeleton Key"
- artifact_skeleton_key_description:0 "A Daedric artifact of the Daedric Prince Nocturnal that can be used to unlock any lock. The two limitations placed on the Key by wizards who sought to protect their storehouses were that the Key could only be used once a day and it would never be the property of one thief for too long, eventually disappearing."
+ artifact_skeleton_key_name:1 "Скелетный ключ"
+ artifact_skeleton_key_description:0 "Артефакт, созданный Принцессой Даэдра Ноктюрнал. Этот артефакт — вечная, неломающаяся отмычка, которую, однако, можно использовать только один раз в день. Ключу поддаёются как обычные, так и магические замки. Как и в случае со многими даэдрическими артефактами, Ключ никогда не остаётся в собственности одного смертного надолго. Ноктюрнал имеет привычку периодически возвращать его себе, чтобы затем даровать новому избранному."
 
- artifact_shadow_key_name:1 "Shadowkey"
- artifact_skeleton_key_description:0 "A large key enchanted with Shadow Magic, with the ability to open Shadowgates across Mundus."
+ artifact_shadow_key_name:1 "Ключ теней"
+ artifact_shadow_key_description:0 "Большой ключ, зачарованный Теневой магией, с возможностью открывать врата Теней по всему Мундусу."
 
- artifact_ring_namira_name:1 "Ring of Namira"
- artifact_ring_namira_description:0 "A Daedric artifact bestowed by Namira upon those who do her bidding, the ring has been known to enable damage reflection, increase one's stamina or even heal their wounds if a corpse is eaten."
+ artifact_ring_namira_name:1 "Кольцо Намиры"
+ artifact_ring_namira_description:0 "Даэдрический артефакт, дарованный Намирой тому, кто выполняет ее приказы. Кольцо позволяет отразить урон, увеличить выносливость, а поедание себеподобных начинает восстанавливаеть здоровье."
 
- artifact_saviors_hide_name:1 "Savior's Hide"
- artifact_saviors_hide_description:0 "A Daedric artifact commonly associated with Hircine. Legend has it that Hircine rewarded his peeled hide to the first and only mortal to have ever escaped his Hunting Grounds. This unknown mortal had the hide tailored into this magical Cuirass for his future adventures. It is said that the Cuirass makes the wearer resistant to magic."
+ artifact_saviors_hide_name:1 "Шкура Спасителя"
+ artifact_saviors_hide_description:0 "Один из даэрдрических артефактов Хирсина — кираса "Шкура Спасителя", обладающая способностью отражать магию. Легенда говорит, что Хирсин наградил этой выделанной шкурой первого и единственного смертного, который сумел выбраться из его охотничьих угодий. Этот неизвестный сшил из шкуры магическую кирасу, помогавшую ему в дальнейших приключениях."
 
- artifact_ring_hircine_name:1 "Ring of Hircine"
- artifact_ring_hircine_description:0 "A Daedric artifact created by the Daedric Prince Hircine, this metallic ring is engraved with a wolf's head. Its power temporarily bestows Lycanthropy to the wearer, and allows true lycanthropes to control their transformations."
+ artifact_ring_hircine_name:1 "Кольцо Хирсина"
+ artifact_ring_hircine_description:0 "Это металлическое кольцо, являющееся даэдрическим артефактом, созданным даэдрическим принцем Хирцином, украшено гравировкой в виде волчьей головы. Наделяет владельца ликантропией и позволяет истинным ликантропам контролировать свои превращения."
 
- artifact_skull_corruption_name:1 "Skull of Corruption"
- artifact_skull_corruption_description:0 "Vaermina's signature artifact creates a duplicate of the victim to torment them until one of them are dead. Legends surrounding this staff, say that it has a mind of its own, and can feed on the memories of those around it."
+ artifact_skull_corruption_name:1 "Череп Порчи"
+ artifact_skull_corruption_description:0 "Даэдрический артефакт Принца Даэдра Вермины. Обладает властью над снами и кошмарами, вплоть до их материализации. Легенды гласят, что он обладает собственным разумом и может питаться воспоминаниями окружающих."
 
- artifact_volendrung_name:1 "Volendrung"
- artifact_volendrung_description:0 "An ancient artifact created by the Dwarven Rourken clan, this Hammer of Might is known to manifest as a warhammer of Dwarven Metal. For unknown reasons, Volendrung became a Daedric artifact of Malacath. It earns its name with its capability to demolish even the walls of enemy keeps with ease. The hammer is prone to disappearing like its Dwarven creators, sometimes resurfacing in days, sometimes in eons."
+ artifact_volendrung_name:1 "Волендранг"
+ artifact_volendrung_description:0 "Это — двемерский артефакт, известный также как «Молот Могущества» и «Молот Хаммерфелла». Был создан двемерским кланом Руркен. По неизвестным причинам, молот стал даэрдрическим артефактом Малаката. Молот заслужил свое название благодаря способности с легкостью разрушать даже стены вражеских крепостей"
 
- artifact_wabbajack_name:1 "Wabbajack"
- artifact_wabbajack_description:0 "A Daedric artifact created by the Daedric Prince Sheogorath that takes the appearance of a Daedric staff that is engraved with angry gaping faces at the top. As befits the Prince of Madness, the staff can produce effects such as damaging, healing, turning to stone, or instantly killing the target, among other equally insane possibilities. Sheogorath finds only a few worthy of Wabbajack's "absurdly sweet power"." # PLACEHOLDER
+ artifact_scourge_name:1 "Бич"
+ artifact_scourge_description:0 "Могущественная булава, сделанная из священного эбонита в Огнях Фикледайра. Легендарное оружие Маккана, она служила для отправки темных духов обратно в Обливион. Также эта булава обладает способностью вызывать духов из Обливиона." # PLACEHOLDER
 
- artifact_bow_ivory_name:1 "Ivory Bow"
- artifact_bow_ivory_description:0 "A bow made of ivory. I don't know what to tell you, it's gonna be very important a few centuries in the future because it was some boy's first bow." # PLACEHOLDER
+ artifact_wabbajack_name:1 "Ваббаджек"
+ artifact_wabbajack_description:0 "Даэдрический артефакт, созданный Шеогоратом. Имеет вид посоха на вершине которого выгравированы сердитые разинутые рты. Как и подобает Принцу безумия, посох выдаёт абсолютно непредсказуемый эффект при применении." # PLACEHOLDER
 
- artifact_book_delegation_name:1 "Direnni Delegation of Rivenspire"
- artifact_book_delegation_description:0 "Letter from the Direnni Hegemony conferring authority over Rivenspire to House Branquette in their name." # PLACEHOLDER
+ artifact_bow_ivory_name:1 "Лук из слоновой кости"
+ artifact_bow_ivory_description:0 "Я не знаю, что вам сказать про этот лук. Возможно, это будет важный предмет через несколько столетий, но сейчас это просто первый лук какого-то мальчика." # PLACEHOLDER
 
- artifact_book_bretonnick_name:1 "Bretonnick Natalitie"
- artifact_book_bretonnick_description:0 "Genealogy book conferring authority over Rivenspire to House Montclair." # PLACEHOLDER
+ artifact_book_delegation_name:1 "Письмо от клана Диренни"
+ artifact_book_delegation_description:0 "Письмо о передаче права владения над Риверспайром." # PLACEHOLDER
 
- artifact_book_daenia_name:1 "Geste of Daenia"
- artifact_book_daenia_description:0 "Oldest known Breton mirror of princes, speaking on topics such a chivalry, governance and listing out a few legends cycles that led to the establishment of kingdoms." # PLACEHOLDER
+ artifact_book_bretonnick_name:1 "Бретонская метрика"
+ artifact_book_bretonnick_description:0 "Генеалогическая книга, подтверждающая власть дома Монклер над Ривенспайром." # PLACEHOLDER
 
- artifact_armor_joile_name:1 "Armor of Joile"
- artifact_armor_joile_description:0 "Magic armor of King Joile, who was killed in battle by Makela Leki." # PLACEHOLDER
+ artifact_book_daenia_name:1 "Песнь Дении"
+ artifact_book_daenia_description:0 "Старейшее известное бретонское произведение, в котором раскрываются темы рыцарства и государственного управления. Также в нём еречисленны несколько циклов легенд, которые привели к созданию королевств." # PLACEHOLDER
 
- artifact_gutwrencher_name:1 "Gutwrencher"
- artifact_gutwrencher_description:0 "Mace of Mercedene Winterborn, which she used throughout her career." # PLACEHOLDER
+ artifact_armor_joile_name:1 "Доспех Джойла"
+ artifact_armor_joile_description:0 "Магический доспех короля Джойла, который был убил Макелой Леки." # PLACEHOLDER
 
- artifact_sword_alessian_name:1 "Alessian General Blade"
- artifact_sword_alessian_description:0 "A tarnished and ancient blade of an Alessian general." #PLACEHOLDER
+ artifact_gutwrencher_name:1 "Потрошитель"
+ artifact_gutwrencher_description:0 "Булава Мерсидины Бурерождённой, которой она пользовалась на протяжении всей своей карьеры." # PLACEHOLDER
 
- artifact_bow_alessian_name:1 "Alessian Bow"
- artifact_bow_alessian_description:0 "Very well-made bows, crafted back in the days of Saint Alessia." #PLACEHOLDER
+ artifact_sword_alessian_name:1 "Алессианский клинок"
+ artifact_sword_alessian_description:0 "Древний клинок алессианского генерала." #PLACEHOLDER
 
- artifact_sword_aphren_name:1 "Sword of King Aphren"
- artifact_sword_aphren_description:0 "King Aphren's ornamental sword, consisting in a diamond pommel, a gem-encrusted blade and a jeweled hilt." #PLACEHOLDER
+ artifact_bow_alessian_name:1 "Алессианский лук"
+ artifact_bow_alessian_description:0 "Великолепный лук, сделанный ещё во времена Алессианской империи." #PLACEHOLDER
 
- artifact_shield_green_name:1 "The Green Aegis"
- artifact_shield_green_description:0 "An ancient shield bearing an inscription identifying its owner as the "Emerald Princess."" #PLACEHOLDER
+ artifact_sword_aphren_name:1 "Меч короля Афрена"
+ artifact_sword_aphren_description:0 "Парадный меч короля Афрена. Имеет алмазное навершие и инкрустацию лезвия и рукояти драгоценными камнями." #PLACEHOLDER
 
- artifact_agra_crun_name:1 "Agra Crun"
- artifact_agra_crun_description:0 "The "blood shield" of the legendary shield-wife Bagrar Troll-Slayer, known as the first protector of Malacath's faithful." #PLACEHOLDER
+ artifact_shield_green_name:1 "Зеленая эгида"
+ artifact_shield_green_description:0 "Древний щит, принадлежащий "Изумрудной принцессе", о чём свидетельствует подпись на нём." #PLACEHOLDER
 
- artifact_staff_ulvor_name:1 "Ul'vor Staff"
- artifact_staff_ulvor_description:0 "Beyond sharing a name with the underwater Sea Sload kingdom of Ul'vor Kus, little is known about this mysterious magical staff." #PLACEHOLDER
+ artifact_agra_crun_name:1 "Агра Крун"
+ artifact_agra_crun_description:0 "Агра Крун, название которого переводится с орочьего как «кровавый щит», некогда принадлежал легендарной жене-защитнице Баргар, также известной как «Убийца Троллей»." #PLACEHOLDER
 
- artifact_ritual_circle_name:1 "Ritual Circle"
- artifact_ritual_circle_description:0 "A token of devotion to the stars above, used by Star-Gazers in their rites of initiation." #PLACEHOLDER
+ artifact_staff_ulvor_name:1 "Посох Ул'вор"
+ artifact_staff_ulvor_description:0 "Помимо общего названия с подводным королевством Морских слоадов Уль'вор, об этом таинственном магическом посохе ничего не известно" #PLACEHOLDER
 
- artifact_amulet_skystone_name:1 "Skystone Amulet"
- artifact_amulet_skystone_description:0 "This amulet, made of a crystalline material with Nedic symbols carved into it, is said to be able to hold the power from the very stars." #PLACEHOLDER
+ artifact_ritual_circle_name:1 "Ритуальный круг"
+ artifact_ritual_circle_description:0 "Знак преданности звездам, используемый звездочетами в их обрядах посвящения." #PLACEHOLDER
+
+ artifact_amulet_skystone_name:1 "Амулет Небесного камня"
+ artifact_amulet_skystone_description:0 "Этот амулет, сделанный из кристаллического материала с вырезанными на нем недийскими символами, способен удерживать силу самих звезд." #PLACEHOLDER
  
- artifact_amulet_ahemmusa_name:1 "Madstone of the Ahemmusa"
- artifact_amulet_ahemmusa_description:0 "The Madstone of the Ahemmusa is a protection against the spells of witch-warriors. When one uses it, and touch an enemy, it causes the voices of the ancestors to cry out in his head, confusing them, and fuddling their witcheries. Let there be a warning: When one uses the Madstone, the ancestors also cry out in one's ears, so the user, too, is made mad by their wailing. It is the Madstone. Perhaps it will not please a wizard, but it may greatly please a warrior." #PLACEHOLDER
+ artifact_amulet_ahemmusa_name:1 "Камень Безумия Ахеммуза"
+ artifact_amulet_ahemmusa_description:0 "При прикосновении к врагу, этот камень заставляет голоса предков кричать в его голове, сводя противника с ума. Однако, есть и обратный эффект. Крики раздаются и в голове владельца, поэтому владелец тоже рискует сойти с ума." #PLACEHOLDER
 
- artifact_amulet_urshilaku_name:1 "Teeth of the Urshilaku"
- artifact_amulet_urshilaku_description:0 "An heirloom of the Urshilaku Clan of the Ashlander People, along with other tribal heirlooms it is used as a symbol of authority. It is a part of their tribal regalia, passed through generations of Clan Leaders until the coming of the Nerevarine." #PLACEHOLDER
+ artifact_amulet_urshilaku_name:1 "Зубы Уршилаку"
+ artifact_amulet_urshilaku_description:0 "Семейная реликвия клана Уршилаку народа Эшлендеров. Наряду с другими племенными реликвиями, используется как символ власти. Это реликвия, передавалась из поколения в поколение лидерами кланов вплоть до прихода Нереварина, почле чему была принеса ему в дар в качестве признания." #PLACEHOLDER
 
- artifact_amulet_zainab_name:1 "Thong of Zainab"
- artifact_amulet_zainab_description:0 "An heirloom of the Zainab Clan of the Ashlander People, along with other tribal heirlooms it is used as a symbol of authority. It is a part of their tribal regalia, passed through generations of Clan Leaders until the coming of the Nerevarine." #PLACEHOLDER
+ artifact_amulet_zainab_name:1 "Пояс Зайнаб"
+ artifact_amulet_zainab_description:0 "Семейная реликвия племени Зайнаб народа Эшлендеров. Наряду с другими племенными реликвиями, используется как символ власти. Это реликвия, передавалась из поколения в поколение лидерами кланов вплоть до прихода Нереварина, почле чему была принеса ему в дар в качестве признания." #PLACEHOLDER
 
- artifact_seekers_sight_name:1 "Seeker's Sight"
- artifact_seekers_sight_description:0 "A relic connected to the Celestial Mage. It bears the Gem of Fire, the Gem of Frost and the Gem of Thunder." #PLACEHOLDER
+ artifact_seekers_sight_name:1 "Око Искателя"
+ artifact_seekers_sight_description:0 "Реликыия магов Небожителей. Содержит самоцветы огня, льда и грома." #PLACEHOLDER
 
- artifact_armlet_torug_name:1 "Armlet of Torug"
- artifact_armlet_torug_description:0 "Ancient text fragments describe the legend of this magical armlet encrusted with gems, possessed by King Torug, founder of the original city of Orsinium. With its power, Torug was able to tame the savage wilderness of Wrothgar and establish the first city of Orsinium." #PLACEHOLDER
+ artifact_armlet_torug_name:1 "Наруч Торуга"
+ artifact_armlet_torug_description:0 "Король Торуг, основатель изначального города Орсиниума, владел могущественной реликвией, известной как наруч Торуга. Согласно легенде, наруч — волшебный браслет, украшенный самоцветами. С его силой Торуг смог приручить дикую природу Ротгара и основать первый Орсиниум." #PLACEHOLDER
 
- artifact_helm_uzdabikh_name:1 "Uzdabikh's Helm"
- artifact_helm_uzdabikh_description:0 "The blessed helm of Uzdabikh, said to have protected its owner from every attack from an entire army, leaving a pile of corpses around the relic." #PLACEHOLDER
+ artifact_helm_uzdabikh_name:1 "Шлем Уздабих"
+ artifact_helm_uzdabikh_description:0 "Легенда гласит, что этот шлем защитил своего владельца от целой армии." #PLACEHOLDER
 
- artifact_circlet_yokudan_name:1 "Ancient Yokudan Circlet"
- artifact_circlet_yokudan_description:0 "A sturdy, time-worn head dressing from an unidentified yokudan noble lineage." #PLACEHOLDER
+ artifact_circlet_yokudan_name:1 "Старинная йокуданская диадема"
+ artifact_circlet_yokudan_description:0 "Потрепанная временем диадема, принадлежавшая неизвестному йокуданцу." #PLACEHOLDER
 
- artifact_seal_tarish_name:1 "Tarish-zi Royal Seal"
- artifact_seal_tarish_description:0 "A royal seal granted to the sword shields of the Yokudan Emperor Tarish-Zi. Rumors say three of these seals are needed to gain entry to his sacred crypt." #PLACEHOLDER
+ artifact_seal_tarish_name:1 "Королевская печать Тариш=Зи"
+ artifact_seal_tarish_description:0 "Королевская печать, которую можно найти на мече и щите йокуданского императора Тариш-Зи. По слухам, три из этих печатей необходимы, чтобы получить доступ в его священный склеп." #PLACEHOLDER
  
- artifact_dragonbane_name:1 "Dragonbane"
- artifact_dragonbane_description:0 "A weapon of the Blades, perhaps dating back to the time of the Dragonguard. When the Blades were forced to seal off and abandon their ancient stronghold in Skyrim, Sky Haven Temple, the blade was left within." #PLACEHOLDER
+ artifact_dragonbane_name:1 "Бич драконов"
+ artifact_dragonbane_description:0 "Оружие Клинков, возможно, относящееся ко временам Драконьей стражи. Тогда Клинки были вынуждены покинуть свою древнюю крепость в Скайриме - храм Небесной Гавани, однако этот клинок остался внутри." #PLACEHOLDER
 
- artifact_unmelting_snow_name:1 "Unmelting Snow"
- artifact_unmelting_snow_description:0 "On top of the Throat of the World is a patch of snow that's never melted. They say the Greybeards taught it to ignore the sun, and heat simply washes over it." #PLACEHOLDER
+ artifact_unmelting_snow_name:1 "Нетающий снег"
+ artifact_unmelting_snow_description:0 "На вершине Глотки Мира есть участок снега, который никогда не тает. Говорят, седобородые научили его не обращать внимания на солнце, и тепло просто омывает его." #PLACEHOLDER
 
- artifact_gauldur_jyrik_name:1 "Gauldur Amulet Fragment"
- artifact_gauldur_jyrik_description:0 "Originally owned by the powerful wizard Archmage Gauldur during the First Era, the Gauldur Amulet was divided between his three sons after they killed him in their sleep. This fragment belonged to Jyrik, the most magically apt of the three siblings."
+ artifact_gauldur_jyrik_name:1 "Фрагмент амулета Галдура"
+ artifact_gauldur_jyrik_description:0 "Первоначально принадлежавший могущественному волшебнику архимагу Галдуру в Первую эру. Амулет Галдура был разделен между его тремя детьми после того, как они убили его во сне. Этот фрагмент принадлежал Йурику, наиболее способному к магии из трех братьев и сестер."
 
- artifact_gauldur_mikrul_name:1 "Gauldur Amulet Fragment"
- artifact_gauldur_mikrul_description:0 "Originally owned by the powerful wizard Archmage Gauldur during the First Era, the Gauldur Amulet was divided between his three sons after they killed him in their sleep. This fragment belonged to Mikrul, the strongest of the three siblings."
+ artifact_gauldur_mikrul_name:1 "Фрагмент амулета Галдура"
+ artifact_gauldur_mikrul_description:0 "Первоначально принадлежавший могущественному волшебнику архимагу Галдуру в Первую эру. Амулет Галдура был разделен между его тремя детьми после того, как они убили его во сне. Этот фрагмент принадлежал Микрулу, самому сильному из трех братьев и сестер."
 
- artifact_gauldur_sigdis_name:1 "Gauldur Amulet Fragment"
- artifact_gauldur_sigdis_description:0 "Originally owned by the powerful wizard Archmage Gauldur during the First Era, the Gauldur Amulet was divided between his three sons after they killed him in their sleep. This fragment belonged to Sigdis, the nimblest of the three siblings." 
+ artifact_gauldur_sigdis_name:1 "Фрагмент амулета Галдура"
+ artifact_gauldur_sigdis_description:0 "Первоначально принадлежавший могущественному волшебнику архимагу Галдуру в Первую эру. Амулет Галдура был разделен между его тремя детьми после того, как они убили его во сне. Этот фрагмент принадлежал Сигдис, самой проворной из трех братье и сестер." 
 
- artifact_jagged_crown_name:1 "Jagged Crown"
- artifact_jagged_crown_description:0 "Maw unleashing razor snow,\nOf dragons from the blue brought down,\nBirths the walking winter's woe,\nThe High King in his Jagged Crown." #PLACEHOLDER
+ artifact_jagged_crown_name:1 "Зубчатая корона"
+ artifact_jagged_crown_description:0 "Эта корона, является символом власти верховного короля Скайрима, последним её владельцем был Боргас из Винтерхолда, погибший во время Дикой Охоты в 1Э 369." #PLACEHOLDER
 
- artifact_red_eagles_fury_name:1 "Red Eagle's Fury"
- artifact_red_eagles_fury_description:0 "Thousands fell to his flaming sword\nAs the blood-sun rose and set\nDespite the bite of a hundred arrows\nHe fought till death he met" #PLACEHOLDER
+ artifact_red_eagles_fury_name:1 "Ярость Красного Орла"
+ artifact_red_eagles_fury_description:0 "В различных древних легендах Предела говорится, что во время вторжения в королевство императрицы Хестры, Красный Орёл использовал именно это оружие в бою, в том числе и в последней своей битве, в которой он, согласно преданиям, убил тысячи имперских солдат, прежде, чем пал сам." #PLACEHOLDER
 
- artifact_kahvozeins_fang_name:1 "Kahvozein's Fang"
- artifact_kahvozeins_fang_description:0 "A Dragon Priest dagger that dates back to the Merethic Era, legendary throughout Skyrim and is known to be sharp enough to make precise carvings from the scales of a Dragon. It was created by a particular sect of the Dragon Cult, one that worshipped the eponymous Kahvozein. They were very fond of ritual sacrifices, so much so that the high priest spent much time sharpening this dagger so that it was always ready for its next victim." #PLACEHOLDER
+ artifact_kahvozeins_fang_name:1 "Клык Кавозеина"
+ artifact_kahvozeins_fang_description:0 "Легендарный в Скайриме кинжал Драконьего жреца, относящийся к Меретической эре. Он был создан особой сектой Культа Дракона, которая поклонялась Кавозеину. Секта ценила ритуальные жертвоприношения настолько, что верховный жрец тратил много времени на заточку своего кинжала, чтобы он всегда был готов к следующей жертве." #PLACEHOLDER
 
- artifact_bloodskal_blade_name:1 "Bloodskal Blade"
- artifact_bloodskal_blade_description:0 "An ancient Nordic magic blade that was created by the Bloodskal clan, a Skaal clan on Solstheim." #PLACEHOLDER
+ artifact_bloodskal_blade_name:1 "Клинок Бладскал"
+ artifact_bloodskal_blade_description:0 "Древний нордский магический клинок, созданный кланом Кровавых Черепов в Солстхейме." #PLACEHOLDER
 
- artifact_armor_stalhrim_name:1 "Ancient Stalhrim Armor"
- artifact_armor_stalhrim_description:0 "Carefully crafted from enchanted ice untold decades ago, this ancient Stalhrim set of armor provides increased resistance to both mundane and magical damage." #PLACEHOLDER
+ artifact_armor_stalhrim_name:1 "Древний сталгримовый доспех"
+ artifact_armor_stalhrim_description:0 "Доспех изготовленный из зачарованного льда. Этот древний доспех обеспечивает повышенную устойчивость как к обычному, так и к магическому урону." #PLACEHOLDER
  
- artifact_coral_claw_name:1 "Coral Dragon Claw"
- artifact_coral_claw_description:0 "An intricate artifact made from a coral-like material, shaped like a dragon claw, engraved with the symbols of the Snake, Wolf and Moth totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER
+ artifact_coral_claw_name:1 "Коралловый драконий коготь"
+ artifact_coral_claw_description:0 "Замысловатый артефакт, изготовленный из материала, похожего на коралл, в форме когтя дракона, с выгравированными на нем символами Змеи, Волка и Мотылька. Ходят слухи, что древний культ Дракона использовал его как своего рода ключ к чрезмерно сложной двери." #PLACEHOLDER
 
- artifact_diamond_claw_name:1 "Diamond Dragon Claw"
- artifact_diamond_claw_description:0 "An intricate artifact made from diamonds, shaped like a dragon claw, engraved with the symbols of the Dragon, Wolf and Moth totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER
+ artifact_diamond_claw_name:1 "Алмазный драконий коготь"
+ artifact_diamond_claw_description:0 "Замысловатый артефакт, сделанный из азмаза, в форме драконьего когтя, с выгравированными на нем символами Дракона, Волка и Мотылька. Ходят слухи, что древний культ Дракона использовал его как своего рода ключ к чрезмерно сложной двери." #PLACEHOLDER
 
- artifact_ebony_claw_name:1 "Ebony Dragon Claw"
- artifact_ebony_claw_description:0 "An intricate artifact made from ebony, shaped like a dragon claw, engraved with the symbols of the Dragon, Fox and Moth totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER
+ artifact_ebony_claw_name:1 "Эбонитовый драконий коготь"
+ artifact_ebony_claw_description:0 "Замысловатый артефакт, сделанный из эбонита, в форме драконьего когтя, с выгравированными на нем символами Дракона, Лисы и Мотылька. Ходят слухи, что древний культ Дракона использовал его как своего рода ключ к чрезмерно сложной двери." #PLACEHOLDER
 
- artifact_emerald_claw_name:1 "Emerald Dragon Claw"
- artifact_emerald_claw_description:0 "An intricate artifact encrusted with emeralds, shaped like a dragon claw, engraved with the symbols of the Bear, Whale and Snake totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER
+ artifact_emerald_claw_name:1 "Изумрудный драконий коготь"
+ artifact_emerald_claw_description:0 "Замысловатый артефакт, сделанный из изумруда, в форме драконьего когтя, с выгравированными на нем символами Медведя, Кита и Змеи. Ходят слухи, что древний культ Дракона использовал его как своего рода ключ к чрезмерно сложной двери." #PLACEHOLDER
 
- artifact_glass_claw_name:1 "Glass Dragon Claw"
- artifact_glass_claw_description:0 "An intricate artifact made from malachite, shaped like a dragon claw, engraved with the symbols of the Fox, Owl and Snake totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER 
+ artifact_glass_claw_name:1 "Стеклянный драконий коготь"
+ artifact_glass_claw_description:0 "Замысловатый артефакт, сделанный из стекла, в форме драконьего когтя, с выгравированными на нем символами Лисы, Совы и Змеи. Ходят слухи, что древний культ Дракона использовал его как своего рода ключ к чрезмерно сложной двери." #PLACEHOLDER 
 
- artifact_golden_claw_name:1 "Golden Claw"
- artifact_golden_claw_description:0 "An intricate artifact made from gold, shaped like a dragon claw, engraved with the symbols of the Bear, Owl and Moth totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER 
+ artifact_golden_claw_name:1 "Золотой драконий коготь"
+ artifact_golden_claw_description:0 "Замысловатый артефакт, сделанный из золота, в форме драконьего когтя, с выгравированными на нем символами Медведя, Совы и Мотылька. Ходят слухи, что древний культ Дракона использовал его как своего рода ключ к чрезмерно сложной двери." #PLACEHOLDER 
 
- artifact_iron_claw_name:1 "Iron Dragon Claw"
- artifact_iron_claw_description:0 "An intricate artifact made from iron, shaped like a dragon claw, engraved with the symbols of the Dragon, Hawk and Wolf totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER   
+ artifact_iron_claw_name:1 "Железный драконий коготь"
+ artifact_iron_claw_description:0 "Замысловатый артефакт, сделанный из железа, в форме драконьего когтя, с выгравированными на нем символами Дракона, Орла и Волка. Ходят слухи, что древний культ Дракона использовал его как своего рода ключ к чрезмерно сложной двери." #PLACEHOLDER   
 
- artifact_ivory_claw_name:1 "Ivory Dragon Claw"
- artifact_ivory_claw_description:0 "An intricate artifact made from ivory, shaped like a dragon claw, engraved with the symbols of two Hawks and a Wolf totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER   
+ artifact_ivory_claw_name:1 "Костяной драконий коготь"
+ artifact_ivory_claw_description:0 "Замысловатый артефакт, сделанный из кости, в форме драконьего когтя, с выгравированными на нем символами двух Орлов и Волка. Ходят слухи, что древний культ Дракона использовал его как своего рода ключ к чрезмерно сложной двери." #PLACEHOLDER   
 
- artifact_ruby_claw_name:1 "Ruby Dragon Claw"
- artifact_ruby_claw_description:0 "An intricate artifact encrusted with rubies, shaped like a dragon claw, engraved with the symbols of two Wolves and a Hawk totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER   
+ artifact_ruby_claw_name:1 "Рубиновый драконий коготь"
+ artifact_ruby_claw_description:0 "Замысловатый артефакт, сделанный из рубина, в форме драконьего когтя, с выгравированными на нем символами двух Волков и Орла. Ходят слухи, что древний культ Дракона использовал его как своего рода ключ к чрезмерно сложной двери." #PLACEHOLDER   
 
- artifact_sapphire_claw_name:1 "Sapphire Dragon Claw"
- artifact_sapphire_claw_description:0 "An intricate artifact encrusted with sapphires, shaped like a dragon claw, engraved with the symbols the Owl, Moth and Wolf totems engraved on it. It is rumored that the ancient Dragon Cult used it as some sort of key for an overly-complicated door." #PLACEHOLDER     
+ artifact_sapphire_claw_name:1 "Сапфировый драконий коготь"
+ artifact_sapphire_claw_description:0 "Замысловатый артефакт, сделанный из сапфиров, в форме драконьего когтя, с выгравированными на нем символами Совы, Мотылька и Волка. Ходят слухи, что древний культ Дракона использовал его как своего рода ключ к чрезмерно сложной двери." #PLACEHOLDER     
 
- artifact_eye_falmer_name:1 "Eye of the Falmer"
- artifact_eye_falmer_description:0 "A large, white, egg-shaped gem with a pulsing red glow, rumored to be taken from the eye sockets of a large Snow Elf statue in Irkngthand." #PLACEHOLDER
+ artifact_eye_falmer_name:1 "Глаз фалмера"
+ artifact_eye_falmer_description:0 "Большой белый драгоценный камень яйцевидной формы с пульсирующим красным свечением, по слухам, извлеченный из глазниц большой статуи Снежного эльфа в Иркнтанде." #PLACEHOLDER
 
- artifact_shield_aetherial_name:1 "Aetherial Shield"
- artifact_shield_aetherial_description:0 "A magical dwarven shield encrusted with several pieces of Aetherium, an incredibly rare, luminescent blue crystal found deep underground that has magical properties." #PLACEHOLDER 
+ artifact_shield_aetherial_name:1 "Этериевый щит"
+ artifact_shield_aetherial_description:0 "Это уникальный двемерский щит, сделанный из этерия и двемерского сплава. По дизайну соответствует стандартным двемерским щитам, которые изготавливали представители скайримского клана, но многие скрепляющие элементы выполнены из сияющего голубым светом этерия, большая круглая пластина которого укреплена также в верхней части лицевой поверхности щита." #PLACEHOLDER 
 
- artifact_mammoth_horn_name:1 "Treva's Mammoth Horn"
- artifact_mammoth_horn_description:0 "A slightly cracked ancient horn used by generations in Treva to stun mammoths." #PLACEHOLDER 
+ artifact_mammoth_horn_name:1 "Мамонтов рог Тревы"
+ artifact_mammoth_horn_description:0 "Слегка потрескавшийся древний рог, который жители Тревы использовали для охоты на мамонтов." #PLACEHOLDER 
 
- artifact_lodorr_crown_name:1 "Lodorr's Crown"
- artifact_lodorr_crown_description:0 "An ancient crown, warm to the touch, rumored to contain the spirit of Lodorr, a draugr lord trapped inside his own crown in the Merethic Era." #PLACEHOLDER
+ artifact_lodorr_crown_name:1 "Корона Лодора"
+ artifact_lodorr_crown_description:0 "Древняя корона, теплая на ощупь. По слухам, содержит дух Лодора, повелителя драугров, запертого в своей собственной короне ещё в Меретическую эру." #PLACEHOLDER
 
- artifact_horn_jurgen_name:1 "Horn of Jurgen Windcaller"
- artifact_horn_jurgen_description:0 "A horn once belonged to the founder of the Greybeards, Jurgen Windcaller, a great leader of the ancient Nords, and a Master of the Voice." #PLACEHOLDER
+ artifact_horn_jurgen_name:1 "Рог Юргена Призывателя Ветра"
+ artifact_horn_jurgen_description:0 "Рог когда-то принадлежал первому Седобородому, великому лидеру древних нордов и мастеру Голоса." #PLACEHOLDER
 
- artifact_chillrend_name:1 "Chillrend"
- artifact_chillrend_description:0 "Chillrend is an artifact of unknown origins, taking the form of a glass shortsword, although, unlike regular malachite, it is blue instead of green, with its hilt fashioned from rare metals and moonstone. Its enchantment causes magical frost damage to the opponent." #PLACEHOLDER
+ artifact_chillrend_name:1 "Охладитель"
+ artifact_chillrend_description:0 "Артефакт неизвестного происхождения, похожий на стеклянный короткий меч, хотя, в отличие от обычного стекла, он синий, а не зеленый, с рукоятью, изготовленной из редких металлов и лунного камня. Его чары наносят противнику магический урон от мороза." #PLACEHOLDER
  
- artifact_bloodstone_chalice_name:1 "Bloodstone Chalice"
- artifact_bloodstone_chalice_description:0 "This Chalice has been in the Volkihar Clan's possession for quite some time. It is, when used properly, able to increase the potency of vampiric powers. It sits unused for ages, waiting forgrander things to get afoot." #PLACEHOLDER
+ artifact_bloodstone_chalice_name:1 "Чаша из гелиотропа"
+ artifact_bloodstone_chalice_description:0 "Эта чаша довольно долго находилась во владении клана Волкихар. При правильном использовании она способена увеличить силу вампира. Артефакт давно не использовали, видимо, для этого должно произойти что-то грандиозное." #PLACEHOLDER
 
- artifact_white_phial_name:1 "White Phial"
- artifact_white_phial_description:0 "A legendary bottle forged in the days when Skyrim was just starting to turn to ice. The small container was made of the magically infused snow that first fell on the Throat of the World, and possesses amazing alchemical properties. It is said that the Phial will replenish whatever fluid is placed inside of it. The Phial was made by the master alchemist Curalmil in ancient times, and it was buried with him." #PLACEHOLDER
+ artifact_white_phial_name:1 "Белый флакон"
+ artifact_white_phial_description:0 "Легендарный сосуд, созданный древним алхимиком Куралмилом в те времена, когда Скайрим ещё только начал покрываться льдом. Он был создан из первого снега, выпавшего на вершине Глотки Мира с применением могущественной магии времён Войны драконов, секреты которой утеряны. Главная особенность артефакта заключается в том, что любая жидкость, помещённая в него, восстанавливается через некоторое время после опустошения сосуда" #PLACEHOLDER
 
- artifact_messenger_diary_name:1 "Messenger's Diary"
- artifact_messenger_diary_description:0 "Notes of a messenger showing the way to an ancient Akaviri fort, with a sketched map." #PLACEHOLDER
+ artifact_messenger_diary_name:1 "Дневник гонца"
+ artifact_messenger_diary_description:0 "Дневник, найденный у гонца. Указывает путь к древнему акавирскому форту. На одной из страниц набросана карта." #PLACEHOLDER
 
- artifact_crown_nenalata_name:1 "Ayleid Crown of Nenalata"
- artifact_crown_nenalata_description:0 "An ancient Ayleid artifact, shaped like an ornate and delicate crown. It can be distinguished from other Ayleid crowns by a royal glyph emblazoned upon it. Superficial enchantments grant the wearer spell reflection and increased skill at Alteration and Conjuration magic, although the true potential of the crown is seemingly much greater. It is an immensely valuable treasure." #PLACEHOLDER
+ artifact_crown_nenalata_name:1 "Айлейдская корона Неналаты"
+ artifact_crown_nenalata_description:0 "Древний айлейдский артефакт, по форме напоминающий богато украшенную и изящную корону. Её можно отличить от других айлейдских корон по королевскому символу, выгравированному на нем. Поверхностные чары дают владельцу отражение заклинаний и повышенный навык магии изменения и заклинания, хотя истинный потенциал короны, по-видимому, намного больше. Это чрезвычайно ценное сокровище." #PLACEHOLDER
 
- artifact_mask_alkosh_name:1 "Mask of Alkosh"
- artifact_mask_alkosh_description:0 "A holy relic of the Dragon-Cat Alkosh, his light willing it into existance to help mend the tapestry of time, worn by the champions of the Pride of Alkosh. It was first worn by Ja'darri the Endless, the first champion of Alkosh and the founder of the Pride of Alkosh. A Dragon must awaken the dormant power within the mask before it can be fully used. When the mask is empowered, it imbues its wielder, known as a Mask-Bearer, with extraordinary power." #PLACEHOLDER
+ artifact_mask_alkosh_name:1 "Маска Алкоша"
+ artifact_mask_alkosh_description:0 "Священная реликвия Кота-дракона Алкоша. Впервые его надел Джа'Дарри Вечный, первый чемпион Алкоша и основатель Прайда Алкоша. Дракон должен пробудить дремлющую в маске силу, прежде чем ее можно будет использовать в полной мере. Когда маска наделена силой, она наделяет своего владельца, известного как Носитель Маски, необычайной силой." #PLACEHOLDER
 
  artifact_mask_dragon_priest_name:1 "[dragon_priest.GetFirstNameNoTooltip]"
- artifact_mask_dragon_priest_description:0 "A holy artifact created for [dragon_priest.GetFirstNameNoTooltip] as a symbol of power, legitimising [dragon_priest.GetHerHis] rule on Keizaal for the glory of [dragon_priest.GetFaith.HighGodName]." #PLACEHOLDER
+ artifact_mask_dragon_priest_description:0 "Священный артефакт созданный [dragon_priest.GetFirstNameNoTooltip] как символ власти, узаконивающий правление [dragon_priest.GetHerHis] на Кеизале во славу [dragon_priest.GetFaith.HighGodName]." #PLACEHOLDER
 
- artifact_horn_anequina_name:1 "Anequina Dragonhorn"
- artifact_horn_anequina_description:0 "A horn that bears the name of the northern Elsweyr kingdom of Anequina. It is said that Queen Anequina Sharp-Tongue once used a Dragonhorn, likely being one and the same as the Anequina Dragonhorn. It was hidden for when the need for it would arise once again." #PLACEHOLDER
+ artifact_horn_anequina_name:1 "Драконий рог Анеквины"
+ artifact_horn_anequina_description:0 "Рог, который носит название северного Эльсвейрского королевства - Анеквины. Говорят, что королева Анеквина Остроязычная когда-то использовала Драконий рог, который сегодня носит её имя. Он был спрятан на тот случай, когда в нем снова возникнет необходимость." #PLACEHOLDER
  
- artifact_horn_jadarri_name:1 "Horn of Ja'darri"
- artifact_horn_jadarri_description:0 "A combat Dragonhorn noted for its unique ability to never break. It was given to Ja'darri, a member of the Pride of Alkosh, by its donor Nahfahlaar, a powerful red dragon who was immune to its effects." #PLACEHOLDER
+ artifact_horn_jadarri_name:1 "Рог Джа'дарри"
+ artifact_horn_jadarri_description:0 "Боевой драконий рог, известный своей уникальной способностью никогда не ломаться. Он был дан Джа'Дарри, члену Прайда Алкоша, могущественным красным драконом, который был невосприимчив к его воздействию." #PLACEHOLDER
 
- artifact_horn_starhaven_name:1 "Star Haven Dragonhorn"
- artifact_horn_starhaven_description:0 "Gifted to the disciples of Star Haven Adeptorium by the Akaviri Dragonguard in a time when dragons still plagued Elsweyr, as the Dragonguard could not to stay to fight the dragons, they constructed Dragonhorn Tower as a means of safekeeping for the horn until a time came where it could be used to defend the adeptorium. It was noted as already having been charged with lunar energy, humming with arcane power like that of a heartbeat." #PLACEHOLDER
+ artifact_horn_starhaven_name:1 "Драконий рог Звездного Приюта"
+ artifact_horn_starhaven_description:0 "Подаренный ученикам Адепториума Звездной Гавани Драконьей стражей Акавира во времена, когда драконы все еще досаждали Эльсвейру. Поскольку Драконья стража не могла остаться, чтобы сражаться с драконами, они построили Башню Драконьего рога для охраны артефакта. Там он будет храниться, пока не придет время его использваония для защиты Адепториума. Рог уже заряжен лунной энергией, пульсация которой подобна сердцебиению." #PLACEHOLDER
 
- artifact_moonlight_blade_name:1 "Moonlight Blade"
- artifact_moonlight_blade_description:0 "A crescent moon-shaped blade associated with both Azurah and the extant Order of the Hidden Moon. This ancient Khajiiti order was said to have been gifted the blade by the Mother Goddess herself, whom plucked the blade off her own Moon-Staff to be used as a weapon. The Moonlight Blade is considered a sacred tool for the duty of guiding, protecting and redeeming the souls of their People. While on its own the blade is a deadly weapon against the Dro-m'Athra, in the hands of those who know the Order's secrets, the Moonlight Blade can cut through liminal barriers, both the mundane and those between worlds. In particular, the ushering souls to their fated afterlife, this power comes from the second nature of the Moonlight Blade, as it functions as a gateway to the Crossing, a transitional realm between Nirn and Sands Behind the Stars. Within the Order of the Hidden Moon, a guardian was selected to wield the Moonlight Blade from the adepts, this position required someone with an iron will and conviction. The Blade was passed from guardian to guardian without incident until sometime in the First Era, when the warrior Shando-ri became its wielder. His friend and rival, Arum-Khal, had slowly become dissatisfied with the Order's actions and Shando-ri being chosen over him was the last straw. Arum-Khal renounced Azurah and the Order, with many adepts following him, leading to a bloody civil war within the temple. At the end of these battles, the now-lich Arum-Khal had become far too powerful for the survivors to end him permanently and he was instead sealed within the crypts. In preparation for the Dro-m'Athra Lich's return, Shando-ri underwent a six month ritual to transfer his soul and spirit to the Moonlight Blade, to remain on Nirn until he could slay the Dark Adept. Many of the surviving adepts sacrificed themselves to further empower the Moonlight Blade, though none were left to wield it in the end." #PLACEHOLDER
+ artifact_moonlight_blade_name:1 "Клинок Лунного Света"
+ artifact_moonlight_blade_description:0 "Клинок в форме полумесяца, связанный как с Азурой, так и с Орденом Скрытой Луны. Говорили, что этот древний орден каджитов получил клинок в дар от самой Богини-Матери, которая сняла клинок со своего лунного посоха. Клинок Лунного Света считается священным инструментом правителей для защиты и искупления душ своего народа. В руках тех, кто знает секреты Ордена, клинок является оружием против дро-м'Атры, в тоже время он может прорезать барьеры между мирами. В частности, сила, направляющая души в загробную жизнь, является порождением мной природы Лунного Клинка, поскольку она функционирует как врата в промежуточное царство между Нирном и Песками за Звездами. В Ордене Скрытой Луны для владения Клинком Лунного Света был выбран страж из числа адептов. Эта должность требовала кого-то с железной волей и решимостью. Клинок передавался от стража к стражу, пока воин Шандо-ри не стал его владельцем в первую эру. Его друг и соперник, Арум-Хал, стал недоволен действиями Ордена, и выбор Шандо-ри вместо него стал последней каплей. Арум-Хал отрекся от Азуры и Ордена, и многие адепты последовали за ним, что привело к кровавой гражданской войне внутри храма. В конце этих сражений теперь уже лич Арум-Хал стал слишком могущественным, чтобы выжившие могли покончить с ним навсегда, и вместо этого он был запечатан в склепе. Готовясь к возвращению лича Дро-м'Атра, Шандо-ри провёл шестимесячный ритуал, чтобы перенести свою душу в Клинок Лунного Света, чтобы оставаться на Нирне, пока он не сможет убить Темного Адепта. Многие из выживших адептов пожертвовали собой, чтобы усилить Клинок Лунного света, хотя в конце концов не осталось никого, кто мог бы им владеть." #PLACEHOLDER
 
- artifact_keening_name:1 "Keening"
- artifact_keening_description:0 "The short blade Keening was created to flay and focus the power that the hammer Sunder produces. In song, its described as a dagger made of the sound of the shadow of the moons." #PLACEHOLDER
+ artifact_keening_name:1 "Разрубатель"
+ artifact_keening_description:0 "Это кинжал, сила которого заключается в сборе и фокусировке энергии, поднимающейся от Сердца Лорхана после удара по нему молотом Разделителем." #PLACEHOLDER
 
- artifact_sunder_name:1 "Sunder"
- artifact_sunder_description:0 "Created to produce a specific amount of power from the Heart of Lorkhan, which, when struck by Sunder, would release godlike power. It is described as a hammer of divine mass." #PLACEHOLDER
+ artifact_sunder_name:1 "Разделитель"
+ artifact_sunder_description:0 "Был создан для сбора и фокусировки энергии Сердца Лорхана. Считается оружием божественной силы." #PLACEHOLDER
 
- artifact_wraithguard_name:1 "Wraithguard"
- artifact_wraithguard_description:0 "Created to safely wield the weapon tools, Sunder and Keening, for wielding the weapons without the gauntlet will often lead to the instant death of the wielder. It's described a gauntlet made of a material comparable to brass. It is also known as the Wraith Mail." #PLACEHOLDER
+ artifact_wraithguard_name:1 "Призрачный страж"
+ artifact_wraithguard_description:0 "Перчатки, созданные для защиты от смертоносного воздействия Разрубателя и Разделителя. Сделаны из материала похожего на латунь. Также известны как "Призрачная броня"." #PLACEHOLDER
 
- artifact_calderas_name:1 "Calderas"
- artifact_calderas_description:0 "But one brave hero held no fear\nDranoth Hleran, warrior brave\nWith Calderas, his mighty spear\nBut one resounding cry he gave\n\nHe raised his spear to the beast\nHe ran, evading every blow\nHis heart was set, his speed increased\nAs he charged the mighty foe" #PLACEHOLDER
+ artifact_calderas_name:1 "Кальдерас"
+ artifact_calderas_description:0 "Атаки Скара смертоносны, \nА панцирь прочен, словно щит. \nИ сотня войск победоносных \nПред ним никак не устоит. \n\nОдин лишь страха не изведал, \nДранот Хлеран — так звать героя. \nКальдерас — то копье-кинжал; \nВоздев его над головою, \n\nДранот на Скара побежал. \nЕго ни смерть не испугала, \nНи жуткий чудища размер. \nРазбег ускорил ярый мер. \n\nПодкат! Удар! Повержен Скар! \nВ боку его зияет рана. \nПылает память, как пожар, \nО славном подвиге Хлерана." #PLACEHOLDER
 
- artifact_aralor_shirt_name:1 "Hair Shirt of Saint Aralor"
- artifact_aralor_shirt_description:0 "A sacred relic of the Dunmeri Tribunal. Besides being simultaneously hurt and healed by the shirt, the wearer is also resistant to magic." #PLACEHOLDER
+ artifact_aralor_shirt_name:1 "Власяница Святого Аралора"
+ artifact_aralor_shirt_description:0 "Уникальная рубашка, артефакт, который был утерян Храмом Трибунала. Она может как ранить владельца, так и исцелить. Также даёт сопротивление к магии." #PLACEHOLDER
 
- artifact_rilms_shoes_name:1 "Shoes of Saint Rilms"
- artifact_rilms_shoes_description:0 "These shoes are artifacts sacred to the Dunmeri Tribunal. They are magically enchanted to enhance endurance and make the wearer more personable. Saint Rilms gave away the shoes and did her best to appear as a beggar in order to better acquaint herself with the poor." #PLACEHOLDER
+ artifact_rilms_shoes_name:1 "Туфли Святой Рилмс"
+ artifact_rilms_shoes_description:0 "Туфли святой Рилмс — артефакт Храма Трибунала. Эти туфли некогда принадлежали одной из святых — Святой Рилмс. По легенде Рилмс сняла их, приняв образ нищей, чтобы быть ближе к простым людям." #PLACEHOLDER
 
- artifact_felms_cleaver_name:1 "Cleaver of Saint Felms"
- artifact_felms_cleaver_description:0 "An one-handed axe which belonged to the eponymous saint of the Dunmeri Tribunal." #PLACEHOLDER       
+ artifact_felms_cleaver_name:1 "Тесак святого Фелмса"
+ artifact_felms_cleaver_description:0 "Артефакт Храма Трибунала, топор, некогда принадлежавший одному из святых — святому Фелмсу." #PLACEHOLDER       
 
- artifact_llothis_crosier_name:1 "Crosier of Saint Llothis"
- artifact_llothis_crosier_description:0 "A staff sacred to the Dunmeri Tribunal as a holy relic. The undefeated spirit of St. Llothis the Pious is said to be contained within it. However, the staff's fitness for combat is questionable, as the staff's enchantments actually have various adverse effects on the wielder." #PLACEHOLDER       
+ artifact_llothis_crosier_name:1 "Епископский посох Святого Ллотиса"
+ artifact_llothis_crosier_description:0 "Посох, священный для {hfvf Трибунала. Говорят, что в нем содержится непобедимый дух святого Ллотиса Благочестивого. Однако пригодность посоха для боя сомнительна, так как чары посоха на самом деле имеют различные неблагоприятные эффекты на владельца." #PLACEHOLDER       
 
- artifact_eleidons_ward_name:1 "Eleidon's Ward"
- artifact_eleidons_ward_description:0 "An enchanted shield especially built for Eleidon, a renowned holy knight of legend in Breton history. One of the many stories about him is that he saved a baron's daughter from sure death at the hands of a warlord, and the baron spent all his riches on the creation of the shield to show his gratitude. It grants the wielder the opportunity to heal wounds." #PLACEHOLDER       
+ artifact_eleidons_ward_name:1 "Оберег Элейдона"
+ artifact_eleidons_ward_description:0 "Зачарованный щит, созданный специально для Элейдона, известного рыцаря из легенд бретонской истории. Одна из многочисленных историй о нем заключается в том, что он спас дочь барона от верной смерти от рук военачальника, а барон в знак благодарности потратил все свое богатство на создание этого щита. Он дает владельцу возможность лечить раны." #PLACEHOLDER       
   
- artifact_chrysamere_name:1 "Chrysamere"
- artifact_chrysamere_description:0 "An ancient adamantium claymore artifact with offensive capabilities only surpassed by its defenses. It has magical properties which, unlike most weapons, are defensive in nature; it lends the wielder health, boosts their resistance to fire, and reflects some damage from spells." #PLACEHOLDER       
+ artifact_chrysamere_name:1 "Хризамер"
+ artifact_chrysamere_description:0 "Хризамер или Клинок Паладина — это древняя клеймора, чьи способности к нападению перекрываются только её же способностями к защите. Она придаёт носителю здоровья, защищает его от огня, и отражает любые направленные на него заклинания обратно на мага" #PLACEHOLDER       
  
- artifact_skull_crusher_name:1 "Skull Crusher"
- artifact_skull_crusher_description:0 "An amazingly large and powerful warhammer created together by the wizard Dorach Gusal and the great weaponsmith Hilbongard Rolamus of Skyrim in the forge of Anudnabia sometime in the early First Era, during the Skyrim Captivity. The creation of this weapon is riddled in magic, such as the fires it was forged in and the steel that was tempered for it. It is incredibly light but hard, which provides for its deadly blows compared to those of a Daedric Prince." #PLACEHOLDER       
+ artifact_skull_crusher_name:1 "Крушитель Черепов"
+ artifact_skull_crusher_description:0 "Во время захвата Скайрима в первой эре, главный оружейник нордов Хильбонгард и колдун Дорах Гузал создали зачарованный боевой молот — весом с пёрышко, но ужасный, как кулак атронаха. " #PLACEHOLDER       
 
- artifact_mentors_ring_name:1 "Mentor's Ring"
- artifact_mentors_ring_description:0 "A prized possession for any apprentice to magic. It lends the wearer the ability to increase their intelligence and wisdom, thus making their use of magic more efficient. The High Wizard Carni Asron is said to be its creator, and he loaned it to apprentices while they were studying under him." #PLACEHOLDER       
+ artifact_mentors_ring_name:1 "Кольцо Учителя"
+ artifact_mentors_ring_description:0 "Ценное приобретение для любого изучающего магию. Кольцо дает владельцу возможность увеличить свой интеллект и мудрость, тем самым делая использование магии более эффективным. Говорят, что его создателем был верховный волшебник Карни Асрон, который одалживал его ученикам, когда они учились у него." #PLACEHOLDER       
 
- artifact_haynekhtnamet_fang_name:1 "Fang of Haynekhtnamet"
- artifact_haynekhtnamet_fang_description:0 "A literal fang which was carved into a blade and fashioned into a small dagger. It is named after Haynekhtnamet, a mythical wamasu from the Shadowfen region of Black Marsh. Scholars believe that Haynekhtnamet is not actually a single creature but a series of wamasu, and as such it's possible that there are multiple Fangs." #PLACEHOLDER       
+ artifact_haynekhtnamet_fang_name:1 "Клык Хайнектнамета"
+ artifact_haynekhtnamet_fang_description:0 "Самый настоящий клык, превращенный в маленький кинжал. Он назван в честь Хайнектнамета, мифического вамасу из региона Тенеторь в Чернотопье. Ученые считают, что Хайнектнамет на самом деле не одно существо, а несколько вамасу, и поэтому возможно, что существует несколько Клыков." #PLACEHOLDER       
 
- artifact_shuxaltsei_staff_name:1 "Staff of Shuxaltsei"
- artifact_shuxaltsei_staff_description:0 "An unsettling chill clings to this coiled Hist root. Forgotten Argonian glyphs cover its entire surface." #PLACEHOLDER       
+ artifact_shuxaltsei_staff_name:1 "Посох Шузалцей"
+ artifact_shuxaltsei_staff_description:0 "Тревожный холод исходит от этого куска кореня Хиста. Забытые аргонианские глифы покрывают всю его поверхность." #PLACEHOLDER       
 
- artifact_serpent_fang_name:1 "Fang of the Great Serpent"
- artifact_serpent_fang_description:0 "This ancient dagger was carved from stone in the shape of a serpent's tooth. It is deeply stained a ruddy red." #PLACEHOLDER       
+ artifact_serpent_fang_name:1 "Клык великого змея"
+ artifact_serpent_fang_description:0 "Этот древний кинжал в форме змеиного зуба был вырезан из камня. Имеет густой кроваво-красный цвет." #PLACEHOLDER       
  
- artifact_chalice_unquenchable_name:1 "Chalice of Unquenchable Thirst"
- artifact_chalice_unquenchable_description:0 "Used in ancient times to hold the blood of live sacrifices for ritual consumption. It shows signs of recent use." #PLACEHOLDER       
+ artifact_chalice_unquenchable_name:1 "Кубок неутолимой жажды"
+ artifact_chalice_unquenchable_description:0 "В древности использовался для сохранения крови жертв для ритуального употребления. На нем видны следы недавнего использования." #PLACEHOLDER       
 
- artifact_sinople_talon_name:1 "Sinople Talon"
- artifact_sinople_talon_description:0 "Rostam was a Yokeda born in the mountains of Yath who claimed to have been raised by a dragon named Sahmaargram. His signature weapon was a saber made of refined malachite he dubbed the "Sinople Talon", through which he dealt many a killing blow.\n\nHaving never attained mastery of the Shehai, this sword followed him throughout the whole of his career and was buried in his tomb although a similar weapon started to circulate in Yokeda circles soon after."
+ artifact_sinople_talon_name:1 "Зелёный коготь"
+ artifact_sinople_talon_description:0 "Ростам был Йокуданцем, родившимся в горах Ят, который утверждал, что был воспитан драконом по имени Сахмаарграм. Его фирменным оружием была сабля из очищенного малахита, которую он назвал «Зелёным когтем». \n\nСабля была похоронена в его могиле, хотя вскоре после его смерти, похожее оружие стали замечать в кругах Йокуданцев."
 
- artifact_harness_orun_name:1 "Harness of Orun"
- artifact_harness_orun_description:0 "A lesser Yokeda during the Age of Strife, Orun was made famous by his employ of many talented smiths for his retinue—including some Sword-Singers-. The masterwork of this school of armorers is the personal panoply of their patron, a finely wrought armor made from orichalc scale, each inscribed with a prayer to Diagna, HoonDing or Leki, all gods of war and battle.\n\nThe protection from the breastplate was so outrageous it was proofed against one strike from an Ansei! Alas, Orun died from poisoned wine one of his retainers poured, the escaped son of a long dead enemy."
+ artifact_harness_orun_name:1 "Доспех Оруна"
+ artifact_harness_orun_description:0 "Йокуданец Орун, в эру раздора, прославился тем, что нанял в свою свиту множество талантливых кузнецов, в том числе нескольких Певцов Меча. Шедевром этой школы оружейников является личный доспех их покровителя, искусно сделанный из орихалка, на каждом элементе которого выгравированы молитвы Диагне, ХунДингу и Леки, всем богам войны.\n\nНагрудник был настолько прочным, что выдержал один удар Ансея! Увы, Орун умер от отравленного вина, которое налил один из его слуг, выживший сын одно из многих убитых врагов."
 
- artifact_circlet_storms_name:1 "Circlet of Storms"
- artifact_circlet_storms_description:0 "Anointed by the Tavan Priesthood during the height of the Yokudan empire, this electrum crown is set with amber, rubies and sapphires dominated by a carved lapis icon of Tava.\n\nThe outside of the crown is decorated with orichalc inlays depicting the power of the Goddess of Winds, beckoning her followers to submit and blessing them in return for their devotion. Any ruler who wore this crown rarely suffered drought in his estates, further cementing the divine providence of this item."
+ artifact_circlet_storms_name:1 "Венец Бури"
+ artifact_circlet_storms_description:0 "Эта корона из электрума, благословленная жрецами Тавы, в период расцвета йокуданской империи. Украшена янтарем, рубинами и сапфирами, в которых выделяется резная икона Тавы из лазурита.\n\nСнаружи корона украшена вставками из орихалка, изображающими силу Богиня Ветров, призывающая своих последователей подчиниться и благословляющая их в обмен на их преданность. Любой правитель, носивший эту корону, редко страдал от засухи в своих поместьях, что еще больше укрепляло божественное провидение этого предмета."
+
+ artifact_auriels_bow_name:1 "Лук Ауриэля"
+ artifact_auriels_bow_description:0 "Артефакт эльфийского бога Ауриэля, покровителя Сиродила - Акатоша, Бога-Дракона Времени. Несмотря на то, что он выглядит как обычный эльфийский лук, это один из мощнейших артефактов, когда-либо существовавших в Тамриэле. Лук черпает свою силу из самого Этериуса и направляет её через солнце." # PLACEHOLDER  
+
+ artifact_crusader_shield_name:1 "Щит крестоносца"
+ artifact_crusader_shield_description:0 "Щит, созданный Джулианосом и подаренный Пелиналу Вайтстрейку, Святому Крестоносцу. По форме напоминающий Чим-эль Адабал, символ имперского пантеона. Щит позволяет своему владельцу отражать заклинания обратно в их заклинателей или полностью отклонять их." # PLACEHOLDER  
  
- animal_type_senche_cougar:0 "senche-cougar"
- artifact_hide_type_senche_cougar:0 "a senche-cougar"
- feature_animal_hide_type_senche_cougar:0 "a senche-cougar"
- artifact_wall_animal_skull_senche_cougar:0 "a lethal senche-cougar"
- feature_animal_skull_type_senche_cougar:0 "a lethal senche-cougar"
- animal_type_senche_lion:0 "senche-lion"
- artifact_hide_type_senche_lion:0 "a senche-lion"
- feature_animal_hide_type_senche_lion:0 "a senche-lion"
- artifact_wall_animal_skull_senche_lion:0 "a lethal senche-lion"
- feature_animal_skull_type_senche_lion:0 "a lethal senche-lion"
- animal_type_senche_leopard:0 "senche-leopard"
- artifact_hide_type_senche_leopard:0 "a senche-leopard"
- feature_animal_hide_type_senche_leopard:0 "a senche-leopard"
- artifact_wall_animal_skull_senche_leopard:0 "a lethal senche-leopard"
- feature_animal_skull_type_senche_leopard:0 "a lethal senche-leopard"
- animal_type_senche_panther:0 "senche-panther"
- artifact_hide_type_senche_panther:0 "a senche-panther"
- feature_animal_hide_type_senche_panther:0 "a senche-panther"
- artifact_wall_animal_skull_senche_panther:0 "a lethal senche-panther"
- feature_animal_skull_type_senche_panther:0 "a lethal senche-panther"
- animal_type_dire_wolf:0 "dire wolf"
- artifact_hide_type_dire_wolf:0 "a dire-wolf"
- feature_animal_hide_type_dire_wolf:0 "a dire-wolf" 
- artifact_wall_animal_skull_dire_wolf:0 "a keen-toothed dire wolf"
- feature_animal_skull_type_dire_wolf:0 "a keen-toothed dire wolf"
- animal_type_tusked_bristleback:0 "tusked bristleback"
- artifact_hide_type_tusked_bristleback:0 "a tusked bristleback"
- feature_animal_hide_type_tusked_bristleback:0 "a tusked bristleback"
- artifact_wall_animal_skull_tusked_bristleback:0 "a bristleback with razor-sharp tusks"
- feature_animal_skull_type_tusked_bristleback:0 "a bristleback with razor-sharp tusks"
- animal_type_gryphon:0 "gryphon"
- artifact_hide_type_gryphon:0 "a gryphon"
- feature_animal_hide_type_gryphon:0 "a gryphon"
- animal_type_hart:0 "hart"
- artifact_hide_type_hart:0 "a hart"
- feature_animal_hide_type_hart:0 "a hart"
- artifact_wall_animal_skull_hart:0 "a graceful hart"
- feature_animal_skull_type_hart:0 "a graceful hart"
- animal_type_rabbit:0 "rabbit"
- artifact_hide_type_rabbit:0 "a rabbit"
- feature_animal_hide_type_rabbit:0 "a rabbit"
- artifact_wall_animal_skull_rabbit:0 "a graceful rabbit"
- feature_animal_skull_type_rabbit:0 "a graceful rabbit"
- animal_type_mammoth:0 "mammoth"
- artifact_hide_type_mammoth:0 "a mammoth"
- feature_animal_hide_type_mammoth:0 "a mammoth"
- artifact_wall_animal_skull_mammoth:0 "a mammoth with razor-sharp tusks"
- feature_animal_skull_type_mammoth:0 "a mammoth with razor-sharp tusks"
- animal_type_horker:0 "horker"
- artifact_hide_type_horker:0 "a horker"
- feature_animal_hide_type_horker:0 "a horker"
- artifact_wall_animal_skull_horker:0 "a horker with razor-sharp tusks"
- feature_animal_skull_type_horker:0 "a horker with razor-sharp tusks"
- feature_animal_skull_type_hare:0 "a delicate hare"
+ animal_type_senche_cougar:0 "Сенч-пума"
+ artifact_hide_type_senche_cougar:0 "Сенч-пума"
+ feature_animal_hide_type_senche_cougar:0 "Сенч-пума"
+ artifact_wall_animal_skull_senche_cougar:0 "смертельная Сенч-пума"
+ feature_animal_skull_type_senche_cougar:0 "смертельная Сенч-пума"
+ animal_type_senche_lion:0 "Сенч-лев"
+ artifact_hide_type_senche_lion:0 "сенч-лев"
+ feature_animal_hide_type_senche_lion:0 "сенч-лев"
+ artifact_wall_animal_skull_senche_lion:0 "смертельный сенч-лев"
+ feature_animal_skull_type_senche_lion:0 "смертельный сенч-лев"
+ animal_type_senche_leopard:0 "сенч-леопард"
+ artifact_hide_type_senche_leopard:0 "сенч-леопард"
+ feature_animal_hide_type_senche_leopard:0 "сенч-леопард"
+ artifact_wall_animal_skull_senche_leopard:0 "смертельная сенч-леопард"
+ feature_animal_skull_type_senche_leopard:0 "смертельный сенч-леопард"
+ animal_type_senche_panther:0 "сенч-пантера"
+ artifact_hide_type_senche_panther:0 "сенч-пантера"
+ feature_animal_hide_type_senche_panther:0 "сенч-пантера"
+ artifact_wall_animal_skull_senche_panther:0 "смертельная сенч-пантера"
+ feature_animal_skull_type_senche_panther:0 "смертельная сенч-пантера"
+ animal_type_dire_wolf:0 "лютый волк"
+ artifact_hide_type_dire_wolf:0 "лютый волк"
+ feature_animal_hide_type_dire_wolf:0 "лютый волк" 
+ artifact_wall_animal_skull_dire_wolf:0 "лютый волк с острыми зубами"
+ feature_animal_skull_type_dire_wolf:0 "лютый волк с острыми зубами"
+ animal_type_tusked_bristleback:0 "клыкастый щетиноспин"
+ artifact_hide_type_tusked_bristleback:0 "клыкастый щетиноспин"
+ feature_animal_hide_type_tusked_bristleback:0 "клыкастый щетиноспин"
+ artifact_wall_animal_skull_tusked_bristleback:0 "щитиноспин с острыми бивнями"
+ feature_animal_skull_type_tusked_bristleback:0 "щитиноспин с острыми бивнями"
+ animal_type_gryphon:0 "грифон"
+ artifact_hide_type_gryphon:0 "грифон"
+ feature_animal_hide_type_gryphon:0 "грифон"
+ animal_type_hart:0 "олень"
+ artifact_hide_type_hart:0 "олень"
+ feature_animal_hide_type_hart:0 "олень"
+ artifact_wall_animal_skull_hart:0 "грациозный олень"
+ feature_animal_skull_type_hart:0 "грациозный олень"
+ animal_type_rabbit:0 "кролик"
+ artifact_hide_type_rabbit:0 "кролик"
+ feature_animal_hide_type_rabbit:0 "кролик"
+ artifact_wall_animal_skull_rabbit:0 "изящный кролик"
+ feature_animal_skull_type_rabbit:0 "изящный кролик"
+ animal_type_mammoth:0 "мамонт"
+ artifact_hide_type_mammoth:0 "мамонт"
+ feature_animal_hide_type_mammoth:0 "мамонт"
+ artifact_wall_animal_skull_mammoth:0 "мамонт с острыми бивнями"
+ feature_animal_skull_type_mammoth:0 "мамонт с острыми бивнями"
+ animal_type_horker:0 "хоркер"
+ artifact_hide_type_horker:0 "хоркер"
+ feature_animal_hide_type_horker:0 "хоркер"
+ artifact_wall_animal_skull_horker:0 "хоркер с острыми клыками"
+ feature_animal_skull_type_horker:0 "хоркер с острыми клыками"
+ feature_animal_skull_type_hare:0 "нежный кролик"
 
- decoration_material_inlay_HSB_mudcrabshell:0 "mudcrab shell"
- feature_decoration_material_inlay_HSB_mudcrabshell:0 "mudcrab shell"
+ decoration_material_inlay_HSB_mudcrabshell:0 "панцирь грязекраба"
+ feature_decoration_material_inlay_HSB_mudcrabshell:0 "панцирь грязекраба"
 
- metal_stalhrim:0 "stalhrim"
- metal_platinum:0 "platinum"
- metal_dwarven:0 "dwarven metal"
- metal_orichalcum:0 "orichalcum"
- metal_quicksilver:0 "quicksilver"
- metal_mithril:0 "mithril"
- metal_corundum:0 "corundum"
- metal_iron:0 "iron"
- metal_chitin:0 "chitin"
- metal_steel:0 "steel"
- metal_silver:0 "silver"
- metal_moonstone:0 "moonstone"
- metal_malachite:0 "malachite"
- metal_adamantium:0 "adamantium"
- metal_ebony:0 "ebony"
- metal_daedric:0 "daedric"
- metal_amber:0 "amber"
- metal_dragonbone:0 "dragonbone"
- metal_madness:0 "madness"
+ metal_stalhrim:0 "сталгрим"
+ metal_platinum:0 "платина"
+ metal_dwarven:0 "двемерский метал"
+ metal_orichalcum:0 "орихалк"
+ metal_quicksilver:0 "ртуть"
+ metal_mithril:0 "мифрил"
+ metal_corundum:0 "корунд"
+ metal_iron:0 "железо"
+ metal_chitin:0 "хитин"
+ metal_steel:0 "сталь"
+ metal_silver:0 "серебро"
+ metal_moonstone:0 "лунный камень"
+ metal_malachite:0 "малахит"
+ metal_adamantium:0 "адамантий"
+ metal_ebony:0 "эбонит"
+ metal_daedric:0 "даэдрит"
+ metal_amber:0 "янтарь"
+ metal_dragonbone:0 "драконья кость"
+ metal_madness:0 "руда безумия"
 
- gem_aetherquartz:0 "aetherquartz"
- gem_aetherquartz_plural:0 "aetherquartzes"
- gem_citrine:0 "citrine"
- gem_citrine_plural:0 "citrines"
- gem_lapis_lazuli:0 "lapis lazuli"
- gem_lapis_lazuli_plural:0 "lapis lazuli"
- gem_carnelian:0 "carnelian"
- gem_carnelian_plural:0 "carnelians"
- gem_aquamarine:0 "aquamarine"
- gem_aquamarine_plural:0 "aquamarines"
- gem_turquoise:0 "turquoise"
- gem_turquoise_plural:0 "turquoises"
- gem_bloodstone:0 "bloodstone"
- gem_bloodstone_plural:0 "bloodstones"
- gem_arentine:0 "arentine"
- gem_arentine_plural:0 "arentines"
- gem_aurbic_amber:0 "aurbic amber"
- gem_aurbic_amber_plural:0 "aurbic ambers"
- gem_soul:0 "soul gem"
- gem_soul_plural:0 "soul gems"
- gem_diamond:0 "diamond"
- gem_diamond_plural:0 "diamonds"
+ gem_aetherquartz:0 "эфирный кварц"
+ gem_aetherquartz_plural:0 "эфирные кварцы"
+ gem_citrine:0 "цитрин"
+ gem_citrine_plural:0 "цитрины"
+ gem_lapis_lazuli:0 "лазурит"
+ gem_lapis_lazuli_plural:0 "лазуриты"
+ gem_carnelian:0 "сердолик"
+ gem_carnelian_plural:0 "сердолики"
+ gem_aquamarine:0 "аквамарин"
+ gem_aquamarine_plural:0 "аквамарины"
+ gem_turquoise:0 "бирюза"
+ gem_turquoise_plural:0 "бирюзы"
+ gem_bloodstone:0 "гелиотроп"
+ gem_bloodstone_plural:0 "гелиотропы"
+ gem_arentine:0 "арентин"
+ gem_arentine_plural:0 "арентины"
+ gem_aurbic_amber:0 "аурбический янтарь"
+ gem_aurbic_amber_plural:0 "аурбические янтари"
+ gem_soul:0 "камень душ"
+ gem_soul_plural:0 "камни душ"
+ gem_diamond:0 "алмаз"
+ gem_diamond_plural:0 "алмазы"
 
  cloth_jute:0 "jute"
  cloth_spidersilk:0 "spidersilk"

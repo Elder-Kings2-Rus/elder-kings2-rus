@@ -1,6 +1,6 @@
 ﻿l_russian:
  ### Triggers
- county_opinion_must_be_positive:0 "[county_opinion|E] должно быть положительным ([autocracy|E] with #V [GetPlayer.Custom('GetCrownAuthority0')]#!)"
+ county_opinion_must_be_positive:0 "[county_opinion|E] должно быть положительным ([autocracy|E] с #V [GetPlayer.Custom('GetCrownAuthority0')]#!)"
  county_opinion_must_be_high_enough:0 "[county_opinion|E] должно быть выше #V -10#! ([autocracy|E] with #V [GetPlayer.Custom('GetCrownAuthority1')]#!)"
  county_must_have_temple_holding:0 "По крайней мере, одна провинция в пределах округа должна иметь [temple_holding|E]"
  
@@ -34,8 +34,8 @@
  bridges_leyawiin_01_enabled:0 "$building_type_bridges_leyawiin_01$ доступны. Их можно разрушить используя $destroy_bridges_leyawiin_decision$."
  bridges_leyawiin_01_disabled:0 "$building_type_bridges_leyawiin_01$ недоступны. Их можно починить используя $repair_bridges_leyawiin_decision$."
  
- building_type_port_hestra_01:0 "Порт Гестра"
- building_type_port_hestra_01_desc:0 "Построенный императрицей Хестрой перед ее противостаянием с пиратством в Чернотопье, порт Хестра в мирное время вмещает большую часть имперского флота. Способен демонстрировать власть на большую часть Тамриэля, это неотъемлемая часть усилий различных имперских администраций по обеспечению мира в стране.."
+ building_type_port_hestra_01:0 "Порт Гестры"
+ building_type_port_hestra_01_desc:0 "Построенный императрицей Гестрой перед ее противостаянием с пиратством в Чернотопье, порт Гестры в мирное время вмещает большую часть имперского флота. Способен демонстрировать власть на большую часть Тамриэля, это неотъемлемая часть усилий различных имперских администраций по обеспечению мира в стране.."
  building_port_hestra_01:0 "$building_type_port_hestra_01$"
  building_port_hestra_01_desc:0 "$building_type_port_hestra_01_desc$"
  
@@ -45,19 +45,19 @@
  building_arcane_university_01_desc:0 "$building_type_arcane_university_01_desc$"
  
  ### Alinor
- building_type_alinor_palace_01:0 "Royal Palace of Alinor"
- building_type_alinor_palace_01_desc:0 "The Palace of Alinor, the most flamboyant building on the blessed isles, if not in the world. The tallest spire casts a shadow on the city below like a sundial and houses its fabled throne room at the top -- encased in perfectly translucent crystal and cut to dissect the passing sunlight into a rainbow aureole. It is said that walking these halls is the closest a mortal can feel to the divine while still walking on Nirn."
+ building_type_alinor_palace_01:0 "Королевский дворец Алинора"
+ building_type_alinor_palace_01_desc:0 "Дворец Алинора, самое яркое строение на благословенных островах, если не во всём мире. Самый высокий шпиль отбрасывает тень на город ниже, словно солнечные часы, а на самом верху находится легендарный тронный зал, заключенный в совершенно прозрачный кристалл и ограненный так, чтобы рассекать проходящий солнечный свет в радужный ореол. Говорят, что проходя по залам, смертный может ближе всего ощутить себя к божеству, оставаясь при этом на Нирне."
  
  building_alinor_palace_01:0 "$building_type_alinor_palace_01$"
  building_alinor_palace_01_desc:0 "$building_type_alinor_palace_01_desc$"
  
- building_type_alinor_royal_capital_01:0 "Alinor Arboretum"
- building_type_alinor_royal_capital_01_desc:0 "The Alinor Arboretum is the crown jewel of the city and a living testament to the Aldmeri mastery over nature. Its sections spill and sprawl in fern-like patterns around the Royal Palace, each representing a slice of Summerset groomed to mathematical perfection. A small army of botanists holds vigil over the Arboretum at all times to maintain its tranquil stasis and countless otherwise-extinct specimens."
+ building_type_alinor_royal_capital_01:0 "Дендрарий Алинора"
+ building_type_alinor_royal_capital_01_desc:0 "Дендрарий Алинора - жемчужина города и живое свидетельство альдмерского мастерства над природой. Его участки раскинулись и разрослись в папоротникообразхных узорах вокруг Королевского дворца, каждый из которых представляет собой часть Саммерсета, ухоженный до математического совершенства. Небольшая армия ботаников бдит над Дендрарием, чтобы сохранить его спокойный стазис и бесчисленно вымершие виды."
  
  building_alinor_royal_capital_01:0 "$building_type_alinor_royal_capital_01$"
  building_alinor_royal_capital_01_desc:0 "$building_type_alinor_royal_capital_01_desc$"
  
- building_type_alinor_city_01:0 "City of Alinor"
+ building_type_alinor_city_01:0 "Город Алинор"
  building_type_alinor_city_01_desc:0 "Bustling but far from chaotic, the heart of Altmeri civilization inspires awe and respect in all those who behold its streets and spires. Here amidst the shadows cast by delicate glass-blown spires and past towering arches carved from ancient rock, all strata of Elven society go about their business, mingling rarely, each with their own purpose. Splendid in the light of color-scintilla broken through its aetherquartz windows, outsiders may be forgiven for thinking the city is built from insect wings and light."
  
  building_alinor_city_01:0 "$building_type_alinor_city_01$"
@@ -293,6 +293,16 @@
  building_type_fahlbtharz_01_desc:0 "Despite much discussion among the scholars, the ruins of the Dwemer city of Falbtharz leave no doubt that the dwarven ambition expanded to every place it could reach, no matter how remote."
  building_fahlbtharz_01:1 "$building_type_fahlbtharz_01$"
  building_fahlbtharz_01_desc:1 "$building_type_fahlbtharz_01_desc$"
+ 
+ building_type_garlas_agea_01:0 "Garlas Agea"
+ building_type_garlas_agea_01_desc:0 "In the early First Era, Garlas Agea was home to the most prominent Sorcerer-King on the Gold Coast, and the de facto “capitol” of the Ayleids in the area. It served as a sort of Arcane High Palace, until Garlas Malatar began to eclipse the influence of Garlas Agea. This early demise might be what saved the structure from being destroyed following the Alessian Slave Rebellion in the early 1E 240s.\nHowever to this day its exact arcane functions remain a mystery, making it a prime destination of regional scholars and noble tourists alike."
+ building_garlas_agea_01:1 "$building_type_garlas_agea_01$"
+ building_garlas_agea_01_desc:1 "$building_type_garlas_agea_01_desc$"
+
+ building_type_cloudruler_temple_01:0 "Cloudruler Temple"
+ building_type_cloudruler_temple_01_desc:0 "Cloud Ruler Temple lords over the Jerall Mountains like a stone dragon perched upon its roost. In this resolute Tsaesci complex, more fortress than temple, the Dragonguard prepare themselves for the hunt, train new blood, preserve ancient Akaviri texts, and pursue all other duties to the Emperor that were once entrusted to them. Even now, secure within its walls even as the Interregnum rages outside, the Dragonguard await a new Dragonborn Emperor to which they may pledge allegiance."
+ building_cloudruler_temple_01:1 "$building_type_cloudruler_temple_01$"
+ building_cloudruler_temple_01_desc:1 "$building_type_cloudruler_temple_01_desc$"
  
  building_type_white_gold_tower_01:0 "White-Gold Tower"
  building_type_white_gold_tower_01_desc:0 "Standing in the center of the Imperial City, White-Gold was built ages ago by the Ayleids, in reverence of the Adamantine Tower. Some say the very powers of the world course through here, and the shape of the Tower allows it to radiate throughout the entire province of Cyrodiil..."

@@ -1,35 +1,35 @@
 ﻿l_russian:
- health.1002.court_physician.desc:0 "\n\n"It is the Chills, my [ROOT.Char.GetLadyLord]. Not to be taken lightly. How shall we proceed?""
+ health.1002.court_physician.desc:0 "\n\n"Это Озноб, мой [ROOT.Char.GetLadyLord]. Не стоит относиться к этому легкомысленно. Как нам действовать?""
 
- health.1003.court_physician.desc:0 "\n\n"You have my sympathies, my [ROOT.Char.GetLadyLord]. I have a few ideas which might lessen the symptoms of your rockjoint.""
+ health.1003.court_physician.desc:0 "\n\n"Я сочувствую вам, мой [ROOT.Char.GetLadyLord]. У меня есть несколько идей, которые могут уменьшить симптомы вашего рокджойнта.""
 
- health.1005.court_physician.desc:0 "\n\n"Do not worry, my [ROOT.Char.GetLadyLord]! The Yellow Fever is treatable, I assure you.""
+ health.1005.court_physician.desc:0 "\n\n"Не волнуйтесь, мой [ROOT.Char.GetLadyLord]! Желтая лихорадка излечима, уверяю вас.""
 
- health.1006.court_physician.desc:0 "\n\n"I am afraid you have contracted wither, my [ROOT.Char.GetLadyLord]. I will treat you immediately.""
+ health.1006.court_physician.desc:0 "\n\n"Боюсь, вы заразились увяданием, мой [ROOT.Char.GetLadyLord]. Я буду лечить тебя немедленно.""
 
- health.1010.court_physician.desc:0 "\n\n"Indeed, these lesions are a sure sign of the Blight. Very dangerous if left untreated.""
+ health.1010.court_physician.desc:0 "\n\n"Действительно, эти повреждения являются верным признаком скверны. Очень опасно, если не лечить.""
  
- health.1007.court_physician.desc:0 "\n\n"Yes, unfortunately, it is Rot. I only know of one efficient treatment...""
+ health.1007.court_physician.desc:0 "\n\n"Да, к сожалению, это гниль. Я знаю только один эффективный способ лечения...""
 
- health.2101.smallpox_outbreak.desc:0 "The curse of death has fallen upon my court — a case of the Blight has been discovered!"
- health.2101.smallpox_spreads.desc:0 "Yet another soul has been cursed with the Blight."
- health.2101.bubonic_plague_outbreak.desc:2 "[ROOT.Char.GetFaith.DeathDeityName|U] has raised [ROOT.Char.GetFaith.DeathDeityHerHis] scythe over my realm — a case of the dreaded Knahaten Flu has been discovered!"
- health.2101.bubonic_plague_spreads.desc:0 "Yet another soul stands at Death's door, the dreaded dried blood marring [sick_character.GetHerHis] nostrils."
- health.2101.imporant.desc:0 "My poor [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sick_character')) ] [sick_character.GetFirstName] is fighting for [sick_character.GetHerHis] life."
+ health.2101.smallpox_outbreak.desc:0 "Проклятие смерти обрушилось на мой двор - обнаружен случай заболевания Скверной!"
+ health.2101.smallpox_spreads.desc:0 "Еще одна душа была проклята Скверной."
+ health.2101.bubonic_plague_outbreak.desc:2 "[ROOT.Char.GetFaith.DeathDeityName|U] поднял [ROOT.Char.GetFaith.DeathDeityHerHis] косу над моим королевством - обнаружен случай страшного Кнахатенского гриппа!"
+ health.2101.bubonic_plague_spreads.desc:0 "Еще одна душа стоит у дверей смерти, ужасная засохшая кровь покрывает ноздри [sick_character.GetHerHis]."
+ health.2101.imporant.desc:0 "Мой бедный [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sick_character')] [sick_character.GetFirstName] борется за жизнь [sick_character.GetHerHis]."
  
- disease_smallpox:0 "the Blight."
- disease_bubonic_plague:0 "Knahaten Flu."
- disease_typhus:0 "the Yellow Fever."
- disease_pneumonic:0 "Chills."
- disease_gout_ridden:0 "Rockjoint."
- disease_consumption:0 "Wither."
- disease_cancer:0 "Rot."
- disease_lovers_pox:0 "Ticklebritch."
+ disease_smallpox:0 "Скверна."
+ disease_bubonic_plague:0 "Кнахатенский грипп."
+ disease_typhus:0 "Желтая лихорадка."
+ disease_pneumonic:0 "Озноб."
+ disease_gout_ridden:0 "Рокджойнт."
+ disease_consumption:0 "Увядание."
+ disease_cancer:0 "Гниль."
+ disease_lovers_pox:0 "Щекотун."
 
- health.2201.b:0 "Send for [ek_new_physician.GetFirstNameNoTooltip], now!" # (EK) why is that not active?
+ health.2201.b:0 "Отправьте за [ek_new_physician.GetFirstNameNoTooltip], немедленно!" # (EK) why is that not active?
 
 
- health.2102.smallpox.desc:0 "the Blight"
- health.2102.bubonic_plague.desc:0 "Knahaten Flu"
+ health.2102.smallpox.desc:0 "Скверна"
+ health.2102.bubonic_plague.desc:0 "Кнахатенский грипп"
 
- health.1005.t:1 "[SCOPE.Custom('EventTitleDisease')]: Enfeeblement"
+ health.1005.t:1 "[SCOPE.Custom('EventTitleDisease')]: Ослабление"
