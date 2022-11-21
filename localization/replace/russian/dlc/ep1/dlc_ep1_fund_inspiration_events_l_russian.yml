@@ -2,47 +2,47 @@
 
 # Adventurer hasn't actually gone on the adventure!
 
-fund_inspiration.6400.desc:0 "On a visit to the tavern in [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], I spy one of the patrons at the heart of all attention.\n\n[inspiration_owner.GetSheHe|U] is more grizzled than the rest of the patrons, and smells as if [inspiration_owner.GetSheHe] has been there for an age. To my horror, I recognize my adventurer, [inspiration_owner.GetTitledFirstName], who appears not to have made it out of the homeland after months of funding!\n\n"And for my next journey, I shall cross the Sea of Ghosts in a single gulp!" [inspiration_owner.GetSheHe] promptly scoffs an entire glass of red wine and cheering rings through the drinking-hall."
+fund_inspiration.6400.desc:0 "Во время своего визита в таверну в городе [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], я шпионю за одним из господ в центре общественного внимания.\n\n[inspiration_owner.GetSheHe|U] имеет больше седых волос, чем остальные посетители, и пахнет так, как будто [inspiration_owner.GetSheHe] находится здесь целую вечность. К моему ужасу, я узнаю своего путешественника, [inspiration_owner.GetTitledFirstName], и похоже что [inspiration_owner.GetHerHim] так и не удалось отправиться в путь после нескольких месяцев финансирования!\n\n"А в моем следующем путешествии я пересеку Море Призраков за один раз!" [inspiration_owner.GetSheHe] тут же проглатывает целый бокал красного вина под аплодисменты всего питейного зала."
 
 ## Postcards from your Adventurer by Isabella Welch
 
 #Cyrodiil
 
- fund_inspiration.6001.t:0 "Cyrodiil and saddle gallop through my heart,"
- fund_inspiration.6001.desc:0 "I have been riding for months on end. My rear shall never recover! I've acquired quite the taste for Imperial Stout and nights beneath the open sky.\n\nWith this courier, I send a Varla Stone — a stone created by the Ayleids, supposed to be made from something out of Aetherius. Perhaps you have a use for it."
- fund_inspiration.6001.a:0 "I'll hold onto this!"
- fund_inspiration.6001.b:0 "Send it to the Court Mage."
+ fund_inspiration.6001.t:0 "С мыслями о Сиродиле в сердце,"
+ fund_inspiration.6001.desc:0 "я скачу уже несколько месяцев подряд. Мой зад никогда не оправится от этого! Я пристрастился к имперскому стауту и ​​ночам под открытым небом.\n\nС этим курьером я отправляю камень варла — камень, созданный айлейдами, предположительно сделанный из чего-то, родом из Этериуса. Возможно, он пригодится."
+ fund_inspiration.6001.a:0 "Я придержу его!"
+ fund_inspiration.6001.b:0 "Отправьте его придворному магу."
 
 #Skyrim
 
- fund_inspiration.6002.t:0 "My jaunt through Skyrim marches on!"
- fund_inspiration.6002.desc:0 "I am near-blinded by all the snow in the wilderness. I find myself yearning for the warmth of a hearth.\n\nI have sent a courier with . Have you ever seen something so garish?"
- fund_inspiration.6002.a:0 "I rather like it, it's his loss."
- fund_inspiration.6002.b:0 "Ghastly! Take it apart and sell the gems."
+ fund_inspiration.6002.t:0 "Моя прогулка по Скайриму продолжается!"
+ fund_inspiration.6002.desc:0 "Я почти ослеп от снега в пустыне. Я тоскую по теплу домашнего очага.\n\nЯ послал курьера с. Вы когда-нибудь видели чем-то настолько кричащее?"
+ fund_inspiration.6002.a:0 "Мне бы это понравилось, это его потеря."
+ fund_inspiration.6002.b:0 "Ужасно! Разберите его и продайте драгоценные камни."
 
- fund_inspiration.6503.t:0 "$fund_inspiration.title$ Nordic Whispers"
- fund_inspiration.6503.desc:0 "\n\n'I have delved into a Barrow, an ancient burial mound from the age of the Dragon Cult. Hundreds of long-perished warriors, stuffed, preserved, and staked to the walls to stand upright, each with their own room. It was a palace for the damned, lost to time.\n\n'Knowing of my duty to seek knowledge for our realm, I considered stealing a relic from the tomb when my guide was not watching to bring to you."
- fund_inspiration.6503.a:0 "You pocketed one of the ornaments."
- fund_inspiration.6503.b:0 "You brought one of the warriors' swords, for our hall."
+ fund_inspiration.6503.t:0 "$fund_inspiration.title$ Нордский шепот"
+ fund_inspiration.6503.desc:0 "\n\n'Я проник в древний курган времен Культа Дракона. Сотни давно погибших воинов, набитые, забальзамированные и прибитые к стенам, чтобы стоять прямо, и на каждого есть своя комната. Это был дворец для проклятых, затерянный во времени.\n\n'Зная о своем долге искать знания для наших земель, я решил украсть реликвию из гробницы,, когда проводник не наблюдал за мной, чтобы принести ее вам"
+ fund_inspiration.6503.a:0 "Вы прикарманили одно из украшений."
+ fund_inspiration.6503.b:0 "Вы принесли один из воинских мечей для нашего зала."
 
 #Morrowind
 
-fund_inspiration.6003.t:0 "I dream of the ashlands,"
-fund_inspiration.6003.desc:0 "My liege, my journey to Morrowind is underway, and I have hired a silt strider to traverse the width of the land.\n\nI send to you a piece of these lands one of my fellow travelers granted me — a most dreadful golden mask shaped as the face of the late Indoril Nerevar."
-fund_inspiration.6003.a:0 "A fine find! I will display it proudly."
-fund_inspiration.6003.b:1 "I shall give it to [event_knight.GetTitledFirstNameNoTooltip]."
+fund_inspiration.6003.t:0 "Я мечтаю о пепельных землях,"
+fund_inspiration.6003.desc:0 "Мой господин, мое путешествие в Морровинд уже началось, и я нанял илового бродягу, чтобы пересечь все эти земли вдоль.\n\nЯ посылаю вам кусочек этих земель, подаренный мне одним из моих попутчиков — самый ужасный золотая маска в форме лица покойного Индорила Неревара."
+fund_inspiration.6003.a:0 "Прекрасная находка! Я приму это с гордостью."
+fund_inspiration.6003.b:1 "Я отдам его [event_knight.GetTitledFirstNameNoTooltip]."
 
 #Black Marsh
-fund_inspiration.6005.desc:0 "My Lord, I have found a few trite relics so far in my adventures, which I have sent with this courier, but I am unsure what I may uncover next.\n\nThe Argonians are the smelliest creatures I have encountered. As a child, I dreamt of the ruins and exciting adventures, but I am convinced half of this world is made of mud. If you are a gracious liege, please send word to call me back."
+fund_inspiration.6005.desc:0 "Мой Лорд, пока что я нашел лишь несколько простых реликвий в своих приключениях, которые я отправил с этим курьером, но я не уверен, что смогу обнаружить больше.\n\nАргониане - самые вонючие существа, которых я встречал. В детстве я мечтал о руинах и захватывающих приключениях, но я убежден, что половина их мира состоит из грязи. Если вы милостивый сюзерен, пожалуйста, пришлите распоряжение, чтобы отозвать меня.."
 
 # Hammerfell
 
-fund_inspiration.6006.t:0 "Greetings from [inspiration_owner.GetLocation.GetName],"
-fund_inspiration.6006.desc:0 "My travels throughout Hammerfell have left me with quite a taste for lamb kabobs, chili cheese corn and garlic greens, and I have sent some recipes along with this courier.\n\nI have been given a exquisite shield adorned with spikes by one of my hosts, which I also send to you. I'm certain my travels will bring further wonders in due time."
-fund_inspiration.6006.a:0 "Order our chefs to prepare these dishes at once!"
-fund_inspiration.6006.b:0 "[inspiration_owner.GetSheHe|U] seems to be having too much fun on this quest..."
+fund_inspiration.6006.t:0 "Приветствия из поселения [inspiration_owner.GetLocation.GetName],"
+fund_inspiration.6006.desc:0 "Путешествуя по Хаммерфеллу, я пристрастился к кебабам из баранины, кукурузе с сыром чили и зеленому чесноку, и вместе с этим курьером я отправил Вам несколько рецептов.\n\n Один из хозяев подарил мне изящный щит, украшенный шипами, который я также посылаю Вам. Я уверен, что мои путешествия принесут новые диковинки в свое время."
+fund_inspiration.6006.a:0 "Закажите нашим поварам приготовить эти блюда сразу!"
+fund_inspiration.6006.b:0 "[inspiration_owner.GetSheHe|U], похоже, слишком весело проводит время на этом задании..."
 
 # High Rock
 
-fund_inspiration.6004.t:0 "Ah, to be a merchant,"
-fund_inspiration.6004.desc:0 "My journey through High Rock has mostly involved being lost in the endless markets bringing things from all over Tamriel and beyond to the Iliac Bay.\n\nPerusing the wares of one of the merchants, I came across this interesting find. An Antique Map, drawn by an ancient cartographer countless decades ago. I hope you find it as amusing as I did."
+fund_inspiration.6004.t:0 "Ах, быть купцом,"
+fund_inspiration.6004.desc:0 "Мое путешествие по Хай Року в основном заключалось в том, что я блуждал по бесконечным рынкам, доставлявшим товары со всего Тамриэля и за его пределы в залив Илиак.\n\nПросматривая товары одного из торговцев, я наткнулся на эту интересную находку. Старинная карта, нарисованная древним картографом бессчетное количество десятилетий назад. Надеюсь, вы найдете ее такой же интересной, как и я."
