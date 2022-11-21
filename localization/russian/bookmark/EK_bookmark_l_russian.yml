@@ -254,5 +254,5 @@
  BOOKMARK_SELECT_BOOKMARK:0 "Выберите стартовую дату и персонажа"
  BOOKMARK_DYNASTY_TOOLTIP:0 "#T [dynasty|E] [BookmarkCharacter.GetDynastyTemplate.GetName]#!\n#weak [BookmarkCharacter.GetDynastyTemplate.GetMotto]#!"
  BOOKMARK_RELATED_CHARACTER:0 "[BookmarkCharacterGUI.GetCharacter.GetName] #weak [BookmarkCharacterGUI.GetCharacter.GetRelation]#!"
- BOOKMARK_IRONMAN_ENABLED:0 "Железная Воля (#positive_value;italic Enabled#!)"
- BOOKMARK_IRONMAN_DISABLED:0 "Железная Воля (#negative_value;italic Disabled#!)"
+ BOOKMARK_IRONMAN_ENABLED:0 "Железная Воля (#positive_value;italic Включено#!)"
+ BOOKMARK_IRONMAN_DISABLED:0 "Железная Воля (#negative_value;italic Отключено#!)"
