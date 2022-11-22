@@ -1,11 +1,11 @@
 ﻿l_russian:
- ek_fullerton_events.9999.t:1 "A Curious Wyress"
- ek_fullerton_events.9999.desc:1 "A stranger approaches me outside [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]. [wyress.GetFirstName] is a Wyrd Sister, a follower of the religious customs of our Breton ancestors. [wyress.GetSheHe|U] comes to me with a curious offer: [wyress.GetSheHe] will join my court and advise me, if I consider conversion to the [wyress.GetFaith.GetName].\n\n[wyress.GetSheHe|U] assures me that [wyress.GetSheHe] does not expect me to join one of the exclusively female [wyress.GetFaith.GetAdjectiveNoTooltip] covens. All I would need do is live by the principles of the Wyrdic faiths — with respect and regard for nature in all that I do. In return, [wyress.GetSheHe] will stay at my court to provide counsel and advice from the wisdom of the wyresses."
- ek_fullerton_events.9999.a:1 "I don't need counsel from tree-worshippers."
- ek_fullerton_events.9999.b:1 "I will accept [wyress.GetFirstName]'s counsel — but not [wyress.GetHerHis] preaching."
- ek_fullerton_events.9999.c:1 "I will hear all of [wyress.GetFirstName]'s advice."
- ek_fullerton_events.9999.c.tt_failure:1 "The Wyress's preaching may be persuasive…"
- ek_fullerton_events.9999.c.tt_success:1 "You may separate Wyress wisdom from Wyrd words…"
+ ek_fullerton_events.9999.t:1 "Любопытная вещунья"
+ ek_fullerton_events.9999.desc:1 "Незнакомка подходит ко мне, пока я нахожусь за пределами [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]. [wyress.GetFirstName] - сестра Ковена, последовательница религиозных обычаев наших бретонских предков. [wyress.GetSheHe|U] пришла ко мне с любопытным предложением: [wyress.GetSheHe] присоединится к моему двору и будет давать мне советы, если я подумаю о переходе в [wyress.GetFaith.GetName]\n\n\n[wyress.GetSheHe|U] уверяет меня, что [wyress.GetSheHe] не ожидает, что я присоединюсь к одному из исключительно женских [wyress.GetFaith.GetAdjectiveNoTooltip] ковенов. Все, что мне нужно, это жить по принципам вирдских верований - с уважением и бережным отношением к природе во всем, что я делаю. Взамен [wyress.GetSheHe] останется при моем дворе, чтобы давать советы и рекомендации из мудрости ковена."
+ ek_fullerton_events.9999.a:1 "Мне не нужны советы от поклонников деревьев."
+ ek_fullerton_events.9999.b:1 "Я послушаю советы [wyress.GetFirstName], но не приму [wyress.GetHerHis] проповедь."
+ ek_fullerton_events.9999.c:1 "Я выслушаю все советы [wyress.GetFirstName]."
+ ek_fullerton_events.9999.c.tt_failure:1 "Проповедь вещуньи может быть убедительной…"
+ ek_fullerton_events.9999.c.tt_success:1 "Вы можете отделить мудрость вещуньи от слов Ковена…"
 
 
-wyresss_counsel_modifier:1 "Wyress's Counsel"
+wyresss_counsel_modifier:1 "Вещунья-советница"
