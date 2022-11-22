@@ -1,0 +1,3 @@
+﻿l_russian:
+ pay_homage.0101.desc.language:3 "Хотя [homage_vassal.GetTitleAsNameNoTooltip|l] несомненно [Select_CString(homage_vassal.IsFemale, 'училась', 'учился' )] произносить клятвы на языке народа, известного как [homage_liege.GetCulture.GetNameNoTooltip|l], [homage_vassal.GetSheHe] ошибается в нескольких местах, подменяя их смысл и вызывая сдавленные смешки у моих придворных."
+ crown:0 "Венценосцы"
