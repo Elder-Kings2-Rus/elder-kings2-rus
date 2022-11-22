@@ -2,7 +2,7 @@
  ##############
  #   PARROT   #
  ##############
- parrot_story_modifier:0 "Pet Parrot"
+ parrot_story_modifier:0 "Питомец Попугай"
  parrot_story_modifier_desc:0 "Этот персонаж наслаждается обществом экзотической птицы, которая летает вокруг них, куда бы они ни пошли"
  parrot_story_eating_fruit_modifier:0 "Свежие фрукты и попугай"
  parrot_story_eating_fruit_modifier_desc:0 "Этот персонаж с удовольствием делится свежими фруктами со своим попугаем"
@@ -47,8 +47,8 @@
  # Your parrot attacked a vassal! Wound or possibly an eye removal
  ek_pet_animal.0103.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: Пристальный взгляд"
  ek_pet_animal.0103.desc_wounded:0 "Ужас в тронном зале! Пока [vassal.GetName] ожидал аудиенции с вами, [ROOT.Char.Custom('ParrotStoryName')], казалось бы, из ниоткуда, решил напасть на [vassal.GetHerHim]!\n\n[vassal.GetFirstName] успел убежать из комнаты, но не раньше, чем ваш попугай сильно покалечил [vassal.GetHerHim]..."
- ek_pet_animal.0103.desc_eye_removed_not_one_eyed:0 "Ужас в тронном зале! Пока [вассал.GetName] ожидал аудиенции с вами, [ROOT.Char.Custom('ParrotStoryName')], казалось бы из ниоткуда, решил напасть на [вассала.GetHerHim]!\n\nВскоре раздался сильный крик, и после того, как [ROOT.Char. Custom('ParrotStoryName')] был помещен обратно в [ROOT.Char.Custom('ParrotStoryHerHis')] клетку. Смотря на [vassal.GetFirstName] можно было увидеть, как он держит руку [vassal.GetHerHis] возле одного из глаз [vassal.GetHerHis]... из которого капала кровь."
- ek_pet_animal.0103.desc_eye_removed_one_eyed:0 "Ужас в тронном зале! Пока [вассал.GetName] ожидал аудиенции с вами, [ROOT.Char.Custom('ParrotStoryName')], казалось бы из ниоткуда, решил напасть на [вассала.GetHerHim]!\n\nВскоре раздался сильный крик, и после того, как [ROOT.Char. Custom('ParrotStoryName')] был помещен обратно в [ROOT.Char.Custom('ParrotStoryHerHis')] клетку. Смотря на [vassal.GetFirstName] можно было увидеть, как он держит руку [vassal.GetHerHis] возле одного из глаз [vassal.GetHerHis]... из которого капала кровь.\n\n'Я НЕ ВИЖУ!!!' был слышего [vassal.GetSheHe] пронзительный крик. 'ЭТО ТВОЯ ВИНА! ЭТО ВСЕ ТВОЯ ИДИОТСКАЯ ПТИЦА!'"
+ ek_pet_animal.0103.desc_eye_removed_not_one_eyed:0 "Ужас в тронном зале! Пока [vassal.GetName] ожидал аудиенции с вами, [ROOT.Char.Custom('ParrotStoryName')], казалось бы из ниоткуда, решил напасть на [vassal.GetHerHim]!\n\nВскоре раздался сильный крик, и после того, как [ROOT.Char. Custom('ParrotStoryName')] был помещен обратно в [ROOT.Char.Custom('ParrotStoryHerHis')] клетку. Смотря на [vassal.GetFirstName] можно было увидеть, как он держит руку [vassal.GetHerHis] возле одного из глаз [vassal.GetHerHis]... из которого капала кровь."
+ ek_pet_animal.0103.desc_eye_removed_one_eyed:0 "Ужас в тронном зале! Пока [vassal.GetName] ожидал аудиенции с вами, [ROOT.Char.Custom('ParrotStoryName')], казалось бы из ниоткуда, решил напасть на [vassal.GetHerHim]!\n\nВскоре раздался сильный крик, и после того, как [ROOT.Char. Custom('ParrotStoryName')] был помещен обратно в [ROOT.Char.Custom('ParrotStoryHerHis')] клетку. Смотря на [vassal.GetFirstName] можно было увидеть, как он держит руку [vassal.GetHerHis] возле одного из глаз [vassal.GetHerHis]... из которого капала кровь.\n\n'Я НЕ ВИЖУ!!!' был слышего [vassal.GetSheHe] пронзительный крик. 'ЭТО ТВОЯ ВИНА! ЭТО ВСЕ ТВОЯ ИДИОТСКАЯ ПТИЦА!'"
  ek_pet_animal.0103.a:0 "Я надеюсь что с [vassal.GetFirstName] все будет хорошо..."
  ek_pet_animal.0103.b:0 "О нет..."
  
