@@ -74,7 +74,7 @@
 ##  STAGE 1  ##
 
  grand_ritual.1110.t:0 "Кладезь знаний"
- grand_ritual.1110.desc:0 "Книги и свитки содержат множество записей...\n\ бла-бла.. персонаж известен долгой жизнью...\n\nбла-бла.. приобрести их записи." #aquire immortal's notes, altmer analysis of phynaster walking thing
+ grand_ritual.1110.desc:0 "Книги и свитки содержат множество записей...\n бла-бла.. персонаж известен долгой жизнью...\n\nбла-бла.. приобрести их записи." #aquire immortal's notes, altmer analysis of phynaster walking thing
  grand_ritual.1110.a:0 "Библиотека - проверка, основанная на учености, стоимость в стрессе."
  grand_ritual.1110.b:0 "Торговец/коллекционер - проверка, основанная на управлении, стоимость в золоте."
  grand_ritual.1110.c:0 "Найти другой способ (отказаться)."
@@ -91,7 +91,7 @@
  grand_ritual.1120.t:0 "Письмо в прошлое" #someone find a better word than antediluvian
  grand_ritual.1120.desc:0 "-Character- is known to have an extended their life.\nTry getting their secrets" #find someone who has extended life ritual complete, or create a 'hermit'. 1 preferable. can check if have story still when that part is done
  grand_ritual.1120.a:0 "Лесть/Убеждение - дипломатическая проверка" #largely same for ruler/hermit
- grand_ritual.1120.b:0 "Угроза - проверка на основе ужаса #hermit might just disappear, blackmail if you have hook?
+ grand_ritual.1120.b:0 "Угроза - проверка на основе ужаса" #hermit might just disappear, blackmail if you have hook?
  grand_ritual.1120.c:0 "Кража - проверка на основе интриги" #can be imprisoned if caught stealing
  grand_ritual.1120.d:0 "Найти другой способ (отказаться)"
  
