@@ -23,3 +23,8 @@
  action_can_hire_court_mage_label:0 "Вы можете нанять Придворного Мага"
  action_can_hire_court_mage_desc:0 "У вас нет Придворного Мага в качестве [court_position|E], вы должны нанять его."
  action_can_hire_court_mage_click:0 "#I Щёлкните, чтобы посмотреть#!"
+
+ action_lifestyle_magic:0 "$action_can_spend_perk_point$"
+ action_lifestyle_magic_label:0 "$action_can_spend_perk_point_label$"
+ action_lifestyle_magic_desc:0 "$action_can_spend_perk_point_desc$"
+ action_lifestyle_magic_click:0 "$action_can_spend_perk_point_click$"
