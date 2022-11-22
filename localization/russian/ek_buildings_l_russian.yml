@@ -1,6 +1,6 @@
 ﻿l_russian:
  ### Triggers
- county_opinion_must_be_positive:0 "[county_opinion|E] должно быть положительным ([autocracy|E] with #V [GetPlayer.Custom('GetCrownAuthority0')]#!)"
+ county_opinion_must_be_positive:0 "[county_opinion|E] должно быть положительным ([autocracy|E] с #V [GetPlayer.Custom('GetCrownAuthority0')]#!)"
  county_opinion_must_be_high_enough:0 "[county_opinion|E] должно быть выше #V -10#! ([autocracy|E] with #V [GetPlayer.Custom('GetCrownAuthority1')]#!)"
  county_must_have_temple_holding:0 "По крайней мере, одна провинция в пределах округа должна иметь [temple_holding|E]"
  
@@ -11,12 +11,12 @@
  building_imperial_city_01_desc:0 "$building_type_imperial_city_01_desc$"
  
  building_type_temple_of_the_one_01:0 "Храм единого"
- building_type_temple_of_the_one_01_desc:0 "Самый большой храм в Сиродиле, Храм Единого, был посвящен божеству, которому поклонялся Алессианский орден. EДаже после падения династии Алессиан храм использовался в качестве места поклонения династией Реман.\n\nДраконьи огни можно увидеть в центре Храма, и ритуал их зажигания при коронации нового императора может быть сокращен во времена кризиса, если зажечь костры в Храме, а не в соборе Драконьего огня."
+ building_type_temple_of_the_one_01_desc:0 "Самый большой храм в Сиродиле, Храм Единого, был посвящен божеству, которому поклонялся Алессианский орден. Даже после падения Алессианской линии, храм использовался в качестве места поклонения династией Ремана.\n\nДраконьи огни можно увидеть в центре Храма, и ритуал их зажигания при коронации нового императора может быть сокращен в кризисные времена, если зажигать костры в храме, а не в соборе Драконьего огня."
  building_temple_of_the_one_01:0 "$building_type_temple_of_the_one_01$"
  building_temple_of_the_one_01_desc:0 "$building_type_temple_of_the_one_01_desc$"
  
  building_type_imperial_city_arena_01:0 "Арена Имперского города"
- building_type_imperial_city_arena_01_desc:0 "Также названная "Кровавой жемчужиной Имперского города", Имперская арена была построена Гайденом Синдзи в конце первого тысячелетия Первой эры. Здесь жители Имперского острова могут насладиться тем, как воины со всего Тамриэля сражаются насмерть, для удовлетворения местного населения, а также получить неплохие деньги для удачливых и смелых игроков."
+ building_type_imperial_city_arena_01_desc:0 "Также названная "Кровавой жемчужиной Имперского города", Имперская арена была построена Гайденом Синдзи в конце первого тысячелетия Первой эры. Здесь жители Имперского острова могут насладиться тем, как воины со всего Тамриэля сражаются насмерть к величайшему удовольствию местного населения, а также заработать неплохие деньги для удачливых и смелых игроков."
  building_imperial_city_arena_01:0 "$building_type_imperial_city_arena_01$"
  building_imperial_city_arena_01_desc:0 "$building_type_imperial_city_arena_01_desc$"
  
@@ -25,56 +25,56 @@
  building_the_bastion_01:0 "$building_type_the_bastion_01$"
  building_the_bastion_01_desc:0 "$building_type_the_bastion_01_desc$"
  building_the_bastion_02:0 "$building_type_the_bastion_01$"
- building_the_bastion_02_desc:0 "Недавно отремонтированный штаб Имперского легиона был размещен рядом с Бастионом, и каждый день можно увидеть сотни добровольцев, вступающих в Имперский легион. Они служат силой умиротворения в мирное время, борясь с нашествиями и бандитами, также они усиливают армию Имперского острова во время войны."
+ building_the_bastion_02_desc:0 "Недавно отремонтированный штаб Имперского легиона был размещен рядом с Бастионом, и каждый день можно увидеть сотни добровольцев, вступающих в Имперский легион. В мирное время они служат в качестве умиротворяющей силы, борясь с нашествиями и бандитами, а во время войны они усиливают армию Имперского острова."
  
  building_type_imperial_city_harbor_01:0 "Гавань Имперского города"
- building_type_imperial_city_harbor_01_desc:0 "Крупнейший торговый порт Тамриэля, гавань Имперского города, является домом для бесчисленных купцов и моряков, перевозящих товары с далеких островов Катноквии, изолированного архипелага Саммерсета и забытых портов Йокуды. Постоянный приток товаров, богатства и путешественников делает его одним из оживленных мест Имперского острова."
+ building_type_imperial_city_harbor_01_desc:0 "Крупнейший торговый порт Тамриэля, гавань Имперского города, является домом для бесчисленных купцов и моряков, перевозящих товары с далеких островов Катноквей, изолированного архипелага Саммерсет и забытых портов Йокуды. Постоянный приток товаров, богатства и путешественников делает его одним из самых оживленных мест Имперского острова."
  building_imperial_city_harbor_01:0 "$building_type_imperial_city_harbor_01$"
  building_imperial_city_harbor_01_desc:0 "$building_type_imperial_city_harbor_01_desc$"
  bridges_leyawiin_01_enabled:0 "$building_type_bridges_leyawiin_01$ доступны. Их можно разрушить используя $destroy_bridges_leyawiin_decision$."
  bridges_leyawiin_01_disabled:0 "$building_type_bridges_leyawiin_01$ недоступны. Их можно починить используя $repair_bridges_leyawiin_decision$."
  
  building_type_port_hestra_01:0 "Порт Гестры"
- building_type_port_hestra_01_desc:0 "Построенный императрицей Гестрой перед ее противостаянием с пиратством в Чернотопье, порт Гестры в мирное время вмещает большую часть имперского флота. Способен демонстрировать власть на большую часть Тамриэля, это неотъемлемая часть усилий различных имперских администраций по обеспечению мира в стране.."
+ building_type_port_hestra_01_desc:0 "Построенный императрицей Гестрой перед ее кампаниями против пиратства в Чернотопье, порт Гестры в мирное время вмещает большую часть имперского флота. Способен демонстрировать власть на большую часть Тамриэля, это неотъемлемая часть усилий различных имперских администраций по обеспечению мира в стране.."
  building_port_hestra_01:0 "$building_type_port_hestra_01$"
  building_port_hestra_01_desc:0 "$building_type_port_hestra_01_desc$"
  
  building_type_arcane_university_01:0 "Университет волшебства"
- building_type_arcane_university_01_desc:0 "Основанный во Вторую эру, Университет магии является центром магического обучения в Тамриэле, превосходя даже Кристальную башню в Саммерсете. Его обширные библиотеки, бесчисленные артефакты и уникальные возможности, такие как Хиронасиум для чародейства, Праксографический центр для создания заклинаний, Люстраторий для алхимии и Имперская оррерия для составления карт Нирна и небес, делают его мощным местом для удержания в своем царстве, даже если они не сведущи в искусство магии."
+ building_type_arcane_university_01_desc:0 "Основанный во Вторую эру, Университет волшебства является центром магического обучения в Тамриэле, превосходя даже Кристальную башню в Саммерсете. Его обширные библиотеки, бесчисленные артефакты и уникальные помещения, такие как Хироназиум для зачарования, Праксографический центр для создания заклинаний, Люстраторий для алхимии и имперский планетарий для составления карт Нирна и небес, делают его мощным местом в королевсте, даже если пользователь совсем не разбирается в магических искусствах."
  building_arcane_university_01:0 "$building_type_arcane_university_01$"
  building_arcane_university_01_desc:0 "$building_type_arcane_university_01_desc$"
  
  ### Alinor
- building_type_alinor_palace_01:0 "Royal Palace of Alinor"
- building_type_alinor_palace_01_desc:0 "The Palace of Alinor, the most flamboyant building on the blessed isles, if not in the world. The tallest spire casts a shadow on the city below like a sundial and houses its fabled throne room at the top -- encased in perfectly translucent crystal and cut to dissect the passing sunlight into a rainbow aureole. It is said that walking these halls is the closest a mortal can feel to the divine while still walking on Nirn."
+ building_type_alinor_palace_01:0 "Королевский дворец Алинора"
+ building_type_alinor_palace_01_desc:0 "Дворец Алинора, самое яркое строение на благословенных островах, если не во всём мире. Самый высокий шпиль отбрасывает тень на город ниже, словно солнечные часы, а на самом верху находится легендарный тронный зал, заключенный в совершенно прозрачный кристалл и ограненный так, чтобы рассекать проходящий солнечный свет в радужный ореол. Говорят, что проходя по залам, смертный может ближе всего ощутить себя к божеству, оставаясь при этом на Нирне."
  
  building_alinor_palace_01:0 "$building_type_alinor_palace_01$"
  building_alinor_palace_01_desc:0 "$building_type_alinor_palace_01_desc$"
  
- building_type_alinor_royal_capital_01:0 "Alinor Arboretum"
- building_type_alinor_royal_capital_01_desc:0 "The Alinor Arboretum is the crown jewel of the city and a living testament to the Aldmeri mastery over nature. Its sections spill and sprawl in fern-like patterns around the Royal Palace, each representing a slice of Summerset groomed to mathematical perfection. A small army of botanists holds vigil over the Arboretum at all times to maintain its tranquil stasis and countless otherwise-extinct specimens."
+ building_type_alinor_royal_capital_01:0 "Дендрарий Алинора"
+ building_type_alinor_royal_capital_01_desc:0 "Дендрарий Алинора - жемчужина города и живое свидетельство альдмерского мастерства над природой. Его участки раскинулись и разрослись в папоротникообразхных узорах вокруг Королевского дворца, каждый из которых представляет собой часть Саммерсета, ухоженный до математического совершенства. Небольшая армия ботаников бдит над Дендрарием, чтобы сохранить его спокойный стазис и бесчисленно вымершие виды."
  
  building_alinor_royal_capital_01:0 "$building_type_alinor_royal_capital_01$"
  building_alinor_royal_capital_01_desc:0 "$building_type_alinor_royal_capital_01_desc$"
  
- building_type_alinor_city_01:0 "City of Alinor"
- building_type_alinor_city_01_desc:0 "Bustling but far from chaotic, the heart of Altmeri civilization inspires awe and respect in all those who behold its streets and spires. Here amidst the shadows cast by delicate glass-blown spires and past towering arches carved from ancient rock, all strata of Elven society go about their business, mingling rarely, each with their own purpose. Splendid in the light of color-scintilla broken through its aetherquartz windows, outsiders may be forgiven for thinking the city is built from insect wings and light."
+ building_type_alinor_city_01:0 "Город Алинор"
+ building_type_alinor_city_01_desc:0 "Оживлённое, но далеко не хаотичное, сердце альтмерской цивилизации вызывает восхищение и почтение всем, кто созерцает его улицы и шпили. Здесь, среди теней, отбрасываемых изящными стеклянными шпилями, и пробирающихся мимо арок, высеченных из древнего камня, все слои эльфийского общества занимаются своими делами, редко пересекаясь, каждый со своей задачей. Великолепный в свете цветного сияния, прорывающийся сквозь его эфирно-кварцевые окна, сторонний наблюдатель может подумать, что город построен из крыльев насекомых и света."
  
  building_alinor_city_01:0 "$building_type_alinor_city_01$"
  building_alinor_city_01_desc:0 "$building_type_alinor_city_01_desc$"
  
- building_type_alinor_harbor_01:0 "Ports of Alinor"
- building_type_alinor_harbor_01_desc:0 "The beating heart of Summerset is, no doubt, the waterways of the Ports of Alinor. Exotic wares from every corner of Tamriel -- and beyond, as far east as Esroniet -- find themselves here, after passing the infamously scrutinizing eye of the Altmeri customs office. The fearsome Alinori Navy is stationed here as well: a constant reminder of the Aran-El's might to all."
+ building_type_alinor_harbor_01:0 "Порты Алинора"
+ building_type_alinor_harbor_01_desc:0 "Бьющееся сердце Саммерсета - это, несомненно, водные пути портов Алинора. Экзотические товары со всех уголков Тамриэля -- и даже за его пределами, c дальнего востока, вплоть до Эсрониэта -- оказываются здесь, пройдя через печально известное, око альтмерской таможни. Здесь же размещается грозный алинорский флот: постоянное напоминание всем о могуществе Аури-Эля."
  building_alinor_harbor_01:0 "$building_type_alinor_harbor_01$"
  building_alinor_harbor_01_desc:0 "$building_type_alinor_harbor_01_desc$"
  
- building_type_firsthold_orrery_01:0 "Great Orrery of Firsthold"
- building_type_firsthold_orrery_01_desc:0 "The Orrery of Firsthold is the prime institution of astronomical studies in the Summerset Isles. Through complex machinery and arcane spells, seers, symbologicians and polymaths decipher the mysteries of the starry sky, peering into the secrets of the Magna-Ge.\n\nMade with Aetherial minerals gathered in the Merethic Era, the legacy of the Sun Birds of Alinor is on full display."
+ building_type_firsthold_orrery_01:0 "Великий планетарий Фестхолда"
+ building_type_firsthold_orrery_01_desc:0 "Планетарий Фестхолда - главное учреждение астрономических исследований на островах Саммерсет. Посредством сложных механизмов и магических заклинаний провидцы, симбологи и эрудиты расшифровывают тайны звёздного неба, разгадывают секреты Магне-Джи. \n\nИзготовленные из этеревых минералов, собранных в Меретическую эру, они в полной мере представляют собой наследие Солнечных Птиц Алинора."
  building_firsthold_orrery_01:0 "$building_type_firsthold_orrery_01$"
  building_firsthold_orrery_01_desc:0 "$building_type_firsthold_orrery_01_desc$"
  
- building_type_cloudrest_college_01:0 "College of Chirurgeons"
- building_type_cloudrest_college_01_desc:0 "In the College of Chirurgeons, primordial forms of Restoration tinged with dawn magicks and stained with blood are taught and practiced towards the removal of blemishes and the exaltation of the physique. In a more clandestine fashion, flesh-sculptors attend to a noble clientele that seeks improvement of features considered distasteful in elite circles."
+ building_type_cloudrest_college_01:0 "Коллегия хирургов"
+ building_type_cloudrest_college_01_desc:0 "В коллегии хирургов преподаются и практикуются изначательные формы восстановления, окрашенные магией рассвета и запятнанные кровью, направленные на устранение изъянов и возвышения тела. Более тайные скульпторы плоти обслуживают знатных клиентов, которые стремятся совершенствовать черты лица, считающиеся отвратительными в элитных кругах."
  building_cloudrest_college_01:0 "$building_type_cloudrest_college_01$"
  building_cloudrest_college_01_desc:0 "$building_type_cloudrest_college_01_desc$"
  

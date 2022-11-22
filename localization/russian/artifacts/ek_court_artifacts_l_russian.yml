@@ -148,8 +148,8 @@
  artifact_history_of_histories_name:1 "История историй"
  artifact_history_of_histories_description:0 "Королевская хроника династии Филлоцидов." # PLACEHOLDER
 
- artifact_dragonsword_of_lainlyn_name:1 "Драконий меч Лейнлина"
- artifact_dragonsword_of_lainlyn_description:0 "Никто не знает, как баронство Лейнлин в центре Хаммерфелла связано с драконами, или как этот меч связан с драконами, но многие боятся его силы." # PLACEHOLDER
+ artifact_dragonsword_of_lainlyn_name:1 "Драконий меч Лайнлина"
+ artifact_dragonsword_of_lainlyn_description:0 "Никто не знает, как баронство Лайнлин в центре Хаммерфелла связано с драконами, или как этот меч связан с драконами, но многие боятся его силы." # PLACEHOLDER
 
  artifact_goldbrand_name:1 "Золотой меч"
  artifact_goldbrand_description:0 "Древний артефакт, созданный драконами Севера, который содержит силу даэдрического принца Боэтии и сжигает тех, кого он поражает." # PLACEHOLDER
@@ -223,6 +223,9 @@
 
  artifact_volendrung_name:1 "Волендранг"
  artifact_volendrung_description:0 "Это — двемерский артефакт, известный также как «Молот Могущества» и «Молот Хаммерфелла». Был создан двемерским кланом Руркен. По неизвестным причинам, молот стал даэрдрическим артефактом Малаката. Молот заслужил свое название благодаря способности с легкостью разрушать даже стены вражеских крепостей"
+
+ artifact_scourge_name:1 "Бич"
+ artifact_scourge_description:0 "Могущественная булава, сделанная из священного эбонита в Огнях Фикледайра. Легендарное оружие Маккана, она служила для отправки темных духов обратно в Обливион. Также эта булава обладает способностью вызывать духов из Обливиона." # PLACEHOLDER
 
  artifact_wabbajack_name:1 "Ваббаджек"
  artifact_wabbajack_description:0 "Даэдрический артефакт, созданный Шеогоратом. Имеет вид посоха на вершине которого выгравированы сердитые разинутые рты. Как и подобает Принцу безумия, посох выдаёт абсолютно непредсказуемый эффект при применении." # PLACEHOLDER
@@ -457,6 +460,12 @@
 
  artifact_circlet_storms_name:1 "Венец Бури"
  artifact_circlet_storms_description:0 "Эта корона из электрума, благословленная жрецами Тавы, в период расцвета йокуданской империи. Украшена янтарем, рубинами и сапфирами, в которых выделяется резная икона Тавы из лазурита.\n\nСнаружи корона украшена вставками из орихалка, изображающими силу Богиня Ветров, призывающая своих последователей подчиниться и благословляющая их в обмен на их преданность. Любой правитель, носивший эту корону, редко страдал от засухи в своих поместьях, что еще больше укрепляло божественное провидение этого предмета."
+
+ artifact_auriels_bow_name:1 "Лук Ауриэля"
+ artifact_auriels_bow_description:0 "Артефакт эльфийского бога Ауриэля, покровителя Сиродила - Акатоша, Бога-Дракона Времени. Несмотря на то, что он выглядит как обычный эльфийский лук, это один из мощнейших артефактов, когда-либо существовавших в Тамриэле. Лук черпает свою силу из самого Этериуса и направляет её через солнце." # PLACEHOLDER  
+
+ artifact_crusader_shield_name:1 "Щит крестоносца"
+ artifact_crusader_shield_description:0 "Щит, созданный Джулианосом и подаренный Пелиналу Вайтстрейку, Святому Крестоносцу. По форме напоминающий Чим-эль Адабал, символ имперского пантеона. Щит позволяет своему владельцу отражать заклинания обратно в их заклинателей или полностью отклонять их." # PLACEHOLDER  
  
  animal_type_senche_cougar:0 "Сенч-пума"
  artifact_hide_type_senche_cougar:0 "Сенч-пума"
@@ -536,7 +545,7 @@
  metal_dragonbone:0 "драконья кость"
  metal_madness:0 "руда безумия"
 
- gem_aetherquartz:0 "эфирный кварф"
+ gem_aetherquartz:0 "эфирный кварц"
  gem_aetherquartz_plural:0 "эфирные кварцы"
  gem_citrine:0 "цитрин"
  gem_citrine_plural:0 "цитрины"
@@ -559,31 +568,31 @@
  gem_diamond:0 "алмаз"
  gem_diamond_plural:0 "алмазы"
 
- cloth_jute:0 "jute"
- cloth_spidersilk:0 "spidersilk"
- cloth_ebonthread:0 "ebonthread"
- cloth_kresh:0 "kresh"
- cloth_ancestor_silk:0 "ancestor silk"
+ cloth_jute:0 "джут"
+ cloth_spidersilk:0 "паучий шелк"
+ cloth_ebonthread:0 "эбеновое волокно"
+ cloth_kresh:0 "креш"
+ cloth_ancestor_silk:0 "шелк предков"
  
- wood_beech:0 "beech"
- wood_hickory:0 "hickory"
- wood_birch:0 "birch"
- wood_mahogany:0 "mahogany"
- wood_nightwood:0 "nightwood"
- wood_ruby_ash:0 "ruby ash"
+ wood_beech:0 "бук"
+ wood_hickory:0 "гикори"
+ wood_birch:0 "береза"
+ wood_mahogany:0 "красное дерево"
+ wood_nightwood:0 "ночное дерево"
+ wood_ruby_ash:0 "рубиновый ясень"
 
- material_fur:0 "fur"
- material_hide:0 "hide"
- material_bearskin:0 "bearskin"
- material_netch_leather:0 "netch leather"
- material_studded_leather:0 "studded leather"
- material_newtscale:0 "newtscale"
- material_trollbone:0 "trollbone"
- material_boiled_netch:0 "boiled netch"
- material_bonemold:0 "bonemold"
- material_dreugh:0 "dreugh"
- material_dragonscale:0 "dragonscale"
- material_dragonplate:0 "dragonplate"
+ material_fur:0 "шерсть"
+ material_hide:0 "шкура"
+ material_bearskin:0 "шкура медведя"
+ material_netch_leather:0 "кожа нетча"
+ material_studded_leather:0 "кожа с шипами"
+ material_newtscale:0 "шкура тритона"
+ material_trollbone:0 "кость тролля"
+ material_boiled_netch:0 "дубленая кожа нетча"
+ material_bonemold:0 "кость"
+ material_dreugh:0 "дреуг"
+ material_dragonscale:0 "драконья чешуя"
+ material_dragonplate:0 "Драконий панцирь"
   
  feature_decoration_material_inlay_stalhrim:0 "$metal_stalhrim$"
  feature_decoration_material_inlay_platinum:0 "$metal_platinum$"
@@ -727,15 +736,15 @@
  feature_armor_material_daedric:0 "$metal_daedric$"
  feature_armor_material_madness:0 "$metal_madness$"
 
- feature_artifact_armor_descriptor_stalhrim_inlaid:0 "Stalhrim-inlaid"
- feature_artifact_armor_descriptor_platinum_inlaid:0 "Platinum-inlaid"
- feature_artifact_armor_descriptor_electrum_inlaid:0 "Electrum-inlaid"
- feature_artifact_armor_descriptor_dwarven_inlaid:0 "Dwarven-inlaid"
- feature_artifact_armor_descriptor_orichalcum_inlaid:0 "Orichalcum-inlaid"
- feature_artifact_armor_descriptor_quicksilver_inlaid:0 "Quicksilver-inlaid"
- feature_artifact_armor_descriptor_mithril_inlaid:0 "Mithril-inlaid"
- feature_artifact_armor_descriptor_corundum_inlaid:0 "Corundum-inlaid"
- feature_artifact_armor_descriptor_brass_inlaid:0 "Brass-inlaid"
+ feature_artifact_armor_descriptor_stalhrim_inlaid:0 "инкрустированный сталгримом"
+ feature_artifact_armor_descriptor_platinum_inlaid:0 "инкрустированный платиной"
+ feature_artifact_armor_descriptor_electrum_inlaid:0 "инкрустированный электрумом"
+ feature_artifact_armor_descriptor_dwarven_inlaid:0 "инкрустированный двимеритом"
+ feature_artifact_armor_descriptor_orichalcum_inlaid:0 "инкрустированный орихалком"
+ feature_artifact_armor_descriptor_quicksilver_inlaid:0 "инкрустированный ртутью"
+ feature_artifact_armor_descriptor_mithril_inlaid:0 "инкрустированный мифрилом"
+ feature_artifact_armor_descriptor_corundum_inlaid:0 "инкрустированный корундом"
+ feature_artifact_armor_descriptor_brass_inlaid:0 "инкрустированный латунью"
 
  feature_box_material_maple:0 "$wood_maple$"
  feature_box_material_beech:0 "$wood_beech$"
@@ -748,22 +757,22 @@
  feature_box_material_ruby_ash:0 "$wood_ruby_ash$"
 
  # Staffs
- artifact_staff_name:0 "$artifact_name_prefix$ Staff"
+ artifact_staff_name:0 "Посох $artifact_name_prefix$"
  artifact_staff_description:2 "A staff of [SCOPE.Custom('ArtifactQuality')] craftsmanship. [newly_created_artifact.Custom('ArtifactStaffDescription')]"
- artifact_staff_shaft_undecorated:1 "This simple magic tool is made with a magically-infused [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] shaft."
- artifact_staff_shaft_undecorated_alt:2 "This intricate magic tool is made with a magically-infused [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] shaft. It is a weapon that is favored by mages everywhere."
- artifact_staff_shaft_decorated:1 "an elegant [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] shaft that has been [ROOT.Artifact.GetFeatureText( 'shaft_decoration' )] and infused with [Artifact.GetFeatureText( 'decoration_material_gem' )]."
+ artifact_staff_shaft_undecorated:1 "Этот заурядный магический инструмент сделан из волшебного [ROOT.Artifact.GetFeatureText( 'shaft_wood' )]."
+ artifact_staff_shaft_undecorated_alt:2 "Этот замысловатый магический инструмент сделан из волшебного [ROOT.Artifact.GetFeatureText( 'shaft_wood' )]. Это оружие очень популярно у магов."
+ artifact_staff_shaft_decorated:1 "элегантный [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] который был [ROOT.Artifact.GetFeatureText( 'shaft_decoration' )] и инкрустирован [Artifact.GetFeatureText( 'decoration_material_gem' )]."
 
  artifact_wall_staff_description:0 "$artifact_staff_description$"
 
- weapon_staff_inspiration_description:1 "a staff"
+ weapon_staff_inspiration_description:1 "посох"
 
- weapon_staff_inspiration_name:0 "staff"
+ weapon_staff_inspiration_name:0 "посох"
 
- fund_inspiration.0011.ekstaff:0 "I prefer to enhance my own magical abilities."
+ fund_inspiration.0011.ekstaff:0 "Я предпочиту совершенствовать собственные магические способности."
 
  fund_inspiration.0011.tooltip_staff:0 "$fund_inspiration.0011.tooltip_action$ a $signature_weapon_staff$"
- fund_inspiration.0011.tooltip_staff.tt:0 "You gain a $signature_weapon_staff$ at the end of the inspiration"
+ fund_inspiration.0011.tooltip_staff.tt:0 "Вы получаете $signature_weapon_staff$ после вдохновения"
 
  signature_weapon_staff:0 "staff"
  signature_weapon_staff_wield:0 "wield"

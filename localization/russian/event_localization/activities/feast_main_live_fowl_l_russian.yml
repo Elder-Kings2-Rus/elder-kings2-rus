@@ -33,7 +33,7 @@
  fowl_dinner_child:0 "красочная птица"
  feast_main_live_fowl.9001.t:1 "$feast_header$ Праздник заканчивается"
  feast_main_live_fowl.9001.bird_killer:0 "[host_saying_goodbye.GetTitledFirstNamePossessive] пир подходит к концу.\n\nБольшинство гостей расходятся домой довольные, за исключением, пожалуй, [fowl_dinner_target.GetFirstName], который все еще сжимает свой нос там, где [ROOT.GetCharacter.Custom ('exotic_fowl_type')] клюнул [fowl_dinner_target.GetHerHis].\n\nТакже кажется, что никто не хочет уходить одновременно с [fowl_bird_killer.GetFirstName], особенно после того, как [fowl_bird_killer.GetHerHim] довелось жестоко убить птицу."."
- feast_main_live_fowl.9001.no_bird_killer:0 "[host_saying_goodbye.GetTitledFirstNamePossessive] пир подходит к концу.\n\nБольшинство гостей расходятся домой довольные, за исключением, пожалуй, [fowl_dinner_target.GetFirstName], который все еще сжимает свой нос там, где [ROOT.GetCharacter.Custom ('exotic_fowl_type')] клюнул [fowl_dinner_target.GetHerHis].»
+ feast_main_live_fowl.9001.no_bird_killer:0 "[host_saying_goodbye.GetTitledFirstNamePossessive] пир подходит к концу.\n\nБольшинство гостей расходятся домой довольные, за исключением, пожалуй, [fowl_dinner_target.GetFirstName], который все еще сжимает свой нос там, где [ROOT.GetCharacter.Custom ('exotic_fowl_type')] клюнул [fowl_dinner_target.GetHerHis]."
  feast_main_live_fowl.9001.a:0 "До новых встреч, мой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host_saying_goodbye'))]!"
  feast_main_live_fowl.9002.t:1 "$feast_header$ Праздник заканчивается"
  feast_main_live_fowl.9002.new_life.t:1 "Фестиваль "Новая жизнь": фестиваль заканчивается"

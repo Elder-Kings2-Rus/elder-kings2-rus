@@ -22,7 +22,7 @@
  accept_western_eastern_skyrim_divide_decision.create_de_jure_empires.tt:0 "Каждая половина Скайрима теперь будет иметь собственное [de_jure|El] верховное королевство, претендующее на власть исключительно над землями, к которым оно было приписано."
  accept_western_eastern_skyrim_divide_decision.reunite_skyrim.tt:0 "Если одна половина Скайрима полностью объединит свой регион, она сможет #V бросить вызов другой половине за единство провинции#!, претендуя на титул #bold Верховного Королевства Скайрим#! в случае успеха."
  
- western_skyrim_march_east_decision:0 "Приготовиться к походу на восток
+ western_skyrim_march_east_decision:0 "Приготовиться к походу на восток"
  western_skyrim_march_east_decision_desc:0 "Слишком долго Скайрим был разделён. Наша власть над новыми ярлствами неоспорима, так что пришло время отправить наши войска на восток, чтобы захватить старые ярлства и окончательно объединить Скайрим."
  western_skyrim_march_east_tooltip:0 "Скайриму нужен верховный король!"
  western_skyrim_march_east_decision_tooltip:0 "Скайриму нужен верховный король!"
@@ -43,13 +43,6 @@
  solstheim_claim_coast_tooltip:0 "Стройте корабли и готовьте воинов!"
  solstheim_claim_coast_decision_tooltip:0 "Стройте корабли и готовьте воинов!"
  solstheim_claim_coast_decision_confirm:0 "Нас никто не забудет!"
-
- keizaal_realm_decision:0 "Vokrii Dovah Rel"
- keizaal_realm_decision_desc:0 "Кеизаль — исконный центр опоры и силы Культа Дракона. Править им должен [CHARACTER.GetPrimaryTitle]. Vokrii Dovah Rel! Долой правление людей! Да здравствует Культ драконов! Vokrii Dovah Suleyk!"
- keizaal_realm_tooltip:0 "Восстановить Правление Крыла и Когтя, дабы Кеизаль снова стал целым!"
- keizaal_realm_decision_tooltip:0 "Восстановить власть драконов"
- keizaal_realm_decision_confirm:0 "Keizaal Los Un!"
- Keizaal:0 "Кеизаль"
 
  reform_first_nordic_empire_decision:0 "Империя Нордов"
  reform_first_nordic_empire_decision_desc:0 "Давным-давно, в начале Первой Эры, наши предки завоевали огромные земли в Хай Роке, Морровинде и даже Сиродиле. Они были объединены под властью короля Врагге Одарённого и его преемников.\n\nСиродильцы позже назовут это огромное королевство "Первой Империей Нордов", хотя мы, норды, помним его просто как Верховное Королевство, что расширило свои границы за пределы Скайрима.\n\nСегодня мы можем восстановить эту великую "Империю" и вернуть себе власть над северным Тамриэлем."
