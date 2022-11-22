@@ -73,65 +73,65 @@
  ##############
  #   SCORPION   #
  ##############
- scorpion_story_modifier:0 "Play with Scorpion"
- scorpion_story_modifier_desc:0 "This character enjoys the company of a predatory arachnid, skittling around them wherever they go"
- scorpion_story_observing_modifier:0 "Intrigue and Scorpion"
- scorpion_story_observing_modifier_desc:0 "This character enjoys observing their scorpion"
- scorpion_story_fighting_with_you_modifier:0 "Battle Scorpion"
- scorpion_story_fighting_with_you_modifier_desc:0 "In battle, this character can always be seen with their scorpion not far from them, distracting enemies and even sometimes hurting them."
+ scorpion_story_modifier:0 "Поиграть с скорпионом"
+ scorpion_story_modifier_desc:0 "Этот персонаж рад компании хищного арахнида, который следует за ним всегда"
+ scorpion_story_observing_modifier:0 "Интриги и скорпион"
+ scorpion_story_observing_modifier_desc:0 "Этот персонаж с удовольствием наблюдает за своим скорпионом"
+ scorpion_story_fighting_with_you_modifier:0 "Боевой скорпион"
+ scorpion_story_fighting_with_you_modifier_desc:0 "В бою этого персонажа всегда можно увидеть со скорпионом недалеко от себя, отвлекающим врагов и даже иногда ранящим их."
  
- scorpion_gender_her:0 "her"
- scorpion_gender_his:0 "his"
- scorpion_gender_him:0 "him"
- scorpion_gender_she:0 "she"
- scorpion_gender_he:0 "he"
- scorpion_gender_herself:0 "herself"
- scorpion_gender_himself:0 "himself"
- scorpion_gender_female:0 "female"
- scorpion_gender_male:0 "male"
+ scorpion_gender_her:0 "её"
+ scorpion_gender_his:0 "его"
+ scorpion_gender_him:0 "его"
+ scorpion_gender_she:0 "она"
+ scorpion_gender_he:0 "он"
+ scorpion_gender_herself:0 "сама"
+ scorpion_gender_himself:0 "сам"
+ scorpion_gender_female:0 "самка"
+ scorpion_gender_male:0 "самец"
  
- color_coffee:0 "coffee"
+ color_coffee:0 "кофейный"
  
  scorpion_name:1 "[ROOT.Char.GetLocalizedText( 'story_cycle_scorpion_name' )]"
  scorpion_name_possessive:1 "[ROOT.Char.Custom( 'ScorpionStoryName' )]'s"
- scorpion_name_kaveh:0 "Kaveh"
+ scorpion_name_kaveh:0 "Кавэх"
  
- ek_pet_animal.1001.t:0 "The Scorpion"
- ek_pet_animal.1001.desc:1 "As the scorpion scuttles around the room, happily clacking [ROOT.Char.Custom('ScorpionStoryHerHim')] claws, I ponder what I should name [ROOT.Char.Custom('ScorpionStoryHerHim')]. Something historical? Something alluding to [ROOT.Char.Custom('ScorpionStoryHerHis')] [ROOT.Char.Custom('ScorpionColor')] body? Something to describe the soothing feeling I experience when [ROOT.Char.Custom('ScorpionStorySheHe')] scuttles around me?\n\nOh, I know! I will name [ROOT.Char.Custom('ScorpionStoryHerHim')]..."
- ek_pet_animal.1001.a:1 "What a great name!"
+ ek_pet_animal.1001.t:0 "Скорпион"
+ ek_pet_animal.1001.desc:1 "Пока скорпион носится по комнате, радостно клацая [ROOT.Char.Custom('ScorpionStoryHerHim')] клешнями, Я размышляю, как мне назвать [ROOT.Char.Custom('ScorpionStoryHerHim')]. Что-то историческое? Что-то, намекающее на [ROOT.Char.Custom('ScorpionStoryHerHis')] [ROOT.Char.Custom('ScorpionColor')] окрас? Что-то, чтобы описать успокаивающее чувство, которое я испытываю, когда [ROOT.Char.Custom('ScorpionStorySheHe')] крутится вокруг меня?\n\nО, я знаю! Я назову [ROOT.Char.Custom('ScorpionStoryHerHim')]..."
+ ek_pet_animal.1001.a:1 "Что за чудесное имя!"
  
  ### Random scorpion events
  # You observe your scorpion, smol intrigue modifier
- ek_pet_animal.1101.t:0 "[ROOT.Char.Custom('ScorpionStoryName')]: Scuttling Intrigue"
- ek_pet_animal.1101.desc:0 "I have taken the habit to spend some time with [ROOT.Char.Custom('ScorpionStoryName')] at the end of the day, observing [ROOT.Char.Custom('ScorpionStoryHerHis')] movements.\n\nI don't know if that's because of my observations or [ROOT.Char.Custom('ScorpionStoryName')], but I feel my plotting skills getting better and better by the day."
- ek_pet_animal.1101.a:0 "Intriguing!"
+ ek_pet_animal.1101.t:0 "[ROOT.Char.Custom('ScorpionStoryName')]: Скорпионья Интрига"
+ ek_pet_animal.1101.desc:0 "Я взял за привычку проводить некоторое время с [ROOT.Char.Custom('ScorpionStoryName')] на исходе дня, наблюдая [ROOT.Char.Custom('ScorpionStoryHerHis')] движениями.\n\nЯ не знаю, связано ли это с моими наблюдениями или потому что [ROOT.Char.Custom('ScorpionStoryName')] настолько завораживающий, но я чувствую что мне удается интриговать людей все лучше и лучше."
+ ek_pet_animal.1101.a:0 "Интригующе!"
  
  # Your scorpion goes with you into battle!
- ek_pet_animal.1102.t:0 "[ROOT.Char.Custom('ScorpionStoryName')]: Stinger and Claws"
- ek_pet_animal.1102.desc:0 "It seems that the bravery of [ROOT.Char.Custom('ScorpionStoryName')] knows no bound! Be it in large scale battles, small skirmishes, or even in singular duels, [ROOT.Char.Custom('ScorpionStorySheHe')] never leaves your side and fights with you.\n\nYour opponents, friendly or not, seem to even be frightened of [ROOT.Char.Custom('ScorpionStoryHerHim')], and more than one were defeated because [ROOT.Char.Custom('ScorpionStoryName')] distracted them with [ROOT.Char.Custom('ScorpionStoryHerHis')] [ROOT.Char.Custom('ScorpionColor')] carapace, or even because [ROOT.Char.Custom('ScorpionStorySheHe')] pecked them!"
- ek_pet_animal.1102.a:0 "With me, into battle!"
+ ek_pet_animal.1102.t:0 "[ROOT.Char.Custom('ScorpionStoryName')]: Жало и коготь"
+ ek_pet_animal.1102.desc:0 "Похоже что храбрость [ROOT.Char.Custom('ScorpionStoryName')] не знает границ! Будь то крупномасштабные сражения, небольшие стычки или даже одиночные поединки, [ROOT.Char.Custom('ScorpionStorySheHe')] никогда не покидает вас и сражается вместе с вами.\n\nВаши враги, видимо боятся [ROOT.Char.Custom('ScorpionStoryHerHim')], и не один враг был побежден потому что [ROOT.Char.Custom('ScorpionStoryName')] отвлек их при помощи [ROOT.Char.Custom('ScorpionStoryHerHis')] панциря кофейного цвета, не забывая задействовать свое острое жало!"
+ ek_pet_animal.1102.a:0 "Со мной! В бой!"
  
  # Your scorpion attacked a vassal! Wound or possibly death
- ek_pet_animal.1103.t:0 "[ROOT.Char.Custom('ScorpionStoryName')]: Sting!"
- ek_pet_animal.1103.desc_wounded:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with you, [ROOT.Char.Custom('ScorpionStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\n[vassal.GetFirstName] managed to flee the room, but not before your scorpion could severly hurt [vassal.GetHerHim]..."
- ek_pet_animal.1103.desc_poisoned:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with you, [ROOT.Char.Custom('ScorpionStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\nAn intense scream was soon heard, and after [ROOT.Char.Custom('ScorpionStoryName')] was put back into [ROOT.Char.Custom('ScorpionStoryHerHis')] cage [vassal.GetFirstName] could be seen shaking in fear.\n\n'IT STUNG ME!' could [vassal.GetSheHe] be heard screaming. 'THIS IS ALL YOUR FAULT, YOU AND YOUR STUPID BUG!'"
- ek_pet_animal.1103.a:0 "I hope [vassal.GetFirstName] will be all right..."
- ek_pet_animal.1103.b:0 "Oh no..."
+ ek_pet_animal.1103.t:0 "[ROOT.Char.Custom('ScorpionStoryName')]: Жало!"
+ ek_pet_animal.1103.desc_wounded:0 "Ужас в тронном зале! Пока [vassal.GetName] ждал аудиенции с вами, [ROOT.Char.Custom('ScorpionStoryName')], казалось бы, из ниоткуда, решил атаковать [vassal.GetHerHim]!\n\n[vassal.GetFirstName] удалось убежать из комнаты, но не раньше, чем ваш скорпион смог серьезно ранить [vassal.GetHerHim]..."
+ ek_pet_animal.1103.desc_poisoned:0 "Ужас в тронном зале! Пока [vassal.GetName] ждал аудиенции с вами, [ROOT.Char.Custom('ScorpionStoryName')], казалось бы, из ниоткуда, решил атаковать [vassal.GetHerHim]!\n\nВскоре раздался сильный крик, и после [ROOT.Char.Custom('ScorpionStoryName')] поместили в [ROOT.Char.Custom('ScorpionStoryHerHis')] клетку. [vassal.GetFirstName] можно было видеть трясущимися от страха.\n\n'ОНО УЖАЛИЛО МЕНЯ!' раздался [vassal.GetSheHe] душераздирающий крик. 'ЭТО ВСЕ ТВОЯ ВИНА, ТЫ И ТВОЙ ТУПОЙ ЖУК!'"
+ ek_pet_animal.1103.a:0 "Я надеюсь с [vassal.GetFirstName] все будет хорошо..."
+ ek_pet_animal.1103.b:0 "О нет..."
  
  # Scorpion dies :(
- ek_pet_animal.1199.t:0 "[ROOT.Char.Custom('ScorpionStoryName')]: Day of Sorrow"
- ek_pet_animal.1199.desc:0 "[ROOT.Char.Custom('ScorpionStoryName')] is not as young as [ROOT.Char.Custom('ScorpionStorySheHe')] once was, and I can see it in [ROOT.Char.Custom('ScorpionStoryHerHis')] disposition, not as strong and stable as it was some years ago.\n\nI gently pet [ROOT.Char.Custom('ScorpionStoryHerHis')] [ROOT.Char.Custom('ScorpionColor')] carapace and feel [ROOT.Char.Custom('ScorpionStoryHerHim')] softly sway and try to pinch [ROOT.Char.Custom('ScorpionStoryHerHis')] claws, but as silence falls I know that [ROOT.Char.Custom('ScorpionStoryHerHis')] morning stroll won't wake me up again."
- ek_pet_animal.1199.a:0 "I will miss you, [ROOT.Char.Custom('ScorpionStoryName')]!"
+ ek_pet_animal.1199.t:0 "[ROOT.Char.Custom('ScorpionStoryName')]: День скорби"
+ ek_pet_animal.1199.desc:0 "[ROOT.Char.Custom('ScorpionStoryName')] уже не маленький скорпиончик как раньше..., я вижу это в  [ROOT.Char.Custom('ScorpionStoryHerHis')] движениях, они уже не такие элегантные и легкие как раньше.\n\nЯ нежно прикоснулся к [ROOT.Char.Custom('ScorpionStoryHerHis')] панцирю и чувствую [ROOT.Char.Custom('ScorpionStoryHerHim')] легкое покачивание и попытки ущипнуть меня [ROOT.Char.Custom('ScorpionStoryHerHis')] клешнями, но когда тишина спадает, я понимаю что [ROOT.Char.Custom('ScorpionStoryHerHis')] утреннее щекотание больше меня не разбудит."
+ ek_pet_animal.1199.a:0 "Я буду скучать, [ROOT.Char.Custom('ScorpionStoryName')]!"
  
- pet_scorpion_decision:0 "Play with [ROOT.Char.Custom('ScorpionStoryName')]"
- pet_scorpion_decision_desc:0 "I know how much [ROOT.Char.Custom('ScorpionStoryName')] loves strutting around, and it always soothes me to see [ROOT.Char.Custom('ScorpionStoryHerHim')] happily pinch and cuddle me. While it takes a lot of effort, and money, to properly feed and take care of [ROOT.Char.Custom('ScorpionStoryHerHim')], no matter how tough life gets I know [ROOT.Char.Custom('ScorpionStorySheHe')] will always be there for me!"
- pet_scorpion_decision_tooltip:0 "Play with your scorpion"
- pet_scorpion_decision_confirm:0 "Play with your scorpion"
+ pet_scorpion_decision:0 "Поиграть с [ROOT.Char.Custom('ScorpionStoryName')]"
+ pet_scorpion_decision_desc:0 "Я знаю насколько [ROOT.Char.Custom('ScorpionStoryName')] любит ползать и исследовать все вокруг, и это успокаивает меня, особенно [ROOT.Char.Custom('ScorpionStoryHerHim')] счастливый писк. Хоть это и занимает много времени и сил, но забота о [ROOT.Char.Custom('ScorpionStoryHerHim')] здоровье для меня самое важное, не важно насколько тяжела будет жизнь, [ROOT.Char.Custom('ScorpionStorySheHe')] всегда будет рядом!"
+ pet_scorpion_decision_tooltip:0 "Поиграть со своим скорпионом"
+ pet_scorpion_decision_confirm:0 "Поиграть со своим скорпионом"
  
  # You play with your scorpion :)
- ek_pet_animal.1501.t:0 "A nice time with [ROOT.Char.Custom('ScorpionStoryName')]"
- ek_pet_animal.1501.desc:0 "As you enter your room, you can immediatly hear [ROOT.Char.Custom('ScorpionStoryName')] clack his claws in excitment.\nWith a smile on your face you open [ROOT.Char.Custom('ScorpionStoryHerHis')] cage and let [ROOT.Char.Custom('ScorpionStoryHerHim')] stretch [ROOT.Char.Custom('ScorpionStoryHerHis')] legs before taking off.\n[ROOT.Char.Custom('ScorpionStoryName')] scuttles around the room for a few moments, before laying in your hand and cuddling with you.\n\nAs you laugh, you feel the weight of the world already lifting from your shoulders."
- ek_pet_animal.1501.a:0 "You're tickling me!"
+ ek_pet_animal.1501.t:0 "Чудесное время вместе с [ROOT.Char.Custom('ScorpionStoryName')]"
+ ek_pet_animal.1501.desc:0 "Как только вы заходите в комнату, сразу слышно радостное клацанье клешнями.\nС улыбкой на лице вы открываете [ROOT.Char.Custom('ScorpionStoryHerHis')] клетку, [ROOT.Char.Custom('ScorpionStoryName')] нетополиво вылезает из клетки перебирая своими лапками.\n[ROOT.Char.Custom('ScorpionStoryName')] обошел всю комнату в мгновенье, прежде чем заползти в вашу ладонь.\n\nСмеясь, вы чувствуете как маленький скорпион помогает вам сбросить всю тяжесть с плечь и почувствовать облегчение."
+ ek_pet_animal.1501.a:0 "Ты меня щекочешь!"
  
- ek_pet_animal.1502.desc:0 "With [ROOT.Char.Custom('ScorpionStoryName')]'s favorite treat in your hand, you enter your small garden where [ROOT.Char.Custom('ScorpionStoryName')] usually spends most of [ROOT.Char.Custom('ScorpionStoryHerHis')] time.\nAs soon as [ROOT.Char.Custom('ScorpionStorySheHe')] spots you, or maybe the bugs in your hand, [ROOT.Char.Custom('ScorpionStorySheHe')] starts happily clacking [ROOT.Char.Custom('ScorpionStoryHerHis')] claws and roaming around you.\n[ROOT.Char.Custom('ScorpionStorySheHe')] lays on your hand, and picks the treats.\n\nAs you laugh, you already feel better and ready to face everything the world can send at you."
- ek_pet_animal.1502.a:0 "Don't eat everything [ROOT.Char.Custom('ScorpionStoryName')]!"
+ ek_pet_animal.1502.desc:0 "С любимым лакомством вашего скорпиона, вы входите в свой маленький сад, где [ROOT.Char.Custom('ScorpionStoryName')] обычно проводит большую часть времени.\nКак только [ROOT.Char.Custom('ScorpionStorySheHe')] заметит вас, или лакомство в вашей руке, [ROOT.Char.Custom('ScorpionStorySheHe')] начинает счастливо клацать своими клешнями и кружится вокруг вас.\n[ROOT.Char.Custom('ScorpionStorySheHe')] ложится вам в руку и начинает счастливо пищать.\n\nС улыбкой на лице, вы чувствуете как можете встретить все трудности, что готовит для вас мир"
+ ek_pet_animal.1502.a:0 "[ROOT.Char.Custom('ScorpionStoryName')], не ешь что попало!"
