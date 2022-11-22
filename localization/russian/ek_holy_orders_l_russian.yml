@@ -1,6 +1,6 @@
 ﻿l_russian:
  #Default
- holy_order_default:1 "[FAITH.GetAdjectiveNoTooltip] Верный [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_default:1 "[FAITH.GetAdjectiveNoTooltip] Верные [TITLE.GetNameNoTierNoTooltip]"
  #Dunmer
  holy_order_dunmer:0 "Боевые Ординаторы [TITLE.GetNameNoTierNoTooltip]"
  #Dwemer
