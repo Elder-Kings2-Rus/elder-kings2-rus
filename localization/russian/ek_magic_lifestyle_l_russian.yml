@@ -1,4 +1,6 @@
 ﻿l_russian:
+ MAGIC_PERKS:0 "Магические навыки"
+ NO_MAGIC_PERKS:0 "Персонаж не имеет магических навыков"
  # grouped here for now, should be orgnised into ek_focus and ek_perks at some point. 
  magic_lifestyle_name:0 "Магия"
  magic_lifestyle_desc:0 "Фокус на обучении и  применении магии через тщательное изучение пяти основных школ магии.". Summon daedra, heal the sick, throw fireballs.

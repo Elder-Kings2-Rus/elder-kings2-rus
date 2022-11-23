@@ -104,9 +104,24 @@
  create_orsinium_decision_desc:0 "Королевство Орсиниум не раз создавалось, разрушалось и восстановилось за историю Тамриэля. Достаточно могущественный правитель-орсимер может объявить себя новым королем орков и восстановить старое королевство отверженного народа. \n \n( #S Примечание#!: Если вы [duke|El], вы сможете расширить [de_jure|El] границы Орсиниума только в пределах де-юре [Concept( 'kingdom', 'королевства' )|E], в котором вы его восстановили.)."
  create_orsinium_decision_tooltip:0 "Создать королевство Орсиниум!"
  create_orsinium_decision_confirm:0 "За Орсиниум!"
- create_orsinium_decision_cd:0 "[capital|E] вашего главного [Concept( 'duchy', 'графства' )|E], которое не должно быть столичным герцогством другого [Concept( 'kingdom', 'королевства' )|E], имеет орсимерскую [Concept( 'culture', 'культуру' )|E]"
+ create_orsinium_decision_cd:0 "У вашей [Concept( 'capital', 'столицы' )|E], которая не должна находиться внутри столичного герцогства другого [Concept( 'kingdom', 'королевства' )|E], есть орсимерская [culture|El]"
+ create_orsinium_decision_alt_cd:0 "Ваша [capital|El] не расположена внутри столичного [Concept( 'duchy', 'герцогства' )|E] другого [de_jure|El] [Concept( 'kingdom', 'королевства' )|E] (например, герцогство Имперский Остров в Королевстве Хартленд)"
+ orsinium_hold_capital_duchy_cd:0 "Вы удерживаете [duchy|El], в котором расположена ваша [capital|El]"
+ orsinium_county_culture_cd:0 "В вашей [Concept( 'capital', 'столице' )|E] распространена ваша культура"
  create_orsinium_kingdom_decision:0 "Восстановить Орсиниум"
  create_orsinium_kingdom_decision_confirm:0 "За Орсиниум!"
+ 
+ form_orsinium_empire_decision:0 "Создать Великий Орсиниум"
+ form_orsinium_empire_decision_desc:0 "Теперь, когда королевство Орсиниум восстановлено, нас ждёт лучший и более сильный Великий Орсиниум."
+ form_orsinium_empire_decision_tooltip:0 "Орсиниум снова будет велик!"
+ form_orsinium_empire_decision_confirm:0 "За Великий Орсиниум!"
+ expanded_orsinium_cd:0 "Вы расширили [de_jure|El] границы королевства Орсиниум за пределы его первоначального [Concept( 'duchy', 'герцогства' )|E]."
+ orsinium_kingdom_requirement_cd: "У вас есть как минимум 4 [Concept( 'kingdom', 'королевских' )|E] титула"
+
+ old_orsinium_capital_decision:0 "Оккупировать Старый Орсиниум"
+ old_orsinium_capital_decision_desc:0 "Первоначальный Орсиниум, построенный на неприступных холмах с видом на Бухту Погибших Кораблей, был множество раз разрушен бретонскими ордами. Пришло время отвоевать это место и сделать его законной столицей отверженного народа."
+ old_orsinium_capital_decision_tooltip:0 "Переместить столицу Орсиниума обратно в Старый Орсиниум"
+ old_orsinium_capital_decision_confirm:0 "Традиции важны!"
  
  expand_orsinium_decision:0 "Расширить Орсиниум"
  expand_orsinium_decision_desc:0 "Границы Орсиниума должны расшириться и охватить всё его бывшее [de_jure|El] [kingdom|El]. Только сильный Орсиниум будет долговечным Орсиниумом."
@@ -119,6 +134,7 @@
  reintegrate_orsinium_decision_tooltip:0 "Уничтожить назойливый Орсиниум!"
  reintegrate_orsinium_decision_confirm:0 "Орсиниума больше нет!"
  reintegrate_orsinium_decision_cd:0 "Вы контролируете столичное [duchy|El] Орсиниума"
+ no_orsimer_king_vassal_cd:0 "Орсиниум не принадлежит вассалу-орсимеру"
  
  ### Nibenay
  establish_new_nibenay_kingdom_decision:0 "Основать новое королевство в Восточном Нибенее"
