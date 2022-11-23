@@ -269,7 +269,7 @@ trait_lifespan_5:1 "Продолжительность жизни V"
 
 trait_champion_malacath:0 "Чемпион $malacath$"
 trait_champion_malacath_desc:0 "этот персонаж является чемпионом $malacath$, $malacath_alt$."
-trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом malacath$, $malacath_alt$."
+trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом $malacath$, $malacath_alt$."
 
  # Coping mechanisms
  trait_skooma_drinker:0 "Зависимость от Скумы"
