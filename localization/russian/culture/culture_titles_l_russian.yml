@@ -161,7 +161,10 @@
  weynon_prior_female_barony:0 "Приоресса"
  weynon_priory_barony:0 "Приорат"
  
- 
+ prince_independent:0 "Принц"
+ princess_independent:0 "Принцесса"
+
+
  #arch_priest_theocracy_male:0 "Арх-Приор"
  #arch_priest_theocracy_female:0 "Арх-Приоресса"
  
@@ -669,9 +672,6 @@ duchy_feudal_cyro_nord_independent:1 "Владение"
 king_feudal_male_cyrodiil:0 "[CHARACTER.Custom('KingFeudalMaleCyrodiil')]"
 king_feudal_female_cyrodiil:0 "[CHARACTER.Custom('KingFeudalFemaleCyrodiil')]"
 kingdom_feudal_cyrodiil:0 "[CHARACTER.Custom('KingdomFeudalCyrodiil')]"
-
-prince_cyrodiil:0 "Принц"
-princess_cyrodiil:0 "Принцесса"
 
 warlord_male_cyrodiil:0 "[CHARACTER.Custom('WarlordMaleCyrodiil')]"
 warlord_female_cyrodiil:0 "[CHARACTER.Custom('WarlordFemaleCyrodiil')]"
