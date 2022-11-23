@@ -11,8 +11,8 @@
  ## DATE Replacements
  # ERA
  ERA_SEL_IG:0 "[Select_CString( GreaterThanOrEqualTo_int32(FixedPointToInt(EmptyScope.ScriptValue('era_3_year')), '(int32)1'), $ERA_3E_IG$, $ERA_2E_IG$)]"
- ERA_3E_IG:0 "Select_CString( GreaterThanOrEqualTo_int32( '(int32)$YEAR$', FixedPointToInt(EmptyScope.ScriptValue('era_3_year'))), '3E', $ERA_2E_IG$ )"
- ERA_2E_IG:0 "Select_CString( GreaterThanOrEqualTo_int32( '(int32)$YEAR$', $ERA_FIRST_END$ ), '2E', '1E' )" 
+ ERA_3E_IG:0 "Select_CString( GreaterThanOrEqualTo_int32( '(int32)$YEAR$', FixedPointToInt(EmptyScope.ScriptValue('era_3_year'))), '3Э', $ERA_2E_IG$ )"
+ ERA_2E_IG:0 "Select_CString( GreaterThanOrEqualTo_int32( '(int32)$YEAR$', $ERA_FIRST_END$ ), '2Э', '1Э' )" 
  # YEAR
  YEAR_SEL_IG:0 "[Select_int32( GreaterThanOrEqualTo_int32(FixedPointToInt(EmptyScope.ScriptValue('era_3_year')), '(int32)1'), $YEAR_3E_IG$, $YEAR_2E_IG$)]"
  YEAR_3E_IG:0 "Select_int32( GreaterThanOrEqualTo_int32( '(int32)$YEAR$', FixedPointToInt(EmptyScope.ScriptValue('era_3_year'))), Subtract_int32( '(int32)$YEAR$', Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThanOrEqualTo_int32( '(int32)$YEAR$', FixedPointToInt(EmptyScope.ScriptValue('era_3_year')) ) ), '(int32)1' ), FixedPointToInt(EmptyScope.ScriptValue('era_3_year')) ) ), $YEAR_2E_IG$ )"
@@ -77,7 +77,7 @@
  GAME_DATE_STRING:0 "$DAY|O$ $MONTH$, $ERA_SEL_IG$ $YEAR_SEL_IG$"
  GAME_DATE_STRING_SHORT:0 "$DAY|O$ $MONTH_SHORT$, $ERA_SEL_IG$ $YEAR_SEL_IG$"
  GAME_DATE_STRING_SHORT_NO_YEAR:0 "$DAY|O$ $MONTH$"
- GAME_DATE_STRING_LONG:2 "$DAY|O$ of $MONTH$, $ERA_SEL_IG$ $YEAR_SEL_IG$"
+ GAME_DATE_STRING_LONG:2 "$DAY|O$ $MONTH$, $ERA_SEL_IG$ $YEAR_SEL_IG$"
  
  ### Text replacements in main menu
  FRONTEND_CONTINUE_TT:1 "#T Continue From Save Game\n#!"[SaveGameItem.GetName]"\n[SaveGameItem.GetPlayerName|V]\n[SaveGameItem.GetTitleName|VU]\n[SaveGameItem.GetDate.GetStringShortNoYear|V], $ERA_SEL_SGI$ $YEAR_SEL_SGI$\n[Select_CString(SaveGameItem.IsCloudSave, 'Cloud Save', '' )]"

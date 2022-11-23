@@ -8,7 +8,7 @@
  OPEN_ARTIFACT_GRID_TOOLTIP:0 "#T Посмотреть Артефакты#!"
 
  bloodline_founder_name:0 "[CHARACTER.GetUINameNotMeNoFormat]" #need on death to reorder bloodline traits
- TRAIT_FLAG_DESC_bloodline_form_tamriel:0 "Может создать Империю Тамриэля"
+ TRAIT_FLAG_DESC_bloodline_form_tamriel:0 "Может создать Империю Тамриэль"
 
  # default is inherit:all matri_override:yes bastards:yes
 
