@@ -16,9 +16,9 @@
  hegemon_legacy_track_desc:0 "Большинство империй возникают и живут благодаря кровным узам. Как имя семьи звучит по всей земле, так и растет ее сила."
  
  hegemon_legacy_1_name:0 "Строители власти"
- CLAIM_DYNAST_SAME_COST_YOURSELF_PERK_BONUS:0 "[Concept('wars', 'Войны')|E] по [Concept('claim', 'претензии')|E] от имени члена вашей [dynasty|El] стоит столько же, сколько если бы вы были [claimant|El]"
+ CLAIM_DYNAST_SAME_COST_YOURSELF_PERK_BONUS:0 "[Concept('wars', 'Войны')|E] по [Concept('claim', 'претензии')|E] от имени члена вашей [Concept('dynasty', 'династии')|E] стоит столько же, сколько если бы вы были [Concept('claimant', 'претендентом')|El]"
  hegemon_legacy_2_name:0 "Стратегический непотизм"
- CHARACTER_STAT_DYNASTY_POWERFUL_VASSAL_PERK_BONUS:0 "#P +1#! [diplomacy_i|E], [martial_i|El], [stewardship_i|El], [intrigue_i|El], [learning_i|El] за каждого члена вашей [dynasty|El] в вашем [Concept('council', 'совете')|E] (до 5 раз)\nЭтот бонус увеличивается до #P +2#! если они [powerful_vassal|El]"
+ CHARACTER_STAT_DYNASTY_POWERFUL_VASSAL_PERK_BONUS:0 "#P +1#! [diplomacy_i|E], [martial_i|El], [stewardship_i|El], [intrigue_i|El], [learning_i|El] за каждого члена вашей [Concept('dynasty', 'династии')|E] в вашем [Concept('council', 'совете')|E] (до 5 раз)\nЭтот бонус увеличивается до #P +2#! если он [powerful_vassal|El]"
  hegemon_2_1_modifier:0 "$hegemon_legacy_2_name$"
  hegemon_legacy_3_name:0 "Популярное правление"
  hegemon_legacy_3_1:0 "$hegemon_legacy_3_name$"
