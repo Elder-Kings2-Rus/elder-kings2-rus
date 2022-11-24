@@ -1,9 +1,9 @@
 ﻿l_russian:
- single_combat.0001.unbounded_flames:1 "Давай посмотрим, нравится ли тебе быть поглощенным #EMP Unbounded Flames#!!"
- single_combat.0001.telekinesis:1 "Мой #EMP Telekinesis# will take you off your feet!"
- single_combat.0001.crystallized_shield:1 "Мой #EMP Crystallized Shield#! will not let me down!"
+ single_combat.0001.unbounded_flames:1 "Давай посмотрим, нравится ли тебе быть поглощенным #EMP Бесконечным пламенем#!!"
+ single_combat.0001.telekinesis:1 "Мой #EMP Телекинез# свалит тебя с ног!"
+ single_combat.0001.crystallized_shield:1 "Мой #EMP Кристализированный щит#! не подведет меня!"
  single_combat.0001.force_shock:1 "Вперед, мои магические силы!"
- single_combat.0001.storm_wall:1 "Мои магические способности позволяют мне поднять #EMP Wall of Storms#!!"
+ single_combat.0001.storm_wall:1 "Мои магические способности позволяют мне поднять #EMP Стену бурь#!!"
  
  single_combat.0001.desc.my_feedback.unbounded_flames:0 "Я бросаю серию огненных шаров в форме дуги, взрывая пространство вокруг противника. После взрыва на некоторое время остается стена огня, пылающая так же жарко, как пламя обливиона."
  single_combat.0001.desc.my_feedback.telekinesis:0 "Я слегка взмахиваю рукой, концентрируя свою магическую силу в теле моего врага. [my_foe.GetFirstNameNoTooltip] смотрит на меня, недоумевая, почему [my_foe.GetSheHe] больше не чувствует землю, через мгновение [my_foe.GetSheHe] снова начинает чувствовать землю в полной мере."
@@ -12,7 +12,7 @@
  single_combat.0001.desc.my_feedback.storm_wall:0 "Создавая руками древние магические знаки, я распыляю силу самих бурь на землю, создавая стену из молний, которая отделяет меня от моего врага."
 
  single_combat.0001.desc.opponent_response.unbounded_flames:0 "[my_foe.GetFirstNameNoTooltip] взмахивает своими пальцами, произнося магические слова, как сразу шквал бесконечного пламени окружает меня, взрываясь при соприкосновении с любым предметом. Когда я думаю, что мои мучения закончились, между мной и моим врагом остается огненная стена."
- single_combat.0001.desc.opponent_response.telekinesis:0 "[[my_foe.GetFirstNameNoTooltip] слегка взмахивает своей рукой, концентрируя [my_foe.GetHerHis] магическую силу в моём теле. Я смотрю на [my_foe.GetFirstHerHim] в замешательстве, удивляясь почему я больше не чувствую землю,  через мгновение я снова начинаю чувствовать землю в полной мере."
+ single_combat.0001.desc.opponent_response.telekinesis:0 "[my_foe.GetFirstNameNoTooltip] слегка взмахивает своей рукой, концентрируя [my_foe.GetHerHis] магическую силу в моём теле. Я смотрю на [my_foe.GetFirstHerHim] в замешательстве, удивляясь почему я больше не чувствую землю,  через мгновение я снова начинаю чувствовать землю в полной мере."
  single_combat.0001.desc.opponent_response.force_shock:0 "[my_foe.GetFirstNameNoTooltip] взмахивает своим [my_foe.Custom('signature_weapon')], закрывая глаза и призывая некую магическую силу. У меня нет времени парировать беспорядочные искры стихий, которые вылетают из [my_foe.GetHerHis] [my_foe.Custom('signature_weapon')], которые поражают меня."
  single_combat.0001.desc.opponent_response.crystallized_shield:0 "Я вижу, как мой враг закрывает глаза, пока наше окружение становится все холоднее. В считанные секунды передо мной и [my_foe.GetFirstNameNoTooltip] появляется толстый ледяной щит, защищающий [Select_CString(ROOT.GetCharacter.IsFemale, 'её', 'его' )] от моих атак."
  single_combat.0001.desc.opponent_response.storm_wall:0 "Создавая руками древние магические знаки, [my_foe.GetFirstNameNoTooltip] распыляет силу самих бурь на землю, создавая стену молний, которая отделяет меня от моего врага."
