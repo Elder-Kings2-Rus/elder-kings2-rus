@@ -33,9 +33,9 @@
  culture_parameter_moot_elective_enabled:0 "Может принять [succession_law|El] #high $moot_elective_succession_law$#!"
 
 ##BUILDING PARAMETERS
- culture_parameter_better_hunting_buildings:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_hunting_grounds_01$#! предостовляет дополнительные бонусы [Concept('counties', 'графствам')|E] этой [Concept('culture', 'культуры')|E]"
- culture_parameter_better_pasture_buildings:0 "Цепочка [Concept('culture', 'культуры')|E] #V $building_type_pastures_01$#! предостовляет дополнительные бонусы [Concept('counties', 'графствам')|E] этой [Concept('culture', 'культуры')|E]"
- culture_parameter_better_barrack_buildings:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_barracks_01$#! предостовляет дополнительные бонусы [Concept('counties', 'графствам')|E] этой [Concept('culture', 'культуры')|E]"
+ culture_parameter_better_hunting_buildings:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_hunting_grounds_01$#! предоставляет дополнительные бонусы [Concept('counties', 'графствам')|E] этой [Concept('culture', 'культуры')|E]"
+ culture_parameter_better_pasture_buildings:0 "Цепочка [Concept('culture', 'культуры')|E] #V $building_type_pastures_01$#! предоставляет дополнительные бонусы [Concept('counties', 'графствам')|E] этой [Concept('culture', 'культуры')|E]"
+ culture_parameter_better_barrack_buildings:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_barracks_01$#! предоставляет дополнительные бонусы [Concept('counties', 'графствам')|E] этой [Concept('culture', 'культуры')|E]"
 
 ##TRAITS PARAMETERS
  culture_parameter_honorable_traits_bonuses:0 "[trait|E] «[GetTrait('honest').GetName( GetNullCharacter )]» и «[GetTrait('arrogant').GetName( GetNullCharacter )]» дает дополнительные бонусы"
