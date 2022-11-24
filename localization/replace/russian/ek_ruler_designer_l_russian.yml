@@ -10,7 +10,10 @@
  ek_selected_furstock:0 "ek_selected_furstock"
  ek_selected_birthsign:0 "ek_selected_birthsign"
 
-
+ TOGGLE_NATURAL_LIGHTING:0 "Естественное освещение"
+ RULER_DESIGNER_ENVIRONMENT:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_natural_lighting', 'true' ), 'environment_cw_west', 'ek_ruler_designer_environment' )]"
+ 
+ RULER_DESIGNER_TOGGLE_SHOW_ACCESSORIES_LABEL:0 "Показать волосы и одежду"
 
  MISSING_FURSTOCK_TOOLTIP:0 "@warning_icon!#X Необходимо выбрать вид меха#!"
 
@@ -455,73 +458,236 @@
 #Hide skin complexions for argonians, khajiit and lilmothiit
  complexion:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ), Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') ) ) ), '', 'Skin Complexion' )]"
 
- complexion_8:0 "Тип лица 8"
- complexion_9:0 "Тип лица 9"
- complexion_10:0 "Тип лица 10"
- complexion_11:0 "Тип лица 11"
- complexion_12:0 "Тип лица 12"
- complexion_13:0 "Тип лица 13"
- complexion_14:0 "Тип лица 14"
- complexion_15:0 "Тип лица 15"
- complexion_16:0 "Тип лица 16"
- complexion_17:0 "Тип лица 17"
- complexion_18:0 "Тип лица 18"
- complexion_19:0 "Тип лица 19"
- complexion_20:0 "Тип лица 20"
- complexion_21:0 "Тип лица 21"
- complexion_22:0 "Тип лица 22"
- complexion_23:0 "Тип лица 23"
- complexion_24:0 "Тип лица 24"
- complexion_25:0 "Тип лица 25"
- complexion_26:0 "Тип лица 26"
- complexion_27:0 "Тип лица 27"
- complexion_28:0 "Тип лица 28"
- complexion_11a:0 "Тип лица 29"
- complexion_12a:0 "Тип лица 30"
- complexion_13a:0 "Тип лица 31"
- complexion_14a:0 "Тип лица 32"
- complexion_15a:0 "Тип лица 33"
- complexion_16a:0 "Тип лица 34"
- complexion_1af:0 "Тип лица 35"
- complexion_2af:0 "Тип лица 36"
- complexion_3af:0 "Тип лица 37"
- complexion_4af:0 "Тип лица 38"
- complexion_5af:0 "Тип лица 39"
- complexion_6af:0 "Тип лица 40"
- complexion_7af:0 "Тип лица 41"
- complexion_29:0 "Тип лица 42"
- complexion_30:0 "Тип лица 44"
- complexion_31:0 "Тип лица 45"
- complexion_32:0 "Тип лица 46"
- complexion_33:0 "Тип лица 47"
- complexion_34:0 "Тип лица 48"
- complexion_35:0 "Тип лица 49"
- complexion_36:0 "Тип лица 50"
- complexion_37:0 "Тип лица 51"
- complexion_1in:0 "Тип лица 52"
- complexion_2in:0 "Тип лица 53"
- complexion_3in:0 "Тип лица 54"
- complexion_4in:0 "Тип лица 55"
- complexion_5in:0 "Тип лица 56"
- complexion_6in:0 "Тип лица 57"
- complexion_7in:0 "Тип лица 58"
- complexion_8in:0 "Тип лица 59"
- complexion_9in:0 "Тип лица 60"
- complexion_10in:0 "Тип лица 61"
- complexion_11in:0 "Тип лица 62"
- complexion_12in:0 "Тип лица 63"
- complexion_13in:0 "Тип лица 64"
- complexion_14in:0 "Тип лица 65"
- complexion_29a:0 "Тип лица 66"
- complexion_30a:0 "Тип лица 67"
- complexion_31a:0 "Тип лица 68"
- complexion_32a:0 "Тип лица 69"
- complexion_33a:0 "Тип лица 70"
- complexion_34a:0 "Тип лица 71"
- complexion_35a:0 "Тип лица 72"
- complexion_36a:0 "Тип лица 73"
- complexion_37a:0 "Тип лица 74"
- complexion_falmer:0 "Тип лица - Фалмер"
+  #complexion:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ), Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') ) ) ), '', 'Skin Complexion' )]"
+
+ complexion_1_name:0 "Цвет лица 1"
+ complexion_1:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_1_name'), '' )]"
+
+ complexion_2_name:0 "Цвет лица 2"
+ complexion_2:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_2_name'), '' )]"
+
+ complexion_3_name:0 "Цвет лица 1"
+ complexion_3:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_3_name'), '' )]"
+
+ complexion_4_name:0 "Цвет лица 1"
+ complexion_4:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_4_name'), '' )]"
+
+ complexion_5_name:0 "Цвет лица 1"
+ complexion_5:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_5_name'), '' )]"
+
+ complexion_6_name:0 "Цвет лица 1"
+ complexion_6:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_6_name'), '' )]"
+
+ complexion_7_name:0 "Цвет лица 1"
+ complexion_7:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_7_name'), '' )]"
+
+ complexion_8_name:0 "Цвет лица 8"
+ complexion_8:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_8_name'), '' )]"
+
+ complexion_9_name:0 "Цвет лица 9"
+ complexion_9:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_9_name'), '' )]"
+
+ complexion_10_name:0 "Цвет лица 10"
+ complexion_10:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_10_name'), '' )]"
+
+ complexion_11_name:0 "Цвет лица 11"
+ complexion_11:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_11_name'), '' )]"
+
+ complexion_12_name:0 "Цвет лица 12"
+ complexion_12:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_12_name'), '' )]"
+
+ complexion_13_name:0 "Цвет лица 13"
+ complexion_13:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_13_name'), '' )]"
+
+ complexion_14_name:0 "Цвет лица 14"
+ complexion_14:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_14_name'), '' )]"
+
+ complexion_15_name:0 "Цвет лица 15"
+ complexion_15:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_15_name'), '' )]"
+
+ complexion_16_name:0 "Цвет лица 16"
+ complexion_16:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_16_name'), '' )]"
+
+ complexion_17_name:0 "Цвет лица 17"
+ complexion_17:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_17_name'), '' )]"
+
+ complexion_18_name:0 "Цвет лица 18"
+ complexion_18:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_18_name'), '' )]"
+
+ complexion_19_name:0 "Цвет лица 19"
+ complexion_19:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_19_name'), '' )]"
+
+ complexion_20_name:0 "Цвет лица 20"
+ complexion_20:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_20_name'), '' )]"
+
+ complexion_21_name:0 "Цвет лица 21"
+ complexion_21:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_21_name'), '' )]"
+
+ complexion_22_name:0 "Цвет лица 22"
+ complexion_22:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_22_name'), '' )]"
+
+ complexion_23_name:0 "Цвет лица 23"
+ complexion_23:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_23_name'), '' )]"
+
+ complexion_24_name:0 "Цвет лица 24"
+ complexion_24:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_24_name'), '' )]"
+
+ complexion_25_name:0 "Цвет лица 25"
+ complexion_25:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_25_name'), '' )]"
+
+ complexion_26_name:0 "Цвет лица 26"
+ complexion_26:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_26_name'), '' )]"
+
+ complexion_27_name:0 "Цвет лица 27"
+ complexion_27:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_27_name'), '' )]"
+
+ complexion_28_name:0 "Цвет лица 28"
+ complexion_28:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_28_name'), '' )]"
+
+ complexion_11a_name:0 "Цвет лица 29"
+ complexion_11a:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_11a_name'), '' )]"
+
+ complexion_12a_name:0 "Цвет лица 30"
+ complexion_12a:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_12a_name'), '' )]"
+
+ complexion_13a_name:0 "Цвет лица 31"
+ complexion_13a:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_13a_name'), '' )]"
+
+ complexion_14a_name:0 "Цвет лица 32"
+ complexion_14a:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_14a_name'), '' )]"
+
+ complexion_15a_name:0 "Цвет лица 33"
+ complexion_15a:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_15a_name'), '' )]"
+
+ complexion_16a_name:0 "Цвет лица 34"
+ complexion_16a:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_16a_name'), '' )]"
+
+ complexion_1af_name:0 "Цвет лица 35"
+ complexion_1af:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_1af_name'), '' )]"
+
+ complexion_2af_name:0 "Цвет лица 36"
+ complexion_2af:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_2af_name'), '' )]"
+
+ complexion_3af_name:0 "Цвет лица 37"
+ complexion_3af:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_3af_name'), '' )]"
+
+ complexion_4af_name:0 "Цвет лица 38"
+ complexion_4af:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_4af_name'), '' )]"
+
+ complexion_5af_name:0 "Цвет лица 39"
+ complexion_5af:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_5af_name'), '' )]"
+
+ complexion_6af_name:0 "Цвет лица 40"
+ complexion_6af:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_6af_name'), '' )]"
+
+ complexion_7af_name:0 "Цвет лица 41"
+ complexion_7af:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_7af_name'), '' )]"
+
+ complexion_29_name:0 "Цвет лица 42"
+ complexion_29:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_29_name'), '' )]"
+
+ complexion_30_name:0 "Цвет лица 44"
+ complexion_30:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_30_name'), '' )]"
+
+ complexion_31_name:0 "Цвет лица 45"
+ complexion_31:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_31_name'), '' )]"
+
+ complexion_32_name:0 "Цвет лица 46"
+ complexion_32:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_32_name'), '' )]"
+
+ complexion_33_name:0 "Цвет лица 47"
+ complexion_33:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_33_name'), '' )]"
+
+ complexion_34_name:0 "Цвет лица 48"
+ complexion_34:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_34_name'), '' )]"
+
+ complexion_35_name:0 "Цвет лица 49"
+ complexion_35:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_35_name'), '' )]"
+
+ complexion_36_name:0 "Цвет лица 50"
+ complexion_36:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_36_name'), '' )]"
+
+ complexion_37_name:0 "Цвет лица 51"
+ complexion_37:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_37_name'), '' )]"
+
+ complexion_1in_name:0 "Цвет лица 52"
+ complexion_1in:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_1in_name'), '' )]"
+
+ complexion_2in_name:0 "Цвет лица 53"
+ complexion_2in:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_2in_name'), '' )]"
+
+ complexion_3in_name:0 "Цвет лица 54"
+ complexion_3in:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_3in_name'), '' )]"
+
+ complexion_4in_name:0 "Цвет лица 55"
+ complexion_4in:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_4in_name'), '' )]"
+
+ complexion_5in_name:0 "Цвет лица 56"
+ complexion_5in:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_5in_name'), '' )]"
+
+ complexion_6in_name:0 "Цвет лица 57"
+ complexion_6in:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_6in_name'), '' )]"
+
+ complexion_7in_name:0 "Цвет лица 58"
+ complexion_7in:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_7in_name'), '' )]"
+
+ complexion_8in_name:0 "Цвет лица 59"
+ complexion_8in:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_8in_name'), '' )]"
+
+ complexion_9in_name:0 "Цвет лица 60"
+ complexion_9in:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_9in_name'), '' )]"
+
+ complexion_10in_name:0 "Цвет лица 61"
+ complexion_10in:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_10in_name'), '' )]"
+
+ complexion_11in_name:0 "Цвет лица 62"
+ complexion_11in:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_11in_name'), '' )]"
+
+ complexion_12in_name:0 "Цвет лица 63"
+ complexion_12in:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_12in_name'), '' )]"
+
+ complexion_13in_name:0 "Цвет лица 64"
+ complexion_13in:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_13in_name'), '' )]"
+
+ complexion_14in_name:0 "Цвет лица 65"
+ complexion_14in:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_14in_name'), '' )]"
+
+ complexion_29a_name:0 "Цвет лица 66"
+ complexion_29a:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_29a_name'), '' )]"
+
+ complexion_30a_name:0 "Цвет лица 67"
+ complexion_30a:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_30a_name'), '' )]"
+
+ complexion_31a_name:0 "Цвет лица 68"
+ complexion_31a:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_31a_name'), '' )]"
+
+ complexion_32a_name:0 "Цвет лица 69"
+ complexion_32a:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_32a_name'), '' )]"
+
+ complexion_33a_name:0 "Цвет лица 70"
+ complexion_33a:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_33a_name'), '' )]"
+
+ complexion_34a_name:0 "Цвет лица 71"
+ complexion_34a:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_34a_name'), '' )]"
+
+ complexion_35a_name:0 "Цвет лица 72"
+ complexion_35a:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_35a_name'), '' )]"
+
+ complexion_36a_name:0 "Цвет лица 73"
+ complexion_36a:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_36a_name'), '' )]"
+
+ complexion_37a_name:0 "Цвет лица 74"
+ complexion_37a:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_37a_name'), '' )]"
+
+ complexion_falmer_name:0 "Фалмерский цвет лица"
+ complexion_falmer:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_falmer_name'), '' )]"
+
+ complexion_khajiit_name:0 "Каджитский цвет лица"
+ complexion_khajiit:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_LILMOTHIIT') ) ), Localize('complexion_khajiit_name'), '' )]"
+
+ complexion_lilmothiit_name:0 "Лилмотиитский цвет лица"
+ complexion_lilmothiit:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_LILMOTHIIT') ) ), Localize('complexion_lilmothiit_name'), '' )]"
+
 
  gene_bs_ear_lobe:0 "Форма мочки уха"
  ear_lobe_fused:0 "Сросшаяся мочка уха"
@@ -646,4 +812,57 @@ hairline_type:0 "Тип линии роста волос"
 receding:0 "Залысина"
 widows_peak:0 "Вдовий пик"
 
+gene_bs_body_shape:0 "Форма тела"
+body_shape_average:0 "Средний"
+body_shape_apple_half:0 "Половина яблока"
+body_shape_apple_full:0 "Полное яблоко"
+body_shape_hourglass_half:0 "Половина песочных часов"
+body_shape_hourglass_full:0 "Полные песочные часы"
+body_shape_pear_half:0 "Половина груши"
+body_shape_pear_full:0 "Полная груша"
+body_shape_rectangle_half:0 "Половина прямоугольника"
+body_shape_rectangle_full:0 "Полный прямоугольник"
+body_shape_triangle_half:0 "Половина треугольника"
+body_shape_triangle_full:0 "Полный треугольник"
+
+ race_khajiit_ear_tufts:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ), 'Khajiit Ear Tufts', '' )]"
+ no_ear_tufts:0 "Нет ушных пучков"
+ khajiit_ear_tufts:0 "Ушные пучки"
+
+ beast_race_decal_layer_02:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ), 'Особенность меха', '' )]"
+
+ beast_race_decal_layer_03:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ), 'Меховые Узоры', '' )]"
+
+ beast_race_decal_layer_04:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ), 'Мех', '' )]"
+
+ beast_race_decal_layer_05:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ), 'Меховые белые пятна', '' )]"
+
+ bust_default:0 "Бюст по умолчанию"
+ bust_shape_1_half:0 "Форма груди I половина"
+ bust_shape_1_full:0 "Форма груди I полная"
+ bust_shape_2_half:0 "Форма груди II половина"
+ bust_shape_2_full:0 "Форма груди II полная"
+ bust_shape_3_half:0 "Форма груди III половина"
+ bust_shape_3_full:0 "Форма груди III полная"
+ bust_shape_4_half:0 "Форма груди IV половина"
+ bust_shape_4_full:0 "Форма груди IV полная"
+
+ gene_age:0 "Тип старения"
+ old_1:0 "Старение I"
+ old_2:0 "Старение II"
+ old_3:0 "Старение III"
+ old_4:0 "Старение IV"
+ ek_old_1:0 "Старение V"
+ old_elf:0 "Мерское Старение"
+
+ expression_forehead_wrinkles:0 "Морщины на лбу"
+ forehead_wrinkles_01:0 "Морщины на лбу I"
+ forehead_wrinkles_02:0 "Морщины на лбу II"
+ forehead_wrinkles_03:0 "Морщины на лбу III"
+
+expression_other:0 "Другие морщины"
+cheek_wrinkles_left_01:0 "Морщины на левой щеке"
+cheek_wrinkles_right_01:0 "Морщины на правой щеке"
+cheek_wrinkles_both_01:0 "Морщины на обеих щеках"
+nose_wrinkles_01:0 "Морщины на носу"
 

@@ -100,11 +100,11 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_arcana_good_1:0 "Сонастроенность"
  trait_arcana_good_1_desc:0 "Этот персонаж хорошо  сонастроен с Этериусом, что облегчает выполнение заклинаний."
  trait_arcana_good_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] хорошо [Select_CString(ROOT.GetCharacter.IsFemale, 'настроена', 'настроен' )] к магии, что облегчает выполнение заклинаний."
- trait_arcana_good_2:0 "Проницательность"
+ trait_arcana_good_2:0 "Восприятие"
  trait_arcana_good_2_desc:0 "Этот персонаж обладает острым восприятием магии, легко выполняя впечатляющие заклинания."
  trait_arcana_good_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] обладает острым восприятием магии, легко выполняя впечатляющие заклинания."
  trait_arcana_good_3:0 "Связь Этериуса"
- trait_arcana_good_3_desc:0 "Этот персонаж манипулирует магией, так, словно [ROOT.GetCharacter.GetSheHe][Select_CString(ROOT.GetCharacter.IsFemale, 'благословлена', 'благословлен' )] Этериусом, достигая магических чудес, едва прилагая усилия."
+ trait_arcana_good_3_desc:0 "Этот персонаж манипулирует магией так, словно [ROOT.GetCharacter.GetSheHe] [Select_CString(ROOT.GetCharacter.IsFemale, 'благословлена', 'благословлен' )] Этериусом, достигая магических чудес, едва прилагая усилия."
  trait_arcana_good_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] манипулирует магией, так, словно [ROOT.GetCharacter.GetSheHe] [Select_CString(ROOT.GetCharacter.IsFemale, 'благословлена', 'благословлен' )] Этериусом, достигая магических чудес, едва прилагая усилия."
  trait_arcana_bad:0 "Негативное сродство с Арканой"
  trait_arcana_bad_1:0 "Недостаточность"
@@ -269,7 +269,7 @@ trait_lifespan_5:1 "Продолжительность жизни V"
 
 trait_champion_malacath:0 "Чемпион $malacath$"
 trait_champion_malacath_desc:0 "этот персонаж является чемпионом $malacath$, $malacath_alt$."
-trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом malacath$, $malacath_alt$."
+trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом $malacath$, $malacath_alt$."
 
  # Coping mechanisms
  trait_skooma_drinker:0 "Зависимость от Скумы"
