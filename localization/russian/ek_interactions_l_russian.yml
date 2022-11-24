@@ -68,8 +68,8 @@
  CONTRACT_CULTURAL_RELIGIOUS_PRIVILEGE_REASON:0 "Культурные и религиозные привилегии: $VALUE|=+0$"
  cultural_protection_tt:0 "[feudal_contract|E] начнется с [GetVassalContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )]"
  
- EDUCATE_ME_OPTION_TRAIN_ARCANA_EFFECT:1 "Я буду обучен искусству Магии и станет #V Student of Magicka#! [trait|E]"
- EDUCATE_CHILD_OPTION_TRAIN_ARCANA_EFFECT:1 "Будет обучен искусству Магики и станет #V Student of Magicka#! [trait|E]"
+ EDUCATE_ME_OPTION_TRAIN_ARCANA_EFFECT:1 "Я буду обучен искусству Магии и стану #V Учеником Магии#! [trait|E]"
+ EDUCATE_CHILD_OPTION_TRAIN_ARCANA_EFFECT:1 "Будет обучен искусству Магии и станет #V Учеником Магии#! [trait|E]"
 
  consume_interaction:0 "Consume"
  consume_interaction_desc:0 "Consume [recipient.GetShortUINameNoTooltip] in the endeavor to increase [tsaescence|E]"
