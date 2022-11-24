@@ -1,8 +1,8 @@
 ﻿l_russian:
- hunt.1002.desc_wounded_courtier:0 "We follow the [ROOT.Char.Custom('LocalAnimal')] on its flight through a ravine, and suddenly [hunting_courtier_1.GetTitledFirstNamePossessive] [ROOT.Char.Custom('LocalMount')] loses its footing and sends [hunting_courtier_1.GetHerHim] to the ground, screaming.\n\nIt is nothing fatal, but the [hunting_courtier_1.GetTitleTierName] is twisting in pain."
- hunt.1002.desc:0 "My world narrows to the nature surrounding us as we follow the [ROOT.Char.Custom('LocalAnimal')] on its escape through a ravine. Riding side by side with [hunting_courtier_1.GetTitledFirstName], I can hear dogs barking, men shouting... Excitement flows through me as we slowly gain on our quarry!"
+ hunt.1002.desc_wounded_courtier:0 "Мы следим за [ROOT.Char.Custom('LocalAnimal')], летящим через овраг. Как вдруг [ROOT.Char.Custom('LocalMount')] сбивает [hunting_courtier_1.GetTitledFirstNamePossessive] с ног. [hunting_courtier_1.GetSheHe] падает на землю и начинает кричать.\n\nНичего смертельного, но [hunting_courtier_1.GetTitleTierName] скручивается от боли."
+ hunt.1002.desc:0 "Мой мир сужается до окружающей нас природы, когда мы следуем за [ROOT.Char.Custom('LocalAnimal')], убегающим через овраг. Скача бок о бок с [hunting_courtier_1.GetTitledFirstName], я слышу лай собак, крики мужчин... Волнение проникает в меня, когда мы медленно настигаем нашу добычу!"
  
  
- hunt.4012.desc:1 "I am riding ahead of the group as the [ROOT.Char.Custom('TerrainType')] suddenly grow still around me. The silence is almost palpable, and I struggle to hear even the noise of the [ROOT.Char.Custom('LocalMount')]'s breathing.\n\nJust as I am about to turn back to find the others I glimpse it ahead of me, blurry as in a dream – a [ROOT.Char.Custom('LocalAnimal')] as white as snow."
+ hunt.4012.desc:1 "Я еду впереди группы, когда вокруг меня внезапно появляются [ROOT.Char.Custom('TerrainType')]. Тишина почти осязаема, и мне трудно расслышать даже шум от дыхания [ROOT.Char.Custom('LocalMount')].\n\nКак раз когда я собираюсь повернуть назад, чтобы найти остальных, я вижу это впереди себя, животное размытое, как во сне, [ROOT.Char.Custom('LocalAnimal')] белый как снег."
 
- hunt.9001.desc_opening:0 "The hunt is drawing to an end. We mount our [ROOT.Char.Custom('LocalMountMultiple')] to leave the [ROOT.Char.Custom('TerrainType')] behind"
+ hunt.9001.desc_opening:0 "Охота подходит к концу. Мы садимся на [ROOT.Char.Custom('LocalMountMultiple')], чтобы оставить [ROOT.Char.Custom('TerrainType')] далеко позади."
