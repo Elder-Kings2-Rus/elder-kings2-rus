@@ -26,7 +26,7 @@
  ek_major_decisions.0023.option.a:0 "Назойливые орки!"
  ek_major_decisions.0023.option.b:0 "Славься [ROOT.Char.GetFaith.HighGodName]!"
  ek_major_decisions.0024.t:0 "Орсиниум пал!"
- ek_major_decisions.0024.desc:0 "Орсиниум снова пал. [Select_CString(ROOT.GetCharacter.IsFemale, 'Способная', 'Способный' )] [orsinium_conqueror.GetFullNameNicknamed] [Select_CString(ROOT.GetCharacter.IsFemale, 'завоевала', 'завоевал' )] столицу всех орков, что заставило их вновь рассеяться по внутренним землям Тамриэля."
+ ek_major_decisions.0024.desc:0 "Орсиниум снова пал. [Select_CString(orsinium_conqueror.IsFemale, 'Способная', 'Способный' )] [orsinium_conqueror.GetFullNameNicknamed] [Select_CString(orsinium_conqueror.IsFemale, 'завоевала', 'завоевал' )] столицу всех орков, что заставило их вновь рассеяться по внутренним землям Тамриэля."
  ek_major_decisions.0024.option.a:0 "Он пал, как и всегда."
  ek_major_decisions.0024.option.b:0 "Позор [ROOT.Char.GetFaith.HighGodName]а!"
  
