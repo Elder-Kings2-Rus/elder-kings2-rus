@@ -5,7 +5,7 @@
  hostages_war_defeat_desc:0 "Все [prisoners|E] и подневольные [concubines|E] остануться в пределах двора [defender.GetShortUIName|U]. [attacker.GetShortUIName|U] выплатит дань [defender.GetShortUIName|U] в качестве репараций."
 
  fc_war_event.0001.t:0 "Освобождение своих родственников"
- fc_war_event.0001.desc:0 "[attacker.GetShortUIName|U] идет на нас, стремясь освободить [attacker.GetHerHis] родственников, которых мы держим в плену.\n\nВозможно, мы могли бы заключить мир и освободить пленников, которых [attacker.GetFirstName] хочет забрать.\n\nИли, быть может, мы должны показать [attacker.GetHerHim], что с нами не стоит связываться. [fc_chosen_captive.GetFirstName] [Select_CString(current_hostages_war_prisoner.IsFemale, 'была заключена', 'был заключен' )] нами, и [fc_chosen_captive.GetSheHe] послужит примером в дальнейшем."
+ fc_war_event.0001.desc:0 "[attacker.GetShortUIName|U] идет на нас, стремясь освободить [attacker.GetHerHis] родственников, которых мы держим в плену.\n\nВозможно, мы могли бы заключить мир и освободить пленников, которых [attacker.GetFirstName] хочет забрать.\n\nИли, быть может, мы должны показать [attacker.GetHerHim], что с нами не стоит связываться. [fc_chosen_captive.GetFirstName] [Select_CString(fc_chosen_captive.IsFemale, 'была заключена', 'был заключен' )] нами, и [fc_chosen_captive.GetSheHe] послужит примером в дальнейшем."
  fc_war_event.0001.a:0 "Отправьте заключенных обратно. Надеюсь, этого будет достаточно..."
  fc_war_event.0001.a.end_war:0 "[attacker.GetFirstName] удовлетворён."
  fc_war_event.0001.a.end_war.ct:0 "Пленных проводят домой, и наши армии не столкнутся на поле боя."
