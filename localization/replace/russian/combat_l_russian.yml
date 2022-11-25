@@ -1,2 +1,2 @@
 ﻿l_russian:
- COMBAT_NAME:1 "Battle of [PROVINCE.GetNameNoTooltip] [SelectLocalization(PROVINCE.GetTitle.GetHolder.IsValid, '', PROVINCE.GetTerrain.GetNameNoTooltip)]"
+ COMBAT_NAME:1 "Битва в [PROVINCE.GetNameNoTooltip] [SelectLocalization(PROVINCE.GetTitle.GetHolder.IsValid, '', PROVINCE.GetTerrain.GetNameNoTooltip)]"
