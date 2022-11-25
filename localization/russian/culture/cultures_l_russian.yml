@@ -1,7 +1,7 @@
 ﻿l_russian:
- CULTURES_WITH_HERITAGE:0 "\n#bold Следующие культуры [CulturePillar.GetNameNoTooltip]:#!"
- CULTURE_NAME:0 "[Culture.GetName]#weak [AddTextIf( GetScriptedGui('culture_dead').IsShown(GuiScope.SetRoot(Culture.MakeScope).End), ' (dead)' )]#!"
- CULTURE_DEAD:0 "[THIS.Culture.GetName] #weak (мертва)#!"
+ CULTURES_WITH_HERITAGE:0 "\n#bold [CulturePillar.GetNameNoTooltip]ие культуры:#!"
+ CULTURE_NAME:0 "[Culture.GetName]#weak [AddTextIf( GetScriptedGui('culture_dead').IsShown(GuiScope.SetRoot(Culture.MakeScope).End), ' (мертвы)' )]#!"
+ CULTURE_DEAD:0 "[THIS.Culture.GetName] #weak (мертвы)#!"
  NATIVE_TO:0 "\n#bold Коренное население следующих регионов:#!"
  NATIVE_NOWHERE:0 "Нигде"
  NATIVE_NOMADIC:0 "Нигде, эта культура является кочевой"
