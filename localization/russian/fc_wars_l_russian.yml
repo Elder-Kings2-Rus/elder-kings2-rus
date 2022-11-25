@@ -5,7 +5,7 @@
  hostages_war_defeat_desc:0 "Все [prisoners|E] и подневольные [concubines|E] остануться в пределах двора [defender.GetShortUIName|U]. [attacker.GetShortUIName|U] выплатит дань [defender.GetShortUIName|U] в качестве репараций."
 
  fc_war_event.0001.t:0 "Освобождение своих родственников"
- fc_war_event.0001.desc:0 "[attacker.GetShortUIName|U] идет на нас, стремясь освободить [attacker.GetHerHis] родственников, которых мы держим в плену.\n\nВозможно, мы могли бы заключить мир и освободить пленников, которых [attacker.GetFirstName] хочет забрать.\n\nИли, быть может, мы должны показать [attacker.GetHerHim], что с нами не стоит связываться. [fc_chosen_captive.GetFirstName] [Select_CString(CHARACTER.IsFemale, 'была заключена', 'был заключен' )] нами, и [fc_chosen_captive.GetSheHe] послужит примером в дальнейшем."
+ fc_war_event.0001.desc:0 "[attacker.GetShortUIName|U] идет на нас, стремясь освободить [attacker.GetHerHis] родственников, которых мы держим в плену.\n\nВозможно, мы могли бы заключить мир и освободить пленников, которых [attacker.GetFirstName] хочет забрать.\n\nИли, быть может, мы должны показать [attacker.GetHerHim], что с нами не стоит связываться. [fc_chosen_captive.GetFirstName] [Select_CString(defender.IsFemale, 'была заключена', 'был заключен' )] нами, и [fc_chosen_captive.GetSheHe] послужит примером в дальнейшем."
  fc_war_event.0001.a:0 "Отправьте заключенных обратно. Надеюсь, этого будет достаточно..."
  fc_war_event.0001.a.end_war:0 "[attacker.GetFirstName] удовлетворён."
  fc_war_event.0001.a.end_war.ct:0 "Пленных проводят домой, и наши армии не столкнутся на поле боя."
@@ -25,7 +25,7 @@
  
  fc_war_event.0003.desc:0 "[attacker.GetShortUIName] послал небольшой отряд доверенных солдат вместе с ответом. Пленники были доставлены к ним, и [fc_chosen_captive.GetFirstName] вместе с остальными будет безопасно сопровожден к [attacker.GetFirstName].\n\nКак и было обещано, военные действия были немедленно прекращены.\n\nКажется, мы избежали худшего..."
  fc_war_event.0003.a:0 "Возможно, это даже к лучшему."
- fc_war_event.0003.a.prisoner_liberated.ct:0 "[current_hostages_war_prisoner.GetFirstName] [Select_CString(CHARACTER.IsFemale, 'была освобождена', 'был освобожден' )]"
+ fc_war_event.0003.a.prisoner_liberated.ct:0 "[current_hostages_war_prisoner.GetFirstName] [Select_CString(defender.IsFemale, 'была освобождена', 'был освобожден' )]"
  fc_war_event.0003.a.end_war.ct:0 "The armies of [attacker.GetShortUIName] have been called back"
  
  fc_war_event.0004.desc:0 "Мы думали, что освобождения [fc_chosen_captive.GetFirstName] будет достаточно, чтобы заставить [attacker.GetShortUIName] передумать о войне. Похоже, этого оказалось недостаточно, и [attacker.GetSheHe] хочет большего, чем просто освободить семью.\n\nПленников вернули в их темницу, и, похоже, нам придется преподать [attacker.GetFirstName] урок."
@@ -33,8 +33,8 @@
  fc_war_event.0004.a.ct:0 "Война будет продолжаться до тех пор, пока одна из сторон не объявит о своей победе."
  fc_war_event.0004.b:0 "[attacker.GetFirstName] никогда не увидит их живыми!"
  
- fc_war_event.0005.desc:0 "Мы ожидали, что  [defender.GetShortUIName] отступит и отпустит пленников, или, возможно, притворится [Select_CString(CHARACTER.IsFemale, 'храброй', 'храбрым' )] и не пришлет нам ответ.\n\nНо, похоже, что вероломство и жестокость [defender.GetFirstName] были недооценены. Хотя мы получаем противоречивые сообщения, похоже, что [defender.GetSheHe] решил казнить [fc_chosen_captive.GetShortUIName]...\n\nУ нас нет другого выбора, кроме как наступать, идти на земли врага, и отомстить за [fc_chosen_captive.GetFirstName]!"
+ fc_war_event.0005.desc:0 "Мы ожидали, что  [defender.GetShortUIName] отступит и отпустит пленников, или, возможно, притворится [Select_CString(defender.IsFemale, 'храброй', 'храбрым' )] и не пришлет нам ответ.\n\nНо, похоже, что вероломство и жестокость [defender.GetFirstName] были недооценены. Хотя мы получаем противоречивые сообщения, похоже, что [defender.GetSheHe] решил казнить [fc_chosen_captive.GetShortUIName]...\n\nУ нас нет другого выбора, кроме как наступать, идти на земли врага, и отомстить за [fc_chosen_captive.GetFirstName]!"
  fc_war_event.0005.a:0 "За [fc_chosen_captive.GetFirstName]!"
  
- fc_war_event.0006.desc:0 "Даже наши худшие прогнозы не могли этого предвидеть. [defender.GetShortUIName], разгневанный нашим объявлением войны, решил казнить всех тех, кого [defender.GetSheHe] [Select_CString(CHARACTER.IsFemale, 'держала', 'держал' )] в плену и кто был близок к нам...\n\nУ нас нет выбора, кроме как идти дальше и отомстить за них на поле боя!"
- fc_war_event.0006.a:0 "Будь ты [Select_CString(CHARACTER.IsFemale, 'проклята', 'проклят' )]!"
+ fc_war_event.0006.desc:0 "Даже наши худшие прогнозы не могли этого предвидеть. [defender.GetShortUIName], разгневанный нашим объявлением войны, решил казнить всех тех, кого [defender.GetSheHe] [Select_CString(defender.IsFemale, 'держала', 'держал' )] в плену и кто был близок к нам...\n\nУ нас нет выбора, кроме как идти дальше и отомстить за них на поле боя!"
+ fc_war_event.0006.a:0 "Будь ты [Select_CString(defender.IsFemale, 'проклята', 'проклят' )]!"
