@@ -1,7 +1,7 @@
 ﻿l_russian:
  ### This file is only used to store hostility_overrired localisation, since we have a lot more than vanilla
  
- doctrine_parameter_hostility_override_hostility_doctrine_id_000:0 "That makes them [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_hostility_doctrine_id_000:0 "Это делает их [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
  
  ### Dynamic hostility
  ### THESE DOCTRINES ARE INVISIBLE AND USED IN THE BACKGROUND
