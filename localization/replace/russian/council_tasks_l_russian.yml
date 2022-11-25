@@ -1,3 +1,3 @@
 ﻿l_russian:
- task_promote_culture_effect_desc:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to [county.MakeScope.Var('culture_to_convert').Culture.GetName]"
- task_promote_culture_acceptance_effect_desc:1 "\n$TAB$The [cultural_acceptance|E] between the [county.GetProvince.GetCounty.GetCulture.GetCollectiveNoun] and the [county.MakeScope.Var('culture_to_convert').Culture.GetCollectiveNoun] decreases by [SCOPE.ScriptValue('culture_conversion_acceptance_impact')|N^/%]"
+ task_promote_culture_effect_desc:0 "#S При #V 100%#!#!:\n$TAB$ [county|E] изменит [culture|El] на #L[county.MakeScope.Var('culture_to_convert').Culture.GetCollectiveNoun]ую#!" #в 2 и 3 строке могут быть проблемы у склонений культур. Например у аргониан есть культура "Паатру", её нельзя склонить как обычно, там получится "Паатруой"
+ task_promote_culture_acceptance_effect_desc:1 "\n$TAB$[cultural_acceptance|E] между #L [county.GetProvince.GetCounty.GetCulture.GetCollectiveNoun]ой#! и #L [county.MakeScope.Var('culture_to_convert').Culture.GetCollectiveNoun]ой#! уменьшится на [SCOPE.ScriptValue('culture_conversion_acceptance_impact')|N^/%]"
