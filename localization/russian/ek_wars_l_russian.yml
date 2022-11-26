@@ -46,9 +46,9 @@
  pirate_extract_tribute_cb_defeat_desc:0 "[attacker.GetShortUIName|U] вынужден заплатить [defender.GetShortUIName|U] за ущерб, нанесенный войной."
  
  attrebus_potentate_cb:0 "Восстание против Потентата"
- attrebus_potentate_cb_defeat_desc:0 "[defender.GetShortUIName|U] остается на посту Потентата Cиродила. [attacker.GetShortUIName|U] заключен в тюрьму и опозорен, а конфедерация Коловианского Союза распадается."
- attrebus_potentate_cb_defeat_desc_defender:0 "Вы остаетесь Потентатом Cиродила. [attacker.GetShortUIName|U] брошен в темницу, и конфедерация Коловианского Союза распалась...".
- attrebus_potentate_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] остается на посту Потентата Cиродила. Конфедерация Коловианского Союза распадется без своей цели, а вы будете брошены в подземелья Имперского города."
+ attrebus_potentate_cb_defeat_desc:0 "[defender.GetShortUIName|U] остается на посту Потентата Cиродила. [attacker.GetShortUIName|U] заключен в тюрьму и опозорен, а Коловианский Союз распадается."
+ attrebus_potentate_cb_defeat_desc_defender:0 "Вы остаетесь Потентатом Cиродила. [attacker.GetShortUIName|U] брошен в темницу, а Коловианский Союз распадается...".
+ attrebus_potentate_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] остается на посту Потентата Cиродила. Коловианский Союз распадется без своей цели, а вы будете брошены в подземелья Имперского города."
  attrebus_potentate_cb_victory_desc_defender:0 "[attacker.GetShortUIName|U] сокрушит Потентат, и Cиродил затаит дыхание, поскольку военачальник навсегда определит его историю...".
  attrebus_potentate_cb_victory_desc_attacker:0 "Потентат уничтожен. Поскольку Cиродил нуждается в сильной направляющей руке, а Совету Старейшин необходимо провести некоторые реформы, ты останешься за главного... на некоторое время".
  attrebus_potentate_cb_victory_desc:0 "[attacker.GetShortUIName|U] сокрушает Потентат, и Cиродил затаил дыхание, поскольку военачальник навсегда определит его историю...".
