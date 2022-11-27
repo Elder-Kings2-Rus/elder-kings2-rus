@@ -163,7 +163,7 @@
  trait_p_ob_molag:0 "Принц-покровитель - [ROOT.Char.Custom('GetObMolagName')]"
  trait_p_ob_molag_base:0 "Последователь Молага"
  trait_p_ob_molag_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ob_molag_desc' )]"
- trait_p_ob_molag_desc:0 "Последователь Молага Бала."
+ trait_p_ob_molag_desc:0 "Последователь Молаг Бала."
  trait_p_ob_molag_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Принца даэдра, известного как [ROOT.Char.Custom('GetObMolagName')]."
  
  trait_p_ob_namira:0 "Принц-покровитель - [ROOT.Char.Custom('GetObNamiraName')]"
