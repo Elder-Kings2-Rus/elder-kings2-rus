@@ -17,7 +17,7 @@
  accept_western_eastern_skyrim_divide_decision_desc:0 "После смерти верховного короля Логрольфа наша земля оказалась разделена между западными и восточными верховными королями.\nНи одной стороне не удаётся одержать верх, и поэтому, вероятно, настало время поговорить и признать друг друга верховными королями соответствующей половины провинции... Хотя бы на время."
  accept_western_eastern_skyrim_divide_decision_tooltip:0 "Пришло время дать нашей земле исцелиться и заключить мир с врагом."
  accept_western_eastern_skyrim_divide_decision_confirm:0 "За Скайрим."
- accept_western_eastern_skyrim_divide_decision.western_skyrim_vassals.tt:0 "К западному Скайриму относятся следующие земли: #V Солитьюд#!, #V Морфал#!, #V Маркарт#!, #V Вайтран#! иFalkreath#!"
+ accept_western_eastern_skyrim_divide_decision.western_skyrim_vassals.tt:0 "К западному Скайриму относятся следующие земли: #V Солитьюд#!, #V Морфал#!, #V Маркарт#!, #V Вайтран#! и #V Фолкрит#!"
  accept_western_eastern_skyrim_divide_decision.eastern_skyrim_vassals.tt:0 "К восточному Скайриму относятся следующие земли: #V Виндхельм#!, #V Винтерхолд#!, #V Рифтен#!, #V Данстар#! и #V Солстхейм#!"
  accept_western_eastern_skyrim_divide_decision.create_de_jure_empires.tt:0 "Каждая половина Скайрима теперь будет иметь собственное [de_jure|El] верховное королевство, претендующее на власть исключительно над землями, к которым оно было приписано."
  accept_western_eastern_skyrim_divide_decision.reunite_skyrim.tt:0 "Если одна половина Скайрима полностью объединит свой регион, она сможет #V бросить вызов другой половине за единство провинции#!, претендуя на титул #bold Верховного Королевства Скайрим#! в случае успеха."
