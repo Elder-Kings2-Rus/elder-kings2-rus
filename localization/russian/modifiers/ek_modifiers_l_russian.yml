@@ -754,7 +754,7 @@
 
  ### Tribes
  tribal_expected_level_of_fame_below:0 "[expected_prestige_level|E] не достигнут"
- tribal_expected_level_of_fame_below_desc:0 "Наш текущий [prestige_level|El] слишком низок, по сравнению с [Concept('expected_prestige_level','ожидаемым урвонем')|E]. Наши люди и вассалы меньше уважают нас из-за этого."
+ tribal_expected_level_of_fame_below_desc:0 "Наш текущий [prestige_level|El] слишком низок, по сравнению с [Concept('expected_prestige_level','ожидаемым уровнем')|E]. Наши люди и вассалы меньше уважают нас из-за этого."
  tribal_expected_level_of_fame_below_5:0 "$tribal_expected_level_of_fame_below$ (5)"
  tribal_expected_level_of_fame_below_5_desc:0 "$tribal_expected_level_of_fame_below_desc$"
  tribal_expected_level_of_fame_below_4:0 "$tribal_expected_level_of_fame_below$ (4)"
