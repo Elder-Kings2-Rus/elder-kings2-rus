@@ -11,13 +11,13 @@
  culture_parameter_unlock_urbanism_legacy:0 "[dynast|E] этой [Concept('culture', 'культуры')|E] может использовать #V $fp2_urbanism_legacy_track_name$#! [dynasty_perk|El]"
 
 ## MAA PARAMETERS
- culture_parameter_unlock_innovation_nordic_steelcarving:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_nordic_steelcarving$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('huscarl').GetName]" 
- culture_parameter_unlock_innovation_stalhrim_reinforced_furs:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_stalhrim_reinforced_furs$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('skaal_hunter').GetName]"
- culture_parameter_unlock_innovation_orichalc_master_smiths:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_orichalc_master_smiths$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('orc_marauders').GetName]"
- culture_parameter_unlock_innovation_colovian_steel_lorica:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_colovian_steel_lorica$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('armored_legionaires').GetName]"
- culture_parameter_unlock_innovation_shehai_sword_lore:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_shehai_sword_lore$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('yokudan_way_of_the_sword').GetName]"
- culture_parameter_unlock_innovation_corsair_traditions:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_corsair_traditions$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('abecean_pirates').GetName]" 
- culture_parameter_unlock_innovation_yoku_braided_stirrups:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_yoku_braided_stirrups$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('light_grazing_horde').GetName]"
+ culture_parameter_unlock_innovation_nordic_steelcarving:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_nordic_steelcarving$, что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('huscarl').GetName]" 
+ culture_parameter_unlock_innovation_stalhrim_reinforced_furs:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_stalhrim_reinforced_furs$, что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('skaal_hunter').GetName]"
+ culture_parameter_unlock_innovation_orichalc_master_smiths:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_orichalc_master_smiths$, что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('orc_marauders').GetName]"
+ culture_parameter_unlock_innovation_colovian_steel_lorica:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_colovian_steel_lorica$, что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('armored_legionaires').GetName]"
+ culture_parameter_unlock_innovation_shehai_sword_lore:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_shehai_sword_lore$, что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('yokudan_way_of_the_sword').GetName]"
+ culture_parameter_unlock_innovation_corsair_traditions:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_corsair_traditions$, что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('abecean_pirates').GetName]" 
+ culture_parameter_unlock_innovation_yoku_braided_stirrups:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_yoku_braided_stirrups$, что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('light_grazing_horde').GetName]"
 
 ##PERK PARAMETERS
  culture_parameter_strategist_xp_rebate:0 "Прогрессировать в стиле жизни Стратегия станет легче"
