@@ -1,6 +1,6 @@
 ﻿l_russian:
- INNOVATION_ERA_NOT_IN_YEAR:0 "#N This Era is not available until [Select_CString( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ), '2E', '1E' )] [Subtract_int32( '(int32)$YEAR$', Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ) ), '(int32)1' ), '(int32)2920' ) )] #!" # EK Era System
- CULTURE_CREATION_DATE:0 "Formed on [DATE.GetStringLong]"
- CULTURE_CREATION_DATE_DIVERGED:0 "Diverged from [CULTURE.GetName] on [DATE.GetStringLong]"
- CULTURE_CREATION_DATE_HYBRID:0 "Formed from [CULTURE.GetName] and [TARGET_CULTURE.GetName] on [DATE.GetStringLong]"
+ INNOVATION_ERA_NOT_IN_YEAR:0 "#N Эта эра не может начаться до [Select_CString( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ), '2Э', '1Э' )] [Subtract_int32( '(int32)$YEAR$', Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ) ), '(int32)1' ), '(int32)2920' ) )] #!" # EK Era System
+ CULTURE_CREATION_DATE:0 "Создана в [DATE.GetStringLong]"
+ CULTURE_CREATION_DATE_DIVERGED:0 "Отделилась от #L [CULTURE.GetCollectiveNoun|l]ой#! культуры в [DATE.GetStringLong]"
+ CULTURE_CREATION_DATE_HYBRID:0 "Возникла при смешении #L [CULTURE.GetCollectiveNoun|l]ой#! и #L [TARGET_CULTURE.GetCollectiveNoun|l]ой#! культур в [DATE.GetStringLong]"
  CULTURE_PILLAR_GENERAL_TOOLTIP:2 "[CulturePillar.GetEffectDescription( Culture.Self )][AddTextIf( Not(StringIsEmpty( CulturePillar.GetEffectDescription( Culture.Self ) )), Localize('line_break') )]\n[CulturePillar.GetDescription( Culture.Self )|F]"

@@ -36,8 +36,8 @@
  title_general_female:0 "Генерал"
  title_general_consort_male:1 "Верховный лорд"
  title_general_consort_female:1 "Верховная леди"
- title_grand_overlord:0 "Великий повелитель"
- title_grand_overlady:0 "Великая повелительница"
+ title_grand_overlord:0 "Верховный владыка"
+ title_grand_overlady:0 "Верховная владычица"
  
  title_high_kinlord_male:0 "Верховный кинлорд"
  title_high_kinlord_female:0 "Верховная кинледи"
@@ -703,10 +703,10 @@ duke_feudal_male_colovian_independent:1 "Герцог"
 duke_feudal_female_colovian_independent:1 "Герцогиня"
 
 #Nibenese
-duke_feudal_male_nibenese_independent:1 "Повелитель"
-duke_feudal_female_nibenese_independent:1 "Повелительница"
-king_feudal_male_nibenese_independent_cyrodiil:0 "Повелитель"
-king_feudal_female_nibenese_independent_cyrodiil:0 "Повелительница"
+duke_feudal_male_nibenese_independent:1 "Владыка"
+duke_feudal_female_nibenese_independent:1 "Владычица"
+king_feudal_male_nibenese_independent_cyrodiil:0 "Владыка"
+king_feudal_female_nibenese_independent_cyrodiil:0 "Владычица"
 
 #Orsimer Group
 baron_feudal_male_orsimer:0 "Вождь"
@@ -748,12 +748,12 @@ baron_republic_female_yokudan_group:0 "Магистрат"
 count_republic_male_yokudan_group:0 "Лорд-магистрат"
 count_republic_female_yokudan_group:0 "Леди-магистрат"
 
-count_feudal_male_yokudan_group:0 "Магнифицо"
-count_feudal_female_yokudan_group:0 "Магнифица"
-county_feudal_yokudan_group:0 "Магнифиценс"
-duke_feudal_male_yokudan_group:0 "Гранд"
-duke_feudal_female_yokudan_group:0 "Гранда"
-duchy_feudal_yokudan_group:0 "Грандство"
+count_feudal_male_yokudan_group:0 "Вельможа"
+count_feudal_female_yokudan_group:0 "Вельможная дама"
+county_feudal_yokudan_group:0 "Вельможество"
+duke_feudal_male_yokudan_group:0 "Сановник"
+duke_feudal_female_yokudan_group:0 "Сановница"
+duchy_feudal_yokudan_group:0 "Сановничество"
 
 #Alik'r
 king_feudal_male_alikr:0 "Султан"
