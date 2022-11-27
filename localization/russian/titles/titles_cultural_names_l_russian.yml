@@ -359,8 +359,8 @@
  cn_waterfront_adj:0 "Портоворайонск"
  cn_legion:0 "Легион"
  cn_legion_adj:0 "Легионск"
- cn_hestra:0 "Хестра"
- cn_hestra_adj:0 "Хестранск"
+ cn_hestra:0 "Гестра"
+ cn_hestra_adj:0 "Гестранск"
  cn_white_gold: "Белое Золото"
  cn_white_gold_adj: "Бело-золотск"
  cn_cyrod: "Сирод"
@@ -598,7 +598,8 @@
  cn_olmgerdheim:0 "Ольмгердхейм"
  cn_olmgerds_landing:0 "Высадка Ольмгерда"
  cn_ramimilk:0 "Рамимилк"
-
+ cn_mala_tor:0 "Мала Тор"
+ 
 #################
 ### Valenwood ###
 #################
@@ -714,8 +715,9 @@
 ###################
 ### Black Marsh ###
 ###################
- cn_orma_ka: "Орма-Ка"
- cn_orma_ko: "Орма-Ко"
+ cn_orma_ka: "Ормака"
+ cn_orma_ko: "Ормако"
+ cn_orma_ke: "Ормаке"                     
  cn_hutan_tzel: "Утан-Зел"
  cn_raj_satl: "Радж-Сатль"
  cn_raj_onkobra: "Радж-Онкобра"

@@ -5,7 +5,7 @@
  ek_rbm.0001.optA_uncontested:0 "Мое правление неоспоримо!"
  ek_rbm.0001.optA.rbm_too_young_tt:0 "[current_sibling.GetFirstName] #P слишком юного возраста,#! чтоб оспорить вашу претензию"
  ek_rbm.0001.optA.rbm_bastard_tt:0 "[current_sibling.GetTitledFirstName] #P считается [GetTrait('bastard').GetName( GetPlayer )]#! и не может оспорить вашу претензию"
- ek_rbm.0001.optA.rbm_challenge_tt:0 "[current_sibling.GetTitledFirstName] считает, что [current_sibling.GetSheHe] может #N оспарить ваше правопреемство#! и может попытаться бросить вам вызов в ближайшее время"
+ ek_rbm.0001.optA.rbm_challenge_tt:0 "[current_sibling.GetTitledFirstName] считает, что [current_sibling.GetSheHe] может #N оспорить ваше правопреемство#! и может попытаться бросить вам вызов в ближайшее время"
  ek_rbm.0001.optA.rbm_exile_tt:0 "[current_sibling.GetTitledFirstName] боится вышего гнева и непременно #P уйдет в изгнание#!"
  ek_rbm.0001.optA.rbm_peace_tt:0 "[current_sibling.GetTitledFirstName] #P согласится с вашей претензией#! и заключит с вами мир, #P отказываясь от всех претензий#! на ваши земли"
  

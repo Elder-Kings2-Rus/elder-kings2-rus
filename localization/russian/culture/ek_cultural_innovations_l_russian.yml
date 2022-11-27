@@ -131,11 +131,11 @@
  ### Special
  nativity_region_hack_tooltip_desc:0 "Эту инновацию нельзя исследовать, как и другие. Триггер ниже приведен только для того, чтобы показать вам масштабы аборигенских регионов".
  # EK TODO: Give the regions some better description, as it's kinda boring atm
- faster_culture_convert_region:0 "Как [Concept('natives', 'аборигены')|E] из провинции, эта культура имеет значительно увеличенную скорость преобразования культуры"
+ faster_culture_convert_region:0 "Как [Concept('natives', 'коренные жители')|E] провинции, эта культура имеет значительно увеличенную скорость преобразования культуры"
  ## Nativity
- innovation_native_nomadic:0 "Кочевая культура"
+ innovation_native_nomadic:0 "Мигрирующая культура"
  innovation_native_nomadic_desc:0 "Когда большинство людей предпочитают поселиться в одном месте, мы путешествуем по всему миру и берем с собой наших людей.."
- negate_non_native_penalty:0 "Может свести на нет часть штрафа за преобразование [Concept('culture', 'культуры')|E] от того, что вы не [Concept('native', 'абориген')|E] этой провинции"
+ negate_non_native_penalty:0 "Может свести на нет часть штрафа за преобразование [Concept('culture', 'культуры')|E] от того, что вы не [Concept('native', 'коренной житель')|E] этой провинции"
  easily_displaced_culture:0 "Провинции будут отходить от этой [Concept('culture', 'культуры')|E] гораздо более быстрыми темпами"
  
  innovation_native_glenumbra:0 "Аборигены Гленумбры"
@@ -196,13 +196,13 @@
  innovation_native_karth_desc:0 "Наш народ жил и процветал в Карте. Там, где другие пытаются построить простые поселения, мы возводим великие города и храмы."
  faster_culture_convert_karth:0 "$faster_culture_convert_region$ в Карте"
  innovation_native_west_ghost:0 "Аборигены западного Моря Призраков"
- innovation_native_west_ghost_desc:0 "Наш народ жил и процветал в Западном духе. Там, где другие пытаются построить простые поселения, мы возводим великие города и храмы."
+ innovation_native_west_ghost_desc:0 "Наш народ жил и процветал в западном Море Призраков. Там, где другие пытаются построить простые поселения, мы возводим великие города и храмы."
  faster_culture_convert_west_ghost:0 "$faster_culture_convert_region$ в Западном духе"
  innovation_native_white_river:0 "Аборигены Белой реки"
  innovation_native_white_river_desc:0 "Наш народ жил и процветал на Белой реке. Там, где другие пытаются построить простые поселения, мы возводим великие города и храмы."
  faster_culture_convert_white_river:0 "$faster_culture_convert_region$ на Белой реке"
  innovation_native_east_ghost:0 "Аборигены восточного Моря Призраков"
- innovation_native_east_ghost_desc:0 "Наш народ жил и процветал в Восточном духе. Там, где другие пытаются построить простые поселения, мы возводим великие города и храмы."
+ innovation_native_east_ghost_desc:0 "Наш народ жил и процветал в восточном Море Призраков. Там, где другие пытаются построить простые поселения, мы возводим великие города и храмы."
  faster_culture_convert_east_ghost:0 "$faster_culture_convert_region$ в Восточном духе"
  innovation_native_dark_water:0 "Аборигены Темноводья"
  innovation_native_dark_water_desc:0 "Наш народ жил и процветал в Темноводье. Там, где другие пытаются построить простые поселения, мы возводим великие города и храмы."

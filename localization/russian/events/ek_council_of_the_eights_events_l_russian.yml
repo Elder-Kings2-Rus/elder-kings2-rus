@@ -1,9 +1,9 @@
 ﻿l_russian:
- ek_coe.1001.t:0 "A Renewed Belief in Shezarr"
- ek_coe.1001.desc:0 "The recent debates and theological discussions surrounding the belief in Shezarr are rekindled the need for an official stance within the Council of the Eights.\n\nSpearheaded by [GetGlobalVariable('story_cycle_coe_global').Story.MakeScope.Var('coe_leader_faith').Faith.GetReligiousHead.GetFullName] and supported by the Nord Cult envoys, a movement to restore a belief in Shezarr quickly became the main faction within the Council.\n\nOpposed by the Breton Rites, the faction was ultimately successful, and the Council of the Eight officially adopted a motion strengthening the worship of Shezarr in each faith."
- ek_coe.1001.a:0 "Not-so-Missing God I suppose..."
- ek_coe_reform_worship_shezarr_become_strengthened:0 "The Council of the Eight Doctrine #V $coe_doctrine_worship_shezarr$#! gets the value #V $coe_doctrine_worship_shezarr_strenghtened$#!"
+ ek_coe.1001.t:0 "Шезаррин"
+ ek_coe.1001.desc:0 "Недавние дебаты и теологические дискуссии вокруг веры в Шезарр возродили необходимость официальной позиции в Совете Восьми.\n\n Движение за восстановление веры в Шезарров, под руководством [GetGlobalVariable('story_cycle_coe_global').Story.MakeScope.Var('coe_leader_faith').Faith.GetReligiousHead.GetFullName] и поддержанное рядом сторонников из числа нордов, быстро стало главной фракцией в Совете.\n\nОппонируемая противниками в лице бретонов, фракция в конце концов добилась успеха, и Совет Восьми официально принял предложение, усиливающее веру в Шезарров."
+ ek_coe.1001.a:0 "Думаю, что это не так уж и плохо..."
+ ek_coe_reform_worship_shezarr_become_strengthened:0 "Доктрина Совета Восьми #V $coe_doctrine_worship_shezarr$#! изменилась на #V $coe_doctrine_worship_shezarr_strenghtened$#!"
  
- ek_coe.2001.t:0 "Council Motion: Holy Orders"
- ek_coe.2001.desc:0 "With no delegate wanting to introduce a new permanent resolution, the decennial meeting of the Council of the Eight instead discussed the previous Council Motion, and what should be done for the next decade.\n\nWith the resurgence of religious conflicts and Daedra uprisings, the Council decided to issue a Motion encouraging every ruler to patron a new Holy Order, going as far as to sponsor whoevever would found a new one, assuming in part the cost of creating and maintaining these new religious warriors."
- ek_coe.2001.a:0 "Better to be prepared..."
+ ek_coe.2001.t:0 "Предложение Совета: Святые ордена"
+ ek_coe.2001.desc:0 "Поскольку никто из делегатов не захотел вносить новую резолюцию, на заседании Совета Восьм вместо этого обсуждалось предыдущие предложения Совета и то, что следует сделать в следующем десятилетии.\n\nВ связи с частым возникновением религиозных конфликтов и восстаний даэдра, Совет решил издать предложение, призывающее каждого правителя покровительствовать новому Святому Ордену, вплоть до спонсирования того, кто его основал, частично взяв на себя расходы по созданию и содержанию этих солдат, несущих справедливость божеств в наш мир."
+ ek_coe.2001.a:0 "Лучше подготовиться..."

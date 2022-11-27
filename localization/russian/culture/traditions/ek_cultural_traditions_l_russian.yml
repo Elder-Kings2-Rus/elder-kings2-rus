@@ -1,23 +1,23 @@
 ﻿l_russian:
  ### CULTURE PARAMETERS
- culture_parameter_bonuses_from_plunderer_trait:0 "Персонажи с [GetTrait('plunderer').GetName( GetNullCharacter )] [trait|E] считаются [prestige_i][prestigious|E] и могут быстрее [raid|E]"
- culture_parameter_unlocks_feudal_government:0 "Открывает [feudal_government|E] для [autocratic|E] [rulers|E]"
- culture_parameter_unlock_pirate_government:0 "Открывает [pirate_government|E] для [autocratic|E] [rulers|E]"
- culture_parameter_unlocks_praxis_government:0 "Открывает [praxis_government|E] для [autocratic|E] [rulers|E]"
- culture_parameter_weak_rulers_contest_rule:0 "Правитель с большим [prowess_i|E][prowess_skill|E] может заплатить [prestige|E] чтобы претендовать на [titles|E] принадлежащие другим правителям. Чем выше разница в мастерстве между правителями, тем ниже стоимость."
+ culture_parameter_bonuses_from_plunderer_trait:0 "Персонажи с [GetTrait('plunderer').GetName( GetNullCharacter )] [trait|El] считаются [prestige_i][prestigious|El] и могут быстрее проводить [raid|El]"
+ culture_parameter_unlocks_feudal_government:0 "Открывает [feudal_government|El] для [Concept('autocratic', 'автократичных')|E] [Concept('rulers', 'правителей')|E]"
+ culture_parameter_unlock_pirate_government:0 "Открывает [pirate_government|El] для [Concept('autocratic', 'автократичных')|E] [Concept('rulers', 'правителей')|E]"
+ culture_parameter_unlocks_praxis_government:0 "Открывает [praxis_government|El] для [Concept('autocratic', 'автократичных')|E] [Concept('rulers', 'правителей')|E]"
+ culture_parameter_weak_rulers_contest_rule:0 "Правитель с большим навыком [prowess_i|El][Concept('prowess_skill', 'доблести')|E] может заплатить [prestige|El] чтобы претендовать на [titles|El] принадлежащие другим правителям. Чем выше разница в мастерстве между правителями, тем ниже стоимость."
  culture_parameter_stewardship_education_worse_outcomes:0 "Персонажи этой культуры хуже справляются с обучением управления"
  culture_parameter_dueling_culture:0 "Персонажи этой культуры гораздо чаще предлагают и принимают дуэли"
- culture_parameter_unlock_pillage_legacy:0 "[dynast|E] этой [culture|E] может использовать #V $fp1_pillage_legacy_track_name$#! [dynasty_perk|E]"
- culture_parameter_unlock_urbanism_legacy:0 "[dynast|E] этой [culture|E] может использовать #V $fp2_urbanism_legacy_track_name$#! [dynasty_perk|E]"
+ culture_parameter_unlock_pillage_legacy:0 "[dynast|E] этой [Concept('culture', 'культуры')|E] может использовать #V $fp1_pillage_legacy_track_name$#! [dynasty_perk|El]"
+ culture_parameter_unlock_urbanism_legacy:0 "[dynast|E] этой [Concept('culture', 'культуры')|E] может использовать #V $fp2_urbanism_legacy_track_name$#! [dynasty_perk|El]"
 
 ## MAA PARAMETERS
- culture_parameter_unlock_innovation_nordic_steelcarving:0 "Открывает $innovation_nordic_steelcarving$ [innovation|E] что позволяет нанимать [GetMaA('huscarl').GetName] [men_at_arms|E]" 
- culture_parameter_unlock_innovation_stalhrim_reinforced_furs:0 "Открывает $innovation_stalhrim_reinforced_furs$ [innovation|E] что позволяет нанимать [GetMaA('skaal_hunter').GetName] [men_at_arms|E]"
- culture_parameter_unlock_innovation_orichalc_master_smiths:0 "Открывает $innovation_orichalc_master_smiths$ [innovation|E] что позволяет нанимать [GetMaA('orc_marauders').GetName] [men_at_arms|E]"
- culture_parameter_unlock_innovation_colovian_steel_lorica:0 "Открывает $innovation_colovian_steel_lorica$ [innovation|E] что позволяет нанимать [GetMaA('armored_legionaires').GetName] [men_at_arms|E]"
- culture_parameter_unlock_innovation_shehai_sword_lore:0 "Открывает $innovation_shehai_sword_lore$ [innovation|E] что позволяет нанимать [GetMaA('yokudan_way_of_the_sword').GetName] [men_at_arms|E]"
- culture_parameter_unlock_innovation_corsair_traditions:0 "Открывает $innovation_corsair_traditions$ [innovation|E] что позволяет нанимать [GetMaA('abecean_pirates').GetName] [men_at_arms|E]" 
- culture_parameter_unlock_innovation_yoku_braided_stirrups:0 "Открывает $innovation_yoku_braided_stirrups$ [innovation|E] что позволяет нанимать [GetMaA('light_grazing_horde').GetName] [men_at_arms|E]"
+ culture_parameter_unlock_innovation_nordic_steelcarving:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_nordic_steelcarving$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('huscarl').GetName]" 
+ culture_parameter_unlock_innovation_stalhrim_reinforced_furs:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_stalhrim_reinforced_furs$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('skaal_hunter').GetName]"
+ culture_parameter_unlock_innovation_orichalc_master_smiths:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_orichalc_master_smiths$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('orc_marauders').GetName]"
+ culture_parameter_unlock_innovation_colovian_steel_lorica:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_colovian_steel_lorica$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('armored_legionaires').GetName]"
+ culture_parameter_unlock_innovation_shehai_sword_lore:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_shehai_sword_lore$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('yokudan_way_of_the_sword').GetName]"
+ culture_parameter_unlock_innovation_corsair_traditions:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_corsair_traditions$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('abecean_pirates').GetName]" 
+ culture_parameter_unlock_innovation_yoku_braided_stirrups:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_yoku_braided_stirrups$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('light_grazing_horde').GetName]"
 
 ##PERK PARAMETERS
  culture_parameter_strategist_xp_rebate:0 "Прогрессировать в стиле жизни Стратегия станет легче"
@@ -25,37 +25,37 @@
  culture_parameter_overseer_xp_rebate:0 "Прогрессировать в стиле жизни Куратор станет легче"
  culture_parameter_torturer_xp_rebate:0 "Прогрессировать в стиле жизни Истязания станет легче"
 ## POSITION PARAMETERS
- culture_parameter_can_appoint_court_housecarl:0 "Может назначить #high $court_housecarl_court_position$#! [court_position|E]"
- culture_parameter_can_appoint_loremaster:0 "Может назначить #high $loremaster_court_position$#! [court_position|E]" 
- culture_parameter_can_appoint_court_wives:0 "Может назначить #high $huntwife_court_position$, $forgewife_court_position$ and $hearthwife_court_position$#! [court_positions|E]" 
+ culture_parameter_can_appoint_court_housecarl:0 "Доступна [Concept('court_position', 'придворная должность')|E] #high $court_housecarl_court_position$#!"
+ culture_parameter_can_appoint_loremaster:0 "Доступна [Concept('court_position', 'придворная должность')|E] #high $loremaster_court_position$#!" 
+ culture_parameter_can_appoint_court_wives:0 "Доступна [Concept('court_position', 'придворная должность')|E] #high $huntwife_court_position$, $forgewife_court_position$ и $hearthwife_court_position$#!" 
 
 ##LAW PARAMETERS
- culture_parameter_moot_elective_enabled:0 "Может принять #high $moot_elective_succession_law$#! [succession_law|E]"
+ culture_parameter_moot_elective_enabled:0 "Может принять [succession_law|El] #high $moot_elective_succession_law$#!"
 
 ##BUILDING PARAMETERS
- culture_parameter_better_hunting_buildings:0 "#V $building_type_hunting_grounds_01$#! линия [buildings|E] имеет дополнительные бонусы в [counties|E] этой [culture|E]"
- culture_parameter_better_pasture_buildings:0 "The #V $building_type_pastures_01$#! линия [buildings|E] имеет дополнительные бонусы в [counties|E] этой [culture|E]"
- culture_parameter_better_barrack_buildings:0 "The #V $building_type_barracks_01$#! линия [buildings|E] имеет дополнительные бонусы в [counties|E] этой [culture|E]"
+ culture_parameter_better_hunting_buildings:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_hunting_grounds_01$#! предоставляет дополнительные бонусы [Concept('counties', 'графствам')|E] этой [Concept('culture', 'культуры')|E]"
+ culture_parameter_better_pasture_buildings:0 "Цепочка [Concept('culture', 'культуры')|E] #V $building_type_pastures_01$#! предоставляет дополнительные бонусы [Concept('counties', 'графствам')|E] этой [Concept('culture', 'культуры')|E]"
+ culture_parameter_better_barrack_buildings:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_barracks_01$#! предоставляет дополнительные бонусы [Concept('counties', 'графствам')|E] этой [Concept('culture', 'культуры')|E]"
 
 ##TRAITS PARAMETERS
- culture_parameter_honorable_traits_bonuses:0 "Честность и Заносчивость дают бонусы"
- culture_parameter_gregarious_trait_more_common:0 "Черта Общительность встречается чаще"
- culture_parameter_arrogant_trait_more_common:0  "Черта Заносчивость встречается чаще"
- culture_parameter_honesty_valued:0  "Честными персонажами восхищаються, а Вероломных и Застенчивых презирают"
- culture_parameter_courage_valued:0  "Храбрыми персонажами восхищаються, а Трусливых и Бесчуственных презирают"
- culture_parameter_revenge_valued:0  "Мстительными персонажами восхищаються, а Незлобливых и Переменчевых презирают"
- culture_parameter_cruelty_valued:0  "Садистами персонажами восхищаються, а Сострадательных и Застенчевых презирают"
- culture_parameter_faith_valued:0  "Фанатичными персонажами восхищаються, а Циничных и Заносчивых презирают" 
- culture_parameter_forder_trait_bonuses:0  "Персонажи с Знанием брода могут высаживаться без штрафа и плыть быстрее" 
- culture_parameter_poorly_educated_leaders_greatly_distrusted_ceremoniarchy:0 "[rulers|E] с плохим [education_traits|E], такими как [GetTrait('education_martial_1').GetName( GetNullCharacter )] или [GetTrait('education_martial_2').GetName( GetNullCharacter )], полузуются #N greatly#! недоверием"
+ culture_parameter_honorable_traits_bonuses:0 "[trait|E] «[GetTrait('honest').GetName( GetNullCharacter )]» и «[GetTrait('arrogant').GetName( GetNullCharacter )]» дает дополнительные бонусы"
+ culture_parameter_gregarious_trait_more_common:0 "[trait|E] «[GetTrait('gregarious').GetName( GetNullCharacter )]» дает дополнительные бонусы"
+ culture_parameter_arrogant_trait_more_common:0  "[trait|E] «[GetTrait('arrogant').GetName( GetNullCharacter )]» дает дополнительные бонусы"
+ culture_parameter_honesty_valued:0  "Персонажей с [Concept('trait', 'чертой')|E] «[GetTrait('honest').GetName( GetNullCharacter )]» ценятся выше, а с «[GetTrait('deceitful').GetName( GetNullCharacter )]» или «[GetTrait('shy').GetName( GetNullCharacter )]» презираются"
+ culture_parameter_courage_valued:0  "Персонажей с [Concept('trait', 'чертой')|E] «[GetTrait('brave').GetName( GetNullCharacter )]» ценятся выше, а с «[GetTrait('craven').GetName( GetNullCharacter )]» или «[GetTrait('callous').GetName( GetNullCharacter )]» презираются"
+ culture_parameter_revenge_valued:0  "Персонажей с [Concept('trait', 'чертой')|E] «[GetTrait('vengeful').GetName( GetNullCharacter )]» ценятся выше, а с «[GetTrait('forgiving').GetName( GetNullCharacter )]» или «[GetTrait('fickle').GetName( GetNullCharacter )]» презираются"
+ culture_parameter_cruelty_valued:0  "Персонажей с [Concept('trait', 'чертой')|E] «[GetTrait('sadistic').GetName( GetNullCharacter )]» ценятся выше, а с «[GetTrait('compassionate').GetName( GetNullCharacter )]» или «[GetTrait('shy').GetName( GetNullCharacter )]» презираются"
+ culture_parameter_faith_valued:0  "Персонажей с [Concept('trait', 'чертой')|E] «[GetTrait('zealous').GetName( GetNullCharacter )]» ценятся выше, а с «[GetTrait('cynical').GetName( GetNullCharacter )]» или «[GetTrait('arrogant').GetName( GetNullCharacter )]» презираются"
+ culture_parameter_forder_trait_bonuses:0  "Персонажи с «[GetTrait('forder').GetName( GetNullCharacter )]» могут высаживаться без штрафа и плыть быстрее" 
+ culture_parameter_poorly_educated_leaders_greatly_distrusted_ceremoniarchy:0 "[rulers|E] с плохими [Concept('education_traits', 'свойствами образования')|E], такими как [GetTrait('education_martial_1').GetName( GetNullCharacter )] или [GetTrait('education_martial_2').GetName( GetNullCharacter )], полузуются #N большим#! недоверием"
 
 ##CHILD PERSONALITY PARAMETERS
- culture_parameter_curious_trait_more_common:0 "Черта Любознательность встречается чаще"
- culture_parameter_curious_trait_less_common:0 "Черта Любознательность встречается реже"
- culture_parameter_bossy_trait_more_common:0 "Черта Властность встречается чаще"
- culture_parameter_bossy_trait_less_common:0 "Черта Властность встречается реже"
- culture_parameter_charming_trait_more_common:0 "Черта Очарование встречается чаще"
- culture_parameter_charming_trait_less_common:0 "Черта Очарование встречается реже"
+ culture_parameter_curious_trait_more_common:0 "[trait|E] «[GetTrait('curious').GetName( GetNullCharacter )]» встречается чаще"
+ culture_parameter_curious_trait_less_common:0 "[trait|E] «[GetTrait('curious').GetName( GetNullCharacter )]» встречается реже"
+ culture_parameter_bossy_trait_more_common:0 "[trait|E] «[GetTrait('bossy').GetName( GetNullCharacter )]» встречается чаще"
+ culture_parameter_bossy_trait_less_common:0 "[trait|E] «[GetTrait('bossy').GetName( GetNullCharacter )]» встречается реже"
+ culture_parameter_charming_trait_more_common:0 "[trait|E] «[GetTrait('charming').GetName( GetNullCharacter )]» встречается чаще"
+ culture_parameter_charming_trait_less_common:0 "[trait|E] «[GetTrait('charming').GetName( GetNullCharacter )]» встречается реже"
 
 ##EVENTS PARAMETERS
  culture_parameter_wandering_poets_may_appear:0 "Бродячие поэты могут появиться при дворе, чтобы прославить или высмеять ваше правление"
@@ -102,4 +102,4 @@
  culture_parameter_good_arcana_traits_give_bonuses:0 "#V $trait_arcana_good$#! и #V $trait_education_magical_ability$#! [traits|E] ценятся больше"
  culture_parameter_bad_arcana_traits_give_maluses:0 "#V $trait_arcana_bad$#! [traits|E] на них смотрят свысока"
 
- CULTURE_NOT_NATIVE_FOR_DIVERGENCE:0 "Ваша [culture|E] же считается [Concept('native', 'аборигенской')|E] для вашего [Concept('capital', 'столичного')|E] [Concept('nativity_region', 'аборигенского региона')|E]"
+ CULTURE_NOT_NATIVE_FOR_DIVERGENCE:0 "[Concept('culture', 'Культура')|E] с таким [Concept('heritage', 'наследием')|E] уже считается [Concept('native', 'коренной')|E] для вашего [Concept('capital', 'столичного')|E] [Concept('nativity_region', 'родного региона')|E]"
