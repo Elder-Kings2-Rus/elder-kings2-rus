@@ -1857,86 +1857,86 @@ doctrine_sp_kj_dragon_desc: ""
     stress_gives_piety_stress_3:0 "$stress_gives_piety_stress$: (3)"
     stress_gives_piety_stress_3_desc:0 "$stress_gives_piety_stress_desc$"
  
- tenet_green_pact_name:0 "The Green Pact"
-    tenet_green_pact_desc:0 "Do not harm the forest. Do not eat anything made from plant life. Eat only meat. When you conquer your enemies, eat their flesh. Do not leave them to rot. Do not kill wastefully. Do not take on the shape of beasts. You are Wood Elves. Your form is sacred."
+ tenet_green_pact_name:0 "Зелёный пакт"
+    tenet_green_pact_desc:0 "Не причиняйте вреда лесу. Не ешьте ничего, что родом из растительного мира. Ешьте только мясо. После победы над врагами ешьте их плоть. Не оставляйте их гнить. Не убивайте понапрасну. Не принимайте облик зверей. Вы - лесные эльфы. Ваша форма священна."
     
- tenet_labyrinthine_canon_name:0 "Labyrinthine Canon"
-    tenet_labyrinthine_canon_desc:0 "As the Alessian Order’s clergy grew and religious matters fused with secular ones, the concept of The One deity became increasingly abstract and unknowable. By the time of its great collapse in the late 1st Era it contained endless laws and restrictions on every secular and spiritual matter imaginable."
+ tenet_labyrinthine_canon_name:0 "Крайне запутанный канон"
+    tenet_labyrinthine_canon_desc:0 "По мере увеличения духовенства Алессианского Ордена и слияния религиозных вопросов со светскими, концепция Единого божества становилась всё более абстрактной и непознаваемой. К моменту своего великого краха в конце I Эпохи канон содержал лишь бесконечные законы и ограничения по любым светским и духовным вопросам, какие только можно себе представить."
     
- tenet_legacy_of_reman_name:0 "Legacy of Reman"
-    tenet_legacy_of_reman_desc:0 "When the Akaviri invaded Tamriel in the First Era, they came not to conquer, but to find a prophecised hero of the Dragon Blood whom they could serve. This hero was Reman. After his death the Akaviri served his descendants militarily as the Dragonguard, and politically as the Potentates, who ruled the Empire in his name after the assassination of his heirs. Today Akaviri are scattered throughout the entirety of the former Empire, awaiting another divine ruler of the Dragon Blood to claim their birthright as Reman's heir and successor. \n \n The remaining Dragonguard, upon hearing the voice of Reman Cyrodiil, knelt and swore their lives to him, their conqueror and savior. The legion of warriors spoke as one: 'We have been searching, for you.'\n - Fragment of a 1st Era manuscript"
+ tenet_legacy_of_reman_name:0 "Наследие Ремана"
+    tenet_legacy_of_reman_desc:0 "Когда акавирцы вторглись в Тамриэль в Первой Эпохе, они пришли не ради завоеваний, а чтобы найти предсказанного пророчества героя, в чьих жилах течёт драконья кровь и кому они могли бы служить. Этим героем был Реман. После его смерти акавирцы служили его потомкам в качестве Драконьей Гвардии, а в политическом — как Потентаты, которые правили Империей от его имени после убийства его наследников. Сегодня акавирцы рассеяны по всей территории бывшей Империи и ожидают того момента, когда другой божественный драконорожденный правитель заявит о своих правах наследника и преемника Ремана. \n \n Остальные драконьи гвардейцы, услышав голос Ремана Сиродильского, встали на колени и поклялись ему, своему завоевателю и спасителю, в своей жизни. Легион воинов в унисон произнёс следующие слова: "Мы искали тебя".\n - Фрагмент рукописи 1-ой эпохи."
  
- tenet_exalted_heroism_name:0 "Exalted Heroism" 
-    tenet_exalted_heroism_desc:0 "Our faith reveres the heroes of our land, those who saved us in times of peril and those who led us to glory. The Ages of Heroes is unending, and the faithful willingly face countless challenges and hardships to emulate the heroes of old - in hope to be the heroes of tomorrow."
-    doctrine_parameter_new_saints:0 "Upon reaching the [prestige_level|E] of [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L] and the [piety_level|E] of [GetModifier( 'piety_level_5' ).GetNameWithTooltip|L], characters gain the [GetTrait('saint').GetName(GetNullCharacter)] trait"
-    doctrine_parameter_virtues_sins_decided_saints:0 "[virtues|E] and [sins|E] can be modified by new Saints\n#weak Upon ascending, the new Saint chooses one of their [personality_trait|E] to become a new [virtue|E], or the opposite of one of their [personality_trait|E] to become a [sin|E]. The same trait cannot be chosen by two different Saints.#!"
-    new_saint_change_virtue_sin:0 "As a new Saint you will have the opportunity to change a [virtue|E] or [sin|E] of your [faith|E]"
+ tenet_exalted_heroism_name:0 "Прославляемый героизм" 
+    tenet_exalted_heroism_desc:0 "Наша вера почитает героев нашей земли — тех, кто спас нас в трудные времена, и тех, кто вёл нас к славе. Век героев бесконечен, и верующие с готовностью подвергают себя бесчисленным испытаниям и трудностям, чтобы подражать героям прошлого в надежде стать героями завтрашнего дня."
+    doctrine_parameter_new_saints:0 "По достижению [Concept( 'prestige_level', 'уровня репутации' )|E] [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L] и [Concept( 'piety_level', 'уровня набожности' )|E] [GetModifier( 'piety_level_5' ).GetNameWithTooltip|L] персонажи получат свойство [GetTrait('saint').GetName(GetNullCharacter)]"
+    doctrine_parameter_virtues_sins_decided_saints:0 "[virtues|E] и [sins|El] могут быть изменены новыми святыми\n#weak При вознесении новый святой выбирает одного из своих [Concept( 'personality_trait', 'свойств личности' )|E] в качестве новой [Concept( 'virtue', 'добродетели' )|E] или противоположность одного из своих [Concept( 'personality_trait', 'свойств личности' )|E] в качестве нового [Concept( 'sin', 'греха' )|E]. Одно и то же свойство не может быть выбрано двумя разными святыми.#!"
+    new_saint_change_virtue_sin:0 "Вы — новый святой и у вас есть возможность изменить [virtues|El] или [sins|El] вашей [Concept( 'faith', 'конфессии' )|E]"
     # Previously
-    doctrine_parameter_prestige_lvl_5_piety_lvl_5_new_saint:0 "Upon reaching the [prestige_level|E] of [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L] and the [piety_level|E] of [GetModifier( 'piety_level_5' ).GetNameWithTooltip|L], characters can ascend and become a new [patron_deity|E]\n#weak The bonuses given by selecting this new Patron Deity are chosen by the ascending character#!"
-    doctrine_parameter_virtues_sins_decided_patron_deities:0 "[virtues|E] and [sins|E] are tied to the [patron_deities|E]\n#weak Upon ascending, the new Patron Deity chooses one of their [personality_trait|E] to become a ne [virtue|E], or the opposite of one of their [personality_trait|E] to become a [sin|E]. The same trait cannot be chosen by two different ascending characters.#!"
+    doctrine_parameter_prestige_lvl_5_piety_lvl_5_new_saint:0 "По достижению [Concept( 'prestige_level', 'уровня репутации' )|E] [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L] и [Concept( 'piety_level', 'уровня набожности' )|E] [GetModifier( 'piety_level_5' ).GetNameWithTooltip|L] персонажи могут вознестись и стать новым [Concept( 'patron_deity', 'божеством-покровителем' )|E]\n#weak Бонусы, получаемые при выборе нового божества-покровителя, выбираются возносящимся персонажем#!"
+    doctrine_parameter_virtues_sins_decided_patron_deities:0 "[virtues|E] и [sins|El] привязаны к [Concept( 'patron_deities', 'божествам-покровителям' )|E]\n#weak При вознесении новое божество-покровитель выбирает одного из своих [Concept( 'personality_trait', 'свойств личности' )|E] в качестве новой [Concept( 'virtue', 'добродетели' )|E] или противоположность одного из своих [Concept( 'personality_trait', 'свойств личности' )|E] в качестве нового [Concept( 'sin', 'греха' )|E]. Одно и то же свойство не может быть выбрано двумя разными возносящимися персонажами.#!"
   
- tenet_moon_worship_name:0 "Moon Worship"
-    tenet_moon_worship_desc:0 "The Moons are divine forces or entities that exert a tremendous, yet incomparably subtle influence upon the world, from the rising tides to the growth of plants to the cycle of waking and dreaming."
+ tenet_moon_worship_name:0 "Поклонение Луне"
+    tenet_moon_worship_desc:0 "Луны — это божественные силы или сущности, которые оказывают огромное, но весьма тонкое влияние на мир: от приливов и отливов до роста растений и цикла бодрствования-сна."
     
- tenet_clan_mothers_name:0 "Clan-Mothers"
-    tenet_clan_mothers_desc:0 "We live our faith in everything we do, by the instruction of our beloved clan-mothers who teach wisdom to the clans and in the cities alike."
+ tenet_clan_mothers_name:0 "Матери клана"
+    tenet_clan_mothers_desc:0 "Мы живем с нашей верой во всём, что делаем. Нас наставляют наши любимые матери клана, которые учат нас мудрости как в кланах, так и в городах."
     
- tenet_kuvastei_name:0 "Ku-Vastei"
-    tenet_kuvastei_desc:0 "#N Faiths with the [GetFaithDoctrine('tenet_kuvastei').GetBaseName] tenet cannot adopt [feudal_like_government|E]!#! \n \n In ancient times Argonian society deeply feared change and death as embodied by Sithis the Destroyer; but a great shift occurred known as Duskfall where the Hist taught them to not fear Sithis, but simply view him as the inevitable changes of life. After this radical revelation Argonians abandoned their great stone temples and cities, and nowadays embrace change by living in ‘the now’ - dwelling in semi-permanent homes, speaking only in the present tense, and paying little attention to petty disagreements or even the passage of time."
+ tenet_kuvastei_name:0 "Ку-вастей"
+    tenet_kuvastei_desc:0 "#N Конфессии с догматом [GetFaithDoctrine('tenet_kuvastei').GetBaseName] не могут принять [feudal_like_government|El]!#! \n \n В древние времена аргонианское общество глубоко боялось перемен и смерти, олицетворяемых Ситисом Разрушителем; но произошел великий сдвиг, известный как Сумеречье, когда Хист научил их не бояться Ситиса, а просто воспринимать его как неизбежные изменения жизни. После этого радикального откровения аргониане оставили свои великие каменные храмы и города и теперь принимают перемены, живя в "настоящем времени" — обитая в полупостоянных домах, говоря только в настоящем времени и не обращая внимания на мелкие разногласия или даже течение времени."
     
- tenet_shunatei_name:0 "Shunatei"
-    tenet_shunatei_desc:0 "Shunatei (literally "regretful stomach") refers to the Argonian concept of being pained by thoughts of the past, and anxious of what will come in the future. It is often used to describe the outlook ancient Sithis-worshipping Argonians had on the world - constant worry and fear about the imminent destruction of the universe by their god."
+ tenet_shunatei_name:0 "Шунатей"
+    tenet_shunatei_desc:0 "Шунатей (буквально "сожалеющий желудок") относится к аргонианской концепции, согласно которой аргониане испытывают боль от мыслей о прошлом и тревогу относительно того, что будет в будущем. Его часто используют для описания мировоззрения древних аргониан, поклоняющихся Ситису — постоянное беспокойство и страх перед неизбежным разрушением вселенной их богом."
  
- tenet_shunatei_alternate_name:0 "Guilt-Ridden" #PLACEHOLDER
-    tenet_shunatei_alternate_desc:0 "One can not flee from a guilt-ridden past and can only gain salvation from the same through admittance, contrition and expiation." #PLACEHOLDER
+ tenet_shunatei_alternate_name:0 "Чувство вины" #PLACEHOLDER
+    tenet_shunatei_alternate_desc:0 "Существо не может убежать от вины, вызванной проступками в прошлом. Оно может получить спасение лишь через признание, раскаяние и искупление." #PLACEHOLDER
     
- tenet_amberhist_name:0 "Amber Plasm"
-    tenet_amberhist_desc:0 "Amber Plasm is a substance leaked by some Hist trees, and is believed to be a form of 'chaotic creatia' from Oblivion. When harnessed properly it can grant those who consume it improved strength and reflexes, though excessive usage often results in insanity and glowing orange patches over the skin."
+ tenet_amberhist_name:0 "Янтарная плазма"
+    tenet_amberhist_desc:0 "Янтарная плазма — это вещество, выделяемое некоторыми деревьями Хист. Считается, что это форма "Креации хаоса" из Обливиона. При правильном использовании это вещество может дать тем, кто его потребляет, увеличенную силу и рефлексы, хотя чрезмерное употребление часто приводит к безумию и появлению светящихся оранжевых пятен на коже."
  
- tenet_all_maker_sacred_rituals_name:0 "Ristaag and Ritual of Gifts"
-    tenet_all_maker_sacred_rituals_desc:0 "When the land and our people are in need, we have ways to reinforce our bound to the All-Maker.\nThe Ristaag is a great hunt to cleanse, bless the land, and show our gratitute towards the All-Maker." #EK TODO \nThe Ritual of Gifts is a sacred pilgrimage to restore the Oneness of the land.\n\nBoth restore peace in Solstheim, in their own way.
-    doctrine_parameter_allows_ristaag_decision_active:0 "Enables the '$start_ristaag_decision$' [decision|E]"
-    doctrine_parameter_allows_ritual_of_the_gifts_decision_active:0 "Enables the '$start_ritual_of_the_gifts_decision$' [decision|E]"
+ tenet_all_maker_sacred_rituals_name:0 "Ристааг и ритуал дарения"
+    tenet_all_maker_sacred_rituals_desc:0 "Когда земля и наш народ испытывают нужду, мы можем укрепить нашу связь со Все-Создателем.\nРистааг — это великая охота, устраиваемая для очищения, благословения земли и выражения нашей благодарности Все-Создателю." #EK TODO \nThe Ritual of Gifts is a sacred pilgrimage to restore the Oneness of the land.\n\nBoth restore peace in Solstheim, in their own way.
+    doctrine_parameter_allows_ristaag_decision_active:0 "Делает доступным [decision|El] '$start_ristaag_decision$'"
+    doctrine_parameter_allows_ritual_of_the_gifts_decision_active:0 "Делает доступным [decision|El] '$start_ritual_of_the_gifts_decision$'"
     
  ## Vanilla edits
- tenet_legalism_aldmer_religion_name:0 "Path to Alaxon"
-    tenet_legalism_aldmer_religion_desc:0 "Our proximity with the Divine requires each and everyone of us to be the best version of themselves. We all have a role to fulfil, and we all must reach perfection."
-    tenet_legalism_malacath_religion_name:0 "Code of Malacath"
-    tenet_legalism_malacath_religion_desc:0 "Our society is built on simple rules. The respect for the art of blacksmithing. The role of our chief and his wives. Each chief should be selected with a trial by combat. Any insult to honor must be avenged. Those who die in combat will be rewarded to Malacath. Those who refuse to abide by these rules have to pay the Blood Price."
-    doctrine_parameter_ek_might_makes_right_devotion_active:0 "Certain [might_makes_right|E] [prestige_level|E] requirements can be fulfilled with [piety_level|E] and paid with [piety|E] in place of [prestige|E]"
-    tenet_legalism_respecting_traditions_ct:0 "As you are #P upholding#! your culture and faith's tradition, you #P gain#! a small amount of [piety|E]"
-    tenet_legalism_disrespecting_traditions_ct:0 "As you are #N disrespecting#! your culture and faith's tradition, you #N lose#! a small amount of [piety|E]"
+ tenet_legalism_aldmer_religion_name:0 "Путь к Алаксону"
+    tenet_legalism_aldmer_religion_desc:0 "Наша близость к божественному требует от каждого из нас быть лучшей версией самих себя. У каждого из нас есть своя роль, и так все мы должны достичь совершенства."
+    tenet_legalism_malacath_religion_name:0 "Кодекс Малаката"
+    tenet_legalism_malacath_religion_desc:0 "Наше общество построено на простых правилах. Уважение к искусству кузнечного дела. Роль нашего вождя и его жен. Каждый вождь должен быть выбран с помощью испытания боем. Любое оскорбление чести должно быть отомщено. Те, кто погибнет в бою, будут вознаграждены Малакатом. Те, кто отказывается соблюдать эти правила, должны заплатить цену крови."
+    doctrine_parameter_ek_might_makes_right_devotion_active:0 "Некоторые требования [Concept( 'prestige_level', 'уровню репутации' )|E] для [Concept( 'might_makes_right', 'сила есть право' )|E] могут быть выполнены с помощью [Concept( 'piety_level', 'уровню набожности' )|E] и траты [Concept( 'piety', 'благочестия' )|E] вместо [Concept( 'prestige', 'престижа' )|E]"
+    tenet_legalism_respecting_traditions_ct:0 "Поскольку вы #P отстаиваете#! традиции своей культуры и веры, вы #P получаете#! небольшое количество [Concept( 'piety', 'благочестия' )|E]"
+    tenet_legalism_disrespecting_traditions_ct:0 "Поскольку вы #N нарушаете#! традиции своей культуры и веры, вы #N теряете#! небольшое количество [Concept( 'piety', 'благочестия' )|E]"
  
- doctrine_parameter_ek_might_makes_right_lower_requirement_active:0 "[might_makes_right|E] requires one less [prestige_level|E] or [piety_level|E]"
+ doctrine_parameter_ek_might_makes_right_lower_requirement_active:0 "[might_makes_right|E] требует на один [Concept( 'prestige_level', 'уровню репутации' )|E] или [Concept( 'piety_level', 'набожности' )|E] меньше"
  
- doctrine_parameter_holy_wars_against_hostile_faiths_active:0 "Can use [holy_wars|E] against [faiths|E] considered [faith_hostile|E] instead of [faith_evil|E]"
+ doctrine_parameter_holy_wars_against_hostile_faiths_active:0 "Можно вести [holy_wars|El] против [Concept( 'faiths', 'конфессий' )|E], которые считаются [Concept( 'faith_hostile', 'врагами' )|E], а не [Concept( 'faith_evil', 'воплощённым злом' )|E]"
  
- doctrine_parameter_ghazi_special_rights_granted_active:0 "Unlocks the #V $ghazi_special_rights$#! [vassal_contract|E]"
+ doctrine_parameter_ghazi_special_rights_granted_active:0 "Открывает [vassal_contract|El] #V $ghazi_special_rights$#!"
     
- tenet_consolamentum_sheogorath_religion_name:0 "Last Pilgrimage to the Asylums"
-    tenet_consolamentum_sheogorath_religion_desc:0 "Sometimes the weight of the mortal world can be too much to bear. But we always know that the Asylums, our Lord's plane, is always there for us."
+ tenet_consolamentum_sheogorath_religion_name:0 "Последнее паломничество в санктуарий" # в дурку
+    tenet_consolamentum_sheogorath_religion_desc:0 "Иногда тяжесть земного мира может оказаться слишком неподъёмной. Но мы всегда знаем, что санктуарий, мир нашего бога, всегда рядом с нами."
  
- doctrine_parameter_rite_of_passage_decision_active:0 "Young adults and converts can use the 'Rite of Passage' decision"
+ doctrine_parameter_rite_of_passage_decision_active:0 "Молодые взрослые и новообращенные могут использовать решение 'Обряд посвящения'."
     
  ### Personal deities
- doctrine_parameter_personal_god_different_names_active:0 "[personal_deities|E] will bear a different name"
- doctrine_parameter_additional_personal_gods_active:0 "Can choose aditional [personal_deities|E] deities"
- doctrine_parameter_pantheon_cannot_be_changed_active:0 "Further [doctrines|E] and [core_tenets|E] cannot modify the [pantheon|E]"
+ doctrine_parameter_personal_god_different_names_active:0 "[personal_deities|E] будут носить другие имена"
+ doctrine_parameter_additional_personal_gods_active:0 "Можно выбрать дополнительных [Concept( 'personal_deities', 'личных божеств' )|E]"
+ doctrine_parameter_pantheon_cannot_be_changed_active:0 "Дальнейшие [doctrines|El] и [core_tenets|El] не могут изменить [pantheon|El]"
  ## Daedric Patrons
  # Azura
- doctrine_parameter_adds_azura_pantheon_active:0 "Adds $azura$ to the [faith|E] [pantheon|E]"
- doctrine_parameter_adds_boethiah_pantheon_active:0 "Adds $boethiah$ to the [faith|E] [pantheon|E]"
- doctrine_parameter_adds_clavicus_pantheon_active:0 "Adds $clavicus$ to the [faith|E] [pantheon|E]"
- doctrine_parameter_adds_hermaeus_pantheon_active:0 "Adds $hermaeus$ to the [faith|E] [pantheon|E]"
- doctrine_parameter_adds_hircine_pantheon_active:0 "Adds $hircine$ to the [faith|E] [pantheon|E]"
- doctrine_parameter_adds_malacath_pantheon_active:0 "Adds $malacath$ to the [faith|E] [pantheon|E]"
- doctrine_parameter_adds_mehrunes_pantheon_active:0 "Adds $mehrunes$ to the [faith|E] [pantheon|E]"
- doctrine_parameter_adds_mephala_pantheon_active:0 "Adds $mephala$ to the [faith|E] [pantheon|E]"
- doctrine_parameter_adds_meridia_pantheon_active:0 "Adds $meridia$ to the [faith|E] [pantheon|E]"
- doctrine_parameter_adds_molag_pantheon_active:0 "Adds $molag$ to the [faith|E] [pantheon|E]"
- doctrine_parameter_adds_namira_pantheon_active:0 "Adds $namira$ to the [faith|E] [pantheon|E]"
- doctrine_parameter_adds_nocturnal_pantheon_active:0 "Adds $nocturnal$ to the [faith|E] [pantheon|E]"
- doctrine_parameter_adds_peryite_pantheon_active:0 "Adds $peryite$ to the [faith|E] [pantheon|E]"
- doctrine_parameter_adds_sanguine_pantheon_active:0 "Adds $sanguine$ to the [faith|E] [pantheon|E]"
- doctrine_parameter_adds_sheogorath_pantheon_active:0 "Adds $sheogorath$ to the [faith|E] [pantheon|E]"
- doctrine_parameter_adds_vaermina_pantheon_active:0 "Adds $vaermina$ to the [faith|E] [pantheon|E]"
+ doctrine_parameter_adds_azura_pantheon_active:0 "Добавит даэдру $azura$ в [pantheon|El] [Concept( 'faith', 'конфессии' )|E]"
+ doctrine_parameter_adds_boethiah_pantheon_active:0 "Добавит даэдру $boethiah$ в [pantheon|El] [Concept( 'faith', 'конфессии' )|E]"
+ doctrine_parameter_adds_clavicus_pantheon_active:0 "Добавит даэдру $clavicus$ в [pantheon|El] [Concept( 'faith', 'конфессии' )|E]"
+ doctrine_parameter_adds_hermaeus_pantheon_active:0 "Добавит даэдру $hermaeus$ в [pantheon|El] [Concept( 'faith', 'конфессии' )|E]"
+ doctrine_parameter_adds_hircine_pantheon_active:0 "Добавит даэдру $hircine$ в [pantheon|El] [Concept( 'faith', 'конфессии' )|E]"
+ doctrine_parameter_adds_malacath_pantheon_active:0 "Добавит даэдру $malacath$ в [pantheon|El] [Concept( 'faith', 'конфессии' )|E]"
+ doctrine_parameter_adds_mehrunes_pantheon_active:0 "Добавит даэдру $mehrunes$ в [pantheon|El] [Concept( 'faith', 'конфессии' )|E]"
+ doctrine_parameter_adds_mephala_pantheon_active:0 "Добавит даэдру $mephala$ в [pantheon|El] [Concept( 'faith', 'конфессии' )|E]"
+ doctrine_parameter_adds_meridia_pantheon_active:0 "Добавит даэдру $meridia$ в [pantheon|El] [Concept( 'faith', 'конфессии' )|E]"
+ doctrine_parameter_adds_molag_pantheon_active:0 "Добавит даэдру $molag$ в [pantheon|El] [Concept( 'faith', 'конфессии' )|E]"
+ doctrine_parameter_adds_namira_pantheon_active:0 "Добавит даэдру $namira$ в [pantheon|El] [Concept( 'faith', 'конфессии' )|E]"
+ doctrine_parameter_adds_nocturnal_pantheon_active:0 "Добавит даэдру $nocturnal$ в [pantheon|El] [Concept( 'faith', 'конфессии' )|E]"
+ doctrine_parameter_adds_peryite_pantheon_active:0 "Добавит даэдру $peryite$ в [pantheon|El] [Concept( 'faith', 'конфессии' )|E]"
+ doctrine_parameter_adds_sanguine_pantheon_active:0 "Добавит даэдру $sanguine$ в [pantheon|El] [Concept( 'faith', 'конфессии' )|E]"
+ doctrine_parameter_adds_sheogorath_pantheon_active:0 "Добавит даэдру $sheogorath$ в [pantheon|El] [Concept( 'faith', 'конфессии' )|E]"
+ doctrine_parameter_adds_vaermina_pantheon_active:0 "Добавит даэдру $vaermina$ в [pantheon|El] [Concept( 'faith', 'конфессии' )|E]"
