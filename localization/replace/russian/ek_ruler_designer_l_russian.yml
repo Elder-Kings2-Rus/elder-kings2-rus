@@ -1,5 +1,5 @@
 ﻿l_russian:
- RULER_DESIGNER_BIRTH_YEAR:0 "Год рождения: [Select_CString( GreaterThanOrEqualTo_int32( RulerDesignerWindow.GetBirthYear, '(int32)3816' ), '3E', '2E' )] [Subtract_int32( RulerDesignerWindow.GetBirthYear, '(int32)2920' )]" # 3E/2E year may not be correct
+ RULER_DESIGNER_BIRTH_YEAR:0 "Год рождения: [Select_CString( GreaterThanOrEqualTo_int32( RulerDesignerWindow.GetBirthYear, '(int32)3816' ), '3Э', '2Э' )] [Subtract_int32( RulerDesignerWindow.GetBirthYear, '(int32)2920' )]" # 3E/2E year may not be correct
 
  EK2_DEBUG:0 "Меню отладки EK"
  RULERDESIGNERWINDOW_GETETHNICITY_GETNAME:0 "RulerDesignerWindow.GetEthnicity.GetName"

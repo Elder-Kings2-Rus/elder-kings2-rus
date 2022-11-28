@@ -3,7 +3,7 @@
 
  MOVE_REALM_CAPITAL_TITLE:0 "$SET_REALM_CAPITAL_CONFIRM_TITLE$"
  # MOVE_REALM_CAPITAL_DESC:0 "[This.GetName] will be the new $game_concept_county_capital$.\n\nSome Buildings in [TITLE_2.GetName] may become inactive."
- MOVE_REALM_CAPITAL_DESC:0 "Это [county|E] будет новой $game_concept_realm_capital$.\n\nНекоторые постройки в бывшей столице могут стать неактивными."
+ MOVE_REALM_CAPITAL_DESC:0 "Это [Concept( 'county', 'Графство' )|E] будет новой $game_concept_realm_capital$.\n\nНекоторые постройки в бывшей столице могут стать неактивными."
  MOVE_REALM_CAPITAL_CANCEL:0 "$CANCEL_BUTTON$"
  MOVE_REALM_CAPITAL_CONFIRM:0 "$SET_CAPITAL_CONFIRM_ACCEPT$"
- no_recent_capital_change_or_de_jure_capital:0 "Вы уже переместили свою [realm_capital|E]. Вы можете изменить его только на [de_jure_capital|E] своего [primary_title|E]."
+ no_recent_capital_change_or_de_jure_capital:0 "Вы уже переместили свою [Concept( 'realm_capital', 'столицу владений' )|E]. Вы можете изменить его только на [Concept( 'de_jure_capital', 'де-юре столицу' )|E] своего [Concept( 'primary_title', 'главного титула' )|E]."
