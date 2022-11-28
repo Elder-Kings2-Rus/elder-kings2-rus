@@ -758,7 +758,7 @@
 
  # Staffs
  artifact_staff_name:0 "Посох $artifact_name_prefix$"
- artifact_staff_description:2 "Посох из [SCOPE.Custom('ArtifactQuality')] качества. [newly_created_artifact.Custom('ArtifactStaffDescription')]"
+ artifact_staff_description:2 "Посох [SCOPE.Custom('ArtifactQuality')] качества. [newly_created_artifact.Custom('ArtifactStaffDescription')]"
  artifact_staff_shaft_undecorated:1 "Этот заурядный магический инструмент сделан из волшебного [ROOT.Artifact.GetFeatureText( 'shaft_wood' )]."
  artifact_staff_shaft_undecorated_alt:2 "Этот замысловатый магический инструмент сделан из волшебного [ROOT.Artifact.GetFeatureText( 'shaft_wood' )]. Это оружие очень популярно у магов."
  artifact_staff_shaft_decorated:1 "элегантный [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] который был [ROOT.Artifact.GetFeatureText( 'shaft_decoration' )] и инкрустирован [Artifact.GetFeatureText( 'decoration_material_gem' )]."
