@@ -97,7 +97,7 @@
  tradition_sorcerer_kings_name:0 "Короли-колдуны"
  tradition_sorcerer_kings_desc:0 "Наша культура и народ придают огромное значение Аркане и мастерству в искусстве магии. Справедливо, что сильнейшие маги должны править.."
  culture_parameter_unlocks_court_magical:0 "Правители с [Concept('royal_court', 'монаршим двором')|E] могут использовать [court_type|El] $court_magical$"
- culture_parameter_rank_gives_bonus_to_mage_maa:0 "Маги [men_at_arms|El] получают бонус к размеру, [Concept('damage', 'урону')|E], [Concept('pursuit', 'преследованию')|E], Concept('toughness', 'выносливости')|E] и [Concept('screen', 'скрытности')|E] зависящий от [Concept('rank', 'ранга')|E] правителя"
+ culture_parameter_rank_gives_bonus_to_mage_maa:0 "Маги [men_at_arms|El] получают бонус к размеру, [Concept('damage', 'урону')|E], [Concept('pursuit', 'преследованию')|E], [Concept('toughness', 'выносливости')|E] и [Concept('screen', 'скрытности')|E] зависящий от [Concept('rank', 'ранга')|E] правителя"
  culture_parameter_unlocks_arcana_education:0 "[guardians|E] с навыками в Магии, либо со [Concept('trait', 'свойством')|E] #V $trait_arcana_good$#! или #V $trait_education_magical_ability$#!, передадут [Concept('trait', 'свойство')|E] #V $trait_education_magical_ability$#! к их [Concept('ward', 'подопечным')|E]\n#weak Инновации, раскрывающие подобные способности, вместо этого приведут к лучшим результатам#!"
  culture_parameter_good_arcana_traits_give_bonuses:0 "[traits|E] #V $trait_arcana_good$#! и #V $trait_education_magical_ability$#! ценятся выше"
  culture_parameter_bad_arcana_traits_give_maluses:0 "[Concept('traits', 'Свойство')|E] #V $trait_arcana_bad$#! презирается"
