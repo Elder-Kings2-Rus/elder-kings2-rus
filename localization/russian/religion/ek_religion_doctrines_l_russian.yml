@@ -341,7 +341,7 @@
  # Aspect of Cavalry
  doctrine_pantheon_aspect_cavalry_name:0 "Аспект кавалерии"
     doctrine_pantheon_aspect_cavalry_desc:0 "Наши собратья-лошади защищали нас и помогали нам выживать на протяжении многих поколений. Они — божественный дар и придут нам на помощь, если мы будем в ней нуждаться."
-    doctrine_parameter_devotion_gives_cavalry_effectiveness:0 "Каждый уровень [Concept( 'piety_experience', 'набожности' )|E] даёт #P +10%#! к [Concept( 'damage', 'урону' )|E] , [Concept( 'toughness', 'выносливости' )|E] [toughness|E], [Concept( 'pursuit', 'преследованию' )|E] и and [Concept( 'screen', 'скрытности' )|E] кавалерии"
+    doctrine_parameter_devotion_gives_cavalry_effectiveness:0 "Каждый уровень [Concept( 'piety_experience', 'набожности' )|E] даёт #P +10%#! к [Concept( 'damage', 'урону' )|E] , [Concept( 'toughness', 'выносливости' )|E], [Concept( 'pursuit', 'преследованию' )|E] и and [Concept( 'screen', 'скрытности' )|E] кавалерии"
     devotion_gives_cavalry_effectiveness:0 "Поклонение лошадям"
     devotion_gives_cavalry_effectiveness_desc:0 "Наша вера связана с нашими собратьями-лошадьми, и их сила исходит от нашей набожности."
     devotion_gives_cavalry_effectiveness_0:0 "$devotion_gives_cavalry_effectiveness$: (0)"
