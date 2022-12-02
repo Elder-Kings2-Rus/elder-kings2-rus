@@ -1554,7 +1554,7 @@ doctrine_sp_kj_dragon_desc: ""
  doctrine_malacath_shunned_name:0 "Порицается"
  doctrine_malacath_criminal_name:0 "Преступление"
  
- doctrine_mehrunes_name:0 "Поклонение Мерунес Дагону"
+ doctrine_mehrunes_name:0 "Поклонение Мерунесу Дагону"
  FAITH_MUST_ALLOW_PATRON_MEHRUNES:0 "Если вы не выбрали "Даэдрических принцев" в качестве своего основного пантеона, вы должны присоединиться к даэдра $mehrunes$ с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n * [GetFaithDoctrine('tenet_pursuit_of_power').GetBaseName]" 
  doctrine_parameter_worship_mehrunes_allowed_active:0 "Поклонение Мерунесу Дагону в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойностью' )|E] или [Concept( 'criminal', 'преступлением' )|E]"
  doctrine_parameter_worship_mehrunes_shunned_active:0 "Поклонение Мерунесу Дагону в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойностью' )|E]"
