@@ -1,0 +1,19 @@
+﻿200022 = {
+	name = "Hel_Gye" # name = "Hel Gye"
+	culture = yokudan
+}
+
+100004 = {
+	name = "Matic" # name = "Matić"
+	culture = strident
+}
+
+1110009 = { #Orcrest Vampire Clan
+	name = "Tenarr_Zalviit" # name = "Tenarr Zalviit"
+	culture = anequinan
+}
+
+1110010 = { #Orcrest loyalist family (former honour guards of the Anequinan royal family, took power to try and keep it under loyalist control)
+	name = "Zeto_Rasiniit" # name = "Zeto Rasiniit"
+	culture = anequinan
+}
