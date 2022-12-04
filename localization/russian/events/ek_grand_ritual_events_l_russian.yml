@@ -45,7 +45,7 @@
  #options/flavor depend on succ/fail of stage 1 & path in stage 1 
  grand_ritual.1030.a:0 "эксперимент с материалом, высокий уровень - поиск редких ингредиентов" #high risk-high reward
  grand_ritual.1030.b:0 "эксперимент с материалом, средний уровень - поиск обычных ингредиентов" #mid risk-mid reward
- grand_ritual.1030.c:0 "эксперимент с материалом, низкий уровень - заменить простым ингредиеном" #low risk-low reward
+ grand_ritual.1030.c:0 "эксперимент с материалом, низкий уровень - заменить простым ингредиентом" #low risk-low reward
 
  grand_ritual.1040.t:0 "Начало четвертого этапа"
  grand_ritual.1040.desc.a:0 "Что-то, что-то...\nЗаметки, которые я получил, расплывчаты/неполны."

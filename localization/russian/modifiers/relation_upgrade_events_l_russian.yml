@@ -66,7 +66,7 @@
  relation_upgrade.1001.d:0 "Давайте танцевать!"
  relation_upgrade.1001.d.tt_success:0 "Вы оживляете праздник!"
  relation_upgrade.1001.d.tt_success.list:0 "Все [guests|El] и [courtiers|El] на пиру"
- relation_upgrade.1001.d.tt_fail:0 "Определённо, это #EMP ВЫ#! испоритили праздник, который [Select_CString(terrible_party_host.IsFemale, 'устроила', 'устроил')] [terrible_party_host.GetFirstNamePossessiveNoTooltip]"
+ relation_upgrade.1001.d.tt_fail:0 "Определённо, это #EMP ВЫ#! испортили праздник, который [Select_CString(terrible_party_host.IsFemale, 'устроила', 'устроил')] [terrible_party_host.GetFirstNamePossessiveNoTooltip]"
  relation_upgrade.1001.e:0 "Если бы кто-нибудь запер дверь, то это место легко сгорело бы..."
  relation_upgrade.1001.e.list:0 "$relation_upgrade.1001.d.tt_success.list$"
  relation_upgrade.1001.f:0 "Думаю, я просто сделаю всё возможное."
@@ -98,7 +98,7 @@
 
 #	Follow-Up, Rival:
  relation_upgrade.1004.t:0 "$relation_upgrade.1001.t$: Нескончаемый визг"
- relation_upgrade.1004.desc:0 "О [ROOT.GetCharacter.GetFaith.HighGodName], пусть [terrible_party_host.GetFirstName] закончит это поскорее, ради собтсвенного же блага! Никакой музыки, никаких танцев, почти никакого света, пресная пища, так ещё и [terrible_party_host.GetSheHe] пригласил эту шавку, по имени [party_root.GetTitledFirstName]!\n\n"$relation_upgrade.1001.c$" - выкрикивает [Select_CString(party_root.IsFemale, 'вызывающая', 'вызывающий')] лишь раздражение [party_root.GetWomanMan] через всю комнату, привлекая внимание всего стада сонных гостей и направляясь ко мне, явно намереваясь подарить частичку своего "остроумия"."
+ relation_upgrade.1004.desc:0 "О [ROOT.GetCharacter.GetFaith.HighGodName], пусть [terrible_party_host.GetFirstName] закончит это поскорее, ради собственного же блага! Никакой музыки, никаких танцев, почти никакого света, пресная пища, так ещё и [terrible_party_host.GetSheHe] пригласил эту шавку, по имени [party_root.GetTitledFirstName]!\n\n"$relation_upgrade.1001.c$" - выкрикивает [Select_CString(party_root.IsFemale, 'вызывающая', 'вызывающий')] лишь раздражение [party_root.GetWomanMan] через всю комнату, привлекая внимание всего стада сонных гостей и направляясь ко мне, явно намереваясь подарить частичку своего "остроумия"."
  relation_upgrade.1004.a:0 "О, ты хочешь услышать #EMP настоящую#! правду, [Select_CString(party_root.IsFemale, 'стерва', 'подлец')]?"
  relation_upgrade.1004.a.tt:0 "[potential_rival.GetFirstNameNoTooltip] гневается в ответ"
  relation_upgrade.1004.b:0 "Это ниже моего достоинства."
@@ -157,14 +157,14 @@
 
  relation_upgrade.2002.lover_dinner.desc:0 "За ужином, я [Select_CString(CHARACTER.IsFemale, 'обнаружила', 'обнаружил')], что [Select_CString(lover_2.IsFemale, 'моей соседкой оказалась', 'моим соседом оказался')] [lover_2.Custom('ComplimentAdjective')] [lover_2.GetTitledFirstName]."
  relation_upgrade.2002.lover_party.desc:0 "[lover_2.Custom('ComplimentAdjective')] [lover_2.GetTitledFirstName] является неожиданным, но желанным гостем на моём званом ужине."
- relation_upgrade.2002.lover.desc:0 "В конце концов, мы перешли к разговору о том, что принято называть [lover_1.Custom('my_subject_of_interest')] — теме, о которой я могу говорить часами. К моему удовольствию, [lover_2.GetFirstNameNoTooltip] оказывается прекрасным слушателем. [lover_2.GetHerHis|U] интерес к тому, что я говорю, кажется искренним, а [lover_2.GetHerHis] последующие вопросы вдумчивы и точны.\n\nПрежде чем я это осознаю, мы остёмся единственными за столом. Когда [lover_2.GetFirstNameNoTooltip] наклоняется ближе, чтобы лучше меня слышать, я чувствую, как учащается мой пульс..."
+ relation_upgrade.2002.lover.desc:0 "В конце концов, мы перешли к разговору о том, что принято называть [lover_1.Custom('my_subject_of_interest')] — теме, о которой я могу говорить часами. К моему удовольствию, [lover_2.GetFirstNameNoTooltip] оказывается прекрасным слушателем. [lover_2.GetHerHis|U] интерес к тому, что я говорю, кажется искренним, а [lover_2.GetHerHis] последующие вопросы вдумчивы и точны.\n\nПрежде чем я это осознаю, мы остаёмся единственными за столом. Когда [lover_2.GetFirstNameNoTooltip] наклоняется ближе, чтобы лучше меня слышать, я чувствую, как учащается мой пульс..."
  relation_upgrade.2002.c.lover:0 "Эм, да, как я и [Select_CString(CHARACTER.IsFemale, 'говорила', 'говорил')]..."
  relation_upgrade.2002.soulmate.desc:0 "Я рассеянно играю с пальцами [Select_CString(lover_2.IsFemale, 'моей милой', 'моего милого')], а [lover_2.GetHerHis] голова лежит на моей груди, пока я рассказываю [lover_2.GetHerHim] о самых интересных особенностях того, что обобщённо называют [lover_1.Custom('my_subject_of_interest')]. [lover_2.GetSheHe|U] оказывается отличным слушателем — подбадривает меня нежным мычанием и кивками, задаёт вдумчивые вопросы. То, что [lover_2.GetSheHe] действительно интересуется той темой, которая близка и моему сердцу, согревает меня изнутри."
  relation_upgrade.2002.c.soulmate:0 "Вы очень хороший слушатель, знаете об этом?"
 
  relation_upgrade.2003.lover.desc:0 "Когда я наклоняюсь и делаю предложение, блеск в глазах [lover_1.GetFirstNamePossessive] свидетельствует о страсти уже совсем иного рода. [lover_1.GetSheHe|U] мгновение колеблется, [lover_1.GetHerHis|U] щёки краснеют, но [lover_1.GetHerHis] внутренняя борьба быстро разрешается.\n\n"Подождите здесь, совсем немного, чтобы никто ничего не заподозрил. Затем приходите в мои покои." Пока [lover_1.GetFirstNameNoTooltip] торопливо уходит, я не могу оторвать от [lover_1.GetHerHim] глаз."
- relation_upgrade.2003.soulmate_start.desc:0 "[lover_1.GetFirstName] [Select_CString(lover_1.IsFemale, 'застигнута', 'застигнут')] врасплох моим признанием в любви. [lover_1.GetHerHis|U] рука замирает в моей руке, и я чувствую, как неистовво бьётся [lover_1.GetHerHis] сердце. Моё собственное бьётся так же сильно.\n\n"
- relation_upgrade.2003.soulmate_end.desc:0 ""Это правда, [lover_2.GetFirstNameNoTooltip]? Я так давно чувствую то же самое, но никогда не [Select_CString(CHARACTER.IsFemale, 'думала', 'думал')]..."\n\nПоследовавший поцелй - самая сладкая вещь, которую я когда-либо [Select_CString(CHARACTER.IsFemale, 'знала', 'знал')]."
+ relation_upgrade.2003.soulmate_start.desc:0 "[lover_1.GetFirstName] [Select_CString(lover_1.IsFemale, 'застигнута', 'застигнут')] врасплох моим признанием в любви. [lover_1.GetHerHis|U] рука замирает в моей руке, и я чувствую, как неистово бьётся [lover_1.GetHerHis] сердце. Моё собственное бьётся так же сильно.\n\n"
+ relation_upgrade.2003.soulmate_end.desc:0 ""Это правда, [lover_2.GetFirstNameNoTooltip]? Я так давно чувствую то же самое, но никогда не [Select_CString(CHARACTER.IsFemale, 'думала', 'думал')]..."\n\nПоследовавший поцелуй - самая сладкая вещь, которую я когда-либо [Select_CString(CHARACTER.IsFemale, 'знала', 'знал')]."
  relation_upgrade.2003.a:0 "Ух, [Select_CString(lover_1.IsFemale, 'какая', 'какой')] [lover_1.GetWomanMan]!"
  relation_upgrade.2003.b:0 "О [realm.GetNameNoTierNoTooltip], я [Select_CString(CHARACTER.IsFemale, 'счастливейшая', 'счастливейший')] [lover_2.GetWomanMan] здесь!"
 
