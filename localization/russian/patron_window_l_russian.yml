@@ -75,7 +75,7 @@
  patron_hermaeus_desc:0 "Демон знаний"
  patron_hermaeus_long_desc:0 "[GetPlayer.Custom('GetObHermaeusDesc')]"
  patron_hermaeus_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_hermaeus')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_hermaeus')]\nArdor: [GetPlayer.MakeScope.Var('ardor_hermaeus').GetValue|+0]"
- desc_hermaeus:0 "Даэдрический принц Запретного знания, Хермеус Мора, правит Апокрифом в Обливионе. Обычно его изображают в виде Отвратительной Бездны, клубящейся массы глаз и щупалец. Нордические мифы рассказывают, что он  обманом почти превратил Исграмора в эльфа."
+ desc_hermaeus:0 "Даэдрический принц Запретного знания, Хермеус Мора, правит Апокрифом в Обливионе. Обычно его изображают в виде Отвратительной Бездны, клубящейся массы глаз и щупалец. Нордические мифы рассказывают, что он обманом почти превратил Исграмора в эльфа."
  
  patron_hircine_name:0 "[GetPlayer.Custom('GetObHircineName')]"
  patron_hircine_desc:0 "Отец зверолюдей"
@@ -133,7 +133,7 @@
  patron_peryite_desc:0 "Приносящий мор"
  patron_peryite_long_desc:0 "[GetPlayer.Custom('GetObPeryiteDesc')]"
  patron_peryite_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_peryite')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_peryite')]\nArdor: [GetPlayer.MakeScope.Var('ardor_peryite').GetValue|+0]"
- desc_peryite:0 "Даэдрический принц естественного порядка, Периит правит Ямами в Обливионе. Обычно его изображают в виде дракона с шестью конечностями, несмотря на то, что он один из самых слабых принцев. Последователи Периита считают болезни и другие недуги благословением принца."
+ desc_peryite:0 "Даэдрический принц естественного порядка, Периайт правит Ямами в Обливионе. Обычно его изображают в виде дракона с шестью конечностями, несмотря на то, что он один из самых слабых принцев. Последователи Периайта считают болезни и другие недуги благословением принца."
  
  patron_sanguine_name:0 "[GetPlayer.Custom('GetObSanguineName')]"
  patron_sanguine_desc:0 "Повелитель темной праздности" #uesp didn't include an actual title, so made one up
@@ -308,7 +308,7 @@
  
  action_pick_patron:0 "Выберите покровителя"
  action_pick_patron_label:0 "$action_pick_patron$"
- action_pick_patron_desc:2 "У вас нет покровителя.\n\n#help Ваша [Concept('faith', 'конфесися')|E] имеет покровителей. Каждый признак дает вам бонус в той или иной форме.#!"
+ action_pick_patron_desc:2 "У вас нет покровителя.\n\n#help Ваша [Concept('faith', 'конфессия')|E] имеет покровителей. Каждый признак дает вам бонус в той или иной форме.#!"
  action_pick_patron_click:0 "#I Нажмите, чтобы просмотреть потенциальных покровителей для вашей веры#!"
 
  within_date:0 "Within one month of [Localize(Concatenate('prince_', '$VALUE|0$'))]'s summoning day #F ([Localize(Concatenate('date_prince_', '$VALUE|0$'))])#!"

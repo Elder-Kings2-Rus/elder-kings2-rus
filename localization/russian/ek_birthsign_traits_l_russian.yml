@@ -15,7 +15,7 @@
  trait_shadowscale:0 "Тёмный ящер"
  trait_sign_shadow_desc:0 "Рождённые под знаком Тень наделены способностью сливаться с тьмой, становясь практически невидимыми."
  trait_sign_shadow_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'рождена', 'рождён' )] под знаком Тени."
- trait_shadowscale_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'рождена', 'рождён' )] под знаком Тени, но как аргонианин с рождения обучаеться быть Тёмным ящером."
+ trait_shadowscale_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'рождена', 'рождён' )] под знаком Тени, но как аргонианин с рождения обучается быть Тёмным ящером."
  trait_sign_steed:0 "Конь #italic ([birthsign|E])#!"
  trait_sign_steed_desc:0 "Рождённые под знаком Коня обычно нетерпеливы, но наделены повышенной скоростью и выносливостью."
  trait_sign_steed_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'рождена', 'рождён' )] под знаком Коня."
