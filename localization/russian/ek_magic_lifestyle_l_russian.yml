@@ -3,7 +3,7 @@
  NO_MAGIC_PERKS:0 "Персонаж не имеет магических навыков"
  # grouped here for now, should be orgnised into ek_focus and ek_perks at some point. 
  magic_lifestyle_name:0 "Магия"
- magic_lifestyle_desc:0 "Фокус на обучении и  применении магии через тщательное изучение пяти основных школ магии.". Summon daedra, heal the sick, throw fireballs.
+ magic_lifestyle_desc:0 "Фокус на обучении и применении магии через тщательное изучение пяти основных школ магии. Призывайте даэдра, лечите больных, швыряйте огненные шары."
  magic_lifestyle_highlight_desc:0 "$magic_lifestyle_highlight_innate$\n$magic_lifestyle_highlight_taught$"
  magic_lifestyle_highlight_innate:0 "[GetPlayer.Custom('arcana_group_impact_magic_lifestyle_experience')]"
  arcana_group_impact_magic_lifestyle_experience_good_3:0 "Благодаря вашей черте #V $trait_arcana_good_3$#! ваш прирост опыта для этого образа жизни увеличивается на #P +40%#!."
@@ -55,19 +55,19 @@
  alteration_expert_perk_name:0 "Эксперт изменения"
  alteration_master_perk_name:0 "Мастер изменения"
 
- illusion_name:0 "Илюзия"
- illusion_novice_perk_name:0 "Новичок илюзии"
- illusion_apprentice_perk_name:0 "Ученик илюзии"
- illusion_journeyman_perk_name:0 "Адепт илюзии"
- illusion_expert_perk_name:0 "Эксперт илюзии"
- illusion_master_perk_name:0 "Мастер илюзии"
+ illusion_name:0 "Иллюзия"
+ illusion_novice_perk_name:0 "Новичок иллюзии"
+ illusion_apprentice_perk_name:0 "Ученик иллюзии"
+ illusion_journeyman_perk_name:0 "Адепт иллюзии"
+ illusion_expert_perk_name:0 "Эксперт иллюзии"
+ illusion_master_perk_name:0 "Мастер иллюзии"
 
- restoration_name:0 "Востановление"
- restoration_novice_perk_name:0 "Новичок востановления"
- restoration_apprentice_perk_name:0 "Ученик востановления"
- restoration_journeyman_perk_name:0 "Адепт востановления"
- restoration_expert_perk_name:0 "Эксперт востановления"
- restoration_master_perk_name:0 "Мастер востановления"
+ restoration_name:0 "Восстановление"
+ restoration_novice_perk_name:0 "Новичок восстановления"
+ restoration_apprentice_perk_name:0 "Ученик восстановления"
+ restoration_journeyman_perk_name:0 "Адепт восстановления"
+ restoration_expert_perk_name:0 "Эксперт восстановления"
+ restoration_master_perk_name:0 "Мастер восстановления"
 
 #  conjuration_novice_perk_effect:0 "Unlocks novice level conjuration spells:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('conjuration') ).AddScope('tier', MakeScopeValue('(CFixedPoint)1') ).End)]" #.AddScope('tier', MakeScopeValue('(CFixedPoint)1') )
 
@@ -92,14 +92,14 @@
  alteration_expert_perk_effect:0 "Разблокирует заклинания изменения уровня эксперта:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('alteration') ).AddScope('tier', MakeScopeValue('(CFixedPoint)4') ).End)]"
  alteration_master_perk_effect:0 "Разблокирует заклинания изменения уровня мастера:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('alteration') ).AddScope('tier', MakeScopeValue('(CFixedPoint)5') ).End)]"
 
- illusion_novice_perk_ritual_effect:0 "Разблокирует [Concept('rituals','ритуал')|E] илюзия"
+ illusion_novice_perk_ritual_effect:0 "Разблокирует [Concept('rituals','ритуал')|E] иллюзия"
  illusion_novice_perk_effect:0 "Разблокирует заклинания иллюзии уровня новичка:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('illusion') ).AddScope('tier', MakeScopeValue('(CFixedPoint)1') ).End)]"
  illusion_apprentice_perk_effect:0 "Разблокирует заклинания иллюзии уровня ученика:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('illusion') ).AddScope('tier', MakeScopeValue('(CFixedPoint)2') ).End)]"
  illusion_journeyman_perk_effect:0 "Разблокирует заклинания иллюзии уровня адепта:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('illusion') ).AddScope('tier', MakeScopeValue('(CFixedPoint)3') ).End)]"
  illusion_expert_perk_effect:0 "Разблокирует заклинания иллюзии уровня эксперта:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('illusion') ).AddScope('tier', MakeScopeValue('(CFixedPoint)4') ).End)]"
  illusion_master_perk_effect:0 "Разблокирует заклинания иллюзии уровня мастера:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('illusion') ).AddScope('tier', MakeScopeValue('(CFixedPoint)5') ).End)]"
 
- restoration_novice_perk_ritual_effect:0 "Разблокирует [Concept('rituals','ритуал')|E] востановление"
+ restoration_novice_perk_ritual_effect:0 "Разблокирует [Concept('rituals','ритуал')|E] восстановление"
  restoration_novice_perk_effect:0 "Разблокирует заклинания восстановления уровня новичка:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('restoration') ).AddScope('tier', MakeScopeValue('(CFixedPoint)1') ).End)]"
  restoration_apprentice_perk_effect:0 "Разблокирует заклинания восстановления уровня ученика:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('restoration') ).AddScope('tier', MakeScopeValue('(CFixedPoint)2') ).End)]"
  restoration_journeyman_perk_effect:0 "Разблокирует заклинания восстановления уровня адепта:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('restoration') ).AddScope('tier', MakeScopeValue('(CFixedPoint)3') ).End)]"
@@ -123,5 +123,5 @@
  life_extension_stage_5:0 "Ритуальная казнь"
  lichdom_stage_1:0 "Теория нежити"
  lichdom_stage_2:0 "Получение материалов"
- lichdom_stage_3:0 "Изготовление флактерий"
+ lichdom_stage_3:0 "Изготовление филактерии"
  lichdom_stage_4:0 "Окончательная смерть"

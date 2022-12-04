@@ -673,6 +673,9 @@ king_feudal_male_cyrodiil:0 "[CHARACTER.Custom('KingFeudalMaleCyrodiil')]"
 king_feudal_female_cyrodiil:0 "[CHARACTER.Custom('KingFeudalFemaleCyrodiil')]"
 kingdom_feudal_cyrodiil:0 "[CHARACTER.Custom('KingdomFeudalCyrodiil')]"
 
+prince_cyrodiil:0 "Принц"
+princess_cyrodiil:0 "Принцесса"
+
 warlord_male_cyrodiil:0 "[CHARACTER.Custom('WarlordMaleCyrodiil')]"
 warlord_female_cyrodiil:0 "[CHARACTER.Custom('WarlordFemaleCyrodiil')]"
 

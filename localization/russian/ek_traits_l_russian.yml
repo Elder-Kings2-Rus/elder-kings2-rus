@@ -17,7 +17,7 @@
  trait_lefthanded:0 "Левша"
  trait_lefthanded_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] Является [Select_CString(ROOT.GetCharacter.IsFemale, 'леворукой', 'леворуким' )]. Из-за господства правшей в мире некоторые задачи даются труднее для [ROOT.GetCharacter.GetFirstNameNoTooltip], но в некоторых случаях, например, в бою один на один, это преимущество."
  trait_ambidextrous:0 "Амбидекстер"
- trait_ambidextrous_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] Является Амбидекстером. Пишет ли [Select_CString(ROOT.GetCharacter.IsFemale, 'она', 'он' )] , сражается или прелюбодействует, [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'способна', 'способен' )] пользоваться обеими своими руками одинаково хорошо."
+ trait_ambidextrous_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] Является амбидекстером. Пишет ли [Select_CString(ROOT.GetCharacter.IsFemale, 'она', 'он' )], сражается или прелюбодействует, [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'способна', 'способен' )] пользоваться обеими своими руками одинаково хорошо."
 
  guild_fighters_traits:0 "Гильдия Бойцов"
  trait_guild_fighters_traits:0 "Гильдия Бойцов"
@@ -42,12 +42,12 @@ trait_vampire_character_desc:0 "Этот персонаж - вампир, неж
 trait_vampire_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - Вампир, неживое существо, проклятое пить кровь живых и избегать солнечного света." #character_character
 
 trait_lycan_character:0 "Ликантроп"
-trait_lycan_character_desc:0 "Этот персонаж - ликантроп, существо, проклятое транформацией тела под влиянием лун Нирна."
-trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - ликантроп, существо, проклятое транформацией тела под влиянием лун Нирна." #character_character
+trait_lycan_character_desc:0 "Этот персонаж - ликантроп, существо, проклятое трансформацией тела под влиянием лун Нирна."
+trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - ликантроп, существо, проклятое трансформацией тела под влиянием лун Нирна." #character_character
 
- trait_occultist:0 "Окультист"
- trait_occultist_desc:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Является могущественной ведьмой', 'Является могущественным колдуном' )], этот персонаж провел старый и темный ритуал, чтобы обменять часть своей человечности на забытые силы."
- trait_occultist_character_desc:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Является могущественной ведьмой', 'Является могущественным колдуном' )], [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'провела', 'провёл' )] старый и темный ритуал, чтобы обменять часть своей человечности на забытые силы."
+ trait_occultist:0 "Оккультист"
+ trait_occultist_desc:0 "Этот персонаж [Select_CString(ROOT.GetCharacter.IsFemale, 'является могущественной ведьмой. Она провела', 'является могущественным колдуном. Он провёл' )] старый и темный ритуал, чтобы обменять часть своей человечности на забытые силы."
+ trait_occultist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'является могущественной ведьмой', 'является могущественным колдуном' )] и [Select_CString(ROOT.GetCharacter.IsFemale, 'она провела', 'он провёл' )] старый и темный ритуал, чтобы обменять часть своей человечности на забытые силы."
 
  trait_lich_character:0 "Лич"
  trait_lich_character_desc:0 "Этот персонаж пошел навстречу смерти и одолел ее с помощью темной магии и запретных ритуалов, преобразовавшись в лича и стал нежитью."
@@ -61,17 +61,17 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_hagraven:0 "Ворожея"
 
  trait_briarheart:0 "Вересковое сердце"
- trait_briarheart_desc:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Является могущественной ведьмой', 'Является могущественным колдуном' )], этот персонаж провел старый и темный ритуал, чтобы обменять часть своей человечности на забытые силы."
- trait_briarheart_character_desc:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Является могущественной ведьмой', 'Является могущественным колдуном' )], [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'провела', 'провёл' )] старый и темный ритуал, чтобы обменять часть своей человечности на забытые силы."
+ trait_briarheart_desc:0 "Этот персонаж [Select_CString(ROOT.GetCharacter.IsFemale, 'является могущественной ведьмой. Она провела', 'является могущественным колдуном. Он провёл' )] старый и темный ритуал, чтобы обменять часть своей человечности на забытые силы."
+ trait_briarheart_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'является могущественной ведьмой', 'является могущественным колдуном' )] и [Select_CString(ROOT.GetCharacter.IsFemale, 'она провела', 'он провёл' )] старый и темный ритуал, чтобы обменять часть своей человечности на забытые силы."
 
  trait_soul_magic:0 "Маг души"
  trait_soul_magic_desc:0 "Этот персонаж овладел магией души, древней формой манипуляции душами и останками."
- trait_soul_magic_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'овладела', 'овладел' )]  магией души, древней формой манипуляции душами и останками."
+ trait_soul_magic_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'овладела', 'овладел' )] магией души, древней формой манипуляции душами и останками."
  trait_conjurer:0 "Маг колдовства"
  trait_conjurer_desc:0 "Этот персонаж овладел магической школой колдовства. Ни одно существо или предмет из другого мира не находится вне пределов их досягаемости."
  trait_conjurer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'овладела', 'овладел' )] магической школой колдовства. Ни одно существо или предмет из другого мира не находится вне пределов [ROOT.GetCharacter.GetHerHis] досягаемости."
 
- trait_thrall:0 "трэлл"
+ trait_thrall:0 "Трэлл"
  trait_thrall_desc:0 "Этот персонаж был очарован некромантом. Их свободная воля была заменена слепой преданностью своему новому хозяину."
  trait_thrall_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] был очарован некромантом. [ROOT.GetCharacter.GetHerHis|U] свободная воля была заменена слепой преданностью новому хозяину."
 
@@ -93,12 +93,12 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_unmourned_blood_desc:0 "Кажется, что у этого персонажа что-то не так в родословной, но истинная природа этого остается загадкой."
  trait_unmourned_blood_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - кажется, что у этого персонажа что-то не так в родословной, но истинная природа этого остается загадкой."
  trait_scarab_blood:0 "Кровь Скарабея"
- trait_scarab_blood_desc:0 "Этот персонаж является потомком проклятого Великого Шестого Дома, Дома Дагота. Открыв правду о своей родословной, [Select_CString(ROOT.GetCharacter.IsFemale, 'она обрела', 'он обрел' )]  тревожную силу, и любовь собратьев по культу."
+ trait_scarab_blood_desc:0 "Этот персонаж является потомком проклятого Великого Шестого Дома, Дома Дагота. Открыв правду о своей родословной, [Select_CString(ROOT.GetCharacter.IsFemale, 'она обрела', 'он обрел' )] тревожную силу, и любовь собратьев по культу."
  trait_scarab_blood_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является потомком проклятого Великого Шестого Дома, Дома Дагота. Открыв правду о своей родословной, [Select_CString(ROOT.GetCharacter.IsFemale, 'она обрела', 'он обрел' )] тревожную силу, и любовь собратьев по культу."
  
  trait_arcana_good:0 "Позитивное сродство с Арканой"
  trait_arcana_good_1:0 "Сонастроенность"
- trait_arcana_good_1_desc:0 "Этот персонаж хорошо  сонастроен с Этериусом, что облегчает чтение заклинаний."
+ trait_arcana_good_1_desc:0 "Этот персонаж хорошо сонастроен с Этериусом, что облегчает чтение заклинаний."
  trait_arcana_good_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] хорошо [Select_CString(ROOT.GetCharacter.IsFemale, 'настроена', 'настроен' )] к магии, что облегчает чтение заклинаний."
  trait_arcana_good_2:0 "Восприятие"
  trait_arcana_good_2_desc:0 "Этот персонаж обладает острым восприятием магии, легко выполняя впечатляющие заклинания."
@@ -118,10 +118,10 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_arcana_bad_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] кажется [Select_CString(ROOT.GetCharacter.IsFemale, 'лишенной', 'лишенным' )] способностей к магии, поскольку не может читать заклинания без больших усилий."
 
  trait_dragonborn:0 "Драконорождённый"
- trait_dragonborn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )]  с кровью и душой дракона. Известно, что драконорожденные пользуются благосклонностью богов."
+ trait_dragonborn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )] с кровью и душой дракона. Известно, что драконорожденные пользуются благосклонностью богов."
 
  trait_bagarn:0 "Последний из своего рода"
- trait_bagarn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'последняя', 'последний' )] из своего рода.  Нет никакой надежды на то, что [ROOT.GetCharacter.GetHerHim] когда-нибудь снова увидит своих родных."
+ trait_bagarn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'последняя', 'последний' )] из своего рода. Нет никакой надежды на то, что [ROOT.GetCharacter.GetHerHim] когда-нибудь снова увидит своих родных."
 
  trait_line_of_x:0 "Представитель рода [ROOT.Char.GetFirstNameNoTooltip]" # assume named Line of X
  trait_line_of_x_null:0 "Представитель рода" X" # incase character doesnt exist
@@ -132,7 +132,7 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
 
  trait_lifespan_1:1 "Продолжительность жизни I"
  trait_lifespan_1_character_desc:1 "С помощью природы или магии, предполагается что [ROOT.GetCharacter.GetFirstNameNoTooltip] проживет до 100 лет. Женщины с этой чертой становятся бесплодными примерно в 65 лет."
- trait_lifespan_1_desc:1 "С помощью природы или магии, предполагается [Select_CString(ROOT.GetCharacter.IsFemale, 'что она', 'что он' )]  проживёт до 100 лет. Женщины с этой чертой становятся бесплодными примерно в 65 лет."
+ trait_lifespan_1_desc:1 "С помощью природы или магии, предполагается [Select_CString(ROOT.GetCharacter.IsFemale, 'что она', 'что он' )] проживёт до 100 лет. Женщины с этой чертой становятся бесплодными примерно в 65 лет."
 
  trait_lifespan_2:1 "Продолжительность жизни II"
  trait_lifespan_2_character_desc:1 "С помощью природы или магии, предполагается что [ROOT.GetCharacter.GetFirstNameNoTooltip] проживёт больше 100 лет. Женщины с этой чертой становятся бесплодными примерно в 105 лет."
@@ -279,7 +279,7 @@ trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoToolt
  #Tsaescence
  trait_tsaesci:0 "Цаэски"
  trait_tsaesci_1:1 "Цаэсцендентность I"
- trait_tsaesci_1_character_desc:1 "Впервые попробовав кровь, [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'познала', 'познал' )]  чудеса [Concept( 'tsaescence', 'цаэсценции' )|E]."
+ trait_tsaesci_1_character_desc:1 "Впервые попробовав кровь, [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'познала', 'познал' )] чудеса [Concept( 'tsaescence', 'цаэсценции' )|E]."
  trait_tsaesci_1_desc:1 "Впервые попробовав кровь, этот персонаж познал чудеса [Concept( 'tsaescence', 'цаэсценции' )|E]."
  trait_tsaesci_2:0 "Цаэсцендентность II"
  trait_tsaesci_2_character_desc:1 "Сквозь завесу крови пленников, [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'постигла', 'постиг' )] тайны [Concept( 'tsaescence', 'цаэсценции' )|E]."
@@ -319,7 +319,7 @@ trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoToolt
 
  #trait_furstock_pahmar:0 "Pahmar"
  trait_furstock_pahmar:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Памар' )]"
- trait_furstock_pahmar_desc:0 "Памар - гигантский двуногий пушной зверь, похожий на Cенч-тигров, которые рождаются, когда Массер полный, а Секунда - новая."
+ trait_furstock_pahmar_desc:0 "Памар - гигантский двуногий пушной зверь, похожий на Сенч-тигров, которые рождаются, когда Массер полный, а Секунда - новая."
 
  #trait_furstock_pahmar_raht:0 "Pahmar-Raht"
  trait_furstock_pahmar_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Памар-рат' )]"
@@ -356,7 +356,7 @@ trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoToolt
  trait_praxis_negative_2:0 "Апраксик II"
  trait_praxis_negative_2_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'сбилась', 'сбился' )] с пути к Алаксону."
  trait_praxis_negative_1:0 "Апраксик I"
- trait_praxis_negative_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] известно, что [Select_CString(ROOT.GetCharacter.IsFemale, 'она', 'он' )]  с трудом соответствует стандартам пути к Алаксону."
+ trait_praxis_negative_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] известно, что [Select_CString(ROOT.GetCharacter.IsFemale, 'она', 'он' )] с трудом соответствует стандартам пути к Алаксону."
  trait_praxis_positive_1:0 "Праксик I"
  trait_praxis_positive_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] следует философии пути к Алаксону."
  trait_praxis_positive_2:0 "Праксик II"
