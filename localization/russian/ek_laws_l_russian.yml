@@ -1,5 +1,5 @@
 ﻿l_russian:
- autocracy_authority_3_effects:0 "$EFFECT_LIST_BULLET$Lieges can [revoke|E] titles and [retract|E] vassals without incuring any [tyranny|E]"
+ autocracy_authority_3_effects:0 "$EFFECT_LIST_BULLET$Сюзерены могут [Concept( 'revoke', 'лишать' )|E] титулов и [Concept( 'retract', 'отнимать' )|E] вассалов без роста [Concept( 'tyranny', 'тирании' )|E]"
  
  crown_authority_0_feudal:0 "Аристократическая монархия"
  crown_authority_0_autocracy:0 "Сильная землевладельческая олигархия"

@@ -1,4 +1,4 @@
 ﻿l_russian:
  tenet_mystical_birthright_desc:0 "У Богов есть план для каждого из нас. И некоторые из нас предназначены для чего-то большего, чем для простой жизни, наш долг - следовать им."
  
- doctrine_parameter_conquest_cb_enabled:0 "Может использовать [Concept('casus_belli', 'Казус Белли')|E] без требуемых [Concept('innovations', 'иноваций')|E]. Если культура атакующего имеет требуемые [Concept('innovations', 'иновации')|E], для [Concept('casus_belli', 'Казус Белли')|E] требуется на один [Concept('prestige_level', 'уровень престижа')|E] или [Concept('piety_level', 'уровень благочестия')|E] меньше."
+ doctrine_parameter_conquest_cb_enabled:0 "Может использовать [Concept('casus_belli', 'Казус Белли')|E] без требуемых [Concept('innovations', 'инноваций')|E]. Если культура атакующего имеет требуемые [Concept('innovations', 'инновации')|E], для [Concept('casus_belli', 'Казус Белли')|E] требуется на один [Concept('prestige_level', 'уровень престижа')|E] или [Concept('piety_level', 'уровень благочестия')|E] меньше."
