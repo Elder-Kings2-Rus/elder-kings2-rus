@@ -204,8 +204,8 @@
  ##### Monolatry Aspects
  ### Aspect of Knowledge
  # Improve education
- ek_religious_decision.1001.t:0 "Божественное презднаменование - Совершенствование моего образования"
- ek_religious_decision.1001.desc:0 "Благодаря нашей вере мы можем проникать сквозь ткань самой реальности. Наша близость к божественному дает нам проницательность и знания, редкие среди других смертных, и, слушая их, я, несомненно, смогу получить большее понимание мира и того, что внутри меня.\n\nПосле нескольких часов молитв,приема лекарств и чтения древних рукописей или революционных договоров я чувствую себя более уверенно в знании мира и своей области."
+ ek_religious_decision.1001.t:0 "Божественное предзнаменование - Совершенствование моего образования"
+ ek_religious_decision.1001.desc:0 "Благодаря нашей вере мы можем проникать сквозь ткань самой реальности. Наша близость к божественному дает нам проницательность и знания, редкие среди других смертных, и, слушая их, я, несомненно, смогу получить большее понимание мира и того, что внутри меня.\n\nПосле нескольких часов молитв, приема лекарств и чтения древних рукописей или революционных договоров я чувствую себя более уверенно в знании мира и своей области."
  ek_religious_decision.1001.a:0 "Знания - величайший дар жизни."
  # Swap education
  ek_religious_decision.1002.t:0 "Божественное предзнаменование - Смена образования"
@@ -222,7 +222,7 @@
  ek_religious_decision.1003.warrior_tt:0 "Я смогу выбрать одно [star_sign|El] из следующих:\n [GetTrait('sign_warrior').GetName(GetNullCharacter)]\n [GetTrait('sign_lady').GetName(GetNullCharacter)]\n [GetTrait('sign_lord').GetName(GetNullCharacter)]\n [GetTrait('sign_steed').GetName(GetNullCharacter)]"
  ek_religious_decision.1003.mage:0 "Я чувствую Мага и его созвездие глубоко внутри меня в течение многих лет..."
  ek_religious_decision.1003.mage_tt:0 "Я смогу выбрать одно [star_sign|El] из следующих:\n [GetTrait('sign_mage').GetName(GetNullCharacter)]\n [GetTrait('sign_apprentice').GetName(GetNullCharacter)]\n [GetTrait('sign_atronach').GetName(GetNullCharacter)]\n [GetTrait('sign_ritual').GetName(GetNullCharacter)]"
- ek_religious_decision.1003.thief:0 "Только Вор и его совездие могли защищать меня так долго..."
+ ek_religious_decision.1003.thief:0 "Только Вор и его созвездие могли защищать меня так долго..."
  ek_religious_decision.1003.thief_tt:0 "Я смогу выбрать одно [star_sign|E] из следующих:\n [GetTrait('sign_thief').GetName(GetNullCharacter)]\n [GetTrait('sign_lover').GetName(GetNullCharacter)]\n [GetTrait('sign_shadow').GetName(GetNullCharacter)]\n [GetTrait('sign_tower').GetName(GetNullCharacter)]"
  ek_religious_decision.1003.serpent:0 "Змея будет жалить врагов, ищущих моей крови."
  ek_religious_decision.1003.cancel:0 "Думаю, не следует вмешиваться в дела звезд..."
