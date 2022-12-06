@@ -6,7 +6,7 @@
  COUNCIL_OF_THE_EIGHT_DOCTRINES:0 "Доктрины"
  
  COUNCIL_OF_THE_EIGHT_LEADER_TITLE:0 "[coe_leader|E] [Concept('coe', 'Совета Восьми')|E]"
- COUNCIL_OF_THE_EIGHT_LEADER_NAME:0 "[GetGlobalVariable('story_cycle_coe_global').Story.MakeScope.Var('coe_leader_faith').Faith.GetName], возглавляемый [GetGlobalVariable('story_cycle_coe_global').Story.MakeScope.Var('coe_leader_faith').Faith.GetReligiousHead.GetFullName]"
+ COUNCIL_OF_THE_EIGHT_LEADER_NAME:0 "[GetGlobalVariable('story_cycle_coe_global').Story.MakeScope.Var('coe_leader_faith').Faith.GetAdjective], который возглавляет [GetGlobalVariable('story_cycle_coe_global').Story.MakeScope.Var('coe_leader_faith').Faith.GetReligiousHead.GetFullName]"
  COUNCIL_OF_THE_EIGHT_LEADER_FERVOR_TITLE:0 "@fervor_icon![coe_leader_fervor|E]:"
  COUNCIL_OF_THE_EIGHT_LEADER_FERVOR_VALUE:0 "[GetGlobalVariable('leader_council_eight').Faith.GetFervor|0]% / [GetGlobalVariable('leader_council_eight').Faith.MakeScope.Var('fervor_equilibrium').GetValue|0]%"
  COUNCIL_OF_THE_EIGHT_LEADER_FERVOR_TT:0 "#weak [fervor_equilibrium|E] Лидера Совета Восьми влияет на равновесие рвения его членов."
@@ -19,7 +19,7 @@
  GET_CHAPEL_LAND_SHARE:1 "@domain_icon![Scope.Story.MakeScope.Var('chapel_faith').Faith.MakeScope.ScriptValue('ration_land_held_coe_leader_total_land_held_coe')|01]%"
  
  COE_CHAPEL_TITLE:0 "Часовня [Scope.Story.MakeScope.Var('chapel_province').Title.GetNameNoTier]:"
- COE_ADDING_NEW_CHAPELS:0 "Каждая [de_jure|El] [empire|El] может быть местом расположения [Concept('coe_chapel', 'часовни')|E]. Любая [faith|El] поклоняющаяся [GetFaithDoctrine('doctrine_pantheon_divines').GetBaseName] и преимущественно присутствующая в одной из этих империй, может просить [Concept('coe_leader', 'лидера')|E] о место в [Concept('coe', 'Совет Восьми')|E]."
+ COE_ADDING_NEW_CHAPELS:0 "Каждая [de_jure|El] [empire|El] может быть местом расположения [Concept('coe_chapel', 'часовни')|E]. Любая [faith|El], почитающая эти [GetFaithDoctrine('doctrine_pantheon_divines').GetBaseName|l] и присутствующая преимущественно в одной из этих империй, может просить [Concept('coe_leader', 'лидера')|E] о место в [Concept('coe', 'Совет Восьми')|E]."
  
  COUNCIL_OF_THE_EIGHT_DOCTRINES_ORGANISATION:0 "Доктрины - Организация"
  COUNCIL_OF_THE_EIGHT_DOCTRINES_BELIEFS:0 "Доктрины - Религиозные взгляды"

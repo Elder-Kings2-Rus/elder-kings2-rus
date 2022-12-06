@@ -2,7 +2,7 @@
 
  # Bandit Faction
  FACTION_BANDIT_NAME:0 "Бандитские лагеря"
- crisis_bandit_faction_desc:0 "[Concept('faction|', 'Фракция')|E] бандитов хочет, чтобы их лидеры бандитов правили, и будут стремиться заменить сюзерена, которого не волнует, что налоги, которые они взимают, заставят простолюдинов в [Concept('counties', 'графствах')|E] голодать.."
+ crisis_bandit_faction_desc:0 "[Concept('faction', 'Фракция')|E] бандитов хочет, чтобы их лидеры бандитов правили, и будут стремиться заменить сюзерена, которого не волнует, что налоги, которые они взимают, заставят простолюдинов в [Concept('counties', 'графствах')|E] голодать.."
  crisis_bandit_faction_short_effect_desc:0 "Хочет контролировать определенные [Concept('counties', 'графства')|E]"
  crisis_bandit_faction_every_county:0 "Каждое графство во фракции"
  crisis_bandit_faction_spawn_county_levies:0 "Создает [Concept( 'army', 'армию' )|E] бандитов пропорционально численности [Concept( 'levies', 'ополчения' )|E] ваших графств"
@@ -13,8 +13,8 @@
  FACTION_BANDIT_DYNAMIC_NAME:0 "[ROOT.Char.Custom('BanditFaction')]"
  FACTION_CRISIS_BANDIT_TITLE_NAME:0 "Бандитское восстание"
  crisis_bandit_faction_event_troops:0 "Войска [ROOT.Char.Custom('BanditFaction')]"
- crisis_bandit_war_victory_desc:1 "[bandit_leader.GetShortUIName|U] получает оспариваемый [title|E]."
- crisis_bandit_war_white_peace_desc:0 "[Concept('bandit_faction', 'Фракция бандитов')|E] Уничтожена."
+ crisis_bandit_war_victory_desc:1 "[bandit_leader.GetShortUIName|U] получает оспариваемый [title|El]."
+ crisis_bandit_war_white_peace_desc:0 "[Concept('bandit_faction', 'Фракция бандитов')|E] уничтожена."
  crisis_bandit_war_defeat_desc:0 "[Concept('bandit_faction', 'Фракция бандитов')|E] уничтожена, а [attacker.GetShortUIName] заключен в тюрьму. У всех оккупированных бандитами [Concept('counties', 'графств')|E] увеличено [Concept('county_opinion', 'народное мнение')|E]."
  CRISIS_BANDIT_WAR_NAME:0 "Восстание бандитов"
  FACTION_GOBLIN_NAME:0 "Гоблинский кризис"

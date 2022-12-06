@@ -1,5 +1,5 @@
 ﻿l_russian:
- RULER_DESIGNER_BIRTH_YEAR:0 "Год рождения: [Select_CString( GreaterThanOrEqualTo_int32( RulerDesignerWindow.GetBirthYear, '(int32)3816' ), '3E', '2E' )] [Subtract_int32( RulerDesignerWindow.GetBirthYear, '(int32)2920' )]" # 3E/2E year may not be correct
+ RULER_DESIGNER_BIRTH_YEAR:0 "Год рождения: [Select_CString( GreaterThanOrEqualTo_int32( RulerDesignerWindow.GetBirthYear, '(int32)3816' ), '3Э', '2Э' )] [Subtract_int32( RulerDesignerWindow.GetBirthYear, '(int32)2920' )]" # 3E/2E year may not be correct
 
  EK2_DEBUG:0 "Меню отладки EK"
  RULERDESIGNERWINDOW_GETETHNICITY_GETNAME:0 "RulerDesignerWindow.GetEthnicity.GetName"
@@ -424,13 +424,13 @@
 # # EK genes
  
  # Скрыть таблицу цветов кожи в конструкторе линеек для каджитов и лилмотиитов/других пушистых рас
- skin_color:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_lilmothiit') ) ), '', 'Skin Color' )]"
+ skin_color:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_lilmothiit') ) ), '', 'Цвет кожи' )]"
 
- hair_color:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_lilmothiit') ) ), 'Fur Color', 'Hair Color' )]"
+ hair_color:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_lilmothiit') ) ), 'Цвет меха', 'Цвет волос' )]"
 
 
  #Сделать так, чтобы гены бюста не отображались у мужчин и у аргониан
- gene_bs_bust:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_gender', 'female' ), GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') )), 'Bust Size', '' )]"
+ gene_bs_bust:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_gender', 'female' ), GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') )), 'Размер груди', '' )]"
  
  # Certain Tail options are only available to Khajiit/Lilmothiit
  tail_length:0 "Длина хвоста"
@@ -441,7 +441,7 @@
  tail_end_tuft:0 "Конечный пучок"
 
 # Цветовые палитры кожи, невидимые для каджитов
- race_gene_skin_color:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_lilmothiit') ) ), '', 'Skin Color Palette' )]"
+ race_gene_skin_color:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_lilmothiit') ) ), '', 'Палитра цветов кожи' )]"
 
  human_skin:0 "Цвет кожи" 
  dunmer_skin:0 "Цвет кожи"
@@ -693,8 +693,8 @@
  ear_lobe_fused:0 "Сросшаяся мочка уха"
  ear_lobe_detached:0 "Отделенная мочка уха"
 
- race_gene_mer_ears_01:0 "Мерские уши (Смешиваеммые) A"
- race_gene_mer_ears_02:0 "Мерские уши (Смешиваеммые) B"
+ race_gene_mer_ears_01:0 "Мерские уши (Смешиваемые) A"
+ race_gene_mer_ears_02:0 "Мерские уши (Смешиваемые) B"
  mer_ears_01:0 "Мерские уши I"
  mer_ears_02:0 "Мерские уши II"
  mer_ears_03:0 "Мерские уши III"
@@ -853,7 +853,7 @@ body_shape_triangle_full:0 "Полный треугольник"
  old_3:0 "Старение III"
  old_4:0 "Старение IV"
  ek_old_1:0 "Старение V"
- old_elf:0 "Мерское Старение"
+ old_elf:0 "Мерское старение"
 
  expression_forehead_wrinkles:0 "Морщины на лбу"
  forehead_wrinkles_01:0 "Морщины на лбу I"

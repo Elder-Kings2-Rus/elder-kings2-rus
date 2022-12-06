@@ -11,13 +11,13 @@
  culture_parameter_unlock_urbanism_legacy:0 "[dynast|E] этой [Concept('culture', 'культуры')|E] может использовать #V $fp2_urbanism_legacy_track_name$#! [dynasty_perk|El]"
 
 ## MAA PARAMETERS
- culture_parameter_unlock_innovation_nordic_steelcarving:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_nordic_steelcarving$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('huscarl').GetName]" 
- culture_parameter_unlock_innovation_stalhrim_reinforced_furs:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_stalhrim_reinforced_furs$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('skaal_hunter').GetName]"
- culture_parameter_unlock_innovation_orichalc_master_smiths:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_orichalc_master_smiths$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('orc_marauders').GetName]"
- culture_parameter_unlock_innovation_colovian_steel_lorica:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_colovian_steel_lorica$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('armored_legionaires').GetName]"
- culture_parameter_unlock_innovation_shehai_sword_lore:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_shehai_sword_lore$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('yokudan_way_of_the_sword').GetName]"
- culture_parameter_unlock_innovation_corsair_traditions:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_corsair_traditions$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('abecean_pirates').GetName]" 
- culture_parameter_unlock_innovation_yoku_braided_stirrups:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_yoku_braided_stirrups$ что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('light_grazing_horde').GetName]"
+ culture_parameter_unlock_innovation_nordic_steelcarving:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_nordic_steelcarving$, что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('huscarl').GetName]" 
+ culture_parameter_unlock_innovation_stalhrim_reinforced_furs:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_stalhrim_reinforced_furs$, что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('skaal_hunter').GetName]"
+ culture_parameter_unlock_innovation_orichalc_master_smiths:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_orichalc_master_smiths$, что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('orc_marauders').GetName]"
+ culture_parameter_unlock_innovation_colovian_steel_lorica:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_colovian_steel_lorica$, что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('armored_legionaires').GetName]"
+ culture_parameter_unlock_innovation_shehai_sword_lore:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_shehai_sword_lore$, что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('yokudan_way_of_the_sword').GetName]"
+ culture_parameter_unlock_innovation_corsair_traditions:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_corsair_traditions$, что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('abecean_pirates').GetName]" 
+ culture_parameter_unlock_innovation_yoku_braided_stirrups:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_yoku_braided_stirrups$, что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('light_grazing_horde').GetName]"
 
 ##PERK PARAMETERS
  culture_parameter_strategist_xp_rebate:0 "Прогрессировать в стиле жизни Стратегия станет легче"
@@ -47,7 +47,7 @@
  culture_parameter_cruelty_valued:0  "Персонажей с [Concept('trait', 'чертой')|E] «[GetTrait('sadistic').GetName( GetNullCharacter )]» ценятся выше, а с «[GetTrait('compassionate').GetName( GetNullCharacter )]» или «[GetTrait('shy').GetName( GetNullCharacter )]» презираются"
  culture_parameter_faith_valued:0  "Персонажей с [Concept('trait', 'чертой')|E] «[GetTrait('zealous').GetName( GetNullCharacter )]» ценятся выше, а с «[GetTrait('cynical').GetName( GetNullCharacter )]» или «[GetTrait('arrogant').GetName( GetNullCharacter )]» презираются"
  culture_parameter_forder_trait_bonuses:0  "Персонажи с «[GetTrait('forder').GetName( GetNullCharacter )]» могут высаживаться без штрафа и плыть быстрее" 
- culture_parameter_poorly_educated_leaders_greatly_distrusted_ceremoniarchy:0 "[rulers|E] с плохими [Concept('education_traits', 'свойствами образования')|E], такими как [GetTrait('education_martial_1').GetName( GetNullCharacter )] или [GetTrait('education_martial_2').GetName( GetNullCharacter )], полузуются #N большим#! недоверием"
+ culture_parameter_poorly_educated_leaders_greatly_distrusted_ceremoniarchy:0 "[rulers|E] с плохими [Concept('education_traits', 'свойствами образования')|E], такими как [GetTrait('education_martial_1').GetName( GetNullCharacter )] или [GetTrait('education_martial_2').GetName( GetNullCharacter )], пользуются #N большим#! недоверием"
 
 ##CHILD PERSONALITY PARAMETERS
  culture_parameter_curious_trait_more_common:0 "[trait|E] «[GetTrait('curious').GetName( GetNullCharacter )]» встречается чаще"
@@ -73,7 +73,7 @@
  tradition_conquerors_name:0 "Одаренные завоеватели"
  tradition_conquerors_desc:1 "Любой человек может стать компетентным лидером благодаря открытым сражениям. Мы должны использовать любой предлог для таких сражений, чтобы завоевать далеко и широко"
  tradition_orc_core_name:0 "Культура твердынь"
- tradition_orc_core_desc:1 "Жить в оркской твердыне одновременно и трудно, и легко. Самодостаточность - ключевой фактор... но каждый должен быть надежным. Знайте свое место и выполняйте свою роль, чтобы сообщество могло процветать"
+ tradition_orc_core_desc:1 "Жить в орочьей твердыне одновременно и трудно, и легко. Самодостаточность - ключевой фактор... но каждый должен быть надежным. Знайте свое место и выполняйте свою роль, чтобы сообщество могло процветать"
  tradition_forlorn_peace_name:0 "Затерянный мир"
  tradition_forlorn_peace_desc:1 "Мир нас подвел. Мы должны сдерживать всех потенциальных захватчиков и предателей болью и террором и сохранять железную хватку над властью""
  tradition_arsenal_name:0 "Гарнизонные кузнецы"
@@ -96,10 +96,10 @@
  tradition_ceremoniarchy_desc:1 "Мы - потомки самих Аэдра, и жить менее совершенной жизнью - значит бесчестить наших предков. Мы создали сложную придворную культуру и церемонии, основанные на нашей связи с древними духами."
  tradition_sorcerer_kings_name:0 "Короли-колдуны"
  tradition_sorcerer_kings_desc:0 "Наша культура и народ придают огромное значение Аркане и мастерству в искусстве магии. Справедливо, что сильнейшие маги должны править.."
- culture_parameter_unlocks_court_magical:0 "Правители с [royal_court|E] могут использовать $court_magical$ [court_type|E]"
- culture_parameter_rank_gives_bonus_to_mage_maa:0 "Маги [men_at_arms|E] получают бонус к размеру, [damage|E], [pursuit|E], [toughness|E] и [screen|E] зависящий от [rank|E] правителя"
- culture_parameter_unlocks_arcana_education:0 "[guardians|E] с навыками в Магии, либо через #V $trait_arcana_good$#! или #V $trait_education_magical_ability$#! [trait|E] передаст #V $trait_education_magical_ability$#! [trait|E] к их [ward|E]\n#weak Инновации, раскрывающие подобные способности, вместо этого приведут к лучшим результатам#!"
- culture_parameter_good_arcana_traits_give_bonuses:0 "#V $trait_arcana_good$#! и #V $trait_education_magical_ability$#! [traits|E] ценятся больше"
- culture_parameter_bad_arcana_traits_give_maluses:0 "#V $trait_arcana_bad$#! [traits|E] на них смотрят свысока"
+ culture_parameter_unlocks_court_magical:0 "Правители с [Concept('royal_court', 'монаршим двором')|E] могут использовать [court_type|El] $court_magical$"
+ culture_parameter_rank_gives_bonus_to_mage_maa:0 "Маги [men_at_arms|El] получают бонус к размеру, [Concept('damage', 'урону')|E], [Concept('pursuit', 'преследованию')|E], [Concept('toughness', 'выносливости')|E] и [Concept('screen', 'скрытности')|E] зависящий от [Concept('rank', 'ранга')|E] правителя"
+ culture_parameter_unlocks_arcana_education:0 "[guardians|E] с навыками в Магии, либо со [Concept('trait', 'свойством')|E] #V $trait_arcana_good$#! или #V $trait_education_magical_ability$#!, передадут [Concept('trait', 'свойство')|E] #V $trait_education_magical_ability$#! к их [Concept('ward', 'подопечным')|E]\n#weak Инновации, раскрывающие подобные способности, вместо этого приведут к лучшим результатам#!"
+ culture_parameter_good_arcana_traits_give_bonuses:0 "[traits|E] #V $trait_arcana_good$#! и #V $trait_education_magical_ability$#! ценятся выше"
+ culture_parameter_bad_arcana_traits_give_maluses:0 "[Concept('traits', 'Свойство')|E] #V $trait_arcana_bad$#! презирается"
 
  CULTURE_NOT_NATIVE_FOR_DIVERGENCE:0 "[Concept('culture', 'Культура')|E] с таким [Concept('heritage', 'наследием')|E] уже считается [Concept('native', 'коренной')|E] для вашего [Concept('capital', 'столичного')|E] [Concept('nativity_region', 'родного региона')|E]"
