@@ -1,8 +1,8 @@
 ﻿l_russian:
  HOSTAGES_WAR_NAME:0 "Освобождение пленников"
  hostages_war_victory_desc:0 "Все [prisoners|E] и подневольные [concubines|E], считавшиеся близкими к [attacker.GetShortUIName|U] и содержавшиеся при дворе [defender.GetShortUIName|U] освобождаются. [defender.GetShortUIName|U] выплатит дань [attacker.GetShortUIName|U] в качестве репараций."
- hostages_war_white_peace_desc:0 "Все [prisoners|E] и подневольные [concubines|E] остануться в пределах двора [attacker.GetShortUIName|U]."
- hostages_war_defeat_desc:0 "Все [prisoners|E] и подневольные [concubines|E] остануться в пределах двора [defender.GetShortUIName|U]. [attacker.GetShortUIName|U] выплатит дань [defender.GetShortUIName|U] в качестве репараций."
+ hostages_war_white_peace_desc:0 "Все [prisoners|E] и подневольные [concubines|E] останутся в пределах двора [attacker.GetShortUIName|U]."
+ hostages_war_defeat_desc:0 "Все [prisoners|E] и подневольные [concubines|E] останутся в пределах двора [defender.GetShortUIName|U]. [attacker.GetShortUIName|U] выплатит дань [defender.GetShortUIName|U] в качестве репараций."
 
  fc_war_event.0001.t:0 "Освобождение своих родственников"
  fc_war_event.0001.desc:0 "[attacker.GetShortUIName|U] идет на нас, стремясь освободить своих родственников, которых мы держим в плену.\n\nВозможно, мы могли бы заключить мир и освободить заключенных, что [attacker.GetFirstName] хочет забрать.\n\nИли, быть может, мы должны показать [attacker.GetHerHim], что с нами не стоит связываться. [fc_chosen_captive.GetFirstName] [Select_CString(fc_chosen_captive.IsFemale, 'была заключена', 'был заключен' )] нами, и [fc_chosen_captive.GetSheHe] послужит примером в дальнейшем."

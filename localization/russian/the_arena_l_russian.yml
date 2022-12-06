@@ -19,5 +19,5 @@ the_arena.0002.b:0 "Я поставлю на [second_contestant.GetFirstNameNoTo
 the_arena.0002.b.victory:0 "[second_contestant.GetFirstNameNoTooltip] выиграл бой!"
 the_arena.0002.b.defeat:0 "[second_contestant.GetFirstNameNoTooltip] проиграл бой!"
 the_arena.0003.t:0 "Арена - Дуэль"
-the_arena.0003.desc:0 "Я сажусь на места, отведенные для меня и моих придворных, и отчетливо слышу голосос Рта Арены\n\n“Добро пожаловать, добро пожаловать на арену, прекрасные жители [GetPlayer.GetCurrentLocation.GetName]! Вы пришли посмотреть на бой и этот бой будет! Сегодня на арене сражается [first_contestant.GetFirstNameNoTooltip] против [second_contestant.GetFirstNameNoTooltip] в битве за славу!”"
+the_arena.0003.desc:0 "Я сажусь на места, отведенные для меня и моих придворных, и отчетливо слышу голос Рта Арены\n\n“Добро пожаловать, добро пожаловать на арену, прекрасные жители [GetPlayer.GetCurrentLocation.GetName]! Вы пришли посмотреть на бой и этот бой будет! Сегодня на арене сражается [first_contestant.GetFirstNameNoTooltip] против [second_contestant.GetFirstNameNoTooltip] в битве за славу!”"
 the_arena.0003.a:0 "“Опустить ворота!”"

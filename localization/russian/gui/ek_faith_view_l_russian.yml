@@ -1,8 +1,8 @@
 ﻿l_russian:
- FAITH_DOCTRINES_PANTHEON:0 "Доктрины [Concept( 'pantheon, 'Пантеона' )|E]"
+ FAITH_DOCTRINES_PANTHEON:0 "Доктрины [Concept( 'pantheon', 'Пантеона' )|E]"
  FAITH_DOCTRINES_SECONDARY_PANTHEON:0 "Вторичные Доктрины Пантеона"
  FAITH_DOCTRINES_DAEDRIC_PRINCES:0 "Даэдрические Доктрины"
- FAITH_DOCTRINES_VIRTUES_SINS:0 "[Concept( 'virtues, 'Добродетели' )|E] и [Concept( 'sins, 'грехи' )|E]"
+ FAITH_DOCTRINES_VIRTUES_SINS:0 "[Concept( 'virtues', 'Добродетели' )|E] и [Concept( 'sins', 'грехи' )|E]"
  FAITH_DOCTRINES_IMPORTANT_SPECIAL:0 "Специальные Доктрины"
  
  FAITH_WINDOW_FERVOR_EQUILIBRIUM:0 "/[Faith.MakeScope.Var('fervor_equilibrium').GetValue|0]%"

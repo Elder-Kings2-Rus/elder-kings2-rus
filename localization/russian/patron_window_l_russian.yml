@@ -1,8 +1,8 @@
 ﻿l_russian:
  #buttons/titles
- PATRON_BUTTON:0 "#T Devotion#!"
- PATRON_VIEW_TITLE:0 "Devotion"
- COMMUNE:0 "Commune"
+ PATRON_BUTTON:0 "#T Посвящение#!" #?
+ PATRON_VIEW_TITLE:0 "Посвящение" #?
+ COMMUNE:0 "Сообщество"
  #patron_commune_tt:0 "Commune with [GetPlayer.Custom('GetPatronName')]"
  #patron_commune_tt:0 "Commune with [Localize(Concatenate(Concatenate('patron_', GetVariableSystem.Get('active_patron')), '_name'))]"
  patron_commune_tt:0 "Общаться с [Localize(Concatenate(Concatenate('patron', ValueBreakdown.GetName), '_name'))]" #?
@@ -33,14 +33,14 @@
  selected_patron_name:0 "[GetPlayer.Custom('GetPatronName')]"
  selected_patron_desc:0 "[GetPlayer.Custom('GetPatronDesc')]"
  selected_patron_long_desc:0 "[GetPlayer.Custom('GetPatronLongDesc')]"
- patron_ardor:0 "#T Ardor: [GetPlayer.MakeScope.Var(Concatenate('ardor', GetVariableSystem.Get('patron_active'))).GetValue|V0]#!"
- patron_status:0 "#T Status:#!\n[GetPlayer.Custom(Concatenate('GetPatronStatus', GetVariableSystem.Get('patron_active')))]"
+ patron_ardor:0 "#T Ардор: [GetPlayer.MakeScope.Var(Concatenate('ardor', GetVariableSystem.Get('patron_active'))).GetValue|V0]#!"
+ patron_status:0 "#T Статус:#!\n[GetPlayer.Custom(Concatenate('GetPatronStatus', GetVariableSystem.Get('patron_active')))]"
  # global variable [patron]_status w/ flag
- patron_status_nominal:0 "Nominal" #нужен контекст
- patron_status_ascendant:0 "#P Ascendant#!"
- patron_status_convalescing:0 "#Z Convalescing#!"
- patron_status_cataclysm:0 "#N Cataclym#!"
- patron_worship_type:0 "#T Worship Type:#!\n[GetPlayer.Custom(Concatenate('GetPatronWorshipType', GetVariableSystem.Get('patron_active')))]"
+ patron_status_nominal:0 "Номинальный" #нужен контекст
+ patron_status_ascendant:0 "#P Рассвет#!" #нужен контекст
+ patron_status_convalescing:0 "#Z Выздоровление#!" #нужен контекст
+ patron_status_cataclysm:0 "#N Катаклизм#!"  #нужен контекст!!!
+ patron_worship_type:0 "#T Тип поклонения:#!\n[GetPlayer.Custom(Concatenate('GetPatronWorshipType', GetVariableSystem.Get('patron_active')))]"
  # has_doctrine tenet_focused_worship - 
  patron_worship_type_focused:0 "#P [daedric_focused]#!"
  patron_worship_type_pantheon:0 "[daedric_pantheon|E]"
@@ -75,7 +75,7 @@
  patron_hermaeus_desc:0 "Демон знаний"
  patron_hermaeus_long_desc:0 "[GetPlayer.Custom('GetObHermaeusDesc')]"
  patron_hermaeus_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_hermaeus')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_hermaeus')]\nArdor: [GetPlayer.MakeScope.Var('ardor_hermaeus').GetValue|+0]"
- desc_hermaeus:0 "Даэдрический принц Запретного знания, Хермеус Мора, правит Апокрифом в Обливионе. Обычно его изображают в виде Отвратительной Бездны, клубящейся массы глаз и щупалец. Нордические мифы рассказывают, что он  обманом почти превратил Исграмора в эльфа."
+ desc_hermaeus:0 "Даэдрический принц Запретного знания, Хермеус Мора, правит Апокрифом в Обливионе. Обычно его изображают в виде Отвратительной Бездны, клубящейся массы глаз и щупалец. Нордические мифы рассказывают, что он обманом почти превратил Исграмора в эльфа."
  
  patron_hircine_name:0 "[GetPlayer.Custom('GetObHircineName')]"
  patron_hircine_desc:0 "Отец зверолюдей"
@@ -133,7 +133,7 @@
  patron_peryite_desc:0 "Приносящий мор"
  patron_peryite_long_desc:0 "[GetPlayer.Custom('GetObPeryiteDesc')]"
  patron_peryite_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_peryite')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_peryite')]\nArdor: [GetPlayer.MakeScope.Var('ardor_peryite').GetValue|+0]"
- desc_peryite:0 "Даэдрический принц естественного порядка, Периит правит Ямами в Обливионе. Обычно его изображают в виде дракона с шестью конечностями, несмотря на то, что он один из самых слабых принцев. Последователи Периита считают болезни и другие недуги благословением принца."
+ desc_peryite:0 "Даэдрический принц естественного порядка, Периайт правит Ямами в Обливионе. Обычно его изображают в виде дракона с шестью конечностями, несмотря на то, что он один из самых слабых принцев. Последователи Периайта считают болезни и другие недуги благословением принца."
  
  patron_sanguine_name:0 "[GetPlayer.Custom('GetObSanguineName')]"
  patron_sanguine_desc:0 "Повелитель темной праздности" #uesp didn't include an actual title, so made one up
@@ -151,7 +151,7 @@
  patron_vaermina_desc:0 "Ткач судеб"
  patron_vaermina_long_desc:0 "[GetPlayer.Custom('GetObVaerminaDesc')]"
  patron_vaermina_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_vaermina')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_vaermina')]\nArdor: [GetPlayer.MakeScope.Var('ardor_vaermina').GetValue|+0]"
- desc_vaermina:0 "Даэдрический принц снов, Ваэрмина правит Куагмиром в Забвении. Обычно её изображают в виде пожилой женщины с посохом, иногда в сопровождении змеи. Ее последователи часто являются алхимиками, их самое известное снадобье - Торпор Ваермины."
+ desc_vaermina:0 "Даэдрический принц снов, Вермина правит Куагмиром в Забвении. Обычно её изображают в виде пожилой женщины с посохом, иногда в сопровождении змеи. Ее последователи часто являются алхимиками, их самое известное снадобье - Торпор Вермины."
 
  #long_desc direct from uesp as placeholder, should be changed
 
@@ -308,41 +308,41 @@
  
  action_pick_patron:0 "Выберите покровителя"
  action_pick_patron_label:0 "$action_pick_patron$"
- action_pick_patron_desc:2 "У вас нет покровителя.\n\n#help Ваша [Concept('faith', 'конфесися')|E] имеет покровителей. Каждый признак дает вам бонус в той или иной форме.#!"
+ action_pick_patron_desc:2 "У вас нет покровителя.\n\n#help Ваша [Concept('faith', 'конфессия')|E] имеет покровителей. Каждый признак дает вам бонус в той или иной форме.#!"
  action_pick_patron_click:0 "#I Нажмите, чтобы просмотреть потенциальных покровителей для вашей веры#!"
 
  within_date:0 "Within one month of [Localize(Concatenate('prince_', '$VALUE|0$'))]'s summoning day #F ([Localize(Concatenate('date_prince_', '$VALUE|0$'))])#!"
  #not_within_date:0 "Not within one month of [SCOPE.GetFlagName('prince')]'s summoning day"
 
- prince_1:0 "Azura"
+ prince_1:0 "Азура"
  date_prince_1:0 "21st of $CW_DATE_March$"
- prince_2:0 "Boethiah"
+ prince_2:0 "Боэтия"
  date_prince_2:0 "2nd of $CW_DATE_November$"
- prince_3:0 "Clavicus Vile"
+ prince_3:0 "Клавикус Вайл"
  date_prince_3:0 "1st of $CW_DATE_January$"
- prince_4:0 "Hermaeus Mora"
+ prince_4:0 "Хермеус Мора"
  date_prince_4:0 "5th of $CW_DATE_March$"
- prince_5:0 "Hircine"
+ prince_5:0 "Хирсин"
  date_prince_5:0 "5th of $CW_DATE_June$"
- prince_6:0 "Malacath"
+ prince_6:0 "Малакат"
  date_prince_6:0 "8th of $CW_DATE_October$"
- prince_7:0 "Mehrunes Dagon"
+ prince_7:0 "Мерунес Дагон"
  date_prince_7:0 "20th of $CW_DATE_November$"
- prince_8:0 "Mephala"
+ prince_8:0 "Мефала"
  date_prince_8:0 "13th of $CW_DATE_October$"
- prince_9:0 "Meridia"
+ prince_9:0 "Меридия"
  date_prince_9:0 "13th of $CW_DATE_January$"
- prince_10:0 "Molag Bal"
+ prince_10:0 "Молаг Бал"
  date_prince_10:0 "20th of $CW_DATE_December$"
- prince_11:0 "Namira"
+ prince_11:0 "Намира"
  date_prince_11:0 "9th of $CW_DATE_May$"
- prince_12:0 "Nocturnal"
+ prince_12:0 "Ноктюрнал"
  date_prince_12:0 "3th of $CW_DATE_September$"
- prince_13:0 "Peryite"
+ prince_13:0 "Периайт"
  date_prince_13:0 "9th of $CW_DATE_April$"
- prince_14:0 "Sanguine"
+ prince_14:0 "Сангвин"
  date_prince_14:0 "16th of $CW_DATE_February$"
- prince_15:0 "Sheogorath"
+ prince_15:0 "Шеогорат"
  date_prince_15:0 "2nd of $CW_DATE_February$"
- prince_16:0 "Vaermina"
+ prince_16:0 "Вермина"
  date_prince_16:0 "10th of $CW_DATE_July$"

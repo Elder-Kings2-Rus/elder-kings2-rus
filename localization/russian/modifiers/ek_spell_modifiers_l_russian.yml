@@ -1,13 +1,13 @@
 ﻿l_russian:
- modifier_spell_fortify_walls:0 "Укрепленные Стены"
+ modifier_spell_fortify_walls:0 "Укрепленные стены"
  modifier_spell_fortify_walls_desc:0 "Крепости в этой провинции были укреплены магической защитой, что усложняет любую атаку." #PLACEHOLDER
- modifier_spell_destroy_walls:0 "Разрушенные Стены"
+ modifier_spell_destroy_walls:0 "Разрушенные стены"
  modifier_spell_destroy_walls_desc:0 "Крепости в этой провинции были магически повреждены, что снизило их способность выдерживать осаду." #PLACEHOLDER
  modifier_spell_shield:0 "Защита" #wip ritual
  modifier_spell_shield_desc:0 "Этот персонаж находится под действием заклинания щита, и его войска будут реже погибать в бою." #wip ritual
  modifier_invisibility:0 "Невидимость" #wip ritual
  modifier_invisibility_desc:0 "Этот персонаж находится под действием заклинания невидимости и имеет бонус к интригам и избеганию страданий от интриг." #wip ritual
- modifier_consort_daedra:0 "Общение с Даэдра"
+ modifier_consort_daedra:0 "Общение с даэдра"
  modifier_consort_daedra_desc:0 "Несмотря на риск, этот маг сотрудничает с силами Обливиона." #PLACEHOLDER
  modifier_spell_burden_lesser:0 "Обуза"
  modifier_spell_burden_lesser_desc:0 "Этот персонаж находится под действием заклинания небольшой обузы, и его войска будут двигаться немного медленнее.."
@@ -17,17 +17,17 @@
  modifier_spell_burden_greater_desc:0 "Этот персонаж находится под действием заклинания большой обзузы, и его войска будут двигаться значительно медленнее."
  modifier_spell_feather:0 "Пёрышко"
  modifier_spell_feather_desc:0 "Этот персонаж находится под действием заклинания пёрышко, и его войска будут двигаться быстрее."
- modifier_spell_still_waters:0 "Спокойные Воды"
+ modifier_spell_still_waters:0 "Спокойные воды"
  modifier_spell_still_waters_desc:0 "Этот персонаж находится под действием заклинания спокойных вод, и его корабли будут двигаться медленнее."
- modifier_spell_mass_paralysis:0 "Массовый Паралич"
+ modifier_spell_mass_paralysis:0 "Массовый паралич"
  modifier_spell_mass_paralysis_desc:0 "Этот персонаж находится под действием заклинания массового паралича, делающего его армию бесполезной."
- modifier_spell_weakness_disease:0 "Слабость к Болезням"
+ modifier_spell_weakness_disease:0 "Слабость к болезням"
  modifier_spell_weakness_disease_desc:0 "На этого персонажа наложено заклинание слабости к болезням, и его здоровье будет слабеть, пока заклинание не исчезнет."
- modifier_spell_weakness_weapons:0 "Слабость к Оружию"
+ modifier_spell_weakness_weapons:0 "Слабость к оружию"
  modifier_spell_weakness_weapons_desc:0 "Этот персонаж находится под действием заклинания слабости к оружию, и его войска будут чаще погибать в бою."
  modifier_spell_demoralize:0 "Деморализация"
  modifier_spell_demoralize_desc:0 "Этот персонаж находится под действием заклинания деморализации, и его войска будут страдать от низкого боевого духа."
- modifier_spell_hysteria:0 "Массовая Истерия"
+ modifier_spell_hysteria:0 "Массовая истерия"
  modifier_spell_hysteria_desc:0 "Люди в этой провинции подверглись магическому вмешательству в свой разум, что снизило их мнение о своем сеньоре." #PLACEHOLDER
  modifier_spell_resilience:0 "Сопротивление"
  modifier_spell_resilience_desc:0 "Этот персонаж находится под действием заклинания стойкости, и его здоровье магически укреплено."

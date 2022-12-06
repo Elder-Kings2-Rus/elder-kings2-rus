@@ -5,3 +5,5 @@
  motto_the_x_mind_knows_y:0 "Через $1$ разум познается $2$"
  motto_a_good:0 "добрый"
  motto_a_calm:0 "спокойный"
+ GOVERNMENT_RULE_INFO:0 "- Разрешено $RULE|Vl$"
+ GOVERNMENT_HOLDING_INFO:0 "- Можно включать [holding|El]: [HOLDING_TYPE.GetName|V]"

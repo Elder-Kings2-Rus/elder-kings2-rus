@@ -103,7 +103,7 @@
  trait_p_ae_xen_base:0 "Последователь З'ена"
  trait_p_ae_xen_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ae_xen_desc' )]"
  trait_p_ae_xen_desc:0 "Последователь З'ена"
- trait_p_ae_xen_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]является последователем божества, известного как [ROOT.Char.Custom('GetAeXenName')]."
+ trait_p_ae_xen_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAeXenName')]."
  
  # Daedra
  trait_p_ob_azura:0 "Принц-покровитель - [ROOT.Char.Custom('GetObAzuraName')]"
@@ -176,13 +176,13 @@
  trait_p_ob_nocturnal_base:0 "Последователь Ноктюрнал"
  trait_p_ob_nocturnal_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ob_nocturnal_desc' )]"
  trait_p_ob_nocturnal_desc:0 "Последователь Ноктюрнал."
- trait_p_ob_nocturnal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]является последователем Принца даэдра, известного как [ROOT.Char.Custom('GetObNocturnalName')]."
+ trait_p_ob_nocturnal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Принца даэдра, известного как [ROOT.Char.Custom('GetObNocturnalName')]."
  
  trait_p_ob_peryite:0 "Принц-покровитель - [ROOT.Char.Custom('GetObPeryiteName')]"
  trait_p_ob_peryite_base:0 "Последователь Периайта"
  trait_p_ob_peryite_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ob_peryite_desc' )]"
  trait_p_ob_peryite_desc:0 "Последователь Периайта."
- trait_p_ob_peryite_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]является последователем Принца даэдра, известного как [ROOT.Char.Custom('GetObPeryiteName')]."
+ trait_p_ob_peryite_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Принца даэдра, известного как [ROOT.Char.Custom('GetObPeryiteName')]."
  
  trait_p_ob_sanguine:0 "Принц-покровитель - [ROOT.Char.Custom('GetObSanguineName')]"
  trait_p_ob_sanguine_base:0 "Последователь Сангвина"

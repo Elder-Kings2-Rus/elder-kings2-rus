@@ -1,7 +1,7 @@
 ﻿l_russian:
  tradition_byzantine_succession_name:1 "Byzantine Traditions" #Not loccing this cause deeply linked to a Vanilla culture
 
- tradition_african_tolerance_name:0 "Религиозная толерантнось"
+ tradition_african_tolerance_name:0 "Религиозная толерантность"
 
  tradition_the_witenagemot_name:0 "The Witenagemot" #Not loccing this cause deeply linked to a Vanilla culture
 
@@ -17,7 +17,7 @@
  
  culture_parameter_not_tribal_raiding_malus:0 "После возвращения с успешного [Concept('raid', 'рейда')|E], не [Concept('tribal', 'племенной')|E] и не [Concept('pirate', 'пиратский')|E] персонаж #EMP теряет#! [EmptyScope.ScriptValue('not_tribal_raid_prestige_multiplier')|1] [prestige_i][prestige|El] за 1 доставленную [Concept('raid_loot', 'добычу')|E]\n#F Персонажи с [Concept('perk', 'достоинством')|E] [GetPerk('raider_perk').GetName(GetPlayer)] не затрагиваются этим штрафом#!"
 
- tradition_roman_legacy_name:1 "Имперсоке наследие"
+ tradition_roman_legacy_name:1 "Имперское наследие"
  tradition_roman_legacy_desc:1 "Военная организация Сиродильской Империи до сих пор живёт в памяти этой культуры. Профессиональная армия предпочтительнее ополчения."
  
  tradition_nubian_warrior_queens_name:0 "Королева воинов"
