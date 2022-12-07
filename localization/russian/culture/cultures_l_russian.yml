@@ -236,7 +236,7 @@
     karth_prefix:0 "Карто"
     karth_collective_noun:1 "Картск"
     karth_desc:0 "Люди Карта, или же ричмены, как их называют в настоящее время. Возрождение недийских королевств и древних культур по всему Тамриэлю привели к возрождению старых традиций в Карте.\n\nНыне доминирующая народность Тамриэля, бывшие ричмены, возможно, наконец-то познать мир и начнут жить бок о бок с галенами и людьми Крита." ## $reachfolk$ $galen$ $kreath$
-    karth_collective_noun:0 "$karth_collective_noun$ое мнение"
+    #karth_collective_noun:0 "$karth_collective_noun$ое мнение"
  nede:0 "Недийцы" ## Placeholder DO NOT REMOVE. HISTORY USE ONLY (FOR NOW).
     nede_prefix:0 "Недийско"
     nede_collective_noun:1 "Недийск"
