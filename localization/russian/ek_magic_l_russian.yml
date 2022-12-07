@@ -210,8 +210,8 @@
  TRAIT_FLAG_DESC_subtract_arcana_8:0 "[arcana|E]: [arcana_i]#N -8#!"
  TRAIT_FLAG_DESC_subtract_arcana_10:0 "[arcana|E]: [arcana_i]#N -10#!"
  TRAIT_FLAG_DESC_subtract_arcana_12:0 "[arcana|E]: [arcana_i]#N -12#!"
- TRAIT_FLAG_DESC_add_ritual_slot_1:0 "Ritual Slots: #P +1#!"
- TRAIT_FLAG_DESC_add_ritual_slot_2:0 "Ritual Slots: #P +2#!"
+ TRAIT_FLAG_DESC_add_ritual_slot_1:0 "Слоты ритуалов: #P +1#!"
+ TRAIT_FLAG_DESC_add_ritual_slot_2:0 "Слоты ритуалов: #P +2#!"
 
  stage_1:0 "Новичок"
  stage_2:0 "Ученик"
