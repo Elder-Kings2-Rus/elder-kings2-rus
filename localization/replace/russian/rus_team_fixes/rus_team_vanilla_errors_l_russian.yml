@@ -77,3 +77,4 @@
  culture_parameter_martial_custom_equal_combatant:0 "[knights|E] и [commanders|El] могут быть как мужчинами, так и женщинами"
  culture_parameter_martial_custom_female_only_combatant:0 "[knights|E] и [commanders|El] могут быть только женщинами"
  doctrine_parameter_warmonger:0 "Отрицательное [at_peace_opinion|El], положительное [offensive_war_opinion|El]"
+ FAITH_WINDOW_FAITH_NAME:0 "[Select_CString( StringIsEmpty( FaithCreationWindow.GetNewFaithName ), 'Выберите название', '' )] [FaithCreationWindow.GetNewFaithName][Select_CString( StringIsEmpty( FaithCreationWindow.GetNewFaithName ), '', 'ая конфессия' )] "
