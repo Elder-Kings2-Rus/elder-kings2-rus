@@ -315,11 +315,11 @@
  trait_p_eg_ilni_desc:0 "Последователь Ильни"
  trait_p_eg_ilni_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Ильни, Воздуха и Запада."
  
- trait_p_eg_tam:0 "Божество-покровитель - Там"
- trait_p_eg_tam_base:0 "Последователь Там"
+ trait_p_eg_tam:0 "Божество-покровитель - Тэм"
+ trait_p_eg_tam_base:0 "Последователь Тэма"
  trait_p_eg_tam_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_eg_tam_desc' )]"
- trait_p_eg_tam_desc:0 "Последователь Там"
- trait_p_eg_tam_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Там, Жизни и Центра."
+ trait_p_eg_tam_desc:0 "Последователь Тэма"
+ trait_p_eg_tam_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Тэма, Жизни и Центра."
  
  # Cyrodiilic Heroes
  trait_p_ch_alessia:0 "Покровитель - Святая Алессия"
