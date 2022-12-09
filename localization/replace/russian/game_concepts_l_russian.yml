@@ -12,7 +12,7 @@
  game_concept_feudal_contract_desc:1 " $game_concept_feudal_contract$ определяет [Concept('obligations', 'обязательства')|E] между [Concept('vassal', 'вассалом')|E] и его [Concept('liege', 'сюзереном')|E]. Контракт определяет, к чему привязаны обязательства вассала, и может включать специальные пункты, такие как #V религиозная свобода#! или #V права на декларацию санкционированной войны#!\n\n\nФеодальные вассалы (в [Concept('cultures', 'культурах')|E] с [Concept('innovation', 'инновацией')|E] #V феодальная структура#! ) могут договариваться о своих обязательствах индивидуально.\n\nСпециальные контракты, такие как #V $special_contract_march_short$#!, #V $special_contract_scutage_short$#! или #V $special_contract_palatinate_short$#!, могут иметь только [Concept('duchy', 'герцогский')|E] уровень [Concept('vassals', 'вассала')|E] или выше."            #это не комментарий, даже если и кажется им
 
 
- game_concept_faith_righteous:0 "Праведный"
+ game_concept_faith_righteous:0 "Праведники"
  game_concept_faith_righteous_desc:0 "Эта [Concept('faith', 'вера')|E] считается законной.\nМежрелигиозные браки распространены.\n\n#S эффекты:\n#![GetHostilityDescription( '(int32)0' )]"
 
  game_concept_faith_astray:0 "Заблудшие"
