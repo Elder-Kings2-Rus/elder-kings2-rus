@@ -1,9 +1,9 @@
 ﻿l_russian:
- FAITH_DOCTRINES_PANTHEON:0 "Доктрины [Concept( 'pantheon', 'Пантеона' )|E]"
- FAITH_DOCTRINES_SECONDARY_PANTHEON:0 "Вторичные Доктрины Пантеона"
- FAITH_DOCTRINES_DAEDRIC_PRINCES:0 "Даэдрические Доктрины"
+ FAITH_DOCTRINES_PANTHEON:0 "Доктрины [Concept( 'pantheon', 'пантеона' )|E]"
+ FAITH_DOCTRINES_SECONDARY_PANTHEON:0 "Вторичные доктрины пантеона"
+ FAITH_DOCTRINES_DAEDRIC_PRINCES:0 "Даэдрические доктрины"
  FAITH_DOCTRINES_VIRTUES_SINS:0 "[Concept( 'virtues', 'Добродетели' )|E] и [Concept( 'sins', 'грехи' )|E]"
- FAITH_DOCTRINES_IMPORTANT_SPECIAL:0 "Специальные Доктрины"
+ FAITH_DOCTRINES_IMPORTANT_SPECIAL:0 "Специальные доктрины"
  
  FAITH_WINDOW_FERVOR_EQUILIBRIUM:0 "/[Faith.MakeScope.Var('fervor_equilibrium').GetValue|0]%"
  
@@ -12,11 +12,11 @@
  DYNAMIC_HOLY_SITE_HELD_FAITH:0 "Удерживается конфессией"
  DYNAMIC_HOLY_SITE_NOT_HELD_FAITH:0 "НЕ удерживается конфессией"
  DYNAMIC_HOLY_SITE_NOT_HELD_FAITH_HOSTILITY:0 "[Title.GetHolder.GetFaith.GetRelationNameTo( GetPlayer.GetFaith )|V]"
- DYNAMIC_HOLY_SITE_ACTIVE:0 "#P Активное#! Священное место"
- DYNAMIC_HOLY_SITE_INACTIVE:0 "#N Неактивное#! Священное место"
- FAITH_DYNAMIC_HOLY_SITE_EXPLANATION:0 "Священные места удерживаемые вашей [Concept( 'faith', 'верой' )|E] или конфессией с подходящими [Concept( 'doctrines, 'доктринами' )|E] и [faith_hostility|E] считаются #V активными#! и могут быть выбраны во время [Concept( 'pilgrimage', 'паломничества' )|E].\nНекоторые священные места имеют специальные эффекты, которые доступны только если ваша [Concept( 'faith', 'вера' )|E] владеет священным местом."
+ DYNAMIC_HOLY_SITE_ACTIVE:0 "#P Активное#! священное место"
+ DYNAMIC_HOLY_SITE_INACTIVE:0 "#N Неактивное#! священное место"
+ FAITH_DYNAMIC_HOLY_SITE_EXPLANATION:0 "Священные места удерживаемые вашей [Concept( 'faith', 'верой' )|E] или конфессией с подходящими [Concept( 'doctrines', 'доктринами' )|E] считаются #V активными#! и могут быть выбраны во время [Concept( 'pilgrimage', 'паломничества' )|E].\nНекоторые священные места имеют специальные эффекты, которые доступны только если ваша [Concept( 'faith', 'вера' )|E] владеет священным местом."
  
- dhs_effect_none:0 "Модификатор Священного Места под контролем:\nНет особого эффекта"
+ dhs_effect_none:0 "Модификатор священного места под контролем:\nНет особого эффекта"
  dhs_effect_conversion_resistance_50:0 "Модификатор священного места под контролем:\n#P +50%#! сопротивления обращению"
  COURT_CHAPLAIN_CONVERSION_DYNAMIC_HOLY_SITE_IMPERIAL_CITY:0 "Специальное [Concept( 'holy_site', 'священное место' )|E] эффект: Имперский Город"
 

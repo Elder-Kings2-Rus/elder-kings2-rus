@@ -1,6 +1,6 @@
 ﻿l_russian:
 ###################################### Rules ###################################### 
-rule_epithet_frequency:0 "Эпитет"
+rule_epithet_frequency:0 "Эпитеты"
  setting_never_epithet_frequency:0 "Никогда"
  setting_never_epithet_frequency_desc:0 "Эпитеты никогда не появится. Но вы можете использовать взаимодействие эпитет, чтобы получить некоторые из них."
  setting_fewer_epithet_frequency:0 "Меньше"

@@ -90,7 +90,7 @@
  nick_the_red:0 "[Select_CString(CHARACTER.IsFemale, 'Красная', 'Красный' )]"
  nick_alduin:0 "Алдуин"
  nick_the_foresailor:0 "Передний Матрос"
- nick_the_orc_crusher:0 "Орк-Крушитель"
+ nick_the_orc_crusher:0 "Крушитель Орков"
  nick_the_beast_of_the_reach:0 "Зверь Предела"
  nick_dragonslayer:0 "Убийца Драконов"
  nick_the_fox:0 "[Select_CString(CHARACTER.IsFemale, 'Лиса', 'Лис' )]"

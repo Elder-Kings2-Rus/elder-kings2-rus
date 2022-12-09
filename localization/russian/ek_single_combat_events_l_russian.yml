@@ -1,11 +1,11 @@
 ﻿l_russian:
  single_combat.0001.unbounded_flames:1 "Давай посмотрим, нравится ли тебе быть поглощенным #EMP Бесконечным пламенем#!!"
  single_combat.0001.telekinesis:1 "Мой #EMP Телекинез# свалит тебя с ног!"
- single_combat.0001.crystallized_shield:1 "Мой #EMP Кристализированный щит#! не подведет меня!"
+ single_combat.0001.crystallized_shield:1 "Мой #EMP Кристаллизованный щит#! не подведет меня!"
  single_combat.0001.force_shock:1 "Вперед, мои магические силы!"
  single_combat.0001.storm_wall:1 "Мои магические способности позволяют мне поднять #EMP Стену бурь#!!"
  
- single_combat.0001.desc.my_feedback.unbounded_flames:0 "Я бросаю серию огненных шаров в форме дуги, взрывая пространство вокруг противника. После взрыва на некоторое время остается стена огня, пылающая так же жарко, как пламя обливиона."
+ single_combat.0001.desc.my_feedback.unbounded_flames:0 "Я бросаю серию огненных шаров в форме дуги, взрывая пространство вокруг противника. После взрыва на некоторое время остается стена огня, пылающая так же жарко, как пламя Обливиона."
  single_combat.0001.desc.my_feedback.telekinesis:0 "Я слегка взмахиваю рукой, концентрируя свою магическую силу в теле моего врага. [my_foe.GetFirstNameNoTooltip] смотрит на меня, недоумевая, почему [my_foe.GetSheHe] больше не чувствует землю, через мгновение [my_foe.GetSheHe] снова начинает чувствовать землю в полной мере."
  single_combat.0001.desc.my_feedback.force_shock:0 "Я размахиваю своим [myself.Custom('signature_weapon')], концентрируясь на арканных элементах и призывая их силу. [my_foe.GetFirstNameNoTooltip] не успевает парировать беспорядочные искры стихий, которые вылетают из моего [myself.Custom('signature_weapon')], поражая [my_foe.GetHerHim]."
  single_combat.0001.desc.my_feedback.crystallized_shield:0 "Я концентрируюсь на элементе мороза, направляя свою магическую энергию в холодный воздух, который окружает меня. [my_foe.GetFirstNameNoTooltip] видит, как передо мной и [Select_CString(ROOT.GetCharacter.IsFemale, 'ней', 'ним' )] появляется толстый ледяной щит, защищающий меня от [my_foe.GetHerHis] атак."
