@@ -31,7 +31,7 @@
 
  #try CHARACTER instead of charwindow, it needs to be Character.MakeScope.Char as just Character is not recognised
  arcana_title:0 "#bold;high;size:18 [arcana|E]: [Character.MakeScope.ScriptValue('arcana')|0]#! #bold;italic;low;size:18 ([Character.Custom('ArcanaLevel')])#!"
- arcana_base:0 "Base: #high [Character.MakeScope.ScriptValue('arcana_base')|0]#!"
+ arcana_base:0 "Базовое: #high [Character.MakeScope.ScriptValue('arcana_base')|0]#!"
  #education
  #arcana_education_magical_ability:0 "[Character.Custom('arcana_education_magical_ability')]"
  arcana_education_magical_ability_1:0 "[GetTrait('education_magical_ability_1').GetName(ROOT.Char)]"
