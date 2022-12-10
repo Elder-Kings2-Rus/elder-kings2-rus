@@ -20,7 +20,7 @@
  NO_PATRONS:0 "Нет покровителей"
  CONFIRM_PATRON:0 "Утвердить покровителя"
  CONFIRM_PATRON_DESC:0 "Вы не сможете изменить своего покровителя в течение пяти лет"
- CONFIRM_PATRON_BUTTON:0 " [Trait.GetNameNoTooltip(GetPlayer)]"
+ CONFIRM_PATRON_BUTTON:0 "[Trait.GetNameNoTooltip(GetPlayer)]"
  PATRON_TIMEOUT:0 "Вы не можете выбрать нового покровителя до [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'recent_patron_selected' ) )]"
  YOUR_PATRON:0 "Ваш [patron|E]"
  #pantheons

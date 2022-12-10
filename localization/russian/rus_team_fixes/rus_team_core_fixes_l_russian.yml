@@ -54,9 +54,8 @@
  
  Sieged:0 "Осада"
  
- celestialspriest_alternate_plural:0 "Жрецы"
- 
- # Тут добавлены строки, которые отсутствуют в редакторе религий. Их стоит удалить, если разработчики сами добавят их.
+ PORTRAIT_MODIFIER_special_draugr:0 "Драугр"
+ # Добавления отсутствующих строк, что связаны с религиями. Эти строки стоит удалить, если разработчики сами добавят их.
  
  doctrine_parameter_same_heritage_conversion_bonus_creating_faith_active:1 "Скорость обращения в #L [GetPlayer.GetCulture.GetHeritage.GetName|l]их#! [Concept( 'county', 'графствах' )|El]: #P +50%#!"
  doctrine_parameter_establishing_holy_site_same_heritage_creating_faith_active:0 "Новые [holy_sites|El] могут быть созданы только в #L [Faith.MakeScope.Var('associated_culture').Culture.GetHeritage.GetName|l]их#! провинциях"
@@ -82,5 +81,19 @@
  doctrine_parameter_pantheon_adds_deities_redguard:0 "Добавит следующих богов в [pantheon|El]: Акатош, Дибелла, Джулианос, Стендарр, Морва, Тава, Ту'вакка, Зет"
  doctrine_parameter_pantheon_adds_deities_riddlethar:0 "Добавит следующих богов в [pantheon|El]: Кенарт, Мара, С'рендарр, Алкош, Маргус, Азурра, Боэтра, Хирсин"
  doctrine_parameter_pantheon_adds_deities_khajiiti:0 "Добавит следующих богов в [pantheon|El]: Кенарт, Мара, С'рендарр, Алкош, Маргус, Азурра, Боэтра, Хермор, Хирсин, Мафала, Ноктра, Баар Дан"
+ molag_priest_male_plural:0 "Жрецы"
+ namira_priest_male_plural:0 "Жрецы"
+ hircine_priest_male_plural:0 "Жрецы"
+ peryite_priest_male:0 "Жрец"
+ peryite_priest_male_plural:0 "Жрецы"
+ mephala_priest_male:0 "Жрец"
+ mephala_priest_male_plural:0 "Жрецы"
+ sanguine_priest_male:0 "Жрец"
+ sanguine_priest_male_plural:0 "Жрецы"
+ lilmothiitpriest_male:0 "Жрец"
+ lilmothiitpriest_male_plural:0 "Жрецы"
+ mehrunes_priest_male:0 "Жрец"
+ mehrunes_priest_male_plural:0 "Жрецы"
+ celestialspriest_alternate_plural:0 "Жрецы"
  
  

@@ -162,7 +162,7 @@ ceremoniarchy_rejection_desc:0 "Мой вассал, [dissident.GetTitledFirstNa
 ceremoniarchy_rejection_option:0 "Они позорят своих предков."
 
 praxis_title:0 "#bold;high;size:18 [praxis|E]: [Character.MakeScope.Var('state_praxis').GetValue|1]/100#!"
-natural_praxis:0 "Естественная Праксис: [Character.MakeScope.ScriptValue('natural_praxis')|0]"
+natural_praxis:0 "Естественный Праксис: [Character.MakeScope.ScriptValue('natural_praxis')|0]"
 praxis_base:0 "Базовый показатель: [Character.MakeScope.ScriptValue('base_praxis')|0]"
 monthly_praxis_change_title:0 "Ежемесячное изменение: [Character.MakeScope.ScriptValue('monthly_praxis_change')|1]"
 
