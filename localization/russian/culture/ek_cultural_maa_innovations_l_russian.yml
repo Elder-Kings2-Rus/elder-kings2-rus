@@ -1,7 +1,7 @@
 ﻿l_russian:
 
- unlocks_raiding:0 "Открывает возможность устраивать [Concept ('raid','рейды')|E]"
- cannot_get_regional_innovations:0 "Эта культура не может исследовать данную [Concept ('innovations','инновацию')|E]"
+ unlocks_raiding:0 "Открывает возможность устраивать [Concept('raid','рейды')|E]"
+ cannot_get_regional_innovations:0 "Эта культура не может исследовать данную [Concept('innovations','инновацию')|E]"
  
  ### Military
  # Akaviri
@@ -109,7 +109,7 @@
  innovation_lunar_lattice:0 "Джа-Ка'джей"
  innovation_lunar_lattice_desc:0 "Эоны назад мы были вынуждены жить бесформенно, постоянно меняясь и никогда не принимая физической формы. Затем нас привязали к лунам, так что форма нашего народа зависит от цикла Массера и Секунды."
  unlocks_other_maa_innovations:0 "Автоматически разблокирует другие инновации армии каджитов, когда инновация исследована"
- replaces_innovation_basic_armor_forging:0 "#I Эта [Concept ('innovation','инновация')|E] заменяет $innovation_basic_armor_forging$#!"
+ replaces_innovation_basic_armor_forging:0 "#I Эта [Concept('innovation','инновация')|E] заменяет $innovation_basic_armor_forging$#!"
  innovation_unlocked_by_innovation_lunar_lattice:0 "Разблокируется вместе с [Concept('innovation','инновацией)|E] $innovation_lunar_lattice$"
  
  innovation_alfiq:0 "Обучение альфиков"

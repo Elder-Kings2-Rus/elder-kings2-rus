@@ -82,9 +82,9 @@
  trait_p_ae_phynaster_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAePhynasterName')]."
 
  trait_p_ae_syrabane:0 "Божество-покровитель - [ROOT.Char.Custom('GetAeSyrabaneName')]"
- trait_p_ae_syrabane_base:0 "Последователь Сирабейн"
+ trait_p_ae_syrabane_base:0 "Последователь Сирабейна"
  trait_p_ae_syrabane_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ae_syrabane_desc' )]"
- trait_p_ae_syrabane_desc:0 "Последователь Сирабейн"
+ trait_p_ae_syrabane_desc:0 "Последователь Сирабейна"
  trait_p_ae_syrabane_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAeSyrabaneName')]."
 
  trait_p_ae_trinimac:0 "Божество-покровитель - [ROOT.Char.Custom('GetAeTrinimacName')]"
