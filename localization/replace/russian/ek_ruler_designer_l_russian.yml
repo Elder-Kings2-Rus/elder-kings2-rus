@@ -32,7 +32,7 @@
  RACE_KHAJIIT:0 "Каджиты"
  RACE_ARGONIAN:0 "Аргонианине"
  RACE_GOBLINKEN:0 "Гоблины"
- RACE_LILMOTHIIT:0 "Лилмотииты"
+ RACE_LILMOTHIIT:0 "Лилмотиты"
  RACE_DREMORA:0 "Дреморы"
 
 
@@ -423,7 +423,7 @@
 
 # # EK genes
  
- # Скрыть таблицу цветов кожи в конструкторе линеек для каджитов и лилмотиитов/других пушистых рас
+ # Скрыть таблицу цветов кожи в конструкторе линеек для каджитов и лилмотитов/других пушистых рас
  skin_color:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_lilmothiit') ) ), '', 'Цвет кожи' )]"
 
  hair_color:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_lilmothiit') ) ), 'Цвет меха', 'Цвет волос' )]"
@@ -685,7 +685,7 @@
  complexion_khajiit_name:0 "Каджитский цвет лица"
  complexion_khajiit:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_LILMOTHIIT') ) ), Localize('complexion_khajiit_name'), '' )]"
 
- complexion_lilmothiit_name:0 "Лилмотиитский цвет лица"
+ complexion_lilmothiit_name:0 "Лилмотитский цвет лица"
  complexion_lilmothiit:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_LILMOTHIIT') ) ), Localize('complexion_lilmothiit_name'), '' )]"
 
 
