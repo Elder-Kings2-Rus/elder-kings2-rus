@@ -341,10 +341,10 @@
  create_local_culture_onkobra_decision_confirm:0 "$create_local_culture_decision_confirm$"
  create_local_culture_onkobra_decision_tooltip:0 "$create_local_culture_decision_tooltip$"
  
- create_local_culture_black_bays_decision:0 "$create_local_culture_decision$ Черном заливе"
- create_local_culture_black_bays_decision_desc:0 "Есть рассказы о древних племенах, живущих на землях Черного залива столетия назад. Мы должны возродить их обычаи."
+ create_local_culture_black_bays_decision:0 "$create_local_culture_decision$ Чёрных бухтах"
+ create_local_culture_black_bays_decision_desc:0 "Есть рассказы о древних племенах, живущих на землях Чёрных бухт столетия назад. Мы должны возродить их обычаи."
  create_local_culture_black_bays_decision_courtiers_embrace_new_culture:0 "$create_local_culture_decision_courtiers_embrace_new_culture$"
- create_local_culture_black_bays_decision_provinces_embrace_new_culture:0 "Все [counties|El] в вашем [Concept('domain', 'домене')|E], принадлежащие к региону Черного залива, с таким же [Concept('heritage', 'наследием')|E] как у вас, становятся [new_culture.GetName]"
+ create_local_culture_black_bays_decision_provinces_embrace_new_culture:0 "Все [counties|El] в вашем [Concept('domain', 'домене')|E], принадлежащие к региону Чёрных бухт, с таким же [Concept('heritage', 'наследием')|E] как у вас, становятся [new_culture.GetName]"
  create_local_culture_black_bays_decision_capital_embrace_new_culture:0 "$create_local_culture_decision_capital_embrace_new_culture$"
  create_local_culture_black_bays_decision_confirm:0 "$create_local_culture_decision_confirm$"
  create_local_culture_black_bays_decision_tooltip:0 "$create_local_culture_decision_tooltip$"
