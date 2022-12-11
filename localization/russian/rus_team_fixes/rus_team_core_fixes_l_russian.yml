@@ -55,6 +55,9 @@
  Sieged:0 "Осада"
  
  PORTRAIT_MODIFIER_special_draugr:0 "Драугр"
+ # попытка исправить подсказки для традиции "Всадники Акоса". Очень не уверен на счёт эффектов.
+ culture_parameter_movement_speed:0 "Скорость передвижения: +10%"
+ culture_parameter_supply_duration: "Длительность [Concept( 'supply', 'снабжения' )|El]: +100%"
  # Добавления отсутствующих строк, что связаны с религиями. Эти строки стоит удалить, если разработчики сами добавят их.
  
  doctrine_parameter_same_heritage_conversion_bonus_creating_faith_active:1 "Скорость обращения в #L [GetPlayer.GetCulture.GetHeritage.GetName|l]их#! [Concept( 'county', 'графствах' )|El]: #P +50%#!"
