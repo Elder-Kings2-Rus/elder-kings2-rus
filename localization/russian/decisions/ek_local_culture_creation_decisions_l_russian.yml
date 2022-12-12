@@ -62,10 +62,10 @@
  create_local_culture_craglorn_decision_confirm:0 "$create_local_culture_decision_confirm$"
  create_local_culture_craglorn_decision_tooltip:0 "$create_local_culture_decision_tooltip$"
  
- create_local_culture_alikr_decision:0 "$create_local_culture_decision$ Аликре"
- create_local_culture_alikr_decision_desc:0 "Есть рассказы о древних племенах, живущих на землях Аликра столетия назад. Мы должны возродить их обычаи."
+ create_local_culture_alikr_decision:0 "$create_local_culture_decision$ Алик'ре"
+ create_local_culture_alikr_decision_desc:0 "Есть рассказы о древних племенах, живущих на землях Алик'ра столетия назад. Мы должны возродить их обычаи."
  create_local_culture_alikr_decision_courtiers_embrace_new_culture:0 "$create_local_culture_decision_courtiers_embrace_new_culture$"
- create_local_culture_alikr_decision_provinces_embrace_new_culture:0 "Все [counties|El] в вашем [Concept('domain', 'домене')|E], принадлежащие к региону Аликр, с таким же [Concept('heritage', 'наследием')|E] как у вас, становятся [new_culture.GetName]"
+ create_local_culture_alikr_decision_provinces_embrace_new_culture:0 "Все [counties|El] в вашем [Concept('domain', 'домене')|E], принадлежащие к региону Алик'р, с таким же [Concept('heritage', 'наследием')|E] как у вас, становятся [new_culture.GetName]"
  create_local_culture_alikr_decision_capital_embrace_new_culture:0 "$create_local_culture_decision_capital_embrace_new_culture$"
  create_local_culture_alikr_decision_confirm:0 "$create_local_culture_decision_confirm$"
  create_local_culture_alikr_decision_tooltip:0 "$create_local_culture_decision_tooltip$"
