@@ -19,9 +19,9 @@
  action_can_clone_click:0 "#I Щёлкните, чтобы использовать Череп Порчи#!"
  action_can_clone_HELP:0 "\n\n#help Если кто-то представляет для вас угрозу, например [rival|E], вы можете сначала заставить их сразиться с боевым дубликатом.#!"
 
- action_can_hire_court_mage:0 "Нанять Придворного Мага"
- action_can_hire_court_mage_label:0 "Вы можете нанять Придворного Мага"
- action_can_hire_court_mage_desc:0 "У вас нет Придворного Мага в качестве [court_position|E], вы должны нанять его."
+ action_can_hire_court_mage:0 "Нанять придворного мага"
+ action_can_hire_court_mage_label:0 "Вы можете нанять придворного мага"
+ action_can_hire_court_mage_desc:0 "У вас нет придворного мага в качестве [court_position|E], вы должны нанять его."
  action_can_hire_court_mage_click:0 "#I Щёлкните, чтобы посмотреть#!"
 
  action_lifestyle_magic:0 "$action_can_spend_perk_point$"

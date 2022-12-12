@@ -14,7 +14,7 @@
  DYNAMIC_HOLY_SITE_NOT_HELD_FAITH_HOSTILITY:0 "[Title.GetHolder.GetFaith.GetRelationNameTo( GetPlayer.GetFaith )|V]"
  DYNAMIC_HOLY_SITE_ACTIVE:0 "#P Активное#! священное место"
  DYNAMIC_HOLY_SITE_INACTIVE:0 "#N Неактивное#! священное место"
- FAITH_DYNAMIC_HOLY_SITE_EXPLANATION:0 "Священные места удерживаемые вашей [Concept( 'faith', 'верой' )|E] или конфессией с подходящими [Concept( 'doctrines', 'доктринами' )|E] считаются #V активными#! и могут быть выбраны во время [Concept( 'pilgrimage', 'паломничества' )|E].\nНекоторые священные места имеют специальные эффекты, которые доступны только если ваша [Concept( 'faith', 'вера' )|E] владеет священным местом."
+ FAITH_DYNAMIC_HOLY_SITE_EXPLANATION:0 "Священные места, удерживаемые вашей [Concept( 'faith', 'конфессией' )|E] или конфессией с подходящими [Concept( 'doctrines', 'доктринами' )|E] и [Concept( 'faith_hostility', 'враждебностью' )|E], считаются #V активными#!.\nОни могут быть выбраны во время [Concept( 'pilgrimage', 'паломничества' )|E].\nНекоторые священные места имеют специальные эффекты, которые доступны, только если ваша [Concept( 'faith', 'конфессия' )|E] владеет священным местом."
  
  dhs_effect_none:0 "Модификатор священного места под контролем:\nНет особого эффекта"
  dhs_effect_conversion_resistance_50:0 "Модификатор священного места под контролем:\n#P +50%#! сопротивления обращению"

@@ -1,14 +1,14 @@
 ﻿l_russian:
  ### CULTURE PARAMETERS
- culture_parameter_bonuses_from_plunderer_trait:0 "Персонажи с [GetTrait('plunderer').GetName( GetNullCharacter )] [trait|El] считаются [prestige_i][prestigious|El] и могут быстрее проводить [raid|El]"
+ culture_parameter_bonuses_from_plunderer_trait:0 "Персонажи с [Concept('trait', 'свойством')|E] [GetTrait('plunderer').GetName( GetNullCharacter )] считаются [prestige_i] [Concept( 'prestigious', 'престижными' )|E] и могут быстрее проводить [Concept( 'raid', 'налёты' )|E]"
  culture_parameter_unlocks_feudal_government:0 "Открывает [feudal_government|El] для [Concept('autocratic', 'автократичных')|E] [Concept('rulers', 'правителей')|E]"
  culture_parameter_unlock_pirate_government:0 "Открывает [pirate_government|El] для [Concept('autocratic', 'автократичных')|E] [Concept('rulers', 'правителей')|E]"
  culture_parameter_unlocks_praxis_government:0 "Открывает [praxis_government|El] для [Concept('autocratic', 'автократичных')|E] [Concept('rulers', 'правителей')|E]"
  culture_parameter_weak_rulers_contest_rule:0 "Правитель с большим навыком [prowess_i|El][Concept('prowess_skill', 'доблести')|E] может заплатить [prestige|El] чтобы претендовать на [titles|El] принадлежащие другим правителям. Чем выше разница в мастерстве между правителями, тем ниже стоимость."
- culture_parameter_stewardship_education_worse_outcomes:0 "Персонажи этой культуры хуже справляются с обучением управления"
+ culture_parameter_stewardship_education_worse_outcomes:0 "Персонажи этой культуры хуже справляются с обучением управлению"
  culture_parameter_dueling_culture:0 "Персонажи этой культуры гораздо чаще предлагают и принимают дуэли"
- culture_parameter_unlock_pillage_legacy:0 "[dynast|E] этой [Concept('culture', 'культуры')|E] может использовать #V $fp1_pillage_legacy_track_name$#! [dynasty_perk|El]"
- culture_parameter_unlock_urbanism_legacy:0 "[dynast|E] этой [Concept('culture', 'культуры')|E] может использовать #V $fp2_urbanism_legacy_track_name$#! [dynasty_perk|El]"
+ culture_parameter_unlock_pillage_legacy:0 "[dynast|E] этой [Concept('culture', 'культуры')|E] может использовать [dynasty_perk|El] #V $fp1_pillage_legacy_track_name$#!"
+ culture_parameter_unlock_urbanism_legacy:0 "[dynast|E] этой [Concept('culture', 'культуры')|E] может использовать [dynasty_perk|El] #V $fp2_urbanism_legacy_track_name$#!"
 
 ## MAA PARAMETERS
  culture_parameter_unlock_innovation_nordic_steelcarving:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_nordic_steelcarving$, что позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] [GetMaA('huscarl').GetName]" 
@@ -91,7 +91,7 @@
  tradition_shattered_continent_name:0 "Расколотый континент"
  tradition_shattered_continent_desc:1 "Старая Йокуда пала перед коварным Панкратовым мечом, но ее народ цеплялся за жизнь на ее трупе, в конце концов вдохнув жизнь в покрытую шрамами землю"
  tradition_abecean_piracy_name:0 "Абесинское пиратство"
- tradition_abecean_piracy_desc:1 " Абесинское море благословлено щедрыми водами и процветающей торговлей, но в то же время страдает от непрекращающегося каперства. Было бы глупо отказываться от участия и в том, и в другом!"
+ tradition_abecean_piracy_desc:1 "Абесинское море благословлено щедрыми водами и процветающей торговлей, но в то же время страдает от непрекращающегося каперства. Было бы глупо отказываться от участия и в том, и в другом!"
  tradition_ceremoniarchy_name:0 "Церемониархия"
  tradition_ceremoniarchy_desc:1 "Мы - потомки самих Аэдра, и жить менее совершенной жизнью - значит бесчестить наших предков. Мы создали сложную придворную культуру и церемонии, основанные на нашей связи с древними духами."
  tradition_sorcerer_kings_name:0 "Короли-колдуны"
