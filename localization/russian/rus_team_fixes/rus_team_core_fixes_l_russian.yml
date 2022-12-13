@@ -54,6 +54,10 @@
  
  Sieged:0 "Осада"
  
+ # магия
+ 
+ ENABLE_EK_LIFE_EXTENSION_SCHEME: "Сделает доступными [scheme|El], позволяющие продлить жизнь."
+ 
  # Цирюльня
  PORTRAIT_MODIFIER_special_draugr:0 "Драугр"
  PORTRAIT_MODIFIER_custom_beards_male_beard_dwemer_01: "Двемерская борода"
