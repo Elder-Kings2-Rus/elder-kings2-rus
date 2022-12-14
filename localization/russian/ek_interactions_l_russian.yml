@@ -11,7 +11,7 @@
  extract_blood_price_effect_execution_reason_tooltip:0 "Поскольку, [prisoner.GetFirstName] заслуживает казни, вы взыщете высокую цену, покалечив [prisoner.GetHerHim]."
  extract_blood_price_effect_survival_release_tooltip:0 "Если [prisoner.GetFirstName] выживет, [prisoner.GetSheHe] будет освобожден из тюрьмы."
  
- make_clan_parent_interaction:0 "make_clan_parent_interaction"
+ make_clan_parent_interaction:0 "Сделать родителем клана"
  make_clan_parent_interaction_desc:0 "За свою жизнь [recipient.GetFirstName] повидал многое на свете, и [recipient.GetHerHis] мудрость направляет нас..."
  make_clan_parent_interaction_one_clan_parent_per_court_tt:0 "#R Пока [recipient.GetFirstName] жив, вы не сможете объявить любого другого придворного Матерью клана или Отцом клана!#!"
  
