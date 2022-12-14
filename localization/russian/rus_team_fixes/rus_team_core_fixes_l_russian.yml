@@ -54,9 +54,14 @@
  
  Sieged:0 "Осада"
  
- # Цирюльня
+ # магия
+ 
+ ENABLE_EK_LIFE_EXTENSION_SCHEME: "Сделает доступными [scheme|El], позволяющие продлить жизнь."
+ 
+ # Цирюльня / редактор персонажа
  PORTRAIT_MODIFIER_special_draugr:0 "Драугр"
  PORTRAIT_MODIFIER_custom_beards_male_beard_dwemer_01: "Двемерская борода"
+ mohawk: "Ирокез"
  
  # попытка исправить подсказки для традиции "Всадники Акоса". Очень не уверен на счёт эффектов.
  culture_parameter_movement_speed:0 "Скорость передвижения: +10%"
@@ -134,4 +139,8 @@
  celestialshouse_of_worship_plural:0 "Вершины башен"
  
  god_hermaeusmora_name:0 "Хермеус Мора"
+ 
+ # Карта
+ 
+ WASTELAND: "ПУСТОШЬ"
  
