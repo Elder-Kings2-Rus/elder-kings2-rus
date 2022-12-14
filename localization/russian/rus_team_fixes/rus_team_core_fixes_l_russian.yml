@@ -74,6 +74,9 @@
  # Акавирские охотники на драконов противодействуют...
  dragon: "Драконы"
  
+ # Не имеет...
+ vassal_contribution_tied_prowess_name: "обязательств, основанных на доблести"
+ 
  # Добавления отсутствующих строк, что связаны с религиями. Эти строки стоит удалить, если разработчики сами добавят их.
  
  doctrine_parameter_same_heritage_conversion_bonus_creating_faith_active:1 "Скорость обращения в #L [GetPlayer.GetCulture.GetHeritage.GetName|l]их#! [Concept( 'county', 'графствах' )|El]: #P +50%#!"

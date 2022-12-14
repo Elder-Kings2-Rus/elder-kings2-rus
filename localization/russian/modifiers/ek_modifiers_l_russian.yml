@@ -17,7 +17,7 @@
  mages_maintenance_add:0 "Содержание [Concept('mages','магов')|E]"
  mages_maintenance_mult:0 "$mages_maintenance_add$"
 
- monthly_magic_lifestyle_xp_gain_mult:0 "Ежемесячный опыт за [lifestyle|El] «Магические искусства»" #Возможно, переименовать стиль жизни после того, как появится перевод magic_lifestyle_name
+ monthly_magic_lifestyle_xp_gain_mult:0 "Ежемесячный опыт за [lifestyle|El] «Магия»"
 
  ### Terrain
  ashlands_attrition_mult:1 "[command_modifier_i][attrition|E] в пепельных землях"
@@ -318,7 +318,7 @@
  ### Autocracy
  autocracy_county_opinion:0 "Народное мнение (Автократия)" # ek_governments_l_russian.yml еще не переведен, так что локализация Autocracy может поменяться
  #autocracy_county_opinion_desc:0 "In an [autocracy|E], the relationship between local land owners or city mayors and the [count|E] is as important as the relationship between a vassal and their liege. A ruler upsetting the local ruling class will slowly lose [control|E] over the [county|E], and may even be barred from interacting with it depending on their [crown_authority|E].\n#italic Note: Each point of [county_opinion|E] #P above#! or #N below#! 0 will give #P +#!/#N -#! #V 0.01 [control|E] Growth#!, up to #P +0.5#!/#N -0.5#!. This modifier is updated once per year at a random month for the AI, and once per month for players.#!"
- autocracy_county_opinion_desc:0 "При [Concept('autocracy','Автократии')|E] отношения между местными землевладельцами или мэрами городов c населением [Concept('count','графства')|E] так же важны, как отношения между вассалом и его сеньором. Чтобы сохранить [control|El] над своими территориями, правитель должен быть популярным и нравиться местному населению.\n#italic Примечание: Каждый пункт [Concept('county_opinion','народного мнения')|E] #P выше#! 0 дает от #P +#!#V 0.01 [Concept('control','контроля')|E]#!, до #P +0.5#! Этот модификатор обновляется раз в год в случайный месяц для ИИ и раз в месяц для игроков.#!"
+ autocracy_county_opinion_desc:0 "При [Concept('autocracy','Автократии')|E] отношения между местными землевладельцами или мэрами городов с населением [Concept('count','графства')|E] так же важны, как отношения между вассалом и его сеньором. Чтобы сохранить [control|El] над своими территориями, правитель должен быть популярным и нравиться местному населению.\n#italic Примечание: Каждый пункт [Concept('county_opinion','народного мнения')|E] #P выше#! 0 дает от #P +#!#V 0.01 [Concept('control','контроля')|E]#!, до #P +0.5#! Этот модификатор обновляется раз в год в случайный месяц для ИИ и раз в месяц для игроков.#!"
   autocracy_county_opinion_negative_01:0 "$autocracy_county_opinion$"
  autocracy_county_opinion_negative_01_desc:0 "$autocracy_county_opinion_desc$"
  autocracy_county_opinion_negative_02:0 "$autocracy_county_opinion$"

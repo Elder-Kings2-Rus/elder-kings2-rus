@@ -38,8 +38,8 @@
  nordicdevotee_plural:0 "Мистики"
  nordicpriest_male:0 "Мудрец"
  nordicpriest_male_plural:0 "Мудрецы"
- nordicpriest_female:0 "Clever Мудрец"
- nordicpriest_female_plural:0 "Мудрецы" 
+ nordicpriest_female:0 "Мудрая женщина"
+ nordicpriest_female_plural:0 "Мудрые женщины" 
  nordicpriest_neuter:0 "Мудрые"
  nordicpriest_alternate_plural:0 "Священники"
 
@@ -104,7 +104,7 @@
 
  reman_cult_religious_text:0 "Реманада"
  reman_cult_religious_head_title:0 "Голос Ремана"
- reman_cult_religious_head_title_name:0 "Реманитский Храм"
+ reman_cult_religious_head_title_name:0 "Реманский Храм"
 
  #Alessian Order
  alessian_religious_symbol:0 "Единственный"
@@ -116,8 +116,8 @@
  alessian_religious_head_title_name:0 "Алессианский Орден"
  alessian_devotee:0 "Алестик"
  alessian_devotee_plural:0 "Алестики"
- alessian_priest:0 "Член Общины"
- alessian_priest_plural:0 "Члены Общины"
+ alessian_priest:0 "Член общины"
+ alessian_priest_plural:0 "Члены общины"
  alessian_priest_female:0 "Настоятельница"
  alessian_priest_female_plural:0 "Настоятельницы"
  alessian_priest_alternate_plural:0 "Духовенство"
@@ -150,12 +150,12 @@
  greenpact_religious_symbol:0 "Ветвь и Лист"
  greenpact_religious_text:0 "Зеленый Пакт"
 
- greenpact_devotee:0 "Зеленый Аколит"
- greenpact_devotee_plural:0 "Зеленые Аколиты"
+ greenpact_devotee:0 "Зеленый аколит"
+ greenpact_devotee_plural:0 "Зеленые аколиты"
  greenpact_priest:0 "Прядильщик"
  greenpact_priest_plural:0 "Прядильщики"
  greenpact_bishop:0 "Древний Прядильщик"
- greenpact_bishop_plural:0 "Древние Прядильщики"
+ greenpact_bishop_plural:0 "Древние прядильщики"
  greenpact_religious_head_title:0 "Сильвенар"
  greenpact_religious_head_title_name:0 "Сильвенар"
 
@@ -183,10 +183,10 @@
  reach_religious_head_title_name:0 "Охотничьи Угодья"
  reach_devotee:0 "Шаман"
  reach_devotee_plural:0 "Шаманы"
- reach_priest_male:0 "Верховный Шаман"
- reach_priest_male_plural:0 "Верховные Шаманы"
- reach_bishop_male:0 "Муж Ведьмы"
- reach_bishop_male_plural:0 "Мужи Ведьм"
+ reach_priest_male:0 "Верховный шаман"
+ reach_priest_male_plural:0 "Верховные шаманы"
+ reach_bishop_male:0 "Муж ведьмы"
+ reach_bishop_male_plural:0 "Мужи ведьм"
  reach_bishop_female:0 "Ведьма"
  reach_bishop_female_plural:0 "Ведьмы"
  reach_priest_alternate_plural:0 "Жрецы"
@@ -199,8 +199,8 @@
 
  idolatryreligious_head_title:0 "Главный архитектор"
  idolatryreligious_head_title_name:0 "Город щитов"
- idolatrydevotee:0 "Тональный Хранитель"
- idolatrydevotee_plural:0 "Тональный Хранитель"
+ idolatrydevotee:0 "Тональный хранитель"
+ idolatrydevotee_plural:0 "Тональный хранитель"
  idolatrypriest_male:0 "Ведущий"
  idolatrypriest_male_plural:0 "Ведущие"
  idolatrybishop:0 "Архитектор"
@@ -240,7 +240,7 @@
 
  #Nerevarine
  nerevarreligious_symbol:0 "Луна и Звезда"
- nerevarreligious_text:0 "Потерянное Пророчество" #В тес есть книга "Потерянное Пророчество", она про Нереварина. Поэтому оставил так, а не "Призрачное пророчество"
+ nerevarreligious_text:0 "Потерянное Пророчество" #В тес есть книга «Потерянное Пророчество», она про Нереварина. Поэтому оставил так, а не «Призрачное пророчество»
 
  nerevarreligious_head_title_name:0 "Новый Храм"
  nerevardevotee:0 "Посвященный"
@@ -261,7 +261,7 @@
  malacath_death_deity_name:0 "Малакат"
  malacath_house_of_worship_plural:0 "Храмы"
  malacath_bishop:0 "Верховный жрец"
- malacath_bishop_plural:0 "Верховные Жрецы"
+ malacath_bishop_plural:0 "Верховные жрецы"
  malacath_house_of_worship:0 "Храм"
  #Goblin
  goblin_house_of_worship:0 "Священная пещера"
@@ -296,8 +296,8 @@
  atmorandevotee_plural:0 "Седобородые"
  atmoranpriest_male:0 "Мудрец"
  atmoranpriest_male_plural:0 "Мудрецы"
- atmoranpriest_female:0 "Мудрец"
- atmoranpriest_female_plural:0 "Мудрецы"
+ atmoranpriest_female:0 "Мудрая женщина"
+ atmoranpriest_female_plural:0 "Мудрые женщины"
  atmoranpriest_neuter:0 "Мудрые"
  atmoran_bishop:0 "Тотемный жрец"
  atmoran_bishop_plural:0 "Тотемные жрецы"
@@ -322,14 +322,14 @@
  # Dragon Cult
  dragon_cult_religious_symbol:0 "Дракон"
  dragon_cult_religious_text:0 "Стены слов"
- dragon_cult_religious_head_title:0 "Призыватель Драконов"
+ dragon_cult_religious_head_title:0 "Призыватель драконов"
  dragon_cult_religious_head_title_name:0 "Царство Алдуина"
- dragon_cult_devotee:0 "Драконий Культист"
- dragon_cult_devotee_plural:0 "Драконьи Культисты"
- dragon_cult_bishop_male:0 "Драконий Жрец"
- dragon_cult_bishop_male_plural:0 "Драконьи Жрецы"
- dragon_cult_bishop_female:0 "Драконья Жрица"
- dragon_cult_bishop_female_plural:0 "Драконьи Жрицы"
+ dragon_cult_devotee:0 "Драконий культист"
+ dragon_cult_devotee_plural:0 "Драконьи культисты"
+ dragon_cult_bishop_male:0 "Драконий жрец"
+ dragon_cult_bishop_male_plural:0 "Драконьи жрецы"
+ dragon_cult_bishop_female:0 "Драконья жрица"
+ dragon_cult_bishop_female_plural:0 "Драконьи жрицы"
  dragon_cult_priest_male:0 "Жрец"
  dragon_cult_priest_male_plural:0 "Жрецы"
  dragon_cult_priest_female:0 "Жрица"
@@ -358,12 +358,12 @@
  #Yes I know Mane's Realm is a dumb title, but it won't actually be used in game
  khajiiti_devotee:0 "Смотрящий на Луну"
  khajiiti_devotee_plural:0 "Смотрящие на Луну"
- khajiiti_priest_male:0 "Лунный Жрец"
- khajiiti_priest_male_plural:0 "Лунные Жрецы"
- khajiiti_priest_female:0 "Лунная Жрица"
- khajiiti_priest_female_plural:0 "Лунные Жрицы"
- khajiiti_bishop:0 "Лунный Епископ"
- khajiiti_bishop_plural:0 "Лунные Епископы" 
+ khajiiti_priest_male:0 "Лунный жрец"
+ khajiiti_priest_male_plural:0 "Лунные жрецы"
+ khajiiti_priest_female:0 "Лунная жрица"
+ khajiiti_priest_female_plural:0 "Лунные жрицы"
+ khajiiti_bishop:0 "Лунный епископ"
+ khajiiti_bishop_plural:0 "Лунные епископы" 
  
  #Lilmothiiti
  
@@ -394,8 +394,8 @@
  dwemer_religious_head_title:0 "Верховный Владыка Ремесла"
 
  # Coiled Path
- cppriest_female:0 "Мудрец"
- cppriest_female_plural:0 "Мудрецы"
+ cppriest_female:0 "Мудрая женщина"
+ cppriest_female_plural:0 "Мудрые женщины"
 
  # Wyrd
 
@@ -434,13 +434,13 @@
  druidddevotee_neuter_plural:0 "Преданные"
  druiddpriest_male:0 "Друид"
  druiddpriest_male_plural:0 "Друиды"
- druiddpriest_female:0 "Друид"
- druiddpriest_female_plural:0 "Друиды"
+ druiddpriest_female:0 "Друидесса"
+ druiddpriest_female_plural:0 "Друидессы"
  druiddpriest_alternate_plural:0 "Друиды"
  druiddbishop_male:0 "Друид"
  druiddbishop_male_plural:0 "Друиды"
- druiddbishop_female:0 "Друид"
- druiddbishop_female_plural:0 "Друиды"
+ druiddbishop_female:0 "Друидесса"
+ druiddbishop_female_plural:0 "Друидессы"
  druiddbishop_neuter:0 "Друид"
  druidbishop_neuter_plural:0 "Друиды"
  
