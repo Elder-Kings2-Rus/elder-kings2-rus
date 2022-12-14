@@ -294,7 +294,7 @@
     devotion_gives_lifestyle_experience_5:0 "$devotion_gives_lifestyle_experience$: (5)"
     devotion_gives_lifestyle_experience_5_desc:0 "$devotion_gives_lifestyle_experience_desc$\nОткрывает решение, которое позволяет увеличить [education_trait|El]\nОткрывает решение, которое позволяет изменить [Concept( 'education', 'учёбу' )|El]"
     devotion_gives_lifestyle_experience_6:0 "$devotion_gives_lifestyle_experience$: (6)"
-    devotion_gives_lifestyle_experience_6_desc:0 "$devotion_gives_lifestyle_experience_desc$\nОткрывает решение, которое позволяет increase the [education_trait|E]\nОткрывает решение, которое позволяет изменить [Concept( 'education', 'учёбу' )|El]\n$monolatric_aspect_devotion_tier_6$"
+    devotion_gives_lifestyle_experience_6_desc:0 "$devotion_gives_lifestyle_experience_desc$\nОткрывает решение, которое позволяет увеличить [education_trait|El]\nОткрывает решение, которое позволяет изменить [Concept( 'education', 'учёбу' )|El]\n$monolatric_aspect_devotion_tier_6$"
  # Aspect of Religious Conflict
  doctrine_pantheon_aspect_religious_war_name:0 "Аспект религиозных конфликтов"
     doctrine_pantheon_aspect_religious_war_desc:0 "С самого момента зарождения нашей конфессии мы были окружены врагами со всех сторон и были вынужденны вести войну против их ложных богов."

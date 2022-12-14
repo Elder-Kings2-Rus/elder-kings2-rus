@@ -1,6 +1,6 @@
 ﻿l_russian:
     mystery_history_loc:0 "Происхождение этого народа окутано тайной"
-    altmer_history_loc:0 "Потомки c легендарного [Concept( 'aldmeris', 'Альдмериса' )|E] из [Concept( 'dawn_era', 'Эры рассвета' )|E]"
+    altmer_history_loc:0 "Потомки из легендарного [Concept( 'aldmeris', 'Альдмериса' )|E] из [Concept( 'dawn_era', 'Эры рассвета' )|E]"
     direnni_history_loc:0 "Потомки #L [CULTURE.GetCollectiveNoun|l]их#! родичей, которые заселили Балфиеру в [Concept( 'first_era', 'Первой эре' )|E]"
     pellitinian_history_loc:0 "Возникли в Южном Эльсвейре после распада [Concept( 'sixteen_kingdoms', 'Шестнадцати королевств' )|E]"
     anequinan_history_loc:0 "Возникли в Северном Эльсвейре после распада [Concept( 'sixteen_kingdoms', 'Шестнадцати королевств' )|E]"
@@ -23,7 +23,7 @@
     redguard_history_loc:0 "Происходят от [Concept( 'ragada', 'Ра Гадских' )|E] поселенцев, вторгшихся в Гибельные земли"
     crown_history_loc:0 "Отпрыски высшей знати На-Тотамбу из Старой Йокуды"
     yokudan_history_loc:0 "Выжившие после затопления Старой Йокуды"
-    abecean_history_loc:0 "Происходят от Таванских [Concept( 'ragada', 'Ра Гадцев' )|E] во главе с Принцом Хьюбаладжада"
+    abecean_history_loc:0 "Происходят от Таванских [Concept( 'ragada', 'Ра Гадцев' )|E] во главе с Принцем Хьюбаладжада"
     argonian_history_loc:0 "Благословленный мудростью Хиста во времена [Concept( 'merethic_era', 'Меретической эры' )|E]"
     mathmeldi_history_loc:0 "#L [CULTURE.GetCollectiveNoun]ие#! изгнанники из Альд-Сирода"
     barsaebic_history_loc:0 "Происходят от [Concept( 'enc_aedric', 'аэдрических' )|E] [CULTURE.GetCollectiveNoun|l]их беженцев во время [Concept( 'narfinsel_schism', 'Нарфинсельского раскола' )|E]"
