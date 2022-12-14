@@ -72,7 +72,7 @@
  DYNASTY_VIEW_INFO_TITLE:0 "#T [Dynasty.GetBaseNameNoTooltip|U]#!"
  culture_parameter_cannot_disherit:0 "Нельзя [Concept( 'disinherit', 'лишать наследства' )|E] [Concept( 'dynasty_members', 'членов своей династии' )|E]"
  culture_parameter_cb_lower_prestige_level_requirement:0 "Требования к [Concept( 'prestige_level', 'уровню репутации' )|E] для [Concept( 'casus_bellis', 'казус белли' )|E] снижены на единицу"
- MOD_COASTAL_ADVANTAGE:0 "[command_modifier_i|E][advantage|E]на побережье"
+ MOD_COASTAL_ADVANTAGE:0 "[command_modifier_i|E][advantage|E] на побережье"
  culture_parameter_martial_custom_male_only_combatant:0 "[knights|E] и [commanders|El] могут быть только мужчинами"
  culture_parameter_martial_custom_equal_combatant:0 "[knights|E] и [commanders|El] могут быть как мужчинами, так и женщинами"
  culture_parameter_martial_custom_female_only_combatant:0 "[knights|E] и [commanders|El] могут быть только женщинами"

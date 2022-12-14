@@ -39,7 +39,7 @@
  INCOMPATABLE_CULTURE:0 "@warning_icon!#X Неправильная культура#"
  INCOMPATABLE_CULTURE_TOOLTIP:0 "Зверолюды не могут начинать с человеческой культурой или мерской и наоборот. Пожалуйста, выберите действительную культуру."
 
- RULER_DESIGNER_ETHNICITY_INFO:0 "Определенные расы не позволят вам выбрать несовместимые культурные группы в Редакторе правителя. Вы сможете переходить в другие культуры, как обычно, в игре."
+ RULER_DESIGNER_ETHNICITY_INFO:0 "Определенные расы не позволят вам выбрать несовместимые культурные группы в редакторе правителя. Вы сможете переходить в другие культуры, как обычно, в игре."
 
  RACE_SELECTED:0 "Раса: [VariableSystem.Get( 'ek_race' )]"
  ETHNICITY_SELECTED:0 "Этническая принадлежность: [VariableSystem.Get( 'ek_ethnicity' )]"
@@ -831,7 +831,7 @@ body_shape_triangle_full:0 "Полный треугольник"
 
  beast_race_decal_layer_02:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ), 'Особенность меха', '' )]"
 
- beast_race_decal_layer_03:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ), 'Меховые Узоры', '' )]"
+ beast_race_decal_layer_03:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ), 'Меховые узоры', '' )]"
 
  beast_race_decal_layer_04:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ), 'Мех', '' )]"
 

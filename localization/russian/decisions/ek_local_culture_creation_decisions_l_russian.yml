@@ -263,7 +263,7 @@
  create_local_culture_anequina_decision:0 "$create_local_culture_decision$ Анеквине"
  create_local_culture_anequina_decision_desc:0 "Есть рассказы о древних племенах, живущих на землях Анеквина столетия назад. Мы должны возродить их обычаи."
  create_local_culture_anequina_decision_courtiers_embrace_new_culture:0 "$create_local_culture_decision_courtiers_embrace_new_culture$"
- create_local_culture_anequina_decision_provinces_embrace_new_culture:0 "Все [counties|El] в вашем [Concept('domain', 'домене')|E], принадлежащие к региону Анеквин, с таким же [Concept('heritage', 'наследием')|E] как у вас, становятся [new_culture.GetName]"
+ create_local_culture_anequina_decision_provinces_embrace_new_culture:0 "Все [counties|El] в вашем [Concept('domain', 'домене')|E], принадлежащие к региону Анеквина, с таким же [Concept('heritage', 'наследием')|E] как у вас, становятся [new_culture.GetName]"
  create_local_culture_anequina_decision_capital_embrace_new_culture:0 "$create_local_culture_decision_capital_embrace_new_culture$"
  create_local_culture_anequina_decision_confirm:0 "$create_local_culture_decision_confirm$"
  create_local_culture_anequina_decision_tooltip:0 "$create_local_culture_decision_tooltip$"
