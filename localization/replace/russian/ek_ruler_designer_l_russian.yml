@@ -443,14 +443,14 @@
 # Цветовые палитры кожи, невидимые для каджитов
  race_gene_skin_color:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_lilmothiit') ) ), '', 'Палитра цветов кожи' )]"
 
- human_skin:0 "Цвет кожи" 
- dunmer_skin:0 "Цвет кожи"
- chimer_skin:0 "Цвет кожи"
- altmer_skin:0 "Цвет кожи"
- bosmer_skin:0 "Цвет кожи"
- orsimer_skin:0 "Цвет кожи"
- falmer_skin:0 "Цвет кожи"
- maormer_skin:0 "Цвет кожи"
+ human_skin:0 "Человеческий цвет кожи" 
+ dunmer_skin:0 "Данмерский цвет кожи"
+ chimer_skin:0 "Кимерский цвет кожи"
+ altmer_skin:0 "Альтмерский цвет кожи"
+ bosmer_skin:0 "Босмерский цвет кожи"
+ orsimer_skin:0 "Орсимерский цвет кожи"
+ falmer_skin:0 "Фалмерский цвет кожи"
+ maormer_skin:0 "Маормерский цвет кожи"
 
  race_gene_skin_metallic:0 "Металлическая кожа"
  metallic_skin:0 "Металлическая кожа"
@@ -768,19 +768,19 @@
 
  gene_bs_nose_swollen:0 "Отек носа"
 
- beast_teeth_tusks:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_tusks_enabled', 'true' ), 'Tusk Size', '' )]"
+ beast_teeth_tusks:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_tusks_enabled', 'true' ), 'Размер клыка', '' )]"
 
- orc_teeth_bottom_size:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_tusks_enabled', 'true' ), 'Lower Teeth Size', '' )]"
+ orc_teeth_bottom_size:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_tusks_enabled', 'true' ), 'Размер нижних зубов', '' )]"
 
- orc_teeth_broken:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_tusks_enabled', 'true' ), 'Tusks Broken', '' )]"
- tusks_not_broken:0 "Бивни не сломаны"
- left_tusk_broken:0 "Левый бивень сломан"
- right_tusk_broken:0 "Правый бивень сломан"
- both_tusk_broken:0 "Оба бивня сломаны"
+ orc_teeth_broken:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_tusks_enabled', 'true' ), 'Сломанные клыки', '' )]"
+ tusks_not_broken:0 "Клыки не сломаны"
+ left_tusk_broken:0 "Левый клык сломан"
+ right_tusk_broken:0 "Правый клык сломан"
+ both_tusk_broken:0 "Оба клыка сломаны"
 
- orc_teeth_forward_angle:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_tusks_enabled', 'true' ), 'Tusks Forward Angle', '' )]"
+ orc_teeth_forward_angle:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_tusks_enabled', 'true' ), 'Угол наклона клыков вперёд', '' )]"
 
- orc_teeth_outward_angle:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_tusks_enabled', 'true' ), 'Tusks Outward Angle', '' )]"
+ orc_teeth_outward_angle:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_tusks_enabled', 'true' ), 'Угол наклона клыков наружу', '' )]"
 
  gene_bs_mouth_center_curve:0 "Изгиб рта"
 
@@ -805,7 +805,7 @@ beast_hair_aging:0 "Звериная раса старения волос"
 
 hair_color_hue:0 "Оттенок цвета волос"
 vanilla_hair_hue:0 "Нормальные волосы"
-hair_color_hue:0 "Яркость волос"
+hair_color_hue:0 "Яркие волосы"
 hair_color_100_saturation:0 "Очень яркие волосы"
 
 hairline_type:0 "Тип линии роста волос"
@@ -825,9 +825,9 @@ body_shape_rectangle_full:0 "Полный прямоугольник"
 body_shape_triangle_half:0 "Половина треугольника"
 body_shape_triangle_full:0 "Полный треугольник"
 
- race_khajiit_ear_tufts:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ), 'Khajiit Ear Tufts', '' )]"
- no_ear_tufts:0 "Нет ушных пучков"
- khajiit_ear_tufts:0 "Ушные пучки"
+ race_khajiit_ear_tufts:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ), 'Каджитские ушные кисточки', '' )]"
+ no_ear_tufts:0 "Нет ушных кисточек"
+ khajiit_ear_tufts:0 "Ушные кисточки"
 
  beast_race_decal_layer_02:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ), 'Особенность меха', '' )]"
 
