@@ -453,7 +453,7 @@
  maormer_skin:0 "Маормерский цвет кожи"
 
  race_gene_skin_metallic:0 "Металлическая кожа"
- metallic_skin:0 "Металлическая кожа"
+ metallic_skin:0 "Металлический цвет кожи"
 
 #Hide skin complexions for argonians, khajiit and lilmothiit
  #complexion:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ), Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') ) ) ), '', 'Skin Complexion' )]"
