@@ -3,15 +3,15 @@
  trait_impure_desc:0 "Нечистые запятнали свою веру и свое божественное наследие, либо будучи прокляты деформированным телом, либо вступая в близкие отношения с другими нечистыми людьми."
  trait_impure_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'нечистая запятнала', 'нечистый запятнал' )] свою веру и свое божественное наследие, либо будучи [Select_CString(ROOT.GetCharacter.IsFemale, 'проклятой', 'проклятым' )] деформированным телом, либо вступая в близкие отношения с другими нечистыми людьми."
 
- trait_fighters_1:0 "Fighters Guild: Защитник"
+ trait_fighters_1:0 "Гильдия Бойцов: Защитник"
  trait_fighters_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является защитником Гильдии Бойцов."
- trait_fighters_2:0 "Fighters Guild: Надзиратель"
+ trait_fighters_2:0 "Гильдия Бойцов: Надзиратель"
  trait_fighters_2_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является надзирателем Гильдии Бойцов."
- trait_fighters_3:0 "Fighters Guild: Страж"
+ trait_fighters_3:0 "Гильдия Бойцов: Страж"
  trait_fighters_3_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является стражем Гильдии Бойцов."
- trait_fighters_4:0 "Fighters Guild: Чемпион"
+ trait_fighters_4:0 "Гильдия Бойцов: Чемпион"
  trait_fighters_4_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом Гильдии Бойцов."
- trait_fighters_5:0 "Fighters Guild: Мастер"
+ trait_fighters_5:0 "Гильдия Бойцов: Мастер"
  trait_fighters_5_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является мастером Гильдии Бойцов, одним из самых старших членов организации."
 
  trait_lefthanded:0 "Левша"
@@ -272,9 +272,9 @@ trait_champion_malacath_desc:0 "Этот персонаж является че�
 trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом Малаката, Бога Проклятий."
 
  # Coping mechanisms
- trait_skooma_drinker:0 "Зависимость от Скумы"
- trait_skooma_drinker_desc:0 "Этот персонаж известен своим пристрастием к сладкому и к Скуме."
- trait_skooma_drinker_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'известна', 'известен' )] своим пристрастием к сладкому и к Скуме."
+ trait_skooma_drinker:0 "Зависимость от скумы"
+ trait_skooma_drinker_desc:0 "Этот персонаж известен своим пристрастием к сладкому и к скуме."
+ trait_skooma_drinker_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'известна', 'известен' )] своим пристрастием к сладкому и к скуме."
 
  #Tsaescence
  trait_tsaesci:0 "Цаэски"

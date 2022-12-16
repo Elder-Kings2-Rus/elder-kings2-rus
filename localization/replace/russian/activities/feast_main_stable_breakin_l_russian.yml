@@ -18,7 +18,7 @@
  feast_main_stable_breakin.0003.what_a_silly_bunch:0 "\n\nВ конце концов конюхам удалось обуздать перепуганных животных. По крайней мере, самые трезвые из нас получили настоящее представление!"
  feast_main_stable_breakin.0003.a:0 "Конюхи, спасите этих людей от самих себя!"
  feast_main_stable_breakin.0003.b:0 "Вы развращаете моих животных!"
- feast_main_stable_breakin.0003.secret_of_my_own:0 "My dear Samson! With [breakin_deviant.GetFirstName]?!"
+ feast_main_stable_breakin.0003.secret_of_my_own:0 "Мой дорогой Самсон! Прямо с [breakin_deviant.GetFirstName]?!"
  feast_main_stable_breakin.0004.t:1 "$feast_header$ Объездка ездовых животных"
  feast_main_stable_breakin.0004.breakin_with_helper:0 "Еда и питье, конечно, хорошо, но мне хотелось веселья!\n[breakin_helper.GetTitledFirstName] [Select_CString(breakin_helper.IsFemale, 'придумала', 'придумал' )] блестящий план проникновения в конюшню, и вскоре мы с компанией любителей верховой езды были по ту сторону запертых ворот.\nПод смех и радостное улюлюканье мы въехали в чертог, где мне удалось порадовать гостей величайшим мастерством верховой езды!"
  feast_main_stable_breakin.0004.breakin_with_deviant:0 "Еда и питье, конечно, хорошо, но мне хотелось веселья!\n[breakin_deviant.GetTitledFirstName] [Select_CString(breakin_deviant.IsFemale, 'придумала', 'придумал' )] блестящий план проникновения в конюшню, и вскоре мы с компанией любителей верховой езды были по ту сторону запертых ворот.\nПод смех и радостное улюлюканье мы въехали в чертог, где мне удалось порадовать гостей величайшим мастерством верховой езды!"

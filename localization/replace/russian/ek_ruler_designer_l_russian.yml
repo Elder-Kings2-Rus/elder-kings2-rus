@@ -12,7 +12,7 @@
 
  TOGGLE_NATURAL_LIGHTING:0 "Естественное освещение"
  RULER_DESIGNER_ENVIRONMENT:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_natural_lighting', 'true' ), 'environment_cw_west', 'ek_ruler_designer_environment' )]"
- 
+
  RULER_DESIGNER_TOGGLE_SHOW_ACCESSORIES_LABEL:0 "Показать волосы и одежду"
 
  MISSING_FURSTOCK_TOOLTIP:0 "@warning_icon!#X Необходимо выбрать вид меха#!"
@@ -26,14 +26,14 @@
  RULER_DESIGNER_BIRTHSIGN_TRAIT_LABEL:0 "Знак рождения"
 
  RULER_DESIGNER_CHOOSE_ETHNICITY:0 "Выберите расу"
- RACE_MAN:0 "Люди"
- RACE_MER:0 "Меры"
- RACE_BEASTFOLK:0 "Зверолюди"
- RACE_KHAJIIT:0 "Каджиты"
- RACE_ARGONIAN:0 "Аргонианине"
- RACE_GOBLINKEN:0 "Гоблины"
- RACE_LILMOTHIIT:0 "Лилмотиты"
- RACE_DREMORA:0 "Дреморы"
+ RACE_MAN:0 "Человек"
+ RACE_MER:0 "Мер"
+ RACE_BEASTFOLK:0 "Зверолюд"
+ RACE_KHAJIIT:0 "Каджит"
+ RACE_ARGONIAN:0 "Аргонианин"
+ RACE_GOBLINKEN:0 "Гоблин"
+ RACE_LILMOTHIIT:0 "Лилмотит"
+ RACE_DREMORA:0 "Дремора"
 
 
  INCOMPATABLE_CULTURE:0 "@warning_icon!#X Неправильная культура#"
@@ -69,7 +69,7 @@
  race_khajiit_wildcat_name:0 "Каджит III"
  race_khajiit_wildcat:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ) ), Localize('race_khajiit_wildcat_name'), 'no' )]"
 
- race_lilmothiit_name:0 "Лилмотиит"
+ race_lilmothiit_name:0 "Лилмотит"
  race_lilmothiit:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_LILMOTHIIT') ) ), Localize('race_lilmothiit_name'), 'no' )]"
 
  ###Other
@@ -456,9 +456,7 @@
  metallic_skin:0 "Металлическая кожа"
 
 #Hide skin complexions for argonians, khajiit and lilmothiit
- complexion:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ), Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') ) ) ), '', 'Цвет кожи' )]"
-
-  #complexion:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ), Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') ) ) ), '', 'Skin Complexion' )]"
+ #complexion:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ), Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') ) ) ), '', 'Skin Complexion' )]"
 
  complexion_1_name:0 "Цвет лица 1"
  complexion_1:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_1_name'), '' )]"
@@ -756,7 +754,7 @@
 
  gene_eye_shut_top:0 "Верхнее веко закрыто"
 
- gene_eye_size:0 "Увеличение глаз"
+ gene_eye_size:0 "Размер глаз"
 
  gene_bs_nose_central_width:0 "Ширина центра носа"
 
@@ -801,7 +799,7 @@ hair_aging:0 "Старение волос"
 vanilla_hair_aging:0 "Выцветшие волосы"
 late_hair_aging:0 "Позднее выцветание волос"
 no_hair_aging:0 "Невыцветающие волосы"
-beast_hair_aging:0 "Звериная раса старения волос"
+beast_hair_aging:0 "Зверолюд. выцвет. волос"
 
 hair_color_hue:0 "Оттенок цвета волос"
 vanilla_hair_hue:0 "Нормальные волосы"
@@ -865,4 +863,3 @@ cheek_wrinkles_left_01:0 "Морщины на левой щеке"
 cheek_wrinkles_right_01:0 "Морщины на правой щеке"
 cheek_wrinkles_both_01:0 "Морщины на обеих щеках"
 nose_wrinkles_01:0 "Морщины на носу"
-
