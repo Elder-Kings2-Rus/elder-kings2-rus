@@ -27,13 +27,13 @@
  form_greater_wrothgar_kingdom_decision_effects_de_jure_tt:0 "Все герцогства в пределах [Concept( 'region', 'региона' )|E] Великого Ротгара становятся [de_jure|El] вассалами Королевства Великий Ротгар"
  # Bangkorai
  form_bangkorai_kingdom_decision:0 "Сформировать Королевство Бангкорай"
- form_bangkorai_kingdom_decision_desc:0 "Наконец-то я установил контроль над Бангкораем, именуемым в народе "Щитом Хай-Рока". Этот регион, измученный междоусобными и пограничными конфликтами, наконец-то объединен под моим правлением.!"
+ form_bangkorai_kingdom_decision_desc:0 "Наконец-то я установил контроль над Бангкораем, именуемым в народе "Щитом Хай-Рока". Этот регион, измученный междоусобными и пограничными конфликтами, наконец-то объединен под моим правлением!"
  form_bangkorai_kingdom_decision_tooltip:0 "Вы создадите новое [kingdom|E] в Бангкорай."
  form_bangkorai_kingdom_decision_confirm:0 "Да здравствует [ROOT.Char.GetLadyLord|U] Бангкорая!"
  form_bangkorai_kingdom_decision_effects_de_jure_tt:0 "Все герцогства в пределах [Concept( 'region', 'региона' )|E] Бангкорая становятся [de_jure|El] вассалами Королевства Бангкорай"
  # Auridon
  form_auridon_kingdom_decision:0 "Объединить Ауридон"
- form_auridon_kingdom_decision_desc:0 "Будучи объектом набегов и нападений на протяжении веков, защитник островов Саммерсет, Ауридон в настоящее время разделен и слаб. Если мы хотим победить и занять свое законное место на архипелаге, Ауридон должен быть единым.!"
+ form_auridon_kingdom_decision_desc:0 "Будучи объектом набегов и нападений на протяжении веков, защитник островов Саммерсет, Ауридон в настоящее время разделен и слаб. Если мы хотим победить и занять свое законное место на архипелаге, Ауридон должен быть единым!"
  form_auridon_kingdom_decision_tooltip:0 "Вы создадите новое [kingdom|E] в Ауридоне."
  form_auridon_kingdom_decision_confirm:0 "Да здравствует [ROOT.Char.GetLadyLord|U] Ауриода!"
  form_auridon_kingdom_decision_effects_de_jure_tt:0 "Все герцогства в пределах [Concept( 'region', 'региона' )|E] Ауридона становятся [de_jure|El] вассалами Королевства Ауридон"

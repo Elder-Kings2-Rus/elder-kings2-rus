@@ -133,7 +133,7 @@
  relation_upgrade.2102.desc_bubonic_plague:0 "всё покрытое до сих пор сочащимися гноем и кровью, что видно даже с того места, где я стою"
  relation_upgrade.2102.desc_smallpox:0 "с кожей покрытой сыпью и бугорками, которые видны даже с того места, где я стою."
  relation_upgrade.2102.desc_ending:0 "\n\nОно с хлюпаньем приземляется, разбрызгивая кровь, кишки и панику."
- relation_upgrade.2102.a:0 "Поднимите [peasant.GetHerHim]  – мы запустим тело обратно!"
+ relation_upgrade.2102.a:0 "Поднимите [peasant.GetHerHim] – мы запустим тело обратно!"
  relation_upgrade.2102.b:0 "Это тело должно быть изучено."
  relation_upgrade.2102.tt:0 "Один из придворных [rival.GetTitledFirstNamePossessive] заболевает"
  relation_upgrade.2102.b_tt_2:0 "Вспышка болезни в месте [rival_capital.GetNameNoTooltip]"

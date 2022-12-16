@@ -48,7 +48,7 @@
  ek_prison.1004.b:0 "Сделали бы вы это со своим [root.Custom2('RelationToMe', SCOPE.sC('imprisoner'))]?"
  ek_prison.1005.desc_intro:0 "[prisoner.GetName] наконец-то пойман! По нашим давним традициям заключенных следует ссылать."
  ek_prison.1005.desc_accept_exile:0 "\n\nГлядя мне прямо в глаза, [prisoner.GetFirstName] выражает свое желание страдать в изгнании. [prisoner.GetHerHis|U] храбрость довольно почетна."
- ek_prison.1005.desc_freedom:0 "\n\n[prisoner.GetFirstName]  пришлось умолять меня даровать [prisoner.GetHerHim] свободу, утверждая, что наши близкие узы и [prisoner.GetHerHis] клятвы должны быть гарантией того, что мы не причиним вреда друг другу."
+ ek_prison.1005.desc_freedom:0 "\n\n[prisoner.GetFirstName] пришлось умолять меня даровать [prisoner.GetHerHim] свободу, утверждая, что наши близкие узы и [prisoner.GetHerHis] клятвы должны быть гарантией того, что мы не причиним вреда друг другу."
  ek_prison.1005.a:0 "Вы будете изгнаны и удалены из нашего [Concept('home', 'Дома')|E!"
  ek_prison.1005.b:0 "Вы будете изгнаны!"
  ek_prison.1005.c:0 "Я принимаю ваши мольбы. Добро пожаловать обратно."

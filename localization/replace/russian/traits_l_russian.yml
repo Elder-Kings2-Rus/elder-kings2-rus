@@ -15,11 +15,11 @@
 
  trait_cancer:0 "Гниль"
  trait_cancer_desc:0 "Гниль распространилась по телу этого персонажа, высасывая из него жизнь."
- trait_cancer_character_desc:0 "Гниль распространилась по телу [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip], высасывая из [Select_CString(ROOT.GetCharacter.IsFemale, 'неё', 'него' )]  жизненные силы."
+ trait_cancer_character_desc:0 "Гниль распространилась по телу [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip], высасывая из [Select_CString(ROOT.GetCharacter.IsFemale, 'неё', 'него' )] жизненные силы."
  trait_typhus:0 "Желтая лихорадка"
 
  trait_typhus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от желтой лихорадки и мучается от сыпи, жара и кашля."
- trait_bubonic_plague:0 "Кнахатенский Грипп"
+ trait_bubonic_plague:0 "Кнахатенский грипп"
  trait_bubonic_plague_desc:0 "Этот персонаж страдает от высокой температуры и изнуряющего кашля. Такие недолго живут в этом мире."
  trait_bubonic_plague_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от высокой температуры и изнуряющего кашля. [ROOT.GetCharacter.GetSheHe] не долго проживёт в этом мире."
  trait_smallpox:0 "Мор"
