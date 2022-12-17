@@ -1,0 +1,64 @@
+﻿l_russian:
+
+ trait_varangian:0 "Legionary"
+ trait_varangian_desc:0 "This character has served in the Imperial Legion."
+ trait_varangian_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has served in the Imperial Legion."
+ 
+ murder_save.0010.t:0 "$murder_save_header$ Legionary"
+ murder_save.0010.desc:0 "My attempt on [target.GetTitledFirstNamePossessive] life has been thwarted!\n\nThe assassin was stopped by one of those insipid Legionaries! I suppose the [target.GetTitleAsNameNoTooltip] got [target.GetHerHis] Legion after all..."
+ murder_save.0010.varangian_dies:0 "\n\nAt least the assassin got the better of the Legionary. [varangian.GetTitledFirstName] won't get in my way again."
+ murder_save.0010.a:0 "I will never get [target.GetHerHim] now!"
+ murder_save.0010.b:0 "I need a new plan..."
+
+ murder_save.1010.desc:0 "An assassin has made an attempt on my life! Thankfully, [varangian.GetFirstName], a member of the Imperial Legion, was right outside my chambers and swiftly intervened. [varangian.GetSheHe|U] made quick work of the assassin before I came to any harm."
+ murder_save.1010.varangian_dies:0 "Tragically, [varangian.GetFirstNameNoTooltip] suffered fatal wounds in the process."
+ murder_save.1010.owner_discovered:0 "\n\nThere can be no doubt that this was all the doing of [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!"
+ murder_save.1010.a:0 "Who could be behind this vicious attempt?"
+ murder_save.1010.b:0 "[owner.GetSheHe|U] will pay for this!"
+ 
+ varangian_arrived.title:0 "A New Legionary"
+ varangian_arrived.desc:0 "[varangian_candidate.GetShortUIName|U] has joined the Imperial Legion"
+
+ varangian.0002.t:0 "The Imperial Legion"
+ varangian.0002.opening:0 "By the time [varangian_candidate.Custom2('MyCharacterIntroduction', ROOT.Char )] comes to me with [varangian_candidate.GetHerHis] plan, [varangian_candidate.GetSheHe] seems to have already made up [varangian_candidate.GetHerHis] mind.\n\n"Serving with the Legion in"
+ varangian.0002.miklagard:0 "the Imperial City"
+ varangian.0002.elsewhere:0 "the Imperial Legion"
+ varangian.0002.end:0 "will bring both wealth and glory!"\n\nI cannot deny that part, but I could deny [varangian_candidate.GetHerHis] request. On the other hand, would it be right to stop someone in their pursuit of glory?"
+ varangian.0002.a:0 "Go, with [ROOT.Char.GetFaith.WarGodNamePossessive] blessing!"
+ varangian.0002.b:0 "No, I forbid it! You are needed here."
+
+ varangian.1002.t:0 "Returning From the Imperial Legion"
+ varangian.1002.opening:0 "I barely recognize [returning_varangian.Custom2('MyCharacterIntroduction', ROOT.Char )] as [varangian_candidate.GetSheHe] enters my great hall."
+ varangian.1002.new_partner:0 "And I certainly don't recognize the [partner.GetWomanMan] at [varangian_candidate.GetHerHis] side!"
+ varangian.1002.ending:0 "\n\n"I am home, [returning_varangian.Custom2('RelationToMeShort', ROOT.Char )]!" [returning_varangian.GetFirstNameNoTooltip] bellows. "There have been many a time I thought I would never see these lands again, but I am finally back."\n\nAs strange as it is to see my [ROOT.Char.Custom2('RelationToMeShort', returning_varangian )] after all these years, I cannot deny that I am impressed with [varangian_candidate.GetHerHis] [emperor.GetCulture.GetNameNoTooltip] dress, [varangian_candidate.GetHerHis] foreign jewelry, and the heavy coffer [returning_varangian.GetSheHe] has brought with [returning_varangian.GetHerHim]."
+ varangian.1002.a:0 "Welcome home, [returning_varangian.GetFirstNameNoTooltip]!"
+
+ varangian.3001.t:0 "Imperial Legion: An Honorable Death"
+ varangian.3001.desc:0 "[varangian.Custom2('MyCharacterIntroduction', ROOT.Char)] has died while serving in the Imperial Legion!\n\nI have received a missive from the [emperor.GetTitledFirstName] praising [varangian.GetHerHis] name, and describing how [varangian.GetSheHe] fought valiantly to save the life of the [emperor.GetTitleAsNameNoTooltip] from vicious assassins.\n\nNothing can ever bring [varangian.GetFirstNameNoTooltip] back, but the posthumous reward of gold from the [emperor.GetTitleAsNameNoTooltip] helps ease the sorrow."
+ varangian.3001.a:0 "Brave until the end, [varangian.GetFirstNameNoTooltip]..."
+ 
+ send_to_varangian_guard_interaction:0 "Send to the Imperial Legion #weak (Dynasty)#!"
+ send_to_varangian_guard_interaction_desc:0 "$dynasty_interaction_header$Send [recipient.GetShortUINameNoTooltip] away to gain glory and fortune in the Imperial Legion. Who knows, it might even help build character!"
+ send_to_varangian_guard_interaction_toast:1 "[recipient.GetShortUIName] left for the Imperial Legion"
+ send_to_varangian_guard_interaction_toast_desc:0 "Fame and glory awaits!"
+ send_to_varangian_guard_interaction_effect_desc:1 "#weak While serving in the Imperial Legion, [CHARACTER.GetShortUIName] might increase [CHARACTER.GetHerHis] [skills|E] or gain [traits|E] — but [CHARACTER.GetSheHe] might also become wounded, or worse. [CHARACTER.GetSheHe|U] will return within a few years, but cannot be recalled.#!"
+
+ lover_varangian_local:0 "[CHARACTER.GetShortUIName|U] met [TARGET_CHARACTER.GetShortUIName], a local, while serving in the Imperial Legion."
+ lover_varangian_local_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] met [CHARACTER.GetShortUIName], a local, while serving in the Imperial Legion."
+ 
+ rival_varangian:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] started despising each other while serving together in the Imperial Legion."
+ best_friend_varangian:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] formed an unbreakable bond while serving together in the Imperial Legion."
+ friend_varangian:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends while serving together in the Imperial Legion."
+ lover_varangian_local:0 "[CHARACTER.GetShortUIName|U] met [TARGET_CHARACTER.GetShortUIName], a local, while serving in the Imperial Legion."
+ lover_varangian_local_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] met [CHARACTER.GetShortUIName], a local, while serving in the Imperial Legion."
+ lover_varangian_lover:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUINamePossessive] served in the Imperial Legion together, and grew #EMP very#! close."
+ lover_varangian_lover_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUINamePossessive] served in the Imperial Legion together, and grew #EMP very#! close."
+
+ single_combat.0001.stoic_veteran.other_varangian:0 "Shame to [my_foe.Custom('SignatureWeaponKillType')] a loyal Guards[my_foe.GetWomanMan], [my_foe.Custom('SisterBrother')]."
+ single_combat.0001.tt.stoic_veteran:0 "#BOL Stoic Veteran:#! using your Varangian experience, you hew at [my_foe.GetFirstNameNoTooltip]"
+ single_combat.0001.desc.my_feedback.stoic_veteran:0 "The Imperial Legion doesn't encourage laxity. It takes discipline and a firm arm to excel, and with every blow, I show [my_foe.GetFirstNameNoTooltip] how the a Legionary fight."
+ single_combat.0001.desc.opponent_response.stoic_veteran:0 "[my_foe.GetFirstNamePossessiveNoTooltip] time in the Imperial Legion has left [my_foe.GetHerHim] stoic, brutal, and deadly with [my_foe.Custom('SignatureWeaponArticle')] [my_foe.Custom('signature_weapon')], delivering [my_foe.Custom('SignatureWeaponAttemptedHeavy')] after [my_foe.Custom('SignatureWeaponAttemptedHeavy')] to my torso."
+ single_combat.0031.desc.sc_attacker.stoic_veteran:0 "Most flee at the sign of a heavily-armed Legionary. My opponent, to [sc_victor.GetHerHis] credit, doesn't seem phased by my intimidating appearance, and my stoic hewing is met by with determined parry after determined parry.\n\n"
+ single_combat.0041.desc.opponent_response.stoic_veteran:0 "[sc_loser.GetFirstNameNoTooltip] uses [sc_loser.GetHerHis] [sc_loser.Custom('signature_weapon')] with all the competence typical of a Legionary, hewing at me with long, even strikes of [sc_loser.GetHerHis] weapon. It's difficult, but nothing I'm not able to parry well enough.\n\n"
+ single_combat.0041.desc.opponent_response.stoic_veteran.fatality:0 "We fall into a tense pattern of strike-parry-riposte, with me slowly gaining the upper hand, wearing [sc_loser.GetFirstNameNoTooltip] down blow by blow, till [sc_loser.GetSheHe]'s accrued enough welts and wounds to kill most [sc_loser.GetWomenMen] twice over.\n\nEven [sc_loser.GetSheHe] has [sc_loser.GetHerHis] limits, though. And as the Legionary collapses to [sc_loser.GetHerHis] knees, ready for the deathblow, it becomes clear that we both know it."
+  
