@@ -4,7 +4,7 @@
  stress_threshold.3401.mephala:0 "Я чувствую, влияние Мефалы... Паутина прядется, и мне нужно стать её частью..."
  
  stress_threshold.2501.t:0 "Даэдрический шепот"
- stress_threshold.2501.desc:0 "Я чувствую,, как они цепляются за мой разум. Их шепот сопровождает меня везде, куда бы я ни [Select_CString(ROOT.GetCharacter.IsFemale, 'пошла', 'пошел' )], даже ночью, когда я мучительно пытаюсь заснуть.\n\nОни насмехаются надо мной, обещают мне великие дела, угрожают мне принуждением, успокаивают меня. Они указывают на мои недостатки, на мои достоинства, и когда проходит время и их слова начинают терять смысл, я чувствую, что мой разум рассеивается..."
+ stress_threshold.2501.desc:0 "Я чувствую, как они цепляются за мой разум. Их шепот сопровождает меня везде, куда бы я ни [Select_CString(ROOT.GetCharacter.IsFemale, 'пошла', 'пошел' )], даже ночью, когда я мучительно пытаюсь заснуть.\n\nОни насмехаются надо мной, обещают мне великие дела, угрожают мне принуждением, успокаивают меня. Они указывают на мои недостатки, на мои достоинства, и когда проходит время и их слова начинают терять смысл, я чувствую, что мой разум рассеивается..."
  # Personality
  stress_threshold.2501.stress_ambitious_boethiah:0 "Принц Заговоров ведет меня к величию!"
  stress_threshold.2501.stress_ambitious_mehrunes:0 "Принц Разрушения ведет меня к величию!"
@@ -15,7 +15,7 @@
  stress_threshold.2501.stress_callous_meridia:0 "С помощью Госпожи Бесконечных Энергий я сокрушу моих врагов!"
  stress_threshold.2501.stress_compassionate_azura:0 "В глубине души Королева Рассвета и Заката заботится обо мне..."
  stress_threshold.2501.stress_content_nocturnal:0 "Зачем переживать? Я знаю, что Императрица теней рядом со мной..."
- stress_threshold.2501.stress_craven_vaermina:0 "Вермина защитит меня!!"
+ stress_threshold.2501.stress_craven_vaermina:0 "Вермина защитит меня!"
  stress_threshold.2501.stress_deceitful_mephala:0 "Паутина прядется, и Мефала желает, чтобы я [Select_CString(ROOT.GetCharacter.IsFemale, 'стала', 'стал' )] её частью..."
  stress_threshold.2501.stress_fickle_sheogorath:0 "Прекрасно. Я буду следовать пути Принца Безумия!"
  stress_threshold.2501.stress_greedy_clavicus:0 "Просто сделка... Одна сделка с Принцем Хитрости и Сделок..."
@@ -49,7 +49,7 @@
  # Lifestyles
  stress_threshold.2501.stress_herbalist_vaermina:0 "Вермина шепчет возле алхимического алтаря..."
  stress_threshold.2501.stress_hunter_hircine:0 "Я буду охотиться под личиной Хирсина!"
- stress_threshold.2501.stress_mystic_hermaeus:0 "С помощью Демона Знаний я буду познавать тайны Аурбиса!!"
+ stress_threshold.2501.stress_mystic_hermaeus:0 "С помощью Демона Знаний я буду познавать тайны Аурбиса!"
  stress_threshold.2501.stress_mystic_mehrunes:0 "Эзотерические тексты и секреты Мерунеса Дагона скоро станут моими..."
  stress_threshold.2501.stress_reveler_sanguine:0 "Почему мы все не такие, как Принц кутежа?"
  # Genetic

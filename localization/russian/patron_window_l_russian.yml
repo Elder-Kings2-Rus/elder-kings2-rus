@@ -56,31 +56,31 @@
  patron_azura_name:0 "[GetPlayer.Custom('GetObAzuraName')]"
  patron_azura_desc:0 "Королева рассвета и заката"
  patron_azura_long_desc:0 "[GetPlayer.Custom('GetObAzuraDesc')]"
- patron_azura_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_azura')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_azura')]\nArdor: [GetPlayer.MakeScope.Var('ardor_azura').GetValue|+0]"
+ patron_azura_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_azura')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_azura')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_azura').GetValue|+0]"
  desc_azura:0 "Даэдрический принц рассвета и заката, Азура правит Лунной тенью в Обливионе. Обычно ее изображают в виде женщины, держащей в руках звезду и луну. Азура известна проклятием, которое превратило кимеров в данмеров после битвы у Красной горы."
 
  patron_boethiah_name:0 "[GetPlayer.Custom('GetObBoethiahName')]"
  patron_boethiah_desc:0 "Обманщик народов"
  patron_boethiah_long_desc:0 "[GetPlayer.Custom('GetObBoethiahDesc')]"
- patron_boethiah_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_boethiah')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_boethiah')]\nArdor: [GetPlayer.MakeScope.Var('ardor_boethiah').GetValue|+0]"
+ patron_boethiah_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_boethiah')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_boethiah')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_boethiah').GetValue|+0]"
  desc_boethiah:0 "Даэдрический принц заговоров, Боэтия правит своим королевством в Обливионе. Обычно ее изображают в виде воина - мужчины или женщины. Считается, что в Меретическую эпоху Боэтия "съела" Тринимака, породив Малаката."
  
  patron_clavicus_name:0 "[GetPlayer.Custom('GetObClavicusName')]"
  patron_clavicus_desc:0 "Мастер коварных желаний"
  patron_clavicus_long_desc:0 "[GetPlayer.Custom('GetObClavicusDesc')]"
- patron_clavicus_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_clavicus')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_clavicus')]\nArdor: [GetPlayer.MakeScope.Var('ardor_clavicus').GetValue|+0]"
+ patron_clavicus_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_clavicus')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_clavicus')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_clavicus').GetValue|+0]"
  desc_clavicus:0 "Даэдрический принц хитрости и сделок, Клавикус Виле правит Полями Сожаления в Забвении. Обычно его изображают в виде рогатого даэдра в сопровождении Барбаса. Это изображение сохранилось со времен Меретической эры, его можно найти на наскальных рисунках того периода.." #cant actually find anything major he's done prior to the Khanaten Flu, everything is in the future, relative to the start date
  
  patron_hermaeus_name:0 "[GetPlayer.Custom('GetObHermaeusName')]"
  patron_hermaeus_desc:0 "Демон знаний"
  patron_hermaeus_long_desc:0 "[GetPlayer.Custom('GetObHermaeusDesc')]"
- patron_hermaeus_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_hermaeus')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_hermaeus')]\nArdor: [GetPlayer.MakeScope.Var('ardor_hermaeus').GetValue|+0]"
+ patron_hermaeus_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_hermaeus')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_hermaeus')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_hermaeus').GetValue|+0]"
  desc_hermaeus:0 "Даэдрический принц Запретного знания, Хермеус Мора, правит Апокрифом в Обливионе. Обычно его изображают в виде Отвратительной Бездны, клубящейся массы глаз и щупалец. Нордические мифы рассказывают, что он обманом почти превратил Исграмора в эльфа."
  
  patron_hircine_name:0 "[GetPlayer.Custom('GetObHircineName')]"
  patron_hircine_desc:0 "Отец зверолюдей"
  patron_hircine_long_desc:0 "[GetPlayer.Custom('GetObHircineDesc')]"
- patron_hircine_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_hircine')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_hircine')]\nArdor: [GetPlayer.MakeScope.Var('ardor_hircine').GetValue|+0]"
+ patron_hircine_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_hircine')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_hircine')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_hircine').GetValue|+0]"
  desc_hircine:0 "Даэдрический принц охоты, Хирсин правит охотничьими угодьями в Обливионе. Обычно его изображают в виде человекоподобной фигуры с головой, замененной черепом оленя."
  
  patron_jyggalag_name:0 "Джиггалаг"
@@ -90,67 +90,67 @@
  patron_malacath_name:0 "[GetPlayer.Custom('GetObMalacathName')]"
  patron_malacath_desc:0 "Защитник преданных"
  patron_malacath_long_desc:0 "[GetPlayer.Custom('GetObMalacathDesc')]"
- patron_malacath_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_malacath')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_malacath')]\nArdor: [GetPlayer.MakeScope.Var('ardor_malacath').GetValue|+0]"
+ patron_malacath_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_malacath')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_malacath')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_malacath').GetValue|+0]"
  desc_malacath:0 "Даэдрический принц Отверженных. Обычно его изображают в виде орка с мечом или топором. У Малаката есть преданные последователи среди орсимеров, многие из которых живут по его кредо - Кодексу Малаката."
  
  patron_mehrunes_name:0 "[GetPlayer.Custom('GetObMehrunesName')]"
  patron_mehrunes_desc:0 "Могучий Владыка"
  patron_mehrunes_long_desc:0 "[GetPlayer.Custom('GetObMehrunesDesc')]"
- patron_mehrunes_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_mehrunes')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_mehrunes')]\nArdor: [GetPlayer.MakeScope.Var('ardor_mehrunes').GetValue|+0]"
+ patron_mehrunes_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_mehrunes')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_mehrunes')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_mehrunes').GetValue|+0]"
  desc_mehrunes:0 "Даэдрический принц разрушения, Мерунес Дагон, правит Мертвыми землями в Обливионе. Обычно его изображают с четырьмя руками и чертами лица, напоминающими орка. Разрушение Морнхолда в Первую эпоху было вызвано именно Мерунесом Дагоном." #if someone has a better description, please add it
  
  patron_mephala_name:0 "[GetPlayer.Custom('GetObMephalaName')]"
  patron_mephala_desc:0 "Учитель тайных искусств"
  patron_mephala_long_desc:0 "[GetPlayer.Custom('GetObMephalaDesc')]"
- patron_mephala_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_mephala')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_mephala')]\nArdor: [GetPlayer.MakeScope.Var('ardor_mephala').GetValue|+0]"
+ patron_mephala_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_mephala')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_mephala')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_mephala').GetValue|+0]"
  desc_mephala:0 "Даэдрический принц непонятной сферы, Мефала правит Спиральным мотком в Обливионе. Обычно ее изображают в виде данмерской женщины с листьями паука, растущими из спины, но известно, что она может принимать и другие формы в зависимости от цели."
  
  patron_meridia_name:0 "[GetPlayer.Custom('GetObMeridiaName')]"
  patron_meridia_desc:0 "Госпожа бесконечных энергий"
  patron_meridia_long_desc:0 "[GetPlayer.Custom('GetObMeridiaDesc')]"
- patron_meridia_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_meridia')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_meridia')]\nArdor: [GetPlayer.MakeScope.Var('ardor_meridia').GetValue|+0]"
+ patron_meridia_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_meridia')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_meridia')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_meridia').GetValue|+0]"
  desc_meridia:0 "Даэдрический принц энергии и жизни, Меридия правит Цветными комнатами в Обливионе. Обычно ее изображают в виде женщины с большими пернатыми крыльями, облаченной в мантию. Она считается одним из самых доброжелательных принцев из-за своей ненависти к нежити."
  
  patron_molag_name:0 "[GetPlayer.Custom('GetObMolagName')]"
  patron_molag_desc:0 "Жнец душ"
  patron_molag_long_desc:0 "[GetPlayer.Custom('GetObMolagDesc')]"
- patron_molag_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_molag')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_molag')]\nArdor: [GetPlayer.MakeScope.Var('ardor_molag').GetValue|+0]"
+ patron_molag_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_molag')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_molag')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_molag').GetValue|+0]"
  desc_molag:0 "Даэдрический принц господства Молаг Бал правит Хладной Гаванью в Обливионе. Также известен как Патриарх вампиров, преданные последователи могут быть вознаграждены чистокровным вампиризмом." #really really need better description
  
  patron_namira_name:0 "[GetPlayer.Custom('GetObNamiraName')]"
  patron_namira_desc:0 "Госпожа разложения"
  patron_namira_long_desc:0 "[GetPlayer.Custom('GetObNamiraDesc')]"
- patron_namira_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_namira')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_namira')]\nArdor: [GetPlayer.MakeScope.Var('ardor_namira').GetValue|+0]"
+ patron_namira_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_namira')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_namira')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_namira').GetValue|+0]"
  desc_namira:0 "Даэдрический принц Древней Тьмы, Намира правит Гибельной Пустотой в Обливионе. Обычно ее изображают в виде женщины в тяжелой мантии. Она имеет тесную связь с нищими, наделяя Даром Жалости Принца Нищих, согласно одноименной книге."
  
  patron_nocturnal_name:0 "[GetPlayer.Custom('GetObNocturnalName')]"
  patron_nocturnal_desc:0 "Хозяйка теней"
  patron_nocturnal_long_desc:0 "[GetPlayer.Custom('GetObNocturnalDesc')]"
- patron_nocturnal_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_nocturnal')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_nocturnal')]\nArdor: [GetPlayer.MakeScope.Var('ardor_nocturnal').GetValue|+0]"
+ patron_nocturnal_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_nocturnal')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_nocturnal')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_nocturnal').GetValue|+0]"
  desc_nocturnal:0 "Даэдрический принц ночи и тьмы, Ноктюрнал правит Вечнотенью в Обливионе. Обычно ее изображают в виде женщины с двумя черными воронами. Многие воры считают ее своим покровителем, приносящим им удачу через могилы ушедших соловьев."
  
  patron_peryite_name:0 "[GetPlayer.Custom('GetObPeryiteName')]"
  patron_peryite_desc:0 "Приносящий мор"
  patron_peryite_long_desc:0 "[GetPlayer.Custom('GetObPeryiteDesc')]"
- patron_peryite_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_peryite')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_peryite')]\nArdor: [GetPlayer.MakeScope.Var('ardor_peryite').GetValue|+0]"
+ patron_peryite_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_peryite')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_peryite')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_peryite').GetValue|+0]"
  desc_peryite:0 "Даэдрический принц естественного порядка, Периайт правит Ямами в Обливионе. Обычно его изображают в виде дракона с шестью конечностями, несмотря на то, что он один из самых слабых принцев. Последователи Периайта считают болезни и другие недуги благословением принца."
  
  patron_sanguine_name:0 "[GetPlayer.Custom('GetObSanguineName')]"
  patron_sanguine_desc:0 "Повелитель темной праздности" #uesp didn't include an actual title, so made one up
  patron_sanguine_long_desc:0 "[GetPlayer.Custom('GetObSanguineDesc')]"
- patron_sanguine_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_sanguine')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_sanguine')]\nArdor: [GetPlayer.MakeScope.Var('ardor_sanguine').GetValue|+0]"
+ patron_sanguine_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_sanguine')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_sanguine')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_sanguine').GetValue|+0]"
  desc_sanguine:0 "Даэдрический принц праздности, Сангвин правит Мириадами царств праздности в Обливионе. Обычно его изображают в виде коренастого дремора, держащего в руках какой-нибудь алкогольный напиток. Он считается одним из самых безобидных принцев благодаря своей сфере."
  
  patron_sheogorath_name:0 "[GetPlayer.Custom('GetObSheogorathName')]"
  patron_sheogorath_desc:0 "Утешитель людей"
  patron_sheogorath_long_desc:0 "[GetPlayer.Custom('GetObSheogorathDesc')]"
- patron_sheogorath_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_sheogorath')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_sheogorath')]\nArdor: [GetPlayer.MakeScope.Var('ardor_sheogorath').GetValue|+0]"
+ patron_sheogorath_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_sheogorath')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_sheogorath')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_sheogorath').GetValue|+0]"
  desc_sheogorath:0 "Даэдрический принц безумия, Шеогорат правит Дрожащими островами в Обливионе. Обычно его изображают в виде человека в изысканной одежде, держащего в руках трость. Изначально он был принцем порядка, но другие принцы, опасаясь его власти, прокляли его до безумия."
  
  patron_vaermina_name:0 "[GetPlayer.Custom('GetObVaerminaName')]"
  patron_vaermina_desc:0 "Ткач судеб"
  patron_vaermina_long_desc:0 "[GetPlayer.Custom('GetObVaerminaDesc')]"
- patron_vaermina_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_vaermina')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_vaermina')]\nArdor: [GetPlayer.MakeScope.Var('ardor_vaermina').GetValue|+0]"
+ patron_vaermina_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_vaermina')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_vaermina')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_vaermina').GetValue|+0]"
  desc_vaermina:0 "Даэдрический принц снов, Вермина правит Куагмиром в Забвении. Обычно её изображают в виде пожилой женщины с посохом, иногда в сопровождении змеи. Ее последователи часто являются алхимиками, их самое известное снадобье - Торпор Вермины."
 
  #long_desc direct from uesp as placeholder, should be changed

@@ -1,6 +1,6 @@
 ﻿l_russian:
  warhorse.0001.t:0 "Боевой [ROOT.Char.Custom('LocalMount')]"
- warhorse.0001.desc:0 "Восхищаясь существом, которое теперь следует каждой моей команде, я размышляю о том, какое имя лучше подойдет  [ROOT.Char.Custom('HorseStoryHerHim')]..."
+ warhorse.0001.desc:0 "Восхищаясь существом, которое теперь следует каждой моей команде, я размышляю о том, какое имя лучше подойдет [ROOT.Char.Custom('HorseStoryHerHim')]..."
 
  warhorse.0001.b:0 "В мифологии хватает грозных имен для [ROOT.Char.Custom('LocalMount')]!"
  warhorse.0001.c:0 "Это просто [ROOT.Char.Custom('LocalMount')], и имя будет соответствующее."
@@ -16,7 +16,7 @@
  warhorse.0004.desc:0 "[ROOT.Char.Custom('LocalMount')] должен быть назван как обычное существо, которым оно является."
 
  warhorse.1001.t:1 "[ROOT.Char.Custom('WarhorseStoryName')|U]: Верный скакун"
- warhorse.1001.desc:0 "Известный дрессировщик подошел ко мне после того, как услышал слухи о моем могучем скакуне [ROOT.Char.Custom('WarhorseStoryName')],и предлагает [ROOT.Char.Custom('RandomHerHis')] услуги.\n\n"Все, что я прошу взамен, это небольшое вознаграждение.""
+ warhorse.1001.desc:0 "Известный дрессировщик подошел ко мне после того, как услышал слухи о моем могучем скакуне [ROOT.Char.Custom('WarhorseStoryName')], и предлагает [ROOT.Char.Custom('RandomHerHis')] услуги.\n\n"Все, что я прошу взамен, это небольшое вознаграждение.""
  
  warhorse.1101.desc:0 "Когда я подхожу к стойлам, то слышу счастливые звуки, которые издает [ROOT.Char.Custom('WarhorseStoryName')]. [ROOT.Char.Custom('HorseStorySheHe')|U] кажется, хочет размять [ROOT.Char.Custom('HorseStoryHerHis')] ноги в прекрасную погоду, и я не могу не согласиться."
 

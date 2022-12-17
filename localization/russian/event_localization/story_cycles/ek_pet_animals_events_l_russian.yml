@@ -2,7 +2,7 @@
  ##############
  #   PARROT   #
  ##############
- parrot_story_modifier:0 "Питомец Попугай"
+ parrot_story_modifier:0 "Питомец попугай"
  parrot_story_modifier_desc:0 "Этот персонаж наслаждается обществом экзотической птицы, которая летает вокруг них, куда бы они ни пошли"
  parrot_story_eating_fruit_modifier:0 "Свежие фрукты и попугай"
  parrot_story_eating_fruit_modifier_desc:0 "Этот персонаж с удовольствием делится свежими фруктами со своим попугаем"
@@ -48,7 +48,7 @@
  ek_pet_animal.0103.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: Пристальный взгляд"
  ek_pet_animal.0103.desc_wounded:0 "Ужас в тронном зале! Пока [vassal.GetName] ожидал аудиенции с вами, [ROOT.Char.Custom('ParrotStoryName')], казалось бы, из ниоткуда, решил напасть на [vassal.GetHerHim]!\n\n[vassal.GetFirstName] успел убежать из комнаты, но не раньше, чем ваш попугай сильно покалечил [vassal.GetHerHim]..."
  ek_pet_animal.0103.desc_eye_removed_not_one_eyed:0 "Ужас в тронном зале! Пока [vassal.GetName] ожидал аудиенции с вами, [ROOT.Char.Custom('ParrotStoryName')], казалось бы из ниоткуда, решил напасть на [vassal.GetHerHim]!\n\nВскоре раздался сильный крик, и после того, как [ROOT.Char. Custom('ParrotStoryName')] был помещен обратно в [ROOT.Char.Custom('ParrotStoryHerHis')] клетку. Смотря на [vassal.GetFirstName] можно было увидеть, как он держит руку [vassal.GetHerHis] возле одного из глаз [vassal.GetHerHis]... из которого капала кровь."
- ek_pet_animal.0103.desc_eye_removed_one_eyed:0 "Ужас в тронном зале! Пока [vassal.GetName] ожидал аудиенции с вами, [ROOT.Char.Custom('ParrotStoryName')], казалось бы из ниоткуда, решил напасть на [vassal.GetHerHim]!\n\nВскоре раздался сильный крик, и после того, как [ROOT.Char. Custom('ParrotStoryName')] был помещен обратно в [ROOT.Char.Custom('ParrotStoryHerHis')] клетку. Смотря на [vassal.GetFirstName] можно было увидеть, как он держит руку [vassal.GetHerHis] возле одного из глаз [vassal.GetHerHis]... из которого капала кровь.\n\n'Я НЕ ВИЖУ!!!' был слышего [vassal.GetSheHe] пронзительный крик. 'ЭТО ТВОЯ ВИНА! ЭТО ВСЕ ТВОЯ ИДИОТСКАЯ ПТИЦА!'"
+ ek_pet_animal.0103.desc_eye_removed_one_eyed:0 "Ужас в тронном зале! Пока [vassal.GetName] ожидал аудиенции с вами, [ROOT.Char.Custom('ParrotStoryName')], казалось бы из ниоткуда, решил напасть на [vassal.GetHerHim]!\n\nВскоре раздался сильный крик, и после того, как [ROOT.Char. Custom('ParrotStoryName')] был помещен обратно в [ROOT.Char.Custom('ParrotStoryHerHis')] клетку. Смотря на [vassal.GetFirstName] можно было увидеть, как он держит руку [vassal.GetHerHis] возле одного из глаз [vassal.GetHerHis]... из которого капала кровь.\n\n'Я НЕ ВИЖУ!!!' был слышен [vassal.GetSheHe] пронзительный крик. 'ЭТО ТВОЯ ВИНА! ЭТО ВСЕ ТВОЯ ИДИОТСКАЯ ПТИЦА!'"
  ek_pet_animal.0103.a:0 "Я надеюсь что с [vassal.GetFirstName] все будет хорошо..."
  ek_pet_animal.0103.b:0 "О нет..."
  
@@ -67,16 +67,16 @@
  ek_pet_animal.0501.desc:0 "Как только вы входите в комнату, вы видите как [ROOT.Char.Custom('ParrotStoryName')] взволнованно щебечет.\nС улыбкой на лице вы открываете [ROOT.Char.Custom('ParrotStoryHerHis')] клетку и даете [ROOT.Char.Custom('ParrotStoryHerHim')] раскрыть свои крылья, прежде чем взлететь.\n[ROOT.Char.Custom('ParrotStoryName')] облетает всю комнату в считанные секунды, прежде чем сесть вам на плечи и положить [ROOT.Char.Custom('ParrotStoryHerHis')] голову на вашу шею.\n\nВы смеясь, ощущаете как вся тяжесть и сходит с ваших плеч, и вам становится легче..."
  ek_pet_animal.0501.a:0 "Мне щекотно!"
  
- ek_pet_animal.0502.desc:0 "С любимымым лакомством вашего [ROOT.Char.Custom('ParrotStoryName')] вы входите в небольшой сад, где [ROOT.Char.Custom('ParrotStoryName')] обычно проводит большую часть своего времени.\nКак только [ROOT.Char.Custom('ParrotStorySheHe')] заметит вас, или фрукты в вашей руке, [ROOT.Char.Custom('ParrotStorySheHe')] начинает радостно петь и летать вокруг вас.\nВскоре после этого [ROOT.Char.Custom('ParrotStorySheHe')] садится на ваше плечо и клюет лакомства с ваших рук.\n\nВы смеясь, чувствуете как вам становится легче и вы готовы встетить лицом все что готовит для вас этот мир"
+ ek_pet_animal.0502.desc:0 "С любимым лакомством вашего [ROOT.Char.Custom('ParrotStoryName')] вы входите в небольшой сад, где [ROOT.Char.Custom('ParrotStoryName')] обычно проводит большую часть своего времени.\nКак только [ROOT.Char.Custom('ParrotStorySheHe')] заметит вас, или фрукты в вашей руке, [ROOT.Char.Custom('ParrotStorySheHe')] начинает радостно петь и летать вокруг вас.\nВскоре после этого [ROOT.Char.Custom('ParrotStorySheHe')] садится на ваше плечо и клюет лакомства с ваших рук.\n\nВы смеясь, чувствуете как вам становится легче и вы готовы встретить лицом все что готовит для вас этот мир"
  ek_pet_animal.0502.a:0 "Не ешь что попало! [ROOT.Char.Custom('ParrotStoryName')]!"
 
  ##############
  #   SCORPION   #
  ##############
  scorpion_story_modifier:0 "Поиграть с скорпионом"
- scorpion_story_modifier_desc:0 "Этот персонаж рад компании хищного арахнида, который следует за ним всегда"
+ scorpion_story_modifier_desc:0 "Этот персонаж рад компании хищного арахнида, который всегда следует за ним."
  scorpion_story_observing_modifier:0 "Интриги и скорпион"
- scorpion_story_observing_modifier_desc:0 "Этот персонаж с удовольствием наблюдает за своим скорпионом"
+ scorpion_story_observing_modifier_desc:0 "Этот персонаж с удовольствием наблюдает за своим скорпионом."
  scorpion_story_fighting_with_you_modifier:0 "Боевой скорпион"
  scorpion_story_fighting_with_you_modifier_desc:0 "В бою этого персонажа всегда можно увидеть со скорпионом недалеко от себя, отвлекающим врагов и даже иногда ранящим их."
  
@@ -120,7 +120,7 @@
  
  # Scorpion dies :(
  ek_pet_animal.1199.t:0 "[ROOT.Char.Custom('ScorpionStoryName')]: День скорби"
- ek_pet_animal.1199.desc:0 "[ROOT.Char.Custom('ScorpionStoryName')] уже не маленький скорпиончик как раньше..., я вижу это в  [ROOT.Char.Custom('ScorpionStoryHerHis')] движениях, они уже не такие элегантные и легкие как раньше.\n\nЯ нежно прикоснулся к [ROOT.Char.Custom('ScorpionStoryHerHis')] панцирю и чувствую [ROOT.Char.Custom('ScorpionStoryHerHim')] легкое покачивание и попытки ущипнуть меня [ROOT.Char.Custom('ScorpionStoryHerHis')] клешнями, но когда тишина спадает, я понимаю что [ROOT.Char.Custom('ScorpionStoryHerHis')] утреннее щекотание больше меня не разбудит."
+ ek_pet_animal.1199.desc:0 "[ROOT.Char.Custom('ScorpionStoryName')] уже не маленький скорпиончик как раньше... я вижу это в [ROOT.Char.Custom('ScorpionStoryHerHis')] движениях, они уже не такие элегантные и легкие как раньше.\n\nЯ нежно прикоснулся к [ROOT.Char.Custom('ScorpionStoryHerHis')] панцирю и чувствую [ROOT.Char.Custom('ScorpionStoryHerHim')] легкое покачивание и попытки ущипнуть меня [ROOT.Char.Custom('ScorpionStoryHerHis')] клешнями, но когда тишина спадает, я понимаю что [ROOT.Char.Custom('ScorpionStoryHerHis')] утреннее щекотание больше меня не разбудит."
  ek_pet_animal.1199.a:0 "Я буду скучать, [ROOT.Char.Custom('ScorpionStoryName')]!"
  
  pet_scorpion_decision:0 "Поиграть с [ROOT.Char.Custom('ScorpionStoryName')]"
@@ -130,7 +130,7 @@
  
  # You play with your scorpion :)
  ek_pet_animal.1501.t:0 "Чудесное время вместе с [ROOT.Char.Custom('ScorpionStoryName')]"
- ek_pet_animal.1501.desc:0 "Как только вы заходите в комнату, сразу слышно радостное клацанье клешнями.\nС улыбкой на лице вы открываете [ROOT.Char.Custom('ScorpionStoryHerHis')] клетку, [ROOT.Char.Custom('ScorpionStoryName')] нетополиво вылезает из клетки перебирая своими лапками.\n[ROOT.Char.Custom('ScorpionStoryName')] обошел всю комнату в мгновенье, прежде чем заползти в вашу ладонь.\n\nСмеясь, вы чувствуете как маленький скорпион помогает вам сбросить всю тяжесть с плечь и почувствовать облегчение."
+ ek_pet_animal.1501.desc:0 "Как только вы заходите в комнату, сразу слышно радостное клацанье клешнями.\nС улыбкой на лице вы открываете [ROOT.Char.Custom('ScorpionStoryHerHis')] клетку, [ROOT.Char.Custom('ScorpionStoryName')] неторопливо вылезает из клетки перебирая своими лапками.\n[ROOT.Char.Custom('ScorpionStoryName')] обошел всю комнату в мгновенье, прежде чем заползти в вашу ладонь.\n\nСмеясь, вы чувствуете как маленький скорпион помогает вам сбросить всю тяжесть с плеч и почувствовать облегчение."
  ek_pet_animal.1501.a:0 "Ты меня щекочешь!"
  
  ek_pet_animal.1502.desc:0 "С любимым лакомством вашего скорпиона, вы входите в свой маленький сад, где [ROOT.Char.Custom('ScorpionStoryName')] обычно проводит большую часть времени.\nКак только [ROOT.Char.Custom('ScorpionStorySheHe')] заметит вас, или лакомство в вашей руке, [ROOT.Char.Custom('ScorpionStorySheHe')] начинает счастливо клацать своими клешнями и кружится вокруг вас.\n[ROOT.Char.Custom('ScorpionStorySheHe')] ложится вам в руку и начинает счастливо пищать.\n\nС улыбкой на лице, вы чувствуете как можете встретить все трудности, что готовит для вас мир"
