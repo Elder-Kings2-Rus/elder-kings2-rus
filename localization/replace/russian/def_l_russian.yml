@@ -96,6 +96,7 @@
  # Default: [GameMpSetup.GetSelectedBookmark.GetDate.GetString]
  frontend_mp_game_setup_bookmark_date_replace:0 "[GameMpSetup.GetSelectedBookmark.GetDate.GetStringShortNoYear], $ERA_SEL_MPGSBD$ $YEAR_SEL_MPGSBD$"
  
+
  ### Loc replacement
  game_concept_religion_desc:0 "Одна $game_concept_religion$ может делиться на несколько течений, которые называются [Concept( 'faith', 'конфессиями' )|E]. Также существует три [religious_families|El], каждая из которых объединяет несколько религий: [GetReligionFamily('rf_aedra').GetName], [GetReligionFamily('rf_daedra').GetName] или [GetReligionFamily('rf_aurbis').GetName]."
  game_concept_religious_family_desc:0 "$game_concept_religious_family$ — группа [Concept( 'religions', 'религий' )|E]. $game_concept_religious_family$ определяет, как различные [religions|El] и их [faiths|El] относятся друг к другу.\n\nПоклонники [GetReligionFamily('rf_aedra').GetName] склонны к созданию [Concept( 'heresy', 'ереси' )|El].\n\nПоклонники [GetReligionFamily('rf_daedra').GetName] почитают даэдрических принцев. Конфессии, считающие поклонение даэдра [Concept( 'criminal', 'преступлением' )|E], будут считать [GetReligionFamily('rf_daedra').GetName] воплощённым злом. Религии склонны к возникновению [Concept( 'heresy', 'ереси' )|El].\n\nПоклонники #L [GetReligionFamily('rf_aurbis').GetName]а#! поклоняются иным великим силам вселенной. Некоторые религии всё ещё могут почитать некоторых аэдра или даэдра, но они в целом не фокусируются ни на одной из этих двух сил. Религии склонны к возникновению [Concept( 'heresy', 'ереси' )|El]."
