@@ -111,12 +111,19 @@
     corelanya_collective_noun:1 "Кореланьск"
     corelanya_desc:2 "Древний альтмерский клан Хаммерфелла, кореланцы столкнулись с йокуданамцами, когда они впервые прибыли в Хаммерфелл."
     corelanya_opinion:0 "$corelanya_collective_noun$ое мнение"
- maormer:0 "Маормеры" 
+
+# MAORMERI 
+maormer:0 "Маормеры" 
     maormer_prefix:0 "Маормеро"
     maormer_collective_noun:1 "Маормерск"
     maormer_desc:0 "Культура маормеров, расы меров, проживающей на островном королевстве Пиандонея, далеко к югу от островов Саммерсет."
     maormer_opinion:0 "$maormer_collective_noun$ое мнение"
-    
+ beyonder:0 "Amaraldani" 
+    beyonder_prefix:0 "Amaraldani"
+    beyonder_collective_noun:1 "Amaraldani"
+    beyonder_desc:0 "Pyandoneaic ties to the outside world are very limited. Those who leave the archipelago are called Amaraldane or Heralds: mostly pirates, sometimes adventurers, rarely merchants, and practically never diplomats. It is an ancient caste-profession of the Maormer, so old and prominent that it has become a culture in of itself.\n\nOnce a Maormer consigns their fate to that of a Herald, their crimes, their beliefs, their past -- it all becomes irrelevant before the great blue sea. Heralds are heavily romanticized in Maormeri culture and leaving one's life behind in a self-imposed exile is seen as a brave, honorable thing."
+    beyonder_opinion:0 "$beyonder$ Opinion"
+
 #FALMERI
  falmeris_group:0 "[cg_falmeris|L]"
     falmeris_group_collective_noun:1 "[cg_falmeris_cn|L]"
