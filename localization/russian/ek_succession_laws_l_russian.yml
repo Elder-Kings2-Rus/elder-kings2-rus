@@ -46,7 +46,7 @@
  tooltip_feudal_elector_vote_moot_fame:0 "Уважаемый Верховный король: $VALUE|=+0$"
  tooltip_feudal_elector_vote_moot_fame_big:0 "Возвышенный верховный король: $VALUE|=+0$"
  tooltip_feudal_elector_vote_moot_fame_biggest:0 "Легендарный верховный король: $VALUE|=+0$"
- tooltip_special_crown_verity_elector_vote_moot:0 "Был признан достойным Короной Верита: $VALUE|=+0$"
+ tooltip_special_crown_verity_elector_vote_moot:0 "Был признан достойным Короной Истины: $VALUE|=+0$"
 
  get_skyrim_elector_1:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('skyrim_elector_1').GetLandedTitle.GetName]"
  get_skyrim_elector_2:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('skyrim_elector_2').GetLandedTitle.GetName]"
