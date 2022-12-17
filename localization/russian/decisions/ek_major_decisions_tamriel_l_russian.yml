@@ -148,7 +148,7 @@
  integrate_nibenay_decision_desc:0 "Став законным правителем Восточного Нибенея, вы сможете интегрировать в своё королевство больше его земель."
  integrate_nibenay_decision_tooltip:0 "Восточный Нибеней мой!"
  integrate_nibenay_decision_confirm:0 "За Нибеней!"
- integrate_nibenay_decision_ce:0 "Каждое герцогство из списка ниже будет [de_jure|El] интегрироваться в титул [GetTitleByKey('k_nibenay').GetNameNoTier]."
+ integrate_nibenay_decision_ce:0 "Каждое герцогство из списка, отвечающее требованиям, будет [de_jure|El] интегрировано в титул [GetTitleByKey('k_nibenay').GetNameNoTier]."
  
  reintegrate_nibenay_decision:0 "Реинтегрировать Восточный Нибеней"
  reintegrate_nibenay_decision_desc:0 "Земли между восточным берегом реки Нибен и горами Валлус исторически находились во владении Бравила и Лейавина со времен Первой Империи. Пришло время вернуть их в состав империи."

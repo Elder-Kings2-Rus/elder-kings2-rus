@@ -74,10 +74,10 @@
  YEAR_2E_MPGSBD:0 "Subtract_int32( GameMpSetup.GetSelectedBookmark.GetDate.GetYear, Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThanOrEqualTo_int32( GameMpSetup.GetSelectedBookmark.GetDate.GetYear, $ERA_FIRST_END$ ) ), '(int32)1' ), $ERA_FIRST_END$ ) )"
  
  ### DATE_STRING replacements
- GAME_DATE_STRING:0 "$DAY|O$ день $MONTH$, $ERA_SEL_IG$ $YEAR_SEL_IG$"
- GAME_DATE_STRING_SHORT:0 "$DAY|O$ день $MONTH_SHORT$, $ERA_SEL_IG$ $YEAR_SEL_IG$"
- GAME_DATE_STRING_SHORT_NO_YEAR:0 "$DAY|O$ $MONTH$"
- GAME_DATE_STRING_LONG:2 "$DAY|O$ день $MONTH$, $ERA_SEL_IG$ $YEAR_SEL_IG$"
+ #GAME_DATE_STRING:0 "$DAY|O$ день $MONTH$, $ERA_SEL_IG$ $YEAR_SEL_IG$"
+ #GAME_DATE_STRING_SHORT:0 "$DAY|O$ день $MONTH_SHORT$, $ERA_SEL_IG$ $YEAR_SEL_IG$"
+ #GAME_DATE_STRING_SHORT_NO_YEAR:0 "$DAY|O$ $MONTH$"
+ #GAME_DATE_STRING_LONG:2 "$DAY|O$ день $MONTH$, $ERA_SEL_IG$ $YEAR_SEL_IG$"
  
  ### Text replacements in main menu
  FRONTEND_CONTINUE_TT:1 "#T Продолжить сохраненную игру\n#!"[SaveGameItem.GetName]"\n[SaveGameItem.GetPlayerName|V]\n[SaveGameItem.GetTitleName|VU]\n[SaveGameItem.GetDate.GetStringShortNoYear|V], $ERA_SEL_SGI$ $YEAR_SEL_SGI$\n[Select_CString(SaveGameItem.IsCloudSave, 'Cloud Save', '' )]"
@@ -96,6 +96,7 @@
  # Default: [GameMpSetup.GetSelectedBookmark.GetDate.GetString]
  frontend_mp_game_setup_bookmark_date_replace:0 "[GameMpSetup.GetSelectedBookmark.GetDate.GetStringShortNoYear], $ERA_SEL_MPGSBD$ $YEAR_SEL_MPGSBD$"
  
+
  ### Loc replacement
  game_concept_religion_desc:0 "Одна $game_concept_religion$ может делиться на несколько течений, которые называются [Concept( 'faith', 'конфессиями' )|E]. Также существует три [religious_families|El], каждая из которых объединяет несколько религий: [GetReligionFamily('rf_aedra').GetName], [GetReligionFamily('rf_daedra').GetName] или [GetReligionFamily('rf_aurbis').GetName]."
  game_concept_religious_family_desc:0 "$game_concept_religious_family$ — группа [Concept( 'religions', 'религий' )|E]. $game_concept_religious_family$ определяет, как различные [religions|El] и их [faiths|El] относятся друг к другу.\n\nПоклонники [GetReligionFamily('rf_aedra').GetName] склонны к созданию [Concept( 'heresy', 'ереси' )|El].\n\nПоклонники [GetReligionFamily('rf_daedra').GetName] почитают даэдрических принцев. Конфессии, считающие поклонение даэдра [Concept( 'criminal', 'преступлением' )|E], будут считать [GetReligionFamily('rf_daedra').GetName] воплощённым злом. Религии склонны к возникновению [Concept( 'heresy', 'ереси' )|El].\n\nПоклонники #L [GetReligionFamily('rf_aurbis').GetName]а#! поклоняются иным великим силам вселенной. Некоторые религии всё ещё могут почитать некоторых аэдра или даэдра, но они в целом не фокусируются ни на одной из этих двух сил. Религии склонны к возникновению [Concept( 'heresy', 'ереси' )|El]."

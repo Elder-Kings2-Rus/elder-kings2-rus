@@ -50,6 +50,9 @@
  title_warden:0 "Надзиратель"
  title_warden_female:0 "Надзирательница"
  
+ title_custodian_general:0 "Легат"
+ title_custodian_female_general:0 "Легат"
+
  arch_primate:1 "Архипримас"
  arch_prelate:1 "Архипрелат"
  
@@ -126,11 +129,7 @@
  
  imperial_city_captain_male:0 "Капитан"
  imperial_city_captain_female:0 "Капитан"
- 
- imperial_city_protector_male:0 "Лорд-протектор"
- imperial_city_protector_female:0 "Леди-протектор"
- imperial_city_protectorate:0 "Протекторат"
- 
+  
  vampire_lord_male:0 "Лорд"
  vampire_lord_female:0 "Леди"
  vampire_lordship:0 "Клан"
@@ -144,6 +143,10 @@
  committee_republic_male:0 "Председатель"
  committee_republic_female:0 "Председательница"
  committee_republic:0 "Комитет развития"
+
+ imperial_city_protector_male:0 "[CHARACTER.Custom('Протектор')]"
+ imperial_city_protector_female:0 "[CHARACTER.Custom('Протектор')]"
+ imperial_city_protectorate:0 "[CHARACTER.Custom('Протекторат')]"
 
  imperial_battlemage_female:0 "[CHARACTER.Custom('Battlemage')]"
  imperial_battlemage_male:0 "[CHARACTER.Custom('Battlemage')]"
@@ -657,6 +660,10 @@ count_republic_male_nordic_group:0 "Старейшина"
 count_republic_female_nordic_group:0 "Старейшина"
 county_republic_nordic_group:0 "Стоянка"
 
+duchy_republic_male_nordic_group:0 "Землевладелец"
+duchy_republic_female_nordic_group:0 "Землевладелец"
+duchy_republic_nordic_group:0 "Владение"
+
 barony_republic_male_nordic_group:0 "[CHARACTER.Custom('NordicMayor')]"
 barony_republic_female_nordic_group:0 "[CHARACTER.Custom('NordicMayor')]"
 
@@ -816,6 +823,9 @@ county_feudal_bosmeris_group:0 "Стража"
 duke_feudal_male_bosmeris_group:0 "Древесный тан"
 duke_feudal_female_bosmeris_group:0 "Древесный тан"
 duchy_feudal_bosmeris_group:0 "Древесное танство"
+duke_feudal_male_bosmeris_etarani:0 "Лесной лорд"
+duke_feudal_female_bosmeris_etarani:0 "Лесная леди"
+duchy_feudal_bosmeris_etarani:0 "Княжество"
 emperor_feudal_male_bosmeris_group:0 "Король-олень"
 emperor_feudal_female_bosmeris_group:0 "Королева-олень"
 

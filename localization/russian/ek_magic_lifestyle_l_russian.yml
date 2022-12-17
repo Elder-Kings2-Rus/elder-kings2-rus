@@ -69,6 +69,13 @@
  restoration_expert_perk_name:0 "Эксперт восстановления"
  restoration_master_perk_name:0 "Мастер восстановления"
 
+ necromancy_name:0 "Некромантия"
+ necromancy_novice_perk_name:0 "Новичок некромантии"
+ necromancy_apprentice_perk_name:0 "Ученик некромантии"
+ necromancy_journeyman_perk_name:0 "Адепт некромантии"
+ necromancy_expert_perk_name:0 "Эксперт некромантии"
+ necromancy_master_perk_name:0 "Мастер некромантии"
+
 #  conjuration_novice_perk_effect:0 "Unlocks novice level conjuration spells:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('conjuration') ).AddScope('tier', MakeScopeValue('(CFixedPoint)1') ).End)]" #.AddScope('tier', MakeScopeValue('(CFixedPoint)1') )
 
  conjuration_novice_perk_ritual_effect:0 "Разблокирует [Concept('rituals','ритуал')|E] колдовство"

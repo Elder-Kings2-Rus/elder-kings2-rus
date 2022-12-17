@@ -17,6 +17,14 @@ ek_feast.0003.a.tt:0 "Вы тайно станете поклонником Са
 ek_feast.0003.b:0 "Я никогда не буду служить вам!"
 ek_feast.0003.b.tt:0 "Вы вызовете гнев Сангвина!"
 
+ek_feast.0004.t:0 "Feast of the Dead"
+ek_feast.0004.desc:0 "The Nords have always been proud of the achievements of their ancestors and Ysgramor takes the highest place among the most revered. The people of Windhelm traditionally celebrate the Feast of the Dead in the city's seat of power, the Palace of Kings, but it is a holiday celebrated throughout Skyrim.\n\nThe feast is meant to celebrate Ysgramor's historical attack on Saarthal, the gathering of the Five Hundred Companions, and the elven defeat in Skyrim. During said feast, each of the names of Five Hundred Companions of Ysgramor are recited, along with cheers and toasts in their memories."
+ek_feast.0004.a:0 "All hail the Five Hundred Companions!"
+ek_feast.0004.b:0 "Such a respectful tradition!"
+ek_feast.0004.c:0 "I refuse to participate in such nonsense!"
+
+refused_feast_of_the_dead_opinion:0 "Refused to participate on the Feast of the Dead"
+
 #xxxxx:0 "xxxxx"
 #“”
 #[ROOT.GetCharacter.GetFirstNameNoTooltip]

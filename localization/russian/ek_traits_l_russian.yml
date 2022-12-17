@@ -24,7 +24,7 @@
  
  trait_pirate:0 "Пират"
  trait_pirate_desc:0 "Этот персонаж - Пират. Арррр дружище!"
- trait_pirate_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] Этот персонаж - пират. Арррр дружище!"
+ trait_pirate_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - пират. Арррр дружище!"
 
  trait_plunderer:0 "Разбойник"
  trait_plunderer_desc:0 "Истинная сила достигается только путем захвата того, что принадлежит вам по праву. А весь мир и его богатства принадлежат вам по праву."
@@ -36,6 +36,8 @@ trait_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [S
 trait_reclusive_vampire:0 "Затворник"
 trait_reclusive_vampire_desc:0 "Этот персонаж часто замыкается в себе и пренебрегает своими обязанностями."
 trait_reclusive_vampire_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] часто замыкается в себе и пренебрегает своими обязанностями." 
+reclusive_vampire_player_desc:0 "Тайный Вампир"
+trait_vampire_player_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] тайно является вампиром, нежитью, проклятой пить кровь живых и избегать солнечного света."
 
 trait_vampire_character:0 "Вампир"
 trait_vampire_character_desc:0 "Этот персонаж - вампир, неживое существо, проклятое пить кровь живых и избегать солнечного света."
@@ -55,8 +57,8 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  
  trait_undead:0 "Нежить"
  trait_undead_character:0 "Нежить"
- trait_undead_character_desc:0 "Этот персонаж - ЖУТКАЯ Нежить!!!"
- trait_undead_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - ЖУТКАЯ Нежить!!!"
+ trait_undead_character_desc:0 "Этот персонаж пережил смерть и теперь бродит по Нирну в образе жуткой нежити."
+ trait_undead_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - каким-то образом пережив смерть, бродит по Нирну как жуткая нежить."
   
  trait_hagraven:0 "Ворожея"
 

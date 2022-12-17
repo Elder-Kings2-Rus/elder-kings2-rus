@@ -23,3 +23,14 @@
  ek_pilgrimage.0002.desc:0 "Направляясь к месту назначения паломничества и замечаю на горизонте яркое мерцание, словно оно зовет меня издалека.\n\nПриближаясь к месту, я сразу же узнаю объект, который излучал такой яркий свет. Это был щит, который Пелинал Вайтстрейк нес в бой, сделанный самим Джулианосом. О, какой радостный день! Я падаю на колени и начинаю горячо молиться моему богу-покровителю. Прикосновение к нему открывает надпись на камне за щитом:\n\n#F "Знай правду. Соблюдайте закон. Когда сомневаешься, ищи мудрости у мудрых. Джулианос благословляет вас своей мудростью и своим руководством. Доверяйте своим знаниям, потому что в них вся ваша сущность." #!"
  ek_pilgrimage.0002.a:0 "Благослоен Джулианос!"
  ek_pilgrimage.0002.b:0 "Я недостоин, о мой Бог."
+
+ ek_pilgrimage.0003.t:0 "The Bloodstone Shrine"
+ ek_pilgrimage.0003.desc:0 "A pilgrimage can be a difficult ordeal, but some pilgrims take a more extreme approach. I've noticed a trail of blood coming from the feet of some pilgrims and I've wondered about that until I stopped one of them to ask them if they needed a physician.\n\nWith a sigh and a pained voice, [hetman.GetSheHe] answered me that was a proof of devotion to the Tribunal. They were using special footwear that pierced and cut their feet, to make them feel the pain of the martyrs. That practice created a bloodstone, which would be offered in a shrine on the way to [destination_title.GetNameNoTierNoTooltip]."
+ ek_pilgrimage.0003.a:0 "For Saint Veloth! I shall undertake this ordeal!"
+ ek_pilgrimage.0003.a.tt:0 "You ask for one of the pilgrimage shoes and start following the trail of dried blood."
+ ek_pilgrimage.0003.b:0 "Those people are insane!"
+
+ ek_pilgrimage.0004.desc:0 "After a torturous walk along with other pilgrims, we finally reached the Bloodstone Shrine. When I approached it, I felt a stone drop off my shoe. It was dark red in color and weirdly shaped.\n\nI saw other pilgrims encountering such stones as well. One of them told me we were blessed by Saint Veloth and that our pilgrimage was successful. Some of them started talking about how the pain that the martyrs felt should always be remembered if you truly want to honor the Three."
+ ek_pilgrimage.0004.a:0 "My feet are killing me!"
+ ek_pilgrimage.0004.b:0 "Praise Saint Veloth! Praise the Martyrs!"
+ ek_pilgrimage.0004.c:0 "This is true faith!"
