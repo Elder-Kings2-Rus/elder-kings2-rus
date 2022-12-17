@@ -13,8 +13,6 @@
  TOGGLE_NATURAL_LIGHTING:0 "Естественное освещение"
  RULER_DESIGNER_ENVIRONMENT:0 "[Select_CString( GetVariableSystem.HasValue( 'ek_natural_lighting', 'true' ), 'environment_cw_west', 'ek_ruler_designer_environment' )]"
 
- RULER_DESIGNER_TOGGLE_SHOW_ACCESSORIES_LABEL:0 "Показать волосы и одежду"
-
  MISSING_FURSTOCK_TOOLTIP:0 "@warning_icon!#X Необходимо выбрать вид меха#!"
 
  MISSING_BIRTHSIGN_TOOLTIP:0 "@warning_icon!#X Необходимо выбрать знак рождения#!"
