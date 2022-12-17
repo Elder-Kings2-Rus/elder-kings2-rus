@@ -62,6 +62,11 @@
  action_low_prestige_level_click:0 ""
  ### Feudalism
  no_powerful_vassal_with_negative_opinion_ca:0 "Один или несколько [Concept('powerful_vassals', 'могущественных вассалов')|E] имеют отрицательное о вас и блокируют возможность изменения [Concept('crown_authority', 'авторитета короны')|E]"
+ FEUDAL_COUNCIL_CHOICES_GUI:0 "Under [feudalism|E], the [crown_authority|E] decides who can join the Council.\n#V Current level#!: [GetPlayer.Custom('GetFeudalismCouncillors')]"
+ feudalism_ca_0_vassals_council:0 "Only [powerful_vassals|E] can be [councillors|E]. Should there not be enough, regular Vassals and eventually Courtiers can be appointed."
+ feudalism_ca_1_vassals_council:0 "Any [vassal|E] can be [councillor|E]. Should there not be enough, Courtiers can be appointed."
+ feudalism_ca_2_vassals_council:0 "[vassals|E] and [courtiers|E] can be [councillors|E]."
+ feudalism_ca_3_vassals_council:0 "[vassals|E] and [courtiers|E] can be [councillors|E]."
  ### Autocracy
  autocracy_government:0 "Автократия"
     autocracy_government_adjective:0 "Автократическ"
@@ -81,7 +86,9 @@
  high_enough_ratio_vassal_max_military_strength_max_military_strength:0 "Общая военная мощь ваших вассалов не должна превышать #V $VALUE|0$%#! от вашей\n#weak Текущий показатель: [Character.MakeScope.ScriptValue('ratio_vassal_max_military_strength_max_military_strength')|1]%#!#!"
  vassal_revocation_tyranny_effect_low_ca_tyranny:0 "#N Ваша [Concept('tyranny', 'тирания')|E] возрастает из-за низкого [Concept('crown_authority', 'авторитета короны')|E]. Повысьте его до уровня #V [GetPlayer.Custom('GetCrownAuthority0')]#!, чтобы избежать дальнейшего роста тирании.#!"
  revocation_tyranny_effect_low_ca_tyranny:0 "#N Ваша [Concept('tyranny', 'тирания')|E] возрастает из-за низкого [Concept('crown_authority', 'авторитета короны')|E]. Повысьте его до уровня #V [GetPlayer.Custom('GetCrownAuthority0')]#!, чтобы избежать дальнейшего роста тирании.#!"
- ### Magocracy
+ VASSAL_POWER_SHARE:0 "Vassal Power Share:\n#V [Character.MakeScope.ScriptValue('ratio_vassal_max_military_strength_max_military_strength')|1]%#!"
+ VASSAL_POWER_SHARE_TT:0 "The [crown_authority|E] of an Autocracy is limited by the difference between the military strength of the ruler and the combined military power of their vassals.\n\nYour total military strength: #V [Character.MakeScope.ScriptValue('ruler_max_military_strength')|0]#!\nCombined military strength of your vassals: #V [Character.MakeScope.ScriptValue('vassal_max_military_strength')|0]#!\n\nOnly vassals who fulfill the following conditions are taken into account:\n$EFFECT_LIST_BULLET$Not your [friend|E]\n$EFFECT_LIST_BULLET$Not your [ally|E]\n$EFFECT_LIST_BULLET$Does not have a [truce|E] with you\n$EFFECT_LIST_BULLET$Is not the target of a [strong_hook|E] from you\n$EFFECT_LIST_BULLET$Is not [imprisoned|E]" 
+### Magocracy
  magocracy_government:0 "Магократия"
     magocracy_government_adjective:0 "Магократическ"
     magocracy_government_realm:0 "Магократическое государство"
@@ -144,6 +151,8 @@
     hierocracy_government_desc:0 "- [rulers|E] могут [Concept('holdings', 'владеть')|E] [Concept('temple', 'храмами')|E] и [Concept('castle', 'замками')|E]\n- [Concept('vassals', 'Вассальные')|E] [Concept('obligations', 'обязательства')|E] связаны с [Concept('piety_level', 'уровнем благочестия')|E] [Concept('liege', 'сюзерена')|E]\n#weak Обязательства вассалов, исповедующих иную [Concept('faith', 'религию')|E], будут уменьшены в зависимости от [Concept('faith_hostility', 'враждебности')|E] между религиями вассала и сюзерена#!\n- Рост [Concept('control', 'контроля')|E] в провинциях связан с [Concept('piety_level', 'набожностью')|E] владельца\n- [crown_authority|E] усиливает эффекты некоторых религиозных [Concept('doctrines', 'доктрин')|E] и увеличивает [fervor_equilibrium|E] веры\n\n#F Особая форма правления, при которой власть принадлежит [Concept('faiths', 'религиозным')|E] [Concept('heads_of_faith', 'лидерам')|E], религии которых свойственна [Concept('doctrine', 'доктрина')|E] [GetFaithDoctrine('doctrine_mystical_birthright_head').GetBaseName]. По мере роста влияния и могущества иерократа усиливается и его контроль над верой, через которую он также контролирует своих подданных.#!"
     high_enough_ratio_nb_provinces_same_faith_held_provinces_same_faith:0 "Вы контролируете по крайней мере #V $VALUE|0$%#! провинций, исповедующих вашу [Concept('faith', 'религию')|E]\n#weak Текущее значение: #V [Character.MakeScope.ScriptValue('ratio_nb_provinces_same_faith_held_provinces_same_faith')|1]%#!#!"
     high_enough_ratio_nb_provinces_same_faith_held_provinces_same_faith_not:0 "Вы контролируете #V $VALUE|0$%#! провинций, исповедующих вашу [Concept('faith', 'религию')\n#weak Текущее значение: #V [Character.MakeScope.ScriptValue('ratio_nb_provinces_same_faith_held_provinces_same_faith')|1]%#!#!"
+ FAITH_LAND_SHARE:0 "Faith Land Share:\n#V [Character.MakeScope.ScriptValue('ratio_nb_provinces_same_faith_held_provinces_same_faith')|1]%#!"
+ FAITH_LAND_SHARE_TT:0 "The [crown_authority|E] of a Hierocracy is limited by the number of counties of their [faith|E] that they hold, compared to the number of counties of their Faith.\n\nYour [Character.GetFaith.GetAdjective] Counties: #V [Character.MakeScope.ScriptValue('nb_provinces_same_faith_held_provinces_same_faith')]#!\nTotal [Character.GetFaith.GetAdjective] Counties: #V [Character.MakeScope.ScriptValue('nb_provinces_same_faith')]#!"
 # Landed Order
 landed_order_government:0 "Военный орден"
 landed_order_government_adjective:0 "Орденск"
