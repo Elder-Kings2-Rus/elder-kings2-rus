@@ -456,7 +456,9 @@
  metallic_skin:0 "Металлический цвет кожи"
 
 #Hide skin complexions for argonians, khajiit and lilmothiit
- #complexion:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ), Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') ) ) ), '', 'Skin Complexion' )]"
+ complexion:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ), Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') ) ) ), '', 'Цвет кожи' )]"
+ 
+  #complexion:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ), Or(GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_khajiit_base') ),GetVariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian') ) ) ), '', 'Skin Complexion' )]"
 
  complexion_1_name:0 "Цвет лица 1"
  complexion_1:0 "[Select_CString( Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('complexion_1_name'), '' )]"
