@@ -133,7 +133,7 @@
  STRUGGLE_TT_PHASE_PROGRESS:1 "[StrugglePhase.GetNameNoTooltip|L]: [SelectLocalization( ObjectsEqual(Struggle.GetCurrentLeadingPhase, StrugglePhase.Self), 'STRUGGLE_TT_PHASE_PROGRESS_LEADING', '')] [Struggle.GetPhaseProgressValue( StrugglePhase.Self )|+]/[GetDefine('NStruggle', 'PHASE_TRANSITION_THRESHOLD')]"
  STRUGGLE_NEXT_PHASE_TRANSITION_LABEL:0 "Следующая фаза: [Struggle.GetNextPhase.GetName]"
  STRUGGLE_NEXT_PHASE_TRANSITION_DESC:0 "Борьба перейдет в фазу «[Struggle.GetNextPhase.GetName]» [Struggle.GetTransitionCompeleteDate.GetTimeToDate]"
- STRUGGLE_TT_PHASE_TRANSITION:0 "[StrugglePhase.GetName] #weak (Next Phase)#! [Struggle.GetPhaseProgressValue( StrugglePhase.Self )|+]/[GetDefine('NStruggle', 'PHASE_TRANSITION_THRESHOLD')]"
+ STRUGGLE_TT_PHASE_TRANSITION:0 "[StrugglePhase.GetName] #weak (Следующая фаза)#! [Struggle.GetPhaseProgressValue( StrugglePhase.Self )|+]/[GetDefine('NStruggle', 'PHASE_TRANSITION_THRESHOLD')]"
  STRUGGLE_TT_PHASE_TRANSITION_TIME_TO:0 "[StrugglePhase.GetName] начнется через [Struggle.GetTransitionCompeleteDate.GetTimeToDate]"
 
  STRUGGLE_EFFECT_LABEL_WAR:0 "Война"

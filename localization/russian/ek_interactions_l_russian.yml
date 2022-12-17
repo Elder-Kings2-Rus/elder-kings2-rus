@@ -31,7 +31,7 @@
  duel_for_claim_default_interaction.actor_defeat.tt:0 "Если [actor.GetFirstNameOrMeNoTooltip] проиграет, [actor.GetFirstNameOrMeNoTooltip] потеряет свои претензии на [target.GetName], а также все права на титулы, которыми в настоящее время владеет [recipient.GetFirstNameOrMeNoTooltip]"
  duel_for_claim_default_interaction.actor_victory_game_over.tt:0 "#N Если [recipient.GetFirstNamePossessiveOrMy|U] победит, это приведет к завершению игры#!"
  duel_for_claim_default_interaction.actor_default_victory.tt:0 "[actor.GetFirstNameOrMeNoTooltip|U] сохранит свои претензии на [target.GetName]"
- culture_parameter_unlock_duel_for_title:0 "Разблокирует #V $duel_for_claim_default_interaction$#!, позволяет персонажам начинать [single_combat_duel|E], чтобы получить [claim|E]"
+ culture_parameter_unlock_duel_for_title:0 "Разблокирует взаимодействие #V $duel_for_claim_default_interaction$#!, которое позволяет персонажам начинать [single_combat_duel|El] для получения [Concept( 'claim', 'претензий' )|E]"
  
  duel_for_claim_strong_interaction:0 "Дуэль насмерть за титул"
  duel_for_claim_strong_interaction.lethal.tt:0 "[single_combat_fight|E] насмерть начнется немедленно"
@@ -47,7 +47,7 @@
  DUEL_FOR_CLAIM_LAST_TITLE:0 "[recipient.GetShortUINameNoTooltip] станет безземельным, если [recipient.GetSheHe] откажется: #P +$VALUE|0$#!"
  
  prowess_claim_interaction:0 "Претендовать на землю через Доблесть"
- prowess_claim_interaction_desc:0 "[claim|E] на [title|E] которым владает [recipient.GetShortUINameNoTooltip], используя то, что ваши [prowess|E] и [prestige|E] выше."
+ prowess_claim_interaction_desc:0 "[claim|E] на [title|E] которым владеет [recipient.GetShortUINameNoTooltip], используя то, что ваши [prowess|E] и [prestige|E] выше."
  
  no_obligations:0 "Без обязательств"
  no_obligations_tt:0 "[feudal_contract|E] начнется с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_none' )]"
@@ -75,7 +75,7 @@
  consume_interaction_desc:0 "Укусите персонажа [recipient.GetShortUINameNoTooltip] в попытке усилить [tsaescence|E]"
 
  skull_corruption_interaction:0 "Использовать Череп порчи"
- skull_corruption_desc:0 "Используйте Череп порчи на перснажа [recipient.GetShortUINameNoTooltip] чтобы заставить [recipient.GetHerHim] сражаться с дубликатом!"
+ skull_corruption_desc:0 "Используйте Череп порчи на персонажа [recipient.GetShortUINameNoTooltip] чтобы заставить [recipient.GetHerHim] сражаться с дубликатом!"
 
  skull_corrupted_message:0 "Череп порчи"
  skull_corrupted_effect:0 "Дубликат, которого отправил [actor.GetFirstNameNoTooltip], атакует персонажа [recipient.GetShortUINameNoTooltip]!"

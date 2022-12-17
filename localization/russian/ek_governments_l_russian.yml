@@ -39,7 +39,7 @@
     cultural_rights_none:0 "Культурные притеснения"
     cultural_rights_none_short:0 "Притеснения"
     cultural_rights_protected:0 "Защита культурных прав"
-    cultural_rights_protected_desc:2 "#emphasis #bold Привилегии [Concept('vassal', 'вассала')|E]:#!#!\n [liege|E] не может [Concept('promote_culture', 'распространять культуру')|E] в землях своих [Concept('vassals', 'вассалов')|E], если его [Concept('culture', 'культура')|E] культура различается от культуры вассала\n\n#flavor [vassal|E] получает особый защищенный статус, тем самым государство признает его право практиковать собственную [Concept('culture', 'культуру')|E]. Особое земельное законодательство и привилегированный статус культуры ускоряют ее распространение на землях вассала.#!"
+    cultural_rights_protected_desc:2 "#emphasis #bold Привилегии [Concept('vassal', 'вассала')|E]:#!#!\n [liege|E] не может [Concept('promote_culture', 'распространять культуру')|E] в землях своих [Concept('vassals', 'вассалов')|E], если его [Concept('culture', 'культура')|E] культура различается от культуры вассала\n\n#flavor [vassal|E] получает особый защищенный статус, тем самым государство признает его право практиковать собственную [Concept('culture', 'культуру')|E]. Особое земельное законодательство и привилегированный статус позволяют культуре вассала легко распространяться на землях вассала.#!"
     cultural_rights_protected_short:0 "Обеспечены"
   minor_tributes_rights:0 "Малая дань"
     minor_tributes_rights_default:0 "Малой дани нет"
