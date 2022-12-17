@@ -1313,9 +1313,9 @@ window = {
 									datamodel = "[CharacterWindow.GetTimedModifiers]"
 									addcolumn = 24
 									addrow = 22
-									#datamodel_wrap = 2
-									#maxhorizontalslots = 19
-									#maxverticalslots = 1
+									datamodel_wrap = 18
+									maxhorizontalslots = 18
+									maxverticalslots = 3
 									flipdirection = yes
 
 									item = {
