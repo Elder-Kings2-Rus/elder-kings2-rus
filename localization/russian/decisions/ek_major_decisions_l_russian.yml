@@ -38,8 +38,8 @@
  proclaim_tamriel_empire_decision_desc:0 "Слишком долго враждующие народы Тамриэля оставались разобщенными. Когда все провинции будут подчинены одному правителю, может быть провозглашена новая империя, более великая, чем какие-либо прежде." #PLACEHOLDER
  proclaim_tamriel_empire_decision_effect_tooltip:0 "Империя Тамриэль будет провозглашена.\nИ #bold Третья Эра начнётся#!."
 
- restore_alma_rula_in_necrom_decision:0 "Return Necrom to the Temple"
- restore_alma_rula_in_necrom_decision_desc:0 "The Temple City of Necrom and its surrounding lands traditionally belong to the Tribunal Temple, as faithful ALMSIVI we should return what we hold to the Temple."
- restore_alma_rula_in_necrom_decision_confirm:0 "Return the land to the Alma-Rula."
- restore_alma_rula_in_necrom_decision_tooltip:0 "The land will be returned to the Tribunal Temple."
- necrom_held_by_you_or_vassal_tt:0 "You or your vassal hold lands in Necrom"
+ restore_alma_rula_in_necrom_decision:0 "Вернуть Некром Храму"
+ restore_alma_rula_in_necrom_decision_desc:0 "Храмовый город Некром и прилегающие к нему земли традиционно принадлежат Храму Трибунала. Мы верно и исправно поклоняемся АЛЬМСИВИ, так что мы должны вернуть Храму то, что принадлежит ему по праву."
+ restore_alma_rula_in_necrom_decision_confirm:0 "Вернуть землю Альма Рула."
+ restore_alma_rula_in_necrom_decision_tooltip:0 "Земля будет возвращена Храму Трибунала."
+ necrom_held_by_you_or_vassal_tt:0 "Вы или ваш вассал владеете землями в Некроме"
