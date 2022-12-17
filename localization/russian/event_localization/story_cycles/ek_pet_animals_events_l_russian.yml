@@ -4,7 +4,7 @@
  ##############
  parrot_story_modifier:0 "Питомец попугай"
  parrot_story_modifier_desc:0 "Этот персонаж наслаждается обществом экзотической птицы, которая летает вокруг них, куда бы они ни пошли"
- parrot_story_eating_fruit_modifier:0 "Свежие фрукты и попугай"
+ parrot_story_eating_fruit_modifier:0 "Поедание свежих фруктов с попугаем"
  parrot_story_eating_fruit_modifier_desc:0 "Этот персонаж с удовольствием делится свежими фруктами со своим попугаем"
  parrot_story_fighting_with_you_modifier:0 "Боевой попугай"
  parrot_story_fighting_with_you_modifier_desc:0 "В бою этого персонажа всегда можно увидеть со своим попугаем неподалеку от себя, отвлекающим врагов и даже иногда нападающим на их."
@@ -28,6 +28,7 @@
  parrot_name_orsone:0 "Орсон"
  parrot_name_coco:0 "Коко"
  parrot_name_abby:0 "Эбби"
+ parrot_name_flint:0 "Флинт"
  
  ek_pet_animal.0001.t:0 "Попугай"
  ek_pet_animal.0001.desc:1 "Пока попугай летает по комнате, радостно напевая, я размышляю, как его назвать [ROOT.Char.Custom('ParrotStoryHerHim')]. Что нибудь историческое? Что-то опирающиеся на [ROOT.Char.Custom('ParrotStoryHerHis')] [ROOT.Char.Custom('ParrotPlumageColor')] цвет? Что-то, чтобы описать успокаивающее чувство, которое я испытываю, когда [ROOT.Char.Custom('ParrotStorySheHe')] поет рядом со мной?\n\nО, я знаю! я назову его [ROOT.Char.Custom('ParrotStoryHerHim')]..."
@@ -36,13 +37,13 @@
  ### Random parrot events
  # You eat some fruits with your parrots, smol health modifier
  ek_pet_animal.0101.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: Свежие фрукты"
- ek_pet_animal.0101.desc:0 "Я взял за привычку иногда проводить время с [ROOT.Char.Custom('ParrotStoryName')] в конце дня, давая свежие фрукты [ROOT.Char.Custom('ParrotStoryHerHim')].\n\nНе знаю, связано ли это с фруктами или с [ROOT.Char.Custom('ParrotStoryName')], но я чувствую себя более энергичным и здоровым!"
- ek_pet_animal.0101.a:0 "Leave some for me [ROOT.Char.Custom('ParrotStoryName')]!"
+ ek_pet_animal.0101.desc:0 "Я взял за привычку иногда проводить время с [ROOT.Char.Custom('ParrotStoryName')] в конце дня, давая свежие фрукты [ROOT.Char.Custom('ParrotStoryHerHim')].\n\nНе знаю, связано ли это с фруктами или со временем, проведенным с [ROOT.Char.Custom('ParrotStoryName')], но я чувствую себя более энергичным и здоровым!"
+ ek_pet_animal.0101.a:0 "Оставь немного для меня, [ROOT.Char.Custom('ParrotStoryName')]!"
  
  # Your parrot goes with you into battle!
  ek_pet_animal.0102.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: Клюв и когти"
- ek_pet_animal.0102.desc:0 "Кажется, что храбрость [ROOT.Char.Custom('ParrotStoryName')] не знает границ! Будь то крупномасштабные сражения, небольшие стычки или даже одиночные поединки, [ROOT.Char.Custom('ParrotStorySheHe')] никогда не покидает вас и сражается вместе с вами.\n\nВаши противники, кажется, даже боятся [ROOT.Char.Custom('ParrotStoryHerHim')], и не один враг был побежден потому что [ROOT.Char.Custom('ParrotStoryName')] отвлек их про помощи [ROOT.Char.Custom('ParrotStoryHerHis')] [ROOT.Char.Custom('ParrotPlumageColor')] окраса, или даже потому что [ROOT.Char.Custom('ParrotStorySheHe')] клевал их!"
- ek_pet_animal.0102.a:0 "With me, into battle!"
+ ek_pet_animal.0102.desc:0 "Кажется, что храбрость [ROOT.Char.Custom('ParrotStoryName')] не знает границ! Будь то крупномасштабные сражения, небольшие стычки или даже одиночные поединки, [ROOT.Char.Custom('ParrotStorySheHe')] никогда не покидает вас и сражается вместе с вами.\n\nВаши противники, кажется, даже боятся [ROOT.Char.Custom('ParrotStoryHerHim')], и не один враг был побежден, потому что [ROOT.Char.Custom('ParrotStoryName')] отвлек их про помощи [ROOT.Char.Custom('ParrotStoryHerHis')] [ROOT.Char.Custom('ParrotPlumageColor')] окраса, или даже потому что [ROOT.Char.Custom('ParrotStorySheHe')] клевал их!"
+ ek_pet_animal.0102.a:0 "Со мной в бой!"
  
  # Your parrot attacked a vassal! Wound or possibly an eye removal
  ek_pet_animal.0103.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: Пристальный взгляд"
@@ -64,7 +65,7 @@
  
  # You pet your parrot :)
  ek_pet_animal.0501.t:0 "Приятное времяпрепровождение с [ROOT.Char.Custom('ParrotStoryName')]"
- ek_pet_animal.0501.desc:0 "Как только вы входите в комнату, вы видите как [ROOT.Char.Custom('ParrotStoryName')] взволнованно щебечет.\nС улыбкой на лице вы открываете [ROOT.Char.Custom('ParrotStoryHerHis')] клетку и даете [ROOT.Char.Custom('ParrotStoryHerHim')] раскрыть свои крылья, прежде чем взлететь.\n[ROOT.Char.Custom('ParrotStoryName')] облетает всю комнату в считанные секунды, прежде чем сесть вам на плечи и положить [ROOT.Char.Custom('ParrotStoryHerHis')] голову на вашу шею.\n\nВы смеясь, ощущаете как вся тяжесть и сходит с ваших плеч, и вам становится легче..."
+ ek_pet_animal.0501.desc:0 "Как только вы входите в комнату, вы видите как [ROOT.Char.Custom('ParrotStoryName')] взволнованно щебечет.\n\nС улыбкой на лице вы открываете [ROOT.Char.Custom('ParrotStoryHerHis')] клетку и даете [ROOT.Char.Custom('ParrotStoryHerHim')] раскрыть свои крылья, прежде чем взлететь.\n[ROOT.Char.Custom('ParrotStoryName')] облетает всю комнату в считанные секунды, прежде чем сесть вам на плечи и положить [ROOT.Char.Custom('ParrotStoryHerHis')] голову на вашу шею.\n\nВы смеясь, ощущаете как вся тяжесть и сходит с ваших плеч, и вам становится легче..."
  ek_pet_animal.0501.a:0 "Мне щекотно!"
  
  ek_pet_animal.0502.desc:0 "С любимым лакомством вашего [ROOT.Char.Custom('ParrotStoryName')] вы входите в небольшой сад, где [ROOT.Char.Custom('ParrotStoryName')] обычно проводит большую часть своего времени.\nКак только [ROOT.Char.Custom('ParrotStorySheHe')] заметит вас, или фрукты в вашей руке, [ROOT.Char.Custom('ParrotStorySheHe')] начинает радостно петь и летать вокруг вас.\nВскоре после этого [ROOT.Char.Custom('ParrotStorySheHe')] садится на ваше плечо и клюет лакомства с ваших рук.\n\nВы смеясь, чувствуете как вам становится легче и вы готовы встретить лицом все что готовит для вас этот мир"
@@ -73,10 +74,10 @@
  ##############
  #   SCORPION   #
  ##############
- scorpion_story_modifier:0 "Поиграть с скорпионом"
+ scorpion_story_modifier:0 "Питомец скорпион"
  scorpion_story_modifier_desc:0 "Этот персонаж рад компании хищного арахнида, который всегда следует за ним."
- scorpion_story_observing_modifier:0 "Интриги и скорпион"
- scorpion_story_observing_modifier_desc:0 "Этот персонаж с удовольствием наблюдает за своим скорпионом."
+ scorpion_story_observing_modifier:0 "Паучье чутье"
+ scorpion_story_observing_modifier_desc:0 "Этот персонаж развил в себе чувство осторожности и скрытности, наблюдая за своим домашним скорпионом."
  scorpion_story_fighting_with_you_modifier:0 "Боевой скорпион"
  scorpion_story_fighting_with_you_modifier_desc:0 "В бою этого персонажа всегда можно увидеть со скорпионом недалеко от себя, отвлекающим врагов и даже иногда ранящим их."
  
@@ -91,11 +92,19 @@
  scorpion_gender_male:0 "самец"
  
  color_coffee:0 "кофейный"
- 
+ color_red:0 "красный"
+ color_cerulean:0 "лазурный"
+ color_brown:0 "коричневый"
+
  scorpion_name:1 "[ROOT.Char.GetLocalizedText( 'story_cycle_scorpion_name' )]"
  scorpion_name_possessive:1 "[ROOT.Char.Custom( 'ScorpionStoryName' )]'s"
  scorpion_name_kaveh:0 "Кавэх"
- 
+ scorpion_name_stinger:0 "Жало"
+ scorpion_name_clamper:0 "Зажим"
+ scorpion_name_kopyo:0 "Копьё"
+
+ murder_outcome.5002.option_pet_scorpion:0 "Я оставлю его в качестве домашнего питомца, может пригодится!"
+
  ek_pet_animal.1001.t:0 "Скорпион"
  ek_pet_animal.1001.desc:1 "Пока скорпион носится по комнате, радостно клацая [ROOT.Char.Custom('ScorpionStoryHerHim')] клешнями, Я размышляю, как мне назвать [ROOT.Char.Custom('ScorpionStoryHerHim')]. Что-то историческое? Что-то, намекающее на [ROOT.Char.Custom('ScorpionStoryHerHis')] [ROOT.Char.Custom('ScorpionColor')] окрас? Что-то, чтобы описать успокаивающее чувство, которое я испытываю, когда [ROOT.Char.Custom('ScorpionStorySheHe')] крутится вокруг меня?\n\nО, я знаю! Я назову [ROOT.Char.Custom('ScorpionStoryHerHim')]..."
  ek_pet_animal.1001.a:1 "Что за чудесное имя!"
@@ -103,7 +112,7 @@
  ### Random scorpion events
  # You observe your scorpion, smol intrigue modifier
  ek_pet_animal.1101.t:0 "[ROOT.Char.Custom('ScorpionStoryName')]: Скорпионья Интрига"
- ek_pet_animal.1101.desc:0 "Я взял за привычку проводить некоторое время с [ROOT.Char.Custom('ScorpionStoryName')] на исходе дня, наблюдая [ROOT.Char.Custom('ScorpionStoryHerHis')] движениями.\n\nЯ не знаю, связано ли это с моими наблюдениями или потому что [ROOT.Char.Custom('ScorpionStoryName')] настолько завораживающий, но я чувствую что мне удается интриговать людей все лучше и лучше."
+ ek_pet_animal.1101.desc:0 "Я взял за привычку проводить некоторое время с [ROOT.Char.Custom('ScorpionStoryName')] на исходе дня, наблюдая за [ROOT.Char.Custom('ScorpionStoryHerHis')] движениями.\n\nТо, как [ROOT.Char.Custom('ScorpionStoryName')] передвигается, осторожно хватая случайные предметы, заставляет меня задуматься, не следует ли мне быть более осторожным в своем подходе к другим людям"
  ek_pet_animal.1101.a:0 "Интригующе!"
  
  # Your scorpion goes with you into battle!

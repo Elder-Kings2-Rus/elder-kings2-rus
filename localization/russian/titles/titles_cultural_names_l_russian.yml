@@ -76,6 +76,12 @@
  cn_bisnensel:0 "Бисненсель"
  cn_bisnenselaran:0 "Бисненсель Аран Арпена"
 
+# Balfiera
+ cn_ada_mantia:0 "Ада-Мантия"
+ cn_ada_mantia_adj:0 "Ада-Мантийск"
+ cn_direnni_tower:0 "Башня Диренни"
+ cn_direnni_tower_adj:0 "Диреннийск"
+
 ##################
 ### Hammerfell ###
 ##################
@@ -137,12 +143,7 @@
  cn_vtholftenzel_adj:0 "Втолфтензелск"
  cn_hrammafel:0 "Храммафел"
  cn_jephre_path:0 "Путь Джефре"
-
-# Balfiera
- cn_ada_mantia:0 "Ада-Мантия"
- cn_ada_mantia_adj:0 "Ада-Мантийск"
- cn_direnni_tower:0 "Башня Диренни"
- cn_direnni_tower_adj:0 "Диреннийск"
+ cn_mitana_mkai:0 "Митана М'Кай"
 
 
 ##############
@@ -698,6 +699,8 @@
  cn_senchel:0 "Сенчел"
  cn_corinth:0 "Коринф"
  cn_acacia:0 "Акация"
+ cn_rimmenese:0 "Римменис"
+ cn_rimmenese_article:0 " "
 #Ilniviri
  cn_rimyn:0 "Римин"
  cn_zisa_embrace:0 "Объятия Зисы"

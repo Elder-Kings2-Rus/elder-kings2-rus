@@ -26,3 +26,47 @@
  central_tamriel.0005.desc:0 "Слишком долго Рубиновый трон оставался пуст. Слишком долго никто так и не смог приблизится к возрождению Империи. Пока Коловия и Небеней, две части Сиродила, отдалились друг от друг настолько сильно, что стали такими же разделенными, как и во времена до того как их объединил Император [reman_cyrodiil.GetFirstName].\n\nС этого дня, [GetTitleByKey('e_nibenay').GetNameNoTier] и [GetTitleByKey('e_colovian_estates').GetNameNoTier] снова являются отдельными образованиями, а [GetTitleByKey('e_cyrodiil').GetNameNoTier] остался лишь далеким воспоминанием."
  central_tamriel.0005.a:0 "Впереди тёмные времена..."
  central_tamriel.explanation.tt:0 "Так случилось из-за того, что ни [GetTitleByKey('e_cyrodiil').GetNameNoTier], ни [GetTitleByKey('e_cyrodiilic_potentate').GetNameNoTier] не существовали в течение последних 50 лет."
+
+#Nenalata Restoration events (TODO: put somewhere more sensible?)
+#Restoration of Nenalata
+ nenalata_restore.0001.t:0 "The Restoration of Nenalata"
+ nenalata_restore.0001.desc:0 "Nenalata was once home to [laloriaran_dynar.GetTitledFirstName] of House Dynar, known as 'the Last King of the Ayleids'. While the Nenalaten king, father of Laloriaran, took side with the Slave-Queen Alessia during their revolt, shortly afterwards the human-allied Ayleid city states were nonetheless destroyed or abandoned one by one. Finally only Nenalata remained.\n\nFaced with the threat of destruction, the Nenalaten split. Led by their new king, the people who would become known as the Dynari fled, while those who remained were slaughtered - the city left in ruins.\n\nNow, under [nenalata_holder.GetFullName] the ancient city ruins have been unearthed, and new Ayleid settlers have arrived to here prosper and restore the city's rightful place as capital of the kingdom."
+ nenalata_restore.0001.option:0 "Nenalata will rise again!"
+ nenalata_restore.0001.option.flavor:0 "Who knows what these excavations might reveal?"
+ #Faith of Nenalata
+ nenalata_restore.0002.t:0 "The Faith of Nenalata" #(TODO: rewrite this to fit Ten Ancestors faith?)
+ nenalata_restore.0002.desc:0 "The excavation of Nenalata is now well underway, and several of the old city's halls have been cleared of rubble and again taken into use. After clearing out one wing of the underground complex with a particularly large amount of undead shambling about, what seems to be a chapel is discovered.\n\nMy scholars soon inform me that this shows the city was dedicated to the Daedric Prince Meridia! The chapel here is in remarkably good shape, and old scrolls with religious scripture were recovered from its archives. \n\nHaving now begun rebuilding the glory of our old capital city, should we also restore their faith?" 
+ nenalata_restore.0002.option1:0 "We will again embrace the Bright One!"
+ nenalata_restore.0002.option2:0 "I will serve the Lady of Light, but must do so in darkness."
+ nenalata_restore.0002.option3:0 "No, but maybe valuable lore can be found here."
+ nenalata_restore.0002.option4:0 "Nay, and we will seal off the chapel!"
+ #A Visiting Collector
+ nenalata_restore.0003.t:0 "A Visiting Collector"
+ nenalata_restore.0003.desc:0 "Some months ago the restoration of this city's ancient throne room was finished. Today I stand in this throne room, and before me stands an Altmer scholar claiming to carry a great treasure.\n\n"My Lord, when I heard of this restoration project I had to come see it for myself. You see, I am an expert on Ayleid history and a collector of sorts. And I have brought with me something you might desire."\n\nThe artifact has been studied by my scholars, and the collector's claim has been verified - it is indeed the ancient Crown of Nenalata, once borne by the Last King of the Ayleids himself!"
+ nenalata_restore.0003.option1:0 "Yes, I'll purchase it from you."
+ nenalata_restore.0003.option2:0 "As [king_title.GetTitleTierName] of this city, it's mine by right!"
+ nenalata_restore.0003.option3:0 "No matter, I have no use for your trinket."
+ nenalata_restore.0003.option.flavor:0 "Now let's get myself crowned with this!"
+ #The Crown of Nenalata
+ nenalata_restore.0004.t:0 "The Crown of Nenalata"
+ nenalata_restore.0004.desc:0 "While truly a beautiful artifact of immense historical value, it is clear as day that the Crown also holds potent magical effects, promising old and terrible power to its wearer.\n\nLit only by numerous Welkynd stones, my #italic Sel Aran Arpena #!, the Hall of the Noble King deep within the ancient city now truly lives up to its name as the Crown is brought in and readied for the coronation ceremony.\n\nI cannot help but feel a pang of excitement as the proceedings begin - with this I will truly have reclaimed the glory of Nenalata, doing what was denied the great [laloriaran_dynar.GetTitledFirstName].\n\nAs I am thinking this the Crown is placed upon my brow..."
+ nenalata_restore.0004.option:0 "... and my mind goes blank!"
+ nenalata_restore.0004.option.flavor:0 "The metal feels strangely cool..."
+ #The King of Nenalata - possession!
+ nenalata_restore.0005.t:0 "The King of Nenalata"
+ nenalata_restore.0005.desc:0 "Around me everything is white, and I hear a raspy voice speaking in an ancient and long dead dialect of my tongue, known to me only through song:\n\n#italic "Ah, at last... you have done me great service, O cousin."#! \n\nMy heart skips a beat - can it be? Is this who I believe it to be?\n\nAs sight returns to me, I quickly however realise my mistake. Those eyes, the terrible smile, this evil presence I see before me amid the nothingness cannot be the glorious Last King.\n\n#italic "I have awaited this for millennia. My kindred returned to this throne, the Crown upon their brow... and a suitable vessel. Come, child, and play the role cast for you by history."#!\n\nHis hands reach out towards me..."
+ nenalata_restore.0005.option1:0 "#italic ...gulp!#!"
+ nenalata_restore.0005.option1.flavor:0 "He is overpowering my mind..."
+ nenalata_restore.0005.option2:0 "No three thousand year old enchantment can bind #italic me!#!"
+ nenalata_restore.0005.option2.flavor:0 "This option is available because of your [arcana_skill|E]" 
+ #"I'll defeat this usurper!" (TODO: if skill = arcana ever works, use this instead)
+ #The King of Nenalata - defeated
+ nenalata_restore.0006.t:0 "The King of Nenalata"
+ nenalata_restore.0006.desc:0 "As I come to, I find myself still in my throne room. Somehow the world feels... static, lifeless, menacing. The Welkynd stones lighting up the room seem to give off a sickly glow. My court is gathered, just as they were a moment ago, before... before... \n\nMy train of thought is broken by loud shouting:\n\n"All hail the [king_title.GetLadyLord] of Nenalata, [king_title.GetFirstNameNoTooltip] the Restorer!"\n\nIn what should be my moment of glory, I feel only emptiness. Emptiness, yet... I am not alone. In the back of my mind, I #italic feel#! rather than hear a voice. \n\n #italic ...whispering, whispering, whispering...#!" 
+ nenalata_restore.0006.option:0 "..."
+ nenalata_restore.0006.option.flavor:0 "#italic Av Sunna Tam Riel arctavoy an Arpen Aran malaburo!#!"
+ #The King of Nenalata - victorious
+ nenalata_restore.0007.t:0 "The King of Nenalata"
+ nenalata_restore.0007.desc:0 "As I come to, I find myself still in my throne room. Somehow the world feels brighter, a little more intense. Perhaps it only feels that way in contrast to the garishness of the attempt on my sanity. Far off in the back of my mind I hear the muted echoes of a terrible screech, the final death throes of a spirit who clung onto a thin thread of unlife.\n\nRight before the screams fully fade, they are drowned by the roar of a multitude of voices raised in a cheer:\n\n"All hail the [king_title.GetLadyLord] of Nenalata, [king_title.GetFirstNameNoTooltip] the Restorer!"\n\nIn that very moment the fading shadow plaguing me is swept away, replaced instead by a grand feeling of triumph swelling in my chest."
+ nenalata_restore.0007.option:0 "Here I am, here I remain!"
+ nenalata_restore.0007.option.flavor:0 "This is only the beginning."

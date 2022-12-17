@@ -278,7 +278,8 @@
  innovation_dead_culture_desc:0 "Хотя некоторые люди могут утверждать, что все еще следуют древним и традиционным путям, нет значительного сообщества, которое разделяло бы это чувство. Возможно, когда-нибудь удастся возродить эти чувства среди простых людей, но в любом случае наша культура считается вымершей."
  no_county_culture_conversion:0 "#N Эта культура не может [promote_culture|El]#!"
  culture_can_be_revived:0 "Эта культура может быть возрождена правителем, имеющим [heritage|El] и владеющим землей в [Concept( 'nativity_region', 'родном регионе' )|E] этой культуры"
- 
+ task_promote_culture_culture_within_heritage_alive:0 "We cannot use this task as there is no valid [culture|E] within our [heritage|E].\nAll these cultures, including our own, are considered #V Dead#! (see the #V $innovation_dead_culture$#! [innovation|E]) and cannot be used to convert a [county|E].\nThere is currently no way to revive a completely #V Dead#! Heritage."
+
  ## Regional MaA
  innovation_war_mammoths:0 "Боевые мамонты"
  innovation_war_mammoths_desc:0 "Огромных зверей из замерзших земель, на которых мы живем, можно обучить военному делу. Их размеры и выносливость дают им огромное преимущество в бою, особенно на холоде. Однако они менее приспособлены к горной или жаркой местности.."
