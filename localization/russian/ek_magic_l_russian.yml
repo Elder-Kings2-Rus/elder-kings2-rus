@@ -18,6 +18,16 @@
  game_concept_spell_desc:0 "Акт использования собственных запасов магии для создания какого-либо эффекта в физическом мире называется «наложением заклинания». Говорят, что нет двух магов, использующих свои заклинания одинаково."
  game_concept_magic:0 "Магия"
  game_concept_magic_desc:0 "Магия — это общий термин, используемый для фокусировки энергии в различных свойствах и для различных целей. Эта энергия, часто называемая магией, течет из Этериуса в Мундус через солнце и звезды, и из нее был создан Мундус."
+ game_concept_petty:0 "Petty"
+ game_concept_petty_desc:0 "The most basic potency a spell can have"
+ game_concept_lesser:0 "Lesser"
+ game_concept_lesser_desc:0 "A Lesser Spell is twice as powerful as a petty one, but for only 190% of the cost in magicka"
+ game_concept_common:0 "Common"
+ game_concept_common_desc:0 "A Common Spell is thrice as powerful as a petty one, but for only 270% of the cost in magicka"
+ game_concept_greater:0 "Greater"
+ game_concept_greater_desc:0 "A Greater Spell is four times as powerful as a petty one, but for only 340% of the cost in magicka"
+ game_concept_grand:0 "Grand"
+ game_concept_grand_desc:0 "A Grand Spell is five times as powerful as a petty one, but for only 400% of the cost in magicka"
  magic_lifestyle_rank_up_indication:1 "Я могу получить [perk|El] в [Concept( 'magic_lifestyle', 'магическом образе жизни' )|E]"
 
  ARCANA_VALUE_FORMAT:0 "$KEY$: [arcana_i]$VALUE|=+0$"
@@ -96,12 +106,14 @@
  arcana_witch:0 "[GetTrait('witch').GetName(ROOT.Char)]"
  arcana_occultist:0 "[GetTrait('occultist').GetName(ROOT.Char)]"
  arcana_necromancer:0 "[GetTrait('necromancer').GetName(ROOT.Char)]"
+ arcana_lich_character:0 "[GetTrait('lich_character').GetName(ROOT.Char)]"
  #other
  arcana_adventurer:0 "[GetTrait('adventurer').GetName(ROOT.Char)]"
  #patron/birthsign
  arcana_p_ae_magnus:0 "[GetTrait('p_ae_magnus').GetName(ROOT.Char)]"
  arcana_p_dv_julianos:0 "[GetTrait('p_dv_julianos').GetName(ROOT.Char)]"
  arcana_p_ob_hermaeus:0 "[GetTrait('p_ob_hermaeus').GetName(ROOT.Char)]"
+ arcana_p_ae_syrabane:0 "[GetTrait('p_ae_syrabane').GetName(ROOT.Char)]"
  arcana_sign_mage:0 "[GetTrait('sign_mage').GetName(ROOT.Char)]"
  arcana_sign_apprentice:0 "[GetTrait('sign_apprentice').GetName(ROOT.Char)]"
  arcana_sign_atronach:0 "[GetTrait('sign_atronach').GetName(ROOT.Char)]"
@@ -109,6 +121,11 @@
  arcana_magicka_legacy_1:0 "[GetDynastyPerk('magicka_legacy_1').GetName]"
  # Court
  arcana_magicka_arcane_court:0 "$court_magical$"
+ # Class traits
+ arcana_battlemage:0 "[GetTrait('battlemage').GetName(ROOT.Char)]"
+ # Courtier traits
+ arcana_magical_court_1:0 "[GetTrait('magical_court_1').GetName(ROOT.Char)]"
+ arcana_magical_court_2:0 "[GetTrait('magical_court_2').GetName(ROOT.Char)]"
 
  ##  Magicka  ##
  ##  Flat  ##
@@ -198,8 +215,11 @@
  TRAIT_FLAG_DESC_add_arcana_4:0 "[arcana|E]: [arcana_i]#P +4#!"
  TRAIT_FLAG_DESC_add_arcana_5:0 "[arcana|E]: [arcana_i]#P +5#!"
  TRAIT_FLAG_DESC_add_arcana_6:0 "[arcana|E]: [arcana_i]#P +6#!"
+ TRAIT_FLAG_DESC_add_arcana_7:0 "[arcana|E]: [arcana_i]#P +7#!"
  TRAIT_FLAG_DESC_add_arcana_8:0 "[arcana|E]: [arcana_i]#P +8#!"
+ TRAIT_FLAG_DESC_add_arcana_9:0 "[arcana|E]: [arcana_i]#P +9#!"
  TRAIT_FLAG_DESC_add_arcana_10:0 "[arcana|E]: [arcana_i]#P +10#!"
+ TRAIT_FLAG_DESC_add_arcana_11:0 "[arcana|E]: [arcana_i]#P +11#!"
  TRAIT_FLAG_DESC_add_arcana_12:0 "[arcana|E]: [arcana_i]#P +12#!"
  TRAIT_FLAG_DESC_subtract_arcana_1:0 "[arcana|E]: [arcana_i]#N -1#!"
  TRAIT_FLAG_DESC_subtract_arcana_2:0 "[arcana|E]: [arcana_i]#N -2#!"
@@ -423,6 +443,10 @@ absorb_skill_perk_name: "Поглотить навык"
  demoralize_perk_name:0 "$demoralize_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('demoralize_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('demoralize_province'), '(CFixedPoint)1'), '$spell_province_perk$' )]"
  exasperate_name:0 "Беспокойство"
  exasperate_perk_name:0 "$exasperate_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('exasperate_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('exasperate_province'), '(CFixedPoint)1'), '$spell_province_perk$' )]"
+ creeping_shadows_name:0 "Creeping Shadows"
+ creeping_shadows_perk_name:0 "$creeping_shadows_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('creeping_shadows_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('creeping_shadows_province'), '(CFixedPoint)1'), '$spell_province_perk$' )]"
+ charm_name:0 "Charm"
+ charm_perk_name:0 "$charm_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('charm_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('charm_province'), '(CFixedPoint)1'), '$spell_province_perk$' )]"
  hysteria_name:0 "Массовая Истерия"
  hysteria_perk_name:0 "$hysteria_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('hysteria_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('hysteria_province'), '(CFixedPoint)1'), '$spell_province_perk$' )]"
  
@@ -468,9 +492,9 @@ absorb_skill_perk_name: "Поглотить навык"
  modifier_spell_firestorm:0 "Огненный шторм"
  modifier_spell_firestorm_desc:0 "Этот округ разрушен огненным штормом."
  modifier_spell_summon_scamp:0 "Скамп"
- modifier_spell_summon_scamp_desc:0 "Этот маг призвал скампа, и заставил его служить." #PLACEHOLDER
+ modifier_spell_summon_scamp_desc:0 "Этот маг призвал скампа, и заставил его служить.\n\n[arcana|E]: [arcana_i]#P +1#!" #PLACEHOLDER
  modifier_spell_summon_fatronach:0 "Огненный атронах"
- modifier_spell_summon_fatronach_desc:0 "Этот маг призвал огненного атронаха, и использует его в качестве слуги." #PLACEHOLDER
+ modifier_spell_summon_fatronach_desc:0 "Этот маг призвал огненного атронаха, и использует его в качестве слуги.\n\n[arcana|E]: [arcana_i]#P +5#!" #PLACEHOLDER
  
  modifier_ritual_fortify_diplomacy:0 "Повысить дипломатию"
  modifier_ritual_fortify_martial:0 "Повысить военное дело"
@@ -479,7 +503,7 @@ absorb_skill_perk_name: "Поглотить навык"
  modifier_ritual_fortify_learning:0 "Повысить образованность"
  modifier_ritual_fortify_prowess:0 "Повысить доблесть"
  modifier_ritual_fortify_arcana:0 "Повысить аркану"
- modifier_ritual_fortify_arcana_desc:0 "[arcana|E]"
+ modifier_ritual_fortify_arcana_desc:0 "[arcana|E]: [arcana_i]#P +2#!" #the latter part is necessary to make the modifier show what the effect is
  modifier_ritual_shield:0 "Щит"
  modifier_ritual_invisibility:0 "Невидимость"
  modifier_ritual_feather:0 "Перышко"
@@ -502,7 +526,12 @@ absorb_skill_perk_name: "Поглотить навык"
  spell_mend_wound_desc:0 "Лечит раны и устраняет инфекции"
  spell_remedy_illness_desc:0 "Лечит слабую болезнь, не оказывая никакого влияния на сильную болезнь"
  spell_increase_wounds_desc:0 "Использует стихийную магию, чтобы нанести раны удаленной цели\n\n#N Вы не можете использовать это заклинание на персонаже чаще одного раза в год!#!"
- spell_inflicted_wounds_failed:0 "Этот персонаж уже поражен этим заклинанием!"
+ spell_already_afflicted:0 "This character is already afflicted by a hostile spell!"
+ spell_already_afflicted_desc:0 "#N This character is already afflicted by a hostile spell! Casting a new one won't work!#!"
+ spell_already_calmed:0 "This character is already afflicted by a Calm spell!"
+ spell_already_calmed_desc:0 "#N This character is already afflicted by a Calm spell! Casting a new one won't work!#!"
+ spell_no_self_cast:0 "You can't cast this spell on yourself"
+ spell_no_self_cast_desc:0 "#N You can't cast this spell on yourself! Casting it won't work!#!"
 
  
  ####################
