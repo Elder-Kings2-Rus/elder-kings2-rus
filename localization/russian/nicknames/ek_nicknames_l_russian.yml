@@ -157,5 +157,5 @@
  nick_the_sightless:0 "[Select_CString(CHARACTER.IsFemale, 'Незрячая', 'Незрячий' )]"
  nick_the_agent:0 "Агент"
  nick_the_vampire_hunter:0 "[Select_CString(CHARACTER.IsFemale, 'Охотница', 'Охотник' )] на Вампиров"
- nick_doomspeaker:0 "[Select_CString(CHARACTER.IsFemale, 'Предсказательница', 'Предсказатель' )] судьбы"
+ nick_doomsayer:0 "[Select_CString(CHARACTER.IsFemale, 'Предсказательница', 'Предсказатель' )] судьбы"
  nick_the_unminded:0 "[Select_CString(CHARACTER.IsFemale, 'Безмозглая', 'Безмозглый' )]"
