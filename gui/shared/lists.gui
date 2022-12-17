@@ -1608,12 +1608,6 @@ types Lists
 							}
 						}
 
-						text_single = {
-							visible = "[Character.IsPowerfulVassal]"
-							text = "MY_REALM_WINDOW_POWERFUL_VASSAL"
-							layoutpolicy_horizontal = expanding
-							align = nobaseline
-						}
 
 						expand = {}
 
