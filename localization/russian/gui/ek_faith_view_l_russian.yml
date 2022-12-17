@@ -18,7 +18,4 @@
  
  dhs_effect_none:0 "Модификатор священного места под контролем:\nНет особого эффекта"
  dhs_effect_conversion_resistance_50:0 "Модификатор священного места под контролем:\n#P +50%#! сопротивления обращению"
- COURT_CHAPLAIN_CONVERSION_DYNAMIC_HOLY_SITE_IMPERIAL_CITY:0 "Специальное [Concept( 'holy_site', 'священное место' )|E] эффект: Имперский Город"
-
- #TRADITION_CATEGORY_NAME:0 "" # <DELETE THIS KEY>
- tradition_group_core:0 "Основная"
+ COURT_CHAPLAIN_CONVERSION_DYNAMIC_HOLY_SITE_IMPERIAL_CITY:0 "Особый эффект [Concept( 'holy_site', 'священного места' )|E]: Имперский Город"
