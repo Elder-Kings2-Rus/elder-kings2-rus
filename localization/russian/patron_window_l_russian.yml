@@ -6,7 +6,7 @@
  #patron_commune_tt:0 "Commune with [GetPlayer.Custom('GetPatronName')]"
  #patron_commune_tt:0 "Commune with [Localize(Concatenate(Concatenate('patron_', GetVariableSystem.Get('active_patron')), '_name'))]"
  patron_commune_tt:0 "Общаться с [Localize(Concatenate(Concatenate('patron', ValueBreakdown.GetName), '_name'))]" #?
- NO_PATRONS:0 "Эта [Concept('faith', 'конфессия')|E] не имеет ни одного [Concept('patron_deity', 'божества-покровителя')|E].\Конфессии получают покровителей только в том случае, если у них есть [doctrine|El] [GetFaithDoctrine('doctrine_main_pantheon_type_polytheism').GetBaseName], или если у них есть Второстепенный Пантеон.\n\nЭта конфессия, напротив, имеет доктрину [GetFaithDoctrine('doctrine_main_pantheon_type_monolatrism').GetBaseName] или [GetFaithDoctrine('doctrine_main_pantheon_type_daedric_prince').GetBaseName], и её последователи поклоняются Аспекту своего божества."
+ NO_PATRONS:0 "Эта [Concept('faith', 'конфессия')|E] не имеет ни одного [Concept('patron_deity', 'божества-покровителя')|E].\nКонфессии получают покровителей только в том случае, если у них есть [doctrine|El] [GetFaithDoctrine('doctrine_main_pantheon_type_polytheism').GetBaseName], или если у них есть Второстепенный Пантеон.\n\nЭта конфессия, напротив, имеет доктрину [GetFaithDoctrine('doctrine_main_pantheon_type_monolatrism').GetBaseName] или [GetFaithDoctrine('doctrine_main_pantheon_type_daedric_prince').GetBaseName], и её последователи поклоняются Аспекту своего божества."
  PATRON_MINOR_BOONS:0 "Малые бонусы"
  PATRON_OFFERINGS:0 "Подношения"
  PATRON_MAJOR_BOONS:0 "Значительные бонусы"
