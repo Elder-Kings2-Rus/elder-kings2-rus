@@ -821,13 +821,9 @@ window = {
 						}
 
 						expand = {}
-
-						divider_light = {
-							visible = "[Not( VariableSystem.Exists( 'trait_select_window_open' ) )]"
-							layoutpolicy_vertical = expanding
-
 						}
-					}
+
+					
 
 							expand = {}
 
@@ -897,10 +893,14 @@ window = {
 							}
 						}
 					}
-
-			divider_light = {
-				visible = "[Not( VariableSystem.Exists( 'trait_select_window_open' ) )]"
+			
+			vbox = {
 				layoutpolicy_vertical = expanding
+				margin_left = 30
+				divider_light = {
+					visible = "[Not( VariableSystem.Exists( 'trait_select_window_open' ) )]"
+					layoutpolicy_vertical = expanding
+				}
 			}
 
 			vbox = {
@@ -1606,7 +1606,7 @@ window = {
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = expanding
 
-				error_horse = {}
+				#error_horse = {}
 
 				icon = {
 					parentanchor = bottom|hcenter
@@ -3066,135 +3066,138 @@ window = {
 								layoutpolicy_horizontal = expanding
 								spacing = 30
 
+
 								vbox = {
-									layoutpolicy_vertical = expanding
-
-									button_checkbox_label = {
-										name = "generate_spouse_button"
-										layoutpolicy_horizontal = expanding
-
-										onclick = "[RulerDesignerWindow.ToggleGenerateSpouse]"
-										enabled = "[RulerDesignerWindow.IsAdult]"
-										tooltip = "RULER_DESIGNER_GENERATE_SPOUSE_TOOLTIP"
-
-										blockoverride "checkbox"
-										{
-											checked = "[RulerDesignerWindow.ShouldGenerateSpouse]"
-										}
-
-										blockoverride "text"
-										{
-											text = "RULER_DESIGNER_GENERATE_SPOUSE_LABEL"
-										}
-									}
-
-									expand = {}
-								}
-
-								hbox = {
-									spacing = 20
 									hbox = {
-										name = "generate_sons_amount"
-										layoutpolicy_horizontal = expanding
 										spacing = 20
-
-										text_single = {
-											layoutpolicy_horizontal = expanding
-											text = "RULER_DESIGNER_GENERATED_SONS_LABEL"
-											align = nobaseline
+										
+										vbox = {
+											layoutpolicy_vertical = expanding
+		
+											button_checkbox_label = {
+												name = "generate_spouse_button"
+												layoutpolicy_horizontal = expanding
+		
+												onclick = "[RulerDesignerWindow.ToggleGenerateSpouse]"
+												enabled = "[RulerDesignerWindow.IsAdult]"
+												tooltip = "RULER_DESIGNER_GENERATE_SPOUSE_TOOLTIP"
+		
+												blockoverride "checkbox"
+												{
+													checked = "[RulerDesignerWindow.ShouldGenerateSpouse]"
+												}
+		
+												blockoverride "text"
+												{
+													text = "RULER_DESIGNER_GENERATE_SPOUSE_LABEL"
+												}
+											}
+		
+											expand = {}
 										}
-
-										tooltip = RULER_DESIGNER_GENERATED_SONS_TOOLTIP
 
 										hbox = {
-											spacing = 10
-
-											button_round = {
-												size = { 28 28 }
-												onclick = "[RulerDesignerWindow.ChangeNumberOfGeneratedSons( '(int32)-1' )]"
-												enabled = "[GreaterThan_int32( RulerDesignerWindow.GetNumberOfGeneratedSons, '(int32)0' )]"
-
-												button_minus_small = {
-													name = "decrease_amount"
-													parentanchor = center
-													alwaystransparent = yes
-												}
-											}
+											name = "generate_sons_amount"
+											layoutpolicy_horizontal = expanding
+											spacing = 20
 
 											text_single = {
-												name = "sons_value"
-												text = "[RulerDesignerWindow.GetNumberOfGeneratedSons]"
-												using = Font_Size_Big
-												default_format = "#high"
-												align = nobaseline|center
-												min_width = 25
+												layoutpolicy_horizontal = expanding
+												text = "RULER_DESIGNER_GENERATED_SONS_LABEL"
+												align = nobaseline
 											}
 
-											button_round = {
-												size = { 28 28 }
-												onclick = "[RulerDesignerWindow.ChangeNumberOfGeneratedSons( '(int32)1' )]"
-												enabled = "[LessThan_int32( RulerDesignerWindow.GetNumberOfGeneratedChildren, RulerDesignerWindow.CalcMaxNumberOfGeneratedChildren )]"
+											tooltip = RULER_DESIGNER_GENERATED_SONS_TOOLTIP
 
-												button_plus_small = {
-													name = "increase_amount"
-													parentanchor = center
-													alwaystransparent = yes
+											hbox = {
+												spacing = 10
+
+												button_round = {
+													size = { 28 28 }
+													onclick = "[RulerDesignerWindow.ChangeNumberOfGeneratedSons( '(int32)-1' )]"
+													enabled = "[GreaterThan_int32( RulerDesignerWindow.GetNumberOfGeneratedSons, '(int32)0' )]"
+
+													button_minus_small = {
+														name = "decrease_amount"
+														parentanchor = center
+														alwaystransparent = yes
+													}
+												}
+
+												text_single = {
+													name = "sons_value"
+													text = "[RulerDesignerWindow.GetNumberOfGeneratedSons]"
+													using = Font_Size_Big
+													default_format = "#high"
+													align = nobaseline|center
+													min_width = 25
+												}
+
+												button_round = {
+													size = { 28 28 }
+													onclick = "[RulerDesignerWindow.ChangeNumberOfGeneratedSons( '(int32)1' )]"
+													enabled = "[LessThan_int32( RulerDesignerWindow.GetNumberOfGeneratedChildren, RulerDesignerWindow.CalcMaxNumberOfGeneratedChildren )]"
+
+													button_plus_small = {
+														name = "increase_amount"
+														parentanchor = center
+														alwaystransparent = yes
+													}
 												}
 											}
 										}
-									}
-
-									hbox = {
-										name = "generate_daughters_amount"
-										layoutpolicy_horizontal = expanding
-										spacing = 20
-
-										text_single = {
-											layoutpolicy_horizontal = expanding
-											text = "RULER_DESIGNER_GENERATED_DAUGHTERS_LABEL"
-											align = nobaseline
-										}
-
-										tooltip = RULER_DESIGNER_GENERATED_DAUGHTERS_TOOLTIP
 
 										hbox = {
-											spacing = 10
-
-											button_round = {
-												size = { 28 28 }
-												onclick = "[RulerDesignerWindow.ChangeNumberOfGeneratedDaughters( '(int32)-1' )]"
-												enabled = "[GreaterThan_int32( RulerDesignerWindow.GetNumberOfGeneratedDaughters, '(int32)0' )]"
-
-												button_minus_small = {
-													name = "decrease_amount"
-													parentanchor = center
-													alwaystransparent = yes
-												}
-											}
+											name = "generate_daughters_amount"
+											layoutpolicy_horizontal = expanding
+											spacing = 20
 
 											text_single = {
-												name = "daughters_value"
-												text = "[RulerDesignerWindow.GetNumberOfGeneratedDaughters]"
-												using = Font_Size_Big
-												default_format = "#high"
-												align = nobaseline|center
-												min_width = 25
+												layoutpolicy_horizontal = expanding
+												text = "RULER_DESIGNER_GENERATED_DAUGHTERS_LABEL"
+												align = nobaseline
 											}
 
-											button_round = {
-												size = { 28 28 }
-												onclick = "[RulerDesignerWindow.ChangeNumberOfGeneratedDaughters( '(int32)1' )]"
-												enabled = "[LessThan_int32( RulerDesignerWindow.GetNumberOfGeneratedChildren, RulerDesignerWindow.CalcMaxNumberOfGeneratedChildren )]"
+											tooltip = RULER_DESIGNER_GENERATED_DAUGHTERS_TOOLTIP
 
-												button_plus_small = {
-													name = "increase_amount"
-													parentanchor = center
-													alwaystransparent = yes
+											hbox = {
+												spacing = 10
+
+												button_round = {
+													size = { 28 28 }
+													onclick = "[RulerDesignerWindow.ChangeNumberOfGeneratedDaughters( '(int32)-1' )]"
+													enabled = "[GreaterThan_int32( RulerDesignerWindow.GetNumberOfGeneratedDaughters, '(int32)0' )]"
+
+													button_minus_small = {
+														name = "decrease_amount"
+														parentanchor = center
+														alwaystransparent = yes
+													}
+												}
+
+												text_single = {
+													name = "daughters_value"
+													text = "[RulerDesignerWindow.GetNumberOfGeneratedDaughters]"
+													using = Font_Size_Big
+													default_format = "#high"
+													align = nobaseline|center
+													min_width = 25
+												}
+
+												button_round = {
+													size = { 28 28 }
+													onclick = "[RulerDesignerWindow.ChangeNumberOfGeneratedDaughters( '(int32)1' )]"
+													enabled = "[LessThan_int32( RulerDesignerWindow.GetNumberOfGeneratedChildren, RulerDesignerWindow.CalcMaxNumberOfGeneratedChildren )]"
+
+													button_plus_small = {
+														name = "increase_amount"
+														parentanchor = center
+														alwaystransparent = yes
+													}
 												}
 											}
 										}
 									}
-								}
 
 								text_multi = {
 									visible = "[Not( RulerDesignerWindow.IsAdult )]"
@@ -3205,6 +3208,7 @@ window = {
 								}
 
 								expand = {}
+								}	
 							}
 						}
 					}

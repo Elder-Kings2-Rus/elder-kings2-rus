@@ -216,17 +216,17 @@ staff_sanguine_decision_tooltip:0 "Призовите даэдрического
 staff_sanguine_decision_confirm:0 "Да начнётся праздник!"
 staff_sanguine_selection_tooltip:0 "Использовать силу Розы Сангвина"
 
-staff_everscamp_decision:0 "Identify the Staff"
-staff_everscamp_decision_desc:0 "Peruse ancient tomes in the hopes of finding out what this intricate inscription on the staff says and where it originated from."
-staff_everscamp_decision_tooltip:0 "Finally solve the puzzle of this Mysterious Staff!"
-staff_everscamp_decision_confirm:0 "Neht, Oht, Neht..."
-staff_everscamp_selection_tooltip:0 "Seht, Ekem..."
+staff_everscamp_decision:0 "Опознать посох"
+staff_everscamp_decision_desc:0 "Изучите древние книги в надежде узнать, о чём гласит эта замысловатая надпись на посохе и откуда она взялась."
+staff_everscamp_decision_tooltip:0 "Наконец-то разгадайте загадку этого таинственного посоха!"
+staff_everscamp_decision_confirm:0 "Нехт, Охт, Нехт..."
+staff_everscamp_selection_tooltip:0 "Сехт, Экем..."
 
-remove_everscamp_decision:0 "Remove the Everscamps Curse"
-remove_everscamp_decision_desc:0 "If I want to get rid of this accursed staff and these smelly creatures, I must travel to the shrine of Sheogorath in Darkfathom Cave!"
-remove_everscamp_decision_tooltip:0 "Travel to Darkfathom and remove this curse!"
-remove_everscamp_decision_confirm:0 "I must be rid of them!"
-remove_everscamp_selection_tooltip:0 "And also this foul odor!"
+remove_everscamp_decision:0 "Снять проклятие посоха Вечного Скампа"
+remove_everscamp_decision_desc:0 "Если я хочу избавиться от этого проклятого посоха и его вонючих тварей, я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] отправиться в святилище Шеогората в пещере Чёрный Фатом!"
+remove_everscamp_decision_tooltip:0 "Отправьтесь в Чёрный Фатом и снимите это проклятие!"
+remove_everscamp_decision_confirm:0 "Я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] избавиться от них!"
+remove_everscamp_selection_tooltip:0 "И от этого неприятного запаха!"
 
 bittercup_decision:0 "Горькое соглашение"
 bittercup_decision_desc:0 "Заключите сделку с Принцем Сделок и Обмана, испив из Горькой Чаши."
@@ -258,11 +258,11 @@ shadow_key_selection_tooltip:0 "Использовать Теневой Ключ
 shadow_key_decision_tooltip:0 "Скелетный Ключ раскроет ваш истинный потенциал, повысив уровень вашего навыка образования и значительно увеличив прирост вашего опыта. Однако в процессе он будет истрачен и вновь вернётся в тень."
 shadow_key_decision_confirm:0 "Раскройте свой потенциал!"
 
-aok_decision:0 "Don the Amulet of Kings"
-aok_decision_tooltip:0 "Attempt to wear the Amulet of Kings and figure out if you are [GetTrait('dragonborn').GetName( Character.Self )]."
-aok_selection_tooltip:0 "Don the Amulet of Kings"
-aok_decision_desc:0 "The amulet can only be worn by certain individuals—those who could wear it were said to have the 'Dragon Blood' in their veins.\n\nThe specific requirements, however, have been a subject of debate, and they may simply have called for the attributes of a ruler or some divine mandate.\n\nIt is my time to attempt wearing the pendant of the Chim-El Adabal!"
-aok_decision_confirm:0 "May Akatosh's Will Be Done!"
+aok_decision:0 "Надеть Амулет Королей"
+aok_decision_tooltip:0 "Попытайтесь надеть Амулет Королей и выяснить, не [GetTrait('dragonborn').GetName( Character.Self )] ли вы часом."
+aok_selection_tooltip:0 "Надеть Амулет Королей"
+aok_decision_desc:0 "Амулет могут носить только определенные люди — те, в чьих жилах течёт так называемая "драконья кровь".\n\nКонкретные требования, однако, являются предметом споров. Они могут просто требовать атрибутов правителя или некого божественного мандата.\n\nПришло мое время попытаться надеть кулон Чим-эль Адабал!"
+aok_decision_confirm:0 "Да свершится воля Акатоша!"
 
 # Events
 
@@ -270,10 +270,10 @@ spawn_razak_army_decision:0 "Армия Разака"
 spawn_razak_army_decision_desc:0 "Используйте машину Разака, чтобы собрать армию солдат-автоматонов!"
 spawn_razak_army_decision_tooltip:0 "Из двемерских руин Колеса Разака выйдет армия автоматонов, дабы служить вам."
 spawn_razak_army_decision_confirm:0 "Использовать Опус Разака!"
-restore_nenalata_decision:0 "Restore the Capital of Nenalata"
-restore_nenalata_decision_desc:0 "Nenalata was once a mighty kingdom, the last of the Ayleid city-states to fall to the tyranny of the Alessian Order. Now we have a unique opportunity to excavate its ruins and restore it to glory as a capital worthy of a kingdom."
-restore_nenalata_decision_tooltip:0 "Unearth and restore the ancient capital of this kingdom"
-restore_nenalata_decision_confirm:0 "Begin the excavation of Nenalata!"
+restore_nenalata_decision:0 "Восстановить столицу Неналаты"
+restore_nenalata_decision_desc:0 "Неналата когда-то была могущественным королевством, последним из айлейдских городов-государств, павшим под натиском Алессианского Ордена. Теперь у нас есть уникальная возможность раскопать его руины и вернуть этому городу славу, что подобает столице достойного королевства."
+restore_nenalata_decision_tooltip:0 "Раскопайте и восстановите древнюю столицу этого королевства."
+restore_nenalata_decision_confirm:0 "Начать раскопки Неналаты!"
 
 
 # Courtier
@@ -287,11 +287,11 @@ ek_court_position.0001.t:0 "Придворный маг"
 ek_court_position.0001.desc:0 "Этот мир полон опасностей, даже для [ROOT.Char.GetTitleTierName] и [ROOT.Char.GetHerHis] двора. Поэтому по моей просьбе мои слуги занялись поисками придворного мага. И они подобрали несколько подходящих кандидатов."
 
 # Adoption
-adopt_child_decision:0 "Visit Orphanage"
-adopt_child_decision_tooltip:3 "A nearby town holds an orphanage inside its walls. You may visit the orphanage in the hopes of finding a suitable heir for you to adopt."
-adopt_child_decision_desc:1 "A nearby town holds an orphanage inside its walls. You may visit the orphanage in the hopes of finding a suitable heir for you to adopt."
-adopt_child_decision_effect_tooltip:4 "You will be presented with a group of children and may adopt one of them"
-adopt_child_decision_confirm:0 "Surely there's someone worthy..."
+adopt_child_decision:0 "Посетить сиротский приют"
+adopt_child_decision_tooltip:3 "В стенах соседнего города можно найти детский приют. Вы можете посетить это место в надежде найти подходящего наследника, которого можно усыновить или удочерить."
+adopt_child_decision_desc:1 "В стенах соседнего города можно найти детский приют. Вы можете посетить это место в надежде найти подходящего наследника, которого можно усыновить или удочерить."
+adopt_child_decision_effect_tooltip:4 "Вам будет представлена группа детей, и вы сможете усыновить или удочерить кого-то из них."
+adopt_child_decision_confirm:0 "Наверняка там найдётся кто-то достойный..."
 
 
 #Dev stuff, keep like this
@@ -301,12 +301,12 @@ debug_mode_toggle_decision_desc:0 "debug_mode_toggle_decision_desc"
 debug_mode_toggle_decision_confirm:0 "debug_mode_toggle_decision_confirm"
 
 #Become Pirate On Game Start decision
-become_pirate_decision:0 "Change to Pirate Government!"
-become_pirate_decision_tooltip:0 "Become a Pirate!"
-become_pirate_decision_confirm:0 "Arrrr matey!"
-become_pirate_decision_desc:0 "@warning_icon! #X Allows you to become Pirate government once after gamestart! This decision will disapear after one ingame year! #!"
+become_pirate_decision:0 "Перейти к пиратскому правительству!"
+become_pirate_decision_tooltip:0 "Стать пиратом!"
+become_pirate_decision_confirm:0 "Яррр, приятель!"
+become_pirate_decision_desc:0 "@warning_icon! #X Это решение позволит вам стать пиратским государством после начала игры! Это решение исчезнет через один игровой год! #!"
 
-stop_being_pirate_government_decision:0 "Abandon Piracy?"
-stop_being_pirate_government_decision_desc:0 "Being a Pirate might be lucrative but it lacks a certain legitimacy and authority more regular nobility holds, perhaps it is time to abandon our current governance and adopt a more centralized system? "
-stop_being_pirate_government_decision_confirm:0 "The time of Pirates is over."
-stop_being_pirate_government_decision_tooltip:0 "Perhaps its time for change."
+stop_being_pirate_government_decision:0 "Отказ от пиратства?"
+stop_being_pirate_government_decision_desc:0 "Пиратство — весьма прибыльное дело, но морским волкам не хватает определённой легитимности и авторитета, которыми обладает обычная знать. Быть может, пришло время отказаться от нашего нынешнего типа правительства и принять более централизованную систему? "
+stop_being_pirate_government_decision_confirm:0 "Время пиратов подошло к концу."
+stop_being_pirate_government_decision_tooltip:0 "Возможно, настало время перемен."
