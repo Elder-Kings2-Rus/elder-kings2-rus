@@ -22,7 +22,7 @@
  game_concept_faith_hostile_desc:0 "Эта [Concept('faith', 'вера')|E] значительно отклоняется.\nВозможен брак, могут вестись [Concept('holy_wars', 'священные войны')|E]\n\n#S Эффекты при минимальной враждебности, чтобы считаться враждебным:\n#![GetHostilityDescription( '(int32)34' )]\n\n#S Эффекты при минимальной враждебности, чтобы считаться враждебным:\n#![GetHostilityDescription( '(int32)66' )]."
 
  game_concept_faith_evil:0 "Воплощённое зло"
- game_concept_faith_evil_desc:0 "Эта [Concept('faith', 'вера')|E] считается воплощённым злом.\nМежрелигиозные браки случаются редко, могут вестись [священные_войны|E].\n\n#S Эффекты при минимальной враждебности, чтобы считаться злым:\n#![GetHostilityDescription( '(int32)67' )]\n\n#S Эффекты при максимальной враждебности, чтобы считаться злым:\n#![GetHostilityDescription( '(int32)100' )]."
+ game_concept_faith_evil_desc:0 "Эта [Concept('faith', 'вера')|E] считается воплощённым злом.\nМежрелигиозные браки случаются редко, могут вестись [Concept('holy_wars', 'священные войны')|E].\n\n#S Эффекты при минимальной враждебности, чтобы считаться злым:\n#![GetHostilityDescription( '(int32)67' )]\n\n#S Эффекты при максимальной враждебности, чтобы считаться злым:\n#![GetHostilityDescription( '(int32)100' )]."
 
 
 # Culture Era replacements

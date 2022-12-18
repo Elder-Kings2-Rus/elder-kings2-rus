@@ -33,10 +33,10 @@
  ek_scmc.1002.c.tt:0 "Вы заключаете в тюрьму главаря бандитов, а ваши охранники разгромили лагерь бандитов!"
  ek_scmc.1002.d:0 "Королевство не может позволить себе иметь дело со злоумышленниками!"
 
- ek_scmc.1003.t:0 "Bounty Decree"
- ek_scmc.1003.desc:0 "I've been worrying lately about the rising [crisis_faction.GetName] all over my realm. Apparently, so has [steward.GetFirstName], as [steward.GetSheHe] approaches me with a new idea for solving this crisis.\n\n[steward.GetSheHe|U] suggests that the realm should issue a bounty offering a reward for [faction_leader.GetName]'s head. In [steward.GetHerHis] opinion, that should at least diminish the resolve of the [crisis_faction.GetNameNoTooltip]."
- ek_scmc.1003.a:0 "That's a wonderful idea!"
- ek_scmc.1003.b:0 "We have other uses for that money."
+ ek_scmc.1003.t:0 "Указ о награде"
+ ek_scmc.1003.desc:0 "В последнее время меня беспокоит рост влияния и сил фракции [crisis_faction.GetName] в моих землях. Похоже, что эта проблема беспокоит и персонажа [steward.GetFirstName], поскольку [steward.GetSheHe] обращается ко мне с новой идеей относительно разрешения этого кризиса.\n\n[steward.GetSheHe|U] предлагает, чтобы королевство объявило о награде за голову лидера этой фракции по имени [faction_leader.GetName]. Мой канцлер считает, что это должно как минимум уменьшить решимость группы [crisis_faction.GetNameNoTooltip]."
+ ek_scmc.1003.a:0 "Это замечательная идея!"
+ ek_scmc.1003.b:0 "У нас есть другое применение для этих денег."
 
  ek_scmc.8001.t:0 "Восстание бандитов: Земля вне закона"
  ek_scmc.8001.desc:0 "Прошло время для менее жестокого решения.[ROOT.Char.Custom('BanditFaction')] завладели [bandit_county.GetName], во главе с [bandit_leader.GetFirstNameNoTooltip]."
