@@ -3444,6 +3444,8 @@ types BookmarkPortraits
 						default_format = "#high;glow_color:{0,0,0,1}"
 						align = nobaseline
 						using = Font_Size_Medium
+						max_width = 210
+						multiline = yes
 					}
 
 					icon = {
@@ -3462,7 +3464,7 @@ types BookmarkPortraits
 					duration = 0.1
 					using = Animation_Curve_Default
 
-					alpha = 0
+					alpha = 1
 				}
 
 				state = {
