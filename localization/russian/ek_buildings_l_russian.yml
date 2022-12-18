@@ -144,7 +144,7 @@
  building_ald_mirathi_01_desc:0 "$building_type_ald_mirathi_01_desc$" 
  
  building_type_vivecpalace_01:0 "Дворец Вивека"
- building_type_vivecpalace_01_desc:0 "Это грандиозное сооружение - дом Вивека, воина-поэта АЛЬМСИВИ. Хотя лежащий в основе комплекса Канал Загадок открыт для каждого, обитель Вивека заведомо охраняется. Неприступные стены и двери, а также патрули Вечных стражей, Ординаторов и призванных даэдр защищают его от непрошеных гостей."
+ building_type_vivecpalace_01_desc:0 "Это грандиозное сооружение - дом Вивека, воина-поэта АЛЬМСИВИ. Хотя лежащий в основе комплекса Канал Загадок открыт для каждого, обитель Вивека заведомо охраняется. Неприступные стены и двери, а также патрули Вечных стражей, Ординаторов и призванных даэдра защищают его от непрошеных гостей."
  building_vivecpalace_01:0 "$building_type_vivecpalace_01$"
  building_vivecpalace_01_desc:0 "$building_type_vivecpalace_01_desc$"
  
@@ -200,8 +200,8 @@
  building_winterhold_college_01:0 "$building_type_winterhold_college_01$"
  building_winterhold_college_01_desc:0 "$building_type_winterhold_college_01_desc$"
 
- building_type_orphanage_01:0 "Orphanage"
- building_type_orphanage_01_desc:0 "An institution devoted to the care of orphans and children who, for various reasons, lack a loving family."
+ building_type_orphanage_01:0 "Сиротский приют"
+ building_type_orphanage_01_desc:0 "Учреждение, занимающееся заботой о сиротах и детях, которые по разным причинам лишены любящей семьи."
  building_orphanage_01:0 "$building_type_orphanage_01$"
  building_orphanage_01_desc:0 "$building_type_orphanage_01_desc$" 
 
@@ -309,8 +309,8 @@
  building_cloudruler_temple_01:1 "$building_type_cloudruler_temple_01$"
  building_cloudruler_temple_01_desc:1 "$building_type_cloudruler_temple_01_desc$"
  
- building_type_anequina_moon_gate_01:0 "Moon Gate of Anequina"
- building_type_anequina_moon_gate_01_desc:0 "Though the knowledge on how to operate this ancient Moon Gate has been forgotten for millenia, it is still considered one of the most important sites of lunar worship and research, drawing in pilgrims and scholars alike."
+ building_type_anequina_moon_gate_01:0 "Лунные врата Анеквины"
+ building_type_anequina_moon_gate_01_desc:0 "Хотя знания о том, как управлять этими древними Лунными вратами, были забыты на тысячелетия, они по-прежнему считаются одним из самых важных мест для поклонениям лунам и исследований, привлекая как паломников, так и ученых."
  building_anequina_moon_gate_01:1 "$building_type_anequina_moon_gate_01$"
  building_anequina_moon_gate_01_desc:1 "$building_type_anequina_moon_gate_01_desc$"
 
