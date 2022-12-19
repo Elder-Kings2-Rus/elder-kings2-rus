@@ -119,7 +119,7 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_arcana_bad_3_desc:0 "Этот персонаж кажется лишенным способностей к магии, поскольку не может читать заклинания без больших усилий."
  trait_arcana_bad_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] кажется [Select_CString(ROOT.GetCharacter.IsFemale, 'лишенной', 'лишенным' )] способностей к магии, поскольку не может читать заклинания без больших усилий."
 
- trait_dragonborn:0 "Драконорождённый"
+ trait_dragonborn:0 "[Select_CString(ROOT.Char.IsFemale, 'Драконорождённая', 'Драконорождённый' )]"
  trait_dragonborn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )] с кровью и душой дракона. Известно, что драконорожденные пользуются благосклонностью богов."
 
  trait_bagarn:0 "Последний из своего рода"
