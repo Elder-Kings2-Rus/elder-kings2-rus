@@ -82,3 +82,5 @@
  doctrine_parameter_harder_to_convert_faith_away_in_mountains:0 "Скорость [Concept( 'convert_county', 'обращения враждебных графств' )|E] в гористой [Concept( 'terrain', 'местности' )|E]: #P [EmptyScope.ScriptValue('harder_to_convert_faith_away_in_mountains_malus_loc_control')|0]%#!"
  forest_attrition_mult:1 "[command_modifier_i][attrition|E] в лесу"
  doctrine_parameter_legalism_increased_faction_sins:0 "[vassals|E] и [counties|El] с большей вероятности вступят во [factions|El], если правитель [Concept( 'virtuous', 'грешник' )|El]"
+ vassal.2301.t:0 "Талант при дворе"
+ vassal.2301.desc_opening:1 "[skilled_vassal.GetFirstNameNoTooltip] превосходно себя [Select_CString(skilled_vassal.IsFemale, 'показала', 'показал' )],"
