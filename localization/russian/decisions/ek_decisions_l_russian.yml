@@ -196,6 +196,11 @@
  learn_liturgical_language_decision_confirm:0 "Я освою [ROOT.Char.Custom('GetLiturgicalLanguage')] в совершенстве!"
  learn_liturgical_language_decision_tooltip:0 "Начнёт [scheme|El], которые позволят вам овладеть [Concept( 'liturgical_language', 'литургическим языком' )|E] вашей [Concept( 'faith', 'конфессии' )|E]"
 
+ champion_conversion_decision:0 "Посвятить себя своему Принцу"
+ champion_conversion_decision_desc:0 "Хоть вы и являетесь Чемпионом своего Принца, вы не исповедуете открыто его конфессию. Но это может измениться прямо сейчас."
+ champion_conversion_decision_confirm:0 "Теперь я предан тебе, мой Принц!"
+ champion_conversion_decision_tooltip:0 "Измените свою [Concept( 'faith', 'конфессию' )|E], чтобы лучше соответствовать своему статусу Чемпиона"
+
  sanguine_deal_decision:0 "Искать принца кутежа"
  sanguine_deal_decision_desc:0 "Проклятие, наложенное на вас Сангвином, тяжким бременем ложится на вашу способность править вашими землями. Поэтому вы решили приложить все усилия, чтобы найти его и пересмотреть свою часть сделки."
  sanguine_deal_decision_tooltip:0 "Вы потратите [gold|El], [piety|El] и [prestige|El] чтобы вновь найти Сангвина и заключить сделку."
@@ -288,8 +293,10 @@ ek_court_position.0001.desc:0 "Этот мир полон опасностей, 
 
 # Adoption
 adopt_child_decision:0 "Посетить сиротский приют"
+tribal_adopt_child_decision_name:0 "Усыновить ребенка-сироту"
 adopt_child_decision_tooltip:3 "В стенах соседнего города можно найти детский приют. Вы можете посетить это место в надежде найти подходящего наследника, которого можно усыновить или удочерить."
 adopt_child_decision_desc:1 "В стенах соседнего города можно найти детский приют. Вы можете посетить это место в надежде найти подходящего наследника, которого можно усыновить или удочерить."
+tribal_adopt_child_decision_desc:1 "В племени много детей-сирот. Вы можете посетить их воспитателя в надежде найти подходящего наследника для усыновления."
 adopt_child_decision_effect_tooltip:4 "Вам будет представлена группа детей, и вы сможете усыновить или удочерить кого-то из них."
 adopt_child_decision_confirm:0 "Наверняка там найдётся кто-то достойный..."
 
