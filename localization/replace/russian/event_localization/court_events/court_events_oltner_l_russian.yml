@@ -1,4 +1,4 @@
-﻿l_russian
+﻿l_russian:
  court.9000.t:0 "Рыцарская декламация"
  court.9000.desc:0 "По дороге к трону я слышу, как $knight_culture_player_no_tooltip_lowercase$ [flirty_knight.GetFirstName] что-то декламирует, а [Select_CString(flirty_spouse.IsFemale, 'моя', 'мой' )] [flirty_spouse.GetWifeHusband] [flirty_spouse.GetFirstName] внимательно слушает.\n\n«[flirty_knight.Custom('GeneratePoem_Intro_Rhyming')]\n[flirty_knight.Custom('GeneratePoem_Outro_Rhyming')]»\n\n[flirty_knight.GetSheHe|U] что же, читает романтические стихи? #EMP [Select_CString(flirty_spouse.IsFemale, 'Моей', 'Моему' )]#! [Select_CString(flirty_spouse.IsFemale, 'жене', 'мужу' )]?!"
  court.9000.a:0 "[flirty_knight.GetFirstNameNoTooltip], ты [flirty_knight.Custom('InsultNounSexual')]! В темницу!"
