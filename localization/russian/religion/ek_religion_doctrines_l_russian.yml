@@ -321,7 +321,7 @@
  # Aspect of Harmony
  doctrine_pantheon_aspect_harmony_name:0 "Аспект гармонии"
     doctrine_pantheon_aspect_harmony_desc:0 "Божественное повелевает нам жить в мире и гармонии с землей. Мы все являемся частью мира смертных, и поэтому мы должны стремиться к миру и гармонии."
-    doctrine_parameter_devotion_gives_popular_opinion:0 "Каждый уровень [Concept( 'piety_experience', 'набожности' )|E] даёт следующее:\n$TAB$ #P +10#! [Concept( 'county_opinion', 'мнения графства' )|E]"
+    doctrine_parameter_devotion_gives_popular_opinion:0 "Каждый уровень [Concept( 'piety_experience', 'набожности' )|E] даёт следующее:\n$TAB$ #P +10#! [Concept( 'county_opinion', 'народного мнения' )|E]"
     devotion_gives_popular_opinion:0 "Народное поклонение"
     devotion_gives_popular_opinion_desc:0 "Божественное повелевает нам жить в гармонии с землей."
     devotion_gives_popular_opinion_0:0 "$devotion_gives_popular_opinion$: (0)"
