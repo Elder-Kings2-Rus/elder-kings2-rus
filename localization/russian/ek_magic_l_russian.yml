@@ -34,7 +34,7 @@
 
  # ARTIFACT INTERFACE #
  artifact_arcana_modifier:0 "\n$EFFECT_LIST_BULLET$[arcana|E]: [arcana_i][Artifact.MakeScope.Var('arcana_modifier').GetValue|+=0]"
- artifact_magicka_modifier_flat:0 "\n$EFFECT_LIST_BULLET$[magicka|E]: [magicka_i][Artifact.MakeScope.Var('magicka_modifier_flat').GetValue|+=2]/month"
+ artifact_magicka_modifier_flat:0 "\n$EFFECT_LIST_BULLET$[magicka|E]: [magicka_i][Artifact.MakeScope.Var('magicka_modifier_flat').GetValue|+=2]/месяц"
  artifact_magicka_modifier_mult:0 "\n$EFFECT_LIST_BULLET$Ежемесячная [magicka|El]: [magicka_i][Artifact.MakeScope.Var('magicka_modifier_mult').GetValue|%+=0]"
 
  artifact_script_value:0 "[THIS.Artifact.GetName]"
