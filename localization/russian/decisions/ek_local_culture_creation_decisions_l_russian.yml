@@ -8,7 +8,7 @@
  
  create_local_culture_glenumbra_decision_desc_1:0 "Есть рассказы о древних племенах, живущих на землях"
  create_local_culture_glenumbra_decision_desc_2:0 "Столетия назад. Мы должны возродить их обычаи."
- create_local_culture_glenumbra_decision_desc_own_culture_1:0 "Столетия назад, мой род, [ROOT.Char.GetCulture.GetName], процветал в"
+ create_local_culture_glenumbra_decision_desc_own_culture_1:0 "Столетия назад, мой #L [ROOT.Char.GetCulture.GetCollectiveNoun|l]ий#! род процветал в"
  create_local_culture_glenumbra_decision_desc_own_culture_2:0 ". Поскольку я один из последних в роду, от меня зависит вернуть дом наших предков и вернуть наши древние традиции."
  
  ## High Rock
