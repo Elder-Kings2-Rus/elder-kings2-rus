@@ -1,7 +1,7 @@
 ﻿l_russian:
  fp2_yearly.4005.t:0 "Создание анклавов"
  fp2_yearly.4005.desc.christian:0 "[mozarab_merchant.GetFaith.GetAdherentNamePlural] занимают уникальное положение в обществе редгардов. "
- fp2_yearly.4005.desc.muslim:0 "[mozarab_merchant.GetCulture.GetName|U] субъекты занимают уникальное положение в обществе редгардов. "
+ fp2_yearly.4005.desc.muslim:0 "[mozarab_merchant.GetCulture.GetName|U] занимают уникальное положение в обществе редгардов. "
  fp2_yearly.4005.desc:0 "Необычно видеть, как один из местных торговцев просит аудиенции у меня.\n\n"Мы [mozarab_merchant.GetFaith.GetAdherentNamePlural] обычно имеем дело с определенной степенью дополнительных... трудностей, когда живем вблизи городов". [mozarab_merchant.GetSheHe|U] говорит ровно и без злобы, но в словах [mozarab_merchant.GetHerHis] явно есть какая-то сила.\n\n"Все, чего мы хотим, это чтобы небольшой участок [mozarab_quarter.GetName] назывался нашим собственным и жил среди нашего народа. Я пришел сюда, чтобы просить тебя, мой [ROOT.Char.GetLadyLord], узнать, не можешь ли ты великодушно предоставить нам это.""
  fp2_yearly.4005.a:0 "В моих городах вам всегда рады."
  fp2_yearly.4005.b:0 "Я не позволю вам загрязнять мои города!"

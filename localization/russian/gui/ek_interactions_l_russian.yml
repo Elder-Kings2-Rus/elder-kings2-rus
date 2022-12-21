@@ -8,5 +8,5 @@
  MARRIAGE_HEIRESS_MATRILINEAL_REASON:0 "[secondary_recipient.GetShortUIName|U] является наследницей и [recipient.GetShortUIName|U] скорее предпочтет [Concept( 'matrilineal', 'матрилинейный' )|E] брак: $VALUE|+0$"
  MARRIAGE_CROWN_FOREBEAR_REASON:0 "Ребёнок из дома Акос Касак не должен вступать в брак за неверного из другого дома: $VALUE|+0$"
  #RELIGION
- ASK_FOR_CONVERSION_CROWN_FOREBEAR:0 "[recipient.GetCulture.GetName|E] не нравится ваши [actor.GetCulture.GetName|E] пути: $VALUE|+0$".
+ ASK_FOR_CONVERSION_CROWN_FOREBEAR:0 "[recipient.GetCulture.GetName|E] не в восторге от ваших #L [actor.GetCulture.GetCollectiveNounNoTooltip|El]их#! путей: $VALUE|+0$".
  

@@ -3,7 +3,7 @@
  steward_task.0302.county_complete:0 "С #L [new_culture.GetCollectiveNoun]им#! поселением и установкой новой администрации, народ [county.GetNameNoTier] полностью принял #L [new_culture.GetCollectiveNoun]ие#! традиции.\n\nХотя они не в полной мере разделяют наши #L [ROOT.Char.GetCulture.GetCollectiveNoun]ие#! обычаи, они гораздо ближе к нам, чем предыдущее #L [old_culture.GetCollectiveNoun]ое#! население."
  steward_task.0302.a:0 "Отличная работа, [councillor.GetFirstNameNoTooltip]!"
 
- task_promote_culture_effect_basis_desc:1 "#S At #V 100%#!#!:\n$TAB$[Concept( 'county', 'Графство' )|E] изменило [Concept( 'culture', 'культуру' )|E] на [councillor_liege.GetCulture.GetName]"
+ task_promote_culture_effect_basis_desc:1 "#S В #V 100%#!#!:\n$TAB$[Concept( 'county', 'Графство' )|E] принимает #L [councillor_liege.GetCulture.GetCollectiveNoun|l]ую#! [Concept( 'culture', 'культуру' )|E]"
  task_promote_culture_effect_culture_known_desc:1 "WIP, NEED A WAY TO GET THE NAME OF THE CULTURE STORED IN scope:county.var:culture_to_convert"
 
  culture_within_heritage_alive:0 "Минимум одна [Concept( 'culture', 'культура' )|E] вашего [Concept( 'heritage', 'наследия' )|E] должна быть доступна"

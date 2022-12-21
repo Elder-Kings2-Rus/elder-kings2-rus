@@ -174,7 +174,7 @@
  ek_attrebus_potentate.0103.a:0 "Какая судьба ожидает Сиродил и остальной мир?"
  
  ek_attrebus_potentate.0110.t:0 "Потентат Хартленда"
- ek_attrebus_potentate.0110.desc:0 "Наш народ прибыл сюда столетия назад в поисках легендарного Драконорождённого. И мы нашли [reman_cyrodiil.GetHerHim]. Это [Select_CString(attrebus.IsFemale, 'была', 'был')] [reman_cyrodiil.GetFirstName], поэтому мы присягнули [reman_cyrodiil.GetHerHim].\n\nПосле пресечения [reman_cyrodiil.GetHerHis] рода, мы стали стюардами Империи, и на протяжении столетий Потентат поддерживал порядок в Тамриэле...\n\nПо мере того, как мир рушится, всё меняется. Время Потентата ушло, но [ROOT.Char.GetCulture.GetName] нашли свой новый дом в Тамриэле, в том самом месте, в котором они находились веками!"
+ ek_attrebus_potentate.0110.desc:0 "Наш народ прибыл сюда столетия назад в поисках легендарного Драконорождённого. И мы нашли [reman_cyrodiil.GetHerHim]. Это [Select_CString(attrebus.IsFemale, 'была', 'был')] [reman_cyrodiil.GetFirstName], поэтому мы присягнули [reman_cyrodiil.GetHerHim].\n\nПосле пресечения [reman_cyrodiil.GetHerHis] рода, мы стали стюардами Империи, и на протяжении столетий Потентат поддерживал порядок в Тамриэле...\n\nПо мере того, как мир рушится, всё меняется. Время Потентата ушло, но [ROOT.Char.GetCulture.GetName|l] нашли свой новый дом в Тамриэле, в том самом месте, в котором они находились веками!"
  ek_attrebus_potentate.0110.a:0 "Наш новый дом!"
  culture_now_native_heartlands_tooltip:0 "Наша [culture|E] будет иметь [native|E] статус в регионе [GetGeographicalRegion('mundus_tamriel_cyrodiil_heartlands').GetName]"
  
