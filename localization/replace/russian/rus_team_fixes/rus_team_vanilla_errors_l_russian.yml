@@ -84,3 +84,4 @@
  doctrine_parameter_legalism_increased_faction_sins:0 "[vassals|E] и [counties|El] с большей вероятности вступят во [factions|El], если правитель [Concept( 'virtuous', 'грешник' )|El]"
  vassal.2301.t:0 "Талант при дворе"
  vassal.2301.desc_opening:1 "[skilled_vassal.GetFirstNameNoTooltip] превосходно себя [Select_CString(skilled_vassal.IsFemale, 'показала', 'показал' )],"
+ learning_scholarship_special.3004.desc:0 "Наконец-то у меня есть все необходимые реагенты для «золотого дождя»!\n\nСвинцовый сахар хранится в водонепроницаемых бочках. Связки сушеных водорослей лежат у печи, подготовленные для сжигания.\n\nСтанет ли это моим Великим деянием?"

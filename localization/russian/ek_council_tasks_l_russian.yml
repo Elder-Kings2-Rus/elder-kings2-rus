@@ -6,4 +6,4 @@
  NOMADIC_CULTURE_CULTURE_CONVERT_FROM:0 "Вы пытаетесь преобразовать культуру в провинции с кочевой культурой"
  
  task_promote_culture_effect_no_culure_to_convert_desc:0 "#S При #V 100%#!#!:\n$TAB$[county|E] меняет [Concept('culture', 'культуру')|E] на выбранную вами культуру"
- task_promote_culture_acceptance_effect_no_culure_to_convert_desc:0 "\n$TAB$[cultural_acceptance|E] между [county.GetProvince.GetCounty.GetCulture.GetCollectiveNoun] и выбранной вами культурой уменьшиться на [SCOPE.ScriptValue('culture_conversion_acceptance_impact')|N^/%]"
+ task_promote_culture_acceptance_effect_no_culure_to_convert_desc:0 "\n$TAB$[cultural_acceptance|E] между #L [county.GetProvince.GetCounty.GetCulture.GetCollectiveNoun|l]ой#! и выбранной вами культурой уменьшиться на [SCOPE.ScriptValue('culture_conversion_acceptance_impact')|N^/%]"
