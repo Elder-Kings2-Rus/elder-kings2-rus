@@ -7,10 +7,10 @@
  become_pirate_government_decision_duchy_tier_title_ct:0 "Вы создадите титул, подберёте имя и собственный флаг, который будет развеваться во время плавания в открытом море"
  become_pirate_government_decision_total_loot_workaround_ct:0 "#N Приведенное ниже количество золота соответсвует общей добыче, накопленной за годы налётов.#!"
  
- disorganized_military_reform_military_decision:0 "Реформировать [ROOT.Char.GetCulture.GetNameNoTooltip] армию"
+ disorganized_military_reform_military_decision:0 "Реформировать [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|l]ую армию"
  disorganized_military_reform_military_decision_desc:0 "Большинство из нас не верит в элитных солдат и профессиональных войнов, предпочитая использовать людей как пушечное мясо.\n\nНо большинство из нас не знает ничего о войне. Пришло время преобразовать наш способ ведения войны и, наконец, сформировать настоящую армию, способную противостоять остальному Тамриэлю."
  disorganized_military_reform_military_decision_tooltip:0 "Преобразйте армию и станьте равным великим державам Тамриэля"
- disorganized_military_reform_military_decision_confirm:0 "Тамриэль будет бояться мощи [ROOT.Char.GetCulture.GetNameNoTooltip]!"
+ disorganized_military_reform_military_decision_confirm:0 "[ROOT.Char.GetCulture.GetNameNoTooltip] своей мощью будут наводить ужас на Тамриэль!"
 
  daedric_heir_decision:0 "Призвать родственника из Обливиона"
  daedric_heir_decision_desc:0 "Мы, дремора, не воспринимаем мир так, как смертные. Мы не рождаемся такими, как смертные. У нас нет отцов и матерей. Все, что у нас есть, - это наша родня и наши кланы. Если бы я призвал одного из своих сородичей в это царство, я смог бы укрепить наш клан и наши замыслы здесь."

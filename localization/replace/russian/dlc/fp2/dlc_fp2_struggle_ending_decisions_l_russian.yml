@@ -1,6 +1,6 @@
 ﻿l_russian:
  ##### Hostility #####
- struggle_iberia_ending_hostility_decision_desc:0 "Пришло время сильному лидеру, наконец, вытащить эту провинцию из трясины войны и раскола. Хаммерфелл будет объединен под [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] знаменем правителя [ROOT.Char.Custom('GetQueenKing')|l]!"
+ struggle_iberia_ending_hostility_decision_desc:0 "Пришло время сильному лидеру, наконец, вытащить эту провинцию из трясины войны и раскола. Хаммерфелл будет объединен под [ROOT.Char.GetFaith.GetNameNoTooltip|l]им знаменем правителя [ROOT.Char.Custom('GetQueenKing')|l]!"
  struggle_iberia_ending_hostility_decision_tooltip:0 "Конец [Concept('struggle', 'Борьбы')|E] за Хаммерфелл"
  struggle_iberia_ending_hostility_decision_confirm:1 "Конец Борьбы за Хаммерфелл"
  # Triggers

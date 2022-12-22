@@ -29,24 +29,24 @@
  doctrine_parameter_same_heritage_conversion_bonus_active:1 "Скорость обращения в #L [Faith.MakeScope.Var('associated_culture').Culture.GetHeritage.GetName|l]их#! [Concept( 'county', 'графствах' )|El]: #P +25%#!"
  doctrine_parameter_same_faith_promote_heritage_bonus_active:1 "Скорость распространения культуры в [Concept( 'county', 'графствах' )|El] моей [Concept( 'faith', 'конфессии' )|E]: #P +25%#!"
  doctrine_parameter_other_heritage_conversion_penalty_active:1 "Скорость обращения в [Concept( 'county', 'графствах' )|El] иного [Concept( 'heritage', 'наследия' )|E]: #N -50%#!"
- COURT_CHAPLAIN_CONVERSION_HERITAGE_TIES_MODIFIER:0 "[councillor.GetFaith.GetName] — [GetFaithDoctrine('doctrine_cultural_identity_heritage').GetBaseName]"
+ COURT_CHAPLAIN_CONVERSION_HERITAGE_TIES_MODIFIER:0 "[councillor.GetFaith.GetAdjective] — [GetFaithDoctrine('doctrine_cultural_identity_heritage').GetBaseName]"
  
  doctrine_parameter_establishing_holy_site_same_heritage_active:0 "Новые [holy_sites|El] могут быть созданы только в #L [Faith.MakeScope.Var('associated_culture').Culture.GetHeritage.GetName|l]их#! провинциях"
  doctrine_parameter_same_heritage_exclusive_conversion_bonus_active:1 "Скорость обращения в #L [Faith.MakeScope.Var('associated_culture').Culture.GetHeritage.GetName|l]их#! [Concept( 'county', 'графствах' )|El]: #P +50%#!"
  doctrine_parameter_same_faith_promote_heritage_exclusive_bonus_active:1 "Скорость распространения культуры [Concept( 'county', 'графствах' )|El] моей [Concept( 'faith', 'конфессии' )|E]: #P +50%#!"
  doctrine_parameter_other_heritage_exclusive_conversion_penalty_active:1 "Скорость обращения в [Concept( 'county', 'графствах' )|El] иного [Concept( 'heritage', 'наследия' )|E]: #N -100%#!"
- COURT_CHAPLAIN_CONVERSION_HERITAGE_EXCLUSIVE_TIES_MODIFIER:0 "[councillor.GetFaith.GetName] — [GetFaithDoctrine('doctrine_cultural_identity_heritage_exclusive').GetBaseName]"
+ COURT_CHAPLAIN_CONVERSION_HERITAGE_EXCLUSIVE_TIES_MODIFIER:0 "[councillor.GetFaith.GetAdjective] — [GetFaithDoctrine('doctrine_cultural_identity_heritage_exclusive').GetBaseName]"
  
  doctrine_parameter_establishing_holy_site_same_culture_active:0 "Новые [holy_sites|El] могут быть созданы только в #L [Faith.MakeScope.Var('associated_culture').Culture.GetCollectiveNoun|l]их#! провинциях"
  doctrine_parameter_same_culture_conversion_bonus_active:1 "Скорость обращения в #L [Faith.MakeScope.Var('associated_culture').Culture.GetCollectiveNoun|l]их#! [Concept( 'county', 'графствах' )|El]: #P +50%#!"
  doctrine_parameter_same_faith_promote_culture_bonus_active:1 "Скорость распространения культуры [Concept( 'county', 'графствах' )|El] моей [Concept( 'faith', 'конфессии' )|E]: #P +50%#!"
  doctrine_parameter_other_culture_conversion_penalty_active:1 "Скорость обращения в [Concept( 'county', 'графствах' )|El] иной [Concept( 'culture', 'культуры' )|E]: #N -50%#!"
- COURT_CHAPLAIN_CONVERSION_CULTURE_TIES_MODIFIER:0 "[councillor.GetFaith.GetName] — [GetFaithDoctrine('doctrine_cultural_identity_culture').GetBaseName]"
+ COURT_CHAPLAIN_CONVERSION_CULTURE_TIES_MODIFIER:0 "[councillor.GetFaith.GetAdjective] — [GetFaithDoctrine('doctrine_cultural_identity_culture').GetBaseName]"
  
  doctrine_parameter_same_culture_exclusive_conversion_bonus_active:1 "Скорость обращения в #L [Faith.MakeScope.Var('associated_culture').Culture.GetCollectiveNoun|l]их#! [Concept( 'county', 'графствах' )|El]: #P +100%#!"
  doctrine_parameter_same_faith_promote_culture_exclusive_bonus_active:1 "Скорость распространения культуры [Concept( 'county', 'графствах' )|El] моей [Concept( 'faith', 'конфессии' )|E]: #P +100%#!"
  doctrine_parameter_other_culture_exclusive_conversion_penalty_active:1 "Скорость обращения в [Concept( 'county', 'графствах' )|El] иной [Concept( 'culture', 'культуры' )|E]: #N -100%#!"
- COURT_CHAPLAIN_CONVERSION_CULTURE_EXCLUSIVE_TIES_MODIFIER:0 "[councillor.GetFaith.GetName] — [GetFaithDoctrine('doctrine_cultural_identity_culture_exclusive').GetBaseName]"
+ COURT_CHAPLAIN_CONVERSION_CULTURE_EXCLUSIVE_TIES_MODIFIER:0 "[councillor.GetFaith.GetAdjective] — [GetFaithDoctrine('doctrine_cultural_identity_culture_exclusive').GetBaseName]"
  
  # When creating a faith
  doctrine_parameter_establishing_holy_site_same_culture_group_creating_faith_active:0 "Новые [holy_sites|El] могут быть созданы только в #L [GetPlayer.GetCulture.GetGroup.GetCollectiveNoun|l]их#! провинциях"
@@ -951,11 +951,11 @@
     faith_conversion_cost_cultural_identity_cg_exclusive_outside_heritage:0 "[faith|E] не признаёт ваше [heritage|El] - [GetFaithDoctrine('doctrine_cultural_identity_heritage_exclusive').GetBaseName]"
  doctrine_cultural_identity_culture_name:0 "Общинная идентичность"
     doctrine_cultural_identity_culture_desc:0 "Традиции и верования нашего народа были связаны веками, и даже те, кто видел в нас своих двоюродных братьев, с трудом понимали нашу веру. Но со временем даже они смогут увидеть свет истины."
-    ASK_FOR_CONVERSION_CULTURAL_IDENTITY:1 "[faith|E] персонажа [recipient.GetShortUIName|U] тесно связана с [recipient.GetHerHis] [Concept( 'culture', 'культурой' )|E] — [recipient.GetCulture.GetName]: $VALUE|=+0$"
+    ASK_FOR_CONVERSION_CULTURAL_IDENTITY:1 "[faith|E] персонажа [recipient.GetShortUIName|U] тесно связана с [recipient.GetHerHis] #L [recipient.GetCulture.GetCollectiveNoun|l]ой#! [Concept( 'culture', 'культурой' )|E]: $VALUE|=+0$"
     faith_conversion_cost_cultural_identity_outside_culture:0 "[faith|E] не признаёт вашу [Concept( 'culture', 'культуру' )|E] - [GetFaithDoctrine('doctrine_cultural_identity').GetBaseName]"
  doctrine_cultural_identity_culture_exclusive_name:0 "Сильная общинная идентичность"
     doctrine_cultural_identity_culture_exclusive_desc:0 "Почти немыслимо, чтобы кто-то за пределами нашей тесной общины мог бы понять самые базовые основы нашей веры. Наши традиции и обряды воспринимаются как аномалия кем-то за пределами нашей группы, но мы считаем их основными принципами нашей идентичности."
-    ASK_FOR_CONVERSION_CULTURAL_IDENTITY_EXCLUSIVE:1 "[culture|E] — [recipient.GetCulture.GetName] — персонажа [recipient.GetShortUIName|U] не разделяет ценностей нашей [actor.GetCulture.GetName] [Concept( 'faith', 'конфессии' )|E]: $VALUE|=+0$"
+    ASK_FOR_CONVERSION_CULTURAL_IDENTITY_EXCLUSIVE:1 "#L [recipient.GetCulture.GetCollectiveNoun]ая#! [culture|El] персонажа [recipient.GetShortUIName|U] не разделяет ценностей нашей #L [actor.GetCulture.GetCollectiveNoun|l]ой#! [Concept( 'faith', 'конфессии' )|E]: $VALUE|=+0$"
     faith_conversion_cost_cultural_identity_exclusive_outside_culture:0 "[faith|E] не признаёт вашу [Concept( 'culture', 'культуру' )|E] - [GetFaithDoctrine('doctrine_cultural_identity_exclusive').GetBaseName]"
  # When creating a faith
  doctrine_cultural_identity_creating_faith_name:0 "$doctrine_cultural_identity_name$"
