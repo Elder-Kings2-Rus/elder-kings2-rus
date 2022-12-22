@@ -13,7 +13,7 @@
  patron_back_tt:0 "Назад"
  #Faith window
  FAITH_PATRONS:0 "Покровители"
- PATRONS_AVAILABLE:0 "Покровители, доступные для [Faith.GetAdherentNamePluralNoTooltip]"
+ PATRONS_AVAILABLE:0 "Покровители, к которым [Faith.GetAdherentNamePluralNoTooltip|l] имеют доступ"
  EFFECTS_ONLY:0 "Эффекты"
  show_desc:0 "Показать описания"
  show_modifier:0 "Показать модификаторы покровителя"

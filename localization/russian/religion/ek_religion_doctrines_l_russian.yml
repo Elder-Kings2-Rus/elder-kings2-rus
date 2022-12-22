@@ -35,7 +35,7 @@
  doctrine_parameter_same_heritage_exclusive_conversion_bonus_active:1 "Скорость обращения в #L [Faith.MakeScope.Var('associated_culture').Culture.GetHeritage.GetName|l]их#! [Concept( 'county', 'графствах' )|El]: #P +50%#!"
  doctrine_parameter_same_faith_promote_heritage_exclusive_bonus_active:1 "Скорость распространения культуры [Concept( 'county', 'графствах' )|El] моей [Concept( 'faith', 'конфессии' )|E]: #P +50%#!"
  doctrine_parameter_other_heritage_exclusive_conversion_penalty_active:1 "Скорость обращения в [Concept( 'county', 'графствах' )|El] иного [Concept( 'heritage', 'наследия' )|E]: #N -100%#!"
- COURT_CHAPLAIN_CONVERSION_HERITAGE_EXCLUSIVE_TIES_MODIFIER:0 "[councillor.GetFaith.GetName] — [GetFaithDoctrine('doctrine_cultural_identity_heritage_exclusive').GetBaseName]"
+ COURT_CHAPLAIN_CONVERSION_HERITAGE_EXCLUSIVE_TIES_MODIFIER:0 "[councillor.GetFaith.GetAdjective] — [GetFaithDoctrine('doctrine_cultural_identity_heritage_exclusive').GetBaseName]"
  
  doctrine_parameter_establishing_holy_site_same_culture_active:0 "Новые [holy_sites|El] могут быть созданы только в #L [Faith.MakeScope.Var('associated_culture').Culture.GetCollectiveNoun|l]их#! провинциях"
  doctrine_parameter_same_culture_conversion_bonus_active:1 "Скорость обращения в #L [Faith.MakeScope.Var('associated_culture').Culture.GetCollectiveNoun|l]их#! [Concept( 'county', 'графствах' )|El]: #P +50%#!"
@@ -46,7 +46,7 @@
  doctrine_parameter_same_culture_exclusive_conversion_bonus_active:1 "Скорость обращения в #L [Faith.MakeScope.Var('associated_culture').Culture.GetCollectiveNoun|l]их#! [Concept( 'county', 'графствах' )|El]: #P +100%#!"
  doctrine_parameter_same_faith_promote_culture_exclusive_bonus_active:1 "Скорость распространения культуры [Concept( 'county', 'графствах' )|El] моей [Concept( 'faith', 'конфессии' )|E]: #P +100%#!"
  doctrine_parameter_other_culture_exclusive_conversion_penalty_active:1 "Скорость обращения в [Concept( 'county', 'графствах' )|El] иной [Concept( 'culture', 'культуры' )|E]: #N -100%#!"
- COURT_CHAPLAIN_CONVERSION_CULTURE_EXCLUSIVE_TIES_MODIFIER:0 "[councillor.GetFaith.GetName] — [GetFaithDoctrine('doctrine_cultural_identity_culture_exclusive').GetBaseName]"
+ COURT_CHAPLAIN_CONVERSION_CULTURE_EXCLUSIVE_TIES_MODIFIER:0 "[councillor.GetFaith.GetAdjective] — [GetFaithDoctrine('doctrine_cultural_identity_culture_exclusive').GetBaseName]"
  
  # When creating a faith
  doctrine_parameter_establishing_holy_site_same_culture_group_creating_faith_active:0 "Новые [holy_sites|El] могут быть созданы только в #L [GetPlayer.GetCulture.GetGroup.GetCollectiveNoun|l]их#! провинциях"
