@@ -147,3 +147,7 @@
  # Окно державы
  MY_REALM_WINDOW_TYPE_CUSTOM:1 "[Character.GetPrimaryTitle.GetRankConcept]:\n[GetPlayer.GetGovernment.GetName]"
  REALM_WINDOW_SIZE_CUSTOM:2 "Размер державы:\n[Character.RealmSize|V]"
+ 
+ # названия войн
+ HOUSE_TOMB_0_CONQUEST_WAR_NAME:0 "Завоевать гробницу Великого Дома"
+ HOUSE_TOMB_0_CONQUEST_WAR_NAME_BASE:0 "Завоевать гробницу Великого Дома"
