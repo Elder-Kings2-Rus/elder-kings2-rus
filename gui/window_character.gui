@@ -1139,7 +1139,7 @@ window = {
 										fixedgridbox = {
 											name = "traits_tiny"
 											datamodel = "[CharacterWindow.GetTraits]"
-											visible = "[And(GreaterThan_int32(GetDataModelSize(CharacterWindow.GetTraits), '(int32)11'), LessThanOrEqualTo_int32(GetDataModelSize(CharacterWindow.GetTraits), '(int32)22'))]"
+											visible = "[And(GreaterThan_int32(GetDataModelSize(CharacterWindow.GetTraits), '(int32)10'), LessThanOrEqualTo_int32(GetDataModelSize(CharacterWindow.GetTraits), '(int32)22'))]"
 											flipdirection = yes
 											addcolumn = 24
 											addrow = 25
@@ -1173,8 +1173,7 @@ window = {
 											{
 												margin = { 0 0 }
 												margin_right = 25
-											}
-											
+											}									
 											using = Animation_Tab_Switch
 											blockoverride "scrollbox_content"
 											{
