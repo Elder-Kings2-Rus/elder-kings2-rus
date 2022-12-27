@@ -1,6 +1,6 @@
 ﻿l_russian:
  court_magical:0 "Магический двор"
- court_magical_desc:0 "#low Мы гордимся своими магическими способностями и тесной связью с Этериусом. Арканные силы одновременно впечатляют и пугают, и колдуны занимают все властные посты.. \n\nПридворные получают свойства [GetTrait('magical_court_1').GetName( GetNullCharacter )].#!"
+ court_magical_desc:0 "#low Мы гордимся своими магическими способностями и тесной связью с Этериусом. Арканные силы одновременно впечатляют и пугают, и колдуны занимают все властные посты. \n\nПридворные получают свойства [GetTrait('magical_court_1').GetName( GetNullCharacter )].#!"
  court_magical_tooltip_desc:0 "В $court_magical$ сила проявляется и применяется с помощью магии, а не бездумной силы."
  
  multiple_courtiers_gained_magical_2_trait_desc:0 "[courtier_1.GetShortUIName], [courtier_2.GetShortUIName], и [THIS.Var('num_other_relevant_courtiers').GetValue|V0] другие придворные получают [trait|El] [GetTrait('magical_court_2').GetName( GetNullCharacter )]"

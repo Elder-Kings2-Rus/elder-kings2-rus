@@ -39,7 +39,7 @@
     cultural_rights_none:0 "Культурные притеснения"
     cultural_rights_none_short:0 "Притеснения"
     cultural_rights_protected:0 "Защита культурных прав"
-    cultural_rights_protected_desc:2 "#emphasis #bold Привилегии [Concept('vassal', 'вассала')|E]:#!#!\n [liege|E] не может [Concept('promote_culture', 'распространять культуру')|E] в землях своих [Concept('vassals', 'вассалов')|E], если его [Concept('culture', 'культура')|E] культура различается от культуры вассала\n\n#flavor [vassal|E] получает особый защищенный статус, тем самым государство признает его право практиковать собственную [Concept('culture', 'культуру')|E]. Особое земельное законодательство и привилегированный статус позволяют культуре вассала легко распространяться на землях вассала.#!"
+    cultural_rights_protected_desc:2 "#emphasis #bold Привилегии [Concept('vassal', 'вассала')|E]:#!#!\n[liege|E] не может [Concept('promote_culture', 'распространять культуру')|E] в землях своих [Concept('vassals', 'вассалов')|E], если его [Concept('culture', 'культура')|E] культура отличается от культуры вассала\n\n#flavor [vassal|E] получает особый защищенный статус, тем самым государство признает его право практиковать собственную [Concept('culture', 'культуру')|E]. Особое земельное законодательство и привилегированный статус позволяют культуре вассала легко распространяться на его землях.#!"
     cultural_rights_protected_short:0 "Обеспечены"
   minor_tributes_rights:0 "Малая дань"
     minor_tributes_rights_default:0 "Малой дани нет"
@@ -70,7 +70,7 @@
  ### Autocracy
  autocracy_government:0 "Автократия"
     autocracy_government_adjective:0 "Автократическ"
-    autocracy_government_realm:0 "Автократичное государство"
+    autocracy_government_realm:0 "Автократическое государство"
     autocracy_government_vassals_label:1 "Автократические [Concept('obligations', 'обязательства')|E] основаны на [Concept('opinion', 'мнении')|E] [Concept('vassal', 'вассала')|E] о своем [Concept('liege', 'сюзерене')|E]"
     autocracy_government_desc:1 "- [Concept('vassals', 'Вассальные')|E] [Concept('obligations', 'обязательства')|E] зависят от [Concept('opinion', 'мнения')|E] вассалов о своем [Concept('liege', 'сюзерене')|E]\n- [vassals|E], чья военная мощь превышает мощь [Concept('liege', 'сюзерена')|E], теряют [Concept('opinion', 'мнение')|E] о нем\n- Рост [Concept('control', 'контроля')|E] связан с [Concept('county_opinion', 'народным мнением')|E]\n\n#F Наиболее распространенная форма правления на Тамриэле. Автократические государства следуют свободной иерархии вассалов и сюзеренов, в которой ожидается, что отношения между лордом и их подданными меняются при различных ситуациях либо в зависимости от взаимоотношений между ними.#!"
     GOVERNMENT_AUTOCRACY_MAX_MILITARY_STRENGTH_DIFFERENCE:0 "Военная мощь выше, чем у [Concept('liege', 'сюзерена')|E] (Автократия)"
