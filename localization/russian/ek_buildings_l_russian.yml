@@ -1,7 +1,7 @@
 ﻿l_russian:
  ### Triggers
  county_opinion_must_be_positive:0 "[county_opinion|E] должно быть положительным ([autocracy|E] с #V [GetPlayer.Custom('GetCrownAuthority0')]#!)"
- county_opinion_must_be_high_enough:0 "[county_opinion|E] должно быть выше #V -10#! ([autocracy|E] with #V [GetPlayer.Custom('GetCrownAuthority1')]#!)"
+ county_opinion_must_be_high_enough:0 "[county_opinion|E] должно быть выше #V -10#! ([autocracy|E] с #V [GetPlayer.Custom('GetCrownAuthority1')]#!)"
  county_must_have_temple_holding:0 "По крайней мере, одна провинция в пределах округа должна иметь [temple_holding|El]"
  
  ### Imperial City
