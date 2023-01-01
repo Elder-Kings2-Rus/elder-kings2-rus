@@ -151,3 +151,7 @@
  # названия войн
  HOUSE_TOMB_0_CONQUEST_WAR_NAME:0 "Завоевать гробницу Великого Дома"
  HOUSE_TOMB_0_CONQUEST_WAR_NAME_BASE:0 "Завоевать гробницу Великого Дома"
+ 
+ # заглушка для энциклопедии
+ game_concept_bandit_faction:0 "Фракция бандитов"
+ game_concept_bandit_faction_desc:0 "Разработчики пока не написали описание. Это временная заглушка."
