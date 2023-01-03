@@ -358,7 +358,7 @@ trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoToolt
  trait_praxis_negative_2:0 "Апраксик II"
  trait_praxis_negative_2_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'сбилась', 'сбился' )] с пути к Алаксону."
  trait_praxis_negative_1:0 "Апраксик I"
- trait_praxis_negative_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] известно, что [Select_CString(ROOT.GetCharacter.IsFemale, 'она', 'он' )] с трудом соответствует стандартам пути к Алаксону."
+ trait_praxis_negative_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'известна', 'известен' )] тем, что [Select_CString(ROOT.GetCharacter.IsFemale, 'она', 'он' )] с трудом соответствует стандартам пути к Алаксону."
  trait_praxis_positive_1:0 "Праксик I"
  trait_praxis_positive_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] следует философии пути к Алаксону."
  trait_praxis_positive_2:0 "Праксик II"

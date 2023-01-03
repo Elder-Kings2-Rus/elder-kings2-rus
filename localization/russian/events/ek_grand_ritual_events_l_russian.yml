@@ -89,7 +89,7 @@
  grand_ritual.1111.b:0 "Несчастье"
  
  grand_ritual.1120.t:0 "Письмо в прошлое" #someone find a better word than antediluvian
- grand_ritual.1120.desc:0 "-Character- is known to have an extended their life.\nTry getting their secrets" #find someone who has extended life ritual complete, or create a 'hermit'. 1 preferable. can check if have story still when that part is done
+ grand_ritual.1120.desc:0 "Известно, что данной личности удалось увеличить продолжительность своей жизни.\nЯ [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] попытаться раскрыть этот секрет." #find someone who has extended life ritual complete, or create a 'hermit'. 1 preferable. can check if have story still when that part is done
  grand_ritual.1120.a:0 "Лесть/Убеждение - дипломатическая проверка" #largely same for ruler/hermit
  grand_ritual.1120.b:0 "Угроза - проверка на основе ужаса" #hermit might just disappear, blackmail if you have hook?
  grand_ritual.1120.c:0 "Кража - проверка на основе интриги" #can be imprisoned if caught stealing

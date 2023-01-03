@@ -178,7 +178,7 @@
  ek_religious_decision.0414.a:0 "Отныне в Совете Восьми нас будет представлять архипрелат!"
  ek_religious_decision.0414.b:0 "Мы не откажемся от своей независимости так легко."
  
- ek_religious_decision.0418.desc:0 "Похоже, [secular_ruler.GetTitledFirstName] успешно [Select_CString(secular_ruler, 'подала', 'подал' )] прошение [coe_leader.GetTitledFirstName] на место в Совете Восьми.\n\nТеперь [faith_add_council.GetName] будет иметь равное место в Совете и сможет добиваться или предотвращать реформы и изменения доктрины на последующих Соборах."
+ ek_religious_decision.0418.desc:0 "Похоже, [secular_ruler.GetTitledFirstName] успешно [Select_CString(secular_ruler.IsFemale, 'подала', 'подал' )] прошение [coe_leader.GetTitledFirstName] на место в Совете Восьми.\n\nТеперь [faith_add_council.GetAdjective] будет иметь равное место в Совете и сможет добиваться или предотвращать реформы и изменения доктрин при последующих обсуждениях этих вопросов."
  ek_religious_decision.0418.a:0 "Эти новые члены, безусловно, усилят всех нас!"
  ek_religious_decision.0418.b:0 "Они становятся сильнее..."
  

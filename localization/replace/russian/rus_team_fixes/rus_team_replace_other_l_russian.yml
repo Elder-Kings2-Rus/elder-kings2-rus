@@ -9,3 +9,8 @@
  GOVERNMENT_HOLDING_INFO:0 "- Можно включать [holding|El]: [HOLDING_TYPE.GetName|V]"
  world_innovation_camels:0 "Пустыни Хаммерфелла, Йокуды, и Анеквины"
  RULDER_DESIGNER_ETHNICITY_LABEL: "Этническая принадлежность"
+ # заглушки для энциклопедии
+ game_concept_required_task_5:0 "Задача 5"
+ game_concept_required_task_5_desc:0 "Разработчики пока не написали описание. Это временная заглушка."
+ game_concept_required_task_6:0 "Задача 6"
+ game_concept_required_task_6_desc:0 "Разработчики пока не написали описание. Это временная заглушка."
