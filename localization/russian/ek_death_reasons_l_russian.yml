@@ -5,7 +5,7 @@
  death_pelinal:0 "[Select_CString(CHARACTER.IsFemale, 'разрезана', 'разрезан' )] на куски"
  death_pelinal_killer:0 "[Select_CString(CHARACTER.IsFemale, 'разрезана', 'разрезан' )] на куски королями-волшебниками [TARGET_CHARACTER.GetUIName]"
  death_red_mountain:0 "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] неизвестными у Красной горы"
- death_ascended:0 "[Select_CString(CHARACTER.IsFemale, 'вознеслась', 'вознесся' )] к божеству"
+ death_ascended:0 "[Select_CString(CHARACTER.IsFemale, 'стала', 'стал' )] божеством в"
  death_alessia:0 "[Select_CString(CHARACTER.IsFemale, 'стала', 'стал' )] первым драгоценным камнем в Амулете Королей"
  death_consumed:0 "[Select_CString(CHARACTER.IsFemale, 'покусана', 'покусан' )] "
  death_consumed_killer:0 "[Select_CString(CHARACTER.IsFemale, 'покусана', 'покусан' )] [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'им персонажем', '' )]"

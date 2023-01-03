@@ -1,7 +1,7 @@
 ﻿l_russian:
  ek_culture_creation_decision.0001.t:0 "[new_culture.GetName] из владения [new_culture_duchy.GetNameNoTier]"
  ek_culture_creation_decision.0001.desc_intro:0 "Давным-давно [new_culture.GetName|l], потерянное племя нашего народа, сформировали развитое общество.\n\nК сожалению, их история была потеряна в тумане времени, но благодаря работе наших ученых, раскопкам и переводам старых текстов, я, наконец, могу поведать историю их культуры и распространить её среди моего народа."
- ek_culture_creation_decision.0001.desc_mid:0 "\n\nНекоторые утверждают, что они —  [new_culture.GetName|l], как говорят им их сердца, и с ними начинается новая эпоха для [new_culture.GetCollectiveNoun|l]ого народа."
+ ek_culture_creation_decision.0001.desc_mid:0 "\n\nНекоторые утверждают, что они —  [new_culture.GetName|l], как говорят им их сердца, и с ними начинается новая эпоха для #L [new_culture.GetCollectiveNoun|l]ого#! народа."
  ek_culture_creation_decision.0001.desc_personal:0 "\n\nПоскольку я [Select_CString(ROOT.Char.IsFemale, 'сама', 'сам' )] почитаю эти традиции, я поведу наш возрождённый народ, и мы снова будем процветать в Тамриэле!"
  ek_culture_creation_decision.0001.a:0 "Мы вступаем в новую эпоху!"
  ek_culture_creation_decision.0001.b:0 "Для меня и моего народа начинается новая эпоха!"
