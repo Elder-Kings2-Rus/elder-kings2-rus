@@ -727,7 +727,7 @@
  doctrine_pantheon_nord_name:0 "Пантеон нордов"
     doctrine_pantheon_nord_desc:0 "Мы поклоняемся традиционным нордским божествам: Мёртвым Богам, которые сражались и умерли, дабы наступил новый цикл; Богам Очага, которые следят за текущим циклом; Богам Испытания, которые угрожают Очагу, и Сумеречным Богам, которые открывают следующий цикл."
     doctrine_parameter_pantheon_adds_deities_nord:0 "Добавит следующих богов в [pantheon|El]: Кин, Мара, Дибелла, Стун, Джунал, Шор, Тсун, Оркей, Алдуин"
- doctrine_pantheon_the_one_name:0 "Единственный"
+ doctrine_pantheon_the_one_name:0 "Единый"
     doctrine_pantheon_the_one_desc:0 "Верховный Дух — единственное существо, достойное поклонения. Обезьяний Пророк указал нам путь, и благодаря его учениям мы освободились от эльфийского владычества."
     doctrine_parameter_devotion_gives_reduced_cb_cost_against_elves:0 "Каждый уровень [Concept( 'piety_experience', 'набожности' )|E] снижает стоимость [casus_belli|El] против эльфийских правителей на #P 10%#!"
  doctrine_pantheon_lorkhan_name:0 "Лорхан"

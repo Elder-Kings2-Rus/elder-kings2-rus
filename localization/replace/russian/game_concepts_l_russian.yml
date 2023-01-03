@@ -31,7 +31,7 @@
  game_concept_era_desc:1 "[Concept('innovations', 'инновации')|E] могут быть открыты, только если [Concept('culture', 'культура')|E] достигла требуемой эры. Следующая эра может начаться только после определенного года, и если было открыто не менее #V 50%#! инноваций предыдущей эры.\n\n[Concept('tribal_government', 'Племенные')|E] Правители могут использовать только $culture_era_tribal$ инновации."
 
 # Barony to Lordship Tier replacement
- game_concept_barony_desc:0 "$game_concept_baronies$ являются самыми низкоранговыми [Concept('titles', 'титулами')|E] и имеют наименьший след на карте, являются частью более крупных [Concept('counties', 'графств')|E].\n\n$game_concept_barony$ титулы всегда должны иметь [Concept('holder', 'наместника')|E]."
+ game_concept_barony_desc:0 "$game_concept_baronies$ — самые низкие [titles|El] и самые мелкие землевладения на карте. Они образуют более крупные [counties|El].\n\nЭти титулы всегда должны иметь [Concept('holder', 'владетеля')|E]."
 
  game_concept_county_desc:0 "$game_concept_county$ - это [Concept('titles', 'титул')|E] рангом ниже [Concept('duchy', 'герцогства')|E] и выше [Concept('barony', 'баронства')|E].\n\nТитул включает [Concept('county_capital', 'столицу')|E] графства, а также [Concept('de_jure', 'де-юре')|E] права на все лордства в графстве.\n\n\nCounties всегда имеют [Concept('holder', 'наместника')|E], так как столицы графств не могут быть разрушены."
 

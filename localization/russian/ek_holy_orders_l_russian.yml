@@ -1,29 +1,29 @@
 ﻿l_russian:
  #Default
- holy_order_default:1 "[FAITH.GetNameNoTooltip]ий отряд из домена [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_default:1 "[FAITH.GetNameNoTooltip]ий отряд из владения [TITLE.GetNameNoTierNoTooltip]"
  #Dunmer
- holy_order_dunmer:0 "Боевые Ординаторы из домена [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_dunmer:0 "Боевые Ординаторы из владения [TITLE.GetNameNoTierNoTooltip]"
  #Dwemer
  holy_order_artificer:0 "[FAITH.GetNameNoTooltip]ие Искусники"
- holy_order_craftlords:0 "Владыки ремесла из домена [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_craftlords:0 "Владыки ремесла из владения [TITLE.GetNameNoTierNoTooltip]"
  #Atmoran
- holy_order_companions:0 "[FAITH.GetNameNoTooltip]ие Соратники из домена [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_companions:0 "[FAITH.GetNameNoTooltip]ие Соратники из владения [TITLE.GetNameNoTierNoTooltip]"
  #Akaviri
- holy_order_syffim:0 "[FAITH.GetNameNoTooltip]ие Сиффимы из домена [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_syffim:0 "[FAITH.GetNameNoTooltip]ие Сиффимы из владения [TITLE.GetNameNoTierNoTooltip]"
  #Fox People
- holy_order_judicators:0 "[FAITH.GetNameNoTooltip]ие Джакспуры из домена [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_judicators:0 "[FAITH.GetNameNoTooltip]ие Джакспуры из владения [TITLE.GetNameNoTierNoTooltip]"
  #Special
  holy_order_necromancers_god:0 "Некроманты [FAITH.HighGodNamePossessive]"
- holy_order_necromancers:0 "[FAITH.GetNameNoTooltip]ие Некроманты из домена [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_necromancers:0 "[FAITH.GetNameNoTooltip]ие Некроманты из владения [TITLE.GetNameNoTierNoTooltip]"
  holy_order_silencers_god:0 "Душители [FAITH.HighGodNamePossessive]"
  holy_order_silencers:0 "[FAITH.GetNameNoTooltip]ие Душители [TITLE.GetNameNoTierNoTooltip]"
  holy_order_vampire_god:0 "Хозяева крови [FAITH.HighGodNamePossessive]"
- holy_order_vampire:0 "Хозяева крови из домена [TITLE.GetNameNoTierNoTooltip]"
- holy_order_warden:0 "[FAITH.GetNameNoTooltip]ие Хранители из домена [TITLE.GetNameNoTierNoTooltip]"
- holy_order_spirit_wardens:0 "[FAITH.GetNameNoTooltip]ие Духовные хранители из домена [TITLE.GetNameNoTierNoTooltip]""
- holy_order_cultists:0 "Культисты [FAITH.HighGodNamePossessive] из домена [TITLE.GetNameNoTierNoTooltip]"
- holy_order_champions:0 "[FAITH.GetNameNoTooltip]ие Чемпионы из домена [TITLE.GetNameNoTierNoTooltip]"
- holy_order_zealot:0 "[FAITH.GetNameNoTooltip]ие Фанатики из домена [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_vampire:0 "Хозяева крови из владения [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_warden:0 "[FAITH.GetNameNoTooltip]ие Хранители из владения [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_spirit_wardens:0 "[FAITH.GetNameNoTooltip]ие Духовные хранители из владения [TITLE.GetNameNoTierNoTooltip]""
+ holy_order_cultists:0 "Культисты [FAITH.HighGodNamePossessive] из владения [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_champions:0 "[FAITH.GetNameNoTooltip]ие Чемпионы из владения [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_zealot:0 "[FAITH.GetNameNoTooltip]ие Фанатики из владения [TITLE.GetNameNoTierNoTooltip]"
  #Named
  holy_order_pride_of_alkosh:0 "Прайд Алкоша"
  holy_order_stags_of_zen:0 "Олени З'ена"
@@ -43,7 +43,7 @@
  holy_order_meridia:0 "Рыцари Сверкающего клинка"
  
  #Generic
- holy_order_knights:0 "[FAITH.GetNameNoTooltip]ие Рыцари из домена [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_knights:0 "[FAITH.GetNameNoTooltip]ие Рыцари из владения [TITLE.GetNameNoTierNoTooltip]"
  holy_order_knights_of_highgod:0 "Рыцари [FAITH.WarGodNamePossessive]"
  holy_order_knights_wargod:0 "Рыцари [FAITH.WarGodNamePossessive]"
  holy_order_knights_healthgod:0 "Рыцари [FAITH.HealthGodNamePossessive]" 
@@ -56,8 +56,8 @@
  holy_order_knights_nightgod:0 "Рыцари [FAITH.NightGodNamePossessive]" 
  holy_order_knights_watergod:0 "Рыцари [FAITH.WaterGodNamePossessive]" 
  holy_order_knights_of_realm:0 "Рыцари [FAITH.DivineRealmPossessive]"
- holy_order_paladins:0 "[FAITH.GetNameNoTooltip]ие Паладины из домена [TITLE.GetNameNoTierNoTooltip]"
- holy_order_warriors:0 "[FAITH.GetNameNoTooltip]ие Воины из домена [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_paladins:0 "[FAITH.GetNameNoTooltip]ие Паладины из владения [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_warriors:0 "[FAITH.GetNameNoTooltip]ие Воины из владения [TITLE.GetNameNoTierNoTooltip]"
  holy_order_warriors_wargod:0 "Воины [FAITH.WarGodNamePossessive]"
  holy_order_warriors_healthgod:0 "Воины [FAITH.HealthGodNamePossessive]" 
  holy_order_warriors_fertilitygod:0 "Воины [FAITH.FertilityGodNamePossessive]" 
