@@ -152,7 +152,7 @@
  nick_the_avenger_of_twin_suthay:0 "[Select_CString(CHARACTER.IsFemale, 'Мстительница Сутай-близнецов', 'Мститель Сутай-близнецов' )]"
  nick_the_lamented:0 "[Select_CString(CHARACTER.IsFemale, 'Оплакиваемая', 'Оплакиваемый' )]"
  nick_the_maid:0 "Служанка"
- nick_last_king_ayleids:0 "Последний Король Айлейдов"
+ nick_last_king_ayleids:0 "Последний король айлейдов"
  nick_green_lady:0 "Зелёная Леди"
  nick_the_sightless:0 "[Select_CString(CHARACTER.IsFemale, 'Незрячая', 'Незрячий' )]"
  nick_the_agent:0 "Агент"
