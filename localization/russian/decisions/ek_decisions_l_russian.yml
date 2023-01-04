@@ -99,7 +99,7 @@
  consecrate_new_holy_site_decision_effect_1:0 "Наше столичное графством станет новым [Concept( 'holy_site', 'священным местом' )|El].\nПравители смогут посещать его во время [Concept( 'pilgrimages', 'паломничеств' )|El]."
  consecrate_new_holy_site_decision_effect_2:0 "#weak Каждая [faith|El] может иметь до 9 священных мест. Каждое существующее священное место усложняет создание нового.#!"
  consecrate_new_holy_site_decision_effect_3_a:0 "Будет создан новый слот для [Concept( 'special_building', 'особой постройки' )|El], позволяющий построить священное здание, которое соответствует вашему основному [Concept( 'pantheon', 'пантеону' )|E] и [Concept( 'doctrine', 'доктрине' )|E]."
- consecrate_new_holy_site_decision_effect_3_b:0 "Поскольку в нашей столице уже есть Священное [special_building|El], мы сможем использовать его в своих целях.\n#weak Главный [pantheon|El] [Concept( 'doctrine', 'доктрины' )|E] определяет, какой тип священного здания использует наша конфессия.#!"
+ consecrate_new_holy_site_decision_effect_3_b:0 "Поскольку в нашей столице уже есть священная [special_building|El], мы сможем использовать её в своих целях.\n#weak Главный [pantheon|El] [Concept( 'doctrine', 'доктрины' )|E] определяет, какой тип священного здания использует наша конфессия.#!"
  capital_shares_heritage:0 "Ваша [realm_capital|El] разделяет ваше [heritage|El]"
  capital_shares_culture:0 "Ваша [realm_capital|El] разделяет вашу [Concept( 'culture', 'культуру' )|E]"
  capital_shares_faith:0 "Ваша [realm_capital|El] разделяет вашу [Concept( 'faith', 'конфессию' )|E]"
