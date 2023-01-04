@@ -27,7 +27,7 @@
  ek_steward_task.0001.nomadic_culture_not_native_tooltip:0 "Кочевой [Concept( 'culture', 'культуре' )|E] требуется больше времени, чтобы обосноваться на любой территории, но она не страдает от огромного штрафа, предоставляемого не-[Concept( 'native', 'коренными' )|E] культурами"
  ek_steward_task.0001.fallback_culture_1:0 "Пригласить #L [fallback_culture_1.GetCollectiveNoun|l]их#! поселенцев."
  ek_steward_task.0001.fallback_culture_2:0 "Пригласить #L [fallback_culture_2.GetCollectiveNoun|l]их#! поселенцев."
- ek_steward_task.0001.fallback_culture_2:0 "Пригласить #L [fallback_culture_3.GetCollectiveNoun|l]их#! поселенцев."
+ ek_steward_task.0001.fallback_culture_3:0 "Пригласить #L [fallback_culture_3.GetCollectiveNoun|l]их#! поселенцев."
  ek_steward_task.0001.convert_native_fallback_culture_tooltip:0 "Поскольку нам не хватает каких-либо [Concept( 'native', 'коренных' )|E] или [Concept( 'nomadic', 'кочевнических' )|E] культур, мы вынуждены полагаться на иностранных поселенцев, которым понадобятся десятилетия, чтобы почувствовать себя как дома."
  ek_steward_task.0001.refresh:0 "Есть ли еще кто-нибудь, кого я могу пригласить?"
  ek_steward_task.0001.refresh_cultures:0 "Вам будет предоставлен новый список культур"
