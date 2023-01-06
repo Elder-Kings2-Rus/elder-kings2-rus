@@ -120,7 +120,7 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_arcana_bad_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] кажется [Select_CString(ROOT.GetCharacter.IsFemale, 'лишенной', 'лишенным' )] способностей к магии, поскольку не может читать заклинания без больших усилий."
 
  trait_dragonborn:0 "[Select_CString(ROOT.Char.IsFemale, 'Драконорождённая', 'Драконорождённый' )]"
- trait_dragonborn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )] с кровью и душой дракона. Известно, что драконорожденные пользуются благосклонностью богов."
+ trait_dragonborn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )] с кровью и душой дракона. Известно, что драконорождённые пользуются благосклонностью богов."
 
  trait_bagarn:0 "Последний из своего рода"
  trait_bagarn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'последняя', 'последний' )] из своего рода. Нет никакой надежды на то, что [ROOT.GetCharacter.GetHerHim] когда-нибудь снова увидит своих родных."
@@ -297,7 +297,7 @@ trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoToolt
 
  #trait_furstock_cathay:0 "Cathay"
  trait_furstock_cathay:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Катай' )]"
- trait_furstock_cathay_desc:0 "Катай немного крупнее и сильнее, чем Сутай-рат, рождаются, когда Массер восходит и полная Секунда, у них стопоходящие ноги."
+ trait_furstock_cathay_desc:0 "Катай немного крупнее и сильнее, чем Сутай-рат. Они рождаются, когда Массер восходит, а Секунда полная. А ещё у Катай стопоходящие ноги."
 
  #trait_furstock_cathay_raht:0 "Cathay-Raht"
  trait_furstock_cathay_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Катай-рат' )]"
@@ -313,7 +313,7 @@ trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoToolt
  
  #trait_furstock_ohmes:0 "Ohmes"
  trait_furstock_ohmes:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Ом' )]"
- trait_furstock_ohmes_desc:0 "Ом рождаются, когда Массер только зарождается, а Секунда уже полная, их описывают как человекоподобных и мужеподобных, с ярко выраженными эльфийскими чертами лица, похожих на Босмеров, хотя иногда они ниже ростом. Чтобы не быть принятыми за таковых, многие Ом татуируют или раскрашивают свои лица, чтобы походить на своих собратьев."
+ trait_furstock_ohmes_desc:0 "Ом рождаются, когда Массер только восходит, а Секунда уже полная, их описывают как человекоподобных и мужеподобных, с ярко выраженными эльфийскими чертами лица, похожих на Босмеров, хотя иногда они ниже ростом. Чтобы не быть принятыми за таковых, многие Ом татуируют или раскрашивают свои лица, чтобы походить на своих собратьев."
 
  #trait_furstock_ohmes_raht:0 "Ohmes-Raht"
  trait_furstock_ohmes_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Ом-рат' )]"
@@ -329,7 +329,7 @@ trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoToolt
 
  #trait_furstock_suthay:0 "Suthay"
  trait_furstock_suthay:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Сутай' )]"
- trait_furstock_suthay_desc:0 "Как и их старшие братья, Сутай-раты, они двуногие и имеют пальцеобразные ноги. Сутай рождаются, когда Массер и Секунда еще не родились."
+ trait_furstock_suthay_desc:0 "Как и их старшие братья, Сутай-раты, они двуногие и имеют пальцеобразные ноги. Сутай рождаются, когда Массер и Секунда ещё не взошли."
 
  #trait_furstock_suthay_raht:0 "Suthay-Raht"
  trait_furstock_suthay_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Сутай-рат' )]"
@@ -344,11 +344,11 @@ trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoToolt
  trait_furstock_tojay_raht_desc:0 "Тоджай-рат рождаются, когда Массер восходит а Секунда убывает, о них известно немногое, кроме того, что они двуногие и имеют пальцеобразные ноги."
 
  trait_laid_egg:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Отложила', 'Отложил' )] яйцо"
- trait_laid_egg_desc:0 "этот персонаж отложил яйцо недавно."
+ trait_laid_egg_desc:0 "Этот персонаж отложил яйцо недавно."
  trait_laid_egg_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'Отложила', 'Отложил' )] яйцо недавно."
  
  trait_argonian_behemoth:0 "Бегемот"
- trait_argonian_behemoth_desc:0 "этот персонаж является большим толстым бегемотом"
+ trait_argonian_behemoth_desc:0 "Этот персонаж является большим толстым бегемотом"
  trait_lich_argonian_behemoth_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является большим толстым бегемотом"
 
  ### PRAXIS
@@ -372,11 +372,11 @@ trait_praxis_negative:0 "Апраксик"
  
  ### Court types traits
  trait_magical_court_1:1 "Придворный Арканист"
- trait_magical_court_1_desc:1 "этот персонаж провёл как минимум [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] лет живя в полном жизни и магии [GetCourtType('court_magical').GetName] наполненным магами и колдунами."
- trait_magical_court_1_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'провела', 'провёл' )] [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] лет живя в полном жизни и магии [GetCourtType('court_magical').GetName] наполненным магами и колдунами."
+ trait_magical_court_1_desc:1 "Этот персонаж прослужил не менее [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] лет у правителя, имеющего [GetCourtType('court_magical').GetName] со множеством магов и колдунов."
+ trait_magical_court_1_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'провела', 'провёл' )] [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] лет у правителя, имеющего [GetCourtType('court_magical').GetName] со множеством магов и колдунов."
  trait_magical_court_2:1 "Ценный придворный Арканист"
- trait_magical_court_2_desc:1 "этот персонаж провёл как минимум [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] лет живя в поистине величественном [GetCourtType('court_magical').GetName], обмениваясь секретами и обучаясь у могущественных волшебников и выдающихся колдунов."
- trait_magical_court_2_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'провела', 'провёл' )] [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] лет живя в поистине величественном [GetCourtType('court_magical').GetName], обмениваясь секретами и обучаясь у могущественных волшебников и выдающихся колдунов."
+ trait_magical_court_2_desc:1 "Этот персонаж прослужил не менее [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] лет у правителя, имеющего величественный [GetCourtType('court_magical').GetName] со множеством могущественных магов и выдающихся колдунов."
+ trait_magical_court_2_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'провела', 'провёл' )] [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] лет у правителя, имеющего величественный [GetCourtType('court_magical').GetName] со множеством могущественных магов и выдающихся колдунов."
 
  ### Class traits
 

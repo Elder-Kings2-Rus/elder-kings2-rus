@@ -27,7 +27,7 @@
  game_concept_greater:0 "Большое"
  game_concept_greater_desc:0 "Большое заклинание в четыре раза мощнее слабого, но тратит только 340% маны."
  game_concept_grand:0 "Великое"
- game_concept_grand_desc:0 "Великое заклинание в пять раз мощнее слабого, но тратит только только 400% маны."
+ game_concept_grand_desc:0 "Великое заклинание в пять раз мощнее слабого, но тратит только 400% маны."
  magic_lifestyle_rank_up_indication:1 "Я могу получить [perk|El] в [Concept( 'magic_lifestyle', 'магическом образе жизни' )|E]"
 
  ARCANA_VALUE_FORMAT:0 "$KEY$: [arcana_i]$VALUE|=+0$"
