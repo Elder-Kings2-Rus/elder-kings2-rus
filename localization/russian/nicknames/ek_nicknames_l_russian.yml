@@ -33,7 +33,7 @@
  nick_the_reborn:0 "[Select_CString(CHARACTER.IsFemale, 'Возрождённая', 'Возрождённый' )]"
  nick_the_swan:0 "Лебедь"
  nick_the_negotiator:0 "[Select_CString(CHARACTER.IsFemale, 'Переговорщица', 'Переговорщик' )]"
- nick_the_signifier:1 "[Select_CString(CHARACTER.IsFemale, 'Означающая', 'Означающий' )]"
+ nick_the_signifier:1 "Сигнифер"
  nick_the_regal_pirate:0 "[Select_CString(CHARACTER.IsFemale, 'Королевская Пиратка', 'Королевский Пират' )]"
  nick_hand_free:0 "Вольная Рука"
  nick_the_gifted:0 "[Select_CString(CHARACTER.IsFemale, 'Одаренная', 'Одаренный' )]"
