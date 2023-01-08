@@ -55,7 +55,7 @@
  
  # Parrot dies :(
  ek_pet_animal.0199.t:0 "[ROOT.Char.Custom('ParrotStoryName')]: День скорби"
- ek_pet_animal.0199.desc:0 "[ROOT.Char.Custom('ParrotStoryName')] больше не так молод и бодр как раньше, я все еще слышу [ROOT.Char.Custom('ParrotStoryHerHis')] пение, но оно больше не такое яркое и сильное как раньше.\n\nЯ нежно погладил [ROOT.Char.Custom('ParrotStoryHerHis')] [ROOT.Char.Custom('ParrotPlumageColor')] перья и прислушался к [ROOT.Char.Custom('ParrotStoryHerHim')] тихому пению и попыткам взмахнуть [ROOT.Char.Custom('ParrotStoryHerHis')] крыльями, но когда наступила тишина, я понял что [ROOT.Char.Custom('ParrotStoryHerHis')] пение не разбудит меня следующим утром..."
+ ek_pet_animal.0199.desc:0 "[ROOT.Char.Custom('ParrotStoryName')] больше не так молод и бодр как раньше, я все ещё слышу [ROOT.Char.Custom('ParrotStoryHerHis')] пение, но оно больше не такое яркое и сильное как раньше.\n\nЯ нежно погладил [ROOT.Char.Custom('ParrotStoryHerHis')] [ROOT.Char.Custom('ParrotPlumageColor')] перья и прислушался к [ROOT.Char.Custom('ParrotStoryHerHim')] тихому пению и попыткам взмахнуть [ROOT.Char.Custom('ParrotStoryHerHis')] крыльями, но когда наступила тишина, я понял что [ROOT.Char.Custom('ParrotStoryHerHis')] пение не разбудит меня следующим утром..."
  ek_pet_animal.0199.a:0 "Я буду скучать по тебе, [ROOT.Char.Custom('ParrotStoryName')]!"
  
  pet_parrot_decision:0 "Погладить [ROOT.Char.Custom('ParrotStoryName')]"

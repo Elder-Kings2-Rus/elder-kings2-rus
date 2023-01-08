@@ -2,7 +2,7 @@
  # Tourney Troubles
  #   Initial Event:
  relation_upgrade.0001.t:0 "Неприятности на турнире"
- relation_upgrade.0001.desc.opening:0 "Как [ROOT.Char.GetTitleAsNameNoTooltip], я [Select_CString(CHARACTER.IsFemale, 'была обязана', 'был обязан')] посетить местный [ROOT.Char.Custom('MartialTournamentAdjective')] турнир, но участники задерживаются — турнир не начнётся еще как минимум час.\n\n"
+ relation_upgrade.0001.desc.opening:0 "Как [ROOT.Char.GetTitleAsNameNoTooltip], я [Select_CString(CHARACTER.IsFemale, 'была обязана', 'был обязан')] посетить местный [ROOT.Char.Custom('MartialTournamentAdjective')] турнир, но участники задерживаются — турнир не начнётся ещё как минимум час.\n\n"
  relation_upgrade.0001.desc.rival:0 "[rival.Custom2('MyCharacterIntroduction', ROOT.Char)|U] находится здесь, и, как обычно, ведёт себя по-хамски. [rival.GetHerHis|U] постоянные жалобы делают всё #EMP даже более#! жалким, чем обычно."
  relation_upgrade.0001.desc.friend:0 "Оглядевшись, я замечаю, что [friend.Custom2('MyCharacterIntroduction', ROOT.Char)|U], сидит в павильоне и находится на полпути к смерти от скуки."
  relation_upgrade.0001.desc.lover:0 "Оглядевшись, я замечаю, что [lover.Custom2('MyCharacterIntroduction', ROOT.Char)], сидит на трибунах и выглядит очень одиноко."

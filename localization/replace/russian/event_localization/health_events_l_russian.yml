@@ -12,9 +12,9 @@
  health.1007.court_physician.desc:0 "\n\n"Да, к сожалению, это гниль. Я знаю только один эффективный способ лечения...""
 
  health.2101.smallpox_outbreak.desc:0 "Проклятие смерти обрушилось на мой двор - обнаружен случай заболевания Скверной!"
- health.2101.smallpox_spreads.desc:0 "Еще одна душа была проклята Скверной."
+ health.2101.smallpox_spreads.desc:0 "Ещё одна душа была проклята Скверной."
  health.2101.bubonic_plague_outbreak.desc:2 "[ROOT.Char.GetFaith.DeathDeityName|U] поднял [ROOT.Char.GetFaith.DeathDeityHerHis] косу над моим королевством - обнаружен случай страшного Кнахатенского гриппа!"
- health.2101.bubonic_plague_spreads.desc:0 "Еще одна душа стоит у дверей смерти, ужасная засохшая кровь покрывает ноздри [sick_character.GetHerHis]."
+ health.2101.bubonic_plague_spreads.desc:0 "Ещё одна душа стоит у дверей смерти, ужасная засохшая кровь покрывает ноздри [sick_character.GetHerHis]."
  health.2101.imporant.desc:0 "Мой бедный [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sick_character')] [sick_character.GetFirstName] борется за жизнь [sick_character.GetHerHis]."
  
  disease_smallpox:0 "Скверна."

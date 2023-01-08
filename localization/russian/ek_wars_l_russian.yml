@@ -37,8 +37,8 @@
  PIRATE_EXTRACT_TRIBUTE_CB_WAR_NAME:2 "Взимать дань с [DEFENDER.GetShortUINameNotMe]"
  PIRATE_EXTRACT_TRIBUTE_CB_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  PIRATE_EXTRACT_TRIBUTE_OCCUPIED_COUNTY_TRIBUTE:0 "[THIS.GetLandedTitle.GetBaseName] пошлет вам дань в размере 12 месяцев местного дохода в обмен за свободу"
- pirate_extract_tribute_cb_victory_desc_attacker:0 "Вы получаете большую дань от [defender.GetShortUIName|U] и все еще оккупированных графств".
- pirate_extract_tribute_cb_victory_desc:0 "[defender.GetShortUIName|U] взимает большую дань от [defender.GetShortUIName|U] и все еще оккупированных графств."
+ pirate_extract_tribute_cb_victory_desc_attacker:0 "Вы получаете большую дань от [defender.GetShortUIName|U] и все ещё оккупированных графств".
+ pirate_extract_tribute_cb_victory_desc:0 "[defender.GetShortUIName|U] взимает большую дань от [defender.GetShortUIName|U] и все ещё оккупированных графств."
  pirate_extract_tribute_cb_defeat_desc_defender:0 "[attacker.GetShortUIName|U] вынужден заплатить за ущерб, нанесенный войной."
  pirate_extract_tribute_cb_white_peace_desc_defender:0 "[attacker.GetShortUIName|U] не сможет получить с вас дань".
  pirate_extract_tribute_cb_white_peace_desc:0 "[attacker.GetShortUIName|U] не сможет получить никакой дани от [defender.GetShortUIName|U]".
@@ -52,7 +52,7 @@
  attrebus_potentate_cb_victory_desc_defender:0 "[attacker.GetShortUIName|U] сокрушит Потентат, и Сиродил затаит дыхание, поскольку военачальник навсегда определит его историю...".
  attrebus_potentate_cb_victory_desc_attacker:0 "Потентат уничтожен. Поскольку Сиродил нуждается в сильной направляющей руке, а Совету Старейшин необходимо провести некоторые реформы, ты останешься за главного... на некоторое время".
  attrebus_potentate_cb_victory_desc:0 "[attacker.GetShortUIName|U] сокрушает Потентат, и Сиродил затаил дыхание, поскольку военачальник навсегда определит его историю...".
- attrebus_potentate_cb_victory_with_liodes_desc:0 "Если [liodes.GetNameNicknamed], или [liodes.GetHerHis] потомки, все еще в войне, они получат все земли, принадлежащие Потентату в пределах любого [de_jure|El] герцогства, в котором они владеют землями".
+ attrebus_potentate_cb_victory_with_liodes_desc:0 "Если [liodes.GetNameNicknamed], или [liodes.GetHerHis] потомки, все ещё в войне, они получат все земли, принадлежащие Потентату в пределах любого [de_jure|El] герцогства, в котором они владеют землями".
  attrebus_potentate_cb_seize_potentate_held_land:0 "Вы захватываете все земли, принадлежащие непосредственно Потентату"
  dres_argonian_war_cb_seize_thorn:0 "Мадеси захватывает Торн и провозглашает себя королем его земель"
  dres_argonian_war_cb_claim_dres:0 "Савор использует поддержку своих союзников по войне, чтобы объявить себя правителем Дома Дрес"
