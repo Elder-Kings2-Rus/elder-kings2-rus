@@ -34,7 +34,7 @@
  varangian.1002.a:0 "Добро пожаловать домой, [returning_varangian.GetFirstNameNoTooltip]."
 
  varangian.3001.t:0 "Имперский Легион: почётная смерть"
- varangian.3001.desc:0 "[varangian.Custom2('MyCharacterIntroduction', ROOT.Char)] [Select_CString(varangian.IsFemale, 'погибла', 'погиб' )] во время службы в Имперском Легионе!\n\nМне пришло послание, в котором [emperor.GetTitledFirstName] восхваляет [varangian.GetHerHis] и описывает, как отважно [varangian.GetSheHe] [Select_CString(varangian.IsFemale, 'сражалась', 'сражался' )], защищая [Select_CString(emperor.IsFemale, 'ее', 'его' )] от подлых убийц.\n\n[varangian.GetFirstNameNoTooltip] не воскреснет от добрых слов, но посмертная награда в виде золота, что [Select_CString(emperor.IsFemale, 'прислала', 'прислал' )] [emperor.GetTitleAsNameNoTooltip|l], поможет унять нашу скорбь."
+ varangian.3001.desc:0 "[varangian.Custom2('MyCharacterIntroduction', ROOT.Char)] [Select_CString(varangian.IsFemale, 'погибла', 'погиб' )] во время службы в Имперском Легионе!\n\nМне пришло послание, в котором [emperor.GetTitledFirstName] восхваляет [varangian.GetHerHis] и описывает, как отважно [varangian.GetSheHe] [Select_CString(varangian.IsFemale, 'сражалась', 'сражался' )], защищая [Select_CString(emperor.IsFemale, 'её', 'его' )] от подлых убийц.\n\n[varangian.GetFirstNameNoTooltip] не воскреснет от добрых слов, но посмертная награда в виде золота, что [Select_CString(emperor.IsFemale, 'прислала', 'прислал' )] [emperor.GetTitleAsNameNoTooltip|l], поможет унять нашу скорбь."
  varangian.3001.a:0 "[Select_CString(varangian.IsFemale, 'Храбрая', 'Храбрый' )] до самого конца, [varangian.GetFirstNameNoTooltip]..."
  
  send_to_varangian_guard_interaction:0 "Отправить в Имперский Легион #weak (Династия)#!"

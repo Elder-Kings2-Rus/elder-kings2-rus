@@ -27,7 +27,7 @@
  pilgrimage.0001.a:0 "[holy_site_1.GetNameNoTierNoTooltip]! [ROOT.Char.GetFaith.PriestNeuterPlural] будут довольны."
  pilgrimage.0001.b:0 "[holy_site_2.GetNameNoTierNoTooltip]! Я посещу [ROOT.Char.GetFaith.HouseOfWorship|l]."
  pilgrimage.0001.c:0 "[holy_site_3.GetNameNoTierNoTooltip]! Как и должен сделать каждый [ROOT.Char.GetFaith.GetAdherentNameNoTooltip|l]."
- pilgrimage.0001.d:0 "Может, куда-то еще..."
+ pilgrimage.0001.d:0 "Может, куда-то ещё..."
  pilgrimage.0001.e:0 "Я [Select_CString(ROOT.Char.IsFemale, 'передумала', 'передумал' )]. Сейчас неподходящее время."
  pilgrimage.0002.a:0 "[holy_site_4.GetNameNoTierNoTooltip]! Благочестивое место."
  pilgrimage.0002.b:0 "[holy_site_5.GetNameNoTierNoTooltip]! [ROOT.Char.GetFaith.HouseOfWorshipPlural] ожидают меня."
@@ -38,7 +38,7 @@
 
  pilgrimage.1001.t:0 "$pilgrimage_header$ отправление"
  pilgrimage.1001.desc.opening:0 "Готовясь к путешествию, я знаю, что я буду в безопасности, ведь со мной [ROOT.Char.GetFaith.PantheonTerm]!"
- pilgrimage.1001.desc.short:0 "\n\nХотя я не буду отсутствовать долго, я молюсь о благополучии земель в мое отсутствие."
+ pilgrimage.1001.desc.short:0 "\n\nХотя я не буду отсутствовать долго, я молюсь о благополучии земель в моё отсутствие."
  pilgrimage.1001.desc.medium:0 "\n\n[ROOT.Char.GetFaith.HighGodNameAlternate] со мной, мои земли могут и подождать, как бы долго я ни [Select_CString(ROOT.Char.IsFemale, 'отсутствовала', 'отсутствовал' )]."
  pilgrimage.1001.desc.long:0 "\n\nМоя точка назначения далеко от дома, но [ROOT.Char.GetFaith.DivineRealm] - мой хозяин, я иду возлагать почести, как любой другой уважающий себя правоверный, а мои земли могут подождать."
  pilgrimage.1001.desc.very_long:0 "\n\n[ROOT.Char.GetFaith.HighGodNameAlternate], я молюсь, чтобы мои земли были под присмотром, ибо меня не будет очень долго."
@@ -87,12 +87,12 @@
  pilgrimage.2005.c:0 "Возможно, мне стоит найти других попутчиков."
 
  pilgrimage.2006.t:0 "$pilgrimage_header$ потерялись!"
- pilgrimage.2006.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'готова', 'готов' )] поклясться, что это был нужный путь!\n\nНи одному моему спутнику - или мне - не удалось найти путь назад к святыне. Мы вообще на те звезды смотрим? Такое ощущение, что мы потратили неделю зазря."
+ pilgrimage.2006.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'готова', 'готов' )] поклясться, что это был нужный путь!\n\nНи одному моему спутнику - или мне - не удалось найти путь назад к святыне. Мы вообще на те звёзды смотрим? Такое ощущение, что мы потратили неделю зазря."
  pilgrimage.2006.a:0 "Мы должны найти проводника любой ценой."
- pilgrimage.2006.b:0 "Честное слово, нам просто надо пройти еще немного..."
+ pilgrimage.2006.b:0 "Честное слово, нам просто надо пройти ещё немного..."
 
  pilgrimage.2007.t:0 "$pilgrimage_header$ размышления"
- pilgrimage.2007.desc:0 "Здесь, поздно ночью, я иногда смотрю на звезды и удивляюсь. [ROOT.Char.GetFaith.PantheonTerm], видно ли меня здесь, так далеко от дома?\n\nДля чего все это?"
+ pilgrimage.2007.desc:0 "Здесь, поздно ночью, я иногда смотрю на звёзды и удивляюсь. [ROOT.Char.GetFaith.PantheonTerm], видно ли меня здесь, так далеко от дома?\n\nДля чего все это?"
  pilgrimage.2007.a:0 "Это благочестивое паломничество."
  pilgrimage.2007.b:0 "То, что я хочу, так это увидеть дальние края."
  pilgrimage.2007.c:0 "Это все ради видимости."
@@ -105,13 +105,13 @@
  pilgrimage.2008.whole_of_body:0 "Ах, этот кашель быстро пройдет."
 
  pilgrimage.2009.t:0 "$pilgrimage_header$ хриплый кашель"
- pilgrimage.2009.desc:0 "Путешествие не идет мне на пользу. Мое здоровье не укрепилось из-за моего стремления получить милость [ROOT.Char.GetFaith.PantheonTerm]. Все становится хуже и хуже. Я не помню, как я дышал без усилий."
+ pilgrimage.2009.desc:0 "Путешествие не идет мне на пользу. Моё здоровье не укрепилось из-за моего стремления получить милость [ROOT.Char.GetFaith.PantheonTerm]. Все становится хуже и хуже. Я не помню, как я дышал без усилий."
  pilgrimage.2009.a:0 "Я дойду до конца. Пусть [ROOT.Char.GetFaith.HighGodNameAlternate] благословит меня."
  pilgrimage.2009.b:0 "Это явно воля [ROOT.Char.GetFaith.HighGodNamePossessive], чтобы я вернулся назад."
 
  # Встреча с мистиком
  pilgrimage.2010.t:0 "Мистик и $pilgrimage_header$"
- pilgrimage.2010.desc:0 "[mystic.GetTitledFirstName] - [Select_CString(mystic.IsFemale, 'одна', 'один' )] из самых странных [Select_CString(mystic.IsFemale, 'путниц', 'путников' )], повстречавшихся мне на пути. [mystic.GetSheHe|U], видимо, [Select_CString(mystic.IsFemale, 'благочестивая верующая', 'благочестивый верующий' )], но [mystic.GetSheHe] также разъясняет природу [ROOT.Char.GetFaith.HighGodName] и что это все значит. Ночью, [mystic.GetHerHis] палатка была освещена свечами, и иногда из нее исходит странное пение и необычный запах благовоний.\n\nЯ не [Select_CString(ROOT.Char.IsFemale, 'была готова', 'был готов' )] к тому, что [mystic.GetFirstNameNoTooltip] предложит мне войти."
+ pilgrimage.2010.desc:0 "[mystic.GetTitledFirstName] - [Select_CString(mystic.IsFemale, 'одна', 'один' )] из самых странных [Select_CString(mystic.IsFemale, 'путниц', 'путников' )], повстречавшихся мне на пути. [mystic.GetSheHe|U], видимо, [Select_CString(mystic.IsFemale, 'благочестивая верующая', 'благочестивый верующий' )], но [mystic.GetSheHe] также разъясняет природу [ROOT.Char.GetFaith.HighGodName] и что это все значит. Ночью, [mystic.GetHerHis] палатка была освещена свечами, и иногда из неё исходит странное пение и необычный запах благовоний.\n\nЯ не [Select_CString(ROOT.Char.IsFemale, 'была готова', 'был готов' )] к тому, что [mystic.GetFirstNameNoTooltip] предложит мне войти."
  pilgrimage.2010.a:0 "Очень любопытно..."
  pilgrimage.2010.a.tt:0 "Вы входите внутрь"
  pilgrimage.2010.b:0 "Нет, спасибо, все это попахивает ересью!"
@@ -127,13 +127,13 @@
  pilgrimage.2012.desc:0 "Я не могу точно вспомнить, что произошло после того, как я вошел в мистическую палатку. Все, что я могу вспомнить, - это смутные образы и головокружение.\n\nТеперь я задаюсь вопросом, а [Select_CString(mystic.IsFemale, 'была', 'был' )] ли [mystic.GetSheHe] здесь вообще..."
  pilgrimage.2012.a:0 "[mystic.GetSheHe|U] имел много странных идей."
 
- pilgrimage.2013.desc:0 "После следования инструкциям от [mystic.GetTitledFirstNamePossessive], я вижу все гораздо яснее. Я #EMP чувствую#! это. [ROOT.Char.GetFaith.PantheonTerm|U], мир, все это проходило через мое тело. Через душу.\n\nКогда я [Select_CString(ROOT.Char.IsFemale, 'вышла', 'вышел' )] из палатки через несколько часов, у меня появляется новое понимание себя и всей жизни."
+ pilgrimage.2013.desc:0 "После следования инструкциям от [mystic.GetTitledFirstNamePossessive], я вижу все гораздо яснее. Я #EMP чувствую#! это. [ROOT.Char.GetFaith.PantheonTerm|U], мир, все это проходило через моё тело. Через душу.\n\nКогда я [Select_CString(ROOT.Char.IsFemale, 'вышла', 'вышел' )] из палатки через несколько часов, у меня появляется новое понимание себя и всей жизни."
  pilgrimage.2013.a:0 "Я [Select_CString(ROOT.Char.IsFemale, 'была слепа', 'был слеп' )], а теперь вижу."
 
  pilgrimage.2014.desc:0 "Когда я [Select_CString(ROOT.Char.IsFemale, 'очнулась', 'очнулся' )] после того, как [Select_CString(ROOT.Char.IsFemale, 'уснула', 'уснул' )] в палатке у [mystic.GetTitledFirstNamePossessive], [mystic.GetSheHe] исчезла. Мои слуги кружились вокруг коврика, на котором я спал, но здесь не было и следа этого мистика.\n\nЯ хотя бы [Select_CString(ROOT.Char.IsFemale, 'выспалась', 'выспался' )]!"
  pilgrimage.2014.a:0 "Почему моя сумка кажется удивительно легкой?"
 
- pilgrimage.2015.desc:0 "Честно говоря, я не [Select_CString(ROOT.Char.IsFemale, 'ожидала', 'ожидал' )], что [mystic.GetTitledFirstName] сможет объяснить свои действия.\n\nЯ все еще с подозрением смотрю на... что бы [mystic.GetSheHe] ни [Select_CString(mystic.IsFemale, 'замышляла', 'замышлял' )], но у меня появились новая почва для размышлений!"
+ pilgrimage.2015.desc:0 "Честно говоря, я не [Select_CString(ROOT.Char.IsFemale, 'ожидала', 'ожидал' )], что [mystic.GetTitledFirstName] сможет объяснить свои действия.\n\nЯ все ещё с подозрением смотрю на... что бы [mystic.GetSheHe] ни [Select_CString(mystic.IsFemale, 'замышляла', 'замышлял' )], но у меня появились новая почва для размышлений!"
  pilgrimage.2015.a:0 "Как ты #EMP можешь#! стать ближе к божествам?"
 
  pilgrimage.2101.t:0 "$pilgrimage_header$ Жажда близости"
@@ -157,7 +157,7 @@
  pilgrimage.2501.c.arrogant:0 "Как ты смеешь трогать мои одеяния, [Select_CString(beggar.IsFemale, 'худородная', 'худородный' )]!?"
 
  pilgrimage.2502.t:0 "$pilgrimage.2501.t$"
- pilgrimage.2502.desc.gave:0 ""Да! Да, спасибо вам, ми[ROOT.Char.Custom('LadyLordWomanMan')], спасибо... [ROOT.Char.GetFaith.HighGodName], это был он? И ему спасибо! Но, о [Select_CString(ROOT.Char.IsFemale, 'щедрейшая', 'щедрейший' )] [ROOT.Char.Custom('LadyLordWomanMan')], я могу попросить еще отсыпать?"
+ pilgrimage.2502.desc.gave:0 ""Да! Да, спасибо вам, ми[ROOT.Char.Custom('LadyLordWomanMan')], спасибо... [ROOT.Char.GetFaith.HighGodName], это был он? И ему спасибо! Но, о [Select_CString(ROOT.Char.IsFemale, 'щедрейшая', 'щедрейший' )] [ROOT.Char.Custom('LadyLordWomanMan')], я могу попросить ещё отсыпать?"
  pilgrimage.2502.desc.refused:0 ""Нет! Нет, ми[ROOT.Char.Custom('LadyLordWomanMan')], пожалуйста, смилуйтесь!"
  pilgrimage.2502.desc.end:0 "Моя сестра больна и отчаянно нуждается в лекарствах! Ваши деньги могли бы спасти ей жизнь, пожалуйста! Мы были бы вам очень признательны!""
  pilgrimage.2502.a:0 "Ээ... ладно. Для лекарств."
@@ -166,7 +166,7 @@
  pilgrimage.2502.c.refused:0 "Я сказал #EMP нет#!! Теперь исчезни!"
 
  pilgrimage.2503.t:0 "$pilgrimage.2501.t$"
- pilgrimage.2503.desc:0 ""Замечательно! Пусть она поскорее оправится от своей болезни. Но могу ли я попросить еще немного? Моя сестра, у нее есть дети, ну и, вы знаете, какие они. Они такие обжоры! Не могли бы вы дать нам чутка еды...?""
+ pilgrimage.2503.desc:0 ""Замечательно! Пусть она поскорее оправится от своей болезни. Но могу ли я попросить ещё немного? Моя сестра, у неё есть дети, ну и, вы знаете, какие они. Они такие обжоры! Не могли бы вы дать нам чутка еды...?""
  pilgrimage.2503.a:0 "Ладно. Хорошо. Дети не должны голодать."
  pilgrimage.2503.b:0 "Я думаю, что [Select_CString(ROOT.Char.IsFemale, 'дала', 'дал' )] уже достаточно."
 
@@ -179,7 +179,7 @@
  pilgrimage.2504.c.sin:0 "Да, да.. а теперь иди."
 
  pilgrimage.2511.t:0 "$pilgrimage_header$ Самоуверенный мелкий лорд"
- pilgrimage.2511.desc.start:0 "[destination_title.GetNameNoTierNoTooltip] привлекает [ROOT.Char.GetFaith.GetNameNoTooltip|l]их паломников со всего мира, так что вполне возможно, что я столкнулся бы с [lordling.Custom2('MyCharacterIntroduction', ROOT.Char)] на своем пути.\n\n #EMP Это#! непостижимо дерзкий способ, как [lordling.GetSheHe] обошелся со мной, отрезав мое окружение от [lordling.GetHerHis] лошади и зовущий меня [ROOT.Char.Custom('InsultNoun')]... #EMP в лицо#!, никак иначе!"
+ pilgrimage.2511.desc.start:0 "[destination_title.GetNameNoTierNoTooltip] привлекает [ROOT.Char.GetFaith.GetNameNoTooltip|l]их паломников со всего мира, так что вполне возможно, что я столкнулся бы с [lordling.Custom2('MyCharacterIntroduction', ROOT.Char)] на своем пути.\n\n #EMP Это#! непостижимо дерзкий способ, как [lordling.GetSheHe] обошелся со мной, отрезав моё окружение от [lordling.GetHerHis] лошади и зовущий меня [ROOT.Char.Custom('InsultNoun')]... #EMP в лицо#!, никак иначе!"
  pilgrimage.2511.desc.wrathful:0 "\n\nМоя кровь кипит, я сдерживаю себя только тем, что [ROOT.Char.GetFaith.PriestNeuterPlural] сказал нам проявлять сдержанность и не позволять нашим эмоциям брать верх."
  pilgrimage.2511.desc.vengeful:0 "\n\nИменно в такие моменты я вспоминаю, что велено нам прощать тех, кто причинил нам зло."
  pilgrimage.2511.desc.vengeful.christian:0 "\n\nВ такие моменты я вспоминаю, что Иисус заповедовал нам подставлять другую щеку."
@@ -220,7 +220,7 @@
  pilgrimage.3102.t:0 "$pilgrimage_header$ Зиярат"
  pilgrimage.3102.desc:0 "Хадж обязателен для всех мусульман, но прочие паломничества распространены куда меньше. Доктрины ислама не требуют совершать зиярат, но у мусульман бывают самые разные причины, чтобы все же отправиться в путь.\n\nДорога уходит вдаль, туда, где ждет меня [destination_title.GetNameNoTierNoTooltip]. Я погружаюсь в размышления и вспоминаю, что сподвигло на зиярат меня..."
  pilgrimage.3102.a:0 "Я хочу узреть величие творения Аллаха во всей красе."
- pilgrimage.3102.b:0 "Мое рвение так велико, что одним лишь хаджем его не утолить."
+ pilgrimage.3102.b:0 "Моё рвение так велико, что одним лишь хаджем его не утолить."
  pilgrimage.3102.c:0 "Моей мятущейся душе нужны ответы, и я надеюсь найти их в далеких краях."
 
  # Hindu Pilgrimage Journey Events
@@ -317,7 +317,7 @@
  pilgrimage.5321.b:0 "$pilgrimage.4001.b$"
 
  pilgrimage.5331.t:0 "$pilgrimage_header$ Хардвар"
- pilgrimage.5331.desc:0 "И вот я в Хардваре, у истока священного Ганга.\n\nГород построили на том месте, куда в свое время сошла богиня Ганга, когда великий Шива выпустил могучую реку из своих волос.\n\nИзвестно, что ее воды смывают грехи, и паломники со всего мира приходят, чтобы совершить омовение. Теперь я могу к ним присоединиться."
+ pilgrimage.5331.desc:0 "И вот я в Хардваре, у истока священного Ганга.\n\nГород построили на том месте, куда в свое время сошла богиня Ганга, когда великий Шива выпустил могучую реку из своих волос.\n\nИзвестно, что её воды смывают грехи, и паломники со всего мира приходят, чтобы совершить омовение. Теперь я могу к ним присоединиться."
  pilgrimage.5331.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5331.b:0 "$pilgrimage.4001.b$"
 
@@ -348,7 +348,7 @@
  pilgrimage.5411.b:0 "$pilgrimage.4001.b$"
 
  pilgrimage.5421.t:0 "$pilgrimage_header$ Сарнатх"
- pilgrimage.5421.desc:0 "Дорога наконец привела меня в Сарнатх, где [ROOT.Char.GetFaith.HighGodName] с древних времен открывает последователям истину и проистекающее из нее учение.\n\nИменно здесь возникла первая школа буддизма, куда по сей день приходят паломники со всего мира."
+ pilgrimage.5421.desc:0 "Дорога наконец привела меня в Сарнатх, где [ROOT.Char.GetFaith.HighGodName] с древних времен открывает последователям истину и проистекающее из неё учение.\n\nИменно здесь возникла первая школа буддизма, куда по сей день приходят паломники со всего мира."
  pilgrimage.5421.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5421.b:0 "$pilgrimage.4001.b$"
 
@@ -384,5 +384,5 @@
 
  # Generic Pilgrimage Return Events
  pilgrimage.9001.t:0 "$pilgrimage_header$ Возвращение"
- pilgrimage.9001.desc:0 "Мое путешествие было долгим, но я, наконец, снова вернулся домой. Хотя многое осталось прежним, кое-что изменилось в том, как [ROOT.Char.GetFaith.PriestNeuterPlural] и [ROOT.Char.GetFaith.BishopNeuterPlural] относятся ко мне.\n\nЯ прошел путь правоверного человека, и они настаивают, что это что-то изменило во мне, независимо от того, вижу я это сам или нет."
+ pilgrimage.9001.desc:0 "Моё путешествие было долгим, но я, наконец, снова вернулся домой. Хотя многое осталось прежним, кое-что изменилось в том, как [ROOT.Char.GetFaith.PriestNeuterPlural] и [ROOT.Char.GetFaith.BishopNeuterPlural] относятся ко мне.\n\nЯ прошел путь правоверного человека, и они настаивают, что это что-то изменило во мне, независимо от того, вижу я это сам или нет."
  pilgrimage.9001.a:0 "Хорошо снова быть дома."

@@ -37,7 +37,7 @@
  A_LIFE_OF_GLORY_TRIBAL_RULER_PRESTIGE_LEVEL_INCREASE_EFFECT:0 "[Concept('expected_prestige_level', 'Ожидаемый уровень престижа')|E] для [Concept('tribal', 'племенных')|E] [Concept('rulers', 'правителей')|E] снижен на один [Concept('prestige_level', 'уровень')|E]."
  # Обучение: Дерево теологии
  ENABLE_EK_LEARN_LITURGICAL_LANGUAGE_SCHEME:0 "Используется [Concept('scheme', 'схема')|E] [GetScheme('ek_learn_liturgical_language').GetTypeName], если ваша [Concept('faith', 'конфессия')|E] имеет [Concept('doctrine', 'доктрину')|E] $doctrine_liturgical_language_name$"
- RADIANT_PERK_RELIGIONS_PIETY_LEVEL_INCREASE_EFFECT:0 "Эффекты монолатрических аспектов даются в соответствии со следующим [Concept('piety_level', 'уровнем благочестия')|E]\nПравители с [GetModifier('piety_level_5' ).GetNameWithTooltip|L] [Concept('piety_level', 'уровнем благочестия')|E] получают еще более сильный модификатор."
+ RADIANT_PERK_RELIGIONS_PIETY_LEVEL_INCREASE_EFFECT:0 "Эффекты монолатрических аспектов даются в соответствии со следующим [Concept('piety_level', 'уровнем благочестия')|E]\nПравители с [GetModifier('piety_level_5' ).GetNameWithTooltip|L] [Concept('piety_level', 'уровнем благочестия')|E] получают ещё более сильный модификатор."
  ### Деревья перков EK2
  # Martial: Дерево грабителя
  plunderer_name:1 "Разбойник"

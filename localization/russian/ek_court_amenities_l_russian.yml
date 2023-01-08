@@ -33,7 +33,7 @@
  
  pirate_court_knights:0 "Доля рыцарей"
  pirate_court_knights_default:0 "Без доли рыцарей"
- pirate_court_knights_default_desc:0 "Наши командиры и офицеры уже греются в лучах славы нашего двора. Чего же им еще ждать?"
+ pirate_court_knights_default_desc:0 "Наши командиры и офицеры уже греются в лучах славы нашего двора. Чего же им ещё ждать?"
  pirate_court_knights_acceptable:0 "Базовая доля рыцарей"
  pirate_court_knights_acceptable_desc:0 ""
  owner_pirate_court_knights_acceptable:0 "#V 5%#! вашей [Concept('raid_loot', 'добычи')|E] будут распределены между вашими [knights|E]."
