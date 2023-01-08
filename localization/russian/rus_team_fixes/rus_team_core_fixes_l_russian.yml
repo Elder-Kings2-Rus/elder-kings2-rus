@@ -161,3 +161,7 @@
  crisis_bandit_faction:0 "Бандитский кризис"
  crisis_goblin_faction:0 "Гоблинский кризис"
  crisis_undead_faction:0 "Кризис нежити"
+
+ # замена слова "Вы" на "вас" в книге заклинаний в нижней части окна
+ spell_casting_info_castee_char_custom:0 "#high [Select_CString( ObjectsEqual(GetPlayer.MakeScope.Var('spell_recipient').Char, GetPlayer.MakeScope.Var('spell_caster').Char), Select_CString( ObjectsEqual(GetPlayer.MakeScope.Var('spell_caster').Char, GetPlayer), 'вас', 'вас' ), GetPlayer.MakeScope.Var('spell_recipient').Char.GetShortUINameNoTooltip )]#!"
+ spell_casting_info_castee_custom:0 "[SelectLocalization( EqualTo_CFixedPoint( EmptyScope.ScriptValue(Concatenate(GetPlayer.MakeScope.Var('spell_selected').GetFlagName, '_province')), '(CFixedPoint)1' ), 'spell_casting_info_castee_prov', 'spell_casting_info_castee_char_custom' )]"
