@@ -1,3 +1,13 @@
 ﻿l_russian:
  MEMORIES_WINDOW_HEADING:0 "[Select_CString( MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetShortUINameNoTooltip, 'Никто не')|U] [Select_CString(MemoriesWindow.GetCharacter.IsLocalPlayer, 'помните', 'помнит')]"
  MEMORY_INFO:0 "[Select_CString( MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetShortUINameNoTooltip, 'Никто не')|U] [Select_CString(MemoriesWindow.GetCharacter.IsLocalPlayer, 'помните', 'помнит')] эти важные воспоминания. Воспоминания недолговечны, но вместе с тем бесценны и незаменимы. Со временем все воспоминания канут безвозвратно."
+
+# окно отделения культуры
+ DIVERGE_CULTURE_NAME:0 "[Select_CString( StringIsEmpty( DivergenceWindow.GetNewCultureName ), 'Выберите название', '' )] [DivergenceWindow.GetNewCultureName][Select_CString( StringIsEmpty( DivergenceWindow.GetNewCultureName ), '', '' )]"
+ CULTURE_CREATION_NAMING_NAME_BASE:0 "Собирательное существительное"
+ CULTURE_CREATION_NAMING_COLLECTIVE_NOUN_BASE:0 "Сокращённое название"
+ CULTURE_CREATION_NAMING_PREFIX_BASE:0 "Префикс"
+
+# окно реформирования конфессии
+ FAITH_CREATION_NAMING_NAME_BASE:0 "Сокращённое прилагательное"
+ FAITH_CREATION_NAMING_ADJECTIVE_BASE:0 "Полное название"
