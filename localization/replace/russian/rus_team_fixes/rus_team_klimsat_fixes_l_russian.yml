@@ -1,4 +1,7 @@
 ﻿l_russian:
+ bp1_yearly.7051.t:0 "Cражение в провинции [battle_area.GetCounty.GetTitle.GetNameNoTierNoTooltip]"
+
+#окно воспоминаний
  MEMORIES_WINDOW_HEADING:0 "[Select_CString( MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetShortUINameNoTooltip, 'Никто не')|U] [Select_CString(MemoriesWindow.GetCharacter.IsLocalPlayer, 'помните', 'помнит')]"
  MEMORY_INFO:0 "[Select_CString( MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetShortUINameNoTooltip, 'Никто не')|U] [Select_CString(MemoriesWindow.GetCharacter.IsLocalPlayer, 'помните', 'помнит')] эти важные воспоминания. Воспоминания недолговечны, но вместе с тем бесценны и незаменимы. Со временем все воспоминания канут безвозвратно."
 

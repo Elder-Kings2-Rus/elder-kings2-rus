@@ -17,7 +17,7 @@
  STRESS_IMPACT_INCREASED:0 ""
  TitleRelationToMe_None:0 ""
  CW_ORDINAL_NUMBER_FORMAT:0 "$NUM$"
- CULTURE_AESTHETICS_DIVERGE_CULTURE:0 "[CultureAesthetics.GetName]ая"
+ CULTURE_AESTHETICS_DIVERGE_CULTURE:0 "[CultureAesthetics.GetName]"
  CULTURE_HERITAGE_NAME_RULER_DESIGNER:0 "[Culture.GetHeritage.GetNameNoTooltip]ая"
  CULTURE_NAME_RULER_DESIGNER:0 "[Culture.GetCollectiveNounNoTooltip]ая"
  CULTURE_HYBRIDIZE_PLAYER_CULTURE_HERITAGE:0 "[GetPlayer.GetCulture.GetHeritage.GetNameNoTooltip]ое"
