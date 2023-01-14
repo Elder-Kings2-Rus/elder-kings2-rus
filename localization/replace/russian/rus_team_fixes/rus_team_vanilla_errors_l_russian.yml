@@ -153,3 +153,6 @@
  hold_court_8001.desc_incapable:0 "за много недель не [Select_CString(ROOT.Char.IsFemale, 'проронила', 'проронил' )] ни слова, и работа [ROOT.Char.GetHerHis] стоит" # Scorg. Беды со скоупами. Замена 'mayor' на 'ROOT.Char'. Спасибо Mayonez'у за помощь.
  hold_court_8001.desc_old:0 "[Select_CString(ROOT.Char.IsFemale, 'прожила', 'прожил' )] уже столько зим, что едва ли годится для этой работы" # Scorg. Беды со скоупами. Замена 'mayor' на 'ROOT.Char'. Спасибо Mayonez'у за помощь.
  bp1_yearly.1050.desc:0 "Я с комфортом отмокаю в бане, наслаждаясь заслуженным отдыхом, как вдруг неторопливое течение моих мыслей прерывает до боли неприятный голос.\n\n«Ха, видали [ROOT.Char.GetHerHis]?.. И [Select_CString(ROOT.Char.IsFemale, 'эти #EMP крошечные#!?..»', 'этот #EMP крошечный#!?..»' )] Чуть дальше в помещении сидит [new_rival.GetTitledFirstName] в окружении смеющихся прихлебал и делает крайне непристойные жесты. Трудно не заметить, что все они смотрят на меня." #Scorg. Адаптация данного события для женского персонажа.
+ # klimsat. Отсутствовали Select_CString.
+ nick_fabulous_she_he:0 "[Select_CString(CHARACTER.IsFemale, 'Великолепная', 'Великолепный' )]"
+ CLAIMANT_IS_BLIND_THIRD:0 "[CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsFemale, 'слепа', 'слеп' )]"
