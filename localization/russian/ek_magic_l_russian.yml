@@ -321,7 +321,7 @@
  spell_casting_info_castee_prov_valid:0 "#high [GetPlayer.MakeScope.Var('spell_county').Title.GetName]#!" #need to block this for unlanded/invalid chars
  spell_casting_info_castee_prov_invalid:0 "одно из [Concept( 'counties', 'графств' )|E] персонажа [GetPlayer.MakeScope.Var('spell_recipient').Char.GetShortUINamePossessive|U], но [SelectLocalization( GetPlayer.MakeScope.Var('spell_recipient').Char.IsRuler, 'spell_casting_info_castee_prov_none_valid', 'spell_casting_info_castee_prov_has_none' )]"
  spell_casting_info_castee_prov_none_valid:0 "подходящих вариантов нет"
- spell_casting_info_castee_prov_has_none:0 "[GetPlayer.MakeScope.Var('spell_recipient').Char.GetSheHe] has none"
+ spell_casting_info_castee_prov_has_none:0 "[GetPlayer.MakeScope.Var('spell_recipient').Char.GetSheHe] не имеет"
  spell_casting_info_magicka:0 "#high [GetPlayer.MakeScope.Var('spell_caster').Char.GetShortUINameNoTooltip|U]#! в данный момент [Select_CString( ObjectsEqual(GetPlayer.MakeScope.Var('spell_caster').Char, GetPlayer), 'имеете', 'имеет')]: [magicka_i][GetPlayer.MakeScope.Var('spell_caster').Char.MakeScope.Var('magicka').GetValue|V0]/[GuiScope.SetRoot( GetPlayer.MakeScope.Var('spell_caster').Char.MakeScope ).ScriptValue('magicka_max')|V0]"
  school_alteration:0 "#T Изменение#!"
  school_conjuration:0 "#T Колдовство#!"

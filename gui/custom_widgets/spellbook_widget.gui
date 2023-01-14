@@ -173,7 +173,7 @@ window = {
 					parentanchor = right
 					onclick = "[GetScriptedGui('spell_switch_caster').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 					enabled = "[GetScriptedGui('spell_switch_caster').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-					raw_tooltip = "Switch Caster"
+					raw_tooltip = "Переключить заклинателя"
 					using = tooltip_ne
 
 					button_change = {
