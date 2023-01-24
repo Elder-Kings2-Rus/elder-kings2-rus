@@ -198,7 +198,7 @@
 
  champion_conversion_decision:0 "Посвятить себя своему Принцу"
  champion_conversion_decision_desc:0 "Хоть вы и являетесь Чемпионом своего Принца, вы не исповедуете открыто его конфессию. Но это может измениться прямо сейчас."
- champion_conversion_decision_confirm:0 "Теперь я предан тебе, мой Принц!"
+ champion_conversion_decision_confirm:0 "Теперь я [Select_CString(ROOT.Char.IsFemale, 'предана', 'предан' )] тебе, мой Принц!"
  champion_conversion_decision_tooltip:0 "Измените свою [Concept( 'faith', 'конфессию' )|E], чтобы лучше соответствовать своему статусу Чемпиона"
 
  sanguine_deal_decision:0 "Искать принца кутежа"
