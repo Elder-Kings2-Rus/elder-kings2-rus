@@ -1,7 +1,7 @@
 ﻿l_russian:
  # Dragonblood
  dragonblood_legacy_track_name:0 "Кровь Дракона"
- dragonblood_legacy_track_desc:0 "Пока кровь Дракона сильна в ее правителях, слава Империи будет длиться беспрерывно."
+ dragonblood_legacy_track_desc:0 "Пока кровь Дракона сильна в её правителях, слава Империи будет длиться беспрерывно."
  
  dragonblood_legacy_1_name:0 "Избранный Акатоша"
  dragonblood_legacy_2_name:0 "Искры амбиций"
@@ -13,7 +13,7 @@
  
  # Hegemon
  hegemon_legacy_track_name:0 "Гегемон"
- hegemon_legacy_track_desc:0 "Большинство империй возникают и живут благодаря кровным узам. Как имя семьи звучит по всей земле, так и растет ее сила."
+ hegemon_legacy_track_desc:0 "Большинство империй возникают и живут благодаря кровным узам. Как имя семьи звучит по всей земле, так и растет её сила."
  
  hegemon_legacy_1_name:0 "Строители власти"
  CLAIM_DYNAST_SAME_COST_YOURSELF_PERK_BONUS:0 "[Concept('wars', 'Войны')|E] по [Concept('claim', 'претензии')|E] от имени члена вашей [Concept('dynasty', 'династии')|E] стоит столько же, сколько если бы вы были [Concept('claimant', 'претендентом')|El]"

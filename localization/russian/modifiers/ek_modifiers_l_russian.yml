@@ -223,7 +223,7 @@
  yummy_tea_desc:0 "У этого персонажа была прекрасная чашка чая."
 
  ### Imperial City
- imperial_city_arena_01_duchy_modifier:0 "Властитель арены Имперского города" #Возможно, требутся правка! Как и в дальнейшем Owner - властитель, ибо прямой перевод, «владелец» вступает в противоречие с определением, что персонаж не является непосредственным владельцем...
+ imperial_city_arena_01_duchy_modifier:0 "Властитель арены Имперского города" #Возможно, требуется правка! Как и в дальнейшем Owner - властитель, ибо прямой перевод, «владелец» вступает в противоречие с определением, что персонаж не является непосредственным владельцем...
  imperial_city_arena_01_duchy_modifier_desc:0 "Не являясь её непосредственным владельцем, этот персонаж получает выгоду от существования Арены Имперского города.\n\n#weak Примечание: Этот модификатор действует только до тех пор, пока Имперский город является вашей столицей и вы лично не владеете районом Арены#!"
 
  the_bastion_01_duchy_modifier:0 "Властитель Бастиона"
@@ -238,7 +238,7 @@
  arcane_university_01_duchy_modifier_desc:0 "Не являясь его непосредственным владельцем, этот персонаж получает выгоду от присутствия Университета волшебства. \n\n#weak Примечание: Этот модификатор действует только до тех пор, пока Имперский город является вашей столицей и вы лично не владеете Арканорумом#!"
 
  imperial_city_harbor_01_duchy_modifier:0 "Влияние гавани Имперского города"
- imperial_city_harbor_01_duchy_modifier_desc:0 "Гавань Имперского города обслуживает большую часть торговли Имперского города. Пока гавань открыта, все Имперские острова получают от нее выгоду."
+ imperial_city_harbor_01_duchy_modifier_desc:0 "Гавань Имперского города обслуживает большую часть торговли Имперского города. Пока гавань открыта, все Имперские острова получают от неё выгоду."
 
  nord_coward_modifier:0 "Малодушное поведение"
  nord_coward_modifier_desc:0 "Этот персонаж поступил так, что опозорил своих предков."
@@ -322,7 +322,7 @@
  orsinium_mountain_orc_advantage_desc:0 "Теперь, когда горные орки отвоевали или восстановили город Орсиниум, они готовы защищать его до смерти.\nМиллион бретонцев, нордов и редгардов могут идти на него, и миллион бретонцев, нордов и редгардов будут отбиты.\n\n#weak Примечание: Этот модификатор применяется к каждой провинции, которая является как де-юре, так и де-факто вассалом королевства Орсиниум. За каждое герцогство, которое считается вассалом Орсиниума де-юре, этот модификатор теряет по одному стеку, начиная с 5 стеков.#!"
 
  ### Autocracy
- autocracy_county_opinion:0 "Народное мнение (Автократия)" # ek_governments_l_russian.yml еще не переведен, так что локализация Autocracy может поменяться
+ autocracy_county_opinion:0 "Народное мнение (Автократия)" # ek_governments_l_russian.yml ещё не переведен, так что локализация Autocracy может поменяться
  #autocracy_county_opinion_desc:0 "In an [autocracy|E], the relationship between local land owners or city mayors and the [count|E] is as important as the relationship between a vassal and their liege. A ruler upsetting the local ruling class will slowly lose [control|E] over the [county|E], and may even be barred from interacting with it depending on their [crown_authority|E].\n#italic Note: Each point of [county_opinion|E] #P above#! or #N below#! 0 will give #P +#!/#N -#! #V 0.01 [control|E] Growth#!, up to #P +0.5#!/#N -0.5#!. This modifier is updated once per year at a random month for the AI, and once per month for players.#!"
  autocracy_county_opinion_desc:0 "При [Concept('autocracy','Автократии')|E] отношения между местными землевладельцами или мэрами городов с населением [Concept('count','графства')|E] так же важны, как отношения между вассалом и его сеньором. Чтобы сохранить [control|El] над своими территориями, правитель должен быть популярным и нравиться местному населению.\n#italic Примечание: Каждый пункт [Concept('county_opinion','народного мнения')|E] #P выше#! 0 дает от #P +#!#V 0.01 [Concept('control','контроля')|E]#!, до #P +0.5#! Этот модификатор обновляется раз в год в случайный месяц для ИИ и раз в месяц для игроков.#!"
   autocracy_county_opinion_negative_01:0 "$autocracy_county_opinion$"
@@ -558,7 +558,7 @@
  bear_plunge:0 "Ныряние!"
  bear_plunge_desc:0 "Принял участие в Нырянии снежного медведя."
  sanguines_wrath:0 "Постоянное опьянение"
- sanguines_wrath_desc:0 "Сам Сангвин проклял вас постоянным опьянением за неповиновение его воле. Избавьтесь от этого проклятия, обратившись за сделкой к даэдрическому принцу кутежа или попросив милости у своего божества, совершив [pilgrimage|El]."
+ sanguines_wrath_desc:0 "Сам Сангвин проклял вас постоянным опьянением за неповиновение его воле. Избавьтесь от этого проклятия, обратившись за сделкой к даэдрическому Принцу Кутежа или попросив милости у своего божества, совершив [pilgrimage|El]."
  nocturnals_wrath:0 "Крадущиеся тени"
  nocturnals_wrath_desc:0 "Сама Ноктюрнал прокляла вас, и теперь каждый темный угол и теневой поворот может стать для вас роковым. Избавьтесь от проклятия, обратившись за милостью к своему божеству, совершив [pilgrimage|El]."
  meridias_wrath:0 "Увядающая жизнь"
@@ -595,7 +595,7 @@
  ek_yearly_events_heard_supplicant:0 "Прослушал Песнь страждущих"
  ek_yearly_events_heard_supplicant_desc:0 "«Избавь нас от власти Дагона, мы молим,\nХаос живет в нас по злой его воле.\nСпаси от невзгод и даруй нам покой,\nОт всех его козней спрячь нас и скрой.»"
  ek_yearly_events_heard_red_mountain:0 "Прослушал Застольную песню о Красной горе"
- ek_yearly_events_heard_red_mountain_desc:0 "«Спит как великанша из камня, огромней, чем башня, она,\nРокочет и стонет все время Красная наша гора.\nА сон ее беспокоен, и, чтоб не проснулась, молись!\nНо тут, совершенно внезапно, земля начинает трястись!\nКонец неминуем! Земля начинает трястись!»"
+ ek_yearly_events_heard_red_mountain_desc:0 "«Спит как великанша из камня, огромней, чем башня, она,\nРокочет и стонет все время Красная наша гора.\nА сон её беспокоен, и, чтоб не проснулась, молись!\nНо тут, совершенно внезапно, земля начинает трястись!\nКонец неминуем! Земля начинает трястись!»"
  clandestine_arena_legal:0 "Легализованная подпольная арена"
  clandestine_arena_legal_desc:0 "Вы заставили подпольную арену платить налоги."
  clandestine_arena_positive:0 "Подпольная арена"
@@ -611,8 +611,8 @@
  royal_revelry:0 "Красивые ослепляющие иллюзии"
  royal_revelry_desc:0 "Вы создаете ослепляющие иллюзии на потеху людям в этом округе."
  ek_yearly_events_read_smiler:0 "Прочитал Поэму улыбчивого"
- ek_yearly_events_read_smiler_desc:0 "Улыбка ранним утром,\nА днем еще одна;\nУлыбки просит солнце,\nУлыбки ждёт луна."
- participate_godspeak:0 "Танцы с богами" # Еще нет перевода ивентов, так что перевод Godspeak нужно будет поменять
+ ek_yearly_events_read_smiler_desc:0 "Улыбка ранним утром,\nА днём ещё одна;\nУлыбки просит солнце,\nУлыбки ждёт луна."
+ participate_godspeak:0 "Танцы с богами" # Ещё нет перевода ивентов, так что перевод Godspeak нужно будет поменять
  participate_godspeak_desc0: "Среди холодной выпивки и жаркого огня вы танцевали и разговаривали с богами."
  insulted_tribe:0 "Оскорбленное племя"
  insulted_tribe_desc:0 "Вы позволили иностранной державе издеваться над вашими пастухами."
@@ -620,8 +620,8 @@
  pleased_tribe_desc:0 "Вы уважили свое племя, выступив против чужака."
  kynes_resilience:0 "Стойкость Кин"
  kynes_resilience_desc:0 "Да хранит вас Эгида Кин"
- kynes_tears:0 "Слезы Кин"
- kynes_tears_desc:0 "Да хранят вас Слезы Кин"
+ kynes_tears:0 "Слёзы Кин"
+ kynes_tears_desc:0 "Да хранят вас Слёзы Кин"
  kynes_wind:0 "Ветер Кин"
  kynes_wind_desc:0 "Пусть ветер Кин несет вас вперед"
  kynes_deliverance:0 "Избавление Кин"
@@ -632,7 +632,7 @@
  kynes_watch_desc:0 "Пусть Кин станет свидетелем твоих подвигов"
  sep_overcome:0 "Триумф аспида Сепа"
  sep_overcome_desc:0 "Он не родился ни сильным, ни особенно талантливым, но благодаря смекалке способен преодолеть многие несчастья."
- maiq_modifier:0 "Непостижимая мудрость Каджитов"
+ maiq_modifier:0 "Непостижимая мудрость каджитов"
  maiq_modifier_desc:0 "Вы ищете знания. У М'Айка их много. Некоторые из них подтверждены реальными фактами!"
  dwemer_arms:0 "Двемерское снаряжение"
  automata_modifier:0 "Вторжение Автоматонов"
@@ -644,7 +644,7 @@
  ek_yearly_events_sang_folly:0 "Пел «Чуму людскую»"
  ek_yearly_events_sang_folly_desc:0 "Пусть недолог их век, недалек человек,\nЗа никчемными лучше следить.\nПошутить уж не тянет о вредителях странных,\nКогда видишь, как грабят они."
  refused_kuvastei:0 "Отказавшийся ку-вастей"
- refused_kuvastei_desc:0 "Отказался внести необходимые изменения.s."
+ refused_kuvastei_desc:0 "Отказался внести необходимые изменения."
  danced_among_flowers_fine:0 "Пляшущий каджит среди цветов"
  danced_among_flowers_fine_desc:0 "Пляшет каджит среди цветов,\nПесню душевную поет.\nСвет свой луна на него льет.\nПляшет каджит среди цветов."
  sweet_moon_sugar_cane:0 "Сладкий сахарный тростник"
@@ -655,14 +655,14 @@
  noise_ring:0 "Звонкий шум"
  noise_ring_desc:0 "Откуда он идет?!"
  heart_musings:0 "Размышления о Сердце Лорхана"
- heart_musings_desc:0 "Этот персонаж созерцал Красную Гору и ее тайны."
+ heart_musings_desc:0 "Этот персонаж созерцал Красную Гору и её тайны."
  scholar_insight:0 "Проницательность ученого"
  lovers_insight:0 "Проницательность влюбленного"
  moras_boon:0 "Благословение Мора"
  dreugh_smugglers_positive:0 "Дреуги под контролем"
  dreugh_smugglers_negative:0 "Разбойники использую дреугов"
  dreugh_smugglers_dread_positive:0 "Контрабандисты запуганы"
- arcane_shipbuilding:0 "Тайное судостроение"
+ arcane_shipbuilding:0 "Магическое судостроение"
  dreugh_smugglers_dread_negative:0 "Неуправляемые контрабандисты"
  dreugh_smugglers_legal:0 "Экспорт яиц дреугов"
  county_corruption_goblins_rampant_modifier:0 "Гоблины разбушевались"
@@ -736,7 +736,7 @@
  illusion_focus:0 "Ориентация на иллюзии"
  illusion_focus_desc:0 "Этот персонаж является известным специалистом по иллюзиям и разработал свои собственные методы и теории."
  umbric_henosis:0 "Темный Хенозис"
- umbric_henosis_desc:0 "Тени этого персонажа имеют странную полноту, а его личность - еще более странную наполненность."
+ umbric_henosis_desc:0 "Тени этого персонажа имеют странную полноту, а его личность - ещё более странную наполненность."
  sealed_possibilities:0 "Запечатанные возможности"
  sealed_possibilities_desc:0 "Некоторые пути недоступны нам в течение одной жизни, но некоторые мы закрыли себе сами."
  haunted_by_shadows:0 "Преследуемый тенями"
@@ -783,7 +783,7 @@
  tribal_expected_level_of_fame_below_1:0 "$tribal_expected_level_of_fame_below$ (1)"
  tribal_expected_level_of_fame_below_1_desc:0 "$tribal_expected_level_of_fame_below_desc$"
  tribal_expected_level_of_fame_above:0 "Превышен [expected_prestige_level|El]"
- tribal_expected_level_of_fame_above_desc:0 "Наш текущий [prestige_level|El] превышает [expected_prestige_level|El]. Это повышает уважение к нам наших людей и вассалов и еще больше укрепляет наше королевство."
+ tribal_expected_level_of_fame_above_desc:0 "Наш текущий [prestige_level|El] превышает [expected_prestige_level|El]. Это повышает уважение к нам наших людей и вассалов и ещё больше укрепляет наше королевство."
  tribal_expected_level_of_fame_above_5:0 "$tribal_expected_level_of_fame_above$ (5)"
  tribal_expected_level_of_fame_above_5_desc:0 "$tribal_expected_level_of_fame_above_desc$"
  tribal_expected_level_of_fame_above_4:0 "$tribal_expected_level_of_fame_above$ (4)"
@@ -808,7 +808,7 @@
  verity_worthy:0 "Достойный"
  verity_worthy_desc:0 "Этот персонаж был признан достойным Короны Истинности"
  verity_unworthy:0 "Недостойный"
- verity_unworthy_desc:0 "Этот персонаж был признан недостойным Короны Истинност"
+ verity_unworthy_desc:0 "Этот персонаж был признан недостойным Короны Истинности"
 
  cuckoldry_psalter_modifier:0 "Псалтырь адюльтера"
  chastity_belt_modifier:0 "Пояс целомудрия"

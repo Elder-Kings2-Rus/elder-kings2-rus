@@ -74,7 +74,7 @@
  special_faith_existence_non_existent_desc:0 "Этой конфессии на самом деле не существует... Это проблески будущего? Безумные бредни самозваного пророка? Разыгравшееся воображение заблуждающегося священника? Кто знает..."
  doctrine_parameter_faith_cannot_be_converted_to_active:0 "В эту [Concept( 'faith', 'конфессию' )|El] is #N невозможно#! обратиться"
  faith_cannot_be_converted_to_active_name:0 "Несуществующая конфессия"
- has_all_tribal_innovations:1 "#L [CULTURE.GetCollectiveNoun]ая#! [culture|El] исследовала #V 70%#! военных инноваций и общественных [Concept( 'innovations', 'инноваций' )|El] эры $culture_era_tribal$ "
+ has_all_tribal_innovations:1 "#L [CULTURE.GetCollectiveNoun]ая#! [culture|El] открыла #V 70%#! военных и административных [Concept( 'innovations', 'инноваций' )|E] Первой Эры"
  is_not_hist:0 "Не конфессия с догматом [GetFaithDoctrine('tenet_kuvastei').GetBaseName]"
  
  ## Hierocracy
@@ -943,7 +943,7 @@
     doctrine_cultural_identity_none_desc:0 "Наши обряды и верования могут быть доступны любому существу, независимо от его наследия. По-настоящему важно лишь то, в кого и во что они верят."
  doctrine_cultural_identity_heritage_name:0 "Культурная идентичность"
     doctrine_cultural_identity_heritage_desc:0 "Наша культура развивалась бок о бок с нашей верой, и они связаны друг с другом. Посторонние могут изучать наши обряды и интегрировать нашу веру, но они должны понимать, что наши верования были составлены без них."
-    ASK_FOR_CONVERSION_CULTURAL_IDENTITY_CG:1 "[faith|E] персонажа [recipient.GetShortUIName|U] тесно связана с [recipient.GetHerHis] [Concept( 'heritage', 'наследием' )|E] — [recipient.GetCulture.GetHeritage.GetName]: $VALUE|=+0$"
+    ASK_FOR_CONVERSION_CULTURAL_IDENTITY_CG:1 "[faith|E] персонажа [recipient.GetShortUIName|U] тесно связана с [recipient.GetHerHis] #L [recipient.GetCulture.GetHeritage.GetName|l]им#! [Concept( 'heritage', 'наследием' )|E]: $VALUE|=+0$"
     faith_conversion_cost_cultural_identity_cg_outside_culture_group:0 "[new_faith.MakeScope.Faith.GetName] [faith|E] не признаёт ваше [heritage|El] - [GetFaithDoctrine('doctrine_cultural_identity_heritage').GetBaseName]"
  doctrine_cultural_identity_heritage_exclusive_name:0 "Сильная культурная идентичность"
     doctrine_cultural_identity_heritage_exclusive_desc:0 "Традиции нашего народа неразрывно связаны с нашей верой, и почти немыслимо, чтобы кто-то, не разделяющий наши традиции и наследие, принял наши верования и обряды."
@@ -1691,7 +1691,7 @@ doctrine_sp_kj_dragon_desc:0 ""
  tenet_syncretism_pantheon_yokudan_name:0 "Почитание йокуданских богов"
     tenet_syncretism_pantheon_yokudan_desc:0 "Хотя мы не полностью разделяем верования старых йокуданцев, возможно, в мифах Алик'ра есть доля правды."
  tenet_syncretism_pantheon_celestials_name:0 "Почитание Небожителей"
-    tenet_syncretism_pantheon_celestials_desc:0 "Хотя мы не можем полностью посвятить себя Магна-Ге, они точно достойны почитания."
+    tenet_syncretism_pantheon_celestials_desc:0 "Хотя мы не можем полностью посвятить себя магна-ге, они точно достойны почитания."
  tenet_syncretism_pantheon_atmoran_totems_name:0 "Почитание атморских тотемов"
     tenet_syncretism_pantheon_atmoran_totems_desc:0 "Древние норды называли Атмору "Землёй Истины" и принесли с собой в Тамриэль своих старых звериных божеств. Эти старые традиции и забытые идеи должны быть возрождены и воплощены в наших собственных обычаях."
     

@@ -4,7 +4,7 @@
  stress_threshold.3401.mephala:0 "Я чувствую, влияние Мефалы... Паутина прядется, и мне нужно стать её частью..."
  
  stress_threshold.2501.t:0 "Даэдрический шепот"
- stress_threshold.2501.desc:0 "Я чувствую, как они цепляются за мой разум. Их шепот сопровождает меня везде, куда бы я ни [Select_CString(ROOT.GetCharacter.IsFemale, 'пошла', 'пошел' )], даже ночью, когда я мучительно пытаюсь заснуть.\n\nОни насмехаются надо мной, обещают мне великие дела, угрожают мне принуждением, успокаивают меня. Они указывают на мои недостатки, на мои достоинства, и когда проходит время и их слова начинают терять смысл, я чувствую, что мой разум рассеивается..."
+ stress_threshold.2501.desc:0 "Я чувствую, как они цепляются за мой разум. Их шепот сопровождает меня везде, куда бы я ни [Select_CString(ROOT.GetCharacter.IsFemale, 'пошла', 'пошёл' )], даже ночью, когда я мучительно пытаюсь заснуть.\n\nОни насмехаются надо мной, обещают мне великие дела, угрожают мне принуждением, успокаивают меня. Они указывают на мои недостатки, на мои достоинства, и когда проходит время и их слова начинают терять смысл, я чувствую, что мой разум рассеивается..."
  # Personality
  stress_threshold.2501.stress_ambitious_boethiah:0 "Принц Заговоров ведет меня к величию!"
  stress_threshold.2501.stress_ambitious_mehrunes:0 "Принц Разрушения ведет меня к величию!"
@@ -44,24 +44,24 @@
  stress_threshold.2501.stress_schemer_mephala:0 "Я вижу Паутину у себя перед глазами... С Мефалой я покорю свою цель."
  stress_threshold.2501.stress_scholar_hermaeus:0 "Я знаю так много, и в то же время так мало... Если бы только я [Select_CString(ROOT.GetCharacter.IsFemale, 'могла', 'мог' )] получить доступ к библиотеке Демона Знаний..."
  stress_threshold.2501.stress_seducer_mephala:0 "Я покорю их сердце, и с Мефалой они попадут под мою власть..."
- stress_threshold.2501.stress_seducer_sanguine:0 "Одно из первых учений Принца кутежа..."
+ stress_threshold.2501.stress_seducer_sanguine:0 "Одно из первых учений Принца Кутежа..."
  stress_threshold.2501.stress_torturer_molag:0 "Мне нужно, чтобы кто-то встал на дыбы... Это то, что желает Молаг Бал..."
  # Lifestyles
  stress_threshold.2501.stress_herbalist_vaermina:0 "Вермина шепчет возле алхимического алтаря..."
  stress_threshold.2501.stress_hunter_hircine:0 "Я буду охотиться под личиной Хирсина!"
  stress_threshold.2501.stress_mystic_hermaeus:0 "С помощью Демона Знаний я буду познавать тайны Аурбиса!"
  stress_threshold.2501.stress_mystic_mehrunes:0 "Эзотерические тексты и секреты Мерунеса Дагона скоро станут моими..."
- stress_threshold.2501.stress_reveler_sanguine:0 "Почему мы все не такие, как Принц кутежа?"
+ stress_threshold.2501.stress_reveler_sanguine:0 "Почему мы все не такие, как Принц Кутежа?"
  # Genetic
  stress_threshold.2501.stress_beauty_good_azura:0 "Я и только я [Select_CString(ROOT.GetCharacter.IsFemale, 'достойна', 'достоин' )] идеального света Азуры!"
  stress_threshold.2501.stress_beauty_bad_malacath:0 "Они насмехаются надо мной... отвергают меня... Но Малакат принимает меня..."
  stress_threshold.2501.stress_beauty_bad_namira:0 "Нищие и грязные почитают Госпожу Разложения... Почему бы и мне не сделать это"
  stress_threshold.2501.stress_physique_good_malacath:0 "Владыка клятвы, даруй мне свирепость, чтобы победить моих врагов!"
  # Coping mechanisms
- stress_threshold.2501.stress_depressed_azura:0 "Мое тоска по идеальному свету Азуры вечна!"
+ stress_threshold.2501.stress_depressed_azura:0 "Моё тоска по идеальному свету Азуры вечна!"
  stress_threshold.2501.stress_depressed_nocturnal:0 "Только тени Ноктюрнал понимают меня!"
  # Crimes
- stress_threshold.2501.stress_adulterer_sanguine:0 "Принц кутежа воспламенил мои чресла!"
+ stress_threshold.2501.stress_adulterer_sanguine:0 "Принц Кутежа воспламенил мои чресла!"
  # Health
  # Special
  stress_threshold.2501.stress_lunatic_sheogorath:0 "Безумие! Шеогорат всегда был со мной!"

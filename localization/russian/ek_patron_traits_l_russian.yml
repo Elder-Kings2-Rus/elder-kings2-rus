@@ -332,7 +332,7 @@
  trait_p_ch_pelinal_base:0 "Последователь Пелинала"
  trait_p_ch_pelinal_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ch_pelinal_desc' )]"
  trait_p_ch_pelinal_desc:0 "Последователь Пелинала"
- trait_p_ch_pelinal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Пелинала Вайтстрейка, чемпиона королевы Алессии, уничтожавшего ее врагов и возводившего множество королевств на протяжении веков."
+ trait_p_ch_pelinal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Пелинала Вайтстрейка, чемпиона королевы Алессии, уничтожавшего её врагов и возводившего множество королевств на протяжении веков."
  
  trait_p_ch_morihaus:0 "Покровитель - Морихаус"
  trait_p_ch_morihaus_base:0 "Последователь Морихауса"

@@ -1,9 +1,9 @@
 ﻿l_russian:
  trait_sign_apprentice:0 "Ученик #italic ([birthsign|E])#!"
- trait_sign_apprentice_desc:0 "Рождённые под знаком Ученика одновременно одарённые в области магии и более уязвимые к ее воздействию."
+ trait_sign_apprentice_desc:0 "Рождённые под знаком Ученика одновременно одарённые в области магии и более уязвимые к её воздействию."
  trait_sign_apprentice_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'рождена', 'рождён' )] под знаком Ученика."
  trait_sign_atronach:0 "Атронах #italic ([birthsign|E])#!"
- trait_sign_atronach_desc:0 "Рождённые под знаком Атронаха не могут естественным образом регенерировать свою магическую энергию, но благословлены ее огромными запасами."
+ trait_sign_atronach_desc:0 "Рождённые под знаком Атронаха не могут естественным образом регенерировать свою магическую энергию, но благословлены её огромными запасами."
  trait_sign_atronach_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'рождена', 'рождён' )] под знаком Атронаха."
  trait_sign_lady:0 "Леди #italic ([birthsign|E])#!"
  trait_sign_lady_desc:0 "Рождённые под знаком Леди обладают повышенной стойкостью как умственной, так и физической."

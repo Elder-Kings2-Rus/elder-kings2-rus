@@ -17,7 +17,7 @@
  STRESS_IMPACT_INCREASED:0 ""
  TitleRelationToMe_None:0 ""
  CW_ORDINAL_NUMBER_FORMAT:0 "$NUM$"
- CULTURE_AESTHETICS_DIVERGE_CULTURE:0 "[CultureAesthetics.GetName]ая"
+ CULTURE_AESTHETICS_DIVERGE_CULTURE:0 "[CultureAesthetics.GetName]"
  CULTURE_HERITAGE_NAME_RULER_DESIGNER:0 "[Culture.GetHeritage.GetNameNoTooltip]ая"
  CULTURE_NAME_RULER_DESIGNER:0 "[Culture.GetCollectiveNounNoTooltip]ая"
  CULTURE_HYBRIDIZE_PLAYER_CULTURE_HERITAGE:0 "[GetPlayer.GetCulture.GetHeritage.GetNameNoTooltip]ое"
@@ -155,3 +155,19 @@
  # заглушка для энциклопедии
  game_concept_bandit_faction:0 "Фракция бандитов"
  game_concept_bandit_faction_desc:0 "Разработчики пока не написали описание. Это временная заглушка."
+ 
+ Scion_religious_head_title_name:0 "Матронат"
+ razak_army_flavor:0 "#F Верная армия гномов, движимая паровой тягой и пропитанная магией из камней душ, которые будут работать ещё многие века. #!" # flavor, не flavour
+ crisis_bandit_faction:0 "Бандитский кризис"
+ crisis_goblin_faction:0 "Гоблинский кризис"
+ crisis_undead_faction:0 "Кризис нежити"
+
+ # замена слова "Вы" на "вас" в книге заклинаний в нижней части окна
+ spell_casting_info_castee_char_custom:0 "#high [Select_CString( ObjectsEqual(GetPlayer.MakeScope.Var('spell_recipient').Char, GetPlayer.MakeScope.Var('spell_caster').Char), Select_CString( ObjectsEqual(GetPlayer.MakeScope.Var('spell_caster').Char, GetPlayer), 'вас', 'вас' ), GetPlayer.MakeScope.Var('spell_recipient').Char.GetShortUINameNoTooltip )]#!"
+ spell_casting_info_castee_custom:0 "[SelectLocalization( EqualTo_CFixedPoint( EmptyScope.ScriptValue(Concatenate(GetPlayer.MakeScope.Var('spell_selected').GetFlagName, '_province')), '(CFixedPoint)1' ), 'spell_casting_info_castee_prov', 'spell_casting_info_castee_char_custom' )]"
+
+ # временные ключи для possessive названий, где разрабы накосячили с двойным _name_name_
+ god_julianos_name_name_possessive:0 "Джулианоса"
+ god_magnus_name_name_possessive:0 "Магнуса"
+ great_mare_god_name_name_possessive:0 "Великой Кобылы"
+ GET_RANDOM_CUSTOM_MEPHALA_NAME_name_possessive:0 "$god_mephala_name_possessive$"

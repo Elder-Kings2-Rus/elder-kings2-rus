@@ -32,8 +32,8 @@
  become_praxis_government_decision_confirm:0 "Древние Альдмеры указывают нам путь."
 
 
- proclaim_tamriel_empire_decision:0 "Провозгласить Империю Тамриэль."
- proclaim_tamriel_empire_decision_confirm:0 "Я объединил Тамриэль"
+ proclaim_tamriel_empire_decision:0 "Провозгласить Империю Тамриэль"
+ proclaim_tamriel_empire_decision_confirm:0 "Я [Select_CString(ROOT.Char.IsFemale, 'объединила', 'объединил' )] Тамриэль"
  proclaim_tamriel_empire_decision_tooltip:0 "Империя Тамриэль будет провозглашена"
  proclaim_tamriel_empire_decision_desc:0 "Слишком долго враждующие народы Тамриэля оставались разобщенными. Когда все провинции будут подчинены одному правителю, может быть провозглашена новая империя, более великая, чем какие-либо прежде." #PLACEHOLDER
  proclaim_tamriel_empire_decision_effect_tooltip:0 "Империя Тамриэль будет провозглашена.\nИ #bold Третья Эра начнётся#!."
