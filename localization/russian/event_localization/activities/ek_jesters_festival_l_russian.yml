@@ -30,7 +30,7 @@ rival_noble_guest:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_
 rival_noble_guest_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'разыграла', 'разыграл' )] гостя по имени [TARGET_CHARACTER.GetShortUIName], представив [CHARACTER.GetHerHim] ОЧЕНЬ знатному гостю на Фестивале шутов."
 
 ek_jesters_festival.0002.t:0 "Фестиваль шутов: весеннее настроение"
-ek_jesters_festival.0002.desc:0 "Для всех, кто празднует Фестиваль шутов, обычным розыгрышем является осыпание цветами угрюмых гостей в надежде развеселить их.\n\nЯ замечаю, что [grumpy.GetTitledFirstNameNoTooltip] выглядит довольно угрюмо. Возможно, цветочный дождь развеет все [grumpy.GetHerHim] тревоги?"
+ek_jesters_festival.0002.desc:0 "Для всех, кто празднует Фестиваль шутов, обычным розыгрышем является осыпание цветами угрюмых гостей в надежде развеселить их.\n\nЯ замечаю, что [grumpy.GetTitledFirstNameNoTooltip] выглядит довольно угрюмо. Возможно, цветочный дождь развеет тревоги, которыми [grumpy.GetSheHe] терзается?"
 ek_jesters_festival.0002.a:0 "Ворчунам вход воспрещен!"
 ek_jesters_festival.0002.b:0 "Я не хочу расстраивать [grumpy.GetHerHim]..."
 friend_springtime_flair:0 "[CHARACTER.GetShortUIName|U] [Select_CString(ROOT.CHARACTER.IsFemale, 'осыпала', 'осыпал' )] гостя по имени [TARGET_CHARACTER.GetShortUIName] цветами на Фестивале шутов, подняв [TARGET_CHARACTER.GetHerHim] настроение."
