@@ -74,7 +74,7 @@
  special_faith_existence_non_existent_desc:0 "Этой конфессии на самом деле не существует... Это проблески будущего? Безумные бредни самозваного пророка? Разыгравшееся воображение заблуждающегося священника? Кто знает..."
  doctrine_parameter_faith_cannot_be_converted_to_active:0 "В эту [Concept( 'faith', 'конфессию' )|El] is #N невозможно#! обратиться"
  faith_cannot_be_converted_to_active_name:0 "Несуществующая конфессия"
- has_all_tribal_innovations:1 "#L [CULTURE.GetCollectiveNoun]ая#! [culture|El] исследовала #V 70%#! военных инноваций и общественных [Concept( 'innovations', 'инноваций' )|El] эры $culture_era_tribal$ "
+ has_all_tribal_innovations:1 "#L [CULTURE.GetCollectiveNoun]ая#! [culture|El] открыла #V 70%#! военных и административных [Concept( 'innovations', 'инноваций' )|E] Первой Эры"
  is_not_hist:0 "Не конфессия с догматом [GetFaithDoctrine('tenet_kuvastei').GetBaseName]"
  
  ## Hierocracy
