@@ -250,9 +250,9 @@
  # Generic Pilgrimage Destination Events
  # Standard arrival
  pilgrimage.4001.t:0 "$pilgrimage_header$ прибытие"
- pilgrimage.4001.desc:0 "[destination_title.GetNameNoTierNoTooltip], [ROOT.Char.GetFaith.HouseOfWorship|l], я наконец-то здесь, и душой и телом.\n\n[ROOT.Char.GetFaith.BishopNeuter] благославляет меня."
- pilgrimage.4001.cynical_end:0 "\n\nКак много я прошел пешком..."
- pilgrimage.4001.a:0 "Я прошел священный путь."
+ pilgrimage.4001.desc:0 "[destination_title.GetNameNoTierNoTooltip], [ROOT.Char.GetFaith.HouseOfWorship|l], я наконец-то здесь, и душой и телом.\n\n[ROOT.Char.GetFaith.BishopNeuter] благословляет меня."
+ pilgrimage.4001.cynical_end:0 "\n\nКак много я [Select_CString(ROOT.Char.IsFemale, 'прошла', 'прошёл' )] пешком..."
+ pilgrimage.4001.a:0 "Я [Select_CString(ROOT.Char.IsFemale, 'прошла', 'прошёл' )] священный путь."
  pilgrimage.4001.b:0 "Важно то, что меня здесь видят и слышат."
 
  # The Mystic is there!
