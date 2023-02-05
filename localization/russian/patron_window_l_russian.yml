@@ -65,10 +65,10 @@
  desc_boethiah:0 "Даэдрический принц заговоров, Боэтия правит своим королевством в Обливионе. Обычно её изображают в виде воина - мужчины или женщины. Считается, что в Меретическую эпоху Боэтия "съела" Тринимака, породив Малаката."
  
  patron_clavicus_name:0 "[GetPlayer.Custom('GetObClavicusName')]"
- patron_clavicus_desc:0 "Мастер коварных желаний"
+ patron_clavicus_desc:0 "Повелитель коварных желаний"
  patron_clavicus_long_desc:0 "[GetPlayer.Custom('GetObClavicusDesc')]"
  patron_clavicus_summary:0 "Статус: [GetPlayer.Custom('GetPatronStatus_clavicus')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_clavicus')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_clavicus').GetValue|+0]"
- desc_clavicus:0 "Даэдрический принц хитрости и сделок, Клавикус Виле правит Полями Сожаления в Забвении. Обычно его изображают в виде рогатого даэдра в сопровождении Барбаса. Это изображение сохранилось со времен Меретической эры, его можно найти на наскальных рисунках того периода.." #cant actually find anything major he's done prior to the Khanaten Flu, everything is in the future, relative to the start date
+ desc_clavicus:0 "Даэдрический принц хитрости и сделок, Клавикус Вайл правит Полями Сожаления в Забвении. Обычно его изображают в виде рогатого даэдра в сопровождении Барбаса. Это изображение сохранилось со времен Меретической эры, его можно найти на наскальных рисунках того периода.." #cant actually find anything major he's done prior to the Khanaten Flu, everything is in the future, relative to the start date
  
  patron_hermaeus_name:0 "[GetPlayer.Custom('GetObHermaeusName')]"
  patron_hermaeus_desc:0 "Демон знаний"
