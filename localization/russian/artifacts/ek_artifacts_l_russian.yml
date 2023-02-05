@@ -1,0 +1,6 @@
+﻿l_russian: 
+ artifact_headhunter_trophy_of_the_enemy_name:0 "Head of [victim_knight.GetFirstNameNoTooltip]"
+ artifact_headhunter_trophy_of_the_enemy_description:0 "This head was taken by [owner.GetTitledFirstName] after killing [victim_knight.GetTitledFirstName]."
+
+ artifact_torture_trophy_of_victim_name:0 "Trophy from [recipient.GetTitledFirstNameNoTooltip]"
+ artifact_torture_trophy_of_victim_desc:0 "This... trophy was taken by [owner.GetTitledFirstName] during terrible torture of [recipient.GetTitledFirstName]"

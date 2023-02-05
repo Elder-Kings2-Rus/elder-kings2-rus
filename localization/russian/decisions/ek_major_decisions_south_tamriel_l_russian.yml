@@ -19,3 +19,18 @@ xylo_border_khajiit_decision:0 "Пограничный инцидент при �
 xylo_border_khajiit_decision_desc:0 "Босмеры не имели права захватывать западный берег реки Зило! Оба берега этой священной реки с незапамятных времен были домом каджитов.\n\n Пришло время вернуть западные берега Зило."
 xylo_border_khajiit_decision_confirm:0 "Западные берега Зило снова станут землями Эльсвейра!"
 xylo_border_khajiit_decision_tooltip:0 "Заставьте регион Зило де-юре принадлежать Эльсвейру."
+
+topal_isle_leyawiin_decision:0 "The Question of Topal Isle"
+topal_isle_leyawiin_decision_desc:0 "The Topal Sea is the crossroads of Tamriel's vital trade routes and the Topal Isle sits at its heart. Ships frequently stop at its harbor first before offloading at any of the bigger ports in the area, and whoever holds the island will easily control the passage of ships in and out of the Topal Sea. On top of that, the island's mines supply much of Tamriel's demand for Ebony where Morrowind chooses not to, so it is not surprising that this meager plot of land has been a battleground of nations and influences through the ages. By integrating the Topal Isle into our realm we will secure our prosperity in the region for many years to come."
+topal_isle_leyawiin_decision_confirm:0 "Topal Isle belongs to Leyawiin!"
+topal_isle_leyawiin_decision_tooltip:0 "Make the [duchy|E] of Topal [de_jure|E] Leyawiin"
+
+topal_isle_soulrest_decision:0 "The Question of Topal Isle"
+topal_isle_soulrest_decision_desc:0 "The Topal Sea is the crossroads of Tamriel's vital trade routes and the Topal Isle sits at its heart. Ships frequently stop at its harbor first before offloading at any of the bigger ports in the area, and whoever holds the island will easily control the passage of ships in and out of the Topal Sea. On top of that, the island's mines supply much of Tamriel's demand for Ebony where Morrowind chooses not to, so it is not surprising that this meager plot of land has been a battleground of nations and influences through the ages. By integrating the Topal Isle into our realm we will secure our prosperity in the region for many years to come."
+topal_isle_soulrest_decision_confirm:0 "Topal Isle belongs to Soulrest!"
+topal_isle_soulrest_decision_tooltip:0 "Make the [duchy|E] of Topal [de_jure|E] Soulrest"
+
+topal_isle_senchal_decision:0 "The Question of Topal Isle"
+topal_isle_senchal_decision_desc:0 "The Topal Sea is the crossroads of Tamriel's vital trade routes and the Topal Isle sits at its heart. Ships frequently stop at its harbor first before offloading at any of the bigger ports in the area, and whoever holds the island will easily control the passage of ships in and out of the Topal Sea. On top of that, the island's mines supply much of Tamriel's demand for Ebony where Morrowind chooses not to, so it is not surprising that this meager plot of land has been a battleground of nations and influences through the ages. By integrating the Topal Isle into our realm we will secure our prosperity in the region for many years to come."
+topal_isle_senchal_decision_confirm:0 "Topal Isle belongs to Senchal!"
+topal_isle_senchal_decision_tooltip:0 "Make the [duchy|E] of Topal [de_jure|E] Senchal"
