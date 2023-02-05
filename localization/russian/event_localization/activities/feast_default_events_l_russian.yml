@@ -504,7 +504,7 @@ feast_default.9001.spouse:0 "\n\nЕсли бы не [Select_CString(spouse.IsFem
 feast_default.9001.no_spouse:0 "В любом случае, хорошо, что эта суета закончилась."
 feast_default.9001.a:0 "До новых встреч!"
 
-feast_default.9001.new_life.t:0 "Фестиваль "Новая жизнь": Мои гости уходят"
+feast_default.9001.new_life.t:0 "Фестиваль новой жизни: Мои гости уходят"
 
 feast_default.9002.t:0 "$feast_header$ Возвращение домой"
 feast_default.9002.desc_murder_feast:0 "Что за пир! Ах, [host.GetTitledFirstNamePossessive]! Дни, проведенные в [Select_CString(host.IsFemale, 'её', 'его' )] чертогах я запомню надолго — особенно... #EMP жаркое#! завершение того вечера."
