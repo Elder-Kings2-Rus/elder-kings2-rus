@@ -3,6 +3,7 @@
  county_opinion_must_be_positive:0 "[county_opinion|E] должно быть положительным ([autocracy|E] с #V [GetPlayer.Custom('GetCrownAuthority0')]#!)"
  county_opinion_must_be_high_enough:0 "[county_opinion|E] должно быть выше #V -10#! ([autocracy|E] с #V [GetPlayer.Custom('GetCrownAuthority1')]#!)"
  county_must_have_temple_holding:0 "По крайней мере, одна провинция в пределах округа должна иметь [temple_holding|El]"
+ orphanage_already_present_trigger_desc:0 "There is already an Orphanage within this [county|E]"
  
  ### Imperial City
  building_type_imperial_city_01:0 "Имперский город"
@@ -81,6 +82,13 @@
  
  ### Unique buildings
  
+ building_type_shalidors_maze_01:0 "Shalidor's Maze"
+ building_type_shalidors_maze_01_desc:0 "This maze was built by the great mage Shalidor himself, deep within the heart of the old city of Bromjunaar. His power still echoes throughout its halls. Some say he concealed magickal secrets within; others, that artifacts of great power are hidden in the walls. Still others say that Shalidor trained mages in its challenging course, or worse: that this is how he separated wheat from chaff among the many mages who sought his tutorship. Whatever the truth of the matter, countless mages have entered Labyrinthian, and many of their corpses still remain inside. Those mages who navigate the maze, though, are indisputably more powerful than they were before… but different, somehow."
+ building_shalidors_maze_01:0 "$building_type_shalidors_maze_01$"
+ building_shalidors_maze_01_desc:0 "$building_type_shalidors_maze_01_desc$"
+ building_shalidors_maze_02:0 "$building_type_shalidors_maze_01$"
+ building_shalidors_maze_02_desc:0 "$building_type_shalidors_maze_01_desc$" 
+
  building_type_understone_keep_01:0 "Подкаменная крепость"
  building_type_understone_keep_01_desc:0 "Основана на древнем двемерском городе Нчуанд-Зел, Подкаменная крепость и окружающий его город Маркарт защищены старыми, двемерскими стенами и оборонительными сооружениями. \n\nЛюбому захватчику придётся пройти через очень высокие и крепкие стены, даже небольшое количество защитников сможет легко сдержать гораздо большую армию, стремящуюся захватить город."
  building_understone_keep_01:0 "$building_type_understone_keep_01$"
@@ -249,6 +257,17 @@
  building_ravenmine_ebony_mines_03_desc:1 "$building_type_ravenmine_ebony_mines_01_desc$"
  building_ravenmine_ebony_mines_04:1 "$building_type_ravenmine_ebony_mines_01$"
  building_ravenmine_ebony_mines_04_desc:1 "$building_type_ravenmine_ebony_mines_01_desc$"
+
+ building_type_mula_ebony_mines_01:0 "Mount Mula Ebony Mines"
+ building_type_mula_ebony_mines_01_desc:0 "Topal Isle — a historical point of contention between Black Marsh, Cyrodiil, and Elsweyr — is home to the biggest, oldest, and most prolific Ebony mine outside of Morrowind. Tunnels burrow deep into the earth at the foot of the largest active volcano in south Tamriel, Mount Mula, to dig up its seemingly limitless Ebony deposits. Mula Ebony is inferior to Vvardenfell Ebony as a material in every way, but its relative affordability, the island's advantageous position, and Morrowind's hostile trade policies and obtuse customs make Mount Mula one of the most lucrative mines in Tamriel."
+ building_mula_ebony_mines_01:1 "$building_type_mula_ebony_mines_01$"
+ building_mula_ebony_mines_01_desc:1 "$building_type_mula_ebony_mines_01_desc$"
+ building_mula_ebony_mines_02:1 "$building_type_mula_ebony_mines_01$"
+ building_mula_ebony_mines_02_desc:1 "$building_type_mula_ebony_mines_01_desc$"
+ building_mula_ebony_mines_03:1 "$building_type_mula_ebony_mines_01$"
+ building_mula_ebony_mines_03_desc:1 "$building_type_mula_ebony_mines_01_desc$"
+ building_mula_ebony_mines_04:1 "$building_type_mula_ebony_mines_01$"
+ building_mula_ebony_mines_04_desc:1 "$building_type_mula_ebony_mines_01_desc$"
  
  building_type_cidhna_mine_silver_mines_01:0 "Серебряные шахты Сидна"
  building_type_cidhna_mine_silver_mines_01_desc:0 "Богатства Предела многочисленны, и серебряные жилы Сидны - одни из них. При достаточном количестве времени, денег и людей она могла бы обеспечить Предел и его правителя большим количеством золота, чем ему может понадобиться."

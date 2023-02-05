@@ -43,3 +43,6 @@
  CRISIS_FACTION_DEMAND_UNDEAD_REFUSE:0 "Сжечь эту мерзость!"
  CRISIS_UNDEAD_WAR_NAME:0 "Рой нежити"
  crisis_undead_war_defeat_desc:0 "[undead_faction|E] рассеяна, а [attacker.GetShortUIName] теперь за решёткой. У всех оккупированных нежитью [Concept('counties', 'графств')|E] увеличивается [county_opinion|El]."
+
+# Misc faction effects
+ FACTION_POWER_REBELLIOUS_VASSALS:0 "Мятежные вассалы: #V $VALUE|0$#!"

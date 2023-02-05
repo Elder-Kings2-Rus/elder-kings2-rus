@@ -167,7 +167,8 @@
  
  game_concept_daedric_secret:0 "Секрет"
  game_concept_daedric_secret_desc:0 "Не все положительно относятся к даэдрическим принцам. Некоторые считают поклонение этим сущностям опасной затеей, ересью или даже преступлением. Но некоторые храбрецы или заблуждающиеся души всё же могут поклоняться принцу, невзирая на опасность или цену.\n\nУ них есть доступ к небольшому ассортименту [Concept( 'daedric_boons', 'даров' )|E] и [Concept( 'daedric_sacrifices', 'жертвоприношений' )|E], доступных даэдрическому принцу.\n\n[daedric_boons|E] как правило, требуют больше [Concept( 'daedric_ardor', 'страсти' )|E], а [daedric_sacrifices|El] дают меньше [Concept( 'daedric_ardor', 'страсти' )|E].\n\nДругими статусами являются: [daedric_focused|E], [daedric_pantheon|E], [daedric_allowed|E]."
- 
+ game_concept_daedric_secret_desc:0 "Не все видят даэдрических принцев в хорошем свете. Для некоторых поклонение им считается опасным, еретическим или даже достойным преследования. Некоторые смелые или заблудшие души могут по-прежнему посвятить себя принцу, невзирая на опасность или цену."
+
  game_concept_task_1_desc:0 "Теперь вы контролируете Сиродил, так что вы удовлетворили не только Совет Старейшин, но и собственные амбиции. Совет Старейшин согласился предоставить вам особые полномочия и власть над Сиродилом, но он #N требует постоянного подтверждения#!, так как от вас ожидается, что вы вернете Рубиновый трон и позволите править Верховному канцлеру, пока не будет найден достойный драконорождённый император."
  task_start:0 "#P Начало выполнения задачи#!"
  task_fulfill:0 "#P Выполнение задачи#!"
@@ -226,7 +227,7 @@
  game_concept_enc_missing_god_desc:0 "Потерянный Бог — это общий термин, относящийся к божеству, известному под разными именами — Шор, Шеор, Шезарр или Лорхан. Он назван так потому, что в большинстве космогоний этот бог занимает видное место жертвы творения, убитой другими богами в гневе на его хитрость.\n\nОн убедил своих собратьев-богов присоединиться к нему в его проекте по строительству нового измерения. На полпути Архитектор Магнус узнал правду о замыслах Потерянного Бога и ушёл, возглавив исход богов, которые стали известны как магна-ге.\n\nОставшиеся боги, решившие завершить проект и потерявшие при этом большую часть своих сил, стали Аэдра, Костями Мира и Эльнофеями, последние из которых со временем превратились в смертные расы.\n\nНезависимо от того, почитаете ли вы его или ненавидите, большинство согласны с тем, что Потерянный Бог сыграл ключевую роль в создании условий для существования смертного измерения и, соответственно, жизни в том виде, в котором мы её знаем. Мнения расходятся в том, является ли существование смертной жизни благословением — такой позиции придерживается большинство верований, симпатизирующих ему или нейтрально относящихся к нему — или проклятием — так считают те верования, которые активно рассматривают Мундуса как препятствие на пути к бессмертию, а Лорхана — как источник грехопадения."
  
  game_concept_tsaescence:0 "Цаэсценция"
- game_concept_tsaescence_desc:0 "Цаэсценция, или кусание имен — это философское начинание, связанное с потерей и обретением идентичности. [rulers|E], принадлежащие к [Concept( 'faith', 'конфессии' )|E] с [Concept( 'core_tenets', 'догматом' )|E] [GetFaithDoctrine('tenet_tsaescence').GetBaseName], могут поглощать пленников с шансом получить шанс унаследовать одно из [Concept( 'traits', 'свойств' )|E] или повысить [skill|El], а также продлить свою жизнь."
+ game_concept_tsaescence_desc:0 "Цаэсценция, или кусание имен — это философское начинание, связанное с потерей и обретением идентичности. [rulers|E], принадлежащие к [Concept( 'faith', 'конфессии' )|E] с [Concept( 'core_tenets', 'догматом' )|E] [GetFaithDoctrine('tenet_tsaescence').GetBaseName], могут поглощать пленников с шансом получить шанс унаследовать одно из [Concept( 'traits', 'свойств' )|E] или повысить [skill|El], а также увеличить свою [enc_lifespan|El]."
  
  game_concept_enc_lifespan:0 "Продолжительность жизни"
  game_concept_enc_longlived:0 "Долгожитель"
@@ -256,6 +257,9 @@
  game_concept_important_character:0 "Важный персонаж" #none of the existing one seem to give it without adding titles
  game_concept_important_character_desc:0 "Историческая так или иначе известная или знаменитая личность"
 
+ game_concept_bandit_faction:0 "$FACTION_BANDIT_NAME$"
+ game_concept_bandit_faction_desc:2 "The $game_concept_bandit_faction$ is populated by [counties|E] overrun by bandits and other ne'er-do-wells. Successful Bandit Uprisings will take land from your [realm|E] for their own."
+
  game_concept_goblin_faction:0 "$FACTION_GOBLIN_NAME$"
  game_concept_goblin_faction_desc:2 "$game_concept_goblin_faction$ состоит из [Concept( 'counties', 'графств' )|E], захваченных местным гоблинским населением. Успешные восстания гоблинов отберут земли у вашей [Concept( 'realm', 'державы' )|E] в пользу своей собственной."
 
@@ -267,3 +271,13 @@
 
  game_concept_praxis_government:0 "Церемониархия"
  game_concept_praxis_government_desc:0 "Церемониархия — это сложная система обрядов и обычаев, сосредоточенная вокруг стремления к Альдмерису. Хотя во многих отношениях эта форма правления похожа на другие феодальные монархии, в которых подданные обеспечивают своего сюзерена [Concept( 'soldiers', 'солдатами' )|E] и [Concept( 'taxes', 'налогами' )|E], также ожидается, что все члены общества будут соответствовать жёстким социальным ролям и стратификации, установленным альтмерской философией."
+
+ game_concept_great_house_value:0 "House Values"
+ game_concept_great_house_value_desc:0 "Traditionally, each Great House has been associated with certain values, such that candidates vying for House leadership should display certain educations or personal skillsets.\n\nThe House Values are as such:\n- Dres: [martial_i][martial|E] and [stewardship_i][stewardship|E]\n- Hlaalu: [diplomacy_i][diplomacy|E] and [stewardship_i][stewardship|E]\n- Indoril: [diplomacy_i][diplomacy|E] and [learning_i][learning|E]\n- Redoran: [martial_i][martial|E] and [learning_i][learning|E]\n- Telvanni: [intrigue_i][intrigue|E] and [arcana_i][arcana|E]"
+
+ game_concept_ek_age_modifiers:0 "Aging Modifiers"
+ game_concept_ek_age_modifier:0 "Aging Modifier"
+ game_concept_ek_age_modifiers_aging:0 "Aging"
+ game_concept_ek_age_modifiers_advanced:0 "Advanced Age"
+ game_concept_ek_age_modifiers_borrowed:0 "Borrowed Time"
+ game_concept_ek_age_modifiers_desc:0 "Aging modifiers represent a character's declining health as they age. The number next to the modifier indicates the equivalent to the current modifier in human years."
