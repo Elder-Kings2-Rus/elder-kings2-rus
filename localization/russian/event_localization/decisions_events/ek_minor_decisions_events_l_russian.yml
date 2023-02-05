@@ -1,0 +1,5 @@
+﻿l_russian:
+#Recruit Shadowscale event
+ ek_shadowscale_event.0001.t:0 "The Shadowscale Arrives"
+ ek_shadowscale_event.0001.desc:0 "After putting out word that I am seeking for a Shadowscale to join my court and thus through me serve their own purposes, there now stands before me one of their members.\n\nI do not know who they are or where in Black Marsh they come from, and they do not know this themselves either. They were taken at birth and raised in their order. Affiliated with the Dark Brotherhood, they have dedicated their entire lives to Sithis, the Dread Father, and to the defense of Black Marsh against enemies both within and without.\n\n"Know this, [ROOT.Char.GetTitledFirstNameNoTooltip]. We do not serve you, but our revered King of Argonia and his Royal Court. Do not forget this, lest his wrath be turned against you."\n\nTheir gaze is ice cold, focused directly upon me, a veiled threat of violence. I know what they are saying to be the truth." 
+ ek_shadowscale_event.0001.option:0 "Welcome to my court, honorable Shadowscale."
