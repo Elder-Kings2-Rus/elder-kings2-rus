@@ -42,7 +42,7 @@
 
  ek_new_life_breton.0001.t:0 "Фестиваль новой жизни: украшение сатуралии"
  ek_new_life_breton.0001.friend_reminder:0 "Мой друг [decorator.GetTitledFirstName] попросил меня присоединиться к традиции сатуралии и украсить вечнозелёное дерево с [decorator.GetHerHis] помощью."
- ek_new_life_breton.0001.rival_reminder:0 "Мой соперник [decorator.GetTitledFirstName] уже начал готовить своё вечнозелёное дерево сатуралии. Теперь мне нужно справиться лучше, чем мой [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('rival'))]."
+ ek_new_life_breton.0001.rival_reminder:0 "Мой соперник [decorator.GetTitledFirstName] уже начал готовить своё вечнозелёное дерево сатуралии. Теперь вам нужно справиться лучше, чем моему [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('rival'))]."
  ek_new_life_breton.0001.spouse_reminder:0 "Почувствовав прикосновение к моей руке, я [Select_CString(ROOT.Char.IsFemale, 'услышала', 'услышал' )] низкий голос [decorator.GetTitledFirstName]: "Хотите украсить дерево сатуралии вместе со мной?"\n\nДаже если Фестиваль является поводом для праздника и радости, очень трудно не думать о традициях и истории дерева сатуралий..."
  ek_new_life_breton.0001.diligent_reminder:1 "С тревожной улыбкой [decorator.GetTitledFirstName] рассказывает о некоторых из самых удивительных подвигов, которые были совершены [decorator.GetSheHe] при украшении дерева сатуралии. Я не должен допустить, чтобы это задело меня, но теперь мне трудно думать о чем-то другом."
  ek_new_life_breton.0001.reminder:0 "Даже если Фестиваль является поводом для праздника и радости, очень трудно не думать о традициях и истории дерева сатуралии..."

@@ -23,3 +23,31 @@
  ek_life_extension_invalidated:0 "$ek_life_extension$ - недействительно"
  ek_life_extension_life_extended:1 "Вы продлили свою жизнь"
  ek_life_extension_invalidated_title:0 "@scheme_icon! $ek_life_extension$ Завершается"
+
+ BLACKMAIL_NOTIFICATION_SECRET_VAMPIRE:0 "\nI have evidence that you are a vampire!"
+ CHARACTER_IS_A_VAMPIRE:0 "[CHARACTER.GetShortUIName|U] is a [GetTrait('vampire_character').GetName( CHARACTER.Self )]"
+ IS_A_VAMPIRE:0 "Is a [GetTrait('vampire_character').GetName( GetNullCharacter )]"
+ IS_NOT_A_VAMPIRE:0 "Is #bold not#! a [GetTrait('vampire_character').GetName( CHARACTER.Self )]"
+
+ CHARACTER_HAS_A_VAMPIRE_SECRET_KNOWN_BY_CHARACTER:0 "[CHARACTER.GetShortUIName|U] has a Vampire [secret|E] known by [TARGET_CHARACTER.GetShortUIName]"
+ CHARACTER_HAS_A_VAMPIRE_SECRET_NOT_KNOWN_BY_CHARACTER:0 "[CHARACTER.GetShortUIName|U] has a Vampire [secret|E] known by [TARGET_CHARACTER.GetShortUIName]"
+ has_a_vampire_secret_known_by_character:0 "Has a Vampire [secret|E] known by [TARGET_CHARACTER.GetShortUIName]"
+ convert_to_vampire:0 "Convert to Vampirism"
+ I_CANNOT_BLACKMAIL_ANOTHER_VAMPIRE:1 "You cannot blackmail another [GetTrait('vampire_character').GetName( CHARACTER.Self )] for being a Vampire"
+ CONVERT_TO_VAMPIRE_SUCCESS_DESC:0 "[TARGET_CHARACTER.GetShortUIName|U] becomes a Vampire"
+ SCHEME_INTRIGUE_MODIFIER:0 "Your [intrigue|E]: $VALUE|+0=$"
+ vampire_scheme_blocked_trigger:0 "Vampirism scheme possible"
+
+
+ BLACKMAIL_NOTIFICATION_SECRET_LYCAN:0 "\nI have evidence that you are a werebeast!"
+ CHARACTER_IS_A_LYCAN:0 "[CHARACTER.GetShortUIName|U] is a [GetTrait('lycan_character').GetName( CHARACTER.Self )]"
+ IS_A_LYCAN:0 "Is a [GetTrait('lycan_character').GetName( GetNullCharacter )]"
+ IS_NOT_A_LYCAN:0 "Is #bold not#! a [GetTrait('lycan_character').GetName( CHARACTER.Self )]"
+
+ CHARACTER_HAS_A_LYCAN_SECRET_KNOWN_BY_CHARACTER:0 "[CHARACTER.GetShortUIName|U] has a Lycanthropy [secret|E] known by [TARGET_CHARACTER.GetShortUIName]"
+ CHARACTER_HAS_A_LYCAN_SECRET_NOT_KNOWN_BY_CHARACTER:0 "[CHARACTER.GetShortUIName|U] has a Lycanthropy [secret|E] known by [TARGET_CHARACTER.GetShortUIName]"
+ has_a_lycan_secret_known_by_character:0 "Has a Lycanthropy [secret|E] known by [TARGET_CHARACTER.GetShortUIName]"
+ convert_to_lycan:0 "Turn into Werebeast"
+ I_CANNOT_BLACKMAIL_ANOTHER_LYCAN:1 "You cannot blackmail another [GetTrait('lycan_character').GetName( CHARACTER.Self )] for being a Werebeast"
+ CONVERT_TO_LYCAN_SUCCESS_DESC:0 "[TARGET_CHARACTER.GetShortUIName|U] becomes a Werebeast"
+ lycan_scheme_blocked_trigger:0 "Lycanthropy scheme possible"
