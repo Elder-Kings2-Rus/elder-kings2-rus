@@ -6,26 +6,24 @@
  north_tamriel.0001.desc.eastern:0 "\n\nСыновья и дочери Исграмора снова последуют за правящей династией Восточного Скайрима!"
  north_tamriel.0001.desc.western:0 "\n\nБаланс сил в Скайриме изменился, так как правящая династия Западного Скайрима теперь владеют короной севера!"
  north_tamriel.0001.a:0 "Наш народ вновь един!"
-
+ 
  north_tamriel.0005.t:0 "Раздел Скайрима"
  north_tamriel.0005.desc:0 "После смерти верховного короля Логрольфа Скайрим раскололся на две половины. Новые владения поддержали западного претендента, в то время как Старые владения поддержали дочь последнего Верховного короля.\nТеперь же состоявшаяся после многих лет беспокойного мира и холодной войны встреча двух претендентов на древний трон Исграмора ознаменовала конец этого конфликта.\n\n [wk_holder.GetTitledFirstName] из Западного Скайрима и [ek_holder.GetTitledFirstName] из Восточного Скайрима разграничили между собой земли и титулы.\n\nДолго ли продлится мир или одна из сторон попытается однажды заявить свои абсолютные права на древнее королевство нордов?.."
  north_tamriel.0005.a:0 "Власть поделена, но долго ли просуществует мир?"
-
-
+ 
  north_tamriel.0011.t:0 "Солстхейм"
  north_tamriel.0011.desc:0 "Когда мы пересекаем Море Призраков по дороге в Скайрим, мы проплываем мимо островов Бликрок и Каприз Иафета.\n\nМестные порты и гавани были восстановлены, и они будут служить перевалочным пунктом между материком и Солстхеймом."
  north_tamriel.0011.a:0 "Вперёд!К новым завоеваниям!"
-
+ 
  north_tamriel.0021.t:0 "Предел - девятое владение Скайрима"
  north_tamriel.0021.desc:0 "Хотя восточная половина Предела была отдана Скайриму много веков назад, этот регион оставался в руках ричменов и их соседей орков. Любая экспедиция нордов в эти земли, чтобы заселить регион и превратить его в полноценное владение, не приносила успеха, и вскоре земля возвращалась к своим изначальным хозяевам.\n\n\nБлагодаря моим усилиям Предел наконец-то был вырван из рук дикарей, и поселенцы со всего Скайрима теперь стекаются в регион, стремясь заселить эту новую землю и добыть богатства, о которых ричмены даже не задумывались. \n\nВ [markarth.GetNameNoTier] прибыли делегации из других владений, и в древнем двемерском городе было провозглашено, что Предел отныне будет девятым владением Скайрима"
  north_tamriel.0021.a:0 "Спокойствие наконец воцарит в землях Предела."
-
+ 
  north_tamriel.0022.desc:0 "Хотя восточная половина Предела была отдана Скайриму много веков назад, этот регион оставался в руках ричменов и их соседей орков. Любая экспедиция нордов в эти земли, чтобы заселить регион и превратить его в полноценное владение, не приносила успеха, и вскоре земля возвращалась к своим изначальным хозяевам.\n\nУсилиями [reach_pacifier.GetTitledFirstName] и [reach_pacifier.GetHerHis] Предел наконец-то был вырван из рук дикарей, и поселенцы со всего Скайрима теперь стекаются в регион, стремясь заселить эту новую землю и добыть богатства, о которых ричмены даже не задумывались. \n\nВ [markarth.GetNameNoTier] прибыли делегации из других владений, и в древнем двемерском городе было провозглашено, что Предел отныне будет девятым владением Скайрима"
  north_tamriel.0022.a:0 "Спокойствие наконец воцарит в землях Предела."
-
+ 
  north_tamriel.1001.t:0 "Гегемония Диренни"
  north_tamriel.1001.desc:0 "Древний альдмерский клан из рода Диренни пришел к власти в Хай Роке много лет назад, в первые века Первой Эры. Со временем они уступили большую часть своей власти бретонскому дворянству, и в их руках осталась только Адамантиновая башня и несколько поселений на побережье.\n\n\nНо их наследие осталось, и я нахожусь на пути к его возрождению. Захватив большинство основных земель Диренни, включая Адамантиновую башню, я [Select_CString(ROOT.Char.IsFemale, 'провозгласила', 'провозгласил' )] воссоздание Гегемонии. Хотя некоторые все ещё не хотят признавать мои притязания, скоро все они перейдут под власть нового гегемона, а я и моя семья будем править ими, как истинные хозяева Хай Рока."
-
  north_tamriel.1001.desc_direnni:0 "Когда-то мои предки были хозяевами Хай Рока. Мы освоили алхимию, колдовство, и никто не мог оспорить нашу власть над провинцией, даже вся мощь Алессианской империи блекла пред нашим величием. Однако с течением веков мы были вынуждены оставить большую часть наших земель, и в наших руках осталась лишь древняя Адамантиновая башня, где время само установило свой порядок.\n\nНо никто не забудет нас, и сегодня я официально [Select_CString(ROOT.Char.IsFemale, 'провозгласила', 'провозгласил' )] начало долгой кампании, в которой все наши сородичи возьмут в руки оружие и вновь завоюют то, чем мы когда-то владели! Благодаря моему руководству и силе моего рода мы возродим Гегемонию Диренни и вновь станем хозяевами Хай Рока!"
  north_tamriel.1001.a:0 "Завоевания и слава ждут нас и наш род!"
 
@@ -33,3 +31,13 @@
  north_tamriel.1011.desc:0 "В Хай Роке начинается новая эра! Все земли, принадлежащие ранее Гегемонии Диренни, находятся под моим непосредственным контролем. Я [Select_CString(ROOT.Char.IsFemale, 'созвала', 'созвал' )] всех своих вассалов, от Даггерфолла до Маркарта и от Нортпойнта до Халлина, и все они поклялись в вечном союзе своему новому гегемону. Давно прошли времена малых королей Хай Рока, из пепла Диренни была создана новая гегемония!"
  north_tamriel.1011.desc_direnni:0 "Если бы мои предки могли наблюдать за мной... Спустя столетия после того, как наш род почти вымер, я наконец-то [Select_CString(ROOT.Char.IsFemale, 'вернула', 'вернул' )] себе все наши семейные владения! Я [Select_CString(ROOT.Char.IsFemale, 'превзошла', 'превзошёл' )] то, о чем мои предки даже не мечтали, и сегодня вся Гегемония снова под нашей властью! Никто больше не усомнится в нашем величии, так как власть малых королей и других мятежных правителей в регионе была сломлена! De Rerum Dirennis! "
  north_tamriel.1011.a:0 "Вечная слава!"
+
+ ek_wrothgar_event.0001.t:0 "Wrothgarian Emergence"
+ ek_wrothgar_event.0001a.desc:0 "The mountains of Wrothgar have been home to many peoples. Nordics and Cyrodiilics inhabited these lands only to be thrown back when their empires crumbled. Only the Reachfolk and Orsimer have truly mastered this land... until now.\n\nAs Wrothgarians, we have established ourselves in these mountain peaks. No less tenacious than the Orcs and just as ruthless than Reachfolk when the need arises, we are savvy merchants with an excellent infantry tradition inherited from our primarily Northman ancestry.\n\nStill, we may have much to learn from the cultures that survived so long here. Should we adopt their ways to better thrive, or should we pave a new road, one of our own?"
+ ek_wrothgar_event.0001b.desc:0 "The mountains of Wrothgar have been home to many peoples. Nordics and Cyrodiilics inhabited these lands only to be thrown back when their empires crumbled. Only the Reachfolk and Orsimer have truly mastered this land... until now.\n\nAs Wrothgarians, some our people have established themselves in these mountain peaks. No less tenacious than the Orcs and just as ruthless than Reachfolk when the need arises, they are savvy merchants with an excellent infantry tradition inherited from their primarily Northman ancestry.\n\nStill, they may have much to learn from the cultures that survived so long here. Should they adopt those ways to better thrive, or should they pave a new road, one of their own?"
+ ek_wrothgar_event.0001.option.1:0 "The Orcs are mighty warriors to be emulated"
+ ek_wrothgar_event.0001.option.1.tooltip:0 "The [wrothgarian_culture.GetName] [culture|E] gains the Only the Strong tradition"
+ ek_wrothgar_event.0001.option.2:0 "The Reachfolk swift ambush is to be respected"
+ ek_wrothgar_event.0001.option.2.tooltip:0 "The [wrothgarian_culture.GetName] [culture|E] gains the Hit-and-Run Tacticians tradition"
+ ek_wrothgar_event.0001.option.3:0 "Wrothgarians will forge their own identity"
+ ek_wrothgar_event_cultural_acceptance_gain:0 "Mutual respect between peoples"

@@ -238,5 +238,26 @@
  ek_lifestyles.0031.c:0 "Восхваляйте божественную сущность, пока она существует в мире!"
  ek_lifestyles.0031.d:0 "Я использую эти знания, чтобы обогатить почву города [capital.GetNameNoTooltip]!"
 
+ek_lifestyles.0032.t:0 "Theories about Nedic Heritage"
+ ek_lifestyles.0032.desc:0 "I am constantly learning more about the history of Tamriel and the stories of my own people. However, there is one question that has particularly piqued my curiosity: where did it all begin? Our ancestors are the Nedic people, but my research has revealed two conflicting theories about their origins.\n\nOne theory suggests that the first Nedes migrated from Atmora before Ysgramor crossed the sea.\n\nThe other theory asserts that Tamriel is the birthplace of all mortal life.\n\nI am unsure which stance to take in this debate."
+ ek_lifestyles.0032.a:0 "I will express my own opinion on this issue!" 
+ ek_lifestyles.0032.b:0 "I need to study more before coming to a conclusion."
+ ek_lifestyles.0032.c:0 "Bah, who cares about the past?"
+ ek_lifestyles_0032.tt_succes:0 "Your theories are impressive."
+ ek_lifestyles_0032.tt_failure:0 "Your theories are embarassing."
 
+ ek_lifestyles.0033.t:0 "The Descendants of Auri-El"
+ ek_lifestyles.0033.desc:0 "As I study the history of my kin, I come across an interesting question. It is common knowledge, that the most noble of our race are direct descendants of Auri-El, yet there are many authors claiming that he is the ancestor spirit of every Aldmer, regardless of rank and status. \n\nCould this be possible? Are we sharing the same blood with lowborn individuals? \n\nOr is this just a baseless lie, created to defame our noble history?"
+ ek_lifestyles.0033.a:0 "It’s a preposterous assertion, contest it!" 
+ ek_lifestyles.0033.b:0 "There may be something to it."
+ ek_lifestyles.0033.c:0 "I have no time for such nonsensical questions."
+
+ ek_lifestyles.0034.t:0 "The Destruction of Yokuda"
+ ek_lifestyles.0034.desc:0 "It is well known that the ancient homeland of our ancestors was torn apart and almost destroyed, but the exact circumstances of this event are shrouded in mystery. Through my studies, I have discovered three different theories that may explain this incident.\n\nThe first theory asserts that it was a punishment from Satakal for the use of forbidden rites practiced by the Yokudans. The second theory claims that an ancient sword technique was so powerful that it sank most of the continent when it was used. The third theory simply suggests that it was a natural disaster.\n\nI wonder which of these theories is closest to the truth."
+ ek_lifestyles.0034.a:0 "I should read more about the holy teachings of Satakal."
+ ek_lifestyles.0034.b:0 "I should delve deeper into the secrets of ancient sword techniques."
+ ek_lifestyles.0034.c:0 "If it was a natural disaster, we should be prepared for the next one."
+ ek_lifestyles_0034.tta:0 "You gain 3 Prowess."
+ ek_lifestyles_0034.ttb:0 "You gain 2 Prowess."
+ ek_lifestyles_0034.ttc:0 "You gain 1 Prowess."
  

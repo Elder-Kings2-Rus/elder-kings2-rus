@@ -52,3 +52,20 @@
  ek_prison.1005.a:0 "Вы будете изгнаны и удалены из нашего [Concept('home', 'Дома')|E!"
  ek_prison.1005.b:0 "Вы будете изгнаны!"
  ek_prison.1005.c:0 "Я принимаю ваши мольбы. Добро пожаловать обратно."
+ 
+ 
+ 
+ ek_prison.1006.t:0 "Disrupted"
+ ek_prison.1006.start.desc:0 "The jailer drags a panicked [recipient.GetTitledFirstName] into the room. "Please! I will do anything, anything you want!" [recipient.GetHerHis|U] protests are cut short as the jailor gags [recipient.GetHerHim] and ties [recipient.GetHerHim] down on the table.\n\n"
+ ek_prison.1006.cruel.desc:0 ""Oh, [recipient.GetFirstNameNoTooltip]," I sigh theatrically. "You could achieve great things with magic at your fingertips. Consider that time to be #bold over#!""
+ ek_prison.1006.compassionate.desc:0 ""I am aggrieved by the situation," I say as the physician prepares [physician.GetHerHis] tools, "but this is for the stability of the realm. Trust me — I take no pleasure in your fall.""
+ ek_prison.1006.child.desc:1 ""This will make everything feel better," the physician says as [physician.GetSheHe] offers [recipient.GetTitledFirstName] the sedating draught. [recipient.GetHerHis|U] little hand is shaking, but [recipient.GetSheHe] drinks it all the same.\n\nOnce the [recipient.Custom('GirlBoy')] is asleep, the physician gives me a long look. "Are you sure about this, my [actor.GetLadyLord]?""
+ ek_prison.1006.a:0 "Oh, yes, this #emp will#! hurt."
+ ek_prison.1006.b:0 "I have my reasons."
+
+ ek_prison.1007.start.desc:0 "I am quietly contemplating my fate when the jailor suddenly slams the door open and drags me out of the cell. There, in the gloomy corridor, [actor.GetTitledFirstName] awaits.\n\n"
+ ek_prison.1007.cruel.desc:0 "The pleased look on [actor.GetHerHis] face sends a shiver up my spine.\n\n"Fear not, you will not lose your life today...Instead I will ensure you cannot weave spells anymore""
+ ek_prison.1007.compassionate.desc:0 ""[recipient.GetFirstNameNoTooltip], I want you to know I take no pleasure in this. I am forced to cripple your magic skills. For the stability of the realm.""
+ ek_prison.1007.child.desc:0 ""It will make everything feel better," the physician says as [physician.GetSheHe] offers me a tiny glass bottle. This is a bad place, with bad people, but [physician.GetHerHis] eyes... they are nice. With a shaking hand, I lift the bottle to my lips."
+ ek_prison.1007.a:0 "The...surrounding magicka...I can't feel it anymore!"
+ ek_prison.1007.b:0 "I... I feel discordant..."

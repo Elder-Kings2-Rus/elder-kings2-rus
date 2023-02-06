@@ -282,18 +282,19 @@ PORTRAIT_MODIFIER_custom_clothes_female_clothes_kimono_kosode_01_high:0 "Ака�
 
 PORTRAIT_MODIFIER_custom_legwear_female_legwear_tabi_01_high:0 "Акавирские Таби носки"
  
- 
  #########################################
  ################ Misc ################
  #########################################
  
- 
-
-  PORTRAIT_MODIFIER_special_draugr:0 "Нежить"
-
+  ### EK2 Hair ###
+  PORTRAIT_MODIFIER_custom_hair_male_hair_legolas_01:0 "Эльфийские волосы"
+  
   PORTRAIT_MODIFIER_custom_beards_male_beard_dwemer_01:0 "Двемерская борода"
-
+ 
   ### Male ###
+  
+  PORTRAIT_MODIFIER_special_draugr:0 "Нежить"
+  
   PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01:0 "Нет одежды"
   PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_western_bedchamber_01_common:0 "Нет одежды"
   PORTRAIT_MODIFIER_custom_clothes_male_empty:0 "ПУСТОЙ ЗАПОЛНИТЕЛЬ ЗАМЕНИТЕ МЕНЯ"
@@ -374,3 +375,4 @@ PORTRAIT_MODIFIER_custom_legwear_female_legwear_tabi_01_high:0 "Акавирск
  #PORTRAIT_MODIFIER_custom_legwear_
  #PORTRAIT_MODIFIER_custom_headgear_
   
+

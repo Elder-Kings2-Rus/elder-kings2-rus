@@ -2,11 +2,16 @@
  #MaA types
  mages:2 "[mages|E]"
  game_concept_mages:0 "Маги"
- game_concept_mages_desc:0 "Чародеи."
+ game_concept_mages_desc:0 "Mages are [men_at_arms|E] who fight on foot with spells.\n\nWhile each kind of Mage is unique, they generally [counter|E] [heavy_infantry|E] and [spearmen|E], and are in turn Countered by [archers|E] and [spellblades|E]. They also have an impact on [sieges|E] although they are typically less effective than dedicated [siege_weapons|E]."
+ spellblades:2 "[spellblades|E]"
+ game_concept_spellblades:0 "Spellblades"
+ game_concept_spellblades_desc:0 "Spellblades are [men_at_arms|E] who fight on foot with sword and sorcery.\n\nWhile each kind of Spellblade is unique, they generally [counter|E] [mages|E] and [skirmishers|E], and are in turn Countered by [light_cavalry|E]"
  
  #Base MaA
  war_mages:0 "Боевые маги"
+ war_mages_flavor:0 "#F Маги, обученные боевой поддерживающей магии. Призыв существ, исцеление ран и обстрел стен - все это обязанность боевых магов.#!"
  spellswords:0 "Воины-маги"
+ spellswords_flavor:0 "#F Воины-маги - легковооруженные воины, использующие магию в сражениях.#!"
  
  #Siege MaA
  
@@ -28,6 +33,8 @@
  saxhleel_reel_ka_flavor:0 "#F Защитники Саксхлил, которым поручено оберегать своих корне-братьев и Хист. Преодолев испытания Ка-Дилит, рил-ка не знают себе равных в преодолении непроходимых болот Чернотопья, устраивая засады на заблудившихся в болотах врагов.#!"
  shellback_phalanx:0 "Фаланга панцирников"
  shellback_phalanx_flavor:0 "#F Панцирники - наши элитные воители, лучшее творение учений Ка-Дилит. Хорошо вооруженные и закованные в броню, эти воины способны отразить вторжение в Чернотопье и штурмовать хорошо защищенные позиции.#!"
+ winged_avengers:0 "Winged Avengers"
+ winged_avengers_flavor:0 "The greatest Sarpa warriors are known as Winged Avengers. With feather talismans plucked from fallen allies and foes, their fearsome resolve and superb mobility enables them to overturn the most secure formations."
  # Ayleidon
  ayleid_sorcerers:0 "Айлейды-колдуны"
  ayleid_sorcerers_flavor:0 "#F Магия - одна из основ мира, и осознание этого приводит пониманию того, как можно управлять основами мироздания, разрушая или восстанавливая их. Таково могущество наших чародеев.#!"
@@ -35,10 +42,10 @@
  bosmer_stalkers:0 "Босмеры-ловчие"
  bosmer_stalkers_flavor:0 "#F Босмерские лучники славятся по всему Тамриэлю. Под покровом леса они могут выследить добычу, будь то зверь или враг, и мгновенно убить её выстрелом из лука#!"
  # Bretons
- breton_pikemen_companies:0 "Отряд пикинеров"
+ breton_pikemen_companies:0 "Илиакские отряды"
  breton_pikemen_companies_flavor:0 "#F Илиакские города-государства часто враждуют, что приводит к потребности в дешевых, но эффективных войсках. Полки пикинеров - это не просто рядовые бойцы, это элитные солдаты, готовые уничтожить любого, кто осмелится напасть на их ряды#!"
  breton_hedge_knights:0 "Бретонские присяжные рыцари"
- breton_hedge_knights_flavor:0 "#F Рыцарство в Хай Роке имеет куда более важное значение, чем где либо на Тамриэле. В этих землях любой умелый дворянин, владеющий конем и доспехами, может вступить в любой из сотен рыцарских орденов, сражаясь в качестве присяжного рыцаря на службе у сюзерена.#!"
+ breton_hedge_knights_flavor:0 "#F Рыцарство в Хай Роке имеет куда более важное значение, чем где либо на Тамриэле. В этих землях любой умелый в магии дворянин, владеющий конем и доспехами, может вступить в любой из сотен рыцарских орденов, сражаясь в качестве присяжного рыцаря на службе у сюзерена.#!"
  breton_highlanders:0 "Бретонские горцы"
  breton_highlanders_flavor:0 "#F Горные вершины Хай Рока - не место для слабых. Обитатели высокогорий довольно рано и болезненно усваивают то, что стойкость необходима для выживания. Этому находится применение к в бою, так и в повседневной жизни#!"
  light_grazing_horde:0 "Орда кочевников"
@@ -70,13 +77,15 @@
  riekling_harrier:0 "Риклинги-загонщики"
  riekling_harrier_flavor:0 "#F Риклинги-лучники умело пользуются своими малыми луками, поражая врагов и загоняя их в ловушки или засады.#!"
  durzog_riders:0 "Всадники на дурзогах"
- durzog_riders_flavor:0 "#F Известно, что гоблин-кинские шаманы используют магию на утробах дурзогов-матерей, делая их потомство более сильным. Несмотря на то, что в бою они уступают в выносливости, дурзоги компенсируют это своей сообразительностью и злобой. #!"
+ durzog_riders_flavor:0 "#F Goblinken have raised durzogs for war, company and for hunting down their victims for millenia. These "sludgepuppies" are fierce and intelligent, and are also bred for their hides, meat and even guts for bowstrings.#!"
  goblin_ravager:0 "Гоблины-разорители"
  goblin_ravager_flavor:0 "#F Хотя со стороны это кажется дикостью, разорители гоблин-кин специализируются на грабежах, мародерстве и налётах как средстве выживания, так как их род всегда сталкивается с враждебностью чужеземцев. #!"
  goblin_ranger:0 "Гоблины-следопыты"
  goblin_ranger_flavor:0 "#F Следопыты гоблин-кин гордятся своим охотничьим мастерством, но война - не их специализация. Хотя многих устрашает риск, связанный с новым положением, большинство следопытов рады возможности охотиться на самую опасную добычу. #!"
  goblin_skirmisher:0 "Гоблины-застрельщики"
  goblin_skirmisher_flavor:0 "#F Быстро усваиваясь и импровизируя в самых непредсказуемых ситуациях, застрельщики гоблин-кин - частое явление на передовой, когда их племена выдвигаются на войны.#!" 
+ ice_shamans:0 "Ice Shamans"
+ ice_shamans_flavor:0 "#F Left to fend for themselves until they can pay tribute to their home, these Goblin-ken spellcasters survived the frozen wilderness. These are no pampered scholars but deadly cryomancers as anyone foolish enough to cross them will see.#!"
  # Khajiiti
  alfiq:0 "Альфики-боевые маги"
  alfiq_flavor:0 "#F Самые малые представители каджитов, альфики предрасположены к магическим искусствам, и их часто можно увидеть исцеляющими своих раненых товарищей или сидящими на плечевых ремнях своих крупных сородичей.#!"
@@ -97,6 +106,16 @@
  witch_knight_flavor:0 "#F Ужасающие рыцари-колдуны Предела обрушиваются на своих врагов, сокрушая их дух и тело с ужасающей скоростью.#!"
  deathlands_slayers:0 "Истребители Гибельных земель"
  deathlands_slayers_flavor:0 "#F Гибельные земли - суровое место, где истребителей обучают безжалостно уничтожать всех врагов.#!"
+
+ south_nedic_headhunters:0 "Headhunters"
+ south_nedic_headhunters_flavor:0 "#F These glory-seeking South Nedes are experts in turning treacherous marshes into a death zone. With fiery destruction in one hand and cold steel in another, even [GetMaA('saxhleel_reel_ka').GetName] are wary of such foes.#!"
+ north_nedic_headhunters:0 "Witchblades"
+ north_nedic_headhunters_flavor:0 "#F Enemy [GetMaA('war_mages').GetName] can only take disastrous losses when faced with Witchblades. North Nedic spellblades have become experts at using broken terrain and hills to dispatch the most venerable battlemages#!"
+ central_nedic_headhunters:0 "Mageslayers"
+ central_nedic_headhunters_flavor:0 "#F Many [GetMaA('ayleid_sorcerers').GetName]' heads were claimed by ancient Mageslayers in their struggle for freedom. Our exquisite sword and sorcery is based on the legacy of the Heartlands Nedes, swiftly overrunning any opposition.#!"
+
+ jungle_peltasts:0 "Jungle Peltasts"
+ jungle_peltasts_flavor:0 "#F These lightly armored spearmen excell at drawing enemies with heavier equipment into dangerous terrain through hit-and-run tactics, after which the peltasts can pick them off at their leisure.#!"
  # Nordic
  huscarl:0 "Хускарлы"
  huscarl_flavor:0 "#F Облаченные в тяжелые нордские доспехи хускарлы - одни из самых грозных бойцов Северного Тамриэля.#!"
@@ -109,7 +128,9 @@
  bear_cavalry_flavor:0 "#F Свирепые медведи, закованные в тяжелую пластинчатую броню, на которых ездят верхом не менее свирепые воины. Их атака способна смять почти любой строй, а медведь и наездник могут сражаться бок о бок в пешей схватке.#!"
  # Yoku
  yokudan_way_of_the_sword:0 "Певчие Меча"
- yokudan_way_of_the_sword_flavor:0 "#F Обученные в древних школах, построенных Певчими Меча, те, кто следуют Пути Мечи, стараются следовать их учениям, хотя более и не могут проявлять свой Шехай...#!"
+ yokudan_way_of_the_sword_flavor:0 "#F Обученные в древних школах, построенных Певчими Меча, те, кто следуют Пути Мечи, стараются следовать их учениям, хотя более и не могут проявлять свой Шехай. Mere [GetMaA('redguard_way_of_the_sword').GetName] cannot hold a candle to them...#!"
+ redguard_way_of_the_sword:0 "Sword Disciples"
+ redguard_way_of_the_sword_flavor:0 "#F Schools have fell into ruins and teachings have been lost, but the Sword Disciples are still a force to be reckoned with. In the absence of true [GetMaA('yokudan_way_of_the_sword').GetName], they reign supreme...#!"
  abecean_pirates:0 "Абесинские пираты"
  abecean_pirates_flavor:0 "#F Наиболее известные своими многочисленными грабежами кораблей в Абесинском море, Абесинские пираты применяют в сражениях тактику, схожую на ту, что применяется при абордаже или высадках на сушу.#!"
  
@@ -136,8 +157,4 @@
  minotaurs:0 "Минотавры"
  minotaurs_flavor:0 "#F Хотя большинство жителей Тамриэля считают минотавров дикими зверями, говорят, что те, кто поклоняются им или близким им людям, могут убедить воинов-быколюдей сражаться в их рядах.#!"
  
- #MaA Descriptions
- war_mages_flavor:0 "#F Маги, обученные боевой поддерживающей магии. Призыв существ, исцеление ран и обстрел стен - все это обязанность боевых магов.#!"
- spellswords_flavor:0 "#F Воины-маги - легковооруженные воины, использующие магию в сражениях.#!"
-
  

@@ -128,6 +128,25 @@
  valenwood_tax_mult:0 "$MOD_TAX_MULT$ в лесах Валенвуда"
  valenwood_levy_size:0 "$MOD_LEVY_SIZE$ в лесах Валенвуда"
 
+
+ valenwood_hills_attrition_mult:1 "[command_modifier_i|E][attrition|E] taken in $valenwood_hills$"
+ valenwood_hills_advantage:1 "[command_modifier_i|E][advantage|E] in $valenwood_hills$"
+ valenwood_hills_cancel_negative_supply:1 "[command_modifier_i|E]Negate [supply_limit|E] Penalty in $valenwood_hills$"
+ valenwood_hills_max_combat_roll:1 "[command_modifier_i|E]Maximum [combat_roll|E] in $valenwood_hills$"
+ valenwood_hills_min_combat_roll:1 "[command_modifier_i|E]Minimum [combat_roll|E] in $valenwood_hills$"
+ valenwood_hills_development_growth:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH$ in $valenwood_hills$ ([terrain|E])"
+ valenwood_hills_development_growth_factor:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in $valenwood_hills$ ([terrain|E])"
+ valenwood_hills_construction_gold_cost:0 "$MOD_CONSTRUCTION_GOLD_COST$ in $valenwood_hills$"
+ valenwood_hills_holding_construction_gold_cost:0 "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in $valenwood_hills$"
+ valenwood_hills_construction_piety_cost:0 "$valenwood_hills_construction_gold_cost$"
+ valenwood_hills_holding_construction_piety_cost:0 "$valenwood_hills_construction_gold_cost$"
+ valenwood_hills_construction_prestige_cost:0 "$valenwood_hills_construction_gold_cost$"
+ valenwood_hills_holding_construction_prestige_cost:0 "$valenwood_hills_construction_gold_cost$"
+ valenwood_hills_supply_limit:0 "$MOD_SUPPLY_LIMIT$ in $valenwood_hills$"
+ valenwood_hills_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ in $valenwood_hills$"
+ valenwood_hills_tax_mult:0 "$MOD_TAX_MULT$ in $valenwood_hills$"
+ valenwood_hills_levy_size:0 "$MOD_LEVY_SIZE$ in $valenwood_hills$"
+ 
  wasteland_attrition_mult:1 "[command_modifier_i|E][attrition|E] в пустошах"
  wasteland_advantage:1 "[command_modifier_i|E][advantage|E] в пустошах"
  wasteland_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в пустошах"
@@ -222,6 +241,27 @@
  yummy_tea:0 "Вкусный чай"
  yummy_tea_desc:0 "У этого персонажа была прекрасная чашка чая."
 
+refused_shadowscales:0 "Refused Shadowscales"
+ refused_shadowscales_desc:0 "This character defied the Shadowscales by refusing to give up their Shadowborn hatchling."
+
+ terribly_tortured:0 "Terribly Tortured"
+ terribly_tortured_desc:0 "It is not merely the #italic pain#! of recent torture by practiced hands that haunts this character."
+
+ wild_magic_weak:0 "Wild Magic - Weak"
+ wild_magic_weak_desc:0 "[arcana|E]: [arcana_i]#N -2#!"
+
+ wild_magic_bad:0 "Wild Magic - Waning"
+ wild_magic_bad_desc:0 "[arcana|E]: [arcana_i]#N -1#!"
+
+ wild_magic_good:0 "Wild Magic - Waxing"
+ wild_magic_good_desc:0 "[arcana|E]: [arcana_i]#P +1#!"
+
+ wild_magic_powerful:0 "Wild Magic - Powerful"
+ wild_magic_powerful_desc:0 "[arcana|E]: [arcana_i]#P +2#!"
+
+ on_an_adventure:0 "On an Adventure"
+ on_an_adventure:0 "This character is out wandering on their own"
+ 
  ### Imperial City
  imperial_city_arena_01_duchy_modifier:0 "Властитель арены Имперского города" #Возможно, требуется правка! Как и в дальнейшем Owner - властитель, ибо прямой перевод, «владелец» вступает в противоречие с определением, что персонаж не является непосредственным владельцем...
  imperial_city_arena_01_duchy_modifier_desc:0 "Не являясь её непосредственным владельцем, этот персонаж получает выгоду от существования Арены Имперского города.\n\n#weak Примечание: Этот модификатор действует только до тех пор, пока Имперский город является вашей столицей и вы лично не владеете районом Арены#!"
@@ -310,10 +350,15 @@
  secret_vampire_modifier:0 "Ночные привычки"
  secret_vampire_modifier_desc:0 "Этот персонаж избегает выходить на солнечный свет."
  secret_vampire_modifier_ct:0 "У тебя есть лунный свет и звездный свет. Чтобы мои мечты сбылись сегодня вечером."
+ secret_lycan_modifier:0 "Insatiable Hunger"
+ secret_lycan_modifier_desc:0 "This character is always hungry and in a bad mood."
+ secret_lycan_modifier_ct:0 "Smell like a sound, I'm lost in a crowd, And I'm hungry like the wolf"
  low_blood_modifier:0 "Малокровие"
  low_blood_modifier_desc:0 "Этот персонаж чувствует головокружение после недавней встречи с вампиром."
  vampire_scare_modifier:0 "Боязнь вампира"
  vampire_scare_modifier_desc:0 "Население охвачено ужасом после того, как вампир напал на местных крестьян."
+ lycan_scare_modifier:0 "Lycan Scare"
+ lycan_scare_modifier_desc:0 "The populace is terrified after a werebeast preyed on the local peasantry."
 
  ### Orsinium
  city_of_the_orcs:0 "Столица орков"
@@ -608,6 +653,8 @@
  narsis_mining_successful_desc:0 "Несмотря на то, что в конечном итоге рабочие сходят с ума, процесс добычи творит чудеса на этих землях."
  narsis_mining_disaster:0 "Бедствие в шахтах"
  narsis_mining_disaster_desc:0 "Наши усилия были напрасны, теперь жители этих земель сообщают, что слышат шепот по ночам повсюду..."
+ harvests_end_sacrifice:0 "Sacrifice on Harvest's End"
+ harvests_end_sacrifice_desc:0 "This county has properly celebrated Harvest's End."
  royal_revelry:0 "Красивые ослепляющие иллюзии"
  royal_revelry_desc:0 "Вы создаете ослепляющие иллюзии на потеху людям в этом округе."
  ek_yearly_events_read_smiler:0 "Прочитал Поэму улыбчивого"
@@ -756,7 +803,13 @@
  everscamps_modifier_desc:0 "Вечные скампы это скампы, чье присутствие становится постоянным благодаря Посоху Вечного Скампа, поскольку они немедленно рематериализуются после смерти. Кроме того, посох замедляет скорость владельца. И самое главное, посох лишает своего пользователя возможности выбросить его, и от него можно избавиться, только отнеся его обратно в святилище в пещере Непроглядная Бездна."
  learned_to_let_go:0 "Научился отпускать"
  learned_to_let_go_desc:0 "Методом проб и ошибок этот персонаж научился отпускать вещи."
-
+ prepared_for_natural_disasters:0 "Prepared for natural disasters."
+ famous_duelist:0 "Famous Duelist"
+ reminded_of_present_beauty:0 "Reminded of Present Beauty"
+ bug_repellent:0 "Bug Repellent Candle"
+ bug_repellent_desc:0 "This character has an effective candle made from dreugh wax that repels insects."
+ bug_bitten:0 "Bug Bites"
+ bug_bitten_desc:0 "This character is being constantly scratching insect bites and stings that itch so very much and can't seem to leave them alone."
 
 
  ### Coming of Age Modifiers
@@ -828,3 +881,6 @@
 #Nenalata Restoration modifier (TODO: put this somewhere sensible)
  ayleid_ruin_excavation:0 "Раскопки айлейдских руин"
  ayleid_ruin_excavation_desc:0 "Раскопки и заселение старого города айлейдов привлекают поселенцев, торговцев и рабочих."
+ 
+ friends_prowess_gain:0 "Brothers-in-Arms"
+ friends_prowess_gain_desc:0 "This character is bolstered by the support of their friends"

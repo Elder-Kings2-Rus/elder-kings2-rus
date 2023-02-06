@@ -126,7 +126,7 @@
  patron_nocturnal_desc:0 "Хозяйка теней"
  patron_nocturnal_long_desc:0 "[GetPlayer.Custom('GetObNocturnalDesc')]"
  patron_nocturnal_summary:0 "Статус: [GetPlayer.Custom('GetPatronStatus_nocturnal')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_nocturnal')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_nocturnal').GetValue|+0]"
- desc_nocturnal:0 "Даэдрический принц ночи и тьмы, Ноктюрнал правит Вечнотенью в Обливионе. Обычно её изображают в виде женщины с двумя черными воронами. Многие воры считают её своим покровителем, приносящим им удачу через могилы ушедших соловьев."
+ desc_nocturnal:0 "Даэдрический принц ночи и тьмы, Ноктюрнал правит Вечнотенью в Обливионе. Обычно её изображают в виде женщины с двумя черными воронами. Многие воры считают её своим покровителем, приносящим им удачу через души ушедших соловьев."
  
  patron_peryite_name:0 "[GetPlayer.Custom('GetObPeryiteName')]"
  patron_peryite_desc:0 "Приносящий мор"
@@ -180,6 +180,8 @@
 #  patron_talos_desc:0 "Hero-God of Mankind"
 #  patron_talos_long_desc:0 ""
 
+ desc_hoonding:0 "Хундинг, бог Прокладывания Пути. Воплощающийся бог Воинственных Волн, который ведет нас к победе над неверными. Он воплощался дважды: один раз как Диагна, другой - как Франдар Хундинг."
+
  desc_zenithar:0 "Бог работы, торговли и богатства, к которому обращаются за успехом в деловых начинаниях. Учит процветанию через честный труд, а не через насилие или обман."
  patron_tsun_name:0 "Тсун"
  desc_tsun:0 "Мертвый бог испытаний против невзгод. Он умер, защищая Шора от чужеземных богов, и его смерть помнят как появление нынешнего мира."
@@ -187,7 +189,9 @@
 
  desc_shezarr:0 "Шезарр, дух человеческих стараний, особенно против альдмерской агрессии. Покровитель Имперских боевых магов, но сейчас менее популярен из-за космополитической природы имперского культа."
  desc_shor:0 "Шор, мертвый бог подземного мира. Правитель Совнгарда и мертвый вождь богов. Долгое время был королем-воином нордов, пока чужие боги не погубили его, обрекая на заточение в Совнгарде."
- desc_hoonding:0 "Хундинг, бог Прокладывания Пути. Воплощающийся бог Воинственных Волн, который ведет нас к победе над неверными. Он воплощался дважды: один раз как Диагна, другой - как Франдар Хундинг."
+ desc_sep:0 "Sep, the Second Serpent. Driven mad by the hunger of Satakal, Sep convinced the gods to create the mortal world as an easier alternative to the Walkabout. For this he was punished by Ruptga, but his mad hunger lives on among the stars."
+ desc_lorkh:0 "Lorkh, spirit of Man. It was Lorkh who convinced Namira the Spirit Queen to allow him the creation of a realm for wayward spirits - the Mortal Realm, for which he sacrificed himself. Yet he walks among mortals and in times of great will again reveal himself."
+ desc_lorkhaj:0 "Lorkhaj, the Moon Prince and Moon Beast. Considered both Sky Spirit and Dark Spirit, Lorkhaj was the final child of Fadomai, born in the Great Darkness. His Heart filled by the Great Darkness, he tricked his siblings when creating a place for the children of Nirni - trapping them there."
 
  desc_auriel:0 "[GetPlayer.Custom('GetAurielVerse')]"
  normal_desc_auriel:0 "Король альдмеров, военачальник во время Войны Проявленных Метафор, который затем достиг Праксиса, вернувшись на Этериус через Солнце, в полном соответствии с первыми из альдмеров, чтобы они могли последовать за ним."
@@ -266,6 +270,24 @@
  god_ch_attrebus_name:0 "Генерал Аттребус"
  desc_ch_attrebus:0 "Одинокий свет против угнетения, Аттребус последовал примеру других героев Сиродила и сражался с подавляющим числом противников, освобождая нас от очередного захватчика."
 
+# Thousand Cults
+ god_tc_aka_name:0 "Cult of Aka"
+ desc_tc_aka:0 "The Cult of Aka praises the Dragon-Made-Whole in all its manifestations, and venerates dragons as the blessed offspring of Akatosh, servants who protect the Dragonfires and whose Jill-flights restore broken time."
+ god_tc_missing_name:0 "Cult of the Missing"
+ desc_tc_missing:0 "The Cult of the Missing champions a dogged devotion towards the Missing God and his incarnations, heroes of Man known as Shezzarines, some of which are known by names such as Pelinal, Hans the Fox, and Ysmir."
+ god_tc_land_name:0 "Cult of the Land"
+ desc_tc_land:0 "The Cult of the Land believes that the Reman emperors were descended in a literal sense from the land Cyrod and the spirit of Alessia, herself ascended as Mother Cyrodiil once she took her place as Shezzar's bride, Nir."
+ god_tc_moth_name:0 "Cult of the Ancestor Moth"
+ desc_tc_moth:0 "The Cult of the Ancestor Moth is a silent, pietistic sect that practices great deference to the Moth Priests, believing that the ancestor-moths speak to them the words of the long-dead ancestors, so long as the Arkayn Cycle is kept."
+ god_tc_beasts_name:0 "Cult of God-Beasts"
+ desc_tc_beasts:0 "The Cult of God-Beasts cannot be traced to a single source, but combines veneration of minotaurs as the children of Morihaus and thus breed of Kynareth, ancient Nibenese totem animals, and Nordic animal interpretations of the Divines."
+ god_tc_love_name:0 "Cult of Love"
+ desc_tc_love:0 "The Cult of Love descends from the ancient, eastern rite of the Diblashuut, tempered in its carnal tendencies through the myths of the Mother Mara, who sublimates passion into love."
+ god_tc_guilds_name:0 "Cult of Guilds"
+ desc_tc_guilds:0 "The Cult of Guilds is a recent one, influenced by caste rituals from Akavir but not itself native to it. Claiming Stendarr as its patron of law and Zenithar as its patron of lucre, the cult finds fertile soil among worshippers of the Divines."
+ god_tc_heavens_name:0 "Cult of the Heavens"
+ desc_tc_heavens:0 "The Cult of the Heavens is a syncretic congregation that descends from ancient Nedic star-worship, but in the place of forbidden and excised names of the Magna-Ge has turned to various deities associated with the skies, from Azura to Magnus to the moons themselves."
+ 
  # Riddle'thar
  desc_azurah:0 "Азура - богиня, которой поклоняются каджиты, приписывая ей и свою нынешнюю форму, и таинственную связь между ними и Лунной решеткой."
  desc_khenarthi:0 "Каджиты считают Кенарти богиней ветров, чье дыхание поддерживает её родственников, Джоуда и Джоуна, на их пути по небу."
@@ -280,6 +302,28 @@
  desc_mafala:0 "Известен как дух скрытой вины и вечного стыда, также считается духом предков и учителем старых путей."
  desc_noctra:0 "Рожденный от чёрной крови Лоркаджа у ступеней Врат Пустоты, имя Ноктра шепчут для тишины, тени и удачи."
 
+# Forgotten Gods
+ god_fg_notorgo_name:0 "Notorgo"
+ desc_fg_notorgo:0 "Notorgo, God of messengers and travellers, makes his presence felt more than known. Commemorated in no scripture, he is regardless manifest in the trade-winds, in ancient waystones rubbed for safe travels, and sometimes his name is inscribed in the first brick laid down in a road."
+ god_fg_raen_name:0 "Raen"
+ desc_fg_raen:0 "Raen, God of agriculture, taught us how to farm crops and domesticate livestock in the Dawn Era, but has remained with us since. Some believe that he taught us to name the months, and which works must be done in which season."
+ god_fg_vigryl_name:0 "Vigryl"
+ desc_fg_vigryl:0 "Vigryl, God of sailors and ships, is spurned and forgotten throughout Tamriel. But it matters little to him, for all who are caught in a terrible storm at sea find themselves uttering a prayer to him, whatever name they call him."
+ god_fg_shandar_name:0 "Shandar"
+ desc_fg_shandar:0 "Shandar, God of grim and melancholic warfare, delights not in the power he wields. His crescent blade is raised in mourning, to protect those who must not be allowed to stain their own hands."
+ god_fg_jhimsei_name:0 "Jhim Sei"
+ desc_fg_jhimsei:0 "Jhim Sei, God of music and merriment, invented the first instrument long before Sheogorath and Y'ffre laid claim to his domain. His patrons are those who play music for joy, not fame."
+ god_fg_druaaga_name:0 "Druaaga"
+ desc_fg_druaaga:0 "Druaaga, Goddess of a thousand flowers, is still recalled in some remote Breton villages, where festivals to her aspect as springtide goddess continue undisturbed and keep her name alive."
+ god_fg_qolwen_name:0 "Q'Olwen"
+ desc_fg_qolwen:0 "Q'Olwen, Goddess of secret and forgotten lore, does not seek out followers. Instead, one must find her name through earnest love for Tamriel's obscure and the ancient secrets."
+ god_fg_sai_name:0 "Sai"
+ desc_fg_sai:0 "Sai, God of luck, is worshipped by gamblers and adventurers. But ah, he is a fickle god, who heaps happiness on some and misery on others, only to change their fortunes on a whim."
+ god_fg_ebonarm_name:0 "Ebonarm"
+ desc_fg_ebonarm:0 "Ebonarm, the Black Knight, is the patron of all warriors. His mighty steed War Master carries him across all battlefields, where he rewards the brave and delivers victory to the deserving. "
+ god_fg_ius_name:0 "Ius"
+ desc_fg_ius:0 "Ius, God of beasts, is said to live in a palace of furs and bones in Akavir, but prayers to him are carried across the ocean by dolphins and swallows, and even the beasts of Tamriel heed his commands."
+ 
  #Satakal Patrons
  desc_diagna:0 "Аватар Хундинга, достигшего постоянства в качестве бога-меча, Диагна сыграл важную роль в победе над леворукими эльфами, поскольку он принес орихалковое оружие народу Йокуды для победы в битве."
  desc_onsi:0 "Онси - известный бог-воин Йокуды и часть пантеона редгардов. Считается, что Онси научил человечество превращать свои ножи в мечи."
