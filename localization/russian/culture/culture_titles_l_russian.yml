@@ -296,15 +296,15 @@ title_county_city:0 "Метрополь"
  emperor_academy_female:0 "Верховная ректоресса"
  empire_academy:0 "Академическая сфера"
 
- archmage_title:0 "Arch-Mage"
- mage_academy:0 "College"
+ archmage_title:0 "Архимаг"
+ mage_academy:0 "Коллегия"
 
- academy_title_consort_female:0 "Mistress"
- academy_title_consort_male:0 "Master"
+ academy_title_consort_female:0 "Госпожа"
+ academy_title_consort_male:0 "Господин"
 
- school_headmaster:0 "Headmaster"
- school_headmistress:0 "Headmistress"
- school_academy:0 "School"
+ school_headmaster:0 "Директор"
+ school_headmistress:0 "Директриса"
+ school_academy:0 "Школа"
  
  
  #Default Republic tiers
@@ -590,12 +590,12 @@ count_republic_female_aldmeris_group:0 "Канонрив"
 duke_republic_male_aldmeris_group:0 "Верховный рив"
 duke_republic_female_aldmeris_group:0 "Верховная рив"
 
-barony_feudal_aldmeris_group:0 "Castle"
+barony_feudal_aldmeris_group:0 "Замок"
 baron_feudal_male_aldmeris_group:0 "Церум"
 baron_feudal_female_aldmeris_group:0 "Церувал"
 count_feudal_male_aldmeris_group:0 "Оптимат"
 count_feudal_female_aldmeris_group:0 "Оптимата"
-county_feudal_aldmeris_group:0 "Optimal"
+county_feudal_aldmeris_group:0 "Оптиматство"
 duke_feudal_male_aldmeris_group:0 "Кинлорд"
 duke_feudal_female_aldmeris_group:0 "Кинледи"
 duchy_feudal_aldmeris_group:0 "Кинхолд"
@@ -632,9 +632,9 @@ count_feudal_male_balfieri:0 "[CHARACTER.Custom('DirenniTitle')]"
 count_feudal_female_balfieri:0 "[CHARACTER.Custom('DirenniTitle')]"
 county_feudal_balfieri:0 "[CHARACTER.Custom('DirenniRealm')]"
 
-title_count_feudal_male_balfieri:0 "Castellan"
-title_count_feudal_female_balfieri:0 "Castellan"
-title_county_feudal_balfieri:0 "Castellany"
+title_count_feudal_male_balfieri:0 "Смотритель"
+title_count_feudal_female_balfieri:0 "Смотрительница"
+title_county_feudal_balfieri:0 "Кастеллянство"
 
 count_feudal_male_earl:0 "Эрл"
 count_feudal_female_earl:0 "Эрл"
@@ -758,7 +758,7 @@ king_feudal_male_goblinken:0 "Вождь-Король"
 king_feudal_female_goblinken:0 "Предводительница-Королева"
 
 #Reachfolk
-barony_feudal_reachfolk:0 "Dhun"
+barony_feudal_reachfolk:0 "Дун"
 duke_feudal_independent_male_reachfolk:0 "Вождь вождей"
 duke_feudal_independent_female_reachfolk:0 "Вождь вождей"
 king_feudal_male_reachfolk:0 "Ард"
@@ -1034,12 +1034,12 @@ emperor_feudal_male_lilmothiit:0 "Предвестник"
 emperor_feudal_female_lilmothiit:0 "Предвестница"
 empire_feudal_lilmothiit:0 "Земля"
 
-baron_republic_male_lilmothiit:0 "Lictor"
-baron_republic_female_lilmothiit:0 "Lictor"
-barony_republic_lilmothiit:0 "Seat"
+baron_republic_male_lilmothiit:0 "Ликтор"
+baron_republic_female_lilmothiit:0 "Ликтор"
+barony_republic_lilmothiit:0 "Место"
 
-count_republic_male_lilmothiit:0 "Censor"
-count_republic_female_lilmothiit:0 "Censor"
+count_republic_male_lilmothiit:0 "Цензор"
+count_republic_female_lilmothiit:0 "Цензор"
 
 #Ilniviri Group
 baron_feudal_male_ilniviri:0 "Господин"
