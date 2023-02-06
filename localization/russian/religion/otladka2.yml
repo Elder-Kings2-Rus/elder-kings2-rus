@@ -1,0 +1,466 @@
+﻿l_russian:
+ rf_aedra:0 "Аэдрик"
+ rf_daedra:0 "Даэдрик"
+ rf_aurbis:0 "Ауробис"
+
+ ###Religions
+ ##Aedric
+ #Nedic-Nordic
+
+ nedic_nordichouse_of_worship:0 "Храм"
+ nedic_nordichouse_of_worship_plural:0 "Храмы"
+ nedic_nordicreligious_symbol:0 "Печать Акатоша"
+ nedic_nordicreligious_text:0 "Писания"
+
+ nedic_nordicreligious_head_title:0 "Архиепископ"
+ nedic_nordicreligious_head_title_name:0 "Верховенство"
+ nedic_nordicdevotee_male:0 "Монах"
+ nedic_nordicdevotee_plural:0 "Монахи"
+ nedic_nordicpriest_male:0 "Священник"
+ nedic_nordicpriest_male_plural:0 "Священники"
+ nedic_nordicpriest_alternate_plural:0 "Настоятели"
+ nedic_nordicbishop:0 "Настоятель"
+ nedic_nordicbishop_plural:0 "Настоятели"
+ 
+ #Imperial
+ imperialreligious_head_title:0 "Архиепископ"
+ imperialreligious_head_title_name:0 "Часовня Сиродила"
+
+ #Nordic
+ nordichouse_of_worship:0 "Святилище"
+ nordichouse_of_worship_plural:0 "Святилища"
+ nordicreligious_symbol:0 "Сердце"
+ nordicreligious_text:0 "Легенды"
+
+ nordicreligious_head_title:0 "Архиепископ"
+ nordicreligious_head_title_name:0 "Часовня Скайрима"
+ nordicdevotee:0 "Мистик"
+ nordicdevotee_plural:0 "Мистики"
+ nordicpriest_male:0 "Мудрец"
+ nordicpriest_male_plural:0 "Мудрецы"
+ nordicpriest_female:0 "Мудрая женщина"
+ nordicpriest_female_plural:0 "Мудрые женщины" 
+ nordicpriest_neuter:0 "Мудрые"
+ nordicpriest_alternate_plural:0 "Священники"
+
+ #Breton
+ bretonhouse_of_worship:0 "Храм"
+ bretonhouse_of_worship_plural:0 "Храмы"
+ bretonreligious_symbol:0 "Божественное Знамя"
+ bretonreligious_text:0 "Учения"
+
+ bretonreligious_head_title:0 "Архиепископ"
+ bretonreligious_head_title_name:0 "Часовня Хай Рока"
+ bretondevotee:0 "Аколит"
+ bretondevotee_plural:0 "Аколиты"
+ bretonpriest_male:0 "Священник"
+ bretonpriest_male_plural:0 "Священники"
+ bretonpriest_female:0 "Жрица"
+ bretonpriest_female_plural:0 "Жрицы"
+ bretonpriest_neuter:0 "Священник"
+ bretonpriest_neuter_plural:0 "Священники"
+ bretonpriest_alternate_plural:0 "Священники"
+ bretonbishop_male:0 "Патриарх"
+ bretonbishop_male_plural:0 "Патриархи"
+ bretonbishop_female:0 "Матриарх"
+ bretonbishop_female_plural:0 "Матриархи"
+ bretonbishop_neuter:0 "Паренсиарх" #Гендерно нейтральное от Патриарха
+ bretonbishop_neuter_plural:0 "Паренсиархи"
+
+ #Forebear
+ redguardhouse_of_worship:0 "Храм"
+ redguardhouse_of_worship_plural:0 "Храмы"
+ redguardreligious_symbol:0 "Божественное Знамя"
+ redguardreligious_text:0 "Писания"
+
+ redguardreligious_head_title:0 "Архиепископ"
+ redguardreligious_head_title_name:0 "Часовня Хаммерфелла"
+ redguarddevotee:0 "Аколит"
+ redguarddevotee_plural:0 "Аколиты"
+ redguardpriest:0 "Священник"
+ redguardpriest_plural:0 "Священники"
+ redguardbishop:0 "Дервиш" #Мусульманский аналог монаха
+ redguardbishop_plural:0 "Дервиши"
+ yokudanpriest_male:0 "Дервиш"
+ yokudanpriest_male_plural:0 "Дервиши"
+ yokudanpriest_alternate:0 "Дервиш" #PLACEHOLDER
+ yokudanpriest_alternate_plural:0 "Дервиши" #PLACEHOLDER
+ yokudanhouse_of_worship:0 "Храм"
+ yokudanreligious_text:0 "Писания"
+
+ #Cult of Heroes/Reman
+ hero_cult_religious_symbol:0 "Красный Алмаз"
+ hero_cult_religious_text:0 "Алессианский Ковенант"
+
+ hero_cult_religious_head_title:0 "Алмазный Голос"
+ hero_cult_religious_head_title_name:0 "Имперский Храм"
+ hero_cult_devotee:0 "Проситель"
+ hero_cult_devotee_plural:0 "Просители"
+ hero_cult_priest:0 "Передсказатель"
+ hero_cult_priest_plural:0 "Предсказатели"
+ hero_cult_priest_alternate_plural:0 "Духовенство"
+ hero_cult_bishop:0 "Жрец"
+ hero_cult_bishop_plural:0 "Жрецы"
+
+ reman_cult_religious_text:0 "Реманада"
+ reman_cult_religious_head_title:0 "Голос Ремана"
+ reman_cult_religious_head_title_name:0 "Реманский Храм"
+
+ #Alessian Order
+ alessian_religious_symbol:0 "Единый"
+ alessian_religious_text:0 "77 Несгибаемых Доктрин"
+ alessian_houseofworship:0 "Храм"
+ alessian_houseofworship_plural:0 "Храмы"
+
+ alessian_religious_head_title:0 "Архиепископ"
+ alessian_religious_head_title_name:0 "Алессианский Орден"
+ alessian_devotee:0 "Алестик"
+ alessian_devotee_plural:0 "Алестики"
+ alessian_priest:0 "Член общины"
+ alessian_priest_plural:0 "Члены общины"
+ alessian_priest_female:0 "Настоятельница"
+ alessian_priest_female_plural:0 "Настоятельницы"
+ alessian_priest_alternate_plural:0 "Духовенство"
+ alessian_bishop:0 "Святитель"
+ alessian_bishop_plural:0 "Святители"
+ alessian_bishop_female:0 "Святительница"
+ alessian_bishop_female_plural:0 "Святительницы"
+
+
+ #Aldmeri
+ aldmerihouse_of_worship:0 "Храм"
+ aldmerihouse_of_worship_plural:0 "Храмы"
+ aldmerireligious_symbol:0 "Солнце Ауриэля"
+ aldmerireligious_text:0 "Учения Аэдра"
+
+ ceremoniarch_head_title:0 "Церимониарх"
+ aldmerireligious_head_title:0 "Архивикарий"
+ aldmerireligious_head_title_name:0 "Часовня Аэдра"
+ aldmeridevotee:0 "Монах"
+ aldmeridevotee_plural:0 "Монахи"
+ aldmeripriest:0 "Викарий"
+ aldmeri_priest_plural:0 "Викарии"
+ aldmeribishop:0 "Альдарх"
+ aldmeri_priest_alternate:0 "Викарий"
+ aldmeri_priest_alternate_plural:0 "Викарии"
+ 
+ #Bosmeri
+ greenpact_house_of_worship:0 "Священная Роща"
+ greenpact_house_of_worship_plural:0 "Священные Рощи"
+ greenpact_religious_symbol:0 "Ветвь и Лист"
+ greenpact_religious_text:0 "Зеленый Пакт"
+
+ greenpact_devotee:0 "Зеленый аколит"
+ greenpact_devotee_plural:0 "Зеленые аколиты"
+ greenpact_priest:0 "Прядильщик"
+ greenpact_priest_plural:0 "Прядильщики"
+ greenpact_bishop:0 "Древний Прядильщик"
+ greenpact_bishop_plural:0 "Древние прядильщики"
+ greenpact_religious_head_title:0 "Сильвенар"
+ greenpact_religious_head_title_name:0 "Сильвенар"
+
+ wilderking_religious_head_title:0 "Страж-Главнокомандующий"
+ wilderqueen_religious_head_title:0 "Страж-Главнокомандующая"
+ wilderking_religious_head_title_name:0 "Двор Диких Королей"
+
+
+##Daedric
+#Azura
+ azura_priest_male:0 "Жрец"
+ azura_priest_male_plural:0 "Жрецы"
+ azura_positive_afterlife:0 "Лунная Тень"
+ azura_religious_text:0 "Призыв Азуры"
+ azura_witchgodname_the_horned_god:0 "Азура"
+#Sanguine
+ sanguine_house_of_worship:0 "Храм"
+#Reach
+ reach_house_of_worship:0 "Святилище"
+ reach_house_of_worship_plural:0 "Святилища"
+ reach_religious_symbol:0 "Фетиш"
+ reach_religious_text:0 "Уроки"
+
+ reach_religious_head_title:0 "Дорикан"
+ reach_religious_head_title_name:0 "Охотничьи Угодья"
+ reach_devotee:0 "Шаман"
+ reach_devotee_plural:0 "Шаманы"
+ reach_priest_male:0 "Верховный шаман"
+ reach_priest_male_plural:0 "Верховные шаманы"
+ reach_bishop_male:0 "Муж ведьмы"
+ reach_bishop_male_plural:0 "Мужи ведьм"
+ reach_bishop_female:0 "Ведьма"
+ reach_bishop_female_plural:0 "Ведьмы"
+ reach_priest_alternate_plural:0 "Жрецы"
+
+ #Dwemer Idolatry
+ idolatryhouse_of_worship:0 "Галерея"
+ idolatryhouse_of_worship_plural:0 "Гелереи"
+ idolatryreligious_symbol:0 "Шестерёнка"
+ idolatryreligious_text:0 "Уроки"
+
+ idolatryreligious_head_title:0 "Главный архитектор"
+ idolatryreligious_head_title_name:0 "Город щитов"
+ idolatrydevotee:0 "Тональный хранитель"
+ idolatrydevotee_plural:0 "Тональный хранитель"
+ idolatrypriest_male:0 "Ведущий"
+ idolatrypriest_male_plural:0 "Ведущие"
+ idolatrybishop:0 "Архитектор"
+ idolatrybishop_plural:0 "Архитекторы"
+ idolatrypriest_alternate_plural:0 "Священники"
+
+ #Hagraven Cults
+ hagravenreligious_head_title:0 "Великая Старуха"
+ hagravenreligious_head_title_name:0 "Курятник"
+ hagravenpriest:0 "Ворожея"
+ hagravenpriest_plural:0 "Ворожеи"
+ hagravenbishop:0 "Старуха"
+ hagravenbishop_plural:0 "Старухи"
+
+#Velothi
+ velothihouse_of_worship:0 "Храм"
+ velothihouse_of_worship_plural:0 "Храмы"
+ velothireligious_symbol:0 "Тройное знамя"
+ velothireligious_text:0 "Гимны"
+
+ velothireligious_head_title:0 "Пророк"
+ velothireligious_head_title_name:0 "Вера Велоти"
+ velothidevotee:0 "Адепт"
+ velothidevotee_plural:0 "Адепты"
+ velothipriest:0 "Викарий"
+
+ velothipriest_plural:0 "Викарии"
+ velothipriest_alternate_plural:0 "Канонники"
+ velothibishop:0 "Мастер"
+ velothibishop_plural:0 "Мастера"
+
+ #Old Velothi
+ oldvelothireligious_symbol:0 "Тройное знамя"
+ oldvelothireligious_text:0 "Учения Велота"
+
+ oldvelothireligious_head_title_name:0 "Старый Храм"
+
+ #Nerevarine
+ nerevarreligious_symbol:0 "Луна и Звезда"
+ nerevarreligious_text:0 "Потерянное Пророчество" #В тес есть книга «Потерянное Пророчество», она про Нереварина. Поэтому оставил так, а не «Призрачное пророчество»
+
+ nerevarreligious_head_title_name:0 "Новый Храм"
+ nerevardevotee:0 "Посвященный"
+ nerevardevotee_plural:0 "Посвященные"
+ nerevarpriest:0 "Мудрец"
+ nerevarpriest_plural:0 "Мудрецы"
+ nerevarpriest_alternate_plural:0 "Шаманы"
+ nerevarbishop:0 "Провидец"
+ nerevarbishop_plural:0 "Провидцы"
+
+ #Tribunal
+ tribunalreligious_text:0 "Проповеди"
+ tribunalreligious_head_title:0 "Альма Рула"
+ tribunalreligious_head_title_name:0 "Храм Трибунала"
+
+#Malacath
+ malacath_religious_text:0 "Кодекс"
+ malacath_death_deity_name:0 "Малакат"
+ malacath_house_of_worship_plural:0 "Храмы"
+ malacath_bishop:0 "Верховный жрец"
+ malacath_bishop_plural:0 "Верховные жрецы"
+ malacath_house_of_worship:0 "Храм"
+ #Goblin
+ goblin_house_of_worship:0 "Священная пещера"
+ goblin_house_of_worship_plural:0 "Священные пещеры"
+ goblin_religious_symbol:0 "Посох"
+ goblin_religious_text:0 "Истории племени"
+
+ goblin_religious_head_title:0 "Голос Мулука"
+ goblin_religious_head_title_name:0 "Великая шаманократия"
+ goblin_devotee:0 "Верный"
+ goblin_devotee_plural:0 "Верные"
+ goblin_priest:0 "Шаман"
+ goblin_priest_plural:0 "Шаманы"
+ goblin_bishop:0 "Говорящий с Богом"
+ goblin_bishop_plural:0 "Говорящие с Богом"
+
+ #Hircine
+ hircine_house_of_worship:0 "Святилище"
+ hircine_priest_male:0 "Охотник"
+ hircine_religious_text:0 "Призыв Хирсина"
+
+##Aurbic
+#Atmoran
+ atmoranhouse_of_worship:0 "Святилище"
+ atmoranhouse_of_worship_plural:0 "Святилища"
+ atmoranreligious_symbol:0 "Тотем"
+ atmoranreligious_text:0 "Легенды"
+
+ atmoranreligious_head_title:0 "Верховный Жрец Тотема"
+ atmoranreligious_head_title_name:0 "Совнгард"
+ atmorandevotee:0 "Седобородый"
+ atmorandevotee_plural:0 "Седобородые"
+ atmoranpriest_male:0 "Мудрец"
+ atmoranpriest_male_plural:0 "Мудрецы"
+ atmoranpriest_female:0 "Мудрая женщина"
+ atmoranpriest_female_plural:0 "Мудрые женщины"
+ atmoranpriest_neuter:0 "Мудрые"
+ atmoran_bishop:0 "Тотемный жрец"
+ atmoran_bishop_plural:0 "Тотемные жрецы"
+ atmoranpriest_alternate_plural:0 "Священники"
+
+ #All Maker
+ skaal_house_of_worship:0 "Камень"
+ skaal_house_of_worship_plural:0 "Камни"
+ skaal_religious_symbol:0 "Мировой Камень"
+ skaal_religious_text:0 "Предзнаменования"
+
+ skaalreligious_head_title:0 "Старейший"
+ skaalreligious_head_title_name:0 "Скаалия"
+ skaaldevotee:0 "Шаман"
+ skaaldevotee_plural:0 "Шаманы"
+ skaal_priest_male:0 "Шаман"
+ skaal_priest_male_plural:0 "Шаманы"
+ skaal_bishop:0 "Старейшина"
+ skaal_bishop_plural:0 "Старейшины"
+ skaal_priest_alternate_plural:0 "Священники"
+ 
+ # Dragon Cult
+ dragon_cult_religious_symbol:0 "Дракон"
+ dragon_cult_religious_text:0 "Стены слов"
+ dragon_cult_religious_head_title:0 "Призыватель драконов"
+ dragon_cult_religious_head_title_name:0 "Царство Алдуина"
+ dragon_cult_devotee:0 "Драконий культист"
+ dragon_cult_devotee_plural:0 "Драконьи культисты"
+ dragon_cult_bishop_male:0 "Драконий жрец"
+ dragon_cult_bishop_male_plural:0 "Драконьи жрецы"
+ dragon_cult_bishop_female:0 "Драконья жрица"
+ dragon_cult_bishop_female_plural:0 "Драконьи жрицы"
+ dragon_cult_priest_male:0 "Жрец"
+ dragon_cult_priest_male_plural:0 "Жрецы"
+ dragon_cult_priest_female:0 "Жрица"
+ dragon_cult_priest_female_plural:0 "Жрицы"
+ dragon_cult_priest_alternate_plural:0 "Жрецы"
+ 
+ # Ternion Totems
+ ternion_totems_house_of_worship:0 "Святилище"
+ ternion_totems_house_of_worship_plural:0 "Святилища"
+ ternion_totems_religious_symbol:0 "Тотемы"
+ ternion_totems_religious_text:0 "Легенды"
+ ternion_totems_devotee_male:0 "Монах"
+ ternion_totems_devotee_plural:0 "Монахи"
+ ternion_totems_priest_male:0 "Жрец"
+ ternion_totems_priest_male_plural:0 "Жрецы"
+ ternion_totems_bishop:0 "Жрец"
+ ternion_totems_bishop_plural:0 "Жрецы"
+ 
+ #Khajiiti
+ 
+ khajiiti_religious_symbol:0 "Луны"
+ khajiiti_religious_text:0 "Слово Гривы"
+
+ khajiiti_religious_head_title:0 "Грива"
+ khajiiti_religious_head_title_name:0 "Царство Гривы"
+ #Yes I know Mane's Realm is a dumb title, but it won't actually be used in game
+ khajiiti_devotee:0 "Смотрящий на Луну"
+ khajiiti_devotee_plural:0 "Смотрящие на Луну"
+ khajiiti_priest_male:0 "Лунный жрец"
+ khajiiti_priest_male_plural:0 "Лунные жрецы"
+ khajiiti_priest_female:0 "Лунная жрица"
+ khajiiti_priest_female_plural:0 "Лунные жрицы"
+ khajiiti_bishop:0 "Лунный епископ"
+ khajiiti_bishop_plural:0 "Лунные епископы" 
+ 
+ #Lilmothiiti
+ 
+ lilmothiiti_religious_symbol:0 "Диапазон"
+ lilmothiiti_religious_text:0 "Живой закон"
+
+ lilmothiiti_religious_head_title:0 "Законодатель" #Lawgiver but I'm feeling cute :p
+ lilmothiiti_religious_head_title_name:0 "Земной Суд" #cause a Earth is a term for a large expanse of land, meant to symbolize how big (universal) this jurisdiction is 
+ lilmothiiti_devotee:0 "Юрист"
+ lilmothiiti_devotee_plural:0 "Юристы"
+ lilmothiiti_priest_male:0 "Законник"
+ lilmothiiti_priest_male_plural:0 "Законники"
+ lilmothiiti_priest_female:0 "Законник"
+ lilmothiiti_priest_female_plural:0 "Законники"
+ lilmothiiti_bishop:0 "Легист"
+ lilmothiiti_bishop_plural:0 "Легисты"
+ 
+ # Worm Cult
+ wormking_religious_head_title:0 "Восходящий"
+ wormsdevotee_neuter:0 "Трэлл Червя"
+ wormsdevotee_neuter_plural:0 "Трэллы Червя"
+ wormspriest_male:0 "Адепт Червя"
+ wormspriest_male_plural:0 "Адепты Червя"
+ wormsbishop:0 "Отшельник Червя"
+ wormsbishop_plural:0 "Отшельники Червя"
+
+ # Dwemer
+ dwemer_religious_head_title:0 "Верховный Владыка Ремесла"
+
+ # Coiled Path
+ cppriest_female:0 "Мудрая женщина"
+ cppriest_female_plural:0 "Мудрые женщины"
+
+ # Wyrd
+
+ wyrdreligious_text:0 "Корневые Фигуры"
+
+ wyrdhouse_of_worship:0 "Вещее Древо"
+ wyrdreligious_head_title:0 "Архикарга"
+ wyrdreligious_head_title_name:0 "Архикарга"
+ wyrdreligious_symbol:0 "Трискелион" 
+ wyrddevotee_male:0 "Преданный"
+ wyrddevotee_male_plural:0 "Преданные"
+ wyrddevotee_female:0 "Преданная"
+ wyrddevotee_female_plural:0 "Преданные"
+ wyrddevotee_neuter:0 "Преданный"
+ wyrddevotee_neuter_plural:0 "Преданные"
+ wyrdpriest_male:0 "Вещун"
+ wyrdpriest_male_plural:0 "Вещуны"
+ wyrdpriest_female:0 "Вещунья"
+ wyrdpriest_female_plural:0 "Вещуньи"
+ wyrdpriest_alternate_plural:0 "Вещуны"
+ wyrdbishop_male:0 "Вещун"
+ wyrdbishop_male_plural:0 "Вещуны"
+ wyrdbishop_female:0 "Вещунья"
+ wyrdbishop_female_plural:0 "Вещуньи"
+ wyrdbishop_neuter:0 "Вещун"
+ wyrdbishop_neuter_plural:0 "Вещуны"
+ 
+ druidreligious_text:0 "Истинный Путь"
+ druiddreligious_head_title:0 "Архидруид"
+ druidreligious_head_title_name:0 "Архикруг"
+ druidddevotee_male:0 "Преданный"
+ druidddevotee_male_plural:0 "Преданные"
+ druidddevotee_female:0 "Преданная"
+ druidddevotee_female_plural:0 "Преданные"
+ druidddevotee_neuter:0 "Преданный"
+ druidddevotee_neuter_plural:0 "Преданные"
+ druiddpriest_male:0 "Друид"
+ druiddpriest_male_plural:0 "Друиды"
+ druiddpriest_female:0 "Друидесса"
+ druiddpriest_female_plural:0 "Друидессы"
+ druiddpriest_alternate_plural:0 "Друиды"
+ druiddbishop_male:0 "Друид"
+ druiddbishop_male_plural:0 "Друиды"
+ druiddbishop_female:0 "Друидесса"
+ druiddbishop_female_plural:0 "Друидессы"
+ druiddbishop_neuter:0 "Друид"
+ druidbishop_neuter_plural:0 "Друиды"
+ 
+ # Celestials
+
+ celestialshouse_of_worship:0 "Вершина башни"
+ celestialspriest_male_plural:0 "Жрецы"
+ celestialpriest_alternate_plural:0 "Жрецы"
+
+ # Molag Bal
+
+ molag_priest_male:0 "Жрец"
+
+ # Vaermina
+
+ vaermina_priest_alternate_plural:0 "Жрецы"
+ vaermina_house_of_worship:0 "Храм"
+ vaermina_house_of_worship_plural:0 "Храмы"
+ vaermina_religious_text:0 "Кошмары"
+
+ # Namira
+
+ namira_priest_male:0 "Жрец"

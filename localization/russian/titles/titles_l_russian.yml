@@ -120,6 +120,8 @@
   e_aldmeri_dominion:0 "Альдмерский Доминион"
   d_thalmor:0 "Коллегия Альдмерской Благопристойности"
   d_magnus_watchers:0 "Наблюдатели Магнуса"
+ # Vvardenfell
+ e_vvardenfell:0 "Вварденфелл"
  ## Great Houses
  k_indoril:0 "Великий дом Индорил"
  k_redoran:0 "Великий дом Редоран"
@@ -144,3 +146,10 @@
  d_abbey_zenithar_article:0 ""
  d_abbey_shezarr:0 "Аббатство Шезарра"
  d_abbey_shezarr_article:0 ""
+
+## Map mode duchies
+d_map_base_color:0 ""
+d_map_has_special_building:0 ""
+d_map_has_special_building_slot:0 ""
+d_map_holy_site:0 ""
+d_map_holy_site_own:0 ""

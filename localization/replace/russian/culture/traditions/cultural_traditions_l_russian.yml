@@ -10,6 +10,9 @@
  tradition_saharan_nomads_name:0 "Алик'рские кочевники"
  tradition_saharan_nomads_desc:1 "Эта культура тесно связана с пустыней Алик'р, которую она пересекала веками, соединяя Залив Илиак с царствами суб-Алик'р Залива Хубаладжад."
  tradition_himalayan_settlers_name:0 "Жители Гор"
+
+ tradition_desert_ribat_name:0 "Desert Retreats"
+ tradition_desert_ribat_desc:0 "This culture has a tradition of fortified desert retreats, where the pious can live in connection with the open sky and the sands. This lifestyle breeds able and pious desert warriors and attracts mystics."
  
  tradition_spartan_name:0 "Стойкость"
  
@@ -22,4 +25,11 @@
  
  tradition_nubian_warrior_queens_name:0 "Королевы-воительницы"
  tradition_nubian_warrior_queens_desc:0 "Те, кто живет в Акавире, хорошо помнят великих Королев-Воительниц, которые когда-то создавали королевства по всей Цакаре. Наши соседи могут настаивать на превосходстве мужчин, но мы прослеживаем наши родословные по нашим матерям, и боевой клич могущественных женщин Цаэски заставит всех «мужчин» бежать домой."
- 
+
+ # EK Terrain
+ dry_percentage_desc:0 "The [culture|E] does not have #V 30%#! of its [counties|E] in Desert, Desert Hills or Dryland [terrain|E]"
+ culture_in_dryland_desc:0 "The [culture|E] is not present in any [county|E] with Desert, Desert Hills or Dryland [terrain|E]"
+ forest_percentage_desc:0 "The [culture|E] does not have #V 30%#! of its [counties|E] in Forest, Taiga, Taiga Hills, Jungle or Jungle Hills [terrain|E]"
+ culture_in_forest_desc:0 "The [culture|E] is not present in any [county|E] with Forest, Taiga, Taiga Hills, Jungle or Jungle Hills [terrain|E]"
+ culture_in_jungle_desc:0 "The [culture|E] is not present in any [county|E] with Jungle or Jungle Hills [terrain|E]"
+ jungle_percentage_desc:0 "The [culture|E] does not have #V 30%#! of its [counties|E] in Jungle or Jungle Hills [terrain|E]"
