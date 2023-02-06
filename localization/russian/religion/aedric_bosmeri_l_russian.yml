@@ -1,0 +1,117 @@
+﻿l_russian:
+
+# Bosmeri Faiths
+ bosmeri_religion:0 "The Pact"
+ bosmeri_religion_adj:0 "Bosmeri"
+ bosmeri_religion_adherent:0 "Bosmeri"
+ bosmeri_religion_adherent_plural:0 "Bosmeri"
+ bosmeri_religion_desc:0 "Despite disagreements over the exact details; the one thing which unites almost all Bosmer is a belief in the Green Pact. Prior to this the Bosmer were beings of formless ooze and everchanging shape, but in exchange for accepting his rules the god Y'ffre gave them physical form, and made the pristene forest of Valenwood for them to live in as long as they honour his terms."
+ bosmeri_high_god_name:0 "$god_yffre_name$"
+ bosmeri_high_god_name_2:0 "the Storyteller" # Optional translation alt
+ bosmeri_high_god_name_3:0 "the Spirit of the Now" # Optional translation alt
+ bosmeri_high_god_name_possessive:0 "$god_yffre_name_possessive$"
+ bosmeri_high_god_she_he:0 "he"
+ bosmeri_high_god_name_alternate:0 "the Earthbones"
+ bosmeri_high_god_name_alternate_possessive:0 "the Earthbones'"
+ bosmeri_devil_name:0 "$god_oathbreakers_name$"
+ bosmeri_devil_name_possessive:0 "$god_oathbreakers_name_possessive$"
+ bosmeri_devil_shehe:0 "they"
+ bosmeri_devil_herselfhimself:0 "themselves"
+ bosmeri_devil_herhis:0 "their"
+ bosmeri_death_deity_name:0 "$god_arkay_name$"
+ bosmeri_death_deity_name_possessive:0 "$god_arkay_name_possessive$"
+ bosmeri_house_of_worship:0 "sacred grove"
+ bosmeri_house_of_worship_plural:0 "sacred groves"
+ bosmeri_religious_symbol:0 "frond and leaf"
+ bosmeri_religious_text:0 "the Green Pact"
+ bosmeri_religious_head_title:0 "Guardian"
+ bosmeri_religious_head_title_name:0 "the Green Pact"
+ bosmeri_devotee_male:0 "green acolyte"
+ bosmeri_devotee_male_plural:0 "green acolytes"
+ bosmeri_devotee_female:0 "green acolyte"
+ bosmeri_devotee_female_plural:0 "green acolytes"
+ bosmeri_devotee_neuter:0 "green acolyte"
+ bosmeri_devotee_neuter_plural:0 "green acolytes"
+ bosmeri_priest_male:0 "spinner"
+ bosmeri_priest_male_plural:0 "spinners"
+ bosmeri_priest_female:0 "spinner"
+ bosmeri_priest_female_plural:0 "spinners"
+ bosmeri_priest_neuter:0 "spinner"
+ bosmeri_priest_neuter_plural:0 "spinners"
+ bosmeri_priest_alternate_plural:0 "spinners"
+ bosmeri_bishop:0 "elder spinner"
+ bosmeri_bishop_plural:0 "elder spinners"
+ bosmeri_divine_realm:0 "$aetherius_name$"
+ bosmeri_positive_afterlife:0 "$aetherius_name$"
+ bosmeri_positive_afterlife_2:1 "" # Optional translation alt
+ bosmeri_positive_afterlife_3:1 "" # Optional translation alt
+ bosmeri_negative_afterlife:0 "$ooze_name$"
+ bosmeri_negative_afterlife_2:1 "" # Optional translation alt
+ bosmeri_negative_afterlife_3:1 "" # Optional translation alt
+ bosmeri_witchgodname_the_horned_god:0 "$god_yffre_hircine$"
+ bosmeri_witchgodname_the_horned_god_possessive:0 "$god_hircine_name_possessive$"
+ bosmeri_high_god_name:0 "$god_yffre_name$"
+ bosmeri_high_god_name_possessive:0 "$god_yffre_name_possessive$"
+ bosmeri_creator_god_name:0 "$god_yffre_name$"
+ bosmeri_creator_god_name_possessive:0 "$god_yffre_name_possessive$"
+ bosmeri_health_god_name:0 "$god_arkay_name$"
+ bosmeri_health_god_name_possessive:0 "$god_arkay_name_possessive$"
+ bosmeri_fertility_god_name:0 "$god_mara_name$"
+ bosmeri_fertility_god_name_possessive:0 "$god_mara_name_possessive$"
+ bosmeri_wealth_god_name:0 "$god_zen_name$"
+ bosmeri_wealth_god_name_possessive:0 "$god_zen_name_possessive$"
+ bosmeri_household_god_name:0 "$god_stendarr_name$"
+ bosmeri_household_god_name_possessive:0 "$god_stendarr_name_possessive$"
+ bosmeri_fate_god_name:0 "$god_valenwood_name$"
+ bosmeri_fate_god_name_possessive:0 "$god_valenwood_name_possessive$"
+ bosmeri_knowledge_god_name:0 "$god_xarxes_name$"
+ bosmeri_knowledge_god_name_possessive:0 "$god_xarxes_name_possessive$"
+ bosmeri_war_god_name:0 "$god_valenwood_name$"
+ bosmeri_war_god_name_possessive:0 "$god_valenwood_name_possessive$"
+ bosmeri_trickster_god_name:0 "$god_baandar_name$"
+ bosmeri_trickster_god_name_possessive:0 "$god_baandar_name_possessive$"
+ bosmeri_night_god_name:0 "$god_bosmermoons_name$"
+ bosmeri_night_god_name_possessive:0 "$god_bosmermoons_name_possessive$"
+ bosmeri_water_god_name:0 "$god_valenwood_name$"
+ bosmeri_water_god_name_possessive:0 "$god_valenwood_name_possessive$"
+ 
+ #Green Pact
+ 
+ greenpact:0 "Green Pact"
+ greenpact_adj:0 "Green Pact"
+ greenpact_adherent:0 "Green Pact Adherent"
+ greenpact_adherent_plural:0 "Green Pact Adherents"
+ greenpact_desc:0 "The Green Pact is a sacred set of rules given to the Bosmer people by Y’ffre the Storyteller in ancient times to help them live in harmony with the forest. Its’ laws are simple: “Do not harm the forests of Valenwood. Do not eat anything made from plant life. Eat only meat. When you conquer your enemies, eat their flesh. Do not kill wastefully. Do not take on the shape of beasts”."
+ greenpact_religious_head_title:0 "Silvenar"
+ greenpact_religious_head_title_name:0 "Silvenar"
+ 
+ #Blacksap Movement
+ 
+ blacksapmovement:0 "Blacksap Movement"
+ blacksapmovement_adj:0 "Blacksap"
+ blacksapmovement_adherent:0 "Blacksap Loyalist"
+ blacksapmovement_adherent_plural:0 "Blacksap Loyalists"
+ blacksapmovement_desc:0 "The Blacksap are a Nationalistic Political-Religious Movement in Bosmer society founded in Cormount after the ‘Massacre at New Joy’: when an entire town of immigrants was razed by Wood Elf zealots for disrespecting the Green Pact. Followers of the movement demand written codification of the tenets of the Green Pact and absolutely strict adherence to them, as well as the expulsion of all foreign influences from Valenwood."
+ blacksapmovement_religious_text:0 "the Bound Pact"
+ 
+ #Wilderking's Law
+ 
+ wilderking:0 "Wilderking's Law"
+ wilderking_adj:0 "Wilderking"
+ wilderking_adherent:0 "Wilderking Subject"
+ wilderking_adherent_plural:0 "Wilderking Subjects"
+ wilderking_desc:0 "The Wilderking is a divinely revered figure in southwestern Valenwood dating back to at least the First Era; a guardian spirit of the forest who guides the Bosmer to live in harmony with nature. When the Wilderking dies another person with an innate connection to nature is chosen to mantle the deity, losing all memory of their past life and adopting the Wilderking’s supernatural abilities. Though the typical Bosmeri pantheon and the Green Pact are observed in their lands, the Wilderking’s word is law, as they are the supreme embodiment of Valenwood’s forests."
+ wilderking_religious_head_title:0 "Guardian-Speaker"
+ wilderqueen_religious_head_title:0 "Guardian-Speaker"
+ wilderking_religious_head_title_name:0 "the Wilderking's Court"
+ wilderking_high_god_name:0 "the Wilderking"
+ wilderking_high_god_name_possessive:0 "the Wilderking's"
+ 
+ #Vinedusk Exemptions
+ 
+ vineduskpact:0 "Vinedusk Exemptions"
+ vineduskpact_adj:0 "Vinedusk"
+ vineduskpact_adherent:0 "Vinedusk Follower"
+ vineduskpact_adherent_plural:0 "Vinedusk Followers"
+ vineduskpact_desc:0 "The Green Pact; the sacred set of laws followed by Bosmer to help them live in harmony with nature, is observed very differently among the people of Northeast Valenwood than anywhere else. Though they still hold great reverence for the forest, years of conflict in the Colovian and Elsweyr borderlands has caused the relaxation or even abandonment of rules concerning ritual cannibalism and non-felling of trees. Though some would brand the Vinedusk as merely heretical bandits, many Bosmer see them in a positive light for holding the line against foreign raids, and thus helping the forest in their own way."
+ 
