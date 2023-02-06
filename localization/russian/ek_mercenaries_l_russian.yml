@@ -59,45 +59,67 @@
 # Cyro-Nord: X Auxiliaries, Retainers of X, Limitanei of X
 # Strident: X Squadron, X Marines
 
- ##Altmer
+ ###Altmer
  mercenary_knights_justiciars_article:0 ""
  mercenary_knights_justiciars:0 "Юстициары из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_warlords_article:0 ""
  mercenary_knights_warlords:0 "Полководцы из владения [TITLE.GetNameNoTierNoTooltip]" 
  mercenary_knights_free_company_article:0 ""
  mercenary_knights_free_company:0 "Свободная Компания из владения [TITLE.GetNameNoTierNoTooltip]" 
- ##Bosmer
+
+ ###Bosmer
  mercenary_knights_rangers_article:0 ""
  mercenary_knights_rangers:0 "Рейнджеры из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_stalkers_article:0 ""
  mercenary_knights_stalkers:0 "Преследователи из владения [TITLE.GetNameNoTierNoTooltip]" 
- ##Khajiit
+
+ ###Khajiit
  mercenary_knights_pride_article:0 ""
  mercenary_knights_pride:0 "Прайд из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_battlecats_article:0 ""
  mercenary_knights_battlecats:0 "Боевые коты из владения [TITLE.GetNameNoTierNoTooltip]" 
  mercenary_knights_renrijr_article:0 ""
  mercenary_knights_renrijr:0 "Ренриджр из владения [TITLE.GetNameNoTierNoTooltip]" 
- ##Argonian
+
+ ###Lilmothiit 
+ mercenary_knights_scouts_article:0 "the "
+ mercenary_knights_scouts:0 "[TITLE.GetNameNoTierNoTooltip] Scouts" 
+ mercenary_knights_irregulars_article:0 "the "
+ mercenary_knights_irregulars:0 "[TITLE.GetNameNoTierNoTooltip] Irregulars" 
+ mercenary_knights_runners_article:0 "the "
+ mercenary_knights_runners:0 "Marshrunners of [TITLE.GetNameNoTierNoTooltip]" 
+
+ ###Argonian
  mercenary_knights_shellbacks_article:0 ""
  mercenary_knights_shellbacks:0 "Морские волки из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_bloodscales_article:0 ""
  mercenary_knights_bloodscales:0 "Кровавые чешуйки из владения [TITLE.GetNameNoTierNoTooltip]" 
  mercenary_knights_reel_ka_article:0 ""
  mercenary_knights_reel_ka:0 "Рил-ка из владения [TITLE.GetNameNoTierNoTooltip]" 
+
  ##Dunmer
  mercenary_knights_retainers_article:0 ""
  mercenary_knights_retainers:0 "Слуги из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_hirelings_article:0 ""
- mercenary_knights_hirelings:0 "Наёмники из владения [TITLE.GetNameNoTierNoTooltip]" 
+ mercenary_knights_hirelings:0 "Наёмники из владения [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_knights_vanguard_article:0 ""
+ mercenary_knights_vanguard:0 "Авангард из владения [TITLE.GetNameNoTierNoTooltip]" 
  mercenary_knights_chap_thil_article:0 ""
  mercenary_knights_chap_thil:0 "Чап'тил из владения [TITLE.GetNameNoTierNoTooltip]" 
- #Nord
+
+ ###Nord
  mercenary_false_jarl_company_article:0 ""
  mercenary_false_jarl_company:0 "Компания Лже-Ярла"
  mercenary_knights_reavers_article:0 ""
  mercenary_knights_reavers:0 "Опустошители из владения [TITLE.GetNameNoTierNoTooltip]"
- ##Misc
+
+ ###Dremora
+ mercenary_knights_ravagers_article:0 "the "
+ mercenary_knights_ravagers:0 "[TITLE.GetNameNoTierNoTooltip] Ravagers"
+ mercenary_knights_destroyers_article:0 "the "
+ mercenary_knights_destroyers:0 "[TITLE.GetNameNoTierNoTooltip] Destroyers"
+
+ ###Misc
  mercenary_knights_raiders_article:0 ""
  mercenary_knights_raiders:0 "Рейдеры из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_host_article:0 ""
