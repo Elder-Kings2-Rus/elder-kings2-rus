@@ -5,7 +5,7 @@
  game_concept_mages_desc:0 "Маги - [men_at_arms|l], сражающиеся в пешем строю, используя заклинания.\n\nХотя каждый вид магов уникален, у них имеется [Concept('counter', 'преимущество')|E] против [Concept('heavy_infantry', 'тяжелой пехоты')|E] и [Concept('spearmen', 'копейщиков')|E] и, в свою очередь, они уязвимы перед [Concept('archers', 'лучниками')|E] и [Concept('spellblades', 'мечниками-чародеями')|E]. Маги также влияют на ход [Concept('sieges', 'осады')|E], хотя они обычно менее эффективны в сравнении с особыми [Concept('siege_weapons', 'осадными орудиями')|E]."
  spellblades:2 "[spellblades|E]"
  game_concept_spellblades:0 "Мечники-чародеи"
- game_concept_spellblades_desc:0 "Мечники - [men_at_arms|l], сражающиеся в пешем строю, в равной мере используя мечи и чары.\n\nХотя каждый вид мечников-чародеев уникален, у них имеется [Concept('counter', 'преимущество')|E] против [Concept('mages', 'магов')|E] и [Concept('skirmishers', 'пехоты')|E] и, в свою очередь, они уязвимы перед [Concept('light_cavalry', 'легкой кавалерией')|E]."
+ game_concept_spellblades_desc:0 "Мечники-чародеи - [men_at_arms|l], сражающиеся в пешем строю, в равной мере используя мечи и чары.\n\nХотя каждый вид мечников-чародеев уникален, у них имеется [Concept('counter', 'преимущество')|E] против [Concept('mages', 'магов')|E] и [Concept('skirmishers', 'пехоты')|E] и, в свою очередь, они уязвимы перед [Concept('light_cavalry', 'легкой кавалерией')|E]."
  
  #Base MaA
  war_mages:0 "Боевые маги"
