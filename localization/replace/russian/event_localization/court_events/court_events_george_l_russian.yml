@@ -116,7 +116,7 @@
  court.7630.b:0 "Это [huntmaster.GetFirstNameNoTooltip] [Select_CString(huntmaster.IsFemale, 'добилась', 'добился' )] успеха."
  court.7630.c:0 "Почему бы вам не разделить победу?"
  court.7630.c.speaker:0 "#italic "Почему бы вам обоим не разделить этот триумф?"#"
- court.7630.c.speaker.flavor:0 "Мой оратор может изложить моё дело, если я того пожелаю."
+ court.7630.c.speaker.flavor:0 "Мой спикер может изложить моё дело, если я того пожелаю."
  court.7630.c.tt:0 "Попытаться убедить, что и [horsemaster.GetShortUIName], и [huntmaster.GetShortUIName] могут считаться победителями:"
  court.7630.c.success:0 "Вам удается найти компромисс"
  court.7630.c.failure:0 "Вы сделали только хуже"
