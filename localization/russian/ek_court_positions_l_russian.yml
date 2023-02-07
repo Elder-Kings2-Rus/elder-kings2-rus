@@ -3,28 +3,28 @@
 
 ### COURT POSITIONS
 ## Royal Housecarl
- court_housecarl_court_position:0 "Royal Housecarl"
- court_housecarl_court_position_desc:0 "The $court_housecarl_court_position$ is the most trustworthy aide of a Nordic King, personally ensuring their safety and assisting them in military matters. Their authority is second only to the King himself."
+ court_housecarl_court_position:0 "Королевский хускарл"
+ court_housecarl_court_position_desc:0 "$court_housecarl_court_position$ - самый надежный помощник нордского короля, лично обеспечивающий безопасность сюзерена и помогающий в военных делах. Его власть уступает только самому королю."
 ##Loremaster
- loremaster_court_position:0 "Loremaster"
- loremaster_court_position_desc:0 "The $loremaster_court_position$ keeps down both written and oral records of their people and devotes himself to the pursuit of history. Their wisdom and knowledge quickens the wits of anyone seeking their advice."
+ loremaster_court_position:0 "Хранитель знаний"
+ loremaster_court_position_desc:0 "$loremaster_court_position$ ведет как письменные, так и устные записи о своем народе и посвящает себя изучению истории. Их мудрость и знания оживляют ум любого, кто ищет их совета."
 ##Hunt-Wife
- huntwife_court_position:0 "Hunt-Wife"
- huntwife_court_position_desc:0 "The $huntwife_court_position$ is in charge of the hunting parties of a stronghold and drills survival skills into young Orcs. As the chief huntress she has a critical importance in the livelihood of the community"
+ huntwife_court_position:0 "Жена-охотница"
+ huntwife_court_position_desc:0 "$huntwife_court_position$ отвечает за охотничьи отряды крепости и обучает молодых орков навыкам выживания. Как главная охотница, она имеет решающее значение в жизни общества."
 ##Forge-Wife
- forgewife_court_position:0 "Forge-Wife"
- forgewife_court_position_desc:0 "The $forgewife_court_position$ keeps down both written and oral records of their people and devotes himself to the pursuit of history. Their wisdom and knowledge quickens the wits of anyone seeking their advice."
+ forgewife_court_position:0 ""Жена-кузнец"
+ forgewife_court_position_desc:0 "$forgewife_court_position$ ведет как письменные, так и устные записи о своем народе и посвящает себя изучению истории. Их мудрость и знания оживляют ум любого, кто ищет их совета."
 ##Hearth-Wife
- hearthwife_court_position:0 "Hearth-Wife"
- hearthwife_court_position_desc:0 "The $hearthwife_court_position$ manages the household of the chief and ensures the daily affairs run smoothly. She is usually the closest confidante of the Chieftain"
+ hearthwife_court_position:0 "Жена-хранитель очага"
+ hearthwife_court_position_desc:0 "$hearthwife_court_position$ управляет домашним хозяйством вождя и обеспечивает бесперебойную работу повседневных дел. Обычно она является ближайшим доверенным лицом вождя."
 ##Shadowscale
- shadowscale_court_position:0 "Shadowscale"
- shadowscale_employer_custom_effect_description:1 "@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!"
- shadowscale_court_position_desc:1 "A $shadowscale_court_position$ is trained from birth in the the ways of assassination and intrigue, and serve only the King of Argonia. A respected Argonian ruler may however request to employ one, to aid in the destruction of both their enemies and enemies of Black Marsh."
+ shadowscale_court_position:0 "Тёмный ящер"
+ shadowscale_employer_custom_effect_description:1 "@warning_icon!#X Полезный [agent|El] при [Concept( 'hostile_schemes', 'враждебных происках' )|E] против вас#!"
+ shadowscale_court_position_desc:1 "$shadowscale_court_position$ с рождения обучается убийствам и интригам и служит только королю Аргонии. Однако уважаемый аргонианский правитель может попросить нанять его для помощи в уничтожении как своих врагов, так и врагов Чернотопья."
 ##Speaker
- speaker_court_position:0 "Speaker"
- speaker_court_position_desc:0 "The $speaker_court_position$ appears alongside their liege in Court, and may speak on their behalf in most matters. They issue proclamations and may settle diplomatic disputes."
- speaker_employer_custom_effect_description:1 "Can take your place in some [diplomacy|E] challenges"
+ speaker_court_position:0 "Спикер"
+ speaker_court_position_desc:0 "$speaker_court_position$ появляется вместе со своим сюзереном в суде и может говорить от имени сюзерена по большинству вопросов. Они издают прокламации и могут разрешать дипломатические споры."
+ speaker_employer_custom_effect_description:1 "Могут выполнять [Concept( 'diplomacy', 'дипломатические' )|E] задачи вместо сюзерена"
 
 #Court Mage
  court_mage_position:0 "Придворный маг"
@@ -93,4 +93,4 @@
  court_position_restoration_master_perk:0 "[GetPerk('restoration_master_perk').GetName( ROOT.Char )]"
 
 # House of Reveries
-court_position_house_of_reveries:0 "House of Reveries"
+court_position_house_of_reveries:0 "Дом Грёз"
