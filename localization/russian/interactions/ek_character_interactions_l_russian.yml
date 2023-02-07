@@ -8,8 +8,8 @@
  NOT_ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK:0 "У вас уже есть предлагаемый внебрачный [alliance|E]"
 
 #breakdown of purity factors for disinherit/denounce - if the breakdown is made visible
- purity_virtue_desc:0 "[virtuous|E] черты"
- purity_sinful_desc:0 "[sinful|E] черты"
+ purity_virtue_desc:0 "[Concept('virtuous', 'Добродетельные')|E] черты"
+ purity_sinful_desc:0 "[Concept('sinful', 'Греховные')|E] черты"
  purity_physique_bad_1:0 "[GetTrait('physique_bad_1').GetName(ROOT.Char)]"
  purity_physique_bad_2:0 "[GetTrait('physique_bad_2').GetName(ROOT.Char)]"
  purity_physique_bad_3:0 "[GetTrait('physique_bad_3').GetName(ROOT.Char)]"
