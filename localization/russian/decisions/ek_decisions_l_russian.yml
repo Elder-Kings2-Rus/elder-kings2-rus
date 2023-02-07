@@ -8,10 +8,10 @@
  stress_loss_vampire_decision_desc:0 "Я — вампир, и я могу снимать стресс и питаться с помощью питья крови невольной жертвы."
  stress_loss_vampire_decision_tooltip:0 "Я начну охоту за невинными."
  stress_loss_vampire_decision_confirm:1 "Кто станет моей следующей жертвой?"
- stress_loss_lycan_decision:0 "Hunt as a Beast"
- stress_loss_lycan_decision_desc:0 "As a werebeast, I can reduce my stress and nourish myself by devouring the flesh of an unwilling victim."
- stress_loss_lycan_decision_tooltip:0 "Let me prey on the innocent."
- stress_loss_lycan_decision_confirm:1 "Who shall be my next victim?"
+ stress_loss_lycan_decision:0 "Охотиться подобно зверю"
+ stress_loss_lycan_decision_desc:0 "Я — вервольф, и я могу снимать стресс и питаться пожирая плоть невольной жертвы."
+ stress_loss_lycan_decision_tooltip:0 "Я начну охоту за невинными."
+ stress_loss_lycan_decision_confirm:1 "Кто станет моей следующей жертвой?"
  
  # Nord pantheon or Atmoran to Dragon Cult conversion decision
  convert_dragon_cult_decision:0 "Обратиться в драконий культ"
@@ -283,12 +283,12 @@ restore_nenalata_decision:0 "Восстановить столицу Ненал�
 restore_nenalata_decision_desc:0 "Неналата когда-то была могущественным королевством, последним из айлейдских городов-государств, павшим под натиском Алессианского Ордена. Теперь у нас есть уникальная возможность раскопать его руины и вернуть этому городу славу, что подобает столице достойного королевства."
 restore_nenalata_decision_tooltip:0 "Раскопайте и восстановите древнюю столицу этого королевства."
 restore_nenalata_decision_confirm:0 "Начать раскопки Неналаты!"
-recruit_shadowscale_decision:0 "Request a Shadowscale"
-recruit_shadowscale_decision_tooltip:0 "Seek a Shadowscale to join your [court|E] as your [GetCourtPositionType('shadowscale_court_position').GetName()]"
-recruit_shadowscale_decision_confirm:0 "Dread Father, send me your servant!"
-recruit_shadowscale_decision_desc:0 "The Shadowscales are an enigmatic order found in Black Marsh, made up of People-of-the-Root hatched under the sign of the Shadow and trained from birth in the art of stealth and substerfuge. As a respected Saxhleel ruler, I may recruit one into my service."
-recruit_shadowscale_decision_trigger:0 "You have not spurned the Shadowscale traditions"
-recruit_shadowscale_decision_effect:0 "A Shadowscale will shortly present themselves and join your [court|E]"
+recruit_shadowscale_decision:0 "Запросить Тёмного ящера"
+recruit_shadowscale_decision_tooltip:0 "Искать Тёмного ящера, который присоединится к вашему [Concept( 'court', 'двору' )|E] как ваш [GetCourtPositionType('shadowscale_court_position').GetName()]"
+recruit_shadowscale_decision_confirm:0 "Отец Ужаса, пошли мне своего слугу!"
+recruit_shadowscale_decision_desc:0 "Тёмные ящеры — это загадочный орден. Он был основан в Чернотопье и состоит из Народа Корня, что вылупились под знаком Тени. Их с рождения обучают искусству скрытности и уловок. Я, как уважаемый правитель-саксхлил, могу принять одного из них к себе на службу."
+recruit_shadowscale_decision_trigger:0 "Вы не отреклись от традиций Тёмных ящеров."
+recruit_shadowscale_decision_effect:0 "Тёмный ящер вскоре появится и присоединится к вашему [Concept( 'court', 'двору' )|E]."
 
 
 
