@@ -5,13 +5,13 @@
  cast_hostile_spell:0 "Наложено враждебное заклинание"
  returned_temple_land_opinion:0 "Возвращенный Храму Некром"
  
- disrupted_family_member:0 "Disrupted Family Member"
- disrupted_me:0 "Disrupted Me"
+ disrupted_family_member:0 "Растерянный член семьи"
+ disrupted_me:0 "[Select_CString(CHARACTER.IsFemale, 'Я растерянна', 'Я растерян' )]"
 
- great_marriage_omen:0 "Great Marriage Omen"
- good_marriage_omen:0 "Good Marriage Omen"
- bad_marriage_omen:0 "Bad Marriage Omen"
- terrible_marriage_omen:0 "Terrible Marriage Omen"
- did_not_seek_marriage_blessing:0 "Did Not Seek Marriage Blessing"
+ great_marriage_omen:0 "Великое брачное предзнаменование"
+ good_marriage_omen:0 "Хорошее брачное предзнаменование"
+ bad_marriage_omen:0 "Плохое брачное предзнаменование"
+ terrible_marriage_omen:0 "Ужасное брачное предзнаменование"
+ did_not_seek_marriage_blessing:0 "Не [Select_CString(CHARACTER.IsFemale, 'искала', 'искал' )] благословения на брак"
 
- beastfolk_negotiated_alliance_opinion:0 "Nonmarital Alliance Deal"
+ beastfolk_negotiated_alliance_opinion:0 "Сделка о заключении внебрачного союза"
