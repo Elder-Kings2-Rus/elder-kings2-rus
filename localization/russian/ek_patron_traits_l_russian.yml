@@ -470,10 +470,10 @@
  trait_p_tr_almalexia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Альмалексии, Матери Морровинда."
 
  trait_p_tr_sotha:0 "Божество-покровитель - Сота Сил"
- trait_p_tr_sotha_base:0 "Последователь Соты Сила"
+ trait_p_tr_sotha_base:0 "Последователь Сота Сила"
  trait_p_tr_sotha_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tr_sotha_desc' )]"
- trait_p_tr_sotha_desc:0 "Последователь Соты Сила"
- trait_p_tr_sotha_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Соты Сила, Заводного Бога."
+ trait_p_tr_sotha_desc:0 "Последователь Сота Сила"
+ trait_p_tr_sotha_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Сота Сила, Заводного Бога."
 
  # Velothi Saints
  trait_p_vl_aralor:0 "Покровитель - Святой Аралор"
