@@ -82,12 +82,12 @@
  mercenary_knights_renrijr:0 "Ренриджр из владения [TITLE.GetNameNoTierNoTooltip]" 
 
  ###Lilmothiit 
- mercenary_knights_scouts_article:0 "the "
- mercenary_knights_scouts:0 "[TITLE.GetNameNoTierNoTooltip] Scouts" 
- mercenary_knights_irregulars_article:0 "the "
- mercenary_knights_irregulars:0 "[TITLE.GetNameNoTierNoTooltip] Irregulars" 
- mercenary_knights_runners_article:0 "the "
- mercenary_knights_runners:0 "Marshrunners of [TITLE.GetNameNoTierNoTooltip]" 
+ mercenary_knights_scouts_article:0 ""
+ mercenary_knights_scouts:0 "Скауты из владения [TITLE.GetNameNoTierNoTooltip]" 
+ mercenary_knights_irregulars_article:0 ""
+ mercenary_knights_irregulars:0 "Ополчение из владения [TITLE.GetNameNoTierNoTooltip]" 
+ mercenary_knights_runners_article:0 ""
+ mercenary_knights_runners:0 "Болотные бегуны из воладения [TITLE.GetNameNoTierNoTooltip]" 
 
  ###Argonian
  mercenary_knights_shellbacks_article:0 ""
@@ -114,10 +114,10 @@
  mercenary_knights_reavers:0 "Опустошители из владения [TITLE.GetNameNoTierNoTooltip]"
 
  ###Dremora
- mercenary_knights_ravagers_article:0 "the "
- mercenary_knights_ravagers:0 "[TITLE.GetNameNoTierNoTooltip] Ravagers"
- mercenary_knights_destroyers_article:0 "the "
- mercenary_knights_destroyers:0 "[TITLE.GetNameNoTierNoTooltip] Destroyers"
+ mercenary_knights_ravagers_article:0 ""
+ mercenary_knights_ravagers:0 "Разорители из владения [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_knights_destroyers_article:0 ""
+ mercenary_knights_destroyers:0 "Разрушители из владения [TITLE.GetNameNoTierNoTooltip]"
 
  ###Misc
  mercenary_knights_raiders_article:0 ""
