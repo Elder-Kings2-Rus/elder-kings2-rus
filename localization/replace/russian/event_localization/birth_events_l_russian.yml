@@ -31,8 +31,8 @@
 
  birth.1001.desc:0 "У меня [Select_CString(child.IsFemale, 'родилась очаровательная', 'родился очаровательный' )] [child.Custom('GetDaughterSon')]!"
  birth.1001.desc.twin:0 "У меня родились очаровательные [child.Custom('TwinDaughtersSonsChildren')]!"
- birth.1001.desc.twin_dead_father:0 "У меня родились очаровательные [child.Custom('TwinDaughtersSonsChildren')]! [father.GetFirstName] бы пришел в восторг при виде них..."
- birth.1001.desc_dead_father:0 "У меня [Select_CString(child.IsFemale, 'родилась очаровательная', 'родился очаровательный' )] [child.Custom('GetDaughterSon')]! [father.GetFirstName] пришел бы в восторг при виде [Select_CString(child.IsFemale, 'неё', 'него' )]..."
+ birth.1001.desc.twin_dead_father:0 "У меня родились очаровательные [child.Custom('TwinDaughtersSonsChildren')]! [father.GetFirstName] бы пришёл в восторг при виде них..."
+ birth.1001.desc_dead_father:0 "У меня [Select_CString(child.IsFemale, 'родилась очаровательная', 'родился очаровательный' )] [child.Custom('GetDaughterSon')]! [father.GetFirstName] пришёл бы в восторг при виде [Select_CString(child.IsFemale, 'неё', 'него' )]..."
  birth.1001.a:0 "Надеюсь, ты станешь [Select_CString(child.IsFemale, 'сильной и мудрой, моя', 'сильным и мудрым, мой' )] [child.Custom('GetDaughterSon')]."
  birth.1001.b:0 "Надеюсь, вы станете сильными и мудрыми, мои [child.Custom('TwinDaughtersSonsChildren')]."
 
