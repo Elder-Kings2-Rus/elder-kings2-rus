@@ -75,7 +75,7 @@
  pilgrimage.2004.t:0 "$pilgrimage_header$ неожиданная встреча"
  pilgrimage.2004.desc:0 "По мере моего приближения к [destination_title.GetNameNoTierNoTooltip], я встречаю все больше и больше паломников отовсюду.\n\nОдин из них узнал меня издалека: "[ROOT.Char.GetTitledFirstNameNoTooltip]?! Это ты?"\n\nЭто не кто иной, как [potential_friend.Custom2('MyCharacterIntroduction', ROOT.Char)]!"
  pilgrimage.2004.a:0 "Нас свел [ROOT.Char.GetFaith.PantheonTerm]!"
- pilgrimage.2004.b:0 "Знаменательная встреча, но я должен помолиться наедине с собой."
+ pilgrimage.2004.b:0 "Знаменательная встреча, но я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] помолиться наедине с собой."
 
  pilgrimage.2005.t:0 "$pilgrimage_header$ грубая история"
  pilgrimage.2005.desc:1 "Проходя мимо костра, один из попутчиков под хриплый смех рассказывает историю, которую [dummy_peasant_gender.GetSheHe] однажды [Select_CString(dummy_peasant_gender.IsFemale, 'услышала', 'услышал' )], что есть [Select_CString(ROOT.Char.IsFemale, 'некая', 'некий' )] [ROOT.Char.GetTitleAsNameNoTooltip]. Когда меня увидели, замолчали все — кроме рассказчика.\n\n"О, не волнуйтесь, [ROOT.Char.GetLadyLord], вы не [Select_CString(ROOT.Char.IsFemale, 'такая', 'такой' )], как [ROOT.Char.Custom('InsultNoun')] из этой истории!"

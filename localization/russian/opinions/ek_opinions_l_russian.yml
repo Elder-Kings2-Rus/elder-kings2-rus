@@ -3,10 +3,10 @@
  charm_opinion:0 "Под эффектом очарования"
  major_charm_opinion:0 "Под эффектом очарования"
  cast_hostile_spell:0 "Наложено враждебное заклинание"
- returned_temple_land_opinion:0 "Возвращенный Храму Некром"
+ returned_temple_land_opinion:0 "Возвращённый Храму Некром"
  
- disrupted_family_member:0 "Растерянный член семьи"
- disrupted_me:0 "[Select_CString(CHARACTER.IsFemale, 'Я растерянна', 'Я растерян' )]"
+ disrupted_family_member:0 "Истощил члена семьи"
+ disrupted_me:0 "Истощил меня"
 
  great_marriage_omen:0 "Великое брачное предзнаменование"
  good_marriage_omen:0 "Хорошее брачное предзнаменование"
