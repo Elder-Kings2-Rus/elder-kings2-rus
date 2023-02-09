@@ -129,7 +129,7 @@
  
  # Scorpion dies :(
  ek_pet_animal.1199.t:0 "[ROOT.Char.Custom('ScorpionStoryName')]: День скорби"
- ek_pet_animal.1199.desc:0 "[ROOT.Char.Custom('ScorpionStoryName')] уже не маленький скорпиончик как раньше... я вижу это в [ROOT.Char.Custom('ScorpionStoryHerHis')] движениях, они уже не такие элегантные и легкие как раньше.\n\nЯ нежно прикоснулся к [ROOT.Char.Custom('ScorpionStoryHerHis')] панцирю и чувствую [ROOT.Char.Custom('ScorpionStoryHerHim')] легкое покачивание и попытки ущипнуть меня [ROOT.Char.Custom('ScorpionStoryHerHis')] клешнями, но когда тишина спадает, я понимаю что [ROOT.Char.Custom('ScorpionStoryHerHis')] утреннее щекотание больше меня не разбудит."
+ ek_pet_animal.1199.desc:0 "[ROOT.Char.Custom('ScorpionStoryName')] уже не маленький скорпиончик как раньше... я вижу это в [ROOT.Char.Custom('ScorpionStoryHerHis')] движениях, они уже не такие элегантные и лёгкие как раньше.\n\nЯ нежно прикоснулся к [ROOT.Char.Custom('ScorpionStoryHerHis')] панцирю и чувствую [ROOT.Char.Custom('ScorpionStoryHerHim')] легкое покачивание и попытки ущипнуть меня [ROOT.Char.Custom('ScorpionStoryHerHis')] клешнями, но когда тишина спадает, я понимаю что [ROOT.Char.Custom('ScorpionStoryHerHis')] утреннее щекотание больше меня не разбудит."
  ek_pet_animal.1199.a:0 "Я буду скучать, [ROOT.Char.Custom('ScorpionStoryName')]!"
  
  pet_scorpion_decision:0 "Поиграть с [ROOT.Char.Custom('ScorpionStoryName')]"

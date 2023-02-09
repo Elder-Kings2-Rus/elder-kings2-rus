@@ -10,8 +10,8 @@
  trait_gout_ridden:0 "Каменная подагра"
 
  trait_consumption:0 "Увядание"
- trait_consumption_desc:0 "Страдая от кровавого кашля, вызванного холодным воздухом в легких, этот персонаж страдает от увядания."
- trait_consumption_character_desc:0 "Страдая от кровавого кашля, вызванного холодным воздухом в легких, [ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от увядания."
+ trait_consumption_desc:0 "Страдая от кровавого кашля, вызванного холодным воздухом в лёгких, этот персонаж страдает от увядания."
+ trait_consumption_character_desc:0 "Страдая от кровавого кашля, вызванного холодным воздухом в лёгких, [ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от увядания."
 
  trait_cancer:0 "Гниль"
  trait_cancer_desc:0 "Гниль распространилась по телу этого персонажа, высасывая из него жизнь."

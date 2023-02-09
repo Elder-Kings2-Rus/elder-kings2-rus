@@ -55,7 +55,7 @@ l_russian:
  hold_court.3040.e:0 "Возможно, я займусь этим вопросом в другой раз."
 
  hold_court.3050.t:0 "Благородная обязанность"
- hold_court.3050.desc:0 "«Думаю, вам стоит устроить прием», — суровым голосом произносит [Select_CString(reminder_person.IsFemale, 'моя', 'мой' )] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('reminder_person'))], [reminder_person.GetTitledFirstName].\n\n«Уже очень давно у народа не было возможности обратиться к вам со своими просьбами, и список проблем, требующих внимания, значительно вырос», — затем [reminder_person.GetSheHe] сообщает мне, что некоторые из просящих недовольны длительной задержкой.\n\n«Любой правитель обязан вести своих людей, и они нуждаются в вашем руководстве, [ROOT.Char.Custom2('RelationToMeAddress', reminder_person)]»."
+ hold_court.3050.desc:0 "«Думаю, вам стоит устроить приём», — суровым голосом произносит [Select_CString(reminder_person.IsFemale, 'моя', 'мой' )] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('reminder_person'))], [reminder_person.GetTitledFirstName].\n\n«Уже очень давно у народа не было возможности обратиться к вам со своими просьбами, и список проблем, требующих внимания, значительно вырос», — затем [reminder_person.GetSheHe] сообщает мне, что некоторые из просящих недовольны длительной задержкой.\n\n«Любой правитель обязан вести своих людей, и они нуждаются в вашем руководстве, [ROOT.Char.Custom2('RelationToMeAddress', reminder_person)]»."
  hold_court.3050.a:0 "А вам нужно напомнить ваше место!"
  hold_court.3050.b:0 "Всему свое время."
  hold_court.3050.c:0 "Умаслите их, пока я занимаюсь более важными делами."
