@@ -132,10 +132,10 @@
  arcana_magical_court_2:0 "[GetTrait('magical_court_2').GetName(ROOT.Char)]"
  # Traditions
  arcana_prescriptivism:0 "[GetCultureTradition('tradition_prescriptivism').GetName]"
- arcana_wild_magic_weak:0 "Дикая магия - Слабость"
- arcana_wild_magic_bad:0 "Дикая магия - Угасание"
- arcana_wild_magic_good:0 "Дикая магия - Рост"
- arcana_wild_magic_powerful:0 "Дикая магия - Мощь"
+ arcana_wild_magic_weak:0 "Дикая магия - Слабая"
+ arcana_wild_magic_bad:0 "Дикая магия - Ослабленная"
+ arcana_wild_magic_good:0 "Дикая магия - Прибывающая"
+ arcana_wild_magic_powerful:0 "Дикая магия - Мощная"
 
  ##  Magicka  ##
  ##  Flat  ##
