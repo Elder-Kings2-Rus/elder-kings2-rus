@@ -43,23 +43,23 @@ trait_vampire_character:0 "[Select_CString(ROOT.Char.IsFemale, 'Вампирша
 trait_vampire_character_desc:0 "Этот персонаж - вампир, неживое существо, проклятое пить кровь живых и избегать солнечного света."
 trait_vampire_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - Вампир, неживое существо, проклятое пить кровь живых и избегать солнечного света." #character_character
 
-trait_sanguinare_vampiris:0 "Sanguinare Vampiris"
-trait_sanguinare_vampiris_desc:0 "This character has contracted Sanguinare Vampiris, a disease contracted by coming into contact with vampires that causes weakness during the day and thirst by night. If it is not treated soon, its consequences may be dire."
-trait_sanguinare_vampiris_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has contracted Sanguinare Vampiris, a disease contracted by coming into contact with vampires that causes weakness during the day and thirst by night. If it is not treated soon, its consequences may be dire." #character_character
-disease_sanguinare_vampiris:0 "Sanguinare Vampiris."
+trait_sanguinare_vampiris:0 "Сангвинаре Вампирис"
+trait_sanguinare_vampiris_desc:0 "Этот персонаж заразился Сангвинаре Вампирис, болезнью, передающейся при контакте с вампирами, которая вызывает слабость днём и жажду ночью. Если не вылечиться от неё в ближайшее время, то последствия могут быть ужасными."
+trait_sanguinare_vampiris_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'заразилась', 'заразился' )] Сангвинаре Вампирис, болезнью, появляющейся при контакте с вампирами, которая вызывает слабость днём и жажду ночью. Если не вылечиться от неё в ближайшее время, то последствия могут быть ужасными." #character_character
+disease_sanguinare_vampiris:0 "Сангвинаре Вампирис."
 
-trait_sanies_lupinus:0 "Sanies Lupinus"
-trait_sanies_lupinus_desc:0 "This character has contracted Sanies Lupinus, a disease contracted by coming into contact lycanthropes that causes drowsiness. If it is not treated soon, its consequences may be dire."
-trait_sanies_lupinus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has contracted Sanies Lupinus, a disease contracted by coming into contact lycanthropes that causes drowsiness. If it is not treated soon, its consequences may be dire." #character_character
-disease_sanies_lupinus:0 "Sanies Lupinus."
+trait_sanies_lupinus:0 "Гнойный люпинус"
+trait_sanies_lupinus_desc:0 "Этот персонаж заразился Гнойным люпинусом, болезнью, передающейся при контакте с ликантропами, которая вызывает сонливость. Если не вылечиться от неё в ближайшее время, то последствия могут быть ужасными."
+trait_sanies_lupinus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'заразилась', 'заразился' )] Гнойным люпинусом, болезнью, передающейся при контакте с ликантропами, которая вызывает сонливость. Если не вылечиться от неё в ближайшее время, то последствия могут быть ужасными." #character_character
+disease_sanies_lupinus:0 "Гнойный люпинус."
 
-trait_irritable_lycan:0 "Irritable"
-trait_irritable_lycan_desc:0 "Stress has made this character prone to frequent outbursts and tantrums."
-trait_irritable_lycan_character_desc:0 "Stress has made [ROOT.GetCharacter.GetFirstNameNoTooltip] prone to frequent outbursts and tantrums."
-irritable_lycan_player_desc:0 "Secret Lycanthrope"
-trait_lycan_player_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is secretly a lycanthrope, an unnatural cross between a beast and their original race."
+trait_irritable_lycan:0 "Раздражительность"
+trait_irritable_lycan_desc:0 "Стресс сделал этого персонажа склонным к частым вспышкам гнева и истерикам."
+trait_irritable_lycan_character_desc:0 "Стресс сделал [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'склонной', 'склонным' )] к частым вспышкам гнева и истерикам."
+irritable_lycan_player_desc:0 "Тайный оборотень"
+trait_lycan_player_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является тайным оборотнем, неестественной помесью зверя и своей первоначальной расы."
 
-trait_lycan_character:0 "Ликантроп"
+trait_lycan_character:0 "Оборотень"
 trait_lycan_character_desc:0 "Этот персонаж - ликантроп, существо, проклятое трансформацией тела под влиянием лун Нирна."
 trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - ликантроп, существо, проклятое трансформацией тела под влиянием лун Нирна." #character_character
 
@@ -134,9 +134,9 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_arcana_bad_3:0 "Лишённость"
  trait_arcana_bad_3_desc:0 "Этот персонаж кажется лишенным способностей к магии, поскольку не может читать заклинания без больших усилий."
  trait_arcana_bad_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] кажется [Select_CString(ROOT.GetCharacter.IsFemale, 'лишенной', 'лишенным' )] способностей к магии, поскольку не может читать заклинания без больших усилий."
- trait_disrupted:0 "Disrupted"
- trait_disrupted_desc:0 "This character's magical senses have been purposefully crippled."
- trait_disrupted_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]'s magical senses have been purposefully crippled."
+ trait_disrupted:0 "Истощённость"
+ trait_disrupted_desc:0 "Магические способности этого персонажа были целенаправленно истощены."
+ trait_disrupted_character_desc:0 "Магические способности [ROOT.GetCharacter.GetFirstNameNoTooltip] были целенаправленно истощены."
 
  trait_dragonborn:0 "[Select_CString(ROOT.Char.IsFemale, 'Драконорождённая', 'Драконорождённый' )]"
  trait_dragonborn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )] с кровью и душой дракона. Известно, что драконорождённые пользуются благосклонностью богов."
@@ -404,10 +404,10 @@ trait_praxis_negative:0 "Апраксик"
  trait_battlemage_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - воин-волшебник, обученный как смертоносным заклинаниям, так и бою в тяжелой броне. [ROOT.GetCharacter.GetSheHe|U] жертвует мобильностью и универсальностью ради возможности дополнить атаки ближнего и дальнего боя элементальным уроном и призванными существами."
 
 ### Misc traits
- trait_shadowscale:0 "Shadowscale"
- trait_shadowscale_desc:0 "This character is a member of a secretive order of assassins in service to the elusive King of Argonia and his shadowy Royal Court."
- trait_shadowscale_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a member of a secretive order of assassins in service to the elusive King of Argonia and his shadowy Royal Court."
+ trait_shadowscale:0 "Тёмный ящер"
+ trait_shadowscale_desc:0 "Этот персонаж является членом секретного ордена убийц на службе у неуловимого короля Аргонии и его тёмного королевского двора."
+ trait_shadowscale_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом секретного ордена убийц на службе у неуловимого короля Аргонии и его тёмного королевского двора."
  
- trait_house_of_reveries:0 "House of Reveries"
- trait_house_of_reveries_desc:0 "This character is a member of the House of Reveries, an artist group that renounced every aspect of worldy power and fame. They live for artistry alone and are therefore capable court musicians, poets and jesters."
- trait_house_of_reveries_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a member of the House of Reveries, an artist group that renounced every aspect of worldy power and fame. They live for artistry alone and are therefore capable court musicians, poets and jesters."
+ trait_house_of_reveries:0 "Дом грёз"
+ trait_house_of_reveries_desc:0 "Этот персонаж является членом Дома грёз, группы художников, которая отказалась от всех аспектов мировой власти и славы. Они живут только искусством и поэтому являются способными придворными музыкантами, поэтами и шутами."
+ trait_house_of_reveries_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом Дома грёз, группы художников, которая отказалась от всех аспектов мировой власти и славы. Они живут только искусством и поэтому являются способными придворными музыкантами, поэтами и шутами."
