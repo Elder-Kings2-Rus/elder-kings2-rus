@@ -216,7 +216,7 @@
  culture_parameter_torture_trophies:0 "Персонажи этой [Concept('culture', 'культуры')|E] редко получает трофейные [Concept('artifacts', 'артефакты')|E] от [Concept('torture', 'пыток')|E]"
  take_torture_trophy_effect_desc:0 "Вы требуете трофей от своей жертвы"
  culture_parameter_commune_with_departed_soul:0 "Персонажи этой [Concept('culture', 'культуры')|E] могут принять [Concept('decision', 'решение')|E] 'Посоветуйтесь с душой любимого человека', позволяя [Concept('character', 'персонажу')|E] в последний раз поговорить с [Concept('character', 'персонажем')|E] который был им дорог"
- culture_parameter_hunting_activity_prestige:0 "Персонажи этой [Concept('culture', 'культуры')|E] получают дополнительный [prestige_i][prestige|El] от [Concept('activities', 'занятий')|E] [Concept('hunt', 'охотой')|E] 
+ culture_parameter_hunting_activity_prestige:0 "Персонажи этой [Concept('culture', 'культуры')|E] получают дополнительный [prestige_i][prestige|El] от [Concept('activities', 'занятий')|E] [Concept('hunt', 'охотой')|E]"
  culture_parameter_pets_more_common:0 "Персонажи этой культуры чаще имеют домашних животных"
 
 ## COMMANDER PARAMETERS
