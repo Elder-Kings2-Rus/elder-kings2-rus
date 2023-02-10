@@ -36,7 +36,7 @@
  feast_main_live_fowl.9001.no_bird_killer:0 "[host_saying_goodbye.GetTitledFirstNamePossessive] завершает пир.\n\nПочти все гости довольны, только [fowl_dinner_target.GetFirstName] до сих пор страдальчески держится за лицо — [ROOT.GetCharacter.Custom('exotic_fowl_type')] ещё долго будет вспоминаться [fowl_dinner_target.GetHerHim] и [SCOPE.sCharacter('fowl_dinner_target').GetHerHis] носу."
  feast_main_live_fowl.9001.a:0 "До новых встреч, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host_saying_goodbye'))]!"
  feast_main_live_fowl.9002.t:1 "$feast_header$ конец пира"
- feast_main_live_fowl.9002.new_life.t:1 "Фестиваль "Новая жизнь": фестиваль заканчивается"
+ feast_main_live_fowl.9002.new_life.t:1 "Фестиваль новой жизни заканчивается"
  feast_main_live_fowl.9002.bird_killer:0 "Мы веселились дни и ночи напролет, но теперь мой пир окончен!\n\nПочти все гости довольны, только [fowl_dinner_target.GetFirstName] до сих пор страдальчески держится за нос — [ROOT.GetCharacter.Custom('exotic_fowl_type')] ещё долго будет [fowl_dinner_target.GetHerHim] вспоминаться.\n\nТакже нельзя не заметить пустоту, которой [Select_CString(fowl_bird_killer.IsFemale, 'окружена', 'окружен' )] [fowl_bird_killer.GetFirstName] после жестокой расправы над птицей."
  feast_main_live_fowl.9002.no_bird_killer:0 "Мы веселились дни и ночи напролет, но теперь мой пир окончен!\n\nПочти все гости довольны, только [fowl_dinner_target.GetFirstName] до сих пор страдальчески держится за лицо — [ROOT.GetCharacter.Custom('exotic_fowl_type')] ещё долго будет вспоминаться [fowl_dinner_target.GetHerHim] и [SCOPE.sCharacter('fowl_dinner_target').GetHerHis] носу."
  feast_main_live_fowl.9002.a:0 "До следующей встречи, мои вассалы."

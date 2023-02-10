@@ -97,7 +97,7 @@
  repair_bridges_leyawiin_decision_disables_buildings_imperial_isle_ct:0 "Здания $building_type_imperial_city_harbor_01$ и $building_type_port_hestra_01$ будут отключены, а их эффекты перестанут действовать"
  repair_bridges_leyawiin_decision_disables_port_buildings_rumare_ct:0 "Линейка зданий торговый порт станет недоступной для строительства в прибрежных графствах вдоль Румаре"
  repair_bridges_leyawiin_decision_confirm: "Восстановить мосты!"
- repair_bridges_leyawiin_decision_tooltip: "Мы должны вновь господствовать над торговлей в Румаре."
+ repair_bridges_leyawiin_decision_tooltip: "Лейавин снова будет контролировать Нибен."
  
  ### Orsinium
  create_orsinium_decision:0 "Восстановить Орсиниум"

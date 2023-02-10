@@ -3,6 +3,7 @@
  county_opinion_must_be_positive:0 "[county_opinion|E] должно быть положительным ([autocracy|E] с #V [GetPlayer.Custom('GetCrownAuthority0')]#!)"
  county_opinion_must_be_high_enough:0 "[county_opinion|E] должно быть выше #V -10#! ([autocracy|E] с #V [GetPlayer.Custom('GetCrownAuthority1')]#!)"
  county_must_have_temple_holding:0 "По крайней мере, одна провинция в пределах округа должна иметь [temple_holding|El]"
+ orphanage_already_present_trigger_desc:0 "В этом [Concept('county', 'графстве')|E] уже есть сиротский приют."
  
  ### Imperial City
  building_type_imperial_city_01:0 "Имперский город"
@@ -28,7 +29,7 @@
  building_the_bastion_02_desc:0 "Недавно отремонтированный штаб Имперского легиона был размещен рядом с Бастионом, и каждый день можно увидеть сотни добровольцев, вступающих в Имперский легион. В мирное время они служат в качестве умиротворяющей силы, борясь с нашествиями и бандитами, а во время войны они усиливают армию Имперского острова."
  
  building_type_imperial_city_harbor_01:0 "Гавань Имперского города"
- building_type_imperial_city_harbor_01_desc:0 "Крупнейший торговый порт Тамриэля, гавань Имперского города, является домом для бесчисленных купцов и моряков, перевозящих товары с далеких островов Катноквей, изолированного архипелага Саммерсет и забытых портов Йокуды. Постоянный приток товаров, богатства и путешественников делает его одним из самых оживленных мест Имперского острова."
+ building_type_imperial_city_harbor_01_desc:0 "Крупнейший торговый порт Тамриэля, гавань Имперского города, является домом для бесчисленных купцов и моряков, перевозящих товары с далёких островов Катноквей, изолированного архипелага Саммерсет и забытых портов Йокуды. Постоянный приток товаров, богатства и путешественников делает его одним из самых оживленных мест Имперского острова."
  building_imperial_city_harbor_01:0 "$building_type_imperial_city_harbor_01$"
  building_imperial_city_harbor_01_desc:0 "$building_type_imperial_city_harbor_01_desc$"
  bridges_leyawiin_01_enabled:0 "$building_type_bridges_leyawiin_01$ доступны. Их можно разрушить используя $destroy_bridges_leyawiin_decision$."
@@ -81,6 +82,13 @@
  
  ### Unique buildings
  
+ building_type_shalidors_maze_01:0 "Лабиринт Шалидора"
+ building_type_shalidors_maze_01_desc:0 "Этот лабиринт был построен самим великим магом Шалидором глубоко в сердце старого города Бромьунар. Его сила до сих пор отдается эхом в его залах. Одни говорят, что он скрывал в нем магические тайны; другие - что в стенах спрятаны артефакты великой силы. Другие утверждают, что Шалидор обучал магов на своем сложном пути, или еще хуже: что именно так он отделял пшеницу от плевел среди множества магов, искавших его наставничества. Какой бы ни была истина, бесчисленное множество магов вошло в Лабиринтиан, и многие из их трупов все еще остаются внутри. Однако те маги, которые прошли лабиринт, бесспорно, стали более могущественными, чем были раньше... но будто другими."
+ building_shalidors_maze_01:0 "$building_type_shalidors_maze_01$"
+ building_shalidors_maze_01_desc:0 "$building_type_shalidors_maze_01_desc$"
+ building_shalidors_maze_02:0 "$building_type_shalidors_maze_01$"
+ building_shalidors_maze_02_desc:0 "$building_type_shalidors_maze_01_desc$" 
+
  building_type_understone_keep_01:0 "Подкаменная крепость"
  building_type_understone_keep_01_desc:0 "Основана на древнем двемерском городе Нчуанд-Зел, Подкаменная крепость и окружающий его город Маркарт защищены старыми, двемерскими стенами и оборонительными сооружениями. \n\nЛюбому захватчику придётся пройти через очень высокие и крепкие стены, даже небольшое количество защитников сможет легко сдержать гораздо большую армию, стремящуюся захватить город."
  building_understone_keep_01:0 "$building_type_understone_keep_01$"
@@ -91,7 +99,7 @@
  building_hot_springs_mir_corrup_01:0 "$building_type_hot_springs_mir_corrup_01$"
  building_hot_springs_mir_corrup_01_desc:0 "$building_type_hot_springs_mir_corrup_01_desc$"
  building_hot_springs_mir_corrup_02:0 "$building_type_hot_springs_mir_corrup_01$"
- building_hot_springs_mir_corrup_02_desc:0 "В Мир Коррупе находится обилие природных, горячих источников, чьи ароматные и затуманенные воды, как говорят, богаты полезными элементами, а расположение, среди естественных скал и легких навесов джунглей, сделало его излюбленным местом отдыха для знатных и состоятельных персон на востоке Сиродила и за его пределами."
+ building_hot_springs_mir_corrup_02_desc:0 "В Мир Коррупе находится обилие природных, горячих источников, чьи ароматные и затуманенные воды, как говорят, богаты полезными элементами, а расположение, среди естественных скал и лёгких навесов джунглей, сделало его излюбленным местом отдыха для знатных и состоятельных персон на востоке Сиродила и за его пределами."
  
  building_type_bridges_leyawiin_01:0 "Мосты Лейавина"
  building_type_bridges_leyawiin_01_desc:0 "Участок земли, соединяющий две стороны южных земель Сиродила, стал важной стратегической и экономической точкой, поскольку тот, кто контролирует его, может решать, кто в праве проплыть от Имперского острова до Топальской бухты.\n\n#N ПРИМЕЧАНИЕ: До тех пор, пока здание активно, $building_type_imperial_city_harbor_01$ и $building_type_port_hestra_01$ деактивированы, ни одно графство вдоль Румаре не сможет построить или получить прибыль от строительства торгового порта.\nЗдание может быть отключено любым правителем, владеющим Лейавином, но не считающим его своей столицей.#!"
@@ -249,6 +257,17 @@
  building_ravenmine_ebony_mines_03_desc:1 "$building_type_ravenmine_ebony_mines_01_desc$"
  building_ravenmine_ebony_mines_04:1 "$building_type_ravenmine_ebony_mines_01$"
  building_ravenmine_ebony_mines_04_desc:1 "$building_type_ravenmine_ebony_mines_01_desc$"
+
+ building_type_mula_ebony_mines_01:0 "Эбонитовые шахты горы Мулы"
+ building_type_mula_ebony_mines_01_desc:0 "Остров Топал - историческая точка противостояния между Чернотопьем, Сиродилом и Эльсвейром - является домом для самой большой, старой и плодовитой шахты эбонита за пределами Морровинда. Туннели прорыты глубоко в земле у подножия самого большого действующего вулкана в южном Тамриэле, горы Мула, чтобы выкопать, казалось бы, безграничные залежи эбонита. Эбонит горы Мулы во всех отношениях уступает эбониту Вварденфелла, но его относительная доступность, выгодное положение острова, а также враждебная торговая политика и грубые обычаи Морровинда делают гору Мула одной из самых прибыльных шахт в Тамриэле."
+ building_mula_ebony_mines_01:1 "$building_type_mula_ebony_mines_01$"
+ building_mula_ebony_mines_01_desc:1 "$building_type_mula_ebony_mines_01_desc$"
+ building_mula_ebony_mines_02:1 "$building_type_mula_ebony_mines_01$"
+ building_mula_ebony_mines_02_desc:1 "$building_type_mula_ebony_mines_01_desc$"
+ building_mula_ebony_mines_03:1 "$building_type_mula_ebony_mines_01$"
+ building_mula_ebony_mines_03_desc:1 "$building_type_mula_ebony_mines_01_desc$"
+ building_mula_ebony_mines_04:1 "$building_type_mula_ebony_mines_01$"
+ building_mula_ebony_mines_04_desc:1 "$building_type_mula_ebony_mines_01_desc$"
  
  building_type_cidhna_mine_silver_mines_01:0 "Серебряные шахты Сидна"
  building_type_cidhna_mine_silver_mines_01_desc:0 "Богатства Предела многочисленны, и серебряные жилы Сидны - одни из них. При достаточном количестве времени, денег и людей она могла бы обеспечить Предел и его правителя большим количеством золота, чем ему может понадобиться."

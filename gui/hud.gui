@@ -2765,7 +2765,7 @@ widget = {
 	map_modes_debug = {
 		visible = "[And( InDebugMode, And(IsDefaultGUIMode, Not(IsRightWindowOpen)))]"
 		parentanchor = bottom|right
-		position = { 0 -220 }
+		position = { 0 -250 }
 
 		filter_mouse = all
 		alwaystransparent = no
@@ -2953,7 +2953,7 @@ widget = {
 		visible = "[And(IsDefaultGUIMode, Not(IsRightWindowOpen))]"
 		parentanchor = bottom|right
 		widgetanchor = top|right
-		position = { 0 -155 }
+		position = { 0 -185 }
 		alwaystransparent = yes
 		ignoreinvisible = yes
 		filter_mouse = all

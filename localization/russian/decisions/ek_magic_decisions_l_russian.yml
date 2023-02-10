@@ -10,3 +10,4 @@
  become_necromancer_decision_confirm:0 "Конечно, они не заметят несколько пустых могил?"
  
  doctrine_necromancy_accepted_custom_desc:0 "Ваша [faith|El] имеет доктрину [GetFaithDoctrine('tenet_necromancy_worship').GetBaseName]"
+ doctrine_lichdom_accepted_custom_desc:0 "Ваша [faith|El] имеет доктрину [GetFaithDoctrine('tenet_necromancy_worship').GetBaseName] или [GetFaithDoctrine('doctrine_pantheon_dragons').GetBaseName]"
