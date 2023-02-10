@@ -359,11 +359,11 @@
  trait_p_ch_attrebus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Аттребуса, объединившего Тамриэль и уничтожившего остатки акавирского Потентата, освободив Сиродил и весь Тамриэль от акавирского ига."
 
  # Thousand Cults
- trait_p_tc_aka:0 "Культист Аки"
- trait_p_tc_aka_base:0 "Культист Аки"
+ trait_p_tc_aka:0 "Культист Ака"
+ trait_p_tc_aka_base:0 "Культист Ака"
  trait_p_tc_aka_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_aka_desc' )]"
- trait_p_tc_aka_desc:0 "Член культа Аки"
- trait_p_tc_aka_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом культа Аки."
+ trait_p_tc_aka_desc:0 "Член культа Ака"
+ trait_p_tc_aka_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом культа Ака."
 
  trait_p_tc_missing:0 "Культист Потерянного"
  trait_p_tc_missing_base:0 "Культист Потерянного"
@@ -377,11 +377,11 @@
  trait_p_tc_land_desc:0 "Член культа Земли"
  trait_p_tc_land_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом культа Земли."
 
- trait_p_tc_moth:0 "Культист Мотылька-Предка"
- trait_p_tc_moth_base:0 "Культист Мотылька-Предка"
+ trait_p_tc_moth:0 "Культист Мотылька Предка"
+ trait_p_tc_moth_base:0 "Культист Мотылька Предка"
  trait_p_tc_moth_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_moth_desc' )]"
- trait_p_tc_moth_desc:0 "Член культа Мотылька-Предка"
- trait_p_tc_moth_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом культа Мотылька-Предка."
+ trait_p_tc_moth_desc:0 "Член культа Мотылька Предка"
+ trait_p_tc_moth_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом культа Мотылька Предка."
 
  trait_p_tc_beasts:0 "Культист Богов-зверей"
  trait_p_tc_beasts_base:0 "Культист Богов-зверей"
@@ -555,7 +555,7 @@
  trait_p_fg_raen_base:0 "Последователь Рэна"
  trait_p_fg_raen_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_raen_desc' )]"
  trait_p_fg_raen_desc:0 "Последователь Рэна"
- trait_p_fg_raen_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Рэна, Бога сельского хозяйства."
+ trait_p_fg_raen_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Рэна, Бога земледелия."
 
  trait_p_fg_vigryl:0 "Последователь Вигрила"
  trait_p_fg_vigryl_base:0 "Последователь Вигрила"
@@ -569,11 +569,11 @@
  trait_p_fg_shandar_desc:0 "Последователь Шандара"
  trait_p_fg_shandar_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Шандара, Бога-воина."
 
- trait_p_fg_jhimsei:0 "Последователь Цзим Сэя"
- trait_p_fg_jhimsei_base:0 "Последователь Цзим Сэя"
+ trait_p_fg_jhimsei:0 "Последователь Джим Сэя"
+ trait_p_fg_jhimsei_base:0 "Последователь Джим Сэя"
  trait_p_fg_jhimsei_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_jhimsei_desc' )]"
- trait_p_fg_jhimsei_desc:0 "Последователь Цзим Сэя"
- trait_p_fg_jhimsei_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Цзим Сэя, Бога музыки."
+ trait_p_fg_jhimsei_desc:0 "Последователь Джим Сэя"
+ trait_p_fg_jhimsei_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Джим Сэя, Бога музыки."
 
  trait_p_fg_druaaga:0 "Последователь Друаги"
  trait_p_fg_druaaga_base:0 "Последователь Друаги"
