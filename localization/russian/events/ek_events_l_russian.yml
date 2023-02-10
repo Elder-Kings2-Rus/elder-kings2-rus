@@ -537,7 +537,7 @@
  ek_transformation.2007.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'устроила', 'устроил' )] себе небольшой ночной перекус, как вдруг позади меня раздаётся внезапный шум. Грабитель? Посетитель? Гость?!\n\nПовернувшись, я оказываюсь лицом к лицу с персонажем [owner.Custom2('MyCharacterIntroduction', ROOT.Char)], чьи глаза светятся в темноте, а торчащие изо рта клыки готовы вот-вот вонзиться в меня."
  ek_transformation.2007.a:1 "Мне это не нужно, #EMP [owner.Custom('SisterBrother')|U]#!!"
 
- ek_transformation.2010.t:1 "$convert_to_vampire_key$: Overheard"
+ ek_transformation.2010.t:1 "$convert_to_vampire_key$: тайное становится явным"
  ek_transformation.talk.2010:1 "[target.GetFirstName] и я много часов говорим о моём багряном благословении и нашей воле. Когда небо у горизонта начинает едва заметно светлеть, мы прощаемся."
  ek_transformation.leave.2010:0 "Как только я передаю персонажу [target.GetFirstName] самую необходимую вампирическую мудрость и делюсь свои даром, я ухожу."
  ek_transformation.end.2010:0 "\n\nНо как только я открываю дверь комнаты, я слышу быстрые шаги, удаляющиеся по коридору. Неужели кто-то подслушивал?"
