@@ -346,7 +346,7 @@ god_amaranth_possessive_name:0 "Амаранта"
  #GET_RANDOM_AZURA_NAME:0 "$god_azura_name$"
  #GET_RANDOM_CUSTOM_AZURA_NAME:0 "$god_azura_name$"
  GET_RANDOM_AZURA_NAME_POSSESSIVE:0 "$god_azura_name_possessive$"
- GET_RANDOM_CUSTOM_AZURA_NAME_POSSESSIVE:0 "$god_azura_name_possessive$"
+ GET_RANDOM_CUSTOM_AZURA_NAME_POSSESSIVE:0 "[GetPlayer.Custom('GetCustomAzuraNamePossessive')]"
 
  god_azura_name:0 "Азура"
 	god_azura_name_possessive:0 "Азуры"
