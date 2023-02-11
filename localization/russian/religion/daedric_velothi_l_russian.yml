@@ -176,7 +176,7 @@
 
  #Sixth House
  sixth_house:1 "Шесто-домск"
- sixth_house_adj:1 "Шесто-домск"
+ sixth_house_adj:1 "Шестой Дом"
  sixth_house_adherent:1 "Сновидец"
  sixth_house_adherent_plural:1 "Сновидцы"
  sixth_house_desc:0 "[SelectLocalization(IsObserver, 'sixth_house_nonfollower_desc', 'sixth_house_custom_desc')]"
