@@ -1510,8 +1510,8 @@ icon = {
 								default_format = "#date"
 								autoresize = no
 								align = right|nobaseline
-								using = Font_Size_Medium
-								fontsize_min = 14
+								#using = Font_Size_Medium
+								#fontsize_min = 14
 								fontsize = 14
 							}
 
