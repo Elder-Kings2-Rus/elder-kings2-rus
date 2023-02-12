@@ -58,15 +58,15 @@
  
  ## Holy Buildings
  doctrine_parameter_faith_uses_grand_cathedral:0 "В качестве [Concept( 'special_building', 'особых построек' )|E] [Concept( 'holy_sites', 'священных мест' )|E] используются великие соборы"
- faith_uses_grand_cathedral_name:0 "'$doctrine_parameter_faith_uses_grand_cathedral$' параметр "доктрина Пантеона""
+ faith_uses_grand_cathedral_name:0 "'$doctrine_parameter_faith_uses_grand_cathedral$'"
  doctrine_parameter_faith_uses_daedric_shrine:0 "В качестве [Concept( 'special_building', 'особых построек' )|E] [Concept( 'holy_sites', 'священных мест' )|E] используются даэдрические святилища"
- faith_uses_daedric_shrine_name:0 "'$doctrine_parameter_faith_uses_daedric_shrine$' параметр "доктрина Пантеона""
+ faith_uses_daedric_shrine_name:0 "параметр доктрины пантеона '$doctrine_parameter_faith_uses_daedric_shrine$'"
  doctrine_parameter_faith_uses_dragon_temple:0 "В качестве [Concept( 'special_building', 'особых построек' )|E] [Concept( 'holy_sites', 'священных мест' )|E] используются драконьи храмы"
- faith_uses_dragon_temple_name:0 "'$doctrine_parameter_faith_uses_dragon_temple$' параметр "доктрина Пантеона""
+ faith_uses_dragon_temple_name:0 "параметр доктрины пантеона '$doctrine_parameter_faith_uses_dragon_temple$'"
  doctrine_parameter_faith_uses_great_wyrd_tree:0 "В качестве [Concept( 'special_building', 'особых построек' )|E] [Concept( 'holy_sites', 'священных мест' )|E] используются великие вещие деревья"
- faith_uses_great_wyrd_tree_name:0 "'$doctrine_parameter_faith_uses_great_wyrd_tree$' параметр "доктрина Пантеона""
+ faith_uses_great_wyrd_tree_name:0 "параметр доктрины пантеона '$doctrine_parameter_faith_uses_great_wyrd_tree$'"
  doctrine_parameter_faith_uses_holy_site_other_grand_temple:0 "В качестве [Concept( 'special_building', 'особых построек' )|E] [Concept( 'holy_sites', 'священных мест' )|E] используются великие храмы"
- faith_uses_holy_site_other_grand_temple_name:0 "'$doctrine_parameter_faith_uses_holy_site_other_grand_temple$' параметр "доктрина Пантеона""
+ faith_uses_holy_site_other_grand_temple_name:0 "параметр доктрины пантеона '$doctrine_parameter_faith_uses_holy_site_other_grand_temple$'"
  
  ## Special
  special_faith_existence_name:0 "Существование конфессии"

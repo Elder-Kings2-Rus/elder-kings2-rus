@@ -25,7 +25,7 @@
  court.1010.b:0 "Пусть [courtier.GetFirstNameNoTooltip] протрезвеет в подземелье!"
  court.1010.c:0 "Может, суровая отповедь вернет [courtier.GetHerHim] разум?"
  court.1010.c.speaker:0 "Суровая отповедь, которую устроит мой оратор, вразумит [courtier.GetHerHim]."
- court.1010.c.speaker.flavor:0 "Мой спикер может изложить моё дело, если я того пожелаю."
+ court.1010.c.speaker.flavor:0 "Мой глашатай может изложить моё дело, если я того пожелаю."
  court.1010.c.success:0 "[courtier.GetFirstNameNoTooltip] прекращает пить... по крайней мере, без меры"
  court.1010.c.failure:0 "[courtier.GetFirstNameNoTooltip] продолжает идти тем же курсом"
  court.1010.d:0 "Если [courtier.GetFirstNameNoTooltip] хочет выглядеть [Select_CString(courtier.IsFemale, 'дурой', 'дураком' )], да будет так!"

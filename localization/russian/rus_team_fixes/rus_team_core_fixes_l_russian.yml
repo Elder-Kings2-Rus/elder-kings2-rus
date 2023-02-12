@@ -164,3 +164,10 @@
  god_magnus_name_name_possessive:0 "Магнуса"
  great_mare_god_name_name_possessive:0 "Великой Кобылы"
  GET_RANDOM_CUSTOM_MEPHALA_NAME_name_possessive:0 "$god_mephala_name_possessive$"
+ 
+ culture_parameter_fairness_valued:0 "[characters|E] с личностью [GetTrait('just').GetName( GetNullCharacter )] вызывают восхищение, в то время как свойства личности [GetTrait('sadistic').GetName( GetNullCharacter )] и [GetTrait('arbitrary').GetName( GetNullCharacter )] презираются" # Scorg. Для традиции 'Пограничные рыцари'.
+ # Одёжка без локализации. Scorg.
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_altmer_01_high:0 "Альтмерское высшее дворянство 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_altmer_02_high:0 "Альтмерское высшее дворянство 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_altmer_01_low:0 "Альтмерское низшее дворянство 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_altmer_02_low:0 "Альтмерское низшее дворянство 2"

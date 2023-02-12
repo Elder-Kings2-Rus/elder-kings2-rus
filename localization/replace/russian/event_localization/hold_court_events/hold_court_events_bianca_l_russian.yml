@@ -12,7 +12,7 @@ l_russian:
  hold_court.3000.b:1 "Никаких обязательств! Требование сюзерена!"
  hold_court.3000.c:1 "Не лучше ли будет прийти к более разумному соглашению?"
  hold_court.3000.c.speaker:1 "#italic "Не лучше ли будет прийти к более разумному соглашению?"#"
- hold_court.3000.c.speaker.flavor:0 "Мой спикер может изложить моё дело, если я того пожелаю."
+ hold_court.3000.c.speaker.flavor:0 "Мой глашатай может изложить моё дело, если я того пожелаю."
  hold_court.3000.c.success:0 "[feast_vassal.GetTitledFirstNameNoTooltip] добровольно отказывается от услуги"
  hold_court.3000.c.failure:0 "[feast_vassal.GetTitledFirstNameNoTooltip] аннулирует предложение оплатить пир"
  hold_court.3000.d:1 "Боюсь, это неприемлемо."
