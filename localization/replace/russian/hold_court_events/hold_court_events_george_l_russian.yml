@@ -49,7 +49,7 @@ l_russian:
  hold_court.7000.spouse_other.desc:1 "Я вмиг узнаю следующих просителей. Это [rival_1.GetName] и [rival_2.GetName] — о жарких спорах этой парочки известно всем. Только сейчас от былой грызни не осталось и следа! Весьма подозрительно.\n\n«Мой лорд, — начинает разговор [rival_1.GetName], — с неудовольствием сообщаю, что народ крайне недоволен тем, как ведет себя [controversial_spouse.GetTitledFirstName] в последнее время: разве может так поступать [Select_CString(controversial_spouse.IsFemale, 'истинная', 'истинный' )] [controversial_spouse.GetTitle|l]? Вы обязаны это исправить!»"
  hold_court.7000.a:1 "Попробуйте взглянуть на это с другой стороны..."
  hold_court.7000.a.speaker:1 "#italic "Попробуйте взглянуть на это с другой стороны..."#"
- hold_court.7000.a.speaker.flavor:1 "Мой спикер может изложить моё дело, если я того пожелаю"
+ hold_court.7000.a.speaker.flavor:1 "Мой глашатай может изложить моё дело, если я того пожелаю"
  hold_court.7000.a.success:0 "You successfully convince [rival_1.GetTitledFirstNameNoTooltip] and [rival_2.GetTitledFirstNameNoTooltip] to drop the matter"
  hold_court.7000.a.success.toast:0 "Убедительная речь"
  hold_court.7000.a.failure:0 "Ваши слова не возымели успеха: [rival_1.GetTitledFirstNameNoTooltip] и [rival_2.GetTitledFirstNameNoTooltip] отказываются забыть о проблеме"
