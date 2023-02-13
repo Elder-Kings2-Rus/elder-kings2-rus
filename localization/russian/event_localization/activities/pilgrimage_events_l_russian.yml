@@ -24,7 +24,7 @@
 
  pilgrimage.0001.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] - Паломничество"
  pilgrimage.0001.desc:0 "Пора отправиться в путешествие к одной из святынь. Но к какой?"
- pilgrimage.0001.a:0 "[holy_site_1.GetNameNoTierNoTooltip]! [ROOT.Char.GetFaith.PriestNeuterPlural] будут довольны."
+ pilgrimage.0001.a:0 "[holy_site_1.GetNameNoTierNoTooltip]! [ROOT.Char.GetFaith.PriestNeuterPlural|U] будут довольны."
  pilgrimage.0001.b:0 "[holy_site_2.GetNameNoTierNoTooltip]! Я посещу [ROOT.Char.GetFaith.HouseOfWorship|l]."
  pilgrimage.0001.c:0 "[holy_site_3.GetNameNoTierNoTooltip]! Как и должен сделать каждый [ROOT.Char.GetFaith.GetAdherentNameNoTooltip|l]."
  pilgrimage.0001.d:0 "Может, куда-то ещё..."
