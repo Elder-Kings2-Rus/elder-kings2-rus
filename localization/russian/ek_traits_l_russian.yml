@@ -22,24 +22,24 @@
  guild_fighters_traits:0 "Гильдия Бойцов"
  trait_guild_fighters_traits:0 "Гильдия Бойцов"
  
- trait_pirate:0 "[Select_CString(ROOT.Char.IsFemale, 'Пиратка', 'Пират' )]"
+ trait_pirate:0 "Пират"
  trait_pirate_desc:0 "Этот персонаж - пират. Ярррр, дружище!"
  trait_pirate_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - пират. Ярррр, дружище!"
 
  trait_plunderer:0 "[Select_CString(ROOT.Char.IsFemale, 'Разбойница', 'Разбойник' )]"
  trait_plunderer_desc:0 "Истинная сила достигается только путем захвата того, что принадлежит вам по праву. А весь мир и его богатства принадлежат вам по праву."
 
-trait_necromancer:0 "[Select_CString(ROOT.Char.IsFemale, 'Некромантка', 'Некромант' )]"
+trait_necromancer:0 "Некромант"
 trait_necromancer_desc:0 "Этот персонаж известен тем, что оскверняет трупы умерших, манипулируя их душами и воскрешая их тела для воплощения своих желаний."
 trait_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'известна тем', 'известен тем' )], что оскверняет трупы умерших, манипулируя их душами и воскрешая их тела для воплощения своих желаний."
 
 trait_reclusive_vampire:0 "[Select_CString(ROOT.Char.IsFemale, 'Затворница', 'Затворник' )]"
 trait_reclusive_vampire_desc:0 "Этот персонаж часто замыкается в себе и пренебрегает своими обязанностями."
 trait_reclusive_vampire_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] часто замыкается в себе и пренебрегает своими обязанностями." 
-reclusive_vampire_player_desc:0 "[Select_CString(ROOT.Char.IsFemale, 'Тайная вампирша', 'Тайный вампир' )]"
+reclusive_vampire_player_desc:0 "Тайный вампир"
 trait_vampire_player_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] тайно является вампиром, нежитью, проклятой пить кровь живых и избегать солнечного света."
 
-trait_vampire_character:0 "[Select_CString(ROOT.Char.IsFemale, 'Вампирша', 'Вампир' )]"
+trait_vampire_character:0 "Вампир"
 trait_vampire_character_desc:0 "Этот персонаж - вампир, неживое существо, проклятое пить кровь живых и избегать солнечного света."
 trait_vampire_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - Вампир, неживое существо, проклятое пить кровь живых и избегать солнечного света." #character_character
 
@@ -63,7 +63,7 @@ trait_lycan_character:0 "Оборотень"
 trait_lycan_character_desc:0 "Этот персонаж - ликантроп, существо, проклятое трансформацией тела под влиянием лун Нирна."
 trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - ликантроп, существо, проклятое трансформацией тела под влиянием лун Нирна." #character_character
 
- trait_occultist:0 "[Select_CString(ROOT.Char.IsFemale, 'Оккультистка', 'Оккультист' )]"
+ trait_occultist:0 "Оккультист"
  trait_occultist_desc:0 "Этот персонаж [Select_CString(ROOT.GetCharacter.IsFemale, 'является могущественной ведьмой. Она провела', 'является могущественным колдуном. Он провёл' )] старый и тёмный ритуал, чтобы обменять часть своей человечности на забытые силы."
  trait_occultist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'является могущественной ведьмой', 'является могущественным колдуном' )] и [Select_CString(ROOT.GetCharacter.IsFemale, 'она провела', 'он провёл' )] старый и тёмный ритуал, чтобы обменять часть своей человечности на забытые силы."
 
