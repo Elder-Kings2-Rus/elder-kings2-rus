@@ -2,7 +2,7 @@
 
 # Adventurer hasn't actually gone on the adventure!
 
-fund_inspiration.6400.desc:0 "Во время своего визита в таверну в городе [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], я шпионю за одним из господ в центре общественного внимания.\n\n[inspiration_owner.GetSheHe|U] имеет больше седых волос, чем остальные посетители, и пахнет так, как будто [inspiration_owner.GetSheHe] находится здесь целую вечность. К моему ужасу, я узнаю своего путешественника, [inspiration_owner.GetTitledFirstName], и похоже что [inspiration_owner.GetHerHim] так и не удалось отправиться в путь после нескольких месяцев финансирования!\n\n"А в моем следующем путешествии я пересеку Море Призраков за один раз!" [inspiration_owner.GetSheHe] тут же проглатывает целый бокал красного вина под аплодисменты всего питейного зала."
+fund_inspiration.6400.desc:0 "Во время своего визита в таверну в городе [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], я шпионю за одним из господ в центре общественного внимания.\n\n[inspiration_owner.GetSheHe|U] имеет больше седых волос, чем остальные посетители, и пахнет так, как будто [inspiration_owner.GetSheHe] находится здесь целую вечность. К моему ужасу, я узнаю своего путешественника, [inspiration_owner.GetTitledFirstName], и похоже что [inspiration_owner.GetHerHim] так и не удалось отправиться в путь после нескольких месяцев финансирования!\n\n"А в моём следующем путешествии я пересеку Море Призраков за один раз!" [inspiration_owner.GetSheHe] тут же проглатывает целый бокал красного вина под аплодисменты всего питейного зала."
 
 ## Postcards from your Adventurer by Isabella Welch
 

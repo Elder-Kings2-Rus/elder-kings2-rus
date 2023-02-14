@@ -185,8 +185,8 @@
  current_month_5:0 "Текущий месяц — Хист-дука (5)"
  
  recruit_priest_liturgical_language_decision:0 "Запросить нового придворного священника"
- recruit_priest_liturgical_language_decision_daedric:0 "#L [ROOT.Char.GetFaith.GetName]ое#! духовенство обязано владеть даэдрическим языком, но, к сожалению, никто при моем дворе не знает языка Обливиона. К счастью, я могу призвать священника из местного храма, чтобы исправить этот недостаток."
- recruit_priest_liturgical_language_decision_dragon:0 "#L [ROOT.Char.GetFaith.GetName]ое#! духовенство обязано владеть драконьим языком, но, к сожалению, никто при моем дворе не знает довазул, язык драконов. К счастью, я могу призвать священника из местного храма, чтобы исправить этот недостаток."
+ recruit_priest_liturgical_language_decision_daedric:0 "#L [ROOT.Char.GetFaith.GetName]ое#! духовенство обязано владеть даэдрическим языком, но, к сожалению, никто при моём дворе не знает языка Обливиона. К счастью, я могу призвать священника из местного храма, чтобы исправить этот недостаток."
+ recruit_priest_liturgical_language_decision_dragon:0 "#L [ROOT.Char.GetFaith.GetName]ое#! духовенство обязано владеть драконьим языком, но, к сожалению, никто при моём дворе не знает довазул, язык драконов. К счастью, я могу призвать священника из местного храма, чтобы исправить этот недостаток."
  recruit_priest_liturgical_language_decision.tt:0 "Священник, способный говорить на [Concept( 'liturgical_language', 'литургическом языке' )|E] вашей конфессии, прибудет к вашему двору"
  recruit_priest_liturgical_language_decision_confirm:0 "Призвать священника"
  recruit_priest_liturgical_language_decision_tooltip:0 "Нанять священника из местного храма, чтобы заполнить вакантную должность при вашем дворе"
