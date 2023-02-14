@@ -82,7 +82,7 @@
  hold_court.4500.titles:0 "И все земли, которыми владеет [secondary_character.GetTitledFirstNameNoTooltip], должны стать моими»."
  hold_court.4500.realm:0 "Отдай мне свою державу!»"
  hold_court.4500.desc.middle:0 "\n\nДвор на несколько мгновений охватывает гробовое молчание. [secondary_character.GetTitledFirstNameNoTooltip], до сей поры [Select_CString(secondary_character.IsFemale, 'пребывавшая', 'пребывавший' )] в мирной полудреме, резко просыпается. «Что?!»\n\n«Из-под моего пера вышла величайшая баллада во вселенной. Она повествует о"
- hold_court.4500.chancellor_2:0 "моем путешествии по чужеземным державам. Я знаю о народах мира куда больше, чем [secondary_character.GetTitledFirstNameNoTooltip]."
+ hold_court.4500.chancellor_2:0 "моём путешествии по чужеземным державам. Я знаю о народах мира куда больше, чем [secondary_character.GetTitledFirstNameNoTooltip]."
  hold_court.4500.steward_2:0 "цитадели из чистого золота. Я знаю о красоте и богатстве куда больше, чем [secondary_character.GetTitledFirstNameNoTooltip]."
  hold_court.4500.marshal_2:0 "поединке древних правителей. Для меня война — вид искусства, и я понимаю в нем гораздо больше, чем [secondary_character.GetTitledFirstNameNoTooltip]."
  hold_court.4500.spymaster_2:0 "причинении боли. Моя душа знает о пытках куда больше, чем [secondary_character.GetTitledFirstNamePossessiveNoTooltip]."
@@ -112,7 +112,7 @@
  hold_court.4600.a.failure:0 "Вы пугаете крестьян"
 ### Vassal invites you to a suspicious dinner by Isabella Welch
  hold_court.4601.t:0 "[Select_CString(ROOT.Char.IsFemale, 'Моя аппетитнейшая', 'Мой аппетитнейший' )] [ROOT.GetCharacter.GetLadyLord|U],"
- hold_court.4601.d:0 "Сердце мое все еще трепещет с тех пор, как в народе принялись говорить о вашей истинно демонической природе. Я всецело сожалею о том, что мы с вашим ужасающим величеством до сих пор незнакомы.\n\nПрошу, будьте гостем в моем замке, и мы насладимся самыми сочными яствами, которые только может себе представить [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]!"
+ hold_court.4601.d:0 "Сердце мое все еще трепещет с тех пор, как в народе принялись говорить о вашей истинно демонической природе. Я всецело сожалею о том, что мы с вашим ужасающим величеством до сих пор незнакомы.\n\nПрошу, будьте гостем в моём замке, и мы насладимся самыми сочными яствами, которые только может себе представить [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]!"
  hold_court.4601.a:0 "Звучит изумительно!"
  hold_court.4601.b:0 "Я лучше дома попирую..."
 

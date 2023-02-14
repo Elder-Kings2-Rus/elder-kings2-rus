@@ -77,7 +77,7 @@
  prestige_piety_gain_battle_bonus:0 "#P +25%#! [Concept('prestige', 'престижа')|E], [Concept('prestige_experience', 'репутации')|E], [Concept('piety', 'благочестия')|E] и [Concept('piety_experience', 'набожности')|E] от битв"
  innovation_lingua_tamrielis:0 "Лингва Тамриэлис"
  innovation_lingua_tamrielis_desc:0 "Поскольку наша культура является единственным хозяином Тамриэля, каждый торговец, мелкий лорд и прилежный священник старается говорить на нашем языке."
- reduces_cultural_penality_marriages:0 "Уменьшает штраф за неправильную культуру, когда речь идет о браке за пределами вашей [Concept('culture', 'культуры')|E] или [Concept('heritage', 'наследия')|E]"
+ reduces_cultural_penality_marriages:0 "Уменьшает штраф за неправильную культуру, когда речь идёт о браке за пределами вашей [Concept('culture', 'культуры')|E] или [Concept('heritage', 'наследия')|E]"
  innovation_minotaur_army:0 "Армия минотавров"
  innovation_minotaur_army_desc:0 "Многие считают минотавров дикими зверями, но эта культура видит в них либо божественное проявление, либо старого союзника в тысячелетней борьбе. Независимо от причины, они заключили союз с минотаврами, а люди-быки согласились предоставить свою силу и решимость в обмен на землю и безопасность."
  reduces_risk_minotaur_infestation:0 "Значительно снижает риск нашествия минотавров"

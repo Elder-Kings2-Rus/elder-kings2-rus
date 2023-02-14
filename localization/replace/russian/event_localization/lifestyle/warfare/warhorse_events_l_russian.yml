@@ -18,7 +18,7 @@
  warhorse.0004.desc:0 "[ROOT.Char.Custom('LocalMount')] должен быть назван как обычное существо, которым оно является."
 
  warhorse.1001.t:1 "[ROOT.Char.Custom('WarhorseStoryName')|U]: Верный скакун"
- warhorse.1001.desc:0 "Известный дрессировщик подошёл ко мне после того, как услышал слухи о моем могучем скакуне [ROOT.Char.Custom('WarhorseStoryName')], и предлагает [ROOT.Char.Custom('RandomHerHis')] услуги.\n\n"Все, что я прошу взамен, это небольшое вознаграждение.""
+ warhorse.1001.desc:0 "Известный дрессировщик подошёл ко мне после того, как услышал слухи о моём могучем скакуне [ROOT.Char.Custom('WarhorseStoryName')], и предлагает [ROOT.Char.Custom('RandomHerHis')] услуги.\n\n"Все, что я прошу взамен, это небольшое вознаграждение.""
  
  warhorse.1101.desc:0 "Когда я подхожу к стойлам, то слышу счастливые звуки, которые издает [ROOT.Char.Custom('WarhorseStoryName')]. [ROOT.Char.Custom('HorseStorySheHe')|U] кажется, хочет размять [ROOT.Char.Custom('HorseStoryHerHis')] ноги в прекрасную погоду, и я не могу не согласиться."
 
@@ -46,4 +46,4 @@
 
  warhorse.8002.desc:0 "Мой любимый [ROOT.Char.Custom('LocalMount')] [ROOT.Char.Custom('WarhorseStoryName')] умирает, но [ROOT.Char.Custom('HorseStorySheHe')] оставляет сильного потомка!Я уже вижу [ROOT.Char.Custom('HorseStoryHerHis')] черты в жеребенке. В некотором роде мой друг все ещё со мной."
 
- warhorse.8003.desc:0 "В стойлах меня ждут печальные известия.[ROOT.Char.Custom('LocalMount')|U] [ROOT.Char.Custom('WarhorseStoryName')] умирает этой ночью, оставив пустоту в моем сердце."
+ warhorse.8003.desc:0 "В стойлах меня ждут печальные известия.[ROOT.Char.Custom('LocalMount')|U] [ROOT.Char.Custom('WarhorseStoryName')] умирает этой ночью, оставив пустоту в моём сердце."

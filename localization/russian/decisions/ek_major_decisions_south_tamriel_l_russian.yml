@@ -1,6 +1,6 @@
 ﻿l_russian:
  recreate_lost_kingdom_arnesia_decision:0 "Воссоздать утраченное королевство Арнезия"
- recreate_lost_kingdom_arnesia_decision_desc:0 "Разрушенный много веков назад силами данмеров и аргониан, старый город Арнезия был маяком в темной и опасной провинции. От нас зависит возвращение земли, окружающей город, и его сияние!"
+ recreate_lost_kingdom_arnesia_decision_desc:0 "Разрушенный много веков назад силами данмеров и аргониан, старый город Арнезия был маяком в тёмной и опасной провинции. От нас зависит возвращение земли, окружающей город, и его сияние!"
  recreate_lost_kingdom_arnesia_decision_effects_de_jure_tt:0 "[duchies|E] [arnesia_arnesia.GetNameNoTier], [arnesia_seafalls.GetNameNoTier], [arnesia_padomeic.GetNameNoTier] и [arnesia_nootanara.GetNameNoTier] войдут в [de_jure|E] Арнезия"
  recreate_lost_kingdom_arnesia_decision_confirm: "Воссияй снова, перед концом"
  recreate_lost_kingdom_arnesia_decision_tooltip: "Старый город-государство Арнезия, возможно, и пал, но он ещё не потерян..."

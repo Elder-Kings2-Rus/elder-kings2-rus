@@ -116,7 +116,7 @@
  wabbajack_giantified:0 "[recipient.GetShortUINameNoTooltip] превратился в гиганта!"
 
  send_mage_to_wander:0 "Отправить мага в странствие"
- send_mage_to_wander_interaction_desc:0 "[recipient.GetFirstName] имеет некоторые врожденные магические способности, но не имеет практического образования. Позвольте [recipient.GetHerHim] отправиться практиковать свои навыки!"
+ send_mage_to_wander_interaction_desc:0 "[recipient.GetFirstName] имеет некоторые врождённые магические способности, но не имеет практического образования. Позвольте [recipient.GetHerHim] отправиться практиковать свои навыки!"
  send_mage_to_wander_five_years_tt:0 "Отправить [recipient.GetShortUINameNoTooltip] в странствие, [recipient.GetSheHe] станет [Concept( 'wanderer', 'скитальцем' )|E] в течении 5 лет и будет улучшать свои [Concept( 'magic', 'магические' )|E] способности."
  send_mage_to_wander_return_title:0 "Скиталец возвращается"
  send_mage_to_wander_return_desc:0 "[recipient.GetFullName] [Select_CString(recipient.IsFemale, 'вернулась', 'вернулся' )] к вашему двору после странствия для увеличения своих [Concept( 'magic', 'магических' )|E] способностей."

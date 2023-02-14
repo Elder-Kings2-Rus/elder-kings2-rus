@@ -80,7 +80,7 @@
  pilgrimage.2005.t:0 "$pilgrimage_header$ грубая история"
  pilgrimage.2005.desc:1 "Проходя мимо костра, один из попутчиков под хриплый смех рассказывает историю, которую [dummy_peasant_gender.GetSheHe] однажды [Select_CString(dummy_peasant_gender.IsFemale, 'услышала', 'услышал' )], что есть [Select_CString(ROOT.Char.IsFemale, 'некая', 'некий' )] [ROOT.Char.GetTitleAsNameNoTooltip]. Когда меня увидели, замолчали все — кроме рассказчика.\n\n"О, не волнуйтесь, [ROOT.Char.GetLadyLord], вы не [Select_CString(ROOT.Char.IsFemale, 'такая', 'такой' )], как [ROOT.Char.Custom('InsultNoun')] из этой истории!"
  pilgrimage.2005.desc_close:0 "[ROOT.Char.GetTitleAsNameNoTooltip] этих земель, вот о ком речь."
- pilgrimage.2005.desc_far:0 "[ROOT.Char.GetTitleAsNameNoTooltip], о ком идет речь, из далекого места, называемого [title.GetNameNoTierNoTooltip].""
+ pilgrimage.2005.desc_far:0 "[ROOT.Char.GetTitleAsNameNoTooltip], о ком идёт речь, из далекого места, называемого [title.GetNameNoTierNoTooltip].""
  pilgrimage.2005.a:0 ""[ROOT.Char.GetTitleAsNameNoTooltip]? Правда? Расскажи поподробнее.""
  pilgrimage.2005.a.flavor:0 "Присяду у костра."
  pilgrimage.2005.b:0 ""Стража! Подайте кнут.""
@@ -105,7 +105,7 @@
  pilgrimage.2008.whole_of_body:0 "Ах, этот кашель быстро пройдет."
 
  pilgrimage.2009.t:0 "$pilgrimage_header$ хриплый кашель"
- pilgrimage.2009.desc:0 "Путешествие не идет мне на пользу. Моё здоровье не укрепилось из-за моего стремления получить милость [ROOT.Char.GetFaith.PantheonTerm]. Все становится хуже и хуже. Я не помню, как я дышал без усилий."
+ pilgrimage.2009.desc:0 "Путешествие не идёт мне на пользу. Моё здоровье не укрепилось из-за моего стремления получить милость [ROOT.Char.GetFaith.PantheonTerm]. Все становится хуже и хуже. Я не помню, как я дышал без усилий."
  pilgrimage.2009.a:0 "Я дойду до конца. Пусть [ROOT.Char.GetFaith.HighGodNameAlternate] благословит меня."
  pilgrimage.2009.b:0 "Это явно воля [ROOT.Char.GetFaith.HighGodNamePossessive], чтобы я вернулся назад."
 
