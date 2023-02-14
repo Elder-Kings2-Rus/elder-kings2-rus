@@ -1,6 +1,6 @@
 ﻿l_russian:
 
- trait_varangian:0 "[Select_CString(ROOT.Char.IsFemale, 'Легионерша', 'Легионер' )]"
+ trait_varangian:0 "Легионер"
  trait_varangian_desc:0 "Этот персонаж служил в Имперском Легионе."
  trait_varangian_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'служила', 'служил' )] в Имперском Легионе."
  
@@ -16,7 +16,7 @@
  murder_save.1010.a:0 "Кто может стоять за столь подлым покушением?"
  murder_save.1010.b:0 "[owner.GetSheHe|U] за это заплатит!"
  
- varangian_arrived.title:0 "[Select_CString(varangian_candidate.IsFemale, 'Новая легионерша', 'Новый легионер' )]"
+ varangian_arrived.title:0 "Новый легионер"
  varangian_arrived.desc:0 "[varangian_candidate.GetShortUIName|U] [Select_CString(varangian_candidate.IsFemale, 'присоединилась', 'присоединился' )] к Имперскому Легиону"
 
  varangian.0002.t:0 "Имперский Легион"
