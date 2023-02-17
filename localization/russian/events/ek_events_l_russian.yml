@@ -498,7 +498,7 @@
  ek_transformation.2001.end.desc:0 "\n\nТеперь я должен обратиться к н[target.GetHerHim] и открыто предложить стать единым с ночью — или отказаться от этой затеи."
  ek_transformation.2001.a:0 "[target.GetSheHe|U] заслуживает возможности принять собственное решение."
  ek_transformation.2001.b1:0 "Риски слишком велики."
- ek_transformation.2001.b2:0 "[target.GetFirstNameNoTooltip] ещё не готов."
+ ek_transformation.2001.b2:0 "[target.GetFirstNameNoTooltip] ещё не [Select_CString(target.IsFemale, 'готова', 'готов' )]."
  ek_transformation.2001.a.tt:1 "Вы продолжаете свой план по превращению персонажа [target.GetShortUIName] в вампира"
 
  ek_transformation.2002.t:0 "Существо ночи"
@@ -520,9 +520,9 @@
  ek_transformation.2003.c:0 "[target.GetSheHe|U] должна отыскать собственный путь."
 
  ek_transformation.2004.t:1 "$convert_to_vampire$: Замкнутый разум, солнце в сердце"
- ek_transformation.2004.start.desc:0 "[target.GetFirstName] пробуждается ото сна, когда я влезаю в [target.GetHerHis] окно. "Кто там шастает?" требует ответа [target.GetSheHe] нетвёрдый голос.\n\n"Моё имя не имеет значения. Я здесь, чтобы предложить тебе самый ценный дар."\n\n"
+ ek_transformation.2004.start.desc:0 "[target.GetFirstName] пробуждается ото сна, когда я влезаю в [target.GetHerHis] окно. "Кто там шастает?" - требует ответа [target.GetHerHis] нетвёрдый голос.\n\n"Моё имя не имеет значения. Я здесь, чтобы предложить тебе самый ценный дар."\n\n"
  ek_transformation.2004.discovered.desc:0 "[target.GetFirstNameNoTooltip] прищуривается. "[ROOT.Char.GetFirstNameNoTooltip], это ты? Драгоценный дар? Что это за чушь?!"
- ek_transformation.2004.not_discovered.desc:0 "[target.GetFirstNameNoTooltip] вскакивает с кровати и тянется за чем-то, что лежит на [target.GetHerHis] прикроватной тумбочке. Это не к добру. "Я не хочу иметь ничего общего с тобой и твоей ложью! Прочь, мерзкая тварь!" [target.GetFirstNameNoTooltip] кричит, и я не подчиняюсь."
+ ek_transformation.2004.not_discovered.desc:0 "[target.GetFirstNameNoTooltip] вскакивает с кровати и тянется за чем-то, что лежит на [target.GetHerHis] прикроватной тумбочке. Это не к добру. [target.GetFirstNameNoTooltip] кричит "Я не хочу иметь ничего общего с тобой и твоей ложью! Прочь, мерзкая тварь!" - и я немедленно подчиняюсь."
  ek_transformation.2004.a:0 "[Select_CString(ROOT.Char.IsFemale, 'Ошиблась', 'Ошибся' )] дверью, извините!"
 
  ek_transformation.2005.end.desc:0 "[ROOT.Char.GetFirstNameNoTooltip], это ты? Драгоценный дар? [target.GetLiege.Custom2('MyCharacterIntroduction', target)|U] узнает про это!""
@@ -563,7 +563,7 @@
  ek_transformation.2101.end.desc:0 "\n\nТеперь я должен обратиться к н[target.GetHerHim] и открыто предложить стать единым со зверем внутри — или отказаться от этой затеи."
  ek_transformation.2101.a:0 "[target.GetSheHe|U] заслуживает возможности принять собственное решение."
  ek_transformation.2101.b1:0 "Риски слишком велики."
- ek_transformation.2101.b2:0 "[target.GetFirstNameNoTooltip] ещё не готов."
+ ek_transformation.2101.b2:0 "[target.GetFirstNameNoTooltip] ещё не [Select_CString(targetIsFemale, 'готова', 'готов' )]."
  ek_transformation.2101.a.tt:1 "Вы продолжаете свой план по превращению персонажа [target.GetShortUIName] в оборотня"
 
  ek_transformation.2102.t:0 "Существо ночи"
@@ -585,9 +585,9 @@
  ek_transformation.2103.c:0 "[target.GetSheHe|U] должна отыскать собственный путь."
 
  ek_transformation.2104.t:1 "$convert_to_lycan$: Сердце добычи"
- ek_transformation.2104.start.desc:0 "[target.GetFirstName] пробуждается ото сна, когда я влезаю в [target.GetHerHis] окно. "Кто там шастает?" требует ответа [target.GetSheHe] нетвёрдый голос.\n\n"Моё имя не имеет значения. Я здесь, чтобы предложить тебе самый ценный дар."\n\n"
+ ek_transformation.2104.start.desc:0 "[target.GetFirstName] пробуждается ото сна, когда я влезаю в [target.GetHerHis] окно. "Кто там шастает?" - требует ответа [target.GetHerHis] нетвёрдый голос.\n\n"Моё имя не имеет значения. Я здесь, чтобы предложить тебе самый ценный дар."\n\n"
  ek_transformation.2104.discovered.desc:0 "[target.GetFirstNameNoTooltip] прищуривается. "[ROOT.Char.GetFirstNameNoTooltip], это ты? Драгоценный дар? Что это за чушь?!"
- ek_transformation.2104.not_discovered.desc:0 "[target.GetFirstNameNoTooltip] вскакивает с кровати и тянется за чем-то, что лежит на [target.GetHerHis] прикроватной тумбочке. Это не к добру. "Я не хочу иметь ничего общего с тобой и твоей ложью! Прочь, мерзкая тварь!" [target.GetFirstNameNoTooltip] кричит, и я не подчиняюсь."
+ ek_transformation.2104.not_discovered.desc:0 "[target.GetFirstNameNoTooltip] вскакивает с кровати и тянется за чем-то, что лежит на [target.GetHerHis] прикроватной тумбочке. Это не к добру. [target.GetFirstNameNoTooltip] кричит "Я не хочу иметь ничего общего с тобой и твоей ложью! Прочь, мерзкая тварь!" - и я немедленно подчиняюсь."
  ek_transformation.2104.a:0 "[Select_CString(ROOT.Char.IsFemale, 'Ошиблась', 'Ошибся' )] дверью, извините!"
 
  ek_transformation.2105.end.desc:0 "[ROOT.Char.GetFirstNameNoTooltip], это ты? Драгоценный дар? [target.GetLiege.Custom2('MyCharacterIntroduction', target)|U] узнает про это!""
