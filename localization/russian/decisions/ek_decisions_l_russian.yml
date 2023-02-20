@@ -195,7 +195,7 @@
 
  recruit_priest_liturgical_language_decision_tsaesci:0 "EK WIP PH"
  
- learn_liturgical_language_decision:0 "Выучить [ROOT.Char.Custom('GetLiturgicalLanguage')]"
+ learn_liturgical_language_decision:0 "Выучить [ROOT.Char.Custom('GetLiturgicalLanguage')] язык"
  learn_liturgical_language_decision_desc:0 "Хотя [ROOT.Char.Custom('GetLiturgicalLanguage')] традиционно был предназначен только для нашего духовенства, известно, что немногие, кто владеет им, считаются благочестивыми и законными правителями. Возможно, будет разумно потратить время и силы на изучение этого языка."
  learn_liturgical_language_decision_confirm:0 "Я освою [ROOT.Char.Custom('GetLiturgicalLanguage')] в совершенстве!"
  learn_liturgical_language_decision_tooltip:0 "Начнёт [scheme|El], которые позволят вам овладеть [Concept( 'liturgical_language', 'литургическим языком' )|E] вашей [Concept( 'faith', 'конфессии' )|E]"
