@@ -144,9 +144,9 @@
  committee_republic_female:0 "Председательница"
  committee_republic:0 "Комитет развития"
 
- imperial_city_protector_male:0 "[CHARACTER.Custom('Протектор')]"
- imperial_city_protector_female:0 "[CHARACTER.Custom('Протектор')]"
- imperial_city_protectorate:0 "[CHARACTER.Custom('Протекторат')]"
+ imperial_city_protector_male:0 "[CHARACTER.Custom('Protector')]"
+ imperial_city_protector_female:0 "[CHARACTER.Custom('Protector')]"
+ imperial_city_protectorate:0 "[CHARACTER.Custom('Protectorate')]"
 
  imperial_battlemage_female:0 "[CHARACTER.Custom('Battlemage')]"
  imperial_battlemage_male:0 "[CHARACTER.Custom('Battlemage')]"
