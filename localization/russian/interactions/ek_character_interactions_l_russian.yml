@@ -4,8 +4,10 @@
  beastfolk_alliance_interaction:0 "Предложение о заключении внебрачного союза"
  beastfolk_alliance_interaction_desc:0 "Хотя наши народы не могут быть объединены браком, мы можем предложить прагматичный союз с [recipient.GetTitledFirstNameNoTooltip]."
  BEASTFOLK_NEGOTIATE_ALLIANCE_NOTIFICATION:0 "Несмотря на разницу в наших расах, из-за которой мы не можем создавать узы через брак, я считаю, что мы оба выиграем от союза. Я предлагаю объединить наши силы и сражаться с нашими врагами вместе!"
- ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK:0 "Вы можете предложить один внебрачный [alliance|E]"
- NOT_ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK:0 "У вас уже есть предлагаемый внебрачный [alliance|E]"
+ ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK:0 "У вас может быть один внебрачный [alliance|E]"
+ NOT_ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK:0 "У вас уже есть один внебрачный [alliance|E]"
+ ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK_TARGET:0 "Цель может иметь один внебрачный [alliance|E]"
+ NOT_ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK_TARGET:0 "Цель уже имеет один внебрачный [alliance|E]"
 
 #breakdown of purity factors for disinherit/denounce - if the breakdown is made visible
  purity_virtue_desc:0 "[Concept('virtuous', 'Добродетельные')|E] черты"

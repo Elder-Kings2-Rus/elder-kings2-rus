@@ -1,0 +1,6 @@
+﻿#EK EDIT: clarified interaction with dynamic holy sites
+
+l_russian:
+
+ HOLY_SITE_BUILDING_ENABLED:1 "[faith|E] владельца этого владения считает это место [Concept('holy_site', 'священным')|E]. Вы можете основать [Concept('holy_site', 'священное место')|E] используя [decision|El] #V Основать новое священное место в столице#!"
+ NOT_HOLY_SITE_BUILDING_ENABLED:1 "[faith|E] владельца этого владения должна считать это место [Concept('holy_site', 'священным')|E]. Вы можете основать [Concept('holy_site', 'священное место')|E] используя [decision|El] #V Основать новое священное место в столице#!"

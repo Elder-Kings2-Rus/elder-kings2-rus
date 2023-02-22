@@ -6,6 +6,7 @@
  form_reach_empire_effect_de_jure_tt:0 "Королевства в различных регионах Предела станут де-юре вассалами Империи Предела"
  form_reach_empire_effect_de_jure_tt_a:0 "Если следующие [Concept( 'kingdoms', 'королевства' )|E] удерживаются, они станут [de_jure|El] частью титула [reach_empire.GetNameNoTier]:\n[wrothgar.GetNameNoTier], [falkreath.GetNameNoTier], [solitude.GetNameNoTier]"
  form_reach_empire_effect_de_jure_tt_b:0 "Все [Concept( 'duchies', 'герцогства' )|E] в различных регионах Предела станут [de_jure|El] частью титула [reach_empire.GetNameNoTier], или останутся частью их нынешнего [Concept( 'kingdoms', 'королевства' )|E], если вы обладаете этим титулом"
+ unlock_witch_knight:0 "[men_at_arms|E] - [GetMaA('witch_knight').GetName] становятся доступны для вашей [Concept( 'culture', 'культуры' )|E]"
  
  turn_reach_nord_hold_decision:0 "Сделать Предел нордскими землями"
  turn_reach_nord_hold_decision_desc:0 "Обширные земли Предела слишком долго находились в руках колдунов и дикарей. Если мы хотим, чтобы Скайрим процветал и стал могущественной провинцией, мы должны взять под контроль земли вокруг реки Карт и сделать так, чтобы наши люди могли там селиться."
@@ -29,6 +30,7 @@
  western_skyrim_march_east_decision_confirm:0 "За Скайрим!"
  western_skyrim_march_east_decision.claim_eastern_skyrim.tt:0 "Если вы заявите свои претензии на титул Восточный Скайрим с помощью войны, вы будете коронованы верховным королём Скайрима."
  western_skyrim_march_east_decision.no_eastern_skyrim.tt:0 "В случае, если никто не претендует на восточную часть Скайрима, вы сможете использовать [casus_belli|El] на эти земли, но по повышенной цене."
+ western_skyrim_march_east_decision_requirements:0 "Вы [Concept( 'completely_control', 'полностью контролируете' )|E] весь Западный Скайрим"
  
  eastern_skyrim_march_west_decision:0 "Приготовиться к походу на запад"
  eastern_skyrim_march_west_decision_desc:0 "Слишком долго Скайрим был разделён. Наши позиции в старых ярлствах сильны, так что пришло время западу покориться, как это было ранее на протяжении веков."
@@ -37,6 +39,7 @@
  eastern_skyrim_march_west_decision_confirm:0 "За Скайрим!"
  eastern_skyrim_march_west_decision.claim_western_skyrim.tt:0 "Если вы заявите свои претензии на титул Западный Скайрим с помощью войны, вы будете коронованы верховным королём Скайрима."
  eastern_skyrim_march_west_decision.no_western_skyrim.tt:0 "В случае, если никто не претендует на западную часть Скайрима, вы сможете использовать [casus_belli|El] на эти земли, но по повышенной цене."
+ eastern_skyrim_march_west_decision_requirements:0 "Вы [Concept( 'completely_control', 'полностью контролируете' )|E] весь Восточный Скайрим"
  
  solstheim_claim_coast_decision:0 "Пересечь Море Призраков"
  solstheim_claim_coast_decision_desc:0 "Солстхейм всегда считался странной и захолустной землёй для наших кузенов на материке. Но поскольку мы наконец-то объединились под одним знаменем, пришло время заявить свои права и на нашу часть Скайрима."

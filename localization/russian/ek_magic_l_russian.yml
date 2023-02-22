@@ -66,6 +66,7 @@
  #stress
  arcana_drunkard:0 "[GetTrait('drunkard').GetName(ROOT.Char)]"
  arcana_hashishiyah:0 "[GetTrait('hashishiyah').GetName(ROOT.Char)]"
+ arcana_skooma_drinker:0 "[GetTrait('skooma_drinker').GetName(ROOT.Char)]"
  arcana_reclusive:0 "[GetTrait('reclusive').GetName(ROOT.Char)]"
  arcana_irritable:0 "[GetTrait('irritable').GetName(ROOT.Char)]"
  arcana_journaller:0 "[GetTrait('journaller').GetName(ROOT.Char)]"
@@ -144,7 +145,7 @@
  ##  Upkeep  ##
  magicka_flat_ritual:0 "[ritual|E]: [GetModifier(Concatenate('modifier_ritual_', Scope.GetFlagName)).GetNameWithTooltip]"
 
- MAGICKA_CURRENT:0 "[magicka|E]: [GetPlayer.MakeScope.Var('magicka').GetValue|V0]/[GetPlayer.MakeScope.ScriptValue('magicka_max')|V0]"
+ MAGICKA_CURRENT:0 "[magicka|E]: [Character.MakeScope.Var('magicka').GetValue|V0]/[GetPlayer.MakeScope.ScriptValue('magicka_max')|V0]"
  MAGICKA_GAIN:0 "Регенерация:"
  MAGICKA_LOSS:0 "Поддержание:"
  MAGICKA_CHANGE:0 "Итого:"

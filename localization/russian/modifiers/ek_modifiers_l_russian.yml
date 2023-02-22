@@ -17,6 +17,19 @@
  mages_maintenance_add:0 "Содержание [Concept('mages','магов')|E]"
  mages_maintenance_mult:0 "$mages_maintenance_add$"
 
+ spellblades_damage_add:1 "[spellblades|E] - [damage|E]"
+ spellblades_damage_mult:0 "$spellblades_damage_add$"
+ spellblades_pursuit_add:1 "[spellblades|E] - [pursuit|E]"
+ spellblades_pursuit_mult:0 "$spellblades_pursuit_add$"
+ spellblades_screen_add:1 "[spellblades|E] - [screen|E]"
+ spellblades_screen_mult:0 "$spellblades_screen_add$"
+ spellblades_toughness_add:1 "[spellblades|E] - [toughness|E]"
+ spellblades_toughness_mult:0 "$spellblades_toughness_add$"
+ spellblades_siege_value_add:1 "[spellblades|E] - [siege_progress|E]"
+ spellblades_siege_value_mult:0 "$spellblades_siege_value_add$"
+ spellblades_max_size_add:0 "Max Size of [spellblades|E] - [regiments|E]"
+ spellblades_maintenance_add:0 "[spellblades|E] - Содержание"
+ spellblades_maintenance_mult:0 "$spellblades_maintenance_add$"
  monthly_magic_lifestyle_xp_gain_mult:0 "Ежемесячный опыт за [lifestyle|El] «Магия»"
 
  ### Terrain
