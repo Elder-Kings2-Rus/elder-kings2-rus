@@ -211,6 +211,8 @@
  sanguine_deal_decision_confirm:0 "Я больше не могу, сжальтесь!"
  sanguine_deal_decision_effect_tt:0 "Князь Веселья слышит твои мольбы."
 
+ initiate_consolamentum_decision_age_tt:0 "Имеет [ek_age_modifier|El] равный #N 60 годам#! для обычных людей"
+
 # Artifacts
 
 crown_verity_decision:0 "Суждение Истинности"

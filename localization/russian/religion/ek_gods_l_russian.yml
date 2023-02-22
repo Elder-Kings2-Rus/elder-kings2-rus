@@ -340,6 +340,7 @@ god_padhome_name:0 "Падхоум"
 god_padhome_name_possessive:0 "Падхоума"
 god_amaranth_name:0 "Амарант"
 god_amaranth_possessive_name:0 "Амаранта"
+
  # Azura
  GET_RANDOM_AZURA_NAME:0 "[GetPlayer.Custom('GetBaseAzuraName')]"
  GET_RANDOM_CUSTOM_AZURA_NAME:0 "[GetPlayer.Custom('GetCustomAzuraName')]"
@@ -589,6 +590,7 @@ god_amaranth_possessive_name:0 "Амаранта"
   god_malacath_great_chief_name_possessive:0 "Великого вождя"
  god_malacath_first_orc_name:0 "Первый орк"
   god_malacath_first_orc_name_possessive:0 "Первого орка"
+
  # Mehrunes Dagon
  GET_RANDOM_MEHRUNES_NAME:0 "[GetPlayer.Custom('GetBaseMehrunesName')]"
  GET_RANDOM_CUSTOM_MEHRUNES_NAME:0 "[GetPlayer.Custom('GetCustomMehrunesName')]"
@@ -1087,6 +1089,7 @@ god_amaranth_possessive_name:0 "Амаранта"
  #Order of the New Moon
  god_laatvulon_name:0 "Латвулон"
   god_laatvulon_name_possessive:0 "Латвулона"
+
  #Argonian
  god_hist_name:0 "Дерево хист"
 	god_hist_name_possessive:0 "Дерева хист"
@@ -1102,12 +1105,14 @@ god_amaranth_possessive_name:0 "Амаранта"
   god_songsleeve_name_possessive:0 "Песенного Рукава"  #нужна помощь лороведов, заглушка
  songsleeve_name:0 "Песенный Рукав"  #нужна помощь лороведов, заглушка
  silence_name:0 "Тишина"
+
  #Sithis
  god_sithis_name:0 "Ситис"
 	god_sithis_name_possessive: "Ситиса"
  god_ghost_snake_name:0 "Призрачный Змей"
 	god_ghost_snake_name_possessive: "Призрачного Змея"
  void_name:0 "Пустота"
+  void_name_possessive:0 "Пустоты"
  god_seth_name:0 "Сет"
   god_seth_name_possessive:0 "Сета"
  
@@ -1166,6 +1171,7 @@ god_amaranth_possessive_name:0 "Амаранта"
   god_kynrt_name_possessive:0 "КИНРТ"
  god_dwemermundus_name:0 "МУНДУС"
   god_dwemermundus_name_possessive:0 "МУНДУСа"
+
  #Wyrd
  wyrddevil_name:0 "Тьма"
  wyrdhigh_god_name_alternate:0 "Повелитель Охоты"
@@ -1174,6 +1180,7 @@ god_amaranth_possessive_name:0 "Амаранта"
   god_earthbones_name_possessive:0 "Костей Мира"
  god_guardians_name:0 "Хранители"
   god_guardians_name_possessive:0 "Хранителей"
+
 
 
  god_thegods_name:0 "Боги"

@@ -1268,6 +1268,7 @@ rule_epithet_frequency:0 "Эпитеты"
  nick_the_historian:0 "Историк"
  nick_the_addanc:0 "Афанк"
  nick_the_gargoyle:0 "Гаргулья"
+ nick_the_garrulous:0 "[Select_CString(CHARACTER.IsFemale, 'Болтливая', 'Болтливый')]"
 
 ###################################### Deleted ###########################################
  nick_the_african:0 "Африканец"

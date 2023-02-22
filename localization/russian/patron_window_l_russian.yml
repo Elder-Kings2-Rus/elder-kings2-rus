@@ -6,7 +6,7 @@
  #patron_commune_tt:0 "Commune with [GetPlayer.Custom('GetPatronName')]"
  #patron_commune_tt:0 "Commune with [Localize(Concatenate(Concatenate('patron_', GetVariableSystem.Get('active_patron')), '_name'))]"
  patron_commune_tt:0 "Общаться с [Localize(Concatenate(Concatenate('patron', ValueBreakdown.GetName), '_name'))]" #?
- NO_PATRONS:0 "Эта [Concept('faith', 'конфессия')|E] не имеет ни одного [Concept('patron_deity', 'божества-покровителя')|E].\nКонфессии получают покровителей только в том случае, если у них есть [doctrine|El] [GetFaithDoctrine('doctrine_main_pantheon_type_polytheism').GetBaseName], или если у них есть второстепенный пантеон.\n\nЭта конфессия, напротив, имеет доктрину [GetFaithDoctrine('doctrine_main_pantheon_type_monolatrism').GetBaseName] или [GetFaithDoctrine('doctrine_main_pantheon_type_daedric_prince').GetBaseName], и её последователи поклоняются аспекту своего божества."
+ NO_PATRONS:0 "Эта [Concept('faith', 'конфессия')|E] не имеет никаких [Concept('patron_deities', 'божеств-покровителей')|E].\nКонфессии получают покровителей только в том случае, если у них есть [doctrine|El] [GetFaithDoctrine('doctrine_main_pantheon_type_polytheism').GetBaseName] или [GetFaithDoctrine('doctrine_main_pantheon_type_daedric_prince').GetBaseName], или если у них есть второстепенный пантеон.\n\nЭта конфессия, напротив, имеет доктрину [GetFaithDoctrine('doctrine_main_pantheon_type_monolatrism').GetBaseName] или её последователи поклоняются аспекту своего божества."
  PATRON_MINOR_BOONS:0 "Малые бонусы"
  PATRON_OFFERINGS:0 "Подношения"
  PATRON_MAJOR_BOONS:0 "Значительные бонусы"
@@ -151,8 +151,6 @@
  patron_vaermina_long_desc:0 "[GetPlayer.Custom('GetObVaerminaDesc')]"
  patron_vaermina_summary:0 "Статус: [GetPlayer.Custom('GetPatronStatus_vaermina')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_vaermina')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_vaermina').GetValue|+0]"
  desc_vaermina:0 "Даэдрический принц Снов, Вермина правит Трясиной в Обливионе. Обычно её изображают в виде пожилой женщины с посохом, иногда в сопровождении змеи. Её последователи часто являются алхимиками, их самое известное снадобье - Апатия Вермины."
-
- #long_desc direct from uesp as placeholder, should be changed
 
  desc_akatosh:0 "Главный среди богов, обладающий властью над течением времени. Связан с драконами и такими качествами, как выносливость и добродетельность."
  desc_alduin:0 "Алдуин, Пожиратель Миров - перворожденный среди драконов, которому поклоняются как разрушителю, обновителю, а иногда и законному хозяину мира. Известен также как Сумеречный Бог за свою власть над концом и началом времени."
