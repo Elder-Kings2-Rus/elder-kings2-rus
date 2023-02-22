@@ -131,8 +131,8 @@
  birth.2102.a:0 "И что мне с этим делать?"
 
  birth.2104.t:0 "Чужой ребенок"
- birth.2104.desc:0 "Мой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], и [mother.GetTitledFirstName] зачали ребенка. Теперь [mother.GetFirstName] нянчится с выродком, отец которого — [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))]."
- birth.2104.desc.twin:0 "Мой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], и [mother.GetTitledFirstName] зачали детей. Теперь [mother.GetFirstName] нянчится с выродками, отец которых — [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))]."
+ birth.2104.desc:0 "Мой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], и [mother.GetTitledFirstName] зачали ребенка. Теперь [mother.GetFirstName] нянчится с бастардом, отец которого — [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))]."
+ birth.2104.desc.twin:0 "Мой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], и [mother.GetTitledFirstName] зачали детей. Теперь [mother.GetFirstName] нянчится с бастардами, отец которых — [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))]."
  birth.2104.a:0 "И что мне с этим делать?"
 
  every_child_adult_non_bastard:0 "Все мои законные взрослые дети"
