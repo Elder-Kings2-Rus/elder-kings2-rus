@@ -511,7 +511,7 @@
  ek_transformation.2002.c:0 "Мир узнает о твоём грехе, [owner.GetFirstNameNoTooltip]!"
 
  ek_transformation.2003.t:1 "$convert_to_vampire$: Наконец-то не спишь"
- ek_transformation.2003.desc:0 "Я наблюдаю за спящим персонажем по имени [target.GetFirstName], пока обдумываю предложение, которое собираюсь сделать. Пока я рассматриваю все возможности, [target.GetSheHe] шевелится, как будто [target.GetHerHis] подсознание ждёт этого момента.\n\nКогда я выхожу из тени и предлагаю персонажу [target.GetFirstNameNoTooltip] моё благословение, в [target.GetHerHis] глазах нет ни страха, ни колебаний. Нет, принятие предложения персонажем [target.GetHerHis] искреннее и даже слегка голодное."
+ ek_transformation.2003.desc:0 "[target.GetFirstName] спит, а я обдумываю предложение, которое собираюсь сделать. Пока я рассматриваю все возможности, [target.GetSheHe] шевелится, как будто [target.GetHerHis] подсознание ждёт этого момента.\n\nКогда я выхожу из тени и предлагаю [target.GetHerHim] моё благословение, в [target.GetHerHis] глазах нет ни страха, ни колебаний. Нет, [target.GetHerHis] принятие моего предложения искреннее и даже желанное."
 
  ek_transformation.2003.a:0 "Наконец-то не спишь, [target.Custom('SisterBrother')|U]."
  ek_transformation.2003.b:0 "Теперь я наконец-то могу показать [target.GetHerHim] своё истинное "я"."
@@ -576,7 +576,7 @@
  ek_transformation.2102.c:0 "Мир узнает о твоём грехе, [owner.GetFirstNameNoTooltip]!"
 
  ek_transformation.2103.t:1 "$convert_to_lycan$: Наконец-то не спишь"
- ek_transformation.2103.desc:0 "Я наблюдаю за спящим персонажем по имени [target.GetFirstName], пока обдумываю предложение, которое собираюсь сделать. Пока я рассматриваю все возможности, [target.GetSheHe] шевелится, как будто [target.GetHerHis] подсознание ждёт этого момента.\n\nКогда я выхожу из тени и предлагаю персонажу [target.GetFirstNameNoTooltip] благословение Хирсина, в [target.GetHerHis] глазах нет ни страха, ни колебаний. Нет, принятие предложения персонажем [target.GetHerHis] искреннее и даже слегка голодное."
+ ek_transformation.2103.desc:0 "[target.GetFirstName] спит, а я обдумываю предложение, которое собираюсь сделать. Пока я рассматриваю все возможности, [target.GetSheHe] шевелится, как будто [target.GetHerHis] подсознание ждёт этого момента.\n\nКогда я выхожу из тени и предлагаю [target.GetHerHim] благословение Хирсина, в [target.GetHerHis] глазах нет ни страха, ни колебаний. Нет, [target.GetHerHis] принятие моего предложения искреннее и даже желанное."
 
  ek_transformation.2103.a:0 "Наконец-то не спишь, [target.Custom('SisterBrother')|U]."
  ek_transformation.2103.b:0 "Теперь я наконец-то могу показать [target.GetHerHim] своё истинное "я"."
