@@ -145,7 +145,7 @@
  ##  Upkeep  ##
  magicka_flat_ritual:0 "[ritual|E]: [GetModifier(Concatenate('modifier_ritual_', Scope.GetFlagName)).GetNameWithTooltip]"
 
- MAGICKA_CURRENT:0 "[magicka|E]: [Character.MakeScope.Var('magicka').GetValue|V0]/[GetPlayer.MakeScope.ScriptValue('magicka_max')|V0]"
+ MAGICKA_CURRENT:0 "[magicka|E]: [Character.MakeScope.Var('magicka').GetValue|V0]/[Character.MakeScope.ScriptValue('magicka_max')|V0]"
  MAGICKA_GAIN:0 "Регенерация:"
  MAGICKA_LOSS:0 "Поддержание:"
  MAGICKA_CHANGE:0 "Итого:"
