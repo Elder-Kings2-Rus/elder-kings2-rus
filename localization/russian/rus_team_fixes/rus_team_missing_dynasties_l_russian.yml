@@ -1409,6 +1409,11 @@
  dynn_Kaushadassa:0 "Каушадасса"
  dynn_Pardus:0 "Пардус"
  dynn_StrongStalhrim:0 "Крепкий Сталгрим"
+ dynn_oar-hewer:0 "Гребец"
+ dynn_eel_eared:0 "Угреухий" # Scorg. Проблема с регистром ключа. 
+ dynn_elf_speaker:0 "Эльфоуст" # Scorg. Проблема с регистром ключа. 
+ dynn_embervein:0 "Тлеющие Жилы" # Scorg. Проблема с регистром ключа. 
+ dynn_broadwall:0 "Широкая Стена" # Scorg. Проблема с регистром ключа. 
  Dzrebnanch:0 "Дзребнанч"
  Dzrenruz:0 "Дзренруз"
  Eagothrin:0 "Еаготхрин"
@@ -1482,7 +1487,7 @@
  Elzaw:0 "Элзав"
  El_Zipak_Khum:0 "Ел-Зипак-Кхум"
  Emah-Ral:0 "Имах-Рал"
- Embervein:0 "Эмбервейн"
+ Embervein:0 "Тлеющие Жилы"
  Emul-Ran:0 "Имул-Ран"
  Enatar:0 "Энатар"
  Ence:0 "Энце"

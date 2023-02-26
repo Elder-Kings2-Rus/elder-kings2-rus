@@ -110,6 +110,7 @@
  culture_parameter_can_appoint_court_speaker:0 "Доступна [Concept('court_position', 'придворная должность')|E] [GetCourtPositionType('speaker_court_position').GetName()] "
  court_position_tradition_gardening:0 "$tradition_life_menders_name$ [culture_tradition|El]"
  culture_parameter_characters_are_better_court_gardeners:0 "[characters|E] этой [Concept('culture', 'культуры')|E] лучше работают при назначении на [court_position|El] #high $court_gardener_court_position$#!"
+ culture_parameter_allows_jesters_tradition:0 "Доступна [Concept( 'court_position', 'придворная должность' )|E] [GetCourtPositionType('court_jester_court_position').GetName()]"
 
 ##LAW PARAMETERS
  culture_parameter_moot_elective_enabled:0 "Может принять [succession_law|El] #high $moot_elective_succession_law$#!"
@@ -442,6 +443,7 @@
  tradition_goblinken_trigger_desc:0 "$Goblinken$ [heritage|E]"
  tradition_chimeri_trigger_desc:0 "$Chimeri$ [heritage|E]"
  tradition_hereditary_hierarchy_trigger_desc:0 "Не имеет [Concept('tradition', 'традиции')|E] [GetCultureTradition('tradition_ceremoniarchy').GetName|V]"
+ has_feudal_like_government_trigger_desc:0 "Не [GetGovernment('tribal_government').GetName]"
 
  tradition_roman_legacy_trigger_desc:0 "Является либо выходцем из $colovian$, $nibenese$ или $heartlander$ [Concept('culture', 'культуры')|E], происходящим от кого-либо из предыдущих, либо имеет империи Тамриэля или Сиродила в качестве основного титула."
  

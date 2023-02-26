@@ -634,3 +634,6 @@
  ek_wild_magic_event.0001.option3:0 "Очень хорошо."
  ek_wild_magic_event.0001.option4:0 "Мои силы растут."
  ek_wild_magic_event.0001.option5:0 "Я чувствую невероятную мощь!"
+ 
+ inspired_courtier_inspiration:0 "[inspired_courtier.GetShortUIName] начнёт испытывать [inspiration|El]!"
+ adventurer_inspiration:0 "[adventurer.GetShortUIName] начнёт испытывать [inspiration|El]!"
