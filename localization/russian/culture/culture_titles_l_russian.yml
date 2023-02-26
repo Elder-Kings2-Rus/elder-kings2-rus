@@ -920,16 +920,16 @@ duke_feudal_female_nedic:0 "Верховная предводительница"
 duchy_feudal_nedic:0 "Верховное вождество"
 
 #Argonian Group
-baron_feudal_male_argonian:0 "Риил-ка"
-baron_feudal_female_argonian:0 "Риил-на"
-barony_feudal_argonian:0 "Риил-уксит"
+baron_feudal_male_argonian:0 "Рил-ка"
+baron_feudal_female_argonian:0 "Рил-на"
+barony_feudal_argonian:0 "Рил-Уксит"
 
 count_feudal_male_argonian:0 "Каал"
 count_feudal_female_argonian:0 "Насса"
 county_feudal_argonian:0 "Лиил"
 
-duke_feudal_male_argonian:0 "Раж-каал"
-duke_feudal_female_argonian:0 "Раж-насса"
+duke_feudal_male_argonian:0 "Радж-каал"
+duke_feudal_female_argonian:0 "Радж-насса"
 duchy_feudal_argonian:0 "Аталиил"
 
 king_feudal_male_argonian:0 "Король"
@@ -952,8 +952,8 @@ duke_republic_male_argonian:0 "Радж-Нахиш"
 duke_republic_female_argonian:0 "Радж-Нахиш"
 duchy_republic_argonian:0 "Ататзел"
 
-baron_theocracy_male_hist_religion:0 "Смотрящий-за-деревьями"
-baron_theocracy_female_hist_religion:0 "Смотрящая-за-деревьями"
+baron_theocracy_male_hist_religion:0 "Древохранитель"
+baron_theocracy_female_hist_religion:0 "Древохранительница"
 barony_theocracy_hist_religion:0 "Священное дерево"
 
 count_theocracy_male_hist_religion:0 "Оберегающий-деревья"
@@ -966,15 +966,15 @@ duchy_theocracy_hist_religion:0 "Священный храм"
 
 baron_theocracy_male_xanmeer_religion:0 "Вох-вастей"
 baron_theocracy_female_xanmeer_religion:0 "Вох-вастей"
-barony_theocracy_xanmeer_religion:0 "Священный ксанмер"
+barony_theocracy_xanmeer_religion:0 "Священный занмир"
 
 count_theocracy_male_xanmeer_religion:0 "Вох-вастей"
 count_theocracy_female_xanmeer_religion:0 "Вох-вастей"
-county_theocracy_xanmeer_religion:0 "Священный ксанмер"
+county_theocracy_xanmeer_religion:0 "Священный занмир"
 
 duke_theocracy_male_xanmeer_religion:0 "Вох-вастей"
 duke_theocracy_female_xanmeer_religion:0 "Вох-вастей"
-duchy_theocracy_xanmeer_religion:0 "Священный ксанмер"
+duchy_theocracy_xanmeer_religion:0 "Священный занмир"
 
 count_theocracy_male_xanmeer_religion_independent:0 "Король-жрец"
 count_theocracy_female_xanmeer_religion_independent:0 "Королева-жрица"
