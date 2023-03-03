@@ -12,7 +12,7 @@
  extract_blood_price_effect_survival_release_tooltip:0 "Если [prisoner.GetFirstName] выживет, [prisoner.GetSheHe] будет освобожден из тюрьмы."
 
  ###Disrupt Arcana Interaction
- recently_disrupted:0 "Recently Disrupted"
+ recently_disrupted:0 "Недавно истощён"
  
  make_clan_parent_interaction:0 "Назначить родителем клана"
  make_clan_parent_interaction_desc:0 "За свою жизнь [recipient.GetFirstName] [Select_CString(recipient.IsFemale, 'повидала', 'повидал' )] многое на свете, и [recipient.GetHerHis] мудрость направляет нас..."
@@ -52,12 +52,12 @@
  prowess_claim_interaction:0 "Претендовать на землю через Доблесть"
  prowess_claim_interaction_desc:0 "[claim|E] на [title|El] которым владеет [recipient.GetShortUINameNoTooltip], используя то, что ваша [prowess|El] и [prestige|El] выше."
  
-  arcana_claim_interaction:0 "Claim Land via Arcana"
- arcana_claim_interaction_desc:0 "[claim|E] a [title|E] held by [recipient.GetShortUINameNoTooltip], using your superior [arcana|E] and [prestige|E]."
+  arcana_claim_interaction:0 "Претендовать на землю через Аркану"
+ arcana_claim_interaction_desc:0 "[claim|E] на [title|El] которым владеет [recipient.GetShortUINameNoTooltip], используя то, что ваша [arcana|E] и [prestige|E] выше."
 
 
- disrupt_arcana_interaction:0 "Disrupt"
- disrupt_arcana_interaction_desc:0 "Make [recipient.GetShortUINameNoTooltip]'s [arcana|E] Affinity closer to [GetTrait('arcana_bad_3').GetName( GetPlayer )]"
+ disrupt_arcana_interaction:0 "Разрыв"
+ disrupt_arcana_interaction_desc:0 "Приблизить сродство с [Concept( 'arcana', 'арканой' )|E] у [recipient.GetShortUINameNoTooltip] к [GetTrait('arcana_bad_3').GetName( GetPlayer )]"
 
  no_obligations:0 "Без обязательств"
  no_obligations_tt:0 "[feudal_contract|E] начнется с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_none' )]"
@@ -77,12 +77,12 @@
  cultural_religious_privilege:0 "Культурные и религиозные привилегии"
  CONTRACT_CULTURAL_RELIGIOUS_PRIVILEGE_REASON:0 "Культурные и религиозные привилегии: $VALUE|=+0$"
  cultural_protection_tt:0 "[feudal_contract|E] начнется с [GetVassalContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )]"
- great_house_vassalage_reason:0 "[recipient.GetHerHis|U] [culture|E] does not wish to be part of a Great House: $VALUE|+=0$"
- EDUCATE_ME_OPTION_TRAIN_ARCANA_EFFECT:1 "Я буду учиться искусству Магии и получу [trait|El]" #V Ученика Магии#!"
+ great_house_vassalage_reason:0 "[recipient.GetHerHis|U] [culture|El] не желает быть частью Великого Дома: $VALUE|+=0$"
+ EDUCATE_ME_OPTION_TRAIN_ARCANA_EFFECT:1 "Я буду учиться искусству Магии и получу [trait|El] #V Ученика Магии#!"
  EDUCATE_CHILD_OPTION_TRAIN_ARCANA_EFFECT:1 "Будет учиться искусству Магии и получит [trait|El] #V Ученика Магии#!"
 
- EDUCATE_ME_OPTION_TRAIN_ARCANA_LEARNING_FOCUS_EFFECT:1 "I am studying the [learning|E] Education and will receive a better #V Student of Magicka#! [trait|E]"
- EDUCATE_CHILD_OPTION_TRAIN_ARCANA_LEARNING_FOCUS_EFFECT:1 "Is studying the [learning|E] Education and will receive a better #V Student of Magicka#! [trait|E]"
+ EDUCATE_ME_OPTION_TRAIN_ARCANA_LEARNING_FOCUS_EFFECT:1 "Я получаю образование в [Concept('learning', 'учености')|E] и получу [trait|E] #V Ученика Магии#!"
+ EDUCATE_CHILD_OPTION_TRAIN_ARCANA_LEARNING_FOCUS_EFFECT:1 "Получает образование в [Concept('learning', 'учености')|E] и получит [trait|E] #V Ученика Магии#!"
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_1:0 "#N Не#! будет учиться искусству Магии.\nТак как у культуры ребенка есть [tradition|El] #V $tradition_sorcerer_kings_name$#! или его [dynasty|El] имеет [Concept( 'dynasty_perk', 'наследие' )|E] #V $magicka_legacy_3_name$#!, для него необходимо найти опекуна со [Concept( 'trait', 'свойством' )|E] #V $trait_education_magical_ability$#! или #V $trait_arcana_good$#!"
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_2:0 "#N Не#! будет учиться искусству Магии.\nТак как у культуры ребенка есть [innovation|El] #V $innovation_schools_of_magic$#!, для него необходимо найти опекуна со [Concept( 'trait', 'свойством' )|E] #V $trait_education_magical_ability$#! или #V $trait_arcana_good$#!"
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_3:0 "#N Не#! будет учиться искусству Магии.\nТак как у культуры ребенка есть [innovation|El] #V $innovation_magical_studies$#!, для него необходимо найти опекуна со [Concept( 'trait', 'свойством' )|E] #V $trait_arcana_good$#!"
@@ -92,18 +92,18 @@
  consume_interaction_desc:0 "Укусите персонажа [recipient.GetShortUINameNoTooltip] в попытке усилить [Concept( 'tsaescence', 'цаэсценцию' )|E]"
 
  skull_corruption_interaction:0 "Использовать Череп порчи"
- skull_corruption_desc:0 "Используйте Череп порчи на персонажа [recipient.GetShortUINameNoTooltip] чтобы заставить [recipient.GetHerHim] сражаться с дубликатом!"
+ skull_corruption_desc:0 "Используйте Череп порчи на персонажа [recipient.GetShortUINameNoTooltip] чтобы заставить [recipient.GetHerHim] сражаться с клоном!"
 
  skull_corrupted_message:0 "Череп порчи"
- skull_corrupted_effect:0 "Дубликат, которого отправил [actor.GetFirstNameNoTooltip], атакует персонажа [recipient.GetShortUINameNoTooltip]!"
+ skull_corrupted_effect:0 "Клон, которого отправил [actor.GetFirstNameNoTooltip], атакует персонажа [recipient.GetShortUINameNoTooltip]!"
 
  skull_corruptor_message:0 "Череп порчи"
- skull_corruptor_effect:0 "Дубликат атакует персонажа [recipient.GetShortUINameNoTooltip]!"
+ skull_corruptor_effect:0 "Клон атакует персонажа [recipient.GetShortUINameNoTooltip]!"
 
- clone_won:0 "Дубликат превосходит вас!"
- clone_won2:0 "Дубликат превосходит персонажа [recipient.GetShortUINameNoTooltip]!"
- clone_lost:0 "Дубликат повержен!"
- clone_lost2:0 "[recipient.GetShortUINameNoTooltip] победил Дубликат!"
+ clone_won:0 "Клон превосходит вас!"
+ clone_won2:0 "Клон превосходит персонажа [recipient.GetShortUINameNoTooltip]!"
+ clone_lost:0 "Клон повержен!"
+ clone_lost2:0 "[recipient.GetShortUINameNoTooltip] победил клона!"
 
  wabbajack_interaction:0 "Использовать Ваббаджек"
  wabbajack_desc:0 "Использовать Ваббаджек на персонажа [recipient.GetShortUINameNoTooltip] чтобы сделать [recipient.GetHerHim] более [Select_CString(recipient.IsFemale, 'интересной', 'интересным' )]!"
@@ -115,16 +115,16 @@
  wabbajack_goblinized:0 "[recipient.GetShortUINameNoTooltip] превратился в гоблина!"
  wabbajack_giantified:0 "[recipient.GetShortUINameNoTooltip] превратился в гиганта!"
 
- send_mage_to_wander:0 "Send Mage to Wander"
- send_mage_to_wander_interaction_desc:0 "[recipient.GetFirstName] has some innate magical abilities, but no practical education. Let them wander and practice their skills!"
- send_mage_to_wander_five_years_tt:0 "Send [recipient.GetShortUINameNoTooltip] to become a [wanderer|E] for 5 years to improve their [magic|E] abilities."
- send_mage_to_wander_return_title:0 "Wanderer Returns"
- send_mage_to_wander_return_desc:0 "[recipient.GetFullName] has returned to your court after wandering to improve their [magic|E] abilities."
- sent_to_wander_already:0 "This character has already been sent to wander once before"
+ send_mage_to_wander:0 "Отправить мага в странствие"
+ send_mage_to_wander_interaction_desc:0 "[recipient.GetFirstName] имеет некоторые врожденные магические способности, но не имеет практического образования. Позвольте [recipient.GetHerHim] отправиться практиковать свои навыки!"
+ send_mage_to_wander_five_years_tt:0 "Отправить [recipient.GetShortUINameNoTooltip] в странствие, [recipient.GetSheHe] станет [Concept( 'wanderer', 'скитальцем' )|E] в течении 5 лет и будет улучшать свои [Concept( 'magic', 'магические' )|E] способности."
+ send_mage_to_wander_return_title:0 "Скиталец возвращается"
+ send_mage_to_wander_return_desc:0 "[recipient.GetFullName] [Select_CString(recipient.IsFemale, 'вернулась', 'вернулся' )] к вашему двору после странствия для увеличения своих [Concept( 'magic', 'магических' )|E] способностей."
+ sent_to_wander_already:0 "Этого персонажа уже однажды отправляли странствовать"
 
- send_knight_to_wander:0 "Send Knight to Wander"
- send_knight_to_wander_interaction_desc:0 "[recipient.GetFirstName] is a young squire, but have yet to embark on a quest on their own. Let them wander and seek their fortune!"
- send_knight_to_wander_five_years_tt:0 "Send [recipient.GetShortUINameNoTooltip] to become a [wanderer|E] for 5 years to seek fame and improve their [martial|E] abilities."
- send_knight_to_wander_return_title:0 "Wanderer Returns"
- send_knight_to_wander_return_desc:0 "[recipient.GetFullName] has returned to your court after wandering to seek fame and improve their [martial|E] abilities."
- innovation_knightly_orders_wander:0 "Young courtiers of this [culture|E] with a Students of Knighthood [trait|E] can be sent to become [wanderers|E] to seek glory and improve their skills."
+ send_knight_to_wander:0 "Отправить рыцаря в странствие"
+ send_knight_to_wander_interaction_desc:0 "[recipient.GetFirstName] является молодым оруженосцем, но многое ещё стоит познать самостоятельно. Позвольте [recipient.GetHerHim] отправиться изучать мир в поисках удачи!"
+ send_knight_to_wander_five_years_tt:0 "Отправить [recipient.GetShortUINameNoTooltip] в странствие, [recipient.GetSheHe] станет [Concept( 'wanderer', 'скитальцем' )|E] в течении 5 лет и будет улучшать свои [Concept( 'martial', 'военные' )|E] способности."
+ send_knight_to_wander_return_title:0 "Скиталец возвращается"
+ send_knight_to_wander_return_desc:0 "[recipient.GetFullName] [Select_CString(recipient.IsFemale, 'вернулась', 'вернулся' )] к вашему двору после странствия для увеличения своих [Concept( 'martial', 'военных' )|E] способностей."
+ innovation_knightly_orders_wander:0 "Молодых придворных той же культуры [Concept( 'culture', 'культуры' )|E] со [Concept( 'trait', 'свойством' )|E] Ученика Рыцарства можно отправить в странствие, они временно станут [Concept( 'wanderers', 'скитальцами' )|E] в поисках славы и улучшения своих навыков."

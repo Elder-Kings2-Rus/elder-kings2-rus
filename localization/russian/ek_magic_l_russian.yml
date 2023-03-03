@@ -132,10 +132,10 @@
  arcana_magical_court_2:0 "[GetTrait('magical_court_2').GetName(ROOT.Char)]"
  # Traditions
  arcana_prescriptivism:0 "[GetCultureTradition('tradition_prescriptivism').GetName]"
- arcana_wild_magic_weak:0 "Дикая магия - Слабость"
- arcana_wild_magic_bad:0 "Дикая магия - Угасание"
- arcana_wild_magic_good:0 "Дикая магия - Рост"
- arcana_wild_magic_powerful:0 "Дикая магия - Мощь"
+ arcana_wild_magic_weak:0 "Дикая магия - Слабая"
+ arcana_wild_magic_bad:0 "Дикая магия - Ослабленная"
+ arcana_wild_magic_good:0 "Дикая магия - Прибывающая"
+ arcana_wild_magic_powerful:0 "Дикая магия - Мощная"
 
  ##  Magicka  ##
  ##  Flat  ##
@@ -541,7 +541,7 @@ absorb_skill_perk_name: "Ослабить навык"
  redacted_1_name:0 "REDACTED"
  redacted_2_name:0 "VERY REDACTED"
  life_extension_stage_1:0 "Исследование"
- life_extension_stage_1_desc:0 "Используйте знания тех, кто пришел раньше, для своих целей"
+ life_extension_stage_1_desc:0 "Используйте знания тех, кто пришёл раньше, для своих целей"
  life_extension_stage_2:0 "Эксперимент"
  life_extension_stage_2_desc:0 "Секреты жизни нельзя почерпнуть, читая в одиночку"
  life_extension_stage_3:0 "Приобретение материалов"

@@ -7,7 +7,7 @@
  fp2_flavor.0001.b:0 "Конечно же [rice_propagator.GetSheHe] с удовольствием расскажет все другу?"
  fp2_flavor.0001.c:0 "Секрет будет моим... отправьте агента."
  fp2_flavor.0001.d:0 "Забудь, я не буду иметь дело с [rice_propagator.Custom('InsultAdjective')] [rice_propagator.Custom('InsultNoun')]."
- fp2_flavor.0001.b.success:0 "Вы успешно убеждаете [rice_propagator.GetHerHim]"
+ fp2_flavor.0001.b.success:0 "Вы успешно убеждаете [rice_propagator.GetHerHis]"
  fp2_flavor.0001.b.failure:0 "[rice_propagator.GetFirstNameNoTooltip] оскорбляется"
  fp2_flavor.0001.c.success:0 "Ваш агент крадет секрет"
  fp2_flavor.0001.c.failure:0 "[rice_propagator.GetFirstNameNoTooltip] в ярости"
