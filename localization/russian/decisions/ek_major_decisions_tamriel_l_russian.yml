@@ -13,7 +13,7 @@
  
  ### Attrebus/Interregnum decisions
  attrebus_interregnum_decision:0 "Междуцарствие?"
- attrebus_interregnum_decision_desc:0 "Потентат пал, и Совет Старейшин согласился предоставить вам чрезвычайные полномочия, дабы разобраться с потенциальным политическим кризисом.\n\nВам придется действовать быстро, так как терпение верховного канцлера не бесконечно..."
+ attrebus_interregnum_decision_desc:0 "Потентат пал, и Совет Старейшин согласился предоставить вам чрезвычайные полномочия, дабы разобраться с потенциальным политическим кризисом.\n\nВам придётся действовать быстро, так как терпение верховного канцлера не бесконечно..."
  attrebus_interregnum_decision_tooltip:0 "Что новая эпоха принесёт Сиродилу?"
  attrebus_interregnum_decision_confirm:0 "Созвать Совет Старейшин!"
  attrebus_interregnum_decision_required_tasks_tt:0 "Вы выполнили #R [THIS.Var('attrebus_required_tasks_complete').GetValue|0]#! из 3 требуемых для умиротворения Совета Старейшин [Concept( 'required_tasks', 'задач' )|E]. У вас есть #R [THIS.Var('attrebus_years_pseudo_emperor_left').GetValue|0] лет#!, прежде чем терпение Совета Старейшин закончится."

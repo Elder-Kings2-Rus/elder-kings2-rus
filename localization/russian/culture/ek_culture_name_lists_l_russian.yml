@@ -16,7 +16,7 @@
  name_list_hapsleet:0 "Хапслитские"
  #ek_atmoran
  name_list_nord:0 "Нордские"
- name_list_cyro_nord:0 "Сиро-Нордские"
+ name_list_cyro_nord:0 "Сиро-нордские"
  name_list_atmoran:0 "Атморские"
  name_list_skaal:0 "Скаальские"
  #ek_ayleid
@@ -25,11 +25,11 @@
  name_list_bosmer:0 "Босмерские"
  #ek_breton
  name_list_glenumbran:0 "Гленумбрийские"
- name_list_northmen:0 "Северянские"
+ name_list_northmen:0 "Северо-бретонские"
  name_list_iliac:0 "Илиакские"
  name_list_wrothgarian:0 "Ротгарианские"
  #ek_chimeri
- name_list_chimer:0 "Каймерские"
+ name_list_chimer:0 "Кимерские"
  name_list_cantemiric:0 "Кантемирские"
  #ek_cyrodiilic
  name_list_colovian:0 "Коловианские"
@@ -45,12 +45,12 @@
  #ek_dwemeri
  name_list_dwemer:0 "Двемерские"
  #ek_falmeri
- name_list_falmer:0 "Фалмерские"
- name_list_falmer_betrayed:0 "Преданнические"
+ name_list_falmer:0 "Снежно-эльфийские"
+ name_list_falmer_betrayed:0 "Фалмерские"
  #ek_goblinken
  name_list_goblin:0 "Гоблинские"
  name_list_riekling:0 "Риклингские"
- name_list_riekr:0 "Риекрские"
+ name_list_riekr:0 "Рикрские"
  #ek_khajiiti
  name_list_pellitinian:0 "Пеллитинские"
  name_list_anequinan:0 "Анеквинские"
@@ -59,17 +59,17 @@
  #ek_lilmothiit
  name_list_lilmothiit:0 "Лилмотитские"
  #ek_misc
- name_list_placeholder:0 "Плейсхолдер?"
+ name_list_placeholder:0 "Заглушка?"
  #ek_nedic_central
  name_list_perena:0 "Перенские"
  name_list_gemha:0 "Гемхские"
  #ek_nedic_north
  name_list_reachfolk:0 "Ричменские"
  #name_list_galen:0 "Galen"
- name_list_galen:0 "Северонедские"
+ name_list_galen:0 "Северно-недийские"
  name_list_duraki:0 "Доракийские"
  #ek_nedic_south
- name_list_nede:0 "Недские"
+ name_list_nede:0 "Недийские"
  name_list_yespest:0 "Йеспестские"
  name_list_kothringi:0 "Котрингийские"
  name_list_horwalli:0 "Хорваллийские"

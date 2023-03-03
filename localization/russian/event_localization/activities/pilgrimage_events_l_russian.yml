@@ -24,7 +24,7 @@
 
  pilgrimage.0001.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] - Паломничество"
  pilgrimage.0001.desc:0 "Пора отправиться в путешествие к одной из святынь. Но к какой?"
- pilgrimage.0001.a:0 "[holy_site_1.GetNameNoTierNoTooltip]! [ROOT.Char.GetFaith.PriestNeuterPlural] будут довольны."
+ pilgrimage.0001.a:0 "[holy_site_1.GetNameNoTierNoTooltip]! [ROOT.Char.GetFaith.PriestNeuterPlural|U] будут довольны."
  pilgrimage.0001.b:0 "[holy_site_2.GetNameNoTierNoTooltip]! Я посещу [ROOT.Char.GetFaith.HouseOfWorship|l]."
  pilgrimage.0001.c:0 "[holy_site_3.GetNameNoTierNoTooltip]! Как и должен сделать каждый [ROOT.Char.GetFaith.GetAdherentNameNoTooltip|l]."
  pilgrimage.0001.d:0 "Может, куда-то ещё..."
@@ -75,12 +75,12 @@
  pilgrimage.2004.t:0 "$pilgrimage_header$ неожиданная встреча"
  pilgrimage.2004.desc:0 "По мере моего приближения к [destination_title.GetNameNoTierNoTooltip], я встречаю все больше и больше паломников отовсюду.\n\nОдин из них узнал меня издалека: "[ROOT.Char.GetTitledFirstNameNoTooltip]?! Это ты?"\n\nЭто не кто иной, как [potential_friend.Custom2('MyCharacterIntroduction', ROOT.Char)]!"
  pilgrimage.2004.a:0 "Нас свел [ROOT.Char.GetFaith.PantheonTerm]!"
- pilgrimage.2004.b:0 "Знаменательная встреча, но я должен помолиться наедине с собой."
+ pilgrimage.2004.b:0 "Знаменательная встреча, но я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] помолиться наедине с собой."
 
  pilgrimage.2005.t:0 "$pilgrimage_header$ грубая история"
  pilgrimage.2005.desc:1 "Проходя мимо костра, один из попутчиков под хриплый смех рассказывает историю, которую [dummy_peasant_gender.GetSheHe] однажды [Select_CString(dummy_peasant_gender.IsFemale, 'услышала', 'услышал' )], что есть [Select_CString(ROOT.Char.IsFemale, 'некая', 'некий' )] [ROOT.Char.GetTitleAsNameNoTooltip]. Когда меня увидели, замолчали все — кроме рассказчика.\n\n"О, не волнуйтесь, [ROOT.Char.GetLadyLord], вы не [Select_CString(ROOT.Char.IsFemale, 'такая', 'такой' )], как [ROOT.Char.Custom('InsultNoun')] из этой истории!"
  pilgrimage.2005.desc_close:0 "[ROOT.Char.GetTitleAsNameNoTooltip] этих земель, вот о ком речь."
- pilgrimage.2005.desc_far:0 "[ROOT.Char.GetTitleAsNameNoTooltip], о ком идет речь, из далекого места, называемого [title.GetNameNoTierNoTooltip].""
+ pilgrimage.2005.desc_far:0 "[ROOT.Char.GetTitleAsNameNoTooltip], о ком идёт речь, из далекого места, называемого [title.GetNameNoTierNoTooltip].""
  pilgrimage.2005.a:0 ""[ROOT.Char.GetTitleAsNameNoTooltip]? Правда? Расскажи поподробнее.""
  pilgrimage.2005.a.flavor:0 "Присяду у костра."
  pilgrimage.2005.b:0 ""Стража! Подайте кнут.""
@@ -105,7 +105,7 @@
  pilgrimage.2008.whole_of_body:0 "Ах, этот кашель быстро пройдет."
 
  pilgrimage.2009.t:0 "$pilgrimage_header$ хриплый кашель"
- pilgrimage.2009.desc:0 "Путешествие не идет мне на пользу. Моё здоровье не укрепилось из-за моего стремления получить милость [ROOT.Char.GetFaith.PantheonTerm]. Все становится хуже и хуже. Я не помню, как я дышал без усилий."
+ pilgrimage.2009.desc:0 "Путешествие не идёт мне на пользу. Моё здоровье не укрепилось из-за моего стремления получить милость [ROOT.Char.GetFaith.PantheonTerm]. Все становится хуже и хуже. Я не помню, как я дышал без усилий."
  pilgrimage.2009.a:0 "Я дойду до конца. Пусть [ROOT.Char.GetFaith.HighGodNameAlternate] благословит меня."
  pilgrimage.2009.b:0 "Это явно воля [ROOT.Char.GetFaith.HighGodNamePossessive], чтобы я вернулся назад."
 

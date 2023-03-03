@@ -163,20 +163,10 @@
  old_velothi_bishop_neuter:0 "оракул"
  old_velothi_bishop_neuter_plural:0 "оракулы"
  old_velothi_bishop_alternate_plural:0 "оракулы"
- 
- #Nerevarine Cult
- #nerevarine:1 "Нереваринск"
- #nerevarine_adj:1 "Культ Нереварина"
- #nerevarine_adherent:1 "Последователь культа Нереварина" #Wip
- #nerevarine_adherent_plural:1 "Последователи культа Нереварина" #WIP
- #nerevarine_desc:0 "Полагая, что Трибунал предал Неревара и убил его, чтобы вознестись к божественности, последователи Нереварина отвергают авторитет трех Живых Богов. Они также передают из поколения в поколение множество пророчеств, в том числе о возвращении самого Неревара, посланного Азурой в форме Воплощения, Нереварина, который свергнет Трибунал и освободит Морровинд и Вварденфелл от влияния АЛЬМСИВИ."
- #nerevarine_religious_symbol:0 "луна-и-звезда"
- #nerevarine_religious_text:0 "пророчества Призрачной кольчуги"
- #nerevarine_religious_head_title_name:0 "Новый Храм"
 
  #Sixth House
  sixth_house:1 "Шесто-домск"
- sixth_house_adj:1 "Шесто-домск"
+ sixth_house_adj:1 "Шестой Дом"
  sixth_house_adherent:1 "Сновидец"
  sixth_house_adherent_plural:1 "Сновидцы"
  sixth_house_desc:0 "[SelectLocalization(IsObserver, 'sixth_house_nonfollower_desc', 'sixth_house_custom_desc')]"

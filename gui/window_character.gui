@@ -752,32 +752,32 @@ window = {
 					}
 				}
 
-				button_normal = {
-					name = "open_ritual_view"
-					visible = "[Character.IsLocalPlayer]"
+				# button_normal = {
+				# 	name = "open_ritual_view"
+				# 	visible = "[Character.IsLocalPlayer]"
 
-					size = { 35 35 }
+				# 	size = { 35 35 }
 
-					using = tooltip_es
+				# 	using = tooltip_es
 
-					tooltip = OPEN_RITUAL
+				# 	tooltip = OPEN_RITUAL
 
-					#onclick = "[ExecuteConsoleCommand('gui.createwidget gui/custom_widgets/spellbook_widget.gui spellbook_ritual_window')]"
-					onclick = "[VariableSystem.Set( 'ritual_window', 'true' )]"
-					onclick = "[GetScriptedGui('ritual_init').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+				# 	#onclick = "[ExecuteConsoleCommand('gui.createwidget gui/custom_widgets/spellbook_widget.gui spellbook_ritual_window')]"
+				# 	onclick = "[VariableSystem.Set( 'ritual_window', 'true' )]"
+				# 	onclick = "[GetScriptedGui('ritual_init').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 
-					icon = {
-						texture = "gfx/interface/buttons/button_lifestyles_base.dds"
-						size = { 100% 100% }
-					}
+				# 	icon = {
+				# 		texture = "gfx/interface/buttons/button_lifestyles_base.dds"
+				# 		size = { 100% 100% }
+				# 	}
 
-					highlight_icon = {
-						texture = "gfx/interface/spellbook_widget/spell_ritual.dds"
-						size = { 30 30 }
-						parentanchor = center
-						using = Master_Button_Modify_Texture
-					}
-				}
+				# 	highlight_icon = {
+				# 		texture = "gfx/interface/spellbook_widget/spell_ritual.dds"
+				# 		size = { 30 30 }
+				# 		parentanchor = center
+				# 		using = Master_Button_Modify_Texture
+				# 	}
+				# }
 
 				button_normal = {
 					name = "open_kill_list"

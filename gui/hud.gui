@@ -1376,6 +1376,7 @@ icon = {
 						duration = 0.05
 						#on_finish = "[ExecuteConsoleCommand('gui.createwidget gui/custom_widgets/spellbook_widget.gui spellbook_interaction_window')]"
 						on_finish = "[GetVariableSystem.Set( 'spellbook_window', 'true' )]"
+						on_finish = "[GetVariableSystem.Set('spellbook_tab', 'spells')]"
 					}
 				}
 			}
@@ -1510,8 +1511,8 @@ icon = {
 								default_format = "#date"
 								autoresize = no
 								align = right|nobaseline
-								using = Font_Size_Medium
-								fontsize_min = 14
+								#using = Font_Size_Medium
+								#fontsize_min = 14
 								fontsize = 14
 							}
 
@@ -2770,6 +2771,63 @@ widget = {
 		filter_mouse = all
 		alwaystransparent = no
 		scale = 0.9
+	}
+	
+	widget = {
+		visible = "[Or(IsMapMode('special_buildings_mapmode'), IsMapMode('holy_sites_mapmode'))]"
+		size = { 200 300 }
+		visible_at_creation = no
+		parentanchor = bottom|right
+		position = { -5 -300 }
+
+		state = {
+			name = _show
+			using = Animation_FadeIn_Quick
+		}
+
+		state = {
+			name = _hide
+			using = Animation_FadeOut_Standard
+		}
+
+		background = {
+			using = Background_Area_Solid
+		}
+
+		#special buildings
+		flowcontainer = {
+			visible = "[IsMapMode('special_buildings_mapmode')]"
+			direction = vertical
+			margin_left = 10
+			margin_top = 10
+			spacing = 5
+
+			text_multi = {
+				size = { 180 60 }
+				text = holding_has_special_building_constructed
+				default_format = "#clickable"
+			}
+			text_multi = {
+				size = { 180 60 }
+				text = holding_has_special_building_slot
+				default_format = "#clickable"
+			}
+		}
+
+		#holy sites
+		flowcontainer = {
+			visible = "[IsMapMode('holy_sites_mapmode')]"
+			direction = vertical
+			margin_left = 10
+			margin_top = 10
+			spacing = 5
+
+			text_multi = {
+				size = { 180 60 }
+				text = holy_sites_mapmode_is_holy_site
+				default_format = "#clickable"
+			}
+		}		
 	}
 
 	widget = { # Inspiration Details

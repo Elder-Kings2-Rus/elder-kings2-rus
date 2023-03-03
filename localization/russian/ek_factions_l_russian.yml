@@ -31,6 +31,7 @@
  CRISIS_GOBLIN_WAR_NAME:0 "Восстание гоблинов"
  crisis_goblin_war_defeat_desc:0 "[Concept('goblin_faction', 'Фракция гоблинов')|E] уничтожена, а [attacker.GetShortUIName] заключен в тюрьму. У всех оккупированных бандитами [Concept('counties', 'графств')|E] увеличено [Concept('county_opinion', 'народное мнение')|E]."
  FACTION_UNDEAD_NAME:0 "Орда нежити"
+ crisis_undead_faction:0 "Орда нежити"
  crisis_undead_faction_desc:0 "Орда нежити захватила одно из наших [Concept('counties', 'графств')|E]!"
  crisis_undead_faction_short_effect_desc:0 "Хочет контролировать определённые [Concept('counties', 'графства')|E]"
  crisis_undead_faction_every_county:0 "Каждое графство во фракции"

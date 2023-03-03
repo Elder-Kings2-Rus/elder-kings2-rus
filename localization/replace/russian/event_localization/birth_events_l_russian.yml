@@ -6,7 +6,7 @@
 
  birth.0002.t:0 "Все мои дети"
  birth.0002.desc:0 "С каждыми моими родами окружающие относятся ко мне все лучше. Думаю, детей у меня и правда довольно много..."
- birth.0002.a:0 "Доброта, рожденная родами"
+ birth.0002.a:0 "Доброта, рождённая родами"
 
  birth.1001.t:0 "[Select_CString(child.IsFemale, 'Моя дочь', 'Мой сын' )]"
  birth.1001.heir.t:0 "[Select_CString(child.IsFemale, 'Моя дочь и наследница', 'Мой сын и наследник' )]"
@@ -75,7 +75,7 @@
  birth.1006.a.tt:1 "Вы решаете ни с кем не делиться этим секретом"
  birth.1006.a.message_desc:0 "Настоящий отец знает"
  birth.1006.a.mother_message:0 "[real_father.GetTitledFirstName] узнал, что является настоящим отцом"
- birth.1006.b:0 "Мир узнает о моем ребенке!"
+ birth.1006.b:0 "Мир узнает о моём ребенке!"
  birth.1006.bastard_explanation:0 "Вы узнали, что родился ребенок: [child.GetFirstName]. Мать, [mother.GetShortUIName], получает секрет: [secret.GetName]"
 
  birth.1010.t:0 "Дитя моей династии"
@@ -90,8 +90,8 @@
  legitimized_known_bastard_birth_event_tooltip:0 "[child.GetFirstNameNoTooltip] теперь [legitimized_bastard|El] дома [child.GetHouse.GetBaseName]"
 
  birth.2001.t:0 "Благословенное неведение"
- birth.2001.desc.mother.standard:0 "[Select_CString(child.IsFemale, 'Моя новорожденная дочь', 'Мой новорожденный сын' )] спит так сладко, пребывая в блаженном неведении о проклятии, которое будет преследовать [child.GetHerHis] до конца жизни. Нелегко быть бастардом в этом мире, нелегко быть матерью бастарда.\n\nМой младенец уснул, но мне не спится: я все думаю о решении, которое мне предстоит принять.\n\n"
- birth.2001.desc.mother.twins:0 "Мои новорожденные дети спят так сладко, пребывая в блаженном неведении о проклятии, которое будет преследовать их до конца жизни. Нелегко быть бастардами в этом мире, нелегко быть матерью бастардов.\n\nМои младенцы уснули, но мне не спится: я все думаю о решении, которое мне предстоит принять.\n\n"
+ birth.2001.desc.mother.standard:0 "[Select_CString(child.IsFemale, 'Моя новорождённая дочь', 'Мой новорождённый сын' )] спит так сладко, пребывая в блаженном неведении о проклятии, которое будет преследовать [child.GetHerHis] до конца жизни. Нелегко быть бастардом в этом мире, нелегко быть матерью бастарда.\n\nМой младенец уснул, но мне не спится: я все думаю о решении, которое мне предстоит принять.\n\n"
+ birth.2001.desc.mother.twins:0 "Мои новорождённые дети спят так сладко, пребывая в блаженном неведении о проклятии, которое будет преследовать их до конца жизни. Нелегко быть бастардами в этом мире, нелегко быть матерью бастардов.\n\nМои младенцы уснули, но мне не спится: я все думаю о решении, которое мне предстоит принять.\n\n"
  birth.2001.desc.father.standard:0 "[mother.GetTitledFirstName] родила [Select_CString(child.IsFemale, 'нашу дочь', 'нашего сына' )] вне брака. И хотя мне полагается радоваться, сердце моё снедают сомнения и страхи.\n\nИ это продолжится, пока я не приму решения.\n\n"
  birth.2001.desc.father.twins:0 "[mother.GetTitledFirstName] родила наших детей вне брака. И хотя мне полагается радоваться, сердце моё снедают сомнения и страхи.\n\nИ я не узнаю покоя, пока не приму решения.\n\n"
  birth.2001.a.standard:0 "Я признаю [SCOPE.sC('child').GetHerHis]!"
@@ -122,7 +122,7 @@
  birth.2004.a.twins:0 "Пусть они гордятся вами, дети мои."
 
  birth.2011.t:0 "[Select_CString(child.IsFemale, 'Моя', 'Мой' )] [child.Custom('GetDaughterSon')]"
- birth.2011.desc:0 "Хоть и [Select_CString(child.IsFemale, 'зачатая', 'зачатый' )] вне брака, [Select_CString(child.IsFemale, 'моя новорожденная', 'мой новорожденный' )] [child.Custom('GetDaughterSon')] успешно [Select_CString(child.IsFemale, 'появилась', 'появился' )] на свет.\n\n[child.GetSheHe|U] [Select_CString(child.IsFemale, 'родилась', 'родился' )] в доме [legitimizer.GetHouse.GetBaseName], и именно так [child.GetSheHe] будет воспитываться."
+ birth.2011.desc:0 "Хоть и [Select_CString(child.IsFemale, 'зачатая', 'зачатый' )] вне брака, [Select_CString(child.IsFemale, 'моя новорождённая', 'мой новорождённый' )] [child.Custom('GetDaughterSon')] успешно [Select_CString(child.IsFemale, 'появилась', 'появился' )] на свет.\n\n[child.GetSheHe|U] [Select_CString(child.IsFemale, 'родилась', 'родился' )] в доме [legitimizer.GetHouse.GetBaseName], и именно так [child.GetSheHe] будет воспитываться."
 
 
  birth.2102.t:0 "[real_father.GetTitledFirstNameNoTooltip] плодит новых ублюдков"
@@ -131,8 +131,8 @@
  birth.2102.a:0 "И что мне с этим делать?"
 
  birth.2104.t:0 "Чужой ребенок"
- birth.2104.desc:0 "Мой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], и [mother.GetTitledFirstName] зачали ребенка. Теперь [mother.GetFirstName] нянчится с выродком, отец которого — [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))]."
- birth.2104.desc.twin:0 "Мой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], и [mother.GetTitledFirstName] зачали детей. Теперь [mother.GetFirstName] нянчится с выродками, отец которых — [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))]."
+ birth.2104.desc:0 "Мой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], и [mother.GetTitledFirstName] зачали ребенка. Теперь [mother.GetFirstName] нянчится с бастардом, отец которого — [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))]."
+ birth.2104.desc.twin:0 "Мой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], и [mother.GetTitledFirstName] зачали детей. Теперь [mother.GetFirstName] нянчится с бастардами, отец которых — [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))]."
  birth.2104.a:0 "И что мне с этим делать?"
 
  every_child_adult_non_bastard:0 "Все мои законные взрослые дети"
@@ -184,7 +184,7 @@
  birth.3041.end:0 "и я все ещё прикована к постели. Каждый следующий день не приносит изменений, и мою радость поглощает страшная усталость."
  birth.3041.a:0 "Разве мои силы не должны были вернуться?"
 
- birth.9002.t:0 "Что в имени тебе моем?"
+ birth.9002.t:0 "Что в имени тебе моём?"
  birth.9002.start.desc:0 "Покачивая в руках ребенка,"
  birth.9002.worrying.desc:0 "[suggester.GetTitledFirstName] тревожно смотрит на меня."
  birth.9002.tears.desc:0 "[suggester.GetTitledFirstName] смахивает слёзы и обращается ко мне, не отрывая глаз от [Select_CString(child.IsFemale, 'нашей дочери', 'нашего сына' )]."
@@ -222,7 +222,7 @@
  birth.9003.desc:0 "[suggester.GetTitledFirstName] осторожно передает мне ребенка, и я смотрю в [child.GetHerHis] очаровательные глазки. Кем ты станешь в будущем?"
  birth.9003.a:0 "Гораздо лучше."
  
- birth.9004.t:0 "Что в имени тебе моем?"
+ birth.9004.t:0 "Что в имени тебе моём?"
  birth.9004.desc.me:0 "[ROOT.Char.GetFirstNameNoTooltip].\n\nТакое скучное имя. Порой я думаю, что оно будет означать для историков будущего.\n\nИ все же я [ROOT.Char.GetTitleAsNameNoTooltip|l], и если я хочу, чтобы меня звали иначе, то достаточно лишь заявить об этом миру, не так ли?"
  birth.9004.desc:0 "[child.GetFirstNameNoTooltip].\n\nСперва имя мне нравилось, но теперь мне кажется, оно звучит странно. Что будет, когда [child.GetSheHe] вырастет?\n\nМожет, стоит поменять, пока не поздно?"
  birth.9004.a:0 "Да, это имя #EMP намного#! лучше!"

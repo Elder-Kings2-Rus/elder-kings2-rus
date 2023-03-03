@@ -4,7 +4,7 @@
  form_craglorn_kingdom_decision:0 "Сформировать Королевство Краглорн"
  form_craglorn_kingdom_decision_desc:0 "Регион Краглорна наконец был объединен. Необходимо объявить о создании нового королевства, чьи владения простираются между вершинами Драконьего Хвоста и горами Джерол."
  form_craglorn_kingdom_decision_tooltip:0 "Основать Королевство Краглорн"
- form_craglorn_kingdom_decision_confirm:0 "Королевство благословленное звёздами!"
+ form_craglorn_kingdom_decision_confirm:0 "Королевство, благословленное звёздами!"
  form_craglorn_kingdom_decision_effects_de_jure_tt:0 "Все герцогства в пределах [Concept( 'region', 'региона' )|E] Краглорна становятся [de_jure|El] вассалами Королевства Краглорн"
  # Glenumbra
  form_glenumbra_kingdom_decision:0 "Сформировать Королевство Гленумбра"
@@ -21,13 +21,13 @@
  form_rivenspire_kingdom_decision_effects_de_jure_tt:0 "Все герцогства в пределах [Concept( 'region', 'региона' )|E] Ривенспайра становятся [de_jure|El] вассалами Королевства Ривенспайр"
  # Wrothgarian Mountains
  form_greater_wrothgar_kingdom_decision:0 "Сформировать Королевство Великого Ротгара"
- form_greater_wrothgar_kingdom_decision_desc:0 "На разрозненные земли Большого Ротгара на протяжении многих поколений претендовали бретонцы, орки и предельцы. Пришло время решить закрыть этот вопрос раз и навсегда, и объявить себя единственным правителем этого региона!"
+ form_greater_wrothgar_kingdom_decision_desc:0 "На разрозненные земли Большого Ротгара на протяжении многих поколений претендовали бретонцы, орки и ричмены. Пришло время решить закрыть этот вопрос раз и навсегда, и объявить себя [Select_CString(ROOT.Char.IsFemale, 'единственной правительницей', 'единственным правителем' )] этого региона!"
  form_greater_wrothgar_kingdom_decision_tooltip:0 "Вы создадите новое [kingdom|E] в Великом Ротгаре"
  form_greater_wrothgar_kingdom_decision_confirm:0 "Да здравствует [ROOT.Char.GetLadyLord|U] Великого Ротгара!"
  form_greater_wrothgar_kingdom_decision_effects_de_jure_tt:0 "Все герцогства в пределах [Concept( 'region', 'региона' )|E] Великого Ротгара становятся [de_jure|El] вассалами Королевства Великий Ротгар"
  # Bangkorai
  form_bangkorai_kingdom_decision:0 "Сформировать Королевство Бангкорай"
- form_bangkorai_kingdom_decision_desc:0 "Наконец-то я установил контроль над Бангкораем, именуемым в народе "Щитом Хай-Рока". Этот регион, измученный междоусобными и пограничными конфликтами, наконец-то объединен под моим правлением!"
+ form_bangkorai_kingdom_decision_desc:0 "Наконец-то я [Select_CString(ROOT.Char.IsFemale, 'установила', 'установил' )] контроль над Бангкораем, именуемым в народе "Щитом Хай-Рока". Этот регион, измученный междоусобными и пограничными конфликтами, наконец-то объединен под моим правлением!"
  form_bangkorai_kingdom_decision_tooltip:0 "Вы создадите новое [kingdom|E] в Бангкорай."
  form_bangkorai_kingdom_decision_confirm:0 "Да здравствует [ROOT.Char.GetLadyLord|U] Бангкорая!"
  form_bangkorai_kingdom_decision_effects_de_jure_tt:0 "Все герцогства в пределах [Concept( 'region', 'региона' )|E] Бангкорая становятся [de_jure|El] вассалами Королевства Бангкорай"
@@ -35,6 +35,6 @@
  form_auridon_kingdom_decision:0 "Объединить Ауридон"
  form_auridon_kingdom_decision_desc:0 "Будучи объектом набегов и нападений на протяжении веков, защитник островов Саммерсет, Ауридон в настоящее время разделен и слаб. Если мы хотим победить и занять свое законное место на архипелаге, Ауридон должен быть единым!"
  form_auridon_kingdom_decision_tooltip:0 "Вы создадите новое [kingdom|E] в Ауридоне."
- form_auridon_kingdom_decision_confirm:0 "Да здравствует [ROOT.Char.GetLadyLord|U] Ауриода!"
+ form_auridon_kingdom_decision_confirm:0 "Да здравствует [ROOT.Char.GetLadyLord|U] Ауридона!"
  form_auridon_kingdom_decision_effects_de_jure_tt:0 "Все герцогства в пределах [Concept( 'region', 'региона' )|E] Ауридона становятся [de_jure|El] вассалами Королевства Ауридон"
  ## Formable Empires

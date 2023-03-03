@@ -153,7 +153,6 @@
  razak_army_flavor:0 "#F Верная армия гномов, движимая паровой тягой и пропитанная магией из камней душ, которые будут работать ещё многие века. #!" # flavor, не flavour
  crisis_bandit_faction:0 "Бандитский кризис"
  crisis_goblin_faction:0 "Гоблинский кризис"
- crisis_undead_faction:0 "Кризис нежити"
 
  # замена слова "Вы" на "вас" в книге заклинаний в нижней части окна
  spell_casting_info_castee_char_custom:0 "#high [Select_CString( ObjectsEqual(GetPlayer.MakeScope.Var('spell_recipient').Char, GetPlayer.MakeScope.Var('spell_caster').Char), Select_CString( ObjectsEqual(GetPlayer.MakeScope.Var('spell_caster').Char, GetPlayer), 'вас', 'вас' ), GetPlayer.MakeScope.Var('spell_recipient').Char.GetShortUINameNoTooltip )]#!"
@@ -164,3 +163,18 @@
  god_magnus_name_name_possessive:0 "Магнуса"
  great_mare_god_name_name_possessive:0 "Великой Кобылы"
  GET_RANDOM_CUSTOM_MEPHALA_NAME_name_possessive:0 "$god_mephala_name_possessive$"
+ 
+ culture_parameter_fairness_valued:0 "[characters|E] с личностью [GetTrait('just').GetName( GetNullCharacter )] вызывают восхищение, в то время как свойства личности [GetTrait('sadistic').GetName( GetNullCharacter )] и [GetTrait('arbitrary').GetName( GetNullCharacter )] презираются" # Scorg. Для традиции 'Пограничные рыцари'.
+ # Одёжка без локализации. Scorg.
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_altmer_01_high:0 "Альтмерское высшее дворянство 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_altmer_02_high:0 "Альтмерское высшее дворянство 2"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_altmer_01_low:0 "Альтмерское низшее дворянство 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_altmer_02_low:0 "Альтмерское низшее дворянство 2"
+ # Для аспекта закона. Scorg.
+ devotion_gives_tyranny_reduction_vassal_opinion_0:0 "Уровень набожности (аспект закона)"
+ devotion_gives_tyranny_reduction_vassal_opinion_1:0 "Уровень набожности (аспект закона)"
+ devotion_gives_tyranny_reduction_vassal_opinion_2:0 "Уровень набожности (аспект закона)"
+ devotion_gives_tyranny_reduction_vassal_opinion_3:0 "Уровень набожности (аспект закона)"
+ devotion_gives_tyranny_reduction_vassal_opinion_4:0 "Уровень набожности (аспект закона)"
+ devotion_gives_tyranny_reduction_vassal_opinion_5:0 "Уровень набожности (аспект закона)"
+ devotion_gives_tyranny_reduction_vassal_opinion_6:0 "Уровень набожности (аспект закона)"
