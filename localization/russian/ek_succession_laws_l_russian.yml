@@ -58,14 +58,14 @@ tooltip_feudal_elector_vote_conceded_election_myself:0 "У меня нет же�
  moot_elective_candidates:0 "$feudal_elective_candidates$"
  moot_elective_candidates_tooltip:0 "Для того, чтобы быть действительным кандидатом в рамках избирательного собрания, персонаж должен соответствовать одному из следующих условий:\n$EFFECT_LIST_BULLET$Быть законным [Concept('close_family', 'близким родственником')|E] текущего правителя, не претендующие на наследование теократии или республики. Дети кандидата не могут быть выдвинуты\n$EFFECT_LIST_BULLET$[claimant|E] на титул, который не находится в очереди на наследование теократии или республики\n$EFFECT_LIST_BULLET$Быть действительным феодальным [Concept('elector', 'выборщиком')|E] титула."
  moot_elective_electors:0 "Ярлы"
- moot_elective_electors_tooltip:0 "In order to be a valid [elector|E] under $moot_elective_succession_law$, one must be a direct vassal of the title.\n$EFFECT_LIST_BULLET$In addition to the [SuccessionElectionWindow.GetTitle.GetHolder.GetTitleAsNameNoTooltip], holders of [kingdom|E] [titles|E] are favored as [electors|E] under [SuccessionElectionWindow.GetSuccessionLaw.GetName]."
- tooltip_feudal_elector_vote_pact_of_chieftains:0 "Верховным королевством должен править один род: $VALUE|=+0$"
- tooltip_feudal_elector_vote_moot:0 "[candidate.GetSheHe|U] воплощает в себе нордские ценности: $VALUE|=+0$"
+ moot_elective_electors_tooltip:0 "Для того, чтобы являться действительным [Concept('elector', 'выборщиком')|E] при законе наследования «$moot_elective_succession_law$», необходимо быть прямым вассалом титула.\n$EFFECT_LIST_BULLET$Не только [SuccessionElectionWindow.GetTitle.GetHolder.GetTitleAsNameNoTooltip], но и владельцы [Concept('kingdom', 'королевских')|E] [Concept('titles', 'титулов')|E] получают приоритет при назначении [Concept( 'electors', 'выборщиками' )|E] при законе наследования «[SuccessionElectionWindow.GetSuccessionLaw.GetName]»."
+ tooltip_feudal_elector_vote_pact_of_chieftains:0 "Верховный король должен оставаться из одного рода: $VALUE|=+0$"
+ tooltip_feudal_elector_vote_moot:0 "[candidate.GetSheHe|U] должен воплощать собой ценности нордов: $VALUE|=+0$"
  tooltip_feudal_elector_vote_moot_bad:0 "[candidate.GetSheHe|U] позорит наших предков: $VALUE|=+0$"
  tooltip_feudal_elector_vote_moot_fame:0 "Уважаемый Верховный король: $VALUE|=+0$"
  tooltip_feudal_elector_vote_moot_fame_big:0 "Возвышенный верховный король: $VALUE|=+0$"
  tooltip_feudal_elector_vote_moot_fame_biggest:0 "Легендарный верховный король: $VALUE|=+0$"
- tooltip_special_crown_verity_elector_vote_moot:0 "[candidate.GetSheHe|U] признан(а) достойным(ой) Короной Истины: $VALUE|=+0$"
+ tooltip_special_crown_verity_elector_vote_moot:0 "[candidate.GetSheHe|U] [Select_CString(candidate.IsFemale, 'признана достойной', 'признан достойным' )] Короной Истинности: $VALUE|=+0$"
 
 #Sorcerous Succession law  
  sorcerous_elective_succession_law:0 "Колдовские выборы"
@@ -82,7 +82,7 @@ tooltip_feudal_elector_vote_conceded_election_myself:0 "У меня нет же�
  tooltip_sorcerous_elector_vote_arcana_education:0 "[candidate.GetSheHe|U] обладает глубокими магическими способностями: $VALUE|=+0$"
  tooltip_sorcerous_elector_vote_arcana_education_bad:0 "[candidate.GetSheHe|U] обладает поверхностными магическими знаниями: $VALUE|=+0$"
  tooltip_feudal_elector_vote_ruling_dynasty:0 "Правление может оставаться в пределах одного рода: $VALUE|=+0$"
- tooltip_feudal_elector_vote_disrupted_magocratic:0 "[candidate.GetSheHe|U] магически немощен: $VALUE|=+0$"
+ tooltip_feudal_elector_vote_disrupted_magocratic:0 "[candidate.GetSheHe|U] магически [Select_CString(candidate.IsFemale, 'немощна', 'немощен' )]: $VALUE|=+0$"
 
 #Magelord Succession Law
  magelord_elective_succession_law:0 "Выборы Лорда-мага"
