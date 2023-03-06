@@ -1,42 +1,42 @@
 ﻿l_russian:
- become_pirate_government_decision:0 "Основать пиратское царство"
+ become_pirate_government_decision:0 "Основать пиратское государство"
  become_pirate_government_decision_desc:0 "Многочисленные набеги исходящие от наших портов и богатства полученные таким путём заставили бы всякого правителя задуматься о том, чтобы посвятить себя морям и их сокровищам...\nСможем ли мы отказаться от привычного нам пути и вместо этого стремиться к жизни полной приключений и грабежа?"
  become_pirate_government_decision_tooltip:0 "Могучий пират способен объединить Абесинское море..."
  become_pirate_government_decision_confirm:0 "Созвать флоты и налётчиков!"
- has_raided_for_two_hundred_gold_ct:0 "От налётов вы получили 200 [gold|E]"
- become_pirate_government_decision_duchy_tier_title_ct:0 "Вы создадите титул, подберёте имя и собственный флаг, который будет развеваться во время плавания в открытом море"
- become_pirate_government_decision_total_loot_workaround_ct:0 "#N Приведенное ниже количество золота соответсвует общей добыче, накопленной за годы налётов.#!"
+ has_raided_for_two_hundred_gold_ct:0 "Вы получили 200 [gold|E] от налётов"
+ become_pirate_government_decision_duchy_tier_title_ct:0 "Вы создадите титул герцогского уровня, подберёте имя и собственный флаг, который будет развеваться во время плавания в открытом море"
+ become_pirate_government_decision_total_loot_workaround_ct:0 "#N Приведённое ниже количество золота соответствует общей добыче, накопленной за годы налётов.#!"
  
  disorganized_military_reform_military_decision:0 "Реформировать [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|l]ую армию"
  disorganized_military_reform_military_decision_desc:0 "Большинство из нас не верит в элитных солдат и профессиональных войнов, предпочитая использовать людей как пушечное мясо.\n\nНо большинство из нас не знает ничего о войне. Пришло время преобразовать наш способ ведения войны и, наконец, сформировать настоящую армию, способную противостоять остальному Тамриэлю."
- disorganized_military_reform_military_decision_tooltip:0 "Преобразйте армию и станьте равным великим державам Тамриэля"
+ disorganized_military_reform_military_decision_tooltip:0 "Реформируйте армию и станьте равным великим державам Тамриэля"
  disorganized_military_reform_military_decision_confirm:0 "[ROOT.Char.GetCulture.GetNameNoTooltip] своей мощью будут наводить ужас на Тамриэль!"
 
  daedric_heir_decision:0 "Призвать родственника из Обливиона"
- daedric_heir_decision_desc:0 "Мы, дремора, не воспринимаем мир так, как смертные. Мы не рождаемся такими, как смертные. У нас нет отцов и матерей. Все, что у нас есть, - это наша родня и наши кланы. Если бы я призвал одного из своих сородичей в это царство, я смог бы укрепить наш клан и наши замыслы здесь."
+ daedric_heir_decision_desc:0 "Мы, дреморы, не воспринимаем мир так, как смертные. Мы не рождаемся так, как смертные. У нас нет отцов и матерей. Все, что у нас есть - это наша родня и наши кланы. Если бы я призвал одного из своих сородичей в это царство, я смог бы укрепить наш клан и наши замыслы здесь."
  daedric_heir_decision_tooltip:0 "Настало время призвать наследника..."
  daedric_heir_decision_confirm:0 "Наследие нашего клана будет сохранено."
- daedric_heir_decision_effect_tooltip:0 "Вы вызовите наследника династии из глубин Обливиона."
+ daedric_heir_decision_effect_tooltip:0 "Вы призовёте наследника династии из глубин Обливиона."
 
 ## Remove Praxis Government
- remove_praxis_government_decision:0 "Отменить Церемониархию"
+ remove_praxis_government_decision:0 "Упразднить церемониархию"
  remove_praxis_government_decision_desc:0 "Одержимость совершенством - это наше самое большое несовершенство. \n С правильными указами мы могли бы положить конец тирании Пути к Алаксону и править так, как это делают другие расы Тамриэля."
  remove_praxis_government_decision_tooltip:0 "Возможно, истинное совершенство невозможно..."
  remove_praxis_government_decision_confirm:0 "Альдмерис исчез, но мы остаемся."
  has_low_praxis_ct:0 "Ваш Праксис должен быть равен 10 или менее"
  liege_not_praxis_ct:0 "У вашего правителя не должно быть [GetGovernment( 'praxis_government' ).GetName] типа правительства."
 ## Become Praxis Government
- become_praxis_government_decision:0 "Принять Церемониархию"
- become_praxis_government_decision_desc:0 "Церемония Альдмеров имеет большое значение для нас.\nВедя упорядоченную жизнь, мы, несомненно, должны иметь упорядоченное царство. Давайте неукоснительно следовать Пути к Алаксону, а вместе с ним к процветанию." 
+ become_praxis_government_decision:0 "Принять церемониархию"
+ become_praxis_government_decision_desc:0 "Церемонии альдмеров имеют большое значение для нас.\nВедя упорядоченную жизнь, мы, несомненно, должны иметь упорядоченное царство. Мы должны неукоснительно следовать Пути к Алаксону, а вместе с ним к процветанию." 
  become_praxis_government_decision_tooltip:0 "Мы должны стремиться к совершенству во всём."
- become_praxis_government_decision_confirm:0 "Древние Альдмеры указывают нам путь."
+ become_praxis_government_decision_confirm:0 "Древние альдмеры указывают нам путь."
 
 
  proclaim_tamriel_empire_decision:0 "Провозгласить Империю Тамриэль"
  proclaim_tamriel_empire_decision_confirm:0 "Я [Select_CString(ROOT.Char.IsFemale, 'объединила', 'объединил' )] Тамриэль"
  proclaim_tamriel_empire_decision_tooltip:0 "Империя Тамриэль будет провозглашена"
  proclaim_tamriel_empire_decision_desc:0 "Слишком долго враждующие народы Тамриэля оставались разобщенными. Когда все провинции будут подчинены одному правителю, может быть провозглашена новая империя, более великая, чем какие-либо прежде." #PLACEHOLDER
- proclaim_tamriel_empire_decision_effect_tooltip:0 "Империя Тамриэль будет провозглашена.\nИ #bold Третья Эра начнётся#!."
+ proclaim_tamriel_empire_decision_effect_tooltip:0 "Будет провозглашена Империя Тамриэль.\nИ #bold начнётся Третья Эра#!."
 
  restore_alma_rula_in_necrom_decision:0 "Вернуть Некром Храму"
  restore_alma_rula_in_necrom_decision_desc:0 "Храмовый город Некром и прилегающие к нему земли традиционно принадлежат Храму Трибунала. Мы верно и исправно поклоняемся АЛЬМСИВИ, так что мы должны вернуть Храму то, что принадлежит ему по праву."
