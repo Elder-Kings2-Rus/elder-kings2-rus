@@ -378,8 +378,8 @@
 ## TRADITION COST MODIFIERS
  culture_in_swamp_desc:0 "[culture|E] не присутствует ни на одном [Concept('county', 'графстве')|E] с типом местности Чернотопья или Болота"
  swamp_percentage_desc:0 "[culture|E] не имеет #V 30%#! своих [Concept('counties', 'графств')|E] в провинциях с типом местности Чернотопья или Болота"
- culture_in_marsh_jungle_desc:0 "[culture|E] не присутствует ни на одном [Concept('county', 'графстве')|E] с типом местности Чернотопья, Джунгли или Джунглевые холма"
- marsh_jungle_percentage_desc:0 "[culture|E] не имеет #V 30%#! своих [Concept('counties', 'графств')|E] в провинциях с типом местности Чернотопья, Джунгли или Джунглевые холма"
+ culture_in_marsh_jungle_desc:0 "[culture|E] не присутствует ни на одном [Concept('county', 'графстве')|E] с типом местности Чернотопья, Джунгли или Джунглевые холмы"
+ marsh_jungle_percentage_desc:0 "[culture|E] не имеет #V 30%#! своих [Concept('counties', 'графств')|E] в провинциях с типом местности Чернотопья, Джунгли или Джунглевые холмы"
  culture_in_wasteland_desc:0 "[culture|E] не присутствует ни на одном [Concept('county', 'графстве')|E] с типом местности Пепельные земли, Вулканические пепельные земли или Пустоши" 
  wasteland_percentage_desc:0 "[culture|E] не имеет #V 30%#! своих [Concept('counties', 'графств')|E] в провинциях с типом местности Пепельные земли, Вулканические пепельные земли или Пустоши"
  culture_in_arctic_desc:0 "[culture|E] не присутствует ни на одном [Concept('county', 'графстве')|E] с типом местности Ледниковая тундра, Тайга или Таежные холмы"
