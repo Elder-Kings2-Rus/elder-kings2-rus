@@ -59,13 +59,13 @@
  culture_parameter_unlock_innovation_corsair_traditions:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_corsair_traditions$, а [GetMaA('abecean_pirates').GetName] становятся доступны как [men_at_arms|El]" 
 
 # Tradition parameters
- culture_parameter_unlock_maa_nedic_headhunters:0 "Доступны [men_at_arms|El] — [GetMaA('south_nedic_headhunters').GetName], [GetMaA('central_nedic_headhunters').GetName] или [GetMaA('north_nedic_headhunters').GetName] в зависимости от того, к какой ветви [Concept('heritage', 'наследия')|E] недов они принадлежат."
+ culture_parameter_unlock_maa_nedic_headhunters:0 "Доступны [men_at_arms|El] — [GetMaA('south_nedic_headhunters').GetName], [GetMaA('central_nedic_headhunters').GetName] или [GetMaA('north_nedic_headhunters').GetName] в зависимости от того, к какой ветви недийского [Concept('heritage', 'наследия')|E] принадлежит эта культура."
  culture_parameter_unlock_maa_jungle_peltasts:0 "Доступны [men_at_arms|El] — [GetMaA('jungle_peltasts').GetName]"
  culture_parameter_unlock_maa_winged_avengers:0 "Доступны [men_at_arms|El] — [GetMaA('winged_avengers').GetName]"
  culture_parameter_unlock_maa_dunmer_oathmen:0 "Доступны [men_at_arms|El] — [GetMaA('dunmer_oathmen').GetName]"
  culture_parameter_unlock_maa_ashlander_champions:0 "Доступны [men_at_arms|El] — [GetMaA('ashlander_champions').GetName]"
  culture_parameter_unlock_maa_deathlands_slayers:0 "Доступны [men_at_arms|El] — [GetMaA('deathlands_slayers').GetName]"
- culture_parameter_unlock_maa_goblinken_mounts:0 "Доступны [men_at_arms|El] — [GetMaA('durzog_riders').GetName] или [GetMaA('bristleback_riders').GetName] в зависимости от того, к какой ветви [Concept('heritage', 'наследия')|E] гоблинов они принадлежат."
+ culture_parameter_unlock_maa_goblinken_mounts:0 "Доступны [men_at_arms|El] — [GetMaA('durzog_riders').GetName] или [GetMaA('bristleback_riders').GetName] в зависимости от того, к какой ветви гоблинского [Concept('heritage', 'наследия')|E] принадлежит эта культура."
  culture_parameter_unlock_maa_ice_shamans:0 "Доступны [men_at_arms|El] — [GetMaA('ice_shamans').GetName]"
  culture_parameter_unlock_maa_huscarl:0 "Доступны [men_at_arms|El] — [GetMaA('huscarl').GetName]"
  culture_parameter_unlock_maa_skaal_hunter:0 "Доступны [men_at_arms|El] — [GetMaA('skaal_hunter').GetName]"
@@ -109,7 +109,7 @@
  culture_parameter_can_appoint_court_wives:0 "Доступна [Concept('court_position', 'придворная должность')|E] [GetCourtPositionType('huntwife_court_position').GetName()], [GetCourtPositionType('forgewife_court_position').GetName()] и [GetCourtPositionType('hearthwife_court_position').GetName()]" 
  culture_parameter_can_appoint_court_speaker:0 "Доступна [Concept('court_position', 'придворная должность')|E] [GetCourtPositionType('speaker_court_position').GetName()] "
  court_position_tradition_gardening:0 "$tradition_life_menders_name$ [culture_tradition|El]"
- culture_parameter_characters_are_better_court_gardeners:0 "[characters|E] этой [Concept('culture', 'культуры')|E] лучше работают при назначении на [court_position|El] #high $court_gardener_court_position$#!"
+ culture_parameter_characters_are_better_court_gardeners:0 "[characters|E] этой [Concept( 'culture', 'культуры' )|E] лучше проявляют себя в [Concept( 'court_position', 'должности' )|E] #high $court_gardener_court_position$#!"
  culture_parameter_allows_jesters_tradition:0 "Доступна [Concept( 'court_position', 'придворная должность' )|E] [GetCourtPositionType('court_jester_court_position').GetName()]"
 
 ##LAW PARAMETERS

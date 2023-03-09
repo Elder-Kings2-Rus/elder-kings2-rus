@@ -2,7 +2,7 @@
  ### Troops
  # Misses from vanilla /shrugs
  heavy_cavalry_screen_mult:1 "[screen|E] [Concept('heavy_cavalry', 'тяжелой конницы' )|E]"
-
+ 
  mages_damage_add:1 "[damage|E] [Concept('mages','магов')|E]"
  mages_damage_mult:0 "$mages_damage_add$"
  mages_pursuit_add:1 "[pursuit|E] [Concept('mages','магов')|E]"
@@ -30,8 +30,9 @@
  spellblades_max_size_add:0 "Max Size of [spellblades|E] - [regiments|E]"
  spellblades_maintenance_add:0 "[spellblades|E] - Содержание"
  spellblades_maintenance_mult:0 "$spellblades_maintenance_add$"
+ 
  monthly_magic_lifestyle_xp_gain_mult:0 "Ежемесячный опыт за [lifestyle|El] «Магия»"
-
+ 
  ### Terrain
  ashlands_attrition_mult:1 "[command_modifier_i][attrition|E] в пепельных землях"
  ashlands_advantage:1 "[command_modifier_i][advantage|E] в пепельных землях"
@@ -50,7 +51,7 @@
  ashlands_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в пепельных землях"
  ashlands_tax_mult:0 "$MOD_TAX_MULT$ в пепельных землях"
  ashlands_levy_size:0 "$MOD_LEVY_SIZE$ в пепельных землях"
-
+ 
  volcanic_attrition_mult:1 "[command_modifier_i|E][attrition|E] в вулканических пепельных землях"
  volcanic_advantage:1 "[command_modifier_i|E][advantage|E] в вулканических пепельных землях"
  volcanic_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в вулканических пепельных землях"
@@ -68,7 +69,7 @@
  volcanic_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в вулканических пепельных землях"
  volcanic_tax_mult:0 "$MOD_TAX_MULT$ в вулканических пепельных землях"
  volcanic_levy_size:0 "$MOD_LEVY_SIZE$ в вулканических пепельных землях"
-
+  
  desert_hills_attrition_mult:1 "[command_modifier_i|E][attrition|E] в холмах пустыни"
  desert_hills_advantage:1 "[command_modifier_i|E][advantage|E] в холмах пустыни"
  desert_hills_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в холмах пустыни"
@@ -86,7 +87,7 @@
  desert_hills_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в холмах пустыни"
  desert_hills_tax_mult:0 "$MOD_TAX_MULT$ в холмах пустыни"
  desert_hills_levy_size:0 "$MOD_LEVY_SIZE$ в холмах пустыни"
-
+ 
  mangrove_forest_attrition_mult:1 "[command_modifier_i|E][attrition|E] в мангровых лесах"
  mangrove_forest_advantage:1 "[command_modifier_i|E][advantage|E] в мангровых лесах"
  mangrove_forest_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в мангровых лесах"
@@ -122,7 +123,7 @@
  jungle_hills_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в джунглевых холмах"
  jungle_hills_tax_mult:0 "$MOD_TAX_MULT$ в джунглевых холмах"
  jungle_hills_levy_size:0 "$MOD_LEVY_SIZE$ в джунглевых холмах"
-
+ 
  valenwood_attrition_mult:1 "[command_modifier_i|E][attrition|E] в лесах Валенвуда"
  valenwood_advantage:1 "[command_modifier_i|E][advantage|E] в лесах Валенвуда"
  valenwood_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в лесах Валенвуда"
@@ -140,7 +141,7 @@
  valenwood_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в лесах Валенвуда"
  valenwood_tax_mult:0 "$MOD_TAX_MULT$ в лесах Валенвуда"
  valenwood_levy_size:0 "$MOD_LEVY_SIZE$ в лесах Валенвуда"
-
+ 
 
  valenwood_hills_attrition_mult:1 "[command_modifier_i|E][attrition|E] в валенвудских холмах"
  valenwood_hills_advantage:1 "[command_modifier_i|E][advantage|E] в валенвудских холмах"
@@ -195,7 +196,7 @@
  tundra_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в ледниковой тундре"
  tundra_tax_mult:0 "$MOD_TAX_MULT$ в ледниковой тундре"
  tundra_levy_size:0 "$MOD_LEVY_SIZE$ в ледниковой тундре"
-
+ 
  taiga_hills_attrition_mult:1 "[command_modifier_i|E][attrition|E] в таежных холмах"
  taiga_hills_advantage:1 "[command_modifier_i|E][advantage|E] в таежных холмах"
  taiga_hills_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в таежных холмах"
@@ -382,7 +383,7 @@ refused_shadowscales:0 "Отвергнул Тёмных ящеров"
  ### Autocracy
  autocracy_county_opinion:0 "Народное мнение (Автократия)" # ek_governments_l_russian.yml ещё не переведен, так что локализация Autocracy может поменяться
  #autocracy_county_opinion_desc:0 "In an [autocracy|E], the relationship between local land owners or city mayors and the [count|E] is as important as the relationship between a vassal and their liege. A ruler upsetting the local ruling class will slowly lose [control|E] over the [county|E], and may even be barred from interacting with it depending on their [crown_authority|E].\n#italic Note: Each point of [county_opinion|E] #P above#! or #N below#! 0 will give #P +#!/#N -#! #V 0.01 [control|E] Growth#!, up to #P +0.5#!/#N -0.5#!. This modifier is updated once per year at a random month for the AI, and once per month for players.#!"
- autocracy_county_opinion_desc:0 "При [Concept('autocracy','Автократии')|E] отношения между местными землевладельцами или мэрами городов с населением [Concept('count','графства')|E] так же важны, как отношения между вассалом и его сеньором. Чтобы сохранить [control|El] над своими территориями, правитель должен быть популярным и нравиться местному населению.\n#italic Примечание: Каждый пункт [Concept('county_opinion','народного мнения')|E] #P выше#! 0 дает от #P +#!#V 0.01 [Concept('control','контроля')|E]#!, до #P +0.5#! Этот модификатор обновляется раз в год в случайный месяц для ИИ и раз в месяц для игроков.#!"
+ autocracy_county_opinion_desc:0 "При [Concept('autocracy','автократии')|E] отношения между местными землевладельцами или мэрами городов с населением [Concept('count','графства')|E] так же важны, как отношения между вассалом и его сеньором. Чтобы сохранить [control|El] над своими территориями, правитель должен быть популярным и нравиться местному населению.\n#italic Примечание: Каждый пункт [Concept('county_opinion','народного мнения')|E] #P выше#! 0 дает от #P +#!#V 0.01 [Concept('control','контроля')|E]#!, вплоть до #P +0.5#! Этот модификатор обновляется раз в год в случайный месяц для ИИ и раз в месяц для игроков.#!"
   autocracy_county_opinion_negative_01:0 "$autocracy_county_opinion$"
  autocracy_county_opinion_negative_01_desc:0 "$autocracy_county_opinion_desc$"
  autocracy_county_opinion_negative_02:0 "$autocracy_county_opinion$"

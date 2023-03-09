@@ -53,7 +53,7 @@
  PRISONERS_AND_LOOT_PERK_EFFECT:0 "Увеличивает шансы захватить пленника при набеге на столицу правителя"
  whale_effect:0 "Увеличивает шансы захватить пленника при набеге на столицу правителя"
  loot_and_prisoners_perk_name:0 "Добыча и заключенные..."
- LOOT_AND_PRISONERS_PERK_EFFECT:0 "Небольшое количество [Concept('development', 'развития')|E] переносится в случайный округ в вашем [Concept('domain', 'домене')|E] после успешного [Concept('raid', 'набега')|E]."
+ LOOT_AND_PRISONERS_PERK_EFFECT:0 "Небольшое количество [Concept('development', 'развития')|E] переносится в случайное графство в вашем [Concept('domain', 'домене')|E] после успешного [Concept('raid', 'набега')|E]."
  raider_blood_perk_name:0 "Кровь налётчика"
  RAIDER_BLOOD_PERK_EFFECT:0 "[Concept('raiding', 'Набеги')|E] награждают небольшим количеством [Concept('dynasty_prestige', 'признания')|E]"
  plunderer_perk_name:0 "Разбойник"
