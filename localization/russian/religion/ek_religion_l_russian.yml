@@ -120,7 +120,7 @@
  holy_site_hs_orichalc_name:0 "Орихалк"
  # Shared religious temples
  holy_site_hs_temple_of_the_one_name:0 "Храм Единого"
- holy_site_hs_temple_of_the_one_effects:0 "Скорость преобразования враждебного округа: #P -50%#!"
+ holy_site_hs_temple_of_the_one_effects:0 "Скорость обращения враждебного графства: #P -50%#!"
  COURT_CHAPLAIN_CONVERSION_HOLY_SITE_TEMPLE_OF_THE_ONE:1 "Враждебное святое место — $holy_site_hs_temple_of_the_one_name$"
  holy_site_hs_high_hrothgar_name:0 "Высокий Хротгар"
  holy_site_hs_sancre_tor_name:0 "Санкр Тор"

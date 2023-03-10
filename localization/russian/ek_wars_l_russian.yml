@@ -15,7 +15,7 @@
  cleanse_abominations_defeat_desc:0 "[titles|E] не меняют владельца. [attacker.GetFaith.GetAdjective] теряет [fervor|El]."
  
  MIGRATION_COUNTY_CB_NAME:1 "Миграция в [county|El]"
- MIGRATION_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Миграция округа [TITLE.GetBaseName]"
+ MIGRATION_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Миграция графства [TITLE.GetBaseName]"
  MIGRATION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  migration_cb_seizes_county:0 "Ваши люди возьмут под контроль [target_county.GetName]"
  county_migration_cb_victory_desc_attacker:0 "Ваши люди покинут ваши [counties|El] и поселятся в новых землях."

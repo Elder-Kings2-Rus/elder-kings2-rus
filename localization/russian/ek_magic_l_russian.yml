@@ -435,7 +435,7 @@ absorb_skill_perk_name: "Ослабить навык"
  # or if scopes persist in on_action/event chain just use that in toast localization. preferably this
 
  modifier_spell_firestorm:0 "Огненный шторм"
- modifier_spell_firestorm_desc:0 "Этот округ разрушен огненным штормом."
+ modifier_spell_firestorm_desc:0 "Это [county|El] опустошено огненным штормом."
  modifier_spell_summon_scamp:0 "Скамп"
  modifier_spell_summon_scamp_desc:0 "Этот маг призвал скампа, и заставил его служить.\n\n[arcana|E]: [arcana_i]#P +1#!" #PLACEHOLDER
  modifier_spell_summon_fatronach:0 "Огненный атронах"
