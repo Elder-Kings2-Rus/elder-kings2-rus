@@ -16,8 +16,8 @@
 
  trait_lefthanded:0 "Левша"
  trait_lefthanded_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] Является [Select_CString(ROOT.GetCharacter.IsFemale, 'леворукой', 'леворуким' )]. Из-за господства правшей в мире некоторые задачи даются труднее для [ROOT.GetCharacter.GetFirstNameNoTooltip], но в некоторых случаях, например, в бою один на один, это преимущество."
- trait_ambidextrous:0 "Амбидекстер"
- trait_ambidextrous_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] Является амбидекстером. Пишет ли [Select_CString(ROOT.GetCharacter.IsFemale, 'она', 'он' )], сражается или прелюбодействует, [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'способна', 'способен' )] пользоваться обеими своими руками одинаково хорошо."
+ trait_ambidextrous:0 "Амбидекстр"
+ trait_ambidextrous_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является амбидекстром. Пишет ли [Select_CString(ROOT.GetCharacter.IsFemale, 'она', 'он' )], сражается или прелюбодействует, [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'способна', 'способен' )] пользоваться обеими своими руками одинаково хорошо."
 
  guild_fighters_traits:0 "Гильдия Бойцов"
  trait_guild_fighters_traits:0 "Гильдия Бойцов"
@@ -111,8 +111,8 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_unmourned_blood_desc:0 "Кажется, что у этого персонажа что-то не так в родословной, но истинная природа этого остается загадкой."
  trait_unmourned_blood_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - кажется, что у этого персонажа что-то не так в родословной, но истинная природа этого остается загадкой."
  trait_scarab_blood:0 "Кровь Скарабея"
- trait_scarab_blood_desc:0 "Этот персонаж является потомком проклятого Великого Шестого Дома, Дома Дагота. Открыв правду о своей родословной, [Select_CString(ROOT.GetCharacter.IsFemale, 'она обрела', 'он обрел' )] тревожную силу, и любовь собратьев по культу."
- trait_scarab_blood_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является потомком проклятого Великого Шестого Дома, Дома Дагота. Открыв правду о своей родословной, [Select_CString(ROOT.GetCharacter.IsFemale, 'она обрела', 'он обрел' )] тревожную силу, и любовь собратьев по культу."
+ trait_scarab_blood_desc:0 "Этот персонаж является потомком проклятого Великого Шестого Дома, Дома Дагот. Открыв правду о своей родословной, [Select_CString(ROOT.GetCharacter.IsFemale, 'она обрела', 'он обрел' )] тревожную силу, и любовь собратьев по культу."
+ trait_scarab_blood_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является потомком проклятого Великого Шестого Дома, Дома Дагот. Открыв правду о своей родословной, [Select_CString(ROOT.GetCharacter.IsFemale, 'она обрела', 'он обрёл' )] тревожную силу и любовь собратьев по культу."
  
  trait_arcana_good:0 "Позитивное сродство с Арканой"
  trait_arcana_good_1:0 "Сонастроенность"
@@ -142,40 +142,40 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_dragonborn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )] с кровью и душой дракона. Известно, что драконорождённые пользуются благосклонностью богов."
 
  trait_bagarn:0 "Последний из своего рода"
- trait_bagarn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'последняя', 'последний' )] из своего рода. Нет никакой надежды на то, что [ROOT.GetCharacter.GetHerHim] когда-нибудь снова увидит своих родных."
+ trait_bagarn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'последняя', 'последний' )] из своего рода. Нет никакой надежды на то, что [ROOT.GetCharacter.GetHerHim] когда-нибудь снова увидит своих родичей."
 
  trait_line_of_x:0 "Представитель рода [ROOT.Char.GetFirstNameNoTooltip]" # assume named Line of X
  trait_line_of_x_null:0 "Представитель рода" X" # incase character doesnt exist
- trait_line_of_x_desc:0 "Этот персонаж представитель рода [ROOT.Char.GetFirstNameNoTooltip]."
- trait_line_of_x_desc_null:0 "Этот персонаж представитель рода X." # incase character doesnt exist
+ trait_line_of_x_desc:0 "Этот персонаж является представителем рода [ROOT.Char.GetFirstNameNoTooltip]."
+ trait_line_of_x_desc_null:0 "Этот персонаж является представителем рода X." # incase character doesnt exist
  
   trait_lifespan:0 "[enc_lifespan|E]"
 
- trait_lifespan_1:1 "Продолжительность жизни I"
+ trait_lifespan_1:1 "Продолжительность жизни I #italic ([enc_lifespan|E])#!"
  trait_lifespan_1_character_desc:1 "С помощью природы или магии, предполагается что [ROOT.GetCharacter.GetFirstNameNoTooltip] проживет до 100 лет. Женщины с этой чертой становятся бесплодными примерно в 65 лет."
  trait_lifespan_1_desc:1 "С помощью природы или магии, предполагается [Select_CString(ROOT.GetCharacter.IsFemale, 'что она', 'что он' )] проживёт до 100 лет. Женщины с этой чертой становятся бесплодными примерно в 65 лет."
 
- trait_lifespan_2:1 "Продолжительность жизни II"
+ trait_lifespan_2:1 "Продолжительность жизни II #italic ([enc_lifespan|E])#!"
  trait_lifespan_2_character_desc:1 "С помощью природы или магии, предполагается что [ROOT.GetCharacter.GetFirstNameNoTooltip] проживёт больше 100 лет. Женщины с этой чертой становятся бесплодными примерно в 105 лет."
  trait_lifespan_2_desc:1 "С помощью природы или магии, предполагается [Select_CString(ROOT.GetCharacter.IsFemale, 'что она', 'что он' )] проживёт больше 100 лет. Женщины с этой чертой становятся бесплодными примерно в 105 лет."
 
- trait_lifespan_3:1 "Продолжительность жизни III"
+ trait_lifespan_3:1 "Продолжительность жизни III #italic ([enc_lifespan|E])#!"
  trait_lifespan_3_desc:1 "С помощью природы или магии, предполагается [Select_CString(ROOT.GetCharacter.IsFemale, 'что она', 'что он' )] проживёт до 200 лет. Женщины с этой чертой становятся бесплодными примерно в 160 лет."
  trait_lifespan_3_character_desc:1 "С помощью природы или магии, предполагается что [ROOT.GetCharacter.GetFirstNameNoTooltip] проживёт до 200 лет. Женщины с этой чертой становятся бесплодными примерно в 160 лет."
 
- trait_lifespan_4:1 "Продолжительность жизни IV"
+ trait_lifespan_4:1 "Продолжительность жизни IV #italic ([enc_lifespan|E])#!"
  trait_lifespan_4_desc:1 "С помощью природы или магии, предполагается [Select_CString(ROOT.GetCharacter.IsFemale, 'что она', 'что он' )] проживёт до 300 лет. Женщины с этой чертой становятся бесплодными примерно в 215 лет."
  trait_lifespan_4_character_desc:1 "С помощью природы или магии, предполагается что [ROOT.GetCharacter.GetFirstNameNoTooltip] проживёт до 300 лет. Женщины с этой чертой становятся бесплодными примерно в 215 лет."
  
-trait_lifespan_5:1 "Продолжительность жизни V"
+trait_lifespan_5:1 "Продолжительность жизни V #italic ([enc_lifespan|E])#!"
  trait_lifespan_5_desc:1 "С помощью природы или магии, предполагается [Select_CString(ROOT.GetCharacter.IsFemale, 'что она', 'что он' )] проживёт до 500 лет. Женщины с этой чертой становятся бесплодными примерно в 335 лет."
  trait_lifespan_5_character_desc:1 "С помощью природы или магии, предполагается что [ROOT.GetCharacter.GetFirstNameNoTooltip] проживёт до 500 лет. Женщины с этой чертой становятся бесплодными примерно в 335 лет."
 
- trait_lifespan_6:1 "Продолжительность жизни VI"
+ trait_lifespan_6:1 "Продолжительность жизни VI #italic ([enc_lifespan|E])#!"
  trait_lifespan_6_desc:1 "С помощью природы или магии, предполагается [Select_CString(ROOT.GetCharacter.IsFemale, 'что она', 'что он' )] проживёт до 700 лет. Женщины с этой чертой становятся бесплодными примерно в 450 лет."
  trait_lifespan_6_character_desc:1 "С помощью природы или магии, предполагается что [ROOT.GetCharacter.GetFirstNameNoTooltip] проживёт до 700 лет. Женщины с этой чертой становятся бесплодными примерно в 450 лет."
 
- trait_lifespan_7:1 "Бессмертие"
+ trait_lifespan_7:1 "Бессмертие #italic ([enc_lifespan|E])#!"
  trait_lifespan_7_desc:1 "Этот персонаж не умрёт от старости, но за это приходится платить своим телом и разумом."
  trait_lifespan_7_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] не умрёт от старости, но за это приходится платить своим телом и разумом."
  
@@ -186,9 +186,9 @@ trait_lifespan_5:1 "Продолжительность жизни V"
  trait_clan_parent_desc:0 "Мудрость и возраст этого персонажа позволяют ему пользоваться большим уважением и авторитетом среди своего племени и семьи."
  trait_clan_parent_character_desc:0 "Мудрость и возраст [ROOT.GetCharacter.GetFirstNameNoTooltip] позволяют [ROOT.GetCharacter.GetHerHim] пользоваться большим уважением и авторитетом среди своего племени и семьи."
 
- trait_wilderking:0 "Вилдеркинг"
- trait_wilderking_desc:0 "Вилдеркинг - это самопровозглашенный дух лесов Валенвуда, который действует через тела смертных, рожденных с особой связью с землей."
- trait_wilderking_character_desc:0 "Вилдеркинг - это самопровозглашенный дух лесов Валенвуда, который действует через тела смертных, рожденных с особой связью с землей."
+ trait_wilderking:0 "Лесной Король"
+ trait_wilderking_desc:0 "Лесной Король - это самопровозглашённый дух лесов Валенвуда, который действует через тела смертных, рожденных с особой связью с землей."
+ trait_wilderking_character_desc:0 "Лесной Король - это самопровозглашенный дух лесов Валенвуда, который действует через тела смертных, рождённых с особой связью с землей."
 
  # Crimes
  trait_azura_worshipper:0 "Тайный последователь Азуры"
@@ -240,62 +240,62 @@ trait_lifespan_5:1 "Продолжительность жизни V"
  trait_vaermina_worshipper_desc:0 "Этот персонаж в тайне поклоняется Вермине, Королеве Кошмаров, так как это порицается [ROOT.GetCharacter.GetHerHis] верой."
  trait_vaermina_worshipper_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] поклоняется Вермине, Королеве Кошмаров, так как это порицается [ROOT.GetCharacter.GetHerHis] верой."
 
- trait_champion_sanguine:0 "Чемпион Сангвина"
- trait_champion_sanguine_desc:0 "Этот персонаж является чемпионом Сангвина, Принца Кутежа."
- trait_champion_sanguine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом Сангвина, Принца Кутежа."
+ trait_champion_sanguine:0 "Избранник Сангвина"
+ trait_champion_sanguine_desc:0 "$sanguine$, $sanguine_alt$ назначил этого персонажа своим Избранником."
+ trait_champion_sanguine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, который известен как $sanguine$, $sanguine_alt$."
 
- trait_champion_meridia:0 "Чемпион Меридии"
- trait_champion_meridia_desc:0 "Этот персонаж является чемпионом Меридии, Госпожи Бесконечных Энергий."
- trait_champion_meridia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом Меридии, Госпожи Бесконечных Энергий."
+ trait_champion_meridia:0 "Избранник Меридии"
+ trait_champion_meridia_desc:0 "$meridia$, $meridia_alt$ назначила этого персонажа своим Избранником."
+ trait_champion_meridia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, которая известна как $meridia$, $meridia_alt$."
 
- trait_champion_boethiah:0 "Чемпион Боэтии"
- trait_champion_boethiah_desc:0 "Этот персонаж является чемпионом Боэтии, Принца Интриг."
- trait_champion_boethiah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом Боэтии, Принца Интриг."
+ trait_champion_boethiah:0 "Избранник Боэтии"
+ trait_champion_boethiah_desc:0 "$boethiah$, $boethiah_alt$ назначила этого персонажа своим Избранником."
+ trait_champion_boethiah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, которая известна как $boethiah$, the $boethiah_alt$."
 
- trait_champion_molag:0 "Чемпион Молага Бала"
- trait_champion_molag_desc:0 "Этот персонаж является чемпионом Молага Бала, Бога Вероломства."
- trait_champion_molag_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом Молага Бала, Бога Вероломства."
+ trait_champion_molag:0 "Избранник Молага Бала"
+ trait_champion_molag_desc:0 "$molag$, $molag_alt$ назначил этого персонажа своим Избранником."
+ trait_champion_molag_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, который известен как $molag$, $molag_alt$."
 
- trait_champion_azura:0 "Чемпион Азуры"
- trait_champion_azura_desc:0 "Этот персонаж является чемпионом Азуры, Королевы Рассвета и Заката."
- trait_champion_azura_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом Азуры, Королевы Рассвета и Заката."
+ trait_champion_azura:0 "Избранник Азуры"
+ trait_champion_azura_desc:0 "$azura$, $azura_alt$ назначила этого персонажа своим Избранником."
+ trait_champion_azura_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, которая известна как $azura$, $azura_alt$."
 
- trait_champion_clavicus:0 "Чемпион Клавикуса Вайла"
- trait_champion_clavicus_desc:0 "Этот персонаж является чемпионом Клавикуса Вайла, Принца Сделок и Обмана."
- trait_champion_clavicus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом Клавикуса Вайла, Принца Сделок и Обмана."
+ trait_champion_clavicus:0 "Избранник Клавикуса Вайла"
+ trait_champion_clavicus_desc:0 "$clavicus$, $clavicus_alt$ назначил этого персонажа своим Избранником."
+ trait_champion_clavicus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, который известен как $clavicus$, $clavicus_alt$."
  
- trait_champion_mehrunes:0 "Чемпион Мерунеса Дагона"
- trait_champion_mehrunes_desc:0 "Этот персонаж является чемпионом Мерунеса Дагона, Принца Разрушения."
- trait_champion_mehrunes_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом Мерунеса Дагона, Принца Разрушения."
+ trait_champion_mehrunes:0 "Избранник Мерунеса Дагона"
+ trait_champion_mehrunes_desc:0 "$mehrunes$, $mehrunes_alt$ назначил этого персонажа своим Избранником."
+ trait_champion_mehrunes_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, который известен как $mehrunes$, $mehrunes_alt$."
 
- trait_champion_hermaeus:0 "Чемпион Хермеуса Моры"
- trait_champion_hermaeus_desc:0 "Этот персонаж является чемпионом Хермеуса Моры, Принца Знания."
- trait_champion_hermaeus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом Хермеуса Моры, Принца Знания."
+ trait_champion_hermaeus:0 "Избранник Хермеуса Моры"
+ trait_champion_hermaeus_desc:0 "$hermaeus$, $hermaeus_alt$ назначил этого персонажа своим Избранником."
+ trait_champion_hermaeus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, который известен как $hermaeus$, $hermaeus_alt$."
 
- trait_champion_namira:0 "Чемпион Намиры"
- trait_champion_namira_desc:0 "Этот персонаж является чемпионом Намиры, Госпожи Разложения."
- trait_champion_namira_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом Намиры, Госпожи Разложения."
+ trait_champion_namira:0 "Избранник Намиры"
+ trait_champion_namira_desc:0 "$namira$, $namira_alt$ назначила этого персонажа своим Избранником."
+ trait_champion_namira_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, которая известна как $namira$, $namira_alt$."
 
- trait_champion_hircine:0 "Чемпион Хирсина"
- trait_champion_hircine_desc:0 "Этот персонаж является чемпионом Хирсина, Принца Охоты."
- trait_champion_hircine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом Хирсина, Принца Охоты."
+ trait_champion_hircine:0 "Избранник $hircine$а"
+ trait_champion_hircine_desc:0 "$hircine$, $hircine_alt$ назначил этого персонажа своим Избранником."
+ trait_champion_hircine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, который известен как $hircine$, $hircine_alt$."
 
- trait_champion_vaermina:0 "Чемпион Вермины"
- trait_champion_vaermina_desc:0 "Этот персонаж является чемпионом Вермины, Королевы Кошмаров."
- trait_champion_vaermina_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом Вермины, Королевы Кошмаров."
+ trait_champion_vaermina:0 "Избранник Вермины"
+ trait_champion_vaermina_desc:0 "$vaermina$, $vaermina_alt$ назначила этого персонажа своим Избранником."
+ trait_champion_vaermina_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, которая известна как $vaermina$, $vaermina_alt$."
 
- trait_champion_sheogorath:0 "Чемпион Шеогората"
- trait_champion_sheogorath_desc:0 "Этот персонаж является чемпионом Шеогората, Принца Безумия."
- trait_champion_sheogorath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом Шеогората, Принца Безумия."
+ trait_champion_sheogorath:0 "Избранник $sheogorath$а"
+ trait_champion_sheogorath_desc:0 "$sheogorath$, $sheogorath_alt$ назначил этого персонажа своим Избранником."
+ trait_champion_sheogorath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, который известен как $sheogorath$, $sheogorath_alt$."
 
-trait_champion_malacath:0 "Чемпион Малаката"
-trait_champion_malacath_desc:0 "Этот персонаж является чемпионом Малаката, Бога Проклятий."
-trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом Малаката, Бога Проклятий."
+trait_champion_malacath:0 "Избранник $malacath$а"
+trait_champion_malacath_desc:0 "$malacath$, $malacath_alt$ назначил этого персонажа своим Избранником."
+trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, который известен как $malacath$, $malacath_alt$."
 
  # Coping mechanisms
  trait_skooma_drinker:0 "Зависимость от скумы"
- trait_skooma_drinker_desc:0 "Этот персонаж известен своим пристрастием к сладкому и к скуме."
- trait_skooma_drinker_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'известна', 'известен' )] своим пристрастием к сладкому и к скуме."
+ trait_skooma_drinker_desc:0 "Этот персонаж известен своим сладкоголизмом и пристрастием к скуме."
+ trait_skooma_drinker_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'известна', 'известен' )] своим сладкоголизмом и пристрастием к скуме."
 
  #Tsaescence
  trait_tsaesci:0 "Цаэски"
@@ -316,15 +316,15 @@ trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoToolt
 
  #trait_furstock_cathay:0 "Cathay"
  trait_furstock_cathay:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Катай' )]"
- trait_furstock_cathay_desc:0 "Катай немного крупнее и сильнее, чем Сутай-рат. Они рождаются, когда Массер восходит, а Секунда полная. А ещё у Катай стопоходящие ноги."
+ trait_furstock_cathay_desc:0 "Катай немного крупнее и сильнее, чем сутай-рат. Они рождаются при новом Массере и полной Секунде. А ещё у катай стопоходящие ноги."
 
  #trait_furstock_cathay_raht:0 "Cathay-Raht"
  trait_furstock_cathay_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Катай-рат' )]"
- trait_furstock_cathay_raht_desc:0 "Катай-рат были прозваны Императорским Географическим Обществом "людьми-ягуарами" за их рост и свирепость. Говорят, что они обладают фаллическими колючками."
+ trait_furstock_cathay_raht_desc:0 "Катай-рат были прозваны Имперским географическим обществом 'людьми-ягуарами' за их рост и свирепость. Говорят, что они обладают фаллическими колючками."
 
  #trait_furstock_dagi:0 "Dagi"
  trait_furstock_dagi:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Даги' )]"
- trait_furstock_dagi_desc:0 "Черты лиц Даги обычно напоминают черты лица рыси. Они предпочитают жить среди деревьев, а не на земле, благодаря своему росту и легкому телосложению. Считается, что они обладают магическими способностями."
+ trait_furstock_dagi_desc:0 "Черты лиц даги обычно напоминают рысьи. Они предпочитают жить среди деревьев, а не на земле, благодаря своему росту и легкому телосложению. Считается, что они обладают магическими способностями."
 
  #trait_furstock_dagi_raht:0 "Dagi-Raht"
  trait_furstock_dagi_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Даги-рат' )]"
@@ -332,43 +332,43 @@ trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoToolt
  
  #trait_furstock_ohmes:0 "Ohmes"
  trait_furstock_ohmes:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Ом' )]"
- trait_furstock_ohmes_desc:0 "Ом рождаются, когда Массер только восходит, а Секунда уже полная, их описывают как человекоподобных и мужеподобных, с ярко выраженными эльфийскими чертами лица, похожих на Босмеров, хотя иногда они ниже ростом. Чтобы не быть принятыми за таковых, многие Ом татуируют или раскрашивают свои лица, чтобы походить на своих собратьев."
+ trait_furstock_ohmes_desc:0 "Ом рождаются при новом Массере и полной Секунде, их описывают как человекоподобных существ, с ярко выраженными эльфийскими чертами лица, похожих на босмеров, хотя иногда они ниже ростом. Чтобы не быть принятыми за таковых, многие Ом татуируют или раскрашивают свои лица, чтобы походить на своих собратьев."
 
  #trait_furstock_ohmes_raht:0 "Ohmes-Raht"
  trait_furstock_ohmes_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Ом-рат' )]"
- trait_furstock_ohmes_raht_desc:0 "Ом-рат легко принять за эльфов или людей, но тело Ом-рат покрыто светлым мехом, и у них есть хвост. Они татуируют или раскрашивают свои лица, чтобы походить на своих собратьев."
+ trait_furstock_ohmes_raht_desc:0 "Ом-рат легко принять за эльфов или людей, но тело ом-рат покрыто светлым мехом и у них есть хвост. Они татуируют или раскрашивают свои лица, чтобы походить на своих собратьев."
 
  #trait_furstock_pahmar:0 "Pahmar"
  trait_furstock_pahmar:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Памар' )]"
- trait_furstock_pahmar_desc:0 "Памар - гигантский двуногий пушной зверь, похожий на Сенч-тигров, которые рождаются, когда Массер полный, а Секунда - новая."
+ trait_furstock_pahmar_desc:0 "Памар - гигантская двуногая порода каджитов, похожая на сенч-тигров, которые рождаются при полном Массере и новой Секунде."
 
  #trait_furstock_pahmar_raht:0 "Pahmar-Raht"
  trait_furstock_pahmar_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Памар-рат' )]"
- trait_furstock_pahmar_raht_desc:0 "Памар-рат - гигантский двуногий пушной зверь, рождающийся, когда Массер полный, а Секунда убывает. Поскольку они самые сильные из пушных зверей, их обычно используют в качестве телохранителей и воинов. Они похожи на Сенч-тигров, но Памар-раты отличаются от них тем, что они крупнее и опаснее, с стопоходящими ногами и массивным ростом."
+ trait_furstock_pahmar_raht_desc:0 "Памар-рат - гигантская двуногая порода каджитов, рождающаяся при полном Массере и убывающей Секунде. Поскольку они самые сильные из пород каджитов, их обычно используют в качестве телохранителей и воинов. Они похожи на сенч-тигров, но памар-раты отличаются от них тем, что они крупнее и опаснее, с стопоходящими ногами и массивным ростом."
 
  #trait_furstock_suthay:0 "Suthay"
  trait_furstock_suthay:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Сутай' )]"
- trait_furstock_suthay_desc:0 "Как и их старшие братья, Сутай-раты, они двуногие и имеют пальцеобразные ноги. Сутай рождаются, когда Массер и Секунда ещё не взошли."
+ trait_furstock_suthay_desc:0 "Как и их старшие братья, сутай-раты, они двуногие и имеют пальцеходящие ноги. Сутай рождаются при новом Массер и новой Секунде."
 
  #trait_furstock_suthay_raht:0 "Suthay-Raht"
  trait_furstock_suthay_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Сутай-рат' )]"
- trait_furstock_suthay_raht_desc:0 "Сутай-рат иногда, непонятны даже для самих каджитов, их прозвали "джа'каджитами". Рожденные во время нового Массера и угасания Секунды, они похожи ростом и телосложением на представителей человеческой расы, отличаясь лишь пальцеобразными ногами и фаллическими колючками. Полностью покрытые мехом разных цветов и узоров, Сутай-раты известны как хорошие прыгуны, ловкие, хитрые и смелые. Это делает их хорошими искателями приключений и торговцами."
+ trait_furstock_suthay_raht_desc:0 "Порой сутай-раты непонятны даже для самих каджитов, их прозвали 'джа'каджитами'. Рождённые при новом Массере и убывающей Секунде, они похожи ростом и телосложением на представителей человеческих рас, отличаясь лишь пальцеходящими ногами и фаллическими колючками. Полностью покрытые мехом разных цветов и узоров, сутай-раты известны как хорошие прыгуны, ловкие, хитрые и смелые. Это делает их хорошими искателями приключений и торговцами."
 
  #trait_furstock_tojay:0 "Tojay"
  trait_furstock_tojay:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Тоджай' )]"
- trait_furstock_tojay_desc:0 "Тоджаи - одна из самых загадочных пород, рожденные, когда Массер восходит, а Секунда - новая. О них мало что известно, кроме того, что они обитают в южных болотах и джунглях Эльсвейра, а также в лесу Тенмар."
+ trait_furstock_tojay_desc:0 "Тоджаи - одна из самых загадочных пород, рождённые при нарастающем Массере и новой Секунде. О них мало что известно, кроме того, что они обитают в южных болотах и джунглях Эльсвейра, а также в Тенмарском лесу."
  
  #trait_furstock_tojay_raht:0 "Tojay-Raht"
  trait_furstock_tojay_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Тоджай-рат' )]" 
- trait_furstock_tojay_raht_desc:0 "Тоджай-рат рождаются, когда Массер восходит а Секунда убывает, о них известно немногое, кроме того, что они двуногие и имеют пальцеобразные ноги."
+ trait_furstock_tojay_raht_desc:0 "Тоджай-рат рождаются при нарастающем Массере и убывающей Секунде, о них известно немногое, кроме того, что они двуногие и имеют пальцеходящие ноги."
 
  trait_laid_egg:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Отложила', 'Отложил' )] яйцо"
- trait_laid_egg_desc:0 "Этот персонаж отложил яйцо недавно."
- trait_laid_egg_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'Отложила', 'Отложил' )] яйцо недавно."
+ trait_laid_egg_desc:0 "Этот персонаж недавно отложил яйцо."
+ trait_laid_egg_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] недавно [Select_CString(ROOT.GetCharacter.IsFemale, 'отложила', 'отложил' )] яйцо."
  
- trait_argonian_behemoth:0 "Бегемот"
- trait_argonian_behemoth_desc:0 "Этот персонаж является большим толстым бегемотом"
- trait_lich_argonian_behemoth_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является большим толстым бегемотом"
+ trait_argonian_behemoth:0 "Чудовище"
+ trait_argonian_behemoth_desc:0 "Этот персонаж является большим толстым чудовищем"
+ trait_lich_argonian_behemoth_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является большим толстым чудовищем"
 
  ### PRAXIS
  # PLACEHOLDER

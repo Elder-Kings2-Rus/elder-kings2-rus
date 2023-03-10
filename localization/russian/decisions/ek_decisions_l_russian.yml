@@ -201,9 +201,9 @@
  learn_liturgical_language_decision_tooltip:0 "Начнёт [scheme|El], которые позволят вам овладеть [Concept( 'liturgical_language', 'литургическим языком' )|E] вашей [Concept( 'faith', 'конфессии' )|E]"
 
  champion_conversion_decision:0 "Посвятить себя своему Принцу"
- champion_conversion_decision_desc:0 "Хоть вы и являетесь Чемпионом своего Принца, вы не исповедуете открыто его конфессию. Но это может измениться прямо сейчас."
+ champion_conversion_decision_desc:0 "Хоть вы и являетесь Избранником своего Принца, вы не исповедуете открыто его конфессию. Но это может измениться прямо сейчас."
  champion_conversion_decision_confirm:0 "Теперь я [Select_CString(ROOT.Char.IsFemale, 'предана', 'предан' )] тебе, мой Принц!"
- champion_conversion_decision_tooltip:0 "Измените свою [Concept( 'faith', 'конфессию' )|E], чтобы лучше соответствовать своему статусу Чемпиона"
+ champion_conversion_decision_tooltip:0 "Измените свою [Concept( 'faith', 'конфессию' )|E], чтобы лучше соответствовать своему статусу Избранника"
 
  sanguine_deal_decision:0 "Искать принца кутежа"
  sanguine_deal_decision_desc:0 "Проклятие, наложенное на вас Сангвином, тяжким бременем ложится на вашу способность править вашими землями. Поэтому вы решили приложить все усилия, чтобы найти его и пересмотреть свою часть сделки."
