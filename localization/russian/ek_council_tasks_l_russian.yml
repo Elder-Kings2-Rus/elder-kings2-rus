@@ -7,5 +7,3 @@
  
  task_promote_culture_effect_no_culure_to_convert_desc:0 "#S При #V 100%#!#!:\n$TAB$[county|E] меняет [Concept('culture', 'культуру')|E] на выбранную вами культуру"
  task_promote_culture_acceptance_effect_no_culure_to_convert_desc:0 "\n$TAB$[cultural_acceptance|E] между #L [county.GetProvince.GetCounty.GetCulture.GetCollectiveNoun|l]ой#! и выбранной вами культурой уменьшиться на [SCOPE.ScriptValue('culture_conversion_acceptance_impact')|N^/%]"
-
-####
