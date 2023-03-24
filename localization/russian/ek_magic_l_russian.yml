@@ -374,7 +374,7 @@ absorb_skill_perk_name: "Ослабить навык"
  firestorm_perk_name:0 "$firestorm_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('firestorm_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('firestorm_province'), '(CFixedPoint)1'), '$spell_province_perk$' )]"
  weakness_disease_name:0 "Слабость к болезням"
  weakness_disease_perk_name:0 "$weakness_disease_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('weakness_disease_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('weakness_disease_province'), '(CFixedPoint)1'), '$spell_province_perk$' )]"
- weakness_weapons_name:0 "Слабость у оружию"
+ weakness_weapons_name:0 "Слабость к оружию"
  weakness_weapons_perk_name:0 "$weakness_weapons_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('weakness_weapons_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('weakness_weapons_province'), '(CFixedPoint)1'), '$spell_province_perk$' )]"
  
  #Illusion

@@ -20,3 +20,6 @@
  convert_to_feudalism_liege_converted_decision:0 "Принять форму правления [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|l] через сюзерена" # Scorg. Так звучит длиннее, но красивее 
  convert_to_feudalism_liege_converted_decision_desc:1 "Моя держава растет, и контролировать её всё сложнее. Мой сюзерен уже следует такой системе, как [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|l], и, когда я буду проводить реформы в своих владениях, мне стоит попросить [ROOT.Char.GetLiege.GetHerHis] помощи." # Scorg. Форма правления с маленькой буквы
  CHANGE_MY_GOVERNMENT:0 "Вашей новой формой правления станет [GOVERNMENT.GetName|l]" # Scorg. Форма правления с маленькой буквы
+ huntwife_court_position:0 "Жена-охотница" # Scorg. Почему-то без замены в папке replace название должности не переводится.
+ forgewife_court_position:0 "Жена-кузнец" # Scorg. Почему-то без замены в папке replace название должности не переводится.
+ hearthwife_court_position:0 "Жена-хранительница очага" # Scorg. Почему-то без замены в папке replace название должности не переводится.

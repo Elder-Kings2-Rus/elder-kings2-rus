@@ -416,7 +416,7 @@
  tradition_northmen_core_trigger_desc:0 "Является либо $northmen$ [culture|E], либо [Concept('culture', 'культурой')|E], происходящей от $northmen$ и не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_hill_dwellers').GetName|V]."
  tradition_bjoule_core_trigger_desc:0 "Является либо $bjoule$ [culture|E], либо [Concept('culture', 'культурой')|E], происходящей от $bjoule$ и не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_chivalry').GetName|V]."
  tradition_wrothgarian_core_trigger_desc:0 "Является либо $wrothgarian$ [culture|E], либо [Concept('culture', 'культурой')|E], происходящей от $wrothgarian$ и не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_mountain_homes').GetName|V]."
- tradition_khajiit_trigger_desc:0 "$Khajiiti$ [heritage|E]"
+ tradition_khajiit_trigger_desc:0 "Имеет либо каджитское [heritage|El], либо является [Concept('culture', 'культурой')|E], происходящей от него."
  cannot_have_tradition_festivities:0 "Не имеет [GetCultureTradition('tradition_festivities').GetName|V]"
  tradition_nedic_trigger_desc:0 "Является либо $North Nedic$, $Central Nedic$ или $South Nedic$ [heritage|E], либо [Concept('culture', 'культурой')|E], происходящей от них."
  tradition_moonsugar_plantations_trigger_desc:0 "Является либо $pellitinian$, либо [Concept('culture', 'культурой')|E], происходящей от $pellitinian$."
