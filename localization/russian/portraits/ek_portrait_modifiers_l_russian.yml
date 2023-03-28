@@ -54,9 +54,9 @@
  
  ### South Nedic  ###
 
- PORTRAIT_MODIFIER_facepaint_facepaint_nede_south_01:0 "Недесская на всё тело 1"
- PORTRAIT_MODIFIER_facepaint_facepaint_nede_south_02:0 "Недесская на всё тело 2"
- PORTRAIT_MODIFIER_facepaint_facepaint_nede_south_03:0 "Недесская на всё тело 3"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nede_south_01:0 "Недийская на всё тело 1"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nede_south_02:0 "Недийская на всё тело 2"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nede_south_03:0 "Недийская на всё тело 3"
  
  #########################################
 ################ Jewellery ################
@@ -195,17 +195,17 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ayleid_01_common:0 "Айлейдская обычная одежда"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ayleid_01_low:0 "Айлейдское низшее дворянство"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ayleid_01_high:0 "Айлейдское высшее дворянство"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_south_nedic_01:0 "Недическая мужская одежда"	
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_south_nedic_01:0 "Недийская мужская одежда"	
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_01_common:0 "Айлейдские обычные поножи 1"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_02_common:0 "Айлейдские обычные поножи 2"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_01_low:0 "Айлейдские поножи низшего дворянства 1"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_02_low:0 "Айлейдские поножи низшего дворянства 2"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_01_high:0 "Айлейдские поножи высшего дворянства 1"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_02_high:0 "Айлейдские поножи высшего дворянства 2"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_01_low:0 "Недические поножи низшего дворянства 1"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_02_low:0 "Недические поножи низшего дворянства 2"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_01_high:0 "Недические поножи высшего дворянства 1"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_02_high:0 "Недические поножи высшего дворянства 2"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_01_low:0 "Недийские поножи низшего дворянства 1"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_02_low:0 "Недийские поножи низшего дворянства 2"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_01_high:0 "Недийские поножи высшего дворянства 1"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_02_high:0 "Недийские поножи высшего дворянства 2"
  
 ### Female ###
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ayleid_crown_01:0 "Айлейдская диадема"
@@ -213,13 +213,13 @@
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ayleid_02_common:0 "Айлейдская обычная одежда"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ayleid_02_low:0 "Айлейдское низшее дворянство"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ayleid_02_high:0 "Айлейдское высшее дворянство"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_south_nedic_01_low:0 "Недическое низшее дворянство"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_south_nedic_01_high:0 "Недическое высшее дворянство"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_south_nedic_01_low:0 "Недийское низшее дворянство"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_south_nedic_01_high:0 "Недийское высшее дворянство"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_ayleid_01_common:0 "Айлейдские обычные поножи"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_ayleid_01_low:0 "Айлейдские поножи низшего дворянства"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_ayleid_01_high:0 "Айлейдские поножи высшего дворянства"
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_south_nedic_01_low:0 "Недические поножи низшего дворянства"
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_south_nedic_01_high:0 "Недические поножи высшего дворянства"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_south_nedic_01_low:0 "Недийские поножи низшего дворянства"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_south_nedic_01_high:0 "Недийские поножи высшего дворянства"
 
 #########################################
 ################ Altmer ################

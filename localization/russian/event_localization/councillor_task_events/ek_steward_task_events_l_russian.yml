@@ -1,18 +1,18 @@
 ﻿l_russian:
  steward_task.0302.opening:0 "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
- steward_task.0302.county_complete:0 "С #L [new_culture.GetCollectiveNoun]им#! поселением и установкой новой администрации, народ [county.GetNameNoTier] полностью принял #L [new_culture.GetCollectiveNoun]ие#! традиции.\n\nХотя они не в полной мере разделяют наши #L [ROOT.Char.GetCulture.GetCollectiveNoun]ие#! обычаи, они гораздо ближе к нам, чем предыдущее #L [old_culture.GetCollectiveNoun]ое#! население."
+ steward_task.0302.county_complete:0 "С #L [new_culture.GetCollectiveNoun]им#! поселением и установкой новой администрации, народ графства [county.GetNameNoTier] полностью принял #L [new_culture.GetCollectiveNoun]ие#! традиции.\n\nХотя они не в полной мере разделяют наши #L [ROOT.Char.GetCulture.GetCollectiveNoun]ие#! обычаи, они гораздо ближе к нам, чем предыдущее #L [old_culture.GetCollectiveNoun]ое#! население."
  steward_task.0302.a:0 "Отличная работа, [councillor.GetFirstNameNoTooltip]!"
 
  task_promote_culture_effect_basis_desc:1 "#S В #V 100%#!#!:\n$TAB$[Concept( 'county', 'Графство' )|E] принимает #L [councillor_liege.GetCulture.GetCollectiveNoun|l]ую#! [Concept( 'culture', 'культуру' )|E]"
  task_promote_culture_effect_culture_known_desc:1 "WIP, NEED A WAY TO GET THE NAME OF THE CULTURE STORED IN scope:county.var:culture_to_convert"
 
  culture_within_heritage_alive:0 "Минимум одна [Concept( 'culture', 'культура' )|E] вашего [Concept( 'heritage', 'наследия' )|E] должна быть доступна"
- ek_steward_task.0001.t:0 "Новые поселенцы в [county.GetNameNoTier]"
- ek_steward_task.0001.desc.same_heritage:0 "В то время как #L [county_old_culture.GetCollectiveNoun|l]ие#! обычаи и традиции близки к нашим собственным, есть польза в том, чтобы убедиться, что наши подданные в [county.GetNameNoTier] разделяют нашу идентичность или, по крайней мере, разделяют идентичность другой близкой культуры, благодаря чему нам, возможно, будет легче ими руководить."
+ ek_steward_task.0001.t:0 "Новые поселенцы в графстве [county.GetNameNoTier]"
+ ek_steward_task.0001.desc.same_heritage:0 "В то время как #L [county_old_culture.GetCollectiveNoun|l]ие#! обычаи и традиции близки к нашим собственным, есть польза в том, чтобы убедиться, что наши подданные в графстве [county.GetNameNoTier] разделяют нашу идентичность или, по крайней мере, разделяют идентичность другой близкой культуры, благодаря чему нам, возможно, будет легче ими руководить."
  ek_steward_task.0001.desc.other_heritage:0 "Население графства [county.GetNameNoTier] всё ещё цепляется за свои #L [county_old_culture.GetCollectiveNoun|l]ие#! традиции и обычаи. Из-за их упрямства ими трудно управлять, и было бы лучше поселить там кого-нибудь из нашего собственного народа."
- ek_steward_task.0001.desc.nomadic:0 "\n\n#L [county_old_culture.GetCollectiveNoun]ий#! народ известен своими кочевыми традициями, и большинство жителей графства путешествовали по всему [de_jure_duchy.GetNameNoTier]. Привлечение поселенцев для захвата различных поселений должно оказаться проще."
+ ek_steward_task.0001.desc.nomadic:0 "\n\n#L [county_old_culture.GetCollectiveNoun]ий#! народ известен своими кочевыми традициями, и большинство жителей графства путешествовали по всему герцогству [de_jure_duchy.GetNameNoTier]. Привлечение поселенцев для захвата различных поселений должно оказаться проще."
  ek_steward_task.0001.desc.ending_orsinium_orcs:0 "\n\nСотни орков со всего Тамриэля слышали о нашем новом и сильном Орсиниуме, и мы едва можем сдерживать наплыв воинов и мигрантов, желающих помочь восстановить город орочьего рода."
- ek_steward_task.0001.desc.ending:0 "\n\nПоселенцы из различных поселений и городов готовы начать новую жизнь в [county.GetNameNoTier], и большинство из них просто ждут нашего одобрения."
+ ek_steward_task.0001.desc.ending:0 "\n\nПоселенцы из различных поселений и городов готовы начать новую жизнь в графстве [county.GetNameNoTier], и большинство из них просто ждут нашего одобрения."
  ek_steward_task.0001.orcs_orsinium:0 "#L [own_culture.GetCollectiveNoun]ий#! народ всегда рады видеть в Орсиниуме!"
  ek_steward_task.0001.convert_orcs_orsinium_tooltip:0 "Из-за [Concept( 'innovation', 'инновации' )|E] #V Жители Потерянного Орсиниума#!, мы можем преобразовать культуру провинций в пределах Королевства Орсиниум де-Юре, как если бы мы были [native|E] отсюда."
  ek_steward_task.0001.own_culture:0 "Мы должны поселить наш народ здесь."
