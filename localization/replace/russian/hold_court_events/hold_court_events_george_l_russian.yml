@@ -50,7 +50,7 @@ l_russian:
  hold_court.7000.a:1 "Попробуйте взглянуть на это с другой стороны..."
  hold_court.7000.a.speaker:1 "#italic "Попробуйте взглянуть на это с другой стороны..."#"
  hold_court.7000.a.speaker.flavor:1 "Мой глашатай может изложить моё дело, если я того пожелаю"
- hold_court.7000.a.success:0 "You successfully convince [rival_1.GetTitledFirstNameNoTooltip] and [rival_2.GetTitledFirstNameNoTooltip] to drop the matter"
+ hold_court.7000.a.success:0 "Ваши разумные речи имеют успех: [rival_1.GetTitledFirstNameNoTooltip] и [rival_2.GetTitledFirstNameNoTooltip] соглашаются, что проблема не так велика"
  hold_court.7000.a.success.toast:0 "Убедительная речь"
  hold_court.7000.a.failure:0 "Ваши слова не возымели успеха: [rival_1.GetTitledFirstNameNoTooltip] и [rival_2.GetTitledFirstNameNoTooltip] отказываются забыть о проблеме"
  hold_court.7000.a.failure.toast:0 "Неубедительная речь"
