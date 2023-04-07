@@ -115,13 +115,13 @@
  mundus_tamriel_elsweyr:0 "Эльсвейр"
  
  mundus_tamriel_morrowind_ascadia:0 "Аскадия"
- mundus_tamriel_morrowind_ashlands:0 "Эшлэнд"
+ mundus_tamriel_morrowind_ashlands:0 "Пепельные земли"
  mundus_tamriel_morrowind_azura_coast:0 "Побережье Азуры"
  mundus_tamriel_morrowind_vvardenfell:0 "Вварденфелл"
  mundus_tamriel_morrowind_velothis:0 "Велотис"
  mundus_tamriel_morrowind_stonefalls:0 "Стоунфолз"
  mundus_tamriel_morrowind_velothi_range:0 "Горы Велоти"
- mundus_tamriel_morrowind_deshaan:0 "Дешаана"
+ mundus_tamriel_morrowind_deshaan:0 "Дешаан"
  mundus_tamriel_morrowind_narsis:0 "Нарсис"
  mundus_tamriel_morrowind_greater_deshaan:0 "Великий Дешаан"
  mundus_tamriel_morrowind_necrom:0 "Некром"
@@ -190,7 +190,7 @@
  custom_nativity_auridon:0 "Ауридон (Родной регион)"
  custom_nativity_summerset:0 "Саммерсет (Родной регион)"
  
- custom_nativity_grahtwood:0 "Гартвуд (Родной регион)"
+ custom_nativity_grahtwood:0 "Гратвуд (Родной регион)"
  custom_nativity_greenshade:0 "Гриншейд (Родной регион)"
  custom_nativity_malabal_tor:0 "Малабал-Тор (Родной регион)"
  custom_nativity_reaper_march:0 "Марка Смерти (Родной регион)"
@@ -213,6 +213,6 @@
  ## Innovations regions
  world_innovation_longboats:0 "Северное побережье Скайрима и Солстхейм" #Шлюпы
  world_innovation_mammoths:0 "Карт и Ротгар" #Боевые мамонты 
- world_innovation_camels:0 "Пустыни Хаммерфелла, Йокуды, и Анеквины" #Боевые верблюды 
+ world_innovation_camels:0 "Пустыни Хаммерфелла, Йокуды и Анеквины" #Боевые верблюды 
  world_innovation_gunpowder:0 "Залив Илиак и Абесин" #Порох
- world_innovation_abecean_piratry:0 "Абесин, Проклятье Хью, и Анвил" #Пиратство в Абесине
+ world_innovation_abecean_piratry:0 "Абесин, Проклятье Хью и Анвил" #Пиратство в Абесине
