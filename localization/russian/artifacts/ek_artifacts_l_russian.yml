@@ -3,4 +3,4 @@
  artifact_headhunter_trophy_of_the_enemy_description:0 "Эта голова была отнята [owner.GetTitledFirstName] после убийства [victim_knight.GetTitledFirstName]."
 
  artifact_torture_trophy_of_victim_name:0 "Трофей из [recipient.GetTitledFirstNameNoTooltip]"
- artifact_torture_trophy_of_victim_desc:0 "Этот... торфей был взят [owner.GetTitledFirstName] во время ужасающих пыток [recipient.GetTitledFirstName]"
+ artifact_torture_trophy_of_victim_desc:0 "Этот... трофей был взят [owner.GetTitledFirstName] во время ужасающих пыток [recipient.GetTitledFirstName]"

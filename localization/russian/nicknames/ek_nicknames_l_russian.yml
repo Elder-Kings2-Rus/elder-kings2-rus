@@ -23,7 +23,7 @@
  nick_long_rule:0 "Долгое Правление"
  nick_the_righteous:0 "Праведник"
  nick_the_elder:0 "Старейшина"
- nick_the_blood_queen:0 "Кровавая Королева"
+ nick_the_blood_queen:0 "Кровавая королева"
  nick_the_distrait:0 "[Select_CString(CHARACTER.IsFemale, 'Рассеянная', 'Рассеянный' )]"
  nick_the_jewel:0 "Драгоценность"
  nick_the_star:0 "Звезда"
@@ -118,7 +118,7 @@
  nick_handless:0 "[Select_CString(CHARACTER.IsFemale, 'Безрукая', 'Безрукий' )]"
  nick_the_shadow:0 "Тень"
  nick_the_tall:0 "[Select_CString(CHARACTER.IsFemale, 'Высокая', 'Высокий' )]"
- nick_prince_of_garlands:0 "Принц Венков"
+ nick_prince_of_garlands:0 "Князь гирлянд" #Проповедь Вивека 21
  nick_the_silvertongue:0 "Серебряный Язык"
  nick_stone_singer:0 "Каменный Певец"
  nick_the_bosmer:0 "[Select_CString(CHARACTER.IsFemale, 'Босмерка', 'Босмер' )]"

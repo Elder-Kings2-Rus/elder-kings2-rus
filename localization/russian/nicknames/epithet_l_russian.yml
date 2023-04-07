@@ -546,7 +546,7 @@ rule_epithet_frequency:0 "Эпитеты"
  nick_the_monarch_of_the_sky:0 "Монарх Неба"
  nick_ruler_of_the_four_horizons:0 "Правитель четырех горизонтов"
  nick_the_scholar_king:0 "Учёный-[CHARACTER.GetTitleAsNameNoTooltip]"
- nick_the_righteous:0 "[Select_CString(CHARACTER.IsFemale, 'Добродетельная', 'Добродетельный')]"
+ nick_the_righteous:0 "[Select_CString(CHARACTER.IsFemale, 'Праведная', 'Праведный')]" #Рислав Праведный
  nick_the_despoiler:0 "[Select_CString(CHARACTER.IsFemale, 'Разорительница', 'Разоритель')]"
  nick_the_far_sighted:0 "[Select_CString(CHARACTER.IsFemale, 'Дальновидная', 'Дальновидный')]"
  nick_the_calm:0 "[Select_CString(CHARACTER.IsFemale, 'Тихая', 'Тихий')]"
