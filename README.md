@@ -18,6 +18,6 @@ Steam - https://steamcommunity.com/sharedfiles/filedetails/?id=2887120253
 
 ## Автоматическая установка
 ### Для тех, кто использует Steam
-1. Подписаться на модификацию и русификатор в [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2887695716)
+1. Подписаться на [модификацию](https://steamcommunity.com/workshop/filedetails/?id=2887120253) и [русификатор](https://steamcommunity.com/sharedfiles/filedetails/?id=2887695716) в Steam
 2. В лаунчере игры подключить к вашему игровому набору мод под названием "Elder Kings 2 | Русификатор", разместив его ниже чем Elder Kings 2
 3. Играть и получать удовольствие
