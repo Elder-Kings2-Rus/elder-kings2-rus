@@ -250,7 +250,7 @@ trait_lifespan_5:1 "Продолжительность жизни V #italic ([en
 
  trait_champion_boethiah:0 "Избранник Боэтии"
  trait_champion_boethiah_desc:0 "$boethiah$, $boethiah_alt$ назначила этого персонажа своим Избранником."
- trait_champion_boethiah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, которая известна как $boethiah$, the $boethiah_alt$."
+ trait_champion_boethiah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, которая известна как $boethiah$, $boethiah_alt$."
 
  trait_champion_molag:0 "Избранник Молага Бала"
  trait_champion_molag_desc:0 "$molag$, $molag_alt$ назначил этого персонажа своим Избранником."
