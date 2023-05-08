@@ -63,9 +63,6 @@ trait_lycan_character:0 "Оборотень"
 trait_lycan_character_desc:0 "Этот персонаж - ликантроп, существо, проклятое трансформацией тела под влиянием лун Нирна."
 trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - ликантроп, существо, проклятое трансформацией тела под влиянием лун Нирна." #character_character
 
- trait_occultist:0 "Оккультист"
- trait_occultist_desc:0 "Этот персонаж [Select_CString(ROOT.GetCharacter.IsFemale, 'является могущественной ведьмой. Она провела', 'является могущественным колдуном. Он провёл' )] старый и тёмный ритуал, чтобы обменять часть своей человечности на забытые силы."
- trait_occultist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'является могущественной ведьмой', 'является могущественным колдуном' )] и [Select_CString(ROOT.GetCharacter.IsFemale, 'она провела', 'он провёл' )] старый и тёмный ритуал, чтобы обменять часть своей человечности на забытые силы."
 
  trait_lich_character:0 "Лич"
  trait_lich_character_desc:0 "Этот персонаж пошёл навстречу смерти и одолел её с помощью тёмной магии и запретных ритуалов, преобразовавшись в лича и стал нежитью."
@@ -137,6 +134,16 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_disrupted:0 "Истощённость"
  trait_disrupted_desc:0 "Магические способности этого персонажа были целенаправленно истощены."
  trait_disrupted_character_desc:0 "Магические способности [ROOT.GetCharacter.GetFirstNameNoTooltip] были целенаправленно истощены."
+
+trait_experimentalist:0 "Experimentalist"
+trait_experimentalist_desc:0 "This character enjoys to perform all kinds of magical experiments and tends to forget [ROOT.GetCharacter.GetHerHis] mundane sorrows while doing so."
+trait_experimentalist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] enjoys to perform all kinds of magical experiments and tends to forget [ROOT.GetCharacter.GetHerHis] mundane sorrows while doing so."
+
+trait_experimentalist_necromancer:0 "Experimentalist"
+trait_experimentalist_necromancer_desc:0 "This character enjoys to perform all kinds of magical experiments and tends to forget [ROOT.GetCharacter.GetHerHis] mundane sorrows while doing so."
+experimentalist_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] enjoys to perform all kinds of magical experiments and tends to forget [ROOT.GetCharacter.GetHerHis] mundane sorrows while doing so."
+experimentalist_necromancer_player_desc:0 "Secret Necromancer"
+trait_experimentalist_necromancer_player_desc:0 "This character is secretly a necromancer. Though the true nature of [ROOT.GetCharacter.GetHerHis] dark doings is still hidden from the world."
 
  trait_dragonborn:0 "[Select_CString(ROOT.Char.IsFemale, 'Драконорождённая', 'Драконорождённый' )]"
  trait_dragonborn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )] с кровью и душой дракона. Известно, что драконорождённые пользуются благосклонностью богов."
@@ -291,6 +298,18 @@ trait_lifespan_5:1 "Продолжительность жизни V #italic ([en
 trait_champion_malacath:0 "Избранник $malacath$а"
 trait_champion_malacath_desc:0 "$malacath$, $malacath_alt$ назначил этого персонажа своим Избранником."
 trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, который известен как $malacath$, $malacath_alt$."
+
+ trait_champion_mephala:0 "Champion of $mephala$"
+ trait_champion_mephala_desc:0 "This character is the appointed champion of $mephala$, the $mephala_alt$."
+ trait_champion_mephala_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the appointed champion of $mephala$, the $mephala_alt$."
+
+ trait_champion_peryite:0 "Champion of $peryite$"
+ trait_champion_peryite_desc:0 "This character is the appointed champion of $peryite$, the $peryite_alt$."
+ trait_champion_peryite_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the appointed champion of $peryite$, the $peryite_alt$."
+
+ trait_champion_nocturnal:0 "Champion of $nocturnal$"
+ trait_champion_nocturnal_desc:0 "This character is the appointed champion of $nocturnal$, the $nocturnal_alt$."
+ trait_champion_nocturnal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the appointed champion of $nocturnal$, the $nocturnal_alt$."
 
  # Coping mechanisms
  trait_skooma_drinker:0 "Зависимость от скумы"

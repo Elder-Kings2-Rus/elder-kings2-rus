@@ -1,6 +1,5 @@
 ﻿l_russian:
- EXECUTION_ENTHRALL:0 "Жертвоприношение и Порабощение"
- enthrall_as_execution_tooltip:0 "Когда вы принесете [recipient.GetHerHim] в жертву и воскресите [recipient.GetHerHis] труп, чтобы он стал вашим верным слугой:"
+ EXECUTION_ENTHRALL:0 "Превратить в нежить-трэлла"
  
  extract_blood_price_interaction:0 "Взыскать Кровавую цену"
  extract_blood_price_interaction_desc:0 "[prisoner.GetFirstNameNoTooltip] не может быть оплачен ни золотом, ни временем. Только кровь удовлетворит нас."
@@ -14,9 +13,9 @@
  ###Disrupt Arcana Interaction
  recently_disrupted:0 "Недавно истощён"
  
- make_clan_parent_interaction:0 "Назначить родителем клана"
+ make_clan_parent_interaction:0 "Назначить матерью клана"
  make_clan_parent_interaction_desc:0 "За свою жизнь [recipient.GetFirstName] [Select_CString(recipient.IsFemale, 'повидала', 'повидал' )] многое на свете, и [recipient.GetHerHis] мудрость направляет нас..."
- make_clan_parent_interaction_one_clan_parent_per_court_tt:0 "#R Пока [recipient.GetFirstName] [Select_CString(recipient.IsFemale, 'жива', 'жив' )], вы не сможете объявить любого другого придворного Матерью клана или Отцом клана!#!"
+ make_clan_parent_interaction_one_clan_parent_per_court_tt:0 "#R Пока [recipient.GetFirstName] [Select_CString(recipient.IsFemale, 'жива', 'жив' )], вы не сможете объявить любого другого придворного Матерью клана!#!"
  
  challenge_to_single_combat_interaction.on_decline_low_learning.tt:0 "Так как [learning|El] у [actor.GetShortUINamePossessive] слишком низкое #N (below 10)#! [recipient.GetShortUIName] может отказаться от дуэли без штрафа!"
  ek_perk_interaction.0100.t:0 "#L [recipient.GetCulture.GetCollectiveNoun]ие#! дуэльные традиции"
@@ -54,6 +53,7 @@
  
   arcana_claim_interaction:0 "Претендовать на землю через Аркану"
  arcana_claim_interaction_desc:0 "[claim|E] на [title|El] которым владеет [recipient.GetShortUINameNoTooltip], используя то, что ваша [arcana|E] и [prestige|E] выше."
+ arcana_claim_tier_trigger:0 "Нельзя выдвигать претензии на [titles|El] ранга [barony|El], [kingdom|El] или [empire|El]"
 
 
  disrupt_arcana_interaction:0 "Разрыв"
@@ -91,6 +91,10 @@
  consume_interaction:0 "Укусить"
  consume_interaction_desc:0 "Укусите персонажа [recipient.GetShortUINameNoTooltip] в попытке усилить [Concept( 'tsaescence', 'цаэсценцию' )|E]"
 
+ thralldom_interaction:0 "Превратить в трэлла"
+ thralldom_interaction_desc:0 "Вы убьёте персонажа [recipient.GetShortUINameNoTooltip], чтобы превратить его труп в подчиняющегося вам раба."
+ get_undead_thrall:0 "Вы превратите труп персонажа [recipient.GetShortUINameNoTooltip] в бездумного, но преданного раба."
+ 
  skull_corruption_interaction:0 "Использовать Череп порчи"
  skull_corruption_desc:0 "Используйте Череп порчи на персонажа [recipient.GetShortUINameNoTooltip] чтобы заставить [recipient.GetHerHim] сражаться с клоном!"
 

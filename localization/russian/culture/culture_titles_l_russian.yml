@@ -4,7 +4,7 @@
  #General names:
  baron:0 "Лорд"
  baron_female:0 "Леди"
- barony:0 "Владение"
+ barony:0 "Лордство"
  count:0 "Барон"
  count_female:0 "Баронесса"
  county:0 "Баронство"
@@ -17,8 +17,6 @@
  emperor:0 "Верховный король"
  emperor_female:0 "Верховная королева"
  empire:0 "Верховное королевство"
- count_no_title_male:0 ""
- count_no_title_female:0 ""
 
  baron_plural:0 "Лорды"
  count_plural:0 "Бароны"
@@ -50,8 +48,8 @@
  title_warden:0 "Надзиратель"
  title_warden_female:0 "Надзирательница"
  
- title_custodian_general:0 "Легат"
- title_custodian_female_general:0 "Легат"
+ title_custodian_general:0 "Хранитель-Легат"
+ title_custodian_female_general:0 "Хранительница-Легат"
 
  arch_primate:1 "Архипримас"
  arch_prelate:1 "Архипрелат"
@@ -81,7 +79,7 @@
  
  empire_feudal_tamriel:0 "Империя"
  emperor_feudal_male_tamriel:0 "[CHARACTER.Custom('Emperor')]"
- emperor_feudal_female_tamriel:0 "[CHARACTER.Custom('Emperor')]"
+ emperor_feudal_female_tamriel:0 "[CHARACTER.Custom('Empress')]"
  
  potentate_feudal_male_cyrodiil:0 "[CHARACTER.Custom('Potentate')]"
  potentate_feudal_female_cyrodiil:0 "[CHARACTER.Custom('Potentate')]"
@@ -192,7 +190,8 @@
  
  wilderking_guardian_male:0 "Страж"
  wilderking_guardian_female:0 "Стражница"
- wilderking_guardian_court:0 "Двор"
+ wilderking_guardian_court:0 "Роща"
+ wilderking_guardian_grand_court:0 "Двор"
 
 pale_watch_watchmaster_male:0 "Смотритель"
 pale_watch_watchmaster_female:0 "Смотрительница"
@@ -499,8 +498,8 @@ title_county_city:0 "Метрополь"
  emperor_theocracy_female_reach_religion:0 "Матриарх"
 
  #Nedic-Nord Religions
- head_of_faith_eight_divines_male:1 "[CHARACTER.Custom('HeadOfFaith')|U]"
- head_of_faith_eight_divines_female:1 "[CHARACTER.Custom('HeadOfFaith')|U]"
+ head_of_faith_eight_divines_male:1 "Архипримат"
+ head_of_faith_eight_divines_female:1 "Архипримат"
  
  #Khajiiti Religion
  khajiiti_religious_head_title:1 "Грива"
@@ -590,9 +589,9 @@ count_republic_female_aldmeris_group:0 "Канонрив"
 duke_republic_male_aldmeris_group:0 "Верховный рив"
 duke_republic_female_aldmeris_group:0 "Верховная рив"
 
-barony_feudal_aldmeris_group:0 "Замок"
 baron_feudal_male_aldmeris_group:0 "Церум"
-baron_feudal_female_aldmeris_group:0 "Церувал"
+baron_feudal_female_aldmeris_group:0 "Церум"
+barony_feudal_aldmeris_group:0 "Церувал"
 count_feudal_male_aldmeris_group:0 "Оптимат"
 count_feudal_female_aldmeris_group:0 "Оптимата"
 county_feudal_aldmeris_group:0 "Оптиматство"
@@ -607,6 +606,82 @@ empire_feudal_aldmeris_group:0 "Верховное королевство"
 
 king_feudal_male_aldmeris_group_independent:0 "Аран"
 king_feudal_female_aldmeris_group_independent:0 "Арана"
+
+
+#Falmeris Group
+baron_feudal_male_falmer:0 "Adon"
+baron_feudal_female_falmer:0 "Adona"
+barony_feudal_falmer:0 "Adonel"
+
+count_feudal_male_falmer:0 "Arpen"
+count_feudal_female_falmer:0 "Arpena"
+county_feudal_falmer:0 "Arpency"
+
+duke_feudal_male_falmer:0 "Prince"
+duke_feudal_female_falmer:0 "Princess"
+duchy_feudal_falmer:0 "Princedom"
+
+king_feudal_male_falmer:0 "High Prince"
+king_feudal_female_falmer:0 "High Princess"
+kingdom_feudal_falmer:0 "Kingdom"
+
+#Betrayed
+baron_feudal_male_betrayed:0 "Skulker"
+baron_feudal_female_betrayed:0 "Skulker"
+barony_feudal_betrayed:0 "Skulk"
+
+count_feudal_male_betrayed:0 "Chief"
+count_feudal_female_betrayed:0 "Chieftess"
+county_feudal_betrayed:0 "Chiefdom"
+
+duke_feudal_male_betrayed:0 "High Chief"
+duke_feudal_female_betrayed:0 "High Chieftess"
+duchy_feudal_betrayed:0 "Hive"
+
+king_feudal_male_betrayed:0 "Warchief"
+king_feudal_female_betrayed:0 "Warchieftess"
+kingdom_feudal_betrayed:0 "Horde"
+
+emperor_feudal_male_betrayed:0 "Great Warchief"
+emperor_feudal_female_betrayed:0 "Great Warchieftess"
+empire_feudal_betrayed:0 "Great Horde"
+
+#Independent
+duke_feudal_male_betrayed_independent:0 "Warchief"
+duke_feudal_female_betrayed_independent:0 "Warchieftess"
+
+#Republic
+
+baron_republic_male_betrayed:0 "Nestmonger"
+baron_republic_female_betrayed:0 "Nestmonger"
+barony_republic_betrayed:0 "Nest"
+
+county_republic_male_betrayed:0 "Nestmonger"
+county_republic_female_betrayed:0 "Nestmonger"
+county_republic_betrayed:0 "Hive-Nest"
+
+
+#Dwemeris Group
+baron_feudal_male_dwemer:0 "Varzak"
+baron_feudal_female_dwemer:0 "Varzarn"
+barony_feudal_dwemer:0 "Varunch"
+
+count_feudal_male_dwemer:0 "Btharak"
+count_feudal_female_dwemer:0 "Bcharn"
+county_feudal_dwemer:0 "Bthar"
+
+duke_feudal_male_dwemer:0 "Akzhar"
+duke_feudal_female_dwemer:0 "Arnzhar"
+duchy_feudal_dwemer:0 "Zhardum"
+
+baron_republic_male_dwemer:0 "Abakch"
+baron_republic_female_dwemer:0 "Abakch"
+barony_republic_dwemer:0 "Zel"
+
+count_republic_male_dwemer:0 "Abakch"
+count_republic_female_dwemer:0 "Abakch"
+county_republic_dwemer:0 "Zel"
+
 
 #Chimeris Group
 baron_feudal_male_dunmeris_group:0 "Сера"
@@ -892,6 +967,18 @@ princess_ayleid_county:0 "Принцесса"
 
 prince_ayleid_duchy:0 "Принц" 
 princess_ayleid_duchy:0 "Принцесса" 
+
+emperor_feudal_male_saliache:0 "Malaran"
+emperor_feudal_female_saliache:0 "Malarana"
+empire_feudal_saliache:0 "Malaransel"
+
+duke_feudal_male_white_gold:0 "Malarpen"
+duke_feudal_female_white_gold:0 "Malarpena"
+duchy_feudal_white_gold:0 "Malarpensel"
+
+duke_feudal_male_white_gold_independent:0 "Aran"
+duke_feudal_female_white_gold_independent:0 "Arana"
+duchy_feudal_white_gold_independent:0 "Aransel"
 
 #Yespest Group 
 baron_feudal_male_yespest:0 "Адону"

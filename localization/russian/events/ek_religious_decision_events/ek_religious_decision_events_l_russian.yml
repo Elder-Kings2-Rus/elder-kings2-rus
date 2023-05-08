@@ -143,49 +143,6 @@
  ek_religious_decision.0301.a:0 "Да, [summoned_dragon.GetNameNoTooltip|U]."
  ek_religious_decision.0301.a.tt:0 "Дракон [summoned_dragon.GetNameNoTooltip|U] присоединится к вашей войне."
  
- ### Assume the Leadership of the Council of the Eight
- ek_religious_decision.0401.t:0 "Превосходство [secular_ruler.GetFaith.GetAdjective]"
- ek_religious_decision.0401.desc:0 "На протяжении столетий Совет Восьми [Select_CString(leader_council.IsFemale, 'возглавляла', 'возглавлял' )] [leader_council_eight.GetName], и, наконец, под руководством [former_hof.GetTitledFirstName].\n\nНикто не может точно сказать, когда баланс сил в Соборе начал смещаться в нашу сторону, но во время последнего Генерального Совета кажется, что большая часть власти и влияния фактически принадлежала делегатам нашей веры. Другие Часовни собрались вокруг наших священников, а делегаты [leader_council_eight.GetNameNoTooltip] были предоставлены сами себе.\n\nЭто был лишь вопрос времени, когда наша вера официально станет лидировать в Совете Восьми и когда присутствующие прелаты и архипрелаты назовут [current_hof.GetTitledFirstName] архипрелатом. "
- ek_religious_decision.0401.a:0 "Мы поведем наших братьев и сестер за собой в своей вере!"
- 
- ek_religious_decision.0402.desc:0 "На протяжении столетий Совет Восьми [Select_CString(leader_council.IsFemale, 'возглавляла', 'возглавлял' )] [leader_council_eight.GetName], и, наконец, под руководством [former_hof.GetTitledFirstName].\n\nНикто не может точно сказать, когда баланс сил в Соборе начал смещаться в #L [secular_ruler.GetFaith.GetName|l]ую#! сторону, но во время последнего генерального совета, похоже, что большая часть власти и влияния принадлежала делегатам их веры. Другие Часовни тяготели к своим священникам, в то время как делегаты [leader_council_eight.GetNameNoTooltip] были предоставлены сами себе.\n\nЭто было лишь вопросом времени, когда вера [secular_ruler.GetFaith.GetAdjective] официально станет лидером Совета Восьми, и когда присутствующие прелаты и архипрелаты назовут [current_hof.GetTitledFirstName] архипрелатом."
- ek_religious_decision.0402.a:0 "Интересное развитие событий..."
- 
- ### Get your faith within the Council of the Eight
- ek_religious_decision.0410.t:0 "Новый член Совета Восьми?"
- ek_religious_decision.0410.desc_intro:0 "Хотя я и мои религиозные братья поклоняемся Божествам, мы пока не являемся частью Совета Восьми, который контролирует большинство религиозных вопросов и разрешает любые религиозные споры между всеми, кто следует учениям Божеств.\n\nУ меня достаточно религиозного и политического влияния, чтобы обратиться к [coe_leader.GetTitledFirstName] с просьбой принять нас в Совет, чтобы мы тоже могли участвовать в религиозных дебатах и советах, и иметь активный голос в будущем Божественных конфессий."
- ek_religious_decision.0410.not_spiritual_hof:0 "\n\nОднако существуют значительные различия в доктринах, которые могут помешать нашим отношениям с другими конфессиями, поклоняющимися Божествам, и архипрелат может попросить нас реформировать нашу веру, чтобы передать все религиозные вопросы в руки нового архипрелата, и основать новую Часовню, которая будет подчиняться непосредственно архипрелату..."
- ek_religious_decision.0410.a:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Уверена', 'Уверен' )], что [coe_leader.GetTitledFirstName] рассмотрит нашу просьбу..."
- ek_religious_decision.0410.a.tt_success:0 "[coe_leader.GetTitledFirstName] приветствует нашу веру в составе Совета Восьми"
- ek_religious_decision.0410.a.tt_failure:0 "[coe_leader.GetTitledFirstName] отказывается предоставить место нашей вере в Совете Восьми"
- ek_religious_decision.0410.a.tt_change_hof:0 "[coe_leader.GetTitledFirstName] просит нас изменить нашу религиозную доктрину главы, прежде чем приветствовать нас в Совете Восьми"
- ek_religious_decision.0410.a.change_hof:0 "Наша вера получит возможность принять [Concept( 'doctrine', 'доктрину' )|E] главы веры [GetFaithDoctrine('doctrine_spiritual_head').GetBaseName]. Отказ запретит нам присоединиться к Совету Восьми."
- fervor_loss_coe_refused_entry:0 "Нам было отказано в просьбе о вступлении в [coe|E]"
- 
- ek_religious_decision.0411.desc:0 "Сегодня прибыла делегация от [secular_ruler.GetTitledFirstName], представляющая верующих [faith_add_council.GetName], чтобы подать прошение о месте в Совете Восьми.\n\nХотя это может дать нам потенциального союзника внутри Совета, который будет настаивать на нашем выборе доктрин и во время советов, это может усложнить проведение единого Совета, если их религиозные доктрины и убеждения слишком сильно отличаются от наших собственных...\nДаже если в теории мы едины в нашем поклонении Божествам."
- ek_religious_decision.0411.a:0 "Добро пожаловать в Совет!"
- ek_religious_decision.0411.b:0 "К сожалению, в настоящее время мы не можем их принять."
- ek_religious_decision.0411.c:0 "Поставить условием их вхождения в Совет учреждение Архипрелата."
- ek_religious_decision.0411.a.change_hof:0 "[secular_ruler.GetTitledFirstName] получит возможность принять [Concept( 'doctrine', 'доктрину' )|E] главы веры [GetFaithDoctrine('doctrine_spiritual_head').GetBaseName]. Отказ запретит верующим [faith_add_council.GetName] присоединиться к Совету Восьми."
- 
- ek_religious_decision.0412.desc:0 "Великолепные новости! [coe_leader.GetTitledFirstName] [Select_CString(coe_leader.IsFemale, 'рассмотрела', 'рассмотрел' )] нашу просьбу о вступлении в Совет Восьми и [Select_CString(coe_leader.IsFemale, 'приняла', 'принял' )] её.\n\nЭто укрепит как Совет в целом, так и нашу веру, и хотя некоторые могут расценить это как потерю религиозной независимости, мы знаем, что в долгосрочной перспективе это окажет благоприятное влияние."
- ek_religious_decision.0412.a:0 "Великий день для всех верующих [faith_add_council.GetName]!"
- 
- ek_religious_decision.0413.desc:0 "Вопреки всем нашим желаниям и несмотря на все наши аргументы, [coe_leader.GetTitledFirstName] [Select_CString(coe_leader.IsFemale, 'отказалась', 'отказался' )] предоставить нам место в Совете Восьми.\n\nКак бы то ни было - из-за различий в доктринах, религиозного фанатизма или просто отказа предоставить нашим [faith_add_council.GetName] братьям и сестрам место рядом с другими конфессиями Божественных, послание ясно. Нам не рады в Совете, и нам придётся защищаться в одиночку."
- ek_religious_decision.0413.a:0 "Они об этом ещё пожалеют!"
- 
- ek_religious_decision.0414.desc:0 "Мы получили ответ от [coe_leader.GetTitledFirstName]. [coe_leader.GetSheHe|U] [Select_CString(coe_leader.IsFemale, 'готова', 'готов' )] принять нашу веру в рамках Совета, если мы официально реформируем свою конфессию, чтобы передать нашу религиозную власть в руки архипрелата.\n\nКак [Select_CString(ROOT.GetCharacter.IsFemale, 'та', 'тот' )], кто [Select_CString(ROOT.GetCharacter.IsFemale, 'подала', 'подал' )] прошение о вступлении нашей конфессии в Совет, я [Select_CString(ROOT.GetCharacter.IsFemale, 'обязана', 'обязан' )] либо следовать древним обрядам моего народа, либо направить моих людей на этот новый путь и принять условия [coe_leader.GetFirstName]."
- ek_religious_decision.0414.a:0 "Отныне в Совете Восьми нас будет представлять архипрелат!"
- ek_religious_decision.0414.b:0 "Мы не откажемся от своей независимости так легко."
- 
- ek_religious_decision.0418.desc:0 "Похоже, [secular_ruler.GetTitledFirstName] успешно [Select_CString(secular_ruler.IsFemale, 'подала', 'подал' )] прошение [coe_leader.GetTitledFirstName] на место в Совете Восьми.\n\nТеперь [faith_add_council.GetAdjective] будет иметь равное место в Совете и сможет добиваться или предотвращать реформы и изменения доктрин при последующих обсуждениях этих вопросов."
- ek_religious_decision.0418.a:0 "Эти новые члены, безусловно, усилят всех нас!"
- ek_religious_decision.0418.b:0 "Они становятся сильнее..."
- 
- ek_religious_decision.0419.desc:0 "Похоже, что религии, почитающие богов, не так едины, как мы могли подумать. [faith_add_council.GetName], несмотря на то, что они тоже поклоняются Божественным, им было отказано в месте в Совете Восьми."
- ek_religious_decision.0419.a:0 "Возможно, они были бы хорошим дополнением..."
- ek_religious_decision.0419.b:0 "Разделенные они слабее. Прекрасно."
- 
  ### Burying an ancestor in Cath Bedraud
  ek_religious_decision.0502.t:0 "Похороны в соборе Бидро"
  ek_religious_decision.0502.desc:0 "Как это делалось на протяжении веков, я [Select_CString(ROOT.GetCharacter.IsFemale, 'принесла', 'принес' )] свой [ROOT.Char.Custom2('RelationToMe', ROOT.Var('ancestor_to_bury').Char)] чтобы похоронить в великом кладбище собора Бидро, рядом с королевскими особами и героями провинции.\n\nВ окружении величайших королей и королев, среди спасителей Хай Рока и среди тех, в кого больше всего верит наш народ, [ROOT.Var('ancestor_to_bury').Char.GetHerHis] тело должно покоиться, пока [ROOT.Var('ancestor_to_bury').Char.GetHerHis] душа соединяется с [ROOT.Char.GetFaith.PositiveAfterLife]..." #нужно доработать

@@ -134,6 +134,14 @@
  tribunal_witchgodname_the_horned_god:0 "god_sharmat_name$"
  tribunal_witchgodname_the_horned_god_possessive:0 "god_sharmat_name_possessive$"
 
+ #Tribunal Cult
+ #High Velothi
+ tribunal_cult:1 "Tribunal Cult"
+ tribunal_cult_adj:1 "Tribunal Cult"
+ tribunal_cult_adherent:1 "Tribunal Cultist"
+ tribunal_cult_adherent_plural:1 "Tribunal Cultists"
+ otribunal_cult_desc:0 "The Tribunal Cult is a persistent southern heterodoxy rooted in Chimeri folk beliefs, representing the rites and traditions of ancient Velothi. It recognizes the laws and temporal primacy of the Living Gods while maintaining the ancestral right to open and enthusiastic worship of the Good Daedra, underlining the importance of staying in good graces with the Tribunal in life, and with its Anticipations in death. This seamless, carefully negotiated synthesis of old and new teachings within the Cult has earned itself a peaceful coexistence with the Temple's doctrine."
+
  #High Velothi
  old_velothi:1 "Велотийск"
  old_velothi_adj:1 "Высшие Велоти"

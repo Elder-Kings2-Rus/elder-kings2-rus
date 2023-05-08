@@ -16,13 +16,34 @@
  
  game_concept_abomination:0 "Мерзость"
  game_concept_abominations:0 "Мерзости"
- game_concept_abomination_desc:1 "'$game_concept_abomination$' — это персонаж, который считаются настолько противоречащим [Concept( 'doctrines', 'доктринам' )|E] или [Concept( 'core_tenets', 'догматам' )|E] конфессии, что другие конфессии могут использовать против них казус белли $CLEANSE_ABOMINATIONS_DUCHY_NAME$, если их доктрины и догматы позволяют это.\n\n * Конфессии, считающие некромантию преступлением, будут рассматривать нежить и некромантов как мерзостей.\n * Конфессии, считающие вампиризм преступлением, будут рассматривать вампиров как мерзостей.\n * Конфессии, считающие ликантропию преступлением, будут рассматривать ликантропов как мерзостей."
+ game_concept_abomination_desc:1 "'$game_concept_abomination$' — это персонаж, который считаются настолько противоречащим [Concept( 'doctrines', 'доктринам' )|E] или [Concept( 'core_tenets', 'догматам' )|E] конфессии, что другие конфессии могут использовать против них казус белли $CLEANSE_ABOMINATIONS_DUCHY_NAME$, если их доктрины и догматы позволяют это.\n\n • Конфессии, считающие некромантию преступлением, будут рассматривать нежить и некромантов как мерзостей.\n • Конфессии, считающие вампиризм преступлением, будут рассматривать вампиров как мерзостей.\n • Конфессии, считающие ликантропию преступлением, будут рассматривать ликантропов как мерзостей."
  
  game_concept_cleanse_abomination:0 "Уничтожить мерзостей"
  game_concept_cleanse_abomination_war:0 "Война для уничтожения мерзостей"
  game_concept_abomination_cleansing:0 "Уничтожение мерзостей"
  game_concept_abomination_cleansing_war:0 "Война для уничтожения мерзостей"
  game_concept_cleanse_abomination_desc:1 "'$game_concept_cleanse_abomination_war$' — это особый тип [Concept( 'war', 'войны' )|E], которая ведётся против [Concept( 'rulers', 'правителей' )|E], которых ваша [Concept( 'faith', 'конфессия' )|E] считает [Concept( 'abominations', 'мерзостями' )|E].\n\nЭто позволит атакующему захватить все [Concept( 'counties', 'графства' )|E] в целевом [Concept( 'duchy', 'герцогстве' )|E], которые принадлежат [Concept( 'abomination', 'мерзости' )|E]. Другие графства в целевом герцогстве вассализируются."
+ 
+ game_concept_pariah:0 "Pariah"
+ game_concept_pariahs:0 "Pariahs"
+ game_concept_monster:0 "Monster"
+ game_concept_monsters:0 "Monsters"
+ game_concept_pariah_desc:1 "'$game_concept_pariahs$' are characters considered to be monsters, and not civilised people on par with other races in the eyes of most people of Tamriel. This is signified by their [cultures|E] having the #V Pariah Folk#! [innovation|E]. Characters of these cultures may be targeted by others without this [innovation|E] using the $EXPEL_MONSTERS_DUCHY_NAME$ [casus_belli|E], may be freely [imprisoned|E], [executed|E] or [revoked|E] from, and characters of other cultures will be less likely to accept offers of [marriage|E]. The #V Pariah Folk#! [innovation|E] may however be removed using the #V Cast off Pariah Status#! [decision|E] - though it may also be regained given certain circumstances."
+
+ game_concept_expel_monsters:0 "Expel Monsters"
+ game_concept_expel_monsters_war:0 "Expel Monsters War"
+ game_concept_expel_monsters_desc:1 "'$game_concept_expel_monsters$' are a special type of [war|E] waged against [rulers|E] your [culture|E] consider [pariahs|E].\n\nThey allow the attacker to seize all [counties|E] in the target [duchy|E] that are held by a [pariah|E]. Others in the target duchy are vassalized instead."
+
+ game_concept_pariah_discrimination:0 "Discrimination"
+ game_concept_pariah_discriminate:0 "Discriminate"
+ game_concept_pariah_discrimination_desc:0 "'Discrimination' is a catch-all term for hostile character [interactions|E] used against a [pariah|E]. In this context, it refers to the ability of non-Pariahs to [imprison|E], [execute|E] and [revoke|E] from this character due to them belonging to a Pariah culture."
+
+ game_concept_daedric_race:0 "Daedra"
+ game_concept_demon_race:0 "Demon"
+ game_concept_daedric_race_desc:0 "'$game_concept_daedric_race$' are characters who are not of this world - they originate from the Planes of Oblivion. This is signified by their [cultures|E] having the #V Daedric Race#! [innovation|E]. Characters of these cultures may be targeted by others without this [innovation|E] who do not follow a [GetReligionFamily('rf_daedra').GetName] [faith|E] using the $BANISH_DEMON_DUCHY_NAME$ [casus_belli|E], and may be freely [imprisoned|E], [executed|E] or [revoked|E] from."
+ game_concept_banish_demon:0 "Banish Demon"
+ game_concept_banish_demon_war:0 "Banish Demon War"
+ game_concept_banish_demon_desc:0 "'$game_concept_banish_demon$' are a special type of [war|E] waged against [rulers|E] who are [daedric_race|E] when you do not follow a [GetReligionFamily('rf_daedra').GetName] [faith|E].\n\nThey allow the attacker to seize all [counties|E] in the target [duchy|E] that are held by a [daedric_race|E]. Others in the target duchy are vassalized instead."
  
  game_concept_pantheon:0 "Пантеон"
  game_concept_patron:0 "Покровитель"
@@ -31,7 +52,12 @@
  game_concept_patron_deities:0 "Божества-покровители"
  game_concept_personal_deity:0 "Личное божество"
  game_concept_personal_deities:0 "Личные божества"
- game_concept_pantheon_desc: "Большинство конфессий почитают широкий круг божеств, которые являются частью их пантеона. Нециничные члены конфессии могут выбрать для поклонения божество-покровителя из списка, каждое из которых дает определенные бонусы и потенциально открывает решения и события.\n\nПринятие аэдрического или аурбического божества в качестве покровителя даст в основном пассивные бонусы, а вот выбор даэдра позволит вам претендовать на их артефакт и просить благ.\n\n[Concept( 'faiths', 'Конфессии' )|E] с одним тем же пантеоном обычно куда менее враждебно относятся друг к другу. В особенности по сравнению с теми конфессиями, чей пантеон считается чужим."
+ game_concept_pantheon_desc: "Большинство конфессий почитают широкий круг божеств, которые являются частью их пантеона. Нециничные члены конфессии могут выбрать для поклонения божество-покровителя из списка, каждое из которых дает определенные бонусы и потенциально открывает решения и события.\n\nПринятие аэдрического или аурбического божества в качестве покровителя даст в основном пассивные бонусы, а вот выбор даэдра позволит вам претендовать на их артефакт и просить благ.\n\n[Concept( 'faiths', 'Конфессии' )|E] с одним тем же пантеоном обычно куда менее враждебно относятся друг к другу. В особенности по сравнению с теми конфессиями, чей пантеон считается чужим.\n\nFaiths can be made syncretic towards one another through the use of a [secondary_pantheon|E], where the faith gains up to three Patron Deities from the other Pantheon and both faiths get reduced [faith_hostility|E] towards one another."
+ 
+ game_concept_pantheon_secondary:0 "Secondary Pantheon"
+ game_concept_secondary_pantheon:0 "Secondary Pantheon"
+ game_concept_secondary:0 "Secondary"
+ game_concept_pantheon_secondary_desc:0 "A Secondary Pantheon allows a faith to gain up to three Patrons from another [pantheon|E] than their Main Pantheon. This represents a certain degree of syncretism or outside influence. Having a Secondary Pantheon reduces [faith_hostility|E] with any [faith|E] with the Main Pantheon equivalent."
  
  game_concept_liturgical_language:0 "Литургический язык"
  game_concept_liturgical_language_desc:0 "Хотя большинство [Concept( 'faiths', 'конфессий' )|E] предпочитают использовать [language|El] своих верующих для проведения религиозных обрядов и таинств, некоторые из них предпочитают использовать забытые или потусторонние языки в роли литургического языка.\n\nОт [Concept( 'clergy', 'духовенства' )|E] от этой конфессии ожидается знание данного языка, а те, кто не принадлежит к ней, но знает литургический язык, получают [piety|El] и бонус к [Concept( 'opinion', 'мнению' )|E] [Concept( 'clergy', 'духовенства' )|E].\n\n#F Глубокий язык Обливиона и язык драконов являются примерами таких литургических языков.#!"
@@ -55,6 +81,11 @@
  game_concept_nomadic:0 "Кочевнический"
  game_concept_nomad_culture_desc:0 "Некоторые народы отказываются или попросту не могут поселиться в одном месте. Вместо этого они чувствуют себя как дома в различных областях Тамриэля. Эти кочевые культуры могут распространяться в [Concept( 'nativity_regions', 'родных регионах' )|E], частью которых они не являются, хотя и медленнее, чем если бы они считались коренными жителями.\n\nА из-за их нежелания оседать на одном месте их легче заменить другими культурами.\n\nПравители кочевых культур могут использовать специальный [casus_bellis|El], чтобы мигрировать в соседние провинции."
 
+ game_concept_culture_revival:0 "Culture Revival"
+ game_concept_culture_revived:0 "Revived"
+ game_concept_culture_revival_desc:0 "Cultures that are considered dead, marked by the #V Dead Culture#! Innovation, may be revived under certain conditions. When revived they will be able to act like any other culture and regain the ability to Culture Convert provinces. For a culture to be able to be revived, the following is required:\n\n• There must exist another culture of the same [heritage|E] that is #italic not#! dead\n• The dead culture must have a [nativity_region|E]\n• A Ruler of the same [heritage|E] must completely control the [nativity_region|E] of the dead culture\n\nIf these requirements cannot be fulfilled, the dead culture cannot be revived."
+ 
+ 
  game_concept_meritocratic:0 "Меритократический"
  game_concept_meritocratic_desc:0 "$game_concept_meritocratic$ [succession_law|El] постановляет, что каждое [county|El] может решать, последует ли оно за [Concept( 'heir', 'наследником' )|E] бывшего правителя, или если же они изберут кого-то из местных, чтобы управлять собой. Если у графства будет высокое [Concept( 'county_opinion', 'мнение' )|E], это поможет обезопасить его передачу во время наследования."
 
@@ -89,40 +120,12 @@
  game_concept_ceremoniarchic:0 "Церемониархальный"
  game_concept_praxis_government:0 "Церемониархическое правительство"
  game_concept_ceremoniarchy_desc:0 "В церемониархии ожидается, что правители будут править в соответствии с древними обрядами, которые их божественные предки разрабатывали в течение веков. Правитель должен поддерживать свой [praxis|El] и следить за соблюдением традиций — некоторые правители, однако, могут захотеть отбросить традиции и приспособиться к этому меняющемуся миру...\n#weak Только те правители, чья конфессия имеет [core_tenets|El] [GetFaithDoctrine('tenet_legalism').GetBaseName] и [GetFaithDoctrine('tenet_divine_purity').GetBaseName], могут принять церемониархию.#!"
- 
- game_concept_magocracy:0 "Магократия"
- game_concept_magocracy_government:0 "Магократическое правительство"
- game_concept_magocratic:0 "Магократический"
- game_concept_magocracy_desc:0 "Магократии делают ставку на могущественных магов, которые занимают как роль [game_concept_rulerpossessive|El], так и [Concept( 'mages', 'магов' )|E] в [Concept( 'regiments', 'полках' )|E]. [arcana|E] играет решающую роль в определении силы мага. Магократии могут напрямую контролировать как [Concept( 'game_concept_castles', 'замки' )|E], так и [Concept( 'academy', 'академии' )|E]."
 
  game_concept_might_makes_right:0 "Сила есть право"
  game_concept_might_makes_right_desc:0 "Некоторые действия, заблокированные [Concept( 'innovation', 'инновациями' )|E] — вроде [Concept( 'laws', 'законов' )|E] и [casus_bellis|El] — могут быть доступны и использованы [Concept( 'rulers', 'правителями' )|E], если у них достаточно высокий [prestige_level|El].\n\nНекоторые конфессии разрешают использовать [piety_level|El] и [piety|El] либо как необязательное, либо как дополнительное требование."
  
  game_concept_expected_prestige_level:0 "Ожидаемый уровень репутации"
  game_concept_expected_prestige_level_desc:0 "[Concept( 'tribal', 'Племенных' )|E] [Concept( 'rulers', 'правителей' )|E] принимают и уважают лишь тогда, когда их имя знают и боятся. У каждого [Concept( 'rank', 'ранга' )|E] есть [prestige_level|El], которому нужно соответствовать.\n\nЕсли у вас не получится достигнуть такого [Concept( 'opinion', 'уровня репутации' )|E], вы столкнётесь с #N суровыми штрафами#! к [Concept( 'opinion', 'мнению' )|E] [Concept( 'vassal', 'вассалов' )|E], [Concept( 'domain_limit', 'пределу домена' )|E], [Concept( 'vassal_limit', 'максимуму вассалов' )|E], приросту [Concept( 'control', 'контроля' )|E], [Concept( 'county_opinion', 'народному мнению' )|E], [Concept( 'knight_effectiveness', 'эффективности рыцарей' )|E] и содержанию [Concept( 'men_at_arms', 'содержанию профессионалов' )|E].\nПревышение [Concept( 'prestige_level', 'уровня репутации' )|E] #P даёт бонусы#! в тех же областях.\n\nОжидаемый [prestige_level|El] выглядит следующим образом:\n* [count|E]: [GetModifier( 'prestige_level_1' ).GetNameWithTooltip|L]\n* [duke|E]: [GetModifier( 'prestige_level_2' ).GetNameWithTooltip|L]\n* [king|E]: [GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L]\n* [emperor|E]: [GetModifier( 'prestige_level_4' ).GetNameWithTooltip|L]\n\n#weak [perk|E] #V $a_life_of_glory_perk_name$#! снижает ожидаемый уровень репутации [Concept( 'tribal', 'племенных' )|E] [Concept( 'rulers', 'правителей' )|E] на один [Concept( 'prestige_level', 'уровень репутации' )|E]!"
- 
- game_concept_coe:0 "Совет Восьми"
- game_concept_coe_desc:0 "Хотя каждая [faith|El], поклоняющаяся божествам, считается независимой, они всё же связаны друг с другом через Совет Восьми — организацию, контролирующую поклонение божествам в Тамриэле.\nСовет Восьми действует в качестве религиозного совета и религиозного органа. Он собирается раз в несколько лет для содействия межконфессиональным обменам и разрешения возможных религиозных конфликтов.\nСовет Восьми состоит из [Concept( 'coe_leader', 'лидера' )|E] и [Concept( 'coe_members', 'членов' )|E], и у каждого из них есть своя роль.\nКонфессии, входящие в состав Совета Восьми, подчиняются его доктринам, и они должны действовать заодно с остальными членами Совета Восьми, ведь в случае отказа им грозит исключение.\n\nХотя на начальном этапе существует лишь несколько [Concept( 'coe_chapels', 'часовен' )|E], новые могут быть приняты в Совет Восьми, если в провинции возникнет новая вера, поклоняющаяся божествам."
- 
- game_concept_coe_chapel:0 "Часовня"
- game_concept_coe_chapels:0 "Часовни"
- game_concept_coe_chapel_desc:0 "Часовня это — [faith|El], которая является частью [Concept( 'coe', 'Совета Восьми' )|E].\n\nЭти [faiths|El], поклоняющиеся божествам, возглавляются архипримасом — [Concept( 'spiritual_head_of_faith', 'духовным лидером' )|E] конфессии, возглавляющей Совет Восьми — [Concept( 'coe_leader_coe', 'Лидером Совета Восьми' )|E].\n\nКаждая часовня обладает юрисдикцией над провинцией, и в целом конфессии, входящие в Совет Восьми, избегают вмешательства в дела друг друга.\n\nКонфессия может стать новой капеллой, если она поклоняется божествам, находится в провинции, где нет уже существующей часовни, и имеет хорошие отношения с архипримасом.\n\n#weak Примечание: От конфессий, что стремятся присоединиться к Совету Восьми, можно ожидать изменения некоторых их доктрин, дабы они в большей степени соответствовали доктринам Совета.#!"
- 
- game_concept_coe_member:0 "Член"
- game_concept_coe_members:0 "Члены"
- game_concept_coe_member_coe:0 "Член Совета Восьми"
- game_concept_coe_members_coe:0 "Члены Совета Восьми"
- game_concept_coe_member_desc:0 "Член [Concept( 'coe', 'Совета Восьми' )|E] это [coe_chapel|El], которая в настоящее время не является [Concept( 'coe_leader_coe', 'Лидером Совета Восьми' )|E].\n\nХотя их влияние может быть несколько ограниченным, так как они должны следовать правилам, установленным архипримасом — [Concept( 'spiritual_head_of_faith', 'духовным лидером' )|E] Совета Восьми — они всё же могут принимать участие в религиозных советах, которые проводятся каждые несколько лет для обсуждения текущих вопросов и развития межконфессионального диалога.\n\nЧлен может быть исключен или покинуть Совет Восьми, если разногласия между ним и лидером слишком плохи.\n\n[fervor_equilibrium|E] каждого члена частично основывается на равновесии рвения лидера."
- 
- game_concept_coe_leader:0 "Лидер"
- game_concept_coe_leader_coe:0 "Лидер Совета Восьми"
- game_concept_coe_leader_desc:0 "Лидер Совета Восьми, как правило, это [coe_chapel|El] с наибольшим количеством провинций.\n\nЭта конфессия считается центральной инстанцией во всех религиозных делах божеств, возглавляет религиозные советы, а также выступает арбитром в любых конфликтах между [Concept( 'coe_members', 'членами' )|E].\n\n[fervor_equilibrium|E] лидера Совета Восьми получает бонус, величина которого зависит от количества членов в Совете Восьми.\n\nЛюбой член Совета, имеющий [Concept( 'spiritual_head_of_faith', 'духовного лидера' )|E] и большее количество провинций, чем у текущего лидера, может заменить его и стать новым фактическим лидером Совета.\n\n#weak Примечание: [head_of_faith|E] лидера считается [de_jure|E] [Concept( 'liege', 'сюзереном' )|E] каждого члена [heads_of_faith|EL]#!"
- 
- game_concept_coe_leader_size:0 "Размер лидера"
- game_concept_coe_leader_size_desc:0 "Размер [Concept( 'coe_leader_coe', 'лидера Совета Восьми' )|E] соответствует количеству графств, следующих вере лидера.\n\nТо, сколько земли принадлежит лидеру по сравнению с другими [Concept( 'coe_chapels', 'часовнями' )|E], определяет влияние лидера, а также его [fervor|El]."
- 
- game_concept_coe_leader_fervor:0 "Рвение лидера"
- game_concept_coe_leader_fervor_desc:0 "[fervor|E] [Concept( 'coe_leader_coe', 'лидера Совета Восьми' )|E] оказывает воздействие на его влияние. Высокое рвение усилит лидера и увеличит его власть в Совете Восьми."
  
  game_concept_almsivi_power:0 "Сила АЛЬМСИВИ"
  game_concept_almsivi_power_power:0 "Сила"
@@ -176,7 +179,7 @@
  
  game_concept_required_task:0 "Требуемая задача"
  game_concept_required_tasks:0 "Требуемые задачи"
- game_concept_required_task_desc:0 "$game_concept_task_1_desc$\n\nЧтобы выиграть время, вы можете выполнить некоторые задания, порученные вам Советом Старейшин, что на некоторое время успокоит их и позволит вам удовлетворить собственные амбиции. Каждое выполненное задание даёт вам #P 5 дополнительных лет#! правления.\n\nЭтими задачами являются:\n * [required_task_1|E]\n * [required_task_2|E]\n * [required_task_3|E]"
+ game_concept_required_task_desc:0 "$game_concept_task_1_desc$\n\nЧтобы выиграть время, вы можете выполнить некоторые задания, порученные вам Советом Старейшин, что на некоторое время успокоит их и позволит вам удовлетворить собственные амбиции. Каждое выполненное задание даёт вам #P 5 дополнительных лет#! правления.\n\nЭтими задачами являются:\n • [required_task_1|E]\n • [required_task_2|E]\n • [required_task_3|E]"
  game_concept_required_task_1:0 "Остатки цаэски в Сиродиле"
  game_concept_required_task_1_desc:0 "Ваша война против Потентата отчасти подпитывалась желанием положить конец влиянию цаэски на Сиродил и Тамриэль.\nСовет Старейшин согласен с вами и поддержит любые усилия по изгнанию цаэски из Сиродила, так как они опасаются, что другой акавирский правитель может попытаться стать новым Потентатом.\n\n$task_start$: Чтобы начать выполнение этой задачи, вы должны использовать решение "Подготовить проект закона Цаэски".\n$task_fulfill$: Для выполнения этой задачи ни один лорд-цаэски не должен владеть землей в Сиродиле"
  game_concept_required_task_2:0 "Долг полководца"
@@ -192,7 +195,7 @@
  
  game_concept_optional_task:0 "Дополнительная задача"
  game_concept_optional_tasks:0 "Дополнительные задачи"
- game_concept_optional_task_desc:0 "$game_concept_task_1_desc$\n\nТеперь у вас есть возможность реализовать свои собственные амбиции. Конечно, при условии, что вы также умиротворите Совет Старейшин, чтобы выиграть время и ресурсы.\n\nВот некоторые из этих задач:\n * [optional_task_1|E]\n * [optional_task_2|E]\n * [optional_task_3|E]"
+ game_concept_optional_task_desc:0 "$game_concept_task_1_desc$\n\nТеперь у вас есть возможность реализовать свои собственные амбиции. Конечно, при условии, что вы также умиротворите Совет Старейшин, чтобы выиграть время и ресурсы.\n\nВот некоторые из этих задач:\n • [optional_task_1|E]\n • [optional_task_2|E]\n • [optional_task_3|E]"
  
  game_concept_optional_task_1:0 "Воинствующая вера"
  game_concept_optional_task_1_desc:0 "На протяжении веков Имперский Культ терпимо относился к малым конфессиям, которые были неотъемлемой частью Сиродила. Это включает в себя народные верования и культы героев. Он также передал большую часть своей власти над другими провинциями Тамриэля региональным часовням. Однако, возможно, настало время для Имперского Культа измениться, поскольку старые и новые враги веры непременно объединят свои силы, пока Тамриэль погружается в хаос...\n\n$task_start$: Чтобы начать выполнение этой задачи, вы должны основать священный орден\n$task_fulfill$: Для выполнения этой задачи вы должны использовать решение "Воинствующая вера" и реформировать Имперский Культ."
@@ -224,6 +227,11 @@
  game_concept_enc_lorkhan:0 "Лорхан"
  game_concept_enc_shezarr:0 "Шезарр"
  game_concept_enc_shor:0 "Шор"
+ game_concept_enc_sheor:0 "Шеор"
+ game_concept_enc_sep:0 "Сеп"
+ game_concept_enc_lorkhaj:0 "Лоркадж"
+ game_concept_enc_lorkh:0 "Лорх"
+ game_concept_enc_tseol:0 "Цеол"
  game_concept_enc_missing_god_desc:0 "Потерянный Бог — это общий термин, относящийся к божеству, известному под разными именами — Шор, Шеор, Шезарр или Лорхан. Он назван так потому, что в большинстве космогоний этот бог занимает видное место жертвы творения, убитой другими богами в гневе на его хитрость.\n\nОн убедил своих собратьев-богов присоединиться к нему в его проекте по строительству нового измерения. На полпути Архитектор Магнус узнал правду о замыслах Потерянного Бога и ушёл, возглавив исход богов, которые стали известны как магна-ге.\n\nОставшиеся боги, решившие завершить проект и потерявшие при этом большую часть своих сил, стали Аэдра, Костями Мира и Эльнофеями, последние из которых со временем превратились в смертные расы.\n\nНезависимо от того, почитаете ли вы его или ненавидите, большинство согласны с тем, что Потерянный Бог сыграл ключевую роль в создании условий для существования смертного измерения и, соответственно, жизни в том виде, в котором мы её знаем. Мнения расходятся в том, является ли существование смертной жизни благословением — такой позиции придерживается большинство верований, симпатизирующих ему или нейтрально относящихся к нему — или проклятием — так считают те верования, которые активно рассматривают Мундуса как препятствие на пути к бессмертию, а Лорхана — как источник грехопадения."
  
  game_concept_tsaescence:0 "Цаэсценция"

@@ -1,0 +1,39 @@
+﻿l_russian:
+ ### Dark Arts
+ dark_arts_lifestyle_name:0 "Dark Arts"
+ dark_arts_lifestyle_desc:0 "Focus on accumulating forbidden knowledge and power to achieve results that are considered far too dangerous to be taught by normal means."
+ dark_arts_lifestyle_highlight_desc:0 "$dark_arts_lifestyle_highlight_necromancer_traits$$dark_arts_lifestyle_highlight_lichdom_traits$"
+ dark_arts_lifestyle_highlight_necromancer_traits:0 "[GetPlayer.Custom('necromancer_trait_group_impact_dark_arts_lifestyle_experience')]"
+ necromancer_trait_impact_dark_arts_lifestyle_experience:0 "Your #V $trait_necromancer$#! trait grants you #P +10%#! more [experience|E] in this Lifestyle."
+ experimentalist_necromancer_trait_impact_dark_arts_lifestyle_experience:0 "Your #V $trait_experimentalist_necromancer$#! trait grants you #P +10%#! more [experience|E] in this Lifestyle."
+ dark_arts_lifestyle_highlight_lichdom_traits:0 "[GetPlayer.Custom('lichdom_trait_group_impact_dark_arts_lifestyle_experience')]"
+ lich_trait_impact_dark_arts_lifestyle_experience:0 "Your #V $trait_lich_character$#! trait grants you #P +20%#! more [experience|E] in this Lifestyle."
+ # Mysticism
+ dark_arts_mysticism_focus:0 "Mysticism Focus"
+ dark_arts_mysticism_focus_modifier:1 "[GetFocus('dark_arts_mysticism_focus').GetName]"
+ dark_arts_mysticism_focus_desc:0 "The body is merely a vessel for the real power that lies within souls and vestiges. To manipulate these is a way towards splendor and terror alike."
+ dark_arts_mysticism_focus_effect_desc:0 "Focusing on Mysticism grants:" 
+ # Daedric Succour
+ dark_arts_daedric_succour_focus:0 "Daedric Succour Focus"
+ dark_arts_daedric_succour_focus_modifier:1 "[GetFocus('dark_arts_daedric_succour_focus').GetName]"
+ dark_arts_daedric_succour_focus_desc:0 "There is great and horrible knowledge sealed away in the planes of Oblivion. To seek the council of the princes will grant access to some of it."
+ dark_arts_daedric_succour_focus_effect_desc:0 "Focusing on Daedric Succour grants:"
+ # Blood Magic
+ dark_arts_blood_magic_focus:0 "Blood Magic Focus"
+ dark_arts_blood_magic_focus_modifier:1 "[GetFocus('dark_arts_blood_magic_focus').GetName]"
+ dark_arts_blood_magic_focus_desc:0 "Every step towards true power demands sacrifice. But those who are willing to pay the price are going to reap worthy rewards in the end."
+ dark_arts_blood_magic_focus_effect_desc:0 "Focusing on Blood Magic grants:"
+
+ # Perks
+ necromancy_name:0 "Necromancy"
+ necromancy_novice_perk_effect:0 "Unlocks novice level necromancy spells:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('necromancy') ).AddScope('tier', MakeScopeValue('(CFixedPoint)1') ).End)]"
+ necromancy_apprentice_perk_effect:0 "Unlocks apprentice level necromancy spells:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('necromancy') ).AddScope('tier', MakeScopeValue('(CFixedPoint)2') ).End)]"
+ necromancy_journeyman_perk_effect:0 "Unlocks journeyman level necromancy spells:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('necromancy') ).AddScope('tier', MakeScopeValue('(CFixedPoint)3') ).End)]"
+ necromancy_expert_perk_effect:0 "Unlocks expert level necromancy spells:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('necromancy') ).AddScope('tier', MakeScopeValue('(CFixedPoint)4') ).End)]"
+ necromancy_master_perk_effect:0 "Unlocks master level necromancy spells:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('necromancy') ).AddScope('tier', MakeScopeValue('(CFixedPoint)5') ).End)]"
+ no_necromancy_trait_perk_effect:0 "You need to be a necromancer before you can choose this perk."
+ necromancy_minor_rituals_perk_effect:0 "Unlocks Minor Necromancy [rituals|E]"
+ necromancy_medium_rituals_perk_effect:0 "Unlocks Medium Necromancy [rituals|E]"
+ necromancy_major_rituals_perk_effect:0 "Unlocks Major Necromancy [rituals|E]"
+
+CAN_CONSULT_SOUL_LOST_LOVED_ONES_DECISION:0 "Can use the 'Consult the Soul of a Loved One' decision, allowing the character to speak one last time with a character they held dear"

@@ -1,0 +1,25 @@
+﻿l_russian:
+  #Falmer
+  culture_resurrection_event.0001.t:0 "Return of the Falmer"
+  culture_resurrection_event.0001.desc:0 "Thousands of years ago, the Nords forced our people out of our homes.\n\nSince then, we have been forced to eke out our meagre existences in secret enclaves like my own in [GetPlayer.GetCurrentLocation.GetNameNoTooltip], shielded by magic and remoteness so that nobody could ever do us harm again.\n\nThe magical barriers and cloaks have done their work well — but so too has hunger, and it has driven us out as no mortal has done since the Nords of old. Our people have grown too many and the soil too bleak to sustain ourselves much longer. It is time for me to lead my people back into the harsh world outside."
+  culture_resurrection_event.0001.option1:0 "[GetPlayer.GetFaith.HighGodName] be with us!"  
+  culture_resurrection_event.0001.option2:0 "We should not reveal our people..."  
+  culture_resurrection_event.0001.option1.flavor:0 "We will have hard work to do...\n\n @warning_icon! #X Your culture will be considered alive and can be spread as as any other culture!! #!" 
+  culture_resurrection_event.0001.option2.flavor:0 "@warning_icon! #X Your culture will remain dead and cannot be spread, decide carefully this event will not fire again! #!" 
+  #Betrayed
+  culture_resurrection_event.0002.t:0 "Rise of the Betrayed"
+  culture_resurrection_event.0002.desc:0 "It is not natural for our people to live on the surface. The air and sounds are strange — to say nothing of the world of light which we have no way of hearing or touching.\n\nIt will be a challenge to settle above, surrounded by these seeing creatures which wish us nothing but harm. But we are not cowards.\n\nI shall lead us to the challenge and to the surface, and with us shall come our Chaurus and culture."
+  culture_resurrection_event.0002.option1:0 "[GetPlayer.GetFaith.HighGodName] be with us!"  
+  culture_resurrection_event.0002.option2:0 "We should not reveal our people..."  
+  culture_resurrection_event.0002.option1.flavor:0 "We will have hard work to do...\n\n @warning_icon! #X Your culture will be considered alive and can be spread as as any other culture!! #!" 
+  culture_resurrection_event.0002.option2.flavor:0 "@warning_icon! #X Your culture will remain dead and cannot be spread, decide carefully this event will not fire again! #!" 
+  #Dwemer
+  culture_resurrection_event.0003.t:0 "Uprooted in Time"
+  culture_resurrection_event.0003.desc:0 "CHIEF TONAL ARCHITECT EMERGENCY REPORT — #italic Dragon decompression. Akhatic Achrononumeronuclei brought to agreeable values by Jill sequence-trace Tuning-Claw. Following relevant protocols,#!\n\n#italic Kragen-frequency:#! #N RED SILENCE#!\n#italic Rourken-frequency:#! #N RED SILENCE#!\n#italic Choir of Resdayn:#! #N RED SILENCE#!\n#italic Rogue harmonies:#! #N UNREACHABLE#!\n\n#italic Attempts to contact other Tonemasters to verify and synchronize have not been successful as the consequence of them not being. Red Mountain activity is the suspected cause of unexpected reality behavior.#!\n\nThis is not the world we have been a part of until moments ago. We do not know how or why this happened. All that we know is the Dragon broke and the Jills have uprooted us in time to make it whole again.\n\n#bold We are the width and breadth of the Dwemer race. For better or worse.#!"
+  culture_resurrection_event.0003.option1:0 "Rebuild. Restore. Re-evaluate."  
+  culture_resurrection_event.0003.option2:0 "We have a duty to discover what unmade the rest of our kind."  
+  culture_resurrection_event.0003.option1.flavor:0 "We will have hard work to do...\n\n @warning_icon! #X Your culture will be considered alive and can be spread as any other culture! #!" 
+  culture_resurrection_event.0003.option2.flavor:0 "@warning_icon! #X Your culture will remain dead and cannot be spread, decide carefully this event will not fire again! #!" 
+  
+  
+   

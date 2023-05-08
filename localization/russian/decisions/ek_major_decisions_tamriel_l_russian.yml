@@ -117,8 +117,9 @@
  form_orsinium_empire_decision_confirm:0 "За Великий Орсиниум!"
  expanded_orsinium_cd:0 "Вы расширили [de_jure|El] границы королевства Орсиниум за пределы его первоначального [Concept( 'duchy', 'герцогства' )|E]."
  orsinium_kingdom_requirement_cd: "У вас есть как минимум 4 [Concept( 'kingdom', 'королевских' )|E] титула"
+ form_orsinium_empire_decision_effect:0 "Каждый [Concept( 'kingdom', 'королевский' )|E] титул, который вы [Concept( 'completely_control', 'полностью контролируете' )|E] станет частью великого Орсиниума"
 
- old_orsinium_capital_decision:0 "Оккупировать Старый Орсиниум"
+ old_orsinium_capital_decision:0 "Заселить Старый Орсиниум"
  old_orsinium_capital_decision_desc:0 "Первоначальный Орсиниум, построенный на неприступных холмах с видом на Бухту Погибших Кораблей, был множество раз разрушен бретонскими ордами. Пришло время отвоевать это место и сделать его законной столицей отверженного народа."
  old_orsinium_capital_decision_tooltip:0 "Переместить столицу Орсиниума обратно в Старый Орсиниум"
  old_orsinium_capital_decision_confirm:0 "Традиции важны!"
@@ -135,6 +136,7 @@
  reintegrate_orsinium_decision_confirm:0 "Орсиниума больше нет!"
  reintegrate_orsinium_decision_cd:0 "Вы контролируете столичное [duchy|El] Орсиниума"
  no_orsimer_king_vassal_cd:0 "Орсиниум не принадлежит вассалу-орсимеру"
+ mountain_orc_regains_pariah_status:0 "[mountain_orc.GetName]ая вернёт статус [Concept( 'pariah', 'парии' )|E] и они вновь получат [Concept( 'innovation', 'инновацию' )|E] #V народ-пария#!"
  
  ### Nibenay
  establish_new_nibenay_kingdom_decision:0 "Основать новое королевство в Восточном Нибенее"
