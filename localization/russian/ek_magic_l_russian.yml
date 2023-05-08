@@ -1,7 +1,7 @@
 ﻿l_russian:
  game_concept_magicka:0 "Мана"
  game_concept_magicka_i:0 "@magicka_icon!"
- game_concept_magicka_desc:1 "$game_concept_magicka$ используется для произнесения заклинаний. Максимальное количество маны и месячная регенерация маны у персонажа определяются его [Concept( 'arcana', 'арканой' )|E] - каждое её очко дает #high 10#! к максимальной мане и #high 0.1#! к месячной регенерации маны."
+ game_concept_magicka_desc:1 "$game_concept_magicka$ используется для произнесения заклинаний. Максимальное количество маны и месячная регенерация маны у персонажа определяются его [Concept( 'arcana', 'арканой' )|E] - каждое её очко даёт #high 10#! к максимальной мане и #high 0.1#! к месячной регенерации маны."
  game_concept_arcana:0 "Аркана"
  game_concept_arcana_i:0 "@skill_arcana_icon!"
  game_concept_arcana_skill:0 "Мастерство Арканы"
@@ -472,7 +472,7 @@ absorb_skill_perk_name: "Поглотить навык"
  modifier_ritual_elemental_cloaks:0 "Стихийные плащи"
  #modifier_ritual_elemental_cloaks_desc:0 "This character uses a ritual to engulf their troops in elemental magic which makes them much more deadly."
  modifier_ritual_conceal:0 "Очарование"
- modifier_ritual_conceal_desc:0 "Этот персонаж использует ритуал, чтобы скрыть свое истинное «я» и очаровать других.
+ modifier_ritual_conceal_desc:0 "Этот персонаж использует ритуал, чтобы скрыть свое истинное «я» и очаровать других."
  modifier_ritual_rally:0 "Сплочение"
  #modifier_ritual_rally_desc:0 "This character uses a ritual to call more levies to arms."
  modifier_ritual_invisibility:0 "Невидимость"
