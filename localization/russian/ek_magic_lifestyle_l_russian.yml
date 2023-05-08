@@ -98,7 +98,7 @@
  conjuration_minor_rituals_perk_effect:0 "Открыет простые [rituals|El] колдовства"
  conjuration_medium_rituals_perk_effect:0 "Открыет обычные [rituals|El] колдовства"
  conjuration_major_rituals_perk_effect:0 "Открыет главные [rituals|El] колдовства"
- 
+
  destruction_novice_perk_effect:0 "Разблокирует заклинания разрушения уровня новичка:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('destruction') ).AddScope('tier', MakeScopeValue('(CFixedPoint)1') ).End)]"
  destruction_apprentice_perk_effect:0 "Разблокирует заклинания разрушения уровня ученика:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('destruction') ).AddScope('tier', MakeScopeValue('(CFixedPoint)2') ).End)]"
  destruction_journeyman_perk_effect:0 "Разблокирует заклинания разрушения уровня адепта:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('destruction') ).AddScope('tier', MakeScopeValue('(CFixedPoint)3') ).End)]"
