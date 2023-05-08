@@ -65,7 +65,7 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
 
 
  trait_lich_character:0 "Лич"
- trait_lich_character_desc:0 "Этот персонаж пошёл навстречу смерти и одолел её с помощью тёмной магии и запретных ритуалов, преобразовавшись в лича и стал нежитью."
+ trait_lich_character_desc:0 "Этот персонаж пошёл навстречу смерти и одолел её с помощью тёмной магии и запретных ритуалов, преобразовавшись в лича и став нежитью."
  trait_lich_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - [Select_CString(ROOT.GetCharacter.IsFemale, 'пошла', 'пошёл' )] навстречу смерти и [Select_CString(ROOT.GetCharacter.IsFemale, 'одолела', 'одолел' )] её с помощью тёмной магии и запретных ритуалов, преобразовавшись в лича и [Select_CString(ROOT.GetCharacter.IsFemale, 'стала', 'стал' )] нежитью."
  
  trait_undead:0 "Нежить"
