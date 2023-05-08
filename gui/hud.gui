@@ -249,14 +249,6 @@ widget = {
 				# 	alpha = 0
 				# }
 
-				modify_texture = {
-					name = "glow_council_of_the_eight"
-					texture = "gfx/interface/skinned/hud_maintab_bg_glow.dds"
-					blend_mode = colordodge
-					translate_uv = { -0.15 -0.81 }
-					alpha = 0
-				}
-
 				# My Realm
 				state = {
 					name = "hud_tab_glow_my_realm_enter"
@@ -483,30 +475,6 @@ widget = {
 				# 	}
 				# }
 
-				# Council of the Eight
-				state = {
-					name = "hud_tab_glow_council_of_the_eight_enter"
-					duration = @duration_maintab_button_enter
-					using = Animation_Curve_Default
-
-					modify_texture = {
-						name = "glow_council_of_the_eight"
-						alpha = 1
-						translate_uv = { -0.15 -0.81 }
-					}
-				}
-
-				state = {
-					name = "hud_tab_glow_council_of_the_eight_leave"
-					duration = @duration_maintab_button_leave
-					using = Animation_Curve_Default
-
-					modify_texture = {
-						name = "glow_council_of_the_eight"
-						alpha = 0
-						translate_uv = { -0.15 -0.81 }
-					}
-				}
 			}
 		}
 
@@ -723,6 +691,7 @@ widget = {
 				# 		on_start = "[PdxGuiInterruptThenTriggerAllAnimations('hud_tab_glow_decisions_enter','hud_tab_glow_decisions_leave')]"
 				# 	}
 				# }
+
 				hbox = {
 					state = {
 						name = clear_variable
@@ -775,6 +744,8 @@ widget = {
 						on_start = "[PdxGuiInterruptThenTriggerAllAnimations('hud_tab_glow_decisions_enter','hud_tab_glow_decisions_leave')]"
 					}
 				}
+
+
 			}
 
 			widget = {
@@ -882,89 +853,8 @@ widget = {
 				#		on_start = "#[PdxGuiInterruptThenTriggerAllAnimations#('hud_tab_glow_patron_enter',#'hud_tab_glow_patron_leave')]"
 				#	}
 				#}
-				# widget_hud_main_tab = {
-				# 	name = "tab_council_of_the_eight_open"
-				# 	tooltip = "COUNCIL_OF_THE_EIGHT_BUTTON"
 
-				# 	blockoverride "maintab_button"
-				# 	{
-				# 		texture = "gfx/interface/icons/hud_maintab/maintab_societies.dds"
 
-				# 		onclick = "[PdxGuiTriggerAllAnimations( Select_CString( And(IsGameViewOpen('decisions'), Not(GetVariableSystem.HasValue( 'decision_tab', 'council_of_the_eight' ))), 'council_of_the_eight_open', 'council_of_the_eight_closed' ) )]"
-				# 		onclick = "[PdxGuiTriggerAllAnimations( 'detail_close' )]"
-
-				# 		down = "[GetVariableSystem.HasValue( 'decision_tab', 'council_of_the_eight' )]"
-				# 	}
-
-				# 	state = {
-				# 		name = council_of_the_eight_open
-				# 		on_start = "[GetVariableSystem.Set( 'decision_tab', 'council_of_the_eight' )]"
-				# 	}
-
-				# 	state = {
-				# 		name = council_of_the_eight_closed
-				# 		# on_start = "[GetVariableSystem.Set( 'decision_tab', Select_CString( GetVariableSystem.HasValue( 'decision_tab', 'council_of_the_eight' ), 'to_clear', 'council_of_the_eight' ) )]"
-				# 		# on_start = "[GetVariableSystem.ClearIf( 'decision_tab', GetVariableSystem.HasValue( 'decision_tab', 'to_clear' ) )]"
-				# 		on_start = "[GetVariableSystem.SetOrToggle( 'decision_tab', 'council_of_the_eight' )]"
-				# 		on_start = "[ToggleGameView('decisions')]"
-				# 	}
-
-				# 	state = {
-				# 		name = _mouse_hierarchy_enter
-				# 		on_start = "[PdxGuiInterruptThenTriggerAllAnimations('hud_tab_glow_council_of_the_eight_leave','hud_tab_glow_council_of_the_eight_enter')]"
-				# 	}
-
-				# 	state = {
-				# 		name = _mouse_hierarchy_leave
-				# 		on_start = "[PdxGuiInterruptThenTriggerAllAnimations('hud_tab_glow_council_of_the_eight_enter','hud_tab_glow_council_of_the_eight_leave')]"
-				# 	}
-				# }
-				hbox = {
-
-					widget_hud_main_tab = {
-						name = "tab_council_of_the_eight_open"
-
-						visible = "[And(IsGameViewOpen('decisions'), Not(GetVariableSystem.HasValue( 'decision_tab', 'council_of_the_eight' )))]"
-
-						blockoverride "maintab_button"
-						{
-							texture = "gfx/interface/icons/hud_maintab/maintab_societies.dds"
-
-							onclick = "[PdxGuiTriggerAllAnimations( 'detail_close' )]"
-							onclick = "[GetVariableSystem.Set( 'decision_tab', 'council_of_the_eight' )]"
-
-							tooltip = "COUNCIL_OF_THE_EIGHT_BUTTON"
-							down = "[GetVariableSystem.HasValue( 'decision_tab', 'council_of_the_eight' )]"
-						}
-					}
-					widget_hud_main_tab = {
-						name = "tab_council_of_the_eight_open_2"
-
-						visible = "[Not(And(IsGameViewOpen('decisions'), Not(GetVariableSystem.HasValue( 'decision_tab', 'council_of_the_eight' ))))]"
-
-						blockoverride "maintab_button"
-						{
-							texture = "gfx/interface/icons/hud_maintab/maintab_societies.dds"
-
-							onclick = "[PdxGuiTriggerAllAnimations( 'detail_close' )]"
-							onclick = "[GetVariableSystem.SetOrToggle( 'decision_tab', 'council_of_the_eight' )]"
-							onclick = "[ToggleGameView('decisions')]"
-
-							tooltip = "COUNCIL_OF_THE_EIGHT_BUTTON"
-							down = "[GetVariableSystem.HasValue( 'decision_tab', 'council_of_the_eight' )]"
-						}
-					}
-
-					state = {
-						name = _mouse_hierarchy_enter
-						on_start = "[PdxGuiInterruptThenTriggerAllAnimations('hud_tab_glow_council_of_the_eight_leave','hud_tab_glow_council_of_the_eight_enter')]"
-					}
-
-					state = {
-						name = _mouse_hierarchy_leave
-						on_start = "[PdxGuiInterruptThenTriggerAllAnimations('hud_tab_glow_council_of_the_eight_enter','hud_tab_glow_council_of_the_eight_leave')]"
-					}
-				}
 				# button_hud_main_tab = {
 				# 	name = "tab_societies_open"
 				# 	tooltip = "SOCIETIES_BUTTON"
@@ -1003,6 +893,7 @@ widget = {
 				# 	# 	on_start = "[PdxGuiInterruptThenTriggerAllAnimations('hud_tab_glow_patron_enter','hud_tab_glow_patron_leave')]"
 				# 	# }
 				# }
+
 			}
 		}
 
@@ -2682,7 +2573,7 @@ widget = {
 		parentanchor = bottom|left
 		position = { 3 -90 }
 		alwaystransparent = no
-		visible = "[GetPlayer.IsValid]"
+		visible = "[And(GetPlayer.IsValid, Not(GetVariableSystem.Exists('hide_bottom_left_HUD')))]"
 		widget = {
 			datacontext = "[GetScriptedGui('can_see_magic_bar')]"
 			visible = "[ScriptedGui.IsValid( GuiScope.SetRoot(GetPlayer.MakeScope).End )]"
@@ -3507,6 +3398,7 @@ widget = {
 		}
 	}
 }
+
 
 ######################################################
 ############# MESSAGES AND NOTIFICATIONS #############
