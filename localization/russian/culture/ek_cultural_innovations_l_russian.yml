@@ -30,7 +30,7 @@
  innovation_alchemy_desc:0 "Искусство сочетания различных ингредиентов для создания зелий и ядов, [Concept('enc_alchemy', 'алхимия')|E], в своей самой базовой форме присутствовала в большинстве, если не во всех обществах. Но тщательное изучение каждого ингредиента, чтобы определить, каким магическим свойством обладает каждый из них, требует более глубокого понимания природы и самих алхимических процессов."
  innovation_master_field:0 "Область магистратуры"
  innovation_master_field_desc:0 "Для большинства образование приходит в результате личного обучения у местного мастера. Мы должны зарезервировать небольшие участки земли для таких занятий."
- innovation_might_makes_right:0 "Сила дает право"
+ innovation_might_makes_right:0 "Сила даёт право"
  innovation_might_makes_right_desc:0 "Когда рушатся старые империи, выживут и будут процветать только сильнейшие. Мы должны взять все, что можем, и вытеснить слабых, чтобы наш народ и наши семьи могли процветать в эту новую эпоху!"
  unlock_de_jure_war_mmr:0 "Открывает [de_jure|El] войну за [prestige_level|El]:\n - Графский титул: [GetModifier( 'prestige_level_2' ).GetNameWithTooltip|L]\n - Герцогский титул: [GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L]\n - Королевский титул: [GetModifier( 'prestige_level_4' ).GetNameWithTooltip|L]\n - Неограниченный титул: [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L]"
  unlock_crown_authority_mmr:0 "Открывает законы [Concept('crown_authority', 'авторитета короны')|E] за [prestige_level|El]:\n - $crown_authority_1$: [GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L]\n - $crown_authority_2$: [GetModifier( 'prestige_level_4' ).GetNameWithTooltip|L]\n - $crown_authority_3$: [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L]"
