@@ -34,3 +34,79 @@
  ek_pilgrimage.0004.a:0 "Мои ноги просто убивают меня!"
  ek_pilgrimage.0004.b:0 "Славься Святой Велот! Славьтесь Мученики!"
  ek_pilgrimage.0004.c:0 "Это и есть истинная вера!"
+ 
+ ek_pilgrimage.0005.t:0 "The Pilgrim's Path: Humility"
+ ek_pilgrimage.0005.desc:0 "As we make our way through the Fields of Kummu, there is a slight detour on our path: stopping along the northern shore to contemplate the Grace of Humility.\n\nApproaching the shrine like the others did before me, I spot several servings of muck offered at its base and I'm able to read its engravings:\n\n#I Once, Lord Vivec met a farmer whose guar had died, making her unable to feed her family or village. So Vivec removed his finery and toiled in the fields until the crop was harvested. Thus we pray for the same humility Lord Vivec showed that day.#!"
+ ek_pilgrimage.0005.a:0 "Offer some muck and a prayer in reverence."
+ ek_pilgrimage.0005.b:0 "Nod and carry on."
+
+ ek_pilgrimage.0006.t:0 "The Pilgrim's Path: Daring"
+ ek_pilgrimage.0006.desc:0 "Found outside the southwest corner in the Temple Canton of the City of Vivec, there is a shrine in honor of the Grace of Daring, known as the Shrine to Stop the Moon.\n\nApproaching the shrine like the others did before me, I spot several potions of levitation offered at its base and I'm able read its engravings:\n\n#I When Sheogorath tricked Baar Dau to hurl itself upon Lord Vivec's city, the poet-warrior froze the rogue moon with a single gesture. Overwhelmed by his courage and daring, the moon swore itself to eternal service of the Tribunal and its works.#!"
+ ek_pilgrimage.0006.a:0 "Offer a potion of levitation and a prayer in reverence."
+ ek_pilgrimage.0006.b:0 "Nod and carry on."
+
+ ek_pilgrimage.0007.t:0 "The Pilgrim's Path: Generosity"
+ ek_pilgrimage.0007.desc:0 "Just outside the Palace of Vivec, there is a shrine in honor of the Grace of Generosity, visited by many pilgrims all across Morrowind.\n\nApproaching the shrine like the others did before me, I spot a large pile of gold offered at its base and I'm able read its engravings:\n\n#I Long after our triumph over the Dwarves, the people wished to build a monument to the heroes of that war. Vivec thanked them, but said that it would be better to dedicate a monument to all people, great and small, who suffered and died in the war.#!"
+ ek_pilgrimage.0007.a:0 "Offer the usual amount of gold and a prayer in reverence."
+ ek_pilgrimage.0007.b:0 "Nod and carry on."
+
+ ek_pilgrimage.0008.t:0 "The Pilgrim's Path: Courtesy"
+ ek_pilgrimage.0008.desc:0 "Deep within the Puzzle Canal of the Palace of Vivec, there is a shrine in honor of the Grace of Courtesy that only the most pious and devout people are able to pay their respects at.\n\nWhile searching for this hidden shrine, I spot a not so hidden one which has engravings that read as follows:\n\n#I Breathe the Waters of His Glory and the Way is Made Clear.#!"
+ ek_pilgrimage.0008.a:0 "Place my head under the waters and breathe deep."
+ ek_pilgrimage.0008.a.tt:0 "You reach the Shrine of Courtesy"
+ ek_pilgrimage.0008.b:0 "Steer away from this madness."
+
+ ek_pilgrimage.0009.t:0 "The Pilgrim's Path: Courtesy"
+ ek_pilgrimage.0009.desc:0 "I keep breathing while the sacred waters fill my lungs but my faith is unabated. I eventually feel my senses leaving my body, only to wake up in a room with a dremora and the hidden shrine itself by [krazzt.GetHerHis] side.\n\nAs I approach the creature, [krazzt.GetSheHe] points at the shrine, impatiently, then extends [krazzt.GetHerHis] open palm to me, like [krazzt.GetSheHe] was expecting me to give [krazzt.GetHerHim] something. Confused, I approach the shrine to read its engravings:\n\n#I In a battle with Mehrunes Dagon, Vivec gave his own silver longsword to the Daedra Lord rather than dishonor himself by fighting an unarmed foe. This so impressed the Dremora that they now share a bond of respect with the followers of the Tribunal.#!"
+ ek_pilgrimage.0009.a:0 "Give the Dremora a Silver Longsword."
+ ek_pilgrimage.0009.b:0 "Issue a small prayer and go back somehow."
+
+ ek_pilgrimage.0010.t:0 "The Pilgrim's Path: Justice"
+ ek_pilgrimage.0010.desc:0 "As the pilgrimage takes me to the top of the temple in Gnisis, my eyes take me to the Mask of Vivec and the shrine close to it.\n\nAs I approach the shrine, I spot several potions that could cure common diseases offered at the bottom of the shrine, and I'm able to read its engravings:\n\n#I Once Vivec awoke to find himself and his followers trapped in hardened ash. Saddened by their suffering, his tears weakened the ash, freeing him to save his people. This is Vivec's heroism—his tender heart provides strength when his might fails.#!"
+ ek_pilgrimage.0010.a:0 "Offer a similar potion at the shrine."
+ ek_pilgrimage.0010.b:0 "Nod and carry on."
+
+ ek_pilgrimage.0011.t:0 "The Pilgrim's Path: Valor"
+ ek_pilgrimage.0011.desc:0 "The pilgrimage takes me to the south of Gnisis along the shore, inside a cave known as Koal Cave.\n\nJust inside the entrance, I spot a shrine with several portions of Dreugh Wax offered at its bottom. I'm able to read its engravings:\n\n#I Lord Vivec once fought a battle with Ruddy Man, the father of the Dreugh. When he defeated Ruddy Man, Vivec spared his life, on the condition that Ruddy Man and his children would give up their tough hides to serve as armor for the Dunmer.#!"
+ ek_pilgrimage.0011.a:0 "Offer a handful of Dreugh Wax at the shrine."
+ ek_pilgrimage.0011.b:0 "Nod and carry on."
+ ek_pilgrimage.0011.c:0 "Look for Dreugh further inside the cave."
+ ek_pilgrimage.0011.c.tt:0 "Fight a fearsome Dreugh to prove your own Valor!"
+
+ ek_pilgrimage.0012.t:0 "The Pilgrim's Path: Valor"
+ ek_pilgrimage.0012.desc:0 "I go deep into the cave, searching for any traces of Dreugh I could find. Finally, I spot it.\n\nA hunched creature stands over me and its glistening claws started to click as soon as we locked eyes. I had to act quickly."
+ ek_pilgrimage.0012.a:0 "CHARGE!"
+ ek_pilgrimage.0012.b:0 "Run away before it's too late!"
+ ek_pilgrimage.0012.a.success:0 "You defeat the creature and offer its Wax at the Shrine"
+ tooltip.ek_pilgrimage.0012.a.success:0 "You Defeated the Creature"
+ ek_pilgrimage.0012.a.failure:0 "The Creature Defeats You"
+ tooltip.ek_pilgrimage.0012.a.failure:0 "The Creature Defeated You"
+ ek_pilgrimage.0012.a.failure.death.tt:0 "The Creature Killed You"
+ ek_pilgrimage.0012.b.tt:0 "You might have underestimated the Dreugh..."
+
+ ek_pilgrimage.0013.t:0 "The Pilgrim's Path: Pride"
+ ek_pilgrimage.0013.desc:0 "As the pilgrimage takes me to the top of Mount Kand, I spot a small shrine not far from my path.\n\nAs I approach the shrine, I spot several soul gems offered at the bottom of the shrine, and I'm able to read its engravings:\n\n#I Have trust in the Tribunal, for they protect us from our foes. Have love for the Tribunal, for they bring us help in time of need. Give respect to the Tribunal, for their indomitable will and power is the pride of all Dunmer.#!"
+ ek_pilgrimage.0013.a:0 "Offer a soul gem at the shrine."
+ ek_pilgrimage.0013.b:0 "Nod and carry on."
+
+ ek_pilgrimage.0014.t:0 "Rilms's Grace"
+ ek_pilgrimage.0014.desc:0 "While heading towards my destination in the pilgrimage, I spot a bright shimmer in the distance, almost like it was calling me from afar.\n\nAs I approach the site, I immediately recognise the object that was emitting such a bright light. They were the shoes that St. Rilms gave away in order to humble herself and give our people an everlasting example of generosity. Oh, joyous day! I fall to my knees and start a fervorous prayer while tears roll down my face.\n\nTouching it moves me so much that I consider also devouting myself to the Barefooted Saint."
+ ek_pilgrimage.0014.a:0 "Bless Saint Rilms! Bless the beggars and the pilgrims!"
+ ek_pilgrimage.0014.b:0 "I'm not worthy, great Saint."
+
+ ek_pilgrimage.0015.t:0 "Aralor's Intervention"
+ ek_pilgrimage.0015.desc:0 "While heading towards my destination in the pilgrimage, I spot a bright shimmer in the distance, almost like it was calling me from afar.\n\nAs I approach the site, I immediately recognise the object that was emitting such a bright light. It was the hair shirt that St. Aralor himself used. Oh, joyous day! I fall to my knees and start a fervorous prayer while tears roll down my face.\n\nTouching it moves me so much that I consider also devouting myself to the Penitent Saint."
+ ek_pilgrimage.0015.a:0 "Bless Saint Aralor! Bless the tanners and the miners!"
+ ek_pilgrimage.0015.b:0 "I'm not worthy, great Saint." 
+
+ ek_pilgrimage.0016.t:0 "Felms's Glory"
+ ek_pilgrimage.0016.desc:0 "While heading towards my destination in the pilgrimage, I spot a bright shimmer in the distance, almost like it was calling me from afar.\n\nAs I approach the site, I immediately recognise the object that was emitting such a bright light. It was the cleaver which belonged to St. Felms himself! Oh, joyous day! I fall to my knees and start a fervorous prayer while tears roll down my face.\n\nTouching it moves me so much that I consider also devouting myself to the Bold Saint."
+ ek_pilgrimage.0016.a:0 "Bless Saint Felms! Bless the butchers and the fishmongers!"
+ ek_pilgrimage.0016.b:0 "I'm not worthy, great Saint." 
+
+ ek_pilgrimage.0017.t:0 "Rock of Llothis"
+ ek_pilgrimage.0017.desc:0 "While heading towards my destination in the pilgrimage, I spot a bright shimmer in the distance, almost like it was calling me from afar.\n\nAs I approach the site, I immediately recognise the object that was emitting such a bright light. It was the crosier which belonged to St. Llothis himself! Oh, joyous day! I fall to my knees and start a fervorous prayer while tears roll down my face.\n\nTouching it moves me so much that I consider also devouting myself to the Pious Saint."
+ ek_pilgrimage.0017.a:0 "Bless Saint Llothis! Bless the tailors and the dyers!"
+ ek_pilgrimage.0017.b:0 "I'm not worthy, great Saint." 
+ 
+ 

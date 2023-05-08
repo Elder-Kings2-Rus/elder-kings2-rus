@@ -50,3 +50,4 @@
  UNLOCKS_MAGICAL_COURT_TYPE_PERK_BONUS:0 "Открывает [court_type|El] #V $court_magical$#!\n[court_grandeur|E] получает бонус, когда #V $court_magical$#!: #P +5#!\n$culture_parameter_magic_elective_enabled$\n Как вассал, вы можете запросить [Concept('vassals', 'вассальные')|E] [Concept('obligations', 'обязательства')|E] на основе Арканы у вашего сюзерена"
  magicka_legacy_5_name:0 "Многолетние ритуалы"
  ADDITIONAL_RITUAL_PERK_BONUS:0 "Позволяет провести один дополнительный постоянный ритуал"
+ magicka_legacy_trigger:0 "\n#weak Вы должны уметь использовать [Concept('magic', 'магию')|E], чтобы выбрать это наследие!#!"

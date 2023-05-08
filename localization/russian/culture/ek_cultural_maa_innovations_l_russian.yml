@@ -11,10 +11,12 @@
  innovation_refined_moonstone_plate:0 "Пластины из очищенного лунного камня"
  innovation_refined_moonstone_plate_desc:0 "Сплав лунного камня и серебра обладает исключительными качествами, но эти два материала настолько трудно сплавить, что массовое изготовление доспехов из него становится невозможным. Невозможным для всех, кроме нас, хранящих тайну изготовления данного сплава с эпохи Рассвета."
  innovation_mnemolichite_foci:0 "Обработка очищенного малахита"
- innovation_mnemolichite_foci_desc:0 ""
+ innovation_mnemolichite_foci_desc:0 "Shipments of precious Mnemolichite have done much to further our insights into magic. Few can boast of more exotic incantations and deadlier spells than the Adamantine magisters."
  innovation_eton_nir_gryphon_riders:0 "Наездники на грифонах"
  innovation_eton_nir_gryphon_riders_desc:0 "Исторически сложилось так, что было лишь четыре известных велкинара. Однако многочисленные войны и наши амбиции в Тамриэле потребовали значительного увеличения наездников на грифонах и размещения их за пределами острова."
  # Argonian
+ innovation_black_marsh_materials:0 "Black Marsh Materials"
+ innovation_black_marsh_materials_desc:0 "Flint and bone, hackwing feathers and volcanic glass, bog iron and brass, all these and more can be found in Black Marsh. Perhaps the armors we create from such disparate materials cannot rival steel plate, but wherever our warrios fight, it is Black Marsh itself that armors them."
  # Ayleidon
  innovation_welkynd_stone_foci:0 "Обработка велкиндского камня"
  innovation_welkynd_stone_foci_desc:0 "Метеоритное стекло, содержащее чистую магию из Этериуса, создание которого остается тайной нашей родословной, может быть огранено в камни велкинд, которые поддерживают разнообразные чары в наших залах, а также служат проводниками для впечатляющего объема магической энергии."
@@ -23,6 +25,9 @@
  # Dunmeris
  innovation_guar:0 "Разведение гуаров"
  innovation_guar_desc:0 "Гуары - самые распространённые одомашненные животные Морровинда и Чернотопья, их часто разводят как вьючных животных, тяговых зверей и поставщиков шкур, яиц и мяса. Их более агрессивные сородичи, кагути, используются в качестве боевых животных."
+ # Falmeris
+ innovation_crag_warfare:0 "Crag Warfare"
+ innovation_crag_warfare_desc:0 "For decades we fought against our tyrant overlords for control of the underground. When they were no more, we were free of our bonds and could make our homes in this subterranean world. There we lived, prospered - and fought, a neverending fight for survival."
  # Goblin-ken
  # Cyrodiilic
  innovation_colovian_auxilia_cavalry:0 "Коловианские седла"
@@ -30,11 +35,11 @@
  innovation_ancestor_silk_robes:0 "Мантии из шёлка мотыльков предка"
  innovation_ancestor_silk_robes_desc:0 "Именно в нибенейских монастырях были одомашнены первые мотыльки предка, а слепые мистики впервые научились искусству ткать из их шёлка шали и мантии, пропитанные магией, которая резонирует с врождённым магическим потенциалом владельца."
  innovation_newtscale_cloaks:0 "Плащи из шкуры тритона"
- innovation_newtscale_cloaks_desc:0 ""
+ innovation_newtscale_cloaks_desc:0 "Supple but resilient, leather from the Blackwood Newt clads our best archers. Fleet of foot and fastened with a trusty bow, our enemies should think twice before angering the Nibenu sharpshooters."
  # Khajiiti
  # Nedic
  innovation_bloodforged_arms:0 "Кровавое оружие"
- innovation_bloodforged_arms_desc:0 ""
+ innovation_bloodforged_arms_desc:0 "Nirncrux is very potent. Our horsemen would become unstoppable if armed with 'bloodforged' weapons."
  # Orsimer
  innovation_bear_taming:0 "Укрощение медведей"
  innovation_bear_taming_desc:0 "Среди нас распространено уважение к физической силе. Дикие медведи часто считаются грозным противником, и один из самых быстрых способов для нашего рода заслужить уважение других - это найти, победить и приручить медведя. С ними может быть трудно справиться, но в случаи успеха наши враги будут растерзаны нашими дикими союзниками."

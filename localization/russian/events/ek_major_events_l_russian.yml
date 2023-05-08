@@ -1,4 +1,5 @@
 ﻿l_russian:
+# Nibenay events
  ek_major_decisions.0010.t:0 "Новый Нибеней!"
  ek_major_decisions.0010.desc: "Теперь, когда Восточный Нибеней снова независим, мы должны выбрать новую столицу и назвать наше королевство соответственно."
  ek_major_decisions.0010.caer_suvio:0 "Благородное пристанище Каэр Сувио"
@@ -10,6 +11,7 @@
  ek_major_decisions.0010.cuptor:0 "Старый форт Каптор"
  ek_major_decisions.0010.redwater:0 "Коварные пороги Красной Воды"
  ek_major_decisions.0010.entius:0 "Восстановленный форт Энтиус"
+ # Orsinium events
  ek_major_decisions.0020.t:0 "Новый Орсиниум!"
  ek_major_decisions.0020.desc:0 "Славься [ROOT.Char.GetFaith.HighGodName]! \n \nУсердствуя, [ROOT.Char.GetFullNameNicknamed] [Select_CString(ROOT.GetCharacter.IsFemale, 'смогла', 'смог' )] воплотить великую цель, - теперь орсимеры снова обладают местом, которое можно назвать домом: Орсиниум! Он вырван из земель, формально принадлежащих области [original_kingdom.GetName] в регионе [original_empire.GetName]. \n\nНовости о восстановлении столицы отверженного народа в [orsinium_capital.getName] распространились повсеместно, и ожидается, что многие племена присоединятся к Орсиниуму, чтобы защитить его от иностранной агрессии. \n\nПусть это будет Орсиниум, который простоит вечно."
  ek_major_decisions.0020.option:0 "Никому не победить орка!"
@@ -29,4 +31,28 @@
  ek_major_decisions.0024.desc:0 "Орсиниум снова пал. [Select_CString(orsinium_conqueror.IsFemale, 'Способная', 'Способный' )] [orsinium_conqueror.GetFullNameNicknamed] [Select_CString(orsinium_conqueror.IsFemale, 'завоевала', 'завоевал' )] столицу всех орков, что заставило их вновь рассеяться по внутренним землям Тамриэля."
  ek_major_decisions.0024.option.a:0 "Он пал, как и всегда."
  ek_major_decisions.0024.option.b:0 "Позор [ROOT.Char.GetFaith.HighGodName]а!"
+ ek_major_decisions.0024.tooltip:0 "If they had lost this status, the [mountain_orc.GetName] culture is again considered [pariah|E], signified by them regaining the #V Pariah Folk#! [innovation|E]"
+# Pariah Folk events
+ ek_major_decisions.0030.t:0 "[ROOT.Char.GetCulture.GetNameNoTooltip] Redemption"
+ ek_major_decisions.0030.desc:0 "I have earned for my people a place among the "civilised" cultures. Our customs remain unchanged, and we act as we did before, but every one of us feels safer now.\n\nEach [ROOT.Char.GetCulture.GetNameNoTooltip] can walk our streets without looking to the horizon for attack. Stranger still, we can walk the streets of others without fear of being struck or expelled or worse.\n\nFinally, we are recognised as equals by those who would have expelled or exterminated us before. This new world that we have entered is strange, but we are more than worthy of it."
+ ek_major_decisions.0030.a:0 "Pariahs no longer!"
+ ek_major_decisions.0030.a.tt:0 "The [pariah_reformer.GetCulture.GetCollectiveNoun] discovers the #V Pariah Legacy#! [innovation|E], and will not be able to discriminate against current [pariahs|E]"
+ ek_major_decisions.0030.b:0 "We have risen above the rabble"
+ ek_major_decisions.0030.b.tt:0 "The [pariah_reformer.GetCulture.GetCollectiveNounNoTooltip] discovers the #V Redeemed Pariahs#! [innovation|E], allowing them to discriminate against current [pariahs|E]"
+ ek_major_decisions.0031.t:0 "[pariah_reformer.GetCulture.GetNameNoTooltip] Redemption"
+ ek_major_decisions.0031.desc:0 "For centuries the [pariah_reformer.GetCulture.GetCollectiveNounNoTooltip] have been beaten and chased all across Nirn. Forced into humiliating exile and confined to small realms, as intolerant hordes laid waste to the greatest of their kingdoms.\n\nBut no longer! Thanks to [pariah_reformer.GetFullNameNicknamedNoTooltip] the [pariah_reformer.GetCulture.GetCollectiveNounNoTooltip] can stand proud amongst the peoples of the world, confident that their mere existence isn't the sin it once was.\n\nThere is still much to be done and some will never change their mind but we can say that the worst is behind them"
+ ek_major_decisions.0031.option.a:0 "At last, we are treated with dignity!"
+ ek_major_decisions.0031.option.b:0 "There is yet hope for us too"
+ ek_major_decisions.0031.option.c:0 "Maybe it is true, that they are people too?"
+ ek_major_decisions.0031.option.d:0 "Mere delusions, they are still monstrous!"
+ ek_major_decisions.0031.tooltip:0 "The [pariah_reformer.GetCulture.GetNameNoTooltip] culture is no longer considered [pariah|E], signified by their loss of the #V Pariah Folk#! [innovation|E]"
+ ek_major_decisions.0031_cultural_acceptance_gain:0 "Acknowledged former [pariah|E]"
+ ek_major_decisions.0031_cultural_acceptance_loss:0 "Rejected former [pariah|E]"
+ ek_major_decisions.0033.t:0 "[demoted_pariah_culture.GetNameNoTooltip] Fall From Grace"
+ ek_major_decisions.0033.desc:0 "The last bastion of the civilised [demoted_pariah_culture.GetCollectiveNounNoTooltip] has fallen and with it the recognition that they had attained. Their people are no longer acknowledged as such, and they shall have to look over their shoulders at all times. The people of Tamriel are no longer willing to recognise them. Whether due to some as-yet imperceptible change in their behaviour, or a simple lack of diplomatic force projected by their leaders, the [demoted_pariah_culture.GetCollectiveNounNoTooltip] are once again regarded as monsters. From this day forth, their warriors will be treated as beasts and their people as nuisances."
+ ek_major_decisions.0033.option.a:0 "Is nowhere safe for us?"
+ ek_major_decisions.0033.option.b:0 "The safety guaranteed a Pariah is fickle"
+ ek_major_decisions.0033.option.c:0 "A great tragedy!"
+ ek_major_decisions.0033.option.d:0 "Finally these beasts have been put back into their place"
+ ek_major_decisions.0033.tooltip:0 "The [demoted_pariah_culture.GetName] culture is again considered [pariah|E], signified by them regaining the #V Pariah Folk#! [innovation|E]"
  

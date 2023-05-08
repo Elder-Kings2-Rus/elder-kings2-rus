@@ -22,7 +22,7 @@
  dynn_hlaalu_motto:0 "Торговать честно и свободно - значит чтить Трёх"
  dynn_dres_motto:0 "Нести невежественным культуру и истину — наш долг и бремя"
  dynn_telvanni_motto:0 "Могущество воли — лучшая дань уважения предкам"
- dynn_howardus_motto:0 "It Just Works"
+ dynn_howardus_motto:0 "It Just Works."
  dynn_reman_motto:0 "АЗ ЕСМЬ СИРОДИЛ ПРИШЕДШИЙ"
  dynn_ysgramoor_motto:0 "Предвестники для всех"
  dynn_wulfharth_motto:0 "Просто встряхни дракона"
@@ -36,7 +36,6 @@
  dynn_marx_motto:0 "С презрением брошу перчатку"
  dynn_dulac_motto:0 "Зеленые поля, быстрые копыта"
  dynn_oroin_motto:0 "Один гвоздь не удержит мост"
- dynn_juseius_motto:0 "Да будет мрак"
  dynn_galerion_motto:0 "Смелый и яркий, как день"
  dynn_mannimarco_motto:0 "Это моё право"
  dynn_aunoroe_motto:0 "Целься смело и бейся верно"
@@ -44,11 +43,8 @@
  dynn_auridon_motto:0 "Древний как земля"
  dynn_motto_firsthold:0 "Правая рука королей"
  dynn_tharumee_motto:0 "Подними перо понимания"
- dynn_suzahleel_motto:0 "До последнего вздоха"
  dynn_camoran_motto:0 "Стрелы Эплира"
  dynn_brae_motto:0 "Устремиться к звёздам"
- dynn_toteikhleel_motto:0 "Один кол, три надгробья"
- dynn_xulmeleel_motto:0 "Ухо вместо весов"
  dynn_olo_motto:0 "Паруса на пути к славе"
  dynn_pullia_motto:0 "Мой меч - моё право"
  dynn_zantonius_motto:0 "Приключения начинаются"
@@ -131,14 +127,19 @@
  dynn_hinrorue_motto:0 "Военачальники горного логова"
  dynn_driladan_motto:0 "Тени ползут в застывших каменных залах"
  dynn_blackroot_motto:0 "Пир в честь Павших"
- dynn_camoran_grahtwood_motto:0 "Безопасность в небезопасном мире"
+ dynn_sain_motto:0 "Кровь на воде"
+ dynn_gurges_motto:0 "Любой ценой"
+
+ dynn_beanique_motto:0 "Непобедимые и несокрушимые"
+ dynn_kssazi_motto:0 "От наших клинков падут самые могучие"
  dynn_ancmirar_motto:0 "Над гранью"
  dynn_heart_fang_motto:0 "Пережить охоту"
  dynn_chiluk_motto:0 "Плывите до последнего света"
  dynn_dresley_motto:0 "Больше, чем просто никс-гончие"
  dynn_tswift_motto:0 "Лучник, добыча; кто бы мог остаться?"
  dynn_copperton_motto:0 "Каждый день, раз в день, делайте себе подарок"
- dynn_fyr_motto:0 "Не трать время на скучных существ"                                                    
+ dynn_vautrine_motto:0 "Через нас Джим Сэй поет морю"
+ dynn_ysciele_motto:0 "Поля Раена, наше выживание, наше процветание"
 
 #Placeholder Motto
  dynn_placeholder_motto:0 "Крутая односложная фраза будет добавлена"
@@ -188,18 +189,26 @@
  motto_how_black_my_heart:0 "Как черно моё сердце, пылающее в огне?"
 
 
-#Tsaesci Mottos
- dynn_vethrakk_motto:0 "Мин сражает нашего врага"
- dynn_ssaryz_motto:0 "Опрокинуть небеса"
- dynn_zidakye_motto:0 "Предостережение от худшего"
- dynn_sylla_motto:0 "Умиротворение в изгнании"
-
 #Altmer Mottos
  dynn_hesene_motto:0 "Повинуясь Зарксу"
  dynn_isquer_motto:0 "Сияние на юге"
  dynn_itecerie_motto:0 "Отблески королевской власти"
  dynn_eldamar_motto:0 "Просвещение через торговлю"
  dynn_aquila_motto:0 "Истинное зрение обнажает все"
+ dynn_laeloria_motto:0 "Вернуть то, что мы любим"
+
+#Argonian Mottos
+ dynn_norg_tzel_motto:0 "The White Scale Brings Death"
+ dynn_xit_xaht_motto:0 "Taste the Sap And Give In"
+ dynn_suzahleel_motto:0 "До последнего вздоха"
+ dynn_toteikhleel_motto:0 "Один кол, три надгробья"
+ dynn_xulmeleel_motto:0 "Ухо за чешуйку"
+ dynn_kur_motto:0 "We Must Walk the Path"
+ dynn_juseius_motto:0 "Да будет мрак"
+ dynn_thuxis_motto:0 "Listen to the Roots"
+ dynn_haj_motto:0 "May the Hist Hide Us"
+ dynn_ca_uxith_motto:0 "Nothing Stands Forever"
+ dynn_jujju_motto:0 "Part of the Land, Part of the Hist"
 
 #Ashlander Mottos
  dynn_ahemmusa_motto:0 "Цени осторожность сердца"
@@ -223,14 +232,25 @@
  dynn_haven_motto:0 "Безопасность под нашей тенью"
  dynn_gorinir_motto:0 "Соблюдайте пакт"
  dynn_arenthia_motto:0 "Спокойный, достойный, благородный"
+ dynn_redbranch_motto:0 "From Blood And Soil We Grow"
+ dynn_camoran_grahtwood_motto:0 "Безопасность в небезопасном мире"
 
 #Cyrodiilic Mottos
  dynn_pardus_motto:0 "Ужас разбушевался"
  dynn_pallas_motto:0 "Врата Риммена стоят крепко"
 
+# Dunmer Mottos
+ dynn_arobar_motto:0 "Three Blessings upon our Blades"
+ dynn_fyr_motto:0 "Не трать время на скучных"
+
 #Khajiit Mottos
  dynn_khaspoor_motto:0 "Джоун скорбит о нас"
  dynn_shabu_motto:0 "Могучие пески вечно изменчивы"
+ dynn_korahz_motto:0 "Truth And Cleverness Need Not Be Enemies"
+
+#Goblinken Mottos
+ dynn_iceclaw_motto:0 "Fear the Cold"
+ dynn_wolftongue_motto:0 "Storihbeg Is With Us"
 
 #Nedic Mottos
  dynn_blackdrake_motto:0 "Пусть тьма поглотит наших врагов"
@@ -239,11 +259,15 @@
  dynn_lahk_motto:0 "Крепкий как гранит"
  dynn_vraseth_motto:0 "Архонт улыбается"
  dynn_ormaka_motto:0 "Видящий за вуалью"
+ dynn_cinder_heart_motto:0 "Our Hatred Burns Bright"
+ dynn_bullblood_motto:0 "Our Line Is Unbroken"
+ dynn_ghostsong_motto:0 "Feed the Darkness!"
 
 #Nordic Mottos
  dynn_keeneye_motto:0 "Кьямлейр на горизонте"
  dynn_highwall_motto:0 "Высокие стены скрывают от неприятностей"
  dynn_starsong_motto:0 "У магии своя симфония"
+ dynn_deathbrand_motto:0 "The Price Must Be Paid"
 
 #Orsimer Mottos
  dynn_morkul_motto:0 "Клятва священна"
@@ -252,6 +276,12 @@
  dynn_orichalc_motto:0 "Мир куётся войнами"
  dynn_rubedite_motto:0 "Кровь алых вен"
  dynn_barkbite_motto:0 "Процветание на вершине имперского высокомерия"
+
+ #Tsaesci Mottos
+ dynn_vethrakk_motto:0 "Мин сражает нашего врага"
+ dynn_ssaryz_motto:0 "Опрокинуть небеса"
+ dynn_zidakye_motto:0 "Предостережение от худшего"
+ dynn_sylla_motto:0 "Умиротворение в изгнании"
 
 #Yokudan Mottos
  dynn_saran_motto:0 "Дружба плетёт сеть"
@@ -267,8 +297,7 @@
  dynn_ashabah_motto:0 "Выполнять священный долг"
  dynn_rusofiz_motto:0 "Онси вздыхает с облегчением"
  dynn_saraj_motto:0 "Сора гремит"
-
-
+ dynn_americk_motto:0 "The Withered Hand Holds Wisdom"
 
 #Motto Inserts
  motto_guar:0 "Гуар"
@@ -280,7 +309,7 @@
  motto_senche_lion: "Сенч-лев"
  motto_dreugh:0 "Дреуг"
  motto_mudcrab:0 "Грязекраб"
- motto_durzong:0 "Дурзог"
+ motto_durzog:0 "Дурзог"
  motto_addax:0 "Аддакс"
  motto_duneracer:0 "Дюноход"
  motto_haj_mota:0 "Хадж-Мота"
@@ -314,7 +343,7 @@
  motto_the_duneripper:0 "Дюнорой"
  motto_the_glyptodon:0 "Глиптодонт"
  motto_the_ringtail:0 "Кольцехвостый енот"
- motto_the_durzong:0 "Дурзог"
+ motto_the_durzog:0 "Дурзог"
  motto_the_echatere:0 "Эшатер"
  motto_the_minotaur:0 "Минотавр"
  motto_the_moth:0 "Мотылёк"

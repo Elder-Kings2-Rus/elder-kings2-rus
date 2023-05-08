@@ -5,14 +5,27 @@
  CONQUEST_KINGDOM_CB_NAME:0 "Завоевать [kingdom|El]"
  CONQUEST_EMPIRE_CB_NAME:1 "Завоевать [Concept( 'empire', 'империю' )|E]"
 
- HOUSE_TOMB_0_CONQUEST_CB_NAME:0 "Завоевать гробницу Великого Дома"
+ HOUSE_TOMB_0_CONQUEST_CB_NAME:0 "Вернуть гробницу Великого Дома"
+ HOUSE_TOMB_0_CONQUEST_WAR_NAME:0 "Вернуть гробницу Великого Дома"
  
  CLEANSE_ABOMINATIONS_NAME:1 "Очищение от скверны в [TITLE.GetBaseName]"
- CLEANSE_ABOMINATIONS_DUCHY_NAME:1 "Очищение от скверны"
+ CLEANSE_ABOMINATIONS_DUCHY_NAME:1 "[cleanse_abomination|E]"
  CB_REDUCED_CLEANSE_ABOMINATIONS_COST:0 "[faith|E] — Снижение стоимости Священной войны"
  cleanse_abominations_victory_desc:0 "В пределах основных [Concept( 'title', 'владений' )|E] цели, [attacker.GetShortUIName] захватывает все титулы, принадлежащие [abominations|El], а остальные становятся вассалами".
  cleanse_abominations_white_peace_desc:0 "[titles|E] не меняют владельца."
  cleanse_abominations_defeat_desc:0 "[titles|E] не меняют владельца. [attacker.GetFaith.GetAdjective] теряет [fervor|El]."
+ 
+ EXPEL_MONSTERS_NAME:0 "Monster Expulsion in [TITLE.GetBaseName]"
+ EXPEL_MONSTERS_DUCHY_NAME:1 "[expel_monsters|E]"
+ expel_monsters_victory_desc:0 "Within the target [title|E], [attacker.GetShortUIName] seize all titles held by [pariahs|E], and the rest are vassalized."
+ expel_monsters_white_peace_desc:0 "No [titles|E] change hands."
+ expel_monsters_defeat_desc:0 "No [titles|E] change hands."
+
+ BANISH_DEMON_NAME:0 "Daedra Banishment in [TITLE.GetBaseName]"
+ BANISH_DEMON_DUCHY_NAME:1 "[banish_demon|E]"
+ banish_demon_victory_desc:0 "Within the target [title|E], [attacker.GetShortUIName] seize all titles held by [daedric_race|E], and the rest are vassalized."
+ banish_demon_white_peace_desc:0 "No [titles|E] change hands."
+ banish_demon_defeat_desc:0 "No [titles|E] change hands."
  
  MIGRATION_COUNTY_CB_NAME:1 "Миграция в [county|El]"
  MIGRATION_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Миграция графства [TITLE.GetBaseName]"
