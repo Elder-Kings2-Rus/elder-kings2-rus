@@ -144,3 +144,358 @@
  
  ek_pet_animal.1502.desc:0 "С любимым лакомством вашего скорпиона, вы входите в свой маленький сад, где [ROOT.Char.Custom('ScorpionStoryName')] обычно проводит большую часть времени.\nКак только [ROOT.Char.Custom('ScorpionStorySheHe')] заметит вас, или лакомство в вашей руке, [ROOT.Char.Custom('ScorpionStorySheHe')] начинает счастливо клацать своими клешнями и кружится вокруг вас.\n[ROOT.Char.Custom('ScorpionStorySheHe')] ложится вам в руку и начинает счастливо пищать.\n\nС улыбкой на лице, вы чувствуете как можете встретить все трудности, что готовит для вас мир"
  ek_pet_animal.1502.a:0 "[ROOT.Char.Custom('ScorpionStoryName')], не ешь что попало!"
+ 
+  ##############
+ #   SCRIB   #
+ ##############
+ scrib_story_modifier:0 "Pet Scrib"
+ scrib_story_modifier_desc:0 "This character enjoys the company of a kwama scrib, skittling around them wherever they go"
+ scrib_story_observing_modifier:0 "Scrib Bravery"
+ scrib_story_observing_modifier_desc:0 "This character has developed a taste for innocent behavior while observing their pet scrib"
+ scrib_story_fighting_with_you_modifier:0 "Battle Scrib"
+ scrib_story_fighting_with_you_modifier_desc:0 "In battle, this character can always be seen with their scrib not far from them, distracting enemies and even sometimes hurting them."
+ bit_by_scrib_modifier:0 "Bit by Scrib"
+ bit_by_scrib_modifier_desc:0 "A Scrib bite has paralyzed this character"
+
+ scrib_gender_her:0 "her"
+ scrib_gender_his:0 "his"
+ scrib_gender_him:0 "him"
+ scrib_gender_she:0 "she"
+ scrib_gender_he:0 "he"
+ scrib_gender_herself:0 "herself"
+ scrib_gender_himself:0 "himself"
+ scrib_gender_female:0 "female"
+ scrib_gender_male:0 "male"
+
+ color_caramel:0 "caramel-colored"
+ color_yellow:0 "yellow"
+ color_black:0 "black"
+ color_blue:0 "blue"
+ color_orange:0 "orange"
+
+ scrib_name:1 "[ROOT.Char.GetLocalizedText( 'story_cycle_scrib_name' )]"
+ scrib_name_possessive:1 "[ROOT.Char.Custom( 'ScribStoryName' )]'s"
+ scrib_name_grubchum:0 "Grubchum"
+ scrib_name_bert:0 "Bert"
+ scrib_name_ernie:0 "Ernie"
+ scrib_name_larvie:0 "Larvie"
+ scrib_name_brave:0 "Brave"
+
+ ek_pet_animal.2001.t:0 "The Scrib"
+ ek_pet_animal.2001.desc:1 "As the scrib scuttles around the room, happily clacking [ROOT.Char.Custom('ScribStoryHerHim')] little legs, I ponder what I should name [ROOT.Char.Custom('ScribStoryHerHim')]. Something historical? Something alluding to [ROOT.Char.Custom('ScribStoryHerHis')] [ROOT.Char.Custom('ScribColor')] body? Something to describe the soothing feeling I experience when [ROOT.Char.Custom('ScribStorySheHe')] scuttles around me?\n\nOh, I know! I will name [ROOT.Char.Custom('ScribStoryHerHim')]..."
+ ek_pet_animal.2001.a:1 "What a great name!"
+
+ ### Random scrib events
+ # You observe your scrib
+ ek_pet_animal.2101.t:0 "[ROOT.Char.Custom('ScribStoryName')]: Scuttling Innocence"
+ ek_pet_animal.2101.desc:0 "I have taken the habit to spend some time with [ROOT.Char.Custom('ScribStoryName')] at the end of the day, observing [ROOT.Char.Custom('ScribStoryHerHis')] movements.\n\nThe way [ROOT.Char.Custom('ScribStoryName')] moves around, curiously exploring [ROOT.Char.Custom('ScribStoryHerHis')] surrounding makes me wonder if I should see the world more like a wonder to witness."
+ ek_pet_animal.2101.a:0 "I feel so young!"
+
+ # Your scrib goes with you into battle!
+ ek_pet_animal.2102.t:0 "[ROOT.Char.Custom('ScribStoryName')]: Larval Bravery"
+ ek_pet_animal.2102.desc:0 "It seems that the bravery of [ROOT.Char.Custom('ScribStoryName')] knows no bounds! Be it in large scale battles, small skirmishes, or even in singular duels, [ROOT.Char.Custom('ScribStorySheHe')] never leaves my side and fights with me.\n\nMy opponents, friendly or not, seem to even be frightened of [ROOT.Char.Custom('ScribStoryHerHim')], and more than one were defeated because [ROOT.Char.Custom('ScribStoryName')] distracted them with [ROOT.Char.Custom('ScribStoryHerHis')] [ROOT.Char.Custom('ScribColor')] carapace, or even because [ROOT.Char.Custom('ScribStorySheHe')] pecked them!"
+ ek_pet_animal.2102.a:0 "With me, into battle!"
+
+ # Your scrib attacked a vassal! Wound or possibly bad modifier
+ ek_pet_animal.2103.t:0 "[ROOT.Char.Custom('ScribStoryName')]: Sting!"
+ ek_pet_animal.2103.desc_wounded:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with me, [ROOT.Char.Custom('ScribStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\n[vassal.GetFirstName] managed to flee the room, but not before my scrib could severly hurt [vassal.GetHerHim]..."
+ ek_pet_animal.2103.desc_poisoned:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with me, [ROOT.Char.Custom('ScribStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\nAn intense scream was soon heard, and after [ROOT.Char.Custom('ScribStoryName')] was calmed down, [vassal.GetFirstName] could be seen completely paralyzed.\n\n'It stung [vassal.GetHerHim]!' a servant could be heard screaming. '[vassal.GetSheHe|U] is paralyzed now!'"
+ ek_pet_animal.2103.a:0 "I hope [vassal.GetFirstName] will be all right..."
+ ek_pet_animal.2103.b:0 "Oh no..."
+
+ ek_pet_animal.2104.t:0 "[ROOT.Char.Custom('ScribStoryName')]: Burrow"
+ ek_pet_animal.2104.desc:0 ""[ROOT.Char.GetFirstNameNoTooltip], look at what this scrib has done!"\n\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] [spouse.GetTitledFirstName] is pointing at [ROOT.Char.Custom('ScribStoryName')]'s latest burrow, a hole in my very throneroom. "This will thoroughly affect your reputation. Please, consider getting rid of this pest.""
+ ek_pet_animal.2104.a:0 "I'll pay for the damages!"
+ ek_pet_animal.2104.b:0 "[ROOT.Char.Custom('ScribStoryName')] can make as many holes as [ROOT.Char.Custom('ScribStorySheHe')] wants to!"
+ ek_pet_animal.2104.c:0 "I'll give [ROOT.Char.Custom('ScribStoryHerHim')] to [receiver_1.GetFirstNameNoTooltip]..."
+ ek_pet_animal.2104.d:0 "[receiver_2.GetFirstNameNoTooltip] could use a companion..."
+ ek_pet_animal.2104.e:0 "[receiver_3.GetFirstNameNoTooltip] would take care of [ROOT.Char.Custom('ScribStoryHerHim')]..."
+
+ ek_pet_animal.2105.t:0 "[ROOT.Char.Custom('ScribStoryName')]: The Scrib"
+ ek_pet_animal.2105.desc:0 ""Little [ROOT.Char.Custom('ScribStoryNamePossessive')] has been causing a lot of trouble lately digging burrows everywhere in my home... So I will trust you to take care of [ROOT.Char.Custom('ScribStoryHerHim')] in my stead."\n\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('giver'))] [giver.GetTitledFirstName] holds a [receiver.Custom('ScribColor')] scrib out towards me. "[ROOT.Char.Custom('ScribStoryName')] is an excellent... an excellent companion.""
+ ek_pet_animal.2105.a:0 "Thank you, I will treasure [ROOT.Char.Custom('ScribStoryHerHim')]!"
+ ek_pet_animal.2105.b:0 "Thank you. I am sure [ROOT.Char.Custom('ScribStorySheHe')] will be of value."
+
+ ek_pet_animal.2106.t:0 "[receiver.Custom('ScribStoryName')]: Life Without You"
+ ek_pet_animal.2106.t_dead:0 "Life Without You"
+ ek_pet_animal.2106.desc_opening:0 "I visit my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))] [receiver.GetTitledFirstName] to see how little [receiver.Custom('ScribStoryName')] is doing in [receiver.GetHerHis] care.\n\n"
+ ek_pet_animal.2106.desc_alive_landed:0 "[receiver.GetSheHe|U] meets me outside [receiver.GetHerHis] [receiver.Custom('ResidenceBuilding')], the [receiver.Custom('ScribColor')] scrib in [receiver.GetHerHis] arms. "[receiver.Custom('ScribStorySheHe')|U] is doing well –"
+ ek_pet_animal.2106.desc_alive:0 "[receiver.GetSheHe|U] meets me outside, the [receiver.Custom('ScribColor')] scrib in [receiver.GetHerHis] arms. "[receiver.Custom('ScribStorySheHe')|U] is doing well –"
+ ek_pet_animal.2106.desc_alive_1:0 "[receiver.Custom('ScribStorySheHe')] likes to hunt the local birds!""
+ ek_pet_animal.2106.desc_alive_2:0 "[receiver.Custom('ScribStorySheHe')] likes to make intricate tunnel networks!""
+ ek_pet_animal.2106.desc_dead_opening:1 "I visit my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))] [receiver.GetTitledFirstName] to see how the scrib is doing in [receiver.GetHerHis] care.\n\n"
+ ek_pet_animal.2106.desc_dead_landed:0 "[receiver.GetSheHe|U] meets me outside [receiver.GetHerHis] [receiver.Custom('ResidenceBuilding')], no scrib to be seen."
+ ek_pet_animal.2106.desc_dead:0 "[receiver.GetSheHe|U] meets me outside, no scrib to be seen."
+ ek_pet_animal.2106.desc_dead_ending:0 ""Oh, it must be out playing somewhere..."\n\n[receiver.GetSheHe|U] looks everywhere but at me."
+ ek_pet_animal.2106.a:0 "I am relieved!"
+ ek_pet_animal.2106.b:1 "Where is my scrib?!"
+
+ # Scrib dies :(
+ ek_pet_animal.2199.t:0 "[ROOT.Char.Custom('ScribStoryName')]: Day of Sorrow"
+ ek_pet_animal.2199.desc:0 "[ROOT.Char.Custom('ScribStoryName')] is not as young as [ROOT.Char.Custom('ScribStorySheHe')] once was, and I can see it in [ROOT.Char.Custom('ScribStoryHerHis')] disposition, not as strong and stable as it was some years ago.\n\nI gently pet [ROOT.Char.Custom('ScribStoryHerHis')] [ROOT.Char.Custom('ScribColor')] carapace and feel [ROOT.Char.Custom('ScribStoryHerHim')] softly sway and try to nibble me, but as silence falls I know that [ROOT.Char.Custom('ScribStoryHerHis')] morning stroll won't wake me up again."
+ ek_pet_animal.2199.a:0 "I will miss you, [ROOT.Char.Custom('ScribStoryName')]!"
+
+ pet_scrib_decision:0 "Play with [ROOT.Char.Custom('ScribStoryName')]"
+ pet_scrib_decision_desc:0 "I know how much [ROOT.Char.Custom('ScribStoryName')] loves strutting around, and it always soothes me to see [ROOT.Char.Custom('ScribStoryHerHim')] happily nibble and cuddle me. While it takes a lot of effort to properly feed and take care of [ROOT.Char.Custom('ScribStoryHerHim')], no matter how tough life gets I know [ROOT.Char.Custom('ScribStorySheHe')] will always be there for me!"
+ pet_scrib_decision_tooltip:0 "Play with your scrib"
+ pet_scrib_decision_confirm:0 "Play with your scrib"
+
+ # You play with your scrib :)
+ ek_pet_animal.2501.t:0 "A Nice Time with [ROOT.Char.Custom('ScribStoryName')]"
+ ek_pet_animal.2501.desc:0 "As I enter my room, I can immediatly hear [ROOT.Char.Custom('ScribStoryName')] clack [ROOT.Char.Custom('ScribStoryHerHis')] claws in excitment. With a smile on my face I let [ROOT.Char.Custom('ScribStoryHerHim')] stretch [ROOT.Char.Custom('ScribStoryHerHis')] legs before taking off.\n\n[ROOT.Char.Custom('ScribStoryName')] scuttles around the room for a few moments, before laying in my hand and cuddling with me. As I laugh, I feel the weight of the world already lifting from my shoulders."
+ ek_pet_animal.2501.a:0 "You're tickling me!"
+
+ ek_pet_animal.2502.desc:0 "With [ROOT.Char.Custom('ScribStoryName')]'s favorite treat in my hand, I enter my small garden where [ROOT.Char.Custom('ScribStoryName')] usually spends most of [ROOT.Char.Custom('ScribStoryHerHis')] time.\n\nAs soon as [ROOT.Char.Custom('ScribStorySheHe')] spots me, or maybe the bugs in my hand, [ROOT.Char.Custom('ScribStorySheHe')] starts happily clacking [ROOT.Char.Custom('ScribStoryHerHis')] legs and roaming around me. [ROOT.Char.Custom('ScribStorySheHe')] lays on my hand, and picks the treats.\n\nAs I laugh, I already feel better and ready to face everything the world can send at me."
+ ek_pet_animal.2502.a:0 "Don't eat everything at once, [ROOT.Char.Custom('ScribStoryName')]!"
+
+ rival_bit_by_scrib:0 "[TARGET_CHARACTER.GetShortUIName|U]'s scrib has bitten and paralyzed [CHARACTER.GetShortUIName]."
+ rival_bit_by_scrib_corresponding:0 "[CHARACTER.GetShortUIName|U] was bitten and paralyzed by [TARGET_CHARACTER.GetShortUIName]'s scrib."
+
+ rival_vvardvark_peck:0 "[TARGET_CHARACTER.GetShortUIName|U]'s vvardvark has scratched [CHARACTER.GetShortUIName]."
+ rival_vvardvark_peck_corresponding:0 "[CHARACTER.GetShortUIName|U] was scratched by [TARGET_CHARACTER.GetShortUIName]'s vvardvark."
+
+ rival_bantam_peck:0 "[TARGET_CHARACTER.GetShortUIName|U]'s bantam guar has pecked [CHARACTER.GetShortUIName]."
+ rival_bantam_peck_corresponding:0 "[CHARACTER.GetShortUIName|U] was pecked by [TARGET_CHARACTER.GetShortUIName]'s bantam guar."
+
+ rival_mudcrab_peck:0 "[TARGET_CHARACTER.GetShortUIName|U]'s mudcrab has pinched [CHARACTER.GetShortUIName]."
+ rival_mudcrab_peck_corresponding:0 "[CHARACTER.GetShortUIName|U] was pinched by [TARGET_CHARACTER.GetShortUIName]'s mudcrab."
+ ###################
+ #   BANTAM GUAR   #
+ ###################
+ bantam_story_modifier:0 "Pet Bantam Guar"
+ bantam_story_modifier_desc:0 "This character enjoys the company of a small and docile creature, following them wherever they go"
+ bantam_story_eating_fruit_modifier:0 "Eating Fresh Fruits with Bantam Guar"
+ bantam_story_eating_fruit_modifier_desc:0 "This character enjoys sharing fresh fruits with their bantam guar"
+ bantam_story_fighting_with_you_modifier:0 "Battle Bantam Guar"
+ bantam_story_fighting_with_you_modifier_desc:0 "In battle, this character can always be seen with their bantam guar not far from them, distracting enemies and even sometimes hurting them."
+
+ bantam_gender_her:0 "her"
+ bantam_gender_his:0 "his"
+ bantam_gender_him:0 "him"
+ bantam_gender_she:0 "she"
+ bantam_gender_he:0 "he"
+ bantam_gender_herself:0 "herself"
+ bantam_gender_himself:0 "himself"
+ bantam_gender_female:0 "female"
+ bantam_gender_male:0 "male"
+
+ bantam_color_tan:0 "tan"
+ vvardvark_color_tan:0 "tan"
+
+ bantam_name:1 "[ROOT.Char.GetLocalizedText( 'story_cycle_bantam_name' )]"
+ bantam_name_possessive:1 "[ROOT.Char.Custom( 'BantamStoryName' )]'s"
+ bantam_name_drooler:0 "Drooler"
+ bantam_name_honor:0 "Honor"
+ bantam_name_indring:0 "Indring"
+ bantam_name_mogi:0 "Mogi"
+ bantam_name_puddles:0 "Puddles"
+ bantam_name_small_one:0 "Small One"
+ bantam_name_spriggan_bane:0 "Spriggan-Bane"
+ bantam_name_sir_scratch_scales:0 "Sir Scratch-Scales"
+ bantam_name_pouncer:0 "Pouncer"
+ bantam_name_tasty_legs:0 "Tasty-Legs"
+ bantam_name_wobble_claw:0 "Wobble-Claw"
+ bantam_name_squee:0 "Squee"
+
+ ek_pet_animal.3001.t:0 "The Bantam Guar"
+ ek_pet_animal.3001.desc:1 "As the bantam guar wanders in the room, happily pecking around, I ponder what I should name [ROOT.Char.Custom('BantamStoryHerHim')]. Something historical? Something alluding to [ROOT.Char.Custom('BantamStoryHerHis')] [ROOT.Char.Custom('BantamColor')] tiny body? Something to describe the soothing feeling I experience when [ROOT.Char.Custom('BantamStorySheHe')] waddles around me?\n\nOh, I know! I will name [ROOT.Char.Custom('BantamStoryHerHim')]..."
+ ek_pet_animal.3001.a:1 "What a great name!"
+
+ ### Random bantam guar events
+ # You eat some fruits with your bantam guar, smol health modifier
+ ek_pet_animal.3101.t:0 "[ROOT.Char.Custom('BantamStoryName')]: Fresh Fruits"
+ ek_pet_animal.3101.desc:0 "I have taken the habit to spend some time with [ROOT.Char.Custom('BantamStoryName')] at the end of the day, sharing some fresh fruits with [ROOT.Char.Custom('BantamStoryHerHim')].\n\nI don't know if that's because of the fruits or the time I've been spending with [ROOT.Char.Custom('BantamStoryName')], but I feel more energetic and healthy!"
+ ek_pet_animal.3101.a:0 "Leave some for me, [ROOT.Char.Custom('BantamStoryName')]!"
+
+ # Your bantam guar goes with you into battle!
+ ek_pet_animal.3102.t:0 "[ROOT.Char.Custom('BantamStoryName')]: Beak and Claws"
+ ek_pet_animal.3102.desc:0 "It seems that the bravery of [ROOT.Char.Custom('BantamStoryName')] knows no bounds! Be it in large scale battles, small skirmishes, or even in singular duels, [ROOT.Char.Custom('BantamStorySheHe')] never leaves my side and fights with me.\n\nMy opponents, friendly or not, seem to even be frightened of [ROOT.Char.Custom('BantamStoryHerHim')], and more than one were defeated because [ROOT.Char.Custom('BantamStoryName')] distracted them with [ROOT.Char.Custom('BantamStoryHerHis')] [ROOT.Char.Custom('BantamColor')] body, or even because [ROOT.Char.Custom('BantamStorySheHe')] pecked them!"
+ ek_pet_animal.3102.a:0 "With me, into battle!"
+
+ # Your bantam guar attacked a vassal! Wound or possibly an eye removal
+ ek_pet_animal.3103.t:0 "[ROOT.Char.Custom('BantamStoryName')]: Pecking the Eyes"
+ ek_pet_animal.3103.desc_wounded:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with me, [ROOT.Char.Custom('BantamStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\n[vassal.GetFirstName] managed to flee the room, but not before my bantam guar could severly hurt [vassal.GetHerHim]..."
+ ek_pet_animal.3103.desc_eye_removed_not_one_eyed:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with me, [ROOT.Char.Custom('BantamStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\nAn intense scream was soon heard, and after [ROOT.Char.Custom('BantamStoryName')] was put back outside [vassal.GetFirstName] could be seen holding [vassal.GetHerHis] hand near one of [vassal.GetHerHis] eyes... with blood dripping."
+ ek_pet_animal.3103.desc_eye_removed_one_eyed:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with me, [ROOT.Char.Custom('BantamStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\nAn intense scream was soon heard, and after [ROOT.Char.Custom('BantamStoryName')] was put back outside [vassal.GetFirstName] could be seen holding [vassal.GetHerHis] hand near [vassal.GetHerHis] only remaining eye... with blood dripping.\n\n'I CAN'T SEE' could [vassal.GetSheHe] be heard screaming. 'THIS IS ALL YOUR FAULT, YOU AND YOUR STUPID BIRD!'"
+ ek_pet_animal.3103.a:0 "I hope [vassal.GetFirstName] will be all right..."
+ ek_pet_animal.3103.b:0 "Oh no..."
+
+ ek_pet_animal.3104.t:0 "Bantam Phenomenon"
+ ek_pet_animal.3104.desc:0 "Since the sages of the Cult of the Ancestor Moth divulged their calculations stating that the bantam guar was the cutest creature in all Tamriel, many distinct and important people sought them for themselves to keep as pets. Shortly after, opportunistic merchants started selling dolls and plushies resembling the tiny creature and keeping such a creature as a pet has become a symbol of status and good fortune.\n\nAmong the most popular bantam guars in the realm stand [ROOT.Char.Custom('BantamStoryName')], my very own little friend.\n\nOne day, [noble.GetFullName] asked an audience with me to discuss something of importance. [noble.GetSheHe|U] offered a large sum of gold for my beloved [ROOT.Char.Custom('BantamStoryName')]."
+ ek_pet_animal.3104.a:0 "For how much? Well, it's a deal!"
+ ek_pet_animal.3104.b:0 "I won't sell my friend!"
+ ek_pet_animal.3104.c:0 "Take [ROOT.Char.Custom('BantamStoryHerHim')] as a token of our new alliance!"
+
+ rival_bantam_denied:0 "[TARGET_CHARACTER.GetShortUIName|U] has denied selling [TARGET_CHARACTER.GetHerHis] pet bantam guar to [CHARACTER.GetShortUIName]."
+ rival_bantam_denied_corresponding:0 "[CHARACTER.GetShortUIName|U] was denied the purchase of [TARGET_CHARACTER.GetShortUIName]'s pet bantam guar."
+
+ # Bantam guar dies :(
+ ek_pet_animal.3199.t:0 "[ROOT.Char.Custom('BantamStoryName')]: Day of Sorrow"
+ ek_pet_animal.3199.desc:0 "[ROOT.Char.Custom('BantamStoryName')] is not as young as [ROOT.Char.Custom('BantamStorySheHe')] once was, and I can hear it in [ROOT.Char.Custom('BantamStoryHerHis')] singing, not as strong and stable as it was some years ago.\n\nI gently pet [ROOT.Char.Custom('BantamStoryHerHis')] [ROOT.Char.Custom('BantamColor')] body and listen to [ROOT.Char.Custom('BantamStoryHerHim')] softly chirp and try to flap [ROOT.Char.Custom('BantamStoryHerHis')] wings, but as silence falls I know that [ROOT.Char.Custom('BantamStoryHerHis')] morning chirps won't wake me up again."
+ ek_pet_animal.3199.a:0 "I will miss you, [ROOT.Char.Custom('BantamStoryName')]!"
+
+ pet_bantam_decision:0 "Pet [ROOT.Char.Custom('BantamStoryName')]"
+ pet_bantam_decision_desc:0 "I know how much [ROOT.Char.Custom('BantamStoryName')] loves waddling around, and it always soothes me to hear [ROOT.Char.Custom('BantamStoryHerHim')] happily sing and cuddle me. While it takes a lot of effort, and money, to properly feed and take care of [ROOT.Char.Custom('BantamStoryHerHim')], no matter how tough life gets I know [ROOT.Char.Custom('BantamStorySheHe')] will always be there for me!"
+ pet_bantam_decision_tooltip:0 "Pet your bantam guar"
+ pet_bantam_decision_confirm:0 "Pet your bantam guar"
+
+ # You pet your bantam guar :)
+ ek_pet_animal.3501.t:0 "A Nice Time With [ROOT.Char.Custom('BantamStoryName')]"
+ ek_pet_animal.3501.desc:0 "As I enter my room, I can immediatly hear [ROOT.Char.Custom('BantamStoryName')] chirp in excitment.\n\nWith a smile on my face I let [ROOT.Char.Custom('BantamStoryHerHim')] in and let [ROOT.Char.Custom('BantamStoryHerHim')] open [ROOT.Char.Custom('BantamStoryHerHis')] wings before waddling in.\n[ROOT.Char.Custom('BantamStoryName')] waddles around the room for a few moments, before cuddling my feet with [ROOT.Char.Custom('BantamStoryHerHis')] tiny body.\n\nAs I laugh, I feel the weight of the world already lifting from my shoulders."
+ ek_pet_animal.3501.a:0 "You're so cute!"
+
+ ek_pet_animal.3502.desc:0 "With [ROOT.Char.Custom('BantamStoryName')]'s favorite treat in my hand, I enter my small garden where [ROOT.Char.Custom('BantamStoryName')] usually spends most of [ROOT.Char.Custom('BantamStoryHerHis')] time.\nAs soon as [ROOT.Char.Custom('BantamStorySheHe')] spots me, or maybe the fruits in my hand, [ROOT.Char.Custom('BantamStorySheHe')] starts happily chirping and waddling around me.\nSoon after [ROOT.Char.Custom('BantamStorySheHe')] stops on my feet and picks the treats in my hand.\n\nAs I laugh, I already feel better and ready to face everything the world can send at me."
+ ek_pet_animal.3502.a:0 "Don't eat everything [ROOT.Char.Custom('BantamStoryName')]!"
+
+ #################
+ #   VVARDVARK   #
+ #################
+ vvardvark_story_modifier:0 "Pet Vvardvark"
+ vvardvark_story_modifier_desc:0 "This character enjoys the company of a weird yet cute creature, following them wherever they go"
+ vvardvark_story_eating_fruit_modifier:0 "Eating Fresh Fruits with Vvardvark"
+ vvardvark_story_eating_fruit_modifier_desc:0 "This character enjoys sharing fresh fruits with their vvardvark"
+ vvardvark_story_fighting_with_you_modifier:0 "Battle Vvardvark"
+ vvardvark_story_fighting_with_you_modifier_desc:0 "In battle, this character can always be seen with their vvardvark not far from them, distracting enemies and even sometimes hurting them."
+
+ vvardvark_gender_her:0 "her"
+ vvardvark_gender_his:0 "his"
+ vvardvark_gender_him:0 "him"
+ vvardvark_gender_she:0 "she"
+ vvardvark_gender_he:0 "he"
+ vvardvark_gender_herself:0 "herself"
+ vvardvark_gender_himself:0 "himself"
+ vvardvark_gender_female:0 "female"
+ vvardvark_gender_male:0 "male"
+
+ vvardvark_color_dozen_banded:0 "dozen-banded"
+ vvardvark_color_tuxedo:0 "tuxedo"
+
+
+ vvardvark_name:1 "[ROOT.Char.GetLocalizedText( 'story_cycle_vvardvark_name' )]"
+ vvardvark_name_possessive:1 "[ROOT.Char.Custom( 'VvardvarkStoryName' )]'s"
+ vvardvark_name_drooler:0 "Drooler"
+ vvardvark_name_anbanmil:0 "Anbanmil"
+ vvardvark_name_sebystii:0 "Sebystii"
+ vvardvark_name_serjo_licky:0 "Serjo Licky"
+ vvardvark_name_stibbons:0 "Stibbons"
+ vvardvark_name_lickspittle:0 "Lickspittle"
+ vvardvark_name_master_scaly_tale:0 "Master Scaly Tale"
+
+ ek_pet_animal.4001.t:0 "The Vvardvark"
+ ek_pet_animal.4001.desc:1 "As the vvardvark wanders in the room, happily snooping around, I ponder what I should name [ROOT.Char.Custom('VvardvarkStoryHerHim')]. Something historical? Something alluding to [ROOT.Char.Custom('VvardvarkStoryHerHis')] [ROOT.Char.Custom('VvardvarkColor')] tiny body? Something to describe the soothing feeling I experience when [ROOT.Char.Custom('VvardvarkStorySheHe')] waddles around me?\n\nOh, I know! I will name [ROOT.Char.Custom('VvardvarkStoryHerHim')]..."
+ ek_pet_animal.4001.a:1 "What a great name!"
+
+ ### Random vvardvark events
+ # You eat some fruits with your vvardvark, smol health modifier
+ ek_pet_animal.4101.t:0 "[ROOT.Char.Custom('VvardvarkStoryName')]: Fresh Fruits"
+ ek_pet_animal.4101.desc:0 "I have taken the habit to spend some time with [ROOT.Char.Custom('VvardvarkStoryName')] at the end of the day, sharing some fresh fruits with [ROOT.Char.Custom('VvardvarkStoryHerHim')].\n\nI don't know if that's because of the fruits or the time I've been spending with [ROOT.Char.Custom('VvardvarkStoryName')], but I feel more energetic and healthy!"
+ ek_pet_animal.4101.a:0 "Leave some for me, [ROOT.Char.Custom('VvardvarkStoryName')]!"
+
+ # Your Vvardvark goes with you into battle!
+ ek_pet_animal.4102.t:0 "[ROOT.Char.Custom('VvardvarkStoryName')]: Teeth in Tongue"
+ ek_pet_animal.4102.desc:0 "It seems that the bravery of [ROOT.Char.Custom('VvardvarkStoryName')] knows no bounds! Be it in large scale battles, small skirmishes, or even in singular duels, [ROOT.Char.Custom('VvardvarkStorySheHe')] never leaves my side and fights with me.\n\nMy opponents, friendly or not, seem to even be frightened of [ROOT.Char.Custom('VvardvarkStoryHerHim')], and more than one were defeated because [ROOT.Char.Custom('VvardvarkStoryName')] distracted them with [ROOT.Char.Custom('VvardvarkStoryHerHis')] [ROOT.Char.Custom('VvardvarkColor')] body, or even because [ROOT.Char.Custom('VvardvarkStorySheHe')] hurt them!"
+ ek_pet_animal.4102.a:0 "With me, into battle!"
+
+ # Your Vvardvark attacked a vassal! Wound or possibly an eye removal
+ ek_pet_animal.4103.t:0 "[ROOT.Char.Custom('VvardvarkStoryName')]: Right in the Eyes"
+ ek_pet_animal.4103.desc_wounded:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with me, [ROOT.Char.Custom('VvardvarkStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\n[vassal.GetFirstName] managed to flee the room, but not before my Vvardvark could severly hurt [vassal.GetHerHim]..."
+ ek_pet_animal.4103.desc_eye_removed_not_one_eyed:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with me, [ROOT.Char.Custom('VvardvarkStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\nAn intense scream was soon heard, and after [ROOT.Char.Custom('VvardvarkStoryName')] was put back outside [vassal.GetFirstName] could be seen holding [vassal.GetHerHis] hand near one of [vassal.GetHerHis] eyes... with blood dripping."
+ ek_pet_animal.4103.desc_eye_removed_one_eyed:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with me, [ROOT.Char.Custom('VvardvarkStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\nAn intense scream was soon heard, and after [ROOT.Char.Custom('VvardvarkStoryName')] was put back outside [vassal.GetFirstName] could be seen holding [vassal.GetHerHis] hand near [vassal.GetHerHis] only remaining eye... with blood dripping.\n\n'I CAN'T SEE' could [vassal.GetSheHe] be heard screaming. 'THIS IS ALL YOUR FAULT, YOU AND YOUR STUPID BEAST!'"
+ ek_pet_animal.4103.a:0 "I hope [vassal.GetFirstName] will be all right..."
+ ek_pet_animal.4103.b:0 "Oh no..."
+
+ # Vvardvark dies :(
+ ek_pet_animal.4199.t:0 "[ROOT.Char.Custom('VvardvarkStoryName')]: Day of Sorrow"
+ ek_pet_animal.4199.desc:0 "[ROOT.Char.Custom('VvardvarkStoryName')] is not as young as [ROOT.Char.Custom('VvardvarkStorySheHe')] once was, and I can hear it in [ROOT.Char.Custom('VvardvarkStoryHerHis')] peculiar noises, not as strong and stable as they were some years ago.\n\nI gently pet [ROOT.Char.Custom('VvardvarkStoryHerHis')] [ROOT.Char.Custom('VvardvarkColor')] body and listen to [ROOT.Char.Custom('VvardvarkStoryHerHim')] softly breathe and try to lick [ROOT.Char.Custom('VvardvarkStoryHerHis')] nose, but as silence falls I know that [ROOT.Char.Custom('VvardvarkStoryHerHis')] morning licks won't wake me up again."
+ ek_pet_animal.4199.a:0 "I will miss you, [ROOT.Char.Custom('VvardvarkStoryName')]!"
+
+ pet_vvardvark_decision:0 "Pet [ROOT.Char.Custom('VvardvarkStoryName')]"
+ pet_vvardvark_decision_desc:0 "I know how much [ROOT.Char.Custom('VvardvarkStoryName')] loves strutting around, and it always soothes me to hear [ROOT.Char.Custom('VvardvarkStoryHerHim')] make happy noises and cuddle me. While it takes a lot of effort, and money, to properly feed and take care of [ROOT.Char.Custom('VvardvarkStoryHerHim')], no matter how tough life gets I know [ROOT.Char.Custom('VvardvarkStorySheHe')] will always be there for me!"
+ pet_vvardvark_decision_tooltip:0 "Pet your Vvardvark"
+ pet_vvardvark_decision_confirm:0 "Pet your Vvardvark"
+
+ # You pet your vvardvark :)
+ ek_pet_animal.4501.t:0 "A Nice Time With [ROOT.Char.Custom('VvardvarkStoryName')]"
+ ek_pet_animal.4501.desc:0 "As I enter my room, I can immediatly see [ROOT.Char.Custom('VvardvarkStoryName')] lick around in excitment.\n\nWith a smile on my face I let [ROOT.Char.Custom('VvardvarkStoryHerHim')] in and let [ROOT.Char.Custom('VvardvarkStoryHerHim')] roll around before wandering in.\n[ROOT.Char.Custom('VvardvarkStoryName')] wanders around the room for a few moments, before cuddling my feet with [ROOT.Char.Custom('VvardvarkStoryHerHis')] tiny body.\n\nAs I laugh, I feel the weight of the world already lifting from my shoulders."
+ ek_pet_animal.4501.a:0 "Come, come!"
+
+ ek_pet_animal.4502.desc:0 "With [ROOT.Char.Custom('VvardvarkStoryName')]'s favorite treat in my hand, I enter my small garden where [ROOT.Char.Custom('VvardvarkStoryName')] usually spends most of [ROOT.Char.Custom('VvardvarkStoryHerHis')] time.\nAs soon as [ROOT.Char.Custom('VvardvarkStorySheHe')] spots me, or maybe the fruits in my hand, [ROOT.Char.Custom('VvardvarkStorySheHe')] starts happily rolling and wandering around me.\nSoon after [ROOT.Char.Custom('VvardvarkStorySheHe')] stops on my feet and picks the treats in my hand.\n\nAs I laugh, I already feel better and ready to face everything the world can send at me."
+ ek_pet_animal.4502.a:0 "Don't eat everything [ROOT.Char.Custom('VvardvarkStoryName')]!"
+
+ ###############
+ #   MUDCRAB   #
+ ###############
+ mudcrab_story_modifier:0 "Pet Mudcrab"
+ mudcrab_story_modifier_desc:0 "This character enjoys the company of an annoying creature, following them wherever they go"
+ mudcrab_story_eating_fruit_modifier:0 "Eating Fresh Fish with Mudcrab"
+ mudcrab_story_eating_fruit_modifier_desc:0 "This character enjoys sharing fresh fish with their mudcrab"
+ mudcrab_story_fighting_with_you_modifier:0 "Battle Mudcrab"
+ mudcrab_story_fighting_with_you_modifier_desc:0 "In battle, this character can always be seen with their mudcrab not far from them, annoying enemies and even sometimes hurting them."
+
+ mudcrab_gender_her:0 "her"
+ mudcrab_gender_his:0 "his"
+ mudcrab_gender_him:0 "him"
+ mudcrab_gender_she:0 "she"
+ mudcrab_gender_he:0 "he"
+ mudcrab_gender_herself:0 "herself"
+ mudcrab_gender_himself:0 "himself"
+ mudcrab_gender_female:0 "female"
+ mudcrab_gender_male:0 "male"
+
+ mudcrab_color_brown:0 "brown"
+ mudcrab_color_coral:0 "coral"
+ mudcrab_color_blue:0 "blue"
+
+
+ mudcrab_name:1 "[ROOT.Char.GetLocalizedText( 'story_cycle_mudcrab_name' )]"
+ mudcrab_name_possessive:1 "[ROOT.Char.Custom( 'MudcrabStoryName' )]'s"
+ mudcrab_name_clatterclaw:0 "Clatterclaw"
+ mudcrab_name_jagged_claw:0 "Jagged-Claw"
+ mudcrab_name_shellcracker:0 "Shellcracker"
+ mudcrab_name_titanclaw:0 "Titanclaw"
+ mudcrab_name_witherhope:0 "Witherhope"
+ mudcrab_name_crabcakes:0 "Crabcakes"
+ mudcrab_name_scissors:0 "Scissors"
+ mudcrab_name_pincer:0 "Pincer"
+ mudcrab_name_toetugger:0 "Toetugger"
+
+ ek_pet_animal.5001.t:0 "The Mudcrab"
+ ek_pet_animal.5001.desc:1 "As the mudcrab wanders in the room, happily clamping around, I ponder what I should name [ROOT.Char.Custom('MudcrabStoryHerHim')]. Something historical? Something alluding to [ROOT.Char.Custom('MudcrabStoryHerHis')] [ROOT.Char.Custom('MudcrabColor')] carapace? Something to describe the soothing feeling I experience when [ROOT.Char.Custom('MudcrabStorySheHe')] skittles around me?\n\nOh, I know! I will name [ROOT.Char.Custom('MudcrabStoryHerHim')]..."
+ ek_pet_animal.5001.a:1 "What a great name!"
+
+ ### Random Mudcrab events
+ # You eat some fruits with your Mudcrab, smol health modifier
+ ek_pet_animal.5101.t:0 "[ROOT.Char.Custom('MudcrabStoryName')]: Fresh Fish"
+ ek_pet_animal.5101.desc:0 "I have taken the habit to spend some time with [ROOT.Char.Custom('MudcrabStoryName')] at the end of the day, sharing some fresh fish with [ROOT.Char.Custom('MudcrabStoryHerHim')].\n\nI don't know if that's because of the fish or the time I've been spending with [ROOT.Char.Custom('MudcrabStoryName')], but I feel more energetic and healthy!"
+ ek_pet_animal.5101.a:0 "Leave some for me, [ROOT.Char.Custom('MudcrabStoryName')]!"
+
+ # Your Mudcrab goes with you into battle!
+ ek_pet_animal.5102.t:0 "[ROOT.Char.Custom('MudcrabStoryName')]: Claws Out!"
+ ek_pet_animal.5102.desc:0 "It seems that the bravery of [ROOT.Char.Custom('MudcrabStoryName')] knows no bounds! Be it in large scale battles, small skirmishes, or even in singular duels, [ROOT.Char.Custom('MudcrabStorySheHe')] never leaves my side and fights with me.\n\nMy opponents, friendly or not, seem to even be frightened of [ROOT.Char.Custom('MudcrabStoryHerHim')], and more than one were defeated because [ROOT.Char.Custom('MudcrabStoryName')] distracted them with [ROOT.Char.Custom('MudcrabStoryHerHis')] [ROOT.Char.Custom('MudcrabColor')] body, or even because [ROOT.Char.Custom('MudcrabStorySheHe')] hurt them!"
+ ek_pet_animal.5102.a:0 "With me, into battle!"
+
+ # Your Mudcrab attacked a vassal! Wound or possibly an eye removal
+ ek_pet_animal.5103.t:0 "[ROOT.Char.Custom('MudcrabStoryName')]: Right in the Eyes"
+ ek_pet_animal.5103.desc_wounded:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with me, [ROOT.Char.Custom('MudcrabStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\n[vassal.GetFirstName] managed to flee the room, but not before my Mudcrab could severly hurt [vassal.GetHerHim]..."
+ ek_pet_animal.5103.desc_eye_removed_not_one_eyed:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with me, [ROOT.Char.Custom('MudcrabStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\nAn intense scream was soon heard, and after [ROOT.Char.Custom('MudcrabStoryName')] was put back outside [vassal.GetFirstName] could be seen holding [vassal.GetHerHis] hand near one of [vassal.GetHerHis] eyes... with blood dripping."
+ ek_pet_animal.5103.desc_eye_removed_one_eyed:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with me, [ROOT.Char.Custom('MudcrabStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\nAn intense scream was soon heard, and after [ROOT.Char.Custom('MudcrabStoryName')] was put back outside [vassal.GetFirstName] could be seen holding [vassal.GetHerHis] hand near [vassal.GetHerHis] only remaining eye... with blood dripping.\n\n'I CAN'T SEE' could [vassal.GetSheHe] be heard screaming. 'THIS IS ALL YOUR FAULT, YOU AND YOUR STUPID CRITTER!'"
+ ek_pet_animal.5103.a:0 "I hope [vassal.GetFirstName] will be all right..."
+ ek_pet_animal.5103.b:0 "Oh no..."
+
+ # Mudcrab dies :(
+ ek_pet_animal.5199.t:0 "[ROOT.Char.Custom('MudcrabStoryName')]: Day of Sorrow"
+ ek_pet_animal.5199.desc:0 "[ROOT.Char.Custom('MudcrabStoryName')] is not as young as [ROOT.Char.Custom('MudcrabStorySheHe')] once was, and I can hear it in [ROOT.Char.Custom('MudcrabStoryHerHis')] peculiar noises, not as strong and stable as they were some years ago.\n\nI gently pet [ROOT.Char.Custom('MudcrabStoryHerHis')] [ROOT.Char.Custom('MudcrabColor')] carapace and listen to [ROOT.Char.Custom('MudcrabStoryHerHim')] softly breathe and try to pinch my nose, but as silence falls I know that [ROOT.Char.Custom('MudcrabStoryHerHis')] morning tips and taps won't wake me up again."
+ ek_pet_animal.5199.a:0 "I will miss you, [ROOT.Char.Custom('MudcrabStoryName')]!"
+
+ pet_mudcrab_decision:0 "Pet [ROOT.Char.Custom('MudcrabStoryName')]"
+ pet_mudcrab_decision_desc:0 "I know how much [ROOT.Char.Custom('MudcrabStoryName')] loves strutting around, and it always soothes me to hear [ROOT.Char.Custom('MudcrabStoryHerHim')] make happy noises and cuddle me. While it takes a lot of effort, and money, to properly feed and take care of [ROOT.Char.Custom('MudcrabStoryHerHim')], no matter how tough life gets I know [ROOT.Char.Custom('MudcrabStorySheHe')] will always be there for me!"
+ pet_mudcrab_decision_tooltip:0 "Pet your Mudcrab"
+ pet_mudcrab_decision_confirm:0 "Pet your Mudcrab"
+
+ # You pet your Mudcrab :)
+ ek_pet_animal.5501.t:0 "A Nice Time With [ROOT.Char.Custom('MudcrabStoryName')]"
+ ek_pet_animal.5501.desc:0 "As I enter my room, I can immediatly see [ROOT.Char.Custom('MudcrabStoryName')] poke around in excitment.\n\nWith a smile on my face I let [ROOT.Char.Custom('MudcrabStoryHerHim')] in and let [ROOT.Char.Custom('MudcrabStoryHerHim')] roll around before wandering in.\n[ROOT.Char.Custom('MudcrabStoryName')] wanders around the room for a few moments, before cuddling my feet with [ROOT.Char.Custom('MudcrabStoryHerHis')] body.\n\nAs I laugh, I feel the weight of the world already lifting from my shoulders."
+ ek_pet_animal.5501.a:0 "Come, come!"
+
+ ek_pet_animal.5502.desc:0 "With [ROOT.Char.Custom('MudcrabStoryName')]'s favorite treat in my hand, I enter my small garden where [ROOT.Char.Custom('MudcrabStoryName')] usually spends most of [ROOT.Char.Custom('MudcrabStoryHerHis')] time.\nAs soon as [ROOT.Char.Custom('MudcrabStorySheHe')] spots me, or maybe the fruits in my hand, [ROOT.Char.Custom('MudcrabStorySheHe')] starts happily rolling and wandering around me.\nSoon after [ROOT.Char.Custom('MudcrabStorySheHe')] stops on my feet and picks the treats in my hand.\n\nAs I laugh, I already feel better and ready to face everything the world can send at me."
+ ek_pet_animal.5502.a:0 "Don't eat everything [ROOT.Char.Custom('MudcrabStoryName')]!"

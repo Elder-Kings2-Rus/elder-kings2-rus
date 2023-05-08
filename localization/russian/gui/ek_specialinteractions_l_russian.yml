@@ -1,3 +1,7 @@
 ﻿l_russian:
  MARRIAGE_DIFFERENT_CULTURE_REASON:1 "Ваша [Concept( 'culture', 'культура' )|E] отличается от [recipient.GetShortUIName]: $VALUE|+0$"
  MARRIAGE_DIFFERENT_CULTURE_GROUP_REASON:1 "Ваше [Concept( 'heritage', 'наследие' )|E] отличается от [recipient.GetShortUIName]: $VALUE|+0$"
+ 
+ MARRIAGE_CROWN_FOREBEAR_REASON:0 "Ребёнок из дома с Акос-Касаз не должен вступать в брак за неверного из другого дома: $VALUE|+0$
+ MARRIAGE_MONSTER_REASON:0 "Не выйдет за [Concept( 'monster', 'монстра' )|E]: $VALUE|+0$"
+ MARRIAGE_FORMER_PARIAH_REASON:0 "Не выйдет за бывшую [Concept( 'pariah', 'парию' )|E]: $VALUE|+0$"

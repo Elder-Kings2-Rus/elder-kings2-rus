@@ -11,6 +11,15 @@
  disorganized_military_reform_military_decision_desc:0 "Большинство из нас не верит в элитных солдат и профессиональных войнов, предпочитая использовать людей как пушечное мясо.\n\nНо большинство из нас не знает ничего о войне. Пришло время преобразовать наш способ ведения войны и, наконец, сформировать настоящую армию, способную противостоять остальному Тамриэлю."
  disorganized_military_reform_military_decision_tooltip:0 "Реформируйте армию и станьте равным великим державам Тамриэля"
  disorganized_military_reform_military_decision_confirm:0 "[ROOT.Char.GetCulture.GetNameNoTooltip] своей мощью будут наводить ужас на Тамриэль!"
+ has_military_lifestyle_traits:0 "You have at least #V 2#! of the following [traits|E]: [GetTrait('strategist').GetName(GetNullCharacter)], [GetTrait('overseer').GetName(GetNullCharacter)], [GetTrait('gallant').GetName(GetNullCharacter)]"
+
+ cast_off_pariah_status_decision:0 "Cast off Pariah Status"
+ cast_off_pariah_status_decision_desc:0 "For too long have our people been treated as mere beasts by "civilised" society. But what makes our cities, our homes, less worthy than theirs? Our culture is as old as any, and our traditions as great.\n\nBut our people have lived among our persecutors long enough that they will soon have no choice but to acknowledge us. With my personal prestige behind us, we shall make it clear that we are as worthy as anybody else.\n\nToday, we gain recognition."
+ cast_off_pariah_status_decision_tooltip:0 "We are not monsters!"
+ cast_off_pariah_status_decision_confirm:0 "Tamriel will recognise us as equals!"
+ you_are_culture_head:0 "You are [culture_head|E] of your [culture|E]"
+ not_daedric_faith:0 "You do not follow a [GetReligionFamily('rf_daedra').GetName] [faith|E]"
+ not_disorganized_military:0 "Your [culture|E] does not have the #V Disorganized Military#! [innovation|E]"
 
  daedric_heir_decision:0 "Призвать родственника из Обливиона"
  daedric_heir_decision_desc:0 "Мы, дреморы, не воспринимаем мир так, как смертные. Мы не рождаемся так, как смертные. У нас нет отцов и матерей. Все, что у нас есть - это наша родня и наши кланы. Если бы я призвал одного из своих сородичей в это царство, я смог бы укрепить наш клан и наши замыслы здесь."

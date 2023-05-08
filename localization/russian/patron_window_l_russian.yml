@@ -81,6 +81,8 @@
  patron_hircine_long_desc:0 "[GetPlayer.Custom('GetObHircineDesc')]"
  patron_hircine_summary:0 "Статус: [GetPlayer.Custom('GetPatronStatus_hircine')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_hircine')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_hircine').GetValue|+0]"
  desc_hircine:0 "Даэдрический принц Охоты, Хирсин правит Охотничьими Угодьями в Обливионе. Обычно его изображают в виде человекоподобной фигуры с головой, замененной черепом оленя."
+ god_hircine_reach_name:0 "Hircine"
+ desc_hircine_reach:0 "The Hunt-Father, and one of the most central Great Spirits. Hircine rules over the Realm of Flesh and through harsh lessons teaches the Reachfolk to be forever on guard, honing them in order to protect them. The ultimate self-sacrifice on behalf of your clan - becoming a Briarheart - is a ritual related to Hircine."
  
  patron_jyggalag_name:0 "Джиггалаг"
  patron_jyggalag_desc:0 "Принц Порядка"
@@ -91,12 +93,16 @@
  patron_malacath_long_desc:0 "[GetPlayer.Custom('GetObMalacathDesc')]"
  patron_malacath_summary:0 "Статус: [GetPlayer.Custom('GetPatronStatus_malacath')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_malacath')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_malacath').GetValue|+0]"
  desc_malacath:0 "Даэдрический принц Отверженных, Малакат правит Зольником в Обливионе. Обычно его изображают в виде орка с мечом или топором. У Малаката есть преданные последователи среди орсимеров, многие из которых живут по его заветам - Кодексу Малаката."
+ god_malacath_reach_name:0 "Malacath"
+ desc_malacath_reach:0 "The Lord of Ash and Bone, Malacath is patron to all pariahs and persecuted peoples. His lesson is to grow the strength to exact vengeance upon your oppressors. Some Reachfolk believe they are the true chosen people of Malacath, rather than Orcs and other Goblinken."
  
  patron_mehrunes_name:0 "[GetPlayer.Custom('GetObMehrunesName')]"
  patron_mehrunes_desc:0 "Могучий Владыка"
  patron_mehrunes_long_desc:0 "[GetPlayer.Custom('GetObMehrunesDesc')]"
  patron_mehrunes_summary:0 "Статус: [GetPlayer.Custom('GetPatronStatus_mehrunes')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_mehrunes')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_mehrunes').GetValue|+0]"
  desc_mehrunes:0 "Даэдрический принц разрушения, Мерунес Дагон, правит Мертвыми Землями в Обливионе. Обычно его изображают как существо с четырьмя руками, отдаленно напоминающее орка. Разрушение Морнхолда в Первую эру было вызвано именно Мерунесом Дагоном." #if someone has a better description, please add it
+ god_mehrunes_reach_name:0 "Mehrunes Dagon"
+ desc_mehrunes_reach:0 "Mehrunes Dagon, while a spirit of destruction, is also the Lord of Ambition. To forever strive for the betterment of yourself and your clan is greatly valued in the Reach."
  
  patron_mephala_name:0 "[GetPlayer.Custom('GetObMephalaName')]"
  patron_mephala_desc:0 "Учитель Тайных Искусств"
@@ -115,24 +121,32 @@
  patron_molag_long_desc:0 "[GetPlayer.Custom('GetObMolagDesc')]"
  patron_molag_summary:0 "Статус: [GetPlayer.Custom('GetPatronStatus_molag')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_molag')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_molag').GetValue|+0]"
  desc_molag:0 "Даэдрический принц Господства Молаг Бал правит Хладной Гаванью в Обливионе. Обычно его изображают в виде существа, отдаленно напоминающего сатира. Также известен как Патриарх вампиров, преданные последователи которого могут быть вознаграждены чистокровным вампиризмом." #really really need better description
+ god_molag_reach_name:0 "Molag Bal"
+ desc_molag_reach:0 "The Father of Torment, Molag Bal is a schemer and trickster whose bargain with the Reachfolk is simple: endure. Pain and suffering is inevitable in a harsh world, so resilience is the only way. The clans devoted to the Defiler are in turn exceptionally cruel as well."
  
  patron_namira_name:0 "[GetPlayer.Custom('GetObNamiraName')]"
  patron_namira_desc:0 "Госпожа Разложения"
  patron_namira_long_desc:0 "[GetPlayer.Custom('GetObNamiraDesc')]"
  patron_namira_summary:0 "Статус: [GetPlayer.Custom('GetPatronStatus_namira')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_namira')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_namira').GetValue|+0]"
  desc_namira:0 "Даэдрический принц Древней Тьмы, Намира правит Гибельной Пустотой в Обливионе. Обычно её изображают в виде женщины в тяжелой мантии. Она имеет тесную связь с нищими, наделяя Даром Жалости Принца Нищих, согласно одноименной книге."
+ god_namira_reach_name:0 "Namira"
+ desc_namira_reach:0 "The Spirit Queen, goddess of death and one of the most central Great Spirits. Her realm is the infinite World of Spirit, counterpart to the World of Flesh ruled by Hircine."
  
  patron_nocturnal_name:0 "[GetPlayer.Custom('GetObNocturnalName')]"
  patron_nocturnal_desc:0 "Повелительница Теней"
  patron_nocturnal_long_desc:0 "[GetPlayer.Custom('GetObNocturnalDesc')]"
  patron_nocturnal_summary:0 "Статус: [GetPlayer.Custom('GetPatronStatus_nocturnal')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_nocturnal')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_nocturnal').GetValue|+0]"
  desc_nocturnal:0 "Даэдрический принц Ночи и Тьмы, Ноктюрнал правит Вечнотенью в Обливионе. Обычно её изображают в виде женщины с двумя черными воронами. Многие воры считают её своим покровителем, приносящим им удачу через души ушедших Соловьев."
+ god_nocturnal_reach_name:0 "Nocturnal"
+ desc_nocturnal_reach:0 "Nocturnal, Spirit of the Night. An enigmatic deity, Nocturnal is said to be always watching, with crows as her faithful servants."
  
  patron_peryite_name:0 "[GetPlayer.Custom('GetObPeryiteName')]"
  patron_peryite_desc:0 "Приносящий Чуму"
  patron_peryite_long_desc:0 "[GetPlayer.Custom('GetObPeryiteDesc')]"
  patron_peryite_summary:0 "Статус: [GetPlayer.Custom('GetPatronStatus_peryite')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_peryite')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_peryite').GetValue|+0]"
  desc_peryite:0 "Даэдрический принц Естественного Порядка, Периайт правит Ямами в Обливионе. Обычно его изображают в виде дракона с шестью конечностями, несмотря на то, что он один из самых слабых принцев. Последователи Периайта считают болезни и другие недуги благословением принца."
+ god_peryite_reach_name:0 "Peryite"
+ desc_peryite_reach:0 "While Peryite is often associated with pestilence, to the Reachfolk clans he is primarily the Lord of Order. While conflict brings the world forward, a natural order must maintain the balance. Disease too, is part of this, as it culls the weak and checks the excesses of men."
  
  patron_sanguine_name:0 "[GetPlayer.Custom('GetObSanguineName')]"
  patron_sanguine_desc:0 "Повелитель Темной Праздности" #uesp didn't include an actual title, so made one up
@@ -158,8 +172,12 @@
  desc_arkay:0 "Бог циклов, особенно циклов рождения и смерти. Он возглавляет похороны и погребальные обряды, а также предвещает смену времен года."
  desc_orkey:0 "Змеиный Бог Мёртвых и Старый Ворчун. Оркей испытывает всех смертных, Он любит затевать ссоры. От змеи никто не может убежать, никто не может обмануть настороженного Оркея."
  desc_tuwhacca:0 "Ту'вакка, Хитрый Бог Мёртвых. Создатель и хранитель Далеких Берегов, он провожает нас к ним, когда мы умираем, и наблюдает за нами до следующего пути к Обходу.'"
+ desc_arkay_nede:0 "Legends speak of a trader whose passion for secret knowledge brought his doom. His quest had however not gone unnoticed - at his deathbed the Mothers Dibe-Mara-Kin granted him time, time unending to seek his answers. In turn, Ark'ay bring us death, as death too is necessary for life, the neverending cycle."
 
  desc_dibella:0 "Богиня красоты и искусства, одна из самых популярных среди Божеств. Широко распространенные культы посвящены как целительству, так и сексуальному обучению."
+ desc_dibe_nede:0 "Dibe, the first Mother Around-Us, brings us life from heaven. With her blessing we devote our energies to music, to creation, to love and greater purpose."
+ god_dibella_reach_name:0 "Dibella"
+ desc_dibella_reach:0 "Revered goddess of passion, carousing and the harvest. The 'Matron of Joy' is often invoked by the faithful in merry occasions and festivals of harvest. In a world dominated by the benevolent but rather cruel Hircine, Dibella provides a much welcome harbour of happiness."
 
  desc_julianos:0 "Бог логики, мудрости и магических искусств. Его храмы действуют как учебные заведения по литературе, истории и праву."
  desc_jhunal:0 "Рунный Бог, изображенный в виде совы. Бог герметических орденов, знаний и мудрости, потерявший свою популярность."
@@ -167,11 +185,17 @@
  desc_kynareth:0 "Богиня неба, ветра и дождя. Покровительница моряков и путешественников, её часто умилостивляют для получения удачи в жизни."
  desc_kyne:0 "Богиня бури. Вдова Шора и любимая богиня воинов. Её часто называют Матерью людей. Её дочери научили первых нордов использовать ту'ум, так называемый Голос Бури."
  desc_tava:0 "Тава, Владычица Воздуха. Богиня с головой ястреба, она властвует над всем, что связано с небом и морями, кроме Звезд, что ведут редгардов на остров Херн."
+ desc_kin_nede:0 "Kin, the third Mother Around-Us, bring us life from water. With her blessing we are spared the terrible storm, yet gifted the wind in our sails."
 
  desc_mara:0 "Богиня любви, сострадания и богатства природы. Является хранительницей брачных церемоний, что соответствует её древнему происхождению как богини плодородия."
  desc_morwha:0 "Морва, Кормящая Богиня, покровительница плодородия и любимая жена Высокого Папы. Изображалась с четырьмя руками и четырьмя грудями, чтобы захватить побольше мужей."
+ desc_mara_nede:0 "Mara, the second Mother Around-Us, brings us life from earth. With her blessing we toil the fields to grow produce, and from our flesh we multiply and again bring life."
+ god_mara_reach_name:0 "Mara"
+ desc_mara_reach:0 "None is beyond the reach of the Forgiving Mother, goddess of the hearth and medicine. Reachfolk devoted to Mara are found in all clans, most taking up occupations as healers, teachers or arbiters, tempering — but not eliminating — the trials of Hircine."
 
  desc_stendarr:0 "Бог милосердия, справедливости и праведности. Покровитель всех тех, кто использует праведную силу для защиты слабых, от императоров до святых воинов."
+ god_stendarr_bosmer_name:0 "Stendarr"
+ desc_stendarr_bosmer:0 "A most merciful god, devotees of Stendarr strive to emulate him by tending to the poor and downtrodden while striking down evildoers in the name of justice."
  desc_stuhn:0 "Стун — Бог искупления, брат Тсуна и тан-страж Шора. Он научил нас преимуществам выкупа и захвата военнопленных."
 
 #  patron_talos_name:0 "Talos"
@@ -184,22 +208,29 @@
  patron_tsun_name:0 "Тсун"
  desc_tsun:0 "Мёртвый Бог испытаний против невзгод. Он умер, защищая Шора от чужеземных богов, и его смерть помнят как появление нынешнего мира."
  desc_zeht:0 "Зет, бог земледелия. Отвергнутый сын Высокого Папы и отвергнутый отец Зекки. Дурная кровь в семье является причиной трудностей с выращиванием пищи."
+ desc_zen_nede:0 "A curiosity among Aedric faiths, Z'en is considered chief of the Gods by the Nedes. A bartering God, his foremost teachings are as follows: all trades must be fair, all gifts passed along, all debts repaid, and all slights avenged."
 
  desc_shezarr:0 "Шезарр, дух человеческих свершений, особенно против альдмерской агрессии. Покровитель Имперских боевых магов, но сейчас менее популярен из-за космополитической природы имперского культа."
  desc_shor:0 "Шор, мёртвый Бог Подземного Мира. Правитель Совнгарда и мёртвый вождь богов. Долгое время был королем-воином нордов, пока чужие боги не погубили его, обрекая на заточение в Совнгарде."
  desc_sep:0 "Сеп, Второй Змей. Обезумев от голода Сатакала, Сеп уловкой заставил других богов сотворить мир смертных, обещая им, что будет простой альтернативой Обхода. За это он был наказан Руптгой, но его безумный голод все еще живёт среди звёзд."
  desc_lorkh:0 "Лорх, Дух Человека. Именно Лорх убедил Намиру Королеву Духов разрешить ему создать мир для заблудших духов - Мир Смертных, для чего он пожертвовал собой. Считается, что он по сей день бродит среди смертных и в час нужды снова явит себя."
+ desc_lorkh_nede:0 "Lorkh, the Trickster-Warrior, who through clever words and forceful expression of will caused the formation of our home in the Around-Us. When Lorkh sacrificed himself during Creation, Z'en took the reins as chief of the Gods. While dead his Heart lives on within us."
  desc_lorkhaj:0 "Лоркадж, Лунный князь и Лунный Зверь. Одновременно считающийся и небесным и тёмным духом, Лоркадж был последним сыном Фадомай, рожденным в Великой Тьме. Его Сердце было преисполнено Великой Тьмой, он обманул своих родичей во время создания места для детей Нирни - заточив их здесь."
+ desc_tseol:0 "The wily fox-god of Laws, Loopholes, and Doomed Undertakings who gifted the Lilmothiit his form in the ancient past. He taught his students the three impossible lessons: Winning-While-Losing, Stretching-the-Drumskin, and Leaving-but-Remaining; then made his way North to be slain, and to come back."
+ desc_sheor:0 "God of perseverance, hope, and willfulness. Watches over the troubled and misfortunate, and called on during uncertain times to soften life's injustices. Once a hated god of all strife, now restored to his ancient, uncorrupted self."
+ desc_lorkhan:0 "Lorkhan created Mundus as a proving grounds: an act that some would detest, while others would celebrate. Through overcoming the tribulations of mortality and striving forward at all times, he has given us an opportunity to temper ourselves into brilliance and splendor, to know joy and grief, and learn true beauty."
 
  desc_auriel:0 "[GetPlayer.Custom('GetAurielVerse')]"
  normal_desc_auriel:0 "Король альдмеров, военачальник во время Войны Проявленных Метафор, который затем достиг Праксиса, вернувшись на Этериус через Солнце, в полном соответствии с первыми из альдмеров, чтобы они могли последовать за ним."
  poet_desc_auriel:0 "И последним славим Аури-Эля,\nПрародителя всего.\nДал нам рост, волю, мудрость,\nВсе мы — продолжение его." 
+ god_auriel_bosmer_name:0 "Auri-El"
+ desc_auriel_bosmer:0 "Acknowledged as the 'King of the Gods', Auri-El maintains the stability of time. Many bloodlines trace their origins back to him, and will seek his intercession to obtain a better 'now' from Y'ffre."
 
  desc_jephre:0 "[GetPlayer.Custom('GetJephreVerse')]"
  normal_desc_jephre:0 "Бог леса, Рассказчик, дух ныне происходящего, который заставил звёзды качаться в такт своей симфонии, превратил себя в Кости Земли и установил законы природы для всех."
  poet_desc_jephre:0 "Кто Земли Кости чтит,\nСлавит Джефре сильней,\nИ леса защитит\nПервый из эльнофей." 
 
- desc_yffre:0 "Бог леса, Рассказчик, дух ныне происходящего, который заставил звёзды качаться в такт своей симфонии, превратил себя в Кости Земли и установил законы природы для всех."
+ desc_yffre:0 "Paramount God of the Bosmer, his Green Pact is credited with giving them a finite form, far from their Changeling past. Widely worshipped, his sphere of growth, and natural cycles make him a natural fit for the denizens of Valenwood."
 
  desc_magnus:0 "[GetPlayer.Custom('GetMagnusVerse')]"
  normal_desc_magnus:0 "Бог Магии, бог Солнца, король-колдун. Известен как Архитектор Мундуса, поскольку создал схемы и диаграммы, необходимые для его строительства, но бежал на Этериус до его завершения, прихватив с собой магна-ге."
@@ -225,7 +256,7 @@
  desc_xen:0 "[GetPlayer.Custom('GetXenVerse')]"
  poet_desc_xen:0 "Молим, Зен, мы о малом:\nСемя скоро взойдёт,\nТак что наши орала\nТвоих жаждут щедрот." 
  normal_desc_xen:0 "Аспект Аурбиса, как и другие аэдра. Он - бог труда, мести, земледелия и расплаты. Некоторые считают его чужеземным богом, но альтмеры поклоняются ему, как любому другому из своих предков."
- desc_zen:0 "Аспект Аурбиса, как и другие аэдра. Он - бог труда, мести, земледелия и расплаты. Некоторые считают его чужеземным богом, но альтмеры поклоняются ему, как любому другому из своих предков."
+ desc_zen:0 "Z'en assumes the mantle of God of Toil, vengeance and payment in kind. Invoked in the face of arduous tasks, he lightens his supplicant's burden, patronises vendettas and grants victory in battle."
  
  # Dwemer Ancestors
  desc_da_architect:0 "Архитектор создал солдат и крепости, чтобы разместить и защитить нас. Его дары многочисленны, и они позволят нам процветать и благоденствовать, пока он не вернется." 
@@ -300,6 +331,10 @@
  desc_mafala:0 "Известен как дух скрытой вины и вечного стыда, также считается духом предков и учителем старых путей."
  desc_noctra:0 "Имя рождённой от чёрной крови Лоркаджа у ступеней Врат Пустоты Ноктры шепчут для тишины, тени и удачи."
 
+ # Living Law
+ desc_jefr:0 "The exacting leaf-god of Language and Proper Tones who lives in a bone-tomb deep underground and shouts commandments and imperatives into the roots of trees. He minted the first words and put them into empty throats of living things, a feat that earns him respect in spite of his weak Law."
+ desc_asuura:0 "The fickle spinner-goddess of Nets and Fates who rules the Diurnality of Cats and the Dominion of Ashes. Once spurned by them, she tests the Fox-folk with unfavorable deals and ill passions, and her rewards may be both rich and dubious."
+
 # Forgotten Gods
  god_fg_notorgo_name:0 "Ноторго"
  desc_fg_notorgo:0 "Ноторго, Бог гонцов и путешественников, делает свое присутствие ощущаемым, а не известным. Он не упоминается ни в одних священных текстах, но незримо присутствует в торговых путях, древних камнях, натертых для безопасных путешествий, а иногда его имя вписывают в первый камень, заложенный на строящейся дороге."
@@ -322,6 +357,38 @@
  god_fg_ius_name:0 "Иус"
  desc_fg_ius:0 "Говорят, что Иус, Бог зверей, живёт во дворце из меха и костей в Акавире, а молитвы к нему переносят через океаны дельфины и ласточки, и даже звери Тамриэля внимают его велениям."
  
+# Magna-Ge
+ god_mg_mnemoli_name:0 "Mnemo-Li"
+ desc_mg_mnemoli:0 "Mnemo-Li, the Blue Coruscation, once reckoned time past and future among the Magna-Ge, but on turning her back on Mundus instead became the sole goddess with knowledge and power over un-time. She perceives times that were not, and secret invocations of her are connected to unspeakable rituals to create untrackable, broken periods of time."
+ god_mg_xerolyg_name:0 "Xero-Lyg"
+ desc_mg_xerolyg:0 "Xero-Lyg, the Red Coruscation, once surveyed space in its greatest expanse and smallest detail, but on fleeing the treachery of Lorkhan instead became the lady that walks the un-spaces, places adjacent and unreal and those removed from Tamriel only by happenstance of reality. Xero-Lyg's name is invoked in studying these transkalpic geographies."
+ god_mg_meridia_name:0 "Merid-Nunda"
+ desc_mg_meridia:0 "Merid-Nunda, the Yellow Coruscation, is first among the daughters of Magnus. Some believe that she alone takes an active role in mortal affairs as she represents the desires of the Magna-Ge to steward the living energies that arose from the designs of Magnus. Rumours that Merid-Nunda is a long dead star, or has burned into something else entirely, are whispered in confidence."
+ god_mg_magnus_name:0 "Magnus"
+ desc_mg_magnus:0 "Magnus, the Architect, is king and father of the Magna-Ge. His expansive mind conceived all structure in the Mundus, and his sage judgement resolved to abandon it for what it was. Despite his escape, his face is turned at all times towards the creation he cannot forget, and magicka comes down to us from his abode in Aetherius."
+
+# Ten Ancestors/Ilpenada
+ god_ta_meridia_name:0 "Merid-Nunda"
+ desc_ta_meridia:0 "Majesty is the mantle of the monarch, the abode of kings, the fortress of all rulers."
+ god_ta_molag_name:0 "Mola Gbal"
+ desc_ta_molag:0 "Domination subdues the other, and banishes the very thought of revolt from lesser minds."
+ god_ta_mehrunes_name:0 "Mehrunes"
+ desc_ta_mehrunes:0 "Conquest promotes virtuous revolution, shedding weakness and fostering vigour."
+ god_ta_hircine_name:0 "The Hunter"
+ desc_ta_hircine:0 "Wily and driven, the Hunter is the apex predator warriors strive to be."
+ god_ta_sanguine_name:0 "The Cupbearer"
+ desc_ta_sanguine:0 "Sip from the Cupbearer's chalice and let your woes vanish."
+ god_ta_nocturnal_name:0 "The Spymaster"
+ desc_ta_nocturnal:0 "Darkness holds many secrets, none hidden from the Spymaster."
+ god_ta_mephala_name:0 "The Assassin"
+ desc_ta_mephala:0 "Whisper to the Assassin so that your blade strikes true."
+ god_ta_namira_name:0 "The Horror"
+ desc_ta_namira:0 "What is foul and repulsive to the profane is the Horror's dwelling."
+ god_ta_vaermina_name:0 "The Nightmare"
+ desc_ta_vaermina:0 "May the Nightmare bless your nights and torment the wicked."
+ god_ta_peryite_name:0 "The Taskmaster"
+ desc_ta_peryite:0 "Balance yourself as the Taskmaster does with universal order."
+
  #Satakal Patrons
  desc_diagna:0 "Аватар Хундинга, достигшего постоянства в качестве Бога Клинка, Диагна сыграл важную роль в победе над леворукими эльфами, поскольку он принес орихалковое оружие народу Йокуды для победы в битве."
  desc_onsi:0 "Онси, Сокрушитель - известный бог-воин йокуданский Ра Гада и часть пантеона редгардов. Считается, что Онси научил человечество превращать свои ножи в мечи."
@@ -343,6 +410,7 @@
  desc_seryn:0 "Данмерская покровительница пивоваров, пекарей и винокуров могла вылечить все болезни, приняв их на себя. Трезвомыслящая и бесстрашная, она брала на себя бремя других и, несмотря на недуги, дожила до преклонных лет."
  desc_veloth:0 "Данмерский покровитель изгнанников и искателей духовности был кимерским мистиком, родом с островов Саммерсет, либо в Эру рассвета, либо в конце Средней Меретической эры. Он наиболее известен как отец расы данмеров. Тогда он и его последователи отделились от своих альдмерских корней и массово переселились на новую родину под названием Ресдайн, ныне известную как Морровинд."
  desc_vorys:0 "Данмерский покровитель волшебников и ученых был могущественным магом, который вел уединенную жизнь в поисках мудрости и мастерства. Несмотря на малый опыт общения, он был известен как близкое доверенное лицо самого Сета."
+ desc_llothis:0 "The Dunmeri Patron Saint of tailors and dyers formulated the central rituals and principles of the New Temple Faith. He is known as the symbolic mortal bridge between the gods and the faithful, and the archetypal priest."
 
  #  PATRON_PASSIVE_MISSION:0 "Divine Mission"
  #  dagoth_the_sharmat:0 "Did you ever hear the tragedy of Dagoth Ur The Sharmat? I thought not. It's not a story the Tribunal would tell you. It's a Sixth House legend. Dagoth Ur was the High Councilor of House Dagoth, so powerful and so wise he could use the Tools to influence the Heart to become a god… He had such a knowledge of the Heart, he could even keep himself from dying. The Heart of Lorkhan is a pathway to many abilities some consider to be divine. He became so powerful… the only thing he was afraid of was facing the Nerevarine, which eventually, of course, he did. Unfortunately, he welcomed the Nerevarine to the Heart Chamber, then the Nerevarine used the Tools on the Heart. Ironic. He could keep the Tribunal from The Heart, but was kept himself."

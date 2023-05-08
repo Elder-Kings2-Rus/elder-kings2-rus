@@ -1,13 +1,31 @@
 ﻿l_russian:
  FAITH_DOCTRINES_PANTHEON:0 "Доктрины [Concept( 'pantheon', 'пантеона' )|E]"
- FAITH_DOCTRINES_SECONDARY_PANTHEON:0 "Вторичные доктрины пантеона"
+ FAITH_DOCTRINES_SECONDARY_PANTHEON:0 "[secondary_pantheon|E] — доктрины"
  FAITH_DOCTRINES_DAEDRIC_PRINCES:0 "Даэдрические доктрины"
  FAITH_DOCTRINES_VIRTUES_SINS:0 "[Concept( 'virtues', 'Добродетели' )|E] и [Concept( 'sins', 'грехи' )|E]"
  FAITH_DOCTRINES_IMPORTANT_SPECIAL:0 "Специальные доктрины"
  
  FAITH_WINDOW_FERVOR_EQUILIBRIUM:0 "/[Faith.MakeScope.Var('fervor_equilibrium').GetValue|0]%"
- 
- 
+
+# Faith Creation window
+hide_tenets:0 "Hide Tenets"
+hide_main_group:0 "Hide Main Doctrines"
+hide_pantheon:0 "Hide Pantheon Doctrines"
+hide_marriage:0 "Hide Marriage Doctrines"
+hide_crimes:0 "Hide Crime Doctrines"
+hide_clergy:0 "Hide Clergy Doctrines"
+hide_daedric_princes:0 "Hide Daedric Doctrines"
+hide_virtues_sins:0 "Hide Virtues and Sins"
+show_tenets:0 "Show Tenets"
+show_main_group:0 "Show Main Doctrines"
+show_pantheon:0 "Show Pantheon Doctrines"
+show_marriage:0 "Show Marriage Doctrines"
+show_crimes:0 "Show Crime Doctrines"
+show_clergy:0 "Show Clergy Doctrines"
+show_daedric_princes:0 "Show Daedric Doctrines"
+show_virtues_sins:0 "Show Virtues and Sins"
+
+
  ### Dynamic holy sites
  DYNAMIC_HOLY_SITE_HELD_FAITH:0 "Удерживается конфессией"
  DYNAMIC_HOLY_SITE_NOT_HELD_FAITH:0 "НЕ удерживается конфессией"
