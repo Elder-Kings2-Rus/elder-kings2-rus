@@ -1,158 +1,158 @@
 ﻿l_russian:
 
- default_culture_desc:0 "[Culture.GetNameNoTooltip] diverged from its parent culture in recent memory."
+ default_culture_desc:0 "[Culture.GetNameNoTooltip] недавно отделились от своей основной культуры."
 
 ###### BLACK MARSH ######
- archonese_name:0 "Archonese" #Nibenese + Horwalli
- archonese_collective_noun:0 "Archonese"
- archonese_prefix:0 "Archono"
+ archonese_name:0 "Архонтцы" #Nibenese + Horwalli
+ archonese_collective_noun:0 "Архонтск"
+ archonese_prefix:0 "Архонто"
 
- arnesian_name:0 "Arnesian" #Cantemiric + Dunmer
- arnesian_collective_noun:0 "Arnesian"
- arnesian_prefix:0 "Arnesio"
+ arnesian_name:0 "Арнезийцы" #Cantemiric + Dunmer
+ arnesian_collective_noun:0 "Арнезийск"
+ arnesian_prefix:0 "Арнезо"
 
- black_marsh_orc_name:0 "Marsh Orc"
- black_marsh_orc_collective_noun:0 "Marsh Orcs"
- black_marsh_orc_prefix:0 "Orso"
+ black_marsh_orc_name:0 "Болотные орки"
+ black_marsh_orc_collective_noun:0 "Болотно-оркск"
+ black_marsh_orc_prefix:0 "Орко"
 
  gideonese_name:0 "Гидеонцы" #Nibenese in Gideon
  gideonese_collective_noun:0 "Гидеонск"
  gideonese_prefix:0 "Гидеоно"
 
- onkobranese_name:0 "Onkobranese" #Nibenese + Kothringi
- onkobranese_collective_noun:0 "Onkobranese"
- onkobranese_prefix:0 "Onkobra"
+ onkobranese_name:0 "Онкобранцы" #Nibenese + Kothringi
+ onkobranese_collective_noun:0 "Онкобранск"
+ onkobranese_prefix:0 "Онкобро"
 
- topalese_name:0 "Topalese" #Nibenese + Yespest
- topalese_collective_noun:0 "Topalese"
- topalese_prefix:0 "Topalo"
+ topalese_name:0 "Топальцы" #Nibenese + Yespest
+ topalese_collective_noun:0 "Топальск"
+ topalese_prefix:0 "Топало"
 
 ###### CYRODIIL ###### 
- brenaic_name:0 "Brenaic" #Forebear + Strident #impossible since Strident is a hybrid of Forebear and Colovian
- brenaic_collective_noun:0 "Brenaic"
- brenaic_prefix:0 "Breno"
+ brenaic_name:0 "Бренцы" #Forebear + Strident #impossible since Strident is a hybrid of Forebear and Colovian
+ brenaic_collective_noun:0 "Бренск"
+ brenaic_prefix:0 "Брено"
 
- cyrodiil_orc_name:0 "Ruby Orc"
- cyrodiil_orc_collective_noun:0 "Ruby Orc"
- cyrodiil_orc_prefix:0 "Orso"
+ cyrodiil_orc_name:0 "Рубиновые орки"
+ cyrodiil_orc_collective_noun:0 "Рубиново-оркск"
+ cyrodiil_orc_prefix:0 "Орко"
 
 ###### ELSWEYR ######
- anequina_orc_name:0 "Dune Orc"
- anequina_orc_collective_noun:0 "Dune Orcs"
- anequina_orc_prefix:0 "Orso"
+ anequina_orc_name:0 "Дюнные орки"
+ anequina_orc_collective_noun:0 "Дюнно-оркск"
+ anequina_orc_prefix:0 "Орко"
 
- pellitine_orc_name:0 "Tenmar Orc"
- pellitine_orc_collective_noun:0 "Tenmar Orcs"
- pellitine_orc_prefix:0 "Orso"
+ pellitine_orc_name:0 "Тенмарские орки"
+ pellitine_orc_collective_noun:0 "Тенмаро-оркск"
+ pellitine_orc_prefix:0 "Орко"
 
 ###### HAMMERFELL ######
- bangkorite_name:0 "Bangkorite" #Redguards + Bretons in Bangkorai
- bangkorite_collective_noun:0 "Bangkorites"
- bangkorite_prefix:0 "Bangkor"
+ bangkorite_name:0 "Бангкорайцы" #Redguards + Bretons in Bangkorai
+ bangkorite_collective_noun:0 "Бангкорайск"
+ bangkorite_prefix:0 "Бангкоро"
 
- bendmarcher_name:0 "Bendmarcher" #Nords in Craglorn
- bendmarcher_collective_noun:0 "Bendmarchers"
- bendmarcher_prefix:0 "Mahko"
+ bendmarcher_name:0 "Бендмаркцы" #Nords in Craglorn
+ bendmarcher_collective_noun:0 "Бендмаркск"
+ bendmarcher_prefix:0 "Мако"
 
- bendr_name:0 "Bend'r" #Redguards + Nords
- bendr_collective_noun:0 "Bend'r"
- bendr_prefix:0 "Mahko"
+ bendr_name:0 "Бенд'ры" #Redguards + Nords
+ bendr_collective_noun:0 "Бенд'рск"
+ bendr_prefix:0 "Мако"
 
- cyrosystrean_name:0 "Cyro-Systrean"
- cyrosystrean_collective_noun:0 "Cyro-Systrean"
- cyrosystrean_prefix:0 "Systro"
+ cyrosystrean_name:0 "Сиро-систресцы"
+ cyrosystrean_collective_noun:0 "Сиро-систресск"
+ cyrosystrean_prefix:0 "Систро"
 
- elinhiri_name:0 "Elinhiri" #Imperials in Craglorn
- elinhiri_collective_noun:0 "Elinhiri"
- elinhiri_prefix:0 "Elinhiro"
+ elinhiri_name:0 "Элинирцы" #Imperials in Craglorn
+ elinhiri_collective_noun:0 "Элинирск"
+ elinhiri_prefix:0 "Элиниро"
 
 ###### HIGH ROCK ######
- bjoulefolk_name:0 "Men-of-Bjoule" #any Nede + Bjoule
- bjoulefolk_collective_noun:0 "Bjoulefolk"
- bjoulefolk_prefix:0 "Bjoulo"
+ bjoulefolk_name:0 "Люди-Бьюлы" #any Nede + Bjoule
+ bjoulefolk_collective_noun:0 "Людо-Бьюлск"
+ bjoulefolk_prefix:0 "Бьюло"
 
- orsinium_orc_name:0 "City Orc" #k_orsinium or e_orsinium primary title
- orsinium_orc_collective_noun:0 "City Orcs"
- orsinium_orc_prefix:0 "Orsinium"
+ orsinium_orc_name:0 "Городские орки" #k_orsinium or e_orsinium primary title
+ orsinium_orc_collective_noun:0 "Городо-оркск"
+ orsinium_orc_prefix:0 "Орсиниумо"
 
- westreach_nord_name:0 "Jhahennish" #Nords in Jehanna/Westreach
- westreach_nord_collective_noun:0 "Jhahennish"
- westreach_nord_prefix:0 "Nord"
+ westreach_nord_name:0 "Джахеннцы" #Nords in Jehanna/Westreach
+ westreach_nord_collective_noun:0 "Джахеннск"
+ westreach_nord_prefix:0 "Нордо"
 
- byulsa_name:0 "Byulsa" #Redguards in Stormhaven
- byulsa_collective_noun:0 "Byulsa"
- byulsa_prefix:0 "Byulo"
+ byulsa_name:0 "Бьюлсы" #Redguards in Stormhaven
+ byulsa_collective_noun:0 "Бьюлск"
+ byulsa_prefix:0 "Бьюлсо"
 
- rhaltic_name:0 "Rhaltic" #Ilniviri in Glenumbra
- rhaltic_collective_noun:0 "Rhaltic"
- rhaltic_prefix:0 "Rhalto"
+ rhaltic_name:0 "Рхалтанцы" #Ilniviri in Glenumbra
+ rhaltic_collective_noun:0 "Рхалтанск"
+ rhaltic_prefix:0 "Рхалто"
 
 ###### MORROWIND ######
- altmeridunmer_name:0 "Mora Vvynthi" #Altmer + Dunmer in Morrowind
- altmeridunmer_collective_noun:0 "Mora Vvynthi"
- altmeridunmer_prefix:0 "Vvyntho"
+ altmeridunmer_name:0 "Мора-Ввинти" #Altmer + Dunmer in Morrowind
+ altmeridunmer_collective_noun:0 "Мора-Ввинтск"
+ altmeridunmer_prefix:0 "Ввинто"
  
  mabrigashi_name:0 "Мабригаши" #Ashlander following Sithis
  mabrigashi_collective_noun:0 "Мабригашск"
  mabrigashi_prefix:0 "Мабригаш"
  
- morrowind_orc_name:0 "Malahk Orc"
- morrowind_orc_collective_noun:0 "Malahk Orcs"
- morrowind_orc_prefix:0 "Orso"
+ morrowind_orc_name:0 "Малакские орки"
+ morrowind_orc_collective_noun:0 "Малако-оркск"
+ morrowind_orc_prefix:0 "Орко"
 
- vvardenfell_orc_name:0 "Ash Orc"
- vvardenfell_orc_collective_noun:0 "Ash Orcs"
- vvardenfell_orc_prefix:0 "Orso"
+ vvardenfell_orc_name:0 "Пепельные орки"
+ vvardenfell_orc_collective_noun:0 "Пепельно-оркск"
+ vvardenfell_orc_prefix:0 "Орко"
 
- velothis_nord_name:0 "Dunkreathi" #Nords in Velothis
- velothis_nord_collective_noun:0 "Dunkreathi"
- velothis_nord_prefix:0 "Nord"
+ velothis_nord_name:0 "Данкритцы" #Nords in Velothis
+ velothis_nord_collective_noun:0 "Данкритск"
+ velothis_nord_prefix:0 "Нордо"
  
- vvardenfell_nord_name:0 "Thundholmar" #Nords on Vvardenfell
- vvardenfell_nord_collective_noun:0 "Thundholmar"
- vvardenfell_nord_prefix:0 "Nord"
+ vvardenfell_nord_name:0 "Тандхольмцы" #Nords on Vvardenfell
+ vvardenfell_nord_collective_noun:0 "Тандхольмск"
+ vvardenfell_nord_prefix:0 "Нордо"
  
- velothese_name:0 "Velothese" #Nibenese in Morrowind
- velothese_collective_noun:0 "Velothese"
- velothese_prefix:0 "Velotho"
+ velothese_name:0 "Велотейцы" #Nibenese in Morrowind
+ velothese_collective_noun:0 "Велотейск"
+ velothese_prefix:0 "Велото"
 
 ###### SKYRIM ######
- reachmarcher_name:0 "Karthalder" #Nords + Reachfolk
- reachmarcher_collective_noun:0 "Karthalders"
- reachmarcher_prefix:0 "Karth"
+ reachmarcher_name:0 "Картальдцы" #Nords + Reachfolk
+ reachmarcher_collective_noun:0 "Картальдск"
+ reachmarcher_prefix:0 "Карто"
  
- reachnord_name:0 "Karthmen" #Nords in Karth
- reachnord_collective_noun:0 "Karthmen"
- reachnord_prefix:0 "Karth"
+ reachnord_name:0 "Картцы" #Nords in Karth
+ reachnord_collective_noun:0 "Картск"
+ reachnord_prefix:0 "Карто"
 
- skyrim_orc_name:0 "Snow Orc"
- skyrim_orc_collective_noun:0 "Snow Orcs"
- skyrim_orc_prefix:0 "Orso"
+ skyrim_orc_name:0 "Снежные орки"
+ skyrim_orc_collective_noun:0 "Снежно-оркск"
+ skyrim_orc_prefix:0 "Орко"
 
- solstheim_orc_name:0 "Stalhrim Orc"
- solstheim_orc_collective_noun:0 "Stalhrim Orcs"
- solstheim_orc_prefix:0 "Orso"
+ solstheim_orc_name:0 "Сталгримовые орки"
+ solstheim_orc_collective_noun:0 "Сталгримо-оркск"
+ solstheim_orc_prefix:0 "Орко"
 
- snowlander_name:0 "Snowlander" #Ashlander on Solstheim
- snowlander_collective_noun:0 "Snowlanders"
- snowlander_prefix:0 "Velotho"
+ snowlander_name:0 "Сноулендеры" #Ashlander on Solstheim
+ snowlander_collective_noun:0 "Сноулендск"
+ snowlander_prefix:0 "Велото"
 
- menofvir_name:0 "Men-of-Vir" #Ilniviri + Reachfolk
- menofvir_collective_noun:0 "Viri"
- menofvir_prefix:0 "Viro"
+ menofvir_name:0 "Люди-Вира" #Ilniviri + Reachfolk
+ menofvir_collective_noun:0 "Вирск"
+ menofvir_prefix:0 "Виро"
 
 ###### VALENWOOD ######
- ayleidbosmer_name:0 "Saliaboiche"
- ayleidbosmer_collective_noun:0 "Saliaboiche"
- ayleidbosmer_prefix:0 "Salio"
+ ayleidbosmer_name:0 "Салиабойчи"
+ ayleidbosmer_collective_noun:0 "Салиабойчск"
+ ayleidbosmer_prefix:0 "Салио"
 
- grahthleel_name:0 "Grahtleel" #Argonians in Valenwood
- grahthleel_collective_noun:0 "Grahtleel"
- grahthleel_prefix:0 "Graht"
+ grahthleel_name:0 "Гратхлилы" #Argonians in Valenwood
+ grahthleel_collective_noun:0 "Гратхлилск"
+ grahthleel_prefix:0 "Грато"
 
- south_wealder_name:0 "Wealdish" #Colovians in Arenthia
- south_wealder_collective_noun:0 "Wealdish"
- south_wealder_prefix:0 "Wealdish"
+ south_wealder_name:0 "Вельдцы" #Colovians in Arenthia
+ south_wealder_collective_noun:0 "Вельдск"
+ south_wealder_prefix:0 "Вельдо"
  
  morathi_name:0 "Морати" #impossible since there's already a Bosmeri culture native to Greenshade
  morathi_collective_noun:0 "Моратийск"
@@ -162,31 +162,31 @@
  grahti_collective_noun:0 "Грахтийск"
  grahti_prefix:0 "Грахтийско"
  
- salache_name:0 "Salache" #Altmer + Bosmer
- salache_collective_noun:0 "Salache"
- salache_prefix:0 "Salo"
+ salache_name:0 "Салаче" #Altmer + Bosmer
+ salache_collective_noun:0 "Салачейск"
+ salache_prefix:0 "Салачо"
 
 ###### SUMMERSET ISLES ######
- dunmerialtmer_name:0 "Indoranyo" #Altmer + Dunmer in Summerset
- dunmerialtmer_collective_noun:0 "Indoranyo"
- dunmerialtmer_prefix:0 "Indoranyo"
+ dunmerialtmer_name:0 "Индоранийцы" #Altmer + Dunmer in Summerset
+ dunmerialtmer_collective_noun:0 "Индоранийск"
+ dunmerialtmer_prefix:0 "Индорано"
 
- summerset_isles_orc_name:0 "Summer Orc"
- summerset_isles_orc_collective_noun:0 "Summer Orcs"
- summerset_isles_orc_prefix:0 "Orso"
+ summerset_isles_orc_name:0 "Летние орки"
+ summerset_isles_orc_collective_noun:0 "Летне-оркск"
+ summerset_isles_orc_prefix:0 "Орко"
 
- crystal_orc_name:0 "Crystal-Like-Orc"
- crystal_orc_collective_noun:0 "Crystal-Like-Orcs"
- crystal_orc_prefix:0 "Crystal-Like"
+ crystal_orc_name:0 "Кристальные орки"
+ crystal_orc_collective_noun:0 "Кристально-оркск"
+ crystal_orc_prefix:0 "Орко"
 
 ###### YOKUDA ######
- yokuda_orc_name:0 "Orichalc Orc"
- yokuda_orc_collective_noun:0 "Orichalc Orcs"
- yokuda_orc_prefix:0 "Orso"
+ yokuda_orc_name:0 "Орихалковые орки"
+ yokuda_orc_collective_noun:0 "Орихалково-оркск"
+ yokuda_orc_prefix:0 "Орко"
 
- yokublin_name:0 "Yokublin" #Goblins in Yokuda
- yokublin_collective_noun:0 "Yokublins"
- yokublin_prefix:0 "Goblino"
+ yokublin_name:0 "Йокоблины" #Goblins in Yokuda
+ yokublin_collective_noun:0 "Йокоблинск"
+ yokublin_prefix:0 "Гоблино"
 
 ###### MISC ######
  sea_orc_name:0 "Морские орки" #Orcs living on an island
