@@ -537,11 +537,11 @@
  trait_p_vl_vorys_desc:0 "Последователь Святого Вориса"
  trait_p_vl_vorys_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Святого Вориса Жертвенного."
 
- trait_p_vl_llothis:0 "Follower of St. Llothis"
- trait_p_vl_llothis_base:0 "Follower of Saint Llothis"
+ trait_p_vl_llothis:0 "Покровитель - Святой Ллотис"
+ trait_p_vl_llothis_base:0 "Последователь Святого Ллотиса"
  trait_p_vl_llothis_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_vl_llothis_desc' )]"
- trait_p_vl_llothis_desc:0 "A follower of Saint Llothis"
- trait_p_vl_llothis_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Saint Llothis the Pious."
+ trait_p_vl_llothis_desc:0 "Последователь Святого Ллотиса"
+ trait_p_vl_llothis_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Святого Ллотиса Благочестивого."
 
 #Khajiit
  trait_p_kj_baandar:0 "Божество-покровитель - Баан Дар"
@@ -611,53 +611,53 @@
  trait_p_fg_ius_desc:0 "Последователь Иуса"
  trait_p_fg_ius_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Иуса Крайне Обеспокоенного."
 
- trait_p_mg_mnemoli:0 "Follower of Mnemo-Li"
- trait_p_mg_mnemoli_base:0 "Follower of Mnemo-Li"
+ trait_p_mg_mnemoli:0 "Последователь Мнемо-Ли"
+ trait_p_mg_mnemoli_base:0 "Последователь Мнемо-Ли"
  trait_p_mg_mnemoli_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_mg_mnemoli_desc' )]"
- trait_p_mg_mnemoli_desc:0 "A follower of Mnemo-Li, the Blue Coruscation"
- trait_p_mg_mnemoli_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Mnemo-Li, the Blue Coruscation."
+ trait_p_mg_mnemoli_desc:0 "Последователь Мнемо-Ли, Синего снопа искр"
+ trait_p_mg_mnemoli_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Мнемо-Ли, Синего снопа искр."
 
- trait_p_mg_xerolyg:0 "Follower of Xero-Lyg"
- trait_p_mg_xerolyg_base:0 "Follower of Xero-Lyg"
+ trait_p_mg_xerolyg:0 "Последователь Зеро-Лиг"
+ trait_p_mg_xerolyg_base:0 "Последователь Зеро-Лиг"
  trait_p_mg_xerolyg_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_mg_xerolyg_desc' )]"
- trait_p_mg_xerolyg_desc:0 "A follower of Xero-Lyg, the Red Coruscation"
- trait_p_mg_xerolyg_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Xero-Lyg, the Red Coruscation."
+ trait_p_mg_xerolyg_desc:0 "Последователь Зеро-Лиг, Красного снопа искр"
+ trait_p_mg_xerolyg_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Зеро-Лиг, Красного снопа искр."
 
- trait_p_mg_meridia:0 "Follower of Merid-Nunda"
- trait_p_mg_meridia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of  Merid-Nunda, the Yellow Coruscation."
+ trait_p_mg_meridia:0 "Последователь Мерид-Нунды"
+ trait_p_mg_meridia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Мерид-Нунды, Жёлтого снопа искр."
 
- trait_p_mg_magnus:0 "Follower of Magnus"
- trait_p_mg_magnus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Magnus, the Architect."
+ trait_p_mg_magnus:0 "Последователь Магнуса"
+ trait_p_mg_magnus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Магнуса, Архитектора."
 
- trait_p_ta_meridia:0 "Follower of Merid-Nunda"
- trait_p_ta_meridia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Merid-Nunda, Regent of Majesty."
+ trait_p_ta_meridia:0 "Последователь Мерид-Нунды"
+ trait_p_ta_meridia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Мерид-Нунды, Регента Величия."
 
- trait_p_ta_molag:0 "Follower of Mola Gbal"
- trait_p_ta_molag_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Mola Gbal, Regent of Domination."
+ trait_p_ta_molag:0 "Последователь Мола Гбала"
+ trait_p_ta_molag_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Мола Гбала, Регента Господства."
 
- trait_p_ta_mehrunes:0 "Follower of Mehrunes"
- trait_p_ta_mehrunes_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Mehrunes, Regent of Conquest."
+ trait_p_ta_mehrunes:0 "Последователь Мерунеса"
+ trait_p_ta_mehrunes_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Мерунеса, Регента Завоевания."
 
- trait_p_ta_hircine:0 "Follower of the Hunter"
- trait_p_ta_hircine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Hunter."
+ trait_p_ta_hircine:0 "Последователь Охотника"
+ trait_p_ta_hircine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Охотника."
 
- trait_p_ta_sanguine:0 "Follower of the Cupbearer"
- trait_p_ta_sanguine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Cupbearer."
+ trait_p_ta_sanguine:0 "Последователь Чашника"
+ trait_p_ta_sanguine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Чашника."
 
- trait_p_ta_nocturnal:0 "Follower of the Spymaster"
- trait_p_ta_nocturnal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Spymaster."
+ trait_p_ta_nocturnal:0 "Последователь Шпиона"
+ trait_p_ta_nocturnal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Шпиона."
 
- trait_p_ta_mephala:0 "Follower of the Assassin"
- trait_p_ta_mephala_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Assassin."
+ trait_p_ta_mephala:0 "Последователь Убийцы"
+ trait_p_ta_mephala_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Убийцы."
 
- trait_p_ta_vaermina:0 "Follower of the Nightmare"
- trait_p_ta_vaermina_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Nightmare."
+ trait_p_ta_vaermina:0 "Последователь Кошмара"
+ trait_p_ta_vaermina_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Кошмара."
 
- trait_p_ta_namira:0 "Follower of the Horror"
- trait_p_ta_namira_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Horror."
+ trait_p_ta_namira:0 "Последователь Ужаса"
+ trait_p_ta_namira_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Ужаса."
 
- trait_p_ta_peryite:0 "Follower of the Taskmaster"
- trait_p_ta_peryite_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Taskmaster."
+ trait_p_ta_peryite:0 "Последователь Надсмотрщика"
+ trait_p_ta_peryite_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Надсмотрщика."
 
 #Misc
  trait_birthsign:0 "Знак"
