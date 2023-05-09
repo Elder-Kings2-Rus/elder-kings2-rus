@@ -115,7 +115,7 @@
  give_cath_bedraud_burial_vassals:0 "Каждый вассал, который считает собор Бидро священным местом"
  
  aspect_knowledge_increase_education_decision:0 "Божественное предзнаменование — Улучшение образования"
- aspect_knowledge_increase_education_decision_desc:0 "Благодаря нашей конфессии мы можем проникать сквозь ткань самой реальности. Наша близость к божественному дает нам проницательность и знания, которые нечасто встречаются среди других смертных. И с помощью этих сил я смогу лучше понять мир и самого себя."
+ aspect_knowledge_increase_education_decision_desc:0 "Благодаря нашей конфессии мы можем проникать сквозь ткань самой реальности. Наша близость к божественному даёт нам проницательность и знания, которые нечасто встречаются среди других смертных. И с помощью этих сил я смогу лучше понять мир и самого себя."
  aspect_knowledge_increase_education_decision_tooltip:0 "Используйте ваше [piety|El] и набожность, чтобы улучшить ваше [education_trait|El]"
  aspect_knowledge_increase_education_decision_confirm:0 "Да будет благословенен [ROOT.Char.GetFaith.KnowledgeGodName|L]"
  aspect_knowledge_increase_education_decision_effect_tt:0 "Доказав свою набожность и благочестие, вы можете улучшить своё понимание и знание мира, так что в результате ваше [education_trait|El] станет сильнее."
