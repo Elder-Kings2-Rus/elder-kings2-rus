@@ -184,7 +184,7 @@
     doctrine_parameter_uses_daedric_prince_focus_active:0 "Мы сможем посвятить нашу веру единственному даэдрическому принцу и верующие смогут сделать его своим [Concept( 'patron', 'покровителем' )|E]."
  doctrine_main_pantheon_type_monolatrism_name:0 "Монолатризм"
     doctrine_main_pantheon_type_monolatrism_desc:0 "В мире может быть множество божеств, но мы признаем только слово нашего истинного бога. Мы вознесемся благодаря нашей вере и преданности."
-    doctrine_parameter_uses_monolatry_aspect_active:0 "Мы сможем выбрать как божество, так и аспект. Аспект дает заранее определённый бонус всем верующим, зависящий от их [Concept( 'piety_level', 'уровня набожности' )|E].#!"
+    doctrine_parameter_uses_monolatry_aspect_active:0 "Мы сможем выбрать как божество, так и аспект. Аспект даёт заранее определённый бонус всем верующим, зависящий от их [Concept( 'piety_level', 'уровня набожности' )|E].#!"
  ## Main Pantheon
  doctrine_main_pantheon_name:0 "Основной пантеон"
  ## Secondary Pantheon
