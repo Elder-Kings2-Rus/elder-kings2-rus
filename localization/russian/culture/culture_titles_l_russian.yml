@@ -48,8 +48,8 @@
  title_warden:0 "Надзиратель"
  title_warden_female:0 "Надзирательница"
  
- title_custodian_general:0 "Хранитель-Легат"
- title_custodian_female_general:0 "Хранительница-Легат"
+ title_custodian_general:0 "Легат-хранитель"
+ title_custodian_female_general:0 "Легат-хранительница"
 
  arch_primate:1 "Архипримас"
  arch_prelate:1 "Архипрелат"
@@ -498,8 +498,8 @@ title_county_city:0 "Метрополь"
  emperor_theocracy_female_reach_religion:0 "Матриарх"
 
  #Nedic-Nord Religions
- head_of_faith_eight_divines_male:1 "Архипримат"
- head_of_faith_eight_divines_female:1 "Архипримат"
+ head_of_faith_eight_divines_male:1 "Архипримас"
+ head_of_faith_eight_divines_female:1 "Архипримас"
  
  #Khajiiti Religion
  khajiiti_religious_head_title:1 "Грива"
@@ -609,78 +609,78 @@ king_feudal_female_aldmeris_group_independent:0 "Арана"
 
 
 #Falmeris Group
-baron_feudal_male_falmer:0 "Adon"
-baron_feudal_female_falmer:0 "Adona"
-barony_feudal_falmer:0 "Adonel"
+baron_feudal_male_falmer:0 "Адон"
+baron_feudal_female_falmer:0 "Адона"
+barony_feudal_falmer:0 "Адонель"
 
-count_feudal_male_falmer:0 "Arpen"
-count_feudal_female_falmer:0 "Arpena"
-county_feudal_falmer:0 "Arpency"
+count_feudal_male_falmer:0 "Арпен"
+count_feudal_female_falmer:0 "Арпена"
+county_feudal_falmer:0 "Арпенство"
 
-duke_feudal_male_falmer:0 "Prince"
-duke_feudal_female_falmer:0 "Princess"
-duchy_feudal_falmer:0 "Princedom"
+duke_feudal_male_falmer:0 "Принц"
+duke_feudal_female_falmer:0 "Принцесса"
+duchy_feudal_falmer:0 "Княжество"
 
-king_feudal_male_falmer:0 "High Prince"
-king_feudal_female_falmer:0 "High Princess"
-kingdom_feudal_falmer:0 "Kingdom"
+king_feudal_male_falmer:0 "Верховный принц"
+king_feudal_female_falmer:0 "Верховная принцесса"
+kingdom_feudal_falmer:0 "Королевство"
 
 #Betrayed
-baron_feudal_male_betrayed:0 "Skulker"
-baron_feudal_female_betrayed:0 "Skulker"
-barony_feudal_betrayed:0 "Skulk"
+baron_feudal_male_betrayed:0 "Мастер укрытий"
+baron_feudal_female_betrayed:0 "Мастер укрытий"
+barony_feudal_betrayed:0 "Укрытие"
 
-count_feudal_male_betrayed:0 "Chief"
-count_feudal_female_betrayed:0 "Chieftess"
-county_feudal_betrayed:0 "Chiefdom"
+count_feudal_male_betrayed:0 "Предводитель"
+count_feudal_female_betrayed:0 "Предводительница"
+county_feudal_betrayed:0 "Вождество"
 
-duke_feudal_male_betrayed:0 "High Chief"
-duke_feudal_female_betrayed:0 "High Chieftess"
-duchy_feudal_betrayed:0 "Hive"
+duke_feudal_male_betrayed:0 "Верховный предводитель"
+duke_feudal_female_betrayed:0 "Верховная предводительница"
+duchy_feudal_betrayed:0 "Улей"
 
-king_feudal_male_betrayed:0 "Warchief"
-king_feudal_female_betrayed:0 "Warchieftess"
-kingdom_feudal_betrayed:0 "Horde"
+king_feudal_male_betrayed:0 "Воевода"
+king_feudal_female_betrayed:0 "Воевода"
+kingdom_feudal_betrayed:0 "Орда"
 
-emperor_feudal_male_betrayed:0 "Great Warchief"
-emperor_feudal_female_betrayed:0 "Great Warchieftess"
-empire_feudal_betrayed:0 "Great Horde"
+emperor_feudal_male_betrayed:0 "Великий вождь"
+emperor_feudal_female_betrayed:0 "Великая предводительница"
+empire_feudal_betrayed:0 "Великая орда"
 
 #Independent
-duke_feudal_male_betrayed_independent:0 "Warchief"
-duke_feudal_female_betrayed_independent:0 "Warchieftess"
+duke_feudal_male_betrayed_independent:0 "Воевода"
+duke_feudal_female_betrayed_independent:0 "Воевода"
 
 #Republic
 
-baron_republic_male_betrayed:0 "Nestmonger"
-baron_republic_female_betrayed:0 "Nestmonger"
-barony_republic_betrayed:0 "Nest"
+baron_republic_male_betrayed:0 "Смотритель гнездовья"
+baron_republic_female_betrayed:0 "Смотрительница гнездовья"
+barony_republic_betrayed:0 "Гнездо"
 
-county_republic_male_betrayed:0 "Nestmonger"
-county_republic_female_betrayed:0 "Nestmonger"
-county_republic_betrayed:0 "Hive-Nest"
+county_republic_male_betrayed:0 "Смотритель гнездовья"
+county_republic_female_betrayed:0 "Смотрительница гнездовья"
+county_republic_betrayed:0 "Гнездо-улей"
 
 
 #Dwemeris Group
-baron_feudal_male_dwemer:0 "Varzak"
-baron_feudal_female_dwemer:0 "Varzarn"
-barony_feudal_dwemer:0 "Varunch"
+baron_feudal_male_dwemer:0 "Варзак"
+baron_feudal_female_dwemer:0 "Варзарн"
+barony_feudal_dwemer:0 "Варунх"
 
-count_feudal_male_dwemer:0 "Btharak"
-count_feudal_female_dwemer:0 "Bcharn"
-county_feudal_dwemer:0 "Bthar"
+count_feudal_male_dwemer:0 "Бтарак"
+count_feudal_female_dwemer:0 "Бхарн"
+county_feudal_dwemer:0 "Бтар"
 
-duke_feudal_male_dwemer:0 "Akzhar"
-duke_feudal_female_dwemer:0 "Arnzhar"
-duchy_feudal_dwemer:0 "Zhardum"
+duke_feudal_male_dwemer:0 "Акжар"
+duke_feudal_female_dwemer:0 "Арнжар"
+duchy_feudal_dwemer:0 "Жардум"
 
-baron_republic_male_dwemer:0 "Abakch"
-baron_republic_female_dwemer:0 "Abakch"
-barony_republic_dwemer:0 "Zel"
+baron_republic_male_dwemer:0 "Абакх"
+baron_republic_female_dwemer:0 "Абакх"
+barony_republic_dwemer:0 "Зел"
 
-count_republic_male_dwemer:0 "Abakch"
-count_republic_female_dwemer:0 "Abakch"
-county_republic_dwemer:0 "Zel"
+count_republic_male_dwemer:0 "Абакх"
+count_republic_female_dwemer:0 "Абакх"
+county_republic_dwemer:0 "Зел"
 
 
 #Chimeris Group
@@ -968,17 +968,17 @@ princess_ayleid_county:0 "Принцесса"
 prince_ayleid_duchy:0 "Принц" 
 princess_ayleid_duchy:0 "Принцесса" 
 
-emperor_feudal_male_saliache:0 "Malaran"
-emperor_feudal_female_saliache:0 "Malarana"
-empire_feudal_saliache:0 "Malaransel"
+emperor_feudal_male_saliache:0 "Маларан"
+emperor_feudal_female_saliache:0 "Маларана"
+empire_feudal_saliache:0 "Маларансель"
 
-duke_feudal_male_white_gold:0 "Malarpen"
-duke_feudal_female_white_gold:0 "Malarpena"
-duchy_feudal_white_gold:0 "Malarpensel"
+duke_feudal_male_white_gold:0 "Маларпен"
+duke_feudal_female_white_gold:0 "Маларпена"
+duchy_feudal_white_gold:0 "Маларансель"
 
-duke_feudal_male_white_gold_independent:0 "Aran"
-duke_feudal_female_white_gold_independent:0 "Arana"
-duchy_feudal_white_gold_independent:0 "Aransel"
+duke_feudal_male_white_gold_independent:0 "Аран"
+duke_feudal_female_white_gold_independent:0 "Арана"
+duchy_feudal_white_gold_independent:0 "Арансель"
 
 #Yespest Group 
 baron_feudal_male_yespest:0 "Адону"
