@@ -36,7 +36,7 @@
     maormer_history_loc:0 "Изгнанники из легендарного [Concept( 'aldmeris', 'Альдмериса' )|E] из [Concept( 'dawn_era', 'Эры рассвета' )|E]"
     beyonder_history_loc:0 "#L [CULTURE.GetCollectiveNoun]ие#! пираты вдали от своего мифического дома - Пиандонеи" # нужно было сократить описание, ибо оно не влезало в строку
     skaal_history_loc:0 "Отделились от своих материковых собратьев после долгих лет изоляции"
-    nedic_history_loc:0 "Потомки неизвестных #L [CULTURE.GetCollectiveNoun|l]ие#! племён"
+    nedic_history_loc:0 "Потомки неизвестных #L [CULTURE.GetCollectiveNoun|l]их#! племён"
     yespest_history_loc:0 "Появились из #L [CULTURE.GetCollectiveNoun|l]их#! племён под #L [TARGET_CULTURE.GetCollectiveNoun|l]им#! правлением"
     ojel_history_loc:0 "Появились из #L [CULTURE.GetCollectiveNoun|l]их#! племён под #L [TARGET_CULTURE.GetCollectiveNoun|l]им#! правлением"
     karth_history_loc:0 "Потомки старого #L [CULTURE.GetCollectiveNoun|l]ого#! народа"
