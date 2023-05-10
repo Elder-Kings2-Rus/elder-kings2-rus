@@ -431,7 +431,7 @@
  artifact_aralor_shirt_description:0 "Священная реликвия данмерского Трибунала. Она может как ранить владельца, так и исцелить. Также даёт сопротивление к магии." #PLACEHOLDER
 
  artifact_rilms_shoes_name:1 "Туфли Святой Рилмс"
- artifact_rilms_shoes_description:0 "Considered by the Dunmeri Tribunal as a sacred relic, these shoes have been enchanted with magic to boost endurance and increase the wearer's charm. Saint Rilms, in an effort to better understand the poor, gave away these shoes and disguised herself as a beggar." #PLACEHOLDER
+ artifact_rilms_shoes_description:0 "Эта обувь считается священной реликвией Трибунала данмеров. На туфли наложено зачарование, которое повышает выносливость и увеличивает обаяние владельца. Святая Рилмс, стремясь получше понять бедных, отдала эти туфли и переоделась нищенкой." #PLACEHOLDER
 
  artifact_felms_cleaver_name:1 "Тесак Святого Фелмса"
  artifact_felms_cleaver_description:0 "Одноручный топор, некогда принадлежавший одному из святых данмерского Трибунала — Святому Фелмсу." #PLACEHOLDER       
@@ -478,17 +478,17 @@
  artifact_crusader_shield_name:1 "Щит Крестоносца"
  artifact_crusader_shield_description:0 "Щит, созданный Джулианосом и подаренный Пелиналу Вайтстрейку, Святому Крестоносцу. По форме напоминающий Чим-эль Адабал, символ имперского пантеона, щит позволяет своему владельцу отражать заклинания обратно в  заклинателей или полностью отклонять их." # PLACEHOLDER  
 
- artifact_dreugh_cuirass_name:1 "Dreugh Cuirass"
- artifact_dreugh_cuirass_description:0 "The dreugh cuirass is a formidable piece of armor that is made from the carapace of the fearsome and elusive dreugh, a sea monster known for its deadly attacks and tough hide."
+ artifact_dreugh_cuirass_name:1 "Кираса дреуга"
+ artifact_dreugh_cuirass_description:0 "Кираса дреуга — это весьма внушительный доспех, изготовленный из панциря внушающего страх и неуловимого дреуга, морского чудовища, известного своими смертоносными атаками и прочной шкурой."
 
- artifact_36_sermons_name:1 "36 Sermons of Vivec"
- artifact_36_sermons_description:0 ""The 36 Sermons of Vivec" is a treasured tome of religious and historical significance. Its pages are filled with the teachings and legends of the Tribunal god Vivec.\n\nThe book is beautifully bound in leather or fine fabrics, with intricate designs and symbols adorning the cover. Its pages are filled with vivid illustrations, depicting the many trials and tribulations of Vivec as he journeyed through the realm of mortals. The writing itself is often poetic and enigmatic, challenging the reader to unravel its deeper meanings."
+ artifact_36_sermons_name:1 "36 проповедей Вивека"
+ artifact_36_sermons_description:0 "36 проповедей Вивека — это весьма ценные книги религиозного и исторического значения. Страницы этих томов полны учений и легенд бога Трибунала Вивека.\n\nКнига умела переплетена кожей или тонкой тканью, а её обложку украшают замысловатые узоры и символы. На страницах проповедей можно найти яркими иллюстрациями, изображающие многочисленные испытания и невзгоды Вивека во время его путешествия по царству смертных. Стиль написания книг часто бывает поэтичным и загадочным, тем самым бросая читателю вызов разгадать его глубокий смысл."
 
- artifact_almalexia_lock_name:1 "Almalexia's Lock"
- artifact_almalexia_lock_description:0 "The lock is a vibrant shade of dark brown, with a soft, silky texture that is said to be imbued with the divine power of Almalexia herself. It is typically kept in a small, ornate box, and is often adorned with precious gems or intricate designs.\n\nThose who possess Almalexia's Lock are said to be blessed with good fortune and divine protection, as well as a deep connection to the goddess herself. The Lock is often used in religious rituals and ceremonies, and is believed to have the power to ward off evil spirits and curses."
+ artifact_almalexia_lock_name:1 "Прядь волос Альмалексии"
+ artifact_almalexia_lock_description:0 "Прядь имеет яркий тёмно-коричневый цвет с мягкой и шелковистой текстурой. Как говорят, эта прядь пропитана божественной силой самой Альмалексии. Обычно он хранится в маленькой, богато украшенной драгоценными камнями или замысловатыми узорами шкатулке.\n\nСчитается, что тем, у кого есть локон Альмалексии, сопутствует удача. Также они пользуются божественной защитой и глубокой связью с самой богиней. Прядь волос часто используется в религиозных ритуалах и церемониях, и считается, что она способна отгонять злых духов и проклятия."
 
- artifact_sotha_gear_name:1 "Gear of Sotha Sil"
- artifact_sotha_gear_description:0 "The Gear of Sotha Sil is a mysterious and powerful artifact said to have been crafted by the reclusive god Sotha Sil himself. The gear is a complex and intricate machine, consisting of a series of interlocking gears and mechanisms that are powered by arcane energy.\n\nGears of Sotha Sil are typically made of a durable and resilient metal, often encrusted with precious gems or intricate engravings. It is said to possess a wide range of magical properties, including the ability to manipulate time and space, and to control the forces of nature itself."
+ artifact_sotha_gear_name:1 "Шестерёнка Сота Сила"
+ artifact_sotha_gear_description:0 "Шестерёнка Сота Сила — это таинственный и могущественный артефакт, который, как говорят, создал сам бог-отшельник Сота Сила. Это сложная и замысловатая машина, состоящая из ряда взаимосвязанных шестерёнок и механизмов, которые приводятся в действие арканной энергией.\n\nШестерёнки Сота Сила обычно изготавливаются из прочного и стойкого металла, часто инкрустированного драгоценными камнями или замысловатой гравировкой. Считается, что этот металл обладает широким спектром магических свойств, включая способность манипулировать временем и пространством, а также управлять силами самой природы."
  
  animal_type_senche_cougar:0 "сенч-пума"
  artifact_hide_type_senche_cougar:0 "сенч-пума"
@@ -564,12 +564,12 @@
  artifact_wall_animal_skull_mudcrab:0 "надоедливый грязекраб"
  feature_animal_skull_type_mudcrab:0 "надоедливый грязекраб"
  feature_animal_skull_type_hare:0 "хрупкий заяц"
- animal_type_alit:0 "alit"
- artifact_hide_type_alit:0 "an alit"
- feature_animal_hide_type_alit:0 "an alit"
- artifact_wall_animal_skull_alit:0 "a ferocious alit"
- feature_animal_skull_type_alit:0 "a ferocious alit"
- animal_type_kwama_warrior:0 "kwama warrior"
+ animal_type_alit:0 "алит"
+ artifact_hide_type_alit:0 "алит"
+ feature_animal_hide_type_alit:0 "алит"
+ artifact_wall_animal_skull_alit:0 "свирепый алит"
+ feature_animal_skull_type_alit:0 "свирепый алит"
+ animal_type_kwama_warrior:0 "квама-воин"
 
  decoration_material_inlay_HSB_mudcrabshell:0 "панцирь грязекраба"
  feature_decoration_material_inlay_HSB_mudcrabshell:0 "панцирь грязекраба"
