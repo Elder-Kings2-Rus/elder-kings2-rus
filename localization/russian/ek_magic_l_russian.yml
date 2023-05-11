@@ -210,7 +210,7 @@
 
  MAGICKA_TRIGGER_GLOBAL:0 "Имеет [magicka_i]$VALUE|V0$"
  NOT_MAGICKA_TRIGGER_GLOBAL:0 "Не имеет [magicka_i]$VALUE|V0$"
- MAGICKA_TRIGGER_FIRST:1 "You have [magicka_i]$VALUE|V0$"
+ MAGICKA_TRIGGER_FIRST:1 "У вас есть [magicka_i]$VALUE|V0$"
  NOT_MAGICKA_TRIGGER_FIRST:1 "Вы #bold не#! имеете [magicka_i]$VALUE|V0$"
  MAGICKA_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|V] имеет [magicka_i]$VALUE|V0$"
  NOT_MAGICKA_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|V] не имеет [magicka_i]$VALUE|V0$"

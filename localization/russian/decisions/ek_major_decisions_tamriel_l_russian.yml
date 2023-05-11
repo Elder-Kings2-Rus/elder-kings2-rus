@@ -136,7 +136,7 @@
  reintegrate_orsinium_decision_confirm:0 "Орсиниума больше нет!"
  reintegrate_orsinium_decision_cd:0 "Вы контролируете столичное [duchy|El] Орсиниума"
  no_orsimer_king_vassal_cd:0 "Орсиниум не принадлежит вассалу-орсимеру"
- mountain_orc_regains_pariah_status:0 "[mountain_orc.GetName]ая вернёт статус [Concept( 'pariah', 'парии' )|E] и они вновь получат [Concept( 'innovation', 'инновацию' )|E] #V народ-пария#!"
+ mountain_orc_regains_pariah_status:0 "[mountain_orc.GetName]ая культура вернёт статус [Concept( 'pariah', 'отверженных' )|E] и они вновь получат [Concept( 'innovation', 'инновацию' )|E] #V Отверженный народ#!"
  
  ### Nibenay
  establish_new_nibenay_kingdom_decision:0 "Основать новое королевство в Восточном Нибенее"

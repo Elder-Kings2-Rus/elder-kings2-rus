@@ -98,7 +98,7 @@
  culture_parameter_foreign_guest_hospitality:0 "[wanderers|E] с другой [Concept('culture', 'культурой')|E] чаще посещают эти [courts|El], и их найм улучшит [cultural_acceptance|El]"
  cultural_acceptance_gain_recruited_guest:0 "[recipient.GetCulture.GetCollectiveNoun]ий#! [wanderer|El] был завербован #L [actor.GetCulture.GetCollectiveNoun|l]им#! [Concept('ruler', 'правителем')|E]"
  culture_parameter_dont_want_foreign_languages:0 "Персонажи этой [Concept('culture', 'культуры')|E] гораздо реже изучают иностранные [languages|El] и принимают иностранные [court_languages|El]"
- culture_parameter_will_not_be_vassalised:0 "Согласие на вассализацию представителя других [Concept('cultures', 'культур')|E]: #N -20#!"
+ culture_parameter_will_not_be_vassalised:0 "Согласие на вассализацию представителем других [Concept('cultures', 'культур')|E]: #N -20#!"
 
 ## PERK PARAMETERS
  culture_parameter_strategist_xp_rebate:0 "Вам будет легче продвигаться в [Concept('lifestyle', 'образе жизни')|E] [GetTrait('strategist').GetName( GetNullCharacter )]"
