@@ -188,7 +188,7 @@
  ### Random scrib events
  # You observe your scrib
  ek_pet_animal.2101.t:0 "[ROOT.Char.Custom('ScribStoryName')]: Удирающая невинность"
- ek_pet_animal.2101.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'взяла', 'взял' )] за привычку проводить некоторое время с [ROOT.Char.Custom('ScribStoryName')] на исходе дня, наблюдая за [ROOT.Char.Custom('ScribStoryHerHis')] movements.\n\nдвижениями.\n\nТо, как [ROOT.Char.Custom('ScribStoryName')] передвигается, осторожно изучая [ROOT.Char.Custom('ScribStoryHerHis')] окружение, заставляет меня задуматься, не следует ли мне видеть больше чудес в окружающем нас мире."
+ ek_pet_animal.2101.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'взяла', 'взял' )] за привычку проводить некоторое время с [ROOT.Char.Custom('ScribStoryName')] на исходе дня, наблюдая за [ROOT.Char.Custom('ScribStoryHerHis')] движениями.\n\nТо, как [ROOT.Char.Custom('ScribStoryName')] передвигается, осторожно изучая [ROOT.Char.Custom('ScribStoryHerHis')] окружение, заставляет меня задуматься, не следует ли мне видеть больше чудес в окружающем нас мире."
  ek_pet_animal.2101.a:0 "Я чувствую себя [Select_CString(ROOT.Char.IsFemale, 'такой молодой', 'таким молодым' )]!"
 
  # Your scrib goes with you into battle!
@@ -305,7 +305,7 @@
  # You eat some fruits with your bantam guar, smol health modifier
  ek_pet_animal.3101.t:0 "[ROOT.Char.Custom('BantamStoryName')]: Свежие фрукты"
  ek_pet_animal.3101.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'взяла', 'взял' )] за привычку иногда проводить время с [ROOT.Char.Custom('BantamStoryName')] в конце дня, давая  [ROOT.Char.Custom('BantamStoryHerHim')] свежие фрукты.\n\nНе знаю, связано ли это с фруктами или со временем, проведённым с [ROOT.Char.Custom('BantamStoryName')], но я чувствую себя более энергично и лучше!"
- ek_pet_animal.3101.a:0 "Оставь немного для меня, [ROOT.Char.Custom('BantamStoryName')]!"
+ ek_pet_animal.3101.a:0 "Оставь немного и мне, [ROOT.Char.Custom('BantamStoryName')]!"
 
  # Your bantam guar goes with you into battle!
  ek_pet_animal.3102.t:0 "[ROOT.Char.Custom('BantamStoryName')]: Клюв и когти"
@@ -331,7 +331,7 @@
 
  # Bantam guar dies :(
  ek_pet_animal.3199.t:0 "[ROOT.Char.Custom('BantamStoryName')]: Скорбный день"
- ek_pet_animal.3199.desc:0 "[ROOT.Char.Custom('BantamStoryName')] не так молод, каким [ROOT.Char.Custom('BantamStorySheHe')] когда-то был, я все ещё слышу [ROOT.Char.Custom('BantamStoryHerHis')]  пение, но оно больше не такое яркое и сильное как раньше.\n\nЯ нежно глажу [ROOT.Char.Custom('BantamStoryHerHis')] [ROOT.Char.Custom('BantamColor')] перья и прислушиваюсь к  [ROOT.Char.Custom('BantamStoryHerHim')] тихому пению и попыткам взмахнуть [ROOT.Char.Custom('BantamStoryHerHis')] крыльями, но когда наступила тишина, я понял, что [ROOT.Char.Custom('BantamStoryHerHis')] пение не разбудит меня следующим утром."
+ ek_pet_animal.3199.desc:0 "[ROOT.Char.Custom('BantamStoryName')] не так молод, каким [ROOT.Char.Custom('BantamStorySheHe')] когда-то был, я все ещё слышу [ROOT.Char.Custom('BantamStoryHerHis')]  пение, но оно больше не такое яркое и сильное как раньше.\n\nЯ нежно глажу [ROOT.Char.Custom('BantamStoryHerHis')] [ROOT.Char.Custom('BantamColor')] перья и прислушиваюсь к  [ROOT.Char.Custom('BantamStoryHerHim')] тихому пению и попыткам взмахнуть [ROOT.Char.Custom('BantamStoryHerHis')] крыльями, но когда наступила тишина, я понимаю, что [ROOT.Char.Custom('BantamStoryHerHis')] пение не разбудит меня следующим утром."
  ek_pet_animal.3199.a:0 "Я буду скучать по тебе, [ROOT.Char.Custom('BantamStoryName')]!"
 
  pet_bantam_decision:0 "[ROOT.Char.Custom('BantamStoryName')] - погладить"
@@ -382,120 +382,120 @@
  vvardvark_name_master_scaly_tale:0 "Чешуйчатая Сказка"
 
  ek_pet_animal.4001.t:0 "Пеплозуб"
- ek_pet_animal.4001.desc:1 "As the vvardvark wanders in the room, happily snooping around, I ponder what I should name [ROOT.Char.Custom('VvardvarkStoryHerHim')]. Something historical? Something alluding to [ROOT.Char.Custom('VvardvarkStoryHerHis')] [ROOT.Char.Custom('VvardvarkColor')] tiny body? Something to describe the soothing feeling I experience when [ROOT.Char.Custom('VvardvarkStorySheHe')] waddles around me?\n\nOh, I know! I will name [ROOT.Char.Custom('VvardvarkStoryHerHim')]..."
- ek_pet_animal.4001.a:1 "What a great name!"
+ ek_pet_animal.4001.desc:1 "Пока пеплозуб бродит по комнате, радостно шныряя по ней, я размышляю, как назвать [ROOT.Char.Custom('VvardvarkStoryHerHim')]. Что нибудь историческое? Что-то опирающееся на [ROOT.Char.Custom('VvardvarkStoryHerHis')] [ROOT.Char.Custom('VvardvarkColor')] окрас тельца? Что-то, чтобы описать успокаивающее чувство, которое я испытываю, когда [ROOT.Char.Custom('VvardvarkStorySheHe')] ковыляет вокруг меня?\n\nО, я знаю! я назову [ROOT.Char.Custom('VvardvarkStoryHerHim')]..."
+ ek_pet_animal.4001.a:1 "Что за чудесное имя!"
 
  ### Random vvardvark events
  # You eat some fruits with your vvardvark, smol health modifier
- ek_pet_animal.4101.t:0 "[ROOT.Char.Custom('VvardvarkStoryName')]: Fresh Fruits"
- ek_pet_animal.4101.desc:0 "I have taken the habit to spend some time with [ROOT.Char.Custom('VvardvarkStoryName')] at the end of the day, sharing some fresh fruits with [ROOT.Char.Custom('VvardvarkStoryHerHim')].\n\nI don't know if that's because of the fruits or the time I've been spending with [ROOT.Char.Custom('VvardvarkStoryName')], but I feel more energetic and healthy!"
- ek_pet_animal.4101.a:0 "Leave some for me, [ROOT.Char.Custom('VvardvarkStoryName')]!"
+ ek_pet_animal.4101.t:0 "[ROOT.Char.Custom('VvardvarkStoryName')]: Свежие фрукты"
+ ek_pet_animal.4101.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'взяла', 'взял' )] за привычку иногда проводить время с [ROOT.Char.Custom('VvardvarkStoryName')] в конце дня, давая [ROOT.Char.Custom('VvardvarkStoryHerHim')] свежие фрукты.\n\nНе знаю, связано ли это с фруктами или со временем, проведённым с [ROOT.Char.Custom('VvardvarkStoryName')], но я чувствую себя более энергично и лучше!"
+ ek_pet_animal.4101.a:0 "Оставь немного и мне, [ROOT.Char.Custom('VvardvarkStoryName')]!"
 
  # Your Vvardvark goes with you into battle!
- ek_pet_animal.4102.t:0 "[ROOT.Char.Custom('VvardvarkStoryName')]: Teeth in Tongue"
- ek_pet_animal.4102.desc:0 "It seems that the bravery of [ROOT.Char.Custom('VvardvarkStoryName')] knows no bounds! Be it in large scale battles, small skirmishes, or even in singular duels, [ROOT.Char.Custom('VvardvarkStorySheHe')] never leaves my side and fights with me.\n\nMy opponents, friendly or not, seem to even be frightened of [ROOT.Char.Custom('VvardvarkStoryHerHim')], and more than one were defeated because [ROOT.Char.Custom('VvardvarkStoryName')] distracted them with [ROOT.Char.Custom('VvardvarkStoryHerHis')] [ROOT.Char.Custom('VvardvarkColor')] body, or even because [ROOT.Char.Custom('VvardvarkStorySheHe')] hurt them!"
- ek_pet_animal.4102.a:0 "With me, into battle!"
+ ek_pet_animal.4102.t:0 "[ROOT.Char.Custom('VvardvarkStoryName')]: Зубы на языке"
+ ek_pet_animal.4102.desc:0 "Кажется, что храбрость [ROOT.Char.Custom('VvardvarkStoryName')] не знает границ! Будь то крупномасштабные сражения, небольшие стычки или даже одиночные поединки, [ROOT.Char.Custom('VvardvarkStorySheHe')] никогда не покидает вас и сражается вместе с вами.\n\nВаши противники, кажется, даже боятся [ROOT.Char.Custom('VvardvarkStoryHerHim')], и не один враг был побежден, потому что [ROOT.Char.Custom('VvardvarkStoryName')] отвлекает их при помощи [ROOT.Char.Custom('VvardvarkStoryHerHis')] [ROOT.Char.Custom('VvardvarkColor')] окрас, или даже потому, что [ROOT.Char.Custom('VvardvarkStorySheHe')] кусает их!"
+ ek_pet_animal.4102.a:0 "За мной, в бой!"
 
  # Your Vvardvark attacked a vassal! Wound or possibly an eye removal
- ek_pet_animal.4103.t:0 "[ROOT.Char.Custom('VvardvarkStoryName')]: Right in the Eyes"
- ek_pet_animal.4103.desc_wounded:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with me, [ROOT.Char.Custom('VvardvarkStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\n[vassal.GetFirstName] managed to flee the room, but not before my Vvardvark could severly hurt [vassal.GetHerHim]..."
- ek_pet_animal.4103.desc_eye_removed_not_one_eyed:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with me, [ROOT.Char.Custom('VvardvarkStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\nAn intense scream was soon heard, and after [ROOT.Char.Custom('VvardvarkStoryName')] was put back outside [vassal.GetFirstName] could be seen holding [vassal.GetHerHis] hand near one of [vassal.GetHerHis] eyes... with blood dripping."
- ek_pet_animal.4103.desc_eye_removed_one_eyed:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with me, [ROOT.Char.Custom('VvardvarkStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\nAn intense scream was soon heard, and after [ROOT.Char.Custom('VvardvarkStoryName')] was put back outside [vassal.GetFirstName] could be seen holding [vassal.GetHerHis] hand near [vassal.GetHerHis] only remaining eye... with blood dripping.\n\n'I CAN'T SEE' could [vassal.GetSheHe] be heard screaming. 'THIS IS ALL YOUR FAULT, YOU AND YOUR STUPID BEAST!'"
- ek_pet_animal.4103.a:0 "I hope [vassal.GetFirstName] will be all right..."
- ek_pet_animal.4103.b:0 "Oh no..."
+ ek_pet_animal.4103.t:0 "[ROOT.Char.Custom('VvardvarkStoryName')]: Прямо в глаза"
+ ek_pet_animal.4103.desc_wounded:0 "Ужас в тронном зале! Пока [vassal.GetName] [Select_CString(vassal.IsFemale, 'ожидала', 'ожидал' )] аудиенции с вами, [ROOT.Char.Custom('VvardvarkStoryName')], казалось бы, из ниоткуда, решил напасть на н[vassal.GetHerHim]!\n\n[vassal.GetFirstName] [Select_CString(vassal.IsFemale, 'успела', 'успел' )] выбежать из комнаты, но не раньше, чем ваш пеплозуб сильно покалечил [vassal.GetHerHim]..."
+ ek_pet_animal.4103.desc_eye_removed_not_one_eyed:0 "Ужас в тронном зале! Пока [vassal.GetName] [Select_CString(vassal.IsFemale, 'ожидала', 'ожидал' )] аудиенции с вами, [ROOT.Char.Custom('VvardvarkStoryName')], казалось бы, из ниоткуда, решил напасть на [vassal.GetHerHim]!\n\nВскоре раздался истошный вопль, и когда [ROOT.Char.Custom('VvardvarkStoryName')] выбегает из комнаты, [vassal.GetFirstName] держит свою ладонь у одного из [vassal.GetHerHis] глаз... с капающей кровью."
+ ek_pet_animal.4103.desc_eye_removed_one_eyed:0 "Ужас в тронном зале! Пока [vassal.GetName] [Select_CString(vassal.IsFemale, 'ожидала', 'ожидал' )] аудиенции с вами, [ROOT.Char.Custom('VvardvarkStoryName')], казалось бы, из ниоткуда, решил напасть на [vassal.GetHerHim]!\n\nВскоре раздался истошный вопль, и когда [ROOT.Char.Custom('VvardvarkStoryName')] выбегает из комнаты, [vassal.GetFirstName] держит свою ладонь у своего единственного глаза... с капающей кровью.\n\n'Я НЕ ВИЖУ', - кричит [vassal.GetSheHe]. 'ЭТО ВСЁ ТВОЯ ВИНА, ТВОЯ И ТВОЕГО ТУПОГО ЖИВОТНОГО!'"
+ ek_pet_animal.4103.a:0 "Я надеюсь, [vassal.GetFirstName] будет в порядке..."
+ ek_pet_animal.4103.b:0 "О нет..."
 
  # Vvardvark dies :(
- ek_pet_animal.4199.t:0 "[ROOT.Char.Custom('VvardvarkStoryName')]: Day of Sorrow"
- ek_pet_animal.4199.desc:0 "[ROOT.Char.Custom('VvardvarkStoryName')] is not as young as [ROOT.Char.Custom('VvardvarkStorySheHe')] once was, and I can hear it in [ROOT.Char.Custom('VvardvarkStoryHerHis')] peculiar noises, not as strong and stable as they were some years ago.\n\nI gently pet [ROOT.Char.Custom('VvardvarkStoryHerHis')] [ROOT.Char.Custom('VvardvarkColor')] body and listen to [ROOT.Char.Custom('VvardvarkStoryHerHim')] softly breathe and try to lick [ROOT.Char.Custom('VvardvarkStoryHerHis')] nose, but as silence falls I know that [ROOT.Char.Custom('VvardvarkStoryHerHis')] morning licks won't wake me up again."
- ek_pet_animal.4199.a:0 "I will miss you, [ROOT.Char.Custom('VvardvarkStoryName')]!"
+ ek_pet_animal.4199.t:0 "[ROOT.Char.Custom('VvardvarkStoryName')]: Скорбный день"
+ ek_pet_animal.4199.desc:0 "[ROOT.Char.Custom('VvardvarkStoryName')] не так молод, каким [ROOT.Char.Custom('VvardvarkStorySheHe')] когда-то был. Я всё ещё слышу [ROOT.Char.Custom('VvardvarkStoryHerHis')] характерные звуки, не такие сильные и размеренные, как раньше.\n\nЯ нежно глажу [ROOT.Char.Custom('VvardvarkStoryHerHis')] [ROOT.Char.Custom('VvardvarkColor')] тело и прислушиваюсь к [ROOT.Char.Custom('VvardvarkStoryHerHim')] тяжёлому дыханию и попыткам лизнуть [ROOT.Char.Custom('VvardvarkStoryHerHis')] нос, но когда наступила тишина, я понимаю, что [ROOT.Char.Custom('VvardvarkStoryHerHis')] утреннее облизывание не разбудит меня следующим утром."
+ ek_pet_animal.4199.a:0 "Я буду скучать по тебе, [ROOT.Char.Custom('VvardvarkStoryName')]!"
 
- pet_vvardvark_decision:0 "Pet [ROOT.Char.Custom('VvardvarkStoryName')]"
- pet_vvardvark_decision_desc:0 "I know how much [ROOT.Char.Custom('VvardvarkStoryName')] loves strutting around, and it always soothes me to hear [ROOT.Char.Custom('VvardvarkStoryHerHim')] make happy noises and cuddle me. While it takes a lot of effort, and money, to properly feed and take care of [ROOT.Char.Custom('VvardvarkStoryHerHim')], no matter how tough life gets I know [ROOT.Char.Custom('VvardvarkStorySheHe')] will always be there for me!"
- pet_vvardvark_decision_tooltip:0 "Pet your Vvardvark"
- pet_vvardvark_decision_confirm:0 "Pet your Vvardvark"
+ pet_vvardvark_decision:0 "[ROOT.Char.Custom('VvardvarkStoryName')] - погладить"
+ pet_vvardvark_decision_desc:0 "Я знаю, насколько [ROOT.Char.Custom('VvardvarkStoryName')] любит топать вокруг, и меня всегда успокаивает [ROOT.Char.Custom('VvardvarkStoryHerHim')] радостные звуки. Хоть правильное питание и забота за [ROOT.Char.Custom('VvardvarkStoryHerHim')] жизнью требует много усилий и средств, я знаю, что [ROOT.Char.Custom('VvardvarkStorySheHe')] всегда будет рядом со мной!"
+ pet_vvardvark_decision_tooltip:0 "Погладить вашего пеплозуба"
+ pet_vvardvark_decision_confirm:0 "Погладить вашего пеплозуба"
 
  # You pet your vvardvark :)
- ek_pet_animal.4501.t:0 "A Nice Time With [ROOT.Char.Custom('VvardvarkStoryName')]"
- ek_pet_animal.4501.desc:0 "As I enter my room, I can immediatly see [ROOT.Char.Custom('VvardvarkStoryName')] lick around in excitment.\n\nWith a smile on my face I let [ROOT.Char.Custom('VvardvarkStoryHerHim')] in and let [ROOT.Char.Custom('VvardvarkStoryHerHim')] roll around before wandering in.\n[ROOT.Char.Custom('VvardvarkStoryName')] wanders around the room for a few moments, before cuddling my feet with [ROOT.Char.Custom('VvardvarkStoryHerHis')] tiny body.\n\nAs I laugh, I feel the weight of the world already lifting from my shoulders."
- ek_pet_animal.4501.a:0 "Come, come!"
+ ek_pet_animal.4501.t:0 "Приятное времяпрепровождение с [ROOT.Char.Custom('VvardvarkStoryName')]"
+ ek_pet_animal.4501.desc:0 "Как только вы входите в комнату, вы видите, как [ROOT.Char.Custom('VvardvarkStoryName')] взволнованно облизывается.\n\nС улыбкой на лице вы впускаете [ROOT.Char.Custom('VvardvarkStoryHerHim')] и даёте [ROOT.Char.Custom('VvardvarkStoryHerHim')] пробежаться, прежде чем войти.\n[ROOT.Char.Custom('VvardvarkStoryName')] пробегает по всей комнате, прежде чем прижаться своим тельцем к моим ногам.\n\nСмеясь, вы ощущаете, как вся тяжесть сходит с ваших плеч, и вам становится легче."
+ ek_pet_animal.4501.a:0 "Сюда, сюда!"
 
- ek_pet_animal.4502.desc:0 "With [ROOT.Char.Custom('VvardvarkStoryName')]'s favorite treat in my hand, I enter my small garden where [ROOT.Char.Custom('VvardvarkStoryName')] usually spends most of [ROOT.Char.Custom('VvardvarkStoryHerHis')] time.\nAs soon as [ROOT.Char.Custom('VvardvarkStorySheHe')] spots me, or maybe the fruits in my hand, [ROOT.Char.Custom('VvardvarkStorySheHe')] starts happily rolling and wandering around me.\nSoon after [ROOT.Char.Custom('VvardvarkStorySheHe')] stops on my feet and picks the treats in my hand.\n\nAs I laugh, I already feel better and ready to face everything the world can send at me."
- ek_pet_animal.4502.a:0 "Don't eat everything [ROOT.Char.Custom('VvardvarkStoryName')]!"
+ ek_pet_animal.4502.desc:0 "С любимым лакомством вашего [ROOT.Char.Custom('VvardvarkStoryName')] в руках, вы входите в небольшой сад, где [ROOT.Char.Custom('VvardvarkStoryName')] обычно проводит большую часть [ROOT.Char.Custom('VvardvarkStoryHerHis')] времени.\nКак только [ROOT.Char.Custom('VvardvarkStorySheHe')] замечает вас или фрукты в вашей руке, [ROOT.Char.Custom('VvardvarkStorySheHe')] начинает радостно скакать и топать вокруг вас.\nВскоре после этого [ROOT.Char.Custom('VvardvarkStorySheHe')] останавливается у моих ног и берёт лакомство с ваших рук.\n\nСмеясь, вы чувствуете, как вам становится легче и вы готовы встретить всё, что готовит для вас этот мир."
+ ek_pet_animal.4502.a:0 "Не ешь что попало, [ROOT.Char.Custom('VvardvarkStoryName')]!"
 
  ###############
  #   MUDCRAB   #
  ###############
- mudcrab_story_modifier:0 "Pet Mudcrab"
- mudcrab_story_modifier_desc:0 "This character enjoys the company of an annoying creature, following them wherever they go"
- mudcrab_story_eating_fruit_modifier:0 "Eating Fresh Fish with Mudcrab"
- mudcrab_story_eating_fruit_modifier_desc:0 "This character enjoys sharing fresh fish with their mudcrab"
- mudcrab_story_fighting_with_you_modifier:0 "Battle Mudcrab"
- mudcrab_story_fighting_with_you_modifier_desc:0 "In battle, this character can always be seen with their mudcrab not far from them, annoying enemies and even sometimes hurting them."
+ mudcrab_story_modifier:0 "Питомец-грязекраб"
+ mudcrab_story_modifier_desc:0 "Этот персонаж рад компании раздражающего существа, который всегда следует за ним"
+ mudcrab_story_eating_fruit_modifier:0 "Поедание свежей рыбы с грязекрабом"
+ mudcrab_story_eating_fruit_modifier_desc:0 "Этот персонаж с удовольствием делится свежей рыбой со своим грязекрабом"
+ mudcrab_story_fighting_with_you_modifier:0 "Боевой грязекраб"
+ mudcrab_story_fighting_with_you_modifier_desc:0 "В бою этого персонажа всегда можно увидеть с грязекрабом недалеко от себя, отвлекающим врагов и даже иногда ранящим их."
 
- mudcrab_gender_her:0 "her"
- mudcrab_gender_his:0 "his"
- mudcrab_gender_him:0 "him"
- mudcrab_gender_she:0 "she"
- mudcrab_gender_he:0 "he"
- mudcrab_gender_herself:0 "herself"
- mudcrab_gender_himself:0 "himself"
- mudcrab_gender_female:0 "female"
- mudcrab_gender_male:0 "male"
+ mudcrab_gender_her:0 "её"
+ mudcrab_gender_his:0 "его"
+ mudcrab_gender_him:0 "ему"
+ mudcrab_gender_she:0 "она"
+ mudcrab_gender_he:0 "он"
+ mudcrab_gender_herself:0 "сама"
+ mudcrab_gender_himself:0 "сам"
+ mudcrab_gender_female:0 "самка"
+ mudcrab_gender_male:0 "самец"
 
- mudcrab_color_brown:0 "brown"
- mudcrab_color_coral:0 "coral"
- mudcrab_color_blue:0 "blue"
+ mudcrab_color_brown:0 "коричневый"
+ mudcrab_color_coral:0 "коралловый"
+ mudcrab_color_blue:0 "синий"
 
 
  mudcrab_name:1 "[ROOT.Char.GetLocalizedText( 'story_cycle_mudcrab_name' )]"
- mudcrab_name_possessive:1 "[ROOT.Char.Custom( 'MudcrabStoryName' )]'s"
- mudcrab_name_clatterclaw:0 "Clatterclaw"
- mudcrab_name_jagged_claw:0 "Jagged-Claw"
- mudcrab_name_shellcracker:0 "Shellcracker"
- mudcrab_name_titanclaw:0 "Titanclaw"
- mudcrab_name_witherhope:0 "Witherhope"
- mudcrab_name_crabcakes:0 "Crabcakes"
- mudcrab_name_scissors:0 "Scissors"
- mudcrab_name_pincer:0 "Pincer"
- mudcrab_name_toetugger:0 "Toetugger"
+ mudcrab_name_possessive:1 "[ROOT.Char.Custom( 'MudcrabStoryName' )]"
+ mudcrab_name_clatterclaw:0 "Щелкун"
+ mudcrab_name_jagged_claw:0 "Зазубренная Клешня"
+ mudcrab_name_shellcracker:0 "Крушитель Панцирей"
+ mudcrab_name_titanclaw:0 "Большехват"
+ mudcrab_name_witherhope:0 "Безнадёжность"
+ mudcrab_name_crabcakes:0 "Клешик"
+ mudcrab_name_scissors:0 "Стригун"
+ mudcrab_name_pincer:0 "Клешня"
+ mudcrab_name_toetugger:0 "Щипчик"
 
- ek_pet_animal.5001.t:0 "The Mudcrab"
- ek_pet_animal.5001.desc:1 "As the mudcrab wanders in the room, happily clamping around, I ponder what I should name [ROOT.Char.Custom('MudcrabStoryHerHim')]. Something historical? Something alluding to [ROOT.Char.Custom('MudcrabStoryHerHis')] [ROOT.Char.Custom('MudcrabColor')] carapace? Something to describe the soothing feeling I experience when [ROOT.Char.Custom('MudcrabStorySheHe')] skittles around me?\n\nOh, I know! I will name [ROOT.Char.Custom('MudcrabStoryHerHim')]..."
- ek_pet_animal.5001.a:1 "What a great name!"
+ ek_pet_animal.5001.t:0 "Грязекраб"
+ ek_pet_animal.5001.desc:1 "Пока пеплозуб бродит по комнате, радостно пощипывая окружающие предметы по ней, я размышляю, как назвать [ROOT.Char.Custom('MudcrabStoryHerHim')]. Что нибудь историческое? Что-то опирающееся на [ROOT.Char.Custom('MudcrabStoryHerHis')] [ROOT.Char.Custom('MudcrabColor')] окрас панциря? Что-то, чтобы описать успокаивающее чувство, которое я испытываю, когда [ROOT.Char.Custom('MudcrabStorySheHe')] ковыляет вокруг меня?\n\nО, я знаю! я назову [ROOT.Char.Custom('MudcrabStoryHerHim')]..."
+ ek_pet_animal.5001.a:1 "Что за чудесное имя!"
 
  ### Random Mudcrab events
  # You eat some fruits with your Mudcrab, smol health modifier
- ek_pet_animal.5101.t:0 "[ROOT.Char.Custom('MudcrabStoryName')]: Fresh Fish"
- ek_pet_animal.5101.desc:0 "I have taken the habit to spend some time with [ROOT.Char.Custom('MudcrabStoryName')] at the end of the day, sharing some fresh fish with [ROOT.Char.Custom('MudcrabStoryHerHim')].\n\nI don't know if that's because of the fish or the time I've been spending with [ROOT.Char.Custom('MudcrabStoryName')], but I feel more energetic and healthy!"
- ek_pet_animal.5101.a:0 "Leave some for me, [ROOT.Char.Custom('MudcrabStoryName')]!"
+ ek_pet_animal.5101.t:0 "[ROOT.Char.Custom('MudcrabStoryName')]: Свежая рыба"
+ ek_pet_animal.5101.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'взяла', 'взял' )] за привычку проводить некоторое время с [ROOT.Char.Custom('MudcrabStoryName')] на исходе дня, наблюдая за, давая [ROOT.Char.Custom('MudcrabStoryHerHim')] свежую рыбу.\n\nНе знаю, связано ли это с рыбой или со временем, проведённым с [ROOT.Char.Custom('MudcrabStoryName')], но я чувствую себя более энергично и лучше!"
+ ek_pet_animal.5101.a:0 "Оставь немного для меня, [ROOT.Char.Custom('MudcrabStoryName')]!"
 
  # Your Mudcrab goes with you into battle!
  ek_pet_animal.5102.t:0 "[ROOT.Char.Custom('MudcrabStoryName')]: Claws Out!"
- ek_pet_animal.5102.desc:0 "It seems that the bravery of [ROOT.Char.Custom('MudcrabStoryName')] knows no bounds! Be it in large scale battles, small skirmishes, or even in singular duels, [ROOT.Char.Custom('MudcrabStorySheHe')] never leaves my side and fights with me.\n\nMy opponents, friendly or not, seem to even be frightened of [ROOT.Char.Custom('MudcrabStoryHerHim')], and more than one were defeated because [ROOT.Char.Custom('MudcrabStoryName')] distracted them with [ROOT.Char.Custom('MudcrabStoryHerHis')] [ROOT.Char.Custom('MudcrabColor')] body, or even because [ROOT.Char.Custom('MudcrabStorySheHe')] hurt them!"
- ek_pet_animal.5102.a:0 "With me, into battle!"
+ ek_pet_animal.5102.desc:0 "Кажется, что храбрость [ROOT.Char.Custom('MudcrabStoryName')] не знает границ! Будь то крупномасштабные сражения, небольшие стычки или даже одиночные поединки, [ROOT.Char.Custom('MudcrabStorySheHe')] никогда не покидает вас и сражается вместе с вами.\n\nВаши противники, кажется, даже боятся [ROOT.Char.Custom('MudcrabStoryHerHim')],и не один враг был побежден, потому что [ROOT.Char.Custom('MudcrabStoryName')] отвлекает их при помощи [ROOT.Char.Custom('MudcrabStoryHerHis')] [ROOT.Char.Custom('MudcrabColor')] окраса, или даже потому, что [ROOT.Char.Custom('MudcrabStorySheHe')] щипает их!"
+ ek_pet_animal.5102.a:0 "За мной, в бой!"
 
  # Your Mudcrab attacked a vassal! Wound or possibly an eye removal
- ek_pet_animal.5103.t:0 "[ROOT.Char.Custom('MudcrabStoryName')]: Right in the Eyes"
- ek_pet_animal.5103.desc_wounded:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with me, [ROOT.Char.Custom('MudcrabStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\n[vassal.GetFirstName] managed to flee the room, but not before my Mudcrab could severly hurt [vassal.GetHerHim]..."
- ek_pet_animal.5103.desc_eye_removed_not_one_eyed:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with me, [ROOT.Char.Custom('MudcrabStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\nAn intense scream was soon heard, and after [ROOT.Char.Custom('MudcrabStoryName')] was put back outside [vassal.GetFirstName] could be seen holding [vassal.GetHerHis] hand near one of [vassal.GetHerHis] eyes... with blood dripping."
- ek_pet_animal.5103.desc_eye_removed_one_eyed:0 "Horror in the thronechamber! As [vassal.GetName] was awaiting an audience with me, [ROOT.Char.Custom('MudcrabStoryName')], seemingly out of nowhere, decided to attack [vassal.GetHerHim]!\n\nAn intense scream was soon heard, and after [ROOT.Char.Custom('MudcrabStoryName')] was put back outside [vassal.GetFirstName] could be seen holding [vassal.GetHerHis] hand near [vassal.GetHerHis] only remaining eye... with blood dripping.\n\n'I CAN'T SEE' could [vassal.GetSheHe] be heard screaming. 'THIS IS ALL YOUR FAULT, YOU AND YOUR STUPID CRITTER!'"
- ek_pet_animal.5103.a:0 "I hope [vassal.GetFirstName] will be all right..."
- ek_pet_animal.5103.b:0 "Oh no..."
+ ek_pet_animal.5103.t:0 "[ROOT.Char.Custom('MudcrabStoryName')]: Прямо в глаза"
+ ek_pet_animal.5103.desc_wounded:0 "Ужас в тронном зале! Пока [vassal.GetName] [Select_CString(vassal.IsFemale, 'ожидала', 'ожидал' )] аудиенции с вами, [ROOT.Char.Custom('MudcrabStoryName')], казалось бы, из ниоткуда, решил напасть на [vassal.GetHerHim]!\n\n[vassal.GetFirstName] [Select_CString(vassal.IsFemale, 'успела', 'успел' )] выбежать из комнаты, но не раньше, чем ваш грязекраб сильно покалечил [vassal.GetHerHim]..."
+ ek_pet_animal.5103.desc_eye_removed_not_one_eyed:0 "Ужас в тронном зале! Пока [vassal.GetName] [Select_CString(vassal.IsFemale, 'ожидала', 'ожидал' )] аудиенции с вами, [ROOT.Char.Custom('MudcrabStoryName')], казалось бы, из ниоткуда, решил напасть на [vassal.GetHerHim]!\n\nВскоре раздался истошный вопль, и когда [ROOT.Char.Custom('MudcrabStoryName')] выбегает из комнаты, [vassal.GetFirstName] держит свою ладонь у одного из [vassal.GetHerHis] глаз... с капающей кровью."
+ ek_pet_animal.5103.desc_eye_removed_one_eyed:0 "Ужас в тронном зале! Пока [vassal.GetName] [Select_CString(vassal.IsFemale, 'ожидала', 'ожидал' )] аудиенции с вами, [ROOT.Char.Custom('MudcrabStoryName')], казалось бы, из ниоткуда, решил напасть на [vassal.GetHerHim]!\n\nВскоре раздался истошный вопль, и когда [ROOT.Char.Custom('MudcrabStoryName')] выбегает из комнаты, [vassal.GetFirstName] держит свою ладонь у своего единственного глаза... с капающей кровью.\n\n'Я НЕ ВИЖУ', - кричит [vassal.GetSheHe]. 'ЭТО ВСЁ ТВОЯ ВИНА, ТВОЯ И ТВОЕЙ ТУПОЙ ТВАРИ!'"
+ ek_pet_animal.5103.a:0 "Я надеюсь, [vassal.GetFirstName] будет в порядке..."
+ ek_pet_animal.5103.b:0 "О нет..."
 
  # Mudcrab dies :(
- ek_pet_animal.5199.t:0 "[ROOT.Char.Custom('MudcrabStoryName')]: Day of Sorrow"
- ek_pet_animal.5199.desc:0 "[ROOT.Char.Custom('MudcrabStoryName')] is not as young as [ROOT.Char.Custom('MudcrabStorySheHe')] once was, and I can hear it in [ROOT.Char.Custom('MudcrabStoryHerHis')] peculiar noises, not as strong and stable as they were some years ago.\n\nI gently pet [ROOT.Char.Custom('MudcrabStoryHerHis')] [ROOT.Char.Custom('MudcrabColor')] carapace and listen to [ROOT.Char.Custom('MudcrabStoryHerHim')] softly breathe and try to pinch my nose, but as silence falls I know that [ROOT.Char.Custom('MudcrabStoryHerHis')] morning tips and taps won't wake me up again."
- ek_pet_animal.5199.a:0 "I will miss you, [ROOT.Char.Custom('MudcrabStoryName')]!"
+ ek_pet_animal.5199.t:0 "[ROOT.Char.Custom('MudcrabStoryName')]: Скорбный день"
+ ek_pet_animal.5199.desc:0 "[ROOT.Char.Custom('MudcrabStoryName')] не так молод, каким [ROOT.Char.Custom('MudcrabStorySheHe')] огда-то был, я все ещё слышу [ROOT.Char.Custom('MudcrabStoryHerHis')] характерные звуки, но они больше не такие яркие и сильные, как раньше.\n\nЯ нежно глажу [ROOT.Char.Custom('MudcrabStoryHerHis')] [ROOT.Char.Custom('MudcrabColor')] панцирь и прислушиваюсь к [ROOT.Char.Custom('MudcrabStoryHerHim')] тяжелому дыханию и попыткам ущипнуть меня за нос, но, когда наступила тишина, я понимаю, что [ROOT.Char.Custom('MudcrabStoryHerHis')] поклацывания не разбудят меня следующим утром."
+ ek_pet_animal.5199.a:0 "Я буду скучать по тебе, [ROOT.Char.Custom('MudcrabStoryName')]!"
 
- pet_mudcrab_decision:0 "Pet [ROOT.Char.Custom('MudcrabStoryName')]"
- pet_mudcrab_decision_desc:0 "I know how much [ROOT.Char.Custom('MudcrabStoryName')] loves strutting around, and it always soothes me to hear [ROOT.Char.Custom('MudcrabStoryHerHim')] make happy noises and cuddle me. While it takes a lot of effort, and money, to properly feed and take care of [ROOT.Char.Custom('MudcrabStoryHerHim')], no matter how tough life gets I know [ROOT.Char.Custom('MudcrabStorySheHe')] will always be there for me!"
- pet_mudcrab_decision_tooltip:0 "Pet your Mudcrab"
- pet_mudcrab_decision_confirm:0 "Pet your Mudcrab"
+ pet_mudcrab_decision:0 "[ROOT.Char.Custom('MudcrabStoryName')] - погладить"
+ pet_mudcrab_decision_desc:0 "Я знаю, насколько [ROOT.Char.Custom('MudcrabStoryName')] любит бродить вокруг, и меня всегда успокаивает [ROOT.Char.Custom('MudcrabStoryHerHim')] счастливые звуки. Хоть правильное питание и забота за [ROOT.Char.Custom('MudcrabStoryHerHim')], жизнью требует много усилий и средств, я знаю, что [ROOT.Char.Custom('MudcrabStorySheHe')] всегда будет рядом со мной!"
+ pet_mudcrab_decision_tooltip:0 "Погладить вашего грязекраба"
+ pet_mudcrab_decision_confirm:0 "Погладить вашего грязекраба"
 
  # You pet your Mudcrab :)
- ek_pet_animal.5501.t:0 "A Nice Time With [ROOT.Char.Custom('MudcrabStoryName')]"
- ek_pet_animal.5501.desc:0 "As I enter my room, I can immediatly see [ROOT.Char.Custom('MudcrabStoryName')] poke around in excitment.\n\nWith a smile on my face I let [ROOT.Char.Custom('MudcrabStoryHerHim')] in and let [ROOT.Char.Custom('MudcrabStoryHerHim')] roll around before wandering in.\n[ROOT.Char.Custom('MudcrabStoryName')] wanders around the room for a few moments, before cuddling my feet with [ROOT.Char.Custom('MudcrabStoryHerHis')] body.\n\nAs I laugh, I feel the weight of the world already lifting from my shoulders."
- ek_pet_animal.5501.a:0 "Come, come!"
+ ek_pet_animal.5501.t:0 "Приятное времяпрепровождение с [ROOT.Char.Custom('MudcrabStoryName')]"
+ ek_pet_animal.5501.desc:0 "Как только вы входите в комнату, вы видите, как [ROOT.Char.Custom('MudcrabStoryName')] взволнованно бродит по ней.\n\nС улыбкой на лице вы впускаете [ROOT.Char.Custom('MudcrabStoryHerHim')] и даёте [ROOT.Char.Custom('MudcrabStoryHerHim')] походить по комнате.\n[ROOT.Char.Custom('MudcrabStoryName')] в считанные мгновения побродил по комнате, прежде чем прижаться своим панцирем к вашим ногам.\n\nСмеясь, вы ощущаете, как вся тяжесть сходит с ваших плеч, и вам становится легче."
+ ek_pet_animal.5501.a:0 "Сюда, сюда!"
 
- ek_pet_animal.5502.desc:0 "With [ROOT.Char.Custom('MudcrabStoryName')]'s favorite treat in my hand, I enter my small garden where [ROOT.Char.Custom('MudcrabStoryName')] usually spends most of [ROOT.Char.Custom('MudcrabStoryHerHis')] time.\nAs soon as [ROOT.Char.Custom('MudcrabStorySheHe')] spots me, or maybe the fruits in my hand, [ROOT.Char.Custom('MudcrabStorySheHe')] starts happily rolling and wandering around me.\nSoon after [ROOT.Char.Custom('MudcrabStorySheHe')] stops on my feet and picks the treats in my hand.\n\nAs I laugh, I already feel better and ready to face everything the world can send at me."
- ek_pet_animal.5502.a:0 "Don't eat everything [ROOT.Char.Custom('MudcrabStoryName')]!"
+ ek_pet_animal.5502.desc:0 "С любимым лакомством вашего [ROOT.Char.Custom('MudcrabStoryName')] в руках, вы входите в небольшой сад, где [ROOT.Char.Custom('MudcrabStoryName')] обычно проводит большую часть [ROOT.Char.Custom('MudcrabStoryHerHis')] времени.\nКак только [ROOT.Char.Custom('MudcrabStorySheHe')] замечает вас или фрукты в вашей руке, [ROOT.Char.Custom('MudcrabStorySheHe')] начинает радостно скакать и топать вокруг вас.\nВскоре после этого [ROOT.Char.Custom('MudcrabStorySheHe')] останавливается у моих ног и берёт лакомства с ваших рук.\n\nСмеясь, вы чувствуете, как вам становится легче и вы готовы встретить всё, что готовит для вас этот мир."
+ ek_pet_animal.5502.a:0 "Не ешь что попало, [ROOT.Char.Custom('MudcrabStoryName')]!"
