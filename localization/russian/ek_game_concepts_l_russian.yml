@@ -24,15 +24,15 @@
  game_concept_abomination_cleansing_war:0 "Война для уничтожения мерзостей"
  game_concept_cleanse_abomination_desc:1 "'$game_concept_cleanse_abomination_war$' — это особый тип [Concept( 'war', 'войны' )|E], которая ведётся против [Concept( 'rulers', 'правителей' )|E], которых ваша [Concept( 'faith', 'конфессия' )|E] считает [Concept( 'abominations', 'мерзостями' )|E].\n\nЭто позволит атакующему захватить все [Concept( 'counties', 'графства' )|E] в целевом [Concept( 'duchy', 'герцогстве' )|E], которые принадлежат [Concept( 'abomination', 'мерзости' )|E]. Другие графства в целевом герцогстве вассализируются."
  
- game_concept_pariah:0 "Пария"
- game_concept_pariahs:0 "Парии"
+ game_concept_pariah:0 "Отверженный"
+ game_concept_pariahs:0 "Отверженные"
  game_concept_monster:0 "Монстр"
  game_concept_monsters:0 "Монстры"
- game_concept_pariah_desc:1 "'$game_concept_pariahs$' это персонажи, которые считаются монстрами, а не цивилизованными существами, что равны другим видам, в глазах большинства жителей Тамриэля. Это означает, что их [culture|El] имеет [Concept( 'innovation', 'инновацию' )|E] #V Народ-пария#!. Персонажи этих культур могут стать мишенями для не-парий, которые могут использовать против них [casus_belli|El] $EXPEL_MONSTERS_DUCHY_NAME$, свободно [Concept( 'imprisoned', 'заключить в тюрьму' )|E], [Concept( 'executed', 'казнить' )|E] или [Concept( 'revoked', 'отнимать титулы' )|E]. Также персонажи других культур будут с меньшей вероятностью принимать предложения [Concept( 'marriage', 'брака' )|E] от парий. Однако [innovation|El] #V Народ-пария#! может быть удалена с помощью [Concept( 'decision', 'решения' )|E] #V Снять статус парии#! — хотя статус может и вернуться при определённых обстоятельствах."
+ game_concept_pariah_desc:1 "'$game_concept_pariahs$' это персонажи, которые считаются монстрами, а не цивилизованными существами, что равны другим видам, в глазах большинства жителей Тамриэля. Это означает, что их [culture|El] имеет [Concept( 'innovation', 'инновацию' )|E] #V Отверженный народ#!. Персонажи этих культур могут стать мишенями для не-отверженных, которые могут использовать против них [casus_belli|El] $EXPEL_MONSTERS_DUCHY_NAME$, свободно [Concept( 'imprisoned', 'заключить в тюрьму' )|E], [Concept( 'executed', 'казнить' )|E] или [Concept( 'revoked', 'отнимать титулы' )|E]. Также персонажи других культур будут с меньшей вероятностью принимать предложения [Concept( 'marriage', 'брака' )|E] от отверженных. Однако [innovation|El] #V Отверженный народ#! может быть удалена с помощью [Concept( 'decision', 'решения' )|E] #V Отменить статус отверженных#! — хотя статус может и вернуться при определённых обстоятельствах."
 
  game_concept_expel_monsters:0 "Изгнание монстров"
  game_concept_expel_monsters_war:0 "Война для изгнания монстров"
- game_concept_expel_monsters_desc:1 "'$game_concept_expel_monsters$' представляет собой особый тип [Concept( 'war', 'войны' )|E], которая ведётся против [Concept( 'rulers', 'правителей' )|E], которых ваша [culture|El] считает [Concept( 'pariahs', 'париями' )|E].\n\nЭтот [casus_belli|El] позволяет атакующему забрать все [counties|El] в целевом [Concept( 'duchy', 'герцогстве' )|E], которые удерживаются [Concept( 'pariah', 'парией' )|E]. Другие владения в целевом герцогстве станут вассалами нового сюзерена."
+ game_concept_expel_monsters_desc:1 "'$game_concept_expel_monsters$' представляет собой особый тип [Concept( 'war', 'войны' )|E], которая ведётся против [Concept( 'rulers', 'правителей' )|E], которых ваша [culture|El] считает [Concept( 'pariahs', 'отверженными' )|E].\n\nЭтот [casus_belli|El] позволяет атакующему забрать все [counties|El] в целевом [Concept( 'duchy', 'герцогстве' )|E], которые удерживаются [Concept( 'pariah', 'парией' )|E]. Другие владения в целевом герцогстве станут вассалами нового сюзерена."
 
  game_concept_pariah_discrimination:0 "Дискриминация"
  game_concept_pariah_discriminate:0 "Дискриминировать"

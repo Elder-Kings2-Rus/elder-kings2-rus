@@ -212,5 +212,5 @@
  nick_zigzag:0 "Зигзаг"
  nick_vibrancy:0 "[Select_CString(CHARACTER.IsFemale, 'Резонансная', 'Резонансный' )]"
  nick_nimble:0 "[Select_CString(CHARACTER.IsFemale, 'Проворная', 'Проворный' )]"
- nick_last_pariah:0 "Последняя пария"
+ nick_last_pariah:0 "[Select_CString(CHARACTER.IsFemale, 'Последняя отверженная', 'Последний отверженный' )]"
  nick_the_redeemer:0 "[Select_CString(CHARACTER.IsFemale, 'Искупительница', 'Искупитель' )]"
