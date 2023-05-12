@@ -785,7 +785,7 @@ doctrine_sp_daedra_name:0 "Даэдрические князья #italic [Concep
     devotion_gives_attraction_opinion:0 "Земные и небесные желания"
     devotion_gives_attraction_opinion_desc:0 "Только распространяя любовь и делясь своими желаниями мы можем достичь как совершенства, так и божественного."
     devotion_gives_attraction_opinion_0:0 "$devotion_gives_attraction_opinion$: (0)"
-    devotion_gives_attraction_opinion_0_desc:0 "$devotion_gives_attraction_opinion_desc$\n[success_chance|E] [Concept( 'scheme', 'соблазнения' )|E] : #N -5%#!"
+    devotion_gives_attraction_opinion_0_desc:0 "$devotion_gives_attraction_opinion_desc$\n[success_chance|E] [Concept( 'scheme', 'соблазнения' )|E]: #N -5%#!"
     devotion_gives_attraction_opinion_1:0 "$devotion_gives_attraction_opinion$: (1)"
     devotion_gives_attraction_opinion_1_desc:0 "$devotion_gives_attraction_opinion_desc$"
     devotion_gives_attraction_opinion_2:0 "$devotion_gives_attraction_opinion$: (2)"
@@ -1052,8 +1052,8 @@ special_doctrine_bretic_traditions_name:0 "Бретонские традиции
  doctrine_pantheon_good_daedra_trigger:0 "Нельзя, чтобы Малакат, Мерунес Дагон, Молаг Бал или Шеогорат были включены в пантеон или приняты"
  doctrine_pantheon_bad_daedra_trigger:0 "Нельзя, чтобы Азура, Боэтия или Мефала были включены в Пантеон или приняты"
  
- shezarr_worship_full_trigger:0 "[doctrine|E] [Concept('enc_missing_god', 'Потерянного Бога')|E][|E] должна быть установлена как [GetFaithDoctrine('doctrine_shezarr_worship_full').GetBaseName]"
- shezarr_worship_forbidden_trigger:0 "[doctrine|E] [Concept('enc_missing_god', 'Потерянного Бога')|E][|E] должна быть установлена как [GetFaithDoctrine('doctrine_shezarr_worship_forbidden').GetBaseName]"
+ shezarr_worship_full_trigger:0 "[doctrine|E] [Concept('enc_missing_god', 'Потерянного Бога')|E] должна быть установлена как [GetFaithDoctrine('doctrine_shezarr_worship_full').GetBaseName]"
+ shezarr_worship_forbidden_trigger:0 "[doctrine|E] [Concept('enc_missing_god', 'Потерянного Бога')|E] должна быть установлена как [GetFaithDoctrine('doctrine_shezarr_worship_forbidden').GetBaseName]"
  necromancy_related_doctrine_trigger:0 "[doctrine|E] некромантии должна быть установлена как [GetFaithDoctrine('doctrine_necromancy_accepted').GetBaseName]"
  vampirism_related_doctrine_trigger:0 "[doctrine|E] вампиризма должна быть установлена как [GetFaithDoctrine('doctrine_vampirism_accepted').GetBaseName]"
 
