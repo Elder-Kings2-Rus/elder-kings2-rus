@@ -1,32 +1,31 @@
 # Elder Kings 2 - Русификатор
 
-# Скачать
-## Русификатор
+## Скачать
 github - https://github.com/Elder-Kings2-Rus/elder-kings2-rus
+
+Google Drive - https://drive.google.com/file/d/1kLNeE4BtjYpjrp4OEjqFD9KXhEcELvzq
 
 Steam - https://steamcommunity.com/sharedfiles/filedetails/?id=2887695716
 
-## Модификация
+## Сам мод
 Nexusmods - https://www.nexusmods.com/crusaderkings3/mods/32/
 
 Steam - https://steamcommunity.com/sharedfiles/filedetails/?id=2887120253
+<br>
+<br>
 
 
 
-# Установка
-## Ручная установка
-### Для тех, кто использует архив с гугла 
+## Установка русификатора
+### Для тех, кто использует архив с Google Drive 
 1. Распаковать содержимое архива в ...\Documents\Paradox Interactive\Crusader Kings III\mod
 2. В лаунчере игры подключить к вашему игровому набору мод под названием "Elder Kings 2 | Русификатор", разместив его ниже чем Elder Kings 2
 3. Играть и получать удовольствие
 
-## Автоматическая установка
 ### Для тех, кто использует Steam
 1. Подписаться на [модификацию](https://steamcommunity.com/workshop/filedetails/?id=2887120253) и [русификатор](https://steamcommunity.com/sharedfiles/filedetails/?id=2887695716) в Steam
 2. В лаунчере игры подключить к вашему игровому набору мод под названием "Elder Kings 2 | Русификатор", разместив его ниже чем Elder Kings 2
 3. Играть и получать удовольствие
 
-
-
-# Контакты
-У нас есть свой Discord сервер - https://discord.gg/56P53b9zrD
+## Контакты
+Любые вопросы вы можете задать на нашем Dicord сервере - https://discord.gg/56P53b9zrD

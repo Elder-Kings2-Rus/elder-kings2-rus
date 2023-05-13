@@ -1996,7 +1996,7 @@ doctrine_sp_nedic_aedra_shezarr_desc:0 ""
     NECROMANCY_MUST_BE_FULLY_ACCEPTED:0 "Несовместимо с любыми [Concept( 'doctrine', 'доктринами' )|E], для которых некромантия  — [shunned|El] или [Concept( 'criminal', 'преступления' )|E]"
     doctrine_parameter_lich_ascension:0 "[decision|E] #V 'Стать личем'#! немного менее рискованно"
     doctrine_parameter_necromancer_trait_arcana:0 "Свойства [GetTrait('necromancer').GetName( GetNullCharacter )|l] и [GetTrait('lich_character').GetName( GetNullCharacter )|l] дают [arcana_i][arcana|El]: #P +2#!"
-    doctrine_parameter_cheaper_necromancy_spells:0 "Casting [spells|E] in the Necromancy school cost #P -10%#! [magicka_i][magicka|E]"
+    doctrine_parameter_cheaper_necromancy_spells:0 "[Concept( 'spells', 'Заклинания' )|E] из школы Некромантии расходуют на #P -10%#! [magicka_i][Concept( 'magicka', 'маны' )|E] меньше"
     doctrine_parameter_tenet_necromancy_worship_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых Некромантия [GetFaithDoctrine('doctrine_necromancy_outlawed').GetBaseName] на #N +10#!"
 
  # Other
