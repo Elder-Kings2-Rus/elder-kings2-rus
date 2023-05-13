@@ -1,8 +1,7 @@
 # Elder Kings 2 - Русификатор
+<img width="475" alt="2887695716_preview" src="https://github.com/Elder-Kings2-Rus/elder-kings2-rus/assets/25348662/4033bcb6-7dd1-481e-a629-d64cddc3c423">
 
 ## Скачать
-github - https://github.com/Elder-Kings2-Rus/elder-kings2-rus
-
 Google Drive - https://drive.google.com/file/d/1kLNeE4BtjYpjrp4OEjqFD9KXhEcELvzq
 
 Steam - https://steamcommunity.com/sharedfiles/filedetails/?id=2887695716
