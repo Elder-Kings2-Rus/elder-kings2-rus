@@ -18,7 +18,7 @@
  game_concept_abominations:0 "Мерзости"
  game_concept_abomination_desc:1 "'$game_concept_abomination$' — это персонаж, который считаются настолько противоречащим [Concept( 'doctrines', 'доктринам' )|E] или [Concept( 'core_tenets', 'догматам' )|E] конфессии, что другие конфессии могут использовать против них казус белли $CLEANSE_ABOMINATIONS_DUCHY_NAME$, если их доктрины и догматы позволяют это.\n\n • Конфессии, считающие некромантию преступлением, будут рассматривать нежить и некромантов как мерзостей.\n • Конфессии, считающие вампиризм преступлением, будут рассматривать вампиров как мерзостей.\n • Конфессии, считающие ликантропию преступлением, будут рассматривать ликантропов как мерзостей."
  
- game_concept_cleanse_abomination:0 "Уничтожить мерзостей"
+ game_concept_cleanse_abomination:0 "Уничтожение мерзостей"
  game_concept_cleanse_abomination_war:0 "Война для уничтожения мерзостей"
  game_concept_abomination_cleansing:0 "Уничтожение мерзостей"
  game_concept_abomination_cleansing_war:0 "Война для уничтожения мерзостей"
