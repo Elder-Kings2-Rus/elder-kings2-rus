@@ -11,21 +11,21 @@
  CLEANSE_ABOMINATIONS_NAME:1 "Очищение от скверны в [TITLE.GetBaseName]"
  CLEANSE_ABOMINATIONS_DUCHY_NAME:1 "[cleanse_abomination|E]"
  CB_REDUCED_CLEANSE_ABOMINATIONS_COST:0 "[faith|E] — Снижение стоимости Священной войны"
- cleanse_abominations_victory_desc:0 "В пределах основных [Concept( 'title', 'владений' )|E] цели, [attacker.GetShortUIName] захватывает все титулы, принадлежащие [abominations|El], а остальные становятся вассалами".
+ cleanse_abominations_victory_desc:0 "В пределах основных [Concept( 'title', 'владений' )|E] цели, [attacker.GetShortUIName] захватывает все титулы, принадлежащие [Concept( 'abominations', 'мерзостям' )|E], а остальные становятся вассалами".
  cleanse_abominations_white_peace_desc:0 "[titles|E] не меняют владельца."
  cleanse_abominations_defeat_desc:0 "[titles|E] не меняют владельца. [attacker.GetFaith.GetAdjective] теряет [fervor|El]."
  
- EXPEL_MONSTERS_NAME:0 "Monster Expulsion in [TITLE.GetBaseName]"
+ EXPEL_MONSTERS_NAME:0 "Изгнание монстров в [TITLE.GetBaseName]"
  EXPEL_MONSTERS_DUCHY_NAME:1 "[expel_monsters|E]"
- expel_monsters_victory_desc:0 "Within the target [title|E], [attacker.GetShortUIName] seize all titles held by [pariahs|E], and the rest are vassalized."
- expel_monsters_white_peace_desc:0 "No [titles|E] change hands."
- expel_monsters_defeat_desc:0 "No [titles|E] change hands."
+ expel_monsters_victory_desc:0 "В пределах основных [Concept( 'title', 'владений' )|E] цели, [attacker.GetShortUIName] захватывает все титулы, принадлежащие [Concept( 'pariahs', 'отверженным' )|E], а остальные становятся вассалами."
+ expel_monsters_white_peace_desc:0 "[titles|E] не меняют владельца."
+ expel_monsters_defeat_desc:0 "[titles|E] не меняют владельца."
 
- BANISH_DEMON_NAME:0 "Daedra Banishment in [TITLE.GetBaseName]"
+ BANISH_DEMON_NAME:0 "Изгнание даэдра в [TITLE.GetBaseName]"
  BANISH_DEMON_DUCHY_NAME:1 "[banish_demon|E]"
- banish_demon_victory_desc:0 "Within the target [title|E], [attacker.GetShortUIName] seize all titles held by [daedric_race|E], and the rest are vassalized."
- banish_demon_white_peace_desc:0 "No [titles|E] change hands."
- banish_demon_defeat_desc:0 "No [titles|E] change hands."
+ banish_demon_victory_desc:0 "В пределах основных [Concept( 'title', 'владений' )|E] цели, [attacker.GetShortUIName]  захватывает все титулы, принадлежащие [Concept( 'daedric_race', 'даэдрической расе' )|E], а остальные становятся вассалами."
+ banish_demon_white_peace_desc:0 "[titles|E] не меняют владельца."
+ banish_demon_defeat_desc:0 "[titles|E] не меняют владельца."
  
  MIGRATION_COUNTY_CB_NAME:1 "Миграция в [county|El]"
  MIGRATION_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Миграция графства [TITLE.GetBaseName]"
