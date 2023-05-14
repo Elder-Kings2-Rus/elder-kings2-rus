@@ -27,7 +27,7 @@
  spellblades_toughness_mult:0 "$spellblades_toughness_add$"
  spellblades_siege_value_add:1 "[spellblades|E] - [siege_progress|E]"
  spellblades_siege_value_mult:0 "$spellblades_siege_value_add$"
- spellblades_max_size_add:0 "Max Size of [spellblades|E] - [regiments|E]"
+ spellblades_max_size_add:0 "[spellblades|E] - Максимальный размер [Concept( 'regiments', 'полков' )|E]"
  spellblades_maintenance_add:0 "[spellblades|E] - Содержание"
  spellblades_maintenance_mult:0 "$spellblades_maintenance_add$"
  
