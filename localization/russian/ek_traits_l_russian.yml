@@ -301,15 +301,15 @@ trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoToolt
 
  trait_champion_mephala:0 "Избранник Мефалы"
  trait_champion_mephala_desc:0 "$mephala$, $mephala_alt$ назначила этого персонажа своим Избранником."
- trait_champion_mephala_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, который известен как $mephala$, the $mephala_alt$."
+ trait_champion_mephala_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, который известен как $mephala$, $mephala_alt$."
 
  trait_champion_peryite:0 "Избранник $peryite$а"
  trait_champion_peryite_desc:0 "$peryite$, $peryite_alt$ назначил этого персонажа своим Избранником."
- trait_champion_peryite_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, который известен как $peryite$, the $peryite_alt$."
+ trait_champion_peryite_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, который известен как $peryite$, $peryite_alt$."
 
  trait_champion_nocturnal:0 "Избранник $nocturnal$"
  trait_champion_nocturnal_desc:0 "$nocturnal$ $nocturnal_alt$ назначила этого персонажа своим Избранником."
- trait_champion_nocturnal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, который известен как $nocturnal$, the $nocturnal_alt$."
+ trait_champion_nocturnal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является избранником князя даэдра, который известен как $nocturnal$, $nocturnal_alt$."
 
  # Coping mechanisms
  trait_skooma_drinker:0 "Зависимость от скумы"
