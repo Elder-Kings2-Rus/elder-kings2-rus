@@ -900,6 +900,8 @@ modifier_sload_soap_arcana:0 "Магические добавки"
  exchanged_necromantic_knowledge_desc:0 "Этот персонаж поделился своим опытом с другим некромантом."
  soldiers_funeral:0 "Солдатские похороны"
  soldiers_funeral_desc:0 "В этом графстве состоялись великие похороны и останки почитаемого солдата наконец-то обрели покой."
+ robbed_graves_modifier:0 "Разграбленные захоронения"
+ robbed_graves_modifier_desc:0 "Могилы и склепы в этом графстве часто оказываются пустыми, что вызывает беспокойство у местного населения."
 
  ### Coming of Age Modifiers
  nord_brave_modifier:0 "Отважное дитя Скайрима"
