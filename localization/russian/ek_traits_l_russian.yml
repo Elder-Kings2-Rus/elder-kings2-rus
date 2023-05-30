@@ -141,9 +141,9 @@ trait_experimentalist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
 
 trait_experimentalist_necromancer:0 "Экспериментатор"
 trait_experimentalist_necromancer_desc:0 "Этот персонаж любит проводить всевозможные магические эксперименты и склонен забывать при этом о своих мирских печалях."
-experimentalist_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] нравится проводить всевозможные магические эксперименты и при этом забывать о своих мирских печалях."
-experimentalist_necromancer_player_desc:0 "Тайный некромант"
-trait_experimentalist_necromancer_player_desc:0 "Этот персонаж тайно является некромантом. Хотя истинная природа [ROOT.GetCharacter.GetHerHis] тёмных делишек все еще скрыта от мира."
+trait_experimentalist_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] нравится проводить всевозможные магические эксперименты и при этом забывать о своих мирских печалях."
+trait_experimentalist_necromancer_player:0 "Тайный некромант"
+trait_experimentalist_necromancer_player_desc:0 "Этот персонаж тайно является некромантом, хотя истинная природа [ROOT.GetCharacter.GetHerHis] тёмных делишек всё ещё скрыта от мира."
 
  trait_dragonborn:0 "[Select_CString(ROOT.Char.IsFemale, 'Драконорождённая', 'Драконорождённый' )]"
  trait_dragonborn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )] с кровью и душой дракона. Известно, что драконорождённые пользуются благосклонностью богов."

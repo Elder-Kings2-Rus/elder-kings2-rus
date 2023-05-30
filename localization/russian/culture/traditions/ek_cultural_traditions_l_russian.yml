@@ -423,6 +423,7 @@
  not_courtly_or_communal_desc:0 "[culture|E] не имеет [ethos|El] $ethos_courtly_name$ или $ethos_communal_name$"
  magic_rulers_desc:0 "[culture|E] не имеет #V 3#! или больше [Concept('rulers', 'правителей')|E] со [Concept('trait', 'свойствами')|E] [GetTrait('arcana_good_1').GetName( GetNullCharacter )], [GetTrait('arcana_good_2').GetName( GetNullCharacter )] или [GetTrait('arcana_good_3').GetName( GetNullCharacter )]"
  not_stoic_egalitarian_or_spiritual_desc:0 "[culture|E] не имеет [ethos|El] $ethos_stoic_name$, $ethos_egalitarian_name$ или $ethos_spiritual_name$"
+ lack_breton_heritage_or_language_penalty_desc:0 "У вас нет #V бретонского#! [Concept('heritage', 'наследия')|E] или вы не знаете бретонского языка"
 
 
  ###TRADITION MISC
@@ -476,12 +477,13 @@
  tradition_soulbound_defenders_trigger_desc:0 "Имеет #V северно-недийское#! #italic или#! #V центрально-недийское#! [heritage|El]" #$North Nedic$ $Central Nedic$
  tradition_goblinken_trigger_desc:0 "Имеет #V гоблин-кинское#! [heritage|El]" #$Goblinken$
  tradition_chimeri_trigger_desc:0 "Имеет #V кимерское#! [heritage|El]" #$Chimeri$
- tradition_hereditary_hierarchy_trigger_desc:0 "Не имеет [Concept('tradition', 'традиции')|E] [GetCultureTradition('tradition_ceremoniarchy').GetName|V]"
+ tradition_hereditary_hierarchy_trigger_desc:0 "У вас должно быть [feudal_like_government|El]"
  has_feudal_like_government_trigger_desc:0 "Не [GetGovernment('tribal_government').GetName]"
- tradition_falmer_trigger_desc:0 "Является #V $falmer_collective_noun$ой#!, либо иной [Concept('culture', 'культурой')|E], происходящей от #V $falmer$ой#!"
- tradition_falmer_betrayed_trigger_desc:0 "Является #V $falmer_betrayed_collective_noun$ой#!, либо иной [Concept('culture', 'культурой')|E], происходящей от #V $falmer_betrayed_collective_noun$ой#!"
- tradition_dwemer_trigger_desc:0 "Является #V $dwemer_collective_noun$ой#!, либо иной [Concept('culture', 'культурой')|E], происходящей от #V $dwemer_collective_noun$ой#!"
+ tradition_falmer_trigger_desc:0 "Есть #V фалмерское#! [heritage|El] и ваша [culture|El] либо является снежно-эльфийской, либо происходит от неё, а также не имеет [Concept('traditions', 'традиций')|E] [GetCultureTradition('tradition_chaurus_husbandry').GetName|V] или [GetCultureTradition('tradition_pale_shamans').GetName|V]"
+ tradition_falmer_betrayed_trigger_desc:0 "Есть #V фалмерское#! [heritage|El] и ваша [culture|El] либо является фалмерской, либо происходит от неё, а также не имеет [Concept('tradition', 'традиции')|E] [GetCultureTradition('tradition_knight_paladins').GetName|V]"
+ tradition_dwemer_trigger_desc:0 "Есть #V двемерское#! [heritage|El] и является #V $dwemer_collective_noun$ой#!, либо иной [Concept('culture', 'культурой')|E], происходящей от #V $dwemer_collective_noun$ой#!"
  tradition_female_only_inheritance_requirements_ek:0 "Ваша [faith|El] должна иметь доктрину [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]"
+ tradition_orc_heritage_trigger:0 "Есть #V $Orsimeri$#!ое [heritage|El]"
 
  tradition_roman_legacy_trigger_desc:0 "Является #V $colovian$ой#!, #V $nibenese$ой#!, или #V $heartlander$ой#!, либо иной [Concept('culture', 'культурой')|E], происходящей от перечисленных, #italic или#! владеет империей Тамриэля или Сиродила в качестве основного титула."
 

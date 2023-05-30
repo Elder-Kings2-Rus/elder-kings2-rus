@@ -64,10 +64,10 @@
  ### Feudalism
  no_powerful_vassal_with_negative_opinion_ca:0 "Один или несколько [Concept('powerful_vassals', 'могущественных вассалов')|E] имеют отрицательное о вас и блокируют возможность изменения [Concept('crown_authority', 'авторитета короны')|E]"
  FEUDAL_COUNCIL_CHOICES_GUI:0 "В [Concept('feudalism', 'феодальных')|E] государствах состав Совета определяется в соответствии с [Concept('crown_authority', 'авторитетом короны')|E].\n#V Текущее значение#!: [GetPlayer.Custom('GetFeudalismCouncillors')]"
- feudalism_ca_0_vassals_council:0 "[Concept('councillors', 'Советниками')|E] могут быть назначены только [Concept('powerful_vassals', 'могущественные вассалы')|E]. Если таковых недостаточно, в Совет могут быть назначены обычные вассалы либо придворные."
+ feudalism_ca_0_vassals_council:0 "[Concept('councillors', 'Советниками')|E] могут быть назначены только [Concept('powerful_vassals', 'могущественные вассалы')|E]. Если недостаточно дееспособных взрослых, в Совет могут быть назначены обычные [vassals|El] либо [courtiers|El]."
  feudalism_ca_1_vassals_council:0 "Любой [Concept('vassal', 'вассал')|E] может занять должность [Concept('councillor', 'советника')|E]. Если таковых недостаточно, в Совет могут быть назначены придворные."
- feudalism_ca_2_vassals_council:0 "[vassals|E] и [Concept('courtiers', 'придворные')|E] могут быть назначены на должность [Concept('councillors', 'советника')|E]."
- feudalism_ca_3_vassals_council:0 "[vassals|E] и [Concept('courtiers', 'придворные')|E] могут быть назначены на должность [Concept('councillors', 'советника')|E]."
+ feudalism_ca_2_vassals_council:0 "Как [vassals|El], так и [Concept('courtiers', 'придворные')|E] могут быть назначены на должность [Concept('councillors', 'советника')|E]."
+ feudalism_ca_3_vassals_council:0 "Как [vassals|El], так и [Concept('courtiers', 'придворные')|E] могут быть назначены на должность [Concept('councillors', 'советника')|E]."
  ### Autocracy
  autocracy_government:0 "Автократия"
     autocracy_government_adjective:0 "Автократическ"
@@ -160,6 +160,8 @@ landed_order_government_adjective:0 "Орденск"
 landed_order_government_realm:0 "Военный орден"
 landed_order_government_desc:0 "Военные ордена - военизированные организации, подчиненные государствам или являющиеся независимыми."
 NOT_GAME_OVER_CANNOT_PLAY_LANDED_ORDER:0 "За военные ордена нельзя играть"
+NOT_GAME_OVER_CANNOT_PLAY_MINDLESS_CHARACTER:0 "За неразумного персонажа нельзя играть"
+NOT_GAME_OVER_CANNOT_PLAY_SUMMONED_CHARACTER:0 "За призванного персонажа нельзя играть"
 ### Praxis PLACEHOLDER - feel free to change.
 praxis_government:0 "Церемониархия"
 praxis_government_adjective:0 "Праксическ"
