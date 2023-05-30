@@ -20,6 +20,6 @@
  reveal_necromancy_decision_tooltip:0 "Покажите народам Нирна, на что вы способны."
  reveal_necromancy_decision_confirm:0 "Они будут бояться меня."
  
- doctrine_necromancy_accepted_custom_desc:0 "Ваша [faith|El] имеет доктрину [GetFaithDoctrine('tenet_necromancy_worship').GetBaseName]"
- doctrine_necromancy_pragmatic_custom_desc:0 "Ваша [faith|El] имеет доктрину [GetFaithDoctrine('doctrine_necromancy_pragmatic').GetBaseName]"
+ doctrine_necromancy_accepted_custom_desc:0 "Ваша [faith|El] имеет доктрину некромантии [GetFaithDoctrine('tenet_necromancy_worship').GetBaseName]"
+ doctrine_necromancy_pragmatic_custom_desc:0 "Ваша [faith|El] имеет доктрину некромантии [GetFaithDoctrine('doctrine_necromancy_pragmatic').GetBaseName]"
  doctrine_lichdom_accepted_custom_desc:0 "Ваша [faith|El] имеет доктрину [GetFaithDoctrine('tenet_necromancy_worship').GetBaseName] или [GetFaithDoctrine('doctrine_pantheon_dragons').GetBaseName]"

@@ -138,7 +138,7 @@
  ek_coming_of_age.0021.good:0 "Я несу в себе [ancestor.GetHerHis] наследие."
  ek_coming_of_age.0021.bad:0 "Я унесу этот позор с собой."
  ek_coming_of_age.0021.possessed:0 "[ancestor.GetNameNoTooltip] наставляет меня!"
- ek_religious_decision.1012.no_change.zealous:0 "Я каким-то образом [Select_CString(ROOT.GetCharacter.IsFemale, 'оскорбила', 'оскорбил' )] Хист?"
+ ek_coming_of_age.0021.no_change.zealous:0 "Я каким-то образом [Select_CString(ROOT.GetCharacter.IsFemale, 'оскорбила', 'оскорбил' )] Хист?"
  ek_coming_of_age.0021.no_change:0 "Могло быть и хуже."
  ek_religious_decision.1012.may_lift_curse:0 "Наложенное на вас проклятие будет снято!"
  ek_religious_decision.1012.curse_lift:0 "Ваше проклятие снято!"
