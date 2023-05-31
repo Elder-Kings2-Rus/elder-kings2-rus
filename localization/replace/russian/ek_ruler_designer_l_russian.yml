@@ -406,7 +406,7 @@
  race_orsimer:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_orsimer_name'), 'no' )]"
 
  
- race_orsimer_wood_name:0 "Орсимер, Деревянный"
+ race_orsimer_wood_name:0 "Орсимер, Лесной"
  race_orsimer_wood:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_orsimer_wood_name'), 'no' )]"
 
  
