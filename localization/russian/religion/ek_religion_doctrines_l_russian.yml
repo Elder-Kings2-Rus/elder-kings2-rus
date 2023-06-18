@@ -1101,13 +1101,14 @@ special_doctrine_bretic_traditions_name:0 "Бретонские традиции
     doctrine_parameter_hof_crown_authority_improves_fe:0 "[crown_authority|E] [Concept( 'head_of_faith', 'главы конфессии' )|E] влияет на [fervor_equilibrium|El] конфессии\n#weak Каждый уровень авторитета короны выше $crown_authority_0$ даёт #P +5#! к равновесию рвения#!".
     doctrine_divine_blood_head_name:0 "Церемониархия"
     doctrine_divine_blood_head_desc:0 "Только те, в чьих жилах течёт божественная кровь, могут вести за собой правоверных."
+    DOCTRINE_DIVINE_BLOOD_HEAD:0 "Эта [doctrine|El] совместима только с [Concept( 'core_tenets', 'догматами' )|E] [GetFaithDoctrine('tenet_legalism').GetBaseName] и [GetFaithDoctrine('tenet_divine_purity').GetBaseName] и [Concept( 'doctrine', 'доктриной' )|E] [GetFaithDoctrine('doctrine_pantheon_aedra').GetBaseName]"
  ## Communal / Cultural Identity
  doctrine_cultural_identity_name:0 "Культурная идентичность"
  doctrine_cultural_identity_none_name:0 "Отсутствие культурных связей"
     doctrine_cultural_identity_none_desc:0 "Наши обряды и верования могут быть доступны любому существу, независимо от его наследия. По-настоящему важно лишь то, в кого и во что они верят."
  doctrine_cultural_identity_heritage_name:0 "Культурная идентичность"
     doctrine_cultural_identity_heritage_desc:0 "Наша культура развивалась бок о бок с нашей верой, и они связаны друг с другом. Посторонние могут изучать наши обряды и интегрировать нашу веру, но они должны понимать, что наши верования были составлены без них."
-    ASK_FOR_CONVERSION_CULTURAL_IDENTITY_CG:1 "[faith|E] персонажа [recipient.GetShortUIName|U] тесно связана с [recipient.GetHerHis] #L [recipient.GetCulture.GetHeritage.GetName|l]им#! [Concept( 'heritage', 'наследием' )|E]: $VALUE|=+0$"
+    ASK_FOR_CONVERSION_CULTURAL_IDENTITY_HERITAGE:1 "[faith|E] персонажа [recipient.GetShortUIName|U] тесно связана с [recipient.GetHerHis] #L [recipient.GetCulture.GetHeritage.GetName|l]им#! [Concept( 'heritage', 'наследием' )|E]: $VALUE|=+0$"
     faith_conversion_cost_cultural_identity_cg_outside_culture_group:0 "[new_faith.MakeScope.Faith.GetName] [faith|E] не признаёт ваше [heritage|El] - [GetFaithDoctrine('doctrine_cultural_identity_heritage').GetBaseName]"
  doctrine_cultural_identity_heritage_exclusive_name:0 "Сильная культурная идентичность"
     doctrine_cultural_identity_heritage_exclusive_desc:0 "Традиции нашего народа неразрывно связаны с нашей верой, и почти немыслимо, чтобы кто-то, не разделяющий наши традиции и наследие, принял наши верования и обряды."

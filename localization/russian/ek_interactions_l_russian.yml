@@ -91,8 +91,8 @@
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_3:0 "#N Не#! будет учиться искусству Магии.\nТак как у культуры ребенка есть [innovation|El] #V $innovation_magical_studies$#!, для него необходимо найти опекуна со [Concept( 'trait', 'свойством' )|E] #V $trait_arcana_good$#!"
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_4:0 "#N Не#! будет учиться искусству Магии.\nТак как у культуры ребенка нет [Concept( 'innovation', 'инновации' )|E] #V $innovation_magical_studies$#! или #V $innovation_schools_of_magic$#!, и нет [Concept( 'tradition', 'традиции' )|E] #V $tradition_sorcerer_kings_name$#!, и его [dynasty|El] не имеет [Concept( 'dynasty_perk', 'наследие' )|E] #V $magicka_legacy_3_name$#!, обучение искусству Магии #N невозможно#!."
 
- consume_interaction:0 "Укусить"
- consume_interaction_desc:0 "Укусите персонажа [recipient.GetShortUINameNoTooltip] в попытке усилить [Concept( 'tsaescence', 'цаэсценцию' )|E]"
+ consume_interaction:0 "Поглотить"
+ consume_interaction_desc:0 "Поглотите персонажа [recipient.GetShortUINameNoTooltip] в попытке усилить [Concept( 'tsaescence', 'цаэсценцию' )|E]. Однако в процессе вы можете изменить свои [Concept( 'traits', 'свойства' )|E] личности и [skills|El]."
 
  thralldom_interaction:0 "Превратить в трэлла"
  thralldom_interaction_desc:0 "Вы убьёте персонажа [recipient.GetShortUINameNoTooltip], чтобы превратить его труп в подчиняющегося вам раба."
