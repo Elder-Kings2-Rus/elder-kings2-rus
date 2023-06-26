@@ -470,7 +470,7 @@
  ek_pet_animal.5101.a:0 "Оставь немного для меня, [ROOT.Char.Custom('MudcrabStoryName')]!"
 
  # Your Mudcrab goes with you into battle!
- ek_pet_animal.5102.t:0 "[ROOT.Char.Custom('MudcrabStoryName')]: Claws Out!"
+ ek_pet_animal.5102.t:0 "[ROOT.Char.Custom('MudcrabStoryName')]: Клешни к бою!"
  ek_pet_animal.5102.desc:0 "Кажется, что храбрость [ROOT.Char.Custom('MudcrabStoryName')] не знает границ! Будь то крупномасштабные сражения, небольшие стычки или даже одиночные поединки, [ROOT.Char.Custom('MudcrabStorySheHe')] никогда не покидает вас и сражается вместе с вами.\n\nВаши противники, кажется, даже боятся [ROOT.Char.Custom('MudcrabStoryHerHim')],и не один враг был побежден, потому что [ROOT.Char.Custom('MudcrabStoryName')] отвлекает их при помощи [ROOT.Char.Custom('MudcrabStoryHerHis')] [ROOT.Char.Custom('MudcrabColor')] окраса, или даже потому, что [ROOT.Char.Custom('MudcrabStorySheHe')] щипает их!"
  ek_pet_animal.5102.a:0 "За мной, в бой!"
 
