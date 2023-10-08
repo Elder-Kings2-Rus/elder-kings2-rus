@@ -763,7 +763,7 @@ window = {
 
 												text_single = {
 													layoutpolicy_horizontal = expanding
-													text = "[Religion.GetNameNoTooltip]"
+													text = text = "RULER_DESIGNER_RELIG"
 													size = { 0 40 }
 													align = nobaseline
 													default_format = "#clickable"
@@ -804,7 +804,7 @@ window = {
 
 														text_single = {
 															layoutpolicy_horizontal = expanding
-															text = "[Faith.GetNameNoTooltip]"
+															text = "RULER_DESIGNER_GETFAITH"
 															default_format = "#clickable"
 															autoresize = no
 														}
@@ -890,7 +890,7 @@ window = {
 
 											text_single = {
 												layoutpolicy_horizontal = expanding
-												text = "[CulturePillar.GetNameNoTooltip]"
+												text = "CULTURE_PILLAR_NAME_RULER_DESIGNER"
 												default_format = "#clickable"
 												autoresize = no
 											}
@@ -924,7 +924,7 @@ window = {
 
 														text_single = {
 															margin = { 5 0 }
-															text = "[CultureTemplate.GetName]"
+															text = "CULTURE_TEMPLATE_NAME_RULER_DESIGNER"
 															default_format = "#clickable"
 															align = nobaseline
 														}
