@@ -1,4 +1,13 @@
 ﻿l_russian:
+ ek_magic_ai_events.0004.t:0 "Magic Instructions"
+ ek_magic_ai_events.0004.desc:0 "[court_mage.GetFirstName|U] may be well-versed in the arcane arts, but it is the duty of a ruler to familiarize themselves with the actions of their subjects - and keep a close eye on them if needed. The deeds of my court mage will reflect upon me and my entire realm. Thus, it is time to decide how [court_mage.GetFirstNameNoTooltip] should use [court_mage.GetHerHis] abilities. \n\nCan [court_mage.GetSheHe] be allowed to decide on the use of spells without my direct orders, or shall I retain full control about that?\n\nIt could be wise to at least advise against the use of hostile spells if I want to avoid provoking further hostilities."
+ ek_magic_ai_events.0004.a:0 "I trust you to act wisely upon your own."
+ ek_magic_ai_events.0004.a.tt:0 "[court_mage.GetFirstNameNoTooltip|U] will try to balance out hostile spells against your enemies and beneficial spells for your own realm."
+ ek_magic_ai_events.0004.b:0 "Act independently but don't use hostile spells."
+ ek_magic_ai_events.0004.b.tt:0 "[court_mage.GetFirstNameNoTooltip|U] will only use spells to your benefit and will abstain of any harmful magic."
+ ek_magic_ai_events.0004.c:0 "Cast only on my direct orders."
+ ek_magic_ai_events.0004.c.tt:0 "You have to order [court_mage.GetFirstNameNoTooltip] directly through the spellbook if you want [court_mage.GetHerHim] to use magic."
+ 
  ek_ymis_events.0001.t:0 "Старый орк"
  ek_ymis_events.0001.desc:0 "Мир и спокойствие тихого дня нарушает ссора. Мои стражники спорят у ворот с кем-то, кто требует впустить его. Незваным гостем оказывается старый, закалённый в боях орк, которого я никогда раньше не [Select_CString(ROOT.Char.IsFemale, 'видела', 'видел' )]. Я [Select_CString(ROOT.Char.IsFemale, 'решила', 'решил' )] вмешаться, пока ситуация не вышла из-под контроля.\n\nОрк почтительно приветствует меня, когда я подхожу к нему. "[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetLadyLord], я здесь, чтобы просить вас об услуге: с каждым днём я становлюсь всё старше и не могу смириться с перспективой мирной смерти. Моё самое большое желание — умереть в бою, но никто не может превзойти меня в схватке. Ваше мастерство владения клинком хорошо известно. Встретитесь ли вы со мной в поединке до смерти и попытаетесь ли отправить мою душу в Пепельную кузницу?"
  ek_ymis_events.0001.a:0 "Присоединяйтесь ко мне. У вас будет много возможностей умереть в бою."
@@ -238,7 +247,7 @@
  # experimentalist Trait
  stress_threshold.1001.experimentalist.gain:0 "Мои знания помогут сделать этот мир лучше."
  stress_threshold.1001.experimentalist.effect:0 "Мне нужно провести немного времени в моей лаборатории."
- stress_threshold.1504.g:0 "Время найти себе другое занятие."
+ stress_threshold.1504.i:0 "Время найти себе другое занятие."
  stress_threshold.1601.experimentalist.gain:0 "Мне нужно расшифровать тайны этого бытия!"
  stress_threshold.1601.experimentalist.effect:0 "Когда я провожу время в моей лаборатории, то это всегда успокаивает мой разум"
  stress_threshold.1701.g.experimentalist.gain:0 "Мне нужно позабыть об этих мыслях с помощью новых экспериментов."

@@ -1,0 +1,3 @@
+﻿l_russian:
+# Empire to High Kingdom replacement
+ grant_title_modifier_stack_empires:3 "[recipient.GetShortUIName|U] [Select_CString(recipient.IsLocalPlayer, 'получаете', 'получает' )] [SCOPE.ScriptValue('grant_title_opinion_sum_baronies')|+0] [Concept( 'opinion', 'мнения' )|E] о [Select_CString(actor.IsLocalPlayer, '', 'персонаже ' )][actor.GetNamePossessiveOrMy][Select_CString(actor.IsLocalPlayer, 'ем персонаже', '' )] на #V 50 лет#! #weak (Получено верховное королевство)#!"

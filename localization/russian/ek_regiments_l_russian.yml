@@ -93,6 +93,15 @@
  falmer_gloomlurkers_flavor:0 "Оттачивая своё мастерство на охоте, некоторые Преданные присоединяются к отрядам лучников во время войн. Затаившись в тылу или на фланге, они готовы нанести смертельный удар по ничего не подозревающему врагу."
  falmer_battleragers:0 "Фалмеры-берсерки"
  falmer_battleragers_flavor:0 "Самые сильные Преданные сражаются в плотных пеших формациях. Закованные с головы до ног в хитин корусов, они не уступают самым крепким солдатам."
+ # Imga
+ imga_scouts:0 "Imga Scouts"
+ imga_scouts_flavor:0 "#F These troops are used to pave the way for the heavier Imga forces. They are quick and nimble, perfectly suited for a life in the jungle, where they often hide in the canopies until it is time to attack.#!"
+ imga_slingers:0 "Imga Slingers"
+ imga_slingers_flavor:0 "#F Imga are not really fond of bows, and they don't need to be. A simple sling can be just as deadly if used in the right way, and these troops certainly know how to do so - hurling all kinds of nasty things onto their enemies."#!"
+ imga_guards:0 "Imga Guards"
+ imga_guards_flavor:0 "#F Normally assigned to protect Imga settlements and sacred places, these apemen prove to be surprisingly sturdy troops on a battlefield. The combined reach of their pikes and long arms lets them counter most cavalry charges with ease.#!"
+ imga_frenzied:0 "Imga Frenzied"
+ imga_frenzied_flavor:0 "#F The heaviest, strongest, and wildest Imga are often assembled in special battle groups. Together, they create a force of fur and muscle that can break through any defensive line, shattering their enemies' bones and fighting spirit alike.#!"
  # Goblin-ken
  bristleback_riders:0 "Всадники на щетиноспинах"
  bristleback_riders_flavor:0 "#F Риклинги Солстхейма полагаются на кабанов-щетиноспинов и их силу против магии, главенствуя в своих землях и отражая вторжения иноземных захватчиков.#!"
@@ -102,16 +111,23 @@
  riekling_butcher_flavor:0 "#F Потрошение позволяет сохранить хорошую добычу. Гоблиноподобные риклинги Солстхейма хорошо это понимают, поэтому их лазутчики обучены добывать каждую крупицу ресурсов. #!"
  riekling_harrier:0 "Риклинги-загонщики"
  riekling_harrier_flavor:0 "#F Риклинги-лучники умело пользуются своими малыми луками, поражая врагов и загоняя их в ловушки или засады.#!"
- durzog_riders:0 "Всадники на дурзогах"
- durzog_riders_flavor:0 "#F Гоблин-кины тысячелетиями разводят дурзогов для войн, общения и охоты на своих жертв. Эти свирепые и умные "щенята" разводятся ради шкур, мяса и даже кишок для тетивы.#!"
+ riekr_wildlings:0 "Riekr Wildlings"
+ riekr_wildlings_flavor:0 "#F These wandering bands of Riekr may be poorly equipped and trained, but they are able to utilize their speed, savagery, and large numbers to their advantage. #!"
+ riekr_deadeyes:0 "Riekr Deadeyes"
+ riekr_deadeyes_flavor:0 "#F It is unusual for most Riekrs to manage the art of archery since they mostly rely on their primal magic to deal with distant targets. Those who master the bow nonetheless are called 'deadeyes' in a tone of admiration. #!"
+ riekr_scrappers:0 "Riekr Scrappers"
+ riekr_scrappers_flavor:0 "#F Armed with long metal poles they scavenged from various places and hammered into crude spears, those Riekr are able to form a somewhat defensive line. #!" 
+ ice_shamans:0 "Ледяные шаманы"
+ ice_shamans_flavor:0 "#F Оставленные на произвол судьбы, пока они не смогут оказать почести своим домам, эти гоблинские заклинатели выжили в ледяных пустошах. Это не изнеженные школяры, а смертоносные криоманты, в чем убедится любой, кто окажется достаточно глуп, чтобы бросить им вызов.#!"
  goblin_ravager:0 "Гоблины-разорители"
  goblin_ravager_flavor:0 "#F Хотя со стороны это кажется дикостью, разорители гоблин-кин специализируются на грабежах, мародерстве и налётах как средстве выживания, так как их род всегда сталкивается с враждебностью чужеземцев. #!"
  goblin_ranger:0 "Гоблины-следопыты"
  goblin_ranger_flavor:0 "#F Следопыты гоблин-кин гордятся своим охотничьим мастерством, но война - не их специализация. Хотя многих устрашает риск, связанный с новым положением, большинство следопытов рады возможности охотиться на самую опасную добычу. #!"
  goblin_skirmisher:0 "Гоблины-застрельщики"
  goblin_skirmisher_flavor:0 "#F Быстро усваиваясь и импровизируя в самых непредсказуемых ситуациях, застрельщики гоблин-кин - частое явление на передовой, когда их племена выдвигаются на войны.#!" 
- ice_shamans:0 "Ледяные шаманы"
- ice_shamans_flavor:0 "#F Оставленные на произвол судьбы, пока они не смогут оказать почести своим домам, эти гоблинские заклинатели выжили в ледяных пустошах. Это не изнеженные школяры, а смертоносные криоманты, в чем убедится любой, кто окажется достаточно глуп, чтобы бросить им вызов.#!"
+ durzog_riders:0 "Всадники на дурзогах"
+ durzog_riders_flavor:0 "#F Гоблин-кины тысячелетиями разводят дурзогов для войн, общения и охоты на своих жертв. Эти свирепые и умные "щенята" разводятся ради шкур, мяса и даже кишок для тетивы.#!"
+
  # Khajiiti
  alfiq:0 "Боевые маги-Альфики"
  alfiq_flavor:0 "#F Альфики, самые малые представители каджитов, предрасположены к магическим искусствам, и их часто можно увидеть сидящими на плечевых ремнях своих крупных сородичей.#!"
@@ -145,8 +161,7 @@
  jungle_peltasts:0 "Джунглевые пельтасты"
  jungle_peltasts_flavor:0 "#F Эти легкобронированные копейщики умело заманивают тяжеловооруженных врагов в опасную местность, применяя тактику бей-и-беги, после чего без особых усилий расправляются с ними.#!"
  # Nordic
- huscarl:0 "Хускарлы"
- huscarl_flavor:0 "#F Облаченные в тяжелые нордские доспехи хускарлы - одни из самых грозных бойцов Северного Тамриэля.#!"
+# huscarls see replace\regiments_l_english.yml
  skaal_hunter:0 "Скаалы-охотники"
  skaal_hunter_flavor:0 "#F Жизнь среди скаалов сурова, поэтому разница между их воинами и охотниками невелика.#!"
  # Orsimer
@@ -181,6 +196,12 @@
  
  dragons:0 "Драконы"
  dragons_flavor:0 "#F Мало кто видел дракона в бою, и ещё меньше тех, кто уцелел в боях с ними.#!"
+ 
+ undead_dragon:0 "Undead Dragon"
+ undead_dragon_flavor:0 "#F These reanimated bones of a mighty dragon are a teribble sight on every battlefied. They may lack an amount of the raw power they once possesed but they are now even harder to bring down - again.#!"
+
+ hollows:0 "The Hollow"
+ hollows_flavor:0 "Walking husks of stone, unable to feel pain, fear or exhuastion. They are a terrible foe, incredbile hard to destroy and able to tear down walls with their bare hands."
  
  minotaurs:0 "Минотавры"
  minotaurs_flavor:0 "#F Хотя большинство жителей Тамриэля считают минотавров дикими зверями, говорят, что те, кто поклоняются им или близким им людям, могут убедить воинов-быколюдей сражаться в их рядах.#!"

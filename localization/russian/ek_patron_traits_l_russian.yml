@@ -518,12 +518,6 @@
  trait_p_vl_seryn_desc:0 "Последователь Святой Серин"
  trait_p_vl_seryn_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Святой Серин Милосердной."
 
- trait_p_vl_felms:0 "Покровитель - Святой Фелмс"
- trait_p_vl_felms_base:0 "Последователь Святого Фелмса"
- trait_p_vl_felms_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_vl_felms_desc' )]"
- trait_p_vl_felms_desc:0 "Последователь Святого Фелмса"
- trait_p_vl_felms_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Святого Фелмса Отважного."
-
  trait_p_vl_veloth:0 "Покровитель - Святой Велот"
  trait_p_vl_veloth_base:0 "Последователь Святого Велота"
  trait_p_vl_veloth_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_vl_veloth_desc' )]"

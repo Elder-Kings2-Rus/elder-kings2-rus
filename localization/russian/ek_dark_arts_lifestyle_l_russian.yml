@@ -25,7 +25,6 @@
  dark_arts_blood_magic_focus_effect_desc:0 "Сосредоточение на магии крови даёт:"
 
  # Perks
- necromancy_name:0 "Некромантия"
  necromancy_novice_perk_effect:0 "Открывает заклинания некромантии начального уровня:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('necromancy') ).AddScope('tier', MakeScopeValue('(CFixedPoint)1') ).End)]"
  necromancy_apprentice_perk_effect:0 "Открывает заклинания некромантии уровня ученика:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('necromancy') ).AddScope('tier', MakeScopeValue('(CFixedPoint)2') ).End)]"
  necromancy_journeyman_perk_effect:0 "Открывает заклинания некромантии уровня адепта:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('necromancy') ).AddScope('tier', MakeScopeValue('(CFixedPoint)3') ).End)]"
@@ -36,4 +35,4 @@
  necromancy_medium_rituals_perk_effect:0 "Открывает обычные [rituals|El] некромантии"
  necromancy_major_rituals_perk_effect:0 "Открывает главные [rituals|El] некромантии"
 
-CAN_CONSULT_SOUL_LOST_LOVED_ONES_DECISION:0 "Можно использовать решение «Обратиться к душе любимого человека», позволяющее персонажу в последний раз поговорить с персонажем, который ему дорог."
+ CAN_CONSULT_SOUL_LOST_LOVED_ONES_DECISION:0 "Можно использовать решение «Обратиться к душе любимого человека», позволяющее персонажу в последний раз поговорить с персонажем, который ему дорог."

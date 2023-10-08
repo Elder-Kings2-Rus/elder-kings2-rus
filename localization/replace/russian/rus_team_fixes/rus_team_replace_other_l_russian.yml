@@ -8,14 +8,14 @@
  motto_truth:0 "правда" # Scorg. В оригинале CK3 эта строка была без перевода
  GOVERNMENT_RULE_INFO:0 "- Разрешено $RULE|Vl$"
  GOVERNMENT_HOLDING_INFO:0 "- Можно включать [holding|El]: [HOLDING_TYPE.GetName|V]"
- world_innovation_camels:0 "Пустыни Хаммерфелла, Йокуды и Анеквины"
+ #world_innovation_camels:0 "Пустыни Хаммерфелла, Йокуды и Анеквины"
  RULDER_DESIGNER_ETHNICITY_LABEL: "Этническая принадлежность"
  # заглушки для энциклопедии
  game_concept_required_task_5:0 "Задача 5"
  game_concept_required_task_5_desc:0 "Разработчики пока не написали описание. Это временная заглушка."
  game_concept_required_task_6:0 "Задача 6"
  game_concept_required_task_6_desc:0 "Разработчики пока не написали описание. Это временная заглушка."
- huscarl_flavor:1 "#F Мастерски владея щитами, нордские хускарлы способны укрыться даже от залпа вражеских стрел.#!" # Кто такие немцы?
+ #huscarl_flavor:1 "#F Мастерски владея щитами, нордские хускарлы способны укрыться даже от залпа вражеских стрел.#!" # Кто такие немцы?
  loremaster_court_position:0 "Хранитель знаний" # Scorg. Почему-то без замены в папке replace название должности не переводится.
  convert_to_feudalism_liege_converted_decision:0 "Принять форму правления [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|l] через сюзерена" # Scorg. Так звучит длиннее, но красивее 
  convert_to_feudalism_liege_converted_decision_desc:1 "Моя держава растет, и контролировать её всё сложнее. Мой сюзерен уже следует такой системе, как [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|l], и, когда я буду проводить реформы в своих владениях, мне стоит попросить [ROOT.Char.GetLiege.GetHerHis] помощи." # Scorg. Форма правления с маленькой буквы

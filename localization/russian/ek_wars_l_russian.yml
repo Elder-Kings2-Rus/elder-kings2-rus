@@ -37,12 +37,10 @@
  PIRATE_ISLAND_CONQUEST_CB_NAME:1 "Пиратский захват острова"
  PIRATE_ISLAND_CONQUEST_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Пиратский захват [TITLE.GetBaseName]"
  PIRATE_ISLAND_CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
- pirate_city_seize_cb_defeat_desc_defender:0 "\n[defender.GetShortUIName|U] восстанавливает контроль над всеми городами, которые [defender.GetSheHe] ранее сдавал вам в аренду."
- pirate_city_seize_cb_defeat_desc:0 "\nВы восстанавливаете контроль над всеми городами, ранее сданными в аренду [attacker.GetShortUIName|U]."
  
  PIRATE_SEIZE_CITY_CB_NAME:1 "Захват пиратского города"
  PIRATE_SEIZE_CITY_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Захват пиратского города в [TITLE.GetBaseName]"
- PIRATE_ISLAND_CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ PIRATE_SEIZE_CITY_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  pirate_city_seize_cb_defeat_desc_defender:0 "\n[defender.GetShortUIName|U] восстанавливает контроль над всеми городами [defender.GetSheHe], которые ранее сдавал вам в аренду."
  pirate_city_seize_cb_defeat_desc:0 "\nВы возвращаете контроль над всеми городами, которые вы ранее сдали в аренду [атакующему.GetShortUIName|U]."
  
@@ -51,7 +49,7 @@
  PIRATE_EXTRACT_TRIBUTE_CB_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  PIRATE_EXTRACT_TRIBUTE_OCCUPIED_COUNTY_TRIBUTE:0 "[THIS.GetLandedTitle.GetBaseName] пошлет вам дань в размере 12 месяцев местного дохода в обмен за свободу"
  pirate_extract_tribute_cb_victory_desc_attacker:0 "Вы получаете большую дань от [defender.GetShortUIName|U] и все ещё оккупированных графств".
- pirate_extract_tribute_cb_victory_desc:0 "[defender.GetShortUIName|U] взимает большую дань от [defender.GetShortUIName|U] и все ещё оккупированных графств."
+ pirate_extract_tribute_cb_victory_desc:0 "[attacker.GetShortUIName|U] взимает большую дань от [defender.GetShortUIName|U] и все ещё оккупированных графств."
  pirate_extract_tribute_cb_defeat_desc_defender:0 "[attacker.GetShortUIName|U] вынужден заплатить за ущерб, нанесенный войной."
  pirate_extract_tribute_cb_white_peace_desc_defender:0 "[attacker.GetShortUIName|U] не сможет получить с вас дань".
  pirate_extract_tribute_cb_white_peace_desc:0 "[attacker.GetShortUIName|U] не сможет получить никакой дани от [defender.GetShortUIName|U]".
@@ -69,3 +67,17 @@
  attrebus_potentate_cb_seize_potentate_held_land:0 "Вы захватываете все земли, принадлежащие непосредственно Потентату"
  dres_argonian_war_cb_seize_thorn:0 "Мадеси захватывает Торн и провозглашает себя королем его земель"
  dres_argonian_war_cb_claim_dres:0 "Савор использует поддержку своих союзников по войне, чтобы объявить себя правителем Дома Дрес"
+ 
+ IMPRISON_MAGE_CB_NAME:1 "Detain Dangerous Mage"
+ IMPRISON_MAGE_WAR_NAME:2 "Detain [DEFENDER.GetShortUIName] for [defender.GetHerHis] magical misuse"
+ IMPRISON_MAGE_WAR_NAME_BASE:0 "[attacker.GetShortUIName] will imprison [defender.GetShortUIName]"
+ imprison_mage_war_victory_desc:0 "[attacker.GetShortUIName|U] will imprison [defender.GetShortUIName|U] and can then decide how to deal with [defender.GetHerHis] magical transgressions."
+ imprison_mage_war_white_peace_desc:0 "[defender.GetShortUIName|U] will stay free but a truce will be signed to prevent further misuse of magicka for a time."
+ imprison_mage_war_defeat_desc:0 "[attacker.GetShortUIName|U] will pay reparations to [defender.GetShortUIName|U] and no use of magicka will be restricted."
+
+ PUNISH_RAIDER_CB_NAME:1 "Punish Raider"
+ PUNISH_RAIDER_WAR_NAME:2 "Extract reparations from [DEFENDER.GetShortUIName] for raiding."
+ PUNISH_RAIDER_WAR_NAME_BASE:0 "[attacker.GetShortUIName] will extract reparations from [defender.GetShortUIName]"
+ punish_raider_war_victory_desc:0 "[defender.GetShortUIName|U] will pay reparations to [attacker.GetShortUIName]. All [prisoners|E] and forced [concubines|E] considered close to [attacker.GetShortUIName] and held in the court of [defender.GetShortUIName|U] are freed." 
+ punish_raider_war_white_peace_desc:0 "No reparations will be paid. Potential [prisoners|E] and forced [concubines|E] stay within the court of [defender.GetShortUIName|U]."
+ punish_raider_war_defeat_desc:0 "[attacker.GetShortUIName|U] will pay an additional tribute to [defender.GetShortUIName|U]. Potential [prisoners|E] and forced [concubines|E] stay within the court of [defender.GetShortUIName|U]."

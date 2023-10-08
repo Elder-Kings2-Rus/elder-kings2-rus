@@ -11,9 +11,11 @@
  mundus_tamriel_high_rock_stormhaven:0 "Стормхейвен"
  mundus_tamriel_high_rock_wrothgar:0 "Ротгар"
  mundus_tamriel_high_rock_fharun:0 "Фарун"
+ mundus_tamriel_high_rock_jehanna:0 "Jehanna"
  mundus_tamriel_high_rock_greater_wrothgar:0 "Великий Ротгар"
  mundus_tamriel_high_rock_evermore:0 "Эвермор"
- mundus_tamriel_high_rock_bangkorai:0 "Бангкорай"
+ mundus_tamriel_hammerfell_bangkorai:0 "Бангкорай"
+ mundus_tamriel_high_rock_greater_bangkorai:0 "Greater Bangkorai"
  mundus_tamriel_high_rock:0 "Хай-Рок"
  
  mundus_tamriel_reach_east_reach:0 "Восточный Предел"
@@ -22,13 +24,31 @@
  mundus_tamriel_reach_south_reach:0 "Южный Предел"
  mundus_tamriel_reach:0 "Предел"
  
- ### TODO: Hammerfell
+ mundus_tamriel_iliac_bay_high_rock:0 "Iliac Bay - Coastal High Rock"
+ mundus_tamriel_iliac_bay_hammerfell:0 "Iliac Bay - Coastal Hammerfell"
+ mundus_tamriel_iliac_bay_islands:0 "Iliac Bay - Major Islands"
+ mundus_tamriel_iliac_bay_mainland:0 "Iliac Bay - Mainland Coast"
+ mundus_tamriel_iliac_bay:0 "Iliac Bay"
+ 
  mundus_tamriel_hammerfell_hallin:0 "Халлин"
- mundus_tamriel_hammerfell_lower_bangrokai:0 "Нижний Бангкорай"
+ mundus_tamriel_hammerfell_lower_bangkorai:0 "Нижний Бангкорай"
  mundus_tamriel_hammerfell_western_alikr:0 "Западный Алик'р"
  mundus_tamriel_hammerfell_eastern_alikr:0 "Восточный Алик'р"
+ mundus_tamriel_hammerfell_sentinel:0 "Sentinel"
+ mundus_tamriel_hammerfell_hegathe:0 "Hegathe"
  mundus_tamriel_hammerfell_alikr:0 "Пустыня Алик'р"
+ mundus_tamriel_hammerfell_dragontail:0 "Dragontail"
+ mundus_tamriel_hammerfell_elinhir:0 "Elinhir"
  mundus_tamriel_hammerfell_craglorn:0 "Краглорн"
+ mundus_tamriel_hammerfell_abecean:0 "Abecean Isles"
+ mundus_tamriel_hammerfell_hew_bane:0 "Hew's Bane"
+ mundus_tamriel_hammerfell_gilane:0 "Gilane"
+ mundus_tamriel_hammerfell_systres:0 "Systres"
+ mundus_tamriel_hammerfell_abecee:0 "The Abecee"
+ mundus_tamriel_hammerfell_rihad:0 "Rihad"
+ mundus_tamriel_hammerfell_taneth:0 "Taneth"
+ mundus_tamriel_hammerfell_stonedale:0 "Stonedale"
+ mundus_tamriel_hammerfell_sunforge:0 "Sunforge"
  mundus_tamriel_hammerfell:0 "Хаммерфелл"
  
  mundus_tamriel_cyrodiil_anvil:0 "Анвил"
@@ -162,7 +182,7 @@
  custom_nativity_rivenspire:0 "Ривенспайр (Родной регион)"
  custom_nativity_stormhaven:0 "Стормхейвен (Родной регион)"
  custom_nativity_greater_wrothgar:0 "Ротгарианские горы (Родной регион)"
- custom_nativity_bangkorai:0 "Бангкорай (Родной регион)"
+ custom_nativity_greater_bangkorai:0 "Бангкорай (Родной регион)"
  
  custom_nativity_craglorn:0 "Краглорн (Родной регион)"
  custom_nativity_alikr:0 "Алик'р (Родной регион)"
@@ -213,6 +233,5 @@
  ## Innovations regions
  world_innovation_longboats:0 "Северное побережье Скайрима и Солстхейм" #Шлюпы
  world_innovation_mammoths:0 "Карт и Ротгар" #Боевые мамонты 
- world_innovation_camels:0 "Пустыни Хаммерфелла, Йокуды и Анеквины" #Боевые верблюды 
  world_innovation_gunpowder:0 "Залив Илиак и Абесин" #Порох
  world_innovation_abecean_piratry:0 "Абесин, Проклятье Хью и Анвил" #Пиратство в Абесине

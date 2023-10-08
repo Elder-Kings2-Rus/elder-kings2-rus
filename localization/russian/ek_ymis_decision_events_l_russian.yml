@@ -63,8 +63,8 @@
  ek_ymis_decision_events.0012.desc:0 "Куда бы я ни [Select_CString(ROOT.Char.IsFemale, 'пошла и что бы я ни делала', 'пошёл и что бы я ни делал' )], я чувствую, что [secret_opposer.GetFirstName] пристально наблюдает за мной. Сначала я не [Select_CString(ROOT.Char.IsFemale, 'понимала', 'понимал' )], как к этому относиться, но теперь мне кажется, что [secret_opposer.GetSheHe] подозревает о моих тайных исследованиях, и это становится всё более проблематичным. Как я могу продолжать свои усилия, когда [secret_opposer.GetSheHe] постоянно следит за мной?\n\nХотя я могу просто припугнуть [secret_opposer.GetHerHis], мне интересно, есть ли более тонкий подход к решению этой проблемы."
  ek_ymis_decision_events.0012a:0 "Сказать [secret_opposer.GetHerHim] не лезть в мои дела!"
  ek_ymis_decision_events.0012b:0 "Попытаться отвлечь [secret_opposer.GetHerHis] от ваших истинных намерений."
- ek_ymis_decision_events.0012b.tt_success:0 "Вам удалось скрыть свои истинные намерения от персонажа [secret_opposer.GetFirstNameNoTooltip]."
- ek_ymis_decision_events.0012b.tt_failure:0 "[secret_opposer.GetFirstNameNoTooltip|U] теперь ещё больше подозревает меня."
+ ek_ymis_decision_events.0012b.success:0 "Вам удалось скрыть свои истинные намерения от персонажа [secret_opposer.GetFirstNameNoTooltip]."
+ ek_ymis_decision_events.0012b.failure:0 "[secret_opposer.GetFirstNameNoTooltip|U] теперь ещё больше подозревает меня."
  ek_ymis_decision_events.0012c:0 "Это становится слишком рискованным. Мне нужно прекратить."
 
  ek_ymis_decision_events.0013.t:0 "Обучение некромантии: расплата за секретность"
@@ -216,7 +216,7 @@
  ek_ymis_decision_events.0039a:0 "Смотри и учись, [Select_CString(necromancy_ward.IsFemale, 'моя ученица', 'мой ученик' )]."
 
  ek_ymis_decision_events.0040.t:0 "Обучение некромантии: новые учебные материалы"
- ek_ymis_decision_events.0040.desc:0 "Если [necromancy_ward.GetFirstName] хочет познать всю полноту некромантии, [necromancy_ward.GetHerHim] понадобится много плоти и костей для работы и экспериментов. Однако осквернение могил — дело опасное, и [necromancy_ward.GetHeShe], вероятно, не [Select_CString(necromancy_ward.IsFemale, 'готова', 'готов' )] заниматься им самостоятельно. Я не могу рисковать потерей такого многообещающего адепта тёмных искусств из-за стражников или группы разъяренных крестьян.\n\nНа данный момент я [Select_CString(ROOT.Char.IsFemale, 'сама ограбила', 'сам ограбил' )] дюжину или больше могил и хорошо знаю об опасностях этого дела. Думаю, что мой долг как наставника — ограбить ещё парочку захоронений." 
+ ek_ymis_decision_events.0040.desc:0 "Если [necromancy_ward.GetFirstName] хочет познать всю полноту некромантии, [necromancy_ward.GetHerHim] понадобится много плоти и костей для работы и экспериментов. Однако осквернение могил — дело опасное, и [necromancy_ward.GetSheHe], вероятно, не [Select_CString(necromancy_ward.IsFemale, 'готова', 'готов' )] заниматься им самостоятельно. Я не могу рисковать потерей такого многообещающего адепта тёмных искусств из-за стражников или группы разъяренных крестьян.\n\nНа данный момент я [Select_CString(ROOT.Char.IsFemale, 'сама ограбила', 'сам ограбил' )] дюжину или больше могил и хорошо знаю об опасностях этого дела. Думаю, что мой долг как наставника — ограбить ещё парочку захоронений." 
  ek_ymis_decision_events.0040a:0 "Пора достать мою верную лопату."
 
  ek_ymis_decision_events.0041.t:0 "Вознесение лича"

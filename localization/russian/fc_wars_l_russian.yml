@@ -1,7 +1,7 @@
 ﻿l_russian:
  HOSTAGES_WAR_NAME:0 "Освобождение пленников"
- hostages_war_victory_desc:0 "Все [prisoners|E] и подневольные [concubines|E], считавшиеся близкими к [attacker.GetShortUIName|U] и содержавшиеся при дворе [defender.GetShortUIName|U] освобождаются. [defender.GetShortUIName|U] выплатит дань [attacker.GetShortUIName|U] в качестве репараций."
- hostages_war_white_peace_desc:0 "Все [prisoners|E] и подневольные [concubines|E] останутся в пределах двора [attacker.GetShortUIName|U]."
+ hostages_war_victory_desc:0 "Все [prisoners|E] и подневольные [concubines|E], считавшиеся близкими к [attacker.GetShortUIName|U] и содержавшиеся при дворе [defender.GetShortUIName|U] освобождаются."
+ hostages_war_white_peace_desc:0 "Все [prisoners|E] и подневольные [concubines|E] останутся в пределах двора [defender.GetShortUIName|U]."
  hostages_war_defeat_desc:0 "Все [prisoners|E] и подневольные [concubines|E] останутся в пределах двора [defender.GetShortUIName|U]. [attacker.GetShortUIName|U] выплатит дань [defender.GetShortUIName|U] в качестве репараций."
 
  fc_war_event.0001.t:0 "Освобождение своих родственников"
