@@ -1,3 +1,0 @@
-﻿l_russian:
- MARRIAGE_DIFFERENT_HERITAGE_REASON:0 "[secondary_recipient.GetShortUIName] имеет разное [heritage|El] по отношению к [secondary_actor.GetShortUIName|U]: $VALUE|+=0$"
- MARRIAGE_LIFESPAN_REASON:0 "[secondary_recipient.GetShortUIName] имеет разную [enc_lifespan|El] по отношению к [secondary_actor.GetShortUIName|U]: $VALUE|+=0$"
