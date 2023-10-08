@@ -397,7 +397,7 @@ window = {
 
 													text_single = {
 														layoutpolicy_horizontal = expanding
-														text = "[Culture.GetNameNoTooltip]"
+														text = "CULTURE_NAME_RULER_DESIGNER"
 
 														margin_bottom = 5
 													}
@@ -490,7 +490,7 @@ window = {
 													name = "random_culture_name"
 													datacontext = "[RulerDesignerWindow.GetCulture]"
 													size = { 140 25 }
-													text = "[Culture.GetNameNoTooltip]"
+													text = "RULER_DESIGNER_RANDOM_NAME_CULTURE"
 													tooltip = RULER_DESIGNER_RANDOM_NAME_CULTURE_TOOLTIP
 													using = tooltip_se
 													onclick = "[RulerDesignerWindow.RandomizeFirstNameCulture]"
