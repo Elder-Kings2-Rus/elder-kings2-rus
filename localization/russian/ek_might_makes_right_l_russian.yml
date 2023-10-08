@@ -1,9 +1,9 @@
 ﻿l_russian:
  might_makes_right_law_insufficient_prestige_level:0 "#weak Отсутствие необходимого [Concept('prestige_level','уровня репутации')|E] вернет [law|El] на прежний уровень.#!"
- might_makes_right_law_insufficient_piety_level:0 "#weak Отсутствие необходимого [Concept('prestige_level','уровня репутации')|E] вернет [law|El] на прежний уровень.#!"
+ might_makes_right_law_insufficient_piety_level:0 "#weak Отсутствие необходимого [Concept('piety_level','уровня благочестия')|E] вернет [law|El] на прежний уровень.#!"
  might_makes_right_law_insufficient_prestige_or_piety_level:0 "#weak Отсутствие необходимого [Concept('prestige_level','уровня репутации')|E] или [Concept('piety_level','уровня набожности')|E] вернет [law|El] на прежний уровень.#!"
  might_makes_right_law_insufficient_prestige_and_piety_level:0 "#weak Отсутствие необходимого [Concept('prestige_level','уровня репутации')|E], вместе с необходимым [Concept('piety_level','уровнем набожности')|E] вернет [law|El] на прежний уровень.#!"
- might_makes_right_law_requires_prestige_or_piety_level:0 "#weak Достаточно иметь необходимую [Concept('prestige_experience','репутацию')|E] или [piety_experience|El]"
+ might_makes_right_law_requires_prestige_or_piety_level:0 "#weak Достаточно иметь необходимую [Concept('prestige_experience','репутацию')|E] или [piety_experience|El].#!"
 
  might_makes_right_level_amount:0 "Необходимый [prestige_level|El]: [GetModifier( 'prestige_level_$VALUE|0$' ).GetNameWithTooltip|L] ([might_makes_right|El])"
  might_makes_right_devotion_level_amount:0 "Одно из этих: ([might_makes_right|E])\n • Необходимый [prestige_level|El]: [GetModifier( 'prestige_level_$VALUE|0$' ).GetNameWithTooltip|L]\n • Необходимый [piety_level|El]: [GetModifier( 'piety_level_$VALUE|0$' ).GetNameWithTooltip|L]" # Вероятно, нужна правка после нахождения этих строк в игре

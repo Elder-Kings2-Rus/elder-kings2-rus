@@ -1,0 +1,7 @@
+﻿# EK EDIT: disclaimer about innovations that are not gained after all
+
+l_russian:
+ CULTURE_CREATION_INNOVATIONS_TEXT:1 "Вы получите эту #L [Culture.GetCollectiveNoun|l]ую#! [Concept( 'innovation', 'инновацию' )|E]:\n\n#warning Примечание: Несмотря на вышеприведённую подсказку и нижеприведённые картинки, уникальные культурные [innovations|El] и [nativity_regions|El] НЕ БУДУТ получены.#!"
+ CULTURE_CREATION_INNOVATIONS_PLURAL_TEXT:0 "Вы получите эти [GetDataModelSize( HybridizationWindow.GetInnovationsGained )] #L [Culture.GetCollectiveNoun|l]ие#! [Concept( 'innovations', 'инновации' )|E]:\n\n#warning Примечание: Несмотря на вышеприведённую подсказку и нижеприведённые картинки, уникальные культурные [innovations|El] и [nativity_regions|El] НЕ БУДУТ получены.#!"
+ CULTURE_CREATION_INNOVATIONS_PLURAL_INCLUDING_TEXT:0 "Вы получите [GetDataModelSize( HybridizationWindow.GetInnovationsGained )] #L [Culture.GetCollectiveNoun|l]ие#! [Concept( 'innovations', 'инновации' )|E], в том числе:\n\n#warning Примечание: Несмотря на вышеприведённую подсказку и нижеприведённые картинки, уникальные культурные [innovations|El] и [nativity_regions|El] НЕ БУДУТ получены.#!"
+

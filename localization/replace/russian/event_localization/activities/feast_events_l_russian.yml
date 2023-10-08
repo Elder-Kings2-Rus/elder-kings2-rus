@@ -1,0 +1,9 @@
+﻿l_russian:
+ feast.2001.desc_fallback:0 "$feast.2001.desc_intro$"
+ feast.2001.desc_gregarious:0 "$feast.2001.desc_intro$ Я уже #EMP очень давно#! жду такой возможности."
+ feast.2001.desc_shy:0 "$feast.2001.desc_intro$ I adjust my clothes. Я переоденусь. Это #EMP не совсем#! то, что я считаю идеальным завершением дня, но и так сгодится."
+ feast.2001.desc_ambitious:0 "$feast.2001.desc_intro$ Да, я просто обожаю следить за тем, как спиртное развязывает людям языки... и слушать их в этот момент."
+ feast.2001.desc_nerd:0 "$feast.2001.desc_intro$ Я предпочитаю проводить время за чтением книг, но долг есть долг."
+ feast.2001.desc_martial:0 "$feast.2001.desc_intro$ Не могу не признать, что без оружия чувствую себя не в своей тарелке даже посреди праздника."
+ feast.2001.desc_lustful:0 "$feast.2001.desc_intro$ Все такое... #EMP вкусное#!!"
+ feast_type_generic_desc:1 "$EFFECT_LIST_BULLET$ События — это возможность составить [Concept( 'opinion', 'мнение' )|E]\n$EFFECT_LIST_BULLET$ Определенные варианты позволят избавиться от [Concept( 'stress', 'стресса' )|E]\n$EFFECT_LIST_BULLET$ #N Этот пир не будет [Concept( 'holiday', 'праздничным' )|E] пиром!#!\n\n#weak Нужен ли#! повод для пира?#!"

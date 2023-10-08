@@ -1,0 +1,8 @@
+﻿l_russian:
+
+# EK EDIT: made loc more accurate to how unis work in EK
+ #Adult Education#
+ adult_education_has_university_desc: "\n#P +++ [learning_i], точка интереса#!"
+ adult_education_has_religious_center_desc: "\n#P +++ Святое место, особое здание вашей веры#!"
+ adult_education_has_academy_desc:0 "\n#P +++ Академия#!"
+ activity_adult_education_destination_selection: "[GetActivityType('activity_adult_education').GetName] может проходить только в провинциях с [Concept( 'academy', 'академией' )|E], [Concept( 'point_of_interest', 'точкой интереса' )|E], связанной с [learning_i][Concept( 'learning', 'учёностью' )|E], или [Concept( 'special_building', 'особым зданием' )|E] [Concept( 'holy_site', 'священного места' )|E] вашей конфессии."

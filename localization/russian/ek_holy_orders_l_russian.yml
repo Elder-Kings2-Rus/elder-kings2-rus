@@ -1,6 +1,6 @@
 ﻿l_russian:
  #Default
- holy_order_default:1 "[FAITH.GetNameNoTooltip]ий отряд из владения [TITLE.GetNameNoTierNoTooltip]"
+ #Default handled in mod_files\localization\replace\english\holy_orders_l_english.yml
  #Dunmer
  holy_order_dunmer:0 "Боевые Ординаторы из владения [TITLE.GetNameNoTierNoTooltip]"
  #Dwemer
@@ -42,7 +42,8 @@
  holy_order_boethiah:0 "Избранники Боэтии"
  holy_order_meridia:0 "Рыцари Сверкающего клинка"
  holy_order_magnus:0 "Воины солнечного света"
- 
+ holy_order_ordinators:0 "Орден войны"
+
  #Generic
  holy_order_knights:0 "[FAITH.GetNameNoTooltip]ие Рыцари из владения [TITLE.GetNameNoTierNoTooltip]"
  holy_order_knights_of_highgod:0 "Рыцари [FAITH.WarGodNamePossessive]"

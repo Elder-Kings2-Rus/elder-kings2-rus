@@ -51,15 +51,12 @@
  
  ### Governments
  # Used when reforming your government
- tribal_reform_clan:0 "клан"
- tribal_reform_feudal:0 "феодализм"
- tribal_reform_magocracy:0 "магократию"
  tribal_reform_autocracy:0 "автократию"
  vassals_will_convert_from_tribal:0 "Мои [Concept('tribal', 'племенные')|E] вассалы примут форму правления, которая соответствует их традициям"
  ### Tribal
- action_low_prestige_level:0 "[prestige_level|E] ниже, чем [expected_prestige_level|E]"
+ action_low_prestige_level:0 "@ek_dragon! [prestige_level|E] ниже, чем [expected_prestige_level|E]"
  action_low_prestige_level_label:0 "$action_low_prestige_level$"
- action_low_prestige_level_desc:0 "Ваш текущий уровень показателя [prestige_level|E] ниже, чем [expected_prestige_level|E]. На вас наложены серьезные штрафы, ослабляющие вас и дестабилизующие ваше государство.\n\n#help Вы получите больше [Concept('prestige', 'престижа')|E] и [Concept('prestige_experience', 'прирост престижа')|E], устраивая [Concept('raiding', 'налёты')|E], участвуя в [Concept('wars', 'войнах')|E], или устраивая [Concept('hunt', 'охоту')|E] или [Concept('feast', 'празднества')|E].\nВыбор [Concept('perk', 'навыка')|E] #V $a_life_of_glory_perk_name$#! в образе жизни [diplomacy_lifestyle|E] понизит ваш [expected_prestige_level|E] на один [prestige_level|E]."
+ action_low_prestige_level_desc:0 "Ваш текущий уровень показателя [prestige_level|E] ниже, чем [expected_prestige_level|E]. На вас наложены серьезные штрафы, ослабляющие вас и дестабилизующие ваше государство.\n\n#help Вы получите больше [Concept('prestige', 'престижа')|E] и [Concept('prestige_experience', 'прирост престижа')|E], устраивая [Concept('raiding', 'налёты')|E], участвуя в [Concept('wars', 'войнах')|E], или устраивая [GetActivityType( 'activity_hunt' ).GetName], [GetActivityType( 'activity_feast' ).GetName] и прочих активностях.\nВыбор [Concept('perk', 'навыка')|E] #V $a_life_of_glory_perk_name$#! в образе жизни [diplomacy_lifestyle|E] понизит ваш [expected_prestige_level|E] на один [prestige_level|E]."
  action_low_prestige_level_click:0 ""
  ### Feudalism
  no_powerful_vassal_with_negative_opinion_ca:0 "Один или несколько [Concept('powerful_vassals', 'могущественных вассалов')|E] имеют отрицательное о вас и блокируют возможность изменения [Concept('crown_authority', 'авторитета короны')|E]"
@@ -89,13 +86,6 @@
  revocation_tyranny_effect_low_ca_tyranny:0 "#N Ваша [Concept('tyranny', 'тирания')|E] возрастает из-за низкого [Concept('crown_authority', 'авторитета короны')|E]. Повысьте его до уровня #V [GetPlayer.Custom('GetCrownAuthority0')]#!, чтобы избежать дальнейшего роста тирании.#!"
  VASSAL_POWER_SHARE:0 "Мощь вассалов:\n#V [Character.MakeScope.ScriptValue('ratio_vassal_max_military_strength_max_military_strength')|1]%#!"
  VASSAL_POWER_SHARE_TT:0 "[crown_authority|E] при автократии ограничен разницей между военной мощью правителя и общей военной мощью его вассалов.\n\nВаша общая военная мощь: #V [Character.MakeScope.ScriptValue('ruler_max_military_strength')|0]#!\nОбщая военная мощь ваших вассалов: #V [Character.MakeScope.ScriptValue('vassal_max_military_strength')|0]#!\n\nУчитываются вассалы, которые соответствуют следующим требованиям:\n$EFFECT_LIST_BULLET$Не являются вашими [Concept('friend', 'друзьями')|E]\n$EFFECT_LIST_BULLET$Не являются вашими [Concept('ally', 'союзниками')|E]\n$EFFECT_LIST_BULLET$Между вами не действует [Concept('truce', 'перемирие')|E]\n$EFFECT_LIST_BULLET$Не являются целью [Concept('strong_hook', 'сильного влияния')|E] с вашей стороны\n$EFFECT_LIST_BULLET$Не находятся [Concept('imprisoned', 'в заключении')|E]" 
-### Magocracy
- magocracy_government:0 "Магократия"
-    magocracy_government_adjective:0 "Магократическ"
-    magocracy_government_realm:0 "Магократическое государство"
-    magocracy_government_vassals_label:1 "Магократические [Concept('obligations', 'обязательства')|E] основаны на [Concept('arcana', 'Аркане')|E] [Concept('liege', 'сюзерена')|E]"
-    magocracy_government_desc:1 "- [rulers|E] получают бонусы для своих [Concept('mages', 'магов')|E] в зависимости от их [Concept('rank', 'ранга')|E]\n- [rulers|E] могут [Concept('holdings', 'владеть')|E] [Concept('academy', 'академиями')|E] и [Concept('castle', 'замками')|E] \n- [Concept('vassals', 'Вассальные')|E] [Concept('obligations', 'обязательства')|E] связаны с [Concept('arcana', 'Арканой')|E] [Concept('liege', 'сюзерена')|E]\n- [vassals|E] с более высоким показателем [Concept('arcana', 'Арканы')|E], чем у [Concept('liege', 'сюзерена')|E], снизят свое [Concept('opinion', 'мнение')|E] о нем\n\n#F Форма правления, предпочитаемая магами, при которой ожидается, что правитель будет следовать искусству магии.#!"
-    GOVERNMENT_MAGOCRACY_ARCANA_DIFFERENCE:0 "Разница [Concept('arcana', 'арканы')|E] в [Concept('magocracy', 'магократии')|E]"
  ### Pirates
  pirate_government:0 "Пиратское государство"
     pirate_government_adjective:0 "Пиратск"
@@ -170,7 +160,7 @@ praxis_government_vassals_label:1 "Феодальные [Concept('obligations', 
 praxis_government_desc:1 "#F Церемониархия - сложная система обрядов и обычаев, сосредоточенная на подражании древнему Альдмерису. Во многом имеются общие черты с феодальными монархиями - вассалы, предоставляющие сюзерену [Concept('soldiers', 'ополчение')|E] и выплачивающие ему [Concept('taxes', 'налоги')|E]. В то же время, церемониархии свойственна жесткая социальная иерархия и расслоение, установленные в соответствии с альтмерской философией.#!" #by adhering to ancient rites, the ruler proves their rightful position in the social hierarchy, and keeps their Aedric lineage pure.
 rejected_ceremoniarchy:0 "Отвергает церемониархию"
 ceremoniarchy_rejection_title:0 "Вассал отвергает церемониархию!"
-ceremoniarchy_rejection_desc:0 "Мой вассал, [dissident.GetTitledFirstName], отвергает обычаи церемониархии и предпочел принять варварские феодальные устои."
+ceremoniarchy_rejection_desc:0 "Мой вассал, [dissident.GetTitledFirstName], отвергает обычаи [Concept('ceremoniarchy', 'церемониархии')|E] и предпочел принять варварские феодальные устои."
 ceremoniarchy_rejection_option:0 "Они позорят своих предков."
 
 praxis_title:0 "#bold;high;size:18 [praxis|E]: [Character.MakeScope.Var('state_praxis').GetValue|1]/100#!"
@@ -182,3 +172,12 @@ praxis_virtue_desc:0 "[Concept('virtuous', 'Добродетельные')|E] ч
 praxis_sinful_desc:0 "[Concept('sinful', 'Греховные')|E] черты"
 praxis_pure_blooded:0 "[GetTrait('pure_blooded').GetName(ROOT.Char)]"
 praxis_impure:0 "[GetTrait('impure').GetName(ROOT.Char)]"
+praxis_foreigner_desc:0 "Отсутствует понимание [Concept('ceremoniarchy', 'церемониархии')|E]"
+ praxis_impurity_desc:0 "Отсутствует понимание догмата [GetFaithDoctrine('tenet_divine_purity').GetBaseName]"
+
+ government_is_pirate:0 "Тип [Concept('government', 'правительства')|E] — [GetGovernment( 'pirate_government' ).GetName]"
+ government_is_academy:0 "Тип [Concept('government', 'правительства')|E] — [GetGovernment( 'academy_government' ).GetName]"
+ government_is_hierocracy:0 "Тип [Concept('government', 'правительства')|E] — [GetGovernment( 'hierocracy_government' ).GetName]"
+ government_is_autocracy:0 "Тип [Concept('government', 'правительства')|E] — [GetGovernment( 'autocracy_government' ).GetName]"
+ governmant_is_landed_order:0 "Тип [Concept('government', 'правительства')|E] — [GetGovernment( 'landed_order_government' ).GetName]"
+ government_is_praxis:0 "Тип [Concept('government', 'правительства')|E] — [GetGovernment( 'praxis_government' ).GetName]"

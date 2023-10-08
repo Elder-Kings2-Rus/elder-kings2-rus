@@ -45,7 +45,6 @@
  send_to_varangian_guard_interaction_effect_desc:1 "#weak Во время службы в Имперском Легионе [CHARACTER.GetShortUIName] может увеличить свои [Concept( 'skills', 'навыки' )|E] или получить [Concept( 'traits', 'свойства' )|E], однако есть шанс получить ранение или того хуже. [CHARACTER.GetSheHe|U] вернется через несколько лет, но отозвать [CHARACTER.GetHerHis] раньше не получится.#!"
 
  lover_varangian_local:0 "Во время службы в Имперском Легионе [CHARACTER.GetShortUIName] встречает [Select_CString(TARGET_CHARACTER.IsFemale, 'местную жительницу', 'местного жителя' )] — [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]."
- lover_varangian_local_corresponding:0 "Во время службы в Имперском Легионе [TARGET_CHARACTER.GetShortUIName] встречает [Select_CString(CHARACTER.IsFemale, 'местную жительницу', 'местного жителя' )] — [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]."
  
  rival_varangian:0 "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] возненавидели друг друга во время совместной службы в рядах Имперского Легиона."
  best_friend_varangian:0 "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] стали не разлей вода во время совместной службы в рядах Имперского Легиона."
