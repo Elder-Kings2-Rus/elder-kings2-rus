@@ -1,0 +1,5 @@
+﻿#EK EDIT: too many held duchies 2 -> 3
+
+l_russian:
+ action_too_many_held_duchies_combined_group_description:2 "Вы владеете более чем тремя [Concept( 'duchies', 'герцогствами' )|E], являясь [Concept( 'king', 'королем' )|E] или [Concept( 'emperor', 'императором' )|E], что снижает [Concept( 'opinion', 'мнение' )|E] ваших [Concept( 'vassals', 'вассалов' )|E] о вас.\n\n#help Чем больше [Concept( 'duchies', 'герцогств' )|E] у вас сверх лимита, тем сильнее зависть вассалов. Вы можете игнорировать их недовольство, но иногда разумнее раздать некоторые [Concept( 'duchy', 'герцогские' )|E] [Concept( 'titles', 'титулы' )|E].\n\nНе стоит отдавать [Concept( 'duchies', 'герцогства' )|E], в которых у вас много [Concept( 'counties', 'графств' )|E], особенно [Concept( 'realm_capital', 'столицу своей державы' )|E]#!."
+ 

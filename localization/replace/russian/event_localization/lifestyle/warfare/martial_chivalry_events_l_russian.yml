@@ -1,26 +1,26 @@
 ﻿l_russian:
- martial_chivalry.0002.desc:0 "I have ridden, taken aim, and struck so many times I thought nothing could upset my rhythm. As I take yet another gallop down the practice range, a commotion I cannot fully see makes my [ROOT.Char.Custom('LocalMount')] rear up.\n\nFor an instant, momentum keeps me pinned to the back of the [ROOT.Char.Custom('LocalMount')] as it starts shaking. Then, as if time is flowing slow, I can feel myself becoming dislodged."
+ martial_chivalry.0002.desc:0 "Мне казалось, что после стольких кругов и ударов на тренировочном поле меня уже не сбить с ритма. [ROOT.Char.Custom('LocalMount')] подо мной переходит на галоп в очередной раз, но внезапно пугается, и встает на дыбы.\n\nНа мгновение инерция прижимает меня к спине дрожащего животного. И медленно, словно во сне, я чувствую, как меня выбрасывает из седла."
  
- martial_chivalry.0002.increase_horse_mastery:1 "My mastery of [ROOT.Char.Custom('LocalMount')|U] riding increases, and with it my expertise in the [martial_lifestyle|E]."
+ martial_chivalry.0002.increase_horse_mastery:1 "Моё мастерство верховой езды увеличивается, как и мои познания в [Concept( 'martial_lifestyle', 'военном деле' )|E]."
 
- martial_chivalry.0003.desc:0 "I can feel myself being thrown left and right, but no motion can make me loosen my grasp on the reins and the saddle.\n\nMy commands eventually soothe the [ROOT.Char.Custom('LocalMount')], and the animal is soon back to stomping eagerly on the hard-packed ground, as stable as ever."
+ martial_chivalry.0003.desc:0 "Я чувствую, как меня мотает из стороны в сторону, но не выпускаю поводьев и не вылетаю из седла.\n\nНаконец мои люди усмиряют животное, и вскоре оно вновь вышагивает по утоптанной земле."
 
- martial_chivalry.0003.a.tt:1 "If nothing else, the incident has taught you a little more about controlling [ROOT.Char.Custom('LocalMountMultiple')]."
+ martial_chivalry.0003.a.tt:1 "По крайней мере, этот инцидент научил вас немного лучше контролировать [ROOT.Char.Custom('LocalMountMultiple')]."
 
- martial_chivalry.0005.t:0 ""What a Bad Day for [ROOT.Char.Custom('LocalMount')|U] Riding""
+ martial_chivalry.0005.t:0 ""Не лучший день для верховой езды""
  
- martial_chivalry.0006.a:0 "How did I end up in bed? Where is my [ROOT.Char.Custom('LocalMount')|U]?"
+ martial_chivalry.0006.a:0 "Почему я в кровати? Где [dummy_gender.GetSheHe|U] [ROOT.Char.Custom('LocalMount')|U]?"
 
- martial_chivalry.0007.t:0 "My Kingdom for a [ROOT.Char.Custom('LocalMount')|U]"
+ martial_chivalry.0007.t:0 "Полцарства за [ROOT.Char.Custom('LocalMount')|U]"
  
- martial_chivalry_special.1601.t:0 "Training a War[ROOT.Char.Custom('LocalMount')]"
- martial_chivalry_special.1601.desc:0 "As I inspect the stables my gaze is drawn to an animal kept away from all others. [dummy_gender.GetSheHe|U] throws [dummy_gender.GetHerHis] head and stomps the ground, displaying [dummy_gender.GetHerHis] powerful hindquarters and well-arched neck. This creature has the best of conformations and the worst of tempers.\n\nI have never seen such a war[ROOT.Char.Custom('LocalMount')] before, but the stable-master insists that [dummy_gender.GetSheHe] is impossible to train."
+ martial_chivalry_special.1601.t:0 "Тренировка боевого животного"
+ martial_chivalry_special.1601.desc:0 "Когда я осматриваю стойла, моё внимание обращает на себя животное, которое держат отдельно от остальных. [dummy_gender.GetSheHe|U] вскидывает голову и бьет по земле, демонстрируя мощный круп и гибкую шею. У этого животного превосходное строение и отвратительный нрав.\n\nТакого боевого зверя мне ещё не доводилось видеть, но мастер по животным настаивает, что [dummy_gender.GetHerHis] совершенно невозможно ничему научить."
 
- martial_chivalry_special.1601.c:0 "My stable-master will learn a lot from taming [dummy_gender.GetHerHim]."
- martial_chivalry_special.1601.a.tt:1 "The [ROOT.Char.Custom('LocalMount')|U] might become your own steed"
+ martial_chivalry_special.1601.c:0 "Мой мастер по животным многому научится, приручая [dummy_gender.GetHerHim]."
+ martial_chivalry_special.1601.a.tt:1 "[ROOT.Char.Custom('LocalMount')|U] может стать вашим собственным ездовым животным"
 
- martial_chivalry_special.1603.desc:1 "The [ROOT.Char.Custom('LocalMount')|U] pins [dummy_gender.GetHerHis] ears back as I approach, [dummy_gender.GetHerHis] disregard for me crystal clear. This first meeting is important to earn [dummy_gender.GetHerHis] trust and respect, and I need to decide how to go about it."
+ martial_chivalry_special.1603.desc:1 "[ROOT.Char.Custom('LocalMount')|U] прижимает [dummy_gender.GetHerHis] уши, когда я приближаюсь, [dummy_gender.GetHerHis] пренебрежение ко мне кристально ясно. Эта первая встреча важна, чтобы заработать [dummy_gender.GetHerHis] доверие и уважение, и мне нужно решить, как это сделать."
 
- martial_chivalry_special.1604.desc_success:0 "It is a mighty feeling; the powerful [ROOT.Char.Custom('LocalMount')|U] follows my every whim. Now that I have earned [dummy_gender.GetHerHis] trust [dummy_gender.GetSheHe] seems almost fond of me."
- martial_chivalry_special.1604.desc_failure:0 "No matter what I try the [ROOT.Char.Custom('LocalMount')|U] refuses to listen. My attempts leave both [dummy_gender.GetHerHim] and me sweating and angry, and as I leave the stables late in the evening I know that I am not coming back anytime soon."
- martial_chivalry_special.1604.a:1 "I will keep [dummy_gender.GetHerHim] as my personal war[ROOT.Char.Custom('LocalMount')|U]!"
+ martial_chivalry_special.1604.desc_success:0 "Я ощущаю невероятную власть; [ROOT.Char.Custom('LocalMount')|U] исполняет любое моё пожелание. Теперь, когда мне удалось заслужить [dummy_gender.GetHerHis] доверие, [dummy_gender.GetSheHe] похоже, будет без ума от меня."
+ martial_chivalry_special.1604.desc_failure:0 "Несмотря на все мои попытки, [ROOT.Char.Custom('LocalMount')|U] не желает слушаться. И я, и [ROOT.Char.Custom('LocalMount')|U] мокрые от пота и злые. Когда я покидаю стойла и отправляюсь ужинать, то понимаю, что в ближайшее время к этому скакуну не вернусь."
+ martial_chivalry_special.1604.a:1 "Я сделаю [dummy_gender.GetHerHis] личным боевым животным!"

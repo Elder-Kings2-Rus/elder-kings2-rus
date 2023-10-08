@@ -1,0 +1,14 @@
+﻿l_russian:
+ game_concept_species:0 "Виды"
+ game_concept_species_desc:0 "Людям, эльфам и каждому [Concept( 'heritage', 'наследию' )|E] зверолюдей был присвоен свой вид для возможности гибридизации, поскольку эльфы являются [Concept( 'gc_longlived', 'долгожителями' )|E], а зверолюди не могут размножаться вне своего [Concept( 'heritage', 'наследия' )|E]. Эта система отличается от того, как виды функционируют согласно лору Древних Свитков.\n\nОрки имеют такую же продолжительность жизни, как и люди, и могут гибридизироваться с ними."
+
+ is_same_species_desc:0 "[cultures|E] имеют общий [Concept( 'species', 'вид' )|E]"
+ is_different_species_desc:0 "[cultures|E] не имеют общего [Concept( 'species', 'вида' )|E]"
+
+ culture_parameter_species_argonian:0 ""
+ culture_parameter_species_daedric:0 ""
+ culture_parameter_species_elf:0 ""
+ culture_parameter_species_goblinken:0 ""
+ culture_parameter_species_human:0 ""
+ culture_parameter_species_khajiit:0 ""
+ culture_parameter_species_lilmothiit:0 ""

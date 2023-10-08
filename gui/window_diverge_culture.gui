@@ -19,7 +19,7 @@ window = {
 		on_start = "[GetVariableSystem.Set( 'culture_creation_tab', 'pillars' )]"
 		on_start = "[GetVariableSystem.Clear( 'culture_creation_right_view' )]"
 		on_start = "[GetVariableSystem.Clear('conversion_view_vassals')]"
-		on_start = "[DivergenceWindow.SetTraditionCategory( 'realm' )]"
+		on_start = "[DivergenceWindow.SetTraditionCategory( DivergenceWindow.GetTraditionGrouping( 'realm' ).GetCategory )]"
 	}
 
 	state = {
@@ -228,7 +228,6 @@ window = {
 													name = "selection_glow"
 													visible = "[DivergenceWindow.HasPillar( CulturePillar.Self )]"
 													parentanchor = center
-													position = { 2 2 }
 													size = { 100% 100% }
 
 													state = {
@@ -251,7 +250,7 @@ window = {
 
 													background = {
 														texture = "gfx/interface/component_effects/innovation_glow.dds"
-														margin = { 15 13 }
+														margin = { 15 12 }
 														spriteType = Corneredstretched
 														spriteborder = { 30 30 }
 														tintcolor = { 1 0.8 0.6 1 }
@@ -875,7 +874,6 @@ types DivergenceTypes
 					name = "selection_glow"
 					visible = "[ObjectsEqual( CultureTradition.Self, DivergenceWindow.GetSelectedTradition )]"
 					parentanchor = center
-					position = { 0 2 }
 					size = { 100% 100% }
 
 					state = {
@@ -953,8 +951,8 @@ types DivergenceTypes
 
 	type button_tabs_replace_tradition_category = button_standard {
 		layoutpolicy_horizontal = expanding
-		onclick = "[DivergenceWindow.SetTraditionCategory( TraditionGrouping.GetGroupingKey ))]"
-		down = "[DivergenceWindow.HasTraditionCategory( TraditionGrouping.GetGroupingKey )]"
+		onclick = "[DivergenceWindow.SetTraditionCategory( TraditionGrouping.GetCategory )]"
+		down = "[DivergenceWindow.HasTraditionCategory( TraditionGrouping.GetCategory )]"
 		text = "TRADITION_CATEGORY_DIVERGE_NAME"
 	}
 
@@ -982,7 +980,7 @@ types DivergenceTypes
 
 	# Needs a wrapping vbox as otherwise the blockoverride for the scrollbox_content doesn't work
 	type vbox_diverge_traditions_list = vbox {
-		visible = "[DivergenceWindow.HasTraditionCategory( TraditionGrouping.GetGroupingKey )]"
+		visible = "[DivergenceWindow.HasTraditionCategory( TraditionGrouping.GetCategory )]"
 		layoutpolicy_horizontal = expanding
 		layoutpolicy_vertical = expanding
 

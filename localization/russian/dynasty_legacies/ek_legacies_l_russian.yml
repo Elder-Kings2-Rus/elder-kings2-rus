@@ -1,19 +1,19 @@
 ﻿l_russian:
  # Dragonblood
  dragonblood_legacy_track_name:0 "Кровь Дракона"
- dragonblood_legacy_track_desc:0 "Пока кровь Дракона сильна в ее правителях, слава Империи будет длиться беспрерывно."
+ dragonblood_legacy_track_desc:0 "Пока кровь Дракона сильна в её правителях, слава Империи будет длиться беспрерывно."
  
- dragonblood_legacy_1_name:0 "Избранный Акатоша"
+ dragonblood_legacy_1_name:0 "Избранник Акатоша"
  dragonblood_legacy_2_name:0 "Искры амбиций"
  GAIN_SKILLS_DURING_CHILDHOOD:0 "[Concept('children', 'Дети')|E] этой [Concept('dynasty', 'династии')|E] получают [Concept('skills', 'навыки')|E] когда они вырастают"
  dragonblood_legacy_3_name:0 "Правление Человека-Дракона"
  dragonblood_legacy_4_name:0 "Драконья личность"
- dragonblood_legacy_5_name:0 "Рыцарь Дракон, Император Дракон"
- DRAGON_GUARD_DESCRIPTION:0 "#weak Можно набрать только один полк Драконьих Стражей#!"
+ dragonblood_legacy_5_name:0 "Рыцарь-Дракон, Император Дракон"
+ DRAGON_GUARD_DESCRIPTION:0 "#weak Можно набрать только один полк Дова Валок#!"
  
  # Hegemon
  hegemon_legacy_track_name:0 "Гегемон"
- hegemon_legacy_track_desc:0 "Большинство империй возникают и живут благодаря кровным узам. Как имя семьи звучит по всей земле, так и растет ее сила."
+ hegemon_legacy_track_desc:0 "Большинство империй возникают и живут благодаря кровным узам. Как имя семьи звучит по всей земле, так и растет её сила."
  
  hegemon_legacy_1_name:0 "Строители власти"
  CLAIM_DYNAST_SAME_COST_YOURSELF_PERK_BONUS:0 "[Concept('wars', 'Войны')|E] по [Concept('claim', 'претензии')|E] от имени члена вашей [Concept('dynasty', 'династии')|E] стоит столько же, сколько если бы вы были [Concept('claimant', 'претендентом')|El]"
@@ -47,6 +47,7 @@
  CAN_EDUCATE_MAGICAL_ARTS_NO_INNOVATION_PERK_BONUS:0 "[children|E] могут получить черту #V $trait_education_magical_ability$#!, если их [guardian|El] имеет черту #V $trait_arcana_good$#! или #V $trait_education_magical_ability$#!"
  MAGICAL_ARTS_EDUCATION_RESULT_BONUS_WITH_INNOVATION_PERK_BONUS:0 "#weak Инновации, раскрывающие подобные способности, вместо этого приведут к лучшим результатам#!"
  magicka_legacy_4_name:0 "Чародейское правление"
- UNLOCKS_MAGICAL_COURT_TYPE_PERK_BONUS:0 "Открывает [court_type|El] #V $court_magical$#!\n[court_grandeur|E] получает бонус, когда #V $court_magical$#!: #P +5#!"
+ UNLOCKS_MAGICAL_COURT_TYPE_PERK_BONUS:0 "Открывает [court_type|El] #V $court_magical$#!\n[court_grandeur|E] получает бонус, когда #V $court_magical$#!: #P +5#!\n$culture_parameter_magic_elective_enabled$\n Как вассал, вы можете запросить [Concept('vassals', 'вассальные')|E] [Concept('obligations', 'обязательства')|E] на основе Арканы у вашего сюзерена"
  magicka_legacy_5_name:0 "Многолетние ритуалы"
  ADDITIONAL_RITUAL_PERK_BONUS:0 "Позволяет провести один дополнительный постоянный ритуал"
+ magicka_legacy_trigger:0 "\n#weak Вы должны уметь использовать [Concept('magic', 'магию')|E], чтобы выбрать это наследие!#!"

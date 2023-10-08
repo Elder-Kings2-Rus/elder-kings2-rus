@@ -1,2 +1,3 @@
 ﻿l_russian:
- has_all_tribal_innovations:1 "Имеет #V 70%#! всех военных и гражданских $culture_era_tribal$ [Concept('innovations', 'иноваций')|E]."
+# Empire to High Kingdom replacement
+ I_ALREADY_HAVE_A_KINGDOM_OR_EMPIRE_CLAIM:0 "У вас уже есть [pressed_claim|El] на королевство или верховное королевство: $VALUE|=+0$"

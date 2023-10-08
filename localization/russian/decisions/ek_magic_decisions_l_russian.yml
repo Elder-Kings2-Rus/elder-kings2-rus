@@ -1,12 +1,25 @@
 ﻿l_russian:
  become_lich_decision:0 "Стать личем"
- become_lich_decision_desc:0 "С каждым днем моя плоть слабеет, и каждую ночь тусклое сияние Аркея насмехается надо мной. Хватит! Мое понимание нежизни растет, и цепи, связывающие меня со смертностью, могут быть разрушены моей волей. Я подвешу свою душу в пограничном пространстве, где ни темные воды Обливиона, ни ослепительный свет Этериуса не смогут ее найти!\n\nМне понадобится экзотические вещества со всего Аурбиса и множество жертвенных душ. Это грешная работа, и если моя вера не примет мои устремления, это будет намного труднее."
+ become_lich_decision_desc:0 "С каждым днём моя плоть слабеет, и каждую ночь тусклое сияние Аркея насмехается надо мной. Хватит! Моё понимание нежизни растет, и цепи, связывающие меня со смертностью, могут быть разрушены моей волей. Я подвешу свою душу в пограничном пространстве, где ни тёмные воды Обливиона, ни ослепительный свет Этериуса не смогут её найти!\n\nМне понадобится экзотические вещества со всего Аурбиса и множество жертвенных душ. Это грешная работа, и если моя вера не примет мои устремления, это будет намного труднее."
  become_lich_decision_tooltip:0 "Проведите религиозный ритуал, чтобы превратиться в лича."
- become_lich_decision_confirm:0 "Я не буду жив. Я не буду мертв."
+ become_lich_decision_confirm:0 "Я не буду [Select_CString(ROOT.Char.IsFemale, 'жива', 'жив' )]. Я не буду [Select_CString(ROOT.Char.IsFemale, 'мертва', 'мёртв' )]."
+ become_lich_decision_effect:0 "Вы начнёте приготовления к грандиозному магическому ритуалу"
+
+ become_lich_decision_ai:0 "Стать личем - ИИ"
+ become_lich_decision_ai_desc:0 "Если вы видите это, пожалуйста, сообщите об этой ошибке :)"
+ become_lich_decision_ai_confirm:0 "Я не буду [Select_CString(ROOT.Char.IsFemale, 'жива', 'жив' )]. Я не буду [Select_CString(ROOT.Char.IsFemale, 'мертва', 'мёртв' )]."
  
  become_necromancer_decision:0 "Стать некромантом"
  become_necromancer_decision_desc:0 "В этом мире есть вещи, участие в которых считается неразумным. Некромантия — одна из таких вещей. Это гнусная наука, это Темнейшее Искусство; одной этой практики достаточно, чтобы поставить клеймо на Колдовстве как на школе магии. Некоторые из самых ужасных людей в истории Тамриэля были некромантами.\n\nТем не менее... это наука. Возможно, она не пользуется уважением, но она предлагает реальные решения практических проблем и привносит новое измерение в магическую теорию в области транспланарной нимикомахии. Насколько это может быть неэтично?"
- become_necromancer_decision_tooltip:0 "Займитесь темными искусствами."
- become_necromancer_decision_confirm:0 "Конечно, они не заметят несколько пустых могил?"
+ become_necromancer_decision_effect.desc:0 "Запускает цепочку событий для получения свойства некроманта."
+ become_necromancer_decision_tooltip:0 "Попытайтесь овладеть тёмными искусствами."
+ become_necromancer_decision_confirm:0 "Изучим этот путь!"
+
+ reveal_necromancy_decision:0 "Раскрыть свои способности в некромантии"
+ reveal_necromancy_decision_desc:0 "Мои истинные способности слишком долго оставались скрытыми. Я [Select_CString(ROOT.Char.IsFemale, 'была', 'был' )] вынуждена работать в тени, скрываясь во тьме, словно нежить. Однако это время не было потрачено впустую. С каждым днём я становлюсь всё сильнее, разгадывая всё больше тайн жизни и смерти. Ныне я [Select_CString(ROOT.Char.IsFemale, 'готова', 'готов' )] явить миру своё истинное лицо.\n\nОднако спешное принятие данного решения было бы неразумным. Нужно выбрать подходящий момент. Я [Select_CString(ROOT.Char.IsFemale, 'должна быть готова', 'должен быть готов' )] к любым последствиям, которые повлечёт за собой это действие."
+ reveal_necromancy_decision_tooltip:0 "Покажите народам Нирна, на что вы способны."
+ reveal_necromancy_decision_confirm:0 "Они будут бояться меня."
  
- doctrine_necromancy_accepted_custom_desc:0 "Имеет доктрину «[GetFaithDoctrine('doctrine_necromancy_accepted').GetBaseName]» в отношении Некромантии"
+ doctrine_necromancy_accepted_custom_desc:0 "Ваша [faith|El] имеет доктрину некромантии [GetFaithDoctrine('tenet_necromancy_worship').GetBaseName]"
+ doctrine_necromancy_pragmatic_custom_desc:0 "Ваша [faith|El] имеет доктрину некромантии [GetFaithDoctrine('doctrine_necromancy_pragmatic').GetBaseName]"
+ doctrine_lichdom_accepted_custom_desc:0 "Ваша [faith|El] имеет доктрину [GetFaithDoctrine('tenet_necromancy_worship').GetBaseName] или [GetFaithDoctrine('doctrine_pantheon_dragons').GetBaseName]"

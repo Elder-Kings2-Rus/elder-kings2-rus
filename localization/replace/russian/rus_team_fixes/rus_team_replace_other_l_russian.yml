@@ -1,3 +1,26 @@
 ﻿l_russian:
- pay_homage.0101.desc.language:3 "Хотя [homage_vassal.GetTitleAsNameNoTooltip|l] несомненно [Select_CString(homage_vassal.IsFemale, 'училась', 'учился' )] произносить клятвы на языке народа, известного как [homage_liege.GetCulture.GetNameNoTooltip|l], [homage_vassal.GetSheHe] ошибается в нескольких местах, подменяя их смысл и вызывая сдавленные смешки у моих придворных."
+ pay_homage.0101.desc.language:3 "Хотя [homage_vassal.GetTitleAsNameNoTooltip|l] несомненно [Select_CString(homage_vassal.IsFemale, 'училась', 'учился' )] произносить клятвы на языке [homage_liege.GetCulture.GetCollectiveNounNoTooltip|l]ого народа, [homage_vassal.GetSheHe] ошибается в нескольких местах, подменяя их смысл и вызывая сдавленные смешки у моих придворных."
  crown:0 "Венценосцы"
+ motto_through_x_mind_y:0 "Через $1$ разум обретается $2$"
+ motto_the_x_mind_knows_y:0 "Через $1$ разум познается $2$"
+ motto_a_good:0 "добрый"
+ motto_a_calm:0 "спокойный"
+ motto_truth:0 "правда" # Scorg. В оригинале CK3 эта строка была без перевода
+ GOVERNMENT_RULE_INFO:0 "- Разрешено $RULE|Vl$"
+ GOVERNMENT_HOLDING_INFO:0 "- Можно включать [holding|El]: [HOLDING_TYPE.GetName|V]"
+ #world_innovation_camels:0 "Пустыни Хаммерфелла, Йокуды и Анеквины"
+ RULDER_DESIGNER_ETHNICITY_LABEL: "Этническая принадлежность"
+ # заглушки для энциклопедии
+ game_concept_required_task_5:0 "Задача 5"
+ game_concept_required_task_5_desc:0 "Разработчики пока не написали описание. Это временная заглушка."
+ game_concept_required_task_6:0 "Задача 6"
+ game_concept_required_task_6_desc:0 "Разработчики пока не написали описание. Это временная заглушка."
+ #huscarl_flavor:1 "#F Мастерски владея щитами, нордские хускарлы способны укрыться даже от залпа вражеских стрел.#!" # Кто такие немцы?
+ loremaster_court_position:0 "Хранитель знаний" # Scorg. Почему-то без замены в папке replace название должности не переводится.
+ convert_to_feudalism_liege_converted_decision:0 "Принять форму правления [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|l] через сюзерена" # Scorg. Так звучит длиннее, но красивее 
+ convert_to_feudalism_liege_converted_decision_desc:1 "Моя держава растет, и контролировать её всё сложнее. Мой сюзерен уже следует такой системе, как [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|l], и, когда я буду проводить реформы в своих владениях, мне стоит попросить [ROOT.Char.GetLiege.GetHerHis] помощи." # Scorg. Форма правления с маленькой буквы
+ CHANGE_MY_GOVERNMENT:0 "Вашей новой формой правления станет [GOVERNMENT.GetName|l]" # Scorg. Форма правления с маленькой буквы
+ huntwife_court_position:0 "Жена-охотница" # Scorg. Почему-то без замены в папке replace название должности не переводится.
+ forgewife_court_position:0 "Кузнечная жена" # Scorg. Почему-то без замены в папке replace название должности не переводится.
+ hearthwife_court_position:0 "Жена-хозяйка" # Scorg. Почему-то без замены в папке replace название должности не переводится.
+ court_housecarl_court_position:0 "Королевский хускарл" # Scorg. Почему-то без замены в папке replace название должности не переводится.

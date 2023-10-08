@@ -1,28 +1,48 @@
 ﻿l_russian:
  setting_1453_end_date:0 "2Э 896 / 3816"
- setting_1453_end_date_desc:0 "Игра закончится в 2Э 896, последнем году Второй эры.."
+ setting_1453_end_date_desc:0 "Игра закончится в 2Э 896, последнем году Второй эры."
 
- rule_hybrid_and_divergence_cooldowns:0 "Отсрочка отделения и гибридизации культур"
- setting_default_hybrid_and_divergence_cooldowns:0 "По умолчанию"
- setting_default_hybrid_and_divergence_cooldowns_desc:0 "[cultures|E] могут [Concept( 'diverge', 'отделяться' )|E] только если просуществовали не менее #V 100#! лет."
- setting_slower_hybrid_and_divergence_cooldowns:0 "#high Медленнее#!"
- setting_slower_hybrid_and_divergence_cooldowns_desc:0 "[cultures|E] могут [Concept( 'diverge', 'отделяться' )|E] только если просуществовали не менее #V 200#! лет."
- setting_no_hybrid_and_divergence_cooldowns:0 "#high Без времени восстановления#!"
- setting_no_hybrid_and_divergence_cooldowns_desc:0 "Чтобы [Concept( 'diverge', 'отделиться' )|E], [culture|El] должна выдержать определенный период."
- setting_faster_hybrid_and_divergence_cooldowns:0 "#high Быстрее#!"
- setting_faster_hybrid_and_divergence_cooldowns_desc:0 "[[cultures|E] могут [Concept( 'diverge', 'отделяться' )|E] только если просуществовали не менее #V 50#! лет."
-
- setting_default_regional_heresy_desc:0 "Возникновение еретических учений в определенных регионах часто соответствует историческим событиям, таким как ??? в ???."
+ setting_default_regional_heresy_desc:0 "Возникновение еретических учений в определенных регионах часто соответствует историческим событиям, таким как Культ Героев в Коловии."
 
  rule_same_sex_marriage:0 "Однополые отношения"
  setting_default_same_sex_marriage:0 "По умолчанию"
  setting_default_same_sex_marriage_desc:0 "Однополые отношения абсолютно неприемлемы."
  setting_accepted_same_sex_marriage:1 "#high Приемлемы#!"
- setting_accepted_same_sex_marriage_desc:0 "Однополые браки и наложничество доступно всем персонажам, конфессия которых допускает подобные отношения, а культура поддерживает наложничество. Чтобы сделать их доступными для #EMP всех#!, установите игровое правило $rule_same_sex_relations$ Game Rule к $setting_accepted_same_sex_relations$!"+
-
- rule_hybrid_culture_ai_frequency:0 "Гибридизация культур"
- setting_none_hybrid_culture_ai_frequency:0 "#high Отключено#!"
- setting_none_hybrid_culture_ai_frequency_desc:0 "В EK2 культуры не могут гибридизоваться из-за несовместимости с нашей системой рас. Это не может быть решено в настоящее время."
+ setting_accepted_same_sex_marriage_desc:0 "Однополые браки и наложничество доступно всем персонажам, конфессия которых допускает подобные отношения, а культура поддерживает наложничество. Чтобы сделать их доступными для #EMP всех#!, установите игровое правило $rule_same_sex_relations$ Game Rule к $setting_accepted_same_sex_relations$!"
  
  setting_accepted_same_sex_marriage:1 "#high Принято - строго#!"
  setting_accepted_same_sex_marriage_desc:0 "То же, что и в обычной игре, но однополые браки ограничены соответствующей сексуальностью. Чтобы отключить это для игроков, см. $setting_ek_accepted_same_sex_marriage_anyone_player$."
+ 
+###### Hybridization ######
+
+ rule_hybrid_culture_ai_restrictions:0 "#R Elder Kings:#! Гибридизация"
+ setting_very_relaxed_hybrid_culture_ai_restrictions:0 "Виды"
+ setting_very_relaxed_hybrid_culture_ai_restrictions_desc:0 "Создание [Concept( 'hybrid_cultures', 'гибридных культур' )|E] возможна только тогда, когда обе культуры принадлежат к одинаковому [Concept( 'species', 'виду' )|E]. Это единственный способ в настоящее время заставить гибридизацию работать."
+
+ rule_hybrid_culture_ai_frequency:0 "Частота гибридных культур"
+ setting_default_hybrid_culture_ai_frequency:0 "По умолчанию"
+ setting_default_hybrid_culture_ai_frequency_desc:0 "[hybrid_cultures|E] будут появляться в обычном количестве."
+
+ setting_less_common_hybrid_culture_ai_frequency:0 "#high Реже#!"
+ setting_less_common_hybrid_culture_ai_frequency_desc:0 "[hybrid_cultures|E] будут появляться реже."
+
+ setting_none_hybrid_culture_ai_frequency:0 "#high Нет#!"
+ setting_none_hybrid_culture_ai_frequency_desc:0 "[hybrid_cultures|E] могут быть созданы только игроками."
+
+ rule_hybrid_and_divergence_cooldowns:0 "Отсрочка отделения и гибридизации культур"
+ setting_default_hybrid_and_divergence_cooldowns:0 "По умолчанию"
+ setting_default_hybrid_and_divergence_cooldowns_desc:0 "[cultures|E] могут [Concept( 'diverge', 'отделяться' )|E] только если просуществовали не менее #V 100#! лет, и вливаться в [Concept( 'hybridize', 'гибриды' )|E], просуществовав не менее #V 50#! лет."
+
+ setting_slower_hybrid_and_divergence_cooldowns:0 "#high Медленнее#!"
+ setting_slower_hybrid_and_divergence_cooldowns_desc:0 "[cultures|E] могут [Concept( 'diverge', 'отделяться' )|E] только если просуществовали не менее #V 200#! лет, и вливаться в [Concept( 'hybridize', 'гибриды' )|E], просуществовав не менее #V 100#! лет."
+
+ setting_faster_hybrid_and_divergence_cooldowns:0 "#high Быстрее#!"
+ setting_faster_hybrid_and_divergence_cooldowns_desc:0 "[cultures|E] могут [Concept( 'diverge', 'отделяться' )|E] только если просуществовали не менее #V 50#! лет, и вливаться в [Concept( 'hybridize', 'гибриды' )|E], просуществовав не менее #V 25#! лет."
+ 
+# Empire to High Kingdom replacement
+ rule_empire_obscurity_requirement:0 "Забвение верховного королевства"
+ game_rule.4.desc:0 "Я не могу отрицать, что моё любимое верховное королевство, [falling_empire.GetBaseName], пало — и пало глубоко...\n\nЯ с трудом удерживаю жалкие остатки его традиционных территорий. Тень былого величия, моя верховное королевство медленно, но верно уходит в забвение."
+ game_rule.4.b:0 "Прощай, дорогое верховное королевство..."
+
+ setting_on_custom_kingdoms_desc:0 "Можно создавать собственные королевства и верховные королевства, не имеющие исторических аналогов."
+ setting_off_custom_kingdoms_desc:0 "Невозможно создавать собственные королевства и верховные королевства, не имеющие исторических аналогов."

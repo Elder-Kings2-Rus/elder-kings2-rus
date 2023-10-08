@@ -5,13 +5,13 @@
 
  GeneratePoem_Intro_Rhyming_RomanceEK_01:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_RomanceEK_01_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_RomanceEK_01_B')]#!"
  GeneratePoem_Intro_Rhyming_RomanceEK_02:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_RomanceEK_02_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_RomanceEK_02_B')]#!"
- GeneratePoem_Intro_Rhyming_RomanceEK_01_A_01:0 "Положив голову на свою подушку\nПеред моими глазами тут же заиграили яркие сны,"
- GeneratePoem_Intro_Rhyming_RomanceEK_01_B_01:0 "Я снова жажду, чтобы пришел сон\nПотому что день утопил бы меня в своей лжи."
+ GeneratePoem_Intro_Rhyming_RomanceEK_01_A_01:0 "Положив голову на свою подушку\nПеред моими глазами тут же заиграли яркие сны,"
+ GeneratePoem_Intro_Rhyming_RomanceEK_01_B_01:0 "Я снова жажду, чтобы пришёл сон\nПотому что день утопил бы меня в своей лжи."
 
  GeneratePoem_Outro_Rhyming_RomanceEK_01:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Outro_Rhyming_RomanceEK_01_A')]\n[ROOT.Char.Custom('GeneratePoem_Outro_Rhyming_RomanceEK_01_B')]#!"
  GeneratePoem_Outro_Rhyming_RomanceEK_02:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Outro_Rhyming_RomanceEK_02_A')]\n[ROOT.Char.Custom('GeneratePoem_Outro_Rhyming_RomanceEK_02_B')]#!"
 
  GeneratePoem_Outro_Rhyming_RomanceEK_01_A_01:0 "Моя любовь лежит рядом со мной\n[ROOT.Var('poem_subject').Char.GetHerHis] его улыбка сияет, [ROOT.Var('poem_subject').Char.GetHerHis] он весь сияет"
  GeneratePoem_Outro_Rhyming_RomanceEK_01_B_01:0 "Всегда приходит смерть [ROOT.Var('poem_subject').Char.GetHerHim] \nНо потом наступает утро [ROOT.Var('poem_subject').Char.GetSheHe] и все начинается с начала"
- GeneratePoem_Outro_Rhyming_RomanceEK_02_A_01:0 "Я усну еще раз\nИ никогда не проснусь"
+ GeneratePoem_Outro_Rhyming_RomanceEK_02_A_01:0 "Я усну ещё раз\nИ никогда не проснусь"
  GeneratePoem_Outro_Rhyming_RomanceEK_02_B_01:0 "Моя душа этой ночью\nПропадет на веки"

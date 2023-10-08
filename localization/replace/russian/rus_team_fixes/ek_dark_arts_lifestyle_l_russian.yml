@@ -1,0 +1,39 @@
+﻿l_russian:
+ ### Dark Arts
+ dark_arts_lifestyle_name:0 "Тёмные искусства"
+ dark_arts_lifestyle_desc:0 "Сосредоточьтесь на изучении запретных знаний и сил для достижения результатов, которые считаются слишком опасными для обучения обычными средствами."
+ dark_arts_lifestyle_highlight_desc:0 "$dark_arts_lifestyle_highlight_necromancer_traits$$dark_arts_lifestyle_highlight_lichdom_traits$"
+ dark_arts_lifestyle_highlight_necromancer_traits:0 "[GetPlayer.Custom('necromancer_trait_group_impact_dark_arts_lifestyle_experience')]"
+ necromancer_trait_impact_dark_arts_lifestyle_experience:0 "Из-за того, что вы имеете свойство #V $trait_necromancer$#!, ваш прирост [Concept( 'experience', 'опыта' )|El] для этого образа жизни увеличен на #P +10%#!."
+ experimentalist_necromancer_trait_impact_dark_arts_lifestyle_experience:0 "Из-за того, что вы имеете свойство #V $trait_experimentalist_necromancer$#!, ваш прирост [Concept( 'experience', 'опыта' )|El] для этого образа жизни увеличен на #P +10%#!."
+ dark_arts_lifestyle_highlight_lichdom_traits:0 "[GetPlayer.Custom('lichdom_trait_group_impact_dark_arts_lifestyle_experience')]"
+ lich_trait_impact_dark_arts_lifestyle_experience:0 "Из-за того, что вы имеете свойство #V $trait_lich_character$#!, ваш прирост [Concept( 'experience', 'опыта' )|El] для этого образа жизни увеличен на #P +20%#!."
+ # Mysticism
+ dark_arts_mysticism_focus:0 "Мистицизм"
+ dark_arts_mysticism_focus_modifier:1 "[GetFocus('dark_arts_mysticism_focus').GetName]"
+ dark_arts_mysticism_focus_desc:0 "Тело — это просто сосуд для настоящей силы, которая заключена в душах и пережитках. Манипулировать ими - это путь как к великолепию, так и к ужасу."
+ dark_arts_mysticism_focus_effect_desc:0 "Сосредоточение на мистицизме даёт:" 
+ # Daedric Succour
+ dark_arts_daedric_succour_focus:0 "Даэдрические планы"
+ dark_arts_daedric_succour_focus_modifier:1 "[GetFocus('dark_arts_daedric_succour_focus').GetName]"
+ dark_arts_daedric_succour_focus_desc:0 "Существует великое и ужасное знание, запечатанное на планах Обливиона. Обращение за советом к принцам даст доступ к некоторым из них."
+ dark_arts_daedric_succour_focus_effect_desc:0 "Сосредоточение на даэдрических планах даёт:"
+ # Blood Magic
+ dark_arts_blood_magic_focus:0 "Магии крови"
+ dark_arts_blood_magic_focus_modifier:1 "[GetFocus('dark_arts_blood_magic_focus').GetName]"
+ dark_arts_blood_magic_focus_desc:0 "Каждый шаг к истинной силе требует жертв. Но те, кто готов заплатить цену, в конце концов получат достойную награду."
+ dark_arts_blood_magic_focus_effect_desc:0 "Сосредоточение на магии крови даёт:"
+
+ # Perks
+ necromancy_name:0 "Некромантия"
+ necromancy_novice_perk_effect:0 "Открывает заклинания некромантии начального уровня:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('necromancy') ).AddScope('tier', MakeScopeValue('(CFixedPoint)1') ).End)]"
+ necromancy_apprentice_perk_effect:0 "Открывает заклинания некромантии уровня ученика:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('necromancy') ).AddScope('tier', MakeScopeValue('(CFixedPoint)2') ).End)]"
+ necromancy_journeyman_perk_effect:0 "Открывает заклинания некромантии уровня адепта:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('necromancy') ).AddScope('tier', MakeScopeValue('(CFixedPoint)3') ).End)]"
+ necromancy_expert_perk_effect:0 "Открывает заклинания некромантии уровня эксперта:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('necromancy') ).AddScope('tier', MakeScopeValue('(CFixedPoint)4') ).End)]"
+ necromancy_master_perk_effect:0 "Открывает заклинания некромантии уровня мастера:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('necromancy') ).AddScope('tier', MakeScopeValue('(CFixedPoint)5') ).End)]"
+ no_necromancy_trait_perk_effect:0 "Вы должны быть некромантом, прежде чем сможете выбрать этот перк."
+ necromancy_minor_rituals_perk_effect:0 "Открывает простые [rituals|El] некромантии"
+ necromancy_medium_rituals_perk_effect:0 "Открывает обычные [rituals|El] некромантии"
+ necromancy_major_rituals_perk_effect:0 "Открывает главные [rituals|El] некромантии"
+
+CAN_CONSULT_SOUL_LOST_LOVED_ONES_DECISION:0 "Можно использовать решение «Обратиться к душе любимого человека», позволяющее персонажу в последний раз поговорить с персонажем, который ему дорог."

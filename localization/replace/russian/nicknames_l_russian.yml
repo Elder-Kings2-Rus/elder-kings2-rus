@@ -1,0 +1,6 @@
+﻿l_russian:
+# EK EDIT: to avoid John "the Imperial Cult" Cena
+ nick_the_faith:0 "[CHARACTER.GetFaith.GetNameNoTooltip][Select_CString(CHARACTER.IsFemale, 'ая', 'ий' )]"
+ nick_the_faith_desc:2 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] an ardent [CHARACTER.GetFaith.GetAdherentName] out of place, making [CharYouHerHim(CHARACTER)] a novelty in the eyes of others."
+ nick_the_chronicler:0 "[Select_CString(CHARACTER.IsFemale, 'Хронистка', 'Хронист' )]"
+ nick_the_chronicler_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat] enjoy[_s(CHARACTER)] inking stories, wielding fact and fiction alike. We can only hope [CharYourHerHis(CHARACTER)] 'chronicles' are free of #EMP myth, invention, bias or propaganda#!!"

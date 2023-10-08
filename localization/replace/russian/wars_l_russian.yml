@@ -1,3 +1,6 @@
 ﻿l_russian:
  MEDI_CONQUEST_CB_NAME:0 "Абесинское завоевание [county|E]"
  fp2_mediterranean_conquest_cb:0 "Абесинское завоевание"
+ 
+ # Empire to High Kingdom replacement
+ CB_COST_RULES_EMPIRE:0 "Правит верховным королевством"

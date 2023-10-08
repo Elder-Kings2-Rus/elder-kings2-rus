@@ -5,7 +5,7 @@
  trait_p_dv_akatosh:0 "Божество-покровитель - [ROOT.Char.Custom('GetDvAkatoshName')]"
  trait_p_dv_akatosh_base:0 "Последователь Акатоша"
  trait_p_dv_akatosh_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_dv_akatosh_desc' )]"
- trait_p_dv_akatosh_desc:0 "Последователь Акатоша. Также известного как Ауриэль, Алкош и Ака."
+ trait_p_dv_akatosh_desc:0 "Последователь Акатоша."
  trait_p_dv_akatosh_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetDvAkatoshName')]."
 
  trait_p_dv_arkay:0 "Божество-покровитель - [ROOT.Char.Custom('GetDvArkayName')]"
@@ -82,9 +82,9 @@
  trait_p_ae_phynaster_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAePhynasterName')]."
 
  trait_p_ae_syrabane:0 "Божество-покровитель - [ROOT.Char.Custom('GetAeSyrabaneName')]"
- trait_p_ae_syrabane_base:0 "Последователь Сирабейн"
+ trait_p_ae_syrabane_base:0 "Последователь Сирабейна"
  trait_p_ae_syrabane_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ae_syrabane_desc' )]"
- trait_p_ae_syrabane_desc:0 "Последователь Сирабейн"
+ trait_p_ae_syrabane_desc:0 "Последователь Сирабейна"
  trait_p_ae_syrabane_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAeSyrabaneName')]."
 
  trait_p_ae_trinimac:0 "Божество-покровитель - [ROOT.Char.Custom('GetAeTrinimacName')]"
@@ -103,7 +103,7 @@
  trait_p_ae_xen_base:0 "Последователь З'ена"
  trait_p_ae_xen_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ae_xen_desc' )]"
  trait_p_ae_xen_desc:0 "Последователь З'ена"
- trait_p_ae_xen_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]является последователем божества, известного как [ROOT.Char.Custom('GetAeXenName')]."
+ trait_p_ae_xen_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAeXenName')]."
  
  # Daedra
  trait_p_ob_azura:0 "Принц-покровитель - [ROOT.Char.Custom('GetObAzuraName')]"
@@ -176,13 +176,13 @@
  trait_p_ob_nocturnal_base:0 "Последователь Ноктюрнал"
  trait_p_ob_nocturnal_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ob_nocturnal_desc' )]"
  trait_p_ob_nocturnal_desc:0 "Последователь Ноктюрнал."
- trait_p_ob_nocturnal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]является последователем Принца даэдра, известного как [ROOT.Char.Custom('GetObNocturnalName')]."
+ trait_p_ob_nocturnal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Принца даэдра, известного как [ROOT.Char.Custom('GetObNocturnalName')]."
  
  trait_p_ob_peryite:0 "Принц-покровитель - [ROOT.Char.Custom('GetObPeryiteName')]"
  trait_p_ob_peryite_base:0 "Последователь Периайта"
  trait_p_ob_peryite_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ob_peryite_desc' )]"
  trait_p_ob_peryite_desc:0 "Последователь Периайта."
- trait_p_ob_peryite_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]является последователем Принца даэдра, известного как [ROOT.Char.Custom('GetObPeryiteName')]."
+ trait_p_ob_peryite_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Принца даэдра, известного как [ROOT.Char.Custom('GetObPeryiteName')]."
  
  trait_p_ob_sanguine:0 "Принц-покровитель - [ROOT.Char.Custom('GetObSanguineName')]"
  trait_p_ob_sanguine_base:0 "Последователь Сангвина"
@@ -228,11 +228,11 @@
  trait_p_da_lost_king_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Потерянного Короля, который путешествует и правит своим народом, несмотря на то, что разлучен с ним."
  
  # Atmoran Totems
- trait_p_at_hawk:0 "Божество-покровитель - [ROOT.Char.Custom('GetDvKynarethName')]"
+ trait_p_at_hawk:0 "Божество-покровитель - [ROOT.Char.Custom('GetAtHawkName')]"
  trait_p_at_hawk_base:0 "Последователь Сокола"
  trait_p_at_hawk_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_hawk_desc' )]"
  trait_p_at_hawk_desc:0 "Последователь Сокола"
- trait_p_at_hawk_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetDvKynarethName')], благородного Сокола, правящего небесами и летящего с ветром."
+ trait_p_at_hawk_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAtHawkName')], благородного Сокола, правящего небесами и летящего с ветром."
  ##the noble Hawk, who rules the skies and flies with the wind.
  
  trait_p_at_wolf:0 "Божество-покровитель - Волчица"
@@ -241,11 +241,11 @@
  trait_p_at_wolf_desc:0 "Последователь Волчицы"
  trait_p_at_wolf_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Волчицы, защищающей своих детей и свой дом вместе со своей стаей."
  
- trait_p_at_snake:0 "Божество-покровитель - [ROOT.Char.Custom('GetDvArkayName')]"
+ trait_p_at_snake:0 "Божество-покровитель - [ROOT.Char.Custom('GetAtSnakeName')]"
  trait_p_at_snake_base:0 "Последователь Змеи"
  trait_p_at_snake_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_snake_desc' )]"
  trait_p_at_snake_desc:0 "Последователь Змеи"
- trait_p_at_snake_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetDvArkayName')], хитрой Змеи, ползающей по земле и скрывающейся от великих зверей."
+ trait_p_at_snake_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAtSnakeName')], хитрой Змеи, ползающей по земле и скрывающейся от великих зверей."
  ##the cunning Snake, who slithers on the ground and hides from greater beasts.
  
  trait_p_at_moth:0 "Божество-покровитель - Мотылек"
@@ -254,40 +254,40 @@
  trait_p_at_moth_desc:0 "Последователь Мотылька"
  trait_p_at_moth_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем мудрого Мотылька, помогающего нам ориентироваться в ткани мира."
  
- trait_p_at_owl:0 "Божество-покровитель - [ROOT.Char.Custom('GetDvJulianosName')]"
+ trait_p_at_owl:0 "Божество-покровитель - [ROOT.Char.Custom('GetAtOwlName')]"
  trait_p_at_owl_base:0 "Последователь Филина"
  trait_p_at_owl_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_owl_desc' )]"
  trait_p_at_owl_desc:0 "Последователь Филина"
- trait_p_at_owl_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetDvJulianosName')], мудрого Филина, оберегающего древние магические искусства."
+ trait_p_at_owl_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAtOwlName')], мудрого Филина, оберегающего древние магические искусства."
  ## is a follower of the wise Owl, who guards the old magical arts.
  
- trait_p_at_whale:0 "Божество-покровитель - [ROOT.Char.Custom('GetDvStendarrName')]"
+ trait_p_at_whale:0 "Божество-покровитель - [ROOT.Char.Custom('GetAtWhaleName')]"
  trait_p_at_whale_base:0 "Последователь Кита"
  trait_p_at_whale_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_whale_desc' )]"
  trait_p_at_whale_desc:0 "Последователь Кита"
- trait_p_at_whale_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetDvStendarrName')], долголетнего Кита, наставляющего наши души в загробном мире."
+ trait_p_at_whale_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAtWhaleName')], долголетнего Кита, наставляющего наши души в загробном мире."
  TRAIT_FLAG_DESC_more_captives_from_battles:0 "Повышенный шанс захвата [Concept('prisoners', 'пленников')|E] в [Concept('battle', 'сражениях')|E]"
  ##the long-lived Whale, who guides our souls to the afterlife.
  
- trait_p_at_bear:0 "Божество-покровитель - [ROOT.Char.Custom('GetDvZenitharName')]"
+ trait_p_at_bear:0 "Божество-покровитель - [ROOT.Char.Custom('GetAtBearName')]"
  trait_p_at_bear_base:0 "Последователь Медведя"
  trait_p_at_bear_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_bear_desc' )]"
  trait_p_at_bear_desc:0 "Последователь Медведя"
- trait_p_at_bear_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetDvZenitharName')], могучего Медведя, которого страшатся и уважают окружающие."
+ trait_p_at_bear_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAtBearName')], могучего Медведя, которого страшатся и уважают окружающие."
  ##is a follower of the mighty Bear, feared and respected by everyone."
  
- trait_p_at_fox:0 "Божество-покровитель - [ROOT.Char.Custom('GetDvShezarrName')]"
+ trait_p_at_fox:0 "Божество-покровитель - [ROOT.Char.Custom('GetAtFoxName')]"
  trait_p_at_fox_base:0 "Последователь Лисы"
  trait_p_at_fox_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_fox_desc' )]"
  trait_p_at_fox_desc:0 "Последователь Лисы"
- trait_p_at_fox_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetDvShezarrName')], маленького Лиса, который выглядит нежным и невинным, но свиреп против своих врагов."
+ trait_p_at_fox_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAtFoxName')], маленького Лиса, который выглядит нежным и невинным, но свиреп против своих врагов."
  ##is a follower of the small Fox, who while looking gentle and innocent knows to be fierce against his enemies.
  
- trait_p_at_dragon:0 "Божество-покровитель - [ROOT.Char.Custom('GetDvAkatoshName')]"
+ trait_p_at_dragon:0 "Божество-покровитель - [ROOT.Char.Custom('GetAtDragonName')]"
  trait_p_at_dragon_base:0 "Последователь Дракона"
  trait_p_at_dragon_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_dragon_desc' )]"
  trait_p_at_dragon_desc:0 "Последователь Дракона"
- trait_p_at_dragon_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetDvAkatoshName')], великого Дракона, который первым явился в этот мир и является его законным смотрителем и защитником."
+ trait_p_at_dragon_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAtDragonName')], великого Дракона, который первым явился в этот мир и является его законным смотрителем и защитником."
  ##the great Dragon, who first came into this world and is its rightful watcher and protector.
  
  # Elemental Gods
@@ -315,11 +315,11 @@
  trait_p_eg_ilni_desc:0 "Последователь Ильни"
  trait_p_eg_ilni_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Ильни, Воздуха и Запада."
  
- trait_p_eg_tam:0 "Божество-покровитель - Там"
- trait_p_eg_tam_base:0 "Последователь Там"
+ trait_p_eg_tam:0 "Божество-покровитель - Тэм"
+ trait_p_eg_tam_base:0 "Последователь Тэма"
  trait_p_eg_tam_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_eg_tam_desc' )]"
- trait_p_eg_tam_desc:0 "Последователь Там"
- trait_p_eg_tam_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Там, Жизни и Центра."
+ trait_p_eg_tam_desc:0 "Последователь Тэма"
+ trait_p_eg_tam_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Тэма, Жизни и Центра."
  
  # Cyrodiilic Heroes
  trait_p_ch_alessia:0 "Покровитель - Святая Алессия"
@@ -332,7 +332,7 @@
  trait_p_ch_pelinal_base:0 "Последователь Пелинала"
  trait_p_ch_pelinal_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ch_pelinal_desc' )]"
  trait_p_ch_pelinal_desc:0 "Последователь Пелинала"
- trait_p_ch_pelinal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Пелинала Вайтстрейка, чемпиона королевы Алессии, уничтожавшего ее врагов и возводившего множество королевств на протяжении веков."
+ trait_p_ch_pelinal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Пелинала Вайтстрейка, чемпиона королевы Алессии, уничтожавшего её врагов и возводившего множество королевств на протяжении веков."
  
  trait_p_ch_morihaus:0 "Покровитель - Морихаус"
  trait_p_ch_morihaus_base:0 "Последователь Морихауса"
@@ -357,6 +357,55 @@
  trait_p_ch_attrebus_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ch_attrebus_desc' )]"
  trait_p_ch_attrebus_desc:0 "Последователь Аттребуса"
  trait_p_ch_attrebus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Аттребуса, объединившего Тамриэль и уничтожившего остатки акавирского Потентата, освободив Сиродил и весь Тамриэль от акавирского ига."
+
+ # Thousand Cults
+ trait_p_tc_aka:0 "Культист Ака"
+ trait_p_tc_aka_base:0 "Культист Ака"
+ trait_p_tc_aka_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_aka_desc' )]"
+ trait_p_tc_aka_desc:0 "Член культа Ака"
+ trait_p_tc_aka_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом культа Ака."
+
+ trait_p_tc_missing:0 "Культист Потерянного"
+ trait_p_tc_missing_base:0 "Культист Потерянного"
+ trait_p_tc_missing_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_missing_desc' )]"
+ trait_p_tc_missing_desc:0 "Член культа Потерянного"
+ trait_p_tc_missing_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом культа Потерянного."
+
+ trait_p_tc_land:0 "Культист Земли"
+ trait_p_tc_land_base:0 "Культист Земли"
+ trait_p_tc_land_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_land_desc' )]"
+ trait_p_tc_land_desc:0 "Член культа Земли"
+ trait_p_tc_land_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом культа Земли."
+
+ trait_p_tc_moth:0 "Культист Мотылька Предка"
+ trait_p_tc_moth_base:0 "Культист Мотылька Предка"
+ trait_p_tc_moth_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_moth_desc' )]"
+ trait_p_tc_moth_desc:0 "Член культа Мотылька Предка"
+ trait_p_tc_moth_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом культа Мотылька Предка."
+
+ trait_p_tc_beasts:0 "Культист Богов-зверей"
+ trait_p_tc_beasts_base:0 "Культист Богов-зверей"
+ trait_p_tc_beasts_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_beasts_desc' )]"
+ trait_p_tc_beasts_desc:0 "Член культа Богов-зверей"
+ trait_p_tc_beasts_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом культа Богов-зверей."
+
+ trait_p_tc_love:0 "Культист Любви"
+ trait_p_tc_love_base:0 "Культист Любви"
+ trait_p_tc_love_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_love_desc' )]"
+ trait_p_tc_love_desc:0 "Член культа Любви"
+ trait_p_tc_love_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом культа Любви."
+
+ trait_p_tc_guilds:0 "Культист Гильдий"
+ trait_p_tc_guilds_base:0 "Культист Гильдий"
+ trait_p_tc_guilds_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_guilds_desc' )]"
+ trait_p_tc_guilds_desc:0 "Член культа Гильдий"
+ trait_p_tc_guilds_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом культа Гильдий."
+
+ trait_p_tc_heavens:0 "Культист Небес"
+ trait_p_tc_heavens_base:0 "Культист Небес"
+ trait_p_tc_heavens_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_heavens_desc' )]"
+ trait_p_tc_heavens_desc:0 "Член культа Небес"
+ trait_p_tc_heavens_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом культа Небес."
 
  #Yokudan Pantheon
  trait_p_yp_diagna:0 "Божество-покровитель - Диагна"
@@ -421,10 +470,10 @@
  trait_p_tr_almalexia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Альмалексии, Матери Морровинда."
 
  trait_p_tr_sotha:0 "Божество-покровитель - Сота Сил"
- trait_p_tr_sotha_base:0 "Последователь Соты Сила"
+ trait_p_tr_sotha_base:0 "Последователь Сота Сила"
  trait_p_tr_sotha_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tr_sotha_desc' )]"
- trait_p_tr_sotha_desc:0 "Последователь Соты Сила"
- trait_p_tr_sotha_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Соты Сила, Заводного Бога."
+ trait_p_tr_sotha_desc:0 "Последователь Сота Сила"
+ trait_p_tr_sotha_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Сота Сила, Заводного Бога."
 
  # Velothi Saints
  trait_p_vl_aralor:0 "Покровитель - Святой Аралор"
@@ -469,12 +518,6 @@
  trait_p_vl_seryn_desc:0 "Последователь Святой Серин"
  trait_p_vl_seryn_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Святой Серин Милосердной."
 
- trait_p_vl_felms:0 "Покровитель - Святой Фелмс"
- trait_p_vl_felms_base:0 "Последователь Святого Фелмса"
- trait_p_vl_felms_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_vl_felms_desc' )]"
- trait_p_vl_felms_desc:0 "Последователь Святого Фелмса"
- trait_p_vl_felms_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Святого Фелмса Отважного."
-
  trait_p_vl_veloth:0 "Покровитель - Святой Велот"
  trait_p_vl_veloth_base:0 "Последователь Святого Велота"
  trait_p_vl_veloth_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_vl_veloth_desc' )]"
@@ -488,13 +531,129 @@
  trait_p_vl_vorys_desc:0 "Последователь Святого Вориса"
  trait_p_vl_vorys_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Святого Вориса Жертвенного."
 
+ trait_p_vl_llothis:0 "Покровитель - Святой Ллотис"
+ trait_p_vl_llothis_base:0 "Последователь Святого Ллотиса"
+ trait_p_vl_llothis_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_vl_llothis_desc' )]"
+ trait_p_vl_llothis_desc:0 "Последователь Святого Ллотиса"
+ trait_p_vl_llothis_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Святого Ллотиса Благочестивого."
+
+#Khajiit
  trait_p_kj_baandar:0 "Божество-покровитель - Баан Дар"
  trait_p_kj_baandar_base:0 "Последователь Баан Дара"
  trait_p_kj_baandar_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_kj_baandar_desc' )]"
  trait_p_kj_baandar_desc:0 "Последователь Баан Дара"
  trait_p_kj_baandar_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Баан Дара, Бога-Разбойника."
 
- trait_witch_group:0 "Ведьмы"
+#Forgotten Gods
+ trait_p_fg_notorgo:0 "Последователь Ноторго"
+ trait_p_fg_notorgo_base:0 "Последователь Ноторго"
+ trait_p_fg_notorgo_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_notorgo_desc' )]"
+ trait_p_fg_notorgo_desc:0 "Последователь Ноторго"
+ trait_p_fg_notorgo_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Ноторго, Бога-посланника."
+
+ trait_p_fg_raen:0 "Последователь Рэна"
+ trait_p_fg_raen_base:0 "Последователь Рэна"
+ trait_p_fg_raen_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_raen_desc' )]"
+ trait_p_fg_raen_desc:0 "Последователь Рэна"
+ trait_p_fg_raen_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Рэна, Бога земледелия."
+
+ trait_p_fg_vigryl:0 "Последователь Вигрила"
+ trait_p_fg_vigryl_base:0 "Последователь Вигрила"
+ trait_p_fg_vigryl_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_vigryl_desc' )]"
+ trait_p_fg_vigryl_desc:0 "Последователь Вигрила"
+ trait_p_fg_vigryl_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Вигрила, Бога морей."
+
+ trait_p_fg_shandar:0 "Последователь Шандара"
+ trait_p_fg_shandar_base:0 "Последователь Шандара"
+ trait_p_fg_shandar_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_shandar_desc' )]"
+ trait_p_fg_shandar_desc:0 "Последователь Шандара"
+ trait_p_fg_shandar_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Шандара, Бога-воина."
+
+ trait_p_fg_jhimsei:0 "Последователь Джим Сэя"
+ trait_p_fg_jhimsei_base:0 "Последователь Джим Сэя"
+ trait_p_fg_jhimsei_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_jhimsei_desc' )]"
+ trait_p_fg_jhimsei_desc:0 "Последователь Джим Сэя"
+ trait_p_fg_jhimsei_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Джим Сэя, Бога музыки."
+
+ trait_p_fg_druaaga:0 "Последователь Друаги"
+ trait_p_fg_druaaga_base:0 "Последователь Друаги"
+ trait_p_fg_druaaga_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_p_fg_druaaga_desc' )]"
+ trait_p_fg_druaaga_desc:0 "Последователь Друаги"
+ trait_p_fg_druaaga_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Друаги, Богини цветов."
+
+ trait_p_fg_qolwen:0 "Последователь К'Олвен"
+ trait_p_fg_qolwen_base:0 "Последователь К'Олвен"
+ trait_p_fg_qolwen_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_qolwen_desc' )]"
+ trait_p_fg_qolwen_desc:0 "Последователь К'Олвен"
+ trait_p_fg_qolwen_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем К'Олвен, Богини знаний."
+
+ trait_p_fg_sai:0 "Последователь Сая"
+ trait_p_fg_sai_base:0 "Последователь Сая"
+ trait_p_fg_sai_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_sai_desc' )]"
+ trait_p_fg_sai_desc:0 "Последователь Сая"
+ trait_p_fg_sai_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Сая Удачливого."
+
+ trait_p_fg_ebonarm:0 "Последователь Эбонарма"
+ trait_p_fg_ebonarm_base:0 "Последователь Эбонарма"
+ trait_p_fg_ebonarm_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_ebonarm_desc' )]"
+ trait_p_fg_ebonarm_desc:0 "Последователь Эбонарма"
+ trait_p_fg_ebonarm_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Эбонарма, Черного Рыцаря."
+
+ trait_p_fg_ius:0 "Последователь Иуса"
+ trait_p_fg_ius_base:0 "Последователь Иуса"
+ trait_p_fg_ius_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_ius_desc' )]"
+ trait_p_fg_ius_desc:0 "Последователь Иуса"
+ trait_p_fg_ius_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Иуса Крайне Обеспокоенного."
+
+ trait_p_mg_mnemoli:0 "Последователь Мнемо-Ли"
+ trait_p_mg_mnemoli_base:0 "Последователь Мнемо-Ли"
+ trait_p_mg_mnemoli_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_mg_mnemoli_desc' )]"
+ trait_p_mg_mnemoli_desc:0 "Последователь Мнемо-Ли, Синего снопа искр"
+ trait_p_mg_mnemoli_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Мнемо-Ли, Синего снопа искр."
+
+ trait_p_mg_xerolyg:0 "Последователь Зеро-Лиг"
+ trait_p_mg_xerolyg_base:0 "Последователь Зеро-Лиг"
+ trait_p_mg_xerolyg_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_mg_xerolyg_desc' )]"
+ trait_p_mg_xerolyg_desc:0 "Последователь Зеро-Лиг, Красного снопа искр"
+ trait_p_mg_xerolyg_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Зеро-Лиг, Красного снопа искр."
+
+ trait_p_mg_meridia:0 "Последователь Мерид-Нунды"
+ trait_p_mg_meridia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Мерид-Нунды, Жёлтого снопа искр."
+
+ trait_p_mg_magnus:0 "Последователь Магнуса"
+ trait_p_mg_magnus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Магнуса, Архитектора."
+
+ trait_p_ta_meridia:0 "Последователь Мерид-Нунды"
+ trait_p_ta_meridia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Мерид-Нунды, Регента Величия."
+
+ trait_p_ta_molag:0 "Последователь Мола Гбала"
+ trait_p_ta_molag_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Мола Гбала, Регента Господства."
+
+ trait_p_ta_mehrunes:0 "Последователь Мерунеса"
+ trait_p_ta_mehrunes_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Мерунеса, Регента Завоевания."
+
+ trait_p_ta_hircine:0 "Последователь Охотника"
+ trait_p_ta_hircine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Охотника."
+
+ trait_p_ta_sanguine:0 "Последователь Чашника"
+ trait_p_ta_sanguine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Чашника."
+
+ trait_p_ta_nocturnal:0 "Последователь Шпиона"
+ trait_p_ta_nocturnal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Шпиона."
+
+ trait_p_ta_mephala:0 "Последователь Убийцы"
+ trait_p_ta_mephala_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Убийцы."
+
+ trait_p_ta_vaermina:0 "Последователь Кошмара"
+ trait_p_ta_vaermina_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Кошмара."
+
+ trait_p_ta_namira:0 "Последователь Ужаса"
+ trait_p_ta_namira_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Ужаса."
+
+ trait_p_ta_peryite:0 "Последователь Надсмотрщика"
+ trait_p_ta_peryite_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Надсмотрщика."
+
+#Misc
  trait_birthsign:0 "Знак"
 
 

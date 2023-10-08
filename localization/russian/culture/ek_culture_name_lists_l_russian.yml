@@ -9,7 +9,6 @@
  #ek_argonian
  name_list_hleel:0 "Хлилские"
  name_list_naga:0 "Нагские"
- name_list_archein:0 "Аркейнские"
  name_list_paatru:0 "Паатрские"
  name_list_agaceph:0 "Агацефские"
  name_list_sarpa:0 "Сарпские"
@@ -17,26 +16,26 @@
  name_list_hapsleet:0 "Хапслитские"
  #ek_atmoran
  name_list_nord:0 "Нордские"
- name_list_cyro_nord:0 "Сиро-Нордские"
- name_list_atmoran:0 "Атморанские"
- name_list_skaal:0 "Скааальские"
+ name_list_cyro_nord:0 "Сиро-нордские"
+ name_list_atmoran:0 "Атморские"
+ name_list_skaal:0 "Скаальские"
  #ek_ayleid
  name_list_ayleid:0 "Айлейдские"
  #ek_bosmeri
  name_list_bosmer:0 "Босмерские"
  #ek_breton
  name_list_glenumbran:0 "Гленумбрийские"
- name_list_northmen:0 "Северянские"
+ name_list_northmen:0 "Северо-бретонские"
  name_list_iliac:0 "Илиакские"
  name_list_wrothgarian:0 "Ротгарианские"
  #ek_chimeri
- name_list_chimer:0 "Каймерские"
+ name_list_chimer:0 "Кимерские"
  name_list_cantemiric:0 "Кантемирские"
  #ek_cyrodiilic
  name_list_colovian:0 "Коловианские"
  name_list_strident:0 "Стридские"
- name_list_nibenese:0 "Нибенийские"
- name_list_blackwood:0 "Старонибенийские"
+ name_list_nibenese:0 "Нибенейские"
+ name_list_blackwood:0 "Старонибенейские"
  name_list_heartlander:0 "Хартлендские"
  #ek_dremora
  name_list_dremora:0 "Дреморские"
@@ -46,12 +45,12 @@
  #ek_dwemeri
  name_list_dwemer:0 "Двемерские"
  #ek_falmeri
- name_list_falmer:0 "Фалмерские"
- name_list_falmer_betrayed:0 "Преданнические"
+ name_list_falmer:0 "Снежно-эльфийские"
+ name_list_falmer_betrayed:0 "Фалмерские"
  #ek_goblinken
  name_list_goblin:0 "Гоблинские"
  name_list_riekling:0 "Риклингские"
- name_list_riekr:0 "Риекрские"
+ name_list_riekr:0 "Рикрские"
  #ek_khajiiti
  name_list_pellitinian:0 "Пеллитинские"
  name_list_anequinan:0 "Анеквинские"
@@ -60,30 +59,30 @@
  #ek_lilmothiit
  name_list_lilmothiit:0 "Лилмотитские"
  #ek_misc
- name_list_placeholder:0 "Плейсхолдер?"
+ name_list_placeholder:0 "Заглушка?"
  #ek_nedic_central
  name_list_perena:0 "Перенские"
  name_list_gemha:0 "Гемхские"
  #ek_nedic_north
  name_list_reachfolk:0 "Ричменские"
  #name_list_galen:0 "Galen"
- name_list_galen:0 "Севернонедские"
+ name_list_galen:0 "Северно-недийские"
  name_list_duraki:0 "Доракийские"
  #ek_nedic_south
- name_list_nede:0 "Недские"
+ name_list_nede:0 "Недийские"
  name_list_yespest:0 "Йеспестские"
  name_list_kothringi:0 "Котрингийские"
  name_list_horwalli:0 "Хорваллийские"
  name_list_orma:0 "Ормские"
  #ek_old_breton
- name_list_bjoule:0 "Бьйольские"
+ name_list_bjoule:0 "Бьюльские"
  #ek_orsimeri
- name_list_orsimer:0 "Оркские"
+ name_list_orsimer:0 "Орочьи"
  #ek_yokudan
  name_list_yokudan:0 "Йокуданские"
- name_list_forebear:0 "Предшественнические"
+ name_list_forebear:0 "Предшественские"
  name_list_crown:0 "Венценосные"
- name_list_alikr:0 "Аликрские"
+ name_list_alikr:0 "Алик'рские"
  name_list_abecean:0 "Абесинские"
  name_list_horsemen:0 "Лошаднические"
  #ek_maormer

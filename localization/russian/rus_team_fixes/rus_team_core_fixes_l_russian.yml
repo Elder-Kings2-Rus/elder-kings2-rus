@@ -1,12 +1,4 @@
 ﻿l_russian:
- modifier_spell_absorb_diplomacy_neg:0 "Поглощенная Дипломатия"
- modifier_spell_absorb_martial_neg:0 "Поглощенное Военное дело"
- modifier_spell_absorb_stewardship_neg:0 "Управление"
- modifier_spell_absorb_intrigue_neg:0 "Поглощенная Интрига"
- modifier_spell_absorb_learning_neg:0 "Поглощенная Ученость"
- modifier_spell_absorb_health_neg:0 "Поглощенное Здоровье"
- modifier_spell_absorb_fertility_neg:0 "Поглощенная Фертильность"
- modifier_spell_absorb_prowess_neg:0 "Поглощенная Доблесть"
 
  STRUG_CULTCHAR:0 "#L [Character.GetCulture.GetCollectiveNoun]ая#!"
  STRUG_CULT:0 "#L [Culture.GetCollectiveNoun]ая#!"
@@ -17,7 +9,7 @@
  STRESS_IMPACT_INCREASED:0 ""
  TitleRelationToMe_None:0 ""
  CW_ORDINAL_NUMBER_FORMAT:0 "$NUM$"
- CULTURE_AESTHETICS_DIVERGE_CULTURE:0 "[CultureAesthetics.GetName]ая"
+ CULTURE_AESTHETICS_DIVERGE_CULTURE:0 "[CultureAesthetics.GetName]"
  CULTURE_HERITAGE_NAME_RULER_DESIGNER:0 "[Culture.GetHeritage.GetNameNoTooltip]ая"
  CULTURE_NAME_RULER_DESIGNER:0 "[Culture.GetCollectiveNounNoTooltip]ая"
  CULTURE_HYBRIDIZE_PLAYER_CULTURE_HERITAGE:0 "[GetPlayer.GetCulture.GetHeritage.GetNameNoTooltip]ое"
@@ -53,3 +45,107 @@
  SETTING_RENDER_SCALE_FORMAT: "$VALUE|%0$"
  
  Sieged:0 "Осада"
+ 
+ # магия
+ 
+ ENABLE_EK_LIFE_EXTENSION_SCHEME: "Сделает доступными [scheme|El], позволяющие продлить жизнь."
+ 
+ # Цирюльня / редактор персонажа
+ mohawk: "Ирокез"
+ 
+ # попытка исправить подсказки для традиции "Всадники Акоса". Очень не уверен на счёт эффектов.
+ culture_parameter_movement_speed:0 "Скорость передвижения: +10%"
+ culture_parameter_supply_duration: "Длительность [Concept( 'supply', 'снабжения' )|El]: +100%"
+ 
+ # Попытка прописать отсутствующие подсказки для заклинаний. Источник: https://vk.com/wall-96633960_82517
+ NOT_must_lead_army: "Ваш персонаж не должен командовать армией"
+ NOT_spell_no_counties: "Целью заклинания должно быть графство"
+ 
+ # Не имеет...
+ vassal_contribution_tied_prowess_name: "обязательств, основанных на доблести"
+ 
+ # Добавления отсутствующих строк, что связаны с религиями. Эти строки стоит удалить, если разработчики сами добавят их.
+ 
+ doctrine_parameter_same_heritage_conversion_bonus_creating_faith_active:1 "Скорость обращения в #L [GetPlayer.GetCulture.GetHeritage.GetName|l]их#! [Concept( 'county', 'графствах' )|El]: #P +50%#!"
+ doctrine_parameter_establishing_holy_site_same_heritage_creating_faith_active:0 "Новые [holy_sites|El] могут быть созданы только в #L [Faith.MakeScope.Var('associated_culture').Culture.GetHeritage.GetName|l]их#! провинциях"
+ doctrine_parameter_same_heritage_exclusive_conversion_bonus_creating_faith_active:1 "Скорость обращения в #L [Faith.MakeScope.Var('associated_culture').Culture.GetHeritage.GetName|l]их#! [Concept( 'county', 'графствах' )|El]: #P +50%#!"
+ molag_priest_male_plural:0 "Жрецы"
+ namira_priest_male_plural:0 "Жрецы"
+ hircine_priest_male_plural:0 "Жрецы"
+ peryite_priest_male:0 "Жрец"
+ peryite_priest_male_plural:0 "Жрецы"
+ mephala_priest_male:0 "Жрец"
+ mephala_priest_male_plural:0 "Жрецы"
+ sanguine_priest_male:0 "Жрец"
+ sanguine_priest_male_plural:0 "Жрецы"
+ lilmothiitpriest_male:0 "Жрец"
+ lilmothiitpriest_male_plural:0 "Жрецы"
+ mehrunes_priest_male:0 "Жрец"
+ mehrunes_priest_male_plural:0 "Жрецы"
+ celestialspriest_alternate_plural:0 "Жрецы"
+ yokudanhouse_of_worship_plural:0 "Храмы"
+ sanguine_house_of_worship_plural:0 "Храмы"
+ azura_house_of_worship:0 "Храм"
+ azura_house_of_worship_plural:0 "Храмы"
+ molag_house_of_worship:0 "Храм"
+ molag_house_of_worship_plural:0 "Храмы"
+ clavicus_house_of_worship:0 "Храм"
+ clavicus_house_of_worship_plural:0 "Храмы"
+ sheogorath_house_of_worship:0 "Храм"
+ sheogorath_house_of_worship_plural:0 "Храмы"
+ mephala_house_of_worship:0 "Храм"
+ mephala_house_of_worship_plural:0 "Храмы"
+ namira_house_of_worship:0 "Храм"
+ namira_house_of_worship_plural:0 "Храмы"
+ meridia_house_of_worship:0 "Храм"
+ meridia_house_of_worship_plural:0 "Храмы"
+ nocturnal_house_of_worship:0 "Храм"
+ nocturnal_house_of_worship_plural:0 "Храмы"
+ mehrunes_house_of_worship:0 "Храм"
+ mehrunes_house_of_worship_plural:0 "Храмы"
+ hircine_house_of_worship_plural:0 "Святилища"
+ wyrdhouse_of_worship_plural:0 "Вещие Древа"
+ celestialshouse_of_worship_plural:0 "Вершины башен"
+ 
+ god_hermaeusmora_name:0 "Хермеус Мора"
+ 
+ # Карта
+ 
+ WASTELAND: "ПУСТОШЬ"
+ # Окно державы
+ MY_REALM_WINDOW_TYPE_CUSTOM:1 "[Character.GetPrimaryTitle.GetRankConcept]:\n[GetPlayer.GetGovernment.GetName]"
+ REALM_WINDOW_SIZE_CUSTOM:2 "Размер державы:\n[Character.RealmSize|V]"
+ 
+ # названия войн
+ HOUSE_TOMB_0_CONQUEST_WAR_NAME:0 "Завоевать гробницу Великого Дома"
+ HOUSE_TOMB_0_CONQUEST_WAR_NAME_BASE:0 "Завоевать гробницу Великого Дома"
+ 
+ Scion_religious_head_title_name:0 "Матронат"
+ razak_army_flavor:0 "#F Верная армия гномов, движимая паровой тягой и пропитанная магией из камней душ, которые будут работать ещё многие века. #!" # flavor, не flavour
+ crisis_bandit_faction:0 "Бандитский кризис"
+ crisis_goblin_faction:0 "Гоблинский кризис"
+
+ # замена слова "Вы" на "вас" в книге заклинаний в нижней части окна
+ spell_casting_info_castee_char_custom:0 "#high [Select_CString( ObjectsEqual(GetPlayer.MakeScope.Var('spell_recipient').Char, GetPlayer.MakeScope.Var('spell_caster').Char), Select_CString( ObjectsEqual(GetPlayer.MakeScope.Var('spell_caster').Char, GetPlayer), 'вас', 'вас' ), GetPlayer.MakeScope.Var('spell_recipient').Char.GetShortUINameNoTooltip )]#!"
+ spell_casting_info_castee_custom:0 "[SelectLocalization( EqualTo_CFixedPoint( EmptyScope.ScriptValue(Concatenate(GetPlayer.MakeScope.Var('spell_selected').GetFlagName, '_province')), '(CFixedPoint)1' ), 'spell_casting_info_castee_prov', 'spell_casting_info_castee_char_custom' )]"
+
+ # временные ключи для possessive названий, где разрабы накосячили с двойным _name_name_
+ god_julianos_name_name_possessive:0 "Джулианоса"
+ god_magnus_name_name_possessive:0 "Магнуса"
+ great_mare_god_name_name_possessive:0 "Великой Кобылы"
+ GET_RANDOM_CUSTOM_MEPHALA_NAME_name_possessive:0 "$god_mephala_name_possessive$"
+ 
+ culture_parameter_fairness_valued:0 "[characters|E] с личностью [GetTrait('just').GetName( GetNullCharacter )] вызывают восхищение, в то время как свойства личности [GetTrait('sadistic').GetName( GetNullCharacter )] и [GetTrait('arbitrary').GetName( GetNullCharacter )] презираются" # Scorg. Для традиции 'Пограничные рыцари'.
+ # Для аспекта закона. Scorg.
+ devotion_gives_tyranny_reduction_vassal_opinion_0:0 "Уровень набожности (аспект закона)"
+ devotion_gives_tyranny_reduction_vassal_opinion_1:0 "Уровень набожности (аспект закона)"
+ devotion_gives_tyranny_reduction_vassal_opinion_2:0 "Уровень набожности (аспект закона)"
+ devotion_gives_tyranny_reduction_vassal_opinion_3:0 "Уровень набожности (аспект закона)"
+ devotion_gives_tyranny_reduction_vassal_opinion_4:0 "Уровень набожности (аспект закона)"
+ devotion_gives_tyranny_reduction_vassal_opinion_5:0 "Уровень набожности (аспект закона)"
+ devotion_gives_tyranny_reduction_vassal_opinion_6:0 "Уровень набожности (аспект закона)"
+
+ # Потому что
+ learning_lifestyle_name:0 "Учёность"
+ # Нет локализации
+ summoned_undead:0 "Призванная нежить"

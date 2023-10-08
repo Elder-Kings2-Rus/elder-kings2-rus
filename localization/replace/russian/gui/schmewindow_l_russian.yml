@@ -1,0 +1,2 @@
+﻿l_russian:
+ SCHEME_EYE_FOR_AN_EYE:1 "Ваша [Concept( 'culture', 'культура' )|E] мстительна, а [target.GetShortUIName] — [Select_CString(target.IsFemale, 'ваша соперница', 'ваш соперник' )]: $VALUE|+0=$"

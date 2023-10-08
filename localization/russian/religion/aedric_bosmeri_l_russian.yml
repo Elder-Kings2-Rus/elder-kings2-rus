@@ -1,0 +1,115 @@
+﻿l_russian:
+
+# Bosmeri Faiths
+ bosmeri_religion:0 "Босмерск"
+ bosmeri_religion_adj:0 "Босмеры"
+ bosmeri_religion_adherent:0 "Босмеры"
+ bosmeri_religion_adherent_plural:0 "Босмеры"
+ bosmeri_religion_desc:0 "Несмотря на разногласия по поводу точных деталей, единственное, что объединяет почти всех босмеров, - это приверженность Зелёному Пакту. До этого босмеры были существами из бесформенного ила и вечно меняющейся формы, но в обмен на принятие его правил бог И'ффре придал им физическую форму и создал девственный лес Валенвуд, в котором они будут жить, пока соблюдают его условия."
+ bosmeri_high_god_name:0 "$god_yffre_name$"
+ bosmeri_high_god_name_2:0 "Сказочник" # Optional translation alt
+ bosmeri_high_god_name_3:0 "Дух настоящего" # Optional translation alt
+ bosmeri_high_god_name_possessive:0 "$god_yffre_name_possessive$"
+ bosmeri_high_god_she_he:0 "он"
+ bosmeri_high_god_name_alternate:0 "Кости Земли"
+ bosmeri_high_god_name_alternate_possessive:0 "the Earthbones'"
+ bosmeri_devil_name:0 "$god_oathbreakers_name$"
+ bosmeri_devil_name_possessive:0 "$god_oathbreakers_name_possessive$"
+ bosmeri_devil_shehe:0 "они"
+ bosmeri_devil_herselfhimself:0 "себя"
+ bosmeri_devil_herhis:0 "их"
+ bosmeri_death_deity_name:0 "$god_arkay_name$"
+ bosmeri_death_deity_name_possessive:0 "$god_arkay_name_possessive$"
+ bosmeri_house_of_worship:0 "священная роща"
+ bosmeri_house_of_worship_plural:0 "священные рощи"
+ bosmeri_religious_symbol:0 "ветвь и лист"
+ bosmeri_religious_text:0 "Зелёный пакт"
+ bosmeri_religious_head_title:0 "Страж"
+ bosmeri_religious_head_title_name:0 "Зелёный пакт"
+ bosmeri_devotee_male:0 "зелёный аколит"
+ bosmeri_devotee_male_plural:0 "зелёные аколиты"
+ bosmeri_devotee_female:0 "зелёный аколит"
+ bosmeri_devotee_female_plural:0 "зелёные аколиты"
+ bosmeri_devotee_neuter:0 "зелёный аколит"
+ bosmeri_devotee_neuter_plural:0 "зелёные аколиты"
+ bosmeri_priest_male:0 "прядильщик"
+ bosmeri_priest_male_plural:0 "прядильщики"
+ bosmeri_priest_female:0 "прядильщица"
+ bosmeri_priest_female_plural:0 "прядильщицы"
+ bosmeri_priest_neuter:0 "прядильщик"
+ bosmeri_priest_neuter_plural:0 "прядильщики"
+ bosmeri_priest_alternate_plural:0 "прядильщики"
+ bosmeri_bishop:0 "древний прядильщик"
+ bosmeri_bishop_plural:0 "древние прядильщики"
+ bosmeri_divine_realm:0 "$aetherius_name$"
+ bosmeri_positive_afterlife:0 "$aetherius_name$"
+ bosmeri_positive_afterlife_2:1 "" # Optional translation alt
+ bosmeri_positive_afterlife_3:1 "" # Optional translation alt
+ bosmeri_negative_afterlife:0 "$ooze_name$"
+ bosmeri_negative_afterlife_2:1 "" # Optional translation alt
+ bosmeri_negative_afterlife_3:1 "" # Optional translation alt
+ bosmeri_witchgodname_the_horned_god:0 "$god_yffre_hircine$"
+ bosmeri_witchgodname_the_horned_god_possessive:0 "$god_hircine_name_possessive$"
+ bosmeri_creator_god_name:0 "$god_yffre_name$"
+ bosmeri_creator_god_name_possessive:0 "$god_yffre_name_possessive$"
+ bosmeri_health_god_name:0 "$god_arkay_name$"
+ bosmeri_health_god_name_possessive:0 "$god_arkay_name_possessive$"
+ bosmeri_fertility_god_name:0 "$god_mara_name$"
+ bosmeri_fertility_god_name_possessive:0 "$god_mara_name_possessive$"
+ bosmeri_wealth_god_name:0 "$god_zen_name$"
+ bosmeri_wealth_god_name_possessive:0 "$god_zen_name_possessive$"
+ bosmeri_household_god_name:0 "$god_stendarr_name$"
+ bosmeri_household_god_name_possessive:0 "$god_stendarr_name_possessive$"
+ bosmeri_fate_god_name:0 "$god_valenwood_name$"
+ bosmeri_fate_god_name_possessive:0 "$god_valenwood_name_possessive$"
+ bosmeri_knowledge_god_name:0 "$god_xarxes_name$"
+ bosmeri_knowledge_god_name_possessive:0 "$god_xarxes_name_possessive$"
+ bosmeri_war_god_name:0 "$god_valenwood_name$"
+ bosmeri_war_god_name_possessive:0 "$god_valenwood_name_possessive$"
+ bosmeri_trickster_god_name:0 "$god_baandar_name$"
+ bosmeri_trickster_god_name_possessive:0 "$god_baandar_name_possessive$"
+ bosmeri_night_god_name:0 "$god_bosmermoons_name$"
+ bosmeri_night_god_name_possessive:0 "$god_bosmermoons_name_possessive$"
+ bosmeri_water_god_name:0 "$god_valenwood_name$"
+ bosmeri_water_god_name_possessive:0 "$god_valenwood_name_possessive$"
+ 
+ #Green Pact
+ 
+ greenpact:0 "Зелёнопактск"
+ greenpact_adj:0 "Зелёный пакт"
+ greenpact_adherent:0 "Последователь Зелёного пакта"
+ greenpact_adherent_plural:0 "Последователи Зелёного пакта"
+ greenpact_desc:0 "Зелёный пакт - это священный свод правил, данный босмерам Сказителем И'ффре в древние времена, чтобы помочь им жить в гармонии с лесом. Его законы просты: «Не причиняйте вреда лесам Валенвуда. Не ешьте ничего, сделанного из растительной жизни. Ешьте только мясо. Когда побеждаете врагов, ешьте их плоть. Не убивайте напрасно. Не принимайте облик зверей»."
+ greenpact_religious_head_title:0 "Сильвенар"
+ greenpact_religious_head_title_name:0 "Сильвенар"
+ 
+ #Blacksap Movement
+ 
+ blacksapmovement:0 "Черноживицк"
+ blacksapmovement_adj:0 "Черноживица"
+ blacksapmovement_adherent:0 "Последователь Черноживицы"
+ blacksapmovement_adherent_plural:0 "Последователи Черноживицы"
+ blacksapmovement_desc:0 "Черноживица - националистическое политико-религиозное движение в босмерском обществе, основанное в Кормаунте после «резни в Новой Отраде»: тогда целый город иммигрантов был уничтожен фанатиками лесных эльфов за неуважение к Зелёному Пакту. Последователи движения требуют письменной кодификации догматов Зелёного Пакта и абсолютно строгого следования им, а также изгнания всех чужеродных влияний из Валенвуда."
+ blacksapmovement_religious_text:0 "Связанный Пакт"
+ 
+ #Wilderking's Law
+ 
+ wilderking:0 "Лесно-королевск"
+ wilderking_adj:0 "Лесной Король"
+ wilderking_adherent:0 "Подданный Лесного Короля"
+ wilderking_adherent_plural:0 "Подданные Лесного Короля"
+ wilderking_desc:0 "Лесной Король - это божественная почитаемая фигура на юго-западе Валенвуда, восходящая по крайней мере к Первой Эре; дух-хранитель леса, который наставляет босмеров жить в гармонии с природой. Когда Лесной Король умирает, выбирается другое существо с врожденной связью с природой, чтобы надеть мантию божества, теряя всю память о своей прошлой жизни и перенимая сверхъестественные способности Лесного Короля. Хотя в их землях соблюдается типичный босмерский пантеон и Зелёный Пакт, слово Лесного Короля - закон, поскольку он является высшим воплощением лесов Валенвуда."
+ wilderking_religious_head_title:0 "Страж-Глашатай" #Guardian-Speaker
+ wilderqueen_religious_head_title:0 "Страж-Глашатай" #Guardian-Speaker
+ wilderking_religious_head_title_name:0 "Двор Лесного Короля"
+ wilderking_high_god_name:0 "Лесной Король"
+ wilderking_high_god_name_possessive:0 "Лесного Короля"
+ 
+ #Vinedusk Exemptions
+ 
+ vineduskpact:0 "Сумеречн"
+ vineduskpact_adj:0 "Сумеречная Лоза"
+ vineduskpact_adherent:0 "Последователь Сумеречной Лозы"
+ vineduskpact_adherent_plural:0 "Последователи Сумеречной Лозы"
+ vineduskpact_desc:0 "Зелёный пакт - священный свод законов, которым следуют босмеры, чтобы жить в гармонии с природой, - соблюдается жителями северо-восточного Валенвуда совсем иначе, чем где-либо ещё. Хотя они по-прежнему с большим почтением относятся к лесу, годы конфликта в пограничных районах Коловии и Эльсвейра привели к ослаблению или даже отказу от правил, касающихся ритуального каннибализма и запрета на вырубку деревьев. Хотя некоторые клеймят Сумеречную Лозу просто еретическими бандитами, многие босмеры рассматривают их в позитивном ключе, поскольку они держат оборону против чужеземных набегов и тем самым по-своему помогают лесу."
+ 

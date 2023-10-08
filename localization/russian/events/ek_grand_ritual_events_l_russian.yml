@@ -45,9 +45,9 @@
  #options/flavor depend on succ/fail of stage 1 & path in stage 1 
  grand_ritual.1030.a:0 "эксперимент с материалом, высокий уровень - поиск редких ингредиентов" #high risk-high reward
  grand_ritual.1030.b:0 "эксперимент с материалом, средний уровень - поиск обычных ингредиентов" #mid risk-mid reward
- grand_ritual.1030.c:0 "эксперимент с материалом, низкий уровень - заменить простым ингредиеном" #low risk-low reward
+ grand_ritual.1030.c:0 "эксперимент с материалом, низкий уровень - заменить простым ингредиентом" #low risk-low reward
 
- grand_ritual.1040.t:0 "Начало четвертого этапа"
+ grand_ritual.1040.t:0 "Начало четвёртого этапа"
  grand_ritual.1040.desc.a:0 "Что-то, что-то...\nЗаметки, которые я получил, расплывчаты/неполны."
  grand_ritual.1040.desc.b:0 "Что-то, что-то...\nНе удалось найти ничего достаточно примечательного, чтобы дать подсказки."
  grand_ritual.1040.desc.end:0 "Что-то, что-то...\nначать эксперимент"
@@ -81,15 +81,15 @@
  grand_ritual.1111.t.succ:0 "Кладезь знаний - Успех"
  grand_ritual.1111.t.fail:0 "Кладезь знаний - Провал"
  #grand_ritual.1111.desc:0 "Books and scrolls contain many records...\n\nblah character known for long life.\n\nblah blah aquire their writings." #aquire immortal's notes, altmer analysis of phynaster walking thing
- grand_ritual.1111.desc.library.succ:0 "Мои попытки увенчались успехом! Я [Select_CString(ROOT.GetCharacter.IsFemale, 'нашла', 'нашел' )] несколько страниц древней тетради, написанной неизвестным магом. Хотя она неполная, есть несколько признаков того, что маг стремился к бессмертию. Их работа может оказаться бесценной."
- grand_ritual.1111.desc.library.fail:0 "Ничего! Ничего нет!\nЗа последние месяцы я [Select_CString(ROOT.GetCharacter.IsFemale, 'провела', 'провел' )] несколько дней, прочесывая все доступные мне собрания книг, но, увы, ничего не [Select_CString(ROOT.GetCharacter.IsFemale, 'нашла', 'нашел' )]."
+ grand_ritual.1111.desc.library.succ:0 "Мои попытки увенчались успехом! Я [Select_CString(ROOT.GetCharacter.IsFemale, 'нашла', 'нашёл' )] несколько страниц древней тетради, написанной неизвестным магом. Хотя она неполная, есть несколько признаков того, что маг стремился к бессмертию. Их работа может оказаться бесценной."
+ grand_ritual.1111.desc.library.fail:0 "Ничего! Ничего нет!\nЗа последние месяцы я [Select_CString(ROOT.GetCharacter.IsFemale, 'провела', 'провел' )] несколько дней, прочесывая все доступные мне собрания книг, но, увы, ничего не [Select_CString(ROOT.GetCharacter.IsFemale, 'нашла', 'нашёл' )]."
  grand_ritual.1111.desc.merchant.succ:0 "Несколько месяцев назад я обратился к своим знакомым торговцам, сообщив им, что готов заплатить высокую цену за книги о бессмертии. После нескольких очевидных подделок, сегодня мне доставили нетронутую копию "Анализа Финастера (с комментариями)", написанную анонимным альтмерским ученым. Содержание в основном теологическое, однако некоторые разделы намекают на магические средства продления жизни."
  grand_ritual.1111.desc.merchant.fail:0 "Несколько месяцев назад я [Select_CString(ROOT.GetCharacter.IsFemale, 'дала', 'дал' )] знать торговцам, что ищу труды о бессмертии. Это была катастрофа! Мне попадались только подделки и фальшивки. По крайней мере, несколько лет я не буду мучиться в поисках хвороста."
  grand_ritual.1111.a:0 "Отличный прогресс"
  grand_ritual.1111.b:0 "Несчастье"
  
  grand_ritual.1120.t:0 "Письмо в прошлое" #someone find a better word than antediluvian
- grand_ritual.1120.desc:0 "-Character- is known to have an extended their life.\nTry getting their secrets" #find someone who has extended life ritual complete, or create a 'hermit'. 1 preferable. can check if have story still when that part is done
+ grand_ritual.1120.desc:0 "Известно, что данной личности удалось увеличить продолжительность своей жизни.\nЯ [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] попытаться раскрыть этот секрет." #find someone who has extended life ritual complete, or create a 'hermit'. 1 preferable. can check if have story still when that part is done
  grand_ritual.1120.a:0 "Лесть/Убеждение - дипломатическая проверка" #largely same for ruler/hermit
  grand_ritual.1120.b:0 "Угроза - проверка на основе ужаса" #hermit might just disappear, blackmail if you have hook?
  grand_ritual.1120.c:0 "Кража - проверка на основе интриги" #can be imprisoned if caught stealing
@@ -245,7 +245,7 @@
 ##  OUTCOME  ##
 
  grand_ritual.1901.t:0 "Полный провал"
- grand_ritual.1901.desc:0 "Все мои приготовления оказались напрасными. Ритуал катастрофически провалился. Я чувствую, что мое сознание колеблется..."
+ grand_ritual.1901.desc:0 "Все мои приготовления оказались напрасными. Ритуал катастрофически провалился. Я чувствую, что моё сознание колеблется..."
  grand_ritual.1901.a:0 "Интересно, где допущена ошибка..."
 
  grand_ritual.1902.t:0 "Частичный провал"

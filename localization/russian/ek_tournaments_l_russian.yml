@@ -1,0 +1,39 @@
+﻿l_russian:
+
+ ##### TOURNAMENT #####
+
+ ### Tournament Planning
+ tournament_contest_type_magic:0 "Magic"
+ tourney_participant_magic:1 "[GetTrait('tourney_participant').GetName( GetNullCharacter )] Magic [trait_level_track_xp|E]"
+ arcana_concept:1 "[arcana|E] Skill"
+ trait_education_magic:1 "Magic [education|E]"
+ character_contest_type_aptitude_magic:1 "#T $character_contest_type_aptitude_start$ $tournament_contest_type_magic$ [contest_aptitude|E]: [Character.Custom('GetContestTypeMagicAptitude')]#![AddTextIf( Not( StringIsEmpty( Character.MakeScope.GetScriptValueDesc('contest_type_aptitude_magic') ) ), Concatenate( '\n', Character.MakeScope.GetScriptValueDesc('contest_type_aptitude_magic') ) )]"
+
+ MAGIC_EXPERIENCE_REGULAR_TOOLTIP:0 "$tournament_contest_favoured_skill_tooltip$ $tourney_participant_magic$"
+ MAGIC_EXPERIENCE_GREATER_TOOLTIP:0 "$tournament_contest_most_favoured_skill_tooltip$ $tourney_participant_magic$"
+
+ ### PHASES 
+ tournament_phase_arcane_clash:0 "Arcane Clash"
+ tournament_phase_arcane_clash_desc:1 "A contest of arcane knowledge and magical strength, with the ultimate winner being the last remaining duelist.\n\n$tournament_contest_format_versus$\nNumber of [contest_rounds|e]: 3"
+ 
+ ### Costs
+ tournament_arcane_clashes_cost:0 "Arcane Clashes"
+
+ # ARTIFACTS
+ tournament_prize_desc_arcane_clash:1 "[newly_created_artifact.GetDesc] Awarded to [contest_winner.GetTitledFirstName] by [host.GetTitledFirstName] for winning an Arcane Clash."
+ tournament_prize_host_desc_arcane_clash:0 "[newly_created_artifact.GetDesc] Offered and claimed by [host.GetTitledFirstName] as the prize in [host.GetHerHis] Arcane Clash."
+
+ contest_magic_aptitude_value:0 "Arcane Clash Aptitude"
+
+ # LIEGE REWARDS FOR LANDLESS KNIGHTS 
+ tournament_arcane_clash_prize_log_title:0 "$tournament_phase_arcane_clash$ Prize"
+ tournament_arcane_clash_prize_log:0 "[CHARACTER.GetTitledFirstName] awarded [ARTIFACT.GetName] to [TARGET_CHARACTER.GetTitledFirstName] for winning the $tournament_phase_arcane_clash$"
+ 
+ tournament_arcane_clash_winner_log_title:0 "$tournament_phase_arcane_clash$ Winner"
+ tournament_arcane_clash_winner_log:0 "[CHARACTER.GetTitledFirstName] won the $tournament_phase_arcane_clash$"
+ 
+#PTV Custom loc
+ locale_window_widget_progress_to_victory_label_active_competing_arcane_clashes:0 "You are competing in an #bold Arcane Clash#!"
+
+# Conclusions
+ tournament_conclusion_winner_arcane_clash:0 "\n#BOL Arcane Clashes#! winner: [activity.MakeScope.Var('arcane_clash_winner').Char.GetFirstName]"

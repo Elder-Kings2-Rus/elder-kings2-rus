@@ -1,6 +1,6 @@
 ﻿l_russian:
  ##### Hostility #####
- struggle_iberia_ending_hostility_decision_desc:0 "Пришло время сильному лидеру, наконец, вытащить эту провинцию из трясины войны и раскола. Хаммерфелл будет объединен под [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] знаменем правителя [ROOT.Char.Custom('GetQueenKing')|l]!"
+ struggle_iberia_ending_hostility_decision_desc:0 "Пришло время сильному лидеру, наконец, вытащить эту провинцию из трясины войны и раскола. Хаммерфелл будет объединен под [ROOT.Char.GetFaith.GetNameNoTooltip|l]им знаменем правителя [ROOT.Char.Custom('GetQueenKing')|l]!"
  struggle_iberia_ending_hostility_decision_tooltip:0 "Конец [Concept('struggle', 'Борьбы')|E] за Хаммерфелл"
  struggle_iberia_ending_hostility_decision_confirm:1 "Конец Борьбы за Хаммерфелл"
  # Triggers
@@ -20,9 +20,9 @@
  # Triggers
  struggle_iberia_ending_compromise_decision_kingdom_tt:0 "Вы должны [hold|E] и [completely_control|E] любое [de_jure|E] [kingdom|E] в регионе [GetTitleByKey('e_hammerfell').GetNameNoTier] ([SCOPE.ScriptValue('fp2_struggle_ending_kingdom_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_conciliation_kingdom_total_value')|0])"
  struggle_iberia_ending_compromise_decision_region_tt:0 "Вы должны контролировать менее [SCOPE.ScriptValue('fp2_struggle_compromise_owned_percent_value')|0]% от [Concept('region', 'региона')|E] [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] (На данный момент: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_region_owned_percent_value')|0]%)"
- struggle_iberia_ending_compromise_decision_other_region_tt:0 "Ни один [independent|E] [struggle_involved|E] [ruler|E] не контролирует [SCOPE.ScriptValue('fp2_struggle_compromise_involved_percent_value')|0]% или более от [Concept('region', 'региона')|E]  [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName]"
+ struggle_iberia_ending_compromise_decision_other_region_tt:0 "Ни один [independent|E] [struggle_involved|E] [ruler|E] не контролирует [SCOPE.ScriptValue('fp2_struggle_compromise_involved_percent_value')|0]% или более от [Concept('region', 'региона')|E] [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName]"
  # EK TODO STRUGGLE: check if we want to limit this to kings only
- struggle_iberia_ending_compromise_decision_independent_tt:0 "Ни один [independent|E] [struggle_involved|E] [ruler|E] не является [Concept('king', 'королем')|E] или [Concept('emperor', 'императором')|E]  (На данный момент: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_independent_counter_value')|0])"
+ struggle_iberia_ending_compromise_decision_independent_tt:0 "Ни один [independent|E] [struggle_involved|E] [ruler|E] не является [Concept('king', 'королем')|E] или [Concept('emperor', 'императором')|E] (На данный момент: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_independent_counter_value')|0])"
  struggle_iberia_ending_compromise_decision_interloper_tt:0 "Более чем [SCOPE.ScriptValue('fp2_struggle_compromise_uninvolved_percent_value')]% от [Concept('region', 'региона')|E] [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] удерживает [struggle_interloper|E] или [struggle_uninvolved|E] [ruler|E] (На данный момент: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_region_interloper_percent_value')|1]%)"
  # Effects
  fp2_struggle_compromise_create_new_kingdoms_tt:0 "Каждое [Concept('independent', 'независимое')|E] или разделенное [duchy|E] в [Concept('region', 'регионе')|E] [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] становится [de_jure|E] [Concept('kingdom', 'королевством')|E]"

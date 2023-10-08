@@ -1,6 +1,6 @@
 ﻿l_russian:
- trait_education_stewardship_4:0 "Благословение Грязекраба-Торговца"
- trait_education_stewardship_4_desc:0 "Тех кто благословен грязекрабом торговцем ожидает успех за успехом в искусстве управления, демонстрируя неоспоримое мастерство."
+ trait_education_stewardship_4:0 "Благословение грязекраба-торговца"
+ trait_education_stewardship_4_desc:0 "Те, кого благословил грязекраб-торговец, не знают поражения на поприще управления и возводят оное в ранг искусства."
  
  trait_pneumonic:0 "Озноб"
  trait_pneumonic_character_desc:0 "Страдая от неуклюжести и душевного смятения, [ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от озноба."
@@ -10,16 +10,16 @@
  trait_gout_ridden:0 "Каменная подагра"
 
  trait_consumption:0 "Увядание"
- trait_consumption_desc:0 "Страдая от кровавого кашля, вызванного холодным воздухом в легких, этот персонаж страдает от увядания."
- trait_consumption_character_desc:0 "Страдая от кровавого кашля, вызванного холодным воздухом в легких, [ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от увядания."
+ trait_consumption_desc:0 "Страдая от кровавого кашля, вызванного холодным воздухом в лёгких, этот персонаж страдает от увядания."
+ trait_consumption_character_desc:0 "Страдая от кровавого кашля, вызванного холодным воздухом в лёгких, [ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от увядания."
 
  trait_cancer:0 "Гниль"
  trait_cancer_desc:0 "Гниль распространилась по телу этого персонажа, высасывая из него жизнь."
- trait_cancer_character_desc:0 "Гниль распространилась по телу [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip], высасывая из [Select_CString(ROOT.GetCharacter.IsFemale, 'неё', 'него' )]  жизненные силы."
+ trait_cancer_character_desc:0 "Гниль распространилась по телу [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip], высасывая из [Select_CString(ROOT.GetCharacter.IsFemale, 'неё', 'него' )] жизненные силы."
  trait_typhus:0 "Желтая лихорадка"
 
  trait_typhus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от желтой лихорадки и мучается от сыпи, жара и кашля."
- trait_bubonic_plague:0 "Кнахатенский Грипп"
+ trait_bubonic_plague:0 "Кнахатенский грипп"
  trait_bubonic_plague_desc:0 "Этот персонаж страдает от высокой температуры и изнуряющего кашля. Такие недолго живут в этом мире."
  trait_bubonic_plague_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от высокой температуры и изнуряющего кашля. [ROOT.GetCharacter.GetSheHe] не долго проживёт в этом мире."
  trait_smallpox:0 "Мор"

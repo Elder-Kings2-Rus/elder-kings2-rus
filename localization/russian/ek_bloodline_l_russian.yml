@@ -29,11 +29,11 @@
  bloodline_direnni_matri_override:0 "да" # does the bloodline pass in opposite dominant marriages, ie woman pass patri in matri marriage? yes/no
  bloodline_direnni_bastards:0 "да" # do bastards inherit? yes/no
  bloodline_direnni_special:0 "нет" # are there an extra conditions for inheritance? yes/no
- bloodline_direnni_desc:0 "Диренни - легендарный клан Альтмеров, правивший большей частью Хай Рока в Первую Эпоху, одержав феерическую победу над Алессианским Орденом."
+ bloodline_direnni_desc:0 "Диренни - легендарный клан Альтмеров, правивший большей частью Хай Рока в Первую эру, одержав феерическую победу над Алессианским Орденом."
  
  trait_bloodline_reman:0 "Родословная Ремана"
  bloodline_reman_inherit:0 "все" # inheritance all, matri, patri
  bloodline_reman_matri_override:0 "да" # does the bloodline pass in opposite dominant marriages, ie woman pass patri in matri marriage? yes/no
  bloodline_reman_bastards:0 "нет" # do bastards inherit? yes/no
  bloodline_reman_special:0 "да" # are there an extra conditions for inheritance? yes/no
- bloodline_reman_desc:0 "Имея легендарное происхождение, Реман I сумел объединить Сиродил после падения Алессианского ордена и основал Вторую Сиродиильскую империю."
+ bloodline_reman_desc:0 "Имея легендарное происхождение, Реман I сумел объединить Сиродил после падения Алессианского ордена и основал Вторую Сиродильскую империю."

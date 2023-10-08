@@ -1,23 +1,88 @@
 ﻿l_russian:
  single_combat.0001.unbounded_flames:1 "Давай посмотрим, нравится ли тебе быть поглощенным #EMP Бесконечным пламенем#!!"
- single_combat.0001.telekinesis:1 "Мой #EMP Телекинез# свалит тебя с ног!"
- single_combat.0001.crystallized_shield:1 "Мой #EMP Кристализированный щит#! не подведет меня!"
+ single_combat.0001.telekinesis:1 "Мой #EMP Телекинез#! свалит тебя с ног!"
+ single_combat.0001.crystallized_shield:1 "Мой #EMP Кристаллизованный щит#! не подведет меня!"
  single_combat.0001.force_shock:1 "Вперед, мои магические силы!"
  single_combat.0001.storm_wall:1 "Мои магические способности позволяют мне поднять #EMP Стену бурь#!!"
- 
- single_combat.0001.desc.my_feedback.unbounded_flames:0 "Я бросаю серию огненных шаров в форме дуги, взрывая пространство вокруг противника. После взрыва на некоторое время остается стена огня, пылающая так же жарко, как пламя обливиона."
+ single_combat.0001.bat_swarm:1 "Я могу призвать #EMP Рой летучих мышей#!, используя свои вампирские способности!"
+ single_combat.0001.leech_health:1 "Я высосу твою жизненную сущность своими некромантскими знаниями!"
+
+ single_combat.0001.desc.my_feedback.unbounded_flames:0 "Я бросаю серию огненных шаров в форме дуги, взрывая пространство вокруг противника. После взрыва на некоторое время остается стена огня, пылающая так же жарко, как пламя Обливиона."
  single_combat.0001.desc.my_feedback.telekinesis:0 "Я слегка взмахиваю рукой, концентрируя свою магическую силу в теле моего врага. [my_foe.GetFirstNameNoTooltip] смотрит на меня, недоумевая, почему [my_foe.GetSheHe] больше не чувствует землю, через мгновение [my_foe.GetSheHe] снова начинает чувствовать землю в полной мере."
  single_combat.0001.desc.my_feedback.force_shock:0 "Я размахиваю своим [myself.Custom('signature_weapon')], концентрируясь на арканных элементах и призывая их силу. [my_foe.GetFirstNameNoTooltip] не успевает парировать беспорядочные искры стихий, которые вылетают из моего [myself.Custom('signature_weapon')], поражая [my_foe.GetHerHim]."
  single_combat.0001.desc.my_feedback.crystallized_shield:0 "Я концентрируюсь на элементе мороза, направляя свою магическую энергию в холодный воздух, который окружает меня. [my_foe.GetFirstNameNoTooltip] видит, как передо мной и [Select_CString(ROOT.GetCharacter.IsFemale, 'ней', 'ним' )] появляется толстый ледяной щит, защищающий меня от [my_foe.GetHerHis] атак."
  single_combat.0001.desc.my_feedback.storm_wall:0 "Создавая руками древние магические знаки, я распыляю силу самих бурь на землю, создавая стену из молний, которая отделяет меня от моего врага."
+ single_combat.0001.desc.my_feedback.bat_swarm:0 "Используя свои вампирские способности, я могу призвать рой летучих мышей для атаки противника."
+ single_combat.0001.desc.my_feedback.leech_health:0 "Используя свои некромантские способности, я перенесу жизненную силу моего противника в свое тело."
 
  single_combat.0001.desc.opponent_response.unbounded_flames:0 "[my_foe.GetFirstNameNoTooltip] взмахивает своими пальцами, произнося магические слова, как сразу шквал бесконечного пламени окружает меня, взрываясь при соприкосновении с любым предметом. Когда я думаю, что мои мучения закончились, между мной и моим врагом остается огненная стена."
- single_combat.0001.desc.opponent_response.telekinesis:0 "[my_foe.GetFirstNameNoTooltip] слегка взмахивает своей рукой, концентрируя [my_foe.GetHerHis] магическую силу в моём теле. Я смотрю на [my_foe.GetFirstHerHim] в замешательстве, удивляясь почему я больше не чувствую землю,  через мгновение я снова начинаю чувствовать землю в полной мере."
+ single_combat.0001.desc.opponent_response.telekinesis:0 "[my_foe.GetFirstNameNoTooltip] слегка взмахивает своей рукой, концентрируя [my_foe.GetHerHis] магическую силу в моём теле. Я смотрю на н[my_foe.GetHerHis] в замешательстве, удивляясь почему я больше не чувствую землю, через мгновение я снова начинаю чувствовать землю в полной мере."
  single_combat.0001.desc.opponent_response.force_shock:0 "[my_foe.GetFirstNameNoTooltip] взмахивает своим [my_foe.Custom('signature_weapon')], закрывая глаза и призывая некую магическую силу. У меня нет времени парировать беспорядочные искры стихий, которые вылетают из [my_foe.GetHerHis] [my_foe.Custom('signature_weapon')], которые поражают меня."
  single_combat.0001.desc.opponent_response.crystallized_shield:0 "Я вижу, как мой враг закрывает глаза, пока наше окружение становится все холоднее. В считанные секунды передо мной и [my_foe.GetFirstNameNoTooltip] появляется толстый ледяной щит, защищающий [Select_CString(ROOT.GetCharacter.IsFemale, 'её', 'его' )] от моих атак."
  single_combat.0001.desc.opponent_response.storm_wall:0 "Создавая руками древние магические знаки, [my_foe.GetFirstNameNoTooltip] распыляет силу самих бурь на землю, создавая стену молний, которая отделяет меня от моего врага."
- 
+ single_combat.0001.desc.opponent_response.bat_swarm:0 ""Используя свои вампирские способности, [my_foe.GetFirstNameNoTooltip] призывает рой летучих мышей для атаки меня."
+ single_combat.0001.desc.opponent_response.leech_health:0 "Используя свои некромантские способности [my_foe.GetFirstNameNoTooltip] высасывает жизненную силу из моего тела."
+
  single_combat.0001.tt.unbounded_flames:0 "#BOL Безграничное пламя:#! С огромной магической силой вы создаете поток огненных шаров, которые поднимают огромную стену огня, окружая и сжигая вашего противника."
  single_combat.0001.tt.force_shock:0 "#BOL Силовой удар:#! Вы взмахиваете своим [myself.Custom('signature_weapon')], концентрируясь на арканных элементах и призывая их силу, выстреливаете сливающеюся искрой из трех арканных элементов."
  single_combat.0001.tt.storm_wall:0 "#BOL Стена бурь:#! Используйте свои магические способности, чтобы создать стену бурь между вами и противником."
- 
+ single_combat.0001.tt.telekinesis:0 "#BOL Телекинез:#! Используйте свои магические способности, чтобы сдвинуть противника с большой силой"
+ single_combat.0001.tt.crystallized_shield:0 "#BOL Кристаллический щит:#! Используйте свои магические способности, чтобы создать непроницаемый ледяной щит"
+ single_combat.0001.tt.bat_swarm:0 "#BOL Рой летучих мышей:#! используйте свои вампирские способности, чтобы призвать рой летучих мышей для атаки вашего противника"
+ single_combat.0001.tt.leech_health:0 "#BOL Высасывание здоровья:#! используйте свои некромантские способности, чтобы истощить жизненную силу противника"
+
+ single_combat.0041.desc.sc_defender.unbounded_flames:0 "Немногие могут выдержать такое пылающее заклинание."
+ single_combat.0041.desc.sc_defender.force_shock:0 "Безусловно, это волнующий ход."
+ single_combat.0041.desc.sc_defender.storm_wall:0 "Гигантский барьер из молний вспыхивает между мной и моим врагом."
+ single_combat.0041.desc.sc_defender.telekinesis:0 "Мой противник теряет землю под ногами."
+ single_combat.0041.desc.sc_defender.crystallized_shield:0 "Между мной и моим врагом прорывается защитный кристаллизованный щит."
+ single_combat.0041.desc.sc_defender.bat_swarm:0 "Моя вампирская кровь превосходна во всех отношениях, и это доказано на этом поле боя."
+ single_combat.0041.desc.sc_defender.leech_health:0 "Я чувствую прилив сил, когда поглощаю чистую жизненную сущность моего врага."
+
+ single_combat.0041.desc.opponent_response.unbounded_flames:0 "[sc_loser.GetFirstNameNoTooltip] бросает в меня огненное заклинание и смотрит, как меня охватывает пламя. К [sc_loser.GetHerHis] ужасу, я выхожу из ада и"
+ single_combat.0041.desc.opponent_response.force_shock:0 "[sc_loser.GetFirstNameNoTooltip] бросает в меня кучу молний и смотрит, как меня окутывают искры. К [sc_loser.GetHerHis] ужасу, Я выхожу из них, как гром, и"
+ single_combat.0041.desc.opponent_response.storm_wall:0 "[sc_loser.GetFirstNameNoTooltip] создает стену бурь между [Select_CString(sc_loser.IsFemale, 'ней', 'ним' )] и мной. К сожалению для н[sc_loser.GetHerHis], это заклинание не удерживает меня от продвижения и"
+ single_combat.0041.desc.opponent_response.telekinesis:0 "[sc_loser.GetFirstNameNoTooltip] пытается сдвинуть меня с места своей магией, но не понимает, что [Select_CString(sc_loser.IsFemale, 'ей', 'ему' )] недостаточно силен, чтобы что-то изменить. Пока [sc_loser.GetSheHe] пытается сосредоточиться на своём заклинании, я"
+ single_combat.0041.desc.opponent_response.crystallized_shield:0 "[sc_loser.GetFirstNameNoTooltip] призывает ледяной щит между [Select_CString(sc_loser.IsFemale, 'ней', 'ним' )] и мной. Я быстро разбиваю его, используя [sc_victor.Custom('SignatureWeaponAttemptedHeavy')], и"
+ single_combat.0041.desc.opponent_response.bat_swarm:0 "[sc_loser.GetFirstNameNoTooltip] вызывает рой летучих мышей, которые летят ко мне, кусая меня по всему телу. Мне удается пройти через рой и"
+ single_combat.0041.desc.opponent_response.leech_health:0 "[sc_loser.GetFirstNameNoTooltip] использует тёмную магию, чтобы поглотить саму мою жизненную сущность. Хотя я чувствую эффект ослабления, у меня все еще остается достаточно сил, чтобы собраться и"
+
+ single_combat.0041.desc.opponent_response.unbounded_flames.injury:0 "выбиваю [sc_loser.Custom('signature_weapon')] из [sc_loser.GetHerHis] рук." #\n\nIt takes quite a bit of prodding to focus [sc_loser.GetFirstNameNoTooltip] enough for a formal yield, but we get there.
+ single_combat.0041.desc.opponent_response.force_shock.injury:0 "выбиваю [sc_loser.Custom('signature_weapon')] из [sc_loser.GetHerHis] рук." #\n\nIt takes quite a bit of prodding to focus [sc_loser.GetFirstNameNoTooltip] enough for a formal yield, but we get there.
+ single_combat.0041.desc.opponent_response.storm_wall.injury:0 "выбиваю [sc_loser.Custom('signature_weapon')] из [sc_loser.GetHerHis] рук." #\n\nIt takes quite a bit of prodding to focus [sc_loser.GetFirstNameNoTooltip] enough for a formal yield, but we get there.
+ single_combat.0041.desc.opponent_response.telekinesis.injury:0 "выбиваю [sc_loser.Custom('signature_weapon')] из [sc_loser.GetHerHis] рук." #\n\nIt takes quite a bit of prodding to focus [sc_loser.GetFirstNameNoTooltip] enough for a formal yield, but we get there.
+ single_combat.0041.desc.opponent_response.crystallized_shield.injury:0 "выбиваю [sc_loser.Custom('signature_weapon')] из [sc_loser.GetHerHis] рук." #\n\nIt takes quite a bit of prodding to focus [sc_loser.GetFirstNameNoTooltip] enough for a formal yield, but we get there.
+ single_combat.0041.desc.opponent_response.bat_swarm.injury:0 "выбиваю [sc_loser.Custom('signature_weapon')] из [sc_loser.GetHerHis] рук." #\n\nIt takes quite a bit of prodding to focus [sc_loser.GetFirstNameNoTooltip] enough for a formal yield, but we get there.
+ single_combat.0041.desc.opponent_response.leech_health.injury:0 "выбиваю [sc_loser.Custom('signature_weapon')] из [sc_loser.GetHerHis] рук." #\n\nIt takes quite a bit of prodding to focus [sc_loser.GetFirstNameNoTooltip] enough for a formal yield, but we get there.
+
+ single_combat.0041.desc.opponent_response.unbounded_flames.fatality:0 "приближаюсь к н[sc_loser.GetHerHim].\n\nОдин чёткий удар, и я [sc_victor.Custom2('SignatureWeaponKillTypeHeadThirdPersonFutureGendered',SCOPE.sC('sc_loser'))]."
+ single_combat.0041.desc.opponent_response.force_shock.fatality:0 "приближаюсь к н[sc_loser.GetHerHim].\n\nОдин чёткий удар, и я [sc_victor.Custom2('SignatureWeaponKillTypeHeadThirdPersonFutureGendered',SCOPE.sC('sc_loser'))]."
+ single_combat.0041.desc.opponent_response.storm_wall.fatality:0 "приближаюсь к н[sc_loser.GetHerHim].\n\nОдин чёткий удар, и я [sc_victor.Custom2('SignatureWeaponKillTypeHeadThirdPersonFutureGendered',SCOPE.sC('sc_loser'))]."
+ single_combat.0041.desc.opponent_response.telekinesis.fatality:0 "приближаюсь к н[sc_loser.GetHerHim].\n\nОдин чёткий удар, и я [sc_victor.Custom2('SignatureWeaponKillTypeHeadThirdPersonFutureGendered',SCOPE.sC('sc_loser'))]."
+ single_combat.0041.desc.opponent_response.crystallized_shield.fatality:0 "приближаюсь к н[sc_loser.GetHerHim].\n\nОдин чёткий удар, и я [sc_victor.Custom2('SignatureWeaponKillTypeHeadThirdPersonFutureGendered',SCOPE.sC('sc_loser'))]."
+ single_combat.0041.desc.opponent_response.bat_swarm.fatality:0 "приближаюсь к н[sc_loser.GetHerHim].\n\nОдин чёткий удар, и я [sc_victor.Custom2('SignatureWeaponKillTypeHeadThirdPersonFutureGendered',SCOPE.sC('sc_loser'))]."
+ single_combat.0041.desc.opponent_response.leech_health.fatality:0 "приближаюсь к н[sc_loser.GetHerHim].\n\nОдин чёткий удар, и я [sc_victor.Custom2('SignatureWeaponKillTypeHeadThirdPersonFutureGendered',SCOPE.sC('sc_loser'))]."
+
+ single_combat.0041.desc.sc_attacker.unbounded_flames:0 "Я усиливаю своё заклинание, моё пламя становится все выше, жарче и мощнее.\n\n"
+ single_combat.0041.desc.sc_attacker.force_shock:0 "Я усиливаю своё заклинание, стреляя молниями из пальцев, всё более и более мощными.\n\n"
+ single_combat.0041.desc.sc_attacker.storm_wall:0 "Стена поднимается достаточно быстро, чтобы мой противник не успел изменить направление и ударил ее в полную силу.\n\n"
+ single_combat.0041.desc.sc_attacker.telekinesis:0 "Я быстро перемещаю своего противника своим заклинанием, и у него практически нет времени на ответ.\n\n"
+ single_combat.0041.desc.sc_attacker.crystallized_shield:0 "Я создаю щит достаточно быстро, чтобы мой противник не успел изменить направление и ударил его в полную силу.\n\n"
+ single_combat.0041.desc.sc_attacker.bat_swarm:0 "Я вызываю рой летучих мышей, которые быстро сокрушают моего противника, кусая и нанося удары по всему [sc_loser.GetHerHis] телу.\n\n" 
+ single_combat.0041.desc.sc_attacker.leech_health:0 "Мое заклинание сильно ослабляет моего противника, я вижу, как [sc_loser.GetSheHe] спотыкается, пока [sc_loser.GetHerHis] жизненная сущность течёт в мое собственное тело.\n\n" 
+
+ single_combat.0041.desc.sc_attacker.unbounded_flames.injury:0 "Жар становится всё более нестерпимым, а я бросаюсь в волну [sc_victor.Custom('SignatureWeaponAttemptedHeavyPlural')], которая заставляет [sc_loser.GetFirstNameNoTooltip] опуститься на колени.\n\n[Select_CString(sc_loser.IsFemale, 'Противница', 'Противник' )] пытается парировать, не замечая, что мое колено и [sc_loser.GetHerHis] [sc_loser.Custom('MaskFace')] вот-вот встретятся. [sc_loser.GetFirstNameNoTooltip] падает на спину, хватая воздух широко раскрытым ртом.\n\n[sc_loser.GetSheHe|U] всё еще задыхается, когда хрипло просит пощады, не отрывая глаз от моего приближающегося оружия."
+ single_combat.0041.desc.sc_attacker.force_shock.injury:0 "Искры трещат всё сильнее, а я бросаюсь в волну [sc_victor.Custom('SignatureWeaponAttemptedHeavyPlural')], которая заставляет [sc_loser.GetFirstNameNoTooltip] опуститься на колени.\n\n[Select_CString(sc_loser.IsFemale, 'Противница', 'Противник' )] пытается парировать, не замечая, что мое колено и [sc_loser.GetHerHis] [sc_loser.Custom('MaskFace')] вот-вот встретятся. [sc_loser.GetFirstNameNoTooltip] падает на спину, хватая воздух широко раскрытым ртом.\n\n[sc_loser.GetSheHe|U] всё еще задыхается, когда хрипло просит пощады, не отрывая глаз от моего приближающегося оружия."
+ single_combat.0041.desc.sc_attacker.storm_wall.injury:0 "Мой противник лежит, почти теряя сознание и сильно дрожа. Я забираю [sc_loser.Custom('signature_weapon')] у н[sc_loser.GetHerHis], чтобы заставить [sc_loser.GetHerHis] уступить."
+ single_combat.0041.desc.sc_attacker.telekinesis.injury:0 "Я со всей силы ударяю противника о землю, заставляя [sc_loser.GetHerHis] уронить [sc_loser.Custom('signature_weapon')]. И этот курс действий приносит свои плоды."
+ single_combat.0041.desc.sc_attacker.crystallized_shield.injury:0 "От удара [sc_loser.Custom('signature_weapon')] вылетает из рук моего противника. Из носа моего соперника течёт кровь и [sc_loser.GetFirstNameNoTooltip] кричит от боли."
+ single_combat.0041.desc.sc_attacker.bat_swarm.injury:0 "Было бы очень легко убить [sc_loser.GetHerHis], но я приказываю своим летучим мышам забрать [sc_loser.GetHerHis] [sc_loser.Custom('signature_weapon')]. Вскоре после этого раздается дрожащий голос."
+ single_combat.0041.desc.sc_attacker.leech_health.injury:0 "[sc_loser.GetFirstNameNoTooltip] полностью в моей власти. У н[sc_loser.GetHerHis] едва хватает сил стоять на ногах, не говоря уже о том, чтобы поднять [sc_loser.GetHerHis] [sc_loser.Custom('signature_weapon')]. Я слышу очень слабый шёпот."
+
+ single_combat.0041.desc.sc_attacker.unbounded_flames.fatality:0 "Когда жар от битвы и моего заклинания охватывают меня, я пускаю в ход [sc_victor.Custom('SignatureWeaponAttemptedLightPlural')], расплавляя волю, плоть и кости моего противника по имени [sc_loser.GetFirstNamePossessiveNoTooltip].\n\nВскоре я оказываюсь перед оплавленным месивом на том месте, где раньше стоял мой враг.\n\n[sc_loser.GetSheHe|U] больше нет."
+ single_combat.0041.desc.sc_attacker.force_shock.fatality:0 "Искры трещат всё сильнее, а я бросаюсь в волну [sc_victor.Custom('SignatureWeaponAttemptedHeavyPlural')], под ударом которой [sc_loser.GetFirstNameNoTooltip] падает на колени.\n\n[Select_CString(sc_loser.IsFemale, 'Противница', 'Противник' )] пытается парировать, не замечая, что мое колено и [sc_loser.GetHerHis] [sc_loser.Custom('MaskFace')] вот-вот встретятся. [sc_loser.GetFirstNameNoTooltip] падает на спину, хватая воздух широко раскрытым ртом.\n\n[sc_loser.GetFirstNameNoTooltip] всё ещё задыхается, когда я погружаю [sc_victor.Custom('signature_weapon')] в [sc_loser.GetHerHis] грудь."
+ single_combat.0041.desc.sc_attacker.storm_wall.fatality:0 "Мой противник лежит, почти теряя сознание и сильно дрожа. Я беру [sc_victor.Custom('signature_weapon')] и заканчиваю работу."
+ single_combat.0041.desc.sc_attacker.telekinesis.fatality:0 "Я ударяю тело противника о землю несколько раз изо всех сил, ломая [sc_loser.GetHerHis] кости до тех пор, пока [sc_loser.GetSheHe] не перестаёт издавать звуки."
+ single_combat.0041.desc.sc_attacker.crystallized_shield.fatality:0 "От удара [sc_loser.Custom('signature_weapon')] вылетает из рук моего противника. Из носа моего соперника течёт кровь, и [sc_loser.GetFirstNameNoTooltip] чувствует, как весь вес моего призванного щита сокрушает [sc_loser.GetHerHis] тело, пока [sc_loser.GetSheHe] кричит от боли."
+ single_combat.0041.desc.sc_attacker.bat_swarm.fatality:0 "Убить [sc_loser.GetHerHis] оказалось очень легко, так как я [Select_CString(ROOT.Char.IsFemale, 'приказала', 'приказал' )] своим летучим мышам тут же лишить [sc_loser.GetHerHis] жизни. Клыки и когти вонзились в [sc_loser.GetHerHis] тело, разрывая плоть на части и высасывая кровь."
+ single_combat.0041.desc.sc_attacker.leech_health.fatality:0 "Я действительно [Select_CString(ROOT.Char.IsFemale, 'повелительница', 'повелитель' )] жизни и смерти. Мой противник увядает прямо на моих глазах, пока я высасываю из [sc_loser.GetHerHis] тела всю жизненную силу до последней капли. Мой противник не в силах пошевелиться или даже закричать. И вскоре [sc_loser.GetSheHe] превращается в безжизненную оболочку, а я наслаждаюсь своей победой и украденной силой, которая теперь течет по моим жилам."

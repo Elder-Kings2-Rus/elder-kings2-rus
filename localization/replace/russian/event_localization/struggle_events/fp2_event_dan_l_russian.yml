@@ -1,31 +1,32 @@
 ﻿l_russian:
- fp2_yearly.1004.t:0 "The Hawks of Hattu"
- fp2_yearly.1004.desc:0 "I am reading a history of the Hattu Metropoles Brigade — also known as "The Hawks of Hattu" due to their reverence for the hawk goddess Tava.\n\nLearning about the Second Yokudan Warrior Wave and their role in it is incredibly inspiring, from their involvement in the War of the Singers, to their leader [hawk_of_quraysh.GetFirstName] establishing the [hawk_dynasty.GetName] dynasty in Hammerfell, I can't help but think I should take some of it to heart."
- fp2_yearly.1004.a:0 "I too could inspire my men as they did at $c_ancestor_landing$."
- fp2_yearly.1004.b:0 "Their leader's diplomatic dealings with the [keptu.GetName] remnants are legendary."
- fp2_yearly.1004.c:0 "I'm a scion of the Hawks of Hattu!"
+ fp2_yearly.1004.t:0 "Ястребы Хатту"
+ fp2_yearly.1004.desc:0 "Я читаю историю Бригады Метрополий Хатту, также известной как «Ястребы Хатту» из-за их почтения к богине-ястребу Таве..\n\nИнформация о Второй волне йокуданских воинов и их роли в ней невероятно вдохновляет, от их участия в Войне певцов до их лидера [hawk_of_quraysh.GetFirstName], основавшего династию [hawk_dynasty.GetName] в Хаммерфелле, я ничего не могу с собой поделать. Думаю, мне следует принять некоторые из них близко к сердцу."
+ fp2_yearly.1004.a:0 "Я тоже мог вдохновлять своих людей, как это делали в землях $c_ancestor_landing$."
+ fp2_yearly.1004.b:0 "О дипломатических отношениях их лидера с остатками [keptu.GetName] ходят легенды.."
+ fp2_yearly.1004.c:0 "Я потомок Ястребов Хатту!"
 
- nick_the_hawk_of_quraysh:0 "the Hawk of Hattu"
+ nick_the_hawk_of_quraysh:0 "Ястреб Хатту"
 
- fp2_hawk_of_quarysh_martial_modifier_desc:0 "This character has gained martial inspiration from the Hawks of Hattu."
+ fp2_hawk_of_quarysh_martial_modifier_desc:0 "Этот персонаж получил боевое вдохновение от Ястребов Хатту.."
 
- fp2_hawk_of_quarysh_diplomacy_modifier_desc:0 "This character has gained diplomatic inspiration from the Hawks of Hattu."
-
-
- fp2_yearly.1005.t:0 "Lost Orc"
- fp2_yearly.1005.desc:0 "Struggling and shouting, a large [hidden_viking.GetWomanMan] is dragged before me. [hidden_viking.GetSheHe|U] is clearly an orc raider, the type who has sown chaos in our realm for decades.\n\n"Please have mercy. My name is [hidden_viking.GetName] and I've been living in [viking_county.GetNameNoTooltip] for years. I was left behind because I was injured. The villagers saved me; they're my family now."\n\nThe $mountain_orc$ falls to [hidden_viking.GetHerHis] knees, hoping I'll spare [hidden_viking.GetHerHis] life. Several peasants confirm [hidden_viking.GetHerHis] story."
+ fp2_hawk_of_quarysh_diplomacy_modifier_desc:0 "Этот персонаж получил дипломатическое вдохновение от Ястребов Хатту.."
 
 
- fp2_yearly.1006.t:0 "Mammoth Cheese?"
- fp2_yearly.1006.desc:0 "I stop at a roadside stall selling some simple foods. The trader, [cheese_trader.GetName], plies me with different wares before reaching below the stall and bringing out a carved wooden box.\n\n"For you my liege, this is the finest cheese in all the realm. [cheese_trader.GetSheHe|U] pushes the small block into my hand, leans in and whispers conspiratorially, "It was crafted by cheese-making giants of the Whiterun steppe."\n\nDespite the bizarre comment, the cheese is incredibly good."
- fp2_yearly.1006.a:0 "I'll accept your cheese but not your ridiculous story."
- fp2_yearly.1006.b:0 "I must find these "Cheese giants"..."
- fp2.1006.b.tt:0 "You send your agents out to find the "Cheese giants""
- fp2_yearly.1006.c:0 "What a load of rubbish."
+ fp2_yearly.1005.t:0 "Потерянный орк"
+ fp2_yearly.1005.desc:0 "Я слышу крики и звуки борьбы, и скоро, [Select_CString(hidden_viking.IsFemale, 'подталкиваемая', 'подталкиваемый' )] стражниками, передо мной предстает [Select_CString(hidden_viking.IsFemale, 'рослая', 'рослый' )] [hidden_viking.GetWomanMan]. Это явно [Select_CString(hidden_viking.IsFemale, 'одна', 'один' )] из орков-налётчиков, что уже десятилетия опустошают наши земли.\n\n"Молю вас, сжальтесь надо мной. Меня зовут [hidden_viking.GetName], я уже много лет живу в графстве [viking_county.GetNameNoTooltip]. Я [Select_CString(hidden_viking.IsFemale, 'получила', 'получил' )] ранение в походе, и собратья бросили меня здесь. Селяне меня выходили, теперь они мне как семья».\n\n[hidden_viking.GetSheHe|U] падает на колени в надежде, что я сохраню [Select_CString(hidden_viking.IsFemale, 'ей', 'ему' )] жизнь. Крестьяне [Select_CString(hidden_viking.IsFemale, 'её', 'его' )] историю подтверждают."
+
+
+ fp2_yearly.1006.t:0 "Мамонтовый сыр?"
+ fp2_yearly.1006.desc:0 "Я останавливаюсь у прилавка, где продаются всякие нехитрые яства.. [Select_CString(cheese_trader.IsFemale, 'Торговка', 'Торговец' )], [cheese_trader.GetName], показывает мне разные товары, а затем достает из-за прилавка резную деревянную коробочку.\n\n«Специально для вас, мой сюзерен, лучший сыр в наших землях». [cheese_trader.GetSheHe|U] пихает коробочку мне в руки и заговорщически шепчет мне на ухо: "Его изготовили сыроварни-гиганты Вайтранской степи.."\n\nХоть его слова меня и озадачили, но сыр оказался невероятно хорош.."
+ fp2_yearly.1006.a:0 "За сыр спасибо, но про мамонтов ты заливаешь."
+ fp2_yearly.1006.b:0 "Надо бы найти этих  "Сырных гигантов"..."
+ fp2.1006.b.tt:0 "Вы отправляете своих людей найти этих "Сырных гигантов""
+ fp2_yearly.1006.c:0 "Что за чушь."
 
 
  fp2_yearly.1007.t:0 "$fp2_yearly.1006.t$"
- fp2_yearly.1007.desc:0 "A scrawny looking [fake_cheese_viking.GetWomanMan] is brought before me. However, the pathetic [fake_cheese_viking.GetWomanMan] in front of me barely looks like a cheese maker — let alone a giant.\n\n"I'm truly sorry, but I'm not really a giant. It's just a lie to help with selling the cheese," [fake_cheese_viking.GetSheHe] sputters."
+ fp2_yearly.1007.desc:0 "Ко мне приводят [Select_CString(fake_cheese_viking.IsFemale, 'тщедушную женщину', 'тщедушного мужчину' )]. Но с виду [Select_CString(fake_cheese_viking.IsFemale, 'эта', 'этот' )] замухрышка и на сыродела-то не [Select_CString(fake_cheese_viking.IsFemale, 'похожа', 'похож' )], а уж тем более на викинга.\n\n«Простите меня, не гигант я, — признается [fake_cheese_viking.GetSheHe]. — Я просто так всем рассказываю, чтобы сыр продавать."
 
- fp2_cheese_artifact:0 "Aged Cheese"
- fp2_cheese_artifact_desc:0 "Despite the rumors, this cheese was not made by giants. However it is extremely good."
+ fp2_cheese_artifact:0 "Зрелый сыр"
+ fp2_cheese_artifact_desc:0 "Несмотря на слухи, сделали этот сыр не гиганты. Но он все равно очень вкусный."
+

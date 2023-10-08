@@ -1,47 +1,49 @@
 ﻿l_russian:
- warhorse.0001.t:0 "The War[ROOT.Char.Custom('LocalMount')]"
- warhorse.0001.desc:0 "Admiring the creature that now follows my every command I muse upon what to call [ROOT.Char.Custom('HorseStoryHerHim')]..."
+ warhorse.0001.t:0 "Боевой [ROOT.Char.Custom('LocalMount')]"
+ warhorse.0001.desc:0 "Восхищаясь существом, которое теперь следует каждой моей команде, я размышляю о том, какое имя лучше подойдет [ROOT.Char.Custom('HorseStoryHerHim')]..."
 
- warhorse.0001.b:0 "Mythology is full of awe inspiring [ROOT.Char.Custom('LocalMount')] names!"
- warhorse.0001.c:0 "It is just a [ROOT.Char.Custom('LocalMount')], and it should be named as such."
+ warhorse.0001.b:0 "В мифологии хватает грозных имен для [ROOT.Char.Custom('LocalMount')]!"
+ warhorse.0001.c:0 "Это просто [ROOT.Char.Custom('LocalMount')], и имя будет соответствующее."
 
- warhorse.0002.desc:0 "Inspired by the famous [ROOT.Char.Custom('LocalMountMultiple')] belonging to leaders and heroes of old I will name my steed after one of them."
- warhorse.0002.a:1 "Coldwind — as King Torug's bear!"
- warhorse.0002.b:0 "Umbrage — just as Rajhin's black senche-lion!"
- warhorse.0002.c:0 "Southpaw — just as Rajhin's lynx!"
- warhorse.0002.d:0 "Silverhoof — after the land of the legendary horsemen!"
+ warhorse.0002.desc:0 "Вдохновившись знаменитыми [ROOT.Char.Custom('LocalMountMultiple')] полководцев и героев прошлого, я назову своего скакуна в честь одного из них.."
+ warhorse.0002.a:1 "Холодный Ветер — как медведь короля Торуга!"
+ warhorse.0002.b:0 "Обида — как чёрный сенч-лев Раджина!"
+ warhorse.0002.c:0 "Левша — как рысь Раджина!"
+ warhorse.0002.d:0 "Серебряное Копыто — как в землях легендарных всадников!"
+ warhorse.0002.e:0 "Мастер войны — в честь золотого жеребца Эбеновой руки!"
 
- warhorse.0003.desc:1 "The mythological world is rich in grandeur, and names for [ROOT.Char.Custom('LocalMountMultiple')]."
 
- warhorse.0004.desc:0 "A [ROOT.Char.Custom('LocalMount')] should be named as the base creature that it is."
+ warhorse.0003.desc:1 "Мифы разных народов богаты на выдающиеся события — и на имена для ездовых животных."
 
- warhorse.1001.t:1 "[ROOT.Char.Custom('WarhorseStoryName')|U]: Trusty Steed"
- warhorse.1001.desc:0 "A renowned trainer has approached me after hearing rumors of my mighty mount [ROOT.Char.Custom('WarhorseStoryName')], and offers [ROOT.Char.Custom('RandomHerHis')] services.\n\n"All I ask in return is a small compensation.""
+ warhorse.0004.desc:0 "[ROOT.Char.Custom('LocalMount')] должен быть назван как обычное существо, которым оно является."
+
+ warhorse.1001.t:1 "[ROOT.Char.Custom('WarhorseStoryName')|U]: Верный скакун"
+ warhorse.1001.desc:0 "Известный дрессировщик подошёл ко мне после того, как услышал слухи о моём могучем скакуне [ROOT.Char.Custom('WarhorseStoryName')], и предлагает [ROOT.Char.Custom('RandomHerHis')] услуги.\n\n"Все, что я прошу взамен, это небольшое вознаграждение.""
  
- warhorse.1101.desc:0 "As I make my way to the stable I am greeted by the happy sounds of [ROOT.Char.Custom('WarhorseStoryName')]. [ROOT.Char.Custom('HorseStorySheHe')|U] seems eager to stretch [ROOT.Char.Custom('HorseStoryHerHis')] legs in the beautiful weather, and I can do nothing but agree."
+ warhorse.1101.desc:0 "Когда я подхожу к стойлам, то слышу счастливые звуки, которые издает [ROOT.Char.Custom('WarhorseStoryName')]. [ROOT.Char.Custom('HorseStorySheHe')|U] кажется, хочет размять [ROOT.Char.Custom('HorseStoryHerHis')] ноги в прекрасную погоду, и я не могу не согласиться."
 
- warhorse.1201.t:1 "[ROOT.Char.Custom('WarhorseStoryName')|U]: The Sick Steed"
- warhorse.1201.desc:0 "As [ROOT.Char.Custom('WarhorseStoryName')] trudges out of the stable, dragging [ROOT.Char.Custom('HorseStoryHerHis')] legs and hanging [ROOT.Char.Custom('HorseStoryHerHis')] head, there can be no doubt — my friend is sick.\n\nThe stablemaster assures me there is a cure to be found for what ails [ROOT.Char.Custom('HorseStoryHerHim')], but it comes at a hefty price."
+ warhorse.1201.t:1 "[ROOT.Char.Custom('WarhorseStoryName')|U]: Больной скакун"
+ warhorse.1201.desc:0 "Когда [ROOT.Char.Custom('WarhorseStoryName')] с трудом выходит из стойла, волоча ноги и опустив голову, у меня не остается сомнений: [ROOT.Char.Custom('HorseStoryMareStallion')] болеет.\n\nГлавный конюх уверяет, что от этой болезни есть лекарство, но оно дорого стоит.."
  
- warhorse.1301.t:1 "[ROOT.Char.Custom('WarhorseStoryName')|U]: [ROOT.Char.Custom('LocalMount')|U] Enthusiast"
- warhorse.1301.desc:1 "[horse_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] looks [ROOT.Char.Custom('WarhorseStoryName')] up and down, nodding approvingly.\n\n"It is a mighty fine [ROOT.Char.Custom('LocalMount')|U] you have here, my [ROOT.Char.GetTitleTierName]! If you would allow me to take [ROOT.Char.Custom('HorseStoryHerHim')] for a ride I would be very grateful.""
+ warhorse.1301.t:1 "[ROOT.Char.Custom('WarhorseStoryName')|U]: [ROOT.Char.Custom('LocalMount')|U] Энтузиаст"
+ warhorse.1301.desc:1 "[horse_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] осматривает [ROOT.Char.Custom('WarhorseStoryName')] сверху донизу, одобрительно кивая.\n\n"Вот это [ROOT.Char.Custom('HorseStoryMareStallion')], [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetTitleTierName|l]! Для меня было бы честью, если бы вы позволили мне проехаться»."
 
- warhorse.1401.t:1 "[ROOT.Char.Custom('WarhorseStoryName')|U]: Steed Horror"
- warhorse.1401.desc:0 "As darkness falls I find myself mostly alone in the stables, the quiet of the night only broken by the stomping of my [ROOT.Char.Custom('LocalMount')|U] [ROOT.Char.Custom('WarhorseStoryName')]. There is something strange about [ROOT.Char.Custom('HorseStoryHerHis')] eyes, something... #EMP threatening#!.\n\n[ROOT.Char.Custom('HorseStoryHerHis')|U] gaze follows me as I turn to leave, and the chill that runs down my spine lingers long into the night."
- warhorse.1401.a:0 "This is ridiculous – [ROOT.Char.Custom('HorseStorySheHe')] is just a [ROOT.Char.Custom('LocalMount')|U]."
+ warhorse.1401.t:1 "[ROOT.Char.Custom('WarhorseStoryName')|U]: Скакун Ужаса"
+ warhorse.1401.desc:0 "С наступлением темноты я оказываюсь почти в одиночестве у загона для ездовых животных. Лишь [ROOT.Char.Custom('HorseStoryMareStallion')] [ROOT.Char.Custom('WarhorseStoryName')], переступая ногами, нарушает ночную тишину.. Есть что-то странное в [ROOT.Char.Custom('HorseStoryHerHis')] взгляде, что-то... #EMP пугающее#!.\n\n[ROOT.Char.Custom('HorseStoryHerHis')|U] взгляд преследует меня, когда я поворачиваюсь к выходу: я ещё долго не могу забыть пробежавший по моей спине холодок."
+ warhorse.1401.a:0 "Это смешно – [ROOT.Char.Custom('HorseStorySheHe')] это всего лишь [ROOT.Char.Custom('LocalMount')|U]."
 
 
- warhorse.1402.desc:0 "Feet bruised by stomping members, hands bleeding from snapping maws, body bruised from being thrown... [ROOT.Char.Custom('WarhorseStoryName')] grunts merrily as [ROOT.Char.Custom('HorseStorySheHe')] almost throws me onto a soldier's lance, and I do not know how much more of this I can take."
- warhorse.1402.a:0 "I will not be bested by a [ROOT.Char.Custom('LocalMount')|U]!"
+ warhorse.1402.desc:0 "Избитые зверем ноги, руки искусаны, а тело все в синяках от падений... [ROOT.Char.Custom('WarhorseStoryName')] весело фыркает, пока [ROOT.Char.Custom('HorseStorySheHe')] радостно ржет, почти сбросив меня на копьё солдата, и я не знаю, сколько ещё выдержу..."
+ warhorse.1402.a:0 "Меня не сможет побороть [ROOT.Char.Custom('LocalMount')|U]!"
  
- warhorse.1499.desc:0 "It happens when we are just returning from a short outing on the back of my [ROOT.Char.Custom('LocalMount')|U] — what I have dreaded ever since I saw the malice in my [ROOT.Char.Custom('LocalMount')|U] [ROOT.Char.Custom('WarhorseStoryName')]'s eyes for the first time. [ROOT.Char.Custom('HorseStorySheHe')|U] throws me just as we are riding past a collection of sharp rocks, and I fall headfirst straight onto an edge. Lost in the blinding pain I can only hear loud grunts before it all goes away..."
+ warhorse.1499.desc:0 "Все происходит, когда мы возвращаемся с небольшой прогулки — её я боялся с тех пор, как увидел злобу во взгляде [ROOT.Char.Custom('WarhorseStoryName')] первый раз. [ROOT.Char.Custom('HorseStorySheHe')|U] выбрасывает меня из седла, когда мы проезжаем мимо скалистого выступа, и я падаю головой прямо на острый камень. Боль ослепляет меня, и последнее, что я слышу, — это громкое ржание. А потом все стихает..."
 
- warhorse.8001.desc:0 "My trusted [ROOT.Char.Custom('LocalMount')] [ROOT.Char.Custom('WarhorseStoryName')] is getting old. [ROOT.Char.Custom('HorseStoryHerHis')|U] stride is not as swift as it once were, and the fire in [ROOT.Char.Custom('HorseStoryHerHis')] eyes is fading.\n\nIf I want to keep [ROOT.Char.Custom('HorseStoryHerHis')] lineage alive I should find a good match for [ROOT.Char.Custom('HorseStoryHerHim')]."
- warhorse.8001.a:0 "I will find a strong [ROOT.Char.Custom('LocalMount')]."
- warhorse.8001.b:0 "Search for an agile [ROOT.Char.Custom('LocalMount')]."
- warhorse.8001.c:0 "The most important aspect in a [ROOT.Char.Custom('LocalMount')] is endurance."
- warhorse.8001.d:0 "Scour the lands for the fiercest [ROOT.Char.Custom('LocalMount')]!"
+ warhorse.8001.desc:0 "My trusted [ROOT.Char.Custom('LocalMount')] [ROOT.Char.Custom('WarhorseStoryName')] стареет. [ROOT.Char.Custom('HorseStoryHerHis')|U] шаг уже не столь быстр, как прежде, огонь в [ROOT.Char.Custom('HorseStoryHerHis')] глазах угасает.\n\nЕсли я хочу продолжить [ROOT.Char.Custom('HorseStoryHerHis')] род, нужно найти [ROOT.Char.Custom('HorseStoryHerHim')] подходящую пару."
+ warhorse.8001.a:0 "[ROOT.Char.Custom('LocalMount')] — это в первую очередь сила."
+ warhorse.8001.b:0 "[ROOT.Char.Custom('LocalMount')] — это в первую очередь ловкость."
+ warhorse.8001.c:0 "Самое главное качество, каким может обладать [ROOT.Char.Custom('LocalMount')] - это выносливость."
+ warhorse.8001.d:0 "Найдите самого свирепого скакуна в этих землях!"
 
- warhorse.8002.desc:0 "My beloved [ROOT.Char.Custom('LocalMount')] [ROOT.Char.Custom('WarhorseStoryName')] has passed away, but [ROOT.Char.Custom('HorseStorySheHe')] leaves a strong descendant behind! I can already see [ROOT.Char.Custom('HorseStoryHerHis')] personality in the young one — my friend is still with me in a sense."
+ warhorse.8002.desc:0 "Мой любимый [ROOT.Char.Custom('LocalMount')] [ROOT.Char.Custom('WarhorseStoryName')] умирает, но [ROOT.Char.Custom('HorseStorySheHe')] оставляет сильного потомка!Я уже вижу [ROOT.Char.Custom('HorseStoryHerHis')] черты в жеребенке. В некотором роде мой друг все ещё со мной."
 
- warhorse.8003.desc:0 "As I visit the stables I am greeted by the sad message that my beloved [ROOT.Char.Custom('LocalMount')|U] [ROOT.Char.Custom('WarhorseStoryName')] passed away during the night, leaving nothing behind but an emptiness in my heart."
+ warhorse.8003.desc:0 "В стойлах меня ждут печальные известия.[ROOT.Char.Custom('LocalMount')|U] [ROOT.Char.Custom('WarhorseStoryName')] умирает этой ночью, оставив пустоту в моём сердце."

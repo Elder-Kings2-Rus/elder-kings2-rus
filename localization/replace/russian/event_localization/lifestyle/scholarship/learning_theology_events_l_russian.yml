@@ -1,5 +1,5 @@
 ﻿l_russian:
- learning_theology.1301.desc:0 ""У местного торговца есть дубликат "Физические особенности оборотней", но он отказывается продать её мне."
+ learning_theology.1301.desc:0 ""У местного торговца есть дубликат книги "Физические особенности оборотней", но он отказывается продать её мне."
 
- learning_theology.3002.t:0 "Нерожденный мир"
- learning_theology.3002.desc:0 "Я изучал древние религиозные тексты и труды ученых, и все они, кажется, согласны, что [ROOT.Char.Custom('WorldDeadline')]. Согласно исследованиям они мы являемся лишь одной из многих кальп, что были и что есть.\n\nОднако, мой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chaplain'))], [chaplain.GetTitledFirstName], призывает меня держать язык за зубами. "Оставь это [ROOT.Char.GetFaith.AltPriestTermPlural] и не создавай панику. Что, если ваши исследования ошибочны?""
+ learning_theology.3002.t:0 "Нерождённый мир"
+ learning_theology.3002.desc:0 "Я изучаю древние религиозные тексты и сочинения учёных, и все они сходятся во мнении, что [ROOT.Char.Custom('WorldDeadline')]. Согласно моим исследованиям, мы являемся лишь одной из многих кальп, что были и что есть.\n\nНо [Select_CString(chaplain.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chaplain'))] [chaplain.GetTitledFirstName] просит меня не раскрывать этого: «Пусть этим займутся [ROOT.Char.GetFaith.AltPriestTermPlural], так мы избежим паники. Вдруг вы ошиблись в подсчетах?»"

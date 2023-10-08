@@ -6,9 +6,17 @@
  pagan_hostility_doctrine_desc:0 "Во вселенной Древних Свитков нет язычества. Если Вы видите это окно, пожалуйста, оповестите команду разработки!"
  eastern_hostility_doctrine_name:0 "Восточные"
  eastern_hostility_doctrine_desc:0 "Во вселенной Древних Свитков нет восточных религий. Если Вы видите это окно, пожалуйста, оповестите команду разработки!"
+ NOT_BUDDHAS_OF_BAMIAN_ENABLED:1 "[Concept('holder', 'Владелец' )|E] должен принадлежать к $rf_aurbic$ому  [Concept('religious_family', 'роду' )|El]"
  
  ### Dynamic Hostility, go from 0 to 100
  hostility_righteous_tooltippable:0 "[GetHostilityLevelName( '(int32)0' )|V]"
  hostility_astray_tooltippable:0 "[GetHostilityLevelName( '(int32)1' )|V]"
  hostility_hostile_tooltippable:0 "[GetHostilityLevelName( '(int32)34' )|V]"
  hostility_evil_tooltippable:0 "[GetHostilityLevelName( '(int32)67' )|V]"
+ 
+ 
+# Fixing vanilla buggy loc
+# EK EDIT: removed debug debug text for these parameters
+ doctrine_parameter_torturing_prisoners_grants_piety:0 "Пытки [Concept( 'prisoner', 'пленников' )|E] увеличивают [Concept( 'piety', 'благочестие' )|E], а не тратят его"
+ doctrine_parameter_reduced_stress_from_torture:0 "Последователи невосприимчивы к негативным последствиям пыток"
+ doctrine_parameter_self_mutilation_active:0 "Можно [decide|El] провести самоистязание, получив [Concept( 'piety', 'благочестие' )|El] и [trait|El] «[GetTrait('wounded_1').GetName( GetPlayer )]»"

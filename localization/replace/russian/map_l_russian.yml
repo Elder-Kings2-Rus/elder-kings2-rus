@@ -1,8 +1,8 @@
 ﻿l_russian:
-  # EK EDIT: Added [PROVINCE.GetName]#!\n to other wasteland tooltips to get them named
+ # EK EDIT: Added [PROVINCE.GetName]#!\n to other wasteland tooltips to get them named
  IMPASSIBLE_PROVINCE_TOOLTIP:0 "#T [PROVINCE.GetName]#!\nНепроходимая местность#!"
  IMPASSPABLE_SEA_PROVINCE_TOOLTIP:0 "#T [PROVINCE.GetName]#!\nМаре инкогнитум#!"
- SEA_PROVINCE_TOOLTIP:1 "#T [PROVINCE.GetName]#!\nМоре"
+ SEA_PROVINCE_TOOLTIP:2 "#T [PROVINCE.GetName]#!\n[PROVINCE.GetTerrain.GetNameNoTooltip|V]"
  # EK EDIT: Unnavigable Rivers
  LAKE_PROVINCE_TOOLTIP:0 "#T [PROVINCE.GetName]#!\nОзеро или небольшая река#!"
  RIVER_PROVINCE_TOOLTIP:1 "#T [PROVINCE.GetName]#!\nКрупная река"

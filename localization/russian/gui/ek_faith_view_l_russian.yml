@@ -1,24 +1,39 @@
 ﻿l_russian:
- FAITH_DOCTRINES_PANTHEON:0 "[pantheon|E] Доктрины"
- FAITH_DOCTRINES_SECONDARY_PANTHEON:0 "Вторичные Доктрины Пантеона"
- FAITH_DOCTRINES_DAEDRIC_PRINCES:0 "Даэдрические Доктрины"
- FAITH_DOCTRINES_VIRTUES_SINS:0 "[virtues|E] и [sins|E]"
- FAITH_DOCTRINES_IMPORTANT_SPECIAL:0 "Специальные Доктрины"
+ FAITH_DOCTRINES_PANTHEON:0 "Доктрины [Concept( 'pantheon', 'пантеона' )|E]"
+ FAITH_DOCTRINES_SECONDARY_PANTHEON:0 "[secondary_pantheon|E] — доктрины"
+ FAITH_DOCTRINES_DAEDRIC_PRINCES:0 "Даэдрические доктрины"
+ FAITH_DOCTRINES_VIRTUES_SINS:0 "[Concept( 'virtues', 'Добродетели' )|E] и [Concept( 'sins', 'грехи' )|E]"
+ FAITH_DOCTRINES_IMPORTANT_SPECIAL:0 "Специальные доктрины"
  
  FAITH_WINDOW_FERVOR_EQUILIBRIUM:0 "/[Faith.MakeScope.Var('fervor_equilibrium').GetValue|0]%"
- 
- 
+
+# Faith Creation window
+hide_tenets:0 "Спрятать догматы"
+hide_main_group:0 "Спрятать основные доктрины"
+hide_pantheon:0 "Спрятать доктрины пантеона"
+hide_marriage:0 "Спрятать брачные доктрины"
+hide_crimes:0 "Спрятать преступные доктрины"
+hide_clergy:0 "Спрятать доктрины духовенства"
+hide_daedric_princes:0 "Спрятать даэдрические доктрины"
+hide_virtues_sins:0 "Спрятать добродетели и грехи"
+show_tenets:0 "Показать догматы"
+show_main_group:0 "Показать основные доктрины"
+show_pantheon:0 "Показать доктрины пантеона"
+show_marriage:0 "Показать брачные доктрины"
+show_crimes:0 "Показать преступные доктрины"
+show_clergy:0 "Показать доктрины духовенства"
+show_daedric_princes:0 "Показать даэдрические доктрины"
+show_virtues_sins:0 "Показать добродетели и грехи"
+
+
  ### Dynamic holy sites
  DYNAMIC_HOLY_SITE_HELD_FAITH:0 "Удерживается конфессией"
  DYNAMIC_HOLY_SITE_NOT_HELD_FAITH:0 "НЕ удерживается конфессией"
  DYNAMIC_HOLY_SITE_NOT_HELD_FAITH_HOSTILITY:0 "[Title.GetHolder.GetFaith.GetRelationNameTo( GetPlayer.GetFaith )|V]"
- DYNAMIC_HOLY_SITE_ACTIVE:0 "#P Активное#! Священное место"
- DYNAMIC_HOLY_SITE_INACTIVE:0 "#N Неактивное#! Священное место"
- FAITH_DYNAMIC_HOLY_SITE_EXPLANATION:0 "Священные места удерживаемые вашей [faith|E] или конфессией с подходящими [doctrines|E] и [faith_hostility|E] считаются #V Активysми#! и могут быть выбраны во время [pilgrimage|E].\nНекоторые священные места имеют специальные эффекты, которые доступны только если ваша [faith|E] владеет священным местом."
+ DYNAMIC_HOLY_SITE_ACTIVE:0 "#P Активное#! священное место"
+ DYNAMIC_HOLY_SITE_INACTIVE:0 "#N Неактивное#! священное место"
+ FAITH_DYNAMIC_HOLY_SITE_EXPLANATION:0 "Священные места, удерживаемые вашей [Concept( 'faith', 'конфессией' )|E] или конфессией с подходящими [Concept( 'doctrines', 'доктринами' )|E] и [Concept( 'faith_hostility', 'враждебностью' )|E], считаются #V активными#!.\nОни могут быть выбраны во время [Concept( 'pilgrimage', 'паломничества' )|E].\nНекоторые священные места имеют специальные эффекты, которые доступны, только если ваша [Concept( 'faith', 'конфессия' )|E] владеет священным местом."
  
- dhs_effect_none:0 "Модификатор Священного Места под контролем:\nНет особого эффекта"
+ dhs_effect_none:0 "Модификатор священного места под контролем:\nНет особого эффекта"
  dhs_effect_conversion_resistance_50:0 "Модификатор священного места под контролем:\n#P +50%#! сопротивления обращению"
- COURT_CHAPLAIN_CONVERSION_DYNAMIC_HOLY_SITE_IMPERIAL_CITY:0 "Специальный [holy_site|E] эффект: Имперский Город"
-
- #TRADITION_CATEGORY_NAME:0 "" # <DELETE THIS KEY>
- tradition_group_core:0 "Основная"
+ COURT_CHAPLAIN_CONVERSION_DYNAMIC_HOLY_SITE_IMPERIAL_CITY:0 "Особый эффект [Concept( 'holy_site', 'священного места' )|E]: Имперский Город"
