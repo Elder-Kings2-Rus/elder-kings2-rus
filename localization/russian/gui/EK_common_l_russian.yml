@@ -1,3 +1,0 @@
-﻿l_russian:
- TOP_BAR_VERSION:0 "Elder Kings II - #X $EK_BUILD$#! \nВерсия мода: $EK_VERSION$\nВерсия игры: [GetGameVersionInfo]\nКонтрольная сумма сетевой игры: [GetMPChecksum|V] $MODIFIED_CHECKSUM$ [GetRandomLogInfo]"
- VERSION_SHORT:0 "[GetGameVersionInfoShort], Контрольная сумма: [GetMPChecksum] $MODIFIED_CHECKSUM$\nElder Kings II - $EK_VERSION$"
