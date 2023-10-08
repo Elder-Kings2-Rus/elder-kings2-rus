@@ -185,7 +185,7 @@ window = {
 
 			blockoverride "illustration_texture"
 			{
-				texture = "[Illustration.GetTextureForFaith( FaithWindow.GetFaith )]"
+				texture = "[Illustration.GetTexture( FaithWindow.GetFaith.MakeScope )]"
 				spriteType = stretched
 				fittype = centercrop
 				alpha = 0.35
@@ -479,7 +479,7 @@ window = {
 				name = "doctrines"
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = expanding
-				# margin_top = 10
+				#margin_top = 10
 
 				scrollbox = {
 					layoutpolicy_horizontal = expanding
@@ -489,7 +489,7 @@ window = {
 					blockoverride "scrollbox_content"
 					{
 						spacing = 16
-						# margin_top = 20
+						#margin_top = 20
 
 						state = {
 							name = "faith_view_refresh"
@@ -646,18 +646,14 @@ window = {
 
 							hbox = {
 								layoutpolicy_horizontal = expanding
-
-								hbox = {
-									name = "important_doctrines"
+								dynamicgridbox = {
 									datamodel = "[FaithWindow.GetGroupingHelper( 'main_group' ).GetGrouping]"
-									#spacing = 15
-									layoutpolicy_vertical = expanding
-									minimumsize = { 0 108 }
+									flipdirection = yes
+									datamodel_wrap = 6
 
 									item = {
-										vbox = {
-											layoutpolicy_vertical = expanding
-											minimumsize = { 100 0 }
+										widget = {
+											size = { 100 100 }
 											name = "doctrine_list_item"
 											datacontext = "[GuiFaithDoctrineItem.GetDoctrine]"
 											visible = "[FaithDoctrine.IsVisible]"
@@ -668,22 +664,61 @@ window = {
 												name = "doctrine_group_icon"
 												size = { 60 60 }
 												texture = "[FaithDoctrine.GetIcon]"
+												parentanchor = hcenter
 											}
 
 											text_single = {
+												parentanchor = bottom|hcenter
+												margin_bottom = 15
 												name = "doctrine_name"
 												align = center
 												#raw_text = "Bingo Bongo Tongo gyngo"
 												text = "[FaithDoctrine.GetNameNoTooltip( GuiFaithDoctrineItem.GetFaith )]"
 												default_format = "#high"
 												multiline = yes
-												max_width = 101   ##### minimum in order to look good in german
+												max_width = 119   ##### minimum in order to look good in german
 											}
-
-											expand = {}
 										}
 									}
 								}
+								
+								# hbox = {
+								# 	name = "important_doctrines"
+								# 	datamodel = "[FaithWindow.GetGroupingHelper( 'main_group' ).GetGrouping]"
+								# 	#spacing = 15
+								# 	layoutpolicy_vertical = expanding
+								# 	minimumsize = { 0 108 }
+
+								# 	item = {
+								# 		vbox = {
+								# 			layoutpolicy_vertical = expanding
+								# 			minimumsize = { 100 0 }
+								# 			name = "doctrine_list_item"
+								# 			datacontext = "[GuiFaithDoctrineItem.GetDoctrine]"
+								# 			visible = "[FaithDoctrine.IsVisible]"
+								# 			tooltip = "FAITH_WINDOW_DOCTRINE_TOOLTIP"
+								# 			using = tooltip_se
+
+								# 			icon_doctrine = {
+								# 				name = "doctrine_group_icon"
+								# 				size = { 60 60 }
+								# 				texture = "[FaithDoctrine.GetIcon]"
+								# 			}
+
+								# 			text_single = {
+								# 				name = "doctrine_name"
+								# 				align = center
+								# 				#raw_text = "Bingo Bongo Tongo gyngo"
+								# 				text = "[FaithDoctrine.GetNameNoTooltip( GuiFaithDoctrineItem.GetFaith )]"
+								# 				default_format = "#high"
+								# 				multiline = yes
+								# 				max_width = 101   ##### minimum in order to look good in german
+								# 			}
+
+								# 			expand = {}
+								# 		}
+								# 	}
+								# }
 							}
 						}
 
@@ -1212,7 +1247,7 @@ window = {
 								datacontext = "[Faith]"
 							}
 						}
-						
+
 						### EK EDIT: Added Ceremoniarchy HoF
 						widget_doctrine_item = {
 							visible = "[Faith.HasDoctrineByKey( 'doctrine_divine_blood_head' )]"
@@ -1277,7 +1312,7 @@ window = {
 					minimumsize = { 240 0 }
 					visible = "[NotEqualTo_uint32( Faith.GetID, GetPlayer.GetFaith.GetID )]"
 					text = "FAITH_CONVERSION_CONVERT"
-					onclick = "[OpenFaithConversionWindow( Faith.GetID )]"
+					onclick = "[ToggleGameViewData( 'faith_conversion', Faith.GetID )]"
 
 					using = tooltip_nw
 				}
@@ -1287,7 +1322,7 @@ window = {
 					minimumsize = { 240 0 }
 					visible = "[And( ObjectsEqual(Faith.Self, GetPlayer.GetFaith ), GetVariableSystem.HasValue( 'faith_view_tabs', 'beliefs' ))]"
 					text = "CREATE_REFORM_FAITH_TEXT"
-					onclick = "[OpenFaithCreationWindow( Faith.GetID )]"
+					onclick = "[OpenGameViewData( 'faith_creation', Faith.GetID )]"
 					tooltip = "CREATE_REFORM_FAITH_TOOLTIP"
 
 					using = tooltip_nw
@@ -1343,7 +1378,7 @@ window = {
 			background = {
 				alpha = 0.5
 				fittype = end
-				texture = "[Illustration.GetTextureForFaith( FaithWindow.GetFaith )]"
+				texture = "[Illustration.GetTexture( FaithWindow.GetFaith.MakeScope )]"
 
 				modify_texture = {
 					mirror = vertical
@@ -1358,7 +1393,6 @@ window = {
 					name = "holy_sites"
 					datamodel = "[FaithWindow.GetHolySites]"
 					layoutpolicy_horizontal = expanding
-					visible = "[Not(GetGlobalVariable('should_use_dynamic_holy_sites').IsSet)]"
 
 					text_multi = {
 						datacontext = "[FaithWindow.GetFaith]"
@@ -1549,207 +1583,6 @@ window = {
 						}
 					}
 				}
-
-
-				vbox = {
-					name = "holy_sites_dynamic"
-					layoutpolicy_horizontal = expanding
-					visible = "[GetGlobalVariable('should_use_dynamic_holy_sites').IsSet]"
-
-					text_multi = {
-						datacontext = "[FaithWindow.GetFaith]"
-						layoutpolicy_horizontal = expanding
-						size = { 0 45 }
-						text = FAITH_DYNAMIC_HOLY_SITE_EXPLANATION
-						default_format = "#weak"
-						margin = { 0 5 }
-						margin_bottom = 15
-						align = center
-						max_width = 560
-						autoresize = yes
-
-						state = {
-							name = "faith_view_refresh"
-							using = Animation_Refresh_FadeOut
-						}
-
-						state = {
-							using = Animation_Refresh_FadeIn
-						}
-					}
-
-					#######################################################
-					# ELDER KINGS DYNAMIC HOLY SITES                      #
-					#######################################################
-
-					datamodel = "[Faith.MakeScope.GetList('holy_sites')]"
-
-					item = {
-						hbox = {
-							datacontext = "[Scope.Story]"
-							datacontext = "[GetScriptedGui('dynamic_holy_site_is_active')]"
-							layoutpolicy_horizontal = expanding
-							margin = { 40 5 }
-							spacing = 5
-							#min_width = 550
-							#max_width = 550
-
-							vbox = {
-								layoutpolicy_vertical = expanding
-								min_width = 175
-								spacing = 3
-
-								state = {
-									name = "faith_view_refresh"
-									using = Animation_Refresh_FadeOut
-								}
-
-								state = {
-									using = Animation_Refresh_FadeIn
-								}
-
-								# County name and CoA
-								hbox = {
-									datacontext = "[Story.MakeScope.Var('holy_site_county')]"
-									layoutpolicy_horizontal = expanding
-									spacing = 5
-
-									coa_title_tiny = {
-										datacontext = "[Scope.Title]"
-									}
-
-									text_single = {
-										name = "name_notheld"
-										visible = "[Not( ScriptedGui.IsValid(GuiScope.SetRoot(Scope.Title.MakeScope).AddScope( 'current_faith', Faith.MakeScope ).End) )]"
-										layoutpolicy_horizontal = expanding
-										text = "[Scope.Title.GetNameNoTier]"
-										align = nobaseline
-										default_format = "#low"
-										using = Font_Size_Big
-										autoresize = no
-									}
-
-									text_single = {
-										name = "name_held"
-										visible = "[ScriptedGui.IsValid(GuiScope.SetRoot( Scope.Title.MakeScope ).AddScope( 'current_faith', Faith.MakeScope ).End)]"
-										layoutpolicy_horizontal = expanding
-										text = "[Scope.Title.GetNameNoTier]"
-										align = nobaseline
-										default_format = "#high"
-										using = Font_Size_Big
-										autoresize = no
-									}
-								}
-
-								# Holder top liege faith and CoA
-								hbox = {
-									datacontext = "[Story.MakeScope.Var('holy_site_county')]"
-									tooltip = "FAITH_HOLY_SITE_HOLDER_TOOLTIP"
-
-									background = {
-										visible = "[Not(ScriptedGui.IsValid(GuiScope.SetRoot(Scope.Title.MakeScope).AddScope( 'current_faith', Faith.MakeScope ).End))]"
-										using = Status_Bad
-										margin_top = 3
-										margin_bottom = -1
-										alpha = 0.8
-									}
-
-									background = {
-										visible = "[ScriptedGui.IsValid(GuiScope.SetRoot(Scope.Title.MakeScope).AddScope( 'current_faith', Faith.MakeScope ).End)]"
-										using = Background_Area
-										margin_top = 3
-										margin_bottom = -1
-										alpha = 0.8
-									}
-
-									highlight_icon = {
-										name = "faith_button"
-										datacontext = "[Scope.Title.GetHolder.GetFaith]"
-										size = { 45 45 }
-										texture = "[Faith.GetIcon]"
-									}
-
-									coa_realm_small = {
-										visible = "[Scope.Title.HasHolder]"
-										datacontext = "[Scope.Title.GetHolder.GetTopLiege]"
-									}
-								}
-							}
-
-							divider_light = {
-								layoutpolicy_vertical = expanding
-							}
-
-							# Status & Effects
-							vbox = {
-								layoutpolicy_horizontal = expanding
-								layoutpolicy_vertical = expanding
-								spacing = 5
-								margin = { 0 10 }
-
-								# Status
-								hbox = {
-									datacontext = "[Story.MakeScope.Var('holy_site_county')]"
-									text_single = {
-										visible = "[Not(ScriptedGui.IsValid(GuiScope.SetRoot(Scope.Title.MakeScope).AddScope( 'current_faith', Faith.MakeScope ).End))]"
-										name = "hs_status_inactive"
-										layoutpolicy_horizontal = expanding
-										text = "DYNAMIC_HOLY_SITE_INACTIVE"
-									}
-									text_single = {
-										visible = "[ScriptedGui.IsValid(GuiScope.SetRoot(Scope.Title.MakeScope).AddScope( 'current_faith', Faith.MakeScope ).End)]"
-										name = "hs_status_active"
-										layoutpolicy_horizontal = expanding
-										text = "DYNAMIC_HOLY_SITE_ACTIVE"
-									}
-								}
-
-								divider_light = {
-									layoutpolicy_horizontal = expanding
-								}
-
-								# Effects
-								hbox = {
-									layoutpolicy_vertical = expanding
-									text_single = {
-										visible = "[Not(ObjectsEqual(Story.MakeScope.Var('holy_site_county').Title.GetHolder.GetFaith.MakeScope, Faith.MakeScope))]"
-										name = "hs_special_effect_inactive"
-										layoutpolicy_horizontal = expanding
-										align = center
-										text = "[Localize(Story.MakeScope.Var('special_effect').GetFlagName)]"
-										default_format = "#low"
-									}
-
-									text_single = {
-										visible = "[ObjectsEqual(Story.MakeScope.Var('holy_site_county').Title.GetHolder.GetFaith.MakeScope, Faith.MakeScope)]"
-										name = "hs_special_effect_active"
-										layoutpolicy_horizontal = expanding
-										align = center
-										text = "[Localize(Story.MakeScope.Var('special_effect').GetFlagName)]"
-										default_format = "#high"
-									}
-								}
-							}
-
-							divider_light = {
-								layoutpolicy_vertical = expanding
-							}
-
-							button_go_to_my_location = {
-								onclick = "[DefaultOnCoatOfArmsRightClick(Story.MakeScope.Var('holy_site_county').Title.GetID)]"
-								tooltip = "GOTO_PROVINCE"
-							}
-						}
-					}
-
-					divider = {
-						layoutpolicy_horizontal = expanding
-					}
-
-					#######################################################
-					# ELDER KINGS DYNAMIC HOLY SITES                      #
-					#######################################################
-				}
 			}
 		}
 
@@ -1919,7 +1752,7 @@ window = {
 				blockoverride "scrollbox_background_fade" {}
 
 				background = {
-					texture = "[Illustration.GetTextureForFaith( FaithWindow.GetFaith )]"
+					texture = "[Illustration.GetTexture( FaithWindow.GetFaith.MakeScope )]"
 					alpha = 0.5
 					fittype = end
 
@@ -2274,7 +2107,7 @@ window = {
 
 							state = {
 								name = _mouse_click
-								on_finish = "[DefaultOnFaithClick(Faith.GetID)]"
+								on_finish = "[OpenGameViewData( 'faith', Faith.GetID )]"
 							}
 
 							background = {
@@ -2283,7 +2116,7 @@ window = {
 							}
 
 							divider_light = {
-								alpha = "[Select_float(GreaterThan_int32(Faith.GetNumberOfCountiesOfFaith,'(int32)0'), '(float)1.0','(float)0.5'))]"
+								alpha = "[Select_float(GreaterThan_int32(Faith.GetNumberOfCountiesOfFaith,'(int32)0'), '(float)1.0','(float)0.5')]"
 								size = { 100% 3 }
 								parentanchor = bottom
 								position = { 0 1 }
@@ -2291,7 +2124,7 @@ window = {
 
 							hbox = {
 								margin = { 10 5 }
-								alpha = "[Select_float(GreaterThan_int32(Faith.GetNumberOfCountiesOfFaith,'(int32)0'), '(float)1.0','(float)0.5'))]"
+								alpha = "[Select_float(GreaterThan_int32(Faith.GetNumberOfCountiesOfFaith,'(int32)0'), '(float)1.0','(float)0.5')]"
 
 								icon = {
 									name = "faith_icon"
