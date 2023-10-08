@@ -318,7 +318,7 @@ window = {
 
 													text_single = {
 														layoutpolicy_horizontal = expanding
-														text = "[Faith.GetReligion.GetNameNoTooltip]"
+														text = "RULER_DESIGNER_GETRELIGION"
 														default_format = "#bold"
 														margin_right = 5
 														margin_bottom = 5
@@ -338,7 +338,7 @@ window = {
 
 													text_single = {
 														layoutpolicy_horizontal = expanding
-														text = "[Faith.GetNameNoTooltip]"
+														text = "RULER_DESIGNER_GETFAITH"
 
 														margin_bottom = 5
 													}
@@ -377,7 +377,7 @@ window = {
 
 													text_single = {
 														layoutpolicy_horizontal = expanding
-														text = "[Culture.GetHeritage.GetNameNoTooltip]"
+														text = "CULTURE_HERITAGE_NAME_RULER_DESIGNER"
 														default_format = "#bold"
 
 														margin_right = 5
