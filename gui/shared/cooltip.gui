@@ -818,7 +818,7 @@ types GameTooltipTypes
 								text_single = {
 									datacontext = "[Character.GetFaith]"
 									layoutpolicy_horizontal = expanding
-									text = "FAITH_COOLTIP_WINDOW"
+									text = "FAITH_COOLTIP_GETNAME"
 									align = nobaseline
 
 									tooltipwidget = { faith_tooltip_click = {} }
@@ -2531,7 +2531,7 @@ types FaithTooltips
 						text_single = {
 							layoutpolicy_horizontal = expanding
 							name = "header"
-							text = "[Faith.GetNameNoTooltip]"
+							text = "FAITH_COOLTIP_GETNAME"
 							align = top
 							using = Font_Type_Flavor
 							using = Font_Size_Big
