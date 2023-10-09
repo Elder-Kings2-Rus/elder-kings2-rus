@@ -8,6 +8,8 @@
  terrain_black_marsh:0 "чёрные болота"
  terrain_valenwood:0 "валенвуд"
  terrain_valenwood_hills:0 "валенвудские холмы"
+ terrain_taiga_hills:0 "таёжные холмы"
+ terrain_desert_hills:0 "пустынные холмы"
  terrain_missing:0 "МЕСТНОСТЬ НЕИЗВЕСТНА"
  
  #RandomEntertainmentText
@@ -67,10 +69,8 @@
  cider:0 "сидр"
  honey_wine:0 "медовуха"
  jagga:0 "джагга"
- mead:0 "мёд"
  sujamma:0 "суджамма"
  theilul:0 "теилул"
- wine:0 "вино"
 
  #LocalAnimal
  animal_animal:0 "зверь"
@@ -85,7 +85,6 @@
  animal_senche_lionesses:0 "сенч-ливы"
  animal_senche_panther:0 "сенч-пантера"
  animal_senche_panthers:0 "сенч-пантеры"
- animal_dire_wolf:0 "жуткий волк"
  animal_dire_wolves:0 "жуткие волки"
  animal_tusked_bristleback:0 "щетинник"
  animal_tusked_bristlebacks:0 "щетинники"
@@ -99,6 +98,8 @@
  animal_gryphons:0 "грифоны"
  animal_addax:0 "аддакс"
  animal_addaxes:0 "аддаксы"
+ animal_springbok:0 "антилопа-прыгун"
+ animal_springboks:0 "антилопы-прыгуны"
  animal_ringtail:0 "кольцехвостый енот"
  animal_ringtails:0 "кольцехвостые еноты"
  animal_cliff-strider:0 "скальный гонщик"
@@ -171,7 +172,6 @@
  warhorse_name_shadowmere:0 "Тенегрив"
  warhorse.0003.zarnor:0 "Зарнор — прямо как проклятый любопытный сенч-рат!"
  warhorse_name_zarnor:0 "Зарнор"
- warhorse_name_arvak:0 "Арвак"
  warhorse_name_war_master:0 "Мастер войны"
  warhorse.0004.destrier:0 "Дестриэ"
  warhorse_name_destrier:0 "Дестриэ"
@@ -186,6 +186,10 @@
  warhorse.0004.fangs:0 "Клык"
  warhorse_name_fangs:0 "Клык"
  warhorse.0002.falk:0 "Фальк — как медведь Тула Череполома!"
+ warhorse.0003.imperator:0 "Император"
+ warhorse_name_imperator:0 "Император"
+ warhorse.0003.oiobaun:0 "Ойобаун"
+ warhorse_name_oiobaun:0 "Ойобаун"
 
 
  #BanditFaction
