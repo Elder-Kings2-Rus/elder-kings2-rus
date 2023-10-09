@@ -26,12 +26,11 @@
  dragon_cult.1001.b:0 "С другой стороны..."
 
 
-
  # Perks
  raise_risen_dead_decision:0 "Поднять мёртвых"
  raise_risen_dead_decision_desc:0 "В войне побеждает та сторона, которая может бросить в горнило боя больше тел. А что может быть лучше, чем тело того, кто уже умер?"
  raise_risen_dead_decision_tooltip:0 "То, что мертво, умереть не может."
- raise_risen_dead_decision_confirm:0 "EK WIP PH"
+ raise_risen_dead_decision_confirm:0 "Восстаньте, дети мои!"
  decision_gives_necromancer_secret_tt:0 "#R Использование этого решения даст вам [secret|El] 'Некромант'  #!"
  decision_gives_necromancer_trait_tt:0 "#R Использование этого решения даст вам [trait|El] 'Некромант', так что в рамках вашей [Concept( 'faith', 'конфессии' )|E] вы будете считаться [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступником' )|E] #!"
  
@@ -88,25 +87,10 @@
  call_for_nightmares_decision_confirm:0 "Я готов встретиться лицом к лицу со своими страхами..."
  call_for_nightmares_decision_tooltip:0 "Вы вызовете ужасный кошмар, и пусть божество увидит вашу решимость!"
  
- change_holy_site_type_decision:0 "Заложить основание для священного здания"
- change_holy_site_type_decision_desc:0 "Одно из наших священных мест было осквернено еретиками, и фундамент одного из их "священных" зданий всё ещё отравляет эту землю. Мы должны разрушить это мерзкое строение и заложить основу для возведения здесь одного из наших истинно священных зданий."
- change_new_holy_site_decision_confirm:0 "Новое место поклонения!"
- consecrate_new_holy_site_decision:0 "Основать новое священное место в столице"
- consecrate_new_holy_site_decision_tooltip:0 "Добавит совершенно новое священное место к вашей вере"
- consecrate_new_holy_site_decision_desc:0 "Место поклонения в нашей столице привлекает множество паломников и благочестивых мужчин и женщин. Возможно, настало время пригласить членов духовенства и возвысить небольшой [ROOT.Char.GetFaith.HouseOfWorship] до надлежащего священного места, способного вместить всех паломников."
- consecrate_new_holy_site_decision_confirm:0 "Новое место поклонения!"
- consecrate_new_holy_site_decision_effect_1:0 "Наше столичное графством станет новым [Concept( 'holy_site', 'священным местом' )|El].\nПравители смогут посещать его во время [Concept( 'pilgrimages', 'паломничеств' )|El]."
- consecrate_new_holy_site_decision_effect_2:0 "#weak Каждая [faith|El] может иметь до 9 священных мест. Каждое существующее священное место усложняет создание нового.#!"
- consecrate_new_holy_site_decision_effect_3_a:0 "Будет создан новый слот для [Concept( 'special_building', 'особой постройки' )|El], позволяющий построить священное здание, которое соответствует вашему основному [Concept( 'pantheon', 'пантеону' )|E] и [Concept( 'doctrine', 'доктрине' )|E]."
- consecrate_new_holy_site_decision_effect_3_b:0 "Поскольку в нашей столице уже есть священная [special_building|El], мы сможем использовать её в своих целях.\n#weak Главный [pantheon|El] [Concept( 'doctrine', 'доктрины' )|E] определяет, какой тип священного здания использует наша конфессия.#!"
- capital_shares_heritage:0 "Ваша [realm_capital|El] разделяет ваше [heritage|El]"
- capital_shares_culture:0 "Ваша [realm_capital|El] разделяет вашу [Concept( 'culture', 'культуру' )|E]"
- capital_shares_faith:0 "Ваша [realm_capital|El] разделяет вашу [Concept( 'faith', 'конфессию' )|E]"
- capital_shares_religion:0 "Ваша [realm_capital|El] разделяет вашу [Concept( 'religion', 'религию' )|E]"
- province_shares_heritage:0 "[county|E] разделяет ваше [heritage|El]"
- province_shares_culture:0 "[county|E] разделяет вашу [Concept( 'culture', 'культуру' )|E]"
- province_shares_faith:0 "[county|E] разделяет вашу [Concept( 'faith', 'конфессию' )|E]"
- province_shares_religion:0 "[county|E] разделяет вашу [Concept( 'religion', 'религию' )|E]"
+ change_holy_site_type_decision:0 "Перепрофилировать священное место"
+ change_holy_site_type_decision_desc:0 "Одно из наших священных мест разделяют верующие другой веры, которые уже построили место поклонения, соответствующее их потребностям. С помощью надлежащих церемоний, разумного использования материалов и сноса мы можем сделать это место подходящим для нас самих."
+ change_holy_site_type_decision_tooltip:0 "Переделать [Concept( 'special_building', 'особую постройку' )|E] [Concept( 'holy_site', 'священного места' )|E] таким образом, чтобы она стала пригодной для использования нашей [Concept( 'faith', 'верой' )|E] верой."
+ change_holy_site_type_decision_confirm:0 "Место поклонения, достойное наших братьев!"
  
  bury_in_cath_bedraud_decision:0 "Похоронить вашего [ROOT.Char.Custom2('RelationToMe', ROOT.Var('ancestor_to_bury').Char)|U] в соборе Бидро"
  bury_in_cath_bedraud_decision_tooltip:0 "Вы упокоите вашего предка и получите [dynasty_prestige|El] и улучшение [opinions|El] [Concept( 'vassal', 'вассалов' )|E] о вас"
@@ -160,13 +144,14 @@
  recruit_priest_liturgical_language_decision:0 "Запросить нового придворного священника"
  recruit_priest_liturgical_language_decision_daedric:0 "#L [ROOT.Char.GetFaith.GetName]ое#! духовенство обязано владеть даэдрическим языком, но, к сожалению, никто при моём дворе не знает языка Обливиона. К счастью, я могу призвать священника из местного храма, чтобы исправить этот недостаток."
  recruit_priest_liturgical_language_decision_dragon:0 "#L [ROOT.Char.GetFaith.GetName]ое#! духовенство обязано владеть драконьим языком, но, к сожалению, никто при моём дворе не знает довазул, язык драконов. К счастью, я могу призвать священника из местного храма, чтобы исправить этот недостаток."
- recruit_priest_liturgical_language_decision.tt:0 "Священник, способный говорить на [Concept( 'liturgical_language', 'литургическом языке' )|E] вашей конфессии, прибудет к вашему двору"
+ recruit_priest_liturgical_language_decision.tt:0 "Священник, способный говорить на [Concept( 'liturgical_language', 'литургическом языке' )|E] вашей конфессии, прибудет к вашему [Concept( 'court', 'двору' )|E]."
  recruit_priest_liturgical_language_decision_confirm:0 "Призвать священника"
  recruit_priest_liturgical_language_decision_tooltip:0 "Нанять священника из местного храма, чтобы заполнить вакантную должность при вашем дворе"
  priest_recruited.t:0 "Священник нанят"
  priest_recruited.desc:0 "[new_priest.GetFullName] присоединился к вашему двору!"
 
- recruit_priest_liturgical_language_decision_tsaesci:0 "EK WIP PH"
+ recruit_priest_liturgical_language_decision_tsaesci:0 "Каждый [ROOT.Char.GetFaith.PriestNeuter] нашей веры обязан иметь правильное владение священным языком. Если среди нас нет таких талантов, мы можем попросить священство выделить подходящего человека для нашего служения."
+ recruit_priest_liturgical_language_decision_altmeris:0 "Каждый [ROOT.Char.GetFaith.PriestNeuter] нашей веры обязан иметь правильное владение священным языком. Если среди нас нет таких талантов, мы можем попросить священство выделить подходящего человека для нашего служения."
  
  learn_liturgical_language_decision:0 "Выучить [ROOT.Char.Custom('GetLiturgicalLanguage')|l] язык"
  learn_liturgical_language_decision_desc:0 "Хотя [ROOT.Char.Custom('GetLiturgicalLanguage')|l] традиционно был предназначен только для нашего духовенства, известно, что немногие, кто владеет им, считаются благочестивыми и законными правителями. Возможно, будет разумно потратить время и силы на изучение этого языка."
@@ -196,123 +181,131 @@
 
 # Artifacts
 
-crown_verity_decision:0 "Суждение Истинности"
-crown_verity_decision_desc:0 "По традиции, восходящей к правлению Кьорика Белого, каждый правитель-норд, обладающий Короной Истинности, предстаёт перед Суждением Истинности, которое определяет, достоин ли данный правитель носить корону своих предков или же нет."
-crown_verity_judgement_tooltip:0 "Вы подвергнетесь Суждению Короны Истинности, дабы утвердить легитимность вашего правления над своими владениями!"
-crown_verity_decision_confirm:0 "Я — [ROOT.Char.GetFirstNameNoTooltip], истинный [ROOT.Char.GetTitleAsNameNoTooltip]!"
-crown_verity_decision_tooltip:0 "Настало время надеть корону моих предков!"
+ crown_verity_decision:0 "Суждение Истинности"
+ crown_verity_decision_desc:0 "По традиции, восходящей к правлению Кьорика Белого, каждый правитель-норд, обладающий Короной Истинности, предстаёт перед Суждением Истинности, которое определяет, достоин ли данный правитель носить корону своих предков или же нет."
+ crown_verity_judgement_tooltip:0 "Вы подвергнетесь Суждению Короны Истинности, дабы утвердить легитимность вашего правления над своими владениями!"
+ crown_verity_decision_confirm:0 "Я — [ROOT.Char.GetFirstNameNoTooltip], истинный [ROOT.Char.GetTitleAsNameNoTooltip]!"
+ crown_verity_decision_tooltip:0 "Настало время надеть корону моих предков!"
+ 
+ staff_sanguine_decision:0 "Гость из Обливиона"
+ staff_sanguine_decision_desc:0 "Используйте силу Принца Кутежа, которой пропитана Роза Сангвина, чтобы призвать даэдра-придворного, который будет служить вам в течение короткого периода времени."
+ staff_sanguine_decision_tooltip:0 "Призовите даэдрического слугу Сангвина, дабы он служил вам. Однако помните, что роза рискует увянуть!"
+ staff_sanguine_decision_confirm:0 "Да начнётся праздник!"
+ staff_sanguine_selection_tooltip:0 "Использовать силу Розы Сангвина"
+ 
+ staff_everscamp_decision:0 "Опознать посох"
+ staff_everscamp_decision_desc:0 "Изучите древние книги в надежде узнать, о чём гласит эта замысловатая надпись на посохе и откуда она взялась."
+ staff_everscamp_decision_tooltip:0 "Наконец-то разгадайте загадку этого таинственного посоха!"
+ staff_everscamp_decision_confirm:0 "Нехт, Охт, Нехт..."
+ staff_everscamp_selection_tooltip:0 "Сехт, Экем..."
+ 
+ remove_everscamp_decision:0 "Снять проклятие посоха Вечного Скампа"
+ remove_everscamp_decision_desc:0 "Если я хочу избавиться от этого проклятого посоха и его вонючих тварей, я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] отправиться в святилище Шеогората в пещере Чёрный Фатом!"
+ remove_everscamp_decision_tooltip:0 "Отправьтесь в Чёрный Фатом и снимите это проклятие!"
+ remove_everscamp_decision_confirm:0 "Я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] избавиться от них!"
+ remove_everscamp_selection_tooltip:0 "И от этого неприятного запаха!"
+ 
+ bittercup_decision:0 "Горькое соглашение"
+ bittercup_decision_desc:0 "Заключите сделку с Принцем Сделок и Обмана, испив из Горькой Чаши."
+ bittercup_selection_tooltip:0 "Испить из Горькой Чаши"
+ bittercup_decision_tooltip:0 "Повысьте свой самый высокий навык, одновременно понизив свой самый низкий. Но помните, что артефакт Горькая Чаша будет уничтожен в процессе."
+ bittercup_decision_confirm:0 "Достаточно ли я храбр?"
+ 
+ black_book_decision:0 "Интересное чтиво"
+ black_book_decision_desc:0 "Прочтите Чёрную Книгу. У вас есть шанс получить дар в обмен на саму книгу."
+ black_book_selection_tooltip:0 "Начните читать принадлежащую вам Чёрную Книгу"
+ blackbook_decision_tooltip:0 "У каждой Чёрной Книги есть уникальные результаты для возможных даров, но все они имеют шанс сделать вашего персонажа безумным, да и сам артефакт может исчезнуть."
+ black_book_decision_confirm:0 "Раскройте её тайны!"
+ 
+ oghma_infinium_decision:0 "Окончательное прочтение"
+ oghma_infinium_decision_desc:0 "Прочтите Огма Инфиниум и рискните своим здравомыслием в обмен на шанс обретения истинной силы."
+ oghma_infinium_selection_tooltip:0 "Рискните прочесть книгу Огма Инфиниум"
+ oghma_infinium_decision_tooltip:0 "Огма Инфиниум откроет пути, проложенные для вашего будущего, и предложит вам возможность манипулировать ими по своему усмотрению в обмен на возвращение к своему хозяину, Хермеусу Море."
+ oghma_infinium_decision_confirm:0 "Раскройте неведомое!"
+ 
+ skeleton_key_decision:0 "Раскрыть потенциал"
+ skeleton_key_decision_desc:0 "Используйте Скелетный Ключ, чтобы раскрыть свой истинный потенциал."
+ skeleton_key_selection_tooltip:0 "Использовать Скелетный Ключ"
+ skeleton_key_decision_tooltip:0 "Скелетный Ключ раскроет ваш истинный потенциал, повысив уровень вашего навыка образования и значительно увеличив прирост вашего опыта в обмен на возвращение к Ноктюрнал — его хозяйке."
+ skeleton_key_decision_confirm:0 "Раскройте свой потенциал!"
+ 
+ shadow_key_decision:0 "Раскрыть потенциал"
+ shadow_key_decision_desc:0 "Используйте Теневой Ключ, чтобы раскрыть свой истинный потенциал."
+ shadow_key_selection_tooltip:0 "Использовать Теневой Ключ"
+ shadow_key_decision_tooltip:0 "Скелетный Ключ раскроет ваш истинный потенциал, повысив уровень вашего навыка образования и значительно увеличив прирост вашего опыта. Однако в процессе он будет истрачен и вновь вернётся в тень."
+ shadow_key_decision_confirm:0 "Раскройте свой потенциал!"
+ 
+ aok_decision:0 "Надеть Амулет Королей"
+ aok_decision_tooltip:0 "Попытайтесь надеть Амулет Королей и выяснить, не [GetTrait('dragonborn').GetName( Character.Self )] ли вы часом."
+ aok_selection_tooltip:0 "Надеть Амулет Королей"
+ aok_decision_desc:0 "Амулет могут носить только определенные люди — те, в чьих жилах течёт так называемая "драконья кровь".\n\nКонкретные требования, однако, являются предметом споров. Они могут просто требовать атрибутов правителя или некого божественного мандата.\n\nПришло моё время попытаться надеть кулон Чим-эль Адабал!"
+ aok_decision_confirm:0 "Да свершится воля Акатоша!"
+ 
+ # Events
+ 
+ spawn_razak_army_decision:0 "Армия Разака"
+ spawn_razak_army_decision_desc:0 "Используйте машину Разака, чтобы собрать армию солдат-автоматонов!"
+ spawn_razak_army_decision_tooltip:0 "Из двемерских руин Колеса Разака выйдет армия автоматонов, дабы служить вам."
+ spawn_razak_army_decision_confirm:0 "Использовать Опус Разака!"
+ restore_nenalata_decision:0 "Восстановить столицу Неналаты"
+ restore_nenalata_decision_desc:0 "Неналата когда-то была могущественным королевством, последним из айлейдских городов-государств, павшим под натиском Алессианского Ордена. Теперь у нас есть уникальная возможность раскопать его руины и вернуть этому городу славу, что подобает столице достойного королевства."
+ restore_nenalata_decision_tooltip:0 "Раскопайте и восстановите древнюю столицу этого королевства."
+ restore_nenalata_decision_confirm:0 "Начать раскопки Неналаты!"
+ recruit_shadowscale_decision:0 "Запросить Тёмного ящера"
+ recruit_shadowscale_decision_tooltip:0 "Искать Тёмного ящера, который присоединится к вашему [Concept( 'court', 'двору' )|E] как ваш [GetCourtPositionType('shadowscale_court_position').GetName()]"
+ recruit_shadowscale_decision_confirm:0 "Отец Ужаса, пошли мне своего слугу!"
+ recruit_shadowscale_decision_desc:0 "Тёмные ящеры — это загадочный орден. Он был основан в Чернотопье и состоит из Народа Корня, что вылупились под знаком Тени. Их с рождения обучают искусству скрытности и уловок. Я, как уважаемый правитель-саксхлил, могу принять одного из них к себе на службу."
+ recruit_shadowscale_decision_trigger:0 "Вы не отреклись от традиций Тёмных ящеров."
+ recruit_shadowscale_decision_effect:0 "Тёмный ящер вскоре появится и присоединится к вашему [Concept( 'court', 'двору' )|E]."
+ 
+ 
+ 
+ # Courtier
+ 
+ hire_mage_decision:0 "Искать придворного мага"
+ hire_mage_decision_tooltip:3 "Ваши слуги предложат несколько кандидатур, подходящих на должность [GetCourtPositionType('court_mage_position').GetName()l]"
+ hire_mage_decision_desc:1 "Придворный маг необходим, чтобы творить заклинания и накладывать чары во благо королевства. Я попрошу своих слуг отыскать и привести несколько подходящих кандидатов."
+ hire_mage_decision_effect_tooltip:4 "Вам предложат несколько кандидатов на должность «[GetCourtPositionType('court_mage_position').GetName()]» и вы сможете нанять одного из них за вознаграждение и ежемесячное жалование"
+ hire_mage_decision_confirm:0 "Начать поиски"
+ ek_court_position.0001.t:0 "Придворный маг"
+ ek_court_position.0001.desc:0 "Этот мир полон опасностей, даже для [ROOT.Char.GetTitleTierName] и [ROOT.Char.GetHerHis] двора. Поэтому по моей просьбе мои слуги занялись поисками придворного мага. И они подобрали несколько подходящих кандидатов."
+ 
+ # Adoption
+ adopt_child_decision:0 "Посетить сиротский приют"
+ tribal_adopt_child_decision_name:0 "Усыновить ребенка-сироту"
+ adopt_child_decision_tooltip:3 "В стенах соседнего города можно найти детский приют. Вы можете посетить это место в надежде найти подходящего наследника, которого можно усыновить или удочерить."
+ adopt_child_decision_desc:1 "В стенах соседнего города можно найти детский приют. Вы можете посетить это место в надежде найти подходящего наследника, которого можно усыновить или удочерить."
+ tribal_adopt_child_decision_desc:1 "В племени много детей-сирот. Вы можете посетить их воспитателя в надежде найти подходящего наследника для усыновления."
+ adopt_child_decision_effect_tooltip:4 "Вам будет представлена группа детей, и вы сможете усыновить или удочерить кого-то из них."
+ adopt_child_decision_confirm:0 "Наверняка там найдётся кто-то достойный..."
+ adopt_child_requirement_1:0 "Вы близки к смерти"
+ adopt_child_requirement_2:0 "Вы не можете иметь детей"
+ adopt_child_requirement_3:0 "Вы не можете иметь детей со своей [Concept( 'spouse', 'супругой' )|E] или [Concept( 'concubine', 'наложницей' )|E]."
+ adopt_child_requirement_4:0 "[city|E] в вашем [Concept( 'domain', 'домене' )|E] должен иметь здание типа #V $building_type_orphanage_01$#!"
+ adopt_child_requirement_5:0 "У вас отсутствует [player_heir|El]"
+ 
+ 
+ #Dev stuff, keep like this
+ debug_mode_toggle_decision:0 "debug_mode_toggle_decision"
+ debug_mode_toggle_decision_tooltip:0 "debug_mode_toggle_decision_tooltip"
+ debug_mode_toggle_decision_desc:0 "debug_mode_toggle_decision_desc"
+ debug_mode_toggle_decision_confirm:0 "debug_mode_toggle_decision_confirm"
+ 
+ #Become Pirate On Game Start decision
+ become_pirate_decision:0 "Перейти к пиратскому правительству!"
+ become_pirate_decision_tooltip:0 "Стать пиратом!"
+ become_pirate_decision_confirm:0 "Яррр, приятель!"
+ become_pirate_decision_desc:0 "@warning_icon! #X Это решение позволит вам стать пиратским государством после начала игры! Это решение исчезнет через один игровой год! #!"
+ 
+ stop_being_pirate_government_decision:0 "Отказ от пиратства?"
+ stop_being_pirate_government_decision_desc:0 "Пиратство — весьма прибыльное дело, но морским волкам не хватает определённой легитимности и авторитета, которыми обладает обычная знать. Быть может, пришло время отказаться от нашего нынешнего типа правительства и принять более централизованную систему? "
+ stop_being_pirate_government_decision_confirm:0 "Время пиратов подошло к концу."
+ stop_being_pirate_government_decision_tooltip:0 "Возможно, настало время перемен."
 
-staff_sanguine_decision:0 "Гость из Обливиона"
-staff_sanguine_decision_desc:0 "Используйте силу Принца Кутежа, которой пропитана Роза Сангвина, чтобы призвать даэдра-придворного, который будет служить вам в течение короткого периода времени."
-staff_sanguine_decision_tooltip:0 "Призовите даэдрического слугу Сангвина, дабы он служил вам. Однако помните, что роза рискует увянуть!"
-staff_sanguine_decision_confirm:0 "Да начнётся праздник!"
-staff_sanguine_selection_tooltip:0 "Использовать силу Розы Сангвина"
-
-staff_everscamp_decision:0 "Опознать посох"
-staff_everscamp_decision_desc:0 "Изучите древние книги в надежде узнать, о чём гласит эта замысловатая надпись на посохе и откуда она взялась."
-staff_everscamp_decision_tooltip:0 "Наконец-то разгадайте загадку этого таинственного посоха!"
-staff_everscamp_decision_confirm:0 "Нехт, Охт, Нехт..."
-staff_everscamp_selection_tooltip:0 "Сехт, Экем..."
-
-remove_everscamp_decision:0 "Снять проклятие посоха Вечного Скампа"
-remove_everscamp_decision_desc:0 "Если я хочу избавиться от этого проклятого посоха и его вонючих тварей, я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] отправиться в святилище Шеогората в пещере Чёрный Фатом!"
-remove_everscamp_decision_tooltip:0 "Отправьтесь в Чёрный Фатом и снимите это проклятие!"
-remove_everscamp_decision_confirm:0 "Я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] избавиться от них!"
-remove_everscamp_selection_tooltip:0 "И от этого неприятного запаха!"
-
-bittercup_decision:0 "Горькое соглашение"
-bittercup_decision_desc:0 "Заключите сделку с Принцем Сделок и Обмана, испив из Горькой Чаши."
-bittercup_selection_tooltip:0 "Испить из Горькой Чаши"
-bittercup_decision_tooltip:0 "Повысьте свой самый высокий навык, одновременно понизив свой самый низкий. Но помните, что артефакт Горькая Чаша будет уничтожен в процессе."
-bittercup_decision_confirm:0 "Достаточно ли я храбр?"
-
-black_book_decision:0 "Интересное чтиво"
-black_book_decision_desc:0 "Прочтите Чёрную Книгу. У вас есть шанс получить дар в обмен на саму книгу."
-black_book_selection_tooltip:0 "Начните читать принадлежащую вам Чёрную Книгу"
-blackbook_decision_tooltip:0 "У каждой Чёрной Книги есть уникальные результаты для возможных даров, но все они имеют шанс сделать вашего персонажа безумным, да и сам артефакт может исчезнуть."
-black_book_decision_confirm:0 "Раскройте её тайны!"
-
-oghma_infinium_decision:0 "Окончательное прочтение"
-oghma_infinium_decision_desc:0 "Прочтите Огма Инфиниум и рискните своим здравомыслием в обмен на шанс обретения истинной силы."
-oghma_infinium_selection_tooltip:0 "Рискните прочесть книгу Огма Инфиниум"
-oghma_infinium_decision_tooltip:0 "Огма Инфиниум откроет пути, проложенные для вашего будущего, и предложит вам возможность манипулировать ими по своему усмотрению в обмен на возвращение к своему хозяину, Хермеусу Море."
-oghma_infinium_decision_confirm:0 "Раскройте неведомое!"
-
-skeleton_key_decision:0 "Раскрыть потенциал"
-skeleton_key_decision_desc:0 "Используйте Скелетный Ключ, чтобы раскрыть свой истинный потенциал."
-skeleton_key_selection_tooltip:0 "Использовать Скелетный Ключ"
-skeleton_key_decision_tooltip:0 "Скелетный Ключ раскроет ваш истинный потенциал, повысив уровень вашего навыка образования и значительно увеличив прирост вашего опыта в обмен на возвращение к Ноктюрнал — его хозяйке."
-skeleton_key_decision_confirm:0 "Раскройте свой потенциал!"
-
-shadow_key_decision:0 "Раскрыть потенциал"
-shadow_key_decision_desc:0 "Используйте Теневой Ключ, чтобы раскрыть свой истинный потенциал."
-shadow_key_selection_tooltip:0 "Использовать Теневой Ключ"
-shadow_key_decision_tooltip:0 "Скелетный Ключ раскроет ваш истинный потенциал, повысив уровень вашего навыка образования и значительно увеличив прирост вашего опыта. Однако в процессе он будет истрачен и вновь вернётся в тень."
-shadow_key_decision_confirm:0 "Раскройте свой потенциал!"
-
-aok_decision:0 "Надеть Амулет Королей"
-aok_decision_tooltip:0 "Попытайтесь надеть Амулет Королей и выяснить, не [GetTrait('dragonborn').GetName( Character.Self )] ли вы часом."
-aok_selection_tooltip:0 "Надеть Амулет Королей"
-aok_decision_desc:0 "Амулет могут носить только определенные люди — те, в чьих жилах течёт так называемая "драконья кровь".\n\nКонкретные требования, однако, являются предметом споров. Они могут просто требовать атрибутов правителя или некого божественного мандата.\n\nПришло моё время попытаться надеть кулон Чим-эль Адабал!"
-aok_decision_confirm:0 "Да свершится воля Акатоша!"
-
-# Events
-
-spawn_razak_army_decision:0 "Армия Разака"
-spawn_razak_army_decision_desc:0 "Используйте машину Разака, чтобы собрать армию солдат-автоматонов!"
-spawn_razak_army_decision_tooltip:0 "Из двемерских руин Колеса Разака выйдет армия автоматонов, дабы служить вам."
-spawn_razak_army_decision_confirm:0 "Использовать Опус Разака!"
-restore_nenalata_decision:0 "Восстановить столицу Неналаты"
-restore_nenalata_decision_desc:0 "Неналата когда-то была могущественным королевством, последним из айлейдских городов-государств, павшим под натиском Алессианского Ордена. Теперь у нас есть уникальная возможность раскопать его руины и вернуть этому городу славу, что подобает столице достойного королевства."
-restore_nenalata_decision_tooltip:0 "Раскопайте и восстановите древнюю столицу этого королевства."
-restore_nenalata_decision_confirm:0 "Начать раскопки Неналаты!"
-recruit_shadowscale_decision:0 "Запросить Тёмного ящера"
-recruit_shadowscale_decision_tooltip:0 "Искать Тёмного ящера, который присоединится к вашему [Concept( 'court', 'двору' )|E] как ваш [GetCourtPositionType('shadowscale_court_position').GetName()]"
-recruit_shadowscale_decision_confirm:0 "Отец Ужаса, пошли мне своего слугу!"
-recruit_shadowscale_decision_desc:0 "Тёмные ящеры — это загадочный орден. Он был основан в Чернотопье и состоит из Народа Корня, что вылупились под знаком Тени. Их с рождения обучают искусству скрытности и уловок. Я, как уважаемый правитель-саксхлил, могу принять одного из них к себе на службу."
-recruit_shadowscale_decision_trigger:0 "Вы не отреклись от традиций Тёмных ящеров."
-recruit_shadowscale_decision_effect:0 "Тёмный ящер вскоре появится и присоединится к вашему [Concept( 'court', 'двору' )|E]."
-
-
-
-# Courtier
-
-hire_mage_decision:0 "Искать придворного мага"
-hire_mage_decision_tooltip:3 "Ваши слуги предложат несколько кандидатур, подходящих на должность [GetCourtPositionType('court_mage_position').GetName()l]"
-hire_mage_decision_desc:1 "Придворный маг необходим, чтобы творить заклинания и накладывать чары во благо королевства. Я попрошу своих слуг отыскать и привести несколько подходящих кандидатов."
-hire_mage_decision_effect_tooltip:4 "Вам предложат несколько кандидатов на должность «[GetCourtPositionType('court_mage_position').GetName()]» и вы сможете нанять одного из них за вознаграждение и ежемесячное жалование"
-hire_mage_decision_confirm:0 "Начать поиски"
-ek_court_position.0001.t:0 "Придворный маг"
-ek_court_position.0001.desc:0 "Этот мир полон опасностей, даже для [ROOT.Char.GetTitleTierName] и [ROOT.Char.GetHerHis] двора. Поэтому по моей просьбе мои слуги занялись поисками придворного мага. И они подобрали несколько подходящих кандидатов."
-
-# Adoption
-adopt_child_decision:0 "Посетить сиротский приют"
-tribal_adopt_child_decision_name:0 "Усыновить ребенка-сироту"
-adopt_child_decision_tooltip:3 "В стенах соседнего города можно найти детский приют. Вы можете посетить это место в надежде найти подходящего наследника, которого можно усыновить или удочерить."
-adopt_child_decision_desc:1 "В стенах соседнего города можно найти детский приют. Вы можете посетить это место в надежде найти подходящего наследника, которого можно усыновить или удочерить."
-tribal_adopt_child_decision_desc:1 "В племени много детей-сирот. Вы можете посетить их воспитателя в надежде найти подходящего наследника для усыновления."
-adopt_child_decision_effect_tooltip:4 "Вам будет представлена группа детей, и вы сможете усыновить или удочерить кого-то из них."
-adopt_child_decision_confirm:0 "Наверняка там найдётся кто-то достойный..."
-adopt_child_requirement_1:0 "Вы близки к смерти"
-adopt_child_requirement_2:0 "Вы не можете иметь детей"
-adopt_child_requirement_3:0 "Вы не можете иметь детей со своей [Concept( 'spouse', 'супругой' )|E] или [Concept( 'concubine', 'наложницей' )|E]."
-adopt_child_requirement_4:0 "[city|E] в вашем [Concept( 'domain', 'домене' )|E] должен иметь здание типа #V $building_type_orphanage_01$#!"
-adopt_child_requirement_5:0 "У вас отсутствует [player_heir|El]"
-
-
-#Dev stuff, keep like this
-debug_mode_toggle_decision:0 "debug_mode_toggle_decision"
-debug_mode_toggle_decision_tooltip:0 "debug_mode_toggle_decision_tooltip"
-debug_mode_toggle_decision_desc:0 "debug_mode_toggle_decision_desc"
-debug_mode_toggle_decision_confirm:0 "debug_mode_toggle_decision_confirm"
-
-#Become Pirate On Game Start decision
-become_pirate_decision:0 "Перейти к пиратскому правительству!"
-become_pirate_decision_tooltip:0 "Стать пиратом!"
-become_pirate_decision_confirm:0 "Яррр, приятель!"
-become_pirate_decision_desc:0 "@warning_icon! #X Это решение позволит вам стать пиратским государством после начала игры! Это решение исчезнет через один игровой год! #!"
-
-stop_being_pirate_government_decision:0 "Отказ от пиратства?"
-stop_being_pirate_government_decision_desc:0 "Пиратство — весьма прибыльное дело, но морским волкам не хватает определённой легитимности и авторитета, которыми обладает обычная знать. Быть может, пришло время отказаться от нашего нынешнего типа правительства и принять более централизованную систему? "
-stop_being_pirate_government_decision_confirm:0 "Время пиратов подошло к концу."
-stop_being_pirate_government_decision_tooltip:0 "Возможно, настало время перемен."
+ #Abdicate
+ abdicate_decision:1 "Отречься от престола"
+ abdicate_desc:0 "Я не могу выполнять свои обязанности правителя. Моим правлением пренебрегают, и то плачевное состояние, в котором я нахожусь, запятнает имя моей династии. Возможно, пришло время взглянуть правде в глаза: дни моего правления прошли. Пришло время сложить свои титулы и передать бразды правления кому-то более способному."
+ abdicate_decision_desc_incapable:0 "$abdicate_desc$"
+ abdicate_decision_tooltip:2 "Откажитесь от своих титулов и позвольте своему наследнику взять власть на себя."
+ abdicate_decision_effect_tooltip:0 "@warning_icon! Вы снимете с себя полномочия правителя и продолжите игру в качестве своего наследника."
+ abdicate_decision_confirm:0 "Так будет лучше."
