@@ -14,7 +14,6 @@
 ##Forge-Wife
  forgewife_court_position:0 "Кузнечная жена"
  forgewife_court_position_desc:0 "$forgewife_court_position$ ведет как письменные, так и устные записи о своем народе и посвящает себя изучению истории. Их мудрость и знания оживляют ум любого, кто ищет их совета."
-##Hearth-Wife
  hearthwife_court_position:0 "Жена-хозяйка"
  hearthwife_court_position_desc:0 "$hearthwife_court_position$ управляет домашним хозяйством вождя и обеспечивает бесперебойную работу повседневных дел. Обычно она является ближайшим доверенным лицом вождя."
 ##Shadowscale
@@ -37,9 +36,6 @@
  court_position_education_magical_ability_3_trait:0 "[GetTrait('magical_ability_3').GetName( ROOT.Char )]"
  court_position_education_magical_ability_2_trait:0 "[GetTrait('magical_ability_2').GetName( ROOT.Char )]"
  court_position_education_magical_ability_1_trait:0 "[GetTrait('magical_ability_1').GetName( ROOT.Char )]"
- court_position_mystic_3_trait:0 "[GetTrait('mystic_3').GetName( ROOT.Char )]"
- court_position_mystic_2_trait:0 "[GetTrait('mystic_2').GetName( ROOT.Char )]"
- court_position_mystic_1_trait:0 "[GetTrait('mystic_1').GetName( ROOT.Char )]"
  court_position_arcana_bad_1_trait:0 "[GetTrait('arcana_bad_1').GetName( ROOT.Char )]"
  court_position_arcana_bad_2_trait:0 "[GetTrait('arcana_bad_2').GetName( ROOT.Char )]"
  court_position_arcana_bad_3_trait:0 "[GetTrait('arcana_bad_3').GetName( ROOT.Char )]"
@@ -78,4 +74,4 @@
  court_position_necromancy_master_perk:0 "[GetPerk('necromancy_master_perk').GetName( ROOT.Char )]"
 
 # House of Reveries
-court_position_house_of_reveries:0 "Дом Грёз"
+ court_position_house_of_reveries:0 "Дом Грёз"
