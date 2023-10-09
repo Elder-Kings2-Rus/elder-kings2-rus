@@ -1,16 +1,16 @@
 ﻿l_russian:
 
 # Camoran Decision
-reclaim_eplear_heritage_decision:0 "Reclaim the Legacy of King Eplear Camoran"
-reclaim_eplear_heritage_decision_desc:0 "Millennia ago, King Eplear Camoran united the disparate Bosmer tribes into the High Kingdom of Valenwood. Of such glory were his deeds that even the distant Nords had to acknowledge it as the beginning of a new Era. That glory and unity in now lost, but Valenwood still remembers who its true rulers are, and House [ROOT.House.GetName] shall stake its claim as the true heirs of King Eplear."
-reclaim_eplear_heritage_decision_tooltip:0 "Our House shall be considered the legitimate heirs of King Eplear Camoran."
-reclaim_eplear_heritage_decision_confirm:0 "The Camoran era will be restored"
+reclaim_eplear_heritage_decision:0 "Восстановить наследие короля Эплира Каморана"
+reclaim_eplear_heritage_decision_desc:0 "Много веков назад король Эплир Каморан объединил разрозненные племена босмеров в Верховное Королевство Валенвуд. Его деяния были столь славны, что даже далёкие норды были вынуждены признать это началом новой эры. Ныне эта слава и единство утрачены, но Валенвуд всё ещё помнит своих истинных правителей и дом [ROOT.House.GetName] должен заявить о себе как об истинных наследниках короля Эплира."
+reclaim_eplear_heritage_decision_tooltip:0 "Наш дом будет считаться законным наследником короля Эплира Каморана."
+reclaim_eplear_heritage_decision_confirm:0 "Эра Каморана будет восстановлена"
 
 # Camoran Decision Events
-camoran_decision_event.0001.t:0 "The Camoran Restoration"
-camoran_decision_event.0001.desc:0 "As I sit on the throne of a fully united Valenwood as a trueborn heir of King Eplear, it becomes increasingly apparent that my House is the most worthy of being considered the inheritors of the Camoran name. While the other branches continue to be referred to by names consisting of their place of rule, ours is increasingly just called House Camoran like it was in the old days.\n\nThe people of Valenwood now see me as a restorer of the old order, where Valenwood stood as one under a Camoran monarch, and I can only hope that neither Valenwood nor House Camoran ever falls again."
-camoran_decision_event.0001.a:0 "Order has been restored in Valenwood."
+camoran_decision_event.0001.t:0 "Восстановление наследие Каморана"
+camoran_decision_event.0001.desc:0 "Ныне я восседаю на троне полностью объединенного Валенвуда в качестве [Select_CString(ROOT.Char.IsFemale, 'истинной наследницы', 'истинного наследника' )] короля Эплира и становится всё более очевидным, что мой дом более чем достоин считаться наследником имени "Каморан". Другие ветви продолжают называться по названию места их правления, а наш дом всё чаще именуется просто Домом Каморан, как это было в старые времена.\n\nНыне жители Валенвуда видят во мне [Select_CString(ROOT.Char.IsFemale, 'ту, кто вернула', 'того, кто вернул' )] старый порядок, когда Валенвуд был единым под властью каморанского монарха. Я могу лишь надеяться, что ни Валенвуд, ни Дом Каморан никогда больше не падут."
+camoran_decision_event.0001.a:0 "Порядок в Валенвуде восстановлен."
 
-camoran_decision_event.0002.t:0 "A Camoran Usurper"
-camoran_decision_event.0002.desc:0 "[founder.GetTitledFirstName] has superseded the claim of [ROOT.House.GetName] as the true heirs of King Eplear, and is now recognised as a true Camoran High King of Valenwood.\n\nMany celebrate this act as a return to normalcy for our Province, but my House and I have had their realities shattered as we are now indisputably considered a mere offshoot of the great House Camoran that rules Valenwood."
-camoran_decision_event.0002.a:0 "What does this mean for our House?"
+camoran_decision_event.0002.t:0 "[Select_CString(founder.IsFemale, 'Каморанская узурпаторша', 'Каморанский узурпатор' )]"
+camoran_decision_event.0002.desc:0 "[founder.GetTitledFirstName] [Select_CString(founder.IsFemale, 'отменила', 'отменил' )] притязания дома [ROOT.House.GetName] на титул истинных наследников короля Эплира и теперь [Select_CString(founder.IsFemale, 'сама признана истинной каморанской верховной королевой', 'сам признан истинным каморанским верховным королём' )] Валенвуда.\n\nМногие празднуют, радуясь возвращению нашей провинции к нормальной жизни, но у меня и моего дома мало поводов для радости, поскольку теперь нас считают всего лишь ответвлением великого Дома Каморан, правящего Валенвудом."
+camoran_decision_event.0002.a:0 "Что это значит для нашего дома?"
