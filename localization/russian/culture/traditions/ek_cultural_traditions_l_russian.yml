@@ -4,21 +4,20 @@
  culture_parameter_weak_rulers_contest_rule:0 "Правители с высокой [prowess_i][Concept('prowess_skill', 'доблестью')|E] могут заплатить [prestige_i][prestige|El], чтобы претендовать на [titles|El] принадлежащие другим правителям. Чем выше разница в доблести между правителями, тем ниже стоимость."
  culture_parameter_cheaper_bribes:0 "[characters|E] этой [Concept('culture', 'культуры')|E] меньше платят за взятки"
  culture_parameter_dueling_culture:0 "[characters|E] этой [Concept('culture', 'культуры')|E] гораздо чаще предлагают и принимают дуэли"
- culture_parameter_more_prestige_from_battles:0 "[prestige_i][prestige|E] и [Concept('prestige_experience', 'репутация')|E] от [Concept('battles', 'битв')|E]: [prestige_i] #P +50%#!\nПри руководстве собственными войсками: [prestige_i] #P +50#!"
+ culture_parameter_more_prestige_from_battles:0 "[prestige_i][prestige|E] и [Concept('prestige_experience', 'репутация')|E] от [Concept('battles', 'битв')|E]: [prestige_i] #P +50%#!\nПри руководстве собственными войсками: [prestige_i] #P +50%#!"
  culture_parameter_courtiers_and_guests_more_likely_to_join_schemes:0 "[courtiers|E] и [Concept( 'guests', 'гости' )|E] с большей вероятностью присоединятся к [Concept( 'hostile_schemes', 'враждебным проискам' )|E] против [Concept( 'ruler', 'правителя' )|E]" 
- culture_parameter_cannot_feast:1 "Нельзя [Concept('activity', 'устраивать')|E] [feast|El]"
+ culture_parameter_cannot_feast:1 "Нельзя устраивать [feast|El]"
  culture_parameter_rebellious_vassals:0 "[vassals|E] этой [Concept('culture', 'культуры')|E] более склонны к [Concept('revolt', 'мятежу')|E],  снижая порог силы [liberty_factions|El] на #N -30%#!"
- culture_parameter_cheaper_dynastic_interactions:0 "[rulers|E] этой [Concept('culture', 'культуры')|E] могут использовать [interactions|El] с меньшими затратами"
+ culture_parameter_cheaper_dynastic_interactions:0 "[rulers|E] этой [Concept('culture', 'культуры')|E] могут использовать [dynast_interactions|El] с меньшими затратами"
  culture_parameter_rival_murder_decriminalized:0 "[characters|E] этой [Concept('culture', 'культуры')|E] могут убивать своих [Concept('rivals', 'соперников')|E], не получая [trait|El] [GetTrait('murderer').GetName( GetNullCharacter )]. [characters|E] все равно будут считаться убийцами, если их [liege|El] принадлежит к культуре, которая не разделяет эту традицию."
  culture_parameter_sparring_befriends:1 "В спарринге против кого-то есть шанс стать [Concept('friends', 'друзьями')|E]"
  culture_parameter_befriend_power_if_allies:1 "[scheme|E] [GetScheme('befriend').GetTypeName] имеет [success_chance|El] против [Concept('allies', 'союзников')|E]: #P +10%#!"
  culture_parameter_knights_less_likely_to_join_schemes:1 "[knights|E] с меньшей вероятностью присоединятся к [Concept( 'hostile_schemes', 'враждебным проискам' )|E] против [Concept( 'ruler', 'правителя' )|E]"
- culture_parameter_friend_prowess_gain:0 "[Concept('prowess', 'Доблесть')|E] за [Concept('friend', 'друга')|E]: [prowess_i]#P +1#!"
+ culture_parameter_friend_prowess_gain:0 "Каждый [friend|El] даёт: [prowess_i]#P +1#! к [Concept('prowess', 'доблести')|E]"
  culture_parameter_dynastic_interactions_purity:0 "Стоимость [dynasty_prestige_i][Concept('dynasty_prestige', 'признания')|E] для [Concept('disinherit', 'лишения наследства')|E] или [Concept('denounce', 'отвержения')|E] родственников зависит от их [Concept('purity', 'чистоты')|E], [Concept('sins', 'грехов')|E] и [Concept('virtues', 'добродетелей')|E]"
  culture_parameter_dynastic_interactions_more_likely:0 "Персонажи этой [Concept('culture', 'культуры')|E] чаще [Concept('disinherit', 'лишают наследства')|E] или [Concept('denounce', 'отвергают')|E] родственников на основании их [Concept('purity', 'чистоты')|E]"
  culture_parameter_disinherited_wanderers:0 "Лишённые наследства персонажи этой [Concept('culture', 'культуры')|E] чаще покидают [court|El] с той же [Concept('culture', 'культурой')|E], становясь [Concept('wanderers', 'скитальцами')|E]"
  culture_parameter_killing_rivals_is_pog:0 "Убийство [Concept('rivals', 'соперников')|E] и [Concept('nemeses', 'заклятых врагов')|E] даёт [prestige_i][prestige|El] и дополнительные потери [stress_i][Concept('stress', 'стресса')|E]"
- culture_parameter_cheaper_dynastic_interactions:0 "[rulers|E] этой [Concept('culture', 'культуры')|E] могут использовать [interactions|El] с меньшими затратами."
  culture_parameter_torture_prestige:0 "Персонажи этой [Concept('culture', 'культуры')|E] получают [prestige_i][prestige|El] от [Concept('torturing', 'пыток')|E] [Concept('rulers', 'правителей')|E], масштабируемый в зависимости от их [Concept('rank', 'ранга')|E]"
  culture_parameter_torture_practiced:0 "Персонажи этой [Concept('culture', 'культуры')|E] будут чаще [Concept('torture', 'пытать')|E] своих [Concept('prisoners', 'узников')|E], но реже убивать их при этом"
  culture_parameter_schismatic_faith:0 "Персонажи и [counties|El] этой [Concept('culture', 'культуры')|E] более склонны к переходу между [Concept('faiths', 'конфессиями')|E] с [Concept('doctrines', 'доктринами')|E] [GetFaithDoctrine('doctrine_pantheon_aedra').GetBaseName] и [GetFaithDoctrine('doctrine_pantheon_daedra').GetBaseName] или [GetFaithDoctrine('doctrine_main_pantheon_type_daedric_prince').GetBaseName]"
@@ -32,7 +31,7 @@
 ## GOVERNMENT PARAMETERS
  culture_parameter_unlocks_feudal_government:0 "Открывает [feudal_government|El] для [Concept('autocratic', 'автократичных')|E] [Concept('rulers', 'правителей')|E]"
  culture_parameter_unlock_pirate_government:0 "Открывает [pirate_government|El] для [Concept('autocratic', 'автократичных')|E] [Concept('rulers', 'правителей')|E]"
- culture_parameter_unlocks_praxis_government:0 "Открывает [praxis_government|El] для [Concept('autocratic', 'автократичных')|E] [Concept('rulers', 'правителей')|E]"
+ culture_parameter_unlocks_praxis_government:0 "Открывает [ceremoniarchy|El] для [Concept('autocratic', 'автократичных')|E] [Concept('rulers', 'правителей')|E]"
 
 ## ARCANA PARAMETERS
  culture_parameter_unlocks_court_magical:0 "Правители с [Concept('royal_court', 'монаршим двором')|E] могут использовать [court_type|El] $court_magical$"
@@ -54,6 +53,17 @@
  arcana_tradition_pale_shamans_2:0 "[GetTrait('education_intrigue_2').GetName(ROOT.Char)] (Pale Shamans)"
  arcana_tradition_pale_shamans_3:0 "[GetTrait('education_intrigue_3').GetName(ROOT.Char)] (Pale Shamans)"
  arcana_tradition_pale_shamans_4:0 "[GetTrait('education_intrigue_4').GetName(ROOT.Char)] (Pale Shamans)"
+
+## TOURNAMENT PARAMETERS
+ culture_parameter_can_host_arcane_clash_contests:0 "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'can_host_arcane_clash_contests_custom_effect_description_TOTO_DLC', 'can_host_arcane_clash_contests_custom_effect_description_NO_TOTO_DLC' )]"
+ can_host_arcane_clash_contests_custom_effect_description_TOTO_DLC:0 "Можно проводить [contests|El] Чародейского столкновения в [GetActivityType( 'activity_tournament' ).GetName]"
+ can_host_arcane_clash_contests_custom_effect_description_NO_TOTO_DLC:0 ""
+ culture_parameter_can_not_host_boardgame_contests:0 "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'can_not_host_boardgame_contests_custom_effect_description_TOTO_DLC', 'can_not_host_boardgame_contests_custom_effect_description_NO_TOTO_DLC' )]"
+ can_not_host_boardgame_contests_custom_effect_description_TOTO_DLC:0 "Нельзя проводить [contests|El] с настольными играми в [GetActivityType( 'activity_tournament' ).GetName]"
+ can_not_host_boardgame_contests_custom_effect_description_NO_TOTO_DLC:0 ""
+ culture_parameter_can_not_host_recital_contests:0 "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'can_not_host_recital_contests_custom_effect_description_TOTO_DLC', 'can_not_host_recital_contests_custom_effect_description_NO_TOTO_DLC' )]"
+ can_not_host_recital_contests_custom_effect_description_TOTO_DLC:0 "Нельзя проводить [contests|El] поэтов в [GetActivityType( 'activity_tournament' ).GetName]"
+ can_not_host_recital_contests_custom_effect_description_NO_TOTO_DLC:0 ""
 
 ## LEGACY PARAMETERS
  culture_parameter_unlock_pillage_legacy:0 "[dynast|E] этой [Concept('culture', 'культуры')|E] может использовать [dynasty_perk|El] #V $fp1_pillage_legacy_track_name$#!"
@@ -90,7 +100,8 @@
  culture_parameter_unlock_maa_chaurus_riders:0 "Доступны [men_at_arms|El] — [GetMaA('chaurus_riders').GetName]"
  culture_parameter_unlock_maa_dwemer_arbalesters:0 "Доступны [men_at_arms|El] — [GetMaA('dwemer_arbalesters').GetName]"
  culture_parameter_unlock_maa_dwemer_animunculi:0 "Доступны [men_at_arms|El] — [GetMaA('dwemer_sphere').GetName], [GetMaA('dwemer_centurion').GetName] и [GetMaA('dwemer_ballistae').GetName]"
-
+ culture_parameter_unlock_maa_imga_frenzied:0 "Доступны [men_at_arms|El] — [GetMaA('imga_frenzied'.GetName)"
+ 
 ## CULTURAL RELATIONS PARAMETERS
  culture_parameter_dislikes_marrying_outside_of_heritage:0 "Согласие на [Concept('marriage', 'брак')|E] с представителями других [Concept('heritage', 'наследий')|E]: #N -100#!"
  TRADITION_PENALTY_XENOPHOBIC:0 "Ксенофобная [culture|El]: $VALUE|+=0$"
@@ -146,7 +157,7 @@
  culture_parameter_piety_gain_on_building_complete_in_swamp:1 "Даёт [piety_i][piety|El] при завершении строительства [buildings|El] в [Concept('holdings', 'владениях')|E] с [Concept('terrain', 'типом местности')|E] #V Болота#! или #V Чернотопье#!"
  culture_parameter_better_tax_assessor_buildings:1 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_tax_assessor_01$#! предоставляет дополнительные бонусы [Concept('counties', 'графствам')|E] этой [Concept('culture', 'культуры')|E]"
  culture_parameter_fortified_temples:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_monastic_schools_01$#! обеспечивает [fort_level_i][fort_level|El] и [garrison|El] в [Concept('counties', 'графства')|E] этой [Concept('culture', 'культуры')|E]"
- culture_parameter_garrisoned_temples:0 "[Concept('temple', 'Храмовые')|E] [Concept('holdings', 'владения')|E] имеют #P +10%#! [Concept('garrison', 'гарнизона')|E], но обеспечивают #N -10%#! [Concept('tax', 'налогового')|E] дохода в [Concept('counties', 'графствах')|E] этой [Concept('culture', 'культуры')|E]"
+ culture_parameter_garrisoned_temples:0 "[temple_holdings|E] имеют #P +10%#! [Concept('garrison', 'гарнизона')|E], но обеспечивают #N -10%#! [Concept('tax', 'налогового')|E] дохода в [Concept('counties', 'графствах')|E] этой [Concept('culture', 'культуры')|E]"
  culture_parameter_coastal_holding_fortifications:0 "Прибрежные [Concept('holdings', 'владения')|E] в [Concept('counties', 'графствах')|E] этой [Concept('culture', 'культуры')|E] дают [fort_level_i][fort_level|El], обеспечивают дополнительное [Concept( 'advantage', 'преимущество' )|E] обороняющимся и требует больше времени для [Concept('raid', 'рейда')|E]"
  culture_parameter_coastal_levies:0 "Прибрежные [Concept('holdings', 'владения')|E] в [Concept('counties', 'графствах')|E] этой [Concept('culture', 'культуры')|E] обеспечивают #P +10%#! [soldier_i][Concept('levies', 'ополчения')|E]"
  culture_parameter_pastures_prestige:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_pastures_01$#! даёт [prestige_i][prestige|El] в [Concept('counties', 'графства')|E] этой [Concept('culture', 'культуры')|E]"
@@ -173,8 +184,8 @@
  culture_parameter_poorly_educated_martial_leaders_distrusted:0 "[rulers|E] со слабыми [Concept('education_traits', 'свойствами образования')|E] [Concept('martial', 'военного дела')|E], вроде [GetTrait('education_martial_1').GetName( GetNullCharacter )] или [GetTrait('education_martial_2').GetName( GetNullCharacter )], пользуются #N большим#! недоверием" 
  culture_parameter_aggressive_traits_bonuses:0 "[traits|E] [GetTrait('flexible_leader').GetName( GetNullCharacter )] и [GetTrait('aggressive_attacker').GetName( GetNullCharacter )] дают дополнительные бонусы"
  culture_parameter_aggressive_attacker_trait_more_common:0 "[trait|E] [GetTrait('aggressive_attacker').GetName( GetNullCharacter )] встречается чаще"
- culture_parameter_holy_warrior_trait_more_common:0 "[commander_trait|E] [GetTrait('holy_warrior').GetName( GetNullCharacter )] встречается чаще"
- culture_parameter_holy_warrior_piety:0 "[commander_trait|E] [GetTrait('holy_warrior').GetName( GetNullCharacter )] даёт [piety_i][piety|El]"
+ culture_parameter_holy_warrior_trait_more_common:0 "[trait|E] [GetTrait('holy_warrior').GetName( GetNullCharacter )] встречается чаще"
+ culture_parameter_holy_warrior_piety:0 "[trait|E] [GetTrait('holy_warrior').GetName( GetNullCharacter )] даёт [piety_i][piety|El]"
  culture_parameter_godliness_valued:0 "[characters|E] с личностью [GetTrait('just').GetName( GetNullCharacter )] вызывают восхищение, в то время как свойства личности [GetTrait('cynical').GetName( GetNullCharacter )] и [GetTrait('sadistic').GetName( GetNullCharacter )] презираются"
  culture_parameter_zealous_bonuses:0 "[trait|E] [GetTrait('zealous').GetName( GetNullCharacter )] даёт [learning_i][learning|El]"
  culture_parameter_control_valued:0 "[characters|E] с личностью [GetTrait('overseer').GetName( GetNullCharacter )] и [GetTrait('schemer').GetName( GetNullCharacter )] вызывают восхищение, в то время как свойства личности [GetTrait('diplomat').GetName( GetNullCharacter )] презираются"
@@ -185,15 +196,14 @@
  culture_parameter_bonuses_from_gallant_trait_alt:1 "Персонажи со [Concept('trait', 'свойством')|E] [GetTrait('gallant').GetName( GetNullCharacter )] считаются [prestige_i][Concept('prestigious', 'престижными')|E] и могут побеждать в [Concept('battles', 'битвах')|E] более решительно"
  culture_parameter_bonuses_from_avaricious_trait:1 "Персонажи со [Concept('trait', 'свойством')|E] [GetTrait('avaricious').GetName( GetNullCharacter )] считаются [prestige_i][Concept('prestigious', 'престижными')|E] и сможет собрать больше [Concept('taxes', 'налогов')|E]"
  culture_parameter_crafty_diplomats:1 "[Concept('education_traits', 'Свойства образования')|E], связанные с [Concept('intrigue', 'интригой')|E], также предоставляют [diplomacy_i][Concept('diplomacy', 'дипломатию')|E]"
+ culture_parameter_diplo_stewards:0 "[Concept('education_traits', 'Свойства образования')|E], связанные с [Concept('stewardship', 'управлением')|E], также предоставляют [diplomacy_i][Concept('diplomacy', 'дипломатию')|E]"
  culture_parameter_theologians_valued:0 "[Concept('education_traits', 'Свойства образования')|E], связанные с [Concept('learning', 'ученостью')|E] дают [prestige_i][prestige|El], а [characters|El] [GetTrait('theologian').GetName( GetNullCharacter )] восхищаются."
  culture_parameter_kindness_valued:0 "[trait|E] [GetTrait('compassionate').GetName( GetNullCharacter )] встречается чаще, в то время как свойства личности [GetTrait('callous').GetName( GetNullCharacter )] и [GetTrait('sadistic').GetName( GetNullCharacter )] презираются"
  culture_parameter_learned_diplomats:0 "Хорошие [Concept('education_traits', 'свойства образования')|E], связанные с [Concept('learning', 'ученостью')|E], например [GetTrait('education_learning_3').GetName( GetNullCharacter )] или [GetTrait('education_learning_4').GetName( GetNullCharacter )] дают [diplomacy_i][Concept('diplomacy', 'дипломатию')|E]."
  culture_parameter_diplomacy_valued:0 "[Concept('education_traits', 'Свойства образования')|E], связанные с [Concept('diplomacy', 'дипломатией')|E] дают [prestige_i][prestige|El]"
- culture_parameter_headhunter_hunter_trait_bonuses:0 "[traits|E] [GetTrait('hunter_2').GetName( GetNullCharacter )] дают дополнительные бонусы"
+ culture_parameter_headhunter_hunter_trait_bonuses:0 "[traits|E] [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] дают дополнительные бонусы"
  culture_parameter_callousness_valued:0 "[trait|E] [GetTrait('callous').GetName( GetNullCharacter )] даёт [prestige_i][prestige|El]"
  culture_parameter_bonuses_from_plunderer_trait:0 "[characters|E] со [Concept('trait', 'свойством')|E] [GetTrait('plunderer').GetName( GetNullCharacter )] рассматриваются как [prestige_i][Concept('prestigious', 'престижные')|E] и осуществляют [raid|El] быстрее"
- culture_parameter_bonuses_from_reaver_trait:0 "[characters|E] со [Concept('trait', 'свойством')|E] [GetTrait('reaver').GetName( GetNullCharacter )] получает дополнительные бонусы"
- culture_parameter_bonuses_from_plunderer_trait:0 "[characters|E] со [Concept('trait', 'свойством')|E] [GetTrait('plunderer').GetName( GetNullCharacter )] рассматриваются как [prestige_i]][Concept('prestigious', 'престижные')|E] и осуществляют [raid|El] быстрее"
  culture_parameter_poorly_educated_stewards_distrusted:0 "[rulers|E] со слабыми [Concept('education_traits', 'свойствами образования')|E] [Concept('stewardship', 'управления')|E], вроде [GetTrait('education_stewardship_1').GetName( GetNullCharacter )] или [GetTrait('education_stewardship_2').GetName( GetNullCharacter )], не пользуются доверием"
  culture_parameter_greedy_trait_looked_down_upon:1 "[trait|E] [GetTrait('greedy').GetName( GetNullCharacter )] презирается"
  culture_parameter_cynical_trait_more_common:1 "[trait|E] [GetTrait('cynical').GetName( GetNullCharacter )] встречается чаще"
@@ -220,7 +230,6 @@
  culture_parameter_curious_trait_less_common:0 "[children|E] с меньшей вероятностью получат [Concept('trait', 'свойство')|E] [GetTrait('curious').GetName( GetNullCharacter )]"
  culture_parameter_bossy_trait_more_common:0  "[children|E] с большей вероятностью получат [Concept('trait', 'свойство')|E] [GetTrait('bossy').GetName( GetNullCharacter )]"
  culture_parameter_bossy_trait_less_common:0 "[children|E] с меньшей вероятностью получат [Concept('trait', 'свойство')|E] [GetTrait('bossy').GetName( GetNullCharacter )]"
- culture_parameter_charming_trait_more_common:0 "[children|E] с большей вероятностью получат [Concept('trait', 'свойство')|E] [GetTrait('charming').GetName( GetNullCharacter )]"
  culture_parameter_charming_trait_less_common:0 "[children|E] с меньшей вероятностью получат [Concept('trait', 'свойство')|E] [GetTrait('charming').GetName( GetNullCharacter )]"
  
  culture_parameter_martial_education_better_outcomes:0 "[children|E] обычно получают более качественное [Concept('education', 'образование')|E] в [Concept('martial', 'военном деле')|E]"
@@ -232,7 +241,7 @@
  culture_parameter_intrigue_education_worse_outcomes:0 "[children|E] обычно получают менее качественное [Concept('education', 'образование')|E] в [Concept('intrigue', 'интригах')|E]"
  culture_parameter_learning_education_worse_outcomes:0 "[children|E] обычно получают менее качественное [Concept('education', 'образование')|E] в [Concept('learning', 'учености')|E]"
 
- culture_parameter_stewardship_education_more_valued:0 "[traits|E] [Concept('stewardship', 'управленческого')|E] [Concept('education', 'образования')|E] больше ценятся"
+ culture_parameter_stewardship_education_more_valued:0 "[education_traits|E], связанные с [Concept('stewardship', 'управлением')|E], ценятся больше"
 
 ## EVENTS PARAMETERS
  culture_parameter_wandering_poets_may_appear:0 "Бродячие поэты могут появиться при дворе, чтобы прославить или высмеять ваше правление"
@@ -241,7 +250,7 @@
  culture_parameter_torture_trophies:0 "Персонажи этой [Concept('culture', 'культуры')|E] редко получает трофейные [Concept('artifacts', 'артефакты')|E] от [Concept('torture', 'пыток')|E]"
  take_torture_trophy_effect_desc:0 "Вы требуете трофей от своей жертвы"
  culture_parameter_commune_with_departed_soul:0 "Персонажи этой [Concept('culture', 'культуры')|E] могут принять [Concept('decision', 'решение')|E] 'Посоветуйтесь с душой любимого человека', позволяя [Concept('character', 'персонажу')|E] в последний раз поговорить с [Concept('character', 'персонажем')|E], который был им дорог"
- culture_parameter_hunting_activity_prestige:0 "Персонажи этой [Concept('culture', 'культуры')|E] получают дополнительный [prestige_i][prestige|El] от [Concept('activities', 'занятий')|E] [Concept('hunt', 'охотой')|E]"
+ culture_parameter_hunting_activity_prestige:0 "Персонажи этой [Concept('culture', 'культуры')|E] получают дополнительный [prestige_i][prestige|El] от [Concept('activities', 'занятий')|E] охотой"
  culture_parameter_pets_more_common:0 "Персонажи этой культуры чаще имеют домашних животных"
 
 ## COMMANDER PARAMETERS
@@ -299,8 +308,6 @@
  tradition_feathered_ones_desc:0 "Мы, сарпа, одарены перьями. Ни небо, ни вода не могут сдержать нашу способность искать богатство и перехитрить врагов."
  tradition_batracian_blessings_name:0 "Батракские благословения"
  tradition_batracian_blessings_desc:0 "Магия — это дар, которым владеют племена паатру над всеми саксхлил. Мы приветствуем знания во всех их формах, развиваясь, чтобы лучше понять наш дом."
- tradition_priest_kings_name:0 "Короли-жрецы"
- tradition_priest_kings_desc:0 "Правители этой культуры претендуют на власть от своего божественного мандата и считаются главными жрецами королевства. Рвение приносит уважение."
  tradition_glenumbran_core_name:0 "Песнь Дении"
  tradition_glenumbran_core_desc:1 "Сердце Гленумбры наполнено рассказами об искателях приключений, желающих оставить свой след в мире. Естественно, дворяне не могут позволить себе отстать от простолюдинов: пусть наши #italic деяния#! эхом разнесутся по Эрам."
  tradition_iliac_core_name:0 "Предприимчивые лорды-торговцы"
@@ -332,8 +339,6 @@
  tradition_sacred_marshes_desc:0 "Эта культура считает болота священными — их воды содержат божественные циклы жизни и смерти, роста и распада."
  tradition_marshlanders_name:0 "Болотные жители"
  tradition_marshlanders_desc:0 "Эта культура нашла свой дом на окраинах Чернотопья, где тёмные болота и глубокие джунгли делают жизнь негостеприимной, но благодаря домам на сваях и дренажу был завоёван и этот уголок Тамриэля."
- tradition_wetlanders_desc:1 "Эта культура освоила болота и топи. Хотя жизнь этих людей порой превращается в борьбу с плесенью, они научились использовать торф в своих интересах."
- tradition_jungle_dwellers_desc:0 "Эта культура живет рядом с джунглями и знает, как собирать их богатства."
  tradition_moonsugar_plantations_name:0 "Плантации лунного сахара"
  tradition_moonsugar_plantations_desc:0 "При тщательном уходе джунгли Тенмара и за его пределами могут быть щедрыми. Кристаллизованный лунный свет бесконечен, и с ним наше богатство обеспечено."
  tradition_beasts_of_war_name:0 "Звери войны"
@@ -408,8 +413,13 @@
  tradition_deep_lore_desc:0 "Чтобы раскопать неизвестное и усовершенствовать неведомое, эта культура неустанно стремится к знания, ценой отчуждения от посторонних."
  tradition_inoxidizable_metallurgy_name:0 "Неокисляемая металлургия"
  tradition_inoxidizable_metallurgy_desc:0 "Эта культура хранит тайну создания прочного золотого металла, не подверженного коррозии. Желанный для чужаков, этот сплав придаёт форму чудесным творениям и изысканным диковинкам."
+ tradition_imga_core_name:0 "Навесная борьба"
+ tradition_imga_core_desc:0 "Организованная в кланы, которые строят свои дома среди верхушек деревьев, эта культура балансирует с открытой рукой и сжатым кулаком в погоне за славой."
+ tradition_fight_for_survival_name:0 "Борьба за выживание"
+ tradition_fight_for_survival_desc:0 "Жизнь была постоянной борьбой для народа этой культуры, поскольку большинство их соседей часто воспринимали их не более чем как монстров. Следовательно, они подчеркивают военные аспекты образования и важную защиту своих домов. Тривиальным развлечениям, таким как настольные игры или концерты, нет места в этом обществе."
 
 ## TRADITION COST MODIFIERS
+ culture_has_pariah_innovation_desc:0 "[culture|E] не имеет [Concept('innovation', 'инновацию')|E] отверженного народа"
  culture_in_swamp_desc:0 "[culture|E] не присутствует ни на одном [Concept('county', 'графстве')|E] с типом местности Чернотопье или Болота"
  swamp_percentage_desc:0 "[culture|E] не имеет #V 30%#! своих [Concept('counties', 'графств')|E] в провинциях с типом местности Чернотопье или Болота"
  culture_in_marsh_jungle_desc:0 "[culture|E] не присутствует ни на одном [Concept('county', 'графстве')|E] с типом местности Чернотопье, Джунгли или Джунглевые холмы"
@@ -427,7 +437,6 @@
 
 
  ###TRADITION MISC
- mundus_tamriel_hammerfell_abecee:0 "Абесин"
  CULTURE_NOT_NATIVE_FOR_DIVERGENCE:0 "[Concept('culture', 'Культура')|E] с таким [Concept('heritage', 'наследием')|E] уже считается [Concept('native', 'коренной')|E] для вашего [Concept('capital', 'столичного')|E] [Concept('nativity_region', 'родного региона')|E]"
 
  ###TRADITION TRIGGER DESC
@@ -483,7 +492,8 @@
  tradition_falmer_betrayed_trigger_desc:0 "Есть #V фалмерское#! [heritage|El] и ваша [culture|El] либо является фалмерской, либо происходит от неё, а также не имеет [Concept('tradition', 'традиции')|E] [GetCultureTradition('tradition_knight_paladins').GetName|V]"
  tradition_dwemer_trigger_desc:0 "Есть #V двемерское#! [heritage|El] и является #V $dwemer_collective_noun$ой#!, либо иной [Concept('culture', 'культурой')|E], происходящей от #V $dwemer_collective_noun$ой#!"
  tradition_female_only_inheritance_requirements_ek:0 "Ваша [faith|El] должна иметь доктрину [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]"
- tradition_orc_heritage_trigger:0 "Есть #V $Orsimeri$#!ое [heritage|El]"
-
+ tradition_orc_heritage_trigger:0 "Есть #V орсимерское#! [heritage|El]"
+ tradition_imga_trigger_desc:0 "Есть #V имганское#! [heritage|El]"
+ 
  tradition_roman_legacy_trigger_desc:0 "Является #V $colovian$ой#!, #V $nibenese$ой#!, или #V $heartlander$ой#!, либо иной [Concept('culture', 'культурой')|E], происходящей от перечисленных, #italic или#! владеет империей Тамриэля или Сиродила в качестве основного титула."
 

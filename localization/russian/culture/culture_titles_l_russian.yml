@@ -115,8 +115,6 @@
  count_female_e_black_marsh:0 "Болотная леди"
  county_e_black_marsh:0 "Топиводство"
  
- queen_mother:0 "Королева-мать"
- 
  title_archmage_male:0 "Архимаг"
  title_archmage_female:0 "Архимаг"
  title_college:0 "Коллегия"
@@ -193,11 +191,11 @@
  wilderking_guardian_court:0 "Роща"
  wilderking_guardian_grand_court:0 "Двор"
 
-pale_watch_watchmaster_male:0 "Смотритель"
-pale_watch_watchmaster_female:0 "Смотрительница"
+ pale_watch_watchmaster_male:0 "Смотритель"
+ pale_watch_watchmaster_female:0 "Смотрительница"
 
-title_barony_city:0 "Город"
-title_county_city:0 "Метрополь"
+ title_barony_city:0 "Город"
+ title_county_city:0 "Метрополь"
 
  #Default Feudal tiers
  #Default Republic tiers
@@ -239,7 +237,6 @@ title_county_city:0 "Метрополь"
  duchy_feudal_independent:0 "Малое королевство"
  king_feudal_male_independent:0 "Король"
  king_feudal_female_independent:0 "Королева"
- kingdom_feudal_independent:0 "Королевство"
 
  #Default Pirate tiers
  baron_pirate_male:0 "Капитан"
@@ -278,7 +275,7 @@ title_county_city:0 "Метрополь"
  duchy_pirate_fleet_kingdom:0 "Великий флот"
  duchy_pirate_free_port:0 "Свободный порт"
  
-  #Default Academy tiers
+ #Default Academy tiers
  baron_academy_male:0 "[CHARACTER.Custom('ArchmageTitle')]"
  baron_academy_female:0 "[CHARACTER.Custom('ArchmageTitle')]"
  barony_academy:0 "[CHARACTER.Custom('AcademyRealm')]"
@@ -501,9 +498,7 @@ title_county_city:0 "Метрополь"
  head_of_faith_eight_divines_male:1 "Архипримас"
  head_of_faith_eight_divines_female:1 "Архипримас"
  
- #Khajiiti Religion
- khajiiti_religious_head_title:1 "Грива"
- 
+ #Khajiiti Religion 
  baron_theocracy_male_khajiiti_religion:0 "Лунный жрец"
  baron_theocracy_female_khajiiti_religion:0 "Лунная жрица"
  count_theocracy_male_khajiiti_religion:0 "Лунный епископ"
@@ -516,7 +511,7 @@ title_county_city:0 "Метрополь"
  emperor_theocracy_female_khajiiti_religion:0 "Лунная императрица" 
  
  #Lilmothiiti Faith
-#  lilmothiiti_religious_head_title:1 "Дарующий закон"
+ #lilmothiiti_religious_head_title:1 "Дарующий закон"
  
  baron_theocracy_male_lilmothiiti_religion:0 "Законоговоритель"
  baron_theocracy_female_lilmothiiti_religion:0 "Законоговорительница"
@@ -544,7 +539,7 @@ title_county_city:0 "Метрополь"
  emperor_theocracy_male_wyrd_religion:0 "Верховный"
  emperor_theocracy_female_wyrd_religion:0 "Верховная"
  empire_theocracy_wyrd_religion:0 "Сфера"
-  #Druid Religion
+ #Druid Religion
  baron_theocracy_male_druid_circles:0 "Послушник"
  baron_theocracy_female_druid_circles:0 "Послушница"
  count_theocracy_male_druid_circles:0 "Друид"
@@ -577,624 +572,710 @@ title_county_city:0 "Метрополь"
 ################################################
 #Cultural titles, cultural localization
 
-#Aldmeris Group
-baron_republic_male_aldmeris_group:0 "Рив"
-baron_republic_female_aldmeris_group:0 "Рив"
-baron_republic_male_balfieri:0 "Берату"
-baron_republic_female_balfieri:0 "Берату"
-count_republic_male_balfieri:0 "Бэйлифф"
-count_republic_female_balfieri:0 "Бэйлифф"
-count_republic_male_aldmeris_group:0 "Канонрив"
-count_republic_female_aldmeris_group:0 "Канонрив"
-duke_republic_male_aldmeris_group:0 "Верховный рив"
-duke_republic_female_aldmeris_group:0 "Верховная рив"
-
-baron_feudal_male_aldmeris_group:0 "Церум"
-baron_feudal_female_aldmeris_group:0 "Церум"
-barony_feudal_aldmeris_group:0 "Церувал"
-count_feudal_male_aldmeris_group:0 "Оптимат"
-count_feudal_female_aldmeris_group:0 "Оптимата"
-county_feudal_aldmeris_group:0 "Оптиматство"
-duke_feudal_male_aldmeris_group:0 "Кинлорд"
-duke_feudal_female_aldmeris_group:0 "Кинледи"
-duchy_feudal_aldmeris_group:0 "Кинхолд"
-king_feudal_male_aldmeris_group:0 "Верховный кинлорд"
-king_feudal_female_aldmeris_group:0 "Верховная кинледи"
-emperor_feudal_male_aldmeris_group:0 "Аран-Эль"
-emperor_feudal_female_aldmeris_group:0 "Арана-Эль"
-empire_feudal_aldmeris_group:0 "Верховное королевство"
-
-king_feudal_male_aldmeris_group_independent:0 "Аран"
-king_feudal_female_aldmeris_group_independent:0 "Арана"
-
-
-#Falmeris Group
-baron_feudal_male_falmer:0 "Адон"
-baron_feudal_female_falmer:0 "Адона"
-barony_feudal_falmer:0 "Адонель"
-
-count_feudal_male_falmer:0 "Арпен"
-count_feudal_female_falmer:0 "Арпена"
-county_feudal_falmer:0 "Арпенство"
-
-duke_feudal_male_falmer:0 "Принц"
-duke_feudal_female_falmer:0 "Принцесса"
-duchy_feudal_falmer:0 "Княжество"
-
-king_feudal_male_falmer:0 "Верховный принц"
-king_feudal_female_falmer:0 "Верховная принцесса"
-kingdom_feudal_falmer:0 "Королевство"
-
-#Betrayed
-baron_feudal_male_betrayed:0 "Мастер укрытий"
-baron_feudal_female_betrayed:0 "Мастер укрытий"
-barony_feudal_betrayed:0 "Укрытие"
-
-count_feudal_male_betrayed:0 "Предводитель"
-count_feudal_female_betrayed:0 "Предводительница"
-county_feudal_betrayed:0 "Вождество"
-
-duke_feudal_male_betrayed:0 "Верховный предводитель"
-duke_feudal_female_betrayed:0 "Верховная предводительница"
-duchy_feudal_betrayed:0 "Улей"
-
-king_feudal_male_betrayed:0 "Воевода"
-king_feudal_female_betrayed:0 "Воевода"
-kingdom_feudal_betrayed:0 "Орда"
-
-emperor_feudal_male_betrayed:0 "Великий вождь"
-emperor_feudal_female_betrayed:0 "Великая предводительница"
-empire_feudal_betrayed:0 "Великая орда"
-
-#Independent
-duke_feudal_male_betrayed_independent:0 "Воевода"
-duke_feudal_female_betrayed_independent:0 "Воевода"
-
-#Republic
-
-baron_republic_male_betrayed:0 "Смотритель гнездовья"
-baron_republic_female_betrayed:0 "Смотрительница гнездовья"
-barony_republic_betrayed:0 "Гнездо"
-
-county_republic_male_betrayed:0 "Смотритель гнездовья"
-county_republic_female_betrayed:0 "Смотрительница гнездовья"
-county_republic_betrayed:0 "Гнездо-улей"
-
-
-#Dwemeris Group
-baron_feudal_male_dwemer:0 "Варзак"
-baron_feudal_female_dwemer:0 "Варзарн"
-barony_feudal_dwemer:0 "Варунх"
-
-count_feudal_male_dwemer:0 "Бтарак"
-count_feudal_female_dwemer:0 "Бхарн"
-county_feudal_dwemer:0 "Бтар"
-
-duke_feudal_male_dwemer:0 "Акжар"
-duke_feudal_female_dwemer:0 "Арнжар"
-duchy_feudal_dwemer:0 "Жардум"
-
-baron_republic_male_dwemer:0 "Абакх"
-baron_republic_female_dwemer:0 "Абакх"
-barony_republic_dwemer:0 "Зел"
-
-count_republic_male_dwemer:0 "Абакх"
-count_republic_female_dwemer:0 "Абакх"
-county_republic_dwemer:0 "Зел"
-
-
-#Chimeris Group
-baron_feudal_male_dunmeris_group:0 "Сера"
-baron_feudal_female_dunmeris_group:0 "Сера"
-count_feudal_male_dunmeris_group:0 "Мутсера"
-count_feudal_female_dunmeris_group:0 "Мутсера"
-
-baron_republic_male_dunmeris_group:0 "Гетман"
-baron_republic_female_dunmeris_group:0 "Гетманша"
-count_republic_male_dunmeris_group:0 "Гетман"
-count_republic_female_dunmeris_group:0 "Гетманша"
-duke_republic_male_dunmeris_group:0 "Советник"
-duke_republic_female_dunmeris_group:0 "Советник"
-
-count_republic_male_chimeris_group:0 "Гетман"
-count_republic_female_chimeris_group:0 "Гетманша"
-duke_republic_male_chimeris_group:0 "Илькан"
-duke_republic_female_chimeris_group:0 "Илькатун"
-
-#Breton Group
-
-count_feudal_male_balfieri:0 "[CHARACTER.Custom('DirenniTitle')]"
-count_feudal_female_balfieri:0 "[CHARACTER.Custom('DirenniTitle')]"
-county_feudal_balfieri:0 "[CHARACTER.Custom('DirenniRealm')]"
-
-title_count_feudal_male_balfieri:0 "Смотритель"
-title_count_feudal_female_balfieri:0 "Смотрительница"
-title_county_feudal_balfieri:0 "Кастеллянство"
-
-count_feudal_male_earl:0 "Эрл"
-count_feudal_female_earl:0 "Эрл"
-county_feudal_earldom:0 "Эрлство"
-count_feudal_male_baron:0 "Барон"
-count_feudal_female_baron:0 "Баронесса"
-county_feudal_barony:0 "Баронство"
-count_feudal_male_count:0 "Граф"
-count_feudal_female_countess:0 "Графиня"
-county_feudal_county:0 "Графство"
-duke_feudal_male_marchis:0 "Маркиз"
-duke_feudal_female_marchis:0 "Маркиза"
-duchy_feudal_march:0 "Марка"
-count_feudal_independent_male:0 "Князь"
-count_feudal_independent_female:0 "Княгиня"
-county_feudal_independent:0 "Княжество"
-
-duke_child_male:0 "Принц"
-duke_child_female:0 "Принцесса"
-
-#Nordic Group
-count_feudal_male_nordic_group:0 "Землевладелец"
-count_feudal_female_nordic_group:0 "Землевладелица"
-county_feudal_nordic_group:0 "Вотчина"
-duchy_feudal_male_nordic_group:0 "[CHARACTER.Custom('NordicClanHead')]"
-duchy_feudal_female_nordic_group:0 "[CHARACTER.Custom('NordicClanHead')]"
-duchy_feudal_nordic_group:0 "Стоянка клана"
-king_feudal_male_nordic_group:0 "[CHARACTER.Custom('NordicJarl')]"
-king_feudal_female_nordic_group:0 "[CHARACTER.Custom('NordicJarl')]"
-kingdom_feudal_nordic_group:0 "Владение"
-emperor_feudal_male_nordic_group:0 "Верховный король"
-emperor_feudal_female_nordic_group:0 "Верховная королева"
-empire_feudal_nordic_group:0 "Верховное королевство"
-
-TitleClanHead:0 "Глава клана"
-TitleJarl:0 "Ярл"
-
-count_republic_male_nordic_group:0 "Старейшина"
-count_republic_female_nordic_group:0 "Старейшина"
-county_republic_nordic_group:0 "Стоянка"
-
-duchy_republic_male_nordic_group:0 "Землевладелец"
-duchy_republic_female_nordic_group:0 "Землевладелица"
-duchy_republic_nordic_group:0 "Владение"
-
-barony_republic_male_nordic_group:0 "[CHARACTER.Custom('NordicMayor')]"
-barony_republic_female_nordic_group:0 "[CHARACTER.Custom('NordicMayor')]"
-
-Steadholder_male:0 "Старейшина"
-Steadholder_female:0 "Старейшина"
-
-#Cyro-Nords
-duke_feudal_male_cyro_nord_independent:1 "[CHARACTER.Custom('NordicClanHead')]"
-duke_feudal_female_cyro_nord_independent:1 "[CHARACTER.Custom('NordicClanHead')]"
-duchy_feudal_cyro_nord_independent:1 "Владение"
-
-#Cyrodiilic Group
-king_feudal_male_cyrodiil:0 "[CHARACTER.Custom('KingFeudalMaleCyrodiil')]"
-king_feudal_female_cyrodiil:0 "[CHARACTER.Custom('KingFeudalFemaleCyrodiil')]"
-kingdom_feudal_cyrodiil:0 "[CHARACTER.Custom('KingdomFeudalCyrodiil')]"
-
-warlord_male_cyrodiil:0 "[CHARACTER.Custom('WarlordMaleCyrodiil')]"
-warlord_female_cyrodiil:0 "[CHARACTER.Custom('WarlordFemaleCyrodiil')]"
-
-imperial_count:0 "Имперский граф"
-imperial_countess:0 "Имперская графиня"
-imperial_county:0 "Имперское графство"
-
-warlord:0 "Военачальник"
-warlady:0 "Военачальница"
-
-duke_feudal_male_cyrodiilic_group:0 "Виконт"
-duke_feudal_female_cyrodiilic_group:0 "Виконтесса"
-duchy_feudal_cyrodiilic_group:0 "Виконтство"
-
-count_feudal_male_cyrodiilic_group:0 "Барон"
-count_feudal_female_cyrodiilic_group:0 "Баронесса"
-county_feudal_cyrodiilic_group:0 "Баронство"
-
-duchy_feudal_Cyrodiilic_independent:0 "Герцогство"
-
-#Heartlander
-king_feudal_male_heartlands:0 "Лорд-протектор"
-king_feudal_female_heartlands:0 "Леди-протектор"
-kingdom_feudal_heartlands:0 "Протекторат"
-
-#Colovian 
-duke_feudal_male_colovian_independent:1 "Герцог"
-duke_feudal_female_colovian_independent:1 "Герцогиня"
-
-#Nibenese
-duke_feudal_male_nibenese_independent:1 "Владыка"
-duke_feudal_female_nibenese_independent:1 "Владычица"
-king_feudal_male_nibenese_independent_cyrodiil:0 "Владыка"
-king_feudal_female_nibenese_independent_cyrodiil:0 "Владычица"
-
-#Orsimer Group
-baron_feudal_male_orsimer:0 "Вождь"
-baron_feudal_female_orsimer:0 "Предводительница"
-barony_feudal_orsimer:1 "Крепость"
-count_feudal_male_orsimer:0 "Вождь"
-count_feudal_female_orsimer:0 "Предводительница"
-county_feudal_orsimer:0 "Вождество"
-duke_feudal_male_orsimer:0 "Верховный вождь"
-duke_feudal_female_orsimer:0 "Верховная предводительница"
-duchy_feudal_orsimer:0 "Клан"
-king_feudal_male_orsimer:0 "Король"
-king_feudal_female_orsimer:0 "Королева"
-
-king_huntshusband:0 "Охотник-муж"
-king_huntswife:0 "Охотница-жена"
-duke_huntshusband:0 "Охотник-муж"
-duke_huntswife:0 "Охотница-жена"
-count_huntshusband:0 "Охотник-муж"
-count_huntswife:0 "Охотница-жена"
-baron_huntshusband:0 "Охотник-муж"
-baron_huntswife:0 "Охотница-жена"
-
-#Goblin-ken Group
-king_feudal_male_goblinken:0 "Вождь-Король"
-king_feudal_female_goblinken:0 "Предводительница-Королева"
-
-#Reachfolk
-barony_feudal_reachfolk:0 "Дун"
-duke_feudal_independent_male_reachfolk:0 "Вождь вождей"
-duke_feudal_independent_female_reachfolk:0 "Вождь вождей"
-king_feudal_male_reachfolk:0 "Ард"
-king_feudal_female_reachfolk:0 "Ард"
-emperor_feudal_male_reachfolk:1 "Таг Ард"
-emperor_feudal_female_reachfolk:1 "Таг Ард"
-
-#Yokudan Group
-baron_republic_male_yokudan_group:0 "Магистрат"
-baron_republic_female_yokudan_group:0 "Магистрат"
-count_republic_male_yokudan_group:0 "Лорд-магистрат"
-count_republic_female_yokudan_group:0 "Леди-магистрат"
-
-count_feudal_male_yokudan_group:0 "Вельможа"
-count_feudal_female_yokudan_group:0 "Вельможная дама"
-county_feudal_yokudan_group:0 "Вельможество"
-duke_feudal_male_yokudan_group:0 "Сановник"
-duke_feudal_female_yokudan_group:0 "Сановница"
-duchy_feudal_yokudan_group:0 "Сановничество"
-
-#Alik'r
-king_feudal_male_alikr:0 "Султан"
-king_feudal_female_alikr:0 "Султана"
-kingdom_feudal_alikr:0 "Султанат"
-
-#Yokudan
-# count_feudal_male_yokudan:0 "Йокеда"
-# count_feudal_female_yokudan:0 "Йокеда"
-# county_feudal_yokudan:0 "Домен"
-king_feudal_male_yokudan:0 "Йокеда"
-king_feudal_female_yokudan:0 "Йокеда"
-emperor_feudal_male_yokudan:0 "Старейший Йокеда"
-emperor_feudal_female_yokudan:0 "Старейшая Йокеда"
-empire_feudal_yokudan:0 "Империя"
-
-#Chimeris Group + Ashlander
-khan_male:0 "[CHARACTER.Custom('khan_male')]"
-khan_female:0 "[CHARACTER.Custom('khan_female')]"
-great_khan_male:0 "[CHARACTER.Custom('great_khan_male')]"
-great_khan_female:0 "[CHARACTER.Custom('great_khan_female')]"
-khanate_title:0 "[CHARACTER.Custom('khanate_title')]"
-ashkhan:0 "Пепельный хан"
-snowkhan:0 "Снежный хан"
-marshkhan:0 "Болотный хан"
-great_ashkhan:0 "Великий пепельный хан"
-great_snowkhan:0 "Великий снежный хан"
-great_marshkhan:0 "Великий болотный хан"
-#terrain_khan:0 "[CHARACTER.GetCapitalLocation.GetTerrain.GetNameNoTooltip]khan"
-#great_terrain_khan:0 "Great [CHARACTER.GetCapitalLocation.GetTerrain.GetNameNoTooltip]khan"
-baron_tribal_male_chimeris_group:0 "Гетман"
-baron_tribal_female_chimeris_group:0 "Гетманша"
-count_tribal_male_chimeris_group:0 "Гулахан"
-count_tribal_female_chimeris_group:0 "Гулахатун"
-duke_tribal_male_chimeris_group:0 "Когохан"
-duke_tribal_female_chimeris_group:0 "Когохатун"
-king_tribal_male_chimeris_group:0 "Гаххан"
-king_tribal_female_chimeris_group:0 "Гаххатун"
-emperor_tribal_male_chimeris_group:0 "Хан"
-emperor_tribal_female_chimeris_group:0 "Хатун"
-wise-woman:0 "Мудрая женщина"
-farseer:0 "Провидец"
-
-count_tribal_ashlander_vassal:0 "Гулханат"
-duchy_tribal_ashlander_vassal:0 "Когоханат"
-king_tribal_ashlander_vassal:0 "Гахханат"
-
-count_tribal_ashlander_independent:0 "Племя"
-duchy_tribal_ashlander_independent:0 "Племя"
-king_tribal_ashlander_independent:0 "Племя"
-
-emperor_tribal_ashlander_independent:0 "Племя"
-
-ashkhanate:0 "Пепельный ханат"
-snowkhanate:0 "Снежный ханат"
-marshkhanate:0 "Болотный ханат"
-terrain_khanate:0 "[CHARACTER.GetCapitalLocation.GetTerrain.GetNameNoTooltip]khanate"
-
-#Bosmeris Group
-baron_feudal_male_bosmeris_group:0 "Хранитель клана"
-baron_feudal_female_bosmeris_group:0 "Хранительница клана"
-barony_feudal_bosmeris_group:0 "Клан"
-count_feudal_male_bosmeris_group:0 "Страж"
-count_feudal_female_bosmeris_group:0 "Стражница"
-county_feudal_bosmeris_group:0 "Стража"
-duke_feudal_male_bosmeris_group:0 "Древождь"
-duke_feudal_female_bosmeris_group:0 "Древождь"
-duchy_feudal_bosmeris_group:0 "Древождество"
-duke_feudal_male_bosmeris_etarani:0 "Лесной лорд"
-duke_feudal_female_bosmeris_etarani:0 "Лесная леди"
-duchy_feudal_bosmeris_etarani:0 "Княжество"
-emperor_feudal_male_bosmeris_group:0 "Король-олень"
-emperor_feudal_female_bosmeris_group:0 "Королева-лань"
-
-duke_green_lady_male:0 "Зелёный лорд"
-duke_green_lady_female:0 "Зелёная леди"
-
-#Akaviri Group
-emperor_feudal_male_akaviri_group:1 "Потентат"
-emperor_feudal_female_akaviri_group:1 "Потентат"
-
-#Alyeid Group
-baron_feudal_male_ayleid:0 "Адон"
-baron_feudal_female_ayleid:0 "Адона"
-barony_feudal_ayleid:0 "Адонсель"
-
-count_feudal_male_ayleid:0 "Арпен"
-count_feudal_female_ayleid:0 "Арпена"
-county_feudal_ayleid:0 "Арпенсель"
-
-duke_feudal_male_ayleid:0 "Маларпен"
-duke_feudal_female_ayleid:0 "Маларпена"
-duchy_feudal_ayleid:0 "Маларпенсель"
-
-king_feudal_male_ayleid:0 "Аран"
-king_feudal_female_ayleid:0 "Арана"
-kingdom_feudal_ayleid:0 "Арансель"
-
-emperor_feudal_male_ayleid:0 "Маларан"
-emperor_feudal_female_ayleid:0 "Маларана"
-empire_feudal_ayleid:0 "Маларансель"
-
-count_feudal_independent_male_ayleid:0 "Аран" 
-count_feudal_independent_female_ayleid:0 "Арана" 
-county_feudal_independent_ayleid:0 "Арпенсель"
-duke_feudal_independent_male_ayleid:0 "Аран" 
-duke_feudal_independent_female_ayleid:0 "Арана" 
-duchy_feudal_independent_ayleid:0 "Арпенсель"
-
-prince_ayleid_county:0 "Принц" 
-princess_ayleid_county:0 "Принцесса" 
-
-prince_ayleid_duchy:0 "Принц" 
-princess_ayleid_duchy:0 "Принцесса" 
-
-emperor_feudal_male_saliache:0 "Маларан"
-emperor_feudal_female_saliache:0 "Маларана"
-empire_feudal_saliache:0 "Маларансель"
-
-duke_feudal_male_white_gold:0 "Маларпен"
-duke_feudal_female_white_gold:0 "Маларпена"
-duchy_feudal_white_gold:0 "Маларансель"
-
-duke_feudal_male_white_gold_independent:0 "Аран"
-duke_feudal_female_white_gold_independent:0 "Арана"
-duchy_feudal_white_gold_independent:0 "Арансель"
-
-#Yespest Group 
-baron_feudal_male_yespest:0 "Адону"
-baron_feudal_female_yespest:0 "Адоне"
-barony_feudal_yespest:0 "Адонпест"
-
-count_feudal_male_yespest:0 "Арпену"
-count_feudal_female_yespest:0 "Арпене"
-county_feudal_yespest:0 "Арпенпест"
-
-duke_feudal_male_yespest:0 "Маларпену"
-duke_feudal_female_yespest:0 "Маларпене"
-duchy_feudal_yespest:0 "Маларпенест"
-
-#Nedic Group 
-baron_feudal_male_nedic:0 "Вождь"
-baron_feudal_female_nedic:0 "Предводительница"
-barony_feudal_nedic:0 "Зал"
-
-count_feudal_male_nedic:0 "Вождь"
-count_feudal_female_nedic:0 "Предводительница"
-county_feudal_nedic:0 "Племя"
-
-duke_feudal_male_nedic:0 "Верховный вождь"
-duke_feudal_female_nedic:0 "Верховная предводительница"
-duchy_feudal_nedic:0 "Верховное вождество"
-
-#Argonian Group
-baron_feudal_male_argonian:0 "Рил-ка"
-baron_feudal_female_argonian:0 "Рил-на"
-barony_feudal_argonian:0 "Рил-Уксит"
-
-count_feudal_male_argonian:0 "Каал"
-count_feudal_female_argonian:0 "Насса"
-county_feudal_argonian:0 "Лиил"
-
-duke_feudal_male_argonian:0 "Радж-каал"
-duke_feudal_female_argonian:0 "Радж-насса"
-duchy_feudal_argonian:0 "Аталиил"
-
-king_feudal_male_argonian:0 "Король"
-king_feudal_female_argonian:0 "Королева"
-kingdom_feudal_argonian:0 "Королевство"
-
-emperor_feudal_male_argonian:0 "Верховный король"
-emperor_feudal_female_argonian:0 "Верховная королева"
-empire_feudal_argonian:0 "Верховное королевство"
-
-baron_republic_male_argonian:0 "Нахиш"
-baron_republic_female_argonian:0 "Нахиш"
-barony_republic_argonian:0 "Уксит"
-
-count_republic_male_argonian:0 "Нахиш"
-count_republic_female_argonian:0 "Нахиш"
-county_republic_argonian:0 "Тзел"
-
-duke_republic_male_argonian:0 "Радж-Нахиш"
-duke_republic_female_argonian:0 "Радж-Нахиш"
-duchy_republic_argonian:0 "Ататзел"
-
-baron_theocracy_male_hist_religion:0 "Древохранитель"
-baron_theocracy_female_hist_religion:0 "Древохранительница"
-barony_theocracy_hist_religion:0 "Священное дерево"
-
-count_theocracy_male_hist_religion:0 "Оберегающий-деревья"
-count_theocracy_female_hist_religion:0 "Оберегающая-деревья"
-county_theocracy_hist_religion:0 "Священная роща"
-
-duke_theocracy_male_hist_religion:0 "Хранящий-деревья"
-duke_theocracy_female_hist_religion:0 "Хранящая-деревья"
-duchy_theocracy_hist_religion:0 "Священный храм"
-
-baron_theocracy_male_xanmeer_religion:0 "Вох-вастей"
-baron_theocracy_female_xanmeer_religion:0 "Вох-вастей"
-barony_theocracy_xanmeer_religion:0 "Священный занмир"
-
-count_theocracy_male_xanmeer_religion:0 "Вох-вастей"
-count_theocracy_female_xanmeer_religion:0 "Вох-вастей"
-county_theocracy_xanmeer_religion:0 "Священный занмир"
-
-duke_theocracy_male_xanmeer_religion:0 "Вох-вастей"
-duke_theocracy_female_xanmeer_religion:0 "Вох-вастей"
-duchy_theocracy_xanmeer_religion:0 "Священный занмир"
-
-count_theocracy_male_xanmeer_religion_independent:0 "Король-жрец"
-count_theocracy_female_xanmeer_religion_independent:0 "Королева-жрица"
-
-duke_theocracy_male_xanmeer_religion_independent:0 "Король-жрец"
-duke_theocracy_female_xanmeer_religion_independent:0 "Королева-жрица"
-
-#Khajiiti Group
-baron_feudal_male_khajiiti:0 "Хатти"
-baron_feudal_female_khajiiti:0 "Хатта"
-barony_feudal_khajiiti:0 "Себти"
-
-count_feudal_male_khajiiti:0 "Т'хар"
-count_feudal_female_khajiiti:0 "Т'хара"
-county_feudal_khajiiti:0 "Шапсу"
-
-duke_feudal_male_khajiiti:0 "Джа'аран"
-duke_feudal_female_khajiiti:0 "Джа'арана"
-duchy_feudal_khajiiti:0 "Сепат"
-
-king_feudal_male_khajiiti:0 "К'хар"
-king_feudal_female_khajiiti:0 "К'хара"
-kingdom_feudal_khajiiti:0 "Та"
-
-emperor_feudal_male_khajiiti:0 "К'хар-ри"
-emperor_feudal_female_khajiiti:0 "К'хара-ри"
-empire_feudal_khajiiti:0 "Ур-та"
-
-prince_feudal_male_khajiiti:0 "Ва-к'хар"
-princess_feudal_female_khajiiti:0 "Ва-к'хара"
-
-imperial_prince_feudal_male_khajiiti:0 "Ва-к'хар-ри"
-imperial_princess_feudal_female_khajiiti:0 "Ва-к'хара-ри"
-
-baron_republic_male_khajiiti:0 "Мейур"
-baron_republic_female_khajiiti:0 "Мейура"
-barony_republic_khajiiti:0 "Ниут"
-
-count_republic_male_khajiiti:0 "Ур-мейур"
-count_republic_female_khajiiti:0 "Ур-мейура"
-county_republic_khajiiti:0 "Ур-ниут"
-
-duchy_republic_khajiiti:0 "Ченхун"
-
-#Lilmothiit Group
-baron_feudal_male_lilmothiit:0 "Проводник"
-baron_feudal_female_lilmothiit:0 "Проводница"
-barony_feudal_lilmothiit:0 "Клан"
-
-count_feudal_male_lilmothiit:0 "Навигатор"
-count_feudal_female_lilmothiit:0 "Навигаторша"
-county_feudal_lilmothiit:0 "Путь"
-
-duke_feudal_male_lilmothiit:0 "Следопыт"
-duke_feudal_female_lilmothiit:0 "Следопытка"
-duchy_feudal_lilmothiit:0 "Стая"
-
-king_feudal_male_lilmothiit:0 "Путник"
-king_feudal_female_lilmothiit:0 "Путница"
-kingdom_feudal_lilmothiit:0 "Стадо"
-
-emperor_feudal_male_lilmothiit:0 "Предвестник"
-emperor_feudal_female_lilmothiit:0 "Предвестница"
-empire_feudal_lilmothiit:0 "Земля"
-
-baron_republic_male_lilmothiit:0 "Ликтор"
-baron_republic_female_lilmothiit:0 "Ликтор"
-barony_republic_lilmothiit:0 "Место"
-
-count_republic_male_lilmothiit:0 "Цензор"
-count_republic_female_lilmothiit:0 "Цензор"
-
-#Ilniviri Group
-baron_feudal_male_ilniviri:0 "Господин"
-baron_feudal_female_ilniviri:0 "Госпожа"
-barony_feudal_ilniviri:0 "Место"
-
-# count_feudal_male_ilniviri:0 "Магистрат"
-# count_feudal_female_ilniviri:0 "Магистрат"
-# county_feudal_ilniviri:0 "Магистратура"
-count_feudal_male_ilniviri:0 "Магнат"
-count_feudal_female_ilniviri:0 "Магнатка"
-county_feudal_ilniviri:0 "Область"
-
-duke_feudal_male_ilniviri:0 "Префект"
-duke_feudal_female_ilniviri:0 "Префект"
-duchy_feudal_ilniviri:0 "Префектура"
-
-king_feudal_male_ilniviri:0 "Проконсул"
-king_feudal_female_ilniviri:0 "Проконсул"
-kingdom_feudal_ilniviri:0 "Проконсулат"
-
-emperor_feudal_male_ilniviri:0 "Потентат"
-emperor_feudal_female_ilniviri:0 "Потентат"
-empire_feudal_ilniviri:0 "Потентат"
-
-duke_feudal_independent_male_ilniviri:0 "Регент" 
-duke_feudal_independent_female_ilniviri:0 "Регентша" 
-duchy_feudal_independent_ilniviri:0 "Регентство"
-king_feudal_independent_male_ilniviri:0 "Консул" 
-king_feudal_independent_female_ilniviri:0 "Консул" 
-kingdom_feudal_independent_ilniviri:0 "Консулат"
-
-prince_male_ilniviri:0 "Молодой господин"
-prince_female_ilniviri:0 "Молодая госпожа"
-prince_male_ilniviri_empire:0 "Проконсул"
-prince_female_ilniviri_empire:0 "Проконсул"
-
-#Dremora Group
-baron_feudal_male_dremora:0 "Кинвал"
-baron_feudal_female_dremora:0 "Кинвал"
-barony_feudal_dremora:0 "Клан"
-
-count_feudal_male_dremora:0 "Кинрив"
-count_feudal_female_dremora:0 "Кинрив"
-county_feudal_dremora:0 "Войско"
-
-duke_feudal_male_dremora:0 "Кинмаршер"
-duke_feudal_female_dremora:0 "Кинмаршер"
-duchy_feudal_dremora:0 "Кинмарш"
-
-king_feudal_male_dremora:0 "Маркиназ"
-king_feudal_female_dremora:0 "Маркиназ"
-kingdom_feudal_dremora:0 "Маркин"
-
-emperor_feudal_male_dremora:0 "Валкиназ"
-emperor_feudal_female_dremora:0 "Валкиназ"
-empire_feudal_dremora:0 "Валкин"
-
-
-####################################################
-
-#Princes (children of Kings/Emperors, sorted by culture)
+ #Aldmeris Group
+ baron_republic_male_aldmeris_group:0 "Рив"
+ baron_republic_female_aldmeris_group:0 "Рив"
+ baron_republic_male_balfieri:0 "Берату"
+ baron_republic_female_balfieri:0 "Берату"
+ count_republic_male_balfieri:0 "Бэйлифф"
+ count_republic_female_balfieri:0 "Бэйлифф"
+ count_republic_male_aldmeris_group:0 "Канонрив"
+ count_republic_female_aldmeris_group:0 "Канонрив"
+ duke_republic_male_aldmeris_group:0 "Верховный рив"
+ duke_republic_female_aldmeris_group:0 "Верховная рив"
+ 
+ baron_feudal_male_aldmeris_group:0 "Церум"
+ baron_feudal_female_aldmeris_group:0 "Церум"
+ barony_feudal_aldmeris_group:0 "Церувал"
+ count_feudal_male_aldmeris_group:0 "Оптимат"
+ count_feudal_female_aldmeris_group:0 "Оптимата"
+ county_feudal_aldmeris_group:0 "Оптиматство"
+ duke_feudal_male_aldmeris_group:0 "Кинлорд"
+ duke_feudal_female_aldmeris_group:0 "Кинледи"
+ duchy_feudal_aldmeris_group:0 "Кинхолд"
+ king_feudal_male_aldmeris_group:0 "Верховный кинлорд"
+ king_feudal_female_aldmeris_group:0 "Верховная кинледи"
+ emperor_feudal_male_aldmeris_group:0 "Аран-Эль"
+ emperor_feudal_female_aldmeris_group:0 "Арана-Эль"
+ empire_feudal_aldmeris_group:0 "Верховное королевство"
+ 
+ king_feudal_male_aldmeris_group_independent:0 "Аран"
+ king_feudal_female_aldmeris_group_independent:0 "Арана"
+ 
+ 
+ #Falmeris Group
+ baron_feudal_male_falmer:0 "Адон"
+ baron_feudal_female_falmer:0 "Адона"
+ barony_feudal_falmer:0 "Адонель"
+ 
+ count_feudal_male_falmer:0 "Арпен"
+ count_feudal_female_falmer:0 "Арпена"
+ county_feudal_falmer:0 "Арпенство"
+ 
+ duke_feudal_male_falmer:0 "Принц"
+ duke_feudal_female_falmer:0 "Принцесса"
+ duchy_feudal_falmer:0 "Княжество"
+ 
+ king_feudal_male_falmer:0 "Верховный принц"
+ king_feudal_female_falmer:0 "Верховная принцесса"
+ kingdom_feudal_falmer:0 "Королевство"
+ 
+ #Betrayed
+ baron_feudal_male_betrayed:0 "Мастер укрытий"
+ baron_feudal_female_betrayed:0 "Мастер укрытий"
+ barony_feudal_betrayed:0 "Укрытие"
+ 
+ count_feudal_male_betrayed:0 "Предводитель"
+ count_feudal_female_betrayed:0 "Предводительница"
+ county_feudal_betrayed:0 "Вождество"
+ 
+ duke_feudal_male_betrayed:0 "Верховный предводитель"
+ duke_feudal_female_betrayed:0 "Верховная предводительница"
+ duchy_feudal_betrayed:0 "Улей"
+ 
+ king_feudal_male_betrayed:0 "Воевода"
+ king_feudal_female_betrayed:0 "Воевода"
+ kingdom_feudal_betrayed:0 "Орда"
+ 
+ emperor_feudal_male_betrayed:0 "Великий вождь"
+ emperor_feudal_female_betrayed:0 "Великая предводительница"
+ empire_feudal_betrayed:0 "Великая орда"
+ 
+ #Independent
+ duke_feudal_male_betrayed_independent:0 "Воевода"
+ duke_feudal_female_betrayed_independent:0 "Воевода"
+ 
+ #Republic
+ 
+ baron_republic_male_betrayed:0 "Смотритель гнездовья"
+ baron_republic_female_betrayed:0 "Смотрительница гнездовья"
+ barony_republic_betrayed:0 "Гнездо"
+ 
+ county_republic_male_betrayed:0 "Смотритель гнездовья"
+ county_republic_female_betrayed:0 "Смотрительница гнездовья"
+ county_republic_betrayed:0 "Гнездо-улей"
+ 
+ 
+ #Dwemeris Group
+ baron_feudal_male_dwemer:0 "Варзак"
+ baron_feudal_female_dwemer:0 "Варзарн"
+ barony_feudal_dwemer:0 "Варунх"
+ 
+ count_feudal_male_dwemer:0 "Бтарак"
+ count_feudal_female_dwemer:0 "Бхарн"
+ county_feudal_dwemer:0 "Бтар"
+ 
+ duke_feudal_male_dwemer:0 "Акжар"
+ duke_feudal_female_dwemer:0 "Арнжар"
+ duchy_feudal_dwemer:0 "Жардум"
+ 
+ baron_republic_male_dwemer:0 "Абакх"
+ baron_republic_female_dwemer:0 "Абакх"
+ barony_republic_dwemer:0 "Зел"
+ 
+ count_republic_male_dwemer:0 "Абакх"
+ count_republic_female_dwemer:0 "Абакх"
+ county_republic_dwemer:0 "Зел"
+ 
+ 
+ #Chimeris Group
+ baron_feudal_male_dunmeris_group:0 "Сера"
+ baron_feudal_female_dunmeris_group:0 "Сера"
+ count_feudal_male_dunmeris_group:0 "Мутсера"
+ count_feudal_female_dunmeris_group:0 "Мутсера"
+ 
+ baron_republic_male_dunmeris_group:0 "Гетман"
+ baron_republic_female_dunmeris_group:0 "Гетманша"
+ count_republic_male_dunmeris_group:0 "Гетман"
+ count_republic_female_dunmeris_group:0 "Гетманша"
+ duke_republic_male_dunmeris_group:0 "Советник"
+ duke_republic_female_dunmeris_group:0 "Советник"
+ 
+ count_republic_male_chimeris_group:0 "Гетман"
+ count_republic_female_chimeris_group:0 "Гетманша"
+ duke_republic_male_chimeris_group:0 "Илькан"
+ duke_republic_female_chimeris_group:0 "Илькатун"
+ 
+ #Breton Group
+ 
+ count_feudal_male_balfieri:0 "[CHARACTER.Custom('DirenniTitle')]"
+ count_feudal_female_balfieri:0 "[CHARACTER.Custom('DirenniTitle')]"
+ county_feudal_balfieri:0 "[CHARACTER.Custom('DirenniRealm')]"
+ 
+ title_count_feudal_male_balfieri:0 "Смотритель"
+ title_count_feudal_female_balfieri:0 "Смотрительница"
+ title_county_feudal_balfieri:0 "Кастеллянство"
+ 
+ count_feudal_male_earl:0 "Эрл"
+ count_feudal_female_earl:0 "Эрл"
+ county_feudal_earldom:0 "Эрлство"
+ count_feudal_male_baron:0 "Барон"
+ count_feudal_female_baron:0 "Баронесса"
+ county_feudal_barony:0 "Баронство"
+ count_feudal_male_count:0 "Граф"
+ count_feudal_female_countess:0 "Графиня"
+ county_feudal_county:0 "Графство"
+ duke_feudal_male_marchis:0 "Маркиз"
+ duke_feudal_female_marchis:0 "Маркиза"
+ duchy_feudal_march:0 "Марка"
+ count_feudal_independent_male:0 "Князь"
+ count_feudal_independent_female:0 "Княгиня"
+ county_feudal_independent:0 "Княжество"
+ 
+ duke_child_male:0 "Принц"
+ duke_child_female:0 "Принцесса"
+ 
+ #Nordic Group
+ count_feudal_male_nordic_group:0 "Землевладелец"
+ count_feudal_female_nordic_group:0 "Землевладелица"
+ county_feudal_nordic_group:0 "Вотчина"
+ duchy_feudal_male_nordic_group:0 "[CHARACTER.Custom('NordicClanHead')]"
+ duchy_feudal_female_nordic_group:0 "[CHARACTER.Custom('NordicClanHead')]"
+ duchy_feudal_nordic_group:0 "Стоянка клана"
+ king_feudal_male_nordic_group:0 "[CHARACTER.Custom('NordicJarl')]"
+ king_feudal_female_nordic_group:0 "[CHARACTER.Custom('NordicJarl')]"
+ kingdom_feudal_nordic_group:0 "Владение"
+ emperor_feudal_male_nordic_group:0 "Верховный король"
+ emperor_feudal_female_nordic_group:0 "Верховная королева"
+ empire_feudal_nordic_group:0 "Верховное королевство"
+ 
+ TitleClanHead:0 "Глава клана"
+ TitleJarl:0 "Ярл"
+ 
+ count_republic_male_nordic_group:0 "Старейшина"
+ count_republic_female_nordic_group:0 "Старейшина"
+ county_republic_nordic_group:0 "Стоянка"
+ 
+ duchy_republic_male_nordic_group:0 "Землевладелец"
+ duchy_republic_female_nordic_group:0 "Землевладелица"
+ duchy_republic_nordic_group:0 "Владение"
+ 
+ barony_republic_male_nordic_group:0 "[CHARACTER.Custom('NordicMayor')]"
+ barony_republic_female_nordic_group:0 "[CHARACTER.Custom('NordicMayor')]"
+ 
+ Steadholder_male:0 "Старейшина"
+ Steadholder_female:0 "Старейшина"
+ 
+ #Cyro-Nords
+ duke_feudal_male_cyro_nord_independent:1 "[CHARACTER.Custom('NordicClanHead')]"
+ duke_feudal_female_cyro_nord_independent:1 "[CHARACTER.Custom('NordicClanHead')]"
+ duchy_feudal_cyro_nord_independent:1 "Владение"
+ 
+ #Cyrodiilic Group
+ king_feudal_male_cyrodiil:0 "[CHARACTER.Custom('KingFeudalMaleCyrodiil')]"
+ king_feudal_female_cyrodiil:0 "[CHARACTER.Custom('KingFeudalFemaleCyrodiil')]"
+ kingdom_feudal_cyrodiil:0 "[CHARACTER.Custom('KingdomFeudalCyrodiil')]"
+ 
+ warlord_male_cyrodiil:0 "[CHARACTER.Custom('WarlordMaleCyrodiil')]"
+ warlord_female_cyrodiil:0 "[CHARACTER.Custom('WarlordFemaleCyrodiil')]"
+ 
+ imperial_count:0 "Имперский граф"
+ imperial_countess:0 "Имперская графиня"
+ imperial_county:0 "Имперское графство"
+ 
+ warlord:0 "Военачальник"
+ warlady:0 "Военачальница"
+ 
+ duke_feudal_male_cyrodiilic_group:0 "Виконт"
+ duke_feudal_female_cyrodiilic_group:0 "Виконтесса"
+ duchy_feudal_cyrodiilic_group:0 "Виконтство"
+ 
+ count_feudal_male_cyrodiilic_group:0 "Барон"
+ count_feudal_female_cyrodiilic_group:0 "Баронесса"
+ county_feudal_cyrodiilic_group:0 "Баронство"
+ 
+ duchy_feudal_Cyrodiilic_independent:0 "Герцогство"
+ 
+ #Heartlander
+ king_feudal_male_heartlands:0 "Лорд-протектор"
+ king_feudal_female_heartlands:0 "Леди-протектор"
+ kingdom_feudal_heartlands:0 "Протекторат"
+ 
+ #Colovian 
+ duke_feudal_male_colovian_independent:1 "Герцог"
+ duke_feudal_female_colovian_independent:1 "Герцогиня"
+ 
+ #Nibenese
+ duke_feudal_male_nibenese_independent:1 "Владыка"
+ duke_feudal_female_nibenese_independent:1 "Владычица"
+ king_feudal_male_nibenese_independent_cyrodiil:0 "Владыка"
+ king_feudal_female_nibenese_independent_cyrodiil:0 "Владычица"
+ 
+ #Orsimer Group
+ baron_feudal_male_orsimer:0 "Вождь"
+ baron_feudal_female_orsimer:0 "Предводительница"
+ barony_feudal_orsimer:1 "Крепость"
+ count_feudal_male_orsimer:0 "Вождь"
+ count_feudal_female_orsimer:0 "Предводительница"
+ county_feudal_orsimer:0 "Вождество"
+ duke_feudal_male_orsimer:0 "Верховный вождь"
+ duke_feudal_female_orsimer:0 "Верховная предводительница"
+ duchy_feudal_orsimer:0 "Клан"
+ king_feudal_male_orsimer:0 "Король"
+ king_feudal_female_orsimer:0 "Королева"
+ 
+ king_huntshusband:0 "Охотник-муж"
+ king_huntswife:0 "Охотница-жена"
+ duke_huntshusband:0 "Охотник-муж"
+ duke_huntswife:0 "Охотница-жена"
+ count_huntshusband:0 "Охотник-муж"
+ count_huntswife:0 "Охотница-жена"
+ baron_huntshusband:0 "Охотник-муж"
+ baron_huntswife:0 "Охотница-жена"
+ 
+ #Goblin-ken Group
+ king_feudal_male_goblinken:0 "Вождь-Король"
+ king_feudal_female_goblinken:0 "Предводительница-Королева"
+ 
+ #Reachfolk
+ barony_feudal_reachfolk:0 "Дун"
+ duke_feudal_independent_male_reachfolk:0 "Вождь вождей"
+ duke_feudal_independent_female_reachfolk:0 "Вождь вождей"
+ king_feudal_male_reachfolk:0 "Ард"
+ king_feudal_female_reachfolk:0 "Ард"
+ emperor_feudal_male_reachfolk:1 "Таг Ард"
+ emperor_feudal_female_reachfolk:1 "Таг Ард"
+ 
+ #Yokudan Group
+ baron_republic_male_yokudan_group:0 "Магистрат"
+ baron_republic_female_yokudan_group:0 "Магистрат"
+ count_republic_male_yokudan_group:0 "Лорд-магистрат"
+ count_republic_female_yokudan_group:0 "Леди-магистрат"
+ 
+ count_feudal_male_yokudan_group:0 "Вельможа"
+ count_feudal_female_yokudan_group:0 "Вельможная дама"
+ county_feudal_yokudan_group:0 "Вельможество"
+ duke_feudal_male_yokudan_group:0 "Сановник"
+ duke_feudal_female_yokudan_group:0 "Сановница"
+ duchy_feudal_yokudan_group:0 "Сановничество"
+ 
+ #Alik'r
+ king_feudal_male_alikr:0 "Султан"
+ king_feudal_female_alikr:0 "Султана"
+ kingdom_feudal_alikr:0 "Султанат"
+ 
+ #Yokudan
+ # count_feudal_male_yokudan:0 "Йокеда"
+ # count_feudal_female_yokudan:0 "Йокеда"
+ # county_feudal_yokudan:0 "Домен"
+ king_feudal_male_yokudan:0 "Йокеда"
+ king_feudal_female_yokudan:0 "Йокеда"
+ emperor_feudal_male_yokudan:0 "Старейший Йокеда"
+ emperor_feudal_female_yokudan:0 "Старейшая Йокеда"
+ empire_feudal_yokudan:0 "Империя"
+ 
+ #Chimeris Group + Ashlander
+ khan_male:0 "[CHARACTER.Custom('khan_male')]"
+ khan_female:0 "[CHARACTER.Custom('khan_female')]"
+ great_khan_male:0 "[CHARACTER.Custom('great_khan_male')]"
+ great_khan_female:0 "[CHARACTER.Custom('great_khan_female')]"
+ khanate_title:0 "[CHARACTER.Custom('khanate_title')]"
+ ashkhan:0 "Пепельный хан"
+ snowkhan:0 "Снежный хан"
+ marshkhan:0 "Болотный хан"
+ great_ashkhan:0 "Великий пепельный хан"
+ great_snowkhan:0 "Великий снежный хан"
+ great_marshkhan:0 "Великий болотный хан"
+ #terrain_khan:0 "[CHARACTER.GetCapitalLocation.GetTerrain.GetNameNoTooltip]khan"
+ #great_terrain_khan:0 "Great [CHARACTER.GetCapitalLocation.GetTerrain.GetNameNoTooltip]khan"
+ baron_tribal_male_chimeris_group:0 "Гетман"
+ baron_tribal_female_chimeris_group:0 "Гетманша"
+ count_tribal_male_chimeris_group:0 "Гулахан"
+ count_tribal_female_chimeris_group:0 "Гулахатун"
+ duke_tribal_male_chimeris_group:0 "Когохан"
+ duke_tribal_female_chimeris_group:0 "Когохатун"
+ king_tribal_male_chimeris_group:0 "Гаххан"
+ king_tribal_female_chimeris_group:0 "Гаххатун"
+ emperor_tribal_male_chimeris_group:0 "Хан"
+ emperor_tribal_female_chimeris_group:0 "Хатун"
+ wise-woman:0 "Мудрая женщина"
+ farseer:0 "Провидец"
+ 
+ count_tribal_ashlander_vassal:0 "Гулханат"
+ duchy_tribal_ashlander_vassal:0 "Когоханат"
+ king_tribal_ashlander_vassal:0 "Гахханат"
+ 
+ count_tribal_ashlander_independent:0 "Племя"
+ duchy_tribal_ashlander_independent:0 "Племя"
+ king_tribal_ashlander_independent:0 "Племя"
+ 
+ emperor_tribal_ashlander_independent:0 "Племя"
+ 
+ ashkhanate:0 "Пепельный ханат"
+ snowkhanate:0 "Снежный ханат"
+ marshkhanate:0 "Болотный ханат"
+ terrain_khanate:0 "[CHARACTER.GetCapitalLocation.GetTerrain.GetNameNoTooltip]khanate"
+ 
+ #Bosmeris Group
+ baron_feudal_male_bosmeris_group:0 "Хранитель клана"
+ baron_feudal_female_bosmeris_group:0 "Хранительница клана"
+ barony_feudal_bosmeris_group:0 "Клан"
+ count_feudal_male_bosmeris_group:0 "Страж"
+ count_feudal_female_bosmeris_group:0 "Стражница"
+ county_feudal_bosmeris_group:0 "Стража"
+ duke_feudal_male_bosmeris_group:0 "Древождь"
+ duke_feudal_female_bosmeris_group:0 "Древождь"
+ duchy_feudal_bosmeris_group:0 "Древождество"
+ duke_feudal_male_bosmeris_etarani:0 "Лесной лорд"
+ duke_feudal_female_bosmeris_etarani:0 "Лесная леди"
+ duchy_feudal_bosmeris_etarani:0 "Княжество"
+ emperor_feudal_male_bosmeris_group:0 "Король-олень"
+ emperor_feudal_female_bosmeris_group:0 "Королева-лань"
+ 
+ duke_green_lady_male:0 "Зелёный лорд"
+ duke_green_lady_female:0 "Зелёная леди"
+ 
+ #Akaviri Group
+ emperor_feudal_male_akaviri_group:1 "Потентат"
+ emperor_feudal_female_akaviri_group:1 "Потентат"
+ 
+ #Alyeid Group
+ baron_feudal_male_ayleid:0 "Адон"
+ baron_feudal_female_ayleid:0 "Адона"
+ barony_feudal_ayleid:0 "Адонсель"
+ 
+ count_feudal_male_ayleid:0 "Арпен"
+ count_feudal_female_ayleid:0 "Арпена"
+ county_feudal_ayleid:0 "Арпенсель"
+ 
+ duke_feudal_male_ayleid:0 "Маларпен"
+ duke_feudal_female_ayleid:0 "Маларпена"
+ duchy_feudal_ayleid:0 "Маларпенсель"
+ 
+ king_feudal_male_ayleid:0 "Аран"
+ king_feudal_female_ayleid:0 "Арана"
+ kingdom_feudal_ayleid:0 "Арансель"
+ 
+ emperor_feudal_male_ayleid:0 "Маларан"
+ emperor_feudal_female_ayleid:0 "Маларана"
+ empire_feudal_ayleid:0 "Маларансель"
+ 
+ count_feudal_independent_male_ayleid:0 "Аран" 
+ count_feudal_independent_female_ayleid:0 "Арана" 
+ county_feudal_independent_ayleid:0 "Арпенсель"
+ duke_feudal_independent_male_ayleid:0 "Аран" 
+ duke_feudal_independent_female_ayleid:0 "Арана" 
+ duchy_feudal_independent_ayleid:0 "Арпенсель"
+ 
+ prince_ayleid_county:0 "Принц" 
+ princess_ayleid_county:0 "Принцесса" 
+ 
+ prince_ayleid_duchy:0 "Принц" 
+ princess_ayleid_duchy:0 "Принцесса" 
+ 
+ emperor_feudal_male_saliache:0 "Маларан"
+ emperor_feudal_female_saliache:0 "Маларана"
+ empire_feudal_saliache:0 "Маларансель"
+ 
+ duke_feudal_male_white_gold:0 "Маларпен"
+ duke_feudal_female_white_gold:0 "Маларпена"
+ duchy_feudal_white_gold:0 "Маларансель"
+ 
+ duke_feudal_male_white_gold_independent:0 "Аран"
+ duke_feudal_female_white_gold_independent:0 "Арана"
+ duchy_feudal_white_gold_independent:0 "Арансель"
+ 
+ #Yespest Group 
+ baron_feudal_male_yespest:0 "Адону"
+ baron_feudal_female_yespest:0 "Адоне"
+ barony_feudal_yespest:0 "Адонпест"
+ 
+ count_feudal_male_yespest:0 "Арпену"
+ count_feudal_female_yespest:0 "Арпене"
+ county_feudal_yespest:0 "Арпенпест"
+ 
+ duke_feudal_male_yespest:0 "Маларпену"
+ duke_feudal_female_yespest:0 "Маларпене"
+ duchy_feudal_yespest:0 "Маларпенест"
+ 
+ #Nedic Group 
+ baron_feudal_male_nedic:0 "Вождь"
+ baron_feudal_female_nedic:0 "Предводительница"
+ barony_feudal_nedic:0 "Зал"
+ 
+ count_feudal_male_nedic:0 "Вождь"
+ count_feudal_female_nedic:0 "Предводительница"
+ county_feudal_nedic:0 "Племя"
+ 
+ duke_feudal_male_nedic:0 "Верховный вождь"
+ duke_feudal_female_nedic:0 "Верховная предводительница"
+ duchy_feudal_nedic:0 "Верховное вождество"
+ 
+ #Argonian Group
+ baron_feudal_male_argonian:0 "Рил-ка"
+ baron_feudal_female_argonian:0 "Рил-на"
+ barony_feudal_argonian:0 "Рил-Уксит"
+ 
+ count_feudal_male_argonian:0 "Каал"
+ count_feudal_female_argonian:0 "Насса"
+ county_feudal_argonian:0 "Лиил"
+ 
+ duke_feudal_male_argonian:0 "Радж-каал"
+ duke_feudal_female_argonian:0 "Радж-насса"
+ duchy_feudal_argonian:0 "Аталиил"
+ 
+ king_feudal_male_argonian:0 "Король"
+ king_feudal_female_argonian:0 "Королева"
+ kingdom_feudal_argonian:0 "Королевство"
+ 
+ emperor_feudal_male_argonian:0 "Верховный король"
+ emperor_feudal_female_argonian:0 "Верховная королева"
+ empire_feudal_argonian:0 "Верховное королевство"
+ 
+ baron_republic_male_argonian:0 "Нахиш"
+ baron_republic_female_argonian:0 "Нахиш"
+ barony_republic_argonian:0 "Уксит"
+ 
+ count_republic_male_argonian:0 "Нахиш"
+ count_republic_female_argonian:0 "Нахиш"
+ county_republic_argonian:0 "Тзел"
+ 
+ duke_republic_male_argonian:0 "Радж-Нахиш"
+ duke_republic_female_argonian:0 "Радж-Нахиш"
+ duchy_republic_argonian:0 "Ататзел"
+ 
+ baron_theocracy_male_hist_religion:0 "Древохранитель"
+ baron_theocracy_female_hist_religion:0 "Древохранительница"
+ barony_theocracy_hist_religion:0 "Священное дерево"
+ 
+ count_theocracy_male_hist_religion:0 "Оберегающий-деревья"
+ count_theocracy_female_hist_religion:0 "Оберегающая-деревья"
+ county_theocracy_hist_religion:0 "Священная роща"
+ 
+ duke_theocracy_male_hist_religion:0 "Хранящий-деревья"
+ duke_theocracy_female_hist_religion:0 "Хранящая-деревья"
+ duchy_theocracy_hist_religion:0 "Священный храм"
+ 
+ baron_theocracy_male_xanmeer_religion:0 "Вох-вастей"
+ baron_theocracy_female_xanmeer_religion:0 "Вох-вастей"
+ barony_theocracy_xanmeer_religion:0 "Священный занмир"
+ 
+ count_theocracy_male_xanmeer_religion:0 "Вох-вастей"
+ count_theocracy_female_xanmeer_religion:0 "Вох-вастей"
+ county_theocracy_xanmeer_religion:0 "Священный занмир"
+ 
+ duke_theocracy_male_xanmeer_religion:0 "Вох-вастей"
+ duke_theocracy_female_xanmeer_religion:0 "Вох-вастей"
+ duchy_theocracy_xanmeer_religion:0 "Священный занмир"
+ 
+ count_theocracy_male_xanmeer_religion_independent:0 "Король-жрец"
+ count_theocracy_female_xanmeer_religion_independent:0 "Королева-жрица"
+ 
+ duke_theocracy_male_xanmeer_religion_independent:0 "Король-жрец"
+ duke_theocracy_female_xanmeer_religion_independent:0 "Королева-жрица"
+ 
+ #Khajiiti Group
+ baron_feudal_male_khajiiti:0 "Хатти"
+ baron_feudal_female_khajiiti:0 "Хатта"
+ barony_feudal_khajiiti:0 "Себти"
+ 
+ count_feudal_male_khajiiti:0 "Т'хар"
+ count_feudal_female_khajiiti:0 "Т'хара"
+ county_feudal_khajiiti:0 "Шапсу"
+ 
+ duke_feudal_male_khajiiti:0 "Джа'аран"
+ duke_feudal_female_khajiiti:0 "Джа'арана"
+ duchy_feudal_khajiiti:0 "Сепат"
+ 
+ king_feudal_male_khajiiti:0 "К'хар"
+ king_feudal_female_khajiiti:0 "К'хара"
+ kingdom_feudal_khajiiti:0 "Та"
+ 
+ emperor_feudal_male_khajiiti:0 "К'хар-ри"
+ emperor_feudal_female_khajiiti:0 "К'хара-ри"
+ empire_feudal_khajiiti:0 "Ур-та"
+ 
+ prince_feudal_male_khajiiti:0 "Ва-к'хар"
+ princess_feudal_female_khajiiti:0 "Ва-к'хара"
+ 
+ imperial_prince_feudal_male_khajiiti:0 "Ва-к'хар-ри"
+ imperial_princess_feudal_female_khajiiti:0 "Ва-к'хара-ри"
+ 
+ baron_republic_male_khajiiti:0 "Мейур"
+ baron_republic_female_khajiiti:0 "Мейура"
+ barony_republic_khajiiti:0 "Ниут"
+ 
+ count_republic_male_khajiiti:0 "Ур-мейур"
+ count_republic_female_khajiiti:0 "Ур-мейура"
+ county_republic_khajiiti:0 "Ур-ниут"
+ 
+ duchy_republic_khajiiti:0 "Ченхун"
+ 
+ #Lilmothiit Group
+ baron_feudal_male_lilmothiit:0 "Проводник"
+ baron_feudal_female_lilmothiit:0 "Проводница"
+ barony_feudal_lilmothiit:0 "Клан"
+ 
+ count_feudal_male_lilmothiit:0 "Навигатор"
+ count_feudal_female_lilmothiit:0 "Навигаторша"
+ county_feudal_lilmothiit:0 "Путь"
+ 
+ duke_feudal_male_lilmothiit:0 "Следопыт"
+ duke_feudal_female_lilmothiit:0 "Следопытка"
+ duchy_feudal_lilmothiit:0 "Стая"
+ 
+ king_feudal_male_lilmothiit:0 "Путник"
+ king_feudal_female_lilmothiit:0 "Путница"
+ kingdom_feudal_lilmothiit:0 "Стадо"
+ 
+ emperor_feudal_male_lilmothiit:0 "Предвестник"
+ emperor_feudal_female_lilmothiit:0 "Предвестница"
+ empire_feudal_lilmothiit:0 "Земля"
+ 
+ baron_republic_male_lilmothiit:0 "Ликтор"
+ baron_republic_female_lilmothiit:0 "Ликтор"
+ barony_republic_lilmothiit:0 "Место"
+ 
+ count_republic_male_lilmothiit:0 "Цензор"
+ count_republic_female_lilmothiit:0 "Цензор"
+ 
+ #Ilniviri Group
+ baron_feudal_male_ilniviri:0 "Господин"
+ baron_feudal_female_ilniviri:0 "Госпожа"
+ barony_feudal_ilniviri:0 "Место"
+ 
+ # count_feudal_male_ilniviri:0 "Магистрат"
+ # count_feudal_female_ilniviri:0 "Магистрат"
+ # county_feudal_ilniviri:0 "Магистратура"
+ count_feudal_male_ilniviri:0 "Магнат"
+ count_feudal_female_ilniviri:0 "Магнатка"
+ county_feudal_ilniviri:0 "Область"
+ 
+ duke_feudal_male_ilniviri:0 "Префект"
+ duke_feudal_female_ilniviri:0 "Префект"
+ duchy_feudal_ilniviri:0 "Префектура"
+ 
+ king_feudal_male_ilniviri:0 "Проконсул"
+ king_feudal_female_ilniviri:0 "Проконсул"
+ kingdom_feudal_ilniviri:0 "Проконсулат"
+ 
+ emperor_feudal_male_ilniviri:0 "Потентат"
+ emperor_feudal_female_ilniviri:0 "Потентат"
+ empire_feudal_ilniviri:0 "Потентат"
+ 
+ duke_feudal_independent_male_ilniviri:0 "Регент" 
+ duke_feudal_independent_female_ilniviri:0 "Регентша" 
+ duchy_feudal_independent_ilniviri:0 "Регентство"
+ king_feudal_independent_male_ilniviri:0 "Консул" 
+ king_feudal_independent_female_ilniviri:0 "Консул" 
+ kingdom_feudal_independent_ilniviri:0 "Консулат"
+ 
+ prince_male_ilniviri:0 "Молодой господин"
+ prince_female_ilniviri:0 "Молодая госпожа"
+ prince_male_ilniviri_empire:0 "Проконсул"
+ prince_female_ilniviri_empire:0 "Проконсул"
+ 
+ #Dremora Group
+ baron_feudal_male_dremora:0 "Кинвал"
+ baron_feudal_female_dremora:0 "Кинвал"
+ barony_feudal_dremora:0 "Клан"
+ 
+ count_feudal_male_dremora:0 "Кинрив"
+ count_feudal_female_dremora:0 "Кинрив"
+ county_feudal_dremora:0 "Войско"
+ 
+ duke_feudal_male_dremora:0 "Кинмаршер"
+ duke_feudal_female_dremora:0 "Кинмаршер"
+ duchy_feudal_dremora:0 "Кинмарш"
+ 
+ king_feudal_male_dremora:0 "Маркиназ"
+ king_feudal_female_dremora:0 "Маркиназ"
+ kingdom_feudal_dremora:0 "Маркин"
+ 
+ emperor_feudal_male_dremora:0 "Валкиназ"
+ emperor_feudal_female_dremora:0 "Валкиназ"
+ empire_feudal_dremora:0 "Валкин"
+ 
+ # Imgan Group
+ baron_tribal_male_imga:0 "Барон"
+ baron_tribal_female_imga:0 "Баронесса"
+
+ count_tribal_male_imga:0 "Граф"
+ count_tribal_female_imga:0 "Графиня"
+
+ duke_tribal_male_imga:0 "Герцог"
+ duke_tribal_female_imga:0 "Герцогиня"
+
+ king_tribal_male_imga:0 "Король"
+ king_tribal_female_imga:0 "Королева"
+
+ emperor_tribal_male_imga:0 "Верховный король"
+ emperor_tribal_female_imga:0 "Верховная королева"
+
+ #Worm Cult Group
+ baron_feudal_male_worm_cult:0 "Мастер"
+ baron_feudal_female_worm_cult:0 "Госпожа"
+ barony_feudal_worm_cult:0 "Место"
+
+ count_feudal_male_worm_cult:0 "[CHARACTER.Custom('WormCountTitle')]"
+ count_feudal_female_worm_cult:0 "[CHARACTER.Custom('WormCountTitle')]"
+ county_feudal_worm_cult:0 "Домен"
+
+ duke_feudal_male_worm_cult:0 "[CHARACTER.Custom('WormDukeTitle')]"
+ duke_feudal_female_worm_cult:0 "[CHARACTER.Custom('WormDukeTitle')]"
+ duchy_feudal_worm_cult:0 "Архидомен"
+
+ king_feudal_male_worm_cult:0 "[CHARACTER.Custom('WormKingTitle')]"
+ king_feudal_female_worm_cult:0 "[CHARACTER.Custom('WormKingTitle')]"
+ kingdom_feudal_worm_cult:0 "Вознёсшийся домен"
+
+ emperor_feudal_male_worm_cult:0 "[CHARACTER.Custom('WormEmpireTitle')]"
+ emperor_feudal_female_worm_cult:0 "[CHARACTER.Custom('WormEmpireTitle')]"
+ empire_feudal_independent_worm_cult:0 "Чёрный домен"
+
+ duke_feudal_independent_male_worm_cult:0 "[CHARACTER.Custom('WormKingLichTitle')]" 
+ duke_feudal_independent_female_worm_cult:0 "[CHARACTER.Custom('WormKingLichTitle')]" 
+ duchy_feudal_independent_worm_cult:0 "Чёрный домен"
+
+ king_feudal_independent_male_worm_cult:0 "[CHARACTER.Custom('WormKingLichTitle')]" 
+ king_feudal_independent_female_worm_cult:0 "[CHARACTER.Custom('WormKingLichTitle')]" 
+ kingdom_feudal_independent_worm_cult:0 "Чёрный домен"
+
+ #Ttitle
+ title_count_feudal_male_worm_cult:0 "Анахорит"
+ title_count_feudal_female_worm_cult:0 "Анахорит"
+ title_county_feudal_worm_cult:0 "Домен"
+
+ title_count_feudal_male_worm_cult_lich:0 "Лорд-Лич"
+ title_count_feudal_female_worm_cult_lich:0 "Леди-Лич"
+
+ title_duke_feudal_male_worm_cult:0 "Архианахорит"
+ title_duke_feudal_female_worm_cult:0 "Архианахорит"
+ title_duchy_feudal_worm_cult:0 "Архидомен"
+
+ title_duke_feudal_male_worm_cult_lich:0 "Архилич"
+ title_duke_feudal_female_worm_cult_lich:0 "Архилич"
+
+ title_king_feudal_male_worm_cult:0 "Вознёсшийся Анахорит"
+ title_king_feudal_female_worm_cult:0 "Вознёсшийся Анахорит"
+ title_kingdom_feudal_worm_cult:0 "Вознёсшийся домен"
+
+ title_king_feudal_male_worm_cult_lich:0 "Вознёсшийся Лич"
+ title_king_feudal_female_worm_cult_lich:0 "Вознёсшийся Лич"
+
+ title_emperor_feudal_male_worm_cult:0 "Вестник Червя"
+ title_emperor_feudal_female_worm_cult:0 "Вестник Червя"
+ title_empire_feudal_worm_cult:0 "Чёрный домен"
+
+ title_king_feudal_independent_male_worm_cult:0 "Вестник Червя" 
+ title_king_feudal_independent_female_worm_cult:0 "Вестник Червя" 
+ title_kingdom_feudal_independent_worm_cult:0 "Чёрный домен"
+
+ title_king_feudal_independent_male_worm_cult_lich:0 "Король-Лич" 
+ title_king_feudal_independent_female_worm_cult_lich:0 "Королева-Лич" 
+ title_kingdom_feudal_independent_worm_cul_licht:0 "Чёрный домен"
+
+ title_mannimarco:0 "Лорд" 
+
+ #Heir
+ prince_male_worm_cult:0 "Мастер"
+ prince_female_worm_cult:0 "Госпожа"
+ prince_male_worm_cult_empire:0 "Мастер"
+ prince_female_worm_cult_empire:0 "Госпожа"
+ 
+ ####################################################
+ 
+ #Princes (children of Kings/Emperors, sorted by culture)
 
  #Fallback
  title_prince:0 "Принц"
@@ -1202,12 +1283,15 @@ empire_feudal_dremora:0 "Валкин"
  prince_empire:0 "Принц"
  princess_empire:0 "Принцесса"
 
-####################################################
-#Special titles
+ ####################################################
+ #Special titles
 
  realm_priest_male:0 "[CHARACTER.GetCouncilTitle]"
  realm_priest_female:0 "[CHARACTER.GetCouncilTitle]"
  head_of_faith_male:0 "[CHARACTER.GetFaith.ReligiousHeadName|U]"
  head_of_faith_female:0 "[CHARACTER.GetFaith.ReligiousHeadName|U]"
- 
+
+ CHARACTER_SERA:0 "сера"
+ CHARACTER_SERJO:0 "серджо"
+
  ERROR_ERROR:0 "Ошибка"
