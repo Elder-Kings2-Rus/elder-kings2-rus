@@ -1,0 +1,21 @@
+﻿l_russian:
+activity_feast_province_desc_castle_wayrest:1 "#P +++ $building_type_castle_wayrest_01$#!"
+activity_feast_province_desc_castle_daggerfall:1 "#P +++ $building_type_castle_daggerfall_01$#!"
+activity_feast_province_desc_senchal_palace:1 "#P +++ $building_type_senchal_palace_01$#!"
+activity_feast_province_desc_alinor_palace:1 "#P +++ $building_type_alinor_palace_01$#!"
+activity_feast_province_desc_rimmen_palace:1 "#P +++ $building_type_rimmen_palace_01$#!"
+activity_feast_province_desc_blue_palace:1 "#P +++ $building_type_blue_palace_01$#!"
+activity_feast_province_desc_jorrvaskr:1 "#P +++ $building_type_jorrvaskr_01$#!"
+activity_feast_province_desc_thorn_palace:0 "#P +++ $building_type_thorn_palace_01$#!"
+activity_feast_province_desc_potentate_retreat:0 "#P +++ $building_type_potentate_retreat_01$#!"
+
+feast_cost_discount_castle_wayrest:0 "В локации есть $building_type_castle_wayrest_01$"
+feast_cost_discount_castle_daggerfall:0 "В локации есть $building_type_castle_daggerfall_01$"
+feast_cost_discount_senchal_palace:0 "В локации есть $building_type_senchal_palace_01$"
+feast_cost_discount_alinor_palace:0 "В локации есть $building_type_alinor_palace_01$"
+feast_cost_discount_rimmen_palace:0 "В локации есть $building_type_rimmen_palace_01$"
+feast_cost_discount_blue_palace:0 "В локации есть $building_type_blue_palace_01$"
+feast_cost_discount_jorrvaskr:0 "В локации есть $building_type_jorrvaskr_01$"
+feast_cost_discount_thorn_palace:0 "В локации есть $building_type_thorn_palace_01$"
+feast_cost_discount_potentate_retreat:0 "В локации есть $building_type_potentate_retreat_01$"
+
