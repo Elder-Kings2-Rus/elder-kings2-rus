@@ -1,0 +1,13 @@
+﻿l_russian:
+ activity_tournament_province_castle_wayrest_01_desc:2 "#P + $building_type_catle_wayrest_01$#!"
+ activity_tournament_province_corinthe_archive_01_desc:2 "#P + $building_type_corinthe_archive_01$#!"
+ tournament_activity_cost_discount_arena_desc:0 "Место имеет $building_type_arena_01$"
+ tournament_activity_cost_discount_imperial_city_arena_01_desc:0 "Место имеет $building_type_imperial_city_arena_01$"
+ activity_tournament_province_arena_01_desc:9 "#P + $building_type_arena_01$#!"
+ activity_tournament_province_imperial_city_arena_01_desc:9 "#P + $building_type_imperial_city_arena_01$#!"
+
+ tournament_cost_medium_effect_desc:0 "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'tournament_activity_cost_medium_discount_effect_desc', 'blank_line' )]"
+ tournament_activity_cost_medium_discount_effect_desc:0 "$unlocks_building_desc$$tournament_cost_discount_effect_desc$в этом [Concept( 'holding', 'владении' )|E]: [EmptyScope.ScriptValue('tournament_activity_cost_medium_discount_value')|P0%]"
+ tournament_events.6051.magic:0 "Я [Select_CString(ROOT.Char.IsFemale, 'хотела', 'хотел' )] наложить заклинание поглощения магии на [sabotage_target.GetFirstName] через стену [Select_CString(sabotage_target.IsFemale, 'её', 'его' )] палатки, пока [Select_CString(sabotage_target.IsFemale, 'она спала', 'он спал' )] спали, чтобы [Select_CString(sabotage_target.IsFemale, 'она спала', 'он спал' )] не могли произносить свои самые мощные заклинания во время [activity.GetCurrentPhase.GetPhase.GetName|l]."
+ tournament_events.6052.arcane_clash:1 "[sabotage_actor.GetSheHe|U] [Select_CString(sabotage_actor.IsFemale, 'пыталась', 'пытался' )] наложить заклинание поглощения магии на [sabotage_target.GetFirstName] через стену [Select_CString(sabotage_target.IsFemale, 'её', 'его' )] палатки, пока [Select_CString(sabotage_target.IsFemale, 'она спала', 'он спал' )] спали перед #EMP [activity.GetCurrentPhase.GetPhase.GetName]#!."
+ tournament_events.6053.arcane_clash:1 "[sabotage_actor.GetTitledFirstName|U] [Select_CString(sabotage_actor.IsFemale, 'пыталась', 'пытался' )] наложить заклинание поглощения магии на [sabotage_target.GetSheHe] через стену [Select_CString(sabotage_target.IsFemale, 'её', 'его' )] палатки, пока [Select_CString(sabotage_target.IsFemale, 'она спала', 'он спал' )] спали перед #EMP [activity.GetCurrentPhase.GetPhase.GetName]#!."
