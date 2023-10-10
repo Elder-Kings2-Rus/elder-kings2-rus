@@ -20,7 +20,7 @@
  challenge_to_single_combat_interaction.on_decline_low_learning.tt:0 "Так как [learning|El] у [actor.GetShortUINamePossessive] слишком низкое #N (below 10)#! [recipient.GetShortUIName] может отказаться от дуэли без штрафа!"
  ek_perk_interaction.0100.t:0 "#L [recipient.GetCulture.GetCollectiveNoun]ие#! дуэльные традиции"
  ek_perk_interaction.0100.desc.intro:0 "#italic Перед началом поединка обе стороны должны произнести полное имя своего противника, обращаясь, где это уместно, к матрилинейным, патрилинейным и клановым почестям. Дуэлянты, запнувшиеся или неправильно произнесшие имя своего противника, должны остановиться и произнести его полностью ещё два раза.#!"
- ek_perk_interaction.0100.desc.epic_fail: "\n\nВы были немного уверены в имени и фамилии персонажа [recipient.GetFirstName], но все остальное запомнить было невозможно. Пока вы отчаянно пытались вспомнить хоть одно их матрилинейное или патрилинейное имя, [recipient.GetFirstName] разразился хохотом и наотрез отказался участвовать в дуэли, поскольку вы явно не смогли соблюсти это очень простое правило."
+ ek_perk_interaction.0100.desc.epic_fail:0 "\n\nВы были немного уверены в имени и фамилии персонажа [recipient.GetFirstName], но все остальное запомнить было невозможно. Пока вы отчаянно пытались вспомнить хоть одно их матрилинейное или патрилинейное имя, [recipient.GetFirstName] разразился хохотом и наотрез отказался участвовать в дуэли, поскольку вы явно не смогли соблюсти это очень простое правило."
  ek_perk_interaction.0100.desc.big_fail:0 "\n\nК сожалению, вы сумели вспомнить лишь горсть имен, и после нескольких минут ожидания [recipient.GetFirstName] решил, что дуэль не может состояться, пока вы не вспомните их полные имена."
  ek_perk_interaction.0100.desc.smol_fail:0 "\n\nВы, должно быть, потратили несколько минут, перечисляя столько имен персонажа [recipient.GetFirstNamePossessive], сколько смогли запомнить, но память подвела вас на последних нескольких. Когда [recipient.GetFirstName] бросает на вас одновременно разочарованный и облегченный взгляд, дуэль приходится отменить."
  ek_perk_interaction.0100.desc.end:0 "\n\nПохоже, что все ваши претензии против персонажа [recipient.GetFirstName] не будут удовлетворены сегодня..."
@@ -30,7 +30,7 @@
  duel_for_claim_default_interaction_desc:0 "Вызовите правителя на [single_combat_duel|El], чтобы получить [title|El], на который вы имеете [claim|El]"
  duel_for_claim_default_interaction.non_lethal.tt:0 "Несмертельная [single_combat_fight|El] начнется немедленно"
  duel_for_claim_default_interaction.actor_victory.tt:0 "Если [actor.GetFirstNameOrMeNoTooltip] победит, [actor.GetFirstNameOrMeNoTooltip] получит [target.GetName]. Если титулом является [duchy|El] или выше, [actor.GetFirstNameOrMeNoTooltip] также получит каждое [county|El], которыми непосредственно владеет [recipient.GetFirstNameOrMeNoTooltip] в его пределах"
- duel_for_claim_default_interaction.actor_defeat.tt:0 "Если [actor.GetFirstNameOrMeNoTooltip] проиграет, [actor.GetFirstNameOrMeNoTooltip] потеряет свои претензии на [target.GetName], а также все права на титулы, которыми в настоящее время владеет [recipient.GetFirstNameOrMeNoTooltip]"
+ duel_for_claim_default_interaction.actor_defeat.tt:0 "Если [actor.GetFirstNameOrMeNoTooltip] проиграет, [actor.GetFirstNameOrMeNoTooltip] потеряет [CharYourHerHis(actor)] претензии на [target.GetName], а также все права на титулы, которыми в настоящее время владеет [recipient.GetFirstNameOrMeNoTooltip]"
  duel_for_claim_default_interaction.actor_victory_game_over.tt:0 "#N Если [recipient.GetFirstNamePossessiveOrMy|U] победит, это приведет к завершению игры#!"
  duel_for_claim_default_interaction.actor_default_victory.tt:0 "[actor.GetFirstNameOrMeNoTooltip|U] сохранит свои претензии на [target.GetName]"
  culture_parameter_unlock_duel_for_title:0 "Разблокирует взаимодействие #V $duel_for_claim_default_interaction$#!, которое позволяет персонажам начинать [single_combat_duel|El] для получения [Concept( 'claim', 'претензий' )|E]"
@@ -92,10 +92,10 @@
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_4:0 "#N Не#! будет учиться искусству Магии.\nТак как у культуры ребенка нет [Concept( 'innovation', 'инновации' )|E] #V $innovation_magical_studies$#! или #V $innovation_schools_of_magic$#!, и нет [Concept( 'tradition', 'традиции' )|E] #V $tradition_sorcerer_kings_name$#!, и его [dynasty|El] не имеет [Concept( 'dynasty_perk', 'наследие' )|E] #V $magicka_legacy_3_name$#!, обучение искусству Магии #N невозможно#!."
 
  consume_interaction:0 "Поглотить"
- consume_interaction_desc:0 "Поглотите персонажа [recipient.GetShortUINameNoTooltip] в попытке усилить [Concept( 'tsaescence', 'цаэсценцию' )|E]. Однако в процессе вы можете изменить свои [Concept( 'traits', 'свойства' )|E] личности и [skills|El]."
+ consume_interaction_desc:0 "Поглотите персонажа [recipient.GetShortUINameNoTooltip] в попытке усилить [Concept( 'tsaescence', 'цаэсценцию' )|E]. Однако в процессе вы можете изменить свои [Concept( 'personality_traits', 'свойства личности' )|E] и [skills|El]."
 
  thralldom_interaction:0 "Превратить в трэлла"
- thralldom_interaction_desc:0 "Вы убьёте персонажа [recipient.GetShortUINameNoTooltip], чтобы превратить его труп в подчиняющегося вам раба."
+ thralldom_interaction_desc:0 "Вы убьёте персонажа [recipient.GetShortUINameNoTooltip], чтобы превратить [recipient.GetHerHis] труп в подчиняющегося вам раба."
  get_undead_thrall:0 "Вы превратите труп персонажа [recipient.GetShortUINameNoTooltip] в бездумного, но преданного раба."
  
  skull_corruption_interaction:0 "Использовать Череп Порчи"
@@ -135,3 +135,24 @@
  send_knight_to_wander_return_title:0 "Скиталец возвращается"
  send_knight_to_wander_return_desc:0 "[recipient.GetFullName] [Select_CString(recipient.IsFemale, 'вернулась', 'вернулся' )] к вашему двору после странствия для увеличения своих [Concept( 'martial', 'военных' )|E] способностей."
  innovation_knightly_orders_wander:0 "Молодых придворных той же культуры [Concept( 'culture', 'культуры' )|E] со [Concept( 'trait', 'свойством' )|E] Ученика Рыцарства можно отправить в странствие, они временно станут [Concept( 'wanderers', 'скитальцами' )|E] в поисках славы и улучшения своих навыков."
+ 
+ ### EK secrets
+ CHARACTER_IS_A_VAMPIRE:0 "[CHARACTER.GetShortUIName|U] is a [GetTrait('vampire_character').GetName( CHARACTER.Self )]"
+ IS_A_VAMPIRE:0 "Is a [GetTrait('vampire_character').GetName( GetNullCharacter )]"
+ IS_NOT_A_VAMPIRE:0 "Is #bold not#! a [GetTrait('vampire_character').GetName( CHARACTER.Self )]"
+
+ CHARACTER_IS_A_LYCAN:0 "[CHARACTER.GetShortUIName|U] is a [GetTrait('lycan_character').GetName( CHARACTER.Self )]"
+ IS_A_LYCAN:0 "Is a [GetTrait('lycan_character').GetName( GetNullCharacter )]"
+ IS_NOT_A_LYCAN:0 "Is #bold not#! a [GetTrait('lycan_character').GetName( CHARACTER.Self )]"
+
+ CHARACTER_IS_A_NECROMANCER:0 "[CHARACTER.GetShortUIName|U] is a [GetTrait('necromancer').GetName( CHARACTER.Self )]"
+ IS_A_NECROMANCER:0 "Is a [GetTrait('necromancer').GetName( GetNullCharacter )]"
+ IS_NOT_A_NECROMANCER:0 "Is #bold not#! a [GetTrait('necromancer').GetName( CHARACTER.Self )]"
+
+ I_CANNOT_BLACKMAIL_ANOTHER_VAMPIRE:1 "You cannot blackmail another [GetTrait('vampire_character').GetName( CHARACTER.Self )] for being a Vampire"
+ I_CANNOT_BLACKMAIL_ANOTHER_LYCAN:1 "You cannot blackmail another [GetTrait('lycan_character').GetName( CHARACTER.Self )] for being a Lycanthrope"
+ I_CANNOT_BLACKMAIL_ANOTHER_NECROMANCER:1 "You cannot blackmail another [GetTrait('necromancer').GetName( CHARACTER.Self )] for being a Necromancer"
+
+ BLACKMAIL_NOTIFICATION_SECRET_VAMPIRE:0 "\nI have evidence of your thirst for blood!"
+ BLACKMAIL_NOTIFICATION_SECRET_LYCAN:0 "\nI have evidence of you true beastly form!"
+ BLACKMAIL_NOTIFICATION_SECRET_NECROMANCER:0 "\nI have evidence of your defilement of life and death!"

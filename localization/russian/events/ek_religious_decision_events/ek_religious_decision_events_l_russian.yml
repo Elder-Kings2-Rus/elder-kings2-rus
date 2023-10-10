@@ -35,7 +35,6 @@
  ek_religious_interactions.0201.tsae3.desc:0 "" #PLACEHOLDER
  ek_religious_interactions.0201.tsae4.desc:0 "" #PLACEHOLDER
  ek_religious_interactions.0201.stew.desc:0 "" #PLACEHOLDER
- ek_religious_interactions.0201.intrigue.desc:0 "" #PLACEHOLDER
  ek_religious_interactions.0201.prowess.desc:0 "" #PLACEHOLDER
  ek_religious_interactions.0201.arcana.desc:0 "" #PLACEHOLDER
  ek_religious_interactions.0201.brave.desc:0 "Моя кровь охлаждается и замедляется до комфортного темпа. [victim_char.GetTitledFirstName] [Select_CString(skill_char.IsFemale, 'была храброй', 'был храбрым' )] до конца, и [victim_char.GetHerHis] храбрость отказалась умереть вместе со своим владельцем. Я чувствую, как та же смелость течет по моим венам и проникает в моё сердце."
@@ -143,6 +142,21 @@
  ek_religious_decision.0301.a:0 "Да, [summoned_dragon.GetNameNoTooltip|U]."
  ek_religious_decision.0301.a.tt:0 "Дракон [summoned_dragon.GetNameNoTooltip|U] присоединится к вашей войне."
  
+ 
+ ### Summon Thurvokun
+ ek_religious_decision.0302.t:0 "Thurvokun Stirs"
+ ek_religious_decision.0302.desc:0 "Numerous treasures lie buried within the ruins of Fang Lair, and the moment has arrived to seize the most significant of them all: the remains of Thurvokun himself, the formidable dragon that once dwelled in this location until his life was extinguished by a violent death, like he inflicted upon countless others. However, his bones never came to rest completely. They still thirst for blood and vengeance, and I shall empower them to satisfy this desire.\n\nA dragon remains a formidable entity, even in death, but not formidable enough to withstand my necromantic abilities. With such a minion under my control, I will undoubtedly become unstoppable."
+ ek_religious_decision.0302.a:0 "Rise and do my biding!"
+ ek_religious_decision.0302.a.tt:0 "Thurvokun will raise from the dead and join your forces."
+ thurvokun_event_troops:0 "Thurvokun"
+
+ ### Summon the Hollows
+ ek_religious_decision.0303.t:0 "Summon the Hollow"
+ ek_religious_decision.0303.desc:0 "The time has come to once again summon the aid of the Hollow. These formidable warriors, composed of wandering stone and intricately intertwined with the Wildering, are prepared to confront any adversary that dares to challenge the Wilderkings dominion over this realm.\n\nOnce called forth, they will cease their efforts only when every threat has been dispelled, or when they have been vanquished in the pursuit. Fortunately for us, not even death can halt these steadfast protectors of the forest. Should a fresh threat emerge, the Hollow will stand ready to reborn from the very depths of the earth once more."
+ ek_religious_decision.0303.a:0 "Rise and protect the Wilderking!"
+ ek_religious_decision.0303.a.tt:0 "A regiment of the Hollow will join your forces."
+ hollows_event_troops:0 "The Hollow"
+
  ### Burying an ancestor in Cath Bedraud
  ek_religious_decision.0502.t:0 "Похороны в соборе Бидро"
  ek_religious_decision.0502.desc:0 "Как это делалось на протяжении веков, я [Select_CString(ROOT.GetCharacter.IsFemale, 'принесла', 'принес' )] свой [ROOT.Char.Custom2('RelationToMe', ROOT.Var('ancestor_to_bury').Char)] чтобы похоронить в великом кладбище собора Бидро, рядом с королевскими особами и героями провинции.\n\nВ окружении величайших королей и королев, среди спасителей Хай Рока и среди тех, в кого больше всего верит наш народ, [ROOT.Var('ancestor_to_bury').Char.GetHerHis] тело должно покоиться, пока [ROOT.Var('ancestor_to_bury').Char.GetHerHis] душа соединяется с [ROOT.Char.GetFaith.PositiveAfterLife]..." #нужно доработать

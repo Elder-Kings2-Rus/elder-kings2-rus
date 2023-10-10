@@ -37,8 +37,8 @@
  imp_char_caro_805_desc:0 "$bm_warlordrising_lovierus_desc$"
  
  #Kahada
- imp_char_pelletine_002:0 ""
- imp_char_pelletine_002_desc:0 "$bm_warlordrising_mharra_desc$"
+ imp_char_pellitine_002:0 ""
+ imp_char_pellitine_002_desc:0 "$bm_warlordrising_mharra_desc$"
  
  ###Crown in the Sand
  #K'Avar
@@ -193,7 +193,7 @@
 
  #Indoril Nerevar
  imp_char_mora_109:0 ""
- imp_char_mora_109_desc:0 "Индорил Неревар — один из величайших героев кимеров — был Наставником и Первым советником, что объединил дома данмеров против двемеров и нордов. Он погиб вскоре после битвы у Красной Горы. Причина смерти точно неизвестна: одни винят раны, вторые — предательство."
+ imp_char_mora_109_desc:0 "Индорил Неревар — один из величайших героев кимеров — был Наставником и Первым советником, что объединил Великие Дома против двемеров и нордов. Он погиб вскоре после битвы у Красной Горы. Причина смерти точно неизвестна: одни винят раны, вторые — предательство."
 
  #Almalexia
  imp_char_indoril_100:0 ""
@@ -209,7 +209,7 @@
  
  #Dumac Dwarf-Orc
  imp_char_duamaka_100:0 ""
- imp_char_duamaka_100_desc:0 "Думак Гном-Орк, также известный как Думак Король Гномов, Король Красной горы, был последним королём двемеров и некогда близким другом Индорила Неревара, с которым он заключил союз и поддерживал хорошие отношения. Думак даже присутствовал на свадьбе Неревара. Однако их дружба и мир между их народами не продлились долго, и после начала Войны Первого Совета он был убит в битве у Красной горы. Незадолго до исчезновения его народа."
+ imp_char_duamaka_100_desc:0 "Dumac $nick_dwarf_orc_desc$ —also known as `Dumalacath` or `the Dwarf-King`—was the King of the Dwemer. Dumac and Nerevar were once inseparable, the former even presenting enchanted twin blades to the latter's wedding. Their relationship would not survive the fallout of Kagrenac's machinations. Kept in the dark, Dumac staunchly dug in his heels and went to war for his people: thus began the War of the First Council. He was eventually slain during the Battle of Red Mountain, moments before his people vanished."
 
  #Mane Rid-Thar-ri'Datta
  imp_char_mane_001:0 ""

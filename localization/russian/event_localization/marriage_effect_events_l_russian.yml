@@ -51,11 +51,11 @@
  marriage_effect.2001.d.tt:0 "Семья [Select_CString(ROOT.Char.IsFemale, 'вашего супруга', 'вашей супруги' )] не оценит этого."
 
 
- marriage_effect.2002.t:0 "Свадебный пир"
- marriage_effect.2002.desc:0 ""...Да благословит Вас [ROOT.Char.GetFaith.FertilityGodName], ныне я объявляю [ROOT.GetCharacter.GetFirstNameNoTooltip] и [new_spouse.GetFirstNameNoTooltip] мужем и женой."\n\nТолпа зааплодировала и выстроилась в очередь, чтобы поздравить меня и [new_spouse.GetFirstNameNoTooltip] с этим знаменательным событием. После чего все начали собираться и строить планы веселья, ибо в честь свадьбы был устроен большой пир, как это принято."
- marriage_effect.2002.nord.desc:0 ""...Да благословит Вас [ROOT.Char.GetFaith.FertilityGodName], ныне я объявляю [ROOT.GetCharacter.GetFirstNameNoTooltip] и [new_spouse.GetFirstNameNoTooltip] мужем и женой." \n\nТолпа зааплодировала и выстроилась в очередь, чтобы поздравить меня и [new_spouse.GetFirstNameNoTooltip] с этим знаменательным событием. После чего все начали собираться и строить планы веселья, ибо в честь свадьбы и во имя новых стрел в колене был устроен большой пир, как это принято."
- marriage_effect.2002.a:0 "К пиру!"
- marriage_effect.2002.b:0 "Нет, пожалуйста, это вовсе не обязательно."
+ marriage_effect.2002.t:0 "Wedding Inspiration"
+ marriage_effect.2002.desc:0 ""...Да благословит Вас [ROOT.Char.GetFaith.FertilityGodName], ныне я объявляю [ROOT.GetCharacter.GetFirstNameNoTooltip] и [new_spouse.GetFirstNameNoTooltip] мужем и женой."\n\nТолпа зааплодировала и выстроилась в очередь, чтобы поздравить меня и [new_spouse.GetFirstNameNoTooltip] с этим знаменательным событием. While we are receving such congratulations, [inspired_courtier.GetName] approaches us, saying that our ceremony has inspired [inspired_courtier.GetHerHim]! We ponder what that could mean as [inspired_courtier.GetSheHe] asks to be considered for sponsorship."
+ marriage_effect.2002.nord.desc:0 ""...Да благословит Вас [ROOT.Char.GetFaith.FertilityGodName], ныне я объявляю [ROOT.GetCharacter.GetFirstNameNoTooltip] и [new_spouse.GetFirstNameNoTooltip] мужем и женой." \n\nТолпа зааплодировала и выстроилась в очередь, чтобы поздравить меня и [new_spouse.GetFirstNameNoTooltip] с этим знаменательным событием. While we are receving such congratulations, [inspired_courtier.GetName] approaches us, saying that our newly placed arrows to the knee have inspired [inspired_courtier.GetHerHim]! We ponder what that could mean as [inspired_courtier.GetSheHe] asks to be considered for sponsorship."
+ marriage_effect.2002.a:0 "How lovely!"
+ marriage_effect.2002.b:0 "Stick to your duties."
 
  marriage_effect.2003.t:0 "В поисках духов"
  marriage_effect.2003.opening:0 "Пламя жарко пылает, пока готовится ритуал. Собралось множество людей: друзья, семья и, конечно, [new_spouse.GetFirstNameNoTooltip] и я [Select_CString(ROOT.Char.IsFemale, 'сама', 'сам' )]. Шаман бросает необходимые для ритуала компоненты в огонь и призывает Охотника, Великого Духа, который является Владыкой Царства Плоти, дабы он вынес свой приговор супружеской паре...\n\n"
