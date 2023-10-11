@@ -903,7 +903,7 @@ ek_yearly_events.0162.b:0 "[steward.GetFirstName], у меня есть для �
 ek_yearly_events.162.b.success:0 "[steward.GetFirstName] убеждает правителя [competing_ruler.GetFirstName]"
 tooltip.ek_yearly_events.0162.b.success:0 "Экспортируйте!"
 ek_yearly_events.0162.b.failure:0 "[steward.GetFirstName] терпит неудачу в попытке убедить правителя [competing_ruler.GetFirstName]"
-tooltip.ek_yearly_events.0161.b.failure:0 "[steward.GetFirstName], вот же [Select_CString(steward.IsFemale, 'дура', 'дурак' )]!"
+tooltip.ek_yearly_events.0162.b.failure:0 "[steward.GetFirstName], вот же [Select_CString(steward.IsFemale, 'дура', 'дурак' )]!"
 ek_yearly_events.0162.c:0 "Нам лучше сосредоточиться на собственном народе."
 
 ek_yearly_events.0163.t:0 "Переполох в провинции [province.GetNameNoTooltip]"

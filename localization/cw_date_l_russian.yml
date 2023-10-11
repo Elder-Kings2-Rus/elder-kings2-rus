@@ -15,7 +15,7 @@
  CW_DATE_Feb:0 "[SelectLocalization(EqualTo_string(GetPlayer.GetCulture.GetLanguage.GetNameNoTooltip, Localize('language_jel_name')), 'EK_DATE_Feb_ARG', 'EK_DATE_Feb')]"
  CW_DATE_Mar:0 "[SelectLocalization(EqualTo_string(GetPlayer.GetCulture.GetLanguage.GetNameNoTooltip, Localize('language_jel_name')), 'EK_DATE_Mar_ARG', 'EK_DATE_Mar')]"
  CW_DATE_Apr:0 "[SelectLocalization(EqualTo_string(GetPlayer.GetCulture.GetLanguage.GetNameNoTooltip, Localize('language_jel_name')), 'EK_DATE_Apr_ARG', 'EK_DATE_Apr')]"
- CW_DATE_May:0 "[SelectLocalization(EqualTo_string(GetPlayer.GetCulture.GetLanguage.GetNameNoTooltip, Localize('language_jel_name')), 'EK_DATE_May_ARG', 'EK_DATE_May_short')]"
+ #CW_DATE_May:0 "[SelectLocalization(EqualTo_string(GetPlayer.GetCulture.GetLanguage.GetNameNoTooltip, Localize('language_jel_name')), 'EK_DATE_May_ARG', 'EK_DATE_May_short')]" # bit awkward, but pds didn't consider that some languages might have a longer name for May
  CW_DATE_Jun:0 "[SelectLocalization(EqualTo_string(GetPlayer.GetCulture.GetLanguage.GetNameNoTooltip, Localize('language_jel_name')), 'EK_DATE_Jun_ARG', 'EK_DATE_Jun')]"
  CW_DATE_Jul:0 "[SelectLocalization(EqualTo_string(GetPlayer.GetCulture.GetLanguage.GetNameNoTooltip, Localize('language_jel_name')), 'EK_DATE_Jul_ARG', 'EK_DATE_Jul')]"
  CW_DATE_Aug:0 "[SelectLocalization(EqualTo_string(GetPlayer.GetCulture.GetLanguage.GetNameNoTooltip, Localize('language_jel_name')), 'EK_DATE_Aug_ARG', 'EK_DATE_Aug')]"
@@ -77,7 +77,7 @@
  EK_DATE_Feb_ARG:0 "Зич (2)"
  EK_DATE_Mar_ARG:0 "Сисей (3)"
  EK_DATE_Apr_ARG:0 "Хист-дик (4)"
- EK_DATE_May_ARG:0 "Хист-дука (5)"
+ #EK_DATE_May_ARG:0 "Хист-дука (5)"# bit awkward, but pds didn't consider that some languages might have a longer name for May
  EK_DATE_Jun_ARG:0 "Хист-цоко (6)"
  EK_DATE_Jul_ARG:0 "Тхтитил-га (7)"
  EK_DATE_Aug_ARG:0 "Тхтитил (8)"

@@ -5,21 +5,21 @@
  ek_tenets.0002.titleDef:0 "Порча уродства"
  ek_tenets.0002.titleImpPa:0 "Нечистая родословная"
  ek_tenets.0002.titleBoth:0 "Проклятое дитя"
- ek_tenets.0002.descDef:0 "Похоже что на [impure_character.GetFirstName] лежит проклятие невыразимого уродства. Старейшины дали ясно понять, любой несовершенный ребенок не может претендовать на то, чтобы быть законным потомком Богов. Если мы хотим сохранить наше Божественное происхождение чистым, [impure_character.GetSheHe] должен быть изгнан и объявлен нечистым".
- ek_tenets.0002.descImpPa:0 "Порча нечестивости проникает глубоко. К несчастью для [impure_character.GetFirstName], [impure_character.GetHerHis] родители запятнали [impure_character.GetHerHis] кровь, из-за собственного нечестивого происхождения. Старейшины объявили [impure_character.GetHerHim] нечестивым ребенком".
- ek_tenets.0002.descBoth:0 "Похоже, что [impure_character.GetFirstName] теперь суждено стать проклятым ребенком. Говорят, что рожденные от нечестивых родителей испорчены невыразимыми уродствами. Даже сами старейшины едва могли взглянуть на [impure_character.GetHerHis] лицо, прежде чем объявить [impure_character.GetHerHim] нечестивым ребенком".
+ ek_tenets.0002.descDef:0 "Похоже что на [impure_character.GetFirstName] лежит проклятие невыразимого уродства. Старейшины дали ясно понять, любой несовершенный ребенок не может претендовать на то, чтобы быть законным потомком Богов. Если мы хотим сохранить наше Божественное происхождение чистым, [impure_character.GetSheHe] должен быть изгнан и объявлен нечистым."
+ ek_tenets.0002.descImpPa:0 "Порча нечестивости проникает глубоко. К несчастью для [impure_character.GetFirstName], [impure_character.GetHerHis] родители запятнали [impure_character.GetHerHis] кровь, из-за собственного нечестивого происхождения. Старейшины объявили [impure_character.GetHerHim] нечестивым ребенком."
+ ek_tenets.0002.descBoth:0 "Похоже, что [impure_character.GetFirstName] теперь суждено стать проклятым ребенком. Говорят, что рожденные от нечестивых родителей испорчены невыразимыми уродствами. Даже сами старейшины едва могли взглянуть на [impure_character.GetHerHis] лицо, прежде чем объявить [impure_character.GetHerHim] нечестивым ребенком."
  ek_tenets.0002.optA:0 "Прости, дитя моё..."
  ###
  ek_tenets.0010.title:0 "Порча нечестивости"
- ek_tenets.0010.desc:0 "Принципы нашей веры ясны. Чтобы поддерживать прямую связь с Божественным, мы должны следить за тем, чтобы оставаться чистыми и не загрязнять себя младшими родами. Однако веления сердца не так ясны... [impure_source.GetFirstName], в чьей компании провел много ночей, признается Старейшинами прокаженным, и теперь они утверждают, что и я был прокажен [impure_source.GetHerHis] прикосновением!\n Однако они готовы простить мой проступок, если я поклянусь никогда больше не видеть [impure_source.GetFirstName]".
- ek_tenets.0010.optA:0 "Я люблю [impure_source.GetFirstName], и ничто этого не изменит".
+ ek_tenets.0010.desc:0 "Принципы нашей веры ясны. Чтобы поддерживать прямую связь с Божественным, мы должны следить за тем, чтобы оставаться чистыми и не загрязнять себя младшими родами. Однако веления сердца не так ясны... [impure_source.GetFirstName], в чьей компании провел много ночей, признается Старейшинами прокаженным, и теперь они утверждают, что и я был прокажен [impure_source.GetHerHis] прикосновением!\n Однако они готовы простить мой проступок, если я поклянусь никогда больше не видеть [impure_source.GetFirstName]."
+ ek_tenets.0010.optA:0 "Я люблю [impure_source.GetFirstName], и ничто этого не изменит."
  ek_tenets.0010.optB:0 "Извините, [impure_source.GetFirstName]..."
  ek_tenets.0011.title:0 "Порча нечестивости"
  ek_tenets.0011.desc:0 "[impure_target.GetFirstName] недавно столкнулся со Старейшинами веры [impure_target.GetHerHis], по-видимому, из-за отношений [impure_target.GetHerHis] со мной! Они угрожали [impure_target.GetHerHim], чтобы сделать [impure_target.GetHerHim] изгоем в [impure_target.GetHerHis] собственной вере, но [impure_target.GetSheHe] стоял [impure_target.GetHerHis] на своем, заявляя, что [impure_target.GetHerHis] любовь ко мне стоила того, чтобы меня считали предателем."
  ek_tenets.0011.optA:0 "Мы продолжим любить друг друга, несмотря ни на что."
  ek_tenets.0012.title:0 "Порча нечестивости"
  ek_tenets.0012.desc:0 "Вчера я получил письмо от [impure_target.GetFirstName]. В нем [impure_target.GetHerHis] слова твердят, что мы больше никогда не увидимся, так как [impure_target.GetSheHe] опасается, что я [impure_target.GetSheHe] будет расцениваться как нечестивый и испорченный среди [impure_target.GetHerHis] сверстников. У меня нет другого выбора, кроме как согласиться, поскольку Старейшины [impure_target.GetHerHis] веры никогда не допустят, чтобы такие отношения были разрешены в соответствии с верой [impure_target.GetFaith.GetAdjective]."
- ek_tenets.0012.optA:0 "Да будет так. Прощай, [impure_target.GetFirstName]".
+ ek_tenets.0012.optA:0 "Да будет так. Прощай, [impure_target.GetFirstName]."
  
  ###
  ek_tenets.0051.t:0 "[Select_CString(ROOT.Char.IsFemale, 'Новая святая', 'Новый святой' )]"

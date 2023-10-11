@@ -116,7 +116,7 @@
  stress_threshold.3421.skooma_drinker.gain:0 "Принесите мою трубку скумы и оставьте меня в покое."
  stress_threshold.3421.skooma_drinker.effect:0 "$stress_threshold.3421.skooma_drinker.gain$"
  
- tragic_skooma_modifier:0 "Трагический скумаголик" #В оригинале было: Tragic Drunk - но перевод "трагический алкоголик" не подходит под контекст
+ tragic_skooma_modifier:0 "Трагический скумаголик"
  tragic_skooma_modifier_desc:0 "Этот персонаж больше всего на свете боится возвращения трезвости."
- sugar_tooth_modifier:0 "Неконтролируемое пристрастие к сахару" #Не знаю как перевести игру слов. Оригинал: Uncontrollable Sugar Tooth
+ sugar_tooth_modifier:0 "Неконтролируемое пристрастие к сахару"
  sugar_tooth_modifier_desc:0 "Этот персонаж подавляет свои воспоминания бутылками скумы."

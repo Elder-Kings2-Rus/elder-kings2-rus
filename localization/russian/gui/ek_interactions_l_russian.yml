@@ -10,7 +10,7 @@
  MARRIAGE_MONSTER_REASON:0 "Не выйдет за [Concept( 'monster', 'монстра' )|E]: $VALUE|+0$"
  MARRIAGE_FORMER_PARIAH_REASON:0 "Не выйдет за бывшего [Concept( 'pariah', 'отверженного' )|E]: $VALUE|+0$"
  #RELIGION
- ASK_FOR_CONVERSION_CROWN_FOREBEAR:0 "[recipient.GetCulture.GetName|E] не в восторге от ваших #L [actor.GetCulture.GetCollectiveNounNoTooltip|El]их#! путей: $VALUE|+0$".
+ ASK_FOR_CONVERSION_CROWN_FOREBEAR:0 "[recipient.GetCulture.GetName|E] не в восторге от ваших #L [actor.GetCulture.GetCollectiveNounNoTooltip|El]их#! путей: $VALUE|+0$."
  #MISC
  summoned_undead:0 "Призванная нежить"
  
