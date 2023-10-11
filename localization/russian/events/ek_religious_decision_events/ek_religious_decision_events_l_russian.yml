@@ -144,18 +144,18 @@
  
  
  ### Summon Thurvokun
- ek_religious_decision.0302.t:0 "Thurvokun Stirs"
- ek_religious_decision.0302.desc:0 "Numerous treasures lie buried within the ruins of Fang Lair, and the moment has arrived to seize the most significant of them all: the remains of Thurvokun himself, the formidable dragon that once dwelled in this location until his life was extinguished by a violent death, like he inflicted upon countless others. However, his bones never came to rest completely. They still thirst for blood and vengeance, and I shall empower them to satisfy this desire.\n\nA dragon remains a formidable entity, even in death, but not formidable enough to withstand my necromantic abilities. With such a minion under my control, I will undoubtedly become unstoppable."
- ek_religious_decision.0302.a:0 "Rise and do my biding!"
- ek_religious_decision.0302.a.tt:0 "Thurvokun will raise from the dead and join your forces."
- thurvokun_event_troops:0 "Thurvokun"
+ ek_religious_decision.0302.t:0 "Пробуждение Турвокуна"
+ ek_religious_decision.0302.desc:0 "Под развалинами Логова Клыка покоятся многочисленные сокровища, и вот настал момент завладеть самым ценным из них: останками самого Турвокуна, грозного дракона, который когда-то обитал в этих местах. Он отнял бесчисленное множество жизней, но и сам умер не своей смертью. Однако кости дракона так и не обрели полного покоя. Они всё ещё жаждут крови и мести, и я дам им возможность удовлетворить это желание.\n\nДракон остаётся грозным существом даже после смерти. Но он недостаточно силён, чтобы противостоять моим некромантическим способностям. С таким слугой меня, несомненно, никто не сумеет остановить."
+ ek_religious_decision.0302.a:0 "Встань и выполни мой приказ!"
+ ek_religious_decision.0302.a.tt:0 "Турвокун восстанет из мёртвых и присоединится к вашим войскам."
+ thurvokun_event_troops:0 "Турвокун"
 
  ### Summon the Hollows
- ek_religious_decision.0303.t:0 "Summon the Hollow"
- ek_religious_decision.0303.desc:0 "The time has come to once again summon the aid of the Hollow. These formidable warriors, composed of wandering stone and intricately intertwined with the Wildering, are prepared to confront any adversary that dares to challenge the Wilderkings dominion over this realm.\n\nOnce called forth, they will cease their efforts only when every threat has been dispelled, or when they have been vanquished in the pursuit. Fortunately for us, not even death can halt these steadfast protectors of the forest. Should a fresh threat emerge, the Hollow will stand ready to reborn from the very depths of the earth once more."
- ek_religious_decision.0303.a:0 "Rise and protect the Wilderking!"
- ek_religious_decision.0303.a.tt:0 "A regiment of the Hollow will join your forces."
- hollows_event_troops:0 "The Hollow"
+ ek_religious_decision.0303.t:0 "Призвать Полых"
+ ek_religious_decision.0303.desc:0 "Пришло время вновь призвать на помощь Полых. Эти грозные воины, состоящие из блуждающего камня и тесно связанные с Дикими, готовы противостоять любому противнику, который осмелится бросить вызов господству Дикого Короля над этим царством.\n\nКогда мы призываем Полых на помощь, они храбро сражаются пока не одолеют врага. Или пока враг не одолеет их. К счастью для нас, даже смерть не может остановить этих стойких защитников леса. Если возникнет новая угроза, Полые будет готова вновь выйти из недр земли."
+ ek_religious_decision.0303.a:0 "Встаньте и защитите Дикого Короля!"
+ ek_religious_decision.0303.a.tt:0 "К вашим войскам присоединится отряд Полых."
+ hollows_event_troops:0 "Полые"
 
  ### Burying an ancestor in Cath Bedraud
  ek_religious_decision.0502.t:0 "Похороны в соборе Бидро"
