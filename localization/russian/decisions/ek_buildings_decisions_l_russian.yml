@@ -1,0 +1,13 @@
+﻿l_english:
+
+ # Summon Thurvokun
+ summon_thurvokun_decision:0 "Воскрешение Турвокуна"
+ summon_thurvokun_decision_desc:0 "Настало время заполучить самое большое сокровище, спрятанное в глубинах Логова Клыка: кости некогда могущественного дракона Турвокуна.\n\nМогущественный некромаг может подчинить их себе, если обладает достаточной магией."
+ summon_thurvokun_decision_tooltip:0 "Дракон зашевелился, пусть восстанет под моим командованием."
+ summon_thurvokun_decision_confirm:0 "Подготовить ритуал!"
+
+ # Summon hollow
+ summon_hollow_decision:0 "Призвать Дебри"
+ summon_hollow_decision_desc:0 "Война началась, и настало время воззвать к трону Лесных королей. Благодаря его силе Дебри готовы сражаться под нашим командованием."
+ summon_hollow_decision_tooltip:0 "Положиться на помощь Дебрей в текущей войне."
+ summon_hollow_decision_confirm:0 "За Лесного короля!"
