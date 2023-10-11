@@ -1,7 +1,7 @@
 ﻿l_russian:
  individual_kingdom_de_jure_cb:0 "Отдельное [de_jure|El] [kingdom|El]"
- DEJURE_CB_KINGDOM_NAME:2 "Захватить [TITLE.GetBaseName] #weak ([de_jure|El])#!".
- DEJURE_CB_KINGDOM_NAME_GENERIC:1 "Захватить [de_jure|El] [kingdom|El]".
+ DEJURE_CB_KINGDOM_NAME:2 "Захватить [TITLE.GetBaseName] #weak ([de_jure|El])#!"
+ DEJURE_CB_KINGDOM_NAME_GENERIC:1 "Захватить [de_jure|El] [kingdom|El]"
  CONQUEST_KINGDOM_CB_NAME:0 "Завоевать [kingdom|El]"
  CONQUEST_EMPIRE_CB_NAME:1 "Завоевать [Concept( 'empire', 'империю' )|E]"
 
@@ -11,7 +11,7 @@
  CLEANSE_ABOMINATIONS_NAME:1 "Очищение от скверны в [TITLE.GetBaseName]"
  CLEANSE_ABOMINATIONS_DUCHY_NAME:1 "[cleanse_abomination|E]"
  CB_REDUCED_CLEANSE_ABOMINATIONS_COST:0 "[faith|E] — Снижение стоимости Священной войны"
- cleanse_abominations_victory_desc:0 "В пределах основных [Concept( 'title', 'владений' )|E] цели, [attacker.GetShortUIName] захватывает все титулы, принадлежащие [Concept( 'abominations', 'мерзостям' )|E], а остальные становятся вассалами".
+ cleanse_abominations_victory_desc:0 "В пределах основных [Concept( 'title', 'владений' )|E] цели, [attacker.GetShortUIName] захватывает все титулы, принадлежащие [Concept( 'abominations', 'мерзостям' )|E], а остальные становятся вассалами."
  cleanse_abominations_white_peace_desc:0 "[titles|E] не меняют владельца."
  cleanse_abominations_defeat_desc:0 "[titles|E] не меняют владельца. [attacker.GetFaith.GetAdjective] теряет [fervor|El]."
  
@@ -48,22 +48,22 @@
  PIRATE_EXTRACT_TRIBUTE_CB_WAR_NAME:2 "Взимать дань с [DEFENDER.GetShortUINameNotMe]"
  PIRATE_EXTRACT_TRIBUTE_CB_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  PIRATE_EXTRACT_TRIBUTE_OCCUPIED_COUNTY_TRIBUTE:0 "[THIS.GetLandedTitle.GetBaseName] пошлет вам дань в размере 12 месяцев местного дохода в обмен за свободу"
- pirate_extract_tribute_cb_victory_desc_attacker:0 "Вы получаете большую дань от [defender.GetShortUIName|U] и все ещё оккупированных графств".
+ pirate_extract_tribute_cb_victory_desc_attacker:0 "Вы получаете большую дань от [defender.GetShortUIName|U] и все ещё оккупированных графств."
  pirate_extract_tribute_cb_victory_desc:0 "[attacker.GetShortUIName|U] взимает большую дань от [defender.GetShortUIName|U] и все ещё оккупированных графств."
  pirate_extract_tribute_cb_defeat_desc_defender:0 "[attacker.GetShortUIName|U] вынужден заплатить за ущерб, нанесенный войной."
- pirate_extract_tribute_cb_white_peace_desc_defender:0 "[attacker.GetShortUIName|U] не сможет получить с вас дань".
- pirate_extract_tribute_cb_white_peace_desc:0 "[attacker.GetShortUIName|U] не сможет получить никакой дани от [defender.GetShortUIName|U]".
- pirate_extract_tribute_cb_defeat_desc_attacker:0 "Вы вынуждены заплатить [defender.GetShortUIName|U] за ущерб, нанесенный войной".
+ pirate_extract_tribute_cb_white_peace_desc_defender:0 "[attacker.GetShortUIName|U] не сможет получить с вас дань."
+ pirate_extract_tribute_cb_white_peace_desc:0 "[attacker.GetShortUIName|U] не сможет получить никакой дани от [defender.GetShortUIName|U]."
+ pirate_extract_tribute_cb_defeat_desc_attacker:0 "Вы вынуждены заплатить [defender.GetShortUIName|U] за ущерб, нанесенный войной."
  pirate_extract_tribute_cb_defeat_desc:0 "[attacker.GetShortUIName|U] вынужден заплатить [defender.GetShortUIName|U] за ущерб, нанесенный войной."
  
  attrebus_potentate_cb:0 "Восстание против Потентата"
  attrebus_potentate_cb_defeat_desc:0 "[defender.GetShortUIName|U] остается на посту Потентата Сиродила. [attacker.GetShortUIName|U] заключен в тюрьму и опозорен, а Коловианский Союз распадается."
- attrebus_potentate_cb_defeat_desc_defender:0 "Вы остаетесь Потентатом Сиродила. [attacker.GetShortUIName|U] брошен в темницу, а Коловианский Союз распадается...".
+ attrebus_potentate_cb_defeat_desc_defender:0 "Вы остаетесь Потентатом Сиродила. [attacker.GetShortUIName|U] брошен в темницу, а Коловианский Союз распадается..."
  attrebus_potentate_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] остается на посту Потентата Сиродила. Коловианский Союз распадется без своей цели, а вы будете брошены в подземелья Имперского города."
- attrebus_potentate_cb_victory_desc_defender:0 "[attacker.GetShortUIName|U] сокрушит Потентат, и Сиродил затаит дыхание, поскольку военачальник навсегда определит его историю...".
- attrebus_potentate_cb_victory_desc_attacker:0 "Потентат уничтожен. Поскольку Сиродил нуждается в сильной направляющей руке, а Совету Старейшин необходимо провести некоторые реформы, ты останешься за главного... на некоторое время".
- attrebus_potentate_cb_victory_desc:0 "[attacker.GetShortUIName|U] сокрушает Потентат, и Сиродил затаил дыхание, поскольку военачальник навсегда определит его историю...".
- attrebus_potentate_cb_victory_with_liodes_desc:0 "Если [liodes.GetNameNicknamed], или [liodes.GetHerHis] потомки, все ещё в войне, они получат все земли, принадлежащие Потентату в пределах любого [de_jure|El] герцогства, в котором они владеют землями".
+ attrebus_potentate_cb_victory_desc_defender:0 "[attacker.GetShortUIName|U] сокрушит Потентат, и Сиродил затаит дыхание, поскольку военачальник навсегда определит его историю..."
+ attrebus_potentate_cb_victory_desc_attacker:0 "Потентат уничтожен. Поскольку Сиродил нуждается в сильной направляющей руке, а Совету Старейшин необходимо провести некоторые реформы, ты останешься за главного... на некоторое время."
+ attrebus_potentate_cb_victory_desc:0 "[attacker.GetShortUIName|U] сокрушает Потентат, и Сиродил затаил дыхание, поскольку военачальник навсегда определит его историю..."
+ attrebus_potentate_cb_victory_with_liodes_desc:0 "Если [liodes.GetNameNicknamed], или [liodes.GetHerHis] потомки, все ещё в войне, они получат все земли, принадлежащие Потентату в пределах любого [de_jure|El] герцогства, в котором они владеют землями."
  attrebus_potentate_cb_seize_potentate_held_land:0 "Вы захватываете все земли, принадлежащие непосредственно Потентату"
  dres_argonian_war_cb_seize_thorn:0 "Мадеси захватывает Торн и провозглашает себя королем его земель"
  dres_argonian_war_cb_claim_dres:0 "Савор использует поддержку своих союзников по войне, чтобы объявить себя правителем Дома Дрес"

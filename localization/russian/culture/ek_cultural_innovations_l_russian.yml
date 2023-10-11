@@ -158,7 +158,7 @@
  unlocks_empire_conquest_cb_mmr:0 "Открывает #V Завоевание империи#! [casus_belli|El] для персонажей с [Concept('prestige_level', 'уровнем репутации')|E] равным или превосходящим [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L] #weak (следует механике - [might_makes_right|El])#!"
  
  ### Special
- nativity_region_hack_tooltip_desc:0 "Эту инновацию нельзя исследовать, как и другие. Триггер ниже приведен только для того, чтобы показать вам масштабы родных регионов".
+ nativity_region_hack_tooltip_desc:0 "Эту инновацию нельзя исследовать, как и другие. Триггер ниже приведен только для того, чтобы показать вам масштабы родных регионов."
  # EK TODO: Give the regions some better description, as it's kinda boring atm
  faster_culture_convert_region:0 "Как [Concept('natives', 'коренные жители')|E] провинции, эта культура имеет значительно увеличенную скорость преобразования культуры"
  ## Nativity
