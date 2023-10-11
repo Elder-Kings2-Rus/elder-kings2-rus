@@ -1,7 +1,7 @@
 ﻿l_russian:
  ### CULTURE PARAMETERS
 
- culture_parameter_weak_rulers_contest_rule:0 "Правители с высокой [prowess_i][Concept('prowess_skill', 'доблестью')|E] могут заплатить [prestige_i][prestige|El], чтобы претендовать на [titles|El] принадлежащие другим правителям. Чем выше разница в доблести между правителями, тем ниже стоимость."
+ culture_parameter_weak_rulers_contest_rule:0 "Правители с высокой [prowess_i][Concept('prowess_skill', 'доблестью')|E] могут потратить [prestige_i][prestige|El], чтобы претендовать на [titles|El] принадлежащие другим правителям. Чем выше разница в доблести между правителями, тем ниже стоимость."
  culture_parameter_cheaper_bribes:0 "[characters|E] этой [Concept('culture', 'культуры')|E] меньше платят за взятки"
  culture_parameter_dueling_culture:0 "[characters|E] этой [Concept('culture', 'культуры')|E] гораздо чаще предлагают и принимают дуэли"
  culture_parameter_more_prestige_from_battles:0 "[prestige_i][prestige|E] и [Concept('prestige_experience', 'репутация')|E] от [Concept('battles', 'битв')|E]: [prestige_i] #P +50%#!\nПри руководстве собственными войсками: [prestige_i] #P +50%#!"
@@ -40,7 +40,7 @@
  culture_parameter_good_arcana_traits_give_bonuses:0 "[traits|E] #V $trait_arcana_good$#! и #V $trait_education_magical_ability$#! ценятся выше"
  culture_parameter_bad_arcana_traits_give_maluses:0 "[Concept('traits', 'Свойство')|E] #V $trait_arcana_bad$#! презирается"
  culture_parameter_arcane_affinity_birth:0 "[children|E] имеют небольшой шанс родиться с [Concept('trait', 'свойством')|E] #V $trait_arcana_good$#!"
- culture_parameter_arcana_claim_enabled:1 "Правители с высокой [arcana_i|E][Concept('arcana', 'арканой')|E] могут заплатить [prestige_i][prestige|El], чтобы претендовать на [titles|El] принадлежащие другим правителям. Чем выше разница в [arcana_i|E][Concept('arcana', 'аркане')|E] между правителями, тем ниже стоимость."
+ culture_parameter_arcana_claim_enabled:1 "Правители с высокой [arcana_i|E][Concept('arcana', 'арканой')|E] могут потратить [prestige_i][prestige|El], чтобы претендовать на [titles|El] принадлежащие другим правителям. Чем выше разница в [arcana_i|E][Concept('arcana', 'аркане')|E] между правителями, тем ниже стоимость."
  culture_parameter_can_disrupt_prisoners:0 "[rulers|E] могут использовать [interaction|El] Разрушить схемы на [Concept('prisoners', 'узниках')|E]"
  culture_parameter_magic_disruption_blocks_inheritance:1 "Магически истощённые [claimants|El] не могут выдвигать свои [claims|El] против [rulers|El] этой [Concept('culture', 'культуры')|E]"
  culture_parameter_better_arcane_education:0 "Персонажи этой [Concept('culture', 'культуры')|E] получают [Concept('arcana', 'аркану')|E]:[arcana_i]#P +2#!"
@@ -100,7 +100,7 @@
  culture_parameter_unlock_maa_chaurus_riders:0 "Доступны [men_at_arms|El] — [GetMaA('chaurus_riders').GetName]"
  culture_parameter_unlock_maa_dwemer_arbalesters:0 "Доступны [men_at_arms|El] — [GetMaA('dwemer_arbalesters').GetName]"
  culture_parameter_unlock_maa_dwemer_animunculi:0 "Доступны [men_at_arms|El] — [GetMaA('dwemer_sphere').GetName], [GetMaA('dwemer_centurion').GetName] и [GetMaA('dwemer_ballistae').GetName]"
- culture_parameter_unlock_maa_imga_frenzied:0 "Доступны [men_at_arms|El] — [GetMaA('imga_frenzied'.GetName)"
+ culture_parameter_unlock_maa_imga_frenzied:0 "Доступны [men_at_arms|El] — [GetMaA('imga_frenzied').GetName)]"
  
 ## CULTURAL RELATIONS PARAMETERS
  culture_parameter_dislikes_marrying_outside_of_heritage:0 "Согласие на [Concept('marriage', 'брак')|E] с представителями других [Concept('heritage', 'наследий')|E]: #N -100#!"
