@@ -24,10 +24,17 @@
  cn_brirmarch_adj:0 "Верескопроходск"
  cn_brir:0 "Вереск"
  cn_brir_adj:0 "Верескск"
- cn_jerhan:0 "Джерхан"
- cn_jerhan_adj:0 "Джерханск"
- cn_lar_druaid:0 "Лар Друайд"
- cn_lar_druaid_adj:0 "Лардруайдск"
+ cn_jelhana:0 "Джелхана"
+ cn_jelhana_adj:0 "Джелханск"
+ cn_lar_druaid:0 "Лар Друайд" # Reachfolk k_Jehanna
+ cn_dru_druad:0 "Дру Друайд" # Reachfolk d_Jehanna
+ cn_cul_druaid:0 "Кул Друайд" # Reachfolk c_Jehanna
+ cn_lar_farun:0 "Лар Фарун" # Reachfolk k_Farrun
+ cn_dru_farun:0 "Дру Фарун" # Reachfolk d_Farrun
+ cn_cul_farun:0 "Кул Фарун" # Reachfolk c_Farrun
+ cn_lar_wrogar:0 "Лар Рогар" # Reachfolk k_Wrothgar
+ cn_cul_aloue:0 "Кул Алоуэ" # Reachfolk c_Coldperch
+ cn_jehenna:0 "Джехенна" # PGE3/Skyrim name for Jehanna
  cn_jehann:0 "Джеханн"
  cn_jehann_adj:0 "Джеханнск"
  cn_gauvadon:0 "Гаувадон"
@@ -50,8 +57,8 @@
  cn_skalar_adj:1 "Скаларск"
  cn_honor_rest:1 "Обитель Чести"
  cn_honor_rest_adj:1 "Обитель-честийск"
- cn_pagorda:1 "Пагорда"
- cn_pagorda_adj:1 "Пагордск"
+ cn_pagorda:1 "Крепость Рхалта"
+ cn_pagorda_adj:1 "Рхалтанск"
  cn_dwynnen:1 "Двиннен"
  cn_dwynnen_adj:1 "Двинненск"
  cn_urvaius:1 "Урваюс"
@@ -72,6 +79,12 @@
  cn_evermor_adj:0 "Эверморск"
  cn_anticlere:0 "Антиклер"
  cn_anticlere_adj:0 "Антиклерск"
+ cn_oirrad:0 "Ойррад"
+ cn_oirrad_adj:0 "Ойррадск"
+ cn_Ain_Kolur:0 "Айн-Колур" # Bjoule Name for Murcien
+ cn_wroth_naga:0 "Рот Нага" # Hamlet from 2920 Vol 8
+ cn_caladan:0 "Замок Каладан" # PTR name for the Castle of Trowbridge
+ cn_trowbridge:0 "Троубридж" # from A tale of Kieran
 #Ayleid
  cn_bisnensel:0 "Бисненсель"
  cn_bisnenselaran:0 "Бисненсель Аран Арпена"
@@ -87,6 +100,10 @@
 ##################
  cn_drangstor:0 "Дрангстор"
  cn_drangstor_adj:0 "Дрангсторск"
+ cn_drangstor_west:0 "Западный Дрангстор"
+ cn_drangstor_west_adj:0 "Дрангсторск"
+ cn_drangstor_east:0 "Восточный Дрангстор"
+ cn_drangstor_east_adj:0 "Дрангсторск"
  cn_sanloa_mkai:0 "Санлоа М'Кай"
  cn_sanloa_mkai_adj:0 "Санлоа М'Кайск"
  cn_scar:0 "Шрам"
@@ -187,8 +204,6 @@
  cn_falmereth_adj:0 "Фалмериск"
  cn_hjaalvale:0 "Хьялвейл"
  cn_hjaalvale_adj:0 "Хьялвейлск"
- cn_khazgur:0 "Казгур"
- cn_khazgur_adj:0 "Казгурск"
  cn_mor_khazgur:0 "Мор Казгур"
  cn_mor_khazgur_adj:0 "Мор-казгурск"
  cn_dushnikh:0 "Душник"
@@ -257,7 +272,7 @@
 ################
 ### Cyrodiil ###
 ################
- cn_imperium_saliache:0 "Империум Салиачи"
+ cn_imperium_saliache:0 "Империя Салиачи"
  cn_imperium_saliache_adj:0 "Салиачск"
  cn_imperium_saliache_article:0 " "
  cn_varsa_baalim:0 "Варса Балим"
@@ -458,14 +473,14 @@
  cn_wenyandawik_adj: "Веньяндавикск"
  cn_nenyond_twyll: "Неньонд Твилл"
  cn_nenyond_twyll_adj: "Неньонд-твиллск"
- cn_abargalas: "Абаргалас"
- cn_abargalas_adj: "Абаргаласск"
+ cn_abagarlas: "Абагарлас"
+ cn_abagarlas_adj: "Абагарласск"
  cn_aurus: "Аурус"
  cn_aurus_adj: "Аурусск"
  cn_cedrian: "Седриан"
  cn_cedrian_adj: "Седрианск"
  cn_wenayasille: "Венайасиль"
- cn_wenayasille: "Венайасильск"
+ cn_wenayasille_adj: "Венайасильск"
  cn_fanacas: "Фанакас"
  cn_fanacas_adj: "Фанакасск"
  cn_welyond: "Вельйонд"
@@ -540,6 +555,7 @@
  cn_nivenpest:0 "Нивенпест"
  cn_levinu:0 "Левину"
  cn_torlevinu:0 "Торлевину"
+ cn_yirpa:0 "Ирпа"
 
 #################
 ### Summerset ###
@@ -609,7 +625,6 @@
  cn_olmgerdheim:0 "Ольмгердхейм"
  cn_olmgerds_landing:0 "Высадка Ольмгерда"
  cn_ramimilk:0 "Рамимилк"
- cn_mala_tor:0 "Мала Тор"
  
 #################
 ### Valenwood ###
@@ -703,7 +718,7 @@
  cn_nequinal:0 "Не-Квин-Ал"
  cn_nequinal_adj:0 "Не-Квинск"
  cn_paalatiin:0 "Паалатиин"
- cn_paalatiin:0 "Паалатитск"
+ cn_paalatiin_adj:0 "Паалатитск"
 #Cyrodiilic
  cn_rim:0 "Рим"
  cn_senchel:0 "Сенчел"
@@ -731,6 +746,7 @@
 ###################
 ### Black Marsh ###
 ###################
+ cn_orma_la: "Ормала"
  cn_orma_ka: "Ормака"
  cn_orma_ko: "Ормако"
  cn_orma_ke: "Ормаке"                     
@@ -748,7 +764,6 @@
  cn_arlis:0 "Арлис"
  cn_serpendamath:0 "Серпедамат"
  cn_tormora:0 "Тормора"
- cn_tormora:0 "Тормора-Занмир"
  cn_ninen:0 "Нинен"
  cn_ceyrod:0 "Сейрод"
  cn_ceynen:0 "Сейнен"
