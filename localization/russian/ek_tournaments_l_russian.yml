@@ -27,7 +27,7 @@
 
  # LIEGE REWARDS FOR LANDLESS KNIGHTS 
  tournament_arcane_clash_prize_log_title:0 "Магическое столкновение: приз"
- tournament_arcane_clash_prize_log:0 ""[Select_CString(CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )] наградил [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] за победу в магическом столкновении. Приз — [ARTIFACT.GetName].""
+ tournament_arcane_clash_prize_log:0 "[Select_CString(CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )] наградил [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] за победу в магическом столкновении. Приз — [ARTIFACT.GetName]."
  
  tournament_arcane_clash_winner_log_title:0 "Магическое столкновение: победитель"
  tournament_arcane_clash_winner_log:0 "[Select_CString(CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )] выиграл магическое столкновение"
