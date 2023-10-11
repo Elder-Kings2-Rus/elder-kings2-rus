@@ -52,7 +52,7 @@
  stationed_spellblades_siege_value_mult:0 "[stationed|E] [spellblades|E] [siege_value|E]"
  
  monthly_magic_lifestyle_xp_gain_mult:0 "Ежемесячный опыт за [lifestyle|El] «Магия»"
- monthly_dark_arts_lifestyle_xp_gain_mult:0 "Ежемесячный опыт за [lifestyle|E] «Тёмные искусства»"
+ monthly_dark_arts_lifestyle_xp_gain_mult:0 "Ежемесячный опыт за [lifestyle|El] «Тёмные искусства»"
  
  ### Terrain
  ashlands_attrition_mult:1 "[command_modifier_i][attrition|E] в пепельных землях"
