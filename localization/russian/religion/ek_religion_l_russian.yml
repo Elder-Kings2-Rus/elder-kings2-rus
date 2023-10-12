@@ -119,7 +119,7 @@
  holy_site_hs_ada_mantia_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_ada_mantia_name$)#!"
  holy_site_hs_ada_mantia_effects:0 "Скорость обращения графства в регионе [GetGeographicalRegion('mundus_tamriel_high_rock').GetName]: #P +20%#!"
  COURT_CHAPLAIN_CONVERSION_HOLY_SITE_HS_ADA_MANTIA:0 "Святое место — Ада-Мантия"
- holy_site_hs_throat_of_the_world_name:0 "Высокий Хротгар" #Глотка Мира
+ holy_site_hs_high_hrothgar_name:0 "Высокий Хротгар" #Глотка Мира
  holy_site_hs_high_hrothgar_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_high_hrothgar_name$)#!"
  holy_site_hs_high_hrothgar_effects:0 "Скорость обращения графства в регионе [GetGeographicalRegion('mundus_tamriel_skyrim').GetName]: #P +20%#!"
  COURT_CHAPLAIN_CONVERSION_HOLY_SITE_HS_HIGH_HROTHGAR:0 "Святое место — Высокий Хротгар"
@@ -268,7 +268,7 @@
  holy_site_hs_abbey_bazaar_name:0 "Великое аббатство-базар"
  holy_site_hs_abbey_bazaar_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_abbey_bazaar_name$)#!"
  # Nedic Sect
- holy_site_hs_soulrest_name:0 "Солрест"
+ holy_site_hs_soulrest_name:0 "Соулрест"
  holy_site_hs_soulrest_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_soulrest_name$)#!"
  holy_site_hs_gideon_name:0 "Гидеон"
  holy_site_hs_gideon_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_gideon_name$)#!"
@@ -556,7 +556,7 @@
  holy_site_hs_duskwatch_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_duskwatch_name$)#!"
  holy_site_hs_giant_grove_name:0 "Роща Великанов"
  holy_site_hs_giant_grove_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_giant_grove_name$)#!"
- holy_site_hs_fahrun_name:0 "Фарун"
+ holy_site_hs_fharun_name:0 "Фарун"
  holy_site_hs_fharun_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_fharun_name$)#!"
  holy_site_hs_abamath_name:0 "Абамат"
  holy_site_hs_abamath_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_abamath_name$)#!"

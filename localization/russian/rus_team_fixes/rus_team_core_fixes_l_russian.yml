@@ -148,8 +148,11 @@
  # Потому что
  learning_lifestyle_name:0 "Учёность"
  # Нет локализации
- summoned_undead:0 "Призванная нежить"
+ #summoned_undead:0 "Призванная нежить"
  
  #Разрабы не сделали перевод подрасам Имга
  race_imga_orangutang:0 "Имга, Орангутан"
  race_imga_gorilla:0 "Имга, Горилла"
+ 
+ culture_parameter_tribal_holding_fort_level_in_valenwood_bonus:0 "[fort_level|E] для [Concept( 'tribes', 'племен' )|E] в Валенвуде: [fort_level_i]#P +[EmptyScope.ScriptValue('tribal_holding_fort_level_in_valenwood_bonus_value')|0]#!"
+ culture_parameter_castle_holding_fort_level_in_valenwood_bonus:0 "[fort_level|E] для [Concept( 'castles', 'замков' )|E] в Валенвуде: [fort_level_i]#P +[EmptyScope.ScriptValue('castle_holding_fort_level_in_valenwood_bonus_value')|0]#!"
