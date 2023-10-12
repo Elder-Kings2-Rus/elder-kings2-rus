@@ -59,10 +59,10 @@
  can_host_arcane_clash_contests_custom_effect_description_TOTO_DLC:0 "Можно проводить [contests|El] Чародейского столкновения в [GetActivityType( 'activity_tournament' ).GetName]"
  can_host_arcane_clash_contests_custom_effect_description_NO_TOTO_DLC:0 ""
  culture_parameter_can_not_host_boardgame_contests:0 "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'can_not_host_boardgame_contests_custom_effect_description_TOTO_DLC', 'can_not_host_boardgame_contests_custom_effect_description_NO_TOTO_DLC' )]"
- can_not_host_boardgame_contests_custom_effect_description_TOTO_DLC:0 "Нельзя проводить [contests|El] с настольными играми в [GetActivityType( 'activity_tournament' ).GetName]"
+ can_not_host_boardgame_contests_custom_effect_description_TOTO_DLC:0 "Нельзя проводить [contests|El] с настольными играми, когда проходит [GetActivityType( 'activity_tournament' ).GetName]"
  can_not_host_boardgame_contests_custom_effect_description_NO_TOTO_DLC:0 ""
  culture_parameter_can_not_host_recital_contests:0 "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'can_not_host_recital_contests_custom_effect_description_TOTO_DLC', 'can_not_host_recital_contests_custom_effect_description_NO_TOTO_DLC' )]"
- can_not_host_recital_contests_custom_effect_description_TOTO_DLC:0 "Нельзя проводить [contests|El] поэтов в [GetActivityType( 'activity_tournament' ).GetName]"
+ can_not_host_recital_contests_custom_effect_description_TOTO_DLC:0 "Нельзя проводить [contests|El] поэтов, когда проходит [GetActivityType( 'activity_tournament' ).GetName]"
  can_not_host_recital_contests_custom_effect_description_NO_TOTO_DLC:0 ""
 
 ## LEGACY PARAMETERS

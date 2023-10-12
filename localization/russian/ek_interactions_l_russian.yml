@@ -137,22 +137,22 @@
  innovation_knightly_orders_wander:0 "Молодых придворных той же культуры [Concept( 'culture', 'культуры' )|E] со [Concept( 'trait', 'свойством' )|E] Ученика Рыцарства можно отправить в странствие, они временно станут [Concept( 'wanderers', 'скитальцами' )|E] в поисках славы и улучшения своих навыков."
  
  ### EK secrets
- CHARACTER_IS_A_VAMPIRE:0 "[CHARACTER.GetShortUIName|U] is a [GetTrait('vampire_character').GetName( CHARACTER.Self )]"
- IS_A_VAMPIRE:0 "Is a [GetTrait('vampire_character').GetName( GetNullCharacter )]"
- IS_NOT_A_VAMPIRE:0 "Is #bold not#! a [GetTrait('vampire_character').GetName( CHARACTER.Self )]"
+ CHARACTER_IS_A_VAMPIRE:0 "[CHARACTER.GetShortUIName|U] — [GetTrait('vampire_character').GetName( CHARACTER.Self )]"
+ IS_A_VAMPIRE:0 "[GetTrait('vampire_character').GetName( GetNullCharacter )]"
+ IS_NOT_A_VAMPIRE:0 "#bold Не#! [GetTrait('vampire_character').GetName( CHARACTER.Self )]"
 
- CHARACTER_IS_A_LYCAN:0 "[CHARACTER.GetShortUIName|U] is a [GetTrait('lycan_character').GetName( CHARACTER.Self )]"
- IS_A_LYCAN:0 "Is a [GetTrait('lycan_character').GetName( GetNullCharacter )]"
- IS_NOT_A_LYCAN:0 "Is #bold not#! a [GetTrait('lycan_character').GetName( CHARACTER.Self )]"
+ CHARACTER_IS_A_LYCAN:0 "[CHARACTER.GetShortUIName|U] — [GetTrait('lycan_character').GetName( CHARACTER.Self )]"
+ IS_A_LYCAN:0 "[GetTrait('lycan_character').GetName( GetNullCharacter )]"
+ IS_NOT_A_LYCAN:0 "#bold Не#! [GetTrait('lycan_character').GetName( CHARACTER.Self )]"
 
- CHARACTER_IS_A_NECROMANCER:0 "[CHARACTER.GetShortUIName|U] is a [GetTrait('necromancer').GetName( CHARACTER.Self )]"
- IS_A_NECROMANCER:0 "Is a [GetTrait('necromancer').GetName( GetNullCharacter )]"
- IS_NOT_A_NECROMANCER:0 "Is #bold not#! a [GetTrait('necromancer').GetName( CHARACTER.Self )]"
+ CHARACTER_IS_A_NECROMANCER:0 "[CHARACTER.GetShortUIName|U] — [GetTrait('necromancer').GetName( CHARACTER.Self )]"
+ IS_A_NECROMANCER:0 "[GetTrait('necromancer').GetName( GetNullCharacter )]"
+ IS_NOT_A_NECROMANCER:0 "#bold Не#! [GetTrait('necromancer').GetName( CHARACTER.Self )]"
 
- I_CANNOT_BLACKMAIL_ANOTHER_VAMPIRE:1 "You cannot blackmail another [GetTrait('vampire_character').GetName( CHARACTER.Self )] for being a Vampire"
- I_CANNOT_BLACKMAIL_ANOTHER_LYCAN:1 "You cannot blackmail another [GetTrait('lycan_character').GetName( CHARACTER.Self )] for being a Lycanthrope"
- I_CANNOT_BLACKMAIL_ANOTHER_NECROMANCER:1 "You cannot blackmail another [GetTrait('necromancer').GetName( CHARACTER.Self )] for being a Necromancer"
+ I_CANNOT_BLACKMAIL_ANOTHER_VAMPIRE:1 "Целью шантажа из-за вампиризма не может быть [GetTrait('vampire_character').GetName( CHARACTER.Self )]"
+ I_CANNOT_BLACKMAIL_ANOTHER_LYCAN:1 "Целью шантажа из-за ликантропии не может быть [GetTrait('lycan_character').GetName( CHARACTER.Self )]"
+ I_CANNOT_BLACKMAIL_ANOTHER_NECROMANCER:1 "Целью шантажа из-за некромантии не может быть [GetTrait('necromancer').GetName( CHARACTER.Self )]"
 
- BLACKMAIL_NOTIFICATION_SECRET_VAMPIRE:0 "\nI have evidence of your thirst for blood!"
- BLACKMAIL_NOTIFICATION_SECRET_LYCAN:0 "\nI have evidence of you true beastly form!"
- BLACKMAIL_NOTIFICATION_SECRET_NECROMANCER:0 "\nI have evidence of your defilement of life and death!"
+ BLACKMAIL_NOTIFICATION_SECRET_VAMPIRE:0 "\nУ меня есть свидетельства вашей жажды крови!"
+ BLACKMAIL_NOTIFICATION_SECRET_LYCAN:0 "\nУ меня есть свидетельства вашей истинной звериной натуры!"
+ BLACKMAIL_NOTIFICATION_SECRET_NECROMANCER:0 "\nУ меня есть доказательства вашего осквернения цикла жизни и смерти!"

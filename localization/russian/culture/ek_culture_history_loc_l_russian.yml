@@ -26,7 +26,7 @@
  abecean_history_loc:0 "Происходят от #L [CULTURE.GetCollectiveNoun|l]ой#! таванской [Concept( 'compendium_ragada', 'Ра Гада' )|E], возглавляемой принцем Хьюбаладжадом"
  argonian_history_loc:0 "Были благословлены мудростью Хист во времена #LORE [Concept( 'compendium_merethic_era', 'Меретической эры' )|E]#!"
  mathmeldi_history_loc:0 "#L [CULTURE.GetCollectiveNoun]ие#! изгнанники из Альд-Сирода"
- barsaebic_history_loc:0 "Происходят от [Concept( 'enc_aedric', 'аэдрических' )|E] [CULTURE.GetCollectiveNoun|l]их беженцев во время [Concept( 'narfinsel_schism', 'Нарфинсельского раскола' )|E]"
+ barsaebic_history_loc:0 "Происходят от [Concept( 'compendium_aedric', 'аэдрических' )|E] [CULTURE.GetCollectiveNoun|l]их беженцев во время [Concept( 'compendium_narfinsel_schism', 'Нарфинсельского раскола' )|E]"
  dynari_history_loc:0 "Происходят от #L [CULTURE.GetCollectiveNoun|l]их#! неналатанцев"
  bosmer_history_loc:0 "Народ, который И'ффре вылепил из первородной Тины"
  strident_history_loc:0 "Происходят от #L [CULTURE.GetCollectiveNoun|l]ого#! народа Золотого Берега под #L [TARGET_CULTURE.GetCollectiveNoun|l]им#! влиянием" 
