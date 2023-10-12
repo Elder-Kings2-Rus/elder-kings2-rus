@@ -48,7 +48,7 @@
  nick_the_bane_of_humans:0 "Проклятие людей"
  nick_the_bane_of_humans_desc:0 "Одного имени [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] достаточно, чтобы вселить страх и ненависть в сердца каждого человека, ведь [Select_CString( CHARACTER.IsLocalPlayer, 'вы', CHARACTER.GetSheHe)] [Select_CString( CHARACTER.IsLocalPlayer, 'перебили', Select_CString(CHARACTER.IsFemale, 'перебила', 'перебил' ))] бесчисленное множество представителей их расы."
  nick_the_purge_of_undead:0 "[Select_CString(CHARACTER.IsFemale, 'Уничтожительница', 'Уничтожитель' )] нежити"
- nick_the_purge_of_undead_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'превратили', Select_CString(CHARACTER.IsFemale, 'превратила', 'превратил' ))] себя оружие против нежити, с праведной яростью сокрушая движущиеся кости и ходячие трупы."
+ nick_the_purge_of_undead_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'превратили', Select_CString(CHARACTER.IsFemale, 'превратила', 'превратил' ))] себя в оружие против нежити, с праведной яростью сокрушая движущиеся кости и ходячие трупы."
  nick_the_vampire_hunter:0 "[Select_CString(CHARACTER.IsFemale, 'Охотница', 'Охотник' )] на вампиров"
  nick_the_vampire_hunter_desc:0 "Кровососущие монстры содрогаются при одном только упоминании имени [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]."
  nick_the_werewolf_hunter:0 "[Select_CString(CHARACTER.IsFemale, 'Охотница', 'Охотник' )] на вервольфов"
