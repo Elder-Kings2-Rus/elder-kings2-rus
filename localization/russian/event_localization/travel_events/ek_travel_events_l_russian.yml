@@ -1,123 +1,123 @@
 ﻿l_russian:
 
- ek_travel_events.0001.t:0 "$travel_danger_prefix$ Horror from the Deep"
- ek_travel_events.0001.desc:0 "[current_location.GetName|U]'s name is whispered by the frightened lips of the locals who seem wary of the place. It is, after all, home to a very strange cult rumored to dabble in human sacrifice called [brethren_leader.GetFaith.GetName].\n\n[brethren_leader.GetName], however, welcomes me warmly, as the leader of the local [brethren_leader.GetFaith.GetAdjective] and offers me to join them at their chapel for a "Gathering". Surely, those rumors of human sacrifice are nothing but baseless...\n\nWait. Where is [kidnapped_character.GetFirstName]?"
- ek_travel_events.0001.a:0 "Quickly, let's leave this place!"
- ek_travel_events.0001.b:0 "I will make you regret this, you [brethren_leader.Custom('InsultNoun')]!"
- ek_travel_events.0001.b.success:0 "You fend off the [brethren_leader.GetFaith.GetNameNoTooltip] and save [kidnapped_character.GetFirstNameNoTooltip]"
- ek_travel_events.0001.b.failure:0 "You barely make it out of there alive"
+ ek_travel_events.0001.t:0 "$travel_danger_prefix$ Ужас из глубин"
+ ek_travel_events.0001.desc:0 "Название [current_location.GetName|U] местные жители произносят только шёпотом, так как они с опаской относятся к этому месту. Ведь здесь обитает очень странный культ под названием [brethren_leader.GetFaith.GetAdjective]. По слухам, ему не чужды человеческие жертвоприношения.\n\nОднако [brethren_leader.GetName] радушно встречает меня в роли местного религиозного лидера и предлагает мне присоединиться к ним в их часовне для проведения "Собрания". Конечно, все эти слухи о человеческих жертвоприношениях не имеют под собой никаких оснований...\n\nСтоп. А где [kidnapped_character.GetFirstName]?"
+ ek_travel_events.0001.a:0 "Быстрее, уходим отсюда!"
+ ek_travel_events.0001.b:0 "Я заставлю тебя пожалеть об этом, [brethren_leader.Custom('InsultNoun')]!"
+ ek_travel_events.0001.b.success:0 "Вы отбиваетесь от культистов и спасаете их жертву — [kidnapped_character.GetFirstNameNoTooltip]"
+ ek_travel_events.0001.b.failure:0 "Вам едва удаётся выбраться оттуда."
 
- ek_travel_events.0002.t:0 "$travel_event_prefix$ Jewel of the Bay"
- ek_travel_events.0002.desc:0 "Wayrest, a jewel of western Tamriel, boasts both contemporary allure and a resplendent past. Revered as the pinnacle of Breton culture, it outshines all other cities in High Rock.\n\nIts streets resonate with the echoes of brilliant minds, etched into the architecture, gabled roofs, and bustling markets. Unlike Daggerfall, Wayrest's people cherish their history without being consumed by it.\n\nA visit to Wayrest evokes a sense of modernity, yet it carries an enchantment that only arises from millennia of civilization."
- ek_travel_events.0002.a:0 "Truly one of the cities of our time."
+ ek_travel_events.0002.t:0 "$travel_event_prefix$ Жемчужина залива"
+ ek_travel_events.0002.desc:0 "Вэйрест — жемчужина западного Тамриэля, что может похвастаться как привлекательностью современности, так и великолепием прошлого. Вэйрест считается вершиной бретонской культуры и затмевает на этом поприще все остальные города Хай Рока.\n\nМногие гениальные умы оставили своё наследие на улицах города, запечатлев его в архитектуре, остроконечных крышах и шумных рынках. В отличие от Даггерфолла, жители Вэйреста бережно относятся к своей истории, но не позволяют её поглотить их.\n\nПосещение Вэйреста позволяет познакомиться с современностью, но в то же оно полно очарования, возникающее только в результате тысячелетнего развития цивилизации."
+ ek_travel_events.0002.a:0 "Поистине один из величайших городов нашего времени."
 
- ek_travel_events.0003.t:0 "$travel_event_prefix$ A Night to Forget"
- ek_travel_events.0003.desc:0 "While wandering through [ROOT.Char.GetCurrentLocation.GetName], I crossed paths with a disheveled mage who appeared to be nursing a severe hangover. [hungover_mage.GetSheHe|U] confessed to a night of excessive revelry, during which [hungover_mage.GetSheHe] imbibed far more than advisable.\n\nRegrettably, in [hungover_mage.GetHerHis] inebriated state, [hungover_mage.GetSheHe] managed to misplace a collection of valuable magical relics. Now, [hungover_mage.GetSheHe]'s plagued by anxiety, fearing that [hungover_mage.GetHerHis] dreams of securing an apprenticeship under a great local mage may have been irrevocably shattered."
- ek_travel_events.0003.a:0 "How much is our help worth?"
- ek_travel_events.0003.b:0 "How grateful would you be?"
- ek_travel_events.0003.c:0 "That's too bad, but we're in a hurry."
+ ek_travel_events.0003.t:0 "$travel_event_prefix$ Ночь, чтобы забыться"
+ ek_travel_events.0003.desc:0 "Блуждая по просторам местечка [ROOT.Char.GetCurrentLocation.GetName], я [Select_CString(ROOT.Char.IsFemale, 'столкнулась', 'столкнулся' )] с взъерошенным магом, [Select_CString(hungover_mage.IsFemale, 'которая', 'который' )], судя по всему, страдает от сильного похмелья. [hungover_mage.GetSheHe|U] [Select_CString(hungover_mage.IsFemale, 'призналась', 'признался' )], что ночь прошла в чрезмерном веселье, во время которого [hungover_mage.GetSheHe] [Select_CString(hungover_mage.IsFemale, 'выпила', 'выпил' )] гораздо больше, чем следовало.\n\nК сожалению, в своём состоянии опьянения [hungover_mage.GetSheHe] [Select_CString(hungover_mage.IsFemale, 'умудрилась', 'умудрился' )] потерять коллекцию ценных магических реликвий. Теперь [hungover_mage.GetSheHe] мучается от беспокойства, опасаясь, что [hungover_mage.GetHerHis] мечты о прохождении ученичества у великого местного чародея безвозвратно утрачены."
+ ek_travel_events.0003.a:0 "Сколько стоит наша помощь?"
+ ek_travel_events.0003.b:0 "Насколько вы будете благодарны?"
+ ek_travel_events.0003.c:0 "Очень жаль, но мы торопимся."
 
- ek_travel_events.0004.t:0 "$travel_event_prefix$ Arboreal Architecture"
- ek_travel_events.0004.desc:0 "Roaming through this fascinating province, one cannot help but marvel at the curious paradox of local architecture. The Treaty of Frond and Leaf, which prohibits the harming of trees, might seem crippling to any architect. Yet, for the local [architect.GetFaith.GetAdherentNamePlural] these seemingly nonsensical constraints have given rise to a unique form of artistry and craftsmanship that permeates their settlements.\n\nMeeting a local architect named [architect.GetFirstName] and [architect.GetHerHis] skillful adaptation to their self-imposed limitations is nothing short of astonishing. [architect.GetSheHe|U] explains that the local methods enable [architect.GetHerHis] people not only to survive but to flourish in a land of uncompromising rules and the perpetual embrace of their beloved trees."
- ek_travel_events.0004.a:0 "We have a lot to learn from them!"
- ek_travel_events.0004.b:0 "Thankfully, we don't need this."
+ ek_travel_events.0004.t:0 "$travel_event_prefix$ Древесная архитектура"
+ ek_travel_events.0004.desc:0 "Путешествуя по этой удивительной провинции, нельзя не восхититься любопытным парадоксом местной архитектуры. "Договор ветви и листа", запрещающий наносить вред деревьям, может показаться непреодолимым препятствием для любого архитектора. Однако местные [architect.GetFaith.GetAdherentNamePlural] смогли обойти эти, казалось бы, бессмысленные ограничения и создать уникальную форму артистизма и мастерства, которая буквально пронизывает их поселения.\n\nВстреча с местным архитектором по имени [architect.GetFirstName] и [architect.GetHerHis] умелой адаптацией к навязанным верой ограничениям не может не поражать. [architect.GetSheHe|U] объясняет, что местные методы позволяют [architect.GetHerHis] народу не только выживать, но и процветать в земле бескомпромиссных правил и вечных объятий любимых деревьев."
+ ek_travel_events.0004.a:0 "Нам есть чему у них поучиться!"
+ ek_travel_events.0004.b:0 "К счастью, мы в таком не нуждаемся."
 
- ek_travel_events.0005.t:0 "$travel_danger_prefix$ On Voriplasms"
- ek_travel_events.0005.desc:0 "Startling accounts from locals recount voriplasms detecting prey, swiftly closing the gap over considerable distances, and engulfing victims before they grasp the impending danger. Moments later, they regurgitate the stripped bones, retreating to their previous sun-soaked sanctuaries. These bizarre oozes defy conventional understanding. Without visible sensory organs or internal anatomy, they display remarkable mobility, demonstrating hunting prowess that belies their seemingly primitive nature.\n\nRegrettably, my fellow traveler, [attacked_character.GetFirstName], was assailed by one of these creatures before [attacked_character.GetSheHe] could become aware, and presently, the entity is in the process of eroding [attacked_character.GetHerHim]. Urgent action on my part became imperative."
- ek_travel_events.0005.a.success:0 "You successfully defeat the voriplasm"
- ek_travel_events.0005.a.failure:0 "The voriplasm bests you"
+ ek_travel_events.0005.t:0 "$travel_danger_prefix$ О вориплазмах"
+ ek_travel_events.0005.desc:0 "Поразительные рассказы местных жителей свидетельствуют о том, что вориплазмы обнаруживают добычу, стремительно преодолевают значительные расстояния и поглощают несчастную жертву, прежде чем она успевает осознать надвигающуюся опасность. Мгновением позже они извергают обглоданные кости и возвращаются в свои прежние убежища. Эти причудливые организмы из слизи не поддаются обычному пониманию. Не имея ни видимых органов чувств, ни чёткой внутренней анатомии, они обладают удивительной подвижностью и демонстрируют охотничье мастерство, не соответствующее их кажущейся примитивности.\n\nК сожалению, [Select_CString(attacked_character.IsFemale, 'моя попутчица', 'мой попутчик' )], [attacked_character.GetFirstName], [Select_CString(attacked_character.IsFemale, 'была атакована', 'был атакован' )] одним из этих существ до того, как [attacked_character.GetSheHe] [Select_CString(attacked_character.IsFemale, 'успела', 'успел' )] осознать это, и в настоящее время эта сущность разрушает [attacked_character.GetHerHis] тело. Мне нужно действовать и как можно быстрее."
+ ek_travel_events.0005.a.success:0 "Вы успешно побеждаете вориплазму"
+ ek_travel_events.0005.a.failure:0 "Вориплазма побеждает вас"
 
- ek_travel_events.0006.t:0 "$travel_danger_prefix$ Miregaunts of the Marsh"
- ek_travel_events.0006.desc:0 "While miregaunts are not exceedingly rare in the murk of Black Marsh, they do not pose a perpetual threat to explorations, although they do seem to have a proclivity for congregating near the most interesting places in their vicinity.\n\n[attacked_character.GetFirstName] was surprised by one of those hulking, headless creatures while investigating some interesting ruins in our path. Our safety depended on a swift decision."
- ek_travel_events.0006.a.success:0 "You successfully defeat the miregaunt"
- ek_travel_events.0006.a.failure:0 "The miregaunt bests you"
+ ek_travel_events.0006.t:0 "$travel_danger_prefix$ Тощеболоты Чернотопья"
+ ek_travel_events.0006.desc:0 "Несмотря на то, что тощеболоты не так уж и редко встречаются во мраке Чернотопья, они не представляют собой значительной угрозы для исследователей, хотя всё же имеют склонность скапливаться вблизи наиболее интересных объектов вблизи их мест обитания.\n\n[attacked_character.GetFirstName] [Select_CString(attacked_character.IsFemale, 'была', 'был' )] застигнут врасплох одним из этих громадных безголовых существ во время исследования интересных развалин на нашем пути. От моего быстрого решения зависит наша безопасность."
+ ek_travel_events.0006.a.success:0 "Вы успешно побеждаете тощеболота"
+ ek_travel_events.0006.a.failure:0 "Тощеболот побеждает вас"
 
- ek_travel_events.0007.t.apprentice:0 "$travel_event_prefix$ Mundus Stone: The Apprentice"
- ek_travel_events.0007.desc.apprentice:0 "While venturing through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] in [ROOT.Char.GetCurrentLocation.GetName], I stumbled upon a monolithic structure adorned with celestial engravings. Its magical aura promised to grant me the celestial powers of the Apprentice Constellation.\n\nA momentous choice lay before me: embrace its power or leave it untouched and carry on with my journey."
- ek_travel_events.0007.a:0 "Accept its boon."
- ek_travel_events.0007.a.tt.apprentice:0 "The Apprentice accepts you"
- add_apprentice:0 "You gain the Trait The Apprentice #italic ([birthsign|E])#!"
- ek_travel_events.0007.a.tt_fail.apprentice:0 "The Apprentice rejects you"
- ek_travel_events.0007.b:0 "Use its power to attune with its constellation."
- ek_travel_events.0007.c:0 "Carry on."
+ ek_travel_events.0007.t.apprentice:0 "$travel_event_prefix$ Камень Мундуса: Ученик"
+ ek_travel_events.0007.desc.apprentice:0 "[ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. Его магическая аура обещала наделить меня небесными силами Созвездия Ученика.\n\nПередо мной встал судьбоносный выбор: принять силу камня или оставить её нетронутой и продолжить свой путь."
+ ek_travel_events.0007.a:0 "Принять дар."
+ ek_travel_events.0007.a.tt.apprentice:0 "Ученик принимает вас"
+ add_apprentice:0 "Вы получите черту "Ученик" #italic ([birthsign|El])#!"
+ ek_travel_events.0007.a.tt_fail.apprentice:0 "Ученик отвергает вас"
+ ek_travel_events.0007.b:0 "Использовать его силу для настройки на своё созвездие."
+ ek_travel_events.0007.c:0 "Продолжить путь."
 
- ek_travel_events.0007.t.atronach:0 "$travel_event_prefix$ Mundus Stone: The Atronach"
- ek_travel_events.0007.desc.atronach:0 "While venturing through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] in [ROOT.Char.GetCurrentLocation.GetName], I stumbled upon a monolithic structure adorned with celestial engravings. This enigmatic stone bore celestial inscriptions that promised to grant me the celestial powers of the Atronach Constellation.\n\nA crucial decision loomed: embrace its potent influence or leave it undisturbed, contemplating the secrets of this celestial marvel."
- ek_travel_events.0007.a.tt.atronach:0 "The Atronach accepts you"
- add_atronach:0 "You gain the trait The Atronach #italic ([birthsign|E])#!"
- ek_travel_events.0007.a.tt_fail.atronach:0 "The Atronach rejects you"
+ ek_travel_events.0007.t.atronach:0 "$travel_event_prefix$ Камень Мундуса: Атронах"
+ ek_travel_events.0007.desc.atronach:0 "[ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Атронаха.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
+ ek_travel_events.0007.a.tt.atronach:0 "Атронах принимает вас"
+ add_atronach:0 "Вы получите черту "Атронах" #italic ([birthsign|El])#!"
+ ek_travel_events.0007.a.tt_fail.atronach:0 "Атронах отвергает вас"
 
- ek_travel_events.0007.t.lady:0 "$travel_event_prefix$ Mundus Stone: The Lady"
- ek_travel_events.0007.desc.lady:0 "While venturing through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] in [ROOT.Char.GetCurrentLocation.GetName], I stumbled upon a monolithic structure adorned with celestial engravings. This enigmatic stone bore celestial inscriptions that promised to grant me the celestial powers of the Lady Constellation.\n\nA crucial decision loomed: embrace its potent influence or leave it undisturbed, contemplating the secrets of this celestial marvel."
- ek_travel_events.0007.a.tt.lady:0 "The Lady accepts you"
- add_lady:0 "You gain the trait The Lady #italic ([birthsign|E])#!
- ek_travel_events.0007.a.tt_fail.lady:0 "The Lady rejects you"
+ ek_travel_events.0007.t.lady:0 "$travel_event_prefix$ Камень Мундуса: Леди"
+ ek_travel_events.0007.desc.lady:0 "[ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Леди.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
+ ek_travel_events.0007.a.tt.lady:0 "Леди принимает вас"
+ add_lady:0 "Вы получите черту "Леди" #italic ([birthsign|El])#!
+ ek_travel_events.0007.a.tt_fail.lady:0 "Леди отвергает вас"
 
- ek_travel_events.0007.t.lord:0 "$travel_event_prefix$ Mundus Stone: The Lord"
- ek_travel_events.0007.desc.lord:0 "While venturing through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] in [ROOT.Char.GetCurrentLocation.GetName], I stumbled upon a monolithic structure adorned with celestial engravings. This enigmatic stone bore celestial inscriptions that promised to grant me the celestial powers of the Lord Constellation.\n\nA crucial decision loomed: embrace its potent influence or leave it undisturbed, contemplating the secrets of this celestial marvel."
- ek_travel_events.0007.a.tt.lord:0 "The Lord accepts you"
- add_lord:0 "You gain the trait The Lord #italic ([birthsign|E])#!
- ek_travel_events.0007.a.tt_fail.lord:0 "The Lord rejects you"
+ ek_travel_events.0007.t.lord:0 "$travel_event_prefix$ Камень Мундуса: Лорд"
+ ek_travel_events.0007.desc.lord:0 "[ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Лорда.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
+ ek_travel_events.0007.a.tt.lord:0 "Лорд принимает вас"
+ add_lord:0 "Вы получите черту "Лорд" #italic ([birthsign|El])#!
+ ek_travel_events.0007.a.tt_fail.lord:0 "Лорд отвергает вас"
 
- ek_travel_events.0007.t.lover:0 "$travel_event_prefix$ Mundus Stone: The Lover"
- ek_travel_events.0007.desc.lover:0 "While venturing through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] in [ROOT.Char.GetCurrentLocation.GetName], I stumbled upon a monolithic structure adorned with celestial engravings. This enigmatic stone bore celestial inscriptions that promised to grant me the celestial powers of the Lover Constellation.\n\nA crucial decision loomed: embrace its potent influence or leave it undisturbed, contemplating the secrets of this celestial marvel."
- ek_travel_events.0007.a.tt.lover:0 "The Lover accepts you"
- add_lover:0 "You gain the trait The Lover #italic ([birthsign|E])#!
- ek_travel_events.0007.a.tt_fail.lover:0 "The Lover rejects you"
+ ek_travel_events.0007.t.lover:0 "$travel_event_prefix$ Камень Мундуса: Любовник"
+ ek_travel_events.0007.desc.lover:0 "[ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Любовника.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
+ ek_travel_events.0007.a.tt.lover:0 "Любовник принимает вас"
+ add_lover:0 "Вы получите черту "Любовник" #italic ([birthsign|El])#!
+ ek_travel_events.0007.a.tt_fail.lover:0 "Любовник отвергает вас"
 
- ek_travel_events.0007.t.mage:0 "$travel_event_prefix$ Mundus Stone: The Mage"
- ek_travel_events.0007.desc.mage:0 "While venturing through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] in [ROOT.Char.GetCurrentLocation.GetName], I stumbled upon a monolithic structure adorned with celestial engravings. This enigmatic stone bore celestial inscriptions that promised to grant me the celestial powers of the Mage Constellation.\n\nA crucial decision loomed: embrace its potent influence or leave it undisturbed, contemplating the secrets of this celestial marvel."
- ek_travel_events.0007.a.tt.mage:0 "The Mage accepts you"
- add_mage:0 "You gain the trait The Mage #italic ([birthsign|E])#!
- ek_travel_events.0007.a.tt_fail.mage:0 "The Mage rejects you"
+ ek_travel_events.0007.t.mage:0 "$travel_event_prefix$ Камень Мундуса: Маг"
+ ek_travel_events.0007.desc.mage:0 "[ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Мага.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
+ ek_travel_events.0007.a.tt.mage:0 "Маг принимает вас"
+ add_mage:0 "Вы получите черту "Маг" #italic ([birthsign|El])#!
+ ek_travel_events.0007.a.tt_fail.mage:0 "Маг отвергает вас"
 
- ek_travel_events.0007.t.ritual:0 "$travel_event_prefix$ Mundus Stone: The Ritual"
- ek_travel_events.0007.desc.ritual:0 "While venturing through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] in [ROOT.Char.GetCurrentLocation.GetName], I stumbled upon a monolithic structure adorned with celestial engravings. This enigmatic stone bore celestial inscriptions that promised to grant me the celestial powers of the Ritual Constellation.\n\nA crucial decision loomed: embrace its potent influence or leave it undisturbed, contemplating the secrets of this celestial marvel."
- ek_travel_events.0007.a.tt.ritual:0 "The Ritual accepts you"
- add_ritual:0 "You gain the trait The Ritual #italic ([birthsign|E])#!
- ek_travel_events.0007.a.tt_fail.ritual:0 "The Ritual rejects you"
+ ek_travel_events.0007.t.ritual:0 "$travel_event_prefix$ Камень Мундуса: Ритуал"
+ ek_travel_events.0007.desc.ritual:0 "[ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Ритуала.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
+ ek_travel_events.0007.a.tt.ritual:0 "Ритуал принимает вас"
+ add_ritual:0 "Вы получите черту "Ритуал" #italic ([birthsign|El])#!
+ ek_travel_events.0007.a.tt_fail.ritual:0 "Ритуал отвергает вас"
 
- ek_travel_events.0007.t.serpent:0 "$travel_event_prefix$ Mundus Stone: The Serpent"
- ek_travel_events.0007.desc.serpent:0 "While venturing through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] in [ROOT.Char.GetCurrentLocation.GetName], I stumbled upon a monolithic structure adorned with celestial engravings. This enigmatic stone bore celestial inscriptions that promised to grant me the celestial powers of the Serpent Constellation.\n\nA crucial decision loomed: embrace its potent influence or leave it undisturbed, contemplating the secrets of this celestial marvel."
- ek_travel_events.0007.a.tt.serpent:0 "The Serpent accepts you"
- add_serpent:0 "You gain the trait The Serpent #italic ([birthsign|E])#!
- ek_travel_events.0007.a.tt_fail.serpent:0 "The Serpent rejects you"
+ ek_travel_events.0007.t.serpent:0 "$travel_event_prefix$ Камень Мундуса: Змей"
+ ek_travel_events.0007.desc.serpent:0 "[ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Змея.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
+ ek_travel_events.0007.a.tt.serpent:0 "Змей принимает вас"
+ add_serpent:0 "Вы получите черту "Змей" #italic ([birthsign|El])#!
+ ek_travel_events.0007.a.tt_fail.serpent:0 "Змей отвергает вас"
 
- ek_travel_events.0007.t.shadow:0 "$travel_event_prefix$ Mundus Stone: The Shadow"
- ek_travel_events.0007.desc.shadow:0 "While venturing through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] in [ROOT.Char.GetCurrentLocation.GetName], I stumbled upon a monolithic structure adorned with celestial engravings. This enigmatic stone bore celestial inscriptions that promised to grant me the celestial powers of the Shadow Constellation.\n\nA crucial decision loomed: embrace its potent influence or leave it undisturbed, contemplating the secrets of this celestial marvel."
- ek_travel_events.0007.a.tt.shadow:0 "The Shadow accepts you"
- add_shadow:0 "You gain the trait The Shadow #italic ([birthsign|E])#!
- ek_travel_events.0007.a.tt_fail.shadow:0 "The Shadow rejects you"
+ ek_travel_events.0007.t.shadow:0 "$travel_event_prefix$ Камень Мундуса: Тень"
+ ek_travel_events.0007.desc.shadow:0 "[ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Тени.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
+ ek_travel_events.0007.a.tt.shadow:0 "Тень принимает вас"
+ add_shadow:0 "Вы получите черту "Тень" #italic ([birthsign|El])#!
+ ek_travel_events.0007.a.tt_fail.shadow:0 "Тень отвергает вас"
 
- ek_travel_events.0007.t.steed:0 "$travel_event_prefix$ Mundus Stone: The Steed"
- ek_travel_events.0007.desc.steed:0 "While venturing through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] in [ROOT.Char.GetCurrentLocation.GetName], I stumbled upon a monolithic structure adorned with celestial engravings. This enigmatic stone bore celestial inscriptions that promised to grant me the celestial powers of the Steed Constellation.\n\nA crucial decision loomed: embrace its potent influence or leave it undisturbed, contemplating the secrets of this celestial marvel."
- ek_travel_events.0007.a.tt.steed:0 "The Steed accepts you"
- add_steed:0 "You gain the trait The Steed #italic ([birthsign|E])#!
- ek_travel_events.0007.a.tt_fail.steed:0 "The Steed rejects you"
+ ek_travel_events.0007.t.steed:0 "$travel_event_prefix$ Камень Мундуса: Конь"
+ ek_travel_events.0007.desc.steed:0 "[ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Коня.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
+ ek_travel_events.0007.a.tt.steed:0 "Конь принимает вас"
+ add_steed:0 "Вы получите черту "Конь" #italic ([birthsign|El])#!
+ ek_travel_events.0007.a.tt_fail.steed:0 "Конь отвергает вас"
 
- ek_travel_events.0007.t.thief:0 "$travel_event_prefix$ Mundus Stone: The Thief"
- ek_travel_events.0007.desc.thief:0 "While venturing through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] in [ROOT.Char.GetCurrentLocation.GetName], I stumbled upon a monolithic structure adorned with celestial engravings. This enigmatic stone bore celestial inscriptions that promised to grant me the celestial powers of the Thief Constellation.\n\nA crucial decision loomed: embrace its potent influence or leave it undisturbed, contemplating the secrets of this celestial marvel."
- ek_travel_events.0007.a.tt.thief:0 "The Thief accepts you"
- add_thief:0 "You gain the trait The Thief #italic ([birthsign|E])#!
- ek_travel_events.0007.a.tt_fail.thief:0 "The Thief rejects you"
+ ek_travel_events.0007.t.thief:0 "$travel_event_prefix$ Камень Мундуса: Вор"
+ ek_travel_events.0007.desc.thief:0 "[ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Вора.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
+ ek_travel_events.0007.a.tt.thief:0 "Вор принимает вас"
+ add_thief:0 "Вы получите черту "Вор" #italic ([birthsign|El])#!
+ ek_travel_events.0007.a.tt_fail.thief:0 "Вор отвергает вас"
 
- ek_travel_events.0007.t.tower:0 "$travel_event_prefix$ Mundus Stone: The Tower"
- ek_travel_events.0007.desc.tower:0 "While venturing through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] in [ROOT.Char.GetCurrentLocation.GetName], I stumbled upon a monolithic structure adorned with celestial engravings. This enigmatic stone bore celestial inscriptions that promised to grant me the celestial powers of the Tower Constellation.\n\nA crucial decision loomed: embrace its potent influence or leave it undisturbed, contemplating the secrets of this celestial marvel."
- ek_travel_events.0007.a.tt.tower:0 "The Tower accepts you"
- add_tower:0 "You gain the trait The Tower #italic ([birthsign|E])#!
- ek_travel_events.0007.a.tt_fail.tower:0 "The Tower rejects you"
+ ek_travel_events.0007.t.tower:0 "$travel_event_prefix$ Камень Мундуса: Башня"
+ ek_travel_events.0007.desc.tower:0 "[ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Башни.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
+ ek_travel_events.0007.a.tt.tower:0 "Башня принимает вас"
+ add_tower:0 "Вы получите черту "Башня" #italic ([birthsign|El])#!
+ ek_travel_events.0007.a.tt_fail.tower:0 "Башня отвергает вас"
 
- ek_travel_events.0007.t.warrior:0 "$travel_event_prefix$ Mundus Stone: The Warrior"
- ek_travel_events.0007.desc.warrior:0 "While venturing through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] in [ROOT.Char.GetCurrentLocation.GetName], I stumbled upon a monolithic structure adorned with celestial engravings. This enigmatic stone bore celestial inscriptions that promised to grant me the celestial powers of the Warrior Constellation.\n\nA crucial decision loomed: embrace its potent influence or leave it undisturbed, contemplating the secrets of this celestial marvel."
- ek_travel_events.0007.a.tt.warrior:0 "The Warrior accepts you"
- add_warrior:0 "You gain the trait The Warrior #italic ([birthsign|E])#!
- ek_travel_events.0007.a.tt_fail.warrior:0 "The Warrior rejects you"
+ ek_travel_events.0007.t.warrior:0 "$travel_event_prefix$ Камень Мундуса: Воин"
+ ek_travel_events.0007.desc.warrior:0 "[ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Воина.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
+ ek_travel_events.0007.a.tt.warrior:0 "Воин принимает вас"
+ add_warrior:0 "Вы получите черту "Воин" #italic ([birthsign|El])#!
+ ek_travel_events.0007.a.tt_fail.warrior:0 "Воин отвергает вас"
 
- ek_travel_events.0008.t:0 "$travel_event_prefix$ Not Just Mounts"
- ek_travel_events.0008.desc:0 "Crossing the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] of [ROOT.Char.GetCurrentLocation.GetName] is pratically impossible without a local guide and their resilient Senche-Raht mounts. [offended.GetFirstName] has kindly offered [offended.GetHerHim]self to guide us on our way.\n\nAfter a quick rest, I noticed that one of the mounts didn't have anyone riding it. Asking [offended.GetFirstNameNoTooltip] about that rendered me several glares in response.\n\n"Is that a spare mount?", I asked.\n\n"No", answered [offended.GetFirstNameNoTooltip]. "That's my cousin.""
- ek_travel_events.0008.a:0 "I am truly sorry!"
- ek_travel_events.0008.b:0 "Please accept this gold as an apology."
- ek_travel_events.0008.c:0 "Well, can I ride it then?"
+ ek_travel_events.0008.t:0 "$travel_event_prefix$ Не просто верховые животные"
+ ek_travel_events.0008.desc:0 "Пересечь [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] в местечке [ROOT.Char.GetCurrentLocation.GetName] практически невозможно без местных проводников и их выносливых верховых сенч-рат. [offended.GetFirstName] любезно предложил себя в качестве проводника на нашем пути.\n\nОтдохнув, я [Select_CString(ROOT.Char.IsFemale, 'заметила', 'заметил' )], что на одном из сенч-рат никто не сидит. Я [Select_CString(ROOT.Char.IsFemale, 'спросила', 'спросил' )] у проводника об этом, но в ответ на меня странно посмотрели.\n\n"Это запасное животное?", [Select_CString(ROOT.Char.IsFemale, 'поинтересовалась', 'поинтересовался' )] я.\n\n"Нет", [Select_CString(offended.IsFemale, 'ответила', 'ответил' )] [offended.GetFirstNameNoTooltip]. "Это мой кузен.""
+ ek_travel_events.0008.a:0 "Мне очень жаль!"
+ ek_travel_events.0008.b:0 "Пожалуйста, примите это золото в качестве извинения."
+ ek_travel_events.0008.c:0 "Ну, тогда я могу на нём проехаться?"
 
  ek_travel_events.0009.t:0 "$travel_event_prefix$ Winter Solace"
  ek_travel_events.0009.desc:0 "As I traversed the [ROOT.Char.GetCurrentLocation.GetName] [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip], a tranquil snowfall blanketed the landscape. All around, nature's creations glistened beneath their icy shroud.\n\nDelicate icicles adorned the surroundings, creating a lustrous cascade of frozen wonder. The gentle caress of a light wind filled the air with a melodious serenade.\n\nIt was as though winter had bestowed its serene embrace upon [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], offering a glimpse of paradise."

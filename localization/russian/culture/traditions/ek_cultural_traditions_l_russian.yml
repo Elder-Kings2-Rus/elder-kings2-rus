@@ -6,7 +6,7 @@
  culture_parameter_dueling_culture:0 "[characters|E] этой [Concept('culture', 'культуры')|E] гораздо чаще предлагают и принимают дуэли"
  culture_parameter_more_prestige_from_battles:0 "[prestige_i][prestige|E] и [Concept('prestige_experience', 'репутация')|E] от [Concept('battles', 'битв')|E]: [prestige_i] #P +50%#!\nПри руководстве собственными войсками: [prestige_i] #P +50%#!"
  culture_parameter_courtiers_and_guests_more_likely_to_join_schemes:0 "[courtiers|E] и [Concept( 'guests', 'гости' )|E] с большей вероятностью присоединятся к [Concept( 'hostile_schemes', 'враждебным проискам' )|E] против [Concept( 'ruler', 'правителя' )|E]" 
- culture_parameter_cannot_feast:1 "Нельзя устраивать [feast|El]"
+ culture_parameter_cannot_feast:1 "Нельзя устраивать [activity|El] типа «Пир»"
  culture_parameter_rebellious_vassals:0 "[vassals|E] этой [Concept('culture', 'культуры')|E] более склонны к [Concept('revolt', 'мятежу')|E],  снижая порог силы [liberty_factions|El] на #N -30%#!"
  culture_parameter_cheaper_dynastic_interactions:0 "[rulers|E] этой [Concept('culture', 'культуры')|E] могут использовать [dynast_interactions|El] с меньшими затратами"
  culture_parameter_rival_murder_decriminalized:0 "[characters|E] этой [Concept('culture', 'культуры')|E] могут убивать своих [Concept('rivals', 'соперников')|E], не получая [trait|El] [GetTrait('murderer').GetName( GetNullCharacter )]. [characters|E] все равно будут считаться убийцами, если их [liege|El] принадлежит к культуре, которая не разделяет эту традицию."
@@ -26,7 +26,7 @@
  culture_parameter_cleanse_abominations_undead_rulers:0 "[rulers|E] может использовать [Concept('cleanse_abomination_war', 'войну для уничтожения мерзостей')|E] против правителей-нежити"
  culture_parameter_cleanse_abominations_necromancers_rulers:0 "[rulers|E] может использовать [Concept('cleanse_abomination_war', 'войну для уничтожения мерзостей')|E] против правителей-некромантов"
  culture_parameter_peasant_mystic_revolts_more_common:0 "[peasant_factions|E] той же [Concept('culture', 'культуры')|E] более распространены и часто возглавляются мистиками"
- culture_parameter_tolerant_of_pariahs:0 "Не может использовать [casus_belli|E] #V 'Изгнание монстров'#! против [Concept('pariahs', 'парий')|E] или [Concept('pariah_discriminate', 'притеснённых')|E], не считая это [Concept('tyranny', 'тиранией')|E]"
+ culture_parameter_tolerant_of_pariahs:0 "Нельзя использовать [casus_belli|E] #V 'Изгнание монстров'#! против [Concept('pariahs', 'парий')|E] или [Concept('pariah_discriminate', 'притеснённых')|E], не считая это [Concept('tyranny', 'тиранией')|E]"
 
 ## GOVERNMENT PARAMETERS
  culture_parameter_unlocks_feudal_government:0 "Открывает [feudal_government|El] для [Concept('autocratic', 'автократичных')|E] [Concept('rulers', 'правителей')|E]"
@@ -226,9 +226,9 @@
  culture_parameter_scholars_respected:0 "[trait|E] [GetTrait('scholar').GetName( GetNullCharacter )] даёт [prestige_i][prestige|El]"
 
 ##CHILD PERSONALITY AND EDUCATION PARAMETERS
- culture_parameter_curious_trait_more_common:0  "[children|E] с большей вероятностью получат [Concept('trait', 'свойство')|E] [GetTrait('curious').GetName( GetNullCharacter )]"
+ culture_parameter_curious_trait_more_common:0  "[children|E] с большей вероятностью получат [Concept('trait', 'свойство')|E] «[GetTrait('curious').GetName( GetNullCharacter )]»"
  culture_parameter_curious_trait_less_common:0 "[children|E] с меньшей вероятностью получат [Concept('trait', 'свойство')|E] [GetTrait('curious').GetName( GetNullCharacter )]"
- culture_parameter_bossy_trait_more_common:0  "[children|E] с большей вероятностью получат [Concept('trait', 'свойство')|E] [GetTrait('bossy').GetName( GetNullCharacter )]"
+ culture_parameter_bossy_trait_more_common:0  "[children|E] с большей вероятностью получат [Concept('trait', 'свойство')|E] «[GetTrait('bossy').GetName( GetNullCharacter )]»"
  culture_parameter_bossy_trait_less_common:0 "[children|E] с меньшей вероятностью получат [Concept('trait', 'свойство')|E] [GetTrait('bossy').GetName( GetNullCharacter )]"
  culture_parameter_charming_trait_less_common:0 "[children|E] с меньшей вероятностью получат [Concept('trait', 'свойство')|E] [GetTrait('charming').GetName( GetNullCharacter )]"
  
