@@ -1,80 +1,80 @@
 ﻿l_russian:
   
- fake_duel_arcana.tt: "@skill_arcana_icon!Магическое испытание против [versus_contestant.GetName]" #NT!
- fake_duel_arcana_prowess.tt: "Смешанное испытание @skill_arcana_icon!Арканы и @skill_prowess_icon!доблести против [versus_contestant.GetName]" #NT!
- fake_duel_arcana_martial.tt: "Объединение @skill_arcana_icon!Арканы и @skill_martial_icon!боевых навыков против [versus_contestant.GetName]" #NT!
- fake_duel_arcana_learning.tt: "Объединение @skill_arcana_icon!Арканы и @skill_learning_icon!образованности против [versus_contestant.GetName]" #NT!
- fake_duel_arcana_stewardship.tt: "Смешанное испытание @skill_arcana_icon!Арканы и @skill_stewardship_icon!навыков управления против [versus_contestant.GetName]" #NT!
- fake_duel_arcana_diplomacy.tt: "Объединение @skill_arcana_icon!Арканы и @skill_diplomacy_icon!дипломатии против [versus_contestant.GetName]" #NT!
- fake_duel_arcana_intrigue.tt: "Объединение @skill_arcana_icon!Арканы и @skill_intrigue_icon!интриги против [versus_contestant.GetName]" #NT!
+ fake_duel_arcana.tt: "@skill_arcana_icon!Магическое испытание против персонажа [versus_contestant.GetName]"
+ fake_duel_arcana_prowess.tt: "Смешанное испытание @skill_arcana_icon!Арканы и @skill_prowess_icon!Доблести против персонажа [versus_contestant.GetName]"
+ fake_duel_arcana_martial.tt: "Объединённое испытание @skill_arcana_icon!Арканы и @skill_martial_icon!Военного дела против персонажа [versus_contestant.GetName]"
+ fake_duel_arcana_learning.tt: "Объединённое испытание @skill_arcana_icon!Арканы и @skill_learning_icon!Образованности против персонажа [versus_contestant.GetName]"
+ fake_duel_arcana_stewardship.tt: "Смешанное испытание @skill_arcana_icon!Арканы и @skill_stewardship_icon!Управления против персонажа [versus_contestant.GetName]"
+ fake_duel_arcana_diplomacy.tt: "Объединённое испытание @skill_arcana_icon!Арканы и @skill_diplomacy_icon!Дипломатии против персонажа [versus_contestant.GetName]"
+ fake_duel_arcana_intrigue.tt: "Объединённое испытание @skill_arcana_icon!Арканы и @skill_intrigue_icon!Интриги против персонажа [versus_contestant.GetName]"
   
- contest_events.0800.arcane_clash: "Руны вычерчиваются на песке арены, свитки изучаются в последний раз, тихо бормочутся заклинания, а глашатай объявляет о начале состязания. Маги всех школ готовятся раскрыть свой тайный потенциал в предстоящих дуэлях.\n\n" #NT!
- contest_events.0805.t.arcane_clash: "$tournament_phase_arcane_clash$: $contest_events.0505.t$" #NT!
+ contest_events.0800.arcane_clash: "Руны вычёрчиваются на песке арены, свитки изучаются в последний раз, тихо бормочутся заклинания, а глашатай объявляет о начале состязания. Маги всех школ готовятся раскрыть свой тайный потенциал в предстоящих дуэлях.\n\n"
+ contest_events.0805.t.arcane_clash: "$tournament_phase_arcane_clash$: $contest_events.0505.t$"
   
- tournament_events.0150.arcane_clash: "Магические способности [arcane_clash_winner.GetTitledFirstNamePossessive|U] были достаточно сильны, чтобы победить всех противников и выиграть Магическое столкновение.\n" #NT!
- tournament_events.0150.arcane_clash_self: "Благодаря моим магическим способностям я смог победить всех противников и выиграть Магическое столкновение.\n" #NT!
+ tournament_events.0150.arcane_clash: "Магические способности персонажа [arcane_clash_winner.GetTitledFirstNamePossessive|U] были достаточно сильны, чтобы победить всех противников и выиграть Магическое столкновение.\n"
+ tournament_events.0150.arcane_clash_self: "Благодаря моим магическим способностям я [Select_CString(ROOT.Char.IsFemale, 'смогла', 'смог' )] победить всех противников и выиграть Магическое столкновение.\n"
   
- tournament_events.6051.arcane_clash: "Я пытался наложить тайное заклинание на [sabotage_target.GetFirstName] до начала [activity.GetCurrentPhase.GetPhase.GetName|l], чтобы обеспечить себе преимущество." #NT!
+ tournament_events.6051.arcane_clash: "Я [Select_CString(ROOT.Char.IsFemale, 'пыталась', 'пытался' )] наложить тайное заклинание на персонажа [sabotage_target.GetFirstName] до начала состязания [activity.GetCurrentPhase.GetPhase.GetName|l], чтобы обеспечить себе преимущество."
   
- tournament_versus_contest_end_flavor_arcane_clash_1: "[ROOT.Char.GetFirstNameOrMeNoTooltip|U] мог использовать более сильные заклинания." #NT!
- tournament_versus_contest_end_flavor_arcane_clash_2: "[ROOT.Char.GetFirstNameOrMeNoTooltip|U] оказался верховным магом." #NT!
- tournament_versus_contest_end_flavor_arcane_clash_3: "[ROOT.Char.GetFirstNameOrMeNoTooltip|U] продемонстрировал более глубокое понимание арканы, чем [second.GetFirstNameOrMeNoTooltip]." #NT!
+ tournament_versus_contest_end_flavor_arcane_clash_1: "[ROOT.Char.GetFirstNameOrMeNoTooltip|U] [Select_CString(ROOT.Char.IsFemale, 'сумела', 'сумел' )] использовать более сильные заклинания." #NT!
+ tournament_versus_contest_end_flavor_arcane_clash_2: "[ROOT.Char.GetFirstNameOrMeNoTooltip|U] [Select_CString(ROOT.Char.IsFemale, 'оказалась', 'оказался' )] более сильным магом."
+ tournament_versus_contest_end_flavor_arcane_clash_3: "[ROOT.Char.GetFirstNameOrMeNoTooltip|U] [Select_CString(ROOT.Char.IsFemale, 'продемонстрировала', 'продемонстрировал' )] более глубокое понимание арканы, чем [second.GetFirstNameOrMeNoTooltip]."
   
- activity_window_character_arcane_clash_winner: "Победитель Магического столкновения\n[Character.GetShortUINameNoTooltip|U]" #NT!
+ activity_window_character_arcane_clash_winner: "Победитель Магического столкновения\n[Character.GetShortUINameNoTooltip|U]"
   
- locale_window_widget_progress_to_victory_label_active_competing_arcane_clash: "Вы участвуете в #bold Магическом столкновении#!" #NT!
+ locale_window_widget_progress_to_victory_label_active_competing_arcane_clash: "Вы участвуете в #bold Магическом столкновении#!"
   
- death_contest_arcane_clash_accident: "был случайно убит на турнире в Магическом столкновении" #NT!
- death_contest_arcane_clash_accident_killer: "был случайно убит на турнире [TARGET_CHARACTER.GetUIName] в Магическом столкновении" #NT!
+ death_contest_arcane_clash_accident: "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] на турнире в Магическом столкновении"
+ death_contest_arcane_clash_accident_killer: "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] на турнире [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'им персонажем', '' )] в Магическом столкновении"
   
- tournament_prize_staff_name: "Приз [newly_created_artifact.GetType|U]" #NT!
+ tournament_prize_staff_name: "Призовой [newly_created_artifact.GetType|U]"
   
- contest_bg_arcane_clash: "Магический турнир" #NT!
+ contest_bg_arcane_clash: "Магический турнир"
   
- contest_events.0864.t: "$tournament_contest_header$ Заклинание и контрзаклинание" #NT!
- contest_events.0864.desc: "Заклинания блокируются вардами, призывы возвращаются в Обливион, а любая рана заживает за секунды — независимо от того, была ли она вызвана огнем, искрой или льдом. До сих пор это была настоящая демонстрация магической мощи, и я вспоминаю, когда" #NT!
- contest_events.0864.flavor_1: "мой противник призвал этого гигантского Атронаха.\n\n" #NT!
- contest_events.0864.flavor_2: "мой противник почти подавил меня разрушительными заклинаниями.\n\n" #NT!
- contest_events.0864.flavor_3: "Мне нужно было решить, как поступить с исцеляющими способностями моих противников.\n\n" #NT!
- contest_events.0864.flavor_4: "нам обоим приходилось управлять своим запасом магии.\n\n" #NT!
- contest_events.0864.flavor_5: "Я внезапно столкнулся с заклинанием невидимости.\n\n" #NT!
- contest_events.0864.flavor_6: "с арены вырвался опасный дремора.\n\n" #NT!
- contest_events.0864.flavor_7: "мы достигли тупика между нашими силами.\n\n" #NT!
- contest_events.0864.flavor_8: "Я стал свидетелем тайных знаний моих противников.\n\n" #NT!
- contest_events.0864.flavor_9: "мой противник готовил это действительно необычное заклинание.\n\n" #NT!
- contest_events.0864.flavor_10: "Мне пришлось иметь дело с некромантскими силами.\n\n" #NT!
- contest_events.0864.flavor_11: "Я нанес противнику удар стихией в живот.\n\n" #NT!
- contest_events.0864.flavor_12: "Мой противник использовал силы лича.\n\n" #NT!
- contest_events.0864.flavor_13: "Я исчерпал свои магические резервы, чтобы обеспечить победу.\n\n" #NT!
- contest_events.0864.flavor_14: "Я предпринял попытку запугивания своего противника.\n\n" #NT!
- contest_events.0864.flavor_15: "Я использовал магию иллюзий, чтобы настроить судью против моего противника.\n\n" #NT!
- contest_events.0864.flavor_fallback: "Поле для дуэлей теперь покрыто шрамами от ударов стихий, а воздух наполнен тайной энергией. Наша магия почти исчерпана, и пришло время выбрать закрывающее заклинание.\n\n" #NT!
- contest_events.0864.a: "Разрушение - способ покончить с этим" #NT!
- contest_events.0864.b: "Универсальность Изменения мне сейчас поможет" #NT!
- contest_events.0864.c: "Мне придется снова положиться на свои способности к Восстановлению." #NT!
- contest_events.0864.d: "В конце концов, мой оппонент поддастся моим иллюзиям." #NT!
- contest_events.0864.e: "Буду действовать по ситуации" #NT!
+ contest_events.0864.t: "$tournament_contest_header$ Заклинание и контрзаклинание"
+ contest_events.0864.desc: "Заклинания блокируются оберегами, призванные существа возвращаются в Обливион, а любая рана заживает за секунды — независимо от того, была ли она вызвана огнём, искрой или льдом. До сих пор это была настоящая демонстрация магической мощи, и я вспоминаю, когда"
+ contest_events.0864.flavor_1: "мой оппонент призвал этого гигантского атронаха.\n\n"
+ contest_events.0864.flavor_2: "мой оппонент почти подавил меня заклинаниями школы Разрушения.\n\n"
+ contest_events.0864.flavor_3: "мне нужно было решить, как поступить с исцеляющими способностями моего оппонента.\n\n"
+ contest_events.0864.flavor_4: "нам обоим приходилось управлять своим запасом маны.\n\n"
+ contest_events.0864.flavor_5: "я внезапно [Select_CString(ROOT.Char.IsFemale, 'столкнулась', 'столкнулся' )] с заклинанием невидимости.\n\n"
+ contest_events.0864.flavor_6: "с арены вырвался опасный дремора.\n\n"
+ contest_events.0864.flavor_7: "мы достигли тупика между нашими силами.\n\n"
+ contest_events.0864.flavor_8: "я [Select_CString(ROOT.Char.IsFemale, 'стала свидетельницей', 'стал свидетелем' )] магических знаний моего оппонента.\n\n"
+ contest_events.0864.flavor_9: "мой оппонент приготовил это поистине необычное заклинание.\n\n"
+ contest_events.0864.flavor_10: "мне пришлось иметь дело с некромантскими силами.\n\n"
+ contest_events.0864.flavor_11: "я [Select_CString(ROOT.Char.IsFemale, 'нанесла', 'нанёс' )] оппоненту удар стихией в живот.\n\n"
+ contest_events.0864.flavor_12: "мой оппонент использовал силы лича.\n\n"
+ contest_events.0864.flavor_13: "я [Select_CString(ROOT.Char.IsFemale, 'исчерпала', 'исчерпал' )] свои магические резервы, чтобы обеспечить себе победу.\n\n"
+ contest_events.0864.flavor_14: "я [Select_CString(ROOT.Char.IsFemale, 'предприняла', 'предпринял' )] попытку запугивания своего оппонента.\n\n"
+ contest_events.0864.flavor_15: "я [Select_CString(ROOT.Char.IsFemale, 'использовала', 'использовал' )] магию школы Иллюзии, чтобы настроить судью против моего оппонента.\n\n"
+ contest_events.0864.flavor_fallback: "Поле для дуэлей теперь покрыто шрамами от ударов стихий, а воздух наполнен магической энергией. Наша мана почти исчерпана, и пришло время выбрать завершающее заклинание.\n\n"
+ contest_events.0864.a: "Магия школы Разрушения - способ покончить с этим"
+ contest_events.0864.b: "Универсальность школы Изменения мне сейчас поможет"
+ contest_events.0864.c: "Мне придётся снова положиться на свои способности в школе Восстановления."
+ contest_events.0864.d: "В конце концов, мой оппонент поддастся моим иллюзиям."
+ contest_events.0864.e: "Финальный призыв решит всё"
   
- contest_events.0874.t: "$tournament_contest_header$ Магический финал" #NT!
- contest_events.0874.pivotal_success: "Я чувствую, как магия бурлит по моим венам, пока я формирую из нее мощное заклинание. Мой противник не может использовать правильные контрмеры и становится жертвой моей мощи. Я не могу сдержать улыбку, пока готовлю следующее заклинание, которое высвободит еще более высшие силы.\n\n" #NT!
- contest_events.0874.pivotal_neutral: "Какое бы заклинание ни пробовал один из нас – другой всегда находит правильный ответ. Похоже, это магическое испытание силы будет продолжаться до тех пор, пока один из нас не одержит верх или пока у него не закончится магия.\n\n" #NT!
- contest_events.0874.pivotal_failure: "Я вложил в это заклинание все свои знания и силу, но мой противник нейтрализует его одним взмахом руки. Я понимаю, что совершил серьезную ошибку, и маг не может себе этого позволить. Потраченная на это магия ставит меня в невыгодное положение, которое легко может привести к моему падению.\n\n" #NT!
- contest_events.0874.ptv_close: "Это действительно равновесие сил. Чтобы выйти из этой тупиковой ситуации, потребуется правильное заклинание." #NT!
- contest_events.0874.ptv_top: "Я явно доминирую в этой магической дуэли. Мне просто нужно сейчас избежать серьезных ошибок, и победа должна быть за мной." #NT!
- contest_events.0874.ptv_top_spectator: "[pivotal_contestant.GetFirstName|U] явно доминирует в этой магической дуэли. Сейчас просто нужно избегать серьезных ошибок, и победа будет [pivotal_contestant.GetHersHis]." #NT!
- contest_events.0874.ptv_bottom: "Пока что мои заклинания оказываются неэффективными, и каждое приближает меня к поражению. Мне нужно принять правильное решение, иначе все будет кончено..." 
- contest_events.0874.ptv_bottom_spectator: "[pivotal_contestant.GetFirstName] заклинания пока что оказываются неэффективными, и каждое приближает [pivotal_contestant.GetHerHim] к поражению. Если [pivotal_contestant.GetSheHe] не примет правильного решения сейчас, то все будет кончено..."
- contest_events.0874.ptv_top_half: "На данный момент мне удалось сохранить преимущество, поскольку мой противник изо всех сил пытается справиться с моими заклинаниями. Но победа все еще далеко." #NT!
- contest_events.0874.ptv_top_half_spectator: "[pivotal_contestant.GetFirstName] на данный момент удалось сохранить преимущество, поскольку противник изо всех сил пытается справиться с [pivotal_contestant.GetHerHis] заклинаниями. Но победа все еще далеко." #NT!
- contest_events.0874.ptv_bottom_half: "Я не смог найти правильный ответ на заклинания, которые были использованы на меня, но у меня еще остались магические силы. Если использовать их с умом, я мог бы восстановить свое положение." #NT!
- contest_events.0874.ptv_bottom_half_spectator: "[pivotal_contestant.GetFirstName] не смог найти правильный ответ на примененные заклинания, [pivotal_contestant.GetSheHe] еще имеет какую то магическую силу. При разумном использовании [pivotal_contestant.GetSheHe] всё может обернуть." #NT!
- contest_events.0874.ptv_fallback: "Потоки магии и взрывы стихий сотрясают землю, пока Магическое столкновение продолжается." #NT!
- contest_events.0874.spectator: "\n\nОба участника не дают друг другу возможности дышать, пока заклинание следует за заклинанием. В этой битве используются все школы магии, и толпа восхищается проявлением такой силы." #NT!
- contest_events.0874.final: "Воздух наполнился магией, а заклинания становились сильнее с каждой секундой. Эта демонстрация магической силы скоро достигнет своего апогея." #NT!
- contest_events.0874.winner_start: "Я чувствую свою возможность и не позволю ей пропасть даром, [versus_contestant.GetFirstName] не имеет возможности ей противостоять." #NT!
- contest_events.0874.loser_start: "Заклинание [versus_contestant.GetFirstName|U] застало меня врасплох. Я не смогу вовремя оправиться от этого, так как [versus_contestant.GetSheHe] уже готовит следующее заклинание." #NT!
- contest_events.0874.winner_surprise: "Иногда одно правильное заклинание в нужное время — это все, что нужно, чтобы решить исход равного состязания. Мне удается найти именно это заклинание, застигая противника врасплох." #NT!
- contest_events.0874.winner_grind: "Я медленно истощаю запасы [versus_contestant.GetHerHis] магии бесконечной бомбардировкой различными заклинаниями. Это лишь вопрос времени, когда [versus_contestant.GetHerHis] защита пошатнется и [versus_contestant.GetSheHe] уступит моему превосходству." #NT!
+ contest_events.0874.t: "$tournament_contest_header$ Магический финал"
+ contest_events.0874.pivotal_success: "Я чувствую, как магия бурлит по моим венам, пока я формирую из неё мощное заклинание. Мой оппонент не может использовать правильные контрмеры и становится жертвой моей мощи. Я не могу сдержать улыбку, пока готовлю следующее заклинание, которое высвободит ещё более высшие силы.\n\n"
+ contest_events.0874.pivotal_neutral: "Какое бы заклинание ни пробовал один из нас – другой всегда находит правильный ответ. Похоже, это магическое испытание силы будет продолжаться до тех пор, пока один из нас не одержит верх или пока у него не закончится мана.\n\n"
+ contest_events.0874.pivotal_failure: "Я [Select_CString(ROOT.Char.IsFemale, 'вложила', 'вложил' )] в это заклинание все свои знания и силу, но мой оппонет нейтрализует его одним взмахом руки. Я понимаю, что [Select_CString(ROOT.Char.IsFemale, 'совершила', 'совершил' )] серьёзную ошибку, и маг не может себе этого позволить. Потраченная на это мана ставит меня в невыгодное положение, которое легко может привести меня к поражению.\n\n"
+ contest_events.0874.ptv_close: "Это действительно равновесие сил. Чтобы выйти из этой тупиковой ситуации, потребуется правильное заклинание."
+ contest_events.0874.ptv_top: "Я явно доминирую в этой магической дуэли. Мне просто нужно сейчас избежать серьёзных ошибок, и победа должна быть за мной."
+ contest_events.0874.ptv_top_spectator: "[pivotal_contestant.GetFirstName|U] явно доминирует в этой магической дуэли. Сейчас просто нужно избегать серьезных ошибок, и победа будет за [Select_CString(pivotal_contestant.IsFemale, 'ней', 'ним' )]."
+ contest_events.0874.ptv_bottom: "Пока что мои заклинания оказываются неэффективными, и каждое приближает меня к поражению. Мне нужно принять правильное решение, иначе всё будет кончено..." 
+ contest_events.0874.ptv_bottom_spectator: "Заклинания персонажа [pivotal_contestant.GetFirstName] пока что оказываются неэффективными, и каждое приближает [pivotal_contestant.GetHerHis] к поражению. Если [pivotal_contestant.GetSheHe] не примет правильного решения сейчас, то все будет кончено..."
+ contest_events.0874.ptv_top_half: "На данный момент мне удалось сохранить преимущество, поскольку мой оппонент изо всех сил пытается справиться с моими заклинаниями. Но победа всё ещё далеко."
+ contest_events.0874.ptv_top_half_spectator: "[pivotal_contestant.GetFirstName] [Select_CString(pivotal_contestant.IsFemale, 'сумела', 'сумел' )] на данный момент сохранить преимущество, поскольку [Select_CString(pivotal_contestant.IsFemale, 'её', 'его' )] оппонент изо всех сил пытается справиться с [pivotal_contestant.GetHerHis] заклинаниями. Но победа всё ещё далеко."
+ contest_events.0874.ptv_bottom_half: "Я не [Select_CString(ROOT.Char.IsFemale, 'смогла', 'смог' )] найти правильный ответ на заклинания, которые были наложены на меня, но у меня ещё остались магические силы. Если использовать их с умом, я [Select_CString(ROOT.Char.IsFemale, 'могла', 'мог' )] бы восстановить своё положение."
+ contest_events.0874.ptv_bottom_half_spectator: "[pivotal_contestant.GetFirstName] не [Select_CString(pivotal_contestant.IsFemale, 'смогла', 'смог' )] найти правильный ответ на применённые заклинания, но [pivotal_contestant.GetSheHe] ещё имеет какую то магическую силу. При разумном использовании [pivotal_contestant.GetSheHe] всё ещё может обернуть ситуацию в свою пользу."
+ contest_events.0874.ptv_fallback: "Потоки магии и взрывы стихий сотрясают землю, пока Магическое столкновение продолжается."
+ contest_events.0874.spectator: "\n\nОба участника не дают друг другу возможности дышать, пока заклинание следует за заклинанием. В этой битве используются все школы магии, и толпа восхищается проявлением такой силы."
+ contest_events.0874.final: "Воздух наполнился магией, а заклинания становились сильнее с каждой секундой. Эта демонстрация магической силы скоро достигнет своего апогея."
+ contest_events.0874.winner_start: "Я чувствую свою возможность и не позволю ей пропасть даром, [versus_contestant.GetFirstName] не сможет ей противостоять."
+ contest_events.0874.loser_start: "Заклинание персонажа [versus_contestant.GetFirstName|U] застало меня врасплох. Я не смогу вовремя оправиться от этого, так как [versus_contestant.GetSheHe] уже готовит следующее заклинание."
+ contest_events.0874.winner_surprise: "Иногда одно правильное заклинание в нужное время — это всё, что нужно, чтобы решить исход равного состязания. Мне удаётся найти именно это заклинание, застигая оппонента врасплох."
+ contest_events.0874.winner_grind: "Я медленно истощаю [versus_contestant.GetHerHis] запасы маны бесконечной бомбардировкой различными заклинаниями. Это лишь вопрос времени, когда [versus_contestant.GetHerHis] защита пошатнется и [versus_contestant.GetSheHe] уступит моему превосходству."
  contest_events.0874.loser_surprise: "Внезапной сменой используемой магической школы [versus_contestant.GetSheHe] умудряется застать меня врасплох. Мои защитные заклинания сметены, и я полностью открыт для [versus_contestant.GetHerHis] магических атак." #NT!
  contest_events.0874.loser_grind: "Я блокирую заклинание за заклинанием, но [versus_contestant.GetHerHis] запас магии кажется бесконечным. Моей защиты уже начинает не хватать, и это лишь вопрос времени, когда [versus_contestant.GetSheHe] полностью ее сокрушит." #NT!
  contest_events.0874.a: "Еще одно заклинание..." #NT!
