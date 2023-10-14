@@ -149,7 +149,7 @@ trait_experimentalist_necromancer_player_desc:0 "Этот персонаж та�
  trait_dragonborn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )] с кровью и душой дракона. Известно, что драконорождённые пользуются благосклонностью богов."
 
  trait_bagarn:0 "Последний из своего рода"
- trait_bagarn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'последняя', 'последний' )] из своего рода. Нет никакой надежды на то, что [ROOT.GetCharacter.GetHerHim] когда-нибудь снова увидит своих родичей."
+ trait_bagarn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'последняя', 'последний' )] из своего рода. Нет никакой надежды на то, что [ROOT.GetCharacter.GetSheHe] когда-нибудь снова увидит своих родичей."
 
  trait_line_of_x:0 "Представитель рода [ROOT.Char.GetFirstNameNoTooltip]" # assume named Line of X
  trait_line_of_x_null:0 "Представитель рода" X" # incase character doesnt exist
