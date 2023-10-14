@@ -82,8 +82,8 @@
  #Scions of Lamae Bal 
  scions_faith:0 "Ламийск"
  scions_faith_adj:0 "Отпрыски Лами Бал"
- scions_faith_adherent:0 "Scion"
- scions_faith_adherent_plural:0 "Scions"
+ scions_faith_adherent:0 "Отпрыск"
+ scions_faith_adherent_plural:0 "Отпрыски"
  scions_faith_desc:0 "Первым вампиром была Лами Бал, которую в смертной жизни звали Лами Беолфег. Она была жрицей Аркея, которую Молаг Бал жестоко осквернил и превратил в первого вампира. Она взяла имя Бал в насмешку над Богом Вероломства и поклялась, что свершит кровавую месть. Те, кто следует за Кровавой Матроной, разделяют её целеустремленную ненависть к Молагу Балу и Аркею, которые отвергли свою бывшую последовательницу."
  scions_faith_high_god_name:0 "$god_lamae_name$"
  scions_faith_high_god_name_2:0 "$scions_faith_high_god_name$" # Optional translation alt

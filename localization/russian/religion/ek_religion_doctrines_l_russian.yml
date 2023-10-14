@@ -982,10 +982,10 @@
  # Velothi
  doctrine_pantheon_good_daedra_name:0 "Хорошие даэдра"
     doctrine_pantheon_good_daedra_desc:0 "Когда нас бросили, три хороших даэдра — Азура, Боэтия и Мефала — защитили нас и указали нам путь вперёд."
-    doctrine_parameter_pantheon_adds_deities_good_daedra:0 "Разблокирует возможность добавления следующих даэдра в ваш [pantheon|El] c помощью [Concept( 'doctrines', 'доктрин' )|E] даэдрических принцев: Азура, Боэтия, Мефала"
+    doctrine_parameter_pantheon_unlocks_daedra_good_daedra:0 "Разблокирует возможность добавления следующих даэдра в ваш [pantheon|El] c помощью [Concept( 'doctrines', 'доктрин' )|E] даэдрических принцев: Азура, Боэтия, Мефала"
  doctrine_pantheon_bad_daedra_name:0 "Дом Забот"
     doctrine_pantheon_bad_daedra_desc:0 "Хорошие даэдра — это лишь иллюзия. Лишь немногие принцы достаточно сильны, чтобы быть достойными нашего почитания."
-    doctrine_parameter_pantheon_adds_deities_bad_daedra:0 "Разблокирует возможность добавления следующих даэдра в ваш [pantheon|El] c помощью [Concept( 'doctrines', 'доктрин' )|E] даэдрических принцев: Малакат, Мерунес Дагон, Молаг Бал, Шеогорат"
+    doctrine_parameter_pantheon_unlocks_daedra_bad_daedra:0 "Разблокирует возможность добавления следующих даэдра в ваш [pantheon|El] c помощью [Concept( 'doctrines', 'доктрин' )|E] даэдрических принцев: Малакат, Мерунес Дагон, Молаг Бал, Шеогорат"
  doctrine_pantheon_tribunal_name:0 "АЛЬМСИВИ"
     doctrine_pantheon_tribunal_desc:0 "Трое вознеслись много веков назад и с тех пор направляют наш народ. Их свет будет сиять над нами до тех пор, пока мы будем хранить их в своём сердце."
     doctrine_parameter_pantheon_adds_deities_tribunal:0 "Добавит следующих покровителей в [pantheon|El]: Альмалексия, Сота Сил, Вивек"
@@ -2199,3 +2199,4 @@
 
 ## Misc doctrine parameters
  doctrine_parameter_magic_worship:0 "Персонажи данной [Concept( 'faith', 'конфессии' )|E] получают [Concept( 'arcana', 'аркану' )|E]:[arcana_i]#P +2#!"
+ 

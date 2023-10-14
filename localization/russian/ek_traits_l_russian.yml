@@ -325,7 +325,7 @@ trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoToolt
  trait_tsaesci_2_character_desc:1 "Сквозь завесу крови пленников, [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'постигла', 'постиг' )] тайны [Concept( 'tsaescence', 'цаэсценции' )|E]."
  trait_tsaesci_2_desc:1 "Сквозь завесу крови пленников, этот персонаж постиг тайны [Concept( 'tsaescence', 'цаэсценции' )|E]."
  trait_tsaesci_3:1 "Цаэсцендентность III"
- trait_tsaesci_3_character_desc:1 "Через размышления о сбрасывании собственной кожи, [ROOT.GetCharacter.GetFirstNameNoTooltip] познал [Concept( 'tsaescence', 'цаэсценцию' )|E]."
+ trait_tsaesci_3_character_desc:1 "Через размышления о сбрасывании собственной кожи, [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'познала', 'познал' )] [Concept( 'tsaescence', 'цаэсценцию' )|E]."
  trait_tsaesci_3_desc:1 "Через размышления о сбрасывании собственной кожи, этот персонаж познал [Concept( 'tsaescence', 'цаэсценцию' )|E]."
  trait_tsaesci_4:1 "Цаэсцендентность IV"
  trait_tsaesci_4_character_desc:1 "Через ритуалы наречения яиц, [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'стала', 'стал' )] многообразным и амбивалентным в [Concept( 'tsaescence', 'цаэсценции' )|E]."
@@ -433,7 +433,7 @@ trait_praxis_negative:0 "Апраксик"
  
  
  trait_racial_blindness:0 "Безглазость"
- trait_racial_blindness_desc:0 "Этот персонаж происходит от народа, давно потерявшего глаза. [Select_CString(ROOT.GetCharacter.IsFemale, 'Она лишена зрения и ей', 'Он лишён зрения и ему' )] приходится воспринимать мир другими способами."
+ trait_racial_blindness_desc:0 "Этот персонаж происходит от народа, давно потерявшего глаза. [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'лишена зрения и ей', 'лишён зрения и ему' )] приходится воспринимать мир другими способами."
 
  trait_track_magic:0 "Магия"
  trait_track_magic_desc:0 "Использовать магию в любой форме - значит держать в руках осколки божественной силы."

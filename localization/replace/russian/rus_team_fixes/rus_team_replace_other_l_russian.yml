@@ -1,6 +1,5 @@
 ﻿l_russian:
  pay_homage.0101.desc.language:3 "Хотя [homage_vassal.GetTitleAsNameNoTooltip|l] несомненно [Select_CString(homage_vassal.IsFemale, 'училась', 'учился' )] произносить клятвы на языке [homage_liege.GetCulture.GetCollectiveNounNoTooltip|l]ого народа, [homage_vassal.GetSheHe] ошибается в нескольких местах, подменяя их смысл и вызывая сдавленные смешки у моих придворных."
- crown:0 "Венценосцы"
  motto_through_x_mind_y:0 "Через $1$ разум обретается $2$"
  motto_the_x_mind_knows_y:0 "Через $1$ разум познается $2$"
  motto_a_good:0 "добрый"
@@ -19,7 +18,6 @@
  loremaster_court_position:0 "Хранитель знаний" # Scorg. Почему-то без замены в папке replace название должности не переводится.
  convert_to_feudalism_liege_converted_decision:0 "Принять форму правления [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|l] через сюзерена" # Scorg. Так звучит длиннее, но красивее 
  convert_to_feudalism_liege_converted_decision_desc:1 "Моя держава растет, и контролировать её всё сложнее. Мой сюзерен уже следует такой системе, как [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|l], и, когда я буду проводить реформы в своих владениях, мне стоит попросить [ROOT.Char.GetLiege.GetHerHis] помощи." # Scorg. Форма правления с маленькой буквы
- CHANGE_MY_GOVERNMENT:0 "Вашей новой формой правления станет [GOVERNMENT.GetName|l]" # Scorg. Форма правления с маленькой буквы
  huntwife_court_position:0 "Жена-охотница" # Scorg. Почему-то без замены в папке replace название должности не переводится.
  forgewife_court_position:0 "Кузнечная жена" # Scorg. Почему-то без замены в папке replace название должности не переводится.
  hearthwife_court_position:0 "Жена-хозяйка" # Scorg. Почему-то без замены в папке replace название должности не переводится.
