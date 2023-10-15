@@ -4,7 +4,7 @@
  form_reach_empire_decision_tooltip:0 "Вы создадите новую [Concept( 'empire', 'империю' )|E] в Пределе."
  form_reach_empire_decision_confirm:0 "Предел наконец-то будет объединен!"
  form_reach_empire_effect_de_jure_tt:0 "Все королевства в [Concept( 'region', 'регионе' )|E] [GetGeographicalRegion('mundus_tamriel_reach').GetName] станут [de_jure|El] частью титула [reach_empire.GetName]"
- form_reach_empire_effect_de_jure_tt_a:0 "Если следующие [Concept( 'kingdoms', 'королевства' )|E] [completely_controlled|El], они станут [de_jure|El] частью титула [reach_empire.GetNameNoTier]: [wrothgar.GetNameNoTier], [falkreath.GetNameNoTier], [solitude.GetNameNoTier], [bangkorai.GetNameNoTier]""
+ form_reach_empire_effect_de_jure_tt_a:0 "Если следующие [Concept( 'kingdoms', 'королевства' )|E] [completely_controlled|El], они станут [de_jure|El] частью титула [reach_empire.GetNameNoTier]: [wrothgar.GetNameNoTier], [falkreath.GetNameNoTier], [solitude.GetNameNoTier], [bangkorai.GetNameNoTier]"
  form_reach_empire_effect_de_jure_tt_b:0 "[darkfall.GetNameNoTier] станет [de_jure|El] частью титула [reach_kingdom.GetName], если не вы не владеете титулом [solitude.GetNameNoTier]"
  unlock_witch_knight:0 "[men_at_arms|E] - [GetMaA('witch_knight').GetName] становятся доступны для вашей [Concept( 'culture', 'культуры' )|E]"
  

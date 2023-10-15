@@ -119,13 +119,13 @@
  ek_travel_events.0008.b:0 "Пожалуйста, примите это золото в качестве извинения."
  ek_travel_events.0008.c:0 "Ну, тогда я могу на нём проехаться?"
 
- ek_travel_events.0009.t:0 "$travel_event_prefix$ Winter Solace"
- ek_travel_events.0009.desc:0 "As I traversed the [ROOT.Char.GetCurrentLocation.GetName] [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip], a tranquil snowfall blanketed the landscape. All around, nature's creations glistened beneath their icy shroud.\n\nDelicate icicles adorned the surroundings, creating a lustrous cascade of frozen wonder. The gentle caress of a light wind filled the air with a melodious serenade.\n\nIt was as though winter had bestowed its serene embrace upon [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], offering a glimpse of paradise."
- ek_travel_events.0009.a:0 "Let us stay a while and marvel at the scenery."
- ek_travel_events.0009.b:0 "We have no time to lose!"
+ ek_travel_events.0009.t:0 "$travel_event_prefix$ Зимнее утешение"
+ ek_travel_events.0009.desc:0 "[ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l] и безмятежный снегопад укрывает пейзаж белой скатертью. Вокруг творения природы блестят и сверкают под ледяным покровом.\n\nИзящные сосульки украшают окрестности своим блестящим каскадом застывшего чуда. Лёгкое дуновение ветерка наполняет воздух мелодичным перезвоном.\n\nЗима словно одарила [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] своими безмятежными объятиями, создав тут райский уголок."
+ ek_travel_events.0009.a:0 "Давайте немного задержимся и полюбуемся пейзажами."
+ ek_travel_events.0009.b:0 "Нам некогда терять время!"
 
  ek_travel_events.0010.t:0 "$travel_danger_prefix$ Dark Ruins"
- ek_travel_events.0010.desc:0 "The [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] of [ROOT.Char.GetCurrentLocation.GetName] is dotted with timeless ruins. For some, touristic landmarks. For the unwary traveler, a dangerous trap. I merely had time to understand what was happening before I hit the ground, hurting my leg.\n\n"
+ ek_travel_events.0010.desc:0 "[ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l] и множество древних руин. Для кого-то это туристические достопримечательности. А для неопытного путешественника - опасная ловушка. Я едва успеваю понять, что происходит, как падаю на землю, повредив ногу.\n\n"
  ek_travel_events.0010.boethiah:0 "Labyrinthine corridors led to nowhere while a powerful statue stared down at me, blade high in the air, as it was preparing to strike. Twisted spires rose from the ground, making the sight even more intimidating.\n\nA multitude of aggressive voices demanded my surrender and eternal devotion."
  ek_travel_events.0010.clavicus:0 "Bioluminescent flora casts an eerie glow, and the atmosphere is laden with dark, foreboding energy. Altars adorned with cryptic symbols serve as ominous focal points within this eerie sanctuary.\n\nThe air itself seems to resonate with whispered wishes and sinister promises. Cryptic writings on the walls hint at the price many have paid for their desires."
  ek_travel_events.0010.hircine:0 "What at first appeared as a completely natural cave showed paintings made with blood on the raw stone walls. An oppressive feeling of something permanently stalking me was overwhelming. I paid close attention to every sound, and that's when I heard it: a hunting horn, blown from very far away, unseen."
