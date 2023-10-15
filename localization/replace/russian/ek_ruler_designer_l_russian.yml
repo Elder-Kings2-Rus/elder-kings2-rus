@@ -31,6 +31,7 @@
  RACE_ARGONIAN:0 "Аргонианин"
  RACE_GOBLINKEN:0 "Гоблин"
  RACE_LILMOTHIIT:0 "Лилмотит"
+ RACE_IMGA:0 "Имга"
  RACE_DREMORA:0 "Дремора"
 
 
@@ -69,6 +70,12 @@
 
  race_lilmothiit_name:0 "Лилмотит"
  race_lilmothiit:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_LILMOTHIIT') ) ), Localize('race_lilmothiit_name'), 'no' )]"
+
+ race_imga_gorilla_name:0 "Имга II"
+ race_imga_gorilla:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_IMGA') ) ), Localize('race_imga_gorilla_name'), 'no' )]"
+
+ race_imga_orangutang_name:0 "Имга I"
+ race_imga_orangutang:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_IMGA') ) ), Localize('race_imga_orangutang_name'), 'no' )]"
 
  ###Other
  race_dremora_name:0 "Дремора I"

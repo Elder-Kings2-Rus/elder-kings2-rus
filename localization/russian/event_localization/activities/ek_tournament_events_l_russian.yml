@@ -21,6 +21,8 @@
  tournament_versus_contest_end_flavor_arcane_clash_3: "[ROOT.Char.GetFirstNameOrMeNoTooltip|U] [Select_CString(ROOT.Char.IsFemale, 'продемонстрировала', 'продемонстрировал' )] более глубокое понимание арканы, чем [second.GetFirstNameOrMeNoTooltip]."
   
  activity_window_character_arcane_clash_winner: "Победитель Магического столкновения\n[Character.GetShortUINameNoTooltip|U]"
+ 
+ mysterious_stranger_arcane_clash:0 "[Select_CString(mysterious_stranger.IsFemale, 'Загадочная колдунья', 'Загадочный маг' )] неизвестного происхождения по имени '[mysterious_stranger.GetFirstName]' в последнее время вызывает большой интерес.\n\n"
   
  locale_window_widget_progress_to_victory_label_active_competing_arcane_clash: "Вы участвуете в #bold Магическом столкновении#!"
   

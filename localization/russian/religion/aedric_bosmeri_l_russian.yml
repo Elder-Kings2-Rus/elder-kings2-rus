@@ -48,8 +48,8 @@
  bosmeri_negative_afterlife:0 "$ooze_name$"
  bosmeri_negative_afterlife_2:1 "" # Optional translation alt
  bosmeri_negative_afterlife_3:1 "" # Optional translation alt
- bosmeri_witchgodname_the_horned_god:0 "$god_yffre_hircine$"
- bosmeri_witchgodname_the_horned_god_possessive:0 "$god_hircine_name_possessive$"
+ bosmeri_witchgodname_the_horned_god:0 "$god_hircine_the_huntsman_name$"
+ bosmeri_witchgodname_the_horned_god_possessive:0 "$god_hircine_the_huntsman_name_possessive$"
  bosmeri_creator_god_name:0 "$god_yffre_name$"
  bosmeri_creator_god_name_possessive:0 "$god_yffre_name_possessive$"
  bosmeri_health_god_name:0 "$god_arkay_name$"

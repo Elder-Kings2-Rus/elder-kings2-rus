@@ -53,6 +53,7 @@
  arcana_tradition_pale_shamans_2:0 "[GetTrait('education_intrigue_2').GetName(ROOT.Char)] (Pale Shamans)"
  arcana_tradition_pale_shamans_3:0 "[GetTrait('education_intrigue_3').GetName(ROOT.Char)] (Pale Shamans)"
  arcana_tradition_pale_shamans_4:0 "[GetTrait('education_intrigue_4').GetName(ROOT.Char)] (Pale Shamans)"
+ arcana_tradition_pale_shamans_5:0 "[GetTrait('education_intrigue_5').GetName(ROOT.Char)] (Pale Shamans)"
 
 ## TOURNAMENT PARAMETERS
  culture_parameter_can_host_arcane_clash_contests:0 "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'can_host_arcane_clash_contests_custom_effect_description_TOTO_DLC', 'can_host_arcane_clash_contests_custom_effect_description_NO_TOTO_DLC' )]"
@@ -162,6 +163,8 @@
  culture_parameter_coastal_levies:0 "Прибрежные [Concept('holdings', 'владения')|E] в [Concept('counties', 'графствах')|E] этой [Concept('culture', 'культуры')|E] обеспечивают #P +10%#! [soldier_i][Concept('levies', 'ополчения')|E]"
  culture_parameter_pastures_prestige:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_pastures_01$#! даёт [prestige_i][prestige|El] в [Concept('counties', 'графства')|E] этой [Concept('culture', 'культуры')|E]"
  culture_parameter_hunting_grounds_prestige:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_hunting_grounds_01$#! даёт [prestige_i][prestige|El] в [Concept('counties', 'графства')|E] этой [Concept('culture', 'культуры')|E]"
+ culture_parameter_tribal_holding_fort_level_in_valenwood_bonus:0 "[fort_level|E] для [Concept( 'tribes', 'племен' )|E] в Валенвуде: [fort_level_i]#P +[EmptyScope.ScriptValue('tribal_holding_fort_level_in_valenwood_bonus_value')|0]#!"
+ culture_parameter_castle_holding_fort_level_in_valenwood_bonus:0 "[fort_level|E] для [Concept( 'castles', 'замков' )|E] в Валенвуде: [fort_level_i]#P +[EmptyScope.ScriptValue('castle_holding_fort_level_in_valenwood_bonus_value')|0]#!"
 
 ## TRAITS PARAMETERS
  culture_parameter_honorable_traits_bonuses:0 "[traits|E] [GetTrait('honest').GetName( GetNullCharacter )] и [GetTrait('arrogant').GetName( GetNullCharacter )] дают дополнительные бонусы"

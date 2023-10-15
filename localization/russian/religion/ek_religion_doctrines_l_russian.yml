@@ -2007,6 +2007,7 @@
     doctrine_parameter_children_non_accepted_culture_impure:0 "Если у нас есть доктрина [GetFaithDoctrine('doctrine_cultural_identity_heritage').GetBaseName] или [GetFaithDoctrine('doctrine_cultural_identity_heritage_exclusive').GetBaseName], любой ребенок, хотя бы у одного родителя которого нет признанного [Concept( 'heritage', 'наследия' )|E], будет считаться [Concept( 'impure', 'нечистым' )|E]\n Если у нас есть доктрина [GetFaithDoctrine('doctrine_cultural_identity_culture').GetBaseName] или [GetFaithDoctrine('doctrine_cultural_identity_culture_exclusive').GetBaseName], любой ребенок, хотя бы у одного родителя которого нет признанной [Concept( 'culture', 'культуры' )|E], будет считаться [Concept( 'impure', 'нечистым' )|E]"
     doctrine_parameter_character_impurity_deformity_election_lowers_score_active:0 "Персонажи, страдающие от уродств, получат #N суровый штраф#! при выборных законах наследования"
     doctrine_parameter_character_impure_foreign_relationships_impure:0 "Персонажи, которые войдут в близкие отношения с [Concept( 'impure', 'нечистыми' )|E] персонажами или персонажами других конфессий, тоже считаются [Concept( 'impure', 'нечистыми' )|E]."
+    doctrine_parameter_unlocks_blood_legacy:0 "Разблокирует [Concept( 'dynasty_perk', 'наследие династии' )|E] #V Кровь#!"
     
  tenet_daedric_bargains_name:0 "Даэдрические сделки"
     tenet_daedric_bargains_desc:0 "Известно, что даэдрические принцы активно вмешиваются в дела смертных. Если мы принесем им подходящую жертву, то они, возможно, захотят нам помочь."

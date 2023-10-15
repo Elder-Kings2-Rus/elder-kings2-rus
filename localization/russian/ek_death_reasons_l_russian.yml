@@ -93,4 +93,4 @@
  death_miregaunt:0 "[Select_CString(CHARACTER.IsFemale, 'была насмерть растерзана', 'был насмерть растерзан' )] тощеболотом"
  death_indrik:0 "[Select_CString(CHARACTER.IsFemale, 'была развоплощена', 'был развоплощён' )] с помощью магии индрика"
  death_hag:0 "[Select_CString(CHARACTER.IsFemale, 'была съедена', 'был съеден' )] ведьмами"
- death_wayshrine:0 "[Select_CString(CHARACTER.IsFemale, 'была навсегда оторвана', 'был навсегда оторван' )] от Мундуса"
+ death_wayshrine:0 "[Select_CString(CHARACTER.IsFemale, 'была навсегда оторвана', 'был навсегда оторван' )] от Мундуса при попытке использовать дорожное святилище"
