@@ -69,10 +69,6 @@
  hunt_seek_crocodile_tt:1 "Вы выследите такое животное, как #V $animal_type_crocodile$#!:\n$hunt_animal_safety_treacherous$\n$hunt_animal_prestige_highest$"
  hunt_seek_lynx_tt:1 "Вы выследите такое животное, как #V $animal_type_lynx$#!:\n$hunt_animal_safety_middling$\n$hunt_animal_prestige_middling$"
  hunt_seek_assassin_beetle_tt:1 "Вы выследите такое животное, как #V $animal_type_assassin_beetle$#!:\n$hunt_animal_safety_middling$\n$hunt_animal_prestige_middling$"
- hunt_animal_feature_shell:0 "панцирь"
- hunt_animal_charge_scuttle_present:0 "уносится"
- hunt_animal_sound_trumpet_participle:0 "трубящий"
- hunt_animal_strike_trample_participle:0 "топот"
  hunt.0520.ash_hopper:0 "It skulks amidst the ash-covered terrain, swooping down upon the hapless prey that wanders too close, causing distress among the local villages and unsettling those who seek to gather in peace."
  hunt.0520.cliff_strider:0 "It lurks amidst the ashen landscape, descending upon unsuspecting prey that strays too near, sowing fear among nearby villages and unsettling those who seek solace in its vicinity."
  hunt.0500.bull_netch:0 "It prowls the [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTreePlural')], swooping down to seize livestock from neighboring settlements and instilling fear in the hearts of gatherers."
@@ -90,17 +86,14 @@
  hunt.1001.desc_dangerous_morrowind:0 "\n\nThe [activity.Custom('GetAnimalAdjective')] beast is a sight to behold. The kagouti growl as they each spot its [activity.Custom('GetAnimalFeature')] amongst the [host.GetCurrentLocation.Custom('GetProvinceFoliageDesc')].\n\n"
  hunt.0530.ash_hopper:0 "I believe an agile ash hopper will be adequate."
  hunt.0530.ringtail:0 "I reckon a spry ringtail will suffice for our hunt."
- hunt_seek_ash_hopper_falconry_tt:0 "[host.GetShortUIName|U] will seek to #V hawk#! an #V ash hopper#!:\n$hunt_animal_prestige_lowest$"
+ hunt_seek_ek_animal_falconry_tt:0 "[host.GetShortUIName|U] will seek to #V hawk#! a [activity.Custom('GetAnimalTypeEkAnimal')|V]:\n[activity.Custom('ActivityAnimalPrestige')]":0 "[host.GetShortUIName|U] will seek to #V hawk#! an #V ash hopper#!:\n$hunt_animal_prestige_lowest$"
  hunt.1062.t.ash_hopper:0 "Прыг, прыг, прыг..."
  hunt.1062.t.ringtail:0 "Running Rings"
  hunt.0550.morrowind:0 "I have checked my gear and kagouti many times, it won't be long now..."
- hunt_animal_sound_screech:0 "screech"
- hunt_animal_sound_screech_present:0 "screeches"
- hunt_animal_track_tentacle_plural:0 "tentacles"
  hunt.1003.bull_netch:0 "\n\nThe air echoes with the blaring of horns, the barks of dogs, and the triumphant shouts of the hunters as they encircle the resolute bull netch."
  feature_animal_trinket_type_netch_jelly:0 "Jelly"
- hunt_animal_sound_stridulate:0 "stridulate"
- hunt_animal_sound_stridulate_participle:0 "stridulating"
+ feature_animal_trinket_type_dragon_bones:0 "Bones"
+ feature_animal_trinket_type_dragon_scales:0 "Scales"
  hunt.1003.ash_hopper:0 "\n\nAs the party surrounds the defiant ash hopper, the air fills with the sounds of blowing horns, barking dogs, and joyful cries. The circle tightens, closing in on the daring creature, ready to confront it with unwavering determination."
  hunt.0520.t.nix_hound:0 "Clawed like Almalexia"
  hunt.0520.t.alit:0 "No Tail, All Bite"
@@ -112,3 +105,45 @@
  hunt.1003.badger:0 "\n\nThe cunning badger, fur bristling, remains defiant, growling as dogs and spears close in around it."
  hunt.1003.ringtail:0 "\n\nThe agile ringtail, its tail raised high, still has some fight left in it, hissing as dogs and spears surround it."
  hunt.1003.assassin_beetle:0 "\n\nThe formidable assassin beetle, its armored carapace gleaming menacingly, still has some fight left in it, hissing as dogs and spears surround it."
+
+ ### Custom Loc
+ # Feature
+ hunt_animal_feature_tentacles:0 "tentacles"
+ hunt_animal_feature_shell:0 "shell"
+
+ # Track
+ hunt_animal_track_tentacle:0 "tentacle"
+ hunt_animal_track_tentacle_plural:0 "tentacles"
+
+ # Danger
+ hunt_animal_danger_tentacles:0 "tentacles"
+ hunt_animal_danger_jaws:0 "jaws"
+
+ # Group
+ hunt_animal_group_cast:0 "cast"
+ hunt_animal_group_cast_plural:0 "cast"
+
+ # Strike
+ hunt_animal_strike_pinch:0 "pinch" 
+ hunt_animal_strike_pinch_present:0 "pinches"
+ hunt_animal_strike_pinch_participle:0 "pinching"
+ hunt_animal_strike_trample:0 "trample"
+ hunt_animal_strike_trample_present:0 "tramples"
+ hunt_animal_strike_trample_participle:0 "trampling"
+
+ # Charge
+ hunt_animal_charge_scuttle:0 "scuttle"
+ hunt_animal_charge_scuttle_present:0 "scuttles"
+ hunt_animal_charge_scuttle_participle:0 "scuttling"
+
+ # Sound
+ hunt_animal_sound_trumpet:0 "trumpet"
+ hunt_animal_sound_trumpet_present:0 "trumpets"
+ hunt_animal_sound_trumpet_participle:0 "trumpeting"
+ hunt_animal_sound_stridulate:0 "stridulate"
+ hunt_animal_sound_stridulate_present:0 "stridulates"
+ hunt_animal_sound_stridulate_participle:0 "stridulating"
+ hunt_animal_sound_screech:0 "screech"
+ hunt_animal_sound_screech_present:0 "screeches"
+ hunt_animal_sound_screech_participle:0 "screeching"
+

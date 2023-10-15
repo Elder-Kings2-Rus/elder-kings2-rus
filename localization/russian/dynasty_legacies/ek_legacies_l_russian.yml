@@ -51,3 +51,6 @@
  magicka_legacy_5_name:0 "Многолетние ритуалы"
  ADDITIONAL_RITUAL_PERK_BONUS:0 "Позволяет провести один дополнительный постоянный ритуал"
  magicka_legacy_trigger:0 "\n#weak Вы должны уметь использовать [Concept('magic', 'магию')|E], чтобы выбрать это наследие!#!"
+ 
+# Edit to vanilla Blood Legacy
+ blood_legacy_trigger:0 "\n#weak Взять это наследие можно только если у вашей [Concept('faith', 'конфессии')|E] есть догмат [GetFaithDoctrine('tenet_divine_purity').GetBaseName]!#!"

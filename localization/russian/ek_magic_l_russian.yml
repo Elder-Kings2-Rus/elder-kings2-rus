@@ -152,6 +152,7 @@
  ##  Magicka  ##
  ##  Flat  ##
  magicka_arcana:0 "[arcana|E]"
+ agicka_ritual:0 "[rituals|E]]"
 
  ##  Upkeep  ##
  magicka_flat_ritual:0 "[ritual|E]: [GetModifier(Concatenate('modifier_ritual_', Scope.GetFlagName)).GetNameWithTooltip]"
@@ -592,3 +593,6 @@
  reactive_advice_spellbook_step_3_desc:0 "И [spells|El] и [rituals|El] требуют наличия достаточной [magicka_i][Concept( 'magicka', 'маны' )|E] для использования. Заклинания стоят определенное количество маны за одно использование, в то время как ритуалы имеют стоимость поддержания, которое снижает ваш ежемесячный прирост маны.\n\nСильные маги будут иметь более высокую максимальную ману и быстрее восстанавливать её.\n\nВы можете увидеть свое текущее и максимально доступное значение маны, а также ежемесячный прирост на шкале в левом нижнем углу экрана или на значке [magicka_i] в окне вашего персонажа."
  reactive_advice_spellbook_step_4:0 "Магия 4 - Образование"
  reactive_advice_spellbook_step_4_desc:0 "Способность обучать ребенка путям [Concept( 'magic', 'магии' )|E] зависит, прежде всего, от ваших [Concept( 'innovations', 'инноваций' )|E].\n\nС инновацией #V $innovation_magical_studies$#! из эпохи «Раннего Междуцарствия», ребенок может получить магическое [education_trait|El], если у его [Concept( 'guardian', 'опекуна' )|E] есть магическое [congenital_trait|El].\n\nС инновацией #V $innovation_schools_of_magic$#! из эпохи «Время претендентов», ребенок может получить магическое [education_trait|El], если у его [Concept( 'guardian', 'опекуна' )|E] есть магическое [congenital_trait|El] #italic или#! магическое [education_trait|El].\n\nВ качестве альтернативы, если ваша [culture|El] имеет [Concept( 'tradition', 'традицию' )|E] [GetCultureTradition('tradition_sorcerer_kings').GetName|V] или ваша [dynasty|El] имеет [dynasty_perk|El] $magicka_legacy_3_name$#!, у опекуна по-прежнему должно быть магическое врожденное свойство, но эти инновации не требуются — вместо этого они улучшат результаты такого образования."
+  
+ # Hastiluder Trait
+ arcana_hastiluder:0 "[arcana|E]: [arcana_i]#P +2#"

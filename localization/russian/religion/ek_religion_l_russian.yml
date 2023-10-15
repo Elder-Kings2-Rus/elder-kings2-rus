@@ -304,6 +304,8 @@
  holy_site_hs_tonenaka_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_tonenaka_name$)#!"
  holy_site_hs_tideholm_name:0 "Убежище Драконьей стражи"
  holy_site_hs_tideholm_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_tideholm_name$)#!"
+ holy_site_hs_rhalta_name:0 "Рхалта"
+ holy_site_hs_rhalta_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_rhalta_name$)#!"
 # Atmoran
  holy_site_hs_mistwatch_name:0 "Туманная застава"
  holy_site_hs_mistwatch_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_mistwatch_name$)#!"
@@ -414,8 +416,6 @@
  holy_site_hs_tenmari_pass_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_tenmari_pass_name$)#!"
  holy_site_hs_thormar_name:0 "Свистопляска Баан-Дара"
  holy_site_hs_thormar_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_thormar_name$)#!"
- holy_site_hs_baardau_name:0 "Баар-Дау"
- holy_site_hs_baardau_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_baardau_name$)#!"
  holy_site_hs_dragonhold_name:0 "Драконий Оплот"
  holy_site_hs_dragonhold_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_dragonhold_name$)#!"
  holy_site_hs_newmoon_name:0 "Новая Луна"
