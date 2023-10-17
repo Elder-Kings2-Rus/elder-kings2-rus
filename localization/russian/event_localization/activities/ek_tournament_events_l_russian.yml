@@ -22,7 +22,7 @@
   
  activity_window_character_arcane_clash_winner: "Победитель Магического столкновения\n[Character.GetShortUINameNoTooltip|U]"
  
- mysterious_stranger_arcane_clash:0 "[Select_CString(mysterious_stranger.IsFemale, 'Загадочная колдунья', 'Загадочный маг' )] неизвестного происхождения по имени '[mysterious_stranger.GetFirstName]' в последнее время вызывает большой интерес.\n\n"
+ mysterious_stranger_arcane_clash:0 "[Select_CString(mysterious_stranger.IsFemale, 'Загадочная колдунья', 'Загадочный маг' )] неизвестного происхождения по имени «[mysterious_stranger.GetFirstName]» в последнее время вызывает большой интерес.\n\n"
   
  locale_window_widget_progress_to_victory_label_active_competing_arcane_clash: "Вы участвуете в #bold Магическом столкновении#!"
   

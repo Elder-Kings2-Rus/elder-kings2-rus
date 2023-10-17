@@ -152,7 +152,7 @@
  ##  Magicka  ##
  ##  Flat  ##
  magicka_arcana:0 "[arcana|E]"
- agicka_ritual:0 "[rituals|E]]"
+ magicka_ritual:0 "[rituals|E]"
 
  ##  Upkeep  ##
  magicka_flat_ritual:0 "[ritual|E]: [GetModifier(Concatenate('modifier_ritual_', Scope.GetFlagName)).GetNameWithTooltip]"
