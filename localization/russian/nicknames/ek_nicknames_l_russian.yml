@@ -194,7 +194,7 @@
  nick_the_soulbinder:0 "[Select_CString(CHARACTER.IsFemale, 'Сплетающая души', 'Сплетающий души' )]"
  nick_the_soulbinder_desc:0 "$nick_the_bonecaller_desc$"
  nick_the_dark_summoner:0 "[Select_CString(CHARACTER.IsFemale, 'Тёмная призывательница', 'Тёмный призыватель' )]"
- nick_the_dark_summoner_desc:0 "$nick_the_bonecaller_desc"
+ nick_the_dark_summoner_desc:0 "$nick_the_bonecaller_desc$"
  nick_the_gravesinger:0 "[Select_CString(CHARACTER.IsFemale, 'Могильщица', 'Могильщик' )]"
  nick_the_gravesinger_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'обрели и утвердили', Select_CString(CHARACTER.IsFemale, 'обрела и утвердила', 'обрёл и утвердил' ))] своё могущество с помощью самой тёмной магии Предела. Кровь и шипы отмечают [Select_CString( CHARACTER.IsLocalPlayer, 'ваш', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] путь, и ничто живое на встанет у [Select_CString( CHARACTER.IsLocalPlayer, 'вас', Select_CString(CHARACTER.IsFemale, 'неё', 'него' ))] на пути."  
  nick_deathmaker:0 "Творец Смерти"
