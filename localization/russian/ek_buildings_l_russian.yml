@@ -955,7 +955,7 @@
  building_snowprince_tomb_01_desc:0 "$building_type_snowprince_tomb_01_desc$"
 
  building_type_torugs_tomb_01:0 "Гробница короля Торуга"
- building_type_torugs_tomb_01_desc:0 "Scattered across the mountain are the tombs of the old orc chieftains and their champions. The higher the tomb, the more important the orc. Almost at the top of Mount Sorrow, however, there is a rather inconspicuous tunnel entrance of orcish design.\nReturning to the surface at the top of the mountain, the narrow tunnels give way to an artificial platform hewn from the stone itself. At its centre is the sarcophagus of King Torug gro-Igron, founder of the first Orsinium.\n\nFor the local Reachfolk the mountain holds a different meaning: They consider Sorrow a child of the Druadach Mountains - and the tombs of the Orcs a sacrilege."
+ building_type_torugs_tomb_01_desc:0 "По горам разбросано множество гробниц старых вождей орков и их воителей. Чем выше расположена гробница, тем важнее орк. Однако почти на самой вершине горы Скорби есть неприметный вход в туннель орочьей конструкции.\nУзкий тоннель выходит на вершину горы, на высеченную из камня искусственную площадку. В её центре находится саркофаг короля Торуга гро-Игрона, основателя первого Орсиниума.\n\nДля местных ричменов гора имеет иное значение: они считают Скорбь ребёнком Друадахских гор, а гробницы орков — святотатством."
  building_torugs_tomb_01:0 "$building_type_torugs_tomb_01$"
  building_torugs_tomb_01_desc:0 "$building_type_torugs_tomb_01_desc$"
  orsimer_or_reachmen:0 "#V $Orsimeri$#!ое [heritage|El], либо #V $reachfolk_collective_noun$#!ая [culture|El] или [culture|El], произошедшая от #V $reachfolk_collective_noun$#!ой"
