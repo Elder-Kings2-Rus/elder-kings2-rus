@@ -131,6 +131,7 @@ l_russian:
  nick_the_lisp_and_lame: "[Select_CString(CHARACTER.IsFemale, 'Хромая змея', 'Хромой змей' )]"
  nick_the_lisp_and_lame_desc: "Не удовлетворившись одной лишь кривой походкой, [CHARACTER.GetFaith.HealthGodName] проклинает [Select_CString( CHARACTER.IsLocalPlayer, 'вас', 'этого человека')] дополнительно, награждая вдобавок ужасной шепелявостью."
  nick_the_magnificent: "[Select_CString(CHARACTER.IsFemale, 'Великолепная', 'Великолепный' )]"
+ # EK EDIT: changed nickname desc to fit into the lre
  nick_the_magnificent_desc: "О [Select_CString( CHARACTER.IsLocalPlayer, 'ваших', CHARACTER.GetHerHis)] подвигах рассказывают от Хай Рока до Чернотопья."
  nick_the_martyr: "[Select_CString(CHARACTER.IsFemale, 'Мученица', 'Мученик' )]"
  nick_the_martyr_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'принимаете', 'принимает')] смерть за веру. И [CHARACTER.GetFaith.HighGodName], и верующие всего мира помнят эту жертву."
@@ -177,6 +178,7 @@ l_russian:
  nick_the_usurper_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'сидите', 'сидит')] свергнутого законного сюзерена, взяв свое мечом."
  nick_the_victorious: "[Select_CString(CHARACTER.IsFemale, 'Победоносная', 'Победоносец' )]"
  nick_the_victorious_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] легко [Select_CString(CHARACTER.IsLocalPlayer, 'добиваетесь', 'добивается' )] триумфа, в этом ни у кого нет сомнений."
+ #EK Edit: No vikings in ek
  nick_the_viking: "Грабитель"
  nick_the_viking_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] искренне [Select_CString( CHARACTER.IsLocalPlayer, 'полагаете', 'полагает')], что частная собственность — понятие растяжимое."
  nick_the_young: "[Select_CString(CHARACTER.IsFemale, 'Юная', 'Юный' )]"
@@ -580,7 +582,7 @@ l_russian:
  nick_the_oppressor: "[Select_CString(CHARACTER.IsFemale, 'Притеснительница', 'Притеснитель' )]"
  nick_the_oppressor_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] — не самый примечательный правитель, каких знала эта земля."
  nick_the_apostate: "[Select_CString(CHARACTER.IsFemale, 'Отступница', 'Отступник' )]"
- nick_the_apostate_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'выступили', Select_CString(CHARACTER.IsFemale, 'выступила', 'выступил' ))]. против победоносной поступи чужой веры, заявив о своей любви и верности учению [CHARACTER.GetFaith.HighGodNamePossessive]."
+ nick_the_apostate_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'выступили', Select_CString(CHARACTER.IsFemale, 'выступила', 'выступил' ))] против победоносной поступи чужой веры, заявив о своей любви и верности учению [CHARACTER.GetFaith.HighGodNamePossessive]."
  nick_the_pagan: "[Select_CString(CHARACTER.IsFemale, 'Язычница', 'Язычник' )]"
  nick_the_pagan_desc: "Большинство видит в этом прозвище насмешку. Пусть их. [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'знаете', 'знает' )] правду."
  nick_the_heretic: "[Select_CString(CHARACTER.IsFemale, 'Еретичка', 'Еретик' )]"
@@ -685,7 +687,8 @@ l_russian:
  nick_the_justicar_desc: "Многие согласны с тем, что правление [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] было честным и справедливым."
  nick_the_green: "[Select_CString(CHARACTER.IsFemale, 'Зеленая', 'Зеленый' )]"
  nick_the_green_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U], как многие убеждены, [Select_CString( CHARACTER.IsLocalPlayer, 'умеете', 'умеет' )] обращаться с мастерком."
- #EP1
+
+ # EP1
  nick_king_of_fashion: "[CHARACTER.GetTitleAsNameNoTooltip] моды"
  nick_king_of_fashion_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString(CHARACTER.IsLocalPlayer, 'обрели', Select_CString(CHARACTER.IsFemale, 'обрела', 'обрел' ))] власть и силу посредством шелков и соболей."
  nick_prince_of_fashion: "[CHARACTER.Custom('GetPrincessPrince')] Моды"
@@ -716,7 +719,8 @@ l_russian:
  nick_the_eloquent_desc: "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'говорите', 'говорит' )] с тем же достоинством, с каким [Select_CString( CHARACTER.IsLocalPlayer, 'ведете', 'ведет' )] себя."
  nick_the_stud: "[Select_CString(CHARACTER.IsFemale, 'Потаскуха', 'Кобель' )]"
  nick_the_stud_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'отличаетесь', 'отличается' )] внешностью, которая вызывает у людей разные #EMP мысли#!."
- #FP2
+
+ # FP2
  nick_the_bell_keeper: "[Select_CString(CHARACTER.IsFemale, 'Хранительница Колокола', 'Хранитель Колокола' )]"
  nick_the_bell_keeper_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] довольно необычно [Select_CString( CHARACTER.IsLocalPlayer, 'относитесь', 'относится' )] к колокольному звону."
  nick_the_requiem: "Реквием"
@@ -739,7 +743,8 @@ l_russian:
  nick_the_pragmatic_desc: "Лучшее решение — это самое подходящее здесь и сейчас решение."
  nick_the_equitable: "[Select_CString(CHARACTER.IsFemale, 'Беспристрастная', 'Беспристрастный' )]"
  nick_the_equitable_desc: "[Select_CString( CHARACTER.IsLocalPlayer, 'Вы', Select_CString(CHARACTER.IsFemale, 'Она', 'Он' ))] [Select_CString( CHARACTER.IsLocalPlayer, 'предпочитаете', 'предпочитает' )] делить всё честно и поровну."
- #BP1
+
+ # BP1
  nick_the_real: "[Select_CString(CHARACTER.IsFemale, 'Настоящая', 'Настоящий' )]"
  nick_the_real_desc: "Во всём мире знают историю о том, как [CHARACTER.GetShortUINameNoTooltipNoFormat] — победитель в схватке со своим #EMP злобным#! двойником."
  nick_strongarm: "[Select_CString(CHARACTER.IsFemale, 'Грабительница', 'Грабитель' )]"
@@ -760,7 +765,9 @@ l_russian:
  nick_the_smelly_desc: "Впрочем, почему-то он #EMP до сих пор#! не выветрился."
  nick_the_venator: "[Select_CString(CHARACTER.IsFemale, 'Охотница', 'Охотник' )]"
  nick_the_venator_desc: "Охотничьи инстинкты [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] остры и не оставляют шансов ни одному зверю."
- #EP2
+
+
+ # EP2
  nick_the_dirty: "[Select_CString(CHARACTER.IsFemale, 'Грязная', 'Грязный' )]"
  nick_the_dirty_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'деретесь', 'дерется' )] столь же грязно, как [Select_CString( CHARACTER.IsLocalPlayer, 'выглядите', 'выглядит' )]."
  nick_the_cheater: "[Select_CString(CHARACTER.IsFemale, 'Неверная', 'Неверный' )]"
@@ -1029,6 +1036,7 @@ l_russian:
  nick_the_reformer_desc: "Держава [CHARACTER.GetPrimaryTitle.GetBaseNameNoTier] была преобразована, а [CHARACTER.GetCulture.GetName|l] познали просвещение благодаря решительным и дальновидным действиям, которые [Select_CString(CHARACTER.IsLocalPlayer, 'предприняли', Select_CString(CHARACTER.IsFemale, 'предприняла', 'предпринял' ))] [CHARACTER.GetShortUINameNoTooltipNoFormat]."
  nick_royalsbane: "Погибель Царей"
  nick_royalsbane_desc: "Многие перешептываются о том, что [CHARACTER.GetShortUINameNoTooltipNoFormat] своей рукой [Select_CString(CHARACTER.IsLocalPlayer, 'сразили', Select_CString(CHARACTER.IsFemale, 'сразила', 'сразил' ))] немало аристократов."
+
  nick_the_city_builder: "Строитель Городов"
  nick_the_city_builder_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'славитесь', 'славится' )] знанием и умениями строения городов."
  nick_the_castle_builder: "Строитель Замков"
