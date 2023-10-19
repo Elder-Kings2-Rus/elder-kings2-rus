@@ -873,7 +873,7 @@
  special_doctrine_khajiit_doctrine_name:0 "Анурр и Фадомай"
     special_doctrine_khajiit_doctrine_desc:0 "Каджиты не видят особой разницы в духах, которых чужеземцы называют "аэдра" и "даэдра". На самом деле, все духи имеют общее происхождение - они дети Анурра и Фадомай. Благодаря такой точке зрения, поклонение божествам, к которым прочие отнеслись бы с отвращением, приобретает у каджитов благотворные и безобидные черты, отчего даже самые ревностные последователи Божеств не называют каджитов "даэдрапоклонниками"."
  doctrine_parameter_faith_hostility_reduction:0 "Понизит на #P -25#! [Concept('faith_hostility', 'враждебность')|E] с [Concept('faiths', 'конфессиями')|E], которые используют эту же [Concept('doctrine', 'доктрину')|E]"
- doctrine_parameter_faith_hostility_khajiit_reduction:0 "Понизит на #P -15#! [Concept('faith_hostility', 'враждебность')|E] с [Concept('faiths', 'конфессиями')|E], которые принадлежат к [Concept('religious_family', 'религиозной семье')|E] [GetReligionFamily('rf_aedra').GetName]"
+ doctrine_parameter_faith_hostility_khajiit_reduction:0 "Понизит на #P -15#! [Concept('faith_hostility', 'враждебность')|E] с [Concept('faiths', 'конфессиями')|E], которые принадлежат к [Concept('religious_family', 'религиозной концепции')|E] [GetReligionFamily('rf_aedra').GetName]"
  doctrine_parameter_kept_on_faith_creation:0 "Сохраняется при создании новой [Concept('faiths', 'конфессии')|E]"
  doctrine_parameter_lost_on_faith_creation:0 "Теряется при создании новой [Concept('faiths', 'конфессии')|E]"
  # Aldmeri
@@ -1024,8 +1024,8 @@
     doctrine_pantheon_jephre_desc:0 "Лесной Бог защищал нас на протяжении многих поколений. Мы должны жить и защищать лес в ответ."
  # Akaviri
  doctrine_pantheon_elemental_name:0 "Боги стихий"
-    doctrine_pantheon_elemental_desc:0 "Помимо почитания предков, многие акавирцы также уважают олицетворения стихий: Мина, олицетворяющего свет и восток — Зису, олицетворяющую воду и юг — Нифу, олицетворяющую землю и север, Илни, олицетворяющего воздух и запад и Там, олицетворяющего центр сердца мира"
-    doctrine_parameter_pantheon_adds_deities_elemental:0 "Добавит следующих покровителей в [pantheon|El]: Мин, Зиса, Нифа, Илни, Там"
+    doctrine_pantheon_elemental_desc:0 "Помимо почитания предков, многие акавирцы также уважают олицетворения стихий: Мина, олицетворяющего свет и восток — Зису, олицетворяющую воду и юг — Нифу, олицетворяющую землю и север, Ильни, олицетворяющего воздух и запад и Там, олицетворяющего центр сердца мира"
+    doctrine_parameter_pantheon_adds_deities_elemental:0 "Добавит следующих покровителей в [pantheon|El]: Мин, Зиса, Нифа, Ильни, Тэм"
  # Khajiiti
  doctrine_pantheon_riddlethar_name:0 "Риддл'Тар"
     doctrine_pantheon_riddlethar_desc:0 "Риддл'Тар — каджитский бог космического порядка. Хотя это скорее образ жизни, чем божество, приверженцы данной конфессии поклоняются лунам как олицетворению своего бога. И даже ходят слухи о том, что он появляется в физической форме, дабы помочь тем, кто в этом нуждается."
