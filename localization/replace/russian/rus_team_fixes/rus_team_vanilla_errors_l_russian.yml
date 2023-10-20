@@ -163,3 +163,4 @@
  culture_parameter_wetlands_hunt_success_chance: "Повышенный [Concept( 'hunt_success_chance', 'шанс успеха охоты' )|E] на такой местности, как [GetTerrain( 'wetlands' ).GetName] и [GetTerrain( 'floodplains' ).GetName]" #Scorg. Ошибка со вторым типом местности
   TRAVEL_EDIT_ROUTE_DETOUR_LABEL: "через [Province.GetNameNoTooltip]" #Scorg, слишком длинно, кнопки в интерфейс не влазят
   hire_rough_terrain_expert_option: "Нанять проводника по лесу" #Scorg, стандартизация текста.
+  trait_paragon_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — безукоризненное воплощение религиозной добродетели." #Scorg, воплощение, не воплощением.

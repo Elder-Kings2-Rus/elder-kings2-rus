@@ -175,7 +175,7 @@ l_russian:
  nick_the_unready_anglo_saxon: "Улитка"
  nick_the_unready_anglo_saxon_desc: "[Select_CString( CHARACTER.IsLocalPlayer, 'Ваше', Select_CString(CHARACTER.IsFemale, 'Ее', 'Его' ))] имя буквально переводится как «добрый совет». Тем досаднее носить [Select_CString( CHARACTER.IsLocalPlayer, 'вам', Select_CString(CHARACTER.IsFemale, 'ей', 'ему' ))] носить прозвище, переводящееся как Неразумный или «не получивший совета». Получается, «добрый совет — не получивший совета». Вероятно, кто-то счел это забавной шуткой."
  nick_the_usurper: "[Select_CString(CHARACTER.IsFemale, 'Узурпаторша', 'Узурпатор' )]"
- nick_the_usurper_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'сидите', 'сидит')] свергнутого законного сюзерена, взяв свое мечом."
+ nick_the_usurper_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'свергла', 'сверг')] законного сюзерена, взяв своё мечом."
  nick_the_victorious: "[Select_CString(CHARACTER.IsFemale, 'Победоносная', 'Победоносец' )]"
  nick_the_victorious_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] легко [Select_CString(CHARACTER.IsLocalPlayer, 'добиваетесь', 'добивается' )] триумфа, в этом ни у кого нет сомнений."
  #EK Edit: No vikings in ek
