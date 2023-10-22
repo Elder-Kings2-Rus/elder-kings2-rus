@@ -164,3 +164,7 @@
   TRAVEL_EDIT_ROUTE_DETOUR_LABEL: "через [Province.GetNameNoTooltip]" #Scorg, слишком длинно, кнопки в интерфейс не влазят
   hire_rough_terrain_expert_option: "Нанять проводника по лесу" #Scorg, стандартизация текста.
   trait_paragon_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] — безукоризненное воплощение религиозной добродетели." #Scorg, воплощение, не воплощением.
+  ENTOURAGE_GAINS_PILGRIM_TRAIT: "$EFFECT_LIST_BULLET$Все участники вашей свиты получают опыт [Concept( 'trait', 'свойства' )|E] «[GetTrait('pilgrim').GetName( GetNullCharacter )] или [GetTrait('pilgrim').GetName( GetNullCharacter )]»" #Scorg, без or.
+  ENTOURAGE_GAINED_PILGRIM_TRAIT: "$EFFECT_LIST_BULLET$Все участники вашей свиты получили опыт [Concept( 'trait', 'свойства' )|E] «[GetTrait('pilgrim').GetName( GetNullCharacter )] или [GetTrait('pilgrim').GetName( GetNullCharacter )]»" #Scorg, без or.
+  liege_dismiss_temporary_regency_interaction.tt.recipient_notification: "[actor.GetShortUINameNoTooltip|U] [Select_CString(actor.IslocalPLayer, 'сняли', Select_CString(actor.IsFemale, 'сняла', 'снял'))] [Select_CString(recipient.IsLocalPlayer, '', 'персонажа ' )][recipient.GetNamePossessiveOrMy][Select_CString(recipient.IsLocalPlayer, 'его персонажа', '' )] с должности регента" #Scorg, нет запятой после actor.IslocalPLayer
+ 
