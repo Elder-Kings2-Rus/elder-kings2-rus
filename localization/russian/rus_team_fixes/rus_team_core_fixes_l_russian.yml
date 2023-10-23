@@ -193,3 +193,6 @@
  thisworld_name_possessive:0 "Этого мира"
  god_amaranth_name_possessive:0 "Амаранта"
  
+ nick_the_shaker_of_nirn:0 "[Select_CString(CHARACTER.IsFemale, 'Сотрясательница', 'Сотрясатель')] Нирна" # Прозвище отсутствует в оригинале мода. Без описания, так как оно и само генерируется.
+ can_use_summon_dragons_active_name:0 "возможности призывать драконов" # Название_религии не имеет возможности призывать драконов
+ 
