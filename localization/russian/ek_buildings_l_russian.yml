@@ -48,7 +48,7 @@
  
  ### Imperial City
  building_type_imperial_city_01:0 "Имперский город"
- building_type_imperial_city_01_desc:0 "Существует лишь один город в Имперской Провинции, а также лишь один город в Тамриэле и во всём мире; и это, братья мои, город Cиродильцев." #цитата из вики
+ building_type_imperial_city_01_desc:0 "Существует лишь один город в Имперской Провинции, а также лишь один город в Тамриэле и во всём мире; и это, братья мои, город сиродильцев." #цитата из вики
  building_imperial_city_01:0 "Имперский город"
  building_imperial_city_01_desc:0 "$building_type_imperial_city_01_desc$"
  
