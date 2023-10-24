@@ -484,7 +484,7 @@
 
  # Mudcrab dies :(
  ek_pet_animal.5199.t:0 "[ROOT.Char.Custom('MudcrabStoryName')]: Скорбный день"
- ek_pet_animal.5199.desc:0 "[ROOT.Char.Custom('MudcrabStoryName')] не так молод, каким [ROOT.Char.Custom('MudcrabStorySheHe')] огда-то был, я все ещё слышу [ROOT.Char.Custom('MudcrabStoryHerHis')] характерные звуки, но они больше не такие яркие и сильные, как раньше.\n\nЯ нежно глажу [ROOT.Char.Custom('MudcrabStoryHerHis')] [ROOT.Char.Custom('MudcrabColor')] панцирь и прислушиваюсь к [ROOT.Char.Custom('MudcrabStoryHerHim')] тяжелому дыханию и попыткам ущипнуть меня за нос, но, когда наступила тишина, я понимаю, что [ROOT.Char.Custom('MudcrabStoryHerHis')] поклацывания не разбудят меня следующим утром."
+ ek_pet_animal.5199.desc:0 "[ROOT.Char.Custom('MudcrabStoryName')] не так молод, каким [ROOT.Char.Custom('MudcrabStorySheHe')] когда-то был, я все ещё слышу [ROOT.Char.Custom('MudcrabStoryHerHis')] характерные звуки, но они больше не такие яркие и сильные, как раньше.\n\nЯ нежно глажу [ROOT.Char.Custom('MudcrabStoryHerHis')] [ROOT.Char.Custom('MudcrabColor')] панцирь и прислушиваюсь к [ROOT.Char.Custom('MudcrabStoryHerHim')] тяжелому дыханию и попыткам ущипнуть меня за нос, но, когда наступила тишина, я понимаю, что [ROOT.Char.Custom('MudcrabStoryHerHis')] поклацывания не разбудят меня следующим утром."
  ek_pet_animal.5199.a:0 "Я буду скучать по тебе, [ROOT.Char.Custom('MudcrabStoryName')]!"
 
  pet_mudcrab_decision:0 "[ROOT.Char.Custom('MudcrabStoryName')] - погладить"
