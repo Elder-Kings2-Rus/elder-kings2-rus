@@ -156,3 +156,43 @@
  
  capital_shares_heritage:0 "Ваша [realm_capital|El] разделяет ваше [heritage|El]"
  hunt_seek_tiger_tt:0 "Вы попытаетесь выследить тигра"
+ 
+ # пропущенные притяжательные склонения для различных миров
+ aetherius_name_possessive:0 "Этериуса"
+ sovngarde_name_possessive:0 "Совнгарда"
+ dai_name:0 "Дай"
+ dai_name_possessive:0 "Дая"
+ below_name_possessive:0 "Глубины"
+ dreamsleeve_name_possessive:0 "Рукава Кагренака"
+ scuttlingvoid_name_possessive:0 "Гибельной Пустоты"
+ sandsbehindthestars_name_possessive:0 "Песков за Звёздами"
+ fivefingerdance_name_possessive:0 "Пляски Ловких Пальцев"
+ arkayn_cycle_name_possessive:0 "Цикла Аркейна"
+ moonshadow_name_possessive:0 "Лунной Тени"
+ quagmire_name_possessive:0 "Трясины"
+ snakemount_name_possessive:0 "Змеиной Горы" #чей это План? ру-эсо молчит
+ coldharbour_name_possessive:0 "Хладной Гавани"
+ fieldsofregret_name_possessive:0 "Полей Сожалений"
+ apocrypha_name_possessive:0 "Апокрифа"
+ huntinggrounds_name_possessive:0 "Охотничьих Угодий"
+ deadlands_name_possessive:0 "Мёртвых Земель"
+ spiralskein_name_possessive:0 "Спирального Сплетения"
+ colouredrooms_name_possessive:0 "Цветных Комнат"
+ scuttlingvoid_name_possessive:0 "Гибельной Пустоты"
+ evergloam_name_possessive:0 "Вечнотени"
+ pits_name_possessive:0 "Ям"
+ myriadrealms_name_possessive:0 "Мириадов Царств"
+ shiveringisles_name_possessive:0 "Дрожащих островов"
+ oblivion_name_possessive:0 "Обливиона"
+ darkbehindtheworld_name_possessive:0 "Потусторонней Тьмы"
+ spirit_world_name_possessive:0 "Мира Духа"
+ blackreach_name_possessive:0 "Феллшардума"
+ druadach_name:0 "Друадах"
+ druadach_name_possessive:0 "Друадаха"
+ godplace_name_possessive:0 "Божественного места"
+ thisworld_name_possessive:0 "Этого мира"
+ god_amaranth_name_possessive:0 "Амаранта"
+ 
+ nick_the_shaker_of_nirn:0 "[Select_CString(CHARACTER.IsFemale, 'Сотрясательница', 'Сотрясатель')] Нирна" # Прозвище отсутствует в оригинале мода. Без описания, так как оно и само генерируется.
+ can_use_summon_dragons_active_name:0 "возможности призывать драконов" # Название_религии не имеет возможности призывать драконов
+ 

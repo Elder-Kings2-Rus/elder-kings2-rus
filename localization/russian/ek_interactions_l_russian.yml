@@ -71,7 +71,7 @@
  fame_obligations_tt:0 "[feudal_contract|E] начнется с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_fame' )]"
  arcana_obligations:0 "Обычные обязательства (Аркана)"
  arcana_obligations_tt:0 "[feudal_contract|E] начнется с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_arcana' )]"
- arcana_obligations_requirement:0 "У вас #bold нет#! [game_concept_dynasty_perks|El] #V Чародейское правление#! или [Concept('culture', 'культуры')|E] с [Concept('tradition', 'традицией')|E] [GetCultureTradition('tradition_sorcerer_kings').GetName|V]"
+ arcana_obligations_requirement:0 "У вас #bold нет#! [Concept('dynasty_perk', 'наследия династии')|E] #V Чародейское правление#! или [Concept('culture', 'культуры')|E] с [Concept('tradition', 'традицией')|E] [GetCultureTradition('tradition_sorcerer_kings').GetName|V]"
  prowess_obligations:0 "Обычные обязательства (Доблесть)"
  prowess_obligations_tt:0 "[feudal_contract|E] начнется с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_Prowess' )]"
  prowess_obligations_requirement:0 "Ваша [faith|El] #bold не#! имеет догмата [GetFaithDoctrine('tenet_contempt_for_the_weak').GetBaseName]"
