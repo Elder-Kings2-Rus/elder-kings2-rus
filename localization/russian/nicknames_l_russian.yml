@@ -837,7 +837,7 @@ l_russian:
  nick_the_persevering: "[Select_CString(CHARACTER.IsFemale, 'Упорная', 'Упорный' )]"
  nick_the_persevering_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'получаете', 'получает' )] прозвище [CHARACTER.GetNicknameNoTooltip], выказав стойкость вопреки многочисленным незаживающим ранам."
  nick_the_lord_of_realm: "[CHARACTER.GetLadyLord|U] владения [CHARACTER.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip]"
- nick_the_lord_of_realm_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'пользуетесь', 'пользуется' )] такой любовью подданных, что они прозвали [Select_CString( CHARACTER.IsLocalPlayer, 'вас', GetHerHis )] [CHARACTER.GetNicknameNoTooltip]."
+ nick_the_lord_of_realm_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'пользуетесь', 'пользуется' )] такой любовью подданных, что они прозвали [Select_CString( CHARACTER.IsLocalPlayer, 'вас', CHARACTER.GetHerHis )] [CHARACTER.GetNicknameNoTooltip]."
  nick_twistedbeard: "Кривая Борода"
  nick_twistedbeard_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] — [Select_CString(CHARACTER.IsFemale, 'правительница', 'правитель' )] бретонской культуры или с бретонскими корнями и выдающейся воинской доблестью."
  nick_the_boar: "Вепрь"
