@@ -973,7 +973,7 @@ l_russian:
  nick_no_pants: "Без-Штанов"
  nick_no_pants_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'подвергаетесь', 'подвергается' )] унижению как [CHARACTER.GetWomanMan|l] в культуре с преобладающими идеалами маскулинности."
  nick_the_tiger_of_place: "Тигр владения [CHARACTER.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip]"
- nick_the_tiger_of_place_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] — [Select_CString(CHARACTER.IsLocalPlayer, 'грозная воительница и отважная защитница', 'грозный воитель и отважный защитник' )]."
+ nick_the_tiger_of_place_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] — [Select_CString(CHARACTER.IsFemale, 'грозная воительница и отважная защитница', 'грозный воитель и отважный защитник' )]."
  nick_the_navigator: "Навигатор"
  nick_the_navigator_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'повелеваете волнами и бороздите', 'повелевает волнами и бороздит' )] их подобно морскому змею."
  nick_foul_fart: "Вонючка"
