@@ -690,8 +690,8 @@
  ek_yearly_events.0128.a:0 "Я буду очень хорошо заботиться о тебе, мой пернатый друг!"
  ek_yearly_events.0128.b:0 "Держу пари, я могу продать тебя за кругленькую сумму!"
 
- ek_yearly_events.0129.t:0 "Дикий [ROOT.Char.Custom('LocalAnimal')|U]!"
- ek_yearly_events.0129.desc:0 "Пока я [Select_CString(ROOT.Char.IsFemale, 'спешила', 'спешил' )] с одной встречи на другую, [quester.GetFirstNameNoTooltip] приближается ко мне, цвет ускользает от [quester.GetHerHis] лица.\n\n«[Select_CString(ROOT.Char.IsFemale, 'Моя госпожа', 'Мой господин' )], я молю вас о пощаде! Дикий [ROOT.Char.Custom('LocalAnimal')] забрался ко мне домой. Разве вы не можете нанять кого-нибудь, чтобы он позаботился об этом?»"
+ ek_yearly_events.0129.t:0 "Дикий [ROOT.Char.Custom('GetAnimalType')|U]!"
+ ek_yearly_events.0129.desc:0 "Пока я [Select_CString(ROOT.Char.IsFemale, 'спешила', 'спешил' )] с одной встречи на другую, [quester.GetFirstNameNoTooltip] приближается ко мне, цвет ускользает от [quester.GetHerHis] лица.\n\n«[Select_CString(ROOT.Char.IsFemale, 'Моя госпожа', 'Мой господин' )], я молю вас о пощаде! Дикий [ROOT.Char.Custom('GetAnimalType')] забрался ко мне домой. Разве вы не можете нанять кого-нибудь, чтобы он позаботился об этом?»"
  ek_yearly_events.0129.a:0 "Гильдия бойцов разберётся с этим!"
  tooltip.ek_yearly_events.0129.a.success:0 "Гильдия бойцов делает это снова!"
  tooltip.ek_yearly_events.0129.a.failure:0 "Гильдия бойцов не в состоянии справиться с этим существом"
