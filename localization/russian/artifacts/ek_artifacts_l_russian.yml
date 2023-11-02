@@ -1,9 +1,9 @@
 ﻿l_russian: 
- artifact_headhunter_trophy_of_the_enemy_name:0 "Голова [victim_knight.GetFirstNameNoTooltip]"
- artifact_headhunter_trophy_of_the_enemy_description:0 "Эта голова была отнята [owner.GetTitledFirstName] после убийства [victim_knight.GetTitledFirstName]."
+ artifact_headhunter_trophy_of_the_enemy_name:0 "Голова персонажа [victim_knight.GetFirstNameNoTooltip]"
+ artifact_headhunter_trophy_of_the_enemy_description:0 "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'отрезала', 'отрезал' )] эту голову после убийства персонажа [victim_knight.GetTitledFirstName]."
 
- artifact_torture_trophy_of_victim_name:0 "Трофей из [recipient.GetTitledFirstNameNoTooltip]"
- artifact_torture_trophy_of_victim_desc:0 "Этот... трофей был взят [owner.GetTitledFirstName] во время ужасающих пыток [recipient.GetTitledFirstName]"
+ artifact_torture_trophy_of_victim_name:0 "Трофей из персонажа [recipient.GetTitledFirstNameNoTooltip]"
+ artifact_torture_trophy_of_victim_desc:0 "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'взяла', 'взял' )] этот... трофей во время ужасающих пыток персонажа [recipient.GetTitledFirstName]"
  
  feature_longbow_wood_ash:0 "$feature_bow_wood_ash$"
  feature_longbow_wood_maple:0 "$feature_bow_wood_maple$"
