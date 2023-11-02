@@ -454,7 +454,7 @@
  #modifier_ritual_oakflesh_desc:0 "This character uses a ritual to harden the flesh of their troops which makes them much more sturdy."
  modifier_ritual_familiar_scamp:0 "Призванный скамп"
  #modifier_ritual_familiar_scamp_desc:0 "This character has summoned a scamp familiar through a conjuration ritual."
- modifier_ritual_familiar_pocket_watcher:0 "Призванный карманный наблюдатель"
+ modifier_ritual_familiar_pocket_watcher:0 "Призванный карманный\nнаблюдатель"
  #modifier_ritual_familiar_pocket_watcher_desc:0 "This character has summoned a pocket watcher familiar through a conjuration ritual."
  modifier_ritual_familiar_fiendroth:0 "Призванный финдрот"
  #modifier_ritual_familiar_fiendroth_desc:0 "This character has summoned a fiendroth familiar through a conjuration ritual."
@@ -496,7 +496,7 @@
  spell_cure_disease_desc:0 "Излечивает любую тяжелую болезнь, от которой страдает цель"
  spell_mend_wound_desc:0 "Лечит раны и устраняет инфекции"
  spell_remedy_illness_desc:0 "Лечит слабую болезнь, не оказывая никакого влияния на сильную болезнь"
- spell_increase_wounds_desc:0 "Использует стихийную магию, чтобы нанести раны удаленной цели\n\n#N Вы не можете использовать это заклинание на персонаже чаще одного раза в год!#!"
+ spell_increase_wounds_desc:0 "Использовать стихийную магию, чтобы нанести раны удаленной цели\n\n#N Вы не можете использовать это заклинание на персонаже чаще одного раза в год!#!"
  spell_dispel_desc:0 "Снимает эффекты враждебных [Concept( 'spells', 'заклинаний' )|E], наложенных на цель"
  spell_remove_curse_desc:0 "Снимает ужасное проклятие, наложенное злыми силами"
 

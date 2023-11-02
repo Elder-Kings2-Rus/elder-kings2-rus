@@ -81,7 +81,7 @@
  court_maintenance.0010.b.paranoid:0 "Я не могу сидеть у всех на виду. Мне всегда нужно быть начеку!"
  court_maintenance.0010.c:0 "Пир займет их на время!"
  court_maintenance.0010.c.tooltip:0 "Вы начинаете пиршество во владении [SCOPE.GetRootScope.GetCharacter.GetCapitalLocation.GetTitle.GetNameNoTier]"
- court_maintenance.0011.t:0 "[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] двор"
+ court_maintenance.0011.t:0 "Королевство [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] — двор"
  court_maintenance.0011.desc:1 "«Вы [ROOT.Char.GetTitleTierName], и у вас есть обязанности. Вы должны будете устраивать приемы, разрешать споры между подданными и допускать своих придворных до участия в повседневных делах».\n\n[messenger.GetName] строго смотрит на меня, словно бы читая мне лекцию. Кажется, я даже вижу [ROOT.GetCharacter.Custom2('GetPrideEnvy' , SCOPE.sC('messenger'))] в [messenger.GetHerHis] глазах?\n\n[messenger.GetSheHe|U] начинает разворачивать великолепное знамя с эмблемой дома [ROOT.Char.GetHouse.GetName]. «Мир будет судить о вашем правлении в том числе и по тому, как вы относитесь к своему двору. Я [Select_CString(messenger.IsFemale, 'взяла', 'взял' )] на себя смелость изготовить для вас этот дар в знак начала вашего правления»."
  court_maintenance.0011.a:0 "[ROOT.Char.GetTitleTierName|U] явит себя подданным!"
  court_maintenance.0011.a.tooltip:0 "Вы посетите монарший двор."
