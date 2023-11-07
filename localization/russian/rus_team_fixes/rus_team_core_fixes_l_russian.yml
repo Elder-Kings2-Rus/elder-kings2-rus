@@ -62,7 +62,7 @@
  NOT_spell_no_counties: "Целью заклинания должно быть графство"
  
  # Не имеет...
- vassal_contribution_tied_prowess_name: "обязательств, основанных на доблести"
+ #vassal_contribution_tied_prowess_name: "обязательств, основанных на доблести"
  
  # Добавления отсутствующих строк, что связаны с религиями. Эти строки стоит удалить, если разработчики сами добавят их.
  
@@ -117,7 +117,7 @@
  REALM_WINDOW_SIZE_CUSTOM:2 "Размер державы:\n[Character.RealmSize|V]"
  
  # названия войн
- HOUSE_TOMB_0_CONQUEST_WAR_NAME:0 "Завоевать гробницу Великого Дома"
+ #HOUSE_TOMB_0_CONQUEST_WAR_NAME:0 "Завоевать гробницу Великого Дома"
  HOUSE_TOMB_0_CONQUEST_WAR_NAME_BASE:0 "Завоевать гробницу Великого Дома"
  
  Scion_religious_head_title_name:0 "Матронат"
@@ -135,15 +135,15 @@
  great_mare_god_name_name_possessive:0 "Великой Кобылы"
  GET_RANDOM_CUSTOM_MEPHALA_NAME_name_possessive:0 "$god_mephala_name_possessive$"
  
- culture_parameter_fairness_valued:0 "[characters|E] с личностью [GetTrait('just').GetName( GetNullCharacter )] вызывают восхищение, в то время как свойства личности [GetTrait('sadistic').GetName( GetNullCharacter )] и [GetTrait('arbitrary').GetName( GetNullCharacter )] презираются" # Scorg. Для традиции 'Пограничные рыцари'.
+ #culture_parameter_fairness_valued:0 "[characters|E] с личностью [GetTrait('just').GetName( GetNullCharacter )] вызывают восхищение, в то время как свойства личности [GetTrait('sadistic').GetName( GetNullCharacter )] и [GetTrait('arbitrary').GetName( GetNullCharacter )] презираются" # Scorg. Для традиции 'Пограничные рыцари'.
  # Для аспекта закона. Scorg.
- devotion_gives_tyranny_reduction_vassal_opinion_0:0 "Уровень набожности (аспект закона)"
- devotion_gives_tyranny_reduction_vassal_opinion_1:0 "Уровень набожности (аспект закона)"
- devotion_gives_tyranny_reduction_vassal_opinion_2:0 "Уровень набожности (аспект закона)"
- devotion_gives_tyranny_reduction_vassal_opinion_3:0 "Уровень набожности (аспект закона)"
- devotion_gives_tyranny_reduction_vassal_opinion_4:0 "Уровень набожности (аспект закона)"
- devotion_gives_tyranny_reduction_vassal_opinion_5:0 "Уровень набожности (аспект закона)"
- devotion_gives_tyranny_reduction_vassal_opinion_6:0 "Уровень набожности (аспект закона)"
+ #devotion_gives_tyranny_reduction_vassal_opinion_0:0 "Уровень набожности (аспект закона)"
+ #devotion_gives_tyranny_reduction_vassal_opinion_1:0 "Уровень набожности (аспект закона)"
+ #devotion_gives_tyranny_reduction_vassal_opinion_2:0 "Уровень набожности (аспект закона)"
+ #devotion_gives_tyranny_reduction_vassal_opinion_3:0 "Уровень набожности (аспект закона)"
+ #devotion_gives_tyranny_reduction_vassal_opinion_4:0 "Уровень набожности (аспект закона)"
+ #devotion_gives_tyranny_reduction_vassal_opinion_5:0 "Уровень набожности (аспект закона)"
+ #devotion_gives_tyranny_reduction_vassal_opinion_6:0 "Уровень набожности (аспект закона)"
 
  # Потому что
  learning_lifestyle_name:0 "Учёность"
@@ -178,7 +178,6 @@
  deadlands_name_possessive:0 "Мёртвых Земель"
  spiralskein_name_possessive:0 "Спирального Сплетения"
  colouredrooms_name_possessive:0 "Цветных Комнат"
- scuttlingvoid_name_possessive:0 "Гибельной Пустоты"
  evergloam_name_possessive:0 "Вечнотени"
  pits_name_possessive:0 "Ям"
  myriadrealms_name_possessive:0 "Мириадов Царств"
@@ -195,4 +194,5 @@
  
  nick_the_shaker_of_nirn:0 "[Select_CString(CHARACTER.IsFemale, 'Сотрясательница', 'Сотрясатель')] Нирна" # Прозвище отсутствует в оригинале мода. Без описания, так как оно и само генерируется.
  can_use_summon_dragons_active_name:0 "возможности призывать драконов" # Название_религии не имеет возможности призывать драконов
+ faith_conversion_cost_cultural_identity_cg_exclusive_outside_culture_group:0 "[new_faith.MakeScope.Faith.GetName] [faith|E] не признаёт ваше [heritage|El] - [GetFaithDoctrine('doctrine_cultural_identity_heritage').GetBaseName]"
  
