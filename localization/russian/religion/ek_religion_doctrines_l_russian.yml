@@ -190,7 +190,7 @@
  doctrine_secondary_pantheon_name:0 "Второстепенный пантеон"
  doctrine_sp_divines_name:0 "Божества #italic [Concept( 'secondary', 'второстепенные' )|E]#!"
     doctrine_sp_divines_desc:0 "Можно найти единство и мир с богами Сиродила."
-    doctrine_parameter_divines_pantheon_syncretism:0 "Уменьшает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E] с [Concept( 'pantheon', 'пантеоном' )|E] [GetFaithDoctrine('doctrine_pantheon_divines').GetBaseName] на #P -15#!"
+    doctrine_parameter_divines_pantheon_syncretism:0 "Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -15#! с [Concept('faiths', 'конфессиями')|E], у которых имеется доктрина [Concept('pantheon', 'пантеона')|E] [GetFaithDoctrine('doctrine_pantheon_divines').GetBaseName]"
     doctrine_sp_divines_akatosh_name:0 "Акатош"
     doctrine_sp_divines_akatosh_desc:0 "Служи и повинуйся императору твоему. Изучай заветы. Почитай Восемь богов, исполняй долг свой, прислушивайся к наказам праведников и служителей церкви."
     doctrine_parameter_pantheon_adds_deity_akatosh:0 "Адепты могут принять Акатоша как своего [Concept( 'patron', 'покровителя' )|E] и получить свойство [GetTrait('p_dv_akatosh').GetName( GetNullCharacter )]"
@@ -2060,7 +2060,7 @@
     doctrine_parameter_radical_detachment_law_cost_increase:0 "Стоимость закона: #N +25%#!"
     
  tenet_sacred_alchemy_name:0 "Священная алхимия"
-    tenet_sacred_alchemy_desc:0 "Необразованное существо даже не поймёт, что непримечательный на первый взгляд цветок является компонентом сильнодействующего яда. Трус ни за что не отправится на сбор пепла вампира, а ведь он является основным ингредиентом очень дорогого зелья. Но мы образованны и храбры."
+    tenet_sacred_alchemy_desc:0 "Необразованный даже не поймёт, что непримечательный на первый взгляд цветок является компонентом сильнодействующего яда. Трус ни за что не отправится на сбор пепла вампира, а ведь он является основным ингредиентом очень дорогого зелья. Но мы образованны и храбры."
     doctrine_parameter_tenet_sacred_alchemy_herbalist_education:1 "Дети с [Concept( 'education_focus', 'фокусом образования' )|El] [learning|El] могут получить свойство [GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )], если они хорошо проявят себя."
     
  tenet_ritual_nightmares_name:0 "Ритуальные кошмары"
@@ -2122,7 +2122,7 @@
     tenet_shunatei_desc:0 "Шунатей (буквально 'растроенный живот') относится к аргонианской концепции, согласно которой аргониане испытывают боль от мыслей о прошлом и тревогу относительно того, что будет в будущем. Его часто используют для описания мировоззрения древних аргониан, поклоняющихся Ситису — постоянное беспокойство и страх перед неизбежным разрушением вселенной их богом."
  
  tenet_shunatei_alternate_name:0 "Чувство вины" #PLACEHOLDER
-    tenet_shunatei_alternate_desc:0 "Существо не может убежать от вины, вызванной проступками в прошлом. Оно может получить спасение лишь через признание, раскаяние и искупление." #PLACEHOLDER
+    tenet_shunatei_alternate_desc:0 "Нельзя убежать от вины, вызванной проступками в прошлом. Спасение можно получить лишь через признание, раскаяние и искупление." #PLACEHOLDER
     
  tenet_amberhist_name:0 "Янтарная плазма"
     tenet_amberhist_desc:0 "Янтарная плазма — это вещество, выделяемое некоторыми деревьями Хист. Считается, что это форма 'креации хаоса' из Обливиона. При правильном использовании это вещество может дать тем, кто его потребляет, увеличенную силу и рефлексы, хотя чрезмерное употребление часто приводит к безумию и появлению светящихся оранжевых пятен на коже."
