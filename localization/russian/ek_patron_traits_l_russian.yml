@@ -538,11 +538,11 @@
  trait_p_vl_llothis_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Святого Ллотиса Благочестивого."
 
 #Khajiit
- trait_p_kj_baandar:0 "Божество-покровитель - Баан Дар"
- trait_p_kj_baandar_base:0 "Последователь Баан Дара"
+ trait_p_kj_baandar:0 "Божество-покровитель - Баан-Дар"
+ trait_p_kj_baandar_base:0 "Последователь Баан-Дара"
  trait_p_kj_baandar_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_kj_baandar_desc' )]"
- trait_p_kj_baandar_desc:0 "Последователь Баан Дара"
- trait_p_kj_baandar_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Баан Дара, Бога-Разбойника."
+ trait_p_kj_baandar_desc:0 "Последователь Баан-Дара"
+ trait_p_kj_baandar_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Баан-Дара, Бога-Разбойника."
 
 #Forgotten Gods
  trait_p_fg_notorgo:0 "Последователь Ноторго"
