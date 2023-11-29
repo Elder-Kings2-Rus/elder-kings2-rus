@@ -195,4 +195,12 @@
  nick_the_shaker_of_nirn:0 "[Select_CString(CHARACTER.IsFemale, 'Сотрясательница', 'Сотрясатель')] Нирна" # Прозвище отсутствует в оригинале мода. Без описания, так как оно и само генерируется.
  can_use_summon_dragons_active_name:0 "возможности призывать драконов" # Название_религии не имеет возможности призывать драконов
  faith_conversion_cost_cultural_identity_cg_exclusive_outside_culture_group:0 "[new_faith.MakeScope.Faith.GetName] [faith|E] не признаёт ваше [heritage|El] - [GetFaithDoctrine('doctrine_cultural_identity_heritage').GetBaseName]"
- 
+ k_indoril_adj:0 "Индорильск"
+ k_redoran_adj:0 "Редоранск"
+ k_dres_adj:0 "Дресск"
+ k_telvanni_adj:0 "Телваннийск"
+ k_hlaalu_adj:0 "Хлаальск"
+ k_dagoth_adj:0 "Даготск"
+ k_sadras_adj:0 "Садраск"
+ k_sul_adj:0 "Сильск"
+ k_veloth_adj:0 "Велотийск"
