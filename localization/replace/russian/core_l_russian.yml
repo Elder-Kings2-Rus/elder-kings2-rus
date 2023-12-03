@@ -1,5 +1,5 @@
 ﻿l_russian:
- GAME_YEARS_SINCE_START_DATE_STRING:0 "Прошло лет с начала игры: $YEARS|V$\nПрошло [GetCurrentDate.GetYear] лет с начала Первой эры"
+ GAME_YEARS_SINCE_START_DATE_STRING:0 "Прошло лет с начала игры: $YEARS|V$\nПрошло [GetCurrentDate.GetYear] лет с начала #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#!"
  THIS_IS_YOU_WHOLESOME_CHONKER:0 "Это ты, здоровенная туша"
  GOLD_COST_LONG:0 "Золотые дрейки: [gold_i] $VALUE|0$" # EK EDIT
  GOLD_TEXT:0 "$VALUE|0$ золотых дрейков" # EK EDIT

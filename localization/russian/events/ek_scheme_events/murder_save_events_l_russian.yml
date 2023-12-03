@@ -1,0 +1,25 @@
+﻿l_russian:
+danger_sense_save_header:1 "Danger Sense: "
+ ek_murder_save.0001.t:1 "$danger_sense_save_header$ Assassin"
+ ek_murder_save.0001.opening:1 "My attempt on [target.GetTitledFirstNamePossessive] life has been thwarted!\n\nThe assassin made [dummy_assassin_gender.GetHerHis] way to the [target.GetTitleTierName]'s chambers"
+ ek_murder_save.0001.end:0 "but by some surnatural instinct, [target.GetTitledFirstName] was aware of the conspiracy. [target.GetSheHe|U] effortlessly dispatched the assassin and foiled the attempt on [target.GetHerHis] life!"
+
+ ek_murder_save.1001.desc:0 "I was quietly relaxing in my chambers when I get a dreadful, #italic ominous feeling#!. Something is wrong. #bold Very very wrong#!.\n\nI ready a dagger and lay in ambush. I am vindicated when an intruder makes [dummy_assassin_gender.GetHerHis] way into my room. I swiftly dispatch the assassin by stabbing a vital point and call upon my guards to protect me.\n\nWhen the perimeter is secured everything is clear: this was a concerted effort to end my life!"
+
+ ek_murder_save.0002.t:1 "$danger_sense_save_header$ Wine Connoisseur"
+ ek_murder_save.0002.opening:1 "My attempt on [target.GetTitledFirstNamePossessive] life has been thwarted!\n\nThe poison, the wine, the drink..."
+ ek_murder_save.0002.end:0 " Everything was going according to plan until a wild critter drank from glass [target.GetTitledFirstName]'s glass.\n\nConsidering the swift passing of the animal, [target.GetTitledFirstNameNoTooltip] reluctance to down the remainder of [target.GetHerHis] glass is understandable."
+
+ ek_murder_save.1002.desc:0 "When I was in the middle of sampling some new drinks I see from the corner of my eye a small critter taking laps from my glass. I quickly proceed to shoo away the animal but it doesn't budge. Bemused, I follow my intuition and let the animal fully indulge in the beverage.\n\nSuddenly, it grows alarmingly lethargic before expiring in front of my very eyes! Letting this little friend taste my food was the right call or else I would have been poisoned to death."
+
+ ek_murder_save.0003.t:1 "$danger_sense_save_header$ Fending Off Thugs"
+ ek_murder_save.0003.opening:1 "[target.GetTitledFirstName] is still alive!\n\nMy hired thugs ambushed [target.GetHerHis] retinue as planned, only to fall prey to an encirclement!"
+ ek_murder_save.0003.end:0 "[target.GetFirstName] dispatched some scouts ahead, driven by a fickle thought. After getting word of the danger ahead, [target.GetFirstNameNoTooltip] took his retinue off the beaten path and smashed apart the thugs."
+
+ ek_murder_save.1003.desc:0 "Travelling through a rather isolated stretch of land, I cannot help but request that a few retainers scout the path ahead. Could be nothing..but just in case.\n\nReporting back, the scouts outline armed parties poised to ambush us. We decide to take a roundabout route and give them a nasty surprise. After encircling them and giving them a taste of their own medicine, the thugs are routed and I am safe and sound.\n\nThat could have gone way worse if I had been less careful."
+
+ ek_murder_save.0004.t:1 "$danger_sense_save_header$ Pest Control"
+ ek_murder_save.0004.opening:1 "[target.GetTitledFirstName] is still alive!\n\nThe [SCOPE.Custom('VenomousCreature')] was planted in the [target.GetTitleTierNamePossessive] bed, but that paranoid [target.Custom('InsultNoun')] decided to sound out [target.GetHerHis] bed!"
+ ek_murder_save.0004.end:0 "Thanks to this gut feeling, [target.GetTitledFirstName] discovered the [SCOPE.Custom('VenomousCreature')] and promptly disposed of it. [target.GetSheHe|U] is no worse for the wear despite all my efforts against [target.GetHerHis] life!"
+
+ ek_murder_save.1004.desc:0 "It is expected for small animals to sometimes make their ways into living quarters. Yet as I am about to go to sleep I get a nagging sensation that I really ought flush out any potential pests.\n\n Lo and behold! A heinous [SCOPE.Custom('VenomousCreature')] was hidden between the sheets, ready to deliver poisonous death unto me. Fortunately I was careful in my approach. The worse could have happened..."

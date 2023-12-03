@@ -26,7 +26,7 @@
  patron_boon_horde_decision:0 "Даэдрическая Орда"
 #  patron_boon_horde_decision_type:0 "minor_boon"
  patron_boon_horde_decision_tooltip:0 "Призвать орду Даэдра"
- patron_boon_horde_decision_desc:0 "[GetPlayer.Custom('GetPatronName')] Предоставляет тебе командование над ордой даэдра"
+ patron_boon_horde_decision_desc:0 "[GetPlayer.Custom('GetPatronName')] Предоставляет тебе командование над ордой #LORE [compendium_daedra]#!"
  patron_boon_horde_decision_confirm:0 "Подтвердить"
 
  patron_boon_invasion_decision:0 "Даэдрическое вторжение"

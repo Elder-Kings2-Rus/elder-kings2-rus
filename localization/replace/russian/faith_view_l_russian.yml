@@ -20,3 +20,5 @@
  FERVOR_EQUILIBRIUM_BREAKDOWN_LEADER_CO8_MEMBER_TT:0 "\tЧлен Совета Восьми: #P +[Faith.MakeScope.Var('fe_impact_leader_co8_member').GetValue]#!\n\t\t\t#weak (Среднее между [Concept('fervor_equilibrium', 'равновесием рвения')|E] лидера и вашим)#!"
  FERVOR_EQUILIBRIUM_BREAKDOWN_LEADER_CO8_MEMBER_TT_LOWER:0 "\tЧлен Совета Восьми: #N [Faith.MakeScope.Var('fe_impact_leader_co8_member').GetValue]#!\n\t\t\t#weak (Среднее между [Concept('fervor_equilibrium', 'равновесием рвения')|E] лидера и вашим)#!"
  FERVOR_EQUILIBRIUM_BREAKDOWN_LEADER_CO8_MEMBER_TT_HIGHER:0 "\tЧлен Совета Восьми: #P +[Faith.MakeScope.Var('fe_impact_leader_co8_member').GetValue]#!\n\t\t\t#weak (Среднее между [Concept('fervor_equilibrium', 'равновесием рвения')|E] лидера и вашим)#!"
+ 
+ DOCTRINE_BLOCKS_FAITH_CREATION:0 "@warning_icon!#X [FAITH_DOCTRINE.GetName( GetPlayer.GetFaith )] — нельзя выбрать из-за несовместимых [Concept('doctrines', 'доктрин')|E]#!"

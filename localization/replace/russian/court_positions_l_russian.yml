@@ -1,0 +1,4 @@
+﻿l_russian:
+ wet_nurse_court_position: "[SelectLocalization(EqualTo_string(GetPlayer.GetCulture.GetLanguage.GetNameNoTooltip, Localize('language_jel_name')), 'EK_wet_nurse_ARG', 'EK_wet_nurse')]"
+ EK_wet_nurse_ARG:0 "Смотрительница яиц"
+ EK_wet_nurse:0 "Кормилица"

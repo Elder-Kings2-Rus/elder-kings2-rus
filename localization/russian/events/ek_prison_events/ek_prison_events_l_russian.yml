@@ -1,4 +1,28 @@
 ﻿l_russian:
+ prison.1001.fire.desc:0 "[actor.GetTitledFirstName] conjures a menacing flame in [actor.GetHerHis] hand, its heat searing my face. "You know, some people consider destruction magic to be rough and undefined, but I'll show you that there's a certain artistry to it.""
+ prison.1001.frost.desc:0 "The temperature in my cell noticeably drops, and I observe frost crystals forming around [actor.GetTitledFirstName] hand, mirroring the icy smile on [actor.GetHerHis] face. "Don't worry, at a certain point your body will freeze and numb the pain, although that might take some time.""
+ prison.1001.sparks.desc:0 ""Shock magic, if skillfully applied, serves a particular purpose, don't you agree?" [actor.GetTitledFirstName] inquires, sparks crackling between [actor.GetHerHis] fingers. "It can inflict significant pain without causing excessive harm to your body. Allow me to illustrate.""
+ prison.1001.bone_mending.desc:0 "The scent of death accompanies [actor.GetTitledFirstName] into the cell, and my heart quickens as [actor.GetSheHe] fixes [actor.GetHerHis] gaze on me. "You see, I have significant experience in altering bones and flesh, though I rarely practice on the living. Let's change that.""
+ prison.1001.experimental.desc:0 ""I have some intriguing new spells I'd like to test on someone. Would you be willing to assist me in this endeavor?" [actor.GetTitledFirstName] inquires with genuine curiosity, adding, "It guess it will only hurt a little. Or very much. We have to see.""
+
+ prison.1002.fire.desc:0 "Some people consider destruction magic to be rough and undefined, but the exact control of the flame is quite the art. And I can't wait to demonstrate it to [recipient.GetTitledFirstName] as [recipient.GetSheHe] already flinches before the heat."
+ prison.1002.frost.desc:0 "Using frost magic to inflict pain is a double edged sword. At a certain point [recipient.GetTitledFirstNamePossessive] body will freeze and numb the pain. But not before [recipient.GetSheHe] experiences icy needles in every part of [recipient.GetherHis] flesh."
+ prison.1002.sparks.desc:0 "Shock magic is probably the best suited for nmy current intents. It can inflict significant pain without causing excessive harm to a body, as [recipient.GetTitledFirstName] is about to find out."
+ prison.1002.bone_mending.desc:0 "No one can denie that I have significant experience in altering bones and flesh, though I rarely practice this art on the living. [recipient.GetTitledFirstName] seems like a good subject to train nonetheless."
+ prison.1002.experimental.desc:0 "It is about time to test some of my new spells one someone. Luckily I have [recipient.GetTitledFirstName] as an involuntary yet very useful subject to see the effects of some of the more unpleasant ones at first hand."
+
+ prison.1003.fire.desc:0 "$prison.1002.fire.desc$"
+ prison.1003.frost.desc:0 "$prison.1002.frost.desc$"
+ prison.1003.sparks.desc:0 "$prison.1002.sparks.desc$"
+ prison.1003.bone_mending.desc:0 "$prison.1002.bone_mending.desc$"
+ prison.1003.experimental.desc:0 "$prison.1002.experimental.desc$"
+
+ prison.1010.fire.desc:0 "$prison.1001.fire.desc$"
+ prison.1010.frost.desc:0 "$prison.1001.fire.desc$"
+ prison.1010.sparks.desc:0 "$prison.1001.fire.desc$"
+ prison.1010.bone_mending.desc:0 "$prison.1001.fire.desc$"
+ prison.1010.experimental.desc:0 "$prison.1001.fire.desc$"
+ 
  ek_prison.1001.t:0 "Цена кровью"
  ek_prison.1001.desc_intro:0 "Среди культуры [jailor_culture.GetName] есть обычай не использовать тюрьмы или подземелья. Вместо этого у них принято проверять их физическую выносливость, позволяя тюремщику или человеку, которого они выбрали, лишить его столькой крови, сколько он пожелает."
  ek_prison.1001.desc_no_reason:0 "\n\nНесмотря на то, что большинство моих предполагаемых преступлений против [imprisoner.GetName] были возмещены, [imprisoner.GetSheHe] заточил меня в плен. Есть ещё некоторые лёгкие обиды, за которые [imprisoner.GetSheHe] хочет, чтобы я ответил."
@@ -46,15 +70,14 @@
  ek_prison.1004.desc:0 "Меня посадил в тюрьму [imprisoner.GetName]!\n\nСогласно [imprisoner.GetHerHis] традициям, любой заключенный должен быть сослан за свои преступления. Если отношения между преступником и его похитителем достаточно хорошие, заключенный может просить прощения и поклясться, если похититель будет милосерден, то он навсегда останутся в долгу.\n\n[imprisoner.GetFirstName] будет принимать решение, но я могу убедить [imprisoner.GetHerHim] принять благодарность в качестве искупления."
  ek_prison.1004.a:0 "Я принимаю свое изгнание."
  ek_prison.1004.b:0 "Сделали бы вы это со своим [root.Custom2('RelationToMe', SCOPE.sC('imprisoner'))]?"
+ 
  ek_prison.1005.desc_intro:0 "[prisoner.GetName] наконец-то пойман! По нашим давним традициям заключенных следует ссылать."
  ek_prison.1005.desc_accept_exile:0 "\n\nГлядя мне прямо в глаза, [prisoner.GetFirstName] выражает свое желание страдать в изгнании. [prisoner.GetHerHis|U] храбрость довольно почетна."
  ek_prison.1005.desc_freedom:0 "\n\n[prisoner.GetFirstName] пришлось умолять меня даровать [prisoner.GetHerHim] свободу, утверждая, что наши близкие узы и [prisoner.GetHerHis] клятвы должны быть гарантией того, что мы не причиним вреда друг другу."
  ek_prison.1005.a:0 "Вы будете изгнаны и удалены из нашего [Concept('home', 'Дома')|E!"
  ek_prison.1005.b:0 "Вы будете изгнаны!"
  ek_prison.1005.c:0 "Я принимаю ваши мольбы. Добро пожаловать обратно."
- 
- 
- 
+  
  ek_prison.1006.t:0 "Лишение магии"
  ek_prison.1006.start.desc:0 "Тюремщик затаскивает паникующего персонажа [recipient.GetTitledFirstName] в комнату. "Пожалуйста! Я сделаю всё что вы захотите!" [recipient.GetHerHis|U] протесты обрываются, когда тюремщик затыкает [recipient.GetHerHim] рот кляпом и привязывает [recipient.GetHerHim] к столу.\n\n"
  ek_prison.1006.cruel.desc:0 ""О, [recipient.GetFirstNameNoTooltip]," Я театрально вздыхаю. "Ваша магия была столь сильна и вы могли достичь таких высот. Но теперь всё это уже в #bold прошлом#!""
