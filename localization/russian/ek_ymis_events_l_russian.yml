@@ -1,13 +1,4 @@
-﻿l_russian:
- ek_magic_ai_events.0004.t:0 "Магические инструкции"
- ek_magic_ai_events.0004.desc:0 "[court_mage.GetFirstName|U] может быть весьма [Select_CString(court_mage.IsFemale, 'сведущей', 'сведущим' )] в магических искусствах, но долг правителя - знакомиться с действиями своих подданных - и при необходимости внимательно следить за ними. Поступки моего придворного мага отразятся на мне и на всем моей державе. Так что настало время решить, как именно [court_mage.GetFirstNameNoTooltip] [Select_CString(court_mage.IsFemale, 'должна', 'должен' )] использовать свои способности. \n\nМожно ли позволить [court_mage.GetHerHim] принимать решения об использовании заклинаний без моего прямого приказа или я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] сохранять полный контроль над этим?\n\nЕсли я хочу не провоцировать дальнейшую враждебность, было бы разумно посоветовать не использовать наносящие вред чары."
- ek_magic_ai_events.0004.a:0 "Я верю, что вы сможете действовать разумно."
- ek_magic_ai_events.0004.a.tt:0 "[court_mage.GetFirstNameNoTooltip|U] постарается сбалансировать использование враждебных чар против врагов и благотворные заклинания во благо державы."
- ek_magic_ai_events.0004.b:0 "Действуйте независимо, но не используйте враждебные чары."
- ek_magic_ai_events.0004.b.tt:0 "[court_mage.GetFirstNameNoTooltip|U] будет использовать заклинания только во благо державы и воздерживаться от применения враждебных чар."
- ek_magic_ai_events.0004.c:0 "Колдуй только по моему прямому приказу."
- ek_magic_ai_events.0004.c.tt:0 "Если вы хотите, чтобы [court_mage.GetFirstNameNoTooltip] [Select_CString(court_mage.IsFemale, 'использовала', 'использовал' )] магию, вы должны приказать [court_mage.GetHerHim] непосредственно через книгу заклинаний."
- 
+﻿l_russian: 
  ek_ymis_events.0001.t:0 "Старый орк"
  ek_ymis_events.0001.desc:0 "Мир и спокойствие тихого дня нарушает ссора. Мои стражники спорят у ворот с кем-то, кто требует впустить его. Незваным гостем оказывается старый, закалённый в боях орк, которого я никогда раньше не [Select_CString(ROOT.Char.IsFemale, 'видела', 'видел' )]. Я [Select_CString(ROOT.Char.IsFemale, 'решила', 'решил' )] вмешаться, пока ситуация не вышла из-под контроля.\n\nОрк почтительно приветствует меня, когда я подхожу к нему. "[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetLadyLord], я здесь, чтобы просить вас об услуге: с каждым днём я становлюсь всё старше и не могу смириться с перспективой мирной смерти. Моё самое большое желание — умереть в бою, но никто не может превзойти меня в схватке. Ваше мастерство владения клинком хорошо известно. Встретитесь ли вы со мной в поединке до смерти и попытаетесь ли отправить мою душу в Пепельную кузницу?"
  ek_ymis_events.0001.a:0 "Присоединяйтесь ко мне. У вас будет много возможностей умереть в бою."
@@ -226,6 +217,15 @@
  ek_ymis_events.0039c:0 "Если вы так почитаете [old_ancestor.GetHerHis], то ныне будете служить подле н[old_ancestor.GetHerHis]."
  ek_ymis_events.0039c.tt:0 "Вы превратите персонажа [peasant.GetFirstName] в нежить-трэлла, что будет подчиняться вам."
 
+ ek_ymis_events.0040.t:0 "Колоссальный проект"
+ ek_ymis_events.0040.desc:0 "Почему кто-то с моими способностями должен прибегать к использованию простых зомби и скелетов для выполнения моих приказов? Я уверен, что смогу достичь гораздо больших подвигов.\n\nПоскольку [sacrifice.GetFirstName] в моем подземелье, у меня есть идеальный объект для экспериментов с чем-то новым, чем-то более грандиозным. Если бы мне пришлось объединить душу и тело с набором [sacrifice.GetHerHis] костей, которые есть в моем распоряжении, я мог бы создать костяного колосса — грозного голема, созданного из слияния безжизненных частей тела и тёмной магии."
+ ek_ymis_events.0040.a:0 "[sacrifice.GetFirstNameNoTooltip], твоя душа будет служить высшей цели."
+ ek_ymis_events.0040.a.tt:0 "[sacrifice.GetFirstNameNoTooltip] умрёт, и вы, возможно, отряд особых войск."
+ ek_ymis_events.0040.a.great_success:0 "Вы создаете Великого Костяного колосса!"
+ ek_ymis_events.0040.a.success:0 "Вы создаете Костяного колосса"
+ ek_ymis_events.0040.a.failure:0 "Неудача в создании Костяного колосса"
+ ek_ymis_events.0040.b:0 "У меня другие планы на н[sacrifice.GetHerHis]."
+ 
  ek_ymis_events.0050.t:0 "Безрезультатная трансмутация"
  ek_ymis_events.0050.desc:0 "Я с нетерпением жду большую сумму золота, которую по моему приказу [Select_CString(court_mage.IsFemale, 'должна', 'должен' )] трансмутировать [court_mage.GetFirstName] для меня, но вместо груды блестящего металла, которую я [Select_CString(ROOT.Char.IsFemale, 'ожидала', 'ожидал' )], передо мной лежит лишь небольшая кучка. За ней стоит [court_mage.GetFirstName] и неловко смотрит на меня.\n\n"Мой сюзерен, я [Select_CString(court_mage.IsFemale, 'должна', 'должен' )] признаться, что мои попытки трансмутировать неблагородные металлы в золото на этот раз оказались безуспешными. Как вы можете видеть, я [Select_CString(court_mage.IsFemale, 'смогла', 'смог' )] создать лишь небольшое количество. Но я [Select_CString(court_mage.IsFemale, 'уверена', 'уверен' )], что вместе мы сможем преодолеть эту неудачу и продолжать процветать. Пожалуйста, примите мои искренние извинения за неудачу. Я сделаю всё, что в моих силах, чтобы загладить свою вину и вернуть ваше доверие.""
  ek_ymis_events.0050a:0 "Я [Select_CString(ROOT.Char.IsFemale, 'уверена', 'уверен' )], что вы сделали всё, что могли."
@@ -257,7 +257,7 @@
  stress_threshold.1721.i.experimentalist.gain:0 "$stress_threshold.1711.e.experimentalist.gain$"
  stress_threshold.1721.i.experimentalist.effect:0 "$stress_threshold.1711.e.experimentalist.gain$"
  stress_threshold.1731.e.experimentalist.gain:0 "Я опробую несколько новых заклинаний."
- stress_threshold.1731.e.experimentalist.effect:0 "$stress_threshold.1731.d.experimentalist.gain$"
+ stress_threshold.1731.e.experimentalist.effect:0 "$stress_threshold.1731.e.experimentalist.gain$"
  stress_threshold.2311.g.experimentalist.gain:0 "$stress_threshold.1711.e.experimentalist.gain$"
  stress_threshold.2311.g.experimentalist.effect:0 "$stress_threshold.1711.e.experimentalist.gain$"
  stress_threshold.2321.g.experimentalist.gain:0 "$stress_threshold.1711.e.experimentalist.gain$"
