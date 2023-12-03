@@ -20,10 +20,11 @@
  ek_yearly_events.0003.b:0 "Я не [Select_CString(ROOT.Char.IsFemale, 'голодна', 'голоден' )]. Спасибо."
  ek_yearly_events.0003.b.tooltip:0 "Вы отвергаете дар ведьмы."
  ek_yearly_events.0006.t:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] и дракон"
- ek_yearly_events.0006.desc:0 "[katd_courtier.GetFirstNameNoTooltip] [Select_CString(katd_courtier.Char.IsFemale, 'ворвалась', 'ворвался' )] в дверь зала со страхом в глазах.\n\n«[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetTitleAsName], там дракон. Он атакует графство [GetPlayer.GetCurrentLocation.GetName]. Прошу вас, умоляю, защитите нашу землю.»"
+ ek_yearly_events.0006.desc:0 "[katd_courtier.GetFirstNameNoTooltip] [Select_CString(katd_courtier.Char.IsFemale, 'ворвалась', 'ворвался' )] в дверь зала со страхом в глазах.\n\n«[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetTitleAsName], там дракон. Он атакует графство [dragon_county.GetName]. Прошу вас, умоляю, защитите нашу землю.»"
  ek_yearly_events.0006.a:0 "Я не буду стоять в стороне, пока дракон сжигает мои владения и убивает мой народ!"
  ek_yearly_events.0006.b:0 "Отправить персонажа [katd_champion.GetFirstNameNoTooltip], чтобы убить чудовище!"
  ek_yearly_events.0006.c:0 "О чём ты говоришь? Драконов не существует, [Select_CString(katd_courtier.Char.IsFemale, 'безумица', 'безумец' )]!"
+ ek_yearly_events.0006.d:0 "Следующая охота будет легендарной!"
  ek_yearly_events.0007.t:0 "[ROOT.Char.GetFirstNameNoTooltip] и дракон - Разветвляющиеся пути"
  ek_yearly_events.0007.desc:0 "Я смело [Select_CString(ROOT.Char.IsFemale, 'приготовилась', 'приготовился' )] к встрече с чудовищем. Направляясь к своей цели, я [Select_CString(ROOT.Char.IsFemale, 'обнаружила', 'обнаружил' )] тропинку, которая расходилась в три разных стороны.\n\nПуть мог привести в холодную пещеру, в ветреную пещеру и на узкую тропу. А пока я [Select_CString(ROOT.Char.IsFemale, 'размышляла', 'размышлял' )], какой же дорогой мне отправиться."
  ek_yearly_events.0007.a:0 "Я [Select_CString(ROOT.Char.IsFemale, 'решила', 'решил' )] войти в холодную пещеру."
@@ -373,7 +374,7 @@
  ek_yearly_events.0074.a.lunatic:0 "ЛОРХАН — ЭЛЬФИЙСКОЕ ИМЯ! ЛОРХАН — ЭЛЬФИЙСКОЕ ИМЯ!"
  ek_yearly_events.0074.b:0 "Я могу это вытерпеть. Скоро всё закончится."
  ek_yearly_events.0075.t:0 "$feast_header$ Соглашение Хладной Гавани"
- ek_yearly_events.0075.desc:0 "Бард объявил, что следующая песня будет печальной, и всякий смех прекратился. Когда зазвучала музыка и слова, все голоса притихли в знак уважения. Публика хорошо знала песню, и когда зазвучал припев, многие голоса присоединились к голосу барда.\n\nВ песне рассказывалось о таинственном соглашении Сота Сила с даэдрическими князьями времён Первой эры, и к концу песни у меня голова шла кругом."
+ ek_yearly_events.0075.desc:0 "Бард объявил, что следующая песня будет печальной, и всякий смех прекратился. Когда зазвучала музыка и слова, все голоса притихли в знак уважения. Публика хорошо знала песню, и когда зазвучал припев, многие голоса присоединились к голосу барда.\n\nВ песне рассказывалось о таинственном соглашении Сота Сила с #LORE [Concept( 'compendium_daedric_princes', 'Даэдрическими Принцами' )|E]#! #LORE времён #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#!, и к концу песни у меня голова шла кругом."
  ek_yearly_events.0075.a:0 "Да здравствует наш Заводной Бог!"
  ek_yearly_events.0075.b.molag:0 "Этот Интриган кажется могучим..."
  ek_yearly_events.0075.b.dagon:0 "Этот Разрушитель кажется могучим..."
@@ -649,7 +650,7 @@
  ek_yearly_events.0120.b:0 "Это слишком дорого."
 
  ek_yearly_events.0123.t:0 "Тревожные дебаты"
- ek_yearly_events.0123.desc:0 "Читать о ранней Меретической эре довольно хлопотно. По некоторым данным, Альдмерис располагался где-то в южной части Эльтерического океана. Согласно эпической поэзии альтмеров, у древних были основания полагать, что их родина лежит в одном из трех различных направлений: на юг, северо-запад или северо-восток.\n\nО родине эльфов практически ничего не известно. Её местоположение, окружающая среда, политика, религия и даже существование являются предметом предположений.\n\nМой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chaplain'))|l], [chaplain.GetTitledFirstName], подходит ко мне, пока я утопаю в эссе и старых томах, и спрашивает моё мнение об этом. Существовал ли вообще Альдмерис?"
+ ek_yearly_events.0123.desc:0 "Читать о ранней #LORE [Concept( 'compendium_merethic_era', 'Меретической эре' )|E]#! довольно хлопотно. По некоторым данным, #LORE [Concept( 'compendium_aldmeris', 'Альдмерис' )|E]#! располагался где-то в южной части Эльтерического океана. Согласно эпической поэзии альтмеров, у древних были основания полагать, что их родина лежит в одном из трех различных направлений: на юг, северо-запад или северо-восток.\n\nО родине эльфов практически ничего не известно. Её местоположение, окружающая среда, политика, религия и даже существование являются предметом предположений.\n\nМой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chaplain'))|l], [chaplain.GetTitledFirstName], подходит ко мне, пока я утопаю в эссе и старых томах, и спрашивает моё мнение об этом. Существовал ли вообще Альдмерис?"
  ek_yearly_events.0123.a:0 "Ну, согласно моим исследованиям..."
  ek_yearly_events.0123.b:0 "[chaplain.GetShortUIName], что вы думаете?"
  ek_yearly_events.0123.a.success:0 "Ваш ответ радует вашего альдарха"
@@ -729,7 +730,7 @@
  ek_yearly_events.0134.d:0 "Народу разрешается иметь собственное мнение!"
 
  ek_yearly_events.0135.t:0 "$travel_event_prefix$ День освобождения"
- ek_yearly_events.0135.desc:0 "С Первой эры жители Гленумбры отмечают День освобождения, названный так в честь коронного достижения принца Айдена Диренни: привести войска Диренни к победе над алессианскими захватчиками в битве при Гленумбрийских пустошах.\n\nВ [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip], простые люди также активно участвуют в праздниках, и это день радостного веселья для всех."
+ ek_yearly_events.0135.desc:0 "С #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#! жители Гленумбры отмечают День освобождения, названный так в честь коронного достижения принца Айдена Диренни: привести войска Диренни к победе над алессианскими захватчиками в битве при Гленумбрийских пустошах.\n\nВ [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip], простые люди также активно участвуют в праздниках, и это день радостного веселья для всех."
  ek_yearly_events.0135.a:0 "Бретонский народ был бы ничем без Диренни."
  ek_yearly_events.0135.b:0 "Есть красота в культурах, объединённых, несмотря на их различия."
  ek_yearly_events.0135.c:0 "Слава имени принца Айдена!"
@@ -780,7 +781,7 @@
  ek_yearly_events.0140.a:0 "Я присоединюсь к их песне и танцу!"
 
  ek_yearly_events.0141.t:0 "Фестиваль клинков: Сжигание тотема"
- ek_yearly_events.0141.desc:0 "Каждое Первое зерно празднуется фестиваль в честь Хундинга и его победы над Малуком и его армией гоблинов в Первую эру.\n\nНа этом фестивале простолюдины делают чучело, представляющее все тё, что они хотели бы преодолеть. Самые маленькие собирают палки и самодельное оружие, чтобы расчленить чучело, а затем вся деревня разводит костёр и сжигает его останки ночью в очень душевной церемонии."
+ ek_yearly_events.0141.desc:0 "Каждое Первое зерно празднуется фестиваль в честь Хундинга и его победы над Малуком и его армией гоблинов в #LORE [Concept( 'compendium_first_era', 'Первую эру' )|E]#!.\n\nНа этом фестивале простолюдины делают чучело, представляющее все тё, что они хотели бы преодолеть. Самые маленькие собирают палки и самодельное оружие, чтобы расчленить чучело, а затем вся деревня разводит костёр и сжигает его останки ночью в очень душевной церемонии."
  ek_yearly_events.0141.a:0 "Я присоединюсь к ним."
 
  ek_yearly_events.0142.t:0 "$travel_event_prefix$ Гардтид"
@@ -807,7 +808,7 @@
  ek_yearly_events.0146.b:0 "К счастью!"
 
  ek_yearly_events.0147.t:0 "$travel_event_prefix$ Куму Алезер'и"
- ek_yearly_events.0147.desc:0 "С Первой эры жители Сентинеля празднуют Куму Алезер'и, что на языке йоку означает «Мы признаём», в память об основателе города, Яхубе Мореплавателе, который обнаружил гавань города, следуя за созвездием Коня, и назвал его в честь дозорного, который первым заметил её.\n\nВ графстве [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] простолюдины также активно участвуют в праздниках, и это день радостного веселья для всех."
+ ek_yearly_events.0147.desc:0 "С #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#! жители Сентинеля празднуют Куму Алезер'и, что на языке йоку означает «Мы признаём», в память об основателе города, Яхубе Мореплавателе, который обнаружил гавань города, следуя за созвездием Коня, и назвал его в честь дозорного, который первым заметил её.\n\nВ графстве [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] простолюдины также активно участвуют в праздниках, и это день радостного веселья для всех."
  ek_yearly_events.0147.a:0 "Это доказывает, что мы являемся законными правителями Сентинеля."
  ek_yearly_events.0147.b:0 "Яхуб основал Сентинель для всеобщего спасения!"
  ek_yearly_events.0147.c:0 "Хвала имени Яхуба Мореплавателя!"
@@ -826,7 +827,7 @@
  friend_fishing_day_corresponding:0 "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] рыбачили вместе в День рыбака."
 
  ek_yearly_events.0150.t:0 "$travel_event_prefix$ Дриг Р'Зимб"
- ek_yearly_events.0150.desc:0 "В самый жаркий день года жители графства [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] собираются на ликование в честь Дайбета, солнца.\n\nУчёные не знают, как давно проводится Дриг Р'Зимб, но, возможно, редгарды принесли фестиваль с собой, когда пришли в Первую эру."
+ ek_yearly_events.0150.desc:0 "В самый жаркий день года жители графства [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] собираются на ликование в честь Дайбета, солнца.\n\nУчёные не знают, как давно проводится Дриг Р'Зимб, но, возможно, редгарды принесли фестиваль с собой, когда пришли в #LORE [Concept( 'compendium_first_era', 'Первую эру' )|E]#!."
  ek_yearly_events.0150.a:0 "Эти люди должны почитать меня!"
  ek_yearly_events.0150.b:0 "Приглашаем всех на празднование Дайбета!"
  ek_yearly_events.0150.c:0 "Народу должно быть позволено праздновать свои древние обычаи."
@@ -876,7 +877,7 @@
  ek_yearly_events.0159.desc:0 "Пожалуй, ни один другой праздник не поднимает дух жителей местечка [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] так сильно, как сегодняшний Конец жатвы.\n\nНаиболее важная работа года — посев, сев и жатва — закончены. Настало время праздновать и наслаждаться плодами урожая. И даже гости местечка [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] приглашаются присоединиться к фермерам.\n\nТаверны предлагают бесплатную выпивку в течение всего дня, что является последним актом расточительности перед экономными зимними месяцами. Ранее недокормленные работники ферм ныне жрут в три горла и нередко им становится плохо прямо на городской площади. Подобные зрелища можно часто лицезреть во время празднования Конца жатвы."
 
  ek_yearly_events.0160.t:0 "Конец жатвы: Лиходей"
- ek_yearly_events.0160.desc:0 "Бретонцы отмечают Конец Жатвы, пытаясь задобрить Шеора, также известного как Лиходей. Это древний бретонский бог неурожая.\n\nСогласно традиции, умиротворение Лиходея обеспечит удачу и обильный урожай. Свежие яблоки и мешки с зерном сжигаются на жертвенном алтаре в честь Шеора, после чего устраивается большой праздник."
+ ek_yearly_events.0160.desc:0 "Бретонцы отмечают Конец Жатвы, пытаясь задобрить #LORE [Concept( 'compendium_sheor', 'Шеора' )|E]#!, также известного как Лиходей. Это древний бретонский бог неурожая.\n\nСогласно традиции, умиротворение Лиходея обеспечит удачу и обильный урожай. Свежие яблоки и мешки с зерном сжигаются на жертвенном алтаре в честь Шеора, после чего устраивается большой праздник."
 
  ek_yearly_events.0161.t:0 "Нашествие мускусных мух"
  ek_yearly_events.0161.desc:0 "Когда я уже [Select_CString(ROOT.Char.IsFemale, 'начала', 'начал' )] наслаждаться довольно спокойным днем, ко мне подходит [steward.GetFirstName], [Select_CString(steward.IsFemale, 'выглядящая обеспокоенной', 'выглядящий обеспокоенным' )].\n\n[steward.GetSheHe|U] сообщает мне, что в провинции [province.GetName] бушует рой мускусных мух — местных насекомых, которые уничтожают урожай и даже нападают на местных жителей, заражая их болезнями.\n\n[steward.GetSheHe|U] торопит меня решить этот вопрос как можно скорее."
@@ -912,15 +913,6 @@
  ek_yearly_events.0163.b:0 "Пожалуйста, примите это пожертвование."
  ek_yearly_events.0163.c:0 "Мне плевать."
 
- ek_yearly_events.0164.t:0 "Эксперимент с пеплозубом"
- ek_yearly_events.0164.desc:0 "Просматривая древние тома о магии, я [Select_CString(ROOT.Char.IsFemale, 'наткнулась', 'наткнулся' )] на интересную заметку магистра Варкенела из Дома Телванни.\n\nВ этой статье автор описывает создание дружелюбного, но странного существа известного как пеплозуб. Помимо того, что это подходящий компаньон для мага вроде меня, этот эксперимент может научить меня чему-то полезному о трансмутации живых существ."
- ek_yearly_events.0164.a:0 "Это не должно быть так сложно..."
- ek_yearly_events.0164.b:0 "Это глупо!"
- ek_yearly_events.0164.a.success:0 "Вы успешно трансмутируете пеплозуба"
- tooltip.ek_yearly_events.0164.a.success:0 "Оно живое!"
- ek_yearly_events.0164.a.failure:0 "Вашего мастерства недостаточно"
- tooltip.ek_yearly_events.0164.a.failure:0 "По крайней мере, вы чему-то научились..."
-
  ek_yearly_events.0165.t:0 "Семь добродетелей"
  ek_yearly_events.0165.start.desc:0 "Я нахожусь в месте, что известно как [ROOT.GetCharacter.GetFaith.HouseOfWorship], и размышляю о паломничествах, в которых я [Select_CString(ROOT.Char.IsFemale, 'побывала', 'побывал' )]. Также я думаю о каждой из добродетелей, которые должна была представлять каждая святыня.\n\n"
  ek_yearly_events.0165.vivec.desc:0 "Вдруг я слышу шаги позади себя. Я оборачиваюсь и вижу [Select_CString(chaplain.IsFemale, 'священницу', 'священника' )] по имени [chaplain.GetFirstNameNoTooltip], [Select_CString(chaplain.IsFemale, 'которая', 'который' )], похоже, чем-то очень [Select_CString(chaplain.IsFemale, 'довольна', 'доволен' )].\n\n«Мой сюзерен», начинает [chaplain.GetSheHe], «Я [Select_CString(chaplain.IsFemale, 'получила', 'получил' )] великий дар от самого Воина-Поэта. Это прекрасно оформленный фолиант, содержащий каждую из Его проповедей, подаренный вам в награду за ваше благочестивое и трудное паломничество. Это величайшая честь!»\n\n"
@@ -929,6 +921,78 @@
  ek_yearly_events.0165.end.desc:0 "Я завороженно смотрю на драгоценный дар, радуясь тому, что сами Живые боги сочли меня [Select_CString(ROOT.Char.IsFemale, 'достойной', 'достойным' )]."
  ek_yearly_events.0165.a:0 "Хвала Трибуналу!"
 
+ ek_yearly_events.0166.t:0 "Legacy of the Bretons"
+ ek_yearly_events.0166.desc:0 "Contemplating my Breton heritage, I pondered what it truly meant to be a Breton and what legacy we would leave for future generations. As a noble of House [ROOT.GetCharacter.GetHouse.GetName], I grappled with the concept of our dual nature, a fusion of human and elven cultures. This identity crisis weighed heavily on my soul.\n\nThe battle between ancestral veneration and Druidic practices left me questioning which path truly defined the Bretons."
+ ek_yearly_events.0166.a:0 "Magic defines our heritage."
+ ek_yearly_events.0166.b:0 "Respecting nature defines what a Breton truly is."
+ ek_yearly_events.0166.c:0 "To be Breton is to embrace our entire history."
+ ek_yearly_events.0166.d:0 "Who cares?"
+
+ ek_yearly_events.0167.t:0 "The Natural"
+ ek_yearly_events.0167.desc:0 "While strolling through the halls of my palace, a disheveled Bosmer approaches me with a hopeful glint in his eye.\n\n"Hello there! Before you take another step, allow me to introduce myself. My name is Gaenor, and I'm... well, I'm an entrepreneur of sorts. I was wondering if I could ask a small favor of you."\n\nWhen asked to get on with it, Gaenor continued. "As you may have noticed, I'm not looking my best at the moment. I'm a little, shall we say, down on my luck, which is NOT something I'm used to, let me tell you. At any rate, I'm looking for a little starting capital to get things rolling here in [ROOT.Char.GetCurrentLocation.GetName] - I've recently arrived myself, you see - and I thought you might be able to help me out. Think you could part with, say, fifty gold?""
+ ek_yearly_events.0167.a:0 "Sure, here you are."
+ ek_yearly_events.0167.b:0 "No, I don't think so. Sorry."
+ ek_yearly_events.0167.b.tt:0 "Gaenor will remember this."
+ ek_yearly_events.0167.c:0 "Pretend you didn't see him." 
+
+ ek_yearly_events.0168.desc:0 "Gaenor continues speaking.\n\n"Splendid! I really do appreciate it, and I must say, you're quite the generous soul. In fact, as long as we're talking, and getting along so well, do you think maybe you could spot me another hundred? I'm quite sure that I can pay you back in just a few days time. I've always had excellent luck when it comes to these sort of things. So, what do you say?""
+ ek_yearly_events.0168.a:0 "I suppose so."
+
+ ek_yearly_events.0169.desc:0 "Gaenor pulls me closer.\n\n"You really are something, [ROOT.GetCharacter.GetFirstNameNoTooltip]. I can see we're going to get along famously! Okay, I'll be up front with you. If I could just have another, oh, thousand gold or so, I can really make it here. I just know it. You've been so good to me, and it's clear that you've got the money... Just a little more help, that's all I ask for. You'll do it, right?""
+ ek_yearly_events.0169.a:0 "Okay. Here you are."
+ ek_yearly_events.0169.b:0 "No, that's too much. Sorry."
+
+ ek_yearly_events.0170.desc:0 "Gaenor is still not done. Before I can protest, he begins.\n\n"Wow! You have no idea what this means to me, [ROOT.GetCharacter.GetFirstNameNoTooltip]. I've never held this much gold in my life! Well, heck. You've just got money to burn, don't you? I bet you could spare another 10000 gold, couldn't you? C'mon. I know you've got it. Let's have it!""
+ ek_yearly_events.0170.a:0 "Okay, here you are."
+ ek_yearly_events.0170.b:0 "No way."
+
+ ek_yearly_events.0171.desc:0 "Gaenor is still in front of me. This is getting ridiculous. I can't stand to see this mer's face any more, can't stand his voice, can't stand anything about him. Yet, despite my visible anger, he greets me once more.\n\n"I don't even know what to say. I'll never be able to truly pay you back for this. You've restored my faith in the world, [ROOT.GetCharacter.GetFirstNameNoTooltip]. And boy, are you ever rich! I bet you've got a million gold. In fact, I bet you've got ten million! You must be the richest [ROOT.GetCharacter.GetCulture.GetNameNoTooltip] ever! You should give me a million, don't you think? Then we can both be millionaires!""
+ ek_yearly_events.0171.a:0 "Sure. Here it is."
+
+
+ ek_yearly_events.0172.desc:0 "As I go about my daily affairs, a familiar face, one I had hoped to have put behind me, emerges on the scene. Gaenor, now clad in formidable armor and wielding a powerful weapon, strides up to me with a menacing glare.\n\n"Well, well, well. Look who it is! My dear friend [ROOT.GetCharacter.GetFirstNameNoTooltip]. Just my luck that you should stumble in here. Heh. Indeed, it seems my good fortune knows no bounds. Despite my mis-treatment at your hands, I've found riches, been able to influence just about anyone I talk to, and can you believe I've NEVER lost a fight? Never even gotten a scratch. Somehow I don't think I'll have a problem continuing that streak... and I owe you!""
+ ek_yearly_events.0172.a:0 "Damn you, Gaenor..."
+ ek_yearly_events.0172.a.tt:0 "You'll duel Gaenor to the death!"
+
+ ek_yearly_events.0173.desc:0 "As I struck down Gaenor in a fateful confrontation, his defiance faltered, replaced by a defeated silence. The once-proud entrepreneur's eyes conveyed a mix of shock and resignation as he met his demise.\n\nIt was a grim end to a long-standing vendetta, and his lifeless body now lay at my feet, a testament to the consequences of crossing paths with me."
+ ek_yearly_events.0173.a:0 "Good riddance."
+
+ ek_yearly_events.0174.t:0 "Eternal Rest"
+ ek_yearly_events.0174.desc:0 "I've unearthed an unsettling revelation, a chilling tale intertwined with my family's bloodline. This haunting legacy, an ancient family curse seemingly dormant through the ages, now threatens to stir once more, unraveling our lineage.\n\nThe curse looms in the form of whispers that suggest an ancestor's return as an undead specter, their once-beloved presence now tainted."
+ ek_yearly_events.0174.a:0 "The Fighter's Guild will deal with that!"
+ tooltip.ek_yearly_events.0174.a.success:0 "The Fighter's Guild Dealt With It"
+ tooltip.ek_yearly_events.0174.a.failure:0 "Your Undead Ancestor Beat the Fighter's Guild"
+ ek_yearly_events.0174.b:0 "Certainly there's an adventurer willing to deal with that."
+ tooltip.ek_yearly_events.0174.b.success:0 "The Bounty Does the Job"
+ tooltip.ek_yearly_events.0174.b.failure:0 "Your Undead Ancestor Beat the Fighter's Guild"
+ ek_yearly_events.0174.c:0 "Well, this seems like a job for me."
+ ek_yearly_events.0174.c.success:0 "You Defeat Your Undead Ancestor"
+ ek_yearly_events.0174.c.failure:0 "You Fail to Deal With Your Undead Ancestor"
+ ek_yearly_events.0174.c.crit_failure:0 "Your Undead Ancestor Kills You"
+ ek_yearly_events.0174.d:0 "Surely that is merely a hoax."
+ ek_yearly_events.0174.d.success:0 "It Was a Hoax"
+ ek_yearly_events.0174.d.failure:0 "It Was Not a Hoax"
+
+ ek_yearly_events.0175.t:0 "Secret Dwemer Origins"
+ ek_yearly_events.0175.desc:0 "In my unwavering pursuit of knowledge, I have stumbled upon a revelation that I am convinced will revolutionize the very fabric of Nirn. I have named this revelation "Zthgnthaz," a Dwemeris acronym that uncloaks the existence of a "time-wizard."\n\nDwelling within the confines of their brass-laden caverns, the Dwemer uncovered the essence of time itself, an elusive substance as intricate and symmetrical as the very brass that envelopes their creations. The transposition of this term into Aldmeris as "zathaganathaz" merely adds weight to my conviction.\n\nAs the keeper of this newfound truth, it is my solemn duty to convey that the Dwemer were not merely architects and engineers but transcendent beings who traversed the corridors of time. Their cryptic disappearance is no mystery but a testament to their mastery over the tides of existence. I firmly believe that we can unlock the mysteries of the past, present, and future, heralding a new era of enlightenment."
+ ek_yearly_events.0175.a:0 "I must fund an expedition!"
+ tooltip.ek_yearly_events.0175.a.success:0 "You Discover Something New"
+ tooltip.ek_yearly_events.0175.a.failure:0 "You Are Ridiculed" 
+ ek_yearly_events.0175.b:0 "The truth must be spread!"
+ tooltip.ek_yearly_events.0175.b.success:0 "People Believe You"
+ tooltip.ek_yearly_events.0175.b.failure:0 "You Are Ridiculed"
+ ek_yearly_events.0175.c:0 "I must keep this to myself... For now."
+
+ ek_yearly_events.0176.t:0 "The Onus of the Oghma"
+ ek_yearly_events.0176.desc:0 "A timeless obligation resonates across Tamriel's history, bound to the very essence of existence. The Aldmeriad, a revered Elvish saga, enshrines this calling, declaring that each mortal holds a divine Spark, demanding the reverence of life's chronicle. This solemn duty endures, compelling individuals to maintain the Oghma, an everlasting scroll that bestows immortality upon their fleeting narratives.\n\nYsgramor, the iconic Nord hero, etched his name in history, introducing the recording of life events. Fueled by his aspiration to rival the Elves' wisdom, this tradition continues to ensure the preservation of knowledge. The era of Saint Alessia and the rise of the Cyrodiilic Empire reinvigorated this duty, underlining its necessity in safeguarding the past. An unwavering charge, it binds generations to the timeless act of commemorating their stories, a testimony to the importance of remembering."
+ ek_yearly_events.0176.a:0 "It is also my duty to register my epoch!"
+ ek_yearly_events.0176.b:0 "But making paper sculptures is more fun..."
+
+ ek_yearly_events.0177.t:0 "On the Beauty of Ogres"
+ ek_yearly_events.0177.desc:0 "I pondered the daunting task ahead of me, determined to capture the unique beauty of Ogres in verse. It was an unusual endeavor, for most poets extolled the grace of Elves or the elegance of the human form. But Ogres? They were a different challenge altogether, marked by their unrefined, lumbering appearance and less-than-pleasant scent.\n\nAs I sat at my desk, I gazed at the blank parchment, searching for the right words to describe the Ogres' peculiar charm. Their slow, deliberate movements, while far from the conventional notion of beauty, held a certain regal quality. Yet, each time I put quill to paper, the words seemed to escape me, and my efforts left me feeling as though I were chasing the wind. I questioned whether my pursuit was a fool's errand, if immortalizing Ogres in verse was worth the struggle."
+ ek_yearly_events.0177.a:0 "I just need to try harder."
+ ek_yearly_events.0177.b:0 "Who's even gonna read this?"
+ 
  spouse_defended_my_worth:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'защищала', 'защищал' )] достоинство персонажа [TARGET_CHARACTER.GetShortUIName] быть [Select_CString(TARGET_CHARACTER.IsFemale, 'её супругом', 'его супругой' )], когда родственник усомнился в их браке."
  spouse_defended_my_worth_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'защищала', 'защищал' )] достоинство персонажа [TARGET_CHARACTER.GetShortUIName] быть [Select_CString(TARGET_CHARACTER.IsFemale, 'моим супругом', 'моей супругой' )], когда родственник поставил под сомнение их брак."
 
@@ -941,13 +1005,13 @@
  friend_accepted_my_counsel:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'развелась', 'развелся' )] с супругой по совету персонажа [TARGET_CHARACTER.GetShortUIName]."
  friend_accepted_my_counsel_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'посоветовала', 'посоветовал' )] персонажу [TARGET_CHARACTER.GetShortUIName|U] развестись с супругом, что они и сделали."
 
- rival_stated_heterodox_opinion:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'услышала', 'услышал' )], как [CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsFemale, 'высказала', 'высказал' )] гетеродоксальное мнение об Альдмерисе после того, как персонажа [CHARACTER.GetShortUIName] спросили, существует ли он."
+ rival_stated_heterodox_opinion:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'услышала', 'услышал' )], как [CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsFemale, 'высказала', 'высказал' )] гетеродоксальное мнение об #LORE [Concept( 'compendium_aldmeris', 'Альдмерисе' )|E]#! после того, как персонажа [CHARACTER.GetShortUIName] спросили, существует ли он."
 
- rival_stated_heterodox_opinion_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'высказала', 'высказал' )] гетеродоксальное мнение об Альдмерисе перед персонажем [TARGET_CHARACTER.GetShortUIName] после того, как персонажа [CHARACTER.GetShortUIName] спросили, существует ли он."
+ rival_stated_heterodox_opinion_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'высказала', 'высказал' )] гетеродоксальное мнение об #LORE [Concept( 'compendium_aldmeris', 'Альдмерисе' )|E]#! перед персонажем [TARGET_CHARACTER.GetShortUIName] после того, как персонажа [CHARACTER.GetShortUIName] спросили, существует ли он."
 
- friend_stated_orthodox_opinion:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'услышала', 'услышал' )], как [CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsFemale, 'высказала', 'высказал' )] ортодоксальное мнение об Альдмерисе после того, как персонажа [CHARACTER.GetShortUIName] спросили, существует ли он."
+ friend_stated_orthodox_opinion:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'услышала', 'услышал' )], как [CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsFemale, 'высказала', 'высказал' )] ортодоксальное мнение об #LORE [Concept( 'compendium_aldmeris', 'Альдмерисе' )|E]#! после того, как персонажа [CHARACTER.GetShortUIName] спросили, существует ли он."
 
- friend_stated_orthodox_opinion_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'озвучила', 'озвучил' )] ортодоксальное мнение об Альдмерисе перед персонажем [TARGET_CHARACTER.GetShortUIName] после того, как персонажа [CHARACTER.GetShortUIName] спросили, существует ли он."
+ friend_stated_orthodox_opinion_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'озвучила', 'озвучил' )] ортодоксальное мнение об #LORE [Concept( 'compendium_aldmeris', 'Альдмерисе' )|E]#! перед персонажем [TARGET_CHARACTER.GetShortUIName] после того, как персонажа [CHARACTER.GetShortUIName] спросили, существует ли он."
 
 #xxxxx:0 "xxxxx"
 #“”
