@@ -586,7 +586,7 @@
  ek_transformation.2003.b:0 "Теперь я наконец-то могу показать [target.GetHerHim] своё истинное "я"."
  ek_transformation.2003.message:0 "Я [Select_CString(ROOT.Char.IsFemale, 'открыла', 'открыл' )] свой вампиризм [target.GetHerHim]."
  ek_transformation.2003.b.tt:0 "[target.GetShortUIName|U] должен знать о вашем [Concept( 'secret', 'секрете' )|E]."
- ek_transformation.2003.c:0 "[target.GetSheHe|U] должна отыскать собственный путь."
+ ek_transformation.2003.c:0 "[target.GetSheHe|U] [Select_CString(target.IsFemale, 'должна', 'должен' )] отыскать собственный путь."
 
  ek_transformation.2004.t:1 "$convert_to_vampire$: замкнутый разум, солнце в сердце"
  ek_transformation.2004.start.desc:0 "[target.GetFirstName] пробуждается ото сна, когда я влезаю в [target.GetHerHis] окно. "Кто там шастает?" - требует ответа [target.GetHerHis] нетвёрдый голос.\n\n"Моё имя не имеет значения. Я здесь, чтобы предложить тебе самый ценный дар."\n\n"
@@ -650,7 +650,7 @@
  ek_transformation.2103.b:0 "Теперь я наконец-то могу показать [target.GetHerHim] своё истинное "я"."
  ek_transformation.2103.message:0 "Я [Select_CString(ROOT.Char.IsFemale, 'открыла', 'открыл' )] свою ликантропию [target.GetHerHim]."
  ek_transformation.2103.b.tt:0 "[target.GetShortUIName|U] должен знать о вашем [Concept( 'secret', 'секрете' )|E]."
- ek_transformation.2103.c:0 "[target.GetSheHe|U] должна отыскать собственный путь."
+ ek_transformation.2103.c:0 "[target.GetSheHe|U] [Select_CString(target.IsFemale, 'должна', 'должен' )] отыскать собственный путь."
 
  ek_transformation.2104.t:1 "$convert_to_lycan$: сердце добычи"
  ek_transformation.2104.start.desc:0 "[target.GetFirstName] пробуждается ото сна, когда я влезаю в [target.GetHerHis] окно. "Кто там шастает?" - требует ответа [target.GetHerHis] нетвёрдый голос.\n\n"Моё имя не имеет значения. Я здесь, чтобы предложить тебе самый ценный дар."\n\n"
