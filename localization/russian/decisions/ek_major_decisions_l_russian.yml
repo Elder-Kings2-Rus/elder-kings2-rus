@@ -18,14 +18,30 @@
  cast_off_pariah_status_decision_tooltip:0 "Мы не монстры!"
  cast_off_pariah_status_decision_confirm:0 "Тамриэль признает нас как равных!"
  you_are_culture_head:0 "Вы являетесь [Concept('culture_head', 'идеологом')|E] вашей [Concept('culture', 'культуры')|E]"
- not_daedric_faith:0 "Ваша [faith|El] не входит в религиозную семью [GetReligionFamily('rf_daedra').GetName]"
- not_disorganized_military:0 "У вашей [Concept('culture', 'культуры')|E] нет [Concept('innovation', 'инновации')|E] #V Дезорганизованная армия#!"
 
+ not_daedric_faith:0 "Ваша [faith|El] не входит в религиозную концепцию [GetReligionFamily('rf_daedra').GetName]"
+ not_disorganized_military:0 "У вашей [Concept('culture', 'культуры')|E] нет [Concept('innovation', 'инновации')|E] #V Дезорганизованная армия#!"
+ aedric_faith:0 "Ваша [faith|El] входит в религиозную концепцию [GetReligionFamily('rf_aedra').GetName]"
  daedric_heir_decision:0 "Призвать родственника из Обливиона"
  daedric_heir_decision_desc:0 "Мы, дреморы, не воспринимаем мир так, как смертные. Мы не рождаемся так, как смертные. У нас нет отцов и матерей. Все, что у нас есть - это наша родня и наши кланы. Если бы я призвал одного из своих сородичей в это царство, я смог бы укрепить наш клан и наши замыслы здесь."
  daedric_heir_decision_tooltip:0 "Настало время призвать наследника..."
  daedric_heir_decision_confirm:0 "Наследие нашего клана будет сохранено."
  daedric_heir_decision_effect_tooltip:0 "Вы призовёте наследника династии из глубин Обливиона."
+
+## Flip to Feudal from Autocracy
+ adopt_feudal_government_decision:0 "Принять феодализм"
+ adopt_feudal_government_decision_desc:0 "Наша власть открывает путь к хаосу и беспорядку, к путанице и проволочкам. В автократической державе никто не знает своего места, а когда никто не знает своего места, то ничего и никогда не достигается. Сделав нашу иерархию наследственной, мы можем гарантировать, что каждый вассал примет свою роль в нашей державе. Мы должны принять феодализм, если хотим когда-нибудь обрести порядок."
+ adopt_feudal_government_decision_tooltip:0 "Принять [feudalism|El]"
+ adopt_feudal_government_decision_confirm:0 "Принять феодальную форму правления"
+ adopt_feudal_government_decision_requirement:0 "Ваша [culture|El] имеет традицию [GetCultureTradition('tradition_hereditary_hierarchy').GetName|V]"
+
+## Flip to Autocracy from Feudal
+ adopt_autocracy_government_decision:0 "Принять автократию"
+ adopt_autocracy_government_decision_desc:0 "Есть только один закон, который формирует законы этой земли. Ни один закон не регулирует поведение подданных и зверей, кроме этого единственного закона, и этот закон заключается в том, что сила даёт власть. Животные убивают животных, и разумные существа тоже убивали бы себе подобных, если бы не одно единственное влияние, которое удерживает их над бесконечным хаосом Мундуса: власть. Мы должны обладать этой властью, удерживать её и использовать, ибо только сильный автократ может использовать эту власть для обеспечения безопасности нашего королевства."
+ adopt_autocracy_government_decision_tooltip:0 "Принять [Concept( 'autocracy', 'автократию' )|E]"
+ adopt_autocracy_government_decision_confirm:9 "Принять автократичную форму правления"
+ adopt_autocracy_government_decision_requirement:0 "Ваша [culture|El] НЕ имеет традицию [GetCultureTradition('tradition_hereditary_hierarchy').GetName|V]"
+
 
 ## Remove Praxis Government
  remove_praxis_government_decision:0 "Упразднить церемониархию"

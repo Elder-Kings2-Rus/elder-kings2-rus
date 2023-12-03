@@ -1,12 +1,76 @@
 ﻿l_russian:
  generatepoem_title_romance_ek_01:0 "[ROOT.Char.Custom('GeneratePoem_Title_Fragment_Sobriquet')] от [ROOT.Char.Custom('GeneratePoem_Title_Fragment_Emotion')]"
 
+ generatepoem_title_legacy_ek_01:0 "Баллада персонажа [ROOT.Var('poem_subject').Char.GetFullNameNoTooltip]"
+
  generatepoem_title_pillow:0 "Подушка"
 
  GeneratePoem_Intro_Rhyming_RomanceEK_01:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_RomanceEK_01_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_RomanceEK_01_B')]#!"
  GeneratePoem_Intro_Rhyming_RomanceEK_02:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_RomanceEK_02_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_RomanceEK_02_B')]#!"
+
+ generatepoem_intro_rhyming_legacyEK_01:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_01_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_01_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_01_B')]#!"
+ generatepoem_intro_rhyming_legacyEK_02:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_02_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_02_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_01_B')]#!"
+ generatepoem_intro_rhyming_legacyEK_03:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_03_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_03_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_01_B')]#!"
+ generatepoem_intro_rhyming_legacyEK_04:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_04_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_04_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_01_B')]#!"
+ generatepoem_intro_rhyming_legacyEK_05:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_05_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_05_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_01_B')]#!"
+ generatepoem_intro_rhyming_legacyEK_06:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_06_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_06_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_01_B')]#!"
+ generatepoem_intro_rhyming_legacyEK_07:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_07_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_07_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_01_B')]#!"
+ generatepoem_intro_rhyming_legacyEK_08:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_08_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_08_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_01_B')]#!"
+ generatepoem_intro_rhyming_legacyEK_09:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_09_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_09_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_legacyEK_01_B')]#!"
+
  GeneratePoem_Intro_Rhyming_RomanceEK_01_A_01:0 "Положив голову на свою подушку\nПеред моими глазами тут же заиграли яркие сны,"
  GeneratePoem_Intro_Rhyming_RomanceEK_01_B_01:0 "Я снова жажду, чтобы пришёл сон\nПотому что день утопил бы меня в своей лжи."
+
+ GeneratePoem_Intro_Rhyming_legacyEK_01_A_01:0  "[ROOT.Var('poem_subject').Char.GetHerHis|U] песни поют в каждом трактире"
+ GeneratePoem_Intro_Rhyming_legacyEK_01_A_02:0  "От Винтерхолда до Даггерфолла."
+ GeneratePoem_Intro_Rhyming_legacyEK_01_A_03:0  "Купите [ROOT.Var('poem_subject').Char.GetHerHim] эля, вина или пива,"
+
+ GeneratePoem_Intro_Rhyming_legacyEK_02_A_01:0  "Драконы удрали из Нирна давно,"
+ GeneratePoem_Intro_Rhyming_legacyEK_02_A_02:0  "Владыки небес и огня."
+ GeneratePoem_Intro_Rhyming_legacyEK_02_A_03:0  "Вы считаете, они могут вернуться, но,"
+
+ GeneratePoem_Intro_Rhyming_legacyEK_03_A_01:0  "[ROOT.Var('poem_subject').Char.GetSheHe|U] как-то орка [Select_CString(poem_subject.IsFemale, 'вызвала', 'вызвал' )] на дуэль,"
+ GeneratePoem_Intro_Rhyming_legacyEK_03_A_02:0  "Он был огромен, но [Select_CString(poem_subject.IsFemale, 'она сказала', 'он сказал' )],"
+ GeneratePoem_Intro_Rhyming_legacyEK_03_A_03:0  "Что съест его мясо под эль."
+
+ GeneratePoem_Intro_Rhyming_legacyEK_04_A_01:0  "Прекрасную эльфийку [ROOT.Var('poem_subject').Char.GetSheHe|U] раз [Select_CString(poem_subject.IsFemale, 'повстречала', 'повстречал' )],"
+ GeneratePoem_Intro_Rhyming_legacyEK_04_A_02:0  "Что была готова на всё сонетов ради."
+ GeneratePoem_Intro_Rhyming_legacyEK_04_A_03:0  "Тогда [ROOT.Var('poem_subject').Char.GetSheHe|U] ей кое-что [Select_CString(poem_subject.IsFemale, 'показала', 'показал' )],"
+
+ GeneratePoem_Intro_Rhyming_legacyEK_05_A_01:0  "[ROOT.Var('poem_subject').Char.GetSheHe|U] [Select_CString(poem_subject.IsFemale, 'встретила', 'встретил' )] босмера на дороге,"
+ GeneratePoem_Intro_Rhyming_legacyEK_05_A_02:0  "Дикаря в грязи и краске."
+ GeneratePoem_Intro_Rhyming_legacyEK_05_A_03:0  "[ROOT.Var('poem_subject').Char.GetSheHe|U] [Select_CString(poem_subject.IsFemale, 'заквакала', 'заквакал' )] как лягушка громогласно,"
+
+ GeneratePoem_Intro_Rhyming_legacyEK_06_A_01:0  "[Select_CString(poem_subject.IsFemale, 'Ей', 'Ему' )] встретился рослый юнец,"
+ GeneratePoem_Intro_Rhyming_legacyEK_06_A_02:0  "Он рад был, что встретил [Select_CString(poem_subject.IsFemale, 'её', 'его' )],"
+ GeneratePoem_Intro_Rhyming_legacyEK_06_A_03:0  "И сказал, что я его старый отец,"
+
+ GeneratePoem_Intro_Rhyming_legacyEK_07_A_01:0  "Двемерский автоматон на [Select_CString(poem_subject.IsFemale, 'неё', 'него' )] напал,"
+ GeneratePoem_Intro_Rhyming_legacyEK_07_A_02:0  "Прямо возле [Select_CString(poem_subject.IsFemale, 'её', 'его' )] забора."
+ GeneratePoem_Intro_Rhyming_legacyEK_07_A_03:0  "[ROOT.Var('poem_subject').Char.GetSheHe|U] [Select_CString(poem_subject.IsFemale, 'сказала', 'сказал' )], чтоб он, как гномы, пропал,"
+
+ GeneratePoem_Intro_Rhyming_legacyEK_08_A_01:0  "С редгардами опасно вступать в бой,"
+ GeneratePoem_Intro_Rhyming_legacyEK_08_A_02:0  "Знают все, что мечи у них кривые."
+ GeneratePoem_Intro_Rhyming_legacyEK_08_A_03:0  "Но никому из них не тягаться с [Select_CString(poem_subject.IsFemale, 'ней', 'ним' )],"
+
+ GeneratePoem_Intro_Rhyming_legacyEK_09_A_01:0  "[ROOT.Var('poem_subject').Char.GetSheHe|U] [Select_CString(poem_subject.IsFemale, 'бродила', 'бродил' )] по всему Тамриэлю,"
+ GeneratePoem_Intro_Rhyming_legacyEK_09_A_02:0  "И всех врагов [Select_CString(poem_subject.IsFemale, 'она сумела', 'он сумел' )] победить!"
+ GeneratePoem_Intro_Rhyming_legacyEK_09_A_03:0  "Давайте же выпьем ещё эля,"
+
+ GeneratePoem_Intro_Rhyming_legacyEK_01_B_01:0  "Чтобы [ROOT.Var('poem_subject').Char.GetSheHe] [Select_CString(poem_subject.IsFemale, 'промочила', 'промочил' )] своё горло!"
+ GeneratePoem_Intro_Rhyming_legacyEK_01_B_02:0  "Они все боятся [ROOT.Var('poem_subject').Char.GetHerHis]!"
+ GeneratePoem_Intro_Rhyming_legacyEK_01_B_03:0  "Он свой меч уронил и бежал!"
+ GeneratePoem_Intro_Rhyming_legacyEK_01_B_04:0  "Теперь похожи на н[ROOT.Var('poem_subject').Char.GetHerHis] её дети!"
+ GeneratePoem_Intro_Rhyming_legacyEK_01_B_05:0  "И он тут же сделал ноги!"
+ GeneratePoem_Intro_Rhyming_legacyEK_01_B_06:0  "Но клянусь, это точно не [ROOT.Var('poem_subject').Char.GetSheHe]!"
+ GeneratePoem_Intro_Rhyming_legacyEK_01_B_07:0  "И [Select_CString(poem_subject.IsFemale, 'забросила', 'забросил' )] его подальше в море!"
+ GeneratePoem_Intro_Rhyming_legacyEK_01_B_08:0  "Их мечи для этого слишком тупые!"
+ GeneratePoem_Intro_Rhyming_legacyEK_01_B_09:0  "Не зря [Select_CString(poem_subject.IsFemale, 'она пришла', 'он пришёл' )] сюда погостить!"
+ GeneratePoem_Intro_Rhyming_legacyEK_01_B_10:0  "И пейте со мной поскорее!"
+ GeneratePoem_Intro_Rhyming_legacyEK_01_B_11:0  "И не забудьте [Select_CString(poem_subject.IsFemale, 'её', 'его' )] угостить!"
+
+
+
 
  GeneratePoem_Outro_Rhyming_RomanceEK_01:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Outro_Rhyming_RomanceEK_01_A')]\n[ROOT.Char.Custom('GeneratePoem_Outro_Rhyming_RomanceEK_01_B')]#!"
  GeneratePoem_Outro_Rhyming_RomanceEK_02:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Outro_Rhyming_RomanceEK_02_A')]\n[ROOT.Char.Custom('GeneratePoem_Outro_Rhyming_RomanceEK_02_B')]#!"

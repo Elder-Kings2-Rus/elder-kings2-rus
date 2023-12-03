@@ -48,7 +48,7 @@
  solstheim_claim_coast_decision_confirm:0 "Нас никто не забудет!"
 
  reform_first_nordic_empire_decision:0 "Империя нордов"
- reform_first_nordic_empire_decision_desc:0 "Давным-давно, в начале Первой Эры, наши предки завоевали огромные земли в Хай Роке, Морровинде и даже Сиродиле. Они были объединены под властью короля Врагге Одарённого и его преемников.\n\nСиродильцы позже назовут это огромное королевство 'Первой империей нордов', хотя мы, норды, помним его просто как Верховное королевство, что расширило свои границы за пределы Скайрима.\n\nСегодня мы можем восстановить эту великую 'Империю' и вернуть себе власть над северным Тамриэлем."
+ reform_first_nordic_empire_decision_desc:0 "Давным-давно, в начале #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#!, наши предки завоевали огромные земли в Хай Роке, Морровинде и даже Сиродиле. Они были объединены под властью короля Врагге Одарённого и его преемников.\n\nСиродильцы позже назовут это огромное королевство «Первой нордской империей», хотя мы, норды, помним его просто как Верховное королевство, что расширило свои границы за пределы Скайрима.\n\nСегодня мы можем восстановить эту великую «империю» и вернуть себе власть над северным Тамриэлем."
  reform_first_nordic_empire_decision_tooltip:0 "Давным-давно мы, норды, доминировали на севере Тамриэля — и мы можем вернуть эти времена."
  reform_first_nordic_empire_decision_confirm:0 "Северный Тамриэль снова будет принадлежать нордам!"
  
@@ -96,6 +96,13 @@
  settle_wrothgar_decision_effect.form_wrothgarian_1:0 "Вы сформируете [wrothgarian_culture.GetName]ую [Concept( 'culture', 'культуру' )|E]."
  settle_wrothgar_decision_effect.form_wrothgarian_2:0 "Если ваша [capital|El] находится в регионе [GetGeographicalRegion('mundus_tamriel_high_rock_greater_wrothgar').GetName], вы примете [wrothgarian_culture.GetName]ую [Concept( 'culture', 'культуру' )|E]."
  settle_wrothgar_decision_effect.form_wrothgarian_3:0 "[vassals|E] с [wrothgarian_culture.GetHeritage.GetName]им [Concept( 'heritage', 'наследием' )|E] в регионе [GetGeographicalRegion('mundus_tamriel_high_rock_greater_wrothgar').GetName] примут [wrothgarian_culture.GetName]ую [Concept( 'culture', 'культуру' )|E]."
+
+ sack_orsinium_decision:0 "Разграбить Орсиниум"
+ sack_orsinium_decision_desc:0 "Орочьи дикари снова отстроили свой «Город орков», превратив его в могучую крепость. И хотя на данный момент нам удалось покорить эту крепость, оставшиеся кланы орков уже собираются вернуть её. Чтобы победить орков по-настоящему, мы должны вновь разрушить город."
+ sack_orsinium_decision_tooltip:0 "Разрушить Орсиниум, снова превратив его в руины"
+ sack_orsinium_decision_confirm:0 "Отдать приказ"
+ sack_orsinium_decision_orcish_vassal_tt:0 "[vassal|E] владеет графством [GetTitleByKey('c_old_orsinium').GetNameNoTier] и НЕ относится к [GetCulturePillar('heritage_orsimeri').GetName]ому [Concept( 'heritage', 'наследию' )|E]"
+
  silgrad_rift_decision:0 "Вопрос Силграда"
  silgrad_rift_decision_desc:0 "Долина Сил является перекрестком между Скайримом, Сиродилом и Морровиндом и поэтому имела огромное стратегическое значение для держав прошлых веков.\n\nДавным-давно, когда Скайрим контролировал весь северный Тамриэль, древние норды основали форпост в Долине Сил. Поэтому то, что впоследствии стало называться Силградом, принадлежит нам по праву.\n\nНастало время вернуть её себе."
  silgrad_rift_decision_confirm:0 "Силград принадлежит Рифту!"

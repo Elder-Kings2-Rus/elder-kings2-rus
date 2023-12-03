@@ -6,7 +6,8 @@
  culture_parameter_dueling_culture:0 "[characters|E] этой [Concept('culture', 'культуры')|E] гораздо чаще предлагают и принимают дуэли"
  culture_parameter_more_prestige_from_battles:0 "[prestige_i][prestige|E] и [Concept('prestige_experience', 'репутация')|E] от [Concept('battles', 'битв')|E]: [prestige_i] #P +50%#!\nПри руководстве собственными войсками: [prestige_i] #P +50%#!"
  culture_parameter_courtiers_and_guests_more_likely_to_join_schemes:0 "[courtiers|E] и [Concept( 'guests', 'гости' )|E] с большей вероятностью присоединятся к [Concept( 'hostile_schemes', 'враждебным проискам' )|E] против [Concept( 'ruler', 'правителя' )|E]" 
- culture_parameter_cannot_feast:1 "Нельзя устраивать [activity|El] типа «Пир»"
+ culture_parameter_cannot_feast:1 "Нельзя устраивать [activity|El] «[GetActivityType('activity_feast').GetName]»"
+ feast_cannot_feast_parameter_tt:0 "[culture|E] не может устраивать пиры"
  culture_parameter_rebellious_vassals:0 "[vassals|E] этой [Concept('culture', 'культуры')|E] более склонны к [Concept('revolt', 'мятежу')|E],  снижая порог силы [liberty_factions|El] на #N -30%#!"
  culture_parameter_cheaper_dynastic_interactions:0 "[rulers|E] этой [Concept('culture', 'культуры')|E] могут использовать [dynast_interactions|El] с меньшими затратами"
  culture_parameter_rival_murder_decriminalized:0 "[characters|E] этой [Concept('culture', 'культуры')|E] могут убивать своих [Concept('rivals', 'соперников')|E], не получая [trait|El] [GetTrait('murderer').GetName( GetNullCharacter )]. [characters|E] все равно будут считаться убийцами, если их [liege|El] принадлежит к культуре, которая не разделяет эту традицию."
@@ -27,6 +28,7 @@
  culture_parameter_cleanse_abominations_necromancers_rulers:0 "[rulers|E] может использовать [Concept('cleanse_abomination_war', 'войну для уничтожения мерзостей')|E] против правителей-некромантов"
  culture_parameter_peasant_mystic_revolts_more_common:0 "[peasant_factions|E] той же [Concept('culture', 'культуры')|E] более распространены и часто возглавляются мистиками"
  culture_parameter_tolerant_of_pariahs:0 "Нельзя использовать [casus_belli|E] #V 'Изгнание монстров'#! против [Concept('pariahs', 'парий')|E] или [Concept('pariah_discriminate', 'притеснённых')|E], не считая это [Concept('tyranny', 'тиранией')|E]"
+ culture_parameter_danger_sense_save:0 "Персонажи этой [Concept( 'culture', 'культуры' )|E] с большей вероятностью переживут [GetScheme('murder').GetTypeName] [intrigue_i]"
 
 ## GOVERNMENT PARAMETERS
  culture_parameter_unlocks_feudal_government:0 "Открывает [feudal_government|El] для [Concept('autocratic', 'автократичных')|E] [Concept('rulers', 'правителей')|E]"
@@ -102,6 +104,10 @@
  culture_parameter_unlock_maa_dwemer_arbalesters:0 "Доступны [men_at_arms|El] — [GetMaA('dwemer_arbalesters').GetName]"
  culture_parameter_unlock_maa_dwemer_animunculi:0 "Доступны [men_at_arms|El] — [GetMaA('dwemer_sphere').GetName], [GetMaA('dwemer_centurion').GetName] и [GetMaA('dwemer_ballistae').GetName]"
  culture_parameter_unlock_maa_imga_frenzied:0 "Доступны [men_at_arms|El] — [GetMaA('imga_frenzied').GetName)]"
+ culture_parameter_unlock_maa_equestrian_brigade:0 "Доступны [men_at_arms|El] — [GetMaA('equestrian_brigade').GetName]"
+ culture_parameter_unlock_maa_nibenese_battlemages:0 "Доступны [men_at_arms|El] — [GetMaA('nibenese_battlemages').GetName]"
+ culture_parameter_unlock_maa_ut_nibenu_bowmen:0 "Доступны [men_at_arms|El] — [GetMaA('ut_nibenu_bowmen').GetName]"
+ culture_parameter_unlock_maa_akaviri_dragon_hunters:0 "Доступны [men_at_arms|El] — [GetMaA('akaviri_dragon_hunters').GetName]"
  
 ## CULTURAL RELATIONS PARAMETERS
  culture_parameter_dislikes_marrying_outside_of_heritage:0 "Согласие на [Concept('marriage', 'брак')|E] с представителями других [Concept('heritage', 'наследий')|E]: #N -100#!"
@@ -198,6 +204,7 @@
  culture_parameter_bonuses_from_gallant_trait:1 "Персонажи со [Concept('trait', 'свойством')|E] [GetTrait('gallant').GetName( GetNullCharacter )] считаются [prestige_i][Concept('prestigious', 'престижными')|E] и смогут собрать больше [Concept('levies', 'ополчения')|E]"
  culture_parameter_bonuses_from_gallant_trait_alt:1 "Персонажи со [Concept('trait', 'свойством')|E] [GetTrait('gallant').GetName( GetNullCharacter )] считаются [prestige_i][Concept('prestigious', 'престижными')|E] и могут побеждать в [Concept('battles', 'битвах')|E] более решительно"
  culture_parameter_bonuses_from_avaricious_trait:1 "Персонажи со [Concept('trait', 'свойством')|E] [GetTrait('avaricious').GetName( GetNullCharacter )] считаются [prestige_i][Concept('prestigious', 'престижными')|E] и сможет собрать больше [Concept('taxes', 'налогов')|E]"
+ culture_parameter_bonuses_from_schemer_trait:1 "Персонажи со [Concept('trait', 'свойством')|E] [GetTrait('schemer').GetName( GetNullCharacter )] считаются [prestige_i][Concept('prestigious', 'престижными')|E] и смогут более эффективно замышлять [hostile_schemes|El]"
  culture_parameter_crafty_diplomats:1 "[Concept('education_traits', 'Свойства образования')|E], связанные с [Concept('intrigue', 'интригой')|E], также предоставляют [diplomacy_i][Concept('diplomacy', 'дипломатию')|E]"
  culture_parameter_diplo_stewards:0 "[Concept('education_traits', 'Свойства образования')|E], связанные с [Concept('stewardship', 'управлением')|E], также предоставляют [diplomacy_i][Concept('diplomacy', 'дипломатию')|E]"
  culture_parameter_theologians_valued:0 "[Concept('education_traits', 'Свойства образования')|E], связанные с [Concept('learning', 'ученостью')|E] дают [prestige_i][prestige|El], а [characters|El] [GetTrait('theologian').GetName( GetNullCharacter )] восхищаются."
@@ -221,12 +228,14 @@
  culture_parameter_witch_trait_more_common:0 "[GetTrait('witch').GetName( GetNullCharacter )] встречается чаще"
  culture_parameter_organizer_trait_better:0 "[trait|E] [GetTrait('organizer').GetName( GetNullCharacter )] даёт дополнительные бонусы"
  culture_parameter_bonuses_from_theologian_trait:0 "Персонажи со [Concept('trait', 'свойствами')|E] [GetTrait('theologian').GetName( GetNullCharacter )] сможет собрать больше [Concept('levies', 'ополчения')|E] и [Concept('taxes', 'налогов')|E]"
+ culture_parameter_paranoia_bonuses:0 "[trait|E] [GetTrait('paranoid').GetName( GetNullCharacter )] даёт [prestige_i][prestige|El], [Concept( 'diplomacy', 'навык дипломатии' )|E] [diplomacy_i]#P +2#! и [Concept( 'intrigue', 'интриги' )|E] [intrigue_i]#P +2#! за [Concept( 'stress_level', 'уровень стресса' )|E]. Персонажи со свойствами «[GetTrait('confider').GetName( GetNullCharacter )]» и  «[GetTrait('trusting').GetName( GetNullCharacter )]» подвергаются порицанию"
  culture_parameter_fairness_valued:0 "[Concept('characters', 'Персонажами')|E] со [Concept('trait', 'свойством')|E] [GetTrait('just').GetName( GetNullCharacter )] восхищаются, в то время как [GetTrait('arbitrary').GetName( GetNullCharacter )] и [GetTrait('sadistic').GetName( GetNullCharacter )] презираются"
  culture_parameter_can_found_orsinium:0 "Могущественные правители могут использовать решение #V $create_orsinium_decision$#!, заменив существующее [de_jure|El] [kingdom|El] королевством Орсиниум"
  culture_parameter_orsinium_defensive_bonuses:0 "Сражения на де-юре территории Орсиниума дают значительные бонусы к [Concept('advantage', 'преимуществу')|E]"
  culture_parameter_orsinium_culture_conversion:0 "[nativity_region|E] не препятствует преобразованию культуры на де-юре территории Орсиниума"
  culture_parameter_no_de_jure_cb_malus:0 "Правители #N не могут#! использовать [casus_bellis|E] по захвату [de_jure|E] земель, если только они не претендуют на де-юре земли королевства Орсиниум"
  culture_parameter_scholars_respected:0 "[trait|E] [GetTrait('scholar').GetName( GetNullCharacter )] даёт [prestige_i][prestige|El]"
+ culture_parameter_strategist_avaricious_bonus:0 "Персонажи со свойством [GetTrait('strategist').GetName( GetNullCharacter )] собирают больше [gold_i] налогов во время войн. Персонажи со свойством [GetTrait('avaricious').GetName( GetNullCharacter )] платят меньше золота за содержание [soldier_i][Concept( 'army', 'войск' )|E]"
 
 ##CHILD PERSONALITY AND EDUCATION PARAMETERS
  culture_parameter_curious_trait_more_common:0  "[children|E] с большей вероятностью получат [Concept('trait', 'свойство')|E] «[GetTrait('curious').GetName( GetNullCharacter )]»"
@@ -245,6 +254,8 @@
  culture_parameter_learning_education_worse_outcomes:0 "[children|E] обычно получают менее качественное [Concept('education', 'образование')|E] в [Concept('learning', 'учености')|E]"
 
  culture_parameter_stewardship_education_more_valued:0 "[education_traits|E], связанные с [Concept('stewardship', 'управлением')|E], ценятся больше"
+ culture_parameter_stewardship_from_martial_education:1 "[Concept( 'martial', 'Военные' )|E] [education_traits|El] также предоставляют [stewardship_i][stewardship|El]"
+ culture_parameter_prowess_from_magical_education:1 "[Concept( 'arcana', 'Магические' )|E] [education_traits|El] также предоставляют grant [prowess_i][prowess|El]"
 
 ## EVENTS PARAMETERS
  culture_parameter_wandering_poets_may_appear:0 "Бродячие поэты могут появиться при дворе, чтобы прославить или высмеять ваше правление"
@@ -298,7 +309,7 @@
  tradition_ceremoniarchy_name:0 "Аэдрическая родословная"
  tradition_ceremoniarchy_desc:1 "Мы — потомки самих аэдра, и жить менее совершенной жизнью — значит бесчестить наших предков. Мы создали сложную придворную культуру и церемонии, основанные на нашей связи с древними духами."
  tradition_sorcerer_kings_name:0 "Короли-маги"
- tradition_sorcerer_kings_desc:0 "Наша культура и народ придают огромное значение Аркане и мастерству в искусстве магии. Справедливо, что сильнейшие маги должны править."
+ tradition_sorcerer_kings_desc:0 "Эта культура и народ придают огромное значение Аркане и мастерству в искусстве магии. Для них справедливо, что сильнейшие маги должны править."
  tradition_histskin_name:0 "Кора хиста"
  tradition_histskin_desc:0 "#italic “Дары Хиста многочисленны: наша плоть и кровь — лишь самые заметные из них. В различных формах мы бродим по земле, уверенные в своих телах.”#!"
  tradition_saxhleel_mistrust_name:0 "Недоверие саксхлил"
@@ -331,7 +342,7 @@
  tradition_fortified_markets_name:0 "Укреплённые рынки"
  tradition_fortified_markets_desc:1 "Процветание способствует жадности других. Правильно, что наши рынки находятся за сильными укреплениями."
  tradition_attuned_to_magicka_name:0 "Настроенность на магию"
- tradition_attuned_to_magicka_desc:1 "С юных лет мы более созвучны с Этериусом, чем другие. Отвратительные преступники должны подвергнуться магическому диссонансу и лишиться возможности произносить даже простейшие заклинания."
+ tradition_attuned_to_magicka_desc:1 "С юных лет эта культура более созвучна с Этериусом, и передают эти знания своим детям."
  tradition_life_menders_name:0 "Животворцы"
  tradition_life_menders_desc:0 "В Чернотопье встречается фантастическое разнообразие растений и трав с алхимическими свойствами, плохо изученными обычными учеными. Эта культура раскрыла некоторые из их секретов и выращивает их в болотных садах."
  tradition_headhunters_name:0 "Охотники за головами"
@@ -420,6 +431,19 @@
  tradition_imga_core_desc:0 "Организованная в кланы, которые строят свои дома среди верхушек деревьев, эта культура балансирует с открытой рукой и сжатым кулаком в погоне за славой."
  tradition_fight_for_survival_name:0 "Борьба за выживание"
  tradition_fight_for_survival_desc:0 "Жизнь была постоянной борьбой для народа этой культуры, поскольку большинство их соседей часто воспринимали их не более чем как монстров. Следовательно, они подчеркивают военные аспекты образования и важную защиту своих домов. Тривиальным развлечениям, таким как настольные игры или концерты, нет места в этом обществе."
+ tradition_cyrodiilic_core_name:0 "Монета и меч"
+ tradition_cyrodiilic_core_desc:0 "Доходы и войска - это фундамент, на котором строится держава. Эта культура научилась компенсировать недостаток одного другим."
+ tradition_colovian_paddocks_name:0 "Загоны на предгорьях"
+ tradition_colovian_paddocks_desc:0 "Выращенные в скалистых предгорьях и на лесных полянах, боевые скакуны этой культуры наносят сокрушительные удары, независимо от того, насколько сурова местность."
+ tradition_imperial_battlemages_name:0 "Имперские боевые маги"
+ tradition_imperial_battlemages_desc:0 "Магия - орудие войны, острее любого копья и клинка в руках представителей этой культуры. Отряды боевых магов - живое доказательство этого идеала."
+ tradition_ut_nibenu_folklore_name:0 "Фольклор Ут-Нибену"
+ tradition_ut_nibenu_folklore_desc:0 "Фольклор - жизненная сила этой культуры, пережившей рабство, империю, вассальную зависимость и многое другое. Она живёт благодаря выпущенной стреле, произнесённому преданию и вытесненной речной воде."
+ tradition_tsaesci_core_name:0 "Змеиный дворец"
+ tradition_tsaesci_core_desc:0 "Целеустремленность во всем и умение различать, когда отступить, а когда наносить удар, - самый верный путь к власти."
+ tradition_danger_sense_name:0 "Чувство опасности"
+ tradition_danger_sense_desc:0 "Акавир - опасная земля, и её жители учатся внимательно смотреть и слушать, если хотят прожить долгую жизнь. После того как этот урок усвоен, интуитивное понимание опасных ситуаций остаётся близким и верным спутником, куда бы мы ни отправились."
+
 
 ## TRADITION COST MODIFIERS
  culture_has_pariah_innovation_desc:0 "[culture|E] не имеет [Concept('innovation', 'инновацию')|E] отверженного народа"
@@ -437,6 +461,7 @@
  magic_rulers_desc:0 "[culture|E] не имеет #V 3#! или больше [Concept('rulers', 'правителей')|E] со [Concept('trait', 'свойствами')|E] [GetTrait('arcana_good_1').GetName( GetNullCharacter )], [GetTrait('arcana_good_2').GetName( GetNullCharacter )] или [GetTrait('arcana_good_3').GetName( GetNullCharacter )]"
  not_stoic_egalitarian_or_spiritual_desc:0 "[culture|E] не имеет [ethos|El] $ethos_stoic_name$, $ethos_egalitarian_name$ или $ethos_spiritual_name$"
  lack_breton_heritage_or_language_penalty_desc:0 "У вас нет #V бретонского#! [Concept('heritage', 'наследия')|E] или вы не знаете бретонского языка"
+ culture_head_heavy_cavalry_desc:0 "У вас нет #V 500#! единиц [Concept( 'heavy_cavalry', 'тяжёлой кавалерии' )|E]"
 
 
  ###TRADITION MISC
@@ -497,6 +522,12 @@
  tradition_female_only_inheritance_requirements_ek:0 "Ваша [faith|El] должна иметь доктрину [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]"
  tradition_orc_heritage_trigger:0 "Есть #V орсимерское#! [heritage|El]"
  tradition_imga_trigger_desc:0 "Есть #V имганское#! [heritage|El]"
+ tradition_imperial_battlemages_trigger_desc:0 "Имеет #V $Cyrodiilic$ое#! [heritage|El], либо является #V $nibenese_collective_noun$ой#! или #V $heartlander_collective_noun$ой#!, либо произошедшей от них [Concept( 'culture', 'культурой' )|E] и НЕ имеет [Concept( 'tradition', 'традицию' )|E] $tradition_pacifism_name$ "
+ tradition_blackwood_trigger_desc:0 "Имеет #V $Cyrodiilic$ое#! [heritage|El], либо является $blackwood_collective_noun$ой или произошедшей от неё [Concept( 'culture', 'культурой' )|E]"
+ tradition_cyrodiilic_core_trigger_desc:0 "Имеет #V $Cyrodiilic$ое#! [heritage|El] и не имеет [Concept( 'tradition', 'традицию' )|E] [GetCultureTradition('tradition_ut_nibenu_folklore').GetName|V]."
+ cyrodiil_empire_percentage_desc:0 "#V 50%#! [Concept( 'counties', 'графств' )|E] этой [Concept( 'culture', 'культуры' )|E] не находятся в провинции Сиродил"
+ tradition_foothill_paddocks_trigger_desc:0 "Имеет #V $Cyrodiilic$ое#! [heritage|El] и не имеет [Concept( 'tradition', 'традицию' )|E] [GetCultureTradition('tradition_hit_and_run').GetName|V]."
+ tradition_tsaesci_core_trigger_desc:0 "Имеет [heritage|El] #V $Tsaesci$#! и не имеет [Concept( 'tradition', 'традицию' )|E] [GetCultureTradition('tradition_cutthroat_politics').GetName|V]."
  
- tradition_roman_legacy_trigger_desc:0 "Является #V $colovian$ой#!, #V $nibenese$ой#!, или #V $heartlander$ой#!, либо иной [Concept('culture', 'культурой')|E], происходящей от перечисленных, #italic или#! владеет империей Тамриэля или Сиродила в качестве основного титула."
+ tradition_cyrodiil_legacy_trigger_desc:0 "Не имеет #V $Cyrodiilic$ое#! [heritage|El] и владеет империей Тамриэль или Сиродил в качестве основного титула."
 

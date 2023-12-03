@@ -20,6 +20,15 @@
  reveal_necromancy_decision_tooltip:0 "Покажите народам Нирна, на что вы способны."
  reveal_necromancy_decision_confirm:0 "Они будут бояться меня."
  
+ life_extension_decision:0 "Увеличить продолжительность жизни"
+ life_extension_decision_desc:0 "Перспектива долгой жизни, накопления мудрости и опыта и наблюдения за сменой поколений одновременно манит и пугает."
+ life_extension_decision_tooltip:0 "Сделать шаг к бессмертию."
+ life_extension_decision_confirm:0 "Ещё немного..."
+
+ life_extension_decision_ai:0 "Увеличить продолжительность жизни ИИ"
+ life_extension_decision_ai_desc:0 "Если вы видите это, пожалуйста, сообщите об ошибке :)"
+ life_extension_decision_ai_confirm:0 "Ещё немного..."
+
  doctrine_necromancy_accepted_custom_desc:0 "Ваша [faith|El] имеет доктрину некромантии [GetFaithDoctrine('tenet_necromancy_worship').GetBaseName]"
  doctrine_necromancy_pragmatic_custom_desc:0 "Ваша [faith|El] имеет доктрину некромантии [GetFaithDoctrine('doctrine_necromancy_pragmatic').GetBaseName]"
  doctrine_lichdom_accepted_custom_desc:0 "Ваша [faith|El] имеет доктрину [GetFaithDoctrine('tenet_necromancy_worship').GetBaseName] или [GetFaithDoctrine('doctrine_pantheon_dragons').GetBaseName]"
