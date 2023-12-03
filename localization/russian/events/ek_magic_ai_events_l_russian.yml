@@ -1,0 +1,22 @@
+﻿l_russian:
+
+ ek_magic_ai_events.0001.t:0 "Magic Instructions"
+ ek_magic_ai_events.0001.desc:0 "[court_mage.GetFirstName|U] may be well-versed in the arcane arts, but it is the duty of a ruler to familiarize themselves with the actions of their subjects - and keep a close eye on them if needed. The deeds of my court mage will reflect upon me and my entire realm. Thus, it is time to decide how [court_mage.GetFirstNameNoTooltip] should use [court_mage.GetHerHis] abilities. \n\nCan [court_mage.GetSheHe] be allowed to decide on the use of spells without my direct orders, or shall I retain full control about that?\n\nIt could be wise to at least advise against the use of hostile spells if I want to avoid provoking further hostilities."
+ ek_magic_ai_events.0001.a:0 "I trust you to act wisely upon your own."
+ ek_magic_ai_events.0001.a.tt:0 "[court_mage.GetFirstNameNoTooltip|U] will try to balance out hostile spells against your enemies and beneficial spells for your own realm."
+ ek_magic_ai_events.0001.b:0 "Act independently but don't use hostile spells."
+ ek_magic_ai_events.0001.b.tt:0 "[court_mage.GetFirstNameNoTooltip|U] will only use spells to your benefit and will abstain of any harmful magic."
+ ek_magic_ai_events.0001.c:0 "Cast only on my direct orders."
+ ek_magic_ai_events.0001.c.tt:0 "You have to order [court_mage.GetFirstNameNoTooltip] directly through the spellbook if you want [court_mage.GetHerHim] to use magic."
+ ek_magic_ai_events.0001.d:0 "I want to speak about the focus of your studies."
+ ek_magic_ai_events.0001.d.tt:0 "Opens a new event to further customize magic use."
+
+ ek_magic_ai_events.0002.t:0 "Court Mage Focus"
+ ek_magic_ai_events.0002.desc:0 "While [court_mage.GetFirstName] still has a personal preference I can direct [court_mage.GetHerHis] studies towards a specific School of Magic, at least to a degree - I am funding them after all!\n\nThat will make it more likely for [court_mage.GetHerHim] to learn and use new spells of that School."
+ ek_magic_ai_events.0002.a:0 "Utilize on the dark magic of Necromancy"
+ ek_magic_ai_events.0002.b:0 "Focus on Alteration"
+ ek_magic_ai_events.0002.c:0 "Delve into the secrets of Conjuration"
+ ek_magic_ai_events.0002.d:0 "Destruction is the way to go."
+ ek_magic_ai_events.0002.e:0 "Use Illusion to my advantage."
+ ek_magic_ai_events.0002.f:0 "Restoration is most beneficial."
+ ek_magic_ai_events.0002.g:0 "Make the choice yourself."

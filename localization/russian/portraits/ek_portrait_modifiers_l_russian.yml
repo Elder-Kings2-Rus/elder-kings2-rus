@@ -231,6 +231,8 @@
  
  PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_common_war_01:0 "Альтмерская броня из лунного камня"
  
+ PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_03_high:0 "Наплечники альтмерского канцлера"
+ 
  PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_01_common:0 "Альтмерская обычная одежда 1"
  PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_02_common:0 "Альтмерская обычная одежда 2"
  
@@ -243,6 +245,13 @@
  
  PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_01_common:0 "Альтмерские обычные поножи 1"
  PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_02_common:0 "Альтмерские обычные поножи 2"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_male_priest_01_lowborn:0 "Головной убор низкорождённого альтмера"
+ PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_male_priest_01_common:0 "Альтмерский обычный головной убор"
+ PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_male_priest_01_low:0 "Головной убор альтмерского мелкого дворянства"
+ PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_male_priest_01_high:0 "Головной убор альтмерского высшего дворянства"
+
+ PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_male_chancellor_01_high:0 "Головной убор альтмерского канцлера"
  
  PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_01_low:0 "Альтмерские поножи мелкого дворянства 1"
  PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_02_low:0 "Альтмерские поножи мелкого дворянства 2"
@@ -295,6 +304,9 @@
 
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_tabi_01_high:0 "Акавирские Таби носки"
 
+ PORTRAIT_MODIFIER_custom_beards_japanese_beard_01:0 "Акавирская борода"
+ PORTRAIT_MODIFIER_custom_beards_japanese_moustache_03:0 "Акавирские усы"
+
 ### Female ###
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_kimono_kosode_01_common:0 "Акавирская обычная одежда"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_kimono_kosode_01_low:0 "Акавирское мелкое дворянство"
@@ -307,7 +319,7 @@
  #########################################
  
   ### EK2 Hair ###
-  PORTRAIT_MODIFIER_custom_hair_male_hair_legolas_01:0 "Эльфийские волосы"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_legolas_01:0 "Длинные эльфийские волосы"
   
   PORTRAIT_MODIFIER_custom_beards_male_beard_dwemer_01:0 "Двемерская борода"
  

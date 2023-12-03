@@ -1,3 +1,4 @@
 ﻿l_russian:
 # Empire to High Kingdom replacement
  I_ALREADY_HAVE_A_KINGDOM_OR_EMPIRE_CLAIM:0 "У вас уже есть [pressed_claim|El] на королевство или верховное королевство: $VALUE|=+0$"
+ has_all_tribal_innovations:1 "[culture|E] [CULTURE.GetName] открыла #V 70%#! военных и административных [Concept( 'innovations', 'инноваций' )|E] эры $culture_era_tribal$"

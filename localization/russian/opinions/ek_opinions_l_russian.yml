@@ -16,3 +16,5 @@
  did_not_seek_marriage_blessing:0 "Не [Select_CString(CHARACTER.IsFemale, 'искала', 'искал' )] благословения на брак"
 
  beastfolk_negotiated_alliance_opinion:0 "Сделка о заключении внебрачного союза"
+ 
+ aldmeri_religion_opinion:0 "$aldmeri_religion_adherent$ое мнение"

@@ -1,0 +1,11 @@
+﻿l_russian:
+ 
+ convert_to_feudalism_liege_converted_decision:0 "Принять форму правления [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|l] через сюзерена"
+ convert_to_feudalism_liege_converted_decision_desc:1 "Моя держава растет, и контролировать её всё сложнее. Мой сюзерен уже следует такой системе, как [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|l], и, когда я буду проводить реформы в своих владениях, мне стоит попросить [ROOT.Char.GetLiege.GetHerHis] помощи."
+ convert_to_feudalism_liege_converted_decision_confirm:1 "Принять [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|U]"
+ convert_to_feudalism_liege_converted_decision_tooltip:0 "Изменить тип [Concept( 'government', 'правительства' )|E] и стать [Concept( 'feudal_like_government', 'правительством феодального типа' )|E]"
+
+ convert_whole_realm_to_feudalism_decision:0 "Принять [ROOT.Char.Custom('GetTribalReformGovernment')|l]"
+ convert_whole_realm_to_feudalism_decision_desc:0 "Чтобы держава [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] и дальше могла расширяться и развиваться, мы должны оставить старые пути и вместе принять новый способ администрирования."
+ convert_whole_realm_to_feudalism_decision_confirm:0 "Принять [ROOT.Char.Custom('GetTribalReformGovernment')|l]"
+ convert_whole_realm_to_feudalism_decision_tooltip:0 "[government|E] меняет форму правления и выбирает [feudal_like_government|El]"
