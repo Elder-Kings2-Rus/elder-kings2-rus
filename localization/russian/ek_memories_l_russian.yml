@@ -1,6 +1,11 @@
 ﻿l_russian:
 ###Solo memories
-senchal_visit:1 "Визит в Сенчал"
-senchal_visit_desc:1 "Я [Select_CString(CHARACTER.IsFemale, 'посетила', 'посетил' )]  Сенчал, описывая его шумные порты и сладкую выпечку"
-senchal_visit_desc_second_perspective:0 "Вы посетили Сенчал, описывая его шумные порты и сладкую выпечку"
-senchal_visit_desc_third_perspective:0 "[owner.GetName] [Select_CString(CHARACTER.IsFemale, 'посетила', 'посетил' )] Сенчал, описывая его шумные порты и сладкую выпечку"
+ senchal_visit:1 "Визит в Сенчал"
+ senchal_visit_desc:1 "Я [Select_CString(CHARACTER.IsFemale, 'посетила', 'посетил' )]  Сенчал, описывая его шумные порты и сладкую выпечку"
+ senchal_visit_desc_second_perspective:0 "Вы посетили Сенчал, описывая его шумные порты и сладкую выпечку"
+ senchal_visit_desc_third_perspective:0 "[owner.GetName] [Select_CString(CHARACTER.IsFemale, 'посетила', 'посетил' )] Сенчал, описывая его шумные порты и сладкую выпечку"
+
+ rescued_sload_victim_memory:0 "Успешное спасение в Жемчужном море"
+ rescued_sload_victim_memory_desc:0 "Я героически спас персонажа [rescued_victim.GetTitledFirstName] от смерти в Жемчужном море"
+ rescued_sload_victim_memory_desc_second_perspective:1 "вы героически спасли персонажа [rescued_victim.GetTitledFirstName] от смерти в Жемчужном море"
+ rescued_sload_victim_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] героически [Select_CString(owner.IsFemale, 'спасла', ' спас' )] персонажа [rescued_victim.GetTitledFirstName] от смерти в Жемчужном море"

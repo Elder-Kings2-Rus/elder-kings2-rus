@@ -53,7 +53,7 @@
  trait_p_dv_shezarr:0 "Божество-покровитель - [ROOT.Char.Custom('GetDvShezarrName')]"
  trait_p_dv_shezarr_base:0 "Последователь Шезарра"
  trait_p_dv_shezarr_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_dv_shezarr_desc' )]"
- trait_p_dv_shezarr_desc:0 "Последователь Шезарра"
+ trait_p_dv_shezarr_desc:0 "Последователь #LORE [Concept( 'compendium_shezarr', 'Шезарра' )|E]#!"
  trait_p_dv_shezarr_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetDvShezarrName')]."
 
  # Aldmer
@@ -72,7 +72,7 @@
  trait_p_ae_magnus:0 "Божество-покровитель - [ROOT.Char.Custom('GetAeMagnusName')]"
  trait_p_ae_magnus_base:0 "Последователь Магнуса"
  trait_p_ae_magnus_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ae_magnus_desc' )]"
- trait_p_ae_magnus_desc:0 "Последователь Магнуса"
+ trait_p_ae_magnus_desc:0 "Последователь #LORE [Concept( 'compendium_magnus', 'Магнуса' )|E]#!"
  trait_p_ae_magnus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAeMagnusName')]."
 
  trait_p_ae_phynaster:0 "Божество-покровитель - [ROOT.Char.Custom('GetAePhynasterName')]"
@@ -356,7 +356,7 @@
  trait_p_ch_attrebus_base:0 "Последователь Аттребуса"
  trait_p_ch_attrebus_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ch_attrebus_desc' )]"
  trait_p_ch_attrebus_desc:0 "Последователь Аттребуса"
- trait_p_ch_attrebus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Аттребуса, объединившего Тамриэль и уничтожившего остатки акавирского Потентата, освободив Сиродил и весь Тамриэль от акавирского ига."
+ trait_p_ch_attrebus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Аттребуса, объединившего Тамриэль и уничтожившего остатки #LORE [Concept( 'compendium_akaviri_potentate', 'акавирского Потентата,' )|E]#!, освободив Сиродил и весь Тамриэль от акавирского ига."
 
  # Thousand Cults
  trait_p_tc_aka:0 "Культист Ака"
@@ -621,7 +621,7 @@
  trait_p_mg_meridia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Мерид-Нунды, Жёлтого снопа искр."
 
  trait_p_mg_magnus:0 "Последователь Магнуса"
- trait_p_mg_magnus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Магнуса, Архитектора."
+ trait_p_mg_magnus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем #LORE [Concept( 'compendium_magnus', 'Магнуса' )|E]#!, Архитектора."
 
  trait_p_ta_meridia:0 "Последователь Мерид-Нунды"
  trait_p_ta_meridia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Мерид-Нунды, Регента Величия."

@@ -178,10 +178,6 @@ trait_lifespan_5:1 "Продолжительность жизни V #italic ([gc
  trait_lifespan_5_desc:1 "С помощью природы или магии, предполагается [Select_CString(ROOT.GetCharacter.IsFemale, 'что она', 'что он' )] проживёт до 500 лет. Женщины с этой чертой становятся бесплодными примерно в 335 лет."
  trait_lifespan_5_character_desc:1 "С помощью природы или магии, предполагается что [ROOT.GetCharacter.GetFirstNameNoTooltip] проживёт до 500 лет. Женщины с этой чертой становятся бесплодными примерно в 335 лет."
 
- trait_lifespan_6:1 "Продолжительность жизни VI #italic ([gc_lifespan|E])#!"
- trait_lifespan_6_desc:1 "С помощью природы или магии, предполагается [Select_CString(ROOT.GetCharacter.IsFemale, 'что она', 'что он' )] проживёт до 700 лет. Женщины с этой чертой становятся бесплодными примерно в 450 лет."
- trait_lifespan_6_character_desc:1 "С помощью природы или магии, предполагается что [ROOT.GetCharacter.GetFirstNameNoTooltip] проживёт до 700 лет. Женщины с этой чертой становятся бесплодными примерно в 450 лет."
-
  trait_lifespan_7:1 "Бессмертие #italic ([gc_lifespan|E])#!"
  trait_lifespan_7_desc:1 "Этот персонаж не умрёт от старости, но за это приходится платить своим телом и разумом."
  trait_lifespan_7_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] не умрёт от старости, но за это приходится платить своим телом и разумом."
@@ -380,6 +376,10 @@ trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoToolt
  #trait_furstock_tojay_raht:0 "Tojay-Raht"
  trait_furstock_tojay_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Тоджай-рат' )]" 
  trait_furstock_tojay_raht_desc:0 "Тоджай-рат рождаются при нарастающем Массере и убывающей Секунде, о них известно немногое, кроме того, что они двуногие и имеют пальцеходящие ноги."
+
+ #trait_furstock_mane:0 "Mane"
+ trait_furstock_mane:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Грива' )]" 
+ trait_furstock_mane_desc:0 "Говорят, что во время редкого выравнивания Массера и Секунды на небе появляется мистическая Третья Луна. Рожденных под этой луной зовут Гривой - духовных лидеров каджитов на основе их древней традиции." #PH placeholder
 
  trait_laid_egg:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Отложила', 'Отложил' )] яйцо"
  trait_laid_egg_desc:0 "Этот персонаж недавно отложил яйцо."
