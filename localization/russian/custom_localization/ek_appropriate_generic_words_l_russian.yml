@@ -2,6 +2,7 @@
  expensive_food_summerset_rainbow_pie:0 "Саммерсетский Радужный Пирог"
  expensive_food_water_stained_psijic_recipe:0 "Сырой Псиджик"
  expensive_food_garlic_radishes_a_la_kvatch:0 "Редис с чесноком а-ля Кватч"
+ expensive_food_red_deer_stew:0 "Томатная похлёбка с олениной"
 
  expensive_drink_centurions_friend_kaveh:0 "Друг Центуриона"
  expensive_drink_red_hippocras:0 "Красный Гипокрасс"
@@ -16,6 +17,8 @@
  expensive_drink_maormer_tea:0 "Маормерский чай"
  expensive_drink_fulmination_ale:0 "Эль «Гром и молния»"
  expensive_drink_imperial_stout:0 "Имперский стаут"
+ expensive_drink_port_hunding_pinot_noir:0 "Пино-нуар из Порт-Хандинга"
+ expensive_drink_bravil_bitter_barley_beer:0 "Бравильское горькое ячменное пиво"
  
  expensive_drink_singular_centurions_friend_kaveh:0 "$expensive_drink_centurions_friend_kaveh$"
  expensive_drink_singular_red_hippocras:0 "Красный Гипокрасс"
@@ -30,6 +33,8 @@
  expensive_drink_singular_maormer_tea:0 "Маормерский чай"
  expensive_drink_singular_fulmination_ale:0 "Эль «Гром и молния»"
  expensive_drink_singular_imperial_stout:0 "Имперский стаут"
+ expensive_drink_singular_port_hunding_pinot_noir:0 "Пино-нуар из Порт-Хандинга"
+ expensive_drink_singular_bravil_bitter_barley_beer:0 "Бравильское горькое ячменное пиво"
  
  maple:0 "Клён"
  beech:0 "Бук"
@@ -39,3 +44,4 @@
  mahogany:0 "Красное дерево"
  nightwood:0 "Ночное дерево"
  ruby_ash:0 "Багряный ясень"
+ bone:0 "Кость"

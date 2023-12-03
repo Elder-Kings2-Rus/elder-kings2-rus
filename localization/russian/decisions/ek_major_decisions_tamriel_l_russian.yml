@@ -13,12 +13,12 @@
  
  ### Attrebus/Interregnum decisions
  attrebus_interregnum_decision:0 "Междуцарствие?"
- attrebus_interregnum_decision_desc:0 "Потентат пал, и Совет Старейшин согласился предоставить вам чрезвычайные полномочия, дабы разобраться с потенциальным политическим кризисом.\n\nВам придётся действовать быстро, так как терпение верховного канцлера не бесконечно..."
+ attrebus_interregnum_decision_desc:0 "#LORE [compendium_potentate]#! пал, и Совет старейшин согласился предоставить вам чрезвычайные полномочия, дабы разобраться с потенциальным политическим кризисом.\n\nВам придётся действовать быстро, так как терпение верховного канцлера не бесконечно..."
  attrebus_interregnum_decision_tooltip:0 "Что новая эпоха принесёт Сиродилу?"
- attrebus_interregnum_decision_confirm:0 "Созвать Совет Старейшин!"
- attrebus_interregnum_decision_required_tasks_tt:0 "Вы выполнили #R [THIS.Var('attrebus_required_tasks_complete').GetValue|0]#! из 3 требуемых для умиротворения Совета Старейшин [Concept( 'required_tasks', 'задач' )|E]. У вас есть #R [THIS.Var('attrebus_years_pseudo_emperor_left').GetValue|0] лет#!, прежде чем терпение Совета Старейшин закончится."
- attrebus_interregnum_decision_optional_tasks_tt:0 "Вы выполнили #R [THIS.Var('attrebus_optional_tasks_complete').GetValue|0]#! из 3 [Concept( 'optional_tasks', 'дополнительных задач' )|E]. Эти задачи не позволят вам выиграть время при взаимодействии с Советом Старейшин, но они дадут вам способ изменить Тамриэль, с чем Совет Старейшин при иных обстоятельствах был бы категорически несогласен."
- attrebus_interregnum_decision_early_effect_tt:0 "Вы также можете решить вернуть полномочия, данные вам Советом Старейшин, раньше, чем они того потребуют. Вы не сможете дальше менять Сиродил и продвигать свои собственные амбиции. После этого начнётся Междуцарствие."
+ attrebus_interregnum_decision_confirm:0 "Созвать Совет старейшин!"
+ attrebus_interregnum_decision_required_tasks_tt:0 "Вы выполнили #R [THIS.Var('attrebus_required_tasks_complete').GetValue|0]#! из 3 требуемых для умиротворения Совета старейшин [Concept( 'required_tasks', 'задач' )|E]. У вас есть #R [THIS.Var('attrebus_years_pseudo_emperor_left').GetValue|0] лет#!, прежде чем терпение Совета Старейшин закончится."
+ attrebus_interregnum_decision_optional_tasks_tt:0 "Вы выполнили #R [THIS.Var('attrebus_optional_tasks_complete').GetValue|0]#! из 3 [Concept( 'optional_tasks', 'дополнительных задач' )|E]. Эти задачи не позволят вам выиграть время при взаимодействии с Советом старейшин, но они дадут вам способ изменить Тамриэль, с чем Совет Старейшин при иных обстоятельствах был бы категорически несогласен."
+ attrebus_interregnum_decision_early_effect_tt:0 "Вы также можете решить вернуть полномочия, данные вам Советом старейшин, раньше, чем они того потребуют. Вы не сможете дальше менять Сиродил и продвигать свои собственные амбиции. После этого начнётся Междуцарствие."
  attrebus_interregnum_decision_death_effect_tt:0 "Если вы умрёте до того, как Совет Старейшин попросит вас вернуть власть, то они возьмут Имперский Остров под свой контроль.\n#N Вы потеряете титул Сиродильский Потентат.\nВсе территории за пределами основного де-юре титула вашего наследника будут потеряны.#!"
  
  attrebus_repay_debts_decision:0 "Выплатить долги Совету Старейшин"

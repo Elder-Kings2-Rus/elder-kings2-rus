@@ -21,7 +21,7 @@
  orc_history_loc:0 "Народ, что стал отличен от альдмеров после трансформации Тринимака" # длинное описание, ранее было 'Народ, изменивший свой облик по сравнению с их альдмерскими сородичами после трансформации Тринимака'
  iron_orc_history_loc:0 "Народ, отказавшийся от своего мирного существования после недийской агрессии"
  redguard_history_loc:0 "Происходят от #L [CULTURE.GetCollectiveNoun|l]их#! поселенцев из [Concept( 'compendium_ragada', 'Ра Гада' )|E], что вторглась в Гибельные земли"
- crown_history_loc:0 "Отпрыски высшей знати На-Тотамбу старой #L [CULTURE.GetCollectiveNoun|l]ой#! культуры"
+ crown_history_loc:0 "Отпрыски высшей знати #LORE [compendium_na_totambu]#! старой #L [CULTURE.GetCollectiveNoun|l]ой#! культуры"
  yokudan_history_loc:0 "Выжившие после затопления Старой Йокуды"
  abecean_history_loc:0 "Происходят от #L [CULTURE.GetCollectiveNoun|l]ой#! таванской [Concept( 'compendium_ragada', 'Ра Гада' )|E], возглавляемой принцем Хьюбаладжадом"
  argonian_history_loc:0 "Были благословлены мудростью Хист во времена #LORE [Concept( 'compendium_merethic_era', 'Меретической эры' )|E]#!"

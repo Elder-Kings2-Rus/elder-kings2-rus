@@ -24,7 +24,7 @@
  random_entertainment_text_deathbrand:0 "Клеймо Смерти"
  random_entertainment_text_beggar:0 "Нищий"
  random_entertainment_text_aoml:0 "Броня из Мифов и Легенд"
- random_entertainment_text_2920:0 "2920, последний год Первой эры"
+ random_entertainment_text_2920:0 "2920, последний год #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#!"
 
  #RandomReligiousText
  random_religious_text_sithis:0 "Ситис"
