@@ -382,7 +382,7 @@
  devastate_province_name:0 "Опустошить провинцию"
  devastate_province_perk_name:0 "$devastate_province_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('devastate_province_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('devastate_province_province'), '(CFixedPoint)1'), '$spell_province_perk$' )]"
 
- arcane_outlet_name:0 "Магическое воспламенение"
+ arcane_outlet_name:0 "Усиление армии"
  arcane_outlet_perk_name:0 "$arcane_outlet_name$"
  inflict_weakness_name:0 "Магическая слабость"
  inflict_weakness_perk_name:0 "$inflict_weakness_name$"
@@ -414,7 +414,7 @@
  remedy_illness_perk_name:0 "$remedy_illness_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('remedy_illness_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('remedy_illness_province'), '(CFixedPoint)1'), '$spell_province_perk$' )]"
  mend_wound_name:0 "Залечить рану"
  mend_wound_perk_name:0 "$mend_wound_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('mend_wound_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('mend_wound_province'), '(CFixedPoint)1'), '$spell_province_perk$' )]"
- turn_undead_name:0 "Превратить нежить"
+ turn_undead_name:0 "Отпугивание нежити"
  turn_undead_perk_name:0 "$turn_undead_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('turn_undead_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('turn_undead_province'), '(CFixedPoint)1'), '$spell_province_perk$' )]"
  cure_disease_name:0 "Излечить болезнь"
  cure_disease_perk_name:0 "$cure_disease_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('cure_disease_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('cure_disease_province'), '(CFixedPoint)1'), '$spell_province_perk$' )]"
@@ -448,7 +448,7 @@
  claim_corpse_perk_name:0 "$claim_corpse_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('claim_corpse_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('claim_corpse_province'), '(CFixedPoint)1'), '$spell_province_perk$' )]"
  restless_dead_name:0 "Беспокойные мертвецы"
  restless_dead_perk_name:0 "$restless_dead_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('restless_dead_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('restless_dead_province'), '(CFixedPoint)1'), '$spell_province_perk$' )]"
- raise_dead_name:0 "Поднять мертвецов"
+ raise_dead_name:0 "Поднять орду мертвецов"
  raise_dead_perk_name:0 "$raise_dead_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('raise_dead_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('raise_dead_province'), '(CFixedPoint)1'), '$spell_province_perk$' )]"
 
  bone_mantle_name:0 "Костяная мантия"
