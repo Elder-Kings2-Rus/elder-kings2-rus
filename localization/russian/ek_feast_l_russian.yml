@@ -11,7 +11,7 @@
  ek_feast.0002.b:0 "Мне не нужно никаких даров, мне просто нужны твёрдые, холодные дрейки."
  ek_feast.0002.c:0 "Моё единственное желание - служить вам!"
  ek_feast.0002.c.tt:0 "Вы станете Избранником Сангвина!"
- ek_feast.0003.desc:0 "Я не [Select_CString(ROOT.Char.IsFemale, 'могла', 'мог' )] долго оставаться трезвым. Я [Select_CString(ROOT.Char.IsFemale, 'потеряла', 'потерял' )] сознание, услышав, как смех Сэма стал более глубоким и искаженным.\n\nКогда я [Select_CString(ROOT.Char.IsFemale, 'проснулась', 'проснулся' )], Сэм превратился в нечто из кошмара. В существо огромного роста и ужасающей внешности. "Кто ты?" — [Select_CString(ROOT.Char.IsFemale, 'спросила', 'спросил' )] я.\n«Я Сангвин, Даэдрический Принц Разврата! Я знаю, знаю, как я мог тебе солгать? Ну, как я мог доверять тебе, пока мы не выпили несколько рюмок? Но вскоре я понял, что ты станешь более интересным носителем моих благословений и проклятий."\n\nЯ [Select_CString(ROOT.Char.IsFemale, 'была потрясен и не знала, что сказать', 'был потрясен и не знал, что сказать' )], но он не изменил своего мнения. «Ну, что насчет пари, а? [Select_CString(ROOT.Char.IsFemale, 'Готова', 'Готов' )] стать поклонником Принца Разврата?""
+ ek_feast.0003.desc:0 "Я не [Select_CString(ROOT.Char.IsFemale, 'могла', 'мог' )] долго оставаться трезвым. Я [Select_CString(ROOT.Char.IsFemale, 'потеряла', 'потерял' )] сознание, услышав, как смех Сэма стал более глубоким и искаженным.\n\nКогда я [Select_CString(ROOT.Char.IsFemale, 'проснулась', 'проснулся' )], Сэм превратился в нечто из кошмара. В существо огромного роста и ужасающей внешности. "Кто ты?" — [Select_CString(ROOT.Char.IsFemale, 'спросила', 'спросил' )] я.\n«Я Сангвин, #LORE [compendium_daedric_prince]#! Разврата! Я знаю, знаю, как я мог тебе солгать? Ну, как я мог доверять тебе, пока мы не выпили несколько рюмок? Но вскоре я понял, что ты станешь более интересным носителем моих благословений и проклятий."\n\nЯ [Select_CString(ROOT.Char.IsFemale, 'была потрясен и не знала, что сказать', 'был потрясен и не знал, что сказать' )], но он не изменил своего мнения. «Ну, что насчет пари, а? [Select_CString(ROOT.Char.IsFemale, 'Готова', 'Готов' )] стать поклонником Принца Разврата?""
  ek_feast.0003.a:0 "Как пожелаешь... повелитель."
  ek_feast.0003.a.tt:0 "Вы тайно станете поклонником Сангвина!"
  ek_feast.0003.b:0 "Я никогда не буду служить тебе!"
@@ -25,6 +25,17 @@
  ek_feast.0004.nords:0 "Каждый норд участник"
 
  refused_feast_of_the_dead_opinion:0 "Отказ от участия в Празднике Мёртвых"
+
+ ek_feast.0005.t:0 "Spirits Away"
+ ek_feast.0005.desc:0 "The grand feast was underway, with merriment filling the air, but a sudden gasp of dismay swept across the banquet hall. The finest shipment of [ROOT.Char.Custom('GetExpensiveDrink_Singular')] had taken an unexpected plunge into a nearby body of water, casting a shadow over the revelry. The mood remained buoyant, but the absence of such exquisite libations threatened to dampen the festivity."
+ ek_feast.0005.a:0 "Bring out the fishing rods!"
+ ek_feast.0005.a.success:0 "You successfully fish out the beverages"
+ ek_feast.0005.a.failure:0 "You fail to catch anything"
+ ek_feast.0005.a.crit_success:0 "You fish out something... Godly"
+ ek_feast.0005.b:0 "There's no shortage of drinks!"
+ ek_feast.0005.c:0 "Thankfully I've stashed some just in case."
+
+
 
 #xxxxx:0 "xxxxx"
 #“”

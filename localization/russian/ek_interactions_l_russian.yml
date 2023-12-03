@@ -37,8 +37,8 @@
  
  duel_for_claim_strong_interaction:0 "Дуэль насмерть за титул"
  duel_for_claim_strong_interaction.lethal.tt:0 "[single_combat_fight|E] насмерть начнется немедленно"
- duel_for_claim_strong_interaction.actor_victory.tt:0 "Если [actor.GetFirstNameOrMeNoTooltip] победит, [actor.GetFirstNameOrMeNoTooltip] получит [target.GetName]. Если титулом является [duchy|El] или выше, [actor.GetFirstNameOrMeNoTooltip] также получит каждое [county|El], которыми непосредственно владеет [recipient.GetFirstNameOrMeNoTooltip] в его пределах.\n[recipient.GetFirstNameOrMeNoTooltip|U] #N умрет#!."
- duel_for_claim_strong_interaction.actor_defeat.tt:0 "Если [actor.GetFirstNameOrMeNoTooltip] проиграет, [actor.GetFirstNameOrMeNoTooltip] #N умрет#!, а [recipient.GetFirstNameOrMeNoTooltip] сохранит [target.GetName]."
+ duel_for_claim_strong_interaction.actor_victory.tt:0 "Если [actor.GetFirstNameOrMeNoTooltip] победит, [actor.GetFirstNameOrMeNoTooltip] получит [target.GetName]. Если титулом является [duchy|El] или выше, [actor.GetFirstNameOrMeNoTooltip] также получит каждое [county|El], которыми непосредственно владеет [recipient.GetFirstNameOrMeNoTooltip] в его пределах.\n[recipient.GetFirstNameOrMeNoTooltip|U] скорее всего #N умрёт#! на дуэли, а в противном случае вы сможете решить [recipient.GetHerHis] судьбу."
+ duel_for_claim_strong_interaction.actor_defeat.tt:0 "Если [actor.GetFirstNameOrMeNoTooltip] проиграет, [actor.GetFirstNameOrMeNoTooltip] скорее всего #N умрёт#!, а [recipient.GetFirstNameOrMeNoTooltip] сохранит [target.GetName]."
  duel_for_claim_strong_interaction.actor_victory_game_over.tt:0 "#N Если [recipient.GetFirstNamePossessiveOrMy|U] победит, это приведет к завершению игры#!"
  duel_for_claim_strong_interaction.actor_default_victory.tt:0 "[actor.GetFirstNameOrMeNoTooltip|U] получит [target.GetName]. Если [actor.GetFirstNameOrMeNoTooltip] победит, [actor.GetFirstNameOrMeNoTooltip] получит [target.GetName]. Если титулом является [duchy|El] или выше, [actor.GetFirstNameOrMeNoTooltip] также получит каждое [county|El], которыми непосредственно владеет [recipient.GetFirstNameOrMeNoTooltip] в его пределах"
  duel_for_claim_strong_interaction.default_game_over.tt:0 "#N Это приведет к завершению игры#!"
@@ -47,6 +47,8 @@
  DUEL_FOR_CLAIM_TITLE_TIER:0 "Дуэль за [target.GetTierAsName]: #P +$VALUE|0$#!"
  DUEL_FOR_CLAIM_DE_JURE_LIEGE:0 "[recipient.GetShortUINameNoTooltip] является [de_jure|El] сюзереном [target.GetNameNoTier]: #P +$VALUE|0$#!"
  DUEL_FOR_CLAIM_LAST_TITLE:0 "[recipient.GetShortUINameNoTooltip] станет безземельным, если [recipient.GetSheHe] откажется: #P +$VALUE|0$#!"
+ DUEL_FOR_CLAIM_INFIRM:0 "[recipient.GetShortUINameNoTooltip] имеет свойство [infirm|El]: #P +$VALUE|0$#!"
+ DUEL_FOR_CLAIM_INCAPABLE:0 "[recipient.GetShortUINameNoTooltip] имеет свойство [incapable|El]: #P +$VALUE|0$#!"
  
  prowess_claim_interaction:0 "Претендовать на землю через Доблесть"
  prowess_claim_interaction_desc:0 "[claim|E] на [title|El] которым владеет [recipient.GetShortUINameNoTooltip], используя то, что ваша [prowess|El] и [prestige|El] выше."
@@ -86,10 +88,10 @@
 
  EDUCATE_ME_OPTION_TRAIN_ARCANA_LEARNING_FOCUS_EFFECT:1 "Я получаю образование в [Concept('learning', 'учености')|E] и получу [trait|E] #V Ученика Магии#!"
  EDUCATE_CHILD_OPTION_TRAIN_ARCANA_LEARNING_FOCUS_EFFECT:1 "Получает образование в [Concept('learning', 'учености')|E] и получит [trait|E] #V Ученика Магии#!"
- EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_1:0 "#N Не#! будет учиться искусству Магии.\nТак как у культуры ребенка есть [tradition|El] #V $tradition_sorcerer_kings_name$#! или его [dynasty|El] имеет [Concept( 'dynasty_perk', 'наследие' )|E] #V $magicka_legacy_3_name$#!, для него необходимо найти опекуна со [Concept( 'trait', 'свойством' )|E] #V $trait_education_magical_ability$#! или #V $trait_arcana_good$#!"
+ EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_1:0 "#N Не#! будет учиться искусству Магии.\nТак как у культуры ребенка есть [tradition|El], открывающая обучение магии, или его [dynasty|El] имеет [Concept( 'dynasty_perk', 'наследие' )|E] #V $magicka_legacy_3_name$#!, для него необходимо найти опекуна со [Concept( 'trait', 'свойством' )|E] #V $trait_education_magical_ability$#! или #V $trait_arcana_good$#!"
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_2:0 "#N Не#! будет учиться искусству Магии.\nТак как у культуры ребенка есть [innovation|El] #V $innovation_schools_of_magic$#!, для него необходимо найти опекуна со [Concept( 'trait', 'свойством' )|E] #V $trait_education_magical_ability$#! или #V $trait_arcana_good$#!"
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_3:0 "#N Не#! будет учиться искусству Магии.\nТак как у культуры ребенка есть [innovation|El] #V $innovation_magical_studies$#!, для него необходимо найти опекуна со [Concept( 'trait', 'свойством' )|E] #V $trait_arcana_good$#!"
- EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_4:0 "#N Не#! будет учиться искусству Магии.\nТак как у культуры ребенка нет [Concept( 'innovation', 'инновации' )|E] #V $innovation_magical_studies$#! или #V $innovation_schools_of_magic$#!, и нет [Concept( 'tradition', 'традиции' )|E] #V $tradition_sorcerer_kings_name$#!, и его [dynasty|El] не имеет [Concept( 'dynasty_perk', 'наследие' )|E] #V $magicka_legacy_3_name$#!, обучение искусству Магии #N невозможно#!."
+ EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_4:0 "#N Не#! будет учиться искусству Магии.\nТак как у культуры ребенка нет [Concept( 'innovation', 'инновации' )|E] #V $innovation_magical_studies$#! или #V $innovation_schools_of_magic$#!, и нет [Concept( 'tradition', 'традиции' )|E], открывающей обучение магии, и его [dynasty|El] не имеет [Concept( 'dynasty_perk', 'наследие' )|E] #V $magicka_legacy_3_name$#!, обучение искусству Магии #N невозможно#!."
 
  consume_interaction:0 "Поглотить"
  consume_interaction_desc:0 "Поглотите персонажа [recipient.GetShortUINameNoTooltip] в попытке усилить [Concept( 'tsaescence', 'цаэсценцию' )|E]. Однако в процессе вы можете изменить свои [Concept( 'personality_traits', 'свойства личности' )|E] и [skills|El]."
