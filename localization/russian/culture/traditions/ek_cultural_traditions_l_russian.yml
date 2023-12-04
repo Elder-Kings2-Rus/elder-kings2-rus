@@ -255,7 +255,7 @@
 
  culture_parameter_stewardship_education_more_valued:0 "[education_traits|E], связанные с [Concept('stewardship', 'управлением')|E], ценятся больше"
  culture_parameter_stewardship_from_martial_education:1 "[Concept( 'martial', 'Военные' )|E] [education_traits|El] также предоставляют [stewardship_i][stewardship|El]"
- culture_parameter_prowess_from_magical_education:1 "[Concept( 'arcana', 'Магические' )|E] [education_traits|El] также предоставляют grant [prowess_i][prowess|El]"
+ culture_parameter_prowess_from_magical_education:1 "[Concept( 'arcana', 'Магические' )|E] [education_traits|El] также предоставляют [prowess_i][prowess|El]"
 
 ## EVENTS PARAMETERS
  culture_parameter_wandering_poets_may_appear:0 "Бродячие поэты могут появиться при дворе, чтобы прославить или высмеять ваше правление"
