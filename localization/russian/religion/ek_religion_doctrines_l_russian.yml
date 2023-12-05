@@ -21,19 +21,19 @@
  ## Communal / Cultural Identity
  
  doctrine_parameter_same_heritage_conversion_bonus_active:1 "Скорость обращения в #L [Faith.MakeScope.Var('associated_culture').Culture.GetHeritage.GetName|l]их#! [Concept( 'county', 'графствах' )|El]: #P +25%#!"
- doctrine_parameter_same_faith_promote_heritage_bonus_active:1 "Скорость распространения культур [Faith.MakeScope.Var('associated_culture').Culture.GetHeritage.GetName]ого [Concept( 'heritage', 'наследия' )|E] в [Concept( 'county', 'графствах' )|El] этой [Concept( 'faith', 'конфессии' )|E]: #P +25%#!"
+ doctrine_parameter_same_faith_promote_heritage_bonus_active:1 "Скорость распространения культур #L [Faith.MakeScope.Var('associated_culture').Culture.GetHeritage.GetName|l]ого#! [Concept( 'heritage', 'наследия' )|E] в [Concept( 'county', 'графствах' )|El] этой [Concept( 'faith', 'конфессии' )|E]: #P +25%#!"
  doctrine_parameter_other_heritage_conversion_penalty_active:1 "Скорость обращения в [Concept( 'county', 'графствах' )|El] иного [Concept( 'heritage', 'наследия' )|E]: #N -50%#!"
  COURT_CHAPLAIN_CONVERSION_HERITAGE_TIES_MODIFIER:0 "[councillor.GetFaith.GetAdjective] — [GetFaithDoctrine('doctrine_cultural_identity_heritage').GetBaseName]"
  
  doctrine_parameter_same_heritage_exclusive_conversion_bonus_active:1 "Скорость обращения в #L [Faith.MakeScope.Var('associated_culture').Culture.GetHeritage.GetName|l]их#! [Concept( 'county', 'графствах' )|El]: #P +50%#!"
- doctrine_parameter_same_faith_promote_heritage_exclusive_bonus_active:1 "Скорость распространения культур [Faith.MakeScope.Var('associated_culture').Culture.GetHeritage.GetName]ого [Concept( 'heritage', 'наследия' )|E] в [Concept( 'county', 'графствах' )|El] этой [Concept( 'faith', 'конфессии' )|E]: #P +50%#!"
+ doctrine_parameter_same_faith_promote_heritage_exclusive_bonus_active:1 "Скорость распространения культур #L [Faith.MakeScope.Var('associated_culture').Culture.GetHeritage.GetName|l]ого#! [Concept( 'heritage', 'наследия' )|E] в [Concept( 'county', 'графствах' )|El] этой [Concept( 'faith', 'конфессии' )|E]: #P +50%#!"
  doctrine_parameter_other_heritage_exclusive_conversion_penalty_active:1 "Скорость обращения в [Concept( 'county', 'графствах' )|El] иного [Concept( 'heritage', 'наследия' )|E]: #N -100%#!"
  COURT_CHAPLAIN_CONVERSION_HERITAGE_EXCLUSIVE_TIES_MODIFIER:0 "[councillor.GetFaith.GetAdjective] — [GetFaithDoctrine('doctrine_cultural_identity_heritage_exclusive').GetBaseName]"
  
  COURT_CHAPLAIN_CONVERSION_CULTURE_TIES_MODIFIER:0 "[councillor.GetFaith.GetAdjective] — [GetFaithDoctrine('doctrine_cultural_identity_culture').GetBaseName]"
  
  doctrine_parameter_same_culture_exclusive_conversion_bonus_active:1 "Скорость обращения в #L [Faith.MakeScope.Var('associated_culture').Culture.GetCollectiveNoun|l]их#! [Concept( 'county', 'графствах' )|El]: #P +100%#!"
- doctrine_parameter_same_faith_promote_culture_exclusive_bonus_active:1 "Скорость распространения [Faith.MakeScope.Var('associated_culture').Culture.GetName]ой культуры в [Concept( 'county', 'графствах' )|El] этой [Concept( 'faith', 'конфессии' )|E]: #P +100%#!"
+ doctrine_parameter_same_faith_promote_culture_exclusive_bonus_active:1 "Скорость распространения #L [Faith.MakeScope.Var('associated_culture').Culture.GetCollectiveNoun|l]ой#! культуры в [Concept( 'county', 'графствах' )|El] этой [Concept( 'faith', 'конфессии' )|E]: #P +100%#!"
  doctrine_parameter_other_culture_exclusive_conversion_penalty_active:1 "Скорость обращения в [Concept( 'county', 'графствах' )|El] иной [Concept( 'culture', 'культуры' )|E]: #N -100%#!"
  COURT_CHAPLAIN_CONVERSION_CULTURE_EXCLUSIVE_TIES_MODIFIER:0 "[councillor.GetFaith.GetAdjective] — [GetFaithDoctrine('doctrine_cultural_identity_culture_exclusive').GetBaseName]"
  
