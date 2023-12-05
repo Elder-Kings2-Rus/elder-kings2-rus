@@ -178,9 +178,9 @@ trait_lifespan_5:1 "Продолжительность жизни V #italic ([gc
  trait_lifespan_5_desc:1 "С помощью природы или магии, предполагается [Select_CString(ROOT.GetCharacter.IsFemale, 'что она', 'что он' )] проживёт до 500 лет. Женщины с этой чертой становятся бесплодными примерно в 335 лет."
  trait_lifespan_5_character_desc:1 "С помощью природы или магии, предполагается что [ROOT.GetCharacter.GetFirstNameNoTooltip] проживёт до 500 лет. Женщины с этой чертой становятся бесплодными примерно в 335 лет."
 
- trait_lifespan_7:1 "Бессмертие #italic ([gc_lifespan|E])#!"
- trait_lifespan_7_desc:1 "Этот персонаж не умрёт от старости, но за это приходится платить своим телом и разумом."
- trait_lifespan_7_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] не умрёт от старости, но за это приходится платить своим телом и разумом."
+ trait_lifespan_6:1 "Бессмертие #italic ([gc_lifespan|E])#!"
+ trait_lifespan_6_desc:1 "Этот персонаж не умрёт от старости, но за это приходится платить своим телом и разумом."
+ trait_lifespan_6_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] не умрёт от старости, но за это приходится платить своим телом и разумом."
  
  trait_poet_nord:0 "Скальд"
  
