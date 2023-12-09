@@ -251,8 +251,8 @@
  ek_stress_trait_coping_decisions.1152.a.tt:0 "Вы получите опыт в магическом образе жизни."
 
  ek_stress_trait_coping_decisions.1153.t:0 "[Select_CString(torture_victim.IsFemale, 'Подопытная', 'Подопытный' )]"
- ek_stress_trait_coping_decisions.1153.desc:0 "The possibilities of magic are virtually limitless, and with a touch of creativity, it can be melded to create fresh and exhilarating effects. The issue is that I am not sure what many of these effects actually are until I try them out. Fortunately, with [torture_victim.GetFirstName], I have the ideal volunteer in my dungeon for such experiments..."
- ek_stress_trait_coping_decisions.1153.a:0 "Time for some... practical research."
+ ek_stress_trait_coping_decisions.1153.desc:0 "Возможности магии практически безграничны, и, проявив творческий подход, её можно объединить, чтобы создать свежие и захватывающие эффекты. Проблема в том, что я не [Select_CString(ROOT.Char.IsFemale, 'уверена', 'уверен' )] в том, что многие из этих эффектов на самом деле представляют собой, пока не попробую их на практике. К счастью, благодаря персонажу [torture_victim.GetFirstName], у меня в подземелье появился идеальный доброволец для таких экспериментов..."
+ ek_stress_trait_coping_decisions.1153.a:0 "Пора заняться... практическим исследованием."
  ek_stress_trait_coping_decisions.1153.a.tt:0 "[torture_victim.GetFirstNameNoTooltip] подвергнется пыткам экспериментальными заклинаниями."
 
  ek_stress_trait_coping_decisions.1154.t:0 "Эксперимент с пеплозубом"
