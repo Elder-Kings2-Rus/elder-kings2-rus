@@ -66,7 +66,7 @@
  ek_ymis_events.0012a.tt.success:0 "Вы успешно убедили персонажа [wannabe_artist.GetFirstName] отказаться от [wannabe_artist.GetHerHis] идеи."
  ek_ymis_events.0012a.failure:0 "[wannabe_artist.GetFirstName|U] по-прежнему желает продолжить своё путешествие."
  ek_ymis_events.0012b:0 "Если это действительно то, чего действительно хочет персонаж [wannabe_artist.GetFirstNameNoTooltip], то я больше не буду вмешиваться."
- ek_ymis_events.0012c:0 "Позволить [wannabe_artist.GetHerHim] стать Select_CString(wannabe_artist.IsFemale, 'артисткой', 'артистом' )] и позже дать [wannabe_artist.GetHerHim] должность при вашем дворе."
+ ek_ymis_events.0012c:0 "Позволить [wannabe_artist.GetHerHim] стать [Select_CString(wannabe_artist.IsFemale, 'артисткой', 'артистом' )] и позже дать [wannabe_artist.GetHerHim] должность при вашем дворе."
  ek_ymis_events.0012d:0 "Заставить [wannabe_artist.GetHerHim] вернуться назад любыми методами."
 
  ek_ymis_events.0014.t:0 "[Select_CString(ROOT.Char.IsFemale, 'Будущая артистка', 'Будущий артист' )]: неожиданное возвращение"

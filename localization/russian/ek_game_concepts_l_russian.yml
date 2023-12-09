@@ -226,7 +226,7 @@
  game_concept_important_character_desc:0 "Историческая так или иначе известная или знаменитая личность"
 
  game_concept_bandit_faction:0 "$FACTION_BANDIT_NAME$"
- game_concept_bandit_faction_desc:2 "$game_concept_bandit_faction$ объединяет [counties|El], которые наводнены бандитами и другими нечистыми на руку людьми. Успешные восстания разбойников отберут земли у вашей [Concept( 'realm', 'державы' )|E] в пользу своей собственной."
+ game_concept_bandit_faction_desc:2 "$game_concept_bandit_faction$ объединяют [counties|El], которые наводнены бандитами и другими нечистыми на руку людьми. Успешные восстания разбойников отберут земли у вашей [Concept( 'realm', 'державы' )|E] в пользу своей собственной."
 
  game_concept_goblin_faction:0 "$FACTION_GOBLIN_NAME$"
  game_concept_goblin_faction_desc:2 "$game_concept_goblin_faction$ объединяет [counties|El], захваченные местным гоблинским населением. Успешные восстания гоблинов отберут земли у вашей [Concept( 'realm', 'державы' )|E] в пользу своей собственной."
