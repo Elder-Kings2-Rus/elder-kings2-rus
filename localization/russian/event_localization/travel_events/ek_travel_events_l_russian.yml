@@ -544,7 +544,7 @@
  ek_travel_events.0068.defeated_by_leviathan:0 "[leviathan.GetFirstName] [Select_CString(leviathan.IsFemale, 'победила', 'победил' )] вас"
  ek_travel_events.0068.b:0 "Пусть [leviathan.GetSheHe] возьмёт всё, что [leviathan.GetHerHim] нужно."
  ek_travel_events.0068.c:0 "Попытаться оторвать от н[leviathan.GetHerHis] в тумане!"
- ek_travel_events.0068.d:0 "Мой серебряный язык сделает из н[leviathan.GetHerHis] союзника!"
+ ek_travel_events.0068.d:0 "Моё красноречие сделает из н[leviathan.GetHerHis] союзника!"
  ek_travel_events.0068.offer_accepted:0 "[leviathan.GetFirstName] принимает ваше предложение"
  ek_travel_events.0068.offer_refused:0 "[leviathan.GetFirstName] отклоняет ваше предложение"
 
