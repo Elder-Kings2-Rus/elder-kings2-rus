@@ -1103,7 +1103,7 @@
  doctrine_cultural_identity_heritage_name:0 "Идентичность наследия"
     doctrine_cultural_identity_heritage_desc:0 "Наша культура развивалась бок о бок с нашей верой, и они связаны друг с другом. Посторонние могут изучать наши обряды и интегрировать нашу веру, но они должны понимать, что наши верования были составлены без них."
     ASK_FOR_CONVERSION_CULTURAL_IDENTITY_HERITAGE:1 "[faith|E] персонажа [recipient.GetShortUIName|U] тесно связана с [recipient.GetHerHis] #L [recipient.GetCulture.GetHeritage.GetName|l]им#! [Concept( 'heritage', 'наследием' )|E]: $VALUE|=+0$"
-    faith_conversion_cost_cultural_identity_cg_outside_culture_group:0 "[new_faith.MakeScope.Faith.GetName] [faith|E] не признаёт ваше [heritage|El] - [GetFaithDoctrine('doctrine_cultural_identity_heritage').GetBaseName]"
+    faith_conversion_cost_cultural_identity_cg_outside_culture_group:0 "#L [new_faith.MakeScope.Faith.GetName]ая#! [faith|El] не признаёт ваше [heritage|El] - [GetFaithDoctrine('doctrine_cultural_identity_heritage').GetBaseName]"
  doctrine_cultural_identity_heritage_exclusive_name:0 "Сильная идентичность наследия"
     doctrine_cultural_identity_heritage_exclusive_desc:0 "Традиции нашего народа неразрывно связаны с нашей верой, и почти немыслимо, чтобы кто-то, не разделяющий наши традиции и наследие, принял наши верования и обряды."
     ASK_FOR_CONVERSION_CULTURAL_IDENTITY_HERITAGE_EXCLUSIVE:1 "[heritage|E] — [recipient.GetCulture.GetHeritage.GetName] — персонажа [recipient.GetShortUIName|U] не разделяет ценностей нашей [actor.GetCulture.GetHeritage.GetName] [Concept( 'faith', 'конфессии' )|E]: $VALUE|=+0$"
