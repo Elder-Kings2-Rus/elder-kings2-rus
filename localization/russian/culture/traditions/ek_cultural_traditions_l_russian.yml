@@ -522,12 +522,12 @@
  tradition_female_only_inheritance_requirements_ek:0 "Ваша [faith|El] должна иметь доктрину [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]"
  tradition_orc_heritage_trigger:0 "Есть #V орсимерское#! [heritage|El]"
  tradition_imga_trigger_desc:0 "Есть #V имганское#! [heritage|El]"
- tradition_imperial_battlemages_trigger_desc:0 "Имеет #V $Cyrodiilic$ое#! [heritage|El], либо является #V $nibenese_collective_noun$ой#! или #V $heartlander_collective_noun$ой#!, либо произошедшей от них [Concept( 'culture', 'культурой' )|E] и НЕ имеет [Concept( 'tradition', 'традицию' )|E] $tradition_pacifism_name$ "
- tradition_blackwood_trigger_desc:0 "Имеет #V $Cyrodiilic$ое#! [heritage|El], либо является $blackwood_collective_noun$ой или произошедшей от неё [Concept( 'culture', 'культурой' )|E]"
- tradition_cyrodiilic_core_trigger_desc:0 "Имеет #V $Cyrodiilic$ое#! [heritage|El] и не имеет [Concept( 'tradition', 'традицию' )|E] [GetCultureTradition('tradition_ut_nibenu_folklore').GetName|V]."
+ tradition_imperial_battlemages_trigger_desc:0 "Имеет #V сиродильское#! [heritage|El], либо является #V $nibenese_collective_noun$ой#! или #V $heartlander_collective_noun$ой#!, либо произошедшей от них [Concept( 'culture', 'культурой' )|E] и НЕ имеет [Concept( 'tradition', 'традицию' )|E] $tradition_pacifism_name$ "
+ tradition_blackwood_trigger_desc:0 "Имеет #V сиродильское#! [heritage|El], либо является $blackwood_collective_noun$ой или произошедшей от неё [Concept( 'culture', 'культурой' )|E]"
+ tradition_cyrodiilic_core_trigger_desc:0 "Имеет #V сиродильское#! [heritage|El] и не имеет [Concept( 'tradition', 'традицию' )|E] [GetCultureTradition('tradition_ut_nibenu_folklore').GetName|V]."
  cyrodiil_empire_percentage_desc:0 "#V 50%#! [Concept( 'counties', 'графств' )|E] этой [Concept( 'culture', 'культуры' )|E] не находятся в провинции Сиродил"
- tradition_foothill_paddocks_trigger_desc:0 "Имеет #V $Cyrodiilic$ое#! [heritage|El] и не имеет [Concept( 'tradition', 'традицию' )|E] [GetCultureTradition('tradition_hit_and_run').GetName|V]."
+ tradition_foothill_paddocks_trigger_desc:0 "Имеет #V сиродильское#! [heritage|El] и не имеет [Concept( 'tradition', 'традицию' )|E] [GetCultureTradition('tradition_hit_and_run').GetName|V]."
  tradition_tsaesci_core_trigger_desc:0 "Имеет [heritage|El] #V $Tsaesci$#! и не имеет [Concept( 'tradition', 'традицию' )|E] [GetCultureTradition('tradition_cutthroat_politics').GetName|V]."
  
- tradition_cyrodiil_legacy_trigger_desc:0 "Не имеет #V $Cyrodiilic$ое#! [heritage|El] и владеет империей Тамриэль или Сиродил в качестве основного титула."
+ tradition_cyrodiil_legacy_trigger_desc:0 "Не имеет #V сиродильского#! [heritage|El] и владеет империей Тамриэль или Сиродил в качестве основного титула."
 

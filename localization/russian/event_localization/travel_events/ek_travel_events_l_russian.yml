@@ -33,7 +33,7 @@
  ek_travel_events.0006.a.success:0 "Вы успешно побеждаете тощеболота"
  ek_travel_events.0006.a.failure:0 "Тощеболот побеждает вас"
  ek_travel_events.0006.b:0 "Достать своё оружие, спасти [attacked_character.GetFirstNameNoTooltip]!"
- ek_travel_events.0006.b:0 "Нанятые вами наемники позаботятся о более изможденном персонаже и спасут подвергшегося нападению [attacked_character.GetFirstNameNoTooltip]."
+ ek_travel_events.0006.b.t:0 "Нанятые вами наемники позаботятся о более изможденном персонаже и спасут подвергшегося нападению [attacked_character.GetFirstNameNoTooltip]."
  ek_travel_events.0006.c:0 "Я должен спасти себя!"
 
  ek_travel_events.0007.t.apprentice:0 "$travel_event_prefix$ Камень Мундуса: Ученик"

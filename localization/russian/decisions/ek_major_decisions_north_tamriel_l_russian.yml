@@ -93,9 +93,9 @@
  settle_wrothgar_decision_confirm:0 "Издать указ о заселении Ротгара!"
  settle_wrothgar_decision_capital_1:0 "Ваша [capital|El] находится в регионе [GetGeographicalRegion('mundus_tamriel_high_rock_greater_wrothgar').GetName]."
  settle_wrothgar_decision_capital_2:0 "Ваша [capital|El] находится за пределами региона [GetGeographicalRegion('mundus_tamriel_high_rock_greater_wrothgar').GetName]."
- settle_wrothgar_decision_effect.form_wrothgarian_1:0 "Вы сформируете [wrothgarian_culture.GetName]ую [Concept( 'culture', 'культуру' )|E]."
- settle_wrothgar_decision_effect.form_wrothgarian_2:0 "Если ваша [capital|El] находится в регионе [GetGeographicalRegion('mundus_tamriel_high_rock_greater_wrothgar').GetName], вы примете [wrothgarian_culture.GetName]ую [Concept( 'culture', 'культуру' )|E]."
- settle_wrothgar_decision_effect.form_wrothgarian_3:0 "[vassals|E] с [wrothgarian_culture.GetHeritage.GetName]им [Concept( 'heritage', 'наследием' )|E] в регионе [GetGeographicalRegion('mundus_tamriel_high_rock_greater_wrothgar').GetName] примут [wrothgarian_culture.GetName]ую [Concept( 'culture', 'культуру' )|E]."
+ settle_wrothgar_decision_effect.form_wrothgarian_1:0 "Вы сформируете [wrothgarian_culture.GetCollectiveNoun|l]ую [Concept( 'culture', 'культуру' )|E]."
+ settle_wrothgar_decision_effect.form_wrothgarian_2:0 "Если ваша [capital|El] находится в регионе [GetGeographicalRegion('mundus_tamriel_high_rock_greater_wrothgar').GetName], вы примете [wrothgarian_culture.GetCollectiveNoun|l]ую [Concept( 'culture', 'культуру' )|E]."
+ settle_wrothgar_decision_effect.form_wrothgarian_3:0 "[vassals|E] с [wrothgarian_culture.GetHeritage.GetName]им [Concept( 'heritage', 'наследием' )|E] в регионе [GetGeographicalRegion('mundus_tamriel_high_rock_greater_wrothgar').GetName] примут [wrothgarian_culture.GetCollectiveNoun|l]ую [Concept( 'culture', 'культуру' )|E]."
 
  sack_orsinium_decision:0 "Разграбить Орсиниум"
  sack_orsinium_decision_desc:0 "Орочьи дикари снова отстроили свой «Город орков», превратив его в могучую крепость. И хотя на данный момент нам удалось покорить эту крепость, оставшиеся кланы орков уже собираются вернуть её. Чтобы победить орков по-настоящему, мы должны вновь разрушить город."

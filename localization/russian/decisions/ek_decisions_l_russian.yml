@@ -268,7 +268,7 @@
  hire_mage_decision_effect_tooltip:4 "Вам предложат несколько кандидатов на должность «[GetCourtPositionType('court_mage_position').GetName()]» и вы сможете нанять одного из них за вознаграждение и ежемесячное жалование"
  hire_mage_decision_confirm:0 "Начать поиски"
  ek_court_position.0001.t:0 "Придворный маг"
- ek_court_position.0001.desc:0 "Этот мир полон опасностей, даже для [ROOT.Char.GetTitleTierName] и [ROOT.Char.GetHerHis] двора. Поэтому по моей просьбе мои слуги занялись поисками придворного мага. И они подобрали несколько подходящих кандидатов."
+ ek_court_position.0001.desc:0 "Этот мир полон опасностей. Не в безопасности даже [ROOT.Char.GetTitleTierName|l] и [ROOT.Char.GetHerHis] двор. Поэтому по моей просьбе мои слуги занялись поисками придворного мага. И они подобрали несколько подходящих кандидатов."
  
  # Adoption
  adopt_child_decision:0 "Посетить сиротский приют"
