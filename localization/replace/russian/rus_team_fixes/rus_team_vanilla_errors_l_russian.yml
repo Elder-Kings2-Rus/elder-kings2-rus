@@ -179,3 +179,5 @@
  # klimsat. Тут про поражение в дуэли игрока, а не соперника
  single_combat.0031.b: "Сдаюсь! Сдаюсь!"
  nick_the_bastard_rumoured:0 "Возможный бастард" #Scorg, прозвище из ваниллы. Нет ни на русском, ни на английском.
+ fund_inspiration.2030.a: "«О! Спасибо, [friend.GetFirstNameNoTooltip]!»" #Scorg, нет пробела после запятой
+ 
