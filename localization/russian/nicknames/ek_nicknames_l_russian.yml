@@ -459,7 +459,7 @@
 
 # House of Reveries
  nick_fire_bird:0 "Огненная птица"
- nick_fire_bird_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'сбежали', Select_CString(CHARACTER.IsFemale, 'сбежала', 'сбежал' ))] от строгих учений Церемониархии, оставив [Select_CString( CHARACTER.IsLocalPlayer, 'ваше', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] имя и положение, чтобы присоединиться к Дому грёз."
+ nick_fire_bird_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'сбежали', Select_CString(CHARACTER.IsFemale, 'сбежала', 'сбежал' ))] от строгих учений Церемониархии, оставив своё имя и положение, чтобы присоединиться к Дому грёз."
  nick_silver_finger:0 "Серебряный палец"
  nick_silver_finger_desc:0 "$nick_fire_bird_desc$"
  nick_feather_moth:0 "Мотылёк"
