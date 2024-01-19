@@ -27,7 +27,7 @@
  form_greater_wrothgar_kingdom_decision_effects_de_jure_tt:0 "Все герцогства в пределах [Concept( 'region', 'региона' )|E] Великого Ротгара становятся [de_jure|El] вассалами королевства Великий Ротгар"
  # Bangkorai
  form_bangkorai_kingdom_decision:0 "Сформировать королевство Бангкорай"
- form_bangkorai_kingdom_decision_desc:0 "Наконец-то я [Select_CString(ROOT.Char.IsFemale, 'установила', 'установил' )] контроль над Бангкораем, именуемым в народе «Щитом Хай-Рока». Этот регион, измученный междоусобными и пограничными конфликтами, наконец-то объедин`н под моим правлением!"
+ form_bangkorai_kingdom_decision_desc:0 "Наконец-то я [Select_CString(ROOT.Char.IsFemale, 'установила', 'установил' )] контроль над Бангкораем, именуемым в народе «Щитом Хай-Рока». Этот регион, измученный междоусобными и пограничными конфликтами, наконец-то объединён под моим правлением!"
  form_bangkorai_kingdom_decision_tooltip:0 "Вы создадите новое [Concept( 'kingdom', 'королевство' )|E] в Бангкорае."
  form_bangkorai_kingdom_decision_confirm:0 "Да здравствует [ROOT.Char.GetLadyLord|U] Бангкорая!"
  form_bangkorai_kingdom_decision_effects_de_jure_tt:0 "Все герцогства в пределах [Concept( 'region', 'регионов' )|E] Бангкорая и Эвермора становятся [de_jure|El] вассалами королевства Великий Бангкорай"
