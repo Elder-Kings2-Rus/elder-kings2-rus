@@ -753,7 +753,7 @@ l_russian:
  nick_baby_eating_desc: "Ни у кого не возникает вопросов, почему [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'носите', 'носит' )] такое прозвище. Никто не понимает, что стало причиной."
  nick_the_dung_named: "Дерьмовое Имя"
  nick_the_dung_named_desc: "Злопыхатели шепотом рассказывают, что вскоре после рождения [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'нагадили', Select_CString(CHARACTER.IsFemale, 'нагадила', 'нагадил' ))] в свою крестильную купель..."
- nick_with_the_tress: "[Select_CString(CHARACTER.IsFemale, 'Древесная', 'Древесный' )]"
+ nick_with_the_tress: "[Select_CString(CHARACTER.IsFemale, 'Верная', 'Верный' )]"
  nick_with_the_tress_desc: "Восторженные романтики по всему свету только и говорят о том, что [Select_CString(CHARACTER.IsLocalPlayer, 'вы', Select_CString(CHARACTER.IsFemale, 'она', 'он' ))] не [Select_CString( CHARACTER.IsLocalPlayer, 'делаете', 'делает' )] ни шагу из дома без пряди волос любимого человека."
  nick_with_the_lock: "[Select_CString(CHARACTER.IsFemale, 'Замочная', 'Замочный' )]"
  nick_with_the_lock_desc: "$nick_with_the_tress_desc$"
