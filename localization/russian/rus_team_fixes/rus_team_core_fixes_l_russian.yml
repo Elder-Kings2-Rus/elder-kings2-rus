@@ -208,3 +208,10 @@
  crisis_riekling_faction:0 "Кризис риклингов"
  crisis_riekr_faction:0 "Кризис рикров"
  crisis_imga_faction:0 "Кризис имга"
+ 
+ hunt_seek_duneracer_tt:0 "Вы выследите такое животное, как #V $animal_type_duneracer$#!"
+ animal_type_duneracer:0 "дюноход"
+ animal_type_duneracer_plural:0 "дюноходы"
+ animal_duneracer:0 "дюноход"
+ animal_duneracers:0 "дюноходы"
+ 
