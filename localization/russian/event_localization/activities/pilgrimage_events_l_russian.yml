@@ -10,10 +10,10 @@
  activity_pilgrimage_owner: "Пилигрим"
  activity_pilgrimage_name: "Паломничество"
  #Province Description
- activity_pilgrimage_province_unvisited_desc: "\n#positive_value Непосещенное священное место#!"
+ activity_pilgrimage_province_unvisited_desc: "\n#positive_value Непосещённое священное место#!"
  activity_pilgrimage_province_unique_desc: "\n#positive_value + Уникальное [GetPlayer.GetFaith.GetReligion.GetNameNoTooltip|l]ое священное место#!"
  #Pros/Cons + Cost at the end
- activity_pilgrimage_province_desc: "Вы начнете паломничество в провинцию [ROOT.Province.GetName]\nРасстояние влияет на стоимость и награды"
+ activity_pilgrimage_province_desc: "Вы начнёте паломничество в провинцию [ROOT.Province.GetName]\nРасстояние влияет на стоимость и награды"
  activity_pilgrimage_province_very_short_desc: "\n#positive_value + Очень короткое расстояние#!\n\nДополнительные траты: нет"
  activity_pilgrimage_province_pretty_short_desc: "\n#positive_value + Короткое расстояние#!\n#negative_value - Слегка увеличенная стоимость#!\n\nДополнительные траты: [gold_i][SCOPE.ScriptValue('pilgrimage_length_cost_tier_1')|0]"
  activity_pilgrimage_province_short_desc: "\n#positive_value ++ Довольное короткое расстояние#!\n#negative_value -- Немного увеличенная стоимость#!\n\nДополнительные траты: [gold_i][SCOPE.ScriptValue('pilgrimage_length_cost_tier_2')|0]"
@@ -24,9 +24,9 @@
  activity_pilgrimage_province_extraordinarily_far_desc: "\n#positive_value +++ Невероятно далеко#!\n#negative_value --- Очень дорого#!\n\nДополнительные траты: [gold_i][SCOPE.ScriptValue('pilgrimage_length_cost_tier_7')|0]"
  activity_pilgrimage_imaginary_friend_location_desc: "\n#positive_value +++ Почтить воображаемого друга#!"
  #Effects
- activity_pilgrimage_province_medium_mult_desc: "\n\n#bold Эффекты, если [GetActivityType('activity_pilgrimage').GetName] пройдет здесь#!\n$BULLET_WITH_TAB$[piety_i|E][Concept( 'piety', 'Благочестие' )|E] в награду: #p +[EmptyScope.ScriptValue('medium_pilgrimage_piety_multiplier')|0]%#!"
- activity_pilgrimage_province_long_mult_desc: "\n\n#bold Эффекты, если [GetActivityType('activity_pilgrimage').GetName] пройдет здесь#!\n$BULLET_WITH_TAB$[piety_i|E][Concept( 'piety', 'Благочестие' )|E] в награду: #p +[EmptyScope.ScriptValue('long_pilgrimage_piety_multiplier')|0]%#!"
- activity_pilgrimage_province_very_long_mult_desc: "\n\n#bold Эффекты, если [GetActivityType('activity_pilgrimage').GetName] пройдет здесь#!\n$BULLET_WITH_TAB$[piety_i|E][Concept( 'piety', 'Благочестие' )|E] в награду: #p +[EmptyScope.ScriptValue('very_long_pilgrimage_piety_multiplier')|0]%#!"
+ activity_pilgrimage_province_medium_mult_desc: "\n\n#bold Эффекты, если [GetActivityType('activity_pilgrimage').GetName] пройдёт здесь#!\n$BULLET_WITH_TAB$[piety_i|E][Concept( 'piety', 'Благочестие' )|E] в награду: #p +[EmptyScope.ScriptValue('medium_pilgrimage_piety_multiplier')|0]%#!"
+ activity_pilgrimage_province_long_mult_desc: "\n\n#bold Эффекты, если [GetActivityType('activity_pilgrimage').GetName] пройдёт здесь#!\n$BULLET_WITH_TAB$[piety_i|E][Concept( 'piety', 'Благочестие' )|E] в награду: #p +[EmptyScope.ScriptValue('long_pilgrimage_piety_multiplier')|0]%#!"
+ activity_pilgrimage_province_very_long_mult_desc: "\n\n#bold Эффекты, если [GetActivityType('activity_pilgrimage').GetName] пройдёт здесь#!\n$BULLET_WITH_TAB$[piety_i|E][Concept( 'piety', 'Благочестие' )|E] в награду: #p +[EmptyScope.ScriptValue('very_long_pilgrimage_piety_multiplier')|0]%#!"
  activity_pilgrimage_conclusion_desc: "Мы успешно совершили паломничество"
  pilgrimage_header: "[ROOT.Char.Custom('PilgrimageHeader')]"
  ACTIVITY_PILGRIMATE_VISITED_HOLY_SITE: "Посещено [Concept( 'holy_site', 'священное место' )|E] в местности [Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]"
@@ -82,7 +82,7 @@
  pilgrimage_because_i_had_tenet_ancestor_worship: "Потому что в прошлом у вашей [Concept( 'faith', 'конфессии' )|E] был [Concept( 'core_tenet', 'догмат' )|E] «[GetFaithDoctrine('tenet_ancestor_worship').GetBaseName]»:"
  pilgrimage_learn_from_the_bishops: "Попытка понять святых учителей"
  pilgrimage_learn_from_the_bishops_success: "Вы впитываете знания"
- pilgrimage_learn_from_the_bishops_failure: "Знания все еще ускользают от вас"
+ pilgrimage_learn_from_the_bishops_failure: "Знания всё ещё ускользают от вас"
  #Tenet event piousness
  pilgrimage_piousness_because_i_have_tenet_armed_pilgrimages: "Потому что [Concept( 'core_tenet', 'догмат' )|E] вашей [Concept( 'faith', 'конфессии' )|E] — [GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]:\n$EFFECT_LIST_BULLET$$pilgrimage_pious_type_tt_positive$\n"
  pilgrimage_piousness_because_i_have_tenet_struggle_submission: "Потому что [Concept( 'core_tenet', 'догмат' )|E] вашей [Concept( 'faith', 'конфессии' )|E] — [GetFaithDoctrine('tenet_struggle_submission').GetBaseName]:\n$EFFECT_LIST_BULLET$$pilgrimage_pious_type_tt_positive$\n"
