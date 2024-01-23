@@ -138,7 +138,7 @@
  ek_new_life.0016.a:0 "Я опробую свои силы во взломе замков!"
  ek_new_life.0016.a.success:0 "Вы вовремя взламываете замки и достаёте монеты"
  ek_new_life.0016.a.failure:0 "Кто-то другой заполучает монеты первым"
- ek_new_life.0016.b:0 "Я выхвачу приз прямо из рук персонажа [lockpicker.GetFirstNamePossessive]!"
+ ek_new_life.0016.b:0 "[lockpicker.GetFirstNamePossessive] и не заметит, как я выхвачу приз из [Select_CString(lockpicker.IsFemale, 'её', 'его' )] рук!"
  ek_new_life.0016.b.success:0 "[lockpicker.GetFirstNameNoTooltip] так и не [Select_CString(lockpicker.IsFemale, 'поняла', 'понял' )], что произошло"
  ek_new_life.0016.b.failure:0 "Вас поймали с поличным"
  ek_new_life.0016.c:0 "Я просто посмотрю."
