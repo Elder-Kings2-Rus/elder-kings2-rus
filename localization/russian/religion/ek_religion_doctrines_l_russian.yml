@@ -1099,7 +1099,7 @@
  ## Communal / Cultural Identity
  doctrine_cultural_identity_name:0 "Культурная идентичность"
  doctrine_cultural_identity_none_name:0 "Отсутствие культурных связей"
-    doctrine_cultural_identity_none_desc:0 "Наши обряды и верования могут быть доступны любому существу, независимо от его наследия. По-настоящему важно лишь то, в кого и во что они верят."
+    doctrine_cultural_identity_none_desc:0 "Наши обряды и верования могут быть доступны всем и каждому, независимо от их наследия. По-настоящему важно лишь то, в кого и во что они верят."
  doctrine_cultural_identity_heritage_name:0 "Идентичность наследия"
     doctrine_cultural_identity_heritage_desc:0 "Наша культура развивалась бок о бок с нашей верой, и они связаны друг с другом. Посторонние могут изучать наши обряды и интегрировать нашу веру, но они должны понимать, что наши верования были составлены без них."
     ASK_FOR_CONVERSION_CULTURAL_IDENTITY_HERITAGE:1 "[faith|E] персонажа [recipient.GetShortUIName|U] тесно связана с [recipient.GetHerHis] #L [recipient.GetCulture.GetHeritage.GetName|l]им#! [Concept( 'heritage', 'наследием' )|E]: $VALUE|=+0$"

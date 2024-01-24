@@ -137,7 +137,8 @@
  
  #culture_parameter_fairness_valued:0 "[characters|E] с личностью [GetTrait('just').GetName( GetNullCharacter )] вызывают восхищение, в то время как свойства личности [GetTrait('sadistic').GetName( GetNullCharacter )] и [GetTrait('arbitrary').GetName( GetNullCharacter )] презираются" # Scorg. Для традиции 'Пограничные рыцари'.
  # Для аспекта закона. Scorg.
- #devotion_gives_tyranny_reduction_vassal_opinion_0:0 "Уровень набожности (аспект закона)"
+ devotion_gives_tyranny_reduction_vassal_opinion_0:0 "$devotion_gives_tyranny_reduction_vassal_opinion$: (0)"
+ devotion_gives_tyranny_reduction_vassal_opinion_0_desc:0 "$devotion_gives_tyranny_reduction_vassal_opinion_desc$"
  #devotion_gives_tyranny_reduction_vassal_opinion_1:0 "Уровень набожности (аспект закона)"
  #devotion_gives_tyranny_reduction_vassal_opinion_2:0 "Уровень набожности (аспект закона)"
  #devotion_gives_tyranny_reduction_vassal_opinion_3:0 "Уровень набожности (аспект закона)"
@@ -222,4 +223,4 @@
  modifier_spell_spread_vitality_common:0 "Распространение жизненной силы"
  modifier_spell_spread_vitality_greater:0 "Распространение жизненной силы"
  modifier_spell_spread_vitality_grand:0 "Распространение жизненной силы"
- holy_site_hs_quistrelle_effect_name:0 "Квистрелль"
+ holy_site_hs_quistrelle_name:0 "Квистрелль"
