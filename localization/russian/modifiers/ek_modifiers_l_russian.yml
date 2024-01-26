@@ -278,12 +278,12 @@
  academy_government_tax_contribution_mult:1 "[modifier_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept( 'academy', 'академий' )|E]"
 
  hierocracy_government_opinion:0 "Мнение [Concept( 'hierocracy', 'иерократического' )|E] правителя"
- hierocracy_government_tax_contribution_add:1 "[modifier_base_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept( 'academy', 'академий' )|E]" #иерократов?
- hierocracy_government_tax_contribution_mult:1 "[modifier_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept( 'academy', 'академий' )|E]" #иерократов?
+ hierocracy_government_tax_contribution_add:1 "[modifier_base_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept( 'hierocracy', 'иерократов' )|E]" #ошибка разрабов academy?
+ hierocracy_government_tax_contribution_mult:1 "[modifier_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept( 'hierocracy', 'иерократов' )|E]" #ошибка разрабов academy?
 
  autocracy_government_opinion:0 "Мнение [Concept( 'autocracy', 'автократического' )|E] правителя"
- autocracy_government_tax_contribution_add:1 "[modifier_base_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept( 'academy', 'академий' )|E]" #автократов?
- autocracy_government_tax_contribution_mult:1 "[modifier_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept( 'academy', 'академий' )|E]"
+ autocracy_government_tax_contribution_add:1 "[modifier_base_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept( 'autocracy', 'автократов' )|E]" #ошибка разрабов academy?
+ autocracy_government_tax_contribution_mult:1 "[modifier_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept( 'autocracy', 'автократов' )|E]" #ошибка разрабов academy?
 
  praxis_government_opinion:0 "Мнение [Concept('ceremoniarchy', 'церемониархического')|E] правителя"
  praxis_government_tax_contribution_add:1 "[modifier_base_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept('ceremoniarchy','церемониархов')|E]"
