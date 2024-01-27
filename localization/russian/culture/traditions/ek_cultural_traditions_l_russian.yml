@@ -490,7 +490,7 @@
  tradition_wrothgarian_core_trigger_desc:0 "Имеет #V бретонское#! [heritage|El], либо является #V $wrothgarian_collective_noun$#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $wrothgarian_collective_noun$#!, которая не имеет [Concept('tradition', 'традиции')|E] [GetCultureTradition('tradition_mountain_homes').GetName|V]."
  tradition_khajiit_trigger_desc:0 "Имеет #V каджитское#! [heritage|El]" #$Khajiiti$
  cannot_have_tradition_festivities:0 "Не имеет [GetCultureTradition('tradition_festivities').GetName|V]"
- tradition_nedic_trigger_desc:0 "Имеет либо #V северно-недийское#!, #V центрально-недийское#! #italic или#! #V южно-недийское#! [heritage|El]." #$North Nedic$, $Central Nedic$, $South Nedic$
+ tradition_nedic_trigger_desc:0 "Имеет либо #V северо-недийское#!, #V центрально-недийское#! #italic или#! #V южно-недийское#! [heritage|El]." #$North Nedic$, $Central Nedic$, $South Nedic$
  tradition_moonsugar_plantations_trigger_desc:0 "Является #V $pellitinian_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $pellitinian_collective_noun$ой.#!"
  tradition_beasts_of_war_trigger_desc:0 "Является #V $anequinan_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $anequinan_collective_noun$ой.#!"
  tradition_land_dredge_trigger_desc:0 "Имеет #V южно-недийское#! [heritage|El]" #$South Nedic$
@@ -507,11 +507,11 @@
  tradition_remnant_kings_trigger_desc:0 "Имеет #V айлейдское#! [heritage|El] и не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_kings_in_exile').GetName|V], [GetCultureTradition('tradition_heartland_high_elves').GetName|V] #italic или#! [GetCultureTradition('tradition_ceremoniarchy').GetName|V]"
  tradition_kings_in_exile_trigger_desc:0 "Имеет #V айлейдское#! [heritage|El] и не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_remnant_kings').GetName|V], [GetCultureTradition('tradition_heartland_high_elves').GetName|V] #italic или#! [GetCultureTradition('tradition_ceremoniarchy').GetName|V]"
  tradition_heartland_high_elves_trigger_desc:0 "Имеет #V айлейдское#! [heritage|El], и не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_kings_in_exile').GetName|V], [GetCultureTradition('tradition_remnant_kings').GetName|V] #italic или#! [GetCultureTradition('tradition_ceremoniarchy').GetName|V]"
- tradition_reach_core_trigger_desc:0 "Имеет #V северно-недийское#! [heritage|El], либо является #V $reachfolk_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $reachfolk$ой#!" #$North Nedic$
+ tradition_reach_core_trigger_desc:0 "Имеет #V северо-недийское#! [heritage|El], либо является #V $reachfolk_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $reachfolk$ой#!" #$North Nedic$
  tradition_abecean_piracy_trigger_desc:0 "[culture|E] должна быть представлена в [Concept('region', 'регионе')|E] [GetGeographicalRegion('mundus_tamriel_hammerfell_abecee').GetName] и не иметь [Concept('tradition', 'традиции')|E] [GetCultureTradition('tradition_practiced_pirates').GetName|V]"
  tradition_life_menders_trigger_desc:0 "[culture|E] должна иметь [Concept('innovation', 'инновацию')|E] #V $innovation_black_marsh_natives$#!"
  tradition_witchcraft_accepted_trigger_desc:0 "Ваша [faith|E] имеет [Concept('doctrine', 'доктрину')|E] [GetFaithDoctrine('doctrine_witchcraft_accepted').GetBaseName]"
- tradition_soulbound_defenders_trigger_desc:0 "Имеет #V северно-недийское#! #italic или#! #V центрально-недийское#! [heritage|El]" #$North Nedic$ $Central Nedic$
+ tradition_soulbound_defenders_trigger_desc:0 "Имеет #V северо-недийское#! #italic или#! #V центрально-недийское#! [heritage|El]" #$North Nedic$ $Central Nedic$
  tradition_goblinken_trigger_desc:0 "Имеет #V гоблин-кинское#! [heritage|El]" #$Goblinken$
  tradition_chimeri_trigger_desc:0 "Имеет #V кимерское#! [heritage|El]" #$Chimeri$
  tradition_hereditary_hierarchy_trigger_desc:0 "У вас должно быть [feudal_like_government|El]"
