@@ -527,7 +527,7 @@
  tradition_cyrodiilic_core_trigger_desc:0 "Имеет #V сиродильское#! [heritage|El] и не имеет [Concept( 'tradition', 'традицию' )|E] [GetCultureTradition('tradition_ut_nibenu_folklore').GetName|V]."
  cyrodiil_empire_percentage_desc:0 "#V 50%#! [Concept( 'counties', 'графств' )|E] этой [Concept( 'culture', 'культуры' )|E] не находятся в провинции Сиродил"
  tradition_foothill_paddocks_trigger_desc:0 "Имеет #V сиродильское#! [heritage|El] и не имеет [Concept( 'tradition', 'традицию' )|E] [GetCultureTradition('tradition_hit_and_run').GetName|V]."
- tradition_tsaesci_core_trigger_desc:0 "Имеет #V $цаэсское$#! [heritage|El] и не имеет [Concept( 'tradition', 'традицию' )|E] [GetCultureTradition('tradition_cutthroat_politics').GetName|V]."
+ tradition_tsaesci_core_trigger_desc:0 "Имеет #V цаэсское#! [heritage|El] и не имеет [Concept( 'tradition', 'традицию' )|E] [GetCultureTradition('tradition_cutthroat_politics').GetName|V]."
  
  tradition_cyrodiil_legacy_trigger_desc:0 "Не имеет #V сиродильского#! [heritage|El] и владеет империей Тамриэль или Сиродил в качестве основного титула."
 
