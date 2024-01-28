@@ -180,4 +180,8 @@
  single_combat.0031.b: "Сдаюсь! Сдаюсь!"
  nick_the_bastard_rumoured:0 "Возможный бастард" #Scorg, прозвище из ваниллы. Нет ни на русском, ни на английском.
  fund_inspiration.2030.a: "«О! Спасибо, [friend.GetFirstNameNoTooltip]!»" #Scorg, нет пробела после запятой
+ wedding_invite_flavor_standard: "$invite_to_activity_flavor_wedding$ отпраздновать свадьбу. [ROOT.Char.GetInvolvedActivity.GetSpecialGuest('spouse_1').GetCharacter.GetFullName] и [ROOT.Char.GetInvolvedActivity.GetSpecialGuest('spouse_2').GetCharacter.GetFullName] собираются заключить брак и уже выбрали место — это [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName].\n" #Scorg, дважды spouse_2 прописано
+ cultural_festival.4100.b: "[inconsiderate_character_scope.GetNameNoTooltip] заслуживает, чтобы [Select_CString(inconsiderate_character_scope.IsFemale, 'ее', 'его' )] отчитали на глазах у собравшихся!" #Scorg, ее/его не к тому персонажу относилось
+ b_amol: "Амол" #Scorg, перезапись титула из ванилы
+ c_amol: "Амол" # аналогично
  
