@@ -14,7 +14,7 @@
  ek_steward_task.0001.desc.ending_orsinium_orcs:0 "\n\nСотни орков со всего Тамриэля слышали о нашем новом и сильном Орсиниуме, и мы едва можем сдерживать наплыв воинов и мигрантов, желающих помочь восстановить город орочьего рода."
  ek_steward_task.0001.desc.ending:0 "\n\nПоселенцы из различных поселений и городов готовы начать новую жизнь в графстве [county.GetNameNoTier], и большинство из них просто ждут нашего одобрения."
  ek_steward_task.0001.orcs_orsinium:0 "#L [own_culture.GetCollectiveNoun]ий#! народ всегда рады видеть в Орсиниуме!"
- ek_steward_task.0001.convert_orcs_orsinium_tooltip:0 "Из-за [Concept( 'tradition', 'традиции' )|E] #V Жители Потерянного Орсиниума#! мы можем преобразовать культуру провинций в де-юре пределах Королевства Орсиниум, как если бы мы были местными [Concept( 'native', 'коренными жителями' )|E]."
+ ek_steward_task.0001.convert_orcs_orsinium_tooltip:0 "Из-за [Concept( 'tradition', 'традиции' )|E] #V Обитатели утраченного Орсиниума#! мы можем преобразовать культуру провинций в де-юре пределах королевства Орсиниум, как если бы мы были местными [Concept( 'native', 'коренными жителями' )|E]."
  ek_steward_task.0001.own_culture:0 "Мы должны поселить наш народ здесь."
  ek_steward_task.0001.convert_own_culture_tooltip:0 "Мы начнём работать над сменой [Concept( 'culture', 'культуры' )|E] графства [county.GetNameNoTier] на #L [own_culture.GetCollectiveNoun|l]ую#!"
  ek_steward_task.0001.own_culture_not_native_tooltip:0 "Так как наша [Concept( 'culture', 'культура' )|E] #r не#! [Concept( 'native', 'коренная' )|E] для региона, наши усилия по преобразованию будут значительно замедлены."
