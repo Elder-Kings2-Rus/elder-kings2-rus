@@ -168,7 +168,7 @@
  doctrine_main_pantheon_type_daedric_prince_name:0 "Даэдрический монолатризм"
     doctrine_main_pantheon_type_daedric_prince_desc:0 "#LORE [compendium_daedric_princes]#! одновременно пугающи и могущественны. Хотя некоторые осмеливаются заключить с ними множество сделок, мудрее будет посвятить себя одному принцу и поклоняться ему всем сердцем."
     #doctrine_parameter_uses_daedric_prince_focus_active:0 "We will be able to dedicate our faith to a #LORE [compendium_daedric_prince]#!. By doing so we will get access to stronger, and cheaper, [daedric_boons|E], and even be able to summon powerful Daedric invasions or claim a Prince's artifact."
-    doctrine_parameter_uses_daedric_prince_focus_active:0 "Мы сможем посвятить нашу веру единственному #LORE [Concept( 'compendium_daedric_prince', 'даэдрическому принцу' )|E]#! и верующие смогут сделать его своим [Concept( 'patron', 'покровителем' )|E]."
+    doctrine_parameter_uses_daedric_prince_focus_active:0 "Мы сможем посвятить нашу веру единственному #LORE [Concept( 'compendium_daedric_prince', 'князю даэдра' )|E]#! и верующие смогут сделать его своим [Concept( 'patron', 'покровителем' )|E]."
  doctrine_main_pantheon_type_monolatrism_name:0 "Монолатризм"
     doctrine_main_pantheon_type_monolatrism_desc:0 "В мире может быть множество божеств, но мы признаем только слово нашего истинного бога. Мы вознесемся благодаря нашей вере и преданности."
     doctrine_parameter_uses_monolatry_aspect_active:0 "Мы сможем выбрать как божество, так и аспект. Аспект даёт заранее определённый бонус всем верующим, зависящий от их [Concept( 'piety_level', 'уровня набожности' )|E].#!"
@@ -318,7 +318,7 @@
     doctrine_sp_daedra_vaermina_name:0 "Вермина"
     doctrine_sp_daedra_vaermina_desc:0 ""
  doctrine_sp_atmoran_totems_name:0 "Атморские тотемы #italic [Concept( 'secondary', 'второстепенные' )|E]#!"
-    doctrine_sp_atmoran_totems_desc:0 "Древние норды называли Атмору 'Землёй Истины' и принесли с собой в Тамриэль своих старых божеств-зверей. Эти старые традиции и почти забытые воспоминания должны быть возрождены и воплощены в наших собственных обычаях."
+    doctrine_sp_atmoran_totems_desc:0 "Древние норды называли Атмору «Землёй Истины» и принесли с собой в Тамриэль своих старых божеств-зверей. Эти старые традиции и почти забытые воспоминания должны быть возрождены и воплощены в наших собственных обычаях."
     doctrine_parameter_atmoran_totems_pantheon_syncretism:0 "Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -15#! с [Concept('faiths', 'конфессиями')|E], у которых имеется доктрина [Concept('pantheon', 'пантеона')|E] [GetFaithDoctrine('doctrine_pantheon_atmoran_totems').GetBaseName]"
     doctrine_sp_at_hawk_name:0 "Ястреб"
     doctrine_parameter_pantheon_adds_deity_hawk:0 "Адепты могут принять Ястреба как своего [Concept( 'patron', 'покровителя' )|E] и получить свойство [GetTrait('p_at_hawk').GetName( GetNullCharacter )]"
@@ -848,7 +848,7 @@
     doctrine_parameter_pantheon_adds_deities_thousand_cults:0 "Добавит следующие культы в [pantheon|El]: Культ Ака, Культ Потерянного, Культ Земли, Культ Мотылька Предка, Культ Богов-зверей, Культ Любви, Культ Гильдий, Культ Небес"
     doctrine_pantheon_thousand_cults_desc:0 "Воздайте хвалу Тысяче Богов Долины, ибо их Культы укрывают наши души в этой и последующей жизни."
  doctrine_pantheon_reman_name:0 "Реман"
-    doctrine_pantheon_reman_desc:0 "Реман 'Свет Людей' Сиродил был драконорожденным героем #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#! и основателем Второй империи Тамриэля. Первыми его начали почитать побеждённые им захватчики-акавирцы, которые пришли в Тамриэль в поисках того, в чьих жилах течёт драконья кровь. Однако с тех пор эта вера распространилось среди коренного населения."
+    doctrine_pantheon_reman_desc:0 "Реман «Свет Людей» Сиродил был драконорожденным героем #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#! и основателем Второй империи Тамриэля. Первыми его начали почитать побеждённые им захватчики-акавирцы, которые пришли в Тамриэль в поисках того, в чьих жилах течёт драконья кровь. Однако с тех пор эта вера распространилось среди коренного населения."
  doctrine_pantheon_ancestor_moth_name:0 "Мотыльки Предка"
     doctrine_pantheon_ancestor_moth_desc:0 "Мотыльки Предка — редкий вид мотыльков, которые, по мнению некоторых жителей Сиродила и южного Скайрима, говорят голосами мёртвых."
  doctrine_pantheon_nedic_aedra_name:0 "Недийский пантеон"
@@ -871,7 +871,7 @@
  special_doctrine_cyrodiilic_cult_name:0 "Сиродильский культ"
     special_doctrine_cyrodiilic_cult_desc:0 "Культы Сиродила сосуществовали на протяжении тысячелетия и имеют общую историю. Каждый культ почитает #LORE [compendium_aedra]#! или богов по-своему, и Сиродил только выигрывает от такого широкого спектра традиций и ритуалов."
  special_doctrine_khajiit_doctrine_name:0 "Анурр и Фадомай"
-    special_doctrine_khajiit_doctrine_desc:0 "Каджиты не видят особой разницы в духах, которых чужеземцы называют "#LORE [compendium_aedra]#!" и "#LORE [compendium_daedra]#!". На самом деле, все духи имеют общее происхождение - они дети Анурра и Фадомай. Благодаря такой точке зрения, поклонение божествам, к которым прочие отнеслись бы с отвращением, приобретает у каджитов благотворные и безобидные черты, отчего даже самые ревностные последователи #LORE [Concept( 'compendium_divines', 'Божеств' )|E]#! не называют каджитов "даэдрапоклонниками"."
+    special_doctrine_khajiit_doctrine_desc:0 "Каджиты не видят особой разницы в духах, которых чужеземцы называют "#LORE [compendium_aedra]#!" и "#LORE [compendium_daedra]#!". На самом деле, все духи имеют общее происхождение - они дети Анурра и Фадомай. Благодаря такой точке зрения, поклонение божествам, к которым прочие отнеслись бы с отвращением, приобретает у каджитов благотворные и безобидные черты, отчего даже самые ревностные последователи #LORE [Concept( 'compendium_divines', 'Божеств' )|E]#! не называют каджитов «даэдрапоклонниками»."
  doctrine_parameter_faith_hostility_reduction:0 "Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -25#! с [Concept('faiths', 'конфессиями')|E], которые используют эту же [Concept('doctrine', 'доктрину')|E]"
  doctrine_parameter_faith_hostility_khajiit_reduction:0 "Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -15#! с [Concept('faiths', 'конфессиями')|E], которые принадлежат к [Concept('religious_family', 'религиозной концепции')|E] [GetReligionFamily('rf_aedra').GetName]"
  doctrine_parameter_kept_on_faith_creation:0 "Сохраняется при создании новой [Concept('faiths', 'конфессии')|E]"
@@ -889,7 +889,7 @@
     doctrine_parameter_pantheon_adds_deities_green_pact:0 "Добавит следующих покровителей в [pantheon|El]: Аури-Эль, Баан-Дар, Мара, Стендарр, Заркс, З'ен, И'ффре"
     doctrine_parameter_green_pact_hostility:0 "При расчёте [Concept('faith_hostility', 'враждебности')|E] этого  [Concept('pantheon', 'пантеона')|E], она будет идентичной конфессиям с доктриной [GetFaithDoctrine('doctrine_pantheon_wilderking').GetBaseName]"
  doctrine_pantheon_wilderking_name:0 "Лесной король"
-    doctrine_pantheon_wilderking_desc:0 "Лесной король безграничен. Войди во двор и склонись перед его троном. Опасайся гнева его Лощины. Всегда уважай землю, ибо она и Лесной король - одно и то же."
+    doctrine_pantheon_wilderking_desc:0 "Лесной король безграничен. Войди во двор и склонись перед его троном. Опасайся гнева его Полых. Всегда уважай землю, ибо она и Лесной король - одно и то же."
     wilderking_custom_faith_blocker:0 "Только Лесной король может установить свой закон"
     doctrine_parameter_wilderking_hostility:0 "При расчёте [Concept('faith_hostility', 'враждебности')|E] этого  [Concept('pantheon', 'пантеона')|E], она будет идентичной конфессиям с доктриной [GetFaithDoctrine('doctrine_pantheon_green_pact').GetBaseName]"
  # Yokudan
@@ -899,7 +899,7 @@
  doctrine_pantheon_herd_mother_name:0 "Матерь Табуна"
     doctrine_pantheon_herd_mother_desc:0 "Матерь Табуна защищала нас и наших лошадей на протяжении многих поколений, как на Старых островах, так и в Тамриэле. Она будет направлять нас и присматривать за нами."
  ## Daedric
-  creating_faith_has_several_daedric_princes_pantheon_trigger:0 "Нельзя добавить больше одного #LORE [compendium_daedra]#! в 'Пантеон' в вашей [Concept( 'doctrine', 'доктрине' )|E] относительно даэдрических принцев"
+  creating_faith_has_several_daedric_princes_pantheon_trigger:0 "Нельзя добавить больше одного #LORE [compendium_daedra]#! в «Пантеон» в вашей [Concept( 'doctrine', 'доктрине' )|E] относительно князей даэдра"
  doctrine_hidden_daedra_blanket_name:0 "Скрытая доктрина: Поклонение даэдра"	
  doctrine_hidden_daedra_allowed_name:0 "Скрытая доктрина: Поклонение даэдра приемлемо"	
     doctrine_hidden_daedra_allowed_desc:0 "Вы не должны видеть это в игре. Если вы это увидите, то сообщите об ошибке!"	
@@ -928,16 +928,16 @@
     doctrine_pantheon_clavicus_desc:0 "Мы впервые склонились перед Повелителем Пагубных Желаний много лет назад. С тех пор князь Обмана направляет нас и позволяет нам процветать. Мы докажем, что достойны Полей Сожалений, и распространим учение Клавикуса Вайла в мире."
     doctrine_parameter_worship_clavicus_focused_active:0 "Разрешает [Concept( 'focused', 'сосредоточенное' )|E] поклонение даэдра по имени $clavicus$, что предоставляет более мощные и дешёвые [daedric_boons|El], и более эффективные [daedric_sacrifices|El]."
  doctrine_pantheon_hermaeus_name:0 "Хермеус Мора"
-    doctrine_pantheon_hermaeus_desc:0 "Учения Принца Знаний и Невидимого Знающего помогли нам вырезать наши первые руны и создать наши первые общины. Самые достойные из нас встретятся в Апокрифе, где обитает наш принц."
+    doctrine_pantheon_hermaeus_desc:0 "Учения Принца Знаний и Невидимого Знающего помогли нам вырезать наши первые руны и создать наши первые общины. Самые достойные из нас встретятся в Апокрифе, где обитает наш князь."
     doctrine_parameter_worship_hermaeus_focused_active:0 "Разрешает [Concept( 'focused', 'сосредоточенное' )|E] поклонение даэдра по имени $hermaeus$, что предоставляет более мощные и дешёвые [daedric_boons|El], и более эффективные [daedric_sacrifices|El]."
  doctrine_pantheon_hircine_name:0 "Хирсин"
-    doctrine_pantheon_hircine_desc:0 "Принц Охоты и Отец Оборотней вёл нас с тех пор, как мы впервые появились на этой земле. Мы посвятим себя ему и однажды окажемся в его Охотничьих Угодьях."
+    doctrine_pantheon_hircine_desc:0 "Князь Охоты и Отец Оборотней вёл нас с тех пор, как мы впервые появились на этой земле. Мы посвятим себя ему и однажды окажемся в его Охотничьих Угодьях."
     doctrine_parameter_worship_hircine_focused_active:0 "Разрешает [Concept( 'focused', 'сосредоточенное' )|E] поклонение даэдра по имени $hircine$, что предоставляет более мощные и дешёвые [daedric_boons|El], и более эффективные [daedric_sacrifices|El]."
  doctrine_pantheon_malacath_name:0 "Малакат"
-    doctrine_pantheon_malacath_desc:0 "Веками нас сторонились и считали изгоями те, кого мы когда-то называли братьями и сестрами. Принц Отвергнутых взял нас под свою защиту и с тех пор оберегает нас."
+    doctrine_pantheon_malacath_desc:0 "Веками нас сторонились и считали изгоями те, кого мы когда-то называли братьями и сестрами. Князь Отвергнутых взял нас под свою защиту и с тех пор оберегает нас."
     doctrine_parameter_worship_malacath_focused_active:0 "Разрешает [Concept( 'focused', 'сосредоточенное' )|E] поклонение даэдра по имени $malacath$, что предоставляет более мощные и дешёвые [daedric_boons|El], и более эффективные [daedric_sacrifices|El]."
  doctrine_pantheon_mehrunes_name:0 "Мерунес Дагон"
-    doctrine_pantheon_mehrunes_desc:0 "Мы посвящаем себя самому Принцу Разрушения. Здесь и в Мёртвых Землях мы будем блюсти его учение и нести хаос и перемены в миры."
+    doctrine_pantheon_mehrunes_desc:0 "Мы посвящаем себя самому Князю Разрушения. Здесь и в Мёртвых Землях мы будем блюсти его учение и нести хаос и перемены в миры."
     doctrine_parameter_worship_mehrunes_focused_active:0 "Разрешает [Concept( 'focused', 'сосредоточенное' )|E] поклонение даэдра по имени $mehrunes$, что предоставляет более мощные и дешёвые [daedric_boons|El], и более эффективные [daedric_sacrifices|El]."
  doctrine_pantheon_mephala_name:0 "Мефала"
     doctrine_pantheon_mephala_desc:0 "Королева Лжи научила нас выживать в этом суровом мире, что не прощает ошибок. Мы будем распространять её учение и чтить её имя, даже если мир отвергнет само наше существование."
@@ -946,10 +946,10 @@
     doctrine_pantheon_meridia_desc:0 "Мы веками купались в Свете Госпожи Бесконечных Энергий. Она будет сиять над миром до тех пор, пока мы продолжаем дышать."
     doctrine_parameter_worship_meridia_focused_active:0 "Разрешает [Concept( 'focused', 'сосредоточенное' )|E] поклонение даэдра по имени $meridia$, что предоставляет более мощные и дешёвые [daedric_boons|El], и более эффективные [daedric_sacrifices|El]."
  doctrine_pantheon_molag_name:0 "Молаг Бал"
-    doctrine_pantheon_molag_desc:0 "Разум слабаков будет сокрушён, когда мы распространим силу Принца Господства над этим миром. Те, кто достаточно достоин, будут служить нашему господину на смертном плане и в Хладной Гавани."
+    doctrine_pantheon_molag_desc:0 "Разум слабаков будет сокрушён, когда мы распространим силу Князя Порабощения над этим миром. Те, кто достаточно достоин, будут служить нашему господину на смертном плане и в Хладной Гавани."
     doctrine_parameter_worship_molag_focused_active:0 "Разрешает [Concept( 'focused', 'сосредоточенное' )|E] поклонение даэдра по имени $molag$, что предоставляет более мощные и дешёвые [daedric_boons|El], и более эффективные [daedric_sacrifices|El]."
  doctrine_pantheon_namira_name:0 "Намира"
-    doctrine_pantheon_namira_desc:0 "На протяжении тысячелетий мы игнорировались обществом и были вынуждены жить под землей. Мы процветаем, внушая отвращения, и наш Принц одаривает нас мором и убожествами."
+    doctrine_pantheon_namira_desc:0 "На протяжении тысячелетий мы игнорировались обществом и были вынуждены жить под землей. Мы процветаем, внушая отвращения, и наш Князь одаривает нас мором и убожествами."
     doctrine_parameter_worship_namira_focused_active:0 "Разрешает [Concept( 'focused', 'сосредоточенное' )|E] поклонение даэдра по имени $namira$, что предоставляет более мощные и дешёвые [daedric_boons|El], и более эффективные [daedric_sacrifices|El]."
  doctrine_pantheon_nocturnal_name:0 "Ноктюрнал"
     doctrine_pantheon_nocturnal_desc:0 "Пение осталось, но песня ушла. Нет мелодии, нет музыки, но шёпот правит ритмом. Служи ей, будь тенью, будь шёпотом. Просачиваюсь, ползу, но не могу сбежать. Я пойман тьмой, смолой, что цепляется за мои одежды. Я говорю, но я молчу. Я вижу, но я слеп. Слеп, так слеп ко всему помимо её воли."
@@ -958,16 +958,16 @@
     doctrine_pantheon_peryite_desc:0 "Мы служим Надсмотрщику и Повелителю Мора. Каждая болезнь — это благословение, каждая инфекция — прикосновение божественного. И в этом мире, и в Ямах мы служим нашему Повелителю."
     doctrine_parameter_worship_peryite_focused_active:0 "Разрешает [Concept( 'focused', 'сосредоточенное' )|E] поклонение даэдра по имени $peryite$, что предоставляет более мощные и дешёвые [daedric_boons|El], и более эффективные [daedric_sacrifices|El]."
  doctrine_pantheon_sanguine_name:0 "Сангвин"
-    doctrine_pantheon_sanguine_desc:0 "Принц Кутежа в той или иной форме был частью множества культур на протяжении многих поколений. Вполне естественно служить ему и поддерживать его учение. Как в этом мире, так и в следующем."
+    doctrine_pantheon_sanguine_desc:0 "Князь Кутежа в той или иной форме был частью множества культур на протяжении многих поколений. Вполне естественно служить ему и поддерживать его учение. Как в этом мире, так и в следующем."
     doctrine_parameter_worship_sanguine_focused_active:0 "Разрешает [Concept( 'focused', 'сосредоточенное' )|E] поклонение даэдра по имени $sanguine$, что предоставляет более мощные и дешёвые [daedric_boons|El], и более эффективные [daedric_sacrifices|El]."
  doctrine_pantheon_sheogorath_name:0 "Шеогорат"
-    doctrine_pantheon_sheogorath_desc:0 "Там, где многие впадают в отчаяние, мы жаждем прикосновения Шеогората, Принца Безумия. И в этом мире, и на Дрожащих Островах мы ждём прикосновения нашего Владыки."
+    doctrine_pantheon_sheogorath_desc:0 "Там, где многие впадают в отчаяние, мы жаждем прикосновения Шеогората, Князя Безумия. И в этом мире, и на Дрожащих Островах мы ждём прикосновения нашего Владыки."
     doctrine_parameter_worship_sheogorath_focused_active:0 "Разрешает [Concept( 'focused', 'сосредоточенное' )|E] поклонение даэдра по имени $sheogorath$, что предоставляет более мощные и дешёвые [daedric_boons|El], и более эффективные [daedric_sacrifices|El]."
  doctrine_pantheon_vaermina_name:0 "Вермина"
     doctrine_pantheon_vaermina_desc:0 "Владычица Снов и Кошмаров сопровождает нас на каждом шагу нашей жизни. Как в повседневных делах, так и во сне. Она будет следить за нами и встретит нас в Трясине, когда придёт наше время."
     doctrine_parameter_worship_vaermina_focused_active:0 "Разрешает [Concept( 'focused', 'сосредоточенное' )|E] поклонение даэдра по имени $vaermina$, что предоставляет более мощные и дешёвые [daedric_boons|El], и более эффективные [daedric_sacrifices|El]."
- doctrine_pantheon_daedric_prince_no_softlock_name:0 "Избежание 'мягкой' блокировки"
-    doctrine_pantheon_daedric_prince_no_softlock_desc:0 "Выбор доктрины иногда может вызвать некоторые проблемы с нашей стороны, поэтому если вам по той или иной причине необходимо отказаться от Принца, вы можете воспользоваться этим.\n#warning НЕ ДОЛЖНО ИСПОЛЬЗОВАТЬСЯ ПРИ ОБЫЧНОЙ ИГРЕ#!"
+ doctrine_pantheon_daedric_prince_no_softlock_name:0 "Избежание «мягкой» блокировки"
+    doctrine_pantheon_daedric_prince_no_softlock_desc:0 "Выбор доктрины иногда может вызвать некоторые проблемы с нашей стороны, поэтому если вам по той или иной причине необходимо отказаться от Князя, вы можете воспользоваться этим.\n#warning НЕ ДОЛЖНО ИСПОЛЬЗОВАТЬСЯ ПРИ ОБЫЧНОЙ ИГРЕ#!"
  # Reach
  doctrine_pantheon_druadach_name:0 "Друадах"
     doctrine_pantheon_druadach_desc:0 "Мы живем в Друадахских горах уже тысячи лет. Там, где большинство видит лишь холодные горы, мы узнаём нашего божественного отца."
@@ -977,15 +977,15 @@
  # Velothi
  doctrine_pantheon_good_daedra_name:0 "Хорошие даэдра"
     doctrine_pantheon_good_daedra_desc:0 "Когда нас бросили, три хороших #LORE [compendium_daedra]#! — Азура, Боэтия и Мефала — защитили нас и указали нам путь вперёд."
-    doctrine_parameter_pantheon_unlocks_daedra_good_daedra:0 "Разблокирует возможность добавления следующих #LORE [compendium_daedra]#! в ваш [pantheon|El] c помощью [Concept( 'doctrines', 'доктрин' )|E] даэдрических принцев: Азура, Боэтия, Мефала"
+    doctrine_parameter_pantheon_unlocks_daedra_good_daedra:0 "Разблокирует возможность добавления следующих #LORE [compendium_daedra]#! в ваш [pantheon|El] c помощью [Concept( 'doctrines', 'доктрин' )|E] даэдрических князей: Азура, Боэтия, Мефала"
  doctrine_pantheon_bad_daedra_name:0 "Дом Забот"
     doctrine_pantheon_bad_daedra_desc:0 "Хорошие #LORE [compendium_daedra]#! — это лишь иллюзия. Лишь немногие принцы достаточно сильны, чтобы быть достойными нашего почитания."
-    doctrine_parameter_pantheon_unlocks_daedra_bad_daedra:0 "Разблокирует возможность добавления следующих #LORE [compendium_daedra]#! в ваш [pantheon|El] c помощью [Concept( 'doctrines', 'доктрин' )|E] даэдрических принцев: Малакат, Мерунес Дагон, Молаг Бал, Шеогорат"
+    doctrine_parameter_pantheon_unlocks_daedra_bad_daedra:0 "Разблокирует возможность добавления следующих #LORE [compendium_daedra]#! в ваш [pantheon|El] c помощью [Concept( 'doctrines', 'доктрин' )|E] даэдрических князей: Малакат, Мерунес Дагон, Молаг Бал, Шеогорат"
  doctrine_pantheon_tribunal_name:0 "АЛЬМСИВИ"
     doctrine_pantheon_tribunal_desc:0 "Трое вознеслись много веков назад и с тех пор направляют наш народ. Их свет будет сиять над нами до тех пор, пока мы будем хранить их в своём сердце."
     doctrine_parameter_pantheon_adds_deities_tribunal:0 "Добавит следующих покровителей в [pantheon|El]: Альмалексия, Сота Сил, Вивек"
  doctrine_pantheon_nerevar_name:0 "Неревар"
-    doctrine_pantheon_nerevar_desc:0 "Так называемые 'Три живых бога' украли свою силу после убийства Неревара, нашего великого ашхана. Мы не позволим этому остаться безнаказанным."
+    doctrine_pantheon_nerevar_desc:0 "Так называемые «Три живых бога» украли свою силу после убийства Неревара, нашего великого ашхана. Мы не позволим этому остаться безнаказанным."
  doctrine_pantheon_ten_ancestors_name:0 "Десять предков"
     doctrine_pantheon_ten_ancestors_desc:0 "Величие, Господство и Завоевание - истинные Регенты нашего мира. Вместе со своими Вассалами и Надсмотрщиком они составляют Десять предков, которых мы почитаем."
     doctrine_parameter_pantheon_unlocks_daedra_ten_ancestors:0 "Откроется возможность добавления следующих #LORE [compendium_daedra]#! в [pantheon|El], используя [doctrines|El] князей даэдра: Меридия, Мерунес Дагон, Молаг Бал, Хирсин, Сангвин, Мефала, Ноктюрнал, Вермина, Намира, Периайт"
@@ -1000,7 +1000,7 @@
    doctrine_parameter_pantheon_adds_deities_atmoran_totems:0 "Добавит следующих покровителей в [pantheon|El]: Ястреб, Волк, Змея, Мотылёк, Сова, Кит, Медведь, Лиса, Дракон"
  doctrine_pantheon_dragons_name:0 "Драконы"
    doctrine_pantheon_dragons_desc:0 "Первые дети богов, драконы — законные правители мира смертных. Они даруют частицу своей силы тем, кто им предан — и с помощью этой силы мы будем править этой землёй."
-   doctrine_parameter_can_use_summon_dragons_active:0 "Можно использовать [decision|El] #V 'Призвать драконов'#!"
+   doctrine_parameter_can_use_summon_dragons_active:0 "Можно использовать [decision|El] #V «Призвать драконов»#!"
    doctrine_parameter_devotion_gives_reduced_cost_summon_dragons_active:0 "Каждый уровень [Concept( 'piety_experience', 'набожности' )|E] даёт следующее:\n$TAB$ #P -10%#! к затратам [Concept( 'piety', 'благочестия' )|E] для использования решения #V 'Призвать драконов'#!"
  doctrine_pantheon_all_maker_name:0 "Все-Создатель"
    doctrine_pantheon_all_maker_desc:0 "Мы — дети Все-Создателя, который дал нам жизнь и землю. И когда придёт наше время, мы вернемся к нему — но только для того, чтобы быть посланными снова."
@@ -1061,14 +1061,14 @@
  # Necromantic
  doctrine_pantheon_mannimarco_name:0 "Король Червей"
     doctrine_pantheon_mannimarco_name_dead:0 "Бог Червей"
-    doctrine_pantheon_mannimarco_desc:0 "Лорд Маннимарко - некромант, настолько могущественный, что его последователи считают его, с религиозной и прагматической точки зрения, "Королём Червей". Его мастерство и амбиции настолько велики, что он стремится утвердить поклонение себе, захватив божественность."
-    doctrine_pantheon_mannimarco_desc_dead:0 "Лорд Маннимарко - некромант, настолько могущественный, что его последователи считают его, с религиозной и прагматической точки зрения, "Королём Червей". Его мастерство и амбиции настолько велики, что он вознёсся к божественности, став Богом Червей."
-    doctrine_pantheon_mannimarco_desc_lich:0 "Маннимарко - повелитель личей, настолько могущественный, что его последователи считают его, с религиозной и прагматической точки зрения, "Королём Червей". Его мастерство и амбиции настолько велики, что он хочет утвердить поклонение себе, захватив божественность, не довольствуясь обычным положением лича."
-    doctrine_pantheon_mannimarco_desc_lich_dead:0 "Лорд Маннимарко - повелитель личей, настолько могущественный, что его последователи считают его, с религиозной и прагматической точки зрения, "Королём Червей". Его мастерство и амбиции настолько велики, что он вознёсся от простого лича к божественности; он стал Богом Червей."
-    doctrine_pantheon_mannimarco_desc_vampire:0 "Кровавый лич Маннимарко - вампир-маг смерти. И настолько могущественный, что его последователи считают его, с религиозной и прагматической точки зрения, "Королём Червей". Не имея себе равных в жажде крови и мастерстве, Маннимарко намерен захватить само божество."
-    doctrine_pantheon_mannimarco_desc_vampire_dead:0 "Кровавый лич Маннимарко был настолько могущественным магом смерти, что его последователи почитали его как "Короля червей". Его мастерство и жажда крови настолько велики, что он вознёсся от простого вампира к божественности: он стал Богом Червей."
-    doctrine_pantheon_mannimarco_desc_immortal:0 "Бессмертный маг смерти лорд Маннимарко столь могущественен и искусен, что что его последователи считают его, с религиозной и прагматической точки зрения, "Королём Червей" Его амбиции могут посоперничать только с совершенством его тела, но даже этого недостаточно для гения некромантии. Маннимарко намерен возвыситься до самой божественности."
-    doctrine_pantheon_mannimarco_desc_immortal_dead:0 "Маг смерти Лорд Маннимарко, почитаемый своими последователями как "Король червей", достиг физического совершенства. Его бессмертное тело позволило ему достичь вершины некромантического искусства. Ему осталось достичь лишь божественности. Теперь его последователи греются в любви Бога Червей."
+    doctrine_pantheon_mannimarco_desc:0 "Лорд Маннимарко - некромант, настолько могущественный, что его последователи считают его, с религиозной и прагматической точки зрения, «Королём Червей». Его мастерство и амбиции настолько велики, что он стремится утвердить поклонение себе, захватив божественность."
+    doctrine_pantheon_mannimarco_desc_dead:0 "Лорд Маннимарко - некромант, настолько могущественный, что его последователи считают его, с религиозной и прагматической точки зрения, «Королём Червей». Его мастерство и амбиции настолько велики, что он вознёсся к божественности, став Богом Червей."
+    doctrine_pantheon_mannimarco_desc_lich:0 "Маннимарко - повелитель личей, настолько могущественный, что его последователи считают его, с религиозной и прагматической точки зрения, «Королём Червей». Его мастерство и амбиции настолько велики, что он хочет утвердить поклонение себе, захватив божественность, не довольствуясь обычным положением лича."
+    doctrine_pantheon_mannimarco_desc_lich_dead:0 "Лорд Маннимарко - повелитель личей, настолько могущественный, что его последователи считают его, с религиозной и прагматической точки зрения, «Королём Червей». Его мастерство и амбиции настолько велики, что он вознёсся от простого лича к божественности; он стал Богом Червей."
+    doctrine_pantheon_mannimarco_desc_vampire:0 "Кровавый лич Маннимарко - вампир-маг смерти. И настолько могущественный, что его последователи считают его, с религиозной и прагматической точки зрения, «Королём Червей». Не имея себе равных в жажде крови и мастерстве, Маннимарко намерен захватить само божество."
+    doctrine_pantheon_mannimarco_desc_vampire_dead:0 "Кровавый лич Маннимарко был настолько могущественным магом смерти, что его последователи почитали его как «Короля Червей». Его мастерство и жажда крови настолько велики, что он вознёсся от простого вампира к божественности: он стал Богом Червей."
+    doctrine_pantheon_mannimarco_desc_immortal:0 "Бессмертный маг смерти лорд Маннимарко столь могущественен и искусен, что что его последователи считают его, с религиозной и прагматической точки зрения, «Королём Червей». Его амбиции могут посоперничать только с совершенством его тела, но даже этого недостаточно для гения некромантии. Маннимарко намерен возвыситься до самой божественности."
+    doctrine_pantheon_mannimarco_desc_immortal_dead:0 "Маг смерти Лорд Маннимарко, почитаемый своими последователями как «Король Червей», достиг физического совершенства. Его бессмертное тело позволило ему достичь вершины некромантического искусства. Ему осталось достичь лишь божественности. Теперь его последователи греются в любви Бога Червей."
  doctrine_pantheon_ideal_masters_name:0 "Идеальные Повелители"
     doctrine_pantheon_ideal_masters_desc:0 "Идеальные Повелители — это таинственная группа духов, которые управляют Каирном Душ. В этой реальности они удерживают души для своих неизвестных целей."
  # Osh Ornim
@@ -1682,16 +1682,16 @@
  vaermina:0 "Вермина"
  vaermina_alt:0 "Королева Кошмаров"
  
- doctrine_parameter_adds_prince_pantheon_active:0 "Если [pantheon|E] [Concept( 'faith', 'конфессии' )|E] позволяет это, принц будет добавлен в список [Concept( 'patron_deities', 'божеств-покровителей' )|E]"
+ doctrine_parameter_adds_prince_pantheon_active:0 "Если [pantheon|E] [Concept( 'faith', 'конфессии' )|E] позволяет это, Князь будет добавлен в список [Concept( 'patron_deities', 'божеств-покровителей' )|E]"
  
  FAITH_MUST_ALLOW_DAEDRIC_PATRONS:0 "[faith|E] должна разрешать поклонение дополнительным божествам в рамках своего [Concept( 'pantheon', 'пантеона' )|E]"
- ASK_FOR_CONVERSION_ENFORCE_PRINCE_ILLEGAL:0 "Обращение в конфессию, принуждающую поклоняться #LORE [Concept( 'compendium_daedric_prince', 'даэдрическому принцу' )|E]#!, что считается [Concept( 'crime', 'преступлением' )|E] текущей конфессией: $VALUE|=+0$"
- ASK_FOR_CONVERSION_LEGALIZE_PRINCE_ILLEGAL:0 "Обращение в конфессию, позволяющую поклоняться #LORE [Concept( 'compendium_daedric_prince', 'даэдрическому принцу' )|E]#!, что считается [Concept( 'crime', 'преступлением' )|E] текущей конфессией: $VALUE|=+0$"
- ASK_FOR_CONVERSION_FORBID_PRINCE_PANTHEON:0 "Обращение в конфессию, запрещающую поклоняться #LORE [Concept( 'compendium_daedric_prince', 'даэдрическому принцу' )|E]#!, который является частью [Concept( 'pantheon', 'пантеона' )|E] их конфессии: $VALUE|=+0$"
- ASK_FOR_CONVERSION_DISCARD_PRINCE_PANTHEON:0 "Обращение в конфессию, отбрасывающую поклонение #LORE [Concept( 'compendium_daedric_prince', 'даэдрическому принцу' )|E]#!, который является частью [Concept( 'pantheon', 'пантеона' )|E] их конфессии: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_ENFORCE_PRINCE_ILLEGAL:0 "Обращение в конфессию, принуждающую поклоняться #LORE [Concept( 'compendium_daedric_prince', 'даэдрическому князю' )|E]#!, что считается [Concept( 'crime', 'преступлением' )|E] текущей конфессией: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_LEGALIZE_PRINCE_ILLEGAL:0 "Обращение в конфессию, позволяющую поклоняться #LORE [Concept( 'compendium_daedric_prince', 'даэдрическому князю' )|E]#!, что считается [Concept( 'crime', 'преступлением' )|E] текущей конфессией: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_FORBID_PRINCE_PANTHEON:0 "Обращение в конфессию, запрещающую поклоняться #LORE [Concept( 'compendium_daedric_prince', 'даэдрическому князю' )|E]#!, который является частью [Concept( 'pantheon', 'пантеона' )|E] их конфессии: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_DISCARD_PRINCE_PANTHEON:0 "Обращение в конфессию, отбрасывающую поклонение #LORE [Concept( 'compendium_daedric_prince', 'даэдрическому князю' )|E]#!, который является частью [Concept( 'pantheon', 'пантеона' )|E] их конфессии: $VALUE|=+0$"
  
  doctrine_azura_name:0 "$azura$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_AZURA:0 "Если 'князья даэдра' не выбраны в качестве основного пантеона, то $azura$ должна быть выбрана с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_esotericism').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_legalism').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_good_daedra').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_good_daedra').GetBaseName]\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_riddlethar').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_azura').GetBaseName] (Второстепенное божество пантеона)"
+ FAITH_MUST_ALLOW_PATRON_AZURA:0 "Если «князья даэдра» не выбраны в качестве основного пантеона, то $azura$ должна быть выбрана с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_esotericism').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_legalism').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_good_daedra').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_good_daedra').GetBaseName]\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_riddlethar').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_azura').GetBaseName] (Второстепенное божество пантеона)"
  doctrine_parameter_worship_azura_allowed_active:0 "Поклонение даэдра ( $azura$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]\n • [GetFaithDoctrine('doctrine_pantheon_good_daedra').GetBaseName]\n • [GetFaithDoctrine('doctrine_sp_good_daedra').GetBaseName]\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName]\n • [GetFaithDoctrine('doctrine_pantheon_riddlethar').GetBaseName]"
  doctrine_parameter_worship_azura_shunned_active:0 "Поклонение даэдра ( $azura$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_azura_criminal_active:0 "Поклонение даэдра ( $azura$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1706,7 +1706,7 @@
 
  
  doctrine_boethiah_name:0 "$boethiah$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_BOETHIAH:0 "Если 'князья даэдра' не выбраны в качестве основного пантеона, то $boethiah$ должна быть выбрана с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_unrelenting_faith').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_sacred_shadows').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_good_daedra').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_boethiah').GetBaseName] (Второстепенное божество пантеона)"
+ FAITH_MUST_ALLOW_PATRON_BOETHIAH:0 "Если «князья даэдра» не выбраны в качестве основного пантеона, то $boethiah$ должна быть выбрана с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_unrelenting_faith').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_sacred_shadows').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_good_daedra').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_boethiah').GetBaseName] (Второстепенное божество пантеона)"
  doctrine_parameter_worship_boethiah_allowed_active:0 "Поклонение даэдра ( $boethiah$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]"
  doctrine_parameter_worship_boethiah_shunned_active:0 "Поклонение даэдра ( $boethiah$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_boethiah_criminal_active:0 "Поклонение даэдра ( $boethiah$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1720,7 +1720,7 @@
     doctrine_boethiah_criminal_desc:0 "Вероломство князя даэдра, носящего имя $boethiah$, должно быть отвергнуто, чтобы создать истинно праведный мир."
 
  doctrine_clavicus_name:0 "$clavicus$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_CLAVICUS:0 "Если 'князья даэдра' не выбраны в качестве основного пантеона, то $clavicus$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_lifestyle_ste_faith').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_daedric_bargains').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_sp_daedra_clavicus').GetBaseName] (Второстепенное божество пантеона)"
+ FAITH_MUST_ALLOW_PATRON_CLAVICUS:0 "Если «князья даэдра» не выбраны в качестве основного пантеона, то $clavicus$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_lifestyle_ste_faith').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_daedric_bargains').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_sp_daedra_clavicus').GetBaseName] (Второстепенное божество пантеона)"
  doctrine_parameter_worship_clavicus_allowed_active:0 "Поклонение даэдра ( $clavicus$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]"
  doctrine_parameter_worship_clavicus_shunned_active:0 "Поклонение даэдра ( $clavicus$ ) [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_clavicus_criminal_active:0 "Поклонение даэдра ( $clavicus$ ) [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1734,7 +1734,7 @@
     doctrine_clavicus_criminal_desc:0 "Уловки, на которые идёт $clavicus$, приносят одни лишь несчастья. Те, кто добровольно взаимодействуют с ним, должны быть наказаны!"
  
  doctrine_hermaeus_name:0 "$hermaeus$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_HERMAEUS:0 "Если 'князья даэдра' не выбраны в качестве основного пантеона, то $hermaeus$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_lifestyle_lea_faith').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_hermaeus').GetBaseName] (Второстепенное божество пантеона)" 
+ FAITH_MUST_ALLOW_PATRON_HERMAEUS:0 "Если «князья даэдра» не выбраны в качестве основного пантеона, то $hermaeus$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_lifestyle_lea_faith').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_hermaeus').GetBaseName] (Второстепенное божество пантеона)" 
  doctrine_parameter_worship_hermaeus_allowed_active:0 "Поклонение даэдра ( $hermaeus$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName]"
  doctrine_parameter_worship_hermaeus_shunned_active:0 "Поклонение даэдра ( $hermaeus$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_hermaeus_criminal_active:0 "Поклонение даэдра ( $hermaeus$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1744,7 +1744,7 @@
  doctrine_hermaeus_criminal_name:0 "Преступление"
  
  doctrine_hircine_name:0 "$hircine$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_HIRCINE:0 "Если 'князья даэдра' не выбраны в качестве основного пантеона, то $hircine$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('doctrine_lycanthropy_accepted').GetBaseName] (Ликантропия)\n • [GetFaithDoctrine('tenet_lycanthrope_worship').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_ritual_hunts').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_sanctity_of_nature').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_riddlethar').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_hircine').GetBaseName] (Второстепенное божество пантеона)" 
+ FAITH_MUST_ALLOW_PATRON_HIRCINE:0 "Если «князья даэдра» не выбраны в качестве основного пантеона, то $hircine$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('doctrine_lycanthropy_accepted').GetBaseName] (Ликантропия)\n • [GetFaithDoctrine('tenet_lycanthrope_worship').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_ritual_hunts').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_sanctity_of_nature').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_riddlethar').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_hircine').GetBaseName] (Второстепенное божество пантеона)" 
  doctrine_parameter_worship_hircine_allowed_active:0 "Поклонение даэдра ( $hircine$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]"
  doctrine_parameter_worship_hircine_shunned_active:0 "Поклонение даэдра ( $hircine$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_hircine_criminal_active:0 "Поклонение даэдра ( $hircine$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1754,7 +1754,7 @@
  doctrine_hircine_criminal_name:0 "Преступление"
  
  doctrine_malacath_name:0 "$malacath$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_MALACATH:0 "Если 'князья даэдра' не выбраны в качестве основного пантеона, то $malacath$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_contempt_for_the_weak').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_bad_daedra').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_malacath').GetBaseName] (Второстепенное божество пантеона)" 
+ FAITH_MUST_ALLOW_PATRON_MALACATH:0 "Если «князья даэдра» не выбраны в качестве основного пантеона, то $malacath$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_contempt_for_the_weak').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_bad_daedra').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_malacath').GetBaseName] (Второстепенное божество пантеона)" 
  doctrine_parameter_worship_malacath_allowed_active:0 "Поклонение даэдра ( $malacath$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]"
  doctrine_parameter_worship_malacath_shunned_active:0 "Поклонение даэдра ( $malacath$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_malacath_criminal_active:0 "Поклонение даэдра ( $malacath$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1764,7 +1764,7 @@
  doctrine_malacath_criminal_name:0 "Преступление"
  
  doctrine_mehrunes_name:0 "$mehrunes$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_MEHRUNES:0 "Если 'князья даэдра' не выбраны в качестве основного пантеона, то $mehrunes$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_pursuit_of_power').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_bad_daedra').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_mehrunes').GetBaseName] (Второстепенное божество пантеона)" 
+ FAITH_MUST_ALLOW_PATRON_MEHRUNES:0 "Если «князья даэдра» не выбраны в качестве основного пантеона, то $mehrunes$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_pursuit_of_power').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_bad_daedra').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_mehrunes').GetBaseName] (Второстепенное божество пантеона)" 
  doctrine_parameter_worship_mehrunes_allowed_active:0 "Поклонение даэдра ( $mehrunes$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]"
  doctrine_parameter_worship_mehrunes_shunned_active:0 "Поклонение даэдра ( $mehrunes$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_mehrunes_criminal_active:0 "Поклонение даэдра ( $mehrunes$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1774,7 +1774,7 @@
  doctrine_mehrunes_criminal_name:0 "Преступление"
  
  doctrine_mephala_name:0 "$mephala$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_MEPHALA:0 "Если 'князья даэдра' не выбраны в качестве основного пантеона, то $mephala$ должна быть выбрана с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_lifestyle_int_faith').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_sacred_shadows').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_false_conversion_sanction').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_good_daedra').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_good_daedra').GetBaseName]\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_mephala').GetBaseName] (Божество второстепенного пантеона)" 
+ FAITH_MUST_ALLOW_PATRON_MEPHALA:0 "Если «князья даэдра» не выбраны в качестве основного пантеона, то $mephala$ должна быть выбрана с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_lifestyle_int_faith').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_sacred_shadows').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_false_conversion_sanction').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_good_daedra').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_good_daedra').GetBaseName]\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_mephala').GetBaseName] (Божество второстепенного пантеона)" 
  doctrine_parameter_worship_mephala_allowed_active:0 "Поклонение даэдра ( $mephala$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]"
  doctrine_parameter_worship_mephala_shunned_active:0 "Поклонение даэдра ( $mephala$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_mephala_criminal_active:0 "Поклонение даэдра ( $mephala$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1784,7 +1784,7 @@
  doctrine_mephala_criminal_name:0 "Преступление"
  
  doctrine_meridia_name:0 "$meridia$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_MERIDIA:0 "Если 'князья даэдра' не выбраны в качестве основного пантеона, то $meridia$ должна быть выбрана с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_sanctity_of_life').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_meridia').GetBaseName] (Божество второстепенного пантеона)" 
+ FAITH_MUST_ALLOW_PATRON_MERIDIA:0 «Если 'князья даэдра» не выбраны в качестве основного пантеона, то $meridia$ должна быть выбрана с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_sanctity_of_life').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_meridia').GetBaseName] (Божество второстепенного пантеона)" 
  doctrine_parameter_worship_meridia_allowed_active:0 "Поклонение даэдра ( $meridia$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]"
  doctrine_parameter_worship_meridia_shunned_active:0 "Поклонение даэдра ( $meridia$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_meridia_criminal_active:0 "Поклонение даэдра ( $meridia$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1794,7 +1794,7 @@
  doctrine_meridia_criminal_name:0 "Преступление"
  
  doctrine_molag_name:0 "$molag$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_MOLAG:0 "Если 'князья даэдра' не выбраны в качестве основного пантеона, то $molag$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('doctrine_vampirism_accepted').GetBaseName] (Вампиризм)\n • [GetFaithDoctrine('tenet_vampire_worship').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_human_sacrifice').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_bad_daedra').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_molag').GetBaseName] (Божество второстепенного пантеона)" 
+ FAITH_MUST_ALLOW_PATRON_MOLAG:0 "Если «князья даэдра» не выбраны в качестве основного пантеона, то $molag$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('doctrine_vampirism_accepted').GetBaseName] (Вампиризм)\n • [GetFaithDoctrine('tenet_vampire_worship').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_human_sacrifice').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_bad_daedra').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_molag').GetBaseName] (Божество второстепенного пантеона)" 
  doctrine_parameter_worship_molag_allowed_active:0 "Поклонение даэдра ( $molag$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]"
  doctrine_parameter_worship_molag_shunned_active:0 "Поклонение даэдра ( $molag$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_molag_criminal_active:0 "Поклонение даэдра ( $molag$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1804,7 +1804,7 @@
  doctrine_molag_criminal_name:0 "Преступление"
  
  doctrine_namira_name:0 "$namira$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_NAMIRA:0 "Если 'князья даэдра' не выбраны в качестве основного пантеона, то $namira$ должна быть выбрана с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_vows_of_squalor').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_adorcism').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_ritual_cannibalism').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_namira').GetBaseName] (Божество второстепенного пантеона)" 
+ FAITH_MUST_ALLOW_PATRON_NAMIRA:0 "Если «князья даэдра» не выбраны в качестве основного пантеона, то $namira$ должна быть выбрана с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_vows_of_squalor').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_adorcism').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_ritual_cannibalism').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_namira').GetBaseName] (Божество второстепенного пантеона)" 
  doctrine_parameter_worship_namira_allowed_active:0 "Поклонение даэдра ( $namira$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]"
  doctrine_parameter_worship_namira_shunned_active:0 "Поклонение даэдра ( $namira$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_namira_criminal_active:0 "Поклонение даэдра ( $namira$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1814,7 +1814,7 @@
  doctrine_namira_criminal_name:0 "Преступление"
  
  doctrine_nocturnal_name:0 "$nocturnal$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_NOCTURNAL:0 "Если 'князья даэдра' не выбраны в качестве основного пантеона, то $nocturnal$ должна быть выбрана с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_lifestyle_int_faith').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_nocturnal').GetBaseName] (Божество второстепенного пантеона)" 
+ FAITH_MUST_ALLOW_PATRON_NOCTURNAL:0 "Если «князья даэдра» не выбраны в качестве основного пантеона, то $nocturnal$ должна быть выбрана с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_lifestyle_int_faith').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_nocturnal').GetBaseName] (Божество второстепенного пантеона)" 
  doctrine_parameter_worship_nocturnal_allowed_active:0 "Поклонение даэдра ( $nocturnal$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]"
  doctrine_parameter_worship_nocturnal_shunned_active:0 "Поклонение даэдра ( $nocturnal$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_nocturnal_criminal_active:0 "Поклонение даэдра ( $nocturnal$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1824,7 +1824,7 @@
  doctrine_nocturnal_criminal_name:0 "Преступление"
  
  doctrine_peryite_name:0 "$peryite$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_PERYITE:0 "Если 'князья даэдра' не выбраны в качестве основного пантеона, то $peryite$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_veneration_of_diseases').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_peryite').GetBaseName] (Божество второстепенного пантеона)" 
+ FAITH_MUST_ALLOW_PATRON_PERYITE:0 "Если «князья даэдра» не выбраны в качестве основного пантеона, то $peryite$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_veneration_of_diseases').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_peryite').GetBaseName] (Божество второстепенного пантеона)" 
  doctrine_parameter_worship_peryite_allowed_active:0 "Поклонение даэдра ( $peryite$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]"
  doctrine_parameter_worship_peryite_shunned_active:0 "Поклонение даэдра ( $peryite$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_peryite_criminal_active:0 "Поклонение даэдра ( $peryite$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1834,7 +1834,7 @@
  doctrine_peryite_criminal_name:0 "Преступление"
  
  doctrine_sanguine_name:0 "$sanguine$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_SANGUINE:0 "Если 'князья даэдра' не выбраны в качестве основного пантеона, то $sanguine$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_carnal_exaltation').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_hedonistic').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_deviancy_accepted').GetBaseName] (Извращение)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_sanguine').GetBaseName] (Божество второстепенного пантеона)" 
+ FAITH_MUST_ALLOW_PATRON_SANGUINE:0 "Если «князья даэдра» не выбраны в качестве основного пантеона, то $sanguine$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_carnal_exaltation').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_hedonistic').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_deviancy_accepted').GetBaseName] (Извращение)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_sanguine').GetBaseName] (Божество второстепенного пантеона)" 
  doctrine_parameter_worship_sanguine_allowed_active:0 "Поклонение даэдра ( $sanguine$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]"
  doctrine_parameter_worship_sanguine_shunned_active:0 "Поклонение даэдра ( $sanguine$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_sanguine_criminal_active:0 "Поклонение даэдра ( $sanguine$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1844,7 +1844,7 @@
  doctrine_sanguine_criminal_name:0 "Преступление"
  
  doctrine_sheogorath_name:0 "$sheogorath$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_SHEOGORATH:0 "Если 'князья даэдра' не выбраны в качестве основного пантеона, то $sheogorath$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_radical_detachment').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_thriving_in_chaos').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_bad_daedra').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_sheogorath').GetBaseName] (Божество второстепенного пантеона)" 
+ FAITH_MUST_ALLOW_PATRON_SHEOGORATH:0 "Если «князья даэдра» не выбраны в качестве основного пантеона, то $sheogorath$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_radical_detachment').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_thriving_in_chaos').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_bad_daedra').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_sheogorath').GetBaseName] (Божество второстепенного пантеона)" 
  doctrine_parameter_worship_sheogorath_allowed_active:0 "Поклонение даэдра ( $sheogorath$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]"
  doctrine_parameter_worship_sheogorath_shunned_active:0 "Поклонение даэдра ( $sheogorath$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_sheogorath_criminal_active:0 "Поклонение даэдра ( $sheogorath$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1854,7 +1854,7 @@
  doctrine_sheogorath_criminal_name:0 "Преступление"
  
  doctrine_vaermina_name:0 "$vaermina$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_VAERMINA:0 "Если 'князья даэдра' не выбраны в качестве основного пантеона, то $vaermina$ должна быть выбрана с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_sacred_alchemy').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_ritual_nightmares').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_vaermina').GetBaseName] (Божество второстепенного пантеона)" 
+ FAITH_MUST_ALLOW_PATRON_VAERMINA:0 "Если «князья даэдра» не выбраны в качестве основного пантеона, то $vaermina$ должна быть выбрана с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('tenet_sacred_alchemy').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_ritual_nightmares').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_vaermina').GetBaseName] (Божество второстепенного пантеона)" 
  doctrine_parameter_worship_vaermina_allowed_active:0 "Поклонение даэдра ( $vaermina$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]"
  doctrine_parameter_worship_vaermina_shunned_active:0 "Поклонение даэдра ( $vaermina$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_vaermina_criminal_active:0 "Поклонение даэдра ( $vaermina$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1903,7 +1903,7 @@
  tenet_witch_worship_name:0 "Священные ведьмы"
     tenet_witch_worship_reach_religion_name:0 "Поклонение ворожеям"
     tenet_witch_worship_desc:0 "Тех, кто достаточно силён, чтобы овладеть колдовскими силами, следует прославлять, а не отвергать. Мы не должны позволить слепой ненависти и непониманию встать на пути к раскрытию сил оккультизма."
-    WITCHCRAFT_MUST_BE_FULLY_ACCEPTED:0 "Несовместимо с любыми [Concept( 'doctrine', 'доктринами' )|E], для которых ведовство  — [shunned|El] или [Concept( 'criminal', 'преступления' )|E]"
+    WITCHCRAFT_MUST_BE_FULLY_ACCEPTED:0 "Несовместимо с любыми [Concept( 'doctrine', 'доктринами' )|E], для которых ведовство  — [shunned|El] или [Concept( 'criminal', 'преступление' )|E]"
     doctrine_parameter_tenet_witch_worship_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых Ведовство [GetFaithDoctrine('doctrine_witchcraft_crime').GetBaseName] на #N +10#!"
     
  tenet_vampire_worship_name:0 "Вампирическое благословение"
@@ -1937,7 +1937,7 @@
     tenet_daedric_bargains_desc:0 "Известно, что #LORE [compendium_daedric_princes]#! активно вмешиваются в дела смертных. Если мы принесем им подходящую жертву, то они, возможно, захотят нам помочь.\n#R Пока не реализовано!#!"
     doctrine_parameter_reduces_cost_daedric_boons_active:0 "Уменьшает стоимость даэдрических даров"
     doctrine_parameter_increases_effectiveness_daedric_sacrifices_active:0 "Увеличивает страсть, получаемую с помощью даэдрических жертвоприношений"
-    FAITH_MUST_HAVE_ONE_DAEDRIC_PRINCE_ALLOWED:0 "Поклонение как минимум одному #LORE [Concept( 'compendium_daedric_princes', 'даэдрическому принцу' )|E]#! должно быть приемлемо или добавлено в [pantheon|El]"
+    FAITH_MUST_HAVE_ONE_DAEDRIC_PRINCE_ALLOWED:0 "Поклонение как минимум одному #LORE [Concept( 'compendium_daedric_princes', 'даэдрическому князю' )|E]#! должно быть приемлемо или добавлено в [pantheon|El]"
     
  tenet_living_gods_name:0 "Живые боги"
     tenet_living_gods_desc:0 "Большинство религий почитают мёртвых или нематериальных существ. Но наши боги ходят по этой самой земле, и их повседневные деяния являются основой наших основных убеждений."
@@ -1946,7 +1946,7 @@
  tenet_divine_disease_name:0 "Божественная болезнь"
     tenet_divine_disease_desc:0 "[SelectLocalization(IsObserver, 'tenet_divine_disease_nonfollower_desc', GetPlayer.Custom('divine_disease_dynamic_desc'))]"
     tenet_divine_disease_follower_desc:0 "ЭТО НЕ МОР\nЭТО МОЙ ДОМ\nЯ ВКЛАДЫВАЮ ЗВЕЗДУ\nВ РОТ МИРА\nЧТОБЫ УБИТЬ ЕГО"
-    tenet_divine_disease_nonfollower_desc:0 "Культисты осквернённого Шестого Дома почитают корпрус, так называемую 'божественную болезнь', как благословение, дарованное им Шарматом."
+    tenet_divine_disease_nonfollower_desc:0 "Культисты осквернённого Шестого Дома почитают корпрус, так называемую «божественную болезнь», как благословение, дарованное им Шарматом."
     
  tenet_ritual_hunts_name:0 "Ритуальные охоты"
     tenet_ritual_hunts_desc:0 "Боги создали низших и диких существ, дабы бросить нам вызов и заставить нас бороться за выживание. Возможно, мы уже прошли этап ежедневной борьбы за выживание, но старые традиции охоты всё ещё сильны."
@@ -1973,7 +1973,7 @@
     prowess_bonuses_army:0 "[prowess|E] - [faith|E]"
     prowess_bonuses_domain:0 "[prowess|E] - [faith|E]"
     prowess_bonuses_opinion:0 "[prowess|E] - [faith|E]"
-    doctrine_parameter_rule_by_might_succession_active:0 "Активирует [law|El] [Concept( 'succession', 'наследования' )|E] '#V Право сильного#!'. Преемник выбирается среди подходящих детей правителя. Они должны будут выступить против любого сиблинга, оспаривающего их право на престол, в [Concept( 'single_combat_duel', 'поединке' )|E] #X до смерти#!."
+    doctrine_parameter_rule_by_might_succession_active:0 "Активирует [law|El] [Concept( 'succession', 'наследования' )|E] «#V Право сильного#!». Преемник выбирается среди подходящих детей правителя. Они должны будут выступить против любого сиблинга, оспаривающего их право на престол, в [Concept( 'single_combat_duel', 'поединке' )|E] #X до смерти#!."
     
  tenet_vows_of_squalor_name:0 "Клятва убожества"
     tenet_vows_of_squalor_desc:0 "Чтобы полностью принять божественное, мы должны отвергнуть ожидания общества в отношении чистоты и крепкого здоровья. Мы процветаем в тени, в окружении грызунов, нищих и паразитов."
@@ -2009,7 +2009,7 @@
 
  tenet_princes_of_misrule_name:0 "Князья беззакония"
     tenet_princes_of_misrule_meridia_religion_name:0 "Десять предков"
-    tenet_princes_of_misrule_desc:0 "#LORE [compendium_daedric_prince]#! свободны и могущественны в Мундусе и действуют самостоятельно и безнаказанно там, где прочие божества загнали бы себя в рамки собственных законов и клятв. Это наше право, как их верных последователей, свергать тиранов и порабощать слабых, как нам заблагорассудится, невзирая на отговорки и оправдания, кроме: 'Это в наших силах!'"
+    tenet_princes_of_misrule_desc:0 "#LORE [compendium_daedric_prince]#! свободны и могущественны в Мундусе и действуют самостоятельно и безнаказанно там, где прочие божества загнали бы себя в рамки собственных законов и клятв. Это наше право, как их верных последователей, свергать тиранов и порабощать слабых, как нам заблагорассудится, невзирая на отговорки и оправдания, кроме: «Это в наших силах!»"
     tenet_princes_of_misrule_meridia_religion_desc:0 "Пусть другие поклоняются своим серым и молчаливым мёртвым предкам, мы же считаем своими предками живых Князей. Взывая к ним, мы вооружаем себя знаниями, купаемся в свете звёзд и одариваем себя славой рассвета. Пусть никто не усомнится в таком великолепии, ведь мы делаем то, что мы делаем, ибо у нас силы это делать."
     tenet_princes_of_misrule_velothi_faiths_name:0 "Даэдрические предки"
     tenet_princes_of_misrule_velothi_faiths_desc:0 "В древности Велот указал нам на ошибочность поклонения далёкому Ану и мёртвым кристальным королям, в то время как добрые #LORE [compendium_daedra]#! так близки, и станут гораздо более сильными и лучшими предками. По их милости мы возвысились над прочими и обучаемся царствованию; хотя это запрещается некоторым, но не нам."
@@ -2025,7 +2025,7 @@
     tenet_labyrinthine_canon_desc:0 "По мере увеличения духовенства Алессианского ордена и слияния религиозных вопросов со светскими, концепция Единого божества становилась всё более абстрактной и непознаваемой. К моменту своего великого краха в конце #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#! канон содержал лишь бесконечные законы и ограничения по любым светским и духовным вопросам, какие только можно себе представить."
     
  tenet_legacy_of_reman_name:0 "Наследие Ремана"
-    tenet_legacy_of_reman_desc:0 "Когда акавирцы вторглись в Тамриэль в #LORE [Concept( 'compendium_first_era', 'Первой Эре' )|E]#!, они пришли не ради завоеваний, а чтобы найти предсказанного пророчествами героя, в чьих жилах течёт драконья кровь и кому они могли бы служить. Этим героем был Реман. После его смерти акавирцы служили его потомкам в качестве Драконьей стражи, а в политическом — как Потентаты, которые правили Империей от его имени после убийства его наследников. Сегодня акавирцы рассеяны по всей территории бывшей Империи и ожидают того момента, когда другой божественный драконорождённый правитель заявит о своих правах наследника и преемника Ремана. \n \n Услышав голос Ремана Сиродила, остатки Драконьей стражи преклонили колена и поклялись всю оставшуюся жизнь служить ему, своему победителю и спасителю. Воины в унисон произнесли следующие слова: 'Мы искали тебя'.\n - отрывок текста #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#!."
+    tenet_legacy_of_reman_desc:0 "Когда акавирцы вторглись в Тамриэль в #LORE [Concept( 'compendium_first_era', 'Первой эре' )|E]#!, они пришли не ради завоеваний, а чтобы найти предсказанного пророчествами героя, в чьих жилах течёт драконья кровь и кому они могли бы служить. Этим героем был Реман. После его смерти акавирцы служили его потомкам в качестве Драконьей стражи, а в политическом — как Потентаты, которые правили Империей от его имени после убийства его наследников. Сегодня акавирцы рассеяны по всей территории бывшей Империи и ожидают того момента, когда другой божественный драконорождённый правитель заявит о своих правах наследника и преемника Ремана. \n \n Услышав голос Ремана Сиродила, остатки Драконьей стражи преклонили колена и поклялись всю оставшуюся жизнь служить ему, своему победителю и спасителю. Воины в унисон произнесли следующие слова: «Мы искали тебя».\n - отрывок текста #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#!."
  
  tenet_exalted_heroism_name:0 "Прославляемый героизм" 
     tenet_exalted_heroism_desc:0 "Наша вера почитает героев нашей земли — тех, кто спас нас в трудные времена, и тех, кто вёл нас к славе. Век героев бесконечен, и верующие с готовностью подвергают себя бесчисленным испытаниям и трудностям, чтобы подражать героям прошлого в надежде стать героями завтрашнего дня."
@@ -2040,21 +2040,21 @@
     tenet_moon_worship_desc:0 "Луны — это божественные силы или сущности, которые оказывают огромное, но весьма тонкое влияние на мир: от приливов и отливов до роста растений и цикла бодрствования-сна."
     
  tenet_kuvastei_name:0 "Ку-вастей"
-    tenet_kuvastei_desc:0 "#N Конфессии с догматом [GetFaithDoctrine('tenet_kuvastei').GetBaseName] не могут принять [feudal_like_government|El]!#! \n \n В древние времена аргонианское общество глубоко боялось перемен и смерти, олицетворяемых Ситисом-Разрушителем; но произошёл великий сдвиг, известный как Сумеречье, когда Хист научил их не бояться Ситиса, а просто воспринимать его как неизбежные изменения жизни. После этого радикального откровения аргониане оставили свои великие каменные храмы и города и теперь принимают перемены, живя в 'настоящем' — обитая в полупостоянных домах, говоря только в настоящем времени и не обращая внимания на мелкие разногласия или даже течение времени."
+    tenet_kuvastei_desc:0 "#N Конфессии с догматом [GetFaithDoctrine('tenet_kuvastei').GetBaseName] не могут принять [feudal_like_government|El]!#! \n \n В древние времена аргонианское общество глубоко боялось перемен и смерти, олицетворяемых Ситисом-Разрушителем; но произошёл великий сдвиг, известный как Сумеречье, когда Хист научил их не бояться Ситиса, а просто воспринимать его как неизбежные изменения жизни. После этого радикального откровения аргониане оставили свои великие каменные храмы и города и теперь принимают перемены, живя в «настоящем» — обитая в полупостоянных домах, говоря только в настоящем времени и не обращая внимания на мелкие разногласия или даже течение времени."
     
  tenet_shunatei_name:0 "Шунатей"
-    tenet_shunatei_desc:0 "Шунатей (буквально 'растроенный живот') относится к аргонианской концепции, согласно которой аргониане испытывают боль от мыслей о прошлом и тревогу относительно того, что будет в будущем. Его часто используют для описания мировоззрения древних аргониан, поклоняющихся Ситису — постоянное беспокойство и страх перед неизбежным разрушением вселенной их богом."
+    tenet_shunatei_desc:0 "Шунатей (буквально «растроенный живот») относится к аргонианской концепции, согласно которой аргониане испытывают боль от мыслей о прошлом и тревогу относительно того, что будет в будущем. Его часто используют для описания мировоззрения древних аргониан, поклоняющихся Ситису — постоянное беспокойство и страх перед неизбежным разрушением вселенной их богом."
  
  tenet_shunatei_alternate_name:0 "Чувство вины" #PLACEHOLDER
     tenet_shunatei_alternate_desc:0 "Нельзя убежать от вины, вызванной проступками в прошлом. Спасение можно получить лишь через признание, раскаяние и искупление." #PLACEHOLDER
     
  tenet_amberhist_name:0 "Янтарная плазма"
-    tenet_amberhist_desc:0 "Янтарная плазма — это вещество, выделяемое некоторыми деревьями Хист. Считается, что это форма 'креации хаоса' из Обливиона. При правильном использовании это вещество может дать тем, кто его потребляет, увеличенную силу и рефлексы, хотя чрезмерное употребление часто приводит к безумию и появлению светящихся оранжевых пятен на коже."
+    tenet_amberhist_desc:0 "Янтарная плазма — это вещество, выделяемое некоторыми деревьями Хист. Считается, что это форма «креации хаоса» из Обливиона. При правильном использовании это вещество может дать тем, кто его потребляет, увеличенную силу и рефлексы, хотя чрезмерное употребление часто приводит к безумию и появлению светящихся оранжевых пятен на коже."
  
  tenet_all_maker_sacred_rituals_name:0 "Ристааг и ритуал дарения"
     tenet_all_maker_sacred_rituals_desc:0 "Когда земля и наш народ испытывают нужду, мы можем укрепить нашу связь со Все-Создателем.\nРистааг — это великая охота, устраиваемая для очищения, благословения земли и выражения нашей благодарности Все-Создателю." #EK TODO \nThe Ritual of Gifts is a sacred pilgrimage to restore the Oneness of the land.\n\nBoth restore peace in Solstheim, in their own way.
-    doctrine_parameter_allows_ristaag_decision_active:0 "Делает доступным [decision|El] #V '$start_ristaag_decision$'#!"
-    doctrine_parameter_allows_ritual_of_the_gifts_decision_active:0 "#V Делает доступным [decision|El] '$start_ritual_of_the_gifts_decision$'#!"
+    doctrine_parameter_allows_ristaag_decision_active:0 "Делает доступным [decision|El] #V «$start_ristaag_decision$»#!"
+    doctrine_parameter_allows_ritual_of_the_gifts_decision_active:0 "#V Делает доступным [decision|El] «$start_ritual_of_the_gifts_decision$»#!"
     
  ## Vanilla edits
  tenet_legalism_aldmeri_religion_name:0 "Путь к Алаксону"
@@ -2079,7 +2079,7 @@
  tenet_consolamentum_sithis_religion_name:0 "Заимствованная душа"
     tenet_consolamentum_sithis_religion_desc:0 "Наша душа не принадлежит нам, а лишь передается по наследству от одного поколения к другому. Как только мы почувствуем, что наш смертный сосуд ослабевает, мы должны решительно вернуть свою жизненную энергию обществу. Таким образом, ушедшие должны обеспечивать жизнедеятельность оставшихся и даже еще не родившихся. И сейчас, и в вечности."
 
- doctrine_parameter_rite_of_passage_decision_active:0 "Молодые взрослые и новообращенные могут использовать [decision|El] #V 'Обряд посвящения'#!"
+ doctrine_parameter_rite_of_passage_decision_active:0 "Молодые взрослые и новообращённые могут использовать [decision|El] #V «Обряд посвящения»#!"
     
  ### Personal deities
  doctrine_parameter_personal_god_different_names_active:0 "[personal_deities|E] будут носить другие имена"
