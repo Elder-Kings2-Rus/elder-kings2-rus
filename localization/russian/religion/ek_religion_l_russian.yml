@@ -152,7 +152,7 @@
  holy_site_hs_temple_ancestors_name:0 "Храм Предков"
  holy_site_hs_temple_ancestors_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_temple_ancestors_name$)#!"
  holy_site_hs_temple_ancestors_effects:0 "Скорость обращения графства в регионе [GetGeographicalRegion('mundus_tamriel_cyrodiil').GetName]: #P +20%#!"
- COURT_CHAPLAIN_CONVERSION_HOLY_SITE_HS_TEMPLE_ANCESTORS:0 "Храм Предков"
+ # COURT_CHAPLAIN_CONVERSION_HOLY_SITE_HS_TEMPLE_ANCESTORS:0 "Святое место — Храм Предков"
  holy_site_hs_lorianen_name:0 "Лорианен"
  holy_site_hs_lorianen_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_lorianen_name$)#!"
  holy_site_hs_twyllbek_name:0 "Твиллбек"
@@ -192,6 +192,8 @@
  holy_site_hs_treehenge_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_treehenge_name$)#!"
  holy_site_hs_drabble_name:0 "Сердце Валенвуда"
  holy_site_hs_drabble_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_drabble_name$)#!"
+ holy_site_hs_quistrelle_name:0 "Квистрелль"
+ holy_site_hs_quistrelle_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_quistrelle_name$)#!"
  # Marukhati
  holy_site_hs_canulus_name:0 "Канулус"
  holy_site_hs_canulus_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_canulus_name$)#!"
@@ -595,7 +597,7 @@
  holy_site_hs_vlastarus_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_vlastarus_name$)#!"
  holy_site_hs_loredan_name:0 "Грот Этон"
  holy_site_hs_loredan_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_loredan_name$)#!"
- holy_site_hs_anard_name:0 "Святилище Возрождённых"
+ holy_site_hs_anard_name:0 "Грот Этон-Нира"
  holy_site_hs_anard_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_anard_name$)#!"
  holy_site_hs_narfinsel_name:0 "Нарфинсель"
  holy_site_hs_narfinsel_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_narfinsel_name$)#!"
@@ -746,3 +748,6 @@
  daedric_bishop_alternate_plural:0 "наставники"
  daedric_house_of_worship:0 "даэдрическое святилище"
  daedric_house_of_worship_plural:0 "даэдрические святилища"
+ 
+ # Crypto Religion loc thingy because vanilla is missing this
+ make_character_crypto_religionist_effect_desc:0 "Вы тайно обратитесь в [new_secret_faith.GetName]"

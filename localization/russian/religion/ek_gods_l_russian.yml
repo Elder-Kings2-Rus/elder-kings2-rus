@@ -175,7 +175,7 @@ god_aka_name:0 "Ака"
 	god_topal_name_possessive:0 "Топала"
 
  #Bosmer
- ooze_name:0 "Ил"
+ ooze_name:0 "#LORE [compendium_ooze]#!"
 
 	# See Aldmer section for Auri-El
 	# See Aldmer section for Y'ffre
@@ -499,6 +499,10 @@ god_aka_name:0 "Ака"
 	god_hermaeus_scryer_name_possessive:0 "Провидца"
  god_hermaeus_inevitable_knower_name:0 "Неизбежно Знающий"
 	god_hermaeus_inevitable_knower_name_possessive:0 "Неизбежно Знающего"
+ god_hermaeus_hermus_mora_name:0 "Хермас Мора"
+	god_hermaeus_hermus_mora_name_possessive:0 "Хермаса Моры"
+ god_hermaeus_hyrma_mora_name:0 "Хирма Мора"
+	god_hermaeus_hyrma_mora_name_possessive:0 "Хирмы Моры"
 
  # Hircine
  GET_RANDOM_HIRCINE_NAME:0 "[GetPlayer.Custom('GetBaseHircineName')]"
@@ -1159,8 +1163,8 @@ god_aka_name:0 "Ака"
  
  god_khenarthi_name:0 "Кенарти"
 	god_khenarthi_name_possessive:0 "Кенарти"
- god_magrus_name:0 "Магрус"
-	god_magrus_name_possessive:0 "Магруса"
+ god_magrus_name:0 "#LORE [compendium_magrus]#!"
+	god_magrus_name_possessive:0 "#LORE [compendium_magrus]#!а"
  god_nirni_name:0 "Нирни"
 	god_nirni_name_possessive:0 "Нирни"
  god_alkosh_name:0 "Алкош"

@@ -43,6 +43,7 @@
  send_to_varangian_guard_interaction_toast:1 "[recipient.GetShortUIName] отправляется в Имперский Легион"
  send_to_varangian_guard_interaction_toast_desc:0 "Слава и почести ждут!"
  send_to_varangian_guard_interaction_effect_desc:1 "#weak Во время службы в Имперском Легионе [CHARACTER.GetShortUIName] может увеличить свои [Concept( 'skills', 'навыки' )|E] или получить [Concept( 'traits', 'свойства' )|E], однако есть шанс получить ранение или того хуже. [CHARACTER.GetSheHe|U] вернется через несколько лет, но отозвать [CHARACTER.GetHerHis] раньше не получится.#!"
+ send_to_varangian_guard_interaction_requirement_tooltip:0 "[GetTitleByKey('c_bastion').GetNameNoTier] не принадлежит к [Concept( 'culture', 'культуре' )|E], которая может управлять Имперским легионом"
 
  lover_varangian_local:0 "Во время службы в Имперском Легионе [CHARACTER.GetShortUIName] встречает [Select_CString(TARGET_CHARACTER.IsFemale, 'местную жительницу', 'местного жителя' )] — [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]."
  

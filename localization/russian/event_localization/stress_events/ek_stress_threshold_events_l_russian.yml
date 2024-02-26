@@ -42,7 +42,7 @@
  stress_threshold.2501.stress_overseer_peryite:0 "Естественный Порядок мира... Область Чумного лорда!"
  stress_threshold.2501.stress_schemer_boethiah:0 "Кто лучше, чем Боэтия может помочь мне в тени?"
  stress_threshold.2501.stress_schemer_mephala:0 "Я вижу Паутину у себя перед глазами... С Мефалой я покорю свою цель."
- stress_threshold.2501.stress_scholar_hermaeus:0 "Я знаю так много, и в то же время так мало... Если бы только я [Select_CString(ROOT.GetCharacter.IsFemale, 'могла', 'мог' )] получить доступ к библиотеке Демона Знаний..."
+ stress_threshold.2501.stress_scholar_hermaeus:0 "Я знаю так много, и в то же время так мало... Помоги мне, $hermaeus_alt$..."
  stress_threshold.2501.stress_seducer_mephala:0 "С Мефалой я подчиню их..."
  stress_threshold.2501.stress_seducer_sanguine:0 "Одно из первых учений Принца кутежа..."
  stress_threshold.2501.stress_torturer_molag:0 "Мне нужно, чтобы кто-то встал на дыбы... Таково желание Молага Бала..."

@@ -1,5 +1,5 @@
 ﻿l_russian:
- RULER_DESIGNER_BIRTH_YEAR:0 "Год рождения: [Select_CString( GreaterThanOrEqualTo_int32( RulerDesignerWindow.GetBirthYear, '(int32)3816' ), '3Э', '2Э' )] [Subtract_int32( RulerDesignerWindow.GetBirthYear, '(int32)2920' )]" # 3E/2E year may not be correct
+ RULER_DESIGNER_BIRTH_YEAR:0 "Год рождения: $ERA_STRING_YEAR_RD_CHAR_CONCAT$"
 
  EK2_DEBUG:0 "Меню отладки EK"
  RULERDESIGNERWINDOW_GETETHNICITY_GETNAME:0 "RulerDesignerWindow.GetEthnicity.GetName"
@@ -249,37 +249,28 @@
  race_kothringi_3_name:0 "Недиец, Котринг III"
  race_kothringi_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_kothringi_3_name'), 'no' )]"
 
+ race_nede_reachfolk_1_name:0 "Недиец, ричмен I"
+ race_nede_reachfolk_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_reachfolk_1_name'), 'no' )]"
+
+ race_nede_reachfolk_2_name:0 "Недиец, ричмен II"
+ race_nede_reachfolk_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_reachfolk_2_name'), 'no' )]"
+
+ race_nede_reachfolk_3_name:0 "Недиец, ричмен III"
+ race_nede_reachfolk_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_reachfolk_3_name'), 'no' )]"
+
 
  ###Nords
- race_nord_1_name:0 "Норд, Прекрасный I"
+ race_nord_1_name:0 "Норд I"
  race_nord_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_1_name'), 'no' )]"
 
- race_nord_2_name:0 "Норд, Прекрасный II"
+ race_nord_2_name:0 "Норд II"
  race_nord_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_2_name'), 'no' )]"
 
- race_nord_3_name:0 "Норд, Прекрасный III"
+ race_nord_3_name:0 "Норд III"
  race_nord_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_3_name'), 'no' )]"
 
- race_nord_4_name:0 "Норд, Прекрасный IV"
+ race_nord_4_name:0 "Норд IV"
  race_nord_4:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_4_name'), 'no' )]"
-
- race_nord_1_ginger_name:0 "Норд, Румяный I"
- race_nord_1_ginger:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_1_ginger_name'), 'no' )]"
-
- race_nord_2_ginger_name:0 "Норд, Румяный II"
- race_nord_2_ginger:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_2_ginger_name'), 'no' )]"
-
- race_nord_3_ginger_name:0 "Норд, Румяный III"
- race_nord_3_ginger:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_3_ginger_name'), 'no' )]"
-
- race_nord_4_ginger_name:0 "Норд, Румяный IV"
- race_nord_4_ginger:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_4_ginger_name'), 'no' )]"
-
- race_nord_2_dark_name:0 "Норд, Тёмный I"
- race_nord_2_dark:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_2_dark_name'), 'no' )]"
-
- race_nord_3_dark_name:0 "Норд, Тёмный II"
- race_nord_3_dark:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_3_dark_name'), 'no' )]"
 
  race_nord_cyronord_1_name:0 "Сиро-Норд I"
  race_nord_cyronord_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_cyronord_1_name'), 'no' )]"
@@ -339,17 +330,24 @@
 
  
  ###Altmer
+ 
+ race_altmer_name:0 "Альтмер I"
+ race_altmer:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_altmer_name'), 'no' )]"
+
+ race_altmer_ear_name:0 "Альтмер II"
+ race_altmer_ear:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_altmer_ear_name'), 'no' )]"
+ 
  race_altmer_pure_1_name:0 "Альтмер III"
  race_altmer_pure_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_altmer_pure_1_name'), 'no' )]"
 
  race_altmer_pure_2_name:0 "Альтмер IV"
  race_altmer_pure_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_altmer_pure_2_name'), 'no' )]"
 
- race_altmer_name:0 "Альтмер I"
- race_altmer:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_altmer_name'), 'no' )]"
+ race_altmer_balfieri_1_name:0 "Альтмер, Балфиера I"
+ race_altmer_balfieri_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_altmer_balfieri_1_name'), 'no' )]"
 
- race_altmer_ear_name:0 "Альтмер II"
- race_altmer_ear:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_altmer_ear_name'), 'no' )]"
+ race_altmer_balfieri_2_name:0 "Альтмер, Балфиера II"
+ race_altmer_balfieri_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_altmer_balfieri_2_name'), 'no' )]"
 
 
  ###Miscmer
@@ -751,7 +749,7 @@
 
  gene_bs_eye_height_inside:0 "Высота уголка глаза внутри"
 
- gene_bs_eye_height_outisde:0 "Высота уголка глаза снаружи"
+ gene_bs_eye_height_outside:0 "Высота уголка глаза снаружи"
 
  gene_bs_eye_outer_width:0 "Ширина внешнего угла глаза"
 

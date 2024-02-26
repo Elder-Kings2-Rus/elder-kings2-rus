@@ -171,3 +171,58 @@
  ek_pilgrimage.1026.b:0 "Я протрублю в рог от его имени."
  ek_pilgrimage.1026.c:0 "Пусть его щит всегда оберегает меня от бед."
  ek_pilgrimage.1026.d:0 "Это очень необычный рог!"
+ 
+ ek_pilgrimage.1027.t:0 "Священные испытания Кинs"
+ ek_pilgrimage.1027.desc:0 "От меня как от [Select_CString(ROOT.Char.IsFemale, 'набожной последовательницы', 'набожного последователя' )] Кин ожидается участие в старых нордских традициях, которые почитают мою богиню-покровительницу. Это включает в себя выполнение Священных испытаний Кин: поиск зверей-хранителей Скайрима и победа над ними в бою.\n\nСуществует семь зверей-хранителей: грязекраб, злокрыс, волк, медведь, мамонт, саблезуб и тролль. Каждый из них представляет собой один из аспектов благословения Кин для сыновей и дочерей севера."
+ ek_pilgrimage.1027.a:0 "Славься Кин!"
+ ek_pilgrimage.1027.a.tooltip:0 "Вы начинаете выполнение Священных испытаний Кин"
+ ek_pilgrimage.1027.b:0 "Я не могу, моё королевство не может править само собой."
+ ek_pilgrimage.1028.t:0 "Священные испытания Кин - Грязекраб"
+
+ ek_pilgrimage.1028.desc:0 "После нескольких дней поисков духа-хранителя краба, я чувствую, что он близко. В небольшом бассейне в окружении нескольких малых грязекрабов лежит панцирь огромного краба.\n\n\nВначале было чувство, и это чувство быстро обрело форму. Призрачный краб был гигантским и обладал смертоносными клешнями. Мне предстояло сделать выбор."
+ ek_pilgrimage.1028.a:0 "Да защитит меня благословенная жена-воительница."
+ ek_pilgrimage.1028.a.success:0 "Вам удаётся одолеть духа-хранителя"
+ tooltip.ek_pilgrimage.1028.a.success:0 "Пусть стойкость Кин благословит вас"
+ ek_pilgrimage.1028.a.failure:0 "Дух-хранитель щадит вас"
+ tooltip.ek_pilgrimage.1028.a.failure:0 "Вы не добились успеха"
+
+ ek_pilgrimage.1029.t:0 "Священные испытания Кин - Злокрыс"
+ ek_pilgrimage.1029.desc:0 "В ходе поисков духа-хранителя злокрыса я [Select_CString(ROOT.Char.IsFemale, 'забиралась', 'забирался' )] в самые ужасные канализации и другие зловонные норы, но ничто не могло сравниться с тем омерзительным запахом, который попал в мои ноздри, когда я наконец [Select_CString(ROOT.Char.IsFemale, 'нашла', 'нашёл' )] духа. Он охранял древние гнилые руины вместе с другими злокрысами.\n\nЯ [Select_CString(ROOT.Char.IsFemale, 'задыхалась и пыталась', 'задыхался и пытался' )] вдохнуть воздух, но вонь была просто ужасающая. Мне нужно было поскорее принять решение."
+ ek_pilgrimage.1029.a:0 "Да благословит меня богиня бури!"
+ tooltip.ek_pilgrimage.1029.a.success:0 "Пусть слёзы Кин благословят вас"
+ ek_pilgrimage.1029.b:0 "Этого достаточно для меня."
+
+ ek_pilgrimage.1030.t:0 "Священные испытания Кин - Волк"
+ ek_pilgrimage.1030.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'обыскала', 'обыскал' )] множество волчьих нор в поисках духа-хранителя волка. К счастью, однажды ночью, когда я внимательно [Select_CString(ROOT.Char.IsFemale, 'прислушивалась', 'прислушивался' )] к вою волков, раздался один особенный вой, который отличался от остальных. Я [Select_CString(ROOT.Char.IsFemale, 'бросилась', 'бросился' )] через лес, чтобы найти его источник, и тут он появился передо мной: огромный призрачный волк. Я [Select_CString(ROOT.Char.IsFemale, 'вытащила', 'вытащил' )] своё оружие и [Select_CString(ROOT.Char.IsFemale, 'приготовилась', 'приготовился' )] к бою."
+ ek_pilgrimage.1030.a:0 "Да благословит меня вдова Шора!!"
+ tooltip.ek_pilgrimage.1030.a.success:0 "Да благословит вас ветер Кин"
+
+ ek_pilgrimage.1031.t:0 "Священные испытания Кин - Медведь"
+ ek_pilgrimage.1031.desc:0 "Во время поисков хранителя-медведя я [Select_CString(ROOT.Char.IsFemale, 'обнаружила', 'обнаружил' )] странный овраг, форма которого казалась неестественной. Я [Select_CString(ROOT.Char.IsFemale, 'решила', 'решил' )] идти по нему и вскоре [Select_CString(ROOT.Char.IsFemale, 'наткнулась', 'наткнулся' )] на отвесную стену. Поднявшись на скалу, я [Select_CString(ROOT.Char.IsFemale, 'обнаружила', 'обнаружил' )] «круг фей», образованный грибами с белыми шляпками, а в его центре был искомый хранитель-медведь.\n\nБлагоговение перед этим величественным созданием едва не стоило мне жизни, потому что призрачный медведь сразу же напал на меня, не дав опомниться."
+ ek_pilgrimage.1031.a:0 "Да благословит меня Мать людей!"
+ tooltip.ek_pilgrimage.1031.a.success:0 "Да пребудет с вами благословение Кин"
+
+ ek_pilgrimage.1032.t:0 "Священные испытания Кин - Мамонт"
+ ek_pilgrimage.1032.desc:0 "Во время своих странствий я [Select_CString(ROOT.Char.IsFemale, 'наткнулась', 'наткнулся' )] на кладбище мамонтов, будто сама Кин привела меня к нему. Среди костей я [Select_CString(ROOT.Char.IsFemale, 'нашла', 'нашёл' )] святилище прародительницы зверей. Я [Select_CString(ROOT.Char.IsFemale, 'вознесла', 'вознёс' )] ей быструю молитву о наставлении и прямо в середине священного ритуала я [Select_CString(ROOT.Char.IsFemale, 'услышала', 'услышал' )] грохот, доносящийся из-за спины. Прямо на меня нёсся огромный прозрачный мамонт.\n\nЯ [Select_CString(ROOT.Char.IsFemale, 'убралась', 'убрался' )] с его дороги и спрятался за костями мамонта, так что зверь проскочил мимо меня. Я [Select_CString(ROOT.Char.IsFemale, 'размышляла', 'размышлял' )] о том, что мне делать."
+ ek_pilgrimage.1032.a:0 "Да благословит меня Прародительница зверей"
+ tooltip.ek_pilgrimage.1032.a.success:0 "Да последуете вы наставлениям Кин"
+
+ ek_pilgrimage.1033.t:0 "Священные испытания Кин - Саблезуб"
+ ek_pilgrimage.1033.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'обыскивала', 'обыскивал' )] замёрзшую тундру в течение многих дней в поисках духа-хранителя саблезуба. Однажды, заглянув за очередную ледяную стену в поисках подсказок, я [Select_CString(ROOT.Char.IsFemale, 'обнаружила', 'обнаружил' )] внутри ледника замёрзшего саблезуба. И тут за спиной послышался рёв.\n\nКогда я [Select_CString(ROOT.Char.IsFemale, 'подняла', 'поднял' )] голову вверх, чтобы посмотреть, откуда доносится шум, я [Select_CString(ROOT.Char.IsFemale, 'увидела', 'увидел' )] величественного саблезуба, спрыгнувшего ко мне. Существо смотрело на меня, а я [Select_CString(ROOT.Char.IsFemale, 'смотрела', 'смотрел' )] на него в ответ."
+ ek_pilgrimage.1033.a:0 "Да направит меня Поцелуй смерти!"
+ tooltip.ek_pilgrimage.1033.a.success:0 "Да одарит Кин вас своим поцелуем"
+
+ ek_pilgrimage.1034.t:0 "Священные испытания Кин - Тролль"
+ ek_pilgrimage.1034.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'прошла', 'прошёл' )] долгий путь, прежде чем [Select_CString(ROOT.Char.IsFemale, 'оказалась', 'оказался' )] здесь. Многие пилигримы, желающие почтить память Кин, были убиты, пытаясь достичь этого места. Теперь лишь один дух-хранитель стоит передо мной и символизирует конец этого испытания: тролль. Я чувствую присутствие богини и вижу путь к своей цели.\n\nЯ не слышу его ворчания или пыхтения, но я знаю, что он там, ведь он манит меня. Я стою лицом к лицу с чудовищем, храня почтительное молчание."
+ ek_pilgrimage.1034.a:0 "Победа или Совнгард!"
+ tooltip.ek_pilgrimage.1034.a.success:0 "Пусть Кин проследит за вашими сражениями"
+
+ ek_pilgrimage.1035.desc:0 "[Select_CString(ROOT.Char.IsFemale, 'Измученная', 'Измученный' )], но всё же [Select_CString(ROOT.Char.IsFemale, 'восстановившая', 'восстановивший' )] своё самообладание, я наконец-то [Select_CString(ROOT.Char.IsFemale, 'вернулась', 'вернулся' )] домой. Изменилось немногое, но [ROOT.Char.GetFaith.PriestNeuterPlural] и [ROOT.Char.GetFaith.BishopNeuterPlural] смотрят на меня совсем иначе.\n\nЯ [Select_CString(ROOT.Char.IsFemale, 'прошла путь святой', 'прошёл путь святого' )], и они уверены, что он изменил меня — понимаю я это, или нет."
+ ek_pilgrimage.1035.a:0 "Пусть Кин присмотрит за вами."
+
+ ek_pilgrimage.1036.t:0 "On Those Who Know Baan Dar"
+ ek_pilgrimage.1036.desc:0 "I find myself in the sanctified embrace of a pilgrimage site, a place suffused with the enigmatic teachings of Baan Dar, the Bandit God. As I sit amidst this sacred ground, the essence of his wisdom pervades the air, compelling me to contemplate the diverse interpretations of his teachings.\n\nI ponder the curious ways different cultures and faiths perceive Baan Dar. The Wood Elves' exploding chickens, the outsiders' Bandit God and tales of the Man of a Thousand Faces—the disparities in these views are stark. To my people, the true Khajiit, Baan Dar is not a mere legend or story but a way of life. It's in every action, from the enslaved breaking free to those fighting for their freedom."
+ ek_pilgrimage.1036.a:0 "Do not let others take it if you wish to keep it."
+ ek_pilgrimage.1036.b:0 "Do not let others chain you if you wish to live without chains."
+ ek_pilgrimage.1036.c:0 "Do not let others fool you if you wish not to be fooled."
+ ek_pilgrimage.1036.d:0 "Baan Dar does not ask you to praise his name."

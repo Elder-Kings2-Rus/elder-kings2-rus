@@ -1,8 +1,0 @@
-﻿l_russian:
- hunt.1002.desc_wounded_courtier:0 "Мы следим за [ROOT.Char.Custom('LocalAnimal')], летящим через овраг. Как вдруг [ROOT.Char.Custom('LocalMount')] сбивает [hunting_courtier_1.GetTitledFirstNamePossessive] с ног. [hunting_courtier_1.GetSheHe] падает на землю и начинает кричать.\n\nНичего смертельного, но [hunting_courtier_1.GetTitleTierName] скручивается от боли."
- hunt.1002.desc:0 "Мой мир сужается до окружающей нас природы, когда мы следуем за [ROOT.Char.Custom('LocalAnimal')], убегающим через овраг. Скача бок о бок с [hunting_courtier_1.GetTitledFirstName], я слышу лай собак, крики мужчин... Волнение проникает в меня, когда мы медленно настигаем нашу добычу!"
- 
- 
- hunt.4012.desc:1 "Я еду впереди группы, когда вокруг меня внезапно появляются [ROOT.Char.Custom('TerrainType')]. Тишина почти осязаема, и мне трудно расслышать даже шум от дыхания [ROOT.Char.Custom('LocalMount')].\n\nКак раз когда я собираюсь повернуть назад, чтобы найти остальных, я вижу это впереди себя, животное размытое, как во сне, [ROOT.Char.Custom('LocalAnimal')] белый как снег."
-
- hunt.9001.desc_opening:0 "Охота подходит к концу. Мы садимся на [ROOT.Char.Custom('LocalMountMultiple')], чтобы оставить [ROOT.Char.Custom('TerrainType')] далеко позади."
