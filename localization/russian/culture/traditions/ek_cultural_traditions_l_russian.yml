@@ -29,6 +29,12 @@
  culture_parameter_peasant_mystic_revolts_more_common:0 "[peasant_factions|E] той же [Concept('culture', 'культуры')|E] более распространены и часто возглавляются мистиками"
  culture_parameter_tolerant_of_pariahs:0 "Нельзя использовать [casus_belli|E] #V 'Изгнание монстров'#! против [Concept('pariahs', 'парий')|E] или [Concept('pariah_discriminate', 'притеснённых')|E], не считая это [Concept('tyranny', 'тиранией')|E]"
  culture_parameter_danger_sense_save:0 "Персонажи этой [Concept( 'culture', 'культуры' )|E] с большей вероятностью переживут [GetScheme('murder').GetTypeName] [intrigue_i]"
+ culture_parameter_can_join_legion:0 "[SelectLocalization( HasDlcFeature( 'the_northern_lords' ), 'can_join_legion_dlc_yes', 'can_join_legion_dlc_no' )]"
+ can_join_legion_dlc_yes:0 "Персонажи этой [Concept( 'culture', 'культуры' )|E] могут использовать [dynast_interaction|El] #V Отправить в Имперский легион#!"
+ can_join_legion_dlc_no:0 ""
+ culture_parameter_can_be_legion_holder:0 "[SelectLocalization( HasDlcFeature( 'the_northern_lords' ), 'can_hold_legion_dlc_yes', 'can_hold_legion_dlc_no' )]"
+ can_hold_legion_dlc_yes:0 "Пока персонаж этой [Concept( 'culture', 'культуры' )|E] удерживает [GetTitleByKey('c_bastion').GetNameNoTier], [dynast_interaction|E] #V Отправить в Имперский легион#! активно"
+ can_hold_legion_dlc_no:0 ""
 
 ## GOVERNMENT PARAMETERS
  culture_parameter_unlocks_feudal_government:0 "Открывает [feudal_government|El] для [Concept('autocratic', 'автократичных')|E] [Concept('rulers', 'правителей')|E]"
@@ -69,8 +75,12 @@
  can_not_host_recital_contests_custom_effect_description_NO_TOTO_DLC:0 ""
 
 ## LEGACY PARAMETERS
- culture_parameter_unlock_pillage_legacy:0 "[dynast|E] этой [Concept('culture', 'культуры')|E] может использовать [dynasty_perk|El] #V $fp1_pillage_legacy_track_name$#!"
- culture_parameter_unlock_urbanism_legacy:0 "[dynast|E] этой [Concept('culture', 'культуры')|E] может использовать [dynasty_perk|El] #V $fp2_urbanism_legacy_track_name$#! при #P активном#! DLC #V Fate of Iberia#!"
+ culture_parameter_unlock_pillage_legacy:0 "[SelectLocalization( HasDlcFeature( 'the_northern_lords' ), 'unlock_pillage_legacy_dlc_yes', 'unlock_pillage_legacy_dlc_no' )]"
+ unlock_pillage_legacy_dlc_yes:0 "[dynast|E] этой [Concept('culture', 'культуры')|E] может использовать [dynasty_perk|El] #V $fp1_pillage_legacy_track_name$#!"
+ unlock_pillage_legacy_dlc_no:0 ""
+ culture_parameter_unlock_urbanism_legacy:0 "[SelectLocalization( HasDlcFeature( 'the_fate_of_iberia' ), 'unlock_urbanism_legacy_dlc_yes', 'unlock_urbanism_legacy_dlc_no' )]"
+ unlock_urbanism_legacy_dlc_yes:0 "[dynast|E] этой [Concept('culture', 'культуры')|E] может использовать [dynasty_perk|El] #V $fp2_urbanism_legacy_track_name$#!"
+ unlock_urbanism_legacy_dlc_no:0 ""
 
 ## MAA PARAMETERS
 # Innovation parameters
@@ -78,7 +88,7 @@
  culture_parameter_unlock_innovation_corsair_traditions:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_corsair_traditions$, а [GetMaA('abecean_pirates').GetName] становятся доступны как [men_at_arms|El]" 
 
 # Tradition parameters
- culture_parameter_unlock_maa_nedic_headhunters:0 "Доступны [men_at_arms|El] — [GetMaA('south_nedic_headhunters').GetName], [GetMaA('central_nedic_headhunters').GetName] или [GetMaA('north_nedic_headhunters').GetName] в зависимости от того, к какой ветви недийского [Concept('heritage', 'наследия')|E] принадлежит эта культура."
+ culture_parameter_unlock_maa_nedic_headhunters:0 "Доступны [men_at_arms|El] — [GetMaA('south_nedic_headhunters').GetName], [GetMaA('central_nedic_headhunters').GetName] или [GetMaA('north_nedic_headhunters').GetName] в зависимости от того, к какой ветви недийского [Concept('heritage', 'наследия')|E] принадлежит или от которой происходит эта культура."
  culture_parameter_unlock_maa_jungle_peltasts:0 "Доступны [men_at_arms|El] — [GetMaA('jungle_peltasts').GetName]"
  culture_parameter_unlock_maa_winged_avengers:0 "Доступны [men_at_arms|El] — [GetMaA('winged_avengers').GetName]"
  culture_parameter_unlock_maa_dunmer_oathmen:0 "Доступны [men_at_arms|El] — [GetMaA('dunmer_oathmen').GetName]"
@@ -531,3 +541,4 @@
  
  tradition_cyrodiil_legacy_trigger_desc:0 "Не имеет #V сиродильского#! [heritage|El] и владеет империей Тамриэль или Сиродил в качестве основного титула."
 
+ culture_parameter_reduced_acceptance_to_convert_counties_to_other_cultures:0 "[counties|E] могут быть преобразованы в [valid_conversion_culture_medium|El] другого [Concept( 'heritage', 'наследия' )|E] при показателе [Concept( 'cultural_acceptance', 'терпимости культур' )|E] [EmptyScope.ScriptValue('ek_culture_conversion_acceptance_threshold_reduced')], а не [EmptyScope.ScriptValue('ek_culture_conversion_acceptance_threshold_normal')]"

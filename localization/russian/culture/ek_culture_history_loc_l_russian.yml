@@ -28,7 +28,7 @@
  mathmeldi_history_loc:0 "#L [CULTURE.GetCollectiveNoun]ие#! изгнанники из Альд-Сирода"
  barsaebic_history_loc:0 "Происходят от [Concept( 'compendium_aedric', 'аэдрических' )|E] #L [CULTURE.GetCollectiveNoun|l]их#! беженцев во время [Concept( 'compendium_narfinsel_schism', 'Нарфинсельского раскола' )|E]"
  dynari_history_loc:0 "Происходят от #L [CULTURE.GetCollectiveNoun|l]их#! неналатанцев"
- bosmer_history_loc:0 "Народ, который И'ффре вылепил из первородной Тины"
+ bosmer_history_loc:0 "Народ, который И'ффре вылепил из первородной материи, известной как «$ooze_name$»"
  strident_history_loc:0 "Происходят от #L [CULTURE.GetCollectiveNoun|l]ого#! народа Золотого Берега под #L [TARGET_CULTURE.GetCollectiveNoun|l]им#! влиянием" 
  blackwood_history_loc:0 "Народ, сохранивший старые #L [CULTURE.GetCollectiveNoun|l]ие#! обычаи"
  rimmenese_history_loc:0 "#L [CULTURE.GetCollectiveNoun]ие#! торговцы, поселившиеся в землях Риммена" 

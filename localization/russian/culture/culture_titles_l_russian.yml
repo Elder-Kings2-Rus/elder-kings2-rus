@@ -879,9 +879,11 @@
  ashkhan:0 "Пепельный хан"
  snowkhan:0 "Снежный хан"
  marshkhan:0 "Болотный хан"
+ sandkhan:0 "Песчаный хан"
  great_ashkhan:0 "Великий пепельный хан"
  great_snowkhan:0 "Великий снежный хан"
  great_marshkhan:0 "Великий болотный хан"
+ great_sandkhan:0 "Великий песчаный хан"
  #terrain_khan:0 "[CHARACTER.GetCapitalLocation.GetTerrain.GetNameNoTooltip]khan"
  #great_terrain_khan:0 "Great [CHARACTER.GetCapitalLocation.GetTerrain.GetNameNoTooltip]khan"
  baron_tribal_male_chimeris_group:0 "Гетман"
@@ -910,6 +912,7 @@
  ashkhanate:0 "Пепельный ханат"
  snowkhanate:0 "Снежный ханат"
  marshkhanate:0 "Болотный ханат"
+ sandkhanate:0 "Песчаный ханат"
  terrain_khanate:0 "[CHARACTER.GetCapitalLocation.GetTerrain.GetNameNoTooltip]khanate"
  
  #Bosmeris Group
