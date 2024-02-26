@@ -1,3 +1,4 @@
+﻿#EK Edit: added 2 lines (no. 3271 and 3272) so that long bookmark names would fit in the box in bookmark screen, added 2216 calendar edit
 widget = {
 	name = "frontend_bookmarks"
 	size = { 100% 100% }
@@ -1440,7 +1441,7 @@ widget = {
 										}
 
 										text_single = {
-											text = "[GameSetup.GetSelectedDate.GetStringLong]"
+											text = frontend_bookmarks_date_replace #EK ADDED
 											default_format = "#medium;glow_color:{0,0,0,1}"
 											using = Font_Size_Medium
 											using = Font_Type_Flavor
@@ -1832,7 +1833,6 @@ widget = {
 													#	autoresize = no
 													#	align = nobaseline
 													#}
-
 													text_single = {
 														layoutpolicy_horizontal = expanding
 														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('imperial_cult'))]"
@@ -2015,7 +2015,7 @@ widget = {
 														autoresize = no
 														align = nobaseline
 													}
-													
+
 													text_single = {
 														layoutpolicy_horizontal = expanding
 														text = "BOOKMARK_CHARACTER_DIFFICULTY"
@@ -2275,7 +2275,7 @@ widget = {
 											}
 
 											icon = {
-												size = { 330 91}
+												size = { 330 92}
 												texture = "gfx/interface/bookmarks/start_buttons/start_frame.dds"
 											}
 										}
@@ -2395,7 +2395,7 @@ widget = {
 										}
 
 										text_single = {
-											text = "[GameSetup.GetSelectedDate.GetStringLong]"
+											text = frontend_bookmarks_date_replace #EK ADDED
 											default_format = "#medium;glow_color:{0,0,0,1}"
 											using = Font_Size_Medium
 											using = Font_Type_Flavor
@@ -3446,6 +3446,7 @@ types BookmarkPortraits
 						size = {20 20}
 					}
 
+#EK Edit: max_width and multiline, aiming to make long bookmark names display correctly
 					text_single = {
 						text = "[BookmarkItem.GetName]"
 						default_format = "#high;glow_color:{0,0,0,1}"
@@ -3453,6 +3454,7 @@ types BookmarkPortraits
 						using = Font_Size_Medium
 						max_width = 210
 						multiline = yes
+
 					}
 
 					icon = {
@@ -3471,7 +3473,7 @@ types BookmarkPortraits
 					duration = 0.1
 					using = Animation_Curve_Default
 
-					alpha = 1
+					alpha = 0
 				}
 
 				state = {
@@ -3689,6 +3691,12 @@ types BookmarkPortraits
 						}
 
 						coa_realm_bookmark = {
+							visible = "[Not(BookmarkCharacter.GetGovernmentType.IsType('clan_government'))]"
+							position = { 0 -25 }
+						}
+
+						coa_clan_bookmark = {
+							visible = "[BookmarkCharacter.GetGovernmentType.IsType('clan_government')]"
 							position = { 0 -25 }
 						}
 
@@ -3937,7 +3945,7 @@ types GameSetupTypes
 		using = tooltip_nw
 
 		modify_texture = {
-			visible = "[Not( DlcItem.GetDlc.IsEnabled )]"
+			visible = "[And( Not( DlcItem.GetDlc.IsEnabled ), Not( EqualTo_string(DlcItem.GetDlc.GetName, Localize('dlc_ek') ) ) )]" # EK EDIT
 			texture = "gfx/interface/colors/black.dds"
 			blend_mode = normal
 			alpha = 0.4

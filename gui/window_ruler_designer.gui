@@ -3437,7 +3437,7 @@ window = {
 
 							button_standard = {
 								text = RULER_DESIGNER_APPEARANCE_CATEGORY_HAIR
-								visible = "[Not(VariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian'))) ]"
+								#visible = "[Not(VariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian'))) ]" #commented out for now, until we can figure out how to prevent Argonians and others getting hair altogether in RD
 								onclick = "[VariableSystem.Set( 'appearance_customization_side_tab_open', 'hair' )]"
 								onclick = "[VariableSystem.Set( 'appearance_customization_portrait_view', 'face' )]"
 								onclick = "[VariableSystem.Set( Localize('race_gene_skin_color'), Localize('human_skin') )]"
@@ -3446,8 +3446,8 @@ window = {
 
 							button_standard = {
 								text = RULER_DESIGNER_APPEARANCE_CATEGORY_BEARD
-								visible = "[And(Not(VariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian'))), Not( RulerDesignerWindow.IsFemale)) ]"
-
+								#visible = "[And(Not(VariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian'))), Not( RulerDesignerWindow.IsFemale)) ]" #commented out for now, until we can figure out how to prevent Argonians and others getting beards altogether in RD
+								visible = "[Not( RulerDesignerWindow.IsFemale )]"
 								onclick = "[VariableSystem.Set( 'appearance_customization_side_tab_open', 'beard' )]"
 								onclick = "[VariableSystem.Set( 'appearance_customization_portrait_view', 'face' )]"
 								down = "[VariableSystem.HasValue( 'appearance_customization_side_tab_open', 'beard' )]"
