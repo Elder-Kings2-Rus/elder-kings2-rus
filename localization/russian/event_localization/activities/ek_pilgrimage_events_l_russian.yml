@@ -62,7 +62,7 @@
  ek_pilgrimage.0009.b:0 "Произнести краткую молитву и вернуться назад."
 
  ek_pilgrimage.0010.t:0 "Путь паломника: Справедливость"
- ek_pilgrimage.0010.desc:0 "Паломничество приводит меня на вершину храма в Гнисисе, где я замечаю Маску Вивека и святилище рядом с ней.\n\nодойдя к святилищу, как и многие паломники до меня, я замечаю возложенные у основания зелья исцеления болезней и выбитую надпись на алтаре:\n\n#I Когда Вивек проснулся, то обнаружил, что и его, и его спутников покрыл толстый слой серого пепла. Они превратились в неподвижные изваяния, не способные освободиться, и сердце Вивека исполнилось отчаяния. Но его слёзы размягчили пепельный панцирь, Вивек высвободился, сорвал пепельную коросту со своих едва живых спутников, вдохнул жизнь в их лёгкие и исцелил от недуга. В том и заключается героизм Вивека — его нежное сердце дало силы там, где не помогла его мощь.#!"
+ ek_pilgrimage.0010.desc:0 "Паломничество приводит меня на вершину храма в Гнисисе, где я замечаю Маску Вивека и святилище рядом с ней.\n\nПодойдя к святилищу, как и многие паломники до меня, я замечаю возложенные у основания зелья исцеления болезней и выбитую надпись на алтаре:\n\n#I Когда Вивек проснулся, то обнаружил, что и его, и его спутников покрыл толстый слой серого пепла. Они превратились в неподвижные изваяния, не способные освободиться, и сердце Вивека исполнилось отчаяния. Но его слёзы размягчили пепельный панцирь, Вивек высвободился, сорвал пепельную коросту со своих едва живых спутников, вдохнул жизнь в их лёгкие и исцелил от недуга. В том и заключается героизм Вивека — его нежное сердце дало силы там, где не помогла его мощь.#!"
  ek_pilgrimage.0010.a:0 "Возложить зелье исцеления болезней."
  ek_pilgrimage.0010.b:0 "Кивнуть и продолжить путь."
 
@@ -220,9 +220,9 @@
  ek_pilgrimage.1035.desc:0 "[Select_CString(ROOT.Char.IsFemale, 'Измученная', 'Измученный' )], но всё же [Select_CString(ROOT.Char.IsFemale, 'восстановившая', 'восстановивший' )] своё самообладание, я наконец-то [Select_CString(ROOT.Char.IsFemale, 'вернулась', 'вернулся' )] домой. Изменилось немногое, но [ROOT.Char.GetFaith.PriestNeuterPlural] и [ROOT.Char.GetFaith.BishopNeuterPlural] смотрят на меня совсем иначе.\n\nЯ [Select_CString(ROOT.Char.IsFemale, 'прошла путь святой', 'прошёл путь святого' )], и они уверены, что он изменил меня — понимаю я это, или нет."
  ek_pilgrimage.1035.a:0 "Пусть Кин присмотрит за вами."
 
- ek_pilgrimage.1036.t:0 "On Those Who Know Baan Dar"
- ek_pilgrimage.1036.desc:0 "I find myself in the sanctified embrace of a pilgrimage site, a place suffused with the enigmatic teachings of Baan Dar, the Bandit God. As I sit amidst this sacred ground, the essence of his wisdom pervades the air, compelling me to contemplate the diverse interpretations of his teachings.\n\nI ponder the curious ways different cultures and faiths perceive Baan Dar. The Wood Elves' exploding chickens, the outsiders' Bandit God and tales of the Man of a Thousand Faces—the disparities in these views are stark. To my people, the true Khajiit, Baan Dar is not a mere legend or story but a way of life. It's in every action, from the enslaved breaking free to those fighting for their freedom."
- ek_pilgrimage.1036.a:0 "Do not let others take it if you wish to keep it."
- ek_pilgrimage.1036.b:0 "Do not let others chain you if you wish to live without chains."
- ek_pilgrimage.1036.c:0 "Do not let others fool you if you wish not to be fooled."
- ek_pilgrimage.1036.d:0 "Baan Dar does not ask you to praise his name."
+ ek_pilgrimage.1036.t:0 "О тех, кто знает Баан-Дара"
+ ek_pilgrimage.1036.desc:0 "Я оказываюсь в священных объятиях цели моего паломничества. Места, пропитанного загадочными учениями Баан-Дара, Бога-Разбойника. Я сижу на этой священной земле, а в воздухе витает сущность его мудрости, заставляя меня задумываться о различных интерпретациях его учений.\n\nЯ размышляю о том, насколько любопытно воспринимают Баан-Дара представители разных культур и конфессий. Взрывающиеся цыплята и прочие шалости для лесных эльфов, Бог-Разбойник для чужаков и сказки о Человеке с Тысячей Лиц — различия во взглядах просто разительны. Для моего народа, истинных каджитов, Баан-Дар — не просто легенда или история, а образ жизни. Он присутствует в каждом действии и помогает тем, кто разрывает цепи и борется за свою свободу."
+ ek_pilgrimage.1036.a:0 "Не давай другим забрать то, что не хочешь отдавать."
+ ek_pilgrimage.1036.b:0 "Не давай другим заковать тебя в цепи, если желаешь жить без цепей."
+ ek_pilgrimage.1036.c:0 "Не давай другим себя одурачить, если не хочешь остаться в дураках."
+ ek_pilgrimage.1036.d:0 "Баан-Дар не требует от тебя воспевать его имя."
