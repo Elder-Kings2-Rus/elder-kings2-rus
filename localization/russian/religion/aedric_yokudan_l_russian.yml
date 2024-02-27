@@ -2,10 +2,10 @@
 
 # Yoku Faiths
  yokudan_religion:0 "Йокуданск"
- yokudan_religion_adj:0 "Йоку"
- yokudan_religion_adherent:0 "Последователь Йоку"
- yokudan_religion_adherent_plural:0 "Последователи Йоку"
- yokudan_religion_desc:1 "Йокуданский пантеон вращается вокруг тех богов, которым поклоняются редгарды и которых они принесли из Старой Йокуды после её разрушения."
+ yokudan_religion_adj:0 "Традиции Йоку"
+ yokudan_religion_adherent:0 "Йокуданец"
+ yokudan_religion_adherent_plural:0 "Йокуданцы"
+ yokudan_religion_desc:1 "Йокуданский пантеон вращается вокруг тех богов, которым поклоняются редгарды и которых они принесли из старой Йокуды после её разрушения."
  yokudan_high_god_name:0 "$god_ruptga_name$"
  yokudan_high_god_name_2:0 "$yokudan_high_god_name$" # Optional translation alt
  yokudan_high_god_name_3:0 "$yokudan_high_god_name$" # Optional translation alt
@@ -21,7 +21,7 @@
  yokudan_religious_symbol:0 "шехай"
  yokudan_religious_text:0 "древние истории"
  yokudan_religious_head_title:0 "Муфтий"
- yokudan_religious_head_title_name:0 "Йокуданские верования"
+ yokudan_religious_head_title_name:0 "Традиции Йоку"
  yokudan_devotee_male:0 "дервиш"
  yokudan_devotee_male_plural:0 "дервиши"
  yokudan_devotee_female:0 "дервиш"
@@ -89,7 +89,7 @@
  satakal_adj:0 "Сатакал"
  satakal_adherent:0 "Последователь Сатакала"
  satakal_adherent_plural:0 "Последователи Сатакала"
- satakal_desc:1 "Издревле йокуданцы традиционно поклонялись Сатакалу Коже Мира, Первому Змею, который постоянно пожирает себя и сбрасывает кожу. В отличие от религии Хаммерфелла, ориентированной на Руптгу, йокуданцы по-прежнему считают Сатакала главой своего пантеона из-за его циклической природы как Змеи, Которая Пришла Раньше."
+ satakal_desc:1 "Издревле йокуданцы традиционно поклонялись Сатакалу Мировой Оболочке, Первому Змею, который постоянно пожирает себя и сбрасывает кожу. В отличие от религии Хаммерфелла, ориентированной на Руптгу, йокуданцы по-прежнему считают Сатакала главой своего пантеона из-за его циклической природы как Змея, явившегося Прежде."
  satakal_high_god_name:0 "$god_satakal_name$"
  satakal_high_god_name_alternate:0 "$god_satakal_name$"
  satakal_high_god_name_possessive:0 "$god_satakal_name_possessive$"
@@ -109,8 +109,8 @@
  
  herd_mother:0 "Мать-табунск"
  herd_mother_adj:0 "Мать-Табунщица"
- herd_mother_adherent:0 "Последователь Матери-Табунщицы"
- herd_mother_adherent_plural:0 "Последователи Матери-Табунщицы"
+ herd_mother_adherent:0 "Табунщик"
+ herd_mother_adherent_plural:0 "Табунщики"
  herd_mother_desc:1 "Малоизвестная вера, которую исповедуют лошадники, йокуданский пастуший народ, происходящий с острова Акос-Касаз. Они почитают анимистический дух, известный как Мать-Табунщица, которая направляет племя и защищает их огромные табуны лошадей."
  herd_mother_house_of_worship:0 "загон"
  herd_mother_house_of_worship_plural:0 "загоны"

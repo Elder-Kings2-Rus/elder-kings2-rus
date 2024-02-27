@@ -317,3 +317,8 @@
  ## Regional MaA
  #innovation_war_mammoths:0 "Боевые мамонты"
  #innovation_war_mammoths_desc:0 "Огромных зверей из замерзших земель, на которых мы живем, можно обучить военному делу. Их размеры и выносливость дают им огромное преимущество в бою, особенно на холоде. Однако они менее приспособлены к горной или жаркой местности.."
+
+ eligible_accolade_archmage_attribute_ACCOLADES_DLC:0 "[Concept('knights', 'Рыцари' )|E] этой [Concept('culture', 'культуры' )|E] могут получить [accolades|El] «[GetAccoladeType('archmage_attribute').GetName]»"
+ eligible_accolade_archmage_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_archmage_attribute_ACCOLADES_DLC')]"
+ eligible_accolade_spellsword_attribute_ACCOLADES_DLC:0 "[Concept('knights', 'Рыцари' )|E] этой [Concept('culture', 'культуры' )|E] могут получить [accolades|El] «[GetAccoladeType('spellsword_attribute').GetName]»"
+ eligible_accolade_spellsword_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_spellsword_attribute_ACCOLADES_DLC')]"

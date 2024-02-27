@@ -177,7 +177,13 @@
  join_cote_decision_confirm:0 "Единство во имя Божеств!"
  gain_doctrine_spiritual_head:0 "Ваша [faith|El] получит доктрину [head_of_faith|El] — [GetFaithDoctrine('doctrine_spiritual_head').GetBaseName]"
  join_cote_decision_faith_hostility:0 "Ваша [faith|El] получит #P -5#! к [Concept( 'faith_hostility', 'враждебности' )|E] с конфессиями, чьим [Concept( 'head_of_faith', 'главой' )|E] является Совет Восьми"
- faith_not_considered_evil:0 "Ваша [faith|El] не считается [Concept( 'faith_evil', 'воплощённым злом' )|E] Архипримасом"
+ faith_not_considered_evil:0 "Ваша [faith|El] не считается [Concept( 'faith_evil', 'воплощённым злом' )|E] архипримасом"
+
+ consult_xarxeans_decision:0 "Посоветоваться с зарксейцами"
+ consult_xarxeans_decision_desc:0 "Преемственность в рамках церемониархии может быть сложным делом, учитывающим такие факторы, как истинное происхождение, чистота поведения, соответствие священным числам и многое другое... Непредвиденное наследование случалось крайне редко.\n\nНо жрецы Заркса, которым доверены тайные формулы и задача ведения родословной, всегда могут подсказать мне, кто из моих отпрысков наиболее пригоден для этого."
+ consult_xarxeans_decision_tt:0 "Кто станет нашим следующим церемониархом?"
+ consult_xarxeans_decision_effect:0 "Если в этот момент произойдёт [succession|El], вам скажут, кто будет вашим [Concept( 'heir', 'наследником' )|E]."
+ consult_xarxeans_decision_confirm:0 "О, писцы Аури-Эля!"
 
 # Artifacts
 
@@ -302,11 +308,24 @@
  abdicate_decision_desc_incapable:0 "$abdicate_desc$"
  abdicate_decision_desc_old_age:0 "Я чувствую, как бремя моего возраста становится всё тяжелее с каждым днём, и не могу отрицать, что я уже не [Select_CString(ROOT.Char.IsFemale, 'та', 'тот' )] [ROOT.Char.GetWomanMan], каким [Select_CString(ROOT.Char.IsFemale, 'была', 'был' )] когда-то. Действительно ли я больше не могу править своей державой? Возможно, пришло время найти место для кого-то моложе меня."
  abdicate_decision_desc_long_rule:0 "Я правлю уже долгое время и иногда задумываюсь, действительно ли я хочу больше нести бремя своих титулов. Моя судьба прикована к судьбе моей державы, и бывают дни, когда я чувствую себя [Select_CString(ROOT.Char.IsFemale, 'обременённой', 'обременённым' )] своими обязанностями. Неужели я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] продолжать в том же духе?"
- abdicate_decision_tooltip:2 "Откажитесь от своих титулов и позвольте своему наследнику взять власть на себя."
+ abdicate_decision_tooltip:2 "Откажитесь от своих титулов и позвольте своему наследнику взять власть на себя"
  abdicate_decision_effect_tooltip:0 "@warning_icon! Вы снимете с себя полномочия правителя и продолжите игру в качестве своего наследника."
  abdicate_decision_confirm:0 "Так будет лучше."
- abdicate_old_age:0 "У вас есть [aging_modifier|El], равный 75 человеческим годам или старше."
+ abdicate_old_age:0 "У вас есть [ek_age_modifier|El], равный 75 человеческим годам или старше."
  abdicate_long_rule:0 "Вы правите уже 50 лет или дольше."
- abdicate_old_age_infirm:0 "У вас есть [aging_modifier|El], равный 60 человеческим годам или старше."
+ abdicate_old_age_infirm:0 "У вас есть [ek_age_modifier|El], равный 60 человеческим годам или старше."
  abdicate_long_rule_infirm:0 "Вы правите уже 40 лет или дольше."
  abdicate_scales_of_power:0 "Ваш регент не возражает против вашего отречения."
+
+ # Secret revelation
+ reveal_vampire_secret_decision:0 "Раскрыть вампиризм"
+ reveal_vampire_secret_decision_desc:0 "Долгое время я [Select_CString(ROOT.Char.IsFemale, 'жила', 'жил' )] в тайне, скрывая свою истинную природу создания ночи. Теперь же я [Select_CString(ROOT.Char.IsFemale, 'оказалась', 'оказался' )] в компании единомышленников, от которых мне не нужно скрываться. Может быть, пришло время мне выйти на свет?"
+ reveal_vampire_secret_decision_tooltip:0 "Раскрыть свою истинную природу"
+ reveal_vampire_secret_decision_confirm:0 "#italic Драматично взмахнуть плащом#!"
+ reveal_vampire_secret_decision_effect:0 "Объявить всему миру что вы - [GetTrait('vampire_character').GetName(GetNullCharacter)]"
+
+ reveal_lycan_secret_decision:0 "Раскрыть ликантропию"
+ reveal_lycan_secret_decision_desc:0 "Долгое время я [Select_CString(ROOT.Char.IsFemale, 'жила', 'жил' )] в тайне, скрывая свою истинную природу зверолюда. Теперь же я [Select_CString(ROOT.Char.IsFemale, 'оказалась', 'оказался' )] в компании единомышленников, от которых мне не нужно скрываться. Может быть, пришло время мне выйти на свет?"
+ reveal_lycan_secret_decision_tooltip:0 "Раскрыть свою истинную природу"
+ reveal_lycan_secret_decision_confirm:0 "#italic Повыть на луны#!"
+ reveal_lycan_secret_decision_effect:0 "Объявить всему миру что вы -  [GetTrait('lycan_character').GetName(GetNullCharacter)]"

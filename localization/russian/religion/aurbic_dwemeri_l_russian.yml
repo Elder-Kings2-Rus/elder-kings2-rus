@@ -2,9 +2,9 @@
 
 # Dwemer Faiths
  dwemer_religion:0 "Двемерск"
- dwemer_religion_adj:0 "Двемерское идолопоклонство"
- dwemer_religion_adherent:0 "Двемерский идолопоклонник"
- dwemer_religion_adherent_plural:0 "Двемерские идолопоклонники"
+ dwemer_religion_adj:0 "Двемерская наука"
+ dwemer_religion_adherent:0 "Двемер"
+ dwemer_religion_adherent_plural:0 "Двемеры"
  dwemer_religion_desc:0 "Древние, ныне вымершие, двемеры, проживающие в Северном Тамриэле, не поклонялись каким-либо конкретным богам, предпочитая концентрацию внимания на идеалах Разума и Логики"
  dwemer_religion_high_god_name:0 "$god_reason_and_logic_name$"
  dwemer_religion_high_god_name_2:0 "$dwemer_religion_high_god_name$" # Optional translation alt
@@ -27,7 +27,7 @@
  dwemer_religion_house_of_worship_plural:0 "галереи"
  dwemer_religion_religious_symbol:0 "тональное устройство"
  dwemer_religion_religious_text:0 "схемы"
- dwemer_religion_religious_head_title:0 "Верховный творец"
+ dwemer_religion_religious_head_title:0 "Верховный главнокомандующий"
  dwemer_religion_religious_head_title_name:0 "Колёса Затишья"
  dwemer_religion_devotee_male:0 "изобретатель"
  dwemer_religion_devotee_male_plural:0 "изобретатели"
@@ -84,8 +84,8 @@
  golden_tones_adj:0 "Златотонизм"
  golden_tones_adherent:0 "Тон"
  golden_tones_adherent_plural:0 "Тоны"
- golden_tones_desc:0 "Древние двемеры считали все вещи во вселенной, включая самих себя, состоящими из музыкальных тонов. В частности, они признали достойными почтения «пятнадцать и один золотой тон», или «авателед кагр». Великим стремлением Верховного главнокомандующего Кагренака было манипулирование «тональной архитектурой» вселенной на благо народа двемеров. Кульминацией этого стал его последний и величайший проект: создание Медного бога Анумидиума, которого двемеры должны были использовать для выхода за пределы Мундуса. Удалось ли им это - загадка; известно лишь, что однажды, в 1Э 668 году, вся раса бесследно исчезла, и их больше никогда не видели."
- golden_tones_religious_head_title_name:0 "Tonal архитекторы"
+ golden_tones_desc:0 "Древние двемеры считали все вещи во вселенной, включая самих себя, состоящими из музыкальных тонов. В частности, они признали достойными почтения «пятнадцать и один золотой тон», или «авателед кагр». Великим стремлением Верховного главнокомандующего Кагренака было манипулирование «тональной архитектурой» вселенной на благо народа двемеров. Кульминацией этого стал его последний и величайший проект: создание Медного бога Анумидиума, которого двемеры должны были использовать для выхода за пределы Мундуса. Удалось ли им это - загадка; известно лишь, что однажды, в 668 году 1Э, вся раса бесследно исчезла, и их больше никогда не видели."
+ golden_tones_religious_head_title_name:0 "Тональные архитекторы"
  golden_tones_high_god_name:0 "$god_tones_name$"
  golden_tones_high_god_name_2:0 "$golden_tones_high_god_name$" # Optional translation alt
  golden_tones_high_god_name_3:0 "$golden_tones_high_god_name$" # Optional translation alt
