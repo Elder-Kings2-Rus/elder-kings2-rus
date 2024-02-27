@@ -5,7 +5,7 @@
  boethiah_religion_adj:1 "Боэтия"
  boethiah_religion_adherent:1 "Верный Боэтии"
  boethiah_religion_adherent_plural:1 "Верные Боэтии"
- boethiah_religion_desc:0 "Небольшой набор верований, почитающих Боэтию, Принца Заговоров. Все, кто стремится к великим свершениям, будь то битва или убийство, воспевают её имя. Но данмеры Морровинда и каджиты Эльсвейра относятся к ней с большим уважением."
+ boethiah_religion_desc:0 "Небольшой набор верований, почитающих Боэтию, Князя Интриг. Все, кто стремится к великим свершениям, будь то битва или убийство, воспевают её имя. Но данмеры Морровинда и каджиты Эльсвейра относятся к ней с большим уважением."
  boethiah_high_god_name:0 "$GET_RANDOM_CUSTOM_BOETHIAH_NAME$"
  boethiah_high_god_name_2:0 "$boethiah_high_god_name$" # Optional translation alt
  boethiah_high_god_name_3:0 "$boethiah_high_god_name$" # Optional translation alt
@@ -61,6 +61,6 @@
 
  boethiah_cult:1 "Боэтийск"
  boethiah_cult_adj:1 "Культ Боэтии"
- boethiah_cult_adherent:1 "Последователь Культа Боэтии"
- boethiah_cult_adherent_plural:1 "Последователи Культа Боэтии"
- boethiah_cult_desc:0 "Культ Боэтии стремится воздать должное Обманщику Народов, придерживаясь его строжайших принципов. Известно, что они наносят огромный ущерб Тамриэлю, будь то война или коварные заговоры."
+ boethiah_cult_adherent:1 "Культист Боэтии"
+ boethiah_cult_adherent_plural:1 "Культисты Боэтии"
+ boethiah_cult_desc:0 "Культ Боэтии стремится воздать должное Обманщице Народов, придерживаясь её строжайших принципов. Известно, что они наносят огромный ущерб Тамриэлю, будь то война или коварные заговоры."

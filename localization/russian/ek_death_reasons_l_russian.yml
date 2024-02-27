@@ -114,6 +114,7 @@
  death_sea_dragon:0 "[Select_CString(CHARACTER.IsFemale, 'была разорвана', 'был разорван' )] на части морским драконом"
  death_sea_giants:0 "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] во время смертоносной атаки морских гигантов"
  death_sea_ghosts:0 "[Select_CString(CHARACTER.IsFemale, 'была схвачена', 'был схвачен' )] разгневанными Морскими Призраками"
+ death_cliff_racer:0 "[Select_CString(CHARACTER.IsFemale, 'была похищена', 'был похищен' )] злобными скальными наездниками"
  death_pirates:0 "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] пиратами"
  death_ithguleoir:0 "[Select_CString(CHARACTER.IsFemale, 'стала', 'стал' )] жертвой бессмертного левиафана Итгулора"
  death_maelstrom:0 "[Select_CString(CHARACTER.IsFemale, 'утонула', 'утонул' )] в таинственном водовороте, который вёл прямиком в Хладную Гавань"
@@ -129,3 +130,5 @@
  death_apocrypha:0 "[Select_CString(CHARACTER.IsFemale, 'была заманена', 'был заманен' )] в Апокриф, где и [Select_CString(CHARACTER.IsFemale, 'заблудилась', заблудился' )] в его непостижимых тайнах"
  death_purged_undead:0 "[Select_CString(CHARACTER.IsFemale, 'была очищена', 'был очищен' )] с помощью мощной восстановительной магии"
  death_purged_undead_killer:0 "[Select_CString(CHARACTER.IsFemale, 'была очищена', 'был очищен' )] с помощью мощной восстановительной магии, применённой персонажем по имени [TARGET_CHARACTER.GetUIName]"
+ death_alit:0 "[Select_CString(CHARACTER.IsFemale, 'загрызена', 'загрызён' )] алитом насмерть"
+ death_nix_hound:0 "[Select_CString(CHARACTER.IsFemale, 'лишена', 'лишён' )] всей крови никс-гончей"

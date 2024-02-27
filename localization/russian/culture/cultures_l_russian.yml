@@ -51,26 +51,17 @@
 
  # for some reason <culture>_opinion has no localisation, it has to be defined per culture
 
-#AKAVIRI TODO, made the concept -Vivec
- akaviri_group:0 "[cg_akaviri|L]"
-    akaviri_group_collective_noun:1 "[cg_akaviri_cn|L]"
-    game_concept_cg_akaviri:0 "Акавири"
-    game_concept_cg_akaviri_cn:0 "Акавири"
-    game_concept_cg_akaviri_desc:0 "akaviri_group"
-    akaviri_group_desc:0 "Чужестранцы с Востока"
-    
+ ##AKAVIRI
     tsaesci:0 "Цаэски" ## Placeholder DO NOT REMOVE. HISTORY USE ONLY (FOR NOW).
  tsaesci_prefix:0 "Цаэски"
     tsaesci_collective_noun:1 "Цаэскийск"
     tsaesci_desc:0 "Цаэски - легендарные змеелюди с Акавира. О них мало что известно в Тамриэле." ## Placeholder DO NOT USE. HISTORY USE ONLY (FOR NOW).
     tsaesci_opinion:1 "Мнение $tsaesci$" 
-
  jaegi:0 "Джеги" ## Placeholder DO NOT REMOVE. HISTORY USE ONLY (FOR NOW).
     jaegi_prefix:0 "Джего"
     jaegi_collective_noun:1 "Джегск"
     jaegi_desc:0 "Остатки людского населения, уцелевшие после прихода цаэски к власти, проживающие на самом западном краю Акавира. Джеги в основном заняты выпасом скота и превыше всего ценят честность и скромность. Об их боевой выучке ходит много хвалебных слухов."
     jaegi_opinion:1 "Мнение $jaegi$"    
-
  ilniviri:0 "Ильнивири"
     ilniviri_prefix:0 "Ильнивиро"
     ilniviri_collective_noun:1 "Ильнивирск"
@@ -84,13 +75,6 @@
 
 
 #ALDMERI
- aldmeris_group:0 "[cg_aldmeris|L]"
-    aldmeris_group_collective_noun:1 "[cg_aldmeris_cn|L]"
-    game_concept_cg_aldmeris:0 "Альдмер"
-    game_concept_cg_aldmeris_cn:0 "Альдмеры"
-    game_concept_cg_aldmeris_desc:0 "aldmeris_group"
-    aldmeris_group_desc:0 "Алинорские меры"
-
  alinor:0 "Алинорцы"
     alinor_prefix:0 "Алиноро"
     alinor_collective_noun:1 "Алинорск"
@@ -125,12 +109,6 @@ maormer:0 "Маормеры"
     beyonder_opinion:0 "$beyonder_collective_noun$ое мнение"
 
 #FALMERI
- falmeris_group:0 "[cg_falmeris|L]"
-    falmeris_group_collective_noun:1 "[cg_falmeris_cn|L]"
-    game_concept_cg_falmeris:0 "Фалмер"
-    game_concept_cg_falmeris_cn:0 "Фалмеры"
-    game_concept_cg_falmeris_desc:0 "falmeris_group"
-    falmeris_group_desc:0 "Фалмеретские меры"
  falmer:0 "Снежные эльфы"
     falmer_prefix:0 "Фалмеро"
     falmer_collective_noun:1 "Снежно-эльфск"
@@ -143,13 +121,6 @@ maormer:0 "Маормеры"
     falmer_betrayed_opinion:0 "$falmer_betrayed_collective_noun$ мнение"
 
 #AYLEID
- ayleid_group:0 "[cg_ayleid|L]"
-    ayleid_group_collective_noun:0 "[cg_ayleid_cn|L]"
-    game_concept_cg_ayleid:0 "Айлейд"
-    game_concept_cg_ayleid_cn:0 "Айлейды"
-    game_concept_cg_ayleid_desc:0 "ayleid_group"
-    ayleid_group_desc:0 "Айлейды, салиачи, дикие эльфы или высокие эльфы Хартленда - все эти многочисленные названия подчеркивают богатую историю этого народа. Изначально представляя собой альдмерских колонистов, заселивших Альд-Сирод, они основали множество оживленных и ссорящихся между собой городов-государств, каждый из которых стремился как можно больше быть непохожим на прочие. То, что некоторые ученые величают их грозной империей, которую свергла Алессия, Империя салиачи, скорее всего представляла собой сеть айлейдских городов и их вассалов, связанных между собой союзами, а не отдельное государство. \n\nЭто утомленные миром художники и чародеи, некогда преследовавшие безграничные страсти, зачастую сопровождавшиеся актами жестокости и безумия, а ныне они скитаются по миру в поисках безопасных пристанищ и с тоской вспоминают давно потерянный дом, располагавшийся в тени Башни Белого Золота."
-
  ayleid:1 "Салиачи"
     ayleid_prefix:0 "Салиачско"
     ayleid_collective_noun:1 "Салиачск"
@@ -172,13 +143,6 @@ maormer:0 "Маормеры"
     dynari_opinion:0 "$dynari_collective_noun$ое мнение"
     
 #NEDIC
- nedic_group:0 "[cg_nedic|L]"
-    nedic_group_collective_noun:1 "[cg_nedic_cn|L]"
-    game_concept_cg_nedic:0 "Недиец"
-    game_concept_cg_nedic_cn:0 "Недийцы"
-    game_concept_cg_nedic_desc:0 "nedic_group"
-    nedic_group_desc:0 "$game_concept_cg_nedic_cn$ - совокупность людских племён, населяющих Тамриэль. Первоначально они заселили Илиакский залив, южный Скайрим, Сиродил и Аргонию; многие племена были вытеснены или поглощены в результате переселений меров и прочих людских племён. Самой многочисленной сохранившейся группой недийских народов являются ричмены Предела, или «Карта», как его называют местные - в давние времена являвшегося независимым королевством, до того, как Реман разделил эти земли между Хай Роком и Скайримом.\n\nНесмотря на то, что многие из этих культур вымерли или близки к вымиранию, выдающийся правитель может проложить путь к их возрождению..." ## Сохраню концепции тут, на всякий случай. $game_concept_cg_nedic_cn$ $reachfolk$
-
  reachfolk:0 "Ричмены"
     reachfolk_prefix:0 "Предело"
     reachfolk_collective_noun:1 "Ричменск"
@@ -252,13 +216,6 @@ maormer:0 "Маормеры"
     nede_opinion:0 "$nede_collective_noun$ое мнение"
     
 #BRETON
- breton_group:0 "[cg_breton|L]"
-    breton_group_collective_noun:1 "[cg_breton_cn|L]"
-    game_concept_cg_breton:0 "Бретонец"
-    game_concept_cg_breton_cn:0 "Бретонцы"
-    game_concept_cg_breton_desc:0 "breton_group"
-    breton_group_desc:0 "Ни одно племя людей не испытало больше эльфийского влияния на свою культуру больше, чем бретонцы. Их название может происходить от «берату» (полукровки). Но в нынешних бретонцах течёт мало крови меров. После битвы при вересковых пустошах Гленумбры они сбросили иго Диренни, что позволило им начать преследовать собственные амбиции. \n\n«Каждый холм - замок. Каждый замок - королевство» - так описывают их земли, что соответствует действительности, так как бретонские князья яростно оберегают свою независимость и соперничают между собой, используя любые средства, которые помогут им достичь власти. Они гордятся тайными знаниями и верностью рыцарским добродетелям."
-
  glenumbran:0 "Гленумбры"
     glenumbran_prefix:0 "Гленумбро"
     glenumbran_collective_noun:1 "Гленумбрийск"
@@ -290,13 +247,6 @@ maormer:0 "Маормеры"
     systrean_desc:0 "Систресцы или бретонцы Высокого острова, - потомки бретонских моряков с Хай Рока, прибывших на архипелаг Систрес вслед за Флотом Всех флагов, возглавляемым адмиралом Бенду Оло. Систресцы во многом установили на островах, покрытых джунглями, феодальные порядки наподобие тех, что существуют в Хай Роке и были признаны акавирийскими Потентатами в обмен на то, что архипелаг стал местом ссылки нежелательных людей - многие из которых с тех пор интегрировались в систресское общество, которое испытало сильно влияние окружающих абисинских культур."
     systrean_opinion:0 "$systrean_collective_noun$ое мнение"  
 #IMPERIAL
- cyrodiilic_group:0 "[cg_cyrodiilic|L]"
-    cyrodiilic_group_collective_noun:1 "[cg_cyrodiilic_cn|L]"
-    game_concept_cg_cyrodiilic:0 "Сиродилец"
-    game_concept_cg_cyrodiilic_cn:0 "Сиродильцы"
-    game_concept_cg_cyrodiilic_desc:0 "cyrodiilic_group"
-    heritage_cyrodiilic_desc:0 "Происходящие из центра Тамриэля сиродильцы, также известные как «имперцы», доминируют на политической и культурной арене континента с момента падения империи айлейдов, свергнутых Святой Алессией, Королевой Рабов. Традиционное центральное положение Сиродила сделало его открытым для влияния большинства соседних королевств, особенно нордов и бретонцев. \n\nСиродильцы гордятся своими цивилизованными манерами и общей компетентностью во всех делах, будь то военное дело, наука или администрирование. Большая часть литературы Тамриэля создана имперскими учеными (иногда с явной предвзятостью), что является свидетельством их обширных связей и развитой научной инфраструктуры. \nПросторы Сиродила дали начало многим местным культурам, наиболее известными из которых являются коловианцы на западе и нибенейцы на востоке."
-
  heartlander:0 "Хартлендцы"
     heartlander_prefix:0 "Хартлендско"
     heartlander_collective_noun:1 "Хартлендск"
@@ -329,13 +279,6 @@ maormer:0 "Маормеры"
     rimmenese_opinion:0 "$rimmenese_collective_noun$ое мнение"
     
 #NORD
- nordic_group:0 "[cg_nordic|L]"
-    nordic_group_collective_noun:1 "[cg_nordic_cn|L]"
-    game_concept_cg_nordic:0 "Норд"
-    game_concept_cg_nordic_cn:0 "Норды"
-    game_concept_cg_nordic_desc:0 "nordic_group"
-    nordic_group_desc:0 "Свирепая и воинственная культура, норды - потомки древних атморцев, заселивших Скайрима. Впервые прибыв под командованием Исграмора, они сперва поддерживали мирное сосуществование со снежными эльфами. Норды решили завоевать весь Скайрим после того, как фалмеры разрушили Саартал, первый нордский город. Норды весьма выносливы и жизнерадостны, и считаются одними из самых славных воинов Тамриэля. Норды считают самих себя вечными чужаками и захватчиками, и даже когда они завоевывают прочие народы, они редко ощущают с ними родство."
-
  eastmarcher:0 "Истмаркцы"
     eastmarcher_prefix:0 "Нордско"
     eastmarcher_collective_noun:1 "Истмаркск"
@@ -363,13 +306,6 @@ maormer:0 "Маормеры"
     atmoran_opinion:0 "$atmoran_collective_noun$ое мнение"
     
 #CHIMERIS
- chimeris_group:0 "[cg_chimeris|L]"
-    chimeris_group_collective_noun:1 "[cg_chimeris_cn|L]"
-    game_concept_cg_chimeris:0 "Кимер"
-    game_concept_cg_chimeris_cn:0 "Кимеры"
-    game_concept_cg_chimeris_desc:0 "chimeris_group"
-    chimeris_group_desc:0 "Они не достигли ЧИМ несмотря на название"
-
  chimer:1 "Кимеры"
     chimer_prefix:0 "Кимеро"
     chimer_collective_noun:1 "Кимерск"
@@ -387,13 +323,6 @@ maormer:0 "Маормеры"
     cantemiric_opinion:0 "$cantemiric_collective_noun$ое мнение"
     
 #DUNMERIS
- dunmeris_group:0 "[cg_dunmeris|L]"
-    dunmeris_group_collective_noun:1 "[cg_dunmeris_cn|L]"
-    game_concept_cg_dunmeris:0 "Данмер"
-    game_concept_cg_dunmeris_cn:0 "Данмеры"
-    game_concept_cg_dunmeris_desc:0 "dunmeris_group"
-    dunmeris_group_desc:0 "Морровиндские меры"
-
  gah_julan:1 "Гах-джуланы"
     gah_julan_prefix:0 "Джулано"
     gah_julan_collective_noun:1 "Джуланск"
@@ -408,6 +337,7 @@ maormer:0 "Маормеры"
     chuzei_prefix:0 "Шузо"
     chuzei_collective_noun:1 "Шузейск"
     chuzei_desc:0 "Представляя, возможно, самых ортодоксальных представителей великих домов, хотя и не самых традиционалистских, шузеи - это данмеры, чьи жизни и судьбы наиболее тесно связаны с Храмом Трибунала и чья культура основана на его учениях и институтах. Шузеи происходят от подданных первых данмерских королей Морнхолда, и теперь в подавляющем большинстве присягнули дому Индорил, как когда-то присягали на верность королям из рода Индорил. Иные же признают своими своими господами никого, кроме самого Трибунала, и живут исключительно в пределах Храма."
+    chuzei_opinion:0 "$chuzei_collective_noun$ое мнение"
  chi_addun:1 "Ки-аддуны"
     chi_addun_prefix:0 "Аддуно"
     chi_addun_collective_noun:1 "Ки-аддунск"
@@ -425,13 +355,6 @@ maormer:0 "Маормеры"
     ashlander_opinion:0 "$ashlander_collective_noun$ мнение"
     
 #ORSIMER
- orsimer_group:0 "[cg_orsimer|L]"
-    orsimer_group_collective_noun:1 "[cg_orsimer_cn|L]"
-    game_concept_cg_orsimer:0 "Орсимер"
-    game_concept_cg_orsimer_cn:0 "Орсимеры"
-    game_concept_cg_orsimer_desc:0 "orsimer_group"
-    orsimer_group_desc:0 "Орсимеры, «отверженный народ», более известные как орки, - это клыкастые зеленокожие гуманоиды с авторитарной культурой, сосредоточенной вокруг крепостей, главной политической единицы, которую они образуют. \nСамая популярная история их происхождения заключается в том, что бог-покровитель орсимеров Тринимак был проклят и превратился в Малаката. Это изменило внешний вид орсимеров, и они стали такими, какими являются сегодня. Однако эта версия ставится под сомнение, так как некоторые следы орков существовали ещё до этого события."
-
  mountain_orc:0 "Горные орки"
     mountain_orc_prefix:0 "Оркско"
     mountain_orc_collective_noun:1 "Горно-оркск"
@@ -449,13 +372,6 @@ maormer:0 "Маормеры"
     wood_orc_opinion:0 "$wood_orc_collective_noun$ое мнение"
     
 #YOKUDAN 
- yokudan_group:0 "[cg_yokudan|L]"
-    yokudan_group_collective_noun:1 "[cg_yokudan_cn|L]"
-    game_concept_cg_yokudan:1 "Йоку"
-    game_concept_cg_yokudan_cn:1 "Йоки"
-    game_concept_cg_yokudan_desc:0 "yokudan_group"
-    yokudan_group_desc:0 "Йокуданцы - темнокожие, темноволосые люди, родом с западного континента Йокуда, расположенного на другом берегу Эльтерического океана. В начале #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#! группа ансей, использовавшая запрещённые техники певцов меча, затопила Йокуду под волнами. Это событие заставило многих из них совершить кровавое и безжалостное переселение в Тамриэль, в земли, которые сейчас называются Хаммерфелл. Со временем йокуданское понятие «волна воинов» - Ра Гада, исказилось и превратилось в название, под которым известны все йокуданцы в Тамриэле - редгарды.\n\nВидишь тех воинов из Хаммерфелла? У них кривые мечи. Кривые. Мечи."
-
  yokudan:1 "Йокуданцы"
     yokudan_prefix:0 "Йоку"
     yokudan_collective_noun:1 "Йокуданск"
@@ -467,10 +383,10 @@ maormer:0 "Маормеры"
     forebear_desc:0 "Во времена вторжения йокуданцев в Гибельные земли авангард, состоящий в основном из простолюдинов, более известный как Ра Гада или «Волна воинов», посеял хаос в местных поселениях и культурах. В итоге они подверглись куда более сильному влиянию тамриэльских культур, в сравнении с повелителями #LORE [compendium_na_totambu]#!, чем заслужили презрительное отношение к себе со стороны консервативных Венценосцев. Со временем название Ра Гада (Волна воинов) исказилось, превратившись в название, под которым ныне известны все йоку на Тамриэле - редгарды."
     forebear_opinion:0 "$forebear_collective_noun$ое мнение"
  crown_culture:0 "Венценосцы"
-    crown_prefix:0 "Тотамбско"
-    crown_collective_noun:1 "Венценосск"
-    crown_desc:0 "В то время как Ра Гада завоевали большую часть Гибельных земель, #LORE [compendium_na_totambu]#! обосновались там и изо всех сил начали возрождать обычаи древней Йокуды в новых землях. Представляя высшее дворянство и духовных лидеров, и оказались менее подвержены тамриэльскому влиянию и с презрением относились к частично ассимилировавшимся Предшественникам. Например, в их обществе всё ещё действует строжайшее табу на нанесение увечий почтенным мертвецам. Напряженность в отношениях с Предшественниками такова, что её часто используют в своих интересах как внешние, так и внутренние враги."
-    crown_opinion:0 "$crown_collective_noun$ое мнение"
+    crown_culture_prefix:0 "Тотамбско"
+    crown_culture_collective_noun:1 "Венценосск"
+    crown_culture_desc:0 "В то время как Ра Гада завоевали большую часть Гибельных земель, #LORE [compendium_na_totambu]#! обосновались там и изо всех сил начали возрождать обычаи древней Йокуды в новых землях. Представляя высшее дворянство и духовных лидеров, и оказались менее подвержены тамриэльскому влиянию и с презрением относились к частично ассимилировавшимся Предшественникам. Например, в их обществе всё ещё действует строжайшее табу на нанесение увечий почтенным мертвецам. Напряженность в отношениях с Предшественниками такова, что её часто используют в своих интересах как внешние, так и внутренние враги."
+    crown_culture_opinion:0 "$crown_culture_collective_noun$ое мнение"
  alikr:0 "Алик'рцы"
     alikr_prefix:0 "Алик'ро"
     alikr_collective_noun:1 "Алик'рск"
@@ -493,13 +409,6 @@ maormer:0 "Маормеры"
     silverhoof_opinion:0 "$silverhoof_collective_noun$ое мнение"
 
 #KHAJIITI
- khajiiti_group:0 "[cg_khajiiti|L]"
-    khajiiti_group_collective_noun:1 "[cg_khajiiti_cn|L]"
-    game_concept_cg_khajiiti:0 "Каджит"
-    game_concept_cg_khajiiti_cn:0 "Каджиты"
-    game_concept_cg_khajiiti_desc:0 "khajiiti_group"
-    khajiiti_group_desc:0 "Каджиты («пустынные странники» на языке та'агра), напоминающие кошек - уроженцы Эльсвейра, страны пустынь и джунглей. Наиболее распространенные гуманоидные каджиты - лишь одна из многих форм. Называемые родами шерсти, они принимают их вскоре после рождения в зависимости от фаз луны. \nРазнообразие форм каджитов не уступает глубине их культуры, которая делится на северные и южные биомы Эльсвейра."
-
  pellitinian:0 "Пеллитинцы"
     pellitinian_prefix:0 "Пеллитино"
     pellitinian_collective_noun:1 "Пеллитинск"
@@ -522,13 +431,6 @@ maormer:0 "Маормеры"
     malapiit_opinion:0 "$malapiit_collective_noun$ое мнение"
     
 #GOBLIN-KEN
- goblinken_group:0 "[cg_goblinken|L]"
-    goblinken_group_collective_noun:1 "[cg_goblinken_cn|L]"
-    game_concept_cg_goblinken:0 "Гоблин-кин"
-    game_concept_cg_goblinken_cn:0 "Гоблин-кины"
-    game_concept_cg_goblinken_desc:0 "goblinken_group"
-    goblinken_group_desc:0 "Маленькие и горбатые, чахлый вид гоблинов-кинов не помогает облегчить их скудное существование. Они страдают от бесконечных насмешек и плохого обращения со стороны других рас, большинство даже не считают их разумными существами того же уровня, несмотря на множество доказательств обратного. Тем не менее, они выносливы и стойки перед лицом мира, настроенного против них."
-
  goblin:0 "Гоблины"
     goblin_prefix:0 "Гоблино"
     goblin_collective_noun:1 "Гоблинск"
@@ -546,13 +448,6 @@ maormer:0 "Маормеры"
     riekr_opinion:0 "$riekr_collective_noun$ое мнение"
     
 #BOSMERIS
- bosmeris_group:0 "[cg_bosmeris|L]"
-    bosmeris_group_collective_noun:1 "[cg_bosmeris_cn|L]"
-    game_concept_cg_bosmeris:0 "Босмер"
-    game_concept_cg_bosmeris_cn:0 "Босмеры"
-    game_concept_cg_bosmeris_desc:0 "bosmeris_group"
-    bosmeris_group_desc:0 "Босмеры - раса меров, населяющих Валенвуд, лесную провинцию на юго-западе Тамриэля."
-
  bosmer:1 "Бойчи"
     bosmer_prefix:0 "Бойчо"
     bosmer_collective_noun:1 "Бойчск"
@@ -585,13 +480,6 @@ silvenari:0 "Сильвенарцы"
     grahtwood_opinion:0 "$grahtwood_collective_noun$ое мнение" 
     
 #ARGONIAN
- argonian_group:0 "[cg_argonian|L]"
-    argonian_group_collective_noun:1 "[cg_argonian_cn|L]"
-    game_concept_cg_argonian:0 "Аргонианин"
-    game_concept_cg_argonian_cn:0 "Аргониане"
-    game_concept_cg_argonian_desc:0 "argonian_group"
-    argonian_group_desc:0 "Зверолюди Чернотопья"
-
  hleel:1 "Хлилы"
     hleel_prefix:0 "Хлило"
     hleel_collective_noun:1 "Хлилск"
@@ -625,7 +513,7 @@ silvenari:0 "Сильвенарцы"
    lukiul:1 "Оджели"
     lukiul_prefix:0 "Оджело"
     lukiul_collective_noun:1 "Оджельск"
-    lukiul_desc:0 "Оджели не являются ни племенем, ни видом. Это аргониане, перенявшие имперский образ жизни в пределах болот Чёрного Леса, где они трудятся в качестве батраков и рабочих, блаженно забывая Шуантей. Большинство из них даже забыли свой родной язык - отсюда возникло их название, Оджель - не говорящий на джеле - и большинство - лукьюлы, не связаны с Хист. Однако даже в таких сложных условия они упорно пытаются сохранить свою самобытность и свои корни, что другие саксхлилы считают похвальным, а их сюзерены - лишней головной болью."
+    lukiul_desc:0 "Оджели не являются ни племенем, ни видом. Это аргониане, перенявшие имперский образ жизни в пределах болот Чёрного Леса, где они трудятся в качестве батраков и рабочих, блаженно забывая Шунатей. Большинство из них даже забыли свой родной язык - отсюда возникло их название, Оджель - не говорящий на джеле - и большинство - лукьюлы, не связаны с Хист. Однако даже в таких сложных условия они упорно пытаются сохранить свою самобытность и свои корни, что другие саксхлилы считают похвальным, а их сюзерены - лишней головной болью."
     lukiul_opinion:0 "$lukiul_collective_noun$ое мнение"
 
    hapsleet:1 "Хапслиты"
@@ -635,13 +523,6 @@ silvenari:0 "Сильвенарцы"
     hapsleet_opinion:0 "$hapsleet_collective_noun$ое мнение"
 
 # Lilmothiit
- lilmothiit_group:0 "[cg_lilmothiit|L]"
-    lilmothiit_group_collective_noun:1 "[cg_lilmothiit_cn|L]"
-    game_concept_cg_lilmothiit:0 "Лилмотит"
-    game_concept_cg_lilmothiit_cn:0 "Лилмотиты"
-    game_concept_cg_lilmothiit_desc:0 "lilmothiit_group"
-    lilmothiit_group_desc:0 "Зверолюди Чернотопья"
-
  lilmothiit:1 "Лилмотиты"
     lilmothiit_prefix:0 "Лилмото"
     lilmothiit_collective_noun:1 "Лилмотитск"
@@ -649,13 +530,6 @@ silvenari:0 "Сильвенарцы"
     lilmothiit_opinion:0 "$lilmothiit_collective_noun$ое мнение"
 
 #Daedric
- daedric_group:0 "[cg_daedric|L]"
-    daedric_group_collective_noun:1 "[cg_daedric_cn|L]"
-    game_concept_cg_daedric:0 "Даэдра"
-    game_concept_cg_daedric_cn:0 "Даэдра"
-    game_concept_cg_daedric_desc:0 "daedric_group"
-    daedric_group_desc:0 "Демонические сущности с бесчисленных планов Обливиона"
-
  dremora:1 "Дреморы"
     dremora_prefix:0 "Кин"
     dremora_collective_noun:1 "Дреморск"
@@ -663,13 +537,6 @@ silvenari:0 "Сильвенарцы"
     dremora_opinion:0 "$dremora_collective_noun$ое мнение"
     
  #Dwemer
- dwemeris_group:0 "[cg_dwemeris|L]"
-    dwemeris_group_collective_noun:1 "[cg_dwemeris_cn|L]"
-    game_concept_cg_dwemeris:0 "Двемер"
-    game_concept_cg_dwemeris_cn:0 "Двемеры"
-    game_concept_cg_dwemeris_desc:0 "dwemeris_group"
-    dwemeris_group_desc:0 "Ушли, но не забыты"
-
  dwemer:1 "Двемеры"
     dwemer_prefix:0 "Двемеро"
     dwemer_collective_noun:1 "Двемерск"
@@ -677,13 +544,6 @@ silvenari:0 "Сильвенарцы"
     dwemer_opinion:0 "$dwemer_collective_noun$ое мнение"
 
   #Imga
- imgans_group:0 "[cg_imgans|L]"
-    imgans_group_collective_noun:1 "[cg_imgans_cn|L]"
-    game_concept_cg_imgans:0 "Имга"
-    game_concept_cg_imgans_cn:0 "Имга"
-    game_concept_cg_imgans_desc:0 "imgans_group"
-    imgans_group_desc:0 "Обезьянолюди, населяющие джунгли Нирна."
-
  imga:1 "Имга"
     imga_prefix:0 "Имго"
     imga_collective_noun:1 "Имганск"

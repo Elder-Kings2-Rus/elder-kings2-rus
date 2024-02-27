@@ -5,6 +5,9 @@
  create_local_culture_decision_capital_embrace_new_culture:0 "Ваша [realm_capital|El] станет #L [new_culture.GetCollectiveNoun|l]ой#!"
  create_local_culture_decision_confirm:0 "Старое и новое"
  create_local_culture_decision_tooltip:0 "Создать новую культуру [Concept('native', 'коренных жителей')|E] в ваших землях"
+ capital_shares_heritage:0 "Ваша [realm_capital|El] разделяет ваше [heritage|El]"
+ province_shares_heritage:0 "[county|E] разделяет ваше [heritage|El]"
+ regional_province_shares_heritage:0 "Любое [county|El] в пределах этого [Concept( 'nativity_region', 'коренного региона' )|E], разделяющее ваше [heritage|El]"
  
  create_local_culture_glenumbra_decision_desc_1:0 "Есть рассказы о древних племенах, живших на землях"
  create_local_culture_glenumbra_decision_desc_2:0 "Столетия назад. Мы должны возродить их обычаи."

@@ -3,11 +3,11 @@
  default_culturedesc:0 "[Culture.GetNameNoTooltip] недавно отделились от своей основной культуры."
 
 ###### BLACK MARSH ######
- archonese_name:0 "Архонтцы" #Nibenese + Horwalli
+ archonese_name:0 "Архонтцы" #Cyrodiilic + Horwalli
  archonese_collective_noun:0 "Архонтск"
  archonese_prefix:0 "Архонто"
 
- arnesian_name:0 "Арнезийцы" #Cantemiric + Dunmer
+ arnesian_name:0 "Арнезийцы" #Cantemiric + Dunmeri
  arnesian_collective_noun:0 "Арнезийск"
  arnesian_prefix:0 "Арнезо"
 
@@ -22,6 +22,10 @@
  onkobranese_name:0 "Онкобранцы" #Nibenese + Kothringi
  onkobranese_collective_noun:0 "Онкобранск"
  onkobranese_prefix:0 "Онкобро"
+
+ ormalese_name:0 "Ормалезцы" #Cyrodiilic + Orma
+ ormalese_collective_noun:0 "Ормалезск"
+ ormalese_prefix:0 "Ормо"
 
  topalese_name:0 "Топальцы" #Nibenese + Yespest
  topalese_collective_noun:0 "Топальск"
@@ -45,10 +49,10 @@
  pellitine_orc_collective_noun:0 "Тенмаро-оркск"
  pellitine_orc_prefix:0 "Орко"
 
-###### HAMMERFELL ######
- bangkorite_name:0 "Бангкорайцы" #Redguards + Bretons in Bangkorai
- bangkorite_collective_noun:0 "Бангкорайск"
- bangkorite_prefix:0 "Бангкоро"
+ ###### HAMMERFELL ######
+ belkarther_name:0 "Белкартцы" #Yokudan in Craglorn
+ belkarther_collective_noun:0 "Белкартск"
+ belkarther_prefix:0 "Белкарто"
 
  bendmarcher_name:0 "Бендмаркцы" #Nords in Craglorn
  bendmarcher_collective_noun:0 "Бендмаркск"
@@ -58,6 +62,10 @@
  bendr_collective_noun:0 "Бенд'рск"
  bendr_prefix:0 "Мако"
 
+ craglorner_name:0 "Краглорнцы" #Cyrodiilic + Yokudan in Craglorn
+ craglorner_collective_noun:0 "Краглорнск"
+ craglorner_prefix:0 "Краглорно"
+
  cyrosystrean_name:0 "Сиро-систресцы"
  cyrosystrean_collective_noun:0 "Сиро-систресск"
  cyrosystrean_prefix:0 "Систро"
@@ -66,7 +74,11 @@
  elinhiri_collective_noun:0 "Элинирск"
  elinhiri_prefix:0 "Элиниро"
 
-###### HIGH ROCK ######
+ ###### HIGH ROCK ######
+ bangkorite_name:0 "Бангкорайцы" #Redguards + Bretons in Bangkorai
+ bangkorite_collective_noun:0 "Бангкорайск"
+ bangkorite_prefix:0 "Бангкоро"
+
  bjoulefolk_name:0 "Люди-Бьюлы" #any Nede + Bjoule
  bjoulefolk_collective_noun:0 "Людо-Бьюлск"
  bjoulefolk_prefix:0 "Бьюло"
@@ -194,5 +206,5 @@
 
 ###### MISC ######
  sea_orc_name:0 "Морские орки" #Orcs living on an island
- sea_orc_collective_noun:0 "Морскооркск"
+ sea_orc_collective_noun:0 "Морско-оркск"
  sea_orc_prefix:0 "Орко"
