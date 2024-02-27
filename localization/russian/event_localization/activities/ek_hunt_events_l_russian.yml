@@ -66,7 +66,7 @@
  hunt_seek_crocodile_tt:1 "Вы выследите такое животное, как #V $animal_type_crocodile$#!:\n$hunt_animal_safety_treacherous$\n$hunt_animal_prestige_highest$"
  hunt_seek_lynx_tt:1 "Вы выследите такое животное, как #V $animal_type_lynx$#!:\n$hunt_animal_safety_middling$\n$hunt_animal_prestige_middling$"
  hunt_seek_assassin_beetle_tt:1 "Вы выследите такое животное, как #V $animal_type_assassin_beetle$#!:\n$hunt_animal_safety_middling$\n$hunt_animal_prestige_middling$"
- hunt_seek_tiger_tt:1 "Вы выследите такое животное, как  #V $animal_type_tiger$#!:\n$hunt_animal_safety_treacherous$\n$hunt_animal_prestige_highest$"
+ hunt_seek_tiger_tt:1 "Вы выследите такое животное, как #V $animal_type_tiger$#!:\n$hunt_animal_safety_treacherous$\n$hunt_animal_prestige_highest$"
  hunt.0520.ash_hopper:0 "Он шныряет среди покрытой пеплом местности, набрасываясь на незадачливую добычу, которая забредает слишком близко, наводит страх на местные деревни и тревожит тех, кто стремится собраться в мире."
  hunt.0520.cliff_strider:0 "Он скрывается среди пепельного ландшафта, обрушиваясь на ничего не подозревающую добычу, оказавшуюся поблизости, сеет страх в близлежащих деревнях и тревожит тех, кто ищет утешения в его окрестностях."
  hunt.0500.bull_netch:0 "Его место обитания - местные [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTreePlural')]. Он срывается с места, чтобы похитить скот из соседних поселений, и вселях страх в сердца собирателей."

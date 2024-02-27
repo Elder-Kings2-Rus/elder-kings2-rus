@@ -23,7 +23,7 @@
 
  BANISH_DEMON_NAME:0 "Изгнание даэдра в [TITLE.GetBaseName]"
  BANISH_DEMON_DUCHY_NAME:1 "[banish_demon|E]"
- banish_demon_victory_desc:0 "В пределах основных [Concept( 'title', 'владений' )|E] цели, [attacker.GetShortUIName]  захватывает все титулы, принадлежащие [Concept( 'daedric_race', 'даэдрической расе' )|E], а остальные становятся вассалами."
+ banish_demon_victory_desc:0 "В пределах основных [Concept( 'title', 'владений' )|E] цели, [attacker.GetShortUIName] захватывает все титулы, принадлежащие [Concept( 'daedric_race', 'даэдрической расе' )|E], а остальные становятся вассалами."
  banish_demon_white_peace_desc:0 "[titles|E] не меняют владельца."
  banish_demon_defeat_desc:0 "[titles|E] не меняют владельца."
  

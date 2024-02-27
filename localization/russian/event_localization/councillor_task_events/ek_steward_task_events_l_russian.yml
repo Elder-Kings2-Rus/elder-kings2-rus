@@ -35,7 +35,7 @@
  ek_culture_conversion_nomadic_tooltip:0 "[Concept( 'nomadic_culture', 'Кочевому народу' )|E] требуется больше времени на заселение, чем [Concept( 'native', 'коренной' )|E] [Concept( 'culture', 'культуре' )|E], но куда меньше, чем не-[Concept( 'native', 'коренной' )|E] культуре"
  ek_culture_conversion_non_native_tooltip:0 "Так как эта [Concept( 'culture', 'культура' )|E] #r не является#! [Concept( 'native', 'коренной' )|E] для региона, наши усилия по её распространению будут значительно замедлены"
 
- ek_culture_conversion_widget_title:0 "#T;UNDERLINE Доступные [Concept( 'culture', 'культуры' )|E]:#!"
+ ek_culture_conversion_widget_title:0 "#T;UNDERLINE Доступные культуры:#!"
  ek_culture_conversion_widget_desc:0 "#weak В дополнение к своей собственной [Concept( 'culture', 'культуре' )|E], правители могут поселить любую [Concept( 'native', 'коренную' )|E] или [Concept( 'nomadic_culture', 'кочевую' )|E] культуру с тем же [Concept( 'heritage', 'наследием' )|E] или с высокой [Concept( 'cultural_acceptance', 'терпимостью культур' )|E]:#!"
 
  ek_cant_convert_county_to_any_culture:0 "Нет [Concept( 'valid_conversion_culture_medium', 'подходящих культур' )|E] для распространения в этом [Concept( 'county', 'графстве' )|E]"
