@@ -1248,24 +1248,6 @@ window = {
 							}
 						}
 
-						### EK EDIT: Added Ceremoniarchy HoF
-						widget_doctrine_item = {
-							visible = "[Faith.HasDoctrineByKey( 'doctrine_divine_blood_head' )]"
-
-							blockoverride "background" {}
-
-							blockoverride "doctrine_icon"
-							{
-								texture = "[GetDoctrine( 'doctrine_divine_blood_head' ).GetIcon]"
-							}
-
-							blockoverride "wdi_context"
-							{
-								datacontext = "[GetDoctrine('doctrine_divine_blood_head')]"
-								datacontext = "[Faith]"
-							}
-						}
-
 						expand = {}
 
 						hbox = {
