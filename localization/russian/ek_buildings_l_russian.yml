@@ -571,7 +571,7 @@
  building_kulati_amethyst_mines_04_desc:1 "$building_type_kulati_amethyst_mines_01_desc$"
  
  building_type_del_claim_lapis_lazuli_mines_01:0 "Лазуритовая шахта Находка Дэля"
- building_type_del_claim_lapis_lazuli_mines_01_desc:0 "Месторождения лазурита, найденные Дэлем много лет назад, способствовали развитию торговли и деятельности в округе и сделали его одним из самых прибыльных рудников в Ауридоне. Вокруг него был основан город Находка Дэля, который извлекает большую выгоду из добываемых поблизости драгоценных металлов."
+ building_type_del_claim_lapis_lazuli_mines_01_desc:0 "Месторождения лазурита, найденные Дэлем много лет назад, способствовали развитию торговли и деятельности в графстве и сделали его одним из самых прибыльных рудников в Ауридоне. Вокруг него был основан город Находка Дэля, который извлекает большую выгоду из добываемых поблизости драгоценных металлов."
  building_del_claim_lapis_lazuli_mines_01:1 "$building_type_del_claim_lapis_lazuli_mines_01$"
  building_del_claim_lapis_lazuli_mines_01_desc:1 "$building_type_del_claim_lapis_lazuli_mines_01_desc$"
  building_del_claim_lapis_lazuli_mines_02:1 "$building_type_del_claim_lapis_lazuli_mines_01$"
@@ -1044,7 +1044,7 @@
 
 #Scholars Academy
  building_type_academyscho_01:0 "Академия учёных"
- building_type_academyscho_01_desc:1 "Ученые со всей округи собираются здесь, чтобы развивать свои идеи."
+ building_type_academyscho_01_desc:1 "Ученые со всего графства собираются здесь, чтобы развивать свои идеи."
  building_academyscho_01:0 "Письменные комнаты"
  building_academyscho_01_desc:1 "Тихое место, оборудованное индивидуальными партами и стульями, где можно спокойно записывать идеи, теории или любовные письма."
  building_academyscho_02:0 "Учебные аудитории"

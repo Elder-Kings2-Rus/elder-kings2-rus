@@ -10,26 +10,36 @@
  ek_steward_task.0001.t:0 "Новые поселенцы в графстве [county.GetNameNoTier]"
  ek_steward_task.0001.desc.same_heritage:0 "В то время как #L [county_old_culture.GetCollectiveNoun|l]ие#! обычаи и традиции близки к нашим собственным, есть польза в том, чтобы убедиться, что наши подданные в графстве [county.GetNameNoTier] разделяют нашу идентичность или, по крайней мере, разделяют идентичность другой близкой культуры, благодаря чему нам, возможно, будет легче ими руководить."
  ek_steward_task.0001.desc.other_heritage:0 "Население графства [county.GetNameNoTier] всё ещё цепляется за свои #L [county_old_culture.GetCollectiveNoun|l]ие#! традиции и обычаи. Из-за их упрямства ими трудно управлять, и было бы лучше поселить там кого-нибудь из нашего собственного народа."
- ek_steward_task.0001.desc.nomadic:0 "\n\n#L [county_old_culture.GetCollectiveNoun]ий#! народ известен своими кочевыми традициями, и большинство жителей графства путешествовали по всему герцогству [de_jure_duchy.GetNameNoTier]. Привлечение поселенцев для захвата различных поселений должно оказаться проще."
+ ek_steward_task.0001.desc.nomadic:0 "#L [county_old_culture.GetCollectiveNoun]ий#! народ известен своими кочевыми традициями, поэтому вытеснить их отсюда не составит труда."
  ek_steward_task.0001.desc.ending_orsinium_orcs:0 "\n\nСотни орков со всего Тамриэля слышали о нашем новом и сильном Орсиниуме, и мы едва можем сдерживать наплыв воинов и мигрантов, желающих помочь восстановить город орочьего рода."
  ek_steward_task.0001.desc.ending:0 "\n\nПоселенцы из различных поселений и городов готовы начать новую жизнь в графстве [county.GetNameNoTier], и большинство из них просто ждут нашего одобрения."
- ek_steward_task.0001.orcs_orsinium:0 "#L [own_culture.GetCollectiveNoun]ий#! народ всегда рады видеть в Орсиниуме!"
- ek_steward_task.0001.convert_orcs_orsinium_tooltip:0 "Из-за [Concept( 'tradition', 'традиции' )|E] #V Обитатели утраченного Орсиниума#! мы можем преобразовать культуру провинций в де-юре пределах королевства Орсиниум, как если бы мы были местными [Concept( 'native', 'коренными жителями' )|E]."
- ek_steward_task.0001.own_culture:0 "Мы должны поселить наш народ здесь."
- ek_steward_task.0001.convert_own_culture_tooltip:0 "Мы начнём работать над сменой [Concept( 'culture', 'культуры' )|E] графства [county.GetNameNoTier] на #L [own_culture.GetCollectiveNoun|l]ую#!"
- ek_steward_task.0001.own_culture_not_native_tooltip:0 "Так как наша [Concept( 'culture', 'культура' )|E] #r не#! [Concept( 'native', 'коренная' )|E] для региона, наши усилия по преобразованию будут значительно замедлены."
- ek_steward_task.0001.native_culture_1:0 "Пригласить #L [native_culture_1.GetCollectiveNoun|l]их#! поселенцев."
- ek_steward_task.0001.convert_native_culture_1_tooltip:0 "Мы начнём работать над сменой [Concept( 'culture', 'культуры' )|E] графства [county.GetNameNoTier] на #L [native_culture_1.GetCollectiveNoun|l]ую#!"
- ek_steward_task.0001.native_culture_2:0 "Пригласить #L [native_culture_2.GetCollectiveNoun|l]их#! поселенцев."
- ek_steward_task.0001.convert_native_culture_2_tooltip:0 "Мы начнём работать над сменой [Concept( 'culture', 'культуры' )|E] графства [county.GetNameNoTier] на #L [native_culture_2.GetCollectiveNoun|l]ую#!"
- ek_steward_task.0001.nomadic_culture:0 "#L [nomadic_culture.GetCollectiveNoun]ий#! народ известен тем, что чувствует себя как дома в любом месте."
- ek_steward_task.0001.convert_nomadic_culture_tooltip:0 "Мы начнём работать над сменой [Concept( 'culture', 'культуры' )|E] графства [county.GetNameNoTier] на #L [nomadic_culture.GetCollectiveNoun|l]ую#!"
- ek_steward_task.0001.nomadic_culture_not_native_tooltip:0 "Кочевой [Concept( 'culture', 'культуре' )|E] требуется больше времени, чтобы обосноваться на любой территории, но она не страдает от огромного штрафа, предоставляемого не-[Concept( 'native', 'коренными' )|E] культурами"
- ek_steward_task.0001.fallback_culture_1:0 "Пригласить #L [fallback_culture_1.GetCollectiveNoun|l]их#! поселенцев."
- ek_steward_task.0001.fallback_culture_2:0 "Пригласить #L [fallback_culture_2.GetCollectiveNoun|l]их#! поселенцев."
- ek_steward_task.0001.fallback_culture_3:0 "Пригласить #L [fallback_culture_3.GetCollectiveNoun|l]их#! поселенцев."
- ek_steward_task.0001.convert_native_fallback_culture_tooltip:0 "Поскольку нам не хватает каких-либо [Concept( 'native', 'коренных' )|E] или [Concept( 'nomadic', 'кочевнических' )|E] культур, мы вынуждены полагаться на иностранных поселенцев, которым понадобятся десятилетия, чтобы почувствовать себя как дома."
- ek_steward_task.0001.refresh:0 "Есть ли ещё кто-нибудь, кого я могу пригласить?"
- ek_steward_task.0001.refresh_cultures:0 "Вам будет предоставлен новый список культур, если таковые существуют."
- ek_steward_task.0001.not_native_tooltip:0 "Пока эта [Concept( 'culture', 'культура' )|E] является #r не#! [Concept( 'native', 'коренной' )|E] для региона, наши усилия по преобразованию будут значительно замедлены"
- ek_steward_task.0001.no_culture:0 "Неужели действительно некого пригласить?"
+ ek_steward_task.0001.desc.dead_culture:0 "Our people are few and far between, so we cannot bring in our own to settle these lands. We will need to find others to make this their home."
+ ek_steward_task.0001.desc.daedric_race:0 "We are of the Kyn, a #LORE [compendium_daedric]#! race, and cannot maintain a stable population in Mundus. We will need to settle one of our subservient mortal races in these lands."
+
+
+ ek_steward_task.0001.a.orcs_orsinium:0 "Orcs are always welcome in Orsinium!"
+
+ ek_steward_task.0001.a:0 "Give the order!"
+
+
+
+ ek_steward_task.0001.convert_orcs_orsinium_tooltip:0 "Due to the [GetCultureTradition('tradition_denizens_lost_orsinium').GetName|V] [tradition|E], we can convert the culture of provinces within the [de_jure|E] [kingdom_of_orsinium.GetName] as if we were [native|E] to here"
+
+ ek_steward_task.0001.convert_own_culture_tooltip:0 "We will work towards converting [county.GetNameNoTier] to a [native|E] [culture|E]"
+
+ ek_steward_task.0001.nomadic_culture_not_native_tooltip:0 "A [nomadic_culture|E] takes more time to settle on any territory, but it does not suffer from the massive malus given to non-[native|E] cultures"
+
+ ek_steward_task.0001.own_culture_not_native_tooltip:0 "As this [culture|E] is #r not#! [native|E] to the region, our conversion efforts will be greatly slowed down"
+
+ ek_culture_conversion_native_tooltip:0 "A [native|E] [culture|E] can be rapidly settled."
+ ek_culture_conversion_nomadic_tooltip:0 "A [nomadic_culture|E] takes more time to settle than a [native|E] [culture|E], but far less than a non-[native|E] culture"
+ ek_culture_conversion_non_native_tooltip:0 "As this [culture|E] is #r not#! [native|E] to the region, our conversion efforts will be greatly slowed down"
+
+ ek_culture_conversion_widget_title:0 "#T;UNDERLINE Available [cultures]:#!"
+ ek_culture_conversion_widget_desc:0 "#weak In addition to their own [culture|E], rulers can settle any [native|E] or [nomadic_culture|E] of the same [heritage|E] or with high [cultural_acceptance|E]:#!"
+
+ ek_cant_convert_county_to_any_culture:0 "There are no [valid_conversion_culture_medium|E] to convert this [county|E] to"
+
+ cultural_acceptance_gain_promote_culture:0 "[third_party_culture.GetCulture.GetName] culture promoted in [county.GetName]"
+
+ task_promote_culture_acceptance_effect_third_party_culture_desc:0 "\n$TAB$The [cultural_acceptance|E] between the [county.MakeScope.Var('culture_to_convert').Culture.GetCollectiveNoun] and the [councillor_liege.GetCulture.GetCollectiveNoun] increases by [SCOPE.ScriptValue('culture_conversion_acceptance_positive_impact')|P/%]"

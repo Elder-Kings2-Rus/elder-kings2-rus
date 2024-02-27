@@ -1,36 +1,7 @@
 ﻿l_russian:
 ### Vanilla redefinitions
  # Mandatory renames
- heregeld_perk_alternate_name:0 "Золотое прикосновение"
  parthian_tactics_perk_altenate_name:0 "Тактика Бьюлси"
- # Extensive renames
- anatomical_studies_perk_alternate_name:0 "Коллегия целителей"
- apostate_perk_alternate_name:0 "Разновидности веры"
- bellum_justum_perk_alternate_name:0 "Век произвола" #отсылка к песне
- carefree_perk_alternate_name:0 "[Select_CString(ROOT.Char.IsFemale, 'Хорошо отдохнувшая', 'Хорошо отдохнувший' )]"
- church_and_state_perk_alternate_name:0 "Закон священен"
- courtship_perk_alternate_name:0 "Благосклонность леди"
- defender_of_the_faith_perk_alternate_name:0 "Божественная Метафизика"
- enticing_opportunity_perk_alternate_name:0 "Поцелуй любовника"
- hard_rule_perk_alternate_name:0 "Век притеснений" #это тоже
- home_advantage_perk_alternate_name:0 "Огонь очага"
- iron_constitution_perk_alternate_name:0 "Троллье здоровье"
- know_thyself_perk_alternate_name:0 "Цикл Аркейна"
- like_weed_in_a_garden_perk_alternate_name:0 "Искусство Дибеллы"
- open_minded_perk_alternate_name:0 "Знания Тамриэля"
- organized_retreat_perk_alternate_name:0 "Тактика смешанных подразделений"
- peacemaker_perk_alternate_name:0 "Чудо Мира"
- prepared_for_anything_perk_alternate_name:0 "Акавирское чувство опасности"
- prison_feudal_complex_perk_alternate_name:0 "Виновен, пока не оправдан"
- promising_prospects_perk_alternate_name:0 "Благословение Мары"
- scholarly_circles_perk_alternate_name:0 "[Select_CString(ROOT.Char.IsFemale, 'Хранительница мудрости', 'Хранитель мудрости' )]"
- scientific_perk_alternate_name:0 "Путь знания"
- smooth_operator_perk_alternate_name:0 "Незабываемая ночка"
- soldiers_of_lesser_fortune_perk_alternate_name:0 "Связи Гильдии Бойцов"
- stalwart_leader_perk_alternate_name:0 "Доблесть Эбеновой руки"
- swift_execution_perk_alternate_name:0 "Грязное убийство"
- zealous_proselytizer_perk_alternate_name:0 "Мономиф"
- 
  ### Редактирование ванильного дерева перков
  # Дипломатия: Древо Величия
  TRUE_RULER_PERK_BYPASS_OFFER_VASSALIZATION_REQUIREMENTS_EFFECT:0 "Может использовать [Concept('offer_vassalization_interaction', 'предложение вассализации')|E], не имея связей [Concept('dynasty', 'династии')|E], не требуя определённой [Concept('innovation', 'инновации')|E] или [Concept('prestige_level', 'уровня престижа')|E]."

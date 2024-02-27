@@ -33,6 +33,11 @@
  rule_by_might_succession_law_effects:0 "\n#V Согласно [Concept('succession', 'наследованию')|E] $rule_by_might_succession_law$, наследовать может самый сильный ребенок.\n#N Дети могут выдвинуть свои претензии до смерти правителя, если чувствуют себя достаточно сильными.#!\n\n$rule_by_might_succession_law_base_desc$"
  rule_by_might_succession_law_base_desc:0 "#weak Согласно [Concept('succession', 'наследованию')|E] $rule_by_might_succession_law$, нынешний правитель назначает своего [Concept('primary_heir', 'первого наследника')|E] среди всех подходящих детей.\n\nПосле наследования другие дети с аналогичной или более высокой [Concept('prowess', 'доблестью')|E] могут бросить вызов новому правителю или уйти в изгнание.\n\nДети не подходящих полов могут оспаривать наследование, если их [prowess|El] достаточно высока.#!"
 
+ xarxean_investiture_succession_law:0 "Xarxean Investiture"
+ xarxean_investiture_succession_law_subname:0 "Divine Numerology"
+ xarxean_investiture_succession_law_effects:0 "\n#V Under $xarxean_investiture_succession_law$, the child who most strictly adhere to the ancestral teachings of [ceremoniarchy|E] inherits all your [titles].\n\nBy using the 'Consult the Xarxeans' [decision|E] you will learn who your likely next [heir|E] will be. Otherwise this is revealed upon [succession|E].\n\n[empire|E] tier [ceremoniarchy_government|E] realms are automatically given this [law|E].#!\n\n#weak Upon succession, all of the late Ruler's [titles|e] will be given to the [player_heir|E], which is their [eligible_child|E] with the highest [praxis|E]. Other children will receive nothing. If there is no [eligible_child|E], grandchildren, great grandchildren, siblings and then other relatives may inherit, ordered by [praxis|E].\n#!
+
+
 #Miscenalleous 
  tooltip_feudal_elector_vote_knighthood:0 "Воин нашего народа: $VALUE|=+0$"
  tooltip_feudal_elector_vote_conceded_election:0 "[candidate.GetSheHe|U] не имеет желания быть избранным: $VALUE|=+0$"
@@ -109,6 +114,23 @@
  tooltip_dunmeri_elector_vote_house_values_education_2:0 "[candidate.GetSheHe|U] соответствует нашей [Concept('great_house_value', 'ценности Дома')|E] well: $VALUE|=+0$"
  tooltip_dunmeri_elector_vote_founding_dynasty:0 "[candidate.GetSheHe|U] принадлежит к числу основателей [Concept('dynasty', 'династии')|E]: $VALUE|=+0$"
 
+# Praxis Succession Law
+ altmeri_elective_succession_law:0 "Praxis Elective"
+ altmeri_elective_succession_law_subname:0 "Ceremoniarchy Succession"
+ altmeri_elective_succession_law_effects:0 "\n#V Under $altmeri_elective_succession_law$, your relative who most strictly adhere to the ancestral teachings of [ceremoniarchy|E] inherits. This succession favours candidates with high [praxis|E] and positive [congenital_traits|E]. All relatives of the current ruler are valid candidates, though their children are prioritised over others.\n\n[kingdom|E] tier [ceremoniarchy_government|E] realms are automatically given this [title_law|E]."
+ altmeri_elective_candidates:0 "Close and Extended Family"
+ altmeri_elective_candidates_tooltip:0 "In order to be a valid Candidate under Ceremoniarchy Succession, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate member of the ruler's [extended_family|E], who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated\n$EFFECT_LIST_BULLET$Be a [claimant|E] to the title, who is not in line to inherit a Theocracy or Republic"
+ altmeri_elective_electors:0 "$feudal_elective_electors$"
+ altmeri_elective_electors_tooltip:0 "$feudal_elective_electors_tooltip$"
+ tooltip_altmeri_elector_vote_praxis:0 "Their understanding of [praxis|E]: $VALUE|=+0$"
+ tooltip_altmeri_elector_vote_beauty_good:0 "[candidate.GetSheHe|U] is a beautiful [candidate.GetWomanMan]: $VALUE|=+0$"
+ tooltip_altmeri_elector_vote_beauty_bad:0 "[candidate.GetSheHe|U] is an ugly [candidate.GetWomanMan]: $VALUE|=+0$"
+ tooltip_altmeri_elector_vote_physique_bad:0 "[candidate.GetSheHe|U] is a weak [candidate.GetWomanMan]: $VALUE|=+0$"
+ tooltip_altmeri_elector_vote_impurity:0 "[candidate.GetSheHe|U] is [impure|E]: $VALUE|=+0$"
+ tooltip_altmeri_elector_vote_dislikes_apraxic:0 "Dislikes low [praxis|E]: $VALUE|=+0$"
+ tooltip_altmeri_elector_vote_dislikes_praxic:0 "Dislikes high [praxis|E]: $VALUE|=+0$"
+ tooltip_altmeri_elector_vote_prioritises_children:0 "Is [child|E] of current ruler: $VALUE|=+0$"
+ 
  get_skyrim_elector_1:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('skyrim_elector_1').GetLandedTitle.GetName]"
  get_skyrim_elector_2:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('skyrim_elector_2').GetLandedTitle.GetName]"
  get_skyrim_elector_3:0 "\n$EFFECT_LIST_BULLET$[ROOT.Var('skyrim_elector_3').GetLandedTitle.GetName]"

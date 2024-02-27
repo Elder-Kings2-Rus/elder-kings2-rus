@@ -1,12 +1,4 @@
 ﻿l_russian:
- rule_ek_renames:0 "#R Elder Kings:#! Стиль переименований"
- setting_ek_no_renames:1 "#high Нет переименований#!"
- setting_ek_no_renames_desc:0 "Перки сохранят свои оригинальные названия и описание, даже если они не соответствуют вселенной Elder Scrolls."
- setting_ek_necessary_renames:1 "#high Необходимые переименования#!"
- setting_ek_necessary_renames_desc:0 "Будут переименованы только те перки, которые ссылаются на реально существующие места и концепции."
- setting_ek_extensive_renames:1 "#high Расширенные переименования#!"
- setting_ek_extensive_renames_desc:0 "Большинство перков будут переименованы и приобретут стиль Elder Scrolls."
- 
  setting_ek_accepted_same_sex_marriage_anyone_player:1 "#high Принятый - Расслабленный#!"
  setting_ek_accepted_same_sex_marriage_anyone_player_desc:0 "То же, что и $setting_accepted_same_sex_marriage$ но ограничения сексуальных отношений в браке EK не применяются к игроку."
  

@@ -1,0 +1,4 @@
+﻿l_russian:
+ HOUSE_VIEW_FOUNDED:0 "[Select_CString(DynastyHouse.GetFounder.IsFemale, 'Основала', 'Основал' )] [DynastyHouse.GetFounder.GetName] в $ERA_STRING_YEAR_HOUSE_CREATION_CONCAT$ году" 
+ HOUSE_LIST_FOUNDATION:0 "Основан в $ERA_STRING_YEAR_HOUSE_CREATION_CONCAT$ году"
+ 

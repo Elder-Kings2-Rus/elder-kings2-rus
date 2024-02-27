@@ -66,9 +66,9 @@
  
  # Добавления отсутствующих строк, что связаны с религиями. Эти строки стоит удалить, если разработчики сами добавят их.
  
- doctrine_parameter_same_heritage_conversion_bonus_creating_faith_active:1 "Скорость обращения в #L [GetPlayer.GetCulture.GetHeritage.GetName|l]их#! [Concept( 'county', 'графствах' )|El]: #P +50%#!"
+ #doctrine_parameter_same_heritage_conversion_bonus_creating_faith_active:1 "Скорость обращения в #L [GetPlayer.GetCulture.GetHeritage.GetName|l]их#! [Concept( 'county', 'графствах' )|El]: #P +50%#!"
  doctrine_parameter_establishing_holy_site_same_heritage_creating_faith_active:0 "Новые [holy_sites|El] могут быть созданы только в #L [Faith.MakeScope.Var('associated_culture').Culture.GetHeritage.GetName|l]их#! провинциях"
- doctrine_parameter_same_heritage_exclusive_conversion_bonus_creating_faith_active:1 "Скорость обращения в #L [Faith.MakeScope.Var('associated_culture').Culture.GetHeritage.GetName|l]их#! [Concept( 'county', 'графствах' )|El]: #P +50%#!"
+ #doctrine_parameter_same_heritage_exclusive_conversion_bonus_creating_faith_active:1 "Скорость обращения в #L [Faith.MakeScope.Var('associated_culture').Culture.GetHeritage.GetName|l]их#! [Concept( 'county', 'графствах' )|El]: #P +50%#!"
  molag_priest_male_plural:0 "Жрецы"
  namira_priest_male_plural:0 "Жрецы"
  hircine_priest_male_plural:0 "Жрецы"
@@ -223,4 +223,3 @@
  modifier_spell_spread_vitality_common:0 "Распространение жизненной силы"
  modifier_spell_spread_vitality_greater:0 "Распространение жизненной силы"
  modifier_spell_spread_vitality_grand:0 "Распространение жизненной силы"
- holy_site_hs_quistrelle_name:0 "Квистрелль"

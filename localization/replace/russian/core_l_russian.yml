@@ -4,12 +4,14 @@
  GOLD_COST_LONG:0 "Золотые дрейки: [gold_i] $VALUE|0$" # EK EDIT
  GOLD_TEXT:0 "$VALUE|0$ золотых дрейков" # EK EDIT
  SCOPE_DYNASTY:1 "[dynasty|E] [ROOT.Dynasty.GetBaseName]:"
- GAME_DATE_STRING:0 "$DAY|O$ день $MONTH$, [Select_CString( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ), '2Э', '1Э' )] [Subtract_int32( '(int32)$YEAR$', Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ) ), '(int32)1' ), '(int32)2920' ) )]"
- GAME_DATE_STRING_SHORT:0 "$DAY$ день $MONTH_SHORT$ [Select_CString( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ), '2Э', '1Э' )] [Subtract_int32( '(int32)$YEAR$', Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ) ), '(int32)1' ), '(int32)2920' ) )]" # EK Era System
- GAME_DATE_STRING_LONG:2 "$DAY|O$ день $MONTH$, [Select_CString( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ), '2Э', '1Э' )] [Subtract_int32( '(int32)$YEAR$', Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThan_int32( '(int32)$YEAR$', '(int32)2920' ) ), '(int32)1' ), '(int32)2920' ) )]"
+ GAME_DATE_STRING:0 "$DAY|O$ день $MONTH$ $ERA_STRING_YEAR_IG_CONCAT$"
+ GAME_DATE_STRING_SHORT:0 "$DAY$ день $MONTH_SHORT$ $ERA_STRING_YEAR_IG_CONCAT$"
+ GAME_DATE_STRING_LONG:2 "$DAY|O$ день $MONTH$, $ERA_STRING_YEAR_IG_CONCAT$"
  2E_DATE:0 "2Э [Subtract_int32( GetCurrentDate.GetYear, '(int32)2920' )]" # EK Era System
  
  game_concept_barony:0 "Лордство"
  game_concept_baronies:0 "Лордства"
  game_concept_barons:0 "лорды"
  game_concept_baron:0 "лорд"
+ 
+ game_concept_barony_desc:0 "$game_concept_baronies$ — самые низкие [titles|El] и самые мелкие землевладения на карте. Они образуют более крупные [counties|El].\n\nЭти титулы всегда должны иметь [Concept('holder', 'владетеля')|E]"

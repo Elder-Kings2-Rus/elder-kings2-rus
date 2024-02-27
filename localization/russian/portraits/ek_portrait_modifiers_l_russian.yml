@@ -51,6 +51,11 @@
  PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_07:0 "Нибенейцы 7"
  PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_08:0 "Нибенейцы 8"
  
+  ### Reachmen ###
+  PORTRAIT_MODIFIER_facepaint_facepaint_nede_reachfolk_01:0 "Ричмены 1"
+  PORTRAIT_MODIFIER_facepaint_facepaint_nede_reachfolk_02:0 "Ричмены 2"
+  PORTRAIT_MODIFIER_facepaint_facepaint_nede_reachfolk_03:0 "Ричмены 3"
+
  ### South Nedic  ###
 
  PORTRAIT_MODIFIER_facepaint_facepaint_nede_south_01:0 "Недийская на всё тело 1"
@@ -117,7 +122,10 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_ordinator:0 "Шлем ординатора"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_almarula:0 "Шлем Альма Рула"
  
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dunmer_war_01:0 "Костяной шлем" 
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dunmer_war_02:0 "Костяной шлем"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dunmer_common_01:0 "Шлем из хитина грязекраба"
  
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_dunmer_war_nobility:0 "Костяные наголенники"
  
@@ -155,7 +163,10 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_ordinator:0 "Шлем ординатора"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_almarula:0 "Шлем Альма Рула"
 
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dunmer_war_02:0 "Костяной шлем" 
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dunmer_war_01:0 "Костяной шлем" 
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dunmer_war_02:0 "Костяной шлем"
+
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dunmer_common_01:0 "Шлем из хитина грязекраба"
 
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_dunmer_war_nobility:0 "Костяные наголенники"
 
@@ -198,6 +209,13 @@
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_01_high:0 "Недийские поножи высшего дворянства 1"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_02_high:0 "Недийские поножи высшего дворянства 2"
  
+ PORTRAIT_MODIFIER_custom_headgear_headgear_south_nedic_male_war_01_high:0 "Шлем недийца-пельтаста с гребнем"
+ PORTRAIT_MODIFIER_custom_headgear_headgear_south_nedic_male_war_01_low:0 "Шлем недийца-пельтаста с гребнем" #Duplicate?
+ PORTRAIT_MODIFIER_custom_headgear_headgear_south_nedic_male_war_02_low:0 "Обычный шлем недийца-пельтаста"
+
+ PORTRAIT_MODIFIER_custom_cloaks_clothes_south_nedic_male_war_01_low:0 "Щит недийца-пельтаста"
+ PORTRAIT_MODIFIER_custom_cloaks_clothes_south_nedic_male_war_01_high:0 "Щит недийца-пельтаста" #Duplicate?
+
 ### Female ###
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ayleid_crown_01:0 "Айлейдская диадема"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ayleid_crown_02:0 "Айлейдская корона"
@@ -314,6 +332,28 @@
 
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_tabi_01_high:0 "Акавирские Таби носки"
  
+#########################################
+################ Orc ################
+#########################################
+
+### Male ###
+PORTRAIT_MODIFIER_custom_clothes_clothes_orc_male_chupa_02_common:0 "Обычная орочья одежда 1"
+PORTRAIT_MODIFIER_custom_clothes_clothes_orc_male_steppe_nobility_01_common:0 "Обычная орочья одежда 2"
+
+PORTRAIT_MODIFIER_custom_clothes_clothes_orc_male_chupa_01_low:0 "Одежда орочьего мелкого дворянства 1"
+PORTRAIT_MODIFIER_custom_clothes_clothes_orc_male_chupa_02_low:0 "Одежда орочьего мелкого дворянства 2"
+PORTRAIT_MODIFIER_custom_clothes_clothes_orc_male_steppe_nobility_01_low:0 "Одежда орочьего мелкого дворянства 3"
+
+PORTRAIT_MODIFIER_custom_clothes_clothes_orc_male_chupa_01_high:0 "Одежда орочьего высшего дворянства 1"
+PORTRAIT_MODIFIER_custom_clothes_clothes_orc_male_chupa_02_high:0 "Одежда орочьего высшего дворянства 2"
+PORTRAIT_MODIFIER_custom_clothes_clothes_orc_male_steppe_nobility_01_high:0 "Одежда орочьего высшего дворянства 3"
+
+### Female ###
+PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orc_01_common:0 "Обычная орочья одежда"
+PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orc_01_low:0 "Одежда орочьего мелкого дворянства"
+
+PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orc_01_high:0 "Одежда орочьего высшего дворянства"
+
  #########################################
  ################ Misc ################
  #########################################
@@ -349,6 +389,10 @@
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_tricorn_02:0 "Треуголка, вариант 2"
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_tricorn_03:0 "Треуголка, вариант 3"
 
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_tricorn_01:0 "Треуголка, вариант 1"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_tricorn_02:0 "Треуголка, вариант 2"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_tricorn_03:0 "Треуголка, вариант 3"
+  
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_nord_crown_of_verity:0 "Корона Истинности"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_nord_crown_of_verity:0 "Корона Истинности"
  

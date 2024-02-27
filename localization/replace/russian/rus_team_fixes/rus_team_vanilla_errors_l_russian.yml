@@ -184,4 +184,5 @@
  cultural_festival.4100.b: "[inconsiderate_character_scope.GetNameNoTooltip] заслуживает, чтобы [Select_CString(inconsiderate_character_scope.IsFemale, 'ее', 'его' )] отчитали на глазах у собравшихся!" #Scorg, ее/его не к тому персонажу относилось
  b_amol: "Амол" #Scorg, перезапись титула из ванилы
  c_amol: "Амол" # аналогично
+ hunt_opening_rural: "Наш лагерь стоит в глуши в имении [host.GetCurrentLocation.GetNameNoTooltip], в местности под названием [host.GetCurrentLocation.Custom('GetTerrainTypePlural')]." #Scorg, не 'рядом с местом', а 'в местности'. Тайга, например. 
  

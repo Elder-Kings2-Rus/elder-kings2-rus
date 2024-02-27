@@ -20,6 +20,7 @@
  dynn_jirich_motto:0 "Защитник народа"
  dynn_hassildor_motto:0 "Хранители Вельда"
  dynn_uvravo_motto:0 "Определённо не бандиты"
+ dynn_attar_motto:0 "Fragrant Like Rose Petals"
  dynn_redoran_motto:0 "Долг в первую очередь перед Трибуналом, во вторую - перед Домом Редоран, а в третью - перед своей семьей и своим родом"
  dynn_indoril_motto:0 "Правосудие никогда не дремлет — Индорил приказывает, Храм судит"
  dynn_drinith_motto:0 "Прими пепельное наследие, ибо дом вечен"
@@ -30,6 +31,9 @@
  dynn_maryon_motto:0 "Соберитесь вокруг эбонитового посоха"
  dynn_howardus_motto:0 "Это просто работает."
  dynn_reman_motto:0 "АЗ ЕСМЬ СИРОДИЛ ПРИШЕДШИЙ"
+ dynn_hrol_motto:0 "Love Unto a Hillock"
+ dynn_dor_motto:0 "Remember the Feast of Saint Coellicia"
+ dynn_faleria_motto:0 "Only Memories Left"
  dynn_falto_motto:0 "Я скучаю"
  dynn_artellian_motto:0 "Могущество вдоль Стрида"
  dynn_matic_motto:0 "Вечно бдительные хранители Сумерек"
@@ -77,6 +81,7 @@
  dynn_thrice_pierced_motto:0 "В ожидании четвертого"
  dynn_ghilred_motto:0 "Благословенные ястребом Исграмора"
  dynn_doom_sayer_motto:0 "Внимайте нашим словам"
+ dynn_high_shoal_motto:0 "Crash Through the Surface"
  dynn_changewind_motto:0 "Нет речи, нет помощи"
  dynn_flamehair_motto:0 "Избранный короной"
  dynn_bjorga_motto:0 "Леопарды Рифта"
@@ -93,6 +98,7 @@
  dynn_ravencrone_motto:0 "Прислушайтесь к своим мечтам"
  dynn_skjoralmor_motto:0 "Процветание у озера"
  dynn_stormfist_motto:0 "Удар, подобный буре"
+ dynn_ale_ice_motto:0 "Sip, Savor, Repeat"
  dynn_broadwall_motto:0 "Непробиваемые, от берега к берегу"
  dynn_volkihar_motto:0 "Отпрыски Хладной гавани"
  dynn_shatter_ice_motto:0 "Зимние осколки"
@@ -190,6 +196,7 @@
  dynn_blackthorn_motto:0 "Лекс Малла, Лекс Нулла"
  dynn_amber_shield_motto:0 "Старый щит ещё стоит"
  dynn_nizwa_motto:0 "Приходите к нам с миром"
+ dynn_haran_motto:0 "Persist Through the Mountains"
  dynn_thornroot_motto:0 "Могильщики Фаолана"
  dynn_aunsamiran_motto:0 "Лучше встретиться в Дружбе"
  dynn_winterborn_motto:0 "Лучше всего сжигать поля"
@@ -212,6 +219,9 @@
  dynn_ulthran_motto:0 "Когда другого пути нет, опасный путь — единственная дорога к спасению"
  dynn_sain_motto:0 "Кровь на воде"
  dynn_gurges_motto:0 "Любой ценой"
+ dynn_arys_motto:0 "A Clockwork is Only as Strong as its Weakest Cog" # Quote from Barilzar himself
+ dynn_dagoth_motto:0 "Friend or Traitor, Come"
+ dynn_tam_rugh_motto:0 "Guilty Until Proven Innocent"
 
  dynn_beanique_motto:0 "Непобедимые и несокрушимые"
  dynn_kssazi_motto:0 "От наших клинков падут самые могучие"
@@ -318,6 +328,9 @@
  dynn_aquila_motto:0 "Истинное зрение обнажает все"
  dynn_laeloria_motto:0 "Вернуть то, что мы любим"
  dynn_agea_relle_motto:0 "Шепот клинка"
+ dynn_syrabanis_motto:0 "Decipher the Arcane"
+ dynn_xarxesar_motto:0 "Read Between the Lines"
+ dynn_phynastris_motto:0 "Quick-Minded Yet Sure-Footed"
 
 #Argonian Mottos
  dynn_norg_tzel_motto:0 "Белая чешуя несёт смерть"
@@ -333,6 +346,7 @@
  dynn_ca_uxith_motto:0 "Ничто не вечно"
  dynn_jujju_motto:0 "Часть земли, часть Хиста"
  dynn_black_tongue_motto:0 "Безвредный и временный"
+ dynn_thuxleel_motto:0 "Sharp Fangs, Deadly Venom"
 
 #Ashlander Mottos
  dynn_ahemmusa_motto:0 "Цени осторожность сердца"
@@ -348,6 +362,7 @@
  dynn_shashmassamsi_motto:0 "Мы, идущие за ветром"
  dynn_ilabael_motto:0 "Под пеплом Сердце выдержит"
  dynn_ahemmannu_motto:0 "Взяв силу, побеждает выносливость"
+ dynn_zenammu_motto:0 "All Stones speak the Truth"
 
 #Ayleid Mottos
  dynn_dynar_motto:0 "Жертва рождает вечность"
@@ -373,7 +388,7 @@
  dynn_farys_motto:0 "Просветление указывает нам путь"
  dynn_sendrul_motto:0 "Преданность воспламеняет нашу волю"
  dynn_llori_motto:0 "Под руководством Трёх"
- dynn_arys_motto:0 "Сила Храма объединяет"
+ dynn_sandil_motto:0 "Сила Храма объединяет"
  dynn_nethril_motto:0 "Вера, направляющая наши шаги"
  dynn_bero_motto:0 "Навигация по приливам процветания"
  dynn_demnevanni_motto:0 "Через знание и волю"
@@ -384,6 +399,7 @@
 #Khajiit Mottos
  dynn_khaspoor_motto:0 "Джоун скорбит о нас"
  dynn_isokhrass_motto:0 "Вечное племя, бесконечная стойкость"
+ dynn_drohl_motto:0 "The Northern Claw Cuts Deep"
  dynn_shabu_motto:0 "Могучие пески вечно изменчивы"
  dynn_verqara_motto:0 "Чтите первых до-радин"
  dynn_qojozay_motto:0 "Из пепельных песков мы восстанем"
@@ -432,6 +448,7 @@
  dynn_brohbrokh_motto:0 "Будь прокляты изменники"
  dynn_ivorytooth_motto:0 "Красота в смерти"
  dynn_shardbrok_motto:0 "Связанные единством и традициями"
+ dynn_galatite_motto:0 "Blooming Below, Reaching Above"
  dynn_orichalc_motto:0 "Мир куётся войнами"
  dynn_rubedite_motto:0 "Кровь алых вен"
  dynn_barkbite_motto:0 "Процветание на вершине имперского высокомерия"

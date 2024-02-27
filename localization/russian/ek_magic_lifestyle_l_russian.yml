@@ -126,7 +126,6 @@
  illusion_medium_rituals_perk_effect:0 "Открывает обычные [rituals|El] иллюзии:\n[GetScriptedGui('ritual_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('illusion') ).AddScope('tier', MakeScopeValue('(CFixedPoint)2') ).End)]"
  illusion_major_rituals_perk_effect:0 "Открывает главные [rituals|El] иллюзии:\n[GetScriptedGui('ritual_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('illusion') ).AddScope('tier', MakeScopeValue('(CFixedPoint)3') ).End)]"
 
- restoration_novice_perk_ritual_effect:0 "Разблокирует [Concept('rituals','ритуал')|E] восстановление"
  restoration_novice_perk_effect:0 "Разблокирует [spells|El] восстановления уровня новичка:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('restoration') ).AddScope('tier', MakeScopeValue('(CFixedPoint)1') ).End)]"
  restoration_apprentice_perk_effect:0 "Разблокирует [spells|El] восстановления уровня ученика:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('restoration') ).AddScope('tier', MakeScopeValue('(CFixedPoint)2') ).End)]"
  restoration_journeyman_perk_effect:0 "Разблокирует [spells|El] восстановления уровня адепта:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('restoration') ).AddScope('tier', MakeScopeValue('(CFixedPoint)3') ).End)]"

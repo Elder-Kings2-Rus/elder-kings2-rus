@@ -1,5 +1,5 @@
 ﻿l_russian:
- TITLE_NAME:0 "$NAME$"
+ TITLE_NAME:1 "$NAME|U$"
  TITLE_TIERED_NAME:0 "$TIER|U$ $NAME$"
  TITLE_CLAN_TIERED_NAME:0 "$TIER|U$ $NAME$"
  TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME:0 "$TIER|U$ $NAME$ #F ($TIER|U$ $BASE_NAME$) #!"
@@ -95,7 +95,7 @@
  d_alessian_order:1 "Алессианский Орден"
  d_tonal_architects:1 "Тональные Архитекторы"
  d_tonal_architects_article:1 ""
- d_auriel:1 "Трон Ауриэля"
+ d_auriel:1 "Жречество Заркса"
  d_auriel_article:1 ""
  d_adamantine:1 "Адамантиновый Трон"
  d_adamantine_article:1 ""

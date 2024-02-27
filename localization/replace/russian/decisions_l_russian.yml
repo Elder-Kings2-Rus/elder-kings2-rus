@@ -9,3 +9,12 @@
  convert_whole_realm_to_feudalism_decision_desc:0 "Чтобы держава [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] и дальше могла расширяться и развиваться, мы должны оставить старые пути и вместе принять новый способ администрирования."
  convert_whole_realm_to_feudalism_decision_confirm:0 "Принять [ROOT.Char.Custom('GetTribalReformGovernment')|l]"
  convert_whole_realm_to_feudalism_decision_tooltip:0 "[government|E] меняет форму правления и выбирает [feudal_like_government|El]"
+ 
+ #False Conversion decisions - these are worded differently to fit our use of the system, which isn't really about hiding the old ways
+ revoke_false_conversion_decision.tt:0 "Открыто обратиться в вашу секретную [Concept( 'faiths', 'конфессию' )|E]"
+ revoke_false_conversion_decision.desc:0 "#F Хотя официально я исповедую [ROOT.Char.GetFaith.GetNameNoTooltip|l]ую конфессию, я не могу отказаться от многих личных ритуалов, которые я практикую втайне. Возможно, настало время делать это публично?#!"
+ revoke_false_conversion_decision.desc.tt:0 "Вы открыто примете вашу тайную [Concept( 'faiths', 'конфессию' )|E]. Ваши [vassals|El] и [Concept( 'close_family', 'близкие родственники' )|E] могут обратиться вместе с вами"
+
+ abandon_crypto_faith_decision.tt: "Прекратить исповедовать свою тайную конфессию"
+ abandon_crypto_faith_decision.desc: "#F Все эти тайные службы и читаемые шепотом молитвы меня утомили. И в то же время меня больше ничуть не смущает моя общественная жизнь в свете #L [ROOT.Char.GetFaith.GetName|l]ой#! веры. Возможно, пора раз и навсегда отринуть тайную веру.#!"
+ abandon_crypto_faith_decision_confirm: "Отринуть крипто-конфессию"

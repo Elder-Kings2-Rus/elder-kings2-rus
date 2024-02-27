@@ -91,8 +91,20 @@
 
  game_concept_culture_revival:0 "Возрождение культуры"
  game_concept_culture_revived:0 "Возрождённая"
- game_concept_culture_revival_desc:0 "Культуры, которые считаются мёртвыми и отмечены инновацией #V Мёртвая культура#!, могут быть возрождены при определённых условиях. После возрождения они станут обычной культурой и вновь смогут распространяться. Для того чтобы культура могла быть возрождена, необходимо следующее:\n\n• Должна существовать другая культура с таким же [Concept( 'heritage', 'наследием' )|E], которая #italic не#! считается мёртвой\n• Мёртвая культура должна иметь [nativity_region|El]\n• Правитель с тем же [Concept( 'heritage', 'наследием' )|E] должен полностью контролировать [nativity_region|El] мёртвой культуры.\n\nЕсли эти требования не могут быть выполнены, то мёртвая культура не может быть возрождена.\n\nКультуры с инновацией #V Вымершая раса#!, однако, возродить невозможно."
+ game_concept_culture_revival_desc:0 "Культуры, которые считаются [Concept( 'dead_culture_short', 'мёртвыми' )|E] и отмечены [Concept( 'innovation', 'инновацией' )|E] #V Мёртвая культура#!, могут быть возрождены при определённых условиях. После возрождения они станут обычной культурой и вновь смогут [Concept( 'promote_culture', 'продвигаться' )|E]. Чтобы культура могла быть возрождена, необходимо следующее:\n\n• Должна существовать другая культура с таким же [Concept( 'heritage', 'наследием' )|E], которая #italic не#! считается мёртвой\n• Мёртвая культура должна иметь [nativity_region|El]\n• Правитель с тем же [Concept( 'heritage', 'наследием' )|E] должен полностью контролировать [nativity_region|El] мёртвой культуры.\n\nЕсли эти требования не могут быть выполнены, то мёртвая культура не может быть возрождена.\n\nКультуры с инновацией #V Вымершая раса#!, однако, возродить невозможно."
  
+ game_concept_living_culture:0 "Живая культура"
+ game_concept_living_culture_short:0 "Живая"
+ game_concept_living_culture_desc:0 "Живые культуры [Concept( 'valid_conversion_culture_short', 'подходят' )|E] для распространения в [Concept( 'counties', 'графствах' )|E] через [Concept( 'promote_culture', 'продвижение культур' )|E]. [culture|E] является живой, если она распространена хотя бы в одном [Concept( 'counties', 'графстве' )|E]."
+
+ game_concept_dead_culture:0 "Мёртвая культура"
+ game_concept_dead_culture_short:0 "Мёртвая"
+ game_concept_dead_culture_desc:0 "Мёртвые культуры не [Concept( 'valid_conversion_culture_short', 'подходят' )|E] для распространения в [Concept( 'counties', 'графствах' )|E] через [Concept( 'promote_culture', 'продвижение культур' )|E]. [culture|E] умирает, когда не остаётся [Concept( 'counties', 'графств' )|E] этой культуры. Мёртвые культуры могут быть [Concept( 'culture_revived', 'возрождены' )|E] при определённых условиях."
+
+ game_concept_valid_conversion_culture:0 "Подходящая для продвижения культура"
+ game_concept_valid_conversion_culture_short:0 "Подходящая"
+ game_concept_valid_conversion_culture_medium:0 "Подходящие культуры"
+ game_concept_valid_conversion_culture_desc:0 "Чтобы [culture|El] была [Concept( 'valid_conversion_culture_short', 'подходящей' )|E] для распространения через [Concept( 'promote_culture', 'продвижение' )|E], она должна удовлетворять следующим условиям:\n\n$EFFECT_LIST_BULLET$Ваша собственная [culture|El], [Concept( 'native', 'коренная' )|E] [culture|El] или [Concept( 'nomadic', 'кочевническая' )|E] [culture|El]\n$EFFECT_LIST_BULLET$[living_culture|E]\n$EFFECT_LIST_BULLET$Того же [Concept( 'heritage', 'наследия' )|E] или имеет высокую [cultural_acceptance|El] с вашей [Concept( 'cultures', 'культурой' )|E]"
  
  game_concept_meritocratic:0 "Меритократический"
  game_concept_meritocratic_desc:0 "$game_concept_meritocratic$ [succession_law|El] постановляет, что каждое [county|El] может решать, последует ли оно за [Concept( 'heir', 'наследником' )|E] бывшего правителя, или если же они изберут кого-то из местных, чтобы управлять собой. Если у графства будет высокое [Concept( 'county_opinion', 'мнение' )|E], это поможет обезопасить его передачу во время наследования."
@@ -129,6 +141,7 @@
  game_concept_ceremoniarchy_desc:0 "Церемониархия - сложная система обрядов и обычаев, в основе которой находится стремление к #LORE [Concept( 'compendium_aldmeris', 'Альдмерису' )|E]#!. Правитель должен поддерживать свой [praxis|El] и следить за соблюдением традиций — некоторые правители, однако, могут захотеть отбросить традиции и приспособиться к этому меняющемуся миру...\n#weak Только те правители, чья конфессия имеет [core_tenets|El] [GetFaithDoctrine('tenet_legalism').GetBaseName] и [GetFaithDoctrine('tenet_divine_purity').GetBaseName], могут принять церемониархию.#!"
  
  game_concept_praxis:0 "Праксис"
+ game_concept_praxis_i:0 "@praxis_icon!"
  game_concept_praxis_desc:0 "Праксис — это измерение того, насколько персонаж соответствует строгим стандартам "Пути к Алаксону" — альтмерской философии, подчеркивающей стремление к совершенству. \n\nСоответствие этим социальным ожиданиям обеспечивает гармонию в обществе. Те, кто отклоняется от этого пути, могут иметь более лёгкую личную жизнь — но рискуют подвергнуться общественному порицанию. \n\nПраксис правителя будет оцениваться его поведением на публичных мероприятиях вроде посещения пиров или придворных приёмов."
  
  game_concept_might_makes_right:0 "Сила есть право"
