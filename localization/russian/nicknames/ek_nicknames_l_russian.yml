@@ -100,7 +100,7 @@
  nick_ruler_of_the_sea:0 "[Select_CString(CHARACTER.IsFemale, 'Повелительница морей', 'Повелитель морей' )]"
  nick_ruler_of_the_sea_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'правите', 'правит')] морями с тем же могуществом, что и своим великим государством."
  nick_scourge_of_the_iliac_bay:0 "Бич залива Илиак"
- nick_scourge_of_the_iliac_bay_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] - [Select_CString(CHARACTER.IsFemale, 'грозная морская налётчица, прославившаяся', 'грозный пират, прославившийся' )] тем, [Select_CString( CHARACTER.IsLocalPlayer, 'наводили', Select_CString(CHARACTER.IsFemale, 'наводила', 'наводил' ))] ужас на залив Илиак."
+ nick_scourge_of_the_iliac_bay_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] - [Select_CString(CHARACTER.IsFemale, 'грозная морская налётчица, прославившаяся', 'грозный пират, прославившийся' )] тем, что [Select_CString( CHARACTER.IsLocalPlayer, 'наводили', Select_CString(CHARACTER.IsFemale, 'наводила', 'наводил' ))] ужас на залив Илиак."
  nick_the_raider_king_queen:0 "[Select_CString(CHARACTER.IsFemale, 'Королева-налётчица', 'Король-налётчик' )]"
  nick_the_raider_king_queen_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'возглавляете', 'возглавляет')] свирепую и неумолимую армию, которую [Select_CString( CHARACTER.IsLocalPlayer, 'вы', CHARACTER.GetSheHe)] [Select_CString( CHARACTER.IsLocalPlayer, 'используете', 'использует')] для грабежей и порабощений со стратегической точностью, оставляя за собой след из завоеваний и разрушений."
  nick_the_regal_pirate:0 "[Select_CString(CHARACTER.IsFemale, 'Королева пиратов', 'Король пиратов' )]"
