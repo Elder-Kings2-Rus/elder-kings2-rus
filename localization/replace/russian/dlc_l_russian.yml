@@ -1,5 +1,5 @@
 ﻿l_russian:
- DLC_BUTTON_TOOLTIP:1 "#T [DlcItem.GetDlc.GetName]#!\n[DlcItem.GetDlc.GetDesc]\n\n#low [SelectLocalization( Or( DlcItem.GetDlc.IsEnabled, EqualTo_string(DlcItem.GetDlc.GetName, Localize('dlc_ek') ) ), 'DLC_ENABLED', 'DLC_NOT_ENABLED' )]#![AddTextIf( Not( EqualTo_string(DlcItem.GetDlc.GetName, Localize('dlc_ek') ) ), '\n#I Click to visit store#!' )]"
+ DLC_BUTTON_TOOLTIP:1 "#T [DlcItem.GetDlc.GetName]#!\n[DlcItem.GetDlc.GetDesc]\n\n#low [SelectLocalization( Or( DlcItem.GetDlc.IsEnabled, EqualTo_string(DlcItem.GetDlc.GetName, Localize('dlc_ek') ) ), 'DLC_ENABLED', 'DLC_NOT_ENABLED' )]#![AddTextIf( Not( EqualTo_string(DlcItem.GetDlc.GetName, Localize('dlc_ek') ) ), '\n#I Щелкните, чтобы посетить магазин#!' )]"
  # EK EDIT copies part of vanilla dlc_l_english.yml, hooks in EK loc, which is actually in ek_dlc_l_english.yml
  # This makes maintenance here much easier.
  dlc_001:0 "$DLC001_PREORDER$"
@@ -19,7 +19,7 @@
  dlc_008:0 "$DLC008_SP2$"
  dlc_008_desc:0 "Оденьте своих правителей в лучшие наряды из этого набора одежды. В него вошли не только новые мантии и платья, вдохновленные одеяниями и регалиями императора Генриха II и его супруги Кунигунды, но и аутентичные короны и другие предметы. Доступно только обладателям Chapter II.$dlc_008_ek$"
  dlc_009: "$DLC009_BP2$"
- dlc_009_desc: "IВ дополнении Wards & Wardens на первое место выходят дети-правители и их опекуны. Воспитывайте юных принцев и дворян в мире, где от вечной славы отделяет одно сражение, а опасность таится в каждой тени.$dlc_009_ek$"
+ dlc_009_desc: "В дополнении Wards & Wardens на первое место выходят дети-правители и их опекуны. Воспитывайте юных принцев и дворян в мире, где от вечной славы отделяет одно сражение, а опасность таится в каждой тени.$dlc_009_ek$"
  dlc_010: "$DLC010_FP3$"
  dlc_010_desc: "Сасанидской империи давно нет, Аббасидский халифат напирает на оставшиеся иранские династии, желая подчинить их. Как поступите вы: приспособитесь к обстоятельствам или создадите новую империю? Будущее Персии — в ваших руках!$dlc_010_ek$"
  dlc_012: "$DLC012_CP1$"

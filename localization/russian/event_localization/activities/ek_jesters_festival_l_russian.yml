@@ -33,7 +33,7 @@
  rival_springtime_flair_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'разыграла', 'разыграл' )] гостя по имени [TARGET_CHARACTER.GetShortUIName], осыпав [TARGET_CHARACTER.GetHerHim] цветами на Фестивале шутов."
 
  ek_jesters_festival.0003.t:0 "Фестиваль шутов: королевские гулянья"
- ek_jesters_festival.0003.desc:0 "Одним из самых ожидаемых события на Фестивале шутов является запуск иллюзорных шутих, алхимических чудес, которые взрываются, окрашивая небо яркими красками!\n\nТакие же шутихи позабавят простолюдинов, населяющих  [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]!"
+ ek_jesters_festival.0003.desc:0 "Одним из самых ожидаемых события на Фестивале шутов является запуск иллюзорных шутих, алхимических чудес, которые взрываются, окрашивая небо яркими красками!\n\nТакие же шутихи позабавят простолюдинов, населяющих [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]!"
  ek_jesters_festival.0003.a:0 "Мои верные подданные, полюбуйтесь на эти чудеса!"
  ek_jesters_festival.0003.b:0 "Зачем мне тратить время на развлечение крестьян?"
  

@@ -252,7 +252,7 @@
  rival_bit_by_scrib_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'была укушена и парализована', 'был укушен и парализован' )] скрибом персонажа [TARGET_CHARACTER.GetShortUIName]."
 
  rival_vvardvark_peck:0 "Пеплозуб, который принадлежит персонажу [TARGET_CHARACTER.GetShortUIName|U], поцарапал персонажа [CHARACTER.GetShortUIName]."
- rival_vvardvark_peck_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'была поцарапана', 'был поцарапан' )] пеплозубом персонажа  [TARGET_CHARACTER.GetShortUIName]."
+ rival_vvardvark_peck_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'была поцарапана', 'был поцарапан' )] пеплозубом персонажа [TARGET_CHARACTER.GetShortUIName]."
 
  rival_bantam_peck:0 "Бентамский гуар, который принадлежит персонажу [TARGET_CHARACTER.GetShortUIName|U], клюнул персонажа [CHARACTER.GetShortUIName]."
  rival_bantam_peck_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'была клюнута', 'был клюнут' )] бентамским гуаром персонажа [TARGET_CHARACTER.GetShortUIName]."
@@ -304,7 +304,7 @@
  ### Random bantam guar events
  # You eat some fruits with your bantam guar, smol health modifier
  ek_pet_animal.3101.t:0 "[ROOT.Char.Custom('BantamStoryName')]: Свежие фрукты"
- ek_pet_animal.3101.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'взяла', 'взял' )] за привычку иногда проводить время с [ROOT.Char.Custom('BantamStoryName')] в конце дня, давая  [ROOT.Char.Custom('BantamStoryHerHim')] свежие фрукты.\n\nНе знаю, связано ли это с фруктами или со временем, проведённым с [ROOT.Char.Custom('BantamStoryName')], но я чувствую себя более энергично и лучше!"
+ ek_pet_animal.3101.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'взяла', 'взял' )] за привычку иногда проводить время с [ROOT.Char.Custom('BantamStoryName')] в конце дня, давая [ROOT.Char.Custom('BantamStoryHerHim')] свежие фрукты.\n\nНе знаю, связано ли это с фруктами или со временем, проведённым с [ROOT.Char.Custom('BantamStoryName')], но я чувствую себя более энергично и лучше!"
  ek_pet_animal.3101.a:0 "Оставь немного и мне, [ROOT.Char.Custom('BantamStoryName')]!"
 
  # Your bantam guar goes with you into battle!
@@ -331,7 +331,7 @@
 
  # Bantam guar dies :(
  ek_pet_animal.3199.t:0 "[ROOT.Char.Custom('BantamStoryName')]: Скорбный день"
- ek_pet_animal.3199.desc:0 "[ROOT.Char.Custom('BantamStoryName')] не так молод, каким [ROOT.Char.Custom('BantamStorySheHe')] когда-то был, я все ещё слышу [ROOT.Char.Custom('BantamStoryHerHis')]  пение, но оно больше не такое яркое и сильное как раньше.\n\nЯ нежно глажу [ROOT.Char.Custom('BantamStoryHerHis')] [ROOT.Char.Custom('BantamColor')] перья и прислушиваюсь к  [ROOT.Char.Custom('BantamStoryHerHim')] тихому пению и попыткам взмахнуть [ROOT.Char.Custom('BantamStoryHerHis')] крыльями, но когда наступила тишина, я понимаю, что [ROOT.Char.Custom('BantamStoryHerHis')] пение не разбудит меня следующим утром."
+ ek_pet_animal.3199.desc:0 "[ROOT.Char.Custom('BantamStoryName')] не так молод, каким [ROOT.Char.Custom('BantamStorySheHe')] когда-то был, я все ещё слышу [ROOT.Char.Custom('BantamStoryHerHis')] пение, но оно больше не такое яркое и сильное как раньше.\n\nЯ нежно глажу [ROOT.Char.Custom('BantamStoryHerHis')] [ROOT.Char.Custom('BantamColor')] перья и прислушиваюсь к [ROOT.Char.Custom('BantamStoryHerHim')] тихому пению и попыткам взмахнуть [ROOT.Char.Custom('BantamStoryHerHis')] крыльями, но когда наступила тишина, я понимаю, что [ROOT.Char.Custom('BantamStoryHerHis')] пение не разбудит меня следующим утром."
  ek_pet_animal.3199.a:0 "Я буду скучать по тебе, [ROOT.Char.Custom('BantamStoryName')]!"
 
  pet_bantam_decision:0 "[ROOT.Char.Custom('BantamStoryName')] - погладить"
