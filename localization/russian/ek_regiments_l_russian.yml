@@ -211,11 +211,11 @@
  bone_walker:0 "Костяной ходок"
  bone_walker_flavor:0 "#F Эта устрашающая конструкция является результатом тёмной некромантической магии, приносящей смерть и ужас на любое поле боя, особенно для вражеской пехоты.#!"
  
- accolade_maa_mages:0 "Retinue Mages"
- accolade_maa_mages_flavor:1 "[retinue_maa|E]\n#F Armed with their wands and arsenal of spells, they will rain hellfire magic upon their enemies.#!"
- accolade_maa_spellswords:0 "Retinue Spellswords"
- accolade_maa_spellswords_flavor:1 "[retinue_maa|E]\n#F Masters of blade and magic, these arcane warriors hold their own in many types of combat.#!"
+ accolade_maa_mages:0 "Свита магов"
+ accolade_maa_mages_flavor:1 "[Concept( 'retinue_maa', 'Свита профессионалов' )|E]\n#F Вооружённые своими посохами и арсеналом заклинаний, они обрушат на своих врагов дождь адской магии.#!"
+ accolade_maa_spellswords:0 "Свита воинов-магов"
+ accolade_maa_spellswords_flavor:1 "[Concept( 'retinue_maa', 'Свита профессионалов' )|E]\n#F Мастера клинка и магии, эти воины-маги знают толк во многих видах боя.#!"
 
- accolade_maa_mages_only_available_on_primary:0 "#color_red NOT: [GetMaA('accolade_maa_mages').GetName] (requires primary [accolade_type|E])#!"
- accolade_maa_spellswords_only_available_on_primary:0 "#color_red NOT: [GetMaA('accolade_maa_spellswords').GetName] (requires primary [accolade_type|E])#!"
+ accolade_maa_mages_only_available_on_primary:0 "#color_red НЕ ВЫПОЛНЕНО: [GetMaA('accolade_maa_mages').GetName] (требуется основной [Concept( 'accolade_type', 'тип акколады' )|E])#!"
+ accolade_maa_spellswords_only_available_on_primary:0 "#color_red НЕ ВЫПОЛНЕНО: [GetMaA('accolade_maa_spellswords').GetName] (требуется основной [Concept( 'accolade_type', 'тип акколады' )|E])#!"
 
