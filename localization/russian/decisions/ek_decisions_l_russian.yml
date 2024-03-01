@@ -328,4 +328,4 @@
  reveal_lycan_secret_decision_desc:0 "Долгое время я [Select_CString(ROOT.Char.IsFemale, 'жила', 'жил' )] в тайне, скрывая свою истинную природу зверолюда. Теперь же я [Select_CString(ROOT.Char.IsFemale, 'оказалась', 'оказался' )] в компании единомышленников, от которых мне не нужно скрываться. Может быть, пришло время мне выйти на свет?"
  reveal_lycan_secret_decision_tooltip:0 "Раскрыть свою истинную природу"
  reveal_lycan_secret_decision_confirm:0 "#italic Повыть на луны#!"
- reveal_lycan_secret_decision_effect:0 "Объявить всему миру что вы -  [GetTrait('lycan_character').GetName(GetNullCharacter)]"
+ reveal_lycan_secret_decision_effect:0 "Объявить всему миру что вы — [GetTrait('lycan_character').GetName(GetNullCharacter)]"
