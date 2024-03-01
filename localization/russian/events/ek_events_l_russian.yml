@@ -723,7 +723,7 @@
 
  life_extension.0002.a:0 "Поистине удивительно..."
 
- ek_fund_inspiration.0001.t:0 "$fund_inspiration.title$ [local_adventurer.GetFirstName]'s Race"
+ ek_fund_inspiration.0001.t:0 "$fund_inspiration.title$ [local_adventurer.GetFirstName] и спор"
  ek_fund_inspiration.0001.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'получила', 'получил' )] письмо от моего искателя приключений, в котором живо описываются [inspiration_owner.GetHerHis] недавние похождения.\n\n"Я [Select_CString(inspiration_owner.IsFemale, 'возглавила', 'возглавил' )] грандиозную экспедицию в забытые глубины местечка [inspiration_owner.GetCurrentLocation.GetName], откуда меня манил сверкающий драгоценный камень. [Select_CString(local_adventurer.IsFemale, 'Местная искательница', 'Местный искатель' )] приключений по имени [local_adventurer.GetFirstName] [Select_CString(local_adventurer.IsFemale, 'вступила', 'вступил' )] со мной в спор по поводу судьбы сокровища.\n\n[local_adventurer.GetSheHe|U] утверждает, что [Select_CString(local_adventurer.IsFemale, 'добралась', 'добрался' )] до него [Select_CString(local_adventurer.IsFemale, 'первой', 'первым' )] и поэтому является [Select_CString(local_adventurer.IsFemale, 'законной владелицей', 'законным владельцем' )] сокровища.""
  ek_fund_inspiration.0001.a:0 "Вы украли [local_adventurer.GetHerHis] сокровище, когда [local_adventurer.GetSheHe] [Select_CString(local_adventurer.IsFemale, 'смотрела', 'смотрел' )] в другую сторону."
  ek_fund_inspiration.0001.a.critical_success:0 "[inspiration_owner.GetFirstName] забирает всё"

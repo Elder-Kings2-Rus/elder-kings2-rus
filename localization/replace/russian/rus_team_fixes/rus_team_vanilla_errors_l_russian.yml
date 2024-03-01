@@ -185,4 +185,6 @@
  b_amol: "Амол" #Scorg, перезапись титула из ванилы
  c_amol: "Амол" # аналогично
  hunt_opening_rural: "Наш лагерь стоит в глуши в имении [host.GetCurrentLocation.GetNameNoTooltip], в местности под названием [host.GetCurrentLocation.Custom('GetTerrainTypePlural')]." #Scorg, не 'рядом с местом', а 'в местности'. Тайга, например. 
- 
+ ACCOLADE_CHANGE_PRIMARY_TYPE:0 "Изменить $ACCOLADE_PRIMARY_TYPE$" #поломанная ссылка на код локализации в ваниле
+ ACCOLADE_CHANGE_SECONDARY_TYPE:0 "Изменить $ACCOLADE_SECONDARY_TYPE$" #поломанная ссылка на код локализации в ваниле
+ invite_claimants_decision: "Пригласить претендентов" #пригласИть
