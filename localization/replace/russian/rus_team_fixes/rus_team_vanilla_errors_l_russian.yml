@@ -188,3 +188,4 @@
  ACCOLADE_CHANGE_PRIMARY_TYPE:0 "Изменить $ACCOLADE_PRIMARY_TYPE$" #поломанная ссылка на код локализации в ваниле
  ACCOLADE_CHANGE_SECONDARY_TYPE:0 "Изменить $ACCOLADE_SECONDARY_TYPE$" #поломанная ссылка на код локализации в ваниле
  invite_claimants_decision: "Пригласить претендентов" #пригласИть
+ nick_the_wicked_desc: "#L [CHARACTER.GetFaith.GetName]ая#! конфессия имеет много ограничений — [Select_CString( CHARACTER.IsLocalPlayer, 'вы', CHARACTER.GetSheHe)] же [Select_CString( CHARACTER.IsLocalPlayer, 'имеете', 'имеет')] привычку их нарушать." # подправлено название конфессии в начале
