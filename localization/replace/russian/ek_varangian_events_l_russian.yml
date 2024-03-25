@@ -2,7 +2,7 @@
 
  trait_varangian:0 "Легионер"
  trait_varangian_desc:0 "Этот персонаж служил в Имперском Легионе."
- trait_varangian_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'служила', 'служил' )] в Имперском Легионе. Такая служба — редкий шанс для парий доказать свою ценность и избежать притеснения."
+ trait_varangian_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'служила', 'служил' )] в Имперском Легионе. Такая служба — редкий шанс для отверженных доказать свою ценность и избежать притеснения."
  TRAIT_FLAG_DESC_pariah_exemption:0 "[pariahs|E] не подвергаются [Concept( 'pariah_discrimination', 'дискриминации' )|E]"
  
  murder_save.0010.t:0 "$murder_save_header$ Легионер"

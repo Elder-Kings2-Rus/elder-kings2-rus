@@ -44,7 +44,7 @@
 
  game_concept_pariah_discrimination:0 "Дискриминация"
  game_concept_pariah_discriminate:0 "Дискриминировать"
- game_concept_pariah_discrimination_desc:0 "'Дискриминация' — это общий термин для враждебных [Concept( 'interactions', 'взаимодействий' )|E], используемых против [Concept( 'pariah', 'парий' )|E]. В данном контексте это относится к способности не-парий [Concept( 'imprison', 'заключать в тюрьму' )|E], [Concept( 'execute', 'казнить' )|E] и [Concept( 'revoke', 'лишать титулов' )|E] тех, кто принадлежит к культуре парий."
+ game_concept_pariah_discrimination_desc:0 "'Дискриминация' — это общий термин для враждебных [Concept( 'interactions', 'взаимодействий' )|E], используемых против [Concept( 'pariah', 'отверженных' )|E]. В данном контексте это относится к способности не-отверженных [Concept( 'imprison', 'заключать в тюрьму' )|E], [Concept( 'execute', 'казнить' )|E] и [Concept( 'revoke', 'лишать титулов' )|E] тех, кто принадлежит к культуре отверженных."
 
  game_concept_daedric_race:0 "Даэдра"
  game_concept_demon_race:0 "Демон"
