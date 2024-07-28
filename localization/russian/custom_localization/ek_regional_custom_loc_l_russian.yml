@@ -63,14 +63,22 @@
  random_informative_text_tla:0 "Топальская академия легионеров"   
  random_informative_text_tfoe:0 "Расцвет Элинира"   
 
+ #RegionalDrink
+ #Bosmer
+ beetle_tea:0 "чай из жуков"
+ #Nord
+ spiced_cider:0 "пряный сидр"
+
  #RegionalAlcoholicDrink
  ale:0 "эль"
  beer:0 "пиво"
  cider:0 "сидр"
  honey_wine:0 "медовуха"
- jagga:0 "джагга"
  sujamma:0 "суджамма"
  theilul:0 "теилул"
+ #Bosmer
+ jagga:0 "джагга"
+ rotmeth:0 "ротмет"
 
  #LocalAnimal
  animal_animal:0 "зверь"
@@ -140,6 +148,8 @@
  animal_nix_hounds:0 "никс-гончие"
  animal_giant_bat:0 "гигантская летучая мышь"
  animal_giant_bats:0 "гигантские летучие мыши"
+ animal_ogre:0 "Огр"
+ animal_ogres:0 "Огры"
 
  #LocalMount
  mount_mount:0 "ездовое животное"

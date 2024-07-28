@@ -46,6 +46,11 @@
  commune_with_loved_one_soulmate_decision_confirm:0 "Привязать [ROOT.Var('soulmate_to_commune').Char.GetHerHis] душу к этому миру, хотя бы на несколько мгновений"
  commune_with_loved_one_soulmate_tooltip:0 "Я попытаюсь призвать душу любви всей моей жизни, дабы оплакать мою потерю и сказать в последний раз, насколько же сильна моя любовь.\n\nОднако присутствует риск, поскольку душа, которую я попытаюсь вызвать, может захотеть, чтобы её оставили в покое..."
  
+ use_extra_perk_decision:0 "Repurpose Knowledge"
+ use_extra_perk_decision_desc:0 "I have dedicated myself to a single field of knowledge before considering to pledge myself to a new one. Now I have extensive experience in that particular field, yet I feel somewhat inadequate for there is nothing more to learn in there.\n\nI wonder if there is some way for me to take advantage of that excess..."
+ use_extra_perk_decision_tooltip:0 "Use one of your excess perk points and obtain a reward based on your traits and new lifestyle, in exchange for some stress."
+ use_extra_perk_decision_confirm:0 "Let's Review!"
+
  # Religious
  
  take_vow_of_squalor_decision:0 "Принять Клятву Убожества"
@@ -158,6 +163,12 @@
  learn_liturgical_language_decision_confirm:0 "Я освою [ROOT.Char.Custom('GetLiturgicalLanguage')|l] в совершенстве!"
  learn_liturgical_language_decision_tooltip:0 "Начнёт [scheme|El], которые позволят вам овладеть [Concept( 'liturgical_language', 'литургическим языком' )|E] вашей [Concept( 'faith', 'конфессии' )|E]"
 
+ recruit_priest_scaled_court_decision:0 "Request a new Realm Priest"
+ recruit_priest_scaled_court_decision_desc:0 "Those who wish to serve as [ROOT.Char.GetFaith.PriestNeuter] are expected to be favored by the Celestial Serpent. If we lack such talent in our midst, we can ask the priesthood to release a suitable individual into our service."
+ recruit_priest_scaled_court_decision.tt:0 "A priest born under [sign_serpent|E] will be summoned to your [court|E]."
+ recruit_priest_scaled_court_decision_confirm:0 "Summon the [ROOT.Char.GetFaith.PriestNeuter]!"
+ recruit_priest_scaled_court_decision_tooltip:0 "Recruit a [ROOT.Char.GetFaith.PriestNeuter] from a local [ROOT.Char.GetFaith.HouseOfWorship] to fill the void in your court"
+
  champion_conversion_decision:0 "Посвятить себя своему Принцу"
  champion_conversion_decision_desc:0 "Хоть вы и являетесь Избранником своего Принца, вы не исповедуете открыто его конфессию. Но это может измениться прямо сейчас."
  champion_conversion_decision_confirm:0 "Теперь я [Select_CString(ROOT.Char.IsFemale, 'предана', 'предан' )] тебе, мой Принц!"
@@ -185,7 +196,25 @@
  consult_xarxeans_decision_effect:0 "Если в этот момент произойдёт [succession|El], вам скажут, кто будет вашим [Concept( 'heir', 'наследником' )|E]."
  consult_xarxeans_decision_confirm:0 "О, писцы Аури-Эля!"
 
-# Artifacts
+ claim_d_worm_kingdom:0 "Claim the Worm Cult Leadership"
+ claim_d_worm_kingdom_desc:0 "After the ascension of our Lord Mannimarco, the Worm Cult was scattered, with no central cult leadership to direct its efforts. As a powerful and greatly respected member, I can fill that vacancy."
+ claim_d_worm_kingdom_tt:0 "Anchorites, hear me and obey!" 
+ claim_d_worm_kingdom_effect:0 "[worm_kingdom.GetName] is restored with you as its holder"
+ claim_d_worm_kingdom_confirm:0 "The Order is reforged!"
+
+ proclaim_disease_decision:0 "Proclaim a Disease"
+ proclaim_disease_decision_desc:0 "In this imperfect world, diseases are a constant reminder of the frailty and transient nature of all mortal life. But the Prince of Pestilence calls us to confront our vulnerabilities and accept them as a catalyst for change. Thus, my cough shall speak to the masses, rashes will cloak me like a regal mantle, and I will radiate fever to enlighten those untouched by Peryite's power.\n\nThe time is ripe to once again participate in the profound cycle of decay and renewal and offer myself as a vessel for the Lord of Abundant Pus and Bountiful Vomit."
+ proclaim_disease_decision_tt:0 "Prove your devotion by inflicting a disease upon yourself"
+ proclaim_disease_decision_effect_tt:0 "Peryite will grant your request."
+ proclaim_disease_decision_confirm:0 "Bless me, Blighted Lord!"
+
+ # Artifacts
+
+ commission_banner_decision:0 "Commission Banner"
+ commission_banner_decision_desc:0 "What is the point of being a [ROOT.Char.GetTitleAsNameNoTooltip] if I don't have nice things to show for it? Something to hang on my walls would be nice..."
+ commission_banner_decision_effect:0 "A local weaver with a sponsored [project|E] arrives at your court"
+ commission_banner_decision_confirm:0 "Hire A Local Weaver"
+ commission_banner_decision_tooltip:0 "Hire a local weaver to create a wall ornament [artifact|E] for you"
 
  crown_verity_decision:0 "Суждение Истинности"
  crown_verity_decision_desc:0 "По традиции, восходящей к правлению Кьорика Белого, каждый правитель-норд, обладающий Короной Истинности, предстаёт перед Суждением Истинности, которое определяет, достоин ли данный правитель носить корону своих предков или же нет."
@@ -261,7 +290,7 @@
  recruit_shadowscale_decision_tooltip:0 "Искать Тёмного ящера, который присоединится к вашему [Concept( 'court', 'двору' )|E] как ваш [GetCourtPositionType('shadowscale_court_position').GetName()]"
  recruit_shadowscale_decision_confirm:0 "Отец Ужаса, пошли мне своего слугу!"
  recruit_shadowscale_decision_desc:0 "Тёмные ящеры — это загадочный орден. Он был основан в Чернотопье и состоит из Народа Корня, что вылупились под знаком Тени. Их с рождения обучают искусству скрытности и уловок. Я, как уважаемый правитель-саксхлил, могу принять одного из них к себе на службу."
- recruit_shadowscale_decision_trigger:0 "Вы не отреклись от традиций Тёмных ящеров."
+ recruit_shadowscale_decision_trigger:0 "Вы не отреклись от традиций Тёмных ящеров, отказавшись передать детёныша, вылупившегося под знаком Тени."
  recruit_shadowscale_decision_effect:0 "Тёмный ящер вскоре появится и присоединится к вашему [Concept( 'court', 'двору' )|E]."
  
  
@@ -276,6 +305,19 @@
  ek_court_position.0001.t:0 "Придворный маг"
  ek_court_position.0001.desc:0 "Этот мир полон опасностей. Не в безопасности даже [ROOT.Char.GetTitleTierName|l] и [ROOT.Char.GetHerHis] двор. Поэтому по моей просьбе мои слуги занялись поисками придворного мага. И они подобрали несколько подходящих кандидатов."
  
+ # Invite Criminals
+ invite_criminals_decision:0 "Invite Criminals"
+ invite_criminals_decision_tooltip:3 "The word will be spread that your court is open to infamous individuals who may be unable to find another place suitable for their special... talents"
+ invite_criminals_decision_desc:1 "I can always use additional henchmen to carry out my will, especially ones with unusual gifts. It may be time to gather some of them at my court and look among them for those who are the most promising."
+ invite_criminals_decision_effect_tooltip:4 "You will be presented with a selection of outlaws and other shunned characters who are willing to join your court for free."
+ invite_criminals_decision_confirm:0 "All are welcome!"
+ ek_court_position.0005.t:0 "New Henchmen"
+ ek_court_position.0005.desc:0 "My call did not stay unanswered as it was expected. There are enough individuals in Nirn willing to serve a [ROOT.Char.GetTitleTierName] like myself.\n\nNow it is my turn to decide if my court is going to grow today or not."
+ ek_court_position.0005.a:0 "[first_option.GetFirstName|U] looks promising."
+ ek_court_position.0005.b:0 "[second_option.GetFirstName|U] will surely serve me well."
+ ek_court_position.0005.c:0 "Both of them are allowed to join my ranks."
+ ek_court_position.0005.d:0 "What a waste of time. Out of my sight!"
+
  # Adoption
  adopt_child_decision:0 "Посетить сиротский приют"
  tribal_adopt_child_decision_name:0 "Усыновить ребенка-сироту"

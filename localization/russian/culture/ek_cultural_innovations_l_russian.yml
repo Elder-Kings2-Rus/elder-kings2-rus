@@ -89,6 +89,7 @@
  innovation_pariah_folk:0 "Отверженный народ"
  innovation_pariah_folk_desc:0 "Только за то, что мы те, кто есть, другие считают нас расходным материалом, а наше существование - позором. В сердцах "цивилизованных" народов одно наше упоминание вызывает отвращение, насмешки, презрение и гонения. Мы вынуждены терпеть все эти оскорбления, пока в один благословенный день не сбросим с себя этот проклятый удел."
  innovation_pariah_folk_can_be_removed:0 "Эта [innovation|El] может быть удалена авторитетным [Concept('cultural_head', 'идеологом культуры')|E], который сумеет доказать, что его народ равен другим расам, приняв [decision|El] #V Отменить статус отверженных#!"
+ innovation_pariah_folk_cultural_acceptance:0 "Получает #p +20#! [Concept('cultural_acceptance', 'терпимости')|E] с [Concept('pariah', 'отверженными')|E] [Concept('cultures', 'культурами')|E]"
  innovation_pariah_folk_marriage:0 "Персонажи, чья культура имеет данную [Concept('innovation', 'инновацию')|E], получают штрафы к согласию на заключение брака с представителями культур, не считающихся [Concept('pariah', 'отверженными')|E]"
  innovation_pariah_folk_revocation:0 "Персонажи, чья культура имеет данную [Concept('innovation', 'инновацию')|E], могут быть [Concept('imprisoned', 'заключены в тюрьму')|E], [Concept('executed', 'казнены')|E] или [Concept('revoked', 'лишены титулов')|E] сюзереном, чья культура не считается [Concept('pariah', 'отверженной')|E] без роста [Concept('tyranny', 'тирании')|E], если они не являются [Concept('vassal', 'вассалами')|E] с активным [Concept('vassal_contract', 'условием вассального договора')|E] [GetVassalContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )]"
  innovation_pariah_folk_persecution:0 "Персонажи, чья культура имеет данную [Concept('innovation', 'инновацию')|E], могут быть выбраны в качестве цели [casus_belli|El] $EXPEL_MONSTERS_DUCHY_NAME$"
@@ -116,6 +117,7 @@
  innovation_daedric_race_imprisonment:0 "[recipient.GetShortUIName|U] - [Concept('demon_race', 'демон')|E], что позволяет заключить в тюрьму данного персонажа, не прослыв [Concept('tyrant', 'тираном')|E]"
  innovation_daedric_race_execution:0 "[recipient.GetShortUIName|U] - [Concept('demon_race', 'демон')|E], что позволяет казнить данного персонажа, не прослыв [Concept('tyrant', 'тираном')|E]"
  task_promote_culture_daedric_race:0 "Мы не можем использовать это задание, поскольку являемся [Concept('daedric_race', 'даэдрической расой')|E], которая не считается коренной для измерения смертных и не может поддерживать здесь постоянное население. \n\nДля более подробной информации смотрите [Concept('innovation', 'инновацию')|E] #V $innovation_daedric_race$#!."
+ innovation_cannot_be_removed:0 "#N Эта инновация не может быть удалена#!"
 
  ### Early Interregnum
  # Military
@@ -156,7 +158,7 @@
  innovation_integrated_guilds:0 "Интегрированные гильдии"
  innovation_integrated_guilds_desc:0 "Хотя они традиционно оставались вне политики, возможно, пришло время установить тесные связи между местными правителями и лидерами приближенных гильдий."
  unlock_late_medieval_academy_buildings:0 "Открывает все академические [buildings|El] эпохи Объединительных Войн"
- unlocks_empire_conquest_cb_mmr:0 "Открывает #V Завоевание империи#! [casus_belli|El] для персонажей с [Concept('prestige_level', 'уровнем репутации')|E] равным или превосходящим [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L] #weak (следует механике - [might_makes_right|El])#!"
+ unlocks_empire_conquest_cb_mmr:0 "Открывает [casus_belli|El] #V Завоевание верховного королевства#! для персонажей с [Concept('prestige_level', 'уровнем репутации')|E] равным или превосходящим [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L] #weak (следует механике - [might_makes_right|El])#!"
  
  ### Special
  nativity_region_hack_tooltip_desc:0 "Эту инновацию нельзя исследовать, как и другие. Триггер ниже приведен только для того, чтобы показать вам масштабы родных регионов."
@@ -309,6 +311,8 @@
  no_county_culture_conversion:0 "#N Эта культура не может [Concept( 'promote_culture', 'распространяться' )|E]#!"
  culture_can_be_revived:0 "Эта культура может быть [Concept( 'culture_revived', 'возрождена' )|E] в некоторых случаях"
  task_promote_culture_culture_within_heritage_alive:0 "Мы не можем использовать это задание, так как в пределах нашего [Concept('heritage', 'наследия')|E] нет существующей [Concept('culture', 'культуры')|E].\nВсе эти культуры, включая нашу собственную, считаются #V мёртвыми#! (смотри [Concept('innovation', 'инновации')|E] #V $innovation_dead_culture$#! или #V $innovation_extinct_race$#!) и не могут распространяться в [Concept('county', 'графствах')|E].\nВ настоящее время не существует способа оживить полностью #V мёртвое#! или #V вымершее#! наследие."
+ culture_cannot_be_educated:0 "#N Персонажи этой культуры не могут стать [Concept('wards', 'подопечными')|E]#!"
+ dead_culture_cannot_educate:0 "[culture|E] [Concept('guardian_possessive', 'опекуна')|E] должна считаться [Concept('living_culture', 'живой')|E]"
 
  innovation_extinct_race:0 "Вымершая раса"
  innovation_extinct_race_desc:0 "Эта культура принадлежит к давно исчезнувшей расе. У этой культуры нет никаких живых родичей, которые могли бы надеяться восстановить свои культурные традиции и заселить земли предков. Хотя некоторые давно исчезнувшие народы могут надеяться на возрождение, эта культура никогда больше не сможет ходить по Нирну."

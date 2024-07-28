@@ -23,7 +23,7 @@
 
  GeneratePoem_Intro_Rhyming_legacyEK_01_A_01:0  "[ROOT.Var('poem_subject').Char.GetHerHis|U] песни поют в каждом трактире"
  GeneratePoem_Intro_Rhyming_legacyEK_01_A_02:0  "От Винтерхолда до Даггерфолла."
- GeneratePoem_Intro_Rhyming_legacyEK_01_A_03:0  "Купите [ROOT.Var('poem_subject').Char.GetHerHim] эля, вина или пива,"
+ GeneratePoem_Intro_Rhyming_legacyEK_01_A_03:0  "Купите [ROOT.Var('poem_subject').Char.GetHerHim] эля, вина или пива, чтобы [Select_CString(poem_subject.IsFemale, 'она промочила', 'он промочил' )] своё горло!"
 
  GeneratePoem_Intro_Rhyming_legacyEK_02_A_01:0  "Драконы удрали из Нирна давно,"
  GeneratePoem_Intro_Rhyming_legacyEK_02_A_02:0  "Владыки небес и огня."

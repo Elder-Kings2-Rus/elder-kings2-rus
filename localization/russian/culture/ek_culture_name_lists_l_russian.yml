@@ -15,7 +15,8 @@
  name_list_lukiul:0 "Лукьюльские"
  name_list_hapsleet:0 "Хапслитские"
  #ek_atmoran
- name_list_nord:0 "Нордские"
+ name_list_eastmarcher:0 "Истмарские"
+ name_list_westmarcher:0 "Вестмарские"
  name_list_cyro_nord:0 "Сиро-нордские"
  name_list_atmoran:0 "Атморские"
  name_list_skaal:0 "Скаальские"
@@ -25,6 +26,7 @@
  name_list_bosmer:0 "Босмерские"
  #ek_breton
  name_list_glenumbran:0 "Гленумбрийские"
+ name_list_systrean:0 "Систресские"
  name_list_northmen:0 "Северо-бретонские"
  name_list_iliac:0 "Илиакские"
  name_list_wrothgarian:0 "Ротгарианские"
@@ -35,6 +37,7 @@
  name_list_colovian:0 "Коловианские"
  name_list_strident:0 "Стридские"
  name_list_nibenese:0 "Нибенейские"
+ name_list_rimmenese:0 "Римменийские"
  name_list_blackwood:0 "Старонибенейские"
  name_list_heartlander:0 "Хартлендские"
  #ek_dremora
@@ -79,7 +82,9 @@
  #ek_old_breton
  name_list_bjoule:0 "Бьюльские"
  #ek_orsimeri
- name_list_orsimer:0 "Орочьи"
+ name_list_mountain_orc:0 "Горно-оркские"
+ name_list_iron_orc:0 "Железно-оркские"
+ name_list_wood_orc:0 "Лесно-оркские"
  #ek_yokudan
  name_list_yokudan:0 "Йокуданские"
  name_list_forebear:0 "Предшественские"

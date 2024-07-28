@@ -5,6 +5,3 @@
  relation_forgewife_male:0 "Кузнечный муж"
  relation_hearthwife_female:0 "Жена-хозяйка"
  relation_hearthwife_male:0 "Муж-хозяин"
-
- TRAIT_DESC_POSIITIVE_FOR_LIEGE:0 "Нравится [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'ему персонажу', '' )], [Concept('liege', 'сюзерену' )|E] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] ([CHARACTER.GetFaith.GetAdjective])"
- TRAIT_DESC_POSIITIVE_FOR_THEM:0 "Нравится конфессии [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] ([CHARACTER.GetFaith.GetAdjective])"

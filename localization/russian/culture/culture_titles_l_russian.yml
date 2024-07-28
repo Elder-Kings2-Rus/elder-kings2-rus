@@ -508,13 +508,14 @@
  baron_theocracy_male_khajiiti_religion:0 "Лунный жрец"
  baron_theocracy_female_khajiiti_religion:0 "Лунная жрица"
  count_theocracy_male_khajiiti_religion:0 "Лунный епископ"
- count_theocracy_female_khajiiti_religion:0 "Лунная епископ"
+ count_theocracy_female_khajiiti_religion:0 "[CHARACTER.Custom('KhajiitClanMother')]"
  duke_theocracy_male_khajiiti_religion:0 "Лунный архиепископ"
  duke_theocracy_female_khajiiti_religion:0 "Лунная архиепископ"
  king_theocracy_male_khajiiti_religion:0 "Лунный король"
  king_theocracy_female_khajiiti_religion:0 "Лунная королева"
  emperor_theocracy_male_khajiiti_religion:0 "Лунный император"
- emperor_theocracy_female_khajiiti_religion:0 "Лунная императрица" 
+ emperor_theocracy_female_khajiiti_religion:0 "Лунная императрица"
+ moon_bishop:0 "Лунный епископ" 
  
  #Lilmothiiti Faith
  #lilmothiiti_religious_head_title:1 "Дарующий закон"
@@ -830,8 +831,8 @@
  baron_huntswife:0 "Охотница-жена"
  
  #Goblin-ken Group
- king_feudal_male_goblinken:0 "Вождь-Король"
- king_feudal_female_goblinken:0 "Предводительница-Королева"
+ king_feudal_male_goblinken:0 "Король-вождь"
+ king_feudal_female_goblinken:0 "Королева-предводительница"
  
  #Reachfolk
  barony_feudal_reachfolk:0 "Дун"
@@ -1013,7 +1014,7 @@
  #Argonian Group
  baron_feudal_male_argonian:0 "Рил-ка"
  baron_feudal_female_argonian:0 "Рил-на"
- barony_feudal_argonian:0 "Рил-Уксит"
+ barony_feudal_argonian:0 "Уксит"
  
  count_feudal_male_argonian:0 "Каал"
  count_feudal_female_argonian:0 "Насса"
@@ -1033,7 +1034,7 @@
  
  baron_republic_male_argonian:0 "Нахиш"
  baron_republic_female_argonian:0 "Нахиш"
- barony_republic_argonian:0 "Уксит"
+ barony_republic_argonian:0 "Тзел"
  
  count_republic_male_argonian:0 "Нахиш"
  count_republic_female_argonian:0 "Нахиш"
@@ -1045,15 +1046,7 @@
  
  baron_theocracy_male_hist_religion:0 "Древохранитель"
  baron_theocracy_female_hist_religion:0 "Древохранительница"
- barony_theocracy_hist_religion:0 "Священное дерево"
- 
- count_theocracy_male_hist_religion:0 "Оберегающий-деревья"
- count_theocracy_female_hist_religion:0 "Оберегающая-деревья"
- county_theocracy_hist_religion:0 "Священная роща"
- 
- duke_theocracy_male_hist_religion:0 "Хранящий-деревья"
- duke_theocracy_female_hist_religion:0 "Хранящая-деревья"
- duchy_theocracy_hist_religion:0 "Священный храм"
+ barony_theocracy_hist_religion:0 "Древо хист"
  
  baron_theocracy_male_xanmeer_religion:0 "Вох-вастей"
  baron_theocracy_female_xanmeer_religion:0 "Вох-вастей"
@@ -1109,7 +1102,9 @@
  county_republic_khajiiti:0 "Ур-ниут"
  
  duchy_republic_khajiiti:0 "Ченхун"
- 
+
+ clan_mother:0 "Мать клана"
+
  #Lilmothiit Group
  baron_feudal_male_lilmothiit:0 "Проводник"
  baron_feudal_female_lilmothiit:0 "Проводница"
@@ -1275,6 +1270,10 @@
  title_kingdom_feudal_independent_worm_cul_licht:0 "Чёрный домен"
 
  title_mannimarco:0 "Лорд" 
+
+ #Blackcaster
+ duke_archmage_male:0 "Архимаг"
+ duke_archmage_female:0 "Архимаг"
 
  #Heir
  prince_male_worm_cult:0 "Мастер"
