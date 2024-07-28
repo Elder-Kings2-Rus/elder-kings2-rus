@@ -33,6 +33,7 @@ window = {
 		on_start = "[GetVariableSystem.Clear( 'appearance_customization_portrait_view' )]"
 		on_start = "[GetVariableSystem.Clear( 'coat_of_arms_customization_open' )]"
 		using = CoatOfArmsDesignerAnimationResetState
+		# EK checks ---
 		on_start = "[GetVariableSystem.Clear( 'ek_ethnicities_visible' )]"
 		on_start = "[GetVariableSystem.Clear( 'ek_race' )]"
 		on_start = "[GetVariableSystem.Clear( 'ek_ethnicity' )]"
@@ -42,10 +43,12 @@ window = {
 
 		on_start = "[PdxGuiTriggerAllAnimations( 'ek_ruler_designer_checks' )]"
 		on_finish = "[VariableSystem.Set( 'ek_arcana', '0' )]"
-
+		# EK checks end ---
 	}
 
-	#These get the character race and ethnicity if one is not selected
+	#########################################################################
+	### These get the character race and ethnicity if one is not selected ###
+	#########################################################################
 
 	state = {
 		name = ek_ruler_designer_checks
@@ -111,15 +114,9 @@ window = {
 
 		#Tusks check
 		on_finish = "[VariableSystem.Set( 'ek_tusks_enabled', Select_CString( Or(EqualTo_string( RulerDesignerWindow.GetEthnicity.GetName, Localize('race_orsimer_name') ), Or(EqualTo_string( RulerDesignerWindow.GetEthnicity.GetName, Localize('race_orsimer_wood_name') ),Or(EqualTo_string( RulerDesignerWindow.GetEthnicity.GetName, Localize('race_goblin_green_name') ), Or(EqualTo_string( RulerDesignerWindow.GetEthnicity.GetName, Localize('race_goblin_yellow_name') ), Or(EqualTo_string( RulerDesignerWindow.GetEthnicity.GetName, Localize('race_goblin_riekr_name') ), Or(EqualTo_string( RulerDesignerWindow.GetEthnicity.GetName, Localize('race_goblin_riekling_name') ), EqualTo_string( RulerDesignerWindow.GetEthnicity.GetName, Localize('race_orsimer_iron_name') ) ) ) ) ) ) ), 'true', 'false' ) )]"
-	
-		
-	
 	}
 
-
-
-
-
+	################################################
 
 	state = {
 		name = _hide
@@ -130,7 +127,7 @@ window = {
 		margin_top = 10
 
 		background = {
-			texture = "gfx/interface/illustrations/event_scenes_frontend/dungeon.dds"
+			texture = "gfx/interface/illustrations/event_scenes_frontend/dungeon.dds" #EK EDIT: changed to dungeon bg
 			alpha = 0.75
 			mirror = horizontal
 			fittype = centercrop
@@ -184,19 +181,17 @@ window = {
 
 					hbox = {
 						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = expanding
 
 						vbox = {
 							name = "left_panel"
-							margin_right = 15
+							layoutpolicy_vertical = expanding
+							margin_right = 8
 
 							vbox = {
 								layoutpolicy_horizontal = expanding
-								spacing = 20
-
-								### EK DEBUG
-								#ek_debug_vbox = {
-								#	visible = "[InDebugMode]"
-								#}
+								layoutpolicy_vertical = expanding
+								spacing = 16
 
 								hbox = {
 									name = "sex_customization"
@@ -336,7 +331,7 @@ window = {
 												name = "bisexual_female"
 												visible = "[RulerDesignerWindow.IsFemale]"
 												alwaystransparent = "[RulerDesignerWindow.HasSexuality( 'bisexual' )]"
-												onclick = "[RulerDesignerWindow.SetSexuality( 'bisexual' )]"												
+												onclick = "[RulerDesignerWindow.SetSexuality( 'bisexual' )]"
 												down = "[RulerDesignerWindow.HasSexuality( 'bisexual' )]"
 												tooltip = RULER_DESIGNER_SET_SEXUALITY_BISEXUAL
 												using = tooltip_se
@@ -370,8 +365,6 @@ window = {
 									expand = {}
 								}
 
-
-							
 								vbox = {
 									name = "culture_and_faith"
 									layoutpolicy_horizontal = expanding
@@ -413,7 +406,7 @@ window = {
 
 													text_single = {
 														layoutpolicy_horizontal = expanding
-														text = "RULER_DESIGNER_GETRELIGION"
+														text = "[Faith.GetReligion.GetNameNoTooltip]"
 														default_format = "#bold"
 														margin_right = 5
 														margin_bottom = 5
@@ -436,7 +429,7 @@ window = {
 
 													text_single = {
 														layoutpolicy_horizontal = expanding
-														text = "RULER_DESIGNER_GETFAITH"
+														text = "[Faith.GetNameNoTooltip]"
 
 														margin_bottom = 5
 													}
@@ -444,7 +437,6 @@ window = {
 											}
 
 											expand = {}
-
 										}
 									}
 
@@ -504,10 +496,7 @@ window = {
 												layoutpolicy_horizontal = expanding
 												minimumsize = { 0 40 }
 											}
-											
 										}
-
-										
 
 										vbox = {
 											parentanchor = bottom|left
@@ -516,7 +505,7 @@ window = {
 
 											hbox = {
 												layoutpolicy_horizontal = expanding
-												
+
 												text_label_left = {
 													layoutpolicy_horizontal = expanding
 													text = "RULER_DESIGNER_CULTURE_LABEL"
@@ -524,77 +513,62 @@ window = {
 												}
 											}
 
+											tooltipwidget = {
+												ruler_designer_culture_tooltip = {}
+											}
+
 											vbox = {
 												layoutpolicy_horizontal = expanding
-
-											}
-
-											hbox = {
-												layoutpolicy_horizontal = expanding
 												
+												hbox = {
+													layoutpolicy_horizontal = expanding
 
+													text_single = {
+														visible = "[Not(EqualTo_string( Culture.GetHeritage.GetNameNoTooltip, Localize('no') ) ) ]"
+														layoutpolicy_horizontal = expanding
+														text = "[Culture.GetHeritage.GetNameNoTooltip]"
+														default_format = "#bold"
 
+														margin_right = 5
+														margin_bottom = 5
+													}
 
-												tooltip_enabled = "[Not(EqualTo_string( Culture.GetHeritage.GetNameNoTooltip, Localize('no') ) ) ]"
-												tooltipwidget = { 
-													ruler_designer_culture_tooltip = {
+													text_single = {
+														visible = "[EqualTo_string( Culture.GetHeritage.GetNameNoTooltip, Localize('no') ) ]"
+														layoutpolicy_horizontal = expanding
+														text = "INCOMPATABLE_CULTURE"
+														tooltip = INCOMPATABLE_CULTURE_TOOLTIP
+														default_format = "#bold"
+	
+														margin_right = 5
+														margin_bottom = 5
+													}
+
+													button_replace = {
+														onclick = "[VariableSystem.Toggle( 'culture_select_window_open' )]"
+														onclick = "[VariableSystem.Clear( 'ethnicity_select_window_open')]"
+														onclick = "[VariableSystem.Clear( 'ek_subraces_visible' )]"
+														onclick = "[VariableSystem.Clear( 'ek_ethnicities_visible' )]"
+														using = Button_Close_Select_Faith
+														tooltip = RULER_DESIGNER_CHOOSE_CULTURE
+														using = tooltip_se
 													}
 												}
 
-												vbox = {
+												hbox = {
+													layoutpolicy_horizontal = expanding
 
-													hbox = {
+													text_single = {
 														layoutpolicy_horizontal = expanding
+														text = "[Culture.GetNameNoTooltip]"
 
-														text_single = {
-															visible = "[EqualTo_string( Culture.GetHeritage.GetNameNoTooltip, Localize('no') ) ]"
-															layoutpolicy_horizontal = expanding
-															text = "INCOMPATABLE_CULTURE"
-															tooltip = INCOMPATABLE_CULTURE_TOOLTIP
-															default_format = "#bold"
-
-															margin_right = 5
-															margin_bottom = 5
-														}
-
-														text_single = {
-															visible = "[Not(EqualTo_string( Culture.GetHeritage.GetNameNoTooltip, Localize('no') ) ) ]"
-															layoutpolicy_horizontal = expanding
-															text = "CULTURE_HERITAGE_NAME_RULER_DESIGNER"
-															default_format = "#bold"
-
-															margin_right = 5
-															margin_bottom = 5
-														}
-
-														button_replace = {
-															onclick = "[VariableSystem.Toggle( 'culture_select_window_open' )]"
-															onclick = "[VariableSystem.Clear( 'ethnicity_select_window_open')]"
-															onclick = "[VariableSystem.Clear( 'ek_subraces_visible' )]"
-															onclick = "[VariableSystem.Clear( 'ek_ethnicities_visible' )]"
-															using = Button_Close_Select_Faith
-															tooltip = RULER_DESIGNER_CHOOSE_CULTURE
-															using = tooltip_se
-														}
+														margin_bottom = 5
 													}
-
-													hbox = {
-														layoutpolicy_horizontal = expanding
-														text_single = {
-															layoutpolicy_horizontal = expanding
-															text = "CULTURE_NAME_RULER_DESIGNER"
-
-															margin_bottom = 5
-														}
-													}
-
-
 												}
-
-												expand = {}
 											}
+
+											expand = {}
 										}
-										
 									}
 								}
 
@@ -679,7 +653,7 @@ window = {
 													name = "random_culture_name"
 													datacontext = "[RulerDesignerWindow.GetCulture]"
 													size = { 140 25 }
-													text = "RULER_DESIGNER_RANDOM_NAME_CULTURE"
+													text = "[Culture.GetNameNoTooltip]"
 													tooltip = RULER_DESIGNER_RANDOM_NAME_CULTURE_TOOLTIP
 													using = tooltip_se
 													onclick = "[RulerDesignerWindow.RandomizeFirstNameCulture]"
@@ -690,11 +664,6 @@ window = {
 										}
 									}
 								}
-
-
-
-
-
 
 								vbox = {
 									name = "dynasty_house"
@@ -824,89 +793,52 @@ window = {
 										size = {520 1}
 									}
 								}
-							}
-						}
-
-						expand = {}
-						}
-
-					
-
-							expand = {}
-
-							hbox = {
-								layoutpolicy_horizontal = expanding
-
-								spacing =  10
-
-								background = {
-									margin  = {15 20}
-									margin_left = 30
-									margin_bottom = 30
-									using = Background_Area_Dark
-									using = Mask_Rough_Edges
-								}
-								background = {
-		
-									using = Background_Area_Light
-									using = Mask_Rough_Edges
-									alpha = 0.20
-									margin  = {15 20}
-									margin_left = 30
-									margin_bottom = 30
-									modify_texture = {
-										texture = "gfx/interface/component_masks/patterns/mask_pattern_02.dds"
-										spriteType = Corneredtiled
-										blend_mode = alphamultiply
-										texture_density = 0.8
-									}
-									modify_texture = {
-										texture = "gfx/interface/component_masks/mask_fade_horizontal_middle_thick.dds"
-										blend_mode = alphamultiply
-									}
-								}
-
-								button_standard_back = {
-									onclick = "[RulerDesignerWindow.Close]"
-									onclick = "[GetVariableSystem.Clear( 'ek_ruler_designer_open' )]"
-									shortcut = "close_window"
-
-									blockoverride "text"
-									{
-										text = "BACK_LABEL"
-									}
-								}
-
-								button_standard = {
-									text = "RULER_DESIGNER_SAVE_RULER"
-		
-									enabled = "[RulerDesignerWindow.CanOpenSaveRulerWindow]"
-									tooltip = "[RulerDesignerWindow.CanOpenSaveRulerWindowTooltip]"
-		
-									onclick = "[RulerDesignerWindow.OpenSaveRulerWindow]"
-								}
-
-								
-								button_standard = {
-									text = "RULER_DESIGNER_LOAD_RULER"
-
-									enabled = "[RulerDesignerWindow.CanOpenLoadRulerWindow]"
-									tooltip = "[RulerDesignerWindow.CanOpenLoadRulerWindowTooltip]"
-
-									onclick = "[RulerDesignerWindow.OpenLoadRulerWindow]"
-								}
 
 								expand = {}
+
+								hbox = {
+									layoutpolicy_horizontal = expanding
+									spacing =  8
+
+									button_standard_back = {
+										onclick = "[RulerDesignerWindow.Close]"
+										onclick = "[GetVariableSystem.Clear( 'ek_ruler_designer_open' )]"
+										shortcut = "close_window"
+
+										blockoverride "text"
+										{
+											text = "BACK_LABEL"
+										}
+									}
+
+									button_standard = {
+										text = "RULER_DESIGNER_SAVE_RULER"
+
+										enabled = "[RulerDesignerWindow.CanOpenSaveRulerWindow]"
+										tooltip = "[RulerDesignerWindow.CanOpenSaveRulerWindowTooltip]"
+
+										onclick = "[RulerDesignerWindow.OpenSaveRulerWindow]"
+									}
+
+									button_standard = {
+										text = "RULER_DESIGNER_LOAD_RULER"
+
+										enabled = "[RulerDesignerWindow.CanOpenLoadRulerWindow]"
+										tooltip = "[RulerDesignerWindow.CanOpenLoadRulerWindowTooltip]"
+
+										onclick = "[RulerDesignerWindow.OpenLoadRulerWindow]"
+									}
+
+									expand = {}
+								}
 							}
 						}
+
+						divider_light = {
+							visible = "[Not( VariableSystem.Exists( 'trait_select_window_open' ) )]"
+							layoutpolicy_vertical = expanding
+						}
 					}
-			
-			vbox = {
-				layoutpolicy_vertical = expanding
-				margin_left = 30
-				divider_light = {
-					visible = "[Not( VariableSystem.Exists( 'trait_select_window_open' ) )]"
-					layoutpolicy_vertical = expanding
 				}
 			}
 
@@ -969,7 +901,7 @@ window = {
 
 												text_single = {
 													layoutpolicy_horizontal = expanding
-													text = "RULER_DESIGNER_RELIG"
+													text = "[Religion.GetNameNoTooltip]"
 													size = { 0 40 }
 													align = nobaseline
 													default_format = "#clickable"
@@ -1010,7 +942,7 @@ window = {
 
 														text_single = {
 															layoutpolicy_horizontal = expanding
-															text = "RULER_DESIGNER_GETFAITH"
+															text = "[Faith.GetNameNoTooltip]"
 															default_format = "#clickable"
 															autoresize = no
 														}
@@ -1077,7 +1009,7 @@ window = {
 									layoutpolicy_horizontal = expanding
 									visible = "[Not(EqualTo_string( CulturePillar.GetNameNoTooltip, Localize('no') ) ) ]"
 									datacontext = "[CollapsibleCultureListGroup.GetItem]"
-									
+
 									button_standard_hover = {
 										layoutpolicy_horizontal = expanding
 
@@ -1096,7 +1028,7 @@ window = {
 
 											text_single = {
 												layoutpolicy_horizontal = expanding
-												text = "CULTURE_PILLAR_NAME_RULER_DESIGNER"
+												text = "[CulturePillar.GetNameNoTooltip]"
 												default_format = "#clickable"
 												autoresize = no
 											}
@@ -1130,7 +1062,7 @@ window = {
 
 														text_single = {
 															margin = { 5 0 }
-															text = "CULTURE_TEMPLATE_NAME_RULER_DESIGNER"
+															text = "[CultureTemplate.GetName]"
 															default_format = "#clickable"
 															align = nobaseline
 														}
@@ -1160,6 +1092,7 @@ window = {
 				}
 			}
 
+			# EK ADDITION: ethnicity selection box
 			vbox = {
 				name = "ethnicity_selection"
 				visible = "[GetVariableSystem.HasValue( 'ethnicity_select_window_open', 'true' )]"
@@ -1665,13 +1598,12 @@ window = {
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = expanding
 
-				#error_horse = {}
+				# error_horse = {}
 
 				icon = {
 					parentanchor = bottom|hcenter
 					position = { 0 20 }
-					size = { 650 1000 }
-					#mirror = horizontal
+					size = { 650 1100 }
 					scale = "[ScaleToFitElementInside('(int32)650', '(int32)1100')]"
 					texture = "[RulerDesignerWindow.GetPortrait( Localize('RULER_DESIGNER_ENVIRONMENT'), 'camera_ruler_designer', PdxGetWidgetScreenSize( PdxGuiWidget.Self ) )]"
 
@@ -1779,7 +1711,7 @@ window = {
 					name = "furstock_trait_selection_list"
 					layoutpolicy_vertical = expanding
 					layoutpolicy_horizontal = expanding
-					minimumsize = { 200 100% }
+					minimumsize = { 400 100% }
 
 					visible = "[VariableSystem.HasValue( 'trait_select_window_open', 'furstock' )]"
 
@@ -1796,7 +1728,7 @@ window = {
 					name = "birthsign_trait_selection_list"
 					layoutpolicy_vertical = expanding
 					layoutpolicy_horizontal = expanding
-					minimumsize = { 300 100% }
+					minimumsize = { 400 100% }
 
 					visible = "[VariableSystem.HasValue( 'trait_select_window_open', 'birthsign' )]"
 
@@ -1867,7 +1799,7 @@ window = {
 								layoutpolicy_horizontal = expanding
 								datacontext = "[RulerDesignerWindow.GetPointsUsedBreakdown]"
 
-								tooltip_enabled = "[ValueBreakdown.HasTooltip]"
+								tooltip_visible = "[ValueBreakdown.HasTooltip]"
 								tooltipwidget = {
 									widget_value_breakdown_tooltip = {}
 								}
@@ -2409,7 +2341,7 @@ window = {
 
 												datacontext = "[RulerDesignerSkill.GetModifiedValueBreakdown]"
 
-												tooltip_enabled = "[ValueBreakdown.HasTooltip]"
+												tooltip_visible = "[ValueBreakdown.HasTooltip]"
 												tooltipwidget = {
 													widget_value_breakdown_tooltip = {}
 												}
@@ -2438,6 +2370,7 @@ window = {
 								}
 							}
 
+							#EK ADDITION: arcana skill
 							#Terribly messy, each one is pretty much hard coded to add a trait and remove the previous one.
 							#There probably is a nice way to do these, but it's way above my paygrade. - Buck
 							hbox = {
@@ -3125,138 +3058,134 @@ window = {
 								layoutpolicy_horizontal = expanding
 								spacing = 30
 
+								vbox = {
+									layoutpolicy_vertical = expanding
+
+									button_checkbox_label = {
+										name = "generate_spouse_button"
+										layoutpolicy_horizontal = expanding
+
+										onclick = "[RulerDesignerWindow.ToggleGenerateSpouse]"
+										enabled = "[RulerDesignerWindow.IsAdult]"
+										tooltip = "RULER_DESIGNER_GENERATE_SPOUSE_TOOLTIP"
+
+										blockoverride "checkbox"
+										{
+											checked = "[RulerDesignerWindow.ShouldGenerateSpouse]"
+										}
+
+										blockoverride "text"
+										{
+											text = "RULER_DESIGNER_GENERATE_SPOUSE_LABEL"
+										}
+									}
+
+									expand = {}
+								}
 
 								vbox = {
 									hbox = {
+										name = "generate_sons_amount"
+										layoutpolicy_horizontal = expanding
 										spacing = 20
-										
-										vbox = {
-											layoutpolicy_vertical = expanding
-		
-											button_checkbox_label = {
-												name = "generate_spouse_button"
-												layoutpolicy_horizontal = expanding
-		
-												onclick = "[RulerDesignerWindow.ToggleGenerateSpouse]"
-												enabled = "[RulerDesignerWindow.IsAdult]"
-												tooltip = "RULER_DESIGNER_GENERATE_SPOUSE_TOOLTIP"
-		
-												blockoverride "checkbox"
-												{
-													checked = "[RulerDesignerWindow.ShouldGenerateSpouse]"
-												}
-		
-												blockoverride "text"
-												{
-													text = "RULER_DESIGNER_GENERATE_SPOUSE_LABEL"
-												}
-											}
-		
-											expand = {}
+
+										text_single = {
+											layoutpolicy_horizontal = expanding
+											text = "RULER_DESIGNER_GENERATED_SONS_LABEL"
+											align = nobaseline
 										}
 
-										hbox = {
-											name = "generate_sons_amount"
-											layoutpolicy_horizontal = expanding
-											spacing = 20
-
-											text_single = {
-												layoutpolicy_horizontal = expanding
-												text = "RULER_DESIGNER_GENERATED_SONS_LABEL"
-												align = nobaseline
-											}
-
-											tooltip = RULER_DESIGNER_GENERATED_SONS_TOOLTIP
-
-											hbox = {
-												spacing = 10
-
-												button_round = {
-													size = { 28 28 }
-													onclick = "[RulerDesignerWindow.ChangeNumberOfGeneratedSons( '(int32)-1' )]"
-													enabled = "[GreaterThan_int32( RulerDesignerWindow.GetNumberOfGeneratedSons, '(int32)0' )]"
-
-													button_minus_small = {
-														name = "decrease_amount"
-														parentanchor = center
-														alwaystransparent = yes
-													}
-												}
-
-												text_single = {
-													name = "sons_value"
-													text = "[RulerDesignerWindow.GetNumberOfGeneratedSons]"
-													using = Font_Size_Big
-													default_format = "#high"
-													align = nobaseline|center
-													min_width = 25
-												}
-
-												button_round = {
-													size = { 28 28 }
-													onclick = "[RulerDesignerWindow.ChangeNumberOfGeneratedSons( '(int32)1' )]"
-													enabled = "[LessThan_int32( RulerDesignerWindow.GetNumberOfGeneratedChildren, RulerDesignerWindow.CalcMaxNumberOfGeneratedChildren )]"
-
-													button_plus_small = {
-														name = "increase_amount"
-														parentanchor = center
-														alwaystransparent = yes
-													}
-												}
-											}
-										}
+										tooltip = RULER_DESIGNER_GENERATED_SONS_TOOLTIP
 
 										hbox = {
-											name = "generate_daughters_amount"
-											layoutpolicy_horizontal = expanding
-											spacing = 20
+											spacing = 10
 
-											text_single = {
-												layoutpolicy_horizontal = expanding
-												text = "RULER_DESIGNER_GENERATED_DAUGHTERS_LABEL"
-												align = nobaseline
+											button_round = {
+												size = { 28 28 }
+												onclick = "[RulerDesignerWindow.ChangeNumberOfGeneratedSons( '(int32)-1' )]"
+												enabled = "[GreaterThan_int32( RulerDesignerWindow.GetNumberOfGeneratedSons, '(int32)0' )]"
+
+												button_minus_small = {
+													name = "decrease_amount"
+													parentanchor = center
+													alwaystransparent = yes
+												}
 											}
 
-											tooltip = RULER_DESIGNER_GENERATED_DAUGHTERS_TOOLTIP
+											text_single = {
+												name = "sons_value"
+												text = "[RulerDesignerWindow.GetNumberOfGeneratedSons]"
+												using = Font_Size_Big
+												default_format = "#high"
+												align = nobaseline|center
+												min_width = 25
+											}
 
-											hbox = {
-												spacing = 10
+											button_round = {
+												size = { 28 28 }
+												onclick = "[RulerDesignerWindow.ChangeNumberOfGeneratedSons( '(int32)1' )]"
+												enabled = "[LessThan_int32( RulerDesignerWindow.GetNumberOfGeneratedChildren, RulerDesignerWindow.CalcMaxNumberOfGeneratedChildren )]"
 
-												button_round = {
-													size = { 28 28 }
-													onclick = "[RulerDesignerWindow.ChangeNumberOfGeneratedDaughters( '(int32)-1' )]"
-													enabled = "[GreaterThan_int32( RulerDesignerWindow.GetNumberOfGeneratedDaughters, '(int32)0' )]"
-
-													button_minus_small = {
-														name = "decrease_amount"
-														parentanchor = center
-														alwaystransparent = yes
-													}
-												}
-
-												text_single = {
-													name = "daughters_value"
-													text = "[RulerDesignerWindow.GetNumberOfGeneratedDaughters]"
-													using = Font_Size_Big
-													default_format = "#high"
-													align = nobaseline|center
-													min_width = 25
-												}
-
-												button_round = {
-													size = { 28 28 }
-													onclick = "[RulerDesignerWindow.ChangeNumberOfGeneratedDaughters( '(int32)1' )]"
-													enabled = "[LessThan_int32( RulerDesignerWindow.GetNumberOfGeneratedChildren, RulerDesignerWindow.CalcMaxNumberOfGeneratedChildren )]"
-
-													button_plus_small = {
-														name = "increase_amount"
-														parentanchor = center
-														alwaystransparent = yes
-													}
+												button_plus_small = {
+													name = "increase_amount"
+													parentanchor = center
+													alwaystransparent = yes
 												}
 											}
 										}
 									}
+
+									hbox = {
+										name = "generate_daughters_amount"
+										layoutpolicy_horizontal = expanding
+										spacing = 20
+
+										text_single = {
+											layoutpolicy_horizontal = expanding
+											text = "RULER_DESIGNER_GENERATED_DAUGHTERS_LABEL"
+											align = nobaseline
+										}
+
+										tooltip = RULER_DESIGNER_GENERATED_DAUGHTERS_TOOLTIP
+
+										hbox = {
+											spacing = 10
+
+											button_round = {
+												size = { 28 28 }
+												onclick = "[RulerDesignerWindow.ChangeNumberOfGeneratedDaughters( '(int32)-1' )]"
+												enabled = "[GreaterThan_int32( RulerDesignerWindow.GetNumberOfGeneratedDaughters, '(int32)0' )]"
+
+												button_minus_small = {
+													name = "decrease_amount"
+													parentanchor = center
+													alwaystransparent = yes
+												}
+											}
+
+											text_single = {
+												name = "daughters_value"
+												text = "[RulerDesignerWindow.GetNumberOfGeneratedDaughters]"
+												using = Font_Size_Big
+												default_format = "#high"
+												align = nobaseline|center
+												min_width = 25
+											}
+
+											button_round = {
+												size = { 28 28 }
+												onclick = "[RulerDesignerWindow.ChangeNumberOfGeneratedDaughters( '(int32)1' )]"
+												enabled = "[LessThan_int32( RulerDesignerWindow.GetNumberOfGeneratedChildren, RulerDesignerWindow.CalcMaxNumberOfGeneratedChildren )]"
+
+												button_plus_small = {
+													name = "increase_amount"
+													parentanchor = center
+													alwaystransparent = yes
+												}
+											}
+										}
+									}
+								}
 
 								text_multi = {
 									visible = "[Not( RulerDesignerWindow.IsAdult )]"
@@ -3267,10 +3196,20 @@ window = {
 								}
 
 								expand = {}
-								}	
 							}
 						}
+
+						# EK EDIT: disabled because we don't use it
+						# achievements_availability_box = {
+						# 	blockoverride "achievements_enabled_visible" {
+						# 		visible = "[LessThanOrEqualTo_int32( RulerDesignerWindow.GetPointsUsed, GetDefine( 'NRulerDesigner', 'IRONMAN_POINT_MAX' ) )]"
+						# 	}
+						# 	blockoverride "achievements_disabled_visible" {
+						# 		visible = "[GreaterThan_int32( RulerDesignerWindow.GetPointsUsed, GetDefine( 'NRulerDesigner', 'IRONMAN_POINT_MAX' ) )]"
+						# 	}
+						# }
 					}
+
 					expand = {}
 
 					overlappingitembox = {
@@ -3322,11 +3261,101 @@ window = {
 
 			using =  Animation_Tab_Switch
 
-
-
 			widget = {
 				layoutpolicy_vertical = expanding
-				size = { 520 0 }
+				size = { 480 0 }
+
+				#EK EDIT: disabled because we have this in the main window.
+				#kept it here in case we ever want to put it back
+				# vbox = {
+				# 	name = "ethnicity_panel"
+				# 	visible = "[VariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' )]"
+				# 	layoutpolicy_vertical = expanding
+				# 	layoutpolicy_horizontal = expanding
+
+				# 	margin_right = 16
+
+				# 	using = Animation_ShowHide_Quick
+
+				# 	text_label_left = {
+				# 		layoutpolicy_horizontal = expanding
+				# 		text = RULDER_DESIGNER_ETHNICITY_LABEL
+				# 		using = Font_Size_Medium
+				# 	}
+
+				# 	vbox = {
+				# 		name = "new_appearance"
+				# 		layoutpolicy_horizontal = expanding
+				# 		spacing = 20
+
+				# 		text_single = {
+				# 			name = "override_portrait_warning"
+				# 			layoutpolicy_horizontal = expanding
+				# 			text = RULER_DESIGNER_OVERRIDE_PORTRAIT
+				# 			autoresize = no
+				# 		}
+
+				# 		hbox = {
+				# 			layoutpolicy_horizontal = expanding
+
+				# 			text_multi = {
+				# 				text = RULER_DESIGNER_ETHNICITY_INFO
+				# 				autoresize = yes
+				# 				max_width = 470
+				# 			}
+
+				# 			expand = {}
+				# 		}
+
+				# 		scrollbox = {
+				# 			name = "ethinicity_list"
+				# 			layoutpolicy_horizontal = expanding
+				# 			minimumsize = { 0 470 }
+
+				# 			blockoverride "scrollbox_content"
+				# 			{
+				# 				vbox = {
+				# 					datamodel = "[GetEthnicities]"
+				# 					layoutpolicy_horizontal = expanding
+
+				# 					item = {
+				# 						button_standard_hover = {
+				# 							visible = "[Ethnicity.IsVisible]"
+				# 							layoutpolicy_horizontal = expanding
+
+				# 							text = "[Ethnicity.GetName]"
+				# 							size = { 0 40 }
+				# 							onclick = "[RulerDesignerWindow.SetEthnicity( Ethnicity.Self )]"
+				# 							onclick = "[PdxGuiTriggerAllAnimations('ruler_designer_portrait_refresh')]"
+				# 						}
+				# 					}
+				# 				}
+				# 			}
+				# 		}
+				# 	}
+
+				# 	expand = {}
+
+				# 	hbox = {
+				# 		layoutpolicy_horizontal = expanding
+				# 		spacing = 8
+
+				# 		button_standard_back = {
+				# 			text = "BACK_LABEL"
+				# 			onclick = "[VariableSystem.Clear( 'appearance_customization_window_open' )]"
+				# 			onclick = "[VariableSystem.Clear( 'appearance_customization_portrait_view' )]"
+				# 		}
+
+				# 		button_primary = {
+				# 			visible = "[Not(VariableSystem.HasValue( 'appearance_customization_window_open', 'main_customizer' ))]"
+				# 			text = "RULER_DESIGNER_CUSTOMIZE_APPEARANCE_FURTHER"
+				# 			onclick = "[VariableSystem.Set( 'appearance_customization_window_open', 'main_customizer' )]"
+				# 			onclick = "[VariableSystem.Set( 'appearance_customization_side_tab_open', 'body' )]"
+				# 			min_width = 290
+				# 			max_width = 290
+				# 		}
+				# 	}
+				# }
 
 				vbox = {
 					name = "main_customizer"
@@ -3335,14 +3364,9 @@ window = {
 					layoutpolicy_vertical = expanding
 					layoutpolicy_horizontal = expanding
 
-					margin_right = 15
+					margin_right = 16
 
 					using = Animation_ShowHide_Quick
-
-					### EK DEBUG
-					#ek_debug_vbox = {
-					#	visible = "[InDebugMode]"
-					#}
 
 					text_label_left = {
 						layoutpolicy_horizontal = expanding
@@ -3474,7 +3498,6 @@ window = {
 							{
 								text = "RULER_DESIGNER_TOGGLE_SHOW_ACCESSORIES_LABEL"
 							}
-
 						}
 					}
 
@@ -3482,7 +3505,7 @@ window = {
 
 					hbox = {
 						layoutpolicy_horizontal = expanding
-						spacing = 10
+						spacing = 8
 
 						button_standard_back = {
 							text = "BACK_LABEL"
@@ -3502,7 +3525,8 @@ window = {
 							onclick = "[VariableSystem.Clear( 'appearance_customization_window_open' )]"
 							onclick = "[VariableSystem.Clear( 'appearance_customization_portrait_view' )]"
 							onclick = "[RulerDesignerWindow.SetShowAccessories]"
-							min_width = 300
+							min_width = 290
+							max_width = 290
 						}
 					}
 				}
@@ -3527,7 +3551,7 @@ window = {
 						parentanchor = center
 						position = { 130 -80 }
 						size = { 500 700 }
-						texture = "[RulerDesignerWindow.GetPortrait( Localize('RULER_DESIGNER_ENVIRONMENT'), 'camera_ruler_designer_head_profile', PdxGetWidgetScreenSize( PdxGuiWidget.Self ) )]"
+						texture = "[RulerDesignerWindow.GetPortrait( 'environment_head', 'camera_ruler_designer_head_profile', PdxGetWidgetScreenSize( PdxGuiWidget.Self ) )]"
 
 						using = Animation_ShowHide_Quick
 
@@ -3580,9 +3604,9 @@ window = {
 					visible = "[VariableSystem.HasValue( 'appearance_customization_portrait_view', 'full_body' )]"
 					parentanchor = bottom|hcenter
 					position = { 0 20 }
-					size = { 650 1000 }
+					size = { 650 1100 }
 					scale = "[ScaleToFitElementInside('(int32)650', '(int32)1100')]"
-					texture = "[RulerDesignerWindow.GetPortrait( Localize('RULER_DESIGNER_ENVIRONMENT'), 'camera_ruler_designer', PdxGetWidgetScreenSize( PdxGuiWidget.Self ) )]"
+					texture = "[RulerDesignerWindow.GetPortrait( 'environment_body', 'camera_ruler_designer', PdxGetWidgetScreenSize( PdxGuiWidget.Self ) )]"
 
 					using = Animation_ShowHide_Standard
 
@@ -3654,12 +3678,23 @@ window = {
 
 				widget = {
 					parentanchor = bottom|hcenter
-					position = { 0 -5 }
+					position = { 0 -20 }
 
 					vbox = {
 						set_parent_size_to_minimum = yes
 
+						button_standard = {
+							size = { 250 32 }
+							onclick = "[RulerDesignerWindow.RandomizeEthnicityDnaFromCurrent]"
+							onclick = "[PdxGuiTriggerAllAnimations('ruler_designer_portrait_refresh')]"
+							visible = "[Not(VariableSystem.HasValue( 'appearance_customization_window_open', 'ethnicity_selection' ))]"
+							text = "RULER_DESIGNER_REGENERATE_PORTRAIT"
 
+							button_randomize = {
+								parentanchor = vcenter
+								position = { 7 0 }
+							}
+						}
 
 						hbox = {
 							name = "copy_paste_dna"
@@ -3667,7 +3702,7 @@ window = {
 
 							hbox = {
 								layoutpolicy_horizontal = expanding
-								spacing = 20
+								spacing = 10
 
 								text_single = {
 									layoutpolicy_horizontal = expanding
@@ -3680,11 +3715,16 @@ window = {
 								}
 
 								tooltip = RULER_DESIGNER_SAVE_DNA_TO_CLIPBOARD_TOOLTIP
+								using = tooltip_nw
+							}
+
+							spacer = {
+								size = { 48 0 }
 							}
 
 							hbox = {
 								layoutpolicy_horizontal = expanding
-								spacing = 20
+								spacing = 10
 
 								text_single = {
 									layoutpolicy_horizontal = expanding
@@ -3697,25 +3737,9 @@ window = {
 								}
 
 								tooltip = RULER_DESIGNER_LOAD_DNA_FROM_CLIPBOARD_TOOLTIP
+								using = tooltip_ne
 							}
 						}
-
-						button_standard = {
-							#parentanchor = bottom|hcenter
-							size = { 250 45 }
-							#position = { 0 50 }
-
-							onclick = "[RulerDesignerWindow.RandomizeEthnicityDnaFromCurrent]"
-							onclick = "[PdxGuiTriggerAllAnimations('ruler_designer_portrait_refresh')]"
-							text = "RULER_DESIGNER_REGENERATE_PORTRAIT"
-
-							button_randomize = {
-								parentanchor = vcenter
-								position = { 7 0 }
-							}
-						}
-
-
 					}
 				}
 			}
@@ -3793,7 +3817,6 @@ window = {
 													layoutpolicy_vertical = expanding
 
 													text_label_left = {
-
 														layoutpolicy_horizontal = expanding
 														min_width = 190
 														max_width = 190
@@ -3810,130 +3833,39 @@ window = {
 													layoutpolicy_horizontal = expanding
 													margin = { 0 5 }
 													spacing = 5
-													
+
 													visible = "[GeneCategory.IsType( 'morph' )]"
 
 													scrollbar_morph_gene = {
 														name = "scrollbar_morph_gene"
 														visible = "[GeneCategory.ShowMorphGeneSlider]"
-														
+													}
+
+													text_single = {
+														name = "morph_gene_female_only"
+														text = RULER_DESIGNER_GENE_ONLY_WOMEN
+														visible = "[GeneCategory.IsOnlyVisibleFemale]"
+														align = left
+														layoutpolicy_horizontal = expanding
+														default_format = "#weak"
 													}
 
 													expand = {}
 
-													scrollarea = {
-														name = "template_scrollarea"
-														visible = "[GreaterThan_int32( GetDataModelSize( RulerDesignerWindow.GetMorphTemplatesByGene( GeneCategory.Self ) ), '(int32)5' )]"
-
-														layoutpolicy_horizontal = expanding
-														layoutpolicy_vertical = expanding
-														minimumsize = { -1 180 }
-														maximumsize = { -1 180 }
-
-														scrollbarpolicy_horizontal = always_off
-
-														scrollbar_vertical = {
-															using = Scrollbar_Vertical
-
-															blockoverride "alpha"{
-																alpha = 0.6
-															}
-														}
-
-														scrollwidget = {
-															flowcontainer = {
-																direction = vertical
-																ignoreinvisible = yes
-																parentanchor = hcenter
-
-																spacing = 3
-																datamodel = "[RulerDesignerWindow.GetMorphTemplatesByGene( GeneCategory.Self )]"
-																item = {
-																	#visible = "[Not(EqualTo_string( GeneTemplate.GetName, 'no' ))]"
-																	vbox_morph_gene_template_button = {
-																	}
-																}
-															}
-														}
-													}
-
-													vbox = {
+													vbox_morph_gene_template_buttons = {
 														name = "gene_templates"
-														visible = "[And(GreaterThan_int32( GetDataModelSize( RulerDesignerWindow.GetMorphTemplatesByGene( GeneCategory.Self ) ), '(int32)1' ), Not(GreaterThan_int32( GetDataModelSize( RulerDesignerWindow.GetMorphTemplatesByGene( GeneCategory.Self ) ), '(int32)5' )))]"
+														visible = "[GreaterThan_int32( GetDataModelSize( RulerDesignerWindow.GetMorphTemplatesByGene( GeneCategory.Self ) ), '(int32)1' )]"
 														datamodel = "[RulerDesignerWindow.GetMorphTemplatesByGene( GeneCategory.Self )]"
 														spacing = 10
-												
-														item = {
-												
-															vbox_morph_gene_template_button = {
-																
-															}
-														}
 													}
 												}
 
-												vbox = {
-													layoutpolicy_vertical = expanding
-													layoutpolicy_horizontal = expanding
-													margin = { 0 5 }
-													spacing = 5
-													
+												vbox_accessory_gene_buttons = {
+													name = "vbox_accessory_gene_buttons"
 													visible = "[GeneCategory.IsType( 'accessory' )]"
-
-													scrollarea = {
-														name = "template_scrollarea"
-														visible = "[GreaterThan_int32( GetDataModelSize( RulerDesignerWindow.GetAccessoryModifiers( GeneCategory.Self ) ), '(int32)5' )]"
-
-														layoutpolicy_horizontal = expanding
-														layoutpolicy_vertical = expanding
-														minimumsize = { -1 180 }
-														maximumsize = { -1 180 }
-
-														scrollbarpolicy_horizontal = always_off
-
-														scrollbar_vertical = {
-															using = Scrollbar_Vertical
-
-															blockoverride "alpha"{
-																alpha = 0.6
-															}
-														}
-
-														scrollwidget = {
-															flowcontainer = {
-																direction = vertical
-																ignoreinvisible = yes
-																parentanchor = hcenter
-
-																spacing = 3
-																datamodel = "[RulerDesignerWindow.GetAccessoryModifiers( GeneCategory.Self )]"
-																item = {
-																	vbox_accessory_gene_button = {
-																		name = "vbox_accessory_gene_button"
-																		text = "[RulerDesignerPortraitModifier.GetName]"
-																	
-																		onclick = "[RulerDesignerWindow.OnPortraitModifierSelected( GeneCategory.Self, RulerDesignerPortraitModifier.Self )]"
-																		down = "[RulerDesignerWindow.IsPortraitModifierSelected( GeneCategory.Self, RulerDesignerPortraitModifier.Self )]"
-																	}
-																}
-															}
-														}
-													}
-
-													vbox = {
-														spacing = 3
-
-														item = {
-															vbox_accessory_gene_button = {
-																name = "vbox_accessory_gene_button"
-																visible = "[And(GreaterThan_int32( GetDataModelSize( RulerDesignerWindow.GetAccessoryModifiers( GeneCategory.Self ) ), '(int32)1' ), Not(GreaterThan_int32( GetDataModelSize( RulerDesignerWindow.GetAccessoryModifiers( GeneCategory.Self ) ), '(int32)5' )))]"
-																datamodel = "[RulerDesignerWindow.GetAccessoryModifiers( GeneCategory.Self )]"
-																spacing = 10
-															}
-														}
-													}
+													datamodel = "[RulerDesignerWindow.GetAccessoryModifiers( GeneCategory.Self )]"
+													layoutpolicy_horizontal = expanding
 												}
-
 
 												vbox_color_picker = {
 													name = "vbox_color_picker"
@@ -4044,6 +3976,48 @@ window = {
 
 types ruler_designer_types
 {
+	type achievements_availability_box = hbox {
+		name = "achievements_availability_box"
+		layoutpolicy_horizontal = expanding
+		spacing = 10
+
+		achievements_enabled_icon = {
+			block "achievements_enabled_visible" {}
+		}
+		achievements_disabled_icon = {
+			block "achievements_disabled_visible" {}
+		}
+
+		vbox = {
+			block "achievements_title_visible" {}
+
+			text_single = {
+				text = RULER_DESIGNER_ACHIEVEMENTS_LABEL
+			}
+			text_single = {
+				text = RULER_DESIGNER_ACHIEVEMENTS_AVAILABLE
+				block "achievements_enabled_visible" {}
+				default_format = "#P"
+			}
+			text_single = {
+				text = RULER_DESIGNER_ACHIEVEMENTS_NOT_AVAILABLE
+				block "achievements_disabled_visible" {}
+				default_format = "#N"
+			}
+		}
+
+		expand = {}
+
+		text_multi = {
+			name = "achievements_info"
+			text = RULER_DESIGNER_ACHIEVEMENTS_INFO
+			block "achievements_info_visible" {}
+			default_format = "#weak"
+			autoresize = yes
+			max_width = 300
+		}
+	}
+
 	type scrollbar_value_slider = scrollbar
 	{
 		direction = horizontal
@@ -4096,38 +4070,35 @@ types ruler_designer_types
 
 	}
 
-	type vbox_morph_gene_template_button = button_standard
+	type vbox_morph_gene_template_buttons = vbox
 	{
+		spacing = 3
 
-		text = "[GeneTemplate.GetName]"
-
-		#Hide everything apart from the active one so the correct palette can still be displayed
-		#visible = "[Not(And(EqualTo_string( GeneCategory.GetName, Localize('race_gene_skin_color') ) , Not(RulerDesignerWindow.HasMorphTemplateSelected( GeneTemplate.Self )) ) )]"
-
-		visible = "[Not(StringIsEmpty(GeneTemplate.GetName))]"
-		onclick = "[RulerDesignerWindow.OnMorphTemplateSelected( GeneTemplate.Self ) ]"
-		down = "[RulerDesignerWindow.HasMorphTemplateSelected( GeneTemplate.Self ) ]"
-
-		# Finds which gene template is selected
-		state = {
-			name = check_active_template
-			trigger_when = "[RulerDesignerWindow.HasMorphTemplateSelected( GeneTemplate.Self )]"
-			on_finish = "[VariableSystem.Set( GeneCategory.GetName, GeneTemplate.GetName )]"
+		item = {
+			button_standard = {
+				name = "template_button"
+				text = "[GeneTemplate.GetName]"
+				onclick = "[RulerDesignerWindow.OnMorphTemplateSelected( GeneTemplate.Self ) ]"
+				down = "[RulerDesignerWindow.HasMorphTemplateSelected( GeneTemplate.Self ) ]"
+			}
 		}
-		
 	}
 
-	type vbox_accessory_gene_button = button_standard
+	type vbox_accessory_gene_buttons = vbox
 	{
+		spacing = 3
 
-		visible = "[RulerDesignerWindow.IsModifierValid( RulerDesignerPortraitModifier.Self )]"
-		onclick = "[RulerDesignerWindow.OnPortraitModifierSelected( GeneCategory.Self, RulerDesignerPortraitModifier.Self )]"
-		down = "[RulerDesignerWindow.IsPortraitModifierSelected( GeneCategory.Self, RulerDesignerPortraitModifier.Self )]"
-		
-		text = "[RulerDesignerPortraitModifier.GetName]"
-		
-
-		
+		item = {
+			button_tertiary_push = {
+				name = "accessory_button"
+				visible = "[RulerDesignerWindow.IsModifierValid( RulerDesignerPortraitModifier.Self )]"
+				layoutpolicy_horizontal = expanding
+				
+				text = "[RulerDesignerPortraitModifier.GetName]"
+				onclick = "[RulerDesignerWindow.OnPortraitModifierSelected( GeneCategory.Self, RulerDesignerPortraitModifier.Self )]"
+				down = "[RulerDesignerWindow.IsPortraitModifierSelected( GeneCategory.Self, RulerDesignerPortraitModifier.Self )]"
+			}
+		}
 	}
 
 	type vbox_color_picker = vbox
@@ -4305,7 +4276,6 @@ types ruler_designer_types
 				onclick = "[RulerDesignerWindow.FinishTraitEditing( Trait.Self )]"
 				onclick = "[VariableSystem.ClearIf( 'trait_select_window_open', VariableSystem.Exists( 'trait_select_window_replace' ) )]"
 				onclick = "[VariableSystem.Clear( 'trait_select_window_replace' )]"
-
 				tooltip = "[RulerDesignerWindow.CanPickTraitDesc( Trait.Self )]"
 
 				hbox = {
@@ -4514,8 +4484,8 @@ types ruler_designer_types
 					visible = "[And( DataModelHasItems( TraitSlotArray.AccessSlots ), LessThanOrEqualTo_int32( GetDataModelSize( TraitSlotArray.AccessSlots ), '(int32)6' ) )]"
 
 					item = {
-						button_trait_slot_entry = {
-							visible = "[And(And(Not(EqualTo_string( Trait.GetKey, VariableSystem.Get( 'ek_selected_furstock' ) ) ), Not(EqualTo_string( Trait.GetKey, VariableSystem.Get( 'ek_selected_birthsign' ) ) ) ), Not(Trait.IsTraitGroup( GetTraitGroup('base_arcana') ) ) )]"
+						container = {
+							button_trait_slot_entry = {}
 						}
 					}
 				}
@@ -4529,8 +4499,9 @@ types ruler_designer_types
 					visible = "[And( DataModelHasItems( TraitSlotArray.AccessSlots ), GreaterThan_int32( GetDataModelSize( TraitSlotArray.AccessSlots ), '(int32)6' ) )]"
 
 					item = {
-							button_trait_slot_entry = {
-								visible = "[And(And(Not(EqualTo_string( Trait.GetKey, VariableSystem.Get( 'ek_selected_furstock' ) ) ), Not(EqualTo_string( Trait.GetKey, VariableSystem.Get( 'ek_selected_birthsign' ) ) ) ), Not(Trait.IsTraitGroup( GetTraitGroup('base_arcana') ) ) )]"							}
+						container = {
+							button_trait_slot_entry = {}
+						}
 					}
 				}
 			}
@@ -4751,7 +4722,7 @@ types ruler_designer_types
 				}
 
 				tooltip = RULER_DESIGNER_HOUSE_MOTTO_TT
-				tooltip_enabled = "[Not( RulerDesignerWindow.HasHouseMotto )]"
+				tooltip_visible = "[Not( RulerDesignerWindow.HasHouseMotto )]"
 			}
 		}
 
@@ -5106,12 +5077,8 @@ template Button_Select_Culture
 	using = Button_Close_Select_Culture
 }
 
-
 template ProgressBar_Achievements
 {
 	size = { 200 20 }
 	value = "[CurrentAndMaxToProgressbarValueInt32( RulerDesignerWindow.GetPointsUsed, GetDefine( 'NRulerDesigner', 'IRONMAN_POINT_MAX' ) )]"
 }
-
-
-#EK DEBUG

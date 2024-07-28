@@ -1,3 +1,5 @@
+### EK NOTE: added new tab for Core traditions, to better explain to players what these are
+
 ######################################################
 ################## CULTURE DIVERGENCE ################
 ######################################################
@@ -770,6 +772,12 @@ window = {
 							button_tabs_replace_tradition_category = {
 								datacontext = "[DivergenceWindow.GetTraditionGrouping( 'regional' )]"
 							}
+
+							# EK ADDITION: core traditions
+							button_tabs_replace_tradition_category = {
+								datacontext = "[DivergenceWindow.GetTraditionGrouping( 'core' )]"
+							}
+							# EK ADDITION END
 						}
 					}
 
@@ -790,6 +798,11 @@ window = {
 					vbox_diverge_traditions_list = {
 						datacontext = "[DivergenceWindow.GetTraditionGrouping( 'regional' )]"
 					}
+					# EK ADDITION: core traditions
+					vbox_diverge_traditions_list = {
+						datacontext = "[DivergenceWindow.GetTraditionGrouping( 'core' )]"
+					}
+					# EK ADDITION END
 
 					hbox = {
 						button_standard = {

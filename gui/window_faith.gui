@@ -4,9 +4,10 @@
 
 window = {
 	name = "faith_window"
+	widgetid = "faith_window"
 	datacontext = "[FaithWindow.GetFaith]"
 	datacontext = "[GetVariableSystem]"
-	allow_outside = yes
+	allow_outside = yes # EK ADDITION: patron window
 	movable = no
 	layer = windows_layer
 
@@ -14,20 +15,15 @@ window = {
 	using = Window_Background_Sidebar
 
 	state = {
-		name = "patron_action"
-		delay = 0.01
-		on_start = "[CloseGameView( 'religion' )]"
-		#on_finish = "[GetVariableSystem.Set( 'faith_view_tabs', 'patrons' )]" #DO NOT change this to start, crashes the game
-	}
-
-	state = {
 		name = _show
 		position = { 0 0 }
-		on_start = "[GetVariableSystem.Set( 'faith_view_tabs', Select_CString( IsGameViewOpen( 'religion' ), 'patrons', 'beliefs' ) )]"
+		on_start = "[GetVariableSystem.Set( 'faith_view_tabs', 'beliefs' )]"
 		on_start = "[GetVariableSystem.Set( 'hide_bottom_left_HUD', 'true' )]"
+		
+		# EK ADDITION: patron window
+		on_start = "[GetVariableSystem.Set( 'faith_view_tabs', Select_CString( IsGameViewOpen( 'religion' ), 'patrons', 'beliefs' ) )]"
 		on_start = "[GetVariableSystem.Clear( 'patron_trait' )]"
 		on_start = "[PdxGuiWidget.TriggerAnimation('patron_action')]"
-		#on_start = "[CloseGameView( 'religion' )]" #crashes it
 
 		using = Animation_FadeIn_Quick
 		using = Sound_WindowShow_Standard
@@ -36,104 +32,19 @@ window = {
 	state = {
 		name = _hide
 		position = { -60 0 }
-		on_start = "[GetVariableSystem.Clear( 'faith_view_tabs' )]"
 		on_start = "[GetVariableSystem.Clear( 'hide_bottom_left_HUD' )]"
+		on_start = "[GetVariableSystem.Clear( 'faith_view_tabs' )]" # EK ADDITION: patron window
 		on_start = "[GetScriptedGui('faith_clear_patrons').Execute(GuiScope.SetRoot(FaithWindow.GetFaith.MakeScope).AddScope('player_s', GetPlayer.MakeScope ).End)]"
 
 		using = Animation_FadeOut_Quick
 		using = Sound_WindowHide_Standard
 	}
-
-	# widget = {
-	# 	name = "patron_confirm" #1.5 move to scripted widget, use attach_to and inherit datacontext
-	# 	position = { 960 -20 }
-	# 	parentanchor = left|vcenter
-	# 	widgetanchor = center
-	# 	alwaystransparent = no
-
-	# 	visible = "[GetPlayer.MakeScope.Var('patron_sel').IsSet]"
-	# 	datacontext = "[GetPlayer.MakeScope.Var('patron_sel')]"
-	# 	datacontext = "[GetTrait(Concatenate('p', Select_CString( GetPlayer.MakeScope.Var('patron_sel').IsSet, Scope.GetFlagName, '_dv_akatosh') ))]"
-
-	# 	using = Window_Size_MainTab
-	# 	using = Window_Background
-	# 	using = Window_Decoration_Spike
-
-	# 	state = {
-	# 		name = _show
-	# 		using = Animation_FadeIn_Quick
-	# 		using = Sound_WindowShow_Standard
-	# 	}
-
-	# 	state = {
-	# 		name = _hide
-	# 		using = Animation_FadeOut_Quick
-	# 		using = Sound_WindowHide_Standard
-	# 	}
-
-	# 	vbox = {
-	# 		set_parent_size_to_minimum = yes
-	# 		using = Window_Margins
-
-	# 		hbox = {
-	# 			margin_bottom = -10
-	# 			layoutpolicy_horizontal = expanding
-
-	# 			header_pattern_interaction = {
-	# 				layoutpolicy_horizontal = expanding
-	# 				minimumsize = { 100% 0 }
-
-	# 				blockoverride "header_text" {
-	# 					text = CONFIRM_PATRON
-	# 				}
-
-	# 				blockoverride "button_close"
-	# 				{
-	# 					onclick = "[GetScriptedGui('faith_set_patron').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('trait', MakeScopeFlag(Scope.GetFlagName) ).AddScope('patron_sel', MakeScopeBool('(bool)no') ).End)]"
-	# 				}
-
-	# 				icon = {
-	# 					size = { 48 48 }
-	# 					position = { 0 0 }
-	# 					texture = "[Trait.GetIcon(GetNullCharacter)]"
-	# 				}
-	# 			}
-	# 		}
-
-	# 		hbox = {
-	# 			margin = { 20 10 }
-	# 			text_single = {
-	# 				multiline = yes
-	# 				max_width = 300
-	# 				align = center
-	# 				text = CONFIRM_PATRON_DESC
-	# 			}
-	# 		}
-
-	# 		## Send Button
-	# 		hbox = {
-	# 			name = "patron_confirm_button"
-	# 			margin = { 20 10 }
-	# 			margin_bottom = 15
-	# 			spacing = 3
-
-	# 			button_primary_big = {
-	# 				text = CONFIRM_PATRON_BUTTON
-
-	# 				onclick = "[GetScriptedGui('faith_set_patron').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('trait', MakeScopeFlag(Scope.GetFlagName) ).AddScope('patron_sel', MakeScopeBool('(bool)yes') ).End)]"
-
-	# 				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
-	# 			}
-
-	# 			button_standard = {
-	# 				visible = "[InDebugMode]"
-	# 				size = { 42 42 }
-	# 				text = "#D R#!"
-	# 				tooltip = "patron_sel: [GetPlayer.MakeScope.Var('patron_sel').GetFlagName]"
-	# 			}
-	# 		}
-	# 	}
-	# }
+	state = { # EK ADDITION: patron window
+		name = "patron_action"
+		delay = 0.01
+		on_start = "[CloseGameView( 'religion' )]"
+		#on_finish = "[GetVariableSystem.Set( 'faith_view_tabs', 'patrons' )]" #DO NOT change this to start, crashes the game
+	}
 
 	### INSIDE WINDOW
 	vbox = {
@@ -249,85 +160,21 @@ window = {
 
 							expand = {}
 
-							### EK EDIT: To easily switch from/to dynamic hostility
-							vbox = {
-								#	visible = "[Not(GetGlobalVariable('should_use_dynamic_hostility').IsSet)]"
-
-								text_single = {
-									name = "our_view"
-									visible = "[Not(ObjectsEqual( GetPlayer.GetFaith, Faith.Self ))]"
-									layoutpolicy_horizontal = expanding
-									text = "FAITH_VIEW_OUR_VIEW"
-									align = nobaseline|center
-								}
-
-								text_single = {
-									name = "their_view"
-									visible = "[Not(ObjectsEqual( GetPlayer.GetFaith, Faith.Self ))]"
-									layoutpolicy_horizontal = expanding
-									text = "FAITH_VIEW_THEIR_VIEW"
-									align = nobaseline|center
-								}
+							text_single = {
+								name = "our_view"
+								visible = "[Not(ObjectsEqual( GetPlayer.GetFaith, Faith.Self ))]"
+								layoutpolicy_horizontal = expanding
+								text = "FAITH_VIEW_OUR_VIEW"
+								align = nobaseline|center
 							}
 
-							#######################################################
-							# ELDER KINGS DYNAMIC HOSTILITY                       #
-							#######################################################
-
-							# is this section even needed? the hostilities are done in the defines
-							# vbox = {
-							# 	visible = "[GetGlobalVariable('should_use_dynamic_hostility').IsSet]"
-
-							# 	hbox = {
-							# 		datamodel = "[GetPlayer.GetFaith.MakeScope.GetList('list_faith_hostility')]"
-							# 		visible = "[Not(ObjectsEqual( GetPlayer.GetFaith, Faith.Self ))]"
-
-							# 		# item = {
-							# 			# vbox = {
-							# 				#layoutpolicy_horizontal = expanding
-							# 				text_single = {
-							# 					visible = "[ObjectsEqual( Scope.Story.MakeScope.Var('other_faith').Faith, Faith.Self)]"
-							# 					layoutpolicy_horizontal = expanding
-							# 					text = "FAITH_VIEW_OUR_VIEW"
-							# 					align = nobaseline
-							# 				}
-							# 				# text_single = {
-							# 				# 	visible = "[ObjectsEqual( Scope.Story.MakeScope.Var('other_faith').Faith, Faith.Self)]"
-							# 				# 	layoutpolicy_horizontal = expanding
-							# 				# 	text = "[Scope.Story.MakeScope.Var('hostility_value').GetValue]"
-							# 				# 	align = nobaseline
-							# 				# }
-							# 			# }
-							# 		# }
-							# 	}
-
-							# 	hbox = {
-							# 		datamodel = "[Faith.MakeScope.GetList('list_faith_hostility')]"
-							# 		visible = "[Not(ObjectsEqual( GetPlayer.GetFaith, Faith.Self ))]"
-
-							# 		# item = {
-							# 			# vbox = {
-							# 				#layoutpolicy_horizontal = expanding
-							# 				text_single = {
-							# 					visible = "[ObjectsEqual( Scope.Story.MakeScope.Var('other_faith').Faith, GetPlayer.GetFaith)]"
-							# 					layoutpolicy_horizontal = expanding
-							# 					text = "FAITH_VIEW_THEIR_VIEW"
-							# 					align = nobaseline
-							# 				}
-							# 				# text_single = {
-							# 				# 	visible = "[ObjectsEqual( Scope.Story.MakeScope.Var('other_faith').Faith, GetPlayer.GetFaith)]"
-							# 				# 	layoutpolicy_horizontal = expanding
-							# 				# 	text = "[Scope.Story.MakeScope.Var('hostility_value').GetValue]"
-							# 				# 	align = nobaseline
-							# 				# }
-							# 			# }
-							# 		# }
-							# 	}
-							# }
-
-							######################################################
-							# ELDER KINGS DYNAMIC HOSTILITY                      #
-							######################################################
+							text_single = {
+								name = "their_view"
+								visible = "[Not(ObjectsEqual( GetPlayer.GetFaith, Faith.Self ))]"
+								layoutpolicy_horizontal = expanding
+								text = "FAITH_VIEW_THEIR_VIEW"
+								align = nobaseline|center
+							}
 						}
 
 						expand = {}
@@ -350,7 +197,6 @@ window = {
 								{
 									text = "TOGGLE_RELIGION_VIEW"
 								}
-
 							}
 						}
 					}
@@ -409,7 +255,8 @@ window = {
 
 				using = tooltip_below
 			}
-
+			
+			# EK ADDITION: patron window
 			button_tab = {
 				layoutpolicy_horizontal = expanding
 				onclick = "[GetVariableSystem.Set( 'faith_view_tabs', 'patrons' )]"
@@ -530,34 +377,28 @@ window = {
 									}
 								}
 
-								widget = {
-									size = { 250 40 }
+								vbox = {
+									dynamicgridbox = {
+										name = "virtues_grid"
+										datamodel = "[FaithWindow.GetSins]"
+										flipdirection = yes
+										datamodel_wrap = 6
 
-									vbox = {
-										overlappingitembox = { #changed from dynamicgridbox so that 7/8th trait dont go to ne line
-											name = "sins_grid"
-											datamodel = "[FaithWindow.GetSins]"
-											#flipdirection = yes
-											#datamodel_wrap = 6
-											autoresize = yes
-											maximumsize = { 240 40 }
+										item = {
+											icon = {
+												datacontext = "[GuiVirtueOrSinItem.GetTrait]"
+												size = { 40 40 }
+												alwaystransparent = yes
+												texture = "[Trait.GetIcon( GetPlayer )]"
 
-											item = {
-												icon = {
-													datacontext = "[GuiVirtueOrSinItem.GetTrait]"
-													size = { 40 40 }
-													alwaystransparent = yes
-													texture = "[Trait.GetIcon( GetPlayer )]"
+												tooltipwidget = {
+													using = faith_window_trait_tooltip
+												}
 
-													tooltipwidget = {
-														using = faith_window_trait_tooltip
-													}
-
-													block "tooltip_placement"
-													{
-														using = tooltip_ne
-														tooltip_offset = { 0 20 }
-													}
+												block "tooltip_placement"
+												{
+													using = tooltip_ne
+													tooltip_offset = { 0 20 }
 												}
 											}
 										}
@@ -591,33 +432,28 @@ window = {
 									}
 								}
 
-								widget = {
-									size = { 250 40 }
-									vbox = {
-										overlappingitembox = {
-											name = "virtues_grid"
-											datamodel = "[FaithWindow.GetVirtues]"
-											#flipdirection = yes
-											#datamodel_wrap = 6
-											autoresize = yes
-											maximumsize = { 250 40 }
+								vbox = {
+									dynamicgridbox = {
+										name = "virtues_grid"
+										datamodel = "[FaithWindow.GetVirtues]"
+										flipdirection = yes
+										datamodel_wrap = 6
 
-											item = {
-												icon = {
-													datacontext = "[GuiVirtueOrSinItem.GetTrait]"
-													size = { 40 40 }
-													alwaystransparent = yes
-													texture = "[Trait.GetIcon( GetPlayer )]"
+										item = {
+											icon = {
+												datacontext = "[GuiVirtueOrSinItem.GetTrait]"
+												size = { 40 40 }
+												alwaystransparent = yes
+												texture = "[Trait.GetIcon( GetPlayer )]"
 
-													tooltipwidget = {
-														using = faith_window_trait_tooltip
-													}
+												tooltipwidget = {
+													using = faith_window_trait_tooltip
+												}
 
-													block "tooltip_placement"
-													{
-														using = tooltip_ne
-														tooltip_offset = { 0 20 }
-													}
+												block "tooltip_placement"
+												{
+													using = tooltip_ne
+													tooltip_offset = { 0 20 }
 												}
 											}
 										}
@@ -646,14 +482,19 @@ window = {
 
 							hbox = {
 								layoutpolicy_horizontal = expanding
-								dynamicgridbox = {
+
+								hbox = {
+									name = "important_doctrines"
 									datamodel = "[FaithWindow.GetGroupingHelper( 'main_group' ).GetGrouping]"
-									flipdirection = yes
-									datamodel_wrap = 6
+									#spacing = 15
+									layoutpolicy_vertical = expanding
+									minimumsize = { 0 108 }
 
 									item = {
-										widget = {
-											size = { 100 100 }
+										vbox = {
+											layoutpolicy_vertical = expanding
+											#EK EDIT: changed size slightly to fit all doctrines comfortably // Might not work completely fine with the german translation
+											minimumsize = { 80 0 }
 											name = "doctrine_list_item"
 											datacontext = "[GuiFaithDoctrineItem.GetDoctrine]"
 											visible = "[FaithDoctrine.IsVisible]"
@@ -664,108 +505,15 @@ window = {
 												name = "doctrine_group_icon"
 												size = { 60 60 }
 												texture = "[FaithDoctrine.GetIcon]"
-												parentanchor = hcenter
 											}
 
 											text_single = {
-												parentanchor = bottom|hcenter
-												margin_bottom = 15
 												name = "doctrine_name"
 												align = center
 												#raw_text = "Bingo Bongo Tongo gyngo"
 												text = "[FaithDoctrine.GetNameNoTooltip( GuiFaithDoctrineItem.GetFaith )]"
 												default_format = "#high"
 												multiline = yes
-												max_width = 119   ##### minimum in order to look good in german
-											}
-										}
-									}
-								}
-								
-								# hbox = {
-								# 	name = "important_doctrines"
-								# 	datamodel = "[FaithWindow.GetGroupingHelper( 'main_group' ).GetGrouping]"
-								# 	#spacing = 15
-								# 	layoutpolicy_vertical = expanding
-								# 	minimumsize = { 0 108 }
-
-								# 	item = {
-								# 		vbox = {
-								# 			layoutpolicy_vertical = expanding
-								# 			minimumsize = { 100 0 }
-								# 			name = "doctrine_list_item"
-								# 			datacontext = "[GuiFaithDoctrineItem.GetDoctrine]"
-								# 			visible = "[FaithDoctrine.IsVisible]"
-								# 			tooltip = "FAITH_WINDOW_DOCTRINE_TOOLTIP"
-								# 			using = tooltip_se
-
-								# 			icon_doctrine = {
-								# 				name = "doctrine_group_icon"
-								# 				size = { 60 60 }
-								# 				texture = "[FaithDoctrine.GetIcon]"
-								# 			}
-
-								# 			text_single = {
-								# 				name = "doctrine_name"
-								# 				align = center
-								# 				#raw_text = "Bingo Bongo Tongo gyngo"
-								# 				text = "[FaithDoctrine.GetNameNoTooltip( GuiFaithDoctrineItem.GetFaith )]"
-								# 				default_format = "#high"
-								# 				multiline = yes
-								# 				max_width = 101   ##### minimum in order to look good in german
-								# 			}
-
-								# 			expand = {}
-								# 		}
-								# 	}
-								# }
-							}
-						}
-
-						vbox = {
-							layoutpolicy_horizontal = expanding
-							spacing = 8
-
-							margin_bottom = -8
-
-							text_label_center = {
-								layoutpolicy_horizontal = expanding
-								text = "FAITH_DOCTRINES_PANTHEON"
-								default_format = "#low"
-							}
-
-							hbox = {
-								layoutpolicy_horizontal = expanding
-
-								hbox = {
-									name = "important_doctrines"
-									datamodel = "[FaithWindow.GetGroupingHelper( 'pantheon' ).GetGrouping]"
-									#spacing = 15
-									layoutpolicy_vertical = expanding
-									minimumsize = { 0 108 }
-
-									item = {
-										vbox = {
-											layoutpolicy_vertical = expanding
-											minimumsize = { 100 0 }
-											name = "doctrine_list_item"
-											datacontext = "[GuiFaithDoctrineItem.GetDoctrine]"
-											visible = "[FaithDoctrine.IsVisible]"
-											tooltip = "FAITH_WINDOW_DOCTRINE_TOOLTIP"
-											using = tooltip_se
-
-											icon_doctrine = {
-												name = "doctrine_group_icon"
-												size = { 60 60 }
-												texture = "[FaithDoctrine.GetIcon]"
-											}
-
-											text_single = {
-												name = "doctrine_name"
-												align = center
-												text = "[FaithDoctrine.GetNameNoTooltip( GuiFaithDoctrineItem.GetFaith )]"
-												default_format = "#high"
-												multiline = yes
 												max_width = 101   ##### minimum in order to look good in german
 											}
 
@@ -776,114 +524,11 @@ window = {
 							}
 						}
 
-						vbox = {
-							layoutpolicy_horizontal = expanding
-							spacing = 8
+						ek_pantheon_box = { }
 
-							margin_bottom = -8
+						ek_secondary_pantheon = { }
 
-							text_label_center = {
-								layoutpolicy_horizontal = expanding
-								text = "FAITH_DOCTRINES_SECONDARY_PANTHEON"
-								default_format = "#low"
-
-								visible = "[DataModelHasItems(FaithWindow.GetGroupingHelper( 'secondary_pantheon' ).GetGrouping)]"
-							}
-
-							hbox = {
-								layoutpolicy_horizontal = expanding
-
-								visible = "[DataModelHasItems(FaithWindow.GetGroupingHelper( 'secondary_pantheon' ).GetGrouping)]"
-
-								hbox = {
-									name = "important_doctrines"
-									datamodel = "[FaithWindow.GetGroupingHelper( 'secondary_pantheon' ).GetGrouping]"
-									#spacing = 15
-									layoutpolicy_vertical = expanding
-									minimumsize = { 0 108 }
-
-									item = {
-										vbox = {
-											layoutpolicy_vertical = expanding
-											minimumsize = { 100 0 }
-											name = "doctrine_list_item"
-											datacontext = "[GuiFaithDoctrineItem.GetDoctrine]"
-											visible = "[FaithDoctrine.IsVisible]"
-											tooltip = "FAITH_WINDOW_DOCTRINE_TOOLTIP"
-											using = tooltip_se
-
-											icon_doctrine = {
-												name = "doctrine_group_icon"
-												size = { 60 60 }
-												texture = "[FaithDoctrine.GetIcon]"
-											}
-
-											text_single = {
-												name = "doctrine_name"
-												align = center
-												text = "[FaithDoctrine.GetNameNoTooltip( GuiFaithDoctrineItem.GetFaith )]"
-												default_format = "#high"
-												multiline = yes
-												max_width = 101   ##### minimum in order to look good in german
-											}
-
-											expand = {}
-										}
-									}
-								}
-							}
-						}
-
-						vbox = {
-							text_label_center = {
-								layoutpolicy_horizontal = expanding
-								text = "FAITH_DOCTRINES_IMPORTANT_SPECIAL"
-								default_format = "#low"
-								visible = "[DataModelHasItems(FaithWindow.GetGroupingHelper( 'main_group_special' ).GetGrouping)]"
-							}
-
-							hbox = {
-								layoutpolicy_horizontal = expanding
-								visible = "[DataModelHasItems(FaithWindow.GetGroupingHelper( 'main_group_special' ).GetGrouping)]"
-
-								hbox = {
-									name = "important_doctrines"
-									datamodel = "[FaithWindow.GetGroupingHelper( 'main_group_special' ).GetGrouping]"
-									# spacing = 15
-									layoutpolicy_vertical = expanding
-									minimumsize = { 0 108 }
-
-									item = {
-										vbox = {
-											layoutpolicy_vertical = expanding
-											minimumsize = { 100 0 }
-											name = "doctrine_list_item"
-											datacontext = "[GuiFaithDoctrineItem.GetDoctrine]"
-											visible = "[FaithDoctrine.IsVisible]"
-											tooltip = "FAITH_WINDOW_DOCTRINE_TOOLTIP"
-											using = tooltip_se
-
-											icon_doctrine = {
-												name = "doctrine_group_icon"
-												size = { 60 60 }
-												texture = "[FaithDoctrine.GetIcon]"
-											}
-
-											text_single = {
-												name = "doctrine_name"
-												align = center
-												text = "[FaithDoctrine.GetNameNoTooltip( GuiFaithDoctrineItem.GetFaith )]"
-												default_format = "#high"
-												multiline = yes
-												max_width = 101   ##### minimum in order to look good in german
-											}
-
-											expand = {}
-										}
-									}
-								}
-							}
-						}
+						ek_tolerance_doctrines = {}
 
 						vbox = {
 							layoutpolicy_horizontal = expanding
@@ -957,73 +602,9 @@ window = {
 							}
 						}
 
-						### EK EDIT: Main pantheon deities doctrines
-						# text_label_left = {
-						# layoutpolicy_horizontal = expanding
-						# text = "FAITH_DOCTRINES_MAIN_PANTHEON_DEITIES"
-						# default_format = "#low"
-						# visible = "[DataModelHasItems(FaithWindow.GetGroupingHelper( 'pantheon_gods' ).GetGrouping)]"
-						# }
+						ek_daedra_doctrines = { }
 
-						# fixedgridbox = {
-						# datamodel = "[FaithWindow.GetGroupingHelper( 'pantheon_gods' ).GetGrouping]"
-						# flipdirection = yes
-						# addcolumn = 230
-						# addrow = 65
-						# datamodel_wrap = 2
-
-						# item = {
-						# widget_doctrine_item = {}
-						# }
-						# }
-
-						vbox = {
-							layoutpolicy_horizontal = expanding
-							spacing = 12
-							margin_bottom = -10
-
-							text_label_left = {
-								layoutpolicy_horizontal = expanding
-								text = "FAITH_DOCTRINES_DAEDRIC_PRINCES"
-								default_format = "#low"
-							}
-
-							fixedgridbox = {
-								datamodel = "[FaithWindow.GetGroupingHelper( 'daedric_princes' ).GetGrouping]"
-								flipdirection = yes
-								addcolumn = 225
-								addrow = 67
-								datamodel_wrap = 2
-
-								item = {
-									widget_doctrine_item = {}
-								}
-							}
-						}
-
-						vbox = {
-							layoutpolicy_horizontal = expanding
-							spacing = 12
-							margin_bottom = -10
-
-							text_label_left = {
-								layoutpolicy_horizontal = expanding
-								text = "FAITH_DOCTRINES_VIRTUES_SINS"
-								default_format = "#low"
-							}
-
-							fixedgridbox = {
-								datamodel = "[FaithWindow.GetGroupingHelper( 'virtues_sins' ).GetGrouping]"
-								flipdirection = yes
-								addcolumn = 230
-								addrow = 65
-								datamodel_wrap = 2
-
-								item = {
-									widget_doctrine_item = {}
-								}
-							}
-						}
+						ek_virtues_sins = { }
 
 						vbox = {
 							visible = "[DataModelHasItems(FaithWindow.GetGroupingHelper( 'special' ).GetGrouping)]"
@@ -1085,7 +666,7 @@ window = {
 			vbox = {
 				name = "religious_head"
 				layoutpolicy_horizontal = expanding
-				# margin = { 0 10 }
+				#margin_top = { 0 10 }
 
 				state = {
 					name = "faith_view_refresh"
@@ -1230,7 +811,7 @@ window = {
 							}
 						}
 
-						### EK EDIT: Added Mystical Birthright HoF
+						### EK ADDITION: Added Mystical Birthright HoF
 						widget_doctrine_item = {
 							visible = "[Faith.HasDoctrineByKey( 'doctrine_mystical_birthright_head' )]"
 
@@ -1282,7 +863,7 @@ window = {
 			}
 
 			hbox = {
-				#spacing = 10
+				spacing = 10
 				margin_bottom = 8
 				margin_top = 8
 				layoutpolicy_horizontal = expanding
@@ -1567,398 +1148,8 @@ window = {
 				}
 			}
 		}
-
-		## PATRONS
-		vbox = {
-			name = "tab_patrons"
-			layoutpolicy_horizontal = expanding
-			layoutpolicy_vertical = expanding
-			visible = "[GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' )]"
-
-			state = {
-				name = _show
-				using = Animation_FadeIn_Quick
-				on_start = "[GetScriptedGui('faith_get_patrons').Execute(GuiScope.SetRoot(FaithWindow.GetFaith.MakeScope).AddScope('player_s', GetPlayer.MakeScope ).End)]"
-			}
-
-			state = {
-				name = _hide
-				alpha = 0
-				on_start = "[GetScriptedGui('faith_clear_patrons').Execute(GuiScope.SetRoot(FaithWindow.GetFaith.MakeScope).AddScope('player_s', GetPlayer.MakeScope ).End)]"
-			}
-
-			state = {
-				name = "patron_get_patrons"
-				trigger_when = "[Not(FaithWindow.GetFaith.MakeScope.Var('faith_patrons_set').IsSet)]" #trigger when list doesnt exist - assume empty list exists still
-				on_start = "[GetScriptedGui('faith_get_patrons').Execute(GuiScope.SetRoot(FaithWindow.GetFaith.MakeScope).AddScope('player_s', GetPlayer.MakeScope ).End)]"
-			}
-
-			widget = {
-				size = { 0 45 }
-				layoutpolicy_horizontal = expanding
-				visible = "[Not( And( ObjectsEqual( Faith.Self, GetPlayer.GetFaith.Self ), GetPlayer.MakeScope.Var('recent_patron_selected').IsSet ) )]"
-
-				text_single = {
-					parentanchor = center
-					size = { 0 45 }
-					text = PATRONS_AVAILABLE
-					default_format = "#weak"
-					fontsize = 18
-					margin = { 0 10 }
-					align = nobaseline
-					max_width = 330
-					autoresize = yes
-
-					state = {
-						name = "faith_view_refresh"
-						using = Animation_Refresh_FadeOut
-					}
-
-					state = {
-						using = Animation_Refresh_FadeIn
-					}
-				}
-
-				button_group = {
-					parentanchor = right|vcenter
-					onclick = "[GetVariableSystem.Set( 'patron_trait', Select_CString( GetVariableSystem.HasValue( 'patron_trait', 'all' ), 'to_clear', 'all' ) )]"
-					onclick = "[GetVariableSystem.ClearIf( 'patron_trait', GetVariableSystem.HasValue( 'patron_trait', 'to_clear' ) )]"
-					flowcontainer = {
-						#using = tooltip_e
-						margin = { 15 0 }
-						spacing = 5
-
-						text_single = {
-							parentanchor = vcenter
-							align = nobaseline
-							default_format = "#clickable"
-							text = EFFECTS_ONLY
-							fontsize = 15
-						}
-
-						button_checkbox = {
-							# onclick = "[GetVariableSystem.Set( 'patron_trait', Select_CString( GetVariableSystem.HasValue( 'patron_trait', 'all' ), 'to_clear', 'all' ) )]"
-							# onclick = "[GetVariableSystem.ClearIf( 'patron_trait', GetVariableSystem.HasValue( 'patron_trait', 'to_clear' ) )]"
-							checked = "[GetVariableSystem.HasValue('patron_trait', 'all')]"
-						}
-
-						tooltip = "[SelectLocalization( GetVariableSystem.HasValue( 'patron_trait', 'all' ), 'show_desc', 'show_modifier' )]" #localize this and probably other bits too
-					}
-				}
-			}
-
-			widget = {
-				size = { 0 65 }
-				layoutpolicy_horizontal = expanding
-				visible = "[And( ObjectsEqual( Faith.Self, GetPlayer.GetFaith.Self ), GetPlayer.MakeScope.Var('recent_patron_selected').IsSet )]"
-
-				text_single = {
-					parentanchor = center
-					size = { 0 45 }
-					text = PATRONS_AVAILABLE
-					default_format = "#weak"
-					fontsize = 18
-					margin = { 0 10 }
-					position = { 0 -10 }
-					align = nobaseline
-					max_width = 330
-					autoresize = yes
-
-					state = {
-						name = "faith_view_refresh"
-						using = Animation_Refresh_FadeOut
-					}
-
-					state = {
-						using = Animation_Refresh_FadeIn
-					}
-				}
-				text_single = {
-					parentanchor = center
-					size = { 0 45 }
-					text = PATRON_TIMEOUT
-					default_format = "#X"
-					fontsize = 18
-					margin = { 0 10 }
-					position = { 0 15 }
-					align = nobaseline
-					max_width = 480
-					autoresize = yes
-
-					state = {
-						name = "faith_view_refresh"
-						using = Animation_Refresh_FadeOut
-					}
-
-					state = {
-						using = Animation_Refresh_FadeIn
-					}
-				}
-
-				flowcontainer = {
-					parentanchor = right|vcenter
-					#using = tooltip_e
-					margin = { 15 0 }
-					position = { 0 -10 }
-					spacing = 5
-
-					text_single = {
-						parentanchor = vcenter
-						align = nobaseline
-						default_format = "#clickable"
-						text = EFFECTS_ONLY
-						fontsize = 15
-					}
-
-					button_checkbox = {
-						onclick = "[GetVariableSystem.Set( 'patron_trait', Select_CString( GetVariableSystem.HasValue( 'patron_trait', 'all' ), 'to_clear', 'all' ) )]"
-						onclick = "[GetVariableSystem.ClearIf( 'patron_trait', GetVariableSystem.HasValue( 'patron_trait', 'to_clear' ) )]"
-						checked = "[GetVariableSystem.HasValue('patron_trait', 'all')]"
-					}
-
-					tooltip = "[SelectLocalization( GetVariableSystem.HasValue( 'patron_trait', 'all' ), 'show_desc', 'show_modifier' )]" #localize this and probably other bits too
-				}
-			}
-
-			divider = {
-				layoutpolicy_horizontal = expanding
-			}
-
-			scrollbox = {
-				name = "scrollbox_patrons"
-				layoutpolicy_horizontal = expanding
-				layoutpolicy_vertical = expanding
-				datacontext = "[GetIllustration( 'religion_holding' )]"
-
-				blockoverride "scrollbox_background" {}
-				blockoverride "scrollbox_background_fade" {}
-
-				background = {
-					texture = "[Illustration.GetTexture( FaithWindow.GetFaith.MakeScope )]"
-					alpha = 0.5
-					fittype = end
-
-					modify_texture = {
-						blend_mode = alphamultiply
-						mirror = vertical
-						texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
-					}
-				}
-
-				vbox = {
-					visible = "[IsDataModelEmpty(FaithWindow.GetFaith.MakeScope.GetList('faith_patrons'))]"
-					layoutpolicy_horizontal = expanding
-					text_multi = {
-						text = "NO_PATRONS"
-						align = center
-						max_width = 500
-						autoresize = yes
-						using = Font_Size_Medium
-					}
-					
-					expand = {}
-				}
-
-				blockoverride "scrollbox_content"
-				{
-					vbox = {
-						name = "patrons_list"
-						datamodel = "[FaithWindow.GetFaith.MakeScope.GetList('faith_patrons')]"
-						layoutpolicy_horizontal = expanding
-
-						item = {
-							vbox = {
-								layoutpolicy_horizontal = expanding
-								#spacing = 3
-								datacontext = "[GetTrait(Concatenate('p', Scope.GetFlagName))]"
-
-								divider_light = {
-									layoutpolicy_horizontal = expanding
-								}
-
-								vbox = {
-									layoutpolicy_horizontal = expanding
-									margin = { 15 7 }
-
-									vbox = {
-										layoutpolicy_horizontal = expanding
-
-										onmousehierarchyenter = "[PdxGuiWidget.TriggerAnimation(Select_CString( GetVariableSystem.HasValue('patron_trait', 'all'),'', 'mouse_enter_nc' ))]"
-										onmousehierarchyleave = "[PdxGuiWidget.TriggerAnimation(Select_CString( GetVariableSystem.HasValue('patron_trait', 'all'),'', 'mouse_leave_nc' ))]"
-
-										state = {
-											name = "mouse_enter_nc"
-											on_start = "[GetVariableSystem.Set('patron_trait', Trait.GetKey)]"
-										}
-
-										state = {
-											name = "mouse_leave_nc"
-											on_start = "[GetVariableSystem.Clear('patron_trait')]"
-										}
-
-										button_standard_hover = {
-											name = "patron_button"
-											layoutpolicy_horizontal = expanding
-											size = { 0 140 }
-
-											# state = {
-											# 	name = _mouse_hierarchy_enter
-											# 	on_start = "[PdxGuiWidget.FindChild('patron_icon').TriggerAnimation('patron_glow_hover_enter')]"
-											# }
-
-											# state = {
-											# 	name = _mouse_hierarchy_leave
-											# 	on_start = "[PdxGuiWidget.FindChild('patron_icon').TriggerAnimation('patron_glow_hover_leave')]"
-											# }
-
-											clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
-											down = "[Not( GetScriptedGui('faith_set_patron').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('trait', MakeScopeFlag(Scope.GetFlagName) ).End) )]"
-											enabled = "[And( ObjectsEqual( Faith.Self, GetPlayer.GetFaith.Self ), Or( Not( GetPlayer.MakeScope.Var('recent_patron_selected').IsSet ), Not( GetScriptedGui('faith_set_patron').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('trait', MakeScopeFlag(Scope.GetFlagName) ).End) ) ) )]" #diables mouse over effects. allow press but change sound to fail one and have tt say why - resent pick or wrong faith
-											onclick = "[GetScriptedGui('faith_set_patron').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('trait', MakeScopeFlag(Scope.GetFlagName) ).End)]"
-
-											background = {
-												margin = { 100 35 }
-												alpha = 0.35
-												using = Background_Area_Dark
-
-												modify_texture = {
-													name = "mask"
-													texture = "gfx/interface/component_masks/mask_fade_horizontal_middle_thick_vertical.dds"
-													spriteType = Corneredstretched
-													spriteborder = { 0 0 }
-													blend_mode = alphamultiply
-												}
-
-												modify_texture = {
-													name = "mask2"
-													texture = "gfx/interface/component_masks/mask_fade_horizontal_middle_thick.dds"
-													spriteType = Corneredstretched
-													spriteborder = { 0 0 }
-													blend_mode = alphamultiply
-												}
-											}
-
-											hbox = {
-												layoutpolicy_vertical = expanding
-												margin = { 10 0 }
-												spacing = 7
-
-												highlight_icon = {
-													name = "patron_icon"
-													size = { 120 120 }
-													texture = "[Trait.GetIcon(GetNullCharacter)]"
-
-													# state = {
-													# 	name = "patron_glow_hover_enter"
-													# 	glow_alpha = 0.25
-													# }
-													# state = {
-													# 	name = "patron_glow_hover_leave"
-													# 	glow_alpha = 0.0
-													# }
-
-													# glow = {
-													# 	name = "patron_icon_glow"
-													# 	alpha = 0
-													# 	using = Color_Orange
-													# 	using = Glow_Standard
-
-													# 	glow_radius = 2
-													# }
-												}
-
-												divider_light = {
-													layoutpolicy_vertical = expanding
-												}
-
-												vbox = {
-													margin = { 5 5 }
-													margin_left = 8
-													spacing = 5
-													layoutpolicy_vertical = expanding
-													layoutpolicy_horizontal = expanding
-
-													hbox = {
-														layoutpolicy_horizontal = expanding
-														text_label_left = {
-															name = "patron_name"
-															layoutpolicy_horizontal = expanding
-															text = "[Localize( Concatenate( 'god', Concatenate( GetPlayer.Custom( Concatenate( 'get', Scope.GetFlagName ) ), '_name' ) ) )|U]" # faith based custom loc no work (╯°□°）╯︵ ┻━┻
-															default_format = "#high"
-															using = Font_Size_Medium
-														}
-														text_single = {
-															visible = "[And( ObjectsEqual( Faith.Self, GetPlayer.GetFaith.Self ), Not( GetScriptedGui('faith_set_patron').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('trait', MakeScopeFlag(Scope.GetFlagName) ).End) ) )]"
-															text = YOUR_PATRON
-															using = Font_Size_Small
-														}
-													}
-
-													vbox = {
-														layoutpolicy_vertical = expanding
-														layoutpolicy_horizontal = expanding
-
-														scrollarea = {
-															name = "patron_modifier_scrollarea"
-															layoutpolicy_horizontal = expanding
-															layoutpolicy_vertical = expanding
-															alwaystransparent = yes
-
-															visible = "[Or(GetVariableSystem.HasValue('patron_trait', Trait.GetKey), GetVariableSystem.HasValue('patron_trait', 'all'))]"
-
-															scrollbarpolicy_horizontal = always_off
-
-															scrollbar_vertical = {
-																using = Scrollbar_Vertical
-
-																blockoverride "alpha"{
-																	alpha = 0.6
-																}
-															}
-
-															scrollwidget = {
-																text_multi = {
-																	name = "patron_modifiers"
-																	size = { 180 -1 }
-																	autoresize = yes
-																	max_width = 340
-																	text = "[Trait.GetFullDescription( GetNullCharacter, Faith.Self )]"
-																	fontsize = 15
-																	fontsize_min = 12
-																	margin_bottom = -37
-																}
-															}
-														}
-
-														text_multi = {
-															name = "patron_desc"
-															layoutpolicy_vertical = expanding
-															layoutpolicy_horizontal = expanding
-
-															visible = "[Not(Or(GetVariableSystem.HasValue('patron_trait', Trait.GetKey), GetVariableSystem.HasValue('patron_trait', 'all')))]"
-
-															text = "[Localize( Concatenate( 'desc', GetPlayer.Custom( Concatenate( 'get', Scope.GetFlagName ) ) ) )]"
-															#text = "#F [Localize( Concatenate( 'desc', Faith.Custom( Concatenate( 'get', Scope.GetFlagName ) ) ) )]#!"
-															using = Font_Size_Small
-															default_format = "#F"
-														}
-													}
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-
-					divider_light = {
-						visible = "[DataModelHasItems(FaithWindow.GetFaith.MakeScope.GetList('faith_patrons'))]"
-						layoutpolicy_horizontal = expanding
-					}
-				}
-			}
-		}
+		## EK ADDITION: PATRONS
+		ek_patrons = { }
 	}
 }
 
@@ -2180,104 +1371,6 @@ window = {
 	}
 }
 
-window = {
-	name = "patron_confirm" #1.5 move to scripted widget, use attach_to and inherit datacontext
-	position = { 0 -20 }
-	parentanchor = center
-	widgetanchor = center
-	alwaystransparent = no
-
-	# attachto = { #does this even work? propably not
-	# 	widgetid = "faith_window"
-	# 	stackmode = top
-	# 	inherit_visibility = yes
-	# 	inherit_data_context = yes
-	# }
-
-	visible = "[GetPlayer.MakeScope.Var('patron_sel').IsSet]"
-	datacontext = "[GetPlayer.MakeScope.Var('patron_sel')]"
-	datacontext = "[GetTrait(Concatenate('p', Select_CString( GetPlayer.MakeScope.Var('patron_sel').IsSet, Scope.GetFlagName, '_dv_akatosh') ))]"
-
-	using = Window_Size_MainTab
-	using = Window_Background
-	using = Window_Decoration_Spike
-
-	state = {
-		name = _show
-		using = Animation_FadeIn_Quick
-		using = Sound_WindowShow_Standard
-	}
-
-	state = {
-		name = _hide
-		using = Animation_FadeOut_Quick
-		using = Sound_WindowHide_Standard
-	}
-
-	vbox = {
-		set_parent_size_to_minimum = yes
-		using = Window_Margins
-
-		hbox = {
-			margin_bottom = -10
-			layoutpolicy_horizontal = expanding
-
-			header_pattern_interaction = {
-				layoutpolicy_horizontal = expanding
-				minimumsize = { 100% 0 }
-
-				blockoverride "header_text" {
-					text = CONFIRM_PATRON
-				}
-
-				blockoverride "button_close"
-				{
-					onclick = "[GetScriptedGui('faith_set_patron').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('trait', MakeScopeFlag(Scope.GetFlagName) ).AddScope('patron_sel', MakeScopeBool('(bool)no') ).End)]"
-				}
-
-				icon = {
-					size = { 48 48 }
-					position = { 0 0 }
-					texture = "[Trait.GetIcon(GetNullCharacter)]"
-				}
-			}
-		}
-
-		hbox = {
-			margin = { 20 10 }
-			text_single = {
-				multiline = yes
-				max_width = 300
-				align = center
-				text = CONFIRM_PATRON_DESC
-			}
-		}
-
-		## Send Button
-		hbox = {
-			name = "patron_confirm_button"
-			margin = { 20 10 }
-			margin_bottom = 15
-			spacing = 3
-
-			button_primary_big = {
-				text = CONFIRM_PATRON_BUTTON
-
-				onclick = "[GetScriptedGui('faith_set_patron').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('trait', MakeScopeFlag(Scope.GetFlagName) ).AddScope('patron_sel', MakeScopeBool('(bool)yes') ).End)]"
-
-				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
-			}
-
-			button_standard = {
-				visible = "[InDebugMode]"
-				size = { 42 42 }
-				raw_text = "#D R#!"
-				raw_tooltip = "patron_sel: [GetPlayer.MakeScope.Var('patron_sel').GetFlagName]"
-			}
-		}
-	}
-}
-
 ######################################################
 ################ TYPES AND TEMPLATES #################
 ######################################################
@@ -2343,9 +1436,11 @@ types FaithShared
 
 		# Fervor
 		hbox = {
+			#EK ADDITION: fervor eq
 			tooltipwidget = {
 				fervor_equilibrium_breakdown_widget = {}
 			}
+			#EK ADDITION END
 
 			icon = {
 				texture = "gfx/interface/icons/icon_fervor.dds"
@@ -2357,12 +1452,13 @@ types FaithShared
 				default_format = "#high"
 				align = nobaseline
 			}
-
+			#EK ADDITION: fervor eq
 			text_single = {
 				text = "FAITH_WINDOW_FERVOR_EQUILIBRIUM"
 				default_format = "#high"
 				align = nobaseline
 			}
+			#EK ADDITION END
 		}
 		hbox = {
 			layoutpolicy_horizontal = expanding
@@ -2378,35 +1474,6 @@ types FaithShared
 				size = { 0 12 }
 			}
 		}
-
-		# # Fervor
-		# hbox = {
-
-		# 	icon = {
-		# 		texture = "gfx/interface/icons/icon_fervor.dds"
-		# 		size = { 22 22 }
-		# 	}
-
-		# 	text_single = {
-		# 		text = "FAITH_WINDOW_FERVOR"
-		# 		default_format = "#high"
-		# 		align = nobaseline
-		# 	}
-		# }
-		# hbox = {
-		# 	layoutpolicy_horizontal = expanding
-		# 	margin_right = 1
-		# 	expand = {}
-
-		# 	text_single = {
-		# 		name = "fervor_trend"
-		# 		text = "[Faith.GetYearlyFervorChange|=+2]"
-		# 		max_width = 110
-		# 		default_format = "#low"
-		# 		fontsize = 13
-		# 		size = { 0 12 }
-		# 	}
-		# }
 	}
 }
 
