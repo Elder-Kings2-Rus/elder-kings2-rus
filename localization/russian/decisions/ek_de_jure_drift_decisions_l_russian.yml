@@ -1,0 +1,99 @@
+﻿l_russian:
+#Topal
+ topal_isle_leyawiin_decision:0 "The Question of Topal Isle"
+ topal_isle_soulrest_decision:0 "The Question of Topal Isle"
+ topal_isle_senchal_decision:0 "The Question of Topal Isle"
+
+ topal_isle_decision_desc:0 "The Topal Sea is the crossroads of Tamriel's vital trade routes and the Topal Isle sits at its heart. Ships frequently stop at its harbor first before offloading at any of the bigger ports in the area, and whoever holds the island will easily control the passage of ships in and out of the Topal Sea. On top of that, the island's mines supply much of Tamriel's demand for Ebony where Morrowind chooses not to, so it is not surprising that this meager plot of land has been a battleground of nations and influences through the ages.\n\nBy integrating the Topal Isle into our realm we will secure our prosperity in the region for many years to come."
+
+ topal_isle_leyawiin_decision_confirm:0 "Topal Isle belongs to Leyawiin!"
+ topal_isle_soulrest_decision_confirm:0 "Topal Isle belongs to Soulrest!"
+ topal_isle_senchal_decision_confirm:0 "Topal Isle belongs to Senchal!"
+
+ topal_isle_leyawiin_decision_tooltip:0 "Make the [duchy|E] of Topal [de_jure|E] Leyawiin"
+ topal_isle_soulrest_decision_tooltip:0 "Make the [duchy|E] of Topal [de_jure|E] Soulrest"
+ topal_isle_senchal_decision_tooltip:0 "Make the [duchy|E] of Topal [de_jure|E] Senchal"
+
+#Silgrad
+ silgrad_rift_decision:0 "The Question of Silgrad"
+ silgrad_rift_decision_desc:0 "The Sil Valley is a crossroads between Skyrim, Cyrodiil and Morrowind and has thus been of great strategic importance to the realms of ages past.\n\nLong, long ago, when Skyrim spread across northern Tamriel, the ancient Nords established an outpost in Sil Valley. What would later become known as Silgrad is therefore rightfully ours.\n\nIt is time to reclaim it."
+ silgrad_rift_decision_confirm:0 "Silgrad belongs to the Rift!"
+ silgrad_rift_decision_tooltip:0 "Make the [duchy|E] of Silgrad [de_jure|E] Rift"
+
+ silgrad_cheydinhal_decision:0 "The Question of Silgrad"
+ silgrad_cheydinhal_decision_desc:0 "The Sil Valley is a crossroads between Skyrim, Cyrodiil and Morrowind and has thus been of great strategic importance to the realms of ages past.\n\nIt was the Empire however that properly fortified what would become known as Silgrad and made travel through the valley safe. Our neighbours seem to have forgotten this.\n\nIt is time to remind them."
+ silgrad_cheydinhal_decision_confirm:0 "Silgrad belongs to Cheydinhal!"
+ silgrad_cheydinhal_decision_tooltip:0 "Make the [duchy|E] of Silgrad [de_jure|E] Cheydinhal"
+
+ silgrad_velothis_decision:0 "The Question of Silgrad"
+ silgrad_velothis_decision_desc:0 "The Sil Valley is a crossroads between Skyrim, Cyrodiil and Morrowind and has thus been of great strategic importance to the realms of ages past.\n\nAny claims on Silgrad by our neighnours are ridiculous. The Chimer of old held the valley long before any invader thought to take it. And we Dunmer controlled it until the Empire believed it to be theirs.\n\nIt is time to regain control."
+ silgrad_velothis_decision_confirm:0 "Silgrad belongs to Velothis!"
+ silgrad_velothis_decision_tooltip:0 "Make the [duchy|E] of Silgrad [de_jure|E] Velothis"
+
+#Xylo
+ xylo_border_bosmer_decision:0 "The Xylo Border Incident"
+ xylo_border_bosmer_decision_desc:0 "Historically, the western bank of the Xylo river has been settled by many Bosmeri tribes - much to the dismay of the Khajiit. Over the decades and centuries, many Bosmer even began to consider the Xylo river the eastern border of Valenwood.\n\n ...something I can make a reality."
+ xylo_border_bosmer_decision_confirm:0 "The Western Banks of Xylo shall be Bosmeri!"
+ xylo_border_bosmer_decision_tooltip:0 "Make the Xylo Region de-jure drift into Valenwood."
+
+ xylo_border_khajiit_decision:0 "The Xylo Border Incident"
+ xylo_border_khajiit_decision_desc:0 "The Bosmer had no right to take the western bank of the Xylo river! Both sides of this sacret river have been the home of Khajiit for time immemorial.\n\n It is time to retake the western Xylo."
+ xylo_border_khajiit_decision_confirm:0 "The Western Banks of Xylo shall be Elsweyr again!"
+ xylo_border_khajiit_decision_tooltip:0 "Make the Xylo Region de-jure drift into Elsweyr."
+
+#Arenthia
+ return_arenthia_khajiit_decision:0 "Return Arenthia"
+ return_arenthia_khajiit_decision_desc:0 "A contested land since ancient times, Arenthia often changed hands between Khajiit, Bosmer, and Colovians. If we manage to hold onto it for long enough and settle our people there, we can secure our claim to the region."
+ return_arenthia_khajiit_decision_tooltip:0 "Arenthia will become [de_jure|E] vassal of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ return_arenthia_khajiit_decision_effect_tooltip:0 "By controlling the entirety of [GetTitleByKey('k_arenthia').GetName] and settling people of your culture in its [de_jure|E] [capital|E] you can formalize your control over the region."
+ return_arenthia_khajiit_decision_custom_tooltip:0 "The [GetTitleByKey('c_arenthia').GetName] must be of Khajiiti [heritage|E]"
+ return_arenthia_khajiit_decision_confirm:0 "Arenthia is ours!"
+ 
+ return_arenthia_bosmer_decision:0 "Return Arenthia"
+ return_arenthia_bosmer_decision_desc:0 "In their ever-growing greed for expansion, the Khajiit took Arenthia from us. But we do not accept that. If we managed to take it back from them and populate Arenthia with our people, we could bring it back under Valenwood's control."
+ return_arenthia_bosmer_decision_tooltip:0 "Bring Arenthia back into [de_jure|E] Valenwood"
+ return_arenthia_bosmer_decision_custom_tooltip:0 "The [GetTitleByKey('c_arenthia').GetName] must be of Bosmeri [heritage|E]"
+ return_arenthia_bosmer_decision_confirm:0 "Arenthia will be Bosmer!"
+
+#Leyawiin
+ integrate_leyawiin_decision:0 "Integrate Leyawiin"
+ integrate_leyawiin_decision_desc:0 "Although Leyawiin has been ruled by Nibenese for most of its history, it was briefly annexed by the Khajiiti wander-kings of Bruk'ra after the conquests of Darloc Brae. If we were to control lands west of the mouth of the Niben River, we could claim Leyawiin and integrate it into our realm.\n\nThe only question is: who will get the city of Leyawiin itself?"
+ integrate_leyawiin_decision_tooltip:0 "Leyawiin and Transniben will be integrated into [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ integrate_leyawiin_decision_effect_tooltip:0  "By controlling lands west of the Niben River you can claim sovereignty over Transniben and decide who to settle there."
+ integrate_leyawiin_decision_confirm:0 "Transniben belongs to Khajiiti!"
+
+ return_leyawiin_imperial_decision:0 "Return Leyawiin"
+ return_leyawiin_imperial_decision_desc:0 "Our ancient city of Leyawiin was taken from us by foul Khajiit warmongers. But not all is lost, we can still take it back."
+ return_leyawiin_imperial_decision_tooltip:0 "Bring the western bank of Niben back into [de_jure|E] Leyawiin"
+ return_leyawiin_imperial_decision_confirm:0 "Leyawiin belongs to Cyrodiil!"
+
+#Systres
+ systres_high_rock_decision:0 "The Question of Systres"
+ systres_high_rock_decision_confirm:0 "Systres belongs to High Rock!"
+ systres_high_rock_decision_tooltip:0 "Make [kingdom|E] of Systres [de_jure|E] High Rock"
+ systres_cyrodiil_decision:0 "The Question of Systres"
+ systres_cyrodiil_decision_confirm:0 "Systres belongs to Cyrodiil!"
+ systres_cyrodiil_decision_tooltip:0 "Make [kingdom|E] of Systres [de_jure|E] Cyrodiil"
+ systres_hammerfell_decision:0 "The Question of Systres"
+ systres_hammerfell_decision_confirm:0 "Systres belongs to Hammerfell!"
+ systres_hammerfell_decision_tooltip:0 "Make [kingdom|E] of Systres [de_jure|E] Hammerfell"
+ systres_decision_desc:0 "Systres is one of the most diverse places in western Tamriel, with a long history of Breton, Redguard, and Colovian influences. But most importantly, it is full of many valuable raw materials, and its people are famous for building the largest shipyard for the All Flags Navy. The abundance of natural resources and its strategic position in the Abecean Sea make it clear that whoever controls Systres is the dominant power in the region."
+
+ systres_alinor_decision:0 "The Question of Systres"
+ #Systres for Alinor - EK1 reference
+ systres_alinor_decision_desc:0 "Ancient Aldmeri cartographers claim that during the #LORE [compendium_merethic_era]#!, Systres was inhabited by our people, who swore fealty to Alinor. It is clear that the archipelago belongs to us."
+ systres_alinor_decision_confirm:0 "Systres belongs to Alinor!"
+ systres_alinor_decision_tooltip:0 "Make [kingdom|E] of Systres [de_jure|E] Alinor"
+
+ drift_systres_decision_custom_tooltip:0 "The [GetTitleByKey('c_systres').GetName] must share your [heritage|E]"
+
+#Solstheim
+ solstheim_morrowind_decision:0 "The Question of Solstheim"
+ solstheim_morrowind_decision_desc:0 "While Solstheim is isolated and independent from the affairs of the rest of Tamriel, it is formally considered part of Skyrim. But with Morrowind united under my rule, perhaps it's time to expand our influence and subjugate Solstheim."
+ solstheim_morrowind_decision_tooltip:0 "Make the [kingdom|E] of Solstheim [de_jure|E] Morrowind"
+ solstheim_morrowind_decision_confirm:0 "Solstheim belongs to Morrowind!"
+
+ solstheim_skyrim_decision:0 "The Question of Solstheim"
+ solstheim_skyrim_decision_desc:0 "Morrowind claiming Solstheim as its own does not change the fact that it has been inhabited by ancient Atmorans since the #LORE [compendium_merethic_era]#!. Solstheim belongs to the Nords, and I will take it back."
+ solstheim_skyrim_decision_tooltip:0 "Make the [kingdom|E] of Solstheim [de_jure|E] Skyrim"
+ solstheim_skyrim_decision_confirm:0 "Solstheim belongs to Skyrim!"

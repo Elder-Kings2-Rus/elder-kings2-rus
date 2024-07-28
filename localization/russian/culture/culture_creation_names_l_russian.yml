@@ -15,6 +15,10 @@
  black_marsh_orc_collective_noun:0 "Болотно-оркск"
  black_marsh_orc_prefix:0 "Орко"
 
+ blackmarcher_name:0 "Чернотопцы" #Atmoran in Black Marsh
+ blackmarcher_collective_noun:0 "Чернотопск"
+ blackmarcher_prefix:0 "Чернотопо"
+
  gideonese_name:0 "Гидеонцы" #Nibenese in Gideon
  gideonese_collective_noun:0 "Гидеонск"
  gideonese_prefix:0 "Гидеоно"
@@ -39,6 +43,10 @@
  cyrodiil_orc_name:0 "Рубиновые орки"
  cyrodiil_orc_collective_noun:0 "Рубиново-оркск"
  cyrodiil_orc_prefix:0 "Орко"
+
+ cyrodiil_khajiit_name:0 "Ренадиты" #Renada (empire) + iit
+ cyrodiil_khajiit_collective_noun:0 "Ренадитск"
+ cyrodiil_khajiit_prefix:0 "Ренадо"
 
 ###### ELSWEYR ######
  anequina_orc_name:0 "Дюнные орки"
@@ -73,6 +81,10 @@
  elinhiri_name:0 "Элинирцы" #Imperials in Craglorn
  elinhiri_collective_noun:0 "Элинирск"
  elinhiri_prefix:0 "Элиниро"
+
+ yoku_keptu_name:0 "Ра-кепту" #Yokudan + Ket-Keptu
+ yoku_keptu_collective_noun:0 "Ра-кептск"
+ yoku_keptu_prefix:0 "Кепту"
 
  ###### HIGH ROCK ######
  bangkorite_name:0 "Бангкорайцы" #Redguards + Bretons in Bangkorai
@@ -128,6 +140,10 @@
  vvardenfell_orc_collective_noun:0 "Пепельно-оркск"
  vvardenfell_orc_prefix:0 "Орко"
 
+ morrowind_khajiit_name:0 "Сафиты"
+ morrowind_khajiit_collective_noun:0 "Сафитск"
+ morrowind_khajiit_prefix:0 "Сафо"
+
 ###### SKYRIM ######
  menofvir_name:0 "Люди-Вира" #Ilniviri + Reachfolk
  menofvir_collective_noun:0 "Вирск"
@@ -152,6 +168,10 @@
  solstheim_orc_name:0 "Сталгримовые орки"
  solstheim_orc_collective_noun:0 "Сталгримо-оркск"
  solstheim_orc_prefix:0 "Орко"
+
+ skyrim_khajiit_name:0 "Овазиты" #Owazi (snow) + iit
+ skyrim_khajiit_collective_noun:0 "Овазитск"
+ skyrim_khajiit_prefix:0 "Овазо"
 
 ###### VALENWOOD ######
  ayleidbosmer_name:0 "Салиабойчи"
@@ -182,6 +202,10 @@
  south_wealder_collective_noun:0 "Вельдск"
  south_wealder_prefix:0 "Вельдо"
 
+ valenwood_khajiit_name:0 "Дрениты"
+ valenwood_khajiit_collective_noun:0 "Дренитск"
+ valenwood_khajiit_prefix:0 "Дрено"
+
 ###### SUMMERSET ISLES ######
  crystal_orc_name:0 "Кристальные орки"
  crystal_orc_collective_noun:0 "Кристально-оркск"
@@ -195,6 +219,10 @@
  summerset_isles_orc_collective_noun:0 "Летне-оркск"
  summerset_isles_orc_prefix:0 "Орко"
 
+ summerset_isles_khajiit_name:0 "Шиджиты" #Shije (crystal) + iit (people)
+ summerset_isles_khajiit_collective_noun:0 "Шиджитск"
+ summerset_isles_khajiit_prefix:0 "Шиджо"
+
 ###### YOKUDA ######
  yokublin_name:0 "Йокоблины" #Goblins in Yokuda
  yokublin_collective_noun:0 "Йокоблинск"
@@ -203,6 +231,10 @@
  yokuda_orc_name:0 "Орихалковые орки"
  yokuda_orc_collective_noun:0 "Орихалково-оркск"
  yokuda_orc_prefix:0 "Орко"
+
+ yokuda_khajiit_name:0 "Йокудиты"
+ yokuda_khajiit_collective_noun:0 "Йокудитск"
+ yokuda_khajiit_prefix:0 "Йокудо"
 
 ###### MISC ######
  sea_orc_name:0 "Морские орки" #Orcs living on an island

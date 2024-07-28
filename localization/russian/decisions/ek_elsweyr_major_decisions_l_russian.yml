@@ -1,0 +1,64 @@
+﻿l_russian:
+
+ restore_anequina_decision:0 "Restore the Kingdom of Anequina"
+ restore_anequina_decision_desc:0 "Before the formation of the Elsweyr Confederacy and subsequent transfer of power to the Mane, Anequina was a powerful kingdom that ruled the entirety of Northern Elsweyr, known for its warrior culture.\n\nAlthough the realms that exist today are a far cry from Anequina's glorious past, if our homelands were once again unified under a strong ruler, perhaps we could make steps toward reclaiming our power."
+ restore_anequina_decision_tooltip:0 "Kingdom of Anequina will be restored"
+ restore_anequina_decision_effect:0 "You gain [GetTitleByKey('e_anequina').GetName] and become [de_jure|E] liege of all kingdoms in the region."
+ elsweyr_split_tooltip:0 "Elsweyr will split [de_jure|E] into the [empires|E] of Anequina and Pellitine, if this has not already happened."
+ restore_anequina_decision_custom_tooltip:2 "You control at least #V 75%#! of [counties|E] in [GetGeographicalRegion('mundus_tamriel_elsweyr_anequina').GetName] (Current: [SCOPE.ScriptValue('anequina_decision_region_owned_percent_value')|0]%)"
+ restore_anequina_decision_confirm:0 "Anequina is restored!"
+
+ restore_pellitine_decision:0 "Restore the Kingdom of Pellitine"
+ restore_pellitine_decision_desc:0 "After the Thrassian Plague, the lands of Southern Elsweyr were consolidated into the kingdom of Pellitine, known for its Moon-Priests. In existence until the formation of the Elsweyr Confederacy, it was dissolved in favor of a new system of power-sharing between Khajiiti clans invented by Mane Rid-Thar-ri'Datta.\n\nBut the memory of a strong and independent Pellitine still exists - if one ruler was able to unite most of our homelands, we could proclaim Pellitine restored."
+ restore_pellitine_decision_tooltip:0 "Kingdom of Pellitine will be restored"
+ restore_pellitine_decision_effect_tooltip:0 "You gain [GetTitleByKey('e_pellitine').GetName] and become [de_jure|E] liege of all kingdoms in the region."
+ restore_pellitine_decision_custom_tooltip:2 "You control at least #V 75%#! of [counties|E] in [GetGeographicalRegion('mundus_tamriel_elsweyr_pellitine').GetName] (Current: [SCOPE.ScriptValue('pellitine_decision_region_owned_percent_value')|0]%)"
+ restore_pellitine_decision_confirm:0 "Pellitine is restored!"
+
+ restore_darloc_kingdom_decision:0 "Restore Darloc Brae's Kingdom"
+ restore_darloc_kingdom_decision_desc:0 "In the ancient days of the #LORE [compendium_first_era]#!, when Dwemer still dwelt on Nirn and Alessians ruled Cyrodiil, Darloc Brae, Golden Beast of Anequina, carved out a realm for Anequina that stretched from [GetTitleByKey('c_harrowdell').GetNameNoTier] to [GetTitleByKey('c_leyawiin').GetNameNoTier].\n\nUnder our dynasty's leadership his kingdom will be restored, and Anequina's strength will be unchallenged."
+ restore_darloc_kingdom_decision_tooltip:0 "Restore Darloc Brae's Kingdom."
+ conquered_leyawiin_arenthia_tooltip:0 "You have integrated Leyawiin and formalized your control over Arenthia"
+ restore_darloc_kingdom_decision_confirm:0 "Anequina reigns supreme!"
+ 
+ choose_capital_anequina_decision:0 "Choose capital of Anequina"
+ choose_capital_anequina_decision_desc:0 "Since the reunification of Anequina, there has been a pressing question: where should its capital be located? We have conquered its old capital, [GetTitleByKey('c_anequina').GetName], but the tale of its demise at the hands of peasant revolutionaries still lingers. Perhaps it is time to choose a new capital, to herald a glorious future."
+ choose_capital_anequina_decision_tooltip:0 "Choose a capital of Anequina"
+ choose_capital_anequina_decision_effect:0 "You will be able to choose between the historical capital of Anequina and your current capital"
+ choose_capital_anequina_decision_confirm:0 "Choose a capital of Anequina"
+
+ secede_from_elsweyr_decision:0 "Secede from Elsweyr"
+ secede_from_elsweyr_decision_desc:0 "The Mane's authority has collapsed, and they hold no power over us anymore. It is time we stopped acknowledging them as our liege."
+ secede_from_elsweyr_decision_tooltip:0 "Become independent from Elsweyr"
+ secede_from_elsweyr_decision_confirm:0 "Become independent"
+
+ restore_mane_in_torval_decision:0 "Restore the Mane in Torval"
+ restore_mane_in_torval_decision_confirm:0 "Give Torval back to the Mane"
+ restore_mane_in_torval_decision_desc:0 "Traditionally a seat of power for the Mane, Torval was lost by our spiritual leader. However, with our help, this can be fixed."
+ restore_mane_in_torval_decision_tooltip:0 "The Mane will return to Torval."
+ torval_held_by_you_or_vassal_tt:0 "$c_torval$ must be held by you or a [vassal|E]"
+
+ restore_mane_decision:0 "Restore the seat of the Mane"
+ restore_mane_decision_confirm:0 "Praise [ROOT.GetCharacter.GetFaith.HighGodName]!"
+ restore_mane_decision_desc:0 "If a pious [ROOT.Char.GetFaith.GetAdherentName] were to recover the core territories of the Mane's domain, they could be restored once more to their rightful place in Torval."
+ restore_mane_decision_tooltip:0 "Restore the Mane"
+ restore_mane_decision_effect_tooltip:0 "A new [new_mane_faith.GetAdjective] Mane will be appointed and granted Torval"
+ 
+ restore_tenmar_decision:0 "Restore the kingdom of Tenmar"
+ restore_tenmar_decision_desc:0 "Before Elsweyr was consolidated into two kingdoms and then into one, #LORE [compendium_sixteen_kingdoms]#! sprawled over the lands of Elsweyr. Tenmar was one of them, and our people were known for our connection to Tenmar Forest, going so far as to be called "forest folk." Unfortunately, since the Thrassian Plague, our kingdom lost its might and became just another subject of Pa'alatiin. But if we could subjugate our neighbors, Tenmar could be called a kingdom once more."
+ restore_tenmar_decision_tooltip:0 "Kingdom of Tenmar will be restored"
+ restore_tenmar_decision_confirm:0 "Tenmar is restored!"
+
+ restore_khenarthia_decision:0 "Restore the kingdom of Khenarthia"
+ restore_khenarthia_decision_desc:0 "Back in the #LORE [compendium_first_era]#!, our lands were part of the kingdom of Khenarthia, one of the #LORE [compendium_sixteen_kingdoms]#!, famous for its moon sugar and fishermen. What truly makes us unique from the rest of Khajiit is that we have lived side-by-side with Maormer ever since the #LORE [compendium_merethic_era]#!. Our neighbors are known as expert sailors and fearsome pirates. Perhaps if we follow their example and control the seas, then Khenarthia will be recognized as a great kingdom once more."
+ restore_khenarthia_decision_custom_tooltip:0 "You have a [GetGovernment( 'pirate_government' ).GetName]"
+ restore_khenarthia_decision_tooltip:0 "Kingdom of Khenarthia will be restored"
+ restore_khenarthia_decision_confirm:0 "Khenarthia rules the Southern Sea!"
+
+ destroy_mane_many_paths_decision:0 "End Riddle'Thar Worship"
+ destroy_mane_many_paths_decision_desc:0 "Ever since Mane Rid-Thar-ri'Datta revealed the Riddle'Thar Epiphany, those who refused to abandon the old Khajiiti beliefs have been persecuted. But if one [ROOT.Char.GetFaith.GetAdherentName] could manage to unite Elsweyr behind them, perhaps they could bring an end to Riddle'Thar tyranny and restore the spiritual unity of the Khajiit."
+ destroy_mane_many_paths_decision_tooltip:0 "Restore the Many Paths Mane as your spiritual leader"
+ destroy_mane_decision_effect_tooltip_1:0 "[twomoonsdance.GetName] will lose their [head_of_faith|E] and gain the [GetFaithDoctrine('doctrine_no_head').GetBaseName] [doctrine|E]"
+ destroy_mane_decision_effect_tooltip_2:0 "[manypathsdance.GetName] will gain the [GetFaithDoctrine('doctrine_mystical_birthright_head').GetBaseName] [doctrine|e]"
+
+ destroy_mane_many_paths_decision_confirm:0 "Praise [ROOT.GetCharacter.GetFaith.HighGodName]!"

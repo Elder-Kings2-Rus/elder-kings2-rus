@@ -24,6 +24,15 @@
  life_extension_decision_desc:0 "Перспектива долгой жизни, накопления мудрости и опыта и наблюдения за сменой поколений одновременно манит и пугает."
  life_extension_decision_tooltip:0 "Сделать шаг к бессмертию."
  life_extension_decision_confirm:0 "Ещё немного..."
+ life_extension_cooldown_0:0 "@warning_icon! #warning There is a 10 year cooldown before you may reattempt this [decision|E], even if you fail!#!\n"
+ life_extension_cooldown_1:0 "@warning_icon! #warning There is a 20 year cooldown before you may reattempt this [decision|E], even if you fail!#!\n"
+ life_extension_cooldown_2:0 "@warning_icon! #warning There is a 30 year cooldown before you may reattempt this [decision|E], even if you fail!#!\n"
+ life_extension_cooldown_3:0 "@warning_icon! #warning There is a 40 year cooldown before you may reattempt this [decision|E], even if you fail!#!\n"
+ life_extension_cooldown_4:0 "@warning_icon! #warning There is a 50 year cooldown before you may reattempt this [decision|E], even if you fail!#!\n"
+ life_extension_cooldown_5:0 "@warning_icon! #warning There is a 60 year cooldown before you may reattempt this [decision|E], even if you fail!#!\n"
+ life_extension_failure:0 "The spell is a failure"
+ life_extension_decision_exhaustion:0 "Can not use this decision until [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'attempted_extend_lifespan') )]"
+
 
  life_extension_decision_ai:0 "Увеличить продолжительность жизни ИИ"
  life_extension_decision_ai_desc:0 "Если вы видите это, пожалуйста, сообщите об ошибке :)"
