@@ -2086,6 +2086,13 @@ widget = {
 														autoresize = no
 														align = nobaseline
 													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('nedic_cult'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_nedic_cult"
+														autoresize = no
+														align = nobaseline
+													}
 
 													text_single = {
 														layoutpolicy_horizontal = expanding
