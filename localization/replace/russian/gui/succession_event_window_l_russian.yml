@@ -1,0 +1,9 @@
+﻿l_russian:
+# Replace some real world references
+ SUCCESSION_EVENT_WINDOW_HEIR_FIVE_SKILLS:0 "Обладая невероятными познаниями обо всех вещах между Этериусом и Нирном, [ROOT.Char.GetFirstNamePossessiveNoTooltip] будет править так, что это войдет в легенды."
+ SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_MIND_POSSESSED_NEGATIVE:0 "Из-за одержимости часто можно было слышать, как [ROOT.Char.GetSheHe] бормочет о своей неизбежной участи." 
+ SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_SCANDAL_EXCOMMUNICATED:0 "После того как [ROOT.Char.GetHerHis] заклеймили еретиком, никто не сомневается, что после смерти [ROOT.Char.GetSheHe] будет страдать за свои грехи."
+
+ SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_VARANGIAN:0 "Опыт службы в сиродильских легионах, скорее всего, вдохновит [ROOT.Char.GetHerHis] подданных."
+ SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_POSSESSED_BAD:0 "[ROOT.Char.GetFaith.PriestMalePlural] подозревают, что [ROOT.Char.GetHerHis] захватили злые духи, и делают все возможное, чтобы удержать [ROOT.Char.GetHerHim]."
+ SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_EXCOMMUNICATED:0 "Несмотря на отлучение и клеймо еретика, [ROOT.Char.GetSheHe] приходит к власти. Многие уверены, что это погубит державу."

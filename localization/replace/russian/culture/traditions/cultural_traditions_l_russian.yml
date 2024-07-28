@@ -19,12 +19,11 @@
  tradition_polders_name:0 "Восстановление земель"
  
  culture_parameter_not_tribal_raiding_malus:0 "При возвращении из [Concept( 'raid', 'набега' )|E] [Concept( 'tribal', 'неплеменные' )|E] и [Concept('pirate', 'непиратские')|E] персонажи #EMP теряют#! [EmptyScope.ScriptValue('not_tribal_raid_prestige_multiplier')|1] ед. [Concept( 'prestige', 'престижа' )|E] за 1 ед. доставленной [Concept( 'raid_loot', 'добычи' )|E]\n#F Персонажи с [Concept('perk', 'достоинством')|E] [GetPerk('raider_perk').GetName(GetPlayer)] не затрагиваются этим штрафом#!"
-
- tradition_roman_legacy_name:1 "Имперское наследие"
- tradition_roman_legacy_desc:1 "Военная организация Сиродильской Империи до сих пор живёт в памяти этой культуры. Профессиональная армия предпочтительнее ополчения."
  
  tradition_nubian_warrior_queens_name:0 "Королевы-воительницы"
  tradition_nubian_warrior_queens_desc:0 "Те, кто живет в Акавире, хорошо помнят великих Королев-Воительниц, которые когда-то создавали королевства по всей Цакаре. Наши соседи могут настаивать на превосходстве мужчин, но мы прослеживаем наши родословные по нашим матерям, и боевой клич могущественных женщин Цаэски заставит всех «мужчин» бежать домой."
+
+ only_one_marriage_tradition_allowed:0 "Допустим только один [Concept( 'marriage', 'брачный' )|E] [Concept( 'tradition', 'обычай' )|E]. Следующие варианты несовместимы: $tradition_monogamous_name$, $tradition_polygamous_name$, $tradition_concubines_name$ и $tradition_life_does_part_name$"
 
  # EK Terrain
  dry_percentage_desc:0 "Менее #V 30%#! [Concept( 'counties', 'графств' )|E] этой [Concept( 'culture', 'культуры' )|E] располагается в пустыне, песчаных холмах или засушливых землях"

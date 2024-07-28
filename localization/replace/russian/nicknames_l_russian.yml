@@ -10,3 +10,8 @@
  nick_the_magnificent_desc:1 "О [Select_CString( CHARACTER.IsLocalPlayer, 'ваших', CHARACTER.GetHerHis)] подвигах рассказывают от Хай-Рока до Чернотопья."
  nick_the_viking:0 "[Select_CString(CHARACTER.IsFemale, 'Разбойница', 'Разбойник' )]"
  nick_the_child_killer_desc:1 "[CharYouSheHe(CHARACTER)|U] [Select_CString( CHARACTER.IsLocalPlayer, 'перепутали', Select_CString(CHARACTER.IsFemale, 'перепутала', 'перепутал' ))] мудрость с жестокостью."
+ 
+ # these are edited to make their god reference make use of HighGodName instead, because HighGodName won't get fucked by our custom Daedra names
+ nick_the_theologian_desc:0 "[CHARACTER.GetFaith.HighGodName] — творец всего сущего. Что есть жизнь, если не исследование истинной природы творца?"
+ nick_the_lisp_and_lame_desc:1 "Не удовлетворившись одной лишь кривой походкой, [CHARACTER.GetFaith.HighGodName] проклинает [Select_CString( CHARACTER.IsLocalPlayer, 'вас', 'этого человека')] дополнительно, награждая вдобавок ужасной шепелявостью."
+ nick_health_god_mercy:0 "Милосердие [CHARACTER.GetFaith.HighGodNamePossessive|U]"

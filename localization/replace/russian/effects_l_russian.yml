@@ -1,0 +1,10 @@
+﻿l_russian:
+ COUNTY_CULTURE_EFFECT:2 "[culture|E] владения [TITLE.GetNameNoTier] меняется на #V #L [TARGET_CULTURE.GetCollectiveNoun|l]ую#!#!"
+ COUNTY_CULTURE_PAST_EFFECT:2 "[culture|E] владения [TITLE.GetNameNoTier] сменилась на #V #L [TARGET_CULTURE.GetCollectiveNoun|l]ую#!#!"
+ SET_CULTURE_EFFECT:2 "[culture|E] меняется на #V [TARGET_CULTURE.GetCollectiveNoun|l]#L ую#!#!"
+ SET_CULTURE_PAST_EFFECT:2 "[culture|E] сменилась на #V [TARGET_CULTURE.GetCollectiveNoun|l]#L ую#!#!"
+ 
+ COUNTY_FAITH_EFFECT:1 "[Concept( 'faith', 'Конфессия' )|E] сменится на [FAITH.GetAdjective|Vl]"
+ COUNTY_FAITH_PAST_EFFECT:1 "[faith|E] в титуле [TITLE.GetName] сменилась на [FAITH.GetAdjective|Vl]"
+ THIRD_COUNTY_FAITH_EFFECT:0 "[TITLE.GetName]: [Concept( 'faith', 'конфессия' )|E] изменится на [FAITH.GetAdjective|Vl]"
+ THIRD_COUNTY_FAITH_PAST_EFFECT:0 "[faith|E] в титуле [TITLE.GetName] сменилась на [FAITH.GetAdjective|Vl]"
