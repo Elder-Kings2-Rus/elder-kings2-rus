@@ -13,17 +13,26 @@
  huntwife_court_position_desc:0 "$huntwife_court_position$ отвечает за охотничьи отряды крепости и обучает молодых орков навыкам выживания. Как главная охотница, она имеет решающее значение в жизни общества."
 ##Forge-Wife
  forgewife_court_position:0 "Кузнечная жена"
- forgewife_court_position_desc:0 "$forgewife_court_position$ ведет как письменные, так и устные записи о своем народе и посвящает себя изучению истории. Их мудрость и знания оживляют ум любого, кто ищет их совета."
+ forgewife_court_position_desc:0 "Традиционно отвечающая за орочье искусство кузнечного дела, $forgewife_court_position$ является самым искусным кузнецом крепости. Обычно она становится второй, на ком женится вождь крепости."
  hearthwife_court_position:0 "Жена-хозяйка"
  hearthwife_court_position_desc:0 "$hearthwife_court_position$ управляет домашним хозяйством вождя и обеспечивает бесперебойную работу повседневных дел. Обычно она является ближайшим доверенным лицом вождя."
 ##Shadowscale
  shadowscale_court_position:0 "Тёмный ящер"
  shadowscale_employer_custom_effect_description:1 "@warning_icon!#X Полезный [agent|El] при [Concept( 'hostile_schemes', 'враждебных происках' )|E] против вас#!"
  shadowscale_court_position_desc:1 "$shadowscale_court_position$ с рождения обучается убийствам и интригам и служит только королю Аргонии. Однако уважаемый аргонианский правитель может попросить нанять его для помощи в уничтожении как своих врагов, так и врагов Чернотопья."
+ court_position_schemer_trait:0 "[GetTrait('schemer').GetName( ROOT.Char )]"
+ court_position_lifestyle_herbalist_trait:0 "[GetTrait('lifestyle_herbalist').GetName( ROOT.Char )]"
+ court_position_cynical_trait:0 "[GetTrait('cynical').GetName( ROOT.Char )]"
+ court_position_callous_trait:0 "[GetTrait('callous').GetName( ROOT.Char )]"
+ court_position_august_trait:0 "[GetTrait('august').GetName( ROOT.Char )]"
+ court_position_family_first_trait:0 "[GetTrait('family_first').GetName( ROOT.Char )]"
 ##Speaker
  speaker_court_position:0 "Глашатай"
  speaker_court_position_desc:0 "$speaker_court_position$ появляется вместе со своим сюзереном при дворе и может говорить от имени сюзерена по большинству вопросов. Они издают прокламации и могут разрешать дипломатические споры."
  speaker_employer_custom_effect_description:1 "Могут выполнять [Concept( 'diplomacy', 'дипломатические' )|E] задачи вместо сюзерена"
+##Enforcer
+ enforcer_court_position:0 "Защитник"
+ enforcer_court_position_desc:0 "$enforcer_court_position$ наблюдает за шумными городами державы и следит за тем, чтобы сюзерен получал должное уважение на каждой улице и углу, особенно если это уважение выражается в монетах."
 
 #Court Mage
  court_mage_position:0 "Придворный маг"
@@ -32,10 +41,11 @@
  court_mage_employer_custom_effect_description:2 "Может использовать заклинания для своего сюзерена#!\n@warning_icon!#X Полезный [agent|El] при [Concept( 'hostile_schemes', 'враждебных происках' )|E] против вас#!"
  court_position_skill_arcana:0 "Мастерство Арканы"
  court_position_necomancer_trait:0 "[GetTrait('necromancer').GetName( ROOT.Char )]"
- court_position_education_magical_ability_4_trait:0 "[GetTrait('magical_ability_4').GetName( ROOT.Char )]"
- court_position_education_magical_ability_3_trait:0 "[GetTrait('magical_ability_3').GetName( ROOT.Char )]"
- court_position_education_magical_ability_2_trait:0 "[GetTrait('magical_ability_2').GetName( ROOT.Char )]"
- court_position_education_magical_ability_1_trait:0 "[GetTrait('magical_ability_1').GetName( ROOT.Char )]"
+ court_position_education_magical_ability_5_trait:0 "[GetTrait('education_magical_ability_5').GetName( ROOT.Char )]"
+ court_position_education_magical_ability_4_trait:0 "[GetTrait('education_magical_ability_4').GetName( ROOT.Char )]"
+ court_position_education_magical_ability_3_trait:0 "[GetTrait('education_magical_ability_3').GetName( ROOT.Char )]"
+ court_position_education_magical_ability_2_trait:0 "[GetTrait('education_magical_ability_2').GetName( ROOT.Char )]"
+ court_position_education_magical_ability_1_trait:0 "[GetTrait('education_magical_ability_1').GetName( ROOT.Char )]"
  court_position_arcana_bad_1_trait:0 "[GetTrait('arcana_bad_1').GetName( ROOT.Char )]"
  court_position_arcana_bad_2_trait:0 "[GetTrait('arcana_bad_2').GetName( ROOT.Char )]"
  court_position_arcana_bad_3_trait:0 "[GetTrait('arcana_bad_3').GetName( ROOT.Char )]"
