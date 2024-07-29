@@ -78,8 +78,8 @@
  atmoran_night_god_name_possessive:0 "$god_moons_name_possessive$"
  atmoran_water_god_name:0 "$god_whale_name$"
  atmoran_water_god_name_possessive:0 "$god_whale_name_possessive$"
- atmoran_witchgodname_the_horned_god:0 "god_wolf_name$"
- atmoran_witchgodname_the_horned_god_possessive:0 "god_wolf_name_possessive$"
+ atmoran_witchgodname_the_horned_god:0 "$god_wolf_name$"
+ atmoran_witchgodname_the_horned_god_possessive:0 "$god_wolf_name_possessive$"
  
  #Totemism
  totemism:1 "Тотемическ"
@@ -170,8 +170,8 @@
  anuic_skaal_evil_god_adversary:0 "$god_adversary_name$"
  anuic_skaal_evil_god_thartaag:0 "$god_thartaag_name$"
  anuic_skaal_evil_god_greedyman:0 "$god_greedyman_name$"
- anuic_skaal_witchgodname_the_horned_god:0 "god_allmaker_name$"
- anuic_skaal_witchgodname_the_horned_god_possessive:0 "god_allmaker_name_possessive$"
+ anuic_skaal_witchgodname_the_horned_god:0 "$god_allmaker_name$"
+ anuic_skaal_witchgodname_the_horned_god_possessive:0 "$god_allmaker_name_possessive$"
  
  #Dragon Cult
  dragon_cult:0 "Драконо-культск"
@@ -241,8 +241,8 @@
  dragon_cult_water_god_name_possessive:0 "$god_alduin_name_possessive$"
  dragon_cult_good_god_alduin:0 "$god_alduin_name$"
  dragon_cult_evil_god_paarthurnax:0 "$god_paarthurnax_name$"
- dragon_cult_witchgodname_the_horned_god:0 "god_alduin_name$"
- dragon_cult_witchgodname_the_horned_god_possessive:0 "god_alduin_name_possessive$" 
+ dragon_cult_witchgodname_the_horned_god:0 "$god_alduin_name$"
+ dragon_cult_witchgodname_the_horned_god_possessive:0 "$god_alduin_name_possessive$" 
  
  #Ternion Totems
  ternion_totems:0 "Триадск"
@@ -299,11 +299,11 @@
  ternion_totems_night_god_name_possessive:0 "$god_wolf_name_possessive$"
  ternion_totems_water_god_name:0 "$god_wolf_name$"
  ternion_totems_water_god_name_possessive:0 "$god_wolf_name_possessive$"
- ternion_totems_good_god_three_old_gods:0 "$three_old_gods_name$"
+ ternion_totems_good_god_three_old_gods:0 "$god_three_old_gods_name$"
  ternion_totems_good_god_wolf:0 "$god_wolf_name$"
  ternion_totems_good_god_bear:0 "$god_bear_name$"
  ternion_totems_good_god_fox:0 "$god_fox_name$"
  ternion_totems_evil_god_alduin:0 "$god_alduin_name$"
  ternion_totems_evil_god_dragon:0 "$god_dragon_name$"
- ternion_totems_witchgodname_the_horned_god:0 "god_wolf_name$"
- ternion_totems_witchgodname_the_horned_god_possessive:0 "god_wolf_name_possessive$" 
+ ternion_totems_witchgodname_the_horned_god:0 "$god_wolf_name$"
+ ternion_totems_witchgodname_the_horned_god_possessive:0 "$god_wolf_name_possessive$" 

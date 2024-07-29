@@ -13,8 +13,8 @@
  bosmeri_high_god_she_he:0 "он"
  bosmeri_high_god_name_alternate:0 "Кости Мира"
  bosmeri_high_god_name_alternate_possessive:0 "Костей Мира"
- bosmeri_devil_name:0 "$god_oathbreakers_name$"
- bosmeri_devil_name_possessive:0 "$god_oathbreakers_name_possessive$"
+ bosmeri_devil_name:0 "$oathbreakers_name$"
+ bosmeri_devil_name_possessive:0 "$oathbreakers_name_possessive$"
  bosmeri_devil_shehe:0 "они"
  bosmeri_devil_herselfhimself:0 "себя"
  bosmeri_devil_herhis:0 "их"
@@ -105,10 +105,10 @@
  wilderking_high_god_name:0 "Лесной король"
  wilderking_high_god_name_possessive:0 "Лесного короля"
  
- #Vinedusk Exemptions
+ #Pact Exemptions (previously Vinedusk Exemptions)
  
- vineduskpact:0 "Сумеречн"
- vineduskpact_adj:0 "Исключения Сумеречной Лозы"
- vineduskpact_adherent:0 "Последователь Сумеречной Лозы"
- vineduskpact_adherent_plural:0 "Последователи Сумеречной Лозы"
- vineduskpact_desc:0 "Зелёный пакт - священный свод законов, которым следуют босмеры, чтобы жить в гармонии с природой, - соблюдается жителями северо-восточного Валенвуда совсем иначе, чем где-либо ещё. Хотя они по-прежнему с большим почтением относятся к лесу, годы конфликта в пограничных районах Коловии и Эльсвейра привели к ослаблению или даже отказу от правил, касающихся ритуального каннибализма и запрета на вырубку деревьев. Хотя некоторые клеймят Сумеречную Лозу просто еретическими бандитами, многие босмеры рассматривают их в позитивном ключе, поскольку они держат оборону против чужеземных набегов и тем самым по-своему помогают лесу."
+ vineduskpact:0 "Исключён-Пактск"
+ vineduskpact_adj:0 "Исключение из Пакта"
+ vineduskpact_adherent:0 "Последователь исключения"
+ vineduskpact_adherent_plural:0 "Последователи исключения"
+ vineduskpact_desc:0 "Зелёный пакт – священный свод законов, которым следуют босмеры, чтобы жить в гармонии с природой – соблюдается жителями границ Валенвуда совершенно по-разному. Хотя они по-прежнему с большим почтением относятся к лесу, века чужеземного влияния привели к ослаблению или даже отказу от правил, касающихся ритуального каннибализма и запрета на вырубку деревьев."

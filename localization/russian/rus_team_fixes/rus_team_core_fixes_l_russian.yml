@@ -193,7 +193,7 @@
  thisworld_name_possessive:0 "Этого мира"
  god_amaranth_name_possessive:0 "Амаранта"
  
- nick_the_shaker_of_nirn:0 "[Select_CString(CHARACTER.IsFemale, 'Сотрясательница', 'Сотрясатель')] Нирна" # Прозвище отсутствует в оригинале мода. Без описания, так как оно и само генерируется.
+ #nick_the_shaker_of_nirn:0 "[Select_CString(CHARACTER.IsFemale, 'Сотрясательница', 'Сотрясатель')] Нирна" # Прозвище отсутствует в оригинале мода. Без описания, так как оно и само генерируется.
  can_use_summon_dragons_active_name:0 "возможности призывать драконов" # Название_религии не имеет возможности призывать драконов
  faith_conversion_cost_cultural_identity_cg_exclusive_outside_culture_group:0 "[new_faith.MakeScope.Faith.GetName] [faith|E] не признаёт ваше [heritage|El] - [GetFaithDoctrine('doctrine_cultural_identity_heritage').GetBaseName]"
  k_indoril_adj:0 "Индорильск"
@@ -224,7 +224,7 @@
  modifier_spell_spread_vitality_greater:0 "Распространение жизненной силы"
  modifier_spell_spread_vitality_grand:0 "Распространение жизненной силы"
  attempted_extend_lifespan:0 "Недавняя попытка продления жизни"
- holy_site_hs_temple_miraak_name:0 "Храм Мирака"
+ #holy_site_hs_temple_miraak_name:0 "Храм Мирака"
  next_level_trade_ports_name:0 "Морской меркантилизм" # такая-то культура обладает традицией ...
  sentient_undead:0 "Разумная нежить"
  aggressive_staff:0 "Агрессивно с посохом"

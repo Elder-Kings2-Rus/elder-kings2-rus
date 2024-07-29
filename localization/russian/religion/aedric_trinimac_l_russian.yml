@@ -7,8 +7,8 @@
  trinimac_religion_adherent_plural:0 "Последователи Тринимака"
  trinimac_religion_desc:0 "Тринимак - альдмерский герой-бог истины, чести и справедливости, который в #LORE [Concept( 'compendium_dawn_era', 'Эру рассвета' )|E]#! убил предателя #LORE [Concept( 'compendium_lorkhan', 'Лорхана' )|E]#! за обман богов, а затем провёл века, наставляя легионы своих преданных последователей в военных и духовных вопросах."
  trinimac_religion_high_god_name:0 "$god_trinimac_name$"
- trinimac_religion_high_god_name_2:0 "$trinimachigh_god_name$" # Optional translation alt
- trinimac_religion_high_god_name_3:0 "$trinimachigh_god_name$" # Optional translation alt
+ trinimac_religion_high_god_name_2:0 "$trinimac_religion_high_god_name$" # Optional translation alt
+ trinimac_religion_high_god_name_3:0 "$trinimac_religion_high_god_name$" # Optional translation alt
  trinimac_religion_high_god_name_possessive:0 "$god_trinimac_name_possessive$"
  trinimac_religion_high_god_she_he:0 "он"
  trinimac_religion_high_god_name_alternate:0 "Идеал"
@@ -43,10 +43,10 @@
  trinimac_religion_bishop:0 "приверженец"
  trinimac_religion_bishop_plural:0 "приверженцы"
  trinimac_religion_divine_realm:0 "$aetherius_name$"
- trinimac_religion_positive_afterlife:0 "$name_aetherius$"
+ trinimac_religion_positive_afterlife:0 "$aetherius_name$"
  trinimac_religion_positive_afterlife_2:1 "" # Optional translation alt
  trinimac_religion_positive_afterlife_3:1 "" # Optional translation alt
- trinimac_religion_negative_afterlife:0 "$name_oblivion$"
+ trinimac_religion_negative_afterlife:0 "$oblivion_name$"
  trinimac_religion_negative_afterlife_2:1 "" # Optional translation alt
  trinimac_religion_negative_afterlife_3:1 "" # Optional translation alt
  trinimac_religion_witchgodname_the_horned_god:0 "$god_malacath_name$"
@@ -76,7 +76,7 @@
  trinimac_religion_good_god_trinimac:0 "$god_trinimac_name$"
  trinimac_religion_evil_god_malacath:0 "$god_malacath_name$"
  trinimac_religion_evil_god_lorkhan:0 "$god_lorkhan_name$"
- trinimac_religion_evil_god_the_princes:0 "$god_the_prince_name$"
+ trinimac_religion_evil_god_the_princes:0 "$god_daedric_princes_name$"
  
  #Trinimac Cult
  

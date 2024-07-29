@@ -79,9 +79,9 @@
  aldmeri_good_god_xen:0 "$god_xen_name$"
  aldmeri_good_god_mara:0 "$god_mara_name$"
  aldmeri_evil_god_lorkhan:0 "$god_lorkhan_name$"
- aldmeri_evil_god_the_princes:0 "$god_the_princes_name$"
- aldmeri_witchgodname_the_horned_god:0 "god_lorkhan_name_possessive$"
- aldmeri_witchgodname_the_horned_god_possessive:0 "god_lorkhan_name_possessive$"
+ aldmeri_evil_god_the_princes:0 "$god_daedric_princes_name$"
+ aldmeri_witchgodname_the_horned_god:0 "$god_lorkhan_name$"
+ aldmeri_witchgodname_the_horned_god_possessive:0 "$god_lorkhan_name_possessive$"
  
  #Auri-El
  

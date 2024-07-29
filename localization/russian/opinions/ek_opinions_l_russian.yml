@@ -1,11 +1,10 @@
 ﻿l_russian:
  thrall_opinion:0 "Трэлл"
- charm_opinion:0 "Под эффектом очарования"
- major_charm_opinion:0 "Под эффектом очарования"
+ charmed_opinion:0 "Под эффектом очарования"
  cast_hostile_spell:0 "Наложено враждебное заклинание"
- tried_to_banish_me:0 "Попытка изгнать меня"
  criminal_daedric_servant:0 "Преступное поклонение #LORE [compendium_daedra]#!"
  returned_temple_land_opinion:0 "Возвращённый Храму Некром"
+ robbed_me_opinion:0 "Обокрал меня"
  
  disrupted_family_member:0 "Истощил члена семьи"
  disrupted_me:0 "Истощил меня"
@@ -19,3 +18,5 @@
  beastfolk_negotiated_alliance_opinion:0 "Сделка о заключении внебрачного союза"
  
  aldmeri_religion_opinion:0 "$aldmeri_religion_adherent$ое мнение"
+ 
+ abandoned_our_people_opinion: "Бросил наш народ"

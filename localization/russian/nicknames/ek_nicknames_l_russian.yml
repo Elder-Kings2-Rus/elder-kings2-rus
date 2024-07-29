@@ -21,6 +21,8 @@
  nick_the_distorter_desc:0 "Слишком долгое нахождение рядом с [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажем ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'им персонажем', '' )] может привести к тому, что любой потеряет контроль над реальностью."
  nick_the_enemy_of_oblivion:0 "[Select_CString(CHARACTER.IsFemale, 'Противница', 'Враг' )] Обливиона"
  nick_the_enemy_of_oblivion_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'стоите', 'стоит')] бастионом против любой даэдрической угрозы, неустанно охраняя безопасность Нирна."
+ nick_the_shaker_of_nirn:0 "[Select_CString(CHARACTER.IsFemale, 'Сотрясательница', 'Сотрясатель')] Нирна"
+ nick_the_shaker_of_nirn_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] is a relentless martial ruler whose campaigns echo across the mortal realm, wielding war as a mighty force to reshape realms and conquer territories far and wide."
  nick_nirns_scourge:0 "Палач Нирна"
  nick_nirns_scourge_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'оставляете', 'оставляет')] неизгладимый след страха и разрушения, опустошая мир смертных. Многие опасаются, что эти деяния подготовят почву для ещё более масштабного вторжения даэдра."
  nick_the_fist_of_oblivion:0 "Кулак Обливиона"
@@ -131,6 +133,8 @@
  nick_the_scribe_desc:0 "От незначительных событий до сложных саг, [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'известны', Select_CString(CHARACTER.IsFemale, 'известна', 'известен' ))] своим стремлением записывать всё это."
  nick_the_spy:0 "Шпион"
  nick_the_spy_desc:0 "Чужие секреты - не более чем интересный вызов для [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]."
+ nick_the_plague_bringer:0 "the Plaguebringer"
+ nick_the_plague_bringer_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] truly [CharAreIs(CHARACTER)] a prophet of Peryite, the Daedric Prince of Pestilence. Ready to spread disease and decay to [CharYourHerHimself(CHARACTER)] and all in [CharYourHerHis(CHARACTER)] close vicinity."
 
 # Flavour Bad
  nick_the_outlaw:0 "Изгой"
@@ -191,7 +195,11 @@
  nick_the_mad_wizard_desc:0 "Могущество магии и нестабильность ума сумасшедшего - опасное сочетание. Присутствие [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] вызывает у окружающих беспокойство, они в смятении и шоке рассказывают о том, чему стали свидетелями рядом с [Select_CString( CHARACTER.IsLocalPlayer, 'вами', Select_CString(CHARACTER.IsFemale, 'ней', 'ним' ))]."
  nick_the_unstable:0 "[Select_CString(CHARACTER.IsFemale, 'Нестабильная', 'Нестабильный')]"
  nick_the_unstable_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'можете', 'может')] быть способным магом, но [Select_CString( CHARACTER.IsLocalPlayer, 'вы', CHARACTER.GetSheHe)] [Select_CString( CHARACTER.IsLocalPlayer, 'превращаетесь', 'превращается')] в нечто опасное, если у [Select_CString( CHARACTER.IsLocalPlayer, 'вас', Select_CString(CHARACTER.IsFemale, 'неё', 'него' ))] случается один из [Select_CString( CHARACTER.IsLocalPlayer, 'ваших', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))]... эпизодов. Неконтролируемый поток магии, который [Select_CString( CHARACTER.IsLocalPlayer, 'вы', CHARACTER.GetSheHe)] [Select_CString( CHARACTER.IsLocalPlayer, 'проявляете', 'проявляет')] в такие моменты, привёл к множеству запоминающихся инцидентов."
-
+ nick_the_unclean:0 "the Unclean"
+ nick_the_unclean_desc:0 "It is said that [CHARACTER.GetShortUINameNoTooltipNoFormat|U] is often covered in filth as a consequence and a cause of various diseases."
+ nick_the_afflicted:0 "the Afflicted"
+ nick_the_afflicted_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] felt Peryite's embrace and suffered under the effect that had on [CharYourHerHis(CHARACTER)] body."
+ 
 # Events
  nick_the_reckless:0 "[Select_CString(CHARACTER.IsFemale, 'Безрассудная', 'Безрассудный' )]"
  nick_the_reckless_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] не [Select_CString( CHARACTER.IsLocalPlayer, 'отличаете', 'отличает')] храбрость от глупости."
@@ -229,8 +237,8 @@
  nick_rivver_banke:0 "с Речного брега"
  nick_rivver_banke_desc:0 "Происхождение Гимаров можно проследить по Декрету о ленах, принятом в 1029 году 1Э императрицей Гестрой, который содержит упоминание некоего «баррона Ги Мара с Речного брега»." #не ошибка
  nick_deathmaker_desc:0 "Количество жертв, приносимых [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажем ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'им персонажем', '' )], постоянно растёт."
- nick_the_dragonslayer:0 "Драконоборец"
- nick_the_dragonslayer_desc:0 "Это был долгий и трудный путь, но [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'ему персонажу', '' )] в конце концов удалось убить могучего зверя."
+ nick_the_dragonslayer_real:0 "$nick_the_dragonslayer$"
+ nick_the_dragonslayer_real_desc:0 "$nick_the_dragonslayer_desc$"
  nick_the_jester:0 "Шут"
  nick_the_jester_desc:0 "Несмотря на прозвище, [CHARACTER.GetShortUINameNoTooltipNoFormat] - не обычный шут. Но кто [Select_CString( CHARACTER.IsLocalPlayer, 'вы', CHARACTER.GetSheHe)] на самом деле, ответить не так-то просто." 
  nick_the_skald_prince_princess:0 "[Select_CString(CHARACTER.IsFemale, 'Принцесса-скальд', 'Принц-скальд' )]"
@@ -239,8 +247,10 @@
  nick_the_skald_monarch_desc:0 "Традиционно скальды хвалят или порицают [Select_CString(CHARACTER.IsFemale, 'королеву', 'короля' )] в зависимости от [Select_CString( CHARACTER.IsLocalPlayer, 'ваше', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] политики. С появлением [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] баланс сил был нарушен."
  nick_lady_lord_misrule:0 "[CHARACTER.GetLadyLord|U] Беспорядка"
  nick_lady_lord_misrule_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'получили', Select_CString(CHARACTER.IsFemale, 'получила', 'получил' ))] это прозвище во время Праздника шута. С тех пор это прозвище прилипло к [Select_CString( CHARACTER.IsLocalPlayer, 'вам', Select_CString(CHARACTER.IsFemale, 'ней', 'нему' ))]."
+ nick_lady_lord_worms:0 "the [CHARACTER.GetLadyLord|U] of Worms"
+ nick_lady_lord_worms_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] claimed leadership in the Order of the Black Worm - heir to the King of Worms himself!"
  nick_reclaimer:0 "[Select_CString(CHARACTER.IsFemale, 'Восстановительница', 'Восстановитель' )]"
- nick_reclaimer_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'завоевали', Select_CString(CHARACTER.IsFemale, 'завоевала', 'завоевал' ))] Торнмарш и окончательно [Select_CString( CHARACTER.IsLocalPlayer, 'вернули', Select_CString(CHARACTER.IsFemale, 'вернула', 'вернул' ))] его под контроль аргониан."
+ nick_reclaimer_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'завоевали', Select_CString(CHARACTER.IsFemale, 'завоевала', 'завоевал' ))] Торнмарш и окончательно [Select_CString( CHARACTER.IsLocalPlayer, 'вернули', Select_CString(CHARACTER.IsFemale, 'вернула', 'вернул' ))] его под контроль данмеров."
  nick_the_smiler:0 "[Select_CString(CHARACTER.IsFemale, 'Улыбчивая', 'Улыбчивый' )]"
  nick_the_smiler_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] всегда и постоянно [Select_CString( CHARACTER.IsLocalPlayer, 'улыбаетесь', 'улыбается')]."
  nick_leviathan_slayer:0 "Убийца левиафанов"
@@ -249,6 +259,17 @@
  nick_the_serpent_slayer_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString(CHARACTER.IsFemale, 'спасла', 'спас' )] корабль и [Select_CString(CHARACTER.IsFemale, 'убила', 'убил' )] морского змея."
  nick_wraith_bane:0 "Проклятие призраков"
  nick_wraith_bane_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString(CHARACTER.IsFemale, 'отразила', 'отразил' )] атаку мстительных морских призраков подобно герою из старых сказок."
+ nick_the_opulent:0 "the Opulent"
+ nick_the_opulent_desc:0 "The show of wealth [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] displaying at [CharYourHerHis(CHARACTER)] court is without equal on Tamriel."
+ nick_the_senchal_magnate:0 "the Magnate of Senchal"
+ nick_the_senchal_magnate_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] restored the Senchal palace to it's former glory."
+ nick_the_terror_of_topal_bay:0 "the Terror of Topal Bay"
+ nick_the_terror_of_topal_bay_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] transformed the old Dragonguard Sanctum on Tideholm into a pirate base and [CharAreIs(CHARACTER)] now terrorizing every ship and port in the surrounding sea."  
+ nick_the_great_architect:0 "the Great Architect"
+ nick_the_great_architect_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] been able to finish what no one deemed possible: the project of Lilmoth New City."
+ nick_the_melody_guardian:0 "The Guardian of Melodies"
+ nick_the_melody_guardian_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] restored the famous Rithana-di-Renada, so that the singing crystal can once again be heard all over the city of Riverhold."
+
 
 # Decisions
  nick_the_great_unifier:0 "[Select_CString(CHARACTER.IsFemale, 'Великая объединительница', 'Великий объединитель' )]"
@@ -261,13 +282,16 @@
  nick_the_redeemer_desc:0 "Благодаря славе и могуществу [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'изменили', Select_CString(CHARACTER.IsFemale, 'изменила', 'изменил' ))] представление о [CHARACTER.GetCulture.GetCollectiveNoun]ом народе среди прочих, «цивилизованных народов» - их перестали считать монстрами и дикими животными."
  nick_the_warchief:0 "[Select_CString(CHARACTER.IsFemale, 'Военачальница', 'Военачальник' )]"
  nick_the_warchief_desc:0 "Редкий военный гений и [Select_CString(CHARACTER.IsFemale, 'великая предводительница', 'великий вождь' )] своего народа, [CHARACTER.GetShortUINameNoTooltipNoFormat] навсегда [Select_CString( CHARACTER.IsLocalPlayer, 'изменили', Select_CString(CHARACTER.IsFemale, 'изменила', 'изменил' ))] военную науку [CHARACTER.GetCulture.GetCollectiveNoun]ого народа."
+ nick_the_cantemir:0 "the Cantemir"
+ nick_the_cantemir_desc:0 "Under the rule of [CHARACTER.GetShortUINameNoTooltipNoFormat], the Velothi clans of the Padomaic Marshes were united, their fortress having never been as numerous and powerful."
 
 # History
  nick_line_of:0 "Линия"
  nick_line_of_desc:0 "Этот персонаж представляет собой длинный ряд правителей, происходящих от [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]."
  nick_ancestors_of:0 "Предок"
+ nick_ancestors_of_desc:0 "This character represents the Ancestors of the [CHARACTER.GetDynastyName]."
  nick_ancestors_of_house:0 "Предки Дома"
- nick_the_pure:0 "[Select_CString(CHARACTER.IsFemale, 'Чистая', 'Чистый' )]" # for Viana the Pure in history
+ nick_ancestors_of_house_desc:0 "This character represents the Ancestors of House [CHARACTER.GetDynastyName]."
 
 # Titles
  nick_councilor:0 "[Select_CString(CHARACTER.IsFemale, 'Советница', 'Советник' )]"
@@ -289,6 +313,7 @@
  nick_admiral_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'имеете', 'имеет')] звание $nick_admiral$а в рядах имперского флота."
 
 # Exclusively Historical Nicknames
+ nick_the_pure:0 "[Select_CString(CHARACTER.IsFemale, 'Чистая', 'Чистый' )]" # for Viana the Pure in history
  nick_hand_free:0 "Вольная Рука"
  nick_hand_free_desc:0 "Уже никто не помнит, как [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'получили', Select_CString(CHARACTER.IsFemale, 'получила', 'получил' ))] это прозвище. Но наверняка для этого была веская причина."
  nick_hew:0 "Хью"
@@ -344,7 +369,7 @@
  nick_the_ivory_lord:1 "[Select_CString(CHARACTER.IsFemale, 'Леди', 'Лорд' )] Слоновой Кости"
  nick_the_ivory_lord_desc:0 "$nick_hand_free_desc$"
  nick_the_avenger_of_twin_suthay:0 "[Select_CString(CHARACTER.IsFemale, 'Мстительница Сутай-близнецов', 'Мститель Сутай-близнецов' )]"
- nick_the_avenger_of_twin_suthay_desc:0 "$nick_hand_free_desc$"
+ nick_the_avenger_of_twin_suthay_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] avenged the disastrous battle of Twin Suthay by taking back Rimmen, which was lost by [CharYourHerHis(CHARACTER)] family over half a century ago."
  nick_the_mad_dragon:0 "Безумный Дракон"
  nick_the_mad_dragon_desc:0 "$nick_hand_free_desc$"
  nick_stone_singer:0 "Каменный Певец"
@@ -407,7 +432,7 @@
  nick_the_god_of_the_wild:0 "[Select_CString(CHARACTER.IsFemale, 'Богиня', 'Бог' )] дикой природы"
  nick_the_god_of_the_wild_desc:0 "Когда король Морейлин воздвиг усыпальницу [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )], он невольно основал основал культ, в основе которого стоит «$nick_the_god_of_the_wild$». После всей жизни, посвящённой борьбе с нордами, [Select_CString( CHARACTER.IsLocalPlayer, 'вы', CHARACTER.GetSheHe)] [Select_CString( CHARACTER.IsLocalPlayer, 'можете', 'может')] наслаждаться почитанием в ближайшие века."
  nick_the_golden_beast:0 "Золотой Зверь"
- nick_the_golden_beast_desc:0 "Под властью [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] Анеквина переживала золотой век: возводились храмы, писались книги, совершенствовались технологии. Когти Не-Квин-Ала захватили всё между рекой Стрид и низиной Ларсиуса! В те времена государство имело мало схожих черт с разваливающимся государством более позднего времени..."
+ nick_the_golden_beast_desc:0 "Под властью [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] Анеквина переживала золотой век: возводились храмы, писались книги, совершенствовались технологии. Когти Не Квин-Ала захватили всё между рекой Стрид и низиной Ларсиуса! В те времена государство имело мало схожих черт с разваливающимся государством более позднего времени..."
  nick_breath_of_kyne:0 "Дыхание Кин"
  nick_breath_of_kyne_desc:0 "[Select_CString(CHARACTER.IsFemale, 'Названная полубогиней, посланной', 'Названный полубогом, посланным' )] богиней Кинарет для помощи человечеству в завоевании свободы, передышка и силы, которые [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'вдохнули', Select_CString(CHARACTER.IsFemale, 'вдохнула', 'вдохнул' ))] в измученных рабов-недийцев, принесли [Select_CString( CHARACTER.IsLocalPlayer, 'вам', Select_CString(CHARACTER.IsFemale, 'ей', 'ему' ))] титул «Дыхание Кин»."
  nick_the_man_bull:0 "Человек-Бык"
@@ -421,7 +446,9 @@
  nick_yashnag_slayer:0 "Убийца Яшнага"
  nick_yashnag_slayer_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'спасли', Select_CString(CHARACTER.IsFemale, 'спасла', 'спас' ))] Фолкрит от орочьих захватчиков благодаря собственной доблести. [Select_CString( CHARACTER.IsLocalPlayer, 'Ваши', Select_CString(CHARACTER.IsFemale, 'Её', 'Его' ))] домочадцы #italic никогда#! не устанут слушать, как [Select_CString( CHARACTER.IsLocalPlayer, 'вы', CHARACTER.GetSheHe)] [Select_CString( CHARACTER.IsLocalPlayer, 'победили', Select_CString(CHARACTER.IsFemale, 'победила', 'победил' ))] Яшнага Йала."
  nick_last_dwemer:0 "[Select_CString(CHARACTER.IsFemale, 'Последняя живая двемерка', 'Последний живой двемер' )]"
- nick_last_dwemer_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] воистину и трагически [Select_CString( CHARACTER.IsLocalPlayer, 'уникальны', Select_CString(CHARACTER.IsFemale, 'уникальна', 'уникален' ))] - [Select_CString(CHARACTER.IsFemale, 'последняя', 'последний' )] в своём виде. Хотя двемеры таинственным образом исчезли с Нирна тысячелетия назад, [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'уцелели', Select_CString(CHARACTER.IsFemale, 'уцелела', 'уцелел' ))] по чистой случайности. Если не произойдёт какого-либо чуда, [Select_CString( CHARACTER.IsLocalPlayer, 'ваша', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] кончина ознаменует исчезновение Глубинных эльфов."
+ nick_last_dwemer_desc:0 "[CHARACTER.Custom('NickLastLivingDwarf')]"
+ last_living_dwarf:0 "[ROOT.Char.GetShortUINameNoTooltipNoFormat|U] is truly and tragically unique; the last of [CharYourHerHis(ROOT.Char)] kind. Although the Dwemer have mysteriously vanished from Nirn millenia ago, [ROOT.Char.GetFirstNameNoTooltip] [CharWereWas(ROOT.Char)] spared by pure happenstance. Bar any miracle [CharYourHerHis(ROOT.Char)] demise will mark the extinction of the Deep Elves."
+ not_last_living_dwarf:0 "An exceptional individual, [ROOT.Char.GetShortUINameNoTooltipNoFormat|U] was the only known individual of the Dwemer left on Nirn after their sudden disappearance millennia ago. With their return, as mysterious as their disappearance, [CharYourHerHis(ROOT.Char)] quest to seek answers may finally be at an end."
  nick_the_redsmith:0 "Красный Кузнец"
  nick_the_redsmith_desc:0 "До приход к власти над [CHARACTER.GetCulture.GetCollectiveNoun]им Болотом Слёз [CHARACTER.GetShortUINameNoTooltipNoFormat] [Select_CString( CHARACTER.IsLocalPlayer, 'были', Select_CString(CHARACTER.IsFemale, 'была', 'был' ))] [Select_CString(CHARACTER.IsFemale, 'медницей', 'медником' )]. Мудрые женщины поддержали [Select_CString( CHARACTER.IsLocalPlayer, 'вас', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] в борьбе за ханство после того, как [Select_CString( CHARACTER.IsLocalPlayer, 'вы', CHARACTER.GetSheHe)] [Select_CString( CHARACTER.IsLocalPlayer, 'убили', Select_CString(CHARACTER.IsFemale, 'убила', 'убил' ))] предыдущего вождя. #italic По слухам#!, [CHARACTER.GetShortUINameNoTooltipNoFormat] и покойный вождь поссорились из-за качества поставляемой [Select_CString( CHARACTER.IsLocalPlayer, 'вами', Select_CString(CHARACTER.IsFemale, 'ей', 'им' ))] меди."
  nick_the_bane_of_argonia:0 "Бич Аргонии"
@@ -473,7 +500,7 @@
  nick_the_heart_of_stars:0 "Сердце Звёзд"
  nick_the_heart_of_stars_desc:0 "Странствующий маг, [Select_CString(CHARACTER.IsFemale, 'помогающая', 'помогающий' )] всем нуждающимся, [CHARACTER.GetShortUINameNoTooltipNoFormat] за своё доброе сердце и преданность магна-ге [Select_CString( CHARACTER.IsLocalPlayer, 'были прозваны', Select_CString(CHARACTER.IsFemale, 'была прозвана', 'был прозван' ))] Сердцем Звёзд."
  nick_the_blacksmith_orsinium:0 "Кузнец"
- nick_the_blacksmith_orsinium_desc:0 "Великий герой времён основания Старого Орсиниума, Моркул не только является основателем клана Моркул, но и основателем древней кузницы двемеров, которая впоследствии стала известна как мифический «Моркулдин»."
+ nick_the_blacksmith_orsinium_desc:0 "Великий герой времён основания Старого Орсиниума, Моркул не только является основателем клана Моркул, но ещё он обнаружил древнюю кузницу двемеров, которая впоследствии стала известна как мифический «Моркулдин»."
  nick_the_builder_orsinium:0 "Строитель"
  nick_the_builder_orsinium_desc:0 "Как владельцы величайшей шахты во всём Ротгаре, клан Тумнош поставлял большинство материалов для Старого Орсиниума - его основатель планировал и контролировал многие грандиозные постройки того времени."
  nick_the_shepherd_orsinium:0 "Пастух"
@@ -483,6 +510,16 @@
  nick_the_scholar_orsinium:0 "[Select_CString(CHARACTER.IsFemale, 'Учёная', 'Учёный' )]"
  nick_the_scholar_orsinium_desc:0 "Основатель клана Фарун и «Архивариусов Малаката», Фарун был одним из величайших учёных своего времени. Однако его побег во время осады Старого Орсиниума до сих пор остаётся больным местом для многих орков. Возможно, именно поэтому он позволил другому обесчещенному клану, Баграк, заселить свои земли."
  nick_the_peacock_knight:0 "Рыцарь-павлин"
+ nick_rhojiit:0 "The Rhojiit"
+ nick_rhojiit_desc:0 "When Ra'Wulfharth returned to fight the Devils of Red Mountain, Dro'Zira was the only one among the Rhojiit who remembered his mercy. He pounced atop Dumalacath, the Dwarf-Orc, when he had a blade to the throat of the Ash-King and was later returned by Lorkhaj from the lands of Sheggorath for saving his chosen."
+ nick_ye_redde_hand:0 "Ye Redde-Hand"
+ nick_ye_redde_hand_desc:0 "Considered to be “proto-Tharn” by house historians, Tharanus is know known to have been literate and employed by Ayleids in a clerical position. Some independent historians however correlated Tharanus with “Tharhan the Mutilant” of Gradual Massacre of 1E 227. Current members of house Tharn, of course, deny this."
+ nick_the_dark_adept:0 "the Dark Adept"
+ nick_the_dark_adept_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s relentless ambition for power has nearly destroyed the Order of the Hidden Moon, leading to a dangerous schism within its ranks."
+ nick_gulumei_shadow:0 "the Shadow"
+ nick_gulumei_shadow_desc:0 "In eras past, before the Duskfall, [CHARACTER.GetShortUINameNoTooltipNoFormat]'s Shadow fell over much of Black Marsh. It is said [CharYouSheHe(CHARACTER)] was the first of the Shadowscales."
+ nick_archmagister:0 "ArchMagister"
+ nick_archmagister_desc:0 "$nick_hand_free_desc$"
 
 # House of Reveries
  nick_fire_bird:0 "Огненная птица"

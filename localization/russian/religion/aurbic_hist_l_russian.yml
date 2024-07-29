@@ -7,12 +7,12 @@
  hist_religion_adherent_plural:0 "Последователи Хист"
  hist_religion_desc:0 "Хист — это сеть взаимосвязанных разумных деревьев, почитаемых аргонианами, которые полагаются на них в регулировании своего жизненного цикла. Они считаются одной из древнейших рас Тамриэля, происходящей из царства Обливиона, которое было почти полностью уничтожено в древней Войне Эльнофей."
  hist_religion_high_god_name:0 "$god_hist_name$"
- hist_religion_high_god_name_2:0 "$hist_high_god_name$" # Optional translation alt
- hist_religion_high_god_name_3:0 "$hist_high_god_name$" # Optional translation alt
+ hist_religion_high_god_name_2:0 "$hist_religion_high_god_name$" # Optional translation alt
+ hist_religion_high_god_name_3:0 "$hist_religion_high_god_name$" # Optional translation alt
  hist_religion_high_god_name_possessive:0 "$god_hist_name_possessive$"
  hist_religion_high_god_she_he:0 "они"
- hist_religion_high_god_name_alternate:0 "$hist_high_god_name$"
- hist_religion_high_god_name_alternate_possessive:0 "$hist_high_god_name_possessive$"
+ hist_religion_high_god_name_alternate:0 "$hist_religion_high_god_name$"
+ hist_religion_high_god_name_alternate_possessive:0 "$hist_religion_high_god_name_possessive$"
  hist_religion_pantheon_term:0 "$god_hist_name$"
  hist_religion_pantheon_term_has_have:0 "$pantheon_term_have$" 
  hist_religion_devil_name:0 "$god_rajsithis_name$"
@@ -75,8 +75,8 @@
  hist_religion_night_god_name_possessive:0 "$god_hist_name_possessive$"
  hist_religion_water_god_name:0 "$god_hist_name$"
  hist_religion_water_god_name_possessive:0 "$god_hist_name_possessive$"
- hist_religion_witchgodname_the_horned_god:0 "god_rajsithis_name$"
- hist_religion_witchgodname_the_horned_god_possessive:0 "god_rajsithis_name_possessive$"
+ hist_religion_witchgodname_the_horned_god:0 "$god_rajsithis_name$"
+ hist_religion_witchgodname_the_horned_god_possessive:0 "$god_rajsithis_name_possessive$"
  hist_religion_good_god_hist:0 "$god_hist_name$"
  
  hist:0 "Хистск"
@@ -103,6 +103,15 @@
  ghostpeople_religious_head_title:0 "Великий страж"
  ghostpeople_religious_head_title_name:0 "Ан-Тзел"
  ghostpeople_evil_god_rajsithis:0 "$god_rajsithis_name$"
+ 
+ sunhist:0 "Солнечно-хистск"
+ sunhist_adj:0 "Солнечный Хист"
+ sunhist_adherent:0 "Ваккалиль"
+ sunhist_adherent_plural:0 "Ваккалиль"
+ sunhist_desc:0 "Ваккалиль почитают солнце как высшую силу, которая дарует силу их Хисту, питая его своими живительными лучами. Подобно дереву, стремящемуся возвысится над всеми вокруг, последователи Солнечного Хиста движимы амбициями, а также жаждой величия и господства. Однако в древние времена они пережили предательство со стороны последователей Ситиса, что привело к их падению. Многие ваккалиль исчезли в тот мрачный период, а выжившие ныне исповедуют свою веру в тайне."
+ sunhist_religious_head_title:0 "Архистраж"
+ sunhist_religious_head_title_name:0 "Ан-Бок"  
+ sunhist_evil_god_rajsithis:0 "$god_rajsithis_name$"
  
  lilmothiit_hist:0 "Лилмотитск"
  lilmothiit_hist_adj:0 "Живой Закон"
@@ -167,7 +176,7 @@
  lilmothiit_hist_death_deity_name:0 "$god_silence_name$"
  lilmothiit_hist_death_deity_name_possessive:0 "$god_silence_name_possessive$"
  lilmothiit_hist_death_deity_herhis:0 "его"
- lilmothiit_hist_witchgodname_the_horned_god:0 "god_silence_name$"
- lilmothiit_hist_witchgodname_the_horned_god_possessive:0 "god_silence_name_possessive$"
+ lilmothiit_hist_witchgodname_the_horned_god:0 "$god_silence_name$"
+ lilmothiit_hist_witchgodname_the_horned_god_possessive:0 "$god_silence_name_possessive$"
  lilmothiit_hist_good_god_tseol:0 "$god_tseol_name$"
  lilmothiit_hist_evil_god_silence:0 "$god_silence_name$"
