@@ -6,7 +6,7 @@
  spellblades:2 "[spellblades|E]"
  game_concept_spellblades:0 "Мечники-чародеи"
  game_concept_spellblades_desc:0 "Мечники-чародеи - [men_at_arms|l], сражающиеся в пешем строю, в равной мере используя мечи и чары.\n\nХотя каждый вид мечников-чародеев уникален, у них имеется [Concept('counter', 'преимущество')|E] против [Concept('mages', 'магов')|E] и [Concept('skirmishers', 'пехоты')|E] и, в свою очередь, они уязвимы перед [Concept('light_cavalry', 'легкой кавалерией')|E]."
- dragon:2 "[dragon|E]"
+ dragon_maa:2 "[dragon|E]"
  game_concept_dragon:0 "Дракон"
  game_concept_dragon_desc:0 "Драконы - [men_at_arms|E], парящие на огромных крыльях в небесах, обрушивая на врагов смерть и огонь.\n\nДраконы игнорируют тип местности и уязвимы перед особыми [Concept('men_at_arms', 'профессионалами')|E].\n\nДраконы представлены небольшим отрядом профессионалов из 10 воинов."
 
@@ -32,8 +32,20 @@
  welkynar_knights:0 "Велкинары-рыцари"
  welkynar_knights_flavor:0 "#F Славнейшие воители Алинора, члены военного ордена, расположенного в горах Этон Нир. Воспитав своего питомца с момента вылупления, наездник-велкинар становится единым целым с грифоном, готовым к героических деяниям.#!"
  # Argonian
- saxhleel_reel_ka:0 "Саксхлил рил-ка"
- saxhleel_reel_ka_flavor:0 "#F Защитники Саксхлил, которым поручено оберегать своих корне-братьев и Хист. Преодолев испытания Ка-Дилит, рил-ка не знают себе равных в преодолении непроходимых болот Чернотопья, устраивая засады на заблудившихся в болотах врагов.#!"
+ argonian_war_mages:0 "Hist Menders"
+ argonian_war_mages_flavor:0 "#F Tasked with the protection and care of their hist-tree these mages will only go to battle if there is no other choice. They possess some offensive capabilities but they prefer to heal and protect their people so they can vanish unscathed after a fight.#!"
+ argonian_spellblades:0 "Thunder Scales"
+ argonian_spellblades_flavor:0 "#F These spellblades may not possess a traditional education in battle magic, but they compensate that with a fierce utilization of magicka, drawing inspiration from the mightiest beasts of Black Marsh itself.#!"
+ argonian_skirmishers:0 "Saxhleel Haj-Ka"
+ argonian_skirmishers_flavor:0 "#F These 'hidden' warriors of the Saxhleel are masterful ambushers and guerilla fighters. They strike fast and are often able to retreat back into the marshes before the enemy was even able to spot them.#!"
+ argonian_spear_infantry:0 "Саксхлил рил-ка"
+ argonian_spear_infantry_flavor:0 "#F Защитники Саксхлил, которым поручено оберегать своих корне-братьев и Хист. Преодолев испытания Ка-Дилит, рил-ка не знают себе равных в преодолении непроходимых болот Чернотопья, устраивая засады на заблудившихся в болотах врагов.#!"
+ argonian_archers:0 "Saxhleel Mota-Ka"
+ argonian_archers_flavor:0 "#F These Saxhleel are not called 'hunter-warriors' without a reason. Compared to them, most other inhabitants of Black Marsh are just prey and they are ready to use their abilities against foreign invaders too, should it be necessary.#!" 
+ argonian_heavy_infantry:0 "Saxhleel Krona-Ka"
+ argonian_heavy_infantry_flavor:0 "#F Often recruited from the biggest members of a tribe the Krona-Ka are proudly wearing much heavier weapons and armor than most other Saxhleel troops. Thus they can best nearly everyone who dares to challenge them to a fight.#!"
+ argonian_light_cavalry:0 "Saxhleel Guar-Riders"
+ argonian_light_cavalry_flavor:0 "#F There is a special bond between the Guars and the Saxhleel inhabiting Black Marsh. Since both of them are perfectly adapted to the swamps they become a fearsome force once they combine their abilities.#!"
  shellback_phalanx:0 "Фаланга панцирников"
  shellback_phalanx_flavor:0 "#F Панцирники - наши элитные воители, лучшее творение учений Ка-Дилит. Хорошо вооруженные и закованные в броню, эти воины способны отразить вторжение в Чернотопье и штурмовать хорошо защищенные позиции.#!"
  winged_avengers:0 "Крылатые мстители"
@@ -93,12 +105,12 @@
  falmer_battleragers:0 "Фалмеры-берсерки"
  falmer_battleragers_flavor:0 "Самые сильные Преданные сражаются в плотных пеших формациях. Закованные с головы до ног в хитин корусов, они не уступают самым крепким солдатам."
  # Imga
- imga_scouts:0 "Разведчики имга"
- imga_scouts_flavor:0 "#F Эти войска используются для того, чтобы прокладывать путь более тяжёлым силам имга. Они быстры и проворны, прекрасно приспособлены к жизни в джунглях, где часто прячутся под кронами, пока не наступит время нападения.#!"
- imga_slingers:0 "Пращники имга"
- imga_slingers_flavor:0 "#F Имга не очень любят луки, да им это и не нужно. Простая праща может быть не менее смертоносной при правильном использовании, и эти воины, конечно, знают, как это делать - метать во врагов всякую гадость.#!"
- imga_guards:0 "Стражи имга"
- imga_guards_flavor:0 "#F Обычно их назначают для охраны поселений и священных мест имга, но на поле боя эти обезьяны оказываются удивительно выносливыми солдатами. Сочетание длины пик и длинных рук позволяет им с легкостью отражать атаки большинства кавалерийских отрядов.#!"
+ imga_skirmishers:0 "Разведчики имга"
+ imga_skirmishers_flavor:0 "#F Эти войска используются для того, чтобы прокладывать путь более тяжёлым силам имга. Они быстры и проворны, прекрасно приспособлены к жизни в джунглях, где часто прячутся под кронами, пока не наступит время нападения.#!"
+ imga_archers:0 "Пращники имга"
+ imga_archers_flavor:0 "#F Имга не очень любят луки, да им это и не нужно. Простая праща может быть не менее смертоносной при правильном использовании, и эти воины, конечно, знают, как это делать - метать во врагов всякую гадость.#!"
+ imga_pike_infantry:0 "Стражи имга"
+ imga_pike_infantry_flavor:0 "#F Обычно их назначают для охраны поселений и священных мест имга, но на поле боя эти обезьяны оказываются удивительно выносливыми солдатами. Сочетание длины пик и длинных рук позволяет им с легкостью отражать атаки большинства кавалерийских отрядов.#!"
  imga_frenzied:0 "Обезумевшие имга"
  imga_frenzied_flavor:0 "#F Самые тяжёлые, сильные и дикие имга часто собираются в специальные боевые отряды. Вместе они создают силу меха и мышц, способную прорвать любую линию обороны, сокрушая кости и боевой дух врагов.#!"
  # Goblin-ken
@@ -128,22 +140,29 @@
  durzog_riders_flavor:0 "#F Гоблин-кины тысячелетиями разводят дурзогов для войн, общения и охоты на своих жертв. Эти свирепые и умные "щенята" разводятся ради шкур, мяса и даже кишок для тетивы.#!"
 
  # Khajiiti
- alfiq:0 "Боевые маги-Альфики"
- alfiq_flavor:0 "#F Альфики, самые малые представители каджитов, предрасположены к магическим искусствам, и их часто можно увидеть сидящими на плечевых ремнях своих крупных сородичей.#!"
- tojay:0 "Мечники чародеи-тоджай"
- tojay_flavor:0 "#F Таинственные Тоджай живут глубоко в джунглях южного Эльсвейра. Они обладают склонностью к магии, а также весьма ловки и сильны.#!"
- cathay:0 "Застрельщики-катай"
- cathay_flavor:0 "#F Из всех пород каджитов именно катай чаще всего встречаются в Эльсвейре. Они гибкие от рождения, что отражается на их способе ведения боя.#!"
- suthay:0 "Лучники-сутай"
- suthay_flavor:0 "#F И хотя сутай остаются гуманоидами, они имеют более ярко выраженные кошачьи черты, чем их другие двуногие сородичи. Благодаря острым чувствам они являются эффективными лучниками.#!"
- ohmes:0 "Копейщики-ом"
- ohmes_flavor:0 "#F Имея меньше кошачьих черт в сравнении с прочими каджитами, омы обычно раскрашивают или набивают татуировки на свои лица, чтобы их не приняли за босмеров или людей.#!"
- pahmar:0 "Тяжелая пехота-памар"
- pahmar_flavor:0 "#F Памар - самые крупные двуногие каджиты, поэтому они носят тяжелую броню и оружие.#!"
- senche:0 "Всадники на сенчах"
- senche_flavor:0 "#F Четвероногие представители каджитов, сенчи переносят своих мелких собратьев на своих спинах и служат в качестве каджитской кавалерии.#!"
- senche_raht:0 "Боевые коты-сенч-рат"
- senche_raht_flavor:0 "#F Самые крупные представители каджитов, сенч-раты, как и их меньшие собратья, разумны и способны выступать в качестве ездовых скакунов и спутников своих пеших братьев и сестер.#!"
+ khajiit_war_mages:0 "Боевые маги-Альфики"
+ khajiit_war_mages_flavor:0 "#F Альфики, самые малые представители каджитов, предрасположены к магическим искусствам, и их часто можно увидеть сидящими на плечевых ремнях своих крупных сородичей.#!"
+ khajiit_spellblades:0 "Мечники чародеи-тоджай"
+ khajiit_spellblades_flavor:0 "#F Таинственные Тоджай живут глубоко в джунглях южного Эльсвейра. Они обладают склонностью к магии, а также весьма ловки и сильны.#!"
+ khajiit_skirmishers:0 "Застрельщики-катай"
+ khajiit_skirmishers_flavor:0 "#F Из всех пород каджитов именно катай чаще всего встречаются в Эльсвейре. Они гибкие от рождения, что отражается на их способе ведения боя.#!"
+ khajiit_archers:0 "Лучники-сутай"
+ khajiit_archers_flavor:0 "#F И хотя сутай остаются гуманоидами, они имеют более ярко выраженные кошачьи черты, чем их другие двуногие сородичи. Благодаря острым чувствам они являются эффективными лучниками.#!"
+ khajiit_pike_infantry:0 "Копейщики-ом"
+ khajiit_pike_infantry_flavor:0 "#F Имея меньше кошачьих черт в сравнении с прочими каджитами, омы обычно раскрашивают или набивают татуировки на свои лица, чтобы их не приняли за босмеров или людей.#!"
+ khajiit_heavy_infantry:0 "Тяжелая пехота-памар"
+ khajiit_heavy_infantry_flavor:0 "#F Памар - самые крупные двуногие каджиты, поэтому они носят тяжелую броню и оружие.#!"
+ khajiit_light_cavalry:0 "Всадники на сенчах"
+ khajiit_light_cavalry_flavor:0 "#F Четвероногие представители каджитов, сенчи переносят своих мелких собратьев на своих спинах и служат в качестве каджитской кавалерии.#!"
+ khajiit_heavy_cavalry:0 "Боевые коты-сенч-рат"
+ khajiit_heavy_cavalry_flavor:0 "#F Самые крупные представители каджитов, сенч-раты, как и их меньшие собратья, разумны и способны выступать в качестве ездовых скакунов и спутников своих пеших братьев и сестер.#!"
+
+ # Lilmothiit
+ soul_trappers:0 "Soul Trappers"
+ soul_trappers_flavor:0 "Generally, Soul Trappers don't train for war, but these well-prepared, weathered rangers who make it their life's trade to hunt the myriad of Black Marsh's great beasts for their souls will find soldiers less threatening and easier to hunt than most of their usual quarry."
+ walk_worm_cavalry:0 "Walk-Worm Cavalry"
+ walk_worm_cavalry_flavor:0 "While these giant centipedes usually host entire Lilmothiit settlements on their backs, much smaller juvenile Walk-Worms are docile, naturally armored in chitin plates, and surprisingly nimble on flooded, uneven terrain — making excellent (if unorthodox) mounts for scouting and pursuit across the Marsh."
+
  # Nedic
  witch_knight:0 "Рыцари-колдуны"
  witch_knight_flavor:0 "#F Ужасающие рыцари-колдуны Предела обрушиваются на своих врагов, сокрушая их дух и тело с ужасающей скоростью.#!"
@@ -151,7 +170,7 @@
  deathlands_slayers_flavor:0 "#F Гибельные земли - суровое место, где истребителей обучают безжалостно уничтожать всех врагов.#!"
 
  south_nedic_headhunters:0 "Охотники за головами"
- south_nedic_headhunters_flavor:0 "#F Эти жаждущие славы южные недийцы - эксперты в части превращения коварных болот в кошмар для неприятеля. Даже [GetMaA('saxhleel_reel_ka').GetName] опасаются таких врагов, вооруженных холодной сталью в одной руке и огненным разрушительным заклинанием в другой.#!"
+ south_nedic_headhunters_flavor:0 "#F Эти жаждущие славы южные недийцы - эксперты в части превращения коварных болот в кошмар для неприятеля. Даже [GetMaA('argonian_spear_infantry').GetName] опасаются таких врагов, вооруженных холодной сталью в одной руке и огненным разрушительным заклинанием в другой.#!"
  north_nedic_headhunters:0 "Колдовские клинки"
  north_nedic_headhunters_flavor:0 "#F Вражеские [GetMaA('war_mages').GetName] рискуют понести колоссальные потери при столкновении с колдовскими клинками. Мечники-чародеи северных недийцев стали экспертами в использовании пересеченной местности и холмов для уничтожения прославленных боевых магов#!"
  central_nedic_headhunters:0 "Истребители магов"
@@ -166,8 +185,6 @@
  # Orsimer
  orc_marauders:0 "Орки-мародеры"
  orc_marauders_flavor:0 "#F Вооруженные изящным смертоносным оружием и облаченные с ног до головы орихалковой броней, выкованной кузнецами из орочьих крепостей, каждый из наших мародеров равен по силе сотне вражеских воинов.#!"
- bear_cavalry:0 "Всадники на медведях"
- bear_cavalry_flavor:0 "#F Свирепые медведи, закованные в тяжелую пластинчатую броню, на которых ездят верхом не менее свирепые воины. Их атака способна смять почти любой строй, а медведь и наездник могут сражаться бок о бок в пешей схватке.#!"
  # Yoku
  yokudan_way_of_the_sword:0 "Певчие Меча"
  yokudan_way_of_the_sword_flavor:0 "#F Обученные в древних школах, построенных Певчими Меча, те, кто следуют Пути Мечи, стараются следовать их учениям, хотя более и не могут проявлять свой Шехай. Простые [GetMaA('redguard_way_of_the_sword').GetName] не могут с ними тягаться...#!"
@@ -185,7 +202,7 @@
  risen_dead_flavor:0 "#F Скелеты, зомби и другие низшие виды нежити составляют основную часть этого воинства. Они медлительны и глупы, но будут сражаться до тех пор, пока не победят, либо пока последний из них не падет.#!"
 
  razak_army:0 "Творение Разака"
- razak_army_flavour:0 "#F Верная армия гномов, движимая паровой тягой и пропитанная магией из камней душ, которая простоит многие века.#!"
+ razak_army_flavor:0 "#F Верная армия гномов, движимая паровой тягой и пропитанная магией из камней душ, которая простоит многие века.#!"
  
  war_mammoth:0 "Боевые мамонты"
  war_mammoth_flavor:0 "#F Эти огромные звери, которых невозможно остановить, веками господствовали на полях Скайрима и Атморы.#!"
@@ -202,6 +219,9 @@
  hollows:0 "Полые"
  hollows_flavor:0 "#F Ходячая каменная оболочка, не способная чувствовать боль, страх или возбуждение. Они - страшный враг, невероятно трудно уничтожаемый и способный голыми руками разрушать стены.#!"
  
+ alkosh_pride:0 "Pride of Alkosh"
+ alkosh_pride_flavor:0 "#F Recruited solely from forgotten manes and trained in the art of various clawdances, these monks are able to beat most trained warriors with ease.#!"
+
  minotaurs:0 "Минотавры"
  minotaurs_flavor:0 "#F Хотя большинство жителей Тамриэля считают минотавров дикими зверями, говорят, что те, кто поклоняются им или близким им людям, могут убедить воинов-быколюдей сражаться в их рядах.#!"
  
@@ -211,6 +231,9 @@
  bone_walker:0 "Костяной ходок"
  bone_walker_flavor:0 "#F Эта устрашающая конструкция является результатом тёмной некромантической магии, приносящей смерть и ужас на любое поле боя, особенно для вражеской пехоты.#!"
  
+ cultists:0 "Cultists"
+ cultists_flavor:0 "#F These fanatics have sworn their entire lives to the service of their master. Armed with crude weapons and dark magic, they are even prepared to go into battle if their mission demands it.#!"
+
  accolade_maa_mages:0 "Свита магов"
  accolade_maa_mages_flavor:1 "[Concept( 'retinue_maa', 'Свита профессионалов' )|E]\n#F Вооружённые своими посохами и арсеналом заклинаний, они обрушат на своих врагов дождь адской магии.#!"
  accolade_maa_spellswords:0 "Свита воинов-магов"

@@ -2,7 +2,7 @@
  setting_ek_accepted_same_sex_marriage_anyone_player:1 "#high Принятый - Расслабленный#!"
  setting_ek_accepted_same_sex_marriage_anyone_player_desc:0 "То же, что и $setting_accepted_same_sex_marriage$ но ограничения сексуальных отношений в браке EK не применяются к игроку."
  
- rule_nickname_limitation:0 "#R Elder Kings:#! Ограничения прозвищ"
+ rule_nickname_limitation:0 "#EK Elder Kings:#! Ограничения прозвищ"
  setting_once_per_game_nickname:0 "Одно на игру"
  setting_once_per_game_nickname_desc:0 "Каждое прозвище может быть присвоено только один раз за игру."
  setting_only_one_nickname:0 "Одно на персонажа"
@@ -12,3 +12,11 @@
 
  game_rule_category_ek:0 "Elder Kings"
  game_rule_category_nickname:0 "Прозвища"
+
+ rule_ek_knahaten_black_marsh_deadliness: "#EK Elder Kings:#! Смертоносность Кнахатенского гриппа"
+ setting_ek_knahaten_bm_deadly_default: "Историческая"
+ setting_ek_knahaten_bm_deadly_default_desc: "Кнахатенский грипп может уничтожить все не-аргонианские графства в Чернотопье, преобразовав их в близлежащие аргонианские культуры. Это может даже привести к тому, что культура станет [Concept('dead_culture', 'мёртвой')|E], если потеряет своё последнее графство."
+ setting_ek_knahaten_bm_deadly_no_extinction: "Без вымирания"
+ setting_ek_knahaten_bm_deadly_no_extinction_desc: "Кнахатенский грипп может уничтожить все не-аргонианские графства в Чернотопье, преобразовав их в близлежащие аргонианские культуры. Однако последнее графство культуры не будет преобразовано."
+ setting_ek_knahaten_bm_deadly_no_swap: "Без смены культур"
+ setting_ek_knahaten_bm_deadly_no_swap_desc: "Кнахатенский грипп не будет преобразовывать культуру не-аргонианских графств в Чернотопье."

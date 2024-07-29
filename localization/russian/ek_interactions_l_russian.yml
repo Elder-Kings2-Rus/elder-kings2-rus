@@ -1,6 +1,10 @@
 ﻿l_russian:
  EXECUTION_ENTHRALL:0 "Превратить в нежить-трэлла"
  
+ NO_TORTURING_UNDEAD:0 "Нежить нельзя пытать"
+
+ can_not_recruit_undead:0 "Нанимать нежить могут только некроманты"
+
  extract_blood_price_interaction:0 "Получить цену крови"
  extract_blood_price_interaction_desc:0 "[prisoner.GetFirstNameNoTooltip] не может откупиться ни золотом, ни временем. Только кровь удовлетворит нас."
  extract_blood_price_effect_no_reason_tooltip:0 "Поскольку [prisoner.GetFirstName] не заслуживает тюремного заключения или казни, цена крови будет низкой."
@@ -47,8 +51,8 @@
  DUEL_FOR_CLAIM_TITLE_TIER:0 "Дуэль за [target.GetTierAsName]: #P +$VALUE|0$#!"
  DUEL_FOR_CLAIM_DE_JURE_LIEGE:0 "[recipient.GetShortUINameNoTooltip] является [de_jure|El] сюзереном персонажа [target.GetNameNoTier]: #P +$VALUE|0$#!"
  DUEL_FOR_CLAIM_LAST_TITLE:0 "[recipient.GetShortUINameNoTooltip] станет [Select_CString(recipient.IsFemale, 'безземельной', 'безземельным' )], если [recipient.GetSheHe] откажется: #P +$VALUE|0$#!"
- DUEL_FOR_CLAIM_INFIRM:0 "[recipient.GetShortUINameNoTooltip] имеет свойство «[infirm|El]»: #P +$VALUE|0$#!"
- DUEL_FOR_CLAIM_INCAPABLE:0 "[recipient.GetShortUINameNoTooltip] имеет свойство «[incapable|El]»: #P +$VALUE|0$#!"
+ DUEL_FOR_CLAIM_INFIRM:0 "[recipient.GetShortUINameNoTooltip] имеет свойство «[GetTrait('infirm').GetName( GetNullCharacter )]»: #P +$VALUE|0$#!"
+ DUEL_FOR_CLAIM_INCAPABLE:0 "[recipient.GetShortUINameNoTooltip] имеет свойство «[GetTrait('incapable').GetName( GetNullCharacter )]»: #P +$VALUE|0$#!"
 
  prowess_claim_interaction:0 "Претендовать на землю через Доблесть"
  prowess_claim_interaction_desc:0 "[Concept( 'claim', 'Претендовать' )|E] на [title|El], которым владеет [recipient.GetShortUINameNoTooltip], используя вашу превосходяшую [prowess|El] и [prestige|El]."
@@ -60,6 +64,10 @@
 
  disrupt_arcana_interaction:0 "Прервать связь с магией"
  disrupt_arcana_interaction_desc:0 "Приблизить сродство с [Concept( 'arcana', 'арканой' )|E] у персонажа [recipient.GetShortUINameNoTooltip] к [GetTrait('arcana_bad_3').GetName( GetPlayer )]"
+
+ adopt_hatchling_interaction:0 "Усыновить детёныша"
+ adopt_hatchling_interaction_desc:0 "Принять персонажа [recipient.GetShortUINameNoTooltip] в вашу [Concept('dynasty', 'династию')|E]"
+ adopt_hatchling_interaction.tt:0 "[recipient.GetShortUINameNoTooltip] выйдет из тюрьмы и будет [Select_CString(recipient.IsFemale, 'принята', 'принят' )] в семью в качестве [Select_CString(recipient.IsFemale, 'дочери', 'сына' )]"
 
  no_obligations:0 "Без обязательств"
  no_obligations_tt:0 "[feudal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_none' )]"
@@ -90,8 +98,9 @@
  EDUCATE_CHILD_OPTION_TRAIN_ARCANA_LEARNING_FOCUS_EFFECT:1 "Получает образование в [Concept('learning', 'учёности')|E] и получит [trait|El] #V Ученика магии#!"
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_1:0 "#N Не#! будет учиться искусству магии.\nТак как у культуры ребёнка есть [tradition|El], открывающая обучение магии, или его [dynasty|El] имеет [Concept( 'dynasty_perk', 'наследие' )|E] #V $magicka_legacy_3_name$#!, для него необходимо найти опекуна со [Concept( 'trait', 'свойством' )|E] #V $trait_education_magical_ability$#! или #V $trait_arcana_good$#!"
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_2:0 "#N Не#! будет учиться искусству магии.\nТак как у культуры ребенка есть [innovation|El] #V $innovation_schools_of_magic$#!, для него необходимо найти опекуна со [Concept( 'trait', 'свойством' )|E] #V $trait_education_magical_ability$#! или #V $trait_arcana_good$#!"
- EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_3:0 "#N Не#! будет учиться искусству магии.\nТак как у культуры ребенка есть [innovation|El] #V $innovation_magical_studies$#!, для него необходимо найти опекуна со [Concept( 'trait', 'свойством' )|E] #V $trait_arcana_good$#!"
- EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_4:0 "#N Не#! будет учиться искусству магии.\nТак как у культуры ребенка нет [Concept( 'innovation', 'инновации' )|E] #V $innovation_magical_studies$#! или #V $innovation_schools_of_magic$#!, и нет [Concept( 'tradition', 'традиции' )|E], открывающей обучение магии, и его [dynasty|El] не имеет [Concept( 'dynasty_perk', 'наследие' )|E] #V $magicka_legacy_3_name$#!, обучение искусству магии #N невозможно#!."
+ EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_3:0 "#N Не#! будет учиться искусству магии.\nТак как у культуры ребенка есть [innovation|El] #V $innovation_magical_studies$#! или #V $innovation_lunar_mysteries$#!, для него необходимо найти опекуна со [Concept( 'trait', 'свойством' )|E] #V $trait_arcana_good$#!"
+ EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_4:0 "#N Не#! будет учиться искусству магии.\nТак как у культуры ребенка нет [Concept( 'innovation', 'инновации' )|E] #V $innovation_magical_studies$#!, #V $innovation_lunar_mysteries$#! или #V $innovation_schools_of_magic$#!, и нет [Concept( 'tradition', 'традиции' )|E], открывающей обучение магии, и его [dynasty|El] не имеет [Concept( 'dynasty_perk', 'наследие' )|E] #V $magicka_legacy_3_name$#!, обучение искусству магии #N невозможно#!."
+
 
  consume_interaction:0 "Поглотить"
  consume_interaction_desc:0 "Поглотить персонажа [recipient.GetShortUINameNoTooltip] в попытке усилить [Concept( 'tsaescence', 'цаэсценцию' )|E]. Однако в процессе вы можете изменить свои [Concept( 'personality_traits', 'свойства личности' )|E] и [skills|El]."
@@ -158,3 +167,8 @@
  BLACKMAIL_NOTIFICATION_SECRET_VAMPIRE:0 "\nУ меня есть свидетельства вашей жажды крови!"
  BLACKMAIL_NOTIFICATION_SECRET_LYCAN:0 "\nУ меня есть свидетельства вашей истинной звериной натуры!"
  BLACKMAIL_NOTIFICATION_SECRET_NECROMANCER:0 "\nУ меня есть доказательства вашего осквернения цикла жизни и смерти!"
+
+ # Holding Interactions
+ destroy_hist_holding_interaction:0 "Уничтожить хист"
+ destroy_hist_holding_interaction_desc:0 "Разрушить все [Concept('buildings', 'постройки')|E] в этом [Concept('holding', 'владении')|E] и превратить его в храм"
+ destroy_hist_holding_interaction_notification:0 "Хист уничтожен"

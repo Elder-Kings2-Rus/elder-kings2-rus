@@ -24,44 +24,59 @@
  
  trait_pirate:0 "Пират"
  trait_pirate_desc:0 "Этот персонаж - пират. Ярррр, дружище!"
- trait_pirate_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - пират. Ярррр, дружище!"
+ trait_pirate_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - пират. Ярррр, дружище!\n\n#I Picking this trait in the Ruler Designer will trigger an event at game start, allowing you to start the game with [pirate_government|E].#!"
 
  trait_plunderer:0 "[Select_CString(ROOT.Char.IsFemale, 'Разбойница', 'Разбойник' )]"
  trait_plunderer_desc:0 "Истинная сила достигается только путем захвата того, что принадлежит вам по праву. А весь мир и его богатства принадлежат вам по праву."
 
-trait_necromancer:0 "Некромант"
-trait_necromancer_desc:0 "Этот персонаж известен тем, что оскверняет трупы умерших, манипулируя их душами и воскрешая их тела для воплощения своих желаний."
-trait_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'известна тем', 'известен тем' )], что оскверняет трупы умерших, манипулируя их душами и воскрешая их тела для воплощения своих желаний."
+ trait_crimeboss:0 "Crimeboss"
+ trait_crimeboss_desc:0 "There are many dark forces and malicious factions at play in the lands of Tamriel and this character has decided to use them to their advantage."
 
-trait_reclusive_vampire:0 "[Select_CString(ROOT.Char.IsFemale, 'Затворница', 'Затворник' )]"
-trait_reclusive_vampire_desc:0 "Этот персонаж часто замыкается в себе и пренебрегает своими обязанностями."
-trait_reclusive_vampire_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] часто замыкается в себе и пренебрегает своими обязанностями." 
-reclusive_vampire_player_desc:0 "Тайный вампир"
-trait_vampire_player_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] тайно является вампиром, нежитью, проклятой пить кровь живых и избегать солнечного света."
+ trait_necromancer:0 "Некромант"
+ trait_necromancer_desc:0 "Этот персонаж известен тем, что оскверняет трупы умерших, манипулируя их душами и воскрешая их тела для воплощения своих желаний.\n\n#I Picking this trait in the Ruler Designer will trigger an event at game start, allowing you to start the game as a secret necromancer.#!"
+ trait_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'известна тем', 'известен тем' )], что оскверняет трупы умерших, манипулируя их душами и воскрешая их тела для воплощения своих желаний."
 
-trait_vampire_character:0 "Вампир"
-trait_vampire_character_desc:0 "Этот персонаж - вампир, неживое существо, проклятое пить кровь живых и избегать солнечного света."
-trait_vampire_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - Вампир, неживое существо, проклятое пить кровь живых и избегать солнечного света." #character_character
+ trait_reclusive_vampire:0 "[Select_CString(ROOT.Char.IsFemale, 'Затворница', 'Затворник' )]"
+ trait_reclusive_vampire_desc:0 "Этот персонаж часто замыкается в себе и пренебрегает своими обязанностями."
+ trait_reclusive_vampire_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] часто замыкается в себе и пренебрегает своими обязанностями." 
+ reclusive_vampire_player_desc:0 "Тайный вампир"
+ trait_vampire_player_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] тайно является вампиром, нежитью, проклятой пить кровь живых и избегать солнечного света."
 
-trait_sanguinare_vampiris:0 "Сангвинаре Вампирис"
-trait_sanguinare_vampiris_desc:0 "Этот персонаж заразился Сангвинаре Вампирис, болезнью, передающейся при контакте с вампирами, которая вызывает слабость днём и жажду ночью. Если не вылечиться от неё в ближайшее время, то последствия могут быть ужасными."
-trait_sanguinare_vampiris_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'заразилась', 'заразился' )] Сангвинаре Вампирис, болезнью, появляющейся при контакте с вампирами, которая вызывает слабость днём и жажду ночью. Если не вылечиться от неё в ближайшее время, то последствия могут быть ужасными." #character_character
-disease_sanguinare_vampiris:0 "Сангвинаре Вампирис."
+ trait_vampire_character:0 "Вампир"
+ trait_vampire_character_desc:0 "Этот персонаж - вампир, неживое существо, проклятое пить кровь живых и избегать солнечного света.\n\n#I Picking this trait in the Ruler Designer will trigger an event at game start, allowing you to start the game as a secret vampire.#!"
+ trait_vampire_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - Вампир, неживое существо, проклятое пить кровь живых и избегать солнечного света." #character_character
 
-trait_sanies_lupinus:0 "Гнойный люпинус"
-trait_sanies_lupinus_desc:0 "Этот персонаж заразился Гнойным люпинусом, болезнью, передающейся при контакте с ликантропами, которая вызывает сонливость. Если не вылечиться от неё в ближайшее время, то последствия могут быть ужасными."
-trait_sanies_lupinus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'заразилась', 'заразился' )] Гнойным люпинусом, болезнью, передающейся при контакте с ликантропами, которая вызывает сонливость. Если не вылечиться от неё в ближайшее время, то последствия могут быть ужасными." #character_character
-disease_sanies_lupinus:0 "Гнойный люпинус."
+ # Diseases
+ trait_sanguinare_vampiris:0 "Сангвинаре Вампирис"
+ trait_sanguinare_vampiris_desc:0 "Этот персонаж заразился Сангвинаре Вампирис, болезнью, передающейся при контакте с вампирами, которая вызывает слабость днём и жажду ночью. Если не вылечиться от неё в ближайшее время, то последствия могут быть ужасными."
+ trait_sanguinare_vampiris_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'заразилась', 'заразился' )] Сангвинаре Вампирис, болезнью, появляющейся при контакте с вампирами, которая вызывает слабость днём и жажду ночью. Если не вылечиться от неё в ближайшее время, то последствия могут быть ужасными." #character_character
+ disease_sanguinare_vampiris:0 "Сангвинаре Вампирис."
 
-trait_irritable_lycan:0 "Раздражительность"
-trait_irritable_lycan_desc:0 "Стресс сделал этого персонажа склонным к частым вспышкам гнева и истерикам."
-trait_irritable_lycan_character_desc:0 "Стресс сделал [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'склонной', 'склонным' )] к частым вспышкам гнева и истерикам."
-irritable_lycan_player_desc:0 "Тайный оборотень"
-trait_lycan_player_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является тайным оборотнем, неестественной помесью зверя и своей первоначальной расы."
+ trait_sanies_lupinus:0 "Гнойный люпинус"
+ trait_sanies_lupinus_desc:0 "Этот персонаж заразился Гнойным люпинусом, болезнью, передающейся при контакте с ликантропами, которая вызывает сонливость. Если не вылечиться от неё в ближайшее время, то последствия могут быть ужасными."
+ trait_sanies_lupinus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'заразилась', 'заразился' )] Гнойным люпинусом, болезнью, передающейся при контакте с ликантропами, которая вызывает сонливость. Если не вылечиться от неё в ближайшее время, то последствия могут быть ужасными." #character_character
+ disease_sanies_lupinus:0 "Гнойный люпинус."
 
-trait_lycan_character:0 "Оборотень"
-trait_lycan_character_desc:0 "Этот персонаж - ликантроп, существо, проклятое трансформацией тела под влиянием лун Нирна."
-trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - ликантроп, существо, проклятое трансформацией тела под влиянием лун Нирна." #character_character
+ trait_chrondiasis:0 "Chrondiasis"
+ trait_chrondiasis_desc:0 "This character has contracted Chrondiasis, a magical disease that only affects those capable of the arcane. It slowly consumes a person's intelligence and magicka and can leave the victim feebleminded or even dead."
+ trait_chrondiasis_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has contracted Chrondiasis, a magical disease that only affects those capable of the arcane. It slowly consumes a persons' intelligence and magicka and can leave the victim feebleminded or even dead."
+ disease_chrondiasis:0 "Chrondiasis."
+
+ trait_peryite_affliction:0 "Peryite's Affliction"
+ trait_peryite_affliction_desc:0 "This character has contracted Peryite's Affliction, a Daedric disease sent by the Prince of Pestilence themself. The infection nests in the host's body for a long time. On some days it is barely noticeable, on others it causes violent febrile convulsions and vomiting of corrosive slime."
+ trait_peryite_affliction_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has contracted Peryite's Affliction, a daedric disease sent by the Prince of Pestilence themself. The infection nests in the host's body for a long time. On some days it is barely noticeable, on others it causes violent febrile convulsions and vomiting of corrosive slime."
+ disease_peryite_affliction:0 "Peryite's Affliction."
+
+ # Transformations
+ trait_irritable_lycan:0 "Раздражительность"
+ trait_irritable_lycan_desc:0 "Стресс сделал этого персонажа склонным к частым вспышкам гнева и истерикам."
+ trait_irritable_lycan_character_desc:0 "Стресс сделал [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'склонной', 'склонным' )] к частым вспышкам гнева и истерикам."
+ irritable_lycan_player_desc:0 "Тайный оборотень"
+ trait_lycan_player_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является тайным оборотнем, неестественной помесью зверя и своей первоначальной расы."
+
+ trait_lycan_character:0 "Оборотень"
+ trait_lycan_character_desc:0 "Этот персонаж - ликантроп, существо, проклятое трансформацией тела под влиянием лун Нирна.\n\n#I Picking this trait in the Ruler Designer will trigger an event at game start, allowing you to start the game as a secret lycanthrope.#!"
+ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - ликантроп, существо, проклятое трансформацией тела под влиянием лун Нирна." #character_character
 
 
  trait_lich_character:0 "Лич"
@@ -103,6 +118,9 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_education_magical_ability_4:0 "Маг-мастер"
  trait_education_magical_ability_4_desc:0 "Этот персонаж обучался у одних из лучших волшебников Тамриэля и демонстрирует как впечатляющие природные способности к аркане, так и желание изучить все, что связано с магическими искусствами."
  trait_education_magical_ability_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'обучалась', 'обучался' )] у одних из лучших волшебников Тамриэля и демонстрирует как впечатляющие природные способности к аркане, так и желание изучить все, что связано с магическими искусствами."
+ trait_education_magical_ability_5:0 "Supreme Magus"
+ trait_education_magical_ability_5_desc:0 "This character only learned from the most powerful and knowledgeable wizards and has reached the pinnacle of magical understanding. The boundaries of reality itself are no longer a match for such abilities."
+ trait_education_magical_ability_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] only learned from the most powerful and knowledgeable wizards and has reached the pinnacle of magical understanding. The boundaries of reality itself are no longer a match for such abilities."
 
  trait_unmourned_blood:0 "Сомнительное происхождение"
  trait_unmourned_blood_desc:0 "Кажется, что у этого персонажа что-то не так в родословной, но истинная природа этого остается загадкой."
@@ -135,48 +153,50 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_disrupted_desc:0 "Магические способности этого персонажа были целенаправленно истощены."
  trait_disrupted_character_desc:0 "Магические способности [ROOT.GetCharacter.GetFirstNameNoTooltip] были целенаправленно истощены."
 
-trait_experimentalist:0 "Экспериментатор"
-trait_experimentalist_desc:0 "Этот персонаж любит проводить всевозможные магические эксперименты и склонен забывать при этом о своих мирских печалях."
-trait_experimentalist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] нравится проводить всевозможные магические эксперименты и при этом забывать о своих мирских печалях."
+ trait_experimentalist:0 "Экспериментатор"
+ trait_experimentalist_desc:0 "Этот персонаж любит проводить всевозможные магические эксперименты и склонен забывать при этом о своих мирских печалях."
+ trait_experimentalist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] нравится проводить всевозможные магические эксперименты и при этом забывать о своих мирских печалях."
 
-trait_experimentalist_necromancer:0 "Экспериментатор"
-trait_experimentalist_necromancer_desc:0 "Этот персонаж любит проводить всевозможные магические эксперименты и склонен забывать при этом о своих мирских печалях."
-trait_experimentalist_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] нравится проводить всевозможные магические эксперименты и при этом забывать о своих мирских печалях."
-trait_experimentalist_necromancer_player:0 "Тайный некромант"
-trait_experimentalist_necromancer_player_desc:0 "Этот персонаж тайно является некромантом, хотя истинная природа [ROOT.GetCharacter.GetHerHis] тёмных делишек всё ещё скрыта от мира."
+ trait_experimentalist_necromancer:0 "Экспериментатор"
+ trait_experimentalist_necromancer_desc:0 "Этот персонаж любит проводить всевозможные магические эксперименты и склонен забывать при этом о своих мирских печалях."
+ trait_experimentalist_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] нравится проводить всевозможные магические эксперименты и при этом забывать о своих мирских печалях."
+ trait_experimentalist_necromancer_player:0 "Тайный некромант"
+ trait_experimentalist_necromancer_player_desc:0 "Этот персонаж тайно является некромантом, хотя истинная природа [ROOT.GetCharacter.GetHerHis] тёмных делишек всё ещё скрыта от мира."
 
  trait_dragonborn:0 "[Select_CString(ROOT.Char.IsFemale, 'Драконорождённая', 'Драконорождённый' )]"
  trait_dragonborn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )] с кровью и душой дракона. Известно, что драконорождённые пользуются благосклонностью богов."
 
  trait_bagarn:0 "Последний из своего рода"
  trait_bagarn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'последняя', 'последний' )] из своего рода. Нет никакой надежды на то, что [ROOT.GetCharacter.GetSheHe] когда-нибудь снова увидит своих родичей."
+ trait_bagarn_alive_desc:0 "For millennia [ROOT.GetCharacter.GetFirstNameNoTooltip] was the last of [ROOT.GetCharacter.GetHerHis] kind, until through a miracle the Dwemer returned to existence. A long and lonely life has however forever scarred [ROOT.GetCharacter.GetFirstNameNoTooltip], mentally and physically, and [ROOT.GetCharacter.GetSheHe] will never be quite the same again."
+ trait_bagarn_cannot_grant_land:0 "[recipient.GetFullName] has [GetTrait('bagarn').GetName( recipient.Self )], and no $heritage_dwemeri_name$ [culture|E] is considered [living_culture_short|E]"
 
  trait_line_of_x:0 "Представитель рода [ROOT.Char.GetFirstNameNoTooltip]" # assume named Line of X
  trait_line_of_x_null:0 "Представитель рода X" # incase character doesnt exist
  trait_line_of_x_desc:0 "Этот персонаж является представителем рода [ROOT.Char.GetFirstNameNoTooltip]."
  trait_line_of_x_desc_null:0 "Этот персонаж является представителем рода X." # incase character doesnt exist
  
-  trait_lifespan:0 "[gc_lifespan|E]"
+ trait_lifespan:0 "[gc_lifespan|E]"
 
  trait_lifespan_1:1 "Продолжительность жизни I #italic ([gc_lifespan|E])#!"
- trait_lifespan_1_character_desc:1 "С помощью природы или магии, предполагается что [ROOT.GetCharacter.GetFirstNameNoTooltip] проживет до 100 лет. Женщины с этой чертой становятся бесплодными примерно в 65 лет."
- trait_lifespan_1_desc:1 "С помощью природы или магии, предполагается [Select_CString(ROOT.GetCharacter.IsFemale, 'что она', 'что он' )] проживёт до 100 лет. Женщины с этой чертой становятся бесплодными примерно в 65 лет."
+ trait_lifespan_1_desc:1 "С помощью природы или магии, этот персонаж может прожить до 100 лет. Женщины с этим свойством становятся бесплодными примерно в 85 лет."
+ trait_lifespan_1_character_desc:1 "С помощью природы или магии, [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 100 лет. Женщины с этим свойством становятся бесплодными примерно в 85 лет."
 
  trait_lifespan_2:1 "Продолжительность жизни II #italic ([gc_lifespan|E])#!"
- trait_lifespan_2_character_desc:1 "С помощью природы или магии, предполагается что [ROOT.GetCharacter.GetFirstNameNoTooltip] проживёт больше 100 лет. Женщины с этой чертой становятся бесплодными примерно в 105 лет."
- trait_lifespan_2_desc:1 "С помощью природы или магии, предполагается [Select_CString(ROOT.GetCharacter.IsFemale, 'что она', 'что он' )] проживёт больше 100 лет. Женщины с этой чертой становятся бесплодными примерно в 105 лет."
+ trait_lifespan_2_desc:1 "С помощью природы или магии, этот персонаж может прожить больше 100 лет. Женщины с этим свойством становятся бесплодными примерно в 115 лет."
+ trait_lifespan_2_character_desc:1 "С помощью природы или магии, [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожит больше 100 лет. Женщины с этим свойством становятся бесплодными примерно в 115 лет."
 
  trait_lifespan_3:1 "Продолжительность жизни III #italic ([gc_lifespan|E])#!"
- trait_lifespan_3_desc:1 "С помощью природы или магии, предполагается [Select_CString(ROOT.GetCharacter.IsFemale, 'что она', 'что он' )] проживёт до 200 лет. Женщины с этой чертой становятся бесплодными примерно в 160 лет."
- trait_lifespan_3_character_desc:1 "С помощью природы или магии, предполагается что [ROOT.GetCharacter.GetFirstNameNoTooltip] проживёт до 200 лет. Женщины с этой чертой становятся бесплодными примерно в 160 лет."
+ trait_lifespan_3_desc:1 "С помощью природы или магии, этот персонаж может прожить до 200 лет. Женщины с этим свойством становятся бесплодными примерно в 150 лет."
+ trait_lifespan_3_character_desc:1 "С помощью природы или магии, [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 200 лет. Женщины с этим свойством становятся бесплодными примерно в 150 лет."
 
  trait_lifespan_4:1 "Продолжительность жизни IV #italic ([gc_lifespan|E])#!"
- trait_lifespan_4_desc:1 "С помощью природы или магии, предполагается [Select_CString(ROOT.GetCharacter.IsFemale, 'что она', 'что он' )] проживёт до 300 лет. Женщины с этой чертой становятся бесплодными примерно в 215 лет."
- trait_lifespan_4_character_desc:1 "С помощью природы или магии, предполагается что [ROOT.GetCharacter.GetFirstNameNoTooltip] проживёт до 300 лет. Женщины с этой чертой становятся бесплодными примерно в 215 лет."
+ trait_lifespan_4_desc:1 "С помощью природы или магии, этот персонаж может прожить до 300 лет. Женщины с этим свойством становятся бесплодными примерно в 215 лет."
+ trait_lifespan_4_character_desc:1 "С помощью природы или магии, [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 300 лет. Женщины с этим свойством становятся бесплодными примерно в 215 лет."
  
-trait_lifespan_5:1 "Продолжительность жизни V #italic ([gc_lifespan|E])#!"
- trait_lifespan_5_desc:1 "С помощью природы или магии, предполагается [Select_CString(ROOT.GetCharacter.IsFemale, 'что она', 'что он' )] проживёт до 500 лет. Женщины с этой чертой становятся бесплодными примерно в 335 лет."
- trait_lifespan_5_character_desc:1 "С помощью природы или магии, предполагается что [ROOT.GetCharacter.GetFirstNameNoTooltip] проживёт до 500 лет. Женщины с этой чертой становятся бесплодными примерно в 335 лет."
+ trait_lifespan_5:1 "Продолжительность жизни V #italic ([gc_lifespan|E])#!"
+ trait_lifespan_5_desc:1 "С помощью природы или магии, этот персонаж может прожить до 500 лет. Женщины с этим свойством становятся бесплодными примерно в 340 лет."
+ trait_lifespan_5_character_desc:1 "С помощью природы или магии, [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 500 лет. Женщины с этим свойством становятся бесплодными примерно в 340 лет."
 
  trait_lifespan_6:1 "Бессмертие #italic ([gc_lifespan|E])#!"
  trait_lifespan_6_desc:1 "Этот персонаж не умрёт от старости, но за это приходится платить своим телом и разумом."
@@ -187,17 +207,17 @@ trait_lifespan_5:1 "Продолжительность жизни V #italic ([gc
  trait_clan_mother:0 "Матерь клана"
  trait_clan_father:0 "Отец клана"
  trait_clan_parent_desc:0 "Мудрость и возраст этого персонажа позволяют ему пользоваться большим уважением и авторитетом среди своего племени и семьи."
- trait_clan_parent_character_desc:0 "Мудрость и возраст [ROOT.GetCharacter.GetFirstNameNoTooltip] позволяют [ROOT.GetCharacter.GetHerHim] пользоваться большим уважением и авторитетом среди своего племени и семьи."
+ trait_clan_parent_character_desc:0 "Благодаря своей мудрости и возрасту [ROOT.GetCharacter.GetFirstNameNoTooltip] пользуется большим уважением и авторитетом среди своего племени и семьи."
 
  trait_wilderking:0 "Лесной Король"
  trait_wilderking_desc:0 "Лесной Король - это самопровозглашённый дух лесов Валенвуда, который действует через тела смертных, рожденных с особой связью с землей."
  trait_wilderking_character_desc:0 "Лесной Король - это самопровозглашенный дух лесов Валенвуда, который действует через тела смертных, рождённых с особой связью с землей."
 
  # Crimes
- trait_azura_worshipper:0 "Тайный последователь Азуры"
- trait_azura_worshipper_desc:0 "Этот персонаж в тайне служит Азуре, Королеве Рассвета и Заката, так как это порицается [ROOT.GetCharacter.GetHerHis] верой."
- trait_azura_worshipper_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] поклоняется Азуре, Королеве Рассвета и Заката, так как это порицается [ROOT.GetCharacter.GetHerHis] верой."
- trait_boethiah_worshipper:0 "Тайный последователь Боэтии"
+ trait_azura_worshipper:0 "Последователь Азуры" #$azura$
+ trait_azura_worshipper_desc:0 "Этот персонаж тайно служит князю даэдра, известному как $azura$, $azura_alt$, совершая поступок, который во многих конфессиях считается святотатством.\n\n#I При выборе этого свойства в редакторе персонажа в начале игры произойдёт событие, которое позволит вам начать игру с тайной верой.#!"
+ trait_azura_worshipper_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] тайно служит князю даэдра, известному как $azura$, $azura_alt$, совершая поступок, который во многих конфессиях считается святотатством."
+ trait_boethiah_worshipper:0 "Последователь Боэтии"
  trait_boethiah_worshipper_desc:0 "Этот персонаж в тайне служит Боэтии, Принцу Интриг, так как это порицается [ROOT.GetCharacter.GetHerHis] верой."
  trait_boethiah_worshipper_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] поклоняется Боэтии, Принцу Интриг, так как это порицается [ROOT.GetCharacter.GetHerHis] верой."
  trait_clavicus_worshipper:0 "Тайный последователь Клавикуса Вайла"

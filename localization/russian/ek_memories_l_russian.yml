@@ -9,3 +9,43 @@
  rescued_sload_victim_memory_desc:0 "Я героически спас персонажа [rescued_victim.GetTitledFirstName] от смерти в Жемчужном море"
  rescued_sload_victim_memory_desc_second_perspective:1 "вы героически спасли персонажа [rescued_victim.GetTitledFirstName] от смерти в Жемчужном море"
  rescued_sload_victim_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] героически [Select_CString(owner.IsFemale, 'спасла', ' спас' )] персонажа [rescued_victim.GetTitledFirstName] от смерти в Жемчужном море"
+
+ became_thrall_memory:0 "Became an Undead Thrall"
+ became_thrall_memory_desc:0 "my soul was claimed by [master.GetTitledFirstName] so that I will serve as an undead thrall after death"
+ became_thrall_memory_desc_second_perspective:1 "your soul was claimed by [master.GetTitledFirstName] so that you will serve as an undead thrall after death"
+ became_thrall_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] soul was claimed by [master.GetTitledFirstName] so [owner.GetHerHis] body will serve as an undead thrall after death"
+
+ claimed_thrall_memory:0 "Claimed an Undead Thrall"
+ claimed_thrall_memory_desc:0 "I claimed the soul of [thrall.GetTitledFirstName] so that [thrall.GetHerHis] body will serve me as an undead thrall after death"
+ claimed_thrall_memory_desc_second_perspective:1 "you claimed the soul of [thrall.GetTitledFirstName] so that [thrall.GetHerHis] body will serve you as an undead thrall after death"
+ claimed_thrall_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] claimed the soul of [thrall.GetTitledFirstName] so that [thrall.GetHerHis] body will serve [owner.GetHerHim] as an undead thrall after death"
+
+ became_disrupted_memory:0 "Became Disrupted"
+ became_disrupted_memory_desc:0 "I was violently disrupted by [disruptor.GetTitledFirstName] so that my magical abilities will permanently remain stunted"
+ became_disrupted_memory_desc_second_perspective:1 "you were violently disrupted by [disruptor.GetTitledFirstName] so that your magical abilities will permanently remain stunted"
+ became_disrupted_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] was violently disrupted by [disruptor.GetTitledFirstName] so that [owner.GetHerHis] magical abilities will permanently remain stunted"
+
+ became_lich_memory:0 "Became Lich"
+ became_lich_memory_desc:0 "I achieved lichdom through a great ritual of dark magic"
+ became_lich_memory_desc_second_perspective:1 "you achieved lichdom through a great ritual of dark magic"
+ became_lich_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] achieved lichdom through a great ritual of dark magic"
+
+ became_adopted_memory:0 "Became Adopted"
+ became_adopted_memory_desc:0 "I was adopted by [new_parent.GetTitledFirstName] and am now a part of [new_parent.GetHerHis] family"
+ became_adopted_memory_desc_second_perspective:1 "you were adopted by [new_parent.GetTitledFirstName] and are now a part of [new_parent.GetHerHis] family"
+ became_adopted_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] was adopted by [new_parent.GetTitledFirstName] and is now a part of [new_parent.GetHerHis] family"
+
+ adopted_child_memory:0 "Adopted Child"
+ adopted_child_memory_desc:0 "I adopted [child.GetTitledFirstName] as my new [child.Custom('GetDaughterSon')]"
+ adopted_child_memory_desc_second_perspective:1 "your adopted [child.GetTitledFirstName] as your new [child.Custom('GetDaughterSon')]"
+ adopted_child_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] adopted [child.GetTitledFirstName] as their new [child.Custom('GetDaughterSon')]"
+
+ hist_blessing_memory:0 "Received Hist Blessing"
+ hist_blessing_memory_desc:0 "I received a mighty blessing during a [GetActivityType('activity_hist_communion').GetName]"
+ hist_blessing_memory_desc_second_perspective:1 "you received a mighty blessing during your [GetActivityType('activity_hist_communion').GetName]"
+ hist_blessing_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] received a mighty blessing during [owner.GetHerHis] [GetActivityType('activity_hist_communion').GetName]"
+
+ hist_behemoth_memory:0 "Embraced Behemoth Form"
+ hist_behemoth_memory_desc:0 "I received terrible strength during a [GetActivityType('activity_hist_communion').GetName]"
+ hist_behemoth_memory_desc_second_perspective:1 "you received terrible strength during your [GetActivityType('activity_hist_communion').GetName]"
+ hist_behemoth_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] received terrible strength during [owner.GetHerHis] [GetActivityType('activity_hist_communion').GetName]"
