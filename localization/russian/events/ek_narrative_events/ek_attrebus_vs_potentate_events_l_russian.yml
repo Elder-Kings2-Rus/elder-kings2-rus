@@ -203,6 +203,6 @@
  ek_attrebus_potentate.0253.desc:0 "Два титана, [attrebus.GetFirstName] и [potentate.GetFirstName], готовы были спалить Сиродил дотла, лишь бы сокрушить один другого, но, похоже, судьба сумела найти более мирное решение конфликта.\n\nКогда известие о том, что [potentate.GetFirstName] [Select_CString(potentate.IsFemale, 'умерла', 'умер')], достигло берегов Румаре, Совет Старейшин отправил своих представителей с небольшим эскортом, чтобы взять под контроль основные административные здания, прежде чем объявить #LORE [Concept( 'compendium_akaviri_potentate', 'Акавирский Потентат' )|E]#! наконец-то уничтоженным.\n\nПоскольку война окончена, союзники военачальника вернулись в свои замки, а сторонники покойного потентата надеются, что у них всё будет в порядке..."
  ek_attrebus_potentate.0253.a:0 "Удивительно..."
 
- ek_attrebus_potentate.0300.t:0 "The End of a Potentate"
- ek_attrebus_potentate.0300.desc:0 "With neither the Warlord [attrebus.GetFirstName] nor the Potentate [potentate.GetFirstName] in charge of the Cyrodiilic Potentate, supporters of both sides have decided to go back to their castles and cities.\n\nWith the Akaviri scourge removed from power and no obligations towards the colovian warlord, the Elder Council has decided to step in and have declared the Potentate null and void."
- ek_attrebus_potentate.0300.a:0 "What fate awaits Cyrodiil, and the rest of the world?"
+ ek_attrebus_potentate.0300.t:0 "Конец Потентата"
+ ek_attrebus_potentate.0300.desc:0 "Поскольку ни военачальник [attrebus.GetFirstName], ни потентат [potentate.GetFirstName] не возглавляют Сиродильский Потентат, сторонники обеих сторон решили вернуться по домам – в свои замки и города.\n\nОтстранив от власти чужеземцев-акавирцев и не взяв на себя никаких обязательств перед коловианским военачальником, Совет Старейшин решил вмешаться и объявил, что Потентат более не существует."
+ ek_attrebus_potentate.0300.a:0 "Какая судьба ждёт Сиродил и весь остальной мир?"

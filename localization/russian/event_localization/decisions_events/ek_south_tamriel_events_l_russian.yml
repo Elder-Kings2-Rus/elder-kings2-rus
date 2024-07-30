@@ -1,7 +1,7 @@
 ﻿l_russian:
  south_tamriel.0001.t:0 "Свет Арнезии"
- south_tamriel.0001.desc:0 "Ah, Arnesia - the mighty fortress-kingdom of the Cantemirics!\n\nFounded in the spot where the wise Oracle Cantemir allegedly reached enlightenment and gained true knowledge of the Endeavour from her Hist teachers, it served as a safe haven in an inhospitable land - alongside its sister cities of Archon and Thorn a true sanctuary from the trials of Mundus. Here the fortunes of the Cantemiric clans ebbed and flowed, never sinking beneath the waves.\n\nIn the wake of a slow decline, the Velothi have again surged forth under the lead of [ROOT.Char.GetFullNameNicknamedNoTooltip]. Sweeping away all opposition within and without, [ROOT.Char.GetSheHe] has annexed all lands south of the fortress until Archon, restoring the long lost Kingdom of Arnesia\n\nNedes, Argonians and perhaps more shall see that Cantemiric walls stand strong, in stone and in faith."
- south_tamriel.0001.a:0 "Арнезия моя любимая..."
+ south_tamriel.0001.desc:0 "Ах, Арнезия – могущественная крепость-королевство кантемиров!\n\nОна была основана именно в том месте, где мудрый оракул Кантемир, по слухам, достигла просветления и познала истину при помощи своих учителей-Хист. Арнезия, как и её города-побратимы Архонт и Торн, служила надёжным убежищем в этой негостеприимной земле. Судьбы кантемирских кланов были переменчивы, полны взлётов и падений, но они цепко держались за эти топкие берега.\n\nНо после периода медленного упадка Велоти вновь возвысились. Сокрушив всех врагов, [ROOT.Char.GetFullNameNicknamedNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'присоединила', 'присоединил' )] все земли к югу от крепости до Архонта, восстановив давно исчезнувшее королевство Арнезия.\n\nНедийцы, аргониане и, возможно, многие другие народы будут следить за тем, чтобы камень кантемирских стен и их вера были тверды и непоколебимы."
+ south_tamriel.0001.a:0 "Арнезия, моя любимая..."
 
  south_tamriel.0011.t:0 "Болота слёз"
  south_tamriel.0011.desc:0 "После бесчисленных набегов и войн, начатых жителями Болота Слёз, этот регион наконец-то перешёл под наш контроль.\nНаша администрация неустанно работала над интеграцией Болота Слёз, так что теперь его жители и правящий класс называют Чернотопье своим домом."
@@ -13,5 +13,5 @@
  south_tamriel.0012.a:0 "Никаких больше набегов и никаких войн."
 
  south_tamriel.0013.t:0 "Болота слёз"
- south_tamriel.0013.desc:0 "After expunging the invaders, the region has been brought back under our control.\n Now our administration must work tirelessly to reintegrate Tearmarsh, undoing the damage caused to the hearts and minds of its people."
- south_tamriel.0013.a:0 "Justice!"
+ south_tamriel.0013.desc:0 "После бесчисленных набегов и войн, начатых жителями Болота Слёз, этот регион наконец-то перешёл под наш контроль.\nТеперь наша администрация должна неустанно работать над реинтеграцией Болота Слёз, чтобы устранить ущерб, нанесённый сердцам и умам его жителей."
+ south_tamriel.0013.a:0 "Справедливость восторжествовала!"
