@@ -125,30 +125,32 @@
  LOADING_TIP_123:0 "#T $game_concept_cultural_acceptance$#!\n\n$game_concept_cultural_acceptance_desc$"
  LOADING_TIP_124:0 "#T $game_concept_culture_tradition$#!\n\n$game_concept_culture_tradition_desc$"
  LOADING_TIP_125:0 "#T $game_concept_language$#!\n\n$game_concept_language_desc$"
- LOADING_TIP_126:0 "'Обезьяны - это потрясающе, все любят обезьян. А если я не могу завести обезьяну, то ящерица - лучшее, что может быть.'\n\n— Нинебан"
- LOADING_TIP_127:0 "'Дума, что терзает меня, я нашла ей имя, я назвала её свободой.'\n\n— Алессия"
- LOADING_TIP_128:0 "'Иногда добыча поворачивается и кусает нас. Это такая мелочь.'\n\n— Молаг Бал"
- LOADING_TIP_129:0 "'Вехк-смертный убил Наставника.\nВехк-бог не совершал этого, так, как и было записано.\nИ всё же эти две сущности едины. В то же время и нет, до одного красного момента.'\n\n— Вивек"
- LOADING_TIP_130:0 "'Коза убежит, если вы её ударите. Шакал укусит, если вы броситесь в погоню. Только человек может выбрать ничего не делать. Путь сдержанности часто бывает самым трудным.'\n\n— Дивад Хандинг"
- LOADING_TIP_131:0 "'Если уж ты дурак, то будь хотя бы забавным дураком.'\n\n— Сота Сил"
- LOADING_TIP_132:0 "'Мы не выбираем, когда отдыхать. Отказаться от трудного пути - значит принести страдания следующему путнику.'\n\n— Мастер Ахрам"
- LOADING_TIP_133:0 "'Просить Вехка говорить без загадок - все равно что просить змею встать и пойти, хотя бы на этот раз.'\n\n— Хасфат Антаболис"
- LOADING_TIP_134:0 "'И ХРОЛ ЛЮБИЛ, ЛЁЖА НА ЭТОМ ХОЛМЕ'\n\n— Реманада"
- LOADING_TIP_135:0 "'Когда мы ОСОЗНАЁМ события, они становятся историей. История — это понимание. Иначе, мы были бы просто тупыми животными, которые пытаются избавиться от преследующего их холода.'\n\n— Хасфат Антаболис"
- LOADING_TIP_136:0 "'Ауриэль, Аури-Эль, Алкош, Акатош… много разных имён у повелителя снежных эльфов.'\n\n— Рыцарь-паладин Гелебор"
-
-
-
-
-
-
-
-
-
-
-
-
- 
+ LOADING_TIP_126:0 "#T $game_concept_regency$#!\n\n$game_concept_regency_desc$"
+ LOADING_TIP_127:0 "#T $game_concept_scales_of_power$#!\n\n$game_concept_scales_of_power_desc$"
+ LOADING_TIP_128:0 "#T $game_concept_mandate$#!\n\n$game_concept_mandate_desc$"
+ LOADING_TIP_129:0 "#T $game_concept_travel$#!\n\n$game_concept_travel_desc$"
+ LOADING_TIP_130:0 "#T $game_concept_hunt_sighting$#!\n\n$game_concept_hunt_sighting_desc$"
+ LOADING_TIP_131:0 "#T $game_concept_ai_warlike_personality$#!\n\n$game_concept_ai_warlike_personality_desc$"
+ LOADING_TIP_132:0 "#T $game_concept_ai_cautious_personality$#!\n\n$game_concept_ai_cautious_personality_desc$"
+ LOADING_TIP_133:0 "#T $game_concept_ai_economical_boom_personality$#!\n\n$game_concept_ai_economical_boom_personality_desc$"
+ LOADING_TIP_134:0 "#T $game_concept_ai_economical_unpredictable_personality$#!\n\n$game_concept_ai_economical_unpredictable_personality_desc$"
+ LOADING_TIP_135:0 "#T $game_concept_stationed_regiment$#!\n\n$game_concept_stationed_regiment_desc$"
+ LOADING_TIP_136:0 "#T $game_concept_activity$#!\n\n$game_concept_activity_desc$"
+ LOADING_TIP_137:0 "#T $game_concept_economical_archetype$#!\n\n$game_concept_economical_archetype_desc$"
+ LOADING_TIP_138: "#T $game_concept_hostage$#!\n\n$game_concept_hostage_desc$"
+ LOADING_TIP_139: "#T $game_concept_epidemic$#!\n\n$game_concept_epidemic_desc$"
+ LOADING_TIP_140: "#T $game_concept_legitimacy$#!\n\n$game_concept_legitimacy_desc$" 
+ LOADING_TIP_141:0 "'Обезьяны - это потрясающе, все любят обезьян. А если я не могу завести обезьяну, то ящерица - лучшее, что может быть.'\n\n— Нинебан"
+ LOADING_TIP_142:0 "'Дума, что терзает меня, я нашла ей имя, я назвала её свободой.'\n\n— Алессия"
+ LOADING_TIP_143:0 "'Иногда добыча поворачивается и кусает нас. Это такая мелочь.'\n\n— Молаг Бал"
+ LOADING_TIP_144:0 "'Вехк-смертный убил Наставника.\nВехк-бог не совершал этого, так, как и было записано.\nИ всё же эти две сущности едины. В то же время и нет, до одного красного момента.'\n\n— Вивек"
+ LOADING_TIP_145:0 "'Коза убежит, если вы её ударите. Шакал укусит, если вы броситесь в погоню. Только человек может выбрать ничего не делать. Путь сдержанности часто бывает самым трудным.'\n\n— Дивад Хандинг"
+ LOADING_TIP_146:0 "'Если уж ты дурак, то будь хотя бы забавным дураком.'\n\n— Сота Сил"
+ LOADING_TIP_147:0 "'Мы не выбираем, когда отдыхать. Отказаться от трудного пути - значит принести страдания следующему путнику.'\n\n— Мастер Ахрам"
+ LOADING_TIP_148:0 "'Просить Вехка говорить без загадок - все равно что просить змею встать и пойти, хотя бы на этот раз.'\n\n— Хасфат Антаболис"
+ LOADING_TIP_149:0 "'И ХРОЛ ЛЮБИЛ, ЛЁЖА НА ЭТОМ ХОЛМЕ'\n\n— Реманада"
+ LOADING_TIP_150:0 "'Когда мы ОСОЗНАЁМ события, они становятся историей. История — это понимание. Иначе, мы были бы просто тупыми животными, которые пытаются избавиться от преследующего их холода.'\n\n— Хасфат Антаболис"
+ LOADING_TIP_151:0 "'Ауриэль, Аури-Эль, Алкош, Акатош… много разных имён у повелителя снежных эльфов.'\n\n— Рыцарь-паладин Гелебор"
  
  #LOADING_TIP_0:0 "Right-Click on Character Portraits to interact with them!"
  #LOADING_TIP_1:0 "You can hover over icons and highlighted text in Tooltips for even more information!"

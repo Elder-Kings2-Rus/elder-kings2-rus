@@ -3,7 +3,12 @@
  tribal_government_desc:1 "- [Concept('vassals', 'Вассальные')|E] [Concept('obligations', 'обязательства')|E] связаны с [Concept('prestige_level', 'уровнем престижа')|E] [Concept('liege', 'сюзерена')|E]\n- Рост [Concept('control', 'контроля')|E] связан с [Concept('prestige_level', 'уровнем престижа')|E]\n- Правители имеют [Concept('expected_prestige_level', 'ожидаемый уровень престижа')|E] в зависимости от их ранга\n- Правители набирают и содержат [Concept('men_at_arms', 'профессиональные')|E] [Concept('regiments', 'полки')|E] за счёт [Concept('prestige', 'престижа')|E] вместо [Concept('gold', 'золота')|E]\n\n#F В племени все решает сила. Чтобы держава развивалась, а армия крепла, вождь должен быть не столько богатым, сколь известным и уважаемым.#!\n\n[Concept('expected_prestige_level', 'Ожидаемый уровень престижа')|E]"
  
 
- jizya_special_rights:0 "Налог на население"
+ jizya_special_rights:0 "Религиозный налог"
+ jizya_special_rights_granted:0 "Назначен религиозный налог"
+ jizya_special_rights_granted_short:0 "Назначен"
  iqta_special_rights:0 "Налоговое хозяйство"
+ iqta_special_rights_granted:0 "Налоговое хозяйство даровано"
  iqta_special_rights_granted_short:0 "Даровано"
- ghazi_special_rights:0 "Религиозный чемпион"
+ ghazi_special_rights:0 "Защитник веры"
+ ghazi_special_rights_granted:0 "Провозглашён защитник веры"
+ ghazi_special_rights_granted_short:0 "Провозглашён"

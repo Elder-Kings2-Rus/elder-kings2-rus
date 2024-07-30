@@ -46,11 +46,11 @@
  khajiiti_bishop_female_plural:0 "лунные епископы"
  khajiiti_bishop_neuter:0 "лунный епископ"
  khajiiti_bishop_alternate_plural:0 "лунные епископы"
- khajiiti_divine_realm:0 "$sandsbehindthestars_name"
+ khajiiti_divine_realm:0 "$sandsbehindthestars_name$"
  khajiiti_positive_afterlife:0 "$sandsbehindthestars_name$"
  khajiiti_positive_afterlife_2:1 "" # Optional translation alt
  khajiiti_positive_afterlife_3:1 "" # Optional translation alt
- khajiiti_negative_afterlife:0 "$darkbehindtheworld_name"
+ khajiiti_negative_afterlife:0 "$darkbehindtheworld_name$"
  khajiiti_negative_afterlife_2:1 "" # Optional translation alt
  khajiiti_negative_afterlife_3:1 "" # Optional translation alt
  khajiiti_creator_god_name:0 "$god_nirni_name$"
@@ -75,8 +75,8 @@
  khajiiti_night_god_name_possessive:0 "$god_moons_name_possessive$"
  khajiiti_water_god_name:0 "$god_hermorah_name$"
  khajiiti_water_god_name_possessive:0 "$god_hermorah_name_possessive$"
- khajiiti_witchgodname_the_horned_god:0 "god_namiira_name$"
- khajiiti_witchgodname_the_horned_god_possessive:0 "god_namiira_name_possessive$"
+ khajiiti_witchgodname_the_horned_god:0 "$god_namiira_name$"
+ khajiiti_witchgodname_the_horned_god_possessive:0 "$god_namiira_name_possessive$"
  
  #Two-Moons Dance
  
@@ -107,8 +107,8 @@
  twomoonsdance_night_god_name_possessive:0 "$god_moons_name_possessive$"
  twomoonsdance_water_god_name:0 "$god_khenarthi_name$"
  twomoonsdance_water_god_name_possessive:0 "$god_khenarthi_name_possessive$"
- twomoonsdance_witchgodname_the_horned_god:0 "god_namiira_name$"
- twomoonsdance_witchgodname_the_horned_god_possessive:0 "god_namiira_name_possessive$"
+ twomoonsdance_witchgodname_the_horned_god:0 "$god_namiira_name$"
+ twomoonsdance_witchgodname_the_horned_god_possessive:0 "$god_namiira_name_possessive$"
  twomoonsdance_high_god_name:0 "$god_riddlethar_name$"
  twomoonsdance_high_god_name_2:0 "$twomoonsdance_high_god_name$" # Optional translation alt
  twomoonsdance_high_god_name_3:0 "$twomoonsdance_high_god_name$" # Optional translation alt
@@ -116,7 +116,7 @@
  twomoonsdance_high_god_she_he:0 "it"
  twomoonsdance_high_god_name_alternate:0 "$twomoonsdance_high_god_name$"
  twomoonsdance_high_god_name_alternate_possessive:0 "$twomoonsdance_high_god_name_possessive$"
- twomoonsdance_pantheon_term:0 "$twomoonsdance_pantheon_name$"
+ twomoonsdance_pantheon_term:0 "$twomoonsdance$"
  twomoonsdance_pantheon_term_has_have:0 "$pantheon_term_have$" 
  twomoonsdance_devil_name:0 "$god_namiira_name$"
  twomoonsdance_devil_name_possessive:0 "$god_namiira_name_possessive$"
@@ -162,8 +162,8 @@
  baandari_night_god_name_possessive:0 "$god_moons_name_possessive$"
  baandari_water_god_name:0 "$god_moons_name$"
  baandari_water_god_name_possessive:0 "$god_moons_name_possessive$"
- baandari_witchgodname_the_horned_god:0 "god_namiira_name$"
- baandari_witchgodname_the_horned_god_possessive:0 "god_namiira_name_possessive$"
+ baandari_witchgodname_the_horned_god:0 "$god_namiira_name$"
+ baandari_witchgodname_the_horned_god_possessive:0 "$god_namiira_name_possessive$"
  baandari_high_god_name:0 "$god_baandar_name$"
  baandari_high_god_name_2:0 "$baandari_high_god_name$" # Optional translation alt
  baandari_high_god_name_3:0 "$baandari_high_god_name$" # Optional translation alt
@@ -181,7 +181,7 @@
  baandari_death_deity_name:0 "$god_baandar_name$"
  baandari_death_deity_name_possessive:0 "$god_baandar_name_possessive$"
  baandari_death_deity_herhis:0 "его" 
- baandari_divine_realm:0 "$fivefingerdance_name"
+ baandari_divine_realm:0 "$fivefingerdance_name$"
  baandari_positive_afterlife:0 "$fivefingerdance_name$"
     
  order_new_moon:0 "Ново-лунск"
@@ -210,11 +210,11 @@
  order_new_moon_bishop_female_plural:0 "драконьи жрицы"
  order_new_moon_bishop_neuter:0 "драконий жрец"
  order_new_moon_bishop_alternate_plural:0 "драконье жречество"
- order_new_moon_divine_realm:0 "$sandsbehindthestars_name"
+ order_new_moon_divine_realm:0 "$sandsbehindthestars_name$"
  order_new_moon_positive_afterlife:0 "$sandsbehindthestars_name$"
  order_new_moon_positive_afterlife_2:1 "" # Optional translation alt
  order_new_moon_positive_afterlife_3:1 "" # Optional translation alt
- order_new_moon_negative_afterlife:0 "$darkbehindtheworld_name"
+ order_new_moon_negative_afterlife:0 "$darkbehindtheworld_name$"
  order_new_moon_negative_afterlife_2:1 "" # Optional translation alt
  order_new_moon_negative_afterlife_3:1 "" # Optional translation alt
  order_new_moon_creator_god_name:0 "$god_alkosh_name$"
@@ -239,8 +239,8 @@
  order_new_moon_night_god_name_possessive:0 "$god_moons_name_possessive$"
  order_new_moon_water_god_name:0 "$god_moons_name$"
  order_new_moon_water_god_name_possessive:0 "$god_moons_name_possessive$"
- order_new_moon_witchgodname_the_horned_god:0 "god_laatvulon_name$"
- order_new_moon_witchgodname_the_horned_god_possessive:0 "god_laatvulon_name_possessive$"
+ order_new_moon_witchgodname_the_horned_god:0 "$god_laatvulon_name$"
+ order_new_moon_witchgodname_the_horned_god_possessive:0 "$god_laatvulon_name_possessive$"
  order_new_moon_high_god_name:0 "$god_laatvulon_name$"
  order_new_moon_high_god_name_2:0 "$order_new_moon_high_god_name$" # Optional translation alt
  order_new_moon_high_god_name_3:0 "$order_new_moon_high_god_name$" # Optional translation alt

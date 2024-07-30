@@ -10,13 +10,65 @@
  ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK_TARGET:0 "Цель может иметь один внебрачный [alliance|E]"
  NOT_ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK_TARGET:0 "Цель уже имеет один внебрачный [alliance|E]"
 
+# Imperial Scion
+
+ offer_cyrodiilic_subject_interaction:0 "Offer To Make [GetCultureTradition('tradition_cyrodiilic_subject').GetName|V]"
+ offer_cyrodiilic_subject_interaction_desc:0 "The Cyrodiilic Empires have long traditions of ruling subject people by elevating a favored subset to rule over the rest."
+ OFFER_CYRODIILIC_SUBJECT_INTERACTION_NOTIFICATION:0 "I would like to offer to institute Imperial culture and law in your territory"
+ recipient_gains_imperial_scion_tradition:0 "[recipient.GetCulture.GetName] [culture|E] gains the [GetCultureTradition('tradition_cyrodiilic_subject').GetName|V] [tradition|E]"
+ every_culture_county_ek_recent_imperialization:0 "Every [recipient.GetCulture.GetName] [county|E] gains the [GetModifier('ek_recent_imperialization').GetNameWithTooltip|E] modifier for 20 years"
+ offer_cyrodiilic_subject_interaction_option_more_gold:0 "Offer funding"
+ offer_cyrodiilic_subject_interaction_option_more_gold_desc:0 "The imposition of Imperial customs among the [recipient.GetCulture.GetCollectiveNoun] will not be without cost and difficulty. Offering additional funding will make our offer more attractive."
+ cyrodiilic_subject_interaction_not_cyrodiilic:0 "[recipient.GetTitledFirstName]'s [culture|E] is $heritage_cyrodiilic_name$ [heritage|E]"
+ cyrodiilic_subject_interaction_not_imperial_legacy:0 "[recipient.GetTitledFirstName]'s [culture|E] has the [GetCultureTradition('tradition_imperial_legacy').GetName|V] [tradition|E]"
+ cyrodiilic_subject_interaction_no_other_scion:0 "No other [recipient.GetCulture.GetHeritage.GetName] [culture|E] is already [GetCultureTradition('tradition_cyrodiilic_subject').GetName|V]"
+ cyrodiilic_subject_gains_cultural_rights:0 "Every [recipient.GetCulture.GetName] [vassal|E] gains the [GetVassalContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )] [vassal_contract|E]"
+
+ imperial_scion_tradition_cultural_acceptance_gain:0 "[recipient.GetCulture.GetName] [culture|E] gains [EmptyScope.ScriptValue('major_cultural_acceptance_gain')|+0] [cultural_acceptance|E] with all [actor.GetCulture.GetHeritage.GetName] [cultures|E]"
+ imperial_scion_tradition_cultural_acceptance_loss:0 "[recipient.GetCulture.GetName] [culture|E] loses [EmptyScope.ScriptValue('major_cultural_acceptance_loss')|+0] [cultural_acceptance|E] with all other [recipient.GetCulture.GetHeritage.GetName] [cultures|E]" 
+
+ offer_cyrodiilic_suzerain_interaction:0 "Request To Become [GetCultureTradition('tradition_cyrodiilic_subject').GetName|V]"
+ offer_cyrodiilic_suzerain_interaction_desc:0 "By ingratiating ourselves with our rulers, we may enjoy greater privileges than our kin, and eventually adopt an Imperial way of governance."
+ OFFER_CYRODIILIC_SUZERAIN_INTERACTION_NOTIFICATION:0 "I would like to request you institute Imperial culture and law in our territory"
+ actor_gains_imperial_scion_tradition:0 "[actor.GetCulture.GetName] [culture|E] gains the [GetCultureTradition('tradition_cyrodiilic_subject').GetName|V] [tradition|E]"
+ actor_every_culture_county_ek_recent_imperialization:0 "Every [actor.GetCulture.GetName] [county|E] gains the [GetModifier('ek_recent_imperialization').GetNameWithTooltip|E] modifier for 20 years"
+ actor_imperial_scion_tradition_cultural_acceptance_gain:0 "[actor.GetCulture.GetName] [culture|E] gains [EmptyScope.ScriptValue('major_cultural_acceptance_gain')|+0] [cultural_acceptance|E] with all [recipient.GetCulture.GetHeritage.GetName] [cultures|E]"
+ actor_imperial_scion_tradition_cultural_acceptance_loss:0 "[actor.GetCulture.GetName] [culture|E] loses [EmptyScope.ScriptValue('major_cultural_acceptance_loss')|+0] [cultural_acceptance|E] with all other [actor.GetCulture.GetHeritage.GetName] [cultures|E]" 
+ actor_cyrodiilic_subject_interaction_not_cyrodiilic:0 "[actor.GetTitledFirstName]'s [culture|E] is $heritage_cyrodiilic_name$ [heritage|E]"
+ actor_cyrodiilic_subject_interaction_not_imperial_legacy:0 "[actor.GetTitledFirstName]'s [culture|E] has the [GetCultureTradition('tradition_imperial_legacy').GetName|V] [tradition|E]"
+ actor_cyrodiilic_subject_interaction_no_other_scion:0 "No other [actor.GetCulture.GetHeritage.GetName] [culture|E] is already [GetCultureTradition('tradition_cyrodiilic_subject').GetName|V]"
+ actor_cyrodiilic_subject_gains_cultural_rights:0 "Every [actor.GetCulture.GetName] [vassal|E] gains the [GetVassalContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )] [vassal_contract|E]"
+
+ imperial_scion_tradition_loss:0 "Mongrel Dogs of the Empire"
+ imperial_scion_tradition_gain:0 "Favored Subjects"
+
+ ek_remove_cyrodiilic_subject:0 "Renounce Status as Imperial Subjects"
+ ek_remove_cyrodiilic_subject_tooltip:0 "We are not mere subjects."
+ ek_remove_cyrodiilic_subject_decision_desc:0 "Now that we are free of Imperial rule, it is high time we cast off the stain of being their subjects. We will not be pit against our brethren."
+ ek_remove_cyrodiilic_subject_confirm:0 "Freedom for the [ROOT.Char.GetCulture.GetCollectiveNoun]!"
+ ek_remove_cyrodiilic_subject_requirement:0 "Your [top_liege|E]'s [culture|E] does not have [GetCultureTradition('tradition_imperial_legacy').GetName|V]"
+
+
+ ek_char_interaction.0001.opening:1 "[recipient.Custom2('AppropriateGreeting', actor )]"
+ ek_char_interaction.0001.desc:0 "I accept your offer of greater integration into Imperial law."
+
+ ek_char_interaction.0002.desc:0 "The [recipient.GetCulture.GetName] do not need your Imperial laws and customs."
+ ek_char_interaction.0002.a:0 "I shall have to explore other options..."
+
+ ek_char_interaction.0003.opening:0 "[recipient.Custom2('AppropriateGreetingPositive', actor )]"
+ ek_char_interaction.0003.desc:0 "[actor.GetFirstName], your offer to become a #italic proper#! Imperial subject has been granted. The Empire is Law!"
+ ek_char_interaction.0003.a:0 "The Law is Sacred"
+
+ ek_char_interaction.0004.desc:0 "While I appreciate your offer to become proper Imperial subjects, I must decline."
+ ek_char_interaction.0004.a:0 "That's unfortunate."
+
 #breakdown of purity factors for disinherit/denounce - if the breakdown is made visible
  purity_virtue_desc:0 "[Concept('virtuous', 'Добродетельные')|E] черты"
  purity_sinful_desc:0 "[Concept('sinful', 'Греховные')|E] черты"
  purity_physique_bad_1:0 "[GetTrait('physique_bad_1').GetName(ROOT.Char)]"
  purity_physique_bad_2:0 "[GetTrait('physique_bad_2').GetName(ROOT.Char)]"
  purity_physique_bad_3:0 "[GetTrait('physique_bad_3').GetName(ROOT.Char)]"
- purity_intellect_bad_1:0 "[GetTrait('intellect_bad:_1').GetName(ROOT.Char)]"
+ purity_intellect_bad_1:0 "[GetTrait('intellect_bad_1').GetName(ROOT.Char)]"
  purity_intellect_bad_2:0 "[GetTrait('intellect_bad_2').GetName(ROOT.Char)]"
  purity_intellect_bad_3:0 "[GetTrait('intellect_bad_3').GetName(ROOT.Char)]"
  purity_beauty_bad_1:0 "[GetTrait('beauty_bad_1').GetName(ROOT.Char)]"

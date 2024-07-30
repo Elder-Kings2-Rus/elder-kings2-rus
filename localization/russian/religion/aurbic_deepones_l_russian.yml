@@ -77,8 +77,8 @@
  deepones_night_god_name_possessive:0 "$god_deepones_name_possessive$"
  deepones_water_god_name:0 "$god_deepones_name$"
  deepones_water_god_name_possessive:0 "$god_deepones_name_possessive$"
- deepones_witchgodname_the_horned_god:0 "god_deepones_name$"
- deepones_witchgodname_the_horned_god_possessive:0 "god_deepones_name_possessive$"
+ deepones_witchgodname_the_horned_god:0 "$god_deepones_name$"
+ deepones_witchgodname_the_horned_god_possessive:0 "$god_deepones_name_possessive$"
  
  # Brethren
  brethren:0 "Братск"

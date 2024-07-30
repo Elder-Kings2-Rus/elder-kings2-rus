@@ -78,8 +78,8 @@
  reach_religion_night_god_name_possessive:0 "$god_namira_name_possessive$"
  reach_religion_water_god_name:0 "$god_hircine_name$"
  reach_religion_water_god_name_possessive:0 "$god_hircine_name_possessive$"
- reach_religion_witchgodname_the_horned_god:0 "god_namira_name$"
- reach_religion_witchgodname_the_horned_god_possessive:0 "god_namira_name_possessive$"
+ reach_religion_witchgodname_the_horned_god:0 "$god_namira_name$"
+ reach_religion_witchgodname_the_horned_god_possessive:0 "$god_namira_name_possessive$"
  
  old_gods:1 "Старобожественск"
  old_gods_adj:1 "Старые боги"
@@ -165,8 +165,8 @@
  dwemer_idolatry_night_god_name_possessive:0 "$god_dwemeridolatry_name_possessive$"
  dwemer_idolatry_water_god_name:0 "$god_dwemeridolatry_name$"
  dwemer_idolatry_water_god_name_possessive:0 "$god_dwemeridolatry_name_possessive$"
- dwemer_idolatry_witchgodname_the_horned_god:0 "god_tones_name$"
- dwemer_idolatry_witchgodname_the_horned_god_possessive:0 "god_tones_name_possessive$"
+ dwemer_idolatry_witchgodname_the_horned_god:0 "$god_tones_name$"
+ dwemer_idolatry_witchgodname_the_horned_god_possessive:0 "$god_tones_name_possessive$"
  
  minotaur_cult:1 "Минотавровск"
  minotaur_cult_adj:1 "Культ Минотавров"
@@ -212,8 +212,8 @@
  minotaur_cult_night_god_name_possessive:0 "$god_moons_name_possessive$"
  minotaur_cult_water_god_name:0 "$god_hircine_name$"
  minotaur_cult_water_god_name_possessive:0 "$god_hircine_name_possessive$"
- minotaur_cult_witchgodname_the_horned_god:0 "god_hircine_name$"
- minotaur_cult_witchgodname_the_horned_god_possessive:0 "god_hircine_name_possessive$"
+ minotaur_cult_witchgodname_the_horned_god:0 "$god_hircine_name$"
+ minotaur_cult_witchgodname_the_horned_god_possessive:0 "$god_hircine_name_possessive$"
  
  druadach_cult:1 "Друадахск"
  druadach_cult_adj:1 "Культ Друадах"
@@ -240,8 +240,8 @@
  druadach_cult_religious_symbol:0 "тотем земли"
  druadach_cult_religious_head_title:0 "Воплощение"
  druadach_cult_religious_head_title_name:0 "Душа Друадах"
- druadach_cult_divine_realm:0 "$druadach_name$"
- druadach_cult_positive_afterlife:0 "$druadach_name$"
+ druadach_cult_divine_realm:0 "$god_druadach_name$"
+ druadach_cult_positive_afterlife:0 "$god_druadach_name$"
  druadach_cult_positive_afterlife_2:1 "" # Optional translation alt
  druadach_cult_positive_afterlife_3:1 "" # Optional translation alt
  druadach_cult_negative_afterlife:0 "$below_name$"
@@ -269,8 +269,8 @@
  druadach_cult_night_god_name_possessive:0 "$god_hermamora_name_possessive$"
  druadach_cult_water_god_name:0 "$god_hermamora_name$"
  druadach_cult_water_god_name_possessive:0 "$god_hermamora_name_possessive$"
- druadach_cult_witchgodname_the_horned_god:0 "god_hermamora_name$"
- druadach_cult_witchgodname_the_horned_god_possessive:0 "god_hermamora_name_possessive$"
+ druadach_cult_witchgodname_the_horned_god:0 "$god_hermamora_name$"
+ druadach_cult_witchgodname_the_horned_god_possessive:0 "$god_hermamora_name_possessive$"
 
  hircine_coven:1 "Хирсинск"
  hircine_coven_adj:1 "Ковен Хирсина"

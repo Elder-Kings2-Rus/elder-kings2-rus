@@ -6,7 +6,6 @@
  pagan_hostility_doctrine_desc:0 "Во вселенной Древних Свитков нет язычества. Если Вы видите это окно, пожалуйста, оповестите команду разработки!"
  eastern_hostility_doctrine_name:0 "Восточные"
  eastern_hostility_doctrine_desc:0 "Во вселенной Древних Свитков нет восточных религий. Если Вы видите это окно, пожалуйста, оповестите команду разработки!"
- NOT_BUDDHAS_OF_BAMIAN_ENABLED:1 "[Concept('holder', 'Владелец' )|E] должен принадлежать к $rf_aurbic$ому [Concept('religious_family', 'роду' )|El]"
  
  ### Dynamic Hostility, go from 0 to 100
  hostility_righteous_tooltippable:0 "[GetHostilityLevelName( '(int32)0' )|V]"

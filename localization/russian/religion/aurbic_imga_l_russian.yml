@@ -14,16 +14,16 @@
  ius_cult_adherent_plural:0 "Культисты Иуса"
  ius_cult_desc:0 "Иус Крайне Обеспокоенный - воистину бог-обманщик; ему доставляет удовольствие разыгрывать смертных, оставляя после себя хаос и неразбериху. Предания говорят о его капризном характере, не уступающем даже самым хитрым даэдра.\n\nНесмотря на его беспокойный нрав, некоторые почитают Иуса как хранителя хрупкого природного равновесия. Непредсказуемый, он, конечно, не лишен силы и может предложить помощь, если к нему обратится достойный. Однако даже его благодеяния могут оказаться обоюдоострыми мечами, часто приносящими не только вред, но и помощь. Поэтому, обращаясь к Иусу, следует быть осторожным, ибо его благосклонность может принести неожиданную награду или катастрофические последствия, в зависимости от его постоянно меняющегося настроения.\nВ конце концов, он служит напоминанием о том, что даже среди божественных созданий существует неукрощённый, озорной дух, готовый вечно держать мир в напряжении."
  ius_cult_high_god_name:0 "$god_ius_name$"
- ius_cult_high_god_name_2:0 "$ius_high_god_name$" # Optional translation alt
- ius_cult_high_god_name_3:0 "$ius_high_god_name$" # Optional translation alt
+ ius_cult_high_god_name_2:0 "$ius_cult_high_god_name$" # Optional translation alt
+ ius_cult_high_god_name_3:0 "$ius_cult_high_god_name$" # Optional translation alt
  ius_cult_high_god_name_possessive:0 "$god_ius_name_possessive$"
  ius_cult_high_god_she_he:0 "он"
- ius_cult_high_god_name_alternate:0 "$ius_high_god_name$"
- ius_cult_high_god_name_alternate_possessive:0 "$ius_high_god_name_possessive$"
+ ius_cult_high_god_name_alternate:0 "$ius_cult_high_god_name$"
+ ius_cult_high_god_name_alternate_possessive:0 "$ius_cult_high_god_name_possessive$"
  ius_cult_pantheon_term:0 "$god_ius_name$"
  ius_cult_pantheon_term_has_have:0 "$pantheon_term_have$" 
- ius_cult_devil_name:0 "$ius_cult_bringers_of_boredom_name$"
- ius_cult_devil_name_possessive:0 "$ius_cult_bringers_of_boredom_possessive$"
+ ius_cult_devil_name:0 "$bringers_of_boredom_name$"
+ ius_cult_devil_name_possessive:0 "$bringers_of_boredom_name_possessive$"
  ius_cult_devil_shehe:0 "они"
  ius_cult_devil_herselfhimself:0 "себя"
  ius_cult_devil_herhis:0 "их"
@@ -84,8 +84,8 @@
  ius_cult_night_god_name_possessive:0 "$god_ius_name_possessive$"
  ius_cult_water_god_name:0 "$god_ius_name$"
  ius_cult_water_god_name_possessive:0 "$god_ius_name_possessive$"
- ius_cult_witchgodname_the_horned_god:0 "god_aspect_of_frenzy_name$"
- ius_cult_witchgodname_the_horned_god_possessive:0 "god_aspect_of_frenzy_possessive$"
+ ius_cult_witchgodname_the_horned_god:0 "$god_aspect_of_frenzy_name$"
+ ius_cult_witchgodname_the_horned_god_possessive:0 "$god_aspect_of_frenzy_possessive$"
  ius_cult_good_god_ius:0 "$god_ius_name$"
 
  # Auriel Monolatrism
@@ -162,6 +162,6 @@
  anui_el_night_god_name_possessive:0 "$god_anui_el_name_possessive$"
  anui_el_water_god_name:0 "$god_anui_el_name$"
  anui_el_water_god_name_possessive:0 "$god_anui_el_name_possessive$"
- anui_el_witchgodname_the_horned_god:0 "god_lorkhan_name$"
- anui_el_witchgodname_the_horned_god_possessive:0 "god_lorkhans_name_possessive$"
+ anui_el_witchgodname_the_horned_god:0 "$god_lorkhan_name$"
+ anui_el_witchgodname_the_horned_god_possessive:0 "$god_lorkhan_name_possessive$"
  anui_el_good_god_anui_el:0 "$god_anui_el_name$"

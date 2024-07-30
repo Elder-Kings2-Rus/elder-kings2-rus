@@ -39,7 +39,7 @@
  yokudan_positive_afterlife:0 "$yokudanpositive_afterlife$"
  yokudan_positive_afterlife_2:1 "" # Optional translation alt
  yokudan_positive_afterlife_3:1 "" # Optional translation alt
- yokudan_negative_afterlife:0 "$yokudannegative_afterlife"
+ yokudan_negative_afterlife:0 "$yokudannegative_afterlife$"
  yokudan_negative_afterlife_2:1 "" # Optional translation alt
  yokudan_negative_afterlife_3:1 "" # Optional translation alt
  yokudan_witchgodname_the_horned_god:0 "$god_sep_name$"
@@ -157,8 +157,8 @@
  herd_mother_night_god_name:0 "$black_mare_god_name$"
  herd_mother_night_god_name_possessive:0 "$black_mare_god_name_possessive$"
  herd_mother_water_god_name:0 "$lake_stallion_god_name$"
- herd_mother_water_god_name_possessive:0 "$lake_stallion_god_possessive$"
+ herd_mother_water_god_name_possessive:0 "$lake_stallion_god_name_possessive$"
  herd_mother_good_god_herd_mother:0 "$herd_mother_god_name$"
  herd_mother_good_god_great_mare:0 "$great_mare_god_name$"
  herd_mother_positive_afterlife:0 "$grass_fields_afterlife$"
- herd_mother_negative_afterlife:0 "$salt_fields_afterlife"
+ herd_mother_negative_afterlife:0 "$salt_fields_afterlife$"

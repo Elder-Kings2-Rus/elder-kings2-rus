@@ -6,18 +6,13 @@
  health.1005.court_physician.desc:0 "\n\n"Не волнуйтесь, мой [ROOT.Char.GetLadyLord]! Желтая лихорадка излечима, уверяю вас.""
 
  health.1006.court_physician.desc:0 "\n\n"Боюсь, вы заразились увяданием, мой [ROOT.Char.GetLadyLord]. Я буду лечить тебя немедленно.""
-
- health.1010.court_physician.desc:0 "\n\n"Действительно, эти повреждения являются верным признаком скверны. Очень опасно, если не лечить.""
  
  health.1007.court_physician.desc:0 "\n\n"Да, к сожалению, это гниль. Я знаю только один эффективный способ лечения...""
 
- health.2101.smallpox_outbreak.desc:0 "Проклятие смерти обрушилось на мой двор - обнаружен случай заболевания Скверной!"
- health.2101.smallpox_spreads.desc:0 "Ещё одна душа была проклята Скверной."
  health.2101.bubonic_plague_outbreak.desc:2 "[ROOT.Char.GetFaith.DeathDeityName|U] поднял [ROOT.Char.GetFaith.DeathDeityHerHis] косу над моим королевством - обнаружен случай страшного Кнахатенского гриппа!"
  health.2101.bubonic_plague_spreads.desc:0 "Ещё одна душа стоит у дверей смерти, ужасная засохшая кровь покрывает ноздри [sick_character.GetHerHis]."
  health.2101.imporant.desc:0 "Мой бедный [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sick_character')] [sick_character.GetFirstName] борется за жизнь [sick_character.GetHerHis]."
  
- disease_smallpox:0 "Скверна."
  disease_bubonic_plague:0 "Кнахатенский грипп."
  disease_typhus:0 "Желтая лихорадка."
  disease_pneumonic:0 "Озноб."
@@ -29,7 +24,6 @@
  health.2201.b:0 "Отправьте за [ek_new_physician.GetFirstNameNoTooltip], немедленно!" # (EK) why is that not active?
 
 
- health.2102.smallpox.desc:0 "Скверна"
  health.2102.bubonic_plague.desc:0 "Кнахатенский грипп"
 
  health.1005.t:1 "[SCOPE.Custom('EventTitleDisease')]: Ослабление"

@@ -13,7 +13,7 @@
  stone_religion_high_god_she_he:0 "они"
  stone_religion_high_god_name_alternate:0 ""
  stone_religion_high_god_name_alternate_possessive:0 ""
- stone_religion_pantheon_term:0 "$god_stones$"
+ stone_religion_pantheon_term:0 "$god_stones_name$"
  stone_religion_pantheon_term_has_have:0 "$pantheon_term_have$" 
  stone_religion_devil_name:0 "$god_the_divines_name$"
  stone_religion_devil_name_possessive:0 "$god_the_divines_name_possessive$"
@@ -75,8 +75,8 @@
  stone_religion_night_god_name_possessive:0 "$god_stones_name_possessive$"
  stone_religion_water_god_name:0 "$god_stones_name$"
  stone_religion_water_god_name_possessive:0 "$god_stones_name_possessive$"
- stone_religion_witchgodname_the_horned_god:0 "god_stones_name$"
- stone_religion_witchgodname_the_horned_god_possessive:0 "god_stones_name_possessive$"
+ stone_religion_witchgodname_the_horned_god:0 "$god_stones_name$"
+ stone_religion_witchgodname_the_horned_god_possessive:0 "$god_stones_name_possessive$"
 
  #Ten Iron Oaths
  osh_ornim:0 "Ош-орнимск"
