@@ -1,0 +1,55 @@
+﻿l_russian:
+ #Grave-stake triggered desc 
+ funeral.0100.desc.intro2.grave_stake:0 "Тело подготовлено. [deceased.GetFirstName|U] [Select_CString(deceased.IsFemale, 'покрыта', 'покрыт' )] деревянной маска. На данный момент отпеватель вырезает на могильном столбе историю деяний, которые [deceased.GetFirstName] [Select_CString(deceased.IsFemale, 'совершила', 'совершил' )] при жизни."
+ funeral.0100.desc.outro.grave_stake:0 "Когда отпеватель выгравировал могильный столб, [deceased.GetFirstName|U] придавливается им на болоте. Остаётся только надеяться, что [Select_CString(deceased.IsFemale, 'она', 'он' )] не восстанет в виде болотного гниляка."
+ funeral.0101.desc.intro2.grave_stake:0 "$funeral.0100.desc.intro2.grave_stake$"
+ funeral.0101.desc.outro.grave_stake:0 "$funeral.0100.desc.outro.grave_stake$"
+ #Akaviri triggered desc
+ funeral.0100.desc.intro2.akaviri:0 "[deceased.GetFirstName|U] [Select_CString(deceased.IsFemale, 'завёрнута', 'завёрнут' )] в шёлковые ленты, за исключением [deceased.GetHerHis] лица, на которое надета змеиная маска. Рядом с телом лежат родовые доспехи, некоторые утверждают, что эти доспехи поднимутся, чтобы защитить себя от безрассудных расхитителей могил."
+ #Green Pact triggered desc
+ funeral.0100.desc.intro2.green_pact:0 "Когда оплакивание подходит к концу, мы приступаем к обряду, в ходе которого [deceased.GetFirstName] будет [Select_CString(deceased.IsFemale, 'съедена', 'съеден' )], пока не останутся только кости."
+ funeral.0100.desc.outro.green_pact:0 "\n\nМясной завет почти исполнен, и мне предстоит завершить церемонию."
+ funeral.0101.desc.intro2.green_pact:0 "Когда оплакивание подходит к концу, мы приступаем к обряду, в ходе которого [deceased.GetFirstName] будет [Select_CString(deceased.IsFemale, 'съедена', 'съеден' )], пока не останутся только кости."
+ funeral.0101.desc.intro2.not_green_pact:0 "Когда оплакивание подходит к концу, другие гости приступают к обряду, в ходе которого [deceased.GetFirstName] будет [Select_CString(deceased.IsFemale, 'съедена', 'съеден' )], пока не останутся только кости. Не-[host.GetFaith.GetAdherentNameNoTooltip] может не принимать участия в этом обряде, поэтому я воздерживаюсь."
+ funeral.0101.desc.outro.green_pact:0 "\nМясной завет почти выполнен, и теперь [host.GetName] [Select_CString(host.IsFemale, 'должна', 'должен' )] завершить церемонию."
+ #Malacath triggered desc
+ funeral.0100.desc.outro.malacath_cremation:0 "Я опускаю факел на хворост и наблюдаю, как сгорает деревянная башня. Вскоре [deceased.GetFirstNameNoTooltip] обратится в пепел, который будет смешан в оружие."
+ #Cannibalism triggered desc
+ funeral.0100.desc.intro2.cannibalism:0 "[deceased.GetFirstName|U] [Select_CString(deceased.IsFemale, 'возложена', 'возложен' )] на легкодоступный стол, чтобы каждый мог отведать [deceased.GetHerHis] частичку, дабы умилостивить [host.GetFaith.HighGodNamePossessive]."
+ funeral.0100.desc.outro.cannibalism:0 "[deceased.GetFirstName] почти [Select_CString(deceased.IsFemale, 'съедена', 'съеден' )], и мне, как [Select_CString(ROOT.Char.IsFemale, 'устроительнице', 'устроителю' )], предлагают последние части [deceased.GetHerHis] тела."
+ #Cath Bedraud triggered desc
+ funeral.0100.desc.intro2.cath_bedraud:0 "Как это было принято на протяжении веков, [deceased.GetFirstName] будет [Select_CString(deceased.IsFemale, 'захоронена', 'захоронен' )] на огромном кладбище собора Бидро, вместе с монархами и героями провинции. [Select_CString(deceased.IsFemale, 'Окутанная', 'Окутанный' )] [deceased.GetFirstName|U] [Select_CString(deceased.IsFemale, 'подвешена', 'подвешен' )] над открытой могилой, окружённой близкими друзьями и родственниками. У [deceased.GetHerHis] головы стоит [host.GetNameOrMe],- привилегированное место траура, доступное только великодушному хозяину."
+ funeral.0100.desc.outro.cath_bedraud:0 "Наконец, [deceased.GetHerHis] тело опускают в землю. В окружении величайших королей и королев, спасителей Хай-Рока и среди тех, в кого больше всего верит наш народ, [deceased.GetHerHis] тело должно покоиться, пока [deceased.GetHerHis] душа следует в [ROOT.Char.GetFaith.PositiveAfterLife]..."
+
+ ek_funeral.0001.t:0 "Путь хист"
+ ek_funeral.0001.desc:0 "Все [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] знают, что после смерти наши души возвращаются к хист и в какой-то момент переродятся. Но я не могу не задаться вопросом: кем в следующей жизни станет [deceased.GetName]?"
+ ek_funeral.0001.a:0 "[Select_CString(deceased.IsFemale, 'Великой предводительницей', 'Великим вождём' )]."
+ ek_funeral.0001.b:0 "[Select_CString(deceased.IsFemale, 'Могучей воительницей', 'Могучим воином' )]."
+ ek_funeral.0001.c:0 "[Select_CString(deceased.IsFemale, 'Мудрой древохранительницей', 'Мудрым древохранителем' )]."
+
+ ek_funeral.0002.t:0 "Чешуя мертвеца"
+ ek_funeral.0002.desc:0 "Я удивляюсь, когда ко мне обращается отпеватель с просьбой собрать кости и чешую с тела персонажа [deceased.GetFirstName|U]. В некоторых племенах эту обязанность выполняют отпеватели, а также вырезают могильный столб, но это не наша традиция."
+ ek_funeral.0002.a:0 "Приступайте."
+ ek_funeral.0002.b:0 "Нет, я не могу."
+ scales_improve_weapon.tt:0 "Отпеватель улучшит ваше оружие с помощью чешуи умершего."
+
+ ek_funeral.0003.t:0 "Душа мертвеца"
+ ek_funeral.0003.desc:0 "[deceased.GetName] - не [ROOT.Char.GetFaith.GetAdherentNameNoTooltip], как принято у нашего народа. Это вызвало споры среди скорбящих о том, куда отправится [deceased.GetHerHis] душа. [not_hist_mourner.GetFirstName|U] думает, что [deceased.GetFirstName|U] отправится в [deceased.GetFaith.PositiveAfterLife], так как [deceased.GetSheHe] при жизни [Select_CString(deceased.IsFemale, 'исповедовала', 'исповедовал' )] [deceased.GetFaith.GetAdjective]. [hist_mourner.GetFirstName|U], с другой стороны, считает, что [deceased.GetHerHis] душа отправится в [ROOT.Char.GetFaith.PositiveAfterLife], так как [deceased.GetSheHe] [Select_CString(deceased.IsFemale, 'принадлежала', 'принадлежал' )] к [deceased.GetCultureCollectiveNounNoTooltip]ому народу и что это важнее убеждений."
+ ek_funeral.0003.a:0 "Боюсь, мы не увидим, как [deceased.GetFirstName] переродится."
+ ek_funeral.0003.b:0 "[deceased.GetFirstName] уже рядом с хист."
+
+ ek_funeral.0004.t:0 "Не [Select_CString(gp_nothungry.IsFemale, 'голодна', 'голоден' )]"
+ ek_funeral.0004.desc:0 "[gp_nothungry.GetFirstName|U] подходит ко мне и заявляет, что [gp_nothungry.GetSheHe] очевидно, не желает есть персонажа [deceased.GetName]. Это возмутительно, как [gp_nothungry.GetSheHe] [Select_CString(gp_nothungry.IsFemale, 'могла', 'мог' )] ослушаться воли И'ффре? Неужели [gp_nothungry.GetSheHe] желает попасть в [ROOT.Char.GetFaith.NegativeAfterLife]?"
+ ek_funeral.0004.a:0 "Нет, ты съешь [deceased.GetHerHis]."
+ ek_funeral.0004.b:0 "Хорошо, ты можешь воздержаться."
+
+ ek_funeral.0005.t:0 "[Select_CString(deceased.IsFemale, 'Отступница', 'Отступник' )]"
+ ek_funeral.0005.desc:0 "Несмотря на то что [deceased.GetName] при жизни не [Select_CString(deceased.IsFemale, 'исповедовала', 'исповедовал' )] [ROOT.Char.GetFaith.GetAdjective], большинство гостей не видят проблемы в том, чтобы съесть [deceased.GetHerHis]. Только [gp_opponent.GetFirstName|U] яростно настаивает на том, что если [deceased.GetName] будет [Select_CString(deceased.IsFemale, 'съедена', 'съеден' )], мы нарушим устои нашей конфессии, поэтому мы должны немедленно прекратить погребальную церемонию."
+ ek_funeral.0005.a:0 "Это чушь, [deceased.GetName] будет [Select_CString(deceased.IsFemale, 'съедена', 'съеден' )]."
+ ek_funeral.0005.b:0 "[gp_opponent.GetFirstName|U] [Select_CString(gp_opponent.IsFemale, 'права', 'прав' )], остановить погребальную церемонию!"
+
+ ek_funeral.0006.t:0 "Прах мертвеца"
+ ek_funeral.0006.desc:0 "У нашего народа существует традиция смешивать прах усопших с оружием. По этой причине моя [GetCourtPositionType('forgewife_court_position').GetName()] [forgewife.GetFirstName] подходит ко мне, прося разрешения сделать это с прахом персонажа [deceased.GetFirstName|U]."
+ ek_funeral.0006.a:0 "Я разрешаю."
+ ek_funeral.0006.b:0 "Нет, я не могу позволить..."
+ ash_weapon_improved:0 "Ваша [GetCourtPositionType('forgewife_court_position').GetName()] улучшит ваше оружие"

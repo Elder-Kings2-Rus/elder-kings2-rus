@@ -1,8 +1,17 @@
 ﻿l_russian:
  south_tamriel.0001.t:0 "Свет Арнезии"
- south_tamriel.0001.desc:0 "Вау, какой классный лорный текст :)"
+ south_tamriel.0001.desc:0 "Ah, Arnesia - the mighty fortress-kingdom of the Cantemirics!\n\nFounded in the spot where the wise Oracle Cantemir allegedly reached enlightenment and gained true knowledge of the Endeavour from her Hist teachers, it served as a safe haven in an inhospitable land - alongside its sister cities of Archon and Thorn a true sanctuary from the trials of Mundus. Here the fortunes of the Cantemiric clans ebbed and flowed, never sinking beneath the waves.\n\nIn the wake of a slow decline, the Velothi have again surged forth under the lead of [ROOT.Char.GetFullNameNicknamedNoTooltip]. Sweeping away all opposition within and without, [ROOT.Char.GetSheHe] has annexed all lands south of the fortress until Archon, restoring the long lost Kingdom of Arnesia\n\nNedes, Argonians and perhaps more shall see that Cantemiric walls stand strong, in stone and in faith."
  south_tamriel.0001.a:0 "Арнезия моя любимая..."
 
  south_tamriel.0011.t:0 "Болота слёз"
  south_tamriel.0011.desc:0 "После бесчисленных набегов и войн, начатых жителями Болота Слёз, этот регион наконец-то перешёл под наш контроль.\nНаша администрация неустанно работала над интеграцией Болота Слёз, так что теперь его жители и правящий класс называют Чернотопье своим домом."
  south_tamriel.0011.a:0 "Никаких больше набегов и никаких войн."
+
+ # it's a very simple event with simple desc, not gonna bother making too unique descs for it
+ south_tamriel.0012.t:0 "Болота слёз"
+ south_tamriel.0012.desc:0 "После бесчисленных набегов и войн, начатых жителями Болота Слёз, этот регион наконец-то перешёл под наш контроль.\nНаша администрация неустанно работала над интеграцией Болота Слёз, так что теперь его жители и правящий класс называют Кантемирис своим домом."
+ south_tamriel.0012.a:0 "Никаких больше набегов и никаких войн."
+
+ south_tamriel.0013.t:0 "Болота слёз"
+ south_tamriel.0013.desc:0 "After expunging the invaders, the region has been brought back under our control.\n Now our administration must work tirelessly to reintegrate Tearmarsh, undoing the damage caused to the hearts and minds of its people."
+ south_tamriel.0013.a:0 "Justice!"

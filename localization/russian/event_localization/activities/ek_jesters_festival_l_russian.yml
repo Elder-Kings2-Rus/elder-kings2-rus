@@ -1,9 +1,10 @@
 ﻿l_russian:
 
-   feast.2001.desc_outro_jesters_festival:0 "\n\nНачинается фестиваль шутов, так что пришло время повеселиться!"
+ feast.2001.desc_outro_jesters_festival:0 "\n\nНачинается фестиваль шутов, так что пришло время повеселиться!"
  ek_jesters_festival.2001.t:0 "Фестиваль шутов"
  ek_jesters_festival.2001.desc:0 "Гости - лорды и леди из ближних и дальних уголков державы -собрались у огня.\n\nНачинается фестиваль шутов, так что пришло время повеселиться!"
  ek_jesters_festival.2001.a:0 "Приходите сами и захватите своих друзей - добро пожаловать на праздник дураков!"
+ ek_jesters_festival.2001.a.tt:0 "Фестиваль начинается"
 
 
  ek_jesters_festival.2501.t:0 "Фестиваль шутов"
@@ -20,17 +21,17 @@
  ek_jesters_festival.0001.desc:0 "В то время, как я наслаждаюсь празднеством, [prankster.GetNameNoTooltip] подходит ко мне с широкой улыбкой.\n\n"[ROOT.GetCharacter.GetFirstNameNoTooltip], я хочу представить вам кое-кого особенного. Это очень важный и знатный гость, которому не терпится встретиться с вами."\n\nЭто вызвало моё любопытство. Кто бы это мог быть? Меня попросили закрыть глаза, так как это был сюрприз, а гость очень застенчив. Когда меня попросили открыть их снова, перед моим взглядом предстает свинья в короне и плаще. Я в растерянности смотрю на [prankster.GetFirstNameNoTooltip] и [prankster.GetSheHe] начинает безудержно хохотать."
  ek_jesters_festival.0001.a:0 "Ты пожалеешь об этом, [prankster.GetShortUINameNoTooltip], помяни моё слово."
  ek_jesters_festival.0001.b:0 "Ха, неплохо!"
- rival_noble_guest:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'разыграла', 'разыграл' )] гостя по имени [CHARACTER.GetShortUIName], представив [CHARACTER.GetHerHim] ОЧЕНЬ знатному гостю на Фестивале шутов."
- rival_noble_guest_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'разыграла', 'разыграл' )] гостя по имени [TARGET_CHARACTER.GetShortUIName], представив [CHARACTER.GetHerHim] ОЧЕНЬ знатному гостю на Фестивале шутов."
+ rival_noble_guest:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'разыграли', Select_CString(TARGET_CHARACTER.IsFemale, 'разыграл', 'разыграл' ))] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )], представив [Select_CString( CHARACTER.IsLocalPlayer, 'вас', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] ОЧЕНЬ знатному гостю на Фестивале шутов."
+ rival_noble_guest_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'разыграли', Select_CString(CHARACTER.IsFemale, 'разыграл', 'разыграл' ))] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )], представив [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'вас', Select_CString(TARGET_CHARACTER.IsFemale, 'её', 'его' ))] ОЧЕНЬ знатному гостю на Фестивале шутов."
 
  ek_jesters_festival.0002.t:0 "Фестиваль шутов: весеннее настроение"
  ek_jesters_festival.0002.desc:0 "Для всех, кто празднует Фестиваль шутов, обычным розыгрышем является осыпание цветами угрюмых гостей в надежде развеселить их.\n\nЯ замечаю, что [grumpy.GetTitledFirstNameNoTooltip] выглядит довольно угрюмо. Возможно, цветочный дождь развеет тревоги, которыми [grumpy.GetSheHe] терзается?"
  ek_jesters_festival.0002.a:0 "Ворчунам вход воспрещен!"
- ek_jesters_festival.0002.b:0 "Я не хочу расстраивать [grumpy.GetHerHim]..."
- friend_springtime_flair:0 "[CHARACTER.GetShortUIName|U] [Select_CString(ROOT.CHARACTER.IsFemale, 'осыпала', 'осыпал' )] гостя по имени [TARGET_CHARACTER.GetShortUIName] цветами на Фестивале шутов, подняв [TARGET_CHARACTER.GetHerHim] настроение."
- friend_springtime_flair_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'подняла', 'поднял' )] настроение гостю по имени[CHARACTER.GetShortUIName], осыпав [CHARACTER.GetHerHim] цветами на Фестивале шутов."
- rival_springtime_flair:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'разыграла', 'разыграл' )] гостя по имени [CHARACTER.GetShortUIName], осыпав [CHARACTER.GetHerHim] цветами на Фестивале шутов."
- rival_springtime_flair_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'разыграла', 'разыграл' )] гостя по имени [TARGET_CHARACTER.GetShortUIName], осыпав [TARGET_CHARACTER.GetHerHim] цветами на Фестивале шутов."
+ ek_jesters_festival.0002.b:0 "Я не хочу расстраивать [grumpy.GetHerHis]..."
+ friend_springtime_flair:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'осыпали', Select_CString(CHARACTER.IsFemale, 'осыпала', 'осыпал' ))] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] цветами на Фестивале шутов, подняв [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'вам', Select_CString(TARGET_CHARACTER.IsFemale, 'ей', 'ему' ))] настроение."
+ friend_springtime_flair_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'осыпали', Select_CString(TARGET_CHARACTER.IsFemale, 'осыпала', 'осыпал' ))] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] цветами на Фестивале шутов, подняв [Select_CString( CHARACTER.IsLocalPlayer, 'вам', Select_CString(CHARACTER.IsFemale, 'ей', 'ему' ))] настроение."
+ rival_springtime_flair:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'разыграли', Select_CString(TARGET_CHARACTER.IsFemale, 'разыграла', 'разыграл' ))] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )], осыпав [Select_CString( CHARACTER.IsLocalPlayer, 'вас', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] цветами на Фестивале шутов."
+ rival_springtime_flair_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'разыграли', Select_CString(CHARACTER.IsFemale, 'разыграла', 'разыграл' ))] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )], осыпав [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'вас', Select_CString(TARGET_CHARACTER.IsFemale, 'её', 'его' ))] цветами на Фестивале шутов."
 
  ek_jesters_festival.0003.t:0 "Фестиваль шутов: королевские гулянья"
  ek_jesters_festival.0003.desc:0 "Одним из самых ожидаемых события на Фестивале шутов является запуск иллюзорных шутих, алхимических чудес, которые взрываются, окрашивая небо яркими красками!\n\nТакие же шутихи позабавят простолюдинов, населяющих [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]!"
@@ -39,4 +40,3 @@
  
  feast_type_jesters_festival:0 "Фестиваль шутов"
  feast_type_jesters_festival_desc:0 "$EFFECT_LIST_BULLET$ Те же эффекты, что и у обычном пира, но с розыгрышами и шутовством!\n\n#weak Празднуйте абсурд!#!"
-

@@ -1,5 +1,5 @@
 ﻿l_russian:
- ek_culture_creation_decision.0001.t:0 "[new_culture.GetName] из владения [new_culture_duchy.GetNameNoTier]"
+ ek_culture_creation_decision.0001.t:0 "Возрождение #L [new_culture.GetCollectiveNoun|l]ого#! народа"
  ek_culture_creation_decision.0001.desc_intro:0 "Давным-давно [new_culture.GetName|l], потерянное племя нашего народа, сформировали развитое общество.\n\nК сожалению, их история была потеряна в тумане времени, но благодаря работе наших ученых, раскопкам и переводам старых текстов, я, наконец, могу поведать историю их культуры и распространить её среди моего народа."
  ek_culture_creation_decision.0001.desc_mid:0 "\n\nНекоторые утверждают, что они — [new_culture.GetName|l], как говорят им их сердца, и с ними начинается новая эпоха для #L [new_culture.GetCollectiveNoun|l]ого#! народа."
  ek_culture_creation_decision.0001.desc_personal:0 "\n\nПоскольку я [Select_CString(ROOT.Char.IsFemale, 'сама', 'сам' )] почитаю эти традиции, я поведу наш возрождённый народ, и мы снова будем процветать в Тамриэле!"
@@ -491,6 +491,64 @@
  ek_murder_outcome.2001.a.discovered:0 "Скоро все склонятся перед Госпожой Интриг!"
  ek_murder_outcome.2001.a:0 "Это останется в тайне."
 
+ ek_murder_outcome.1002.t:0 "One Bad Apple..."
+ ek_murder_outcome.1002.d:0 "One of my agents have through a shadowy contact learned of a peculiar murder method. It would seem the feared Dark Brotherhood is fond of making use of poisoned fruit - specifically, apples! They've taken the liberty to acquire a whole barrel of the stuff, as apparently a bulk purchase made for a good deal.\n\n[target.GetTitledFirstName] is soon to learn the sweet taste of a fruity death."
+ ek_murder_outcome.1002.a:0 "Poisoned apples, huh? Ingenious!"
+ ek_murder_outcome.1002.b:0 "What a silly plan!"
+
+ ek_murder_outcome.2002.opening_1:0 "It seems [target.GetTitledFirstName] was a greater fool than I ever imagined, never questioning the origin of the fresh apple found in their pockets."
+ ek_murder_outcome.2002.opening_2:0 "Among the many fruits of their evening snack, the particularly delicious looking apple must have caught [target.GetTitledFirstName]'s attention, as they are no more!"
+ ek_murder_outcome.2002.owner_is_known_1:0 "\n\nUnfortunately, the nightblade sent to plant the fruit had brought with them spares and accidentally spilled these out on the floor while scurrying away from the scene.\n\nIn a panic, they revealed my involvement!"
+ ek_murder_outcome.2002.owner_is_known_2:0 "\n\nHowever, a clever servant of [target.GetTitledFirstName] had gotten wind of the recent bulk purchase of poisoned apples, and the trail led directly back to me!"
+ ek_murder_outcome.2002.no_awareness_1:0 "\n\nHaving left the premises promptly, the assassin was far away from there upon the discovery of [target.GetTitledFirstName]'s body, half-eaten apple in their hand.\n\nNo one can suspect me of ordering such a silly way to murder someone."
+ ek_murder_outcome.2002.no_awareness_2:0 "\n\nHaving forgotten themselves, the assassin sent to plant the fruit ate one of the apples they had brought. Lucky for me, it was too late for [target.GetTitledFirstName] to learn of this.\n\nWhile the means of murder was obvious enough, no one lived to tell of my part in the affair."
+ ek_murder_outcome.2002.a.discovered:0 "I take it the apple was not to their liking then?"
+ ek_murder_outcome.2002.a:0 "...spoils the whole barrel."
+
+ ek_murder_outcome.4002.desc:1 "\n\nNo apple flavoured death claimed [target.GetTitledFirstName] this day."
+ ek_murder_outcome.4002.exposed_scheme:0 "The nightblade sent to plant the fruit was discovered, and their pockets being full of apples caught the attention of the guards - who promptly seized the assassin and confiscated their goods for closer inspection.\n\nUnder threat of being forced to sample the fruit themselves, they admitted my involvement in the matter!"
+ ek_murder_outcome.4002.not_exposed_scheme:0 "While the apple itself was successfully planted, it would seem it went untouched - simply spoiling before anyone could take a bite of it to discover its lethal secrets."
+ ek_murder_outcome.4002.a:0 "Let's abandon this silly endeavour."
+ ek_murder_outcome.4002.a.discovered:0 "Poisoned apples, bah!"
+
+ ek_murder_outcome.5001.poisoned_apple:0 "Going about my day as usual, I suddenly feel a little snackish. Perhaps it is time for an afternoon meal? Rummaging through my pockets I find a deliciously fresh looking apple. I cannot quite recall bringing that with me from the kitchens, though perhaps past me must have known I would want one of those for later.\n\nAfter a few bites however, something feels off. The sweet fruit seems to turn to ash in my mouth and my vision is growing darker. As I collapse upon the floor, the apple rolls out of my hand, rolling, rolling, rolling..."
+ ek_murder_outcome.5002.poisoned_apple:0 "Having forgotten about it, the fruit bowl placed in my chambers eventually spoiled. Not bothering to wait for a servant to take it away, I threw the rotting fruit away out through a window. A variety of local birdlife promptly appeared, dining upon the discarded foods. One by one however, they keel over, frantically spasming and flapping their wings. Could it be...?\n\nPoisoned fruit!"
+
+ ek_murder_outcome.1003.t:0 "The Doors of Oblivion"
+ ek_murder_outcome.1003.d:0 "#italic "The great benefit of employing conjurers is that they will not be carrying any arms or other obvious means of murder, and will not be close enough to run much risk of discovery..."#!\n\nAs one of my agents explains at length how an expert of Conjuration could be an effective assassin, their reasoning is starting to make a lot of sense to me."
+ ek_murder_outcome.1003.a:0 "Perfect!"
+ ek_murder_outcome.1003.b:0 "I will have no part in Daedra summoning."
+
+ ek_murder_outcome.2003.intro:0 "My hired conjurer having successfully entered [province.GetNameNoTier], they proceeded to summon"
+ ek_murder_outcome.2003.opening_1:0 "a throng of fearsome clannfear, whose sudden appearance quickly overwhelmed the guards escorting [target.GetTitledFirstName], and upon breaking through the line of defence, violently tore them apart."
+ ek_murder_outcome.2003.opening_2:0 "a horde of atronachs, whose elemental onslaught caused great chaos among the ranks of [target.GetTitledFirstName]'s guard escort. My target fell screaming from a great electric shock."
+ ek_murder_outcome.2003.opening_3:0 "a fearsome daedroth, who charged towards [target.GetTitledFirstName] and caught them in its terrible jaws."
+ ek_murder_outcome.2003.opening_4:0 "a powerful Dremora, clad in dark armour and wielding a terrible battleaxe. The Daedric warrior cleaved through the defenders with ease, dispatching [target.GetTitledFirstName] with one fell blow."
+ ek_murder_outcome.2003.owner_is_known_1:0 "\n\nUnfortunately there was no doubt in [target.GetHerHis] mind who must have wished them dead, and they died naming me their killer."
+ ek_murder_outcome.2003.owner_is_known_2:0 "\nAlas, the summoner was spotted and before they were able to flee, they were captured. Soon enough it was revealed who had sent them."
+ ek_murder_outcome.2003.no_awareness_1:0 "\n\nIn the ensuing chaos no one noticed one more person fleeing the scene, letting my conjurer safely leave [province.GetNameNoTier] - leaving no trails leading to me."
+ ek_murder_outcome.2003.no_awareness_2:0 "\n\nIt seems my conjurer unfortunately lost control over their summoned servants, they too falling victom to the murderous rampage. Fortunately for me, this means no one will know they were in my employ."
+ ek_murder_outcome.2003.a.discovered:0 "Employing conjurers, me? I would never!"
+ ek_murder_outcome.2003.a:0 "Daedra are awfully common these days."
+
+ ek_murder_outcome.4003.desc.1:1 "\n\nWhile the conjured clannfear wreaked great havoc, they failed to actually get to [target.GetTitledFirstName] before being rounded up and cut down."
+ ek_murder_outcome.4003.desc.2:1 "\n\nThe conjured atronachs bickered among themselves, failing to present a unified front, allowing [target.GetTitledFirstName] to escape an elemental doom."
+ ek_murder_outcome.4003.desc.3:1 "\n\nThe conjured daedroth was fearsome indeed, but its animal instincts led it to seek food rather than ensuring the death of [target.GetTitledFirstName]."
+ ek_murder_outcome.4003.desc.4:1 "\n\nThe mighty conjured Dremora, distracted by their martial pride, fought a series of duels against [target.GetTitledFirstName]'s [target.GetCulture.GetNameNoTooltip] honour guard - allowing the target to get to safety."
+ ek_murder_outcome.4003.exposed_scheme:0 "\n\nShortly afterwards my conjurer was spotted acting suspiciously, having failed to leave [province.GetNameNoTier] quickly enough. Terribly distraught at the great loss of lives #italic except#! the actual target, they named me as their employer."
+ ek_murder_outcome.4003.not_exposed_scheme:0 "\n\nWhile the plan itself was a failure, my conjurer managed to escape undetected, leaving no trail back to me."
+ ek_murder_outcome.4003.a:0 "Let us end this."
+ ek_murder_outcome.4003.a.discovered:0 "Summoned Daedra are unreliable, it would seem."
+
+ ek_murder_outcome.5001.summoned_daedra.1:0 "While out on a walk with my retinue of guards, suddenly we are beset by Daedra! A great throng of reptilian clannfear come rushing from every direction, overwhelming my escorts.\n\nA particularly big and mean looking one breaks through the line of defence, heading straight towards me. I barely have time to shout out as it smashes into me, its razor teeth digging into my throat."
+ ek_murder_outcome.5001.summoned_daedra.2:0 "While out on a walk with my retinue of guards, suddenly we are beset by Daedra! A colourful host of atronachs of every variety rains elemental death down upon my little party.\n\nAs fireballs roar and great spears of ice soar through the air, I feel the trickle of an incoming electric current - by the time I hear the boom of thunder, the great lightning has already struck me."
+ ek_murder_outcome.5001.summoned_daedra.3:0 "While out on a walk with my retinue of guards, suddenly we are beset by Daedra! A massive daedroth comes stomping from behind us, carrying its great mass with incredible speed.\n\nThose of my escorts who did not immediately break rank to flee for their lives, are soon crushed under the monster's powerful limbs. As I raise my arms in defence, my whole field of vision is engulfed by its terrible maw."
+ ek_murder_outcome.5001.summoned_daedra.4:0 "While out on a walk with my retinue of guards, suddenly we are beset by Daedra! A single Dremora warrior calmly approaches, eyes staring directly at me.\n\nAs the first of my brave guards raises their weapon to strike, they are quickly cut down in cold blood, the Daedric warrior never letting me out of its sight. At last I stand alone, a mighty battleaxe bearing down upon me."
+ ek_murder_outcome.5002.summoned_daedra.1:0 "While out on a walk with my retinue of guards, a secret conjurer worked their magic! A horde of reptilian clannfear suddenly appeared, attacking anyone in their path.\n\nLittle more than animals however, their rampage was quickly brought to an end by my guards before any serious harm could be inflicted."
+ ek_murder_outcome.5002.summoned_daedra.2:0 "While out on a walk with my retinue of guards, a secret conjurer worked their magic! Atronachs of all variants suddenly appeared, but as any Daedrologists can tell you, the different elementals rarely get along.\n\nAs fire atronachs got caught in ice storms and frost atronachs melted under arcane fire, the rest were easily dispatched by my guards."
+ ek_murder_outcome.5002.summoned_daedra.3:0 "While out on a walk with my retinue of guards, a secret conjurer worked their magic! A massive daedroth came crashing into the flank of my little party. Short work was made of those of my guards unfortunate enough to be stationed on that side, but luckily this particular daedroth must have been quite hungry, as it ceased its assault to begin feasting.\n\nDistracted in such a way, my remaining guards could be rallied to attack and slay it together."
+ ek_murder_outcome.5002.summoned_daedra.4:0 "While out on a walk with my retinue of guards, a secret conjurer worked their magic! A single Dremora warrior clad in Daedric armour approached, a haughty look in its eyes as it regarded us. Proving the arrogance of their people, the warrior challenged my guards to bouts of single combat! After an incredible duel, a champion of my people struck down the Daedric assailant!"
+
 #Forgotten Gods conversion event 
  ek_forgor_event.0001.t:0 "Чашечка чая"
  ek_forgor_event.0001.desc:0 "Чайник закипел. Для сегодняшнего чаепития была приготовлена специальная смесь из местных трав. Хотя травяной чай полезен для тела и разума, цель сегодняшнего напитка не в этом. Большая чашка чая передо мной символизирует даже не чай, а скорее плодородную почву, питавшую травы, и #italic воду#!, взятую из чистого горного источника для его заваривания этого чая.\n\nПочва и вода, твёрдое и жидкое, тело и дух, Мундус и Этериус — настоящее и прошлое. Какие #italic воспоминания#! таятся в водах этой земли, и как раскрываются её секреты, находящиеся глубоко внутри каждого из нас?\n\nЯ глубоко заглядываю в чашку, впитывая приятные ароматы и теряясь в узорах, образованных плавающими листьями..."
@@ -529,6 +587,9 @@
  ek_shadowscale_event.0004.option4:0 "Нет, вы не получите ни одного из них!"
  ek_shadowscale_event.0004.option4.flavor:0 "Тёмные ящеры не забудут вашего отказа.."
 
+ ek_health_recovery_veneration_of_diseases:0 "I survived one disease to carry many more"
+ ek_health_contraction_veneration_of_diseases:0 "Another gift from the figuring father"
+
  ek_health.0001.t:1 "[SCOPE.Custom('EventTitleDisease')]: Охотничье облегчение"
  ek_health.0001.desc:0 "Я наконец-то [Select_CString(ROOT.Char.IsFemale, 'избавилась', 'избавился' )] от этой ужасной вялости. Теперь я чувствую себя столь же [Select_CString(ROOT.Char.IsFemale, 'энергичной', 'энергичным' )], как и до встречи с этим проклятым чудовищем! Я чувствую облегчение, потому что мне больше не грозит опасность превратиться в чудовище."
  ek_health.0001.a:0 "Не сегодня, Хирсин!"
@@ -536,6 +597,14 @@
  ek_health.0002.t:1 "[SCOPE.Custom('EventTitleDisease')]: Тепло солнца"
  ek_health.0002.desc:0 "Я наконец-то [Select_CString(ROOT.Char.IsFemale, 'избавилась', 'избавился' )] от этой ужасной жажды. Теперь я чувствую запахи и вкусы, как это и было до встречи с этим проклятым зверем! Я чувствую облегчение, потому что мне больше не грозит опасность превратиться в чудовище."
  ek_health.0002.a:0 "Время для солнечных ванн!"
+
+ ek_health.0003.t:1 "[SCOPE.Custom('EventTitleDisease')]: Mind Reconquered"
+ ek_health.0003.desc:0 "The magical fog that clouded my thoughts and damped my arcana is finally lifted. Now I feel the magicka pumping through my veins again. This strange affliction certainly left a mark on my mind, but in the end it was no match for me."
+ ek_health.0003.a:0 "It's like awakening from a slumber!"
+
+ ek_health.0004.t:1 "[SCOPE.Custom('EventTitleDisease')]: Death Escaped"
+ ek_health.0004.desc:0 "The nausea that has been plaguing me for weeks was suddenly gone this morning. And the terrible cramps and fever attacks don't seem to be coming back either. I hardly dare to hope, but it looks as if Peryite's curse has finally been lifted from me and my soul will avoid the Pits, which are his realm."
+ ek_health.0004.a:0 "You won't claim me, Peryite!"
 
  ek_health.1001.t:1 "[SCOPE.Custom('EventTitleDisease')]: Проклятие Хирсина"
  ek_health.1001.desc:0 "С тех пор, как я [Select_CString(ROOT.Char.IsFemale, 'столкнулась', 'столкнулся' )] с этим проклятым существом, я чувствую себя [Select_CString(ROOT.Char.IsFemale, 'вялой и сонной', 'вялым и сонным' )]. У меня нет сил ни на что. Я хочу просто лежать в своей кровати целыми днями."
@@ -547,6 +616,15 @@
  ek_health.1002.court_physician.desc:0 "\n\n«Ваши симптомы указывают на то, что вы заразились Сангвинаре вампирис, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetLadyLord]. К счастью, мы обнаружили болезнь достаточно рано и её можно легко вылечить.»"
  ek_health.1002.a:0 "Я не хочу покидать постель..."
 
+ ek_health.1003.t:0 "[SCOPE.Custom('EventTitleDisease')]: An Arcane Affliction"
+ ek_health.1003.desc:0 "Something is going on with my mind. I have difficulty remembering even the most basic things, and I find myself increasingly unable to follow the conversations around me. Everything seems so... complicated. How was I able to keep up in the past? And why does it feel like the magicka is growing weaker everyday?"
+ ek_health.1003.court_physician.desc:0 "\n\n"What a strange infection this is, my [ROOT.Char.GetLadyLord]! It seems to grow stronger the more magicka it consumes. We have to act quickly or the consequences could be dire.""
+ ek_health.1003.a:0 "What is happening to me?"
+
+ ek_health.1004.t:0 "[SCOPE.Custom('EventTitleDisease')]: Peryite's Embrace"
+ ek_health.1004.desc:0 "It started with a slight fever and now suddenly I feel cramps shaking my whole body. Within seconds I'm vomiting the contents of my stomach all over the floor, and the fumes are like something out of Oblivion itself.\n\nThere is no doubt, this is more than a normal sickness hit, it is the work of Peryite himself."
+ ek_health.1004.court_physician.desc:0 "\n\n"I am not sure if my abilites are enough to battle the Lord of Plagues my [ROOT.Char.GetLadyLord]. However, I wll try my best and maybe we are able to achieve a victory against this disease and it's creator.""
+ ek_health.1004.a:0 "I feel nauseous again..."
 
  ek_health.2001.t:0 "Странное состояние"
  ek_health.2001.desc:0 "Вот уже несколько ночей меня мучают яркие кошмары, полные сцен жестокости, резни и дикой жажды крови. Почти каждое утро я просыпаюсь и вижу, что на моём теле есть странные травмы, происхождение которых я не могу объяснить. Мои волосы также растут быстрее, чем раньше. И в весьма странных и неожиданных местах.\n\nКаждый раз, когда я просыпаюсь, чувствуя себя [Select_CString(ROOT.Char.IsFemale, 'сытой и довольной', 'сытым и довольным' )]. А потом я узнаю, что при дворе говорят о большом звере, который бродит по земле, убивая и пожирая всё живое, что попадается ему на пути.\n\nНеужели это... я?"
@@ -555,6 +633,14 @@
  ek_health.2002.t:0 "Странное состояние"
  ek_health.2002.desc:0 "Вот уже несколько ночей меня мучают яркие кошмары о дикой жажде крови. Почти каждое утро я просыпаюсь и понимаю, что мой рот сух, а странная жажда так никуда и не делась. Вся еда потеряла свой вкус, за исключением избранных стейков.\n\nВо что я превращаюсь?"
  ek_health.2002.a:0 "[ROOT.Char.GetFaith.HighGodName|U], смилуйся надо мной!"
+
+ health.2101.chrondiasis_outbreak.desc:0 "A rare, yet concerning, disease has found its way into my court. Apparently, there is an infection of Chrondiasis."
+ health.2101.chrondiasis_spreads.desc:0 "Another individual with magical abilities has fallen victim to Chrondiasis."
+
+ health.2101.peryite_affliction_outbreak.desc:0 "Peryite's disease-ridden influence has reached my court, and the Prince's very own illness, called Peryite's Affliction, has sunk its clutches into the first victim."
+ health.2101.peryite_affliction_spreads.desc:0 "The Plague Lords disease spreads even further and claims another member of my court."
+
+ ek.health.risky_treatment_disruption.1.desc:0 "[physician.GetTitledFirstName] prepares a bunch of instruments I have never seen before, additionally [physician.GetSheHe] offers me a strange potion to drink. As it trickles down my throat, I can feel the effect immediately - this alchemical solution drains my body of all magicka. With a sudden shock I realise the purpose of those instruments: they are meant to perpetuate this state. [physician.GetFirstName|U] looks at me apologetically: "There is no other way my [ROOT.Char.GetLadyLord]. The sickness feeds on your magicka, so we have to permanently cut it of from it's source."
 
  convert_to_vampire_key:0 "Обратить в вампира"
  convert_to_vampire_interaction:1 "$convert_to_vampire_key$ #weak (Происки)#!"
@@ -684,17 +770,17 @@
  ek_transformation.2110.a.tt:1 "Кто-то знает ваш [secret|El]"
  ek_transformation.2110.message:0 "Секрет раскрыт"
 
- death_management.1984.t:0 "Познай себя: [Select_CString(ROOT.Char.IsFemale, 'Непобеждённая', 'Непобеждённый' )]"
- death_management.1984.lich.desc:0 "Год назад я [Select_CString(ROOT.Char.IsFemale, 'знала', 'знал' )], что моя смерть неизбежна. Но сегодня я стою здесь, [Select_CString(ROOT.Char.IsFemale, 'живая', 'живой' )] — или почти [Select_CString(ROOT.Char.IsFemale, 'живая', 'живой' )] — и [Select_CString(ROOT.Char.IsFemale, 'непобеждённая', 'непобеждённый' )]. Я [Select_CString(ROOT.Char.IsFemale, 'стала', 'стал' )] бессмертным личом, неподвластным смерти. Простой смертный может предвидеть свою скорую кончину и ждать её. Я же [Select_CString(ROOT.Char.IsFemale, 'предвидела', 'предвидел' )] свою смерть и [Select_CString(ROOT.Char.IsFemale, 'победила', 'победил' )] её."
- death_management.1984.lich.a:0 "Теперь смерть служит мне."
+ ek_death_management.0001.t:0 "Познай себя: [Select_CString(ROOT.Char.IsFemale, 'Непобеждённая', 'Непобеждённый' )]"
+ ek_death_management.0001.lich.desc:0 "Год назад я [Select_CString(ROOT.Char.IsFemale, 'знала', 'знал' )], что моя смерть неизбежна. Но сегодня я стою здесь, [Select_CString(ROOT.Char.IsFemale, 'живая', 'живой' )] — или почти [Select_CString(ROOT.Char.IsFemale, 'живая', 'живой' )] — и [Select_CString(ROOT.Char.IsFemale, 'непобеждённая', 'непобеждённый' )]. Я [Select_CString(ROOT.Char.IsFemale, 'стала', 'стал' )] бессмертным личом, неподвластным смерти. Простой смертный может предвидеть свою скорую кончину и ждать её. Я же [Select_CString(ROOT.Char.IsFemale, 'предвидела', 'предвидел' )] свою смерть и [Select_CString(ROOT.Char.IsFemale, 'победила', 'победил' )] её."
+ ek_death_management.0001.lich.a:0 "Теперь смерть служит мне."
 #NOTE TO TRANSLATORS: this is not a mistake, it is a joke
- death_management.1984.vampire.desc:0 "Год назад я [Select_CString(ROOT.Char.IsFemale, 'знала', 'знал' )], что моя смерть неизбежна. Но сегодня я стою здесь, почти [Select_CString(ROOT.Char.IsFemale, 'живая', 'живой' )]. Я [Select_CString(ROOT.Char.IsFemale, 'избежала', 'избежал' )] власти смерти и [Select_CString(ROOT.Char.IsFemale, 'стала', 'стал' )] вампиром. Простые смертные, каким некогда [Select_CString(ROOT.Char.IsFemale, 'была', 'был' )] я, могут предвидеть свою смерть и дрожать от страха, ожидая её приближения. Я же [Select_CString(ROOT.Char.IsFemale, 'предвидела', 'предвидел' )] свою смерть и [Select_CString(ROOT.Char.IsFemale, 'отвергла', 'отверг' )] её. Теперь я насылаю её на смертных острейшими кончиками своих клыков."
- death_management.1984.vampyre.desc:0 "Год назад я [Select_CString(ROOT.Char.IsFemale, 'знала', 'знал' )], что моя смерть неизбежна. Но сегодня я стою здесь, почти [Select_CString(ROOT.Char.IsFemale, 'живая', 'живой' )]. Я [Select_CString(ROOT.Char.IsFemale, 'избежала', 'избежал' )] власти смерти и [Select_CString(ROOT.Char.IsFemale, 'стала', 'стал' )] вампиром. Простые смертные, каким некогда [Select_CString(ROOT.Char.IsFemale, 'была', 'был' )] я, могут предвидеть свою смерть и дрожать от страха, ожидая её приближения. Я же [Select_CString(ROOT.Char.IsFemale, 'предвидела', 'предвидел' )] свою смерть и [Select_CString(ROOT.Char.IsFemale, 'отвергла', 'отверг' )] её. Теперь я насылаю её на смертных острейшими кончиками своих клыков." 
- death_management.1984.vampire.a:0 "Я буду жить вечно"
- #death_management.1984.briarheart.desc:0 "Год назад я [Select_CString(ROOT.Char.IsFemale, 'знала', 'знал' )], что моя смерть неизбежна. But I, like #LORE [compendium_lorkh]#!, faced death. And while I may not have escaped unscathed, I escaped alive. The gaping hole, and beating briar heart, within my chest prove it. Weak cowards might foresee their deaths and fear it. But we Briarhearts know there is nothing to fear. Death is rebirth."
- #death_management.1984.briarheart.a:0 "And I am reborn."
- death_management.1984.lifespan_6.desc:0 "Год назад я [Select_CString(ROOT.Char.IsFemale, 'знала', 'знал' )], что моя смерть неизбежна. Но с тех пор я [Select_CString(ROOT.Char.IsFemale, 'стала', 'стал' )] практически [Select_CString(ROOT.Char.IsFemale, 'бессмертной', 'бессмертным' )]. Мне больше не нужно бояться смерти, ибо жизнь простирается передо мной в бесконечное будущее. Другие смертные могут предвидеть свою смерть и смириться с её неизбежностью, но только не я. Я [Select_CString(ROOT.Char.IsFemale, 'встретилась', 'встретился' )] лицом к лицу со смертью, и она отступила."
- death_management.1984.lifespan_6.a:0 "Моя жизнь ждёт меня."
+ ek_death_management.0001.vampire.desc:0 "Год назад я [Select_CString(ROOT.Char.IsFemale, 'знала', 'знал' )], что моя смерть неизбежна. Но сегодня я стою здесь, почти [Select_CString(ROOT.Char.IsFemale, 'живая', 'живой' )]. Я [Select_CString(ROOT.Char.IsFemale, 'избежала', 'избежал' )] власти смерти и [Select_CString(ROOT.Char.IsFemale, 'стала', 'стал' )] вампиром. Простые смертные, каким некогда [Select_CString(ROOT.Char.IsFemale, 'была', 'был' )] я, могут предвидеть свою смерть и дрожать от страха, ожидая её приближения. Я же [Select_CString(ROOT.Char.IsFemale, 'предвидела', 'предвидел' )] свою смерть и [Select_CString(ROOT.Char.IsFemale, 'отвергла', 'отверг' )] её. Теперь я насылаю её на смертных острейшими кончиками своих клыков."
+ ek_death_management.0001.vampyre.desc:0 "Год назад я [Select_CString(ROOT.Char.IsFemale, 'знала', 'знал' )], что моя смерть неизбежна. Но сегодня я стою здесь, почти [Select_CString(ROOT.Char.IsFemale, 'живая', 'живой' )]. Я [Select_CString(ROOT.Char.IsFemale, 'избежала', 'избежал' )] власти смерти и [Select_CString(ROOT.Char.IsFemale, 'стала', 'стал' )] вампиром. Простые смертные, каким некогда [Select_CString(ROOT.Char.IsFemale, 'была', 'был' )] я, могут предвидеть свою смерть и дрожать от страха, ожидая её приближения. Я же [Select_CString(ROOT.Char.IsFemale, 'предвидела', 'предвидел' )] свою смерть и [Select_CString(ROOT.Char.IsFemale, 'отвергла', 'отверг' )] её. Теперь я насылаю её на смертных острейшими кончиками своих клыков." 
+ ek_death_management.0001.vampire.a:0 "Я буду жить вечно"
+ #ek_death_management.0001.briarheart.desc:0 "Год назад я [Select_CString(ROOT.Char.IsFemale, 'знала', 'знал' )], что моя смерть неизбежна. But I, like #LORE [compendium_lorkh]#!, faced death. And while I may not have escaped unscathed, I escaped alive. The gaping hole, and beating briar heart, within my chest prove it. Weak cowards might foresee their deaths and fear it. But we Briarhearts know there is nothing to fear. Death is rebirth."
+ #ek_death_management.0001.briarheart.a:0 "And I am reborn."
+ ek_death_management.0001.lifespan_6.desc:0 "Год назад я [Select_CString(ROOT.Char.IsFemale, 'знала', 'знал' )], что моя смерть неизбежна. Но с тех пор я [Select_CString(ROOT.Char.IsFemale, 'стала', 'стал' )] практически [Select_CString(ROOT.Char.IsFemale, 'бессмертной', 'бессмертным' )]. Мне больше не нужно бояться смерти, ибо жизнь простирается передо мной в бесконечное будущее. Другие смертные могут предвидеть свою смерть и смириться с её неизбежностью, но только не я. Я [Select_CString(ROOT.Char.IsFemale, 'встретилась', 'встретился' )] лицом к лицу со смертью, и она отступила."
+ ek_death_management.0001.lifespan_6.a:0 "Моя жизнь ждёт меня."
 
  ek_wild_magic_event.0001.t:0 "Сдвиг дикой магии"
  ek_wild_magic_event.0001.opening:0 "Тайные знания, передаваемые среди представителей нашего народа из поколения в поколение, позволяют нам глубже понимать и внимательнее относиться к изменениям смертного мира вокруг нас. Магия окружает нас, проникает в нас и влияет на нас — и наша чувствительность к ней одаривает нас врождённой способностью чувствовать её движения.\n\nСейчас дикая магия снова смещается и"
@@ -744,8 +830,8 @@
  adventurer_inspiration:0 "[adventurer.GetShortUIName] начнёт испытывать [inspiration|El]!"
  
  ek_mane_furstock_event.0002.t:0 "Третья луна"
- ek_mane_furstock_event.0002.twin.desc:0 "На протяжении всей нашей каджитской жизни мы чувствуем влияние со стороны лун, Массера и Секунды, растущих и убывающих в Решётке над нами. Они всегда были со мной, но никогда не были столь близко как сегодня. Вместе они принесли на ночное небо мистическую Третью луну. Каждый каджит живёт в надежде увидеть её.\n\nИ я не только [Select_CString(ROOT.Char.IsFemale, 'видела', 'видел' )] её. Третья луна оказала мне честь, возвестив о рождении не одного, а двух благословённых Луной Грив. Теперь я [Select_CString(ROOT.Char.IsFemale, 'гордая мать', 'гордый отец' )] близнецов, по одному на каждую из лун-близнецов, которым я [Select_CString(ROOT.Char.IsFemale, 'обязана', 'обязан' )] их рождением.\n\n[mane_kitten.GetName] и [mane_kitten_2.GetName] родились под светом всех трёх лунных странников и отныне навсегда отмечены как Гривы."
- ek_mane_furstock_event.0002.desc:0 "На протяжении всей нашей каджитской жизни мы чувствуем влияние со стороны лун, Массера и Секунды, растущих и убывающих в Решётке над нами. Они всегда были со мной, но никогда не были столь близко как сегодня. Вместе они принесли на ночное небо мистическую Третью Луну. Каждый каджит живёт в надежде увидеть её.\n\nИ я не только [Select_CString(ROOT.Char.IsFemale, 'видела', 'видел' )] её. Третья Луна оказала мне честь, возвестив о рождении котёнка по имени [mane_kitten.GetName] под светом всех трех лунных странников.\n\nТретья луна коснулась котёнка по имени [mane_kitten.GetName] и теперь [mane_kitten.GetSheHe] навсегда [Select_CString(mane_kitten.IsFemale, 'отмечена', 'отмечен' )] как Грива."
+ ek_mane_furstock_event.0002.twin.desc:0 "На протяжении всей нашей каджитской жизни мы чувствуем влияние со стороны лун, Джоуда и Джоун, растущих и убывающих в Решётке над нами. Они всегда были со мной, но никогда не были столь близко как сегодня. Вместе они принесли на ночное небо мистическую Третью луну. Каждый каджит живёт в надежде увидеть её.\n\nИ я не только [Select_CString(ROOT.Char.IsFemale, 'видела', 'видел' )] её. Третья луна оказала мне честь, возвестив о рождении не одного, а двух благословённых Луной Грив. Теперь я [Select_CString(ROOT.Char.IsFemale, 'гордая мать', 'гордый отец' )] близнецов, по одному на каждую из лун-близнецов, которым я [Select_CString(ROOT.Char.IsFemale, 'обязана', 'обязан' )] их рождением.\n\n[mane_kitten.GetName] и [mane_kitten_2.GetName] родились под светом всех трёх лунных странников и отныне навсегда отмечены как Гривы."
+ ek_mane_furstock_event.0002.desc:0 "На протяжении всей нашей каджитской жизни мы чувствуем влияние со стороны лун, Джоуда и Джоун, растущих и убывающих в Решётке над нами. Они всегда были со мной, но никогда не были столь близко как сегодня. Вместе они принесли на ночное небо мистическую Третью Луну. Каждый каджит живёт в надежде увидеть её.\n\nИ я не только [Select_CString(ROOT.Char.IsFemale, 'видела', 'видел' )] её. Третья Луна оказала мне честь, возвестив о рождении котёнка по имени [mane_kitten.GetName] под светом всех трех лунных странников.\n\nТретья луна коснулась котёнка по имени [mane_kitten.GetName] и теперь [mane_kitten.GetSheHe] навсегда [Select_CString(mane_kitten.IsFemale, 'отмечена', 'отмечен' )] как Грива."
  ek_mane_furstock_event.0002.option1:0 "Это огромная честь для нашей семьи!"
  ek_mane_furstock_event.0002.option1.tooltip:0 "Ваш новорождённый котёнок может стать следующим Гривой, получив этот титул согласно закону «[GetLaw('mbhof_succession_law').GetName]» и покинув вашу [Concept('dynasty', 'династию')|E] в этом случае"
  ek_mane_furstock_event.0002.option1.twin.tooltip:0 "Ваши новорождённые котята могут стать следующим Гривой, получив этот титул согласно закону «[GetLaw('mbhof_succession_law').GetName]» и покинув вашу [Concept('dynasty', 'династию')|E] в этом случае"
@@ -755,3 +841,17 @@
  ek_mane_furstock_event.0002.option2.twin.tooltip:0 "Ваши новорождённые котята не смогут стать следующим Гривой"
  
  harm.1041.ek:0 "Наложить заклинание водного дыхания."
+
+ ek_faith_events.0004.t:0 "Worm Cult in Disarray"
+ ek_faith_events.0004.desc:0 "Without the worldly leadership of Lord [previous_worm_king.GetFirstName], the central authority of the Order of the Black Worm collapses, its high priesthood scattering. Their work is not ended however, as the command uttered in life remains in effect also beyond it:\n\n#italic Humiliate the priests of Arkay...\nLet all the nations of dead carry my banner and my banner alone..\nWait, as always, in the darkness...#!\n\nOnly a true master, a necromancer of near equal ability to the God of Worms himself, could ever hope to regain absolute religious authority over the Anchorites."
+ ek_faith_events.0004.option:0 "We serve your bidding, forever!"
+ ek_faith_events.0004.flavor:0 "A sufficiently powerful and pious [GetTrait('necromancer').GetName( GetNullCharacter )] of the [worm_cult.GetName] faith can claim leadership in the Order of the Black Worm, becoming its [head_of_faith|E]."
+
+ ek_faith_events.0005.t:0 "A New [ROOT.Char.GetLadyLord|U] of Worms"
+ ek_faith_events.0005.desc:0 "After the ascension of our [mannimarco.GetTitledFirstName] to divinity, the Order of the Black Worm collapsed with no clear authority to take the reins. But the Worm Cult survived, and all hoped that one day an heir to the King of Worms would rise to claim their rightful place as [ROOT.Char.GetLadyLord|U] of Necromancers.\n\nThat day has come, and as I look out across my gathered thralls I know this time things will be different. No mere personality cult for our God-King, this reformed Order will last the ages - and outlive death itself."
+ ek_faith_events.0005.option:0 "Hear me Anchorites, and obey!"
+ ek_faith_events.0005.flavor:0 "With the reformation of [worm_kingdom.GetName], the title will no longer be destroyed at the death of its [head_of_faith|E]."
+
+ ek_faith_events.0006.t:0 "A New [new_worm_lord.GetLadyLord|U] of Worms"
+ ek_faith_events.0006.desc:0 "After the ascension of our [mannimarco.GetTitledFirstName] to divinity, the Order of the Black Worm collapsed with no clear authority to take the reins. But the Worm Cult survived, and all hoped that one day an heir to the King of Worms would rise to claim their rightful place as [new_worm_lord.GetLadyLord|U] of Necromancers.\n\n[new_worm_lord.GetTitledFirstName] has become that person, and swears that this time things will be different. No mere personality cult for our God-King, this reformed Order will last the ages - and outlive death itself."
+ ek_faith_events.0006.option:0 "Hail, [new_worm_lord.GetLadyLord|U] of Worms!"

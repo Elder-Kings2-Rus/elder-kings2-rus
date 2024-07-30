@@ -6,6 +6,7 @@
  dark_arts_lifestyle_highlight_necromancer_traits:0 "[GetPlayer.Custom('necromancer_trait_group_impact_dark_arts_lifestyle_experience')]"
  necromancer_trait_impact_dark_arts_lifestyle_experience:0 "Из-за того, что вы имеете свойство #V $trait_necromancer$#!, ваш прирост [Concept( 'experience', 'опыта' )|El] для этого образа жизни увеличен на #P +10%#!."
  experimentalist_necromancer_trait_impact_dark_arts_lifestyle_experience:0 "Из-за того, что вы имеете свойство #V $trait_experimentalist_necromancer$#!, ваш прирост [Concept( 'experience', 'опыта' )|El] для этого образа жизни увеличен на #P +10%#!."
+ education_magical_ability_trait_impact_dark_arts_lifestyle_experience:0 "Из-за того, что вы имеете свойство #V $trait_education_magical_ability_5$#!, ваш прирост [Concept( 'experience', 'опыта' )|El] для этого образа жизни увеличен на #P +10%#!."
  dark_arts_lifestyle_highlight_lichdom_traits:0 "[GetPlayer.Custom('lichdom_trait_group_impact_dark_arts_lifestyle_experience')]"
  lich_trait_impact_dark_arts_lifestyle_experience:0 "Из-за того, что вы имеете свойство #V $trait_lich_character$#!, ваш прирост [Concept( 'experience', 'опыта' )|El] для этого образа жизни увеличен на #P +20%#!."
  # Mysticism

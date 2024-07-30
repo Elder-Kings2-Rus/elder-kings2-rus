@@ -4,7 +4,7 @@
  game_concept_ek_feature:0 "Особенности EK2"
  game_concept_ek_features:0 "Особенности Elder Kings 2"
  game_concept_ek_features_pg:0 "Страница 1"
- game_concept_ek_features_desc:0 "Эта концепция игры служит обзором всех функций EK2, с которыми связаны отдельные концепты:\n\n$BULLET_WITH_TAB$ Религия\n$TAB$$BULLET_WITH_TAB$ [fervor_equilibrium|E]\n$TAB$$BULLET_WITH_TAB$ [purity|E]\n$TAB$$BULLET_WITH_TAB$ [pantheon|E]\n$TAB$$BULLET_WITH_TAB$ [pantheon_secondary|E]\n$TAB$$BULLET_WITH_TAB$ [patron_trait|E]\n$TAB$$BULLET_WITH_TAB$ [abomination|E]\n$TAB$$BULLET_WITH_TAB$ [liturgical_language|E]\n$BULLET_WITH_TAB$ Культура\n$TAB$$BULLET_WITH_TAB$ [pariah|E]\n$TAB$$BULLET_WITH_TAB$ [daedric_race|E]\n$TAB$$BULLET_WITH_TAB$ [nativity_region|E]\n$TAB$$BULLET_WITH_TAB$ [nomad_culture|E]\n$TAB$$BULLET_WITH_TAB$ [culture_revival|E]\n$BULLET_WITH_TAB$ Правительство\n$TAB$$BULLET_WITH_TAB$ [academy|E]\n$TAB$$BULLET_WITH_TAB$ [autocracy|E]\n$TAB$$BULLET_WITH_TAB$ [hierocracy|E]\n$TAB$$BULLET_WITH_TAB$ [ceremoniarchy|E]\n$TAB$$BULLET_WITH_TAB$ [praxis|E]\n$TAB$$BULLET_WITH_TAB$ [feudal_like_government|E]\n$TAB$$BULLET_WITH_TAB$ [pirate|E]\n$TAB$$BULLET_WITH_TAB$ [pirate_share|E]\n$TAB$$BULLET_WITH_TAB$ [expected_prestige_level|E]\n$TAB$$BULLET_WITH_TAB$ [might_makes_right|E]\n\n < #V Страница 1#! - [ek_features_page2_pg|E] >"
+ game_concept_ek_features_desc:0 "Эта концепция игры служит обзором всех функций EK2, с которыми связаны отдельные концепты:\n\n$BULLET_WITH_TAB$ Религия\n$TAB$$BULLET_WITH_TAB$ [fervor_equilibrium|E]\n$TAB$$BULLET_WITH_TAB$ [purity|E]\n$TAB$$BULLET_WITH_TAB$ [pantheon|E]\n$TAB$$BULLET_WITH_TAB$ [pantheon_secondary|E]\n$TAB$$BULLET_WITH_TAB$ [patron_trait|E]\n$TAB$$BULLET_WITH_TAB$ [abomination|E]\n$TAB$$BULLET_WITH_TAB$ [liturgical_language|E]\n$BULLET_WITH_TAB$ Культура\n$TAB$$BULLET_WITH_TAB$ [pariah|E]\n$TAB$$BULLET_WITH_TAB$ [daedric_race|E]\n$TAB$$BULLET_WITH_TAB$ [nativity_region|E]\n$TAB$$BULLET_WITH_TAB$ [nomad_culture|E]\n$TAB$$BULLET_WITH_TAB$ [culture_revival|E]\n$TAB$$BULLET_WITH_TAB$ [core_traditions|E]\n$BULLET_WITH_TAB$ Правительство\n$TAB$$BULLET_WITH_TAB$ [academy|E]\n$TAB$$BULLET_WITH_TAB$ [autocracy|E]\n$TAB$$BULLET_WITH_TAB$ [hierocracy|E]\n$TAB$$BULLET_WITH_TAB$ [ceremoniarchy|E]\n$TAB$$BULLET_WITH_TAB$ [praxis|E]\n$TAB$$BULLET_WITH_TAB$ [feudal_like_government|E]\n$TAB$$BULLET_WITH_TAB$ [pirate|E]\n$TAB$$BULLET_WITH_TAB$ [pirate_share|E]\n$TAB$$BULLET_WITH_TAB$ [expected_prestige_level|E]\n$TAB$$BULLET_WITH_TAB$ [might_makes_right|E]\n\n < #V Страница 1#! - [ek_features_page2_pg|E] >"
  game_concept_ek_feature_page2:0 "Особенности EK2"
  game_concept_ek_features_page2:0 "Особенности Elder Kings 2"
  game_concept_ek_features_page2_pg:0 "Страница 2"
@@ -36,7 +36,7 @@
  game_concept_pariahs:0 "Отверженные"
  game_concept_monster:0 "Монстр"
  game_concept_monsters:0 "Монстры"
- game_concept_pariah_desc:1 "'$game_concept_pariahs$' это персонажи, которые считаются монстрами, а не цивилизованными существами, что равны другим видам, в глазах большинства жителей Тамриэля. Это означает, что их [culture|El] имеет [Concept( 'innovation', 'инновацию' )|E] #V Отверженный народ#!. Персонажи этих культур могут стать мишенями для не-отверженных, которые могут использовать против них [casus_belli|El] $EXPEL_MONSTERS_DUCHY_NAME$, свободно [Concept( 'imprisoned', 'заключить в тюрьму' )|E], [Concept( 'executed', 'казнить' )|E] или [Concept( 'revoked', 'отнимать титулы' )|E]. Также персонажи других культур будут с меньшей вероятностью принимать предложения [Concept( 'marriage', 'брака' )|E] от отверженных. Однако [innovation|El] #V Отверженный народ#! может быть удалена с помощью [Concept( 'decision', 'решения' )|E] #V Отменить статус отверженных#! — хотя статус может и вернуться при определённых обстоятельствах."
+ game_concept_pariah_desc:1 "'$game_concept_pariahs$' это персонажи, которые считаются монстрами, а не цивилизованными существами, что равны другим видам, в глазах большинства жителей Тамриэля. Это означает, что их [culture|El] имеет [Concept( 'innovation', 'инновацию' )|E] #V Отверженный народ#!. Персонажи этих культур могут стать мишенями для не-отверженных, которые могут использовать против них [casus_belli|El] $EXPEL_MONSTERS_DUCHY_NAME$, свободно [Concept( 'imprisoned', 'заключить в тюрьму' )|E], [Concept( 'executed', 'казнить' )|E] или [Concept( 'revoked', 'отнимать титулы' )|E]. Также персонажи других культур будут с меньшей вероятностью принимать предложения [Concept( 'marriage', 'брака' )|E] от отверженных.\n\n[innovation|E] #V Отверженный народ#! может быть удалена с помощью [Concept( 'decision', 'решения' )|E] #V Отменить статус отверженных#! — хотя статус может и вернуться при определённых обстоятельствах."
 
  game_concept_expel_monsters:0 "Изгнание монстров"
  game_concept_expel_monsters_war:0 "Война для изгнания монстров"
@@ -70,6 +70,11 @@
  game_concept_liturgical_language:0 "Литургический язык"
  game_concept_liturgical_language_desc:0 "Хотя большинство [Concept( 'faiths', 'конфессий' )|E] предпочитают использовать [language|El] своих верующих для проведения религиозных обрядов и таинств, некоторые из них предпочитают использовать забытые или потусторонние языки в роли литургического языка.\n\nОт [Concept( 'clergy', 'духовенства' )|E] от этой конфессии ожидается знание данного языка, а те, кто не принадлежит к ней, но знает литургический язык, получают [piety|El] и бонус к [Concept( 'opinion', 'мнению' )|E] [Concept( 'clergy', 'духовенства' )|E].\n\n#F Глубокий язык Обливиона и язык драконов являются примерами таких литургических языков.#!"
  
+ game_concept_clutch_raid_war:0 "Налёт на кладку"
+ game_concept_clutch_raid_wars:0 "Налёты на кладку"
+ game_concept_clutch_raid_warring:0 "Налёт на кладку"
+ game_concept_clutch_raid_war_desc:1 "Особый тип [Concept('war', 'войны')|E], доступный [Concept('ruler', 'правителям')|E] без подходящего наследника. Основной целью налёта на кладку является захват [Concept('children', 'детей')|E] для принятия в свою династию, при этом любая из сторон может получить достаточно [Concept('war_score', 'военного счета')|E] в сражениях, чтобы победить без необходимости [Concept('siege', 'осад')|E].\n\nК конце войны победитель захватит несколько детей из [Concept('court', 'двора')|E] проигравшего. Война считается священной, а значит победитель получит [piety|El].\n\nВы не можете вести или продолжать налёт на кладку, если у вас имеется наследник ваших [Concept('title', 'титулов')|E]."
+
  game_concept_nativity_region:0 "Родной регион"
  game_concept_nativity_regions:0 "Родные регионы"
  game_concept_native:0 "Коренной житель"
@@ -105,7 +110,11 @@
  game_concept_valid_conversion_culture_short:0 "Подходящая"
  game_concept_valid_conversion_culture_medium:0 "Подходящие культуры"
  game_concept_valid_conversion_culture_desc:0 "Чтобы [culture|El] была [Concept( 'valid_conversion_culture_short', 'подходящей' )|E] для распространения через [Concept( 'promote_culture', 'продвижение' )|E], она должна удовлетворять следующим условиям:\n\n$EFFECT_LIST_BULLET$Ваша собственная [culture|El], [Concept( 'native', 'коренная' )|E] [culture|El] или [Concept( 'nomadic', 'кочевническая' )|E] [culture|El]\n$EFFECT_LIST_BULLET$[living_culture|E]\n$EFFECT_LIST_BULLET$Того же [Concept( 'heritage', 'наследия' )|E] или имеет высокую [cultural_acceptance|El] с вашей [Concept( 'cultures', 'культурой' )|E]"
- 
+
+ game_concept_core_traditions:0 "Основные традиции"
+ game_concept_core_traditions_short:0 "Основа"
+ game_concept_core_traditions_desc:0 "Основные традиции - это [traditions|El], доступные только определённой [Concept('culture', 'культуре')|E] или [Concept('heritage', 'наследию')|E]. В некоторых случаях они являются взаимоисключающими с другими основными традициями в рамках того же наследия.\n\nБольшинство культур в Elder Kings II имеют свои собственные уникальные традиции."
+
  game_concept_meritocratic:0 "Меритократический"
  game_concept_meritocratic_desc:0 "$game_concept_meritocratic$ [succession_law|El] постановляет, что каждое [county|El] может решать, последует ли оно за [Concept( 'heir', 'наследником' )|E] бывшего правителя, или если же они изберут кого-то из местных, чтобы управлять собой. Если у графства будет высокое [Concept( 'county_opinion', 'мнение' )|E], это поможет обезопасить его передачу во время наследования."
 
@@ -125,6 +134,16 @@
  game_concept_academies:0 "Академии"
  game_concept_academy_desc:0 "Академические державы — это [government_form|El], сформированная вокруг учреждения, предоставляющего академические услуги жителям Тамриэля. Примеры таких государств — Коллегия магов или Дипломатический институт. Эти державы сосредоточены на передаче знаний и не заинтересованы в приобретении новых доменов."
  
+ game_concept_hist:0 "Хист"
+ game_concept_hist_tree:0 "Дерево хист"
+ game_concept_hist_holding:0 "Владение хист"
+ game_concept_hist_holding_desc:0 "Хист не предоставляют [Concept('taxes', 'налоги')|E], но вместо этого дают [piety|El], немного [Concept('levies', 'ополчения')|E] и прямые бонусы своему владельцу. Они имеют уникальные возможности для строительства и могут расти только в определённой местности. Только персонажи с #L $heritage_argonian_name$им#! наследием или те, чья конфессия имеет [pantheon|El] «[GetFaithDoctrine('doctrine_pantheon_hist').GetBaseName]», могут владеть ими без штрафов. Другие правители могут превратить [Concept('holdings', 'владения')|E] хист в [Concept('temples', 'храмы')|E] за [Concept('gold', 'золото')|E].\n\nХист высаживаются как саженцы и со временем переходят на более высокий уровень. Последняя стадия, однако, предназначена для немногих по-настоящему древних деревьев хист в Чернотопье. В [Concept('county', 'графстве')|E] может быть построено только одно [Concept('holding', 'владение')|E] хист."
+ game_concept_hist_holdings:0 "Владение хист"
+
+ game_concept_hist_communion:0 "Общение с хистом"
+ game_concept_hist_communions:0 "Общения с хистами"
+ game_concept_hist_communion_desc:0 "Персонажи с [Concept('faith', 'конфессией')|E] [GetFaithDoctrine('doctrine_pantheon_hist').GetBaseName] могут выбрать [Concept('activity', 'занятие')|E], чтобы отправиться на ритуал $game_concept_hist_communions$ во [hist_holding|El].\n\nДостигнув места назначения, персонажи получат [piety|El] и другие награды, например мощные благословения, в зависимости от догматов своей конфессии."
+
  game_concept_autocracy:0 "Автократия"
  game_concept_autocracy_government:0 "Автократическое правительство"
  game_concept_autocratic:0 "Автократический"
@@ -137,6 +156,7 @@
  
  game_concept_ceremoniarchy:0 "Церемониархия"
  game_concept_ceremoniarchy_government:0 "Церемониархическое правительство"
+ game_concept_praxis_government:0 "$game_concept_ceremoniarchy_government$"
  game_concept_ceremoniarchic:0 "Церемониархальный"
  game_concept_ceremoniarchy_desc:0 "Церемониархия - сложная система обрядов и обычаев, в основе которой находится стремление к #LORE [Concept( 'compendium_aldmeris', 'Альдмерису' )|E]#!. Правитель должен поддерживать свой [praxis|El] и следить за соблюдением традиций — некоторые правители, однако, могут захотеть отбросить традиции и приспособиться к этому меняющемуся миру...\n#weak Только те правители, чья конфессия имеет [core_tenets|El] [GetFaithDoctrine('tenet_legalism').GetBaseName] и [GetFaithDoctrine('tenet_divine_purity').GetBaseName], могут принять церемониархию.#!"
  
@@ -261,16 +281,18 @@
  game_concept_holiday:0 "Праздник"
  game_concept_holiday_calendar_desc:0 "Многие культуры Тамриэля по-разному отмечают течение времени. Эти празднования включены в праздничный календарь. Они включают в себя:\n\n$EFFECT_LIST_BULLET$#V Фестиваль новой жизни#!: Фестиваль Новой Жизни - это полный жизни праздник, проводимый по всему Тамриэлю. Он посвящён рождению нового года. На празднике можно насладиться гонками, пирами, играми и танцами. Праздник отмечается в месяц Утренней Звезды (1).\n\n$EFFECT_LIST_BULLET$#V Праздник шута#!: Озорной праздник шута приносит в Тамриэль смех и хаос: шуты бродят по улицам, в городах устраиваются розыгрыши, проводятся игры с шуточным вознаграждением. Праздник отмечается в месяц Руки Дождя (4) и проводится только в тех культурах, где есть должность придворного шута."
 
-game_concept_lesser_illness:0 "Малая болезнь"
- game_concept_lesser_illnesses:0 "Малые болезни"
- game_concept_lesser_illness_desc:0 "Для задачи магического лечения следующие заболевания считаются малыми болезнями:\n• [GetTrait('ill').GetName(GetNullCharacter)]\n• [GetTrait('smallpox').GetName(GetNullCharacter)]\n• [GetTrait('lovers_pox').GetName(GetNullCharacter)]"
- game_concept_greater_illness:0 "Великая болезнь"
- game_concept_greater_illnesses:0 "Великие болезни"
- game_concept_greater_illness_desc:0 "Для задачи магического лечения следующие заболевания считаются великими болезни:\n• [GetTrait('pneumonic').GetName(GetNullCharacter)]\n• [GetTrait('gout_ridden').GetName(GetNullCharacter)]\n• [GetTrait('typhus').GetName(GetNullCharacter)]\n• [GetTrait('consumption').GetName(GetNullCharacter)]\n• [GetTrait('cancer').GetName(GetNullCharacter)]\n• [GetTrait('great_pox').GetName(GetNullCharacter)]\n• [GetTrait('bubonic_plague').GetName(GetNullCharacter)]\n• [GetTrait('sanies_lupinus').GetName(GetNullCharacter)]\n• [GetTrait('sanguinare_vampiris').GetName(GetNullCharacter)]"
- 
- 
- game_concept_daedric_curse:0 "Проклятие"
- game_concept_daedric_curse_desc:0 "Даэдрические проклятия накладываются на смертных, которые тем или иным образом оскорбляют #LORE [Concept( 'compendium_daedric_princes', 'даэдрических принцев' )|E]#!. Чтобы избавиться от них, необходимо совершить [pilgrimage|El] или найти кого-то, кто обладающего способностью произносить заклинание "Снятие проклятия"."
+ game_concept_curable_illness:0 "Излечимая хворь"
+ game_concept_curable_illnesses:0 "Излечимые хвори"
+ game_concept_curable_illness_desc:0 "Для задачи магического исцеления следующие хвори считаются излечимыми:\n• [GetTrait('ill').GetName(GetNullCharacter)]\n• [GetTrait('smallpox').GetName(GetNullCharacter)]\n• [GetTrait('lovers_pox').GetName(GetNullCharacter)]\n• [GetTrait('pneumonic').GetName(GetNullCharacter)]\n• [GetTrait('gout_ridden').GetName(GetNullCharacter)]\n• [GetTrait('typhus').GetName(GetNullCharacter)]\n• [GetTrait('consumption').GetName(GetNullCharacter)]\n• [GetTrait('cancer').GetName(GetNullCharacter)]\n• [GetTrait('great_pox').GetName(GetNullCharacter)]\n• [GetTrait('measles').GetName(GetNullCharacter)]\n• [GetTrait('dysentery').GetName(GetNullCharacter)]\n• [GetTrait('ergotism').GetName(GetNullCharacter)]\n• [GetTrait('sanies_lupinus').GetName(GetNullCharacter)]\n• [GetTrait('sanguinare_vampiris').GetName(GetNullCharacter)]\n• [GetTrait('peryite_affliction').GetName(GetNullCharacter)]"
 
- game_concept_curse:0 "$game_concept_daedric_curse$"
- game_concept_curse_desc:0 "$game_concept_daedric_curse_desc$"
+ game_concept_magic_ward_long:0 "Магический оберег"
+ game_concept_magic_ward_short:0 "Оберег"
+ game_concept_magic_warded:0 "Защита"
+ game_concept_magic_ward_long_desc:0 "Некоторые [counties|El] защищены от враждебных [Concept('spells', 'заклинаний')|E] с помощью магии. Обычно это происходит из-за присутствия в графстве [Concept('special_building', 'особой постройки')|E]."
+
+ game_concept_daedric_curse:0 "Даэдрическое проклятие"
+ game_concept_daedric_curse_desc:0 "Даэдрические проклятия накладываются на смертных, которые каким-либо образом оскорбили #LORE [Concept('compendium_daedric_princes', 'князей даэдра')|E]#!. Чтобы избавиться от них, нужно отправиться в [Concept('pilgrimage', 'паломничество')|E] или найти кого-то, кто может наложить заклинание снятия проклятия."
+ 
+ game_concept_curse:0 "Проклятие"
+
+ game_concept_dread_i:0 "@dread_icon!"

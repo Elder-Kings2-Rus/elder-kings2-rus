@@ -8,7 +8,7 @@
  ek_ymis_events.0001.b:0 "Почему бы вам не сразиться с персонажем [combatant.GetFirstName]? Я [Select_CString(ROOT.Char.IsFemale, 'уверена', 'уверен' )], что [combatant.GetSheHe] одолеет вас."
  ek_ymis_events.0001.b.tt:0 "[combatant.GetFirstName] и [old_orc.GetFirstName] будут сражаться в дуэли до смерти."
  ek_ymis_events.0001.c:0 "Для меня будет честью исполнить ваше желание."
- ek_ymis_events.0001.c.tt:0 "[old_orc.GetFirstName] и вы будете сражаться в дуэли до смерти."
+ ek_ymis_events.0001.c.tt:0 "@death_icon! [old_orc.GetFirstName] и вы будете сражаться в дуэли до смерти."
  ek_ymis_events.0001.d:0 "Ищите свою славную смерть в другом месте, здесь вы её не найдёте."
 
  ek_ymis_events.0003.t:0 "Старый орк: всё ещё в поисках смерти"
@@ -32,13 +32,13 @@
  ek_ymis_events.0007.desc:0 "[old_orc.GetFirstName] и [combatant.GetFirstName] обнажают оружие и начинают биться на моих глазах. Старый орк не солгал: он умелый дуэлянт, и, конечно, он не хочет умереть, не выложившись на все сто в своём последнем бою. Но [combatant.GetFirstName] совсем не хочет умирать, и [old_orc.GetFirstName] уступает мастерству моего чемпиона. Быстрой и точной атакой [combatant.GetSheHe] пробивает защиту [old_orc.GetFirstName] и забирает его жизнь. Старый орк умирает с облегчённой улыбкой.\n\nТеперь мне нужно решить, что делать с его громоздкой, но впечатляющей броней."
  ek_ymis_events.0007.a:0 "[combatant.GetFirstName] получит доспех. [combatant.GetSheHe|U] заслуживает этого."
  ek_ymis_events.0007.b:0 "Это мой трофей."
- ek_ymis_events.0007.a.tt:0 "[combatant.GetFirstName] получает броню персонажа [old_orc.GetFirstNameNoToolTip]"
- ek_ymis_events.0007.b.tt:0 "Вы получаете броню персонажа [old_orc.GetFirstNameNoToolTip]"
+ ek_ymis_events.0007.a.tt:0 "[combatant.GetFirstName] получает броню персонажа [old_orc.GetFirstNameNoTooltip]"
+ ek_ymis_events.0007.b.tt:0 "Вы получаете броню персонажа [old_orc.GetFirstNameNoTooltip]"
 
  ek_ymis_events.0008.t:0 "Старый орк: покойся с миром" 
  ek_ymis_events.0008.desc:0 "[old_orc.GetFirstName] не солгал: он яростный дуэлянт, и, конечно, не хочет умереть, не выложившись на все сто в своём последнем бою. Но ему всё же не сравниться с мои мастерством. За мгновение до того, как я [Select_CString(ROOT.Char.IsFemale, 'нанесла', 'нанес' )] последний удар, на лице старого орка на долю секунды появилась облегчённая улыбка.\n\nПока он лежит мёртвый у моих ног, я [Select_CString(ROOT.Char.IsFemale, 'заметила', 'заметил' )] громоздкие, но впечатляющие доспехи, которые были на орке. Безусловно, это достойная награда за то, что я [Select_CString(ROOT.Char.IsFemale, 'помогла', 'помог' )] отправить его душу к его же богу."
  ek_ymis_events.0008.a:0 "Ну, ему она больше не понадобится."
- ek_ymis_events.0008.a.tt:0 "Вы получаете броню персонажа [old_orc.GetFirstNameNoToolTip]."
+ ek_ymis_events.0008.a.tt:0 "Вы получаете броню персонажа [old_orc.GetFirstNameNoTooltip]."
 
  ek_ymis_events.0009.t:0 "[Select_CString(ROOT.Char.IsFemale, 'Будущая артистка', 'Будущий артист' )]"
  ek_ymis_events.0009.desc:0 "[Select_CString(wannabe_artist.IsFemale, 'Моя', 'Мой' )] [wannabe_artist.Custom('GetDaughterSon')] подходит ко мне. [wannabe_artist.GetHerHis] руки трясутся, а глаза мечутся по комнате. «Пожалуйста, выслушай меня», говорит [wannabe_artist.GetSheHe]. «Я больше не могу терпеть эту жизнь. Все эти формальности, все эти бессмысленные ритуалы. Я хочу свободы. Позволь мне присоединиться к Дому грёз, где я смогу начать всё заново и последовать зову своего сердца, исполнив свою давнюю мечту, став [Select_CString(wannabe_artist.IsFemale, 'артисткой', 'артистом' )]. Я хочу освободиться от бремени моей родословной и моего имени». \n\nЯ [Select_CString(ROOT.Char.IsFemale, 'поражена', 'поражён' )]. [Select_CString(wannabe_artist.IsFemale, 'Моя собственная', 'Мой собственный' )] [wannabe_artist.Custom('GetDaughterSon')] хочет присоединиться к труппе артистов и оставить [wannabe_artist.GetHerHis] старую жизнь позади? Как я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] реагировать?"
@@ -164,7 +164,7 @@
  ek_ymis_events.0029b:0 "Это слишком опасно."
 
  ek_ymis_events.0030.t:0 "Некромантия: обмен опытом"
- ek_ymis_events.0030.desc:0 "Изучение и практика некромантии могут быть весьма одиноким занятием. Магов-единомышленников мало, так что не с кем обсудить новые теории или поделиться прошлым опытом в этом деле.\n\nПоэтому было бы неплохо найти кому-нибудь со схожими интересами и способностями. [necromancer_contact.GetFirstName] может быть подходящим кандидатом для этого начинания. [Select_CString(ROOT.Char.IsFemale, 'Должна', 'Должен' )] ли я написать [necromancer_contact.GetHerHim] письмо с предложением о сотрудничестве?\n\nМы оба могли бы извлечь из этого пользу, но [necromancer_contact.GetFirstNameNoToolTip] может воспринять это как оскорбление."
+ ek_ymis_events.0030.desc:0 "Изучение и практика некромантии могут быть весьма одиноким занятием. Магов-единомышленников мало, так что не с кем обсудить новые теории или поделиться прошлым опытом в этом деле.\n\nПоэтому было бы неплохо найти кому-нибудь со схожими интересами и способностями. [necromancer_contact.GetFirstName] может быть подходящим кандидатом для этого начинания. [Select_CString(ROOT.Char.IsFemale, 'Должна', 'Должен' )] ли я написать [necromancer_contact.GetHerHim] письмо с предложением о сотрудничестве?\n\nМы оба могли бы извлечь из этого пользу, но [necromancer_contact.GetFirstNameNoTooltip] может воспринять это как оскорбление."
  ek_ymis_events.0030a:0 "Это принесёт пользу нам обоим."
  ek_ymis_events.0030a.tt.success:0 "[necromancer_contact.GetFirstName|U] с удовольствием делится с вами своими знаниями."
  ek_ymis_events.0030a.tt.failure:0 "[necromancer_contact.GetFirstName|U] [Select_CString(necromancer_contact.IsFemale, 'оскорблена', 'оскорблён' )] вашей просьбой."
@@ -172,8 +172,8 @@
  ek_ymis_events.0030c:0 "Мои знания только для меня!"
 
  ek_ymis_events.0031.t:0 "Обмен опытом"
- ek_ymis_events.0031.opening:0 "[sender.necromancer_contact_seeker('AppropriateGreeting', ROOT.Char)]"
- ek_ymis_events.0031.desc:0 "[Select_CString(necromancer_contact.IsFemale, 'Уважаемая', 'Уважаемый' )] [necromancer_contact.GetFirstNameNoToolTip],\nпоскольку вы разделяете мой интерес к захватывающему и полезнейшему искусству некромантии, я хочу предложить обменяться знаниями в этой сфере. Объединение наших ресурсов и обмен информацией о не столь явных аспектах этого искусства, несомненно, принесёт пользу нам обоим. Я искренне жду вашего ответа." 
+ ek_ymis_events.0031.opening:0 "[sender.Custom2('AppropriateGreeting', ROOT.Char)]"
+ ek_ymis_events.0031.desc:0 "[Select_CString(necromancer_contact.IsFemale, 'Уважаемая', 'Уважаемый' )] [necromancer_contact.GetFirstNameNoTooltip],\nпоскольку вы разделяете мой интерес к захватывающему и полезнейшему искусству некромантии, я хочу предложить обменяться знаниями в этой сфере. Объединение наших ресурсов и обмен информацией о не столь явных аспектах этого искусства, несомненно, принесёт пользу нам обоим. Я искренне жду вашего ответа." 
 
  ek_ymis_events.0032.t:0 "Некромантия: одарённый ребёнок"
  ek_ymis_events.0032.desc:0 "Чем старше становится [necromancy_ward.GetFirstName], тем более очевидны становятся [necromancy_ward.GetHerHis] магические способности. Хотя мне приятно видеть, как такой талантливый ребёнок растёт под моим руководством, мне также кажется, что я зря не [Select_CString(ROOT.Char.IsFemale, 'научила', 'научил' )] [necromancy_ward.GetHerHis] всему, что знаю, включая тёмное искусство некромантии.\n\nИметь рядом такого молодого и опытного адепта будет очень полезно, а одна только мысль о [necromancy_ward.GetHerHis] будущих успехах после многих лет практики вызывает у меня мурашки восторга.\n\nВозможно, мне стоит попытаться убедить ребёнка, что [necromancy_ward.GetHerHim] предстоит узнать много нового о магии, если [necromancy_ward.GetSheHe] последует за мной по пути некромантии."
@@ -229,7 +229,7 @@
  ek_ymis_events.0050.t:0 "Безрезультатная трансмутация"
  ek_ymis_events.0050.desc:0 "Я с нетерпением жду большую сумму золота, которую по моему приказу [Select_CString(court_mage.IsFemale, 'должна', 'должен' )] трансмутировать [court_mage.GetFirstName] для меня, но вместо груды блестящего металла, которую я [Select_CString(ROOT.Char.IsFemale, 'ожидала', 'ожидал' )], передо мной лежит лишь небольшая кучка. За ней стоит [court_mage.GetFirstName] и неловко смотрит на меня.\n\n«Мой сюзерен, я [Select_CString(court_mage.IsFemale, 'должна', 'должен' )] признаться, что мои попытки трансмутировать неблагородные металлы в золото на этот раз оказались безуспешными. Как вы можете видеть, я [Select_CString(court_mage.IsFemale, 'смогла', 'смог' )] создать лишь небольшое количество. Но я [Select_CString(court_mage.IsFemale, 'уверена', 'уверен' )], что вместе мы сможем преодолеть эту неудачу и продолжать процветать. Пожалуйста, примите мои искренние извинения за неудачу. Я сделаю всё, что в моих силах, чтобы загладить свою вину и вернуть ваше доверие.»"
  ek_ymis_events.0050a:0 "Я [Select_CString(ROOT.Char.IsFemale, 'уверена', 'уверен' )], что вы сделали всё, что могли."
- ek_ymis_events.0050b:0 "Но что если [court_mage.GetFirstSheHe] врёт? Мне нужно изучить этот вопрос подробнее."
+ ek_ymis_events.0050b:0 "Но что если [court_mage.GetSheHe] врёт? Мне нужно изучить этот вопрос подробнее."
  ek_ymis_events.0050b.tt:0 "Кто знает, что вы обнаружите?"
  ek_ymis_events.0050b.success:0 "Вы можете раскрыть правду."
  ek_ymis_events.0050b.failure:0 "Ваше расследование потерпит неудачу."

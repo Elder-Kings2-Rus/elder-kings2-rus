@@ -34,6 +34,11 @@
  action_lifestyle_magic_desc:0 "$action_can_spend_perk_point_desc$"
  action_lifestyle_magic_click:0 "$action_can_spend_perk_point_click$"
 
+ action_lifestyle_dark_arts:0 "$action_can_spend_perk_point$"
+ action_lifestyle_dark_arts_label:0 "$action_can_spend_perk_point_label$"
+ action_lifestyle_dark_arts_desc:0 "$action_can_spend_perk_point_desc$"
+ action_lifestyle_dark_arts_click:0 "$action_can_spend_perk_point_click$"
+
  action_can_fund:0 "[Concept('inspiration','Вдохновлённый')|E] Личность может быть [Concept('sponsor','проспонсирована')|E]"
  action_can_fund_combined_group_label:0 "@inspiration_icon! Вы можете проспонсировать [inspiration|El]"
  action_can_fund_combined_group_name:0 "$action_can_fund$"

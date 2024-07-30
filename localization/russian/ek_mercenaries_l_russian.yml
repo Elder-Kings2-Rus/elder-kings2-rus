@@ -2,27 +2,69 @@
  ###Breton
  mercenary_knights:0 "Рыцари из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_article:0 ""
- mercenary_knights_dragon:0 "Рыцари Дракона"
- mercenary_knights_dragon_article:0 ""
- mercenary_knights_white_rose:0 "Рыцари Белой Розы"
- mercenary_knights_white_rose_article:0 ""
- mercenary_knights_flame:0 "Рыцари Пламени"
- mercenary_knights_flame_article:0 ""
  mercenary_knights_of_saint_pelin:0 "Рыцари Святого Пелина"
  mercenary_knights_of_saint_pelin_article:0 ""
- mercenary_knights_owl:0 "Рыцари Совы"
- mercenary_knights_owl_article:0 ""
- mercenary_knights_raven:0 "Рыцари Ворона"
- mercenary_knights_raven_article:0 ""
  mercenary_knights_crypt:0 "Рыцари Склепа"
  mercenary_knights_crypt_article:0 ""
- mercenary_knights_lion_guard:0 "Львиная гвардия"
- mercenary_knights_lion_guard_article:0 ""
+ mercenary_order_iron_knot_article:0 "the "
+ mercenary_order_iron_knot:0 "Order of the Iron Knot"
+ mercenary_oaken_order_article:0 "the "
+ mercenary_oaken_order:0 "Oaken Order"
+ mercenary_order_albatross_article:0 "the "
+ mercenary_order_albatross:0 "Order of the Albatross"
+ mercenary_order_lance_article:0 "the "
+ mercenary_order_lance:0 "Order of the Lance"
+ mercenary_order_nyeraad_article:0 "the "
+ mercenary_order_nyeraad:0 "Order of Nyeraad"
+ mercenary_order_key_article:0 "the "
+ mercenary_order_key:0 "Order of the Key"
+ mercenary_order_cup_article:0 "the "
+ mercenary_order_cup:0 "Order of the Cup"
+ mercenary_order_wings_article:0 "the "
+ mercenary_order_wings:0 "Order of the Wings"
+ mercenary_knights_field_article:0 "the "
+ mercenary_knights_field:0 "Knights of the Field"
+ mercenary_red_rooks_article:0 "the "
+ mercenary_red_rooks:0 "Red Rooks"
+ mercenary_order_boar_article:0 "the "
+ mercenary_order_boar:0 "Order of the Boar"
+ mercenary_knights_tooth_article:0 "the "
+ mercenary_knights_tooth:0 "Knights of the Tooth"
+ mercenary_knights_heart_article:0 "the "
+ mercenary_knights_heart:0 "Order of the Heart"
+ mercenary_knights_fox_article:0 "the "
+ mercenary_knights_fox:0 "Order of the Fox"
+ mercenary_company_hat_article:0 "the "
+ mercenary_company_hat:0 "Company of the Hat"
+ mercenary_company_iliac_bay_article:0 "the "
+ mercenary_company_iliac_bay:0 "Iliac Bay Company"
+ mercenary_knights_moontree_article:0 "the "
+ mercenary_knights_moontree:0 "Knights of the Moontree"
+ mercenary_iceblades_article:0 "the "
+ mercenary_iceblades:0 "Iceblades"
+ mercenary_wildlords_article:0 "the "
+ mercenary_wildlords:0 "Wildlords"
  
  
  ###Cyrodiilic
  mercenary_knights_brigand_emperor_article:0 ""
  mercenary_knights_brigand_emperor:0 "Легион Разбойного Императора"
+ mercenary_blackboot_cohort_article:0 "the "
+ mercenary_blackboot_cohort:0 "Blackboot Cohort"
+ mercenary_lonely_harp_highlanders_article:0 "the "
+ mercenary_lonely_harp_highlanders:0 "Lonely Harp Highlanders"
+ mercenary_black_daggers_article:0 "the "
+ mercenary_black_daggers:0 "Black Dagger Brigands"
+ mercenary_moody_blue_marines_article:0 "the "
+ mercenary_moody_blue_marines:0 "Moody Blue Marines"
+ mercenary_gold_coast_article:0 "the "
+ mercenary_gold_coast:0 "Gold Coast Mercenaries"
+ mercenary_knights_white_stallion_article:0 "the "
+ mercenary_knights_white_stallion:0 "Knights of the White Stallion"
+ mercenary_knights_thorn_article:0 "the "
+ mercenary_knights_thorn:0 "Knights of the Thorn"
+ mercenary_army_crimson_king_article:0 "the "
+ mercenary_army_crimson_king:0 "Army of the Crimson King"
  mercenary_knights_legion:0 "Легион из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_legion_article:0 ""
  mercenary_knights_highlander:0 "Горцы из владения [TITLE.GetNameNoTierNoTooltip]"
@@ -56,20 +98,25 @@
 # Heartlander: X Regiment, Palatines of X, Excubitors of X
 # Cyro-Nord: X Auxiliaries, Retainers of X, Limitanei of X
 # Strident: X Squadron, X Marines
+# Rimmenese: X Irregulars, Army of X
 
  ###Altmer
- mercenary_knights_justiciars_article:0 ""
- mercenary_knights_justiciars:0 "Юстициары из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_warlords_article:0 ""
  mercenary_knights_warlords:0 "Полководцы из владения [TITLE.GetNameNoTierNoTooltip]" 
  mercenary_knights_free_company_article:0 ""
  mercenary_knights_free_company:0 "Свободная Компания из владения [TITLE.GetNameNoTierNoTooltip]" 
+ mercenary_knights_isle_article:0 "the "
+ mercenary_knights_isle:0 "Knights of the Isle"
+ mercenary_starfall_company_article:0 "the "
+ mercenary_starfall_company:0 "Starfall Company"
 
  ###Bosmer
  mercenary_knights_rangers_article:0 ""
  mercenary_knights_rangers:0 "Рейнджеры из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_stalkers_article:0 ""
- mercenary_knights_stalkers:0 "Преследователи из владения [TITLE.GetNameNoTierNoTooltip]" 
+ mercenary_knights_stalkers:0 "Преследователи из владения [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_knights_jaqspurs_article:0 "the "
+ mercenary_knights_jaqspurs:0 "[TITLE.GetNameNoTierNoTooltip] Jaqspurs"
 
  ###Khajiit
  mercenary_knights_pride_article:0 ""
@@ -77,7 +124,10 @@
  mercenary_knights_battlecats_article:0 ""
  mercenary_knights_battlecats:0 "Боевые коты из владения [TITLE.GetNameNoTierNoTooltip]" 
  mercenary_knights_renrijr_article:0 ""
- mercenary_knights_renrijr:0 "Ренриджр из владения [TITLE.GetNameNoTierNoTooltip]" 
+ mercenary_knights_renrijr:0 "Ренриджр из владения [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_knights_warclaws_article:0 "the "
+ mercenary_knights_warclaws:0 "[TITLE.GetNameNoTierNoTooltip] Warclaws" 
+ mercenary_baan_dar:0 "Baan Dar's Bandits"
 
  ###Lilmothiit 
  mercenary_knights_scouts_article:0 ""
@@ -93,7 +143,11 @@
  mercenary_knights_bloodscales_article:0 ""
  mercenary_knights_bloodscales:0 "Кровавые чешуйки из владения [TITLE.GetNameNoTierNoTooltip]" 
  mercenary_knights_reel_ka_article:0 ""
- mercenary_knights_reel_ka:0 "Рил-ка из владения [TITLE.GetNameNoTierNoTooltip]" 
+ mercenary_knights_reel_ka:0 "Рил-ка из владения [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_knights_blackscales_article:0 "the "
+ mercenary_knights_blackscales:0 "Blackscales"
+ mercenary_knights_tunnel_snakes_article:0 "the "
+ mercenary_knights_tunnel_snakes:0 "Tunnel Snakes"
 
  ##Dunmer
  mercenary_knights_retainers_article:0 ""
@@ -104,10 +158,22 @@
  mercenary_knights_vanguard:0 "Авангард из владения [TITLE.GetNameNoTierNoTooltip]" 
  mercenary_knights_chap_thil_article:0 ""
  mercenary_knights_chap_thil:0 "Чап'тил из владения [TITLE.GetNameNoTierNoTooltip]" 
+ mercenary_ash_exiles_article:0 "the "
+ mercenary_ash_exiles:0 "Ash Exiles"
 
  ###Nord
  mercenary_false_jarl_company_article:0 ""
  mercenary_false_jarl_company:0 "Компания Лже-Ярла"
+ mercenary_brotherhood_wolf_article:0 "the "
+ mercenary_brotherhood_wolf:0 "Brotherhood of the Wolf" 
+ mercenary_brotherhood_bear_article:0 "the "
+ mercenary_brotherhood_bear:0 "Brotherhood of the Bear" 
+ mercenary_reavers_lost_ark_article:0 "the "
+ mercenary_reavers_lost_ark:0 "Reavers of the Lost Ark"
+ mercenary_haafinheimer_host_article:0 "the "
+ mercenary_haafinheimer_host:0 "Hearty Host of Haafinheim"
+ mercenary_longboat_legions_article:0 "the "
+ mercenary_longboat_legions:0 "Longboat Legions of the Wulfharth Heirs"
  mercenary_knights_reavers_article:0 ""
  mercenary_knights_reavers:0 "Опустошители из владения [TITLE.GetNameNoTierNoTooltip]"
 
@@ -116,6 +182,38 @@
  mercenary_knights_ravagers:0 "Разорители из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_destroyers_article:0 ""
  mercenary_knights_destroyers:0 "Разрушители из владения [TITLE.GetNameNoTierNoTooltip]"
+
+ ###Redguards
+ mercenary_knights_gallants_article:0 "the "
+ mercenary_knights_gallants:0 "Gallants of [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_band_hawk_article:0 "the "
+ mercenary_band_hawk:0 "Band of the Hawk"
+ mercenary_sabres_ebonarm_article:0 "the "
+ mercenary_sabres_ebonarm:0 "Sabres of Ebonarm"
+ mercenary_iron_wheel_article:0 "the "
+ mercenary_iron_wheel:0 "Iron Wheel"
+ mercenary_order_camel_article:0 "the "
+ mercenary_order_camel:0 "Order of the Camel"
+ mercenary_gallants_shifting_sands_article:0 "the "
+ mercenary_gallants_shifting_sands:0 "Gallants of the Shifting Sands"
+ mercenary_war_eagles_article:0 "the "
+ mercenary_war_eagles:0 "War Eagles"
+ mercenary_sacred_rage_article:0 "the "
+ mercenary_sacred_rage:0 "Sacred Rage"
+ mercenary_knights_broken_sword_article:0 "the "
+ mercenary_knights_broken_sword:0 "Knights of the Broken Sword"
+
+ ###Orcs
+ mercenary_order_forge_article:0 "the "
+ mercenary_order_forge:0 "Order of the Forge"
+ mercenary_tusked_raiders_article:0 "the "
+ mercenary_tusked_raiders:0 "Tusked Raiders"
+
+ ###Nedes
+ mercenary_band_reachmen_article:0 "the "
+ mercenary_band_reachmen:0 "Band of Horned Reachmen"
+ mercenary_bitterroot_band_article:0 "the "
+ mercenary_bitterroot_band:0 "Bitter-Root Band"
 
  ###Misc
  mercenary_knights_raiders_article:0 ""
@@ -130,11 +228,3 @@
  mercenary_knights_brotherhood:0 "Братство из владения [TITLE.GetNameNoTierNoTooltip]" 
  mercenary_knights_company_article:0 ""
  mercenary_knights_company:0 "Компания из владения [TITLE.GetNameNoTierNoTooltip]" 
- 
-
- #Mercenaries?
-#The Host of the Horn of Lainlyn
-#The Knights of the Hawk of Santaki
-#The Knights of the Wheel of Abibon-Gora
-#The Order of the Candle of Sentinel
-#The Order of the Scarab of Totambu

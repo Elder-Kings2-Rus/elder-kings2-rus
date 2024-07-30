@@ -2,3 +2,25 @@
  academy_holding:0 "Академия"
 
  academy_holding_concept_key:0 "[academy|E]"
+
+ academy_holding_build_speed: "Время строительства [Concept('buildings', 'зданий')|E] академии"
+ academy_holding_build_gold_cost: "Стоимость строительства [Concept('buildings', 'зданий')|E] академии"
+ academy_holding_build_piety_cost: "Затраты [Concept('piety', 'благочестия')|E] на строительство [Concept('buildings', 'зданий')|E] академии"
+ academy_holding_build_prestige_cost: "Затраты [Concept('prestige', 'престижа')|E] на строительство [Concept('buildings', 'зданий')|E] академии"
+ academy_holding_holding_build_speed: "Время строительства [Concept('holding', 'владения')|E] академии"
+ academy_holding_holding_build_gold_cost: "Стоимость строительства [Concept('holding', 'владения')|E] академии"
+ academy_holding_holding_build_piety_cost: "Затраты [Concept('piety', 'благочестия')|E] на строительство [Concept('holding', 'владения')|E] академии"
+ academy_holding_holding_build_prestige_cost: "Затраты [Concept('prestige', 'престижа')|E] на строительство [Concept('holding', 'владения')|E] академии"
+
+ hist_holding: "Дерево хист"
+
+ hist_holding_concept_key: "[hist|E]"
+
+ hist_holding_build_speed: "Время строительства [Concept('buildings', 'зданий')|E] хист"
+ hist_holding_build_gold_cost: "Стоимость строительства [Concept('buildings', 'зданий')|E] хист"
+ hist_holding_build_piety_cost: "Затраты [Concept('piety', 'благочестия')|E] на строительство [Concept('buildings', 'зданий')|E] хист"
+ hist_holding_build_prestige_cost: "Затраты [Concept('prestige', 'престижа')|E] на строительство [Concept('buildings', 'зданий')|E] хист"
+ hist_holding_holding_build_speed: "Время строительства [Concept('holding', 'владения')|E] хист"
+ hist_holding_holding_build_gold_cost: "Стоимость строительства [Concept('holding', 'владения')|E] хист"
+ hist_holding_holding_build_piety_cost: "Затраты [Concept('piety', 'благочестия')|E] на строительство [Concept('holding', 'владения')|E] хист"
+ hist_holding_holding_build_prestige_cost: "Затраты [Concept('prestige', 'престижа')|E] на строительство [Concept('holding', 'владения')|E] хист"

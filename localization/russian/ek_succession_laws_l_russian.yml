@@ -75,7 +75,7 @@
 #Sorcerous Succession law  
  sorcerous_elective_succession_law:0 "Колдовские выборы"
  sorcerous_elective_succession_law_subname:0 "Магократическое наследование"
- sorcerous_elective_succession_law_effects:0 "[ruler|E] и все прямые [de_jure|El] [vassals|El] на один ил два [Concept('ranks', 'ранга')|E] ниже [Concept('title', 'титула')|E] могут выдвинуть [Concept('title_heir', 'наследника титула')|E] из числа [Concept('claimants', 'претендентов')|E] и [Concept('dynasty', 'династии')|E] правителя."
+ sorcerous_elective_succession_law_effects:0 "[ruler|E] и все прямые [de_jure|El] [vassals|El] на один ил два [Concept('ranks', 'ранга')|E] ниже [Concept('title', 'титула')|E] могут выдвинуть [Concept('title_heir', 'наследника титула')|E] из числа [Concept('claimants', 'претендентов')|E] и [Concept('dynasty', 'династии')|E] правителя. Это закон наследования отдаёт предпочтение магическим знаниям."
  sorcerous_elective_candidates:0 "Члены Дома"
  sorcerous_elective_candidates_tooltip:0 "Для того чтобы быть действительным кандидатом по закону $sorcerous_elective_succession_law$, персонаж должен соответствовать следующим условиям:\n$EFFECT_LIST_BULLET$Законнорожденные члены [Concept('house', 'Дома')|E] текущего правителя, не претендующие на наследование теократии или республики.\n$EFFECT_LIST_BULLET$[claimant|E] на титул, который не стоит в очереди на наследование теократии или республики"
  sorcerous_elective_electors:0 "$feudal_elective_electors$"
