@@ -216,13 +216,13 @@
  animal_duneracer:0 "дюноход"
  animal_duneracers:0 "дюноходы"
  
- modifier_ritual_empower_magic:0 "Усиление магов" # Данный ключ добавили в 0.13.2 только в немецкую локу, но не в английскую.
- modifier_spell_daedric_horde:0 "Орда даэдра"
- modifier_spell_spread_vitality_petty:0 "Распространение жизненной силы"
- modifier_spell_spread_vitality_lesser:0 "Распространение жизненной силы"
- modifier_spell_spread_vitality_common:0 "Распространение жизненной силы"
- modifier_spell_spread_vitality_greater:0 "Распространение жизненной силы"
- modifier_spell_spread_vitality_grand:0 "Распространение жизненной силы"
+ #modifier_ritual_empower_magic:0 "Усиление магов" # Данный ключ добавили в 0.13.2 только в немецкую локу, но не в английскую.
+ #modifier_spell_daedric_horde:0 "Орда даэдра"
+ #modifier_spell_spread_vitality_petty:0 "Распространение жизненной силы"
+ #modifier_spell_spread_vitality_lesser:0 "Распространение жизненной силы"
+ #modifier_spell_spread_vitality_common:0 "Распространение жизненной силы"
+ #modifier_spell_spread_vitality_greater:0 "Распространение жизненной силы"
+ #modifier_spell_spread_vitality_grand:0 "Распространение жизненной силы"
  attempted_extend_lifespan:0 "Недавняя попытка продления жизни"
  #holy_site_hs_temple_miraak_name:0 "Храм Мирака"
  next_level_trade_ports_name:0 "Морской меркантилизм" # такая-то культура обладает традицией ...

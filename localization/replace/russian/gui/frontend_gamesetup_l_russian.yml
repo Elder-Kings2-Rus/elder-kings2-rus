@@ -1,5 +1,5 @@
 ﻿l_russian:
- PICK_ANY_CHARACTER:0 "Играйте за любого правителя в bold [Select_CString( GreaterThan_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, '(int32)2920' ), '2Э', '1Э' )] [Subtract_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThan_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, '(int32)2920' ) ), '(int32)1' ), '(int32)2920' ) )]...#! или #bold создайте своего собственного!#!"
+ PICK_ANY_CHARACTER:0 "Играйте за любого правителя в #bold [Select_CString( GreaterThan_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, '(int32)2920' ), '2Э', '1Э' )] [Subtract_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThan_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, '(int32)2920' ) ), '(int32)1' ), '(int32)2920' ) )]...#! или #bold создайте своего собственного!#!"
  
  GAMESETUP_TUTORIAL_PROMPT_HEADER:1 "Добро пожаловать в Elder Kings II"
  GAMESETUP_TUTORIAL_PROMPT_INTRO:0 "Elder Kings 2 — это полностью изменяющий игру глобальный мод, который призван перенести ролевую стратегию Crusader Kings 3 во вселенную Elder Scrolls"
