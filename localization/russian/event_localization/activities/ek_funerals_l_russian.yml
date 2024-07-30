@@ -1,0 +1,30 @@
+﻿l_russian:
+ ek_activity_funeral_burial_ground: "#P ++ Значимая погребальная структура#!\n"
+ ek_funeral_cost_discount_burial_ground: "Особое место захоронения"
+ ek_funeral_cost_discount_effect_desc:0 "$unlocks_building_desc$Снижает затраты на проведение в этом [Concept('holding', 'владении')|E] занятия [GetActivityType('activity_funeral').GetTextIcon][GetActivityType('activity_funeral').GetName]: "
+ ek_funeral_cost_discount_medium_desc:0 "$ek_funeral_cost_discount_effect_desc$[EmptyScope.ScriptValue('funeral_activity_cost_discount_medium')|P0%]"
+ ek_funeral_cost_discount_max_desc:0 "$ek_funeral_cost_discount_effect_desc$[EmptyScope.ScriptValue('funeral_activity_cost_discount_max')|P0%]"
+ ek_funeral_outcome_effect_dyn_prestige_desc:0 "\nДополнительные награды при завершении в этом [Concept('holding', 'владении')|E] занятия [GetActivityType('activity_funeral').GetTextIcon][GetActivityType('activity_funeral').GetName]"
+
+ ek_funeral_piety_outcome_effect_desc:0 "Больше [piety_i][Concept('piety', 'благочестия')|E] при завершении в этом [Concept('holding', 'владении')|E] занятия [GetActivityType('activity_funeral').GetTextIcon][GetActivityType('activity_funeral').GetName]"
+ ek_funeral_legitimacy_outcome_effect_desc:0 "Больше [Concept('legitimacy', 'легитимности')|E] при завершении в этом [Concept('holding', 'владении')|E] занятия [GetActivityType('activity_funeral').GetTextIcon][GetActivityType('activity_funeral').GetName]"
+ ek_funeral_stress_outcome_effect_desc:0 "Повышенное снижение [stress_i][Concept('stress', 'стресса')|E] при завершении в этом [Concept('holding', 'владении')|E] занятия [GetActivityType('activity_funeral').GetTextIcon][GetActivityType('activity_funeral').GetName]"
+ ek_funeral_renown_outcome_effect_desc:0 "Завершённое в этом [Concept('holding', 'владении')|E] занятие [GetActivityType('activity_funeral').GetTextIcon][GetActivityType('activity_funeral').GetName] также даёт [dynasty_prestige|El]"
+
+ #Grave-stake burial
+ wakename_grave_stake:0 "Зул-ват" #Jel for grave-stake
+ wakedesc_grave_stake:0 "Скорбящие собираются, чтобы выразить свои чувства и рассказать отпевателю свои истории об умершем."
+ ceremonyname_grave_stake:0 "Зул-ват" #Jel for grave-stake
+ ceremonydesc_grave_stake:0 "Тело будет погребено в болоте, придавленное могильным столбом."
+ funeral_cost_discount_grave_stake:0 "Захоронение могильным столбом"
+
+ #Green Pact burial
+ wakename_green_pact:0 "Мясной завет"
+ wakedesc_green_pact:0 "Время присмотра за телом усопшего, предоставляющее последнюю возможность выразить мысли и чувства умершим, прежде чем их тело будет съедено в соответствии с Мясным заветом."
+ ceremonyname_green_pact:0 "Мясной завет"
+ ceremonydesc_green_pact:0 "Умерших съедят их родственники и знакомые."
+ funeral_cost_discount_cannibalism:0 "Каннибализм"
+
+ #Cannibalism
+ ceremonyname_cannibalism:0 "Поедание умерших"
+ ceremonydesc_cannibalism:0 "Умерший будет съеден скорбящими."

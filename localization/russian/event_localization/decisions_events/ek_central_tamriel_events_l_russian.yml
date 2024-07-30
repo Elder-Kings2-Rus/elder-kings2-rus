@@ -25,7 +25,16 @@
  central_tamriel.0005.t:0 "Трон Разлучённых Королей"
  central_tamriel.0005.desc:0 "Слишком долго Рубиновый трон оставался пуст. Слишком долго никто так и не смог приблизится к возрождению Империи. Пока Коловия и Нибеней, две части Сиродила, отдалились друг от друг настолько сильно, что стали такими же разделёнными, как и во времена до того, как их объединил император [reman_cyrodiil.GetFirstName].\n\nС этого дня, [GetTitleByKey('e_nibenay').GetNameNoTier] и [GetTitleByKey('e_colovian_estates').GetNameNoTier] снова являются отдельными образованиями, а [GetTitleByKey('e_cyrodiil').GetNameNoTier] остался лишь далёким воспоминанием."
  central_tamriel.0005.a:0 "Впереди тёмные времена..."
- central_tamriel.explanation.tt:0 "Так случилось из-за того, что ни [GetTitleByKey('e_cyrodiil').GetNameNoTier], ни [GetTitleByKey('e_cyrodiilic_potentate').GetNameNoTier] не существовали в течение последних 50 лет."
+ central_tamriel.explanation.tt:0 "Так случилось из-за того, что [empires|El] [GetTitleByKey('e_cyrodiil').GetNameNoTier] и [GetTitleByKey('e_cyrodiilic_potentate').GetNameNoTier] не существовали в течение последних 50 лет."
+
+ central_tamriel.0006.t:0 "Potentate-no-More"
+ #For now, only potentate-for-life Attrebus can get this event, so this desc is highly specific. Will be changed once we do Pretender Emperor stuff.
+ central_tamriel.0006.desc:0 "As I climb the steps towards the Ruby Throne, I recall the last time I spoke to a very similar crowd. Back then, I seized the position of Potentate for life. Back then, I barely outmaneuvered the Elder Council. Back then, I barely had enough power to keep the remnants of the Empire together. But now, as I sit down on the Ruby Throne, I know that I have brought peace, freedom, justice, and security to #italic all#! of Cyrodiil.\n\n#S \"My fellow Cyrods, today the Ruby Throne's influence once again reaches the farthest corners of Cyrodiil. Today, Cyrodiil has been made anew. Today... I am your Emperor!\"#!\n\nThis time no Councillors call for my removal. This time, the crowd chants my name - and title: [new_emperor.GetTitledFirstName]!"
+ central_tamriel.0006.a:0 "Once again our people are united under the Ruby Throne."
+
+ central_tamriel.0007.t:0 "$central_tamriel.0006.t$"
+ central_tamriel.0007.desc:0 "Through political machination and military might, [cyrodiil.GetHolder.GetFullName] has managed to gain control over the vast majority of Cyrodiil's lands. [cyrodiil.GetHolder.GetSheHe|U] now shed the title of Potentate and claimed the Ruby Throne in full. [cyrodiil.GetHolder.GetSheHe|U] has declared [cyrodiil.GetHolder.GetHerselfHimself] [cyrodiil.GetHolder.GetTitleTierName] of Cyrodiil!"
+ central_tamriel.0007.a:0 "Once again an Empire sits at the heart of Tamriel..."
 
 #Nenalata Restoration events
 #Restoration of Nenalata

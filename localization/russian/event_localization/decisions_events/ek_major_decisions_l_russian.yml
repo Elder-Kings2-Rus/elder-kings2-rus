@@ -3,3 +3,10 @@
  ek_major_decisions.0001.desc:0 "Наш вид веками отвергал саму идею стандартных армий. Мы полагались на превосходство над нашими врагами в численности с помощью дубинок и другого трофейного оружия, снабжая наших солдат всем, что было доступно в данный момент.\n\nЭти времена должны уйти. Это потребует времени и усилий, и наш народ может не одобрить отказ от наших традиций, но мы больше не можем полагаться на бесчисленное множество плохо экипированных воинов.\n\nМы должны обучать наших солдат, мы должны снабжать их надлежащим снаряжением, и мы должны создать элитные силы, которые смогут побеждать в наших войнах.\n\nОт этого зависит выживание нашего народа."
  ek_major_decisions.0001.a:0 "Это только начало, и мы должны идти ещё дальше!"
  ek_major_decisions.0001.b:0 "За [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|l]ий народ!"
+
+ ek_major_decisions.0002.t:0 "The [reformer.GetCulture.GetNameNoTooltip] Culture - Rising Might"
+ ek_major_decisions.0002.desc:0 "For a long time the [reformer.GetCulture.GetNameNoTooltip] warbands were nothing more than unorganised raiders, but under [reformer.GetTitledFirstName] this has now changed. [reformer.GetSheHe|U] has succeeded in reorganising the military so that [reformer.GetCulture.GetNameNoTooltip]s are now able to form proper armies.\n\n"
+ ek_major_decisions.0002.desc.same_kin:0 "This may even lead others of our kind to take arms and claim the land they rightfully inhabit. Those who oppose us will have to deal with an increased number of [reformer.GetCulture.GetNameNoTooltip] uprisings."
+ ek_major_decisions.0002.desc.other_kin:0 "This could lead to an increase in the strength and numbers of [reformer.GetCulture.GetNameNoTooltip] uprisings in the lands they claim as their home, so we may have to be prepared for that."
+ ek_major_decisions.0002.a:0 "This is concerning."
+ ek_major_decisions.0002.b:0 "A great day for our kind!"

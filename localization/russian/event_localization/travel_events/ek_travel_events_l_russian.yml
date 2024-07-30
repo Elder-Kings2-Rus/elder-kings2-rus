@@ -71,9 +71,12 @@
 
  ek_travel_events.0007.t.mage:0 "$travel_event_prefix$ Камень Мундуса: Маг"
  ek_travel_events.0007.desc.mage:0 "Мой путь проходит через [ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Мага.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
- ek_travel_events.0007.a.tt.mage:0 "Маг принимает вас"
+ ek_travel_events.0007.a.tt.mage:0 "[ROOT.Char.Custom('GetConstellationNameMage')] принимает вас"
  add_mage:0 "Вы получите [trait|El] [GetTrait('sign_mage').GetName( GetNullCharacter )]"
- ek_travel_events.0007.a.tt_fail.mage:0 "Маг отвергает вас"
+ ek_travel_events.0007.a.tt_fail.mage:0 "[ROOT.Char.Custom('GetConstellationNameMage')] отвергает вас"
+ ek_travel_events.0007.t.mage_reachfolk:0 "$travel_event_prefix$ Mundus Stone: The Witch"
+ ek_travel_events.0007.desc.mage_reachfolk:0 "While venturing through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] in [ROOT.Char.GetCurrentLocation.GetName], I stumbled upon a monolithic structure adorned with celestial engravings. This enigmatic stone bore celestial inscriptions that promised to grant me the celestial powers of the Witch Sky Tale.\n\nA crucial decision loomed: embrace its potent influence or leave it undisturbed, contemplating the secrets of this celestial marvel."
+
 
  ek_travel_events.0007.t.ritual:0 "$travel_event_prefix$ Камень Мундуса: Ритуал"
  ek_travel_events.0007.desc.ritual:0 "Мой путь проходит через [ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Ритуала.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
@@ -81,11 +84,13 @@
  add_ritual:0 "Вы получите [trait|El] [GetTrait('sign_ritual').GetName( GetNullCharacter )]"
  ek_travel_events.0007.a.tt_fail.ritual:0 "Ритуал отвергает вас"
 
- ek_travel_events.0007.t.serpent:0 "$travel_event_prefix$ Камень Мундуса: Змей"
- ek_travel_events.0007.desc.serpent:0 "Мой путь проходит через [ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Змея.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
- ek_travel_events.0007.a.tt.serpent:0 "Змей принимает вас"
+ ek_travel_events.0007.t.serpent:0 "$travel_event_prefix$ Камень Мундуса: Змея"
+ ek_travel_events.0007.desc.serpent:0 "Мой путь проходит через [ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Змеи.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
+ ek_travel_events.0007.a.tt.serpent:0 "[ROOT.Char.Custom('GetConstellationNameSerpent')] принимает вас"
  add_serpent:0 "Вы получите [trait|El] [GetTrait('sign_serpent').GetName( GetNullCharacter )]"
- ek_travel_events.0007.a.tt_fail.serpent:0 "Змей отвергает вас"
+ ek_travel_events.0007.a.tt_fail.serpent:0 "[ROOT.Char.Custom('GetConstellationNameSerpent')] отвергает вас"
+ ek_travel_events.0007.t.serpent_reachfolk:0 "$travel_event_prefix$ Mundus Stone: The Snake"
+ ek_travel_events.0007.desc.serpent_reachfolk:0 "While venturing through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] in [ROOT.Char.GetCurrentLocation.GetName], I stumbled upon a monolithic structure adorned with celestial engravings. This enigmatic stone bore celestial inscriptions that promised to grant me the celestial powers of the Snake Sky Tale.\n\nA crucial decision loomed: embrace its potent influence or leave it undisturbed, contemplating the secrets of this celestial marvel."
 
  ek_travel_events.0007.t.shadow:0 "$travel_event_prefix$ Камень Мундуса: Тень"
  ek_travel_events.0007.desc.shadow:0 "Мой путь проходит через [ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Тени.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
@@ -101,9 +106,11 @@
 
  ek_travel_events.0007.t.thief:0 "$travel_event_prefix$ Камень Мундуса: Вор"
  ek_travel_events.0007.desc.thief:0 "Мой путь проходит через [ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Вора.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
- ek_travel_events.0007.a.tt.thief:0 "Вор принимает вас"
+ ek_travel_events.0007.a.tt.thief:0 "[ROOT.Char.Custom('GetConstellationNameThief')] принимает вас"
  add_thief:0 "Вы получите [trait|El] [GetTrait('sign_thief').GetName( GetNullCharacter )]"
- ek_travel_events.0007.a.tt_fail.thief:0 "Вор отвергает вас"
+ ek_travel_events.0007.a.tt_fail.thief:0 "[ROOT.Char.Custom('GetConstellationNameThief')] отвергает вас"
+ ek_travel_events.0007.t.thief_reachfolk:0 "$travel_event_prefix$ Mundus Stone: The Hunter"
+ ek_travel_events.0007.desc.thief_reachfolk:0 "While venturing through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] in [ROOT.Char.GetCurrentLocation.GetName], I stumbled upon a monolithic structure adorned with celestial engravings. This enigmatic stone bore celestial inscriptions that promised to grant me the celestial powers of the Hunter Sky_Tale.\n\nA crucial decision loomed: embrace its potent influence or leave it undisturbed, contemplating the secrets of this celestial marvel."
 
  ek_travel_events.0007.t.tower:0 "$travel_event_prefix$ Камень Мундуса: Башня"
  ek_travel_events.0007.desc.tower:0 "Мой путь проходит через [ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Башни.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
@@ -113,9 +120,12 @@
 
  ek_travel_events.0007.t.warrior:0 "$travel_event_prefix$ Камень Мундуса: Воин"
  ek_travel_events.0007.desc.warrior:0 "Мой путь проходит через [ROOT.Char.GetCurrentLocation.GetName]. Вокруг [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], и тут я замечаю огромный монолит, украшенный гравировкой в виде созвездий. На этом загадочном камне были выбиты надписи, которые обещают наделить меня небесными силами Созвездия Воина.\n\nМне предстоит принять судьбоносное решение: воспользоваться мощным влиянием камня или оставить его в покое, чтобы обдумать тайны этого небесного чуда."
- ek_travel_events.0007.a.tt.warrior:0 "Воин принимает вас"
+ ek_travel_events.0007.a.tt.warrior:0 "[ROOT.Char.Custom('GetConstellationNameWarrior')] принимает вас"
  add_warrior:0 "Вы получите [trait|El] [GetTrait('sign_warrior').GetName( GetNullCharacter )]"
- ek_travel_events.0007.a.tt_fail.warrior:0 "Воин отвергает вас"
+ ek_travel_events.0007.a.tt_fail.warrior:0 "[ROOT.Char.Custom('GetConstellationNameWarrior')] отвергает вас"
+ ek_travel_events.0007.t.warrior_reachfolk:0 "$travel_event_prefix$ Mundus Stone: The Headsman"
+ ek_travel_events.0007.desc.warrior_reachfolk:0 "While venturing through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] in [ROOT.Char.GetCurrentLocation.GetName], I stumbled upon a monolithic structure adorned with celestial engravings. This enigmatic stone bore celestial inscriptions that promised to grant me the celestial powers of the Headsman Sky Tale.\n\nA crucial decision loomed: embrace its potent influence or leave it undisturbed, contemplating the secrets of this celestial marvel."
+
 
  ek_travel_events.0008.t:0 "$travel_event_prefix$ Не просто верховые животные"
  ek_travel_events.0008.desc:0 "Пересечь [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip] в местечке [ROOT.Char.GetCurrentLocation.GetName] практически невозможно без местных проводников и их выносливых верховых сенч-рат. [offended.GetFirstName] любезно [Select_CString(offended.IsFemale, 'предложила', 'предложил' )] себя в качестве [Select_CString(offended.IsFemale, 'проводницы', 'проводника' )] на нашем пути.\n\nОтдохнув, я [Select_CString(ROOT.Char.IsFemale, 'заметила', 'заметил' )], что на одном из сенч-рат никто не сидит. Я [Select_CString(ROOT.Char.IsFemale, 'спросила', 'спросил' )] у [Select_CString(offended.IsFemale, 'проводницы', 'проводника' )] об этом, но в ответ на меня странно посмотрели.\n\n«Это запасное животное?», - [Select_CString(ROOT.Char.IsFemale, 'поинтересовалась', 'поинтересовался' )] я.\n\n«Нет», [Select_CString(offended.IsFemale, 'ответила', 'ответил' )] [offended.GetFirstNameNoTooltip]. «Это мой кузен.»"
@@ -249,7 +259,7 @@
  ek_travel_events.0021.diplomacy:0 "Я чувствую, что могу прекратить любую войну!"
  ek_travel_events.0021.c:0 "Красиво блестит, но нам пора ехать."
 
- ek_travel_events.0022.t:0 "$travel_danger_prefix$ Ведьмы болот"
+ ek_travel_events.0022.t:0 "$travel_danger_prefix$ Ведьмы Ведьминой топи"
  ek_travel_events.0022.desc:0 "Вокруг меня [ROOT.Char.GetCurrentLocation.GetName] и тут я случайно [Select_CString(ROOT.Char.IsFemale, 'наткнулась', 'наткнулся' )] на болотных ведьм, что стало для меня довольно неприятным сюрпризом. Пытаясь незаметно отступить и покинуть это место, я нечаянно [Select_CString(ROOT.Char.IsFemale, 'наступила', 'наступил' )] на ветку, что вызвало громкий шум, привлёкший внимание обитающих здесь ведьм.\n\nЭти уродливые ведьмы, вооружённые посохами, явно восприняли моё присутствие как оскорбление. Я быстро [Select_CString(ROOT.Char.IsFemale, 'бросилась', 'бросился' )] бежать прочь, оставив позади часть снаряжения, и [Select_CString(ROOT.Char.IsFemale, 'помчалась', 'помчался' )] через болота. Я продираюсь сквозь топь, едва уклоняясь от крокодилов, но безжалостные ведьмы не отстают от меня.\n\nГогот и проклятия ведьм наполняют воздух, эхом отражаясь от густой растительности. Я понимаю, что мне нужно как можно скорее найти выход из этой коварной трясины и спастись от лап болотных ведьм."
  ek_travel_events.0022.a:0 "Хватит бегать, пора сражаться!"
  ek_travel_events.0022.a.success:0 "Вы смогли выжить"
@@ -348,7 +358,7 @@
  ek_travel_events.0036.b:0 "Увы, у меня нет на это времени."
 
  ek_travel_events.0038.t:0 "$travel_event_prefix$ Культ Мотылька Предка"
- ek_travel_events.0038.desc:0 "Во время нашего путешествия по провинции [ROOT.Char.GetCurrentLocation.GetName] мы обнаружили уникальную традицию, связанную с культом Мотылька Предка. По словам местного учёного по имени [local.GetFirstName], в прошлом сиро-норды ткали платки и шали из шёлка местных мотыльков, воплощая свою генеалогию в слиянии предков и природы.\n\nПод влиянием культа возник ритуал, который объединяет предков с мотыльками для создания особой ткани, пропитанной голосами духов. Если такая одежда шуршит, то она перекликается голосами духов предков, что явно завораживало первых нибенейцев. Монахи культа украшали себя священными мотыльками, привлеченными пылью коры с древа шелкопрядов и особыми мантрами. Монахи непрерывно воспевали космическое равновесие, так как любая дисгармония заставляла мотыльков улетать."
+ ek_travel_events.0038.desc:0 "Во время нашего путешествия по провинции [ROOT.Char.GetCurrentLocation.GetName] мы обнаружили уникальную традицию, связанную с культом Мотылька Предка. По словам местного учёного по имени [local.GetFirstName], в прошлом сиро-норды ткали платки и шали из шёлка местных мотыльков, воплощая свою генеалогию в слиянии предков и природы.\n\nПод влиянием культа возник ритуал, который объединяет предков с мотыльками для создания особой ткани, пропитанной голосами духов. Если такая одежда шуршит, то она перекликается голосами духов предков, что явно завораживало первых нибенейцев. Монахи культа украшали себя священными мотыльками, привлеченными пылью коры с древа шелкопрядов и особыми мантрами. Они непрерывно воспевали космическое равновесие, заставляя мотыльков вырываться наружу при каждом слове, а затем возвращаться обратно, когда вновь наступала тишина."
  ek_travel_events.0038.a:0 "Пожалуйста, расскажи мне больше, о [local.GetFirstNameNoTooltip]!"
  ek_travel_events.0038.b:0 "У меня нет времени на подобную мистику."
 
@@ -620,8 +630,8 @@
  ek_travel_events.1002.d:0 "Неинтересно, нам нужно двигаться дальше."
 
  ek_travel_events.1003.t:0 "$travel_event_prefix$ Осмотр звёзд"
- ek_travel_events.1003.desc:0 "Ясное небо, под которым мы решили разбить лагерь на ночь, полно звёзд. [Select_CString(ROOT.Char.IsFemale, 'Измученная', 'Измученный' )] долгим днём путешествия, я [Select_CString(ROOT.Char.IsFemale, 'прилегла', 'прилег' )] у костра, вглядываясь в странный и удивительный мир над нами — царство знаков звёзд, которые наблюдают за нами, охраняя от куда более странных вещей, что лежат даже дальше их. Каждая звезда представляет собой определённые сильные стороны и качества, которые помогают нам справляться с жизненными трудностями.\n\nЯ тоже [Select_CString(ROOT.Char.IsFemale, 'благословлена', 'благословлён' )] с рождения, но я никогда не [Select_CString(ROOT.Char.IsFemale, 'находила', 'находил' )] времени, чтобы полностью обдумать его. Это редкая возможность получить более широкое представление о звёздах и их роли в Мундусе, но я также чувствую, как на меня давит усталость от пережитых за день испытаний."
- ek_travel_events.1003.a:0 "Поразмышлять о текущем звездном знаке."
+ ek_travel_events.1003.desc:0 "Ясное небо, под которым мы решили разбить лагерь на ночь, полно звёзд. [Select_CString(ROOT.Char.IsFemale, 'Измученная', 'Измученный' )] долгим днём путешествия, я [Select_CString(ROOT.Char.IsFemale, 'прилегла', 'прилег' )] у костра, вглядываясь в странный и удивительный мир над нами — царство [Concept('star_signs', 'знаков звёзд')|E], которые наблюдают за нами, охраняя от куда более странных вещей, что лежат даже дальше их. Каждая звезда представляет собой определённые сильные стороны и качества, которые помогают нам справляться с жизненными трудностями.\n\nЯ тоже [Select_CString(ROOT.Char.IsFemale, 'благословлена', 'благословлён' )] с рождения, но я никогда не [Select_CString(ROOT.Char.IsFemale, 'находила', 'находил' )] времени, чтобы полностью обдумать его. Это редкая возможность получить более широкое представление о звёздах и их роли в Мундусе, но я также чувствую, как на меня давит усталость от пережитых за день испытаний."
+ ek_travel_events.1003.a:0 "Поразмышлять о текущем созвездии."
  ek_travel_events.1003.b:0 "Просто лечь спать."
 
  ek_travel_events.1004.t:0 "$travel_event_prefix$ Скрытый тайник"
@@ -633,13 +643,13 @@
  ek_travel_events.1004.b.success:0 "Вы успешно сломали замок"
  ek_travel_events.1004.b.failure:0 "Вы не сумели сломать замок"
  ek_travel_events.1004.c:0 "Для такого мага, как я, это не препятствие."
- ek_travel_events.1004.d:0 "[alteration_mage.GetFirstName|U], используй свою магию, чтобы открыть его!
+ ek_travel_events.1004.d:0 "[alteration_mage.GetFirstName|U], используй свою магию, чтобы открыть его!"
  ek_travel_events.1004.e:0 "Содержимое сундука мне не принадлежит."
 
  ek_travel_events.1005.t:0 "$travel_event_prefix$ Звенящее растение"
  ek_travel_events.1005.desc:0 "Я слышу необычный звук. Он побуждает меня остановиться и выяснить его происхождение. К своему удивлению я обнаруживаю, что источником этого загадочного шума является необычное растение, с которыми я никогда раньше не [Select_CString(ROOT.Char.IsFemale, 'сталкивалась', 'сталкивался' )]. Оно растёт у воды, имеет широкие листья, которые слабо светятся и издают постоянный звук, слышимый даже на расстоянии нескольких футов.\n\nКо мне присоединяется [herbalist_character.GetFirstName] и [herbalist_character.GetSheHe] просвещает меня об этом растении, определяя его как Корень Нирна — загадочный образец растительного мира с мощными алхимическими свойствами, которые ставят в тупик травников по всему Мундусу. Если взять его с собой, то можно узнать много всего ценного."
  ek_travel_events.1005.a:0 "Я собираюсь изучить его."
- ek_travel_events.1005.b:0 "[herbalist_character.GetFirstNameNoToolTip|U], раскрой его секреты."
+ ek_travel_events.1005.b:0 "[herbalist_character.GetFirstNameNoTooltip|U], раскрой его секреты."
  ek_travel_events.1005.c:0 "В следующем городе за него дадут хорошую цену."
 
  ek_travel_events.1006.t:0 "$travel_event_prefix$ Красочные брачные танцы"
@@ -683,9 +693,9 @@
  ek_travel_events.1501.t:0 "$travel_danger_prefix$ Крылатые мимики"
  ek_travel_events.1501.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'ожидала', 'ожидал' )] увидеть и услышать много странных вещей во время путешествия по густым зарослям Валенвуда, но странные существа, собравшиеся сейчас над моей головой, превосходят все мои самые смелые ожидания. Они напоминают безногих птиц с раздутыми животами и угрожающе светящимися глазами. Однако больше всего меня беспокоит не их внешний вид, а их бесконечная болтовня. Кажется, что они повторяют каждое слово, произнесённое мной за последние несколько часов. Причём на редкость издевательским тоном, превращая мои фразы в непонятную тарабарщину.\n\nЭто действует мне на нервы, а попытки кричать на них только усугубляют ситуацию. Если мне не удастся избавиться от них, боюсь, мне придётся терпеть их присутствие еще много дней. И я не знаю, смогу ли я вынести это мучение."
  ek_travel_events.1501.a:0 "Просто постараюсь не обращать на них внимания."
- ek_travel_events.1501.b:0 "Охотник! [hunter_character.GetFirstNameNoToolTip|U]! Разберись с ними."
- ek_travel_events.1501.b.success:0 "[hunter_character.GetFirstNameNoToolTip|U] сбивает мимиков"
- ek_travel_events.1501.b.failure:0 "[hunter_character.GetFirstNameNoToolTip|U] промахивается по мимикам"
+ ek_travel_events.1501.b:0 "Охотник! [hunter_character.GetFirstNameNoTooltip|U]! Разберись с ними."
+ ek_travel_events.1501.b.success:0 "[hunter_character.GetFirstNameNoTooltip|U] сбивает мимиков"
+ ek_travel_events.1501.b.failure:0 "[hunter_character.GetFirstNameNoTooltip|U] промахивается по мимикам"
  ek_travel_events.1501.c:0 "Эти твари выбрали не ту цель!"
  ek_travel_events.1501.c.success:0 "Вы сбили мимиков"
  ek_travel_events.1501.c.failure:0 "Вы промахнулись по мимикам"
@@ -695,13 +705,13 @@
  ek_travel_events.1502.a:0 "Прикройте головы, это может быть ещё не всё!"
 
  ek_travel_events.1503.t:0 "$travel_danger_prefix$ Убийственные растения"
- ek_travel_events.1503.desc:0 "Валенвуд — это действительно не место для беспечных. Это царство действует на основе собственной уникальной логики и законов, и похоже что даже флора здесь может быть смертельно опасной. То, что казалось безобидной лозой, внезапно оживает, когда мы проходим мимо, хватает персонажа по имени [strangled_character.GetFirstName] и утаскивает [strangled_character.GetHerHis] в заросли. Бросившись [strangled_character.GetHerHim] на помощь с оружием наготове, я понимаю, что [strangled_character.GetSheHe] [Select_CString(strangled_character.IsFemale, 'была поймана', 'был пойман' )] душителем — плотоядным растением с длинными колючими щупальцами. Я осторожно приближаюсь к этому убийственному представителю флоры, чтобы не попасть в его смертельные объятия, но если никто не вмешается, [strangled_character.GetFirstNameNoToolTip] будет [Select_CString(strangled_character.IsFemale, 'задушена', 'задушен' )] на наших глазах, а [strangled_character.GetHerHis] тело лишь послужит удобрением для почвы Валенвуда."
+ ek_travel_events.1503.desc:0 "Валенвуд — это действительно не место для беспечных. Это царство действует на основе собственной уникальной логики и законов, и похоже что даже флора здесь может быть смертельно опасной. То, что казалось безобидной лозой, внезапно оживает, когда мы проходим мимо, хватает персонажа по имени [strangled_character.GetFirstName] и утаскивает [strangled_character.GetHerHis] в заросли. Бросившись [strangled_character.GetHerHim] на помощь с оружием наготове, я понимаю, что [strangled_character.GetSheHe] [Select_CString(strangled_character.IsFemale, 'была поймана', 'был пойман' )] душителем — плотоядным растением с длинными колючими щупальцами. Я осторожно приближаюсь к этому убийственному представителю флоры, чтобы не попасть в его смертельные объятия, но если никто не вмешается, [strangled_character.GetFirstNameNoTooltip] будет [Select_CString(strangled_character.IsFemale, 'задушена', 'задушен' )] на наших глазах, а [strangled_character.GetHerHis] тело лишь послужит удобрением для почвы Валенвуда."
  ek_travel_events.1503.a:0 "Я освобожу тебя, разрезав лианы!"
  ek_travel_events.1503.a.success:0 "Вам удалось спасти персонажа [strangled_character.GetFirstNameNoTooltip]"
  ek_travel_events.1503.a.failure:0 "Вам не удалось спасти персонажа [strangled_character.GetFirstNameNoTooltip]"
- ek_travel_events.1503.b:0 "[prowess_character.GetFirstNameNoToolTip|U], помоги [strangled_character.GetHerHim]!"
- ek_travel_events.1503.b.success:0 "[prowess_character.GetFirstNameNoToolTip|U] [Select_CString(prowess_character.IsFemale, 'сумел', 'сумел' )] спасти персонажа [strangled_character.GetFirstNameNoTooltip]"
- ek_travel_events.1503.b.failure:0 "[prowess_character.GetFirstNameNoToolTip|U] не [Select_CString(prowess_character.IsFemale, 'смогла', 'смог' )] спасти персонажа [strangled_character.GetFirstNameNoTooltip]"
+ ek_travel_events.1503.b:0 "[prowess_character.GetFirstNameNoTooltip|U], помоги [strangled_character.GetHerHim]!"
+ ek_travel_events.1503.b.success:0 "[prowess_character.GetFirstNameNoTooltip|U] [Select_CString(prowess_character.IsFemale, 'сумел', 'сумел' )] спасти персонажа [strangled_character.GetFirstNameNoTooltip]"
+ ek_travel_events.1503.b.failure:0 "[prowess_character.GetFirstNameNoTooltip|U] не [Select_CString(prowess_character.IsFemale, 'смогла', 'смог' )] спасти персонажа [strangled_character.GetFirstNameNoTooltip]"
  ek_travel_events.1503.c:0 "Мы ничего не можем сделать..."
 
  ek_travel_events.1504.t:0 "$travel_danger_prefix$ Столкновение с Полыми"
@@ -716,7 +726,7 @@
  ek_travel_events.1505.desc:0 "Тех, кто отваживается отправиться в пустыню, опасность поджидает не только в виде голодных тварей, палящего солнца и неутолимой жажды — смертельным может оказаться даже самый обычный песок. Когда его поднимает в воздух внезапная буря, он способен поглотить всё на своем пути, будь то здание, караван или одинокого странника. Я стою в благоговейном ужасе, чувствуя удары колотящегося сердца, когда вижу на далёком горизонте бурю, несущуюся в моём направлении подобно свирепому зверю.\n\nВозможно, будет разумно немедленно найти укрытие. Однако если я буду ждать окончания бури, то значительно задержусь."
  ek_travel_events.1505.a:0 "Прорвёмся!"
  ek_travel_events.1505.a.success:0 "Вы пережили бурю"
- ek_travel_events.1505.a.failure:0 "[dead_character.GetFirstNameNoToolTip|U] [Select_CString(dead_character.IsFemale, 'заблудилась', 'заблудился' )] в буре"
+ ek_travel_events.1505.a.failure:0 "[dead_character.GetFirstNameNoTooltip|U] [Select_CString(dead_character.IsFemale, 'заблудилась', 'заблудился' )] в буре"
  ek_travel_events.1505.a.critical_failure:0 "Весь караван погиб в буре"
  ek_travel_events.1505.b:0 "Построить убежище и переждать в нём бурю."
 
@@ -724,7 +734,7 @@
  ek_travel_events.1506.desc:0 "Это произошло в одно мгновение. Секунду назад мы шли вперёд под палящим солнцем пустыни Алик'р, а через удар сердца песок под нашими ногами начал кружиться, явив существо, которое мало кому посчастливится увидеть:\n\nЭто чудовищное создание ростом почти с лошадь и в три раза длиннее. Массивные когти заставляют песок взмывать в воздух, а огромная зияющая пасть готова поглотить добычу целиком.\n\nЭто дюнорой!"
  ek_travel_events.1506.a:0 "Соберитесь вокруг меня, дадим ему отпор!"
  ek_travel_events.1506.a.success:0 "Вам удалось отогнать чудовище"
- ek_travel_events.1506.a.failure:0 "[duneripper_food.GetFirstNameNoToolTip|U] [Select_CString(duneripper_food.IsFemale, 'оказалась', 'оказался' )] в пасти дюнороя."
+ ek_travel_events.1506.a.failure:0 "[duneripper_food.GetFirstNameNoTooltip|U] [Select_CString(duneripper_food.IsFemale, 'оказалась', 'оказался' )] в пасти дюнороя."
  ek_travel_events.1506.b:0 "Я покончу с этим чудовищем!"
  ek_travel_events.1506.b.success:0 "Вы убили дюнороя"
  ek_travel_events.1506.b.failure:0 "Дюнорой убил вас"
@@ -741,7 +751,7 @@
  ek_travel_events.1507.c.t:0 "Наёмники прогонят ламию"
 
  ek_travel_events.1508.t:0 "$travel_danger_prefix$ Укус скорпиона"
- ek_travel_events.1508.desc:0 "Скорпионов Хаммерфелла боятся даже за пределами страны. По слухам, обитающие в глубине пустыни Алик'р скорпионы вырастают до размеров лошади и представляют собой значительную опасность для неосторожных путников. Однако и маленькие создания могут быть не менее смертоносными, в чём только что [Select_CString(unlucky_character.IsFemale, 'убедилась', 'убедился' )] [unlucky_character.GetFirstName]. Безо всякого предупреждения [unlucky_character.GetSheHe] вскрикивает от боли и падает на землю, а я успеваю лишь мельком увидеть, как скорпион, впрыснув свой смертельный яд в несчастную жертву, улепётывает прочь.\n\nБез немедленной помощи [unlucky_character.GetFirstNameNoToolTip] скорее всего тут же умрёт."
+ ek_travel_events.1508.desc:0 "Скорпионов Хаммерфелла боятся даже за пределами страны. По слухам, обитающие в глубине пустыни Алик'р скорпионы вырастают до размеров лошади и представляют собой значительную опасность для неосторожных путников. Однако и маленькие создания могут быть не менее смертоносными, в чём только что [Select_CString(unlucky_character.IsFemale, 'убедилась', 'убедился' )] [unlucky_character.GetFirstName]. Безо всякого предупреждения [unlucky_character.GetSheHe] вскрикивает от боли и падает на землю, а я успеваю лишь мельком увидеть, как скорпион, впрыснув свой смертельный яд в несчастную жертву, улепётывает прочь.\n\nБез немедленной помощи [unlucky_character.GetFirstNameNoTooltip] скорее всего тут же умрёт."
  ek_travel_events.1508.a:0 "Я знаю заклинание против этого яда!"
  ek_travel_events.1508.b:0 "[traveling_court_physician.GetFirstName|U], помоги [unlucky_character.GetHerHim]!"
  ek_travel_events.1508.c:0 "Этот скорпион будет прекрасным домашним животным."
@@ -760,7 +770,7 @@
  ek_travel_events.1510.a:0 "«Я — маормер, это чудовище должно меня уважать!»"
  ek_travel_events.1510.b:0 "Все вместе, в атаку!"
  ek_travel_events.1510.b.success:0 "Вы прогнали змея"
- ek_travel_events.1510.b.failure:0 "[sea_serpent_food.GetFirstNameNoToolTip|U] [Select_CString(ROOT.Char.IsFemale, 'была убита', 'был убит' )] морским змеем."
+ ek_travel_events.1510.b.failure:0 "[sea_serpent_food.GetFirstNameNoTooltip|U] [Select_CString(ROOT.Char.IsFemale, 'была убита', 'был убит' )] морским змеем."
  ek_travel_events.1510.c:0 "Я заполучу его голову!"
  ek_travel_events.1510.c.success:0 "Вы убили морского змея"
  ek_travel_events.1510.c.failure:0 "Морской змей убил вас"
