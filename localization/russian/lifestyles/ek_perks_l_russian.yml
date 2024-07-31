@@ -29,7 +29,7 @@
  RAIDER_BLOOD_PERK_EFFECT:0 "[Concept('raiding', 'Набеги')|E] награждают небольшим количеством [dynasty_prestige_i][Concept('dynasty_prestige', 'признания')|E]"
  plunderer_perk_name:0 "Разбойник"
  # Intrigue: Crimeboss Tree
- crimeboss_name:1 "Преступный босс"
+ crimeboss_name:1 "Главарь"
  missing_persons_perk_name:0 "По ним никто не будет скучать"
  MISSING_PERSONS_PERK_EFFECT:0 "Время от времени вы будете получать случайного ничтожного [Concept( 'prisoner', 'узника' )|E]-простолюдина."
  sense_opportunity_perk_name:0 "Чутьё на возможность"
@@ -42,7 +42,7 @@
  call_henchmen_perk_name:0 "Призвать прихвостней"
  CALL_HENCHMEN_PERK_EFFECT:0 "Откроет решение, которое позволит пригласить преступников к вашему [Concept( 'court', 'двору' )|E]"
  keep_them_in_line_perk_name:0 "Держать их в узде"
- crimeboss_perk_name:0 "Преступный босс"
+ crimeboss_perk_name:0 "Главарь"
  steal_back_artifact_scheme_power_add:0 "[GetScheme('steal_back_artifact').GetTypeName] – [scheme_power|El]"
  steal_back_artifact_scheme_resistance_add:0 "[GetScheme('steal_back_artifact').GetTypeName] – [scheme_resistance|El]"
  imprison_random_lowborn_01:0 "[new_prisoner.GetFirstNameNoTooltip|U] теперь находится в ваших застенках."
