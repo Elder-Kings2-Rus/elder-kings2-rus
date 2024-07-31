@@ -24,16 +24,16 @@
  
  trait_pirate:0 "Пират"
  trait_pirate_desc:0 "Этот персонаж - пират. Ярррр, дружище!"
- trait_pirate_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - пират. Ярррр, дружище!\n\n#I Picking this trait in the Ruler Designer will trigger an event at game start, allowing you to start the game with [pirate_government|E].#!"
+ trait_pirate_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - пират. Ярррр, дружище!\n\n#I Выбор этого свойства в редакторе персонажа вызовет событие в начале игры, что позволит вам начать игру с [Concept('pirate_government', 'пиратской формой правления')|E].#!"
 
  trait_plunderer:0 "[Select_CString(ROOT.Char.IsFemale, 'Разбойница', 'Разбойник' )]"
  trait_plunderer_desc:0 "Истинная сила достигается только путем захвата того, что принадлежит вам по праву. А весь мир и его богатства принадлежат вам по праву."
 
- trait_crimeboss:0 "Crimeboss"
- trait_crimeboss_desc:0 "There are many dark forces and malicious factions at play in the lands of Tamriel and this character has decided to use them to their advantage."
+ trait_crimeboss:0 "Главарь"
+ trait_crimeboss_desc:0 "В землях Тамриэля действует множество тёмных сил и злобных фракций, и этот персонаж решил использовать их в своих интересах."
 
  trait_necromancer:0 "Некромант"
- trait_necromancer_desc:0 "Этот персонаж известен тем, что оскверняет трупы умерших, манипулируя их душами и воскрешая их тела для воплощения своих желаний.\n\n#I Picking this trait in the Ruler Designer will trigger an event at game start, allowing you to start the game as a secret necromancer.#!"
+ trait_necromancer_desc:0 "Этот персонаж известен тем, что оскверняет трупы умерших, манипулируя их душами и воскрешая их тела для воплощения своих желаний.\n\n#I Выбор этого свойства в редакторе персонажа вызовет событие в начале игры, что позволит вам начать игру в качестве тайного некроманта.#!"
  trait_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'известна тем', 'известен тем' )], что оскверняет трупы умерших, манипулируя их душами и воскрешая их тела для воплощения своих желаний."
 
  trait_reclusive_vampire:0 "[Select_CString(ROOT.Char.IsFemale, 'Затворница', 'Затворник' )]"
@@ -43,7 +43,7 @@
  trait_vampire_player_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] тайно является вампиром, нежитью, проклятой пить кровь живых и избегать солнечного света."
 
  trait_vampire_character:0 "Вампир"
- trait_vampire_character_desc:0 "Этот персонаж - вампир, неживое существо, проклятое пить кровь живых и избегать солнечного света.\n\n#I Picking this trait in the Ruler Designer will trigger an event at game start, allowing you to start the game as a secret vampire.#!"
+ trait_vampire_character_desc:0 "Этот персонаж - вампир, неживое существо, проклятое пить кровь живых и избегать солнечного света.\n\n#I Выбор этого свойства в редакторе персонажа вызовет событие в начале игры, что позволит вам начать игру в качестве тайного вампира.#!"
  trait_vampire_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - Вампир, неживое существо, проклятое пить кровь живых и избегать солнечного света." #character_character
 
  # Diseases
@@ -57,15 +57,15 @@
  trait_sanies_lupinus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'заразилась', 'заразился' )] Гнойным люпинусом, болезнью, передающейся при контакте с ликантропами, которая вызывает сонливость. Если не вылечиться от неё в ближайшее время, то последствия могут быть ужасными." #character_character
  disease_sanies_lupinus:0 "Гнойный люпинус."
 
- trait_chrondiasis:0 "Chrondiasis"
- trait_chrondiasis_desc:0 "This character has contracted Chrondiasis, a magical disease that only affects those capable of the arcane. It slowly consumes a person's intelligence and magicka and can leave the victim feebleminded or even dead."
- trait_chrondiasis_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has contracted Chrondiasis, a magical disease that only affects those capable of the arcane. It slowly consumes a persons' intelligence and magicka and can leave the victim feebleminded or even dead."
- disease_chrondiasis:0 "Chrondiasis."
+ trait_chrondiasis:0 "Ипохондрия"
+ trait_chrondiasis_desc:0 "Этот персонаж заразился Ипохондрией, магической болезнью, которая поражает только тех, кто предрасположен к магии. Она медленно пожирает интеллект и магию и может оставить жертву слабоумной или даже убить её."
+ trait_chrondiasis_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'заразилась', 'заразился' )] Ипохондрией, магической болезнью, которая поражает только тех, кто предрасположен к магии. Она медленно пожирает интеллект и магию и может оставить жертву слабоумной или даже убить её."
+ disease_chrondiasis:0 "Ипохондрия."
 
- trait_peryite_affliction:0 "Peryite's Affliction"
- trait_peryite_affliction_desc:0 "This character has contracted Peryite's Affliction, a Daedric disease sent by the Prince of Pestilence themself. The infection nests in the host's body for a long time. On some days it is barely noticeable, on others it causes violent febrile convulsions and vomiting of corrosive slime."
- trait_peryite_affliction_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has contracted Peryite's Affliction, a daedric disease sent by the Prince of Pestilence themself. The infection nests in the host's body for a long time. On some days it is barely noticeable, on others it causes violent febrile convulsions and vomiting of corrosive slime."
- disease_peryite_affliction:0 "Peryite's Affliction."
+ trait_peryite_affliction:0 "Одержимость Периайта"
+ trait_peryite_affliction_desc:0 "Этот персонаж заразился Одержимостью Периайта, даэдрической болезнью, насылаемой самим Князем Чумы. Инфекция надолго поселяется в теле носителя. В некоторые дни она едва заметна, в другие - вызывает резкие лихорадочные конвульсии и рвоту едкой слизью."
+ trait_peryite_affliction_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'заразилась', 'заразился' )] Одержимостью Периайта, даэдрической болезнью, насылаемой самим Князем Чумы. Инфекция надолго поселяется в теле носителя. В некоторые дни она едва заметна, в другие - вызывает резкие лихорадочные конвульсии и рвоту едкой слизью."
+ disease_peryite_affliction:0 "Одержимость Периайта."
 
  # Transformations
  trait_irritable_lycan:0 "Раздражительность"
@@ -75,7 +75,7 @@
  trait_lycan_player_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является тайным оборотнем, неестественной помесью зверя и своей первоначальной расы."
 
  trait_lycan_character:0 "Оборотень"
- trait_lycan_character_desc:0 "Этот персонаж - ликантроп, существо, проклятое трансформацией тела под влиянием лун Нирна.\n\n#I Picking this trait in the Ruler Designer will trigger an event at game start, allowing you to start the game as a secret lycanthrope.#!"
+ trait_lycan_character_desc:0 "Этот персонаж - ликантроп, существо, проклятое трансформацией тела под влиянием лун Нирна.\n\n#I Выбор этого свойства в редакторе персонажа вызовет событие в начале игры, что позволит вам начать игру в качестве тайного ликантропа.#!"
  trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - ликантроп, существо, проклятое трансформацией тела под влиянием лун Нирна." #character_character
 
 
@@ -118,9 +118,9 @@
  trait_education_magical_ability_4:0 "Маг-мастер"
  trait_education_magical_ability_4_desc:0 "Этот персонаж обучался у одних из лучших волшебников Тамриэля и демонстрирует как впечатляющие природные способности к аркане, так и желание изучить все, что связано с магическими искусствами."
  trait_education_magical_ability_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'обучалась', 'обучался' )] у одних из лучших волшебников Тамриэля и демонстрирует как впечатляющие природные способности к аркане, так и желание изучить все, что связано с магическими искусствами."
- trait_education_magical_ability_5:0 "Supreme Magus"
- trait_education_magical_ability_5_desc:0 "This character only learned from the most powerful and knowledgeable wizards and has reached the pinnacle of magical understanding. The boundaries of reality itself are no longer a match for such abilities."
- trait_education_magical_ability_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] only learned from the most powerful and knowledgeable wizards and has reached the pinnacle of magical understanding. The boundaries of reality itself are no longer a match for such abilities."
+ trait_education_magical_ability_5:0 "Верховный маг"
+ trait_education_magical_ability_5_desc:0 "Этот персонаж обучался только у самых могущественных и знающих волшебников и достиг вершины магического понимания. Границы самой реальности больше не могут сравниться с такими способностями."
+ trait_education_magical_ability_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'обучалась', 'обучался' )] только у самых могущественных и знающих волшебников и [Select_CString(ROOT.GetCharacter.IsFemale, 'достигла', 'достиг' )] вершины магического понимания. Границы самой реальности больше не могут сравниться с такими способностями."
 
  trait_unmourned_blood:0 "Сомнительное происхождение"
  trait_unmourned_blood_desc:0 "Кажется, что у этого персонажа что-то не так в родословной, но истинная природа этого остается загадкой."
@@ -166,10 +166,10 @@
  trait_dragonborn:0 "[Select_CString(ROOT.Char.IsFemale, 'Драконорождённая', 'Драконорождённый' )]"
  trait_dragonborn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )] с кровью и душой дракона. Известно, что драконорождённые пользуются благосклонностью богов."
 
- trait_bagarn:0 "Последний из своего рода"
+ trait_bagarn:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Последняя', 'Последний' )] из своего рода"
  trait_bagarn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'последняя', 'последний' )] из своего рода. Нет никакой надежды на то, что [ROOT.GetCharacter.GetSheHe] когда-нибудь снова увидит своих родичей."
- trait_bagarn_alive_desc:0 "For millennia [ROOT.GetCharacter.GetFirstNameNoTooltip] was the last of [ROOT.GetCharacter.GetHerHis] kind, until through a miracle the Dwemer returned to existence. A long and lonely life has however forever scarred [ROOT.GetCharacter.GetFirstNameNoTooltip], mentally and physically, and [ROOT.GetCharacter.GetSheHe] will never be quite the same again."
- trait_bagarn_cannot_grant_land:0 "[recipient.GetFullName] has [GetTrait('bagarn').GetName( recipient.Self )], and no $heritage_dwemeri_name$ [culture|E] is considered [living_culture_short|E]"
+ trait_bagarn_alive_desc:0 "Тысячелетиями [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'была последней', 'был последним' )] из своего рода, пока двемеры чудом не вернулись в этот мир. Однако долгая и одинокая жизнь навсегда оставила на [ROOT.GetCharacter.GetHerHis] лице душевные и физические раны, и [ROOT.GetCharacter.GetSheHe] уже никогда не будет [Select_CString(ROOT.GetCharacter.IsFemale, 'прежним', 'прежним' )]."
+ trait_bagarn_cannot_grant_land:0 "[recipient.GetFullName] имеет свойство «[GetTrait('bagarn').GetName( recipient.Self )]», и ни одна $heritage_dwemeri_name$ая [culture|El] не считается [Concept('living_culture_short', 'живой')|E]"
 
  trait_line_of_x:0 "Представитель рода [ROOT.Char.GetFirstNameNoTooltip]" # assume named Line of X
  trait_line_of_x_null:0 "Представитель рода X" # incase character doesnt exist
@@ -383,7 +383,7 @@
 
  trait_furstock_suthay_loc:0 "Сутай #italic ([furstock|E])#!"
  trait_furstock_suthay:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_suthay_loc') )]"
- trait_furstock_suthay_desc:0 "Рождающиеся при новом Массер и новой Секунде сутай-рат, как и их более крупные сородичи сутай-рат, являются двуногими и имеют пальцеходящие ноги."
+ trait_furstock_suthay_desc:0 "Рождающиеся при новом Массер и новой Секунде сутай, как и их более крупные сородичи сутай-рат, являются двуногими и имеют пальцеходящие ноги."
 
  trait_furstock_suthay_raht_loc:0 "Сутай-рат #italic ([furstock|E])#!"
  trait_furstock_suthay_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_suthay_raht_loc') )]"
@@ -410,46 +410,46 @@
  trait_shadowscale_desc:0 "Этот персонаж является членом секретного ордена убийц на службе у неуловимого короля Аргонии и его тёмного королевского двора."
  trait_shadowscale_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является членом секретного ордена убийц на службе у неуловимого короля Аргонии и его тёмного королевского двора."
 
- trait_amber_blessed:0 "Amber Blessed"
- trait_amber_blessed_1:0 "Amber Touched"
- trait_amber_blessed_1_desc:0 "This character not only survived the first contact with Amber Plasm unscathed but also emerged strengthened from it."
- trait_amber_blessed_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] not only survived the first contact with Amber Plasm unscathed but also emerged strengthened from it."
- trait_amber_blessed_2:0 "Amber Soaked"
- trait_amber_blessed_2_desc:0 "This character carries an amount of powerful Amber Plasm in their veins that would drive others mad."
- trait_amber_blessed_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] carries an amount of powerful Amber Plasm in their veins that would drive others mad."
- trait_amber_blessed_3:0 "Amber Blessed"
- trait_amber_blessed_3_desc:0 "This character is truly chosen by Tsono-Xuhil and is able to harness the full power of its Amber Plasm."
- trait_amber_blessed_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is truly chosen by Tsono-Xuhil and is able to harness the full power of its Amber Plasm."
- trait_sun_blessed:0 "Sun Blessed"
- trait_sun_blessed_1:0 "Sun Warmed"
- trait_sun_blessed_1_desc:0 "This character has received the sun's initial blessing, emerging with empowered magical abilities."
- trait_sun_blessed_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has received the sun's initial blessing, emerging with empowered magical abilities."
- trait_sun_blessed_2:0 "Sun Empowered"
- trait_sun_blessed_2_desc:0 "This character is infused with an intense amount of solar energy, radiating a power that others find overwhelming."
- trait_sun_blessed_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is infused with an intense amount of solar energy, radiating a power that others find overwhelming."
- trait_sun_blessed_3:0 "Sun Blessed"
- trait_sun_blessed_3_desc:0 "This character is a true conduit of the sun's power, capable of wielding immense arcane strength."
- trait_sun_blessed_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a true conduit of the sun's power, capable of wielding immense arcane strength."
- trait_ghost_scale:0 "Ghost Scale"
- trait_ghost_scale_1:0 "Ghost Bound"
- trait_ghost_scale_1_desc:0 "This character has taken on a ghostly pallor, becoming more elusive and unsettling to others."
- trait_ghost_scale_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has taken on a ghostly pallor, becoming more elusive and unsettling to others."
- trait_ghost_scale_2:0 "Ghost Veiled"
- trait_ghost_scale_2_desc:0 "This character's presence is shrouded in eerie mystery, a gift by the pale Ghost Hist."
- trait_ghost_scale_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is shrouded in eerie mystery, a gift by the pale Ghost Hist."
- trait_ghost_scale_3:0 "Ghost Scale"
- trait_ghost_scale_3_desc:0 "This character embodies the essence of a ghost, moving unseen and inspiring fear in those who sense their presence."
- trait_ghost_scale_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] embodies the essence of a ghost, moving unseen and inspiring fear in those who sense their presence."
+ trait_amber_blessed:0 "Благословение янтаря"
+ trait_amber_blessed_1:0 "Касание янтаря"
+ trait_amber_blessed_1_desc:0 "Этот персонаж не только пережил первый контакт с янтарной плазмой, но и вышел из него окрепшим."
+ trait_amber_blessed_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] не только [Select_CString(ROOT.GetCharacter.IsFemale, 'пережила', 'пережил' )] первый контакт с янтарной плазмой, но и [Select_CString(ROOT.GetCharacter.IsFemale, 'вышла', 'вышел' )] из него [Select_CString(ROOT.GetCharacter.IsFemale, 'окрепшей', 'окрепшим' )]."
+ trait_amber_blessed_2:0 "Янтарная пропитка"
+ trait_amber_blessed_2_desc:0 "В жилах этого персонажа течет такое количество мощной янтарной плазмы, которое может свести с ума любого."
+ trait_amber_blessed_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] несёт в своих венах такое количество мощной янтарной плазмы, которое может свести с ума любого."
+ trait_amber_blessed_3:0 "Благословение янтаря"
+ trait_amber_blessed_3_desc:0 "Этот персонаж действительно избран Цоно-Зухил и способен использовать всю мощь его янтарной плазмы."
+ trait_amber_blessed_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] действительно [Select_CString(ROOT.GetCharacter.IsFemale, 'избрана', 'избран' )] Цоно-Зухил и [Select_CString(ROOT.GetCharacter.IsFemale, 'способна', 'способен' )] использовать всю мощь его янтарной плазмы."
+ trait_sun_blessed:0 "Благословение солнца"
+ trait_sun_blessed_1:0 "Солнечное тепло"
+ trait_sun_blessed_1_desc:0 "Этот персонаж получил первоначальное благословение солнца и обрёл усиленные магические способности."
+ trait_sun_blessed_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'получила', 'получил' )] первоначальное благословение солнца и [Select_CString(ROOT.GetCharacter.IsFemale, 'обрела', 'обрёл' )] усиленные магические способности."
+ trait_sun_blessed_2:0 "Сила солнца"
+ trait_sun_blessed_2_desc:0 "Этот персонаж переполнен интенсивной солнечной энергией и излучает силу, которую другие находят непреодолимой."
+ trait_sun_blessed_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'переполнена', 'переполнен' )] интенсивной солнечной энергией и излучает силу, которую другие находят непреодолимой."
+ trait_sun_blessed_3:0 "Благословение солнца"
+ trait_sun_blessed_3_desc:0 "Этот персонаж - настоящий проводник могущества солнца, способный овладеть огромной магической силой."
+ trait_sun_blessed_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - [Select_CString(ROOT.GetCharacter.IsFemale, 'настоящая проводница', 'настоящий проводник' )] могущества солнца, [Select_CString(ROOT.GetCharacter.IsFemale, 'способная', 'способный' )] овладеть огромной магической силой."
+ trait_ghost_scale:0 "Призрачная чешуя"
+ trait_ghost_scale_1:0 "Призрачное единение"
+ trait_ghost_scale_1_desc:0 "Этот персонаж обрёл призрачную бледность, став более неуловимым и вызывающим тревогу у окружающих."
+ trait_ghost_scale_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'обрела', 'обрёл' )] призрачную бледность, став более [Select_CString(ROOT.GetCharacter.IsFemale, 'неуловимой и вызывающей', 'неуловимым и вызывающим' )] тревогу у окружающих."
+ trait_ghost_scale_2:0 "Призрачная вуаль"
+ trait_ghost_scale_2_desc:0 "Присутствие этого персонажа окутано жуткой тайной, дарованной бледным призрачным хистом."
+ trait_ghost_scale_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'окутана', 'окутан' )] жуткой тайной, дарованной бледным призрачным хистом."
+ trait_ghost_scale_3:0 "Призрачная чешуя"
+ trait_ghost_scale_3_desc:0 "Этот персонаж воплощает собой призрачную сущность, которая движется незаметно и внушает страх тем, кто чувствует её присутствие."
+ trait_ghost_scale_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] воплощает собой призрачную сущность, двигаясь незаметно и внушая страх тем, кто чувствует [Select_CString(ROOT.GetCharacter.IsFemale, 'её', 'его' )] присутствие."
  trait_argonian_behemoth:0 "Чудовищный аргонианин"
  trait_argonian_behemoth_1:0 "Чудовищный аргонианин"
  trait_argonian_behemoth_1_desc:0 "This character has begun to transform into a Behemoth, gaining significant physical strength at the cost of some mental acuity."
  trait_argonian_behemoth_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has begun to transform into a Behemoth, gaining significant physical strength at the cost of some mental acuity."
- trait_argonian_behemoth_2:0 "Soaring Behemoth"
- trait_argonian_behemoth_2_desc:0 "This character's transformation progresses, their strength growing to beastly proportions while their intellect wanes."
- trait_argonian_behemoth_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] undergoes further transformation, their strength growing to beastly proportions while their intellect wanes."
- trait_argonian_behemoth_3:0 "Feral Behemoth"
- trait_argonian_behemoth_3_desc:0 "This character has fully embraced their behemoth form, possessing immense strength in cost of their clear consciousness."
- trait_argonian_behemoth_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has fully embraced their behemoth form, possessing immense strength in cost of their clear consciousness."
+ trait_argonian_behemoth_2:0 "Восходящее чудовище"
+ trait_argonian_behemoth_2_desc:0 "Трансформация этого персонажа прогрессирует, его сила растёт до чудовищных пределов, а интеллект ослабевает."
+ trait_argonian_behemoth_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] подвергается дальнейшей трансформации, [Select_CString(ROOT.GetCharacter.IsFemale, 'её', 'его' )] сила растёт до чудовищных пределов, а интеллект ослабевает."
+ trait_argonian_behemoth_3:0 "Неистовое чудовище"
+ trait_argonian_behemoth_3_desc:0 "Этот персонаж полностью принял свою чудовищную форму, обладая огромной силой благодаря своему ясному сознанию."
+ trait_argonian_behemoth_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] полностью [Select_CString(ROOT.GetCharacter.IsFemale, 'приняла', 'принял' )] свою чудовищную форму, обладая огромной силой благодаря своему ясному сознанию."
 
 
  ### PRAXIS

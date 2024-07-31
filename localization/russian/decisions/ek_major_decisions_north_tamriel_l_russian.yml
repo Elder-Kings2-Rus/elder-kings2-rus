@@ -81,12 +81,12 @@
  form_vvardenfell_empire_decision_ashlander_confirm:0 "Племена едины!"
  form_vvardenfell_empire_decision_confirm:0 "Вварденфелл наш!"
 
- form_cantemiris_empire_decision:0 "Form Cantemiris"
- form_cantemiris_empire_decision_desc:0 "The coasts and bays of the Padomaic Marshes were settled long ago by our clans, following oracular inspiration into a second Exodus. Many were the great cities and strongholds built by Cantemiric hands — beacons of civilisation in a chaotic and hostile world — yet our dominion rarely stretched far into the marshes beyond the city gates.\n\nThis changes now."
- form_cantemiris_empire_decision_tooltip:0 "You will create a new [empire|E] in the Padomaic Marshes"
- form_cantemiris_empire_decision_confirm:0 "Marsh and sea — united!"
- form_cantemiris_empire_effect_de_jure_tt:0 "All kingdoms within the [region|E] of [GetGeographicalRegion('mundus_tamriel_black_marsh_padomaic_marshes').GetName] will become [de_jure|E] vassals of [cantemiris.GetNameNoTier]"
- form_cantemiris_empire_effect_de_jure_tt_a:0 "If [completely_controlled|E], [tearmarsh.GetNameNoTier] will also become [de_jure|E] part of [cantemiris.GetNameNoTier]"
+ form_cantemiris_empire_decision:0 "Создать Кантемирис"
+ form_cantemiris_empire_decision_desc:0 "Побережья и заливы Падомайских болот давно заселили наши кланы, следуя видению оракула во времена второго Исхода. Кантемири построили множество великих городов и крепостей - маяков цивилизации в хаотичном и враждебном мире, но наше владычество редко простиралось далеко на болота за пределами городских ворот.\n\nНыне всё изменилось."
+ form_cantemiris_empire_decision_tooltip:0 "Вы создадите новую [Concept('empire', 'империю')|E] на Падомайских болотах"
+ form_cantemiris_empire_decision_confirm:0 "Болото и море - едины!"
+ form_cantemiris_empire_effect_de_jure_tt:0 "Все королевства в пределах [Concept('region', 'региона')|E] [GetGeographicalRegion('mundus_tamriel_black_marsh_padomaic_marshes').GetName] станут [de_jure|El] вассалами державы [cantemiris.GetNameNoTier]"
+ form_cantemiris_empire_effect_de_jure_tt_a:0 "Если [completely_controlled|El], [tearmarsh.GetNameNoTier] также станет [de_jure|El] частью державы [cantemiris.GetNameNoTier]"
 
  reintegrate_vvardenfell_empire_decision:0 "Реинтегрировать Вварденфелл"
  reintegrate_vvardenfell_empire_decision_desc:0 "Мятежники объявили святую землю Вварденфелла независимой. И теперь они выступают против нашего Храма и наших Домов. Мы должны доказать, что они совершенно неправы, и вернуть то, что принадлежит нам по праву."
