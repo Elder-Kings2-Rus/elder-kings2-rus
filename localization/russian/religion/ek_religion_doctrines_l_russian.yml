@@ -38,12 +38,12 @@
  COURT_CHAPLAIN_CONVERSION_CULTURE_EXCLUSIVE_TIES_MODIFIER:0 "[councillor.GetFaith.GetAdjective] — [GetFaithDoctrine('doctrine_cultural_identity_culture_exclusive').GetBaseName]"
  
  # When creating a faith
- doctrine_parameter_same_heritage_conversion_bonus_creating_faith_active:1 "Скорость обращения в #L [GetPlayer.GetHeritage.GetGroup.GetCollectiveNoun|l]их#! [Concept( 'county', 'графствах' )|El]: #P +25%#!"
- doctrine_parameter_same_heritage_exclusive_conversion_bonus_creating_faith_active:1 "Скорость обращения в #L [GetPlayer.GetCulture.GetHeritage.GetCollectiveNoun|l]их#! [Concept( 'county', 'графствах' )|El]: #P +50%#!"
+ doctrine_parameter_same_heritage_conversion_bonus_creating_faith_active:1 "Скорость обращения в #L [GetPlayer.GetCulture.GetHeritage.GetName|l]их#! [Concept( 'county', 'графствах' )|El]: #P +25%#!"
+ doctrine_parameter_same_heritage_exclusive_conversion_bonus_creating_faith_active:1 "Скорость обращения в #L [GetPlayer.GetCulture.GetHeritage.GetName|l]их#! [Concept( 'county', 'графствах' )|El]: #P +50%#!"
  doctrine_parameter_same_culture_conversion_bonus_creating_faith_active:1 "Скорость обращения в #L [GetPlayer.GetCulture.GetCollectiveNoun|l]их#! [Concept( 'county', 'графствах' )|El]: #P +50%#!"
  doctrine_parameter_same_culture_exclusive_conversion_bonus_creating_faith_active:1 "Скорость обращения в #L [GetPlayer.GetCulture.GetCollectiveNoun|l]их#! [Concept( 'county', 'графствах' )|El]: #P +100%#!"
- doctrine_parameter_same_faith_promote_heritage_bonus_creating_faith_active:1 "Скорость распространения культуры с #L [GetPlayer.GetCulture.GetHeritage.GetName]им#! [Concept( 'heritage', 'наследием' )|E] в [Concept( 'counties', 'графствах' )|E] с этой [Concept( 'faith', 'конфессией' )|E]: #P +25%#!"
- doctrine_parameter_same_faith_promote_heritage_exclusive_bonus_creating_faith_active:1 "Скорость распространения культуры с #L [GetPlayer.GetCulture.GetHeritage.GetName]им#! [Concept( 'heritage', 'наследием' )|E] в [Concept( 'counties', 'графствах' )|E] с этой [Concept( 'faith', 'конфессией' )|E]: #P +50%#!"
+ doctrine_parameter_same_faith_promote_heritage_bonus_creating_faith_active:1 "Скорость распространения культуры с #L [GetPlayer.GetCulture.GetHeritage.GetName|l]им#! [Concept( 'heritage', 'наследием' )|E] в [Concept( 'counties', 'графствах' )|E] с этой [Concept( 'faith', 'конфессией' )|E]: #P +25%#!"
+ doctrine_parameter_same_faith_promote_heritage_exclusive_bonus_creating_faith_active:1 "Скорость распространения культуры с #L [GetPlayer.GetCulture.GetHeritage.GetName|l]им#! [Concept( 'heritage', 'наследием' )|E] в [Concept( 'counties', 'графствах' )|E] с этой [Concept( 'faith', 'конфессией' )|E]: #P +50%#!"
  doctrine_parameter_same_faith_promote_culture_bonus_creating_faith_active:1 "Скорость распространения #L [GetPlayer.GetCulture.GetCollectiveNoun]ой#! культуры в [Concept( 'counties', 'графствах' )|E] с этой [Concept( 'faith', 'конфессией' )|E]: #P +50%#!"
  doctrine_parameter_same_faith_promote_culture_exclusive_bonus_creating_faith_active:1 "Скорость распространения #L [GetPlayer.GetCulture.GetCollectiveNoun]ой#! культуры в [Concept( 'counties', 'графствах' )|E] с этой [Concept( 'faith', 'конфессией' )|E]: #P +100%#!"
 
