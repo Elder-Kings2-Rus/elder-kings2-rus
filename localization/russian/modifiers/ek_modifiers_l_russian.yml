@@ -1237,8 +1237,8 @@
  
  #Suspicious Potion Purchase modifier (TODO: put this elsewhere)
  ek_event_modifiers_suspicious_potion_purchase_modifier:0 "Подозрительная покупка зелий"
- ek_event_modifiers_suspicious_potion_purchase_modifier_desc:0 "Известно, что этот персонаж приобрёл большую партию зелий невидимости. Поэтому за ним наблюдают подозрительные личности."
+ ek_event_modifiers_suspicious_potion_purchase_modifier_desc:0 "Известно, что этот персонаж приобрёл большую партию зелий невидимости. Рядом с ним часто замечены подозрительные личности."
 
 
- ek_recent_imperialization:0 "Recent Imperialization"
+ ek_recent_imperialization:0 "Недавняя империализация"
  ek_recent_imperialization_desc:0 "Эта культура недавно получила традицию «[GetCultureTradition('tradition_cyrodiilic_subject').GetName|V]». Населению потребуется некоторое время, чтобы привыкнуть к имперской культуре и законам, а ещё больше - к имперским легионам и бюрократии."
