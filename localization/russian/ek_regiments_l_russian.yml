@@ -32,22 +32,22 @@
  welkynar_knights:0 "Велкинары-рыцари"
  welkynar_knights_flavor:0 "#F Славнейшие воители Алинора, члены военного ордена, расположенного в горах Этон Нир. Воспитав своего питомца с момента вылупления, наездник-велкинар становится единым целым с грифоном, готовым к героических деяниям.#!"
  # Argonian
- argonian_war_mages:0 "Hist Menders"
- argonian_war_mages_flavor:0 "#F Tasked with the protection and care of their hist-tree these mages will only go to battle if there is no other choice. They possess some offensive capabilities but they prefer to heal and protect their people so they can vanish unscathed after a fight.#!"
- argonian_spellblades:0 "Thunder Scales"
- argonian_spellblades_flavor:0 "#F These spellblades may not possess a traditional education in battle magic, but they compensate that with a fierce utilization of magicka, drawing inspiration from the mightiest beasts of Black Marsh itself.#!"
- argonian_skirmishers:0 "Saxhleel Haj-Ka"
- argonian_skirmishers_flavor:0 "#F These 'hidden' warriors of the Saxhleel are masterful ambushers and guerilla fighters. They strike fast and are often able to retreat back into the marshes before the enemy was even able to spot them.#!"
+ argonian_war_mages:0 "Лекари хиста"
+ argonian_war_mages_flavor:0 "#F Занимаясь защитой и уходом за своим деревом хист, эти маги вступают в бой, только если нет другого выхода. Они обладают некоторыми наступательными способностями, но предпочитают лечить и защищать свой народ, чтобы после боя исчезнуть невредимыми.#!"
+ argonian_spellblades:0 "Громовые ящеры"
+ argonian_spellblades_flavor:0 "#F Возможно, эти мечники-чародеи не имеют традиционного образования в области боевой магии, но они компенсируют это яростным использованием магии, черпая вдохновение у самых могучих зверей самого Чернотопья.#!"
+ argonian_skirmishers:0 "Саксхлил хадж-ка"
+ argonian_skirmishers_flavor:0 "#F Эти «скрытые» воины саксхлил - искусные мастера засад и партизанской войны. Они наносят быстрые удары и часто успевают отступить в болота ещё до того, как враг успевает их заметить.#!"
  argonian_spear_infantry:0 "Саксхлил рил-ка"
- argonian_spear_infantry_flavor:0 "#F Защитники Саксхлил, которым поручено оберегать своих корне-братьев и Хист. Преодолев испытания Ка-Дилит, рил-ка не знают себе равных в преодолении непроходимых болот Чернотопья, устраивая засады на заблудившихся в болотах врагов.#!"
- argonian_archers:0 "Saxhleel Mota-Ka"
- argonian_archers_flavor:0 "#F These Saxhleel are not called 'hunter-warriors' without a reason. Compared to them, most other inhabitants of Black Marsh are just prey and they are ready to use their abilities against foreign invaders too, should it be necessary.#!" 
- argonian_heavy_infantry:0 "Saxhleel Krona-Ka"
- argonian_heavy_infantry_flavor:0 "#F Often recruited from the biggest members of a tribe the Krona-Ka are proudly wearing much heavier weapons and armor than most other Saxhleel troops. Thus they can best nearly everyone who dares to challenge them to a fight.#!"
- argonian_light_cavalry:0 "Saxhleel Guar-Riders"
- argonian_light_cavalry_flavor:0 "#F There is a special bond between the Guars and the Saxhleel inhabiting Black Marsh. Since both of them are perfectly adapted to the swamps they become a fearsome force once they combine their abilities.#!"
+ argonian_spear_infantry_flavor:0 "#F Защитники саксхлил, которым поручено оберегать своих корне-братьев и хист. Преодолев испытания ка-дилит, рил-ка не знают себе равных в преодолении непроходимых болот Чернотопья, устраивая засады на заблудившихся в болотах врагов.#!"
+ argonian_archers:0 "Саксхлил мота-ка"
+ argonian_archers_flavor:0 "#F Этих саксхлил не зря называют «охотниками-воинами». По сравнению с ними большинство других обитателей Чернотопья - просто добыча, и они готовы использовать свои способности и против чужеземных захватчиков, если это потребуется.#!" 
+ argonian_heavy_infantry:0 "Саксхлил крона-ка"
+ argonian_heavy_infantry_flavor:0 "#F Крона-ка часто набираются из самых крупных членов племени и с гордостью носят гораздо более тяжёлое оружие и доспехи, чем большинство других войск саксхлил. Поэтому они могут одолеть почти каждого, кто осмелится вызвать их на поединок.#!"
+ argonian_light_cavalry:0 "Саксхлил-наездники на гуарах"
+ argonian_light_cavalry_flavor:0 "#F Между гуарами и саксхлил, обитающими в Чернотопье, существует особая связь. Поскольку оба вида прекрасно приспособлены к болотам, то, объединив свои способности, они становятся страшной силой.#!"
  shellback_phalanx:0 "Фаланга панцирников"
- shellback_phalanx_flavor:0 "#F Панцирники - наши элитные воители, лучшее творение учений Ка-Дилит. Хорошо вооруженные и закованные в броню, эти воины способны отразить вторжение в Чернотопье и штурмовать хорошо защищенные позиции.#!"
+ shellback_phalanx_flavor:0 "#F Панцирники - наши элитные воители, лучшее творение учений ка-дилит. Хорошо вооруженные и закованные в броню, эти воины способны отразить вторжение в Чернотопье и штурмовать хорошо защищенные позиции.#!"
  winged_avengers:0 "Крылатые мстители"
  winged_avengers_flavor:0 "Величайшие воины Сарпа известны как Крылатые мстители. Они носят талисманы из перьев, сорванных с врагов и павших союзников. Их грозная решимость и превосходная маневренность позволяет им захватывать самые надежные укрепления."
  # Ayleidon
@@ -158,10 +158,10 @@
  khajiit_heavy_cavalry_flavor:0 "#F Самые крупные представители каджитов, сенч-раты, как и их меньшие собратья, разумны и способны выступать в качестве ездовых скакунов и спутников своих пеших братьев и сестер.#!"
 
  # Lilmothiit
- soul_trappers:0 "Soul Trappers"
- soul_trappers_flavor:0 "Generally, Soul Trappers don't train for war, but these well-prepared, weathered rangers who make it their life's trade to hunt the myriad of Black Marsh's great beasts for their souls will find soldiers less threatening and easier to hunt than most of their usual quarry."
- walk_worm_cavalry:0 "Walk-Worm Cavalry"
- walk_worm_cavalry_flavor:0 "While these giant centipedes usually host entire Lilmothiit settlements on their backs, much smaller juvenile Walk-Worms are docile, naturally armored in chitin plates, and surprisingly nimble on flooded, uneven terrain — making excellent (if unorthodox) mounts for scouting and pursuit across the Marsh."
+ soul_trappers:0 "Ловцы душ"
+ soul_trappers_flavor:0 "Как правило, ловцы душ не тренируются для войны, но эти хорошо подготовленные, обветренные следопыты, для которых охота за душами огромных зверей Чернотопья стала делом жизни, найдут воинов менее опасными и более легкими для охоты, чем большинство их обычных добытчиков."
+ walk_worm_cavalry:0 "Кавалерия ходячих червей"
+ walk_worm_cavalry_flavor:0 "Хотя на спине этих гигантских многоножек обычно размещаются целые поселения лилмотитов, гораздо более мелкие юные ходячие черви послушны, имеют хитиновую броню и удивительно проворны на затопленной, неровной местности, что делает их отличными (пусть и нестандартными) скакунами для разведки и преследования по болоту."
 
  # Nedic
  witch_knight:0 "Рыцари-колдуны"
@@ -179,7 +179,7 @@
  jungle_peltasts:0 "Джунглевые пельтасты"
  jungle_peltasts_flavor:0 "#F Эти легкобронированные копейщики умело заманивают тяжеловооруженных врагов в опасную местность, применяя тактику бей-и-беги, после чего без особых усилий расправляются с ними.#!"
  # Nordic
-# huscarls see replace\regiments_l_english.yml
+ # huscarls see replace\regiments_l_english.yml
  skaal_hunter:0 "Скаалы-охотники"
  skaal_hunter_flavor:0 "#F Жизнь среди скаалов сурова, поэтому разница между их воинами и охотниками невелика.#!"
  # Orsimer
@@ -219,8 +219,8 @@
  hollows:0 "Полые"
  hollows_flavor:0 "#F Ходячая каменная оболочка, не способная чувствовать боль, страх или возбуждение. Они - страшный враг, невероятно трудно уничтожаемый и способный голыми руками разрушать стены.#!"
  
- alkosh_pride:0 "Pride of Alkosh"
- alkosh_pride_flavor:0 "#F Recruited solely from forgotten manes and trained in the art of various clawdances, these monks are able to beat most trained warriors with ease.#!"
+ alkosh_pride:0 "Прайд Алкоша"
+ alkosh_pride_flavor:0 "#F Набранные исключительно из Забытых Грив и обученные искусству различных когтистых танцев, эти монахи способны с легкостью победить большинство тренированных воинов.#!"
 
  minotaurs:0 "Минотавры"
  minotaurs_flavor:0 "#F Хотя большинство жителей Тамриэля считают минотавров дикими зверями, говорят, что те, кто поклоняются им или близким им людям, могут убедить воинов-быколюдей сражаться в их рядах.#!"
@@ -231,8 +231,8 @@
  bone_walker:0 "Костяной ходок"
  bone_walker_flavor:0 "#F Эта устрашающая конструкция является результатом тёмной некромантической магии, приносящей смерть и ужас на любое поле боя, особенно для вражеской пехоты.#!"
  
- cultists:0 "Cultists"
- cultists_flavor:0 "#F These fanatics have sworn their entire lives to the service of their master. Armed with crude weapons and dark magic, they are even prepared to go into battle if their mission demands it.#!"
+ cultists:0 "Культисты"
+ cultists_flavor:0 "#F Эти фанатики поклялись всю свою жизнь служить своему повелителю. Вооружённые грубым оружием и тёмной магией, они даже готовы вступить в бой, если того потребует их предназначение.#!"
 
  accolade_maa_mages:0 "Свита магов"
  accolade_maa_mages_flavor:1 "[Concept( 'retinue_maa', 'Свита профессионалов' )|E]\n#F Вооружённые своими посохами и арсеналом заклинаний, они обрушат на своих врагов дождь адской магии.#!"
