@@ -14,43 +14,43 @@
  summon_hollow_decision_confirm:0 "За Лесного короля!"
 
  # Undertake Trials of Alkosh
- trials_of_alkosh_decision:0 "Undertake the Trials of Alkosh"
- trials_of_alkosh_decision_desc:0 "Originally forged by the Pride of Alkosh order to temper their warrior monks, these trials now stand open to any valorous soul within my court, including myself, should I dare to partake. Yet, one must tread with caution, for only a single attempt is granted. Failure would cast a shadow of profound disgrace, but triumph would bestow honor and glory."
- trials_of_alkosh_decision_tooltip:0 "Face various trials to test your faith, strength, and acumen."
- trials_of_alkosh_decision_confirm:0 "I will prove my worth!"
+ trials_of_alkosh_decision:0 "Пройти Испытания Алкоша"
+ trials_of_alkosh_decision_desc:0 "Изначально созданные орденом Прайда Алкоша для закаливания своих монахов-воинов, эти испытания теперь открыты для любой доблестной души при моём дворе, включая меня, если я осмелюсь принять в них участие. Тем не менее, следует соблюдать осторожность, поскольку даётся только одна попытка. Неудача бросила бы тень глубокого позора, а триумф несёт с собою честь и славу."
+ trials_of_alkosh_decision_tooltip:0 "Столкнуться с различными испытаниями, чтобы проверить свою веру, силу и проницательность."
+ trials_of_alkosh_decision_confirm:0 "Я докажу, чего стою!"
 
  # Cut Sunspire Funding
- cut_sunspire_funding_decision:0 "Cease Sunspire Temple's Fundings"
- cut_sunspire_funding_decision_desc:0 "All greatness comes at a cost, and the expense of maintaining the great Sunspire Temple may now exceed its worth. Once a vital place of worship, the number of pilgrims and monks has steadily dwindled, since the Riddle'Thar took Alkosh's place as the highest deity in the Khajiiti pantheon.\n\nPerhaps it is time to accept its fate and refrain from further investments, even if that means this sacred site will gradually wither away, unable to sustain itself on donations alone."
- cut_sunspire_funding_decision_tooltip:0 "Send word about this to the monks"
- cut_sunspire_funding_decision_confirm:0 "My coffers will thank me"
+ cut_sunspire_funding_decision:0 "Прекратить финансирование храма Солнечного Шпиля"
+ cut_sunspire_funding_decision_desc:0 "За всякое величие приходится платить, и расходы на содержание великого храма Солнечного Шпиля теперь могут превысить его значимость. Некогда он был важным местом поклонения, но число паломников и монахов неуклонно сокращалось с тех пор, как Риддл'Тар занял место Алкоша как высшего божества в пантеоне каджитов.\n\nВозможно, пришло время смириться с его судьбой и воздержаться от дальнейших вложений, даже если это означает, что это священное место постепенно придёт в упадок, не в состоянии существовать только на пожертвования."
+ cut_sunspire_funding_decision_tooltip:0 "Послать весточку об этом монахам"
+ cut_sunspire_funding_decision_confirm:0 "Моя казна будет мне благодарна"
 
  # Dragonguard Pirates. Arrr!
- turn_dragonguard_pirate_decision:0 "Turn Tideholm into a Pirate Hideout"
- turn_dragonguard_pirate_decision_desc:0 "Among the numerous assets left by the Dragonguard at Tideholm, the island itself stands as the most valuable. Each day, ships traverse the triangle formed by Senchal, Soulrest, and Leyawiin, laden with riches and ripe for plunder. The ancient fortress provides a formidable base of operations, with the hidden creek sheltering our ships from prying eyes and safeguarding us against any retaliatory strikes.\n\nWith only a few ingenious modifications, we can transform this structure into the ultimate pirate hideout, a sanctuary of terror from which we will dominate the sea."
- turn_dragonguard_pirate_decision_tooltip:0 "The Topal Sea will be at the mercy of your fleet"
- turn_dragonguard_pirate_decision_confirm:0 "Get to work, you landlubbers!"
+ turn_dragonguard_pirate_decision:0 "Превратить Приливной остров в убежище пиратов"
+ turn_dragonguard_pirate_decision_desc:0 "Из всего бесчисленного добра, оставленного Драконьей стражей на Приливном острове, сам остров является самым ценным. Каждый день корабли, нагруженные богатствами и готовые к грабежу, пересекают треугольник, образованный Сенчалом, Соулрестом и Лейавином. Древняя крепость представляет собой внушительную базу для ведения дел, а скрытый ручей укрывает наши корабли от посторонних глаз и защитит нас от любых ответных ударов.\n\nС помощью всего лишь нескольких оригинальных изменений мы можем превратить это сооружение в идеальное пиратское убежище, обитель ужаса, из которой мы будем господствовать на море."
+ turn_dragonguard_pirate_decision_tooltip:0 "Топальское море подчинится вашему флоту"
+ turn_dragonguard_pirate_decision_confirm:0 "За работу, сухопутные крысы!"
 
  # Defile Hidden Moon Crypts
- defile_hidden_moon_crypts_decision:0 "Defile the Hidden Moon Crypts"
- defile_hidden_moon_crypts_decision_desc:0 "The Hidden Moon Crypts have stood vigil over the ashen scar and its buried dead for too long. Like the order that once inhabited them, they are now relics of the past, without purpose in a changing world.\n\nBut in my mercy, I could transform these crypts into a base for my necromancy, giving them a new function while profiting from the relics, knowledge, and corpses the monks left behind."
- defile_hidden_moon_crypts_decision_effect:0 "Destroying the protecting wards may have some unforseen effects."
- defile_hidden_moon_crypts_decision_tooltip:0 "Soon enough, undead champions will rise from the ashen sands."
- defile_hidden_moon_crypts_decision_confirm:0 "Break the last seals!"
+ defile_hidden_moon_crypts_decision:0 "Осквернить крипты Скрытой Луны"
+ defile_hidden_moon_crypts_decision_desc:0 "Крипты Скрытой Луны слишком долго бдительно охраняли Пепельный Шрам и погребённых в нём мертвецов. Как и орден, некогда населявший их, они стали пережитками прошлого, не имеющими смысла в меняющемся мире.\n\nНо по своей милости я [Select_CString(ROOT.Char.IsFemale, 'могла', 'мог' )] бы превратить эти склепы в оплот некромантии, придав им новую цель и одновременно извлекая выгоду из реликвий, знаний и трупов, оставленных монахами."
+ defile_hidden_moon_crypts_decision_effect:0 "Разрушение защитных чар может привести к некоторым непредвиденным последствиям."
+ defile_hidden_moon_crypts_decision_tooltip:0 "Довольно скоро мёртвые воители восстанут из пепельных песков."
+ defile_hidden_moon_crypts_decision_confirm:0 "Сломать последние печати!"
 
  # Defile Rimmen Necropolis
- defile_rimmen_necropolis_decision:0 "Defile the Rimmen Necropolis"
- defile_rimmen_necropolis_decision_desc:0 "The Golden Beast, Darloc Brae, left behind a vast empire and thousands of corpses scattered across the land. His greatest warriors rest in the Rimmen Necropolis, where proud Manes, choosing to be interred there as well, ensured a constant growth of the number of graves and burial chambers.\n\nNow, it may be time to pick up where the Golden Beast left off - revive those warriors and continue the conquest of new realms."
- defile_rimmen_necropolis_decision_tooltip:0 "Let Darloc Braes army rise and fight over these lands once again."
- defile_rimmen_necropolis_decision_confirm:0 "Go forth and open the graves!"
+ defile_rimmen_necropolis_decision:0 "Осквернить некрополь Риммена"
+ defile_rimmen_necropolis_decision_desc:0 "Золотой Зверь, Дарлок Брей, оставил после себя огромную империю и тысячи трупов, разбросанных по всей земле. Его величайшие воины покоятся в некрополе Риммена, где гордые Гривы, пожелавшие быть похороненными там же, обеспечили постоянный рост числа могил и погребальных камер.\n\nТеперь, возможно, пришло время продолжить с того места, на котором остановился Золотой Зверь, - возродить этих воинов и продолжить завоевание новых земель."
+ defile_rimmen_necropolis_decision_tooltip:0 "Пусть армия Дарлока Брея восстанет и снова сразится за эти земли."
+ defile_rimmen_necropolis_decision_confirm:0 "Вперёд, вскройте могилы!"
 
  # Defile Deep Graves
- defile_deep_graves_decision:0 "Defile Deep Graves"
- defile_deep_graves_decision_desc:0 "The place known only as Deep Graves has served as a funeral site for as long as Argonians have existed in Black Marsh. For millennia, corpses have been handed over to the swamp, carefully pinned down with gravestakes to prevent them from drifting away and to ensure none rise again as bog blights.\n\nBut, like everything in these lands, corpses are a resource. Wouldn't it be a shame to let them simply rot away?"
- defile_deep_graves_decision_tooltip:0 "The swamp will open up and spew forth hundreds of undead warrior to bolster our ranks."
- defile_deep_graves_decision_confirm:0 "Rip out the gravestakes!"
+ defile_deep_graves_decision:0 "Осквернить Глубокие Могилы"
+ defile_deep_graves_decision_desc:0 "Место, известное только как Глубокие Могилы, служило местом погребения с тех пор, как аргониане появились в Чернотопье. На протяжении тысячелетий трупы сбрасывали в болото, тщательно придавливая могильными столбами, чтобы их не унесло течением и чтобы никто не восстал снова в виде болотного гниляка.\n\nНо, как и всё в этих краях, трупы - это ресурс. Разве не было бы позором оставить их просто гнить?"
+ defile_deep_graves_decision_tooltip:0 "Болото разверзнется и извергнет сотни восставших воинов, чтобы укрепить наши ряды."
+ defile_deep_graves_decision_confirm:0 "Вырвать эти могильные столбы!"
 
- turn_zenithar_ch_khajiit_decision:0 "Convert Chapel of Zenithar"
- turn_zenithar_ch_khajiit_decision_desc:0 "The Chapel of Zenithar is a great temple dedicated to a god foreign to us. But with sufficient resources, we could convert it to the worship of Two Moons."
- turn_zenithar_ch_khajiit_decision_tooltip:0 "Convert Chapel of Zenithar"
- turn_zenithar_ch_khajiit_decision_confirm:0 "Praise Jone and Jode!"
+ turn_zenithar_ch_khajiit_decision:0 "Переделать часовню Зенитара"
+ turn_zenithar_ch_khajiit_decision_desc:0 "Часовня Зенитара - это великий храм, посвящённый чуждому нам богу. Но при наличии достаточных ресурсов мы могли бы превратить его в место поклонения Двум Лунам."
+ turn_zenithar_ch_khajiit_decision_tooltip:0 "Переделанная часовня Зенитара"
+ turn_zenithar_ch_khajiit_decision_confirm:0 "Славьтесь, Джоун и Джоуд!"
