@@ -1,7 +1,7 @@
 ﻿l_russian:
  recreate_lost_kingdom_arnesia_decision:0 "Воссоздать Утраченное королевство Арнезия"
  recreate_lost_kingdom_arnesia_decision_desc:0 "Разрушенный много веков назад силами данмеров и аргониан, старый город Арнезия был маяком в тёмной и опасной провинции. От нас зависит возвращение земли, окружающей город, и его сияние!"
- recreate_lost_kingdom_arnesia_decision_effects_de_jure_tt:0 "Все [duchies|E]герцогства в пределах [Concept('region', 'региона')|E] [GetGeographicalRegion('mundus_tamriel_black_marsh_arnesia').GetName] станут [de_jure|El] частью державы [arnesia.GetName]"
+ recreate_lost_kingdom_arnesia_decision_effects_de_jure_tt:0 "Все [Concept('duchies', 'герцогства')|E] в пределах [Concept('region', 'региона')|E] [GetGeographicalRegion('mundus_tamriel_black_marsh_arnesia').GetName] станут [de_jure|El] частью державы [arnesia.GetName]"
  recreate_lost_kingdom_arnesia_decision_confirm: "Воссияй снова, перед концом"
  recreate_lost_kingdom_arnesia_decision_tooltip: "Старый город-государство Арнезия, возможно, и пал, но он ещё не потерян..."
  
@@ -10,15 +10,15 @@
  integrate_tearmarsh_black_marsh_decision_confirm:0 "Топи расширяются!"
  integrate_tearmarsh_black_marsh_decision_tooltip:0 "Болото Слёз уже некоторое время находится под нашим контролем, наконец пришло время интегрировать его в Чернотопье!"
 
- integrate_tearmarsh_cantemiris_decision:0 "Integrate Tearmarsh into Cantemiris"
- integrate_tearmarsh_cantemiris_decision_desc:0 "Tearmarsh has for generations been home to the beliggerent Great House Dres at the border to the Black Marsh. But then again, where does a border run through a marshland? The Tearmarsh is a bountiful land, and many great fortresses can be raised along their coasts. This would also grant us full control over the Thorn Bay.\n\nIt would be wise of us to seek to integrate these lands, casting the Dunmer back into their cursed land of ash."
- integrate_tearmarsh_cantemiris_decision_confirm:0 "Cantemirics, forward!"
- integrate_tearmarsh_cantemiris_decision_tooltip:0 "Tearmarsh has been under our control for some time, and it is time to integrate it into Cantemiris!"
+ integrate_tearmarsh_cantemiris_decision:0 "Интегрировать Болото Слёз в Кантемирис"
+ integrate_tearmarsh_cantemiris_decision_desc:0 "На протяжении многих поколений Болото Слёз было домом для воинственного Великого дома Дрес на границе с Чернотопьем. Но где же граница проходит по болотам? Болото Слёз - щедрая земля, и на её побережье можно возвести множество великих крепостей. Это также даст нам полный контроль над заливом Торн.\n\nС нашей стороны было бы мудро попытаться объединить эти земли, отбросив данмеров обратно в их проклятые пепельные земли."
+ integrate_tearmarsh_cantemiris_decision_confirm:0 "Вперёд, кантемири!"
+ integrate_tearmarsh_cantemiris_decision_tooltip:0 "Болото Слёз уже некоторое время находится под нашим контролем, наконец пришло время интегрировать его в Кантемирис!"
 
- integrate_tearmarsh_morrowind_decision:0 "Integrate Tearmarsh into Morrowind"
- integrate_tearmarsh_morrowind_decision_desc:0 "Oh, Tearmarsh! The frontier of Morrowind against the southern swamps, it has since fallen into foreign marshlander hands. Launching a decisive campaign is of utmost necessity, to again restore the rightful ownership and re-establish its bulwarks."
- integrate_tearmarsh_morrowind_decision_confirm:0 "For Morrowind!"
- integrate_tearmarsh_morrowind_decision_tooltip:0 "Tearmarsh has been lost to foreigners, it is time to take it back!"
+ integrate_tearmarsh_morrowind_decision:0 "Интегрировать Болото Слёз в Морровинд"
+ integrate_tearmarsh_morrowind_decision_desc:0 "О, Болото Слёз! Граница Морровинда с южными болотами, перешедшая в руки чужаков с топей. Крайне важно предпринять решительные действия, чтобы вновь вернуть законные владения и восстановить бастионы."
+ integrate_tearmarsh_morrowind_decision_confirm:0 "За Морровинд!"
+ integrate_tearmarsh_morrowind_decision_tooltip:0 "Болото Слез было захвачено чужаками, настало время вернуть его!"
 
  form_aldmeri_dominion_decision:0 "Создать Альдмерский Доминион"
  form_aldmeri_dominion_decision_desc:0 "В древние времена эльфы правили всем Тамриэлем. С тех пор трагические события, включая вторжение нордов и алессианское восстание рабов, положили конец эльфийскому владычеству на континенте. Эльфы должны воссоединиться и вновь основать могущественную Альдмерскую империю."
