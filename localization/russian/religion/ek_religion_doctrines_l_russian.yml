@@ -2159,14 +2159,14 @@ doctrine_sp_heroes_name:0 "Герои Сиродила #italic [secondary|E]#!"
 #Funeral doctrines
  doctrine_funeral_grave_stake_name:0 "Захоронение на могильном столбе"
  doctrine_funeral_grave_stake_desc:0 "Тело будет погребено в болоте и прижато могильным столбом, на котором будет вырезана история жизни покойного."
- doctrine_parameter_grave_stake_funeral:0 "[activity|E] [funeral|El] обойдётся куда [Concept( 'gold', 'дешевле' )|El]"
+ doctrine_parameter_grave_stake_funeral:0 "[Concept( 'activity', 'Занятие' )|E] «[funeral|E]» расходует меньше [Concept( 'gold', 'золота' )|E]"
 
  doctrine_funeral_green_pact_name:0 "Мясной завет"
  doctrine_funeral_green_pact_desc:0 "Когда мы умираем, наше тело должно быть съедено, чтобы сохранить Зелёный пакт и почтить наш договор с И'ффре."
- doctrine_parameter_green_pact_funeral:0 "[activity|E] [funeral|El] обойдётся куда [Concept( 'gold', 'дешевле' )|El].\n• Участники получат [trait|El] [GetTrait('cannibal').GetName( GetNullCharacter )] по окончании [Concept( 'activity', 'занятия' )|El] [funeral|El]."
+ doctrine_parameter_green_pact_funeral:0 "[Concept( 'activity', 'Занятие' )|E] «[funeral|E]» расходует меньше [Concept( 'gold', 'золота' )|E].\n• Участники получат [trait|El] [GetTrait('cannibal').GetName( GetNullCharacter )] по окончании [Concept( 'activity', 'занятия' )|El] [funeral|El]."
  doctrine_funeral_cannibalism_name:0 "Каннибализм"
  doctrine_funeral_cannibalism_desc:0 "Тело усопшего будет съедено."
- doctrine_parameter_cannibalism_funeral:0 "[activity|E] [funeral|El] обойдётся куда [Concept( 'gold', 'дешевле' )|El]\n• Участники получат [trait|El] [GetTrait('cannibal').GetName( GetNullCharacter )] по окончании [Concept( 'activity', 'занятия' )|El] [funeral|El]."
+ doctrine_parameter_cannibalism_funeral:0 "[Concept( 'activity', 'Занятие' )|E] «[funeral|E]» расходует меньше [Concept( 'gold', 'золота' )|E]\n• Участники получат [trait|El] [GetTrait('cannibal').GetName( GetNullCharacter )] по окончании [Concept( 'activity', 'занятия' )|El] [funeral|El]."
  tenet_cannibalism_requirement:0 "Ваша [faith|El] должна иметь догмат [GetFaithDoctrine('tenet_ritual_cannibalism').GetBaseName]."
 ## Misc doctrine parameters
  doctrine_parameter_magic_worship:0 "Персонажи данной [Concept( 'faith', 'конфессии' )|E] получают [Concept( 'arcana', 'аркану' )|E]:[arcana_i]#P +2#!"
