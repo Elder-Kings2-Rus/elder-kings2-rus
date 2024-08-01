@@ -1043,7 +1043,7 @@ doctrine_sp_heroes_name:0 "Герои Сиродила #italic [secondary|E]#!"
 	doctrine_parameter_baandar_hostility:0 "Для расчёта [Concept('faith_hostility', 'враждебности')|E] этот [pantheon|El] считается тем же самым, что и [GetFaithDoctrine('doctrine_pantheon_riddlethar').GetBaseName] и [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName]"
  doctrine_parameter_pantheon_adds_deities_khajiiti:0 "Добавит следующих покровителей в [pantheon|El]: Кенарти, Мара, С'рендарр, Алкош, $god_magrus_name$, Баан-Дар" #Азурра, Хермор, Хирсин, Мафала, Ноктра
  doctrine_parameter_pantheon_unlocks_daedra_khajiiti:0 "Разблокирует возможность добавления следующих #LORE [compendium_daedra]#! в ваш [pantheon|El] c помощью [Concept( 'doctrines', 'доктрин' )|E] даэдрических принцев: Азурра, Боэтра, Хермора, Хирсин, Мафала, Ноктра"
- doctrine_parameter_pantheon_adds_deities_riddlethar:0 "Добавит следующих покровителей в [pantheon|El]: Кенарти, Мара, С'рендарр, Алкош, $god_magrus_name$, Баан Дар" #Боэтра
+ doctrine_parameter_pantheon_adds_deities_riddlethar:0 "Добавит следующих покровителей в [pantheon|El]: Кенарти, Мара, С'рендарр, Алкош, $god_magrus_name$, Баан-Дар" #Боэтра
  doctrine_parameter_pantheon_unlocks_daedra_riddlethar:0 "Разблокирует возможность добавления следующих #LORE [compendium_daedra]#! в ваш [pantheon|El] c помощью [Concept( 'doctrines', 'доктрин' )|E] даэдрических принцев: Азурра, Хирсин"
  
  doctrine_pantheon_good_daedra_trigger:0 "Нельзя, чтобы Малакат, Мерунес Дагон, Молаг Бал или Шеогорат были включены в пантеон или приняты"

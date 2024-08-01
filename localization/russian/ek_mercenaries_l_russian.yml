@@ -23,7 +23,7 @@
  mercenary_order_wings_article:0 ""
  mercenary_order_wings:0 "Орден крыльев"
  mercenary_knights_field_article:0 ""
- mercenary_knights_field:0 "Рыцари поля"
+ mercenary_knights_field:0 "Рыцари поля брани"
  mercenary_red_rooks_article:0 ""
  mercenary_red_rooks:0 "Красные грачи"
  mercenary_order_boar_article:0 ""
@@ -43,7 +43,7 @@
  mercenary_iceblades_article:0 ""
  mercenary_iceblades:0 "Ледяные клинки"
  mercenary_wildlords_article:0 ""
- mercenary_wildlords:0 "Дикари"
+ mercenary_wildlords:0 "Дикие лорды"
  
  
  ###Cyrodiilic
@@ -56,7 +56,7 @@
  mercenary_black_daggers_article:0 ""
  mercenary_black_daggers:0 "Разбойники чёрного кинжала"
  mercenary_moody_blue_marines_article:0 ""
- mercenary_moody_blue_marines:0 "Угрюмые моряки"
+ mercenary_moody_blue_marines:0 "Угрюмые морские налётчики"
  mercenary_gold_coast_article:0 ""
  mercenary_gold_coast:0 "Наёмники Золотого берега"
  mercenary_knights_white_stallion_article:0 ""
@@ -85,9 +85,9 @@
  mercenary_knights_hoplite_article:0 ""
  mercenary_knights_phalanx:0 "Фаланстеры из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_phalanx_article:0 ""
- mercenary_knights_auxiliaries:0 "Вспомогатели из владения [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_knights_auxiliaries:0 "Ауксилии из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_auxiliaries_article:0 ""
- mercenary_knights_marine:0 "Морские пехотинцы из владения [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_knights_marine:0 "Морские налётчики из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_marine_article:0 ""
  mercenary_knights_squadron:0 "Эскадрон из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_squadron_article:0 ""
@@ -127,7 +127,7 @@
  mercenary_knights_renrijr:0 "Ренриджр из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_warclaws_article:0 ""
  mercenary_knights_warclaws:0 "Когти Войны из владения [TITLE.GetNameNoTierNoTooltip]" 
- mercenary_baan_dar:0 "Бандиты Баан Дара"
+ mercenary_baan_dar:0 "Бандиты Баан-Дара"
 
  ###Lilmothiit 
  mercenary_knights_scouts_article:0 ""
@@ -145,7 +145,7 @@
  mercenary_knights_reel_ka_article:0 ""
  mercenary_knights_reel_ka:0 "Рил-ка из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_blackscales_article:0 ""
- mercenary_knights_blackscales:0 "Чёрная чешуя"
+ mercenary_knights_blackscales:0 "Чёрные чешуйки"
  mercenary_knights_tunnel_snakes_article:0 ""
  mercenary_knights_tunnel_snakes:0 "Туннельные змеи"
 
