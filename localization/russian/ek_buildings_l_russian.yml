@@ -923,40 +923,40 @@
  building_tonenaka_shrine_01_desc:1 "$building_type_tonenaka_shrine_01_desc$"
 
  # Orchaj Bazaar
- building_type_orcrest_bazaar_01:0 "Orchaj Bazaar"
- building_type_orcrest_bazaar_01_desc:0 "The kingdom of Orchaj has always been the economic powerhouse of Elsweyr, and this is nowhere more evident than in its grand bazaar, the largest and most magnificent in the entire region. Arranged in concentric circles around a vast central plaza, the bazaar epitomizes Orchaj's thriving commerce.\n\nStalls stretch like a sea of colorful canopies, offering an extraordinary variety of goods. Traders from far and wide flock to this vibrant market—not only Khajiit but also merchants from all corners of Tamriel. Colovian wine, Valenwood leather, and Black Marsh pottery - there is nothing that cannot be found in this place."
+ building_type_orcrest_bazaar_01:0 "Базар Оркаджа"
+ building_type_orcrest_bazaar_01_desc:0 "Королевство Оркадж всегда было экономическим центром Эльсвейра, и это нигде так не заметно, как на его великом базаре, самом большом и великолепном во всём регионе. Расположенный концентрическими кругами вокруг обширной центральной площади, базар олицетворяет процветающую торговлю Оркаджа.\n\nПрилавки раскинулись, словно море разноцветных навесов, предлагая необычайное разнообразие товаров. На этот оживлённый рынок съезжаются торговцы со всего света — не только каджиты, но и купцы со всех уголков Тамриэля. Коловианское вино, кожа из Валенвуда и керамика из Чернотопья - нет ничего, чего нельзя было бы найти в этом месте."
  building_type_orcrest_bazaar_02:0 "$building_type_orcrest_bazaar_01$"
  building_type_orcrest_bazaar_02_desc:0 "$building_type_orcrest_bazaar_01_desc$"
  building_type_orcrest_bazaar_03:0 "$building_type_orcrest_bazaar_01$"
  building_type_orcrest_bazaar_03_desc:0 "$building_type_orcrest_bazaar_01_desc$"
  building_orcrest_bazaar_01:1 "$building_type_orcrest_bazaar_01$"
  building_orcrest_bazaar_01_desc:1 "$building_type_orcrest_bazaar_01_desc$"
- building_orcrest_bazaar_02:1 "$building_type_orcrest_bazaar_01$ (Plagueridden)"
- building_orcrest_bazaar_02_desc:1 "Downtrodden by the devastating Knahaten Flu, the once lively bazaar is now a place of death, decay, and growing unrest. Carrion feeders have descended from the nearby canyons in droves, drawn by the mounting corpses, and their dominion over this place is only contested by plague cultists and gangs of roaming cannibals."
- building_orcrest_bazaar_03:1 "$building_type_orcrest_bazaar_01$ (Restored)"
- building_orcrest_bazaar_03_desc:1 "The Knahaten Flu took a terrible toll on this city, but at least some of its consequences are finally being overcome. The great bazaar of Orchaj is once again open to welcome traders from near and far. However, the devastation of the plague has left its mark. While still impressive in size, this bazaar will probably never be as full and lively as it was in its best days."
+ building_orcrest_bazaar_02:1 "$building_type_orcrest_bazaar_01$ (Охваченный чумой)"
+ building_orcrest_bazaar_02_desc:1 "Опустошённый кнахатенским гриппом, некогда оживлённый базар теперь превратился в место смерти, упадка и растущих беспорядков. Падальщики толпами спускаются из близлежащих каньонов, привлечённые растущим числом трупов, и их господство над этим местом оспаривают только чумные культисты и банды бродячих каннибалов."
+ building_orcrest_bazaar_03:1 "$building_type_orcrest_bazaar_01$ (Восстановленный)"
+ building_orcrest_bazaar_03_desc:1 "Кнахатенский грипп нанёс ужасный ущерб городу, но, по крайней мере, некоторые из его последствий наконец-то преодолены. Великий базар Оркаджа вновь открыт для торговцев из ближнего и дальнего зарубежья. Однако опустошительная эпидемия чумы оставила свой след. Несмотря на всё ещё впечатляющие размеры, этот базар, вероятно, никогда не будет таким переполненным и оживлённым, как в свои лучшие дни."
 
  # Rithana-di-Renada
- building_type_kingdoms_song_01:0 "Rithana-di-Renada"
- building_type_kingdoms_song_01_desc:0 "The Rithana-di-Renada is an ancient stone mural of utmost importance to the history of every Khajiit. It depicts the sixteen primary kingdoms of Elsweyr, all coexisting in harmony and peace. A magical crystal embedded in the center of the relief once emitted a wondrous and beautiful melody, giving rise to its name, which translates from Ta'agra as the Song of Kingdoms."
- building_kingdoms_song_01:1 "$building_type_kingdoms_song_01$ (Shattered)"
- building_kingdoms_song_01_desc:1 "$building_type_kingdoms_song_01_desc$\n\nHowever, just like these kingdoms, the relief itself was shattered over time, and its fragments were lost in the turmoils of history. The singing crystal was stolen by the legendary thief Rajhin, and so, all that remains is a memory of days long past."
- building_kingdoms_song_02:1 "$building_type_kingdoms_song_01$ (Restored)"
- building_kingdoms_song_02_desc:1 "$building_type_kingdoms_song_01_desc$\n\nThanks to the efforts of historians and adventurers from all of Elsweyr, the relief is once again whole, a stark reminder that the spirit of the Khajiit remains strong, even though the days of the sixteen kingdoms are over."
- building_kingdoms_song_03:1 "$building_type_kingdoms_song_01$ (Singing)"
- building_kingdoms_song_03_desc:1 "$building_type_kingdoms_song_01_desc$\n\nNot only has the relief been reconstructed to its former beauty, but the singing stone has also been recovered by someone worthy of Rajhin's favor. Therefore, it once again stands in full resplendence, enchanting all who are fortunate enough to behold -and hear- its presence."
+ building_type_kingdoms_song_01:0 "Ритана-ди-Ренада"
+ building_type_kingdoms_song_01_desc:0 "Ритана-ди-Ренада - это древняя каменная фреска, имеющая первостепенное значение для истории каждого каджита. На ней изображены шестнадцать важнейших королевств Эльсвейра, сосуществовавших в гармонии и мире. Магический кристалл, вделанный в центр барельефа, когда-то издавал удивительную и прекрасную мелодию, из-за чего и возникло его название, которое переводится с та'агры как «Песнь королевств»."
+ building_kingdoms_song_01:1 "$building_type_kingdoms_song_01$ (Разрушенная)"
+ building_kingdoms_song_01_desc:1 "$building_type_kingdoms_song_01_desc$\n\nОднако, как и в случае с этими королевствами, сам барельеф со временем был разрушен, а его фрагменты затерялись в перипетиях истории. Поющий кристалл был украден легендарным вором Раджином, и всё, что от него осталось, - это память о давно минувших днях."
+ building_kingdoms_song_02:1 "$building_type_kingdoms_song_01$ (Восстановленная)"
+ building_kingdoms_song_02_desc:1 "$building_type_kingdoms_song_01_desc$\n\nБлагодаря усилиям историков и искателей приключений со всего Эльсвейра барельеф вновь стал целым, что служит ярким напоминанием о том, что дух каджитов остается сильным, даже несмотря на то, что времена шестнадцати королевств прошли."
+ building_kingdoms_song_03:1 "$building_type_kingdoms_song_01$ (Поющая)"
+ building_kingdoms_song_03_desc:1 "$building_type_kingdoms_song_01_desc$\n\nБарельеф был не только восстановлен в своей прежней красоте, но и поющий камень был возвращен тем, кто заслужил благосклонность Раджина. Таким образом, он вновь предстаёт во всём своём великолепии, очаровывая всех, кому посчастливилось увидеть - и услышать - его присутствие."
 
  # Moonmirth Plantations
- building_type_moonmirth_plantations_01:0 "Moonmirth Plantations"
- building_type_moonmirth_plantations_01_desc:0 "Without a doubt, there is no finer moonsugar in all of Elsweyr than that which grows on Khenarthi's Roost. Nestled between the three sacred temples of the isle and blessed by its mild, coastal climate, these plants achieve a quality unmatched anywhere else. Those fortunate enough to taste this exquisite moonsugar describe the experience as if they have been embraced by Khenarthi herself, soaring through the celestial realms under her divine wings.\n\nEvery Khajiit who seeks a true connection to the moons yearns to taste from these plants at least once in their lifetime."
+ building_type_moonmirth_plantations_01:0 "Плантация «Лунная радость»"
+ building_type_moonmirth_plantations_01_desc:0 "Без сомнения, во всём Эльсвейре нет более вкусного лунного сахара, чем тот, что растёт на Гнезде Кенарти. Эти растения, расположенные между тремя священными храмами острова и благословленные мягким прибрежным климатом, обладают непревзойдённым качеством. Те, кому посчастливилось отведать этот изысканный лунный сахар, описывают свои ощущения так, словно они попали в объятия самой Кенарти и парили в небесных царствах под её божественными крыльями.\n\nКаждый каджит, который ищет истинную связь с лунами, мечтает хотя бы раз в жизни попробовать эти растения."
  building_moonmirth_plantations_01:1 "$building_type_moonmirth_plantations_01$"
  building_moonmirth_plantations_01_desc:1 "$building_type_moonmirth_plantations_01_desc$"
 
  # Dragonguard Sanctum
- building_type_dragonguard_sanctum_01:0 "Dragonguard Sanctum"
- building_type_dragonguard_sanctum_01_desc:0 "Tideholm houses one of the greatest fortresses ever inhabited by the Dragonguard of Emperor Reman. It is not completely certain whether he stationed them there to safeguard the lucrative trade routes in the Topal Bay, which is among the richest regions in Tamriel, or to prevent other threats.\n\nRegardless, due to its vital strategic position, the Dragonguard Sanctum never lost its value and importance to the region. Even after Reman's assassination, it remained a safe haven to the Akaviri who originally built it and is a coveted price for anyone who seeks influence over the sea."
- building_dragonguard_sanctum_01:0 "$building_type_dragonguard_sanctum_01$ (Pirate Hideout)"
- building_dragonguard_sanctum_01_desc:0 ""The Dragonguard, who once built and inhabited this place, are now completely eradicated. The impressive fortress, once tasked with safeguarding the numerous trade routes in this region, has now transformed into the complete opposite - a formidable pirate hideout and the base for countless raids throughout the Topal Bay."
+ building_type_dragonguard_sanctum_01:0 "Убежище Драконьей стражи"
+ building_type_dragonguard_sanctum_01_desc:0 "На Приливном острове находится одна из величайших крепостей, в которых когда-либо пребывала Драконья стража императора Ремана. Не совсем ясно, разместил ли он их там для защиты прибыльных торговых путей в Топальском заливе, который является одним из богатейших регионов Тамриэля, или для предотвращения других угроз.\n\nНесмотря на это, из-за своего важного стратегического положения убежище Драконьей стражи никогда не теряло своей ценности и значения для региона. Даже после убийства Ремана оно оставалось надежным убежищем для акавирцев, которые изначально построили его, и является желанной добычей для всякого, кто стремится к влиянию на море."
+ building_dragonguard_sanctum_01:0 "$building_type_dragonguard_sanctum_01$ (Пиратское убежище)"
+ building_dragonguard_sanctum_01_desc:0 "Драконья стража, когда-то построившая и населявшая это место, полностью уничтожена. Впечатляющая крепость, некогда охранявшая многочисленные торговые пути в этом регионе, теперь превратилась в полную противоположность - грозное пиратское убежище и базу для бесчисленных набегов по всему Топальскому заливу."
  building_dragonguard_sanctum_02:0 "$building_type_dragonguard_sanctum_01$"
  building_dragonguard_sanctum_02_desc:0 "$building_type_dragonguard_sanctum_01_desc$"
 
@@ -969,7 +969,7 @@
  building_development_committee_02:0 "$building_type_development_committee_01$ (строительная площадка)"
  building_development_committee_02_desc:0 "$building_type_development_committee_01_desc$"
  building_development_committee_03:0 "$building_type_development_committee_01$"
- building_development_committee_03_desc:0 "At the cost of numerous delays and resources, Lilmoth New City has been completed. Ensuring even its most basic operations has pushed the boundaries of architecture to new heights.\n\nWhilst still reliant on trade, self-sustenance is ensured by a mix of exotic agricultural techniques and ingenious waterworks. The residents of Lilmoth regularly assess all matters of urban planning, fighting daily against the dereliction of their homes."
+ building_development_committee_03_desc:0 "Строительство города Новый Лилмот было завершено ценой многочисленных задержек и затрат ресурсов. Обеспечение даже самых элементарных операций вывело архитектуру на новый уровень.\n\nНесмотря на то, что он по-прежнему зависит от торговли, самообеспечение достигается сочетанием экзотических сельскохозяйственных технологий и оригинальных гидротехнических сооружений. Жители Лилмота регулярно оценивают все вопросы городского планирования, ежедневно борясь с разрушением своих домов."
 
  # Puzzle City
  building_type_puzzle_city_01:0 "Город Загадок"
@@ -991,46 +991,46 @@
  building_krona_konu_01_desc:1 "$building_type_krona_konu_01_desc$"
 
  # Xi-Tsei Xanmeer
- building_type_xi_tsei_01:0 "Xi-Tsei Xanmeer"
- building_type_xi_tsei_01_desc:0 "Xi-Tsei, once a grand Xanmeer now fallen into ruins like many of Black Marsh's great structures, regained a dreadful reputation following the Blackwater War. At the foot of this mighty edifice, the already decimated Fourth Legion met a gruesome end. The cause of this massacre remains a subject of debate among historians, as many soldiers seemingly vanished without a trace, their remains never found.\n\nNow regarded as a cursed place by many, the local Naga tribes have begun to resettle Xi-Tsei, using it as a base of operations for their raids into the surrounding territory. Its ominous reputation ensures that few dare to challenge them there, thus granting them a safe retreat."
+ building_type_xi_tsei_01:0 "Занмир Зи-Цей"
+ building_type_xi_tsei_01_desc:0 "Зи-Цей, некогда великий занмир, ныне превратившийся в руины, как и многие другие великие сооружения Чернотопья, вновь приобрел ужасную репутацию после Черноводной войны. У подножия этого могучего сооружения и без того поредевший Четвертый легион встретил ужасный конец. Причина этой резни остается предметом споров среди историков, поскольку многие солдаты, по-видимому, бесследно исчезли, а их останки так и не были найдены.\n\nМестные племена нага начали заселять Зи-Цей, ныне считающийся проклятым местом, используя его как базу для своих налётов на близлежащие территории. Зловещая репутация этого места гарантирует, что мало кто осмелится бросить им вызов, тем самым предоставляя им безопасное убежище."
  building_xi_tsei_01:1 "$building_type_xi_tsei_01$"
  building_xi_tsei_01_desc:1 "$building_type_xi_tsei_01_desc$"
 
  # Teeth of Sithis
- building_type_sithis_teeth_01:0 "Teeth of Sithis"
- building_type_sithis_teeth_01_desc:0 "These gigantic Twin-Xanmeers, resembling the long fangs of a serpent from afar, derive their name from this distinctive appearance. They are among the most sacred sites dedicated to Sithis and are still maintained by the Clutch of Nisswo, the Nothing-Speakers—a religious sect that continues to enjoy the respect and esteem of other Argonians.\n\nNisswo priests consider it their sacred duty to spread the ever-changing and often contradictory truths of Sithis, reminding their listeners of the fickle nature of the world and the mortality of all things. They work closely with the Shadowscales, and their word is well respected among their ranks and even holds weight with the Dark Brotherhood. Therefore, anyone who enjoys the protection of the Nisswo is unlikely to be harmed by assassinations."
+ building_type_sithis_teeth_01:0 "Зубы Ситиса"
+ building_type_sithis_teeth_01_desc:0 "Эти гигантские занмиры-близнецы, издалека напоминающие длинные змеиные клыки, получили своё название из-за характерного внешнего вида. Они являются одними из самых священных мест, посвящённых Ситису, и до сих пор поддерживаются кладкой Ниссво, «изрекающими-пустоту» - религиозной сектой, которая продолжает пользоваться уважением других аргониан.\n\nЖрецы Ниссво считают своим священным долгом распространять постоянно меняющиеся и часто противоречивые истины Ситиса, напоминая своей пастве о непостоянстве природы мира и смертности всего сущего. Они тесно сотрудничают с Тёмными ящерами, и их слово пользуется большим уважением в их рядах и даже имеет вес в Тёмном братстве. Таким образом, любой, кто пользуется защитой Ниссво, вряд ли пострадает от покушений."
  building_sithis_teeth_01:1 "$building_type_sithis_teeth_01$"
  building_sithis_teeth_01_desc:1 "$building_type_sithis_teeth_01_desc$"
 
  # Beela-Kars Laboratory
- building_type_beela_kars_laboratory_01:0 "Beela-Kars Laboratory"
- building_type_beela_kars_laboratory_01_desc:0 "Even by the standards of pre-Duskfall Argonian civilization, Beela Kar was considered an exceptionally mighty and knowledgeable sorcerer. He transformed the Xanmeer of Norg-Tzel into one of the most advanced laboratories of its time, conducting research into various forms of magic to benefit his people as a whole. However, the death of his beloved wife led to a disastrous downfall as he turned to necromancy in the hopes of bringing her back from the dead. His laboratory, once a beacon of wisdom and progress, became a dark place of forbidden experiments, ultimately resulting in its siege by the frightened local populace.\n\nDespite the subsequent destruction, it stands as a testament to Beela Kar's ingenuity that his Xanmeer still offers various possibilities for performing different kinds of magical studies."
+ building_type_beela_kars_laboratory_01:0 "Лаборатория Била-Кара"
+ building_type_beela_kars_laboratory_01_desc:0 "Даже по меркам аргонианской цивилизации, существовавшей до наступления Сумеречья, Била-Кар считался исключительно могущественным и знающим колдуном. Он превратил занмир Норг-Тзела в одну из самых передовых лабораторий своего времени, проводящую исследования различных форм магии на благо своего народа в целом. Однако смерть его любимой жены привела к катастрофическому падению, и он обратился к некромантии в надежде воскресить ее из мёртвых. Его лаборатория, некогда являвшаяся маяком мудрости и прогресса, превратилась в мрачное место для запрещенных экспериментов, что в конечном итоге привело к осаде испуганным местным населением.\n\nНесмотря на последующее разрушение, свидетельством изобретательности Била-Кара является то, что его занмир по-прежнему предлагает различные возможности для проведения различных видов магических исследований."
  building_beela_kars_laboratory_01:0 "$building_type_beela_kars_laboratory_01$"
  building_beela_kars_laboratory_01_desc:0 "$building_type_beela_kars_laboratory_01_desc$"
 
  # Shrine of the Oracle
- building_type_oracle_shrine_01:0 "Shrine of the Oracle"
- building_type_oracle_shrine_01_desc:0 "Little is known about Cantemir, the enigmatic leader who guided a group of Chimer to settle in Black Marsh. However, legend holds that she was an ardent follower of the Psijic Endeavor, relentlessly pursuing the path to godhood. Deep within the confines of Amberstone Keep rests a secluded shrine, within which grows a great Hist - its roots digging deep into the land to connect with its kin. The mysterious visions she encountered during these sessions among its roots continue to provoke diverse interpretations and impassioned debates, ensnaring the curiosity of her descendants through the ages.\n\nThis shrine and its sacred tree not only bears immense religious and cultural significance for the Cantemeric Velothi but is also fortified enough to safeguard this hallowed refuge against the dangers lurking in the surrounding marshlands."
+ building_type_oracle_shrine_01:0 "Святилище Оракула"
+ building_type_oracle_shrine_01_desc:0 "Мало что известно о Кантемир, загадочной предводительнице, которая привела группу поселенцев-кимеров в Чернотопье. Однако легенда гласит, что она была ярой последовательницей Стремлений псиджиков и неустанно шла по пути к божественности. Глубоко за пределами крепости Янтарного Камня находится уединённое святилище, в котором растёт великий хист - его корни уходят глубоко в землю, чтобы соединиться со своими сородичами. Таинственные видения, с которыми она столкнулась во время этих сеансов, продолжают вызывать различные толкования и страстные споры, вызывая любопытство её потомков на протяжении веков.\n\nЭто святилище и его священное дерево не только имеют огромное религиозное и культурное значение для кантемирских велоти, но и достаточно укреплены, чтобы защитить это священное убежище от опасностей, таящихся в окружающих болотах."
  building_oracle_shrine_01:0 "$building_type_oracle_shrine_01$"
  building_oracle_shrine_01_desc:0 "$building_type_oracle_shrine_01_desc$"
 
  # Deep Graves Cemetery
- building_type_deep_graves_01:0 "Deep Graves Cemetery"
- building_type_deep_graves_01_desc:0 "Even in the long-forgotten days of the pre-Dusk Fall Era, this site served as a cemetery for deceased Argonians. While the location has remained the same, the funeral practices have changed over time. No longer are the dead interred in the towering Xanmeers that still stand watch; instead, they are now buried in the wet ground between them. Hundreds of gravestakes sprout from the swamp, slowly rotting away alongside the corpses they anchor. Despite the decay, their numbers do not diminish, as new stakes are continually added."
- building_deep_graves_01:0 "$building_type_deep_graves_01$ (Defiled)"
- building_deep_graves_01_desc:0 "$building_type_deep_graves_01_desc$\n\nOnce merely a place to avoid at night, it has now become a realm of terror under the control of necromancers. Bog Blights roam relentlessly, dragging unfortunate souls into the depths of the swamp."
+ building_type_deep_graves_01:0 "Кладбище Глубоких Могил"
+ building_type_deep_graves_01_desc:0 "Даже в давно забытые времена, предшествовавшие наступлению Сумеречья, это место служило кладбищем для умерших аргониан. Хотя местоположение осталось прежним, практика похорон со временем изменилась. Мёртвых больше не хоронят в возвышающихся над землёй занмирах, которые всё ещё стоят на страже; вместо этого их хоронят во влажной земле между ними. Сотни могильных столбов возвышаются над болотом, медленно разлагаясь рядом с трупами, которые они удерживают. Несмотря на упадок, их число не уменьшается, так как постоянно добавляются новые столбы."
+ building_deep_graves_01:0 "$building_type_deep_graves_01$ (Осквернённое)"
+ building_deep_graves_01_desc:0 "$building_type_deep_graves_01_desc$\n\nКогда-то это было просто место, которого лучше избегать по ночам, а теперь оно превратилось в царство ужаса, находящееся под контролем некромантов. Болотные гниляки безжалостно бродят по нему, увлекая несчастные души в глубины болот."
  building_deep_graves_02:0 "$building_type_deep_graves_01$"
- building_deep_graves_02_desc:0 "$building_type_deep_graves_01_desc$\n\nThis is a sacred place during the day, still held dear by many Argonians. However, at night, it becomes perilous, haunted by ghosts, strange lights, and even more sinister things."
+ building_deep_graves_02_desc:0 "$building_type_deep_graves_01_desc$\n\nДнём это священное место, которым до сих пор дорожат многие аргониане. Однако ночью оно становится опасным, его населяют призраки, странные огни и ещё более зловещие вещи."
 
  # Stormhold Canals
- building_type_stormhold_canals_01:0 "Stormhold Canals"
- building_type_stormhold_canals_01_desc:0 "Founded by the Barsabeic Ayleids after a triumphant victory over the local Argonians, Stormhold was originally known as Silyanorn. The city was meticulously planned, with vast canals expanding the natural river and connecting the different quarters through lush waterways. However, Stormhold's history has been one of constant violence ever since. Both the Alessian Empire and the Dunmer joined the fight for control of the city, and after numerous conflicts, much of Silyanorn's beauty was lost.\n\nDespite this, the canals remain functional, serving as a vital first line of defense and, more importantly, facilitating the transport of all kinds of goods into and out of the city."
+ building_type_stormhold_canals_01:0 "Каналы Стормхолда"
+ building_type_stormhold_canals_01_desc:0 "Основанный барсебическими айлейдами после триумфальной победы над местными аргонианами, Стормхолд первоначально был известен как Сильянорн. Город был тщательно спланирован, с широкими каналами, расширяющими естественную реку и соединяющими различные кварталы пышными водотоками. Однако с тех пор история Стормхолда была полна постоянного насилия. И Алессианская империя, и данмеры вступили в борьбу за контроль над городом, и после многочисленных конфликтов большая часть красоты Сильянорна была утрачена.\n\nНесмотря на это, каналы остаются функциональными, служа жизненно важной первой линией обороны и, что более важно, облегчая транспортировку всех видов грузов в город и из него."
  building_stormhold_canals_01:0 "$building_type_stormhold_canals_01$"
  building_stormhold_canals_01_desc:0 "$building_type_stormhold_canals_01_desc$"
 
  # Path of the Lily
- building_type_lily_path_01:0 "Path of the Lily"
- building_type_lily_path_01_desc:0 "Many myths surround this canyon, yet none can fully capture its true beauty and danger. Fragrant yet deadly plants sprout from its walls, while hidden beneath the thicket are lethal ponds. Guardians of ancient and terrible strength watch over the passage that winds through the narrow walls. Yet, at its end lies a grove filled with blue lilies, a sight so breathtaking it outweighs the perils of the journey.\n\nWalking through this canyon and gathering one of these lilies is considered a trial only the greatest warriors can perform and those that manage to achieve that are forever changed by the experience."
+ building_type_lily_path_01:0 "Путь Лилии"
+ building_type_lily_path_01_desc:0 "Множество мифов окружает этот каньон, но ни один из них не может в полной мере передать его истинную красоту и опасность. На его стенах произрастают ароматные, но смертельно опасные растения, а в зарослях скрыты смертоносные водоемы. Стражи древней и ужасной силы охраняют проход, который проходит сквозь узкие стены. Однако в конце его раскинулась роща, полная голубых лилий, - зрелище настолько захватывающее, что перевешивает все опасности путешествия.\n\nПрогулка по этому каньону и сбор одной из этих лилий считается испытанием, на которое способны только величайшие воины, и те, кому удается достичь этого, навсегда меняются благодаря полученному опыту."
  building_lily_path_01:0 "$building_type_lily_path_01$"
  building_lily_path_01_desc:0 "$building_type_lily_path_01_desc$"
 
@@ -1127,7 +1127,7 @@
  orsimer_or_reachmen:0 "#V $heritage_orsimeri_name$ое#! [heritage|El], либо #V $reachfolk_collective_noun$#!ая [culture|El] или [culture|El], произошедшая от #V $reachfolk_collective_noun$#!ой"
 
  building_type_beldama_wyrd_tree_01:0 "Вещее древо Белдамы"
- building_type_beldama_wyrd_tree_01_desc:0 "Вещее древо Белдамы - это живой завет между древними бретонцами и Костями Земли Хай Рока. Воплощённое в виде разросшегося дерева, оно является одновременно и подопечным, и надзирателем вещуний Белдамы- ковена ведьм, настроенных на природу. Местные жители собираются здесь, когда нуждаются в исцелении, ведь ведьмы в соответствии со своими убеждениями ухаживают за больными и ранеными.\n\nДревесина этого дерева пользуется большим спросом у бретонских магов. При правильной обработке она может стать одним из лучших проводников, доступных заклинателям. Неудивительно, что нередко связки «ветвей» перехватывали недобросовестные паломники."
+ building_type_beldama_wyrd_tree_01_desc:0 "Вещее древо Белдамы - это живой завет между древними бретонцами и Костями Земли Хай Рока. Воплощённое в виде разросшегося дерева, оно является одновременно и подопечным, и надзирателем вещуний Белдамы - ковена ведьм, настроенных на природу. Местные жители собираются здесь, когда нуждаются в исцелении, ведь ведьмы в соответствии со своими убеждениями ухаживают за больными и ранеными.\n\nДревесина этого дерева пользуется большим спросом у бретонских магов. При правильной обработке она может стать одним из лучших проводников, доступных заклинателям. Неудивительно, что нередко связки «ветвей» перехватывали недобросовестные паломники."
  building_beldama_wyrd_tree_01:0 "$building_type_beldama_wyrd_tree_01$"
  building_beldama_wyrd_tree_01_desc:0 "$building_type_beldama_wyrd_tree_01_desc$"
 
@@ -1176,22 +1176,22 @@
  generic_holy_site_01_flip:0 "Это здание представляет собой любой тип [Concept( 'special_building', 'особого здания' )|E] [Concept( 'holy_site', 'священного места' )|E], и по завершении строительства будет заменено на соответствующее [Concept( 'faith', 'конфессии' )|E] владельца.\n\nМожет быть использовано для занятия «[GetActivityType('activity_adult_education').GetName].»"
  
  ### Hist Trees
- building_type_hist_01:0 "Hist Tree"
- building_type_hist_01_desc:0 "It is said that the Hist were already ancient when the Ehlnofey fought the first great war of Tamriel. These tree gods form a collective consciousness, interconnected through roots that spread beneath much of Black Marsh. Even the younger Hist are part of this greater entity, that is capable of performing both wondrous and terrible feats."
- building_hist_01:1 "Xeech"
- building_hist_01_desc:1 "This specimen is little more than a nut (Xeech in Jel). Though already connected to the root, it will take considerable time before it matches the power and wisdom of its older brethren."
- building_hist_02:1 "Sisei"
- building_hist_02_desc:1 "While still a mere sprout (Sisei in Jel), this Hist has already developed certain powers and begun to shape the surrounding landscape and its inhabitants according to its will."
- building_hist_03:1 "Hist-Deek"
- building_hist_03_desc:1 "Compared to its peers still young (Deek in Jel), emanating this Hist comes a growing influence over the domain it calls home. Its roots dig deep into the soil, and Hist sap is slowly accumulating between them."
- building_hist_04:1 "Hist-Dooka"
- building_hist_04_desc:1 "The spreading branches of this mature (Dooka in Jel) Hist provide shelter, and the knowledge it holds can only be guessed. The sap is flowing strong, ready to nurture those worthy of its might."
- building_hist_05:1 "Hist-Tsoko"
- building_hist_05_desc:1 "One of the oldest beings on Tamriel, this elder (Tsoko in Jel) Hist casts a vast shadow under which hundreds of worshippers can gather. Streams of hist sap flow from its enormous trunk, gathering into a small lake beneath its roots."
+ building_type_hist_01:0 "Дерево хист"
+ building_type_hist_01_desc:0 "Говорят, что хист были уже стары, когда эльнофей сражались в первой великой войне Тамриэля. Эти древесные боги образуют коллективное сознание, связанное корнями, которые простираются под большей частью Чернотопья. Даже младшие хисты являются частью этой великой сущности, способной совершать как чудесные, так и ужасные деяния."
+ building_hist_01:1 "Зик"
+ building_hist_01_desc:1 "Этот экземпляр чуть больше ореха («Зик» на языке джель). Хотя он уже пустил корни, пройдёт немало времени, прежде чем он сравняется по силе и мудрости со своими старшими собратьями."
+ building_hist_02:1 "Сисэй"
+ building_hist_02_desc:1 "Будучи ещё всего лишь побегом («Сисэй» на языке джель), этот хист уже развил в себе определённые способности и начал формировать окружающий ландшафт и его обитателей в соответствии со своей волей."
+ building_hist_03:1 "Хист-дик"
+ building_hist_03_desc:1 "Всё ещё юный по сравнению со своими родичами («Хист-дик» на языке джель), этот хист оказывает всё большее влияние на область, которую он называет своим домом. Его корни уходят глубоко в почву, и между ними медленно накапливается живица."
+ building_hist_04:1 "Хист-дука"
+ building_hist_04_desc:1 "Раскидистые ветви этого зрелого хиста («Хист-дука» на языке джель) могут служить убежищем, и о знаниях, которые он хранит, можно только догадываться. Живица течёт с огромной силой, готовая взрастить тех, кто достоин её могущества."
+ building_hist_05:1 "Хист-цоко"
+ building_hist_05_desc:1 "Одно из старейших существ Тамриэля, старый хист («Хист-цоко» на языке джель) отбрасывает обширную тень, под которой могут собираться сотни верующих. Потоки живицы хиста вытекают из его огромного ствола, собираясь в небольшое озеро под его корнями."
 
  ## Hist Buildings
- building_type_minding_grove_01:0 "Minding Grove"
- building_type_minding_grove_01_desc:1 "The Hist tree is the heart of any Argonian tribe. It has to protected and cared for."
+ building_type_minding_grove_01:0 "Роща ухода"
+ building_type_minding_grove_01_desc:1 "Дерево хист - сердце любого аргонианского племени. Его нужно защищать и заботиться о нём."
  building_minding_grove_01:0 "$building_type_minding_grove_01$"
  building_minding_grove_01_desc:1 "$building_type_minding_grove_01_desc$"
  building_minding_grove_02:1 "$building_type_minding_grove_01$"
@@ -1203,8 +1203,8 @@
  building_minding_grove_05:1 "$building_type_minding_grove_01$"
  building_minding_grove_05_desc:1 "$building_type_minding_grove_01_desc$"
 
- building_type_hatching_pools_01:0 "Hatching Pools"
- building_type_hatching_pools_01_desc:1 "With the eggs soaked in Hist sap, it is ensured that the tribe will grow fast and strong."
+ building_type_hatching_pools_01:0 "Пруды Потомства"
+ building_type_hatching_pools_01_desc:1 "Благодаря яйцам, пропитанным живицей хиста, племя будет расти быстро и сильно."
  building_hatching_pools_01:0 "$building_type_hatching_pools_01$"
  building_hatching_pools_01_desc:1 "$building_type_hatching_pools_01_desc$"
  building_hatching_pools_02:1 "$building_type_hatching_pools_01$"
@@ -1216,8 +1216,8 @@
  building_hatching_pools_05:1 "$building_type_hatching_pools_01$"
  building_hatching_pools_05_desc:1 "$building_type_hatching_pools_01_desc$"
 
- building_type_speaker_hut_01:0 "Speaker Hut"
- building_type_speaker_hut_01_desc:1 "The Hist speakers are able to communicate with the Hist, sharing its wisdom and settling any debate."
+ building_type_speaker_hut_01:0 "Хижина голоса-хист"
+ building_type_speaker_hut_01_desc:1 "Голоса-хист могут общаться с хистами, делясь своей мудростью и улаживая любые споры."
  building_speaker_hut_01:0 "$building_type_speaker_hut_01$"
  building_speaker_hut_01_desc:1 "$building_type_speaker_hut_01_desc$"
  building_speaker_hut_02:1 "$building_type_speaker_hut_01$"
@@ -1229,8 +1229,8 @@
  building_speaker_hut_05:1 "$building_type_speaker_hut_01$"
  building_speaker_hut_05_desc:1 "$building_type_speaker_hut_01_desc$"
 
- building_type_invocation_school_01:0 "Invocation School"
- building_type_invocation_school_01_desc:1 "Some Argonians are able to channel Hist magic to infuse themselves and their allies with wondrous strength."
+ building_type_invocation_school_01:0 "Школа призывателей"
+ building_type_invocation_school_01_desc:1 "Некоторые аргониане способны использовать магию хист, чтобы наделить себя и своих союзников удивительной силой."
  building_invocation_school_01:0 "$building_type_invocation_school_01$"
  building_invocation_school_01_desc:1 "$building_type_invocation_school_01_desc$"
  building_invocation_school_02:1 "$building_type_invocation_school_01$"
@@ -1360,7 +1360,7 @@
  building_arena_01:0 "Самодельная арена"
  building_arena_02:0 "Арена"
  building_type_arena_01:0 "Арена"
- building_type_arena_01_desc:0 "Arenas are found all over Tamriel, and are used to host a variety of acts of entertainment for the public."
+ building_type_arena_01_desc:0 "Арены расположены по всему Тамриэлю и используются для проведения различных развлекательных мероприятий для публики."
 
 ###Great Houses Tombs
 #Indoril House Tomb
@@ -1395,12 +1395,12 @@
  building_pantherfang_chapel_01:0 "Церковь Клыкастой Пантеры"
  building_pantherfang_chapel_01_desc:1 "Возведённая в #LORE [Concept( 'compendium_first_era', 'Первую эру' )|E]#! религиозным орденом Утолительной Чаши, эта святыня на протяжении веков служила одновременно и часовней, и грозной крепостью, защищая духовенство и верующих в неспокойные времена."
 
- building_type_abamath_01:0 "Caverns of Abamath"
- building_type_abamath_01_desc:0 "Wood Orcish myths claim that Abamath contains "Blood of Mauloch" in its caverns, a magical war paint said to give Orcs incredible strength. However, with the Ayleid conquest of Abamath, it was impossible to know whether it was true.\n\nBut with the recent conquest of Abamath by its ancient inhabitants and excavations of its caverns, the legends turned out to be true. Thanks to the blood of their progenitor, the people of Abamath have become more ferocious than ever, but with such strength come disadvantages: ferocious warriors can barely tell friend from foe."
+ building_type_abamath_01:0 "Пещеры Абамата"
+ building_type_abamath_01_desc:0 "В мифах лесных орков утверждается, что в пещерах Абамата содержится «Кровь Малоха» - магическая боевая раскраска, придающая оркам невероятную силу. Однако после завоевания Абамата айлейдами было невозможно выяснить, правда ли это.\n\nНо после недавнего завоевания Абамата его древними жителями и раскопок его пещер легенды оказались правдой. Благодаря крови своего прародителя, жители Абамата стали более свирепыми, чем когда-либо, но с такой силой приходят и недостатки: свирепые воины едва могут отличить друга от врага."
  building_abamath_01:0 "$building_type_abamath_01$"
  building_abamath_01_desc:0 "$building_type_abamath_01_desc$"
 
- building_type_bone_orchard_01:0 "Barrowbough"
- building_type_bone_orchard_01_desc:0 "The Barrowbough is a revered tree standing at the heart of the Bone Orchard, a cemetery believed to house the remains of the old Ehlnofey—ancient beings who sacrificed themselves to forge the laws of nature and give life to the mortal races.Some legends even claim that Y'ffre himself rests here, nestled beneath the colossal roots of the Barrowbough.Whether this is true or not, the tree emanates a mysterious power, protecting those who are honoring it from the dangers of the land itself.\n\nTherefore it is still considered a great honor to have the meticulously gnawed bones of one's ancestors interred in its shadow."
+ building_type_bone_orchard_01:0 "Курганное дерево"
+ building_type_bone_orchard_01_desc:0 "Курганное дерево — почитаемое дерево, растущее в самом сердце Костяного сада, кладбища, где, как полагают, покоятся останки эльнофей - древних существ, которые пожертвовали собой, чтобы изменить законы природы и дать жизнь смертным расам. В некоторых легендах даже утверждается, что сам И'ффре покоится здесь, укрывшись под колоссальными корнями Курганного дерева. Правда это или нет, но дерево излучает таинственную силу, защищая тех, кто почитает его, от опасностей, таящихся в самой земле.\n\nПоэтому до сих пор считается большой честью похоронить в его тени тщательно обглоданные кости своих предков."
  building_bone_orchard_01:0 "$building_type_bone_orchard_01$"
  building_bone_orchard_01_desc:0 "$building_type_bone_orchard_01_desc$"
