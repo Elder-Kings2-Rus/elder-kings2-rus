@@ -63,4 +63,4 @@
  pirate_court_court_fantastic_desc:0 "Наш двор наполнен редкими артефактами и горами золота, награбленного во время наших последних набегов. Все в мире будут знать об огромном богатстве нашего двора и, скорее всего, будут в восторге от своего невольного вклада."
  owner_pirate_court_court_fantastic:0 "#V 20%#! вашей [Concept('raid_loot', 'добычи')|E] будет получено как [grandeur|E]."
  
- COURT_AMENITIES_PIRATES_NO_AMENITIES:0 "\n[Concept('pirate', 'Пиратские')|E] правители не получают [Concept('grandeur', 'величие двора')|E] через [Concept('amenities', 'удобства')|E], но через $pirate_court_court$ после [Concept('raid', 'рейда')E]"
+ COURT_AMENITIES_PIRATES_NO_AMENITIES_GRANDEUR:0 "\n[Concept('pirate', 'Пиратские')|E] правители не получают [Concept('grandeur', 'величие двора')|E] через [Concept('amenities', 'удобства')|E], но через «Долю двора» после [Concept('raid', 'рейда')|E]."

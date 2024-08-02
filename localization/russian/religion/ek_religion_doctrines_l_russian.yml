@@ -310,7 +310,7 @@
    doctrine_sp_magna_ge_mnemoli_name:0 "Мнемо-Ли"
    doctrine_sp_magna_ge_mnemoli_desc:0 ""
     doctrine_parameter_pantheon_adds_deity_mnemoli:0 "Адепты могут принять Мнемо-Ли как своего [Concept( 'patron', 'покровителя' )|E] и получить свойство «[GetTrait('p_mg_mnemoli').GetName( GetNullCharacter )]»"
-doctrine_sp_heroes_name:0 "Герои Сиродила #italic [secondary|E]#!"
+doctrine_sp_heroes_name:0 "Сиродильские герои #italic [secondary|E]#!"
    doctrine_sp_heroes_desc:0 "Величайшие герои-люди заслуживают нашего почтения."
    doctrine_parameter_heroes_pantheon_syncretism:0 "Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -15#! с [Concept('faiths', 'конфессиями')|E], у которых имеется доктрина [Concept('pantheon', 'пантеона')|E] «[GetFaithDoctrine('doctrine_pantheon_heroes').GetBaseName]»"
    doctrine_sp_heroes_alessia_name:0 "Алессия"

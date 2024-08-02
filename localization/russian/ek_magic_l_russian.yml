@@ -300,7 +300,7 @@
  TRAIT_FLAG_DESC_subtract_praxis_15:0 "[praxis|E]: [praxis_i]#N -15#!"
  TRAIT_FLAG_DESC_subtract_praxis_30:0 "[praxis|E]: [praxis_i]#N -30#!"
  
- TRAIT_FLAG_DESC_mindless_character:0 "#N @ek_mindless_icon! Этот персонаж лишён разума и не способен править или выполнять большинство задач"
+ TRAIT_FLAG_DESC_mindless_character:0 "#N @ek_mindless_icon! Этот персонаж лишён разума и не способен править или выполнять большинство задач#!"
 
  stage_1:0 "Новичок"
  stage_2:0 "Ученик"
