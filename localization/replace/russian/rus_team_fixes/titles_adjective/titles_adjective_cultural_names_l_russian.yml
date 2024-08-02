@@ -1,0 +1,276 @@
+﻿l_russian:
+
+ #################
+ ### High Rock ###
+ #################
+ cn_khazun_ghash_adj:0 "Хазун-гашск"
+ cn_grudgerock_adj:0 "Скало-раздорск"
+ cn_lar_druaid_adj:0 "Лар-друайдск" # Reachfolk k_Jehanna
+ cn_dru_druad_adj:0 "Дру-друайдск" # Reachfolk d_Jehanna
+ cn_cul_druaid_adj:0 "Кул-друайдск" # Reachfolk c_Jehanna
+ cn_lar_farun_adj:0 "Лар-фарунск" # Reachfolk k_Farrun
+ cn_dru_farun_adj:0 "Дру-фарунск" # Reachfolk d_Farrun
+ cn_cul_farun_adj:0 "Кул-фарунск" # Reachfolk c_Farrun
+ cn_lar_wrogar_adj:0 "Лар-рогарск" # Reachfolk k_Wrothgar
+ cn_cul_aloue_adj:0 "Кул-алоуск" # Reachfolk c_Coldperch
+ cn_jehenna_adj:0 "Джехеннск" # PGE3/Skyrim name for Jehanna
+ cn_kjamlor_adj:0 "Кьямлейрск"
+ cn_kjamlor_hall_adj:0 "Кьямлейрск"
+ cn_dolkenfall_adj:0 "Долкенфоллск"
+ cn_daggerfell_adj:0 "Даггерфеллск"
+ cn_dolkenfall_hall_adj:0 "Долкенфоллск"
+ cn_shornhjalmr_adj:0 "Шорнхьяльмрск"
+ cn_shornhjalmr_hall_adj:0 "Шорнхьяльмрск"
+ cn_sharnhalm_adj:0 "Шарнхальмск"
+ cn_sharnhalm_citadel_adj:0 "Шарнхальмск"
+ cn_hraggarok_adj:0 "Храггарокск"
+ cn_Ain_Kolur_adj:0 "Айн-колурск" # Bjoule Name for Murcien
+ cn_wroth_naga_adj:0 "Рот-нагск" # Hamlet from 2920 Vol 8
+ cn_caladan_adj:0 "Каладанск" # PTR name for the Castle of Trowbridge
+ cn_trowbridge_adj:0 "Троубриджск" # from A tale of Kieran
+ #Ayleid
+ cn_mathmalabal_adj:0 "Матмалабалск"
+ cn_bisnensel_adj:0 "Бисненсельск"
+ cn_bisnenselaran_adj:0 "Аран-арпенск"
+ cn_erokii_adj:0 "Эрокийск"
+ cn_enduum_adj:0 "Эндуумск"
+ cn_silumm_adj:0 "Силуммск"
+ cn_silaseli_adj:0 "Силаселийск"
+ cn_moriseli_adj:0 "Мориселийск"
+ cn_bellemath_adj:0 "Беллематск"
+ cn_sancremath_adj:0 "Санкрематхск"
+
+ # Balfiera
+
+ ##################
+ ### Hammerfell ###
+ ##################
+ cn_hrammafel_adj:0 "Храммафелск"
+ cn_jephre_path_adj:0 "Джефрск"
+ cn_mitana_mkai_adj:0 "Митана-м'кайск"
+ cn_nilata_adj:0 "Нилатск"
+ cn_balamath_adj:0 "Баламатск"
+ cn_molavar_adj:0 "Молаварск"
+
+ ##############
+ ### Skyrim ###
+ ##############
+ cn_marwyr_adj:0 "Марвирск"
+ cn_skrum_adj:0 "Скрамск"
+ cn_evensnow_adj:0 "Ивенсноуск"
+ cn_aelfendor_adj:0 "Элфендорск"
+ cn_danstrar_adj:0 "Данстрарск"
+
+ ################
+ ### Cyrodiil ###
+ ################
+ #Ayleid
+ cn_nibenu_adj:0 "Нибенуйск"
+ #Orc
+ #Abecean
+ #Breton
+ #Nibenu
+ #Heartlander
+ #Colovian
+ #Nibenese
+ #Cyrodiilic
+ #Nord
+ #Reachfolk
+ #Khajiit
+ cn_malapi_adj:0 "Малапийск"
+ cn_makapi_adj:0 "Макапийск"
+ #Goblin
+ cn_makalapi_adj:0 "Макалапийск"
+ cn_siradyl_adj:0 "Сирадилск"
+ cn_yirpa_adj:0 "Ирпайск"
+ #Yespest
+ cn_nivenpest_adj:0 "Нивенпестск"
+ cn_levinu_adj:0 "Левинуйск"
+ cn_torlevinu_adj:0 "Торлевинуйск"
+ #Ojel - currently disabled
+ cn_dumfvck_lukiul: "Подними-перо-слабоумск"
+
+ #################
+ ### Summerset ###
+ #################
+ cn_celemora: "Келеморск"
+ cn_rosathil: "Розатилск"
+ cn_tor_hame_khard: "Тор-хейм-хардск"
+ cn_dirennis: "Диреннийск"
+ cn_sumurset_adj:0 "Самурсетск"
+ cn_somorset_adj:0 "Соморсетск"
+ cn_calcal_adj:0 "Цалькальск"
+ cn_summurgsat_adj:0 "Саммурксатск"
+ cn_karnstern_adj:0 "Карнштернск"
+ cn_corrynde_adj:0 "Корриндск"
+ cn_pasetelin_adj:0 "Пасетелинск"
+ cn_sternidar_adj:0 "Сернидарск"
+ cn_belinor_adj:0 "Белинорск"
+ cn_iluvamir_adj:0 "Илувамирск"
+
+ #################
+ ### Morrowind ###
+ #################
+ cn_morrowindl_adj:0 "Морровиндлск"
+ cn_thundholmar_adj:0 "Тундольмарск"
+ cn_huldarkorst_adj:0 "Хюльдаркорстск"
+ cn_olmgerdheim_adj:0 "Ольмгердхеймск"
+ cn_olmgerds_landing_adj:0 "Ольмгердск"
+ cn_ramimilk_adj:0 "Рамимилкск"
+
+ #################
+ ### Valenwood ###
+ #################
+ #Bosmer
+ cn_eldenroot_adj:0 "Элденрутск"
+ #Ayleid
+ cn_ghul_mora_adj:0 "Гхул-мораск"
+ cn_aranmalatar_adj:0 "Аранмалатарск"
+ #Orc
+ #Goblin
+ cn_vaylewugh_adj:0 "Вейлевугск"
+ #Cyrodiilic
+ cn_pelda_tharn_adj:0 "Пельда-тарнск"
+ cn_south_weald_adj:0 "Южно-вельдск"
+ #Khajiit
+ #Galen
+ cn_galenwood_adj:0 "Галенвудск"
+ #Altmer
+ cn_seaside_adj:0 "Приморск"
+ cn_ada_mor_adj:0 "Ада-морск"
+ cn_xarxen_mora_adj:0 "Зарксен-морск"
+
+ ###############
+ ### Elsweyr ###
+ ###############
+ #Khajiit
+ cn_shi_gra_adj:0 "Ши'грайск"
+ cn_athay_adj:0 "Атхайск"
+ cn_hai_thaar_adj:0 "Хай'таарск"
+ cn_bruk_ra_adj:0 "Брук'райск"
+ cn_verkaht_adj:0 "Веркатск"
+ cn_millin_adj:0 "Миллинск"
+ cn_habesha_adj:0 "Хабешск"
+ cn_palaran_adj:0 "Паларанск"
+ cn_dustmoth_adj:1 "Пыле-мотылекск"
+ cn_rawla_kei_adj:0 "Равла-кейск"
+ cn_dunei_adj:0 "Дюнейск"
+ cn_rimkha_adj:0 "Рим'кхск"
+ cn_albasti_adj:0 "Ал'бастийск"
+ cn_quinrawl_adj:0 "Куин'ролск"
+ cn_corinte_adj:0 "Ко'ринтск"
+ cn_orchaj_adj:0 "Орхаджск"
+ cn_torval_adj:0 "Тор'валск"
+ cn_ne_quinal_adj:0 "Не-квин-алск"
+ cn_khenarthia_adj:0 "Кенартийск"
+ cn_arana_iit_adj:0 "Арана-иитск"
+ #Cyrodiilic
+ cn_rim_adj:0 "Римменск"
+ cn_senchel_adj:0 "Сенчелск"
+ cn_corinth_adj:0 "Коринфск"
+ cn_acacia_adj:0 "Акацийск"
+ cn_rimmenese_adj:0 "Римменийск"
+ cn_arrakis_adj:0 "Арракийск"
+ #Nord
+ cn_elsewhere_adj:0 "Где-то-тамск"
+ cn_high_savannah_adj:0 "Высоко-саваннск"
+ cn_the_scar_adj:0 "Шрамcr"
+ cn_dawnmead_adj:0 "Рассветно-лугск"
+ #Ilniviri
+ cn_rimyn_adj:0 "Риминск"
+ cn_zisa_embrace_adj:0 "Объятье-зисск"
+ cn_martyrest_adj:0 "Покой-мученикск"
+ cn_mylni_adj:0 "Милнийск"
+ cn_saehalien_adj:0 "Саеалиенск"
+ #Goblin-ken
+ cn_lesaweyr_adj:0 "Лесавейрск"
+ cn_neqina_adj:0 "Неквинск"
+ cn_palatina_adj:0 "Палатинск"
+ cn_dunc_adj:0 "Дункск"
+ cn_goblinrest_adj:0 "Гоблинрестск"
+ cn_krint_adj:0 "Кринтск"
+ cn_ralaki_adj:0 "Ралакийск"
+ cn_albast_adj:0 "Альбастск"
+ cn_kinral_adj:0 "Кинралск"
+ cn_rimha_adj:0 "Римхск"
+ #Yespest
+ cn_kiniraulu_adj:0 "Кинираулу"
+ cn_sensal_adj:0 "Сенсалск"
+ cn_alavastra_adj:0 "Алавастрск"
+ cn_topal_adj:0 "Топалск"
+ #Ayleid
+ cn_lattadiil_adj:0 "Латтадиилск"
+ cn_nagaiator_adj:0 "Нагайаторск"
+ cn_lattatar_adj:0 "Латтатарск"
+
+ ###################
+ ### Black Marsh ###
+ ###################
+ cn_orma_la_adj: "Ормаласк"
+ cn_orma_ka_adj: "Ормакайск"
+ cn_orma_ko_adj: "Ормакойск"
+ cn_orma_ke_adj: "Ормакейск"
+ cn_hutan_tzel_adj: "Утан-зелск"
+ cn_raj_satl_adj: "Радж-сатльск"
+ cn_raj_onkobra_adj: "Радж-онкобрск"
+ cn_krona_konu_adj: "Крона-конуйск"
+ cn_krona_konu_xanmeer_adj: "Крона-Конуйск"
+ cn_tormora_xanmeer_adj:0 "Тормора-занмирск"
+ cn_relleis_lor_adj:0 "Реллис-лорск"
+ cn_loriasel_adj:0 "Лориасельск"
+ cn_nen_ria_adj:0 "Нен-рийск"
+ cn_silyanorn_adj:0 "Сильянорнск"
+ cn_varakun_adj:0 "Варакунск"
+ cn_arlis_adj:0 "Арлисск"
+ cn_serpendamath_adj:0 "Серпедаматск"
+ cn_tormora_adj:0 "Торморск"
+ cn_ninen_adj:0 "Ниненск"
+ cn_ceyrod_adj:0 "Сейродск"
+ cn_ceynen_adj:0 "Сейненск"
+ cn_nagaianen_adj:0 "Нагаяненск"
+ cn_mathan_adj:0 "Мотанск"
+ cn_nevarsel_adj:0 "Неварселск"
+ cn_twyllbek_adj:0 "Твиллбекск"
+ cn_agea_relle_adj:0 "Агеа-реллск"
+ cn_kronka_thatith_adj:0 "Кронка-татитск"
+ cn_blackmarch_adj:0 "Чернотопьск"
+ cn_agrunuh_adj:0 "Агрунуйск"
+ cn_tenmorvuk_adj:0 "Тенморвукск"
+ cn_argonia_adj:0 "Аргонийск"
+ cn_irmolana_adj:0 "Ирмоланск"
+ cn_khintikhri_adj:0 "Кинтихрийск"
+ cn_sakhevak_adj:0 "Сахевакск"
+ cn_kiteon_adj:0 "Китеонск"
+ cn_amakir_adj:0 "Амакирск"
+ cn_otelvak_adj:0 "Отелвакск"
+ cn_mantkhesna_adj:0 "Мантхеснайск"
+ cn_fiktaba_adj:0 "Фиктабск"
+ cn_kito_adj:0 "Китойск"
+ cn_ofesu_adj:0 "Офесуйск"
+ cn_peitkli_adj:0 "Пейтклийск"
+ cn_kespest_adj:0 "Кеспестск"
+ cn_torpal_adj:0 "Торпалск"
+ cn_librurim_adj:0 "Либруримск"
+ cn_venalava_adj:0 "Веналавск"
+ cn_nuklauva_adj:0 "Нуклаувайск"
+ cn_hevakhu_adj:0 "Хевакуйск"
+ cn_khukrotel_adj:0 "Хукротелск"
+ cn_khimo_adj:0 "Химойскс"
+ cn_natadauma_adj:0 "Натадаумск"
+ cn_onkovra_adj:0 "Онковрск"
+ cn_solhrest_adj:0 "Соулрестск"
+ cn_fulfulnas_adj:0 "Фулфулнасск"
+ cn_remneratu_adj:0 "Ремнератуйск"
+ cn_vaskhaterva_adj:0 "Вашхатервайск"
+ cn_fitkhante_adj:0 "Фитхантск"
+ cn_ruvflurei_adj:0 "Рувфлурийск"
+ cn_anairune_adj:0 "Анаирунск"
+ cn_anaimutkhe_adj:0 "Анаимутхскс"
+ cn_arirtu_adj:0 "Ариртуйск"
+ cn_lorkhva_adj:0 "Лорхвайск"
+ cn_irtunu_adj:0 "Иртунуйск"
+ cn_hatriata_adj:0 "Хатриатайск"
+ cn_lorianen_adj:0 "Лорианенск"
+ cn_lilmoth_adj:0 "Лилмотск"
+ cn_lilmoth_side_adj:0 "Край-лилмотск"
+ cn_castle_lilmoth_adj:0 "Край-лилмотск"
