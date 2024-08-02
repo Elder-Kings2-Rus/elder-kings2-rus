@@ -4,7 +4,7 @@
 #################
 ### High Rock ###
 #################
- cn_hiauroche:0 "Хай-Рок"
+ cn_hiauroche:0 "Хай-Рок" #АХТУНГ! При добавлении или изменении титулов продублировать изменения в localization/replace/russian/rus_team_fixes/titles_adjective/titles_adjective_cultural_names_l_russian.yml
  cn_hiauroche_adj:0 "Хай-Рокск"
  cn_betnikh:0 "Бетник"
  cn_betnikh_adj:0 "Бетникск"
