@@ -199,4 +199,5 @@
  cosmic_insights_modifier_desc: "Долгая ночь и потребление лунного сахара открыли этому персонажу истинную природу реальности."
  learning_medicine.2110.c.tt_success: "Лунный сахар развязывает [hashish_vassal_or_liege.GetHerHim] язык"
  legend_spread_events.0030.desc.intro: "«Скажите мне, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetLadyLord]...» — [Select_CString(chronicler.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('chronicler'))] [chronicler.GetFirstName] вырывает меня из размышлений, и я вижу, как [Select_CString(chronicler.IsFemale, 'она', 'он' )] размахивает пером, заливая пол чернилами.\n\n" # Scorg. chroniclerChar -> chronicler
+ commision_legend_artifact_decision_disappearing_tt: "[Concept( 'legend', 'Легенда' )|E] должна присутствовать в вашей [Concept( 'realm', 'державе' )|E]"  # Scorg. Пропущенная скобка в концепте
  
