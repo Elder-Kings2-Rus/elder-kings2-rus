@@ -36,16 +36,16 @@
  pirate_court_knights_default_desc:0 "Наши командиры и офицеры уже греются в лучах славы нашего двора. Чего же им ещё ждать?"
  pirate_court_knights_acceptable:0 "Базовая доля рыцарей"
  pirate_court_knights_acceptable_desc:0 "" #EK TODO LOC
- owner_pirate_court_knights_acceptable:0 "#V 5%#! вашей [Concept('raid_loot', 'добычи')|E] будут распределены между вашими [knights|E]."
+ owner_pirate_court_knights_acceptable:0 "#V 5%#! вашей [Concept('raid_loot', 'добычи')|E] будут распределены между вашими [Concept('knights', 'рыцарями')|E]."
  pirate_court_knights_decent:0 "Приличная доля рыцарей"
  pirate_court_knights_decent_desc:0 "" #EK TODO LOC
- owner_pirate_court_knights_decent:0 "#V 10%#! вашей [Concept('raid_loot', 'добычи')|E] будут распределены между вашими [knights|E]."
+ owner_pirate_court_knights_decent:0 "#V 10%#! вашей [Concept('raid_loot', 'добычи')|E] будут распределены между вашими [Concept('knights', 'рыцарями')|E]."
  pirate_court_knights_good:0 "Хорошая доля рыцарей"
  pirate_court_knights_good_desc:0 "" #EK TODO LOC
- owner_pirate_court_knights_good:0 "#V 15%#! вашей [Concept('raid_loot', 'добычи')|E] будут распределены между вашими [knights|E]."
+ owner_pirate_court_knights_good:0 "#V 15%#! вашей [Concept('raid_loot', 'добычи')|E] будут распределены между вашими [Concept('knights', 'рыцарями')|E]."
  pirate_court_knights_fantastic:0 "Высокая доля рыцарей"
- pirate_court_knights_fantastic_desc:0 "Наши офицеры и командиры должны получать похвалу, а главное - награду, которую они заслуживают. Каждый из них приносит кучи золота после каждого рейда, и мы должны относиться к ним правильно."
- owner_pirate_court_knights_fantastic:0 "#V 20%#! вашей [Concept('raid_loot', 'добычи')|E] будут распределены между вашими [knights|E]."
+ pirate_court_knights_fantastic_desc:0 "Наши офицеры и командиры должны получать похвалу, а главное - награду, которую они заслуживают. Каждый из них приносит кучи золота после каждого налёта, и мы должны относиться к ним правильно."
+ owner_pirate_court_knights_fantastic:0 "#V 20%#! вашей [Concept('raid_loot', 'добычи')|E] будут распределены между вашими [Concept('knights', 'рыцарями')|E]."
  
  pirate_court_court:0 "Доля двора"
  pirate_court_court_default:0 "Без доли двора"
@@ -63,4 +63,4 @@
  pirate_court_court_fantastic_desc:0 "Наш двор наполнен редкими артефактами и горами золота, награбленного во время наших последних набегов. Все в мире будут знать об огромном богатстве нашего двора и, скорее всего, будут в восторге от своего невольного вклада."
  owner_pirate_court_court_fantastic:0 "#V 20%#! вашей [Concept('raid_loot', 'добычи')|E] будет получено как [grandeur|E]."
  
- COURT_AMENITIES_PIRATES_NO_AMENITIES_GRANDEUR:0 "\n[Concept('pirate', 'Пиратские')|E] правители не получают [Concept('grandeur', 'величие двора')|E] через [Concept('amenities', 'удобства')|E], но через «Долю двора» после [Concept('raid', 'рейда')|E]."
+ COURT_AMENITIES_PIRATES_NO_AMENITIES_GRANDEUR:0 "\n[Concept('pirate', 'Пиратские')|E] правители не получают [Concept('grandeur', 'величие двора')|E] через [Concept('amenities', 'удобства')|E], но через «Долю двора» после [Concept('raid', 'грабежа')|E]."
