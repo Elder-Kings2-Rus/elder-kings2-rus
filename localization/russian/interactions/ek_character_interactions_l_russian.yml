@@ -46,7 +46,7 @@
  ek_remove_cyrodiilic_subject_tooltip:0 "Мы не просто подданные."
  ek_remove_cyrodiilic_subject_decision_desc:0 "Теперь, когда мы больше не вассал империи, пришло самое время избавиться от клейма их подданных. Мы не будем враждовать с нашими братьями и сёстрами."
  ek_remove_cyrodiilic_subject_confirm:0 "[ROOT.Char.GetCulture.GetName] будут свободны!"
- ek_remove_cyrodiilic_subject_requirement:0 "[culture|E] вашего [Concept( 'top_liege', 'верховного сюзерена' )|El] [|E] не имеет традиции [GetCultureTradition('tradition_imperial_legacy').GetName|V]"
+ ek_remove_cyrodiilic_subject_requirement:0 "[culture|E] вашего [Concept( 'top_liege', 'верховного сюзерена' )|El] не имеет традиции [GetCultureTradition('tradition_imperial_legacy').GetName|V]"
 
 
  ek_char_interaction.0001.opening:1 "[recipient.Custom2('AppropriateGreeting', actor )]"
