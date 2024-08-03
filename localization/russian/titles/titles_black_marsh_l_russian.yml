@@ -1,5 +1,5 @@
 ﻿l_russian:
- e_starting_title:0 "Стартовый титул"
+ e_starting_title:0 "Стартовый титул" #АХТУНГ! При добавлении или изменении титулов продублировать изменения в localization/replace/russian/rus_team_fixes/titles_adjective/titles_adjective_black_marsh_l_russian.yml
  e_black_marsh:0 "Чернотопье"
  k_arnesia:0 "Арнезия"
  k_arnesia_adj:0 "Арнезийск"

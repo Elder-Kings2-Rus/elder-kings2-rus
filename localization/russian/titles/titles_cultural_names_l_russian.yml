@@ -4,7 +4,7 @@
 #################
 ### High Rock ###
 #################
- cn_hiauroche:0 "Хай-Рок"
+ cn_hiauroche:0 "Хай-Рок" #АХТУНГ! При добавлении или изменении титулов продублировать изменения в localization/replace/russian/rus_team_fixes/titles_adjective/titles_adjective_cultural_names_l_russian.yml
  cn_hiauroche_adj:0 "Хай-Рокск"
  cn_betnikh:0 "Бетник"
  cn_betnikh_adj:0 "Бетникск"
@@ -699,7 +699,7 @@
  cn_drabul:0 "Дра'бул"
  cn_drabul_adj:0 "Дра'булск"
 #Goblin
- cn_vaylewugh:0 "Vaylewugh"
+ cn_vaylewugh:0 "Вейлеву"
 #Cyrodiilic
  cn_pelda_tharn:0 "Пельда-Тарн"
  cn_south_weald:0 "Южный Вельд"
@@ -723,7 +723,7 @@
 #Altmer
  cn_seaside:0 "Приморье"
  cn_ada_mor:0 "Ада-Мор"
- cn_xarxen_mora:0 "Ксарксен Мора"
+ cn_xarxen_mora:0 "Зарксен Мора"
 
 ###############
 ### Elsweyr ###
