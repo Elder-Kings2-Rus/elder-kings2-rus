@@ -1,0 +1,81 @@
+﻿l_russian:
+ ## MISCELLANEOUS
+ e_ghost_sea_adj:0 "Море-призракск"
+ e_reach_adj:0 "Пределск"
+ e_orsinium_adj:0 "Велико-орсиниумск"
+ k_orsinium_adj:0 "Орсиниумск"
+ k_archcanon_almalexia_adj:0 "Альмалексийск"
+ k_archcanon_vivec_adj:0 "Вивекск"
+ k_archcanon_sotha_sil_adj:0 "Сота-силск"
+ d_scaled_court_adj:0 "Чешуйчато-дворск"
+ d_dark_oracle_adj:0 "Тёмно-оракулск"
+ d_padomaic_temple_adj:0 "Падомайск"
+ d_beldama_wyrd_adj:0 "Белдамск"
+ d_blackcaster_adj:0 "Чёрно-заклинательск"
+ # History Titles
+ AKAVIRI_POTENTATE_adj:0 "Акавирск"
+ CYRODIILIC_POTENTATE_adj:0 "Сиродильск"
+ KEEP_GRATEFUL_adj:0 "Крепость-благодарностьск"
+ # Pirates
+ d_brethren_gold_coast_adj:0 "Золото-берегск"
+ d_red_sails_adj:0 "Красно-парусск"
+ d_regal_pirate_adj:0 "Князье-пиратск"
+ d_ghost_fleet_adj:0 "Призрачно-флотск"
+ d_masconian_pirates_adj:0 "Масконианск"
+ d_heartless_horde_adj:0 "Бессердечно-ордск"
+ d_yoku_freeport_adj:0 "Свободно-портск"
+ d_ruddy_fangs_adj:0 "Красно-клыкск"
+ d_bonechime_gang_adj:0 "Косте-гордск"
+ d_topal_corsairs_adj:0 "Топальск"
+ d_ra_ugakta_adj:0 "Ра-угактск" #literally 'angered warriors'
+ d_napere_do_kotu_adj:0 "Мече-искательск" #translation = 'Sword-Seekers' (literally 'finders of the weapon's edge')
+ d_hiradirge_adj:0 "Хирадиргск"
+ d_padomaic_slavers_adj:0 "Падомайск"
+ d_blue_venom_adj:0 "Голубо-ядск"
+ # Legions
+ d_first_legion_adj:0 "Имперско-гвардейск"
+ # Religious Heads
+ k_council_of_the_eight_adj:0 "Совет-восьмийск"
+ d_imperial_cult_adj:0 "Сиродилск"
+ d_nord_cult_adj:0 "Скайримск"
+ d_breton_cult_adj:0 "Хай-рокск"
+ d_redguard_cult_adj:0 "Хаммерфеллск"
+ d_kothringi_cult_adj:0 "Чернотопьск"
+ d_scions_faith_adj:0 "Кроваво-отпрыскск"
+ d_tonal_architects_adj:0 "Тонально-архитекторск"
+ # Holy Orders
+ d_order_of_the_eight_adj:0 "Орден-восьмийск"
+ d_order_of_the_hour_adj:0 "Орден-часск"
+ d_dawnguard_adj:0 "Страже-рассветск"
+ d_ordinator_order_of_war_adj:0 "Орден-воинск"
+ d_holy_order_knights_eight_adj:0 "$holy_order_knights_eight_adj$"
+ # Military Orders
+ d_pale_watch_adj:0 "Бледно-дозорск"
+ # Reachmen Tribes
+ ## Regional Formables
+ # High Rock
+ k_rivenspire_adj:0 "Ривенспайрск"
+ # Hammerfell
+ # Summerset
+ # Vvardenfell
+ e_vvardenfell_adj:0 "Вварденфеллск"
+ e_cantemiris_adj:0 "Кантемирийск"
+ ## Great Houses
+ k_indoril_adj:0 "Индорилск"
+ k_redoran_adj:0 "Редоранск"
+ k_dres_adj:0 "Дресск"
+ k_telvanni_adj:0 "Телваннийск"
+ k_hlaalu_adj:0 "Хлаалск"
+ k_dagoth_adj:0 "Даготск"
+ k_sadras_adj:0 "Садрасск"
+ k_sul_adj:0 "Сулск"
+ k_veloth_adj:0 "Велотск"
+ #kingdom_Great_House_Dunmer_adj:0 "Great House" -unnecessary
+ ## Black Marsh
+ ##Cyrodiil
+ k_abbey_eight_adj:0 "Аббатск"
+ d_abbey_shezarr_adj:0 "Аббатск"
+ ##Elsweyr
+ d_mane_adj:0 "Двоелунск"
+ d_new_moon_mane_adj:0 "Двоелунск"
+ d_many_paths_mane_adj:0 "Множество-путьск"
