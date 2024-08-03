@@ -334,7 +334,7 @@ doctrine_sp_heroes_name:0 "Сиродильские герои #italic [secondar
  ## Aspect
  doctrine_main_pantheon_aspect_name:0 "Аспект"
  doctrine_pantheon_no_aspect_name:0 "Аспекта нет"
- monolatric_aspect_devotion_tier_6:0 "\n#weak Этот модификатор уровня даётся потому, что ваш уровень набожности — [GetModifier('piety_level_5' ).GetNameWithTooltip|L] и у вас есть перк Светоч.#!"
+ monolatric_aspect_devotion_tier_6:0 "\n#weak Этот модификатор уровня даётся потому, что ваш уровень набожности — [GetModifier('piety_level_5' ).GetNameWithTooltip|L] и у вас есть достоинство «Светоч».#!"
  # Aspect of Knowledge
  doctrine_pantheon_aspect_knowledge_name:0 "Аспект знаний"
     doctrine_pantheon_aspect_knowledge_desc:0 "Нет ничего более благочестивого, чем постоянный поиск знаний и истины. Мы можем стать ближе к божественному лишь постигая мир."
@@ -758,7 +758,7 @@ doctrine_sp_heroes_name:0 "Сиродильские герои #italic [secondar
     devotion_gives_attraction_opinion_5:0 "$devotion_gives_attraction_opinion$: (5)"
     devotion_gives_attraction_opinion_5_desc:0 "$devotion_gives_attraction_opinion_desc$\n[GetScheme('seduce').GetTypeName], [success_chance|El] #P +20%#!"
     devotion_gives_attraction_opinion_6:0 "$devotion_gives_attraction_opinion$: (6)"
-    devotion_gives_attraction_opinion_6_desc:0 "$devotion_gives_attraction_opinion_desc$\n[GetScheme('seduce').GetTypeName], [success_chance|El] #P +25%#!\n\n#weak Этот модификатор уровня даётся потому, что ваш уровень набожности — [GetModifier( 'piety_level_5' ).GetNameWithTooltip|L] и у вас есть перк Светоч.#!"
+    devotion_gives_attraction_opinion_6_desc:0 "$devotion_gives_attraction_opinion_desc$\n[GetScheme('seduce').GetTypeName], [success_chance|El] #P +25%#!\n\n#weak Этот модификатор уровня даётся потому, что ваш уровень набожности — [GetModifier( 'piety_level_5' ).GetNameWithTooltip|L] и у вас есть достоинство «Светоч».#!"
     SCHEME_SEDUCE_DEVOTION_GIVES_ATTRACTION_OPINION_NEG:0 "$devotion_gives_attraction_opinion$: #N $VALUE|0$#!"
     SCHEME_SEDUCE_DEVOTION_GIVES_ATTRACTION_OPINION_POS:0 "$devotion_gives_attraction_opinion$: #P $VALUE|0$#!"
     # Aspect of the Shadow
@@ -782,7 +782,7 @@ doctrine_sp_heroes_name:0 "Сиродильские герои #italic [secondar
     devotion_gives_hostile_scheme_power_5:0 "$devotion_gives_hostile_scheme_power$: (5)"
     devotion_gives_hostile_scheme_power_5_desc:0 "$devotion_gives_hostile_scheme_power_desc$"
     devotion_gives_hostile_scheme_power_6:0 "$devotion_gives_hostile_scheme_power$: (6)"
-    devotion_gives_hostile_scheme_power_6_desc:0 "$devotion_gives_hostile_scheme_power_desc$\n\n#weak Этот модификатор уровня даётся потому, что ваш уровень набожности — [GetModifier('piety_level_5' ).GetNameWithTooltip|L] и у вас есть перк Светоч.#!"
+    devotion_gives_hostile_scheme_power_6_desc:0 "$devotion_gives_hostile_scheme_power_desc$\n\n#weak Этот модификатор уровня даётся потому, что ваш уровень набожности — [GetModifier('piety_level_5' ).GetNameWithTooltip|L] и у вас есть достоинство «Светоч».#!"
  
    doctrine_parameter_devotion_gives_health_penalty_negation:0 "Каждый уровень [Concept( 'piety_experience', 'набожности' )|E] даёт следующее: #P +0.25#! сопротивления к штрафам к [Concept( 'health', 'здоровью' )|El]."
    devotion_gives_health_penalty_negation:0 "Священный недуг"

@@ -207,7 +207,7 @@
  mercenary_order_forge_article:0 ""
  mercenary_order_forge:0 "Орден кузни"
  mercenary_tusked_raiders_article:0 ""
- mercenary_tusked_raiders:0 "Клыкастые рейдеры"
+ mercenary_tusked_raiders:0 "Клыкастые налётчики"
 
  ###Nedes
  mercenary_band_reachmen_article:0 ""
@@ -217,7 +217,7 @@
 
  ###Misc
  mercenary_knights_raiders_article:0 ""
- mercenary_knights_raiders:0 "Рейдеры из владения [TITLE.GetNameNoTierNoTooltip]"
+ mercenary_knights_raiders:0 "Налётчики из владения [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_host_article:0 ""
  mercenary_knights_host:0 "Хозяева из владения [TITLE.GetNameNoTierNoTooltip]"  
  mercenary_knights_warband_article:0 ""
