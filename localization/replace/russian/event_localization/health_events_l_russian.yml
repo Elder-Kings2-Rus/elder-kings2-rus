@@ -13,13 +13,20 @@
  health.2101.bubonic_plague_spreads.desc:0 "Ещё одна душа стоит у дверей смерти, ужасная засохшая кровь покрывает ноздри [sick_character.GetHerHis]."
  health.2101.imporant.desc:0 "Мой бедный [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sick_character')] [sick_character.GetFirstName] борется за жизнь [sick_character.GetHerHis]."
  
- disease_bubonic_plague:0 "Кнахатенский грипп."
- disease_typhus:0 "Желтая лихорадка."
- disease_pneumonic:0 "Озноб."
- disease_gout_ridden:0 "Рокджойнт."
- disease_consumption:0 "Увядание."
- disease_cancer:0 "Гниль."
- disease_lovers_pox:0 "Щекотун."
+ disease_pneumonic:0 "озноб."
+ disease_gout_ridden:0 "каменная подагра."
+ disease_leper:0 "остракератиновая лихорадка."
+ disease_typhus:0 "атаксия."
+ disease_consumption:0 "увядание."
+ disease_cancer:0 "гниль."
+ disease_lovers_pox:0 "чесотка."
+ disease_early_great_pox:0 "чесотка."
+ disease_great_pox:0 "великая оспа."
+ disease_smallpox:0 "ведьмовская оспа"
+ disease_bubonic_plague:0 "кнахатенский грипп."
+ disease_measles: "зелёная спора."
+ disease_ergotism: "трещотка."
+ disease_dysentery: "каплепад."
 
  health.2201.b:0 "Отправьте за [ek_new_physician.GetFirstNameNoTooltip], немедленно!" # (EK) why is that not active?
 

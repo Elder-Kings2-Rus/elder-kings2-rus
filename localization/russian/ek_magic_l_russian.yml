@@ -143,6 +143,17 @@
  arcana_sign_mage:0 "[GetTrait('sign_mage').GetName(ROOT.Char)]"
  arcana_sign_apprentice:0 "[GetTrait('sign_apprentice').GetName(ROOT.Char)]"
  arcana_sign_atronach:0 "[GetTrait('sign_atronach').GetName(ROOT.Char)]"
+ #Aspect of the stars birthsign enhancer
+ arcana_devotion_gives_star_sign_power_mage_3: "[GetModifier('devotion_gives_star_sign_power_mage_3').GetName]"
+ arcana_devotion_gives_star_sign_power_mage_4: "[GetModifier('devotion_gives_star_sign_power_mage_4').GetName]"
+ arcana_devotion_gives_star_sign_power_mage_5: "[GetModifier('devotion_gives_star_sign_power_mage_5').GetName]"
+ arcana_devotion_gives_star_sign_power_mage_6: "[GetModifier('devotion_gives_star_sign_power_mage_6').GetName]"
+ arcana_devotion_gives_star_sign_power_apprentice_4: "[GetModifier('devotion_gives_star_sign_power_apprentice_4').GetName]"
+ arcana_devotion_gives_star_sign_power_apprentice_5: "[GetModifier('devotion_gives_star_sign_power_apprentice_5').GetName]"
+ arcana_devotion_gives_star_sign_power_apprentice_6: "[GetModifier('devotion_gives_star_sign_power_apprentice_6').GetName]"
+ arcana_devotion_gives_star_sign_power_atronach_4: "[GetModifier('devotion_gives_star_sign_power_atronach_4').GetName]"
+ arcana_devotion_gives_star_sign_power_atronach_5: "[GetModifier('devotion_gives_star_sign_power_atronach_5').GetName]"
+ arcana_devotion_gives_star_sign_power_atronach_6: "[GetModifier('devotion_gives_star_sign_power_atronach_6').GetName]"
  #legacies
  arcana_magicka_legacy_1:0 "[GetDynastyPerk('magicka_legacy_1').GetName]"
  # Court

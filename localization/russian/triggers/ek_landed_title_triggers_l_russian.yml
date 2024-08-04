@@ -5,5 +5,5 @@
 
  MAGOCRATIC_CLAIMANT_IS_DISRUPTED:1 "[CHARACTER.GetShortUIName] – [GetTrait('disrupted').GetName( GetNullCharacter )] или [GetTrait('arcana_bad_3').GetName( GetNullCharacter )]"
  
- form_cyrodiil_lifetime_potentate:0 "Прежде чем провозгласить себя Императором, вы должны найти способ стать вечным Потентатом."
+ form_cyrodiil_lifetime_potentate:0 "Вы должны стать пожизненным потентатом, выполнив все задания Совета старейшин, или же быть потентатом, который победил мятежника Аттребуса Сосильдора, прежде чем сможете провозгласить себя императором."
  form_cyrodiil_legitimacy: "Ваш [legitimacy_level|El] должен быть выше 4. Или в ваших жилах должна течь драконья кровь."
