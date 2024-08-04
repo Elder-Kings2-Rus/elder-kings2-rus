@@ -24,6 +24,7 @@
  is_argonian_or_sithis:0 "[faith|E] владельца должна иметь [pantheon|El] [GetFaithDoctrine('doctrine_pantheon_sithis').GetBaseName] или принадлежать к #V $heritage_argonian_name$ому#! [Concept('heritage', 'наследию')|E]"
  is_cantemiric:0 "Владелец должен принадлежать к #V $cantemiric_collective_noun$ой#! #italic или#! происходящей от неё [Concept('culture', 'культуре')|E]."
  is_khajiiti:0 "Владелец должен иметь #V $heritage_khajiiti_name$ое#! [heritage|El]"
+ holy_site_or_moon_worship:0 "[faith|E] владельца должна считать это [Concept( 'holy_site', 'священным местом' )|E] или иметь догмат [GetFaithDoctrine('tenet_moon_worship').GetBaseName]"
 
  is_upgraded_over_time:0 "Это [building|El] будет расти со временем и не может быть улучшено обычными способами"
  has_reached_last_stage:0 "Это [building|El] достигло своей последней стадии и больше не будет расти."
@@ -1151,7 +1152,9 @@
  building_type_grand_cathedral_01_desc:0 "Грандиозный собор, построенный в честь Божественного. По всему зданию возведены небольшие святилища, а центральный колодец используется для проведения божественных ритуалов и очищения любого паломника, посещающего собор."
  building_grand_cathedral_01:0 "$building_type_grand_cathedral_01$"
  building_grand_cathedral_01_desc:0 "$building_type_grand_cathedral_01_desc$"
- holy_site_building_university_visit:0 "Может быть использования для занятия «[GetActivityType('activity_adult_education').GetName]»"
+ holy_site_building_university_visit:0 "[SelectLocalization( HasDlcFeature( 'wards_and_wardens' ), 'university_visit_dlc_yes', 'university_visit_dlc_no' )]"
+ university_visit_dlc_yes:0 "Может быть использовано для занятия «[GetActivityType('activity_adult_education').GetName]»"
+ university_visit_dlc_no:0 ""
  
  building_type_daedric_shrine_01:0 "Даэдрическое святилище"
  building_type_daedric_shrine_01_desc:0 "Великое святилище, посвящённое #LORE [Concept( 'compendium_daedric_princes', 'даэдрическим князьям' )|E]#!.\n\nЖертвоприношения во имя #LORE [Concept( 'compendium_daedra', 'даэдра' )|E]#! проводятся почти каждый день, и кажется, что ужасающие силы Обливиона просачиваются из этого места."
@@ -1173,7 +1176,7 @@
  building_type_generic_holy_site_01_desc:0 "Это место имеет особое значение для той или иной веры, и её приверженцы могут освятить здесь священное место, которое будет служить местом поклонения."
  building_generic_holy_site_01:0 "$building_type_generic_holy_site_01$"
  building_generic_holy_site_01_desc:0 "$building_type_generic_holy_site_01_desc$"
- generic_holy_site_01_flip:0 "Это здание представляет собой любой тип [Concept( 'special_building', 'особого здания' )|E] [Concept( 'holy_site', 'священного места' )|E], и по завершении строительства будет заменено на соответствующее [Concept( 'faith', 'конфессии' )|E] владельца.\n\nМожет быть использовано для занятия «[GetActivityType('activity_adult_education').GetName].»"
+ generic_holy_site_01_flip:0 "Это здание представляет собой любой тип [Concept( 'special_building', 'особого здания' )|E] [Concept( 'holy_site', 'священного места' )|E], и по завершении строительства будет заменено на соответствующее [Concept( 'faith', 'конфессии' )|E] владельца.\n\n$holy_site_building_university_visit$»"
  
  ### Hist Trees
  building_type_hist_01:0 "Дерево хист"
