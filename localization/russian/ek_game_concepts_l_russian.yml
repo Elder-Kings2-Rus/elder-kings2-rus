@@ -142,7 +142,7 @@
 
  game_concept_hist_communion:0 "Общение с хистом"
  game_concept_hist_communions:0 "Общения с хистами"
- game_concept_hist_communion_desc:0 "Персонажи с [Concept('faith', 'конфессией')|E] [GetFaithDoctrine('doctrine_pantheon_hist').GetBaseName] могут выбрать [Concept('activity', 'занятие')|E], чтобы отправиться на ритуал $game_concept_hist_communions$ во [hist_holding|El].\n\nДостигнув места назначения, персонажи получат [piety|El] и другие награды, например мощные благословения, в зависимости от догматов своей конфессии."
+ game_concept_hist_communion_desc:0 "Персонажи с [Concept('faith', 'конфессией')|E] [GetFaithDoctrine('doctrine_pantheon_hist').GetBaseName] и $heritage_argonian_name$им [Concept( 'heritage', 'наследием' )|E] могут выбрать [Concept('activity', 'занятие')|E], чтобы отправиться на ритуал $game_concept_hist_communions$ во [hist_holding|El].\n\nДостигнув места назначения, персонажи получат [piety|El] и другие награды, например мощные благословения, в зависимости от догматов своей конфессии."
 
  game_concept_autocracy:0 "Автократия"
  game_concept_autocracy_government:0 "Автократическое правительство"
