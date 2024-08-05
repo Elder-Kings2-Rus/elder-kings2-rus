@@ -36,9 +36,9 @@
  became_adopted_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'была удочерена', 'был усыновлён' )] персонажем [new_parent.GetTitledFirstName] и теперь является частью [new_parent.GetHerHis] семьи"
 
  adopted_child_memory:0 "Приёмный ребёнок"
- adopted_child_memory_desc:0 "Я [Select_CString(ROOT.GetCharacter.IsFemale, 'приняла', 'принял' )] ребёнка по имени [child.GetTitledFirstName] в свою семью. Теперь это [Select_CString(child.IsFemale, 'моя', 'мой' )] [child.Custom('GetDaughterSon')]"
- adopted_child_memory_desc_second_perspective:1 "вы приняли ребёнка по имени [child.GetTitledFirstName] в свою семью. Теперь это [Select_CString(child.IsFemale, 'моя', 'мой' )] [child.Custom('GetDaughterSon')]"
- adopted_child_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'приняла', 'принял' )] ребёнка по имени [child.GetTitledFirstName] в свою семью. Теперь это [Select_CString(owner.IsFemale, 'её', 'его' )] [child.Custom('GetDaughterSon')]"
+ adopted_child_memory_desc:0 "Я [Select_CString(ROOT.GetCharacter.IsFemale, 'приняла', 'принял' )] персонажа [child.GetTitledFirstName] в свою семью. Теперь это [Select_CString(child.IsFemale, 'моя', 'мой' )] [child.Custom('GetDaughterSon')]"
+ adopted_child_memory_desc_second_perspective:1 "вы приняли персонажа [child.GetTitledFirstName] в свою семью. Теперь это [Select_CString(child.IsFemale, 'ваша', 'ваш' )] [child.Custom('GetDaughterSon')]"
+ adopted_child_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'приняла', 'принял' )] персонажа [child.GetTitledFirstName] в свою семью. Теперь это [Select_CString(owner.IsFemale, 'её', 'его' )] [child.Custom('GetDaughterSon')]"
 
  hist_blessing_memory:0 "Получено благословение Хиста"
  hist_blessing_memory_desc:0 "Я [Select_CString(ROOT.GetCharacter.IsFemale, 'получила', 'получил' )] могущественное благословение, проводя [GetActivityType('activity_hist_communion').GetName]"

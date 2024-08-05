@@ -69,16 +69,16 @@
  dres_argonian_war_cb_claim_dres:0 "Савор использует поддержку своих союзников по войне, чтобы объявить себя правителем Дома Дрес"
  
  IMPRISON_MAGE_CB_NAME:1 "Задержать опасного мага"
- IMPRISON_MAGE_WAR_NAME:2 "Задержать мага по имени [DEFENDER.GetShortUIName] за [defender.GetHerHis] злоупотребление магией"
+ IMPRISON_MAGE_WAR_NAME:2 "Задержать персонажа [DEFENDER.GetShortUIName] за [defender.GetHerHis] злоупотребление магией"
  IMPRISON_MAGE_WAR_NAME_BASE:0 "[attacker.GetShortUIName] заключит в тюрьму мага по имени [defender.GetShortUIName]"
- imprison_mage_war_victory_desc:0 "[attacker.GetShortUIName|U] заключит в тюрьму мага по имени [defender.GetShortUIName|U] и затем может решить, как поступить с [defender.GetHerHis] магическими проступками."
+ imprison_mage_war_victory_desc:0 "[attacker.GetShortUIName|U] заключит в тюрьму персонажа [defender.GetShortUIName|U] и затем может решить, как поступить с [defender.GetHerHis] магическими проступками."
  imprison_mage_war_white_peace_desc:0 "[defender.GetShortUIName|U] останется на свободе, но будет заключено перемирие, условия которого предотвратят дальнейшее злоупотребление магией на некоторое время."
- imprison_mage_war_defeat_desc:0 "[attacker.GetShortUIName|U] выплатит возмещение магу по имени [defender.GetShortUIName|U], а также никакое использование магии не будет ограничено."
+ imprison_mage_war_defeat_desc:0 "[attacker.GetShortUIName|U] выплатит возмещение персонажу [defender.GetShortUIName|U], а также никакое использование магии не будет ограничено."
 
  PUNISH_RAIDER_CB_NAME:1 "Наказать налётчика"
- PUNISH_RAIDER_WAR_NAME:2 "Взыскать возмещение с персонажа по имени [DEFENDER.GetShortUIName] за налёты."
- PUNISH_RAIDER_WAR_NAME_BASE:0 "[attacker.GetShortUIName] взыщет возмещение с персонажа по имени [defender.GetShortUIName]"
- punish_raider_war_victory_desc:0 "[defender.GetShortUIName|U] выплатит возмещение персонажу по имени [attacker.GetShortUIName]. Все [prisoners|El] и подневольные [concubines|El], считавшиеся близкими для персонажа [attacker.GetShortUIName] и содержавшиеся при дворе персонажа [defender.GetShortUIName|U], освобождаются." 
+ PUNISH_RAIDER_WAR_NAME:2 "Взыскать возмещение с персонажа [DEFENDER.GetShortUIName] за налёты."
+ PUNISH_RAIDER_WAR_NAME_BASE:0 "[attacker.GetShortUIName] взыщет возмещение с персонажа [defender.GetShortUIName]"
+ punish_raider_war_victory_desc:0 "[defender.GetShortUIName|U] выплатит возмещение персонажу [attacker.GetShortUIName]. Все [prisoners|El] и подневольные [concubines|El], считавшиеся близкими для персонажа [attacker.GetShortUIName] и содержавшиеся при дворе персонажа [defender.GetShortUIName|U], освобождаются." 
  punish_raider_war_white_peace_desc:0 "Никакого возмещения не будет выплачено. Потенциальные [prisoners|El] и подневольные [concubines|El] останутся при дворе персонажа [defender.GetShortUIName|U]."
  punish_raider_war_defeat_desc:0 "[attacker.GetShortUIName|U] выплатит дополнительную дань персонажу [defender.GetShortUIName|U]. Потенциальные [prisoners|El] и подневольные [concubines|El] останутся при дворе персонажа [defender.GetShortUIName|U]."
 
