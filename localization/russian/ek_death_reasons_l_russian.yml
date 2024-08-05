@@ -101,7 +101,7 @@
  death_harpy:0 "[Select_CString(CHARACTER.IsFemale, 'была разорвана', 'был разорван' )] когтями гарпии"
  death_mudcrab:0 "[Select_CString(CHARACTER.IsFemale, 'была защипана', 'был защипан' )] до смерти грязекрабом"
  death_thief:0 "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )], сопротивляясь ограблению"
- death_thief_killer:0 "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] персонажем по имени [TARGET_CHARACTER.GetUIName], сопротивляясь ограблению"
+ death_thief_killer:0 "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] персонажем [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'им персонажем', '' )], сопротивляясь ограблению"
  death_undead:0 "[Select_CString(CHARACTER.IsFemale, 'была разорвана', 'был разорван' )] в клочья нежитью"
  death_gryphon:0 "[Select_CString(CHARACTER.IsFemale, 'была разорвана', 'был разорван' )] на куски грифоном"
  death_pale_man:0 "[Select_CString(CHARACTER.IsFemale, 'была похищена', 'был похищен' )] Бледным Гигантом"
