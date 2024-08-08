@@ -815,7 +815,7 @@
  nick_the_gullible:0 "[Select_CString(CHARACTER.IsFemale, 'Наивная', 'Наивный')]"
  nick_the_damned:0 "[Select_CString(CHARACTER.IsFemale, 'Ненавистная', 'Ненавистный')]"
  nick_the_untrusted:0 "[Select_CString(CHARACTER.IsFemale, 'Скользкая', 'Скользкий')]"
- nick_the_lowblood:0 "[Select_CString(CHARACTER.IsFemale, 'Недостойная', 'Недостойная')]"
+ nick_the_lowblood:0 "[Select_CString(CHARACTER.IsFemale, 'Недостойная', 'Недостойный')]"
  nick_twist_foot:0 "[Select_CString(CHARACTER.IsFemale, 'Кривоногая', 'Кривоногий')]"
  nick_the_misbegotten:0 "[Select_CString(CHARACTER.IsFemale, 'Презренная', 'Презренный')]"
  nick_the_stutter:0 "Заика"
