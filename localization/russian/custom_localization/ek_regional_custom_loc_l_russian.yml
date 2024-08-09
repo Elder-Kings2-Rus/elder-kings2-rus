@@ -1,11 +1,11 @@
 ﻿l_russian:
  #TerrainType
- terrain_ashlands:0 "эшленд"
- terrain_volcanic:0 "вулканический эшленд"
- terrain_mangrove_forest:0 "мангровые леса"
+ terrain_ashlands:0 "пепельные земли"
+ terrain_volcanic:0 "вулканические пепельные земли"
+ terrain_mangrove_forest:0 "мангровый лес"
  terrain_wasteland:0 "пустошь"
  terrain_tundra:0 "тундра"
- terrain_black_marsh:0 "чёрные болота"
+ terrain_black_marsh:0 "чернотопье"
  terrain_valenwood:0 "валенвуд"
  terrain_valenwood_hills:0 "валенвудские холмы"
  terrain_taiga_hills:0 "таёжные холмы"
@@ -13,17 +13,17 @@
  terrain_missing:0 "МЕСТНОСТЬ НЕИЗВЕСТНА"
  
  #RandomEntertainmentText
- random_entertainment_text_mystery_of_talara:0 "Тайны Талары"
- random_entertainment_text_forest_dark:0 "Тёмный Лес"
- random_entertainment_text_hypothetical_treachery:0 "Гипотетическое предательство"
+ random_entertainment_text_mystery_of_talara:0 "Тайна Талары"
+ random_entertainment_text_forest_dark:0 "Тёмный лес"
+ random_entertainment_text_hypothetical_treachery:0 "Предполагаемое коварство"
  random_entertainment_text_bankers_bet:0 "Ставка Банкира"
- random_entertainment_text_scared_little_snow_moth:0 "Испуганный снежный мотылек"
+ random_entertainment_text_scared_little_snow_moth:0 "Пугливая Снежная Бабочка"
  random_entertainment_text_blue_book_of_riddles:0 "Синяя книга Загадок"
  random_entertainment_text_rear_guard:0 "Арьергард"
  random_entertainment_text_palla:0 "Палла"
- random_entertainment_text_deathbrand:0 "Клеймо Смерти"
+ random_entertainment_text_deathbrand:0 "Печать Смерти"
  random_entertainment_text_beggar:0 "Нищий"
- random_entertainment_text_aoml:0 "Броня из Мифов и Легенд"
+ random_entertainment_text_aoml:0 "Броня из мифов и легенд"
  random_entertainment_text_2920:0 "2920, последний год #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#!"
 
  #RandomReligiousText
