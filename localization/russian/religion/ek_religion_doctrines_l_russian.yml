@@ -157,7 +157,7 @@
     doctrine_parameter_pantheon_adds_deity_zenithar:0 "Адепты могут принять Зенитара как своего [Concept( 'patron', 'покровителя' )|E] и получить свойство [GetTrait('p_dv_zenithar').GetName( GetNullCharacter )]"
  doctrine_sp_redguard_name:0 "Редгардский пантеон: #italic [secondary|El]#!"
     doctrine_sp_redguard_desc:0 "Некоторые редгарды считают своих йокуданских богов равными людским богам Тамриэля. Такой компромисс действительно способствует нашему единению с Божественным."
-    doctrine_parameter_redguard_pantheon_syncretism:0 "Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -15#! с [Concept('faiths', 'конфессиями')|E], у которых имеется доктрина [Concept('pantheon', 'пантеона')|E]  [GetFaithDoctrine('doctrine_pantheon_redguard').GetBaseName]"
+    doctrine_parameter_redguard_pantheon_syncretism:0 "Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -15#! с [Concept('faiths', 'конфессиями')|E], у которых имеется доктрина [Concept('pantheon', 'пантеона')|E] [GetFaithDoctrine('doctrine_pantheon_redguard').GetBaseName]"
     doctrine_sp_redguard_akatosh_name:0 "Акатош"
     doctrine_sp_redguard_tuwhacca_name:0 "Ту'вакка"
     doctrine_parameter_pantheon_adds_deity_tuwhacca:0 "Адепты могут принять Ту'вакку как своего [Concept( 'patron', 'покровителя' )|E] и получить свойство [GetTrait('p_yp_tuwhacca').GetName( GetNullCharacter )]"
@@ -1211,8 +1211,8 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     doctrine_parameter_can_marry_lovers_active:0 "Только [lovers|El] или [soulmates|El] могут [marry|El]. Женатые персонажи, которые перестают быть любовниками или родственными душами, будут вынуждены [Concept( 'divorce', 'развестись' )|E]."
  
  ### Crimes
- doctrine_parameter_witchcraft_crime_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых Ведовство [GetFaithDoctrine('doctrine_witchcraft_accepted').GetBaseName] на #N +5#!"
- doctrine_parameter_witchcraft_accepted_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых Ведовство [GetFaithDoctrine('doctrine_witchcraft_crime').GetBaseName] на #N +5#!"
+ doctrine_parameter_witchcraft_crime_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых ведовство – [GetFaithDoctrine('doctrine_witchcraft_accepted').GetBaseName], на #N +5#!"
+ doctrine_parameter_witchcraft_accepted_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых ведовство – [GetFaithDoctrine('doctrine_witchcraft_crime').GetBaseName], на #N +5#!"
 
  doctrine_adultery_name:0 "Измены"
  doctrine_adultery_crime_name:0 "Преступление"
@@ -1229,7 +1229,7 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     doctrine_parameter_undeath_criminal:0 "Персонажи со [Concept( 'trait', 'свойством' )|E] [GetTrait('undead_character').GetName( GetPlayer )] или [GetTrait('lich_character').GetName( GetPlayer )] — [criminals|El]"
     doctrine_parameter_cleanse_abominations_undead_rulers:0 "[rulers|E] могут использовать [Concept( 'cleanse_abomination_war', 'войну для уничтожения мерзостей' )|E] против правителей-нежити"
     doctrine_parameter_cleanse_abominations_necromancers_rulers:0 "[rulers|E] могут использовать [Concept( 'cleanse_abomination_war', 'войну для уничтожения мерзостей' )|E] против правителей-некромантов"
-    doctrine_parameter_necromancy_outlawed_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых Некромантия [GetFaithDoctrine('doctrine_necromancy_accepted').GetBaseName] на #N +5#!"
+    doctrine_parameter_necromancy_outlawed_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых некромантия – [GetFaithDoctrine('doctrine_necromancy_accepted').GetBaseName], на #N +5#!"
  doctrine_necromancy_pragmatic_name:0 "Остережение"
     doctrine_necromancy_pragmatic_desc:0 "Следует избегать тех, кто добровольно нарушает баланс жизни и смерти, чтобы навредить другим."
     doctrine_parameter_necromancy_shunned:0 "Персонажи со [Concept( 'trait', 'свойством' )|E] [GetTrait('necromancer').GetName( GetPlayer )] — [shunned|El]"
@@ -1238,7 +1238,7 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     doctrine_necromancy_accepted_desc:0 "Мастерское овладевание циклом жизни и смерти должно рассматриваться как великое достижение и немалая победа, а не как преступление."
     doctrine_parameter_necromancy_accepted:0 "Персонажи, имеющие [trait|El] [GetTrait('necromancer').GetName( GetPlayer )], принимаются обществом"
     doctrine_parameter_undeath_accepted:0 "Персонажи, имеющие [trait|El] [GetTrait('undead_character').GetName( GetPlayer )] или [GetTrait('lich_character').GetName( GetPlayer )], принимаются обществом"
-    doctrine_parameter_necromancy_accepted_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых Некромантия [GetFaithDoctrine('doctrine_necromancy_outlawed').GetBaseName] на #N +5#!"
+    doctrine_parameter_necromancy_accepted_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых некромантия – [GetFaithDoctrine('doctrine_necromancy_outlawed').GetBaseName], на #N +5#!"
     doctrine_parameter_anti_undeath_gods_blocker:0 "Удаляет Аркея и Заркса из вашего [Concept( 'pantheon', 'пантеона' )|E]"
     faith_conversion_cost_necromancy:0 "Обращение в [Concept( 'faith', 'конфессию' )|E], для которой некромантия приемлема"
     
@@ -1247,14 +1247,14 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     doctrine_lycanthropy_outlawed_desc:0 "Зверолюди — это оскорбление природы и угроза обществу. Нельзя допустить, чтобы они угрожали нашему существованию."
     doctrine_parameter_lycanthropy_criminal:0 "Все персонажи со [Concept( 'trait', 'свойством' )|E] [GetTrait('lycan_character').GetName( GetPlayer )] — [criminals|El]"
     doctrine_parameter_cleanse_abominations_lycanthropes_rulers:0 "[rulers|E] могут использовать [Concept( 'cleanse_abomination_war', 'войну для уничтожения мерзостей' )|E] против правителей-ликантропов"
-    doctrine_parameter_lycanthropy_outlawed_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых Ликантропия [GetFaithDoctrine('doctrine_lycanthropy_accepted').GetBaseName] на #N +5#!"
+    doctrine_parameter_lycanthropy_outlawed_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых ликантропия – [GetFaithDoctrine('doctrine_lycanthropy_accepted').GetBaseName], на #N +5#!"
  doctrine_lycanthropy_pragmatic_name:0 "Остережение"
     doctrine_lycanthropy_pragmatic_desc:0 "Хотя ликантропия опасна по своей природе, тех, кто не выбирал быть проклятым, нельзя наказывать за то, что они не могут контролировать."
     doctrine_parameter_lycanthropy_shunned:0 "Персонажи со [Concept( 'trait', 'свойством' )|E] [GetTrait('lycan_character').GetName( GetPlayer )] — [shunned|El]"
  doctrine_lycanthropy_accepted_name:0 "Приемлема"
     doctrine_lycanthropy_accepted_desc:0 "Хотя ликантропы могут считаться опасными, те, кто мастерски овладевает этой силой, должны пользоваться уважением."
     doctrine_parameter_lycanthropy_accepted:0 "Персонажи, имеющие [trait|El] «[GetTrait('lycan_character').GetName( GetPlayer )]», принимаются обществом" 
-    doctrine_parameter_lycanthropy_accepted_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых Ликантропия [GetFaithDoctrine('doctrine_lycanthropy_outlawed').GetBaseName] на #N +5#!"
+    doctrine_parameter_lycanthropy_accepted_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых ликантропия – [GetFaithDoctrine('doctrine_lycanthropy_outlawed').GetBaseName], на #N +5#!"
     faith_conversion_cost_lycan:0 "Обращение в [Concept( 'faith', 'конфессию' )|E], для которой ликантропия приемлема"
    
  doctrine_vampirism_name:0 "Вампиризм"
@@ -1262,14 +1262,14 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     doctrine_vampirism_outlawed_desc:0 "Вампиры — просто звери, которые охотятся на смертных. Мы должны выследить их, прежде чем они смогут выследить нас."
     doctrine_parameter_vampirism_criminal:0 "Все персонажи со [Concept( 'trait', 'свойством' )|E] [GetTrait('vampire_character').GetName( GetPlayer )] — [criminals|El]"
     doctrine_parameter_cleanse_abominations_vampires_rulers:0 "[rulers|E] могут использовать [Concept( 'cleanse_abomination_war', 'войну для уничтожения мерзостей' )|E] против правителей-вампиров"
-    doctrine_parameter_vampirism_outlawed_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых Вампиризм [GetFaithDoctrine('doctrine_vampirism_accepted').GetBaseName] на #N +5#!"
+    doctrine_parameter_vampirism_outlawed_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых вампиризм – [GetFaithDoctrine('doctrine_vampirism_accepted').GetBaseName], на #N +5#!"
  doctrine_vampirism_pragmatic_name:0 "Остережение"
     doctrine_vampirism_pragmatic_desc:0 "Опасность, которую представляют дикие вампиры, не должна заставлять нас охотиться на тех, кто хочет жить в мире."
     doctrine_parameter_vampirism_shunned:0 "Персонажи со [Concept( 'trait', 'свойством' )|E] [GetTrait('vampire_character').GetName( GetPlayer )] — [shunned|El]"
  doctrine_vampirism_accepted_name:0 "Приемлем"
     doctrine_vampirism_accepted_desc:0 "Вампиризм не должен рассматриваться как проклятие, ибо он благословляет нас невероятными силами и способностями."
     doctrine_parameter_vampirism_accepted:0 "Персонажи, имеющие [trait|El] «[GetTrait('vampire_character').GetName( GetPlayer )]», принимаются обществом"
-    doctrine_parameter_vampirism_accepted_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых Вампиризм [GetFaithDoctrine('doctrine_vampirism_outlawed').GetBaseName] на #N +5#!"
+    doctrine_parameter_vampirism_accepted_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых вампиризм – [GetFaithDoctrine('doctrine_vampirism_outlawed').GetBaseName], на #N +5#!"
     faith_conversion_cost_vampire:0 "Обращение в [Concept( 'faith', 'конфессию' )|E], для которой вампиризм приемлем"
     
  ### Sins & Virtues
@@ -1948,12 +1948,12 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
  tenet_vampire_worship_name:0 "Вампирическое благословение"
     tenet_vampire_worship_desc:0 "Благословение вампиризма ставит нас выше остальных смертных. Они — добыча, а мы — охотники."
     VAMPIRISM_MUST_BE_FULLY_ACCEPTED:0 "Несовместимо с любыми [Concept( 'doctrine', 'доктринами' )|E], для которых вампиризм — [shunned|El] или [Concept( 'criminal', 'преступление' )|E]"
-    doctrine_parameter_tenet_vampire_worship_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых Вампиризм [GetFaithDoctrine('doctrine_vampirism_outlawed').GetBaseName] на #N +10#!"
+    doctrine_parameter_tenet_vampire_worship_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых вампиризм – [GetFaithDoctrine('doctrine_vampirism_outlawed').GetBaseName], на #N +10#!"
     
  tenet_lycanthrope_worship_name:0 "Благословение ликантропии"
     tenet_lycanthrope_worship_desc:0 "Мы не должны забывать о своей связи с природой и охотой. Ликантропы — самые лучшие охотники, и они ведут нас за собой."
     LYCANTHROPY_MUST_BE_FULLY_ACCEPTED:0 "Несовместимо с любыми [Concept( 'doctrine', 'доктринами' )|E], для которых ликантропия — [shunned|El] или [Concept( 'criminal', 'преступление' )|E]"
-    doctrine_parameter_tenet_lycanthrope_worship_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых Ликантропия [GetFaithDoctrine('doctrine_lycanthropy_outlawed').GetBaseName] на #N +10#!"
+    doctrine_parameter_tenet_lycanthrope_worship_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых ликантропия – [GetFaithDoctrine('doctrine_lycanthropy_outlawed').GetBaseName], на #N +10#!"
     
  tenet_necromancy_worship_name:0 "Мастерство над не-жизнью"
     tenet_necromancy_worship_desc:0 "Мы были благословлены способностями к некромантии. Эти силы должны считаться священными и частью нашей связи с божественным."
@@ -1961,7 +1961,7 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     doctrine_parameter_lich_ascension:0 "[decision|E] #V 'Стать личем'#! немного менее рискованно"
     doctrine_parameter_lich_trait_arcana:0 "Свойство [GetTrait('lich_character').GetName( GetNullCharacter )|l] даёт [arcana_i][arcana|El]: #P +2#!"
     doctrine_parameter_cheaper_necromancy_spells:0 "Стоимость [Concept( 'spells', 'заклинаний' )|E] некромантии: [magicka_i]#P -10%#!"
-    doctrine_parameter_tenet_necromancy_worship_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых Некромантия [GetFaithDoctrine('doctrine_necromancy_outlawed').GetBaseName] на #N +10#!"
+    doctrine_parameter_tenet_necromancy_worship_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых некромантия – [GetFaithDoctrine('doctrine_necromancy_outlawed').GetBaseName], на #N +10#!"
 
  # Other
  FAITH_MUST_HAVE_PERYITE_PATRON:0 "Ваша [faith|El] должна иметь даэдра [GetFaithDoctrine('doctrine_pantheon_peryite').GetBaseName] в [Concept( 'pantheon', 'пантеоне' )|El]"

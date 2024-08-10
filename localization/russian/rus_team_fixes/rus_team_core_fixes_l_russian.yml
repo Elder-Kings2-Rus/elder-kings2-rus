@@ -230,3 +230,5 @@
  sentient_undead:0 "Разумная нежить"
  aggressive_staff:0 "Агрессивно с посохом"
  celebrate_staff:0 "Торжество с посохом"
+ NOT_IS_A_WITCH: "#bold Не#! [GetTrait('witch').GetName( CHARACTER.Self )]"
+ 
