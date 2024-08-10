@@ -13,7 +13,7 @@
  game_rule_category_ek:0 "Elder Kings"
  game_rule_category_nickname:0 "Прозвища"
 
- rule_ek_knahaten_black_marsh_deadliness: "#EK Elder Kings:#! Смертоносность Кнахатенского гриппа"
+ rule_ek_knahaten_black_marsh_deadliness: "#EK Elder Kings:#! Смертоносность кнахатенского гриппа"
  setting_ek_knahaten_bm_deadly_default: "Историческая"
  setting_ek_knahaten_bm_deadly_default_desc: "Кнахатенский грипп может уничтожить все не-аргонианские графства в Чернотопье, преобразовав их в близлежащие аргонианские культуры. Это может даже привести к тому, что культура станет [Concept('dead_culture', 'мёртвой')|E], если потеряет своё последнее графство."
  setting_ek_knahaten_bm_deadly_no_extinction: "Без вымирания"
