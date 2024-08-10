@@ -210,11 +210,12 @@
  crisis_riekr_faction:0 "Кризис рикров"
  crisis_imga_faction:0 "Кризис имга"
  
- hunt_seek_duneracer_tt:0 "Вы выследите такое животное, как #V $animal_type_duneracer$#!"
+ #hunt_seek_duneracer_tt:0 "Вы выследите такое животное, как #V $animal_type_duneracer$#!"
  animal_type_duneracer:0 "дюноход"
- animal_type_duneracer_plural:0 "дюноходы"
+ #animal_type_duneracer_plural:0 "дюноходы"
  animal_duneracer:0 "дюноход"
  animal_duneracers:0 "дюноходы"
+ animal_dire_wolf:0 "лютый волк" #Мофф, строка имеется только в множественном числе, возможно, и не нужна 
  
  #modifier_ritual_empower_magic:0 "Усиление магов" # Данный ключ добавили в 0.13.2 только в немецкую локу, но не в английскую.
  #modifier_spell_daedric_horde:0 "Орда даэдра"

@@ -2,8 +2,8 @@
 
  #1000: Mark & Recall
 
- ek_intrigue_scheme_ongoing_events.1000.t:0 "Метка и Отзвук"
- ek_intrigue_scheme_ongoing_events.1000.desc.start:0 "Мои планы, целью которых является [target.GetName], несомненно, могли бы выиграть от заклинания «Метка». Наложенное на [defender.Custom('TerrainType')] владения [scheme_location.GetName], оно оставит магический след, по которому мои агенты смогут незаметно проследовать, и тем самым усилит изощренность моих происков.\n\nМои агенты нашли местного мага порталов. [alteration_mage.GetFirstName] в обмен на плату может наложить заклинание Метки."
+ ek_intrigue_scheme_ongoing_events.1000.t:0 "Пометка и Отзвук"
+ ek_intrigue_scheme_ongoing_events.1000.desc.start:0 "Мои планы, целью которых является [target.GetName], несомненно, могли бы выиграть от заклинания «Пометка». Наложенное на [defender.Custom('TerrainType')] владения [scheme_location.GetName], оно оставит магический след, по которому мои агенты смогут незаметно проследовать, и тем самым усилит изощренность моих происков.\n\nМои агенты нашли местного мага порталов. [alteration_mage.GetFirstName] в обмен на плату может наложить заклинание Метки."
  ek_intrigue_scheme_ongoing_events.1000.desc.court_mage_or_self_cast:0 "Впрочем, любой маг, владеющий заклинаниями портала, может выполнить эту задачу."
  ek_intrigue_scheme_ongoing_events.1000.a:0 "Я заплачу [Select_CString(alteration_mage.IsFemale, 'заклинательнице', 'заклинателю' )]."
  ek_intrigue_scheme_ongoing_events.1000.a.success:0 "Маг остаётся незамеченным."
@@ -19,8 +19,8 @@
  ek_intrigue_scheme_ongoing_events.1000.d:0 "Это не стоит затраченных усилий."
 
  #1001: Mark & Recall Detection
- ek_intrigue_scheme_ongoing_events.1001.t:0 "Метка"
- ek_intrigue_scheme_ongoing_events.1001.desc:0 "Мои стражники привели ко мне мага, [Select_CString(alteration_mage.IsFemale, 'которую обнаружили бродящей', 'которого обнаружили бродящим' )] по владению [scheme_location.GetName]. Судя по всему, [alteration_mage.GetName] [Select_CString(alteration_mage.IsFemale, 'получила', 'получил' )] плату за наложение заклинания Метка - якоря для заклинаний телепортации - в моих стены для личностей, которые, как [alteration_mage.GetSheHe] утверждает, были «теневыми агентами».\n\nЭто признание может означать только одно: коварные интриганы наверняка стремятся нанести коварный и тонкий удар по моим подданным или мне [Select_CString(ROOT.Char.IsFemale, 'самой', 'самому' )]. Но в моих силах и возможностях предотвратить этот коварный заговор и наказать его жалких исполнителей до того, как они совершат попытку предательства."
+ ek_intrigue_scheme_ongoing_events.1001.t:0 "Пометка"
+ ek_intrigue_scheme_ongoing_events.1001.desc:0 "Мои стражники привели ко мне мага, [Select_CString(alteration_mage.IsFemale, 'которую обнаружили бродящей', 'которого обнаружили бродящим' )] по владению [scheme_location.GetName]. Судя по всему, [alteration_mage.GetName] [Select_CString(alteration_mage.IsFemale, 'получила', 'получил' )] плату за наложение заклинания Пометка, служащего своеобразным якорем для заклинаний телепортации в мои стены для неких «теневых агентов», как [alteration_mage.GetSheHe] утверждает.\n\nЭто признание может означать только одно: подлые интриганы наверняка стремятся нанести коварный и тонкий удар по моим подданным или мне [Select_CString(ROOT.Char.IsFemale, 'самой', 'самому' )]. Но в моих силах и возможностях предотвратить этот заговор и наказать его жалких исполнителей до того, как они совершат попытку предательства."
  ek_intrigue_scheme_ongoing_events.1001.a:0 "Я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] быть начеку."
  ek_intrigue_scheme_ongoing_events.1001.b:0 "Заключить этого мага в темницу!"
  ek_intrigue_scheme_ongoing_events.1001.c:0 "[ek_intrigue_scheme_ongoing_events_1000_mage.GetSheHe|U] расскажет мне #italic всё#!, что [ek_intrigue_scheme_ongoing_events_1000_mage.GetSheHe] знает..."
