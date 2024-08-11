@@ -229,10 +229,10 @@
  
  # Atmoran Totems
  trait_p_at_hawk:0 "Божество-покровитель - [ROOT.Char.Custom('GetAtHawkName')]"
- trait_p_at_hawk_base:0 "Последователь Сокола"
+ trait_p_at_hawk_base:0 "Последователь Ястреба"
  trait_p_at_hawk_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_hawk_desc' )]"
- trait_p_at_hawk_desc:0 "Последователь Сокола"
- trait_p_at_hawk_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAtHawkName')], благородного Сокола, правящего небесами и летящего с ветром."
+ trait_p_at_hawk_desc:0 "Последователь Ястреба"
+ trait_p_at_hawk_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAtHawkName')], благородного Ястреба, правящего небесами и летящего с ветром."
  ##the noble Hawk, who rules the skies and flies with the wind.
  
  trait_p_at_wolf:0 "Божество-покровитель - Волчица"
@@ -255,10 +255,10 @@
  trait_p_at_moth_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем мудрого Мотылька, помогающего нам ориентироваться в ткани мира."
  
  trait_p_at_owl:0 "Божество-покровитель - [ROOT.Char.Custom('GetAtOwlName')]"
- trait_p_at_owl_base:0 "Последователь Филина"
+ trait_p_at_owl_base:0 "Последователь Совы"
  trait_p_at_owl_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_owl_desc' )]"
- trait_p_at_owl_desc:0 "Последователь Филина"
- trait_p_at_owl_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAtOwlName')], мудрого Филина, оберегающего древние магические искусства."
+ trait_p_at_owl_desc:0 "Последователь Совы"
+ trait_p_at_owl_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAtOwlName')], мудрой Совы, оберегающей древние магические искусства."
  ## is a follower of the wise Owl, who guards the old magical arts.
  
  trait_p_at_whale:0 "Божество-покровитель - [ROOT.Char.Custom('GetAtWhaleName')]"
