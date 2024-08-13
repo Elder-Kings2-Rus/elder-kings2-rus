@@ -608,7 +608,7 @@
 
  ek_health.1001.t:1 "[SCOPE.Custom('EventTitleDisease')]: Проклятие Хирсина"
  ek_health.1001.desc:0 "С тех пор, как я [Select_CString(ROOT.Char.IsFemale, 'столкнулась', 'столкнулся' )] с этим проклятым существом, я чувствую себя [Select_CString(ROOT.Char.IsFemale, 'вялой и сонной', 'вялым и сонным' )]. У меня нет сил ни на что. Я хочу просто лежать в своей кровати целыми днями."
- ek_health.1001.court_physician.desc:0 "\n\n«Ваши симптомы указывают на то, что вы заразились гнойным люпинусом, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetLadyLord]. К счастью, мы обнаружили болезнь достаточно рано и её можно легко вылечить.»"
+ ek_health.1001.court_physician.desc:0 "\n\n«Ваши симптомы указывают на то, что вы заразились саническим люпинусом, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetLadyLord]. К счастью, мы обнаружили болезнь достаточно рано и её можно легко вылечить.»"
  ek_health.1001.a:0 "Я не хочу покидать постель..."
 
  ek_health.1002.t:1 "[SCOPE.Custom('EventTitleDisease')]: Жажда крови"
