@@ -1,14 +1,14 @@
 ﻿l_russian:
  become_pirate_government_decision:0 "Основать пиратское государство"
- become_pirate_government_decision_desc:0 "Многочисленные набеги исходящие от наших портов и богатства полученные таким путём заставили бы всякого правителя задуматься о том, чтобы посвятить себя морям и их сокровищам...\nСможем ли мы отказаться от привычного нам пути и вместо этого стремиться к жизни полной приключений и грабежа?"
+ become_pirate_government_decision_desc:0 "Многочисленные набеги, совершаемые из наших портов, и богатства, полученные таким путём, заставили бы любого правителя задуматься о том, чтобы посвятить себя морям и их сокровищам...\nСможем ли мы отказаться от привычных нам путей и вместо этого стремиться к жизни, полной приключений и грабежей?"
  become_pirate_government_decision_tooltip:0 "Могучий пират способен объединить Абесинское море..."
  become_pirate_government_decision_confirm:0 "Созвать флоты и налётчиков!"
- has_raided_for_two_hundred_gold_ct:0 "Вы получили 200 [gold|E] от налётов"
+ has_raided_for_two_hundred_gold_ct:0 "Вы получили 200 [Concept( 'gold', 'золотых дрейков' )|E] от налётов"
  become_pirate_government_decision_duchy_tier_title_ct:0 "Вы создадите титул герцогского уровня, подберёте имя и собственный флаг, который будет развеваться во время плавания в открытом море"
  become_pirate_government_decision_total_loot_workaround_ct:0 "#N Приведённое ниже количество золота соответствует общей добыче, накопленной за годы налётов.#!"
  
  disorganized_military_reform_military_decision:0 "Реформировать [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|l]ую армию"
- disorganized_military_reform_military_decision_desc:0 "Большинство из нас не верит в элитных солдат и профессиональных войнов, предпочитая использовать людей как пушечное мясо.\n\nНо большинство из нас не знает ничего о войне. Пришло время преобразовать наш способ ведения войны и, наконец, сформировать настоящую армию, способную противостоять остальному Тамриэлю."
+ disorganized_military_reform_military_decision_desc:0 "Большая часть командиров нашего народа не верит в элитных солдат и профессиональных воинов, предпочитая попросту заваливать противников телами.\n\nНо кто из нас хоть что-то смыслит в военном деле? Пришло полностью изменить наши методы ведения войн и, наконец, сформировать настоящую армию, способную противостоять остальному Тамриэлю."
  disorganized_military_reform_military_decision_tooltip:0 "Реформируйте армию и станьте равным великим державам Тамриэля"
  disorganized_military_reform_military_decision_confirm:0 "[ROOT.Char.GetCulture.GetNameNoTooltip] своей мощью будут наводить ужас на Тамриэль!"
  has_military_lifestyle_traits:0 "У вас должно быть по крайней мере #V 2#! из нижеперечисленных [Concept('traits', 'свойств')|E]: [GetTrait('strategist').GetName(GetNullCharacter)], [GetTrait('overseer').GetName(GetNullCharacter)], [GetTrait('gallant').GetName(GetNullCharacter)]"
