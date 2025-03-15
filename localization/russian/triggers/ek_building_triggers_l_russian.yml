@@ -23,12 +23,12 @@
  is_khajiiti:0 "Владелец должен иметь #V $heritage_khajiiti_name$ое#! [heritage|El]"
 
  # Innovations
- innovation_war_magic_replacement_trigger_desc:0 "Has an [innovation|E] that is equivalent to $innovation_war_magic$"
- innovation_magical_studies_replacement_trigger_desc:0 "Has an [innovation|E] that is equivalent to $innovation_magical_studies$"
+ innovation_war_magic_replacement_trigger_desc:0 "Имеет [Concept('innovation', 'инновацию')|E], которая эквивалента $innovation_war_magic$"
+ innovation_magical_studies_replacement_trigger_desc:0 "Имеет [Concept('innovation', 'инновацию')|E], которая эквивалента $innovation_magical_studies$"
 
  # Funeral Doctrines
  burial_funeral_building_trigger_desc:0 "Конфессия владельца должна иметь [Concept( 'doctrine', 'доктрину' )|E] погребальных традиций, которая использует кладбища."
- green_pact_funeral_building_trigger_desc:0 "[doctrine|E] похорон в конфессии владельца – $doctrine_funeral_green_pact_name$ funeral."
+ green_pact_funeral_building_trigger_desc:0 "[doctrine|E] похорон в конфессии владельца – $doctrine_funeral_green_pact_name$."
  grave_stake_funeral_building_trigger_desc:0 "[doctrine|E] похорон в конфессии владельца – $doctrine_funeral_grave_stake_name$."
 
  # Hist
