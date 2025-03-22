@@ -1,0 +1,16 @@
+﻿l_russian:
+ BattlePoiDate: "Дата: [Province.Custom('OrdinalIndicatorPoI')] of [Province.Custom('MonthBattlePoI')], [Province.MakeScope.Var('battle_poi_date_year').GetValue] г."
+
+ MonthBattlePoIJanuary: "утренней звезды"
+ MonthBattlePoIFebruary: "восхода солнца"
+ MonthBattlePoIMarch: "первого зерна"
+ MonthBattlePoIApril: "руки дождя"
+ MonthBattlePoIMay: "второго зерна"
+ MonthBattlePoIJune: "середины года"
+ MonthBattlePoIJuly: "высокого солнца"
+ MonthBattlePoIAugust: "последнего зерна"
+ MonthBattlePoISeptember: "огня очага"
+ MonthBattlePoIOctober: "начала морозов"
+ MonthBattlePoINovember: "заката солнца"
+ MonthBattlePoIDecember: "вечерней звезды"
+ 

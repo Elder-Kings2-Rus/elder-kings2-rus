@@ -1,5 +1,5 @@
 ﻿l_russian:
- raiding.0011.desc_sacred_raids:0 "Ваши налётчики вернулись, привезя с собой [ROOT.Var('raid_loot').GetValue|V0] [Concept( 'gold', 'золота' )|E], а также [prestige_i] и [piety_i]."
+ raiding.0011.desc_bountiful_offerings:0 "Ваши налётчики вернулись, привезя с собой [ROOT.Var('raid_loot').GetValue|V0] [Concept( 'gold', 'золота' )|E], а также [prestige_i] и [piety_i]."
  raiding.0011.desc_raider_blood:0 "\nВаша кровь налётчика также влияет и на вашу семью, благодаря чему вы получили [ROOT.Var('bonus_renown').GetValue|0] [dynasty_prestige_i][Concept('dynasty_prestige', 'признания')|E]."
  raiding.0011.desc_loot_and_prisoners:0 "\nТакже между вашими различными графствами было распределено [ROOT.Var('bonus_dev').GetValue|V0] [Concept( 'county_development_growth', 'развития' )|E] ."
  raiding.0011.desc_pacifism:0 "Ваши налётчики вернулись, привезя с собой [ROOT.Var('raid_loot').GetValue|V0] [Concept( 'gold', 'золота' )|E], а также [prestige_i] в качестве добычи. Ваша вера [GetFaithDoctrine('tenet_pacifism').GetBaseName], но вы потеряли [ROOT.Var('raid_loot').GetValue|V0] [Concept( 'piety', 'благочестия' )|E]."

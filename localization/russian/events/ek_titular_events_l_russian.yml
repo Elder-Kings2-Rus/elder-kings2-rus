@@ -35,3 +35,21 @@
  ektitulartitle.1302.a:0 "Пусть их замки сгорят, рухнут и утонут в болоте!"
  ektitulartitle.1302.b:0 "Они действительно чего-то добились?"
  ektitulartitle.1302.c:0 "Новый болотный ханат поднимает голову..."
+ 
+ #Barsaebica
+  ektitulartitle.1401.t: "[barsaebica.GetNameNoTierNoTooltip] Solidifies"
+  ektitulartitle.1401.desc: "A power of eld forms amidst the fens and darkness of Black Marsh, emerging from millennia of struggle and strife.  Order has been brought to this once bleak demesne, this land of numerous divisions. Once more, this region recognizes Barsaebic rule!\n\nFrom Silyanorn to Solhrest, the land has been unified into the new [barsaebica.GetName] under the enlightened reign of [ROOT.Char.GetTitledFirstName]."
+  ektitulartitle.1401.a: "Finally, our people are secure."
+ 
+  ektitulartitle.1402.t: "[barsaebica.GetNameNoTierNoTooltip] Emerges"
+  ektitulartitle.1402.desc: "Early in the #LORE [compendium_first_era]#!, over three millennia ago, the Barsaebic Ayleids first fled to Black Marsh following the #LORE [compendium_narfinsel_schism]#!. Since then they have endured in this inhospitable land.\n\nThere have been many Barsaebic rulers in these lands before, but never have they formed an interconnected realm throughout the fens. Now marks the emergence of the [barsaebica.GetName] under the rule of [founder.GetName], the tamer of large swathes of a land that many have considered untameable."
+  ektitulartitle.1402.a: "A Crown forged in endurance..."
+ 
+ #Nedic Confederation
+  ektitulartitle.1501.t: "An Heir of Durac?"
+  ektitulartitle.1501.desc: "Blood, Flame, Forest, Frost, Shadow, Spirit, Storm and Sun, these were the Nedic Kings who paid homage to Durac before the Fall of Skyreach. Much has been lost to time, but now I have secured the Nedic Confederation and Eight Kingdoms once more answer the call of the [founder.GetTitleTierName]. What limits can my revived realm find?"
+  ektitulartitle.1501.a: "Let us reach for the sky."
+ 
+  ektitulartitle.1502.t: "Reforging of the Nedic Confederation"
+  ektitulartitle.1502.desc: "Not since the #LORE [compendium_ragada]#! incursions and the Fall of Skyreach have the Nedes of Craglorn been able to assert their full sovereignty over the lands of their legendary Eight Nedic Kings. Today [founder.GetTitledFirstName] claims to have asserted they are the true Heir of Durac, having coincidentally secured eight Kingdoms beneath their banner."
+  ektitulartitle.1502.a: "Do we even know which kingdoms swore to Durac?"

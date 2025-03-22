@@ -8,3 +8,5 @@
   SMALL_PRAXIS_INCREASE_EFFECT:0 "Ваш Праксис незначительно увеличится."
   
   consume_interaction_failure.tt:0 "Ритуал заканчивается неудачей"
+  
+  laamp_create_artifact.cc:0 "Вы создаёте артефакт @artifact_icon!"

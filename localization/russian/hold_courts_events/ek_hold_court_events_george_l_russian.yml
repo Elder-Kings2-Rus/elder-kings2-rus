@@ -1,7 +1,0 @@
-﻿#EK EDIT: accounted for new event options with EK court position
-
-l_russian:
-### Events
-## Circus Faction Event
- hold_court.7000.a.speaker:1 "#italic "Попробуйте взглянуть на это с другой стороны..."#"
- hold_court.7000.a.speaker.flavor:1 "Мой глашатай может изложить моё дело, если я того пожелаю"

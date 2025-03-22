@@ -4,7 +4,5 @@
  
  tenet_mystical_birthright_desc:0 "У богов есть план для каждого из нас. И некоторые из нас предназначены для чего-то большего, чем для простой жизни, наш долг - следовать им."
  
- doctrine_parameter_conquest_cb_enabled:0 "Может использовать [Concept('casus_belli', 'казус белли')|E] без требуемых [Concept('innovations', 'инноваций')|E]. Если культура атакующего имеет требуемые [Concept('innovations', 'инновации')|E], для [Concept('casus_belli', 'казус белли')|E] требуется на один [Concept('prestige_level', 'уровень престижа')|E] или [Concept('piety_level', 'уровень благочестия')|E] меньше."
- 
  # these are edited to make their god reference make use of HighGodName instead, because HighGodName won't get fucked by our custom Daedra names
  tenet_polyamory_desc:0 "Наша любовь друг к другу должна быть столь же бескорыстной, как любовь [ROOT.Faith.HighGodNamePossessive] к нам. Отринем же дремучую идею об абсолютной власти одного человека над чувствами другого."
