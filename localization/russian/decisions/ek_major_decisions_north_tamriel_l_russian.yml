@@ -51,8 +51,15 @@
  reform_first_nordic_empire_decision_desc:0 "Давным-давно, в начале #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#!, наши предки завоевали огромные земли в Хай Роке, Морровинде и даже Сиродиле. Они были объединены под властью короля Врагге Одарённого и его преемников.\n\nСиродильцы позже назовут это огромное королевство «Первой нордской империей», хотя мы, норды, помним его просто как Верховное королевство, что расширило свои границы за пределы Скайрима.\n\nСегодня мы можем восстановить эту великую «империю» и вернуть себе власть над северным Тамриэлем."
  reform_first_nordic_empire_decision_tooltip:0 "Давным-давно мы, норды, доминировали на севере Тамриэля — и мы можем вернуть эти времена."
  reform_first_nordic_empire_decision_confirm:0 "Северный Тамриэль снова будет принадлежать нордам!"
- 
- unlocks_hegemony_dynasty_legacy:0 "Вы разблокируете [dynasty_perk|El] 'гегемон', если у вас ещё нет доступа к нему"
+ restore_nordic_empire_decision_effect: "All kingdoms within the [region|E] of [GetGeographicalRegion('mundus_tamriel_nordic_empire').GetName] will become [de_jure|E] vassals of [GetTitleByKey('e_skyrim').GetName]"
+
+ choose_capital_skyrim_decision: "Choose capital of Skyrim"
+ choose_capital_skyrim_decision_desc: "The Kingdom of Skyrim has had many capitals throughout its history, and the time has come for me to choose one."
+ choose_capital_skyrim_decision_confirm: "Choose capital of Skyrim"
+ choose_capital_skyrim_decision_tooltip: "Choose capital of Skyrim"
+ choose_capital_skyrim_decision_effect: "You will be able to choose between the historical capitals of Skyrim and your current capital"
+
+ unlocks_hegemony_dynasty_legacy:0 "Вы разблокируете [dynasty_perk|El] «Гегемон»"
  direnni_hegemony_pt_1_decision:0 "Наследники Гегемонии Диренни"
  direnni_hegemony_pt_1_decision_desc:0 "Хотя времена старой Гегемонии Диренни давно прошли, могущественный правитель, претендующий на происхождение из рода Диренни, может завоевать нужные территории и официально провозгласить возвращение гегемонии.\n\n\nЭтого будет недостаточно, чтобы считаться законными правителями Хай Рока, но это будет началом."
  direnni_hegemony_pt_1_decision_direnni_desc:0 "Мой род раньше владел всем Хай Роком и претендовал на земли даже за его пределами. С тех пор мы были вынуждены отступить в Ада-Мантию, но если я верну себе старые основные земли моих предков, то мир будет вынужден признать наши притязания."
@@ -87,6 +94,12 @@
  form_cantemiris_empire_decision_confirm:0 "Болото и море - едины!"
  form_cantemiris_empire_effect_de_jure_tt:0 "Все королевства в пределах [Concept('region', 'региона')|E] [GetGeographicalRegion('mundus_tamriel_black_marsh_padomaic_marshes').GetName] станут [de_jure|El] вассалами державы [cantemiris.GetNameNoTier]"
  form_cantemiris_empire_effect_de_jure_tt_a:0 "Если [completely_controlled|El], [tearmarsh.GetNameNoTier] также станет [de_jure|El] частью державы [cantemiris.GetNameNoTier]"
+
+ form_barsaebic_empire_decision: "Unite Barsaebics"
+ form_barsaebic_empire_decision_desc: "Constant conflicts are one of the main traits that define our culture. They led to our exile, and when we arrived at our new home, they continued. Now that our people are diminished and all but subjugated, it is clear we need to unite under a strong leader to survive."
+ form_barsaebic_empire_decision_tooltip: "You will create a new [empire|E] for Barsaebics"
+ form_barsaebic_empire_decision_confirm: "Barsaebics will be united!"
+ form_barsaebic_empire_scripted_effect_de_jure_tt: "All kingdoms within the [region|E] of [GetGeographicalRegion('mundus_tamriel_black_marsh_barsaebica').GetName] will become [de_jure|E] vassals of [barsaebica.GetNameNoTier]"
 
  reintegrate_vvardenfell_empire_decision:0 "Реинтегрировать Вварденфелл"
  reintegrate_vvardenfell_empire_decision_desc:0 "Мятежники объявили святую землю Вварденфелла независимой. И теперь они выступают против нашего Храма и наших Домов. Мы должны доказать, что они совершенно неправы, и вернуть то, что принадлежит нам по праву."

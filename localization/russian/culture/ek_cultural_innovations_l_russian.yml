@@ -3,7 +3,7 @@
  unlocks_duchy_offer_vassalization_interaction:0 "Можно использовать [offer_vassalization_interaction|E] на персонажей с рангом - [duke|El]"
  unlocks_kingdom_offer_vassalization_interaction:0 "Можно использовать [offer_vassalization_interaction|E] на персонажей с рангом - [king|El]"
  unlocks_bonus_offer_vassalization_interaction:0 "Увеличивает вероятность того, что персонажи примут [Concept('offer_vassalization_interaction', 'предложение о вассализации')|E]"
- unlock_provincial_governor_contract:0 "Открывает #high $special_contract_provincial_governor_short$#! [feudal_contract|E]"
+ unlock_provincial_governor_contract:0 "Открывает [Concept('vassal_contract','вассальный договор')|E] #high $special_contract_provincial_governor_short$#!"
  ### Empire of Men
  # Military
  innovation_war_magic:0 "Боевая магия"
@@ -48,25 +48,13 @@
  innovation_seat_of_empires_desc:0 "Тамриэль видел множество королевств, которые поднимались и падали на протяжении веков, но Сиродил - это место, где большинство из этих королевств могут претендовать на титул Империи. Алессианская и реманская династии создали одни из величайших царств, которые видел мир, и если кто и сможет окончательно объединить Тамриэль, так это император из Сиродила."
  innovation_moonstone_armor:0 "Доспехи из лунного камня"
  innovation_moonstone_armor_desc:0 "Тщательно охраняемый секрет в сердце Алинора, искусство переработки руды лунного камня для изготовления лёгких, но прочных доспехов позволило создать одни из самых красивых доспехов, которые когда-либо видел Тамриэль."
- innovation_abecean_piratry:0 "Абесинское пиратство"
- innovation_abecean_piratry_desc:0 "Золотой Берег и Абесинский архипелаг использовались пиратами и корсарами на протяжении веков, здесь есть бесчисленное множество укрытий и безопасных мест, готовых к услугам любого отважного моряка. Пообещав безопасный проход и золото, многие из этих корсаров согласились бы предоставить нам свой опыт."
  innovation_blood_price:0 "Кровавая цена"
  innovation_blood_price_desc:0 "Мы не верим в бездумное тюремное заключение. Когда кто-то из ваших сородичей совершает преступление, он должен заплатить кровью. Чем больше преступление, тем больше крови должно быть пролито.\n\n#help Тогда заплатите своей кровью!#!"
  unlocks_blood_price_punishment:0 "Открывает [Concept('interaction', 'взаимодействие')|E] «$extract_blood_price_interaction$» на [Concept('prisoners', 'узников')|E], позволяя ранить их и после этого отпустить."
  innovation_knightly_orders:0 "Рыцарские ордена"
  innovation_knightly_orders_desc:0 "Феодальная структура Хай Рока лучше всего видна на примере рыцарства. С момента освобождения Хай Рока от эльфов Диренни престижные рыцари считаются героями простого народа, и каждый ребенок мечтает о том, что однажды его сюзерен посвятит его в рыцари."
- innovation_ashlander_customs:0 "Обычаи эшлендеров"
- innovation_ashlander_customs_desc:0 "Эшлендерские ханы обеспечивают верность клятвами, милостью и дарами. В связи с этим соплеменники проявляют #italic некоторую#! снисходительность."
- innovation_skald_tradition:0 "Традиции скальдов"
- innovation_skald_tradition_desc:0 "Наши мифы, история и верования эхом разносятся по всей земле благодаря голосу и письму скальдов."
  unlocks_high_diplomacy_gives_poet:0 "Персонаж с высоким уровнем [Concept('diplomacy', 'дипломатии')|E] может стать #L [GetTrait('poet').GetName(GetNullCharacter)]ом#!"
  unlocks_poet_guests:0 "Некоторые [Concept('guests', 'гости')|E] могут прибыть ко двору в роли #L [GetTrait('poet').GetName(GetNullCharacter)]а#!"
- innovation_rite_of_theft:0 "Обряд воровства"
- innovation_rite_of_theft_desc:0 "Это часть наших традиций - красть друг у друга, а затем требовать благодеяния при возвращении предмета. В этом участвуют все, даже те, кто находится вне влияния И'ффре, или те, кто уже пал."
- innovation_clan_mothers:0 "Матери клана"
- innovation_clan_mothers_desc:0 "Мы живем нашей верой во всем, что делаем, по наставлению наших любимых матерей клана, которые учат мудрости как в кланах, так и в городах."
- unlocks_clan_mother_interaction:0 "Открывает [interaction|El] #V $make_clan_parent_interaction$#! для пожилых незамужних женщин при вашем [Concept('court', 'дворе')|E], предоставляющее им дополнительные бонусы к [Concept('skill', 'навыкам')|E] в зависимости от [Concept('piety_level', 'уровня набожности')|E]"
- virtues_give_county_opinion:0 "[virtues|E] дают [county_opinion|El]"
  innovation_war_facepaints:0 "Боевая раскраска"
  innovation_war_facepaints_desc:0 "Перед битвой наши воины раскрашивают лицо священными красками и воссоздают традиционные мотивы. Кто-то может отвергнуть это как беспочвенное суеверие, но поле боя не лжет."
  characters_war_gear_facepaint:0 "Персонажи в военном снаряжении получат боевые раскраски на лицо"
@@ -123,7 +111,7 @@
  # Military
  innovation_magical_studies:0 "Кодифицированные магические исследования"
  innovation_magical_studies_desc:0 "После основания Гильдии магов в 2Э 230 магические знания стали более доступными. Мы можем последовать этой модели и организовать систему образования для наших наиболее перспективных магических талантов."
- education_magical_ability_available_1:0 "Дети, воспитанные персонажем со [Concept('trait', 'свойством')|E] #V «$trait_arcana_good$»#! получают [trait|El] #V «$trait_education_magical_ability$»#!, позволяющее творить [Concept('spells', 'заклинания')|E] и [Concept('rituals', 'ритуалы')|E]"
+ education_magic_available_1:0 "Дети, воспитанные персонажем со [Concept('trait', 'свойством')|E] #V «$trait_arcana_good$»#! получают [trait|El] #V «$trait_education_magic$»#!, позволяющее творить [Concept('spells', 'заклинания')|E] и [Concept('rituals', 'ритуалы')|E]"
  unlock_early_medieval_academy_buildings:0 "Открывает все [buildings|El] эпохи Раннего Междуцарствия"
  unlocks_arcane_clash_tournament_phase:0 "Разблокирует этап турнира «Магическое столкновение»"
  # Civic
@@ -134,7 +122,7 @@
  # Military
  innovation_schools_of_magic:0 "Школы магии"
  innovation_schools_of_magic_desc:0 "Большинство эффектов магии можно разделить на несколько "Школ", таких как Восстановление, Разрушение или Колдовство. Следование этим школам позволит нам обучать новых магов в почти беспрецедентном темпе и даст им возможность гораздо глубже понять свою силу."
- education_magical_ability_available_2:0 "Дети, воспитанные персонажем со [Concept('trait', 'свойством')|E] #V «$trait_arcana_good$»#! или [Concept('trait', 'свойством')|E] #V «$trait_education_magical_ability$»#! получают [trait|El] #V «$trait_education_magical_ability$»#!, позволяющее творить заклинания и ритуалы"
+ education_magic_available_2:0 "Дети, воспитанные персонажем со [Concept('trait', 'свойством')|E] #V «$trait_arcana_good$»#! или [Concept('trait', 'свойством')|E] #V «$trait_education_magic$»#! получают [trait|El] #V «$trait_education_magic$»#!, позволяющее творить заклинания и ритуалы"
  unlock_high_medieval_academy_buildings:0 "Открывает все академические [Concept( 'buildings', 'здания' )|E] эпохи Времени Претендентов"
  innovation_restoration_squads:0 "Восстановительные отряды"
  innovation_restoration_squads_desc:0 "Хотя просьба оставить некоторых магов вне поля боя может показаться неинтуитивной, маги Восстановления, занимающиеся уходом за ранеными в армейских лагерях, гарантируют, что солдаты, которые в противном случае были бы слишком ранены, чтобы сражаться, смогут получить необходимую помощь."
@@ -151,7 +139,7 @@
  innovation_lost_arcane_arts:0 "Утраченные магические искусства"
  innovation_lost_arcane_arts_desc:0 "На протяжении веков многие древние магические искусства были утеряны и забыты. Хотя не каждый маг может или должен быть мастером ауромантии, магии плоти или магии крови, важно, чтобы основы были сохранены и изучены."
  innovation_horse_armor:0 "Конные доспехи"
- innovation_horse_armor_desc:0 "Потому что вы не можете позволить себе не защитить свою лошадь."
+ innovation_horse_armor_desc:0 "Тамриэль - опасное место. Защитите свою лошадь от опасности с помощью этой красивой и прочной брони. Ведь вы не можете позволить себе не защищать своего коня."
  # Civic
  innovation_census_and_excise:0 "Перепись населения и акцизов"
  innovation_census_and_excise_desc:0 "По мере роста населения гегемоний и империй Тамриэля растет и потребность в офисе, занимающемся точным подсчетом граждан и жителей.\n\n#I Примечание: ежемесячный рост контроля изменяется на +0.1 и не на +0.#!"
@@ -161,7 +149,7 @@
  unlocks_empire_conquest_cb_mmr:0 "Открывает [casus_belli|El] #V Завоевание верховного королевства#! для персонажей с [Concept('prestige_level', 'уровнем репутации')|E] равным или превосходящим [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L] #weak (следует механике - [might_makes_right|El])#!"
  
  ### Special
- nativity_region_hack_tooltip_desc:0 "Эту инновацию нельзя исследовать, как и другие. Триггер ниже приведен только для того, чтобы показать вам масштабы родных регионов."
+ nativity_region_hack_tooltip_desc:0 "Эту инновацию нельзя исследовать, как и другие. [nativity_regions|E] приобретаются путём отделения или гибридизации вашей культуры, а этом случае вы получите регион вашей [Concept('realm_capital', 'столицы')|E].\n\nИспользуйте режим карты коренных регионов, чтобы увидеть их протяжённость."
  # EK TODO: Give the regions some better description, as it's kinda boring atm
  faster_culture_convert_region:0 "Как [Concept('natives', 'коренные жители')|E] провинции, эта культура имеет значительно увеличенную скорость преобразования культуры"
  ## Nativity

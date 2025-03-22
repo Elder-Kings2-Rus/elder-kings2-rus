@@ -5,7 +5,8 @@
  
  multiple_courtiers_gained_magical_2_trait_desc:0 "[courtier_1.GetShortUIName], [courtier_2.GetShortUIName], и [THIS.Var('num_other_relevant_courtiers').GetValue|V0] другие придворные получают [trait|El] [GetTrait('magical_court_2').GetName( GetNullCharacter )]"
  multiple_courtiers_gained_magical_1_trait_desc:0 "[courtier_1.GetShortUIName], [courtier_2.GetShortUIName], и [THIS.Var('num_other_relevant_courtiers').GetValue|V0] другие придворные получают [trait|El] [GetTrait('magical_court_1').GetName( GetNullCharacter )]"
- 
- arcane_court_more_magicka_regen_desc:0 "#P +25%#! к генерации [Concept('magicka', 'маны')|E]"
- arcane_court_more_max_magicka_desc:0 "#P +25%#! к максимальной [Concept('magicka', 'мане')|E]"
+
+
+ arcane_court_more_max_magicka_magicka_regen_desc:0 "#P +25%#! к максимальной [Concept('magicka', 'мане')|E]\n$EFFECT_LIST_BULLET$#P +25%#! к регенерации [Concept('magicka', 'маны')|E]"
+ arcane_court_magic_education_desc:0 "[wards|E] in this [court|E] will receive a #V $trait_education_magic$#! [trait|E]"
  arcane_court_more_ritual_desc:0 "#P +1#! слот для ритуалов"

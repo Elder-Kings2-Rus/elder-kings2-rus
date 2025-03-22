@@ -1,0 +1,11 @@
+﻿l_russian:
+ treasure_hunting_contract_decision_option_search_cyrodiil: "[GetGeographicalRegion('mundus_tamriel_cyrodiil').GetNameNoTooltip]"
+ treasure_hunting_contract_decision_option_search_high_rock: "[GetGeographicalRegion('mundus_tamriel_high_rock').GetNameNoTooltip]"
+ treasure_hunting_contract_decision_option_search_hammerfell: "[GetGeographicalRegion('mundus_tamriel_hammerfell').GetNameNoTooltip]"
+ treasure_hunting_contract_decision_option_search_skyrim: "[GetGeographicalRegion('mundus_tamriel_skyrim').GetNameNoTooltip]"
+ treasure_hunting_contract_decision_option_search_elsweyr: "[GetGeographicalRegion('mundus_tamriel_elsweyr').GetNameNoTooltip]"
+ treasure_hunting_contract_decision_option_search_black_marsh: "[GetGeographicalRegion('mundus_tamriel_black_marsh').GetNameNoTooltip]"
+ treasure_hunting_contract_decision_option_search_valenwood: "[GetGeographicalRegion('mundus_tamriel_valenwood').GetNameNoTooltip]"
+ treasure_hunting_contract_decision_option_search_summerset: "[GetGeographicalRegion('mundus_tamriel_summerset_isles').GetNameNoTooltip]"
+ treasure_hunting_contract_decision_option_search_morrowind: "[GetGeographicalRegion('mundus_tamriel_morrowind').GetNameNoTooltip]"
+ treasure_hunting_contract_decision_option_search_yokuda: "[GetGeographicalRegion('mundus_tamriel_yokuda').GetNameNoTooltip]"

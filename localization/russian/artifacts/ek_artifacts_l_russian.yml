@@ -15,3 +15,22 @@
  feature_longbow_wood_ruby_ash:0 "$feature_bow_wood_ruby_ash$"
  feature_longbow_wood_bone:0 "$feature_bow_wood_bone$"
  feature_longbow_wood_hickory:0 "$feature_bow_wood_hickory$"
+
+ feature_book_title_magic: "Книга «О магии» [Artifact.GetOwner.Custom('ArtifactPrefixGenericAfterCreation')|U]"
+ feature_book_title_magic_destruction: "Книга «Заклинания разрушения» $artifact_name_prefix_artifact_scope$"
+ feature_book_topic_magic_destruction: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]ая книга, в которой таится сила такой сферы, как [Artifact.GetFeatureText( 'book_subject' )]. Здесь [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] описаны и даны иллюстрации заклинаний и ритуалов для наведения вреда."
+ feature_book_title_magic_alteration: "Книга «Заклинания изменения» $artifact_name_prefix_artifact_scope$"
+ feature_book_topic_magic_alteration: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]ая книга, в которой таится сила такой сферы, как [Artifact.GetFeatureText( 'book_subject' )]. Здесь [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] описаны и даны иллюстрации заклинаний и ритуалов для изменения реальности."
+ feature_book_title_magic_conjuration: "Книга «Заклинания школы колдовства» $artifact_name_prefix_artifact_scope$"
+ feature_book_topic_magic_conjuration: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]ая книга, в которой таится сила такой сферы, как [Artifact.GetFeatureText( 'book_subject' )]. Здесь [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] описаны и даны иллюстрации заклинаний и ритуалов для призыва даэдрических созданий."
+ feature_book_title_magic_illusion: "Книга «Заклинания иллюзии» $artifact_name_prefix_artifact_scope$"
+ feature_book_topic_magic_illusion: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]ая книга, в которой таится сила такой сферы, как [Artifact.GetFeatureText( 'book_subject' )]. Здесь [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] описаны и даны иллюстрации заклинаний и ритуалов контроля над разумом и восприятием."
+ feature_book_title_magic_restoration: "Книга «Заклинания школы восстановления» $artifact_name_prefix_artifact_scope$"
+ feature_book_topic_magic_restoration: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]ая книга, в которой таится сила такой сферы, как [Artifact.GetFeatureText( 'book_subject' )]. Здесь [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] описаны и даны иллюстрации заклинаний и ритуалов исцеления и укрепления."
+
+ feature_book_title_dark_arts: "Книга «О тёмных искусствах» [Artifact.GetOwner.Custom('ArtifactPrefixGenericAfterCreation')|U]"
+ feature_book_title_dark_arts_necromancy: "Книга «Заклинания некромантии» $artifact_name_prefix_artifact_scope$"
+ feature_book_topic_dark_arts_necromancy: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]ая книга, хранящая тёмную и опасную силу. Здесь [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] описаны и даны иллюстрации заклинаний, позволяющих воскрешать мёртвых и связывать их души."
+
+ feature_book_subject_magic:0 "магия"
+ feature_book_subject_dark_arts:0 "тёмные искусства"

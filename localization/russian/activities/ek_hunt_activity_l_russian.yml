@@ -19,5 +19,9 @@
  hunt_seek_rabbit_tt:0 "Вы пойдете по следу, и целью будет #V $animal_type_rabbit$#!:\n$hunt_animal_safety_safest$\n$hunt_animal_prestige_lowest$"
  hunt_seek_scrib_tt:0 "Вы пойдете по следу, и целью будетn #V $animal_type_scrib$#!:\n$hunt_animal_safety_safest$\n$hunt_animal_prestige_lowest$"
 
- activity_hunt_province_desc_predator_mesa_major:0 "#P +++ $building_type_predator_mesa_01$#! ([building|E])\n"
- hunt_success_chance.predator_mesa_01:0 "$building_type_predator_mesa_01$ [building|E]"
+ activity_hunt_province_desc_predator_mesa_major:0 "#P +++ $building_type_predator_mesa_01$#! ([Concept('building', 'здание')|E])\n"
+ activity_hunt_province_desc_potentate_retreat_major:0 "#P +++ $building_type_potentate_retreat_01$#! ([Concept('building', 'здание')|E])\n"
+ activity_hunt_province_desc_weatherleah_hunting_lodge_major:0 "#P +++ $building_type_weatherleah_hunting_lodge_01$#! ([Concept('building', 'здание')|E])\n"
+ hunt_success_chance.predator_mesa_01:0 "[Concept('building', 'Здание')|E] «$building_type_predator_mesa_01$»"
+ hunt_success_chance.potentate_retreat_01:0 "[Concept('building', 'Здание')|E] «$building_type_potentate_retreat_01$»"
+ hunt_success_chance.weatherleah_hunting_lodge_01:0 "[Concept('building', 'Здание')|E] «$building_type_weatherleah_hunting_lodge_01$»"

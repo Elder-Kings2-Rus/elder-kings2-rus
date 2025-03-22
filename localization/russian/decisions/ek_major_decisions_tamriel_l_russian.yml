@@ -63,10 +63,10 @@
  attrebus_secure_heartlands_decision_tooltip:0 "Обезопасить Хартленд для Совета Старейшин"
  attrebus_secure_heartlands_decision_confirm:0 "Хартленд наш!"
  attrebus_secure_heartlands_decision_vassal_heartlands_positive_opinion:0 "Каждый прямой вассал в Хартленде имеет #P положительное#! мнение о вас"
- attrebus_secure_heartlands_decision_full_control_imperial_isle:0 "Каждое графство на Имперском острове должно иметь максимальный уровень [Concept( 'control', 'контроля' )|E]"
+ attrebus_secure_heartlands_decision_full_control_imperial_isle:0 "Каждое графство на Имперском острове должно иметь уровень [Concept( 'control', 'контроля' )|E] 90 или выше"
  attrebus_secure_heartlands_desc:0 "Хартленд будет в безопасности, а Совет Старейшин успокоится, поскольку их палаты станут недосягаемы для любого захватчика."
  attrebus_potentate_required_task_3_fulfilled_desc:0 "Вы #P выполнили#! третью [Concept( 'required_task', 'требуемую задачу' )|E], [required_task_3|E]"
- attrebus_potentate_ec_control_heartlands_desc:0 "Совет Старейшин удержит весь Хартленд под контролем, когда они будут править Имперским островом."
+ attrebus_potentate_ec_control_heartlands_desc:0 "Совет старейшин удержит весь Хартленд под контролем, когда они будут править Имперским островом."
  
  attrebus_a_militant_faith_decision:0 "Воинствующая вера"
  attrebus_a_militant_faith_decision_desc:0 "На протяжении веков наша конфессия, [ROOT.Char.GetFaith.GetAdjective], сосуществовала с различными мелкими культами и другими религиями. Хотя большинство наших верующих гордятся этим, некоторые представители духовенства указывают на то, что в грядущие времена наша конфессия должна быть сильной. Хотя я не принадлежу к духовенству, я знаю, что многие последуют моему примеру..."
@@ -80,24 +80,6 @@
  potentate_control_heartlands_decision_tooltip:0 "Наш народ найдет свой дом в сердце Империи!"
  potentate_control_heartlands_decision_effect:0 "Наша [culture|El] станет [Concept( 'native', 'коренной' )|E] для региона [GetGeographicalRegion('mundus_tamriel_cyrodiil_heartlands').GetName]"
  potentate_control_heartlands_decision_confirm:0 "Новый дом!"
- 
- destroy_bridges_leyawiin_decision:0 "Разрушить мосты Лейавина"
- destroy_bridges_leyawiin_decision_desc_vassal:0 "Мосты Лейавина позволяют тому, кто владеет городом, разрешать или же блокировать проход любому кораблю через Топальскую бухту в Румаре. Дабы берега Румаре свободно процветали и благоденствовали, не завися от прихотей владельца города, мосты должны быть разрушены."
- destroy_bridges_leyawiin_decision_desc_direct:0 "Мосты Лейавина позволяют тому, кто владеет городом, разрешать или же блокировать проход любому кораблю через Топальскую бухту в Румаре.\nХотя это предоставляет немало благ для Лейавина, возможно, было бы полезно добровольно разрушить эти мосты."
- destroy_bridges_leyawiin_decision_disables_bridges_leyawiin_01_ct:0 "Здание $building_type_bridges_leyawiin_01$ будет отключено, а его эффекты перестанут действовать"
- destroy_bridges_leyawiin_decision_enables_buildings_imperial_isle_ct:0 "Здания $building_type_imperial_city_harbor_01$ и $building_type_port_hestra_01$ будут вновь введены в эксплуатацию"
- destroy_bridges_leyawiin_decision_enables_port_buildings_rumare_ct:0 "Линейка зданий торговый порт вновь станет доступной для строительства в прибрежных графствах вдоль Румаре"
- repair_destroy_bridges_leyawiin_wait_a_month_ct:0 "#weak Должен пройти месяц, чтобы последствия этого решения стали действовать#!"
- destroy_bridges_leyawiin_decision_confirm: "Уничтожить мосты!"
- destroy_bridges_leyawiin_decision_tooltip: "Господство Лейавина над торговлей в Румаре неприемлемо."
- 
- repair_bridges_leyawiin_decision:0 "Починить мосты Лейавина"
- repair_bridges_leyawiin_decision_desc:0 "Процветание Лейавина связано с его великими мостами, которые позволяют городу взимать пошлину с любого торгового судна, желающего проплыть через Румаре из Топальской бухты. Однако эти мосты были разрушены много лет назад, так что настало время восстановить их ради процветания города."
- repair_bridges_leyawiin_decision_enables_bridges_leyawiin_01_ct:0 "Здание $building_type_bridges_leyawiin_01$ будет вновь введено в эксплуатацию"
- repair_bridges_leyawiin_decision_disables_buildings_imperial_isle_ct:0 "Здания $building_type_imperial_city_harbor_01$ и $building_type_port_hestra_01$ будут отключены, а их эффекты перестанут действовать"
- repair_bridges_leyawiin_decision_disables_port_buildings_rumare_ct:0 "Линейка зданий торговый порт станет недоступной для строительства в прибрежных графствах вдоль Румаре"
- repair_bridges_leyawiin_decision_confirm: "Восстановить мосты!"
- repair_bridges_leyawiin_decision_tooltip: "Лейавин снова будет контролировать Нибен."
  
  ### Orsinium
  create_orsinium_decision:0 "Восстановить Орсиниум"
@@ -136,7 +118,7 @@
  reintegrate_orsinium_decision_confirm:0 "Орсиниума больше нет!"
  reintegrate_orsinium_decision_cd:0 "Вы контролируете столичное [duchy|El] Орсиниума"
  no_orsimer_king_vassal_cd:0 "Орсиниум не принадлежит вассалу-орсимеру"
- mountain_orc_regains_pariah_status:0 "[mountain_orc.GetName]ая культура вернёт статус [Concept( 'pariah', 'отверженных' )|E] и они вновь получат [Concept( 'innovation', 'инновацию' )|E] #V Отверженный народ#!"
+ orsinium_culture_regains_pariah_status:0 "#L [regained_pariah_culture.GetCollectiveNoun]ая#! культура вернёт статус [Concept( 'pariah', 'отверженных' )|E] и они вновь получат [Concept( 'innovation', 'инновацию' )|E] #V Отверженный народ#!"
  
  ### Nibenay
  establish_new_nibenay_kingdom_decision:0 "Основать новое королевство в Восточном Нибенее"
@@ -189,3 +171,10 @@
  establish_lingua_tamrielis_decision_confirm:0 "[ROOT.Char.GetCulture.GetNameNoTooltip] царствуют безраздельно!"
  every_county_your_culture_gets_modifier:0 "Каждое [county|El], как в вашем королевстве, так и за его пределами, что придерживается вашей культуры"
  completely_controls_two_empires_ct:0 "Вы имеете [Concept( 'completely_control', 'полный контроль' )|E] над двумя [Concept( 'empires', 'империями' )|E] с [de_jure|El] землёй"
+
+ ###Nedic Confederation
+ restore_nedic_kingdom_decision: "Unite Nedes"
+ restore_nedic_kingdom_decision_desc: "Before the Ra Gada came, our people were united in a loose confederation of tribes, swearing fealty to the High King in Skyreach. Although it is a distant memory for our people, I could claim to be an heir of that realm by returning our ancient lands."
+ restore_nedic_kingdom_decision_tooltip: "You will create a new [empire|E] for Nedic people"
+ restore_nedic_kingdom_decision_confirm: "Never again shall we be subjugated!"
+ form_nedic_kingdom_scripted_effect_de_jure_tt: "All kingdoms within the [region|E] of [GetGeographicalRegion('ek_nedic_kingdom_region').GetName] will become [de_jure|E] vassals of [nedic_confederation.GetNameNoTier]"

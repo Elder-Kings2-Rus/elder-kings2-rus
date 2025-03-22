@@ -1,13 +1,23 @@
 ﻿l_russian:
+ # Destroy the Bridges of Leyawiin
+ destroy_bridges_leyawiin_decision:0 "Разрушить мосты Лейавина"
+ destroy_bridges_leyawiin_decision_desc_vassal:0 "Мосты Лейавина позволяют тому, кто владеет городом, разрешать или же блокировать проход любому кораблю через Топальскую бухту в Румаре. Дабы берега Румаре свободно процветали и благоденствовали, не завися от прихотей владельца города, мосты должны быть разрушены."
+ destroy_bridges_leyawiin_decision_desc_direct:0 "The Bridges of Leyawiin give us complete control over all ships attempting to cross from Topal Bay into Lake Rumare. While this dominance has certainly strengthened Leyawiin, it's also weakening Cyrodiil's economy and stirring up conflicts with our neighbors. It may ultimately be in our best interest to consider dismantling the bridges ourselves."
+ destroy_bridges_leyawiin_decision_enables_buildings_imperial_isle_ct:0 "Здания [GetBuilding('imperial_city_harbor_01').GetName] и [GetBuilding('port_hestra_01').GetName] будут вновь введены в эксплуатацию"
+ destroy_bridges_leyawiin_decision_enables_port_buildings_rumare_ct:0 "Линейка зданий торговый порт вновь станет доступной для строительства в прибрежных графствах вдоль Румаре"
+ destroy_bridges_leyawiin_decision_control.tt:0 "The [control|E] in Leyawiin has to be 75 or higher."
+ destroy_bridges_leyawiin_decision_confirm: "Destroy the bridges!"
+ destroy_bridges_leyawiin_decision_tooltip: "The stranglehold Leyawiin has over trade in the Rumare is unacceptable."
 
  # Summon Thurvokun
- summon_thurvokun_decision:0 "Воскрешение Турвокуна"
+ summon_thurvokun_decision:0 "Воскресить Турвокуна"
  summon_thurvokun_decision_desc:0 "Настало время заполучить самое большое сокровище, спрятанное в глубинах Логова Клыка: кости некогда могущественного дракона Турвокуна.\n\nМогущественный некромант может подчинить их себе, если обладает достаточной магией."
+ summon_thurvokun_decision_effect:0 "Thurvokun will raise from the dead and join your forces."
  summon_thurvokun_decision_tooltip:0 "Дракон зашевелился, пусть восстанет под моим командованием."
  summon_thurvokun_decision_confirm:0 "Подготовить ритуал!"
- cannot_summon_dragons:0 "Вы не можете использовать [decision|El] #V «Призвать дракона»#!"
+ cannot_summon_thurvokun:0 "Your faith forbids you to use the #V 'Raise Thurvokun'#! [decision|E]"
 
- # Summon hollow
+ # Summon the Hollow
  summon_hollow_decision:0 "Призвать Полых"
  summon_hollow_decision_desc:0 "Война началась, и настало время воззвать к трону Лесных королей. Благодаря его силе Полые готовы сражаться под нашим командованием."
  summon_hollow_decision_tooltip:0 "Положиться на помощь Полых в текущей войне."
@@ -50,7 +60,65 @@
  defile_deep_graves_decision_tooltip:0 "Болото разверзнется и извергнет сотни восставших воинов, чтобы укрепить наши ряды."
  defile_deep_graves_decision_confirm:0 "Вырвать эти могильные столбы!"
 
+ # Convert Chapel of Zenithar
  turn_zenithar_ch_khajiit_decision:0 "Переделать часовню Зенитара"
  turn_zenithar_ch_khajiit_decision_desc:0 "Часовня Зенитара - это великий храм, посвящённый чуждому нам богу. Но при наличии достаточных ресурсов мы могли бы превратить его в место поклонения Двум Лунам."
  turn_zenithar_ch_khajiit_decision_tooltip:0 "Переделанная часовня Зенитара"
  turn_zenithar_ch_khajiit_decision_confirm:0 "Славьтесь, Джоун и Джоуд!"
+
+ # Defile Bone Orchard
+ defile_bone_orchard_decision:0 "Defile the Barrowbough"
+ defile_bone_orchard_decision_desc:0 "The Barrowbough has stood as a silent sentinel over this hill since time immemorial. To have one's bones buried here, after the body is honored by the Green Pact, is a great honor. As a result, the hill has grown, just like the tree atop it. It is now filled with countless bones, which can be forced to walk and fight once more - if only the tree's protection is broken."
+ defile_bone_orchard_decision_tooltip:0 "The roots are torn asunder, compelled to relinquish the bones they have safeguarded for ages."
+ defile_bone_orchard_decision_confirm:0 "Unearth the dead!"
+
+ # Awake Earth Bone
+ awake_earth_bone_decision:0 "Awake Earth Bone"
+ awake_earth_bone_decision_desc:0 "With the Barrowbough firmly under my dominion, the time has come to claim that which has long been concealed: the bones of an ancient Ehlnofey.\n\nThough buried deep beneath the roots, their very essence still reverberates through the land. With sufficient magicka, I shall harness that power and bend it to my will."
+ awake_earth_bone_decision_effect:0 "A giant being of terrible strength will be brought under your control."
+ awake_earth_bone_decision_tooltip:0 "Let an ancient Ehlnofey awake under your command."
+ awake_earth_bone_decision_confirm:0 "Prepare the Ritual!"
+ cannot_summon_earth_bone:0 "Your faith forbids you to use the  #V 'Awake Earth Bone'#! [decision|E]"
+
+ # Defile Heart of Valenwood
+ defile_heart_of_valenwood_decision:0 "Defile the Heart of Valenwood"
+ defile_heart_of_valenwood_decision_desc:0 "The seals, once foolishly erected to contain the true power of the Heart of Valenwood, have been broken. This relic of the Dawn Era, a metaphor made manifest, holds potential that is both mysterious and incomprehensible to most. However, I understand its significance: changing the heart means to change the forest itself. And I intend to change it for my needs."
+ defile_heart_of_valenwood_decision_effect:0 "This decision may have serious consequences for all of Valenwood"
+ defile_heart_of_valenwood_decision_tooltip:0 "The tree will be filled with dark magic until it's very essence is altered."
+ defile_heart_of_valenwood_decision_confirm:0 "Let the Forest be at my command!"
+
+ # Defile Treehenge Resting Place
+ defile_treehenge_resting_place_decision:0 "Defile Treehenge Resting Place"
+ defile_treehenge_resting_place_decision_desc:0 "The Green Ladies have lalways protected these lands — ferocious in life, steadfast in death. At the Treehenge Resting Place, their bodies lie buried while their souls roam the woods, bestowing their strength upon worthy Bosmer. But if someone were to seize control of this sacred place, unearth their bodies, and capture their souls, they could wield their immense power. And I have the means to make that happen."
+ defile_treehenge_resting_place_decision_tooltip:0 "The ancient souls of the Green Ladies will be captured and their hatred twisted against their own people."
+ defile_treehenge_resting_place_decision_confirm:0 "Enslave those souls!"
+
+ # Turn Cathedral of the Golden Path into Bosmer temple
+ turn_golden_path_cathedral_decision:0 "Convert Cathedral of the Golden Path"
+ turn_golden_path_cathedral_decision_desc:0 "The Cathedral of the Golden Path is dedicated to gods foreign to our lands, its towering stone walls daring to overshadow the nearby trees. It is time to reclaim this place and transform it into a space of worship for our own people."
+ turn_golden_path_cathedral_decision_tooltip:0 "Convert Cathedral of the Golden Path"
+ turn_golden_path_cathedral_decision_confirm:0 "Gather the Greenspeakers!"
+
+ # Turn Woodheart Sewers into Smuggle Hideout
+ turn_woodheart_pirate_decision:0 "Turn Woodheart Sewers into Smuggle Hideout"
+ turn_woodheart_pirate_decision_desc:0 "The ancient sewers of Woodhearth are a haven for those who see opportunity where others see ruin. Let us claim this forgotten underworld and shape it into a hidden stronghold, where the relentless flow of goods and gold can thrive, far from prying eyes."
+ turn_woodheart_pirate_decision_tooltip:0 "This will increase the profits to be made but comes at a cost of control"
+ turn_woodheart_pirate_decision_confirm:0 "Let's move in the Skooma!"
+
+ # Defile Sancre Tor
+ defile_sancre_tor_decision:0 "Defile Sancre Tor"
+ defile_sancre_tor_decision_desc:0 "Sancre Tor. There is no other place in Cyrodiil with a history like this one. From here, Empires were born — and crumbled into dust.\n\nNow, it is time to turn the tides of fate once more from within these very walls. Treasures lie buried here, ripe for the taking, and those who once guarded them will soon serve my will."
+ defile_sancre_tor_decision_tooltip:0 "Turn this sacred place into an endless source of undead"
+ defile_sancre_tor_decision_confirm:0 "Invade the Crypts!"
+
+ # Defile Great Chapel of Arkay
+ defile_great_chapel_of_arkay_decision:0 "Defile the Great Chapel of Arkay"
+ defile_great_chapel_of_arkay_decision_desc:0 "Arkay - the eternal adversary. His priests remain a relentless thorn, and his rites bar us from the souls we seek. The Chapel at the heart of Cheydinhal stands as a monument to his influence, but the time has come to reveal to all of Tamriel that this god no longer holds the power to shield it from those who wield the true power of necromancy."
+ defile_great_chapel_of_arkay_decision_tooltip:0 "Turn this hallowed sanctuary into a bastion of necromancy"
+ defile_great_chapel_of_arkay_decision_confirm:0 "Desecrate these Altars!"
+
+ # Sanctify Ontus Quarry
+ sanctify_ontus_quarry_decision:0 "Sanctify the Ontus Qarry"
+ sanctify_ontus_quarry_decision_desc:0 "Mining a mountain for its ore is already a sacrilege, yet one that is sadly necessary for our survival. But quarrying stone is vile desecration, stripping the mountain of its sacred flesh. We must destroy the quarry and build a shrine in its place - a symbol of repentance and a vow to take only what we truly need."
+ sanctify_ontus_quarry_decision_tooltip:0 "Destroy the gantrries, burn the tools, tear down every structure!"
+ sanctify_ontus_quarry_decision_confirm:0 "Let the mountain heal"
