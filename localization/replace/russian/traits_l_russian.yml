@@ -30,3 +30,8 @@
  
  trait_order_member_ordinator:0 "Ординатор"
  trait_order_member_character_ordinator_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] служит [ROOT.Char.GetFaith.HighGodName] как Ординатор."
+ 
+ trait_knight_errant: "Странствующий герой"
+ trait_knight_errant_character: "Странствующий герой"
+ trait_knight_errant_desc: "Прославленный герой, этот персонаж защищает слабых, оберегает беззащитных и карает порочных."
+ trait_knight_errant_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] защищает слабых, оберегает беззащитных и карает порочных."

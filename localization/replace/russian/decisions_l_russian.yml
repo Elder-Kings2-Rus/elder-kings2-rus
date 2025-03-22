@@ -22,3 +22,6 @@
  # these are edited to make their god reference make use of HighGodName instead, because HighGodName won't get fucked by our custom Daedra names
  accept_cannibalism_decision_desc:1 "Мы созданы по образу и подобию [ROOT.Char.GetFaith.HighGodPossessive]. Когда мы поглощаем подобие божества, [ROOT.Char.GetFaith.HighGodNameAlternate] становится ближе."
  create_holy_order_decision_desc:0 "#F Воинов-защитников истинной веры не бывает слишком много. [ROOT.Char.GetFaith.HighGodName] оценит моё стремление дать им кров и оружие!#!"
+ 
+  #EK EDIT: replaced clan with autocracy
+  vassals_can_become_administrative: "\nВсе [Concept('feudal','феодальные')|E] или [Concept('autocracy','автократические')|E] [Concept('vassal','вассалы')|E] в пределах вашей [Concept('de_jure','де-юре')|E] [Concept('realm','державы')|E], придерживающиеся вашей [Concept('faith','конфессии')|E], могут изменить свою [Concept('government','форму правления')|E] на [Concept('administrative','бюрократическую')|E] при выполнении одного из следующих условий:"

@@ -1,0 +1,17 @@
+﻿l_russian: 
+ 
+ #EK TODO: give this a writer for review
+ ek_travel_option_events.0001.t: "$adventurers_scout_for_talent_option$: A Shunned Criminal"
+ ek_travel_option_events.0001.intro: "While passing through [location.GetTitle.GetNameNoTier], I come across a [local_character.GetWomanMan] on the road. It doesn’t take long to recognize the signs - cautious glances over the shoulder, fingers instinctively brushing a hidden dagger, and a weight in the eyes that only those on the fringes of society carry. No doubt, this person had a compelling reason to leave [local_character.GetHerHis] people behind. Perhaps [local_character.GetSheHe] could prove a valuable addition to my camp. As I draw closer, I’m met with a [ROOT.Char.Custom2('QuirkAdjectivePosOrNeg', SCOPE.sC('local_character'))] smirk on [local_character.GetHerHis] face.\n\n"
+ ek_travel_option_events.0001.excellent: ""I am a [local_character.GetWomanMan] with outstanding talents." [local_character.GetSheHe|U] states confidently. "And I am willing to offer you my services - for a price, of course.""
+ ek_travel_option_events.0001.good: ""I think I may be valuable to your cause." [local_character.GetSheHe|U] says. "Question is, how much is my service worth to you?""
+ ek_travel_option_events.0001.average: ""It seems like we have a few things in common" [local_character.GetSheHe|U] proclaims. "Maybe it's worth to work together for a while?""
+ ek_travel_option_events.0001.poor: ""Please, I have nowhere else to go." [local_character.GetSheHe|U] begs. "Grant me refuge in your camp.""
+ ek_travel_option_events.0001.a: "Take these coins and prove your worth!"
+ ek_travel_option_events.0001.provisions: "I trust a meal will suffice as payment, won't it?"
+ ek_travel_option_events.0001.b: "I have no need for such a useless [local_character.Custom('InsultNoun')]."
+
+ excellent.skill_tt: "[local_character.GetUINamePossessive] skill is excellent"
+ good.skill_tt: "[local_character.GetUINamePossessive] skill is good"
+ average.skill_tt: "[local_character.GetUINamePossessive] skill is average"
+ poor.skill_tt: "[local_character.GetUINamePossessive] skill is poor"

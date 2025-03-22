@@ -171,7 +171,7 @@
 
  desc_arkay:0 "Бог циклов, особенно циклов рождения и смерти. Он возглавляет похороны и погребальные обряды, а также предвещает смену времен года."
  desc_orkey:0 "Змеиный Бог Мёртвых и Старый Ворчун. Оркей испытывает всех смертных, Он любит затевать ссоры. От змеи никто не может убежать, никто не может обмануть настороженного Оркея."
- desc_tuwhacca:0 "Ту'вакка, Хитрый Бог Мёртвых. Создатель и хранитель Далеких Берегов, он провожает нас к ним, когда мы умираем, и наблюдает за нами до следующего пути к Обходу."
+ desc_tuwhacca:0 "Tu'whacca, the Tricky God, is shepherd to the dead. As custodian of the Far Shores he escorts us to them when we die. Prior to the creation of the Walkabout, he was merely the God of Nobody Really Cares."
  desc_arkay_nede:0 "В легендах рассказывается история некоего торговца, чья жажда тайных знаний привела его к гибели. Однако его поиски не остались без внимания - на смертном одре Матери Дибе-Мара-Кин даровали ему бесконечное время для поиска ответов. В свою очередь, Арк'ей дарует нам смерть, поскольку смерть необходима для жизни, бесконечного цикла."
 
  desc_dibella:0 "Богиня красоты и искусства, одна из самых популярных среди #LORE [Concept( 'compendium_divines', 'Божеств' )|E]#!. Широко распространенные культы посвящены как целительству, так и сексуальному обучению."
@@ -184,11 +184,11 @@
 
  desc_kynareth:0 "Богиня неба, ветра и дождя. Покровительница моряков и путешественников, её часто умилостивляют для получения удачи в жизни."
  desc_kyne:0 "Богиня бури. Вдова #LORE [Concept( 'compendium_shor', 'Шора' )|E]#! и любимая богиня воинов. Её часто называют Матерью людей. Её дочери научили первых нордов использовать ту'ум, так называемый Голос Бури."
- desc_tava:0 "Тава, Владычица Воздуха. Богиня с головой ястреба, она властвует над всем, что связано с небом и морями, кроме Звезд, что ведут редгардов на остров Херн."
+ desc_tava:0 "Tava, the hawkheaded Bird God, holds domain over the wind, weather and skies above, besides the stars. She is patron to sailors and mariners, and led the Warrior Waves to Tamriel upon the loss of Old Yokuda."
  desc_kin_nede:0 "Кин, третья Мать Вокруг-Нас, дарует нам жизнь из воды. С её благословения мы избавлены от страшных штормов, но одарены ветром в парусах."
 
  desc_mara:0 "Богиня любви, сострадания и богатства природы. Является хранительницей брачных церемоний, что соответствует её древнему происхождению как богини плодородия."
- desc_morwha:0 "Морва, Кормящая Богиня, покровительница плодородия и любимая жена Высокого Папы. Изображалась с четырьмя руками и четырьмя грудями, чтобы захватить побольше мужей."
+ desc_morwha:0 "Morwha, the Teat God, is the goddess of fertility and family. While considered the wife of Tall Papa, her four arms forever grasp for more husbands, and four breasts forever nurse more children."
  desc_mara_nede:0 "Мара, вторая Мать Вокруг-Нас, дарует нам жизнь из земли. С её благословения мы возделываем поля, выращивая урожай, и даём жизнь многочисленному потомству."
  god_mara_reach_name:0 "Мара"
  desc_mara_reach:0 "Все живущие находятся под влиянием Прощающей Матери, богини очага и врачевания. Приверженцев Мары можно встретить во всех кланах ричменов, большинство из которых занимается врачеванием, преподаванием или судейством, смягчая - но не устраняя - испытания Хирсина."
@@ -202,12 +202,14 @@
 #  patron_talos_desc:0 "Hero-God of Mankind"
 #  patron_talos_long_desc:0 ""
 
- desc_hoonding:0 "Хундинг, бог, Открывающий Путь. Божественное воплощение Волн Воинов, который ведет нас к победе над неверными. Он воплощался дважды: один раз как Диагна, другой - как Франдар Хандинг."
+ desc_hoonding:0 "HoonDing, the Make Way God and spirit of perseverance. In times of great need he manifests through worldly avatars to Make Way, like the valorous deeds of Diagna and Frandar Hunding during the Exodus."
+ 
+ desc_leki:0 "Leki, God of Aberrant Swordsmanship, is invoked when breaking ties and passing fair judgement. While sword-singers may perfect the Best Known Cuts, the Saint of the Spirit Sword can devise cunning counters to them all."
 
  desc_zenithar:0 "Бог труда, торговли и богатства, к которому обращаются за успехом в деловых начинаниях. Учит процветанию через честный труд, а не через насилие или обман."
  patron_tsun_name:0 "Тсун"
  desc_tsun:0 "Мёртвый Бог испытаний против невзгод. Он умер, защищая #LORE [Concept( 'compendium_shor', 'Шора' )|E]#! от чужеземных богов, и его смерть помнят как появление нынешнего мира."
- desc_zeht:0 "Зет, бог земледелия. Отвергнутый сын Высокого Папы и отвергнутый отец Зекки. Дурная кровь в семье является причиной трудностей с выращиванием пищи."
+ desc_zeht:0 "Zeht, God of agriculture and mathematics. A forsaken son of Tall Papa and forsaking father of the water goddess Zeqqi, this family quarrel is said to be the cause of famine and drought."
  desc_zen_nede:0 "З'ен считается главным из богов у недийцев, что необычно для аэдрических верования. Бог сделок, его главное учение таково: все сделки должны быть честными, все дары должны быть переданы, все долги выплачены, а все обиды отомщены."
 
  desc_shezarr:0 "#LORE [compendium_shezarr]#!, дух человеческих свершений, особенно против альдмерской агрессии. Покровитель Имперских боевых магов, но сейчас менее популярен из-за космополитической природы имперского культа."
@@ -294,6 +296,8 @@
  desc_ch_morihaus:0 "Человек-Бык учит нас смирению, он напоминает нам, что мы должны смирить себя в глазах богов, поскольку наши достижения достигаются по их милости."
  god_ch_reman_name:0 "Реман 'Свет людей'"
  desc_ch_reman:0 "Сын Запада учит нас, что знать своего врага - значит знать себя, приспосабливаться к своему врагу - путь к победе."
+ god_rc_reman_name:0 "Reman"
+ desc_rc_reman:0 "When the Son of the East came to Hammerfell, some expressed shock that the spirit of Hunding did not manifest to Make Way. But all right-thinkers know this is a falsity. Reman himself made our way."
  god_ch_bendu_name:0 "Бенду Оло"
  desc_ch_bendu:0 "Адмирал-Король учит нас, что наш величайший долг - объединить и повести за собой как наших братьев, так и наших врагов, когда нашей земле угрожает опасность."
  god_ch_attrebus_name:0 "Генерал Аттребус"
@@ -399,10 +403,10 @@
  desc_ta_peryite:0 "Поддерживай равновесие, как это делает Надсмотрщик, с помощью единого порядка."
 
  #Satakal Patrons
- desc_diagna:0 "Аватар Хундинга, достигшего постоянства в качестве Бога Клинка, Диагна сыграл важную роль в победе над леворукими эльфами, поскольку он принес орихалковое оружие народу Йокуды для победы в битве."
- desc_onsi:0 "Онси, Сокрушитель - известный бог-воин йокуданский Ра Гада и часть пантеона редгардов. Считается, что Онси научил человечество превращать свои ножи в мечи."
- desc_ruptga:0 "Руптга, чаще называемый Высоким Папой, - главное божество пантеона Йокуды и редгардов. Он был первым богом, который придумал, как пережить Голод Сатакала."
- desc_satakal:0 "Сатакал Кожа Мира - йокуданский бог всего. Движимый непрекращающейся жаждой съесть один мир, чтобы начать другой, Сатакал побудил к рождению духов, способных пережить переход, в частности Руптга, первого, кто научился это делать."
+ desc_diagna:0 "Diagna, God of the Sideways Blade, who made battle to Orcs and brought Orichalc weaponry to Yokuda. Instrumental in Making Way against sinister foes of old, he achieved godhood as an aspect of HoonDing."
+ desc_onsi:0 "Onsi, the Boneshaver, is a warrior god and patron of craftsmen. As the God of Pull Your Knives Like This, he is credited with teaching ancient men the art of swordsmithing, and later various advances in engineering."
+ desc_ruptga:0 "Ruptga, the Tall Papa, is chief to the Yokudan pantheons. By creating the Walkabout he and his fellow gods could survive the cyclical destruction of the world, leaving stars in the sky to lead the way."
+ desc_satakal:0 "Satakal, the Worldskin, is both everything and nothing, Satak and Akel. The hunger of Satakal causes the destruction of the world and creation of the new, a cycle only survived through the Walkabout."
 
  #Tribunal
  desc_vivec:0 "Воин-Поэт всегда олицетворял дух и двойственность народа данмеров, что отражается в его внешности наполовину данмера, наполовину кимера."
@@ -429,7 +433,7 @@
  action_pick_patron_desc:2 "У вас нет покровителя.\n\n#help Ваша [Concept('faith', 'конфессия')|E] имеет покровителей. Каждая черта даёт вам бонус в той или иной форме.#!"
  action_pick_patron_click:0 "#I Нажмите, чтобы просмотреть потенциальных покровителей для вашей веры#!"
 
- within_date:0 "В течение одного месяца со дня призыва принца, известного как [Localize(Concatenate('prince_', '$VALUE|0$'))] #F ([Localize(Concatenate('date_prince_', '$VALUE|0$'))])#!"
+ #within_date:0 "Within one month of [Localize(Concatenate('prince_', '$VALUE|0q$'))]'s summoning day #F ([Localize(Concatenate('date_prince_', '$VALUE|0q$'))])#!"
  #not_within_date:0 "Not within one month of [SCOPE.GetFlagName('prince')]'s summoning day"
 
  prince_1:0 "Азура"

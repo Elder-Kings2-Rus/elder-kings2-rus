@@ -2,3 +2,11 @@
  wet_nurse_court_position: "[SelectLocalization(EqualTo_string(GetPlayer.GetCulture.GetLanguage.GetNameNoTooltip, Localize('language_jel_name')), 'EK_wet_nurse_ARG', 'EK_wet_nurse')]"
  EK_wet_nurse_ARG:0 "Смотрительница яиц"
  EK_wet_nurse:0 "Кормилица"
+ akolouthos_court_position:0 "Великий маршал" #EK EDIT
+ akolouthos_employer_custom_effect_description: "$BULLET$[GetCourtPositionType('bodyguard_court_position').GetName()] со свойством [GetTrait('varangian').GetName( GetNullCharacter )]»: повышение [Concept( 'aptitude', 'пригодности' )|E]\n$BULLET$Больше [Concept( 'courtiers', 'придворных' )|E] получает [Concept( 'traits', 'свойства' )|E] «[GetTrait('varangian').GetName( GetNullCharacter )]» и «[GetTrait('loyal').GetName( GetNullCharacter )]».\n$BULLET$Появится больше легионеров" #EK EDIT: renamed varangians, removed pillaging part 
+ akolouthos_court_position_desc: "$akolouthos_court_position$ командует большей частью имперской армии в соответствии с реманскими традициями и Заветом Драконьего Огня и связан клятвами почётной службы и верности."
+ 
+ court_position_akolouthos_bonus: "[GetCourtPositionType('akolouthos_court_position').GetName()]"
+ 
+ chief_qadi_court_position:0 "Верховный юстициар"
+ chief_qadi_court_position_desc:0 "$chief_qadi_court_position$ – высший судья державы, ответственный за использование божественного закона во время различных споров и юридических вопросов."

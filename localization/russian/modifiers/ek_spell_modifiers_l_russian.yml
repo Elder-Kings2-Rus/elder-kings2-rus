@@ -1,14 +1,14 @@
 ﻿l_russian:
- modifier_spell_fortify_walls_petty:0 "Укреплённые стены #italic ([petty|E]) заклинание#!"
- modifier_spell_fortify_walls_petty_desc:0 "Крепости в этой провинции были укреплены магической защитой, что усложняет любую атаку." #PLACEHOLDER
- modifier_spell_fortify_walls_lesser:0 "Укреплённые стены #italic ([lesser|E]) заклинание#!"
- modifier_spell_fortify_walls_lesser_desc:0 "Крепости в этой провинции были укреплены магической защитой, что усложняет любую атаку." #PLACEHOLDER
- modifier_spell_fortify_walls_common:0 "Укреплённые стены #italic ([common|E]) заклинание#!"
- modifier_spell_fortify_walls_common_desc:0 "Крепости в этой провинции были укреплены магической защитой, что усложняет любую атаку." #PLACEHOLDER
- modifier_spell_fortify_walls_greater:0 "Укреплённые стены #italic ([greater|E]) заклинание#!"
- modifier_spell_fortify_walls_greater_desc:0 "Крепости в этой провинции были укреплены магической защитой, что усложняет любую атаку." #PLACEHOLDER
- modifier_spell_fortify_walls_grand:0 "Укреплённые стены #italic ([grand|E]) заклинание#!"
- modifier_spell_fortify_walls_grand_desc:0 "Крепости в этой провинции были укреплены магической защитой, что усложняет любую атаку." #PLACEHOLDER
+ modifier_spell_fortify_buildings_petty:0 "Укреплённые стены #italic ([petty|E]) заклинание#!"
+ modifier_spell_fortify_buildings_petty_desc:0 "Крепости в этой провинции были укреплены магической защитой, что усложняет любую атаку." #PLACEHOLDER
+ modifier_spell_fortify_buildings_lesser:0 "Укреплённые стены #italic ([lesser|E]) заклинание#!"
+ modifier_spell_fortify_buildings_lesser_desc:0 "Крепости в этой провинции были укреплены магической защитой, что усложняет любую атаку." #PLACEHOLDER
+ modifier_spell_fortify_buildings_common:0 "Укреплённые стены #italic ([common|E]) заклинание#!"
+ modifier_spell_fortify_buildings_common_desc:0 "Крепости в этой провинции были укреплены магической защитой, что усложняет любую атаку." #PLACEHOLDER
+ modifier_spell_fortify_buildings_greater:0 "Укреплённые стены #italic ([greater|E]) заклинание#!"
+ modifier_spell_fortify_buildings_greater_desc:0 "Крепости в этой провинции были укреплены магической защитой, что усложняет любую атаку." #PLACEHOLDER
+ modifier_spell_fortify_buildings_grand:0 "Укреплённые стены #italic ([grand|E]) заклинание#!"
+ modifier_spell_fortify_buildings_grand_desc:0 "Крепости в этой провинции были укреплены магической защитой, что усложняет любую атаку." #PLACEHOLDER
  modifier_spell_destroy_walls_petty:0 "Повреждённые стены #italic ([petty|E]) заклинание#!"
  modifier_spell_destroy_walls_petty_desc:0 "Крепости в этой провинции были повреждены магией, что уменьшило их способность выдерживать осаду." #PLACEHOLDER
  modifier_spell_destroy_walls_lesser:0 "Повреждённые стены #italic ([lesser|E]) заклинание#!"
@@ -30,7 +30,6 @@
  modifier_spell_mass_frenzy_greater:0 "Массовое помешательство #italic ([greater|E]) заклинание#!"
  modifier_spell_mass_frenzy_grand:0 "Массовое помешательство #italic ([grand|E]) заклинание#!"
  modifier_spell_devastate_province:0 "Магическое опустошение"
- modifier_spell_daedric_horde:0 "Выпущена орда даэдра"
 modifier_spell_burden_petty:0 "Обуза #italic ([petty|E]) заклинание#!"
  modifier_spell_burden_petty_desc:0 "На этого персонажа наложено [spell|El] бремя, так что он будет двигаться значительно медленнее."
   modifier_spell_burden_lesser:0 "Обуза #italic ([lesser|E]) заклинание#!"
@@ -91,8 +90,6 @@ modifier_spell_burden_petty:0 "Обуза #italic ([petty|E]) заклинани
  modifier_spell_leech_health_positive_grand_desc:0 "Этот персонаж находится под великим позитивным эффектом [Concept( 'spells', 'заклинания' )|E] высасывания здоровья, и его жизненная сила укрепляется."
  modifier_spell_claim_corpse:0 "Проклятие нежити"
  modifier_spell_claim_corpse_desc:0 "Этот персонаж превратится в [GetTrait('undead_character').GetName(GetNullCharacter)]-трэлла, если он умрёт любым способом (кроме казни) во время действия этого эффекта."
- modifier_spell_restless_dead:0 "Беспокойные мертвецы"
- modifier_spell_restless_dead_desc:0 "Это [county|El] поражено проклятием некромантии. Погребённые мертвецы теперь снова ходят.."
  modifier_spell_oblivion_counsel:0 "Связь с Обливионом"
  modifier_spell_oblivion_counsel_desc:0 "Этот персонаж получил доступ к знаниям Обливиона."
  modifier_spell_summon_stone_atronach:0 "Каменный атронах"
@@ -151,6 +148,8 @@ modifier_spell_burden_petty:0 "Обуза #italic ([petty|E]) заклинани
  #modifier_ritual_oakflesh_desc:0 "This character uses a ritual to harden the flesh of their troops which makes them much more sturdy."
  modifier_ritual_swiftness:0 "Стремительность"
  #modifier_ritual_swiftness_desc:0 "This character uses a ritual to boost the speed of their navy."
+ modifier_ritual_magic_ward:0 "Защита"
+ modifier_ritual_magic_ward_desc:0 "Этот персонаж находится под @ek_warded_icon! [Concept('magic_warded', 'защитой')|E]."
  modifier_ritual_oblivion_counsel:0 "Советы Обливиона"
  #modifier_ritual_oblivion_counsel_desc:0 "This character wields a mighty daedric weapon that is summoned through a ritual."
  modifier_ritual_bound_armor:0 "Призванная броня"
@@ -158,7 +157,7 @@ modifier_spell_burden_petty:0 "Обуза #italic ([petty|E]) заклинани
  modifier_ritual_arcane_outlet:0 "Усиление армии"
  #modifier_ritual_arcane_outlet_desc:0 "This character uses a ritual to ignite the weapons of their army, so nothing may stand in it's way."
  modifier_ritual_elemental_cloak:0 "Стихийный плащ"
- modifier_ritual_elemental_cloak_desc:0 "[command_modifier_i|E]Уменьшает риски во время [Concept( 'commanding', 'командования' )|E] [Concept( 'armies', 'армиями' )|E]"
+ modifier_ritual_elemental_cloak_desc:0 "[command_modifier_i|E]Уменьшает риски во время [Concept( 'commanding', 'командования' )|E] [Concept( 'armies', 'армиями' )|E]."
  modifier_ritual_ignited_weapons:0 "Пылающее оружие"
  #modifier_ritual_ignited_weapons_desc:0 "This character uses a ritual to boost the effectivness of their mage regiments."
  modifier_ritual_fortify_diplomacy:0 "Укрепление дипломатии"

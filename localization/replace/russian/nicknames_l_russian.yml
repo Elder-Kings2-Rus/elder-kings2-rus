@@ -15,3 +15,6 @@
  nick_the_theologian_desc:0 "[CHARACTER.GetFaith.HighGodName] — творец всего сущего. Что есть жизнь, если не исследование истинной природы творца?"
  nick_the_lisp_and_lame_desc:1 "Не удовлетворившись одной лишь кривой походкой, [CHARACTER.GetFaith.HighGodName] проклинает [Select_CString( CHARACTER.IsLocalPlayer, 'вас', 'этого человека')] дополнительно, награждая вдобавок ужасной шепелявостью."
  nick_health_god_mercy:0 "Милосердие [CHARACTER.GetFaith.HighGodNamePossessive|U]"
+
+ # I just like ours better
+  nick_the_trickster_desc:0 "[Select_CString(CHARACTER.IsLocalPlayer, 'Вы', Select_CString(CHARACTER.IsFemale, 'Она', 'Он' ))] [Select_CString( CHARACTER.IsLocalPlayer, 'любите', 'любит' )] обманывать и озорничать, постоянно разыгрывая трюки и внося сумятицу, не заботясь о потенциальном вреде этих действий."

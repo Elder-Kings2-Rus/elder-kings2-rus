@@ -1671,7 +1671,7 @@
  hostility_doctrine_id_005_hostility_024_name:0 ""
  hostility_doctrine_id_005_hostility_024_desc:0 ""
  hostility_doctrine_id_005_hostility_025_name:0 ""
- hostility_doctrine_id_005_hostility_025_desc:0 ""
+ hostility_doctrine_id_005_hostility_025_desc:0 "Я не стану тратить время." # Hash collision with travel_events.2007.b, putting that value here since we don't care about this desc
  hostility_doctrine_id_005_hostility_026_name:0 ""
  hostility_doctrine_id_005_hostility_026_desc:0 ""
  hostility_doctrine_id_005_hostility_027_name:0 ""

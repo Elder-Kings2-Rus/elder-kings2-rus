@@ -1,0 +1,33 @@
+﻿l_russian:
+ ek_kvatch_bread_riots.0001.t:0 "A Blight Upon the Land"
+ ek_kvatch_bread_riots.0001.desc:0 "[steward.GetFirstName] approaches me with a bunch of parchments, detailing a new crisis among the farmers of our realm. Our once golden fields of wheat have been turned red due to a new disease called Red Wheat Blight. It kills the crops and renders the entire production useless.\n\n[steward.GetSheHe|U] then offers me a choice: I could spend some of our coffers' gold to aid the peasants or I could let the disease take its course."
+ ek_kvatch_bread_riots.0001.a:0 "I can't let the lowborn starve!"
+ ek_kvatch_bread_riots.0001.a.flavor:0 "It is best, after all, to avert a crisis..."
+ ek_kvatch_bread_riots.0001.b:0 "The common folk has endured worse, I need this gold!"
+ ek_kvatch_bread_riots.0001.b.flavor:0 "We can always import wheat, right?"
+
+ ek_kvatch_bread_riots.0002.t:0 "The Blight Spreads!"
+ ek_kvatch_bread_riots.0002.desc:0 "Since last year, [steward.GetFirstName] has been providing me with continued reports of famine spreading through our lands. Commoners start to arrange meetings where they discuss means of survival since the first discovery of this disease, but now, as [steward.GetSheHe] carefully tells me, the tones have become less peaceful.\n\n"They are demanding action, my [ROOT.GetCharacter.GetLadyLord], and I don't know if we can afford to not listen this time.""
+ ek_kvatch_bread_riots.0002.a:0 "Fine, compensate them and let them know how generous I am."
+ ek_kvatch_bread_riots.0002.a.flavor:0 "Better late than never!"
+ ek_kvatch_bread_riots.0002.b:0 "Demanding? Who do they think they are?"
+ ek_kvatch_bread_riots.0002.b.flavor:0 "I mean, what can they do? Threaten me with pitchforks?"
+
+ ek_kvatch_bread_riots.0003.t:0 "The Kvatch Bread Riots"
+ ek_kvatch_bread_riots.0003.desc:0 "Lately, due to the increased famine among the population having lasted so long, the demands of the common people for my action have become much more aggressive. They now raid supply carts, market stalls and even noble carriages!\n\n[order_hour.GetFullName] asks for an emergency audience, telling that our peasants have even started sacking their lands, and that [order_hour.GetSheHe] has reports that they are planning on marching towards the Great Chapel of Akatosh and burning it to the ground."
+ ek_kvatch_bread_riots.0003.a:0 "Quick, [order_hour.GetTitledFirstNameNoTooltip], do something!"
+ ek_kvatch_bread_riots.0003.a.flavor:0 "Slaughter them if you must!"
+ ek_kvatch_bread_riots.0003.b:0 "It is too late..."
+ ek_kvatch_bread_riots.0003.b.flavor:0 "May the Divines have mercy on us."
+ ek_kvatch_bread_riots.0003.b.failure:0 "The slaughter commences."
+ ek_kvatch_bread_riots.0003.b.success:0 "It is, in fact, too late."
+ 
+
+ ek_kvatch_bread_riots.0004.desc:0 "The screams started right after I saw the first rioters. But the worst part for me was the smell of it: Emptied bowels, burned flesh, blood mixed with mud. I did my best to avoid witnessing such violence, but war was unavoidable. It came to me.\n\nThe Order of the Hour slaughtered half of the mob before they got it do disperse, according to my guards. The streets were littered with bodies of men, women, elders and children alike. Truly gruesome, truly a stain that will forever mark our lands."
+ ek_kvatch_bread_riots.0004.a:0 "It had to be done... It had to be done."
+
+ ek_kvatch_bread_riots.0005.desc:0 "I have watched, powerless, as the angry mob reached the Cathedral. The first stones were cast right through the stained glass windows and the ornate doors didn't hold for very long before the masses flooded the nave, looting everything they could get their hands onto.\n\nIt was not long before the once imposing Cathedral was scrapped to parts. Some commoners, however, weren't satisfied. They gathered the pews right on top of the altar and lit them on fire. The structure of the temple made the fire spread quickly and the mob dispersed just as quick.\n\nSome of the more pious ones tried to put out the inferno that engulfed their sanctuary, but it was too late. In a matter of hours of useless attempts to douse the fire, there were nothing but cinders and ash."
+ ek_kvatch_bread_riots.0005.a:0 "There was no other choice..."
+
+ ek_kvatch_bread_riots.0006.desc:0 "Despite my direct orders, the Order of the Hour drew arms against the crowd marching toward the Cathedral of Akatosh. Led by [order_hour.GetFirstName], they deemed the value of their sanctuary higher than the lives of those who attacked it.\n\nAccording to my guards, they slaughtered half of the mob before forcing it to disperse. The streets were littered with the bodies of men, women, elders, and children alike. Truly gruesome, truly a stain that will forever mark our lands."
+ ek_kvatch_bread_riots.0006.a:0 "How could they do that?"

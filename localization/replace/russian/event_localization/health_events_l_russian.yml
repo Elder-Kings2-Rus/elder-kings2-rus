@@ -1,16 +1,7 @@
 ﻿l_russian:
- health.1002.court_physician.desc:0 "\n\n«Это озноб, [ROOT.Char.GetLadyLord]. Не стоит относиться к этой хвори легкомысленно. Как нам действовать?»"
 
  health.1003.court_physician.desc:0 "\n\n«Я сочувствую вам, [ROOT.Char.GetLadyLord]. У меня есть несколько идей, которые могут облегчить симптомы вашей каменной подагры.»"
 
- health.1005.court_physician.desc:0 "\n\n"«Не волнуйтесь, [ROOT.Char.GetLadyLord]! Жёлтая лихорадка излечима, уверяю вас.»"
-
- health.1006.court_physician.desc:0 "\n\n«Боюсь, вы заразились увяданием, [ROOT.Char.GetLadyLord]. Я немедленно приступлю к лечению.»"
- 
- health.1007.court_physician.desc:0 "\n\n«Да, к сожалению, это гниль. Я знаю только один эффективный метод лечения...»"
-
- health.2101.bubonic_plague_outbreak.desc:2 "[ROOT.Char.GetFaith.DeathDeityName|U] заносит серп над моей страной – обнаружен случай смертельного кнахатенского гриппа!"
- health.2101.bubonic_plague_spreads.desc:0 "Ещё одна несчастная душа стоит у порога смерти, повергающая в ужас кровь засохла подле [sick_character.GetHerHis] ноздрей."
  health.2101.imporant.desc:0 "[Select_CString(sick_character.IsFemale, 'Моя бедная', 'Мой бедный' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sick_character')] [sick_character.GetFirstName] борется за свою жизнь."
  
  disease_pneumonic:0 "озноб."
@@ -29,7 +20,6 @@
  disease_dysentery: "каплепад."
 
  health.2201.b:0 "Отправьте за лекарем, немедленно! [ek_new_physician.GetFirstNameNoTooltip], где ты?" # (EK) why is that not active?
-
 
  health.2102.bubonic_plague.desc:0 "Кнахатенский грипп"
 

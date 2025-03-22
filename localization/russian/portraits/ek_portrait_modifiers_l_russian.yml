@@ -104,6 +104,7 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_almarula_robe:0 "@ek_dlc_icon! Одеяния Альма Рула"
  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_war_nobility:0 "@ek_dlc_icon! Костяная броня"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_gahjulan_war_nobility:0 "@ek_dlc_icon! Гах-Джуланская костяная броня"
  
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_01_high:0 "@ek_dlc_icon! Данмерское высшее дворянство 1"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dunmer_01_low:0 "@ek_dlc_icon! Данмерское мелкое дворянство 1"
@@ -145,6 +146,7 @@
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_almarula_robe:0 "@ek_dlc_icon! Одеяния Альма Рула"
  
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dunmer_war_nobility:0 "@ek_dlc_icon! Костяная броня"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dunmer_gahjulan_war_nobility:0 "@ek_dlc_icon! Гах-Джуланская костяная броня"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_ashlander_01_high:0 "@ek_dlc_icon! Одеяния мудрой женщины"
  
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ashlander_01_low:0 "@ek_dlc_icon! Эшлендерское мелкое дворянство 1" 
@@ -402,8 +404,8 @@ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orc_01_high:0 "@ek_dlc_i
   
   PORTRAIT_MODIFIER_custom_cloaks_cloaks_nibenese_male_noble_01_high:0 "@ek_dlc_icon! Нибенейский благородный плащ"
   
-  PORTRAIT_MODIFIER_custom_clothes_male_clothes_plate_war_01:0 "@ek_dlc_icon! Бретонский латный доспех"
-  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_plate_war_01:0 "@ek_dlc_icon! Бретонские ножные латы"
+  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ek2_breton_noble_war_01:0 "@ek_dlc_icon! Бретонский латный доспех"
+  PORTRAIT_MODIFIER_custom_legwear_m_legwear_sec_ek2_breton_noble_war_01:0 "@ek_dlc_icon! Бретонские ножные латы"
   
   ### Female ###
   PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nudity_01:0 "Нет одежды"
@@ -425,7 +427,7 @@ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orc_01_high:0 "@ek_dlc_i
   
   PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_dragon_priest:0 "@ek_dlc_icon! Маска драконьего жреца"
   
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_plate_war_01:0 "@ek_dlc_icon! Бретонский латный доспех"
-  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_plate_war_01:0 "@ek_dlc_icon! Бретонские ножные латы"
+  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ek2_breton_noble_war_01:0 "@ek_dlc_icon! Бретонский латный доспех"
+  PORTRAIT_MODIFIER_custom_legwear_f_legwear_sec_ek2_breton_noble_war_01:0 "@ek_dlc_icon! Бретонские ножные латы"
   
 

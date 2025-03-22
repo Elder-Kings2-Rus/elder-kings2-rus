@@ -1,9 +1,7 @@
 ﻿l_russian:
  hold_court.8010.d.speaker:0 "#italic "Мой сюзерен считает, что [neighboring_enemy.GetPrimaryTitle.GetNameNoTierNoTooltip] не представляет опасности."#"
- hold_court.8010.d.speaker.flavor:0 "Мой глашатай может изложить моё дело, если я того пожелаю."
- hold_court.8030.c.speaker:0 "#italic "Прекратите эти глупости! С чего все началось?"#"
- hold_court.8030.c.speaker.flavor:0 "Мой глашатай может изложить моё дело, если я того пожелаю."
+ hold_court.8010.d.speaker.flavor:0 "Моя матерь клана может изложить моё дело, если я того пожелаю."
  hold_court.8150.d.speaker:0 "#italic "Имей совесть! Мошенничество до добра не доведет."#"
- hold_court.8150.d.speaker.flavor:0 "Мой глашатай может изложить моё дело, если я того пожелаю."
+ hold_court.8150.d.speaker.flavor:0 "Моя матерь клана может изложить моё дело, если я того пожелаю."
  hold_court.8190.b.speaker:0 "#italic "Традиции других народов могут многому вас научить."#"
- hold_court.8190.b.speaker.flavor:0 "Мой глашатай может изложить моё дело, если я того пожелаю."
+ hold_court.8190.b.speaker.flavor:0 "Моя матерь клана может изложить моё дело, если я того пожелаю."

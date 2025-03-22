@@ -1,0 +1,7 @@
+﻿l_russian: 
+ ### Reflavored Contracts to Quests ###
+ TASK_CONTRACT_CONTRACT: "Квест"
+ TASK_CONTRACT_CONTRACT_PLURAL: "квесты"
+ TASK_CONTRACT_CONTRACT_POSSESSIVE: "Квесты"
+ TASK_CONTRACT_CONTRACT_POSSESSIVE_PLURAL: "Квестов"
+ TASK_CONTRACT_TRAVEL_BUSY_TRAVELLING: "@warning_icon! #X В путешествии нельзя принимать новые квесты#!"
