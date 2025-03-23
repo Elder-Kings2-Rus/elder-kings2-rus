@@ -6,12 +6,6 @@
  
  game_concept_raid_desc:0 "[Concept('regiments', 'армии')|E] могут быть собраны как $game_concept_raiders$ с [Concept('rally_points', 'точках сбора')|E]. $game_concept_raiders$ могут двигаться в соседние земли и грабить их ради [Concept('gold', 'золота')|E].\n\n\nЧтобы совершить набег, армия налётчиков должна остановиться в [Concept('holding', 'провинции')|E], принадлежащей иностранному [Concept('ruler', 'правителю')|E], и начать набег - после чего они потратят некоторое время на набег, и по его завершению получат золото и разграбят провинцию.\n\n\nЗолото будет храниться в армии и добавится в казну только по прибытии домой. Если вы победите армию налётчиков с золотом, вы заберете его, и они не смогут совершать на вас набеги в течение некоторого времени.\n\n\nНекоторым правителям разрешено $game_concept_raid$, в основном [Concept('regiments', 'племенным')|E] и [Concept('pirate', 'пиратским')|E].\nДерево талантов «Грабитель» также позволяет совершать набеги."
  
- game_concept_feudal_contract:0 "Вассальный договор"
- game_concept_feudal_contracts:0 "Вассальные договоры"
- game_concept_contract:0 "Договор"
- game_concept_feudal_contract_desc:1 " $game_concept_feudal_contract$ определяет [Concept('obligations', 'обязательства')|E] между [Concept('vassal', 'вассалом')|E] и его [Concept('liege', 'сюзереном')|E]. Контракт определяет, к чему привязаны обязательства вассала, и может включать специальные пункты, такие как #V религиозная свобода#! или #V права на декларацию санкционированной войны#!\n\n\nФеодальные вассалы (в [Concept('cultures', 'культурах')|E] с [Concept('tradition', 'традицией')|E] #V наследственная иерархия#! ) могут договариваться о своих обязательствах индивидуально.\n\nСпециальные контракты, такие как #V $special_contract_march_short$#!, #V $special_contract_scutage_short$#! или #V $special_contract_palatinate_short$#!, могут иметь только [Concept('duchy', 'герцогский')|E] уровень [Concept('vassals', 'вассала')|E] или выше."            #это не комментарий, даже если и кажется им
-
-
  game_concept_faith_righteous:0 "Праведники"
  game_concept_faith_righteous_desc:0 "Эта [Concept('faith', 'вера')|E] считается законной.\nМежрелигиозные браки распространены.\n\n#S эффекты:\n#![GetHostilityDescription( '(int32)0' )]"
 
@@ -60,4 +54,35 @@
 
  game_concept_lifestyle_desc:2 "[adult|E] [ruler|El] может вести [Concept( 'lifestyle', 'образ жизни' )|E], позволяющий выбрать [focus|El] и начать получать [perks|El].\n\nКаждый [Concept( 'lifestyle', 'образ жизни' )|E] использует свой тип [Concept( 'experience', 'опыта' )|E], чтобы приобретать [Concept( 'perks', 'достоинства' )|E]. Например, [intrigue_lifestyle|El] нужен, чтобы получить такие [Concept( 'perks', 'достоинства' )|E], как [GetPerk( 'dreadful_perk' ).GetName( GetPlayer )] или [GetPerk( 'like_weed_in_a_garden_perk' ).GetName( GetPlayer )].\n\n$game_concept_lifestyles$ are:\n$BULLET_WITH_TAB$ [diplomacy_lifestyle|E]\n$BULLET_WITH_TAB$ [stewardship_lifestyle|E]\n$BULLET_WITH_TAB$ [martial_lifestyle|E]\n$BULLET_WITH_TAB$ [intrigue_lifestyle|E]\n$BULLET_WITH_TAB$ [learning_lifestyle|E]\n$BULLET_WITH_TAB$ [magic_lifestyle|E]\n$BULLET_WITH_TAB$ [dark_arts_lifestyle|E]"
  
+ 
  game_concept_end_date_desc:0 "Игра закончится в 2Э 896."
+ 
+  #EK EDIT: renamed co-emperor to High Chancellor
+  game_concept_co_emperor: "Верховный канцлер" #Replaced co-emperor
+  game_concept_co_emperors: "Верховные канцлеры" #Replaced co-emperors
+  co_emperorship_diarch_title: "Верховный канцлер" #Replaced co-emperor
+  game_concept_duumvirate_desc: "При дуумвирате [Concept('empire','империя')|E] совместно управляется двумя [Concept('characters','персонажами')|E] — императором ([Concept('liege','сюзереном')|E]) и императором-соправителем.\n\nСоправитель пассивно повышает как собственное [Concept('influence','влияние')|E], так и влияние императора. Бонус к влиянию увеличивается за каждые [EmptyScope.ScriptValue('co_emperor_scale_years_in_job_value')|0] г., в течение которых соправитель занимает должность (включая время, проведенное в качестве [Concept('junior_emperor','номинального соправителя')|E]).\n\nВ реальности большая часть власти сконцентрирована в руках не [Concept('diarch','диарха')|E], а сюзерена, который носит императорский титул. В то же время соправитель обладает широкими полномочиями, которые позволяют активно влиять на жизнь [Concept('realm','державы')|E]. Кроме того, зачастую он является наиболее выгодным кандидатом на [Concept('administrative','административные')|E] должности.\n\nПри достаточно сильном нарушении [Concept( 'scales_of_power', 'равновесия сил' )|E] император-соправитель может воспользоваться [Concept('casus_belli','казус белли')|E] «[Concept('imperial_expedition_cb','Имперская экспедиция')|E]».\n\n#WEAK Соправитель может [Concept('usurp','узурпировать')|E] власть старшего императора, нанеся ему церемониальные увечья.#!"
+  
+  game_concept_theme: "Провинция" #Replaced Theme
+  game_concept_themes: "Провинции" #Replaced Themes
+  game_concept_thematic: "Провинциальный" #Replaced Thematic
+  THEME_DUCHY_SORT_THEME_TROOPS: "Войска провинции" #Replaced Theme
+  
+  game_concept_imperial_family: "Правящая семья" #Replaced Imperial
+ 
+  #EK EDIT: Including these in blanked-out form since the logs complain when they mention commented-out game concepts.
+  game_concept_harrying_widget_i: ""
+  game_concept_harrying_widget: ""
+  game_concept_harrying_widget_desc: ""
+  game_concept_harrying_resistance: ""
+  game_concept_harrying_resistance_desc: ""
+  game_concept_harrying_pacification: ""
+  game_concept_harrying_pacification_desc: ""
+ 
+  #EK EDIT: replaced clan with autocracy
+  game_concept_tax_jurisdiction_desc: "Налоговая юрисдикция включает в себя группу [Concept( 'taxpayers', 'налогоплательщиков' )|E] из числа [Concept( 'autocracy', 'автократических' )|E] [Concept('vassals', 'вассалов' )|E]. Каждая юрисдикция поддерживает до #V 12#! налогоплательщиков.\n\nДля любой из юрисдикций можно издать [Concept( 'tax_decree', 'налоговый указ' )|E].\n\nКоличество доступных налоговых юрисдикций зависит от [Concept( 'rank', 'ранга' )|E], [Concept( 'traditions', 'традиций' )|E] и [Concept( 'innovations', 'инноваций' )|E].\n\nК каждой юрисдикции необходимо приписать [Concept( 'tax_collector', 'сборщика налогов' )|E]."
+  
+  game_concept_untaxed_jurisdiction_desc: "Юрисдикцией без налогов считается [Concept( 'tax_jurisdiction', 'налоговая юрисдикция' )|E], не имеющая [Concept( 'tax_collector', 'сборщика налогов' )|E]. Это означает, что приписанные к ней налогоплательщики не платят [Concept( 'taxes', 'налоги' )|E] и не предоставляют [Concept( 'levies', 'ополчение' )|E] [Concept( 'liege', 'сюзерену' )|E]."
+  game_concept_taxpayer_desc: "Налогоплательщики — это [Concept( 'autocracy', 'автократические' )|E] [Concept('vassals', 'вассалы' )|E], приписанные к [Concept( 'tax_jurisdiction', 'налоговой юрисдикции' )|E]. Они будут предоставлять ежемесячный доход от [Concept( 'tax', 'налогов' )|E] и [Concept( 'levies', 'ополчение' )|E] при условии, что вы назначили [Concept( 'tax_collector', 'сборщика налогов' )|E]."
+  
+  game_concept_unassigned_vassal_desc: "Вассалами без налогов называются [Concept( 'autocracy', 'автократические' )|E] [Concept('vassals', 'вассалы' )|E], не приписанные к [Concept( 'tax_jurisdiction', 'налоговой юрисдикции' )|E] в качестве [Concept( 'taxpayers', 'налогоплательщиков' )|E], а потому не передающие сюзерену [Concept( 'taxes', 'налоги' )|E] и [Concept( 'levies', 'ополчение' )|E].\n\nОни начнут делать ежемесячные выплаты, если приписать их к юрисдикции со [Concept( 'tax_collector', 'сборщиком налогов' )|E]."

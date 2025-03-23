@@ -37,6 +37,9 @@
  d_beldama_wyrd_article:0 ""
  d_beldama_wyrd:0 "Вещуньи Белдамы"
  d_blackcaster:0 "Гильдия чёрных заклинателей"
+ d_blackcaster_article:0 ""
+ d_oracles_ruptga: "Оракулы Высокого Папы"
+ d_oracles_ruptga_article: ""
  # History Titles
  AKAVIRI_POTENTATE:0 "Акавирский потентат"
  AKAVIRI_POTENTATE_article:0 ""
@@ -132,6 +135,8 @@
  # Hammerfell
  k_craglorn:0 "Краглорн"
  k_craglorn_adj:0 "Краглорнск"
+ e_nedic_kingdom: "Недийская конфедерация"
+ e_nedic_kingdom_adj: "Недийск"
  # Summerset
  k_auridon:0 "Ауридон"
  k_auridon_adj:0 "Ауридонск"
@@ -161,6 +166,7 @@
  d_south_argonia_adj:0 "Южно-аргонск"
  d_orma_ka:0 "Ормала"
  d_orma_ka_adj:0 "Ормальск"
+ e_barsaebica: "Барсебика"
 
  ##Cyrodiil
  k_abbey_eight:0 "Аббатство Восьми"
@@ -177,7 +183,7 @@
  d_new_moon_mane_article:0 ""
  d_new_moon_mane:0 "Танец Двоелунья"
  d_many_paths_mane_article:0 ""
- d_many_paths_mane:0 "Множество Путей"
+ d_many_paths_mane:0 "Танец Множества Путей"
 
 ## Map mode duchies
  d_map_base_color:0 ""

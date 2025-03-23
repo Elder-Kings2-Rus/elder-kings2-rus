@@ -231,4 +231,7 @@
  aggressive_staff:0 "Агрессивно с посохом"
  celebrate_staff:0 "Торжество с посохом"
  NOT_IS_A_WITCH: "#bold Не#! [GetTrait('witch').GetName( CHARACTER.Self )]"
+ race_argonian_snake_hood:0 "Змеиный капюшон"
+ no_snake_hood:0 "Нет"
+ naga_snake_hood_01:0 "Змеиный капюшон нага"
  

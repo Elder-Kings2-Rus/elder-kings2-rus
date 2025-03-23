@@ -1,0 +1,17 @@
+﻿l_russian:
+#Yashnag
+  ek_bookmark.0001.t:0 "[orsinium.GetBaseNameNoTier] Lost"
+  ek_bookmark.0001.desc:0 "With the collapse of the #LORE [compendium_akaviri_potentate]#! 10 years ago, Orsinium's status as an Imperial Province was void. And instead of caring about the stability of their own crumbling realms, Breton and Redguard rulers rallied behind the banner of [edgar.GetName] and his ally, [anton.GetName], to lay siege to our glorious Orsinium. Within months they breached the outer walls and started to slaughter orcs, goblins, ogres and any other race that called Orsinium its home. Weeks later [edgar.GetFirstName] slew our king in a duel, while his men razed the king's keep to the ground.\n\nIt was then that I rallied the remainder of my clan to travel east, to our ancestral lands beyond the Karth Valley: the rich region known to the Nords as Falkreath. My horde fell upon the capital of these unprepared smalltusks, where I slew their king [falk.GetFirstName] in a duel and took his Kingdom by right of conquest and by right of our ancestors."
+  ek_bookmark.0001.a:0 "We will never forget Orsinium."
+#Mane Marandru-Jo
+ ek_bookmark.0002.t: "Fate of Elsweyr"
+ ek_bookmark.0002.desc: "Since my birth under the Dark Moons, it has been my right to rule the #LORE [compendium_elsweyr_confederacy]#!. Pellitine obeys and acknowledges me as their leader, but the quarrelsome Anequinans refuse to recognize my authority. They must be brought to heel, or else the unity of all Khajiit is at risk."
+ ek_bookmark.0002.a: "Anequina will obey."
+ elsweyr_dissolution.tt: "If you control less than #V 75%#! of [GetGeographicalRegion('mundus_tamriel_elsweyr').GetName] by 2E 490, the nobles of Elsweyr will stop acknowledging your authority as their rightful liege and be free to secede. The [empire|E] of [GetTitleByKey('e_elsweyr').GetNameNoTier] will become titular and split into [GetTitleByKey('e_pellitine').GetNameNoTier] and [GetTitleByKey('e_anequina').GetNameNoTier]."
+#Queen Nilwen
+ ek_bookmark.0003.t: "Elden Legacy"
+ ek_bookmark.0003.desc: "The Camoran name is an ancient one, its roots and branches intertwined with the Valenwood's history. As its inheritor, I see so much to do.\n\nMy nephew, [cormount_gelthior.GetFirstName], grows a rotted Camoran branch into the Blacksap heresy. Another crooked branch in [haven.GetNameNoTier] abandons the Green for jaundiced High Elven yellow. And beyond the Camoran family tree grows a foul weed in our forest: the Colovian incursion in [southpoint.GetNameNoTier].\n\nI alone can prune the forest back to health."
+ ek_bookmark.0003.a: "I shall sever the poison branch of heresy."
+ ek_bookmark.0003.b: "The dead branch of Haven has jaundiced our tree too long."
+ ek_bookmark.0003.c: "Foreign weeds have no place in our forest."
+ ek_bookmark.0003.d: "Our tree is not so weak that it cannot flower into benevolence."

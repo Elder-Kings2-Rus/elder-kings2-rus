@@ -1,0 +1,16 @@
+﻿l_russian:
+ HISTORICAL_CHARACTER_TOOLTIP: "#T Каноничный персонаж#!\n\n#high [Character.Custom('HistoricalCharacterDesc')]#!\n\n#weak Этот персонаж каноничен для мира The Elder Scrolls, но может отличаться от своего прототипа в зависимости от [Concept('culture','культуры')|E] и [Concept('faith','конфессии')|E] родного владения. Кроме того, [Select_CString(Character.IsFemale, 'она','он' )] может появиться чуть раньше или позже (от года до 5 лет) исторически значимого для этого персонажа периода.#!"
+
+ historical_char_creation_events.desc: "[historical_character.Custom('HistoricalCharacterJobDesc')] по имени [historical_character.GetFullNameNicknamed], по слухам, блуждает по моим землям в поисках нанимателя. [Select_CString(historical_character.IsFemale, 'Ее','Его' )] родиной является [birth_location.GetName], и есть в этом человеке что-то... [historical_character.Custom('DescriptorPositiveStandalone')]ое, но в то же время [historical_character.Custom('DescriptorNegativeStandalone')]ое.\n\n\n@historical_character_icon! #weak Это каноничный для мира The Elder Scrolls персонаж:#!\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!"
+ historical_char_creation_events_alternative.desc: "[historical_character.Custom('HistoricalCharacterJobDesc')] по имени [historical_character.GetFullNameNicknamed] [Select_CString(historical_character.IsFemale, 'сумела', 'сумел' )] отличиться при дворе. [Select_CString(historical_character.IsFemale, 'Она показала', 'Он показал' )] себя человеком на редкость [historical_character.Custom('DescriptorPositiveStandalone')]ым. Есть в [Select_CString(historical_character.IsFemale, 'ней', 'нём' )] что-то… особенное, но не могу сказать, что именно.\n\n\n@historical_character_icon! #weak Это каноничный для мира The Elder Scrolls персонаж:#!\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!"
+ 
+ generic_importance: "Этот персонаж важен для мира The Elder Scrolls."
+
+ rule_historical_characters: "Каноничные персонажи"
+ setting_default_historical_characters_desc: " игре могут появляться различные каноничные персонажи, такие как Гор Фелим, Фраст из Элинира или Разота Рассказчица. Вы будете получать уведомления о самых известных персонажах и о персонажах, рожденных в пределах вашего [Concept( 'domain', 'домена' )|E]."
+ setting_all_historical_characters_desc: "В игре могут появляться различные каноничные персонажи, такие, как Гор Фелим, Фраст из Элинира или Разота Рассказчица. Вы будете получать уведомления обо всех родившихся в вашей части [Concept('realm','державы')|E]."
+ setting_no_historical_characters_desc: "Каноничные персонажи не будут появляться."
+
+ trait_historical_character: "Каноничный персонаж"
+ trait_historical_character_character_desc: "[ROOT.GetCharacter.GetFullNameNicknamed]  — динамически появившийся каноничный персонаж, сыгравший заметную роль в мире The Elder Scrolls."
+ trait_historical_character_desc: "Это динамически появившийся каноничный персонаж, сыгравший заметную роль в мире The Elder Scrolls"
