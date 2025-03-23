@@ -23,7 +23,7 @@
  ek_intrigue_scheme_ongoing_events.1001.desc:0 "Мои стражники привели ко мне мага, [Select_CString(alteration_mage.IsFemale, 'которую обнаружили бродящей', 'которого обнаружили бродящим' )] по владению [scheme_location.GetName]. Судя по всему, [alteration_mage.GetName] [Select_CString(alteration_mage.IsFemale, 'получила', 'получил' )] плату за наложение заклинания Пометка, служащего своеобразным якорем для заклинаний телепортации в мои стены для неких «теневых агентов», как [alteration_mage.GetSheHe] утверждает.\n\nЭто признание может означать только одно: подлые интриганы наверняка стремятся нанести коварный и тонкий удар по моим подданным или мне [Select_CString(ROOT.Char.IsFemale, 'самой', 'самому' )]. Но в моих силах и возможностях предотвратить этот заговор и наказать его жалких исполнителей до того, как они совершат попытку предательства."
  ek_intrigue_scheme_ongoing_events.1001.a:0 "Я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] быть начеку."
  ek_intrigue_scheme_ongoing_events.1001.b:0 "Заключить этого мага в темницу!"
- ek_intrigue_scheme_ongoing_events.1001.c:0 "[ek_intrigue_scheme_ongoing_events_1000_mage.GetSheHe|U] расскажет мне #italic всё#!, что [ek_intrigue_scheme_ongoing_events_1000_mage.GetSheHe] знает..."
+ ek_intrigue_scheme_ongoing_events.1001.c:0 "[alteration_mage.GetSheHe|U] расскажет мне #italic всё#!, что [alteration_mage.GetSheHe] знает..."
  ek_intrigue_scheme_ongoing_events.1001.c.tt:0 "Обнаружены [Concept('scheme_hostile', 'враждебные происки')|E] или иные вредоносные [Concept('scheme', 'происки')|E]"
  ek_intrigue_scheme_ongoing_events.1001.toast:0 "Происки раскрыты"
 

@@ -30,31 +30,16 @@
  
  rule_by_might_succession_law:0 "Правление силой"
  rule_by_might_succession_law_subname:0 "Только сильнейшие поведут нас"
- rule_by_might_succession_law_effects:0 "\n#V Согласно [Concept('succession', 'наследованию')|E] $rule_by_might_succession_law$, наследовать может самый сильный ребенок.\n#N Дети могут выдвинуть свои претензии до смерти правителя, если чувствуют себя достаточно сильными.#!\n\n$rule_by_might_succession_law_base_desc$"
+ rule_by_might_succession_law_effects:0 "\n#V Согласно [Concept('succession', 'наследованию')|E] $rule_by_might_succession_law$, наследовать может самый сильный ребенок.#!\n#N Дети могут выдвинуть свои претензии до смерти правителя, если чувствуют себя достаточно сильными.#!\n\n$rule_by_might_succession_law_base_desc$"
  rule_by_might_succession_law_base_desc:0 "#weak Согласно [Concept('succession', 'наследованию')|E] $rule_by_might_succession_law$, нынешний правитель назначает своего [Concept('primary_heir', 'первого наследника')|E] среди всех подходящих детей.\n\nПосле наследования другие дети с аналогичной или более высокой [Concept('prowess', 'доблестью')|E] могут бросить вызов новому правителю или уйти в изгнание.\n\nДети не подходящих полов могут оспаривать наследование, если их [prowess|El] достаточно высока.#!"
 
  xarxean_investiture_succession_law:0 "Зарксийская инвеститура"
  xarxean_investiture_succession_law_subname:0 "Божественная нумерология"
- xarxean_investiture_succession_law_effects:0 "\n#V $xarxean_investiture_succession_law$ предполагает, что все ваши [titles|El] унаследует ребёнок, наиболее строго придерживающийся [Concept( 'ceremoniarchy', 'церемониархических' )|E] учений предков.\n\nВоспользовавшись [Concept( 'decision', 'решением' )|E] «Посоветоваться с зарксейцами», вы узнаете, кто будет вашим вероятным следующим [Concept( 'heir', 'наследником' )|E]. В противном случае это выясняется при [Concept( 'succession', 'наследовании' )|E].\n\n[Concept( 'ceremoniarchy_government', 'Церемониархические' )|E] державы уровня [Concept( 'empire', 'империй' )|E] автоматически принимают этот [law|El].#!\n\n#weak При наследовании все [titles|El] покойного правителя передаются [Concept( 'player_heir', 'наследнику-игроку' )|E], который является [Concept( 'eligible_child', 'привелигированным ребёнком' )|E] с наивысшим показателем [Concept( 'praxis', 'праксиса' )|E]. Другие дети не получают ничего. Если [Concept( 'eligible_child', 'привелигированного ребёнка' )|E] нет, внуки, правнуки, братья и сёстры, а затем и другие родственники могут наследовать согласно очерёдности [Concept( 'praxis', 'праксиса' )|E].\n#!"
+ xarxean_investiture_succession_law_effects:0 "\n#V $xarxean_investiture_succession_law$ предполагает, что все ваши [titles|El] унаследует ребёнок, наиболее строго придерживающийся [Concept( 'ceremoniarchy', 'церемониархических' )|E] учений предков.\n\nВоспользовавшись [Concept( 'decision', 'решением' )|E] «Посоветоваться с зарксейцами», вы узнаете, кто будет вашим вероятным следующим [Concept( 'heir', 'наследником' )|E]. В противном случае это выясняется при [Concept( 'succession', 'наследовании' )|E].\n\n[Concept( 'ceremoniarchy', 'Церемониархические' )|E] державы уровня [Concept( 'empire', 'империй' )|E] автоматически принимают этот [law|El].#!\n\n#weak При наследовании все [titles|El] покойного правителя передаются [Concept( 'player_heir', 'наследнику-игроку' )|E], который является [Concept( 'eligible_child', 'привелигированным ребёнком' )|E] с наивысшим показателем [Concept( 'praxis', 'праксиса' )|E]. Другие дети не получают ничего. Если [Concept( 'eligible_child', 'привелигированного ребёнка' )|E] нет, внуки, правнуки, братья и сёстры, а затем и другие родственники могут наследовать согласно очерёдности [Concept( 'praxis', 'праксиса' )|E].\n#!"
 
 
 #Miscenalleous 
  tooltip_feudal_elector_vote_knighthood:0 "Воин нашего народа: $VALUE|=+0$"
- tooltip_feudal_elector_vote_conceded_election:0 "[candidate.GetSheHe|U] не имеет желания быть избранным: $VALUE|=+0$"
- tooltip_feudal_elector_vote_conceded_election_myself:0 "У меня нет желания быть избранным: $VALUE|=+0$"
-
- concede_election_decision:0 "Воздержаться от участия в выборах"
- concede_election_decision_desc:0 "#F Я могу нравиться избирателям, но мне не нужны выборные титулы.#!"
- concede_election_decision_tooltip:0 "Я отказываюсь от претензий на новые титулы путем выборов"
- concede_election_decision_confirm:0 "Свобода от избирательной политики!"
- participate_election_decision:0 "Участвовать в выборах"
- participate_election_decision_desc:0 "#F Пренебрежение выборами не было мудрым выбором, мне стоит пересмотреть своё решение...#!"
- participate_election_decision_tooltip:0 "Теперь я стану приемлемым кандидатом для выборщиков."
- participate_election_decision_confirm:0 "Выборщики, а вот и я!"
- concede_election_effect:0 "@warning_icon! Если вы станете кандидатом на получение любого выборного титула, выборщики больше не будут голосовать за вас"
- participate_election_effect:0 "@warning_icon! Если вы станете кандидатом на получение любого выборного титула, выборщики снова будут голосовать за вас"
- msg_conceded_election:0 "Воздержание от участия в выборах"
- msg_participate_election:0 "Участие в выборах"
 
 #Moot Sucession Law
  moot_elective_succession_law:0 "Избирательное собрание"
@@ -117,7 +102,7 @@
 # Praxis Succession Law
  altmeri_elective_succession_law:0 "Праксические выборы"
  altmeri_elective_succession_law_subname:0 "Церемониархические выборы"
- altmeri_elective_succession_law_effects:0 "\n#V $altmeri_elective_succession_law$ предполагают, что наследником станет ваш родственник, наиболее строго придерживающийся [Concept( 'ceremoniarchy', 'церемониархических' )|E] учений предков. Этот тип наследования отдаёт предпочтение кандидатам с высоким показателем [Concept( 'praxis', 'праксиса' )|E] и положительными [Concept( 'congenital_traits', 'врождёнными свойствами' )|E]. Все родственники нынешнего правителя считаются действительными кандидатами, однако их дети имеют приоритет перед другими.\n\n[Concept( 'ceremoniarchy_government', 'Церемониархические' )|E] державы уровня [Concept( 'kingdom', 'королевств' )|E] автоматически принимают этот [title_law|El]."
+ altmeri_elective_succession_law_effects:0 "\n#V $altmeri_elective_succession_law$ предполагают, что наследником станет ваш родственник, наиболее строго придерживающийся [Concept( 'ceremoniarchy', 'церемониархических' )|E] учений предков. Этот тип наследования отдаёт предпочтение кандидатам с высоким показателем [Concept( 'praxis', 'праксиса' )|E] и положительными [Concept( 'congenital_traits', 'врождёнными свойствами' )|E]. Все родственники нынешнего правителя считаются действительными кандидатами, однако их дети имеют приоритет перед другими.\n\n[Concept( 'ceremoniarchy', 'Церемониархические' )|E] державы уровня [Concept( 'kingdom', 'королевств' )|E] автоматически принимают этот [title_law|El]."
  altmeri_elective_candidates:0 "Близкие и дальние родственники"
  altmeri_elective_candidates_tooltip:0 "Следующие персонажи имеют законное право на участие в церемониархических выборах:\n$EFFECT_LIST_BULLET$Законнорожденные [Concept( 'extended_family', 'дальние родственники' )|E] текущего правителя, не претендующие на наследование теократии или республики. Дети кандидата не могут участвовать в выборах в качестве кандидатов\n$EFFECT_LIST_BULLET$[claimants|E] на титул, не претендующие на наследование теократии или республики"
  altmeri_elective_electors:0 "$feudal_elective_electors$"
@@ -145,4 +130,21 @@
  mage_magocratic_succession_law:0 "Магократия"
  mage_magocratic_succession_law_effects:0 "В Академии или Коллегии магов выбирается старший Мастер-волшебник, который становится архимагом учреждения."
  mage_magocratic_succession_law_base_desc:0 "В Академии или Коллегии магов выбирается старший Мастер-волшебник, который становится архимагом учреждения."
- 
+
+ #Admin modifiers
+ necromancer_and_criminal_desc: "[GetTrait('necromancer').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!"
+ lycan_and_criminal_desc: "[GetTrait('lycan_character').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!"
+ vampire_and_criminal_desc: "[GetTrait('vampire_character').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!"
+ ek_imperial_same_dynasty_desc: "Same [dynasty|E]"
+ arcana_skills_desc: "Magical skill"
+ ek_auriel_dynasty_desc: "[GetModifier('auriels_heirs_dynasty_modifier').GetNameWithTooltip]"
+ ek_syrabane_dynasty_desc: "[GetModifier('syrabane_heirs_dynasty_modifier').GetNameWithTooltip]"
+ ek_phynaster_dynasty_desc: "[GetModifier('phynaster_heirs_dynasty_modifier').GetNameWithTooltip]"
+ ek_xarxes_dynasty_desc: "[GetModifier('xarxes_heirs_dynasty_modifier').GetNameWithTooltip]"
+ ek_chosen_by_xarxeans_desc: "Chosen by Xarxeans"
+ admin_vote_praxis_desc: "Their understanding of [praxis|E]"
+ admin_vote_beauty_good_desc: "Is beautiful"
+ admin_vote_beauty_bad_desc: "Is ugly"
+ admin_vote_physique_good_desc: "Is strong"
+ admin_vote_physique_bad_desc: "Is weak"
+ admin_vote_impurity_desc: "Is [impure|E]"

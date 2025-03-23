@@ -25,7 +25,7 @@
  culture_parameter_cleanse_abominations_undead_rulers:0 "[rulers|E] может использовать [Concept('cleanse_abomination_war', 'войну для уничтожения мерзостей')|E] против правителей-нежити"
  culture_parameter_cleanse_abominations_necromancers_rulers:0 "[rulers|E] может использовать [Concept('cleanse_abomination_war', 'войну для уничтожения мерзостей')|E] против правителей-некромантов"
  culture_parameter_peasant_mystic_revolts_more_common:0 "[peasant_factions|E] той же [Concept('culture', 'культуры')|E] более распространены и часто возглавляются мистиками"
- culture_parameter_tolerant_of_pariahs:0 "Нельзя использовать [casus_belli|E] #V 'Изгнание монстров'#! против [Concept('pariahs', 'отверженных')|E] или [Concept('pariah_discriminate', 'притеснённых')|E], не считая это [Concept('tyranny', 'тиранией')|E]"
+ culture_parameter_tolerant_of_orc_pariahs:0 "Нельзя использовать [casus_belli|E] #V 'Изгнание монстров'#! против [Concept('pariahs', 'отверженных')|E] с #V $heritage_orsimeri_name|l$им#! [Concept('heritage', 'наследием')|E] или [Concept('pariah_discriminate', 'притеснённых')|E], не считая это [Concept('tyranny', 'тиранией')|E]"
  culture_parameter_danger_sense_save:0 "Персонажи этой [Concept( 'culture', 'культуры' )|E] с большей вероятностью переживут [GetScheme('murder').GetTypeName] [intrigue_i]"
  culture_parameter_can_join_legion:0 "[SelectLocalization( HasDlcFeature( 'the_northern_lords' ), 'can_join_legion_dlc_yes', 'can_join_legion_dlc_no' )]"
  can_join_legion_dlc_yes:0 "Персонажи этой [Concept( 'culture', 'культуры' )|E] могут использовать [dynast_interaction|El] #V Отправить в Имперский легион#!"
@@ -38,17 +38,20 @@
  culture_parameter_adultery_and_fornication_is_ok:0 "Персонажи со [Concept('trait', 'свойствами')|E] [GetTrait('adulterer').GetName( GetNullCharacter )] или [GetTrait('fornicator').GetName( GetNullCharacter )] не подвергаются порицанию"
  max_seduce_schemes_add:1 "Максимум [Concept( 'schemes', 'происков' )|E] «[GetScheme('seduce').GetTypeName]»"
  culture_parameter_reduced_acceptance_to_convert_counties_to_other_cultures:0 "[counties|E] могут быть преобразованы в [Concept('valid_conversion_culture_medium', 'подходящую культуру')|E] с другим [Concept('heritage', 'наследием')|E] при показателе [Concept('cultural_acceptance', 'терпимости')|E] в [EmptyScope.ScriptValue('ek_culture_conversion_acceptance_threshold_reduced')] ед., а не [EmptyScope.ScriptValue('ek_culture_conversion_acceptance_threshold_normal')] ед."
+ culture_parameter_is_isolationist_tradition: "[isolationist_tradition|E]"
+ culture_parameter_sorcerer_kings_tradition: "[sorcerer_kings_tradition|E]"
 
 ## GOVERNMENT PARAMETERS
  culture_parameter_unlocks_feudal_government:0 "Открывает [feudal_government|El] для [Concept('autocratic', 'автократичных')|E] [Concept('rulers', 'правителей')|E]"
  culture_parameter_unlock_pirate_government:0 "Открывает [pirate_government|El] для [Concept('autocratic', 'автократичных')|E] [Concept('rulers', 'правителей')|E]"
- culture_parameter_unlocks_praxis_government:0 "Открывает [ceremoniarchy|El] для [Concept('autocratic', 'автократичных')|E] [Concept('rulers', 'правителей')|E]"
+ culture_parameter_uses_praxis_mechanics: "Открывает [ceremoniarchy|El] для [Concept('administrative', 'бюрократических')|E] [Concept('rulers', 'правителей')|E]"
 
 ## ARCANA PARAMETERS
+ culture_parameter_magic_preference: "Правители этой культуры чаще выбирают магический [Concept('lifestyle', 'образ жизни')|E] и проводят связанные с магией [Concept('activities', 'занятия')|E]"
  culture_parameter_unlocks_court_magical:0 "Правители с [Concept('royal_court', 'монаршим двором')|E] могут использовать [court_type|El] $court_magical$"
  culture_parameter_rank_gives_bonus_to_mage_maa:0 "[men_at_arms|E]-маги и мечники-чародеи получают бонус к численности, [Concept('damage', 'урону')|E], [Concept('pursuit', 'преследованию')|E], [Concept('toughness', 'выносливости')|E] и [Concept('screen', 'скрытности')|E] зависящий от [Concept('rank', 'ранга')|E] правителя"
- culture_parameter_unlocks_arcana_education:0 "[guardians|E] с навыками в Магии, либо со [Concept('trait', 'свойством')|E] #V $trait_arcana_good$#! или #V $trait_education_magical_ability$#!, передадут [Concept('trait', 'свойство')|E] #V $trait_education_magical_ability$#! их [Concept('ward', 'подопечным')|E]\n#weak Инновации, раскрывающие подобные способности, вместо этого приведут к лучшим результатам#!"
- culture_parameter_good_arcana_traits_give_bonuses:0 "[traits|E] #V $trait_arcana_good$#! и #V $trait_education_magical_ability$#! ценятся выше"
+ culture_parameter_unlocks_arcana_education:0 "[guardians|E] со [Concept('trait', 'свойством')|E] #V $trait_education_magic$#! или #V $trait_education_magic$#!, передадут [Concept('trait', 'свойство')|E] #V $trait_education_magical_ability$#! их [Concept('wards', 'подопечным')|E]"
+ culture_parameter_good_arcana_traits_give_bonuses:0 "[traits|E] #V $trait_arcana_good$#! и #V $trait_education_magic$#! ценятся выше"
  culture_parameter_bad_arcana_traits_give_maluses:0 "[Concept('traits', 'Свойство')|E] #V $trait_arcana_bad$#! презирается"
  culture_parameter_arcane_affinity_birth:0 "[children|E] имеют небольшой шанс родиться с [Concept('trait', 'свойством')|E] #V $trait_arcana_good$#!"
  culture_parameter_arcana_claim_enabled:1 "Правители с высокой [arcana_i|E][Concept('arcana', 'арканой')|E] могут потратить [prestige_i][prestige|El], чтобы претендовать на [titles|El] принадлежащие другим правителям. Чем выше разница в [arcana_i|E][Concept('arcana', 'аркане')|E] между правителями, тем ниже стоимость."
@@ -57,8 +60,8 @@
  culture_parameter_better_arcane_education:0 "Персонажи этой [Concept('culture', 'культуры')|E] получают [Concept('arcana', 'аркану')|E]:[arcana_i]#P +2#!"
  culture_parameter_wild_magic:0 "Заклинатели этой [Concept('culture', 'культуры')|E] подвержены необузданным колебаниям в их [arcana_i][Concept('arcana', 'аркане')|E]"
  culture_parameter_dynasty_arcana_respect:0 "[traits|E] #V $trait_arcana_good$#! дают бонус [opinions|El] с членами [Concept('dynasty', 'династии')|E]"
- culture_parameter_wanderers_gain_extra_magic_skills:0 "[wanderers|E] со временем получают дополнительные [Concept('magic', 'магические')|E] навыки, такие как [arcana|El] или [traits|El] #V $trait_education_magical_ability$#!"
- culture_parameter_send_mage_to_wander:0 "Придворные этой [Concept('culture', 'культуры')|E] с [Concept('traits', 'свойствами')|E] #V $trait_arcana_good$#!, но без свойства #V $trait_education_magical_ability$#!, могут быть отправлены стать [Concept('wanderers', 'странниками')|E]"
+ culture_parameter_wanderers_gain_extra_magic_skills:0 "[wanderers|E] могут получить [traits|El] #V $trait_education_magic$#!"
+ culture_parameter_send_mage_to_wander:0 "Придворные этой [Concept('culture', 'культуры')|E] с [Concept('traits', 'свойствами')|E] #V $trait_arcana_good$#!, но без свойства #V $trait_education_magic$#!, могут быть отправлены стать [Concept('wanderers', 'странниками')|E]"
  arcana_tradition_parliament_of_bugs:0 "[GetTrait('paranoid').GetName(ROOT.Char)] (Парламент жуков)"
  arcana_tradition_pale_shamans_1:0 "[GetTrait('education_intrigue_1').GetName(ROOT.Char)] (Бледные шаманы)"
  arcana_tradition_pale_shamans_2:0 "[GetTrait('education_intrigue_2').GetName(ROOT.Char)] (Бледные шаманы)"
@@ -88,7 +91,7 @@
 ## MAA PARAMETERS
 # Innovation parameters
  culture_parameter_swordmaster_era_improvement:1 "[men_at_arms|E] [GetMaA('yokudan_way_of_the_sword').GetName] становятся лучше с каждой новой [Concept( 'era', 'эпохой' )|E]"
- culture_parameter_unlock_innovation_corsair_traditions:0 "Открывает [Concept('innovation', 'инновацию')|E] $innovation_corsair_traditions$, а [GetMaA('abecean_pirates').GetName] становятся доступны как [men_at_arms|El]" 
+ culture_parameter_unlock_maa_abecean_pirates:0 "Доступны [men_at_arms|El] - [GetMaA('abecean_pirates').GetName]"
 
 # Tradition parameters
  culture_parameter_unlock_maa_nedic_headhunters:0 "Доступны [men_at_arms|El] — [GetMaA('south_nedic_headhunters').GetName], [GetMaA('central_nedic_headhunters').GetName] или [GetMaA('north_nedic_headhunters').GetName] в зависимости от того, к какой ветви недийского [Concept('heritage', 'наследия')|E] принадлежит или от которой происходит эта культура."
@@ -97,13 +100,12 @@
  culture_parameter_unlock_maa_dunmer_oathmen:0 "Доступны [men_at_arms|El] — [GetMaA('dunmer_oathmen').GetName]"
  culture_parameter_unlock_maa_ashlander_champions:0 "Доступны [men_at_arms|El] — [GetMaA('ashlander_champions').GetName]"
  culture_parameter_unlock_maa_deathlands_slayers:0 "Доступны [men_at_arms|El] — [GetMaA('deathlands_slayers').GetName]"
- culture_parameter_unlock_maa_goblinken_mounts:0 "Доступны [men_at_arms|El] — [GetMaA('durzog_riders').GetName] или [GetMaA('bristleback_riders').GetName] в зависимости от того, к какой ветви гоблинского [Concept('heritage', 'наследия')|E] принадлежит эта культура."
+ culture_parameter_unlock_maa_goblinken_mounts:0 "Доступны [men_at_arms|El] — [GetMaA('goblin_light_cavalry').GetName] или [GetMaA('riekling_light_cavalry').GetName] в зависимости от того, к какой ветви гоблинского [Concept('heritage', 'наследия')|E] принадлежит эта культура."
  culture_parameter_unlock_maa_ice_shamans:0 "Доступны [men_at_arms|El] — [GetMaA('ice_shamans').GetName]"
  culture_parameter_unlock_maa_huscarl:0 "Доступны [men_at_arms|El] — [GetMaA('huscarl').GetName]"
  culture_parameter_unlock_maa_skaal_hunter:0 "Доступны [men_at_arms|El] — [GetMaA('skaal_hunter').GetName]"
  culture_parameter_unlock_maa_orc_marauders:0 "Доступны [men_at_arms|El] — [GetMaA('orc_marauders').GetName]"
  culture_parameter_unlock_maa_yokudan_way_of_the_sword:0 "Доступны [men_at_arms|El] — [GetMaA('yokudan_way_of_the_sword').GetName]"
- culture_parameter_unlock_maa_redguard_way_of_the_sword:0 "Доступны [men_at_arms|El] — [GetMaA('redguard_way_of_the_sword').GetName]"
  culture_parameter_unlock_maa_light_grazing_horde:0 "Доступны [men_at_arms|El] — [GetMaA('light_grazing_horde').GetName]"
  culture_parameter_unlock_maa_armored_legionaires:0 "Доступны [men_at_arms|El] — [GetMaA('armored_legionaires').GetName]"
  culture_parameter_unlock_maa_breton_hedge_knights:0 "Доступны [men_at_arms|El] — [GetMaA('breton_hedge_knights').GetName]"
@@ -122,7 +124,11 @@
  culture_parameter_unlock_maa_akaviri_dragon_hunters:0 "Доступны [men_at_arms|El] — [GetMaA('akaviri_dragon_hunters').GetName]"
  culture_parameter_unlock_maa_soul_trappers:0 "Доступны [men_at_arms|El] — [GetMaA('soul_trappers').GetName]"
  culture_parameter_unlock_maa_walk_worm_cavalry:0 "Доступны [men_at_arms|El] — [GetMaA('walk_worm_cavalry').GetName]"
- 
+ culture_parameter_unlock_maa_orc_wood_skirmishers:0 "Доступны [men_at_arms|El] — [GetMaA('orc_wood_skirmishers').GetName]"
+ culture_parameter_unlock_maa_direnni_sorcerers: "Доступны [men_at_arms|El] — [GetMaA('direnni_sorcerers').GetName]"
+ culture_parameter_unlock_maa_ayleid_sorcerers: "Доступны [men_at_arms|El] — [GetMaA('ayleid_sorcerers').GetName]"
+ culture_parameter_unlock_maa_summerset_justiciars: "Доступны [men_at_arms|El] — [GetMaA('summerset_justiciars').GetName]"
+
 ## CULTURAL RELATIONS PARAMETERS
  culture_parameter_dislikes_marrying_outside_of_heritage:0 "Согласие на [Concept('marriage', 'брак')|E] с представителями других [Concept('heritage', 'наследий')|E]: #N -100#!"
  TRADITION_PENALTY_XENOPHOBIC:0 "Ксенофобная [culture|El]: $VALUE|+=0$"
@@ -147,12 +153,13 @@
  culture_parameter_scholar_xp_rebate:0 "Вам будет легче продвигаться в [Concept('lifestyle', 'образе жизни')|E]  [GetTrait('scholar').GetName( GetNullCharacter )]"
  culture_parameter_restoration_xp_rebate:0 "Вам будет легче продвигаться в [Concept('lifestyle', 'образе жизни')|E] восстановление"
  culture_parameter_conjuration_xp_rebate:0 "Вам будет легче продвигаться в [Concept('lifestyle', 'образе жизни')|E] зачарование"
+ culture_parameter_alchemy_xp_rebate:0 "Вам будет легче продвигаться в [Concept('lifestyle', 'пути')|E] алхимии"
 
 ## COURT POSITION PARAMETERS
  culture_parameter_can_appoint_court_housecarl:0 "Доступна [Concept('court_position', 'придворная должность')|E] [GetCourtPositionType('court_housecarl_court_position').GetName()]"
  culture_parameter_can_appoint_loremaster:0 "Доступна [Concept('court_position', 'придворная должность')|E] [GetCourtPositionType('loremaster_court_position').GetName()]" 
  culture_parameter_can_appoint_court_wives:0 "Доступна [Concept('court_position', 'придворная должность')|E] [GetCourtPositionType('huntwife_court_position').GetName()], [GetCourtPositionType('forgewife_court_position').GetName()] и [GetCourtPositionType('hearthwife_court_position').GetName()]" 
- culture_parameter_can_appoint_court_speaker:0 "Доступна [Concept('court_position', 'придворная должность')|E] [GetCourtPositionType('speaker_court_position').GetName()] "
+ culture_parameter_can_appoint_clan_mother: "Доступна [Concept('court_position', 'придворная должность')|E] [GetCourtPositionType('clan_mother_court_position').GetName()] "
  court_position_tradition_gardening:0 "$tradition_life_menders_name$ [culture_tradition|El]"
  court_position_tradition_architect:0 "$tradition_inoxidizable_metallurgy_name$ [culture_tradition|E]"
  court_position_tradition_antiquarian:0 "$tradition_inoxidizable_metallurgy_name$ [culture_tradition|E]"
@@ -174,7 +181,7 @@
  culture_parameter_better_barrack_buildings:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_barracks_01$#! предоставляет дополнительные бонусы [Concept('counties', 'графствам')|E] этой [Concept('culture', 'культуры')|E]"
  culture_parameter_fortified_cities:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_guild_halls_01$#! обеспечивает [fort_level_i][fort_level|El] и [garrison|El] в [Concept('counties', 'графствах')|E] этой [Concept('culture', 'культуры')|E]"
  culture_parameter_development_gain_on_building_complete_in_swamp:2 "Даёт #V 25#! [development_growth|El] при строительстве [Concept('buildings', 'зданий')|E] #weak (до одного раза в год)#! в [Concept('holdings', 'владениях')|E] с [Concept('terrain', 'типом местности')|E] #V Чернотопье#! или #V Болота#!"
- culture_parameter_next_level_economic_buildings:0 "Цепочку экономических [Concept('buildings', 'зданий')|E], такие как #V $building_type_pastures_01$#! или #V $building_type_cereal_fields_01$#!, можно построить на одну [Concept('era', 'эпоху')|E] раньше"
+ culture_parameter_next_level_caravanserai: "#V $building_type_caravanserai_01$#! можно построить на одну [Concept('era', 'эпоху')|E] раньше"
  culture_parameter_piety_gain_on_building_complete_in_swamp:1 "Даёт [piety_i][piety|El] при завершении строительства [buildings|El] в [Concept('holdings', 'владениях')|E] с [Concept('terrain', 'типом местности')|E] #V Болота#! или #V Чернотопье#!"
  culture_parameter_better_tax_assessor_buildings:1 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_tax_assessor_01$#! предоставляет дополнительные бонусы [Concept('counties', 'графствам')|E] этой [Concept('culture', 'культуры')|E]"
  culture_parameter_fortified_temples:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_monastic_schools_01$#! обеспечивает [fort_level_i][fort_level|El] и [garrison|El] в [Concept('counties', 'графства')|E] этой [Concept('culture', 'культуры')|E]"
@@ -251,6 +258,10 @@
  culture_parameter_scholars_respected:0 "[trait|E] [GetTrait('scholar').GetName( GetNullCharacter )] даёт [prestige_i][prestige|El]"
  culture_parameter_strategist_avaricious_bonus:0 "Персонажи со свойством [GetTrait('strategist').GetName( GetNullCharacter )] собирают больше [gold_i] налогов во время войн. Персонажи со свойством [GetTrait('avaricious').GetName( GetNullCharacter )] платят меньше золота за содержание [soldier_i][Concept( 'army', 'войск' )|E]"
  culture_parameter_cannibalism_is_pog:0 "Персонажи этой [Concept('culture', 'культуры')|E] не получают штрафа к здоровью от свойства «[GetTrait('cannibal').GetName( GetNullCharacter )]»"
+ culture_parameter_ashlands_trait_bonuses:0 "Some [commander_traits|E] have extra Ashlands, Volcanic, and Wasteland bonuses"
+ culture_parameter_black_marsh_trait_bonuses:0 "Some [commander_traits|E] have extra Black Marsh bonuses"
+ culture_parameter_diplomacy_from_magic_education: "The [magic|E] [education_traits|E] also grant [diplomacy_i][diplomacy|E]"
+ culture_parameter_mystic_trait_gives_martial_bonuses: "The [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] line of [traits|E] have additional [martial|E] bonuses"
 
 ##CHILD PERSONALITY AND EDUCATION PARAMETERS
  culture_parameter_curious_trait_more_common:0  "[children|E] с большей вероятностью получат [Concept('trait', 'свойство')|E] «[GetTrait('curious').GetName( GetNullCharacter )]»"
@@ -271,6 +282,7 @@
  culture_parameter_stewardship_education_more_valued:0 "[education_traits|E], связанные с [Concept('stewardship', 'управлением')|E], ценятся больше"
  culture_parameter_stewardship_from_martial_education:1 "[Concept( 'martial', 'Военные' )|E] [education_traits|El] также предоставляют [stewardship_i][stewardship|El]"
  culture_parameter_prowess_from_magical_education:1 "[Concept( 'arcana', 'Магические' )|E] [education_traits|El] также предоставляют [prowess_i][prowess|El]"
+ culture_parameter_gives_knigtly_education: "Children completing their [education|E] with a [martial|E] [education_focus|E] gain a $trait_education_martial_prowess$ [trait|E]"
 
 ## EVENTS PARAMETERS
  culture_parameter_wandering_poets_may_appear:0 "Бродячие поэты могут появиться при дворе, чтобы прославить или высмеять ваше правление"
@@ -307,16 +319,18 @@
  tradition_forlorn_peace_desc:1 "Мир нас подвёл. Мы должны сдерживать всех потенциальных захватчиков и предателей болью и террором и сохранять железную хватку над властью."
  tradition_arsenal_name:0 "Гарнизонные кузнецы"
  tradition_arsenal_desc:1 "Прочные укрепления и качественное оружие — основа безопасности. Наши кузнецы и каменщики позаботятся о том, чтобы у нас не было недостатка ни в том, ни в другом."
- tradition_crown_core_name:0 "На-Тотамбу"
- tradition_crown_core_desc:1 "Обычаи должны передаваться по родословной; восхвалять предков и изучать Книгу Колец. Мы должны хранить останки наших предков. Осквернить почетных мертвецов мерзкими чарами — значит навлечь на себя быстрое и суровое возмездие!"
- tradition_forebear_core_name:0 "Ра Гада"
- tradition_forebear_core_desc:1 "Мы завоевали Гибельные земли кровью и добились успеха своим потом. Мы научились ценить то, что другие люди могут предложить нам на протяжении веков, и сохранение открытого разума имеет много преимуществ."
+ tradition_crown_core_name: "На-Тотамбу"
+ tradition_crown_core_desc: "From sunken Yokuda, we inherit our nobility: without our old lands, we Na-Totambu look to the stars and to our king. From their motions, we see the path of the republic, and choose wisely our wielders of rule."
+ tradition_forebear_core_name: "Ра Гада"
+ tradition_forebear_core_desc: "Sundered Yokuda taught us that we cannot rely on lands and cities, or nobility and neighbours. Our survival flows from the deserts themselves, and we never forget to be ready to fight. We wear our armour and wield our swords, taming both peoples and sands."
  tradition_yokudan_core_name:0 "Достоинства войны"
  tradition_yokudan_core_desc:1 "Из эпохи раздоров пришли величайшие мастера меча Нирна. В освященных школах войны мы можем изучать стратегию, изготовление мечей и фехтование."
- tradition_horsemen_core_name:0 "Всадники Акоса"
- tradition_horsemen_core_desc:1 "Равнины Акос-Касаза — это дом для энергичных лошадей и выносливых людей. Самое эффективное сочетание для элитной кавалерии."
- tradition_sword_meeting_name:0 "Встреча мечей"
- tradition_sword_meeting_desc:1 "Хотя искусство певцов меча наших предков было почти утрачено, мы по-прежнему занимаемся фехтованием, оттачивая свое мастерство на поединках с друзьями и врагами в бою. Мы завоевали эту землю своей кровью и заставили её процветать своим потом."
+ tradition_horsefolk_core_name:0 "Всадники Акоса"
+ tradition_horsefolk_core_desc:1 "Равнины Акос-Касаза — это дом для энергичных лошадей и выносливых людей. Самое эффективное сочетание для элитной кавалерии."
+ tradition_redguard_core_name: "Встреча мечей"
+ tradition_redguard_core_desc: "Where our ancestors relied upon sword magics, we fight by the letting of our blood and the sweat of our brows. In Tamriel our skills were honed against foes both far and wide, seeking fame and fortune."
+ tradition_alikr_core_name: "Air and Sand"
+ tradition_alikr_core_desc: "We make our home in the harsh Alik'r desert, where water is scarce and lives are cheap. From its depths emerge warriors and prophets in equal measure."
  tradition_shattered_continent_name:0 "Расколотый континент"
  tradition_shattered_continent_desc:1 "Старая Йокуда пала перед коварным Панкратовым мечом, но её народ цеплялся за жизнь на её трупе, в конце концов вдохнув жизнь в покрытую шрамами землю."
  tradition_abecean_piracy_name:0 "Абесинское пиратство"
@@ -436,6 +450,8 @@
  tradition_velothi_exodus_desc:0 "В далеком прошлом эта культура променяла ложную идиллию своей упадочной родины на истину и праведность посредством усилий, труда и правильных суждений. С тех пор прошли тысячи лет, но ценности Велоти — вознаграждение справедливых и духовных — остаются вечными."
  tradition_denizens_lost_orsinium_name:0 "Обитатели утраченного Орсиниума" 
  tradition_denizens_lost_orsinium_desc:0 "Город Орсиниум, наш дом, был разрушен несколько десятилетий назад. Но истинный дух Орсиниума живёт в каждом из нас, и при желании каждый может создать новый Орсиниум.\n\n#weak Орсиниум - не территория, и никогда им не был. Орсиниум - место, где стоит наш народ. Даже сейчас, прямо сейчас, этому народу нужна ваша помощь.#!"
+ tradition_wood_axes_name:0 "Axes Among the Woods"
+ tradition_wood_axes_desc:0 "In the deep forests, these people have found their home. Where others fear its dangers, they see opportunity. Should others seek to take this wealth from them by force, let them tremble, because every woodcutter, miner, and craftsman is also a warrior."
  tradition_knight_paladins_name:0 "Рыцари-паладины"
  tradition_knight_paladins_desc:0 "Рыцари этой культуры обязаны приносить священные обеты, поскольку смертный сюзерен является воплощением бессмертных повелителей."
  tradition_pale_shamans_name:0 "Бледные шаманы"
@@ -466,6 +482,12 @@
  tradition_tsaesci_core_desc:0 "Целеустремленность во всем и умение различать, когда отступить, а когда наносить удар, - самый верный путь к власти."
  tradition_danger_sense_name:0 "Чувство опасности"
  tradition_danger_sense_desc:0 "Акавир - опасная земля, и её жители учатся внимательно смотреть и слушать, если хотят прожить долгую жизнь. После того как этот урок усвоен, интуитивное понимание опасных ситуаций остаётся близким и верным спутником, куда бы мы ни отправились."
+ tradition_direnni_sorcerer_kings_name: "Adamantine Stewards"
+ tradition_direnni_sorcerer_kings_desc: "More than a mere seat of power, Ada-Mantia is said to be a Tower placed by the gods themselves. Their stewardship of this ancient and holy site grants these people both insight into the winds of magic, and a certain authority in worldly matters."
+ tradition_dremora_core_name: "Daedric Oath-bonds"
+ tradition_dremora_core_desc: "Dremora loyalty is stronger than any loyalty that mortals may know. By the bold spirit of war, and the subtil spirit of the clan, the Dremora is deadlier and deeper than any warrior that the Arena can breed."
+ tradition_unused_parameter_storage:0 ""
+ tradition_unused_parameter_storage_desc:0 ""
 
 
 ## TRADITION COST MODIFIERS
@@ -484,8 +506,6 @@
  magic_rulers_desc:0 "[culture|E] не имеет #V 3#! или больше [Concept('rulers', 'правителей')|E] со [Concept('trait', 'свойствами')|E] [GetTrait('arcana_good_1').GetName( GetNullCharacter )], [GetTrait('arcana_good_2').GetName( GetNullCharacter )] или [GetTrait('arcana_good_3').GetName( GetNullCharacter )]"
  not_stoic_egalitarian_or_spiritual_desc:0 "[culture|E] не имеет [ethos|El] $ethos_stoic_name$, $ethos_egalitarian_name$ или $ethos_spiritual_name$"
  lack_breton_heritage_or_language_penalty_desc:0 "У вас нет #V $heritage_breton_name|l$ого#! [Concept('heritage', 'наследия')|E] или вы не знаете бретонского языка"
- culture_head_heavy_cavalry_desc:0 "У вас нет #V 500#! единиц [Concept( 'heavy_cavalry', 'тяжёлой кавалерии' )|E]"
-
 
  ###TRADITION MISC
  CULTURE_NOT_NATIVE_FOR_DIVERGENCE:0 "[Concept('culture', 'Культура')|E] с таким [Concept('heritage', 'наследием')|E] уже считается [Concept('native', 'коренной')|E] для вашего [Concept('capital', 'столичного')|E] [Concept('nativity_region', 'родного региона')|E]"
@@ -496,12 +516,13 @@
  tradition_orc_core_trigger_desc:0 "Имеет #V $heritage_orsimeri_name$ое#! [heritage|El]."
  tradition_iron_orc_core_trigger_desc:0 "Имеет #V $heritage_orsimeri_name$ое#! [heritage|El], либо является #V $iron_orc_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $iron_orc_collective_noun$ой.#!"
  tradition_arsenal_trigger_desc:0 "Имеет #V $heritage_orsimeri_name$ое#! [heritage|El] и не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_castle_keepers').GetName|V] #italic или#! [GetCultureTradition('tradition_metal_craftsmanship').GetName|V]."
- tradition_crown_core_trigger_desc:0 "Имеет #V $heritage_yokudan_name$ое#! [heritage|El], либо является #V $crown_culture_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $crown_culture_collective_noun$ой#!, которая не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_yokudan_core').GetName|V], [GetCultureTradition('tradition_forebear_core').GetName|V] #italic или#! [GetCultureTradition('tradition_horsemen_core').GetName|V]." #$yokudan_group_collective_noun$
- tradition_forebear_core_trigger_desc:0 "Имеет #V $heritage_yokudan_name$ое#! [heritage|El], либо является #V $forebear_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $forebear_collective_noun$ой#!, которая не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_yokudan_core').GetName|V], [GetCultureTradition('tradition_crown_core').GetName|V] #italic или#! [GetCultureTradition('tradition_horsemen_core').GetName|V]."
- tradition_yokudan_core_trigger_desc:0 "Имеет #V $heritage_yokudan_name$ое#! [heritage|El], либо является #V $yokudan_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $yokudan_collective_noun$ой#!, которая не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_crown_core').GetName|V], [GetCultureTradition('tradition_forebear_core').GetName|V], [GetCultureTradition('tradition_horsemen_core').GetName|V], [GetCultureTradition('tradition_sword_meeting').GetName|V], [GetCultureTradition('tradition_honor_bound').GetName|V] #italic или#! [GetCultureTradition('tradition_martial_admiration').GetName|V]."
- tradition_horsemen_core_trigger_desc:0 "Имеет #V $heritage_yokudan_name$ое#! [heritage|El], либо является #V $horsemen_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $horsemen_collective_noun$ой#!, которая не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_yokudan_core').GetName|V], [GetCultureTradition('tradition_forebear_core').GetName|V] #italic или#! [GetCultureTradition('tradition_crown_core').GetName|V]."
- tradition_sword_meeting_trigger_desc:0 "Имеет #V $heritage_yokudan_name$ое#! [heritage|El] и не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_yokudan_core').GetName|V], [GetCultureTradition('tradition_honor_bound').GetName|V] #italic или#! [GetCultureTradition('tradition_martial_admiration').GetName|V]."
+ tradition_crown_core_trigger_desc:0 "Имеет #V $heritage_yokudan_name$ое#! [heritage|El], либо является #V $crown_culture_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $crown_culture_collective_noun$ой#!, которая не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_yokudan_core').GetName|V], [GetCultureTradition('tradition_forebear_core').GetName|V], [GetCultureTradition('tradition_alikr_core').GetName|V] #italic или#! [GetCultureTradition('tradition_horsefolk_core').GetName|V]." #$yokudan_group_collective_noun$
+ tradition_forebear_core_trigger_desc:0 "Имеет #V $heritage_yokudan_name$ое#! [heritage|El], либо является #V $forebear_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $forebear_collective_noun$ой#!, которая не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_yokudan_core').GetName|V], [GetCultureTradition('tradition_crown_core').GetName|V], [GetCultureTradition('tradition_alikr_core').GetName|V] #italic или#! [GetCultureTradition('tradition_horsefolk_core').GetName|V]."
+ tradition_yokudan_core_trigger_desc:0 "Имеет #V $heritage_yokudan_name$ое#! [heritage|El], либо является #V $yokudan_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $yokudan_collective_noun$ой#!, которая не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_crown_core').GetName|V], [GetCultureTradition('tradition_forebear_core').GetName|V], [GetCultureTradition('tradition_horsefolk_core').GetName|V], [GetCultureTradition('tradition_redguard_core').GetName|V], [GetCultureTradition('tradition_alikr_core').GetName|V], [GetCultureTradition('tradition_honor_bound').GetName|V] #italic или#! [GetCultureTradition('tradition_martial_admiration').GetName|V]."
+ tradition_horsefolk_core_trigger_desc:0 "Имеет #V $heritage_yokudan_name$ое#! [heritage|El], либо является #V $horsefolk_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $horsefolk_collective_noun$ой#!, которая не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_yokudan_core').GetName|V], [GetCultureTradition('tradition_forebear_core').GetName|V], [GetCultureTradition('tradition_alikr_core').GetName|V] #italic или#! [GetCultureTradition('tradition_crown_core').GetName|V]."
+ tradition_redguard_core_trigger_desc: "Имеет #V $heritage_yokudan_name$ое#! [heritage|El] и не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_yokudan_core').GetName|V], [GetCultureTradition('tradition_alikr_core').GetName|V] #italic или#! [GetCultureTradition('tradition_horsefolk_core').GetName|V]."
  tradition_shattered_continent_trigger_desc:0 "[culture|E] должна быть представлена в [Concept('region', 'регионе')|E]  [GetGeographicalRegion('mundus_tamriel_yokuda').GetName]"
+ tradition_alikr_core_trigger_desc:0 "Is #V $heritage_yokudan_name$#! [heritage|E] and either #V $alikr$#! #italic or#! a [culture|E] descended from #V $alikr$#!, and does not have the [GetCultureTradition('tradition_crown_core').GetName|V], [GetCultureTradition('tradition_forebear_core').GetName|V], [GetCultureTradition('tradition_horsefolk_core').GetName|V], [GetCultureTradition('tradition_redguard_core').GetName|V], [GetCultureTradition('tradition_yokudan_core').GetName|V] #italic or#! [GetCultureTradition('tradition_mendicant_mystics').GetName|V] [traditions|E]."
  tradition_argonian_trigger_desc:0 "Имеет #V $heritage_argonian_name$ое#! [heritage|El]." #$argonian_group_collective_noun$
  tradition_naga_underworld_trigger_desc:0 "Является #V $naga_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $naga_collective_noun$ой.#!"
  tradition_feathered_ones_trigger_desc:0 "Является #V $sarpa_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $sarpa_collective_noun$ой.#!"
@@ -555,6 +576,9 @@
  tradition_imperial_legacy_trigger_desc:0 "Имеет #V $heritage_cyrodiilic_name$ое#! [heritage|El] или владеет империями Тамриэль, Сиродил или Сиродильский потентат в качестве основного титула."
  tradition_cyrodiilic_trigger_desc:0 "Имеет #V $heritage_cyrodiilic_name$ое#! [heritage|El]"
  tradition_cyrodiilic_subject_requirement:0 "Может быть получено только через [character_interaction|El] #V Предложить стать имперским отпрыском#!"
+ tradition_direnni_sorcerer_kings_trigger_desc: "Is either #V $balfiera$#! #italic or#! a [culture|E] descended from #V $balfiera$#! and does not have the [GetCultureTradition('tradition_ceremoniarchy').GetName|V], [GetCultureTradition('tradition_prescriptivism').GetName|V], [GetCultureTradition('tradition_sorcerer_kings').GetName|V] #italic or#! [GetCultureTradition('tradition_ruling_caste').GetName|V] [traditions|E]"
+ culture_parameter_magicka_education_better_outcomes:0 "[children|E] tend to do better in the [magic|E] [education|E]"
+ tradition_dremora_core_trigger_desc:0 "Is either #V $dremora$#! #italic or#! a [culture|E] descended from #V $dremora$.#!"
 
  # Imperial Scions loc
 
@@ -571,3 +595,10 @@
  ACCEPTANCE_BASELINE_FELLOW_PARIAH:0 "Солидарность [Concept('pariah', 'отверженных')|E]"
  ACCEPTANCE_BASELINE_HERITAGE_CYRODIILIC_SUBJECT:0 "[cultures|E] имеют общее [heritage|El], но одна из них имеет традицию «[GetCultureTradition('tradition_cyrodiilic_subject').GetName|V]»"
  ACCEPTANCE_BASELINE_CYRODIILIC_SUBJECT_TRADITION:0 "Одна из культур имеет #L $heritage_cyrodiilic_name$ое#! [heritage|El], а другая имеет традицию «[GetCultureTradition('tradition_cyrodiilic_subject').GetName|V]»"
+
+ culture_parameter_cheaper_conjuration_spells:0 "Conjuration [spell|E] and [rituals|E] cost #P -10%#! less [magicka|E] and Conjuration [lifestyle|E] [perks|E] rebate #P 33%#! of their [lifestyle_experience|E] cost"
+ culture_parameter_cheaper_alteration_spells:0 "Alteration [spell|E] and [rituals|E] cost #P -10%#! less [magicka|E] and Alteration [lifestyle|E] [perks|E] rebate #P 33%#! of their [lifestyle_experience|E] cost"
+ culture_parameter_cheaper_illusion_spells:0 "Illusion [spell|E] and [rituals|E] cost #P -10%#! less [magicka|E] and Illusion [lifestyle|E] [perks|E] rebate #P 33%#! of their [lifestyle_experience|E] cost"
+ culture_parameter_cheaper_destruction_spells:0 "Destruction [spell|E] and [rituals|E] cost #P -10%#! less [magicka|E] and Destruction [lifestyle|E] [perks|E] rebate #P 33%#! of their [lifestyle_experience|E] cost"
+ culture_parameter_cheaper_restoration_spells:0 "Restoration [spell|E] and [rituals|E] cost #P -10%#! less [magicka|E] and Restoration [lifestyle|E] [perks|E] rebate #P 33%#! of their [lifestyle_experience|E] cost"
+ culture_parameter_cheaper_necromancy_spells:0 "Necromancy [spell|E] and [rituals|E] cost #P -10%#! less [magicka|E] and Necromancy [lifestyle|E] [perks|E] rebate #P 33%#! of their [lifestyle_experience|E] cost"

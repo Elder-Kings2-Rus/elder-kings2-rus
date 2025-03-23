@@ -45,11 +45,11 @@
 
 ## Remove Praxis Government
  remove_praxis_government_decision:0 "Упразднить церемониархию"
- remove_praxis_government_decision_desc:0 "Одержимость совершенством - это наше самое большое несовершенство. \n С правильными указами мы могли бы положить конец тирании Пути к Алаксону и править так, как это делают другие расы Тамриэля."
+ remove_praxis_government_decision_desc:0 "Одержимость совершенством - это наше самое большое несовершенство. \nС правильными указами мы могли бы положить конец тирании Пути к Алаксону и править так, как это делают другие расы Тамриэля."
  remove_praxis_government_decision_tooltip:0 "Возможно, истинное совершенство невозможно..."
  remove_praxis_government_decision_confirm:0 "Альдмерис исчез, но мы остаемся."
  has_low_praxis_ct:0 "Ваш Праксис должен быть равен 10 или менее"
- liege_not_praxis_ct:0 "У вашего правителя не должно быть [GetGovernment( 'praxis_government' ).GetName] типа правительства."
+ liege_not_praxis_ct:0 "Ваш сюзерен не должен использовать [Concept('praxis', 'Праксис')|E]."
 ## Become Praxis Government
  become_praxis_government_decision:0 "Принять церемониархию"
  become_praxis_government_decision_desc:0 "Церемонии альдмеров имеют большое значение для нас.\nВедя упорядоченную жизнь, мы, несомненно, должны иметь упорядоченное царство. Мы должны неукоснительно следовать Пути к Алаксону, а вместе с ним к процветанию." 

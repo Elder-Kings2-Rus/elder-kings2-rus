@@ -5,3 +5,12 @@
  alteration_mage.t:0 "Маг школы изменения нанят"
  alteration_mage_recruited.tt:0 "Маг школы изменения присоединяется к вашему двору"
  not_already_has_feather.tt:0 "Вы еще не находитесь под действием заклинания, увеличивающего скорость путешествия."
+
+ hire_argonian_guide_option: "Hire Argonian Guide"
+ hire_argonian_guide_option_desc: "You will recruit a guide from among the local Saxhleel, the only people who know how to traverse the horrors of Black Marsh and stay in one piece. With a bit of luck, they may help you experience some of the more pleasant wonders of the marshes."
+ argonian_guide.t: "Argonian Guide Hired"
+ argonian_guide_recruited.tt: "An Argonian guide will join your entourage"
+
+ adventurers_plunder_travel_option: "Plunder"
+ adventurers_plunder_travel_option_desc: "Unguarded cattle, isolated farms, and traveling merchants - countless opportunities to make a quick coin on the road for those ruthless enough to wield force and face the consequences."
+ adventurers_plunder_option.tt: "When passing through a [barony|E], you gain some of the Holding's [raid_loot|E] value as [gold_i][gold|E]\n#weak (can only gain Gold once per Holding)#!\nThis will lower your opinion with the county holder and increases your [GetTrait('gallowsbait').GetName( GetNullCharacter )] [trait|E]"

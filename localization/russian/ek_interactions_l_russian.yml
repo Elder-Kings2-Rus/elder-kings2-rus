@@ -1,4 +1,19 @@
 ﻿l_russian:
+ #MARRIAGE
+ MARRIAGE_NO_OFFSPRING_REASON:0 "This union wouldn't produce a child: $VALUE|+0$"
+ MARRIAGE_DIFFERENT_HERITAGE_REASON:0 "Different [heritage|E]: $VALUE|+0$"
+ MARRIAGE_DIFFERENT_CULTURE_REASON:0 "Different [culture|E]: $VALUE|+0$"
+ MARRIAGE_INSULAR_CULTURE_REASON:0 "Their union would be considered culturally innapropriate: $VALUE|+0$"
+ MARRIAGE_LIFESPAN_REASON:0 "Different expected lifespan: $VALUE|+0$"
+ MARRIAGE_HEIRESS_MATRILINEAL_REASON:0 "[secondary_recipient.GetShortUIName|U] is an heiress and [recipient.GetShortUIName|U] would prefer a [matrilineal|E] marriage: $VALUE|+0$"
+ MARRIAGE_MONSTER_REASON:0 "Will not marry a [monster|E]: $VALUE|+0$"
+ MARRIAGE_FORMER_PARIAH_REASON:0 "Will not marry a former [pariah|E]: $VALUE|+0$"
+ MARRIAGE_CRYSTAL_TOWER_REASON:0 "[GetBuilding('crystal_tower_01').GetName]: #P +10#!"
+ #RELIGION
+ ASK_FOR_CONVERSION_CROWN_FOREBEAR:0 "[recipient.GetCulture.GetName|E] dislikes your [actor.GetCulture.GetName] ways: $VALUE|+0$."
+ #MISC
+ summoned_undead:0 "Summoned Undead"
+
  EXECUTION_ENTHRALL:0 "Превратить в нежить-трэлла"
  
  NO_TORTURING_UNDEAD:0 "Нежить нельзя пытать"
@@ -16,11 +31,7 @@
 
  ###Disrupt Arcana Interaction
  recently_disrupted:0 "Недавно истощён"
- 
- make_clan_parent_interaction:0 "Назначить матерью клана"
- make_clan_parent_interaction_desc:0 "За свою жизнь [recipient.GetFirstName] [Select_CString(recipient.IsFemale, 'повидала', 'повидал' )] многое на свете, и [recipient.GetHerHis] мудрость направляет нас..."
- make_clan_parent_interaction_one_clan_parent_per_court_tt:0 "Пока [recipient.GetFirstName] [Select_CString(recipient.IsFemale, 'жива', 'жив' )], вы не сможете объявить любого другого [Concept( 'courtier', 'придворного' )|E] матерью клана!"
- 
+
  challenge_to_single_combat_interaction.on_decline_low_learning.tt:0 "Так как [Concept( 'learning', 'учёность' )|E] персонажа [actor.GetShortUINamePossessive] слишком низка #N (менее 10)#!, [recipient.GetShortUIName] может отказаться от поединка без штрафа!"
  ek_perk_interaction.0100.t:0 "#L [recipient.GetCulture.GetCollectiveNoun]ие#! дуэльные традиции"
  ek_perk_interaction.0100.desc.intro:0 "#italic Перед началом поединка обе стороны должны произнести полное имя своего противника, обращаясь, где это уместно, к матрилинейным, патрилинейным и клановым почестям. Дуэлянты, запнувшиеся или неправильно произнесшие имя своего противника, должны остановиться и произнести его полностью ещё два раза.#!"
@@ -70,34 +81,36 @@
  adopt_hatchling_interaction.tt:0 "[recipient.GetShortUINameNoTooltip] выйдет из тюрьмы и будет [Select_CString(recipient.IsFemale, 'принята', 'принят' )] в семью в качестве [Select_CString(recipient.IsFemale, 'дочери', 'сына' )]"
 
  no_obligations:0 "Без обязательств"
- no_obligations_tt:0 "[feudal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_none' )]"
+ no_obligations_tt:0 "[vassal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_none' )]"
  CONTRACT_NO_OBLIGATIONS_REASON:0 "Без обязательств: $VALUE|=+0$"
  opinion_obligations:0 "Обычные обязательства (Мнение)"
- opinion_obligations_tt:0 "[feudal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_opinion' )]"
+ opinion_obligations_tt:0 "[vassal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_opinion' )]"
  devotion_obligations:0 "Обычные обязательства (Набожность)"
- devotion_obligations_tt:0 "[feudal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_devotion' )]"
+ devotion_obligations_tt:0 "[vassal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_devotion' )]"
  devotion_obligations_requirement:0 "#V [vassal.GetTitledFirstName]#! #bold не#! имеет #V [GetGovernment( 'theocracy_government' ).GetAdjective]ую форму правления#! или ваша форма правления #bold не#! является #V [GetGovernment( 'hierocracy_government' ).GetAdjective]ой#!"
  fame_obligations:0 "Обычные обязательства (Слава)"
- fame_obligations_tt:0 "[feudal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_fame' )]"
+ fame_obligations_tt:0 "[vassal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_fame' )]"
  arcana_obligations:0 "Обычные обязательства (Аркана)"
- arcana_obligations_tt:0 "[feudal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_arcana' )]"
+ arcana_obligations_tt:0 "[vassal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_arcana' )]"
  arcana_obligations_requirement:0 "У вас #bold нет#! [Concept('dynasty_perk', 'наследия династии')|E] #V Чародейское правление#! или [Concept('culture', 'культуры')|E] с [Concept('tradition', 'традицией')|E] [GetCultureTradition('tradition_sorcerer_kings').GetName|V]"
  prowess_obligations:0 "Обычные обязательства (Доблесть)"
- prowess_obligations_tt:0 "[feudal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_Prowess' )]"
+ prowess_obligations_tt:0 "[vassal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_Prowess' )]"
  prowess_obligations_requirement:0 "Ваша [faith|El] #bold не#! имеет догмата «[GetFaithDoctrine('tenet_contempt_for_the_weak').GetBaseName]»"
  cultural_protection:0 "Защита культуры"
  CONTRACT_CULTURAL_PROTECTION_REASON:0 "Защита культуры: $VALUE|=+0$"
  cultural_religious_privilege:0 "Культурные и религиозные привилегии"
  CONTRACT_CULTURAL_RELIGIOUS_PRIVILEGE_REASON:0 "Культурные и религиозные привилегии: $VALUE|=+0$"
- cultural_protection_tt:0 "[feudal_contract|E] начнётся с [GetVassalContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )]"
+
  great_house_vassalage_reason:0 "[recipient.GetHerHis|U] [culture|El] не желает быть частью Великого дома: $VALUE|+=0$"
+ white_gold_tower_vassalage_reason:0 "[GetBuilding('white_gold_tower_01').GetName]: #P +10#!"
+ adamantine_tower_invite_reason:0 "[GetBuilding('crystal_tower_01').GetName]: #P +25#!"
  EDUCATE_ME_OPTION_TRAIN_ARCANA_EFFECT:1 "Я буду учиться искусству магии и получу [trait|El] #V Ученика магии#!"
  EDUCATE_CHILD_OPTION_TRAIN_ARCANA_EFFECT:1 "Будет учиться искусству магии и получит [trait|El] #V Ученика магии#!"
 
- EDUCATE_ME_OPTION_TRAIN_ARCANA_LEARNING_FOCUS_EFFECT:1 "Я получаю образование в [Concept('learning', 'учёности')|E] и получу [trait|El] #V Ученика магии#!"
- EDUCATE_CHILD_OPTION_TRAIN_ARCANA_LEARNING_FOCUS_EFFECT:1 "Получает образование в [Concept('learning', 'учёности')|E] и получит [trait|El] #V Ученика магии#!"
- EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_1:0 "#N Не#! будет учиться искусству магии.\nТак как у культуры ребёнка есть [tradition|El], открывающая обучение магии, или его [dynasty|El] имеет [Concept( 'dynasty_perk', 'наследие' )|E] #V $magicka_legacy_3_name$#!, для него необходимо найти опекуна со [Concept( 'trait', 'свойством' )|E] #V $trait_education_magical_ability$#! или #V $trait_arcana_good$#!"
- EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_2:0 "#N Не#! будет учиться искусству магии.\nТак как у культуры ребенка есть [innovation|El] #V $innovation_schools_of_magic$#!, для него необходимо найти опекуна со [Concept( 'trait', 'свойством' )|E] #V $trait_education_magical_ability$#! или #V $trait_arcana_good$#!"
+ EDUCATE_ME_OPTION_TRAIN_ARCANA_LEARNING_FOCUS_EFFECT:1 "Я получаю образование в [Concept('learning', 'учёности')|E] и получу [trait|El] [Concept('magical_education_trait', 'магического образования')|E]"
+ EDUCATE_CHILD_OPTION_TRAIN_ARCANA_LEARNING_FOCUS_EFFECT:1 "Получает образование в [Concept('learning', 'учёности')|E] и получит [trait|El] [Concept('magical_education_trait', 'магического образования')|E]"
+ EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_1:0 "#N Не#! будет учиться искусству магии.\nТак как у культуры ребёнка есть [tradition|El], открывающая обучение магии, или его [dynasty|El] имеет [Concept( 'dynasty_perk', 'наследие' )|E] #V $magicka_legacy_3_name$#!, для него необходимо найти опекуна со [Concept( 'trait', 'свойством' )|E] #V $trait_education_magic$#! или #V $trait_arcana_good$#!"
+ EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_2:0 "#N Не#! будет учиться искусству магии.\nТак как у культуры ребенка есть [innovation|El] #V $innovation_schools_of_magic$#!, для него необходимо найти опекуна со [Concept( 'trait', 'свойством' )|E] #V $trait_education_magic$#! или #V $trait_arcana_good$#!"
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_3:0 "#N Не#! будет учиться искусству магии.\nТак как у культуры ребенка есть [innovation|El] #V $innovation_magical_studies$#! или #V $innovation_lunar_mysteries$#!, для него необходимо найти опекуна со [Concept( 'trait', 'свойством' )|E] #V $trait_arcana_good$#!"
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_4:0 "#N Не#! будет учиться искусству магии.\nТак как у культуры ребенка нет [Concept( 'innovation', 'инновации' )|E] #V $innovation_magical_studies$#!, #V $innovation_lunar_mysteries$#! или #V $innovation_schools_of_magic$#!, и нет [Concept( 'tradition', 'традиции' )|E], открывающей обучение магии, и его [dynasty|El] не имеет [Concept( 'dynasty_perk', 'наследие' )|E] #V $magicka_legacy_3_name$#!, обучение искусству магии #N невозможно#!."
 
@@ -107,8 +120,8 @@
 
  thralldom_interaction:0 "Превратить в трэлла"
  thralldom_interaction_desc:0 "Вы убьёте персонажа [recipient.GetShortUINameNoTooltip], чтобы превратить [recipient.GetHerHis] труп в подчиняющегося вам раба."
- get_undead_thrall:0 "Вы превратите труп персонажа [recipient.GetShortUINameNoTooltip] в бездумного, но преданного раба."
- 
+ get_undead_thrall:0 "Вы превратите труп персонажа [recipient.GetShortUINameNoTooltip] в бездумного, но преданного раба-#TOOLTIP:GAME_TRAIT,undead_character,[GetNullCharacter] #L нежить#!#!."
+
  skull_corruption_interaction:0 "Использовать Череп Порчи"
  skull_corruption_desc:0 "Используйте Череп Порчи на персонаже [recipient.GetShortUINameNoTooltip], чтобы заставить [recipient.GetHerHis] сражаться с двойником!"
 
@@ -172,3 +185,6 @@
  destroy_hist_holding_interaction:0 "Уничтожить хист"
  destroy_hist_holding_interaction_desc:0 "Разрушить все [Concept('buildings', 'постройки')|E] в этом [Concept('holding', 'владении')|E] и превратить его в храм"
  destroy_hist_holding_interaction_notification:0 "Хист уничтожен"
+
+ #Co-emperor (replaces vanilla)
+ valid_co_emperor_powerful_family_trigger: "Only [house_heads|E] of [powerful_families|E] may be [co_emperors|E]"

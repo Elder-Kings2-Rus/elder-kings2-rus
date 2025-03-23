@@ -134,7 +134,7 @@
  ek_ymis_decision_events.0025b:0 "Я не стану тратить на это ресурсы."
 
  ek_ymis_decision_events.0026.t:0 "Обучение некромантии: вне контроля"
- ek_ymis_decision_events.0026.desc:0 "Охотник, которого я [Select_CString(ROOT.Char.IsFemale, 'наняла', 'нанял' )], принёс мне тело действительно великолепного животного, что известно как [ROOT.Char.Custom('LocalAnimal')]. Я [Select_CString(ROOT.Char.IsFemale, 'отнесла', 'отнёс' )] его в глубины своего подземелья, где [Select_CString(ROOT.Char.IsFemale, 'могла', 'мог' )] бы спокойно проводить эксперименты. Или так я [Select_CString(ROOT.Char.IsFemale, 'думала', 'думал' )].\n\nНесмотря на то, что я [Select_CString(ROOT.Char.IsFemale, 'следовала', 'следовал' )] всем инструкциям, что-то пошло совсем не так в тот момент, когда я [Select_CString(ROOT.Char.IsFemale, 'произнесла', 'произнёс' )] заклинание над трупом. Несмотря на все мои предосторожности, животное атаковало меня как только вновь ожило.\n\nБежать некуда, так что неужели мне теперь придётся сражаться с собственным творением?"
+ ek_ymis_decision_events.0026.desc:0 "Охотник, которого я [Select_CString(ROOT.Char.IsFemale, 'наняла', 'нанял' )], принёс мне тело действительно великолепного животного, что известно как [ROOT.Char.MakeScope.Var('animal_type').GetFlagName]. Я [Select_CString(ROOT.Char.IsFemale, 'отнесла', 'отнёс' )] его в глубины своего подземелья, где [Select_CString(ROOT.Char.IsFemale, 'могла', 'мог' )] бы спокойно проводить эксперименты. Или так я [Select_CString(ROOT.Char.IsFemale, 'думала', 'думал' )].\n\nНесмотря на то, что я [Select_CString(ROOT.Char.IsFemale, 'следовала', 'следовал' )] всем инструкциям, что-то пошло совсем не так в тот момент, когда я [Select_CString(ROOT.Char.IsFemale, 'произнесла', 'произнёс' )] заклинание над трупом. Несмотря на все мои предосторожности, животное атаковало меня как только вновь ожило.\n\nБежать некуда, так что неужели мне теперь придётся сражаться с собственным творением?"
  #ek_ymis_decision_events.0026a:0 "Fight it with arcana."
  ek_ymis_decision_events.0026b:0 "Сразиться с нежитью!"
  ek_ymis_decision_events.0026.tt.success:0 "Вы отбиваетесь от нежити."
@@ -244,6 +244,7 @@
  ek_stress_trait_coping_decisions.1151.a.tt:0 "Вы получаете случайный магический модификатор"
  ek_stress_trait_coping_decisions.1151.a.success:0 "Вы получаете положительный модификатор"
  ek_stress_trait_coping_decisions.1151.a.failure:0 "Вы получаете отрицательный модификатор"
+ ek_stress_trait_coping_decisions.1151.a.neutral:0 "Вы получаете смешанный модификатор"
 
  ek_stress_trait_coping_decisions.1152.t:0 "Изучить новые применения магии"
  ek_stress_trait_coping_decisions.1152.desc:0 "Почему я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] оставаться в рамках устоявшейся магии? При определённой креативности и смелости я могу бросить вызов ограничениям и найти новое применение старым заклинаниям. Это удовлетворит моё любопытство и, возможно, научит меня чему-то в процессе."

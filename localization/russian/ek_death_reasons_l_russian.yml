@@ -68,7 +68,10 @@
  death_leech_health_magic_killer:0 "[Select_CString(CHARACTER.IsFemale, 'была превращена', 'был превращён' )] в безжизненную оболочку с помощью тёмной магии [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'им персонажем', '' )]"
  death_banished:0 "[Select_CString(CHARACTER.IsFemale, 'изгнана', 'изгнан' )] обратно в Обливион"
  death_banished_killer:0 "[Select_CString(CHARACTER.IsFemale, 'изгнана', 'изгнан' )] в Обливион [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'им персонажем', '' )]"
+ death_dark_brotherhood:0 "was assassinated by the Dark Brotherhood"
+ death_dark_brotherhood_killer:0 "was assassinated by the Dark Brotherhood on behalf of [TARGET_CHARACTER.GetUIName]"
  death_morag_tong:0 "[Select_CString(CHARACTER.IsFemale, 'была с честью казнена', 'был с честью казнён' )] Мораг Тонг"
+ death_morag_tong_killer:0 "was honorably executed by the Morag Tong on behalf of [TARGET_CHARACTER.GetUIName]"
  murder_morag_tong_against_you_was_successful:0 "#X Вы были с честью казнены Мораг Тонг!#!"
  death_vampire:0 "[Select_CString(CHARACTER.IsFemale, 'высушена', 'высушен' )] вампиром"
  death_vampire_killer:0 "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'им персонажем', '' )] в порыве вампирской ярости"
@@ -145,6 +148,11 @@
  death_sload_floater:0 "[Select_CString(CHARACTER.IsFemale, 'была убита и погружена', 'был убит и погружён' )] на зловещий плавучий корабль слоадов"
  death_angry_populace:0 "[Select_CString(CHARACTER.IsFemale, 'подверглась', 'подвергся' )] линчеванию кучкой разъярённых селян"
  death_senchal_fire: "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] во время Великого Сенчалского пожара"
+ death_magical_duel: "died in a magical duel"
+ death_magical_duel_killer: "died in a magical duel against [TARGET_CHARACTER.GetUIName]"
+ death_midden: "was claimed by the horrors under Winterhold College"
+ death_skeever: "died after an infectious skeever bite"
+ death_skeever_trap: "managed to get killed by stepping into a skeever trap"
 
  # purely historical
  death_orsinium:0 "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] во время осады Орсиниума"

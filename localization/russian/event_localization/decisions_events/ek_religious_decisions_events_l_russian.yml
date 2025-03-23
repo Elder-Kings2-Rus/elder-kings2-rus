@@ -32,7 +32,7 @@
  ek_religious_decision.1017.a:0 "Я [Select_CString(ROOT.Char.IsFemale, 'готова', 'готов' )]"
  ek_religious_decision.1017.a.t:0 "Благодаря вашему уровню [Concept( 'piety_level', 'набожности' )|El] Периайт благословит вас малой болезнью."
  ek_religious_decision.1017.b:0 "Я [Select_CString(ROOT.Char.IsFemale, 'готова', 'готов' )]"
- ek_religious_decision.1017.b.t:0 "Благодаря вашему уровню [Concept( 'piety_level', 'набожности' )|El] Периайт благословит вас болезнью по его выбору"
+ ek_religious_decision.1017.b.t:0 "Благодаря вашему уровню [Concept( 'piety_level', 'набожности' )|El] Периайт благословит вас болезнью по его выбору."
  ek_religious_decision.1017.c:0 "Я [Select_CString(ROOT.Char.IsFemale, 'готова', 'готов' )]"
  ek_religious_decision.1017.c.t:0 "Благодаря вашему уровню [Concept( 'piety_level', 'набожности' )|El] Периайт благословит вас болезнью по его выбору, которая может даже привести к небольшой эпидемии."
  ek_religious_decision.1017.d:0 "Я [Select_CString(ROOT.Char.IsFemale, 'готова', 'готов' )]"

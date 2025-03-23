@@ -1,20 +1,14 @@
 ﻿l_russian:
  #Flavor localization for Court Chaplains, sorted by Religion.
- 
  #Yokudan Religion
- councillor_court_chaplain_yokudan_religion_county:0 "Придворный имам"
- councillor_court_chaplain_yokudan_religion_county_possessive:0 "придворного имама"
- councillor_court_chaplain_yokudan_religion_duchy:0 "Муфтий"
- councillor_court_chaplain_yokudan_religion_duchy_possessive:0 "муфтия"
- councillor_court_chaplain_yokudan_religion_kingdom:0 "Аллама"
- councillor_court_chaplain_yokudan_religion_kingdom_possessive:0 "алламы"
- councillor_court_chaplain_yokudan_religion_kingdom_female:0 "Алламаа"
- councillor_court_chaplain_yokudan_religion_kingdom_female_possessive:0 "алламы"
- councillor_court_chaplain_yokudan_religion_empire:0 "Халиф"
- councillor_court_chaplain_yokudan_religion_empire_possessive:0 "халифа"
- councillor_court_chaplain_yokudan_religion_empire_female:0 "Халифа"
- councillor_court_chaplain_yokudan_religion_empire_female_possessive:0 "халифы"
- 
+ councillor_court_chaplain_yokudan_religion_kingdom:0 "Придворный оракул"
+ councillor_court_chaplain_yokudan_religion_kingdom_possessive:0 "придворного оракула"
+ councillor_court_chaplain_yokudan_religion_kingdom_female:0 "Придворный оракул"
+ councillor_court_chaplain_yokudan_religion_kingdom_female_possessive:0 "придворного оракула"
+ councillor_court_chaplain_yokudan_religion_empire:0 "Придворный оракул"
+ councillor_court_chaplain_yokudan_religion_empire_possessive:0 "придворного оракула"
+ councillor_court_chaplain_yokudan_religion_empire_female:0 "Придворный оракул"
+ councillor_court_chaplain_yokudan_religion_empire_female_possessive:0 "придворного оракула"
  #Aldmer Religion
  councillor_court_chaplain_aldmeri_religion_duchy:0 "Альдарх"
  councillor_court_chaplain_aldmeri_religion_duchy_possessive:0 "альдарха"

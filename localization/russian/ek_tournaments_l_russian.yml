@@ -6,7 +6,7 @@
  tournament_contest_type_magic:0 "Магические состязания"
  tourney_participant_magic:1 "[Concept( 'trait_level_track_xp', 'опыт пути развития свойства' )|E] в «[GetTrait('tourney_participant').GetName( GetNullCharacter )]» магических состязаниях."
  arcana_concept:1 "Мастерство [Concept( 'arcana', 'арканы' )|E]"
- trait_education_magic:1 "Магическое [Concept( 'education', 'образование' )|E]"
+ has_education_magic:1 "Магическое [Concept( 'education', 'образование' )|E]"
  character_contest_type_aptitude_magic:1 "#T [contest_aptitude|E] к магическим состязаниям: [Character.Custom('GetContestTypeMagicAptitude')]#![AddTextIf( Not( StringIsEmpty( Character.MakeScope.GetScriptValueDesc('contest_type_aptitude_magic') ) ), Concatenate( '\n', Character.MakeScope.GetScriptValueDesc('contest_type_aptitude_magic') ) )]"
 
  MAGIC_EXPERIENCE_REGULAR_TOOLTIP:0 "$tournament_contest_favoured_skill_tooltip$ $tourney_participant_magic$"

@@ -38,3 +38,9 @@
  form_auridon_kingdom_decision_confirm:0 "Да здравствует [ROOT.Char.GetLadyLord|U] Ауридона!"
  form_auridon_kingdom_decision_effects_de_jure_tt:0 "Все герцогства в пределах [Concept( 'region', 'региона' )|E] Ауридона становятся [de_jure|El] вассалами королевства Ауридон"
  ## Formable Empires
+ form_cyrodiil_decision:0 "#R Reform the Cyrodiilic Empire - AI#!"
+ form_cyrodiil_decision_desc:0 "#R You're not supposed to see this, it's for AI.\n\nFor too long, Cyrodiil has been divided, its once-mighty empire reduced to scattered provinces and warring lords. I will change that. By my hand, the heart of Tamriel shall be united once more. The Ruby Throne, the seat of emperors past, calls out for a worthy ruler, and I will answer.#!"
+ form_cyrodiil_decision_tooltip:0 "You will create a new [empire|E] in Cyrodiil."
+ form_cyrodiil_decision_confirm:0 "The next Emperor of Cyrodiil!"
+ holds_colovian_estates_or_nibenay:0 "Must hold [GetTitleByKey('e_colovian_estates').GetNameNoTier] or [GetTitleByKey('e_nibenay').GetNameNoTier]"
+ restore_cyrodiil_percentage:0 "You control at least #V 75%#! of [counties|E] in [GetGeographicalRegion('mundus_tamriel_cyrodiil').GetName] (Current: [SCOPE.ScriptValue('cyrodiil_decision_region_owned_percent_value')|0]%)"
