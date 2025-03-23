@@ -258,12 +258,12 @@
  culture_parameter_scholars_respected:0 "[trait|E] [GetTrait('scholar').GetName( GetNullCharacter )] даёт [prestige_i][prestige|El]"
  culture_parameter_strategist_avaricious_bonus:0 "Персонажи со свойством [GetTrait('strategist').GetName( GetNullCharacter )] собирают больше [gold_i] налогов во время войн. Персонажи со свойством [GetTrait('avaricious').GetName( GetNullCharacter )] платят меньше золота за содержание [soldier_i][Concept( 'army', 'войск' )|E]"
  culture_parameter_cannibalism_is_pog:0 "Персонажи этой [Concept('culture', 'культуры')|E] не получают штрафа к здоровью от свойства «[GetTrait('cannibal').GetName( GetNullCharacter )]»"
- culture_parameter_ashlands_trait_bonuses:0 "Some [commander_traits|E] have extra Ashlands, Volcanic, and Wasteland bonuses"
- culture_parameter_black_marsh_trait_bonuses:0 "Some [commander_traits|E] have extra Black Marsh bonuses"
- culture_parameter_diplomacy_from_magic_education: "The [magic|E] [education_traits|E] also grant [diplomacy_i][diplomacy|E]"
- culture_parameter_mystic_trait_gives_martial_bonuses: "The [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] line of [traits|E] have additional [martial|E] bonuses"
+ culture_parameter_ashlands_trait_bonuses:0 "Некоторые из [Concept('commander_traits', 'свойств командира')|E] дают дополнительные бонусы в пепельных землях, в вулканической местности и пустошах"
+ culture_parameter_black_marsh_trait_bonuses:0 "Некоторые из [Concept('commander_traits', 'свойств командира')|E] дают дополнительные бонусы в Чернотопье"
+ culture_parameter_diplomacy_from_magic_education: "[Concept('magic', 'Магические')|E] [Concept('education_traits', 'Свойства образования')|E] предоставляют бонус к [diplomacy_i][Concept('diplomacy', 'дипломатии')|E]"
+ culture_parameter_mystic_trait_gives_martial_bonuses: "Линейка [Concept('traits', 'свойств')|E] «[GetTrait('lifestyle_mystic').GetName( GetNullCharacter )]» предоставляет дополнительные бонусы к [Concept('martial', 'военному делу')|E]"
 
-##CHILD PERSONALITY AND EDUCATION PARAMETERS
+ ##CHILD PERSONALITY AND EDUCATION PARAMETERS
  culture_parameter_curious_trait_more_common:0  "[children|E] с большей вероятностью получат [Concept('trait', 'свойство')|E] «[GetTrait('curious').GetName( GetNullCharacter )]»"
  culture_parameter_curious_trait_less_common:0 "[children|E] с меньшей вероятностью получат [Concept('trait', 'свойство')|E] [GetTrait('curious').GetName( GetNullCharacter )]"
  culture_parameter_bossy_trait_more_common:0  "[children|E] с большей вероятностью получат [Concept('trait', 'свойство')|E] «[GetTrait('bossy').GetName( GetNullCharacter )]»"
@@ -282,9 +282,9 @@
  culture_parameter_stewardship_education_more_valued:0 "[education_traits|E], связанные с [Concept('stewardship', 'управлением')|E], ценятся больше"
  culture_parameter_stewardship_from_martial_education:1 "[Concept( 'martial', 'Военные' )|E] [education_traits|El] также предоставляют [stewardship_i][stewardship|El]"
  culture_parameter_prowess_from_magical_education:1 "[Concept( 'arcana', 'Магические' )|E] [education_traits|El] также предоставляют [prowess_i][prowess|El]"
- culture_parameter_gives_knigtly_education: "Children completing their [education|E] with a [martial|E] [education_focus|E] gain a $trait_education_martial_prowess$ [trait|E]"
+ culture_parameter_gives_knigtly_education: "Дети, завершившие [Concept('education', 'обучение')|E] с [Concept('education_focus', 'фокусом')|E] «[martial|E]» получают [Concept('trait', 'свойство')|E] «$trait_education_martial_prowess$»"
 
-## EVENTS PARAMETERS
+ ## EVENTS PARAMETERS
  culture_parameter_wandering_poets_may_appear:0 "Бродячие поэты могут появиться при дворе, чтобы прославить или высмеять ваше правление"
  culture_parameter_wandering_swordsmen_may_appear:0 "Бродячие мастера меча могут появиться при дворе, чтобы сражаться за вас или бросить вызов вашим воинам"
  culture_parameter_battlefield_headhunters:0 "Иногда вы получаете головы врагов, убитых на поле боя, в качестве трофеев"
@@ -294,14 +294,14 @@
  culture_parameter_hunting_activity_prestige:0 "Персонажи этой [Concept('culture', 'культуры')|E] получают дополнительный [prestige_i][prestige|El] от [Concept('activities', 'занятий')|E] охотой"
  culture_parameter_pets_more_common:0 "Персонажи этой культуры чаще имеют домашних животных"
 
-## COMMANDER PARAMETERS
+ ## COMMANDER PARAMETERS
  culture_parameter_can_recruit_organization_specialist:0 "Вы получите [decision|El] для найма [Concept('commanders', 'командиров')|E]-организаторов"
  recruit_organization_specialist_decision:0 "Найм специалиста-организатора"
  recruit_organization_specialist_decision_desc:0 "Люди [ROOT.Char.GetCulture.GetCollectiveNoun] привыкли к долгим путешествиям в суровых условиях, в их истории были великие исходы. Чтобы лучше организовать движение больших отрядов, я должен искать командира из их народа."
  recruit_organization_specialist_decision.tt:0 "[commander|E] с высоким [Concept('martial', 'военным делом')|E] и [Concept('trait', 'свойством')|E] [GetTrait('organizer').GetName( GetNullCharacter )] присоединиться к вашему [Concept('court', 'двору')|E]"
  recruit_organization_specialist_decision_tooltip:0 "$recruit_organization_specialist_decision.tt$"
  recruit_organization_specialist_decision_confirm:0 "$invite_knights_decision_confirm$"
- 
+
  ### TRADITIONS
  tradition_nord_core_name:0 "Дети неба"
  tradition_nord_core_desc:1 "Встречаться и совещаться по важным вопросам королевства — в том числе по вопросам престолонаследия — является признанной привилегией дворянства. Нордские дворяне не любят, когда их презирают."
@@ -320,17 +320,17 @@
  tradition_arsenal_name:0 "Гарнизонные кузнецы"
  tradition_arsenal_desc:1 "Прочные укрепления и качественное оружие — основа безопасности. Наши кузнецы и каменщики позаботятся о том, чтобы у нас не было недостатка ни в том, ни в другом."
  tradition_crown_core_name: "На-Тотамбу"
- tradition_crown_core_desc: "From sunken Yokuda, we inherit our nobility: without our old lands, we Na-Totambu look to the stars and to our king. From their motions, we see the path of the republic, and choose wisely our wielders of rule."
+ tradition_crown_core_desc: "От затонувшей Йокуды мы унаследовали наше благородство: не имея своих старых земель, мы, На-Тотамбу, смотрим на звёзды и на нашего короля. По их движению мы видим путь республики и мудро выбираем себе правителей."
  tradition_forebear_core_name: "Ра Гада"
- tradition_forebear_core_desc: "Sundered Yokuda taught us that we cannot rely on lands and cities, or nobility and neighbours. Our survival flows from the deserts themselves, and we never forget to be ready to fight. We wear our armour and wield our swords, taming both peoples and sands."
+ tradition_forebear_core_desc: "Затонувшая Йокуда научила нас, что мы не можем полагаться на земли и города, на дворян и соседей. Наше выживание зависит от самих пустынь, и мы всегда готовы к бою. Мы носим наши доспехи и владеем нашими мечами, укрощая народы и пески."
  tradition_yokudan_core_name:0 "Достоинства войны"
  tradition_yokudan_core_desc:1 "Из эпохи раздоров пришли величайшие мастера меча Нирна. В освященных школах войны мы можем изучать стратегию, изготовление мечей и фехтование."
  tradition_horsefolk_core_name:0 "Всадники Акоса"
  tradition_horsefolk_core_desc:1 "Равнины Акос-Касаза — это дом для энергичных лошадей и выносливых людей. Самое эффективное сочетание для элитной кавалерии."
  tradition_redguard_core_name: "Встреча мечей"
- tradition_redguard_core_desc: "Where our ancestors relied upon sword magics, we fight by the letting of our blood and the sweat of our brows. In Tamriel our skills were honed against foes both far and wide, seeking fame and fortune."
- tradition_alikr_core_name: "Air and Sand"
- tradition_alikr_core_desc: "We make our home in the harsh Alik'r desert, where water is scarce and lives are cheap. From its depths emerge warriors and prophets in equal measure."
+ tradition_redguard_core_desc: "Там, где наши предки полагались на магию меча, мы сражаемся, пуская кровь и обливаясь потом. В Тамриэле наши навыки оттачивались в борьбе с врагами, как далёкими, так и близкими, в поисках славы и удачи."
+ tradition_alikr_core_name: "Воздух и песок"
+ tradition_alikr_core_desc: "Мы нашли свой дом в суровой пустыне Алик'р, где мало воды, а жизнь не стоит ничего. Из её глубин выходят воины и пророки в равной степени."
  tradition_shattered_continent_name:0 "Расколотый континент"
  tradition_shattered_continent_desc:1 "Старая Йокуда пала перед коварным Панкратовым мечом, но её народ цеплялся за жизнь на её трупе, в конце концов вдохнув жизнь в покрытую шрамами землю."
  tradition_abecean_piracy_name:0 "Абесинское пиратство"
@@ -450,8 +450,8 @@
  tradition_velothi_exodus_desc:0 "В далеком прошлом эта культура променяла ложную идиллию своей упадочной родины на истину и праведность посредством усилий, труда и правильных суждений. С тех пор прошли тысячи лет, но ценности Велоти — вознаграждение справедливых и духовных — остаются вечными."
  tradition_denizens_lost_orsinium_name:0 "Обитатели утраченного Орсиниума" 
  tradition_denizens_lost_orsinium_desc:0 "Город Орсиниум, наш дом, был разрушен несколько десятилетий назад. Но истинный дух Орсиниума живёт в каждом из нас, и при желании каждый может создать новый Орсиниум.\n\n#weak Орсиниум - не территория, и никогда им не был. Орсиниум - место, где стоит наш народ. Даже сейчас, прямо сейчас, этому народу нужна ваша помощь.#!"
- tradition_wood_axes_name:0 "Axes Among the Woods"
- tradition_wood_axes_desc:0 "In the deep forests, these people have found their home. Where others fear its dangers, they see opportunity. Should others seek to take this wealth from them by force, let them tremble, because every woodcutter, miner, and craftsman is also a warrior."
+ tradition_wood_axes_name:0 "Топоры в лесу"
+ tradition_wood_axes_desc:0 "В глухих лесах этот народ обрёл свой дом. Там, где другие боятся опасностей, они видят возможности. Если кто-то попытается силой отнять у них это богатство, пусть трепещут, ведь каждый дровосек, рудокоп и ремесленник - это ещё и воин."
  tradition_knight_paladins_name:0 "Рыцари-паладины"
  tradition_knight_paladins_desc:0 "Рыцари этой культуры обязаны приносить священные обеты, поскольку смертный сюзерен является воплощением бессмертных повелителей."
  tradition_pale_shamans_name:0 "Бледные шаманы"
@@ -482,10 +482,10 @@
  tradition_tsaesci_core_desc:0 "Целеустремленность во всем и умение различать, когда отступить, а когда наносить удар, - самый верный путь к власти."
  tradition_danger_sense_name:0 "Чувство опасности"
  tradition_danger_sense_desc:0 "Акавир - опасная земля, и её жители учатся внимательно смотреть и слушать, если хотят прожить долгую жизнь. После того как этот урок усвоен, интуитивное понимание опасных ситуаций остаётся близким и верным спутником, куда бы мы ни отправились."
- tradition_direnni_sorcerer_kings_name: "Adamantine Stewards"
- tradition_direnni_sorcerer_kings_desc: "More than a mere seat of power, Ada-Mantia is said to be a Tower placed by the gods themselves. Their stewardship of this ancient and holy site grants these people both insight into the winds of magic, and a certain authority in worldly matters."
- tradition_dremora_core_name: "Daedric Oath-bonds"
- tradition_dremora_core_desc: "Dremora loyalty is stronger than any loyalty that mortals may know. By the bold spirit of war, and the subtil spirit of the clan, the Dremora is deadlier and deeper than any warrior that the Arena can breed."
+ tradition_direnni_sorcerer_kings_name: "Адамантиновые управители"
+ tradition_direnni_sorcerer_kings_desc: "Считается, что Ада-Мантия - это не просто средоточие власти, а башня, возведённая самими богами. Владение этим древним и священным местом даёт этому народу как понимание ветров магии, так и определённый авторитет в мирских делах."
+ tradition_dremora_core_name: "Даэдрические узы клятвы"
+ tradition_dremora_core_desc: "Верность дремор сильнее любой преданности в понимании смертныых. Благодаря смелому духу войны и тонкому духу клана, дреморы смертоноснее и выносливее, чем любой воин, которого может породить Арена."
  tradition_unused_parameter_storage:0 ""
  tradition_unused_parameter_storage_desc:0 ""
 
@@ -522,7 +522,7 @@
  tradition_horsefolk_core_trigger_desc:0 "Имеет #V $heritage_yokudan_name$ое#! [heritage|El], либо является #V $horsefolk_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $horsefolk_collective_noun$ой#!, которая не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_yokudan_core').GetName|V], [GetCultureTradition('tradition_forebear_core').GetName|V], [GetCultureTradition('tradition_alikr_core').GetName|V] #italic или#! [GetCultureTradition('tradition_crown_core').GetName|V]."
  tradition_redguard_core_trigger_desc: "Имеет #V $heritage_yokudan_name$ое#! [heritage|El] и не имеет [Concept('tradition', 'традиций')|E] [GetCultureTradition('tradition_yokudan_core').GetName|V], [GetCultureTradition('tradition_alikr_core').GetName|V] #italic или#! [GetCultureTradition('tradition_horsefolk_core').GetName|V]."
  tradition_shattered_continent_trigger_desc:0 "[culture|E] должна быть представлена в [Concept('region', 'регионе')|E]  [GetGeographicalRegion('mundus_tamriel_yokuda').GetName]"
- tradition_alikr_core_trigger_desc:0 "Is #V $heritage_yokudan_name$#! [heritage|E] and either #V $alikr$#! #italic or#! a [culture|E] descended from #V $alikr$#!, and does not have the [GetCultureTradition('tradition_crown_core').GetName|V], [GetCultureTradition('tradition_forebear_core').GetName|V], [GetCultureTradition('tradition_horsefolk_core').GetName|V], [GetCultureTradition('tradition_redguard_core').GetName|V], [GetCultureTradition('tradition_yokudan_core').GetName|V] #italic or#! [GetCultureTradition('tradition_mendicant_mystics').GetName|V] [traditions|E]."
+ tradition_alikr_core_trigger_desc:0 "Имеет #V $heritage_yokudan_name|l$ое#! [Concept('heritage', 'наследие')|E] и является либо #V $alikr_collective_noun|l$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $alikr_collective_noun|l$ой#!, и не имеет [Concept('traditions', 'традиций')|E] [GetCultureTradition('tradition_crown_core').GetName|V], [GetCultureTradition('tradition_forebear_core').GetName|V], [GetCultureTradition('tradition_horsefolk_core').GetName|V], [GetCultureTradition('tradition_redguard_core').GetName|V], [GetCultureTradition('tradition_yokudan_core').GetName|V] #italic или#! [GetCultureTradition('tradition_mendicant_mystics').GetName|V]."
  tradition_argonian_trigger_desc:0 "Имеет #V $heritage_argonian_name$ое#! [heritage|El]." #$argonian_group_collective_noun$
  tradition_naga_underworld_trigger_desc:0 "Является #V $naga_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $naga_collective_noun$ой.#!"
  tradition_feathered_ones_trigger_desc:0 "Является #V $sarpa_collective_noun$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $sarpa_collective_noun$ой.#!"
@@ -576,9 +576,9 @@
  tradition_imperial_legacy_trigger_desc:0 "Имеет #V $heritage_cyrodiilic_name$ое#! [heritage|El] или владеет империями Тамриэль, Сиродил или Сиродильский потентат в качестве основного титула."
  tradition_cyrodiilic_trigger_desc:0 "Имеет #V $heritage_cyrodiilic_name$ое#! [heritage|El]"
  tradition_cyrodiilic_subject_requirement:0 "Может быть получено только через [character_interaction|El] #V Предложить стать имперским отпрыском#!"
- tradition_direnni_sorcerer_kings_trigger_desc: "Is either #V $balfiera$#! #italic or#! a [culture|E] descended from #V $balfiera$#! and does not have the [GetCultureTradition('tradition_ceremoniarchy').GetName|V], [GetCultureTradition('tradition_prescriptivism').GetName|V], [GetCultureTradition('tradition_sorcerer_kings').GetName|V] #italic or#! [GetCultureTradition('tradition_ruling_caste').GetName|V] [traditions|E]"
- culture_parameter_magicka_education_better_outcomes:0 "[children|E] tend to do better in the [magic|E] [education|E]"
- tradition_dremora_core_trigger_desc:0 "Is either #V $dremora$#! #italic or#! a [culture|E] descended from #V $dremora$.#!"
+ tradition_direnni_sorcerer_kings_trigger_desc: "Является #V $balfiera_collective_noun|l$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $balfiera_collective_noun|l$ой#!, и не имеет [Concept('traditions', 'традиций')|E] [GetCultureTradition('tradition_ceremoniarchy').GetName|V], [GetCultureTradition('tradition_prescriptivism').GetName|V], [GetCultureTradition('tradition_sorcerer_kings').GetName|V] #italic или#! [GetCultureTradition('tradition_ruling_caste').GetName|V]"
+ culture_parameter_magicka_education_better_outcomes:0 "[children|E] обычно получают более качественное [Concept('magic', 'магическое')|E] [Concept( 'education', 'образование')|E]"
+ tradition_dremora_core_trigger_desc:0 "Является #V $dremora_collective_noun|l$ой#! #italic или#! иной [Concept('culture', 'культурой')|E], происходящей от #V $dremora_collective_noun|l$ой#!."
 
  # Imperial Scions loc
 
@@ -596,9 +596,9 @@
  ACCEPTANCE_BASELINE_HERITAGE_CYRODIILIC_SUBJECT:0 "[cultures|E] имеют общее [heritage|El], но одна из них имеет традицию «[GetCultureTradition('tradition_cyrodiilic_subject').GetName|V]»"
  ACCEPTANCE_BASELINE_CYRODIILIC_SUBJECT_TRADITION:0 "Одна из культур имеет #L $heritage_cyrodiilic_name$ое#! [heritage|El], а другая имеет традицию «[GetCultureTradition('tradition_cyrodiilic_subject').GetName|V]»"
 
- culture_parameter_cheaper_conjuration_spells:0 "Conjuration [spell|E] and [rituals|E] cost #P -10%#! less [magicka|E] and Conjuration [lifestyle|E] [perks|E] rebate #P 33%#! of their [lifestyle_experience|E] cost"
- culture_parameter_cheaper_alteration_spells:0 "Alteration [spell|E] and [rituals|E] cost #P -10%#! less [magicka|E] and Alteration [lifestyle|E] [perks|E] rebate #P 33%#! of their [lifestyle_experience|E] cost"
- culture_parameter_cheaper_illusion_spells:0 "Illusion [spell|E] and [rituals|E] cost #P -10%#! less [magicka|E] and Illusion [lifestyle|E] [perks|E] rebate #P 33%#! of their [lifestyle_experience|E] cost"
- culture_parameter_cheaper_destruction_spells:0 "Destruction [spell|E] and [rituals|E] cost #P -10%#! less [magicka|E] and Destruction [lifestyle|E] [perks|E] rebate #P 33%#! of their [lifestyle_experience|E] cost"
- culture_parameter_cheaper_restoration_spells:0 "Restoration [spell|E] and [rituals|E] cost #P -10%#! less [magicka|E] and Restoration [lifestyle|E] [perks|E] rebate #P 33%#! of their [lifestyle_experience|E] cost"
- culture_parameter_cheaper_necromancy_spells:0 "Necromancy [spell|E] and [rituals|E] cost #P -10%#! less [magicka|E] and Necromancy [lifestyle|E] [perks|E] rebate #P 33%#! of their [lifestyle_experience|E] cost"
+ culture_parameter_cheaper_conjuration_spells:0 "[Concept('spell', 'Заклинания')|E] и [Concept('rituals', 'ритуалы')|E] школы Колдовства требуют на #P -10%#! меньше [Concept('magicka', 'маны')|E], а [Concept('perks', 'достоинства')|E] [Concept('lifestyle', 'пути')|E] колдовства возвращают #P 33%#! от их стоимости в [Concept('lifestyle_experience', 'опыте')|E]"
+ culture_parameter_cheaper_alteration_spells:0 "[Concept('spell', 'Заклинания')|E] и [Concept('rituals', 'ритуалы')|E] школы Изменения требуют на #P -10%#! меньше [Concept('magicka', 'маны')|E], а [Concept('perks', 'достоинства')|E] [Concept('lifestyle', 'пути')|E] изменения возвращают #P 33%#! от их стоимости в [Concept('lifestyle_experience', 'опыте')|E]"
+ culture_parameter_cheaper_illusion_spells:0 "[Concept('spell', 'Заклинания')|E] и [Concept('rituals', 'ритуалы')|E] школы Иллюзии требуют на #P -10%#! меньше [Concept('magicka', 'маны')|E], а [Concept('perks', 'достоинства')|E] [Concept('lifestyle', 'пути')|E] иллюзии возвращают #P 33%#! от их стоимости в [Concept('lifestyle_experience', 'опыте')|E]"
+ culture_parameter_cheaper_destruction_spells:0 "[Concept('spell', 'Заклинания')|E] и [Concept('rituals', 'ритуалы')|E] школы Разрушения требуют на #P -10%#! меньше [Concept('magicka', 'маны')|E], а [Concept('perks', 'достоинства')|E] [Concept('lifestyle', 'пути')|E] разрушения возвращают #P 33%#! от их стоимости в [Concept('lifestyle_experience', 'опыте')|E]"
+ culture_parameter_cheaper_restoration_spells:0 "[Concept('spell', 'Заклинания')|E] и [Concept('rituals', 'ритуалы')|E] школы Восстановления требуют на #P -10%#! меньше [Concept('magicka', 'маны')|E], а [Concept('perks', 'достоинства')|E] [Concept('lifestyle', 'пути')|E] восстановления возвращают #P 33%#! от их стоимости в [Concept('lifestyle_experience', 'опыте')|E]"
+ culture_parameter_cheaper_necromancy_spells:0 "[Concept('spell', 'Заклинания')|E] и [Concept('rituals', 'ритуалы')|E] школы некромантии требуют на #P -10%#! меньше [Concept('magicka', 'маны')|E], а [Concept('perks', 'достоинства')|E] [Concept('lifestyle', 'пути')|E] некромантии возвращают #P 33%#! от их стоимости в [Concept('lifestyle_experience', 'опыте')|E]"

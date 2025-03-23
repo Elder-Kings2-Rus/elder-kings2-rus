@@ -56,47 +56,47 @@
  innovation_scavenging:0 "Грабеж"
  innovation_scavenging_desc:0 "Для чужаков и захватчиков риклинги кажутся не более чем зверями с небольшой собственной культурой, но это часть их культуры и общества - отбирать все, что они могут, у слабых, а не производить самостоятельно."
 
- innovation_berserker_training:0 "Berserker Training"
- innovation_berserker_training_desc:0 "Despite their shorter stature, a dangerous rage burns in the hearts of our fiercest warriors. With the appropriate training and equipment, they have the potential to channel that intensity to make a formidable impact on the battlefield."
+ innovation_berserker_training:0 "Тренировки берсерков"
+ innovation_berserker_training_desc:0 "Несмотря на малый рост, в сердцах наших самых свирепых воинов горит опасная ярость. При наличии соответствующей подготовки и снаряжения они способны направить эту ярость в нужное русло и оказать грозное влияние на поле боя."
 
- innovation_bristleback_taming:0 "Bristleback Taming"
- innovation_bristleback_taming_desc:0 "The robust bristlebacks roaming the snowy plains of northern Tamriel prove to be surprisingly adept steeds when properly tamed. Their sturdiness and toughness make them particularly well-suited for the harsh climate of our own homeland."
+ innovation_bristleback_taming:0 "Укрощение щетиноспинов"
+ innovation_bristleback_taming_desc:0 "Крепкие щетиноспины, бродящие по заснеженным равнинам северного Тамриэля, оказываются удивительно умелыми скакунами, если их правильно приручить. Благодаря своей выносливости и стойкости они особенно хорошо подходят для сурового климата нашей родины."
 
  # Riekr
  innovation_power_symbols:0 "Символы власти"
  innovation_power_symbols_desc:0 "Рикры обычно собираются вокруг личностей, которые смогли приобрести редкое оружие или носить мощные знаки отличия. Поскольку они в значительной степени неспособны производить такие товары сами, они роются в старых руинах или хранят трофеи тех, кого победили в бою."
 
- innovation_scrapped_platings:0 "Scrapped Platings"
- innovation_scrapped_platings_desc:0 "Thanks to the resourcefulness and creativity of our smiths, we can effectively utilize even the heaviest armors by readjusting them to suit the specific needs and abilities of our people."
+ innovation_scrapped_platings:0 "Отбракованное снаряжение"
+ innovation_scrapped_platings_desc:0 "Благодаря изобретательности и творческому подходу наших кузнецов мы можем эффективно использовать даже самые тяжелые доспехи, подстраивая их под конкретные нужды и способности нашего народа."
 
  # Goblin
  innovation_primal_tradition:0 "Племенные традиции" 
  innovation_primal_tradition_desc:0 "Вопреки распространённому мнению, гоблин-кины очень склонны к традициям, некоторые предметы одежды гоблин-кинов относятся к #LORE [Concept( 'compendium_first_era', 'Первой эре' )|E]#!. Однако спорным остается вопрос, унаследовали ли они их от предыдущих поколений, унаследовали у других цивилизаций или изобрели сами."
 
- innovation_durzog_breeding:0 "Durzog Breeding"
- innovation_durzog_breeding_desc:0 "Most individuals tend to avoid Durzogs due to their repulsive appearance and carnivorous hunting behavior. However, it's worth noting that these creatures possess remarkable intelligence, making them capable of being trained as formidable war beasts."
- 
- innovation_refitted_armors:0 "Refitted Armors"
- innovation_refitted_armors_desc:0 "Goblins are known for many things, yet advanced metalworking is not among their those. Nonetheless, this lack is mitigated by the practical approach of repurposing armor looted from defeated enemies, effectively adapting it to the specific needs of our community."
-  
- innovation_war_witchcraft:0 "War Witchcraft"
- innovation_war_witchcraft_desc:0 "Goblin witches play crucial roles within their tribe. They provide counsel to chieftains, possess the ability to heal wounds, and adeptly craft a variety of potions. Furthermore, their magical capabilities extend to both potent destructive forces and the casting of curses, making their powers potentially formidable in combat."
+ innovation_durzog_breeding:0 "Разведение дурзогов"
+ innovation_durzog_breeding_desc:0 "Большинство стараются избегать дурзогов из-за их отталкивающей внешности и плотоядного охотничьего поведения. Однако стоит отметить, что эти существа обладают недюжинным интеллектом, благодаря чему их можно обучать как грозных боевых зверей."
 
- innovation_curse_forging:0 "Curse Forging"
- innovation_curse_forging_desc:0 "The hatred, disregard, and disdain directed towards our race may be burdensome, but it can also serve as fuel for our resolve. Infused into the blades of our mightiest warriors, we have the power to reflect these sentiments back upon anyone who dares to oppose us."
+ innovation_refitted_armors:0 "Переделанные доспехи"
+ innovation_refitted_armors_desc:0 "Гоблины славятся многим, но продвинутая металлообработка не входит в их число. Тем не менее, этот недостаток компенсируется практичным подходом к переделке доспехов, награбленных у поверженных врагов, эффективно адаптируя их под конкретные нужды нашего сообщества."
+
+ innovation_war_witchcraft:0 "Боевое колдовство"
+ innovation_war_witchcraft_desc:0 "Гоблинские ведьмы играют важнейшую роль в своем племени. Они дают советы вождям, обладают способностью исцелять раны и искусно изготавливают различные зелья. Кроме того, их магические способности распространяются как на мощные разрушительные силы, так и на наложение проклятий, что делает их силы потенциально грозными в бою."
+
+ innovation_curse_forging:0 "Плетение проклятий"
+ innovation_curse_forging_desc:0 "Ненависть, пренебрежение и презрение, направленные на нашу расу, могут быть обременительными, но они также могут служить топливом для нашей решимости. Вложенные в клинки наших самых могучих воинов, онии способны отразить эти чувства на всех, кто осмелится выступить против нас."
 
  # Imga
  innovation_canopy_tactics:0 "Тактика навеса"
  innovation_canopy_tactics_desc:0 "Традиционный город имга обычно строится среди ветвей огромного валенвудского дерева; поэтому обезьянолюди приспособили свою войну к жизни под навесом. При необходимости они способны формировать более крупные отряды и затем обрушивать разрушения сверху. То, что они не смогут изготовить самостоятельно в виде оружия и доспехов, они будут получать, торгуя с другими культурами."
- 
- innovation_heavy_clubs:0 "Heavy Clubs"
- innovation_heavy_clubs_desc:0 "These are crude yet effective weapons, capable of delivering devastating blows in the right hands. Simple to craft and easy to wield, they are favored by those Imga who value raw power over finesse in battle."
 
- innovation_tamed_magic: "Tamed Magic"
- innovation_tamed_magic_desc:0 "Through rigorous training and secret techniques, Valenwoods magic once considered wild and uncontrollable has been harnessed by the Imga, allowing for its safe and effective use in both daily life and battle."
+ innovation_heavy_clubs:0 "Тяжёлые дубины"
+ innovation_heavy_clubs_desc:0 "Это грубое, но эффективное оружие, способное наносить сокрушительные удары в умелых руках. Простое в изготовлении и лёгкое в обращении, оно по душе тем имга, для которых грубая сила важнее изящества в бою."
 
- innovation_warding_amulets: "Warding Amulets"
- innovation_warding_amulets_desc:0 "Highly valued for their ability to ward off curses and magical attacks, these protective charms are the proud possesion of the famous Imga Spellguard."
+ innovation_tamed_magic: "Усмирённая магия"
+ innovation_tamed_magic_desc:0 "Благодаря суровым тренировкам и секретным техникам магия Валенвуда, некогда считавшаяся дикой и неконтролируемой, была обуздана имга, что позволило безопасно и эффективно использовать ее как в повседневной жизни, так и в бою."
+
+ innovation_warding_amulets: "Защитные амулеты"
+ innovation_warding_amulets_desc:0 "Эти защитные амулеты, высоко ценимые за способность отражать проклятия и магические атаки, являются гордостью знаменитых заклинателей имга."
 
  # Argonian
  innovation_ancient_roots:0 "Древние корни"
