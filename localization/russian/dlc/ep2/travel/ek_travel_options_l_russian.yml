@@ -1,16 +1,16 @@
 ﻿l_russian:
  
  hire_alteration_mage_option:0 "Нанять мага школы изменения"
- hire_alteration_mage_option_desc:0 "Вы наймете опытного мага школы изменения, чтобы увеличить общую скорость путешествия, используя полезные заклинания."
+ hire_alteration_mage_option_desc:0 "Вы наймёте опытного мага школы изменения, чтобы увеличить общую скорость путешествия, используя полезные заклинания."
  alteration_mage.t:0 "Маг школы изменения нанят"
  alteration_mage_recruited.tt:0 "Маг школы изменения присоединяется к вашему двору"
- not_already_has_feather.tt:0 "Вы еще не находитесь под действием заклинания, увеличивающего скорость путешествия."
+ not_already_has_feather.tt:0 "Вы ещё не находитесь под действием заклинания, увеличивающего скорость путешествия."
 
- hire_argonian_guide_option: "Hire Argonian Guide"
- hire_argonian_guide_option_desc: "You will recruit a guide from among the local Saxhleel, the only people who know how to traverse the horrors of Black Marsh and stay in one piece. With a bit of luck, they may help you experience some of the more pleasant wonders of the marshes."
- argonian_guide.t: "Argonian Guide Hired"
- argonian_guide_recruited.tt: "An Argonian guide will join your entourage"
+ hire_argonian_guide_option: "Нанять аргонианского проводника"
+ hire_argonian_guide_option_desc: "Вы нанимаете проводника из числа местных Саксхилов — единственных, кто знает, как пересечь ужасы Чернотопья и остаться в живых. С небольшой удачей они помогут вам увидеть и более приятные чудеса болот."
+ argonian_guide.t: "Аргонианский проводник нанят"
+ argonian_guide_recruited.tt: "Аргонианский проводник присоединится к вашей свите"
 
- adventurers_plunder_travel_option: "Plunder"
- adventurers_plunder_travel_option_desc: "Unguarded cattle, isolated farms, and traveling merchants - countless opportunities to make a quick coin on the road for those ruthless enough to wield force and face the consequences."
- adventurers_plunder_option.tt: "When passing through a [barony|E], you gain some of the Holding's [raid_loot|E] value as [gold_i][gold|E]\n#weak (can only gain Gold once per Holding)#!\nThis will lower your opinion with the county holder and increases your [GetTrait('gallowsbait').GetName( GetNullCharacter )] [trait|E]"
+ adventurers_plunder_travel_option: "Грабить"
+ adventurers_plunder_travel_option_desc: "Неохраняемый скот, изолированные фермы и путешествующие купцы — бесчисленные возможности быстро заработать на дороге для тех, кто достаточно безжалостен, чтобы применить силу и столкнуться с последствиями."
+ adventurers_plunder_option.tt: "При прохождении через [barony|El] вы получаете часть [Concept('raid_loot', 'добычи')|E] владения в виде [gold_i][Concept( 'gold', 'золота' )|E]\n#weak (можно получить золото лишь один раз за владение)#!\nЭто ухудшит ваши отношения с владельцем графства и повысит ваше [Concept('trait', 'свойство')|E] [GetTrait('gallowsbait').GetName( GetNullCharacter )]"

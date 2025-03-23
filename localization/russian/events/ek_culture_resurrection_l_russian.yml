@@ -6,7 +6,7 @@
   culture_resurrection_event.0001.option2:0 "Да найдём мы убежище от этого лютого холода."
   culture_resurrection_event.0001.option3:0 "Мы не должны раскрывать наш народ..."  
   culture_resurrection_event.0001.option1.flavor:0 "Нам предстоит тяжёлая работа...\n\n @warning_icon! #X Ваша культура будет считаться [Concept( 'living_culture_short', 'живой' )|E] и сможет [Concept( 'promote_culture', 'распространяться' )|E]! #!"
-  culture_resurrection_event.0001.option2.flavor:0 "Your culture will remain a [dead_culture|E] for now.\n\nHowever, if you later become [landed|E], your culture will again be considered [living_culture_short|E] and can be used to [promote_culture|E]!"¶  
+  culture_resurrection_event.0001.option2.flavor:0 "Your culture will remain a [dead_culture|E] for now.\n\nHowever, if you later become [landed|E], your culture will again be considered [living_culture_short|E] and can be used to [promote_culture|E]!"  
   culture_resurrection_event.0001.option3.flavor:0 "@warning_icon! #X Ваша культура останется [Concept( 'dead_culture_short', 'мёртвой' )|E] и не сможет [Concept( 'promote_culture', 'распространяться' )|E]. Выбирайте мудро, ибо это событие больше не повторится! #!" 
   #Betrayed
   culture_resurrection_event.0002.t:0 "Рассвет преданных"
