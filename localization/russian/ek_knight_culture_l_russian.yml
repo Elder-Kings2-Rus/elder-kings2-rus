@@ -102,38 +102,38 @@
 
   #Game Concept versions
 
- knight_nord:0 "[Concept( 'knight', '$knight_nord_no_tooltip$' )|E]"
- knight_nord_plural:0 "[Concept( 'knight', '$knight_nord_no_tooltip_plural$' )|E]"
+ knight_nord:0 "[Concept( 'knight', '$knight_nord_no_tooltip|q$' )|E]"
+ knight_nord_plural:0 "[Concept( 'knight', '$knight_nord_no_tooltip_plural|q$' )|E]"
  
- knight_dunmer:0 "[Concept( 'knight', '$knight_dunmer_no_tooltip$' )|E]"
- knight_dunmer_plural:0 "[Concept( 'knight', '$knight_dunmer_no_tooltip_plural$' )|E]"
+ knight_dunmer:0 "[Concept( 'knight', '$knight_dunmer_no_tooltip|q$' )|E]"
+ knight_dunmer_plural:0 "[Concept( 'knight', '$knight_dunmer_no_tooltip_plural|q$' )|E]"
 
- knight_redguard:0 "[Concept( 'knight', '$knight_redguard_no_tooltip$' )|E]"
- knight_redguard_plural:0 "[Concept( 'knight', '$knight_redguard_no_tooltip_plural$' )|E]"
+ knight_redguard:0 "[Concept( 'knight', '$knight_redguard_no_tooltip|q$' )|E]"
+ knight_redguard_plural:0 "[Concept( 'knight', '$knight_redguard_no_tooltip_plural|q$' )|E]"
 
- knight_pirate:0 "[Concept( 'knight', '$knight_pirate_no_tooltip$' )|E]"
- knight_pirate_plural:0 "[Concept( 'knight', '$knight_pirate_no_tooltip_plural$' )|E]"
+ knight_pirate:0 "[Concept( 'knight', '$knight_pirate_no_tooltip|q$' )|E]"
+ knight_pirate_plural:0 "[Concept( 'knight', '$knight_pirate_no_tooltip_plural|q$' )|E]"
 
- knight_ordinator:0 "[Concept( 'knight', '$knight_ordinator_no_tooltip$' )|E]"
- knight_ordinator_plural:0 "[Concept( 'knight', '$knight_ordinator_no_tooltip_plural$' )|E]"
+ knight_ordinator:0 "[Concept( 'knight', '$knight_ordinator_no_tooltip|q$' )|E]"
+ knight_ordinator_plural:0 "[Concept( 'knight', '$knight_ordinator_no_tooltip_plural|q$' )|E]"
  
- knight_altmer:0 "[Concept( 'knight', '$knight_altmer_no_tooltip$' )|E]"
- knight_altmer_plural:0 "[Concept( 'knight', '$knight_altmer_no_tooltip_plural$' )|E]"
+ knight_altmer:0 "[Concept( 'knight', '$knight_altmer_no_tooltip|q$' )|E]"
+ knight_altmer_plural:0 "[Concept( 'knight', '$knight_altmer_no_tooltip_plural|q$' )|E]"
  
- knight_ayleid:0 "[Concept( 'knight', '$knight_ayleid_no_tooltip$' )|E]"
- knight_ayleid_plural:0 "[Concept( 'knight', '$knight_ayleid_no_tooltip_plural$' )|E]"
+ knight_ayleid:0 "[Concept( 'knight', '$knight_ayleid_no_tooltip|q$' )|E]"
+ knight_ayleid_plural:0 "[Concept( 'knight', '$knight_ayleid_no_tooltip_plural|q$' )|E]"
  
- knight_syffim:0 "[Concept( 'knight', '$knight_syffim_no_tooltip$' )|E]"
- knight_syffim_plural:0 "[Concept( 'knight', '$knight_syffim_no_tooltip_plural$' )|E]"
+ knight_syffim:0 "[Concept( 'knight', '$knight_syffim_no_tooltip|q$' )|E]"
+ knight_syffim_plural:0 "[Concept( 'knight', '$knight_syffim_no_tooltip_plural|q$' )|E]"
  
- knight_khajiit:0 "[Concept( 'knight', '$knight_khajiit_no_tooltip$' )|E]"
- knight_khajiit_plural:0 "[Concept( 'knight', '$knight_khajiit_no_tooltip_plural$' )|E]"
+ knight_khajiit:0 "[Concept( 'knight', '$knight_khajiit_no_tooltip|q$' )|E]"
+ knight_khajiit_plural:0 "[Concept( 'knight', '$knight_khajiit_no_tooltip_plural|q$' )|E]"
  
- knight_lilmothiit:0 "[Concept( 'knight', '$knight_lilmothiit_no_tooltip$' )|E]"
- knight_lilmothiit_plural:0 "[Concept( 'knight', '$knight_lilmothiit_no_tooltip_plural$' )|E]"
+ knight_lilmothiit:0 "[Concept( 'knight', '$knight_lilmothiit_no_tooltip|q$' )|E]"
+ knight_lilmothiit_plural:0 "[Concept( 'knight', '$knight_lilmothiit_no_tooltip_plural|q$' )|E]"
  
- knight_imga:0 "[Concept( 'knight', '$knight_imga_no_tooltip$' )|E]"
- knight_imga_plural:0 "[Concept( 'knight', '$knight_imga_no_tooltip_plural$' )|E]"
+ knight_imga:0 "[Concept( 'knight', '$knight_imga_no_tooltip|q$' )|E]"
+ knight_imga_plural:0 "[Concept( 'knight', '$knight_imga_no_tooltip_plural|q$' )|E]"
  
- knight_bosmer:0 "[Concept( 'knight', '$knight_bosmer_no_tooltip$' )|E]"
- knight_bosmer_plural:0 "[Concept( 'knight', '$knight_bosmer_no_tooltip_plural$' )|E]"
+ knight_bosmer:0 "[Concept( 'knight', '$knight_bosmer_no_tooltip|q$' )|E]"
+ knight_bosmer_plural:0 "[Concept( 'knight', '$knight_bosmer_no_tooltip_plural|q$' )|E]"

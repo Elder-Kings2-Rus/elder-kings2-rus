@@ -119,13 +119,13 @@
  trait_p_ob_boethiah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Принца даэдра, известного как [ROOT.Char.Custom('GetObBoethiahName')]."
  
  trait_p_ob_clavicus:0 "Принц-покровитель - [ROOT.Char.Custom('GetObClavicusName')]"
- trait_p_ob_clavicus_base:0 "Последователь Клавикуса"
+ trait_p_ob_clavicus_base:0 "Последователь Клавикуса Вайла"
  trait_p_ob_clavicus_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ob_clavicus_desc' )]"
  trait_p_ob_clavicus_desc:0 "Последователь Клавикуса Вайла."
  trait_p_ob_clavicus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Принца даэдра, известного как [ROOT.Char.Custom('GetObClavicusName')]."
  
  trait_p_ob_hermaeus:0 "Принц-покровитель - [ROOT.Char.Custom('GetObHermaeusName')]"
- trait_p_ob_hermaeus_base:0 "Последователь Хермеуса"
+ trait_p_ob_hermaeus_base:0 "Последователь Хермеуса Моры"
  trait_p_ob_hermaeus_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ob_hermaeus_desc' )]"
  trait_p_ob_hermaeus_desc:0 "Последователь Хермеуса Моры."
  trait_p_ob_hermaeus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Принца даэдра, известного как [ROOT.Char.Custom('GetObHermaeusName')]."
@@ -143,7 +143,7 @@
  trait_p_ob_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Принца даэдра, известного как [ROOT.Char.Custom('GetObMalacathName')]."
  
  trait_p_ob_mehrunes:0 "Принц-покровитель - [ROOT.Char.Custom('GetObMehrunesName')]"
- trait_p_ob_mehrunes_base:0 "Последователь Мерунеса"
+ trait_p_ob_mehrunes_base:0 "Последователь Мерунеса Дагона"
  trait_p_ob_mehrunes_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ob_mehrunes_desc' )]"
  trait_p_ob_mehrunes_desc:0 "Последователь Мерунеса Дагона."
  trait_p_ob_mehrunes_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Принца даэдра, известного как [ROOT.Char.Custom('GetObMehrunesName')]."
@@ -161,7 +161,7 @@
  trait_p_ob_meridia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Принца даэдра, известного как [ROOT.Char.Custom('GetObMeridiaName')]."
  
  trait_p_ob_molag:0 "Принц-покровитель - [ROOT.Char.Custom('GetObMolagName')]"
- trait_p_ob_molag_base:0 "Последователь Молага"
+ trait_p_ob_molag_base:0 "Последователь Молага Бала"
  trait_p_ob_molag_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ob_molag_desc' )]"
  trait_p_ob_molag_desc:0 "Последователь Молага Бала."
  trait_p_ob_molag_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Принца даэдра, известного как [ROOT.Char.Custom('GetObMolagName')]."
@@ -342,10 +342,12 @@
  
  trait_p_ch_reman:0 "Покровитель - Реман Сиродил"
  trait_p_ch_reman_base:0 "Последователь Ремана Сиродила"
+ trait_p_rc_reman_base:0 "Последователь Ремана"
  trait_p_ch_reman_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ch_reman_desc' )]"
  trait_p_ch_reman_desc:0 "Последователь Ремана Сиродила"
  trait_p_ch_reman_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Ремана - 'Света Людей', отразившего вторжение с Акавира и благословленного Акатошем даром Драконьей крови."
- 
+ trait_p_rc_reman_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Ремана - Сына востока."
+
  trait_p_ch_bendu:0 "Покровитель - Бенду Оло"
  trait_p_ch_bendu_base:0 "Последователь Бенду Оло"
  trait_p_ch_bendu_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ch_bendu_desc' )]"
@@ -430,7 +432,7 @@
  trait_p_yp_ruptga_base:0 "Последователь Руптги"
  trait_p_yp_ruptga_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_yp_ruptga_desc' )]"
  trait_p_yp_ruptga_desc:0 "Последователь Руптги"
- trait_p_yp_ruptga_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Руптги, также известного как Высокий Папа."
+ trait_p_yp_ruptga_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Руптги, Высокого Папы."
 
  trait_p_yp_tava:0 "Божество-покровитель - Тава"
  trait_p_yp_tava_base:0 "Последователь Тавы"
@@ -455,7 +457,19 @@
  trait_p_yp_zeht_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_yp_zeht_desc' )]"
  trait_p_yp_zeht_desc:0 "Последователь Зета"
  trait_p_yp_zeht_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Зета, Бога крестьянских хозяйств."
- 
+
+ trait_p_yp_leki:0 "Follower of Leki"
+ trait_p_yp_leki_base:0 "Follower of Leki"
+ trait_p_yp_leki_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_yp_leki_desc' )]"
+ trait_p_yp_leki_desc:0 "A follower of Leki"
+ trait_p_yp_leki_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Leki, Saint of the Spirit Sword."
+
+ trait_p_yp_hoonding:0 "Follower of HoonDing"
+ trait_p_yp_hoonding_base:0 "Follower of HoonDing"
+ trait_p_yp_hoonding_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_yp_hoonding_desc' )]"
+ trait_p_yp_hoonding_desc:0 "A follower of HoonDing"
+ trait_p_yp_hoonding_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of HoonDing, the Make Way God."
+
  #Tribunal
  trait_p_tr_vivec:0 "Божество-покровитель - Вивек"
  trait_p_tr_vivec_base:0 "Последователь Вивека"

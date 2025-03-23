@@ -3,34 +3,17 @@
  trait_impure_desc:0 "Нечистые запятнали свою веру и божественное наследие, будучи прокляты деформированным телом или вступив в близкие отношения с другими нечистыми созданиями."
  trait_impure_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'запятнала', 'запятнал' )] свою веру и божественное наследие, будучи [Select_CString(ROOT.GetCharacter.IsFemale, 'проклятой', 'проклятым' )] деформированным телом или вступив в близкие отношения с другим нечистым созданием."
 
- trait_fighters_1:0 "Гильдия бойцов: Защитник"
- trait_fighters_1_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является защитником Гильдии бойцов."
- trait_fighters_2:0 "Гильдия бойцов: Надзиратель"
- trait_fighters_2_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является надзирателем Гильдии бойцов."
- trait_fighters_3:0 "Гильдия бойцов: Страж"
- trait_fighters_3_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является стражем Гильдии бойцов."
- trait_fighters_4:0 "Гильдия бойцов: Чемпион"
- trait_fighters_4_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чемпионом Гильдии бойцов."
- trait_fighters_5:0 "Гильдия бойцов: Мастер"
- trait_fighters_5_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является мастером Гильдии бойцов, одним из самых старших членов организации."
-
- trait_lefthanded:0 "Левша"
- trait_lefthanded_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является [Select_CString(ROOT.GetCharacter.IsFemale, 'леворукой', 'леворуким' )]. Из-за господства правшей в мире некоторые задачи даются труднее для персонажа [ROOT.GetCharacter.GetFirstNameNoTooltip], но в некоторых случаях, например, в бою один на один, это преимущество."
- trait_ambidextrous:0 "Амбидекстр"
- trait_ambidextrous_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является амбидекстром. Пишет ли [Select_CString(ROOT.GetCharacter.IsFemale, 'она', 'он' )], сражается или прелюбодействует, [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'способна', 'способен' )] пользоваться обеими своими руками одинаково хорошо."
-
- guild_fighters_traits:0 "Гильдия бойцов"
- trait_guild_fighters_traits:0 "Гильдия бойцов"
-
  trait_pirate:0 "Пират"
  trait_pirate_desc:0 "Этот персонаж - пират. Ярррр, дружище!"
  trait_pirate_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - пират. Ярррр, дружище!\n\n#I Выбор этого свойства в редакторе персонажа вызовет событие в начале игры, что позволит вам начать игру с [Concept('pirate_government', 'пиратской формой правления')|E].#!"
 
  trait_plunderer:0 "[Select_CString(ROOT.Char.IsFemale, 'Разбойница', 'Разбойник' )]"
  trait_plunderer_desc:0 "Истинная сила достигается только путем захвата того, что принадлежит вам по праву. А весь мир и его богатства принадлежат вам по праву."
+ trait_plunderer_character_desc:0 "True power can only be achieved by seizing what is rightfully [ROOT.GetCharacter.GetFirstNameNoTooltip]'s. And the whole world and its riches are rightfully [ROOT.GetCharacter.GetHersHis]."
 
  trait_crimeboss:0 "Главарь"
  trait_crimeboss_desc:0 "В землях Тамриэля действует множество тёмных сил и злобных фракций, и этот персонаж решил использовать их в своих интересах."
+ trait_crimeboss_character_desc: "There are many dark forces and malicious factions at play in the lands of Tamriel and [ROOT.GetCharacter.GetFirstNameNoTooltip] has decided to use them to [ROOT.GetCharacter.GetHersHis] advantage."
 
  trait_necromancer:0 "Некромант"
  trait_necromancer_desc:0 "Этот персонаж известен тем, что оскверняет трупы умерших, манипулируя их душами и воскрешая их тела для воплощения своих желаний.\n\n#I Выбор этого свойства в редакторе персонажа вызовет событие в начале игры, что позволит вам начать игру в качестве тайного некроманта.#!"
@@ -67,6 +50,10 @@
  trait_peryite_affliction_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'заразилась', 'заразился' )] одержимостью Периайта, даэдрической болезнью, насылаемой самим князем Чумы. Инфекция надолго поселяется в теле носителя. В некоторые дни она едва заметна, в другие - вызывает резкие лихорадочные конвульсии и рвоту едкой слизью."
  disease_peryite_affliction:0 "Одержимость Периайта."
 
+ trait_stricken: "Stricken"
+ trait_stricken_desc: "This character has contracted the Knahaten Flu, however instead of killing them, it has left them weakened in both body and mind. Nearly feral and still tainted by the disease, the Stricken are outcasts to society and usually executed on sight."
+ trait_stricken_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has contracted the Knahaten Flu, however instead of killing them, it has left them weakened in both body and mind. Nearly feral and still tainted by the disease, the Stricken are outcasts to society and usually executed on sight, for fear of spreading the disease again."
+
  # Transformations
  trait_irritable_lycan:0 "Раздражительность"
  trait_irritable_lycan_desc:0 "Стресс сделал этого персонажа склонным к частым вспышкам гнева и истерикам."
@@ -86,7 +73,8 @@
  trait_undead:0 "Нежить"
  trait_undead_character:0 "Нежить"
  trait_undead_character_desc:0 "Этот персонаж пережил смерть и теперь бродит по Нирну в образе жуткой нежити."
- trait_undead_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] бродит по Нирну как жуткая нежить, каким-то образом пережив смерть."
+ trait_undead_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] бродит по Нирну как жуткая нежить, пережив смерть."
+ trait_undead_character_undead_version_of_desc:0 "[ROOT.Var('undead_version_of').Char.GetTitledFirstName] бродит по Нирну как жуткая нежить, пережив смерть."
 
  trait_hagraven:0 "Ворожея"
 
@@ -94,33 +82,22 @@
  trait_briarheart_desc:0 "Этот персонаж [Select_CString(ROOT.GetCharacter.IsFemale, 'является могущественной ведьмой. Она провела', 'является могущественным колдуном. Он провёл' )] старый и тёмный ритуал, чтобы обменять часть своей человечности на забытые силы."
  trait_briarheart_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'является могущественной ведьмой', 'является могущественным колдуном' )] и [Select_CString(ROOT.GetCharacter.IsFemale, 'она провела', 'он провёл' )] старый и тёмный ритуал, чтобы обменять часть своей человечности на забытые силы."
 
- trait_soul_magic:0 "Маг души"
- trait_soul_magic_desc:0 "Этот персонаж овладел магией души, древней формой манипуляции душами и останками."
- trait_soul_magic_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'овладела', 'овладел' )] магией души, древней формой манипуляции душами и останками."
- trait_conjurer:0 "[Select_CString(ROOT.Char.IsFemale, 'Заклинательница', 'Заклинатель' )]"
- trait_conjurer_desc:0 "Этот персонаж овладел магической школой Колдовства. Ни одно существо или предмет из другого мира не находится вне пределов его досягаемости."
- trait_conjurer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'овладела', 'овладел' )] магической школой Колдовства. Ни одно существо или предмет из другого мира не находится вне пределов [ROOT.GetCharacter.GetHerHis] досягаемости."
-
- trait_thrall:0 "Трэлл"
- trait_thrall_desc:0 "Этот персонаж был порабощён некромантом. Его свободная воля была заменена слепой преданностью своему новому хозяину."
- trait_thrall_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'была порабощена', 'был порабощён' )] некромантом. [ROOT.GetCharacter.GetHerHis|U] свободная воля была заменена слепой преданностью новому хозяину."
-
- trait_education_magical_ability:0 "Изучение магии"
- trait_education_magical_ability_1:0 "Заклинатель-новичок"
- trait_education_magical_ability_1_desc:0 "Этот персонаж получил слабое образование в области магии."
- trait_education_magical_ability_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'получила', 'получил' )] слабое образование в области магии."
- trait_education_magical_ability_2:0 "Маг-ученик"
- trait_education_magical_ability_2_desc:0 "Этот персонаж получил среднее образование в искусстве магии."
- trait_education_magical_ability_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'получила', 'получил' )] среднее образование в искусстве магии."
- trait_education_magical_ability_3:0 "Маг-эксперт"
- trait_education_magical_ability_3_desc:0 "Этот персонаж получил хорошее образование в области магии."
- trait_education_magical_ability_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'получила', 'получил' )] хорошее образование в области магии."
- trait_education_magical_ability_4:0 "Маг-мастер"
- trait_education_magical_ability_4_desc:0 "Этот персонаж обучался у одних из лучших волшебников Тамриэля и демонстрирует как впечатляющие природные способности к магии, так и желание изучить все, что связано с магическими искусствами."
- trait_education_magical_ability_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'обучалась', 'обучался' )] у одних из лучших волшебников Тамриэля и демонстрирует как впечатляющие природные способности к магии, так и желание изучить все, что связано с магическими искусствами."
- trait_education_magical_ability_5:0 "Верховный маг"
- trait_education_magical_ability_5_desc:0 "Этот персонаж обучался только у самых могущественных и знающих волшебников и достиг вершины магического понимания. Границы самой реальности больше не могут сравниться с такими способностями."
- trait_education_magical_ability_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'обучалась', 'обучался' )] только у самых могущественных и знающих волшебников и [Select_CString(ROOT.GetCharacter.IsFemale, 'достигла', 'достиг' )] вершины магического понимания. Границы самой реальности больше не могут сравниться с такими способностями."
+ trait_education_magic:0 "Изучение магии"
+ trait_education_magic_1:0 "Заклинатель-новичок"
+ trait_education_magic_1_desc:0 "Этот персонаж получил слабое образование в области магии."
+ trait_education_magic_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'получила', 'получил' )] слабое образование в области магии."
+ trait_education_magic_2:0 "Маг-ученик"
+ trait_education_magic_2_desc:0 "Этот персонаж получил среднее образование в искусстве магии."
+ trait_education_magic_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'получила', 'получил' )] среднее образование в искусстве магии."
+ trait_education_magic_3:0 "Маг-эксперт"
+ trait_education_magic_3_desc:0 "Этот персонаж получил хорошее образование в области магии."
+ trait_education_magic_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'получила', 'получил' )] хорошее образование в области магии."
+ trait_education_magic_4:0 "Маг-мастер"
+ trait_education_magic_4_desc:0 "Этот персонаж обучался у одних из лучших волшебников Тамриэля и демонстрирует как впечатляющие природные способности к магии, так и желание изучить все, что связано с магическими искусствами."
+ trait_education_magic_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'обучалась', 'обучался' )] у одних из лучших волшебников Тамриэля и демонстрирует как впечатляющие природные способности к магии, так и желание изучить все, что связано с магическими искусствами."
+ trait_education_magic_5:0 "Верховный маг"
+ trait_education_magic_5_desc:0 "Этот персонаж обучался только у самых могущественных и знающих волшебников и достиг вершины магического понимания. Границы самой реальности больше не могут сравниться с такими способностями."
+ trait_education_magic_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'обучалась', 'обучался' )] только у самых могущественных и знающих волшебников и [Select_CString(ROOT.GetCharacter.IsFemale, 'достигла', 'достиг' )] вершины магического понимания. Границы самой реальности больше не могут сравниться с такими способностями."
 
  trait_unmourned_blood:0 "Кровь Неоплаканных"
  trait_unmourned_blood_desc:0 "Кажется, что у этого персонажа что-то не так в родословной, но истинная природа этого остается загадкой."
@@ -208,10 +185,6 @@
  trait_clan_father:0 "Отец клана"
  trait_clan_parent_desc:0 "Мудрость и возраст этого персонажа позволяют ему пользоваться большим уважением и авторитетом среди своего племени и семьи."
  trait_clan_parent_character_desc:0 "Благодаря своей мудрости и возрасту [ROOT.GetCharacter.GetFirstNameNoTooltip] пользуется большим уважением и авторитетом среди своего племени и семьи."
-
- trait_wilderking:0 "Лесной король"
- trait_wilderking_desc:0 "Лесной король - это самопровозглашённый дух лесов Валенвуда, который действует через тела смертных, рожденных с особой связью с землей."
- trait_wilderking_character_desc:0 "Лесной король - это самопровозглашенный дух лесов Валенвуда, который действует через тела смертных, рождённых с особой связью с землей."
 
  # Crimes
  trait_azura_worshipper:0 "Последователь Азуры" #$azura$
@@ -349,57 +322,63 @@
 
  #Furstocks
 
- trait_furstock_cathay_loc:0 "Катай #italic ([furstock|E])#!"
+ trait_furstock_cathay_loc:0 "Катай"
  trait_furstock_cathay:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_cathay_loc') )]"
  trait_furstock_cathay_desc:0 "Рождающиеся при нарастающем Массере и полной Секунде катай немного крупнее и сильнее сутай-рат, но у них стопоходящие ноги."
 
- trait_furstock_cathay_raht_loc:0 "Катай-рат #italic ([furstock|E])#!"
+ trait_furstock_cathay_raht_loc:0 "Катай-рат"
  trait_furstock_cathay_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_cathay_raht_loc') )]"
  trait_furstock_cathay_raht_desc:0 "Имперское географическое общество прозвало рождающихся при нарастающем Массере и нарастающей Секунде катай-рат «людьми-ягуарами» за их рост и свирепость."
 
- trait_furstock_dagi_loc:0 "Даги #italic ([furstock|E])#!"
+ trait_furstock_dagi_loc:0 "Даги"
  trait_furstock_dagi:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_dagi_loc') )]"
  trait_furstock_dagi_desc:0 "У рождающихся при новой Секунде и убывающем Массере даги черты лиц обычно напоминают рысьи. Они предпочитают жить среди деревьев, а не на земле, благодаря своему росту и легкому телосложению. Считается, что они обладают магическими способностями."
 
- trait_furstock_dagi_raht_loc:0 "Даги-рат #italic ([furstock|E])#!"
+ trait_furstock_dagi_raht_loc:0 "Даги-рат"
  trait_furstock_dagi_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_dagi_raht_loc') )]"
  trait_furstock_dagi_raht_desc:0 "Рождающиеся при убывающем Массере и убывающей Секунде даги-рат немного крупнее даги, но в остальном очень похожи."
  
- trait_furstock_ohmes_loc:0 "Ом #italic ([furstock|E])#!"
+ trait_furstock_ohmes_loc:0 "Ом"
  trait_furstock_ohmes:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_ohmes_loc') )]"
  trait_furstock_ohmes_desc:0 "Рождающихся при новом Массере и полной Секунде ом описывают как человекоподобных существ, с ярко выраженными эльфийскими чертами лица, похожих на босмеров, хотя иногда они ниже ростом. Чтобы не быть принятыми за таковых, многие ом татуируют или раскрашивают свои лица, чтобы походить на своих собратьев."
 
- trait_furstock_ohmes_raht_loc:0 "Ом-рат #italic ([furstock|E])#!"
+ trait_furstock_ohmes_raht_loc:0 "Ом-рат"
  trait_furstock_ohmes_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_ohmes_raht_loc') )]"
  trait_furstock_ohmes_raht_desc:0 "Рождающихся при нарастающей Секунде и новом Массере ом-рат легко принять за эльфов или людей, но тело ом-рат покрыто светлым мехом и у них есть хвост. Они татуируют или раскрашивают свои лица, чтобы походить на своих собратьев."
 
- trait_furstock_pahmar_loc:0 "Памар #italic ([furstock|E])#!"
+ trait_furstock_pahmar_loc:0 "Памар"
  trait_furstock_pahmar:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_pahmar_loc') )]"
  trait_furstock_pahmar_desc:0 "Рождающиеся при полном Массере и новой Секунде памар - гигантская двуногая порода каджитов, похожая на сенч-тигров."
 
- trait_furstock_pahmar_raht_loc:0 "Памар-рат #italic ([furstock|E])#!"
+ trait_furstock_pahmar_raht_loc:0 "Памар-рат"
  trait_furstock_pahmar_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_pahmar_raht_loc') )]"
  trait_furstock_pahmar_raht_desc:0 "Рождающиеся при полном Массере и убывающей Секунде памар-рат - гигантская двуногая порода каджитов. Поскольку они самые сильные из пород каджитов, их обычно используют в качестве телохранителей и воинов. Они похожи на сенч-тигров, но памар-раты отличаются от них тем, что они крупнее и опаснее, с стопоходящими ногами и массивным ростом."
 
- trait_furstock_suthay_loc:0 "Сутай #italic ([furstock|E])#!"
+ trait_furstock_suthay_loc:0 "Сутай"
  trait_furstock_suthay:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_suthay_loc') )]"
  trait_furstock_suthay_desc:0 "Рождающиеся при новом Массер и новой Секунде сутай, как и их более крупные сородичи сутай-рат, являются двуногими и имеют пальцеходящие ноги."
 
- trait_furstock_suthay_raht_loc:0 "Сутай-рат #italic ([furstock|E])#!"
+ trait_furstock_suthay_raht_loc:0 "Сутай-рат"
  trait_furstock_suthay_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_suthay_raht_loc') )]"
  trait_furstock_suthay_raht_desc:0 "Рождающиеся при новом Массере и убывающей Секунде сутай-рат порой непонятны даже для самих каджитов, их прозвали «джа'каджитами». Они похожи ростом и телосложением на представителей человеческих рас, отличаясь лишь пальцеходящими ногами. Полностью покрытые мехом разных цветов и узоров, сутай-рат известны своей ловкостью, хитростью и смелостью."
 
- trait_furstock_tojay_loc:0 "Тоджай #italic ([furstock|E])#!"
+ trait_furstock_tojay_loc:0 "Тоджай"
  trait_furstock_tojay:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_tojay_loc') )]"
  trait_furstock_tojay_desc:0 "Рождающиеся при нарастающем Массере и новой Секунде тоджай - одна из самых загадочных пород. О них мало что известно, кроме того, что они обитают в южных болотах и джунглях Эльсвейра, а также в Тенмарском лесу."
 
- trait_furstock_tojay_raht_loc:0 "Тоджай-рат #italic ([furstock|E])#!"
+ trait_furstock_tojay_raht_loc:0 "Тоджай-рат"
  trait_furstock_tojay_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_tojay_raht_loc') )]"
  trait_furstock_tojay_raht_desc:0 "О рождающихся при нарастающем Массере и убывающей Секунде тоджай-рат известно немногое, кроме того, что они двуногие и имеют пальцеходящие ноги."
 
- trait_furstock_mane_loc:0 "Грива #italic ([furstock|E])#!"
+ trait_furstock_mane_loc:0 "Грива"
  trait_furstock_mane:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_mane_loc') )]"
  trait_furstock_mane_desc:0 "Говорят, что во время редкого выравнивания Массера и Секунды на небе появляется мистическая Третья Луна. Рожденных под этой луной зовут Гривой - духовных лидеров каджитов на основе их древней традиции." #PH placeholder
+
+ trait_sibyl:0 "Sibyl of Dibella"
+ trait_sibyl_dibe:0 "Sibyl of Dibe"
+ trait_sibyl_desc:0 "This character is a Sibyl of Dibella, an individual blessed by the Lady to act as a direct link between her and her followers."
+ trait_sibyl_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Sibyl of Dibella, an individual blessed by the Lady to act as a direct link between her and her followers."
+ trait_sibyl_character_desc_dibe:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Sibyl of Dibe, an individual blessed by the Lady to act as a direct link between her and her followers."
 
  # Argonian
  trait_laid_egg:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Отложила', 'Отложил' )] яйцо"
@@ -493,5 +472,22 @@
  trait_racial_blindness:0 "Безглазость"
  trait_racial_blindness_desc:0 "Этот персонаж происходит от народа, давно потерявшего глаза. [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'лишена зрения и ей', 'лишён зрения и ему' )] приходится воспринимать мир другими способами."
 
+ trait_clone:0 "Clone"
+ trait_clone_desc:0 "This character is a clone of someone else. They were not born or hatched the normal way, and instead created through the obscure magical process of [self_replication|E], also known as [cloning|E]."
+ trait_clone_character_desc_hatched_creator:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a clone of [ROOT.Var('clone_creator').Char.GetTitledFirstName]. [ROOT.GetCharacter.GetSheHe|U] was not hatched the normal way, and instead created through the obscure magical process of [self_replication|E], also known as [cloning|E]."
+ trait_clone_character_desc_creator:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a clone of [ROOT.Var('clone_creator').Char.GetTitledFirstName]. [ROOT.GetCharacter.GetSheHe|U] was not born the normal way, and instead created through the obscure magical process of [self_replication|E], also known as [cloning|E]."
+ trait_clone_character_desc_hatched:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a clone of someone else. [ROOT.GetCharacter.GetSheHe|U] was not hatched the normal way, and instead created through the obscure magical process of [self_replication|E], also known as [cloning|E]."
+ trait_clone_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a clone of someone else. [ROOT.GetCharacter.GetSheHe|U] was not born the normal way, and instead created through the obscure magical process of [self_replication|E], also known as [cloning|E]."
+
+
  trait_track_magic:0 "Магия"
  trait_track_magic_desc:0 "Использовать магию в любой форме - значит держать в руках осколки божественной силы."
+
+ trait_cannibal_gp:0 "Meat Mandate"
+ trait_cannibal_character_desc_gp:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has partaken in the Meat Mandate as dictated by the Green Pact."
+
+ trait_herbalist_1: "Herbalist"
+ trait_herbalist_2: "Alchemist"
+ trait_herbalist_3: "Renowned Alchemist"
+ trait_track_lifestyle_herbalist: "Herbalist"
+ trait_track_lifestyle_herbalist_desc: "A skilled herbalist not only identifies herbs and ingredients but also enhances their potency through experimentation, blending nature’s remedies with the art of alchemy."

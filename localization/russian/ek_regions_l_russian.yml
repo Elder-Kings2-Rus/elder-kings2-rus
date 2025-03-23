@@ -88,6 +88,7 @@
  mundus_tamriel_skyrim_east_skyrim:0 "Восточный Скайрим"
  mundus_tamriel_skyrim_solstheim:0 "Солстхейм"
  mundus_tamriel_skyrim_karth:0 "Карт"
+ mundus_tamriel_nordic_empire: "Нордская империя"
  mundus_tamriel_skyrim:0 "Скайрим"
  
  mundus_tamriel_yokuda_akos:0 "Акос"
@@ -165,6 +166,7 @@
  mundus_tamriel_black_marsh_archon:0 "Архонт"
  mundus_tamriel_black_marsh_padomaic_marshes:0 "Падомайские болота"
  mundus_tamriel_black_marsh_arnesia:0 "Арнезия"
+ mundus_tamriel_black_marsh_barsaebica:0 "Барсебика"
  mundus_tamriel_black_marsh:0 "Чернотопье"
  
  mundus_tamriel:0 "Тамриэль"
@@ -177,7 +179,8 @@
  
  mundus_tamriel_pirate_conf_the_isles:0 "Острова Абесинского моря"
  mundus_tamriel_xylo:0 "Западный Зило"
- 
+ ek_nedic_kingdom_region: "Недийская конфедерация"
+
  ## Nativity regions
  custom_nativity_glenumbra:0 "Гленумбра (Родной регион)"
  custom_nativity_rivenspire:0 "Ривенспайр (Родной регион)"
@@ -217,7 +220,6 @@
  custom_nativity_reaper_march:0 "Марка Смерти (Родной регион)"
  
  custom_nativity_anequina:0 "Анеквина (Родной регион)"
- custom_nativity_tenmar:0 "Тенмар (Родной регион)"
  custom_nativity_pellitine:0 "Пеллитин (Родной регион)"
  
  custom_nativity_vvardenfell:0 "Вварденфелл (Родной регион)"
@@ -230,9 +232,8 @@
  custom_nativity_onkobra:0 "Онкобра (Родной регион)"
  custom_nativity_black_bays:0 "Чёрные бухты (Родной регион)"
  custom_nativity_padomaic_marshes:0 "Падомайские болота (Родной регион)"
- 
+
  ## Innovations regions
- world_innovation_longboats:0 "Северное побережье Скайрима и Солстхейм" #Шлюпы
- world_innovation_mammoths:0 "Карт и Ротгар" #Боевые мамонты 
- world_innovation_gunpowder:0 "Залив Илиак и Абесин" #Порох
- world_innovation_abecean_piratry:0 "Абесин, Проклятье Хью и Анвил" #Пиратство в Абесине
+ world_innovation_longboats:0 "Шлюпы (Северное побережье Скайрима и Солстхейм)"
+ world_innovation_mammoths:0 "Боевые мамонты (Карт и Ротгар)" 
+ world_innovation_gunpowder:0 "Порох (Залив Илиак и Абесин)"

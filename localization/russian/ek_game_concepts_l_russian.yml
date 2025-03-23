@@ -8,7 +8,7 @@
  game_concept_ek_feature_page2:0 "Особенности EK2"
  game_concept_ek_features_page2:0 "Особенности Elder Kings 2"
  game_concept_ek_features_page2_pg:0 "Страница 2"
- game_concept_ek_features_page2_desc:0 "Эта концепция игры служит обзором всех функций EK2, с которыми связаны отдельные концепты:\n\n$BULLET_WITH_TAB$ Профессионалы\n$TAB$$BULLET_WITH_TAB$ [mages|E]\n$TAB$$BULLET_WITH_TAB$ [spellblades|E]\n$TAB$$BULLET_WITH_TAB$ [dragon|E]\n$BULLET_WITH_TAB$ Магия\n$TAB$$BULLET_WITH_TAB$ [magic|E]\n$BULLET_WITH_TAB$ Фракции/Кризисы\n$TAB$$BULLET_WITH_TAB$ [goblin_faction|E]\n$TAB$$BULLET_WITH_TAB$ [bandit_faction|E]\n$BULLET_WITH_TAB$ Астрономия\n$TAB$$BULLET_WITH_TAB$ [astronomy|E]\n$TAB$$BULLET_WITH_TAB$ [furstocks|E]\n$TAB$$BULLET_WITH_TAB$ [star_signs|E]\n$TAB$$BULLET_WITH_TAB$ [holiday_calendar|E]\n$BULLET_WITH_TAB$ Прочее\n$TAB$$BULLET_WITH_TAB$ [tsaescence|E]\n$TAB$$BULLET_WITH_TAB$ [gc_lifespan|E]\n$TAB$$BULLET_WITH_TAB$ [ek_age_modifiers|E]\n$TAB$$BULLET_WITH_TAB$ [great_house_value|E]\n$TAB$$BULLET_WITH_TAB$ [daedric_curse|E]\n$TAB$$BULLET_WITH_TAB$ [compendium|E]\n\n < [ek_features_pg|E] - #V Страница 2#! >"
+ game_concept_ek_features_page2_desc:0 "Эта концепция игры служит обзором всех функций EK2, с которыми связаны отдельные концепты:\n\n$BULLET_WITH_TAB$ Профессионалы\n$TAB$$BULLET_WITH_TAB$ [mages|E]\n$TAB$$BULLET_WITH_TAB$ [spellblades|E]\n$TAB$$BULLET_WITH_TAB$ [dragon|E]\n$BULLET_WITH_TAB$ Магия\n$TAB$$BULLET_WITH_TAB$ [magic|E]\n$BULLET_WITH_TAB$ Астрономия\n$TAB$$BULLET_WITH_TAB$ [astronomy|E]\n$TAB$$BULLET_WITH_TAB$ [furstocks|E]\n$TAB$$BULLET_WITH_TAB$ [star_signs|E]\n$TAB$$BULLET_WITH_TAB$ [holiday_calendar|E]\n$BULLET_WITH_TAB$ Прочее\n$TAB$$BULLET_WITH_TAB$ [tsaescence|E]\n$TAB$$BULLET_WITH_TAB$ [gc_lifespan|E]\n$TAB$$BULLET_WITH_TAB$ [ek_age_modifiers|E]\n$TAB$$BULLET_WITH_TAB$ [great_house_value|E]\n$TAB$$BULLET_WITH_TAB$ [daedric_curse|E]\n$TAB$$BULLET_WITH_TAB$ [crisis_factions|E]\n$TAB$$BULLET_WITH_TAB$ [compendium|E]\n\n < [ek_features_pg|E] - #V Страница 2#! >"
  
  game_concept_fervor_equilibrium:0 "Равновесие рвения"
  game_concept_equilibrium:0 "Равновесие"
@@ -73,7 +73,7 @@
  game_concept_clutch_raid_war:0 "Налёт на кладку"
  game_concept_clutch_raid_wars:0 "Налёты на кладку"
  game_concept_clutch_raid_warring:0 "Налёт на кладку"
- game_concept_clutch_raid_war_desc:1 "Особый тип [Concept('war', 'войны')|E], доступный [Concept('ruler', 'правителям')|E] без подходящего наследника. Основной целью налёта на кладку является захват [Concept('children', 'детей')|E] для принятия в свою династию, при этом любая из сторон может получить достаточно [Concept('war_score', 'военного счета')|E] в сражениях, чтобы победить без необходимости [Concept('siege', 'осад')|E].\n\nК конце войны победитель захватит несколько детей из [Concept('court', 'двора')|E] проигравшего. Война считается священной, а значит победитель получит [piety|El].\n\nВы не можете вести или продолжать налёт на кладку, если у вас имеется наследник ваших [Concept('title', 'титулов')|E]."
+ game_concept_clutch_raid_war_desc:1 "Особый тип [Concept('war', 'войны')|E], доступный [Concept('ruler', 'правителям')|E] без подходящего наследника. Основной целью налёта на кладку является захват [Concept('children', 'детей')|E] для принятия в свою династию, при этом любая из сторон может получить достаточно [Concept('war_score', 'военного счета')|E] в сражениях, чтобы победить без необходимости [Concept('siege', 'осад')|E].\n\nК конце войны, если нападающий одержит победу, он захватит несколько детей из [Concept('court', 'двора')|E] проигравшего. Война считается священной, а значит победитель получит [piety|El].\n\nВы не можете вести или продолжать налёт на кладку, если у вас имеется наследник ваших [Concept('title', 'титулов')|E]."
 
  game_concept_nativity_region:0 "Родной регион"
  game_concept_nativity_regions:0 "Родные регионы"
@@ -119,9 +119,10 @@
  game_concept_meritocratic_desc:0 "$game_concept_meritocratic$ [succession_law|El] постановляет, что каждое [county|El] может решать, последует ли оно за [Concept( 'heir', 'наследником' )|E] бывшего правителя, или если же они изберут кого-то из местных, чтобы управлять собой. Если у графства будет высокое [Concept( 'county_opinion', 'мнение' )|E], это поможет обезопасить его передачу во время наследования."
 
  game_concept_feudal_like_government:0 "Правительство феодального типа"
- game_concept_feudal_like_government_desc:0 "[autocracy|E], [feudalism|El], [hierocracy|El] и [ceremoniarchy|El] — высоко институционализированные и схожие с феодализмом типы правительства, которые открывают королевские дворы и позволяют основывать определённые королевства."
+ game_concept_feudal_like_government_desc:0 "[autocracy|E], [feudalism|El] и [hierocracy|El] — высоко институционализированные и схожие с феодализмом типы правительства, которые открывают королевские дворы и позволяют основывать определённые королевства."
 
  game_concept_pirate:0 "Пираты"
+ game_concept_pirate_i: "@government_type_pirate!"
  game_concept_pirate_government:0 "Пиратское правительство"
  game_concept_pirate_desc:0 "Пиратские королевства — это [government_form|El], основанная на [Concept( 'raiding', 'налётах' )|E] и захвате [Concept( 'raid_loot', 'добычи' )|E]. Каждый пиратский вассал предоставляет своему пиратскому сюзерену небольшую дань, захваченную в результате своих набегов.\n\n[holdings|E] под властью пиратов, как правило, дают меньше [Concept( 'taxes', 'налогов' )|E], поэтому пирату-правителю приходится полагаться на постоянные налёты и грабежи, чтобы добывать золото.\nВзамен, [counties|El] под властью правителя-пирата склонны игнорировать влияние неправильных [Concept( 'culture', 'культуры' )|E] и [Concept( 'faith', 'конфессии' )|E] на [county_opinion|El], что, в свою очередь, помогает пирату обезопасить передачу владений при наследовании типа [pirate_share|El].\n\nПоскольку пираты в значительной степени полагаются на заморские налёты и контроль над морями, любое не прибрежное графство будет фактически независимым, не посылая ни налогов, ни [Concept( 'levy', 'ополчения' )|E]. Также они будут отделяться от державы при наследовании.\n\nПиратские правители, желающие более надежной преемственности и более спокойной жизни внутри страны, могут отказаться от своих пиратских путей и стать феодальным королевством — но ценой того, что большинство их пиратских вассалов станут независимыми.\n\nПираты-вассалы под властью сюзерена, который не является пиратом, могут стать каперами, которые могут совершать налёты только на врагов своего сюзерена — враждебных правителей и врагов во время войны. #R Пока не реализовано, мы ждём новых возможностей для моддинга#!"
  
@@ -129,6 +130,7 @@
  game_concept_pirate_share_desc:0 "[succession_law|E] $game_concept_pirate_share$ постановляет, что каждое [county|El] может решать, последует ли оно за [Concept( 'heir', 'наследником' )|E] бывшего правителя, или если же они изберут кого-то из местных, чтобы управлять собой. Если у графства будет высокое [Concept( 'county_opinion', 'мнение' )|E], это поможет обезопасить его передачу во время наследования."
  
  game_concept_academy:0 "Академия"
+ game_concept_academy_i: "@government_type_academy!"
  game_concept_academy_government:0 "Академическое правительство"
  game_concept_academic:0 "Академический"
  game_concept_academies:0 "Академии"
@@ -137,7 +139,7 @@
  game_concept_hist:0 "Хист"
  game_concept_hist_tree:0 "Дерево хист"
  game_concept_hist_holding:0 "Владение хист"
- game_concept_hist_holding_desc:0 "Хист не предоставляют [Concept('taxes', 'налоги')|E], но вместо этого дают [piety|El], немного [Concept('levies', 'ополчения')|E] и прямые бонусы своему владельцу. Они имеют уникальные возможности для строительства и могут расти только в определённой местности. Только персонажи с #L $heritage_argonian_name$им#! наследием или те, чья конфессия имеет [pantheon|El] «[GetFaithDoctrine('doctrine_pantheon_hist').GetBaseName]», могут владеть ими без штрафов. Другие правители могут превратить [Concept('holdings', 'владения')|E] хист в [Concept('temples', 'храмы')|E] за [Concept('gold', 'золото')|E].\n\nХист высаживаются как саженцы и со временем переходят на более высокий уровень. Последняя стадия, однако, предназначена для немногих по-настоящему древних деревьев хист в Чернотопье. В [Concept('county', 'графстве')|E] может быть построено только одно [Concept('holding', 'владение')|E] хист."
+ game_concept_hist_holding_desc:0 "Хист не предоставляют [Concept('taxes', 'налоги')|E], но вместо этого дают [piety|El], немного [Concept('levies', 'ополчения')|E] и прямые бонусы своему владельцу. Они имеют уникальные возможности для строительства и могут расти только в определённой местности. Только персонажи с #L $heritage_argonian_name$им#! наследием или те, чья конфессия имеет [pantheon|El] «[GetFaithDoctrine('doctrine_pantheon_hist').GetBaseName]» или догмат «[GetFaithDoctrine('tenet_hist_syncretism').GetBaseName]», могут владеть ими без штрафов. Другие правители могут превратить [Concept('holdings', 'владения')|E] хист в [Concept('temples', 'храмы')|E] за [Concept('gold', 'золото')|E].\n\nХист высаживаются как саженцы и со временем переходят на более высокий уровень. Последняя стадия, однако, предназначена для немногих по-настоящему древних деревьев хист в Чернотопье. В [Concept('county', 'графстве')|E] может быть построено только одно [Concept('holding', 'владение')|E] хист."
  game_concept_hist_holdings:0 "Владение хист"
 
  game_concept_hist_communion:0 "Общение с хистом"
@@ -145,23 +147,30 @@
  game_concept_hist_communion_desc:0 "Персонажи с [Concept('faith', 'конфессией')|E] [GetFaithDoctrine('doctrine_pantheon_hist').GetBaseName] и $heritage_argonian_name$им [Concept( 'heritage', 'наследием' )|E] могут выбрать [Concept('activity', 'занятие')|E], чтобы отправиться на ритуал $game_concept_hist_communions$ во [hist_holding|El].\n\nДостигнув места назначения, персонажи получат [piety|El] и другие награды, например мощные благословения, в зависимости от догматов своей конфессии."
 
  game_concept_autocracy:0 "Автократия"
+ game_concept_autocracy_i: "@government_type_autocracy!"
  game_concept_autocracy_government:0 "Автократическое правительство"
  game_concept_autocratic:0 "Автократический"
- game_concept_autocracy_desc:0 "Автократии определяются весьма свободными отношениями между правителем и его вассалами, что отличается от строгой иерархии де-юре, принятой в некоторых культурах. Возможности того, что может сделать каждый правитель в автократии, в значительной степени зависит от его личной власти и от того, насколько вассалы любят или боятся его."
+ game_concept_autocracy_desc:0 "Autocracy is a [government_form|E] in which the amount of [levies|E] and [taxes|E] given to a [liege|E] by their [vassals|E] is determined by the [aptitude|E] of said Liege's [tax_collector|E]."
  
  game_concept_hierocracy:0 "Иерократия"
+ game_concept_hierocracy_i: "@government_type_hierocracy!"
  game_concept_hierocracy_government:0 "Иерократическое правительство"
  game_concept_hierocratic:0 "Иерократический"
- game_concept_hierocracy_desc:0 "Иерократии состоят из совета верховных жрецов под председательством [Concept( 'head_of_faith', 'главы конфессии' )|E], избираемых непосредственно божественными силами. Лишь те, кто был отмечен с рождения, могут вести за собой верующих, и их сила и авторитет придают силу их вере и религиозным предметам."
- 
+ game_concept_hierocracy_desc:0 "Hierocracy is a [government_form|E] in which the amount of [levies|E] and [taxes|E] given to a [liege|E] by their [vassals|E] is determined by the [aptitude|E] of said Liege's [tax_collector|E]. It is only used by [heads_of_faith|E] of [faiths|E] with the [GetFaithDoctrine('doctrine_mystical_birthright_head').GetBaseName] [doctrine|E]."
+
  game_concept_ceremoniarchy:0 "Церемониархия"
- game_concept_ceremoniarchy_government:0 "Церемониархическое правительство"
- game_concept_praxis_government:0 "$game_concept_ceremoniarchy_government$"
  game_concept_ceremoniarchic:0 "Церемониархальный"
- game_concept_ceremoniarchy_desc:0 "Церемониархия - сложная система обрядов и обычаев, в основе которой находится стремление к #LORE [Concept( 'compendium_aldmeris', 'Альдмерису' )|E]#!. Правитель должен поддерживать свой [praxis|El] и следить за соблюдением традиций — некоторые правители, однако, могут захотеть отбросить традиции и приспособиться к этому меняющемуся миру...\n#weak Только те правители, чья конфессия имеет [core_tenets|El] [GetFaithDoctrine('tenet_legalism').GetBaseName] и [GetFaithDoctrine('tenet_divine_purity').GetBaseName], могут принять церемониархию.#!"
- 
+ game_concept_ceremoniarchy_government:0 "Церемониархическое правительство"
+ game_concept_ceremoniarchy_desc:0 "Церемониархия - сложная система обрядов и обычаев, в основе которой находится стремление к #LORE [Concept( 'compendium_aldmeris', 'Альдмерису' )|E]#!. Правитель должен поддерживать свой [praxis|El] и следить за соблюдением традиций — некоторые правители, однако, могут захотеть отбросить традиции и приспособиться к этому меняющемуся миру...\n#weak Только те правители, чья культура имеет [Concept('tradition', 'традицию')|E] [GetCultureTradition('tradition_ceremoniarchy').GetName|V] и конфессия имеет [core_tenets|El] [GetFaithDoctrine('tenet_legalism').GetBaseName] и [GetFaithDoctrine('tenet_divine_purity').GetBaseName], могут принять церемониархию.#!"
+
+ game_concept_landed_order:0 "Military Order"
+ game_concept_landed_order_i: "@government_type_landed_order!"
+ game_concept_landed_order_government:0 "Military Order Government"
+ game_concept_landed_order_desc:0 "Military Orders are Paramilitary Organisations either independent or vassals of a Realm."
+ game_concept_military_order: "Military Order"
+
  game_concept_praxis:0 "Праксис"
- game_concept_praxis_i:0 "@praxis_icon!"
+ game_concept_praxis_i: "@praxis_icon!"
  game_concept_praxis_desc:0 "Праксис — это измерение того, насколько персонаж соответствует строгим стандартам "Пути к Алаксону" — альтмерской философии, подчеркивающей стремление к совершенству. \n\nСоответствие этим социальным ожиданиям обеспечивает гармонию в обществе. Те, кто отклоняется от этого пути, могут иметь более лёгкую личную жизнь — но рискуют подвергнуться общественному порицанию. \n\nПраксис правителя будет оцениваться его поведением на публичных мероприятиях вроде посещения пиров или придворных приёмов."
  
  game_concept_might_makes_right:0 "Сила есть право"
@@ -258,14 +267,22 @@
  game_concept_important_character:0 "Важный персонаж" #none of the existing one seem to give it without adding titles
  game_concept_important_character_desc:0 "Историческая так или иначе известная или знаменитая личность"
 
- game_concept_bandit_faction:0 "$FACTION_BANDIT_NAME$"
- game_concept_bandit_faction_desc:2 "$game_concept_bandit_faction$ объединяют [counties|El], которые наводнены бандитами и другими нечистыми на руку людьми. Успешные восстания разбойников отберут земли у вашей [Concept( 'realm', 'державы' )|E] в пользу своей собственной."
+ game_concept_cloning:0 "Cloning"
+ game_concept_clone:0 "Clone"
+ game_concept_clones:0 "Clones"
+ game_concept_clone_possessive:0 "Clone's"
+ game_concept_self_replication:0 "Self-Replication"
+ game_concept_cloning_desc:0 "Cloning, also known as Self-Replication, is the obscure art of creating copies of oneself. Due to its obscurity and ethical concerns, only very few [mages|E] research it, instead pursuing more mundane forms of immortality.\n\nThe process requires an absolute mastery of Restoration, and if successful, will result in a child that is biologically identical to its creator, retaining physical appearance, all [congenital_traits|E], and even [furstock|E] if Khajiit. Higher mastery of the discipline may even allow the creator to alter the clone, and gathering [cloning_insights|E] will improve their chance of success."
 
- game_concept_goblin_faction:0 "$FACTION_GOBLIN_NAME$"
- game_concept_goblin_faction_desc:2 "$game_concept_goblin_faction$ объединяет [counties|El], захваченные местным гоблинским населением. Успешные восстания гоблинов отберут земли у вашей [Concept( 'realm', 'державы' )|E] в пользу своей собственной."
+ game_concept_cloning_insights:0 "Cloning Insights"
+ game_concept_cloning_insight:0 "Cloning Insight"
+ game_concept_cloning_insights_desc:0 "[cloning_insights|E] are an abstract currency representing ones mastery of the art of [cloning|E]. They are gained via experimentation and experience.\n\nPer #V $game_concept_cloning_insight$#!:\n$EFFECT_LIST_BULLET$$cl_better_cloning_outcome_tt$\n$EFFECT_LIST_BULLET$#P Slightly Increased#! Success Chance in #V $clone_project$#! events"
 
- game_concept_undead_faction:0 "$FACTION_UNDEAD_NAME$"
- game_concept_undead_faction_desc:2 "$game_concept_undead_faction$ состоит из [Concept( 'counties', 'графств' )|E], наводнённых всевозможной нечистью. Успешные восстания орды нежити отберут земли у вашей [Concept( 'realm', 'державы' )|E] в пользу своей собственной."
+
+ game_concept_crisis_faction:0 "Crisis Faction"
+ game_concept_crisis_factions:0 "Crisis Factions"
+ game_concept_crisis:0 "Crisis"
+ game_concept_crisis_faction_desc:2 "The $ek_crisis_faction$ is populated by [counties|E] with low [county_control|E]. It may appear due to events or other effects, marked by special [county_corruption|E] [modifiers|E]. When this modifier is present in a county, it may spread to neighbouring counties. A successful $ek_crisis_faction$ will take land from your [realm|E] for its own.\n\nThe $ek_crisis_faction$ will occur as one of these types:\n$BULLET_WITH_TAB$Bandits\n$BULLET_WITH_TAB$Daedric Invasion\n$BULLET_WITH_TAB$Falmer\n$BULLET_WITH_TAB$Goblinken\n$BULLET_WITH_TAB$Imga\n$BULLET_WITH_TAB$Lycanthropes\n$BULLET_WITH_TAB$Necromancers\n$BULLET_WITH_TAB$Peryite Cultists\n$BULLET_WITH_TAB$Vampires"
 
  game_concept_great_house_value:0 "Ценности Домов"
  game_concept_great_house_value_desc:0 "Каждый Великий Дом традиционно ассоциируется с определёнными ценностями, так что кандидаты, претендующие на лидерство в данном Доме, должны иметь определённое образование или личные навыки.\n\nВот ценности каждого из Домов:\n- Дрес: [martial_i][martial|E] и [stewardship_i][stewardship|E]\n- Хлаалу: [diplomacy_i][diplomacy|E] и [stewardship_i][stewardship|E]\n- Индорил: [diplomacy_i][diplomacy|E] и [learning_i][learning|E]\n- Редоран: [martial_i][martial|E] и [learning_i][learning|E]\n- Телванни: [intrigue_i][intrigue|E] и [arcana_i][arcana|E]"
@@ -283,16 +300,30 @@
 
  game_concept_curable_illness:0 "Излечимая хворь"
  game_concept_curable_illnesses:0 "Излечимые хвори"
- game_concept_curable_illness_desc:0 "Для задачи магического исцеления следующие хвори считаются излечимыми:\n• [GetTrait('ill').GetName(GetNullCharacter)]\n• [GetTrait('smallpox').GetName(GetNullCharacter)]\n• [GetTrait('lovers_pox').GetName(GetNullCharacter)]\n• [GetTrait('pneumonic').GetName(GetNullCharacter)]\n• [GetTrait('gout_ridden').GetName(GetNullCharacter)]\n• [GetTrait('typhus').GetName(GetNullCharacter)]\n• [GetTrait('consumption').GetName(GetNullCharacter)]\n• [GetTrait('cancer').GetName(GetNullCharacter)]\n• [GetTrait('great_pox').GetName(GetNullCharacter)]\n• [GetTrait('measles').GetName(GetNullCharacter)]\n• [GetTrait('dysentery').GetName(GetNullCharacter)]\n• [GetTrait('ergotism').GetName(GetNullCharacter)]\n• [GetTrait('sanies_lupinus').GetName(GetNullCharacter)]\n• [GetTrait('sanguinare_vampiris').GetName(GetNullCharacter)]\n• [GetTrait('peryite_affliction').GetName(GetNullCharacter)]"
+ game_concept_curable_illness_desc:0 "Для задачи магического исцеления следующие хвори считаются излечимыми [Concept('spell', 'заклинанием')|E] «Исцелить хворь»:\n• [GetTrait('ill').GetName(GetNullCharacter)]\n• [GetTrait('smallpox').GetName(GetNullCharacter)]\n• [GetTrait('lovers_pox').GetName(GetNullCharacter)]\n• [GetTrait('pneumonic').GetName(GetNullCharacter)]\n• [GetTrait('gout_ridden').GetName(GetNullCharacter)]\n• [GetTrait('typhus').GetName(GetNullCharacter)]\n• [GetTrait('consumption').GetName(GetNullCharacter)]\n• [GetTrait('cancer').GetName(GetNullCharacter)]\n• [GetTrait('great_pox').GetName(GetNullCharacter)]\n• [GetTrait('measles').GetName(GetNullCharacter)]\n• [GetTrait('dysentery').GetName(GetNullCharacter)]\n• [GetTrait('ergotism').GetName(GetNullCharacter)]\n• [GetTrait('sanies_lupinus').GetName(GetNullCharacter)]\n• [GetTrait('sanguinare_vampiris').GetName(GetNullCharacter)]\n• [GetTrait('peryite_affliction').GetName(GetNullCharacter)]\n\nСледующие хвори #n неизлечимы#!:\n• [GetTrait('bubonic_plague').GetName(GetNullCharacter)]\n• [GetTrait('chrondiasis').GetName(GetNullCharacter)]\n• [GetTrait('sickly').GetName(GetNullCharacter)]\n• [GetTrait('chrondiasis').GetName(GetNullCharacter)]\n• [GetTrait('leper').GetName(GetNullCharacter)]"
 
  game_concept_magic_ward_long:0 "Магический оберег"
  game_concept_magic_ward_short:0 "Оберег"
  game_concept_magic_warded:0 "Защита"
- game_concept_magic_ward_long_desc:0 "Некоторые [counties|El] защищены от враждебных [Concept('spells', 'заклинаний')|E] с помощью магии. Обычно это происходит из-за присутствия в графстве [Concept('special_building', 'особой постройки')|E]."
+ game_concept_magic_ward_long_desc:0 "[Concept('characters', 'Персонажи')|E] и [counties|El] могут быть защищены от враждебных [Concept('spells', 'заклинаний')|E] с помощью магии.\n\nFor characters this is caused by the [GetModifier('modifier_ritual_magic_ward').GetNameWithTooltip] [ritual|E] while for counties this is caused by a [special_building|E] in the county.""
+
+ game_concept_mindless_character:0 "Mindless Character"
+ game_concept_mindless:0 "Mindless"
+ game_concept_mindless_characters:0 "Mindless Characters"
+ game_concept_mindless_character_desc:0 "Some characters are considered mindless, no longer possessing their own will or ability to act independently. These characters are unable to rule, cannot be involved in most character interactions, serve on a [council|E] or have a [court_position|E].\n\nMindless characters are marked by having certain [traits|E], such as [GetTrait('undead_character').GetName(GetNullCharacter)] or [GetTrait('argonian_behemoth_3').GetName(GetNullCharacter)]."
 
  game_concept_daedric_curse:0 "Даэдрическое проклятие"
- game_concept_daedric_curse_desc:0 "Даэдрические проклятия накладываются на смертных, которые каким-либо образом оскорбили #LORE [Concept('compendium_daedric_princes', 'князей даэдра')|E]#!. Чтобы избавиться от них, нужно отправиться в [Concept('pilgrimage', 'паломничество')|E] или найти кого-то, кто может наложить заклинание снятия проклятия."
+ game_concept_daedric_curse_desc:0 "Даэдрические проклятия накладываются на смертных, которые каким-либо образом оскорбили #LORE [Concept('compendium_daedric_princes', 'князей даэдра')|E]#!. Чтобы избавиться от них, нужно отправиться в [Concept('pilgrimage', 'паломничество')|E], совершить [Concept('hist_communion', 'общение с хистом')|E] или найти кого-то, кто может наложить заклинание снятия проклятия."
  
  game_concept_curse:0 "Проклятие"
+ game_concept_adult_education:0 "University Visit"
+ game_concept_adult_education_desc:2 "Characters can choose to undertake an [activity|E] to go on a $game_concept_adult_education$ to a viable university or academy. Each location can only be visited once in a lifetime.\n\nSuch an endeavour can be stressfull but may increase the [education_trait|E] and offer new skills in return."
 
- game_concept_dread_i:0 "@dread_icon!"
+ game_concept_magical_education_trait: "Magical Education Trait"
+ game_concept_magical_education_trait_desc:2 "Upon reaching [adulthood|E], every character whose [culture|E] has the #V $innovation_magical_studies$#! or #V $innovation_schools_of_magic$#! [innovation|E], a [tradition|E] unlocking Magic education, or their [dynasty|E] has the #V $magicka_legacy_3_name$#! [dynasty_perk|E] receives an $game_concept_magical_education_trait$ if their tutor is able to teach them magic.\n\nThe quality of the [trait|E] a character receives will depends on the skill of their [guardian|E].\n\nA characters $game_concept_magical_education_trait$ improves how fast they will progress in the [magic_lifestyle|E]."
+
+ game_concept_isolationist_tradition: "Isolationist Tradition"
+ game_concept_isolationist_tradition_desc: "$culture_parameter_dislikes_marrying_outside_of_culture$\n$culture_parameter_dislikes_marrying_outside_of_heritage$\n$culture_parameter_ai_doesnt_marry_outside_culture$\n$culture_parameter_will_not_be_vassalised$"
+
+ game_concept_sorcerer_kings_tradition: "Sorcerer Kings Tradition"
+ game_concept_sorcerer_kings_tradition_desc: "$culture_parameter_unlocks_court_magical$\n$culture_parameter_magic_elective_enabled$\n$culture_parameter_vassal_contribution_tied_arcana$\n$culture_parameter_rank_gives_bonus_to_mage_maa$\n$culture_parameter_arcana_claim_enabled$\n$culture_parameter_can_disrupt_prisoners$\n$culture_parameter_magic_disruption_blocks_inheritance$"

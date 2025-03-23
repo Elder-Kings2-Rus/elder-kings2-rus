@@ -4,3 +4,5 @@
  friend_sparred_together:0 "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] сблизились во время спарринга."
  rival_destroyed_orsinium:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'заслужила', 'заслужил')] ненависть в глазах персонажа [TARGET_CHARACTER.GetShortUIName] после разрушения столицы орков в Орсиниуме."
  rival_destroyed_orsinium_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'заслужила', 'заслужил')] ненависть в глазах персонажа [CHARACTER.GetShortUIName] после разрушения столицы орков в Орсиниуме."
+ grudge_ek_creator_abandonment_desc: "[CHARACTER.GetShortUIName|U], a [clone|E] of [TARGET_CHARACTER.GetShortUIName], developed a hateful grudge against [CHARACTER.GetHerHis] creator after being abandoned."
+ grudge_ek_creator_abandonment_desc_corresponding: "[TARGETCHARACTER.GetShortUIName|U] developed a hateful grudge against [CHARACTER.GetHerHis] [clone|E] [CHARACTER.GetShortUIName] and abandoned it."

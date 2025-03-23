@@ -458,6 +458,7 @@
  mudcrab_name_scissors:0 "Стригун"
  mudcrab_name_pincer:0 "Клешня"
  mudcrab_name_toetugger:0 "Щипчик"
+ mudcrab_name_grasper:0 "Хват"
 
  ek_pet_animal.5001.t:0 "Грязекраб"
  ek_pet_animal.5001.desc:1 "Пока пеплозуб бродит по комнате, радостно пощипывая окружающие предметы по ней, я размышляю, как назвать [ROOT.Char.Custom('MudcrabStoryHerHis')]. Что нибудь историческое? Что-то опирающееся на [ROOT.Char.Custom('MudcrabStoryHerHis')] [ROOT.Char.Custom('MudcrabColor')] окрас панциря? Что-то, чтобы описать успокаивающее чувство, которое я испытываю, когда [ROOT.Char.Custom('MudcrabStorySheHe')] ковыляет вокруг меня?\n\nО, я знаю! я назову [ROOT.Char.Custom('MudcrabStoryHerHis')]..."
@@ -499,3 +500,125 @@
 
  ek_pet_animal.5502.desc:0 "С любимым лакомством вашего [ROOT.Char.Custom('MudcrabStoryName')] в руках, вы входите в небольшой сад, где [ROOT.Char.Custom('MudcrabStoryName')] обычно проводит большую часть [ROOT.Char.Custom('MudcrabStoryHerHis')] времени.\nКак только [ROOT.Char.Custom('MudcrabStorySheHe')] замечает вас или фрукты в вашей руке, [ROOT.Char.Custom('MudcrabStorySheHe')] начинает радостно скакать и топать вокруг вас.\nВскоре после этого [ROOT.Char.Custom('MudcrabStorySheHe')] останавливается у моих ног и берёт лакомства с ваших рук.\n\nСмеясь, вы чувствуете, как вам становится легче и вы готовы встретить всё, что готовит для вас этот мир."
  ek_pet_animal.5502.a:0 "Не ешь что попало, [ROOT.Char.Custom('MudcrabStoryName')]!"
+
+ ###############
+ #   SKEEVER   #
+ ###############
+ skeever_story_modifier:0 "Pet Skeever"  
+ skeever_story_modifier_desc:0 "This character enjoys the company of a scruffy creature that follows them wherever they go."  
+ skeever_story_diseased_skeever_modifier:0 "Diseased Pet Skeever"  
+ skeever_story_diseased_skeever_modifier_desc:0 "This character is accompanied by a disease-ridden skeever that follows them wherever they go."  
+ 
+ skeever_gender_her:0 "her"
+ skeever_gender_his:0 "his"
+ skeever_gender_him:0 "him"
+ skeever_gender_she:0 "she"
+ skeever_gender_he:0 "he"
+ skeever_gender_herself:0 "herself"
+ skeever_gender_himself:0 "himself"
+ skeever_gender_female:0 "female"
+ skeever_gender_male:0 "male"
+ 
+ skeever_color_grey:0 "grey"
+ skeever_color_white:0 "white"
+ skeever_color_black:0 "black"
+ 
+ 
+ skeever_name:1 "[ROOT.Char.GetLocalizedText( 'story_cycle_skeever_name' )]"
+ skeever_name_possessive:1 "[ROOT.Char.Custom( 'SkeeverStoryName' )]'s"
+ skeever_name_nibble:0 "Nibble"
+ skeever_name_scurry:0 "Scurry"
+ skeever_name_rotfang:0 "Rotfang"
+ skeever_name_whisker:0 "Whisker"
+ skeever_name_squeak:0 "Squeak"
+ skeever_name_filthpaw:0 "Filthpaw"
+ skeever_name_moldtail:0 "Moldtail"
+ skeever_name_scab:0 "Scab"
+ skeever_name_scritch:0 "Scritch"
+ skeever_name_pestle:0 "Pestle"
+
+ ek_pet_animal.6001.t:0 "The Skeever"
+ ek_pet_animal.6001.desc:1 "As the skeever scurries into the room, its whiskers twitching and tail dragging behind, I ponder what I should name [ROOT.Char.Custom('SkeeverStoryHerHim')]. Something historical? Something reflecting [ROOT.Char.Custom('SkeeverStoryHerHis')] scruffy fur? Or perhaps something that captures the oddly endearing way [ROOT.Char.Custom('SkeeverStorySheHe')] sneaks around my feet?\n\nOh, I know! I will name [ROOT.Char.Custom('SkeeverStoryHerHim')]..." 
+ ek_pet_animal.6001.a:1 "What a great name!"
+ 
+ ### Random Skeever events
+ # Your skeever becomes diseased
+ ek_pet_animal.6101.t:0 "[ROOT.Char.Custom('SkeeverStoryName')]: Ridden by Disease"
+ ek_pet_animal.6101.desc:0 "Spending time with [ROOT.Char.Custom('SkeeverStoryName')] has become a daily habit, so I quickly notice the changes in [ROOT.Char.Custom('SkeeverStoryHerHis')] appearance and behavior. [ROOT.Char.Custom('SkeeverStoryHerHis')] fur has grown mangy, and a foul stench clings to [ROOT.Char.Custom('SkeeverStoryHerHim')]. Sickness has taken hold of my once-fluffy companion - yet, it has only made [ROOT.Char.Custom('SkeeverStorySheHe')] stronger and more vicious.\n\nNonetheless the risk of contagion is not to be taken lightly. What should I do?"
+ ek_pet_animal.6101.a:0 "A true survivor - I'll keep [ROOT.Char.Custom('SkeeverStoryName')] by my side!" 
+ ek_pet_animal.6101.b:0 "Thankfully, I know how to cure diseases."
+ ek_pet_animal.6101.c:0 "Time to get rid of [ROOT.Char.Custom('SkeeverStoryHerHim')]."
+
+ # A mage wants to heal your skeever
+ ek_pet_animal.6102.t:0 "[ROOT.Char.Custom('SkeeverStoryName')]: A Curing Touch"
+ ek_pet_animal.6102.desc:0 "While I have grown accustomed to the affliction [ROOT.Char.Custom('SkeeverStoryName')] carries, many around me have not. This becomes evident when [healer.GetName] approaches me today with a proposal. Claiming mastery over the School of Restoration, [healer.GetSheHe] insists that the disease afflicting my companion can be cleansed. In exchange for a token of my gratitude, [healer.GetSheHe] offers to apply [healer.GetHerHis] healing arts to rid [ROOT.Char.Custom('SkeeverStoryName')] of any lingering sickness."
+ ek_pet_animal.6102.a:0 "The health of [ROOT.Char.Custom('SkeeverStoryName')] is worth every coin!"  
+ ek_pet_animal.6102.b:0 "I like [ROOT.Char.Custom('SkeeverStoryName')] how [ROOT.Char.Custom('SkeeverStorySheHe')] is. Stay away."
+
+ # Diseased skeever causes Ataxia outbreak
+ ek_pet_animal.6103.t:0 "[ROOT.Char.Custom('SkeeverStoryName')]: Carrier of Plague"
+ ek_pet_animal.6103.desc:0 "It started with the servants - stumbling, dizzy, their hands trembling. Soon, even my most stalwart knights struggled to grip their swords. The stench of decay clings to every surface, a silent harbinger of what is to come. At its source? [ROOT.Char.Custom('SkeeverStoryName')], scurrying about with infectious glee.\n\nIt surely is Ataxia, a disease commonly found among skeevers, and it seems it has now found its way into my court."
+ ek_pet_animal.6103.a:0 "Maybe it wasn't the best idea to keep a skeever as a pet..."  
+ ek_pet_animal.6103.b:0 "What a wonderful gift of disease!"
+ ek_pet_animal.6103.c:0 "Thats it! [ROOT.Char.Custom('SkeeverStoryName')] has to go!" 
+
+ # Skeever bites a courtier
+ ek_pet_animal.6104.t:0 "[ROOT.Char.Custom('SkeeverStoryName')]: Sharp Teeth"
+ ek_pet_animal.6104.desc:0 " ek_pet_animal.6104.desc:0 "I hear a sudden yelp, followed by the frantic shuffling of feet. Turning to the commotion, I spot [ROOT.Char.Custom('SkeeverStoryName')] scurrying away, while [courtier.GetName] clutches [courtier.GetHerHis] hand, eyes wide with shock and pain.\n\nBlood wells from a fresh bite mark - seems that fool attempted to pet my skeever and paid the price for it.\n\nUnlucky for [courtier.GetHerHim], skeever bites are often infectious, so something may have to be done."
+ ek_pet_animal.6104.a:0 "[physician.GetName] will tend to your wound."  
+ ek_pet_animal.6104.a.succes: "[physician.GetName] manages to heal the wound"
+ ek_pet_animal.6104.a.failure: "[physician.GetName] just makes it worse"
+ ek_pet_animal.6104.b:0 "Calm down, I can heal it."
+ ek_pet_animal.6104.c:0 "Stop complaining, it's barely a scratch."
+ ek_pet_animal.6104.c.succes: "It was a harmless bite after all"
+ ek_pet_animal.6104.c.failure: "The wound gets worse after a while"
+
+ # Skeever gathers a pack
+ ek_pet_animal.6105.t:0 "[ROOT.Char.Custom('SkeeverStoryName')]: Leader of the Pack"
+ ek_pet_animal.6105.desc:0 "At first, I dismissed it as mere rumor - idle gossip meant to sow fear. But now, I hear it myself. The chittering grows louder each night, while the relentless scurrying of claws echoes through the corridors. [ROOT.Char.Custom('SkeeverStoryName')] has become a ruler of the local vermin.\n\nA loyal pack now follows [ROOT.Char.Custom('SkeeverStoryHerHim')] through the shadows, slipping unseen through cracks and crevices, their presence marked by traces of disease. My courtiers recoil in disgust, and I fear that the chittering horde may soon grow even larger."
+ ek_pet_animal.6105.a:0 "This is getting out of hand, [ROOT.Char.Custom('SkeeverStoryName')] has to go..."  
+ ek_pet_animal.6105.b:0 "Nice to see that [ROOT.Char.Custom('SkeeverStoryName')] has made so many friends!"
+ ek_pet_animal.6105.c:0 "[ROOT.Char.Custom('SkeeverStoryName')] is truly blessed by the Taskmaster!"
+
+ # Skeever kills rats
+ ek_pet_animal.6106.t:0 "[ROOT.Char.Custom('SkeeverStoryName')]: From Skeevers and Rats"
+ ek_pet_animal.6106.desc:0 "[ROOT.Char.Custom('SkeeverStoryName')] is proving [ROOT.Char.Custom('SkeeverStoryHerHis')] skill in unforseen ways. Now healthy and strong, [ROOT.Char.Custom('SkeeverStorySheHe')] has taken to hunting down the rats that once plagued my castle. Larger and far more ferocious than [ROOT.Char.Custom('SkeeverStoryHerHis')] smaller cousins, only scattered remains remain as evidence of [ROOT.Char.Custom('SkeeverStoryHerHis')] hunts.\n\nFor the first time in memory, the storerooms remain unspoiled, and the kitchens are free of gnawing vermin. Some courtiers remain uneasy at the sight of [ROOT.Char.Custom('SkeeverStoryName')] stalking the halls, but I cannot deny the results - this castle has never been so free of rats."
+ ek_pet_animal.6106.a:0 "Who would have thought?"
+
+ # Skeever is lauded by the court
+ ek_pet_animal.6107.t:0 "[ROOT.Char.Custom('SkeeverStoryName')]: Lauded by the Court"
+ ek_pet_animal.6107.desc:0 "What was once seen as mere vermin has now become a fascination among the nobility. Seeing the strength and cunning of [ROOT.Char.Custom('SkeeverStoryName')], some of my courtiers have begun to admire [ROOT.Char.Custom('SkeeverStoryHerHis')] resilience. A few have even attempted to catch and tame their own skeevers—so far without success. Yet, their futile efforts only make [ROOT.Char.Custom('SkeeverStoryName')] stand out even more."
+ ek_pet_animal.6107.a:0 "[ROOT.Char.Custom('SkeeverStoryName')] is without equal - and so am I."
+ ek_pet_animal.6107.b:0 "Whatever, I just enjoy [ROOT.Char.Custom('SkeeverStoryName')] as company."
+
+ # Skeever steals food
+ ek_pet_animal.6108.t:0 "[ROOT.Char.Custom('SkeeverStoryName')]: A Thief in the Pantry"
+ ek_pet_animal.6108.desc:0 "The castle's kitchen has been in chaos for days. Servants whisper of a ghostly thief, food vanishing from pantries without a trace. But I know better. [ROOT.Char.Custom('SkeeverStoryName')] has grown bold, sneaking into storerooms and feasting upon the larders.\n\nToday, I catch [ROOT.Char.Custom('SkeeverStoryHerHim')] red-pawed, gnawing on a stolen loaf of bread. A few servants look on, awaiting my reaction."
+ ek_pet_animal.6108.a:0 "A well-fed skeever is a happy skeever. Carry on!"
+ ek_pet_animal.6108.b:0 "Enough! The kitchens are off-limits!"
+ ek_pet_animal.6108.b.tt:0 "You will try to keep [ROOT.Char.Custom('SkeeverStoryName')] away from the kitchen!"
+
+ # Skeever speaks in Peryite's voice
+ ek_pet_animal.6109.t:0 "[ROOT.Char.Custom('SkeeverStoryName')]: Voice of Peryite"
+ ek_pet_animal.6109.desc:0 "As I idly stroke [ROOT.Char.Custom('SkeeverStoryName')], the familiar chittering soothes my thoughts. But then, without warning, the air grows heavy, thick with an unseen presence. A voice slithers into my mind—rasping, hollow, yet undeniable - whispering of decay and order, of plague and purpose.\n\nI freeze. The words did not come from the halls, nor from another soul. They came from [ROOT.Char.Custom('SkeeverStoryName')]. The skeever's beady eyes lock onto mine, glimmering with something beyond mere animal instinct.\n\nThen, as suddenly as it began, the moment passes."
+ ek_pet_animal.6109.a:0 "When the Blighted Lord calls, I will answer - and everyone shall hear it!"
+ ek_pet_animal.6109.b:0 "I will follow the Taskmaster, but it must stay a secret for now."
+ ek_pet_animal.6109.c:0 "[ROOT.Char.Custom('SkeeverStoryName')] has become a Daedric vessel. We have to part..."
+ ek_pet_animal.6109.d:0 "It was just a trick of the mind."
+
+ # Skeever dies :(
+ ek_pet_animal.6199.t:0 "[ROOT.Char.Custom('SkeeverStoryName')]: Day of Sorrow"
+ ek_pet_animal.6199.desc:0 "[ROOT.Char.Custom('SkeeverStoryName')] is not as spry as [ROOT.Char.Custom('SkeeverStorySheHe')] once was. The days of frantic scurrying and mischief have faded, replaced by sluggish movements and tired, wheezing breaths. I can hear it in [ROOT.Char.Custom('SkeeverStoryHerHis')] raspy chittering—once sharp and eager, now weak and unsteady.\n\nAs I run my hand over [ROOT.Char.Custom('SkeeverStoryHerHis')] patchy, matted fur, [ROOT.Char.Custom('SkeeverStorySheHe')] gives one last, feeble twitch of [ROOT.Char.Custom('SkeeverStoryHerHis')] whiskers. For a moment, I almost expect [ROOT.Char.Custom('SkeeverStoryHerHim')] to spring up and nip at my fingers, just like before. But as the silence stretches, I know that the familiar sound of tiny claws scratching against my floor will never wake me again."
+ ek_pet_animal.6199.a:0 "I will miss you, [ROOT.Char.Custom('SkeeverStoryName')]!"
+ 
+ pet_skeever_decision:0 "Pet [ROOT.Char.Custom('SkeeverStoryName')]"
+ pet_skeever_decision_desc:0 "I know how much [ROOT.Char.Custom('SkeeverStoryName')] loves to scurry about, its tiny claws scratching against the floor. There's something oddly comforting about the way [ROOT.Char.Custom('SkeeverStorySheHe')] nuzzles against me, despite the patchy fur and musky scent. Caring for [ROOT.Char.Custom('SkeeverStoryHerHim')] isn't easy - finding enough food, keeping [ROOT.Char.Custom('SkeeverStoryHerHim')] from gnawing on everything - but no matter how tough life gets, I know [ROOT.Char.Custom('SkeeverStorySheHe')] will always be there for me!"  
+ pet_skeever_decision_tooltip:0 "Pet your Skeever"
+ pet_skeever_decision_confirm:0 "Pet your Skeever"
+ 
+ # You pet your Skeever :)
+ ek_pet_animal.6501.t:0 "A Moment With [ROOT.Char.Custom('SkeeverStoryName')]" 
+ ek_pet_animal.6501.desc:0 "As I enter my room, I hear the familiar sound of tiny claws scratching against the floor. [ROOT.Char.Custom('SkeeverStoryName')] scurries toward me, whiskers twitching with excitement.\n\nWith a smirk, I kneel down and let [ROOT.Char.Custom('SkeeverStoryHerHim')] clamber up my arm, [ROOT.Char.Custom('SkeeverStoryHerHis')] scruffy fur tickling my skin. [ROOT.Char.Custom('SkeeverStorySheHe')] circles around my shoulders before hopping off and darting around the room in playful chaos. After a few moments of frantic skittering, [ROOT.Char.Custom('SkeeverStorySheHe')] finally settles near my feet, pressing against me with surprising warmth.\n\nAs I chuckle, I feel the weight of the world lighten just a little."  
+ ek_pet_animal.6501.a:0 "Come here, you little menace!"  
+ ek_pet_animal.6502.desc:0 "With [ROOT.Char.Custom('SkeeverStoryName')]'s favorite scrap of food in hand, I step into my small garden where [ROOT.Char.Custom('SkeeverStoryName')] loves to skulk around.\n\nThe moment [ROOT.Char.Custom('SkeeverStorySheHe')] catches sight - or perhaps scent - of the treat, [ROOT.Char.Custom('SkeeverStorySheHe')] darts toward me, skittering in a frantic zigzag before circling my feet. With an eager chitter, [ROOT.Char.Custom('SkeeverStorySheHe')] paws at my leg before snatching the morsel from my hand and greedily gnawing away.\n\nI shake my head, laughing softly. Somehow, watching [ROOT.Char.Custom('SkeeverStoryName')] in such simple joy makes the burdens of the day seem far away."  
+ ek_pet_animal.6502.a:0 "Slow down, [ROOT.Char.Custom('SkeeverStoryName')]! Chew first!"

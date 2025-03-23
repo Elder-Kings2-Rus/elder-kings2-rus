@@ -1,0 +1,25 @@
+﻿l_russian:
+
+ CONTRACT_CULTURAL_EXEMPTION_REASON:0 "Cultural Exemption: $VALUE|=+0$"
+ CONTRACT_RELIGIOUS_CULTURAL_EXEMPTION_REASON:0 "Religious & Cultural Exemption: $VALUE|=+0$"
+
+ CONTRACT_CULTURAL_TAXATION_REASON:0 "Cultural TAXATION: $VALUE|=+0$"
+ CONTRACT_RELIGIOUS_CULTURAL_TAXATION_REASON:0 "Religious & Cultural TAXATION: $VALUE|=+0$"
+
+ religious_cultural_exemption:0 "Religious & Cultural Exemption"
+ cultural_exemption:0 "Cultural Exemption"
+
+ no_exemption_autocracy:0 "No Exemption"
+ religious_exemption_autocracy:0 "Religious Exemption"
+ cultural_exemption_autocracy:0 "Cultural Exemption"
+ religious_cultural_exemption_autocracy:0 "Religious & Cultural Exemption"
+
+ cultural_taxation:0 "Cultural Taxation"
+ religious_cultural_taxation:0 "Religious & Cultural Taxation"
+
+ no_taxation_autocracy:0 "No Taxation"
+ religious_taxation_autocracy:0 "Religious Taxation"
+ cultural_taxation_autocracy:0 "Cultural Taxation"
+ religious_cultural_taxation_autocracy:0 "Religious & Cultural Taxation"
+
+ cultural_protection_tt:0 "[vassal_contract|E] starts with [GetVassalContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )]"
