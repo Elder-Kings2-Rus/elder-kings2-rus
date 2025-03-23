@@ -709,8 +709,10 @@ window = {
 									datacontext = "[RulerDesignerWindow.GetCharacterToOverwrite]"
 									datacontext = "[Character.GetPrimaryTitle]"
 									datacontext = "[RulerDesignerWindow.GetTitleCoatOfArms]"
+									visible = "[Not( RulerDesignerWindow.IsDesigningLandless )]"
 
 									vbox = {
+										name = "realm_header"
 										layoutpolicy_horizontal = expanding
 
 										hbox = {
@@ -724,67 +726,75 @@ window = {
 										}
 									}
 
-									vbox = {
+									hbox = {
+										name = "title_and_government"
+										layoutpolicy_vertical = expanding
 										layoutpolicy_horizontal = expanding
-										margin_top = 5
 
-										hbox = {
+										vbox = {
+											name = "title"
 											layoutpolicy_horizontal = expanding
-											margin_right = 30
+											margin_top = 5
 
-											text_multi = {
+											hbox = {
 												layoutpolicy_horizontal = expanding
-												text = "RULER_DESIGNER_TITLE_NAME"
-												default_format = "#high"
-												using = Font_Size_Big
-												max_width = 470
-												autoresize = yes
-												align = center
-											}
-										}
+												margin_right = 30
 
-										hbox = {
-											margin_left = 30
-
-											coa_realm_huge_crown = {
-												name = "default_coa"
-												visible = "[Not( DesignerCoA.IsSet )]"
-												blockoverride "coa_button" {}
-											}
-
-											container = {
-												visible = "[DesignerCoA.IsSet]"
-
-												coa_preview_realm_huge_crown = {
-													name = "custom_coa"
-													datacontext = "[DesignerCoA.GetCoA]"
-
-													blockoverride "frame_override"
-													{
-														frame = "[Title.GetTierFrame]"
-													}
-													blockoverride "realm_mask_texture"
-													{
-														texture = "[Character.GetGovernment.GetRealmMask]"
-													}
-													blockoverride "realm_frame_texture"
-													{
-														texture = "[Character.GetGovernment.GetRealmFrame('(int32)115')]"
-													}
+												text_multi = {
+													layoutpolicy_horizontal = expanding
+													text = "RULER_DESIGNER_TITLE_NAME"
+													default_format = "#high"
+													using = Font_Size_Big
+													max_width = 470
+													autoresize = yes
+													align = center
 												}
 											}
 
-											button_edit_text = {
-												onclick = "[RulerDesignerWindow.OpenTitleCoatOfArmsDesigner]"
-												onclick = "[VariableSystem.Set( 'coat_of_arms_customization_open', 'title' )]"
-												tooltip = RULER_DESIGNER_CUSTOMIZE_TITLE
-												using = tooltip_se
-											}
+											hbox = {
+												margin_left = 30
 
-											button_revert = {
-												onclick = "[RulerDesignerWindow.ResetTitleToHistorical]"
-												tooltip = RULER_DESIGNER_RESET_TITLE
-												using = tooltip_se
+												coa_realm_huge_crown = {
+													name = "default_coa"
+													visible = "[Not( DesignerCoA.IsSet )]"
+													blockoverride "coa_button" {}
+												}
+
+												container = {
+													visible = "[DesignerCoA.IsSet]"
+
+													coa_preview_realm_huge_crown = {
+														name = "custom_coa"
+														datacontext = "[DesignerCoA.GetCoA]"
+
+														blockoverride "frame_override"
+														{
+															frame = "[Title.GetTierFrame]"
+														}
+														blockoverride "realm_mask_texture"
+														{
+															texture = "[Character.GetGovernment.GetRealmMask]"
+														}
+														blockoverride "realm_frame_texture"
+														{
+															texture = "[Character.GetGovernment.GetRealmFrame('(int32)115')]"
+														}
+													}
+												}
+
+												button_edit_text = {
+													onclick = "[RulerDesignerWindow.OpenTitleCoatOfArmsDesigner]"
+													onclick = "[VariableSystem.Set( 'coat_of_arms_customization_open', 'title' )]"
+													tooltip = RULER_DESIGNER_CUSTOMIZE_TITLE
+													using = tooltip_se
+												}
+
+												button_revert = {
+													visible = "[Not( RulerDesignerWindow.IsDesigningLandless )]"
+													onclick = "[RulerDesignerWindow.ResetTitleToHistorical]"
+													tooltip = RULER_DESIGNER_RESET_TITLE
+													using = tooltip_se
+												}
 											}
 										}
 									}
@@ -972,7 +982,7 @@ window = {
 			vbox = {
 				name = "culture_selection"
 				layoutpolicy_vertical = expanding
-				visible = "[GetVariableSystem.HasValue( 'culture_select_window_open', 'true' )]"
+				visible = "[VariableSystem.Exists( 'culture_select_window_open' )]"
 
 				state = {
 					name = _show
@@ -2357,7 +2367,7 @@ window = {
 											button_round = {
 												size = { 28 28 }
 												onclick = "[RulerDesignerSkill.ChangeValue( '(int32)1' )]"
-												enabled = "[LessThan_int32( RulerDesignerSkill.GetBaseValue, '(int32)100' )]"
+												enabled = "[LessThan_int32( RulerDesignerSkill.GetBaseValue, RulerDesignerSkill.GetMaxValue )]"
 
 												button_plus_small = {
 													name = "increase_skill"
@@ -3039,6 +3049,7 @@ window = {
 							name = "family"
 							layoutpolicy_horizontal = expanding
 							spacing = 10
+							visible = "[Not( RulerDesignerWindow.IsDesigningLandless )]"
 
 							vbox = {
 								layoutpolicy_horizontal = expanding
@@ -3370,7 +3381,7 @@ window = {
 
 					text_label_left = {
 						layoutpolicy_horizontal = expanding
-						text = RULER_DESIGNER_ANATOMY_LABEL
+						text = RULER_DESIGNER_CATEGORY_anatomy
 						using = Font_Size_Medium
 					}
 
@@ -3383,7 +3394,7 @@ window = {
 							margin_bottom = 10
 
 							button_standard = {
-								text = RULER_DESIGNER_APPEARANCE_CATEGORY_BODY
+								text = RULER_DESIGNER_GROUP_body
 								onclick = "[VariableSystem.Set( 'appearance_customization_side_tab_open', 'body' )]"
 								onclick = "[VariableSystem.Set( 'appearance_customization_portrait_view', 'full_body' )]"
 								onclick = "[VariableSystem.Set( Localize('race_gene_skin_color'), Localize('human_skin') )]"
@@ -3391,14 +3402,14 @@ window = {
 							}
 
 							button_standard = {
-								text = RULER_DESIGNER_APPEARANCE_CATEGORY_HEAD_AND_NECK
+								text = RULER_DESIGNER_GROUP_head_neck
 								onclick = "[VariableSystem.Set( 'appearance_customization_side_tab_open', 'head_neck' )]"
 								onclick = "[VariableSystem.Set( 'appearance_customization_portrait_view', 'face' )]"
 								down = "[VariableSystem.HasValue( 'appearance_customization_side_tab_open', 'head_neck' )]"
 							}
 
 							button_standard = {
-								text = RULER_DESIGNER_CATEGORY_ears
+								text = RULER_DESIGNER_GROUP_ears
 								onclick = "[VariableSystem.Set( 'appearance_customization_side_tab_open', 'ears' )]"
 								onclick = "[VariableSystem.Set( 'appearance_customization_portrait_view', 'face' )]"
 								down = "[VariableSystem.HasValue( 'appearance_customization_side_tab_open', 'ears' )]"
@@ -3406,14 +3417,14 @@ window = {
 							}
 
 							button_standard = {
-								text = RULER_DESIGNER_APPEARANCE_CATEGORY_FACE
+								text = RULER_DESIGNER_GROUP_face
 								onclick = "[VariableSystem.Set( 'appearance_customization_side_tab_open', 'face' )]"
 								onclick = "[VariableSystem.Set( 'appearance_customization_portrait_view', 'face' )]"
 								down = "[VariableSystem.HasValue( 'appearance_customization_side_tab_open', 'face' )]"
 							}
 
 							button_standard = {
-								text = RULER_DESIGNER_CATEGORY_eyes
+								text = RULER_DESIGNER_GROUP_eyes
 								onclick = "[VariableSystem.Set( 'appearance_customization_side_tab_open', 'eyes' )]"
 								onclick = "[VariableSystem.Set( 'appearance_customization_portrait_view', 'face' )]"
 								onclick = "[VariableSystem.Set( Localize('race_gene_skin_color'), Localize('human_skin') )]"
@@ -3421,21 +3432,21 @@ window = {
 							}
 
 							button_standard = {
-								text = RULER_DESIGNER_CATEGORY_nose
+								text = RULER_DESIGNER_GROUP_nose
 								onclick = "[VariableSystem.Set( 'appearance_customization_side_tab_open', 'nose' )]"
 								onclick = "[VariableSystem.Set( 'appearance_customization_portrait_view', 'face' )]"
 								down = "[VariableSystem.HasValue( 'appearance_customization_side_tab_open', 'nose' )]"
 							}
 
 							button_standard = {
-								text = RULER_DESIGNER_CATEGORY_mouth
+								text = RULER_DESIGNER_GROUP_mouth
 								onclick = "[VariableSystem.Set( 'appearance_customization_side_tab_open', 'mouth' )]"
 								onclick = "[VariableSystem.Set( 'appearance_customization_portrait_view', 'face' )]"
 								down = "[VariableSystem.HasValue( 'appearance_customization_side_tab_open', 'mouth' )]"
 							}
 
 							button_standard = {
-								text = RULER_DESIGNER_CATEGORY_tail
+								text = RULER_DESIGNER_GROUP_tail
 								onclick = "[VariableSystem.Set( 'appearance_customization_side_tab_open', 'tail' )]"
 								onclick = "[VariableSystem.Set( 'appearance_customization_portrait_view', 'body_tail' )]"
 								down = "[VariableSystem.HasValue( 'appearance_customization_side_tab_open', 'tail' )]"
@@ -3449,7 +3460,7 @@ window = {
 					text_label_left = {
 						visible = "[Not(VariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian'))) ]"
 						layoutpolicy_horizontal = expanding
-						text = RULER_DESIGNER_HAIR_LABEL
+						text = RULER_DESIGNER_CATEGORY_hair
 						using = Font_Size_Medium
 					}
 
@@ -3460,7 +3471,7 @@ window = {
 							spacing = 10
 
 							button_standard = {
-								text = RULER_DESIGNER_APPEARANCE_CATEGORY_HAIR
+								text = RULER_DESIGNER_GROUP_hair
 								#visible = "[Not(VariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian'))) ]" #commented out for now, until we can figure out how to prevent Argonians and others getting hair altogether in RD
 								onclick = "[VariableSystem.Set( 'appearance_customization_side_tab_open', 'hair' )]"
 								onclick = "[VariableSystem.Set( 'appearance_customization_portrait_view', 'face' )]"
@@ -3469,7 +3480,7 @@ window = {
 							}
 
 							button_standard = {
-								text = RULER_DESIGNER_APPEARANCE_CATEGORY_BEARD
+								text = RULER_DESIGNER_GROUP_beard
 								#visible = "[And(Not(VariableSystem.HasValue( 'ek_ethnicity', Localize('race_argonian'))), Not( RulerDesignerWindow.IsFemale)) ]" #commented out for now, until we can figure out how to prevent Argonians and others getting beards altogether in RD
 								visible = "[Not( RulerDesignerWindow.IsFemale )]"
 								onclick = "[VariableSystem.Set( 'appearance_customization_side_tab_open', 'beard' )]"
@@ -3770,7 +3781,7 @@ window = {
 
 							text_label_left = {
 								layoutpolicy_horizontal = expanding
-								text = "[Localize( Concatenate( 'RULER_DESIGNER_CATEGORY_' , VariableSystem.Get( 'appearance_customization_side_tab_open' ) ) )]"
+								text = "[Localize( Concatenate( 'RULER_DESIGNER_GROUP_' , VariableSystem.Get( 'appearance_customization_side_tab_open' ) ) )]"
 								using = Font_Size_Medium
 							}
 						}
@@ -3838,13 +3849,13 @@ window = {
 
 													scrollbar_morph_gene = {
 														name = "scrollbar_morph_gene"
-														visible = "[GeneCategory.ShowMorphGeneSlider]"
+														visible = "[RulerDesignerWindow.ShowMorphGeneSlider( GeneCategory.Self )]"
 													}
 
 													text_single = {
 														name = "morph_gene_female_only"
 														text = RULER_DESIGNER_GENE_ONLY_WOMEN
-														visible = "[GeneCategory.IsOnlyVisibleFemale]"
+														visible = "[RulerDesignerWindow.IsOnlyVisibleFemale( GeneCategory.Self )]"
 														align = left
 														layoutpolicy_horizontal = expanding
 														default_format = "#weak"

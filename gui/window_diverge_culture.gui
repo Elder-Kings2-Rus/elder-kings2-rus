@@ -301,6 +301,41 @@ window = {
 
 							text_label_center = {
 								layoutpolicy_horizontal = expanding
+								text = "CULTURE_CREATION_HERITAGE"
+								default_format = "#low"
+							}
+
+							vbox = {
+								layoutpolicy_horizontal = expanding
+								margin_right = 6
+
+								fixedgridbox = {
+									datamodel = "[DivergenceWindow.GetPossibleHeritage]"
+									flipdirection = yes
+									addcolumn = 172
+									addrow = 40
+									datamodel_wrap = 2
+
+									item = {
+										button_diverge_pillar_selection = {
+											blockoverride "icon"
+											{
+												button_icon = {
+													parentanchor = vcenter
+													position = { 4 0 }
+													size = { 26 26 }
+													alwaystransparent = yes
+													texture = "gfx/interface/icons/culture_pillars/heritage.dds"
+													framesize = { 220 220 }
+												}
+											}
+										}
+									}
+								}
+							}
+
+							text_label_center = {
+								layoutpolicy_horizontal = expanding
 								text = "CULTURE_CREATION_MARTIAL_CUSTOM"
 								default_format = "#low"
 							}
@@ -646,6 +681,7 @@ window = {
 							blockoverride "editbox_properties"
 							{
 								name = "culture_name_edit"
+								focus_on_visible = yes
 								ontextedited = "[DivergenceWindow.OnEditName]"
 								maxcharacters = 30
 							}
