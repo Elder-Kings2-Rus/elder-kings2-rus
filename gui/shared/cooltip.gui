@@ -48,6 +48,14 @@ container = {
 	}
 }
 
+container = {
+
+	alwaystransparent = no
+	name = "GlossaryTooltip"
+	using = GlossaryTooltipWidget
+}
+
+
 template character_opinion_tooltip {
 	widget = {
 		using = GeneralTooltipSetup
@@ -79,6 +87,7 @@ template character_opinion_tooltip {
 
 					using = Font_Size_Medium
 					align = nobaseline
+					fonttintcolor = "[TooltipInfo.GetTintColor]"
 				}
 
 				text_single = {
@@ -102,6 +111,8 @@ template character_opinion_tooltip {
 
 					default_format = "#true_white"
 					using = Font_Size_Medium
+
+					fonttintcolor = "[TooltipInfo.GetTintColor]"
 				}
 
 				expand = {}
@@ -120,6 +131,7 @@ template character_opinion_tooltip {
 					max_width = 400
 					text = "PLAYER_OPINION_UNIMPORTANT"
 					default_format = "#weak"
+					fonttintcolor = "[TooltipInfo.GetTintColor]"
 				}
 
 				text_multi = {
@@ -130,6 +142,7 @@ template character_opinion_tooltip {
 					max_width = 400
 					text = "PLAYER_OPINION_UNIMPORTANT_SELF"
 					default_format = "#weak"
+					fonttintcolor = "[TooltipInfo.GetTintColor]"
 				}
 
 				expand = {}
@@ -148,6 +161,7 @@ template character_opinion_tooltip {
 
 					autoresize = yes
 					max_width = 400
+					fonttintcolor = "[TooltipInfo.GetTintColor]"
 				}
 
 				expand = {}
@@ -181,7 +195,11 @@ template character_trait_tooltip {
 		}
 
 		blockoverride "concept_link" {
-			text = "[Select_CString( EqualTo_int32( Trait.GetRulerDesignerCost, '(int32)-666' ), patron_trait, Trait.GetTraitCategoryLabel )|E]" #EK EDIT
+			#text = "[Trait.GetTraitCategoryLabel]" # EK EDIT (vanilla)
+			text = "[Select_CString( EqualTo_int32( Trait.GetRulerDesignerCost, '(int32)-666' ), patron_trait, Select_CString( EqualTo_int32( Trait.GetRulerDesignerCost, '(int32)1' ), birthsign_trait, Select_CString( EqualTo_int32( Trait.GetRulerDesignerCost, '(int32)-1' ), furstock_trait, Trait.GetTraitCategoryLabel )))|E]" #Now displays "patron trait" and "birthsign trait" as fake trait categories
+			#text = "[Select_CString(Trait.HasFlag('patron_trait'), patron_trait, Trait.GetTraitCategoryLabel )|E]" 
+			# REINS NOTE: this *should* have worked, according to the fellows at the coop.
+			# assuming of course that Trait.HasFlag works. Which is doesn't seem to. Using a flag check would have been preferable and less janky than the above Ruler Designer Cost one. replace when/if able
 		}
 
 		blockoverride "description_text" {
@@ -205,6 +223,7 @@ template character_trait_tooltip {
 				text_label_left = {
 					layoutpolicy_horizontal = expanding
 					text = "TRAIT_LEVEL_TRACKS_HEADER"
+					fonttintcolor = "[TooltipInfo.GetTintColor]"
 				}
 
 				vbox = {
@@ -236,6 +255,7 @@ template character_trait_tooltip {
 								text_single = {
 									layoutpolicy_horizontal = expanding
 									text = "[TraitLevelTrack.GetName]"
+									fonttintcolor = "[TooltipInfo.GetTintColor]"
 								}
 
 								widget = {
@@ -454,20 +474,8 @@ types GameTooltipTypes
 				spacing = 10
 
 				background = {
-					name = "header"
-					texture = "gfx/interface/component_tiles/tile_title_big_top_01.dds"
-					spriteType = Corneredstretched
+					using = Background_Header_Tall
 					margin = { 15 0 }
-					texture_density = 2
-
-					modify_texture = {
-						name = "mask"
-						texture = "gfx/interface/component_masks/mask_title_big_top.dds"
-						spriteType = Corneredstretched
-						spriteborder = { 160 0 }
-						blend_mode = alphamultiply
-						alpha = 0.5
-					}
 				}
 
 				block "header_tt" {
@@ -500,7 +508,7 @@ types GameTooltipTypes
 							using = Font_Size_Medium
 
 							block "title_text" {
-								margin = { 0 8 }
+								margin = { 0 4 }
 							}
 							fonttintcolor = "[TooltipInfo.GetTintColor]"
 						}
@@ -600,6 +608,7 @@ types GameTooltipTypes
 				using = DefaultTooltipText
 				margin = { 10 5 }
 				margin_top = 10
+				fonttintcolor = "[TooltipInfo.GetTintColor]"
 			}
 		}
 	}
@@ -611,13 +620,13 @@ types GameTooltipTypes
 		margin_left = -4
 
 		icon = {
-			size = { 32 32 }
+			size = { 60 60 }
 			tintcolor = "[TooltipInfo.GetTintColor]"
-			
+
 			block "header_texture"
 			{
 			}
-		}	
+		}
 	}
 
 	type cooltip_type = widget {
@@ -693,6 +702,7 @@ types GameTooltipTypes
 									using = Font_Size_Medium
 									max_width = 350
 									autoresize = yes
+									fonttintcolor = "[TooltipInfo.GetTintColor]"
 								}
 
 								vbox = {
@@ -706,6 +716,7 @@ types GameTooltipTypes
 										frame = "[Character.GetHealthIconFrame]"
 										texture = "gfx/interface/icons/character_status/icon_health.dds"
 										tooltip = "[Character.GetHealthInfo]"
+										color = "[TooltipInfo.GetTintColor]"
 									}
 
 									expand = {}
@@ -728,6 +739,7 @@ types GameTooltipTypes
 							default_format = "#high"
 							align = nobaseline
 							autoresize = yes
+							fonttintcolor = "[TooltipInfo.GetTintColor]"
 						}
 
 						expand = {}
@@ -749,6 +761,7 @@ types GameTooltipTypes
 								default_format = "#L"
 								tooltip = "AI_PERSONALITY_TT"
 								align = nobaseline
+								fonttintcolor = "[TooltipInfo.GetTintColor]"
 							}
 
 							hbox = {
@@ -761,6 +774,7 @@ types GameTooltipTypes
 									frame = "[Character.GetSexualityFrame]"
 									texture = "gfx/interface/icons/character_status/sexuality_icons_male.dds"
 									tooltip = "SEXUALITY_TT"
+									color = "[TooltipInfo.GetTintColor]"
 								}
 
 								icon = {
@@ -770,6 +784,7 @@ types GameTooltipTypes
 									frame = "[Character.GetSexualityFrame]"
 									texture = "gfx/interface/icons/character_status/sexuality_icons_female.dds"
 									tooltip = "SEXUALITY_TT"
+									color = "[TooltipInfo.GetTintColor]"
 								}
 
 								portrait_status_icons = {
@@ -777,6 +792,8 @@ types GameTooltipTypes
 									{
 										direction = horizontal
 									}
+
+									color = "[TooltipInfo.GetTintColor]"
 								}
 
 								expand = {}
@@ -794,6 +811,7 @@ types GameTooltipTypes
 								layoutpolicy_horizontal = expanding
 								align = nobaseline
 								max_width = 350
+								fonttintcolor = "[TooltipInfo.GetTintColor]"
 							}
 
 							expand = {}
@@ -804,6 +822,7 @@ types GameTooltipTypes
 							layoutpolicy_horizontal = expanding
 							text = "CHARACTER_LOCATION_TOOLTIP"
 							align = nobaseline
+							fonttintcolor = "[TooltipInfo.GetTintColor]"
 
 						}
 
@@ -812,6 +831,7 @@ types GameTooltipTypes
 							layoutpolicy_horizontal = expanding
 							text = "CHARACTER_IMPRISONED_TOOLTIP"
 							align = nobaseline
+							fonttintcolor = "[TooltipInfo.GetTintColor]"
 						}
 					}
 
@@ -831,6 +851,7 @@ types GameTooltipTypes
 								name = "faith_button"
 								datacontext = "[Character.GetFaith]"
 								size = { 45 45 }
+								color = "[TooltipInfo.GetTintColor]"
 							}
 
 							vbox = {
@@ -850,6 +871,8 @@ types GameTooltipTypes
 										onclick = "[OpenGameViewData( 'faith', Faith.GetID )]"
 									}
 
+									fonttintcolor = "[TooltipInfo.GetTintColor]"
+
 								}
 
 								text_single = {
@@ -863,6 +886,8 @@ types GameTooltipTypes
 										onclick = "[OpenGameViewData( 'culture_window', Culture.GetID )]"
 										# shortcut = "innovations_window"
 									}
+
+									fonttintcolor = "[TooltipInfo.GetTintColor]"
 								}
 							}
 						}
@@ -873,6 +898,9 @@ types GameTooltipTypes
 							margin = { 10 5 }
 
 							coa_house_small = {
+								# has no effect, sadly...
+								# color = "[TooltipInfo.GetTintColor]"
+
 								container = {
 									name = "characters_status_in_house"
 									parentanchor = bottom|right
@@ -885,6 +913,7 @@ types GameTooltipTypes
 										size = { 25 25 }
 										texture = "gfx/interface/icons/portraits/relation.dds"
 										tooltip = "CV_TT_BASTARD"
+										color = "[TooltipInfo.GetTintColor]"
 									}
 
 									icon = {
@@ -896,6 +925,7 @@ types GameTooltipTypes
 										framesize = { 40 40 }
 										frame = "[Character.GetDynastyHeadRelationFrame('(bool)no')]"
 										tooltip = "[Character.GetDynastyHeadTooltip]"
+										color = "[TooltipInfo.GetTintColor]"
 									}
 								}
 							}
@@ -906,6 +936,7 @@ types GameTooltipTypes
 								text = "HOUSE_VIEW_NAME_WITH_HOUSE"
 								max_width = 100
 								autoresize = yes
+								fonttintcolor = "[TooltipInfo.GetTintColor]"
 							}
 						}
 					}
@@ -973,6 +1004,58 @@ types GameTooltipTypes
 					raw_text = "[GetAnimationTooltip( PdxGuiWidget.Self, Character.Self )]"
 					visible = "[ShouldShowAnimationInfo]"
 				}
+
+				hbox = {
+					visible = "[And( InDebugMode, Not( Character.AccessDenied ) )]"
+					layoutpolicy_horizontal = expanding
+
+					text_single = {
+						text = "DNA_MODIFIERS_LINK"
+
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
+
+						tooltipwidget = {
+							container = {
+								name = "DnaModifierTooltip"
+								alwaystransparent = no
+
+								object_tooltip_pop_out = {
+									blockoverride "header_additions"
+									{
+										hbox = {
+											margin_right = 10
+											margin_top = 8
+											margin_left = -4
+
+											button_copy = {
+												size = { 52 52 }
+
+												onclick = "[Character.CopyDnaAccessoryToClipboard]"
+												raw_tooltip = "Copy DNA Modifiers"
+											}
+										}
+									}
+
+									blockoverride "title_text"
+									{
+										margin = { 0 8 }
+										text = "DNA_MODIFIERS"
+										default_format = "#T"
+									}
+
+									blockoverride "concept_link" {}
+
+									blockoverride "description_text"
+									{
+										max_width = 600
+										text = "[Character.GetDnaAccessoryTooltip]"
+									}
+								}
+							}
+						}
+					}
+					expand = {}
+				}
 			}
 
 			## NULL CHARACTER
@@ -1031,6 +1114,7 @@ types GameTooltipTypes
 						using = Font_Size_Medium
 						max_width = 335
 						autoresize = yes
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
 					}
 
 					expand = {}
@@ -1047,6 +1131,7 @@ types GameTooltipTypes
 						tooltip = "EXTENDED_RELATIONS_TOOLTIP"
 						align = nobaseline
 						autoresize = yes
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
 					}
 
 					expand = {}
@@ -1063,6 +1148,7 @@ types GameTooltipTypes
 						text = "CHARACTER_TT_AGE"
 						align = nobaseline
 						autoresize = yes
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
 
 					}
 
@@ -1082,6 +1168,7 @@ types GameTooltipTypes
 						raw_text = "[RoyalCourtWindow.GetAnimationInfo]"
 						align = nobaseline
 						autoresize = yes
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
 					}
 
 					expand = {}
@@ -1275,6 +1362,7 @@ template maa_type_container_tooltip
 					background = {
 						name = "image"
 						texture = "[MenAtArmsType.GetHorizontalImage]"
+						fittype = CenterCrop
 
 						using = Mask_Rough_Edges
 					}
@@ -1301,6 +1389,7 @@ template maa_type_container_tooltip
 							text = "MV_CREATE_REGIMENT_SIZE"
 							default_format = "#high"
 							using = Font_Size_Medium
+							fonttintcolor = "[TooltipInfo.GetTintColor]"
 
 						}
 
@@ -1327,6 +1416,7 @@ template maa_type_container_tooltip
 						}
 						expand = {}
 					}
+
 					hbox = {
 						layoutpolicy_horizontal = expanding
 
@@ -1336,12 +1426,21 @@ template maa_type_container_tooltip
 						expand = {}
 					}
 
-
 					hbox = {
 						layoutpolicy_horizontal = expanding
 
 						text_single = {
 							text = "[MenAtArmsType.GetFullStrengthMaintenanceCostForPlayerString]"
+						}
+						expand = {}
+					}
+
+					hbox = {
+						visible = "[IsLandlessAdventurer( GetPlayer )]"
+						layoutpolicy_horizontal = expanding
+
+						text_single = {
+							text = "[Regiment.GetProvisionsCostString]"
 						}
 						expand = {}
 					}
@@ -1413,6 +1512,7 @@ widget = {
 
 					using = Font_Type_Flavor
 					using = Font_Size_Big
+					fonttintcolor = "[TooltipInfo.GetTintColor]"
 
 				}
 
@@ -1423,7 +1523,7 @@ widget = {
 		}
 
 		widget = {
-			minimumsize = { 294 174 }
+			minimumsize = { 352 208 }
 			layoutpolicy_horizontal = expanding
 
 			vbox = {
@@ -1432,6 +1532,7 @@ widget = {
 				background = {
 					name = "image"
 					texture = "[MenAtArmsType.GetHorizontalImage]"
+					fittype = CenterCrop
 
 					using = Mask_Rough_Edges
 				}
@@ -1459,6 +1560,7 @@ widget = {
 						text = "MV_CREATE_REGIMENT_SIZE"
 						default_format = "#high"
 						using = Font_Size_Medium
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
 
 					}
 
@@ -1485,6 +1587,7 @@ widget = {
 					}
 					expand = {}
 				}
+
 				hbox = {
 					layoutpolicy_horizontal = expanding
 
@@ -1494,7 +1597,6 @@ widget = {
 					expand = {}
 				}
 
-
 				hbox = {
 					layoutpolicy_horizontal = expanding
 
@@ -1502,6 +1604,16 @@ widget = {
 						text = "[MenAtArmsType.GetFullStrengthMaintenanceCostForPlayerString]"
 					}
 
+					expand = {}
+				}
+
+				hbox = {
+					visible = "[IsLandlessAdventurer( GetPlayer )]"
+					layoutpolicy_horizontal = expanding
+
+					text_single = {
+						text = "[MenAtArmsType.GetProvisionsCostString]"
+					}
 					expand = {}
 				}
 			}
@@ -1580,10 +1692,13 @@ template regiment_container_tooltip
 
 						using = Font_Type_Flavor
 						using = Font_Size_Big
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
 
 					}
-					spacer = {
-						size = { 40 40 }
+
+					coa_title_small = {
+						datacontext = "[Regiment.GetOwningTitle]"
+						visible = "[Title.IsValid]"
 					}
 				}
 			}
@@ -1602,6 +1717,7 @@ template regiment_container_tooltip
 							name = "image"
 							texture = "[MenAtArmsType.GetHorizontalImage]"
 							using = Mask_Rough_Edges
+							fittype = CenterCrop
 						}
 
 						hbox = {
@@ -1611,6 +1727,7 @@ template regiment_container_tooltip
 							text_label_right = {
 								text = "[SelectLocalization(Regiment.IsRaised, 'MAA_RAISED', 'MAA_UNRAISED')]"
 								using = Font_Size_Medium
+								fonttintcolor = "[TooltipInfo.GetTintColor]"
 							}
 
 							spacer = {
@@ -1638,6 +1755,7 @@ template regiment_container_tooltip
 									text = "[Regiment.BuildCurrentRegimentCountString]"
 									default_format = "#high"
 									using = Font_Size_Medium
+									fonttintcolor = "[TooltipInfo.GetTintColor]"
 								}
 							}
 
@@ -1648,6 +1766,7 @@ template regiment_container_tooltip
 
 								default_format = "#high"
 								using = Font_Size_Medium
+								fonttintcolor = "[TooltipInfo.GetTintColor]"
 							}
 
 							spacer = {
@@ -1677,11 +1796,20 @@ template regiment_container_tooltip
 					text_single = {
 						layoutpolicy_horizontal = expanding
 						text = "MAA_REINFORCEMENT_COST_ENTRY"
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
 					}
 
 					text_single = {
 						layoutpolicy_horizontal = expanding
 						text = "MAA_MAINTENANCE"
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
+					}
+
+					text_single = {
+						visible = "[IsLandlessAdventurer( GetPlayer )]"
+						layoutpolicy_horizontal = expanding
+						text = "[MenAtArmsType.GetProvisionsCostString]"
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
 					}
 				}
 
@@ -1754,10 +1882,13 @@ template regiment_container_text_tooltip
 
 						using = Font_Type_Flavor
 						using = Font_Size_Big
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
 
 					}
-					spacer = {
-						size = { 40 40 }
+
+					coa_title_small = {
+						datacontext = "[Regiment.GetOwningTitle]"
+						visible = "[Title.IsValid]"
 					}
 				}
 			}
@@ -1775,6 +1906,7 @@ template regiment_container_text_tooltip
 						text = "[SelectLocalization(Regiment.IsRaised, 'MAA_RAISED', 'MAA_UNRAISED')]"
 						using = Font_Size_Medium
 						align = right
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
 					}
 
 					expand = {}
@@ -1804,6 +1936,7 @@ template regiment_container_text_tooltip
 
 						default_format = "#high"
 						# using = Font_Size_Medium
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
 					}
 
 					text_single = {
@@ -1811,6 +1944,7 @@ template regiment_container_text_tooltip
 
 						default_format = "#high"
 						# using = Font_Size_Medium
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
 					}
 
 					expand = {}
@@ -1836,11 +1970,20 @@ template regiment_container_text_tooltip
 					text_single = {
 						layoutpolicy_horizontal = expanding
 						text = "MAA_REINFORCEMENT_COST_ENTRY"
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
 					}
 
 					text_single = {
 						layoutpolicy_horizontal = expanding
 						text = "MAA_MAINTENANCE"
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
+					}
+
+					text_single = {
+						visible = "[IsLandlessAdventurer( GetPlayer )]"
+						layoutpolicy_horizontal = expanding
+						text = "[Regiment.GetProvisionsCostString]"
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
 					}
 				}
 
@@ -1879,211 +2022,193 @@ template unit_icon_item_tooltip {
 			alwaystransparent = no
 		}
 
+		background = {
+			using = Background_Header_Tall
+		}
+
 		vbox = {
 			set_parent_size_to_minimum = yes
 			margin = { 12 8 }
 			margin_bottom = 16
 			spacing = 4
 
-			hbox = {
-				name = "FancyHeader"
-				alwaystransparent = no
+			vbox = {
 				layoutpolicy_horizontal = expanding
-
-				coa_realm_small = {
-					datacontext = "[UnitItem.GetOwner]"
-					tintcolor = "[TooltipInfo.GetTintColor]"
-				}
-
-				text_single = {
-					layoutpolicy_vertical = expanding
-					name = "title"
-					align = top|left
-					margin_top = 6
-					margin_right = 20
-					text = "[UnitItem.GetTooltipHeader]"
-					fonttintcolor = "[TooltipInfo.GetTintColor]"
-				}
-			}
-
-			hbox = {
-				name="troops_summary"
-				layoutpolicy_horizontal = expanding
-
-				soldiers_and_quality_small = {
-					datacontext = [Army.GetComposition]
-				}
-				expand = {}
-			}
-
-			hbox = {
-				name = "troop_breakdown"
 				layoutpolicy_vertical = expanding
+				margin = { 0 4 }
+
+				background = {
+					using = Background_Header_Tall
+				}
+
+				hbox = {
+					layoutpolicy_horizontal = expanding
+					margin_bottom = 4
+
+					widget = {
+						size = { 60 60 }
+						coa_realm_small = {
+							datacontext = "[UnitItem.GetOwner]"
+							tintcolor = "[TooltipInfo.GetTintColor]"
+							parentanchor = center
+						}
+					}
+
+					vbox = {
+						layoutpolicy_vertical = expanding
+						text_single = {
+							layoutpolicy_vertical = expanding
+							layoutpolicy_horizontal = expanding
+							name = "title"
+							align = top|left
+							margin_top = 6
+							margin_right = 20
+							raw_text = "[Army.GetNameNoTooltip] ([UnitItem.GetTooltipHeader])"
+							fonttintcolor = "[TooltipInfo.GetTintColor]"
+						}
+
+						hbox = {
+							layoutpolicy_horizontal = growing
+
+							hbox_soldiers_and_quality_small_core = {
+								datacontext = [Army.GetComposition]
+							}
+
+							expand = {
+								layoutpolicy_horizontal = growing
+							}
+
+						}
+
+						expand = {
+							layoutpolicy_vertical = growing
+						}
+					}
+					expand = {
+						layoutpolicy_horizontal = growing
+					}
+				}
+			}
+
+			vbox = {
 				layoutpolicy_horizontal = expanding
 
-				dynamicgridbox = {
-					name = "troops"
-					datamodel = "[CalculateBreakdownItems(Army.Self)]"
+				hbox = {
+					name = "troop_breakdown"
+					layoutpolicy_vertical = expanding
+					layoutpolicy_horizontal = expanding
 
-					datamodel_wrap = 5
-					flipdirection = yes
-					maxverticalslots = 2
+					margin = { 8 8 }
 
-					item = {
-						widget = {
-							hbox = {
-								margin_right = 4
-								set_parent_size_to_minimum = yes
-								tooltip = "ARMY_VIEW_TROOP_TT"
+					background = {
+						using = Background_Area
+					}
 
-								highlight_icon = {
-									name = "men_at_arms_icon"
-									visible = "[TroopItem.IsMaa]"
-									size = { 35 35 }
-									texture = "[TroopItem.GetRegiment.GetRegiment.GetMAAType.GetIcon]"
+					dynamicgridbox = {
+						name = "troops"
+						datamodel = "[CalculateBreakdownItems(Army.Self)]"
+
+						datamodel_wrap = 4
+						flipdirection = yes
+						maxverticalslots = 2
+
+						item = {
+							widget = {
+								hbox = {
+									margin_right = 16
+									set_parent_size_to_minimum = yes
+									tooltip = "ARMY_VIEW_TROOP_TT"
+									spacing = 4
+
+									icon = {
+										name = "men_at_arms_icon"
+										visible = "[TroopItem.IsMaa]"
+										size = { 35 35 }
+										texture = "[TroopItem.GetRegiment.GetRegiment.GetMAAType.GetIcon]"
+									}
+
+									widget = {
+										size = { 35 35 }
+										name = "levies_icon"
+										visible = "[TroopItem.IsLevies]"
+
+										icon = {
+											# the levies icon is larger than the MaA icons so it looks better if smaller
+											size = { 30 30 }
+											texture = "gfx/interface/icons/icon_soldier.dds"
+											parentanchor = center
+										}
+									}
+
+									icon = {
+										name = "knight_icon"
+										visible = "[TroopItem.IsKnight]"
+										size = { 35 35 }
+										texture = "gfx/interface/icons/icon_knight_small.dds"
+									}
+
+									text_single = {
+										layoutpolicy_horizontal = growing
+										text = "[TroopItem.GetCount|*V]"
+										align = nobaseline
+										fonttintcolor = "[TooltipInfo.GetTintColor]"
+									}
+
 								}
-
-								highlight_icon = {
-									name = "levies_icon"
-									visible = "[TroopItem.IsLevies]"
-									size = { 35 35 }
-									texture = "gfx/interface/icons/icon_soldier.dds"
-								}
-
-								highlight_icon = {
-									name = "knight_icon"
-									visible = "[TroopItem.IsKnight]"
-									size = { 35 35 }
-									texture = "gfx/interface/icons/icon_knight_small.dds"
-								}
-								text_single = {
-									layoutpolicy_horizontal = growing
-									text = "[TroopItem.GetCount|*]"
-								}
-
 							}
 						}
 					}
-				}
-				expand = {
-					layoutpolicy_vertical = expanding
-				}
-			}
-			divider_light =
-			{
-				layoutpolicy_horizontal = expanding
-			}
-
-			hbox = {
-				name="troop_commander"
-				datacontext = "[Army.GetCommander]"
-				visible = "[Character.IsValid]"
-				layoutpolicy_horizontal = expanding
-
-				text_single = {
-					layoutpolicy_horizontal = expanding
-					text = "ARMY_TOOLTIP_COMMANDER"
+					expand = {
+						layoutpolicy_vertical = expanding
+					}
 				}
 
 				hbox = {
-					tooltip = "[Character.GetCommanderAdvantageDesc]"
-					icon = {
-						name = "skill_icon"
-						texture = "gfx/interface/icons/icon_commander_advantage.dds"
-						size = { 30 30 }
-					}
-					text_single = {
-						text = "ARMY_TOOLTIP_COMMANDER_ADVANTAGE"
-					}
-				}
-			}
+					name="commander"
 
-			text_single = {
-				name = "no_troop_commander"
-				visible = "[Not( Army.GetCommander.IsValid )]"
-				layoutpolicy_horizontal = expanding
-				text = "ARMY_TOOLTIP_NO_COMMANDER"
-			}
-
-			expand = {}
-
-			hbox = {
-				layoutpolicy_horizontal = expanding
-				visible = "[UnitItem.IsRulerCommander]"
-				margin_left = 4
-
-				icon = {
-					texture = "gfx/interface/icons/map_icons/commander_is_leader.dds"
-				}
-				text_single = {
+					datacontext = "[Army.GetCommander]"
 					layoutpolicy_horizontal = expanding
-					datacontext = "[UnitItem.GetUnitPortraitCharacter]"
-					text = "COMMANDER_IS_LEADER"
-					align = nobaseline
-				}
-			}
+					margin = { 12 4 }
 
-			hbox = {
-				visible = "[UnitItem.HasDisembarkPenalty]"
-				layoutpolicy_horizontal = expanding
-				margin_left = 4
-
-				icon = {
-					name = "sea_sickness_icon"
-					size = { 24 24 }
-					texture = "gfx/interface/icons/map_icons/army_icon_disembarked.dds"
-				}
-				text_single = {
-					layoutpolicy_horizontal = expanding
-					text = "[Army.GetEmbarkInfoForTooltip]"
-					align = nobaseline
-				}
-			}
-
-			hbox = {
-				visible = "[UnitItem.IsGathering]"
-				layoutpolicy_horizontal = expanding
-				margin_left = 4
-
-				icon = {
-					texture = "gfx/interface/icons/map_icons/army_icon_gathering.dds"
-				}
-				text_single = {
-					layoutpolicy_horizontal = expanding
-					text = "ARMY_TOOLTIP_IS_GATHERING"
-					align = nobaseline
-				}
-			}
-
-			# #--------------------------------------
-			# |  ¤ Attrition: 1%/month
-			# |  & Well supplied (100) -10/month
-			# | -> Province, 17 days left (29 May yyyy)
-			# | () Movement locked
-			# #--------------------------------------
-			vbox = {
-				name = "involved_army_details"
-				visible = "[Not(Army.IsNeutralToPlayer)]"
-				layoutpolicy_horizontal = expanding
-				spacing = 4
-
-				hbox = {
-					name = "involved_army_attrition_warning"
-					visible = "[Army.IsArmySufferingFromAttrition]"
-					layoutpolicy_horizontal = expanding
-					margin_left = 4
-					tooltip = "ARMY_ATTRITION_TT"
-
-					icon = {
-						texture = "gfx/interface/icons/map_icons/attrition_icon.dds"
-						size = { 24 24 }
+					background = {
+						using = Background_Area
 					}
 
-					text_single = {
+					hbox = {
+						visible = "[Character.IsValid]"
 						layoutpolicy_horizontal = expanding
-						name = "attrition"
-						text = "ARMY_TOOLTIP_ATTRITION"
+
+						text_single = {
+							layoutpolicy_horizontal = expanding
+							text = "ARMY_TOOLTIP_COMMANDER"
+							align = nobaseline
+							fonttintcolor = "[TooltipInfo.GetTintColor]"
+						}
+
+						hbox = {
+							tooltip = "[Character.GetCommanderAdvantageDesc]"
+							icon = {
+								name = "skill_icon"
+								texture = "gfx/interface/icons/icon_commander_advantage.dds"
+								size = { 30 30 }
+							}
+							text_single = {
+								text = "ARMY_TOOLTIP_COMMANDER_ADVANTAGE"
+								align = nobaseline
+								fonttintcolor = "[TooltipInfo.GetTintColor]"
+							}
+						}
+					}
+
+					text_single = {
+						name = "no_troop_commander"
+						visible = "[Not( Character.IsValid )]"
+						layoutpolicy_horizontal = expanding
+						text = "ARMY_TOOLTIP_NO_COMMANDER"
 						align = nobaseline
+
+						default_format = "#weak"
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
 					}
 				}
 
