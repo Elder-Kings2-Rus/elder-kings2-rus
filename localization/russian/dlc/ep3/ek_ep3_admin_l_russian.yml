@@ -1,6 +1,6 @@
 ﻿l_russian:
  masterful_mages_house_power: "Искусные маги"
 
- house_head_astray_faith_powerful_family_rating: "[house_head|E] считается хуже, чем [Concept( 'faith_astray', 'заблудшим' )|E], по мнению [Concept( 'faith_astray', 'государственной религии' )|E]"
- house_head_hostile_faith_powerful_family_rating: "[house_head|E] считается хуже, чем [Concept( 'faith_hostile', 'врагом' )|E], по мнению [Concept( 'faith_astray', 'государственной религии' )|E]"
- house_head_evil_faith_powerful_family_rating: "[house_head|E] считается хуже, чем [Concept( 'faith_evil', 'воплощённым злом' )|E], по мнению [Concept( 'faith_astray', 'государственной религии' )|E]"
+ house_head_astray_faith_powerful_family_rating: "[house_head|E] воспринимается [Concept('state_faith', 'государственной конфессией')|E] хуже, чем [Concept('faith_astray', 'заблудшим')|E]"
+ house_head_hostile_faith_powerful_family_rating: "[house_head|E] воспринимается [Concept('state_faith', 'государственной конфессией')|E] хуже, чем [Concept('faith_hostile', 'врагом')|E]"
+ house_head_evil_faith_powerful_family_rating: "[house_head|E] воспринимается [Concept('state_faith', 'государственной конфессией')|E] хуже, чем [Concept('faith_evil', 'воплощённым злом')|E]"

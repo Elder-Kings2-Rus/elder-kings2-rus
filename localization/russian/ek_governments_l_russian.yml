@@ -56,9 +56,9 @@
  tribal_reform_autocracy:0 "автократию"
  vassals_will_convert_from_tribal:0 "Мои [Concept('tribal', 'племенные')|E] вассалы примут форму правления, которая соответствует их традициям"
  ### Tribal
- action_low_prestige_level:0 "@ek_dragon! [prestige_level|E] ниже, чем [expected_prestige_level|E]"
+ action_low_prestige_level:0 "@ek_dragon! [prestige_level|E] ниже [Concept('expected_prestige_level', 'ожидаемого')|E]"
  action_low_prestige_level_label:0 "$action_low_prestige_level$"
- action_low_prestige_level_desc:0 "Ваш текущий уровень показателя [prestige_level|E] ниже, чем [expected_prestige_level|E]. На вас наложены серьезные штрафы, ослабляющие вас и дестабилизующие ваше государство.\n\n#help Вы получите больше [Concept('prestige', 'престижа')|E] и [Concept('prestige_experience', 'прирост престижа')|E], устраивая [Concept('raiding', 'налёты')|E], участвуя в [Concept('wars', 'войнах')|E], или устраивая [GetActivityType( 'activity_hunt' ).GetName], [GetActivityType( 'activity_feast' ).GetName] и прочих активностях.\nВыбор [Concept('perk', 'навыка')|E] #V $a_life_of_glory_perk_name$#! в образе жизни [diplomacy_lifestyle|E] понизит ваш [expected_prestige_level|E] на один [prestige_level|E]."
+ action_low_prestige_level_desc:0 "Ваш текущий [Concept('prestige_level', 'уровень репутации')|E] ниже [Concept('expected_prestige_level', 'ожидаемого')|E]. На вас наложены серьезные штрафы, ослабляющие вас и дестабилизующие вашу державу.\n\n#help Вы получите больше [Concept('prestige', 'престижа')|E] и [Concept('prestige_experience', 'прирост престижа')|E], устраивая [Concept('raiding', 'налёты')|E], участвуя в [Concept('wars', 'войнах')|E], или устраивая #TOOLTIP:ACTIVITY_TYPE,activity_hunt #L охоту#!#!, #TOOLTIP:ACTIVITY_TYPE,activity_feast #L пиры#!#! и прочих занятия.\nВыбор [Concept('perk', 'достоинства')|E] #V $a_life_of_glory_perk_name$#! в пути [Concept('diplomacy_lifestyle', 'дипломатии')|E] понизит ваш [Concept('expected_prestige_level', 'ожидаемый уровень репутации')|E] на один [Concept('prestige_level', 'уровень')|E]."
  action_low_prestige_level_click:0 ""
 
  ### Autocracy
@@ -66,7 +66,7 @@
  autocracy_government_with_icon: "@government_type_autocracy! $autocracy_government$"
     autocracy_government_adjective:0 "Автократическ"
     autocracy_government_realm:0 "Автократическое государство"
-    autocracy_government_desc: "\n$game_concept_autocracy_desc$\n\n#F The Interregnum of Tamriel saw Autocracy become its prevailing form of government. With communications between peoples receding, and all peoples fending for themselves, autocrats became the rulers of the time. They rely on subordinates, vassals whom they can trust more or less to provide [taxes|E] and [soldiers|E] to maintain their power.#!"
+    autocracy_government_desc: "\n$game_concept_autocracy_desc$\n\n#F В период Междуцарствия в Тамриэле преобладающей формой правления стала автократия. Когда связь между народами ослабла, и все народы стали жить сами по себе, автократы стали правителями того времени. Они полагаются на подданных, вассалов, которым они могут более или менее доверять, чтобы обеспечить [Concept('taxes', 'налоги')|E] и [Concept('soldiers', 'солдат')|E] для поддержания своей власти.#!"
 
  vassal_revocation_tyranny_effect_low_ca_tyranny:0 "#N Ваша [Concept('tyranny', 'тирания')|E] возрастает из-за низкого [Concept('crown_authority', 'авторитета короны')|E]. Повысьте его до уровня #V [GetPlayer.Custom('GetCrownAuthority0')]#!, чтобы избежать дальнейшего роста тирании.#!"
  revocation_tyranny_effect_low_ca_tyranny:0 "#N Ваша [Concept('tyranny', 'тирания')|E] возрастает из-за низкого [Concept('crown_authority', 'авторитета короны')|E]. Повысьте его до уровня #V [GetPlayer.Custom('GetCrownAuthority0')]#!, чтобы избежать дальнейшего роста тирании.#!"
@@ -128,7 +128,7 @@
  hierocracy_government_with_icon: "@government_type_hierocracy! $hierocracy_government$"
     hierocracy_government_adjective:0 "Иерократическ"
     hierocracy_government_realm:0 "Иерократическое государство"
-    hierocracy_government_desc:0 "\n$game_concept_hierocracy_desc$\n\n#F This government rests on the [GetFaithDoctrine('doctrine_mystical_birthright_head').GetBaseName] of its [head_of_faith|E]. The Mane's power to regulate social relationships supports their administration, and thus supports all adherents of that faith.#!"
+    hierocracy_government_desc:0 "\n$game_concept_hierocracy_desc$\n\n#F Эта форма правления опирается на [GetFaithDoctrine('doctrine_mystical_birthright_head').GetBaseName|l] своего [Concept('head_of_faith', 'главы конфессии')|E]. Власть Гривы, регулирующая социальные отношения, поддерживает их администрацию, а значит, и всех приверженцев этой веры.#!"
     high_enough_ratio_nb_provinces_same_faith_held_provinces_same_faith:0 "Вы контролируете по крайней мере #V $VALUE|0$%#! провинций, исповедующих вашу [Concept('faith', 'религию')|E]\n#weak Текущее значение: #V [Character.MakeScope.ScriptValue('ratio_nb_provinces_same_faith_held_provinces_same_faith')|1]%#!#!"
     high_enough_ratio_nb_provinces_same_faith_held_provinces_same_faith_not:0 "Вы контролируете #V $VALUE|0$%#! провинций, исповедующих вашу [Concept('faith', 'религию')\n#weak Текущее значение: #V [Character.MakeScope.ScriptValue('ratio_nb_provinces_same_faith_held_provinces_same_faith')|1]%#!#!"
  FAITH_LAND_SHARE:0 "Доля конфессии:\n#V [Character.MakeScope.ScriptValue('ratio_nb_provinces_same_faith_held_provinces_same_faith')|1]%#!"
@@ -172,20 +172,20 @@
  government_is_autocracy:0 "Тип [Concept('government', 'правительства')|E] — [GetGovernment( 'autocracy_government' ).GetName]"
  governmant_is_landed_order:0 "Тип [Concept('government', 'правительства')|E] — [GetGovernment( 'landed_order_government' ).GetName]"
 
- autocracy_tax_slot: "Tax Jurisdiction"
- autocracy_tax_slot_no_tax_collector: "Tax Jurisdiction"
- autocracy_tax_slot_tax_collector: "Tax Jurisdiction: [character.GetName]"
+ autocracy_tax_slot: "Налоговая юрисдикция"
+ autocracy_tax_slot_no_tax_collector: "Налоговая юрисдикция"
+ autocracy_tax_slot_tax_collector: "Налоговая юрисдикция: [character.GetName]"
  autocracy_tax_slot_add: "$MOD_NUM_TAX_SLOTS$"
 
- action_autocracy_appoint_tax_collector: "@tax_collector_icon! Appoint a Tax Collector"
- action_autocracy_appoint_tax_collector_label: "@tax_collector_icon! You are not taxing your Vassals"
- action_autocracy_appoint_tax_collector_desc: "You are not taxing your [autocracy|E] [vassals|E].\n\n#help [tax_collectors|E] are in charge of collecting [levies|E] and [gold|E] from your Autocracy Vassals. You should appoint a $game_concept_tax_collector$ and assign [taxpayers|E] to your [tax_jurisdictions|E].#!"
- action_autocracy_appoint_tax_collector_click: "#I Click to view#!"
+ action_autocracy_appoint_tax_collector: "@tax_collector_icon! Назначить сборщика налогов"
+ action_autocracy_appoint_tax_collector_label: "@tax_collector_icon! Вы не облагаете налогом своих вассалов"
+ action_autocracy_appoint_tax_collector_desc: "Вы не облагаете налогом [Concept('autocracy', 'автократических')|E] [Concept('vassals', 'вассалов')|E].\n\n#help [Concept('tax_collectors', 'Сборщики налогов')|E] занимаются сбором [Concept('levies', 'ополчения')|E] и [Concept('gold', 'золота')|E] с ваших автократических вассалов. Вам следует назначить сборщика налогов и распределить [Concept('taxpayers', 'налогоплательщиков')|E] по [Concept('tax_jurisdictions', 'налоговым юрисдикциям')|E].#!"
+ action_autocracy_appoint_tax_collector_click: "#I Щелкните, чтобы просмотреть#!"
 
- action_autocracy_assign_tax_payers: "@tax_collector_icon! Assign Taxpayers"
- action_autocracy_assign_tax_payers_label: "@tax_collector_icon! Your Tax Collector has no Taxpayers"
- action_autocracy_assign_tax_payers_desc: "You are not taxing your [autocracy|E] [vassals|E].\n\n#help A [tax_jurisdiction|E] with a [tax_collector|E] but no [taxpayers|E] will not yield any [gold|E] or [levy|E] contribution. Assign Autocracy Vassals as $game_concept_taxpayers$ to collect $game_concept_taxes$ from them.#!"
- action_autocracy_assign_tax_payers_click: "#I Click to view#!"
+ action_autocracy_assign_tax_payers: "@tax_collector_icon! Назначить налогоплательщиков"
+ action_autocracy_assign_tax_payers_label: "@tax_collector_icon! У вашего сборщика налогов нет налогоплательщиков"
+ action_autocracy_assign_tax_payers_desc: "Вы не облагаете налогом [Concept('autocracy', 'автократических')|E] [Concept('vassals', 'вассалов')|E].\n\n#help [Concept('tax_jurisdiction', 'Налоговая юрисдикция')|E], в которой есть [Concept('tax_collector', 'сборщик налогов')|E], но нет [Concept('taxpayers', 'налогоплательщиков')|E], не будет приносить [Concept('gold', 'золота')|E] и [Concept('levy', 'ополченцев')|E]. Назначьте автократических вассалов на роль налогоплательщиков, чтобы собирать с них налоги.#!"
+ action_autocracy_assign_tax_payers_click: "#I Щелкните, чтобы просмотреть#!"
 
  hierocracy_icon_concept: "[hierocracy_i|E]"
  autocracy_icon_concept: "[autocracy_i|E]"
@@ -193,13 +193,13 @@
  academy_icon_concept: "[academy_i|E]"
  landed_order_icon_concept: "[landed_order_i|E]"
 
- autocracy_tax_collector_obligations: "[tax_collector|E] Aptitude"
- hierocracy_tax_collector_obligations: "[tax_collector|E] Aptitude"
+ autocracy_tax_collector_obligations: "Пригодность [Concept('tax_collector', 'сборщика налогов')|E]"
+ hierocracy_tax_collector_obligations: "Пригодность [Concept('tax_collector', 'сборщика налогов')|E]"
 
- autocracy_pellitine_tax_collector: "Moon Sugar"
- autocracy_pellitine_tax_collector_flavor_desc: "Khajiiti life is governed by the moons' blessings, whose light crystallises into potent sugar of great culinary and ritual import."
- VASSAL_IS_PELLITINIAN: "[CHARACTER.GetShortUIName] is not located in [GetGeographicalRegion('mundus_tamriel_elsweyr_pellitine').GetName] and their culture does not have the [GetCultureTradition('tradition_moonsugar_plantations').GetName|V] [tradition|E]." 
+ autocracy_pellitine_tax_collector: "Лунный сахар"
+ autocracy_pellitine_tax_collector_flavor_desc: "Жизнь каджитов направляется благословениями лун, свет которых кристаллизуется в крепкий сахар, имеющий большое кулинарное и ритуальное значение."
+ VASSAL_IS_PELLITINIAN: "[CHARACTER.GetShortUIName] не [Select_CString( CHARACTER.IsLocalPlayer, 'находитесь', 'находится')] в регионе [GetGeographicalRegion('mundus_tamriel_elsweyr_pellitine').GetName], а [Select_CString( CHARACTER.IsLocalPlayer, 'вас', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] культура не имеет [Concept('tradition', 'традиции')|E] [GetCultureTradition('tradition_moonsugar_plantations').GetName|V]."
 
- autocracy_imperial_tax_collector: "Bardmont Prefects"
- autocracy_imperial_tax_collector_flavor_desc: "Their governorates relics of the old Potentates, these prefects cultivate their lands to vie for ever more prestigious postings."
- VASSAL_IS_CYRODIILIC: "[CHARACTER.GetShortUINamePossessive] culture does not have the [GetCultureTradition('tradition_imperial_legacy').GetName|V] [tradition|E]."
+ autocracy_imperial_tax_collector: "Префекты Бардмонта"
+ autocracy_imperial_tax_collector_flavor_desc: "Подобные провинции - реликвии древнего Потентата, их префекты возделывают свои земли, чтобы бороться за всё более престижные должности."
+ VASSAL_IS_CYRODIILIC: "Культура [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetShortUINamePossessive][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] не имеет [Concept('tradition', 'традиции')|E] [GetCultureTradition('tradition_imperial_legacy').GetName|V]."

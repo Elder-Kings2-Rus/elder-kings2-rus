@@ -458,17 +458,17 @@
  trait_p_yp_zeht_desc:0 "Последователь Зета"
  trait_p_yp_zeht_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Зета, Бога крестьянских хозяйств."
 
- trait_p_yp_leki:0 "Follower of Leki"
- trait_p_yp_leki_base:0 "Follower of Leki"
+ trait_p_yp_leki:0 "Покровитель - Леки"
+ trait_p_yp_leki_base:0 "Последователь Леки"
  trait_p_yp_leki_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_yp_leki_desc' )]"
- trait_p_yp_leki_desc:0 "A follower of Leki"
- trait_p_yp_leki_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Leki, Saint of the Spirit Sword."
+ trait_p_yp_leki_desc:0 "Последователь Леки"
+ trait_p_yp_leki_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Леки, святой меча духа."
 
- trait_p_yp_hoonding:0 "Follower of HoonDing"
- trait_p_yp_hoonding_base:0 "Follower of HoonDing"
+ trait_p_yp_hoonding:0 "Покровитель - Хундинг"
+ trait_p_yp_hoonding_base:0 "Последователь Хундинга"
  trait_p_yp_hoonding_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_yp_hoonding_desc' )]"
- trait_p_yp_hoonding_desc:0 "A follower of HoonDing"
- trait_p_yp_hoonding_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of HoonDing, the Make Way God."
+ trait_p_yp_hoonding_desc:0 "Последователь Хундинга"
+ trait_p_yp_hoonding_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Хундинга, Открывающего Путь."
 
  #Tribunal
  trait_p_tr_vivec:0 "Божество-покровитель - Вивек"
