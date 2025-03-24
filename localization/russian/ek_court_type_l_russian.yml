@@ -8,5 +8,5 @@
 
 
  arcane_court_more_max_magicka_magicka_regen_desc:0 "#P +25%#! к максимальной [Concept('magicka', 'мане')|E]\n$EFFECT_LIST_BULLET$#P +25%#! к регенерации [Concept('magicka', 'маны')|E]"
- arcane_court_magic_education_desc:0 "[wards|E] in this [court|E] will receive a #V $trait_education_magic$#! [trait|E]"
+ arcane_court_magic_education_desc:0 "[Concept('wards', 'Подопечные')|E] при этом [Concept('court', 'дворе')|E] получат [Concept('trait', 'свойство')|E] #V $trait_education_magic$#!"
  arcane_court_more_ritual_desc:0 "#P +1#! слот для ритуалов"

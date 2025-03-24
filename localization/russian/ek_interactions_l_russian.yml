@@ -1,18 +1,18 @@
 ﻿l_russian:
  #MARRIAGE
- MARRIAGE_NO_OFFSPRING_REASON:0 "This union wouldn't produce a child: $VALUE|+0$"
- MARRIAGE_DIFFERENT_HERITAGE_REASON:0 "Different [heritage|E]: $VALUE|+0$"
- MARRIAGE_DIFFERENT_CULTURE_REASON:0 "Different [culture|E]: $VALUE|+0$"
- MARRIAGE_INSULAR_CULTURE_REASON:0 "Their union would be considered culturally innapropriate: $VALUE|+0$"
- MARRIAGE_LIFESPAN_REASON:0 "Different expected lifespan: $VALUE|+0$"
- MARRIAGE_HEIRESS_MATRILINEAL_REASON:0 "[secondary_recipient.GetShortUIName|U] is an heiress and [recipient.GetShortUIName|U] would prefer a [matrilineal|E] marriage: $VALUE|+0$"
- MARRIAGE_MONSTER_REASON:0 "Will not marry a [monster|E]: $VALUE|+0$"
- MARRIAGE_FORMER_PARIAH_REASON:0 "Will not marry a former [pariah|E]: $VALUE|+0$"
+ MARRIAGE_NO_OFFSPRING_REASON:0 "Этот союз не приведёт к рождению детей: $VALUE|+0$"
+ MARRIAGE_DIFFERENT_HERITAGE_REASON:0 "Разное [Concept('heritage', 'наследие')|E]: $VALUE|+0$"
+ MARRIAGE_DIFFERENT_CULTURE_REASON:0 "Разная [Concept('culture', 'культура')|E]: $VALUE|+0$"
+ MARRIAGE_INSULAR_CULTURE_REASON:0 "Их союз будет считаться неприемлемым с точки зрения культуры: $VALUE|+0$"
+ MARRIAGE_LIFESPAN_REASON:0 "Разная ожидаемая продолжительность жизни: $VALUE|+0$"
+ MARRIAGE_HEIRESS_MATRILINEAL_REASON:0 "[secondary_recipient.GetShortUIName|U] - наследница, и [recipient.GetShortUIName|U] предпочитает [Concept('matrilineal', 'матрилинейный')|E] брак: $VALUE|+0$"
+ MARRIAGE_MONSTER_REASON:0 "Не заключит брак с [Concept('monster', 'чудовищем')|E]: $VALUE|+0$"
+ MARRIAGE_FORMER_PARIAH_REASON:0 "Не заключит брак с бывшими [Concept('pariah', 'отверженными')|E]: $VALUE|+0$"
  MARRIAGE_CRYSTAL_TOWER_REASON:0 "[GetBuilding('crystal_tower_01').GetName]: #P +10#!"
  #RELIGION
- ASK_FOR_CONVERSION_CROWN_FOREBEAR:0 "[recipient.GetCulture.GetName|E] dislikes your [actor.GetCulture.GetName] ways: $VALUE|+0$."
+ ASK_FOR_CONVERSION_CROWN_FOREBEAR:0 "[recipient.GetCulture.GetName|E] не одобряют ваши #L [actor.GetCulture.GetCollectiveNoun]ие#! устои: $VALUE|+0$."
  #MISC
- summoned_undead:0 "Summoned Undead"
+ summoned_undead:0 "Призванная нежить"
 
  EXECUTION_ENTHRALL:0 "Превратить в нежить-трэлла"
  
@@ -187,4 +187,4 @@
  destroy_hist_holding_interaction_notification:0 "Хист уничтожен"
 
  #Co-emperor (replaces vanilla)
- valid_co_emperor_powerful_family_trigger: "Only [house_heads|E] of [powerful_families|E] may be [co_emperors|E]"
+ valid_co_emperor_powerful_family_trigger: "Только [Concept('house_heads', 'главы домов')|E] [Concept('powerful_families', 'могущественных семейств')|E] могут быть [Concept('co_emperors', 'соправителями')|E]"

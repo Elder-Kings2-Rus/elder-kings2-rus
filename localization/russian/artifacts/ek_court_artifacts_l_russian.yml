@@ -445,50 +445,50 @@
  artifact_aralor_shirt_name:1 "Власяница Святого Аралора"
  artifact_aralor_shirt_description:0 "Священная реликвия данмерского Трибунала. Она может как ранить владельца, так и исцелить. Также даёт сопротивление к магии." #PLACEHOLDER
 
- artifact_longsleeves_name:1 "The Longsleeves"
- artifact_longsleeves_description:0 "A relic steeped in madness, this straitjacket is adorned with golden threads and intricate embroidery, its macabre elegance at odds with the dark purpose it serves. Worn by the devoted followers of Sheogorath, The Longsleeves compel its wearer to obey the maddened decrees of a long-lost king, a voice of chaos whispering through the ages.\n\n@warning_icon!#X This artifact will disappear upon succession.#" #PLACEHOLDER
+ artifact_longsleeves_name:1 "Смирительная рубашка"
+ artifact_longsleeves_description:0 "Эта смирительная рубашка, пропитанная безумием, украшена золотыми нитями и замысловатой вышивкой, её мрачная элегантность противоречит мрачной цели, которой она служит. Смирительная рубашка, которую носят преданные последователи Шеогората, заставляют своего владельца подчиняться безумным указам давно потерянного короля, голосу хаоса, доносящемуся сквозь века.\n\n@warning_icon!#X Этот артефакт не может быть унаследован.#" #PLACEHOLDER
 
- artifact_embittering_muzzle_name:1 "Embittering Muzzle"
- artifact_embittering_muzzle_description:0 "This unsettling half-mask features thick straps and a mesh cage over the mouth, designed to prevent the biting of careless hands. Originally used in asylums to protect caretakers from unruly patients, its sinister enchantment has a far darker purpose.\n\nThe curse within the muzzle stirs a simmering rage in its wearer, building slowly until the inevitable breaking point. Though meant as a safeguard, it transforms the restrained into a far greater threat to those nearby.\n\n@warning_icon!#X This artifact will disappear upon succession.#" #PLACEHOLDER
+ artifact_embittering_muzzle_name:1 "Злобный намордник"
+ artifact_embittering_muzzle_description:0 "Эта вызывающая беспокойство полумаска с толстыми ремешками и сетчатой вставкой вокруг рта предназначена для предотвращения укусов за неосторожные руки. Первоначально она использовалась в лечебницах для защиты сиделок от непослушных пациентов, но её зловещее очарование преследует гораздо более мрачную цель.\n\nПроклятие, заключённое в наморднике, разжигает в его владельце кипящую ярость, которая медленно нарастает до неизбежного предела. Хотя оно и предназначено для защиты, оно превращает скованного в гораздо большую угрозу для тех, кто находится поблизости.\n\n@warning_icon!#X Этот артефакт не может быть унаследован.#" #PLACEHOLDER
 
- artifact_asylum_earplugs_name:1 "Asylum Earplugs"
- artifact_asylum_earplugs_description:0 "This grotesque pair of severed, mummified fingers serves as earplugs, their dried flesh fitting snugly into the ear canal. When worn, all sound is silenced except for the haunting echo of laughter—believed by many to be the voice of the Mad God himself.\n\n@warning_icon!#X This artifact will disappear upon succession.#" #PLACEHOLDER
+ artifact_asylum_earplugs_name:1 "Беруши безумца"
+ artifact_asylum_earplugs_description:0 "Эта гротескная пара отрубленных, мумифицированных пальцев служит затычками для ушей, их высушенная плоть плотно прилегает к ушному каналу. При ношении все звуки заглушаются, за исключением навязчивого эха смеха, который многие считают голосом самого Безумного бога.\n\n@warning_icon!#X Этот артефакт не может быть унаследован.#" #PLACEHOLDER
 
- artifact_cheese_knife_name:1 "Ceremonial Cheese Knife"
- artifact_cheese_knife_description:0 "At first glance, this unassuming blade appears no different from an ordinary cheese knife. Yet, it holds a unique place in the Mad God's chaotic rituals, specifically for summoning Daedra from an unsuspecting wheel of eidar cheese.\n\n@warning_icon!#X This artifact will disappear upon succession.#" #PLACEHOLDER
+ artifact_cheese_knife_name:1 "Церемониальный нож для сыра"
+ artifact_cheese_knife_description:0 "На первый взгляд, это непритязательное лезвие ничем не отличается от обычного ножа для сыра. Тем не менее, оно занимает особое место в хаотических ритуалах Безумного бога, особенно для вызова Даэдры из непритязательного круга эйдарского сыра.\n\n@warning_icon!#X Этот артефакт не может быть унаследован.#" #PLACEHOLDER
 
- artifact_about_face_name:1 "The About Face"
- artifact_about_face_description:0 "This grotesque artifact is the literal severed visage of a Mad God's worshiper. Each side of the face bears a different expression—one twisted in euphoric glee, the other contorted in utter despair.\n\n@warning_icon!#X This artifact will disappear upon succession.#" #PLACEHOLDER
+ artifact_about_face_name:1 "Искажённое лицо"
+ artifact_about_face_description:0 "Этот гротескный артефакт в буквальном смысле представляет собой отрубленный лик последователя Безумного бога. Каждая сторона лица имеет разное выражение — одна искажена в эйфорическом ликовании, другая - в полном отчаянии.\n\n@warning_icon!#X Этот артефакт не может быть унаследован.#" #PLACEHOLDER
 
- artifact_discordant_fiddle_name:1 "Discordant Fiddle"
- artifact_discordant_fiddle_description:0 "This warped instrument straddles the line between music and madness. To most, it appears to be a poorly crafted fiddle, producing discordant and jarring notes. However, those touched by Sheogorath hear its melody as perfectly in tune—beautiful, haunting, and captivating.\n\n@warning_icon!#X This artifact will disappear upon succession.#" #PLACEHOLDER
+ artifact_discordant_fiddle_name:1 "Расстроенная скрипка"
+ artifact_discordant_fiddle_description:0 "Этот искорёженный инструмент находится на грани между музыкой и безумием. Большинству кажется, что это плохо сделанная скрипка, издающая диссонирующие и резкие звуки. Однако те, кого благословил Шеогорат, слышат его мелодию как идеально созвучную — прекрасную, завораживающую и пленительную.\n\n@warning_icon!#X Этот артефакт не может быть унаследован.#" #PLACEHOLDER
 
- artifact_big_little_name:1 "Big Sister, Little Brother"
- artifact_big_little_description:0 "This grotesque artifact is a fused child-sized skull, bearing two skeletal faces locked in eternal union. The larger face, "Big Sister," looms protectively over the smaller, "Little Brother," creating an unnerving visage that radiates Sheogorath's chaotic influence. The second face would murmur dark secrets and chilling prophecies to those touched by the Mad God.\n\n@warning_icon!#X This artifact will disappear upon succession.#" #PLACEHOLDER
+ artifact_big_little_name:1 "Старшая сестрёнка и младший братик"
+ artifact_big_little_description:0 "Этот гротескный артефакт представляет собой сросшийся череп размером с голову ребенка, на котором изображены два лица скелета, заключенные в вечном союзе. Большое лицо, «старшей сестрёнки», нависает над меньшим, «младшим братиком», создавая пугающий облик, который излучает хаотическое влияние Шеогората. Второе лицо нашёптывает тёмные тайны и леденящие душу пророчества тем, кого благословил Безумный бог.\n\n@warning_icon!#X Этот артефакт не может быть унаследован.#" #PLACEHOLDER
 
- artifact_wabbajerky_name:1 "Wabbajerky"
- artifact_wabbajerky_description:0 "A culinary atrocity born from the Wabbajack's chaotic touch. Unfortunate souls transformed into animals and subsequently cooked yield this so-called delicacy.\n\n@warning_icon!#X This artifact will disappear upon succession.#" #PLACEHOLDER
+ artifact_wabbajerky_name:1 "Ваббастурма"
+ artifact_wabbajerky_description:0 "Кулинарное изощрение, порождённое хаотичным касанием Ваббаджека. Из душ несчастных, превращённых в животных и впоследствии приготовленных, получается этот так называемый деликатес.\n\n@warning_icon!#X Этот артефакт не может быть унаследован.#" #PLACEHOLDER
 
- artifact_lucid_liquor_name:1 "Lucid Liquor"
- artifact_lucid_liquor_description:0 "A glass bottle brimming with the distilled spinal fluid of Sheogorath's disciples from the Shivering Isles. Its iridescent sheen hints at the forbidden truths it conceals. One sip unveils hidden knowledge, granting insights too bizarre—or maddening—for the average mind to bear.\n\n@warning_icon!#X This artifact will disappear upon succession.#" #PLACEHOLDER
+ artifact_lucid_liquor_name:1 "Напиток ясности"
+ artifact_lucid_liquor_description:0 "Стеклянная бутылка, до краев наполненная дистиллированной спинномозговой жидкостью учеников Шеогората с Дрожащих островов. Её радужный блеск намекает на запретные истины, которые она скрывает. Один глоток раскрывает скрытые знания, даруя озарения, слишком странные — или сводящие с ума — для обычного ума.\n\n@warning_icon!#X Этот артефакт не может быть унаследован.#" #PLACEHOLDER
 
- artifact_ravenous_rodent_name:1 "Ravenous Rodent"
- artifact_ravenous_rodent_description:0 "A tiny daedrat confined to a small, rusted cage, its forlorn eyes set on whoever holds its cage. It chitters softly, the sound almost intelligible if you dare to listen. Those who heed its whispers find calamity close behind as the lies it spins are as dangerous as the creature itself.\n\n@warning_icon!#X This artifact will disappear upon succession.#" #PLACEHOLDER
+ artifact_ravenous_rodent_name:1 "Хищный грызун"
+ artifact_ravenous_rodent_description:0 "Крошечный даэдрот, запертый в маленькой ржавой клетке, его несчастные глаза устремлены на того, кто владеет его клеткой. Он тихо щебечет, звук почти разборчив, если осмелитесься прислушаться. Те, кто прислушивается к его шепоту, обнаруживают, что беда не за горами, поскольку ложь, которую он плетёт, так же опасна, как и само существо.\n\n@warning_icon!#X Этот артефакт не может быть унаследован.#" #PLACEHOLDER
 
- artifact_madmans_chalice_name:1 "Madman's Chalice"
- artifact_madmans_chalice_description:0 "A tarnished pewter goblet etched with faces shifting between joy, sorrow, and despair. It exudes an unsettling aura, promising the "clarity of the mad" to any brave—or foolish—enough to drink from it. The true nature of this clarity remains unknown, but those who sip are said to see the world through Sheogorath's twisted perspective.\n\n@warning_icon!#X This artifact will disappear upon succession.#" #PLACEHOLDER
+ artifact_madmans_chalice_name:1 "Чаша безумца"
+ artifact_madmans_chalice_description:0 "Потускневшая оловянная чаша, на которой выгравированы лица, сменяющие друг друга радостью, печалью и отчаянием. Она излучает тревожную ауру, обещая «ясность ума» любому храбрецу — или глупцу — достаточно смелому, чтобы испить из неё. Истинная природа этой ясности остаётся неизвестной, но говорят, что те, кто делает глоток, видят мир через искажённую перспективу Шеогората.\n\n@warning_icon!#X Этот артефакт не может быть унаследован.#" #PLACEHOLDER
 
- artifact_lost_button_name:1 "Mad God's Lost Button"
- artifact_lost_button_description:0 "A pearlescent button that shimmers and shifts in color when held to the light. Legends claim Malacath himself tore it from Sheogorath's doublet in a fit of contempt, branding it an abomination among his followers.\n\n@warning_icon!#X This artifact will disappear upon succession.#" #PLACEHOLDER
+ artifact_lost_button_name:1 "Оторванная пуговица Безумного бога"
+ artifact_lost_button_description:0 "Перламутровая пуговица, которая переливается и меняет цвет, если поднести её к свету. Легенды утверждают, что сам Малакат в порыве презрения оторвал её от камзола Шеогората, заклеймив её как мерзость среди своих последователей.\n\n@warning_icon!#X Этот артефакт не может быть унаследован.#" #PLACEHOLDER
 
- artifact_eidar_scrolls_name:1 "The Eidar Scrolls 2: The Merethic Cheeses, Vol 2"
- artifact_eidar_scrolls_description:0 "A sealed treatise detailing the creation and consumption of eldritch cheeses and their bizarre ingredients. Known as "prophecy-recipes," these scrolls are said to reveal glimpses of the future when their instructions are consumed—at the cost of the reader's sanity. The results are as unpredictable as they are unsettling, a mocking echo of the Moth Priests' divinations.\n\n@warning_icon!#X This artifact will disappear upon succession.#" #PLACEHOLDER
+ artifact_eidar_scrolls_name:1 "Эйдарские свитки: сыры Меретической эры, том 2"
+ artifact_eidar_scrolls_description:0 "Запечатанный трактат, в котором подробно рассказывается о приготовлении и употреблении необычных сыров и их причудливых ингредиентах. Считается, что эти свитки, известные как «пророческие рецепты», дают представление о будущем, когда потребляются содержащиеся в них инструкции - ценой потери рассудка читателя. Результаты столь же непредсказуемы, сколь и тревожны, - насмешливое эхо предсказаний жрецов Мотылька.\n\n@warning_icon!#X Этот артефакт не может быть унаследован.#" #PLACEHOLDER
 
- artifact_nightlight_name:1 "The Nightlight"
- artifact_nightlight_description:0 "This peculiar lamp glows without flame or fuel, casting light into the darkness. Its unsettling shadows cavort and twist, forming patterns that defy reason. The shifting shadows are said to depict events unfolding in the Shivering Isles—or so some theorize.\n\n@warning_icon!#X This artifact will disappear upon succession.#" #PLACEHOLDER
+ artifact_nightlight_name:1 "Ночник"
+ artifact_nightlight_description:0 "Эта необычная лампа горит без пламени или топлива, рассеивая свет в темноте. Её тревожные тени прыгают и извиваются, образуя узоры, которые не поддаются объяснению. Говорят, что движущиеся тени отражают события, разворачивающиеся на Дрожащих островах — по крайней мере, так предполагают некоторые.\n\n@warning_icon!#X Этот артефакт не может быть унаследован.#" #PLACEHOLDER
 
- artifact_uncle_spectacles_name:1 "Uncle Leo's Spectacles"
- artifact_uncle_spectacles_description:0 "A battered pair of silver-framed spectacles with amber lenses, cracked from untold revelations. Said to reveal the absolute truth of the world, the last wearer flung themselves from Wayrest's highest tower after seeing too much.\n\n@warning_icon!#X This artifact will disappear upon succession.#" #PLACEHOLDER
+ artifact_uncle_spectacles_name:1 "Очки дядюшки Лео"
+ artifact_uncle_spectacles_description:0 "Потрёпанные очки в серебряной оправе с янтарными линзами, потрескавшиеся от невысказанных откровений. Говорят, что последний их обладатель, увидев слишком много, сбросился с самой высокой башни Вэйреста, чтобы открыть миру абсолютную правду.\n\n@warning_icon!#X Этот артефакт не может быть унаследован.#" #PLACEHOLDER
 
  artifact_rilms_shoes_name:1 "Туфли Святой Рилмс"
  artifact_rilms_shoes_description:0 "Эта обувь считается священной реликвией Трибунала данмеров. На туфли наложено зачарование, которое повышает выносливость и увеличивает обаяние владельца. Святая Рилмс, стремясь получше понять бедных, отдала эти туфли и переоделась нищенкой." #PLACEHOLDER
@@ -568,11 +568,11 @@
  artifact_heros_blade_name:1 "Клинок героя"
  artifact_heros_blade_description:0 "Прекрасный клинок возлюбленного героя. Его носили с собой во время бесчисленных приключений и использовали только для защиты народа."
 
- artifact_enchanted_ring_name: "Enchanted Ring"
- artifact_enchanted_ring_description: "A simple ring that holds the power of a captured soul to improve its wearer's mental capabilities."
+ artifact_enchanted_ring_name: "Зачарованное кольцо"
+ artifact_enchanted_ring_description: "Простое кольцо, которое содержит силу захваченной души и улучшает умственные способности своего владельца."
 
- artifact_enchanted_dagger_name: "Enchanted Dagger"
- artifact_enchanted_dagger_description: "A robust dagger filled with a simple enchantment that makes it ideal for any type of Battlemage."
+ artifact_enchanted_dagger_name: "Зачарованный кинжал"
+ artifact_enchanted_dagger_description: "Прочный кинжал, наполненный простыми чарами, которые делают его идеальным для любого боевого мага."
 
  animal_type_senche_cougar:0 "сенч-пума"
  animal_type_senche_cougar_plural:0 "сенч-пумы"

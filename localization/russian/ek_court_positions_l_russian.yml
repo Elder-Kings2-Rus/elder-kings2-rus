@@ -8,9 +8,9 @@
 ##Loremaster
  loremaster_court_position:0 "Хранитель знаний"
  loremaster_court_position_desc:0 "$loremaster_court_position$ ведет как письменные, так и устные записи о своем народе и посвящает себя изучению истории. Их мудрость и знания оживляют ум любого, кто ищет их совета."
- loremaster_vateshran:0 "Vateshran"
- loremaster_vateshran_desc:0 "The $loremaster_vateshran$ keeps down both written and oral records of their people and devotes himself to the pursuit of history. Their wisdom and knowledge quickens the wits of anyone seeking their advice."
- can_appoint_loremaster_tt: "[liege|E]'s [culture|E] has one of the following [traditions|E]:\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_skaal_core').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_reach_core').GetName]"
+ loremaster_vateshran:0 "Ватешран"
+ loremaster_vateshran_desc:0 "$loremaster_vateshran$ хранит письменные и устные записи о своём народе и посвящает себя изучению истории. Их мудрость и знания помогают разобраться любому, кто обращается к ним за советом."
+ can_appoint_loremaster_tt: "[Concept('culture', 'Культура')|E] [Concept('liege', 'сюзерена')|E] имеет одну из следующих [Concept('traditions', 'традиций')|E]:\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_skaal_core').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_reach_core').GetName]"
 
 ##Hunt-Wife
  huntwife_court_position:0 "Жена-охотница"
@@ -29,10 +29,10 @@
  court_position_august_trait:0 "[GetTrait('august').GetName( ROOT.Char )]"
  court_position_family_first_trait:0 "[GetTrait('family_first').GetName( ROOT.Char )]"
  ##Clan-Mother
- clan_mother_court_position: "Clan-Mother"
- clan_mother_court_position_desc: "The $clan_mother_court_position$ is a respected matriarch and may appear alongside their liege in Court, and speak on their behalf."
- clan_mother_employer_custom_effect_description:1 "Can take your place in some [diplomacy|E] challenges"
- can_appoint_clan_mother_tt: "[liege|E]'s [culture|E] has one of the following [traditions|E]:\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_moonsugar_plantations').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_beasts_of_war').GetName]"
+ clan_mother_court_position: "Мать клана"
+ clan_mother_court_position_desc: "$clan_mother_court_position$ - это уважаемая матриарх, которая может присутствовать при дворе рядом со своим сюзереном и говорить от его имени."
+ clan_mother_employer_custom_effect_description:1 "Может заменить вас в некоторых испытаниях [Concept('diplomacy', 'дипломатии')|E]"
+ can_appoint_clan_mother_tt: "[Concept('culture', 'Культура')|E] [Concept('liege', 'сюзерена')|E] имеет одну из следующих [Concept('traditions', 'традиций')|E]:\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_moonsugar_plantations').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_beasts_of_war').GetName]"
 
  ##Enforcer
  enforcer_court_position:0 "Защитник"
@@ -40,13 +40,13 @@
 
  #Court Mage
  court_mage_court_position:0 "Придворный маг"
- court_mage_field_mage:0 "Field Mage"
- court_mage_clever_man: "Clever Man"
- court_mage_court_position_desc: "$court_mage_court_position$ - это адепт магических искусств, которому поручено находить решения проблем, связанных с магией, произносить заклинания от имени своего сюзерена, руководить изучением магии в государстве и помогать придворным чарами, алхимией и простыми советами по сложным мистическим вопросам."
- court_mage_field_mage_desc:0 "The $court_mage_field_mage$ is an adept of the magickal arts tasked with finding solutions to magic-related problems, casting spells on behalf of their master, presiding over arcane studies and assisting the camp with enchantments, alchemicals, and simple advice on complex mystical matters."
- court_mage_clever_man_desc:0 "The $court_mage_clever_man$ is an adept of the magickal arts tasked with finding solutions to magic-related problems, casting spells on behalf of their liege, presiding over arcane studies in the realm and assisting the court with enchantments, alchemicals, and simple advice on complex mystical matters."
- court_mage_court_position_possessive:0 "$court_mage_court_position$'s"
- court_mage_employer_custom_effect_description:2 "Can cast [spells|E] for their [liege|E]#!\n@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!"
+ court_mage_field_mage:0 "Полевой маг"
+ court_mage_clever_man: "Мудрец"
+ court_mage_court_position_desc: "$court_mage_court_position$ - это адепт магических искусств, которому поручено находить решения проблем, связанных с магией, накладывать заклинания по приказу своего сюзерена, руководить изучением магии в державе и помогать придворным чарами, алхимией и простыми советами по сложным мистическим вопросам."
+ court_mage_field_mage_desc:0 "$court_mage_field_mage$ - это адепт магических искусств, которому поручено находить решения проблем, связанных с магией, накладывать заклинания по приказу своего хозяина, руководить изучением магии и помогать лагерю чарами, алхимией и простыми советами по сложным мистическим вопросам."
+ court_mage_clever_man_desc:0 "$court_mage_clever_man$ - это адепт магических искусств, которому поручено находить решения проблем, связанных с магией, накладывать заклинания по приказу своего сюзерена, руководить изучением магии в державе и помогать придворным чарами, алхимией и простыми советами по сложным мистическим вопросам."
+ court_mage_court_position_possessive:0 "придворного мага"
+ court_mage_employer_custom_effect_description:2 "Может накладывать [Concept('spells', 'заклинания')|E] для своего [Concept('liege', 'сюзерена')|E]#!\n@warning_icon!#X Полезный [Concept('agent', 'соучастник')|E] во [Concept('hostile_schemes', 'враждебных происках')|E] против вас#!"
  court_position_skill_arcana:0 "Мастерство Арканы"
  court_position_necomancer_trait:0 "[GetTrait('necromancer').GetName( ROOT.Char )]"
  court_position_battlemage_trait:0 "[GetTrait('battlemage').GetName( ROOT.Char )]"
@@ -94,15 +94,15 @@
  court_position_necromancy_master_perk:0 "[GetPerk('necromancy_master_perk').GetName( ROOT.Char )]"
 
  #Qadi
- court_chief_qadi_requirement.tt: "Must use [praxis|E]"
+ court_chief_qadi_requirement.tt: "Необходимо практиковать [Concept('praxis', 'Праксис')|E]"
 
  ### CAMP OFFICERS
  ##Retainer
- retainer_camp_officer:0 "Retainer"
- retainer_camp_officer_desc:0 "A $retainer_camp_officer$ always looks for opportunities to make some coin, and if that means using methods of intimidation and violence, all the better."
+ retainer_camp_officer:0 "Слуга"
+ retainer_camp_officer_desc:0 "$retainer_camp_officer$ всегда ищет возможности заработать, и если это означает использование методов запугивания и насилия, тем лучше."
 
  ##Arcanist Captain
- arcanist_captain_camp_officer:0 "Arcanist Captain"
- arcanist_captain_camp_officer_desc:0 "An $arcanist_captain_camp_officer$ commands the camp's mages and spellblades. They are responsible for the contingent's leadership, training, and tactics."
- domicile_building_parameter_camp_unlocks_arcanist_captain_officer:0 "Unlocks the [GetCourtPositionType('arcanist_captain_camp_officer').GetName()] [officer|E]"
+ arcanist_captain_camp_officer:0 "Капитан-мастер рун"
+ arcanist_captain_camp_officer_desc:0 "$arcanist_captain_camp_officer$ командует магами и мечниками-чародеями лагеря. Они отвечают за руководство, обучение и тактику отряда."
+ domicile_building_parameter_camp_unlocks_arcanist_captain_officer:0 "Позволяет нанимать [Concept('officer', 'подручного')|E] «[GetCourtPositionType('arcanist_captain_camp_officer').GetName()]»"
  arcanist_captain_camp_officer_parameter_tt: "$camp_with_following_buildings_tt$\n$BULLET$[GetDomicileBuilding('proving_grounds_mages_study').GetName]"

@@ -9,11 +9,11 @@
 
  trait_plunderer:0 "[Select_CString(ROOT.Char.IsFemale, 'Разбойница', 'Разбойник' )]"
  trait_plunderer_desc:0 "Истинная сила достигается только путем захвата того, что принадлежит вам по праву. А весь мир и его богатства принадлежат вам по праву."
- trait_plunderer_character_desc:0 "True power can only be achieved by seizing what is rightfully [ROOT.GetCharacter.GetFirstNameNoTooltip]'s. And the whole world and its riches are rightfully [ROOT.GetCharacter.GetHersHis]."
+ trait_plunderer_character_desc:0 "Истинная сила достигается только путем захвата того, что принадлежит [Select_CString(ROOT.GetCharacter.IsLocalPlayer, '', 'персонажу ' )][ROOT.GetCharacter.GetShortUINamePossessive][Select_CString(ROOT.GetCharacter.IsLocalPlayer, 'ему персонажу', '' )] по праву. А весь мир и его богатства принадлежат [Select_CString( ROOT.GetCharacter.IsLocalPlayer, 'вам', Select_CString(ROOT.GetCharacter.IsFemale, 'ей', 'ему' ))] по праву."
 
  trait_crimeboss:0 "Главарь"
  trait_crimeboss_desc:0 "В землях Тамриэля действует множество тёмных сил и злобных фракций, и этот персонаж решил использовать их в своих интересах."
- trait_crimeboss_character_desc: "There are many dark forces and malicious factions at play in the lands of Tamriel and [ROOT.GetCharacter.GetFirstNameNoTooltip] has decided to use them to [ROOT.GetCharacter.GetHersHis] advantage."
+ trait_crimeboss_character_desc: "В землях Тамриэля действует множество тёмных сил и злобных фракций, и [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'решила', 'решил' )] использовать их в своих интересах."
 
  trait_necromancer:0 "Некромант"
  trait_necromancer_desc:0 "Этот персонаж известен тем, что оскверняет трупы умерших, манипулируя их душами и воскрешая их тела для воплощения своих желаний.\n\n#I Выбор этого свойства в редакторе персонажа вызовет событие в начале игры, что позволит вам начать игру в качестве тайного некроманта.#!"
@@ -50,9 +50,9 @@
  trait_peryite_affliction_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'заразилась', 'заразился' )] одержимостью Периайта, даэдрической болезнью, насылаемой самим князем Чумы. Инфекция надолго поселяется в теле носителя. В некоторые дни она едва заметна, в другие - вызывает резкие лихорадочные конвульсии и рвоту едкой слизью."
  disease_peryite_affliction:0 "Одержимость Периайта."
 
- trait_stricken: "Stricken"
- trait_stricken_desc: "This character has contracted the Knahaten Flu, however instead of killing them, it has left them weakened in both body and mind. Nearly feral and still tainted by the disease, the Stricken are outcasts to society and usually executed on sight."
- trait_stricken_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has contracted the Knahaten Flu, however instead of killing them, it has left them weakened in both body and mind. Nearly feral and still tainted by the disease, the Stricken are outcasts to society and usually executed on sight, for fear of spreading the disease again."
+ trait_stricken: "Поражённость"
+ trait_stricken_desc: "Этот персонаж заразился Кнахатенским гриппом, но вместо того, чтобы умереть, он ослаб как телом, так и разумом. Почти одичавшие и все еще запятнанные болезнью, Поражённые являются изгоями общества и обычно казнятся на месте."
+ trait_stricken_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'заразилась', 'заразился' )] Кнахатенским гриппом, но вместо того, чтобы умереть, [Select_CString(ROOT.GetCharacter.IsFemale, 'она ослабла', 'он ослаб' )] как телом, так и разумом. Почти одичавшие и все еще запятнанные болезнью, Поражённые являются изгоями общества и обычно казнятся на месте."
 
  # Transformations
  trait_irritable_lycan:0 "Раздражительность"
@@ -374,11 +374,11 @@
  trait_furstock_mane:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_mane_loc') )]"
  trait_furstock_mane_desc:0 "Говорят, что во время редкого выравнивания Массера и Секунды на небе появляется мистическая Третья Луна. Рожденных под этой луной зовут Гривой - духовных лидеров каджитов на основе их древней традиции." #PH placeholder
 
- trait_sibyl:0 "Sibyl of Dibella"
- trait_sibyl_dibe:0 "Sibyl of Dibe"
- trait_sibyl_desc:0 "This character is a Sibyl of Dibella, an individual blessed by the Lady to act as a direct link between her and her followers."
- trait_sibyl_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Sibyl of Dibella, an individual blessed by the Lady to act as a direct link between her and her followers."
- trait_sibyl_character_desc_dibe:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Sibyl of Dibe, an individual blessed by the Lady to act as a direct link between her and her followers."
+ trait_sibyl:0 "Пророчица Дибеллы"
+ trait_sibyl_dibe:0 "Пророчица Дибе"
+ trait_sibyl_desc:0 "Этот персонаж - пророчица Дибеллы, личность, благословленная Госпожой, чтобы выступать как связующее звено между ней и ее последователями."
+ trait_sibyl_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - пророчица Дибеллы, личность, благословленная Госпожой, чтобы выступать как связующее звено между ней и ее последователями."
+ trait_sibyl_character_desc_dibe:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - пророчица Дибе, личность, благословленная Госпожой, чтобы выступать как связующее звено между ней и ее последователями."
 
  # Argonian
  trait_laid_egg:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Отложила', 'Отложил' )] яйцо"
@@ -472,22 +472,22 @@
  trait_racial_blindness:0 "Безглазость"
  trait_racial_blindness_desc:0 "Этот персонаж происходит от народа, давно потерявшего глаза. [ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'лишена зрения и ей', 'лишён зрения и ему' )] приходится воспринимать мир другими способами."
 
- trait_clone:0 "Clone"
- trait_clone_desc:0 "This character is a clone of someone else. They were not born or hatched the normal way, and instead created through the obscure magical process of [self_replication|E], also known as [cloning|E]."
- trait_clone_character_desc_hatched_creator:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a clone of [ROOT.Var('clone_creator').Char.GetTitledFirstName]. [ROOT.GetCharacter.GetSheHe|U] was not hatched the normal way, and instead created through the obscure magical process of [self_replication|E], also known as [cloning|E]."
- trait_clone_character_desc_creator:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a clone of [ROOT.Var('clone_creator').Char.GetTitledFirstName]. [ROOT.GetCharacter.GetSheHe|U] was not born the normal way, and instead created through the obscure magical process of [self_replication|E], also known as [cloning|E]."
- trait_clone_character_desc_hatched:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a clone of someone else. [ROOT.GetCharacter.GetSheHe|U] was not hatched the normal way, and instead created through the obscure magical process of [self_replication|E], also known as [cloning|E]."
- trait_clone_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a clone of someone else. [ROOT.GetCharacter.GetSheHe|U] was not born the normal way, and instead created through the obscure magical process of [self_replication|E], also known as [cloning|E]."
+ trait_clone:0 "Клон"
+ trait_clone_desc:0 "Этот персонаж - клон другого персонаж. Он не родился и не вылупился обычным способом, а был создан с помощью непонятного магического процесса [Concept('self_replication', 'самовоспроизведения')|E], также известного как [Concept('cloning', 'клонирование')|E]."
+ trait_clone_character_desc_hatched_creator:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является клоном персонажа [ROOT.Var('clone_creator').Char.GetTitledFirstName]. [ROOT.GetCharacter.GetSheHe|U] не [Select_CString(ROOT.GetCharacter.IsFemale, 'вылупилась', 'вылупился' )] обычным способом, а [Select_CString(ROOT.GetCharacter.IsFemale, 'была создана', 'был создан' )] с помощью непонятного магического процесса [Concept('self_replication', 'самовоспроизведения')|E], также известного как [Concept('cloning', 'клонирование')|E]."
+ trait_clone_character_desc_creator:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является клоном персонажа [ROOT.Var('clone_creator').Char.GetTitledFirstName]. [ROOT.GetCharacter.GetSheHe|U] не [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )] обычным способом, а [Select_CString(ROOT.GetCharacter.IsFemale, 'была создана', 'был создан' )] с помощью непонятного магического процесса [Concept('self_replication', 'самовоспроизведения')|E], также известного как [Concept('cloning', 'клонирование')|E]."
+ trait_clone_character_desc_hatched:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чьим-то клоном. [ROOT.GetCharacter.GetSheHe|U] не [Select_CString(ROOT.GetCharacter.IsFemale, 'вылупилась', 'вылупился' )] обычным способом, а [Select_CString(ROOT.GetCharacter.IsFemale, 'была создана', 'был создан' )] с помощью непонятного магического процесса [Concept('self_replication', 'самовоспроизведения')|E], также известного как [Concept('cloning', 'клонирование')|E]."
+ trait_clone_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чьим-то клоном. [ROOT.GetCharacter.GetSheHe|U] не [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )] обычным способом, а [Select_CString(ROOT.GetCharacter.IsFemale, 'была создана', 'был создан' )] с помощью непонятного магического процесса [Concept('self_replication', 'самовоспроизведения')|E], также известного как [Concept('cloning', 'клонирование')|E]."
 
 
  trait_track_magic:0 "Магия"
  trait_track_magic_desc:0 "Использовать магию в любой форме - значит держать в руках осколки божественной силы."
 
- trait_cannibal_gp:0 "Meat Mandate"
- trait_cannibal_character_desc_gp:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has partaken in the Meat Mandate as dictated by the Green Pact."
+ trait_cannibal_gp:0 "Мясной завет"
+ trait_cannibal_character_desc_gp:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] соблюдает Мясной завет, продиктованный Зелёным пактом."
 
- trait_herbalist_1: "Herbalist"
- trait_herbalist_2: "Alchemist"
- trait_herbalist_3: "Renowned Alchemist"
- trait_track_lifestyle_herbalist: "Herbalist"
- trait_track_lifestyle_herbalist_desc: "A skilled herbalist not only identifies herbs and ingredients but also enhances their potency through experimentation, blending nature’s remedies with the art of alchemy."
+ trait_herbalist_1: "Травник"
+ trait_herbalist_2: "Алхимик"
+ trait_herbalist_3: "Прославленный алхимик"
+ trait_track_lifestyle_herbalist: "Травник"
+ trait_track_lifestyle_herbalist_desc: "Опытный травник не только определяет травы и ингредиенты, но и усиливает их силу путём экспериментов, сочетая природные средства с искусством алхимии."
