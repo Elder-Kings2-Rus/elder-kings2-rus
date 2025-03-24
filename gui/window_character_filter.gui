@@ -195,6 +195,7 @@ types Filters {
 								blockoverride "editbox_properties"
 								{
 									name = "text_filter"
+									focus_on_visible = yes
 									ontextedited = "[CharacterSelectionList.SetPattern]"
 									oneditingfinished = "[CharacterSelectionList.FinishEdit]"
 								}
@@ -488,6 +489,24 @@ types Filters {
 													tooltipwidget = {
 														using = religion_tooltip
 													}
+												}
+												
+												hbox = {
+													layoutpolicy_horizontal = expanding
+													margin = { 10 0 }
+													visible = "[PatternItem.IsGovernment]"
+													spacing = 5
+
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														text = "[PatternItem.GetGovernment.GetNameNoTooltip]"
+														align = nobaseline
+													}
+													text_single = {
+														text = "[PatternItem.GetType]"
+														align = nobaseline
+													}
+													tooltip = "CHARACTER_LIST_GOVERNMENT_TT"
 												}
 											}
 										}
