@@ -662,33 +662,33 @@
 
  # Woodheart Sewers
  building_type_woodheart_sewers_01:0 "Канализация Вудхарта"
- building_type_woodheart_sewers_01_desc:0 "The Woodhearth Sewers are a sprawling, labyrinthine remnant of the city’s Imperial origins. Constructed during the late #LORE [compendium_first_era]#! by the Second Empire, the sewers were originally a marvel of advanced engineering, designed to efficiently manage waste and stormwater for the fortified trading post. During a period of growing Bosmer hostility against the settlement, they were repurposed as a strategic refuge where Imperial forces could retreat, regroup, and safeguard vital resources during times of conflict."
+ building_type_woodheart_sewers_01_desc:0 "Канализация Вудхарта - это разросшийся лабиринт, оставшийся от имперского происхождения города. Построенная в конце #LORE [Concept('compendium_first_era', 'Первой эры')|E]#! Второй империей, канализация изначально была чудом передовой инженерии, предназначенной для эффективного управления сточными и ливневыми водами в укрепленном торговом пункте. В период растущей враждебности босмеров к поселению они были переоборудованы в стратегическое убежище, где имперские войска могли отступать, перегруппировываться и сохранять жизненно важные ресурсы во время конфликта."
  building_woodheart_sewers_01:0 "$building_type_woodheart_sewers_01$ (Убежище контрабандистов)"
- building_woodheart_sewers_01_desc:0 "$building_type_woodheart_sewers_01_desc$\n\nThe sewers have now be turned into a clandestine network for smugglers, thieves, and others who wish to avoid the city's watchful eyes. These tunnels, with their shadowy alcoves and echoing chambers, have become a haven for illegal trade, particularly skooma smuggling and other contraband operations."
+ building_woodheart_sewers_01_desc:0 "$building_type_woodheart_sewers_01_desc$\n\nКанализация превратилась в подпольную сеть для контрабандистов, воров и тех, кто хочет избежать бдительного ока городской стражи. Эти туннели, с их тенистыми альковами и гулкими камерами, стали пристанищем для нелегальной торговли, в частности для контрабанды скумы и других тёмных сделок."
  building_woodheart_sewers_02:0 "$building_type_woodheart_sewers_01$"
- building_woodheart_sewers_02_desc:0 "$building_type_woodheart_sewers_01_desc$\n\nWith the growing trade between Summerset and Valenwood, and a general increase in Aldmer influence in the region, the sewers now primarily serve as secure storage for supplies and wares. Hidden chambers house stockpiles of military provisions, trade goods, and other strategic resources, ensuring the city remains a key hub of activity and influence in the region."
+ building_woodheart_sewers_02_desc:0 "$building_type_woodheart_sewers_01_desc$\n\nС ростом торговли между Саммерсетом и Валенвудом и общим усилением альдмерского влияния в регионе, канализация теперь служит в основном для безопасного хранения припасов и товаров. В потайных камерах хранятся запасы военной провизии, торговых товаров и других стратегических ресурсов, благодаря чему город остается ключевым центром активности и влияния в регионе."
 
  # Starstone Lake
- building_type_star_stone_lake_01:0 "Starstone Lake"
- building_type_star_stone_lake_01_desc:0 "Lake Bisnen, also known as the Starstone Lake, is steeped in mystery and legend. Some stories claim that it was once used to capture starlight on its mirror-like surface, while others believe that a meteor crashing into Valenwood created it in the first place.\n\nWhichever of these stories may be true, the lake is exceptionally rich in meteoric glass, found beneath its waters and occasionally along its shores. Local artisans craft exquisite items from this rare material, and bathing in the lake's waters is said to have an empowering effect on those skilled in the arcane arts."
+ building_type_star_stone_lake_01:0 "Озеро Звёздного камня"
+ building_type_star_stone_lake_01_desc:0 "Озеро Биснен, также известное как озеро Звёздного камня, окутано тайнами и легендами. Одни рассказывают, что когда-то оно использовалось для того, чтобы запечатлеть звездный свет на своей зеркальной поверхности, другие считают, что его создал метеорит, упавший на Валенвуд.\n\nКакая бы из этих историй ни была правдой, озеро исключительно богато метеоритным стеклом, которое находят под его водами и иногда на его берегах. Местные ремесленники изготавливают из этого редкого материала изысканные изделия, а купание в водах озера, как говорят, оказывает благотворное влияние на тех, кто владеет магическими искусствами."
  building_star_stone_lake_01:0 "$building_type_star_stone_lake_01$"
  building_star_stone_lake_01_desc:0 "$building_type_star_stone_lake_01_desc$"
 
  # Arenthia Citadel
- building_type_arenthia_citadel_01:0 "Arenthia Citadel"
- building_type_arenthia_citadel_01_desc:0 "The Arenthia Citadel, erected following the conquest of Valenwood by the Second Empire, epitomizes Colovian architecture with its towering stone walls and formidable defensive towers. Serving as a pivotal military stronghold, it commands the crucial crossroads of Cyrodiil, Valenwood, and Elsweyr. Two mighty stone bridges span the Strid River, cautiously allowing passage to and from this impregnable bastion.\n\nAlthough its origins are rooted in Imperial grandeur, the Citadel has gradually absorbed the cultural influences of the Bosmer and Khajiit, reflecting the rich, diverse heritage of the region. Its strategic position makes it a highly coveted prize for those seeking dominion over the surrounding territories, standing as a powerful symbol of control and ambition in a land with a history of constant conflict."
+ building_type_arenthia_citadel_01:0 "Арентийская цитадель"
+ building_type_arenthia_citadel_01_desc:0 "Арентийская цитадель, возведённая после завоевания Валенвуда Второй империей, олицетворяет собой коловианскую архитектуру с ее возвышающимися каменными стенами и грозными оборонительными башнями. Будучи важнейшей военной крепостью, она занимает важнейшее место на пересечении Сиродила, Валенвуда и Эльсвейра. Два могучих каменных моста перекинуты через реку Стрид, позволяя осторожно пройти в этот неприступный бастион и обратно.\n\nНесмотря на то, что её истоки уходят корнями в имперское величие, цитадель постепенно впитала в себя культурное влияние босмеров и каджитов, отражая богатое и разнообразное наследие этого региона. Благодаря своему стратегическому положению она является желанным призом для тех, кто стремится к господству над близлежащими территориями, являясь мощным символом контроля и амбиций в стране с историей постоянных конфликтов."
  building_arenthia_citadel_01:0 "$building_type_arenthia_citadel_01$"
  building_arenthia_citadel_01_desc:0 "$building_type_arenthia_citadel_01_desc$"
 
  # Redfur Trading Post
- building_type_redfur_trading_post_01:0 "Redfur Trading Post"
- building_type_redfur_trading_post_01_desc:0 "The Redfur Trading Post is a melting pot of cultures where all races inhabiting Valenwood converge to conduct business, with Baandari traders frequently seen peddling their wares.\n\nWhile it thrives as a center of commerce, it is also shaped by the unique Bosmeri custom known as the Rite of Theft. This tradition, cherished among the Bosmer but often perplexing to outsiders, involves stealing from one another and then returning the stolen item in exchange for a boon of equivalent value. This practice can lead to occasional conflicts and misunderstandings, especially among those unfamiliar with the custom. Despite these challenges, the steady flow of gold and goods continues mostly unabated."
+ building_type_redfur_trading_post_01:0 "Торговый пост Рыжий Мех"
+ building_type_redfur_trading_post_01_desc:0 "Торговый пост Рыжий Мех - это плавильный котел культур, где сходятся все расы, населяющие Валенвуд, чтобы вести дела, а баандарские торговцы часто торгуют своими товарами.\n\nНесмотря на то, что это место процветает как центр торговли, оно также формируется под влиянием уникального босмерского обычая, известного как обряд воровства. Эта традиция, почитаемая босмерами, но часто вызывающая недоумение у посторонних, предполагает кражу друг у друга, а затем возвращение украденного в обмен на равноценный подарок. Эта практика иногда приводит к конфликтам и недоразумениям, особенно среди тех, кто не знаком с этим обычаем. Несмотря на эти проблемы, стабильный поток золота и товаров в основном не ослабевает"
  building_redfur_trading_post_01:0 "$building_type_redfur_trading_post_01$"
  building_redfur_trading_post_01_desc:0 "$building_type_redfur_trading_post_01_desc$"
 
  # Velyn Lighthouse
- building_type_velyn_lighthouse_01:0 "Velyn Lighthouse"
- building_type_velyn_lighthouse_01_desc:0 "The Velyn Lighthouse stands as a sentinel on one of the rocky islands at the northern docks of Velyn Harbor. This vital structure helps ships navigate the treacherous reefs and shallows of the "Broken Coast," guiding them safely into the bustling port that serves as Malabal Tor's primary gateway to the sea.\n\nBuilt by the Altmer, the lighthouse is a testament to their sophisticated architecture and maritime expertise. It also marks a site of significant cultural exchange between the Altmer and the local Bosmer, where Altmer craftsmanship influenced and refined Bosmeri swordsmanship and other arts."
+ building_type_velyn_lighthouse_01:0 "Маяк гавани Велин"
+ building_type_velyn_lighthouse_01_desc:0 "Маяк Велин возвышается на одном из скалистых островов в северных доках гавани Велин. Это жизненно важное сооружение помогает кораблям преодолевать коварные рифы и мели «Разбитого берега», безопасно направляя их в оживлённый порт, который служит главными морскими воротами Малабал-Тора.\n\nПостроенный альтмерами, маяк свидетельствует об их изысканной архитектуре и морском опыте. Он также является местом значительного культурного обмена между альтмерами и местными босмерами, где альтмерское мастерство повлияло на босмерское владение мечом и другие искусства."
  building_velyn_lighthouse_01:0 "$building_type_velyn_lighthouse_01$"
  building_velyn_lighthouse_01_desc:0 "$building_type_velyn_lighthouse_01_desc$" 
 
@@ -699,8 +699,8 @@
  building_labyrinth_ruin_01_desc:0 "$building_type_labyrinth_ruin_01_desc$"
 
  ### Summerset Special Buildings
- building_type_sapiarch_college_01:0 "College of Sapiarchs"
- building_type_sapiarch_college_01_desc:0 "The College of Sapiarchs occupies a secluded island west of Lillandril. Enclosed by towering walls, the compound is off-limits to the general public, with access tightly controlled by the portal master who oversees magical egress from the city. This isolation allows the Sapiarchs to focus on their revered studies, away from the distractions of the outside world. Each Sapiarch is a master of a singular discipline, and together, they maintain an unparalleled understanding of the arcane, always striving to expand their knowledge.\n\nA ruler advised by even a single Sapiarch is well respected in Altmeri society, making the college a place of both intellectual and political significance."
+ building_type_sapiarch_college_01:0 "Коллегия сапиархов"
+ building_type_sapiarch_college_01_desc:0 "Коллегия сапиархов занимает уединённый остров к западу от Лилландрила. Огражденный высокими стенами, этот комплекс закрыт для широкой публики, а доступ туда строго контролируется мастером портала, который следит за магическим выходом из города. Такая изоляция позволяет сапиархам сосредоточиться на своих почтенных занятиях вдали от отвлекающих факторов внешнего мира. Каждый сапиарх - мастер в отдельной дисциплине, и вместе они обладают непревзойденным пониманием магии, постоянно стремясь расширить свои знания.\n\nПравитель, которому советует хотя бы один сапиарх, пользуется большим уважением в альтмерском обществе, что делает коллегию местом, имеющим как интеллектуальное, так и политическое значение."
  building_sapiarch_college_01:0 "$building_type_sapiarch_college_01$"
  building_sapiarch_college_01_desc:0 "$building_type_sapiarch_college_01_desc$"
 
@@ -710,7 +710,7 @@
  building_alinor_harbor_01_desc:0 "$building_type_alinor_harbor_01_desc$"
 
  building_type_firsthold_orrery_01:0 "Великий планетарий Фёстхолда"
- building_type_firsthold_orrery_01_desc:0 "Wrought of Aetherial minerals gathered from the very skies it studies, the walls of the Orrery of Firsthold are the last and grandest legacy of the Sun Birds of Alinor. Within them work seers and symbologicians, mechanisms and mysticisms, and the most accomplished of Alinor's augurs, in the service of enciphering ancient truths into the spheres above."
+ building_type_firsthold_orrery_01_desc:0 "Созданные из этериевых минералов, собранных с тех самых небес, которые в нём изучают, стены Великого планетария Фёстхолда - последнее и самое великое наследие птиц солнца Алинора. В них работают провидцы и симбологи, механизмы и мистики, а также самые искусные авгуры Алинора, служащие для запечатления древних истин в сферах над головой."
  building_firsthold_orrery_01:0 "$building_type_firsthold_orrery_01$"
  building_firsthold_orrery_01_desc:0 "$building_type_firsthold_orrery_01_desc$"
 
@@ -763,7 +763,7 @@
  building_shalidors_maze_02_desc:0 "$building_type_shalidors_maze_01_desc$" #EK TODO: add loc for tier 2 - Do I have to? Regards, Fullerton.
 
  building_type_understone_keep_01:0 "Подкаменная крепость"
- building_type_understone_keep_01_desc:0 "Markarth is built around the ancient Dwarven city of Nchuand-Zel. Its highest ramparts and walls form the Understone Keep, a defensible bastion built into the earth itself. Enough of the subterranean city survives that the people of Markarth can retreat here when threatened, and store victuals and valuables enough to survive almost indefinitely. Any army would struggle to breach the Understone. Many generals would not even try."
+ building_type_understone_keep_01_desc:0 "Маркарт построен вокруг древнего двемерского города Нчуанд-Зел. Его самые высокие валы и стены образуют Подкаменную крепость - оборонительный бастион, встроенный в саму землю. Подземный город уцелел настолько, что жители Маркарта могут отступать сюда при угрозе и хранить продукты и ценности, которых хватит почти на неопределенное время. Любая армия с трудом прорвалась бы через Подкаменную крепость. Многие генералы даже не стали бы пытаться."
  building_understone_keep_01:0 "$building_type_understone_keep_01$"
  building_understone_keep_01_desc:0 "$building_type_understone_keep_01_desc$"
 
@@ -808,7 +808,7 @@
  building_heroes_graveyard_01_desc:0 "$building_type_heroes_graveyard_01_desc$"
 
  building_type_dragon_prison_01:0 "Драконий Предел"
- building_type_dragon_prison_01_desc:0 "#italic 'Olaf was Numinex, a dragon in human form; on moonless nights, he would spread wing and fly. But this was his prison, and here he did die; the palace Dragonsreach of Olaf One-Eye.'#!\n\nThere are many stories about Olaf One-Eye, the king who built Dragonsreach to hold a dragon. Whatever their truth, the palace remains, perched atop Whiterun like the dragon it once held."
+ building_type_dragon_prison_01_desc:0 "#italic «Здесь не слышали криков и звона мечей - не сражались во век человек и дракон. Нуминекс - это Олаф в обличье другом. В небе кружит ночами бездушными он».#!\n\nСуществует множество историй об Олафе Одноглазом, короле, который построил Драконий Предел, чтобы в нём мог жить дракон. Какая бы из них не была правдива, дворец по-прежнему стоит на вершине Вайтрана, как и дракон, который когда-то был в нём заточён."
  building_dragon_prison_01:0 "Драконий Предел"
  building_dragon_prison_01_desc:0 "$building_type_dragon_prison_01_desc$"
 
@@ -828,8 +828,8 @@
  building_grayhome_citadel_01_desc:0 "$building_type_grayhome_citadel_01_desc$"
 
  ### Other
- building_type_tel_aruhn_01:0 "Tel Aruhn"
- building_type_tel_aruhn_01_desc:0 "Believed to be the oldest mage tower in Morrowind, Tel Aruhn has stood as a bastion of arcane knowledge since its founding by the first Aldmeri explorers in the mid-Merethic Era. Over the ages, it has changed hands, been expanded, and undergone countless transformations, yet it has always remained a place of study and experimentation. Therefore it has been home to many legendary mages, including Divayth Fyr, one of Tamriel's greatest sorcerers, who spent his youth within its ancient halls.\n\nWhile the Telvanni are notoriously secretive with their knowledge, Tel Aruhn stands as a rare exception, its legacy as a center of magical exchange enduring even amidst their shrouded traditions."
+ building_type_tel_aruhn_01:0 "Тель-Арун"
+ building_type_tel_aruhn_01_desc:0 "Считается, что это самая древняя башня магов в Морровинде. Тель-Арун был бастионом магических знаний с тех пор, как его основали первые альдмерские исследователи в середине Меретической эры. С течением времени он переходил из рук в руки, расширялся и претерпевал бесчисленные трансформации, но всегда оставался местом изучения и экспериментов. Поэтому здесь жили многие легендарные маги, в том числе Дивайт Фир, один из величайших чародеев Тамриэля, который провел свою юность в его древних залах.\n\nИзвестно, что Телванни скрывают свои знания, но Тель-Арун - редкое исключение, и его наследие как центра магического обмена сохранилось даже среди окутанных пеленой традиций."
  building_tel_aruhn_01:0 "$building_type_tel_aruhn_01$"
  building_tel_aruhn_01_desc:0 "$building_type_tel_aruhn_01_desc$"
 
@@ -934,7 +934,7 @@
  building_northpoint_lighthouse_01_desc:0 "$building_type_northpoint_lighthouse_01_desc$"
 
  building_type_city_of_orsinium_01:0 "Город Орсиниум"
- building_type_city_of_orsinium_01_desc:0 "This was the site of the ancient city of Orsinium. Sacked long ago, abandoned by its population — now dispersed in diaspora — and levelled almost to the ground, its once-formidable walls were reduced to above-ground quarries, piles of bricks ready to use."
+ building_type_city_of_orsinium_01_desc:0 "Здесь находился древний город Орсиниум. Разграбленный давным-давно, покинутый своим населением - теперь рассеявшимся по общинам - и сровненный почти с землей, его некогда мощные стены превратились в надземные каменоломни, груды кирпичей, готовых к использованию."
  building_city_of_orsinium_01:0 "Руины Орсиниума"
  building_city_of_orsinium_01_desc:0 "После успешной осады в 430-м году #LORE [Concept('compendium_second_era', 'Второй эры')|E]#!, город Орсиниум - дом орков - был разграблен и практически полностью разрушен. \nОрсимерское население было изгнано, вынужденное бежать, лишённое дома. \n\nТо, что осталось от города, регулярно разграбляется теми, кому принадлежат руины, что для многих является предметом гордости."
  building_city_of_orsinium_02:0 "Восстановленные руины Орсиниума"
