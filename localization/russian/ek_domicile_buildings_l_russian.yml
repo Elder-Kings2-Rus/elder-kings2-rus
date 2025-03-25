@@ -1,4 +1,4 @@
 ﻿l_russian:
 
  proving_grounds_mages_study_domicile_building: "Защищённые тренировочные площадки"
- proving_grounds_mages_study_domicile_building_desc: "#weak (Требуется здание [GetDomicileBuilding('proving_grounds_01').GetName])#!\nАрканные тренировки развивают стойкость, оттачивают рефлексы и обучают магов эффективно управлять своей магической энергией, позволяя им сохранять хладнокровие и смертоносность в хаосе сражения."
+ proving_grounds_mages_study_domicile_building_desc: "#weak (Требуется здание [GetDomicileBuilding('proving_grounds_01').GetName])#!\nМагические тренировки развивают стойкость, оттачивают рефлексы и обучают магов эффективно управлять своей маной, позволяя им сохранять хладнокровие и смертоносность в хаосе сражения."
