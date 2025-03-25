@@ -96,13 +96,13 @@
  clutch_raid_war_prisoners.tt_attacker:1 "От трёх до пяти [Concept('courtiers', 'придворных')|E] [Select_CString(defender.IsLocalPlayer, '', 'персонажа ' )][defender.GetNamePossessiveOrMy][Select_CString(defender.IsLocalPlayer, 'его персонажа', '' )] будут захвачены в плен в зависимости от уровня титула. Предпочтение отдаётся [Concept('children', 'детям')|E]."
  clutch_raid_war_prisoners.tt_defender:1 "От трёх до пяти [Concept('courtiers', 'придворных')|E] [Select_CString(attacker.IsLocalPlayer, '', 'персонажа ' )][attacker.GetNamePossessiveOrMy][Select_CString(attacker.IsLocalPlayer, 'его персонажа', '' )] будут захвачены в плен в зависимости от уровня титула. Предпочтение отдаётся [Concept('children', 'детям')|E]."
 
- DESTROY_BRIDGES_OF_LEYAWIIN_CB_NAME: "Destroy Bridges of Leyawiin"
- DESTROY_BRIDGES_OF_LEYAWIIN_WAR_NAME: "Dismantle the [GetBuilding('bridges_leyawiin_02').GetName]"
- DESTROY_BRIDGES_OF_LEYAWIIN_WAR_NAME_BASE: "[attacker.GetShortUIName] will dismantle [GetBuilding('bridges_leyawiin_02').GetName]"
- destroy_bridges_of_leyawiin_war_victory_desc: "[attacker.GetShortUIName|U] will destroy the [GetBuilding('bridges_leyawiin_02').GetName] so that ships are able to once again sail the Niben." 
- destroy_bridges_of_leyawiin_war_white_peace_desc: "No reparations will be paid. The [GetBuilding('bridges_leyawiin_02').GetName|U] are going to remain in place."
- destroy_bridges_of_leyawiin_war_defeat_desc: "[attacker.GetShortUIName|U] will pay reparations to [defender.GetShortUIName|U] and the [GetBuilding('bridges_leyawiin_02').GetName] are going to remain in place."
+ DESTROY_BRIDGES_OF_LEYAWIIN_CB_NAME: "Уничтожение мостов Лейавина"
+ DESTROY_BRIDGES_OF_LEYAWIIN_WAR_NAME: "Уничтожение постройки [GetBuilding('bridges_leyawiin_02').GetName]"
+ DESTROY_BRIDGES_OF_LEYAWIIN_WAR_NAME_BASE: "[attacker.GetShortUIName] уничтожит постройку [GetBuilding('bridges_leyawiin_02').GetName]"
+ destroy_bridges_of_leyawiin_war_victory_desc: "[attacker.GetShortUIName|U] уничтожит [GetBuilding('bridges_leyawiin_02').GetName], чтобы корабли снова могли ходить по Нибену."
+ destroy_bridges_of_leyawiin_war_white_peace_desc: "Репарации выплачиваться не будут. [GetBuilding('bridges_leyawiin_02').GetName|U] останутся на месте."
+ destroy_bridges_of_leyawiin_war_defeat_desc: "[attacker.GetShortUIName|U] выплатит репарации [defender.GetShortUIName|U], а [GetBuilding('bridges_leyawiin_02').GetName] останутся на месте."
 
- RECLAIM_HEART_OF_VALENWOOD_CB_NAME:1 "Reclaim Heart of Valenwood"
- RECLAIM_HEART_OF_VALENWOOD_WAR_NAME:2 "Extract reparations from [DEFENDER.GetShortUIName] for raiding."
- RECLAIM_HEART_OF_VALENWOOD_WAR_NAME_BASE:0 "[attacker.GetShortUIName] will reclaim the [GetBuilding('heart_of_valenwood_01').GetName]"
+ RECLAIM_HEART_OF_VALENWOOD_CB_NAME:1 "Возвращение Сердца Валенвуда"
+ RECLAIM_HEART_OF_VALENWOOD_WAR_NAME:2 "Взыскание репараций с [DEFENDER.GetShortUIName] за набеги."
+ RECLAIM_HEART_OF_VALENWOOD_WAR_NAME_BASE:0 "[attacker.GetShortUIName] вернёт [GetBuilding('heart_of_valenwood_01').GetName]
