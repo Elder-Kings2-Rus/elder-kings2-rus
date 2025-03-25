@@ -1,5 +1,5 @@
 ﻿l_russian:
- decision_group_type_ek_sb: "Special Buildings Decisions"
+ decision_group_type_ek_sb: "Решения особых построек"
  # Coping mechanisms
  stress_loss_skooma_drinker_decision:1 "Выкурить или выпить скуму"
  stress_loss_skooma_drinker_decision_desc:1 "Я раскуриваю трубку и уже чувствую изысканный запах лунного сахара, наполняющий комнату. Я улыбаюсь, ведь это именно то, что мне нужно..."
@@ -52,21 +52,21 @@
  use_extra_perk_decision_tooltip:0 "Использовать одно из своих дополнительных достоинств и получить вознаграждение, основанное на ваших свойствах и новом образе жизни, в обмен на небольшой стресс."
  use_extra_perk_decision_confirm:0 "Что ж, приступим!"
 
- diplomacy_all_perks:0 "You have unlocked all Diplomacy lifestyle perks"
- intrigue_all_perks:0 "You have unlocked all Intrigue lifestyle perks"
- stewardship_all_perks:0 "You have unlocked all Stewardship lifestyle perks"
- learning_all_perks:0 "You have unlocked all Learning lifestyle perks"
- martial_all_perks:0 "You have unlocked all Martial lifestyle perks"
- magic_all_perks:0 "You have unlocked all Magic lifestyle perks"
- dark_arts_all_perks:0 "You have unlocked all Dark Arts lifestyle perks"
+ diplomacy_all_perks:0 "Вы открыли все достоинства образа жизни дипломатия"
+ intrigue_all_perks:0 "Вы открыли все достоинства образа жизни интриги"
+ stewardship_all_perks:0 "Вы открыли все достоинства образа жизни управление"
+ learning_all_perks:0 "Вы открыли все достоинства образа жизни ученость"
+ martial_all_perks:0 "Вы открыли все достоинства образа жизни военное дело"
+ magic_all_perks:0 "Вы открыли все достоинства образа жизни магия"
+ dark_arts_all_perks:0 "Вы открыли все достоинства образа жизни тёмные искусства"
 
- diplomacy_extra_perk_points:0 "You have excess Diplomacy lifestyle perk points"
- intrigue_extra_perk_points:0 "You have excess Intrigue perk lifestyle points"
- stewardship_extra_perk_points:0 "You have excess Stewardship lifestyle perk points"
- learning_extra_perk_points:0 "You have excess Learning perk lifestyle points"
- martial_extra_perk_points:0 "You have excess Martial perk lifestyle points"
- magic_extra_perk_points:0 "You have excess Magic perk lifestyle points"
- dark_arts_extra_perk_points:0 "You have excess Dark Arts lifestyle perk points"
+ diplomacy_extra_perk_points:0 "У вас есть избыточное достоинство образа жизни дипломатия"
+ intrigue_extra_perk_points:0 "У вас есть избыточное достоинство образа жизни интриги"
+ stewardship_extra_perk_points:0 "У вас есть избыточное достоинство образа жизни управление"
+ learning_extra_perk_points:0 "У вас есть избыточное достоинство образа жизни ученость"
+ martial_extra_perk_points:0 "У вас есть избыточное достоинство образа жизни военное дело"
+ magic_extra_perk_points:0 "У вас есть избыточное достоинство образа жизни магия"
+ dark_arts_extra_perk_points:0 "У вас есть избыточное достоинство образа жизни тёмные искусства"
 
  # Religious
  
@@ -315,9 +315,10 @@
  # Courtier
  
  hire_court_mage_decision:0 "Найти придворного мага"
- hire_court_mage_decision_tooltip:3 "Ваши слуги предложат несколько кандидатур, подходящих на должность [GetCourtPositionType('court_mage_position').GetName()l]"
+ hire_court_mage_decision_tooltip:3 "Ваши слуги предложат несколько кандидатур, подходящих на должность [GetCourtPositionType('court_mage_court_position').GetName()]"
  hire_court_mage_decision_desc:1 "Придворный маг необходим, чтобы творить заклинания и накладывать чары во благо королевства. Я попрошу своих слуг отыскать и привести несколько подходящих кандидатов."
- hire_court_mage_decision_effect_tooltip:4 "Вам предложат несколько кандидатов на должность «[GetCourtPositionType('court_mage_position').GetName()]» и вы сможете нанять одного из них за вознаграждение и ежемесячное жалование"
+ hire_court_mage_cooldown_tt: "[GetCourtPositionType('court_mage_court_position').GetName] может быть нанят повторно через [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_court_mage_cooldown' ))]"
+ hire_court_mage_decision_effect_tooltip:4 "Вам предложат несколько кандидатов на должность «[GetCourtPositionType('court_mage_court_position').GetName()]» и вы сможете нанять одного из них за вознаграждение и ежемесячное жалование"
  hire_court_mage_decision_confirm:0 "Начать поиски"
  ek_court_position.0001.t:0 "Придворный маг"
  ek_court_position.0001.desc:0 "Этот мир полон опасностей. Не в безопасности даже [ROOT.Char.GetTitleTierName|l] и [ROOT.Char.GetHerHis] двор. Поэтому по моей просьбе мои слуги занялись поисками придворного мага. И они подобрали несколько подходящих кандидатов."
