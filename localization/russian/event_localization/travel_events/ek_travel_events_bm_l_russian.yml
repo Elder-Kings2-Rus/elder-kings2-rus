@@ -7,7 +7,7 @@
  ek_travel_events_bm.0001.a: "Что ж, придётся довериться [Select_CString(argonian_guide.IsFemale, 'проводнице', 'проводнику' )]..."
  ek_travel_events_bm.0001.a.tt: "Вас ждёт неясная судьба..."
  ek_travel_events_bm.0001.a.flavor: "Этот вариант доступен благодаря наличию [Select_CString(argonian_guide.IsFemale, 'аргонианинки-проводницы', 'аргонианина-проводника' )] в вашей [Concept( 'entourage', 'свите' )|E]"
- ek_travel_events_bm.0001.b.flavor: "Этот вариант доступен, потому что ваша [culture|El] обладает [Concept( 'innovation', 'инновацией' )|E]#V $innovation_black_marsh_natives$#!"
+ ek_travel_events_bm.0001.b.flavor: "Этот вариант доступен, потому что ваша [culture|El] обладает [Concept( 'innovation', 'инновацией' )|E] #V $innovation_black_marsh_natives$#!"
  ek_travel_events_bm.0001.c.flavor: "Вы решили бороться с монстром!"
  ek_travel_events_bm.0001.b: "— Всем сохранять спокойствие!"
  ek_travel_events_bm.0001.c: "— К бою!"
