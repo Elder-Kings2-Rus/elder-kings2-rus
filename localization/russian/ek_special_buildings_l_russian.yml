@@ -65,20 +65,20 @@
  building_arcane_university_01_desc:0 "$building_type_arcane_university_01_desc$"
 
  # The Arboretum
- building_type_the_arboretum_01:0 "The Arboretum"
- building_type_the_arboretum_01_desc:0 "The Arboretum within the Imperial City is a serene haven, offering a lush contrast to the city's other overcrowded quarters. This beautifully cultivated garden is home to flora from all corners of Tamriel—exotic swamp flowers from Black Marsh, vibrant desert blooms from Elsweyr, and hardy mountain shrubs from Skyrim. Carefully tended by the Imperial City’s skilled botanists, the Arboretum serves not only as a place of tranquility and reflection but also as a living gallery of Tamriel’s natural beauty.\nStatues of the Divines are placed throughout, each god symbolically paired with plants that reflect their virtues. Scholars, travelers, and locals alike come here to study, find inspiration, or simply stroll among the verdant pathways."
+ building_type_the_arboretum_01:0 "Дендрарий"
+ building_type_the_arboretum_01_desc:0 "Дендрарий Имперского города - это безмятежная гавань, представляющая собой пышный контраст с другими переполненными кварталами города. В этом великолепном саду собрана флора со всех уголков Тамриэля: экзотические болотные цветы из Чернотопья, яркие цветы пустыни из Эльсвейра и выносливые горные кустарники из Скайрима. Дендрарий, за которым тщательно ухаживают опытные ботаники Имперского города, служит не только местом спокойствия и размышлений, но и живой галереей природной красоты Тамриэля.\nПовсюду расставлены статуи Божеств, каждый из которых символически сочетается с растениями, отражающими их достоинства. Ученые, путешественники и местные жители приходят сюда учиться, искать вдохновение или просто прогуливаться среди зеленых тропинок."
  building_the_arboretum_01:0 "$building_type_the_arboretum_01$"
  building_the_arboretum_01_desc:0 "$building_type_the_arboretum_01_desc$"
 
  # Imperial Marketplace
- building_type_imperial_marketplace_01:0 "Imperial Marketplace"
- building_type_imperial_marketplace_01_desc:0 "The Imperial Marketplace is the most bustling and vibrant quarter in the entire Imperial City, alive with energy from dawn till dusk - and often well into the night. Crowds fill the streets as vendors call out their wares, while street performers and bards add music and theatrics to the lively atmosphere. Food stalls fill the air with enticing scents, creating a sensory overload. The marketplace is a constant swirl of movement, sound, color, and above all money, capturing the true spirit of the Empire in one bustling square."
+ building_type_imperial_marketplace_01:0 "Имперский рынок"
+ building_type_imperial_marketplace_01_desc:0 "Имперский рынок - самый шумный и оживлённый квартал во всем Имперском городе, в котором бурлит жизнь с рассвета до заката, а зачастую и до самой ночи. Толпы людей заполняют улицы, когда торговцы зазывают их своими товарами, а уличные артисты и барды добавляют музыку и театральность в оживленную атмосферу. Продуктовые прилавки наполняют воздух манящими ароматами, создавая ощутимую перегрузку. Рынок - это постоянный вихрь движения, звуков, цвета и, прежде всего, денег, отражающий истинный дух Империи на одной оживлённой площади."
  building_imperial_marketplace_01:0 "$building_type_imperial_marketplace_01$"
  building_imperial_marketplace_01_desc:0 "$building_type_imperial_marketplace_01_desc$"
 
  # Imperial Sewers
- building_type_imperial_sewers_01:0 "Imperial Sewers"
- building_type_imperial_sewers_01_desc:0 "The Imperial Sewers are essential for managing the city's waste. By absorbing the upper city's refuse, they keep the streets clean, efficiently handling the filth and preventing the spread of disease, ensuring the Imperial City remains the pristine jewel of Tamriel.\n\nSpanning ancient structures and natural caverns, they have evolved into a realm of their own, rich with damp secrets and forgotten relics of the past. As the city's underbelly, the sewers absorb not only its waste but also its secrets, preserving every chapter of its history. These tunnels have witnessed centuries of transformation, from the era of the Ayleid rulers to the rise and fall of empires."
+ building_type_imperial_sewers_01:0 "Имперская канализация"
+ building_type_imperial_sewers_01_desc:0 "Имперская канализация необходима для утилизации городских отходов. Поглощая отходы верхнего города, они поддерживают чистоту улиц, эффективно справляясь с грязью и предотвращая распространение болезней, благодаря чему Имперский город остается нетронутой жемчужиной Тамриэля.\n\nОхватывая древние строения и природные пещеры, она превратилась в отдельное королевство, богатое сырыми тайнами и забытыми реликвиями прошлого. Будучи подпольной частью города, канализация вбирает в себя не только его отходы, но и секреты, сохраняя каждую главу его истории. Эти туннели стали свидетелями многовековых преобразований - от эпохи айлейдских правителей до взлета и падения империй."
  building_imperial_sewers_01:0 "$building_type_imperial_sewers_01$"
  building_imperial_sewers_01_desc:0 "$building_type_imperial_sewers_01_desc$"
 
@@ -89,7 +89,7 @@
  building_garlas_agea_01:1 "$building_type_garlas_agea_01$"
  building_garlas_agea_01_desc:1 "$building_type_garlas_agea_01_desc$\n\nДо сих пор его точные, магические функции остаются загадкой, что делает его главным местом посещения как региональных ученых, так и знатных путешественников."
  building_garlas_agea_02:1 "$building_type_garlas_agea_01$ (Восстановленная)"
- building_garlas_agea_02_desc:1 "$building_type_garlas_agea_01_desc$\n\nThe ancient contraptions have now been restored; the glow of Welkynd stones illuminates every hall, and starlight itself is captured within a vast Ayleid well. Whoever sits upon the throne of Garlas Agea will be bathed in its magical power."
+ building_garlas_agea_02_desc:1 "$building_type_garlas_agea_01_desc$\n\nДревние механизмы восстановлены; сияние велкиндских камней освещает каждый зал, а сам звездный свет улавливается в огромном айлейдском колодце. Кто бы ни сел на трон Гарласа Агеа, он будет купаться в его магической силе."
 
  # Cloudruler Temple
  building_type_cloudruler_temple_01:0 "Храм Повелителя Облаков"
@@ -143,7 +143,7 @@
  building_type_great_chapel_arkay_01:0 "Великая часовня Аркея"
  building_type_great_chapel_arkay_01_desc:0 "Возможно, Чейдинхол и не претендует на звание самого богатого или влиятельного города Сиродила, но он, несомненно, является одним из самых очаровательных. Уютно расположившись в зелени Нибенейского бассейна и изящно примостившись на берегу реки Корболо, этот город славится своими тщательно ухоженными парками и изысканными архитектурными чудесами, украшенными искусно вырезанными деревянными мотивами.\n\nПрисутствие часовни Аркея в этом пленительном месте вполне уместно, ведь Аркей олицетворяет собой одновременно смертность и жизненную силу. Эта двойственность нашла своё воплощение в великолепных витражах часовни, на которых искусно изображён циклический танец времён года."
  building_great_chapel_arkay_01:0 "$building_type_great_chapel_arkay_01$ (Осквернённая)"
- building_great_chapel_arkay_01_desc:0 "The Chapel of Arkay, once a hallowed sanctuary reflecting the balance of life and death, now lies defiled. The stained glass windows are smeared with profane curses, their beauty marred beyond recognition. The altars, where faithful souls once sought peace, stand desecrated. Corpses hang grotesquely from the ceiling, filling the chapel's sacred halls with the suffocating stench of decay.\nThis place, once the heart of Cheydinhal’s spiritual life, now serves as a chilling testament to the necromantic power that has overtaken it."
+ building_great_chapel_arkay_01_desc:0 "Часовня Аркея, некогда святая святых, отражавшая равновесие жизни и смерти, теперь осквернена. Витражи испещрены нечестивыми проклятиями, их красота изуродована до неузнаваемости. Алтари, в которых когда-то искали покой верные души, осквернены. С потолка гротескно свисают трупы, наполняя священные залы часовни удушливым смрадом разложения.\nЭто место, некогда бывшее сердцем духовной жизни Чейдинхола, теперь служит леденящим душу свидетельством некромантической силы, захватившей его."
  building_great_chapel_arkay_02:0 "$building_type_great_chapel_arkay_01$"
  building_great_chapel_arkay_02_desc:0 "$building_type_great_chapel_arkay_01_desc$"
 
@@ -165,7 +165,7 @@
  building_type_great_chapel_akatosh_01:0 "Великая часовня Акатоша"
  building_type_great_chapel_akatosh_01_desc:0 "Акатош, известный как Дракон Времени, царит среди богов, как и город Кватч, гордо возвышающийся на величественном утёсе. Поэтому он, несомненно, заслуживает того, чтобы стать местом почитания самого могущественного из Восьми божеств.\n\nЧасовня Акатоша представляет собой удивительное сооружение, определяемое внушительными стенами и тщательно продуманной и симметрично выполненной архитектурной планировкой. С высокого потолка свисают символические песочные часы, служащие наглядным и постоянным напоминанием всем молящимся, подчёркивая вечное течение времени."
  building_great_chapel_akatosh_01:0 "$building_type_great_chapel_akatosh_01$ (Разрушенная)"
- building_great_chapel_akatosh_01_desc:0 "The Chapel of Akatosh once stood as a remarkable structure but this magnificent chapel was completely destroyed during the infamous Kvatch Bread riots, leaving behind only echoes of its former grandeur. Today, it stands as a grim reminder of the catastrophic consequences that can unfold when a ruler neglects the needs of their people."
+ building_great_chapel_akatosh_01_desc:0 "Когда-то часовня Акатоша была выдающимся сооружением, но эта великолепная часовня была полностью разрушена во время печально известных Хлебных бунтов в Кватче, оставив после себя лишь отголоски былого величия. Сегодня она стоит как мрачное напоминание о катастрофических последствиях, которые могут возникнуть, когда правители пренебрегают нуждами своего народа."
  building_great_chapel_akatosh_02:0 "$building_type_great_chapel_akatosh_01$"
  building_great_chapel_akatosh_02_desc:0 "$building_type_great_chapel_akatosh_01_desc$"
  holy_site_or_akatosh:0 "[Concept('faith', 'Конфессия')|E] владельца должна считать это [Concept('holy_site', 'священным местом')|E], иметь Акатоша, Алдуина или Культ Аки в составе своего [Concept('pantheon', 'пантеона')|E], иметь [Concept('pantheon', 'пантеон')|E] Единого, или являться Сиродильским культом."
@@ -219,9 +219,9 @@
 
  # Sancre Tor
  building_type_sancre_tor_01:0 "Санкр Тор"
- building_type_sancre_tor_01_desc:0 "An ancient fortified city deep within the Jerall Mountains, the old city of Sancre Tor served as the center of Alessia's rebellion, marking a pivotal moment in Tamrielic history. It was also here that the Reman dynasty was born, forever altering the course of the Empire. Beyond its historical significance, Sancre Tor is the final resting place of many Emperors, their tombs a testament to their legacy. Surrounded by towering peaks and steeped in legend, this place serves as a constant reminder of the struggles and triumphs that shaped the Empire’s past."
+ building_type_sancre_tor_01_desc:0 "Древний город-крепость в глубине Джерольских гор, старый город Санкр Тор стал центром восстания Алессии, ознаменовав поворотный момент в истории Тамриэля. Здесь же зародилась династия Ремана, навсегда изменившая судьбу Империи. Помимо своего исторического значения, Санкр Тор является последним пристанищем многих императоров, а их гробницы - свидетельством их наследия. Окруженное высокими вершинами и овеянное легендами, это место служит постоянным напоминанием о борьбе и триумфах, сформировавших прошлое Империи."
  building_sancre_tor_01:0 "$building_type_sancre_tor_01$ (Осквернённый)"
- building_sancre_tor_01_desc:0 "$building_type_sancre_tor_01_desc$\n\nHowever, the city has fallen into disrepair since the end of the Reman line, and the ancient tombs beneath it now harbor nameless horrors. The dark magic haunting this once-sacred place stands as a stark reminder of the Empire’s current weakness."
+ building_sancre_tor_01_desc:0 "$building_type_sancre_tor_01_desc$\n\nОднако с тех пор, как династия Ремана пресеклась, город пришёл в упадок, а в древних гробницах под ним теперь обитают безымянные ужасы. Темная магия, преследующая это некогда священное место, служит ярким напоминанием о нынешней слабости Империи."
  building_sancre_tor_02:0 "$building_type_sancre_tor_01$"
  building_sancre_tor_02_desc:0 "$building_type_sancre_tor_01_desc$\n\n«Золотой холм» вернул свою законную славу. В город стекаются паломники со всего Сиродила, а гробницы усопших императоров даже могут посетить несколько удачливых высокопоставленных лиц..."
 
@@ -229,9 +229,9 @@
  building_type_bridges_leyawiin_01:0 "Мосты Лейавина"
  building_type_bridges_leyawiin_01_desc:0 "Участок земли, соединяющий две стороны южных земель Сиродила, стал важной стратегической и экономической точкой, поскольку тот, кто контролирует его, может решать, кто вправе проплыть от Имперского острова до Топальской бухты."
  building_bridges_leyawiin_01:0 "$building_type_bridges_leyawiin_01$ (Разрушенные)"
- building_bridges_leyawiin_01_desc:0 "$building_type_bridges_leyawiin_01_desc$\n\nTherefore, the bridges once built here have been dismantled, leaving only a few pillars as a broken testament to their former dominance over the Niben and beyond. The trade flowing into the city is now just a fraction of what it once was, and Castle Leyawiin is now accessible only by ferries, which at least grants it a strategic advantage."
+ building_bridges_leyawiin_01_desc:0 "$building_type_bridges_leyawiin_01_desc$\n\nПоэтому мосты, некогда построенные здесь, были разобраны, оставив лишь несколько столбов в качестве разбитого свидетельства их былого господства над Нибеном и за его пределами. Торговые потоки в город теперь составляют лишь малую часть того, что было раньше, а до замка Лейавин теперь можно добраться только на паромах, что, по крайней мере, дает ему стратегическое преимущество."
  building_bridges_leyawiin_02:0 "$building_type_bridges_leyawiin_01$"
- building_bridges_leyawiin_02_desc:0 "$building_type_bridges_leyawiin_01_desc$\n\nEnormous stone bridges have been constructed to ensure that no ship above a certain size can sail further up the Niben, leaving Leyawiin as the focal point of trade in the region.\n\n#N До тех пор, пока здание активно, [GetBuilding('imperial_city_harbor_01').GetName] и [GetBuilding('port_hestra_01').GetName] деактивированы, ни одно графство вдоль Румаре не сможет построить или получить прибыль от строительства торговых портов.#!"
+ building_bridges_leyawiin_02_desc:0 "$building_type_bridges_leyawiin_01_desc$\n\nОгромные каменные мосты были построены для того, чтобы ни одно судно выше определенного размера не могло плыть дальше по Нибену, сохраняя Лейавин центром торговли в регионе.\n\n#N До тех пор, пока здание активно, [GetBuilding('imperial_city_harbor_01').GetName] и [GetBuilding('port_hestra_01').GetName] деактивированы, ни одно графство вдоль Румаре не сможет построить или получить прибыль от строительства торговых портов.#!"
  bridges_leyawiin_02_must_be_disabled:0 "[GetBuilding('bridges_leyawiin_02').GetName] построены"
 
  # St. Bravillius District
@@ -241,40 +241,40 @@
  building_st_bravillius_01_desc:0 "$building_type_st_bravillius_01_desc$"
 
  # Skingrad Vineyards
- building_type_skingrad_vineyards_01:0 "Skingrad Vineyards"
- building_type_skingrad_vineyards_01_desc:0 "The Skingrad Vineyards, planted alongside the sunlit hills of Colovia, are renowned throughout Tamriel. Blessed with rich soil and a temperate climate, the vineyards yield grapes of outstanding quality, giving their wines a full-bodied flavor and depth admired by nobles and commoners alike.\nEvery bottle is said to reflect Skingrad's commitment to excellence, making their vintages a prized addition to any table."
+ building_type_skingrad_vineyards_01:0 "Виноградники Скинграда"
+ building_type_skingrad_vineyards_01_desc:0 "Виноградники Скинграда, раскинувшиеся на залитых солнцем холмах Коловии, славятся на весь Тамриэль. Благодаря богатой почве и умеренному климату виноградники дают виноград выдающегося качества, придавая его винам насыщенный вкус и глубину, которыми восхищаются как дворяне, так и простолюдины.\nВ каждом кувшине отражается стремление Скинграда к совершенству, что делает их вина ценным дополнением к любому столу."
  building_skingrad_vineyards_01:0 "$building_type_skingrad_vineyards_01$"
  building_skingrad_vineyards_01_desc:0 "$building_type_skingrad_vineyards_01_desc$"
 
  # Ontus Quarry
- building_type_ontus_quarry_01:0 "Ontus Quarry"
- building_type_ontus_quarry_01_desc:0 "Though the Dragonteeth Mountains may lack rare minerals, they are nevertheless a crucial resource hub in the region. The stone quarried here is famed for its strength and quality, often regarded as the finest in all of Colovia, and has become the primary building material for many of the province’s most iconic castles and fortresses."
- building_ontus_quarry_01:0 "$building_type_ontus_quarry_01$ (Sanctified)"
- building_ontus_quarry_01_desc:0 "$building_type_ontus_quarry_01_desc$\n\nAfter the Iron Orcs captured this place, they declared an end to the destruction of the mountains they revere as sacred. To honor the wounded landscape, they erected a small shrine atop the rubble that now serves as a place of reverence."
+ building_type_ontus_quarry_01:0 "Каменоломня в Онтусе"
+ building_type_ontus_quarry_01_desc:0 "Хотя в горах Драконьих Зубов нет редких минералов, они, тем не менее, являются важнейшим ресурсным центром региона. Добываемый здесь камень славится своей прочностью и качеством, часто считается лучшим во всей Коловии и стал основным строительным материалом для многих самых известных замков и крепостей провинции."
+ building_ontus_quarry_01:0 "$building_type_ontus_quarry_01$ (Освящённая)"
+ building_ontus_quarry_01_desc:0 "$building_type_ontus_quarry_01_desc$\n\nПосле того как железные орки захватили это место, они объявили о прекращении разрушения гор, которые они почитают как священные. Чтобы почтить израненный ландшафт, они возвели на вершине обломков небольшое святилище, которое теперь служит местом почитания."
  building_ontus_quarry_02:0 "$building_type_ontus_quarry_01$"
- building_ontus_quarry_02_desc:0 "$building_type_ontus_quarry_01_desc$\n\nThe proximity of the Hafar River allows for swift and efficient transport of the quarried stone, turning the operation into a steady and profitable source of income for the nearby hold of Ontus."
+ building_ontus_quarry_02_desc:0 "$building_type_ontus_quarry_01_desc$\n\nБлизость реки Хафар обеспечивает быструю и эффективную транспортировку добытого камня, превращая это предприятие в стабильный и прибыльный источник дохода для близлежащего владения Онтус."
 
  # Gottlesfont Priory
- building_type_gottlesfont_priory_01:0 "Gottlesfont Priory"
- building_type_gottlesfont_priory_01_desc:0 "Deep within the Great Forest, Gottlefont Priory stands as a hidden gem of knowledge and wisdom. This secluded haven not only houses a chapel dedicated to the Eight Divines but also boasts an extensive library and esteemed academic institutions, regarded as some of the finest for young nobles and aspiring scholars across Tamriel. Renowned authors such as Haderus of Gottlefont and Alexandre Hetrard once studied within these halls, leaving a legacy to be proud of.\nThe abbot, devoted to preserving the priory’s prestigious reputation, tirelessly works to keep its light of scholarship shining brightly amidst the ancient trees."
+ building_type_gottlesfont_priory_01:0 "Приорат Готтлесфонт"
+ building_type_gottlesfont_priory_01_desc:0 "Глубоко в Великом лесу стоит приорат Готтлесфонта - скрытая жемчужина знаний и мудрости. В этом уединенном убежище находится не только часовня, посвященная Восьми божествам, но и обширная библиотека, а также уважаемые учебные заведения, считающиеся одними из лучших для молодых дворян и начинающих ученых во всем Тамриэле. В этих залах когда-то учились такие известные авторы, как Годер из Готтлесфонта и Александр Хетрард, оставившие после себя наследие, которым можно гордиться.\nНастоятели, заботящиеся о сохранении престижной репутации монастыря, неустанно трудятся над тем, чтобы свет учености ярко сиял среди древних деревьев."
  building_gottlesfont_priory_01:0 "$building_type_gottlesfont_priory_01$"
  building_gottlesfont_priory_01_desc:0 "$building_type_gottlesfont_priory_01_desc$"
 
  # Weatherleah Hunting Lodge
- building_type_weatherleah_hunting_lodge_01:0 "Weatherleah Hunting Lodge"
- building_type_weatherleah_hunting_lodge_01_desc:0 "Situated along the northern border of the vast Imperial Reserve, Weatherleah is renowned as a premier hunting retreat, its grounds teeming with prized game. Built by the noble family whose name it bears, the manor is famously known as the "Jewel of the West Weald"—and not without reason. Its grand halls are adorned with an impressive array of hunting trophies, while the lavish interiors cater to even the highest standards of nobility, ensuring that every need is met in comfort and style.\nThe hunts held here are legendary, a distinguished tradition that every noble of standing aspires to experience at least once in a lifetime."
+ building_type_weatherleah_hunting_lodge_01:0 "Охотничий домик Везерлехов"
+ building_type_weatherleah_hunting_lodge_01_desc:0 "Расположенный на северной границе обширного Имперского заповедника, охотничий домик Везерлехов славится как лучшее место для охоты, а его угодья изобилуют ценной дичью. Построенный благородной семьей, чье имя оно носит, особняк известен как «жемчужина Западного вельда» - и не без оснований. Его парадные залы украшены впечатляющим набором охотничьих трофеев, а роскошные интерьеры отвечают самым высоким требованиям знати, обеспечивая комфорт и стиль для удовлетворения любых потребностей.\nПроводимые здесь охоты легендарны, это выдающаяся традиция, которую каждый знатный дворянин стремится испытать хотя бы раз в жизни."
  building_weatherleah_hunting_lodge_01:0 "$building_type_weatherleah_hunting_lodge_01$"
  building_weatherleah_hunting_lodge_01_desc:0 "$building_type_weatherleah_hunting_lodge_01_desc$"
 
  # Fort Redmane
- building_type_fort_redmane_01:0 "Fort Redmane"
- building_type_fort_redmane_01_desc:0 "One might question the placement of one of Cyrodiil's mightiest fortresses in this relatively peaceful region, but the reasoning lies in its name: "The Red Mane." This title belonged to a fearsome Khajiiti huntlord who once struck terror along this stretch of the Niben’s banks. Legend holds that Nemenius Hestor, the general who commissioned the fortress, may have exaggerated the threat posed by the Khajiit to secure additional funding for its construction. Yet whether this tale is fact or fiction remains uncertain. In the end, Hestor met his fate at the hands of Red Mane, who infiltrated the fortress, leading to a fatal clash that claimed them both.\n\nSince then, the fortress has stood vigilant over the Niben, an imposing structure that demands a substantial fortune merely to maintain its integrity."
+ building_type_fort_redmane_01:0 "Форт Редмейн"
+ building_type_fort_redmane_01_desc:0 "Можно было бы усомниться в том, что одна из самых могущественных крепостей Сиродила расположена в этом относительно мирном регионе, но причина кроется в ее названии: «Красная Грива». Этот титул принадлежал грозному каджиту-охотнику, который когда-то наводил ужас на берега Нибена. Легенда гласит, что Немений Гестор, генерал, приказавший построить крепость, возможно, преувеличил угрозу, исходящую от каджитов, чтобы получить дополнительное финансирование на ее строительство. Однако является ли эта история фактом или вымыслом, остается неясным. В конце концов, Гестор встретил свою судьбу от рук Красного Гривы, проникшего в крепость, что привело к смертельной схватке, в которой погибли оба.\n\nС тех пор крепость бдительно охраняет Нибен, являясь внушительным сооружением, которое требует значительного состояния только для поддержания своей целостности."
  building_fort_redmane_01:0 "$building_type_fort_redmane_01$"
  building_fort_redmane_01_desc:0 "$building_type_fort_redmane_01_desc$"
 
  # Abbey Bazaar of Zenithar
- building_type_abbey_bazaar_of_zenithar_01:0 "Abbey Bazaar of Zenithar"
- building_type_abbey_bazaar_of_zenithar_01_desc:0 "The famous Abbey Bazaar is a vibrant marketplace, drawing merchants and artisans not only from Cyrodiil but also from neighboring regions such as Black Marsh, Elsweyr, and even Morrowind. Placed within the revered Abbey of Zenithar itself, the bazaar is lined with stalls showcasing finely crafted tools, jewelry, textiles, and rare enchanted artifacts - all blessed by the abbey's priests to bring prosperity. The exchange of unique wares and customs from diverse cultures creates a lively, bustling atmosphere, where each trade embodies Zenithar’s virtues of honest labor and fair commerce."
+ building_type_abbey_bazaar_of_zenithar_01:0 "Аббатство-базар Зенитара"
+ building_type_abbey_bazaar_of_zenithar_01_desc:0 "Знаменитое аббатство-базар - это оживлённый рынок, куда съезжаются торговцы и ремесленники не только из Сиродила, но и из соседних регионов, таких как Чернотопье, Эльсвейр и даже Морровинд. Расположенный в самом аббатстве Зенитара, базар уставлен лавками, где выставлены инструменты, украшения, текстиль и редкие зачарованные артефакты - все они благословлены жрецами аббатства, чтобы принести процветание. Обмен уникальными изделиями и обычаями разных культур создает оживленную, шумную атмосферу, где каждый торговец воплощает в себе добродетели Зенитара - честный труд и справедливую торговлю."
  building_abbey_bazaar_of_zenithar_01:0 "$building_type_abbey_bazaar_of_zenithar_01$"
  building_abbey_bazaar_of_zenithar_01_desc:0 "$building_type_abbey_bazaar_of_zenithar_01_desc$"
 
@@ -528,9 +528,9 @@
  building_type_soulrest_port_02: "$building_type_soulrest_port_01$"
  building_type_soulrest_port_02_desc: "$building_type_soulrest_port_01_desc$"
  building_soulrest_port_02: "$building_type_soulrest_port_01$ (Разорённый)"
- building_soulrest_port_02_desc: "Since the Knahaten Flu swept over the Emporium as a wave of death, the waters of the lagoon have been mostly still. Only few ships make their way from the Emporium to Elsweyr or the Heartlands these days. The Ayleid masonry is still standing, but its walls are slowly claimed by foliage just like the occasional ayleid ruins in the nearby wilderness."
+ building_soulrest_port_02_desc: "С тех пор как кнахатенский грипп пронесся над Эмпорионом волной смерти, воды лагуны почти не шевелились. Лишь немногие корабли добираются из Эмпориона в Эльсвейр или Хартленд. Айлейдская кладка еще стоит, но ее стены постепенно зарастают листвой, как и редкие айлейдские руины в ближайшей пустыне."
  building_soulrest_port_03: "$building_type_soulrest_port_01$ (Восстановленный)"
- building_soulrest_port_03_desc: "Once again the Emporium has become a bustling hub of trade and commerce. The walls have all been cleaned & polished and the cothons are filled with ships from all corners of Tamriel. The Emporium is a beacon of prosperity and wealth in the Black Marsh, and the people of Soulrest are proud of their port."
+ building_soulrest_port_03_desc: "Эмпорион снова превратился в шумный центр торговли и коммерции. Стены были вычищены и отполированы, а в бухту заходят корабли со всех уголков Тамриэля. Эмпорион - это маяк процветания и богатства в Чернотопье, и жители Соулреста гордятся своим портом."
 
  # Thorn Palace
  building_type_thorn_palace_01:0 "Дворец Торна"
@@ -572,13 +572,13 @@
  building_type_cathedral_of_the_golden_path_01:0 "Собор Золотого Пути"
  building_type_cathedral_of_the_golden_path_01_desc:0 "В конце #LORE [Concept('compendium_first_era', 'Первой эры')|E]#!, когда Валенвуд находился под властью Второй империи, Саутпойнт был важнейшим имперским колониальным городом на землях, называвшихся королевством Гратвуд. Местный собор был построен губернатором Зантонием, коловианцем из Кватча."
  building_cathedral_of_the_golden_path_01:0 "$building_type_cathedral_of_the_golden_path_01$ (Разросшийся)"
- building_cathedral_of_the_golden_path_01_desc:0 "$building_type_cathedral_of_the_golden_path_01_desc$\n\nThe Valenwood has now claimed this place. Trees grow through the shattered roof, their roots intertwining with the remnants of the structure, while ivy cloaks the once-pristine marble walls in vibrant green. Local Bosmer gather here to pray to their own gods."
+ building_cathedral_of_the_golden_path_01_desc:0 "$building_type_cathedral_of_the_golden_path_01_desc$\n\nТеперь на это место претендует Валенвуд. Деревья прорастают сквозь разрушенную крышу, их корни переплетаются с остатками строения, а плющ покрывает некогда первозданные мраморные стены ярким зеленым цветом. Местные босмеры собираются здесь, чтобы помолиться своим богам."
  building_cathedral_of_the_golden_path_02:0 "$building_type_cathedral_of_the_golden_path_01$"
- building_cathedral_of_the_golden_path_02_desc:0 "$building_type_cathedral_of_the_golden_path_01_desc$\n\nThe cathedral stands not only as a beacon of faith but also as a testament to Colovian defensive architecture. Constructed in a foreign land, its imposing design and fortified structure ensure that it can withstand the trials of a potential armed conflict."
+ building_cathedral_of_the_golden_path_02_desc:0 "$building_type_cathedral_of_the_golden_path_01_desc$\n\nСобор стоит не только как маяк веры, но и как свидетельство оборонительной архитектуры Коловии. Построенный на чужбине, его внушительный дизайн и укрепленная структура гарантируют, что он сможет выдержать испытания потенциального вооруженного конфликта."
 
  # Gil-Var-Delle Ruins
- building_type_gil_var_delle_ruins_01:0 "Gil-Var-Delle Ruins"
- building_type_gil_var_delle_ruins_01_desc:0 "Once a thriving settlement on the coast of Valenwood, Gil-Var-Delle met a tragic fate after a Bard from the town incurred the wrath of the mad King of Senchal, Dro'Zel. This Khajiiti king did nothing less than summoning Molag Bal himself to deliver his wrath upon the whole place. The Prince of Domination turned Gil-Var-Delle into a realm of unspeakable suffering. It is said, that this lead to the later establishment of the Coldharbour Compact to prevent such atrocities from recurring.\n\nHowever, this offers little solace to the Bosmer who once inhabited this now cursed place, as Gil-Var-Delle remains tainted by Daedric influence and haunted by horrific memories."
+ building_type_gil_var_delle_ruins_01:0 "Руины Гил-Вар-Делля"
+ building_type_gil_var_delle_ruins_01_desc:0 "Некогда процветающее поселение на побережье Валенвуда, Гил-Вар-Делль постигла трагическая судьба после того, как один бард из города навлёк на себя гнев безумного короля Сенчала Дро'Зела. Этот каджитский король сделал не что иное, как призвал самого Молага Бала, чтобы тот обрушил свой гнев на все это место. Князь порабощения превратил Гил-Вар-Делль в место невыразимых страданий. Говорят, что впоследствии это привело к заключения Соглашения Хладной Гавани, чтобы предотвратить повторение подобных злодеяний.\n\nОднако это мало утешает босмеров, некогда населявших это проклятое место, поскольку Гил-Вар-Делль по-прежнему осквернен даэдрическим влиянием и окутан ужасными воспоминаниями."
  building_gil_var_delle_ruins_01:0 "$building_type_gil_var_delle_ruins_01$"
  building_gil_var_delle_ruins_01_desc:0 "$building_type_gil_var_delle_ruins_01_desc$"
 
@@ -586,7 +586,7 @@
  building_type_treehenge_resting_place_01:0 "Упокоище Лесного хенджа"
  building_type_treehenge_resting_place_01_desc:0 "Это священное место служит последним пристанищем для духов Зелёных леди, охранявших Валенвуд с #LORE [Concept('compendium_merethic_era', 'Меретической эры')|E]#!. Оно выходит за рамки простого захоронения, ибо души этих вековых защитниц продолжают обитать в земле и деревьях."
  building_treehenge_resting_place_01:0 "$building_type_treehenge_resting_place_01$ (Осквернённое)"
- building_treehenge_resting_place_01_desc:0 "$building_type_treehenge_resting_place_01_desc$\n\nThese souls have now fallen prey to dark forces, twisted into agents of vengeance and hatred. Used to fuel undead servants, they are able to imbue them with terrifying strength."
+ building_treehenge_resting_place_01_desc:0 "$building_type_treehenge_resting_place_01_desc$\n\nТеперь эти души стали жертвой темных сил, превратившись в воплощения мести и ненависти. Используемые для подпитки слуг нежити, они способны наделить их ужасающей силой."
  building_treehenge_resting_place_02:0 "$building_type_treehenge_resting_place_01$"
  building_treehenge_resting_place_02_desc:0 "$building_type_treehenge_resting_place_01_desc$\n\nДостойный босмер может получить на этом месте благословение, позволяющее ему ощутить грозную бдительность верных хранителей Валенвуда и впитать в себя частицу их силы."
 
@@ -618,11 +618,11 @@
  building_type_heart_of_valenwood_01:0 "Сердце Валенвуда"
  building_type_heart_of_valenwood_01_desc:0 "Сердце Валенвуда, как и многие другие аспекты этой земли, существует в виде проявленной метафоры - бесплотного дерева, символизирующего саму суть леса. История его происхождения до сих пор не раскрыта, но, несмотря на это, нет никаких сомнений в том, что в этом дереве заключена огромная сила. Его листья наполнены живительной силой, и все, кто находится рядом с ним, чувствуют, как по их венам течет жизненная сила леса."
  building_heart_of_valenwood_01:0 "$building_type_heart_of_valenwood_01$ (Осквернённое)"
- building_heart_of_valenwood_01_desc:0 "$building_type_heart_of_valenwood_01_desc$\n\nThis power has now been twisted beyond recognition. Tainted by dark magic, the tree itself has become an anchor of corruption, casting a dark shadow over all of Valenwood. No longer nurturing the living, it instead fills the dead with its essence."
+ building_heart_of_valenwood_01_desc:0 "$building_type_heart_of_valenwood_01_desc$\n\nТеперь эта сила искажена до неузнаваемости. Запятнанное темной магией, дерево само стало якорем порчи, отбрасывая темную тень на весь Валенвуд. Больше не питая живых, оно наполняет своей сущностью мёртвых."
  building_heart_of_valenwood_02:0 "$building_type_heart_of_valenwood_01$ (Запечатанное)"
  building_heart_of_valenwood_02_desc:0 "$building_type_heart_of_valenwood_01_desc$\n\nЭта сила оказалась настолько огромной, что было предпринято множество попыток исказить её или использовать не по назначению. В конце концов, Сердце Валенвуда было закрыто за магическим барьером. Это позволило предотвратить дальнейший вред, но в то же время значительно уменьшило влияние дерева на окружающую среду."
- building_heart_of_valenwood_03:0 "$building_type_heart_of_valenwood_01$ (Unconfined)"
- building_heart_of_valenwood_03_desc:0 "$building_type_heart_of_valenwood_01_desc$\n\nFreed from any warding seals, the power of the Heart now flows with immense strength throughout the land. While it grants life and growth to everything it touches, such force does not come without consequences for the mind."
+ building_heart_of_valenwood_03:0 "$building_type_heart_of_valenwood_01$ (Высвобождённое)"
+ building_heart_of_valenwood_03_desc:0 "$building_type_heart_of_valenwood_01_desc$\n\nОсвобождённая от защитных печатей, сила Сердца теперь с огромной силой струится по всей земле. Хотя она дарит жизнь и рост всему, к чему прикасается, такая сила не обходится без последствий для разума."
 
  # Tower of the Wilderkings Throne
  building_type_wilderkings_throne_01:0 "Башня трона Лесного короля"
@@ -640,30 +640,30 @@
  building_type_bone_orchard_01:0 "Курганное дерево"
  building_type_bone_orchard_01_desc:0 "Курганное дерево — почитаемое дерево, растущее в самом сердце Костяного сада, кладбища, где, как полагают, покоятся останки эльнофей - древних существ, которые пожертвовали собой, чтобы изменить законы природы и дать жизнь смертным расам. В некоторых легендах даже утверждается, что сам И'ффре покоится здесь, укрывшись под колоссальными корнями Курганного дерева."
  building_bone_orchard_01:0 "$building_type_bone_orchard_01$ (Осквернённое)"
- building_bone_orchard_01_desc:0 "$building_type_bone_orchard_01_desc$\n\nDrawn in by these rumors, necromancers have now defiled this sacred place. They are unearthing the bones in their search for power and in the hopes of resurrecting ancient beings of strange and terrible nature. It is unclear if they will achieve their goals or only anger the forest itself with those deeds."
+ building_bone_orchard_01_desc:0 "$building_type_bone_orchard_01_desc$\n\nПривлечённые этими слухами, некроманты теперь оскверняют это священное место. Они раскапывают кости в поисках силы и в надежде воскресить древних существ странной и ужасной природы. Неизвестно, достигнут ли они своих целей или только разгневают этим лес."
  building_bone_orchard_02:0 "$building_type_bone_orchard_01$"
  building_bone_orchard_02_desc:0 "$building_type_bone_orchard_01_desc$ Правда это или нет, но дерево излучает таинственную силу, защищая тех, кто почитает его, от опасностей, таящихся в самой земле.\n\nПоэтому до сих пор считается большой честью похоронить в его тени тщательно обглоданные кости своих предков."
 
  # Remans Bluff
- building_type_fort_of_reman_bluff_01:0 "The Bluff"
- building_type_fort_of_reman_bluff_01_desc:0 "The Bluff is an old fort, built during the time of the Second Empire. From here, Imperial Legion guarded the Tarlain Heights and ensured that the local Bosmer did not rebel against the authority of the Reman Dynasty. Located on the outskirts of the Empire, the fort fell quickly into neglect and its small garrison increasingly struggled to carry out their task. Its downfall did not come from the swift Bosmer but from the Wood Orcs, who captured the fort after a brief siege towards the end of the First Era.\n\nNow ruined and overgrown, the fort is but a shadow. Nevertheless, its ruins still offer a defensive advantage and the decaying buildings are a source of valuable stone. Nearby tin mine is often a source of complaints from local blacksmiths due to the poor quality of the ore it produces. However in the wild forests of Valenwood, any metal is worth its weight in gold."
+ building_type_fort_of_reman_bluff_01:0 "Утёс"
+ building_type_fort_of_reman_bluff_01_desc:0 "Утёс - это старый форт, построенный во времена Второй империи. Отсюда Имперский легион охранял Тарлейнские холмы и следил за тем, чтобы местные босмеры не восставали против власти династии Ремана. Расположенный на окраине Империи, форт быстро пришел в запустение, а его немногочисленный гарнизон все чаще сталкивался с трудностями при выполнении своих задач. Его падение возвестили не стремительные босмеры, а лесные орки, которые захватили форт после непродолжительной осады в конце Первой эры.\n\nТеперь от разрушенного и заросшего форта осталась лишь тень. Тем не менее, его руины все еще дают преимущество в обороне, а разрушающиеся здания служат источником ценного камня. Близлежащая оловянная шахта часто вызывает нарекания у местных кузнецов из-за низкого качества добываемой руды. Однако в диких лесах Валенвуда любой металл на вес золота."
  building_fort_of_reman_bluff_01:0 "$building_type_fort_of_reman_bluff_01$"
  building_fort_of_reman_bluff_01_desc:0 "$building_type_fort_of_reman_bluff_01_desc$"
- building_type_fort_of_reman_bluff_02:0 "Stronghold of Barkbite"
- building_type_fort_of_reman_bluff_02_desc:0 "Built on the ruins of an old fort, Barkbite Stronghold represents the strength of the local Wood Orc tribes. The fortress blends clever Imperial engineering with Orcish ferocity, making it a formidable challenge for any enemy even considering a siege. It is known for its light-armored warriors, who are as swift in the forest as the Bosmer but fight like true Orsimer.\n\nThey hold daily combat contests in the local arena, keeping themselves always ready for battle. The tin mine has been significantly expanded, providing the stronghold with its primary source of sustenance."
+ building_type_fort_of_reman_bluff_02:0 "Крепость Корогрызов"
+ building_type_fort_of_reman_bluff_02_desc:0 "Построенная на руинах старого форта, крепость Корогрызов олицетворяет силу местных племен лесных орков. Крепость сочетает в себе продуманную имперскую инженерию и свирепость орков, что делает ее грозным испытанием для любого врага, лишь помышляющего об осаде. Крепость славится своими легкобронированными воинами, которые так же быстры в лесу, как босмеры, но сражаются как истинные орсимеры.\n\nОни ежедневно устраивают состязания на местной арене, поддерживая себя в постоянной готовности к бою. Оловянная шахта была значительно расширена, обеспечивая крепость основным источником пропитания."
  building_fort_of_reman_bluff_02:0 "$building_type_fort_of_reman_bluff_02$"
  building_fort_of_reman_bluff_02_desc:0 "$building_type_fort_of_reman_bluff_02_desc$"
 
  # Rootwater Grove
- building_type_rootwater_grove_01:0 "Rootwater Grove"
- building_type_rootwater_grove_01_desc:0 "This mystical grove is veiled by magical wards, rendering it invisible to all but the chosen few invited within. It hides a secret library, vigilantly guarded by the cult of the Wooded Eye, followers of Hermaeus Mora, the god of wisdom and forbidden knowledge.\n\nWithin these halls, scholars from every mortal race and even Daedra gather, united in their insatiable quest for enlightenment. They engage in profound and cryptic debates, delving into both the known and the unimaginable, in a relentless pursuit of the Aurbis' deepest secrets."
+ building_type_rootwater_grove_01:0 "Корневодная роща"
+ building_type_rootwater_grove_01_desc:0 "Эта мистическая роща окутана магическими чарами, делающими ее невидимой для всех, кроме избранных. Здесь скрывается тайная библиотека, которую бдительно охраняет культ Лесного Ока, последователи Хермеуса Моры, бога мудрости и запретных знаний.\n\nВ этих залах собираются ученые всех смертных рас и даже даэдра, объединенные ненасытным стремлением к просвещению. Они ведут глубокие и загадочные споры, углубляясь в известное и невообразимое, в неустанной погоне за глубочайшими тайнами Аурбиса."
  building_rootwater_grove_01:0 "$building_type_rootwater_grove_01$"
  building_rootwater_grove_01_desc:0 "$building_type_rootwater_grove_01_desc$"
 
  # Woodheart Sewers
- building_type_woodheart_sewers_01:0 "Woodheart Sewers"
+ building_type_woodheart_sewers_01:0 "Канализация Вудхарта"
  building_type_woodheart_sewers_01_desc:0 "The Woodhearth Sewers are a sprawling, labyrinthine remnant of the city’s Imperial origins. Constructed during the late #LORE [compendium_first_era]#! by the Second Empire, the sewers were originally a marvel of advanced engineering, designed to efficiently manage waste and stormwater for the fortified trading post. During a period of growing Bosmer hostility against the settlement, they were repurposed as a strategic refuge where Imperial forces could retreat, regroup, and safeguard vital resources during times of conflict."
- building_woodheart_sewers_01:0 "$building_type_woodheart_sewers_01$ (Smuggle Hideout)"
+ building_woodheart_sewers_01:0 "$building_type_woodheart_sewers_01$ (Убежище контрабандистов)"
  building_woodheart_sewers_01_desc:0 "$building_type_woodheart_sewers_01_desc$\n\nThe sewers have now be turned into a clandestine network for smugglers, thieves, and others who wish to avoid the city's watchful eyes. These tunnels, with their shadowy alcoves and echoing chambers, have become a haven for illegal trade, particularly skooma smuggling and other contraband operations."
  building_woodheart_sewers_02:0 "$building_type_woodheart_sewers_01$"
  building_woodheart_sewers_02_desc:0 "$building_type_woodheart_sewers_01_desc$\n\nWith the growing trade between Summerset and Valenwood, and a general increase in Aldmer influence in the region, the sewers now primarily serve as secure storage for supplies and wares. Hidden chambers house stockpiles of military provisions, trade goods, and other strategic resources, ensuring the city remains a key hub of activity and influence in the region."

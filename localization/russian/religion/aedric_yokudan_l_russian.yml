@@ -5,7 +5,7 @@
  yokudan_religion_adj:0 "Духи Йокуды"
  yokudan_religion_adherent:0 "Йокуданец"
  yokudan_religion_adherent_plural:0 "Йокуданцы"
- yokudan_religion_desc:1 "Yokudan beliefs focus on the worship of spirits who escaped the Hunger of Satakal. While some faiths accept and revere the role of the World Serpent in the natural order, some fully reject it in hopes of escaping their doom."
+ yokudan_religion_desc:1 "Йокуданские верования сосредоточены на поклонении духам, избежавшим голода Сатакала. В то время как некоторые верования принимают и почитают роль Мирового Змея в природном порядке, некоторые полностью отвергают его в надежде избежать своей гибели."
  yokudan_high_god_name:0 "$god_ruptga_name$"
  yokudan_high_god_name_2:0 "$yokudan_high_god_name$" # Optional translation alt
  yokudan_high_god_name_3:0 "$yokudan_high_god_name$" # Optional translation alt
@@ -22,20 +22,20 @@
  yokudan_religious_text:0 "древние истории"
  yokudan_religious_head_title:0 "Верховный оракул"
  yokudan_religious_head_title_name:0 "Традиции Йоку"
- yokudan_devotee:0 "acolyte"
- yokudan_devotee_plural:0 "acolytes"
- yokudan_priest_male:0 "priest"
- yokudan_priest_male_plural:0 "priests"
+ yokudan_devotee:0 "служитель"
+ yokudan_devotee_plural:0 "служители"
+ yokudan_priest_male:0 "жрец"
+ yokudan_priest_male_plural:0 "жрецы"
  yokudan_priest_alternate:0 "старейшина"
  yokudan_priest_alternate_plural:0 "старейшины"
  yokudan_priest_female:0 "жрица"
  yokudan_priest_female_plural:0 "жрицы"
- yokudan_bishop_male:0 "patriarch"
- yokudan_bishop_male_plural:0 "patriarchs"
- yokudan_bishop_female:0 "matriarch"
- yokudan_bishop_female_plural:0 "matriarchs"
- yokudan_bishop_neuter:0 "parensiarch"
- yokudan_bishop_neuter_plural:0 "parensiarchs"
+ yokudan_bishop_male:0 "патриарх"
+ yokudan_bishop_male_plural:0 "патриархи"
+ yokudan_bishop_female:0 "матриарх"
+ yokudan_bishop_female_plural:0 "матриархи"
+ yokudan_bishop_neuter:0 "паренсиарх"
+ yokudan_bishop_neuter_plural:0 "паренсиархи"
  yokudan_positive_afterlife:0 "$yokudanpositive_afterlife$"
  yokudan_positive_afterlife_2:1 "" # Optional translation alt
  yokudan_positive_afterlife_3:1 "" # Optional translation alt
@@ -83,14 +83,14 @@
  yokudan_evil_god_malooc:0 "$god_malooc_name$"
  yokudan_evil_god_daedric_princes:0 "$god_daedric_princes_name$"
  yokudan_evil_god_ansu_gurleht: "$god_ansu_gurleht_name$"
- 
+
  #Satakal
- 
-  satakal:0 "Yoku Spirits"
-  satakal_adj:0 "Yoku Spirits"
-  satakal_adherent:0 "Yokudan"
-  satakal_adherent_plural:0 "Yokudans"
-  satakal_desc:1 "The Yokudan faith is defined by the doings of Satakal, the First Serpent who eats itself and sheds its skin continually, a process by which the world itself is ended and a born anew. Alongside him are found the Gods - powerful spirits who mastered the process of the Walkabout, through which they are able to persist between these cycles, escaping Satakal's Hunger and maintaining their form.\n\nIn contrast to the Ruptga-oriented faith of the Redguards of Hammerfell, the ones who remained in the shattered continent as the warriors left their shores, still stubbornly cling to the Snake Who Came Before."
+
+ satakal:0 "Йокуданск"
+ satakal_adj:0 "Йокуданские духи"
+ satakal_adherent:0 "Йокуданец"
+ satakal_adherent_plural:0 "Йокуданцы"
+ satakal_desc:1 "Йокуданские верования определяются деяниями Сатакала, Первого Змея, который постоянно пожирает сам себя и сбрасывает кожу - процесс, в результате которого мир гибнет и перерождается вновь. Наряду с ним существуют боги - могущественные духи, овладевшие Обходом, благодаря которому они способны выживать между этими циклами, избегая голода Сатакала и сохраняя свою форму.\n\nВ отличие от ориентированной на Руптгу веры редгардов Хаммерфелла, те, кто остался на разрушенном континенте, когда воины покинули их берега, все еще упрямо цепляются за Змея, явившегося Прежде."
  satakal_high_god_name:0 "$god_satakal_name$"
  satakal_high_god_name_alternate:0 "$god_satakal_name$"
  satakal_high_god_name_possessive:0 "$god_satakal_name_possessive$"
@@ -102,7 +102,7 @@
  tall_papa_adj:0 "Руптга"
  tall_papa_adherent:0 "Последователь Руптги"
  tall_papa_adherent_plural:0 "Последователи Руптги"
- tall_papa_desc:1 "Redguard religion views their gods as heroes to imitate in order to reach the Far Shores and escape Satakal's eternal hunger. Chief among these gods is Ruptga, the Tall Papa, who invented the Walkabout - a process by which the gods can persist beyond one lifetime by "sidestepping" the cycle of destruction. While the true Walkabout is of little import to mortals, the gods are said to manifest through the greatest of Redguard heroes in history who best emulate them.\n\nOver thousands of years in Tamriel, these Redguards have come to accept certain foreign gods, among these Arkay, Kynareth, and Zenithar, who both seemed familiar and proved their usefulness. Most others are however seen as "tobr'a" - useless - and therefore disregarded."
+ tall_papa_desc:1 "Религия редгардов рассматривает своих богов как героев, которым нужно подражать, чтобы достичь Далёких берегов и спастись от вечного голода Сатакала. Главным среди этих богов является Руптга, Высокий Папа, который создал Обход - процесс, с помощью которого боги могут существовать дольше одной жизни, «обходя» цикл разрушения. Хотя для смертных истинный Обход не имеет особого значения, считается, что боги проявляются через величайших героев истории редгардов, которые лучше всего им подражают.\n\nЗа тысячи лет жизни в Тамриэле редгарды приняли некоторых чужеземных богов, среди которых Аркей, Кинарет и Зенитар, показавшиеся им знакомыми и доказавшие свою полезность. Большинство других, однако, считаются «тобр'а» - бесполезными - и потому игнорируются."
  tall_papa_high_god_name_alternate:0 "$god_tallpapa_name$"
  tall_papa_high_god_name_alternate_possessive:0 "$god_satakal_name_possessive$" 
  
@@ -163,10 +163,10 @@
  herd_mother_good_god_great_mare:0 "$great_mare_god_name$"
  herd_mother_positive_afterlife:0 "$grass_fields_afterlife$"
  herd_mother_negative_afterlife:0 "$salt_fields_afterlife$"
- 
+
  # Alikr
-  alikr_faith:0 "Satakal"
-  alikr_faith_adj:0 "Satakal"
-  alikr_faith_adherent:0 "Satakal"
-  alikr_faith_adherent_plural:0 "Satakals"
-  alikr_faith_desc:1 "The Alik’r nomads of inner Hammerfell have rejected the polytheist pantheon of their kin in favour of Satakal uniquely, as an all-compassing entity of creation and entropy. To outsiders their beliefs and practices seem strange and devilish, obscured behind a veil of mysticism and serpent imagery.\n\nTo them, the great truth is that where the Gods go mortal life cannot, and it must invariably end as the cycle requires. Appeasement of the World-Serpent is paramount in delaying this inevitable doom."
+ alikr_faith:0 "Сатакалск"
+ alikr_faith_adj:0 "Сатакализм"
+ alikr_faith_adherent:0 "Сатакалит"
+ alikr_faith_adherent_plural:0 "Сатакалиты"
+ alikr_faith_desc:1 "Кочевники пустыни Алик'р из внутренних районов Хаммерфелла отвергли политеистический пантеон своих сородичей в пользу единого Сатакала, как всеобъемлющей сущности творения и энтропии. Чужакам их верования и практики кажутся странными и дьявольскими, скрытыми за пеленой мистицизма и змеиных образов.\n\nДля них же великая истина заключается в том, что там, куда уходят боги, смертная жизнь существовать не может, и она неизменно должна закончиться, как того требует цикл. Умиротворение Мирового Змея имеет первостепенное значение для отсрочки этой неизбежной гибели."
