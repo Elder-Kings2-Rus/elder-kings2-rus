@@ -45,6 +45,7 @@
  ##################
  ### Hammerfell ###
  ##################
+ cn_volen_ij_adj: "Волен-иджск"
  cn_hrammafel_adj:0 "Храммафелск"
  cn_jephre_path_adj:0 "Джефрск"
  cn_mitana_mkai_adj:0 "Митана-м'кайск"
@@ -132,13 +133,17 @@
  #Cyrodiilic
  cn_pelda_tharn_adj:0 "Пельда-тарнск"
  cn_south_weald_adj:0 "Южно-вельдск"
+ cn_southpoint_adj:0 "Саутпойнтск"
  #Khajiit
- #Galen
+ #Nedes
  cn_galenwood_adj:0 "Галенвудск"
+ cn_camoria_adj: "Каморийск"
  #Altmer
  cn_seaside_adj:0 "Приморск"
  cn_ada_mor_adj:0 "Ада-морск"
  cn_xarxen_mora_adj:0 "Зарксен-морск"
+ cn_arenth_arla_adj: "Арент-арлск"
+ cn_arata_ceyglynn_adj: "Арата-кейглиннск"
 
  ###############
  ### Elsweyr ###
@@ -148,11 +153,9 @@
  cn_athay_adj:0 "Атхайск"
  cn_hai_thaar_adj:0 "Хай'таарск"
  cn_bruk_ra_adj:0 "Брук'райск"
- cn_verkaht_adj:0 "Веркатск"
  cn_millin_adj:0 "Миллинск"
  cn_habesha_adj:0 "Хабешск"
  cn_palaran_adj:0 "Паларанск"
- cn_dustmoth_adj:1 "Пыле-мотылекск"
  cn_rawla_kei_adj:0 "Равла-кейск"
  cn_dunei_adj:0 "Дюнейск"
  cn_rimkha_adj:0 "Рим'кхск"
@@ -164,13 +167,18 @@
  cn_ne_quinal_adj:0 "Не-квин-алск"
  cn_khenarthia_adj:0 "Кенартийск"
  cn_arana_iit_adj:0 "Арана-иитск"
+ cn_neviir_adj: "Невирск"
+ cn_varkath_adj: "Вар-катск"
+ cn_khazgo_adj: "Хазгонск"
+ cn_khazmor_adj: "Хазморск"
+ cn_mirazal_adj: "Миразальск"
  #Cyrodiilic
  cn_rim_adj:0 "Римменск"
  cn_senchel_adj:0 "Сенчелск"
  cn_corinth_adj:0 "Коринфск"
  cn_acacia_adj:0 "Акацийск"
- cn_rimmenese_adj:0 "Римменийск"
  cn_arrakis_adj:0 "Арракийск"
+ cn_dustmoth_adj:1 "Пыле-мотылекск"
  #Nord
  cn_elsewhere_adj:0 "Где-то-тамск"
  cn_high_savannah_adj:0 "Высоко-саваннск"
@@ -206,15 +214,19 @@
  ###################
  ### Black Marsh ###
  ###################
+ #Orma
  cn_orma_la_adj: "Ормаласк"
  cn_orma_ka_adj: "Ормакайск"
  cn_orma_ko_adj: "Ормакойск"
  cn_orma_ke_adj: "Ормакейск"
+ #Argonian
  cn_hutan_tzel_adj: "Утан-зелск"
  cn_raj_satl_adj: "Радж-сатльск"
  cn_raj_onkobra_adj: "Радж-онкобрск"
  cn_krona_konu_adj: "Крона-конуйск"
  cn_krona_konu_xanmeer_adj: "Крона-Конуйск"
+ cn_kronka_thatith_adj:0 "Кронка-татитск"
+ #Ayleid/Yespest
  cn_tormora_xanmeer_adj:0 "Тормора-занмирск"
  cn_relleis_lor_adj:0 "Реллис-лорск"
  cn_loriasel_adj:0 "Лориасельск"
@@ -232,11 +244,14 @@
  cn_nevarsel_adj:0 "Неварселск"
  cn_twyllbek_adj:0 "Твиллбекск"
  cn_agea_relle_adj:0 "Агеа-реллск"
- cn_kronka_thatith_adj:0 "Кронка-татитск"
+ cn_argonia:0 "Аргонийск"
+ #Galen
  cn_blackmarch_adj:0 "Чернотопьск"
+ #Goblin
  cn_agrunuh_adj:0 "Агрунуйск"
+ #Dunmer/Chimer
  cn_tenmorvuk_adj:0 "Тенморвукск"
- cn_argonia_adj:0 "Аргонийск"
+ #Yespest
  cn_irmolana_adj:0 "Ирмоланск"
  cn_khintikhri_adj:0 "Кинтихрийск"
  cn_sakhevak_adj:0 "Сахевакск"
@@ -271,6 +286,9 @@
  cn_irtunu_adj:0 "Иртунуйск"
  cn_hatriata_adj:0 "Хатриатайск"
  cn_lorianen_adj:0 "Лорианенск"
+ #Lilmothiit
  cn_lilmoth_adj:0 "Лилмотск"
  cn_lilmoth_side_adj:0 "Край-лилмотск"
  cn_castle_lilmoth_adj:0 "Край-лилмотск"
+ #Kothringi
+ cn_koth_adj:0 "Котрск"
