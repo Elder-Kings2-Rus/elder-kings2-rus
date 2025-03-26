@@ -12,6 +12,7 @@
  d_padomaic_temple_adj:0 "Падомайск"
  d_beldama_wyrd_adj:0 "Белдамск"
  d_blackcaster_adj:0 "Чёрно-заклинательск"
+ d_oracles_ruptga_adj: "Оракульск"
  # History Titles
  AKAVIRI_POTENTATE_adj:0 "Акавирск"
  CYRODIILIC_POTENTATE_adj:0 "Сиродильск"
@@ -72,6 +73,7 @@
  k_veloth_adj:0 "Велотск"
  #kingdom_Great_House_Dunmer_adj:0 "Great House" -unnecessary
  ## Black Marsh
+ e_barsaebica_adj: "Барсебическ"
  ##Cyrodiil
  k_abbey_eight_adj:0 "Аббатск"
  d_abbey_shezarr_adj:0 "Аббатск"
