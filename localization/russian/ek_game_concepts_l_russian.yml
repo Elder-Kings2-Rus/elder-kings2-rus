@@ -316,7 +316,7 @@
  game_concept_daedric_curse_desc:0 "Даэдрические проклятия накладываются на смертных, которые каким-либо образом оскорбили #LORE [Concept('compendium_daedric_princes', 'князей даэдра')|E]#!. Чтобы избавиться от них, нужно отправиться в [Concept('pilgrimage', 'паломничество')|E], совершить [Concept('hist_communion', 'общение с хистом')|E] или найти кого-то, кто может наложить заклинание снятия проклятия."
  
  game_concept_curse:0 "Проклятие"
- game_concept_adult_education:0 "Посещение университета"
+ game_concept_adult_education:0 "Визит в университет"
  game_concept_adult_education_desc:2 "Персонажи могут [Concept('activity', 'посетить')|E] любой подходящий университет или академию. В каждом месте можно побывать только один раз в жизни.\n\nТакая попытка может оказаться весьма стрессовой, но при этом может повысить [education_trait|El] и навыки."
 
  game_concept_magical_education_trait: "Свойство магического образования"
