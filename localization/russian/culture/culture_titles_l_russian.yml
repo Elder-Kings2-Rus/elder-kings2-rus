@@ -349,6 +349,7 @@
  prince_independent: "Принц"
  princess_independent: "Принцесса"
 
+ empress_mother: "Королева-мать"
  empress_mother_tamriel: "Императрица-мать"
  
  ### Landless Adventurer Camps 
@@ -1154,9 +1155,9 @@
  duke_order_auriel_female: "Рыцарь-паладин"
 
  #Misc
- king_theocracy_male_tribunal_faith: "Архиканоник"
- king_theocracy_female_tribunal_faith: "Архиканоник"
- kingdom_theocracy_tribunal_faith: "Архиканонат"
+ king_theocracy_male_tribunal_faith_archcanon: "Архиканоник"
+ king_theocracy_female_tribunal_faith_archcanon: "Архиканоник"
+ kingdom_theocracy_tribunal_faith_archcanon: "Архиканонат"
 
  weynon_prior_male: "Приор"
  weynon_prior_female: "Приоресса"

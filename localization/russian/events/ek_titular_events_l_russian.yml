@@ -37,19 +37,19 @@
  ektitulartitle.1302.c:0 "Новый болотный ханат поднимает голову..."
  
  #Barsaebica
-  ektitulartitle.1401.t: "[barsaebica.GetNameNoTierNoTooltip] Solidifies"
-  ektitulartitle.1401.desc: "A power of eld forms amidst the fens and darkness of Black Marsh, emerging from millennia of struggle and strife.  Order has been brought to this once bleak demesne, this land of numerous divisions. Once more, this region recognizes Barsaebic rule!\n\nFrom Silyanorn to Solhrest, the land has been unified into the new [barsaebica.GetName] under the enlightened reign of [ROOT.Char.GetTitledFirstName]."
-  ektitulartitle.1401.a: "Finally, our people are secure."
+ ektitulartitle.1401.t: "[barsaebica.GetNameNoTierNoTooltip] укрепляет свои позиции"
+ ektitulartitle.1401.desc: "Древняя сила формируется среди топей и мрака Чернотопья, рождаясь из веков борьбы и лишений. Порядок пришёл в эти некогда мрачные земли, раздираемые распрями. Теперь этот регион вновь признаёт власть Барсебики!\n\nВсе земли от Сильянорна до Соулреста объединены в новую державу, что известна как [barsaebica.GetName], под просвещённым правлением монарха по имени [ROOT.Char.GetTitledFirstName]."
+ ektitulartitle.1401.a: "Наконец-то наш народ в безопасности."
  
-  ektitulartitle.1402.t: "[barsaebica.GetNameNoTierNoTooltip] Emerges"
-  ektitulartitle.1402.desc: "Early in the #LORE [compendium_first_era]#!, over three millennia ago, the Barsaebic Ayleids first fled to Black Marsh following the #LORE [compendium_narfinsel_schism]#!. Since then they have endured in this inhospitable land.\n\nThere have been many Barsaebic rulers in these lands before, but never have they formed an interconnected realm throughout the fens. Now marks the emergence of the [barsaebica.GetName] under the rule of [founder.GetName], the tamer of large swathes of a land that many have considered untameable."
-  ektitulartitle.1402.a: "A Crown forged in endurance..."
+ ektitulartitle.1402.t: "[barsaebica.GetNameNoTierNoTooltip] восстаёт"
+ ektitulartitle.1402.desc: "Ещё в начале #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#!, более трёх тысяч лет назад, айлейды Барсебики бежали в Чернотопье после #LORE [Concept( 'compendium_narfinsel_schism', 'Нарфинсельского раскола' )|E]#!. С тех пор они выживали в этой негостеприимной земле.\n\nЗа долгие века здесь правили многие владыки Барсебики, но никто прежде не сумел объединить под своим знаменем весь этот край. Однако теперь [barsaebica.GetName] восстаёт под властью монарха по имени [founder.GetName], [Select_CString(founder.IsFemale, 'покорительницы', 'покорителя' )] огромных просторов, которые прежде казались многим совершенно непокорными."
+ ektitulartitle.1402.a: "Корона, выкованная в испытаниях..."
  
  #Nedic Confederation
-  ektitulartitle.1501.t: "An Heir of Durac?"
-  ektitulartitle.1501.desc: "Blood, Flame, Forest, Frost, Shadow, Spirit, Storm and Sun, these were the Nedic Kings who paid homage to Durac before the Fall of Skyreach. Much has been lost to time, but now I have secured the Nedic Confederation and Eight Kingdoms once more answer the call of the [founder.GetTitleTierName]. What limits can my revived realm find?"
-  ektitulartitle.1501.a: "Let us reach for the sky."
+ ektitulartitle.1501.t: "Наследник Дорака?"
+ ektitulartitle.1501.desc: "Кровь, Пламя, Лес, Мороз, Тень, Дух, Буря и Солнце — вот восемь недийских королей, принёсших клятву Дораку перед падением Небесного Предела. Многое было утеряно во тьме веков, но теперь я вновь [Select_CString(ROOT.Char.IsFemale, 'собрала', 'собрал' )] Недийскую Конфедерацию, и восемь королевств снова отвечают на мой зов. Какие пределы ждут возрождённое мною царство?"
+ ektitulartitle.1501.a: "Пусть наша держава устремится к небесам."
  
-  ektitulartitle.1502.t: "Reforging of the Nedic Confederation"
-  ektitulartitle.1502.desc: "Not since the #LORE [compendium_ragada]#! incursions and the Fall of Skyreach have the Nedes of Craglorn been able to assert their full sovereignty over the lands of their legendary Eight Nedic Kings. Today [founder.GetTitledFirstName] claims to have asserted they are the true Heir of Durac, having coincidentally secured eight Kingdoms beneath their banner."
-  ektitulartitle.1502.a: "Do we even know which kingdoms swore to Durac?"
+ ektitulartitle.1502.t: "Возрождение Недийской Конфедерации"
+ ektitulartitle.1502.desc: "Со времён вторжений #LORE [compendium_ragada]#! и падения Небесного Предела, недийцы Краглорна всё никак не могли вновь обрести полную независимость и воссоединиться под властью восьми легендарных недийских королей. Сегодня же [founder.GetTitledFirstName] смеет утверждать, что является [Select_CString(founder.IsFemale, 'истинной наследницей', 'истинным наследником' )] Дорака, объединив под своим знамением все восемь королевств."
+ ektitulartitle.1502.a: "Знаем ли мы вообще, какие королевства приносили клятву Дораку?"

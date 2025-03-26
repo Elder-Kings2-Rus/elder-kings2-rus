@@ -23,7 +23,7 @@
  ashlander_history_loc:0 "Появились из #L [CULTURE.GetCollectiveNoun|l]ого#! народа, осудившего Трибунал, ответственный за их проклятие"
  orc_history_loc:0 "Народ, что стал отличен от альдмеров после трансформации Тринимака" # длинное описание, ранее было 'Народ, изменивший свой облик по сравнению с их альдмерскими сородичами после трансформации Тринимака'
  iron_orc_history_loc:0 "Народ, отказавшийся от своего мирного существования после недийской агрессии"
- redguard_history_loc:0 "Происходят от #L [CULTURE.GetCollectiveNoun|l]их#! поселенцев из [Concept( 'compendium_ragada', 'Ра Гада' )|E], что вторглась в Гибельные земли"
+ redguard_history_loc:0 "Происходят от #L [CULTURE.GetCollectiveNoun|l]их#! поселенцев из #LORE [compendium_ragada]#!, что вторглась в Гибельные земли"
  crown_history_loc:0 "Отпрыски высшей знати #LORE [compendium_na_totambu]#! древней #L [CULTURE.GetCollectiveNoun|l]ой#! культуры"
  yokudan_history_loc:0 "Выжившие после затопления древней Йокуды"
  abecean_history_loc:0 "Происходят от мореходов #LORE [compendium_na_totambu]#!, заселивших Абесинское побережье"
