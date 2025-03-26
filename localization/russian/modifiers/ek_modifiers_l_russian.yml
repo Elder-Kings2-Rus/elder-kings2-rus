@@ -97,8 +97,8 @@
  ashlands_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в пепельных землях"
  ashlands_tax_mult:0 "$MOD_TAX_MULT$ в пепельных землях"
  ashlands_levy_size:0 "$MOD_LEVY_SIZE$ в пепельных землях"
- ashlands_provisions_use_mult: "[GetTerrain( 'ashlands' ).GetName] [provisions|E] Use"
- 
+ ashlands_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'ashlands' ).GetName]"
+
  volcanic_attrition_mult:1 "[command_modifier_i|E][attrition|E] в вулканических пепельных землях"
  volcanic_advantage:1 "[command_modifier_i|E][advantage|E] в вулканических пепельных землях"
  volcanic_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в вулканических пепельных землях"
@@ -116,8 +116,8 @@
  volcanic_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в вулканических пепельных землях"
  volcanic_tax_mult:0 "$MOD_TAX_MULT$ в вулканических пепельных землях"
  volcanic_levy_size:0 "$MOD_LEVY_SIZE$ в вулканических пепельных землях"
- volcanic_provisions_use_mult: "[GetTerrain( 'volcanic' ).GetName] [provisions|E] Use"
-  
+ volcanic_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'volcanic' ).GetName]"
+
  desert_hills_attrition_mult:1 "[command_modifier_i|E][attrition|E] в пустынных холмах"
  desert_hills_advantage:1 "[command_modifier_i|E][advantage|E] в пустынных холмах"
  desert_hills_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в пустынных холмах"
@@ -135,8 +135,8 @@
  desert_hills_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в пустынных холмах"
  desert_hills_tax_mult:0 "$MOD_TAX_MULT$ в пустынных холмах"
  desert_hills_levy_size:0 "$MOD_LEVY_SIZE$ в пустынных холмах"
- desert_hills_provisions_use_mult: "[GetTerrain( 'desert_hills' ).GetName] [provisions|E] Use"
- 
+ desert_hills_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'desert_hills' ).GetName]"
+
  mangrove_forest_attrition_mult:1 "[command_modifier_i|E][attrition|E] в мангровых лесах"
  mangrove_forest_advantage:1 "[command_modifier_i|E][advantage|E] в мангровых лесах"
  mangrove_forest_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в мангровых лесах"
@@ -154,7 +154,7 @@
  mangrove_forest_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в мангровых лесах"
  mangrove_forest_tax_mult:0 "$MOD_TAX_MULT$ в мангровых лесах"
  mangrove_forest_levy_size:0 "$MOD_LEVY_SIZE$ в мангровых лесах"
- mangrove_forest_provisions_use_mult: "[GetTerrain( 'mangrove_forest' ).GetName] [provisions|E] Use"
+ mangrove_forest_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'mangrove_forest' ).GetName]"
 
  jungle_hills_attrition_mult:0 "[command_modifier_i|E][attrition|E] в джунглевых холмах"
  jungle_hills_cancel_negative_supply:0 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в джунглевых холмах"
@@ -173,8 +173,8 @@
  jungle_hills_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в джунглевых холмах"
  jungle_hills_tax_mult:0 "$MOD_TAX_MULT$ в джунглевых холмах"
  jungle_hills_levy_size:0 "$MOD_LEVY_SIZE$ в джунглевых холмах"
- jungle_hills_provisions_use_mult: "[GetTerrain( 'jungle_hills' ).GetName] [provisions|E] Use"
- 
+ jungle_hills_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'jungle_hills' ).GetName]"
+
  valenwood_attrition_mult:1 "[command_modifier_i|E][attrition|E] в лесах Валенвуда"
  valenwood_advantage:1 "[command_modifier_i|E][advantage|E] в лесах Валенвуда"
  valenwood_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в лесах Валенвуда"
@@ -192,8 +192,8 @@
  valenwood_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в лесах Валенвуда"
  valenwood_tax_mult:0 "$MOD_TAX_MULT$ в лесах Валенвуда"
  valenwood_levy_size:0 "$MOD_LEVY_SIZE$ в лесах Валенвуда"
- valenwood_provisions_use_mult: "[GetTerrain( 'valenwood' ).GetName] [provisions|E] Use"
- 
+ valenwood_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'valenwood' ).GetName]"
+
 
  valenwood_hills_attrition_mult:1 "[command_modifier_i|E][attrition|E] в валенвудских холмах"
  valenwood_hills_advantage:1 "[command_modifier_i|E][advantage|E] в валенвудских холмах"
@@ -212,8 +212,8 @@
  valenwood_hills_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в валенвудских холмах"
  valenwood_hills_tax_mult:0 "$MOD_TAX_MULT$ в валенвудских холмах"
  valenwood_hills_levy_size:0 "$MOD_LEVY_SIZE$ в валенвудских холмах"
- valenwood_hills_provisions_use_mult: "[GetTerrain( 'valenwood_hills' ).GetName] [provisions|E] Use"
- 
+ valenwood_hills_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'valenwood_hills' ).GetName]"
+
  wasteland_attrition_mult:1 "[command_modifier_i|E][attrition|E] в пустошах"
  wasteland_advantage:1 "[command_modifier_i|E][advantage|E] в пустошах"
  wasteland_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в пустошах"
@@ -231,7 +231,7 @@
  wasteland_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в пустошах"
  wasteland_tax_mult:0 "$MOD_TAX_MULT$ в пустошах"
  wasteland_levy_size:0 "$MOD_LEVY_SIZE$ в пустошах"
- wasteland_provisions_use_mult: "[GetTerrain( 'wasteland' ).GetName] [provisions|E] Use"
+ wasteland_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'wasteland' ).GetName]"
 
  tundra_attrition_mult:1 "[command_modifier_i|E][attrition|E] в ледниковой тундре"
  tundra_advantage:1 "[command_modifier_i|E][advantage|E] в ледниковой тундре"
@@ -250,8 +250,8 @@
  tundra_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в ледниковой тундре"
  tundra_tax_mult:0 "$MOD_TAX_MULT$ в ледниковой тундре"
  tundra_levy_size:0 "$MOD_LEVY_SIZE$ в ледниковой тундре"
- tundra_provisions_use_mult: "[GetTerrain( 'tundra' ).GetName] [provisions|E] Use"
- 
+ tundra_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'tundra' ).GetName]"
+
  taiga_hills_attrition_mult:1 "[command_modifier_i|E][attrition|E] в таёжных холмах"
  taiga_hills_advantage:1 "[command_modifier_i|E][advantage|E] в таёжных холмах"
  taiga_hills_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в таёжных холмах"
@@ -269,7 +269,7 @@
  taiga_hills_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в таёжных холмах"
  taiga_hills_tax_mult:0 "$MOD_TAX_MULT$ в таёжных холмах"
  taiga_hills_levy_size:0 "$MOD_LEVY_SIZE$ в таёжных холмах"
- taiga_hills_provisions_use_mult: "[GetTerrain( 'taiga_hills' ).GetName] [provisions|E] Use"
+ taiga_hills_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'taiga_hills' ).GetName]"
 
  black_marsh_attrition_mult:1 "[command_modifier_i|E][attrition|E] в Чернотопье"
  black_marsh_advantage:1 "[command_modifier_i|E][advantage|E] в Чернотопье"
@@ -288,12 +288,12 @@
  black_marsh_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в Чернотопье"
  black_marsh_tax_mult:0 "$MOD_TAX_MULT$ в Чернотопье"
  black_marsh_levy_size:0 "$MOD_LEVY_SIZE$ в Чернотопье"
- black_marsh_provisions_use_mult: "[GetTerrain( 'black_marsh' ).GetName] [provisions|E] Use"
- 
-  ### Schemes
-  max_steal_back_artifact_schemes_add: "Max [GetScheme('steal_back_artifact').GetTypeName] [schemes|E]"
- 
-  ## Travel
+ black_marsh_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'black_marsh' ).GetName]"
+
+ ### Schemes
+ max_steal_back_artifact_schemes_add: "Максимум [Concept('schemes', 'происков')|E] «[GetScheme('steal_back_artifact').GetTypeName]»"
+
+ ## Travel
 
  ashlands_travel_danger:0 "[Concept( 'travel_danger', 'Опасность' )|E]: [GetTerrain( 'ashlands' ).GetName]"
  volcanic_travel_danger:0 "[Concept( 'travel_danger', 'Опасность' )|E]: [GetTerrain( 'volcanic' ).GetName]"
@@ -487,16 +487,16 @@
  stress_experimentalist_modifier_05_desc:0 "Этот персонаж страдает от магических эффектов, из-за чего ему трудно двигаться без странных спазмов."
  stress_experimentalist_modifier_06:0 "Магическое переполнение"
  stress_experimentalist_modifier_06_desc:0 "Тело этого персонажа вырабатывает дополнительную магию, но он платит за это высокую цену.\n[arcana|E]: [arcana_i]#P +5# "
- stress_experimentalist_modifier_07:0 "Confused Tongue"
-  stress_experimentalist_modifier_07_desc:0 "This character's ability to speak in clear sentences can no longer be taken for granted."
-  stress_experimentalist_modifier_08:0 "Unnatural Vitality"
-  stress_experimentalist_modifier_08_desc:0 "This character is feeling revigorated in every aspect of life."
-  stress_experimentalist_modifier_09:0 "Flickering Apperance"
-  stress_experimentalist_modifier_09_desc:0 "This character is sometimes very hard to spot."
-  stress_experimentalist_modifier_10:0 "Forgetful Mind"
-  stress_experimentalist_modifier_10_desc:0 "This character has trouble holding worrisome thoughts — and finds relief in that."
- 
-  ### Orsinium
+ stress_experimentalist_modifier_07:0 "Заплетающийся язык"
+ stress_experimentalist_modifier_07_desc:0 "Способность этого персонажа говорить ясными предложениями больше нельзя считать само собой разумеющейся."
+ stress_experimentalist_modifier_08:0 "Неестественная жизненная сила"
+ stress_experimentalist_modifier_08_desc:0 "Этот персонаж чувствует себя обновлённым во всех сферах жизни."
+ stress_experimentalist_modifier_09:0 "Мерцающий облик"
+ stress_experimentalist_modifier_09_desc:0 "Этого персонажа иногда очень трудно заметить."
+ stress_experimentalist_modifier_10:0 "Забывчивый разум"
+ stress_experimentalist_modifier_10_desc:0 "Этот персонаж с трудом удерживает тревожные мысли - и находит в этом облегчение."
+
+ ### Orsinium
  city_of_the_orcs:0 "Столица орсимеров"
 
  orsinium_mountain_orc_advantage:0 "Защитники Орсиниума"
@@ -635,9 +635,9 @@
  maiq_modifier_desc:0 "Ты ищешь знание. У М'Айка его много. Некоторая его часть подтверждается реальными фактами!"
  dwemer_arms:0 "Двемерское снаряжение"
  automata_modifier:0 "Вторжение автоматонов"
- red_wheat_blight_modifier:0 "Red Wheat Blight"
- kvatch_bread_riots_modifier:0 "Bread Riots Aftermath"
- kvatch_bread_riots_modifier_desc:0 "The Kvatch Bread riots left this land razed and the peasants' morale and trust equally destroyed."
+ red_wheat_blight_modifier:0 "Красная гниль"
+ kvatch_bread_riots_modifier:0 "Последствия хлебных бунтов"
+ kvatch_bread_riots_modifier_desc:0 "В результате хлебных бунтов в Кватче эта земля была разорена, а моральный дух и доверие крестьян подорваны."
  falmer_modifier:0 "Вторжение фалмеров"
  ek_yearly_events_heard_welkynar:0 "Прослушал «Вперёд, велкинары»"
  ek_yearly_events_heard_welkynar_desc:0 "Вперёд, о всадники грифоньи,\nВ атаку — смерть нашим врагам!\nВперёд, о велкинары,\nМеч пусть грозит ваш небесам!"
@@ -769,15 +769,15 @@
  is_necromancy_tutor_desc:0 "В настоящее время этот персонаж вкладывает время и энергию в обучение ученика магическим искусствам."
  rotten_stench:0 "Запах смерти"
  rotten_stench_desc:0 "От этого персонажа исходит вонь гнилой плоти."
-  cloning_mastery:0 "Cloning Mastery"
-  cloning_mastery_desc:0 "This character has extensively researched the obscure magical art of [cloning|E], allowing them to replicate themselves, and yielding unorthodox insights.\n\n$unlock_cloning_decision_tt$\n[arcana|E]: [arcana_i]#P +1#! "
-  unlock_cloning_decision_tt:0 "Unlocks a [decision|E] to #V Clone Yourself#!"
-  ongoing_cloning_project:0 "Ongoing Cloning Project"
-  ongoing_cloning_project_desc:0 "This character is focussing a significant amount of their spare time on a special [cloning|E] project of theirs."
-  cloning_isolation_modifier:0 "Research Isolation"
-  cloning_isolation_modifier_desc:0 "This character is dedicating all of their time on an ongoing research project, and cannot rule by themselves.\n\n$cl_better_cloning_outcome_tt$ "
-  cloning_insights:0 "Cloning Insights"
-  cloning_insights_desc:0 "This character has extensively researched the obscure magical art of cloning, yielding unorthodox insights."
+ cloning_mastery:0 "Мастерство клонирования"
+ cloning_mastery_desc:0 "Этот персонаж много исследовал непонятное магическое искусство [Concept('cloning', 'клонирования')|E], позволяющее ему воспроизводить самого себя и дающее неординарные открытия.\n\n$unlock_cloning_decision_tt$\n[arcana|E]: [arcana_i]#P +1#! "
+ unlock_cloning_decision_tt:0 "Разблокирует [Concept('decision', 'решение')|E], позволяющее #V клонировать себя#!"
+ ongoing_cloning_project:0 "Текущий проект клонирования"
+ ongoing_cloning_project_desc:0 "Этот персонаж посвящает значительную часть своего свободного времени особому проекту по [Concept('cloning', 'клонированию')|E]."
+ cloning_isolation_modifier:0 "Исследовательская изоляция"
+ cloning_isolation_modifier_desc:0 "Этот персонаж посвящает всё своё время текущему исследовательскому проекту и не может править самостоятельно.\n\n$cl_better_cloning_outcome_tt$"
+ cloning_insights:0 "Прозрение в клонировании"
+ cloning_insights_desc:0 "Этот персонаж провел обширные исследования в области непонятного магического искусства клонирования, в результате чего получил неординарные выводы."
  closely_watched:0 "Под пристальным наблюдением"
  closely_watched_desc:0 "За каждым шагом этого персонажа пристально следят."
  corpse_essence_modifier:0 "Эссенция трупов"
@@ -816,8 +816,8 @@
  laboring_army_modifier_desc:0 "Армия этого персонажа занята трудовыми задачами, и поэтому ее боевая эффективность снижается"
  embraced_disease_modifier:0 "Приветствует болезнь"
  embraced_disease_modifier_desc:0 "Этот персонаж активно поддерживает распространение и возникновение болезней в своей державе"
- hosted_sibyl_modifier:0 "Hosted Sibyl"
- hosted_sibyl_modifier_desc:0 "This character welcomed a holy Sibyl of Dibella into their court"
+ hosted_sibyl_modifier:0 "Визит пророчицы"
+ hosted_sibyl_modifier_desc:0 "Этот персонаж принял при своём дворе святую пророчицу Дибеллы."
  villain_modifier:0 "Противостояние герою"
  villain_modifier_desc:0 "Этот персонаж проявил себя как злодей в истории героя."
  increased_security_measures:0 "Усиленные меры безопасности"
@@ -999,23 +999,23 @@
  skeever_hunting_guards_modifier_desc:0 "Личная стража этого персонажа занята охотой на грызунов"
  skeever_hunting_modifier:0 "Охота за злокрысами"
  skeever_hunting_modifier_desc:0 "Этот персонаж испытывает стресс и истощение от охоты на грызунов"
- watched_battlemage_training_modifier: "Watched Battlemage Training"
-  watched_battlemage_training_modifier_desc: "This character obtained valuable battlefield knowledge by witnessing the Imperial Battlemage training firsthand"
+ watched_battlemage_training_modifier: "Наблюдение за тренировкой боевых магов"
+ watched_battlemage_training_modifier_desc: "Этот персонаж получил ценные знания о поле боя, воочию наблюдая за тренировками имперских боевых магов."
  dangerous_mage:0 "Опасный маг"
  dangerous_mage_desc:0 "Этот персонаж известен тем, что использует магию во зло"
  godly_protection_modifier:0 "Божественная защита"
  godly_protection_modifier_desc:0 "Этот персонаж и его народ был наделён устойчивостью к болезням"
-  skeever_in_provisions_modifier: "Skeever in Provisions"
-  skeever_in_provisions_modifier_desc: "This character is plagued by a skeever that nested itself in the camps provisions"
-  skeever_traps_modifier: "Skeever Traps"
-  skeever_traps_modifier_desc: "This character surrounds their whole camp with skeever traps"
- 
+ skeever_in_provisions_modifier: "Злокрысы в припасах"
+ skeever_in_provisions_modifier_desc: "Этот персонаж страдает от злокрысов, которые гнездятся в припасах лагеря."
+ skeever_traps_modifier: "Ловушки на злокрысов"
+ skeever_traps_modifier_desc: "Этот персонаж окружил весь свой лагерь ловушками на злокрысов."
+
  lauded_faction_leader:0 "Признанный лидер фракции"
  lauded_faction_leader_desc:0 "Этот персонаж привёл фракцию к независимости и пользуется полной поддержкой своего народа."
 
- cazuras_potentate_attention_modifier:0 "Scion of the Potentate"
- cazuras_potentate_attention_modifier_desc:0 "This character has openly claimed for themselves the legacy of the #LORE [compendium_akaviri_potentate]#!, giving their word a certain weight but also attracting unwanted attention."
-  
+ cazuras_potentate_attention_modifier:0 "Наследник потентата"
+ cazuras_potentate_attention_modifier_desc:0 "Этот персонаж открыто провозгласил себя наследником #LORE [Concept('compendium_akaviri_potentate', 'Акавирского потентата')|E]#!, что придаёт его словам определённый вес, но также привлекает нежелательное внимание."
+
  mundus_apprentice_modifier:0 "Благословение Ученика"
 
  mundus_atronach_modifier:0 "Благословение Атронаха"
@@ -1063,15 +1063,15 @@
 
  ek_recent_imperialization:0 "Недавняя империализация"
  ek_recent_imperialization_desc:0 "Эта культура недавно получила традицию «[GetCultureTradition('tradition_cyrodiilic_subject').GetName|V]». Населению потребуется некоторое время, чтобы привыкнуть к имперской культуре и законам, а ещё больше - к имперским легионам и бюрократии."
- 
- auriels_heirs_dynasty_modifier: "Heirs of Auri-El"
-  auriels_heirs_dynasty_modifier_desc: "Although all the Altmer claim descent from Auri-El, it is this dynasty that took on the legacy of the King of the Aldmer and has been the loyal stewards of Alinor for millennia."
- 
-  xarxes_heirs_dynasty_modifier: "Heirs of Xarxes"
-  xarxes_heirs_dynasty_modifier_desc: "This dynasty claims direct descent from Xarxes, Scribe of Auriel."
- 
-  phynaster_heirs_dynasty_modifier: "Heirs of Phynaster"
-  phynaster_heirs_dynasty_modifier_desc: "This dynasty claims direct descent from Phynaster, the Wayfarer."
- 
-  syrabane_heirs_dynasty_modifier: "Heirs of Syrabane"
-  syrabane_heirs_dynasty_modifier_desc: "This dynasty claims direct descent from Syrabane, the Warlock's God."
+
+ auriels_heirs_dynasty_modifier: "Наследники Аури-Эля"
+ auriels_heirs_dynasty_modifier_desc: "Хотя все альтмеры претендуют на происхождение от Аури-Эля, именно эта династия приняла наследие короля альдмеров и на протяжении тысячелетий остаётся верными управителями Алинора."
+
+ xarxes_heirs_dynasty_modifier: "Наследники Заркса"
+ xarxes_heirs_dynasty_modifier_desc: "Эта династия претендует на прямое происхождение от Заркса, писца Ауриэля."
+
+ phynaster_heirs_dynasty_modifier: "Наследники Финастера"
+ phynaster_heirs_dynasty_modifier_desc: "Эта династия претендует на прямое происхождение от Финастера, Путешественника."
+
+ syrabane_heirs_dynasty_modifier: "Наследники Сирабейна"
+ syrabane_heirs_dynasty_modifier_desc: "Эта династия претендует на прямое происхождение от Сирабейна, Бога-чародея."
