@@ -113,9 +113,9 @@
  apa_silent_prayer_title:0 "[first.GetShortUIName|U] [Select_CString( first.IsLocalPlayer, 'вознесли', Select_CString(first.IsFemale, 'вознесла', 'вознёс' ))] молчаливую молитву к хист"
 
  ### Adult Education
- adult_education_option_mundane: "Обыденное образование"
+ adult_education_option_mundane: "Визит в университет"
  adult_education_option_mundane_desc: "$EFFECT_LIST_BULLET$ Может улучшить ваше [education_trait|El]\n\n#weak Расширять свой кругозор, исследовать новые идеи и незнакомые мысли - разве могут быть острые ощущения более глубокими?#!"
- adult_education_option_arcane: "Магическое образование"
+ adult_education_option_arcane: "Визит в магический университет"
  adult_education_option_arcane_desc: "$EFFECT_LIST_BULLET$ Некоторые варианты событий позволяют выполнить магические действия\n$EFFECT_LIST_BULLET$ Может улучшить ваше [Concept('magical_education_trait', 'свойство магического образования')|E]\n\n#weak Понять магию - значит овладеть ей. Погрузимся в её тайны и распутаем тонкие нити всего магического.#!"
  activity_adult_education_location_magic_university_tt: "Здесь нет центра магического образования!"
  activity_adult_education_location_only_magic_university_tt: "Это место предлагает только обучение магии!"
