@@ -50,7 +50,7 @@
  culture_parameter_magic_preference: "Правители этой культуры чаще выбирают магический [Concept('lifestyle', 'образ жизни')|E] и проводят связанные с магией [Concept('activities', 'занятия')|E]"
  culture_parameter_unlocks_court_magical:0 "Правители с [Concept('royal_court', 'монаршим двором')|E] могут использовать [court_type|El] $court_magical$"
  culture_parameter_rank_gives_bonus_to_mage_maa:0 "[men_at_arms|E]-маги и мечники-чародеи получают бонус к численности, [Concept('damage', 'урону')|E], [Concept('pursuit', 'преследованию')|E], [Concept('toughness', 'выносливости')|E] и [Concept('screen', 'скрытности')|E] зависящий от [Concept('rank', 'ранга')|E] правителя"
- culture_parameter_unlocks_arcana_education:0 "[guardians|E] со [Concept('trait', 'свойством')|E] #V $trait_arcana_good$#! или #V $trait_education_magic$#!, передадут [Concept('trait', 'свойство')|E] #V $trait_education_magic$#! их [Concept('wards', 'подопечным')|E]"
+ culture_parameter_unlocks_arcana_education:0 "[guardians|E] со [Concept('trait', 'свойством')|E] #V $trait_arcana_good$#! или #V $trait_education_magic$#!, передадут [Concept('trait', 'свойство')|E] #V $trait_education_magic$#! своим [Concept('wards', 'подопечным')|E]"
  culture_parameter_good_arcana_traits_give_bonuses:0 "[traits|E] #V $trait_arcana_good$#! и #V $trait_education_magic$#! ценятся выше"
  culture_parameter_bad_arcana_traits_give_maluses:0 "[Concept('traits', 'Свойство')|E] #V $trait_arcana_bad$#! презирается"
  culture_parameter_arcane_affinity_birth:0 "[children|E] имеют небольшой шанс родиться с [Concept('trait', 'свойством')|E] #V $trait_arcana_good$#!"
