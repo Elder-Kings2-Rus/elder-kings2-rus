@@ -1,6 +1,5 @@
 ﻿l_russian:
-# Букмарки. Замена "Королева владения Лотлориен" на "Королева (Лотлориэн)"
+ # Букмарки. Замена 'Королева владения X' на 'Королева (X)'"
  BOOKMARK_CHARACTER_TITLE:1 "[BookmarkCharacter.GetTitleTierName] ([BookmarkCharacter.GetTitleName])"
+ # Букмарки. Замена 'Королева владения X - форма правления' на 'Королева (X - форма правления)'
  BOOKMARK_CHARACTER_TITLE_TYPE: "[BookmarkCharacter.GetTitleTierName] ([BookmarkCharacter.GetTitleName] - #weak [BookmarkCharacter.GetGovernmentType.GetNameWithIcon]#!)"
-# У династии Истари отсутствовал ключ. Разрабы юзают "Istari", а не "istari" в файле northron_eotheod_dynasties.txt. Идентификатор династии равняется значению 1000. В подобных случаях надо самим ключи создавать.
- #Istari:1 "Истари"
