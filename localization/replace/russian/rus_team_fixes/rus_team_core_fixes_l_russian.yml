@@ -1,5 +1,6 @@
 ﻿l_russian:
  # Букмарки. Замена 'Королева владения X' на 'Королева (X)'"
  BOOKMARK_CHARACTER_TITLE:1 "[BookmarkCharacter.GetTitleTierName] ([BookmarkCharacter.GetTitleName])"
+ ADMIN_BOOKMARK_CHARACTER_TITLE: "Губернатор ([BookmarkCharacter.GetTitleName])"
  # Букмарки. Замена 'Королева владения X - форма правления' на 'Королева (X - форма правления)'
  BOOKMARK_CHARACTER_TITLE_TYPE: "[BookmarkCharacter.GetTitleTierName] ([BookmarkCharacter.GetTitleName] - #weak [BookmarkCharacter.GetGovernmentType.GetNameWithIcon]#!)"
