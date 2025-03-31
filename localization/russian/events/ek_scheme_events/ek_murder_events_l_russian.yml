@@ -1,0 +1,96 @@
+﻿l_russian:
+ #EK TODO: Write missing loc for target POV, currenlty using a placeholder
+ ek_murder_outcome.0001.t: "Boethiah's Proving"
+ ek_murder_outcome.0001.intro: "The time has come. My agents are in place. One of them will kidnap the target the very night the deed will happen. Another will ensure the wall is unguarded. A third will leave a subtle trail of candles to [target.GetTitledFirstNamePossessive] bedchamber.\n\nEverything is in place."
+ ek_murder_outcome.0001.desc.1: ""O Boethiah, Prince of Plots, Deceiver of Nations, Queen of Shadows, we come to worship thee!"\n\nAs I check the sharpness of my dagger and the tightness of the chains holding [target.GetName] to the stone slab, I tremble with anticipation. I slit [target.GetHerHis] throat in the name of the Goddess of Destruction."
+ ek_murder_outcome.0001.desc.2: ""Boethiah, your faithful servants bring before you the demanded sacrifice!"\n\nThe plan worked, and [target.GetName] is chained to an altar! As I cleave my dagger in [target.GetHerHis] chest, I call out Boethiah's name."
+ ek_murder_outcome.0001.desc.3: ""Prince of Plots, o, our dear Dark Warrior, we summon thee to receive thy asked sacrifice!"\n\nIt seems to have been difficult to get [target.GetTitledFirstName] by [target.GetHerselfHimself], but once my agent finally did, [target.GetSheHe] put up little resistance. Tied to a pole, a quick knife in between [target.GetHerHis] ribs sealed the deal as the cultists chanted."
+ ek_murder_outcome.0001.revealed.success: "\n\nHowever, someone, somewhere, slipped up and let my involvement in the sacrifice be known! At least I can console myself with the fact that Boethiah got what I've promised."
+ ek_murder_outcome.0001.kept_secret.success: "\n\nMy involvement in the crime remains unknown, thanks to She-Who-Erases."
+ ek_murder_outcome.0001.a: "O Boethiah, we come to worship thee!"
+
+ ek_murder_outcome.0002.t: "Boethiah's Calling"
+ 
+ ek_murder_outcome.0003.desc: "However, all the preparations have been in vain. Maybe it was pure luck or a warning that saved [target.GetTitledFirstName], but the kidnapping went wrong. The altar will remain empty, and no blood will be spilled in Boethiah's favor tonight."
+ ek_murder_outcome.0003.revealed.failure: "\n\nUnfortunately, while I struggle to keep the appearances, no one doubts that it was my doing."
+ ek_murder_outcome.0003.kept_secret.failure: "\n\nI have covered my tracks well, and if anyone suspects me for being behind the rite, no one dares say it out loud."
+ ek_murder_outcome.0003.a.discovered: "Soon, all will bow to the Prince of Plots!"
+ ek_murder_outcome.0003.a: "This shall remain secret for now."
+
+ ek_murder_outcome.undead.t: "An Unlife Ends"
+ ek_murder_outcome.failure.undead.t: "An Attempt on my Unlife!"
+ ek_murder_outcome.0000.successful_scheme_target.undead: "It was all for nothing."
+ 
+ ek_murder_outcome.0101.t: "A Banished Fiend"
+ ek_murder_outcome.0101.desc: "One of my agents has secured a powerful scroll of banish undead. With this, we can inscribe cleansing runes directly outside [target.GetTitledFirstNamePossessive] chambers. The moment [target.GetSheHe] steps into the trap, no dark magic will be able to shield [target.GetHerHim]."
+ ek_murder_outcome.0101.a: "Only ash remains."
+
+ ek_murder_outcome.0102.desc: "I wander through the halls of my castle when a searing light ignites beneath me. What treachery is this? The air ripples with power as runes blaze in defiance of my mastery. A fiery lance pierces my ribs, my bones splintering as cleansing light claws through me. No! This cannot be! My vision fractures, the world narrowing to a single, blinding point of agony.\n\nMy eternal soul screams, clawing for an anchor, but the banishment grips tight, dragging me away from the husk that was my body. #DIE1 I am ash and nothing#!, #DIE2 I am undone!#"
+ 
+ ek_murder_outcome.0103.desc: "It should have ended in burning fire. My agents carefully placed a rune of banishment for the undead within the halls of [target.GetTitledFirstNamePossessive] castle. Yet, it seems some of [target.GetHerHis] mortal servants stumbled into the trap, triggering its cleansing magic in vain. Now the rune lies spent, and that accursed lich still walks unharmed."
+ ek_murder_outcome.0103.a.discovered: "Such wa waste of a powerful scroll."
+ ek_murder_outcome.0103.a: "[target.GetTitledFirstName] will not escape death forever."
+
+ ek_murder_outcome.0104.desc: "I am startled by a flash of bright light and a terrified scream just outside my chambers. One of my servants stands, momentarily engulfed in golden fire that fades without leaving a mark. My gaze shifts to the faintly glowing runes on the ground, their power dissipating. It becomes clear - someone dared to lay a circle of banish undead, meant for me."
+
+ ek_murder_outcome.0111.t: "Torches and Pitchforks"
+ ek_murder_outcome.0111.desc: "It was easy enough to stir the embers of rebellion among the subjects of [target.GetTitledFirstName]. Armed with improvised weapons and righteous fury, they now march on [target.GetHerHis] castle, their rage fueled by tales of their master's dark sorcery. No guard or gate is willing to stop the mob, and once they reach [target.GetHerHis] chambers, the torches are pressed against the heavy doors and set ablaze.\n\nNo barrier of necromantic power can hold back the inferno. The air thickens with smoke as the fire consumes everything within."
+ ek_murder_outcome.0111.a: "They freed themselves - and me - from [target.GetTitledFirstName]."
+
+ ek_murder_outcome.0112.desc: "It started as a whisper, a flicker of discontent, but the wish for rebellion spread like wildfire among my subjects. I watch from the shadows as no guard or gate dares to bar their way, their fear of the mob outweighing their loyalty to me.\n\nAs the mobs reaches my chambers, I hear their fury in every shout and the crash of their blows against the doors. Flames lick at the heavy wood as they set it ablaze. There is no escape. The thick smoke cannot fill my lungs as I no longer breathe, but the searing heat will consume my very bones and the remnants of my flesh."
+
+ ek_murder_outcome.0113.desc: "While it was easy enough to ignite the flames of discontent among the subjects of [target.GetTitledFirstName], the mob posed little threat to [target.GetHerHis] iron rule. Guarded by loyal gaurds and undead servants, the castle stood unyielding, its gates defying the desperate assault. The mob crashed against its defenses like a feeble wave breaking against an unshakable cliff.\n\nThe skirmish ended in futility - some peasants fell, their lifeless bodies destined to swell the ranks of undead legions, while the rest scattered, fleeing like the rabble they were."
+ ek_murder_outcome.0113.a.discovered: "Never rely on peasants alone..."
+
+ ek_murder_outcome.0114.desc: "Someone dared to ignite the flames of discontent among my subjects. Filled with self-righteous fury, they marched against my castle, intent on striking me down in a swift attack. Yet my loyal guards held firm, and my tireless undead servants ensured that no breach was made.\n\nFrom my chambers, I watched their feeble assault crash against the gates. The skirmish ended as I knew it would—bodies littering the ground, their lifeless forms soon to bolster the ranks of my ever-growing legions. The rest scattered, fleeing like the frightened vermin they are."
+
+ ek_murder_outcome.0201.t: "One Bad Apple..."
+ ek_murder_outcome.0201.desc: "One of my agents have through a shadowy contact learned of a peculiar murder method. It would seem the feared Dark Brotherhood is fond of making use of poisoned fruit - specifically, apples! They've taken the liberty to acquire a whole barrel of the stuff, as apparently a bulk purchase made for a good deal.\n\nSlipped into [target.GetTitledFirstName] pockets [target.GetSheHe] soon learned the sweet taste of a fruity death."
+ ek_murder_outcome.0201.a: "...spoils the whole barrel."
+
+ ek_murder_outcome.0202.desc: "Going about my day as usual, I suddenly feel a little snackish. Perhaps it is time for an afternoon meal? Rummaging through my pockets I find a deliciously fresh looking apple. I cannot quite recall bringing that with me from the kitchens, though perhaps past me must have known I would want one of those for later.\n\nAfter a few bites however, something feels off. The sweet fruit seems to turn to ash in my mouth and my vision is growing darker. As I collapse upon the floor, the apple rolls out of my hand, rolling, rolling, rolling..."
+
+ ek_murder_outcome.0203.desc: "One of my agents have through a shadowy contact learned of a peculiar murder method. It would seem the feared Dark Brotherhood is fond of making use of poisoned fruit - specifically, apples! They've taken the liberty to acquire a whole barrel of the stuff, as apparently a bulk purchase made for a good deal.\n\nHowever, upon entering the premises of [target.GetTitledFirstNamePosessive] grounds, their pockets full of apples caught the attention of the guards - who promptly seized the assassin."
+ ek_murder_outcome.0203.revealed.failure.1: "\n\nUnfortunately, the nightblade sent to plant the fruit had brought with them spares and accidentally spilled these out on the floor while scurrying away from the scene.\n\nIn a panic, they revealed my involvement!"
+ ek_murder_outcome.0203.revealed.failure.2: "\n\nHowever, a clever servant of [target.GetTitledFirstName] had gotten wind of the recent bulk purchase of poisoned apples, and the trail led directly back to me!"
+ ek_murder_outcome.0203.kept_secret.1:0 "\n\nHaving left the premises promptly, the assassin was far away from there upon the discovery of [target.GetTitledFirstName]'s body, half-eaten apple in their hand.\n\nNo one can suspect me of ordering such a silly way to murder someone."
+ ek_murder_outcome.0203.kept_secret.2:0 "\n\nHaving forgotten themselves, the assassin sent to plant the fruit ate one of the apples they had brought. Lucky for me, it was too late for [target.GetTitledFirstName] to learn of this.\n\nWhile the means of murder was obvious enough, no one lived to tell of my part in the affair."
+ ek_murder_outcome.0203.a.discovered: "Poisoned apples, bah!"
+ ek_murder_outcome.0203.a: "It was a silly plan."
+
+ ek_murder_outcome.0204.desc: "Having forgotten about it, a fruit bowl placed in my chambers eventually spoiled. Not bothering to wait for a servant to take it away, I threw the rotting fruit away out through a window. A variety of local birdlife promptly appeared, dining upon the discarded foods. One by one however, they keel over, frantically spasming and flapping their wings. Could it be...?\n\nPoisoned fruit!""
+
+ ek_murder_outcome.0211.t:0 "The Doors of Oblivion"
+ ek_murder_outcome.0211.intro: "#italic "The great benefit of employing conjurers is that they will not be carrying any arms or other obvious means of murder, and will not be close enough to run much risk of discovery..."#!\n\nWith these words in mind I hired a conjurer as an assassin and they summoned "
+ ek_murder_outcome.0211.desc.1:0 "a throng of fearsome clannfear, whose sudden appearance quickly overwhelmed the guards escorting [target.GetTitledFirstName], and upon breaking through the line of defence, violently tore them apart."
+ ek_murder_outcome.0211.desc.2:0 "a horde of atronachs, whose elemental onslaught caused great chaos among the ranks of [target.GetTitledFirstName]'s guard escort. My target fell screaming from a great electric shock."
+ ek_murder_outcome.0211.desc.3:0 "a fearsome daedroth, who charged towards [target.GetTitledFirstName] and caught them in its terrible jaws."
+ ek_murder_outcome.0211.desc.4:0 "a powerful Dremora, clad in dark armour and wielding a terrible battleaxe. The Daedric warrior cleaved through the defenders with ease, dispatching [target.GetTitledFirstName] with one fell blow."
+ ek_murder_outcome.0211.revealed.1:0 "\n\nUnfortunately there was no doubt in [target.GetHerHis] mind who must have wished them dead, and they died naming me their killer."
+ ek_murder_outcome.0211.revealed.2:0 "\nAlas, the summoner was spotted and before they were able to flee, they were captured. Soon enough it was revealed who had sent them."
+ ek_murder_outcome.0211.kept_secret.1:0 "\n\nIn the ensuing chaos no one noticed one more person fleeing the scene, letting my conjurer safely leave [province.GetNameNoTier] - leaving no trails leading to me."
+ ek_murder_outcome.0211.kept_secret.2:0 "\n\nIt seems my conjurer unfortunately lost control over their summoned servants, they too falling victim to the murderous rampage. Fortunately for me, this means no one will know they were in my employ."
+ ek_murder_outcome.0211.a.discovered:0 "Employing conjurers, me? I would never!"
+ ek_murder_outcome.0211.a:0 "Daedra are awfully common these days."
+
+ ek_murder_outcome.0212.intro: "While out on a walk with my retinue of guards, suddenly we are beset by Daedra! "
+ ek_murder_outcome.0212.desc.1: "A great throng of reptilian clannfear come rushing from every direction, overwhelming my escorts.\n\nA particularly big and mean looking one breaks through the line of defence, heading straight towards me. I barely have time to shout out as it smashes into me, its razor teeth digging into my throat."
+ ek_murder_outcome.0212.desc.2: "A colourful host of atronachs of every variety rains elemental death down upon my little party.\n\nAs fireballs roar and great spears of ice soar through the air, I feel the trickle of an incoming electric current - by the time I hear the boom of thunder, the great lightning has already struck me."
+ ek_murder_outcome.0212.desc.3: "A massive daedroth comes stomping from behind us, carrying its great mass with incredible speed.\n\nThose of my escorts who did not immediately break rank to flee for their lives, are soon crushed under the monster's powerful limbs. As I raise my arms in defence, my whole field of vision is engulfed by its terrible maw."
+ ek_murder_outcome.0212.desc.4: "A single Dremora warrior calmly approaches, eyes staring directly at me.\n\nAs the first of my brave guards raises their weapon to strike, they are quickly cut down in cold blood, the Daedric warrior never letting me out of its sight. At last I stand alone, a mighty battleaxe bearing down upon me."
+ 
+ ek_murder_outcome.0213.intro: "My agents hired a conjurer to fullfill the deed and put an end to [target.GetTitledFirstNamePossessive] life. After all, one does not need a weapon when armed with the knowledge to call forth the terror of Oblivion itself."
+ ek_murder_outcome.0213.desc.1: "\n\nWhile the conjured clannfear wreaked great havoc, they failed to actually get to [target.GetTitledFirstName] before being rounded up and cut down."
+ ek_murder_outcome.0213.desc.2: "\n\nHowever the conjured atronachs bickered among themselves, failing to present a unified front, allowing [target.GetTitledFirstName] to escape an elemental doom."
+ ek_murder_outcome.0213.desc.3: "\n\nThe conjured daedroth was fearsome indeed, but its animal instincts led it to seek food rather than ensuring the death of [target.GetTitledFirstName]."
+ ek_murder_outcome.0213.desc.4: "\n\nThe mighty conjured Dremora, distracted by their martial pride, fought a series of duels against [target.GetTitledFirstName]'s [target.GetCulture.GetNameNoTooltip] honour guard - allowing the target to get to safety."
+ ek_murder_outcome.0213.revealed.failure.1: "\n\nShortly afterwards the conjurer was spotted acting suspiciously, having failed to leave [province.GetNameNoTier] quickly enough. Terribly distraught at the great loss of lives #italic except#! the actual target, they named me as their employer."
+ ek_murder_outcome.0213.revealed.kept_secret: "\n\nWhile the plan itself was a failure, the conjurer managed to escape undetected, leaving no trail back to me."
+ ek_murder_outcome.0213.a.discovered:0 "Summoned Daedra are unreliable, it would seem."
+ ek_murder_outcome.0213.a:0 "Let us end this." 
+
+ ek_murder_outcome.0214.intro: "While out on a walk with my retinue of guards, a secret conjurer worked their magic! "
+ ek_murder_outcome.0214.desc.1: "A horde of reptilian clannfear suddenly appeared, attacking anyone in their path.\n\nLittle more than animals however, their rampage was quickly brought to an end by my guards before any serious harm could be inflicted."
+ ek_murder_outcome.0214.desc.2: "Atronachs of all variants suddenly appeared, but as any Daedrologists can tell you, the different elementals rarely get along.\n\nAs fire atronachs got caught in ice storms and frost atronachs melted under arcane fire, the rest were easily dispatched by my guards."
+ ek_murder_outcome.0214.desc.3: "A massive daedroth came crashing into the flank of my little party. Short work was made of those of my guards unfortunate enough to be stationed on that side, but luckily this particular daedroth must have been quite hungry, as it ceased its assault to begin feasting.\n\nDistracted in such a way, my remaining guards could be rallied to attack and slay it together."
+ ek_murder_outcome.0214.desc.4: "A single Dremora warrior clad in Daedric armour approached, a haughty look in its eyes as it regarded us. Proving the arrogance of their people, the warrior challenged my guards to bouts of single combat! After an incredible duel, a champion of my people struck down the Daedric assailant!"
