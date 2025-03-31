@@ -97,7 +97,7 @@
  ek_knahaten_events_els.0007.e: "Что ж, на этом наше дело закончено."
 
  #Stricken
- ek_knahaten_events_els.0010.t: "Страждущие - Вассал укрывает заражённых" #руэсо заглох, исправить термин the Stricken
+ ek_knahaten_events_els.0010.t: "Поражённые - Вассал укрывает заражённых" #руэсо заглох, исправить термин the Stricken
  ek_knahaten_events_els.0010.desc_marshal: "Мой [councillor.GetCouncilTitle] "
  ek_knahaten_events_els.0010.desc: "[councillor.GetName] обращается ко мне с серьезным беспокойством. Владение [theocracy_vassal.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] приняло группу беженцев, изгнанных из близлежащих поселений. Похоже, многие из них заражены и уже проявляют симптомы. Некоторые, по [councillor.GetHerHis] словам, даже прибыли из провинции [liege.GetCapitalLocation.GetTitle.GetNameNoTier].\n\nХотя монахи сделали все возможное для лечения беженцев и дальнейшего сдерживания гриппа, их монастырь стал рассадником кнахатенского гриппа. [councillor.GetTitledFirstName] опасается, что болезнь больше не удастся сдержать в стенах монастыря.\nЭто может показаться жестоким, но [councillor.GetSheHe] предлагает приказать вашему вассалу убить и сжечь зараженных, чтобы спасти остальных."
  ek_knahaten_events_els.0010.a: "Заражённые должны уйти - так или иначе."
@@ -107,18 +107,18 @@
  ek_knahaten_events_els.0010.a_toast_title: "Вассал отказывается..."
  ek_knahaten_events_els.0010.a.a_toast: "Храм [theocracy_vassal_county.GetNameNoTierNoTooltip] был подожжён, в результате чего погибло множество жертв."
  ek_knahaten_events_els.0010.a.a_toast_vassal: "Храм [theocracy_vassal_county.GetNameNoTierNoTooltip] был подожжён, в результате чего погибло множество жертв, в том числе и [theocracy_vassal.GetName]."
- ek_knahaten_events_els.0010.a.b: "О Страждущих позаботились"
- ek_knahaten_events_els.0010.a.c: "Страждущие изгнаны"
+ ek_knahaten_events_els.0010.a.b: "О Поражённых позаботились"
+ ek_knahaten_events_els.0010.a.c: "Поражённые изгнаны"
 
  ek_knahaten_events_els.0010.b: "Я не вправе вмешиваться в их внутренние дела."
  ek_knahaten_events_els.0010.c: "Мы должны помочь храму позаботиться об этих бедных душах!"
 
- ek_knahaten_events_els.0011.t: "Страждущие вернулись"
- ek_knahaten_events_els.0011.desc: "Много лет назад, во время кнахатенского гриппа, я [Select_CString(ROOT.Char.IsFemale, 'приказала', 'приказал' )] перебить множество зараженных изгоев, искавших убежища во владении [theocracy_vassal_county.GetName]. Риск дальнейшего распространения инфекции был слишком велик.\nТеперь, похоже, эти «Страждущие» вернулись. Тогда [theocracy_vassal.GetName] [Select_CString(theocracy_vassal.IsFemale, 'заверила', 'заверил' )] меня, что о беженцах позаботились. Либо [theocracy_vassal.GetSheHe] [Select_CString(theocracy_vassal.IsFemale, 'солгала', 'солгал' )], либо [Select_CString(theocracy_vassal.IsFemale, 'оказалась некомпетентна', 'оказался некомпетентен' )]. Загнанные в глушь и отмеченные гриппом, «Страждущие» почти одичали.\n\nДо того как их обнаружили, «Страждущие», похоже, планировали отравить реки и перекрыть акведуки, чтобы отрезать мою столицу от пресной воды, заставив страдать тех, кто изгнал их в первую очередь. И, конечно же, отомстить [Select_CString(ROOT.Char.IsFemale, 'той', 'тому' )], кто [Select_CString(ROOT.Char.IsFemale, 'приказала', 'приказал' )] их казнить. Этим планам помешал местный авантюрист, и теперь они предпринимают отчаянную попытку осадить мою столицу."
+ ek_knahaten_events_els.0011.t: "Поражённые вернулись"
+ ek_knahaten_events_els.0011.desc: "Много лет назад, во время кнахатенского гриппа, я [Select_CString(ROOT.Char.IsFemale, 'приказала', 'приказал' )] перебить множество зараженных изгоев, искавших убежища во владении [theocracy_vassal_county.GetName]. Риск дальнейшего распространения инфекции был слишком велик.\nТеперь, похоже, эти «Поражённые» вернулись. Тогда [theocracy_vassal.GetName] [Select_CString(theocracy_vassal.IsFemale, 'заверила', 'заверил' )] меня, что о беженцах позаботились. Либо [theocracy_vassal.GetSheHe] [Select_CString(theocracy_vassal.IsFemale, 'солгала', 'солгал' )], либо [Select_CString(theocracy_vassal.IsFemale, 'оказалась некомпетентна', 'оказался некомпетентен' )]. Загнанные в глушь и отмеченные гриппом, «Поражённые» почти одичали.\n\nДо того как их обнаружили, «Поражённые», похоже, планировали отравить реки и перекрыть акведуки, чтобы отрезать мою столицу от пресной воды, заставив страдать тех, кто изгнал их в первую очередь. И, конечно же, отомстить [Select_CString(ROOT.Char.IsFemale, 'той', 'тому' )], кто [Select_CString(ROOT.Char.IsFemale, 'приказала', 'приказал' )] их казнить. Этим планам помешал местный авантюрист, и теперь они предпринимают отчаянную попытку осадить мою столицу."
  ek_knahaten_events_els.0011.a: "Трагедия, но это нужно было сделать."
 
- ek_knahaten_events_els.0012.t: "$travel_danger_prefix$ Страждущие нищие"
- ek_knahaten_events_els.0012.desc: "Три хрупкие фигурки подошли незамеченными. Прежде чем мои стражники успели что-то предпринять, [Select_CString(stricken_peasant.IsFemale, 'одна', 'один' )] из них [Select_CString(stricken_peasant.IsFemale, 'воскликнула', 'воскликнул' )]: «Прошу, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetLadyLord], мы бедные души без крова и пищи. Подайте немного еды». Когда [stricken_peasant.GetSheHe] поднимает свою голову, я вижу шрамы от кнахатенского гриппа - они из числа Страждущих!\n\nИзгои каджитского общества, изгнанные из своих домов, когда города переполнились больными, они выжили, навсегда отмеченные гриппом. Моя свита отшатывается; некоторые стражники даже достают оружие."
+ ek_knahaten_events_els.0012.t: "$travel_danger_prefix$ Поражённые нищие"
+ ek_knahaten_events_els.0012.desc: "Три хрупкие фигурки подошли незамеченными. Прежде чем мои стражники успели что-то предпринять, [Select_CString(stricken_peasant.IsFemale, 'одна', 'один' )] из них [Select_CString(stricken_peasant.IsFemale, 'воскликнула', 'воскликнул' )]: «Прошу, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetLadyLord], мы бедные души без крова и пищи. Подайте немного еды». Когда [stricken_peasant.GetSheHe] поднимает свою голову, я вижу шрамы от кнахатенского гриппа - они из числа Поражённых!\n\nИзгои каджитского общества, изгнанные из своих домов, когда города переполнились больными, они выжили, навсегда отмеченные гриппом. Моя свита отшатывается; некоторые стражники даже достают оружие."
  ek_knahaten_events_els.0012.desc_learning: "\n\n...Но я знаю, что они больше не заразны. Возможно, они и отмечены, но они больше не представляют опасности ни для меня, ни для моего народа."
  ek_knahaten_events_els.0012.a: "Предоставить им пищу, которую они просят."
  ek_knahaten_events_els.0012.a_infection: "Вы можете заразиться..."
