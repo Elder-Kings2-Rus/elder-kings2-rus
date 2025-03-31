@@ -6,9 +6,9 @@
  ek_laamp_flavor.1000.t.scorpion_gained: "Последователь приручил скорпиона"
  ek_laamp_flavor.1000.desc.scorpion_gained: "[pet_owner.GetFirstNameNicknamed] считает, что владеть питомцем-скорпионом — хорошая идея."
  ek_laamp_flavor.1000.t.skill_learned: "Последователь освоил новый навык"
- ek_laamp_flavor.1000.desc.skill_learned: "[skill_learner.GetFirstNameNicknamed] развивается, преодолевая жизненные трудности."
+ ek_laamp_flavor.1000.desc.skill_learned: "[SCOPE.sC('skill_learner').GetFirstNameNicknamed] развивается, преодолевая жизненные трудности." # экспериментальный фикс от mazik4148
  ek_laamp_flavor.1000.t.spell_learned: "Последователь выучил новое заклинание"
- ek_laamp_flavor.1000.desc.spell_learned: "[skill_learner.GetFirstNameNicknamed] [Select_CString(skill_learner.IsFemale, 'сумела', 'сумел' )] освоить новые магические способности."
+ ek_laamp_flavor.1000.desc.spell_learned: "[SCOPE.sC('skill_learner').GetFirstNameNicknamed] осваивает новые магические способности." # экспериментальный фикс от mazik4148
  ek_laamp_flavor.1000.t.gathered_provisions: "Последователь собрал припасы"
  ek_laamp_flavor.1000.desc.gathered_provisions: "[gatherer.GetFirstNameNicknamed] с пользой проводит свободное время."
  ek_laamp_flavor.1000.t.eaten_provisions: "Последователь съел припасы"
