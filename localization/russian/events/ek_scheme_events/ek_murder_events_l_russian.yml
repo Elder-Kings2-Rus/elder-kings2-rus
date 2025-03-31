@@ -1,39 +1,39 @@
 ﻿l_russian:
  #EK TODO: Write missing loc for target POV, currenlty using a placeholder
- ek_murder_outcome.0001.t: "Boethiah's Proving"
- ek_murder_outcome.0001.intro: "The time has come. My agents are in place. One of them will kidnap the target the very night the deed will happen. Another will ensure the wall is unguarded. A third will leave a subtle trail of candles to [target.GetTitledFirstNamePossessive] bedchamber.\n\nEverything is in place."
- ek_murder_outcome.0001.desc.1: ""O Boethiah, Prince of Plots, Deceiver of Nations, Queen of Shadows, we come to worship thee!"\n\nAs I check the sharpness of my dagger and the tightness of the chains holding [target.GetName] to the stone slab, I tremble with anticipation. I slit [target.GetHerHis] throat in the name of the Goddess of Destruction."
- ek_murder_outcome.0001.desc.2: ""Boethiah, your faithful servants bring before you the demanded sacrifice!"\n\nThe plan worked, and [target.GetName] is chained to an altar! As I cleave my dagger in [target.GetHerHis] chest, I call out Boethiah's name."
- ek_murder_outcome.0001.desc.3: ""Prince of Plots, o, our dear Dark Warrior, we summon thee to receive thy asked sacrifice!"\n\nIt seems to have been difficult to get [target.GetTitledFirstName] by [target.GetHerselfHimself], but once my agent finally did, [target.GetSheHe] put up little resistance. Tied to a pole, a quick knife in between [target.GetHerHis] ribs sealed the deal as the cultists chanted."
- ek_murder_outcome.0001.revealed.success: "\n\nHowever, someone, somewhere, slipped up and let my involvement in the sacrifice be known! At least I can console myself with the fact that Boethiah got what I've promised."
- ek_murder_outcome.0001.kept_secret.success: "\n\nMy involvement in the crime remains unknown, thanks to She-Who-Erases."
- ek_murder_outcome.0001.a: "O Boethiah, we come to worship thee!"
+ ek_murder_outcome.0001.t: "Испытание Боэтии"
+ ek_murder_outcome.0001.intro: "Время пришло. Мои сообщники на месте. Один из них похитит цель в ту же ночь, когда всё произойдёт. Другой проследит, чтобы на стене не было стражников. Третий оставит тонкий след из свечей, ведущий к спальне, где дремлет [target.GetTitledFirstNamePossessive].\n\nВсе на своих местах."
+ ek_murder_outcome.0001.desc.1: "«О Боэтия, Госпожа интриг, Обманщица народов, Королева теней, мы пришли воздать тебе хвалу!»\n\nПроверяя остроту своего кинжала и прочность цепей, которыми [target.GetName] [Select_CString(target.IsFemale, 'прикована', 'прикован' )] к каменной плите, я дрожу от предвкушения. Я перерезаю [target.GetHerHis] горло во имя Богини разрушения."
+ ek_murder_outcome.0001.desc.2: "«Боэтия, твои верные слуги преподносят тебе требуемую жертву!»\n\nПроиски сработали, и [target.GetName] [Select_CString(target.IsFemale, 'прикована', 'прикован' )] к алтарю! Когда я вонзаю свой кинжал в [target.GetHerHis] грудь, я взываю к имени Боэтии."
+ ek_murder_outcome.0001.desc.3: "«Госпожа интриг, о, наша дражайшая Тёмная воительница, мы призываем тебя принять требуемую жертву!»\n\nПохоже, [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'оказалась', 'оказался' )] не самой простой добычей, но когда моему сообщнику это наконец удалось, [target.GetSheHe] [Select_CString(target.IsFemale, 'оказала', 'оказал' )] небольшое сопротивление. [Select_CString(target.IsFemale, 'Прикованная', 'Прикованный' )] к столбу, с острым кинжалом между рёбер, [target.GetSheHe] [Select_CString(target.IsFemale, 'скрепила', 'скрепил' )] сделку под пение культистов."
+ ek_murder_outcome.0001.revealed.success: "\n\nОднако кто-то где-то допустил ошибку, и о моём участии в жертвоприношении стало известно! По крайней мере, я могу утешить себя тем фактом, что Боэтия получила то, что было обещано."
+ ek_murder_outcome.0001.kept_secret.success: "\n\nО моём участии никто не узнал, благодаря Той-что-Уничтожает."
+ ek_murder_outcome.0001.a: "О Боэтия, мы пришли воздать тебе хвалу!"
 
- ek_murder_outcome.0002.t: "Boethiah's Calling"
- 
- ek_murder_outcome.0003.desc: "However, all the preparations have been in vain. Maybe it was pure luck or a warning that saved [target.GetTitledFirstName], but the kidnapping went wrong. The altar will remain empty, and no blood will be spilled in Boethiah's favor tonight."
- ek_murder_outcome.0003.revealed.failure: "\n\nUnfortunately, while I struggle to keep the appearances, no one doubts that it was my doing."
- ek_murder_outcome.0003.kept_secret.failure: "\n\nI have covered my tracks well, and if anyone suspects me for being behind the rite, no one dares say it out loud."
- ek_murder_outcome.0003.a.discovered: "Soon, all will bow to the Prince of Plots!"
- ek_murder_outcome.0003.a: "This shall remain secret for now."
+ ek_murder_outcome.0002.t: "Зов Боэтии"
 
- ek_murder_outcome.undead.t: "An Unlife Ends"
- ek_murder_outcome.failure.undead.t: "An Attempt on my Unlife!"
- ek_murder_outcome.0000.successful_scheme_target.undead: "It was all for nothing."
- 
- ek_murder_outcome.0101.t: "A Banished Fiend"
- ek_murder_outcome.0101.desc: "One of my agents has secured a powerful scroll of banish undead. With this, we can inscribe cleansing runes directly outside [target.GetTitledFirstNamePossessive] chambers. The moment [target.GetSheHe] steps into the trap, no dark magic will be able to shield [target.GetHerHim]."
- ek_murder_outcome.0101.a: "Only ash remains."
+ ek_murder_outcome.0003.desc: "Однако все приготовления оказались напрасными. Возможно, это была чистая удача или предупреждение, благодаря которому [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'спаслась', 'спасся' )], но похищение провалилось. Алтарь останется пустым, и сегодня ночью во имя Боэтии не прольётся кровь."
+ ek_murder_outcome.0003.revealed.failure: "\n\nК сожалению, хотя я изо всех сил стараюсь соблюсти приличия, никто не сомневается, что это моих рук дело."
+ ek_murder_outcome.0003.kept_secret.failure: "\n\nЯ хорошо [Select_CString(ROOT.Char.IsFemale, 'замела', 'замёл' )] свои следы, и если кто-то и подозревает меня в том, что я стою за этим обрядом, никто не осмеливается сказать об этом вслух."
+ ek_murder_outcome.0003.a.discovered: "Скоро все склонятся перед Госпожой интриг!"
+ ek_murder_outcome.0003.a: "Пока это останется тайной."
 
- ek_murder_outcome.0102.desc: "I wander through the halls of my castle when a searing light ignites beneath me. What treachery is this? The air ripples with power as runes blaze in defiance of my mastery. A fiery lance pierces my ribs, my bones splintering as cleansing light claws through me. No! This cannot be! My vision fractures, the world narrowing to a single, blinding point of agony.\n\nMy eternal soul screams, clawing for an anchor, but the banishment grips tight, dragging me away from the husk that was my body. #DIE1 I am ash and nothing#!, #DIE2 I am undone!#"
- 
- ek_murder_outcome.0103.desc: "It should have ended in burning fire. My agents carefully placed a rune of banishment for the undead within the halls of [target.GetTitledFirstNamePossessive] castle. Yet, it seems some of [target.GetHerHis] mortal servants stumbled into the trap, triggering its cleansing magic in vain. Now the rune lies spent, and that accursed lich still walks unharmed."
- ek_murder_outcome.0103.a.discovered: "Such wa waste of a powerful scroll."
- ek_murder_outcome.0103.a: "[target.GetTitledFirstName] will not escape death forever."
+ ek_murder_outcome.undead.t: "Окончание нежизни земной"
+ ek_murder_outcome.failure.undead.t: "Покушение на мою нежизнь!"
+ ek_murder_outcome.0000.successful_scheme_target.undead: "Всё было напрасно."
 
- ek_murder_outcome.0104.desc: "I am startled by a flash of bright light and a terrified scream just outside my chambers. One of my servants stands, momentarily engulfed in golden fire that fades without leaving a mark. My gaze shifts to the faintly glowing runes on the ground, their power dissipating. It becomes clear - someone dared to lay a circle of banish undead, meant for me."
+ ek_murder_outcome.0101.t: "Изгнание монстра"
+ ek_murder_outcome.0101.desc: "Один из моих сообщников раздобыл мощный свиток изгнания нежити. С его помощью мы можем начертать очищающие руны непосредственно рядом с покоями, в которых отдыхает [target.GetTitledFirstNamePossessive]. В тот момент, когда [target.GetSheHe] попадёт в ловушку, никакая тёмная магия не сможет защитить [target.GetHerHis]."
+ ek_murder_outcome.0101.a: "Останется лишь пепел."
 
- ek_murder_outcome.0111.t: "Torches and Pitchforks"
+ ek_murder_outcome.0102.desc: "Я брожу по залам своего замка, когда подо мной вспыхивает обжигающий свет. Что это за коварство? Воздух сотрясается от силы, когда руны вспыхивают, бросая вызов моему мастерству. Огненное копье пронзает мои ребра, кости раскалываются, когда очищающий свет проникает сквозь меня. Нет! Этого не может быть! Моё зрение меркнет, мир сужается до одной ослепляющей точки агонии.\n\nМоя вечная душа кричит, цепляясь за якорь, но изгнание захватывает крепко, вырывая меня из оболочки, которая была моим телом. #DIE1 Я [Select_CString(ROOT.Char.IsFemale, 'стала', 'стал' )] лишь пеплом и ничем иным#!, #DIE2 я [Select_CString(ROOT.Char.IsFemale, 'уничтожена', 'уничтожен' )]!#"
+
+ ek_murder_outcome.0103.desc: "Всё должно было завершиться вспышкой огня. Мои сообщники тщательно начертили руну изгнания в залах замка, которым правит [target.GetTitledFirstNamePossessive]. Тем не менее, кажется, что некоторые из [target.GetHerHis] смертных слуг наткнулись на ловушку, впустую задействовав её очищающую магию. Теперь руна истощена, а проклятый лич всё ещё ходит [Select_CString(target.IsFemale, 'невредимая', 'невредимый' )]."
+ ek_murder_outcome.0103.a.discovered: "Пустая трата мощного свитка."
+ ek_murder_outcome.0103.a: "[target.GetTitledFirstName] не сможет вечно избегать смерти."
+
+ ek_murder_outcome.0104.desc: "Я вздрагиваю от вспышки яркого света и испуганного крика прямо за дверью моих покоев. Один из моих слуг встает, на мгновение охваченный золотым пламенем, которое исчезает, не оставляя следа. Мой взгляд перемещается на слабо светящиеся руны на земле, их сила рассеивается. Становится ясно - кто-то осмелился наложить круг изгнания нежити, предназначенный для меня."
+
+ ek_murder_outcome.0111.t: "Факелы и вилы"
  ek_murder_outcome.0111.desc: "It was easy enough to stir the embers of rebellion among the subjects of [target.GetTitledFirstName]. Armed with improvised weapons and righteous fury, they now march on [target.GetHerHis] castle, their rage fueled by tales of their master's dark sorcery. No guard or gate is willing to stop the mob, and once they reach [target.GetHerHis] chambers, the torches are pressed against the heavy doors and set ablaze.\n\nNo barrier of necromantic power can hold back the inferno. The air thickens with smoke as the fire consumes everything within."
  ek_murder_outcome.0111.a: "They freed themselves - and me - from [target.GetTitledFirstName]."
 
