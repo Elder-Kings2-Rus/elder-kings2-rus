@@ -447,8 +447,8 @@
  PettyKingdom: "Малое королевство"
  Principality: "Княжество"
 
- count_feudal_independent_male: "Принц"
- count_feudal_independent_female: "Принцесса"
+ count_feudal_independent_male: "Князь"
+ count_feudal_independent_female: "Княгиня"
  county_feudal_independent: "[CHARACTER.Custom('BretonPrinceCounty')]"
 
  #Nordic Group#
@@ -531,8 +531,8 @@
  emperor_feudal_female_yokudan: "Уэй-мутэй"
 
  #Redguard
- count_feudal_redguard_independent_male: "Принц"
- count_feudal_redguard_independent_female: "Принцесса"
+ count_feudal_redguard_independent_male: "Князь"
+ count_feudal_redguard_independent_female: "Княгиня"
  county_feudal_redguard_independent: "[CHARACTER.Custom('RedguardPrinceCounty')]"
 
  county_administrative_crown: "Графство"
@@ -548,8 +548,8 @@
  king_administrative_female_crown: "[CHARACTER.Custom('KingAdminFemaleHammerfell')]"
 
  kingdom_administrative_crown_vassal: "Великое княжество"
- king_administrative_male_crown_vassal: "Великий принц"
- king_administrative_female_crown_vassal: "Великая принцесса"
+ king_administrative_male_crown_vassal: "Великий князь"
+ king_administrative_female_crown_vassal: "Великая княгиня"
 
  empire_hammerfell_republic: "Республика"
 
@@ -794,12 +794,12 @@
  count_feudal_female_falmer: "Арпена"
  county_feudal_falmer: "Арпенство"
 
- duke_feudal_male_falmer: "Принц"
- duke_feudal_female_falmer: "Принцесса"
+ duke_feudal_male_falmer: "Князь"
+ duke_feudal_female_falmer: "Княгиня"
  duchy_feudal_falmer: "Княжество"
 
- king_feudal_male_falmer: "Верховный принц"
- king_feudal_female_falmer: "Верховная принцесса"
+ king_feudal_male_falmer: "Верховный князь"
+ king_feudal_female_falmer: "Верховная княгиня"
  kingdom_feudal_falmer: "Королевство"
 
  #Betrayed Group
