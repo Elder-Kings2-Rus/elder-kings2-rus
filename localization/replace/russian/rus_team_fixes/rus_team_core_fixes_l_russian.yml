@@ -4,3 +4,7 @@
  ADMIN_BOOKMARK_CHARACTER_TITLE: "Губернатор ([BookmarkCharacter.GetTitleName])"
  # Букмарки. Замена 'Королева владения X - форма правления' на 'Королева (X - форма правления)'
  BOOKMARK_CHARACTER_TITLE_TYPE: "[BookmarkCharacter.GetTitleTierName] ([BookmarkCharacter.GetTitleName] - #weak [BookmarkCharacter.GetGovernmentType.GetNameWithIcon]#!)"
+ fp3_yearly.2020.desc_cynical: "[ROOT.Char.GetFaith.HighGodName], религия — все это мало интересует [Select_CString(sinful_tax_collector.IsFemale, 'ее', 'его' )]. [Select_CString(sinful_tax_collector.IsFemale, 'Она', 'Он' )] регулярно просыпает утренние молитвы и то и дело таскает куски со стола в священные дни."
+ fp3_yearly.2021.desc_cynical: "«[sinful_tax_collector.GetTitledFirstNameNoTooltip] [Select_CString(sinful_tax_collector.IsFemale, 'известна', 'известен' )] тем, что [ROOT.Char.GetFaith.HighGodName] не внушает [Select_CString(sinful_tax_collector.IsFemale, 'ей', 'ему' )] трепета. [Select_CString(sinful_tax_collector.IsFemale, 'Она', 'Он' )] регулярно просыпает утренние молитвы и часто крадет куски со стола в священные дни. Все мы боимся, что однажды [ROOT.Char.GetFaith.HighGodName] покарает [Select_CString(sinful_tax_collector.IsFemale, 'ее', 'его' )]»."
+ fp3_yearly.2021.a: "[sinful_tax_collector.GetTitledFirstNameNoTooltip|U] будет [Select_CString(sinful_tax_collector.IsFemale, 'уволена', 'уволен' )]." # Scorg. Убираем отсылки на иншаллу и рамадан
+ 

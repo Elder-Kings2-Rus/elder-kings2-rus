@@ -236,4 +236,7 @@
  naga_snake_hood_01:0 "Змеиный капюшон нага"
  ek_travel_events_valenwood.4005.a.success:0 "[hunter_character.GetFirstNameNoTooltip|U] сбивает мимиков"
  dyn_lamzakha_motto:0 "Искупим поражение Орсиниума" #отсебятина для орчихи-авантюристки
+ culture_parameter_can_build_quarries_in_hills: "Цепочку [Concept('buildings', 'зданий')|E] #V $building_type_quarries_01$#! всегда можно строить [Concept('counties', 'графствах')|E] этой [Concept('culture', 'культуры')|E] с холмами"
+ nick_the_amber_scale:0 "Янтарная чешуя"
+ NOT_CHARACTER_IS_A_VAMPIRE:0 "[CHARACTER.GetShortUIName|U] — #bold не#! [GetTrait('vampire_character').GetName( CHARACTER.Self )]"
  
