@@ -120,7 +120,6 @@
  activity_adult_education_location_magic_university_tt: "Здесь нет центра магического образования!"
  activity_adult_education_location_only_magic_university_tt: "Это место предлагает только обучение магии!"
  activity_adult_education_location_daedra_tolerated_tt: "Здесь не рады даэдра!"
- adult_education_can_magic_tt: "Вы должны уметь колдовать"
  adult_education_no_max_magic_tt: "У вас уже есть [Concept('trait', 'свойство')|E] «[GetTrait('education_magic_5').GetName( GetNullCharacter )]»"
  adult_education_no_max_education_tt: "У вас уже есть наивысшее [Concept('education_trait', 'свойство образования')|E]"
 

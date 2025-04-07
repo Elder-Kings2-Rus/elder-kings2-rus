@@ -40,6 +40,14 @@
  syradri_collective_noun:0 "Сирадрийск"
  syradri_prefix:0 "Сирадро"
 
+ colonord_name: "Коло-норды"
+ colonord_collective_noun: "Коло-нордск"
+ colonord_prefix: "Коло-нордо"
+ 
+ cyrobreton_name: "Сиро-бретонцы"
+ cyrobreton_collective_noun: "Сиро-бретонск"
+ cyrobreton_prefix: "Сиро-бретоно"
+  
  cyrodiil_orc_name:0 "Рубиновые орки"
  cyrodiil_orc_collective_noun:0 "Рубиново-оркск"
  cyrodiil_orc_prefix:0 "Орко"
@@ -116,6 +124,10 @@
  altmeridunmer_collective_noun:0 "Мора-Ввинтск"
  altmeridunmer_prefix:0 "Ввинто"
  
+ moriche_name: "Мориче" #Ayleid+Dunmer, TED Dark Elves :(
+ moriche_collective_noun: "Моричск"
+ moriche_prefix: "Моричо"
+  
  mabrigashi_name:0 "Мабригаши" #Ashlander following Sithis
  mabrigashi_collective_noun:0 "Мабригашск"
  mabrigashi_prefix:0 "Мабригаш"
@@ -181,18 +193,10 @@
  grahthleel_name:0 "Гратхлилы" #Argonians in Valenwood
  grahthleel_collective_noun:0 "Гратхлилск"
  grahthleel_prefix:0 "Грато"
- 
- grahti_name:0 "Грахти" #impossible like Morathi, also redundant since Etarani exists?
- grahti_collective_noun:0 "Грахтийск"
- grahti_prefix:0 "Грахтийско"
 
  graymire_name:0 "Серотрясинцы"
  graymire_collective_noun:0 "Серотрясинск"
  graymire_prefix:0 "Серотрясинско"
- 
- morathi_name:0 "Морати" #impossible since there's already a Bosmeri culture native to Greenshade
- morathi_collective_noun:0 "Моратийск"
- morathi_prefix:0 "Моратийско"
  
  salache_name:0 "Салаче" #Altmer + Bosmer
  salache_collective_noun:0 "Салачейск"

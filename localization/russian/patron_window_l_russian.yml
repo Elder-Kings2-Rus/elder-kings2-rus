@@ -62,7 +62,7 @@
  patron_boethiah_desc:0 "Обманщица Народов"
  patron_boethiah_long_desc:0 "[GetPlayer.Custom('GetObBoethiahDesc')]"
  patron_boethiah_summary:0 "Статус: [GetPlayer.Custom('GetPatronStatus_boethiah')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_boethiah')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_boethiah').GetValue|+0]"
- desc_boethiah:0 "#LORE [compendium_daedric_prince]#! Интриг, Боэтия правит своим царством в Обливионе. Обычно её изображают в виде воина - мужчины или женщины. Считается, что в #LORE [Concept( 'compendium_merethic_era', 'Меретическую эру' )|E]#! Боэтия 'съела' Тринимака, породив Малаката и орсимеров."
+ desc_boethiah:0 "#LORE [compendium_daedric_prince]#! Интриг, Боэтия правит своим царством в Обливионе. Обычно её изображают в виде воина - мужчины или женщины. Считается, что в #LORE [Concept( 'compendium_merethic_era', 'Меретическую эру' )|E]#! Боэтия 'съела' Тринимака, породив Малаката и орков."
  
  patron_clavicus_name:0 "[GetPlayer.Custom('GetObClavicusName')]"
  patron_clavicus_desc:0 "Повелитель Пагубных Желаний"
@@ -92,7 +92,7 @@
  patron_malacath_desc:0 "Защитник Преданных"
  patron_malacath_long_desc:0 "[GetPlayer.Custom('GetObMalacathDesc')]"
  patron_malacath_summary:0 "Статус: [GetPlayer.Custom('GetPatronStatus_malacath')]\nТип поклонения: [GetPlayer.Custom('GetPatronWorshipType_malacath')]\nСтрасть: [GetPlayer.MakeScope.Var('ardor_malacath').GetValue|+0]"
- desc_malacath:0 "#LORE [compendium_daedric_prince]#! Отверженных, Малакат правит Зольником в Обливионе. Обычно его изображают в виде орка с мечом или топором. У Малаката есть преданные последователи среди орсимеров, многие из которых живут по его заветам - Кодексу Малаката."
+ desc_malacath:0 "#LORE [compendium_daedric_prince]#! Отверженных, Малакат правит Зольником в Обливионе. Обычно его изображают в виде орка с мечом или топором. У Малаката есть преданные последователи среди орков, многие из которых живут по его заветам - Кодексу Малаката."
  god_malacath_reach_name:0 "Малакат"
  desc_malacath_reach:0 "Повелитель Пепла и Костей, Малакат покровительствует всем отверженным и гонимым народам. Его уроки заключаются в том, чтобы обрести силу и отомстить своим угнетателям. Некоторые ричмены считают избранным народом Малаката себя, а не орков и прочих гоблин-кинов."
  

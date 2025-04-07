@@ -5,7 +5,7 @@
 
 
  heritage_aldmeri_collective_noun:0 "Альдмеры"
- heritage_aldmeri_desc:0 "Альдмеры - особенные среди детей эльнофей, всегда стремящиеся вернуть великолепие утраченных времён. Заселив острова Саммерсет в #LORE [Concept( 'compendium_merethic_era', 'Меретическую эру' )|E]#!, они постепенно распространились по всему архипелагу, начиная с Фёстхолда на Ауридоне. Многие диссиденты вышли из их рядов, решив отправиться в плавание на материк. Кореланьи искали свою судьбу в соседнем Хегате, в то время как кимеры отправились далеко на восток, в Ресдайн. Позже даже клан Диренни переехал в Балфиеру.\n\nОставшееся население Саммерсета, которое теперь называется альтмерами, сформировало сильно расслоенное общество. Апраксические изгои подвергаются изгнанию за нарушение социальных норм. Альтмеры очень эгоцентричны, Ауридон более снисходителен к чужакам, в то время как Алинор — их закрытое сердце страны. Напротив, балфиерцы из Хай-Рока более непредвзяты, даже вступают в брак с представителями знати их других стран, что в исконном Саммерсете считается совершенно отвратительным."
+ heritage_aldmeri_desc: "The tall and light-skinned High Elves hail from the Summerset Isles. Forever mourning their lost [Glossary( 'Aldmeris', 'ALDMERIS_GLOSS' )], they consider themselves direct descendants of the Gods who created this world and strive to honor them with their every action. This devotion to their ancestors has led them to develop a very constrained society, but one in which every Altmer is considered divine. Those not of their tribe, however, are less fortunate and are referred to as 'lesser races.'"
 
  #heritage_ayleid_name:0 "Ayleid"
  heritage_ayleid_name:0 "Айлейдск"
@@ -26,7 +26,7 @@
  #heritage_bosmeri_name:0 "Bosmeri"
  heritage_bosmeri_name:0 "Босмерск"
  heritage_bosmeri_collective_noun:0 "Босмеры"
- heritage_bosmeri_desc:0 "Босмеры — раса меров Валенвуда, лесистой провинции на юго-западе Тамриэля. В #LORE [Concept( 'compendium_dawn_era', 'Эру Рассвета' )|E]#! И'ффре сформировала их из первозданной материи, известной как $ooze_name$ в обмен на соблюдение Зелёного Пакта, предписания, которое запрещает наносить вред любой растительной жизни в Валенвуде и выступает за строго плотоядную диету. Типичные босмеры — невысокие, смуглые меры, у них могут быть рога, плоские зрачки или жуткие, чёрные как смоль, глаза. Эти искусные лучники объединяются в сплочённые кланы, закалённые испытаниями природы и междоусобными войнами.\n\n#LORE [compendium_merethic_era]#! подошла к концу, когда Эплир Каморан объединил провинцию под единым правлением, что можно считать зенитом босмерской истории. В конце #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#! Валенвуд был завоёван империей Ремана, что заставило некоторых отказаться от традиций в пользу альтмерских или сиродильских обычаев. Хотя и ослабленные, члены клана Каморан всё ещё правили обширными участками земли во #LORE [Concept( 'compendium_second_era', 'Второй эре' )|E]#!, а во время Междуцарствия вели междуусобные войны за мантию короля-оленя."
+ heritage_bosmeri_desc:0 "Босмеры — раса меров Валенвуда, лесистой провинции на юго-западе Тамриэля. В #LORE [Concept( 'compendium_dawn_era', 'Эру Рассвета' )|E]#! И'ффре сформировала их из первозданной материи, известной как $ooze_name$ в обмен на соблюдение Зелёного Пакта, предписания, которое запрещает наносить вред любой растительной жизни в Валенвуде и выступает за строго плотоядную диету. Типичные босмеры — невысокие, смуглые меры, у них могут быть рога, плоские зрачки или жуткие, чёрные как смоль, глаза. Эти искусные лучники объединяются в сплочённые кланы, закалённые испытаниями природы и междоусобными войнами."
 
  #heritage_chimeri_name:0 "Chimeri"
  heritage_chimeri_name:0 "Кимерск"
@@ -36,12 +36,12 @@
  #heritage_dunmeri_name:0 "Dunmeri"
  heritage_dunmeri_name:0 "Данмерск"
  heritage_dunmeri_collective_noun:0 "Данмеры"
- heritage_dunmeri_desc:0 "Пепельнокожие и красноглазые данмеры родом из Морровинда, мрачной земли на северо-востоке Тамриэля. Их предки - $chimer$ были прокляты после битвы у Красной Горы. С тех пор большинство данмеров живут под властью Совета Великих Домов, опекаемого Храмом Трибунала. Тем не менее, племена эшлендеров цепляются за старый велотийский пантеон и осуждают АЛЬМСИВИ как ложных богов и предателей.\n\nВо время #LORE [Concept( 'compendium_second_era', 'Второй эры' )|E]#! Морровинд оградился от остального мира и не так сильно ощутил крах Потентата, как прочие. Великие Дома остаются сильными благодаря поддержке Живых Богов, но их замыслы таинственны, а малые дома могут нарушить статус-кво, если подхватят ветер перемен."
+ heritage_dunmeri_desc:0 "The ashen-skinned, red-eyed Dark Elves hail from grim Morrowind in the east of Tamriel. After the Battle of Red Mountain in 1E 700, their Chimeri ancestors were changed, becoming the Dunmer of today. They have long lived under the Great Houses and Tribunal Temple, or in Ashlander clans clinging to the old Velothi pantheon."
 
  #heritage_maormeri_name:0 "Maormeri"
  heritage_maormeri_name:0 "Маормерск"
  heritage_maormeri_collective_noun:0 "Маормерск"
- heritage_maormeri_desc:0 "Маормеры - это потомки альдмерских повстанцев, которые были изгнаны из #LORE [Concept( 'compendium_aldmeris', 'Альдмериса' )|E]#! в Пиандонею за преступное стремление к переменам. Обычно считается, что ими правит бог-король Оргнум, но далеко не все маормеры признают его духовное или светское превосходство. Действительно, многие из этих изгнанников не имели никакого отношения к восстанию Оргнума; альдмеры собрали всех инакомыслящих вместе и отправили их за завесу тумана на юг.\nСегодня Пиандонея живет в постоянном движении, разделённая между последователями Оргнума, живущими на материке, и неортодоксальными островитянами, которые все ещё цепляются за свою причудливую альдмерскую мысль. Таким образом, на родине маормеров никогда не бывает мира: острова враждуют с материком, а материк стремится к переменчивой благосклонности Оргнума, ибо их повелитель — затворник."
+ heritage_maormeri_desc:0 "Маормеры - это потомки альдмерских повстанцев, которые были изгнаны из [Glossary( 'Альдмериса', 'ALDMERIS_GLOSS' )] в Пиандонею за преступное стремление к переменам. Обычно считается, что ими правит бог-король Оргнум, но далеко не все маормеры признают его духовное или светское превосходство. Действительно, многие из этих изгнанников не имели никакого отношения к восстанию Оргнума; альдмеры собрали всех инакомыслящих вместе и отправили их за завесу тумана на юг.\nСегодня Пиандонея живет в постоянном движении, разделённая между последователями Оргнума, живущими на материке, и неортодоксальными островитянами, которые все ещё цепляются за свою причудливую альдмерскую мысль. Таким образом, на родине маормеров никогда не бывает мира: острова враждуют с материком, а материк стремится к переменчивой благосклонности Оргнума, ибо их повелитель — затворник."
 
  #heritage_khajiiti_name:0 "Khajiiti"
  heritage_khajiiti_name:0 "Каджитск"
@@ -56,12 +56,7 @@
  #heritage_atmoran_name:0 "Atmoran"
  heritage_atmoran_name:0 "Атморск"
  heritage_atmoran_collective_noun:0 "Атморцы"
- heritage_atmoran_desc:0 "Свирепая и воинственная культура, норды - потомки последних атморских переселенцев. Они прибыли на Тамриэль под командованием Исграмора, сохраняя мирные отношения с местными фалмерами до тех пор, пока снежные эльфы не разрушили Саартал, первый и крупнейший город атморцев в Скайриме. После этого норды в ярости завоевали весь Скайрим. Эти выносливые и стойкие люди признаются одними из наиболее уважаемых воинов во всём Тамриэле. Норды считают себя прирождёнными грабителями и захватчиками, и даже когда они завоёвывают другие народы и правят ими, редко очущают с ними родство."
-
- #heritage_old_breton_name:0 "Old Breton"
- heritage_old_breton_name:0 "Старо-бретонск"
- heritage_old_breton_collective_noun:0 "Старо-бретонцы"
- heritage_old_breton_desc:0 "Чистокровные люди, коренные жители Хай Рока" #Многа букав, текста не было
+ heritage_atmoran_desc:0 "A fierce and warlike culture, the Nords are the descendants of the last Atmoran settlers of Skyrim. They first arrived under the command of Ysgramor and came to conquer all of Skyrim. They are hardy and resilient people, and approach every endeavour with elemental violence. The Nords see themselves as eternal outsiders and invaders, and even when they conquer and rule another people, they rarely feel kinship with them."
 
  #heritage_breton_name:0 "Breton"
  heritage_breton_name:0 "Бретонск"
@@ -98,10 +93,10 @@
  heritage_yokudan_collective_noun:0 "Йокуданцы"
  heritage_yokudan_desc:0 "Йокуданцы — темнокожие, жёстковолосые люди, уроженцы западного континента Йокуда, расположенного в Эльтерическом океане. В начале #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#! Йокуда была разрушена в результате долгой серии гражданских войн, хотя некоторые ученые оспаривают это и возлагают вину за ее разрушение на природные катастрофические землетрясения. Это событие вынудило многих из них совершить кровавую и безжалостную миграцию в Тамриэль, в земли, которые сейчас называются Хаммерфеллом. Потомки йокуданцев в Тамриэле известны как редгарды - термин, искажённый от печально известной Ра Гада или «Волна воителей» с йокуданского."
 
- #heritage_orsimeri_name:0 "Orsimeri"
- heritage_orsimeri_name:0 "Орсимерск"
- heritage_orsimeri_collective_noun:0 "Орсимеры"
- heritage_orsimeri_desc:0 "«Отверженный народ» орсимеров, более известных как орки, — клыкастые, зеленокожие гуманоиды с автаркической культурой, сосредоточенной вокруг вождя, основной политической фигуры, вокруг которой крутится вся орочья жизнь. \nСамая популярная теория происхождения — повествует о том, как их бог-покровитель Тринимак был проклят и превращён в Малаката. Это преобразило физическую форму орсимеров в ту, которую они имеют сегодня. Однако эта версия ставится под сомнение, поскольку есть улики, опровергающие её."
+ #heritage_orsimeri_name:0 "Orcish"
+ heritage_orsimeri_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ) ), 'Orcish', Localize('no') )]"
+ heritage_orsimeri_collective_noun:0 "Orcs"
+ heritage_orsimeri_desc:0 "The Orcs are a green-skinned and tusked race. Scattered across Tamriel, thriving mostly in stark mountains and harsh terrain, they are united by their respect for strength — for which they are recognised across Tamriel as soldiers and smiths — and their distrust for outsiders. Beyond this, few orcish settlements are the same as others. Some orcs are mobile, and others settled; some live in large cities and fortifications, and others in strongholds with their clans."
 
  #heritage_goblinken_name:0 "Goblinken"
  heritage_goblinken_name:0 "Гоблин-кинск"
@@ -111,7 +106,7 @@
  #heritage_argonian_name:0 "Argonian"
  heritage_argonian_name:0 "Аргонианск"
  heritage_argonian_collective_noun:0 "Аргониане"
- heritage_argonian_desc:0 "Саксхлил — «Народ корня» с языка джель, в просторечии называемые аргонианами, — это зверолюди-рептилии, населяющие Аргонию на юго-востоке Тамриэля. Коварные болота населяют несколько разрозненных племен, к числу которых относят $naga$, $hleel$, $paatru$ и прочих, которые зарабатывают на жизнь земледелием и охотой.\n\nДо #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#! древняя цивилизация Саксхлил была урбанизирована до такой степени, что возводила монументальные каменные пирамиды, называемые занмирами. Но во времена #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#! цивилизация занмиров рухнула после таинственного «Сумеречья». Деревья Хист предвидели катастрофу и укрыли племена Саксхлил, обеспечив устойчивый рост поклонения Хист и даровав более спокойную жизнь своим последователям.\n\nДеревья поддерживают симбиотические отношения со своим племенем-хранителем: древохранители обеспечивают ежедневный уход за деревом Хист, в то время как Хист позволяют яйцам вылупляться, а новорожденным потреблять живицу Хист, принимая гуманоидную форму."
+ heritage_argonian_desc:0 "The Argonians of Black Marsh are a race in many forms, some lizardlike, and others serpentine. In their own language, they are the Saxhleel — people of the roots — as they are guided in all things by the roots of the Hist. Every tribe lives among these thinking trees, who are their patrons and leaders. Thanks to the Hist, Argonians thrive in the marshes as nobody else can — but without these revered trees, all other lands are alien wastes, fit only for the most daring and detached."
 
  #heritage_dremora_name:0 "Dremora"
  heritage_dremora_name:0 "Дреморск"

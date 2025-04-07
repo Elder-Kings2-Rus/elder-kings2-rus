@@ -38,7 +38,7 @@
  name_list_strident:0 "Стридские"
  name_list_nibenese:0 "Нибенейские"
  name_list_rimmenese:0 "Римменийские"
- name_list_blackwood:0 "Старонибенейские"
+ name_list_blackwood:0 "Нибенейские"
  name_list_heartlander:0 "Хартлендские"
  #ek_dremora
  name_list_dremora:0 "Дреморские"
@@ -65,9 +65,6 @@
  name_list_lilmothiit:0 "Лилмотитские"
  #ek_misc
  name_list_placeholder:0 "Заглушка?"
- #ek_nedic_central
- name_list_perena:0 "Перенские"
- name_list_gemha:0 "Гемхские"
  #ek_nedic_north
  name_list_reachfolk:0 "Ричменские"
  #name_list_galen:0 "Galen"

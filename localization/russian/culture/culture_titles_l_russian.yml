@@ -668,6 +668,22 @@
  baron_feudal_male_reachfolk: "Вождь"
  baron_feudal_female_reachfolk: "Предводительница"
 
+ #Galen
+ baron_theocracy_male_druid_circles: "Послушник"
+ baron_theocracy_female_druid_circles: "Послушница"
+  
+ count_theocracy_male_druid_circles: "Друид"
+ count_theocracy_female_druid_circles: "Друидесса"
+ county_theocracy_druid_circles: "Круг"
+  
+ duke_theocracy_male_druid_circles: "Верховный друид"
+ duke_theocracy_female_druid_circles: "Верховная друидесса"
+ duchy_theocracy_druid_circles: "Верховный круг"
+  
+ king_theocracy_male_druid_circles: "Король друидов"
+ king_theocracy_female_druid_circles: "Королева друидов"
+ kingdom_theocracy_druid_circles: "Королевский круг"
+  
  #Khajiiti Group
  #Feudal
  baron_feudal_male_khajiiti: "Хатти"
@@ -1134,19 +1150,6 @@
  duke_theocracy_male_xanmeer_religion: "Вох-вастей"
  duke_theocracy_female_xanmeer_religion: "Вох-вастей"
  duchy_theocracy_xanmeer_religion: "Священный занмир"
-
- #Druid Religion
- baron_theocracy_male_druid_circles: "Послушник"
- baron_theocracy_female_druid_circles: "Послушница"
- count_theocracy_male_druid_circles: "Друид"
- count_theocracy_female_druid_circles: "Друидесса"
- county_theocracy_druid_circles: "Круг"
- duke_theocracy_male_druid_circles: "Верховный друид"
- duke_theocracy_female_druid_circles: "Верховная друидесса"
- duchy_theocracy_druid_circles: "Верховный круг"
- king_theocracy_male_druid_circles: "Король друидов"
- king_theocracy_female_druid_circles: "Королева друидов"
- kingdom_theocracy_druid_circles: "Королевский круг"
 
  #Holy Orders
  duke_order_tribunal_male: "Высший ординатор"
