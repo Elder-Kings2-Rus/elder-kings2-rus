@@ -28,10 +28,10 @@
  culture_parameter_tolerant_of_orc_pariahs:0 "Нельзя использовать [casus_belli|E] #V 'Изгнание монстров'#! против [Concept('pariahs', 'отверженных')|E] с #V $heritage_orsimeri_name|l$им#! [Concept('heritage', 'наследием')|E] или [Concept('pariah_discriminate', 'притеснённых')|E], не считая это [Concept('tyranny', 'тиранией')|E]"
  culture_parameter_danger_sense_save:0 "Персонажи этой [Concept( 'culture', 'культуры' )|E] с большей вероятностью переживут [GetScheme('murder').GetTypeName] [intrigue_i]"
  culture_parameter_can_join_legion:0 "[SelectLocalization( HasDlcFeature( 'the_northern_lords' ), 'can_join_legion_dlc_yes', 'can_join_legion_dlc_no' )]"
- can_join_legion_dlc_yes:0 "Персонажи этой [Concept( 'culture', 'культуры' )|E] могут использовать [dynast_interaction|El] #V Отправить в Имперский легион#!"
+ can_join_legion_dlc_yes:0 "Персонажи этой [Concept( 'culture', 'культуры' )|E] могут использовать [Concept('dynast_interaction', 'взаимодействие главы династии')|E] #V Отправить в Имперский легион#!"
  can_join_legion_dlc_no:0 ""
  culture_parameter_can_be_legion_holder:0 "[SelectLocalization( HasDlcFeature( 'the_northern_lords' ), 'can_hold_legion_dlc_yes', 'can_hold_legion_dlc_no' )]"
- can_hold_legion_dlc_yes:0 "Пока персонаж этой [Concept('culture', 'культуры')|E] удерживает [GetTitleByKey('c_bastion').GetNameNoTier], [dynast_interaction|E] #V Отправить в Имперский легион#! активно"
+ can_hold_legion_dlc_yes:0 "Пока персонаж этой [Concept('culture', 'культуры')|E] удерживает владение [GetTitleByKey('c_bastion').GetNameNoTier], [dynast_interaction|El] может использовать взаимодействие #V Отправить в Имперский легион#!"
  can_hold_legion_dlc_no:0 ""
  culture_parameter_free_divorce:0 "Персонажи этой [Concept('culture', 'культуры')|E] не получают штрафов к [Concept('opinion', 'мнению')|E] за [Concept('divorcing', 'развод')|E] с супругами или отказ от [Concept('concubines', 'наложниц')|E]"
  culture_parameter_bastard_opinion:0 "Персонажи этой [Concept('culture', 'культуры')|E] не получают штрафов от свойств [GetTrait('bastard').GetName( GetNullCharacter )], [GetTrait('legitimized_bastard').GetName( GetNullCharacter )], [GetTrait('disputed_heritage').GetName( GetNullCharacter )], [GetTrait('child_of_concubine_female').GetName( GetNullCharacter )], [GetTrait('wild_oat').GetName( GetNullCharacter )] или [GetTrait('bastard_founder').GetName( GetNullCharacter )]"
@@ -582,7 +582,7 @@
 
  # Imperial Scions loc
 
- culture_parameter_can_create_cyrodiilic_subjects_cultures:0 "Может добавить [Concept('tradition', 'традицию')|E] «[GetCultureTradition('tradition_cyrodiilic_subject').GetName|V]» к [Concept('cultures', 'культурам')|E] с различающимся [Concept('heritage', 'наследием')|E], чей [Concept('culture_head', 'культурный идеолог')|E] является [Concept('vassal', 'вассалом')|E]"
+ culture_parameter_can_create_cyrodiilic_subjects_cultures:0 "Можно добавить [Concept('tradition', 'традицию')|E] «[GetCultureTradition('tradition_cyrodiilic_subject').GetName|V]» к [Concept('cultures', 'культурам')|E] с иным [Concept('heritage', 'наследием')|E], чей [Concept('culture_head', 'культурный идеолог')|E] является вашим [Concept('vassal', 'вассалом')|E]"
  culture_parameter_can_remove_cyrodiilic_subject_with_conditions:0 "Может быть удалено, если [culture_head|El] является [Concept('independent', 'независимым')|E] или больше не управляется [Concept('culture', 'культурой')|E] с [Concept('tradition', 'традицией')|E] «[GetCultureTradition('tradition_imperial_legacy').GetName|V]»"
  culture_parameter_reduced_same_heritage_cultural_acceptance:0 "#N -10#! ед. [Concept('cultural_acceptance', 'терпимости')|E] с [Concept('cultures', 'культурами')|E], имеющими то же [heritage|El]"
  culture_parameter_increased_cyrodiilic_cultural_acceptance:0 "#P +10#! ед. [Concept('cultural_acceptance', 'терпимости')|E] с [Concept('cultures', 'культурами')|E], имеющими #L $heritage_cyrodiilic_name$ое#! [heritage|El]"
