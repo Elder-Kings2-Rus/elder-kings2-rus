@@ -18,8 +18,10 @@
 ##Forge-Wife
  forgewife_court_position:0 "Кузнечная жена"
  forgewife_court_position_desc:0 "Традиционно отвечающая за орочье искусство кузнечного дела, $forgewife_court_position$ является самым искусным кузнецом крепости. Обычно она становится второй, на ком женится вождь крепости."
+ ##Hearth-Wife
  hearthwife_court_position:0 "Жена-хозяйка"
  hearthwife_court_position_desc:0 "$hearthwife_court_position$ управляет домашним хозяйством вождя и обеспечивает бесперебойную работу повседневных дел. Обычно она является ближайшим доверенным лицом вождя."
+ SPOUSE_OF_CHARACTER_COURT_POSITION: "Это ваша [Concept( 'spouse', 'половинка' )|El]"
 ##Shadowscale
  shadowscale_court_position:0 "Тёмный ящер"
  shadowscale_employer_custom_effect_description:1 "@warning_icon!#X Полезный [agent|El] при [Concept( 'hostile_schemes', 'враждебных происках' )|E] против вас#!"
@@ -32,7 +34,8 @@
  clan_mother_court_position: "Мать клана"
  clan_mother_court_position_desc: "$clan_mother_court_position$ - это уважаемая матриарх, которая может присутствовать при дворе рядом со своим сюзереном и говорить от его имени."
  clan_mother_employer_custom_effect_description:1 "Может заменить вас в некоторых испытаниях [Concept('diplomacy', 'дипломатии')|E]"
- can_appoint_clan_mother_tt: "[Concept('culture', 'Культура')|E] [Concept('liege', 'сюзерена')|E] имеет одну из следующих [Concept('traditions', 'традиций')|E]:\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_moonsugar_plantations').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_beasts_of_war').GetName]"
+ NOT_MARRIED_COURT_POSITION: "Этот персонаж #bold не#! обручён"
+ ABOVE_45_COURT_POSITION: "Этому персонажу как минимум #V 45#! лет"
 
  ##Enforcer
  enforcer_court_position:0 "Защитник"
@@ -46,7 +49,7 @@
  court_mage_field_mage_desc:0 "$court_mage_field_mage$ - это адепт магических искусств, которому поручено находить решения проблем, связанных с магией, накладывать заклинания по приказу своего хозяина, руководить изучением магии и помогать лагерю чарами, алхимией и простыми советами по сложным мистическим вопросам."
  court_mage_clever_man_desc:0 "$court_mage_clever_man$ - это адепт магических искусств, которому поручено находить решения проблем, связанных с магией, накладывать заклинания по приказу своего сюзерена, руководить изучением магии в державе и помогать придворным чарами, алхимией и простыми советами по сложным мистическим вопросам."
  court_mage_court_position_possessive:0 "придворного мага"
- court_mage_employer_custom_effect_description:2 "Может накладывать [Concept('spells', 'заклинания')|E] для своего [Concept('liege', 'сюзерена')|E]#!\n@warning_icon!#X Полезный [Concept('agent', 'соучастник')|E] во [Concept('hostile_schemes', 'враждебных происках')|E] против вас#!"
+ court_mage_employer_custom_effect_description:2 "Может накладывать [Concept('spells', 'заклинания')|E] для своего [Concept('liege', 'сюзерена')|E]\n@warning_icon!#X Полезный [Concept('agent', 'соучастник')|E] во [Concept('hostile_schemes', 'враждебных происках')|E] против вас#!"
  court_position_skill_arcana:0 "Мастерство Арканы"
  court_position_necomancer_trait:0 "[GetTrait('necromancer').GetName( ROOT.Char )]"
  court_position_battlemage_trait:0 "[GetTrait('battlemage').GetName( ROOT.Char )]"
@@ -93,7 +96,17 @@
  court_position_necromancy_expert_perk:0 "[GetPerk('necromancy_expert_perk').GetName( ROOT.Char )]"
  court_position_necromancy_master_perk:0 "[GetPerk('necromancy_master_perk').GetName( ROOT.Char )]"
 
- #Qadi
+  #Powerful agents
+  SCHEME_AGENT_IS_COURT_MAGE:0 "[target.GetShortUINamePossessiveNoTooltip] – $court_mage_court_position$"
+  SCHEME_AGENT_IS_HOUSECARL:0 "[target.GetShortUINamePossessiveNoTooltip] – $court_housecarl_court_position$"
+  SCHEME_AGENT_IS_SHADOWSCALE:0 "[target.GetShortUINamePossessiveNoTooltip] – $shadowscale_court_position$"
+ 
+  # Court Position Tasks
+  court_mage_instruct:0 "Дать наставления магу"
+  court_mage_instruct_desc:0 "Этот персонаж будет использовать свои магические умения по приказу своего нанимателя."
+  court_mage_instruct_tt:0 "Отдайте приказы своему магу, определив то, как он будет произносить [spells|El] и на каком типе [Concept('magic', 'магии')|E] сосредоточится."
+ 
+  #Qadi
  court_chief_qadi_requirement.tt: "Необходимо практиковать [Concept('praxis', 'Праксис')|E]"
 
  ### CAMP OFFICERS

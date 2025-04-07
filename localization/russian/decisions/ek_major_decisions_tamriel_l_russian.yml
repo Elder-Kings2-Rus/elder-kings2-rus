@@ -83,10 +83,10 @@
  
  ### Orsinium
  create_orsinium_decision:0 "Восстановить Орсиниум"
- create_orsinium_decision_desc:0 "Королевство Орсиниум не раз создавалось, разрушалось и восстановилось за историю Тамриэля. Достаточно могущественный правитель-орсимер может объявить себя новым королем орков и восстановить старое королевство отверженного народа. \n \n( #S Примечание#!: Если вы [duke|El], вы сможете расширить [de_jure|El] границы Орсиниума только в пределах де-юре [Concept( 'kingdom', 'королевства' )|E], в котором вы его восстановили.)."
+ create_orsinium_decision_desc:0 "Королевство Орсиниум не раз создавалось, разрушалось и восстановилось за историю Тамриэля. Достаточно могущественный правитель-орк может объявить себя новым королем орков и восстановить старое королевство отверженного народа. \n \n( #S Примечание#!: Если вы [duke|El], вы сможете расширить [de_jure|El] границы Орсиниума только в пределах де-юре [Concept( 'kingdom', 'королевства' )|E], в котором вы его восстановили.)."
  create_orsinium_decision_tooltip:0 "Создать королевство Орсиниум!"
  create_orsinium_decision_confirm:0 "За Орсиниум!"
- create_orsinium_decision_cd:0 "У вашей [Concept( 'capital', 'столицы' )|E], которая не должна находиться внутри столичного герцогства другого [Concept( 'kingdom', 'королевства' )|E], есть орсимерская [culture|El]"
+ create_orsinium_decision_cd:0 "У вашей [Concept( 'capital', 'столицы' )|E], которая не должна находиться внутри столичного герцогства другого [Concept( 'kingdom', 'королевства' )|E], есть [culture|El] #V $heritage_orsimeri_name$ого #! [Concept( 'heritage', 'наследия' )|E]"
  create_orsinium_decision_alt_cd:0 "Ваша [capital|El] не расположена внутри столичного [Concept( 'duchy', 'герцогства' )|E] другого [de_jure|El] [Concept( 'kingdom', 'королевства' )|E] (например, герцогство Имперский остров в королевстве Хартленд)"
  orsinium_hold_capital_duchy_cd:0 "Вы удерживаете [duchy|El], в котором расположена ваша [capital|El]"
  orsinium_county_culture_cd:0 "В вашей [Concept( 'capital', 'столице' )|E] распространена ваша культура"
@@ -113,11 +113,11 @@
  expand_orsinium_decision_cd:0 "Вы контролируете изначальное [de_jure|El] [kingdom|El] Орсиниума"
  
  reintegrate_orsinium_decision:0 "Реинтегрировать Орсиниум"
- reintegrate_orsinium_decision_desc:0 "Орсимеры считают одно из ваших герцогств частью своего нового Орсиниума. Но новый Орсиниум вновь падёт, а отверженный народ рассеется."
+ reintegrate_orsinium_decision_desc:0 "Орки считают одно из ваших герцогств частью своего нового Орсиниума. Но новый Орсиниум вновь падёт, а отверженный народ рассеется."
  reintegrate_orsinium_decision_tooltip:0 "Уничтожить назойливый Орсиниум!"
  reintegrate_orsinium_decision_confirm:0 "Орсиниума больше нет!"
  reintegrate_orsinium_decision_cd:0 "Вы контролируете столичное [duchy|El] Орсиниума"
- no_orsimer_king_vassal_cd:0 "Орсиниум не принадлежит вассалу-орсимеру"
+ no_orsimer_king_vassal_cd:0 "Орсиниум не принадлежит вассалу #V $heritage_orsimeri_name$ого#! [Concept( 'heritage', 'наследия' )|E]"
  orsinium_culture_regains_pariah_status:0 "#L [regained_pariah_culture.GetCollectiveNoun]ая#! культура вернёт статус [Concept( 'pariah', 'отверженных' )|E] и они вновь получат [Concept( 'innovation', 'инновацию' )|E] #V Отверженный народ#!"
  
  ### Nibenay
@@ -174,7 +174,7 @@
 
  ###Nedic Confederation
  restore_nedic_kingdom_decision: "Объединить недийцев"
- restore_nedic_kingdom_decision_desc: "До пришествия Ра Гада наш народ был объединён в свободную конфедерацию племен, присягнувших на верность верховному королю в Небесном Пределе. Хотя для нашего народа это уже далекое воспоминание, я могу претендовать на роль [Select_CString(ROOT.Char.IsFemale, 'наследницы', 'наследника' )] того королевства, вернув наши древние земли."
+ restore_nedic_kingdom_decision_desc: "До пришествия [Glossary( 'Ра Гада', 'RAGADA_GLOSS' )] наш народ был объединён в свободную конфедерацию племен, присягнувших на верность верховному королю в Небесном Пределе. Хотя для нашего народа это уже далекое воспоминание, я могу претендовать на роль [Select_CString(ROOT.Char.IsFemale, 'наследницы', 'наследника' )] того королевства, вернув наши древние земли."
  restore_nedic_kingdom_decision_tooltip: "Вы создадите новую [Concept('empire', 'империю')|E] для недийского народа"
  restore_nedic_kingdom_decision_confirm: "Нас больше никто не поработит!"
  form_nedic_kingdom_scripted_effect_de_jure_tt: "Все королевства в пределах [Concept('region', 'региона')|E] [GetGeographicalRegion('ek_nedic_kingdom_region').GetName] станут [Concept('de_jure', 'де-юре')|E] вассалами державы [nedic_confederation.GetNameNoTier]"

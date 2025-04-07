@@ -26,8 +26,8 @@
  small_blood_price_modifier:0 "Плата цены крови"
  small_blood_price_modifier_desc:0 "Этому персонажу пришлось заплатить цену крови, чтобы освободиться из заточения. К счастью для него, его преступление не было значительным, и ему удалось освободиться, отдав лишь небольшую часть своей крови."
  extract_blood_price_effect_imprisonment_reason_tooltip:0 "У вас есть повод для заточения персонажа [prisoner.GetFirstName], поэтому кровь, которую вы заберёте, ранит [prisoner.GetHerHis]."
- extract_blood_price_effect_execution_reason_tooltip:0 "У вас есть повод для казни персонажа [prisoner.GetFirstName], поэтому вы взыщете высокую цену, покалечив [prisoner.GetHerHis]."
- extract_blood_price_effect_survival_release_tooltip:0 "Если [prisoner.GetFirstName] выживет, [prisoner.GetSheHe] будет [Select_CString(prisoner.IsFemale, 'освобождена', 'освобождён' )]."
+ extract_blood_price_effect_execution_reason_tooltip:0 "У вас есть повод для казни персонажа [prisoner.GetFirstName], поэтому вы взыщете высокую цену."
+ extract_blood_price_effect_survival_release_tooltip:0 "Если [prisoner.GetFirstName] выживет, [prisoner.GetSheHe] будет [Select_CString(prisoner.IsFemale, 'освобождена', 'освобождён' )] из тюрьмы."
 
  ###Disrupt Arcana Interaction
  recently_disrupted:0 "Недавно истощён"
@@ -177,6 +177,12 @@
  I_CANNOT_BLACKMAIL_ANOTHER_LYCAN:1 "Целью шантажа из-за ликантропии не может быть [GetTrait('lycan_character').GetName( CHARACTER.Self )]"
  I_CANNOT_BLACKMAIL_ANOTHER_NECROMANCER:1 "Целью шантажа из-за некромантии не может быть [GetTrait('necromancer').GetName( CHARACTER.Self )]"
 
+ CHARACTER_INTERACTION_VAMP_NOT_ALLOWED_IN_VARANGIAN_GUARD:0 "Для владельца титула[GetTitleByKey('c_bastion').GetNameNoTier] вампиризм – [GetFaithDoctrine('doctrine_vampirism_outlawed').GetBaseName]"
+ 
+ CHARACTER_INTERACTION_LYCAN_NOT_ALLOWED_IN_VARANGIAN_GUARD:0 "Для владельца титула [GetTitleByKey('c_bastion').GetNameNoTier] ликантропия – [GetFaithDoctrine('doctrine_lycanthropy_outlawed').GetBaseName]"
+ 
+ CHARACTER_INTERACTION_NECROMANCER_NOT_ALLOWED_IN_VARANGIAN_GUARD:0 "Для владельца титула [GetTitleByKey('c_bastion').GetNameNoTier] некромантия – [GetFaithDoctrine('doctrine_necromancy_outlawed').GetBaseName]"
+  
  BLACKMAIL_NOTIFICATION_SECRET_VAMPIRE:0 "\nУ меня есть свидетельства вашей жажды крови!"
  BLACKMAIL_NOTIFICATION_SECRET_LYCAN:0 "\nУ меня есть свидетельства вашей истинной звериной натуры!"
  BLACKMAIL_NOTIFICATION_SECRET_NECROMANCER:0 "\nУ меня есть доказательства вашего осквернения цикла жизни и смерти!"
@@ -188,3 +194,8 @@
 
  #Co-emperor (replaces vanilla)
  valid_co_emperor_powerful_family_trigger: "Только [Concept('house_heads', 'главы домов')|E] [Concept('powerful_families', 'могущественных семейств')|E] могут быть [Concept('co_emperors', 'соправителями')|E]"
+ 
+  #weak_rulers_contest_rule version of house head challenge
+ ek_challenge_house_head_strong_interaction: "Бросить вызов главе дома"
+ ek_challenge_house_head_strong_interaction.actor_default_victory.tt: "[actor.GetShortUIName|U] станет [Concept('house_head','главой дома')|E] [actor.GetHouse.GetBaseName]"
+ ek_challenge_house_head_weak_interaction: "Бросить вызов главе дома"

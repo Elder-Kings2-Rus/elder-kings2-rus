@@ -506,8 +506,16 @@
  ###############
  skeever_story_modifier:0 "Питомец-злокрыс"
  skeever_story_modifier_desc:0 "Этот персонаж наслаждается обществом лохматого создания, которое следует за ним повсюду."
+ skeever_story_pack_skeever_modifier:0 "Злокрыс-носильщик"  
+ skeever_story_pack_skeever_modifier_desc:0 "Этот персонаж наслаждается обществом лохматого создания-носильщика, которое следует за ним повсюду." 
  skeever_story_diseased_skeever_modifier:0 "Больной питомец-злокрыс"
- skeever_story_diseased_skeever_modifier_desc:0 "За этим персонажем повсюду следует заражённый болезнями злокрыс."  
+ skeever_story_diseased_skeever_modifier_desc:0 "За этим персонажем повсюду следует заражённый болезнями злокрыс."
+ skeever_story_healthy_skeever_modifier:0 "Здоровый питомец-злокрыс"
+ skeever_story_healthy_skeever_modifier_desc:0 "За этим персонажем повсюду следует совершенно здоровый злокрыс."
+ skeever_story_diseased_pack_skeever_modifier:0 "Больной злокрыс-носильщик"
+ skeever_story_diseased_pack_skeever_modifier_desc:0 "За этим персонажем повсюду следует заражённый болезнями злокрыс-носильщик."
+ skeever_story_healthy_pack_skeever_modifier:0 "Здоровый злокрыс-носильщик"
+ skeever_story_healthy_pack_skeever_modifier_desc:0 "За этим персонажем повсюду следует совершенно здоровый злокрыс-носильщик."
  
  skeever_gender_her:0 "её"
  skeever_gender_his:0 "его"
@@ -544,7 +552,7 @@
  ### Random Skeever events
  # Your skeever becomes diseased
  ek_pet_animal.6101.t:0 "[ROOT.Char.Custom('SkeeverStoryName')]: Болезнь"
- ek_pet_animal.6101.desc:0 "Проводить время с питомцем по кличке [ROOT.Char.Custom('SkeeverStoryName')] стало для меня привычкой, поэтому я быстро замечаю изменения в [ROOT.Char.Custom('SkeeverStoryHerHis')] внешнем виде и поведении. [ROOT.Char.Custom('SkeeverStoryHerHis')|U] шерсть свалялась, и от [ROOT.Char.Custom('SkeeverStoryHerHim')] исходит зловонный запах. Болезнь поразила моего некогда пушистого спутника — но это лишь сделало [ROOT.Char.Custom('SkeeverStorySheHe')] сильнее и свирепее.\n\nТем не менее, риск заражения нельзя недооценивать. Что мне делать?"
+ ek_pet_animal.6101.desc:0 "Проводить время с питомцем по кличке [ROOT.Char.Custom('SkeeverStoryName')] стало для меня привычкой, поэтому я быстро замечаю изменения в [ROOT.Char.Custom('SkeeverStoryHerHis')] внешнем виде и поведении. [ROOT.Char.Custom('SkeeverStoryHerHis')|E] шерсть свалялась, и от [ROOT.Char.Custom('SkeeverStoryHerHim')] исходит зловонный запах. Болезнь поразила моего некогда пушистого спутника — но это лишь сделало [ROOT.Char.Custom('SkeeverStorySheHe')] сильнее и свирепее.\n\nТем не менее, риск заражения нельзя недооценивать. Что мне делать?"
  ek_pet_animal.6101.a:0 "Настоящий выживший — [ROOT.Char.Custom('SkeeverStoryName')] останется со мной!"
  ek_pet_animal.6101.b:0 "К счастью, я знаю, как лечить болезни."
  ek_pet_animal.6101.c:0 "Пора избавиться от н[ROOT.Char.Custom('SkeeverStoryHerHis')]."
