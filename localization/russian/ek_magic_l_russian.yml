@@ -468,7 +468,7 @@
  devastate_province_perk_name:0 "$devastate_province_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('devastate_province_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk|q$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('devastate_province_province'), '(CFixedPoint)1'), '$spell_province_perk|q$' )]\n#weak $devastate_province_effect$#!"
  devastate_province_effect:0 "Применяет [GetModifier('modifier_spell_devastate_province').GetNameWithTooltip|L] на целевое [county|El] на 5 лет, снижает [development|El][development_i] на 1, и применяет эффекты заклинания $inflict_wounds_name$ к каждому [Concept('character', 'персонажу')|E] в целевой [Concept('location', 'локации')|E]"
 
- arcane_outlet_name:0 "Усиление армии"
+ arcane_outlet_name:0 "Высвобождение магии"
  arcane_outlet_perk_name:0 "[GetModifier('modifier_ritual_arcane_outlet').GetNameWithTooltip]"
  elemental_cloak_name:0 "Плащ стихий"
  elemental_cloak_perk_name:0 "[GetModifier('modifier_ritual_elemental_cloak').GetNameWithTooltip]"
