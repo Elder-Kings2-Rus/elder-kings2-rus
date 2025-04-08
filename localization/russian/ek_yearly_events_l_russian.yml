@@ -623,7 +623,7 @@
 
 
  ek_yearly_events.0123.t:0 "Тревожные дебаты"
- ek_yearly_events.0123.desc:0 "Читать о ранней #LORE [Concept( 'compendium_merethic_era', 'Меретической эре' )|E]#! довольно хлопотно. По некоторым данным, #LORE [Concept( 'compendium_aldmeris', 'Альдмерис' )|E]#! располагался где-то в южной части Эльтерического океана. Согласно эпической поэзии альтмеров, у древних были основания полагать, что их родина лежит в одном из трех различных направлений: на юг, северо-запад или северо-восток.\n\nО родине эльфов практически ничего не известно. Её местоположение, окружающая среда, политика, религия и даже существование являются предметом предположений.\n\nМой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chaplain'))|l], [chaplain.GetTitledFirstName], подходит ко мне, пока я утопаю в эссе и старых томах, и спрашивает моё мнение об этом. Существовал ли вообще Альдмерис?"
+ ek_yearly_events.0123.desc:0 "Читать о ранней #LORE [Concept( 'compendium_merethic_era', 'Меретической эре' )|E]#! довольно хлопотно. По некоторым данным, [Glossary( 'Альдмерис', 'ALDMERIS_GLOSS' )] располагался где-то в южной части Эльтерического океана. Согласно эпической поэзии альтмеров, у древних были основания полагать, что их родина лежит в одном из трех различных направлений: на юг, северо-запад или северо-восток.\n\nО родине эльфов практически ничего не известно. Её местоположение, окружающая среда, политика, религия и даже существование являются предметом предположений.\n\nМой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chaplain'))|l], [chaplain.GetTitledFirstName], подходит ко мне, пока я утопаю в эссе и старых томах, и спрашивает моё мнение об этом. Существовал ли вообще Альдмерис?"
  ek_yearly_events.0123.a:0 "Ну, согласно моим исследованиям..."
  ek_yearly_events.0123.b:0 "[chaplain.GetShortUIName], что вы думаете?"
  ek_yearly_events.0123.a.success:0 "Ваш ответ радует вашего альдарха"
@@ -993,13 +993,13 @@
  friend_accepted_my_counsel:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'развелась', 'развелся' )] с супругой по совету персонажа [TARGET_CHARACTER.GetShortUIName]."
  friend_accepted_my_counsel_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'посоветовала', 'посоветовал' )] персонажу [TARGET_CHARACTER.GetShortUIName|U] развестись с супругом, что они и сделали."
 
- rival_stated_heterodox_opinion:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'услышала', 'услышал' )], как [CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsFemale, 'высказала', 'высказал' )] гетеродоксальное мнение об #LORE [Concept( 'compendium_aldmeris', 'Альдмерисе' )|E]#! после того, как персонажа [CHARACTER.GetShortUIName] спросили, существует ли он."
+ rival_stated_heterodox_opinion:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'услышала', 'услышал' )], как [CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsFemale, 'высказала', 'высказал' )] гетеродоксальное мнение об [Glossary( 'Альдмерисе', 'ALDMERIS_GLOSS' )] после того, как персонажа [CHARACTER.GetShortUIName] спросили, существует ли он."
 
- rival_stated_heterodox_opinion_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'высказала', 'высказал' )] гетеродоксальное мнение об #LORE [Concept( 'compendium_aldmeris', 'Альдмерисе' )|E]#! перед персонажем [TARGET_CHARACTER.GetShortUIName] после того, как персонажа [CHARACTER.GetShortUIName] спросили, существует ли он."
+ rival_stated_heterodox_opinion_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'высказала', 'высказал' )] гетеродоксальное мнение об [Glossary( 'Альдмерисе', 'ALDMERIS_GLOSS' )] перед персонажем [TARGET_CHARACTER.GetShortUIName] после того, как персонажа [CHARACTER.GetShortUIName] спросили, существует ли он."
 
- friend_stated_orthodox_opinion:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'услышала', 'услышал' )], как [CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsFemale, 'высказала', 'высказал' )] ортодоксальное мнение об #LORE [Concept( 'compendium_aldmeris', 'Альдмерисе' )|E]#! после того, как персонажа [CHARACTER.GetShortUIName] спросили, существует ли он."
+ friend_stated_orthodox_opinion:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'услышала', 'услышал' )], как [CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsFemale, 'высказала', 'высказал' )] ортодоксальное мнение об [Glossary( 'Альдмерисе', 'ALDMERIS_GLOSS' )] после того, как персонажа [CHARACTER.GetShortUIName] спросили, существует ли он."
 
- friend_stated_orthodox_opinion_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'озвучила', 'озвучил' )] ортодоксальное мнение об #LORE [Concept( 'compendium_aldmeris', 'Альдмерисе' )|E]#! перед персонажем [TARGET_CHARACTER.GetShortUIName] после того, как персонажа [CHARACTER.GetShortUIName] спросили, существует ли он."
+ friend_stated_orthodox_opinion_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'озвучила', 'озвучил' )] ортодоксальное мнение об [Glossary( 'Альдмерисе', 'ALDMERIS_GLOSS' )] перед персонажем [TARGET_CHARACTER.GetShortUIName] после того, как персонажа [CHARACTER.GetShortUIName] спросили, существует ли он."
 
 #xxxxx:0 "xxxxx"
 #“”

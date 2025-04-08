@@ -1,5 +1,5 @@
 ﻿l_russian:
- ek_learn_liturgical_language:1 "Выучить [liturgical_language|El]"
+ ek_learn_liturgical_language:1 "Выучить литургический язык"
  ek_learn_liturgical_language_action:0 "Выучить язык, на котором проходит богослужение вашей [Concept('faith','конфессии')|E]"
  ek_learn_liturgical_language_desc:1 "Я попытаюсь выучить [liturgical_language|El] моей [Concept('faith','конфессии')|E]."
  ek_learn_liturgical_language_desc_general:2 "[scheme|E] по изучению [Concept('liturgical_language','литургического')|E] языка это [personal_scheme|El], в ходе которых вы пытаетесь выучить [language|El], который используется для служения богам в вашей [Concept('faith','конфессии')|E]."

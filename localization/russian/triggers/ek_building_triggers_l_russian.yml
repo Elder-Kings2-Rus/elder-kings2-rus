@@ -16,7 +16,7 @@
  is_cantemiric:0 "Владелец должен принадлежать к #V $cantemiric_collective_noun$ой#! #italic или#! происходящей от неё [Concept('culture', 'культуре')|E]."
  is_khajiiti:0 "Владелец должен иметь #V $heritage_khajiiti_name$ое#! [heritage|El]"
  has_staff_of_magnus:0 "Владелец должен обладать Посохом Магнуса ([artifact|El])"
- green_pact_or_bosmeri:0 "Владелец должен иметь босмерское [Concept('heritage', 'наследие')|E] или его [Concept('faith', 'конфессия')|E] должна иметь [Concept('doctrine', 'доктрину')|E] Зелёного пакта"
+ green_pact_or_bosmeri:0 "Владелец должен иметь $heritage_bosmeri_name$ое [Concept('heritage', 'наследие')|E] или его [Concept('faith', 'конфессия')|E] должна иметь [Concept('doctrine', 'доктрину')|E] Зелёного пакта"
  ten_iron_oaths: "[Concept('faith', 'Конфессия')|E] владельца должна иметь Камни в своём [Concept('pantheon', 'пантеоне')|E]"
  not_ten_iron_oaths: "[Concept('faith', 'Конфессия')|E] владельца не должна иметь Камни в своём [Concept('pantheon', 'пантеоне')|E]"
  # Holy Site
@@ -24,7 +24,7 @@
  holy_site_or_zenithar:0 "[Concept('faith', 'Конфессия')|E] владельца должна считать это [Concept('holy_site', 'священным местом')|E], иметь Зенитара, З'ена, Зета или Культ гильдий в своём [Concept('pantheon', 'пантеоне')|E] или являться Сиродильским культом."
  holy_site_or_arkay:0 "[Concept('faith', 'Конфессия')|E] владельца должна считать это [Concept('holy_site', 'священным местом')|E], иметь Аркея, Ту'вакку, Арк'ея или Оркея в своём [Concept('pantheon', 'пантеоне')|E] или являться Сиродильским культом."
  holy_site_or_khajiiti:0 "[Concept('faith', 'Конфессия')|E] владельца должна считать это [Concept('holy_site', 'священным местом')|E] или иметь каджитский пантеон или [Concept('pantheon', 'пантеон')|E] Риддл'Тар"
- holy_site_already_present_trigger_desc:0 "В этом [Concept('county', 'графстве')|E] уже имеется [Concept('special_building', 'особая постройка')|E] [Concept('holy_site', 'священного места')|E]. [Concept('decision', 'Решение')|E] #V «Переназначить священное место»#! может превратить [Concept('special_building', 'особую постройку')|E] в подходящую для вашей конфессии!"
+ holy_site_already_present_trigger_desc:0 "В этом [Concept('county', 'графстве')|E] не должно быть [Concept('special_building', 'особой постройки')|E] [Concept('holy_site', 'священного места')|E]. [Concept('decision', 'Решение')|E] #V «Переназначить священное место»#! может превратить [Concept('special_building', 'особую постройку')|E] в подходящую для вашей конфессии!"
  holy_site_or_azura:0 "[faith|E] владельца должна считать это [Concept('holy_site', 'священным местом')|E] или иметь Азуру в своём [Concept('pantheon', 'пантеоне')|E]"
  holy_site_or_tsaesci:0 "[faith|E] владельца должна считать это [Concept('holy_site', 'священным местом')|E] или владелец должен принадлежать к #V $heritage_tsaesci_name$ому#! [Concept('heritage', 'наследию')|E]"
  holy_site_or_alkosh:0 "[faith|E] владельца должна считать это [Concept('holy_site', 'священным местом')|E] или иметь Алкоша в своём [Concept('pantheon', 'пантеоне')|E]"

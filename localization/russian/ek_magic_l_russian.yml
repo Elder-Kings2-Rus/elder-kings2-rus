@@ -32,7 +32,7 @@
  game_concept_grand:0 "Великое"
  game_concept_grand_desc:0 "Великое [Concept('spell', 'заклинание')|E] в пять раз мощнее слабого, но тратит 400% [Concept('magicka', 'маны')|E][magicka_i].\nПрогресс уровня силы:\n[petty|E] > [lesser|E] > [common|E] > [greater|E] > [grand|E]"
  game_concept_alteration: "Изменение"
- game_concept_alteration_desc: "Школа Изменения предлагает [Concept('spells', 'заклинания')|E] для исцеления живых и нанесения вреда нежити."
+ game_concept_alteration_desc: "Школа Изменения предлагает [Concept('spells', 'заклинания')|E] для манипуляций материальным миром."
  game_concept_conjuration: "Колдовство"
  game_concept_conjuration_desc: "Школа Колдовства предлагает [Concept('spells', 'заклинания')|E] для призыва существ из самого Обливиона."
  game_concept_illusion: "Иллюзия"
@@ -332,9 +332,6 @@
  stage_3:0 "Адепт"
  stage_4:0 "Эксперт"
  stage_5:0 "Мастер"
-
- control_magic_use_of_court_mage:0 "Поручения придворному магу"
- control_magic_use_of_court_mage.tt:0 "Наступит событие, в котором вы сможете отдавать дальнейшие приказы придворному магу, чтобы управлять использованием им магии."
  interaction_category_magic:0 "Магия"
  do_a_magic_interaction:0 "Наложить заклинание"
  do_a_magic_interaction_desc:0 "Наложить [spell|El] на этого персонажа"
@@ -694,3 +691,6 @@
   
  # Hastiluder Trait
  arcana_hastiluder:0 "[arcana|E]: [arcana_i]#P +2#"
+ 
+  # Triggers
+  can_magic_tt: "Вы должны уметь применять магию"
