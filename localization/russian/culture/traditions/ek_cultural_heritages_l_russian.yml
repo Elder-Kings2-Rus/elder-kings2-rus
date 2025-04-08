@@ -5,7 +5,7 @@
 
 
  heritage_aldmeri_collective_noun:0 "Альдмеры"
- heritage_aldmeri_desc: "The tall and light-skinned High Elves hail from the Summerset Isles. Forever mourning their lost [Glossary( 'Aldmeris', 'ALDMERIS_GLOSS' )], they consider themselves direct descendants of the Gods who created this world and strive to honor them with their every action. This devotion to their ancestors has led them to develop a very constrained society, but one in which every Altmer is considered divine. Those not of their tribe, however, are less fortunate and are referred to as 'lesser races.'"
+ heritage_aldmeri_desc: "Высокие и светлокожие высшие эльфы родом с островов Саммерсет. Они вечно оплакивают свой утраченный [Glossary( 'Альдмерис', 'ALDMERIS_GLOSS' )] и считают себя прямыми потомками богов, создавших этот мир, стремясь чтить их каждым своим действием. Подобная фанатичная преданность предкам привела к формированию очень негибкого общества, в котором каждый альтмер считается отпрыском божественных сущностей. Однако тем, кто не принадлежит к их роду, повезло куда меньше, и их открыто называют «низшими расами»."
 
  #heritage_ayleid_name:0 "Ayleid"
  heritage_ayleid_name:0 "Айлейдск"
@@ -36,7 +36,7 @@
  #heritage_dunmeri_name:0 "Dunmeri"
  heritage_dunmeri_name:0 "Данмерск"
  heritage_dunmeri_collective_noun:0 "Данмеры"
- heritage_dunmeri_desc:0 "The ashen-skinned, red-eyed Dark Elves hail from grim Morrowind in the east of Tamriel. After the Battle of Red Mountain in 1E 700, their Chimeri ancestors were changed, becoming the Dunmer of today. They have long lived under the Great Houses and Tribunal Temple, or in Ashlander clans clinging to the old Velothi pantheon."
+ heritage_dunmeri_desc:0 "Пепельнокожие и красноглазые тёмные эльфы родом из мрачного Морровинда, что лежит на востоке Тамриэля. После битвы при Красной горе в 1Э 700 их предки-кимеры изменились, превратившись в сегодняшних данмеров. С тех пор данмеры жили под властью Великих Домов и Храма Трибунала или же в кланах эшлендеров, непреклонно придерживающихся старого пантеона Велоти."
 
  #heritage_maormeri_name:0 "Maormeri"
  heritage_maormeri_name:0 "Маормерск"
@@ -56,7 +56,6 @@
  #heritage_atmoran_name:0 "Atmoran"
  heritage_atmoran_name:0 "Атморск"
  heritage_atmoran_collective_noun:0 "Атморцы"
- heritage_atmoran_desc:0 "A fierce and warlike culture, the Nords are the descendants of the last Atmoran settlers of Skyrim. They first arrived under the command of Ysgramor and came to conquer all of Skyrim. They are hardy and resilient people, and approach every endeavour with elemental violence. The Nords see themselves as eternal outsiders and invaders, and even when they conquer and rule another people, they rarely feel kinship with them."
 
  #heritage_breton_name:0 "Breton"
  heritage_breton_name:0 "Бретонск"
@@ -95,8 +94,8 @@
 
  #heritage_orsimeri_name:0 "Orcish"
  heritage_orsimeri_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ) ), 'Orcish', Localize('no') )]"
- heritage_orsimeri_collective_noun:0 "Orcs"
- heritage_orsimeri_desc:0 "The Orcs are a green-skinned and tusked race. Scattered across Tamriel, thriving mostly in stark mountains and harsh terrain, they are united by their respect for strength — for which they are recognised across Tamriel as soldiers and smiths — and their distrust for outsiders. Beyond this, few orcish settlements are the same as others. Some orcs are mobile, and others settled; some live in large cities and fortifications, and others in strongholds with their clans."
+ heritage_orsimeri_collective_noun:0 "Орки"
+ heritage_orsimeri_desc:0 "Орки – зеленокожая и клыкастая раса. Их поселения разбросаны по всему Тамриэлю, в основном располагаясь в горах или иной суровой местности. Общества орков объединяет уважение к силе, из-за чего в Тамриэле их признают как умелых воинов и кузнецов, и недоверие к чужакам. Но в остальном сообщества орков очень различны. Одни орки постоянно кочуют, другие же оседлы; одни живут в больших городах и укреплениях, другие – в крепостях со своими кланами."
 
  #heritage_goblinken_name:0 "Goblinken"
  heritage_goblinken_name:0 "Гоблин-кинск"
@@ -106,7 +105,7 @@
  #heritage_argonian_name:0 "Argonian"
  heritage_argonian_name:0 "Аргонианск"
  heritage_argonian_collective_noun:0 "Аргониане"
- heritage_argonian_desc:0 "The Argonians of Black Marsh are a race in many forms, some lizardlike, and others serpentine. In their own language, they are the Saxhleel — people of the roots — as they are guided in all things by the roots of the Hist. Every tribe lives among these thinking trees, who are their patrons and leaders. Thanks to the Hist, Argonians thrive in the marshes as nobody else can — but without these revered trees, all other lands are alien wastes, fit only for the most daring and detached."
+ heritage_argonian_desc:0 "Аргониане Чернотопья – очень физически разнообразная раса: одни её представители похожи на ящериц, другие – на змей. На своём языке аргониане называют себя саксхлил – народом корней, – поскольку корни Хиста издавна мудро наставляют их род. Каждое племя живёт среди этих разумных и мыслящих деревьев, которые являются их покровителями и лидерами. Благодаря деревьям Хист аргониане процветают на совершенно негостеприимных для иных существ болотах, но любые земли, где не растут эти почитаемые деревья – совершенно чуждые пустоши, пригодные лишь для самых смелых и независимых саксхлилов."
 
  #heritage_dremora_name:0 "Dremora"
  heritage_dremora_name:0 "Дреморск"
