@@ -30,8 +30,8 @@
  blackwood_history_loc:0 "Народ, сохранивший старые #L [CULTURE.GetCollectiveNoun|l]ие#! обычаи"
  rimmenese_history_loc:0 "Происходят от #L [CULTURE.GetCollectiveNoun]их#! торговцев, поселившихся в землях Риммена" 
  #Dunmer
- dunmer_history_loc:0 "Появились из #L [CULTURE.GetCollectiveNoun|l]ого#! народа, принявшего Трибунал, ответственный за их проклятие"
- ashlander_history_loc:0 "Появились из #L [CULTURE.GetCollectiveNoun|l]ого#! народа, осудившего Трибунал, ответственный за их проклятие"
+ dunmer_history_loc:0 "Потомки #L [CULTURE.GetCollectiveNoun|l]ого#! народа, принявшего Трибунал, ответственный за их проклятие"
+ ashlander_history_loc:0 "Потомки #L [CULTURE.GetCollectiveNoun|l]ого#! народа, осудившего Трибунал, ответственный за их проклятие"
  #Orc
  orc_history_loc:0 "Народ, что стал отличен от альдмеров после трансформации Тринимака" # длинное описание, ранее было 'Народ, изменивший свой облик по сравнению с их альдмерскими сородичами после трансформации Тринимака'
  iron_orc_history_loc:0 "Народ, отказавшийся от своего мирного существования после недийской агрессии"
