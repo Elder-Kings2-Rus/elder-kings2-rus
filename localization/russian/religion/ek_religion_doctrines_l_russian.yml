@@ -2033,7 +2033,7 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
  doctrine_parameter_unlocks_vaermina_pantheon_active:0 "$vaermina$ может быть добавлена в ваш [pantheon|El] c помощью [Concept( 'doctrines', 'доктрин' )|E] князей даэдра"
 
 #Funeral doctrines
- doctrine_funeral_grave_stake_name:0 "Захоронение на могильном столбе"
+ doctrine_funeral_grave_stake_name:0 "Захоронение под могильным столбом"
  doctrine_funeral_grave_stake_desc:0 "Тело будет погребено в болоте и прижато могильным столбом, на котором будет вырезана история жизни покойного."
  doctrine_parameter_grave_stake_funeral:0 "[Concept( 'activity', 'Занятие' )|E] «[funeral|E]» расходует меньше [Concept( 'gold', 'золота' )|E]"
 
