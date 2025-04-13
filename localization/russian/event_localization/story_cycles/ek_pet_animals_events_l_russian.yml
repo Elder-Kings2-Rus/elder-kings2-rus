@@ -461,7 +461,7 @@
  mudcrab_name_grasper:0 "Хват"
 
  ek_pet_animal.5001.t:0 "Грязекраб"
- ek_pet_animal.5001.desc:1 "Пока пеплозуб бродит по комнате, радостно пощипывая окружающие предметы по ней, я размышляю, как назвать [ROOT.Char.Custom('MudcrabStoryHerHis')]. Что нибудь историческое? Что-то опирающееся на [ROOT.Char.Custom('MudcrabStoryHerHis')] [ROOT.Char.Custom('MudcrabColor')] окрас панциря? Что-то, чтобы описать успокаивающее чувство, которое я испытываю, когда [ROOT.Char.Custom('MudcrabStorySheHe')] ковыляет вокруг меня?\n\nО, я знаю! я назову [ROOT.Char.Custom('MudcrabStoryHerHis')]..."
+ ek_pet_animal.5001.desc:1 "Пока грязекраб ползает по комнате, весело щёлкая клешнями, я размышляю, как же назвать [ROOT.Char.Custom('MudcrabStoryHerHis')]. Что-нибудь связанное с историей? Или же намекающее на [ROOT.Char.Custom('MudcrabStoryHerHis')] [ROOT.Char.Custom('MudcrabColor')] окрас панциря? Или же мне стоит подобрать слово, которое лучше всего опишет умиротворение, которое я испытываю, когда [ROOT.Char.Custom('MudcrabStorySheHe')] ползает подле меня?\n\nО, знаю! Я назову [ROOT.Char.Custom('MudcrabStoryHerHis')]..."
  ek_pet_animal.5001.a:1 "Что за чудесное имя!"
 
  ### Random Mudcrab events

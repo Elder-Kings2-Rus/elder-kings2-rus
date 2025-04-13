@@ -26,7 +26,7 @@
  central_tamriel.0003.a:0 "И вновь империя восседает в сердце Тамриэля..."
 
  central_tamriel.0005.t:0 "Трон Разлучённых Королей"
- central_tamriel.0005.desc:0 "Слишком долго Рубиновый трон оставался пуст. Слишком долго никто так и не смог приблизится к возрождению Империи. Пока Коловия и Нибеней, две части Сиродила, отдалились друг от друг настолько сильно, что стали такими же разделёнными, как и во времена до того, как их объединил император [reman_cyrodiil.GetFirstName].\n\nС этого дня, [GetTitleByKey('e_nibenay').GetNameNoTier] и [GetTitleByKey('e_colovian_estates').GetNameNoTier] снова являются отдельными образованиями, а [GetTitleByKey('e_cyrodiil').GetNameNoTier] остался лишь далёким воспоминанием."
+ central_tamriel.0005.desc:0 "Слишком долго Рубиновый трон оставался пуст. Слишком долго никто так и не смог приблизится к возрождению Империи. Пока Коловия и Нибеней, две части Сиродила, отдалились друг от друг настолько сильно, что стали такими же разделёнными, как и во времена до того, как их объединил император [reman_cyrodiil.GetFirstName].\n\nС этого дня [GetTitleByKey('e_nibenay').GetNameNoTier] и [GetTitleByKey('e_colovian_estates').GetNameNoTier] вновь являются отдельными образованиями, а [GetTitleByKey('e_cyrodiil').GetNameNoTier] остался лишь далёким воспоминанием."
  central_tamriel.0005.a:0 "Впереди тёмные времена..."
  central_tamriel.explanation.tt:0 "Так случилось из-за того, что [empires|El] [GetTitleByKey('e_cyrodiil').GetNameNoTier] и [GetTitleByKey('e_cyrodiilic_potentate').GetNameNoTier] не существовали в течение последних 50 лет."
 
