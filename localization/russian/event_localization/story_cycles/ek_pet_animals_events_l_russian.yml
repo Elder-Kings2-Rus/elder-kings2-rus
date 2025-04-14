@@ -467,8 +467,8 @@
  ### Random Mudcrab events
  # You eat some fruits with your Mudcrab, smol health modifier
  ek_pet_animal.5101.t:0 "[ROOT.Char.Custom('MudcrabStoryName')]: Свежая рыба"
- ek_pet_animal.5101.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'взяла', 'взял' )] за привычку проводить некоторое время с [ROOT.Char.Custom('MudcrabStoryName')] на исходе дня, наблюдая за, давая [ROOT.Char.Custom('MudcrabStoryHerHim')] свежую рыбу.\n\nНе знаю, связано ли это с рыбой или со временем, проведённым с [ROOT.Char.Custom('MudcrabStoryName')], но я чувствую себя более энергично и лучше!"
- ek_pet_animal.5101.a:0 "Оставь немного для меня, [ROOT.Char.Custom('MudcrabStoryName')]!"
+ ek_pet_animal.5101.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'взяла', 'взял' )] за привычку проводить некоторое время с моим любимцем по имени [ROOT.Char.Custom('MudcrabStoryName')] на исходе дня, наблюдая за этим дивным созданием и давая [ROOT.Char.Custom('MudcrabStoryHerHim')] свежую рыбу.\n\nНе знаю, связано ли это с рыбой или со временем, которое я и [ROOT.Char.Custom('MudcrabStoryName')] проводим вместе, но я чувствую себя более [Select_CString(ROOT.Char.IsFemale, 'здоровой и бодрой', 'здоровым и бодрым')]!"
+ ek_pet_animal.5101.a:0 "Оставь немного и для меня, [ROOT.Char.Custom('MudcrabStoryName')]!"
 
  # Your Mudcrab goes with you into battle!
  ek_pet_animal.5102.t:0 "[ROOT.Char.Custom('MudcrabStoryName')]: Клешни к бою!"
@@ -485,7 +485,7 @@
 
  # Mudcrab dies :(
  ek_pet_animal.5199.t:0 "[ROOT.Char.Custom('MudcrabStoryName')]: Скорбный день"
- ek_pet_animal.5199.desc:0 "[ROOT.Char.Custom('MudcrabStoryName')] не так молод, каким [ROOT.Char.Custom('MudcrabStorySheHe')] когда-то был, я все ещё слышу [ROOT.Char.Custom('MudcrabStoryHerHis')] характерные звуки, но они больше не такие яркие и сильные, как раньше.\n\nЯ нежно глажу [ROOT.Char.Custom('MudcrabStoryHerHis')] [ROOT.Char.Custom('MudcrabColor')] панцирь и прислушиваюсь к [ROOT.Char.Custom('MudcrabStoryHerHim')] тяжелому дыханию и попыткам ущипнуть меня за нос, но, когда наступила тишина, я понимаю, что [ROOT.Char.Custom('MudcrabStoryHerHis')] поклацывания не разбудят меня следующим утром."
+ ek_pet_animal.5199.desc:0 "[ROOT.Char.Custom('MudcrabStoryName')] не так молод, каким [ROOT.Char.Custom('MudcrabStorySheHe')] когда-то был, я всё ещё слышу [ROOT.Char.Custom('MudcrabStoryHerHis')] характерные щелчки клешнями, но они больше не такие звучные и ровные, как раньше.\n\nЯ нежно глажу [ROOT.Char.Custom('MudcrabStoryHerHis')] [ROOT.Char.Custom('MudcrabColor')] панцирь и прислушиваюсь к [ROOT.Char.Custom('MudcrabStoryHerHim')] тяжёлому дыханию и попыткам ущипнуть меня за нос, но, когда наступила тишина, я понимаю, что [ROOT.Char.Custom('MudcrabStoryHerHis')] поклацывания не разбудят меня следующим утром."
  ek_pet_animal.5199.a:0 "Я буду скучать по тебе, [ROOT.Char.Custom('MudcrabStoryName')]!"
 
  pet_mudcrab_decision:0 "[ROOT.Char.Custom('MudcrabStoryName')] - погладить"
@@ -546,7 +546,7 @@
  skeever_name_pestle:0 "Толкушка"
 
  ek_pet_animal.6001.t:0 "Злокрыс"
- ek_pet_animal.6001.desc:1 "Когда злокрыс забегает в комнату, его усы подрагивают, а хвост волочится по полу. Я задумываюсь, какое имя дать [ROOT.Char.Custom('SkeeverStoryHerHim')]. Что-то историческое? Или отражающее [ROOT.Char.Custom('SkeeverStoryHerHis')] лохматую шерсть? А может, что-то, что передаёт тот странно-забавный способ, которым [ROOT.Char.Custom('SkeeverStorySheHe')] крадётся вокруг моих ног?\n\nО, я знаю! Я назову [ROOT.Char.Custom('SkeeverStoryHerHim')]..."
+ ek_pet_animal.6001.desc:1 "Когда злокрыс забегает в комнату, [ROOT.Char.Custom('SkeeverStoryHerHis')] усы подрагивают, а хвост волочится по полу. Я задумываюсь, каким же именем назвать [ROOT.Char.Custom('SkeeverStoryHerHim')]. Что-то историческое? Или отражающее [ROOT.Char.Custom('SkeeverStoryHerHis')] лохматую шерсть? А может, что-то, что передаёт тот странно-забавный способ, которым [ROOT.Char.Custom('SkeeverStorySheHe')] крадётся вокруг моих ног?\n\nО, я знаю! Я назову [ROOT.Char.Custom('SkeeverStoryHerHim')]..."
  ek_pet_animal.6001.a:1 "Какое замечательное имя!"
  
  ### Random Skeever events
