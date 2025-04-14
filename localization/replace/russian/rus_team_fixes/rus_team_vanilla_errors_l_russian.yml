@@ -210,6 +210,7 @@
  EDUCATE_CHILD_OPTION_CONVERT_CULTURE_UNLIKELY_EFFECT: "Вряд ли сменит культуру на #TUT_KW #L [TARGET_CULTURE.GetCollectiveNoun|l]ую#! в силу своего возраста#!"
  EDUCATE_CHILD_OPTION_CONVERT_CULTURE_LIKELY_EFFECT: "Скорее всего, сменит свою культуру на #TUT_KW #L [TARGET_CULTURE.GetCollectiveNoun|l]ую#!#!"
  nick_the_shield_of_capital_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] — [Select_CString(CHARACTER.IsFemale, 'несгибаемая воительница, любимая', 'несгибаемый воитель, любимый' )] жителями столицы." # вместо IsFemale было IsLocalPlayer
+ adventurer_name_011: "[new_landless_adventurer.Custom('GetAdventureNameBand')] земли [new_landless_adventurer_location.GetNameNoTooltip]" # не те кавычки
  
  action_can_form_hybrid_culture_label: "@culture_icon! Вы и [culture.GetNameNoTooltip] можете создать гибридную культуру" # Culture с заглавной в оригинале
  action_can_form_hybrid_culture_desc: "У обеих ваших [Concept('cultures', 'культур')|E] достаточно [Concept('cultural_acceptance', 'терпимости')|E] для создания [Concept('hybrid_culture', 'гибридной культуры')|E]\n\n$hybrid_culture_benefit_tt$" #[cultures|E] лишняя переменная в оригинале

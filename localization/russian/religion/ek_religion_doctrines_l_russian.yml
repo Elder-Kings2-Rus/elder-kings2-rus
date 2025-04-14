@@ -852,8 +852,8 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     doctrine_parameter_pantheon_adds_deities_dwemer_ancestors:0 "Добавит следующих покровителей в [pantheon|El]: Архитектор, Воин, Великан, Потерянный Король"
 	doctrine_parameter_dwemer_hostility:0 "Уменьшает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E] семейства [GetReligionByKey('dwemer_religion').GetName] на #P -25#!"
  # Velothi
- doctrine_pantheon_good_daedra_name:0 "Хорошие даэдра"
-    doctrine_pantheon_good_daedra_desc:0 "Когда нас бросили, три хороших #LORE [compendium_daedra]#! — Азура, Боэтия и Мефала — защитили нас и указали нам путь вперёд."
+ doctrine_pantheon_good_daedra_name:0 "Добрые даэдра"
+    doctrine_pantheon_good_daedra_desc:0 "В час отчаяния трое добрых #LORE [compendium_daedra]#! — Азура, Боэтия и Мефала — защитили нас и указали путь вперёд."
     doctrine_parameter_pantheon_unlocks_daedra_good_daedra:0 "Разблокирует возможность добавления следующих #LORE [compendium_daedra]#! в ваш [pantheon|El] c помощью [Concept( 'doctrines', 'доктрин' )|E] даэдрических князей: Азура, Боэтия, Мефала"
  doctrine_pantheon_bad_daedra_name:0 "Дом Забот"
     doctrine_pantheon_bad_daedra_desc:0 "Хорошие #LORE [compendium_daedra]#! — это лишь иллюзия. Лишь немногие принцы достаточно сильны, чтобы быть достойными нашего почитания."
@@ -1928,7 +1928,7 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     doctrine_parameter_has_access_to_trials_by_combat:0 "[Concept('crimes', 'Преступления')|E] [Concept('characters', 'персонажей')|E], которых вы не можете [Concept('imprison', 'заключить в темницу')|E] и которые не являются вашими [Concept('liege', 'сюзеренами')|E], могут быть решены через [Concept('single_combat_fight', 'поединок')|E]"
  
  tenet_green_pact_name:0 "Зелёный пакт"
-    tenet_green_pact_desc:0 "Не причиняйте вреда лесу. Не ешьте ничего растительного. Ешьте только мясо. После победы над врагом съешьте его труп - не дайте ему разложиться. Не убивайте без нужды. Не принимайте облик животного. Вы лесные эльфы, ваш облик свят."
+    tenet_green_pact_desc:0 "Не причиняйте вреда лесу. Не ешьте ничего растительного. Ешьте только мясо. После победы над врагом съешьте его труп - не дайте ему разложиться. Не убивайте без нужды. Не принимайте облик животного. Вы – лесные эльфы, ваш облик свят."
 	tenet_green_pact_requirement:0 "Ваша [faith|El] должна включать в [pantheon|El] [GetFaithDoctrine('doctrine_pantheon_green_pact').GetBaseName] или [GetFaithDoctrine('doctrine_pantheon_wilderking').GetBaseName] "
     doctrine_parameter_cannibalism_reduced_effects:0 "[trait|E] [GetTrait('cannibal').GetName( GetNullCharacter )] не даёт [dread_i][dread|El]"
     doctrine_parameter_enables_gp_buildings:0 "Открывает линейки [Concept('buildings', 'зданий')|E] $building_type_pact_provisions_01$ и $building_type_graht_manors_01$ в регионе [GetGeographicalRegion('mundus_tamriel_valenwood').GetName]"

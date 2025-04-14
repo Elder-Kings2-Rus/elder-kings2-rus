@@ -75,7 +75,7 @@
  ek_story_cycle_necromancy_events.0305.b:0 "Попытаться отвлечь [secret_opposer.GetHerHis] от ваших истинных намерений."
  ek_story_cycle_necromancy_events.0305.b.success:0 "Вам удалось скрыть свои истинные намерения от персонажа [secret_opposer.GetFirstNameNoTooltip]."
  ek_story_cycle_necromancy_events.0305.b.failure:0 "[secret_opposer.GetFirstNameNoTooltip|U] теперь ещё больше подозревает меня."
- ek_story_cycle_necromancy_events.0305.c:0 "IЭто становится слишком рискованным. Мне нужно прекратить."
+ ek_story_cycle_necromancy_events.0305.c:0 "Это становится слишком рискованным. Мне нужно прекратить."
 
  ek_story_cycle_necromancy_events.0310.t:0 "Обучение некромантии: расплата за секретность"
  ek_story_cycle_necromancy_events.0310.desc:0 "Изучать тайны некромантии и так непросто, а скрывать это от моих собственных придворных становится почти невозможно.\n\nМне приходится проводить каждый ритуал наедине, удалять каждую капельку грязи из-под ногтей и следить за тем, чтобы результаты моих экспериментов исчезли к утру. Одна крошечная ошибка или недосмотр могут уничтожить всё.\n\nМожет, лучше отказаться от этой затеи, пока не стало слишком поздно?"
@@ -143,7 +143,7 @@
  ek_story_cycle_necromancy_events.0245.b:0 "Я не стану тратить на это ресурсы."
 
  ek_story_cycle_necromancy_events.0246.t:0 "Обучение некромантии: вне контроля"
- ek_story_cycle_necromancy_events.0246.desc:0 "TОхотник, которого я [Select_CString(ROOT.Char.IsFemale, 'наняла', 'нанял' )], принёс мне тело действительно великолепного животного, что известно как [ROOT.Char.MakeScope.Var('animal_type').GetFlagName]. Я [Select_CString(ROOT.Char.IsFemale, 'отнесла', 'отнёс' )] его в глубины своего подземелья, где [Select_CString(ROOT.Char.IsFemale, 'могла', 'мог' )] бы спокойно проводить эксперименты. Или так я [Select_CString(ROOT.Char.IsFemale, 'думала', 'думал' )].\n\nНесмотря на то, что я [Select_CString(ROOT.Char.IsFemale, 'следовала', 'следовал' )] всем инструкциям, что-то пошло совсем не так в тот момент, когда я [Select_CString(ROOT.Char.IsFemale, 'произнесла', 'произнёс' )] заклинание над трупом. Несмотря на все мои предосторожности, животное атаковало меня как только вновь ожило.\n\nБежать некуда, так что неужели мне теперь придётся сражаться с собственным творением?"
+ ek_story_cycle_necromancy_events.0246.desc:0 "Охотник, которого я [Select_CString(ROOT.Char.IsFemale, 'наняла', 'нанял' )], принёс мне тело действительно великолепного животного, что известно как [ROOT.Char.MakeScope.Var('animal_type').GetFlagName]. Я [Select_CString(ROOT.Char.IsFemale, 'отнесла', 'отнёс' )] его в глубины своего подземелья, где [Select_CString(ROOT.Char.IsFemale, 'могла', 'мог' )] бы спокойно проводить эксперименты. Или так я [Select_CString(ROOT.Char.IsFemale, 'думала', 'думал' )].\n\nНесмотря на то, что я [Select_CString(ROOT.Char.IsFemale, 'следовала', 'следовал' )] всем инструкциям, что-то пошло совсем не так в тот момент, когда я [Select_CString(ROOT.Char.IsFemale, 'произнесла', 'произнёс' )] заклинание над трупом. Несмотря на все мои предосторожности, животное атаковало меня как только вновь ожило.\n\nБежать некуда, так что неужели мне теперь придётся сражаться с собственным творением?"
  ek_story_cycle_necromancy_events.0246.a:0 "Сразиться с нежитью!"
  ek_story_cycle_necromancy_events.0246.a.success:0 "Вы отбиваетесь от нежити."
  ek_story_cycle_necromancy_events.0246.a.failure:0 "Нежить ранит вас."

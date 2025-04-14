@@ -5,7 +5,7 @@
  game_concept_arcana:0 "Аркана"
  game_concept_arcana_i:0 "@skill_arcana_icon!"
  game_concept_arcana_skill:0 "Мастерство Арканы"
- game_concept_arcana_skill_desc:1 "$game_concept_arcana$ — это вторичный [skill|El], который отражает магические способности персонажа.\n\nВысокий навык арканы означает, что у него больше маны и доступ к более мощным заклинаниям."
+ game_concept_arcana_skill_desc:1 "$game_concept_arcana$ — это вторичный [skill|El], который отражает магические способности персонажа.\n\nВысокий навык арканы означает, что у персонажа расширенный запас [Concept('magicka', 'магии')|E] и есть доступ к более мощным заклинаниям."
  game_concept_ritual:0 "Ритуал"
  game_concept_ritual_i:0 "@ritual_icon!"
  game_concept_rituals:0 "Ритуалы"
