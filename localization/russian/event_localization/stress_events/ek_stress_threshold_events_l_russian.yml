@@ -21,7 +21,7 @@
  ek_stress_threshold.0201.stress_greedy_clavicus:0 "Просто сделка... $clavicus_alt$ и я заключим сделку..."
  ek_stress_threshold.0201.stress_greedy_meridia:0 "Просто сделка... $meridia_alt$ и я заключим сделку..."
  ek_stress_threshold.0201.stress_honest_vaermina:0 "$vaermina_alt$ поймёт..."
- ek_stress_threshold.0201.stress_humble_peryite:0 "О, $peryite_alt$, я всего лишь ваш покорный слуга..."
+ ek_stress_threshold.0201.stress_humble_peryite:0 "О, $peryite_alt$, я всего лишь [Select_CString(ROOT.Char.IsFemale, 'твоя покорная служанка', 'твой покорный слуга' )]..."
  ek_stress_threshold.0201.stress_impatient_mehrunes:0 "Только Он поможет мне сейчас - $mehrunes_alt$."
  ek_stress_threshold.0201.stress_just_meridia:0 "Справедливость будет вести меня, как говорит $meridia_alt$."
  ek_stress_threshold.0201.stress_lazy_clavicus:0 "Зачем беспокоится? Я знаю, что $clavicus_alt$ позаботится об этом..."
