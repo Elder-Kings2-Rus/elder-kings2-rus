@@ -769,7 +769,7 @@
  daedric_house_of_worship_plural:0 "даэдрические святилища"
  
  # Crypto Religion loc thingy because vanilla is missing this
- make_character_crypto_religionist_effect_desc:0 "Вы тайно обратитесь в [new_secret_faith.GetName]"
+ make_character_crypto_religionist_effect_desc:0 "Вы тайно обратитесь в [new_secret_faith.GetAdjective|l]"
  
   # Lift Daedric Curse
  ek_lift_daedric_curse.tt: "Проклятие, наложенное на вас, будет снято"
