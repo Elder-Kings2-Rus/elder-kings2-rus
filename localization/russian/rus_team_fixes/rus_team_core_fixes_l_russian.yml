@@ -240,3 +240,8 @@
  nick_the_amber_scale:0 "Янтарная чешуя"
  NOT_CHARACTER_IS_A_VAMPIRE:0 "[CHARACTER.GetShortUIName|U] — #bold не#! [GetTrait('vampire_character').GetName( CHARACTER.Self )]"
  ek_travel_events.4050.success: "[physician.GetName] успешно лечит ногу"
+ hierocracy_tax_slot: "Иерократическая налоговая юрисдикция"
+ hierocracy_tax_slot_no_tax_collector: "Иерократическая налоговая юрисдикция"
+ hierocracy_tax_slot_tax_collector: "Иерократическая налоговая юрисдикция: [character.GetName]"
+ hierocracy_tax_slot_add: "$MOD_NUM_TAX_SLOTS$"
+ 
