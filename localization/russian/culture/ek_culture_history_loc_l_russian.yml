@@ -69,7 +69,7 @@
 #Bosmer
  grath_history_loc:0 "Потомки #L [GetCulturePillar('heritage_bosmeri').GetName|l]их#! поселенцев в Великом Гратвуде"
  silvenar_history_loc:0 "Потомки #L [GetCulturePillar('heritage_bosmeri').GetName|l]их#! поселенцев на Разбитом Берегу"
- altmeribosmer_history_loc:0 "Потомки [GetCulturePillar('heritage_bosmeri').GetName|l]ого#! народа, на который повлияли [CULTURE.GetName] моряки и торговцы"
+ altmeribosmer_history_loc:0 "Потомки #L [GetCulturePillar('heritage_bosmeri').GetName|l]ого#! народа, на который повлияли моряки и торговцы-[CULTURE.GetName|l]"
  cyrobosmer_history_loc:0 "Потомки #L [GetCulturePillar('heritage_bosmeri').GetName|l]ого#! народа, которые приняли Сиродильскую Империю"
  bosmer_history_loc:0 "Потомки #L [GetCulturePillar('heritage_bosmeri').GetName|l]их#! поселенцев в Дремучем Лесу"
  arenthi_history_loc:0 "Потомки #L [GetCulturePillar('heritage_bosmeri').GetName|l]их#! поселенцев в неумолимой Саванне"
