@@ -96,8 +96,8 @@
  trait_education_magic_4_desc:0 "Этот персонаж обучался у одних из лучших волшебников Тамриэля и демонстрирует как впечатляющие природные способности к магии, так и желание изучить все, что связано с магическими искусствами."
  trait_education_magic_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'обучалась', 'обучался' )] у одних из лучших волшебников Тамриэля и демонстрирует как впечатляющие природные способности к магии, так и желание изучить все, что связано с магическими искусствами."
  trait_education_magic_5:0 "Верховный маг"
- trait_education_magic_5_desc:0 "Этот персонаж обучался только у самых могущественных и знающих волшебников и достиг вершины магического понимания. Границы самой реальности больше не могут сравниться с такими способностями."
- trait_education_magic_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'обучалась', 'обучался' )] только у самых могущественных и знающих волшебников и [Select_CString(ROOT.GetCharacter.IsFemale, 'достигла', 'достиг' )] вершины магического понимания. Границы самой реальности больше не могут сравниться с такими способностями."
+ trait_education_magic_5_desc:0 "Этот персонаж обучался только у самых могущественных и знающих волшебников и достиг вершины магического понимания. Законы самой реальности больше не могут ограничить подобные способности."
+ trait_education_magic_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'обучалась', 'обучался' )] только у самых могущественных и знающих волшебников и [Select_CString(ROOT.GetCharacter.IsFemale, 'достигла', 'достиг' )] вершины магического понимания. Законы самой реальности больше не могут ограничить [Select_CString(ROOT.GetCharacter.IsFemale, 'её', 'его' )] способности."
 
  trait_unmourned_blood:0 "Кровь Неоплаканных"
  trait_unmourned_blood_desc:0 "Кажется, что у этого персонажа что-то не так в родословной, но истинная природа этого остается загадкой."
