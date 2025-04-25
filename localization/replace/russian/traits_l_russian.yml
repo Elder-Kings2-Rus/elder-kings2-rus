@@ -3,35 +3,35 @@
  trait_education_stewardship_4_desc:0 "Те, кого благословил грязекраб-торговец, не знают поражения на поприще управления и возводят оное в ранг искусства."
  
  trait_pneumonic:0 "Озноб"
- trait_pneumonic_character_desc:0 "Страдая от неуклюжести и душевного смятения, [ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от озноба."
+ trait_pneumonic_character_desc:0 "Мучаясь от неуклюжести и душевного смятения, [ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от озноба."
  
- trait_lovers_pox:0 "Чесотка"
+ trait_lovers_pox:0 "Чесотка в штанах"
  
  trait_gout_ridden:0 "Каменная подагра"
 
  trait_consumption:0 "Увядание"
- trait_consumption_desc:0 "Страдая от кровавого кашля, вызванного холодным воздухом в лёгких, этот персонаж страдает от увядания."
- trait_consumption_character_desc:0 "Страдая от кровавого кашля, вызванного холодным воздухом в лёгких, [ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от увядания."
+ trait_consumption_desc:0 "Мучаясь от кровавого кашля, вызванного холодным воздухом в лёгких, этот персонаж страдает от увядания."
+ trait_consumption_character_desc:0 "Мучаясь от кровавого кашля, вызванного холодным воздухом в лёгких, [ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от увядания."
 
  trait_cancer:0 "Гниль"
- trait_cancer_desc:0 "Гниль распространилась по телу этого персонажа, высасывая из него жизнь."
+ trait_cancer_desc:0 "Гниль распространилась по телу этого персонажа, высасывая жизненную силу."
  trait_cancer_character_desc:0 "Гниль распространилась по телу [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip], высасывая из [Select_CString(ROOT.GetCharacter.IsFemale, 'неё', 'него' )] жизненные силы."
  trait_bubonic_plague:0 "Кнахатенский грипп"
  trait_bubonic_plague_desc:0 "Этот персонаж страдает от высокой температуры и мучительного кашля. По всему телу медленно распространяется багровая сыпь. Пребывать на этом свете ему осталось недолго."
- trait_bubonic_plague_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] не долго задержится на этом свете: по всему телу медленно распространяется багровая сыпь."
+ trait_bubonic_plague_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от высокой температуры и мучительного кашля. По [Select_CString(ROOT.GetCharacter.IsFemale, 'её', 'его')] телу медленно распространяется багровая сыпь. Пребывать на этом свете [Select_CString(ROOT.GetCharacter.IsFemale, 'ей', 'ему')] осталось недолго."
  
  trait_scaly:0 "Змеевитое слабоумие"
- trait_scaly_desc:0 "Этот персонаж страдает от галлюцинаций и зудящего и неприглядного состояния чешуйчатой кожи, напоминающей змеиную чешую."
- trait_scaly_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от галлюцинаций и зудящего и неприглядного состояния чешуйчатой кожи, напоминающей змеиную чешую."
+ trait_scaly_desc:0 "Этот персонаж страдает от галлюцинаций, а также его кожа местами покрыта сильно зудящими и некрасивыми на вид чешуйками, напоминающими змеиные."
+ trait_scaly_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от галлюцинаций, а также [ROOT.GetCharacter.GetHerHis] кожа местами покрыта сильно зудящими и некрасивыми на вид чешуйками, напоминающими змеиные."
  
  trait_order_member:0 "Член ордена"
- trait_order_member_desc:0 "Этот персонаж служит в милитаризованном священном ордене."
- trait_order_member_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] служит в милитаризованном священном ордене."
+ trait_order_member_desc:0 "Этот персонаж служит в воинском священном ордене."
+ trait_order_member_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] служит в воинском священном ордене."
  
  trait_order_member_ordinator:0 "Ординатор"
- trait_order_member_character_ordinator_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] служит [ROOT.Char.GetFaith.HighGodName] как Ординатор."
+ trait_order_member_character_ordinator_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] служит [ROOT.Char.GetFaith.HighGodName] в качестве ординатора."
  
  trait_knight_errant: "Странствующий герой"
  trait_knight_errant_character: "Странствующий герой"
- trait_knight_errant_desc: "Прославленный герой, этот персонаж защищает слабых, оберегает беззащитных и карает порочных."
+ trait_knight_errant_desc: "Этот персонаж – прославленный герой. Он защищает слабых, оберегает беззащитных и карает порочных."
  trait_knight_errant_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] защищает слабых, оберегает беззащитных и карает порочных."
