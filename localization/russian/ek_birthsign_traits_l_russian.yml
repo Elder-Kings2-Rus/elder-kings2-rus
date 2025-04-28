@@ -1,7 +1,7 @@
 ﻿l_russian:
  trait_sign_apprentice:0 "Ученик"
  trait_sign_automaton:0 "Автоматон"
- trait_sign_apprentice_desc:0 "Считается, что те, кто родился под этим знаком,  предрасположены к магии любого рода и желают применять свои умения на практике."
+ trait_sign_apprentice_desc:0 "Считается, что те, кто родился под этим знаком, предрасположены к магии любого рода и желают применять свои умения на практике."
  trait_sign_apprentice_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'рождена', 'рождён' )] под знаком Ученика.\n\n$trait_sign_apprentice_desc$"
  trait_sign_automaton_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'рождена', 'рождён' )] под знаком Автоматона.\n\n$trait_sign_apprentice_desc$"
  trait_sign_atronach:0 "Атронах"
