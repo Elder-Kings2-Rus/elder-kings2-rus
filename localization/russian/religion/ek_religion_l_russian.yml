@@ -220,7 +220,7 @@
  holy_site_hs_sancre_tor_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_sancre_tor_name$)#!"
  holy_site_hs_ancestor_moth_name:0 "Мотылёк Предка"
  holy_site_hs_ancestor_moth_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_ancestor_moth_name$)#!"
- # Imperial Cult
+ # Eight Divines
  holy_site_hs_abbey_eight_name:0 "Аббатство Восьми"
  holy_site_hs_abbey_eight_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_abbey_eight_name$)#!"
  holy_site_hs_missing_sibling_name:0 "Потерянный брат"
@@ -585,6 +585,14 @@
  holy_site_hs_bonerock_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_bonerock_name$)#!"
  holy_site_hs_calcal_name:0 "Цалькаль"
  holy_site_hs_calcal_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_calcal_name$)#!"
+ holy_site_hs_mor_mazhul_name:0 "Мор Бажул"
+ holy_site_hs_mor_mazhul_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_mor_bazhul_name$)#!"
+ holy_site_hs_mor_mazhul_effects:0 "Сопротивление обращению графства: #P +50%#!"
+ COURT_CHAPLAIN_CONVERSION_HOLY_SITE_HS_MOR_MAZHUL:1 "Враждебное священное место — $holy_site_hs_mor_mazhul_name$"
+ holy_site_hs_ald_uman_name:0 "Альд-Уман"
+ holy_site_hs_ald_uman_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_ald_uman_name$)#!"
+ holy_site_hs_onimushili_name:0 "Онимушили"
+ holy_site_hs_onimushili_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_onimushili_name$)#!"
 # Mehrunes
  holy_site_hs_lake_arrius_name:0 "Озеро Арриус"
  holy_site_hs_lake_arrius_effect_name:0 "От [Concept( 'holy_site', 'святого места' )|E] #weak ($holy_site_hs_lake_arrius_name$)#!"

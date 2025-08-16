@@ -1,4 +1,7 @@
 ﻿#EK edit: fixed vanilla typo
 
 l_russian:
+ holiness_holy_site_3:0 "[ROOT.Var('holy_site_var').Title.GetNameNoTierNoTooltip] should be in the [ROOT.Char.Custom('HandsClawsPaws')] of the [ROOT.Char.GetFaith.PriestNeuterPlural]."
+ hold_court.8100.b:0 "My [ROOT.Char.Custom('HandsClawsPaws')] are full, but I will find [ward.GetHerHim] a home."
+ hold_court.8130.desc:0 "Bowing before me is a peasant of [peasant.GetCulture.GetName] extraction, wringing [peasant.GetHerHis] [peasant.Custom('HandsClawsPaws')]. \n\n"Majestic [ROOT.Char.GetTitleAsNameNoTooltip], in my beautiful homeland of [conversion_target.GetNameNoTier] we are being encouraged to abandon our customs and adopt [ROOT.Char.GetCulture.GetName] ways." \n\n"
  hold_court.8260.desc.intro:1 "[vassal_faction_target.GetFullName] подходит ко мне с кислым выражением лица и нетерпеливо излагает свое прошение. \n\n«[ROOT.Char.GetTitleAsNameNoTooltip], [Select_CString(vassal_faction_leader.IsFemale, 'моя', 'мой' )] [vassal_faction_target.Custom2('RelationToMeShort', SCOPE.sC('vassal_faction_leader'))] [vassal_faction_leader.GetTitledFirstName] хочет лишить меня законного места"

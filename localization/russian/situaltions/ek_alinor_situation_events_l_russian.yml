@@ -1,0 +1,17 @@
+﻿l_russian:
+ alinor_isolationism.0001.t: "Alinor Isolationism"
+ alinor_isolationism.0001.desc: "For thousands of years, the kingdom of Alinor stood apart from other realms of Tamriel, always isolated from outlanders. But times are changing, and the chaotic Interregnum may force even High Elves to change their ways..."
+ alinor_isolationism.0001.a: "May Auri-El keep the continent of Alinor safe."
+ alinor_isolationism.0001.b: "Interesting..."
+ ALINOR_ISOLATIONISM_SITUATION_INFO_CLOSED_TITLE: "$alinor_closed$"
+ ALINOR_ISOLATIONISM_SITUATION_INFO_OPEN_TITLE: "$alinor_open$"
+ ALINOR_ISOLATIONISM_SITUATION_INFO_CLOSED: "$alinor_closed$"
+ ALINOR_ISOLATIONISM_SITUATION_INFO_OPEN: "$alinor_open$"
+ ALINOR_ISOLATIONISM_INFO_CLOSED_EXPLANATION: "$alinor_closed_desc$"
+ ALINOR_ISOLATIONISM_SITUATION_INFO_OPEN_EXPLANATION: "$alinor_open_desc$"
+
+ alinor_isolationism.0002.t: "Alinor Isolationism: [my_subregion.GetCurrentPhase.GetName]"
+ alinor_isolationism.0002.desc.open: "To the surprise of the local population, the kingdom of Alinor has opened itself to outside interaction. More foreign traders are arriving to Summerset's shores, and more High Elven ships are leaving for Tamriel. But it seems that many Altmer did not appreciate such a change to their way of life, and the rulers of Alinor are now dealing with a discontent population."
+ alinor_isolationism.0002.desc.closed: "Alinor is once more isolated from Tamriel. The few foreign traders and dignitaries are now only accepted in the capital city, and the sightings of High Elves on the shores of Tamriel are becoming rarer."
+ alinor_isolationism.0002.a: "And so the wheel keeps turning."
+ alinor_isolationism.0002.tt: "[situation_phase|E] has changed"

@@ -1,4 +1,6 @@
 ﻿l_russian:
+ trait_education_diplomacy_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] — знает все тонкости дипломатии как свои пять пальцев."
+ 
  trait_education_stewardship_4:0 "Благословение грязекраба-торговца"
  trait_education_stewardship_4_desc:0 "Те, кого благословил грязекраб-торговец, не знают поражения на поприще управления и возводят оное в ранг искусства."
  
@@ -16,6 +18,7 @@
  trait_cancer:0 "Гниль"
  trait_cancer_desc:0 "Гниль распространилась по телу этого персонажа, высасывая жизненную силу."
  trait_cancer_character_desc:0 "Гниль распространилась по телу [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip], высасывая из [Select_CString(ROOT.GetCharacter.IsFemale, 'неё', 'него' )] жизненные силы."
+ 
  trait_bubonic_plague:0 "Кнахатенский грипп"
  trait_bubonic_plague_desc:0 "Этот персонаж страдает от высокой температуры и мучительного кашля. По всему телу медленно распространяется багровая сыпь. Пребывать на этом свете ему осталось недолго."
  trait_bubonic_plague_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от высокой температуры и мучительного кашля. По [Select_CString(ROOT.GetCharacter.IsFemale, 'её', 'его')] телу медленно распространяется багровая сыпь. Пребывать на этом свете [Select_CString(ROOT.GetCharacter.IsFemale, 'ей', 'ему')] осталось недолго."
@@ -23,6 +26,8 @@
  trait_scaly:0 "Змеевитое слабоумие"
  trait_scaly_desc:0 "Этот персонаж страдает от галлюцинаций, а также его кожа местами покрыта сильно зудящими и некрасивыми на вид чешуйками, напоминающими змеиные."
  trait_scaly_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от галлюцинаций, а также [ROOT.GetCharacter.GetHerHis] кожа местами покрыта сильно зудящими и некрасивыми на вид чешуйками, напоминающими змеиные."
+ 
+ trait_rough_terrain_expert_character_desc:0 "Те, кто хорошо знает тактику боя на пересеченной местности, получают могущественного союзника в бою."
  
  trait_order_member:0 "Член ордена"
  trait_order_member_desc:0 "Этот персонаж служит в воинском священном ордене."
@@ -35,3 +40,8 @@
  trait_knight_errant_character: "Странствующий герой"
  trait_knight_errant_desc: "Этот персонаж – прославленный герой. Он защищает слабых, оберегает беззащитных и карает порочных."
  trait_knight_errant_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] защищает слабых, оберегает беззащитных и карает порочных."
+ 
+ trait_order_member_armiger:0 "Вечный страж"
+ trait_order_member_character_armiger_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] служит лорду Вивеку в роли вечного стража."
+ 
+ trait_lifestyle_surveyor_adventurer_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] славится познаниями в путешествиях. Прекрасно ориентируясь в дикой природе, [Select_CString(ROOT.GetCharacter.IsFemale, 'она', 'он' )] может обойти вражеские армии, устроить засаду или просто безопасно переместиться из одного города в другой."

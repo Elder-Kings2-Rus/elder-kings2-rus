@@ -40,6 +40,8 @@
  d_blackcaster_article:0 ""
  d_oracles_ruptga: "Оракулы Высокого Папы"
  d_oracles_ruptga_article: ""
+ d_icereach_article:0 ""
+ d_icereach:0 "Ковен Ледяного Предела"
  # History Titles
  AKAVIRI_POTENTATE:0 "Акавирский потентат"
  AKAVIRI_POTENTATE_article:0 ""
@@ -81,6 +83,11 @@
  d_padomaic_slavers_article:0 ""
  d_blue_venom:0 "Пираты голубого яда"
  d_blue_venom_article:0 ""
+ d_ghost_sea_slavers:0 "Работорговцы Моря призраков"
+ d_ghost_sea_slavers_article:0 ""
+ d_storm_sharks_article:0 ""
+ d_storm_sharks_adj:0 "Штормо-акульск"
+ d_storm_sharks:0 "Штормовые акулы"
  # Legions
  d_first_legion_article:0 ""
  d_first_legion:0 "Имперская гвардия"
@@ -160,6 +167,7 @@
  k_sadras:0 "Дом Садрас"
  k_sul:0 "Дом Сул"
  k_veloth:0 "Дом Велот"
+ d_hive_council: "Совет улья"
  #kingdom_Great_House_Dunmer:0 "Great House" -unnecessary
  ## Black Marsh
  d_south_argonia:0 "Южная Аргония"

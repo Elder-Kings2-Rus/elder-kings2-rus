@@ -414,6 +414,16 @@
  race_dunmer_ashlander_ear_name:0 "Тёмный эльф, Эшлендер II"
  race_dunmer_ashlander_ear:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_dunmer_ashlander_ear_name'), 'no' )]"
 
+ race_dunmer_shinathi_name:0 "Dunmer, Shinathi I"
+ race_dunmer_shinathi:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_dunmer_shinathi_name'), 'no' )]"
+
+ race_dunmer_shinathi_2_name:0 "Dunmer, Shinathi III"
+ race_dunmer_shinathi_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_dunmer_shinathi_2_name'), 'no' )]"
+
+ 
+ race_dunmer_shinathi_ear_name:0 "Dunmer, Shinathi II"
+ race_dunmer_shinathi_ear:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_dunmer_shinathi_ear_name'), 'no' )]"
+ 
  
  race_chimer_name:0 "Кимер"
  race_chimer:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_chimer_name'), 'no' )]"
@@ -434,6 +444,9 @@
  race_orsimer_iron:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_orsimer_iron_name'), 'no' )]"
  race_orsimer_iron_2_name:0 "Железный орк II"
  race_orsimer_iron_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_orsimer_iron_2_name'), 'no' )]"
+ race_orsimer_malahk_name:0 "Orsimer, Malahk"
+ race_orsimer_malahk:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), Localize('race_orsimer_malahk_name'), 'no' )]"
+
 
 ### TO DO: proper up to date anatomy loc and gene loc ###
 

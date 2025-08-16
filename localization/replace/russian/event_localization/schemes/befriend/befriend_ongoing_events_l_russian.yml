@@ -1,0 +1,4 @@
+﻿l_russian:
+ befriend_ongoing.4060.desc:0 "People speak of the considerable skill that [target.GetTitledFirstName] displays with a sword in [target.Custom('HandClawPaw')]. It is said that few manage to stand their ground for more than a few seconds under [target.GetHerHis] attacks once blades are drawn."
+ befriend_ongoing.4064.a.desc:0 "[target.GetTitledFirstName] and I met for a sparring match, swords in [ROOT.Char.Custom('HandClawPaw')]. After spending a good two hours in our swift dance of thrusts and parries, we spent another three discussing technique and tactics."
+ befriend_ongoing.6008.desc:0 "It seems as if my release from captivity at the [owner.Custom('HandsClawsPaws')] of [owner.GetTitledFirstName] was orchestrated by my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], [target.GetTitledFirstName]!"

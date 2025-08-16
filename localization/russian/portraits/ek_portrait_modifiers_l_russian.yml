@@ -360,32 +360,59 @@ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orc_01_high:0 "@ek_dlc_i
  ################ Misc ################
  #########################################
  
-  ### EK2 Hair ###
   PORTRAIT_MODIFIER_custom_hair_male_hair_legolas_01:0 "@ek_dlc_icon! Длинные эльфийские волосы"
   
   PORTRAIT_MODIFIER_custom_beards_male_beard_dwemer_01:0 "@ek_dlc_icon! Двемерская борода"
  
-  ### Male ###
-  
   PORTRAIT_MODIFIER_special_draugr:0 "@ek_dlc_icon! Нежить"
   
   PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01:0 "Нет одежды"
-  PORTRAIT_MODIFIER_custom_clothes_male_empty:0 "ПУСТОЙ ЗАПОЛНИТЕЛЬ ЗАМЕНИТЕ МЕНЯ"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nudity_01:0 "Нет одежды"  
+  
+  PORTRAIT_MODIFIER_custom_clothes_male_empty:0 "ПУСТОЙ ЗАПОЛНИТЕЛЬ, ЗАМЕНИТЕ МЕНЯ"
+  PORTRAIT_MODIFIER_custom_clothes_female_empty:0 "ПУСТОЙ ЗАПОЛНИТЕЛЬ, ЗАМЕНИТЕ МЕНЯ"
  
   PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_mage:0 "@ek_dlc_icon! Экстравагантные магические одеяния"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_mage:0 "@ek_dlc_icon! Экстравагантные магические одеяния"  
+  
   PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_moth_priest:0 "@ek_dlc_icon! Одеяние жреца Мотылька"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_moth_priest:0 "@ek_dlc_icon! Одеяние жрицы Мотылька" 
+  
   PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_orc_war:0 "@ek_dlc_icon! Орочий доспех"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orc_war:0 "@ek_dlc_icon! Орочий доспех"  
+  
   PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_daedric:0 "@ek_dlc_icon! Даэдрическая броня"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_daedric:0 "@ek_dlc_icon! Даэдрическая броня" 
   
   PORTRAIT_MODIFIER_custom_clothes_male_clothes_artifact_lords_mail:0 "@ek_dlc_icon! Кольчуга Лорда"
   PORTRAIT_MODIFIER_custom_clothes_female_clothes_artifact_lords_mail:0 "@ek_dlc_icon! Кольчуга Лорда"
   
+  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_ek2_legion_war_01:0 "@ek_dlc_icon! Шлем имперского легиона"
+  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_ek2_legion_war_01:0 "@ek_dlc_icon! Шлем имперского легиона"
+  
+  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ek2_legion_war_01:0 "@ek_dlc_icon! Броня имперского легиона"
+  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ek2_legion_war_01:0 "@ek_dlc_icon! Броня имперского легиона"
+  
+  PORTRAIT_MODIFIER_custom_legwear_m_legwear_sec_ek2_legion_war_01:0 "@ek_dlc_icon! Поножи имперского легиона"
+  PORTRAIT_MODIFIER_custom_legwear_f_legwear_sec_ek2_legion_war_01:0 "@ek_dlc_icon! Поножи имперского легиона"
+  
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_mage:0 "@ek_dlc_icon! Капюшон мага"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_mage:0 "@ek_dlc_icon! Капюшон мага"  
+  
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_mage_02:0 "@ek_dlc_icon! Экстравагантный капюшон мага"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_mage_02:0 "@ek_dlc_icon! Экстравагантный капюшон мага"  
+  
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_moth_priest:0 "@ek_dlc_icon! Капюшон жреца Мотылька"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_moth_priest:0 "@ek_dlc_icon! Капюшон жрицы Мотылька""  
+  
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_monk_01:0 "@ek_dlc_icon! Капюшон священника 1"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_monk_01:0 "@ek_dlc_icon! Капюшон священницы 1"  
+  
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_monk_02:0 "@ek_dlc_icon! Капюшон священника 2"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_monk_02:0 "@ek_dlc_icon! Капюшон священницы 2" 
+  
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_colovian_01:0 "@ek_dlc_icon! Коловианский меховой шлем"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_colovian_01:0 "@ek_dlc_icon! Коловианский меховой шлем"  
   
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_tricorn_01:0 "@ek_dlc_icon! Треуголка, вариант 1"
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_tricorn_02:0 "@ek_dlc_icon! Треуголка, вариант 2"
@@ -399,33 +426,15 @@ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orc_01_high:0 "@ek_dlc_i
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_nord_crown_of_verity:0 "@ek_dlc_icon! Корона Истинности"
  
   PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_daedric:0 "@ek_dlc_icon! Даэдрические поножи"
+  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_daedric:0 "@ek_dlc_icon! Даэдрические поножи"
   
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_dragon_priest:0 "@ek_dlc_icon! Маска драконьего жреца"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_dragon_priest:0 "@ek_dlc_icon! Маска драконьей жрецы"  
   
   PORTRAIT_MODIFIER_custom_cloaks_cloaks_nibenese_male_noble_01_high:0 "@ek_dlc_icon! Нибенейский благородный плащ"
   
   PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ek2_breton_noble_war_01:0 "@ek_dlc_icon! Бретонский латный доспех"
   PORTRAIT_MODIFIER_custom_legwear_m_legwear_sec_ek2_breton_noble_war_01:0 "@ek_dlc_icon! Бретонские ножные латы"
-  
-  ### Female ###
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nudity_01:0 "Нет одежды"
-  PORTRAIT_MODIFIER_custom_clothes_female_empty:0 "ПУСТОЙ ЗАПОЛНИТЕЛЬ ЗАМЕНИТЕ МЕНЯ"
-  
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_mage:0 "@ek_dlc_icon! Экстравагантные магические одеяния"
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_moth_priest:0 "@ek_dlc_icon! Одеяния жреца Мотылька"
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orc_war:0 "@ek_dlc_icon! Орочий доспех"
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_daedric:0 "@ek_dlc_icon! Даэдрическая броня"
-  
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_mage:0 "@ek_dlc_icon! Капюшон мага"
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_mage_02:0 "@ek_dlc_icon! Экстравагантный капюшон мага"
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_moth_priest:0 "@ek_dlc_icon! Капюшон жреца Мотылька"
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_monk_01:0 "@ek_dlc_icon! Капюшон священника 1"
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_monk_02:0 "@ek_dlc_icon! Капюшон священника 2"
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_colovian_01:0 "@ek_dlc_icon! Коловианский меховой шлем"
-  
-  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_daedric:0 "@ek_dlc_icon! Даэдрические поножи"
-  
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_dragon_priest:0 "@ek_dlc_icon! Маска драконьего жреца"
   
   PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ek2_breton_noble_war_01:0 "@ek_dlc_icon! Бретонский латный доспех"
   PORTRAIT_MODIFIER_custom_legwear_f_legwear_sec_ek2_breton_noble_war_01:0 "@ek_dlc_icon! Бретонские ножные латы"

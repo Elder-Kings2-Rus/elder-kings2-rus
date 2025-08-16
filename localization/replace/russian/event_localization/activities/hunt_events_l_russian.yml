@@ -1,11 +1,26 @@
 ﻿l_russian:
+ hunt.0080.imprisoned:0 "With [host.GetTitledFirstName] safely locked away by [ROOT.Char.GetImprisonedBy.GetTitledFirstNamePossessive], it seems we will have to return home empty-[ROOT.Char.Custom('HandClawPaw')]ed..."
+ hunt.1012.opening:1 "Bow in [ROOT.Char.Custom('HandClawPaw')], quiet steps, eyes on the [host.GetCurrentLocation.Custom('GetProvinceFoliageDesc')] as I await the [activity.Custom('GetAnimalType')]... A deep breath and — is that [murder_target.GetTitledFirstName]?\n\n"
  hunt.1002.desc_wounded_courtier:0 "Мы следим за [ROOT.Char.Custom('LocalAnimal')], летящим через овраг. Как вдруг [ROOT.Char.Custom('LocalMount')] сбивает [hunting_courtier_1.GetTitledFirstNamePossessive] с ног. [hunting_courtier_1.GetSheHe] падает на землю и начинает кричать.\n\nНичего смертельного, но [hunting_courtier_1.GetTitleTierName] скручивается от боли."
  hunt.1002.desc:0 "Мой мир сужается до окружающей нас природы, когда мы следуем за [ROOT.Char.Custom('LocalAnimal')], убегающим через овраг. Скача бок о бок с [hunting_courtier_1.GetTitledFirstName], я слышу лай собак, крики мужчин... Волнение проникает в меня, когда мы медленно настигаем нашу добычу!"
+ hunt.1015.desc:2 ""[ROOT.Char.GetTitledFirstNameNoTooltip]?! Argh! Is that you, my [ROOT.Char.GetLadyLord]?"\n\n[murder_target.GetTitledFirstName] glances wide-eyed between the bow in my [ROOT.Char.Custom('HandClawPaw')] and the arrow lodged in [murder_target.GetHerHis] arm.\n\n"What were you thinking?!""
+ hunt.1062.t.hare:0 "A Hare in the [ROOT.Char.Custom('HandClawPaw')|U]"
+ hunt.1062.t:0 "A Bird in the [ROOT.Char.Custom('HandClawPaw')|U]"
+ hunt.4001.desc_2:2 "Carefully judging the distance to the [activity.Custom('GetAnimalType')], with my javelin perfectly balanced in my [ROOT.Char.Custom('HandClawPaw')]...\n\nMy [ROOT.Char.Custom2('RelationToMe', hunt_participant)], [hunt_participant.GetTitledFirstName], is crouching next to me, hefting [hunt_participant.GetHerHis] own spear."
 
  hunt.4012.desc:1 "Я еду впереди группы, когда вокруг меня внезапно появляются [ROOT.Char.Custom('TerrainType')]. Тишина почти осязаема, и мне трудно расслышать даже шум от дыхания [ROOT.Char.Custom('LocalMount')].\n\nКак раз когда я собираюсь повернуть назад, чтобы найти остальных, я вижу это впереди себя, животное размытое, как во сне, [ROOT.Char.Custom('LocalAnimal')] белый как снег."
+ hunt.4900.befriend:2 "\n\nI calmly hold out my [ROOT.Char.Custom('HandClawPaw')]. The [activity.Custom('GetAnimalTypeKill')] relaxes, confused, before tentatively halting just out of reach, sniffing at my digits suspiciously."
+ hunt.4016.c:0 "I will not sink so low, I'd rather return empty [ROOT.Char.Custom('HandClawPaw')]ed!"
  
  hunt.5002.a:0 "Где ваш [ROOT.Char.Custom('LocalMount')], [hunt_participant.GetFirstNameNoTooltip]? Возвращайтесь..."
  hunt.5003.desc.flower:1 "[hunt_participant.GetSheHe|U] закладывает мне что-то за ухо. "Хотя ему ни за что не сравниться с твоей красотой, этот цветок напомнил мне о тебе.""
-
+ hunt.7011.desc:0 "As [hunt_participant.GetTitledFirstName] and I pad on foot over some troublesome ground, I almost jump out of my [ROOT.Char.Custom('SkinScalesFur')] at the sound of an almighty yelp.\n\n"
+ hunt.7011.e:0 "Find the trappers, and cut off their [ROOT.Char.Custom('HandsClawsPaws')]."
+ hunt.7411.success:0 "\n\nI catch [abduct_target.GetHerHim] off-guard, knocking [abduct_target.GetHerHim] heavily to the [ROOT.Char.GetCurrentLocation.Custom('GetProvinceGroundDesc')]. As [abduct_target.GetSheHe] lays, stunned, I tie [abduct_target.GetHerHis] [abduct_target.Custom('HandsClawsPaws')] with rope.\n\n[abduct_target.GetSheHe|U] rolls over, eyes full of fear and confusion."
+ hunt.7411.failure:0 "\n\n[abduct_target.GetSheHe|U] is almost taken off-guard, but is sturdier than [abduct_target.GetSheHe] looks! [abduct_target.GetSheHe|U] is quick to realize what is happening, eyeing the cord in my [ROOT.Char.Custom('HandClawPaw')], and takes off into the [ROOT.Char.GetCurrentLocation.Custom('GetProvinceFoliageDesc')], crying for the others..."
+ hunt.7412.success:0 "\n\nBefore I have a chance to enquire, [abduct_actor.GetFirstNameNoTooltip] shoves into me with all [abduct_actor.GetHerHis] might, sending me sprawling across the [ROOT.Char.GetCurrentLocation.Custom('GetProvinceGroundDesc')].\n\nAs I lay there, dazed, I feel my [ROOT.Char.Custom('HandsClawsPaws')] being tied with rope! A kidnap?!"
  hunt.9001.desc_opening:0 "Охота подходит к концу. Мы садимся на [ROOT.Char.Custom('LocalMountMultiple')], чтобы оставить [ROOT.Char.Custom('TerrainType')] далеко позади"
- 
+ hunt.9001.murder_dead:1 "[ROOT.Char.GetIntentTarget.GetFirstName] lies dead, even if it wasn't by my [ROOT.Char.Custom('HandClawPaw')]...\n\n"
+ hunt.9002.t:0 "Empty-[ROOT.Char.Custom('HandClawPaw')|U]ed"
+
+ hunt_fish_hands_key:0 "[CHARACTER.GetShortUIName|U] tried to impress [TARGET_CHARACTER.GetShortUIName|U] by fishing with [CHARACTER.GetHerHis] bare [CHARACTER.Custom('HandsClawsPaws')]"
