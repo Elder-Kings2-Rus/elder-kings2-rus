@@ -5,7 +5,7 @@
  game_concept_arcana:0 "Аркана"
  game_concept_arcana_i:0 "@skill_arcana_icon!"
  game_concept_arcana_skill:0 "Мастерство Арканы"
- game_concept_arcana_skill_desc:1 "$game_concept_arcana$ — это вторичный [skill|El], который отражает магические способности персонажа.\n\nВысокий навык арканы означает, что у персонажа расширенный запас [Concept('magicka', 'магии')|E] и есть доступ к более мощным заклинаниям."
+ game_concept_arcana_skill_desc:1 "$game_concept_arcana$ — это вторичный [skill|El], который отражает магические способности персонажа.\n\nВысокий навык арканы означает, что у персонажа расширенный запас [Concept('magicka', 'магии')|E], повышенный [Concept('spell_range', 'радиус заклинаний')|E] и есть доступ к более мощным заклинаниям."
  game_concept_ritual:0 "Ритуал"
  game_concept_ritual_i:0 "@ritual_icon!"
  game_concept_rituals:0 "Ритуалы"
@@ -18,9 +18,11 @@
  game_concept_dark_arts_lifestyle_desc:0 "$game_concept_dark_arts_lifestyle$ подходит для персонажей, которые хотят улучшить свою [Concept( 'arcana', 'аркану' )|E] и [Concept( 'spells', 'заклинания' )|E], используя опасную, а иногда и злую [Concept( 'magic', 'магию' )|E] и [Concept( 'ritual', 'ритуальные' )|E] практики."
  game_concept_spells:0 "Заклинания"
  game_concept_spell:0 "Заклинание"
- game_concept_spell_desc:0 "Заклинания накладываются с помощью команды взаимодействия персонажей «Наложить заклинание» используя [Concept( 'magicka', 'магию' )|E] персонажа. Они делятся на 6 школ магии: Колдовство, Разрушение, Изменение, Иллюзия, Восстановление и Некромантия. Последняя может считаться приемлемой, порицаемой или преступной в некоторых [Concept( 'faiths', 'конфессиях' )|E].\n\nДополнительные заклинания открываются при продвижении по индивидуальным деревьям навыков в [Concept( 'magic_lifestyle', 'магическом образе жизни' )|E] и в образе жизни «[dark_arts_lifestyle|E]».\n\nНекоторые заклинания имеют разную степень силы - от [Concept( 'petty', 'слабого' )|E] до [Concept( 'grand', 'великого' )|E].\n\n#low Акт использования собственных запасов магии для создания какого-либо эффекта в физическом мире называется «наложением заклинания». Говорят, что нет двух магов, использующих свои заклинания одинаково. #!"
+ game_concept_spell_desc:0 "Заклинания накладываются с помощью команды [Concept('character_interaction', 'взаимодействия персонажа')|E] «Наложить заклинание» используя [Concept( 'magicka', 'магию' )|E] персонажа. Они делятся на 6 школ магии: [conjuration|E], [destruction|E], [alteration|E], [illusion|E], [restoration|E] и [necromancy|E]. Последняя может считаться приемлемой, порицаемой или преступной в некоторых [Concept( 'faiths', 'конфессиях' )|E].\n\nДополнительные заклинания открываются при продвижении по индивидуальным деревьям навыков в [Concept( 'magic_lifestyle', 'магическом образе жизни' )|E] и в образе жизни «[dark_arts_lifestyle|E]».\n\nНекоторые заклинания имеют разную степень силы - от [Concept( 'petty', 'слабого' )|E] до [Concept( 'grand', 'великого' )|E].\n\n#low Акт использования собственных запасов магии для создания какого-либо эффекта в физическом мире называется «наложением заклинания». Говорят, что нет двух магов, использующих свои заклинания одинаково.#!"
+ game_concept_spell_range:0 "Spell Range"
+ game_concept_spell_range_desc:0 "[spells|E] can only be used if the target is in close distance to the caster. This distance is defined by your [arcana|E] [skill|E] and can be further increased by certain [traits|E], [artifacts|E] or other means. #!"
  game_concept_magic:0 "Магия"
- game_concept_magic_desc:0 "Магия — это общий термин, используемый для фокусировки энергии в различных свойствах и для различных целей. Эта энергия, часто называемая [Concept( 'magicka', 'магией' )|E], течет из Этериуса в Мундус через солнце и звёзды.\n\nМагия используется через [spells|El] и [rituals|El].\n\n Разблокируется при наличии как минимум 10[arcana_i][Concept( 'arcana', 'арканы' )|E], магического [Concept( 'education_trait', 'свойства образования' )|E] или магического [Concept( 'congenital_trait', 'врождённого свойства' )|E]."
+ game_concept_magic_desc:0 "Магия — это общий термин, используемый для фокусировки энергии в различных свойствах и для различных целей. Эта энергия, часто называемая [Concept( 'magicka', 'магией' )|E], течет из Этериуса в Мундус через солнце и звёзды.\n\nМагия используется через [spells|El] и [rituals|El].\n\nРазблокируется при наличии как минимум #V 10#![arcana_i][Concept( 'arcana', 'арканы' )|E], магического [Concept( 'education_trait', 'свойства образования' )|E] или магического [Concept( 'congenital_trait', 'врождённого свойства' )|E]."
  game_concept_petty:0 "Слабое"
  game_concept_petty_desc:0 "Минимально возможный уровень силы [Concept('spell', 'заклинания')|E].\nПрогресс уровня силы:\n[petty|E] > [lesser|E] > [common|E] > [greater|E] > [grand|E]"
  game_concept_lesser:0 "Малое"
@@ -54,7 +56,8 @@
  artifact_magicka_modifier_mult:0 "\n$EFFECT_LIST_BULLET$Ежемесячная [magicka|El]: [magicka_i][Artifact.MakeScope.Var('magicka_modifier_mult').GetValue|%+=0]"
  artifact_necromancy_spell_cost_modifier:0 "\n$EFFECT_LIST_BULLET$Стоимость [Concept( 'spell', 'заклинаний' )|E] некромантии: #green [Artifact.MakeScope.Var('necromancy_spell_cost_modifier').GetValue|%+=0]#!"
  artifact_conjuration_spell_cost_modifier:0 "\n$EFFECT_LIST_BULLET$Стоимость [Concept( 'spell', 'заклинаний' )|E] колдовства: #green [Artifact.MakeScope.Var('conjuration_spell_cost_modifier').GetValue|%+=0]#!"
- staff_worms_effect:0 "\n$EFFECT_LIST_BULLET$Усиливает [spell|El] «$raise_dead_name$»"
+ artifact_alteration_spell_cost_modifier:0 "\n$EFFECT_LIST_BULLET$Alteration [spell|E] Cost: #green [Artifact.MakeScope.Var('alteration_spell_cost_modifier').GetValue|%+=0]#!"
+ staff_worms_effect:0 "\n$EFFECT_LIST_BULLET$Усиливает [spell|El] «$create_undead_name$»"
  bloodworm_helmet_effect:0 "\n$EFFECT_LIST_BULLET$Усиливает [spell|El] «$claim_corpse_name$»"
 
  #try CHARACTER instead of charwindow, it needs to be Character.MakeScope.Char as just Character is not recognised
@@ -162,6 +165,11 @@
  # Court
  arcana_magicka_arcane_court:0 "$court_magical$"
  #Traits
+ spell_range_education_1:0 "[GetTrait('education_magic_1').GetName(ROOT.Char)]"
+ spell_range_education_2:0 "[GetTrait('education_magic_2').GetName(ROOT.Char)]"
+ spell_range_education_3:0 "[GetTrait('education_magic_3').GetName(ROOT.Char)]"
+ spell_range_education_4:0 "[GetTrait('education_magic_4').GetName(ROOT.Char)]"
+ spell_range_education_5:0 "[GetTrait('education_magic_5').GetName(ROOT.Char)]"
  magicka_education:0 "[GetTrait('education_magic_5').GetName(ROOT.Char)]"
  magicka_disrupted:0 "[GetTrait('disrupted').GetName(ROOT.Char)]"
  magicka_sign_atronach:0 "[GetTrait('sign_atronach').GetName(ROOT.Char)]"
@@ -313,6 +321,11 @@
  TRAIT_FLAG_DESC_subtract_monthly_magicka_3:0 "Восстановление [Concept('magicka', 'маны')|E]: [magicka_i]#N -30%#!"
  TRAIT_FLAG_DESC_subtract_monthly_magicka_4:0 "Восстановление [Concept('magicka', 'маны')|E]: [magicka_i]#N -40%#!"
  TRAIT_FLAG_DESC_subtract_monthly_magicka_5:0 "Восстановление [Concept('magicka', 'маны')|E]: [magicka_i]#N -50%#!"
+ TRAIT_FLAG_DESC_add_spell_range_1:0 "[spell_range|E] #P +10%#!"
+ TRAIT_FLAG_DESC_add_spell_range_2:0 "[spell_range|E] #P +20%#!"
+ TRAIT_FLAG_DESC_add_spell_range_3:0 "[spell_range|E] #P +30%#!"
+ TRAIT_FLAG_DESC_add_spell_range_4:0 "[spell_range|E] #P +40%#!"
+ TRAIT_FLAG_DESC_add_spell_range_5:0 "[spell_range|E] #P +50%#!"
 
  TRAIT_FLAG_DESC_increase_max_magicka_2:0 "Максимальный запас [Concept('magicka', 'маны')|E]: [magicka_i]#P +20%#!"
 
@@ -321,7 +334,7 @@
  TRAIT_FLAG_DESC_subtract_praxis_15:0 "[praxis|E]: [praxis_i]#N -15#!"
  TRAIT_FLAG_DESC_subtract_praxis_30:0 "[praxis|E]: [praxis_i]#N -30#!"
  
- TRAIT_FLAG_DESC_mindless_character:0 "#N @ek_mindless_icon! Этот персонаж лишён разума и не способен править или выполнять большинство задач#!"
+ TRAIT_FLAG_DESC_mindless_character:0 "#N @ek_mindless_icon! Этот персонаж [Concept('mindless', 'лишён разума')|E]#!"
  TRAIT_FLAG_DESC_curable_disease:0 "\nЭто [Concept('curable_illness', 'излечимая хворь')|E]"
  TRAIT_FLAG_DESC_not_curable_disease:0 "\n#N Это [Concept('curable_illness', 'неизлечимая хворь')|E]#!"
 
@@ -362,17 +375,20 @@
  change_county_target:0 "Изменить"
 
  invalid_province_for_spell:0 "Вы не можете наложить негативное [spell|El] на [county|El], принадлежащее вам"
+ invalid_province_for_restless_dead:0 "The graves of this county are already emtpied"
  spell_hostile_self:0 "Вы не можете наложить на себя негативное [spell|El]"
  spell_hostile_cm:0 "Вы не можете приказать придворному магу наложить на себя негативное [spell|El]."
  spell_no_counties:0 "Нет доступных [Concept('county', 'графств')|E]!"
  spell_not_at_location:0 "Вы должны быть там!"
+ spell_out_of_range:0 "Target is not in [spell_range|E]"
+ magic_or_court_mage:0 "You must be able to cast [magic|E] or employ a $court_mage_court_position$ [court_position|E]"
 
  NO_SPELLS:0 "Нет заклинания"
 
  spell_name:0 "[Localize( Concatenate( Scope.GetFlagName, '_name' ) )]"
- spell_cost:0 "#size:11 [magicka_i] #! [EmptyScope.ScriptValue(Concatenate( Scope.GetFlagName, '_cost' ))|0]"
+ spell_cost:0 "#size:11 [magicka_i] #! [EmptyScope.ScriptValue(Concatenate( Scope.GetFlagName, '_petty_cost' ))|0]"
  spell_hostile:0 "#N [Localize( Concatenate( Scope.GetFlagName, '_name' ) )] считается враждебным#!\n\nЭто снизит [opinion|El] цели о вас и будет считаться [Concept('crime', 'преступлением')|E] [crime_i]. Кроме того, целевой персонаж получит [casus_belli|El] против вас."
- spell_province:0 "Заклинание «[Localize( Concatenate( Scope.GetFlagName, '_name' ) )]» будет наложено на [county|El].\n\nЧтобы наложить [Concept('spell', 'заклинание')|E] на чужое графство, вы должны лично присутствовать в нужном месте. Либо через [Concept('travel', 'путешествие')|E], либо возглавляя [Concept('army', 'армию')|E]."
+ spell_province:0 "Заклинание «[Localize( Concatenate( Scope.GetFlagName, '_name' ) )]» будет наложено на [county|El]."
  spell_secret:0 "Заклинание «[Localize( Concatenate( Scope.GetFlagName, '_name' ) )]» будет наложено #p тайно#! - цель не узнает, кто его произнёс!\n\nШтрафы от произнесения #n враждебного#! заклинания не применяются."
  spell_tier:0 "[Localize( Concatenate( Scope.GetFlagName, '_name' ) )] - [Concept('spell', 'заклинание')|E] уровня $spell_tier_name$"
  spell_tier_name:0 "[AddTextIf( EqualTo_CFixedPoint( EmptyScope.ScriptValue(Concatenate(Scope.GetFlagName, '_level') ), '(CFixedPoint)1' ), '$spell_tier_1|q$')][AddTextIf( EqualTo_CFixedPoint( EmptyScope.ScriptValue(Concatenate(Scope.GetFlagName, '_level')), '(CFixedPoint)2' ), '$spell_tier_2|q$')][AddTextIf( EqualTo_CFixedPoint( EmptyScope.ScriptValue(Concatenate(Scope.GetFlagName, '_level')), '(CFixedPoint)3' ), '$spell_tier_3|q$')][AddTextIf( EqualTo_CFixedPoint( EmptyScope.ScriptValue(Concatenate(Scope.GetFlagName, '_level')), '(CFixedPoint)4' ), '$spell_tier_4|q$')][AddTextIf( EqualTo_CFixedPoint( EmptyScope.ScriptValue(Concatenate(Scope.GetFlagName, '_level')), '(CFixedPoint)5' ), '$spell_tier_5|q$')]"
@@ -432,7 +448,7 @@
  summon_atronach_effect:0 "Призывает атронаха, повышая [prowess|El][prowess_i] и [Concept('arcana', 'аркану')|E][arcana_i]"
  banish_daedra_name:0 "Изгнать даэдра"
  banish_daedra_perk_name:0 "$banish_daedra_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('banish_daedra_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk|q$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('banish_daedra_province'), '(CFixedPoint)1'), '$spell_province_perk|q$' )]\n#weak $banish_daedra_effect$#!"
- banish_daedra_effect:0 "Целевой персонаж-#LORE [Concept('compendium_daedra', 'даэдра')|E]#! будет изгнан с лица Мундуса\n#N Это заклинание работает только против даэдра!#!"
+ banish_daedra_effect:0 "Целевой персонаж-[Glossary( 'даэдра', 'DAEDRA_GLOSS' )] будет изгнан с лица Мундуса\n#N Это заклинание работает только против даэдра!#!"
  daedric_horde_name:0 "Высвободить орду даэдра"
  daedric_horde_perk_name:0 "$daedric_horde_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('daedric_horde_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk|q$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('daedric_horde_province'), '(CFixedPoint)1'), '$spell_province_perk|q$' )]"
  daedric_horde_effect:0 "Применяет [GetModifier('county_corruption_daedra_rampant_modifier').GetNameWithTooltip|E] на целевое [county|El] на 10 лет и создаёт [Concept('crisis_faction', 'фракцию')|E] $daedra_flag_crisis_faction_name$"
@@ -479,12 +495,12 @@
  calm_name:0 "Спокойствие"
  calm_perk_name:0 "$calm_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('calm_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk|q$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('calm_province'), '(CFixedPoint)1'), '$spell_province_perk|q$' )]\n#weak $calm_effect$#!"
  calm_effect:0 "Снижает [stress|El] [stress_i] и применяет [GetModifier('modifier_spell_calmed_petty').GetNameWithTooltip|L] на [GetModifier('modifier_spell_calmed_grand').GetNameWithTooltip|L] на целевого [Concept('character', 'персонажа')|E] на 5 лет" #тесты
- mass_frenzy_name:0 "Массовое помешательство"
- mass_frenzy_perk_name:0 "$mass_frenzy_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('mass_frenzy_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk|q$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('mass_frenzy_province'), '(CFixedPoint)1'), '$spell_province_perk|q$' )]\n#weak $mass_frenzy_effect$#!"
- mass_frenzy_effect:0 "Применяет [GetModifier('modifier_spell_mass_frenzy_petty').GetNameWithTooltip|L] на [GetModifier('modifier_spell_mass_frenzy_grand').GetNameWithTooltip|L] на целевое [county|El] на 5 лет" #тесты
+ mass_paranoia_name:0 "Массовая паранойя"
+ mass_paranoia_perk_name:0 "$mass_paranoia_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('mass_paranoia_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk|q$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('mass_paranoia_province'), '(CFixedPoint)1'), '$spell_province_perk|q$' )]\n#weak $mass_paranoia_effect$#!"
+ mass_paranoia_effect:0 "Применяет [GetModifier('modifier_spell_mass_paranoia_petty').GetNameWithTooltip|L] на [GetModifier('modifier_spell_mass_paranoia_grand').GetNameWithTooltip|L] на целевое [county|El] на 5 лет" #тесты
  muffled_senses_name:0 "Приглушённые чувства"
  muffled_senses_perk_name:0 "$muffled_senses_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('muffled_senses_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk|q$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('muffled_senses_secret'), '(CFixedPoint)1'), '$spell_secret_perk|q$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('muffled_senses_province'), '(CFixedPoint)1'), '$spell_province_perk|q$' )]\n#weak $muffled_senses_effect$#!"
- muffled_senses_effect:0 "Применяет [GetModifier('modifier_spell_muffled_senses').GetNameWithTooltip|L] на целевого [Concept('character', 'персонажа')|E] на 5 лет" #тесты
+ muffled_senses_effect:0 "Повышает шанс успеха враждебных [Concept('scheme', 'происков')|E] против выбранного [Concept('character', 'персонажа')|E] на 5 лет"
  charm_name:0 "Очарование"
  charm_perk_name:0 "$charm_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('charm_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk|q$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('charm_secret'), '(CFixedPoint)1'), '$spell_secret_perk|q$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('charm_province'), '(CFixedPoint)1'), '$spell_province_perk|q$' )]\n#weak $charm_effect$#!"
  charm_effect:0 "Улучшает [opinion|El] целевого [Concept('character', 'персонажа')|E]"
@@ -551,12 +567,12 @@
  claim_corpse_name:0 "Трупное проклятие"
  claim_corpse_perk_name:0 "$claim_corpse_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('claim_corpse_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk|q$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('claim_corpse_province'), '(CFixedPoint)1'), '$spell_province_perk|q$' )]\n#weak $claim_corpse_effect$#!"
  claim_corpse_effect:0 "Ставит метку на тело [Concept('prisoner', 'узника')|E], [Concept('courtier', 'придворного')|E] или [Concept('guest', 'гостя')|E]. Если они умрут иным способом, кроме казни, в ближайшие #P 5 лет#!, они будут оживлены как трэллы ([GetTrait('undead_character').GetName(GetNullCharacter)])"
+ claim_corpse_effect_desc: "If they die by other means than execution in the next #P 5 years#!, they will be reanimated as an [GetTrait('undead_character').GetName(GetNullCharacter)] thrall"
  restless_dead_name:0 "Беспокойные мертвецы"
  restless_dead_perk_name:0 "$restless_dead_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('restless_dead_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk|q$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('restless_dead_province'), '(CFixedPoint)1'), '$spell_province_perk|q$' )]"
- restless_dead_effect:0 "Applies [GetModifier('county_corruption_necromancers_rampant_modifier').GetNameWithTooltip|E] to target [county|E] for ten years and starts a $necromancers_flag_crisis_faction_name$ [crisis_faction|E]"
- raise_dead_name:0 "Поднять орду мертвецов"
- raise_dead_perk_name:0 "$raise_dead_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('raise_dead_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk|q$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('raise_dead_province'), '(CFixedPoint)1'), '$spell_province_perk|q$' )]\n#weak $raise_dead_effect$#!"
- raise_dead_effect:0 "Оживляет [Concept('army', 'армию')|E] мёртвых [Concept('levies', 'ополченцев')|E]. Количество зависит от размера [Concept('levy', 'ополчения')|E] [Concept('capital', 'столицы')|E]"
+ restless_dead_effect:0 "Оживляет [Concept('army', 'армию')|E] мёртвых [Concept('levies', 'ополченцев')|E]. Количество зависит от размера [Concept('levy', 'ополчения')|E] [Concept('capital', 'столицы')|E]"
+ create_undead_name:0 "Поднять орду мертвецов"
+ create_undead_perk_name:0 "$create_undead_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('create_undead_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk|q$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('create_undead_province'), '(CFixedPoint)1'), '$spell_province_perk|q$' )]\n#weak $create_undead_effect$#!"
 
  bone_mantle_name:0 "Костяная мантия"
  bone_mantle_perk_name:0 "[GetModifier('modifier_ritual_bone_mantle').GetNameWithTooltip]"
@@ -593,7 +609,9 @@
  
  spell_failed:0 "Заклинание не удалось"
  spell_banish_daedra_failed:0 "[spell_recipient.GetTitledFirstName] [Select_CString(spell_recipient.IsFemale, 'невосприимчива', 'невосприимчив' )] к этому [Concept('spell', 'заклинанию')|E]!"
+ spell_banish_daedra_succesfull:0 "[spell_recipient.GetTitledFirstName] was banished by your [spell|E]!"
  spell_banish_daedra_not_daedra:0 "#N Вы не можете наложить это [spell|El] на персонажа, не являющегося даэдра!#!"
+ spell_banish_daedra_resisted:0 "[spell_caster.GetTitledFirstName] tried to banish you"
  spell_banish_daedra_not_ai:0 "#N Вы не можете наложить это [spell|El] на персонажа другого игрока!#!"
  spell_turn_undead_not_undead:0 "#N Вы не можете наложить это [spell|El] на персонажа, не являющегося нежитью!#!"
  spell_detract_magicka_not_mage:0 "#N Вы не можете наложить это [spell|El] на персонажа, не являющегося магом!#!"
@@ -607,9 +625,15 @@
  spell_no_secret_necromancer_cast:0 "[spells|E] некромантии недоступны персонажам со свойством [GetTrait('experimentalist_necromancer').GetName( GetPlayer )]"
  spell_mend_wound_not_valid:0 "[GetPlayer.MakeScope.Var('spell_recipient').Char.GetTitledFirstName] не имеет излечимых ран"
  spell_cure_disease_not_valid:0 "[GetPlayer.MakeScope.Var('spell_recipient').Char.GetTitledFirstName] не имеет [Concept('curable_illnesses', 'излечимых хворей')|E]"
+ spell_remove_curse_not_valid:0 "[GetPlayer.MakeScope.Var('spell_recipient').Char.GetTitledFirstName] has no removable curse"
+ spell_devastate_province.tt:0 "Will be wounded and possibly killed by elemental magic"
+ spell_mass_paranoia.tt:0 "Every character in this province will gain stress and loose [opinion|E] of [spell_target.GetName]"
 
- target_of_hostile_spell_notification:0 "[ROOT.GetCharacter.GetNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'наложила', 'наложил' )] на вас #n враждебное#! [spell|El]."
- target_of_friendly_spell_notification:0 "[ROOT.GetCharacter.GetNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'наложила', 'наложил' )] на вас #p благотворное#! [spell|El]."
+ target_of_own_spell_notification:0 "You have received a positive [spell|E] effect"
+ resisted_hostile_spell_notification:0 "You have resisted a hostile [spell|E] effect"
+ target_of_charm_spell_notification:0 "You suddenly start to like [spell_caster.GetCharacter.GetNameNoTooltip] much more"
+ target_of_hostile_spell_notification:0 "[spell_caster.GetCharacter.GetNameNoTooltip] [Select_CString(spell_caster.GetCharacter.IsFemale, 'наложила', 'наложил' )] на вас #n враждебное#! [spell|El]."
+ target_of_friendly_spell_notification:0 "[spell_caster.GetCharacter.GetNameNoTooltip] [Select_CString(spell_caster.GetCharacter.IsFemale, 'наложила', 'наложил' )] на вас #p благотворное#! [spell|El]."
  removed_hostile_spell_modifier_notification:0 "С вас успешно снято #n враждебное#! [spell|El]."
 
 
@@ -681,7 +705,7 @@
  action_reactive_advice_spellbook_desc:0 "Магия — это неотъемлемая часть Elder Kings II, и она крайне важна во вселенной Elder Scrolls. Нажмите здесь, чтобы получить краткое изложение основ того, как работает магия в EK2!"
  action_reactive_advice_spellbook_click:0 "$click_to_open_lesson$"
  reactive_advice_spellbook_step_1:0 "Магия 1 – Книга заклинаний"
- reactive_advice_spellbook_step_1_desc:0 "Доступ к магии можно получить из окна книги заклинаний, доступной через [interaction|El] с персонажем. Там вы можете выбрать [spell|El], а целью может быть [character|El] или [county|El].\n\nВы получаете больше заклинаний, открывая дополнительные [perks|El] в [Concept( 'magic_lifestyle', 'магическом образе жизни' )|E]. Каждое древо образа жизни открывает заклинания других типов из разных школы магии.\n\nЧтобы получить доступ к магии, необходимо иметь как минимум 10[arcana_i][Concept( 'arcana', 'арканы' )|E], магическое [education_trait|El] или магическое [congenital_trait|El].\n\nМагические способности представлены навыком [Concept( 'arcana', 'арканы' )|E]."
+ reactive_advice_spellbook_step_1_desc:0 "Доступ к магии можно получить из окна книги заклинаний, доступной через [interaction|El] «$do_a_magic_interaction$» с персонажем. Там вы можете выбрать [spell|El], а целью может быть [character|El] или принадлежащее [county|El].\n\nВы получаете больше заклинаний, открывая дополнительные [perks|El] в [Concept( 'magic_lifestyle', 'магическом образе жизни' )|E]. Каждое древо образа жизни открывает заклинания других типов из разных школы магии.\n\nЧтобы получить доступ к магии, необходимо иметь как минимум 10[arcana_i][Concept( 'arcana', 'арканы' )|E], магическое [education_trait|El] или магическое [congenital_trait|El].\n\nМагические способности представлены навыком [Concept( 'arcana', 'арканы' )|E]."
  reactive_advice_spellbook_step_2:0 "Магия 2 – Ритуалы"
  reactive_advice_spellbook_step_2_desc:0 "Доступ к [Concept( 'rituals', 'ритуалам' )|E] осуществляется через вкладку «Ритуалы» в окне книги заклинаний, и они дают эффекты, которые остаются активными до тех пор, пока не будут отключены вручную или иным способом.\n\nНовые ритуалы, как и [spells|El], открываются через [perks|El] в соответствующем древе образа жизни.\n\nКоличество доступных ячеек для ритуалов зависит от того, какое у вашего персонажа [education_trait|El], [dynasty_perk|El] и [court_type|El]."
  reactive_advice_spellbook_step_3:0 "Магия 3 – Магия"
@@ -691,6 +715,6 @@
   
  # Hastiluder Trait
  arcana_hastiluder:0 "[arcana|E]: [arcana_i]#P +2#"
- 
-  # Triggers
-  can_magic_tt: "Вы должны уметь применять магию"
+
+ # Triggers
+ can_magic_tt: "Вы должны уметь применять [Concept('magic', 'магию')|E]"

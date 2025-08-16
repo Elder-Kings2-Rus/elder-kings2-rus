@@ -41,6 +41,7 @@
 
  conjuration_name:0 "Колдовство"
  conjuration_novice_perk_name:0 "Новичок колдовства"
+ conjuration_novice_perk_effect_necromancy:0 "\nРазблокирует [Concept('decision', 'решение')|E] #V «$become_necromancer_decision$»#!"
  conjuration_apprentice_perk_name:0 "Ученик колдовства"
  conjuration_journeyman_perk_name:0 "Адепт колдовства"
  conjuration_expert_perk_name:0 "Эксперт колдовства"
