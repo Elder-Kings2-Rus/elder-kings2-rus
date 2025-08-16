@@ -1,9 +1,10 @@
 ﻿l_russian:
- reclaim_reman_heritage_decision:0 "Восстановить наследие Ремана"
- reclaim_reman_heritage_decision_desc:0 "После того как Ремана III убили мерзкие #LORE [Concept( 'compendium_potentate', 'потентаты' )|E]#!, никто больше не осмеливался заявлять о своём происхождении от великого завоевателя, опасаясь печально известных репрессий Ремана. Теперь, когда старого потентата больше нет, пришло время, чтобы Тамриэль признал мой дом законными потомками Ремана Сиродила!"
- reclaim_reman_heritage_decision_tooltip:0 "Это моё по праву рождения!"
+ reclaim_reman_heritage_decision:0 "Стать Сиродилом"
+ reclaim_reman_heritage_decision_desc:0 "[Select_CString(ROOT.Char.IsFemale, 'Королева', 'Король' )] - это земля. Я - [Select_CString(ROOT.Char.IsFemale, 'королева', 'король' )]. Я - земля."
+ reclaim_reman_heritage_decision_tooltip:0 "АЗ ЕСМЬ СИРОДИЛ ПРИШЕДШИЙ!"
  reclaim_reman_heritage_decision_confirm:0 "АЗ ЕСМЬ СИРОДИЛ ПРИШЕДШИЙ!"
  no_snakes_in_cyrodiil_cd: "Цаэски не контролируют никакую сиродильскую империю"
+ house_members_switch_dynasty: "Ваши предки и живые члены [Concept('house', 'дома')|E] станут членами [Concept('house', 'дома')|E] [GetScriptedCharacterByHistoryID( 'reman_100' ).GetHouse.GetName]"
 
 
  # Camoran Decision

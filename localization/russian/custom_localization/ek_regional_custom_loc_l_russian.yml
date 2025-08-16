@@ -1,16 +1,15 @@
 ﻿l_russian:
  #TerrainType
  terrain_ashlands:0 "пепельные земли"
- terrain_volcanic:0 "вулканические пепельные земли"
- terrain_mangrove_forest:0 "мангровый лес"
- terrain_wasteland:0 "пустошь"
  terrain_tundra:0 "тундра"
  terrain_black_marsh:0 "Чернотопье"
  terrain_valenwood:0 "Валенвуд"
- terrain_valenwood_hills:0 "валенвудские холмы"
- terrain_taiga_hills:0 "таёжные холмы"
- terrain_desert_hills:0 "пустынные холмы"
  terrain_missing:0 "МЕСТНОСТЬ НЕИЗВЕСТНА"
+
+ #GritType
+ grit_type_ash: "пепел"
+ # GroundType
+ ground_type_ash: "пепел"
 
  #RandomEntertainmentText
  random_entertainment_text_mystery_of_talara:0 "Тайна Талары"
@@ -83,6 +82,7 @@
  ale:0 "эль"
  beer:0 "пиво"
  cider:0 "сидр"
+ flin:0 "флин"
  #Altmer
  honey_wine:0 "медовуха"
  #Dunmer

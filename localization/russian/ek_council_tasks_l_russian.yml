@@ -2,12 +2,12 @@
  task_promote_local_culture:0 "Продвигать [Concept('local_culture', 'местную культуру')|E]"
  task_promote_local_culture_effect_desc:1 "#S При #V 100%#!#!:\n$TAB$[county|E] меняет [Concept('culture', 'культуру')|E] на [Concept('local', 'местную')|E] и [Concept('native', 'исконную')|E] культуру в рамках своего [Concept('heritage', 'наследия')|E]"
  NOT_NATIVE_REGION_REASON:0 "Ваша культура не является [Concept('native', 'исконной')|E] в отношении [Concept('region', 'региона')|E] провинции"
- NOMADIC_CULTURE_CULTURE_CONVERT_TO:0 "Ваша культура считается кочевой"
- NOMADIC_CULTURE_CULTURE_CONVERT_FROM:0 "Вы пытаетесь преобразовать культуру в провинции с кочевой культурой"
+ NOMADIC_CULTURE_CULTURE_CONVERT_TO:0 "Ваша культура считается мигрирующей"
+ NOMADIC_CULTURE_CULTURE_CONVERT_FROM:0 "Вы пытаетесь преобразовать культуру в провинции с мигрирующей культурой"
  
  task_promote_culture_effect_no_culure_to_convert_desc:0 "#S При #V 100%#!#!:\n$TAB$[county|E] меняет [Concept('culture', 'культуру')|E] на выбранную вами культуру"
  task_promote_culture_acceptance_effect_no_culure_to_convert_desc:0 "\n$TAB$[cultural_acceptance|E] между #L [county.GetProvince.GetCounty.GetCulture.GetCollectiveNoun|l]ой#! и выбранной вами культурой уменьшиться на [SCOPE.ScriptValue('culture_conversion_acceptance_impact')|N^/%]"
 
- admin_conversion_no_tolerance_tt:0 "Из-за действующего закона о религиозной терпимости [Concept('faiths', 'конфессии')|E] в [Concept('counties', 'графствах')|E] [Concept('vassal', 'вассалов')|E] должны рассматриваться [Concept('state_faith', 'государственной конфессией')|E] как минимум [Concept('faith_hostile', 'враждебными')|E], чтобы их можно было обратить"
- admin_conversion_partial_tolerance_tt:0 "Из-за действующего закона о религиозной терпимости [Concept('faiths', 'конфессии')|E] в [Concept('counties', 'графствах')|E] [Concept('vassal', 'вассалов')|E] должны рассматриваться [Concept('state_faith', 'государственной конфессией')|E] как минимум [Concept('faith_evil', 'воплощённым злом')|E], чтобы их можно было обратить"
- admin_conversion_full_tolerance_tt:0 "Из-за действующего закона о религиозной терпимости [Concept('faiths', 'конфессии')|E] в [Concept('counties', 'графствах')|E] [Concept('vassal', 'вассалов')|E] не могут быть обращены"
+ admin_conversion_no_tolerance_tt:0 "Из-за [Concept('law', 'закона')|E] [GetLaw('religious_tolerance_law_0').GetName] [Concept('faiths', 'конфессии')|E], рассматриваемые [Concept('state_faith', 'государственной конфессией')|E] как [Concept('faith_hostile', 'заблуждение')|E], не могут быть обращены, если только [Concept('state_faith', 'государственная конфессия')|E] не имеет доктрину [GetFaithDoctrine('doctrine_pluralism_fundamentalist').GetBaseName]"
+ admin_conversion_partial_tolerance_tt:0 "Из-за [Concept('law', 'закона')|E] [GetLaw('religious_tolerance_law_1').GetName] можно обращать только [Concept('faiths', 'конфессии')|E], которые [Concept('state_faith', 'государственной конфессия')|E] рассматривает как [Concept('faith_evil', 'воплощённое зло')|E]"
+ admin_conversion_full_tolerance_tt:0 "Из-за [Concept('law', 'закона')|E] [GetLaw('religious_tolerance_law_2').GetName] [Concept('counties', 'графства')|E] [Concept('vassal', 'вассалов')|E] не могут быть обращены"

@@ -129,6 +129,9 @@
  dagoth_councilor_male: "Лорд верховный советник"
  dagoth_councilor_female: "Леди верховная советница"
 
+ gcm_high_councilor_male: "Лорд верховный советник"
+ gcm_high_councilor_female: "Леди верховная советница"
+
  great_house_vassal_male: "[Character.Custom('VassalMaster')|U]"
  great_house_vassal_female: "[Character.Custom('VassalMaster')|U]"
 
@@ -143,6 +146,9 @@
 
  indoril_ascendant_male: "Возвышенный" #переделать
  indoril_ascendant_female: "Возвышенная" #переделать
+
+ telvanni_magister_male: "Магистр"
+ telvanni_magister_female: "Магистр"
 
  #####
 
@@ -349,7 +355,6 @@
  prince_independent: "Принц"
  princess_independent: "Принцесса"
 
- empress_mother: "Королева-мать"
  empress_mother_tamriel: "Императрица-мать"
  
  ### Landless Adventurer Camps 
@@ -366,16 +371,20 @@
  duke_landless_adventurer_camp_brigands: "Главарь"
  duke_landless_adventurer_camp_legitimists: "[Character.GetLadyLord|U]"
  
- duke_landless_adventurer_camp_mercenaries_female: "Капитан"
- duke_landless_adventurer_camp_explorers_female: "Предводительница"
- duke_landless_adventurer_camp_brigands_female: "Главарь"
- duke_landless_adventurer_camp_wanderers_female: "[Character.Custom('MistressMaster')|U]"
- duke_landless_adventurer_camp_scholars_female: "[Character.Custom('MistressMaster')|U]"
- duke_landless_adventurer_camp_legitimists_female: "[Character.GetLadyLord|U]"
+ duchess_landless_adventurer_camp_mercenaries: "Капитан"
+ duchess_landless_adventurer_camp_wanderers: "[Character.Custom('MistressMaster')|U]"
+ duchess_landless_adventurer_camp_scholars: "[Character.Custom('MistressMaster')|U]"
+ duchess_landless_adventurer_camp_explorers: "Предводительница"
+ duchess_landless_adventurer_camp_brigands: "Главарь"
+ duchess_landless_adventurer_camp_legitimists: "[Character.GetLadyLord|U]"
+
 
  ### Estates
  spouse_estate_holder_male: "Лорд"
  spouse_estate_holder_female: "Леди"
+
+ spouse_estate_holder_consort_male: "Лорд"
+ spouse_estate_holder_consort_female: "Леди"
 
  spouse_estate_holder_male_dunmeris: "Серджо"
  spouse_estate_holder_female_dunmeris: "Серджо"
@@ -389,9 +398,9 @@
  feudal_margrave_female: "Маркиза"
  feudal_margrave_title: "Марка"
  # Palatins
- feudal_palatinate_county_male: "Граф-палатин"
- feudal_palatinate_county_female: "Графиня-палатина"
- feudal_palatinate_county_title: "Графство-палатинство"
+ feudal_palatinate_county_male: "Граф"
+ feudal_palatinate_county_female: "Графиня"
+ feudal_palatinate_county_title: "Графство"
 
  feudal_palatinate_duchy_male: "Палатин"
  feudal_palatinate_duchy_female: "Палатин"
@@ -491,8 +500,8 @@
  spouse_estate_holder_female_yokudan: "Сановница"
 
  barony_tribal_yokudan: "Лагерь"
- baron_tribal_male_yokudan: "Ансей"
- baron_tribal_female_yokudan: "Мансей"
+ baron_tribal_male_yokudan: "Ансу"
+ baron_tribal_female_yokudan: "Мансу"
 
  county_tribal_yokudan: "Отряд"
  count_tribal_male_yokudan: "Рага"
@@ -511,8 +520,8 @@
  emperor_tribal_female_yokudan: "Уэй-мутэй"
 
  barony_feudal_yokudan: "Зал"
- baron_feudal_male_yokudan: "Ансей"
- baron_feudal_female_yokudan: "Мансей"
+ baron_feudal_male_yokudan: "Ансу"
+ baron_feudal_female_yokudan: "Мансу"
 
  county_feudal_yokudan: "Отряд"
  count_feudal_male_yokudan: "Рага"
@@ -583,6 +592,12 @@
  king_theocracy_male_yokudan: "Пашат"
  king_theocracy_female_yokudan: "Машат"
 
+ title_crown_republic_male: "Венценосный"
+ title_crown_republic_female: "Венценосная"
+
+ title_forebear_republic_male: "Диктатор"
+ title_forebear_republic_female: "Диктатор"
+
  #Cyrodiilic Group#
  #Feudal
  duchy_feudal_cyrodiilic: "Виконтство"
@@ -604,6 +619,8 @@
  kingdom_feudal_cyrodiil: "[CHARACTER.Custom('KingdomFeudalCyrodiil')]"
  king_feudal_male_cyrodiil: "[CHARACTER.Custom('KingFeudalMaleCyrodiil')]"
  king_feudal_female_cyrodiil: "[CHARACTER.Custom('KingFeudalFemaleCyrodiil')]"
+
+ kingdom_feudal_nibenay_territory:0 "Территория"
 
  #Ilniviri Group#
  #Feudal
@@ -937,6 +954,11 @@
  marshkhan: "Болотный хан"
  snowkhan: "Снежный хан"
  sandkhan: "Песчаный хан"
+ saharkhan:0 "Сахархан" #Custom Shinathi Title
+
+ duke_tribal_male_shinathi:0 "Сахархан" #Custom Shinathi Title
+ duke_tribal_female_shinathi:0 "Сахархатун" #Custom Shinathi Title
+ duchy_tribal_ashlander_shinathi:0 "Сахарханство" #Custom Shinathi Title
 
  #Dwemeris Group
  #Feudal

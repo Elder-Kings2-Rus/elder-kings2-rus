@@ -18,6 +18,9 @@
  expensive_dessert_summerset_rainbow_pie_face:0 "саммерсетский радужный пирог"
  expensive_dessert_gorapple_pie_face:0 "гор-яблочный пирог"
  expensive_dessert_mammoth_snout_pie_face:0 "пирог из хобота мамонта"
+ expensive_food_grape_glazed_bantam_guar:0 "бентамский гуар под виноградным соусом"
+ expensive_food_nix_hound_chili:0 "чили из никс-гончей"
+ expensive_food_kwama_egg_quiche:0 "киш из яиц квама"
 
  expensive_drink_centurions_friend_kaveh:0 "друг центуриона"
  expensive_drink_red_hippocras:0 "красный гипокрасс"
@@ -38,6 +41,8 @@
  expensive_drink_flin:0 "флин"
  expensive_drink_charybdis:0 "шарибди-на-скале"
  expensive_drink_wayrest_spiced_wine:0 "вэйрестские пряные вина"
+ expensive_drink_ancient_dagoth_brandy:0 "древнее бренди Дагот"
+ expensive_drink_colovian_brandy:0 "коловианский бренди"
 
  expensive_drink_singular_centurions_friend_kaveh:0 "$expensive_drink_centurions_friend_kaveh$"
  expensive_drink_singular_red_hippocras:0 "$expensive_drink_red_hippocras$"
@@ -58,6 +63,8 @@
  expensive_drink_singular_flin:0 "$expensive_drink_flin$"
  expensive_drink_singular_charybdis:0 "$expensive_drink_charybdis$"
  expensive_drink_singular_wayrest_spiced_wine:0 "вэйрестское пряное вино"
+ expensive_drink_singular_ancient_dagoth_brandy:0 "древнее бренди Дагот"
+ expensive_drink_singular_colovian_brandy:0 "коловианский бренди"
 
  maple:0 "клён"
  beech:0 "бук"
