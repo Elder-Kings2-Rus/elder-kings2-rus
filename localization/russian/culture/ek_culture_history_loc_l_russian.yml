@@ -1,7 +1,7 @@
 ﻿l_russian:
  mystery_history_loc:0 "Происхождение этого народа окутано тайной"
  #Atlmer
- altmer_history_loc:0 "Происходят из легендарного [Glossary( 'Альдмериса', 'ALDMERIS_GLOSS' )] из [Concept( 'compendium_dawn_era', 'Эры рассвета' )|E]"
+ altmer_history_loc:0 "Происходят из легендарного [Glossary( 'Альдмериса', 'ALDMERIS_GLOSS' )] из [Glossary( 'Эры рассвета', 'DAWN_ERA_GLOSS' )]"
  direnni_history_loc:0 "Потомки #L [CULTURE.GetCollectiveNoun|l]их#! эльфов, заселивших Балфиеру в [Concept( 'compendium_first_era', 'Первой эре' )|E]"
  corelanya_history_loc:0 "Произошли от #L [CULTURE.GetCollectiveNoun|l]их#! инакомыслящих, ушедших в Хаммерфелл в #LORE [Concept('compendium_first_era', 'Первой эре')|E]#!" #NOTE: Dissidents = daedra worshippers (too long for culture desc)
  #Khajiit
@@ -15,7 +15,7 @@
  ilniviri_history_loc:0 "Потомки захватчиков-#L [CULTURE.GetName|l]#!, что переняли #L [TARGET_CULTURE.GetCollectiveNoun|l]ие#! обычаи в конце [Concept( 'compendium_first_era', 'Первой эры' )|E]"
  rimmen_history_loc:0 "Произошли от #L [CULTURE.GetCollectiveNoun|l]их#! изгнанников, спасавшихся от преследований в Сиродиле"
  #Nord
- skyrim_history_loc:0 "Произошли от #L [CULTURE.GetCollectiveNoun|l]их#! поселенцев в [Concept( 'compendium_merethic_era', 'Меретической эре' )|E]"
+ skyrim_history_loc:0 "Произошли от #L [CULTURE.GetCollectiveNoun|l]их#! поселенцев в [Glossary( 'Меретической эре', 'MERETHIC_GLOSS' )]"
  cyro_nord_history_loc:0 "Поселенцы-норды [Concept( 'compendium_first_era', 'Первой эры' )|E], что смешались с #L [TARGET_CULTURE.GetCollectiveNoun|l]им#! народом"
  skaal_history_loc:0 "Отделились от своих материковых собратьев после долгих лет изоляции"
  #Breton
@@ -30,8 +30,13 @@
  blackwood_history_loc:0 "Народ, сохранивший старые #L [CULTURE.GetCollectiveNoun|l]ие#! обычаи"
  rimmenese_history_loc:0 "Происходят от #L [CULTURE.GetCollectiveNoun]их#! торговцев, поселившихся в землях Риммена" 
  #Dunmer
- dunmer_history_loc:0 "Потомки #L [CULTURE.GetCollectiveNoun|l]ого#! народа, принявшего Трибунал, ответственный за их проклятие"
- ashlander_history_loc:0 "Потомки #L [CULTURE.GetCollectiveNoun|l]ого#! народа, осудившего Трибунал, ответственный за их проклятие"
+ chi_addun_history_loc: "Потомки великих #L [CULTURE.GetCollectiveNoun|l]их#! чародеев с мистического Востока"
+ gah_julan_history_loc: "Потомки выносливых #L [CULTURE.GetCollectiveNoun|l]их#! воинов с Велотийских гор"
+ armun_an_history_loc: "Потомки проницательных #L [CULTURE.GetCollectiveNoun|l]их#! купцов с реки Тир"
+ chuzei_history_loc: "Потомки мудрых #L [CULTURE.GetCollectiveNoun|l]их#! жрецов центрального Дешаана"
+ marduhn_oad_history_loc: "Потомки усердных #L [CULTURE.GetCollectiveNoun|l]их#! фермеров плодородного Дешаана"
+ shinathi_history_loc: "Потомки Красных роев центрального Дешана"
+ ashlander_history_loc:0 "Потомки ревностного #L [CULTURE.GetCollectiveNoun|l]ого#! народа, осудившего [Glossary( 'Трибунал', 'TRIBUNAL_GLOSS' )]"
  #Orc
  orc_history_loc:0 "Народ, что стал отличен от альдмеров после трансформации Тринимака" # длинное описание, ранее было 'Народ, изменивший свой облик по сравнению с их альдмерскими сородичами после трансформации Тринимака'
  iron_orc_history_loc:0 "Народ, отказавшийся от своего мирного существования после недийской агрессии"
@@ -43,16 +48,16 @@
  alikr_history_loc: "Сохранили традиции древней Йокуды в Тамриэле"
  silverhoof_history_loc:0 "Пересекли море, чтобы избежать преследований."
  #Argonian
- argonian_history_loc:0 "Были благословлены мудростью Хист во времена #LORE [Concept( 'compendium_merethic_era', 'Меретической эры' )|E]#!"
+ argonian_history_loc:0 "Были благословлены мудростью хист во времена [Glossary( 'Меретической эры', 'MERETHIC_GLOSS' )]"
  ojel_history_loc:0 "Появились из #L [CULTURE.GetCollectiveNoun|l]их#! племён под #L [TARGET_CULTURE.GetCollectiveNoun|l]им#! правлением"
  #Ayleid
  mathmeldi_history_loc:0 "#L [CULTURE.GetCollectiveNoun]ие#! изгнанники из Альд-Сирода"
- barsaebic_history_loc:0 "Происходят от [Concept( 'compendium_aedric', 'аэдрических' )|E] #L [CULTURE.GetCollectiveNoun|l]их#! беженцев во время [Concept( 'compendium_narfinsel_schism', 'Нарфинсельского раскола' )|E]"
+ barsaebic_history_loc:0 "Происходят от [Concept( 'compendium_aedric', 'аэдрических' )|E] #L [CULTURE.GetCollectiveNoun|l]их#! беженцев во время [Glossary( 'Нарфинсельского раскола', 'NARFINSEL_GLOSS' )]"
  dynari_history_loc:0 "Происходят от #L [CULTURE.GetCollectiveNoun|l]их#! неналатанцев"
  #Daedra
  daedra_history_loc:0 "Незваные гости из планов Обливиона"
  #Maormer
- maormer_history_loc:0 "Изгнанники из легендарного [Glossary( 'Альдмериса', 'ALDMERIS_GLOSS' )] из [Concept( 'compendium_dawn_era', 'Эры рассвета' )|E]"
+ maormer_history_loc:0 "Изгнанники из легендарного [Glossary( 'Альдмериса', 'ALDMERIS_GLOSS' )] из [Glossary( 'Эры рассвета', 'DAWN_ERA_GLOSS' )]"
  beyonder_history_loc:0 "#L [CULTURE.GetCollectiveNoun]ие#! пираты вдали от своего мифического дома – Пиандонеи" # нужно было сократить описание, ибо оно не влезало в строку
  #Nedic
  nedic_history_loc:0 "Потомки неизвестных недийских племён"
