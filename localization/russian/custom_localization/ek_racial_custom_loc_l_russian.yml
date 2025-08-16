@@ -1,0 +1,57 @@
+﻿l_russian:
+
+ #HandClawPaw
+ bodypart_claw: "коготь"
+ bodypart_claws: "когти"
+ bodypart_paw: "лапа"
+ bodypart_paws: "лапы"
+
+ #FootHoof
+ bodypart_hoof: "копыто"
+ bodypart_hooves: "копыта"
+
+ #SkinScalesFur
+ bodypart_scales: "чешуйки"
+ bodypart_fur: "мех"
+ bodypart_feathers: "перья"
+ bodypart_skin: "кожа"
+
+ #MouthSnoutBeak
+ bodypart_snout: "морда"
+ bodypart_beak: "клюв"
+ bodypart_mouth: "рот"
+
+ #Other
+ bodypart_tail: "хвост"
+ bodypart_wing: "крыло"
+ bodypart_wings: "крылья"
+ bodypart_horn: "рог"
+ bodypart_horns: "рога"
+ bodypart_fin: "плавник"
+ bodypart_fins: "плавники"
+ bodypart_whiskers: "усики"
+
+ #love_letter
+ ll_your_claws_are: "Твои когти —"
+ ll_your_paws_are: "Твои лапы —"
+ ll_your_hooves_are: "Твои копыта —"
+ ll_your_snout_is: "Твоя морда —"
+ ll_your_beak_is: "Твой клюв —"
+ ll_your_scales_are: "Твои чешуйки —"
+ ll_your_fur_is: "Твой мех —"
+ ll_your_feathers_are: "Твои перья —"
+ ll_your_tail_is: "Твой хвост —"
+ ll_your_wings_are: "Твои крылья —"
+ ll_your_horns_are: "Твои рога —"
+ ll_your_fins_are: "Твои плавники —"
+ ll_your_fangs_are: "Твои клыки —"
+ ll_your_whiskers_are: "Твои усики —"
+
+ verb_are: ""
+ verb_is: ""
+
+ pronoun_they: "они"
+ pronoun_it: "это"
+
+ verb_no_s: ""
+ verb_s: ""

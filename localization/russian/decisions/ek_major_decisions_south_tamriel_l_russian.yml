@@ -25,3 +25,15 @@
  form_aldmeri_dominion_decision_confirm:0 "Объединить эльфов"
  form_aldmeri_dominion_decision_tooltip:0 "Пусть альдмеры будут едины"
  altmeribosmer_descended_culture:0 "Ваша [culture|El] происходит от #V $altmeribosmer_collective_noun$ой#!"
+
+ end_alinor_isolationism_decision: "Покончить с изоляцией Алинора"
+ end_alinor_isolationism_decision_desc: "Без нашего руководства у народов Тамриэля нет цели. Оставаться в добровольном изгнании на глазах у всего Нирна - значит отказаться от нашего стремления к Альдмерису."
+ end_alinor_isolationism_decision_confirm: "Открыть острова!"
+ end_alinor_isolationism_decision_tooltip: "[Concept('alinor_isolationism', 'Изоляционизм Алинора')|E] перейдёт в [Concept('situation_phase', 'фазу')|E] «$alinor_open$»"
+ alinor_will_enter_open_phase: "[Concept('alinor_isolationism', 'Изоляционизм Алинора')|E] перейдёт в [Concept('situation_phase', 'фазу')|E] «$alinor_open$». #V Вы не сможете попытаться изолировать их в течение 15 лет.#!"
+
+ close_alinor_decision: "Изолировать Алинор"
+ close_alinor_decision_desc: "В древние времена наши предки закрыли священные острова от чужеземцев. Бросать вызов их мудрости было глупо, и мы должны снова замкнуться в себе."
+ close_alinor_decision_confirm: "Закрыть острова!"
+ close_alinor_decision_tooltip: "[Concept('alinor_isolationism', 'Изоляционизм Алинора')|E] перейдёт в [Concept('situation_phase', 'фазу')|E] «$alinor_closed$»"
+ alinor_will_enter_closed_phase: "[Concept('alinor_isolationism', 'Изоляционизм Алинора')|E] перейдёт в [Concept('situation_phase', 'фазу')|E] «$alinor_closed$». #V Вы не сможете попытаться отменить изоляцию в течение 30 лет.#!"

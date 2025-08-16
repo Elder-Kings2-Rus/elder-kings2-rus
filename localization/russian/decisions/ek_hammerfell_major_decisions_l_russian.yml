@@ -1,0 +1,20 @@
+﻿l_russian:
+ form_crown_republic_decision: "Restore Crown Republic"
+ form_crown_republic_decision_desc: "As it was the privilege and duty of the [Glossary( 'Na-Totambu', 'NATOTAMBU_GLOSS' )] to guide the people of Yokuda, such is also the burden imposed upon the Crowns in Hammerfell, a responsibility and honour we carried for millennia. Now, however, our venerable Republic lies broken, trampled by iron-clad boots.\n\nMay we seek to reform our party, and once again lead the united Redguards into a brighter future"
+ form_crown_republic_decision_tooltip: "Restore [GetTitleByKey('e_crown').GetName]"
+ form_crown_republic_decision_confirm: "Reclaim the Crown!"
+
+ form_hammerfell_crown_decision: "Restore Republic of Hammerfell"
+ form_hammerfell_crown_decision_desc: "Once, the Crowns ruled all of Hammerfell as one noble, united, republic. But today's Crown Republic is a rump state, a shadow of its former glory. The Empire seized most of our land, to give to Forebear tribes; and now it is time for a strong Crown ruler to take back our lands, and become High King of Hammerfell — higher than all the new Forebear "kings"."
+ form_hammerfell_crown_decision_tooltip: "Restore [GetTitleByKey('e_hammerfell').GetName]"
+ form_hammerfell_crown_decision_confirm: "Nothing beautiful without struggle"
+
+ form_forebear_union_decision: "Form Forebear Union"
+ form_forebear_union_decision_desc: "Our ancestors were the first Yokudans to set foot on the shores of Hammerfell, making way so our people could live in peace. Yet we were never allowed to rule: first we were subjects to the [Glossary( 'Na-Totambu', 'NATOTAMBU_GLOSS' )], then to the Cyrodiil. All the while our caste was divided, squabbling among ourselves, too weak to resist our enemies.\n\nIf the Forebears wish never to be subjugated again, we must elect a strong leader, united in purpose."
+ form_forebear_union_decision_tooltip: "Form [GetTitleByKey('e_forebear').GetName]"
+ form_forebear_union_decision_confirm: "Be patient, Ra Gada, and you will become kings!"
+
+ form_hammerfell_forebear_decision: "Form High Kingdom of Hammerfell"
+ form_hammerfell_forebear_decision_desc: "Hammerfell was long divided along the lines of Forebear and Crown, servant and sovereign. For a time we were on more even footing, but there is no Cyrodiil to elevate us now. With the formation of our Union, we are in a unique position to seize the crown ourselves, upsetting old structures and forging them anew - all falling in line behind a Forebear High King."
+ form_hammerfell_forebear_decision_tooltip: "Form [GetTitleByKey('e_hammerfell').GetName]"
+ form_hammerfell_forebear_decision_confirm: "A new Hammerfell!"

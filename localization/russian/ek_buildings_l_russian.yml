@@ -6,7 +6,7 @@
  special_prison_effect_desc:0 "@prison_icon! У [Concept('prisoners', 'узников')|E] владельца этого [Concept('county', 'графства')|E] меньше шансов на побег."
  magical_protection_desc:0 "Это [county|El] @ek_warded_icon! [Concept('magic_warded', 'защищено')|E] и не может быть выбрано в качестве цели враждебных [Concept('spells', 'заклинаний')|E]"
  minding_grove_effect_desc:0 "Может ускорить рост дерева хист."
- ek_graveyard_effect_desc:0 "@necromancy_icon! Некроманты, владеющие этим [Concept('county', 'графством')|E], могут призвать дополнительную нежить с помощью [Concept('spell', 'заклинания')|E] $raise_dead_name$."
+ ek_graveyard_effect_desc:0 "@necromancy_icon! Некроманты, владеющие этим [Concept('county', 'графством')|E], могут призвать дополнительную нежить с помощью [Concept('spell', 'заклинания')|E] $create_undead_name$."
 
  # Specific
  fang_lair_effect_desc:0 "@necromancy_icon! Некроманты, владеющие этим [Concept('county', 'графством')|E], могут призвать воскрешённого из мёртвых дракона Турвокуна."
@@ -260,7 +260,7 @@
  building_grand_cathedral_01_desc:0 "$building_type_grand_cathedral_01_desc$"
  
  building_type_daedric_shrine_01:0 "Даэдрическое святилище"
- building_type_daedric_shrine_01_desc:0 "Великое святилище, посвящённое #LORE [Concept( 'compendium_daedric_princes', 'даэдрическим князьям' )|E]#!.\n\nЖертвоприношения во имя #LORE [Concept( 'compendium_daedra', 'даэдра' )|E]#! проводятся почти каждый день, и кажется, что ужасающие силы Обливиона просачиваются из этого места."
+ building_type_daedric_shrine_01_desc:0 "Великое святилище, посвящённое даэдрическим князьям.\n\nЖертвоприношения во имя [Glossary( 'даэдра', 'DAEDRA_GLOSS' )] проводятся почти каждый день, и кажется, что ужасающие силы Обливиона просачиваются из этого места."
  building_daedric_shrine_01:0 "$building_type_daedric_shrine_01$"
  building_daedric_shrine_01_desc:0 "$building_type_daedric_shrine_01_desc$"
  
@@ -469,33 +469,6 @@
  building_type_arena_01:0 "Арена"
  building_type_arena_01_desc:0 "Арены расположены по всему Тамриэлю и используются для проведения различных развлекательных мероприятий для публики."
 
-###Great Houses Tombs
-#Indoril House Tomb
- building_type_indoriltomb_01:0 "Гробница дома Индорил"
- building_type_indoriltomb_01_desc:1 "Древняя гробница одного из Великих домов Морровинда"
- building_indoriltomb_01:0 "Гробница дома Индорил"
- building_indoriltomb_01_desc:1 "Древняя гробница одного из Великих домов Морровинда"
-#Hlaalu House Tomb
- building_type_hlaalutomb_01:0 "Гробница дома Хлаалу"
- building_type_hlaalutomb_01_desc:1 "Древняя гробница одного из Великих домов Морровинда"
- building_hlaalutomb_01:0 "Гробница дома Хлаалу"
- building_hlaalutomb_01_desc:1 "Древняя гробница одного из Великих домов Морровинда"
-#Dres House Tomb
- building_type_drestomb_01:0 "Гробница дома Дрес"
- building_type_drestomb_01_desc:1 "Древняя гробница одного из Великих домов Морровинда"
- building_drestomb_01:0 "Гробница дома Дрес"
- building_drestomb_01_desc:1 "Древняя гробница одного из Великих домов Морровинда"
-#Redoran House Tomb
- building_type_redorantomb_01:0 "Гробница дома Редоран"
- building_type_redorantomb_01_desc:1 "Древняя гробница одного из Великих домов Морровинда"
- building_redorantomb_01:0 "Гробница дома Редоран"
- building_redorantomb_01_desc:1 "Древняя гробница одного из Великих домов Морровинда"
-#Telvanni House Tomb
- building_type_telvannitomb_01:0 "Гробница дома Телванни"
- building_type_telvannitomb_01_desc:1 "Древняя гробница одного из Великих домов Морровинда"
- building_telvannitomb_01:0 "Гробница дома Телванни"
- building_telvannitomb_01_desc:1 "Древняя гробница одного из Великих домов Морровинда"
-
  building_type_mage_academy_01:0 "Арканеум"
  building_type_mage_academy_01_desc:0 "Каждый великий маг начинается с одной искры, и здесь эти искры тщательно взращиваются."
  building_mage_academy_01:0 "Архив"
@@ -505,5 +478,53 @@
  building_mage_academy_03:0 "Коллегия"
  building_mage_academy_03_desc:0 "Возвышающееся хранилище самых глубоких магических знаний Тамриэля, на его полках лежат редкие и древние тома, а в его хранилищах хранятся реликвии огромной силы. Здесь сходятся самые яркие умы Нирна, чтобы учить, исследовать и экспериментировать, объединяя дисциплины целительства, алхимии, зачарования и чародейства."
 
+ building_type_kwama_mines_01:0 "Kwama Mines"
+ building_type_kwama_mines_01_desc:0 "There are a lot of uses to kwama. Scrib Jelly, Scrib Jerky, Kwama Cuttle, Kwama Wax... But, most important of all are the Kwama Eggs, truly a staple in any respectable dunmer's diet."
+ building_kwama_mines_01:0 "Kwama Nursery"
+ building_kwama_mines_01_desc:0 "A simple kwama mine with minimal infrastructure. The workers extract kwama eggs and basic resources." 
+ building_kwama_mines_02:0 "Reinforced Tunnels"
+ building_kwama_mines_02_desc:0 "The tunnels are strengthened with wooden supports, reducing the risk of collapse and ensuring worker safety." 
+ building_kwama_mines_03:0 "Improved Lighting"
+ building_kwama_mines_03_desc:0 "The mine is equipped with better lighting, making it easier for workers to navigate and extract resources." 
+ building_kwama_mines_04:0 "Enhanced Ventilation"
+ building_kwama_mines_04_desc:0 "Ventilation shafts are installed to improve air quality, making it easier for workers to breathe and work longer hours."
+ building_kwama_mines_05:0 "Kwama Warrior Guards"
+ building_kwama_mines_05_desc:0 "Kwama Warriors are trained to protect the mine from intruders and wild creatures, ensuring the safety of workers and resources."
+ building_kwama_mines_06:0 "Egg Incubation Chambers"
+ building_kwama_mines_06_desc:0 "Specialized chambers are built to incubate kwama eggs, ensuring a steady supply of workers and increased egg production."
+ building_kwama_mines_07:0 "Efficient Transportation"
+ building_kwama_mines_07_desc:0 " A network of mine carts and tracks is established to transport resources quickly and efficiently to the surface."
+ building_kwama_mines_08:0 "Alchemical Extraction"
+ building_kwama_mines_08_desc:0 "An alchemical lab is set up within the mine to extract valuable essences and compounds from kwama eggs and other resources."
+
+ building_type_slave_markets_01:0 "Slave Markets"
+ building_type_slave_markets_01_desc:0 "Slave markets oversee the trade and possession of persons partially or totally deprieved of freedom. They bring in great profits, but will increasingly destabilize the region."
+ building_slave_markets_01:0 "Slave Pens"
+ building_slave_markets_01_desc:0 "Simple temporary shelter designed to keep slaves and the outside world separate, constructed sporadically over an area. The conditions are harsh, to put it mildly." 
+ building_slave_markets_02:0 "Auction Houses"
+ building_slave_markets_02_desc:0 "Extravagant manors built by the well-off slaveowners mark a proper slaver district, where chattel slaves and indentured workers are bought and sold daily to the highest bidder." 
+ building_slave_markets_03:0 "Slavecatchers' Collective"
+ building_slave_markets_03_desc:0 "A mercenary company has made this slave market their base of operations. They extend their services to prevent slave escapes and return escapees to their legal owners." 
+ building_slave_markets_04:0 "Slave Emporium"
+ building_slave_markets_04_desc:0 "The slave market has grown into its own walled town as a standing testament to decadence and logistics of trade. Slaves of all shapes, sizes, and races can be found in great numbers here, in the long shadow of wealth." 
+ keeps_slaves_slavery_trigger:0 "Holder [culture|E] does not allow keeping [slaves|E]"
+ slavery_banned_in_realm_flag_slavery_trigger:0 "[top_liege|E] of this [realm|E] has banned [slavery|E]"
+
  tournament_arcane_clash_cost_discount_effect_toto_desc:0 "$unlocks_building_desc$$tournament_cost_discount_effect_desc$$tournament_phase_arcane_clash$$tournament_contest_cost_discount_effect_desc$"
  activity_tournament_province_mage_academy_01_desc:1 "#P ++ $building_type_mage_academy_01$#!"
+
+ # Special Triggers
+ is_dagoth_faith:0 "Holder [faith|E] must have Dagoth Ur in its [pantheon|E]."
+ is_indoril: "Top liege of this [county|E] must hold [GetTitleByKey('k_indoril').GetName] [title|E]."
+ is_hlaalu: "Top liege of this [county|E] must hold [GetTitleByKey('k_hlaalu').GetName] [title|E]."
+ is_redoran: "Top liege of this [county|E] must hold [GetTitleByKey('k_redoran').GetName] [title|E]."
+ is_dres: "Top liege of this [county|E] must hold [GetTitleByKey('k_dres').GetName] [title|E]."
+ is_telvanni: "Top liege of this [county|E] must hold [GetTitleByKey('k_telvanni').GetName] [title|E]."
+ has_ancestor_worship_tenet:0 "Holder [faith|E] must have the ancestor worship tenet."
+ is_malacath_faith:0 "Holder [faith|E] must have Malacath in its [pantheon|E]."
+ # Special Effects
+ special_forge_effect_desc:0 "Increases the bonus a mine grants to the quality of sponsored #V Artisan#!, #V Weapon#!, #V Armor#!, and #V Metalsmith#! [inspirations|E]"
+ increased_feast_cost_effect_desc:0 "Increased Cost for hosting [GetActivityType('activity_feast').GetTextIcon][GetActivityType('activity_feast').GetName] in this [holding|E]: #N +50%#!"
+ kogoruhn_citadel_effect_desc:0 "@spellblades_icon! The liege of this [county|E] is able to recruit a Dreamer Prophet [regiment|E]."
+ dust_adeptorium_effect_desc:0 "@mages_icon! The liege of this [county|E] is able to recruit a Dust Adept [regiment|E]."
+ necrom_necropolis_effect_desc:0 "The liege of this [county|E] is able to summon a Bonewalker [regiment|E] if Ancestor Worship is a tenet of their faith."

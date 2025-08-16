@@ -81,7 +81,7 @@
 
  systres_alinor_decision:0 "Вопрос Систреса"
  #Systres for Alinor - EK1 reference
- systres_alinor_decision_desc:0 "Древние альдмерские картографы утверждают, что в #LORE [Concept('compendium_merethic_era', 'Меретическую эру']#! Систрес был заселён нашим народом, присягнувшим на верность Алинору. Очевидно, что архипелаг принадлежит нам."
+ systres_alinor_decision_desc:0 "Древние альдмерские картографы утверждают, что в [Glossary( 'Меретическую эру', 'MERETHIC_GLOSS' )] Систрес был заселён нашим народом, присягнувшим на верность Алинору. Очевидно, что архипелаг принадлежит нам."
  systres_alinor_decision_confirm:0 "Систрес принадлежит Алинору!"
  systres_alinor_decision_tooltip:0 "Включить [Concept('kingdom', 'королевство')|E] Систрес в [Concept('de_jure', 'де-юре')|E] границы Алинора"
 
@@ -93,7 +93,7 @@
  solstheim_morrowind_decision_tooltip:0 "Включить [Concept('kingdom', 'королевство')|E] Солстейм в [Concept('de_jure', 'де-юре')|E] границы Морровинда"
  solstheim_morrowind_decision_confirm:0 "Солстейм принадлежит Морровинду!"
 
- solstheim_skyrim_decision:0 "Вопрос о Солстейма"
- solstheim_skyrim_decision_desc:0 "То, что Морровинд объявил Солстейм своим, не отменяет того факта, что он был заселён древними атморцами со времён #LORE ['compendium_merethic_era', 'Меретической эры']#!. Солстейм принадлежит нордам, и я верну его."
+ solstheim_skyrim_decision:0 "Вопрос Солстейма"
+ solstheim_skyrim_decision_desc:0 "То, что Морровинд объявил Солстейм своим, не отменяет того факта, что он был заселён древними атморцами со времён [Glossary( 'Меретической эры', 'MERETHIC_GLOSS' )]. Солстейм принадлежит нордам, и я верну его."
  solstheim_skyrim_decision_tooltip:0 "Включить [Concept('kingdom', 'королевство')|E] Солстейм в [Concept('de_jure', 'де-юре')|E] границы Скайрима"
  solstheim_skyrim_decision_confirm:0 "Солстейм принадлежит Скайриму!"

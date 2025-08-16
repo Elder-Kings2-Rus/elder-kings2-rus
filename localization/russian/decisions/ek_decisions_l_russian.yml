@@ -28,10 +28,10 @@
 
 
  # Perks
- raise_risen_dead_decision:0 "Поднять мёртвых"
- raise_risen_dead_decision_desc:0 "В войне побеждает та сторона, которая может бросить в горнило боя больше тел. А что может быть лучше, чем тело того, кто уже умер?"
- raise_risen_dead_decision_tooltip:0 "То, что мертво, умереть не может."
- raise_risen_dead_decision_confirm:0 "Восстаньте, дети мои!"
+ raise_maa_undead_soldiers_decision:0 "Поднять мёртвых"
+ raise_maa_undead_soldiers_decision_desc:0 "В войне побеждает та сторона, которая может бросить в горнило боя больше тел. А что может быть лучше, чем тело того, кто уже умер?"
+ raise_maa_undead_soldiers_decision_tooltip:0 "То, что мертво, умереть не может."
+ raise_maa_undead_soldiers_decision_confirm:0 "Восстаньте, дети мои!"
  decision_gives_necromancer_secret_tt:0 "#R Использование этого решения даст вам [secret|El] 'Некромант'  #!"
  decision_gives_necromancer_trait_tt:0 "#R Использование этого решения даст вам [trait|El] 'Некромант', так что в рамках вашей [Concept( 'faith', 'конфессии' )|E] вы будете считаться [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступником' )|E] #!"
  
@@ -157,6 +157,15 @@
  commune_with_totem_spirit_decision_tooltip:0 "Вы попросите Мудрую женщину пообщаться с Тотемом и прислушаетесь к урокам, которые преподнесёт вам ваше прошлое."
  commune_with_totem_spirit_decision_confirm:0 "Я готов, мудрая женщина."
  commune_with_totem_spirit_decision_effect_tt:0 "Мудрая женщина озарит вас космическим озарением относительно вашего ближайшего будущего."
+
+ commune_with_ancestor_spirits_decision:0 "Обратиться к духу предка"
+ commune_with_ancestor_spirits_decision_desc:0 "Посещение семейной гробницы, чтобы попросить совета и наставления у духов предков, является обычной практикой среди членов велотийских кланов. Я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] попросить, чтобы мой [Concept( 'realm_priest', GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName )|El] организовал ритуал."
+ commune_with_ancestor_spirits_decision_tooltip:0 "Попросить, чтобы [Concept( 'realm_priest', GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName )|El] помог в общении с духом предка и попросить совета."
+ commune_with_ancestor_spirits_decision_confirm:0 "Подготовить подношения..."
+ commune_with_ancestor_spirits_decision_effect_tt:0 "В дополнение к некоторому бонусу к благочестию, вы либо получите опыт образа жизни, узнаете секрет от члена дома, получите некоторое признание, либо будете сурово наказаны за то, что дерзко потревожили своих предков. Также может случиться так, что ничего не произойдёт."
+ ancestor_requirement:0 "По крайней мере, один из ваших предков достаточно стар или добродетелен"
+ available_adult:0 "Вы доступны и достигли совершеннолетия"
+ is_at_war:0 "Вы не участвуете в войне"
 
  chukka_sei_decision:0 "Пройти через чакка-сей"
  chukka_sei_decision_desc:0 "Хист-дука — месяц, когда саксхлил размышляют о семье, традициях и обязательствах. Это также месяц чакка-сей, ритуала взросления. Если я хочу перестать быть детёнышем, я должен пройти через это испытание."
@@ -359,6 +368,24 @@
  debug_mode_toggle_decision_desc:0 "debug_mode_toggle_decision_desc"
  debug_mode_toggle_decision_confirm:0 "debug_mode_toggle_decision_confirm"
  
+ ban_slavery_in_realm_decision:0 "Запретить рабство в державе"
+ ban_slavery_in_realm_decision_desc:0 "#italic «...Я приказываю и отныне объявляю свободными всех лиц, содержащихся как рабы в державе [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]».#!"
+ ban_slavery_in_realm_decision_tooltip:0 "Как можно владеть живым существом как имуществом?"
+ ban_slavery_in_realm_decision_confirm:0 "Услышьте меня!"
+ ban_slavery_in_realm_decision_effect:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_slave_markets_01$#! будет отключена и не может быть построена в пределах вашей [Concept('realm', 'державы')|E]"
+ culture_keeps_slaves_tooltip:0 "Ваша [Concept('culture', 'культура')|E] позволяет содержать [Concept('slaves', 'рабов')|E]"
+ vassal_culture_keeps_slaves_tooltip:0 "Любая [Concept('culture', 'культура')|E] [Concept('vassal', 'вассалов')|E] в вашей [Concept('realm', 'державе')|E], позволяющая  содержать [Concept('slaves', 'рабов')|E]"
+ slavery_stance_allowed_trigger:0 "Вы являетесь членом [Concept('grand_council_morrowind', 'Великого совета Морровинда')|E] и [Concept('slavery', 'рабство')|E] было запрещено верховными советниками"
+
+ allow_slavery_in_realm_decision:0 "Отменить запрет на рабство"
+ allow_slavery_in_realm_decision_desc:0 "В настоящее время владение рабов в этих землях запрещено. Возможно, кто-то мог бы рассмотреть возможность изменения этой политики?"
+ allow_slavery_in_realm_decision_tooltip:0 "Собственность - это власть."
+ allow_slavery_in_realm_decision_confirm:0 "Услышьте меня!"
+ allow_slavery_in_realm_decision_effect:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_slave_markets_01$#! станет активной и может быть построена в пределах вашей [Concept('realm', 'державы')|E]"
+ allow_slavery_in_realm_decision_trigger:0 "[Concept('slavery', 'Рабство')|E] в настоящее время запрещено в этой [Concept('realm', 'державе')|E]"
+
+ visit_vineyard_requirement:0 "В [Concept('city', 'городе')|E] в пределах ваших [Concept('domain', 'владений')|E] должно быть здание #V $building_type_amaya_vineyard_02$#!"
+
  stop_being_pirate_government_decision:0 "Отказ от пиратства?"
  stop_being_pirate_government_decision_desc:0 "Пиратство — весьма прибыльное дело, но морским волкам не хватает определённой легитимности и авторитета, которыми обладает обычная знать. Быть может, пришло время отказаться от нашего нынешнего типа правительства и принять более централизованную систему? "
  stop_being_pirate_government_decision_confirm:0 "Время пиратов подошло к концу."

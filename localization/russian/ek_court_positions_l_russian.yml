@@ -29,7 +29,6 @@
  court_position_lifestyle_herbalist_trait:0 "[GetTrait('lifestyle_herbalist').GetName( ROOT.Char )]"
  court_position_cynical_trait:0 "[GetTrait('cynical').GetName( ROOT.Char )]"
  court_position_august_trait:0 "[GetTrait('august').GetName( ROOT.Char )]"
- court_position_family_first_trait:0 "[GetTrait('family_first').GetName( ROOT.Char )]"
  ##Clan-Mother
  clan_mother_court_position: "Мать клана"
  clan_mother_court_position_desc: "$clan_mother_court_position$ - это уважаемая матриарх, которая может присутствовать при дворе рядом со своим сюзереном и говорить от его имени."
@@ -49,7 +48,15 @@
  court_mage_field_mage_desc:0 "$court_mage_field_mage$ - это адепт магических искусств, которому поручено находить решения проблем, связанных с магией, накладывать заклинания по приказу своего хозяина, руководить изучением магии и помогать лагерю чарами, алхимией и простыми советами по сложным мистическим вопросам."
  court_mage_clever_man_desc:0 "$court_mage_clever_man$ - это адепт магических искусств, которому поручено находить решения проблем, связанных с магией, накладывать заклинания по приказу своего сюзерена, руководить изучением магии в державе и помогать придворным чарами, алхимией и простыми советами по сложным мистическим вопросам."
  court_mage_court_position_possessive:0 "придворного мага"
- court_mage_employer_custom_effect_description:2 "Может накладывать [Concept('spells', 'заклинания')|E] для своего [Concept('liege', 'сюзерена')|E]\n@warning_icon!#X Полезный [Concept('agent', 'соучастник')|E] во [Concept('hostile_schemes', 'враждебных происках')|E] против вас#!"
+ court_mage_base_desc: "$EFFECT_LIST_BULLET$[arcana_i][arcana|E]"
+ court_mage_terrible_desc: "$court_mage_base_desc$: #P +1#!"
+ court_mage_poor_desc: "$court_mage_base_desc$: #P +2#!"
+ court_mage_average_desc: "$court_mage_base_desc$: #P +3#!"
+ court_mage_good_desc: "$court_mage_base_desc$: #P +4#!"
+ court_mage_excellent_desc: "$court_mage_base_desc$: #P +5#!"
+ court_mage_range_desc: "$court_mage_base_desc$: от #P +1#! до #P +5#! (в зависимости от [Concept('aptitude', 'пригодности')|E])"
+ court_mage_employer_custom_effect_description:2 "$EFFECT_LIST_BULLET$Может накладывать [Concept('spells', 'заклинания')|E] для [Concept('liege', 'сюзерена')|E]"
+ # Aptitude
  court_position_skill_arcana:0 "Мастерство Арканы"
  court_position_necomancer_trait:0 "[GetTrait('necromancer').GetName( ROOT.Char )]"
  court_position_battlemage_trait:0 "[GetTrait('battlemage').GetName( ROOT.Char )]"
@@ -96,18 +103,29 @@
  court_position_necromancy_expert_perk:0 "[GetPerk('necromancy_expert_perk').GetName( ROOT.Char )]"
  court_position_necromancy_master_perk:0 "[GetPerk('necromancy_master_perk').GetName( ROOT.Char )]"
 
-  #Powerful agents
-  SCHEME_AGENT_IS_COURT_MAGE:0 "[target.GetShortUINamePossessiveNoTooltip] – $court_mage_court_position$"
-  SCHEME_AGENT_IS_HOUSECARL:0 "[target.GetShortUINamePossessiveNoTooltip] – $court_housecarl_court_position$"
-  SCHEME_AGENT_IS_SHADOWSCALE:0 "[target.GetShortUINamePossessiveNoTooltip] – $shadowscale_court_position$"
+ #Powerful agents
+ SCHEME_AGENT_IS_COURT_MAGE:0 "[target.GetShortUINamePossessiveNoTooltip] – $court_mage_court_position$"
+ SCHEME_AGENT_IS_HOUSECARL:0 "[target.GetShortUINamePossessiveNoTooltip] – $court_housecarl_court_position$"
+ SCHEME_AGENT_IS_SHADOWSCALE:0 "[target.GetShortUINamePossessiveNoTooltip] – $shadowscale_court_position$"
  
-  # Court Position Tasks
-  court_mage_instruct:0 "Дать наставления магу"
-  court_mage_instruct_desc:0 "Этот персонаж будет использовать свои магические умения по приказу своего нанимателя."
-  court_mage_instruct_tt:0 "Отдайте приказы своему магу, определив то, как он будет произносить [spells|El] и на каком типе [Concept('magic', 'магии')|E] сосредоточится."
- 
-  #Qadi
+ # Court Position Tasks
+ court_mage_instruct:0 "Накладывать заклинания"
+ court_mage_instruct_desc:0 "Этот персонаж будет накладывать заклинания самостоятельно в соответствии с инструкциями своего нанимателя, пока это задание активно."
+ court_mage_instruct_tt:0 "Отдайте приказы своему магу, определив то, как он будет произносить [spells|El] и на каком типе [Concept('magic', 'магии')|E] сосредоточится."
+ court_mage_improve_self: "Study Magic"
+ court_mage_improve_self_desc: "This character is focusing on improving their skills as a mage."
+ court_mage_improve_self_tt: "Every month this character has a chance of learning new [spells|E] or gaining [arcana_i][arcana|E] (To a Maximum of [EmptyScope.ScriptValue('very_high_skill_rating')|0])"
+ court_mage_improve_self_fallback_tt: "Every month this character has a chance of learning new [spells|E] or gaining [arcana_i][arcana|E] (To a Maximum of [EmptyScope.ScriptValue('very_high_skill_rating')|0])"
+ court_mage_support_liege: "Arcane Support"
+ court_mage_support_liege_desc: "This character enhances the arcane abiltities of their employer."
+ court_mage_support_liege_tt: "Every month this character has a chance of generating additional [magicka|E] for their employer"
+ court_mage_support_liege_fallback_tt: "Every month this character has a chance of generating additional [magicka|E] for their employer"
+
+ #Qadi
  court_chief_qadi_requirement.tt: "Необходимо практиковать [Concept('praxis', 'Праксис')|E]"
+
+ #Wet Nurse
+ wet_nurse_age_tt_ek: "They are under the equivalent age to #V 46 years#! for average humans"
 
  ### CAMP OFFICERS
  ##Retainer
@@ -119,3 +137,5 @@
  arcanist_captain_camp_officer_desc:0 "$arcanist_captain_camp_officer$ командует магами и мечниками-чародеями лагеря. Они отвечают за руководство, обучение и тактику отряда."
  domicile_building_parameter_camp_unlocks_arcanist_captain_officer:0 "Позволяет нанимать [Concept('officer', 'подручного')|E] «[GetCourtPositionType('arcanist_captain_camp_officer').GetName()]»"
  arcanist_captain_camp_officer_parameter_tt: "$camp_with_following_buildings_tt$\n$BULLET$[GetDomicileBuilding('proving_grounds_mages_study').GetName]"
+
+ any_liege_or_above: "Direct liege or above:"
