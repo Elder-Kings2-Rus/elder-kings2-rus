@@ -15,3 +15,6 @@
   crown_authority_1_effects_all_governments:0 ""
   crown_authority_2_effects_all_governments:0 ""
   crown_authority_3_effects_all_governments:0 ""
+  
+ MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS: "Административные законы" #War provincial
+ MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS_DESC: "Только [top_liege|E] административной [game_concept_realms|E] может менять административные законы" #Referenced Byzantine empire

@@ -1,8 +1,9 @@
 ﻿l_russian:
  thrall_opinion:0 "Трэлл"
  cast_hostile_spell:0 "Наложено враждебное заклинание"
- criminal_daedric_servant:0 "Преступное поклонение #LORE [compendium_daedra]#!"
- returned_temple_land_opinion:0 "Возвращённый Храму Некром"
+ criminal_daedric_servant:0 "Преступное поклонение [Glossary( 'даэдра', 'DAEDRA_GLOSS' )]"
+ returned_temple_land_opinion:0 "Возвращённое Храму святое место"
+ banned_slavery:0 "Запрещённое рабство"
  robbed_me_opinion:0 "Обокрал меня"
  slaughtered_peasants_opinion: "Перебил мой народ"
  

@@ -1,0 +1,3 @@
+﻿l_russian:
+ abduct_outcome.2001.desc:0 "Success! The brigands did their job admirably, and [target.GetTitledFirstName] is safely in my [ROOT.Char.Custom('HandsClawsPaws')]."
+ abduct_outcome.2002.desc:0 "Before [target.GetTitledFirstName] even knew what was happening, my agents had [target.GetHerHim]! [target.GetSheHe|U] is finally in my [ROOT.Char.Custom('HandsClawsPaws')]."

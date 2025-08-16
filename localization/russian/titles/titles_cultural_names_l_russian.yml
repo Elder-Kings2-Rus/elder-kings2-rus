@@ -6,8 +6,10 @@
 #################
  cn_hiauroche:0 "Хай-Рок" #АХТУНГ! При добавлении или изменении титулов продублировать изменения в localization/replace/russian/rus_team_fixes/titles_adjective/titles_adjective_cultural_names_l_russian.yml
  cn_hiauroche_adj:0 "Хай-рокск"
+ cn_manmereth:0 "Manmereth"
  cn_betnikh:0 "Бетник"
  cn_betnikh_adj:0 "Бетникск"
+ cn_betnar:0 "Betnar"
  cn_stonetooth:0 "Каменный зуб"
  cn_stonetooth_adj:0 "Камнезубск"
  cn_little_betnikh:0 "Малый Бетник"
@@ -20,6 +22,8 @@
  cn_fharun_adj:0 "Фарунск"
  cn_fharun_stronghold:0 "Фарун"
  cn_fharun_stronghold_adj:0 "Фарунск"
+ cn_farrund:0 "Farrund"
+ cn_farrund_hall:0 "Farrund Hall"
  cn_brirmarch:0 "Вересковый проход"
  cn_brirmarch_adj:0 "Вереско-проходск"
  cn_brir:0 "Вереск"
@@ -41,6 +45,9 @@
  cn_gauvadon_adj:0 "Гаувадонск"
  cn_hayrest:0 "Хейрест"
  cn_hayrest_adj:0 "Хейрестск"
+ cn_vragerest:0 "Vrage's Rest" #Because Vrage started the invasion into High Rock
+ cn_hoagsfall:0 "Hoag's Fall"
+ cn_hoagsrest:0 "Hoag's Rest"
  cn_morkul:1 "Моркул"
  cn_morkul_adj:1 "Моркулск"
  cn_morkuldin:1 "Моркулдин"
@@ -67,9 +74,11 @@
  cn_moravagarlis_adj:1 "Моравагарлисск"
  cn_kjamlor:0 "Кьямлейр"
  cn_kjamlor_hall:0 "Кьямлейр"
+ cn_kjambray:0 "Kjambray"
  cn_dolkenfall:0 "Долкенфолл"
  cn_daggerfell:0 "Даггерфелл"
  cn_dolkenfall_hall:0 "Долкенфолл"
+ cn_invisible_college_dolkenfall:0 "Invisible College of Dolkenfall"
  cn_shornhjalmr:0 "Шорнхьяльмр"
  cn_shornhjalmr_hall:0 "Шорнхьяльмр"
  cn_sharnhalm:0 "Шарнхальм"
@@ -102,11 +111,13 @@
  cn_ada_mantia_adj:0 "Ада-мантийск"
  cn_direnni_tower:0 "Башня Диренни"
  cn_direnni_tower_adj:0 "Диреннийск"
+ cn_towerzero:0 "Tower Zero" # Tower of Adamant
 
  ##################
  ### Hammerfell ###
  ##################
  #Redguards
+ cn_bendmarch:0 "Bendmarch"
  cn_drangstor:0 "Дрангстор"
  cn_drangstor_adj:0 "Дрангсторск"
  cn_drangstor_west:0 "Западный Дрангстор"
@@ -197,7 +208,11 @@
  cn_shor_stone_adj:0 "Камнешорск"
  cn_cradlecrush:0 "Седловина"
  cn_cradlecrush_adj:0 "Седловинск"
+ cn_mhuvnak:0 "Mhuvnak"
+ cn_mhuvnak_adj:0 "Mhuvnak"
  cn_narzulbur:0 "Нарзулбур"
+ cn_mzulft:0 "Mzulft"
+ cn_mzulft_adj:0 "Mzulft"
  cn_narzulbur_adj:0 "Нарзулбурск"
  cn_saarthal:0 "Саартал"
  cn_saarthal_adj:0 "Саартальск"
@@ -257,16 +272,22 @@
  cn_hroldan_ring_adj:0 "Кольцо-хролданск"
  cn_hirstaang:0 "Хирстаанг"
  cn_hirstaang_adj:0 "Хирстаангск"
+ cn_kagrumez:0 "Kagrumez"
+ cn_kagrumez_adj:0 "Kagrumez"
  cn_gandrung:0 "Гандрунг"
  cn_gandrung_adj:0 "Гандрунгск"
  cn_kolbjorn:0 "Колбьорн"
  cn_kolbjorn_adj:0 "Колбьорнск"
  cn_mortrag:0 "Мортраг"
  cn_mortrag_adj:0 "Мортрагск"
+ cn_falbtharz:0 "Falbtharz"
+ cn_falbtharz_adj:0 "Falbtharz"
  cn_varstaad:0 "Варстаад"
  cn_varstaad_adj:0 "Варстаадск"
  cn_felsaad:0 "Фелсаад"
  cn_felsaad_adj:0 "Фелсаадск"
+ cn_nchardak:0 "Nchardak"
+ cn_nchardak_adj:0 "Nchardak"
  cn_mythrin:0 "Митрин"
  cn_mythrin_adj:0 "Митринск"
  cn_tel_mythrin:0 "Тель-Митрин"
@@ -295,7 +316,59 @@
  cn_skyhaven:0 "Небесная гавань"
  cn_skyhaven_adj:0 "Небесно-гаваньск"
 
+cn_benkongerike:0 "Benkongerike"
+ cn_froogarjoorak:0 "Froogar Joorak" #Froo- ice. gar- large. joorak- a (inhabited) place
+ cn_hralookaarok:0 "Hraloo Kaarok" #Hra- signfigant, sacred. Loo- land. Karrok- (land with) mountain, high place
+ cn_maawaabrelkoo:0 "Maawaa Brelkoo" #Maa- snow. Waa- region, coast. Brel- village. Koo- small
+ cn_boodjarak:0 "Hraaloo Boodjarak" #Hra- signfigant, sacred. Loo- land. Bood- blood, (after) battle. Jarak- area
+ cn_koolaamookara:0 "Koolaa Mookara" #Koo- small. Laa- rock, (more specifically) basalt cliffs. Mookara- (Large) area
+ cn_klokaar:0 "Klokaar" #Klo- borrowed Nordic name. Kaar- mountain, height, high, a (mountain) peak
+ cn_solvajoor:0 "Solvajoor" #Solva- borrowed Nordic name. Joor- land (traditionally used for island but both work)
+ cn_kaarfaal:0 "Kaarfaal" #Kaar- mountain, height, high, a (mountain) peak. Faal- point
+ cn_swaalook:0 "Swaalook" #Swaa- south(west). Look- Forested area
+ cn_norookar:0 "Norookar" #Noroo- North(west). Kar- land
+ cn_eerawaa:0 "Eerawaa" #Eera- east. Waa- region, coast
+ cn_gahwaka:0 "Gahwaka" #Gah- (green) land. Waka- trees, wooded place
+ cn_karruuk:0 "Karruuk" #Kar- land. Ruuk- cold, snow
+ cn_braaloo:0 "Braaloo" #Braa- village. Loo- place
+ cn_brafaal:0 "Brafaal" #Bra- lake. Faal- wide, open
+ cn_gorwak:0 "Gorwak" #Gor- community, group. Wak- place, home
+ cn_joorfaaloo:0 "Joorfaaloo" #Joor- island. Faa- (our) land. Loo- place.
+ cn_joorfal:0 "Joorfal" #Joor- island, Fal- chain, linked together
+ cn_joorfarok:0 "Joorfarok" #Joor- island. Farok- Snowy rocks (traditionally used in reference to climbing, possibility of slipping)
+ cn_farokawaa: "Farokawaa"
+ cn_joorkar: "Joorkar"
+ cn_joorraak: "Joorraak"
+ cn_nenyond:0 "Nenyond" #Graywater
+ cn_tel_relleis: "Tel Relleis" #Silver Stream
+ cn_falkaran: "Falkaran" #Snow Armor
+ cn_angalayond: "Angalayond" #Winter
+ cn_dweseli: "Dweseli" #Deep Halls
+ cn_molagnen_tarn: "Molagnen Tarn"
+ cn_feywend: "Feywend" #Only Path
+ cn_tamvarlais: "Tamvarlais" #Dawn of Stars
+ cn_silator_twyll: "Silator Twyll" #Shining Hill Wells
+ cn_eld_arpensel: "Eld Arpensel" #Old Noble's Hall
+ cn_torskylata:0 "Tor-Skylata" #Hill of Sky Terror, referencing historic fear of the Sky Forge
+ cn_nenagasel:0 "Nenagasel" #Hall of Death
+ cn_raundir:0 "Raundir" #King's River, last (unified) Falmer kingdom before destruction
+ cn_garlastel:0 "Garlas Tel" #Cavern of Silver
+ cn_angatulmath:0 "Angatulmath" #Cold Fortress
+ cn_laidaldal:0 "Laidal’dal" #From Wulfric and the Snow Elf
 
+ cn_mzinchaleft:0 "Mzinchaleft"
+ cn_mzinchaleft_adj:0 "Mzinchaleft"
+ cn_raldbthar:0 "Raldbthar"
+ cn_raldbthar_adj:0 "Raldbthar"
+ cn_rkund:0 "Rkund"
+ cn_rkund_adj:0 "Rkund"
+ cn_avanchnzel:0 "Avanchnzel"
+ cn_avanchnzel_adj:0 "Avanchnzel"
+ cn_bthalft:0 "Bthalft"
+ cn_bthalft_adj:0 "Bthalft"
+ cn_bal_sehrma:0 "Бал'Серма" #Note - Bal'Sehrma in BS, i'm choosing to ignore ' - tvsmsa
+ cn_bal_sehrma_adj:0 "Бал'Сермск"
+ 
  ################
  ### Cyrodiil ###
  ################
@@ -571,6 +644,10 @@
  cn_cheydin_hall_adj: "Зало-чейдинск"
  cn_jerall: "Джерол"
  cn_jerall_adj: "Джерольск"
+ cn_aerthomm: "Aerthomm"
+ cn_mhorlagrad: "Mhorlagrad"
+ cn_saerchal: "Saerchal"
+ cn_vverchad: "Vverchad"
  #Reachfolk
  cn_marniben: "Марнибен"
  cn_marniben_adj: "Марнибенск"
@@ -600,6 +677,7 @@
  #################
  ### Summerset ###
  #################
+ cn_anirdala: "Anirdala"
  cn_valano: "Валано"
  cn_valano_adj: "Валанск"
  cn_celemora: "Келемора"
@@ -607,6 +685,7 @@
  cn_tor_hame_khard: "Тор-Хейм-Хард"
  cn_dirennis: "Диреннис"
  cn_sumurset:0 "Самурсет"
+ cn_altmereth:0 "Altmereth"
  cn_somorset:0 "Соморсет"
  cn_calcal:0 "Цалькаль"
  cn_alinor:0 "Алинор"
@@ -624,47 +703,170 @@
  #################
  ### Morrowind ###
  #################
+ #Dunmer
  cn_resdayn:0 "Ресдайн"
  cn_resdayn_adj:0 "Ресдайнск"
+ cn_dagon_urul: "Dagon Urul"
+ cn_dagon_urul_adj: "Dagon Urul"
+ cn_uld_vraech:0 "Улд Врех"
+ cn_uld_vraech_adj:0 "Улд Врех"
+ cn_alavelis: "Alavelis"
+ cn_alavelis_adj: "Alavelis"
+ cn_salein:0 "Салейн"
+ cn_salein_adj:0 "Салейнск"
+ cn_baan_malur:0 "Баан Малур"
+ cn_baan_malur_adj:0 "Баан-малурск"
+ cn_julan_shar: "Julan-Shar"
+ cn_julan_shar_adj: "Julan-Shar"
+ cn_ramimilk: "Ramimilk"
+ cn_ramimilk_adj: "Ramimilk"
+ cn_serynthul: "Serynthul"
+ cn_serynthul_adj: "Serynthul"
+ cn_nebulud: "Nebulud"
+ cn_nebulud_adj: "Nebulud"
+ cn_bal_foyen: "Bal Foyen"
+ cn_darvonis: "Darvonis"
+ cn_darvonis_watch: "Darvonis Watch"
+ cn_darvonis_port: "Darvonis Port"
+ cn_bal_nera: "Bal Nera"
+ cn_bal_nera_adj: "Bal Nera"
+ cn_ermunsour: "Ermunsour"
+ cn_ermunsour_adj: "Ermunsour"
+#Chimer
  cn_veloth:0 "Велот"
  cn_veloth_adj:0 "Велотск"
+#Ashlander
+ cn_dagon_fel:0 "Дагон Фел"
+ cn_dagon_fel_adj:0 "Дагон-фелск"
+#Orc
+ cn_rahn_mauloch: "Rakh Mauloch"
+ cn_rahn_mauloch_adj: "Rakh Mauloch"
+ cn_dunminium:0 "Данминиум"
+ cn_dunminium_adj:0 "Данминианск"
+#Nord
  cn_dunmereth:0 "Данмерет"
  cn_dunmereth_adj:0 "Данмеретск"
  cn_dwemereth:0 "Двемерет"
  cn_dwemereth_adj:0 "Двемеретск"
- cn_ronthaan:0 "Ронта"
- cn_ronthaan_adj:0 "Ронтанск"
- cn_dunminium:0 "Данминиум"
- cn_dunminium_adj:0 "Данминианск"
- cn_bal_sehrma:0 "Бал'Серма"
- cn_bal_sehrma_adj:0 "Бал'сермск"
- cn_uld_vraech:0 "Улд Врех"
- cn_uld_vraech_adj:0 "Улд Врех"
- cn_dagon_fel:0 "Дагон Фел"
- cn_dagon_fel_adj:0 "Дагон-фелск"
- cn_bosmora:0 "Босмора"
- cn_bosmora_adj:0 "Босморск"
- cn_salein:0 "Салейн"
- cn_salein_adj:0 "Салейнск"
- cn_fyrewatch:0 "Огненный дозор"
- cn_fyrewatch_adj:0 "Огне-дозорск"
- cn_fyre_article:0 "Бастион "
- cn_fyre:0 " Огонь" # не знаю почему, но без пробела в игре название отображается как БастионОгонь
- cn_fyre_adj:0 "Огоньск"
  cn_valheith:0 "Валхайт"
  cn_valheith_adj:0 "Валхайтск"
  cn_valenhall:0 "Воленхол"
  cn_valenhall_adj:0 "Воленхолск"
- cn_baan_malur:0 "Баан Малур"
- cn_baan_malur_adj:0 "Баан-малурск"
- cn_vthardenzel:0 "Втардензел"
- cn_vthardenzel_adj:0 "Втардензелск"
+ cn_huldarkorst: "Хюльдаркорст"
+ cn_huldarkorst_adj: "Хюльдаркорстск"
+ cn_olmgerdheim: "Ольмгердхейм"
+ cn_olmgerdheim_adj: "Ольмгердхеймск"
+ cn_olmgerds_landing: "Высадка Ольмгерда"
+ cn_olmgerds_landing_adj: "Ольмгердхеймск"
+ cn_cormar: "Cormar"
+ cn_cormar_adj: "Cormar"
+ cn_cormar_view: "Cormar View"
+ cn_cormar_view_adj: "Cormar View"
+#Galen
+ cn_ronthaan:0 "Ронта"
+ cn_ronthaan_adj:0 "Ронтнск"
+#Bosmer
+ cn_bosmora:0 "Босмора"
+ cn_bosmora_adj:0 "Босморск"
+#Imperial/nord
+ cn_firewatch: "Firewatch"
+ cn_firewatch_adj: "Firewatch"
+ cn_oaktown: "Oaktown"
+ cn_oaktown_adj: "Oaktown"
+ cn_reich_parkeep: "Reich Parkeep"
+ cn_reich_parkeep_adj: "Reich Parkeep"
+ cn_karththor_dale: "Karththor Dale"
+ cn_karththor_dale_adj: "Karththor Dale"
+ cn_riverbridge: "Riverbridge"
+ cn_riverbridge_adj: "Riverbridge"
+ cn_eagle_moor: "Eagle Moor"
+ cn_eagle_moor_adj: "Eagle Moor"
+ cn_old_keep: "Old Keep"
+ cn_old_keep_adj: "Old Keep"
+ cn_silnim: "Silnim"
+ cn_silnim_adj: "Silnim"
+ cn_dragon_glade: "Dragon Glade"
+ cn_dragon_glade_adj: "Dragon Glade"
+ cn_glen_haven: "Glen Haven"
+ cn_glen_haven_adj: "Glen Haven"
+ cn_hrogar_hold:0 "Hrogar's Hold" #Note - unused
+ cn_nivalis: "Nivalis"
+ cn_nivalis_adj: "Nivalis"
+#Goblin
  cn_morrowindl:0 "Морровиндл"
  cn_thundholmar:0 "Тундольмар"
- cn_huldarkorst:0 "Хюльдаркорст"
- cn_olmgerdheim:0 "Ольмгердхейм"
- cn_olmgerds_landing:0 "Высадка Ольмгерда"
- cn_ramimilk:0 "Рамимилк"
+#Argonian
+ cn_uxith:0 "Uxith"
+ cn_lukiul_uxith:0 "Lukiul Uxith"
+#Dwemer
+ cn_vthardenzel:0 "Втардензел"
+ cn_vthardenzel_adj:0 "Втардензелск"
+ cn_kvazmunducharz: "Kvazmunducharz"
+ cn_kvazmunducharz_adj: "Kvazmunducharz"
+ cn_bthangthamuazand: "Bthangthamuazand"
+ cn_bthangthamuazand_adj: "Bthangthamuazand"
+ cn_amthuandz: "Amthuandz"
+ cn_amthuandz_adj: "Amthuandz"
+ cn_mzankh: "Mzankh"
+ cn_mzankh_adj: "Mzankh"
+ cn_nchazdrumn: "Nchazdrumn"
+ cn_nchazdrumn_adj: "Nchazdrumn"
+ cn_rthungzark: "Rthungzark"
+ cn_rthungzark_adj: "Rthungzark"
+ cn_manrizache: "Manrizache"
+ cn_manrizache_adj: "Manrizache"
+ cn_nthazgrenar: "Nthazgrenar"
+ cn_nthazgrenar_adj: "Nthazgrenar"
+ cn_schelad_urgundz: "Schelad-Urgundz"
+ cn_schelad_urgundz_adj: "Schelad-Urgundz"
+ cn_mzingthlegfth: "Mzingthlegfth"
+ cn_mzingthlegfth_adj: "Mzingthlegfth"
+ cn_kragenzel: "Kragenzel"
+ cn_kragenzel_adj: "Kragenzel"
+ cn_bamz_amschend: "Bamz-Amschend"
+ cn_bamz_amschend_adj: "Bamz-Amschend"
+ cn_bthungthumz: "Bthungthumz"
+ cn_bthungthumz_adj: "Bthungthumz"
+ cn_druscashti: "Druscashti"
+ cn_druscashti_adj: "Druscashti"
+ cn_bthanchend: "Bthanchend"
+ cn_bthanchend_adj: "Bthanchend"
+ cn_bthuand: "Bthuand"
+ cn_bthuand_adj: "Bthuand"
+ cn_arkngthand: "Arkngthand"
+ cn_arkngthand_adj: "Arkngthand"
+ cn_arkngthunch_strdumz: "Arkngthunch-Strdumz"
+ cn_arkngthunch_strdumz_adj: "Arkngthunch-Strdumz"
+ cn_mudan: "Mudan"
+ cn_mudan_adj: "Mudan"
+ cn_nchardumz: "Nchardumz"
+ cn_nchardumz_adj: "Nchardumz"
+ cn_nchurdamz: "Nchurdamz"
+ cn_nchurdamz_adj: "Nchurdamz"
+ cn_nchuleft: "Nchuleft"
+ cn_nchuleft_adj: "Nchuleft"
+ cn_mzuleft: "Mzuleft"
+ cn_mzuleft_adj: "Mzuleft"
+ cn_aleft: "Aleft"
+ cn_aleft_adj: "Aleft"
+ cn_bethamez: "Bethamez"
+ cn_bethamez_adj: "Bethamez"
+ cn_mzanchend: "Mzanchend"
+ cn_mzanchend_adj: "Mzanchend"
+ cn_nchuleftingth: "Nchuleftingth"
+ cn_nchuleftingth_adj: "Nchuleftingth"
+ cn_nchardahrk: "Nchardahrk"
+ cn_nchardahrk_adj: "Nchardahrk"
+ cn_mzahnch: "Mzahnch"
+ cn_mzahnch_adj: "Mzahnch"
+ cn_alencheth: "Alencheth"
+ cn_alencheth_adj: "Alencheth"
+ cn_durthungz: "Durthungz"
+ cn_durthungz_adj: "Durthungz"
+ cn_arkgnthleft: "Arkgnthleft"
+ cn_arkgnthleft_adj: "Arkgnthleft"
+ cn_chunzefk: "Chunzefk"
+ cn_chunzefk_adj: "Chunzefk"
 
  #################
  ### Valenwood ###
@@ -747,6 +949,8 @@
  cn_xarxen_mora:0 "Зарксен Мора"
  cn_arenth_arla: "Арент-Арла"
  cn_arata_ceyglynn: "Арата Кейглинн"
+ #Nordic
+ cn_bosmereth:0 "Bosmereth"
 
  ###############
  ### Elsweyr ###

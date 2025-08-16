@@ -1,0 +1,36 @@
+﻿l_russian:
+#Intro event
+ grand_council.0001.t: "Grand Council of Morrowind"
+ grand_council.0001.desc: "Established by the Tribunal after the war of the [Glossary( 'First Council', 'FIRST_COUNCIL_GLOSS' )], the [grand_council|E] watches over the people of Morrowind. But the power of the Council and High Councilor wanes and waxes with time. Will a stronger Grand Council emerge from the Interregnum, or will the Dark Elven Houses descend into petty clans, like in the ancient eras?"
+ grand_council.0001.a: "Praise the Tribunal (Blessed Be Their Holy Names)!"
+ grand_council.0001.b: "Interesting..."
+ GRAND_COUNCIL_SITUATION_INFO_PHASES_TITLE: "Phases"
+ GRAND_COUNCIL_SITUATION_INFO_PHASES_EXPLANATION: "[grand_council_morrowind|E] fluctuates between $gcm_balanced$, $gcm_autonomy$ and $gcm_centralised$ [situation_phases|E].\n\n$gcm_balanced_desc$\n\n$gcm_autonomy_desc$\n\n$gcm_centralised_desc$"
+ GRAND_COUNCIL_SITUATION_INFO_EFFECTS_TITLE: "Effects"
+ GRAND_COUNCIL_SITUATION_INFO_EFFECTS_EXPLANATION: "While the influence of the [high_councilor|E] and the [grand_council|E] may change over time, certain aspects of the Dunmer identity are likely to always remain unchanged.\n\n[grand_council_members|E] will never be able to wage war against other members, instead preferring to solve their conflicts through Morag Tong and [writs_of_execution|E] or through duels.\n\nThe Holy Isle of [GetGeographicalRegion('mundus_tamriel_morrowind_vvardenfell').GetName] is closed for colonisation by the Grand Council and is administered by the Tribunal Temple directly. In a $gcm_centralised$ [situation_phase|E], an ambitious High Councilor may change that and open the island for settlement and trade."
+ GRAND_COUNCIL_SITUATION_INFO_PARTICIPATION_TITLE: "Participants"
+ GRAND_COUNCIL_SITUATION_INFO_PARTICIPATION_EXPLANATION: "The [situation_participant_group|E] in the [grand_council|E] is defined by the characters' [culture|E] and [faith|E].\n\n$game_concept_grand_council_member_desc$\n\n$grand_council_participant_group_ashlanders_desc$\n\n$game_concept_outlander_desc$"
+#Phase change event
+ grand_council.0002.t: "Grand Council: [my_subregion.GetCurrentPhase.GetName]"
+ grand_council.0002.desc.balanced: "Peace and balance reign in [Glossary( 'Resdayn', 'RESDAYN_GLOSS' )]. [high_councilor.GetName] and the Grand Council reached an understanding. The Council will retain a degree of autonomy, but the last word on important decisions will be left to the [high_councilor|E]."
+ grand_council.0002.desc.autonomy: "With each new day, less and less envoys and proclamations come from [hc_capital.GetNameNoTier]. It seems that [high_councilor.GetName] lost [high_councilor.GetHerHis] grip over the Grand Council and the people of [Glossary( 'Resdayn', 'RESDAYN_GLOSS' )]."
+ grand_council.0002.desc.centralised: "The balance of power in [Glossary( 'Resdayn', 'RESDAYN_GLOSS' )] has shifted towards [high_councilor.GetName]. [high_councilor.GetSheHe|U] now exerts tremendous influence over the [grand_council|E], which greatly limits autonomy of its members."
+ grand_council.0002.a: "And so the wheel keeps turning."
+ grand_council.0002.tt: "[situation_phase|E] has changed"
+#Writ of war events
+ grand_council.1011.opening: "[recipient.Custom2('AppropriateGreeting', ROOT.Char)]"
+ grand_council.1010: "After much prayer to ALMSIVI and deliberation, I have decided to accept your request for [writ_of_war|E]."
+ grand_council.1011:0 "After much prayer to ALMSIVI and deliberation, I have decided to refuse your request for [writ_of_war|E]."
+ grand_council.1010.positive: "Praise the [ROOT.Char.GetFaith.HighGodName]!"
+ grand_council.1011.negative: "Most unfortunate..."
+#Vvardenfell vote
+ grand_council_vv.0002.t: "Matter of Vvardenfell: Vote"
+ grand_council_vv.0002.desc: "An envoy from [vv_initiator.GetName] arrives. It seems that the High Councilor wishes to lift the Temple ban on the settlement of [GetGeographicalRegion('mundus_tamriel_morrowind_vvardenfell').GetName], but first they need the approval of the [grand_council|E].\n\nThe island is rich in resources, which could bring prosperity to [voter_title.GetName] if we take advantage of this opportunity. However, the Temple has faithfully watched over the isle since the [Glossary( 'Battle of Red Mountain', 'BATTLE_RM_GLOSS' )], and [alma_rula.GetName] will not be pleased with those who wish to lift the ban."
+ grand_council_vv.0002.a: "Vvardenfell shall be opened!"
+ grand_council_vv.0002.b: "The Temple should continue to administer Vvardenfell."
+
+ grand_council_vv.0004.t: "Matter of Vvardenfell: Conclusion"
+ grand_council_vv.0004.desc.vv_vote_succeeded: "News arrives from [hc_capital.GetNameNoTier]: The Grand Council and the Temple reached an agreement on the matter of Vvardenfell. By the order of [vv_initiator.GetName] the island will henceforth be open to settlement."
+ grand_council_vv.0004.desc.vv_vote_failed: "News arrives from [hc_capital.GetNameNoTier]: the proposal by the High Councilor to open Vvardenfell did not pass. The holy isle will continue to be governed as a reservation under the Temple."
+ grand_council_vv.0004.a: "Interesting..."
+ kept_temple_reserve_tooltip: "You will keep [GetLaw('vvardenfell_temple_reserve').GetName] [law|E]."

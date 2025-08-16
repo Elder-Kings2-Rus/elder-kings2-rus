@@ -7,3 +7,4 @@
  
  form_cyrodiil_lifetime_potentate:0 "Вы должны стать пожизненным потентатом, выполнив все задания Совета старейшин, или же быть потентатом, который победил мятежника Аттребуса Сосильдора, прежде чем сможете провозгласить себя императором."
  form_cyrodiil_legitimacy: "Ваш [legitimacy_level|El] должен быть выше 4. Или в ваших жилах должна течь драконья кровь."
+ k_nibenay_decision_requirement:0 "Этот титул изначально должен быть сформировано через [Concept('decision', 'решения')|E] #V '$establish_new_nibenay_kingdom_decision$'#! или #V '$restore_nenalata_decision$'#! "

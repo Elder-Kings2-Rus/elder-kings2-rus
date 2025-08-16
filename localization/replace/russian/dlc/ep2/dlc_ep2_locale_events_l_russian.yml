@@ -1,0 +1,5 @@
+﻿l_russian:
+# EK Edit: three moons
+ ep2_locale_events.1520.t:0 "Три луны"
+ ep2_locale_events.1520.desc:0 "«Знак! Знамение!» — я слышу возгласы оттуда, где стоит [ROOT.Char.GetFaith.HouseOfWorship]. [tournament_priest.GetTitledFirstName] налетает на меня, указывая перстом в небо. Следуя за [Select_CString(tournament_priest.IsFemale, 'её', 'его' )] лихорадочным взглядом, я тоже вижу это: в небе привычно сияют знакомые каждому Массер и Секунда. Но вдруг... мой взгляд натыкается на ещё одну луну – тёмную и совершенно незнакомую.\n\n«Мне доводилось читать об этом в древних записях, — продолжает [Select_CString(tournament_priest.IsFemale, 'она', 'он' )], — это знамение, но что оно означает?»"
+ ep2_locale_events.1520.c:0 "Три идеально обезглавленных силуэта..."

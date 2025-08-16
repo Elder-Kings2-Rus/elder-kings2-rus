@@ -1,0 +1,60 @@
+﻿l_russian:
+ situation_alinor_isolationism: "[alinor_isolationism|E]"
+ situation_alinor_isolationism_desc: "[SITUATION.GetType.GetDesc]"
+ situation_type_alinor_isolationism: "Alinor Isolationism"
+ situation_type_alinor_isolationism_desc: "$game_concept_alinor_isolationism_desc$"
+ alinor_isolationism_sub_region_alinor: "Alinor"
+#Participant groups
+ alinor_isolationism_participant_group_ceremoniarchy_rulers: "Ceremoniarchy Rulers"
+ alinor_isolationism_participant_group_ceremoniarchy_rulers_desc: "All [rulers|E] in [GetGeographicalRegion('mundus_tamriel_summerset_isles').GetName] adhering to the [ceremoniarchy|E]. To adhere to Ceremoniarchy, a character must have a culture with the [GetCultureTradition('tradition_ceremoniarchy').GetName|V] [tradition|E] and a faith with the [GetFaithDoctrine('tenet_legalism').GetBaseName] and [GetFaithDoctrine('tenet_divine_purity').GetBaseName] [core_tenets|E]."
+ alinor_isolationism_participant_group_non_ceremoniarchy_rulers: "Non-Ceremoniarchy Rulers"
+ alinor_isolationism_participant_group_non_ceremoniarchy_rulers_desc: "All [rulers|E] in [GetGeographicalRegion('mundus_tamriel_summerset_isles').GetName] #bold not#! adhering to the [ceremoniarchy|E]."
+ alinor_isolationism_participant_group_rulers_outside_alinor: "Rulers outside of Alinor"
+ alinor_isolationism_participant_group_rulers_outside_alinor_desc: "All [rulers|E] #bold outside#! of [GetGeographicalRegion('mundus_tamriel_summerset_isles').GetName]"
+ alinor_isolationism_ceremoniarchy_rulers: "$alinor_isolationism_participant_group_ceremoniarchy_rulers$" #For effects from parameters
+#Phases
+ alinor_isolationism_alinor_closed_situation_phase: "$alinor_closed$"
+ alinor_closed: "Closed"
+ alinor_closed_desc: "During $alinor_closed$ [situation_phase|E], the land of the Aldmer is closed off from the people of Tamriel. Rulers adhering to [ceremoniarchy|E] cannot declare war on characters outside of Alinor or conduct diplomacy with them. Rulers not adhering to [ceremoniarchy|E] inside the Summerset Isles can freely be imprisoned and have their titles revoked during this [situation_phase|E]."
+ alinor_isolationism_alinor_open_situation_phase: "$alinor_open$"
+ alinor_open: "Open"
+ alinor_open_desc: "During $alinor_open$ [situation_phase|E], Alinor is open to outside interaction, allowing its rulers to expand beyond the Isles. But the breaking of the ancient traditions upsets High Elven people, leading to decreased [county_control|E] and [county_opinion|E]."
+#Effects and parameters
+#War
+ situation_alinor_military_effects: "Effects on Warfare"
+ situation_alinor_military_effects_concept: "[war|E]"
+ situation_parameter_unable_to_declare_war_alinor: "Unable to declare [war|E] against [rulers|E] outside of [GetGeographicalRegion('mundus_tamriel_summerset_isles').GetName]"
+#Diplomacy
+ situation_alinor_diplomacy_effects: "Effects on Diplomacy"
+ situation_alinor_diplomacy_effects_concept: "[diplomacy|E]"
+ situation_parameter_unable_to_marry_outside_alinor: "Unable to arrange [marriages|E] with [rulers|E] who are not part of the same [situation_participant_group|E]"
+ situation_parameter_unable_to_negotiate_alliance_outside_alinor: "Unable to negotiate [alliances|E] with [rulers|E] who are not part of the same [situation_participant_group|E]"
+ situation_parameter_can_freely_revoke_non_ceremoniarchy_titles: "Can freely [imprison|E] and [revoke|E] titles from rulers not following [ceremoniarchy|E]"
+#Domain
+ situation_alinor_domain_effects: "Effects on Domain"
+ situation_alinor_domain_effects_concept: "[domain|E]"
+ situation_parameter_city_of_alinor_gets_bonuses: "[GetModifier('alinor_capital_isolation').GetNameWithTooltip] modifier is applied to [GetTitleByKey('c_alinor').GetName]"
+ alinor_capital_isolation: "Capital of Alinor"
+ alinor_capital_isolation_desc: "Those outlanders who cannot be avoided petition and trade in the capital, and there alone"
+#GUI
+ SITUATION_ALINOR_ISOLATIONISM_WINDOW_CURRENT_PHASE: "Current [situation_phase|E]"
+ ALINOR_SITUATION_WINDOW_PHASES: "Isolation Phases"
+#Catalysts
+ catalyst_situation_high_king_ended_isolation: "$catalyst_situation_high_king_ended_isolation_desc$"
+ catalyst_situation_high_king_ended_isolation_desc: "Aran-El ended isolation"
+ catalyst_situation_alinor_destroyed: "$catalyst_situation_alinor_destroyed_desc$"
+ catalyst_situation_alinor_destroyed_desc: "[GetTitleByKey('e_summerset').GetName] was destroyed"
+ catalyst_situation_high_king_closed_alinor: "$catalyst_situation_high_king_closed_alinor_desc$"
+ catalyst_situation_high_king_closed_alinor_desc: "Aran-El closed Alinor"
+#Tooltips
+ unable_to_marry_outside_alinor_tt: "Cannot marry outside of the same [situation_participant_group|E] due to the current [alinor_isolationism|E] [situation_phase|E]"
+ unable_to_negotiate_alliance_outside_alinor_tt: "Cannot negotiate [alliance|E] outside of the same [situation_participant_group|E] due to the current [alinor_isolationism|E] [situation_phase|E]"
+ unable_to_marry_outside_alinor_outlander_tt: "Cannot marry characters inside Alinor due to the current [alinor_isolationism|E] [situation_phase|E]"
+ unable_to_declare_war_alinor_tt: "Cannot declare war outside of Alinor due to the current [alinor_isolationism|E] [situation_phase|E]"
+ alinor_isolationism_outlander_title_revocation:0 "[recipient.GetShortUIName|U] does not follow [ceremoniarchy|E], allowing [Select_CString( actor.IsLocalPlayer, 'you', 'them' )] to revoke [Select_CString( recipient.IsLocalPlayer, 'your', recipient.GetHerHis )] [titles|E] without being viewed as a [tyrant|E] due to the current [alinor_isolationism|E] [situation_phase|E]"
+ alinor_isolationism_outlander_vassal_revocation:0 "[recipient.GetShortUIName|U] does not follow [ceremoniarchy|E], allowing [Select_CString( actor.IsLocalPlayer, 'you', 'them' )] to revoke [Select_CString( recipient.IsLocalPlayer, 'your', recipient.GetHerHis )] [vassals|E] without being viewed as a [tyrant|E] due to the current [alinor_isolationism|E] [situation_phase|E]"
+ alinor_isolationism_outlander_imprisonment:0 "[recipient.GetShortUIName|U] does not follow [ceremoniarchy|E], allowing [Select_CString( actor.IsLocalPlayer, 'you', 'them' )] to imprison [Select_CString( recipient.IsLocalPlayer, 'your', recipient.GetHerHim )] without being viewed as a [tyrant|E] due to the current [alinor_isolationism|E] [situation_phase|E]"
+#Debug
+ debug_change_alinor: "Change #Alinor Isolationism phase#!"
+ debug_change_alinor_open: "Open"
+ debug_change_alinor_closed: "Closed"

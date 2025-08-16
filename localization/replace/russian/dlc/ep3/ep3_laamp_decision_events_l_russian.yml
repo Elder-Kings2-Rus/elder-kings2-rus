@@ -7,3 +7,31 @@
  ep3_laamp_decision_event.1025.desc_legendary_returned_02: "Тем временем глашатай завладевает вниманием очередной группы зевак, всё сильнее приукрашивая историю знатной особы из далеких земель.\n\nЯ тихонько хмыкаю, размышляя о прошлых объявленных квестах:"
  ep3_laamp_decision_event.1025.desc_legendary_body: "перешептывается с другим представителем #L [visiting_location.GetCounty.GetCulture.GetCollectiveNounNoTooltip|l]ого#! народа, когда я прохожу мимо. Они говорят, что некая знатная особа из далеких земель оказалась в затруднительном положении и предлагает #EMP щедрое#! вознаграждение.\n\nЯ обдумываю услышанное, как [Select_CString(laamp_town_crier.IsFemale,'она','он')] вдруг вспоминает о своих обязанностях и оживленно сообщает всем вокруг о доступных квестах:"
  ep3_laamp_decision_event.1025.desc_nothing: "[ROOT.Char.Custom('GetTowncrierElder')|U] [Select_CString(laamp_town_crier.IsFemale,'развалилась','развалился')] в своем кресле, явно засыпая. Судя по всему, сейчас поблизости нет доступных квестов."
+ 
+ #Storyteller 
+ ### Removed real-world references, added TES references
+ ep3_laamp_decision_event.1031.desc_01: "#EMP "...and so Auriel fastened the Heart to an arrow and let it fly long into the sea, where no aspect of the new world may ever find it."#!"
+ ep3_laamp_decision_event.1031.desc_02: "#EMP "...and then Anu grappled with Padomay and pulled them both outside of Time forever."#!"
+ ep3_laamp_decision_event.1031.desc_03: "#EMP "...and when Lorkhaj was born, the Great Darkness knew its name and it was Namiira."#!"
+ ep3_laamp_decision_event.1031.desc_04: "#EMP "...and tasting the blood on His tongue, our Father of Mysteries whispered a final chrononymic death-word, and Dagon exploded throughout all time."#!"
+ ep3_laamp_decision_event.1031.desc_05: "#EMP "...and none dared obstruct Sed-Yenna when she climbed the steps of White-Gold Tower to place the babe Reman on his Throne, where he spoke as an adult, saying I AM CYRODIIL COME."#!"
+ ep3_laamp_decision_event.1031.desc_06: "#EMP "...and when Magrus fled from Boethra and Lorkhaj, he fell into the Moonshadow. There Azurah judged him as too full of fear to rule a sphere, and she tore out his other eye."#!"
+ ep3_laamp_decision_event.1031.desc_07: "#EMP "...and using the roar that Lorkhaj had given him, Ra-Wulfharth spoke to Masser and Secunda, to move to their fullness in the sky. The Khajiiti warriors became Senche, but Lorkhaj stripped from them all reason."#!"
+ ep3_laamp_decision_event.1031.desc_08: "#EMP "...and the severed head of Pelinal spoke to the winged-bull, Morihaus, saying, "Our enemies have undone me, and spread my body into hiding. In mockery of divine purpose, the Ayleids cut me into eighths, for they are obsessed with this number."#!"
+ ep3_laamp_decision_event.1031.desc_09: "#EMP "...and with Malacath's mind bent on revenge, his most devout followers changed to match him and became the Orsimer, cursed to wander in exile, a people without a place."#!"
+ ep3_laamp_decision_event.1031.desc_10: "#EMP "...and Pelinal lifted his weapons, saying: "These were their eastern chieftains, no longer full of their talking."#!"
+ ep3_laamp_decision_event.1031.desc_11: "#EMP "...and Shor marched on the eastern kingdoms with all the sons of Skyrim."#!"
+ ep3_laamp_decision_event.1031.desc_12: "#EMP "...and there on the deck of the last ship from Saarthal, Ysgramor named his axe Wuuthrad, which means "Storm's Tears" in the language of Atmora."#!"
+ ep3_laamp_decision_event.1031.desc_13: "#EMP "...and then Y'ffre transformed himself into the first of the Ehlnofey, or "Earth Bones." After that mortals had a semblance of safety in the new world, because they could finally understand it."#!"
+ ep3_laamp_decision_event.1031.desc_14: "#EMP "...and the citizenry of Vivec screamed as they saw a shooting star come down out of the sky hole like a toll-road of hell. But Vivec merely raised his hand and froze Lie Rock just above the city."#!"
+ ep3_laamp_decision_event.1031.desc_15: "#EMP "...and The Guardian and the Traitor fought a mighty battle that lasted for days. So great and terrible were the forces unleashed in this contest that Solstheim was torn apart from the mainland of Skyrim."#!"
+ ep3_laamp_decision_event.1031.desc_16: "#EMP "...and Sheogorath strolled down the mountain, whistling in tune with the tiniest champion in Tamriel."#!"
+ ep3_laamp_decision_event.1031.desc_17: "#EMP "...and King Wulfharth killed King Dumalacath the Dwarf-Orc, and doomed his people."#!"
+ ep3_laamp_decision_event.1031.desc_18: "#EMP "...and so that they might know forever their wicked deeds Azura changed the Chimer into Dunmer, and their skin turned ashen and their eyes into fire."#!"
+ 
+ #Constanstinople to Imperial City
+ #Unique Location
+ ep3_laamp_decision_event.1000.desc_outro_revisit_constantinople: "\n\nHaving been here before, I still find myself feeling quite small as I observe the White-Gold Tower and the Arena on the horizon."
+ ep3_laamp_decision_event.1000.desc_outro_constantinople: "\n\nThe White-Gold Tower and the Arena readily available on the horizon, I start to feel quite small, in awe of these monuments."
+ ep3_laamp_decision_event.1000.desc_intro_returned_constantinople_01: "At the vantage point, I look out over [visiting_location.GetTitle.GetNameNoTierNoTooltip] in an effort to grasp this jewel of [visiting_location.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\nCultures from all over are represented here, among the [visiting_location.GetCulture.GetNameNoTooltip], truly a melting pot of traditions and customs.\n\nOver by the Arena, a contest appears to have started, judging from the faint shouts of joy and excitement."
+ 
