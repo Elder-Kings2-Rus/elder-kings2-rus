@@ -5,7 +5,6 @@
  choose_patron_decision_confirm:0 "EK_WIP_PH_1-8-0"
  rite_of_passage_decision_tooltip:0 "EK_WIP_PH_1-8-0"
  rite_of_passage_decision_confirm:0 "EK_WIP_PH_1-8-0"
- county_migration_cb_victory_desc:0 "EK_WIP_PH_1-8-0"
  pirate_extract_tribute_cb_desc_defender:0 "EK_WIP_PH_1-8-0"
 
  religious_decision.0101.p_dv_akatosh:0 "EK_WIP_PH_1-8-0"
@@ -64,7 +63,6 @@
  religious_decision.0101.p_ch_morihaus:0 "EK_WIP_PH_1-8-0"
  religious_decision.0101.p_ch_reman:0 "EK_WIP_PH_1-8-0"
  religious_decision.0101.p_ch_bendu:0 "EK_WIP_PH_1-8-0"
- religious_decision.0101.p_ch_attrebus:0 "EK_WIP_PH_1-8-0"
  religious_decision.0101.p_tc_aka:0 "EK_WIP_PH_1-8-0"
  religious_decision.0101.p_tc_missing:0 "EK_WIP_PH_1-8-0"
  religious_decision.0101.p_tc_land:0 "EK_WIP_PH_1-8-0"
@@ -99,6 +97,9 @@
  religious_decision.0101.p_vl_nerevar:0 "EK_WIP_PH_1-8-0"
  religious_decision.0101.p_mg_mnemoli:0 "EK_WIP_PH_1-8-0"
  religious_decision.0101.p_mg_xerolyg:0 "EK_WIP_PH_1-8-0"
+ religious_decision.0101.p_rm_light_of_man: "WIP"
+ religious_decision.0101.p_rm_the_cyrodiil: "WIP"
+ religious_decision.0101.p_rm_worldly_god: "WIP"
 
 
  cultural_acceptance_event:0 "EK_WIP_PH_1-8-0"
@@ -271,7 +272,6 @@
  _ch_morihaus:0 "_ch_morihaus"
  _ch_reman:0 "_ch_reman"
  _ch_bendu:0 "_ch_bendu"
- _ch_attrebus:0 "_ch_attrebus"
  _rc_reman:0 "_rc_reman"
  _tc_aka:0 "_tc_aka"
  _tc_missing:0 "_tc_missing"
@@ -380,6 +380,13 @@
  _namira_reach:0 "_namira_reach"
  _nocturnal_reach:0 "_nocturnal_reach"
  _peryite_reach:0 "_peryite_reach"
+ _stendarr_mer: "_stendarr_mer"
+ _yffre_altmer: "_yffre_altmer"
+ _malahk: "_malahk"
+ _muluk: "_muluk"
+ _rm_light_of_man: "_rm_light_of_man"
+ _rm_the_cyrodiil: "_rm_the_cyrodiil"
+ _rm_worldly_god: "_rm_worldly_god"
  
  
 

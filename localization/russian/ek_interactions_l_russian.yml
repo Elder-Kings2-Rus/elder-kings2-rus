@@ -8,9 +8,11 @@
  MARRIAGE_HEIRESS_MATRILINEAL_REASON:0 "[secondary_recipient.GetShortUIName|U] - наследница, и [recipient.GetShortUIName|U] предпочитает [Concept('matrilineal', 'матрилинейный')|E] брак: $VALUE|+0$"
  MARRIAGE_MONSTER_REASON:0 "Не заключит брак с [Concept('monster', 'чудовищем')|E]: $VALUE|+0$"
  MARRIAGE_FORMER_PARIAH_REASON:0 "Не заключит брак с бывшими [Concept('pariah', 'отверженными')|E]: $VALUE|+0$"
- MARRIAGE_CRYSTAL_TOWER_REASON:0 "[GetBuilding('crystal_tower_01').GetName]: #P +10#!"
+ MARRIAGE_CRYSTAL_TOWER_REASON:0 "[GetBuilding('crystal_tower_01').GetName]: $VALUE|+0$"
+ MARRIAGE_SEXUALITY_REASON:0 "Несоответствие ориентации: $VALUE|+0$"
  #RELIGION
  ASK_FOR_CONVERSION_CROWN_FOREBEAR:0 "[recipient.GetCulture.GetName|E] не одобряют ваши #L [actor.GetCulture.GetCollectiveNoun]ие#! устои: $VALUE|+0$."
+ ORDINATION_OF_WAR_REASON: "$tradition_ordination_of_war_name$: $VALUE|=+0$"
  #MISC
  summoned_undead:0 "Призванная нежить"
 
@@ -27,7 +29,8 @@
  small_blood_price_modifier_desc:0 "Этому персонажу пришлось заплатить цену крови, чтобы освободиться из заточения. К счастью для него, его преступление не было значительным, и ему удалось освободиться, отдав лишь небольшую часть своей крови."
  extract_blood_price_effect_imprisonment_reason_tooltip:0 "У вас есть повод для заточения персонажа [prisoner.GetFirstName], поэтому кровь, которую вы заберёте, ранит [prisoner.GetHerHis]."
  extract_blood_price_effect_execution_reason_tooltip:0 "У вас есть повод для казни персонажа [prisoner.GetFirstName], поэтому вы взыщете высокую цену."
- extract_blood_price_effect_survival_release_tooltip:0 "Если [prisoner.GetFirstName] выживет, [prisoner.GetSheHe] будет [Select_CString(prisoner.IsFemale, 'освобождена', 'освобождён' )] из тюрьмы."
+ extract_blood_price_effect_survival_release_tooltip:0 "Если [prisoner.GetFirstName] выживет, [prisoner.GetSheHe] будет [Select_CString(prisoner.IsFemale, 'освобождена', 'освобождён' )] из темницы."
+ extract_blood_price_execution:0 "У вас есть повод для казни персонажа [prisoner.GetFirstName], поэтому вы взыщете #bold очень#! высокую цену - казнив [prisoner.GetHerHis]"
 
  ###Disrupt Arcana Interaction
  recently_disrupted:0 "Недавно истощён"
@@ -101,7 +104,9 @@
  cultural_religious_privilege:0 "Культурные и религиозные привилегии"
  CONTRACT_CULTURAL_RELIGIOUS_PRIVILEGE_REASON:0 "Культурные и религиозные привилегии: $VALUE|=+0$"
 
- great_house_vassalage_reason:0 "[recipient.GetHerHis|U] [culture|El] не желает быть частью Великого дома: $VALUE|+=0$"
+ great_house_vassalage_reason_negative:0 "[recipient.GetHerHis|U] [Concept('culture', 'культура')|E] не желает быть частью Великого дома: $VALUE|+=0$"
+ great_house_vassalage_reason_positive:0 "[recipient.GetHerHis|U] [Concept('culture', 'культура')|E] желает быть частью Великого дома: $VALUE|+=0$"
+ great_house_fealty_reason_positive:0 "[recipient.GetHerHis|U] Великий дом желает укрепить вашу [Concept('culture', 'культуру')|E]: $VALUE|+=0$"
  white_gold_tower_vassalage_reason:0 "[GetBuilding('white_gold_tower_01').GetName]: #P +10#!"
  adamantine_tower_invite_reason:0 "[GetBuilding('crystal_tower_01').GetName]: #P +25#!"
  EDUCATE_ME_OPTION_TRAIN_ARCANA_EFFECT:1 "Я буду учиться искусству магии и получу [trait|El] #V Ученика магии#!"
@@ -152,6 +157,8 @@
  send_mage_to_wander_return_title:0 "Скиталец возвращается"
  send_mage_to_wander_return_desc:0 "[recipient.GetFullName] [Select_CString(recipient.IsFemale, 'вернулась', 'вернулся' )] к вашему двору после странствия для увеличения своих [Concept( 'magic', 'магических' )|E] способностей."
  sent_to_wander_already:0 "Этого персонажа уже однажды отправляли странствовать"
+
+ already_tried_to_interfere:0 "Этот персонаж недавно пытался вмешаться."
 
  send_knight_to_wander:0 "Отправить рыцаря в странствие"
  send_knight_to_wander_interaction_desc:0 "[recipient.GetFirstName] является молодым оруженосцем, но многое ещё стоит познать самостоятельно. Позволить [recipient.GetHerHim] отправиться изучать мир в поисках удачи!"

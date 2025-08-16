@@ -29,6 +29,16 @@
  action_instruct_court_mage_desc:0 "Ваш придворный маг ожидает указаний относительно использования своей магии."
  action_instruct_court_mage_click:0 "#I Щёлкните, чтобы посмотреть#!"
  
+ action_can_use_writ_of_war:0 "Writ of War"
+ action_can_use_writ_of_war_label:0 "You have an unspent [writ_of_war|E]"
+ action_can_use_writ_of_war_desc:0 "You have an unspent [writ_of_war|E].\n\n#help A [writ_of_war|E] allows waging war against [outlanders|E].\n\nIt is valid for another [GetGameTimeDifferenceForDiffDays( actor.MakeScope.VarRemaining( 'has_writ_of_war' ) )]."
+ action_can_use_writ_of_war_click:0 "#I Click to view#!"
+
+ action_open_spellbook:0 "Наложить заклинание"
+ action_open_spellbook_label:0 "You can $do_a_magic_interaction$"
+ action_open_spellbook_desc:0 "Open your Spellbook to cast a [spell|E] targeting yourself.\n\nTo target another [character|E], use the $do_a_magic_interaction$ [interaction|E] on them!\n\n#help This interaction is available because you are able to use [magic|E] or because you have employed a $court_mage_court_position$ who can cast Spells on your behalf.#!"
+ action_open_spellbook_click:0 "#I Click to view#!"
+
  action_lifestyle_magic:0 "$action_can_spend_perk_point$"
  action_lifestyle_magic_label:0 "$action_can_spend_perk_point_label$"
  action_lifestyle_magic_desc:0 "$action_can_spend_perk_point_desc$"

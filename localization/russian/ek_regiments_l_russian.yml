@@ -80,8 +80,8 @@
  dunmer_oathmen_flavor:0 "#F В Великих домах Морровинда члены высокого ранга и положения получают статус Присягнувшего - честь, которая обязывает их ответить на призыв Дома при разрешении споров и противостояниях, налагая серьезные обязательства.#!"
  ashlander_champions:0 "Воители эшлендеров"
  ashlander_champions_flavor:0 "#F У эшлендеров нет значительной военной организации, но, тем не менее, их отряды, состоящие из опытных представителей племени, возглавляемые эшханами и закаленные в пепельных бурях, с лихвой восполняют недостаток тактики своим упорством.#!"
- kagouti_riders:0 "Наездники на кагути"
- kagouti_riders_flavor:0 "#F Лошади - редкость в Морровинде, поскольку они плохо приспособлены к местности. По этой причине данмеры приручили кагути.#!"
+ nixhound_riders:0 "Nixhound Riders"
+ nixhound_riders_flavor:0 "#F Large domesticated nixhounds make for fast and agile mounts, perfect for skirmishes in Morrowind's treacherous landscape.#!"
 # Dwemeris
  dwemer_arbalesters:0 "Двемерские арбалетчики"
  dwemer_arbalesters_flavor:0 "#F Даже самый лучший воин может быть убит одним болтом. Арбалетчики умело используют свои тяжелые арбалеты для уничтожения тяжелобронированных врагов.#!"
@@ -89,9 +89,7 @@
  dwemer_centurion_flavor:0 "#F Центурион - непоколебимая машина смерти, приводимая в движение силой пара, магии и металла. Вооруженный булавой и топором, он способен отразить большинство удалённых ударов и устроить побоище в ближнем бою.#!"
  dwemer_sphere:0 "Двемерские сферы"
  dwemer_sphere_flavor:0 "#F Компактная в состоянии покоя, сфера быстро преследует врагов при обнаружении. Вооружённые миниатюрным арбалетом и пневматическим клинком, они быстро расправляются с лёгкой пехотой.#!"
- dwemer_ballistae:0 "Двемерские баллисты"
- dwemer_ballistae_flavor:0 "#F Венец двемерской механики, мобильная баллиста применяется не только во время осад, но и перестраивается во время сражений, что делает её незаменимым инструментом против крупных целей.#!"
-# Falmeris
+ # Falmeris
  knight_paladins:0 "Рыцари-паладины"
  knight_paladins_flavor:0 "#F Идеалы рыцарства прочно укоренились в фалмерских ценностях. Пройдя посвящение перед лицом божеств и присягнув своему сюзерену, лишь немногие паладины оставят без внимания призыв в битву.#!"
  nightprowlers:0 "Ночные охотники"
@@ -161,7 +159,7 @@
  khajiit_spellblades:0 "Мечники чародеи-тоджай"
  khajiit_spellblades_flavor:0 "#F Таинственные Тоджай живут глубоко в джунглях южного Эльсвейра. Они обладают склонностью к магии, а также весьма ловки и сильны.#!"
  khajiit_skirmishers:0 "Застрельщики-катай"
- khajiit_skirmishers_flavor:0 "#F Из всех пород каджитов именно катай чаще всего встречаются в Эльсвейре. Они гибкие от рождения, что отражается на их способе ведения боя.#!"
+ khajiit_skirmishers_flavor:0 "#F Из всех форм каджитов именно катай чаще всего встречаются в Эльсвейре. Они гибкие от рождения, что отражается на их способе ведения боя.#!"
  khajiit_archers:0 "Лучники-сутай"
  khajiit_archers_flavor:0 "#F И хотя сутай остаются гуманоидами, они имеют более ярко выраженные кошачьи черты, чем их другие двуногие сородичи. Благодаря острым чувствам они являются эффективными лучниками.#!"
  khajiit_pike_infantry:0 "Копейщики-ом"
@@ -201,21 +199,34 @@
  # Orsimer
  orc_marauders:0 "Орки-мародеры"
  orc_marauders_flavor:0 "#F Вооруженные изящным смертоносным оружием и облаченные с ног до головы орихалковой броней, выкованной кузнецами из орочьих крепостей, каждый из наших мародеров равен по силе сотне вражеских воинов.#!"
+
+ orc_berserkers:0 "Orc Berserkers"
+ orc_berserkers_flavor:0 "#F Orc Berserkers, from the harsh ranges of Velothi Mountains, are towering warriors clad in heavy armor. Feared for their brutal raids and immense strength, these Orcs strike terror wherever they roam.#!"
+
  orc_wood_skirmishers:0 "Орки-охотники за головами"
  orc_wood_skirmishers_flavor:0 "#F Мало что может быть страшнее, чем встреча с орками-охотниками за головами в глубине леса. Без доспехов они бегают так же быстро, как любой босмер, а сражаются так же яростно, как любой воин-орк. Ни одна добыча не может ускользнуть от них, как только они начинают охоту.#!"
+
  # Yoku
- yokudan_way_of_the_sword:0 "Певчие Меча"
- yokudan_way_of_the_sword_flavor:0 "#F Обученные в древних школах, построенных Певчими Меча, те, кто следуют Пути Мечи, стараются следовать их учениям, хотя более и не могут проявлять свой Шехай.#!"
+ yokudan_way_of_the_sword:0 "Йокуданские мастера меча"
+ yokudan_way_of_the_sword_flavor:0 "#F Обученные в древних школах, построенных певцами Меча, те, кто следуют Пути Меча, стараются следовать их учениям.#!"
  abecean_pirates:0 "Абесинские пираты"
  abecean_pirates_flavor:0 "#F Наиболее известные своими многочисленными грабежами кораблей в Абесинском море, Абесинские пираты применяют в сражениях тактику, схожую на ту, что применяется при абордаже или высадках на сушу.#!"
  
  
  #Special MaA
  daedra:0 "Даэдра"
- daedra_flavor:0 "#F Если вам доведется путешествовать, во имя Восьмерых, держитесь дорог! Дикая местность небезопасна. Повсюду видны следы. #LORE [Concept( 'compendium_daedra', 'Даэдра' )|E]#!...#!" # This is a game quote, but Nine Divines had to be altered to Eight as to fit our timeframe.
- 
- risen_dead:0 "Ходячие мертвецы"
- risen_dead_flavor:0 "#F Скелеты, зомби и другие низшие виды нежити составляют основную часть этого воинства. Они медлительны и глупы, но будут сражаться до тех пор, пока не победят, либо пока последний из них не падет.#!"
+ daedra_flavor:0 "#F Если вам доведется путешествовать, во имя Восьмерых, держитесь дорог! Дикая местность небезопасна. Повсюду видны следы. [Glossary( 'Даэдра', 'DAEDRA_GLOSS' )]...#!" # This is a game quote, but Nine Divines had to be altered to Eight as to fit our timeframe.
+
+ undead_horde:0 "Undead Horde"
+
+ maa_undead_soldiers:0 "Воины-нежить"
+ maa_undead_soldiers_flavor:0 "#F Скелеты, зомби и другие низшие виды нежити составляют основную часть этого воинства. Они медлительны и глупы, но будут сражаться до тех пор, пока не победят, либо пока последний из них не падет.#!"
+
+ maa_undead_archers:0 "Undead Archers"
+ maa_undead_archers_flavor:0 "#F Skeletons, zombies, and other low forms of undead make the bulk of these forces. They are slow and stupid, but they will fight until they either win, or their corpse is destroyed.#!"
+
+ maa_bone_colossus:0 "Bone Colossus"
+ maa_bone_colossus_flavor:0 "#F A gigantic construct build from the bones of many slain soldiers and brought into motion by a particular powerful soul. This undead giant can break through walls and shatter whole infantry formations.#!"
 
  razak_army:0 "Творение Разака"
  razak_army_flavor:0 "#F Верная армия гномов, движимая паровой тягой и пропитанная магией из камней душ, которая простоит многие века.#!"
@@ -244,15 +255,21 @@
  forest_spirits:0 "Мстительные лесные духи"
  forest_spirits_flavor:0 "#F Бесчисленное множество босмеров было убито за нарушение Зелёного пакта, и теперь их духи вернулись, чтобы отомстить живым.#!"
 
+ dreamer_prophets:0 "Dreamer Prophets"
+ dreamer_prophets_flavor:0 "#F Touched by strange dreams, these prophets speak of the imminent return of their master, and they stand ready to pave the way for him with both magic and sword.#!"
+
+ dust_adepts:0 "Dust Adepts"
+ dust_adepts_flavor:0 "#F While those mages may not openly wield elemental destruction, they are still some of Tamriel's deadliest mages - capable of suffocating even the most heavily protected enemies with just a handful of dirt.#!"
+
+ bone_walker:0 "Костяной ходок"
+ bone_walker_flavor:0 "#F Эта устрашающая конструкция является результатом тёмной некромантической магии, приносящей смерть и ужас на любое поле боя, особенно для вражеской пехоты.#!"
+
  minotaurs:0 "Минотавры"
  minotaurs_flavor:0 "#F Хотя большинство жителей Тамриэля считают минотавров дикими зверями, говорят, что те, кто поклоняются им или близким им людям, могут убедить воинов-быколюдей сражаться в их рядах.#!"
  
  bone_colossus:0 "Костяной Колосс"
  bone_colossus_flavor:0 "#F Гигантская конструкция, построенная из костей множества убитых солдат и приведенная в движение особенно могущественной душой. Этот гигант-нежить может проламывать стены и разрушать целые пехотные формирования.#!"
 
- bone_walker:0 "Костяной ходок"
- bone_walker_flavor:0 "#F Эта устрашающая конструкция является результатом тёмной некромантической магии, приносящей смерть и ужас на любое поле боя, особенно для вражеской пехоты.#!"
- 
  cultists:0 "Культисты"
  cultists_flavor:0 "#F Эти фанатики поклялись всю свою жизнь служить своему повелителю. Вооружённые грубым оружием и тёмной магией, они даже готовы вступить в бой, если того потребует их предназначение.#!"
 
