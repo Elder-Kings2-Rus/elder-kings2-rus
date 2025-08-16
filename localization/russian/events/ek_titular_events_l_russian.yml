@@ -42,7 +42,7 @@
  ektitulartitle.1401.a: "Наконец-то наш народ в безопасности."
 
  ektitulartitle.1402.t: "[barsaebica.GetNameNoTierNoTooltip] восстаёт"
- ektitulartitle.1402.desc: "Ещё в начале #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#!, более трёх тысяч лет назад, барсебические айлейды бежали в Чернотопье после #LORE [Concept( 'compendium_narfinsel_schism', 'Нарфинсельского раскола' )|E]#!. С тех пор они выживали в этой негостеприимной земле.\n\nЗа долгие века здесь правили многие барсебические владыки, но никто прежде не сумел объединить под своим знаменем весь этот край. Однако теперь [barsaebica.GetName] восстаёт под властью монарха по имени [founder.GetName], [Select_CString(founder.IsFemale, 'покорительницы', 'покорителя' )] огромных просторов, которые прежде казались многим совершенно непокорными."
+ ektitulartitle.1402.desc: "Ещё в начале #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#!, более трёх тысяч лет назад, барсебические айлейды бежали в Чернотопье после [Glossary( 'Нарфинсельского раскола', 'NARFINSEL_GLOSS' )]. С тех пор они выживали в этой негостеприимной земле.\n\nЗа долгие века здесь правили многие барсебические владыки, но никто прежде не сумел объединить под своим знаменем весь этот край. Однако теперь [barsaebica.GetName] восстаёт под властью монарха по имени [founder.GetName], [Select_CString(founder.IsFemale, 'покорительницы', 'покорителя' )] огромных просторов, которые прежде казались многим совершенно непокорными."
  ektitulartitle.1402.a: "Корона, выкованная в испытаниях..."
  
  #Nedic Confederation
@@ -53,3 +53,13 @@
  ektitulartitle.1502.t: "Возрождение Недийской конфедерации"
  ektitulartitle.1502.desc: "Со времён вторжений [Glossary( 'Ра Гада', 'RAGADA_GLOSS' )] и падения Небесного Предела, недийцы Краглорна всё никак не могли вновь обрести полную независимость и воссоединиться под властью восьми легендарных недийских королей. Сегодня же [founder.GetTitledFirstName] смеет утверждать, что является [Select_CString(founder.IsFemale, 'истинной наследницей', 'истинным наследником' )] Дюрока, объединив под своим знамением все восемь королевств."
  ektitulartitle.1502.a: "Знаем ли мы вообще, какие королевства приносили клятву Дюроку?"
+ 
+ # Restoring a Great House
+ ektitulartitle.1601.t: "A House Rebuilt"
+ ektitulartitle.1601.desc: "For untold years the civilised Dunmeri people of [Glossary( 'Resdayn', 'RESDAYN_GLOSS' )] were lead by the Great Houses, wise stewards of the Velothi ruling principles and faithful servants of the Three. Yet [restored_great_house.GetName] fell into ruin, abandoned by its brethren.\n\nToday, I have restored our House, and reclaimed its rightful seat in the [grand_council_morrowind|E]!"
+ ektitulartitle.1601.a: "Never will it fall again."
+
+ ektitulartitle.1602.t: "A House Restored"
+ ektitulartitle.1602.desc: "The very foundations of the land of the Dark Elves were shaken when one of its five Great Houses fell.\n\nNow this wrong has been made right, with the refounding of [restored_great_house.GetName] by [restorer.GetTitledFirstName], who has reclaimed their rightful seat in the [grand_council_morrowind|E]."
+ ektitulartitle.1602.a:0 "Praise the Three!"
+ ektitulartitle.1602.b:0 "Will it last?"

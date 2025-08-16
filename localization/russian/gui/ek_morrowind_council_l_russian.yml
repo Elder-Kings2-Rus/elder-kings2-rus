@@ -1,0 +1,21 @@
+﻿l_russian:
+
+
+  buy_writ_of_war_tooltip: "#T Buy a [writ_of_war|E]#! \nA Writ of War costs [gold_i][gold|E] and is valid for 5 years.\n\n#low [count|E] [title_tier|E] pays [gold_i]100, [duke|E] [title_tier|E] pays [gold_i]200, [king|E] [title_tier|E] pays [gold_i]300 while the current High Councilor of the [grand_council|E] pays [gold_i]250.\n\nWrits of War allow you to declare war on other [grand_council_members|E].#!"
+  buy_writ_of_war_tooltip_not_valid_1: "#T Buy a [writ_of_war|E]#! \nA Writ of War costs [gold_i][gold|E] and is valid for 5 years.\n\n#low [count|E] [title_tier|E] pays [gold_i]100, [duke|E] [title_tier|E] pays [gold_i]200, [king|E] [title_tier|E] pays [gold_i]300 while the current High Councilor of the [grand_council|E] pays [gold_i]250.\n\nWrits of War allow you to declare war on other [grand_council_members|E].#!\n\n#x You do not have enough [gold_i] to purchase a Writ of War!"
+  buy_writ_of_war_tooltip_not_valid_2:0 "#T Buy a [writ_of_war|E]#! \nA Writ of War costs [gold_i][gold|E] and is valid for 5 years.\n\n#low [count|E] [title_tier|E] pays [gold_i]100, [duke|E] [title_tier|E] pays [gold_i]200, [king|E] [title_tier|E] pays [gold_i]300 while the current High Councilor of the [grand_council|E] pays [gold_i]250.\n\nWrits of War allow you to declare war on other [grand_council_members|E].#!\n\n#x You already have a Writ of War!"
+  buy_writ_of_war_tooltip_not_valid_3:0 "#T Buy a [writ_of_war|E]#! \nA Writ of War costs [gold_i][gold|E] and is valid for 5 years.\n\n#low [count|E] [title_tier|E] pays [gold_i]100, [duke|E] [title_tier|E] pays [gold_i]200, [king|E] [title_tier|E] pays [gold_i]300 while the current High Councilor of the [grand_council|E] pays [gold_i]250.\n\nWrits of War allow you to declare war on other [grand_council_members|E].#!\n\n#x You cannot buy a Writ of War due to the current [situation_phase|E]!"
+  writ_of_war_cost_desc:0 "Base Cost"
+
+  outlander_stance_xenophobia_title_revocation:0 "[recipient.GetShortUIName|U] is an [outlander|E], allowing [Select_CString( actor.IsLocalPlayer, 'you', 'them' )] to revoke [Select_CString( recipient.IsLocalPlayer, 'your', recipient.GetHerHis )] [titles|E] without being viewed as a [tyrant|E] due to the current [grand_council|E] [situation_phase|E]"
+  outlander_stance_xenophobia_vassal_revocation:0 "[recipient.GetShortUIName|U] is an [outlander|E], allowing [Select_CString( actor.IsLocalPlayer, 'you', 'them' )] to revoke [Select_CString( recipient.IsLocalPlayer, 'your', recipient.GetHerHis )] [vassals|E] without being viewed as a [tyrant|E] due to the current [grand_council|E] [situation_phase|E]"
+  outlander_stance_xenophobia_imprisonment:0 "[recipient.GetShortUIName|U] is an [outlander|E], allowing [Select_CString( actor.IsLocalPlayer, 'you', 'them' )] to imprison [Select_CString( recipient.IsLocalPlayer, 'your', recipient.GetHerHim )] without being viewed as a [tyrant|E] due to the current [grand_council|E] [situation_phase|E]"
+
+#Activity loc
+  #EK TODO Morrowind_Activity improve loc for phases
+ council_meeting_phase_discussion:0 "Discuss"
+ council_meeting_phase_discussion_desc:0 "People discuss things"
+ council_meeting_phase_vote:0 "Voting"
+ council_meeting_phase_vote_desc:0 "People vote"
+ council_meeting_phase_conclusion:0 "Results of meeting"
+ council_meeting_phase_conclusion_desc:0 "View results of meeting"

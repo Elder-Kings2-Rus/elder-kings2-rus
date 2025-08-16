@@ -7,8 +7,6 @@
  county_corruption_imga_rampant_modifier_desc:0 "[county_corruption|E]\nИмга свободно разгуливают в этом [Concept('county', 'графстве')|E]."
  county_corruption_peryite_rampant_modifier:0 "Свирепствующие культисты Периайта"
  county_corruption_peryite_rampant_modifier_desc:0 "[county_corruption|E]\nКультисты Периайта свободно разгуливают в этом [Concept('county', 'графстве')|E]"
- county_corruption_exiles_rampant_modifier:0 "Свирепствующие изгнанники"
- county_corruption_exiles_rampant_modifier_desc:0 "[county_corruption|E]\nИзгнанники-эшлендеры свободно разгуливают в этом [Concept('county', 'графстве')|E]."
  county_corruption_skeever_infested_modifier:0 "Нашествие злокрысов"
  county_corruption_skeever_infested_modifier_desc:0 "[county_corruption|E]\nПопуляция злокрысов в этом [Concept('county', 'графстве')|E] вышла из-под контроля"
  county_corruption_necromancers_rampant_modifier:0 "Свирепствующие некроманты"
@@ -50,3 +48,5 @@
  withered_crops_modifier_desc:0 "Урожай в этом графстве увядает и гниёт на полях"
  corrupted_heart_modifier:0 "Осквернённое Сердце"
  corrupted_heart_modifier_desc:0 "Это графство было изменено растущим влиянием осквернённого Сердца Валенвуда."
+ 
+ akaviri_refugees_modifier: "Беженцы-акавирцы"

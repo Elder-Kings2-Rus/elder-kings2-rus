@@ -94,3 +94,8 @@
  ek_murder_outcome.0214.desc.2: "Внезапно появились атронахи всех мастей, но, как вам скажет любой даэдролог, разные элементали редко ладят друг с другом.\n\nПоскольку огненные атронахи попали в ледяные бури, а ледяные атронахи растаяли под магическим огнем, с остальными легко расправились мои стражники."
  ek_murder_outcome.0214.desc.3: "Огромный даэдрот врезался во фланг моего маленького отряда. С теми из моих стражников, которым не повезло оказаться на той стороне, было покончено быстро, но, к счастью, этот даэдрот, должно быть, был очень голоден, так как прекратил атаку и приступил к пиршеству.\n\nЧудовище отвлеклось, и мои уцелевшие стражники сумели объединиться, чтобы атаковать и уничтожить его вместе."
  ek_murder_outcome.0214.desc.4: "Одинокий воин-дремора, облаченный в даэдрические доспехи, приблизился к нам, надменно глядя на нас. Доказывая высокомерие своего народа, воин вызвал моих стражников на поединок! После невероятного поединка поборник моего народа сразил нападавшего даэдра!"
+ 
+ ek_murder_outcome.1102.t:0 "An Honorable Execution"
+ ek_murder_outcome.1102.desc:0 "A discreet message from the Master arrives, informing me that everything is in place and the agent is ready to proceed. As a customary courtesy, I am granted the final authorization to carry out the Honorable Execution of [target.GetName].\n\nContemplating the weight of this decision, I carefully weigh the implications and consequences of my choice. The fate of [target.GetName] rests in my hands, and I must decide whether to grant the final approval or to reconsider the course of action."
+ ek_murder_outcome.1102.a:0 "One signature is all it takes..."
+ ek_murder_outcome.1102.b:0 "I'll pay for an extension of the Writ."
