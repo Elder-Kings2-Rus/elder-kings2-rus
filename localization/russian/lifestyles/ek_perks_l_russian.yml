@@ -2,6 +2,8 @@
  ### Vanilla redefinitions
  # Mandatory renames
  parthian_tactics_perk_altenate_name:0 "Тактика Бьюлси"
+ firm_hand_perk_claw_name: "Твёрдый коготь"
+ firm_hand_perk_paw_name: "Твёрдая лапа"
  ### Vanilla perk tree edits
  # Diplomacy: Majesty Tree
  TRUE_RULER_PERK_BYPASS_OFFER_VASSALIZATION_REQUIREMENTS_EFFECT:0 "Можно [Concept('offer_vassalization_interaction', 'предложить вассализацию')|E] без [Concept('dynasty', 'династических')|E] связей, требуемой [Concept('innovation', 'инновации')|E] или [Concept('prestige_level', 'уровня репутации')|E]"
@@ -20,18 +22,18 @@
  OPEN_SEAS_PERK_EFFECT:0 "Открывает возможность устраивать [Concept('raid', 'налёты')|E] по морю"
  bountiful_offerings_perk_name: "Щедрые подношения"
  bountiful_offerings_perk_adventurer_name: "Обещание успеха"
- BOUNTIFUL_OFFERINGS_PERK_EFFECT:0 "[Concept('raiding', 'Набеги')|E] награждаются [piety_i][Concept('piety', 'благочестием')|E], равным полученным [Concept('gold', 'золоту')|E] и [Concept('prestige', 'престижу')|E]\nУбирает трату [Concept('piety', 'благочестия')|E] при набеге для персонажей, чья [Concept('faith', 'конфессия')|E] имеет [Concept('core_tenet', 'догмат')|E] [GetFaithDoctrine('tenet_pacifism').GetBaseName]"
+ BOUNTIFUL_OFFERINGS_PERK_EFFECT:0 "[Concept('raiding', 'Набеги')|E] с $pillage_intent$ [Concept('raid_intent', 'целью налёта')|E] награждаются [piety_i][Concept('piety', 'благочестием')|E], равным полученным [Concept('gold', 'золоту')|E] и [Concept('prestige', 'престижу')|E]\nУбирает трату [Concept('piety', 'благочестия')|E] при набеге для персонажей, чья [Concept('faith', 'конфессия')|E] имеет [Concept('core_tenet', 'догмат')|E] [GetFaithDoctrine('tenet_pacifism').GetBaseName]"
  ADVENTURER_BOUNTIFUL_OFFERINGS_PERK_EFFECT: "Разблокирует [Concept('regiment', 'полки')|E] [Concept('men_at_arms', 'профессионалов')|E] - [GetMaA('reavers').GetName]"
  hard_bitten_perk_name: "Закалка"
- prisoners_and_loot_perk_name:0 "Пленники и добыча..."
+ prisoners_and_loot_perk_name:0 "Пленники и добыча"
  PRISONERS_AND_LOOT_PERK_EFFECT:0 "Больше вероятность [Concept('imprison', 'пленить')|E] [Concept('characters', 'персонажей')|E] после успешной [Concept('siege', 'осады')|E] или [Concept('raid', 'набега')|E]"
  ADVENTURER_PRISONERS_AND_LOOT_PERK_EFFECT: "Открывает возможность [Concept('imprison', 'пленить')|E] [Concept('characters', 'персонажей')|E] при использовании [Concept('travel_option', 'варианта путешествия')|E] «[GetTravelOption('adventurers_plunder_travel_option').GetName]» и повышает вероятность того, что это произойдёт после успешной [Concept('siege', 'осады')|E]"
  whale_effect:0 "Больше вероятность [Concept('imprison', 'пленить')|E] [Concept('characters', 'персонажей')|E] после успешной [Concept('siege', 'осады')|E] или [Concept('raid', 'набега')|E]"
- loot_and_prisoners_perk_name:0 "Добыча и узники..."
- LOOT_AND_PRISONERS_PERK_EFFECT: "Увеличивает [Concept('raid_loot', 'добычу')|E], полученную после успешной [Concept('siege', 'осады')|E] или [Concept('raid', 'набега')|E]"
+ loot_and_prisoners_perk_name:0 "Добыча и узники"
+ LOOT_AND_PRISONERS_PERK_EFFECT: "Увеличивает [Concept('raid_loot', 'добычу')|E], полученную после успешной [Concept('siege', 'осады')|E] или [Concept('raid', 'набега')|E] с $pillage_intent$ [Concept('raid_intent', 'целью налёта')|E]"
  ADVENTURER_LOOT_AND_PRISONERS_PERK_EFFECT: "Увеличивает [Concept('raid_loot', 'добычу')|E], полученную при использовании [Concept('travel_option', 'варианта путешествия')|E] «[GetTravelOption('adventurers_plunder_travel_option').GetName]» и после успешной [Concept('siege', 'осады')|E]"
  tales_of_glory_perk_name: "Молва о славе"
- TALES_OF_GLORY_PERK_EFFECT: "Победа в [Concept('battle', 'битве')|E] даёт небольшое количество [dynasty_prestige_i][Concept('dynasty_prestige', 'признания')|E]"
+ TALES_OF_GLORY_PERK_EFFECT: "Победа в [Concept('battle', 'битве')|E] даёт небольшое количество [dynasty_prestige_i][Concept('dynasty_prestige', 'признания')|E]\n[Concept('raiding', 'Набеги')|E] с $pillage_intent$ [Concept('raid_intent', 'целью налёта')|E] приносят награду в виде [dynasty_prestige_i][Concept('dynasty_prestige', 'признания')|E]"
  plunderer_perk_name: "Разбойник"
  # Intrigue: Crimeboss Tree
  crimeboss_name:1 "Главарь"

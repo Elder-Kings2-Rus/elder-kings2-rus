@@ -10,6 +10,12 @@
  ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK_TARGET:0 "Цель может иметь один внебрачный [alliance|E]"
  NOT_ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK_TARGET:0 "Цель уже имеет один внебрачный [alliance|E]"
 
+ buy_writ_of_war_interaction:0 "Buy Writ of War"
+ buy_writ_of_war_interaction_desc:0 "A [writ_of_war|E] is necessary to declare [war|E] upon rulers outside of [grand_council|E]."
+ buy_writ_of_war_interaction_effect_tooltip:0 "Gain a [writ_of_war|E] usable upon rulers outside of [grand_council|E]."
+ buy_writ_of_war_interaction_cost:0 "You do not have enough [gold_i] to purchase a Writ of War!"
+ writ_of_war_expended_tooltip:0 "Writ of War Expended due to War Declaration"
+
 # Imperial Scion
 
  offer_cyrodiilic_subject_interaction:0 "Предложить стать имперским отпрыском"
@@ -102,3 +108,4 @@
  purity_arcana_good_1:0 "[GetTrait('arcana_good_1').GetName(ROOT.Char)]"
  purity_arcana_good_2:0 "[GetTrait('arcana_good_2').GetName(ROOT.Char)]"
  purity_arcana_good_3:0 "[GetTrait('arcana_good_3').GetName(ROOT.Char)]"
+ HOF_ASK_FOR_CLAIM_GREAT_HOUSE_HEAD:1 "[head_of_faith|E] will not grant any claims on [great_house_heads|E]"

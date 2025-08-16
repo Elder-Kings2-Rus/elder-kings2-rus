@@ -99,82 +99,6 @@
  ashlands_levy_size:0 "$MOD_LEVY_SIZE$ в пепельных землях"
  ashlands_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'ashlands' ).GetName]"
 
- volcanic_attrition_mult:1 "[command_modifier_i|E][attrition|E] в вулканических пепельных землях"
- volcanic_advantage:1 "[command_modifier_i|E][advantage|E] в вулканических пепельных землях"
- volcanic_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в вулканических пепельных землях"
- volcanic_max_combat_roll:1 "[command_modifier_i]Лучший [combat_roll|El] в вулканических пепельных землях"
- volcanic_min_combat_roll:1 "[command_modifier_i]Худший [combat_roll|El] в вулканических пепельных землях"
- volcanic_development_growth:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH$ в вулканических пепельных землях ([terrain|E])"
- volcanic_development_growth_factor:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в вулканических пепельных землях ([terrain|E])"
- volcanic_construction_gold_cost:0 "$MOD_CONSTRUCTION_GOLD_COST$ в вулканических пепельных землях"
- volcanic_holding_construction_gold_cost:0 "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в вулканических пепельных землях"
- volcanic_construction_piety_cost:0 "$volcanic_construction_gold_cost$"
- volcanic_holding_construction_piety_cost:0 "$volcanic_construction_gold_cost$"
- volcanic_construction_prestige_cost:0 "$volcanic_construction_gold_cost$"
- volcanic_holding_construction_prestige_cost:0 "$volcanic_construction_gold_cost$"
- volcanic_supply_limit:0 "$MOD_SUPPLY_LIMIT$ в вулканических пепельных землях"
- volcanic_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в вулканических пепельных землях"
- volcanic_tax_mult:0 "$MOD_TAX_MULT$ в вулканических пепельных землях"
- volcanic_levy_size:0 "$MOD_LEVY_SIZE$ в вулканических пепельных землях"
- volcanic_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'volcanic' ).GetName]"
-
- desert_hills_attrition_mult:1 "[command_modifier_i|E][attrition|E] в пустынных холмах"
- desert_hills_advantage:1 "[command_modifier_i|E][advantage|E] в пустынных холмах"
- desert_hills_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в пустынных холмах"
- desert_hills_max_combat_roll:1 "[command_modifier_i]Лучший [combat_roll|El] в пустынных холмах"
- desert_hills_min_combat_roll:1 "[command_modifier_i]Худший [combat_roll|El] в пустынных холмах"
- desert_hills_development_growth:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH$ в пустынных холмах ([terrain|E])"
- desert_hills_development_growth_factor:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в пустынных холмах ([terrain|E])"
- desert_hills_construction_gold_cost:0 "$MOD_CONSTRUCTION_GOLD_COST$ в пустынных холмах"
- desert_hills_holding_construction_gold_cost:0 "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в пустынных холмах"
- desert_hills_construction_piety_cost:0 "$desert_hills_construction_gold_cost$"
- desert_hills_holding_construction_piety_cost:0 "$desert_hills_construction_gold_cost$"
- desert_hills_construction_prestige_cost:0 "$desert_hills_construction_gold_cost$"
- desert_hills_holding_construction_prestige_cost:0 "$desert_hills_construction_gold_cost$"
- desert_hills_supply_limit:0 "$MOD_SUPPLY_LIMIT$ в пустынных холмах"
- desert_hills_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в пустынных холмах"
- desert_hills_tax_mult:0 "$MOD_TAX_MULT$ в пустынных холмах"
- desert_hills_levy_size:0 "$MOD_LEVY_SIZE$ в пустынных холмах"
- desert_hills_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'desert_hills' ).GetName]"
-
- mangrove_forest_attrition_mult:1 "[command_modifier_i|E][attrition|E] в мангровых лесах"
- mangrove_forest_advantage:1 "[command_modifier_i|E][advantage|E] в мангровых лесах"
- mangrove_forest_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в мангровых лесах"
- mangrove_forest_max_combat_roll:1 "[command_modifier_i]Лучший [combat_roll|El] в мангровых лесах"
- mangrove_forest_min_combat_roll:1 "[command_modifier_i]Худший [combat_roll|El] в мангровых лесах"
- mangrove_forest_development_growth:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH$ в мангровых лесах ([terrain|E])"
- mangrove_forest_development_growth_factor:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в мангровых лесах ([terrain|E])"
- mangrove_forest_construction_gold_cost:0 "$MOD_CONSTRUCTION_GOLD_COST$ в мангровых лесах"
- mangrove_forest_holding_construction_gold_cost:0 "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в мангровых лесах"
- mangrove_forest_construction_piety_cost:0 "$mangrove_forest_construction_gold_cost$"
- mangrove_forest_holding_construction_piety_cost:0 "$mangrove_forest_construction_gold_cost$"
- mangrove_forest_construction_prestige_cost:0 "$mangrove_forest_construction_gold_cost$"
- mangrove_forest_holding_construction_prestige_cost:0 "$mangrove_forest_construction_gold_cost$"
- mangrove_forest_supply_limit:0 "$MOD_SUPPLY_LIMIT$ в мангровых лесах"
- mangrove_forest_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в мангровых лесах"
- mangrove_forest_tax_mult:0 "$MOD_TAX_MULT$ в мангровых лесах"
- mangrove_forest_levy_size:0 "$MOD_LEVY_SIZE$ в мангровых лесах"
- mangrove_forest_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'mangrove_forest' ).GetName]"
-
- jungle_hills_attrition_mult:0 "[command_modifier_i|E][attrition|E] в джунглевых холмах"
- jungle_hills_cancel_negative_supply:0 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в джунглевых холмах"
- jungle_hills_advantage:0 "[command_modifier_i|E][advantage|E] в джунглевых холмах"
- jungle_hills_min_combat_roll:0 "[command_modifier_i]Лучший [combat_roll|El] в джунглевых холмах"
- jungle_hills_max_combat_roll:0 "[command_modifier_i]Худший [combat_roll|El] в джунглевых холмах"
- jungle_hills_development_growth:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH$ в джунглевых холмах ([terrain|E])"
- jungle_hills_development_growth_factor:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в джунглевых холмах ([terrain|E])"
- jungle_hills_construction_gold_cost:0 "$MOD_CONSTRUCTION_GOLD_COST$ в джунглевых холмах"
- jungle_hills_holding_construction_gold_cost:0 "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в джунглевых холмах"
- jungle_hills_construction_piety_cost:0 "$jungle_hills_construction_gold_cost$"
- jungle_hills_holding_construction_piety_cost:0 "$jungle_hills_construction_gold_cost$"
- jungle_hills_construction_prestige_cost:0 "$jungle_hills_construction_gold_cost$"
- jungle_hills_holding_construction_prestige_cost:0 "$jungle_hills_construction_gold_cost$"
- jungle_hills_supply_limit:0 "$MOD_SUPPLY_LIMIT$ в джунглевых холмах"
- jungle_hills_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в джунглевых холмах"
- jungle_hills_tax_mult:0 "$MOD_TAX_MULT$ в джунглевых холмах"
- jungle_hills_levy_size:0 "$MOD_LEVY_SIZE$ в джунглевых холмах"
- jungle_hills_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'jungle_hills' ).GetName]"
-
  valenwood_attrition_mult:1 "[command_modifier_i|E][attrition|E] в лесах Валенвуда"
  valenwood_advantage:1 "[command_modifier_i|E][advantage|E] в лесах Валенвуда"
  valenwood_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в лесах Валенвуда"
@@ -194,45 +118,6 @@
  valenwood_levy_size:0 "$MOD_LEVY_SIZE$ в лесах Валенвуда"
  valenwood_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'valenwood' ).GetName]"
 
-
- valenwood_hills_attrition_mult:1 "[command_modifier_i|E][attrition|E] в валенвудских холмах"
- valenwood_hills_advantage:1 "[command_modifier_i|E][advantage|E] в валенвудских холмах"
- valenwood_hills_cancel_negative_supply:1 "[command_modifier_i|E]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в валенвудских холмах"
- valenwood_hills_max_combat_roll:1 "[command_modifier_i|E]Лучший [combat_roll|El] в валенвудских холмах"
- valenwood_hills_min_combat_roll:1 "[command_modifier_i|E]Худший [combat_roll|El] в валенвудских холмах"
- valenwood_hills_development_growth:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH$ в валенвудских холмах ([terrain|E])"
- valenwood_hills_development_growth_factor:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в валенвудских холмах ([terrain|E])"
- valenwood_hills_construction_gold_cost:0 "$MOD_CONSTRUCTION_GOLD_COST$ в валенвудских холмах"
- valenwood_hills_holding_construction_gold_cost:0 "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в валенвудских холмах"
- valenwood_hills_construction_piety_cost:0 "$valenwood_hills_construction_gold_cost$"
- valenwood_hills_holding_construction_piety_cost:0 "$valenwood_hills_construction_gold_cost$"
- valenwood_hills_construction_prestige_cost:0 "$valenwood_hills_construction_gold_cost$"
- valenwood_hills_holding_construction_prestige_cost:0 "$valenwood_hills_construction_gold_cost$"
- valenwood_hills_supply_limit:0 "$MOD_SUPPLY_LIMIT$ в валенвудских холмах"
- valenwood_hills_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в валенвудских холмах"
- valenwood_hills_tax_mult:0 "$MOD_TAX_MULT$ в валенвудских холмах"
- valenwood_hills_levy_size:0 "$MOD_LEVY_SIZE$ в валенвудских холмах"
- valenwood_hills_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'valenwood_hills' ).GetName]"
-
- wasteland_attrition_mult:1 "[command_modifier_i|E][attrition|E] в пустошах"
- wasteland_advantage:1 "[command_modifier_i|E][advantage|E] в пустошах"
- wasteland_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в пустошах"
- wasteland_max_combat_roll:1 "[command_modifier_i]Лучший [combat_roll|El] в пустошах"
- wasteland_min_combat_roll:1 "[command_modifier_i]Худший [combat_roll|El] в пустошах"
- wasteland_development_growth:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH$ в пустошах ([terrain|E])"
- wasteland_development_growth_factor:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в пустошах ([terrain|E])"
- wasteland_construction_gold_cost:0 "$MOD_CONSTRUCTION_GOLD_COST$ в пустошах"
- wasteland_holding_construction_gold_cost:0 "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в пустошах"
- wasteland_construction_piety_cost:0 "$wasteland_construction_gold_cost$"
- wasteland_holding_construction_piety_cost:0 "$wasteland_construction_gold_cost$"
- wasteland_construction_prestige_cost:0 "$wasteland_construction_gold_cost$"
- wasteland_holding_construction_prestige_cost:0 "$wasteland_construction_gold_cost$"
- wasteland_supply_limit:0 "$MOD_SUPPLY_LIMIT$ в пустошах"
- wasteland_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в пустошах"
- wasteland_tax_mult:0 "$MOD_TAX_MULT$ в пустошах"
- wasteland_levy_size:0 "$MOD_LEVY_SIZE$ в пустошах"
- wasteland_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'wasteland' ).GetName]"
-
  tundra_attrition_mult:1 "[command_modifier_i|E][attrition|E] в ледниковой тундре"
  tundra_advantage:1 "[command_modifier_i|E][advantage|E] в ледниковой тундре"
  tundra_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в ледниковой тундре"
@@ -251,25 +136,6 @@
  tundra_tax_mult:0 "$MOD_TAX_MULT$ в ледниковой тундре"
  tundra_levy_size:0 "$MOD_LEVY_SIZE$ в ледниковой тундре"
  tundra_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'tundra' ).GetName]"
-
- taiga_hills_attrition_mult:1 "[command_modifier_i|E][attrition|E] в таёжных холмах"
- taiga_hills_advantage:1 "[command_modifier_i|E][advantage|E] в таёжных холмах"
- taiga_hills_cancel_negative_supply:1 "[command_modifier_i]Снято ограничение на [Concept( 'supply_limit', 'максимум припасов' )|El] в таёжных холмах"
- taiga_hills_max_combat_roll:1 "[command_modifier_i]Лучший [combat_roll|El] в таёжных холмах"
- taiga_hills_min_combat_roll:1 "[command_modifier_i]Худший [combat_roll|El] в таёжных холмах"
- taiga_hills_development_growth:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH$ в таёжных холмах ([terrain|E])"
- taiga_hills_development_growth_factor:0 "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ в таёжных холмах ([terrain|E])"
- taiga_hills_construction_gold_cost:0 "$MOD_CONSTRUCTION_GOLD_COST$ в таёжных холмах"
- taiga_hills_holding_construction_gold_cost:0 "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ в таёжных холмах"
- taiga_hills_construction_piety_cost:0 "$taiga_hills_construction_gold_cost$"
- taiga_hills_holding_construction_piety_cost:0 "$taiga_hills_construction_gold_cost$"
- taiga_hills_construction_prestige_cost:0 "$taiga_hills_construction_gold_cost$"
- taiga_hills_holding_construction_prestige_cost:0 "$taiga_hills_construction_gold_cost$"
- taiga_hills_supply_limit:0 "$MOD_SUPPLY_LIMIT$ в таёжных холмах"
- taiga_hills_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ в таёжных холмах"
- taiga_hills_tax_mult:0 "$MOD_TAX_MULT$ в таёжных холмах"
- taiga_hills_levy_size:0 "$MOD_LEVY_SIZE$ в таёжных холмах"
- taiga_hills_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'taiga_hills' ).GetName]"
 
  black_marsh_attrition_mult:1 "[command_modifier_i|E][attrition|E] в Чернотопье"
  black_marsh_advantage:1 "[command_modifier_i|E][advantage|E] в Чернотопье"
@@ -296,15 +162,8 @@
  ## Travel
 
  ashlands_travel_danger:0 "[Concept( 'travel_danger', 'Опасность' )|E]: [GetTerrain( 'ashlands' ).GetName]"
- volcanic_travel_danger:0 "[Concept( 'travel_danger', 'Опасность' )|E]: [GetTerrain( 'volcanic' ).GetName]"
- desert_hills_travel_danger:0 "[Concept( 'travel_danger', 'Опасность' )|E]: [GetTerrain( 'desert_hills' ).GetName]"
- mangrove_forest_travel_danger:0 "[Concept( 'travel_danger', 'Опасность' )|E]: [GetTerrain( 'mangrove_forest' ).GetName]"
- jungle_hills_travel_danger:0 "[Concept( 'travel_danger', 'Опасность' )|E]: [GetTerrain( 'jungle_hills' ).GetName]"
  valenwood_travel_danger:0 "[Concept( 'travel_danger', 'Опасность' )|E]: [GetTerrain( 'valenwood' ).GetName]"
- valenwood_hills_travel_danger:0 "[Concept( 'travel_danger', 'Опасность' )|E]: [GetTerrain( 'valenwood_hills' ).GetName]"
- wasteland_travel_danger:0 "[Concept( 'travel_danger', 'Опасность' )|E]: [GetTerrain( 'wasteland' ).GetName]"
  tundra_travel_danger:0 "[Concept( 'travel_danger', 'Опасность' )|E]: [GetTerrain( 'tundra' ).GetName]"
- taiga_hills_travel_danger:0 "[Concept( 'travel_danger', 'Опасность' )|E]: [GetTerrain( 'taiga_hills' ).GetName]"
  black_marsh_travel_danger:0 "[Concept( 'travel_danger', 'Опасность' )|E]: [GetTerrain( 'black_marsh' ).GetName]"
 
  ### Governments
@@ -367,11 +226,35 @@
  model_business:0 "Образцовый бизнес"
  model_business_desc:0 "Владения этого персонажа являются примером отличной организации."
 
+ political_edge:0 "Политическое преимущество"
+ political_edge_desc:0 "Мы доказали, что являемся клинков, которое ломает более слабые лезвия — Домом, которому лучше отдать желаемое, прежде чем он заберёт то, что ему причитается по праву."
+
  conspirators_exposed:0 "Заговорщики разоблачены"
  conspirators_exposed_desc:0 "Этот персонаж разоблачил замышляющих против него заговорщиков."
 
  fervent_priesthood:0 "Пылкое жречество"
  fervent_priesthood_desc:0 "Жрецы просто превозносят этого персонажа."
+ 
+ promises_to_the_priesthood:0 "Невыполненные обещания духовенству"
+
+ insufferable_glory_hound:0 "Совершенно невыносимый охотник за славой"
+ insufferable_glory_hound_desc:0 "Этот персонаж известен своей манией величия."
+
+ overworked_house_guard:0 "Изнурённая стража дома"
+ overworked_house_guard_desc:0 "Стража этого дома там много работает, что находится на грани истощения."
+
+ labyrinthine_management:0 "Замудрёное управление"
+ labyrinthine_management_desc:0 "Трудно понять, как именно этот персонаж управляет своими землями."
+
+ indiscreet_plots:0 "Неосторожные заговоры"
+
+ incompetent_politician:0 "Некомпетентный политик"
+
+ insolvent_politician:0 "Банкрот-политик"
+
+ contrite_politician:0 "Раскаявшийся политик"
+
+ bad_kinsman:0 "Плохой родственник"
  
  ## Attrebus vs Potentate
  attrebus_opened_temple_district:0 "Открыт Храмовый район"
@@ -500,8 +383,16 @@
  city_of_the_orcs:0 "Столица орков"
 
  orsinium_mountain_orc_advantage:0 "Защитники Орсиниума"
- orsinium_mountain_orc_advantage_desc:0 "Теперь, когда горные орки отвоевали или восстановили город Орсиниум, они готовы защищать его до смерти.\nМиллионы бретонцев, нордов и редгардов могут идти на него, и миллионы бретонцев, нордов и редгардов будут отбиты.\n\n#weak Примечание: Этот модификатор применяется к каждой провинции, которая является как де-юре, так и де-факто вассалом королевства Орсиниум. За каждое герцогство, которое считается де-юре вассалом Орсиниума, этот модификатор теряет по одному множителю, начиная с 5 множителей.#!"
+ orsinium_mountain_orc_advantage_desc:0 "Теперь, когда горные орки отвоевали или восстановили город Орсиниум, они готовы защищать его до смерти.\nМиллионы бретонцев, нордов и редгардов могут идти на него, и миллионы бретонцев, нордов и редгардов будут отбиты.\n\n#weak Примечание: Этот модификатор применяется к каждой провинции, которая является как [de_jure|El], так и де-факто вассалом королевства Орсиниум. За каждое герцогство, которое считается [de_jure|El] вассалом Орсиниума, этот модификатор теряет по одному множителю, начиная с 5 множителей.#!"
 
+ ### Unmourned blood
+ unmourned_blood_dynasty_modifier: "Кровь неоплаканных"
+ unmourned_blood_dynasty_modifier_desc: "У этой династии есть какие-то проблемы с родословной, но истинная природа этого отклонения остаётся тайной."
+
+ ### Scarab blood
+ scarab_blood_dynasty_modifier: "Кровь скарабея"
+ scarab_blood_dynasty_modifier_desc: "Эта династия ведёт свой род от проклятого Шестого Великого Дома — Дома Дагот. Раскрыв истину своего происхождения, они обрели пугающую силу и отныне почитаются другими культистами."
+ 
  ### Autocracy
  autocracy_county_opinion:0 "Народное мнение (Автократия)" # ek_governments_l_russian.yml ещё не переведен, так что локализация Autocracy может поменяться
  #autocracy_county_opinion_desc:0 "In an [autocracy|E], the relationship between local land owners or city mayors and the [count|E] is as important as the relationship between a vassal and their liege. A ruler upsetting the local ruling class will slowly lose [control|E] over the [county|E], and may even be barred from interacting with it depending on their [crown_authority|E].\n#italic Note: Each point of [county_opinion|E] #P above#! or #N below#! 0 will give #P +#!/#N -#! #V 0.01 [control|E] Growth#!, up to #P +0.5#!/#N -0.5#!. This modifier is updated once per year at a random month for the AI, and once per month for players.#!"
@@ -574,7 +465,7 @@
  damage_health:0 "Подорванное магией здоровье"
 
  viles_pity:0 "Справедливая сделка"
- viles_pity_desc:0 "Клавикус Вайл заключил с вами сделку из жалости. Тайно посвятив себя ему, вы получили от #LORE [Concept( 'compendium_daedric_princes', 'даэдрического князя' )|E]#! сделок благословение, чтобы облегчить отношение других к вам."
+ viles_pity_desc:0 "Клавикус Вайл заключил с вами сделку из жалости. Тайно посвятив себя ему, вы получили от [Glossary( 'даэдрического князя', 'DAEDRA_GLOSS' )] сделок благословение, чтобы облегчить отношение других к вам."
  insulted_tribals:0 "Оскорбление чужеземцев"
  insulted_tribals_desc:0 "Вы не вернули шкурки их законным владельцам."
  pleased_tribals:0 "Уважение к чужеземцам"
@@ -605,6 +496,11 @@
  royal_revelry_desc:0 "Вы создаёте иллюзорные шутихи на потеху населению этого графства."
  emboldened_outcasts:0 "Укрепившиеся изгои"
  emboldened_outcasts_desc:0 "Изгои укрепились в этом графстве, распространяя инакомыслие и снижая мнение народа о правителе."
+ karvinasim:0 "Карвиназим"
+ karvinasim_desc:0 "Этот графство страдает от нашествия сухопутных дреугов, которые стали куда более территориальными в период своей трансформации."
+ hearth_dust_outbreak:0 "Вспышка очаговой пыли"
+ hearth_dust_outbreak_desc:0 "Один раб заболевает. Но он спит в ужасных условиях среди десятков других рабов на голом полу и очень скоро становится источником болезни, распространяющейся с пугающей скоростью."
+ bustling_commerce:0 "Оживлённая торговля"
  emboldened_maniacs:0 "Укрепившиеся маньяки"
  emboldened_maniacs_desc:0 "Маньяки укрепились в этом графстве, распространяя инакомыслие и снижая мнение народа о правителе."
  emboldened_fornicators:0 "Укрепившиеся блудники"
@@ -915,15 +811,6 @@
  tribal_expected_level_of_fame_above_1:0 "$tribal_expected_level_of_fame_above$ (1)"
  tribal_expected_level_of_fame_above_1_desc:0 "$tribal_expected_level_of_fame_above_desc$"
 
- ### Feudals
- feudal_ruler_control_growth_ca_0:0 "Централизация державы - $crown_authority_0_feudal$"
- feudal_ruler_control_growth_ca_1:0 "Централизация державы - $crown_authority_1_feudal$"
- feudal_ruler_control_growth_ca_2:0 "Централизация державы - $crown_authority_2_feudal$"
- feudal_ruler_control_growth_ca_3:0 "Централизация державы - $crown_authority_3_feudal$"
-
- itinerant_court_modifier:0 "Странствующий двор"
- itinerant_court_modifier_desc:0 "В этом графстве в настоящее время проживает правитель, его семья, а также его двор. Присутствие правителя обеспечивает лояльность местных подданных и землевладельцев, но ожидается, что через несколько лет он уедет, прихватив с собой двор и семью."
-
  ### Artifact-Related
  verity_worthy:0 "Достойный"
  verity_worthy_desc:0 "Этот персонаж был признан достойным Короной Истинности"
@@ -955,6 +842,8 @@
  friend_prowess_gain_modifier_desc:0 "Этот персонаж получает поддержку со стороны своих друзей"
 
  focused_support_modifier:0 "Целенаправленная поддержка"
+ focused_undermine_modifier:0 "Целенаправленный подрыв"
+ raised_suspicions_modifier:0 "Возросшие подозрения"
  hostile_house_members_modifier:0 "Враждебные члены дома"
  cooperative_house_members_modifier:0 "Сотрудничающие члены дома"
  formal_complaints_modifier:0 "Официальные жалобы"
@@ -964,7 +853,7 @@
  great_efforts_modifier:0 "Великие усилия"
  untapped_mining_rights:0 "Неиспользованные права на добычу"
  suspicious_investigators_modifier:0 "Испытывающие подозрение следователи"
- almsivi_every_hour:0 "АЛЬМСИВИ каждый час"
+ almsivi_every_hour:0 "[Glossary( 'АЛЬМСИВИ', 'TRIBUNAL_GLOSS' )] каждый час"
  cleared_backlogs_modifier:0 "Завершённые накопленные дела"
  useless_busywork_modifier:0 "Бесполезная рутинная работа"
  creative_methods_modifier:0 "Творческие методы"
@@ -977,10 +866,9 @@
  baseless_rumors_modifier:0 "Беспочвенные слухи"
  reliable_informants_modifier:0 "Надёжные информаторы"
  hire_assassin_modifier:0 "Нанятый ассасин"
- morag_tong_hired:0 "Нанятый ассасин из Мораг Тонг"
+ morag_tong_hired:0 "[writ_of_execution|E]"
  db_hired:0 "Нанятое Тёмное Братство"
  assassin_hired:0 "Нанятый обычный убийца"
- subdued_sea_ghosts_modifier:0 "Подчинение опасных морских призраков"
  winged_goddess_eccentric_modifier:0 "Необычное мышление"
  winged_goddess_eccentric_modifier_desc:0 "Этот персонаж оказался весьма изобретательным в сложных ситуациях"
  winged_goddess_brave_modifier:0 "Доказанное мужество"
@@ -1009,6 +897,18 @@
  skeever_in_provisions_modifier_desc: "Этот персонаж страдает от злокрысов, которые гнездятся в припасах лагеря."
  skeever_traps_modifier: "Ловушки на злокрысов"
  skeever_traps_modifier_desc: "Этот персонаж окружил весь свой лагерь ловушками на злокрысов."
+ tong_associates:0 "Партнёры Мораг Тонг"
+ valued_client:0 "Мораг Тонг: Ценный клиент"
+ morag_bribe:0 "Мораг Тонг подкуплены"
+ morag_upset:0 "Мораг Тонг недовольны"
+ morag_compromised:0 "Мораг Тонг скомпрометированы"
+ subdued_sea_ghosts_modifier:0 "Усмирённые морские призраки"
+ 
+ mephalic_boon_1:0 "Мефальский дар Мораг Тонг"
+ mephalic_boon_2:0 "Мефальский дар Мораг Тонг"
+ mephalic_boon_3:0 "Мефальский дар Мораг Тонг"
+ mephalic_boon_4:0 "Мефальский дар Мораг Тонг"
+ tears_of_amaya:0 "Производство Слёз Амаи"
 
  lauded_faction_leader:0 "Признанный лидер фракции"
  lauded_faction_leader_desc:0 "Этот персонаж привёл фракцию к независимости и пользуется полной поддержкой своего народа."
@@ -1017,29 +917,17 @@
  cazuras_potentate_attention_modifier_desc:0 "Этот персонаж открыто провозгласил себя наследником #LORE [Concept('compendium_akaviri_potentate', 'Акавирского потентата')|E]#!, что придаёт его словам определённый вес, но также привлекает нежелательное внимание."
 
  mundus_apprentice_modifier:0 "Благословение Ученика"
-
  mundus_atronach_modifier:0 "Благословение Атронаха"
-
  mundus_lady_modifier:0 "Благословение Леди"
-
  mundus_lord_modifier:0 "Благословение Лорда"
-
  mundus_lover_modifier:0 "Благословение Любовника"
-
  mundus_ritual_modifier:0 "Благословение Ритуала"
-
  mundus_serpent_modifier:0 "Благословение Змеи"
-
  mundus_shadow_modifier:0 "Благословение Тени"
-
  mundus_steed_modifier:0 "Благословение Коня"
-
  mundus_thief_modifier:0 "Благословение Вора"
-
  mundus_tower_modifier:0 "Благословение Башни"
-
  mundus_warrior_modifier:0 "Благословение Воина"
- 
  mundus_mage_modifier:0 "Благословение Мага"
  mundus_mage_modifier_desc:0 "[arcana|E]: [arcana_i]#P +1# "
   

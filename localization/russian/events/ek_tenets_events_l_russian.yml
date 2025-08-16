@@ -180,3 +180,19 @@
  ek_tenets.0056.fickle:0 "Обладание чертой [GetTrait('fickle').GetName( GetPlayer )] теперь будет считаться греховным"
  ek_tenets.0056.vengeful:0 "Обладание чертой [GetTrait('vengeful').GetName( GetPlayer )] теперь будет считаться греховным"
  ek_tenets.0056.forgiving:0 "Обладание чертой [GetTrait('forgiving').GetName( GetPlayer )] теперь будет считаться греховным"
+ 
+ ek_tenets.0060.t:0 "The Blood of My House"
+ ek_tenets.0060.desc:0 "The voice that spoke to me in dreams, the drumming and hissing within me older even than music. I know now that it is His voice, and He speaks through me now in words like a knife's edge.\n\nLike a cauterizing flame, nothing shall remain of me except that which serves a holy purpose, nothing save the precious blood of House Dagoth.\n\nMine shall be the flesh and blood of [Glossary( 'Resdayn', 'RESDAYN_GLOSS' )], resculpted in His divine image."
+ ek_tenets.0060.a:0 "Glory to the Tribe Unmourned!"
+
+ ek_tenets.0061.t:0 "Escaping My Blood"
+ ek_tenets.0061.desc:0 "Have I always been on the run? Running from something within me? For once, it seems like I have put distance between me and myself, between that other within my blood that responds to a different name and asks me to do monstrous things.\n\nBut at what cost have I removed this influence from myself?\n\nMuch within me feels empty, like gaping wounds through which I ripped out that malign influence. And yet, in my blood, quieter now but far from gone, it waits."
+ ek_tenets.0061.a:0 "Nevertheless, I am free at last."
+
+ #Same title as 0061
+ ek_tenets.0062.desc: "With the death of [last_dagoth.GetName], the thread of prophecy has at last been buried. The affliction which cursed our family, that legacy of loyalty to the demon Dagoth, has at last been cleansed, and we can walk [Glossary( 'Resdayn', 'RESDAYN_GLOSS' )] in peace."
+ ek_tenets.0062.a: "But the stain may never leave our house..."
+ ek_tenets.0062.b: "No! We shall resume our legacy!"
+ ek_tenets.0063.desc: "[last_dagoth.GetName] has ceased to hear the poison song, and at last tied off the thread of prophecy. The affliction which cursed our family, that legacy of loyalty to the demon Dagoth, has at last been cleansed, and we can walk [Glossary( 'Resdayn', 'RESDAYN_GLOSS' )] in peace."
+ ek_tenets.0063.a: "But the stain may never leave our house..."
+ ek_tenets.0063.b: "No! We shall resume our legacy!"
