@@ -39,6 +39,6 @@
  invalidated_laamp_help_increase_control_contract: "Квест «[GetTaskContractType('laamp_help_increase_control_contract').GetName]»"
  invalidated_laamp_base_4100: "Квест «[GetTaskContractType('laamp_base_4100').GetName]»"
  
- ep3_contract_event.0565.desc.failure: "В ушах всё еще звенят вопли, грохот брошенных стульев, звон разбитой посуды, глухие звуки ударов… Я яростно оттираю руки, но вода не сможет смыть с меня позор неудачи.\n\nЭто катастрофа. [councillor.GetTitledFirstName|U] [Select_CString(councillor.IsFemale, 'жива', 'жив' )], квест провален, [task_contract_employer.GetTitledFirstName], должно быть, в ярости. Лучше убраться подальше отсюда, пока кто-то из них не решил отомстить."
+ ep3_contract_event.0565.desc.failure: "В ушах всё еще звенят вопли, грохот брошенных стульев, звон разбитой посуды, глухие звуки ударов… Я яростно оттираю ладони, но вода не сможет смыть с меня позор неудачи.\n\nЭто катастрофа. [councillor.GetTitledFirstName|U] [Select_CString(councillor.IsFemale, 'жива', 'жив' )], квест провален, [task_contract_employer.GetTitledFirstName], должно быть, в ярости. Лучше убраться подальше отсюда, пока кто-то из них не решил отомстить."
  ep3_contract_event.0581.a: "Я [Select_CString(ROOT.Char.IsFemale, 'заключила', 'заключил' )] квест, и я его выполню."
  ep3_contract_event.0581.b: "Заманчивое предложение…"
