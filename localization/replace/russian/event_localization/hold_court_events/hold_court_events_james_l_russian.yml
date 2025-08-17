@@ -1,2 +1,2 @@
 ﻿l_russian:
- hold_court.7020.desc.mid.recent_war: "Your lands have been violated by [threatening_ruler.GetPrimaryTitle.GetAdjectiveNoTooltip|U] [threatening_ruler.Custom('HandsClawsPaws')], and [ROOT.Char.GetFaith.HighGodNamePossessive|U] temples burned."
+ hold_court.7020.desc.mid.recent_war: "[threatening_ruler.GetPrimaryTitle.GetNameNoTooltip|U] оскверняет ваши края. Храмы [ROOT.Char.GetFaith.HighGodNamePossessive|U] сожжены."
