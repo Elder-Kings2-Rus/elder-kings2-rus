@@ -25,10 +25,10 @@
  became_disrupted_memory_desc_second_perspective:1 "вы были насильственно истощены персонажем [disruptor.GetTitledFirstName], так что ваши магические способности навсегда останутся ограниченными"
  became_disrupted_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'была', 'был' )] насильственно [Select_CString(owner.IsFemale, 'истощена', 'истощён' )] персонажем [disruptor.GetTitledFirstName], так что [owner.GetHerHis] магические способности навсегда останутся ограниченными"
 
- became_necromancer_memory:0 "Became Necromancer"
- became_necromancer_memory_desc:0 "I unlocked the secrets of necromancy"
- became_necromancer_memory_desc_second_perspective:1 "you unlocked the secrets of necromancy"
- became_necromancer_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] unlocked the secrets of necromancy"
+ became_necromancer_memory:0 "Становление некромантом"
+ became_necromancer_memory_desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'раскрыла', 'раскрыл' )] тайны некромантии"
+ became_necromancer_memory_desc_second_perspective:1 "вы раскрыли тайны некромантии"
+ became_necromancer_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'раскрыла', 'раскрыл' )] тайны некромантии"
 
  became_lich_memory:0 "Становление личом"
  became_lich_memory_desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'стала', 'стал' )] личом с помощью великого тёмного ритуала."

@@ -80,8 +80,8 @@
  dunmer_oathmen_flavor:0 "#F В Великих домах Морровинда члены высокого ранга и положения получают статус Присягнувшего - честь, которая обязывает их ответить на призыв Дома при разрешении споров и противостояниях, налагая серьезные обязательства.#!"
  ashlander_champions:0 "Воители эшлендеров"
  ashlander_champions_flavor:0 "#F У эшлендеров нет значительной военной организации, но, тем не менее, их отряды, состоящие из опытных представителей племени, возглавляемые эшханами и закаленные в пепельных бурях, с лихвой восполняют недостаток тактики своим упорством.#!"
- nixhound_riders:0 "Nixhound Riders"
- nixhound_riders_flavor:0 "#F Large domesticated nixhounds make for fast and agile mounts, perfect for skirmishes in Morrowind's treacherous landscape.#!"
+ nixhound_riders:0 "Наездники на никс-гончих"
+ nixhound_riders_flavor:0 "#F Крупные одомашненные никс-гончие - быстрые и проворные скакуны, идеально подходящие для стычек в коварных ландшафтах Морровинда.#!"
 # Dwemeris
  dwemer_arbalesters:0 "Двемерские арбалетчики"
  dwemer_arbalesters_flavor:0 "#F Даже самый лучший воин может быть убит одним болтом. Арбалетчики умело используют свои тяжелые арбалеты для уничтожения тяжелобронированных врагов.#!"
@@ -200,8 +200,8 @@
  orc_marauders:0 "Орки-мародеры"
  orc_marauders_flavor:0 "#F Вооруженные изящным смертоносным оружием и облаченные с ног до головы орихалковой броней, выкованной кузнецами из орочьих крепостей, каждый из наших мародеров равен по силе сотне вражеских воинов.#!"
 
- orc_berserkers:0 "Orc Berserkers"
- orc_berserkers_flavor:0 "#F Orc Berserkers, from the harsh ranges of Velothi Mountains, are towering warriors clad in heavy armor. Feared for their brutal raids and immense strength, these Orcs strike terror wherever they roam.#!"
+ orc_berserkers:0 "Орки-берсерки"
+ orc_berserkers_flavor:0 "#F Орки-берсерки, происходящие из суровых Велотийских гор, - это могучие воины, закованные в тяжёлые доспехи. Эти орки, которых боятся за их жестокие набеги и огромную силу, наводят ужас везде, где они бродят.#!"
 
  orc_wood_skirmishers:0 "Орки-охотники за головами"
  orc_wood_skirmishers_flavor:0 "#F Мало что может быть страшнее, чем встреча с орками-охотниками за головами в глубине леса. Без доспехов они бегают так же быстро, как любой босмер, а сражаются так же яростно, как любой воин-орк. Ни одна добыча не может ускользнуть от них, как только они начинают охоту.#!"
@@ -217,16 +217,16 @@
  daedra:0 "Даэдра"
  daedra_flavor:0 "#F Если вам доведется путешествовать, во имя Восьмерых, держитесь дорог! Дикая местность небезопасна. Повсюду видны следы. [Glossary( 'Даэдра', 'DAEDRA_GLOSS' )]...#!" # This is a game quote, but Nine Divines had to be altered to Eight as to fit our timeframe.
 
- undead_horde:0 "Undead Horde"
+ undead_horde:0 "Орда нежити"
 
  maa_undead_soldiers:0 "Воины-нежить"
  maa_undead_soldiers_flavor:0 "#F Скелеты, зомби и другие низшие виды нежити составляют основную часть этого воинства. Они медлительны и глупы, но будут сражаться до тех пор, пока не победят, либо пока последний из них не падет.#!"
 
- maa_undead_archers:0 "Undead Archers"
- maa_undead_archers_flavor:0 "#F Skeletons, zombies, and other low forms of undead make the bulk of these forces. They are slow and stupid, but they will fight until they either win, or their corpse is destroyed.#!"
+ maa_undead_archers:0 "Лучники-нежить"
+ maa_undead_archers_flavor:0 "#F Скелеты, зомби и другие низшие виды нежити составляют основную часть этого воинства. Они медлительны и глупы, но будут сражаться до тех пор, пока не победят, либо пока последний из них не падет.#!"
 
- maa_bone_colossus:0 "Bone Colossus"
- maa_bone_colossus_flavor:0 "#F A gigantic construct build from the bones of many slain soldiers and brought into motion by a particular powerful soul. This undead giant can break through walls and shatter whole infantry formations.#!"
+ maa_bone_colossus:0 "Костяной колосс"
+ maa_bone_colossus_flavor:0 "#F Гигантская конструкция, созданная из костей множества убитых солдат и приведённая в движение особой могущественной душой. Эта огромная нежить может проламывать стены и сметать целые ряды пехоты.#!"
 
  razak_army:0 "Творение Разака"
  razak_army_flavor:0 "#F Верная армия гномов, движимая паровой тягой и пропитанная магией из камней душ, которая простоит многие века.#!"
@@ -255,11 +255,11 @@
  forest_spirits:0 "Мстительные лесные духи"
  forest_spirits_flavor:0 "#F Бесчисленное множество босмеров было убито за нарушение Зелёного пакта, и теперь их духи вернулись, чтобы отомстить живым.#!"
 
- dreamer_prophets:0 "Dreamer Prophets"
- dreamer_prophets_flavor:0 "#F Touched by strange dreams, these prophets speak of the imminent return of their master, and they stand ready to pave the way for him with both magic and sword.#!"
+ dreamer_prophets:0 "Пророки-сновидцы"
+ dreamer_prophets_flavor:0 "#F Охваченные странными снами, эти пророки говорят о скором возвращении своего повелителя и готовы проложить ему путь как магией, так и мечом.#!"
 
- dust_adepts:0 "Dust Adepts"
- dust_adepts_flavor:0 "#F While those mages may not openly wield elemental destruction, they are still some of Tamriel's deadliest mages - capable of suffocating even the most heavily protected enemies with just a handful of dirt.#!"
+ dust_adepts:0 "Адепты пепла"
+ dust_adepts_flavor:0 "#F Хотя эти маги, возможно, и не владеют стихийным разрушением открыто, они по-прежнему являются одними из самых смертоносных магов Тамриэля - они способны задушить даже самых защищенных врагов всего лишь горстью грязи.#!"
 
  bone_walker:0 "Костяной ходок"
  bone_walker_flavor:0 "#F Эта устрашающая конструкция является результатом тёмной некромантической магии, приносящей смерть и ужас на любое поле боя, особенно для вражеской пехоты.#!"

@@ -217,14 +217,14 @@
 
  # Sancre Tor
  building_type_sancre_tor_01:0 "Санкр Тор"
- building_type_sancre_tor_01_desc:0 "A city built on the face of the mountain, Sancre Tor has been the holy site for Cyrodiils since Emperor Reman's ascension. It is here that he was born from the union of Alessia and Hrol, and it is here where he and his descendants were buried."
+ building_type_sancre_tor_01_desc:0 "Город, построенный на склоне горы, Санкр-Тор был священным местом для сиродильцев со времён восшествия на престол императора Ремана. Именно здесь он родился от союза Алессии и Хрола, и именно здесь он и его потомки были похоронены."
  building_sancre_tor_01:0 "$building_type_sancre_tor_01$ (Осквернённый)"
- building_sancre_tor_01_desc:0 "$building_type_sancre_tor_01_desc$\n\nHowever, the Interregnum weakened the protectors of the holy city, and it was taken over by the necromancers. The ancient tombs beneath it now harbor nameless horrors, and the dark magic haunting this once-sacred place stands as a stark reminder of the Empire’s current weakness."
+ building_sancre_tor_01_desc:0 "$building_type_sancre_tor_01_desc$\n\nОднако Междуцарствие ослабило защитников священного города, и он был захвачен некромантами. Древние гробницы под ним теперь таят в себе безымянные ужасы, а тёмная магия, царящая в этом некогда священном месте, служит суровым напоминанием о нынешней слабости Империи."
  building_sancre_tor_02: "$building_type_sancre_tor_01$"
- building_sancre_tor_02_desc: "$building_type_sancre_tor_01_desc$\n\nWhile the 'Golden Hill' is far from its former glory under the Reman emperors, it remains one of the most important and sacred cities in Colovia, attracting pilgrims from all over Cyrodiil."
+ building_sancre_tor_02_desc: "$building_type_sancre_tor_01_desc$\n\nХотя «Золотой холм» и утратил былую славу, которой обладал при императорах из династии Ремана, он остаётся одним из самых важных и священных городов Коловии, привлекая паломников со всего Сиродила."
  building_sancre_tor_03:0 "$building_type_sancre_tor_01$"
- building_sancre_tor_03_desc:0 "$building_type_sancre_tor_01_desc$\n\nWith the mantle of The Cyrodiil reclaimed, the Sancre Tor was restored to its past glory. Faithful from all around the Empire travel to the city to pay their respects to emperors, both old and new."
- cyrodiil_restored_requirement: "You or your [liege|E] hold one of the following titles: [GetTitleByKey('e_cyrodiil').GetNameNoTier], [GetTitleByKey('e_cyrodiilic_potentate').GetNameNoTier] or [GetTitleByKey('e_tamriel').GetNameNoTier]"
+ building_sancre_tor_03_desc:0 "$building_type_sancre_tor_01_desc$\n\nС укреплением власти Сиродила к Санкр Тору вернулась его былая слава. Верующие со всей империи приезжают в город, чтобы засвидетельствовать своё почтение императорам, как к древним, так и новым."
+ cyrodiil_restored_requirement: "Вы или ваш [Concept('liege', 'сюзерен')|E] владеете одним из следующих титулов: [GetTitleByKey('e_cyrodiil').GetNameNoTier], [GetTitleByKey('e_cyrodiilic_potentate').GetNameNoTier] или [GetTitleByKey('e_tamriel').GetNameNoTier]"
 
  # Bridges of Leyawiin
  building_type_bridges_leyawiin_01:0 "Мосты Лейавина"
@@ -233,7 +233,7 @@
  building_bridges_leyawiin_01_desc:0 "$building_type_bridges_leyawiin_01_desc$\n\nПоэтому мосты, некогда построенные здесь, были разобраны, оставив лишь несколько столбов в качестве разбитого свидетельства их былого господства над Нибеном и за его пределами. Торговые потоки в город теперь составляют лишь малую часть того, что было раньше, а до замка Лейавин теперь можно добраться только на паромах, что, по крайней мере, дает ему стратегическое преимущество."
  building_bridges_leyawiin_02:0 "$building_type_bridges_leyawiin_01$"
  building_bridges_leyawiin_02_desc:0 "$building_type_bridges_leyawiin_01_desc$\n\nОгромные каменные мосты были построены для того, чтобы ни одно судно выше определенного размера не могло плыть дальше по Нибену, сохраняя Лейавин центром торговли в регионе.\n\n#N До тех пор, пока здание активно, [GetBuilding('imperial_city_harbor_01').GetName] и [GetBuilding('port_hestra_01').GetName] деактивированы, ни одно графство вдоль региона [GetGeographicalRegion('mundus_tamriel_cyrodiil_rumare_niben').GetName] не сможет построить или получить прибыль от строительства торговых портов.#!"
- bridges_leyawiin_02_must_be_disabled:0 "[GetBuilding('bridges_leyawiin_02').GetName] построены, disabling maritime buildings along the [GetGeographicalRegion('mundus_tamriel_cyrodiil_rumare_niben').GetName].\n\nThey can be dismantled by the #V '$destroy_bridges_leyawiin_decision$'#! [decision|E] or the #V '$DESTROY_BRIDGES_OF_LEYAWIIN_CB_NAME$'#! [casus_belli|E]"
+ bridges_leyawiin_02_must_be_disabled:0 "[GetBuilding('bridges_leyawiin_02').GetName] построены, что отключает морские постройки в регионе [GetGeographicalRegion('mundus_tamriel_cyrodiil_rumare_niben').GetName].\n\nИх можно разрушить, используя [Concept('decision', 'решение')|E] #V «$destroy_bridges_leyawiin_decision$»#! или [Concept('casus_belli', 'казус белли')|E] #V «$DESTROY_BRIDGES_OF_LEYAWIIN_CB_NAME$»#!"
 
  # St. Bravillius District
  building_type_st_bravillius_01:0 "Округ святого Бравиллия"
@@ -1018,34 +1018,34 @@
  building_othrenis_01:0 "Некрополь Отренис"
  building_othrenis_01_desc:0 "$building_type_othrenis_01_desc$"
 
- building_type_almas_thir_01:0 "Almas Thir"
- building_type_almas_thir_01_desc:0 "Almas Thir serves various purposes simultaneously:\nFirstly, it stands as a significant temple erected along the very path traversed by the prophet Veloth, making it a crucial destination for pilgrims. Additionally, it functions as a fortress, safeguarding the River Thir, an imporant waterway often disputed over by the powerful Houses of Hlaalu and Indoril. Its robust fortifications underscore its strategic importance in this regard. Lastly, it operates as a toll station, imposing a substantial tax on every ship navigating the Thir.\n\nThrough this revenue, Almas Thir is able to fulfill its primary roles as both a temple and a fortress, ensuring its continued significance into the future." #AI
+ building_type_almas_thir_01:0 "Альмас Тир"
+ building_type_almas_thir_01_desc:0 "Альмас Тир служит одновременно нескольким целям:\nВо-первых, он является важным храмом, возведённым на том самом пути, по которому прошёл пророк Велот, что делает его важным местом для паломников. Кроме того, он функционирует как крепость, защищая реку Тир, важный водный путь, за который часто спорят могущественные дома Хлаалу и Индорил. Его мощные укрепления подчеркивают его стратегическую важность в этом отношении. Наконец, он работает как пункт взимания платы за проход, облагая существенным налогом каждое судно, проходящее по этому маршруту.\n\nБлагодаря этим доходам Альмас Тир может выполнять свои основные функции как храма, так и крепости, обеспечивая свое неизменное значение в будущем." #AI
  building_almas_thir_01:0 "$building_type_almas_thir_01$"
  building_almas_thir_01_desc:0 "$building_type_almas_thir_01_desc$"
 
- building_type_necrom_necropolis_01:0 "City of the Dead"
- building_type_necrom_necropolis_01_desc:0 "Nestled amidst craggy mountains, deep gorges, and a broad river lies Necrom, one of the oldest cities of the Dunmer. Its secluded location has allowed it to flourish into an unexpectedly beautiful place, adorned with gleaming white walls and marble causeways. However, Necrom's true purpose lies hidden from the curious eyes of visitors and pilgrims: it harbors the largest necropolis in all of Morrowind. Where else could the revered dead find their eternal rest but within the confines of the safest city?\n\nThus, beneath Necrom's vibrant streets, lies a second city - an expansive network of catacombs and tombs known as the City of the Dead. An ancestor interred here is expected to bestow a certain degree of gratitude upon their descendants for this prestigious privilege. Some of them are even utilized to animate the formidable bonewalkers - crafted meticulously from bone and flesh - and stand ready to defend their house's interests long beyond the reaches of death." #AI before "An ancestor interred here..."
+ building_type_necrom_necropolis_01:0 "Город мёртвых"
+ building_type_necrom_necropolis_01_desc:0 "Среди скалистых гор, глубоких ущелий и широкой реки раскинулся Некром, один из старейших городов данмеров. Его уединённое расположение позволило ему превратиться в неожиданно красивое место, украшенное сверкающими белыми стенами и мраморными мостовыми. Однако истинное предназначение Некрома скрыто от любопытных глаз посетителей и паломников: здесь находится крупнейший некрополь во всём Морровинде. Где ещё почтенные мертвецы могут обрести вечный покой, как не в пределах самого безопасного города?\n\nТаким образом, под оживлёнными улицами Некрома находится второй город - обширная сеть катакомб и гробниц, известная как Город мёртвых. Ожидается, что захороненные здесь предки в определённой степени отблагодарят своих потомков за эту престижную привилегию. Некоторые из них даже используются для оживления грозных костяных ходоков, тщательно собранных из костей и плоти, готовых защищать интересы своего дома даже по ту сторону смерти." #AI before "An ancestor interred here..."
  building_necrom_necropolis_01:0 "$building_type_necrom_necropolis_01$"
  building_necrom_necropolis_01_desc:0 "$building_type_necrom_necropolis_01_desc$"
 
 
- building_type_gorne_asylum_01:0 "Gorne Asylum"
- building_type_gorne_asylum_01_desc:0 "The entire island of Gorne holds a rather grim history. Following the War of the [Glossary( 'First Council', 'FIRST_COUNCIL_GLOSS' )], numerous loyalists of the Sixth House were brought here for interrogation, imprisonment, and ultimately execution.\n\nOnce it lost its usefulness for that purpose, the facility was rebuilt into an asylum for those who had fractured their minds during the study of the arcane. While it primarily houses mentally unstable sons and daughters of the mighty House Telvanni now, rumors suggest that not everyone sent to this island is truly insane. It may also function as a place to incarcerate political rivals and other inconvenient individuals.\n\nIn the end, the distinction becomes irrelevant, as anyone who arrives at the Gorne Asylum not mad is destined to become so soon."
+ building_type_gorne_asylum_01:0 "Лечебница Горна"
+ building_type_gorne_asylum_01_desc:0 "Весь остров Горн имеет довольно мрачную историю. После Войны [Glossary( 'Первого совета', 'FIRST_COUNCIL_GLOSS' )] многочисленные сторонники Шестого дома были доставлены сюда для допросов, заточения и, в конечном счете, казни.\n\nКак только это сооружение перестало быть пригодным для этой цели, оно было перестроено в лечебницу для тех, кто повредился рассудком во время изучения тайн. Хотя сейчас здесь в основном содержатся психически неуравновешенные сыновья и дочери могущественного дома Телванни, ходят слухи, что не все, кого отправляют на этот остров, действительно сумасшедшие. Он также может служить местом заключения политических соперников и других нежелательных личностей.\n\nВ конце концов, это различие становится неуместным, поскольку любому, кто попадает в лечебницу Горн, не будучи сумасшедшим, суждено стать таковым очень скоро."
  building_gorne_asylum_01:0 "$building_type_gorne_asylum_01$
  building_gorne_asylum_01_desc:0 "$building_type_gorne_asylum_01_desc$"
 
- building_type_bal_tereg_stone_fortress_01:0 "Bal Tereg Stone Fortress"
- building_type_bal_tereg_stone_fortress_01_desc:0 "This fortress, composed of numerous rings of stone walls, is said to be ancient, predating even the current Dunmer settlers of the region. Who built it and for what purpose is not exactly clear, but it still offers a fair amount of protection, allowing the settlement nearby to prosper peacefully.\n\nThe fact that Vivec himself chose to stay within the fortress on numerous occasions only adds to the mystery shrouding this place and elevates it to a prestigious object of larger significance."
+ building_type_bal_tereg_stone_fortress_01:0 "Каменная крепость Бал-Терег"
+ building_type_bal_tereg_stone_fortress_01_desc:0 "Считается, что эта крепость, состоящая из многочисленных колец каменных стен, была построена ещё до того, как в регионе появились данмеры. Кто построил её и с какой целью, точно не известно, но она по-прежнему обеспечивает надёжную защиту, позволяя близлежащему поселению мирно процветать.\n\nТот факт, что сам Вивек неоднократно предпочитал гостить в крепости, только добавляет таинственности этому месту и превращает его в престижный объект более высокого значения."
  building_bal_tereg_stone_fortress_01:0 "$building_type_bal_tereg_stone_fortress_01$"
  building_bal_tereg_stone_fortress_01_desc:0 "$building_type_bal_tereg_stone_fortress_01_desc$"
 
- building_type_silgrad_tower_01:0 "Silgrad Tower"
- building_type_silgrad_tower_01_desc:0 "The tower that lends its name to the surrounding settlement is one of the oldest border fortifications in Tamriel. It has guarded the mountain pass between Skyrim and Morrowind since days long gone, and due to its strategic position, it has never lost its relevance.\n\nIt is said that from the top lookout, a skilled archer can reach both the Jerall and Velothi mountains with their arrows, as well as anyone attempting to pass between them."
+ building_type_silgrad_tower_01:0 "Башня Силград"
+ building_type_silgrad_tower_01_desc:0 "Башня, давшая название близлежащему поселению, является одним из старейших пограничных укреплений Тамриэля. Она охраняла горный перевал между Скайримом и Морровиндом с незапамятных времён и, благодаря своему стратегическому положению, никогда не теряла своей значимости.\n\nГоворят, что со смотровой площадки на вершине опытный лучник может поразить своими стрелами как Джерольские, так и Велотийские горы, а также любого, кто попытается пройти между ними."
  building_silgrad_tower_01:0 "$building_type_silgrad_tower_01$"
  building_silgrad_tower_01_desc:0 "$building_type_silgrad_tower_01_desc$"
 
- building_type_odai_tradeport_01:0 "Odai Tradeport"
- building_type_odai_tradeport_01_desc:0 "The Odai River provides a direct link from the Inner Sea to Balmora, one of Vvardenfell's largest cities and a primary gateway for goods flowing between the island and the mainland. Junks and vessels of various sizes navigate this river continuously, ensuring a steady flow of wares and income.\n\nBalmora's extensive network of canals enables merchants to sell their wares directly from their boats, transforming the river itself into a bustling marketplace teeming with life and various opportunities." #AI
+ building_type_odai_tradeport_01:0 "Торговый порт Одай"
+ building_type_odai_tradeport_01_desc:0 "Река Ода обеспечивает прямое сообщение между Внутренним морем и Балморой, одним из крупнейших городов Вварденфелла и главными воротами для товаров, курсирующих между островом и материком. Паромы и суда различных размеров постоянно курсируют по этой реке, обеспечивая постоянный поток товаров и доход.\n\nОбширная сеть каналов Балморы позволяет торговцам продавать свои товары прямо со своих лодок, превращая саму реку в оживлённый рынок, изобилующий жизнью и разнообразными возможностями." #AI
  building_odai_tradeport_01:0 "$building_type_odai_tradeport_01$"
  building_odai_tradeport_01_desc:0 "$building_type_odai_tradeport_01_desc$"
 
@@ -1066,143 +1066,143 @@
  building_parliament_of_bugs_01_desc:0 "$building_type_parliament_of_bugs_01_desc$"
  parliament_of_bugs_requirement:0 "Вы или ваш [Concept('liege', 'сюзерен')|E] должны владеть титулом Дома Телванни"
 
- building_type_ebonhall_01:0 "Ebonhall"
- building_type_ebonhall_01_desc:0 "Ebonheart stands proudly as the ancestral seat of the famous Ra'athim family, whose enduring influence and wealth stem from a longstanding tradition of mining.\n\nTo this day, their fortress, Ebonhall, remains a celebrated center for the most skilled artisans and blacksmiths. The weapons and armor crafted within its walls are esteemed for their unparalleled quality, a testament to the closely guarded expertise honed over centuries of unwavering dedication to their craft." #AI
+ building_type_ebonhall_01:0 "Эбонхолл"
+ building_type_ebonhall_01_desc:0 "Эбонхарт гордится тем, что является родовым поместьем знаменитой семьи Ра'атим, чьё непреходящее влияние и богатство основаны на давних традициях горного дела.\n\nПо сей день их крепость Эбонхолл остаётся знаменитым центром для самых искусных ремесленников и кузнецов. Оружие и доспехи, изготовленные в его стенах, ценятся за непревзойдённое качество, что свидетельствует о тщательно охраняемом опыте, отточенном веками непоколебимой преданности своему ремеслу." #AI
  building_ebonhall_01:0 "$building_type_ebonhall_01$"
  building_ebonhall_01_desc:0 "$building_type_ebonhall_01_desc$"
 
- building_type_kragenmoor_plantations_01:0 "Kragenmoor Plantations"
- building_type_kragenmoor_plantations_01_desc:0 "The saltrice plantations surrounding Kragenmoor stretch for miles, nearly encompassing the entire valley. This abundance of food has not only enriched the city, making it a major power in the region, but also turned it into a central hub for Morrowind's farming industry.\n\nAs such, Kragenmoor now plays a vital role in providing sustenance to the entire province and holds noticeable political influence." #AI
+ building_type_kragenmoor_plantations_01:0 "Плантации Крагенмура"
+ building_type_kragenmoor_plantations_01_desc:0 "Плантации солёного риса, окружающие Крагенмур, простираются на многие мили, охватывая почти всю долину. Это изобилие продуктов питания не только обогатило город, сделав его важной державой в регионе, но и превратило его в центр сельскохозяйственной промышленности Морровинда.\n\nТаким образом, Крагенмур в настоящее время играет жизненно важную роль в обеспечении продовольствием всей провинции и обладает заметным политическим влиянием." #AI
  building_kragenmoor_plantations_01:0 "$building_type_kragenmoor_plantations_01$"
  building_kragenmoor_plantations_01_desc:0 "$building_type_kragenmoor_plantations_01_desc$"
 
- building_type_tear_slave_nexus_01:0 "Slave Nexus"
- building_type_tear_slave_nexus_01_desc:0 "There is perhaps no other location in Tamriel where the flow of slaves is as relentless as in Tear, the ancestral stronghold of House Dres. Countless individuals are transported here, with the majority originating from the frequent slave raids within the territory of Black Marsh.\n\nThose who aren't coerced into labor on the expansive plantations encircling the city are sold to the other Dunmer Houses or to any parties expressing interest in such a grim trade. Notably, even the infamous Sload are known to occasionally visit this market, seeking new test subjects for their macabre necromantic experiments." #AI
+ building_type_tear_slave_nexus_01:0 "Рабское звено"
+ building_type_tear_slave_nexus_01_desc:0 "Пожалуй, нет другого места в Тамриэле, где поток рабов был бы таким же непрекращающимся, как в Тире, родовой цитадели дома Дрес. Сюда перевозят бесчисленное множество невольников, большинство из которых являются жертвами частых набегов за рабами на территорию Чернотопья.\n\nТех, кого не принуждают к труду на обширных плантациях, окружающих город, продают другим домам данмеров или любым сторонам, проявляющим интерес к такому мрачному ремеслу. Примечательно, что даже печально известные слоады, как известно, время от времени посещают этот рынок в поисках новых подопытных для своих жутких некромантических экспериментов." #AI
  building_tear_slave_nexus_01:0 "$building_type_tear_slave_nexus_01$"
  building_tear_slave_nexus_01_desc:0 "$building_type_tear_slave_nexus_01_desc$"
 
- building_type_telvannis_slave_docks_01:0 "Telvannis Slave Docks"
- building_type_telvannis_slave_docks_01_desc:0 "Telvanni stands second only to Dres as the Great House that is most deeply entwined with the institution of slavery. While they refrain from directly engaging in slave raids, the mages of House Telvanni form the largest clientele for this grim trade. Immersed in their studies and intrigues, they constantly require individuals to tend to necessary tasks, perpetuating the demand for enslaved labor.\n\nConsequently, Port Telvannis has garnered a notorious reputation as the dreaded destination for unfortunate souls from all corners of Tamriel. Whether they are beastfolk captured in slave raids, prisoners of war, or victims of piracy, their destinies converge upon the vast slave docks and markets of this city to satisfy the insatiable demand for cheap labor and the avarice of those involved in this despicable enterprise." #Third sentence AI
+ building_type_telvannis_slave_docks_01:0 "Невольничьи верфи Телванниса"
+ building_type_telvannis_slave_docks_01_desc:0 "Телванни уступают только Дрес как Великий дом, который наиболее тесно вплетён в институт рабства. Хотя маги дома Телванни воздерживаются от прямого участия в набегах на рабов, они составляют самую многочисленную клиентуру в этом мрачном ремесле. Погруженные в свои исследования и интриги, они постоянно требуют от отдельных слуг выполнения необходимых задач, увековечивая спрос на рабский труд.\n\nВ результате порт Телваннис приобрёл дурную славу места, куда стекаются несчастные души со всех уголков Тамриэля. Будь то зверолюди, захваченные в ходе набегов на рабов, военнопленные или жертвы пиратства, их судьбы сходятся в огромных невольничьих верфях и на рынках этого города, чтобы удовлетворить ненасытный спрос на дешевую рабочую силу и алчность тех, кто вовлечен в это презренное предприятие." #Third sentence AI
  building_telvannis_slave_docks_01:0 "$building_type_telvannis_slave_docks_01$"
  building_telvannis_slave_docks_01_desc:0 "$building_type_telvannis_slave_docks_01_desc$"
 
- building_type_dust_adeptorium_01:0 "Dust Adeptorium"
- building_type_dust_adeptorium_01_desc:0 "There are few landscapes on Tamriel as hostile and deadly as this tormented part of Morrowind. Shattered by volcanic activity, devoid of vegetation, and plagued by fast-moving storms of sand and ash, capable of suffocating any unprepared wanderer. However, it is precisely this combination of harsh conditions that has led to the construction of the Hive and the Dust Adeptorium within its boundaries.\n\nThose who study in these halls are clad in thick cloaks and masks to protect themselves from the dangerous weather and their fellow mages. As a Dust Adept learns to harness the particles in the air, they become as deadly and unstoppable as the very storms that ravage the land."
+ building_type_dust_adeptorium_01:0 "Адепторий Пепла"
+ building_type_dust_adeptorium_01_desc:0 "На Тамриэле не так много ландшафтов, столь враждебных и смертоносных, как эта измученная часть Морровинда. Разрушенные вулканической активностью, лишённые растительности и подверженные стремительным песчаным и пепловым бурям, способным задушить любого неподготовленного путешественника. Однако именно это сочетание суровых условий привело к строительству адепториев Улья и Пепла в его пределах.\n\nТе, кто учится в этих залах, одеты в плотные плащи и маски, чтобы защитить себя от опасной погоды и своих коллег-магов. Когда адепт Пепла учится управлять частицами, находящимися в воздухе, они становятся такими же смертоносными и неудержимыми, как те самые бури, которые опустошают землю."
  building_dust_adeptorium_01:0 "$building_type_dust_adeptorium_01$"
  building_dust_adeptorium_01_desc:0 "$building_type_dust_adeptorium_01_desc$"
 
- building_type_kogoruhn_citadel_01:0 "Ashplagued Ruins"
- building_type_kogoruhn_citadel_01_desc:0 "The Sixth House, the Unmourned House - the Traitor House. Many are the names of House Dagoth that once ruled this land but its descent from glory was swift and devastating, leaving behind nothing but ruins and shattered ambitions.\n\nWalking among the remnants of their once-majestic citadel serves as a stark reminder of the consequences of past errors. However, one should not stay too long as there are tales abound of eerie occurrences in this desolate land, where the ash itself seems to stir as if in an unsettling dream." #AI
+ building_type_kogoruhn_citadel_01:0 "Пепельные руины"
+ building_type_kogoruhn_citadel_01_desc:0 "Шестой дом, Неоплаканный дом - Дом предателей. Много имён у дома Дагот, который когда-то правил этой землей, но его падение было быстрым и разрушительным, не оставив после себя ничего, кроме руин и разбитых амбиций.\n\nПрогулка по остаткам их некогда величественной цитадели служит суровым напоминанием о последствиях прошлых ошибок. Однако не стоит задерживаться здесь надолго, так как в этой пустынном краю ходит множество рассказов о жутких происшествиях, где сам пепел, кажется, шевелится, словно в тревожном сне." #AI
  building_kogoruhn_citadel_01:0 "$building_type_kogoruhn_citadel_01$"
  building_kogoruhn_citadel_01_desc:0 "$building_type_kogoruhn_citadel_01_desc$"
 
- building_type_kogoruhn_citadel_02:0 "Kogoruhn Citadel"
- building_type_kogoruhn_citadel_02_desc:0 "Restored to its former glory, Kogoruhn once again looms over the land as a steadfast bastion of stone and ash. No longer is the name of House Dagoth whispered in hushed tones within these halls; it is openly praised, accompanied by the eerie tolling of bells that echo through the valley, beckoning the return of the Sharmat.\n\nThough he may still slumber, those who dwell within these walls find themselves drawn into his dreams. Those who shared his visions of a grander future sometimes ascend to become Ash Weavers, wielding unsettling magical powers." #AI
+ building_type_kogoruhn_citadel_02:0 "Цитадель Когорун"
+ building_type_kogoruhn_citadel_02_desc:0 "Восстановленный в своём былом великолепии, Когорун вновь возвышается над землей как непоколебимый бастион из камня и пепла. Имя дома Дагот больше не произносится шёпотом в этих залах; его открыто восхваляют, сопровождая жутким звоном колоколов, который эхом разносится по долине, возвещая о возвращении Шармата.\n\nХотя он, возможно, всё ещё дремлет, те, кто живёт в этих стенах, оказываются втянутыми в его грёзы. Те, кто разделил его видение более грандиозного будущего, иногда становятся прядильщиками пепла, обладающими пугающей магической силой." #AI
  building_kogoruhn_citadel_02:0 "$building_type_kogoruhn_citadel_02$"
  building_kogoruhn_citadel_02_desc:0 "$building_type_kogoruhn_citadel_02_desc$"
 
- building_type_tel_thenim_01:0 "Tel Thenim"
- building_type_tel_thenim_01_desc:0 "This towering structure serves as the seat of the archmagister of House Telvanni. Situated at a safe distance from the bustling city of Port Telvannis, it ensures the privacy of the archmagister, allowing them to pursue their studies undisturbed. However, its imposing presence is visible enough to showcase the might of Telvanni to all who observe its silhouette on the horizon.\n\nTel Thenim itself is a labyrinthine maze, impassable to those without the ability of levitation. Even for those who possess such means, navigating its convoluted architecture proves challenging, to say the least. Countless chambers, vast halls, and concealed mysteries fill this tower to capacity, mirroring the twisted and enigmatic nature of a Telvanni mage's mind." #AI
+ building_type_tel_thenim_01:0 "Тель-Теним"
+ building_type_tel_thenim_01_desc:0 "Это возвышающееся сооружение служит резиденцией архимагистра дома Телванни. Расположенное на безопасном расстоянии от оживлённого города Порт-Телваннис, оно обеспечивает архимагистру уединение, позволяя ему беспрепятственно заниматься изысканиями. Однако его внушительное присутствие достаточно заметно, чтобы продемонстрировать мощь Телванни всем, кто видит его силуэт на горизонте.\n\nТель-Теним сам по себе представляет собой лабиринт, непроходимый для тех, кто не обладает способностью к левитации. Даже для тех, кто обладает такими средствами, ориентироваться в его замысловатой архитектуре, мягко говоря, непросто. Бесчисленные помещения, обширные залы и скрытые тайны заполняют эту башню до отказа, отражая извращенную и загадочную природу разума мага Телванни." #AI
  building_tel_thenim_01:0 "$building_type_tel_thenim_01$"
  building_tel_thenim_01_desc:0 "$building_type_tel_thenim_01_desc$"
 
- building_type_mournhold_palace_01:0 "Mournhold Palace"
- building_type_mournhold_palace_01_desc:0 "Mournhold, the capital of Morrowind, stands not only as the divine haven of the goddess Almalexia, but also serves as the ancient throne of House Indoril, the staunch supporters of the Tribunal Temple. While Indoril has always defended the interests of their gods, one does not rise to prominence within the Great Houses without also serving their own interests and striving for personal power. Nowhere is this intertwining of religious, political, and personal ambitions more evident than in the illustrious palace itself.\n\nEvery corner of the palace is adorned with religious banners and majestic murals, paying homage to the gods with unwavering reverence. Yet, beneath this facade of piety lies a citadel of opulence and earthly might, its heavy fortifications and towering spires casting shadows of dominion over the land." #AI
+ building_type_mournhold_palace_01:0 "Дворец Морнхолда"
+ building_type_mournhold_palace_01_desc:0 "Морнхолд, столица Морровинда, является не только божественным пристанищем богини Альмалексии, но и древней вотчиной дома Индорил, ярых сторонников Храма Трибунала. В то время как Индорил всегда защищали интересы своих богов, никто не может занять видное положение в Великих домах, не служа их собственным интересам и не стремясь к личной власти. Нигде это переплетение религиозных, политических и личных амбиций не проявляется так ярко, как в самом знаменитом дворце.\n\nКаждый уголок дворца украшен религиозными знаменами и величественными фресками, воздающими должное богам с непоколебимым почтением. Однако за этим фасадом благочестия скрывается цитадель богатства и земного могущества, ее мощные укрепления и высокие шпили отбрасывают тень владычества на землю." #AI
  building_mournhold_palace_01:0 "$building_type_mournhold_palace_01$"
  building_mournhold_palace_01_desc:0 "$building_type_mournhold_palace_01_desc$"
 
- building_type_lichen_fields_01: "Lichen Fields"
- building_type_lichen_fields_01_desc: "Despite the name, the Lichen Fields grow mostly saltrice, but quantities that humble the rice paddies of the Niben. Even though the Lichen Fields have been cleared and planted only some hundred years ago, being entrusted with the Lichen Fields manor has become something of a vaunted honour House Dres enjoys bestowing upon its most ruthless and ambitious members. Perhaps the sad reason behind this lies in the unique workforce situation: the Lichen Fields owe their impressive output not only to the fertile Tearmarsh soil, but also to scores of Argonian and Khajiit slaves, who toil in the knee-deep bracken waters..."
+ building_type_lichen_fields_01: "Лишайниковые поля"
+ building_type_lichen_fields_01_desc: "Несмотря на название, на Лишайниковых полях растёт в основном солёный рис, но в количествах, превосходящих рисовые поля Нибена. Несмотря на то, что Лишайниковые поля были расчищены и засажены всего несколько сотен лет назад, управление поместьем стало чем-то вроде хвалёной чести, которой дом Дрес с удовольствием удостаивает своих самых безжалостных и амбициозных членов. Возможно, печальная причина этого кроется в уникальной ситуации с рабочей силой: лишайниковые поля обязаны своим впечатляющим урожаем не только плодородной почве Болота Слёз, но и множеству рабов-аргониан и каджитов, которые трудятся по колено в заросшей папоротником воде..."
  building_lichen_fields_01: "$building_type_lichen_fields_01$"
  building_lichen_fields_01_desc: "$building_type_lichen_fields_01_desc$"
 
- building_type_hlalkeep_01:0 "Hlalkeep"
- building_type_hlalkeep_01_desc:0 "Narsis may appear deceptively small for the seat of one of the Great Houses, but its significance should not be underestimated. It stands as one of the oldest Dunmer settlements, having been founded by the revered prophet Veloth himself. Originally named "Narsis-Where-All-Fervently-Praise-the-Prophet-Veloth," it still upholds this legacy to a certain extent.\n\nSituated by Lake Hlaalu, Narsis boasts a secure port where pilgrims and merchants converge to visit the town. Overlooking everything from a hill is Castle Hlakeep, which serves as the seat of power. Here, the heads of House Hlaalu reside, not only guiding Narsis future but also exerting their influence over Morrowind as a whole." #AI
+ building_type_hlalkeep_01:0 "Крепость Хлал"
+ building_type_hlalkeep_01_desc:0 "Нарсис может показаться обманчиво маленьким для резиденции одного из Великих домов, но его значение не следует недооценивать. Это одно из старейших поселений данмеров, основанное самим почитаемым пророком Велотом. Первоначально названный «Нарсис-Где-Все-Ревностно-Восхваляют-Пророка-Велота», он до сих пор в определённой степени поддерживает это наследие.\n\nНарсис, расположенный на берегу озера Хлаалу, может похвастаться надёжным портом, куда съезжаются паломники и торговцы, чтобы посетить город. С холма открывается прекрасный вид на замок Хлал, который служит центром власти. Здесь проживают главы дома Хлаалу, которые не только определяют будущее Нарсиса, но и оказывают своё влияние на Морровинд в целом." #AI
  building_hlalkeep_01:0 "$building_type_hlalkeep_01$"
  building_hlalkeep_01_desc:0 "$building_type_hlalkeep_01_desc$"
 
- building_type_rootspire_01: "The Rootspire"
- building_type_rootspire_01_desc: "Massive even by the standards of the Great Houses, the council hall where House Redoran convenes resembles nothing more than a fortress, save perhaps a giant corkbulb rising against the ash-riddled skies. Immodest in its dimensions, it nevertheless remains a largely unadorned building in accord with the Gah-Julani architectural and moral standards, though some cannot help but point out that the Grand Council itself could be accomodated twice over in the Rootspire."
+ building_type_rootspire_01: "Рутспайр"
+ building_type_rootspire_01_desc: "Огромный даже по меркам Великих домов, зал совета, где собирается дом Редоран, напоминает не что иное, как крепость, за исключением, пожалуй, гигантского пробочника, возвышающегося на фоне усыпанного пеплом неба. Нескромное по своим размерам, оно, тем не менее, остается в значительной степени безукоризненным зданием в соответствии с архитектурными и моральными стандартами га-джуланов, хотя некоторые не могут не отметить, что сам Великий совет мог бы дважды разместиться в Рутспайре."
  building_rootspire_01: "$building_type_rootspire_01$"
  building_rootspire_01_desc: "$building_type_rootspire_01_desc$"
 
- building_type_redoran_wharf_01:0 "Redoran Wharf"
- building_type_redoran_wharf_01_desc:0 "Although House Redoran has historically prioritized land-based warfare over naval tactics, they acknowledge the significance of maritime transportation. To strengthen their capabilities in this domain, the city of Baan Malur proudly houses the most impressive wharf in the entire province of Morrowind. Equipped with skilled shipbuilders and numerous drydocks, there is always an abundant supply of vessels prepared to ferry Redoran's army to any destination required.\n\nFurthermore, the wharf is heavily fortified, guaranteeing its defense against any potential assault." #AI
+ building_type_redoran_wharf_01:0 "Пристань Редоран"
+ building_type_redoran_wharf_01_desc:0 "Хотя дом Редоран исторически отдавал предпочтение наземной войне, а не морской тактике, они признают важность морских перевозок. Чтобы усилить свои возможности в этой области, в городе Баан Малур с гордостью находится самый впечатляющий причал во всей провинции Морровинд. Благодаря опытным корабелам и многочисленным сухим докам, здесь всегда есть в наличии суда, готовые доставить армию дома Редоран в любую точку мира.\n\nКроме того, пристань хорошо укреплена, что гарантирует ее защиту от любого возможного нападения." #AI
  building_redoran_wharf_01:0 "$building_type_redoran_wharf_01$"
  building_redoran_wharf_01_desc:0 "$building_type_redoran_wharf_01_desc$"
 
- building_type_plaza_brindisi_dorom_01:0 "Plaza Brindisi Dorom"
- building_type_plaza_brindisi_dorom_01_desc:0 "There's a reason why, among the many names associated with Morrowind's capital - City of Light and Magic, City of Gems, City of Love and Charity - Mournhold remains prominent. During the end of the First Era, Mehrunes Dagon himself was summoned to assail the city's ruler, Brindisi Dorom. Only through the combined efforts of Sotha Sil and Almalexia could he be banished, but not before the city and its inhabitants suffered brutal devastation.\n\nDespite the destruction, the defeat of Mehrunes Dagon is commemorated as a significant triumph. A portion of Mournhold is now dedicated to its fallen ruler, Brindisi Dorom, who perished in Dagon's assault - the Brindisi Dorom Plaza. This area has been transformed into a place of beauty and reflection, featuring well-tended parks and a colossal statue depicting Almalexia's decisive blow against the Daedric Prince." #Everything after two first sentence is AI
+ building_type_plaza_brindisi_dorom_01:0 "Плаза Бриндизи Дором"
+ building_type_plaza_brindisi_dorom_01_desc:0 "Есть причина, по которой среди многих названий, связанных со столицей Морровинда - городом света и магии, городом самоцветов, городом любви и милосердия - Морнхолд остаётся на первом месте. В конце Первой эры сам Мерунес Дагон был призван для нападения на правителя города Бриндизи Дорома. Только совместными усилиями Соты Сила и Альмалексии он был изгнан, но не раньше, чем город и его жители подверглись жестокому опустошению.\n\nНесмотря на разрушения, поражение Мерунеса Дагона отмечается как значительный триумф. Часть Морнхолда теперь посвящена его павшему правителю Бриндизи Дорому, который погиб во время нападения Дагона, - Плаза Бриндизи Дором. Этот район был преобразован в место красоты и размышлений, с ухоженными парками и колоссальной статуей, изображающей решающий удар Альмалексии по князю даэдра." #Everything after two first sentence is AI
  building_plaza_brindisi_dorom_01:0 "$building_type_plaza_brindisi_dorom_01$"
  building_plaza_brindisi_dorom_01_desc:0 "$building_type_plaza_brindisi_dorom_01_desc$"
 
- building_type_fort_umbermoth_01:0 "Fort Umbermoth"
- building_type_fort_umbermoth_01_desc:0 "The Four-Score War, which raged for over 80 years between Morrowind and the Cyrodilic Empire, only concluded with the rise of the Potentate and the violent end of the Reman dynasty. Versidue Shaie signed the so-called Cervant Truce with Vivec, which included a special clause: the duty to construct a defensive line of forts along Morrowind's eastern coast, ready to repel any potential threats from Akavir itself.\n\nHowever, as the power of the Chorak Dynasty waned and no new invasions materialized, these forts fell into disrepair, their stones repurposed for other needs. Amidst this decline, Umbermoth remains a solitary sentinel, still maintained by the local elves who vigilantly watch over the eastern sea, steadfast in their duty to safeguard the coastline." #AI
+ building_type_fort_umbermoth_01:0 "Форт Янтарного Мотылька"
+ building_type_fort_umbermoth_01_desc:0 "Восьмидесятилетняя война, которая продолжалась более 80 лет между Морровиндом и Сиродильской империей, завершилась только с приходом к власти потентата и жестоким падением династии Ремана. Версидью Шайе подписал с Вивеком так называемое Цервантское перемирие, которое включало в себя специальный пункт: обязательство построить оборонительную линию фортов вдоль восточного побережья Морровинда, готовую отразить любые потенциальные угрозы со стороны самого Акавира.\n\nОднако по мере того, как могущество династии Чорак ослабевало и новых вторжений не происходило, эти крепости приходили в упадок, а их камни использовались для других нужд. Несмотря на этот упадок, Янтарный Мотылёк оста1тся одиноким стражем, по-прежнему поддерживаемым местными эльфами, которые бдительно следят за восточным морем, твердо выполняя свой долг по охране береговой линии." #AI
  building_fort_umbermoth_01:0 "$building_type_fort_umbermoth_01$"
  building_fort_umbermoth_01_desc:0 "$building_type_fort_umbermoth_01_desc$"
 
- building_type_almalexia_temple_01:0 "Temple of Almalexia"
- building_type_almalexia_temple_01_desc:0 "The Temple of Almalexia stands as more than just a sacred site; it serves as the beating heart of Morrowind itself. Not only does it watch over the grand capital, but it also harbors the goddess herself, radiating her benevolent light upon all who dwell beneath her merciful gaze. Almalexia, also revered as Mother Morrowind, is renowned for her boundless compassion and her willingness to bestow health and fortitude upon those within her realm, drawing thousands of pilgrims to her sanctuary each year.\n\nHowever, her adversaries should not misconstrue her compassion as weakness. Almalexia is also known as an incredible warrior, ready to confront any who dare to threaten her people. Her temple is fiercely guarded by a select corps of High Ordinators, who act as her hands in defense of her divine will." #Everything other than last two sentences is AI
+ building_type_almalexia_temple_01:0 "Храм Альмалексии"
+ building_type_almalexia_temple_01_desc:0 "Храм Альмалексии - это нечто большее, чем просто священное место; он служит бьющимся сердцем самого Морровинда. Он не только охраняет великую столицу, но и является пристанищем самой богини, излучающей свой благожелательный свет на всех, кто находится под ее милосердным взором. Альмалексия, также почитаемая как Мать Морровинда, известна своим безграничным состраданием и готовностью даровать здоровье и силу духа всем, кто находится в ее владениях, что ежегодно привлекает тысячи паломников в её святилище.\n\nОднако её противники не должны неверно истолковывать ее сострадание как слабость. Алмалексия также известна как невероятная воительница, готовая противостоять любому, кто осмелится угрожать её народу. Ее храм яростно охраняется избранным корпусом высших ординаторов, которые действуют как её руки, защищая её божественную волю." #Everything other than last two sentences is AI
  building_almalexia_temple_01:0 "$building_type_almalexia_temple_01$"
  building_almalexia_temple_01_desc:0 "$building_type_almalexia_temple_01_desc$"
 
- building_type_clockwork_lake_01:0 "Clockwork Lake"
- building_type_clockwork_lake_01_desc:0 "Where once stood the progressive Clockwork City, dedicated to and built by Sotha Sil, now lies only a water-filled crater. The fate of the city and its inhabitants remains a mystery. Some speculate that Sotha Sil himself shrank the city to conceal it from his adversaries, while others suggest it was transported to another realm entirely.\n\nRegardless, peculiar occurrences had been reported in the area even before its enigmatic disappearance. The lake that now occupies the site teems with sunken but still dangerous contraptions and creatures with mechanical body parts are rumored to be wandering it's shore. This is why temple authorities still strongly advise against venturing venturing off the mostly safe paths."
+ building_type_clockwork_lake_01:0 "Заводное озеро"
+ building_type_clockwork_lake_01_desc:0 "Там, где когда-то стоял прогрессивный Заводной город, посвящённый Сота Силу и построенный им, теперь лежит лишь заполненный водой кратер. Судьба города и его жителей остаётся загадкой. Некоторые предполагают, что Сота Сил сам затопил город, чтобы скрыть его от своих врагов, в то время как другие предполагают, что он был перенесен в совершенно другое измерение.\n\nНесмотря на это, о необычных происшествиях в этом районе сообщалось ещё до его загадочного исчезновения. Озеро, которое сейчас находится на этом месте, изобилует затонувшими, но всё ещё опасными приспособлениями, а по берегам, по слухам, бродят существа с механическими частями тела. Вот почему храмовые власти по-прежнему настоятельно советуют не сворачивать с наиболее безопасных путей."
  building_clockwork_lake_01:0 "$building_type_clockwork_lake_01$"
  building_clockwork_lake_01_desc:0 "$building_type_clockwork_lake_01_desc$"
 
- building_type_kemel_ze_01:0 "Clockwork Probabilis"
- building_type_kemel_ze_01_desc:0 "Built into the site of a great cliff and featuring a vast network of underwater facilities, Kemel-Ze stands as one of the most impressive ruins the Dwemer ever left before their mysterious disappearance. It is also well-preserved and extensively studied, as a portion of this city was granted to Sotha Sil by the Dwemer themselves while they still inhabited it.\n\nSotha Sil named his section of the city the Clockwork Probabilis, where he layed the foundation for what would later become his most ambitious project - the Clockwork City.\n\nThough the god and the Dwemer have long departed, Kemel-Ze still offers boundless opportunities for advanced research in every conceivable field and is visited by scholars from all over Tamriel."
+ building_type_kemel_ze_01:0 "Заводной силач"
+ building_type_kemel_ze_01_desc:0 "Кемел-Зе, построенный на месте огромной скалы и отличающийся обширной сетью подводных сооружений, является одной из самых впечатляющих руин, которые когда-либо оставляли двемеры до своего таинственного исчезновения. Он также хорошо сохранился и тщательно изучен, поскольку часть этого города была передана Сотой Силом самим двемерам, когда они ещё населяли его.\n\nСота Сил назвал свой район города Заводным силачом, где он заложил фундамент для того, что впоследствии стало его самым амбициозным проектом - Заводного города.\n\nХотя бог и двемеры давно ушли, Кемел-Зе по-прежнему предлагает безграничные возможности для передовых исследований во всех мыслимых областях, и его посещают ученые со всего Тамриэля."
  building_kemel_ze_01:0 "$building_type_kemel_ze_01$"
  building_kemel_ze_01_desc:0 "$building_type_kemel_ze_01_desc$"
 
- building_type_amaya_vineyard_01:0 "Amayan Fields"
- building_type_amaya_vineyard_01_desc:1 "Caressed by the tranquility of Lake Amaya's shores with tender care, this fertile ground blossoms, promising a prosperous future for this esteemed estate in Vvardenfell."
- building_amaya_vineyard_01:0 "Amayan Fields"
+ building_type_amaya_vineyard_01:0 "Амайские поля"
+ building_type_amaya_vineyard_01_desc:1 "Окружённая спокойствием и заботой берегов озера Амайя, эта плодородная почва расцветает, обещая процветающее будущее этому уважаемому поместью в Вварденфелле."
+ building_amaya_vineyard_01:0 "Амайские поля"
  building_amaya_vineyard_01_desc:1 "$building_type_amaya_vineyard_01_desc$"
- building_type_amaya_vineyard_02:0 "Amayan Vineyards"
- building_type_amaya_vineyard_02_desc:1 "Caressed by the tranquility of Lake Amaya's shores with tender care, this fertile ground blossoms, promising a prosperous future for this esteemed estate in Vvardenfell."
- building_amaya_vineyard_02:0 "Amayan Vineyards"
+ building_type_amaya_vineyard_02:0 "Амайские виноградники"
+ building_type_amaya_vineyard_02_desc:1 "Окружённая спокойствием и заботой берегов озера Амайя, эта плодородная почва расцветает, обещая процветающее будущее этому уважаемому поместью в Вварденфелле."
+ building_amaya_vineyard_02:0 "Амайские виноградники"
  building_amaya_vineyard_02_desc:1 "$building_type_amaya_vineyard_02_desc$"
 
- building_type_the_crimson_valley_01:0 "The Crimson Valley"
- building_type_the_crimson_valley_01_desc:0 "The Crimson Valley, a foreboding stronghold of Malahk Orcs, is drenched in blood from ritual sacrifices to their Daedric god-king Malahk. This land, both sacred and cursed, is stained deep red, with towering old fortresses looming over pools of blood.\n\nWith such a grim reputation, invaders seeking to purge this dark realm face fierce resistance, facing Orcs unrelenting fury in brutal defense of their sacrificial sanctuaries."
+ building_type_the_crimson_valley_01:0 "Багровая долина"
+ building_type_the_crimson_valley_01_desc:0 "Багровая долина, зловещий оплот малахских орков, залита кровью от ритуальных жертвоприношений их даэдрическому богу-королю Малаху. Эта земля, одновременно священная и проклятая, окрашена в тёмно-красный цвет, а над лужами крови возвышаются старые крепости.\n\nОбладая такой мрачной репутацией, захватчики, стремящиеся очистить этот тёмный край, сталкиваются с ожесточённым сопротивлением, сталкиваясь с неумолимой яростью орков, жестоко защищающих свои жертвенные святилища."
  building_the_crimson_valley_01:0 "$building_type_the_crimson_valley_01$"
  building_the_crimson_valley_01_desc:0 "$building_type_the_crimson_valley_01_desc$"
 
  ###Great House Tombs
  #Indoril House Tomb
- building_type_indoril_tomb_01:0 "Indoril House Tomb"
- building_type_indoril_tomb_01_desc:0 "The ancient [tomb|E] of the Great House Indoril, that is of great importance to them. Indoril might even be willing to declare war over the control of this site."
+ building_type_indoril_tomb_01:0 "Гробница дома Индорил"
+ building_type_indoril_tomb_01_desc:0 "Древняя [Concept('tomb', 'гробница')|E] Великого дома Индорил, которая имеет для них огромное значение. Индорил, возможно, даже захотят объявить войну за контроль над этим местом."
  building_indoril_tomb_01:0 "$building_type_indoril_tomb_01$"
  building_indoril_tomb_01_desc:0 "$building_type_indoril_tomb_01_desc$"
  #Hlaalu House Tomb
- building_type_hlaalu_tomb_01:0 "Hlaalu House Tomb"
- building_type_hlaalu_tomb_01_desc:10 "The ancient [tomb|E] of the Great House Hlaalu, that is of great importance to them. Hlaalu might even be willing to declare war over the control of this site."
+ building_type_hlaalu_tomb_01:0 "Гробница дома Хлаалу"
+ building_type_hlaalu_tomb_01_desc:10 "Древняя [Concept('tomb', 'гробница')|E] Великого дома Хлаалу, которая имеет для них огромное значение. Хлаалу, возможно, даже захотят объявить войну за контроль над этим местом."
  building_hlaalu_tomb_01:0 "$building_type_hlaalu_tomb_01$"
  building_hlaalu_tomb_01_desc:0 "$building_type_hlaalu_tomb_01_desc$"
  #Dres House Tomb
- building_type_dres_tomb_01:0 "Dres House Tomb"
- building_type_dres_tomb_01_desc:0 "The ancient [tomb|E] of the Great House Dres, that is of great importance to them. Dres might even be willing to declare war over the control of this site."
+ building_type_dres_tomb_01:0 "Гробница дома Дрес"
+ building_type_dres_tomb_01_desc:0 "Древняя [Concept('tomb', 'гробница')|E] Великого дома Дрес, которая имеет для них огромное значение. Дрес, возможно, даже захотят объявить войну за контроль над этим местом."
  building_dres_tomb_01:0 "$building_type_dres_tomb_01$"
  building_dres_tomb_01_desc:0 "$building_type_dres_tomb_01_desc$"
  #Redoran House Tomb
- building_type_redoran_tomb_01:0 "Redoran House Tomb"
- building_type_redoran_tomb_01_desc:0 "The ancient [tomb|E] of the Great House Redoran, that is of great importance to them. Redoran might even be willing to declare war over the control of this site."
+ building_type_redoran_tomb_01:0 "Гробница дома Редоран"
+ building_type_redoran_tomb_01_desc:0 "Древняя [Concept('tomb', 'гробница')|E] Великого дома Редоран, которая имеет для них огромное значение. Редоран, возможно, даже захотят объявить войну за контроль над этим местом."
  building_redoran_tomb_01:0 "$building_type_redoran_tomb_01$"
  building_redoran_tomb_01_desc:0 "$building_type_redoran_tomb_01_desc$"
  #Telvanni House Tomb
- building_type_telvanni_tomb_01:0 "Telvanni House Tomb"
- building_type_telvanni_tomb_01_desc:0 "The ancient [tomb|E] of the Great House Telvanni, that is of great importance to them. Telvanni might even be willing to declare war over the control of this site."
+ building_type_telvanni_tomb_01:0 "Гробница дома Телванни"
+ building_type_telvanni_tomb_01_desc:0 "Древняя [Concept('tomb', 'гробница')|E] Великого дома Телванни, которая имеет для них огромное значение. Телванни, возможно, даже захотят объявить войну за контроль над этим местом."
  building_telvanni_tomb_01:0 "$building_type_telvanni_tomb_01$"
  building_telvanni_tomb_01_desc:0 "$building_type_telvanni_tomb_01_desc$"
  # Dagoth
- building_type_dagoth_tomb_01:0 "Sealed Dagoth Tomb"
- building_type_dagoth_tomb_01_desc:0 "The ancient [tomb|E] of the once Great House Dagoth. It's doors are sealed and it's importance is long lost."
+ building_type_dagoth_tomb_01:0 "Запечатанная гробница дома Дагот"
+ building_type_dagoth_tomb_01_desc:0 "Древняя [Concept('tomb', 'гробница')|E] некогда Великого дома Дагот. Её двери запечатаны, и её значение давно утрачено."
  building_dagoth_tomb_01:0 "$building_type_dagoth_tomb_01$"
  building_dagoth_tomb_01_desc:0 "$building_type_dagoth_tomb_01_desc$"
 
- building_type_dagoth_tomb_02:0 "Dagoth House Tomb"
- building_type_dagoth_tomb_02_desc:0 "The ancient [tomb|E] of the Great House Dagoth, that is of great importance to them. Dagoth might even be willing to declare war over the control of this site."
+ building_type_dagoth_tomb_02:0 "Гробница дома Дагот"
+ building_type_dagoth_tomb_02_desc:0 "Древняя [Concept('tomb', 'гробница')|E] Великого дома Дагот, которая имеет для них огромное значение. Дагот, возможно, даже захотят объявить войну за контроль над этим местом."
  building_dagoth_tomb_02:0 "$building_type_dagoth_tomb_02$"
  building_dagoth_tomb_02_desc:0 "$building_type_dagoth_tomb_02_desc$"

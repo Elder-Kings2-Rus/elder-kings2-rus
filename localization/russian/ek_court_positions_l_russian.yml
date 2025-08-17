@@ -1,28 +1,28 @@
 ﻿l_russian:
 
 
-### COURT POSITIONS
-## Royal Housecarl
+ ### COURT POSITIONS
+ ## Royal Housecarl
  court_housecarl_court_position:0 "Королевский хускарл"
  court_housecarl_court_position_desc:0 "$court_housecarl_court_position$ - самый надежный помощник нордского короля, лично обеспечивающий безопасность сюзерена и помогающий в военных делах. Его власть уступает только самому королю."
-##Loremaster
+ ##Loremaster
  loremaster_court_position:0 "Хранитель знаний"
  loremaster_court_position_desc:0 "$loremaster_court_position$ ведет как письменные, так и устные записи о своем народе и посвящает себя изучению истории. Их мудрость и знания оживляют ум любого, кто ищет их совета."
  loremaster_vateshran:0 "Ватешран"
  loremaster_vateshran_desc:0 "$loremaster_vateshran$ хранит письменные и устные записи о своём народе и посвящает себя изучению истории. Их мудрость и знания помогают разобраться любому, кто обращается к ним за советом."
  can_appoint_loremaster_tt: "[Concept('culture', 'Культура')|E] [Concept('liege', 'сюзерена')|E] имеет одну из следующих [Concept('traditions', 'традиций')|E]:\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_skaal_core').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_reach_core').GetName]"
 
-##Hunt-Wife
+ ##Hunt-Wife
  huntwife_court_position:0 "Жена-охотница"
  huntwife_court_position_desc:0 "$huntwife_court_position$ отвечает за охотничьи отряды крепости и обучает молодых орков навыкам выживания. Как главная охотница, она имеет решающее значение в жизни общества."
-##Forge-Wife
+ ##Forge-Wife
  forgewife_court_position:0 "Кузнечная жена"
  forgewife_court_position_desc:0 "Традиционно отвечающая за орочье искусство кузнечного дела, $forgewife_court_position$ является самым искусным кузнецом крепости. Обычно она становится второй, на ком женится вождь крепости."
  ##Hearth-Wife
  hearthwife_court_position:0 "Жена-хозяйка"
  hearthwife_court_position_desc:0 "$hearthwife_court_position$ управляет домашним хозяйством вождя и обеспечивает бесперебойную работу повседневных дел. Обычно она является ближайшим доверенным лицом вождя."
  SPOUSE_OF_CHARACTER_COURT_POSITION: "Это ваша [Concept( 'spouse', 'половинка' )|El]"
-##Shadowscale
+ ##Shadowscale
  shadowscale_court_position:0 "Тёмный ящер"
  shadowscale_employer_custom_effect_description:1 "@warning_icon!#X Полезный [agent|El] при [Concept( 'hostile_schemes', 'враждебных происках' )|E] против вас#!"
  shadowscale_court_position_desc:1 "$shadowscale_court_position$ с рождения обучается убийствам и интригам и служит только королю Аргонии. Однако уважаемый аргонианский правитель может попросить нанять его для помощи в уничтожении как своих врагов, так и врагов Чернотопья."
@@ -109,23 +109,23 @@
  SCHEME_AGENT_IS_SHADOWSCALE:0 "[target.GetShortUINamePossessiveNoTooltip] – $shadowscale_court_position$"
  
  # Court Position Tasks
- court_mage_instruct:0 "Накладывать заклинания"
+ court_mage_instruct:0 "Наложение заклинаний"
  court_mage_instruct_desc:0 "Этот персонаж будет накладывать заклинания самостоятельно в соответствии с инструкциями своего нанимателя, пока это задание активно."
  court_mage_instruct_tt:0 "Отдайте приказы своему магу, определив то, как он будет произносить [spells|El] и на каком типе [Concept('magic', 'магии')|E] сосредоточится."
- court_mage_improve_self: "Study Magic"
- court_mage_improve_self_desc: "This character is focusing on improving their skills as a mage."
- court_mage_improve_self_tt: "Every month this character has a chance of learning new [spells|E] or gaining [arcana_i][arcana|E] (To a Maximum of [EmptyScope.ScriptValue('very_high_skill_rating')|0])"
- court_mage_improve_self_fallback_tt: "Every month this character has a chance of learning new [spells|E] or gaining [arcana_i][arcana|E] (To a Maximum of [EmptyScope.ScriptValue('very_high_skill_rating')|0])"
- court_mage_support_liege: "Arcane Support"
- court_mage_support_liege_desc: "This character enhances the arcane abiltities of their employer."
- court_mage_support_liege_tt: "Every month this character has a chance of generating additional [magicka|E] for their employer"
- court_mage_support_liege_fallback_tt: "Every month this character has a chance of generating additional [magicka|E] for their employer"
+ court_mage_improve_self: "Изучение магии"
+ court_mage_improve_self_desc: "Этот персонаж посвящает себя улучшению своих магических навыков."
+ court_mage_improve_self_tt: "Каждый месяц есть шанс, что этот персонаж выучит новые [Concept('spells', 'заклинания')|E] или увеличит [arcana_i][Concept('arcana', 'аркану')|E] (до максимума [EmptyScope.ScriptValue('very_high_skill_rating')|0])"
+ court_mage_improve_self_fallback_tt: "Каждый месяц есть шанс, что этот персонаж выучит новые [Concept('spells', 'заклинания')|E] или увеличит [arcana_i][Concept('arcana', 'аркану')|E] (до максимума [EmptyScope.ScriptValue('very_high_skill_rating')|0])"
+ court_mage_support_liege: "Магическая поддержка"
+ court_mage_support_liege_desc: "Этот персонаж усиливает магические способности своего нанимателя."
+ court_mage_support_liege_tt: "Каждый месяц есть шанс, что этот персонаж восполнит дополнительную [Concept('magicka', 'ману')|E] своего нанимателя"
+ court_mage_support_liege_fallback_tt: "Каждый месяц есть шанс, что этот персонаж восполнит дополнительную [Concept('magicka', 'ману')|E] своего нанимателя"
 
  #Qadi
  court_chief_qadi_requirement.tt: "Необходимо практиковать [Concept('praxis', 'Праксис')|E]"
 
  #Wet Nurse
- wet_nurse_age_tt_ek: "They are under the equivalent age to #V 46 years#! for average humans"
+ wet_nurse_age_tt_ek: "Возраст эквивалентен #V 46 годам#! для обычных людей"
 
  ### CAMP OFFICERS
  ##Retainer
@@ -138,4 +138,4 @@
  domicile_building_parameter_camp_unlocks_arcanist_captain_officer:0 "Позволяет нанимать [Concept('officer', 'подручного')|E] «[GetCourtPositionType('arcanist_captain_camp_officer').GetName()]»"
  arcanist_captain_camp_officer_parameter_tt: "$camp_with_following_buildings_tt$\n$BULLET$[GetDomicileBuilding('proving_grounds_mages_study').GetName]"
 
- any_liege_or_above: "Direct liege or above:"
+ any_liege_or_above: "Прямой сюзерен или выше:"
