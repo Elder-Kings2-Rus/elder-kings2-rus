@@ -384,13 +384,13 @@
 
  ### EK Intrigue events
 
- ek_lifestyles.0051.t:0 "Interrogating Dunmer"
- ek_lifestyles.0051.desc:0 "[dunmer_prisoner.GetFirstName] is a puzzle of arrogance and resilience. [dunmer_prisoner.GetHerHis|U] people's pride is legendary, their defiance almost as deeply ingrained as their connection to the ash and flame of their homeland.\n\nI've heard stories of Dunmer enduring torment with a smirk, their fiery heritage insulating them against fear and pain. Some may even seem to... #italic Like#! it. Yet, every wall has its cracks, and every soul its weakness..."
- ek_lifestyles.0051.a:0 "I will ridicule [dunmer_prisoner.GetHerHim] in front of [dunmer_prisoner.GetHerHis] peers."
- ek_lifestyles.0051.b:0 "I will dress [dunmer_prisoner.GetHerHim] in colors of a rival house." 
- ek_lifestyles.0051.c:0 "[dunmer_prisoner.GetSheHe|U] is an ashlander! A good whipping shall do it."
- ek_lifestyles.0051.d:0 "A good spell might make burning [dunmer_prisoner.GetHerHim] viable."
- ek_lifestyles.0051.e:0 "... but I'm not the one who will find it."
+ ek_lifestyles.0051.t:0 "Допрос данмера"
+ ek_lifestyles.0051.desc:0 "[dunmer_prisoner.GetFirstName] - это загадка высокомерия и стойкости. О гордости [dunmer_prisoner.GetHerHis] народа ходят легенды, их непокорность укоренилась почти так же глубоко, как и их связь с пеплом и пламенем их родины.\n\nЯ [Select_CString(ROOT.Char.IsFemale, 'слышала', 'слышал' )] истории о том, как данмеры с ухмылкой переносили мучения, а их огненное наследие защищало их от страха и боли. Некоторым может даже показаться, что им... это #italic нравится#!. Однако в каждой стене есть свои трещины, а в каждой душе - свои слабости..."
+ ek_lifestyles.0051.a:0 "Я высмею [dunmer_prisoner.GetHerHis] перед [dunmer_prisoner.GetHerHis] соратниками."
+ ek_lifestyles.0051.b:0 "Я обряжу [dunmer_prisoner.GetHerHis] в цвета конкурирующего дома." 
+ ek_lifestyles.0051.c:0 "[dunmer_prisoner.GetSheHe|U] [Select_CString(ROOT.Char.IsFemale, 'эшлендерка', 'эшлендер' )]! Хорошей порки вполне хватит."
+ ek_lifestyles.0051.d:0 "Хорошее заклинание может целесообразно обжечь [dunmer_prisoner.GetHerHis]."
+ ek_lifestyles.0051.e:0 "...но я не [Select_CString(ROOT.Char.IsFemale, 'та', 'тот' )], кто это найдёт."
 
  ek_lifestyles.0100.t:0 "Конфискованная скума"
  ek_lifestyles.0100.desc:0 "Меня отвлекает от моих повседневных дел [enforcer.GetName], притаскивая подозрительного вида ящик в мои личные покои. Как только дверь снова надёжно закрывается, [enforcer.GetSheHe] начинает объяснять своё странное поведение:\n\n«[Select_CString(ROOT.Char.IsFemale, 'Моя Миледи', 'Мой Милорд')], нам удалось... конфисковать партию лучшей скумы на улицах местечка [skooma_county.GetNameNoTier]. Местным наркобаронам это не очень-то понравилось, но они не посмели перечить нам.»\n\n[enforcer.GetName|U], похоже, гордится собой. Когда я поднимаю бровь, [enforcer.GetSheHe] спешит добавить: «Разумеется, вы сами решите, что теперь делать с ней.»"
