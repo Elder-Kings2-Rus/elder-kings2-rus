@@ -104,7 +104,7 @@
  ek_contest_events.0003.a.success:0 "Ваш оберег сдерживает заклинания школы Разрушения."
  ek_contest_events.0003.a.failure:0 "Ваш оберег не выдержал"
  ek_contest_events.0003.b:0 "Вызовите существо в виде живого щита."
- ek_contest_events.0003.b.success:0 "Несчастный #LORE [Concept( 'compendium_daedra', 'даэдра' )|E]#! блокирует магические снаряды персонажа [versus_contestant.GetFirstNameNoTooltip]."
+ ek_contest_events.0003.b.success:0 "Несчастный [Glossary( 'даэдра', 'DAEDRA_GLOSS' )] блокирует магические снаряды персонажа [versus_contestant.GetFirstNameNoTooltip]."
  ek_contest_events.0003.b.failure:0 "Ваше призванное существо не продержалось и секунды."
  ek_contest_events.0003.c:0 "Использовать иллюзии, чтобы перенаправить эти заклинания в толпу."
  ek_contest_events.0003.c.success:0 "[watching_crowd.GetFirstName] попадает под действие заклинания."
@@ -118,7 +118,7 @@
  ek_contest_events.0004.a.failure:0 "[versus_contestant.GetFirstNameNoTooltip|U] легко восстанавливается после вашей атаки."
  ek_contest_events.0004.b:0 "Заручиться поддержкой толпы."
  ek_contest_events.0004.c:0 "Возможно, призыв поможет."
- ek_contest_events.0004.c.success:0 "Маленький #LORE [Concept( 'compendium_daedra', 'даэдра' )|E]#! прерывает исцеляющие заклинания персонажа [versus_contestant.GetFirstNameNoTooltip]."
+ ek_contest_events.0004.c.success:0 "Маленький [Glossary( 'даэдра', 'DAEDRA_GLOSS' )] прерывает исцеляющие заклинания персонажа [versus_contestant.GetFirstNameNoTooltip]."
  ek_contest_events.0004.c.failure:0 "Ваш призыв не может сломить решимость персонажа [versus_contestant.GetFirstNameNoTooltip]."
  ek_contest_events.0004.d:0 "«Кто здесь целитель?»"
  ek_contest_events.0004.d.success:0 "Ваша магия Восстановления гораздо эффективнее."
@@ -151,7 +151,7 @@
  ek_contest_events.0006.d:0 "Против подобных трюков ничего не поделать."
   
  ek_contest_events.0007.t:0 "$tournament_contest_header$ Даэдра вырвались из-под контроля!"
- ek_contest_events.0007.desc:0 "Нечто подобное должно было бы произойти, если [Select_CString(versus_contestant.IsFemale, 'такой заклинательнице', 'такому заклинателю' )], как [versus_contestant.GetFirstName], разрешили участвовать в этих событиях! Дремора, вызванный персонажем [versus_contestant.GetFirstNameNoTooltip], вырывается на свободу в тот момент, когда [dremora_markynaz.GetSheHe] [Select_CString(dremora_markynaz.IsFemale, 'была призвана', 'был призван' )] в этот мир. Я вижу жажду крови на лице этого #LORE [Concept( 'compendium_daedra', 'даэдра' )|E]#!, поскольку [dremora_markynaz.GetFirstName] намеревается максимально использовать свою свободу.\n\n[dremora_markynaz.GetSheHe] готовится к атаке на неудачливую цель, но невозможно сказать, кто почувствует гнев дреморы." #NT!
+ ek_contest_events.0007.desc:0 "Нечто подобное должно было бы произойти, если [Select_CString(versus_contestant.IsFemale, 'такой заклинательнице', 'такому заклинателю' )], как [versus_contestant.GetFirstName], разрешили участвовать в этих событиях! Дремора, вызванный персонажем [versus_contestant.GetFirstNameNoTooltip], вырывается на свободу в тот момент, когда [dremora_markynaz.GetSheHe] [Select_CString(dremora_markynaz.IsFemale, 'была призвана', 'был призван' )] в этот мир. Я вижу жажду крови на лице этого [Glossary( 'даэдра', 'DAEDRA_GLOSS' )], поскольку [dremora_markynaz.GetFirstName] намеревается максимально использовать свою свободу.\n\n[dremora_markynaz.GetSheHe] готовится к атаке на неудачливую цель, но невозможно сказать, кто почувствует гнев дреморы." #NT!
  ek_contest_events.0007.a:0 "Изгнать дремору [dremora_markynaz.GetFirstNameNoTooltip|U] обратно в Обливион!"
  ek_contest_events.0007.a.success:0 "Дремора возвращается туда, откуда [Select_CString(dremora_markynaz.IsFemale, 'явилась', 'явился' )]."
  ek_contest_events.0007.a.failure:0 "Ваши попытки лишь раздражают дремору [dremora_markynaz.GetFirstNameNoTooltip]."

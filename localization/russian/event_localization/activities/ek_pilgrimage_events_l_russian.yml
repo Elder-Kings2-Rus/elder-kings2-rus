@@ -15,7 +15,7 @@
  pilgrimage.5001.b:0 "Да, они действительно мертвы."
  
  ek_pilgrimage.0001.t:0 "$pilgrimage_header$ Чтение проповедей"
- ek_pilgrimage.0001.desc:0 "Даже в паломничестве священники всё равно читают проповеди. Собрание обычно проводится под открытым небом, когда поблизости нет храма.\n\nНе испугавшись, ревностный [ROOT.Char.Custom('DefaultPriestTitle')] стоит и читает проповеди. Я сижу среди публики и слушаю [sermon_reader.GetHerHim].\n\n«Конец этих слов – АЛЬМСИВИ.», заканчивает [sermon_reader.GetSheHe]. Я размышляю о прочитанном."
+ ek_pilgrimage.0001.desc:0 "Даже в паломничестве священники всё равно читают проповеди. Собрание обычно проводится под открытым небом, когда поблизости нет храма.\n\nНе испугавшись, ревностный [ROOT.Char.Custom('DefaultPriestTitle')] стоит и читает проповеди. Я сижу среди публики и слушаю [sermon_reader.GetHerHim].\n\n«Конец этих слов – [Glossary( 'АЛМСИВИ', 'TRIBUNAL_GLOSS' )]», заканчивает [sermon_reader.GetSheHe]. Я размышляю о прочитанном."
  ek_pilgrimage.0001.a:0 "Славься Вивек!"
  ek_pilgrimage.0001.b:0 "Как скучно, я буду в своей палатке."
 
@@ -25,7 +25,7 @@
  ek_pilgrimage.0002.b:0 "Я [Select_CString(ROOT.Char.IsFemale, 'недостойна', 'недостоин' )], о Джулианос."
 
  ek_pilgrimage.0003.t:0 "$pilgrimage_header$ Святилище кровавого камня"
- ek_pilgrimage.0003.desc:0 "Паломничество само по себе может быть весьма тяжёлым испытанием, но некоторые паломники временами действуют ещё радикальнее. Я [Select_CString(ROOT.Char.IsFemale, 'заметила', 'заметил' )] кровавый след, тянущийся за некоторыми паломниками. Это весьма удивило меня, поэтому я через некоторое время [Select_CString(ROOT.Char.IsFemale, 'остановила', 'остановил' )] одного из них, чтобы спросить, не позвать ли врача.\n\nСо вздохом и болью в голосе [hetman.GetSheHe] [Select_CString(hetman.IsFemale, 'ответила', 'ответил' )] мне, что это – доказательство их преданности Трибуналу. Паломники используют специальную обувь, которая колет и режет их ноги, дабы они могли почувствовать боль мучеников. В ходе этого создаётся кровавый камень, также известный как гелиотроп, который они оставляют в святилище на пути к месту под названием [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]."
+ ek_pilgrimage.0003.desc:0 "Паломничество само по себе может быть весьма тяжёлым испытанием, но некоторые паломники временами действуют ещё радикальнее. Я [Select_CString(ROOT.Char.IsFemale, 'заметила', 'заметил' )] кровавый след, тянущийся за некоторыми паломниками. Это весьма удивило меня, поэтому я через некоторое время [Select_CString(ROOT.Char.IsFemale, 'остановила', 'остановил' )] одного из них, чтобы спросить, не позвать ли врача.\n\nСо вздохом и болью в голосе [hetman.GetSheHe] [Select_CString(hetman.IsFemale, 'ответила', 'ответил' )] мне, что это – доказательство их преданности [Glossary( 'Трибуналу', 'TRIBUNAL_GLOSS' )]. Паломники используют специальную обувь, которая колет и режет их ноги, дабы они могли почувствовать боль мучеников. В ходе этого создаётся кровавый камень, также известный как гелиотроп, который они оставляют в святилище на пути к месту под названием [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]."
  ek_pilgrimage.0003.a:0 "Во имя святого Велота! Я пройду это испытание!"
  ek_pilgrimage.0003.a.tt:0 "Вы просите пару обуви паломников для себя и направляетесь по следу из засохшей крови."
  ek_pilgrimage.0003.b:0 "Безумцы!"
@@ -57,7 +57,7 @@
  ek_pilgrimage.0008.b:0 "Оградить себя от этого безумства."
 
  ek_pilgrimage.0009.t:0 "Путь паломника: Учтивость"
- ek_pilgrimage.0009.desc:0 "Я продолжаю дышать, пока священные воды наполняют мои лёгкие, но моя вера не ослабевает. В конце-концов я чувствую, как силы покидают тело, и я оказываюсь в комнате с дреморой и сокрытым святилищем за [krazzt.GetHerHis] спиной.\n\nПо мере того, как я приближаюсь к этому существу, [krazzt.GetSheHe] нетерпеливо указывает на святилище, а затем протягивает мне открытую ладонь, словно ожидая подношений от меня. В замешательстве я подхожу к святилищу, на котором замечаю выбитую надпись:\n\n#I В битве с Мерунесом Дагоном Вивек предпочёл отдать свой длинный серебряный меч Лорду #LORE [Concept( 'compendium_daedra', 'даэдра' )|E]#! бою с безоружным врагом. Это настолько впечатлило дремора, самых достойных и благородных из слуг Мерунеса Дагона, что они и по сей день выказывают приверженцам Трибунала своё уважение и почтение, хотя мы никогда не должны забывать о том, что они наши враги.#!"
+ ek_pilgrimage.0009.desc:0 "Я продолжаю дышать, пока священные воды наполняют мои лёгкие, но моя вера не ослабевает. В конце-концов я чувствую, как силы покидают тело, и я оказываюсь в комнате с дреморой и сокрытым святилищем за [krazzt.GetHerHis] спиной.\n\nПо мере того, как я приближаюсь к этому существу, [krazzt.GetSheHe] нетерпеливо указывает на святилище, а затем протягивает мне открытую ладонь, словно ожидая подношений от меня. В замешательстве я подхожу к святилищу, на котором замечаю выбитую надпись:\n\n#I В битве с Мерунесом Дагоном Вивек предпочёл отдать свой длинный серебряный меч [Glossary( 'даэдрическому владыке', 'DAEDRA_GLOSS' )] бою с безоружным врагом. Это настолько впечатлило дремора, самых достойных и благородных из слуг Мерунеса Дагона, что они и по сей день выказывают приверженцам [Glossary( 'Трибуналу', 'TRIBUNAL_GLOSS' )] своё уважение и почтение, хотя мы никогда не должны забывать о том, что они наши враги.#!"
  ek_pilgrimage.0009.a:0 "Отдать дреморе длинный серебряный меч."
  ek_pilgrimage.0009.b:0 "Произнести краткую молитву и вернуться назад."
 
@@ -109,6 +109,37 @@
  ek_pilgrimage.0017.a:0 "Славься Святой Ллотис! Славьтесь портные и красильщики!"
  ek_pilgrimage.0017.b:0 "Я [Select_CString(ROOT.Char.IsFemale, 'недостойна', 'недостоин' )], великий Святой." 
  
+ ek_pilgrimage.0018.t:0 "A Divine Meeting"
+ ek_pilgrimage.0018.desc:0 "As I embark on my sacred pilgrimage through the hallowed city of Vivec, a humble priest discreetly approaches, offering a rare opportunity to witness a public appearance of the Living God Himself. Captivated by the prospect of beholding the divine in a grand setting, I contemplate the sacred significance and potential wisdom such an event may bestow."
+ ek_pilgrimage.0018.a:0 "Fine, take this gold."
+ ek_pilgrimage.0018.b:0 "I've come this far. My devotion will take me to the Warrior Poet."
+ ek_pilgrimage.0018.c:0 "Not interested."
+
+ ek_pilgrimage.0019.t:0 "The Warrior Poet"
+ ek_pilgrimage.0019.desc:0 "As I stand among the fortunate few gathered in Vivec City, a sense of anticipation fills the air as we await the public appearance of the revered god, Vivec. The crowd hushes in reverence as He finally emerges, His presence commanding and divine. A radiant aura engulfs us, and for a moment, time seems to stand still."
+ ek_pilgrimage.0019.a:0 "Praise Vivec!"
+ ek_pilgrimage.0019.a.flavor:0 "The Living God starts speaking..."
+ 
+ ek_pilgrimage.0020.desc:0 "As Vivec addresses the select group, His words weighing like a barrel of lead deep within my soul. It is as if he speaks directly to me, telling, in riddles, what is my place in the world. The truths He imparts are like a personal yet universal revelation, and I feel truly touched by the divine."
+ ek_pilgrimage.0020.a:0 "Praise the Warrior Poet!" 
+ ek_pilgrimage.0020.a.flavor:0 "Vivec's speech comes to an end..."
+ 
+ ek_pilgrimage.0021.desc:0 "In the presence of the god of wisdom and knowledge, purpose and clarity are manifested. The mysteries of the universe seem to align, and I am inspired to follow the path that has been illuminated before me. As the divine audience comes to an end, He leaves me devoted and connected like never before. Vivec's presence has forever changed me, and I will forever carry his wisdom in my heart."
+ ek_pilgrimage.0021.a:0 "Teach me your dance, Martial Axiom!"
+ ek_pilgrimage.0021.b:0 "Impart me with Verse and Metaphor!"
+ ek_pilgrimage.0021.c:0 "I only wish to serve, Lord..."
+ ek_pilgrimage.0021.d:0 "I am the Warrior Poet's vessel."
+
+ ek_pilgrimage.0022.t:0 "$pilgrimage_header$ The Immolation of Anequina"
+ ek_pilgrimage.0022.desc:0 "While heading towards my destination in the pilgrimage, I spot a bright shimmer in the distance, almost like it was calling me from afar.\n\nAs I approach the site, I immediately recognise the object that was emitting such a bright light. It was the talisman which belonged to St. Vorys himself! Oh, joyous day! I fall to my knees and start a fervorous prayer while tears roll down my face.\n\nTouching it moves me so much that I consider also devouting myself to the Immolant Saint."
+ ek_pilgrimage.0022.a:0 "Our prayers mean nothing, our offerings mean nothing!"
+ ek_pilgrimage.0022.b:0 "I'm not worthy, great Saint." 
+
+ ek_pilgrimage.0023.t:0 "$pilgrimage_header$ Take My Breath Away"
+ ek_pilgrimage.0023.desc:0 "Necrom is a city surrounded by an atypical aura. It is as mysterious as it's holy and, having extensively explored the religious side of the City of the Dead, I decide to delve deep into the occult side of it.\n\nAs I wander through the immense labyrinth of underground catacombs, faint whispers tell me of a time before the Tribunal, where the whole of Necrom was worshipping daedra. As the whispers guided me in the catacombs, they proceeded with the story.\n\nALMSIVI had big plans and Ayem needed to be loved by all of Morrowind, so she named a champion and blessed a blade. This blade was known as Breathtaker, for it made the daedra silent and the cultists breathless. Not even spirits could resist its powers. The faint whispers brought me to a forgotten corner of the labyrinths, and there, resting upon an unmarked sarcophagus, was the blade."
+ ek_pilgrimage.0023.a:0 "Blessed Ayem, I carry on this legacy."
+ ek_pilgrimage.0023.b:0 "That is not mine to take."
+
  ek_pilgrimage.1018.t:0 "$pilgrimage_header$ Меч крестоносца"
  ek_pilgrimage.1018.desc:0 "Направляясь к месту своего паломничества, я [Select_CString(ROOT.Char.IsFemale, 'заметила', 'заметил' )] на горизонте яркое мерцание, которое словно звало меня издалека.\n\nПодойдя к заинтересовавшему меня месту, я сразу же [Select_CString(ROOT.Char.IsFemale, 'узнала', 'узнал' )] предмет, излучавший столь яркий свет. Это меч Пелинала Вайтстрейка, изготовленный самим Аркеем. О, что за радостный день! Я падаю на колени и начинаю горячо молиться своему богу-покровителю. Прикоснувшись к мечу, я обнаруживаю надпись на камне позади него:\n\n#F «Чти землю, созданий её и духов, живущих и умерших. Храни и береги подаренное миру смертных и не тревожь души усопших.»#!"
  ek_pilgrimage.1018.a:0 "Славься Аркей!"

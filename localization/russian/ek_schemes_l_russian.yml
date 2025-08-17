@@ -36,7 +36,7 @@
  CHARACTER_HAS_A_LYCAN_SECRET_KNOWN_BY_CHARACTER:0 "[CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsPlayer, ' персонаж', '' )] скрывает [secret|El] (Ликантропия), известный [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'ему персонажу', '' )]"
  CHARACTER_HAS_A_LYCAN_SECRET_NOT_KNOWN_BY_CHARACTER:0 "[CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsPlayer, ' персонаж', '' )] скрывает [secret|El] (Ликантропия), известный [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'ему персонажу', '' )]"
  has_a_lycan_secret_known_by_character:0 "Скрывает [secret|El] (Ликантропия), известный [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'ему персонажу', '' )]"
- convert_to_lycan:0 "Обращение в оборотня""
+ convert_to_lycan:0 "Обращение в оборотня"
  CONVERT_TO_LYCAN_SUCCESS_DESC:0 "[TARGET_CHARACTER.GetShortUIName|U] становится оборотнем"
  lycan_scheme_blocked_trigger:0 "Возможны ликантропные происки"
 

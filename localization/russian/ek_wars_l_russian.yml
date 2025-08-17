@@ -5,8 +5,8 @@
  CONQUEST_KINGDOM_CB_NAME:0 "Завоевать [kingdom|El]"
  CONQUEST_EMPIRE_CB_NAME:1 "Завоевать [Concept( 'empire', 'империю' )|E]"
 
- HOUSE_TOMB_0_CONQUEST_CB_NAME:0 "Вернуть гробницу Великого Дома"
- HOUSE_TOMB_0_CONQUEST_WAR_NAME:0 "Вернуть гробницу Великого Дома"
+ HOUSE_TOMB_0_CONQUEST_CB_NAME:0 "Вернуть [Concept('great_house_tomb', 'гробницу Великого дома')|E]"
+ HOUSE_TOMB_0_CONQUEST_WAR_NAME:0 "Вернуть [Concept('great_house_tomb', 'гробницу Великого дома')|E]"
  
  CLEANSE_ABOMINATIONS_NAME:1 "Очистить скверну в домене [TITLE.GetBaseName]"
  CLEANSE_ABOMINATIONS_DUCHY_NAME:1 "[cleanse_abomination|E]"
@@ -26,13 +26,6 @@
  banish_demon_victory_desc:0 "[attacker.GetShortUIName] [Select_CString(attacker.IsLocalPlayer, 'захватываете', 'захватывает' )] все земли в пределах оспариваемого [Concept( 'title', 'титула' )|E], принадлежащие [Concept( 'daedric_race', 'даэдрической расе' )|E], а остальные становятся вассалами."
  banish_demon_white_peace_desc:0 "[titles|E] не меняют владельца."
  banish_demon_defeat_desc:0 "[titles|E] не меняют владельца."
- 
- MIGRATION_COUNTY_CB_NAME:1 "Переселиться в [county|El]"
- MIGRATION_WAR_NAME:2 "$ORDER$ #L [ATTACKER.GetPrimaryTitle.GetAdjective]ое#! переселение в графство [TITLE.GetBaseName]"
- MIGRATION_WAR_NAME_BASE:0 "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]"
- migration_cb_seizes_county:0 "Ваш народ захватит контроль над графством [target_county.GetName]"
- county_migration_cb_victory_desc_attacker:0 "Ваш народ покинет одно из ваших [Concept('counties', 'графств')|E] и заселит новые земли в пределах оспариваемого [Concept('title', 'титула')|E]."
- migration_cb_releases_county:0 "Персонаж из графство [neighbouring_freed_county.GetName] захватит титул [freed_county.GetName]"
  
  PIRATE_ISLAND_CONQUEST_CB_NAME:1 "Пиратское завоевание острова"
  PIRATE_ISLAND_CONQUEST_WAR_NAME:2 "$ORDER$ #L [ATTACKER.GetPrimaryTitle.GetAdjective]ое#! пиратское завоевание домена [TITLE.GetBaseName]"
