@@ -1,64 +1,64 @@
 ﻿l_russian:
  #general
- culture_resurrection_event.0001.t.base:0 "A Dead Culture?"
- culture_resurrection_event.0001.desc.base:0 "Our people are thought lost, called a [dead_culture|E]. It seems that we have no towns, no villages, to be found.\n\nAs a leader, I must ask the question: are we alone? Are we doomed never to share our language, to never resettle our lost lands?"
- culture_resurrection_event.0001.option1.base:0 "All is not lost. We shall return!"
- culture_resurrection_event.0001.option2.base:0 "All is not lost. We shall return, soon."  
- culture_resurrection_event.0001.option3.base:0 "Alone forever. These are the last days of the [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]..."  
+ culture_resurrection_event.0001.t.base:0 "Мёртвая культура?"
+ culture_resurrection_event.0001.desc.base:0 "Наш народ считают исчезнувшим, именуют [Concept( 'dead_culture', 'мёртвым' )|E]. Говорят, у нас нет ни городов, ни деревень – будто нас никогда и не было.\n\nКак лидер нашего народа, я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] задать вопрос: мы одни? Обречён ли наш язык исчезнуть, а земли остаться незаселёнными?"
+ culture_resurrection_event.0001.option1.base:0 "Не всё ещё потеряно. Мы вернёмся!"
+ culture_resurrection_event.0001.option2.base:0 "Не всё ещё потеряно. Мы вернёмся, совсем скоро."  
+ culture_resurrection_event.0001.option3.base:0 "Мы одиноки навеки. Это последние дни [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|l]ого народа..."  
 
  #generic event options
  culture_resurrection_event.0001.option1:0 "С нами [GetPlayer.GetFaith.HighGodName|U]!"
- culture_resurrection_event.0001.option3:0 "We should not reveal our people..." 
+ culture_resurrection_event.0001.option3:0 "Мы не должны раскрывать наш народ..." 
 
  #Tooltips
  culture_resurrection_event.0001.option1.flavor:0 "Нам предстоит тяжёлая работа...\n\n @warning_icon! #X Ваша культура будет считаться [Concept( 'living_culture_short', 'живой' )|E] и сможет [Concept( 'promote_culture', 'распространяться' )|E]! #!"
  culture_resurrection_event.0001.option2.flavor:0 "Ваша культура пока что останется [Concept( 'dead_culture', 'мёртвой' )|E].\n\nОднако если впоследствии вы станете [Concept( 'landed', 'землевладельцем' )|E], ваша культура будет считаться [Concept( 'living_culture_short', 'живой' )|E] и сможет [Concept( 'promote_culture', 'распространяться' )|E]!"  
  culture_resurrection_event.0001.option3.flavor:0 "@warning_icon! #X Ваша культура останется [Concept( 'dead_culture_short', 'мёртвой' )|E] и не сможет [Concept( 'promote_culture', 'распространяться' )|E]. Выбирайте мудро, ибо это событие больше не повторится! #!"
- culture_resurrection_event.0001.other_cultures:0 "All other [cultures|E] of $heritage_dwemeri_name$#! [heritage|E] loses the #V $innovation_extinct_race$#! [innovation|E] and gains #V $innovation_dead_culture$#!."
+ culture_resurrection_event.0001.other_cultures:0 "Все остальные [Concept( 'culture', 'культуры' )|E] $heritage_dwemeri_name$ого [Concept( 'heritage', 'наследия' )|E] потеряют [Concept( 'innovation', 'инновацию' )|E] #V $innovation_extinct_race$#! и получат #V $innovation_dead_culture$#!."
 
  #Offmap cultures
  culture_resurrection_event.0001.t.offmap:0 "New Arrivals"
- culture_resurrection_event.0001.desc.offmap:0 "Our people are far away, so far that some call us a [dead_culture|E]. In these lands, there are so few of us.\n\nAs a leader, I must ask the question: are we alone? Are we doomed never to share our language, to never settle these new lands?"
- culture_resurrection_event.0001.option1.offmap:0 "To new beginnings."
- culture_resurrection_event.0001.option2.offmap:0 "To new beginnings."  
- culture_resurrection_event.0001.option3.offmap:0 "Alone forever. The [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] shall never take root here."
+ culture_resurrection_event.0001.desc.offmap:0 "Наш народ далеко – настолько, что нас уже называют [Concept( 'dead_culture', 'мёртвой культурой' )|E]. В этих землях нас очень мало.\n\nКак лидер нашего народа, я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] задать вопрос: мы одни? Обречён ли наш язык исчезнуть, а эти новые земли остаться незаселёнными?"
+ culture_resurrection_event.0001.option1.offmap:0 "За новое начало."
+ culture_resurrection_event.0001.option2.offmap:0 "За новое начало."  
+ culture_resurrection_event.0001.option3.offmap:0 "Мы одиноки навеки. [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|l]ий народ никогда не пустит здесь корни."
 
  #Falmer
  culture_resurrection_event.0001.t.falmer:0 "Возвращение фалмеров"
- culture_resurrection_event.0001.desc.falmer:0 "Тысячи лет назад норды изгнали наш народ из наших домов.\n\nС тех пор мы вынуждены влачить жалкое существование в тайных анклавах, вроде моего собственного местечка под названием [GetPlayer.GetCurrentLocation.GetNameNoTooltip], которое было защищено магией и удалённостью, дабы никто и никогда больше не мог причинить нам вреда.\n\nМагические барьеры и плащи делали свое дело хорошо. Но мы столкнулись с врагом, что был страшнее нордов прошлого. И имя этому негодяю — голод. Наш народ стал слишком многочисленным, а почва слишком неплодородной, чтобы мы могли могли надеяться прокормить себя в будущем. Пришло время мне вести свой народ обратно в суровый мир."
- culture_resurrection_event.0001.option1.falmer:0 "We will honour the Snow Prince."
+ culture_resurrection_event.0001.desc.falmer:0 "Тысячи лет назад норды изгнали наш народ из наших домов.\n\nС тех пор мы вынуждены влачить жалкое существование в тайных анклавах, вроде моего собственного местечка под названием [GetPlayer.GetCurrentLocation.GetNameNoTooltip], которое было защищено магией и удалённостью, дабы никто и никогда больше не мог причинить нам вреда.\n\nМагические барьеры и плащи делали свое дело хорошо. Но мы столкнулись с врагом, что был страшнее нордов прошлого. И имя этому негодяю – голод. Наш народ стал слишком многочисленным, а почва слишком неплодородной, чтобы мы могли могли надеяться прокормить себя в будущем. Пришло время мне вести свой народ обратно в суровый мир."
+ culture_resurrection_event.0001.option1.falmer:0 "Мы почтим память Снежного принца."
  culture_resurrection_event.0001.option2.falmer:0 "Да найдём мы убежище от этого лютого холода."
- culture_resurrection_event.0001.option3.falmer:0 "Our time has passed."
+ culture_resurrection_event.0001.option3.falmer:0 "Наше время прошло."
 
  #Betrayed
  culture_resurrection_event.0001.t.betrayed:0 "Рассвет преданных"
- culture_resurrection_event.0001.desc.betrayed:0 "Для нашего народа жить на поверхности неестественно. Воздух и звуки здесь чужие — не говоря уже о мире света, который мы не можем ни услышать, ни потрогать.\n\nБудет непросто поселиться наверху, в окружении всех этих видящих существ, которые желают нам лишь зла. Но мы не трусы.\n\nЯ приму эту вызов и отправлюсь на поверхность. И вместе со мной отправятся наши корусы и культура."
- culture_resurrection_event.0001.option1.betrayed:0 "Now we reclaim the lands of light!"
+ culture_resurrection_event.0001.desc.betrayed:0 "Для нашего народа жить на поверхности неестественно. Воздух и звуки здесь чужие – не говоря уже о мире света, который мы не можем ни услышать, ни потрогать.\n\nБудет непросто поселиться наверху, в окружении всех этих видящих существ, которые желают нам лишь зла. Но мы не трусы.\n\nЯ приму эту вызов и отправлюсь на поверхность. И вместе со мной отправятся наши корусы и культура."
+ culture_resurrection_event.0001.option1.betrayed:0 "Мы покорим земли света!"
  culture_resurrection_event.0001.option2.betrayed:0 "Есть ли для нас дом на поверхности?" 
- culture_resurrection_event.0001.option3.betrayed:0 "We belong to the deeps..."
+ culture_resurrection_event.0001.option3.betrayed:0 "Мы принадлежим глубинам..."
 
  #Dwemer
  culture_resurrection_event.0001.t.dwemer:0 "Выкорчеванные из времени"
- culture_resurrection_event.0001.desc.resdayn:0 "ЧРЕЗВЫЧАЙНЫЙ ОТЧЁТ ГЛАВНОГО ТОНАЛЬНОГО АРХИТЕКТОРА — #italic Декомпрессия дракона. Ахатические ахрононумеронуклеи доведены до приемлемых значений с помощью последовательного отслеживания настройки когтей Джиллс. Следуя соответствующим протоколам,#!\n\n#italic Хор Ресдайна:#! #Y ОТСУТСТВИЕ СИГНАЛА#!\n#italic Частота Крагена:#! #N КРАСНАЯ ТИШИНА#!\n#italic Частота Руркена:#! #N КРАСНАЯ ТИШИНА#!\n#italic Неровные гармонии:#! #N НЕДОСТИЖИМЫ#!\n\n#italic Попытки связаться с другими мастерами тона для проверки и синхронизации не увенчались успехом, так как их нет. Активность Красной Горы является предполагаемой причиной неожиданного поведения реальности.#!\n\nЭто не тот мир, частью которого мы были ещё несколько минут назад. Мы не знаем, как и почему это произошло. Все, что мы знаем, - это то, что Дракон сломался, и Джиллс выкорчевали нас из времени, чтобы снова сделать его целым.\n\n#bold Мы — последние и лучшие остатки расы двемеров. К добру или к худу.#!"
- culture_resurrection_event.0001.desc.kragen:0 "ЧРЕЗВЫЧАЙНЫЙ ОТЧЁТ ГЛАВНОГО ТОНАЛЬНОГО АРХИТЕКТОРА — #italic Декомпрессия дракона. Ахатические ахрононумеронуклеи доведены до приемлемых значений с помощью последовательного отслеживания настройки когтей Джиллс. Следуя соответствующим протоколам,#!\n\n#italic Частота Крагена:#! #Y ОТСУТСТВИЕ СИГНАЛА#!\n#italic Частота Руркена:#! #N КРАСНАЯ ТИШИНА#!\n#italic Хор Ресдайна:#! #N КРАСНАЯ ТИШИНА#!\n#italic Неровные гармонии:#! #N НЕДОСТИЖИМЫ#!\n\n#italic Попытки связаться с другими мастерами тона для проверки и синхронизации не увенчались успехом, так как их нет. Активность Красной Горы является предполагаемой причиной неожиданного поведения реальности.#!\n\nЭто не тот мир, частью которого мы были ещё несколько минут назад. Мы не знаем, как и почему это произошло. Все, что мы знаем, - это то, что Дракон сломался, и Джиллс выкорчевали нас из времени, чтобы снова сделать его целым.\n\n#bold Мы — последние и лучшие остатки расы двемеров. К добру или к худу.#!"
- culture_resurrection_event.0001.desc.rourken:0 "ЧРЕЗВЫЧАЙНЫЙ ОТЧЁТ ГЛАВНОГО ТОНАЛЬНОГО АРХИТЕКТОРА — #italic Декомпрессия дракона. Ахатические ахрононумеронуклеи доведены до приемлемых значений с помощью последовательного отслеживания настройки когтей Джиллс. Следуя соответствующим протоколам,#!\n\n#italic Частота Руркена:#! #Y ОТСУТСТВИЕ СИГНАЛА#!\n#italic Частота Крагена:#! #N КРАСНАЯ ТИШИНА#!\n#italic Хор Ресдайна:#! #N КРАСНАЯ ТИШИНА#!\n#italic Неровные гармонии:#! #N НЕДОСТИЖИМЫ#!\n\n#italic Попытки связаться с другими мастерами тона для проверки и синхронизации не увенчались успехом, так как их нет. Активность Красной Горы является предполагаемой причиной неожиданного поведения реальности.#!\n\nЭто не тот мир, частью которого мы были ещё несколько минут назад. Мы не знаем, как и почему это произошло. Все, что мы знаем, - это то, что Дракон сломался, и Джиллс выкорчевали нас из времени, чтобы снова сделать его целым.\n\n#bold Мы — последние и лучшие остатки расы двемеров. К добру или к худу.#!"
+ culture_resurrection_event.0001.desc.resdayn:0 "ЧРЕЗВЫЧАЙНЫЙ ОТЧЁТ ГЛАВНОГО ТОНАЛЬНОГО АРХИТЕКТОРА – #italic Декомпрессия дракона. Ахатические ахрононумеронуклеи доведены до приемлемых значений с помощью последовательного отслеживания настройки когтей Джиллс. Следуя соответствующим протоколам,#!\n\n#italic Хор Ресдайна:#! #Y ОТСУТСТВИЕ СИГНАЛА#!\n#italic Частота Крагена:#! #N КРАСНАЯ ТИШИНА#!\n#italic Частота Руркена:#! #N КРАСНАЯ ТИШИНА#!\n#italic Неровные гармонии:#! #N НЕДОСТИЖИМЫ#!\n\n#italic Попытки связаться с другими мастерами тона для проверки и синхронизации не увенчались успехом, так как их нет. Активность Красной Горы является предполагаемой причиной неожиданного поведения реальности.#!\n\nЭто не тот мир, частью которого мы были ещё несколько минут назад. Мы не знаем, как и почему это произошло. Все, что мы знаем, – это то, что Дракон сломался, и Джиллс выкорчевали нас из времени, чтобы снова сделать его целым.\n\n#bold Мы – последние и лучшие остатки расы двемеров. К добру или к худу.#!"
+ culture_resurrection_event.0001.desc.kragen:0 "ЧРЕЗВЫЧАЙНЫЙ ОТЧЁТ ГЛАВНОГО ТОНАЛЬНОГО АРХИТЕКТОРА – #italic Декомпрессия дракона. Ахатические ахрононумеронуклеи доведены до приемлемых значений с помощью последовательного отслеживания настройки когтей Джиллс. Следуя соответствующим протоколам,#!\n\n#italic Частота Крагена:#! #Y ОТСУТСТВИЕ СИГНАЛА#!\n#italic Частота Руркена:#! #N КРАСНАЯ ТИШИНА#!\n#italic Хор Ресдайна:#! #N КРАСНАЯ ТИШИНА#!\n#italic Неровные гармонии:#! #N НЕДОСТИЖИМЫ#!\n\n#italic Попытки связаться с другими мастерами тона для проверки и синхронизации не увенчались успехом, так как их нет. Активность Красной Горы является предполагаемой причиной неожиданного поведения реальности.#!\n\nЭто не тот мир, частью которого мы были ещё несколько минут назад. Мы не знаем, как и почему это произошло. Все, что мы знаем, – это то, что Дракон сломался, и Джиллс выкорчевали нас из времени, чтобы снова сделать его целым.\n\n#bold Мы – последние и лучшие остатки расы двемеров. К добру или к худу.#!"
+ culture_resurrection_event.0001.desc.rourken:0 "ЧРЕЗВЫЧАЙНЫЙ ОТЧЁТ ГЛАВНОГО ТОНАЛЬНОГО АРХИТЕКТОРА – #italic Декомпрессия дракона. Ахатические ахрононумеронуклеи доведены до приемлемых значений с помощью последовательного отслеживания настройки когтей Джиллс. Следуя соответствующим протоколам,#!\n\n#italic Частота Руркена:#! #Y ОТСУТСТВИЕ СИГНАЛА#!\n#italic Частота Крагена:#! #N КРАСНАЯ ТИШИНА#!\n#italic Хор Ресдайна:#! #N КРАСНАЯ ТИШИНА#!\n#italic Неровные гармонии:#! #N НЕДОСТИЖИМЫ#!\n\n#italic Попытки связаться с другими мастерами тона для проверки и синхронизации не увенчались успехом, так как их нет. Активность Красной Горы является предполагаемой причиной неожиданного поведения реальности.#!\n\nЭто не тот мир, частью которого мы были ещё несколько минут назад. Мы не знаем, как и почему это произошло. Все, что мы знаем, – это то, что Дракон сломался, и Джиллс выкорчевали нас из времени, чтобы снова сделать его целым.\n\n#bold Мы – последние и лучшие остатки расы двемеров. К добру или к худу.#!"
  culture_resurrection_event.0001.option1.dwemer:0 "Перестроиться. Восстановиться. Переоценить."
  culture_resurrection_event.0001.option2.dwemer:0 "Мы ещё отвоюем наши старые города." 
- culture_resurrection_event.0003.option3.dwemer:0 "Мы обязаны выяснить, что привело к исчезновению остальных членов нашего рода."  
+ culture_resurrection_event.0001.option3.dwemer:0 "Мы обязаны выяснить, что привело к исчезновению остальных членов нашего рода."  
 
  #Atmoran
  culture_resurrection_event.0001.t.atmoran:0 "Возвращение"
  culture_resurrection_event.0001.desc.atmoran:0 "Много веков назад наши предки попрощались с великими кораблями из Атморы, что были изготовлены из древнего леса из глубин нашей памяти. Прощай, Йоррваскр; прощай, Сирод; прощай, о корабль с корпусом из непереходного дерева; прощай, корабль с кристальной мачтой. Когда наши предки смотрели им вслед, стоя на снежных берегах Моры, они всё ещё могли видеть солнце сквозь туман и снег наших любимых небес.\n\nТе дни давно миновали. У холода, стужи и мороза много имён, но итог один. Тех, кто остался в Атморе, ждёт лишь холодная, холодная смерть. Как и древним морякам прошлого, нам пришлось долго плыть на юг, навсегда оставляя свой дом за спиной. Хотя наши суда и не могут сравниться с великим кораблями древности, которые доставили нордов к Глотке мира, но свою цель они выполнили. Мы наконец-то покинули промёрзший до основания континент и можем начать всё заново на новой родине."
- culture_resurrection_event.0001.option1.atmoran:0 "We anchor here!"
+ culture_resurrection_event.0001.option1.atmoran:0 "Мы бросим якорь здесь!"
  culture_resurrection_event.0001.option2.atmoran:0 "Да найдём мы новые порты для наших кораблей."
  culture_resurrection_event.0001.option3.atmoran:0 "Со временем память об Атморе ослабнет."
 
  #Galen
- culture_resurrection_event.0001.t.galen:0 "Galen, Restore Thyselves"
- culture_resurrection_event.0001.desc.galen:0 "The Galen peoples have long been absent, faded entirely from the deathlands and changed by time and the wild magics of the Glenumbrial. Our time is past, and our old ways gone; our language is heard no more, and around us are only strange faces. We see no Galen lands, no remnants of our great tribes, and almost no hope that we shall ever take root again. But perhaps not all is lost.\n\nSo many myths abound of ancient Galenites protected by forgotten gods, like the seven sleepers of Phrygias, still hiding in their cave; or the Daphneic druids of Bergama, who, having healed the wrong lord, turned into laurel trees to protect themselves; or those who hide among the covens."
- culture_resurrection_event.0001.option1.galen:0 "We may not be them, but we are returned."  
- culture_resurrection_event.0001.option2.galen:0 "And we shall find all such lost siblings."  
- culture_resurrection_event.0001.option3.galen:0 "But now, we are a footnote of history."
+ culture_resurrection_event.0001.t.galen:0 "Галены, возродитесь"
+ culture_resurrection_event.0001.desc.galen:0 "Народы Галена давно исчезли из этих земель, изменившись под действием времени и дикой магии Гленумбры. Наше время давно прошло, а древние обычаи забыты. Наш язык больше не звучит на перекрёстках, а вокруг лишь чужие лица. Не осталось ни земель Галена, ни следа от великих племён. Мы почти лишились надежды, что вновь пустим корни. Но, быть может, не всё потеряно.\n\nХодит множество мифов о древних галенитах, хранимых забытыми богами. Например, о семи спящих из Фригии, всё ещё скрывающихся в своей пещере. Или о дафнейских друидах из Бергамы, что, исцелив не того лорда, обратились в лавровые деревья, чтобы спастись от гнева аристократов. Или тех, кто всё ещё скрывается среди ведьмовских ковенов."
+ culture_resurrection_event.0001.option1.galen:0 "Мы – не они, но мы вернулись."  
+ culture_resurrection_event.0001.option2.galen:0 "Мы найдём всех утерянных братьев и сестёр."  
+ culture_resurrection_event.0001.option3.galen:0 "Но сейчас мы лишь сноска в истории."
 
  # Laamp events
  culture_resurrection_event.1000.t: "Конец пути"

@@ -927,8 +927,8 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
  doctrine_parameter_pantheon_adds_deities_riddlethar:0 "Добавит следующих покровителей в [pantheon|El]: Кенарти, Мара, С'рендарр, Алкош, $god_magrus_name$, Баан-Дар" #Боэтра
  doctrine_parameter_pantheon_unlocks_daedra_riddlethar:0 "Разблокирует возможность добавления следующих [Glossary( 'даэдра', 'DAEDRA_GLOSS' )] в ваш [pantheon|El] c помощью [Concept( 'doctrines', 'доктрин' )|E] даэдрических принцев: Азурра, Хирсин"
  
- doctrine_pantheon_good_daedra_trigger:0 "Нельзя, чтобы Малакат, Мерунес Дагон, Молаг Бал или Шеогорат были включены в пантеон или приняты"
- doctrine_pantheon_bad_daedra_trigger:0 "Нельзя, чтобы Азура, Боэтия или Мефала были включены в Пантеон или приняты"
+ doctrine_pantheon_good_daedra_trigger:0 "Малакат, Мерунес Дагон, Молаг Бал или Шеогорат не могут быть частью пантеона или приемлемы для поколения"
+ doctrine_pantheon_bad_daedra_trigger:0 "Азура, Боэтия или Мефала не могут быть частью пантеона или приемлемы для поколения"
  
  shezarr_worship_full_trigger:0 "[doctrine|E] #LORE [Concept('compendium_missing_god', 'Потерянного Бога')|E]#! должна быть установлена как [GetFaithDoctrine('doctrine_shezarr_worship_full').GetBaseName]"
  shezarr_worship_forbidden_trigger:0 "[doctrine|E] #LORE [Concept('compendium_missing_god', 'Потерянного Бога')|E]#! должна быть установлена как [GetFaithDoctrine('doctrine_shezarr_worship_forbidden').GetBaseName]"
