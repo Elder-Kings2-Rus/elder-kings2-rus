@@ -1,0 +1,40 @@
+﻿l_russian:
+ morrowind_meeting.0010.t:0 "#D Starting event for Grand Council meeting#!" #EK TODO Morrowind_Activity
+ morrowind_meeting.0010.desc.intro:0 "The Grand Council of $2E_DATE$ convenes, and [host.GetTitledFirstName] takes the stage, flanked by [host.GetHerHis] retainers. \n\n”By the grace of the Three, we have convened the Grand Council of Morrowind here in [host.GetCurrentLocation.GetName]. "
+#Ashlanders
+ morrowind_meeting.0010.desc.ashlanders_assimilate:0 "Particular attention shall be paid to the question of the Ashlanders, who it has been proposed ought to be cured of their false-thought and be brought to the truth of Veloth as held up by the Tribunal, in custom and creed.”"
+ morrowind_meeting.0010.desc.ashlanders_tolerance:0 "Particular attention shall be paid to the question of the Ashlanders, who it has been proposed should be given respite from the incursions of curates and ordinators, to serve as wellspring from which we may draw upon the ancient traditions of Veloth, their barbarism notwithstanding.”"
+ morrowind_meeting.0010.desc.ashlanders_temple_reserve:0 "Particular attention shall be paid to the question of the Ashlanders, or rather the tribes in Vvardenfell. The Temple, represented by the Arch-Canon of Vivec, has been suggested as sole steward of the island, and has already promised to limit its colonization.”"
+#Slavery
+ morrowind_meeting.0010.slavery_allowed:0 "Particular attention shall be paid to the question of slavery, which, abolished not too long ago, has been the birthright of all Velothi. Since abolition has proven unpopular, it has been proposed to end the experiment and to restore the institution.”"
+ morrowind_meeting.0010.desc.slavery_outlawed:0 "Particular attention shall be paid to the question of slavery, which, though a tradition and right since the dawn of Resdayn, has perhaps held us back. To improve relations with our neighbours, some of who are presently enslaved, its abolition has been proposed.”"
+#War
+ morrowind_meeting.0010.desc.war_external:0 "Particular attention shall be paid to the question of warfare, since all Tamriel is now embroiled in conflict. It has been proposed that the Houses should be allowed to lead their retinues to war against our enemies even without being led by the Tribunal themselves.”"
+ morrowind_meeting.0010.desc.war_outlawed:0 "Particular attention shall be paid to the question of warfare, or rather the Great Houses abstention from it. There are traditions that govern conflict among the Houses, which suffice to meet our needs, but which outlanders do not understand. Since the Tribunal protects us, it has been suggested we forbid adventures into Tamriel.”"
+ morrowind_meeting.0010.desc.war_internal:0 "Particular attention shall be paid to the question of warfare, particularly the expansion of the House Wars…concerns have been raised about the dangers of banditry and false claimants. Current regulations, originally designed to prevent war between House members, tie their hands too greatly. Perhaps it is time to allow the nobles of each House autonomy over how they use their own forces, and end the oversight of the Grand Council over such disputes.”"
+#Outlanders
+ morrowind_meeting.0010.desc.outlanders_open_borders:0 "Particular attention shall be paid to the question of Morrowind's borders, and the permission to allow select outlanders to enter our lands, provided of course a House acts as a guarantor and ensures that the arrival contributes to Morrowind in a degree proportional to their offensive beliefs and culture.”"
+ morrowind_meeting.0010.desc.outlanders_xenophobia:0 "Particular attention shall be paid to the question of Morrowind's borders, or rather a concrete proposal to send the outlanders back to their own lands, where they may live and act in whichever way they like but which are unacceptable here... of course, the proposal exempts those outlanders that are property.”"
+#Morag Tong
+ morrowind_meeting.0010.desc.morag_tong_allowed:0 "Particular attention shall be paid to the question of the Morag Tong, and in particular a proposal to facilitate their operations by elevating them to the same standing as the Chapthil Tong and the Cammona Tong, as well as addressing their specific needs, so that the Great Houses can conduct their business serving the Tribunal and Morrowind's people, and leave unpleasant distractions such as political assassinations to experts.”"
+ morrowind_meeting.0010.desc.morag_tong_shunned:0 "Particular attention shall be paid to the question of the Morag Tong, specifically legislation that would allow them to act exclusively as a last resort, receiving no sponsorship from the Houses save for the price of a writ, and not being allowed to advertise their services nor to keep honorable residences or safehouses within the same walls as a temple to the Tribunal. The Morag Tong may have become indispensable agents to the Houses, but we must remember their excesses during the Potentate's rule.”"
+ morrowind_meeting.0010.desc.morag_tong_outlawed:0 "Particular attention shall be paid to the question of the Morag Tong, specifically the renewed calls to withdraw any and all support and treat them as no more than an erratic cult of Mephala. Secret murder, “honorable” writs, and the hitherto exercised leniency in investigating a murderer's client could all be outlawed as a consequence.”"
+ #Outro
+ morrowind_meeting.0010.desc.outro:0 "\n\nMurmurs go through the crowd, and already it is possible to discern the supporters and opponents of this notion in particular."
+ morrowind_meeting.0010.a:0 "#D Starting discussing#!" #EK TODO Morrowind_Activity
+
+#Discussion events
+ gcm_discussion.0001.t: "The Abolitionist Movement"
+ gcm_discussion.0001.desc: "During a brief recess, I step out for a moment. There is only so much council discourse one can stomach before needing a breath of clean air. But I have the corridor for myself for only a moment, as a [abolitionist_character.GetWomanMan] approaches me, hesitantly at first but in the end standing before me resolutely.\n\n“Muthsera, a word.” [abolitionist_character.GetSheHe] says. I recall now,  seeing [abolitionist_character.GetHerHim] before, among the servants. “I am a nobody, but I know certain people who would very much like to see Morrowind's slaves go free. This practice is abhorrent, and outdated. But perhaps, it can be abandoned at last.” \n [abolitionist_character.GetSheHe|U] whispers “Can we count on your support? It would be worth much to us. Much.”"
+ gcm_discussion.0001.a: "Do tell your contacts I would like to be in touch."
+ gcm_discussion.0001.a.success: "Nobody notices what you've discussed."
+ gcm_discussion.0001.a.failure: "You are spotted conspiring with outside interests."
+ gcm_discussion.0001.b: "Begone! I will vote with my conscience!"
+
+ gcm_discussion.0002.t: "The Camonna Tong"
+ gcm_discussion.0002.desc: "During a brief recess, I step out for a moment. I do have to exchange pleasantries with a few lower ranking House retainers, but that is preferable to listening to another minute of politics. I sigh as I am nevertheless introduced to someone, who it is said, would love to speak to me.“Discreetly, if possible”, the [cammona_tong_character.GetWomanMan] says with a smile. I give [cammona_tong_character.GetHerHim] a minute. [cammona_tong_character.GetSheHe] begins, conspiratorially: “I represent the Camonna Tong, an organization with many interests, as you know. Several of our interests are tied up in business that is threatened by the proposal at hand. I believe if the proposal were to fail, however, we would both stand to profit significantly.”"
+ gcm_discussion.0002.a: "Significantly, you say?"
+ gcm_discussion.0002.b: "That is for me to decide, f'lah."
+
+ commit_to_voting_yes: "Committed to voting Yes"
+ commit_to_voting_no: "Comitted to voting No"

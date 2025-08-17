@@ -11,18 +11,6 @@
  pirate_elective_electors:0 "Правитель и вассалы"
  pirate_elective_electors_tooltip:0 "Право называться [Concept('elector', 'выборщиками')|E] на $pirate_elective_succession_law$, имеют вассалы, отвечающие следующим критериям:\n$EFFECT_LIST_BULLET$Прямой вассал титула\n$EFFECT_LIST_BULLET$Вассал на один или два [Concept('ranks', 'ранга')|E] ниже титула\n$EFFECT_LIST_BULLET$Быть действительным [Concept('vassal', 'вассалом')|E] титула"
 
-#Militaristic government's Merit based succession
-
- merit_succession_law:0 "Меритократия"
- merit_succession_law_subname:0 "Ваш конклав собирается, чтобы избрать достойного преемника"
- merit_succession_law_effects:0 "\n#V Согласно [Concept('succession', 'наследованию')|E] $merit_succession_law$, каждый член вашего [Concept('council', 'совета')|E] будет голосовать за назначение [Concept('heir', 'наследника')|E], они будут выбирать кандидата из своих рядов, основываясь на его способности к руководству ( [martial|El], [intrigue|El] и возраст).#!\n\n#weak $merit_succession_base_desc$#!"
- merit_succession_base_desc:0 "#weak При наследовании все [Concept('county', 'графства')|E], принадлежавшие покойному [Concept('ruler', 'правителю')|E], будут иметь шанс отделиться от вашего правления, в зависимости от их [Concept('control', 'контроля')|E]. \n\nПровинции, которые имеют достаточно высокий [control|El] останутся за главным наследником покойного правителя.\n\nВаша столичная провинция всегда будет передана вашему наследнику!\n#!"
- 
- merit_elective_candidates:0 "Члены Военного совета"
- merit_elective_candidates_tooltip:0 "Для того чтобы быть действительным кандидатом для $merit_succession_law$ Персонаж должен выполнить следующее условие:\n$EFFECT_LIST_BULLET$Быть членом военного [Concept('council', 'совета')|E]."
- merit_elective_electors:0 "Члены Военного совета"
- merit_elective_electors_tooltip:0 "Для того чтобы быть действительным [Concept('elector', 'выборщиком')|E] по закону $merit_succession_law$ придворный должен быть членом военного [Concept('council', 'совета')|E]."
- 
  mbhof_succession_law:0 "Мистическое право рождения"
  mbhof_succession_law_subname:0 "Высшие силы решают, кто станет нашим преемником"
  mbhof_succession_law_effects:0 "\n#V Согласно [Concept('succession', 'наследованию')|E] $mbhof_succession_law$, преемник, выбранный нынешним [Concept('head_of_faith', 'главой конфессии')|E] получит власть.\n\n$mbhof_succession_base_desc$"
@@ -98,6 +86,8 @@
  tooltip_dunmeri_elector_vote_house_values_education_1:0 "[candidate.GetSheHe|U] соответствует нашей [Concept('great_house_value', 'ценности Дома')|E]: $VALUE|=+0$"
  tooltip_dunmeri_elector_vote_house_values_education_2:0 "[candidate.GetSheHe|U] соответствует нашей [Concept('great_house_value', 'ценности Дома')|E] well: $VALUE|=+0$"
  tooltip_dunmeri_elector_vote_founding_dynasty:0 "[candidate.GetSheHe|U] принадлежит к числу основателей [Concept('dynasty', 'династии')|E]: $VALUE|=+0$"
+ tooltip_dunmeri_elector_vote_supported_house:0 "[candidate.GetSheHe|U] успешно [Select_CString(candidate.IsFemale, 'поддержала', 'поддержал' )] этот Великий дом: $VALUE|=+0$"
+ tooltip_dunmeri_elector_vote_undermined_house:0 "[candidate.GetSheHe|U] успешно [Select_CString(candidate.IsFemale, 'ослаблена', 'ослаблен' )] политическими оппонентами: $VALUE|=+0$"
 
 # Praxis Succession Law
  altmeri_elective_succession_law:0 "Праксические выборы"
@@ -148,3 +138,8 @@
  admin_vote_physique_good_desc: "Сила"
  admin_vote_physique_bad_desc: "Слабость"
  admin_vote_impurity_desc: "Является [Concept('impure', 'нечистым')|E]"
+ admin_house_values_education_1: "Suits [great_house_value|E]"
+ admin_house_values_education_2: "Suits [great_house_value|E] well"
+ admin_great_house_founding_dynasty:0 "Belongs to the founding [dynasty|E]"
+ admin_supported_house:0 "Successfully Supported this Great House"
+ admin_undermined_house:0 "Was successfully undermined by a political rival"

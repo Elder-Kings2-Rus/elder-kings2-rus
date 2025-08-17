@@ -99,13 +99,6 @@
  trait_education_magic_5_desc:0 "Этот персонаж обучался только у самых могущественных и знающих волшебников и достиг вершины магического понимания. Законы самой реальности больше не могут ограничить подобные способности."
  trait_education_magic_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'обучалась', 'обучался' )] только у самых могущественных и знающих волшебников и [Select_CString(ROOT.GetCharacter.IsFemale, 'достигла', 'достиг' )] вершины магического понимания. Законы самой реальности больше не могут ограничить [Select_CString(ROOT.GetCharacter.IsFemale, 'её', 'его' )] способности."
 
- trait_unmourned_blood:0 "Кровь Неоплаканных"
- trait_unmourned_blood_desc:0 "Кажется, что у этого персонажа что-то не так в родословной, но истинная природа этого остается загадкой."
- trait_unmourned_blood_character_desc:0 "Кажется, [ROOT.GetCharacter.GetFirstNameNoTooltip] что-то не знает о своей родословной, но истинная природа этого остается загадкой."
- trait_scarab_blood:0 "Кровь Скарабея"
- trait_scarab_blood_desc:0 "Этот персонаж является потомком проклятого Шестого Великого дома, дома Дагот. Открыв правду о своей родословной, [Select_CString(ROOT.GetCharacter.IsFemale, 'она обрела', 'он обрел' )] тревожную силу и обожание со стороны прочих членов культа."
- trait_scarab_blood_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является потомком проклятого Шестого Великого дома, дома Дагот. Открыв правду о своей родословной, [Select_CString(ROOT.GetCharacter.IsFemale, 'она обрела', 'он обрёл' )] тревожную силу и обожание со стороны прочих членов культа."
-
  trait_arcana_good:0 "Позитивное сродство с Арканой"
  trait_arcana_good_1:0 "Сонастроенность"
  trait_arcana_good_1_desc:0 "Этот персонаж хорошо сонастроен с Этериусом, что облегчает чтение заклинаний."
@@ -153,31 +146,66 @@
  trait_line_of_x_desc:0 "Этот персонаж является представителем рода [ROOT.Char.GetFirstNameNoTooltip]."
  trait_line_of_x_desc_null:0 "Этот персонаж является представителем рода X." # incase character doesnt exist
 
- trait_lifespan:0 "[gc_lifespan|E]"
+ trait_lifespan:0 "Естественная [Concept('gc_lifespan', 'продолжительность жизни')|E]"
+ TRAIT_FLAG_DESC_inheritable_lifespan:0 "\nThis [gc_lifespan|E] is inheritable"
+ TRAIT_FLAG_DESC_not_inheritable_lifespan:0 "\n#N This [gc_lifespan|E] is not inheritable#!"
+ 
+ trait_lifespan_1:1 "Lifespan I"
+ trait_lifespan_1_desc:1 "Naturally this character might live into their early 100s. Women with this trait will become infertile at around age 85."
+ trait_lifespan_1_character_desc:1 "Naturally [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] early 100s. Women with this trait will become infertile at around age 85."
+ 
+ trait_lifespan_2:1 "Lifespan II"
+ trait_lifespan_2_desc:1 "Naturally this character might live into their mid 100s. Women with this trait will become infertile at around age 115."
+ trait_lifespan_2_character_desc:1 "Naturally [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 100s. Women with this trait will become infertile at around age 115."
 
- trait_lifespan_1:1 "Продолжительность жизни I #italic ([gc_lifespan|E])#!"
- trait_lifespan_1_desc:1 "Благодаря естественным или же магическим причинам этот персонаж может прожить до 100 лет. Женщины с этим свойством становятся бесплодными примерно в 85 лет."
- trait_lifespan_1_character_desc:1 "Благодаря естественным или же магическим причинам [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 100 лет. Женщины с этим свойством становятся бесплодными примерно в 85 лет."
+ trait_lifespan_3:1 "Продолжительность жизни III"
+ trait_lifespan_3_desc:1 "Благодаря естественным причинам этот персонаж может прожить до 200 лет. Женщины с этим свойством становятся бесплодными примерно в 150 лет."
+ trait_lifespan_3_character_desc:1 "Благодаря естественным причинам [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 200 лет. Женщины с этим свойством становятся бесплодными примерно в 150 лет."
 
- trait_lifespan_2:1 "Продолжительность жизни II #italic ([gc_lifespan|E])#!"
- trait_lifespan_2_desc:1 "Благодаря естественным или же магическим причинам этот персонаж может прожить до 150 лет. Женщины с этим свойством становятся бесплодными примерно в 115 лет."
- trait_lifespan_2_character_desc:1 "Благодаря естественным или же магическим причинам [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 150 лет. Женщины с этим свойством становятся бесплодными примерно в 115 лет."
+ trait_lifespan_4:1 "Продолжительность жизни IV"
+ trait_lifespan_4_desc:1 "Благодаря естественным причинам этот персонаж может прожить до 300 лет. Женщины с этим свойством становятся бесплодными примерно в 215 лет."
+ trait_lifespan_4_character_desc:1 "Благодаря естественным причинам [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 300 лет. Женщины с этим свойством становятся бесплодными примерно в 215 лет."
 
- trait_lifespan_3:1 "Продолжительность жизни III #italic ([gc_lifespan|E])#!"
- trait_lifespan_3_desc:1 "Благодаря естественным или же магическим причинам этот персонаж может прожить до 250 лет. Женщины с этим свойством становятся бесплодными примерно в 150 лет."
- trait_lifespan_3_character_desc:1 "Благодаря естественным или же магическим причинам [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 250 лет. Женщины с этим свойством становятся бесплодными примерно в 150 лет."
+ trait_lifespan_magic:0 "Magical [gc_lifespan|E]"
+ trait_lifespan_magic_1:1 "Magical Lifespan I"
+ trait_lifespan_magic_1_desc:1 "By means of magicka, this character might live into their early 100s. Women with this trait will become infertile at around age 85."
+ trait_lifespan_magic_1_character_desc:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] early 100s. Women with this trait will become infertile at around age 85."
+ trait_lifespan_magic_1_character_desc_extended:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] early 100s. Women with this trait will become infertile at around age 85.\n\n[ROOT.GetCharacter.GetHerHis|U] natural [gc_lifespan|E] was [ROOT.Char.Custom('GetNaturalLifespan')], which may be passed down to [ROOT.GetCharacter.GetHerHis] children."
 
- trait_lifespan_4:1 "Продолжительность жизни IV #italic ([gc_lifespan|E])#!"
- trait_lifespan_4_desc:1 "Благодаря естественным или же магическим причинам этот персонаж может прожить до 350 лет. Женщины с этим свойством становятся бесплодными примерно в 215 лет."
- trait_lifespan_4_character_desc:1 "Благодаря естественным или же магическим причинам [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 350 лет. Женщины с этим свойством становятся бесплодными примерно в 215 лет."
+ trait_lifespan_magic_2:1 "Magical Lifespan II"
+ trait_lifespan_magic_2_desc:1 "By means of magicka,, this character might live into their mid 100s. Women with this trait will become infertile at around age 115."
+ trait_lifespan_magic_2_character_desc:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 100s. Women with this trait will become infertile at around age 115."
+ trait_lifespan_magic_2_character_desc_extended:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 100s. Women with this trait will become infertile at around age 115.\n\n[ROOT.GetCharacter.GetHerHis|U] natural [gc_lifespan|E] was [ROOT.Char.Custom('GetNaturalLifespan')], which may be passed down to [ROOT.GetCharacter.GetHerHis] children."
 
- trait_lifespan_5:1 "Продолжительность жизни V #italic ([gc_lifespan|E])#!"
- trait_lifespan_5_desc:1 "Благодаря естественным или же магическим причинам этот персонаж может прожить до 550 лет. Женщины с этим свойством становятся бесплодными примерно в 340 лет."
- trait_lifespan_5_character_desc:1 "Благодаря естественным или же магическим причинам [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 550 лет. Женщины с этим свойством становятся бесплодными примерно в 340 лет."
+ trait_lifespan_magic_3:1 "Magical Lifespan III"
+ trait_lifespan_magic_3_desc:1 "By means of magicka, this character might live into their mid 200s. Women with this trait will become infertile at around age 150."
+ trait_lifespan_magic_3_character_desc:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 200s. Women with this trait will become infertile at around age 150."
+ trait_lifespan_magic_3_character_desc_extended:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 200s. Women with this trait will become infertile at around age 150.\n\n[ROOT.GetCharacter.GetHerHis|U] natural [gc_lifespan|E] was [ROOT.Char.Custom('GetNaturalLifespan')], which may be passed down to [ROOT.GetCharacter.GetHerHis] children."
 
- trait_lifespan_6:1 "Бессмертие #italic ([gc_lifespan|E])#!"
- trait_lifespan_6_desc:1 "Этот персонаж не умрёт от старости, но за это приходится платить своим телом и разумом."
- trait_lifespan_6_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] не умрёт от старости, но за это приходится платить своим телом и разумом."
+ trait_lifespan_magic_4:1 "Magical Lifespan IV"
+ trait_lifespan_magic_4_desc:1 "By means of magicka, this character might live into their mid 300s. Women with this trait will become infertile at around age 215."
+ trait_lifespan_magic_4_character_desc:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 300s. Women with this trait will become infertile at around age 215."
+ trait_lifespan_magic_4_character_desc_extended:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 300s. Women with this trait will become infertile at around age 215.\n\n[ROOT.GetCharacter.GetHerHis|U] natural [gc_lifespan|E] was [ROOT.Char.Custom('GetNaturalLifespan')], which may be passed down to [ROOT.GetCharacter.GetHerHis] children."
+
+ trait_lifespan_magic_5:1 "Magical Lifespan V"
+ trait_lifespan_magic_5_desc:1 "By means of magicka, this character might live into their mid 500s. Women with this trait will become infertile at around age 340."
+ trait_lifespan_magic_5_character_desc:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 500s. Women with this trait will become infertile at around age 340."
+ trait_lifespan_magic_5_character_desc_extended:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 500s. Women with this trait will become infertile at around age 340.\n\n[ROOT.GetCharacter.GetHerHis|U] natural [gc_lifespan|E] was [ROOT.Char.Custom('GetNaturalLifespan')], which may be passed down to [ROOT.GetCharacter.GetHerHis] children.."
+ 
+ trait_lifespan_magic_6:1 "Magical Immortal"
+ trait_lifespan_magic_6_desc:1 "This character has through magical means achieved immortality, and will not die of old age."
+ trait_lifespan_magic_6_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has through magical means achieved immortality, and will not die of old age."
+ trait_lifespan_magic_6_character_desc_extended:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has through magical means achieved immortality, and will not die of old age.\n\n[ROOT.GetCharacter.GetHerHis|U] natural [gc_lifespan|E] was [ROOT.Char.Custom('GetNaturalLifespan')], which may be passed down to [ROOT.GetCharacter.GetHerHis] children."
+
+ trait_lifespan_6:1 "Immortal"
+ trait_lifespan_6_desc:1 "This character is a true immortal, forever unaging."
+ trait_lifespan_6_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a true immortal, forever unaging."
+
+ natural_lifespan_0:0 "of average length"
+ natural_lifespan_1:0 "[GetTrait('lifespan_1').GetName( GetNullCharacter )]"
+ natural_lifespan_2:0 "[GetTrait('lifespan_2').GetName( GetNullCharacter )]"
+ natural_lifespan_3:0 "[GetTrait('lifespan_3').GetName( GetNullCharacter )]"
+ natural_lifespan_4:0 "[GetTrait('lifespan_4').GetName( GetNullCharacter )]"
 
  trait_poet_nord:0 "Скальд"
 
@@ -348,11 +376,11 @@
 
  trait_furstock_pahmar_loc:0 "Памар"
  trait_furstock_pahmar:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_pahmar_loc') )]"
- trait_furstock_pahmar_desc:0 "Рождающиеся при полном Массере и новой Секунде памар - гигантская двуногая порода каджитов, похожая на сенч-тигров."
+ trait_furstock_pahmar_desc:0 "Рождающиеся при полном Массере и новой Секунде памар - гигантская двуногая форма каджитов, похожая на сенч-тигров."
 
  trait_furstock_pahmar_raht_loc:0 "Памар-рат"
  trait_furstock_pahmar_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_pahmar_raht_loc') )]"
- trait_furstock_pahmar_raht_desc:0 "Рождающиеся при полном Массере и убывающей Секунде памар-рат - гигантская двуногая порода каджитов. Поскольку они самые сильные из пород каджитов, их обычно используют в качестве телохранителей и воинов. Они похожи на сенч-тигров, но памар-раты отличаются от них тем, что они крупнее и опаснее, с стопоходящими ногами и массивным ростом."
+ trait_furstock_pahmar_raht_desc:0 "Рождающиеся при полном Массере и убывающей Секунде памар-рат - гигантская двуногая форма каджитов. Поскольку они самые сильные из форм каджитов, их обычно используют в качестве телохранителей и воинов. Они похожи на сенч-тигров, но памар-раты отличаются от них тем, что они крупнее и опаснее, с стопоходящими ногами и массивным ростом."
 
  trait_furstock_suthay_loc:0 "Сутай"
  trait_furstock_suthay:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_suthay_loc') )]"
@@ -364,7 +392,7 @@
 
  trait_furstock_tojay_loc:0 "Тоджай"
  trait_furstock_tojay:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_tojay_loc') )]"
- trait_furstock_tojay_desc:0 "Рождающиеся при нарастающем Массере и новой Секунде тоджай - одна из самых загадочных пород. О них мало что известно, кроме того, что они обитают в южных болотах и джунглях Эльсвейра, а также в Тенмарском лесу."
+ trait_furstock_tojay_desc:0 "Рождающиеся при нарастающем Массере и новой Секунде тоджай - одна из самых загадочных форм. О них мало что известно, кроме того, что они обитают в южных болотах и джунглях Эльсвейра, а также в Тенмарском лесу."
 
  trait_furstock_tojay_raht_loc:0 "Тоджай-рат"
  trait_furstock_tojay_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', Localize('trait_furstock_tojay_raht_loc') )]"
@@ -480,11 +508,16 @@
  trait_clone_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чьим-то клоном. [ROOT.GetCharacter.GetSheHe|U] не [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )] обычным способом, а [Select_CString(ROOT.GetCharacter.IsFemale, 'была создана', 'был создан' )] с помощью непонятного магического процесса [Concept('self_replication', 'самовоспроизведения')|E], также известного как [Concept('cloning', 'клонирование')|E]."
 
 
+ trait_former_slave:0 "Former Slave"
+ trait_former_slave_desc:0 "An erstwhile slave, this character was either granted their freedom or cast off their own shackles through force of arms.
+ trait_former_slave_character_desc:0 "An erstwhile slave, [ROOT.GetCharacter.GetFirstNameNoTooltip] was either granted [ROOT.GetCharacter.GetHerHis] freedom or cast off [ROOT.GetCharacter.GetHerHis] own shackles through force of arms."
+
  trait_track_magic:0 "Магия"
  trait_track_magic_desc:0 "Использовать магию в любой форме - значит держать в руках осколки божественной силы."
 
  trait_cannibal_gp:0 "Мясной завет"
  trait_cannibal_character_desc_gp:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] соблюдает Мясной завет, продиктованный Зелёным пактом."
+
 
  trait_herbalist_1: "Травник"
  trait_herbalist_2: "Алхимик"

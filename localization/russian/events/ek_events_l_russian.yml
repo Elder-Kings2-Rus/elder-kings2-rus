@@ -50,18 +50,18 @@
  ek_court.0003.desc10:0 "«Решения, решения... М'Айк рад, что у него не слишком много возможных выборов.»"
  ek_court.0003.desc11:0 "«Картография - это тяжёлая работа. Каждая карта основана на сотнях других.»"
  ek_court.0003.desc12:0 "«М'Айк дружелюбен с утками, но опасается их. Они бывают сварливы, и М'Айк знает, что они обладают силой, способной уничтожить всех нас.»"
- ek_court.0003.desc13:0 "«М'Айк слышал предупреждения о #LORE [Concept( 'compendium_daedric', 'даэдрическом' )|E]#! шёпоте, но когда он встретил Малаката, тот вовсе не шептал.»"
- ek_court.0003.desc14:0 "«М'Айк задаётся вопросом, как двемеры питают свои металлические устройства. Камни душ? #LORE [Concept( 'compendium_daedric', 'Даэдрическая' )|E]#! энергия? Кровь невинных? Возможно, оно работает просто так.»"
+ ek_court.0003.desc13:0 "«М'Айк слышал предупреждения о [Glossary( 'даэдрическом', 'DAEDRA_GLOSS' )] шёпоте, но когда он встретил Малаката, тот вовсе не шептал»."
+ ek_court.0003.desc14:0 "«М'Айк задаётся вопросом, как двемеры питают свои металлические устройства. Камни душ? [Glossary( 'Даэдрическая', 'DAEDRA_GLOSS' )] энергия? Кровь невинных? Возможно, оно работает просто так.»"
  ek_court.0003.desc15:0 "«Раньше всё было намного проще. Раньше у М'Айка было две мысли одновременно, теперь - три.»"
  ek_court.0003.desc16:0 "«Иногда даже М'Айку что-то кажется непонятным. Какое отношение имеет Па'алатин к водным просторам Аргонии?»"
  ek_court.0003.desc17:0 "«Мы, каджиты, всегда были уверены, что драконы - это просто кошки. Это относится и к Алкхану, которого другие называют Алдуином. Вопреки распространённому мнению, Алкхан на самом деле женщина.»"
  ek_court.0003.desc18:0 "«М'Айк читал, что береговая линия Чернотопья время от времени полностью меняется без видимых причин. Может быть, это прихоть Хиста или высших сил?»"
- ek_court.0003.desc19:0 "«М'Айк иногда задаётся вопросом, к чему взывают #LORE [Concept( 'compendium_daedric_princes', 'князья даэдра' )|E]#! - к нашим порокам или к нашим добродетелям.»"
- ek_court.0003.desc20:0 "«М'Айк считает #LORE [Concept( 'compendium_daedric', 'даэдрические' )|E]#! культы любопытными. Они могут менять свои правила множество раз, прежде чем решить как поклоняться князьям.»"
+ ek_court.0003.desc19:0 "«М'Айк иногда задаётся вопросом, к чему взывают [Glossary( 'князья даэдра', 'DAEDRA_GLOSS' )] - к нашим порокам или к нашим добродетелям.»"
+ ek_court.0003.desc20:0 "«М'Айк считает [Glossary( 'даэдрические', 'DAEDRA_GLOSS' )] культы любопытными. Они могут менять свои правила множество раз, прежде чем решить как поклоняться князьям.»"
  ek_court.0003.desc21:0 "«Зачем иметь одного старого короля, если можно иметь двух? Как один складывается с двумя, а два с тремя - головная боль.»"
  ek_court.0003.desc22:0 "«Иногда М'Айк задумывается, названы ли некоторые места по какой-то конкретной причине, или эти названия придуманы на месте просто так.»"
  ek_court.0003.desc23:0 "«Они говорят о картографе, который отправился в Джерольские горы и не вернулся. М'Айку интересно, что с ним случилось.»"
- ek_court.0003.desc24:0 "«Некоторые требуют, чтобы имга показали себя. М'Айк отвечает, что имга покажут себя, когда их можно будет представить должным образом.»"
+ ek_court.0003.desc24:0 "«Некоторые требуют, чтобы минотавры показали себя. М'Айк отвечает, что минотавры покажут себя, когда их можно будет представить должным образом.»"
  ek_court.0003.desc25:0 "«Торговые пути? Зачем каджитам нужен определённый маршрут для торговли, если они могут идти куда угодно?»"
  ek_court.0003.desc26:0 "«М'Айк провёл долгое, долгое время в Скайриме. Там он часто попадал в неприятности и становился пленником, но, к счастью, его снова и снова отпускали.»"
  ek_court.0003.desc27:0 "«М'Айку однажды показалось, что он видел снежного эльфа. Присмотревшись он понял, что это был всего лишь маг.»"
@@ -89,6 +89,9 @@
  ek_court.0003.desc49:0 "«Многие обвиняют М'Айка в поклонении Боэтре, даже сама Боэтра. М'Айк не понимает, почему. Возможно, она лжёт.»"
  ek_court.0003.desc50:0 "«В Морровинде много каджитов, верно? Возможно, когда-то эти две провинции были куда ближе чем сейчас?»" # This is a reference to a longstanding bug which made Morrowind and Elsweyr border each other.
  ek_court.0003.desc51:0 "«Некоторые говорят, что большие корабли могут плавать по Нибену. Как они могут пройти под мостами Лейавина - загадка для М'Айка.»"
+ ek_court.0003.desc52:0 ""Some claim the Imga disappeared with Falinesti. M'aiq thinks that if so the Imga didn't disappear for long, and have no memory of having been gone.""
+ ek_court.0003.desc53:0 ""Apparently the primal traditions of goblins once destroyed the world. M'aiq does not know why, but it happened."" # the goblin unit innovation primal traditions caused a ctd for no good reason after a ck3 update
+ ek_court.0003.desc54:0 ""Telvanni wizards are a contentious sort. M'aiq thinks their insistence on maintaining rivalries even past death must cause some problems."" # parliament of bugs bug
  ek_court.0003.a:0 "Это было... любопытно."
 
  ek_court.0004.t:0 "$hold_court_header$ [Select_CString(yagrum.IsFemale, 'Последняя', 'Последний' )] из своего рода"
@@ -211,7 +214,7 @@
  ek_daedric_artifacts.0011.desc:0 "[recipient.GetFirstName] и я в последнее время проводим много времени вместе. Я знаю как заставить [recipient.GetHerHis] улыбаться, плакать и смеяться.\n\nНо в одном я ещё не [Select_CString(ROOT.Char.IsFemale, 'преуспела', 'преуспел' )]. Я не знаю как заставить [recipient.GetHerHis] кричать. Это стало для меня проблемой. Я просто [Select_CString(ROOT.Char.IsFemale, 'обязана', 'обязан' )] узнать как. [recipient.Custom2('RelationToMe', SCOPE.sC('actor'))|U] и [actor.Custom2('RelationToMe', SCOPE.sC('recipient'))] должны знать друг друга вдоль и поперёк, верно? Пока я точу инструменты и проверяю, чтобы веревки были крепко закреплены, по подземелью разносится глубокий голос.\n\n«Прекрасно, [Select_CString(ROOT.Char.IsFemale, 'смертная', 'смертный' )]. Я хочу увидеть, как ты доведёшь [Select_CString(recipient.IsFemale, 'эту женщину', 'этого мужчину' )] до грани. До отчаяния. Я щедро вознагражу тебя, если ты решишь служить Повелителю Жестокости. Я жажду страданий и смерти. Преподнесёшь ли ты мне их?»"
  ek_daedric_artifacts.0011.a:0 "Страдания и смерть."
  ek_daedric_artifacts.0011.b:0 "Страдания, но не смерть."
- ek_daedric_artifacts.0011.c:0 "Прочь из моей головы, #LORE [Concept( 'compendium_daedra', 'даэдра' )|E]#!!"
+ ek_daedric_artifacts.0011.c:0 "Прочь из моей головы, даэдра!"
 
  ek_daedric_artifacts.0012.t:0 "Доброжелательное командование"
  ek_daedric_artifacts.0012.desc:0 "В последнее время мне кажется, что я [Select_CString(ROOT.Char.IsFemale, 'отличная', 'отличный' )] [ROOT.Char.GetTitleAsName|l]. Мои подданные считают меня [Select_CString(ROOT.Char.IsFemale, 'интересной и заботливой', 'интересным и заботливым' )], крестьяне радуются всякий раз, когда я появляюсь на публике. Я греюсь в лучах собственной славы, наблюдая за своими владениями через окно, залитое золотым сиянием от уходящего за горизонт солнца. Неожиданно я слышу спокойный, но твёрдый голос, обращающийся ко мне.\n\n«Не бойся, [ROOT.Char.GetFirstNameNoTooltip]. Я Королева Рассвета и Заката, Азура. Я явилась к тебе из-за твоих деяний. Твои подданные, друзья и возлюбленные очень верны тебе. Я желаю того же. Если ты окажешь мне то же уважение и восхищение, которое ты испытываешь к смертным, находящимся под твоей опекой и командованием, я воздам тебе тысячекратно. Служи мне, и я достойно вознагражу тебя.»"
@@ -314,7 +317,7 @@
  ek_daedric_artifacts.0027.desc:0 "Я уже некоторое время ем плоть подобных себе. С каждым разом она становиться всё слаще, а другие вкусы всё более приторными.\n\nОднажды ночью, когда я [Select_CString(ROOT.Char.IsFemale, 'размышляла', 'размышлял' )] о следующей трапезе, я [Select_CString(ROOT.Char.IsFemale, 'услышала', 'услышал' )] голос, идущий изнутри меня, как будто мои внутренности внезапно стали разумными.\n\n«Жажда силы гложет нутро, не так ли, [ROOT.GetCharacter.GetFirstNameNoTooltip]? Не бойся. Намира чувствует голод внутри тебя. Он грызёт тебя. При виде мёртвых у тебя непроизвольно текут слюни. Твой желудок урчит. Всё в порядке. Я не буду сторониться тебя из-за того, кто ты есть. Оставайся. Я дам тебе благословение, если ты пообещаешь служить мне.»"
  ek_daedric_artifacts.0027.a:0 "Я стану [Select_CString(ROOT.Char.IsFemale, 'твоей избранницей', 'твоим избранником' )], Госпожа Разложения!"
  ek_daedric_artifacts.0027.b:0 "Я буду поклоняться тебе тайно."
- ek_daedric_artifacts.0027.c:0 "Сгинь, поганый #LORE [compendium_daedra]#!!"
+ ek_daedric_artifacts.0027.c:0 "Сгинь, поганый даэдра!"
 
  ek_daedric_artifacts.0028.t:0 "Неожиданные результаты"
  ek_daedric_artifacts.0028.desc:0 "Прямо на моих глазах мёртвое чудовище превратилось в мёртвого мужчину, совершенно голого, за исключением металлического кольца на руке.\n\nЯ и раньше [Select_CString(ROOT.Char.IsFemale, 'слышала', 'слышал' )] рассказы о подобных чудовищах, но увидеть одного из них так близко было невероятно захватывающе."
@@ -368,12 +371,12 @@
  ek_daedric_artifacts.0041.t:0 "Погибель Даэдра"
  ek_daedric_artifacts.0041.desc:0 "Отсутствие друзей никогда не беспокоило меня так сильно, но в последнее время меня очень расстраивает видеть людей, которые смеются, играют в игры и строят планы, делая это вместе с другими.\n\nОднажды ночью, когда я [Select_CString(ROOT.Char.IsFemale, 'молилась', 'молился' )] в своей комнате о том, чтобы у меня появилось хоть немного компании, мои молитвы, казалось, были услышаны. Но не так, как я [Select_CString(ROOT.Char.IsFemale, 'ожидала', 'ожидал' )].\n\n«Ты [Select_CString(ROOT.Char.IsFemale, 'одинока, маленькая смертная', 'одинок, маленький смертный' )]? Не бойся, ибо князь Изгоев здесь. Я предлагаю тебе смелого защитника тех, у кого нет друзей, в обмен на твою нерушимую верность. Не отвергай меня, [Select_CString(ROOT.Char.IsFemale, 'смертная', 'смертный' )], ибо отсутствие компании будет наименьшей из твоих проблем.»"
  ek_daedric_artifacts.0041.a:0 "Я [Select_CString(ROOT.Char.IsFemale, 'согласна', 'согласен' )], повелитель!"
- ek_daedric_artifacts.0041.b:0 "Меня не интересуют твои безделушки, #LORE [Concept( 'compendium_daedra', 'даэдра' )|E]#!."
+ ek_daedric_artifacts.0041.b:0 "Меня не интересуют твои безделушки, даэдра."
 
  ek_daedric_artifacts.0042.t:0 "Кого раздражают боги"
- ek_daedric_artifacts.0042.desc:0 "Ходят слухи, что графство [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] [Select_CString(spellsword.IsFemale, 'посетила воительница-маг, которая прослышала', 'посетил воин-маг, который прослышал' )], что я люблю скупать диковинки.\n\nЯ [Select_CString(ROOT.Char.IsFemale, 'пригласила', 'пригласил' )] [Select_CString(spellsword.IsFemale, 'её', 'его' )] к себе, чтобы узнать подробности. [Select_CString(spellsword.IsFemale, 'Моя гостья хотела', 'Мой гость хотел' )] продать замысловатый даэдрический посох. Я с нетерпением [Select_CString(ROOT.Char.IsFemale, 'осмотрела', 'осмотрел' )] его, зная ценность #LORE [Concept( 'compendium_daedric', 'даэдрических' )|E]#! реликвий. А когда [spellsword.GetSheHe] [Select_CString(spellsword.IsFemale, 'назвала', 'назвал' )] мне его цену, я немного [Select_CString(ROOT.Char.IsFemale, 'насторожилась', 'насторожился' )]."
+ ek_daedric_artifacts.0042.desc:0 "Ходят слухи, что графство [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] [Select_CString(spellsword.IsFemale, 'посетила воительница-маг, которая прослышала', 'посетил воин-маг, который прослышал' )], что я люблю скупать диковинки.\n\nЯ [Select_CString(ROOT.Char.IsFemale, 'пригласила', 'пригласил' )] [Select_CString(spellsword.IsFemale, 'её', 'его' )] к себе, чтобы узнать подробности. [Select_CString(spellsword.IsFemale, 'Моя гостья хотела', 'Мой гость хотел' )] продать замысловатый даэдрический посох. Я с нетерпением [Select_CString(ROOT.Char.IsFemale, 'осмотрела', 'осмотрел' )] его, зная ценность [Glossary( 'даэдрических', 'DAEDRA_GLOSS' )] реликвий. А когда [spellsword.GetSheHe] [Select_CString(spellsword.IsFemale, 'назвала', 'назвал' )] мне его цену, я немного [Select_CString(ROOT.Char.IsFemale, 'насторожилась', 'насторожился' )]."
 
- ek_daedric_artifacts.0043.desc:0 "Осмотрев посох ещё немного, я [Select_CString(ROOT.Char.IsFemale, 'заметила', 'заметил' )] небольшое слово, вырезанное на нём #LORE [Concept( 'compendium_daedric', 'даэдрическими' )|E]#! рунами. Я [Select_CString(ROOT.Char.IsFemale, 'перевела', 'перевёл' )] его, используя книгу из своей библиотеки. И этим словом было «бессмыслица».\n\nОднако, когда я [Select_CString(ROOT.Char.IsFemale, 'произнесла', 'произнёс' )] это слово и [Select_CString(ROOT.Char.IsFemale, 'взяла', 'взял' )] в руки посох, внезапно появились четыре скампа! Я [Select_CString(ROOT.Char.IsFemale, 'думала', 'думал' )], что мне конец! Но все они просто стояли на месте.\n\nПрошло совсем немного времени, прежде чем я [Select_CString(ROOT.Char.IsFemale, 'поняла', 'понял' )], что они следуют за мной! Я не могу позволить, чтобы за мной ходили скампы, поэтому я [Select_CString(ROOT.Char.IsFemale, 'решила', 'решил' )] выбросить посох. Однако по некой непонятной причине я не могу заставить себя отпустить его.\n\nПочитав ещё немного, я [Select_CString(ROOT.Char.IsFemale, 'выяснила', 'выяснил' )], что избавиться от этого посоха можно только в месте его происхождения. Это святилище Шеогората в пещере Чёрный Фатом, в центре сиродильского Чёрного Леса!"
+ ek_daedric_artifacts.0043.desc:0 "Осмотрев посох ещё немного, я [Select_CString(ROOT.Char.IsFemale, 'заметила', 'заметил' )] небольшое слово, вырезанное на нём [Glossary( 'даэдрическими', 'DAEDRA_GLOSS' )] рунами. Я [Select_CString(ROOT.Char.IsFemale, 'перевела', 'перевёл' )] его, используя книгу из своей библиотеки. И этим словом было «бессмыслица».\n\nОднако, когда я [Select_CString(ROOT.Char.IsFemale, 'произнесла', 'произнёс' )] это слово и [Select_CString(ROOT.Char.IsFemale, 'взяла', 'взял' )] в руки посох, внезапно появились четыре скампа! Я [Select_CString(ROOT.Char.IsFemale, 'думала', 'думал' )], что мне конец! Но все они просто стояли на месте.\n\nПрошло совсем немного времени, прежде чем я [Select_CString(ROOT.Char.IsFemale, 'поняла', 'понял' )], что они следуют за мной! Я не могу позволить, чтобы за мной ходили скампы, поэтому я [Select_CString(ROOT.Char.IsFemale, 'решила', 'решил' )] выбросить посох. Однако по некой непонятной причине я не могу заставить себя отпустить его.\n\nПочитав ещё немного, я [Select_CString(ROOT.Char.IsFemale, 'выяснила', 'выяснил' )], что избавиться от этого посоха можно только в месте его происхождения. Это святилище Шеогората в пещере Чёрный Фатом, в центре сиродильского Чёрного Леса!"
  ek_daedric_artifacts.0043.a:0 "Этот посох явно проклят!"
 
  ek_daedric_artifacts.0044.desc:0 "Я [Select_CString(ROOT.Char.IsFemale, 'потратила', 'потратил' )] много времени, подсчитывая втайне, во сколько обойдётся моей казне поездка в Чёрный Фатом.\n\nВычислив стоимость, я [Select_CString(ROOT.Char.IsFemale, 'поняла', 'понял' )], что [Select_CString(ROOT.Char.IsFemale, 'потратила', 'потратил' )] слишком много времени, откладывая завершение этих расчётов. Посох завладел мной. Я не могу перестать смотреть на него. Я начинаю привыкать к запаху, и скампы уже кажутся... практически очаровательными."
@@ -452,7 +455,7 @@
  ek_daedric_artifacts.0058.a.neighbor:0 "Мы должны подготовиться. Впереди нас ждут трудности."
 
  ek_daedric_artifacts.0059.t:0 "[Select_CString(malacaths_champion.IsFemale, 'Избранница', 'Избранник' )] Отверженных"
- ek_daedric_artifacts.0059.desc:0 "Вестники сообщают о том, что $malacath_alt$ получил нового избранника, [Select_CString(malacaths_champion.IsFemale, 'самопровозглашённую исполнительницу', 'самопровозглашённого исполнителя' )] воли Князя в этом мире.\n\n[Select_CString(malacaths_champion.IsFemale, 'Носящая', 'Носящий' )] [malacaths_champion.GetHerHis] знак отличия, могучий молот, способный, по слухам, с одного удара изгнать любого #LORE [compendium_daedra]#! в Пустоту, [malacaths_champion.GetSheHe] обязательно вызовет неприятности..."
+ ek_daedric_artifacts.0059.desc:0 "Вестники сообщают о том, что $malacath_alt$ получил нового избранника, [Select_CString(malacaths_champion.IsFemale, 'самопровозглашённую исполнительницу', 'самопровозглашённого исполнителя' )] воли Князя в этом мире.\n\n[Select_CString(malacaths_champion.IsFemale, 'Носящая', 'Носящий' )] [malacaths_champion.GetHerHis] знак отличия, могучий молот, способный, по слухам, с одного удара изгнать любого [Glossary( 'даэдра', 'DAEDRA_GLOSS' )] в Пустоту, [malacaths_champion.GetSheHe] обязательно вызовет неприятности..."
  ek_daedric_artifacts.0059.a.distant:0 "Всё это скоро закончится."
  ek_daedric_artifacts.0059.a.neighbor:0 "Мы должны подготовиться. Впереди нас ждут трудности."
  
@@ -719,6 +722,20 @@
  ek_wild_magic_event.0001.option4:0 "Мои силы растут."
  ek_wild_magic_event.0001.option5:0 "Я чувствую невероятную мощь!"
  
+ ek_responsible_suicide.0001.t:0 "The Responsible Choice"
+ ek_responsible_suicide.0001.desc:0 "I am washed and perfumed, dressed in a fine burial shroud, stitched upon which are solemn words of comfort. Even my ghost will be known to have done nothing wrong, nor to have allowed wrong-doing to besmirch the name of House [house.GetNameNoTooltip].\n\nI kneel before my kinsmen and retainers, grim-faced and resolute all. I raise my knife to my abdomen, and pray my last living prayer:\n\n#italic "The fire is mine: let it consume thee,\nand make a secret door\nat the altar of Padhome\nIn the House of Boet-hi-Ah\nWhere we become safe\nAnd looked after."#!"
+ ek_responsible_suicide.0001a:0 "I commend a pure memory of me unto [heir.GetFirstName]"
+ ek_responsible_suicide.0001b:0 "Let [liege.GetTitledFirstName] be half-slain with this!"
+ ek_responsible_suicide.0001c:0 "No! Leave me! I must live!"
+ ek_responsible_suicide.0001a.flavor:0 "You take ultimate responsibility for your sins, to restore honour to your House."
+ ek_responsible_suicide.0001b.flavor:0 "You take ultimate responsibility as a protest to the actions and character of your superiors."
+ ek_responsible_suicide.0001c.flavor:0 "You back out of making this choice."
+ responsible_suicide_death_tooltip:0 "@death_icon! You die"
+
+ ek_responsible_suicide.0002.t:0 "The Responsible Choice"
+ ek_responsible_suicide.0002.desc:0 "There is an ominous silence in my kinhouse. People avoid looking at me, and there is a growing sense of resentment in the air. It seems that all my vassals are here today to quietly accuse me, all of them save one.\n\n[responsible.GetName], that wretched cur, has gone and ritually disemboweled [responsible.GetHerselfHimself], claiming that [responsible.GetSheHe] could no longer bear living witness to the shame and folly with which I am bringing ruin to the ancestral patrimony of House [ROOT.Char.GetHouse.GetNameNoTooltip] and its retainers.\n\nUnderscored with [responsible.GetHerHis] blood, these ridiculous accusations have spread far and wide. All across Morrowind, people are speaking ill of the House that martyrs its servants!"
+ ek_responsible_suicide.0002a:0 "I should have killed [responsible.GetTitledFirstName] when [responsible.GetSheHe] still lived!"
+
  life_extension.0001.t:0 "Недосягаемая вечная жизнь"
  life_extension.0001.desc:0 "По мере того как я всё глубже погружаюсь в изучение магии, моё ненасытное стремление к достижению бессмертию привело меня на коварный путь. Я [Select_CString(ROOT.Char.IsFemale, 'искала', 'искал' )] силу, способную продлить мою жизнь, чтобы выйти за пределы ограничений смертного существования. В своём неустанном стремлении к запретным знаниям я [Select_CString(ROOT.Char.IsFemale, 'использовала', 'использовал' )] магию за гранью своего понимания, прибегая к древним заклинаниям и пытаясь заключать сделки с тёмными силами.\n\nОднако мои попытки продлить своё смертное существование закончились неудачей. Секреты бессмертия остаются неуловимыми, скрытыми в глубинах мистических искусств. Магия, которой я [Select_CString(ROOT.Char.IsFemale, 'владела', 'владел' )], оказалась недостаточно могущественной, чтобы подарить мне долголетие, к которому я так [Select_CString(ROOT.Char.IsFemale, 'стремилась', 'стремился' )], и мне пришлось столкнуться с суровой реальностью неизбежности своей смертности. Это поражение тяжким грузом лежит на моих плечах, напоминая о том, что стремление к вечной жизни даётся дорогой ценой и часто приводит к трагическим последствиям."
  life_extension.0001.a:0 "Моё время подходит к концу..."
@@ -730,7 +747,6 @@
  life_extension.0002.life4.desc:0 "Благодаря неустанной погоне за магическими и алхимическими знаниями я [Select_CString(ROOT.Char.IsFemale, 'совершила', 'совершил' )] необыкновенный подвиг, который просто не поддаётся описанию.\n\nМоя продолжительность жизни увеличилась и достигла удивительного срока в виде середины четвёртого столетия, отметив меня как поистине исключительную и легендарную личность в анналах истории."
  life_extension.0002.life5.desc:0 "Благодаря непоколебимой преданности делу и отличному владению магическими искусствами и алхимическими науками я [Select_CString(ROOT.Char.IsFemale, 'совершила', 'совершил' )] подвиг, выходящий за пределы смертного существования.\n\nСейчас моя продолжительность жизни составляет около пятисот пятидесяти лет, что возвышает меня над простыми смертными."
  life_extension.0002.life6.desc:0 "Совершив поистине судьбоносное и внушающее благоговение деяние, я [Select_CString(ROOT.Char.IsFemale, 'преодолела', 'преодолел' )] ограничения смертности и [Select_CString(ROOT.Char.IsFemale, 'обрела', 'обрёл' )] истинное бессмертие. Теперь моё существование не зависит от течения времени и я стою вечной скалой среди приливов и отливов истории.\n\nЭта глубокая трансформация подарила мне неувядающую жизнь. Существование, что не сковано цепями старения."
-
  life_extension.0002.a:0 "Поистине удивительно..."
 
  life_extension.0290.t:0 "Выход за пределы смертности"
@@ -958,10 +974,34 @@
  ek_fund_inspiration.0001.c.success:0 "Заклинание персонажа [inspiration_owner.GetFirstName] срабатывает"
  ek_fund_inspiration.0001.c.failure:0 "Заклинание персонажа [inspiration_owner.GetFirstName] даёт сбой"
 
+ ek_fund_inspiration.0002.t:0 "PLACEHOLDER"
+ ek_fund_inspiration.0002.desc:0 "PLACEHOLDER"
+ ek_fund_inspiration.0002.a:0 "PLACEHOLDER"
+ ek_fund_inspiration.0002.b:0 "PLACEHOLDER"
 
  inspired_courtier_inspiration:0 "[inspired_courtier.GetShortUIName] начнёт испытывать [inspiration|El]!"
  adventurer_inspiration:0 "[adventurer.GetShortUIName] начнёт испытывать [inspiration|El]!"
- 
+
+ ek_slavery_events.0001.t:0 "The Slavery Abolishment Act"
+ ek_slavery_events.0001a.desc:0 "We [banner.GetCulture.GetNameNoTooltip] have allowed slavery within our midst since time immemorial. No matter the reason that led one to enter servile status, it was generally accepted that they were no longer in control of their own life.\n\nThe master could dispose of them as they saw fit, be it hard labour, domestic work or anything else. Yet on this momentous day I, [ROOT.Char.GetFullNameNoTooltip], am choosing to end this practice, declaring it illegal in perpetuity.\n\nMany [banner.GetCulture.GetCollectiveNounNoTooltip] may denounce this new law as dangerous or preposterous... Nevertheless my decision is taken, the law is published and all will abide by it."
+ ek_slavery_events.0001b.desc:0 "Keeping chattel slaves is an abhorrent practice, an affront to the very dignity of [ROOT.Char.GetFaith.HighGodName]! Until now however, some of my vassals have adonned themselves to the traffick of their fellow subjects, treating the unfortunate souls with little more care than property.\n\nNo more! My decree is signed and published, so that none may ignore the law; Slavery is banned across all of the provinces of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], with retroactive effect on new territorial additions.\n\nLet the freed souls rejoice, for we acknowledge what should have never been denied: their right to liberty."
+ ek_slavery_events.0001.option.1:0 "Within the jurisdiction of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], slavery is henceforth abolished!"
+ ek_slavery_events.0001.option.2:0 "Within the jurisdiction of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], slavery is henceforth abolished!"
+ ek_slavery_events.0001.option.3:0 "Wait, let's not upend my realm with such a drastic change."
+ every_non_slaver_vassal:0 "Every [vassal|E] of a non-[slaver|E] [culture|E]"
+ every_slaver_vassal:0 "Every [vassal|E] of a [slaver|E] [culture|E]"
+ every_glory_hound_vassal_slaver:0 "Every $glory_hound_vassal$ of a [slaver|E] [culture]"
+ every_parochial_vassal_slaver:0 "Every $parochial_vassal$ of a [slaver|E] [culture]"
+ ek_slavery_events.0001.cultural_acceptance_loss:0 "Banned Slavery"
+
+ ek_slavery_events.0002.t:0 "The Slavery Abolishment Act"
+ ek_slavery_events.0002a.desc:0 "We [ROOT.Char.GetCulture.GetNameNoTooltip] have allowed slavery within our midst since time immemorial. No matter the reason that led one to enter servile status, it was accepted that they were at the beck and call of their master.\n\nHard labour, farm work, household jobs or any other tasks could be assigned at leisure by the slave owner. Yet on this fateful day, my liege [banner.GetFullName] took the drastic step of declaring slavery illegal, and in perpetuity at that!\n\nMany [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] have already denounced this new law as a travesty and the ruin of our economy... Nevertheless, [banner.GetTitledFirstNameNoTooltip] upheld their decision and seem determined to enforce the law to its fullest extent, in contravention of customary law."
+ ek_slavery_events.0002b.desc:0 "Chattel slavery is a detestable practice, an affront to the very dignity of [ROOT.Char.GetFaith.HighGodName]! Until now however, some of my fellow vassals have been allowed to partake in this wretched institution: they treat as people as property to be exploited based on their customs.\n\nNo more! The decree of my liege [banner.GetFullName] is signed and published, so that none may ignore the law; Slavery is banned across all of the provinces of [banner.GetPrimaryTitle.GetNameNoTierNoTooltip], with retroactive effect on new slaveholding territories.\n\nLet the freed souls rejoice, for we acknowledge what should have never been denied: their right to liberty."
+ ek_slavery_events.0002.option.1:0 "This day will be remembered as the ending of a foul practice."
+ ek_slavery_events.0002.option.2:0 "[banner.GetPrimaryTitle.GetNameNoTierNoTooltip] will be destabilised in the near future. It will tide over eventually..."
+ ek_slavery_events.0002.option.3:0 "This flouting of tradition won't stand for long, mark my words!"
+ ban_slavery_in_realm_decision_effect_vassal:0 "The #V $building_type_slave_markets_01$#! line of [buildings|E] are disabled and cannot be built within the [realm|E] of your [liege|E]"
+
  ek_mane_furstock_event.0002.t:0 "Третья луна"
  ek_mane_furstock_event.0002.twin.desc:0 "На протяжении всей нашей каджитской жизни мы чувствуем влияние со стороны лун, Джоуда и Джоун, растущих и убывающих в Решётке над нами. Они всегда были со мной, но никогда не были столь близко как сегодня. Вместе они принесли на ночное небо мистическую Третью луну. Каждый каджит живёт в надежде увидеть её.\n\nИ я не только [Select_CString(ROOT.Char.IsFemale, 'видела', 'видел' )] её. Третья луна оказала мне честь, возвестив о рождении не одного, а двух благословённых Луной Грив. Теперь я [Select_CString(ROOT.Char.IsFemale, 'гордая мать', 'гордый отец' )] близнецов, по одному на каждую из лун-близнецов, которым я [Select_CString(ROOT.Char.IsFemale, 'обязана', 'обязан' )] их рождением.\n\n[mane_kitten.GetName] и [mane_kitten_2.GetName] родились под светом всех трёх лунных странников и отныне навсегда отмечены как Гривы."
  ek_mane_furstock_event.0002.desc:0 "На протяжении всей нашей каджитской жизни мы чувствуем влияние со стороны лун, Джоуда и Джоун, растущих и убывающих в Решётке над нами. Они всегда были со мной, но никогда не были столь близко как сегодня. Вместе они принесли на ночное небо мистическую Третью Луну. Каждый каджит живёт в надежде увидеть её.\n\nИ я не только [Select_CString(ROOT.Char.IsFemale, 'видела', 'видел' )] её. Третья Луна оказала мне честь, возвестив о рождении котёнка по имени [mane_kitten.GetName] под светом всех трех лунных странников.\n\nТретья луна коснулась котёнка по имени [mane_kitten.GetName] и теперь [mane_kitten.GetSheHe] навсегда [Select_CString(mane_kitten.IsFemale, 'отмечена', 'отмечен' )] как Грива."
@@ -1011,3 +1051,84 @@
  ek_faith_events.0007.a: "Славься, Эбонарм!"
  ek_faith_events.0007.b: "Но я отказываюсь!"
  every_fg_follower: "Все последователи-$forgotten_gods_adherent_plural$"
+
+
+ ek_murder_ongoing.0001.t:0 "A Meeting with the Master"
+ ek_murder_ongoing.0001.desc:0 "I eagerly await the arrival of the Morag Tong Master after acquiring the [writ_of_execution|E]. A sense of reverence fills the room as the Master steps forward, [assassin.GetHerHis] presence commanding respect and admiration.\n\nWith a solemn nod, the Master acknowledges my presence. [assassin.GetHerHis|U] voice, low and resonant, fills the room as [assassin.GetSheHe] addresses me with a sense of authority that demands attention. I listen intently, absorbing every word.\n\nAs the meeting draws to a close, the Master imparts a final word of caution, reminding me of the consequences that come with my decision. The fate of [target.GetName] now lies in their capable hands, guided by the discretion of the Morag Tong."
+ ek_murder_ongoing.0001.a:0 "This is true civilization."
+
+ ek_murder_ongoing.0002.t:0 "Boethiah's Gold"
+ ek_murder_ongoing.0002.desc:0 "The Morag Tong Master sends me a letter.\n\n"My [ROOT.Char.GetLadyLord], I can safely share the information that one of my assassins, disguised as a servant, have begun poisoning [target.GetName]. This poison leaves no trace but will afflict whoever touches it with weakness and ill humors. It is called Boethiah's Gold.""
+ ek_murder_ongoing.0002.a:0 "Good riddance."
+
+ ek_murder_ongoing.0003.t:0 "From the Inside"
+ ek_murder_ongoing.0003.desc:0 "A letter, marked with the Morag Tong seal, arrives.\n\n"My [ROOT.Char.GetLadyLord], I can safely share the information that one of my assassins has infiltrated [target.GetName]'s inner circle. [target.GetSheHe|U] considers [assassin.GetHerHim] a confidant and [assassin.GetSheHe] will start using that as a leverage, but the results of said intrusion can compromise the fulfillment of the Writ.\n\nAs this Honorable Execution is of your immediate interest, I am reporting said attempt to you.""
+ ek_murder_ongoing.0003.a:0 "[assassin.GetSheHe|U] went for it..."
+ ek_murder_ongoing.0003.a.success:0 "[assassin.GetSheHe|U] remains undetected"
+ ek_murder_ongoing.0003.a.failure:0 "The assassin is discovered"
+ ek_murder_ongoing.0003.toast.success:0 "The assassin remains undetected"
+ ek_murder_ongoing.0003.toast.failure:0 "The assassin is discovered"
+ ek_murder_ongoing.0003.b:0 "[assassin.GetSheHe|U] kept [assassin.GetHerHis] mouth shut."
+
+ ek_murder_ongoing.0004.t:0 "A Pleasing Letter"
+ ek_murder_ongoing.0004.desc:0 "A messenger delivers me a note crested with the Morag Tong's seal.\n\n"My [ROOT.Char.GetLadyLord], we are pleased to report that we have assigned the Writ against [target.GetName] to one of our Thinkers of the Morag Tong, already in the area of [target.GetCapitalLocation.GetName].\n\nWith such a high-ranking member of the Tong handling the Writ, we are hopeful that we will be able to execute this writ sooner than previously expected.""
+ ek_murder_ongoing.0004.a:0 "Capable hands at last!"
+
+ ek_murder_ongoing.0006.t:0 "Alluring Piety"
+ ek_murder_ongoing.0006.desc:0 "One of the servants awaits me with a message, emblazoned with the Morag Tong symbol.\n\n"My [ROOT.Char.GetLadyLord], I came to you to report that the contract has a new fruitful happening. We have one of our best agents in a position of trust, impersonating a local priest in [target.GetCapitalLocation.GetName] and [target.GetName] has been enjoying [assassin.GetHerHis] company lately.\n\nWith this newfound leverage, [assassin.GetSheHe]...""
+ ek_murder_ongoing.0006.a:0 "Managed to use [assassin.GetHerHis] diplomatic skills to ensure proximity."
+ ek_murder_ongoing.0006.a.success:0 "[assassin.GetSheHe|U] manages to pull it off"
+ ek_murder_ongoing.0006.a.failure:0 "[assassin.GetSheHe|U] fails miserably"
+ ek_murder_ongoing.0006.a_gregarious:0 "Hold it! I'll tell you exactly what to do."
+ ek_murder_ongoing.0006.b:0 "Used [assassin.GetHerHis] superior knowledge to maintain legitimacy."
+ ek_murder_ongoing.0006.b_scholar:0 ""Wait, I know just what would interest [target.GetName].""
+ ek_murder_ongoing.0006.c:0 "Divine matters are not to be trifled with!"
+
+ ek_murder_ongoing.0007.t:0 "A Lethal Messenger"
+ ek_murder_ongoing.0007.desc:0 "An agent of the Morag Tong awaits me with news.\n\n"My [ROOT.Char.GetLadyLord], I am thrilled to announce that one of our members has the opportunity to become a personal courier to [target.GetName]. Should we decide to go forward with this, our messenger pidgeon can further our efforts to carry out our Writ.""
+ ek_murder_ongoing.0007.a:0 "Good news!"
+ 
+ ek_murder_ongoing.0008.t:0 "Productive Associates"
+ ek_murder_ongoing.0008.desc:0 "A cloaked messenger delivers me a letter.\n\n""My [ROOT.Char.GetLadyLord], We are pleased to inform you that some Associates of the Morag Tong, already in [target.GetCapitalLocation.GetName], are able to enter support roles in the writ against [target.GetName].\n\nThough these associates are untested, and untrained in the Mephalic skills, their support will be invaluable to our assigned assassin. However, their lack of training may present significant risks to the security of this writ. Herefore, I am writing to ask you to approve of this action.""
+ ek_murder_ongoing.0008.a:0 "The more the merrier!"
+ ek_murder_ongoing.0008.b:0 "The fewer the favourabler!"
+
+ ek_murder_ongoing.0009.t:0 "An Intriguing Letter"
+ ek_murder_ongoing.0009.desc:0 "I am surprised by a small scroll engraved with the Morag Tong sigil on it.\n\n"My [ROOT.Char.GetLadyLord], I am sorry to have to announce that the previous Master assigned to this writ has been reassigned.\n\nUnfortunately, the transitional period, in which I will be establishing operations at the former guild hall, will be diverting Tong attention until the transition completes. I hope you will understand.""
+ ek_murder_ongoing.0009.a:0 "I will pay to ensure uninterrupted operation of my writ."
+ ek_murder_ongoing.0009.b:0 "Acceptable."
+ ek_murder_ongoing.0009.c:0 "Unacceptable! I demand a refund."
+
+ ek_murder_ongoing.0010.t:0 "Thrall Betrayal"
+ ek_murder_ongoing.0010.desc:0 "A servant, livid, hands me a note.\n\n"My [ROOT.Char.GetLadyLord], it is with great regret that I must inform you that the Thrall that we assigned to your writ against [target.GetName] has abandoned all writs, and has absconded to parts as yet unknown.\n\nNonetheless, I am writing to discuss our options moving forward. Our new members require extra... Motivation to maintain our schedule.""
+ ek_murder_ongoing.0010.a:0 "Let the assassins know I am behind this."
+ ek_murder_ongoing.0010.b:0 "I shall dangle a bribe in front of these assassins."
+ ek_murder_ongoing.0010.c:0 "I paid you to complete this writ, and you shall honour the contract."
+ ek_murder_ongoing.0010.d:0 "The mere act of asking shows I was wrong to engage the Morag Tong."
+
+ ek_murder_ongoing.0011.t:0 "A Grand Setback"
+ ek_murder_ongoing.0011.desc:0 "I've found an exquisitely decorated envelope in my chambers, finely decorated with the Morag Tong seal.\n\n"My [ROOT.Char.GetLadyLord], I am the Grandmaster of the Morag Tong. Mephala has forsaken our guild hall which was handling your writ against [target.GetName], and everybody from the Master down to the lowest Associate has been killed or apprehended. We are deeply regretful to have had this happen, and even more regretful that it interferes with the commission of your scheme. I have enclosed a full refund and some compensation for our failure. Please advise me on whether you wish to continue with this writ, in which case we will begin our operation anew, or to abandon it.""
+ ek_murder_ongoing.0011.a:0 "Begin it again."
+ ek_murder_ongoing.0011.b:0 "I shall handle this myself from now on."
+ ek_murder_ongoing.0011.c:0 "It seems that this assassination is not fated to be."
+
+ ek_murder_ongoing.0012.t:0 "Worth Its Weight In Gold"
+ ek_murder_ongoing.0012.desc:0 "As I wander through my palace, I feel a note appearing in my pocket.\n\n"My [ROOT.Char.GetLadyLord],  as you are doubtless aware, the Morag Tong is not a charitable organisation. We are a Mephalic guild, with a long and storied history.\n\nIt has come to my attention that, though you have contracted us for a matter, you have not given us fair consideration. I trust that you understand the implications of this letter.""
+ ek_murder_ongoing.0012.a:0 "Throw in a bonus to make sure this doesn't happen again."
+ ek_murder_ongoing.0012.b:0 "Confound these grasping assassins! I'll pay…"
+ ek_murder_ongoing.0012.c:0 "No. Would Mephala want her followers to extort?"
+ ek_murder_ongoing.0012.c.flavor:0 "Yes."
+
+ ek_murder_ongoing.0013.t:0 "Cat Got Your Tong?"
+ ek_murder_ongoing.0013.desc:0 "I woke up in the middle of the night with the sound of a note falling in my nightstand.\n\n"My [ROOT.Char.GetLadyLord], I am pleased to offer an update on the progress of your writ. The guards have arrested our operative assigned to your writ.\n\nWe are assigning a new assassin now, but there will be a delay in the execution of this writ. This could take time.\n\nThank you for your understanding.""
+ ek_murder_ongoing.0013.a:0 "Most unfortunate."
+
+ ek_murder_ongoing.0014.t:0 "A Captured Thrall"
+ ek_murder_ongoing.0014.desc:0 "A courier delivers me a letter with the Morag Tong sigil upon it.\n\n"My [ROOT.Char.GetLadyLord],  I am writing to you to announce that, regretfully, [target.GetName]'s guards have captured and interrogated a thrall who was assisting in your writ in a support role.\n\nThis will not end the writ — the Morag Tong will not abandon writs so easily — but you must understand that this will compromise the secrecy of this writ unless the Morag Tong withdraws in the area of [target.GetCapitalLocation.GetName], which will delay execution of all writs there.\n\nAs you are our foremost patron in the locality, we wish to consult you in this matter. Which option would you prefer?""
+ ek_murder_ongoing.0014.a:0 "I will accept any breach of secrecy if it will see [target.GetFirstName] dead faster!"
+ ek_murder_ongoing.0014.b:0 "I understand. Please withdraw to protect your secrecy."
+
+ ek_murder_ongoing.0015.t:0 "Mephalic Boon"
+ ek_murder_ongoing.0015.desc:0 "A cloaked envoy delivers me a letter.\n\n"Mephalic wishes to those who would grasp in their own hands the black hands of our patron the ancipation of our lord Poesy of Vivec. The ever-spinning web draws tighter at its centre where I a Master of the Morag Tong feel the Aurbic strokes at the edges where those under the Three move as they were long ago commanded by the anticipatory triumvirate such as you yourself to whom I now write. The spinner has left behind her a trail of secrets and murders and you have one and wish for it to become the other and it is us to whom you have turned to enact this most sacred of metamorphoses. Hail to the webspinner; move in shadows.""
+ ek_murder_ongoing.0015.a:0 "What?"
+ mephalic_boon:0 "You receive a Mephalic Boon!"
