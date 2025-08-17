@@ -1,49 +1,49 @@
 ﻿l_russian:
 
  ## for Nonmarital Alliance
- beastfolk_alliance_interaction:0 "Предложение о заключении внебрачного союза"
- beastfolk_alliance_interaction_desc:0 "Хотя наши народы не могут быть объединены браком, мы можем предложить прагматичный союз с [recipient.GetTitledFirstNameNoTooltip]."
+ beastfolk_alliance_interaction:0 "Предложить заключить внебрачный союз"
+ beastfolk_alliance_interaction_desc:0 "Хотя наши народы не могут быть объединены браком, мы можем предложить персонажу [recipient.GetTitledFirstNameNoTooltip] прагматичный союз."
  beastfolk_alliance__interaction_extra_icon:0 "$hook_extra_icon$"
  BEASTFOLK_NEGOTIATE_ALLIANCE_NOTIFICATION:0 "Несмотря на нашу несовместимость для рождения детей в браке, я считаю, что мы оба выиграем от союза. Я предлагаю объединить наши силы и сражаться с нашими врагами вместе!"
- ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK:0 "У вас может быть один внебрачный [alliance|E]"
- NOT_ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK:0 "У вас уже есть один внебрачный [alliance|E]"
- ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK_TARGET:0 "Цель может иметь один внебрачный [alliance|E]"
- NOT_ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK_TARGET:0 "Цель уже имеет один внебрачный [alliance|E]"
+ ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK:0 "У вас может быть один внебрачный [alliance|El]"
+ NOT_ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK:0 "У вас уже есть один внебрачный [alliance|El]"
+ ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK_TARGET:0 "Цель может иметь один внебрачный [alliance|El]"
+ NOT_ALREADY_HAS_AN_ALLIANCE_DEAL_BEASTFOLK_TARGET:0 "Цель уже имеет один внебрачный [alliance|El]"
 
- buy_writ_of_war_interaction:0 "Buy Writ of War"
- buy_writ_of_war_interaction_desc:0 "A [writ_of_war|E] is necessary to declare [war|E] upon rulers outside of [grand_council|E]."
- buy_writ_of_war_interaction_effect_tooltip:0 "Gain a [writ_of_war|E] usable upon rulers outside of [grand_council|E]."
- buy_writ_of_war_interaction_cost:0 "You do not have enough [gold_i] to purchase a Writ of War!"
- writ_of_war_expended_tooltip:0 "Writ of War Expended due to War Declaration"
+ buy_writ_of_war_interaction:0 "Купить разрешение на войну"
+ buy_writ_of_war_interaction_desc:0 "[Concept('writ_of_war', 'Разрешение на войну')|E] необходимо для объявления [Concept('war', 'войны')|E] правителям вне [Concept('grand_council', 'Великого совета')|E]."
+ buy_writ_of_war_interaction_effect_tooltip:0 "Получить [Concept('writ_of_war', 'разрешение на войну')|E], которое можно использовать против правителей вне [Concept('grand_council', 'Великого совета')|E]."
+ buy_writ_of_war_interaction_cost:0 "У вас недостаточно [gold_i], чтобы купить разрешение на войну!"
+ writ_of_war_expended_tooltip:0 "Разрешение на войну истекло из-за объявления войны"
 
-# Imperial Scion
+ # Imperial Scion
 
  offer_cyrodiilic_subject_interaction:0 "Предложить стать имперским отпрыском"
  offer_cyrodiilic_subject_interaction_desc:0 "Сиродильские империи издавна правили иными народами путём возвышения привилегированной части населения над остальными."
- OFFER_CYRODIILIC_SUBJECT_INTERACTION_NOTIFICATION:0 "Я хотел бы предложить распространить действие имперской культуры и законов на вашу территорию."
- recipient_gains_imperial_scion_tradition:0 "[recipient.GetCulture.GetCollectiveNoun]ая [culture|El] получит [Concept( 'tradition', 'традицию' )|El] [GetCultureTradition('tradition_cyrodiilic_subject').GetName|V]"
- every_culture_county_ek_recent_imperialization:0 "Каждое [recipient.GetCulture.GetCollectiveNoun|l]ое [county|El] получит модификатор [GetModifier('ek_recent_imperialization').GetNameWithTooltip|L] на 20 лет"
+ OFFER_CYRODIILIC_SUBJECT_INTERACTION_NOTIFICATION:0 "Я желаю предложить распространить действие имперской культуры и законов на вашу территорию."
+ recipient_gains_imperial_scion_tradition:0 "#L [recipient.GetCulture.GetCollectiveNoun]ая#! [culture|El] получит [Concept( 'tradition', 'традицию' )|El] [GetCultureTradition('tradition_cyrodiilic_subject').GetName|V]"
+ every_culture_county_ek_recent_imperialization:0 "Каждое #L [recipient.GetCulture.GetCollectiveNoun|l]ое#! [county|El] получит модификатор [GetModifier('ek_recent_imperialization').GetNameWithTooltip|L] на 20 лет"
  offer_cyrodiilic_subject_interaction_option_more_gold:0 "Предложить финансирование"
- offer_cyrodiilic_subject_interaction_option_more_gold_desc:0 "Навязывание имперских обычаев [recipient.GetCulture.GetCollectiveNoun|l]ому народу будет непростым делом. Но золото сделает наше предложение куда более привлекательным."
- cyrodiilic_subject_interaction_not_cyrodiilic:0 "[culture|E] персонажа [recipient.GetTitledFirstName] принадлежит к $heritage_cyrodiilic_name$ому [Concept( 'heritage', 'наследию' )|El]"
+ offer_cyrodiilic_subject_interaction_option_more_gold_desc:0 "Навязывание имперских обычаев #L [recipient.GetCulture.GetCollectiveNoun|l]ому#! народу будет непростым делом. Но золото сделает наше предложение куда более привлекательным."
+ cyrodiilic_subject_interaction_not_cyrodiilic:0 "[culture|E] персонажа [recipient.GetTitledFirstName] принадлежит к #L $heritage_cyrodiilic_name$ому#! [Concept( 'heritage', 'наследию' )|El]"
  cyrodiilic_subject_interaction_not_imperial_legacy:0 "[culture|E] персонажа [recipient.GetTitledFirstName] имеет [Concept( 'tradition', 'традицию' )|El] [GetCultureTradition('tradition_imperial_legacy').GetName|V]"
- cyrodiilic_subject_interaction_no_other_scion:0 "Никакая иная [recipient.GetCulture.GetHeritage.GetName|l]ая [culture|El] не является имперским отпрыском"
- cyrodiilic_subject_gains_cultural_rights:0 "Каждый [recipient.GetCulture.GetCollectiveNoun|l]ий [vassal|El] получит [vassal_contract|El] [GetVassalContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )]"
+ cyrodiilic_subject_interaction_no_other_scion:0 "Никакая иная #L [recipient.GetCulture.GetHeritage.GetName|l]ая#! [culture|El] не является имперским отпрыском"
+ cyrodiilic_subject_gains_cultural_rights:0 "Каждый #L [recipient.GetCulture.GetCollectiveNoun|l]ий#! [vassal|El] получит [vassal_contract|El] [GetVassalContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )]"
 
- imperial_scion_tradition_cultural_acceptance_gain:0 "[recipient.GetCulture.GetCollectiveNoun]ая [culture|El] получит [EmptyScope.ScriptValue('major_cultural_acceptance_gain')|+0] [Concept( 'cultural_acceptance', 'терпимости культур' )|El] со всеми [actor.GetCulture.GetHeritage.GetName|l]ими [Concept( 'cultures', 'культурами' )|El]"
- imperial_scion_tradition_cultural_acceptance_loss:0 "[recipient.GetCulture.GetName]ая [culture|El] потеряет [EmptyScope.ScriptValue('major_cultural_acceptance_loss')|+0] [Concept( 'cultural_acceptance', 'терпимости культур' )|El] со всеми [recipient.GetCulture.GetHeritage.GetName|l]ими [Concept( 'cultures', 'культурами' )|El]" 
+ imperial_scion_tradition_cultural_acceptance_gain:0 "#L [recipient.GetCulture.GetCollectiveNoun]ая#! [culture|El] получит [EmptyScope.ScriptValue('major_cultural_acceptance_gain')|+0] [Concept( 'cultural_acceptance', 'терпимости культур' )|El] со всеми #L [actor.GetCulture.GetHeritage.GetName|l]ими#! [Concept( 'cultures', 'культурами' )|El]"
+ imperial_scion_tradition_cultural_acceptance_loss:0 "#L [recipient.GetCulture.GetName]ая#! [culture|El] потеряет [EmptyScope.ScriptValue('major_cultural_acceptance_loss')|+0] [Concept( 'cultural_acceptance', 'терпимости культур' )|El] со всеми #L [recipient.GetCulture.GetHeritage.GetName|l]ими#! [Concept( 'cultures', 'культурами' )|El]" 
 
- offer_cyrodiilic_suzerain_interaction:0 "Попроситься стать имперским отпрыском"
+ offer_cyrodiilic_suzerain_interaction:0 "Попросить стать имперским отпрыском"
  offer_cyrodiilic_suzerain_interaction_desc:0 "Если мы начнём заискивать перед нашими верховными правителями, то сможем пользоваться большими привилегиями, чем наши сородичи, и в конце концов сумеем перенять имперский способ управления."
- OFFER_CYRODIILIC_SUZERAIN_INTERACTION_NOTIFICATION:0 "Я хотел бы попросить распространить действие имперской культуры и законов на вашу территорию"
- actor_gains_imperial_scion_tradition:0 "[actor.GetCulture.GetCollectiveNoun]ая [culture|El] получит [Concept( 'tradition', 'традицию' )|El] [GetCultureTradition('tradition_cyrodiilic_subject').GetName|V]"
- actor_every_culture_county_ek_recent_imperialization:0 "Каждое [actor.GetCulture.GetCollectiveNoun|l]ое [county|El] получит модификатор [GetModifier('ek_recent_imperialization').GetNameWithTooltip|L] на 20 лет"
- actor_imperial_scion_tradition_cultural_acceptance_gain:0 "[actor.GetCulture.GetName]ая [culture|El] получит [EmptyScope.ScriptValue('major_cultural_acceptance_gain')|+0] [Concept( 'cultural_acceptance', 'терпимости культур' )|El] со всеми [recipient.GetCulture.GetHeritage.GetName|l]ими [Concept( 'cultures', 'культурами' )|El]"
- actor_imperial_scion_tradition_cultural_acceptance_loss:0 "[actor.GetCulture.GetName]ая [culture|El] потеряет [EmptyScope.ScriptValue('major_cultural_acceptance_loss')|+0] [Concept( 'cultural_acceptance', 'терпимости культур' )|El] со всеми [actor.GetCulture.GetHeritage.GetNamel]ими [Concept( 'cultures', 'культурами' )|El]" 
- actor_cyrodiilic_subject_interaction_not_cyrodiilic:0 "[culture|E] персонажа [actor.GetTitledFirstName] принадлежит к $heritage_cyrodiilic_name$ому [Concept( 'heritage', 'наследию' )|El]"
+ OFFER_CYRODIILIC_SUZERAIN_INTERACTION_NOTIFICATION:0 "Я хочу попросить распространить действие имперской культуры и законов на вашу территорию"
+ actor_gains_imperial_scion_tradition:0 "#L [actor.GetCulture.GetCollectiveNoun]ая#! [culture|El] получит [Concept( 'tradition', 'традицию' )|El] [GetCultureTradition('tradition_cyrodiilic_subject').GetName|V]"
+ actor_every_culture_county_ek_recent_imperialization:0 "Каждое #L [actor.GetCulture.GetCollectiveNoun|l]ое#! [county|El] получит модификатор [GetModifier('ek_recent_imperialization').GetNameWithTooltip|L] на 20 лет"
+ actor_imperial_scion_tradition_cultural_acceptance_gain:0 "#L [actor.GetCulture.GetName]ая#! [culture|El] получит [EmptyScope.ScriptValue('major_cultural_acceptance_gain')|+0] [Concept( 'cultural_acceptance', 'терпимости культур' )|El] со всеми #L [recipient.GetCulture.GetHeritage.GetName|l]ими#! [Concept( 'cultures', 'культурами' )|El]"
+ actor_imperial_scion_tradition_cultural_acceptance_loss:0 "#L [actor.GetCulture.GetName]ая#! [culture|El] потеряет [EmptyScope.ScriptValue('major_cultural_acceptance_loss')|+0] [Concept( 'cultural_acceptance', 'терпимости культур' )|El] со всеми #L [actor.GetCulture.GetHeritage.GetNamel]ими#! [Concept( 'cultures', 'культурами' )|El]" 
+ actor_cyrodiilic_subject_interaction_not_cyrodiilic:0 "[culture|E] персонажа [actor.GetTitledFirstName] принадлежит к #L $heritage_cyrodiilic_name$ому#! [Concept( 'heritage', 'наследию' )|El]"
  actor_cyrodiilic_subject_interaction_not_imperial_legacy:0 "[culture|E] персонажа [actor.GetTitledFirstName] имеет [Concept( 'tradition', 'традицию' )|El] [GetCultureTradition('tradition_imperial_legacy').GetName|V]"
- actor_cyrodiilic_subject_interaction_no_other_scion:0 ""Никакая иная [actor.GetCulture.GetHeritage.GetName|l]ая [culture|El] не является имперским отпрыском"
- actor_cyrodiilic_subject_gains_cultural_rights:0 "Каждый [actor.GetCulture.GetCollectiveNoun|l]ий [vassal|El] получит [vassal_contract|El] [GetVassalContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )]"
+ actor_cyrodiilic_subject_interaction_no_other_scion:0 "Никакая иная #L [actor.GetCulture.GetHeritage.GetName|l]ая#! [culture|El] не является имперским отпрыском"
+ actor_cyrodiilic_subject_gains_cultural_rights:0 "Каждый #L [actor.GetCulture.GetCollectiveNoun|l]ий#! [vassal|El] получит [vassal_contract|El] [GetVassalContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )]"
 
  imperial_scion_tradition_loss:0 "Дворняжки империи"
  imperial_scion_tradition_gain:0 "Привилегированные подданные"
@@ -58,7 +58,7 @@
  ek_char_interaction.0001.opening:1 "[recipient.Custom2('AppropriateGreeting', actor )]"
  ek_char_interaction.0001.desc:0 "Я принимаю ваше предложение о более тесной интеграции под власть Имперского закона."
 
- ek_char_interaction.0002.desc:0 "[recipient.GetCulture.GetCollectiveNoun]ой культуре не нужны ваши имперские законы и обычаи."
+ ek_char_interaction.0002.desc:0 "#L [recipient.GetCulture.GetCollectiveNoun]ой#! культуре не нужны ваши имперские законы и обычаи."
  ek_char_interaction.0002.a:0 "Мне придётся изучить другие варианты..."
 
  ek_char_interaction.0003.opening:0 "[recipient.Custom2('AppropriateGreetingPositive', actor )]"
@@ -68,7 +68,7 @@
  ek_char_interaction.0004.desc:0 "Хотя я ценю ваше желание стать истинным подданным Империи, я не могу удовлетворить его."
  ek_char_interaction.0004.a:0 "Какая жалось."
 
-#breakdown of purity factors for disinherit/denounce - if the breakdown is made visible
+ #breakdown of purity factors for disinherit/denounce - if the breakdown is made visible
  purity_virtue_desc:0 "[Concept('virtuous', 'Добродетельные')|E] черты"
  purity_sinful_desc:0 "[Concept('sinful', 'Греховные')|E] черты"
  purity_physique_bad_1:0 "[GetTrait('physique_bad_1').GetName(ROOT.Char)]"
@@ -108,4 +108,4 @@
  purity_arcana_good_1:0 "[GetTrait('arcana_good_1').GetName(ROOT.Char)]"
  purity_arcana_good_2:0 "[GetTrait('arcana_good_2').GetName(ROOT.Char)]"
  purity_arcana_good_3:0 "[GetTrait('arcana_good_3').GetName(ROOT.Char)]"
- HOF_ASK_FOR_CLAIM_GREAT_HOUSE_HEAD:1 "[head_of_faith|E] will not grant any claims on [great_house_heads|E]"
+ HOF_ASK_FOR_CLAIM_GREAT_HOUSE_HEAD:1 "[Concept('head_of_faith', 'Глава конфессии')|E] не станет даровать претензии на титулы [Concept('great_house_heads', 'глав Великих домов')|E]"

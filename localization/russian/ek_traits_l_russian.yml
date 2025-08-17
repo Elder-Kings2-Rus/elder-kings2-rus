@@ -133,7 +133,7 @@
  trait_experimentalist_necromancer_player:0 "Тайный некромант"
  trait_experimentalist_necromancer_player_desc:0 "Этот персонаж является тайным некромантом, хотя истинная природа [ROOT.GetCharacter.GetHerHis] тёмных делишек всё ещё скрыта от мира."
 
- trait_dragonborn:0 "[Select_CString(ROOT.Char.IsFemale, 'Драконорождённая', 'Драконорождённый' )]"
+ trait_dragonborn:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Драконорождённая', 'Драконорождённый' )]"
  trait_dragonborn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )] с кровью и душой дракона. Известно, что драконорождённые пользуются благосклонностью богов."
 
  trait_bagarn:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Последняя', 'Последний' )] из своего рода"
@@ -147,16 +147,16 @@
  trait_line_of_x_desc_null:0 "Этот персонаж является представителем рода X." # incase character doesnt exist
 
  trait_lifespan:0 "Естественная [Concept('gc_lifespan', 'продолжительность жизни')|E]"
- TRAIT_FLAG_DESC_inheritable_lifespan:0 "\nThis [gc_lifespan|E] is inheritable"
- TRAIT_FLAG_DESC_not_inheritable_lifespan:0 "\n#N This [gc_lifespan|E] is not inheritable#!"
+ TRAIT_FLAG_DESC_inheritable_lifespan:0 "\nЭту [Concept('gc_lifespan', 'продолжительность жизни')|E] можно унаследовать"
+ TRAIT_FLAG_DESC_not_inheritable_lifespan:0 "\n#N Эту [Concept('gc_lifespan', 'продолжительность жизни')|E] нельзя унаследовать#!"
+
+ trait_lifespan_1:1 "Продолжительность жизни I"
+ trait_lifespan_1_desc:1 "Благодаря естественным причинам этот персонаж может прожить до 100 лет. Женщины с этим свойством становятся бесплодными примерно в 85 лет."
+ trait_lifespan_1_character_desc:1 "Благодаря естественным причинам [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 100 лет. Женщины с этим свойством становятся бесплодными примерно в 85 лет."
  
- trait_lifespan_1:1 "Lifespan I"
- trait_lifespan_1_desc:1 "Naturally this character might live into their early 100s. Women with this trait will become infertile at around age 85."
- trait_lifespan_1_character_desc:1 "Naturally [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] early 100s. Women with this trait will become infertile at around age 85."
- 
- trait_lifespan_2:1 "Lifespan II"
- trait_lifespan_2_desc:1 "Naturally this character might live into their mid 100s. Women with this trait will become infertile at around age 115."
- trait_lifespan_2_character_desc:1 "Naturally [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 100s. Women with this trait will become infertile at around age 115."
+ trait_lifespan_2:1 "Продолжительность жизни II"
+ trait_lifespan_2_desc:1 "Благодаря естественным причинам этот персонаж может прожить чуть больше 100 лет. Женщины с этим свойством становятся бесплодными примерно в 115 лет."
+ trait_lifespan_2_character_desc:1 "Благодаря естественным причинам [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить чуть больше 100 лет. Женщины с этим свойством становятся бесплодными примерно в 115 лет."
 
  trait_lifespan_3:1 "Продолжительность жизни III"
  trait_lifespan_3_desc:1 "Благодаря естественным причинам этот персонаж может прожить до 200 лет. Женщины с этим свойством становятся бесплодными примерно в 150 лет."
@@ -166,42 +166,42 @@
  trait_lifespan_4_desc:1 "Благодаря естественным причинам этот персонаж может прожить до 300 лет. Женщины с этим свойством становятся бесплодными примерно в 215 лет."
  trait_lifespan_4_character_desc:1 "Благодаря естественным причинам [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 300 лет. Женщины с этим свойством становятся бесплодными примерно в 215 лет."
 
- trait_lifespan_magic:0 "Magical [gc_lifespan|E]"
- trait_lifespan_magic_1:1 "Magical Lifespan I"
- trait_lifespan_magic_1_desc:1 "By means of magicka, this character might live into their early 100s. Women with this trait will become infertile at around age 85."
- trait_lifespan_magic_1_character_desc:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] early 100s. Women with this trait will become infertile at around age 85."
- trait_lifespan_magic_1_character_desc_extended:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] early 100s. Women with this trait will become infertile at around age 85.\n\n[ROOT.GetCharacter.GetHerHis|U] natural [gc_lifespan|E] was [ROOT.Char.Custom('GetNaturalLifespan')], which may be passed down to [ROOT.GetCharacter.GetHerHis] children."
+ trait_lifespan_magic:0 "Магическая [Concept('gc_lifespan', 'продолжительность жизни')|E]"
+ trait_lifespan_magic_1:1 "Магическая продолжительность жизни I"
+ trait_lifespan_magic_1_desc:1 "Благодаря магическому вмешательству этот персонаж может прожить до 100 лет. Женщины с этим свойством становятся бесплодными примерно в 85 лет."
+ trait_lifespan_magic_1_character_desc:1 "Благодаря магическому вмешательству [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 100 лет. Женщины с этим свойством становятся бесплодными примерно в 85 лет."
+ trait_lifespan_magic_1_character_desc_extended:1 "Благодаря магическому вмешательству [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 100 лет. Женщины с этим свойством становятся бесплодными примерно в 85 лет.\n\n[ROOT.GetCharacter.GetHerHis|U] естественная [Concept('gc_lifespan', 'продолжительность жизни')|E] - [ROOT.Char.Custom('GetNaturalLifespan')], которая может быть передана [ROOT.GetCharacter.GetHerHis] детям."
 
- trait_lifespan_magic_2:1 "Magical Lifespan II"
- trait_lifespan_magic_2_desc:1 "By means of magicka,, this character might live into their mid 100s. Women with this trait will become infertile at around age 115."
- trait_lifespan_magic_2_character_desc:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 100s. Women with this trait will become infertile at around age 115."
- trait_lifespan_magic_2_character_desc_extended:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 100s. Women with this trait will become infertile at around age 115.\n\n[ROOT.GetCharacter.GetHerHis|U] natural [gc_lifespan|E] was [ROOT.Char.Custom('GetNaturalLifespan')], which may be passed down to [ROOT.GetCharacter.GetHerHis] children."
+ trait_lifespan_magic_2:1 "Магическая продолжительность жизни II"
+ trait_lifespan_magic_2_desc:1 "Благодаря магическому вмешательству этот персонаж может прожить чуть больше 100 лет. Женщины с этим свойством становятся бесплодными примерно в 115 лет."
+ trait_lifespan_magic_2_character_desc:1 "Благодаря магическому вмешательству [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить чуть больше 100 лет. Женщины с этим свойством становятся бесплодными примерно в 115 лет."
+ trait_lifespan_magic_2_character_desc_extended:1 "Благодаря магическому вмешательству [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить чуть больше 100 лет. Женщины с этим свойством становятся бесплодными примерно в 115 лет.\n\n[ROOT.GetCharacter.GetHerHis|U] естественная [Concept('gc_lifespan', 'продолжительность жизни')|E] - [ROOT.Char.Custom('GetNaturalLifespan')], которая может быть передана [ROOT.GetCharacter.GetHerHis] детям."
 
- trait_lifespan_magic_3:1 "Magical Lifespan III"
- trait_lifespan_magic_3_desc:1 "By means of magicka, this character might live into their mid 200s. Women with this trait will become infertile at around age 150."
- trait_lifespan_magic_3_character_desc:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 200s. Women with this trait will become infertile at around age 150."
- trait_lifespan_magic_3_character_desc_extended:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 200s. Women with this trait will become infertile at around age 150.\n\n[ROOT.GetCharacter.GetHerHis|U] natural [gc_lifespan|E] was [ROOT.Char.Custom('GetNaturalLifespan')], which may be passed down to [ROOT.GetCharacter.GetHerHis] children."
+ trait_lifespan_magic_3:1 "Магическая продолжительность жизни III"
+ trait_lifespan_magic_3_desc:1 "Благодаря магическому вмешательству этот персонаж может прожить до 200 лет. Женщины с этим свойством становятся бесплодными примерно в 150 лет."
+ trait_lifespan_magic_3_character_desc:1 "Благодаря магическому вмешательству [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 200 лет. Женщины с этим свойством становятся бесплодными примерно в 150 лет."
+ trait_lifespan_magic_3_character_desc_extended:1 "Благодаря магическому вмешательству [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 200 лет. Женщины с этим свойством становятся бесплодными примерно в 150 лет.\n\n[ROOT.GetCharacter.GetHerHis|U] естественная [Concept('gc_lifespan', 'продолжительность жизни')|E] - [ROOT.Char.Custom('GetNaturalLifespan')], которая может быть передана [ROOT.GetCharacter.GetHerHis] детям."
 
- trait_lifespan_magic_4:1 "Magical Lifespan IV"
- trait_lifespan_magic_4_desc:1 "By means of magicka, this character might live into their mid 300s. Women with this trait will become infertile at around age 215."
- trait_lifespan_magic_4_character_desc:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 300s. Women with this trait will become infertile at around age 215."
- trait_lifespan_magic_4_character_desc_extended:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 300s. Women with this trait will become infertile at around age 215.\n\n[ROOT.GetCharacter.GetHerHis|U] natural [gc_lifespan|E] was [ROOT.Char.Custom('GetNaturalLifespan')], which may be passed down to [ROOT.GetCharacter.GetHerHis] children."
+ trait_lifespan_magic_4:1 "Магическая продолжительность жизни IV"
+ trait_lifespan_magic_4_desc:1 "Благодаря магическому вмешательству этот персонаж может прожить до 300 лет. Женщины с этим свойством становятся бесплодными примерно в 215 лет."
+ trait_lifespan_magic_4_character_desc:1 "Благодаря магическому вмешательству [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 300 лет. Женщины с этим свойством становятся бесплодными примерно в 215 лет."
+ trait_lifespan_magic_4_character_desc_extended:1 "Благодаря магическому вмешательству [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 300 лет. Женщины с этим свойством становятся бесплодными примерно в 215 лет.\n\n[ROOT.GetCharacter.GetHerHis|U] естественная [Concept('gc_lifespan', 'продолжительность жизни')|E] - [ROOT.Char.Custom('GetNaturalLifespan')], которая может быть передана [ROOT.GetCharacter.GetHerHis] детям."
 
- trait_lifespan_magic_5:1 "Magical Lifespan V"
- trait_lifespan_magic_5_desc:1 "By means of magicka, this character might live into their mid 500s. Women with this trait will become infertile at around age 340."
- trait_lifespan_magic_5_character_desc:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 500s. Women with this trait will become infertile at around age 340."
- trait_lifespan_magic_5_character_desc_extended:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 500s. Women with this trait will become infertile at around age 340.\n\n[ROOT.GetCharacter.GetHerHis|U] natural [gc_lifespan|E] was [ROOT.Char.Custom('GetNaturalLifespan')], which may be passed down to [ROOT.GetCharacter.GetHerHis] children.."
- 
- trait_lifespan_magic_6:1 "Magical Immortal"
- trait_lifespan_magic_6_desc:1 "This character has through magical means achieved immortality, and will not die of old age."
- trait_lifespan_magic_6_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has through magical means achieved immortality, and will not die of old age."
- trait_lifespan_magic_6_character_desc_extended:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has through magical means achieved immortality, and will not die of old age.\n\n[ROOT.GetCharacter.GetHerHis|U] natural [gc_lifespan|E] was [ROOT.Char.Custom('GetNaturalLifespan')], which may be passed down to [ROOT.GetCharacter.GetHerHis] children."
+ trait_lifespan_magic_5:1 "Магическая продолжительность жизни V"
+ trait_lifespan_magic_5_desc:1 "Благодаря магическому вмешательству этот персонаж может прожить до 500 лет. Женщины с этим свойством становятся бесплодными примерно в 340 лет."
+ trait_lifespan_magic_5_character_desc:1 "Благодаря магическому вмешательству [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 500 лет. Женщины с этим свойством становятся бесплодными примерно в 340 лет."
+ trait_lifespan_magic_5_character_desc_extended:1 "Благодаря магическому вмешательству [ROOT.GetCharacter.GetFirstNameNoTooltip] может прожить до 500 лет. Женщины с этим свойством становятся бесплодными примерно в 340 лет.\n\n[ROOT.GetCharacter.GetHerHis|U] естественная [Concept('gc_lifespan', 'продолжительность жизни')|E] - [ROOT.Char.Custom('GetNaturalLifespan')], которая может быть передана [ROOT.GetCharacter.GetHerHis] детям.."
 
- trait_lifespan_6:1 "Immortal"
- trait_lifespan_6_desc:1 "This character is a true immortal, forever unaging."
- trait_lifespan_6_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a true immortal, forever unaging."
+ trait_lifespan_magic_6:1 "Магическое бессмертие"
+ trait_lifespan_magic_6_desc:1 "Этот персонаж с помощью магии обрёл бессмертие и не умрёт от старости."
+ trait_lifespan_magic_6_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] с помощью магии [Select_CString(ROOT.GetCharacter.IsFemale, 'обрела', 'обрёл' )] бессмертие и не умрёт от старости."
+ trait_lifespan_magic_6_character_desc_extended:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] с помощью магии [Select_CString(ROOT.GetCharacter.IsFemale, 'обрела', 'обрёл' )] бессмертие и не умрёт от старости.\n\n[ROOT.GetCharacter.GetHerHis|U] естественная [Concept('gc_lifespan', 'продолжительность жизни')|E] - [ROOT.Char.Custom('GetNaturalLifespan')], которая может быть передана [ROOT.GetCharacter.GetHerHis] детям."
 
- natural_lifespan_0:0 "of average length"
+ trait_lifespan_6:1 "Бессмертие"
+ trait_lifespan_6_desc:1 "Этот персонаж - истинный бессмертный, вечно не стареющий."
+ trait_lifespan_6_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - [Select_CString(ROOT.GetCharacter.IsFemale, 'истинная бессмертная', 'истинный бессмертный' )], вечно не [Select_CString(ROOT.GetCharacter.IsFemale, 'стареющая', 'стареющий' )]."
+
+ natural_lifespan_0:0 "средней продолжительности"
  natural_lifespan_1:0 "[GetTrait('lifespan_1').GetName( GetNullCharacter )]"
  natural_lifespan_2:0 "[GetTrait('lifespan_2').GetName( GetNullCharacter )]"
  natural_lifespan_3:0 "[GetTrait('lifespan_3').GetName( GetNullCharacter )]"
@@ -508,9 +508,9 @@
  trait_clone_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является чьим-то клоном. [ROOT.GetCharacter.GetSheHe|U] не [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )] обычным способом, а [Select_CString(ROOT.GetCharacter.IsFemale, 'была создана', 'был создан' )] с помощью непонятного магического процесса [Concept('self_replication', 'самовоспроизведения')|E], также известного как [Concept('cloning', 'клонирование')|E]."
 
 
- trait_former_slave:0 "Former Slave"
- trait_former_slave_desc:0 "An erstwhile slave, this character was either granted their freedom or cast off their own shackles through force of arms.
- trait_former_slave_character_desc:0 "An erstwhile slave, [ROOT.GetCharacter.GetFirstNameNoTooltip] was either granted [ROOT.GetCharacter.GetHerHis] freedom or cast off [ROOT.GetCharacter.GetHerHis] own shackles through force of arms."
+ trait_former_slave:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Бывшая рабыня', 'Бывший раб' )]"
+ trait_former_slave_desc:0 "Бывший раб, этот персонаж либо получил свободу, либо сам сбросил оковы силой оружия."
+ trait_former_slave_character_desc:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Бывшая рабыня', 'Бывший раб' )], [ROOT.GetCharacter.GetFirstNameNoTooltip] либо [Select_CString(ROOT.GetCharacter.IsFemale, 'получила', 'получил' )] свою свободу, либо [Select_CString(ROOT.GetCharacter.IsFemale, 'сама сбросила', 'сам сбросил' )] оковы силой оружия."
 
  trait_track_magic:0 "Магия"
  trait_track_magic_desc:0 "Использовать магию в любой форме - значит держать в руках осколки божественной силы."

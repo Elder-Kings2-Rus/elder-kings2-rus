@@ -662,23 +662,23 @@
  trait_p_ta_peryite_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Надсмотрщика."
 
  #Reman
- trait_p_rm_light_of_man: "Follower of Reman, the Light of Man"
- trait_p_rm_light_of_man_base: "Follower of Reman, the Light of Man"
+ trait_p_rm_light_of_man: "Последователь Ремана, «Света людей»"
+ trait_p_rm_light_of_man_base: "Последователь Ремана, «Света людей»"
  trait_p_rm_light_of_man_null: "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_rm_light_of_man_desc' )]"
- trait_p_rm_light_of_man_desc:0 "A follower of Reman, the Light of Man"
- trait_p_rm_light_of_man_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Reman, the Light of Man."
+ trait_p_rm_light_of_man_desc:0 "Последователь Ремана, «Света людей»"
+ trait_p_rm_light_of_man_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Ремана, «Света людей»."
 
- trait_p_rm_the_cyrodiil: "Follower of Reman, the Cyrodiil"
- trait_p_rm_the_cyrodiil_base: "Follower of Reman, the Cyrodiil"
+ trait_p_rm_the_cyrodiil: "Последователь Ремана, «Сиродила»"
+ trait_p_rm_the_cyrodiil_base: "Последователь Ремана, «Сиродила»"
  trait_p_rm_the_cyrodiil_null: "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_rm_the_cyrodiil_desc' )]"
- trait_p_rm_the_cyrodiil_desc: "A follower of Reman, the Cyrodiil"
- trait_p_rm_the_cyrodiil_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Reman, the Cyrodiil."
+ trait_p_rm_the_cyrodiil_desc: "Последователь Ремана, «Сиродила»"
+ trait_p_rm_the_cyrodiil_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Ремана, «Сиродила»."
 
- trait_p_rm_worldly_god: "Follower of Reman, the Worldly God"
- trait_p_rm_worldly_god_base: "Follower of Reman, the Worldly God"
+ trait_p_rm_worldly_god: "Последователь Ремана, «Бога земли»"
+ trait_p_rm_worldly_god_base: "Последователь Ремана, «Бога земли»"
  trait_p_rm_worldly_god_null: "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_rm_worldly_god_desc' )]"
- trait_p_rm_worldly_god_desc: "A follower of Reman, the Worldly God"
- trait_p_rm_worldly_god_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Reman, the Worldly God."
+ trait_p_rm_worldly_god_desc: "Последователь Ремана, «Бога земли»"
+ trait_p_rm_worldly_god_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Ремана, «Бога земли»."
 
 
  #Misc
