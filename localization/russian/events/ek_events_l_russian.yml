@@ -89,9 +89,9 @@
  ek_court.0003.desc49:0 "«Многие обвиняют М'Айка в поклонении Боэтре, даже сама Боэтра. М'Айк не понимает, почему. Возможно, она лжёт.»"
  ek_court.0003.desc50:0 "«В Морровинде много каджитов, верно? Возможно, когда-то эти две провинции были куда ближе чем сейчас?»" # This is a reference to a longstanding bug which made Morrowind and Elsweyr border each other.
  ek_court.0003.desc51:0 "«Некоторые говорят, что большие корабли могут плавать по Нибену. Как они могут пройти под мостами Лейавина - загадка для М'Айка.»"
- ek_court.0003.desc52:0 ""Some claim the Imga disappeared with Falinesti. M'aiq thinks that if so the Imga didn't disappear for long, and have no memory of having been gone.""
- ek_court.0003.desc53:0 ""Apparently the primal traditions of goblins once destroyed the world. M'aiq does not know why, but it happened."" # the goblin unit innovation primal traditions caused a ctd for no good reason after a ck3 update
- ek_court.0003.desc54:0 ""Telvanni wizards are a contentious sort. M'aiq thinks their insistence on maintaining rivalries even past death must cause some problems."" # parliament of bugs bug
+ ek_court.0003.desc52:0 "«Некоторые утверждают, что имга исчезли вместе с Фалинести. М'Айк считает, что если это так, то имга исчезли ненадолго и никто не запомнил, что они пропадали»."
+ ek_court.0003.desc53:0 "«Очевидно, примитивные традиции гоблинов когда-то разрушили мир. М'Айк не знает почему, но это произошло»." # the goblin unit innovation primal traditions caused a ctd for no good reason after a ck3 update
+ ek_court.0003.desc54:0 "«Маги Телванни - склочный нардей. М'Айк считает, что их настойчивое стремление поддерживать соперничество даже после смерти вызывает некоторые проблемы»." # parliament of bugs bug
  ek_court.0003.a:0 "Это было... любопытно."
 
  ek_court.0004.t:0 "$hold_court_header$ [Select_CString(yagrum.IsFemale, 'Последняя', 'Последний' )] из своего рода"
