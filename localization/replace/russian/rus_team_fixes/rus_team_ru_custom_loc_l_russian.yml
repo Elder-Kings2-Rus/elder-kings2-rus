@@ -522,6 +522,38 @@
  animal_type_bison_RU_Gen: "бизона" #ArtifactAnimalType_RU_Gen
  animal_type_unicorn_RU_Gen: "единорога" #ArtifactAnimalType_RU_Gen
  animal_type_dragon_RU_Gen: "дракона" #ArtifactAnimalType_RU_Gen
+ #EK2 Add
+ animal_type_senche_cougar_RU_Gen:0 "сенч-пумы"
+ animal_type_senche_lion_RU_Gen:0 "сенч-льва"
+ animal_type_senche_leopard_RU_Gen:0 "сенч-леопарда"
+ animal_type_senche_panther_RU_Gen:0 "сенч-пантеры"
+ animal_type_tusked_bristleback_RU_Gen:0 "клыкастого щетиноспина"
+ animal_type_gryphon_RU_Gen:0 "грифона"
+ animal_type_addax_RU_Gen:0 "аддакса"
+ animal_type_springbok_RU_Gen:0 "антилопы-прыгуна"
+ animal_type_ringtail_RU_Gen:0 "кольцехвостого енота"
+ animal_type_spriggan_RU_Gen:0 "сприггана"
+ animal_type_mammoth_RU_Gen:0 "мамонта"
+ animal_type_horker_RU_Gen:0 "хоркера"
+ animal_type_dreugh_RU_Gen:0 "дреуга"
+ animal_type_mudcrab_RU_Gen:0 "грязекраба"
+ animal_type_alit_RU_Gen:0 "алита"
+ animal_type_scrib_RU_Gen:0 "скриба"
+ animal_type_duneracer_RU_Gen:0 "дюнохода"
+ animal_type_kwama_warrior_RU_Gen:0 "квамы-воина"
+ animal_type_giant_wasp_RU_Gen:0 "гигантской осы"
+ animal_type_giant_bat_RU_Gen:0 "гигантской летучей мыши"
+ animal_type_ash_hopper_RU_Gen:0 "пепельного прыгуна"
+ animal_type_bull_netch_RU_Gen:0 "нетча-самца"
+ animal_type_cliff_strider_RU_Gen:0 "скального странника"
+ animal_type_nix_hound_RU_Gen:0 "никс-гончей"
+ animal_type_cliff_darter_RU_Gen:0 "скального прыгуна"
+ animal_type_betva_hen_RU_Gen:0 "куропатки бетва"
+ animal_type_cliff_racer_RU_Gen:0 "скального наездника"
+ animal_type_crocodile_RU_Gen:0 "крокодила"
+ animal_type_assassin_beetle_RU_Gen:0 "жука-убийцы"
+ animal_type_badger_RU_Gen:0 "барсука"
+ #EK2 End
  animal_type_cat_RU_Dat: "кошке" #ArtifactAnimalType_RU_Dat
  animal_type_dog_RU_Dat: "собаке" #ArtifactAnimalType_RU_Dat
  animal_type_fox_RU_Dat: "лисе" #ArtifactAnimalType_RU_Dat
@@ -548,6 +580,38 @@
  animal_type_bison_RU_Dat: "бизону" #ArtifactAnimalType_RU_Dat
  animal_type_unicorn_RU_Dat: "единорогу" #ArtifactAnimalType_RU_Dat
  animal_type_dragon_RU_Dat: "дракону" #ArtifactAnimalType_RU_Dat
+ #EK2 Add
+ animal_type_senche_cougar_RU_Dat:0 "сенч-пуме"
+ animal_type_senche_lion_RU_Dat:0 "сенч-льву"
+ animal_type_senche_leopard_RU_Dat:0 "сенч-леопарду"
+ animal_type_senche_panther_RU_Dat:0 "сенч-пантере"
+ animal_type_tusked_bristleback_RU_Dat:0 "клыкастому щетиноспину"
+ animal_type_gryphon_RU_Dat:0 "грифону"
+ animal_type_addax_RU_Dat:0 "аддаксу"
+ animal_type_springbok_RU_Dat:0 "антилопе-прыгуну"
+ animal_type_ringtail_RU_Dat:0 "кольцехвостому еноту"
+ animal_type_spriggan_RU_Dat:0 "сприггану"
+ animal_type_mammoth_RU_Dat:0 "мамонту"
+ animal_type_horker_RU_Dat:0 "хоркеру"
+ animal_type_dreugh_RU_Dat:0 "дреугу"
+ animal_type_mudcrab_RU_Dat:0 "грязекрабу"
+ animal_type_alit_RU_Dat:0 "алиту"
+ animal_type_scrib_RU_Dat:0 "скрибу"
+ animal_type_duneracer_RU_Dat:0 "дюноходу"
+ animal_type_kwama_warrior_RU_Dat:0 "кваме-воину"
+ animal_type_giant_wasp_RU_Dat:0 "гигантской осе"
+ animal_type_giant_bat_RU_Dat:0 "гигантской летучей мыши"
+ animal_type_ash_hopper_RU_Dat:0 "пепельному прыгуну"
+ animal_type_bull_netch_RU_Dat:0 "нетчу-самцу"
+ animal_type_cliff_strider_RU_Dat:0 "скальному страннику"
+ animal_type_nix_hound_RU_Dat:0 "никс-гончей"
+ animal_type_cliff_darter_RU_Dat:0 "скальному прыгуну"
+ animal_type_betva_hen_RU_Dat:0 "куропатке бетва"
+ animal_type_cliff_racer_RU_Dat:0 "скальному наезднику"
+ animal_type_crocodile_RU_Dat:0 "крокодилу"
+ animal_type_assassin_beetle_RU_Dat:0 "жуку-убийце"
+ animal_type_badger_RU_Dat:0 "барсуку"
+ #EK2 End
  animal_type_cat_RU_Acc: "кошку" #ArtifactAnimalType_RU_Acc
  animal_type_dog_RU_Acc: "собаку" #ArtifactAnimalType_RU_Acc
  animal_type_fox_RU_Acc: "лису" #ArtifactAnimalType_RU_Acc
@@ -574,6 +638,38 @@
  animal_type_bison_RU_Acc: "бизона" #ArtifactAnimalType_RU_Acc
  animal_type_unicorn_RU_Acc: "единорога" #ArtifactAnimalType_RU_Acc
  animal_type_dragon_RU_Acc: "дракона" #ArtifactAnimalType_RU_Acc
+ #EK2 Add
+ animal_type_senche_cougar_RU_Acc:0 "сенч-пуму"
+ animal_type_senche_lion_RU_Acc:0 "сенч-льва"
+ animal_type_senche_leopard_RU_Acc:0 "сенч-леопарда"
+ animal_type_senche_panther_RU_Acc:0 "сенч-пантеру"
+ animal_type_tusked_bristleback_RU_Acc:0 "клыкастого щетиноспина"
+ animal_type_gryphon_RU_Acc:0 "грифона"
+ animal_type_addax_RU_Acc:0 "аддакса"
+ animal_type_springbok_RU_Acc:0 "антилопу-прыгуна"
+ animal_type_ringtail_RU_Acc:0 "кольцехвостого енота"
+ animal_type_spriggan_RU_Acc:0 "сприггана"
+ animal_type_mammoth_RU_Acc:0 "мамонта"
+ animal_type_horker_RU_Acc:0 "хоркера"
+ animal_type_dreugh_RU_Acc:0 "дреуга"
+ animal_type_mudcrab_RU_Acc:0 "грязекраба"
+ animal_type_alit_RU_Acc:0 "алита"
+ animal_type_scrib_RU_Acc:0 "скриба"
+ animal_type_duneracer_RU_Acc:0 "дюнохода"
+ animal_type_kwama_warrior_RU_Acc:0 "квама-воина"
+ animal_type_giant_wasp_RU_Acc:0 "гигантскую осу"
+ animal_type_giant_bat_RU_Acc:0 "гигантскую летучую мышь"
+ animal_type_ash_hopper_RU_Acc:0 "пепельного прыгуна"
+ animal_type_bull_netch_RU_Acc:0 "нетча-самца"
+ animal_type_cliff_strider_RU_Acc:0 "скального странника"
+ animal_type_nix_hound_RU_Acc:0 "никс-гончую"
+ animal_type_cliff_darter_RU_Acc:0 "скального прыгуна"
+ animal_type_betva_hen_RU_Acc:0 "куропатку бетва"
+ animal_type_cliff_racer_RU_Acc:0 "скального наездника"
+ animal_type_crocodile_RU_Acc:0 "крокодила"
+ animal_type_assassin_beetle_RU_Acc:0 "жука-убийцу"
+ animal_type_badger_RU_Acc:0 "барсука"
+ #EK2 End
  animal_type_cat_RU_Inst: "кошкой" #ArtifactAnimalType_RU_Inst
  animal_type_dog_RU_Inst: "собакой" #ArtifactAnimalType_RU_Inst
  animal_type_fox_RU_Inst: "лисой" #ArtifactAnimalType_RU_Inst
@@ -600,6 +696,38 @@
  animal_type_bison_RU_Inst: "бизоном" #ArtifactAnimalType_RU_Inst
  animal_type_unicorn_RU_Inst: "единорогом" #ArtifactAnimalType_RU_Inst
  animal_type_dragon_RU_Inst: "драконом" #ArtifactAnimalType_RU_Inst
+ #EK2 Add
+ animal_type_senche_cougar_RU_Inst:0 "сенч-пумой"
+ animal_type_senche_lion_RU_Inst:0 "сенч-львом"
+ animal_type_senche_leopard_RU_Inst:0 "сенч-леопардом"
+ animal_type_senche_panther_RU_Inst:0 "сенч-пантерой"
+ animal_type_tusked_bristleback_RU_Inst:0 "клыкастым щетиноспином"
+ animal_type_gryphon_RU_Inst:0 "грифоном"
+ animal_type_addax_RU_Inst:0 "аддаксом"
+ animal_type_springbok_RU_Inst:0 "антилопой-прыгуном"
+ animal_type_ringtail_RU_Inst:0 "кольцехвостым енотом"
+ animal_type_spriggan_RU_Inst:0 "спригганом"
+ animal_type_mammoth_RU_Inst:0 "мамонтом"
+ animal_type_horker_RU_Inst:0 "хоркером"
+ animal_type_dreugh_RU_Inst:0 "дреугом"
+ animal_type_mudcrab_RU_Inst:0 "грязекрабом"
+ animal_type_alit_RU_Inst:0 "алитом"
+ animal_type_scrib_RU_Inst:0 "скрибом"
+ animal_type_duneracer_RU_Inst:0 "дюноходом"
+ animal_type_kwama_warrior_RU_Inst:0 "квамой-воином"
+ animal_type_giant_wasp_RU_Inst:0 "гигантской осой"
+ animal_type_giant_bat_RU_Inst:0 "гигантской летучей мышью"
+ animal_type_ash_hopper_RU_Inst:0 "пепельным прыгуном"
+ animal_type_bull_netch_RU_Inst:0 "нетчем-самцом"
+ animal_type_cliff_strider_RU_Inst:0 "скальным странником"
+ animal_type_nix_hound_RU_Inst:0 "никс-гончей"
+ animal_type_cliff_darter_RU_Inst:0 "скальным прыгуном"
+ animal_type_betva_hen_RU_Inst:0 "куропаткой бетва"
+ animal_type_cliff_racer_RU_Inst:0 "скальным наездником"
+ animal_type_crocodile_RU_Inst:0 "крокодилом"
+ animal_type_assassin_beetle_RU_Inst:0 "жуком-убийцей"
+ animal_type_badger_RU_Inst:0 "барсуком"
+ #EK2 End
  animal_type_cat_RU_Prep: "кошке" #ArtifactAnimalType_RU_Prep
  animal_type_dog_RU_Prep: "собаке" #ArtifactAnimalType_RU_Prep
  animal_type_fox_RU_Prep: "лисе" #ArtifactAnimalType_RU_Prep
@@ -626,6 +754,38 @@
  animal_type_bison_RU_Prep: "бизоне" #ArtifactAnimalType_RU_Prep
  animal_type_unicorn_RU_Prep: "единороге" #ArtifactAnimalType_RU_Prep
  animal_type_dragon_RU_Prep: "драконе" #ArtifactAnimalType_RU_Prep
+ #EK2 Add
+ animal_type_senche_cougar_RU_Prep:0 "сенч-пуме"
+ animal_type_senche_lion_RU_Prep:0 "сенч-льве"
+ animal_type_senche_leopard_RU_Prep:0 "сенч-леопарде"
+ animal_type_senche_panther_RU_Prep:0 "сенч-пантере"
+ animal_type_tusked_bristleback_RU_Prep:0 "клыкастом щетиноспине"
+ animal_type_gryphon_RU_Prep:0 "грифоне"
+ animal_type_addax_RU_Prep:0 "аддаксе"
+ animal_type_springbok_RU_Prep:0 "антилопе-прыгуне"
+ animal_type_ringtail_RU_Prep:0 "кольцехвостом еноте"
+ animal_type_spriggan_RU_Prep:0 "сприггане"
+ animal_type_mammoth_RU_Prep:0 "мамонте"
+ animal_type_horker_RU_Prep:0 "хоркере"
+ animal_type_dreugh_RU_Prep:0 "дреуге"
+ animal_type_mudcrab_RU_Prep:0 "грязекрабе"
+ animal_type_alit_RU_Prep:0 "алите"
+ animal_type_scrib_RU_Prep:0 "скрибе"
+ animal_type_duneracer_RU_Prep:0 "дюноходе"
+ animal_type_kwama_warrior_RU_Prep:0 "квама-воине"
+ animal_type_giant_wasp_RU_Prep:0 "гигантской осе"
+ animal_type_giant_bat_RU_Prep:0 "гигантской летучей мыши"
+ animal_type_ash_hopper_RU_Prep:0 "пепельном прыгуне"
+ animal_type_bull_netch_RU_Prep:0 "нетче-самце"
+ animal_type_cliff_strider_RU_Prep:0 "скальном страннике"
+ animal_type_nix_hound_RU_Prep:0 "никс-гончей"
+ animal_type_cliff_darter_RU_Prep:0 "скальном прыгуне"
+ animal_type_betva_hen_RU_Prep:0 "куропатке бетва"
+ animal_type_cliff_racer_RU_Prep:0 "скальном наезднике"
+ animal_type_crocodile_RU_Prep:0 "крокодиле"
+ animal_type_assassin_beetle_RU_Prep:0 "жуке-убийце"
+ animal_type_badger_RU_Prep:0 "барсуке"
+ #EK2 End
  artifact_animal_adjective_great_RU_TRUNC: "велик" #ArtifactAnimalAdjective_RU_TRUNC
  artifact_animal_adjective_mighty_RU_TRUNC: "сильн" #ArtifactAnimalAdjective_RU_TRUNC
  artifact_animal_man_eating_RU_TRUNC: "людоедск" #ArtifactAnimalAdjective_RU_TRUNC
@@ -680,6 +840,38 @@
  animal_type_bustard_RU_Gen_END: "ой" #GetAnimalType_RU_Gen_END
  animal_type_grouse_RU_Gen_END: "ого" #GetAnimalType_RU_Gen_END
  animal_type_quail_RU_Gen_END: "ой" #GetAnimalType_RU_Gen_END
+ #EK2 Add
+ animal_type_senche_cougar_RU_Gen_END:0 "ой"
+ animal_type_senche_lion_RU_Gen_END:0 "ого"
+ animal_type_senche_leopard_RU_Gen_END:0 "ого"
+ animal_type_senche_panther_RU_Gen_END:0 "ой"
+ animal_type_tusked_bristleback_RU_Gen_END:0 "ого"
+ animal_type_gryphon_RU_Gen_END:0 "ого"
+ animal_type_addax_RU_Gen_END:0 "ого"
+ animal_type_springbok_RU_Gen_END:0 "ой"
+ animal_type_ringtail_RU_Gen_END:0 "ого"
+ animal_type_spriggan_RU_Gen_END:0 "ого"
+ animal_type_mammoth_RU_Gen_END:0 "ого"
+ animal_type_horker_RU_Gen_END:0 "ого"
+ animal_type_dreugh_RU_Gen_END:0 "ого"
+ animal_type_mudcrab_RU_Gen_END:0 "ого"
+ animal_type_alit_RU_Gen_END:0 "ого"
+ animal_type_scrib_RU_Gen_END:0 "ого"
+ animal_type_duneracer_RU_Gen_END:0 "ого"
+ animal_type_kwama_warrior_RU_Gen_END:0 "ого"
+ animal_type_giant_wasp_RU_Gen_END:0 "ой"
+ animal_type_giant_bat_RU_Gen_END:0 "ой"
+ animal_type_ash_hopper_RU_Gen_END:0 "ого"
+ animal_type_bull_netch_RU_Gen_END:0 "ого"
+ animal_type_cliff_strider_RU_Gen_END:0 "ого"
+ animal_type_nix_hound_RU_Gen_END:0 "ой"
+ animal_type_cliff_darter_RU_Gen_END:0 "ого"
+ animal_type_betva_hen_RU_Gen_END:0 "ой"
+ animal_type_cliff_racer_RU_Gen_END:0 "ого"
+ animal_type_crocodile_RU_Gen_END:0 "ого"
+ animal_type_assassin_beetle_RU_Gen_END:0 "ого"
+ animal_type_badger_RU_Gen_END:0 "ого"
+ #EK2 End
  animal_type_saiga_RU_Nom_END: "ый" #GetAnimalType_RU_Nom_END
  animal_type_antelope_RU_Nom_END: "ая" #GetAnimalType_RU_Nom_END
  animal_type_reindeer_RU_Nom_END: "ый" #GetAnimalType_RU_Nom_END
@@ -717,6 +909,38 @@
  animal_type_bustard_RU_Nom_END: "ая" #GetAnimalType_RU_Nom_END
  animal_type_grouse_RU_Nom_END: "ый" #GetAnimalType_RU_Nom_END
  animal_type_quail_RU_Nom_END: "ая" #GetAnimalType_RU_Nom_END
+ #EK2 Add
+ animal_type_senche_cougar_RU_Nom_END:0 "ая"
+ animal_type_senche_lion_RU_Nom_END:0 "ый"
+ animal_type_senche_leopard_RU_Nom_END:0 "ый"
+ animal_type_senche_panther_RU_Nom_END:0 "ая"
+ animal_type_tusked_bristleback_RU_Nom_END:0 "ый"
+ animal_type_gryphon_RU_Nom_END:0 "ый"
+ animal_type_addax_RU_Nom_END:0 "ый"
+ animal_type_springbok_RU_Nom_END:0 "ая"
+ animal_type_ringtail_RU_Nom_END:0 "ый"
+ animal_type_spriggan_RU_Nom_END:0 "ый"
+ animal_type_mammoth_RU_Nom_END:0 "ый"
+ animal_type_horker_RU_Nom_END:0 "ый"
+ animal_type_dreugh_RU_Nom_END:0 "ый"
+ animal_type_mudcrab_RU_Nom_END:0 "ый"
+ animal_type_alit_RU_Nom_END:0 "ый"
+ animal_type_scrib_RU_Nom_END:0 "ый"
+ animal_type_duneracer_RU_Nom_END:0 "ый"
+ animal_type_kwama_warrior_RU_Nom_END:0 "ый"
+ animal_type_giant_wasp_RU_Nom_END:0 "ая"
+ animal_type_giant_bat_RU_Nom_END:0 "ая"
+ animal_type_ash_hopper_RU_Nom_END:0 "ый"
+ animal_type_bull_netch_RU_Nom_END:0 "ый"
+ animal_type_cliff_strider_RU_Nom_END:0 "ый"
+ animal_type_nix_hound_RU_Nom_END:0 "ая"
+ animal_type_cliff_darter_RU_Nom_END:0 "ый"
+ animal_type_betva_hen_RU_Nom_END:0 "ая"
+ animal_type_cliff_racer_RU_Nom_END:0 "ый"
+ animal_type_crocodile_RU_Nom_END:0 "ый"
+ animal_type_assassin_beetle_RU_Nom_END:0 "ый"
+ animal_type_badger_RU_Nom_END:0 "ый"
+ #EK2 End
  animal_type_saiga_RU_Dat_END: "ому" #GetAnimalType_RU_Dat_END
  animal_type_antelope_RU_Dat_END: "ой" #GetAnimalType_RU_Dat_END
  animal_type_reindeer_RU_Dat_END: "ому" #GetAnimalType_RU_Dat_END
@@ -754,6 +978,38 @@
  animal_type_bustard_RU_Dat_END: "ой" #GetAnimalType_RU_Dat_END
  animal_type_grouse_RU_Dat_END: "ому" #GetAnimalType_RU_Dat_END
  animal_type_quail_RU_Dat_END: "ой" #GetAnimalType_RU_Dat_END
+ #EK2 Add
+ animal_type_senche_cougar_RU_Dat_END:0 "ой"
+ animal_type_senche_lion_RU_Dat_END:0 "ому"
+ animal_type_senche_leopard_RU_Dat_END:0 "ому"
+ animal_type_senche_panther_RU_Dat_END:0 "ой"
+ animal_type_tusked_bristleback_RU_Dat_END:0 "ому"
+ animal_type_gryphon_RU_Dat_END:0 "ому"
+ animal_type_addax_RU_Dat_END:0 "ому"
+ animal_type_springbok_RU_Dat_END:0 "ой"
+ animal_type_ringtail_RU_Dat_END:0 "ому"
+ animal_type_spriggan_RU_Dat_END:0 "ому"
+ animal_type_mammoth_RU_Dat_END:0 "ому"
+ animal_type_horker_RU_Dat_END:0 "ому"
+ animal_type_dreugh_RU_Dat_END:0 "ому"
+ animal_type_mudcrab_RU_Dat_END:0 "ому"
+ animal_type_alit_RU_Dat_END:0 "ому"
+ animal_type_scrib_RU_Dat_END:0 "ому"
+ animal_type_duneracer_RU_Dat_END:0 "ому"
+ animal_type_kwama_warrior_RU_Dat_END:0 "ому"
+ animal_type_giant_wasp_RU_Dat_END:0 "ой"
+ animal_type_giant_bat_RU_Dat_END:0 "ой"
+ animal_type_ash_hopper_RU_Dat_END:0 "ому"
+ animal_type_bull_netch_RU_Dat_END:0 "ому"
+ animal_type_cliff_strider_RU_Dat_END:0 "ому"
+ animal_type_nix_hound_RU_Dat_END:0 "ой"
+ animal_type_cliff_darter_RU_Dat_END:0 "ому"
+ animal_type_betva_hen_RU_Dat_END:0 "ой"
+ animal_type_cliff_racer_RU_Dat_END:0 "ому"
+ animal_type_crocodile_RU_Dat_END:0 "ому"
+ animal_type_assassin_beetle_RU_Dat_END:0 "ому"
+ animal_type_badger_RU_Dat_END:0 "ому"
+ #EK2 End
  animal_type_saiga_RU_Acc_END: "ого" #GetAnimalType_RU_Acc_END
  animal_type_antelope_RU_Acc_END: "ую" #GetAnimalType_RU_Acc_END
  animal_type_reindeer_RU_Acc_END: "ого" #GetAnimalType_RU_Acc_END
@@ -791,6 +1047,38 @@
  animal_type_bustard_RU_Acc_END: "ую" #GetAnimalType_RU_Acc_END
  animal_type_grouse_RU_Acc_END: "ого" #GetAnimalType_RU_Acc_END
  animal_type_quail_RU_Acc_END: "ую" #GetAnimalType_RU_Acc_END
+ #EK2 Add
+ animal_type_senche_cougar_RU_Acc_END:0 "ую"
+ animal_type_senche_lion_RU_Acc_END:0 "ого"
+ animal_type_senche_leopard_RU_Acc_END:0 "ого"
+ animal_type_senche_panther_RU_Acc_END:0 "ую"
+ animal_type_tusked_bristleback_RU_Acc_END:0 "ого"
+ animal_type_gryphon_RU_Acc_END:0 "ого"
+ animal_type_addax_RU_Acc_END:0 "ого"
+ animal_type_springbok_RU_Acc_END:0 "ую"
+ animal_type_ringtail_RU_Acc_END:0 "ого"
+ animal_type_spriggan_RU_Acc_END:0 "ого"
+ animal_type_mammoth_RU_Acc_END:0 "ого"
+ animal_type_horker_RU_Acc_END:0 "ого"
+ animal_type_dreugh_RU_Acc_END:0 "ого"
+ animal_type_mudcrab_RU_Acc_END:0 "ого"
+ animal_type_alit_RU_Acc_END:0 "ого"
+ animal_type_scrib_RU_Acc_END:0 "ого"
+ animal_type_duneracer_RU_Acc_END:0 "ого"
+ animal_type_kwama_warrior_RU_Acc_END:0 "ого"
+ animal_type_giant_wasp_RU_Acc_END:0 "ую"
+ animal_type_giant_bat_RU_Acc_END:0 "ую"
+ animal_type_ash_hopper_RU_Acc_END:0 "ого"
+ animal_type_bull_netch_RU_Acc_END:0 "ого"
+ animal_type_cliff_strider_RU_Acc_END:0 "ого"
+ animal_type_nix_hound_RU_Acc_END:0 "ую"
+ animal_type_cliff_darter_RU_Acc_END:0 "ого"
+ animal_type_betva_hen_RU_Acc_END:0 "ую"
+ animal_type_cliff_racer_RU_Acc_END:0 "ого"
+ animal_type_crocodile_RU_Acc_END:0 "ого"
+ animal_type_assassin_beetle_RU_Acc_END:0 "ого"
+ animal_type_badger_RU_Acc_END:0 "ого"
+ #EK2 End
  animal_type_buck_RU_Gen: "благородного оленя" #GetAnimalType_RU_Gen
  animal_type_zubr_RU_Gen: "зубра" #GetAnimalType_RU_Gen
  animal_type_wisent_RU_Gen: "зубра" #GetAnimalType_RU_Gen
@@ -945,6 +1233,38 @@
  animal_type_lion_RU_Gen_Pl: "львов" #RegionalFerociousAnimal_RU_Gen_Pl
  animal_type_gorilla_RU_Gen_Pl: "горилл" #RegionalFerociousAnimal_RU_Gen_Pl
  animal_type_shape_RU_Gen_Pl: "силуэтов" #RegionalFerociousAnimal_RU_Gen_Pl
+ #EK2 Add
+ animal_type_senche_cougar_RU_Gen_Pl:0 "сенч-пум"
+ animal_type_senche_lion_RU_Gen_Pl:0 "сенч-львов"
+ animal_type_senche_leopard_RU_Gen_Pl:0 "сенч-леопардов"
+ animal_type_senche_panther_RU_Gen_Pl:0 "сенч-пантер"
+ animal_type_tusked_bristleback_RU_Gen_Pl:0 "клыкастых щетиноспинов"
+ animal_type_gryphon_RU_Gen_Pl:0 "грифонов"
+ animal_type_addax_RU_Gen_Pl:0 "аддаксов"
+ animal_type_springbok_RU_Gen_Pl:0 "антилоп-прыгунов"
+ animal_type_ringtail_RU_Gen_Pl:0 "кольцехвостых енотов"
+ animal_type_spriggan_RU_Gen_Pl:0 "спригганов"
+ animal_type_mammoth_RU_Gen_Pl:0 "мамонтов"
+ animal_type_horker_RU_Gen_Pl:0 "хоркеров"
+ animal_type_dreugh_RU_Gen_Pl:0 "дреугов"
+ animal_type_mudcrab_RU_Gen_Pl:0 "грязекрабов"
+ animal_type_alit_RU_Gen_Pl:0 "алитов"
+ animal_type_scrib_RU_Gen_Pl:0 "скрибов"
+ animal_type_duneracer_RU_Gen_Pl:0 "дюноходов"
+ animal_type_kwama_warrior_RU_Gen_Pl:0 "квама-воинов"
+ animal_type_giant_wasp_RU_Gen_Pl:0 "гигантских ос"
+ animal_type_giant_bat_RU_Gen_Pl:0 "гигантских летучих мышей"
+ animal_type_ash_hopper_RU_Gen_Pl:0 "пепельных прыгунов"
+ animal_type_bull_netch_RU_Gen_Pl:0 "нетчей-самцов"
+ animal_type_cliff_strider_RU_Gen_Pl:0 "скальных странников"
+ animal_type_nix_hound_RU_Gen_Pl:0 "никс-гончих"
+ animal_type_cliff_darter_RU_Gen_Pl:0 "скальных прыгунов"
+ animal_type_betva_hen_RU_Gen_Pl:0 "куропаток бетва"
+ animal_type_cliff_racer_RU_Gen_Pl:0 "скальных наездников"
+ animal_type_crocodile_RU_Gen_Pl:0 "крокодилов"
+ animal_type_assassin_beetle_RU_Gen_Pl:0 "жуков-убийц"
+ animal_type_badger_RU_Gen_Pl:0 "барсуков"
+ #EK2 End
  flower_type_hibiscus_RU_Gen: "гибискуса" #get_region_flower_type_RU_Gen
  flower_type_gardenia_RU_Gen: "гардении" #get_region_flower_type_RU_Gen
  flower_type_lotus_RU_Gen: "лотоса" #get_region_flower_type_RU_Gen
