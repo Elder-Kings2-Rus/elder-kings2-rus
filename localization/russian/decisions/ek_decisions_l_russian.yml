@@ -374,7 +374,7 @@
  ban_slavery_in_realm_decision_confirm:0 "Услышьте меня!"
  ban_slavery_in_realm_decision_effect:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_slave_markets_01$#! будет отключена и не может быть построена в пределах вашей [Concept('realm', 'державы')|E]"
  culture_keeps_slaves_tooltip:0 "Ваша [Concept('culture', 'культура')|E] позволяет содержать [Concept('slaves', 'рабов')|E]"
- vassal_culture_keeps_slaves_tooltip:0 "Любая [Concept('culture', 'культура')|E] [Concept('vassal', 'вассалов')|E] в вашей [Concept('realm', 'державе')|E], позволяющая  содержать [Concept('slaves', 'рабов')|E]"
+ vassal_culture_keeps_slaves_tooltip:0 "Любая [Concept('culture', 'культура')|E] [Concept('vassal', 'вассалов')|E] в вашей [Concept('realm', 'державе')|E], позволяющая содержать [Concept('slaves', 'рабов')|E]"
  slavery_stance_allowed_trigger:0 "Вы являетесь членом [Concept('grand_council_morrowind', 'Великого совета Морровинда')|E] и [Concept('slavery', 'рабство')|E] было запрещено верховными советниками"
 
  allow_slavery_in_realm_decision:0 "Отменить запрет на рабство"

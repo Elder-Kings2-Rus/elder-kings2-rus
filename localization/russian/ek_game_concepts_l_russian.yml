@@ -116,7 +116,7 @@
  game_concept_slave:0 "Раб"
  game_concept_slaves:0 "Рабы"
  game_concept_slaver:0 "Рабовладелец"
- game_concept_slavery_desc:0 "Рабство реализуется через цепочку [Concept('buildings', 'зданий')|E] #V $building_type_slave_markets_01$#!.\n\nЧтобы строить и использовать эти здания, правителю требуется либо [culture|El], допускающая рабство, либо форма правления [pirate_government|El], либо членство в  [Concept('grand_council_morrowind', 'Великом совете Морровинда')|E].\n\nРабство может быть запрещено в пределах конкретной [Concept( 'realm', 'державы' )|E] с помощью [Concept('decision', 'решения')|E] #V «Запретить рабство в державе»#!.\n\nДержавы, практикующие рабство, рискуют столкнуться с восстаниями рабов."
+ game_concept_slavery_desc:0 "Рабство реализуется через цепочку [Concept('buildings', 'зданий')|E] #V $building_type_slave_markets_01$#!.\n\nЧтобы строить и использовать эти здания, правителю требуется либо [culture|El], допускающая рабство, либо форма правления [pirate_government|El], либо членство в [Concept('grand_council_morrowind', 'Великом совете Морровинда')|E].\n\nРабство может быть запрещено в пределах конкретной [Concept( 'realm', 'державы' )|E] с помощью [Concept('decision', 'решения')|E] #V «Запретить рабство в державе»#!.\n\nДержавы, практикующие рабство, рискуют столкнуться с восстаниями рабов."
 
  game_concept_grand_council_morrowind:0 "Великий совет Морровинда"
  game_concept_grand_council:0 "Великий совет" 

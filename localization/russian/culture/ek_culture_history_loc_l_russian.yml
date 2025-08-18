@@ -28,7 +28,7 @@
  colovian_history_loc: "Появились из #L [CULTURE.GetCollectiveNoun|l]их#! племён под нордским влиянием"
  strident_history_loc:0 "#L [CULTURE.GetCollectiveNoun]ий#! народ Золотого Берега, на который повлияли #L [TARGET_CULTURE.GetName|l]#!" 
  blackwood_history_loc:0 "Народ, сохранивший старые #L [CULTURE.GetCollectiveNoun|l]ие#! обычаи"
- rimmenese_history_loc:0 "Происходят от #L [CULTURE.GetCollectiveNoun]их#! торговцев, поселившихся в землях Риммена" 
+ rimmenese_history_loc:0 "Происходят от #L [CULTURE.GetCollectiveNoun|l]их#! торговцев, поселившихся в землях Риммена" 
  #Dunmer
  chi_addun_history_loc: "Потомки великих #L [CULTURE.GetCollectiveNoun|l]их#! чародеев с мистического Востока"
  gah_julan_history_loc: "Потомки выносливых #L [CULTURE.GetCollectiveNoun|l]их#! воинов с Велотийских гор"
@@ -52,7 +52,7 @@
  ojel_history_loc:0 "Появились из #L [CULTURE.GetCollectiveNoun|l]их#! племён под #L [TARGET_CULTURE.GetCollectiveNoun|l]им#! правлением"
  #Ayleid
  mathmeldi_history_loc:0 "#L [CULTURE.GetCollectiveNoun]ие#! изгнанники из Альд-Сирода"
- barsaebic_history_loc:0 "Происходят от [Concept( 'compendium_aedric', 'аэдрических' )|E] #L [CULTURE.GetCollectiveNoun|l]их#! беженцев во время [Glossary( 'Нарфинсельского раскола', 'NARFINSEL_GLOSS' )]"
+ barsaebic_history_loc:0 "Происходят от #L [CULTURE.GetCollectiveNoun|l]их#! беженцев во время [Glossary( 'Нарфинсельского раскола', 'NARFINSEL_GLOSS' )]"
  dynari_history_loc:0 "Происходят от #L [CULTURE.GetCollectiveNoun|l]их#! неналатанцев"
  #Daedra
  daedra_history_loc:0 "Незваные гости из планов Обливиона"

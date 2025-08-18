@@ -156,9 +156,9 @@
  xanmeer_witchgodname_the_horned_god_possessive:0 "$god_rajsithis_name_possessive$"
   
  coiled_path:0 "Извилистск"
- coiled_path_adj:0 "Извилистый Путь"
- coiled_path_adherent:0 "Идущий по Извилистому Пути"
- coiled_path_adherent_plural:0 "Идущие по Извилистому Пути"
+ coiled_path_adj:0 "Извилистый путь"
+ coiled_path_adherent:0 "Идущий по Извилистому пути"
+ coiled_path_adherent_plural:0 "Идущие по Извилистому пути"
  coiled_path_desc:0 "Призрачный Змей — дух, которому поклоняется племя эшлендеров Мабригаш. Они считают, что дух обитает в их родных болотах. Хотя толкования могут различаться, сами мабригаши считают его совокупностью женщин-предков племени, которые существуют, чтобы испытывать, советовать и защищать живых членов племени от суровых реалий мира."
  coiled_path_high_god_name:0 "$god_ghost_snake_name$"
  coiled_path_high_god_name_2:0 "$coiled_path_high_god_name$" # Optional translation alt
@@ -182,7 +182,7 @@
  coiled_path_religious_symbol:0 "змей"
  coiled_path_religious_text:0 "древние сказания"
  coiled_path_religious_head_title:0 "Великий Мабригаш"
- coiled_path_religious_head_title_name:0 "Извилистый Путь"
+ coiled_path_religious_head_title_name:0 "Извилистый путь"
  coiled_path_devotee_male:0 "послушник"
  coiled_path_devotee_male_plural:0 "послушники"
  coiled_path_devotee_female:0 "послушница"
