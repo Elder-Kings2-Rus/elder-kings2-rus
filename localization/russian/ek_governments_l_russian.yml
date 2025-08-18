@@ -205,12 +205,12 @@
  VASSAL_IS_CYRODIILIC: "Культура [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetShortUINamePossessive][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] не имеет [Concept('tradition', 'традиции')|E] [GetCultureTradition('tradition_imperial_legacy').GetName|V]."
  # GCM
 
- action_can_support:0 "You can Support [recipient.GetName]'s rule!"
- action_can_support_label:0 "@gcm_icon! [recipient.GetShortUINameNoTooltip] can be Supported"
- action_can_support_desc:0 "You can Support [recipient.GetShortUINameNoTooltip]'s rule and gather votes for the next Election!"
- action_can_support_click:0 "#I Click to start the scheme!#!"
+ action_can_support:0 "Вы можете поддержать правление персонажа [recipient.GetName]!"
+ action_can_support_label:0 "@gcm_icon! [recipient.GetShortUINameNoTooltip] может получить вашу поддержку"
+ action_can_support_desc:0 "Вы можете поддержать правление персонажа [recipient.GetShortUINameNoTooltip] и собирать голоса для следующих выборов!"
+ action_can_support_click:0 "#I Нажмите, чтобы начать происки!#!"
 
- action_can_undermine:0 "You can Undermine [recipient.GetName]'s rule!"
- action_can_undermine_label:0 "@gcm_icon! [recipient.GetShortUINameNoTooltip] can be Undermined"
- action_can_undermine_desc:0 "You can Undermine [recipient.GetShortUINameNoTooltip]'s rule and prove that you'd do a much better job!"
- action_can_undermine_click:0 "#I Click to start the scheme!#!"
+ action_can_undermine:0 "Вы можете подорвать власть персонажа [recipient.GetName]'s rule!"
+ action_can_undermine_label:0 "@gcm_icon! Власть персонажа [recipient.GetShortUINameNoTooltip] можно подорвать"
+ action_can_undermine_desc:0 "Вы можете подорвать власть персонажа [recipient.GetShortUINameNoTooltip] и доказать, что справились бы куда лучше"
+ action_can_undermine_click:0 "#I Нажмите, чтобы начать происки!#!"
