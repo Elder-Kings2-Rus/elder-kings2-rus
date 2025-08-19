@@ -20,7 +20,7 @@
  #Phases
  grand_council_gcm_balanced_situation_phase: "$gcm_balanced$"
  gcm_balanced: "Равновесие"
- gcm_balanced_desc: "При [Concept('high_councilor', 'фазе')|E] «$gcm_balanced$» [Concept('income', 'верховный советник')|E] оказывает сильное, но ограниченное влияние на [Concept('grand_council_members', 'членов Великого совета')|E]. Данмеры могут вести [Concept('war', 'войну')|E] с [Concept('outlanders', 'чужеземцами')|E] только с одобрения верховного советника, а деятельность Мораг Тонг ограничена Морровиндом."
+ gcm_balanced_desc: "При [Concept('situation_phase', 'фазе')|E] «$gcm_balanced$» [Concept('high_councilor', 'верховный советник')|E] оказывает сильное, но ограниченное влияние на [Concept('grand_council_members', 'членов Великого совета')|E]. Данмеры могут вести [Concept('war', 'войну')|E] с [Concept('outlanders', 'чужеземцами')|E] только с одобрения верховного советника, а деятельность Мораг Тонг ограничена Морровиндом."
  grand_council_gcm_autonomy_situation_phase: "$gcm_autonomy$"
  gcm_autonomy: "Автономия"
  gcm_autonomy_desc: "При [Concept('situation_phase', 'фазе')|E] «$gcm_autonomy$» влияние [Concept('high_councilor', 'верховного советника')|E] на [Concept('grand_council_members', 'членов Великого совета')|E] снижается, что позволяет им более свободно использовать [Concept('writs_of_execution', 'приказы о казни')|E] и атаковать [Concept('outlanders', 'чужеземцев')|E]."
