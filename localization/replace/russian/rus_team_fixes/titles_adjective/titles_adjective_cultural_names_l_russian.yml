@@ -3,8 +3,12 @@
  #################
  ### High Rock ###
  #################
+ cn_manmereth_adj:0 "Манмеретск"
+ cn_betnar_adj:0 "Бетнарск"
  cn_khazun_ghash_adj:0 "Хазун-гашск"
  cn_grudgerock_adj:0 "Скало-раздорск"
+ cn_farrund_adj:0 "Фаррундск"
+ cn_farrund_hall_adj:0 "Фаррундхоллск"
  cn_lar_druaid_adj:0 "Лар-друайдск" # Reachfolk k_Jehanna
  cn_dru_druad_adj:0 "Дру-друайдск" # Reachfolk d_Jehanna
  cn_cul_druaid_adj:0 "Кул-друайдск" # Reachfolk c_Jehanna
@@ -14,11 +18,16 @@
  cn_lar_wrogar_adj:0 "Лар-рогарск" # Reachfolk k_Wrothgar
  cn_cul_aloue_adj:0 "Кул-алоуск" # Reachfolk c_Coldperch
  cn_jehenna_adj:0 "Джехеннск" # PGE3/Skyrim name for Jehanna
+ cn_vragerest_adj:0 "Враггенск" #Because Vrage started the invasion into High Rock
+ cn_hoagsfall_adj:0 "Хоагск"
+ cn_hoagsrest_adj:0 "Хоагск"
  cn_kjamlor_adj:0 "Кьямлейрск"
  cn_kjamlor_hall_adj:0 "Кьямлейрск"
+ cn_kjambray_adj:0 "Кьямбрейск"
  cn_dolkenfall_adj:0 "Долкенфоллск"
  cn_daggerfell_adj:0 "Даггерфеллск"
  cn_dolkenfall_hall_adj:0 "Долкенфоллск"
+ cn_invisible_college_dolkenfall_adj:0 "Долкенфоллск"
  cn_shornhjalmr_adj:0 "Шорнхьяльмрск"
  cn_shornhjalmr_hall_adj:0 "Шорнхьяльмрск"
  cn_sharnhalm_adj:0 "Шарнхальмск"
@@ -41,10 +50,12 @@
  cn_sancremath_adj:0 "Санкрематхск"
 
  # Balfiera
+ cn_towerzero_adj:0 "Нуле-башенск" # Tower of Adamant
 
  ##################
  ### Hammerfell ###
  ##################
+ cn_bendmarch_adj:0 "Бендмаркск"
  cn_volen_ij_adj: "Волен-иджск"
  cn_hrammafel_adj:0 "Храммафелск"
  cn_jephre_path_adj:0 "Джефрск"
@@ -62,6 +73,46 @@
  cn_aelfendor_adj:0 "Элфендорск"
  cn_danstrar_adj:0 "Данстрарск"
 
+ cn_benkongerike_adj:0 "Бенконгерикск"
+ cn_froogarjoorak_adj:0 "Фругар-йоракск"
+ cn_hralookaarok_adj:0 "Хралу-карокск"
+ cn_maawaabrelkoo_adj:0 "Мава-брелкуйск"
+ cn_boodjarak_adj:0 "Хралу-будьяракск"
+ cn_koolaamookara_adj:0 "Кула-мукарск"
+ cn_klokaar_adj:0 "Клокарск"
+ cn_solvajoor_adj:0 "Солвадьорск"
+ cn_kaarfaal_adj:0 "Карфалск"
+ cn_swaalook_adj:0 "Свалукск"
+ cn_norookar_adj:0 "Норукарск"
+ cn_eerawaa_adj:0 "Эревск"
+ cn_gahwaka_adj:0 "Гавакск"
+ cn_karruuk_adj:0 "Каррукск"
+ cn_braaloo_adj:0 "Бралуйск"
+ cn_brafaal_adj:0 "Брафалск"
+ cn_gorwak_adj:0 "Горвакск"
+ cn_joorfaaloo_adj:0 "Йорфалуйск"
+ cn_joorfal_adj:0 "Йурфалск"
+ cn_joorfarok_adj:0 "Йурфарокск
+ cn_farokawaa_adj: "Фарокавск"
+ cn_joorkar_adj: "Юркарск"
+ cn_joorraak_adj: "Юрракск"
+ cn_nenyond_adj:0 "Неньондск"
+ cn_tel_relleis_adj: "Тель-реллейск"
+ cn_falkaran_adj: "Фалкаранск"
+ cn_angalayond_adj: "Ангалайондск"
+ cn_dweseli_adj: "Двеселийск"
+ cn_molagnen_tarn_adj: "Молагнен-тарнск"
+ cn_feywend_adj: "Фейвендск"
+ cn_tamvarlais_adj: "Тамварлаисск"
+ cn_silator_twyll_adj: "Силатор-твиллск"
+ cn_eld_arpensel_adj: "Эльд-арпенселск"
+ cn_torskylata_adj:0 "Тор-скайлатск"
+ cn_nenagasel_adj:0 "Ненагаселск"
+ cn_raundir:0 "Раундирск"
+ cn_garlastel_adj:0 "Гарлас-телск"
+ cn_angatulmath_adj:0 "Ангатулматск"
+ cn_laidaldal_adj:0 "Лайдал’далск"
+
  ################
  ### Cyrodiil ###
  ################
@@ -76,6 +127,10 @@
  #Nibenese
  #Cyrodiilic
  #Nord
+ cn_aerthomm_adj: "Эйртоммск"
+ cn_mhorlagrad_adj: "Морлаградск"
+ cn_saerchal_adj: "Сейрхалск"
+ cn_vverchad_adj: "Вверкадск"
  #Reachfolk
  #Khajiit
  cn_malapi_adj:0 "Малапийск"
@@ -89,16 +144,18 @@
  cn_levinu_adj:0 "Левинуйск"
  cn_torlevinu_adj:0 "Торлевинуйск"
  #Ojel - currently disabled
- cn_dumfvck_lukiul: "Подними-перо-слабоумск"
+ cn_dumfvck_lukiul_adj: "Подними-перо-слабоумск"
 
  #################
  ### Summerset ###
  #################
- cn_celemora: "Келеморск"
- cn_rosathil: "Розатилск"
- cn_tor_hame_khard: "Тор-хейм-хардск"
- cn_dirennis: "Диреннийск"
+ cn_anirdala_adj: "Анирдалск"
+ cn_celemora_adj: "Келеморск"
+ cn_rosathil_adj: "Розатилск"
+ cn_tor_hame_khard_adj: "Тор-хейм-хардск"
+ cn_dirennis_adj: "Диреннийск"
  cn_sumurset_adj:0 "Самурсетск"
+ cn_altmereth_adj:0 "Альтмеретск"
  cn_somorset_adj:0 "Соморсетск"
  cn_calcal_adj:0 "Цалькальск"
  cn_summurgsat_adj:0 "Саммурксатск"
@@ -112,12 +169,23 @@
  #################
  ### Morrowind ###
  #################
+ #Dunmer
+ cn_bal_foyen_adj: "Бал-фойенск"
+ cn_darvonis_adj: "Дарвонисск"
+ cn_darvonis_watch_adj: "Дарвонисск"
+ cn_darvonis_port_adj: "Дарвонисск"
+ cn_hrogar_hold_adj:0 "Хрогарск" #Note - unused
+
  cn_morrowindl_adj:0 "Морровиндлск"
  cn_thundholmar_adj:0 "Тундольмарск"
- cn_huldarkorst_adj:0 "Хюльдаркорстск"
- cn_olmgerdheim_adj:0 "Ольмгердхеймск"
- cn_olmgerds_landing_adj:0 "Ольмгердск"
- cn_ramimilk_adj:0 "Рамимилкск"
+
+ #Argonian
+ cn_uxith_adj:0 "Укситск"
+ cn_lukiul_uxith_adj:0 "Лукиул-укситск"
+ #cn_huldarkorst_adj:0 "Хюльдаркорстск"
+ #cn_olmgerdheim_adj:0 "Ольмгердхеймск"
+ #cn_olmgerds_landing_adj:0 "Ольмгердск"
+ #cn_ramimilk_adj:0 "Рамимилкск"
 
  #################
  ### Valenwood ###
@@ -144,6 +212,8 @@
  cn_xarxen_mora_adj:0 "Зарксен-морск"
  cn_arenth_arla_adj: "Арент-арлск"
  cn_arata_ceyglynn_adj: "Арата-кейглиннск"
+ #Nordic
+ cn_bosmereth_adj:0 "Босмеретск"
 
  ###############
  ### Elsweyr ###
