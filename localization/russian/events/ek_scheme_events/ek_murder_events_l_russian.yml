@@ -95,7 +95,7 @@
  ek_murder_outcome.0214.desc.3: "Огромный даэдрот врезался во фланг моего маленького отряда. С теми из моих стражников, которым не повезло оказаться на той стороне, было покончено быстро, но, к счастью, этот даэдрот, должно быть, был очень голоден, так как прекратил атаку и приступил к пиршеству.\n\nЧудовище отвлеклось, и мои уцелевшие стражники сумели объединиться, чтобы атаковать и уничтожить его вместе."
  ek_murder_outcome.0214.desc.4: "Одинокий воин-дремора, облаченный в даэдрические доспехи, приблизился к нам, надменно глядя на нас. Доказывая высокомерие своего народа, воин вызвал моих стражников на поединок! После невероятного поединка поборник моего народа сразил нападавшего даэдра!"
  
- ek_murder_outcome.1102.t:0 "An Honorable Execution"
- ek_murder_outcome.1102.desc:0 "A discreet message from the Master arrives, informing me that everything is in place and the agent is ready to proceed. As a customary courtesy, I am granted the final authorization to carry out the Honorable Execution of [target.GetName].\n\nContemplating the weight of this decision, I carefully weigh the implications and consequences of my choice. The fate of [target.GetName] rests in my hands, and I must decide whether to grant the final approval or to reconsider the course of action."
- ek_murder_outcome.1102.a:0 "One signature is all it takes..."
- ek_murder_outcome.1102.b:0 "I'll pay for an extension of the Writ."
+ ek_murder_outcome.1102.t:0 "Почётная казнь"
+ ek_murder_outcome.1102.desc:0 "Мне приходит непримечательное на первый взгляд послание от мастера из Мораг Тонг: всё готово, агент ждёт приказа. В знак уважения мне предоставлено право финального подтверждения на проведение почётной казни цели по имени [target.GetName].\n\nОсознавая тяжесть решения, я тщательно взвешиваю его последствия. Судьба персонажа [target.GetName] в моих руках, и лишь мне предстоит решить: дать ли окончательное одобрение или же пересмотреть намерение."
+ ek_murder_outcome.1102.a:0 "Всего одна подпись и..."
+ ek_murder_outcome.1102.b:0 "Я оплачу продление приказа."

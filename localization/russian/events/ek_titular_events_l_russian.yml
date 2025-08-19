@@ -55,11 +55,11 @@
  ektitulartitle.1502.a: "Знаем ли мы вообще, какие королевства приносили клятву Дюроку?"
  
  # Restoring a Great House
- ektitulartitle.1601.t: "A House Rebuilt"
- ektitulartitle.1601.desc: "For untold years the civilised Dunmeri people of [Glossary( 'Resdayn', 'RESDAYN_GLOSS' )] were lead by the Great Houses, wise stewards of the Velothi ruling principles and faithful servants of the Three. Yet [restored_great_house.GetName] fell into ruin, abandoned by its brethren.\n\nToday, I have restored our House, and reclaimed its rightful seat in the [grand_council_morrowind|E]!"
- ektitulartitle.1601.a: "Never will it fall again."
+ ektitulartitle.1601.t: "Восстановленный дом"
+ ektitulartitle.1601.desc: "Веками цивилизованный народ данмеров в землях [Glossary( 'Ресдайна', 'RESDAYN_GLOSS' )] следовал за Великими домами – мудрыми хранителями велотийских принципов правления и верными слугами Троицы. Но дом [restored_great_house.GetName] пал, покинутый своими братьями и сёстрами.\n\nСегодня я [Select_CString(ROOT.Char.IsFemale, 'восстановила наш дом и вернула', 'восстановил наш дом и вернул' )] ему законное место в [Concept('grand_council_morrowind', 'Великом совете Морровинда')|E]!"
+ ektitulartitle.1601.a: "Да не падёт он больше никогда!"
 
- ektitulartitle.1602.t: "A House Restored"
- ektitulartitle.1602.desc: "The very foundations of the land of the Dark Elves were shaken when one of its five Great Houses fell.\n\nNow this wrong has been made right, with the refounding of [restored_great_house.GetName] by [restorer.GetTitledFirstName], who has reclaimed their rightful seat in the [grand_council_morrowind|E]."
- ektitulartitle.1602.a:0 "Praise the Three!"
- ektitulartitle.1602.b:0 "Will it last?"
+ ektitulartitle.1602.t: "Возрождённый дом"
+ ektitulartitle.1602.desc: "Сами фундаментальные основы жизни земли тёмных эльфов содрогнулись, когда пал один из пяти Великих домов.\n\nНо теперь эта несправедливость исправлена: [restorer.GetTitledFirstName] [Select_CString(restorer.IsFemale, 'возродила', 'возродил' )] дом [restored_great_house.GetName] и [Select_CString(restorer.IsFemale, 'вернула', 'вернул' )] ему законное место в [Concept('grand_council_morrowind', 'Великом совете Морровинда')|E]."
+ ektitulartitle.1602.a: "Слава Троице!"
+ ektitulartitle.1602.b: "Но надолго ли?"
