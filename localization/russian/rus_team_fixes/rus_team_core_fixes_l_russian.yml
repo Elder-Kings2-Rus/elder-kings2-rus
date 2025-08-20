@@ -244,4 +244,14 @@
  hierocracy_tax_slot_no_tax_collector: "Иерократическая налоговая юрисдикция"
  hierocracy_tax_slot_tax_collector: "Иерократическая налоговая юрисдикция: [character.GetName]"
  hierocracy_tax_slot_add: "$MOD_NUM_TAX_SLOTS$"
+ building_type_adamantium_mine_01:0 "Адамантиновая шахта" # для шахты Березана
+ building_type_adamantium_mine_01_desc:0 "Немногие руды на Нирне окутаны мифами и тайнами, как адамантий. В конце концов, сами боги создали первое строение на Нирне - Адамантиновую Башню - именно из этого материала. В природе он встречается крайне редко, что делает его очень желанным веществом. Считается, что адамантий обладает исключительной прочностью, сравнимой с эбонитом, и наделён различными магическими свойствами.\n\nШахта, богатая этим материалом, - гарантия огромного богатства для тех, кому посчастливилось им обладать."
+ building_adamantium_mine_01:1 "Поселение по добыче адамантия"
+ building_adamantium_mine_01_desc:1 "$building_type_adamantium_mine_01_desc$"
+ building_adamantium_mine_02:1 "Адамантиновая шахта"
+ building_adamantium_mine_02_desc:1 "$building_type_adamantium_mine_01_desc$"
+ building_adamantium_mine_03:1 "Большая адамантиновая шахта"
+ building_adamantium_mine_03_desc:1 "$building_type_adamantium_mine_01_desc$"
+ building_adamantium_mine_04:1 "Адамантиновый шахтёрский комплекс"
+ building_adamantium_mine_04_desc:1 "$building_type_adamantium_mine_01_desc$"
  

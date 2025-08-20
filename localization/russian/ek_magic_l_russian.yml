@@ -572,7 +572,7 @@
  restless_dead_perk_name:0 "$restless_dead_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('restless_dead_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk|q$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('restless_dead_province'), '(CFixedPoint)1'), '$spell_province_perk|q$' )]"
  restless_dead_effect:0 "Оживляет [Concept('army', 'армию')|E] мёртвых [Concept('levies', 'ополченцев')|E]. Количество зависит от размера [Concept('levy', 'ополчения')|E] [Concept('capital', 'столицы')|E]"
  create_undead_name:0 "Поднять орду мертвецов"
- create_undead_perk_name:0 "$create_undead_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('create_undead_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk|q$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('create_undead_province'), '(CFixedPoint)1'), '$spell_province_perk|q$' )]\n#weak $create_undead_effect$#!"
+ create_undead_perk_name:0 "$create_undead_name$ [AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('create_undead_hostile'), '(CFixedPoint)1'), '$spell_hostile_perk|q$' )][AddTextIf( EqualTo_CFixedPoint(EmptyScope.ScriptValue('create_undead_province'), '(CFixedPoint)1'), '$spell_province_perk|q$' )]" # \n#weak $create_undead_effect$#! - не работает локализация
 
  bone_mantle_name:0 "Костяная мантия"
  bone_mantle_perk_name:0 "[GetModifier('modifier_ritual_bone_mantle').GetNameWithTooltip]"

@@ -326,7 +326,7 @@
  # Courtier
  
  hire_court_mage_decision:0 "Найти придворного мага"
- hire_court_mage_decision_tooltip:3 "Ваши слуги предложат несколько кандидатур, подходящих на должность [GetCourtPositionType('court_mage_court_position').GetName()]"
+ hire_court_mage_decision_tooltip:3 "Ваши слуги предложат несколько кандидатур, подходящих на должность #TOOLTIP:COURT_POSITION_TYPE,court_mage_court_position #L придворного мага#!#!"
  hire_court_mage_decision_desc:1 "Придворный маг необходим, чтобы творить заклинания и накладывать чары во благо королевства. Я попрошу своих слуг отыскать и привести несколько подходящих кандидатов."
  hire_court_mage_cooldown_tt: "[GetCourtPositionType('court_mage_court_position').GetName] может быть нанят повторно через [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_court_mage_cooldown' ))]"
  hire_court_mage_decision_effect_tooltip:4 "Вам предложат несколько кандидатов на должность «[GetCourtPositionType('court_mage_court_position').GetName()]» и вы сможете нанять одного из них за вознаграждение и ежемесячное жалование"
