@@ -108,7 +108,7 @@
  ek_court.0005.arms.desc:0 "Наконец-то у меня есть хорошие новости! В приложении к этому письму я посылаю знак моей признательности за вашу постоянную поддержку. Это тайник с боевым снаряжением, изготовленным из лучших двемерских материалов, который я [Select_CString(yagrum.IsFemale, 'нашла', 'нашёл' )], исследуя руины."
  ek_court.0005.e:0 "Приятный сюрприз!"
  ek_court.0005.automata.desc:0 "С прискорбием сообщаю, что, исследуя руины под графством [automata_province.GetName], я случайно [Select_CString(yagrum.IsFemale, 'привела', 'привёл' )] в действие автоматическую защиту руин. Прошу вас принять подарок, который я посылаю в приложении к этому письму, как символ моих глубочайших извинений."
- ek_court.0005.d:0 "[yagrum.Custom('InsultAdjective')] [Select_CString(yagrum.IsFemale, 'гномиха', 'гном' )]! Пусть её настигнет кара [ROOT.GetCharacter.GetFaith.HighGodNamePossessive]!"
+ ek_court.0005.d:0 "[yagrum.Custom('InsultAdjective')|U] [Select_CString(yagrum.IsFemale, 'гномиха', 'гном' )]! Пусть [Select_CString(yagrum.IsFemale, 'её', 'его' )] настигнет кара [ROOT.GetCharacter.GetFaith.HighGodNamePossessive]!"
  ek_court.0005.falmer.desc:0 "С прискорбием сообщаю, что, исследуя руины под графством [falmer_province.GetName], я случайно [Select_CString(yagrum.IsFemale, 'потревожила', 'потревожил' )] их странных обитателей. Прошу вас принять подарок, который я посылаю в приложении к этому письму, как символ моих глубочайших извинений."
 
  ek_court.0006.t:0 "Крысиное нашествие"
@@ -990,8 +990,8 @@
  ek_slavery_events.0001.option.3:0 "Погодите, это слишком радикальное изменение."
  every_non_slaver_vassal:0 "Каждый [vassal|El] [Concept( 'culture', 'культуры' )|E], не практикующей [Concept( 'slaver', 'рабство' )|E]"
  every_slaver_vassal:0 "Каждый [vassal|El] [Concept( 'culture', 'культуры' )|E], практикующей [Concept( 'slaver', 'рабство' )|E]"
- every_glory_hound_vassal_slaver:0 "Каждый $glory_hound_vassal$ [Concept( 'culture', 'культуры' )|E], практикующей [Concept( 'slaver', 'рабство' )|E]"
- every_parochial_vassal_slaver:0 "Каждый $parochial_vassal$ [Concept( 'culture', 'культуры' )|E], практикующей [Concept( 'slaver', 'рабство' )|E]"
+ every_glory_hound_vassal_slaver:0 "Каждый #TOOLTIP:VASSAL_STANCE,glory_hound #L [GetVassalStance( 'glory_hound' ).GetTextIcon]охочий до славы#!#! [Concept( 'culture', 'культуры' )|E], практикующей [Concept( 'slaver', 'рабство' )|E]"
+ every_parochial_vassal_slaver:0 "Каждый #TOOLTIP:VASSAL_STANCE,parochial #L [GetVassalStance( 'parochial' ).GetTextIcon]местечковый#!#! [Concept( 'culture', 'культуры' )|E], практикующей [Concept( 'slaver', 'рабство' )|E]"
  ek_slavery_events.0001.cultural_acceptance_loss:0 "Запрет рабства"
 
  ek_slavery_events.0002.t:0 "Закон об отмене рабства"
