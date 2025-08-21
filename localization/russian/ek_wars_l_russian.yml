@@ -58,8 +58,11 @@
  attrebus_potentate_cb_victory_desc:0 "[attacker.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'сокрушите', 'сокрушит' )] Потентат, и Сиродил затаит дыхание, поскольку военачальник навсегда определит его историю..."
  attrebus_potentate_cb_victory_with_liodes_desc:0 "Если [liodes.GetNameNicknamed] или [liodes.GetHerHis] потомки, всё ещё участвуют в войне, они получат все земли, принадлежащие потентату в пределах любого [de_jure|El] герцогства, в котором они владеют землями."
  attrebus_potentate_cb_seize_potentate_held_land:0 "Вы захватываете все земли, принадлежащие непосредственно потентату"
+ dres_argonian_war_cb: "Кампания по возвращению юга"
  dres_argonian_war_cb_seize_thorn:0 "Мадези захватывает Торн и провозглашает себя королем его земель"
  dres_argonian_war_cb_claim_dres:0 "Савор использует поддержку своих союзников по войне, чтобы объявить себя правителем Дома Дрес"
+ dres_argonian_war_nickname: "Ваши союзники получат престиж и прозвище «$nick_reclaimer$»"
+ dres_argonian_war_imprison_enemies: "Вы [Concept('imprison', 'заключите в темницу')|E] защитников"
 
  IMPRISON_MAGE_CB_NAME:1 "Задержать опасного мага"
  IMPRISON_MAGE_WAR_NAME:2 "Задержать персонажа [DEFENDER.GetShortUIName] за [defender.GetHerHis] злоупотребление магией"

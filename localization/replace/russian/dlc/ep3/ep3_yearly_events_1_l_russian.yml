@@ -1,0 +1,3 @@
+﻿l_russian:
+ ep3_yearly.1010.t: "Иппомания"
+ ep3_yearly.1010.intro: "#EMP Цок-цок. Цок-цок.#!\n\n[horse_owner.Custom('WarhorseStoryName')], верный скакун, которым владеет [horse_owner.GetTitledFirstName], рысью несет своего хозяина по моему внутреннему двору. [horse_owner.Custom('HorseStoryMareStallion')|U] имеет такой напыщенный вид, словно знает все о своей безупречной родословной.\n\n[horse_owner.GetFirstNameNoTooltip] вызывает неподдельную зависть у каждого губернатора в державе [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] — в том числе и у меня."

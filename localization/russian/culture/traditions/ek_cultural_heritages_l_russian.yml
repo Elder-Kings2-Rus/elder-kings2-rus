@@ -66,15 +66,15 @@
  heritage_nedic_north_collective_noun:0 "Северные недийцы"
  heritage_nedic_north_desc:0 "Недийцы — коллективные человеческие племена, коренное население Тамриэля. Изначально населяли залив Илиак, южный Скайрим, Сиродил и Аргонию; многие племена будут вытеснены или поглощены более поздними миграциями людей и меров. Крупнейшая существующая ныне группа недийцев — это $reachfolk$ Предела, происходящие из 'Карта' — некогда самостоятельного королевства, пока Реман не разделил эти земли между Хай Роком и Скайримом.\n\nХотя многие из их культур вымерли или близки к этому, честолюбивый правитель мог бы возглавить их возрождение..."
 
- #heritage_nedic_south_name:0 "Южные недийцы"
- heritage_nedic_south_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ) ), 'Южно-недийск', Localize('no') )]"
- heritage_nedic_southe_noun:0 "Южно-недийцы"
- heritage_nedic_south_desc:0 "Недийцы — коллективные человеческие племена, коренное население Тамриэля. Изначально населяли залив Илиак, южный Скайрим, Сиродил и Аргонию; многие племена будут вытеснены или поглощены более поздними миграциями людей и меров. Крупнейшая существующая ныне группа недийцев — это $reachfolk$ Предела, происходящие из «Карта» — некогда самостоятельного королевства, пока Реман не разделил эти земли между Хай Роком и Скайримом.\n\nХотя многие из их культур вымерли или близки к этому, честолюбивый правитель мог бы возглавить их возрождение..." #EK TODO: this is a copy of the northen nedic desc, might wanna talk about south nede here
+ #heritage_nedic_south_name:0 "Котри"
+ heritage_nedic_south_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ) ), 'Котрингск', Localize('no') )]"
+ heritage_nedic_southe_noun:0 "Котри"
+ heritage_nedic_south_desc:0 "Котри – человеческие племена, обитающие в болотах Чернотопья. Их происхождение восходит к недийцам, некогда населявшим земли вдоль реки Нибен." #EK TODO: this is a copy of the northen nedic desc, might wanna talk about south nede here
 
  #heritage_nedic_central_name:0 "Central Nedic"
  heritage_nedic_central_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ) ), 'Центрально-недийск', Localize('no') )]"
  heritage_nedic_central_collective_noun:0 "Центральные недийцы"
- heritage_nedic_central_desc:0 "Недийцы — коллективные человеческие племена, коренное население Тамриэля. Изначально населяли залив Илиак, южный Скайрим, Сиродил и Аргонию; многие племена будут вытеснены или поглощены более поздними миграциями людей и меров. Крупнейшая существующая ныне группа недийцев — это $reachfolk$ Предела, происходящие из «Карта» — некогда самостоятельного королевства, пока Реман не разделил эти земли между Хай Роком и Скайримом.\n\nХотя многие из их культур вымерли или близки к этому, честолюбивый правитель мог бы возглавить их возрождение..."
+ heritage_nedic_central_desc:0 "Центральные недийские племена – предки современных имперцев и исконные обитатели Хартленда. Айлейды поработили их и держали в цепях вплоть до восстания рабов под предводительством Алессии. С тех пор народ разделился на две основные ветви: нибенейцев на востоке и коловианцев на западе."
 
  #heritage_lilmothiit_name:0 "Lilmothiit"
  heritage_lilmothiit_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_LILMOTHIIT') ) ), 'Лилмотитск', Localize('no') )]"

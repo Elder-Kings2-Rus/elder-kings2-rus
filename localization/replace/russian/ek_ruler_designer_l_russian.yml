@@ -249,14 +249,14 @@
  race_orma_3_name:0 "Орма III"
  race_orma_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_orma_3_name'), 'no' )]"
 
- race_kothringi_1_name:0 "Котринг I"
- race_kothringi_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_kothringi_1_name'), 'no' )]"
+ race_koth_1_name:0 "Котри I"
+ race_koth_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_koth_1_name'), 'no' )]"
 
- race_kothringi_2_name:0 "Котринг II"
- race_kothringi_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_kothringi_2_name'), 'no' )]"
+ race_koth_2_name:0 "Котри II"
+ race_koth_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_koth_2_name'), 'no' )]"
 
- race_kothringi_3_name:0 "Котринг III"
- race_kothringi_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_kothringi_3_name'), 'no' )]"
+ race_koth_3_name:0 "Котри III"
+ race_koth_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_koth_3_name'), 'no' )]"
 
  race_nede_reachfolk_1_name:0 "Ричмен I"
  race_nede_reachfolk_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_reachfolk_1_name'), 'no' )]"

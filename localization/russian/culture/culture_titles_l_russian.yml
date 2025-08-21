@@ -131,6 +131,14 @@
 
  gcm_high_councilor_male: "Лорд верховный советник"
  gcm_high_councilor_female: "Леди верховная советница"
+ 
+ first_councilor_male: "Первый советник"
+ first_councilor_female: "Первая советница"
+
+ first_councilor_consort_male: "Господин"
+ first_councilor_consort_female: "Госпожа"
+
+ grand_council_resdayn: "Великий совет"
 
  great_house_vassal_male: "[Character.Custom('VassalMaster')|U]"
  great_house_vassal_female: "[Character.Custom('VassalMaster')|U]"

@@ -76,9 +76,9 @@
  PORTRAIT_MODIFIER_custom_jewellery_female_jewellery_ashlander_beads_03:0 "@ek_dlc_icon! Эшлендерские бусины 3"
  PORTRAIT_MODIFIER_custom_jewellery_female_jewellery_ashlander_beads_04:0 "@ek_dlc_icon! Эшлендерские бусины 4"
  
- PORTRAIT_MODIFIER_custom_jewellery_male_jewellery_horwalli_necklace_01_high:0 "@ek_dlc_icon! Ожерелье Хорвалли 1"
- PORTRAIT_MODIFIER_custom_jewellery_male_jewellery_horwalli_necklace_02_high:0 "@ek_dlc_icon! Ожерелье Хорвалли 2"
- PORTRAIT_MODIFIER_custom_jewellery_male_jewellery_horwalli_necklace_03_high:0 "@ek_dlc_icon! Ожерелье Хорвалли 3"
+ PORTRAIT_MODIFIER_custom_jewellery_male_jewellery_horwalli_necklace_01_high:0 "@ek_dlc_icon! Ожерелье хорвалли 1"
+ PORTRAIT_MODIFIER_custom_jewellery_male_jewellery_horwalli_necklace_02_high:0 "@ek_dlc_icon! Ожерелье хорвалли 2"
+ PORTRAIT_MODIFIER_custom_jewellery_male_jewellery_horwalli_necklace_03_high:0 "@ek_dlc_icon! Ожерелье хорвалли 3"
 
  #########################################
 ################ Dunmer ################
@@ -212,11 +212,11 @@
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_02_high:0 "@ek_dlc_icon! Недийские поножи высшего дворянства 2"
  
  PORTRAIT_MODIFIER_custom_headgear_headgear_south_nedic_male_war_01_high:0 "@ek_dlc_icon! Шлем недийца-пельтаста с гребнем"
- PORTRAIT_MODIFIER_custom_headgear_headgear_south_nedic_male_war_01_low:0 "@ek_dlc_icon! Шлем недийца-пельтаста с гребнем" #Duplicate?
+ PORTRAIT_MODIFIER_custom_headgear_headgear_south_nedic_male_war_01_low:0 "@ek_dlc_icon! Шлем недийца-пельтаста с гребнем 2" #Duplicate?
  PORTRAIT_MODIFIER_custom_headgear_headgear_south_nedic_male_war_02_low:0 "@ek_dlc_icon! Обычный шлем недийца-пельтаста"
 
  PORTRAIT_MODIFIER_custom_cloaks_clothes_south_nedic_male_war_01_low:0 "@ek_dlc_icon! Щит недийца-пельтаста"
- PORTRAIT_MODIFIER_custom_cloaks_clothes_south_nedic_male_war_01_high:0 "@ek_dlc_icon! Щит недийца-пельтаста" #Duplicate?
+ PORTRAIT_MODIFIER_custom_cloaks_clothes_south_nedic_male_war_01_high:0 "@ek_dlc_icon! Щит недийца-пельтаста 2" #Duplicate?
 
 ### Female ###
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ayleid_crown_01:0 "@ek_dlc_icon! Айлейдская диадема"
@@ -232,6 +232,13 @@
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_south_nedic_01_low:0 "@ek_dlc_icon! Недийские поножи мелкого дворянства"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_south_nedic_01_high:0 "@ek_dlc_icon! Недийские поножи высшего дворянства"
 
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_ek2_horwalli_war_01_high:0 "@ek_dlc_icon! Шлем недийца-пельтаста с гребнем"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_ek2_horwalli_war_01_low:0 "@ek_dlc_icon! Шлем недийца-пельтаста с гребнем 2" #Duplicate?
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_ek2_horwalli_war_02_low:0 "@ek_dlc_icon! Обычный шлем недийца-пельтаста"
+
+ PORTRAIT_MODIFIER_custom_cloaks_clothes_south_nedic_female_war_01_low:0 "@ek_dlc_icon! Щит недийца-пельтаста"
+ PORTRAIT_MODIFIER_custom_cloaks_clothes_south_nedic_female_war_01_high:0 "@ek_dlc_icon! Щит недийца-пельтаста 2" #Duplicate?
+ 
  ### Cloaks ### 
  PORTRAIT_MODIFIER_custom_cloaks_male_clothes_ayleid_moonstone_01:0 "@ek_dlc_icon! Айлейдская мантия высшего дворянства"
  PORTRAIT_MODIFIER_custom_cloaks_male_clothes_ayleid_moonstone_02:0 "@ek_dlc_icon! Айлейдские аксессуары"
