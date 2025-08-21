@@ -4,3 +4,6 @@
  knight_errant_decision: "Странствующий герой"
  knight_errant_decision_desc: "Тамриэль терзают войны и прочие угрозы. В такие времена нужен герой, способный противостоять тем, кто стремится разрушать и властвовать. Я стану [Select_CString(ROOT.Char.IsFemale, 'такой героиней', 'таким героем' )], предлагая свой клинок и сострадание тем, кто в них нуждается."
  ep3_knight_of_the_swan_house_modifier: "Повесть о герое"
+ 
+ # Liege Event
+ ep3_decisions_event.2010.t: "$admin_confirmation_event_header$ слуга державы"

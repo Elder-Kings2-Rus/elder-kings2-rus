@@ -501,6 +501,7 @@
  #EK2 End
  fur_color_black_RU_END: "черн" #GetLegendaryColor_RU_END
  fur_color_white_RU_END: "бел" #GetLegendaryColor_RU_END
+ fur_color_white_RU_TRUNC: "бел"
  animal_type_cat_RU_Gen: "кошки" #ArtifactAnimalType_RU_Gen
  animal_type_dog_RU_Gen: "собаки" #ArtifactAnimalType_RU_Gen
  animal_type_fox_RU_Gen: "лисы" #ArtifactAnimalType_RU_Gen

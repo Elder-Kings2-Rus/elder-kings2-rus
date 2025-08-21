@@ -157,6 +157,7 @@
  arcana_p_ae_syrabane:0 "[GetTrait('p_ae_syrabane').GetName(ROOT.Char)]"
  arcana_p_tc_heavens:0 "[GetTrait('p_tc_heavens').GetName(ROOT.Char)]"
  arcana_p_tr_sotha:0 "[GetTrait('p_tr_sotha').GetName(ROOT.Char)]"
+ arcana_p_at_owl: "[GetTrait('p_at_owl').GetName(ROOT.Char)]"
  arcana_sign_mage:0 "[GetTrait('sign_mage').GetName(ROOT.Char)]"
  arcana_sign_apprentice:0 "[GetTrait('sign_apprentice').GetName(ROOT.Char)]"
  arcana_sign_atronach:0 "[GetTrait('sign_atronach').GetName(ROOT.Char)]"

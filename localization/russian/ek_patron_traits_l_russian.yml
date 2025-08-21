@@ -242,23 +242,23 @@
  trait_p_at_wolf_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Волчицы, защищающей своих детей и свой дом вместе со своей стаей."
  
  trait_p_at_snake:0 "Божество-покровитель - [ROOT.Char.Custom('GetAtSnakeName')]"
- trait_p_at_snake_base:0 "Последователь Змеи"
+ trait_p_at_snake_base:0 "Последователь Змея"
  trait_p_at_snake_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_snake_desc' )]"
- trait_p_at_snake_desc:0 "Последователь Змеи"
- trait_p_at_snake_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAtSnakeName')], хитрой Змеи, ползающей по земле и скрывающейся от великих зверей."
+ trait_p_at_snake_desc:0 "Последователь Змея"
+ trait_p_at_snake_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAtSnakeName')], хитрого Змея, ползающего по земле и скрывающегося от великих зверей."
  ##the cunning Snake, who slithers on the ground and hides from greater beasts.
  
- trait_p_at_moth:0 "Божество-покровитель - Мотылек"
+ trait_p_at_moth:0 "Божество-покровитель - Мотылёк"
  trait_p_at_moth_base:0 "Последователь Мотылька"
  trait_p_at_moth_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_moth_desc' )]"
  trait_p_at_moth_desc:0 "Последователь Мотылька"
- trait_p_at_moth_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем мудрого Мотылька, помогающего нам ориентироваться в ткани мира."
+ trait_p_at_moth_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем мудрой Матери-Мотылька, помогающей нам ориентироваться в ткани мира."
  
  trait_p_at_owl:0 "Божество-покровитель - [ROOT.Char.Custom('GetAtOwlName')]"
- trait_p_at_owl_base:0 "Последователь Совы"
+ trait_p_at_owl_base:0 "Последователь Филина"
  trait_p_at_owl_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_owl_desc' )]"
- trait_p_at_owl_desc:0 "Последователь Совы"
- trait_p_at_owl_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAtOwlName')], мудрой Совы, оберегающей древние магические искусства."
+ trait_p_at_owl_desc:0 "Последователь Филина"
+ trait_p_at_owl_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAtOwlName')], мудрой Филина, оберегающего древние магические искусства."
  ## is a follower of the wise Owl, who guards the old magical arts.
  
  trait_p_at_whale:0 "Божество-покровитель - [ROOT.Char.Custom('GetAtWhaleName')]"
@@ -289,6 +289,12 @@
  trait_p_at_dragon_desc:0 "Последователь Дракона"
  trait_p_at_dragon_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем божества, известного как [ROOT.Char.Custom('GetAtDragonName')], великого Дракона, который первым явился в этот мир и является его законным смотрителем и защитником."
  ##the great Dragon, who first came into this world and is its rightful watcher and protector.
+ 
+ trait_p_at_hare:0 "Последователь Зайца"
+ trait_p_at_hare_base:0 "Последователь Зайца"
+ trait_p_at_hare_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_hare_desc' )]"
+ trait_p_at_hare_desc:0 "Последователь Зайца"
+ trait_p_at_hare_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Зайца."
  
  # Elemental Gods
  trait_p_eg_myn:0 "Божество-покровитель - Мин"

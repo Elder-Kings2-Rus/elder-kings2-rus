@@ -70,6 +70,13 @@
   
   game_concept_imperial_family: "Правящая семья" #Replaced Imperial
  
+  eldest_imperial_son_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – старший сын"  #Replaced Imperial
+  eldest_imperial_daughter_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – Старшая дочь"  #Replaced Imperial
+  eldest_imperial_child_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – старший ребёнок"  #Replaced Imperial
+ 
+  councillor_position_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – [Concept( 'councillor', 'советник' )|E]"  #Replaced Imperial
+  court_position_succession_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – [Concept( 'court_position', 'должность при дворе' )|E]"  #Replaced Imperial
+ 
   #EK EDIT: Including these in blanked-out form since the logs complain when they mention commented-out game concepts.
   game_concept_harrying_widget_i: ""
   game_concept_harrying_widget: ""
