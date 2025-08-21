@@ -223,4 +223,6 @@
  hunt.7411.a: "Твоя песенка спета!" # не работает разделение по полам
  game_rule_base_value: "Базовое: $VALUE|=+0$"
  difficulty_skilled_courtier_block: "Брак не интересует: $VALUE|=+0$" # эта и предыдущая строки отсутствуют в локализации базовой игры
+ travel_events.3120.desc: "[wooded_location.GetNameNoTooltip] обещает приятную прогулку, и [wooded_location.GetTerrain.GetNameNoTooltip|l] начинает по-настоящему мне нравиться: все оттенки зеленого, яркие, как роскошное платье герцогини. Солнечные лучи жидким ихором сочатся меж листьями.\n\nРезкий запах. Возможно, костер. Я поворачиваюсь к свите и вижу, что [travel_leader.GetFirstNameNoTooltip] в ужасе. «#EMP ПОЖАР!#!» — вопит [travel_leader.GetSheHe] и яростно указывает туда, где стремительно разгорается пламя... и где [endangered_character.GetNameNoTooltip] [Select_CString(endangered_character.IsFemale, 'оказалась', 'оказался')] в ловушке." # убрано 's у имени
+ ep3_governor_yearly.3060.desc_temple: "\n\n[emperor.GetFaith.HouseOfWorship|U], великий оплот веры, наполняется сановниками и прелатами. [emperor.GetCurrentLocation.GetTitle.GetNameNoTier] завороженно наблюдает, как [Select_CString(emperor.IsFemale,'новая', 'новый')] [emperor.GetTitleAsNameNoTooltip] проходит обряд коронации." # первое слово с заглавной буквы
  
