@@ -246,4 +246,14 @@
  hierocracy_tax_slot_add: "$MOD_NUM_TAX_SLOTS$"
  maa_maa_undead_soldiers:0 "Воины-нежить" # правка для maa_maa
  maa_maa_undead_soldiers_flavor:0 "#F Скелеты, зомби и другие низшие виды нежити составляют основную часть этого воинства. Они медлительны и глупы, но будут сражаться до тех пор, пока не победят, либо пока последний из них не падет.#!"
+ search_cyrodiil_tooltip: "$search_region_tooltip$ [GetGeographicalRegion('mundus_tamriel_cyrodiil').GetName]"
+ search_high_rock_tooltip: "$search_region_tooltip$ [GetGeographicalRegion('mundus_tamriel_high_rock').GetName]"
+ search_hammerfell_tooltip: "$search_region_tooltip$ [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName]"
+ search_skyrim_tooltip: "$search_region_tooltip$ [GetGeographicalRegion('mundus_tamriel_skyrim').GetName]"
+ search_elsweyr_tooltip: "$search_region_tooltip$ [GetGeographicalRegion('mundus_tamriel_elsweyr').GetName]"
+ search_black_marsh_tooltip: "$search_region_tooltip$ [GetGeographicalRegion('mundus_tamriel_black_marsh').GetName]"
+ search_valenwood_tooltip: "$search_region_tooltip$ [GetGeographicalRegion('mundus_tamriel_valenwood').GetName]"
+ search_summerset_tooltip: "$search_region_tooltip$ [GetGeographicalRegion('mundus_tamriel_summerset_isles').GetName]"
+ search_morrowind_tooltip: "$search_region_tooltip$ [GetGeographicalRegion('mundus_tamriel_morrowind').GetName]"
+ search_yokuda_tooltip: "$search_region_tooltip$ [GetGeographicalRegion('mundus_tamriel_yokuda').GetName]" # для контракта по поиску сокровищ
  
