@@ -22,4 +22,4 @@
  cultural_taxation_autocracy:0 "Культурные налоги"
  religious_cultural_taxation_autocracy:0 "Религиозные и культурные налоги"
 
- cultural_protection_tt:0 "[Concept('vassal_contract','Вассальный договор')|E] изначально имеет [GetVassalContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )]"
+ cultural_protection_tt:0 "[Concept('vassal_contract','Вассальный договор')|E] изначально имеет «Защиту культурных прав»"

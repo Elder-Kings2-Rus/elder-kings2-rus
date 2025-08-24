@@ -256,4 +256,18 @@
  search_summerset_tooltip: "$search_region_tooltip$ [GetGeographicalRegion('mundus_tamriel_summerset_isles').GetName]"
  search_morrowind_tooltip: "$search_region_tooltip$ [GetGeographicalRegion('mundus_tamriel_morrowind').GetName]"
  search_yokuda_tooltip: "$search_region_tooltip$ [GetGeographicalRegion('mundus_tamriel_yokuda').GetName]" # для контракта по поиску сокровищ
+ setting_domain_limit_minus_one_player: "#high -1#!"
+ setting_domain_limit_minus_one_player_desc: "[Concept( 'domain_limit', 'Предел домена' )|E] уменьшается на 1 для игрока."
+ setting_domain_limit_minus_two_player: "#high -2#!"
+ setting_domain_limit_minus_two_player_desc: "[Concept( 'domain_limit', 'Предел домена' )|E] уменьшается на 2 для игрока."
+ setting_domain_limit_minus_three_player: "#high -3#!"
+ setting_domain_limit_minus_three_player_desc: "[Concept( 'domain_limit', 'Предел домена' )|E] уменьшается на 3 для игрока."
+ setting_domain_limit_plus_one_player: "#high +1#!"
+ setting_domain_limit_plus_one_player_desc: "[Concept( 'domain_limit', 'Предел домена' )|E] увеличивается на 1 для игрока."
+ setting_domain_limit_plus_two_player: "#high +2#!"
+ setting_domain_limit_plus_two_player_desc: "[Concept( 'domain_limit', 'Предел домена' )|E] увеличивается на 2 для игрока."
+ setting_domain_limit_plus_three_player: "#high +3#!"
+ setting_domain_limit_plus_three_player_desc: "[Concept( 'domain_limit', 'Предел домена' )|E] увеличивается на 3 для игрока." # для игровых правил
+ god_malada_name:0 "Малада"
+ god_malada_name_possessive:0 "Малады"
  
