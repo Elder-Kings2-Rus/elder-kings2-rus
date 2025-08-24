@@ -18,7 +18,7 @@
  epidemic_rulers_rage: "$epidemic_ruler_adject_ru_cust_loc$ое бешенство"
  epidemic_titled_rulers_rage: "Бешенство $epidemic_ruler_ru_cust_loc$"
  epidemic_holder_rage: "$epidemic_ruler_adject_ru_cust_loc$ое бешенство"
- epidemic_culture_rage: "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetCulture.GetCollectiveNounNoTooltip|Uое бешенство"
+ epidemic_culture_rage: "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetCulture.GetCollectiveNounNoTooltip|U]ое бешенство"
  epidemic_location_rage: "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetAdjectiveNoTooltip|U]ое бешенство"
  epidemic_peryites_curse:0 "Проклятие Периайта"
  epidemic_blighted_lords_blessing:0 "Благословение Чумного лорда"

@@ -71,7 +71,7 @@
   game_concept_imperial_family: "Правящая семья" #Replaced Imperial
  
   eldest_imperial_son_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – старший сын"  #Replaced Imperial
-  eldest_imperial_daughter_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – Старшая дочь"  #Replaced Imperial
+  eldest_imperial_daughter_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – старшая дочь"  #Replaced Imperial
   eldest_imperial_child_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – старший ребёнок"  #Replaced Imperial
  
   councillor_position_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – [Concept( 'councillor', 'советник' )|E]"  #Replaced Imperial
