@@ -60,7 +60,7 @@
  culture_parameter_better_arcane_education:0 "Персонажи этой [Concept('culture', 'культуры')|E] получают [Concept('arcana', 'аркану')|E]:[arcana_i]#P +2#!"
  culture_parameter_wild_magic:0 "Заклинатели этой [Concept('culture', 'культуры')|E] подвержены необузданным колебаниям в их [arcana_i][Concept('arcana', 'аркане')|E]"
  culture_parameter_dynasty_arcana_respect:0 "[traits|E] #V $trait_arcana_good$#! дают бонус [opinions|El] с членами [Concept('dynasty', 'династии')|E]"
- culture_parameter_wanderers_gain_extra_magic_skills:0 "[wanderers|E] могут получить [traits|El] #V $trait_education_magic$#!"
+ culture_parameter_wanderers_gain_extra_magic_education:0 "[wanderers|E] могут получить [traits|El] #V $trait_education_magic$#!"
  culture_parameter_send_mage_to_wander:0 "Придворные этой [Concept('culture', 'культуры')|E] с [Concept('traits', 'свойствами')|E] #V $trait_arcana_good$#!, но без свойства #V $trait_education_magic$#!, могут быть отправлены стать [Concept('wanderers', 'странниками')|E]"
  arcana_tradition_parliament_of_bugs:0 "[GetTrait('paranoid').GetName(ROOT.Char)] (Парламент жуков)"
  arcana_tradition_pale_shamans_1:0 "[GetTrait('education_intrigue_1').GetName(ROOT.Char)] (Бледные шаманы)"
