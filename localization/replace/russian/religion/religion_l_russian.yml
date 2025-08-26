@@ -13,7 +13,6 @@
  hostility_hostile_tooltippable:0 "[GetHostilityLevelName( '(int32)34' )|V]"
  hostility_evil_tooltippable:0 "[GetHostilityLevelName( '(int32)67' )|V]"
  
- 
 # Fixing vanilla buggy loc
 # EK EDIT: removed debug debug text for these parameters
  doctrine_parameter_torturing_prisoners_grants_piety:0 "Пытки [Concept( 'prisoner', 'пленников' )|E] увеличивают [Concept( 'piety', 'благочестие' )|E], а не тратят его"

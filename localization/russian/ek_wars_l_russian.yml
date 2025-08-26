@@ -101,4 +101,4 @@
 
  RECLAIM_HEART_OF_VALENWOOD_CB_NAME:1 "Возвращение Сердца Валенвуда"
  RECLAIM_HEART_OF_VALENWOOD_WAR_NAME:2 "Взыскание репараций с [Select_CString(DEFENDER.IsLocalPlayer, '', 'персонажа ' )][DEFENDER.GetShortUINamePossessive][Select_CString(DEFENDER.IsLocalPlayer, 'его персонажа', '' )] за набеги."
- RECLAIM_HEART_OF_VALENWOOD_WAR_NAME_BASE:0 "[attacker.GetShortUIName] вернёт [GetBuilding('heart_of_valenwood_01').GetName]
+ RECLAIM_HEART_OF_VALENWOOD_WAR_NAME_BASE:0 "[attacker.GetShortUIName] вернёт [GetBuilding('heart_of_valenwood_01').GetName]"

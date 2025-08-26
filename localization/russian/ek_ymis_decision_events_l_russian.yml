@@ -1,5 +1,5 @@
 ﻿l_russian:
- elife_extension.0300.t:0 "Вознесение лича"
+ life_extension.0300.t:0 "Вознесение лича"
  life_extension.0300.desc:0 "Я долго [Select_CString(ROOT.Char.IsFemale, 'работала', 'работал' )] над тем, чтобы стать мастером смерти. Я [Select_CString(ROOT.Char.IsFemale, 'причиняла', 'причинял' )] её другим, я [Select_CString(ROOT.Char.IsFemale, 'возвращала', 'возвращал' )] их, я [Select_CString(ROOT.Char.IsFemale, 'использовала', 'использовал' )] её как инструмент. Но и смерть использовала меня, так что я [Select_CString(ROOT.Char.IsFemale, 'была', 'был' )] в её власти. Но теперь это изменилось.\n\nЯ [Select_CString(ROOT.Char.IsFemale, 'собрала', 'собрал' )] ритуальные инструменты, [Select_CString(ROOT.Char.IsFemale, 'подготовила', 'подготовил' )] заклинания и, самое главное, жертвоприношения. Я [Select_CString(ROOT.Char.IsFemale, 'вырвала', 'вырвал' )] собственную душу из своего тела и [Select_CString(ROOT.Char.IsFemale, 'отбросила', 'отбросил' )] её в сторону. Я [Select_CString(ROOT.Char.IsFemale, 'встретила', 'встретил' )] смерть без неё, [Select_CString(ROOT.Char.IsFemale, 'неуязвимая и невосприимчивая', 'неуязвимый и невосприимчивый' )] к её хватке. За цену одной души я [Select_CString(ROOT.Char.IsFemale, 'обрела', 'обрёл' )] бессмертие и мастерство — и вечность, чтобы наслаждаться плодами моей победы"
  life_extension.0300a:0 "Смерть служит мне!"
 

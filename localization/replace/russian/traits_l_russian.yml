@@ -1,23 +1,23 @@
 ﻿l_russian:
- trait_education_diplomacy_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] — знает все тонкости дипломатии как свои пять пальцев."
+ trait_education_diplomacy_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] знает все тонкости дипломатии до мельчайших деталей."
  
  trait_education_stewardship_4:0 "Благословение грязекраба-торговца"
  trait_education_stewardship_4_desc:0 "Те, кого благословил грязекраб-торговец, не знают поражения на поприще управления и возводят оное в ранг искусства."
  
  trait_pneumonic:0 "Озноб"
- trait_pneumonic_character_desc:0 "Мучаясь от неуклюжести и душевного смятения, [ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от озноба."
+ trait_pneumonic_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] не может нормально двигаться и говорить из-за последствий озноба."
  
  trait_lovers_pox:0 "Чесотка в штанах"
  
  trait_gout_ridden:0 "Каменная подагра"
 
  trait_consumption:0 "Увядание"
- trait_consumption_desc:0 "Мучаясь от кровавого кашля, вызванного холодным воздухом в лёгких, этот персонаж страдает от увядания."
- trait_consumption_character_desc:0 "Мучаясь от кровавого кашля, вызванного холодным воздухом в лёгких, [ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от увядания."
+ trait_consumption_desc:0 "Этот персонаж страдает от увядания и постоянно кашляет кровью из-за холодных гумор в лёгких."
+ trait_consumption_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от увядания и постоянно кашляет кровью из-за холодных гумор в лёгких."
 
  trait_cancer:0 "Гниль"
- trait_cancer_desc:0 "Гниль распространилась по телу этого персонажа, высасывая жизненную силу."
- trait_cancer_character_desc:0 "Гниль распространилась по телу [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip], высасывая из [Select_CString(ROOT.GetCharacter.IsFemale, 'неё', 'него' )] жизненные силы."
+ trait_cancer_desc:0 "Гниль распространилась по всему телу персонажа, медленно высасывая жизненную силу."
+ trait_cancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] медленно теряет жизненную силу: гниль распространилась по всему телу."
  
  trait_bubonic_plague:0 "Кнахатенский грипп"
  trait_bubonic_plague_desc:0 "Этот персонаж страдает от высокой температуры и мучительного кашля. По всему телу медленно распространяется багровая сыпь. Пребывать на этом свете ему осталось недолго."

@@ -404,9 +404,9 @@
 
  trait_sibyl:0 "Пророчица Дибеллы"
  trait_sibyl_dibe:0 "Пророчица Дибе"
- trait_sibyl_desc:0 "Этот персонаж - пророчица Дибеллы, личность, благословленная Госпожой, чтобы выступать как связующее звено между ней и ее последователями."
- trait_sibyl_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - пророчица Дибеллы, личность, благословленная Госпожой, чтобы выступать как связующее звено между ней и ее последователями."
- trait_sibyl_character_desc_dibe:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] - пророчица Дибе, личность, благословленная Госпожой, чтобы выступать как связующее звено между ней и ее последователями."
+ trait_sibyl_desc:0 "Этот персонаж – пророчица Дибеллы, избранная и благословлённая Госпожой, чтобы служить связующим звеном между ней и её последователями."
+ trait_sibyl_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] – пророчица Дибеллы, избранная и благословлённая Госпожой, чтобы служить связующим звеном между ней и её последователями."
+ trait_sibyl_character_desc_dibe:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] – пророчица Дибе, избранная и благословлённая Госпожой, чтобы служить связующим звеном между ней и её последователями."
 
  # Argonian
  trait_laid_egg:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Отложила', 'Отложил' )] яйцо"
