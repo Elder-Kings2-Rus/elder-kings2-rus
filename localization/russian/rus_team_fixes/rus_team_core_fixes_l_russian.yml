@@ -120,8 +120,8 @@
  #HOUSE_TOMB_0_CONQUEST_WAR_NAME:0 "Завоевать гробницу Великого Дома"
  HOUSE_TOMB_0_CONQUEST_WAR_NAME_BASE:0 "Завоевать гробницу Великого Дома"
  
- Scion_religious_head_title_name:0 "Матронат"
- razak_army_flavor:0 "#F Верная армия гномов, движимая паровой тягой и пропитанная магией из камней душ, которые будут работать ещё многие века. #!" # flavor, не flavour
+ #Scion_religious_head_title_name:0 "Матронат"
+ #razak_army_flavor:0 "#F Верная армия гномов, движимая паровой тягой и пропитанная магией из камней душ, которые будут работать ещё многие века. #!" # flavor, не flavour
  crisis_bandit_faction:0 "Бандитский кризис"
  crisis_goblin_faction:0 "Гоблинский кризис"
 
@@ -137,8 +137,8 @@
  
  #culture_parameter_fairness_valued:0 "[characters|E] с личностью [GetTrait('just').GetName( GetNullCharacter )] вызывают восхищение, в то время как свойства личности [GetTrait('sadistic').GetName( GetNullCharacter )] и [GetTrait('arbitrary').GetName( GetNullCharacter )] презираются" # Scorg. Для традиции 'Пограничные рыцари'.
  # Для аспекта закона. Scorg.
- devotion_gives_tyranny_reduction_vassal_opinion_0:0 "$devotion_gives_tyranny_reduction_vassal_opinion$: (0)"
- devotion_gives_tyranny_reduction_vassal_opinion_0_desc:0 "$devotion_gives_tyranny_reduction_vassal_opinion_desc$"
+ #devotion_gives_tyranny_reduction_vassal_opinion_0:0 "$devotion_gives_tyranny_reduction_vassal_opinion$: (0)"
+ #devotion_gives_tyranny_reduction_vassal_opinion_0_desc:0 "$devotion_gives_tyranny_reduction_vassal_opinion_desc$"
  #devotion_gives_tyranny_reduction_vassal_opinion_1:0 "Уровень набожности (аспект закона)"
  #devotion_gives_tyranny_reduction_vassal_opinion_2:0 "Уровень набожности (аспект закона)"
  #devotion_gives_tyranny_reduction_vassal_opinion_3:0 "Уровень набожности (аспект закона)"
@@ -155,7 +155,7 @@
  race_imga_orangutang:0 "Имга, Орангутан"
  race_imga_gorilla:0 "Имга, Горилла"
  
- capital_shares_heritage:0 "Ваша [realm_capital|El] разделяет ваше [heritage|El]"
+ #capital_shares_heritage:0 "Ваша [realm_capital|El] разделяет ваше [heritage|El]"
  #hunt_seek_tiger_tt:0 "Вы попытаетесь выследить тигра"
  
  # пропущенные притяжательные склонения для различных миров
@@ -213,8 +213,8 @@
  #hunt_seek_duneracer_tt:0 "Вы выследите такое животное, как #V $animal_type_duneracer$#!"
  #animal_type_duneracer:0 "дюноход"
  #animal_type_duneracer_plural:0 "дюноходы"
- animal_duneracer:0 "дюноход"
- animal_duneracers:0 "дюноходы"
+ #animal_duneracer:0 "дюноход"
+ #animal_duneracers:0 "дюноходы"
  animal_dire_wolf:0 "лютый волк" #Мофф, строка имеется только в множественном числе, возможно, и не нужна 
  
  #modifier_ritual_empower_magic:0 "Усиление магов" # Данный ключ добавили в 0.13.2 только в немецкую локу, но не в английскую.

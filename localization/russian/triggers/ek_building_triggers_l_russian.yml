@@ -40,7 +40,3 @@
  green_pact_funeral_building_trigger_desc:0 "[doctrine|E] похорон в конфессии владельца – $doctrine_funeral_green_pact_name$."
  grave_stake_funeral_building_trigger_desc:0 "[doctrine|E] похорон в конфессии владельца – $doctrine_funeral_grave_stake_name$."
 
- # Hist
- is_upgraded_over_time:0 "Это [building|El] будет расти со временем и не может быть улучшено обычными способами"
- has_reached_last_stage:0 "Это [building|El] достигло своей последней стадии и больше не будет расти."
-
