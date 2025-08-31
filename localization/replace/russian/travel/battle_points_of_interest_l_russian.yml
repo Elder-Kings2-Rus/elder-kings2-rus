@@ -1,5 +1,5 @@
 ﻿l_russian:
- BattlePoiDate: "Дата: [Province.Custom('OrdinalIndicatorPoI')] of [Province.Custom('MonthBattlePoI')], [Province.MakeScope.Var('battle_poi_date_year').GetValue] г."
+ BattlePoiDate: "Дата: [Province.Custom('OrdinalIndicatorPoI')] [Province.Custom('MonthBattlePoI')], [Province.MakeScope.Var('battle_poi_date_year').GetValue] г."
 
  MonthBattlePoIJanuary: "утренней звезды"
  MonthBattlePoIFebruary: "восхода солнца"
