@@ -229,4 +229,6 @@
  increased_factions: "[Concept( 'claimant_factions', 'Фракции в поддержку претендента' )|E] #negative_value увеличены#!" # добавлен пробел
  adultery.0002.consort_start.desc: "И вновь с наступлением ночи [lover_spouse.Custom2('MyCharacterIntroduction', ROOT.Char)|U] не в наших [ROOT.Char.Custom('GetChamber_RU_Prep')|l]. В последнее время [lover_spouse.GetSheHe|U] ведет себя отчужденно, замкнувшись в своих мыслях и редко появляясь на публике." # GetCourt_RU_Prep почему-то не работает
  court.3031.c: "Я хочу улучшить отношения с местными жителями." # reference_county не работает
+ laamp_base_learning_contract_events.4025.desc.first: "[ROOT.Char.Custom('WritingInstrument')|U] в моих пальцах деликатно касается страницы. Я всё еще раздумываю, какой теме посвятить мой манускрипт." # первое слово с заглавной буквы
+ lover.3215.a.tt: "[lover.Custom('MusicalPerformer')|U], что служит мне, переместится [THIS.Char.Custom('GetCourt_RU_WhereTo')] во владении [court_location.GetNameNoTier]" # первое слово с заглавной буквы
  
