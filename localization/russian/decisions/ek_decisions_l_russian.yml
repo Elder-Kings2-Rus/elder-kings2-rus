@@ -197,12 +197,12 @@
  recruit_priest_scaled_court_decision_confirm:0 "Пусть [ROOT.Char.GetFaith.PriestNeuter] явится ко двору!"
  recruit_priest_scaled_court_decision_tooltip:0 "Нанять священника из местного храма, чтобы заполнить вакантную должность при вашем дворе"
 
- champion_conversion_decision:0 "Посвятить себя своему Принцу"
- champion_conversion_decision_desc:0 "Хоть вы и являетесь Избранником своего Принца, вы не исповедуете открыто его конфессию. Но это может измениться прямо сейчас."
- champion_conversion_decision_confirm:0 "Теперь я [Select_CString(ROOT.Char.IsFemale, 'предана', 'предан' )] тебе, мой Принц!"
+ champion_conversion_decision:0 "Посвятить себя своему князю"
+ champion_conversion_decision_desc:0 "Хоть вы и являетесь избранником своего князя, вы не исповедуете открыто его конфессию. Но это может измениться прямо сейчас."
+ champion_conversion_decision_confirm:0 "Теперь я [Select_CString(ROOT.Char.IsFemale, 'предана', 'предан' )] тебе, мой князь!"
  champion_conversion_decision_tooltip:0 "Измените свою [Concept( 'faith', 'конфессию' )|E], чтобы лучше соответствовать своему статусу Избранника"
 
- sanguine_deal_decision:0 "Искать принца кутежа"
+ sanguine_deal_decision:0 "Искать Князя Кутежа"
  sanguine_deal_decision_desc:0 "Проклятие, наложенное на вас Сангвином, тяжким бременем ложится на вашу способность править вашими землями. Поэтому вы решили приложить все усилия, чтобы найти его и пересмотреть свою часть сделки."
  sanguine_deal_decision_tooltip:0 "Вы потратите [gold|El], [piety|El] и [prestige|El] чтобы вновь найти Сангвина и заключить сделку."
  sanguine_deal_decision_confirm:0 "Я больше не могу, сжальтесь!"
@@ -251,7 +251,7 @@
  crown_verity_decision_tooltip:0 "Настало время надеть корону моих предков!"
  
  staff_sanguine_decision:0 "Гость из Обливиона"
- staff_sanguine_decision_desc:0 "Используйте силу Принца Кутежа, которой пропитана Роза Сангвина, чтобы призвать даэдра-придворного, который будет служить вам в течение короткого периода времени."
+ staff_sanguine_decision_desc:0 "Используйте силу Князя Кутежа, которой пропитана Роза Сангвина, чтобы призвать даэдра-придворного, который будет служить вам в течение короткого периода времени."
  staff_sanguine_decision_tooltip:0 "Призовите даэдрического слугу Сангвина, дабы он служил вам. Однако помните, что роза рискует увянуть!"
  staff_sanguine_decision_confirm:0 "Да начнётся праздник!"
  staff_sanguine_selection_tooltip:0 "Использовать силу Розы Сангвина"
@@ -269,7 +269,7 @@
  remove_everscamp_selection_tooltip:0 "И от этого неприятного запаха!"
  
  bittercup_decision:0 "Горькое соглашение"
- bittercup_decision_desc:0 "Заключите сделку с Принцем Сделок и Обмана, испив из Горькой Чаши."
+ bittercup_decision_desc:0 "Заключите сделку с Князем Сделок и Обмана, испив из Горькой Чаши."
  bittercup_selection_tooltip:0 "Испить из Горькой Чаши"
  bittercup_decision_tooltip:0 "Повысьте свой самый высокий навык, одновременно понизив свой самый низкий. Но помните, что артефакт Горькая Чаша будет уничтожен в процессе."
  bittercup_decision_confirm:0 "Достаточно ли я храбр?"
