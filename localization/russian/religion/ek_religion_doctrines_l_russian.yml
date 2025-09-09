@@ -293,8 +293,8 @@
    doctrine_sp_lorkhan_desc:0 "Под каким бы именем он не был известен, #LORE [compendium_missing_god]#! заслуживает места в наших молитвах и обрядах."
    doctrine_sp_dv_shezarr_name:0 "Потерянный Бог"
    doctrine_parameter_pantheon_adds_deity_shezarr:0 "Адепты могут принять #LORE [Concept('compendium_missing_god', 'Потерянного Бога')|E]#! как своего [Concept( 'patron', 'покровителя' )|E] и получить свойство [GetTrait('p_dv_shezarr').GetName( GetNullCharacter )]"
- doctrine_sp_good_daedra_name:0 "Добрые даэдра: #italic [secondary|El]#!"
-    doctrine_sp_good_daedra_desc:0 "[Glossary( 'Добрые даэдра', 'GOOD_DAEDRA_GLOSS' )] pog" #EK PH
+ doctrine_sp_good_daedra_name:0 "Хорошие даэдра: #italic [secondary|El]#!"
+    doctrine_sp_good_daedra_desc:0 "[Glossary( 'Хорошие даэдра', 'GOOD_DAEDRA_GLOSS' )] pog" #EK PH
     doctrine_parameter_good_daedra_pantheon_syncretism:0 "Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -15#! с [Concept('faiths', 'конфессиями')|E], у которых имеется доктрина [Concept('pantheon', 'пантеона')|E] [GetFaithDoctrine('doctrine_pantheon_good_daedra').GetBaseName]"
     doctrine_sp_good_daedra_azura_name:0 "Азура"
     doctrine_sp_good_daedra_azura_desc:0 ""
@@ -866,8 +866,8 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     doctrine_parameter_pantheon_adds_deities_dwemer_ancestors:0 "Добавит следующих покровителей в [pantheon|El]: Архитектор, Воин, Великан, Потерянный Король"
 	doctrine_parameter_dwemer_hostility:0 "Уменьшает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E] семейства [GetReligionByKey('dwemer_religion').GetName] на #P -25#!"
  # Velothi
- doctrine_pantheon_good_daedra_name:0 "Добрые даэдра"
-    doctrine_pantheon_good_daedra_desc:0 "В час отчаяния трое [Glossary( 'добрых даэдра', 'GOOD_DAEDRA_GLOSS' )] защитили нас и указали путь вперёд."
+ doctrine_pantheon_good_daedra_name:0 "Хорошие даэдра"
+    doctrine_pantheon_good_daedra_desc:0 "В час отчаяния трое [Glossary( 'хороших даэдра', 'GOOD_DAEDRA_GLOSS' )] защитили нас и указали путь вперёд."
     doctrine_parameter_pantheon_unlocks_daedra_good_daedra:0 "Разблокирует возможность добавления следующих [Glossary( 'даэдра', 'DAEDRA_GLOSS' )] в ваш [pantheon|El] c помощью [Concept( 'doctrines', 'доктрин' )|E] даэдрических князей: Азура, Боэтия, Мефала"
  doctrine_pantheon_bad_daedra_name:0 "Дом Забот"
     doctrine_pantheon_bad_daedra_desc:0 "[Glossary( 'Хорошие даэдра', 'GOOD_DAEDRA_GLOSS' )] — это лишь иллюзия. Лишь немногие князья достаточно сильны, чтобы быть достойными нашего почитания."
@@ -1956,7 +1956,7 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     tenet_princes_of_misrule_desc:0 "[Glossary( 'Даэдрические князья', 'DAEDRA_GLOSS' )] свободны и могущественны в Мундусе и действуют самостоятельно и безнаказанно там, где прочие божества загнали бы себя в рамки собственных законов и клятв. Мы, их верные последователи, можем как свергать тиранов, так и порабощать слабых, невзирая на отговорки и оправдания, кроме: «Это в наших силах!»"
     tenet_princes_of_misrule_meridia_religion_desc:0 "Пусть другие поклоняются своим серым и молчаливым мёртвым предкам, мы же считаем своими предками живых Князей. Взывая к ним, мы вооружаем себя знаниями, купаемся в свете звёзд и одариваем себя славой рассвета. Пусть никто не усомнится в таком великолепии, ведь мы делаем то, что мы делаем, ибо у нас силы это делать."
     tenet_princes_of_misrule_velothi_faiths_name:0 "Даэдрические предки"
-    tenet_princes_of_misrule_velothi_faiths_desc:0 "В древности Велот указал нам на ошибочность поклонения далёкому Ану и мёртвым кристальным королям, в то время как [Glossary( 'добрые даэдра', 'GOOD_DAEDRA_GLOSS' )] так близки, и станут гораздо более сильными и лучшими предками. По их милости мы возвысились над прочими и обучаемся царствованию; хотя это запрещается некоторым, но не нам."
+    tenet_princes_of_misrule_velothi_faiths_desc:0 "В древности Велот указал нам на ошибочность поклонения далёкому Ану и мёртвым королям-в-коконах, в то время как [Glossary( 'хорошие даэдра', 'GOOD_DAEDRA_GLOSS' )] куда ближе и сами предлагают себя на роль более сильных и достойных предков. По их милости мы вознесены над всеми прочими и познаём слог царственности – запретный для многих, но дозволенный нам."
     doctrine_parameter_has_access_to_trials_by_combat:0 "[Concept('crimes', 'Преступления')|E] [Concept('characters', 'персонажей')|E], которых вы не можете [Concept('imprison', 'заключить в темницу')|E] и которые не являются вашими [Concept('liege', 'сюзеренами')|E], могут быть решены через [Concept('single_combat_fight', 'поединок')|E]"
  
  tenet_green_pact_name:0 "Зелёный пакт"
