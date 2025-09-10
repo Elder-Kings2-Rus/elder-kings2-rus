@@ -178,7 +178,7 @@
  game_concept_hist_tree:0 "Дерево Хист"
  game_concept_hist_holding:0 "Владение с Хистом"
  game_concept_hist_holding_desc:0 "Хист не приносит [Concept('taxes', 'налоги')|E], но вместо этого даёт [piety|El], немного [Concept('levies', 'ополчения')|E] и прямые бонусы своему владельцу. Дерево Хист может расти только в определённой местности и во владениях с ним можно возводить уникальные здания. Только персонажи с #L $heritage_argonian_name$им#! наследием или те, чья конфессия имеет [pantheon|El] «[GetFaithDoctrine('doctrine_pantheon_hist').GetBaseName]» или догмат «[GetFaithDoctrine('tenet_hist_syncretism').GetBaseName]», могут владеть Хистом без штрафов. Другие правители могут превратить [Concept('holdings', 'владения')|E] Хист в [Concept('temples', 'храмы')|E] за [Concept('gold', 'золото')|E].\n\nДеревья Хист высаживаются саженцами и со временем переходят на более высокий уровень. На последнем уровне находятся только древнейшие деревья Хист в Чернотопье. В [Concept('county', 'графстве')|E] может быть построено только одно [Concept('holding', 'владение')|E] с Хистом."
- game_concept_hist_holdings:0 "Владение с Хистом"
+ game_concept_hist_holdings:0 "Владения с Хистом"
 
  game_concept_hist_communion:0 "Общение с Хистом"
  game_concept_hist_communions:0 "Общения с Хистами"

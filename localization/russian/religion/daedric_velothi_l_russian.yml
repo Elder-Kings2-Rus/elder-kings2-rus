@@ -11,7 +11,7 @@
  velothi_religious_symbol:0 "тройное знамя"
  velothi_religious_text:0 "гимны"
  velothi_religious_head_title:0 "Пророк"
- velothi_religious_head_title_name:0 "Храм Велоти"
+ velothi_religious_head_title_name:0 "Велотийский Храм"
  velothi_devotee_male:0 "адепт"
  velothi_devotee_male_plural:0 "адепты"
  velothi_devotee_female:0 "адепт"
@@ -109,10 +109,10 @@
  
  #Cantemiric Sect
  cantemiric_sect:1 "Кантемирск"
- cantemiric_sect_adj:1 "Кантемирская секта"
+ cantemiric_sect_adj:1 "Секта Кантемир"
  cantemiric_sect_adherent:1 "Последователь Кантемир"
  cantemiric_sect_adherent_plural:1 "Последователи Кантемир"
- cantemiric_sect_desc:0 "Кантемирская секта – одна из немногих уцелевших ветвей велотийской традиции. Они воспринимают мир смертных как поле битвы, где достойнейшие воины, подобно самой Кантемир, награждаются впоследствии вечной службой у [Glossary( 'хороших даэдра', 'GOOD_DAEDRA_GLOSS' )]. Недостойные души же обречены быть скормленными [Glossary( 'Дому Забот', 'HOUSE_OF_TROUBLES_GLOSS' )], переваренными и возвращёнными в Мундус. Каждый сектант стремится превзойти оковы обыденности, чтобы вырваться из этого вечного цикла голодного дома."
+ cantemiric_sect_desc:0 "Секта Кантемир – одна из немногих уцелевших ветвей велотийской традиции. Они воспринимают мир смертных как поле битвы, где достойнейшие воины, подобно самой Кантемир, награждаются впоследствии вечной службой у [Glossary( 'хороших даэдра', 'GOOD_DAEDRA_GLOSS' )]. Недостойные души же обречены быть скормленными [Glossary( 'Дому Забот', 'HOUSE_OF_TROUBLES_GLOSS' )], переваренными и возвращёнными в Мундус. Каждый сектант стремится превзойти оковы обыденности, чтобы вырваться из этого вечного цикла голодного дома."
  cantemiric_religious_symbol:0 "скарабей-превращающийся-в-нового-человека"
  cantemiric_religious_text:0 "учения Кантемир"
  cantemiric_religious_head_title_name:0 "Падомайский Храм"
