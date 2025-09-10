@@ -5,7 +5,7 @@
  nick_the_chronicler:0 "[Select_CString(CHARACTER.IsFemale, 'Хронистка', 'Хронист' )]"
  nick_the_chronicler_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [Select_CString( CHARACTER.IsLocalPlayer, 'наслаждаетесь', 'наслаждается')] написанием историй, используя как факты, так и вымысел. Можно только надеяться, что [Select_CString( CHARACTER.IsLocalPlayer, 'ваши', Select_CString(CHARACTER.IsFemale, 'её', 'его' ))] «хроники» свободны от #EMP мифов, выдумок, предвзятости и пропаганды#!!"
 
- nick_the_slayer_of_the_snake_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] наиболее [Select_CString( CHARACTER.IsLocalPlayer, 'известны', Select_CString(CHARACTER.IsFemale, 'известна', 'известен' ))] среди орма и кантемирских Велоти тем, что злодейски [Select_CString( CHARACTER.IsLocalPlayer, 'убили', Select_CString(CHARACTER.IsFemale, 'убила', 'убил' ))] болотного хана Зайната, в своё время прозванного Змеем Арнезии."
+ nick_the_slayer_of_the_snake_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] наиболее [Select_CString( CHARACTER.IsLocalPlayer, 'известны', Select_CString(CHARACTER.IsFemale, 'известна', 'известен' ))] среди орма и кантемирских велотийцев тем, что злодейски [Select_CString( CHARACTER.IsLocalPlayer, 'убили', Select_CString(CHARACTER.IsFemale, 'убила', 'убил' ))] болотного хана Зайната, в своё время прозванного Змеем Арнезии."
 
  nick_the_magnificent_desc:1 "О [Select_CString( CHARACTER.IsLocalPlayer, 'ваших', CHARACTER.GetHerHis)] подвигах рассказывают от Хай-Рока до Чернотопья."
  nick_the_viking:0 "[Select_CString(CHARACTER.IsFemale, 'Разбойница', 'Разбойник' )]"
