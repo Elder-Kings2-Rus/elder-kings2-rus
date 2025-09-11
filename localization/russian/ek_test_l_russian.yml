@@ -1,6 +1,4 @@
 ﻿l_russian:
- TEST_WAR_GOD_NAME:0 "[ROOT.Char.GetFaith.WarGodName]"
- TEST_HIGH_GOD_NAME:0 "[ROOT.Char.GetFaith.HighGodName]"
  TEST_PRAXIS_EVENT_DESC:0 "DEBUG - Если вы видите этот ивент во время игры уведомите нас о баге. \n \nУвеличить или уменьшить праксичность? \n \nНу и ну кто-то постиг чим и открыл консоль"
  TEST_PRAXIS_EVENT_SMALL_INCREASE.DESC:0 "Немного увеличить праксичность"
  TEST_PRAXIS_EVENT_INCREASE.DESC:0 "Увеличить праксичность"

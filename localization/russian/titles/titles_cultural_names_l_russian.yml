@@ -368,8 +368,13 @@
  cn_bthalft_adj:0 "Бталфтск"
  cn_bal_sehrma:0 "Бал'Серма" #Note - Bal'Sehrma in BS, i'm choosing to ignore ' - tvsmsa
  cn_bal_sehrma_adj:0 "Бал'сермск"
- 
- ################
+
+ cn_solstice: "Солстисе"
+ cn_solstice_adj: "Солстиск"
+ cn_soulstheim: "Соулстхейм"
+ cn_soulstheim_adj: "Соулстхеймск"
+
+################
  ### Cyrodiil ###
  ################
  #Ayleid

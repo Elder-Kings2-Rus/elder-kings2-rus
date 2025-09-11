@@ -10,3 +10,5 @@
  pdi_is_secret_lycan:0 "Вы – тайный [GetTrait('lycan_character').GetName( GetNullCharacter )]"
  pdi_is_secret_necromancer:0 "Вы – тайный [GetTrait('necromancer').GetName( GetNullCharacter )]"
  pdi_is_crypto_religionist:0 "Тайно практикуется иная конфессия"
+ pdi_is_unmourned_blood:0 "У династии есть [GetModifier('unmourned_blood_dynasty_modifier').GetNameWithTooltip]"
+ pdi_is_scarab_blood:0 "У династии есть [GetModifier('scarab_blood_dynasty_modifier').GetNameWithTooltip]"

@@ -1,9 +1,9 @@
 ﻿l_russian:
  PORTRAIT_MODIFIER_facepaint:0 "Боевая раскраска"
  PORTRAIT_MODIFIER_facepaint_colour:0 "Цвет раскраски"
- PORTRAIT_MODIFIER_custom_jewellery:0 "Украшения"
+ PORTRAIT_MODIFIER_custom_jewellery:0 "Бижутерия"
  
- PORTRAIT_MODIFIER_special:0 "Специальное"
+ PORTRAIT_MODIFIER_special:0 "Особое"
  PORTRAIT_MODIFIER_special_no_portrait:0 "Ничего"
 
 #########################################
@@ -42,19 +42,26 @@
  
  ### Nibenese ###
  
- PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_01:0 "@ek_dlc_icon! Нибенейцы 1"
- PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_02:0 "@ek_dlc_icon! Нибенейцы 2"
- PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_03:0 "@ek_dlc_icon! Нибенейцы 3"
- PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_04:0 "@ek_dlc_icon! Нибенейцы 4"
- PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_05:0 "@ek_dlc_icon! Нибенейцы 5"
- PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_06:0 "@ek_dlc_icon! Нибенейцы 6"
- PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_07:0 "@ek_dlc_icon! Нибенейцы 7"
- PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_08:0 "@ek_dlc_icon! Нибенейцы 8"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_01:0 "@ek_dlc_icon! Нибенейская 1"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_02:0 "@ek_dlc_icon! Нибенейская 2"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_03:0 "@ek_dlc_icon! Нибенейская 3"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_04:0 "@ek_dlc_icon! Нибенейская 4"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_05:0 "@ek_dlc_icon! Нибенейская 5"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_06:0 "@ek_dlc_icon! Нибенейская 6"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_07:0 "@ek_dlc_icon! Нибенейская 7"
+ PORTRAIT_MODIFIER_facepaint_facepaint_nibenese_08:0 "@ek_dlc_icon! Нибенейская 8"
+
+ ### Kothringi ###
  
-  ### Reachmen ###
-  PORTRAIT_MODIFIER_facepaint_facepaint_nede_reachfolk_01:0 "@ek_dlc_icon! Ричмены 1"
-  PORTRAIT_MODIFIER_facepaint_facepaint_nede_reachfolk_02:0 "@ek_dlc_icon! Ричмены 2"
-  PORTRAIT_MODIFIER_facepaint_facepaint_nede_reachfolk_03:0 "@ek_dlc_icon! Ричмены 3"
+ PORTRAIT_MODIFIER_facepaint_facepaint_kothringi_01:0 "@ek_dlc_icon! Котрингская 1"
+ PORTRAIT_MODIFIER_facepaint_facepaint_kothringi_02:0 "@ek_dlc_icon! Котрингская 2"
+ PORTRAIT_MODIFIER_facepaint_facepaint_kothringi_03:0 "@ek_dlc_icon! Котрингская 3"
+ PORTRAIT_MODIFIER_facepaint_facepaint_kothringi_04:0 "@ek_dlc_icon! Котрингская 4"
+ 
+ ### Reachmen ###
+  PORTRAIT_MODIFIER_facepaint_facepaint_nede_reachfolk_01:0 "@ek_dlc_icon! Предельская 1"
+  PORTRAIT_MODIFIER_facepaint_facepaint_nede_reachfolk_02:0 "@ek_dlc_icon! Предельская 2"
+  PORTRAIT_MODIFIER_facepaint_facepaint_nede_reachfolk_03:0 "@ek_dlc_icon! Предельская 3"
 
  ### South Nedic  ###
 
@@ -66,10 +73,10 @@
 ################ Jewellery ################
 #########################################
 
- PORTRAIT_MODIFIER_custom_jewellery_male_empty:0 "Без украшений"
- PORTRAIT_MODIFIER_custom_jewellery_female_empty:0 "Без украшений"
- PORTRAIT_MODIFIER_custom_jewellery_boy_empty:0 "Без украшений"
- PORTRAIT_MODIFIER_custom_jewellery_girl_empty:0 "Без украшений"
+ PORTRAIT_MODIFIER_custom_jewellery_male_empty:0 "Без бижутерии"
+ PORTRAIT_MODIFIER_custom_jewellery_female_empty:0 "Без бижутерии"
+ PORTRAIT_MODIFIER_custom_jewellery_boy_empty:0 "Без бижутерии"
+ PORTRAIT_MODIFIER_custom_jewellery_girl_empty:0 "Без бижутерии"
 
  PORTRAIT_MODIFIER_custom_jewellery_female_jewellery_ashlander_beads_01:0 "@ek_dlc_icon! Эшлендерские бусины 1"
  PORTRAIT_MODIFIER_custom_jewellery_female_jewellery_ashlander_beads_02:0 "@ek_dlc_icon! Эшлендерские бусины 2"
@@ -329,7 +336,7 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_kimono_samurai_01_low:0 "@ek_dlc_icon! Акавирское мелкое дворянство"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_kimono_samurai_01_high:0 "@ek_dlc_icon! Акавирское высшее дворянство"
 
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_tabi_01_high:0 "@ek_dlc_icon! Акавирские Таби носки"
+ PORTRAIT_MODIFIER_custom_legwear_male_legwear_tabi_01_high:0 "@ek_dlc_icon! Акавирские носки-таби"
 
  PORTRAIT_MODIFIER_custom_beards_japanese_beard_01:0 "@ek_dlc_icon! Акавирская борода"
  PORTRAIT_MODIFIER_custom_beards_japanese_moustache_03:0 "@ek_dlc_icon! Акавирские усы"
@@ -339,7 +346,7 @@
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_kimono_kosode_01_low:0 "@ek_dlc_icon! Акавирское мелкое дворянство"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_kimono_kosode_01_high:0 "@ek_dlc_icon! Акавирское высшее дворянство"
 
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_tabi_01_high:0 "@ek_dlc_icon! Акавирские Таби носки"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_tabi_01_high:0 "@ek_dlc_icon! Акавирские носки-таби"
  
 #########################################
 ################ Orc ################

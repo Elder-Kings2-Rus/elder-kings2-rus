@@ -552,7 +552,7 @@
  gift_ring:0 "Прекрасное кольцо"
  noise_ring:0 "Звонкий шум"
  noise_ring_desc:0 "Откуда он идёт?!"
- heart_musings:0 "Размышления о Сердце #LORE [Concept( 'compendium_lorkhan', 'Лорхана' )|E]#!"
+ heart_musings:0 "Размышления о Сердце Лорхана"
  heart_musings_desc:0 "Этот персонаж созерцал Красную гору и её тайны."
  scholar_insight:0 "Проницательность учёного"
  lovers_insight:0 "Проницательность влюблённого"
@@ -914,7 +914,7 @@
  lauded_faction_leader_desc:0 "Этот персонаж привёл фракцию к независимости и пользуется полной поддержкой своего народа."
 
  cazuras_potentate_attention_modifier:0 "Наследник потентата"
- cazuras_potentate_attention_modifier_desc:0 "Этот персонаж открыто провозгласил себя наследником #LORE [Concept('compendium_akaviri_potentate', 'Акавирского потентата')|E]#!, что придаёт его словам определённый вес, но также привлекает нежелательное внимание."
+ cazuras_potentate_attention_modifier_desc:0 "Этот персонаж открыто провозгласил себя наследником [Glossary( 'Акавирского Потентата', 'POTENTATE_GLOSS' )], что придаёт его словам определённый вес, но также привлекает нежелательное внимание."
 
  mundus_apprentice_modifier:0 "Благословение Ученика"
  mundus_atronach_modifier:0 "Благословение Атронаха"

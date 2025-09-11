@@ -13,11 +13,11 @@
  
  ### Attrebus/Interregnum decisions
  attrebus_interregnum_decision:0 "Междуцарствие?"
- attrebus_interregnum_decision_desc:0 "#LORE [compendium_potentate]#! пал, и Совет старейшин согласился предоставить вам чрезвычайные полномочия, дабы разобраться с потенциальным политическим кризисом.\n\nВам придётся действовать быстро, так как терпение верховного канцлера не бесконечно..."
+ attrebus_interregnum_decision_desc:0 "[Glossary( 'Потентат', 'POTENTATE_GLOSS' )] пал, и Совет старейшин согласился предоставить вам чрезвычайные полномочия, дабы разобраться с потенциальным политическим кризисом.\n\nВам придётся действовать быстро, так как терпение верховного канцлера не бесконечно..."
  attrebus_interregnum_decision_tooltip:0 "Что новая эпоха принесёт Сиродилу?"
  attrebus_interregnum_decision_confirm:0 "Созвать Совет старейшин!"
- attrebus_interregnum_decision_required_tasks_tt:0 "Вы выполнили #R [THIS.Var('attrebus_required_tasks_complete').GetValue|0]#! из 3 требуемых для умиротворения Совета старейшин [Concept( 'required_tasks', 'задач' )|E]. У вас есть #R [THIS.Var('attrebus_years_pseudo_emperor_left').GetValue|0] лет#!, прежде чем терпение Совета Старейшин закончится."
- attrebus_interregnum_decision_optional_tasks_tt:0 "Вы выполнили #R [THIS.Var('attrebus_optional_tasks_complete').GetValue|0]#! из 3 [Concept( 'optional_tasks', 'дополнительных задач' )|E]. Эти задачи не позволят вам выиграть время при взаимодействии с Советом старейшин, но они дадут вам способ изменить Тамриэль, с чем Совет Старейшин при иных обстоятельствах был бы категорически несогласен."
+ attrebus_interregnum_decision_required_tasks_tt:0 "Вы выполнили #R [THIS.Var('attrebus_required_tasks_complete').GetValue|0]#! из 1 требуемых для умиротворения Совета старейшин [Concept( 'required_tasks', 'задач' )|E]. У вас есть #R [THIS.Var('attrebus_years_pseudo_emperor_left').GetValue|0] лет#!, прежде чем терпение Совета Старейшин закончится."
+ attrebus_interregnum_decision_optional_tasks_tt:0 "Вы выполнили #R [THIS.Var('attrebus_optional_tasks_complete').GetValue|0]#! из 2 [Concept( 'optional_tasks', 'дополнительных задач' )|E]. Эти задачи не позволят вам выиграть время при взаимодействии с Советом старейшин, но они дадут вам способ изменить Тамриэль, с чем Совет Старейшин при иных обстоятельствах был бы категорически несогласен."
  attrebus_interregnum_decision_early_effect_tt:0 "Вы также можете решить вернуть полномочия, данные вам Советом старейшин, раньше, чем они того потребуют. Вы не сможете дальше менять Сиродил и продвигать свои собственные амбиции. После этого начнётся Междуцарствие."
  attrebus_interregnum_decision_death_effect_tt:0 "Если вы умрёте до того, как Совет старейшин попросит вас вернуть власть, то они возьмут Имперский остров под свой контроль.\n#N Вы потеряете титул Сиродильский потентат.\nВсе территории за пределами основного [Concept('de_jure', 'де-юре')|E] титула вашего наследника будут потеряны.#!"
  
@@ -49,24 +49,6 @@
  attrebus_draft_tsaesci_act_decision_effect_desc:0 "После составления закона о цаэски земли каждого правителя акавирского происхождения в вашей державе будут конфискованы и переданы вам. В каждом акавирском графстве изменится [culture|El], но [development|El] сократится вдвое.\nЭтот эффект также будет применяться к любому графству, которое станет частью вашей державы после принятия закона."
  attrebus_tsaesci_county_title:0 "Цаэски изгнаны"
  attrebus_tsaesci_county_desc:0 "Графство [title.GetBaseName] стало нашим, а его акавирское население было изгнано."
- 
- attrebus_end_akaviri_rule_decision:0 "Покончить с акавирским правлением"
- attrebus_end_akaviri_rule_decision_desc:0 "Теперь, когда закон о цаэски провозглашён, настало время положить конец любой власти акавирцев над Сиродилом.\nНикто из них не должен владеть и клочком нашей родины, мы не потерпим никаких крупных поселений акавирцев в нашей провинции!"
- attrebus_end_akaviri_rule_decision_tooltip:0 "Убедитесь, что в Сиродиле не останется ни одного акавирца"
- attrebus_end_akaviri_rule_decision_confirm:0 "Конец тёмной эпохи!"
- attrebus_end_akaviri_rule_decision_no_tsaesci_ruler_cyrodiil:0 "Ни у одного правителя в регионе [GetGeographicalRegion('mundus_tamriel_cyrodiil').GetName] нет [Concept( 'heritage', 'наследия' )|E] цаэски"
- attrebus_end_akaviri_rule_decision_no_tsaesci_province_cyrodiil:0 "Ни у одной провинции в [GetGeographicalRegion('mundus_tamriel_cyrodiil').GetName] нет [Concept( 'heritage', 'наследия' )|E] цаэски"
- attrebus_potentate_required_task_1_fulfilled_desc:0 "Вы #P выполнили#! первую [Concept( 'required_task', 'требуемую задачу' )|E], [required_task_1|E]"
- 
- attrebus_secure_heartlands_decision:0 "Обезопасить Хартленд"
- attrebus_secure_heartlands_decision_desc:0 "В Хартленде Сиродила находятся две важнейших вещи провинции — Имперский город и палаты Совета Старейшин.\nНедавнее взятие Имперского города вашими войсками и захват близлежащих земель амбициозными военачальниками заставили Совет Старейшин забеспокоиться, и они поручили вам обеспечить безопасность и верность Хартленда."
- attrebus_secure_heartlands_decision_tooltip:0 "Обезопасить Хартленд для Совета Старейшин"
- attrebus_secure_heartlands_decision_confirm:0 "Хартленд наш!"
- attrebus_secure_heartlands_decision_vassal_heartlands_positive_opinion:0 "Каждый прямой вассал в Хартленде имеет #P положительное#! мнение о вас"
- attrebus_secure_heartlands_decision_full_control_imperial_isle:0 "Каждое графство на Имперском острове должно иметь уровень [Concept( 'control', 'контроля' )|E] 90 или выше"
- attrebus_secure_heartlands_desc:0 "Хартленд будет в безопасности, а Совет Старейшин успокоится, поскольку их палаты станут недосягаемы для любого захватчика."
- attrebus_potentate_required_task_3_fulfilled_desc:0 "Вы #P выполнили#! третью [Concept( 'required_task', 'требуемую задачу' )|E], [required_task_3|E]"
- attrebus_potentate_ec_control_heartlands_desc:0 "Совет старейшин удержит весь Хартленд под контролем, когда они будут править Имперским островом."
  
  attrebus_a_militant_faith_decision:0 "Воинствующая вера"
  attrebus_a_militant_faith_decision_desc:0 "На протяжении веков наша конфессия, [ROOT.Char.GetFaith.GetAdjective], сосуществовала с различными мелкими культами и другими религиями. Хотя большинство наших верующих гордятся этим, некоторые представители духовенства указывают на то, что в грядущие времена наша конфессия должна быть сильной. Хотя я не принадлежу к духовенству, я знаю, что многие последуют моему примеру..."

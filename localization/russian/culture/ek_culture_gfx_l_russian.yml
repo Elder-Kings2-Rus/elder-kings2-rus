@@ -3,11 +3,11 @@
  dunmeris_group_coa_gfx:0 "Данмерские"
  nord_group_coa_gfx:0 "Нордские"
  khajiit_group_coa_gfx:0 "Каджитские"
- nedic_group_coa_gfx:0 "Недийские"
+ reachfolk_coa_gfx:0 "Предельские"
  bosmer_group_coa_gfx:0 "Босмерские"
  daedric_group_coa_gfx:0 "Даэдрические"
  ashlander_group_coa_gfx:0 "Эшлендерские"
- redguard_group_coa_gfx:0 "Редгарские"
+ redguard_group_coa_gfx:0 "Редгардские"
  tsaesci_group_coa_gfx:0 "Цаэски"
  aldmeris_group_coa_gfx:0 "Альдмерские"
  balfiera_group_coa_gfx:0 "Балфиерские"
@@ -25,6 +25,7 @@
  dwemeris_group_coa_gfx:0 "Двемерские"
  kothringi_coa_gfx:0 "Котрингские"
  horwalli_coa_gfx:0 "Хорваллские"
+ nedic_coa_gfx:0 "Недийские"
  ayleid_group_coa_gfx:0 "Айлейдские"
 
  dunmer_unit_gfx:0 "Данмерское"
@@ -70,7 +71,7 @@
  ek_ilniviri_building_gfx:0 "Ильнивирская"
 
 
- ek_nedic_reach_clothing_gfx:0 "Ричменская" 
+ ek_nedic_reach_clothing_gfx:0 "Предельская" 
  ek_nedic_keptu_clothing_gfx:0 "Кептская"
  ek_redguard_building_gfx:0 "Редгардская"
  ek_orc_clothing_gfx:0 "Орочья"

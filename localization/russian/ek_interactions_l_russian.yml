@@ -84,20 +84,20 @@
  adopt_hatchling_interaction.tt:0 "[recipient.GetShortUINameNoTooltip] выйдет из тюрьмы и будет [Select_CString(recipient.IsFemale, 'принята', 'принят' )] в семью в качестве [Select_CString(recipient.IsFemale, 'дочери', 'сына' )]"
 
  no_obligations:0 "Без обязательств"
- no_obligations_tt:0 "[vassal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_none' )]"
+ no_obligations_tt:0 "[vassal_contract|E] начнётся с [GetSubjectContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_none' )]"
  CONTRACT_NO_OBLIGATIONS_REASON:0 "Без обязательств: $VALUE|=+0$"
  opinion_obligations:0 "Обычные обязательства (Мнение)"
- opinion_obligations_tt:0 "[vassal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_opinion' )]"
+ opinion_obligations_tt:0 "[vassal_contract|E] начнётся с [GetSubjectContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_opinion' )]"
  devotion_obligations:0 "Обычные обязательства (Набожность)"
- devotion_obligations_tt:0 "[vassal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_devotion' )]"
+ devotion_obligations_tt:0 "[vassal_contract|E] начнётся с [GetSubjectContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_devotion' )]"
  devotion_obligations_requirement:0 "#V [vassal.GetTitledFirstName]#! #bold не#! имеет #V [GetGovernment( 'theocracy_government' ).GetAdjective]ую форму правления#! или ваша форма правления #bold не#! является #V [GetGovernment( 'hierocracy_government' ).GetAdjective]ой#!"
  fame_obligations:0 "Обычные обязательства (Слава)"
- fame_obligations_tt:0 "[vassal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_fame' )]"
+ fame_obligations_tt:0 "[vassal_contract|E] начнётся с [GetSubjectContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_fame' )]"
  arcana_obligations:0 "Обычные обязательства (Аркана)"
- arcana_obligations_tt:0 "[vassal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_arcana' )]"
+ arcana_obligations_tt:0 "[vassal_contract|E] начнётся с [GetSubjectContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_arcana' )]"
  arcana_obligations_requirement:0 "У вас #bold нет#! [Concept('dynasty_perk', 'наследия династии')|E] #V Чародейское правление#! или [Concept('culture', 'культуры')|E] с [Concept('tradition', 'традицией')|E] [GetCultureTradition('tradition_sorcerer_kings').GetName|V]"
  prowess_obligations:0 "Обычные обязательства (Доблесть)"
- prowess_obligations_tt:0 "[vassal_contract|E] начнётся с [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_Prowess' )]"
+ prowess_obligations_tt:0 "[vassal_contract|E] начнётся с [GetSubjectContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_Prowess' )]"
  prowess_obligations_requirement:0 "Ваша [faith|El] #bold не#! имеет догмата «[GetFaithDoctrine('tenet_contempt_for_the_weak').GetBaseName]»"
  cultural_protection:0 "Защита культуры"
  CONTRACT_CULTURAL_PROTECTION_REASON:0 "Защита культуры: $VALUE|=+0$"
@@ -122,11 +122,18 @@
 
  consume_interaction:0 "Поглотить"
  consume_interaction_desc:0 "Поглотить персонажа [recipient.GetShortUINameNoTooltip] в попытке усилить [Concept( 'tsaescence', 'цаэсценцию' )|E]. Однако в процессе вы можете изменить свои [Concept( 'personality_traits', 'свойства личности' )|E] и [skills|El]."
+ consume_interaction_lifespan_trigger:0 "You have a [trait|E] that increases your [gc_lifespan|E]. This cannot stack with [tsaescence|E] without breaking age calculations."
 
  thralldom_interaction:0 "Превратить в трэлла"
  thralldom_interaction_desc:0 "Вы убьёте персонажа [recipient.GetShortUINameNoTooltip], чтобы превратить [recipient.GetHerHis] труп в подчиняющегося вам раба."
  get_undead_thrall:0 "Вы превратите труп персонажа [recipient.GetShortUINameNoTooltip] в бездумного, но преданного раба-#TOOLTIP:GAME_TRAIT,undead_character,[GetNullCharacter] #L нежить#!#!."
 
+ steal_lifeforce_interaction:0 "Steal Lifeforce"
+ steal_lifeforce_interaction_desc:0 "You will drain [recipient.GetShortUINameNoTooltip]'s lifeforce to restore your decayed undead body."
+ steal_lifeforce_interaction_no_decay:0 "Your body is suffering no undead decay."
+ steal_lifeforce_interaction_too_low_health:0 "[recipient.GetShortUINameNoTooltip]'s [health|E] is too low to be of any use!"
+ steal_lifeforce_interaction_effect_tooltip:0 "Reverse the undead decaying of your body based on [recipient.GetShortUINameNoTooltip]'s [health|E]"
+ 
  skull_corruption_interaction:0 "Использовать Череп Порчи"
  skull_corruption_desc:0 "Используйте Череп Порчи на персонаже [recipient.GetShortUINameNoTooltip], чтобы заставить [recipient.GetHerHis] сражаться с двойником!"
 
@@ -184,11 +191,11 @@
  I_CANNOT_BLACKMAIL_ANOTHER_LYCAN:1 "Целью шантажа из-за ликантропии не может быть [GetTrait('lycan_character').GetName( CHARACTER.Self )]"
  I_CANNOT_BLACKMAIL_ANOTHER_NECROMANCER:1 "Целью шантажа из-за некромантии не может быть [GetTrait('necromancer').GetName( CHARACTER.Self )]"
 
- CHARACTER_INTERACTION_VAMP_NOT_ALLOWED_IN_VARANGIAN_GUARD:0 "Для владельца титула[GetTitleByKey('c_bastion').GetNameNoTier] вампиризм – [GetFaithDoctrine('doctrine_vampirism_outlawed').GetBaseName]"
+ CHARACTER_INTERACTION_VAMP_NOT_ALLOWED_IN_VARANGIAN_GUARD:0 "Для владельца титула[GetTitleByKey('c_bastion').GetNameNoTier] вампиризм – [GetFaithDoctrine('doctrine_vampirism_crime').GetBaseName]"
  
- CHARACTER_INTERACTION_LYCAN_NOT_ALLOWED_IN_VARANGIAN_GUARD:0 "Для владельца титула [GetTitleByKey('c_bastion').GetNameNoTier] ликантропия – [GetFaithDoctrine('doctrine_lycanthropy_outlawed').GetBaseName]"
+ CHARACTER_INTERACTION_LYCAN_NOT_ALLOWED_IN_VARANGIAN_GUARD:0 "Для владельца титула [GetTitleByKey('c_bastion').GetNameNoTier] ликантропия – [GetFaithDoctrine('doctrine_lycanthropy_crime').GetBaseName]"
  
- CHARACTER_INTERACTION_NECROMANCER_NOT_ALLOWED_IN_VARANGIAN_GUARD:0 "Для владельца титула [GetTitleByKey('c_bastion').GetNameNoTier] некромантия – [GetFaithDoctrine('doctrine_necromancy_outlawed').GetBaseName]"
+ CHARACTER_INTERACTION_NECROMANCER_NOT_ALLOWED_IN_VARANGIAN_GUARD:0 "Для владельца титула [GetTitleByKey('c_bastion').GetNameNoTier] некромантия – [GetFaithDoctrine('doctrine_necromancy_crime').GetBaseName]"
   
  BLACKMAIL_NOTIFICATION_SECRET_VAMPIRE:0 "\nУ меня есть свидетельства вашей жажды крови!"
  BLACKMAIL_NOTIFICATION_SECRET_LYCAN:0 "\nУ меня есть свидетельства вашей истинной звериной натуры!"

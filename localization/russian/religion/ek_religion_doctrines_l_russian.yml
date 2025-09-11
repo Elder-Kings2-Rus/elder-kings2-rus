@@ -86,17 +86,17 @@
  
  ### Main pantheon
  ## Status of Lorkhan
- doctrine_shezarr_worship_name:0 "Статус #LORE [Concept( 'compendium_missing_god', 'Потерянного Бога' )|E]#!" # compendium entry plug exception to the rule
+ doctrine_shezarr_worship_name:0 "Статус Потерянного Бога" # compendium entry plug exception to the rule
  doctrine_shezarr_worship_full_name:0 "Поклонение Потерянному Богу"
-    doctrine_shezarr_worship_full_desc:0 "#LORE [compendium_missing_god|E]#! является частью наших верований и ежедневных молитв, ибо он выковал мир и был предан за это. Мы не забудем его."
+    doctrine_shezarr_worship_full_desc:0 "Потерянный Бог является частью наших верований и ежедневных молитв, ибо он выковал мир и был предан за это. Мы не забудем его."
     doctrine_parameter_shezarr_worship_full_hostility:0 "Повысит [Concept('faith_hostility', 'враждебность')|E] на #N +10#! с [Concept('faiths', 'конфессиями')|E], у которых имеется доктрина [GetFaithDoctrine('doctrine_shezarr_worship_forbidden').GetBaseName]"
  doctrine_shezarr_worship_respected_name:0 "Потерянный Бог: Уважение"
-    doctrine_shezarr_worship_respected_desc:0 "Хотя мы не возносим молитвы #LORE [Concept('compendium_missing_god', 'Потерянному Богу')|E]#!, мы почитаем его деяния и уважаем его память."
+    doctrine_shezarr_worship_respected_desc:0 "Хотя мы не возносим молитвы Потерянному Богу, мы почитаем его деяния и уважаем его память."
     doctrine_parameter_shezarr_worship_respected_hostility:0 "Повысит [Concept('faith_hostility', 'враждебность')|E] на #N +5#! с [Concept('faiths', 'конфессиями')|E], у которых имеется доктрина [GetFaithDoctrine('doctrine_shezarr_worship_forbidden').GetBaseName]"
  doctrine_shezarr_worship_neutral_name:0 "Нейтралитет к Потерянному Богу"
-    doctrine_shezarr_worship_neutral_desc:0 "Вклад #LORE [Concept( 'compendium_missing_god', 'Потерянного Бога' )|E]#! в сотворение мира смертных похвален, но у нас есть более важные божества и религиозные деятели, которых мы должны почитать."
+    doctrine_shezarr_worship_neutral_desc:0 "Вклад Потерянного Бога в сотворение мира смертных похвален, но у нас есть более важные божества и религиозные деятели, которых мы должны почитать."
  doctrine_shezarr_worship_forbidden_name:0 "Потерянный Бог запрещён"
-    doctrine_shezarr_worship_forbidden_desc:0 "Вероломство #LORE [Concept( 'compendium_missing_god', 'Потерянного Бога' )|E]#! никогда не будет забыто."
+    doctrine_shezarr_worship_forbidden_desc:0 "Вероломство Потерянного Бога никогда не будет забыто."
     doctrine_parameter_shezarr_worship_forbidden_hostility:0 "Повысит [Concept('faith_hostility', 'враждебность')|E] на #N +10#! с [Concept('faiths', 'конфессиями')|E] с доктриной [GetFaithDoctrine('doctrine_shezarr_worship_full').GetBaseName] и на #N +5#! с [Concept('faiths', 'конфессиями')|E] с доктриной [GetFaithDoctrine('doctrine_shezarr_worship_respected').GetBaseName]"
  ## Number of Deities
  doctrine_main_pantheon_type_name:0 "Число богов"
@@ -290,9 +290,9 @@
    doctrine_parameter_pantheon_adds_deity_nerevar:0 "Адепты могут принять Неревара как своего [Concept( 'patron', 'покровителя' )|E] и получить свойство [GetTrait('p_vl_nerevar').GetName( GetNullCharacter )]"
    doctrine_parameter_pantheon_adds_deities_nerevar:0 "Добавит следующего покровителя в [pantheon|El]: Неревар"
  doctrine_sp_lorkhan_name:0 "Потерянный Бог: #italic [secondary|El]#!"
-   doctrine_sp_lorkhan_desc:0 "Под каким бы именем он не был известен, #LORE [compendium_missing_god]#! заслуживает места в наших молитвах и обрядах."
+   doctrine_sp_lorkhan_desc:0 "Под каким бы именем он не был известен, Потерянный Бог заслуживает места в наших молитвах и обрядах."
    doctrine_sp_dv_shezarr_name:0 "Потерянный Бог"
-   doctrine_parameter_pantheon_adds_deity_shezarr:0 "Адепты могут принять #LORE [Concept('compendium_missing_god', 'Потерянного Бога')|E]#! как своего [Concept( 'patron', 'покровителя' )|E] и получить свойство [GetTrait('p_dv_shezarr').GetName( GetNullCharacter )]"
+   doctrine_parameter_pantheon_adds_deity_shezarr:0 "Адепты могут принять Потерянного Бога как своего [Concept( 'patron', 'покровителя' )|E] и получить свойство [GetTrait('p_dv_shezarr').GetName( GetNullCharacter )]"
  doctrine_sp_good_daedra_name:0 "Хорошие даэдра: #italic [secondary|El]#!"
     doctrine_sp_good_daedra_desc:0 "[Glossary( 'Хорошие даэдра', 'GOOD_DAEDRA_GLOSS' )] pog" #EK PH
     doctrine_parameter_good_daedra_pantheon_syncretism:0 "Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -15#! с [Concept('faiths', 'конфессиями')|E], у которых имеется доктрина [Concept('pantheon', 'пантеона')|E] [GetFaithDoctrine('doctrine_pantheon_good_daedra').GetBaseName]"
@@ -345,6 +345,18 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
    doctrine_sp_reman_worldly_god_name: "Мирской бог"
    doctrine_sp_reman_worldly_god_desc: "$desc_worldly_god$" #Placeholder
    doctrine_parameter_pantheon_adds_deity_worldly_god: "Адепты могут принять Мирского бога как своего [Concept( 'patron', 'покровителя' )|E] и получить свойство [GetTrait('p_rm_worldly_god').GetName( GetNullCharacter )]"
+   doctrine_sp_trinimac_name: "Trinimac #italic [secondary|E]#!"
+   doctrine_sp_trinimac_desc: "Trinimac" #Placeholder
+   doctrine_parameter_trinimac_pantheon_syncretism: "Reduces [faith_hostility|E] with [faiths|E] with the [GetFaithDoctrine('doctrine_pantheon_trinimac').GetBaseName] [pantheon|E] by #P -15#!"
+   doctrine_sp_trinimac_paragon_name: "Paragon"
+   doctrine_sp_trinimac_paragon_desc: "$desc_paragon$" #Placeholder
+   doctrine_parameter_pantheon_adds_deity_paragon: "Adherents can take Paragon as their [patron|E], and become [GetTrait('p_tm_paragon').GetName( GetNullCharacter )]"
+   doctrine_sp_trinimac_gold_champ_name: "Golden Champion"
+   doctrine_sp_trinimac_gold_champ_desc: "$desc_gold_champ$" #Placeholder
+   doctrine_parameter_pantheon_adds_deity_gold_champ: "Adherents can take Golden Champion as their [patron|E], and become [GetTrait('p_tm_gold_champ').GetName( GetNullCharacter )]"
+   doctrine_sp_trinimac_blade_of_courage_name: "Blade of Courage"
+   doctrine_sp_trinimac_blade_of_courage_desc: "$desc_blade_of_courage$" #Placeholder
+   doctrine_parameter_pantheon_adds_deity_blade_of_courage: "Adherents can take Blade of Courage as their [patron|E], and become [GetTrait('p_tm_blade_of_courage').GetName( GetNullCharacter )]"
    
  ## Aspect
  doctrine_main_pantheon_aspect_name:0 "Аспект"
@@ -723,7 +735,7 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     doctrine_pantheon_the_one_desc:0 "Верховный Дух — единственное существо, достойное поклонения. Обезьяний Пророк указал нам путь, и благодаря его учениям мы освободились от эльфийского владычества."
     doctrine_parameter_devotion_gives_reduced_cb_cost_against_elves:0 "Каждый уровень [Concept( 'piety_experience', 'набожности' )|E] снижает стоимость [casus_belli|El] против эльфийских правителей на #P 10%#!"
  doctrine_pantheon_lorkhan_name:0 "Потерянный Бог"
-    doctrine_pantheon_lorkhan_desc:0 "Даже после своей смерти #LORE [compendium_missing_god]#! сражается рядом с нами, дабы мы могли быть свободными. Мы будем воспевать его имя везде, куда бы мы ни пошли, пока все человечество не будет освобождено от угнетателей!"
+    doctrine_pantheon_lorkhan_desc:0 "Даже после своей смерти Потерянный Бог сражается рядом с нами, дабы мы могли быть свободными. Мы будем воспевать его имя везде, куда бы мы ни пошли, пока все человечество не будет освобождено от угнетателей!"
  doctrine_pantheon_heroes_name:0 "Сиродильские герои"
     doctrine_parameter_pantheon_adds_deities_cyrodiilic_heroes:0 "Добавит следующих святых в [pantheon|El]: Алессия, Пелинал, Морихаус, Реман, Бенду Оло"
     doctrine_pantheon_heroes_desc:0 "Алессия. Пелинал. Морихаус. Реман. Бенду Оло. Это имена легендарных героев, известных во всём Тамриэле. Но в Сиродиле некоторые почитают их наравне с самими богами."
@@ -731,11 +743,11 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     doctrine_parameter_pantheon_adds_deities_thousand_cults:0 "Добавит следующие культы в [pantheon|El]: Культ Ака, Культ Потерянного, Культ Земли, Культ Мотылька Предка, Культ Богов-зверей, Культ Любви, Культ Гильдий, Культ Небес"
     doctrine_pantheon_thousand_cults_desc:0 "Воздайте хвалу Тысяче Богов Долины, ибо их Культы укрывают наши души в этой и последующей жизни."
  doctrine_pantheon_reman_name:0 "Реман"
-    doctrine_pantheon_reman_desc:0 "Реман «Свет Людей» Сиродил был драконорожденным героем #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#! и основателем Второй империи Тамриэля. Первыми его начали почитать побеждённые им захватчики-акавирцы, однако с тех пор эта вера распространилось среди коренного населения."
+    doctrine_pantheon_reman_desc:0 "Реман «Свет Людей» Сиродил был драконорожденным героем Первой эры и основателем Второй империи Тамриэля. Первыми его начали почитать побеждённые им захватчики-акавирцы, однако с тех пор эта вера распространилось среди коренного населения."
     doctrine_parameter_pantheon_adds_deities_reman: "Добавит следующих покровителей в [pantheon|El]: Свет людей, Сиродил, Мирской бог"
  doctrine_pantheon_ancestor_moth_name:0 "Мотыльки Предка"
     doctrine_pantheon_ancestor_moth_desc:0 "Мотыльки Предка — редкий вид мотыльков, которые, по мнению некоторых жителей Сиродила и южного Скайрима, говорят голосами мёртвых."
- doctrine_pantheon_nedic_aedra_name:0 "Недийский пантеон"
+ doctrine_pantheon_nedic_aedra_name:0 "Боги вокруг нас"
     doctrine_pantheon_nedic_aedra_desc:0 "Наши Матери даруют нам жизнь, их избранный слуга дарует нам смерть. З'ен Торговец вечно бдит, чтобы следить за бесконечным циклом равного обмена."
     doctrine_parameter_pantheon_adds_deities_nedic:0 "Добавит следующих покровителей в [pantheon|El]: Арк'ей, Дибе, Кин, Мара, З'ен, Лоркх"
     doctrine_parameter_divines_pantheon_nedic:0 "При расчёте [Concept('faith_hostility', 'враждебности')|E] этого [Concept('pantheon', 'пантеона')|E], она будет идентичной конфессиям с доктринами [GetFaithDoctrine('doctrine_pantheon_divines').GetBaseName], [GetFaithDoctrine('doctrine_pantheon_nord').GetBaseName] и [GetFaithDoctrine('doctrine_pantheon_redguard').GetBaseName]"
@@ -768,6 +780,7 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
  # Trinimac
  doctrine_pantheon_trinimac_name:0 "Тринимак"
     doctrine_pantheon_trinimac_desc:0 "Тринимак — альдмерский герой-бог правды, чести и справедливости. В [Glossary( 'Эру Рассвета', 'DAWN_ERA_GLOSS' )] он убил предателя Лорхана за обман богов, а затем провёл многие века, проповедуя своим легионам преданных последователей о военных и духовных вопросах."
+    doctrine_parameter_pantheon_adds_deities_trinimac: "Adds the following Patrons to the [pantheon|E]: Paragon, Golden Champion, Blade of Courage"
  # Bosmeri
  doctrine_pantheon_green_pact_name:0 "Зелёный пакт"
     doctrine_pantheon_green_pact_desc:0 "Тысячелетия назад Рассказчик И'ффре взял нас под свою защиту и связал с лесом. Мы защищали священные леса Валена на протяжении многих поколений, и деревья приняли нас в ответ."
@@ -934,11 +947,11 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
  doctrine_pantheon_good_daedra_trigger:0 "Малакат, Мерунес Дагон, Молаг Бал или Шеогорат не могут быть частью пантеона или приемлемы для поколения"
  doctrine_pantheon_bad_daedra_trigger:0 "Азура, Боэтия или Мефала не могут быть частью пантеона или приемлемы для поколения"
  
- shezarr_worship_full_trigger:0 "[doctrine|E] #LORE [Concept('compendium_missing_god', 'Потерянного Бога')|E]#! должна быть установлена как [GetFaithDoctrine('doctrine_shezarr_worship_full').GetBaseName]"
- shezarr_worship_forbidden_trigger:0 "[doctrine|E] #LORE [Concept('compendium_missing_god', 'Потерянного Бога')|E]#! должна быть установлена как [GetFaithDoctrine('doctrine_shezarr_worship_forbidden').GetBaseName]"
+ shezarr_worship_full_trigger:0 "[doctrine|E] Потерянного Бога должна быть установлена как [GetFaithDoctrine('doctrine_shezarr_worship_full').GetBaseName]"
+ shezarr_worship_forbidden_trigger:0 "[doctrine|E] Потерянного Бога должна быть установлена как [GetFaithDoctrine('doctrine_shezarr_worship_forbidden').GetBaseName]"
  necromancy_related_doctrine_trigger:0 "[doctrine|E] некромантии должна быть установлена как [GetFaithDoctrine('doctrine_necromancy_accepted').GetBaseName]"
- vampirism_related_doctrine_trigger:0 "[doctrine|E] вампиризма должна быть установлена как [GetFaithDoctrine('doctrine_vampirism_accepted').GetBaseName]"
- anti_undeath_god_doctrine_trigger:0 "Нельзя иметь принятые [doctrines|E] вампиризма и некромантии"
+ vampirism_related_doctrine_trigger:0 "[doctrine|E] вампиризма должна быть установлена как [GetFaithDoctrine('doctrine_vampirism_virtuous').GetBaseName]"
+ anti_undeath_god_doctrine_trigger:0 "Некромантия и вампиризм не могут быть приемлемы или являться добродетелями согласно [Concept('doctrines', 'доктринам')|E]"
 
  # Deep Ones
  doctrine_pantheon_deepones_name:0 "Глубинные жители"
@@ -1025,6 +1038,8 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     doctrine_parameter_mystical_birthright_head_of_faith_succession_mane_trait:0 "После смерти [Concept( 'head_of_faith', 'главы конфессии' )|E] его или её преемник будет выбран среди тех, кто обладает чертой [GetTrait('furstock_mane').GetName(GetNullCharacter)]."
     DOCTRINE_MYSTICAL_BIRTHRIGHT_HEAD_NEEDS_MYSTICAL_BIRTHRIGHT:0 "Эта [doctrine|El] совместима только с [Concept( 'core_tenet', 'догматом' )|E] [GetFaithDoctrine('tenet_moon_worship').GetBaseName]."
     doctrine_parameter_hof_crown_authority_improves_fe:0 "[crown_authority|E] [Concept( 'head_of_faith', 'главы конфессии' )|E] влияет на [fervor_equilibrium|El] конфессии\n#weak Каждый уровень авторитета короны выше $crown_authority_0$ даёт #P +5#! к равновесию рвения#!."
+    requires_spiritual_or_mystical_birthright_hof:0 "Requires [GetFaithDoctrine('doctrine_spiritual_head').GetBaseName] if your current faith has it, or [GetFaithDoctrine('doctrine_mystical_birthright_head').GetBaseName] if your current faith has that"
+    FAITH_CREATION_ADDS_MYSTICAL_BIRTHRIGHT_HEAD_TEXT:0 "Institute [GetFaithDoctrine('doctrine_mystical_birthright_head').GetBaseName] [head_of_faith|E]\nIf you control at least #V 2#! [holy_sites|E] of your faith and is [GetTrait('furstock_mane').GetName(GetNullCharacter)], you can create the [head_of_faith|E] title.\nIf not it can be created later with the #V '$restore_mane_decision$'#! [decision|E]"
  ## Communal / Cultural Identity
  doctrine_cultural_identity_name:0 "Культурная идентичность"
  doctrine_cultural_identity_none_name:0 "Отсутствие культурных связей"
@@ -1098,8 +1113,9 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     doctrine_parameter_at_least_one_landed_character_to_marry_active:0 "Чтобы [Concept( 'married', 'заключить брак' )|E], хотя бы одна из сторон должна иметь [Concept( 'landed', 'землю' )|E]."
  
  ### Crimes
- doctrine_parameter_witchcraft_crime_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых ведовство – [GetFaithDoctrine('doctrine_witchcraft_accepted').GetBaseName], на #N +5#!"
+ doctrine_parameter_witchcraft_crime_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых ведовство – [GetFaithDoctrine('doctrine_witchcraft_accepted').GetBaseName] на #N +5#!, а в которых ведовство – [GetFaithDoctrine('doctrine_witchcraft_virtuous').GetBaseName] на #N +10#!"
  doctrine_parameter_witchcraft_accepted_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых ведовство – [GetFaithDoctrine('doctrine_witchcraft_crime').GetBaseName], на #N +5#!"
+ doctrine_parameter_witchcraft_virtuous_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Witchcraft is [GetFaithDoctrine('doctrine_witchcraft_crime').GetBaseName] by #N +10#!
 
  doctrine_adultery_name:0 "Измены"
  doctrine_adultery_crime_name:0 "Преступление"
@@ -1110,54 +1126,60 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     doctrine_adultery_accepted_desc:0 "Нет ничего страшного, если мужчина или женщины решает предаться плотским утехам на стороне: это его или её дело."
  
  doctrine_necromancy_name:0 "Некромантия"
- doctrine_necromancy_outlawed_name:0 "Преступление"
-    doctrine_necromancy_outlawed_desc:0 "Никому и никогда нельзя позволять нарушать священный круг жизни и смерти. Это ставит под угрозу само равновесие вашего мира."
+ doctrine_necromancy_crime_name:0 "Преступление"
+    doctrine_necromancy_crime_desc:0 "Никому и никогда нельзя позволять нарушать священный круг жизни и смерти. Это ставит под угрозу само равновесие вашего мира."
     doctrine_parameter_necromancy_criminal:0 "Персонажи со [Concept( 'trait', 'свойством' )|E] [GetTrait('necromancer').GetName( GetPlayer )] — [criminals|El]"
     doctrine_parameter_undeath_criminal:0 "Персонажи со [Concept( 'trait', 'свойством' )|E] [GetTrait('undead_character').GetName( GetPlayer )] или [GetTrait('lich_character').GetName( GetPlayer )] — [criminals|El]"
     doctrine_parameter_cleanse_abominations_undead_rulers:0 "[rulers|E] могут использовать [Concept( 'cleanse_abomination_war', 'войну для уничтожения мерзостей' )|E] против правителей-нежити"
     doctrine_parameter_cleanse_abominations_necromancers_rulers:0 "[rulers|E] могут использовать [Concept( 'cleanse_abomination_war', 'войну для уничтожения мерзостей' )|E] против правителей-некромантов"
-    doctrine_parameter_necromancy_outlawed_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых некромантия – [GetFaithDoctrine('doctrine_necromancy_accepted').GetBaseName], на #N +5#!"
- doctrine_necromancy_pragmatic_name:0 "Остережение"
-    doctrine_necromancy_pragmatic_desc:0 "Следует избегать тех, кто добровольно нарушает баланс жизни и смерти, чтобы навредить другим."
+    doctrine_parameter_necromancy_crime_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых некромантия – [GetFaithDoctrine('doctrine_necromancy_accepted').GetBaseName], на #N +5#!"
+ doctrine_necromancy_shunned_name:0 "Остережение"
+    doctrine_necromancy_shunned_desc:0 "Следует избегать тех, кто добровольно нарушает баланс жизни и смерти, чтобы навредить другим."
     doctrine_parameter_necromancy_shunned:0 "Персонажи со [Concept( 'trait', 'свойством' )|E] [GetTrait('necromancer').GetName( GetPlayer )] — [shunned|El]"
     doctrine_parameter_undeath_shunned:0 "Персонажи со [Concept( 'trait', 'свойством' )|E] [GetTrait('undead_character').GetName( GetPlayer )] или [GetTrait('lich_character').GetName( GetPlayer )] — [shunned|El]"
     doctrine_necromancy_accepted_name:0 "Приемлема"
     doctrine_necromancy_accepted_desc:0 "Мастерское овладевание циклом жизни и смерти должно рассматриваться как великое достижение и немалая победа, а не как преступление."
     doctrine_parameter_necromancy_accepted:0 "Персонажи, имеющие [trait|El] [GetTrait('necromancer').GetName( GetPlayer )], принимаются обществом"
     doctrine_parameter_undeath_accepted:0 "Персонажи, имеющие [trait|El] [GetTrait('undead_character').GetName( GetPlayer )] или [GetTrait('lich_character').GetName( GetPlayer )], принимаются обществом"
-    doctrine_parameter_necromancy_accepted_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых некромантия – [GetFaithDoctrine('doctrine_necromancy_outlawed').GetBaseName], на #N +5#!"
+    doctrine_parameter_necromancy_accepted_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых некромантия – [GetFaithDoctrine('doctrine_necromancy_crime').GetBaseName], на #N +5#!"
     doctrine_parameter_anti_undeath_gods_blocker:0 "Удаляет Аркея и Ту'вакку из вашего [Concept( 'pantheon', 'пантеона' )|E]"
     faith_conversion_cost_necromancy:0 "Обращение в [Concept( 'faith', 'конфессию' )|E], для которой некромантия приемлема"
     
  doctrine_lycanthropy_name:0 "Ликантропия"
- doctrine_lycanthropy_outlawed_name:0 "Преступление"
-    doctrine_lycanthropy_outlawed_desc:0 "Зверолюди — это оскорбление природы и угроза обществу. Нельзя допустить, чтобы они угрожали нашему существованию."
+ doctrine_lycanthropy_crime_name:0 "Преступление"
+    doctrine_lycanthropy_crime_desc:0 "Зверолюди — это оскорбление природы и угроза обществу. Нельзя допустить, чтобы они угрожали нашему существованию."
     doctrine_parameter_lycanthropy_criminal:0 "Все персонажи со [Concept( 'trait', 'свойством' )|E] [GetTrait('lycan_character').GetName( GetPlayer )] — [criminals|El]"
     doctrine_parameter_cleanse_abominations_lycanthropes_rulers:0 "[rulers|E] могут использовать [Concept( 'cleanse_abomination_war', 'войну для уничтожения мерзостей' )|E] против правителей-ликантропов"
-    doctrine_parameter_lycanthropy_outlawed_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых ликантропия – [GetFaithDoctrine('doctrine_lycanthropy_accepted').GetBaseName], на #N +5#!"
- doctrine_lycanthropy_pragmatic_name:0 "Остережение"
-    doctrine_lycanthropy_pragmatic_desc:0 "Хотя ликантропия опасна по своей природе, тех, кто не выбирал быть проклятым, нельзя наказывать за то, что они не могут контролировать."
+    doctrine_parameter_lycanthropy_crime_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых ликантропия – [GetFaithDoctrine('doctrine_lycanthropy_accepted').GetBaseName], на #N +5#! and [GetFaithDoctrine('doctrine_lycanthropy_virtuous').GetBaseName] by #N +10#!"
+ doctrine_lycanthropy_shunned_name:0 "Остережение"
+    doctrine_lycanthropy_shunned_desc:0 "Хотя ликантропия опасна по своей природе, тех, кто не выбирал быть проклятым, нельзя наказывать за то, что они не могут контролировать."
     doctrine_parameter_lycanthropy_shunned:0 "Персонажи со [Concept( 'trait', 'свойством' )|E] [GetTrait('lycan_character').GetName( GetPlayer )] — [shunned|El]"
  doctrine_lycanthropy_accepted_name:0 "Приемлема"
     doctrine_lycanthropy_accepted_desc:0 "Хотя ликантропы могут считаться опасными, те, кто мастерски овладевает этой силой, должны пользоваться уважением."
     doctrine_parameter_lycanthropy_accepted:0 "Персонажи, имеющие [trait|El] «[GetTrait('lycan_character').GetName( GetPlayer )]», принимаются обществом" 
-    doctrine_parameter_lycanthropy_accepted_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых ликантропия – [GetFaithDoctrine('doctrine_lycanthropy_outlawed').GetBaseName], на #N +5#!"
+    doctrine_parameter_lycanthropy_accepted_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых ликантропия – [GetFaithDoctrine('doctrine_lycanthropy_crime').GetBaseName], на #N +5#!"
     faith_conversion_cost_lycan:0 "Обращение в [Concept( 'faith', 'конфессию' )|E], для которой ликантропия приемлема"
+    doctrine_lycanthropy_virtuous_name:0 "Virtuous"
+    doctrine_lycanthropy_virtuous_desc:0 "We must not forget our roots to nature and to the hunt. The lycanthropes lead the way, as the ultimate hunters."
+    doctrine_parameter_lycanthropy_virtuous_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Vampirism is [GetFaithDoctrine('doctrine_vampirism_crime').GetBaseName] by #N +10#!"
    
  doctrine_vampirism_name:0 "Вампиризм"
- doctrine_vampirism_outlawed_name:0 "Преступление"
-    doctrine_vampirism_outlawed_desc:0 "Вампиры — просто звери, которые охотятся на смертных. Мы должны выследить их, прежде чем они смогут выследить нас."
+ doctrine_vampirism_crime_name:0 "Преступление"
+    doctrine_vampirism_crime_desc:0 "Вампиры — просто звери, которые охотятся на смертных. Мы должны выследить их, прежде чем они смогут выследить нас."
     doctrine_parameter_vampirism_criminal:0 "Все персонажи со [Concept( 'trait', 'свойством' )|E] [GetTrait('vampire_character').GetName( GetPlayer )] — [criminals|El]"
     doctrine_parameter_cleanse_abominations_vampires_rulers:0 "[rulers|E] могут использовать [Concept( 'cleanse_abomination_war', 'войну для уничтожения мерзостей' )|E] против правителей-вампиров"
-    doctrine_parameter_vampirism_outlawed_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых вампиризм – [GetFaithDoctrine('doctrine_vampirism_accepted').GetBaseName], на #N +5#!"
- doctrine_vampirism_pragmatic_name:0 "Остережение"
-    doctrine_vampirism_pragmatic_desc:0 "Опасность, которую представляют дикие вампиры, не должна заставлять нас охотиться на тех, кто хочет жить в мире."
+    doctrine_parameter_vampirism_crime_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых вампиризм – [GetFaithDoctrine('doctrine_vampirism_accepted').GetBaseName], на #N +5#! and [GetFaithDoctrine('doctrine_vampirism_virtuous').GetBaseName] by #N +10#!"
+ doctrine_vampirism_shunned_name:0 "Остережение"
+    doctrine_vampirism_shunned_desc:0 "Опасность, которую представляют дикие вампиры, не должна заставлять нас охотиться на тех, кто хочет жить в мире."
     doctrine_parameter_vampirism_shunned:0 "Персонажи со [Concept( 'trait', 'свойством' )|E] [GetTrait('vampire_character').GetName( GetPlayer )] — [shunned|El]"
  doctrine_vampirism_accepted_name:0 "Приемлем"
     doctrine_vampirism_accepted_desc:0 "Вампиризм не должен рассматриваться как проклятие, ибо он благословляет нас невероятными силами и способностями."
     doctrine_parameter_vampirism_accepted:0 "Персонажи, имеющие [trait|El] «[GetTrait('vampire_character').GetName( GetPlayer )]», принимаются обществом"
-    doctrine_parameter_vampirism_accepted_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых вампиризм – [GetFaithDoctrine('doctrine_vampirism_outlawed').GetBaseName], на #N +5#!"
+    doctrine_parameter_vampirism_accepted_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых вампиризм – [GetFaithDoctrine('doctrine_vampirism_crime').GetBaseName], на #N +5#!"
     faith_conversion_cost_vampire:0 "Обращение в [Concept( 'faith', 'конфессию' )|E], для которой вампиризм приемлем"
+    doctrine_vampirism_virtuous_name:0 "Virtuous"
+    doctrine_vampirism_virtuous_desc:0 "The blessing of Vampirism puts us above the rest of mortalkind. They are mere prey, and we are the hunters."
+    doctrine_parameter_vampirism_virtuous_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Vampirism is [GetFaithDoctrine('doctrine_vampirism_crime').GetBaseName] by #N +10#!"
     
  ### Sins & Virtues
  doctrine_virtues_name:0 "Добродетели"
@@ -1231,7 +1253,6 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     doctrine_virtue_vengeful_desc:0 "Есть только один способ правильно ответить, когда тебе причиняют вред. Полное уничтожение врага. Никто не должен встать на твоём пути."
  doctrine_virtue_forgiving_name:0 "Незлобливость ([virtue|E])"
     doctrine_virtue_forgiving_desc:0 "Судить — дело одного лишь божественного. Круг насилия и ненависти отравляет мир смертных, и мы отказываемся быть его частью."
-    
     doctrine_virtue_eccentric_name:0 "Чудачество ([virtue|E])"
     doctrine_virtue_eccentric_desc:0 "Оригинальность, вдохновение и новаторство — эти те качества, которые однозначно стоит воспевать."
  
@@ -1306,7 +1327,6 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     doctrine_sin_vengeful_desc:0 "Хотя простить тех, кто тебя обидел, может быть трудно, мы должны быть осторожны, чтобы месть не поглотила нас с головой."
  doctrine_sin_forgiving_name:0 "Незлобливость ([sin|E])"
     doctrine_sin_forgiving_desc:0 "Кто-то может сказать, что хорошо прощать тех, кто причинил тебе боль. Но мы знаем, что это приведёт лишь к тому, что ещё больше существ захотят причинить тебе боль."
-    
      doctrine_sin_eccentric_name:0 "Чудачество ([sin|E])"
     doctrine_sin_eccentric_desc:0 "Быть не как все — не значит быть достойным"
  
@@ -1626,7 +1646,7 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
  doctrine_hermaeus_criminal_desc:0 "Не ищи Демона. Запретное знание стало таковым не без причины."
  
  doctrine_hircine_name:0 "$hircine$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_HIRCINE:0 "Если доктрина [GetFaithDoctrine('doctrine_pantheon_daedra').GetBaseName] не выбрана в качестве основного пантеона, то $hircine$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('doctrine_lycanthropy_accepted').GetBaseName] (Ликантропия)\n • [GetFaithDoctrine('tenet_lycanthrope_worship').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_ritual_hunts').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_sanctity_of_nature').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_riddlethar').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_hircine').GetBaseName] (Второстепенное божество пантеона)" 
+ FAITH_MUST_ALLOW_PATRON_HIRCINE:0 "Если доктрина [GetFaithDoctrine('doctrine_pantheon_daedra').GetBaseName] не выбрана в качестве основного пантеона, то $hircine$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('doctrine_lycanthropy_accepted').GetBaseName] (Ликантропия)\n • [GetFaithDoctrine('doctrine_lycanthropy_virtuous').GetBaseName] (Ликантропия)\n • [GetFaithDoctrine('tenet_ritual_hunts').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_sanctity_of_nature').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_riddlethar').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_hircine').GetBaseName] (Второстепенное божество пантеона)" 
  doctrine_parameter_worship_hircine_allowed_active:0 "Поклонение даэдра ( $hircine$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]"
  doctrine_parameter_worship_hircine_shunned_active:0 "Поклонение даэдра ( $hircine$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_hircine_criminal_active:0 "Поклонение даэдра ( $hircine$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1696,7 +1716,7 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
  doctrine_meridia_criminal_desc:0 "Истинный свет меркнет, преломляясь через пороки Меридии."
  
  doctrine_molag_name:0 "$molag$ - поклонение"
- FAITH_MUST_ALLOW_PATRON_MOLAG:0 "Если доктрина [GetFaithDoctrine('doctrine_pantheon_daedra').GetBaseName] не выбрана в качестве основного пантеона, то $molag$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('doctrine_vampirism_accepted').GetBaseName] (Вампиризм)\n • [GetFaithDoctrine('tenet_vampire_worship').GetBaseName] (Догмат)\n • [GetFaithDoctrine('tenet_human_sacrifice').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_bad_daedra').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_molag').GetBaseName] (Божество второстепенного пантеона)" 
+ FAITH_MUST_ALLOW_PATRON_MOLAG:0 "Если доктрина [GetFaithDoctrine('doctrine_pantheon_daedra').GetBaseName] не выбрана в качестве основного пантеона, то $molag$ должен быть выбран с помощью доктрин или догматов.\n\nНеобходимо одно из следующего:\n • [GetFaithDoctrine('doctrine_vampirism_accepted').GetBaseName] (Вампиризм)\n • [GetFaithDoctrine('doctrine_vampirism_virtuous').GetBaseName] (Вампиризм)\n • [GetFaithDoctrine('tenet_human_sacrifice').GetBaseName] (Догмат)\n • [GetFaithDoctrine('doctrine_pantheon_bad_daedra').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Основной пантеон)\n • [GetFaithDoctrine('doctrine_sp_daedra_molag').GetBaseName] (Божество второстепенного пантеона)" 
  doctrine_parameter_worship_molag_allowed_active:0 "Поклонение даэдра ( $molag$ ) в [Concept( 'secret', 'секретах' )|E] не считается [Concept( 'shunned', 'недостойным' )|E] или [Concept( 'criminal', 'преступным' )|E]"
  doctrine_parameter_worship_molag_shunned_active:0 "Поклонение даэдра ( $molag$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'shunned', 'недостойным' )|E]"
  doctrine_parameter_worship_molag_criminal_active:0 "Поклонение даэдра ( $molag$ ) в [Concept( 'secret', 'секретах' )|E] считается [Concept( 'criminal', 'преступным' )|E]"
@@ -1808,7 +1828,7 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
  
  tenet_tsaescence_name:0 "Цаэсценция"
     tenet_tsaescence_desc:0 "Имена, как и все прочие слова, содержат в себе сущность. А любые ёмкости можно, подобно яйцам, разбить и поглотить их содержимое, обновившись и став сильнее в процессе."
-    doctrine_parameter_tsaescence_interaction_active:0 "Делает доступным [interaction|El] '$consume_interaction$', которое позволяет повысить [Concept( 'tsaescence', 'цаэсценцию' )|E], потенциально увеличивая продолжительность жизни или приобретая свойства. #bold Для этого необходимо свободно владеть литургическим языком цаэски#!"
+    doctrine_parameter_tsaescence_interaction_active:0 "Делает доступным [interaction|El] #V '$consume_interaction$'#!, которое позволяет повысить [Concept( 'tsaescence', 'цаэсценцию' )|E]. #bold Для этого необходимо знать #V $language_tsaesci_name$#! [language|El]#!"
  
  # Terrain stuff
  tenet_children_skyrim_name:0 "Дети Скайрима"
@@ -1838,38 +1858,42 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     tenet_lifestyle_lea_faith_desc:0 "Знание — источник всех сил и могущества. Мы всегда должны стремиться к большему, даже если только ради самого процесса."
     doctrine_parameter_children_education_learning:0 "[children|E] с большей вероятностью достигнут успехов при [Concept( 'education', 'обучении' )|E] [Concept( 'learning_skill', 'учёности' )|E]"
  
- # Criminals are cool stuff
- tenet_witch_worship_name:0 "Священные ведьмы"
-    tenet_witch_worship_reach_religion_name:0 "Поклонение ворожеям"
-    tenet_witch_worship_desc:0 "Тех, кто достаточно силён, чтобы овладеть колдовскими силами, следует прославлять, а не отвергать. Мы не должны позволить слепой ненависти и непониманию встать на пути к раскрытию сил оккультизма."
-    WITCHCRAFT_MUST_BE_FULLY_ACCEPTED:0 "Несовместимо с любыми [Concept( 'doctrine', 'доктринами' )|E], для которых ведовство — [shunned|El] или [Concept( 'criminal', 'преступление' )|E]"
-    doctrine_parameter_tenet_witch_worship_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых ведовство [GetFaithDoctrine('doctrine_witchcraft_crime').GetBaseName] на #N +10#!"
-    
- tenet_vampire_worship_name:0 "Вампирическое благословение"
-    tenet_vampire_worship_desc:0 "Благословение вампиризма ставит нас выше остальных смертных. Они — добыча, а мы — охотники."
-    VAMPIRISM_MUST_BE_FULLY_ACCEPTED:0 "Несовместимо с любыми [Concept( 'doctrine', 'доктринами' )|E], для которых вампиризм — [shunned|El] или [Concept( 'criminal', 'преступление' )|E]"
-    doctrine_parameter_tenet_vampire_worship_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых вампиризм – [GetFaithDoctrine('doctrine_vampirism_outlawed').GetBaseName], на #N +10#!"
-    
- tenet_lycanthrope_worship_name:0 "Благословение ликантропии"
-    tenet_lycanthrope_worship_desc:0 "Мы не должны забывать о своей связи с природой и охотой. Ликантропы — самые лучшие охотники, и они ведут нас за собой."
-    LYCANTHROPY_MUST_BE_FULLY_ACCEPTED:0 "Несовместимо с любыми [Concept( 'doctrine', 'доктринами' )|E], для которых ликантропия — [shunned|El] или [Concept( 'criminal', 'преступление' )|E]"
-    doctrine_parameter_tenet_lycanthrope_worship_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых ликантропия – [GetFaithDoctrine('doctrine_lycanthropy_outlawed').GetBaseName], на #N +10#!"
-    
+ # Cult tenets
+ tenet_militant_cult_name:0 "Militant Cult"
+   tenet_militant_cult_desc:0 "The Gods have imparted upon us a great and terrible mission, to prepare all Mundus to bask in their radiance. Should the infidels be blind to all but the blade's glint and the fire's blaze, then let us be free in their language."
+   doctrine_parameter_characters_easier_counties_harder:0 "[characters|E] are easier to convert to this [faith|E], while [counties|E] are harder"
+   FAITH_CULT_CHARACTER_REASON: "[actor.GetFaith.GetName] — Cultist [core_tenet|E]: $VALUE|=+0$"
+   FAITH_CULT_COUNTY_REASON:0 "[councillor.GetFaith.GetName] — Cultist [core_tenet|E]"
+   doctrine_parameter_unlock_maa_cultists:0 "Can recruit [GetMaA('cultists').GetName] as [men_at_arms|E]"
+   doctrine_parameter_sanctioned_false_conversion_harder_county_conversion:0 "Conversion Resistance: #P +30%#!"
+   incompatible_tenet_cult_tenet:0 "Cannot have another Cult tenet"
+
+ tenet_mystery_cult_name:0 "Mystery Cult"
+   tenet_mystery_cult_desc:0 "Communion with the Divine and the truth of the Aurbis were never meant for the masses, and we must see that only the worthy few join our ranks, and are led through trials and tests into the flock of true believers."
+   doctrine_parameter_secretive_secrets:0 "[secrets|E] held by [characters|E] of this [faith|E] are harder to discover"
+
+tenet_personality_cult_name:0 "Personality Cult"
+   tenet_personality_cult_desc:0 "Guided by divine inspiration, or perhaps even themselves divine — we follow our leader and strive to emulate them in all matters."
+   doctrine_parameter_sins_virtues_changing:0 "The [sins|E] and [virtues|E] of this [faith|E] will be updated upon gaining a new [head_of_faith|E], based on their [personality|E]"
+   doctrine_parameter_hof_hook_immunity:0 "The [head_of_faith|E] may dismiss [hooks|E] held by same Faith [characters|E]"
+   doctrine_requires_temporal_head_of_faith:0 "Requires the [doctrine|E] [temporal_head_of_faith|E]"
+
+ # Criminals are cool stuff    
  tenet_necromancy_worship_name:0 "Мастерство над не-жизнью"
     tenet_necromancy_worship_desc:0 "Мы были благословлены способностями к некромантии. Эти силы должны считаться священными и частью нашей связи с божественным."
     NECROMANCY_MUST_BE_FULLY_ACCEPTED:0 "Несовместимо с любыми [Concept( 'doctrine', 'доктринами' )|E], для которых некромантия — [shunned|El] или [Concept( 'criminal', 'преступления' )|E]"
     doctrine_parameter_lich_ascension:0 "[decision|E] #V 'Стать личем'#! немного менее рискованно"
     doctrine_parameter_lich_trait_arcana:0 "Свойство [GetTrait('lich_character').GetName( GetNullCharacter )|l] даёт [arcana_i][arcana|El]: #P +2#!"
     doctrine_parameter_cheaper_necromancy_spells:0 "Стоимость [Concept( 'spells', 'заклинаний' )|E] некромантии: [magicka_i]#P -10%#!"
-    doctrine_parameter_tenet_necromancy_worship_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых некромантия – [GetFaithDoctrine('doctrine_necromancy_outlawed').GetBaseName], на #N +10#!"
+    doctrine_parameter_tenet_necromancy_worship_hostility:0 "Увеличивает [faith_hostility|El] со всеми [Concept( 'faiths', 'конфессиями' )|E], в которых некромантия – [GetFaithDoctrine('doctrine_necromancy_crime').GetBaseName], на #N +10#!"
 
  # Other
  FAITH_MUST_HAVE_PERYITE_PATRON:0 "Ваша [faith|El] должна иметь даэдра [GetFaithDoctrine('doctrine_pantheon_peryite').GetBaseName] в [Concept( 'pantheon', 'пантеоне' )|El]"
  
  tenet_divine_purity_name:0 "Божественная чистота"
     tenet_divine_purity_desc:0 "Мы — дети богов. Мы должны гордиться своей чистотой и следить за тем, чтобы не запятнать себя связями с низшими существами, дабы не отступить от божественного."
-    doctrine_parameter_children_bad_congenital_trait_impure:0 "Дети, которые рождаются с плохими врожденными признаками, считаются [Concept( 'impure', 'нечистыми' )|E]"
-    doctrine_parameter_children_non_accepted_culture_impure:0 "Если у нас есть доктрина [GetFaithDoctrine('doctrine_cultural_identity_heritage').GetBaseName] или [GetFaithDoctrine('doctrine_cultural_identity_heritage_exclusive').GetBaseName], любой ребенок, хотя бы у одного родителя которого нет признанного [Concept( 'heritage', 'наследия' )|E], будет считаться [Concept( 'impure', 'нечистым' )|E]\n Если у нас есть доктрина [GetFaithDoctrine('doctrine_cultural_identity_culture').GetBaseName] или [GetFaithDoctrine('doctrine_cultural_identity_culture_exclusive').GetBaseName], любой ребенок, хотя бы у одного родителя которого нет признанной [Concept( 'culture', 'культуры' )|E], будет считаться [Concept( 'impure', 'нечистым' )|E]"
+    doctrine_parameter_children_bad_congenital_trait_impure:0 "Дети, которые рождаются с плохими [Concept( 'congenital_traits', 'врождёнными свойствами' )|E], считаются [Concept( 'impure', 'нечистыми' )|E]"
+    doctrine_parameter_children_non_accepted_culture_impure:0 "С доктриной [GetFaithDoctrine('doctrine_cultural_identity_heritage').GetBaseName] или [GetFaithDoctrine('doctrine_cultural_identity_heritage_exclusive').GetBaseName] ребёнок, хотя бы у одного родителя которого нет признанного [Concept( 'heritage', 'наследия' )|E], будет считаться [Concept( 'impure', 'нечистым' )|E]\nС доктриной [GetFaithDoctrine('doctrine_cultural_identity_culture').GetBaseName] или [GetFaithDoctrine('doctrine_cultural_identity_culture_exclusive').GetBaseName] ребёнок, хотя бы у одного родителя которого нет признанной [Concept( 'culture', 'культуры' )|E], будет считаться [Concept( 'impure', 'нечистым' )|E]"
     doctrine_parameter_character_impurity_deformity_election_lowers_score_active:0 "Персонажи, страдающие от уродств, получат #N суровый штраф#! при выборных законах наследования"
     doctrine_parameter_character_impure_foreign_relationships_impure:0 "Персонажи, которые войдут в близкие отношения с [Concept( 'impure', 'нечистыми' )|E] персонажами или персонажами других конфессий, тоже считаются [Concept( 'impure', 'нечистыми' )|E]."
     doctrine_parameter_unlocks_blood_legacy:0 "Разблокирует [Concept( 'dynasty_perk', 'наследие династии' )|E] #V Кровь#!"
@@ -1898,25 +1922,25 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
     
  tenet_sanctity_of_life_name:0 "Святость жизни"
     tenet_sanctity_of_life_desc:0 "Круговорот жизни и смерти не может быть нарушен ни при каких условиях. Любой, смертный или божественное создание, кто бросает ему вызов, должен быть выслежен и уничтожен, как и его неживые слуги."
-    doctrine_parameter_cheaper_holy_wars_pro_undeath_active:0 "[rulers|E] этой [Concept( 'faith', 'конфессии' )|E] тратят на #P 20%#! меньше [Concept( 'piety', 'благочестия' )|E] на объявление [Concept( 'holy_wars', 'священных войн' )|E] против конфессий, считающих вампиризм или некромантию приемлемыми."
+    doctrine_parameter_cheaper_holy_wars_pro_undeath_active:0 "[rulers|E] этой [Concept( 'faith', 'конфессии' )|E] тратят на #P 20%#! меньше [Concept( 'piety', 'благочестия' )|E] на объявление [Concept( 'holy_wars', 'священных войн' )|E] против конфессий, считающих вампиризм или некромантию приемлемыми или добродетелью."
     doctrine_parameter_cheaper_cleanse_abominations_active:0 "[rulers|E] этой [Concept( 'faith', 'конфессии' )|E] тратят на #P 20%#! меньше [Concept( 'piety', 'благочестия' )|E] на объявление [Concept( 'cleanse_abomination_war', 'войны для уничтожения мерзостей' )|E]."
     doctrine_parameter_bonus_cleanse_abomination_war_piety_active:0 "[piety|E] и [piety_experience|El] от победы в [Concept( 'cleanse_abomination_war', 'войне для уничтожения мерзостей' )|E] увеличены на #P 50%#!"
-    doctrine_parameter_tenet_sanctity_of_life_hostility:0 "Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -5#! с [Concept('faiths', 'конфессиями')|E], которых Некромантия [GetFaithDoctrine('doctrine_necromancy_outlawed').GetBaseName] и Вампиризм [GetFaithDoctrine('doctrine_vampirism_outlawed').GetBaseName]"
-    VAMPIRISM_MUST_BE_OUTLAWED:0 "Вампиризм — [GetFaithDoctrine('doctrine_vampirism_outlawed').GetBaseName], если не используется доктрина [Concept('pantheon', 'пантеона')|E] [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName], в таком случае отношение к вампиризму — [GetFaithDoctrine('doctrine_vampirism_pragmatic').GetBaseName]"
-    NECROMANCY_MUST_BE_OUTLAWED:0 "Некромантия — [GetFaithDoctrine('doctrine_necromancy_outlawed').GetBaseName], если не используется доктрина [Concept('pantheon', 'пантеона')|E] [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName], в таком случае отношение к некромантии — [GetFaithDoctrine('doctrine_necromancy_pragmatic').GetBaseName]"
+    doctrine_parameter_tenet_sanctity_of_life_hostility:0 "Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -5#! с [Concept('faiths', 'конфессиями')|E], которых Некромантия [GetFaithDoctrine('doctrine_necromancy_crime').GetBaseName] и Вампиризм [GetFaithDoctrine('doctrine_vampirism_crime').GetBaseName]"
+    VAMPIRISM_MUST_BE_OUTLAWED:0 "Вампиризм — [GetFaithDoctrine('doctrine_vampirism_crime').GetBaseName], если не используется доктрина [Concept('pantheon', 'пантеона')|E] [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName], в таком случае отношение к вампиризму — [GetFaithDoctrine('doctrine_vampirism_shunned').GetBaseName]"
+    NECROMANCY_MUST_BE_OUTLAWED:0 "Некромантия — [GetFaithDoctrine('doctrine_necromancy_crime').GetBaseName], если не используется доктрина [Concept('pantheon', 'пантеона')|E] [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName], в таком случае отношение к некромантии — [GetFaithDoctrine('doctrine_necromancy_shunned').GetBaseName]"
     
  tenet_contempt_for_the_weak_name:0 "Презрение к слабым"
     tenet_contempt_for_the_weak_desc:0 "Мир, в котором мы живём, суров и неумолим. Если мы хотим выжить, то должны убедиться, что лишь сильнейшие могут править, смещая слабых правителей в случае необходимости."
-    doctrine_parameter_lethal_and_free_claim_duel_active:0 "Можно использовать #V $duel_for_claim_strong_interaction$#! вместо #V $duel_for_claim_default_interaction$#!.\nВзаимодействие не стоит [Concept( 'prestige', 'престижа' )|E], а победа даёт [piety|El], но #X каждая дуэль ведётся до смерти#!."
-    doctrine_parameter_weak_rulers_contest_rule:0 "Правители с высокой [prowess_i][Concept( 'prowess_skill', 'доблестью' )|E] могут потратить [prestige|El], чтобы выдвинуть претензии на [titles|El], которые принадлежат другим правителям. Чем выше разница в доблести между правителями, тем ниже стоимость."
+    doctrine_parameter_lethal_and_free_claim_duel_active:0 "Можно использовать #V $duel_for_claim_strong_interaction$#! вместо [Concept('character_interaction', 'взаимодействия персонажа')|E] #V $duel_for_claim_default_interaction$#!."
+    doctrine_parameter_weak_rulers_contest_rule:0 "Правители с высокой [prowess_i][Concept( 'prowess_skill', 'доблестью' )|E] могут потратить [prestige|El], чтобы выдвинуть претензии на [titles|El], которые принадлежат другим правителям."
     doctrine_parameter_vassal_contribution_tied_prowess:0 "[vassal_obligations|E] привязаны к разнице в [prowess_i][Concept( 'prowess', 'доблести' )|E] между [Concept( 'vassal', 'вассалом' )|E] и его [Concept( 'liege', 'сюзереном' )|E]."
     culture_parameter_vassal_contribution_tied_arcana:0 "[vassal_obligations|E] привязаны к разнице в [arcana_i][Concept( 'arcana', 'аркане' )|E] между [Concept( 'vassal', 'вассалом' )|E] и его [Concept( 'liege', 'сюзереном' )|E]."
     vassal_contribution_tied_prowess_default:0 "От [prowess_i][Concept( 'prowess', 'доблести' )|E]"
-    doctrine_parameter_prowess_bonuses:0 "За каждую единицу [prowess_i][Concept( 'prowess', 'доблести' )|E] правители получают:\n\t#P +0.5%#! к размеру и скорости пополнения [Concept( 'levy', 'ополчения' )|E], #P -0.5%#! к содержанию профессионалов #weak (Вам нужен [marshal|El], чтобы этот эффект был активен)#!\n\t#P +1#! к [Concept( 'opinion', 'мнению' )|E] [Concept( 'vassal', 'вассалов' )|E], [Concept( 'courtier', 'придворных' )|E] и [Concept( 'guest', 'гостей' )|E] #weak (Вам нужен [chancellor|El], чтобы этот эффект был активен)#!\n\t #P +0.1#! к ежемесячному [Concept( 'county_control', 'контролю над графством' )|E] #weak (Вам нужен [steward|El] , чтобы этот эффект был активен)#!\n#weak Примечание: Правители с низким уровнем доблести (ниже 8) вместо этого получают штрафы#!"
+    doctrine_parameter_prowess_bonuses:0 "За каждую единицу [prowess_i][Concept( 'prowess', 'доблести' )|E] правители получают:\n$BULLET_WITH_TAB$#P +0.5%#! к размеру и скорости пополнения [Concept( 'levy', 'ополчения' )|E]\n$BULLET_WITH_TAB$#P -0.5%#! к содержанию профессионалов\n$BULLET_WITH_TAB$#P +1#! к [Concept( 'opinion', 'мнению' )|E] [Concept( 'vassal', 'вассалов' )|E], [Concept( 'courtier', 'придворных' )|E] и [Concept( 'guest', 'гостей' )|E]\n$BULLET_WITH_TAB$#P +0.1#! к ежемесячному [Concept( 'county_control', 'контролю над графством' )|E]\n#weak Примечание: Правители с низким уровнем доблести (ниже 8) вместо этого получают штрафы#!"
     prowess_bonuses_army:0 "[prowess|E] - [faith|E]"
     prowess_bonuses_domain:0 "[prowess|E] - [faith|E]"
     prowess_bonuses_opinion:0 "[prowess|E] - [faith|E]"
-    doctrine_parameter_rule_by_might_succession_active:0 "Активирует [law|El] [Concept( 'succession', 'наследования' )|E] «#V Право сильного#!». Преемник выбирается среди подходящих детей правителя. Они должны будут выступить против любого сиблинга, оспаривающего их право на престол, в [Concept( 'single_combat_duel', 'поединке' )|E] #X до смерти#!."
+    doctrine_parameter_rule_by_might_succession_active:0 "Активирует [Concept( 'succession_law', 'закон наследования' )|E] «#V Право сильного#!»."
     
  tenet_vows_of_squalor_name:0 "Клятва убожества"
     tenet_vows_of_squalor_desc:0 "Чтобы полностью принять божественное, мы должны отвергнуть ожидания общества в отношении чистоты и крепкого здоровья. Мы процветаем в тени, в окружении грызунов, нищих и паразитов."
@@ -1970,7 +1994,7 @@ doctrine_sp_heroes_name:0 "Сиродильские герои: #italic [seconda
    tenet_magnus_worship_desc:0 "Там, где прочие видят солнце, мы видим Мага, источник самой Магии - ярко горящего от магических энергий, льющихся в Мундус из других измерений. Воздадим же ему хвалу!"
    
  tenet_labyrinthine_canon_name:0 "Крайне запутанный канон"
-    tenet_labyrinthine_canon_desc:0 "По мере увеличения духовенства Алессианского ордена и слияния религиозных вопросов со светскими, концепция Единого божества становилась всё более абстрактной и непознаваемой. К моменту своего великого краха в конце #LORE [Concept( 'compendium_first_era', 'Первой эры' )|E]#! канон содержал лишь бесконечные законы и ограничения по любым светским и духовным вопросам, какие только можно себе представить."
+    tenet_labyrinthine_canon_desc:0 "По мере увеличения духовенства Алессианского ордена и слияния религиозных вопросов со светскими, концепция Единого божества становилась всё более абстрактной и непознаваемой. К моменту своего великого краха в конце Первой эры канон содержал лишь бесконечные законы и ограничения по любым светским и духовным вопросам, какие только можно себе представить."
 	tenet_labyrinthine_canon_requirement:0 "Ваша [faith|El] должна включать в [pantheon|E] следующую сущность: [GetFaithDoctrine('doctrine_pantheon_the_one').GetBaseName] "
     
  tenet_legacy_of_reman_name:0 "Наследие Ремана"
