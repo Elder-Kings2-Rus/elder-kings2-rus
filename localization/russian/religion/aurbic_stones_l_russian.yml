@@ -5,7 +5,7 @@
  stone_religion_adj:0 "Камнепоклонничество"
  stone_religion_adherent:0 "Камнепоклонник"
  stone_religion_adherent_plural:0 "Камнепоклонники"
- stone_religion_desc:0 "Некоторые верования, почитающие камни и землю."
+ stone_religion_desc:0 "Некоторые верования, почитающие духов в камнях и саму землю."
  stone_religion_high_god_name:0 "$god_stones_name$"
  stone_religion_high_god_name_2:0 "$stone_religion_high_god_name$" # Optional translation alt
  stone_religion_high_god_name_3:0 "$stone_religion_high_god_name$" # Optional translation alt
@@ -27,7 +27,7 @@
  stone_religion_house_of_worship_plural:0 "камни"
  stone_religion_religious_symbol:0 "резной камень"
  stone_religion_religious_text:0 "скалы и камни"
- stone_religion_religious_head_title:0 "Громила"
+ stone_religion_religious_head_title:0 "Слышащий камни"
  stone_religion_religious_head_title_name:0 "Десять Железных клятв"
  stone_religion_devotee_male:0 "присягнувший камню"
  stone_religion_devotee_male_plural:0 "присягнувшие камню"
@@ -81,6 +81,6 @@
  #Ten Iron Oaths
  osh_ornim:0 "Ош-орнимск"
  osh_ornim_adj:0 "Десять Железных клятв"
- osh_ornim_adherent:0 "Ош Орним"
- osh_ornim_adherent_plural:0 "Ош Орним"
- osh_ornim_desc:0 "Когда-то железные орки, или «Ош Орним» на их собственном языке, были культурой мирных камнепоклонников, но все изменилось, когда на них напали недийцы. Чтобы защитить себя, они были вынуждены копать ту самую землю, которой они поклонялись, выковывая инструменты и оружие, чтобы изгнать недийцев с их родины. Сильная травма, вызванная необходимостью калечить своих собственных богов, оказала длительное влияние на культуру железных орков и привела к крайне жестокой враждебности ко всем чужакам, которые осмеливаются проникнуть на их земли или нарушить их «Десять железных клятв»."
+ osh_ornim_adherent:0 "Iron Animist"
+ osh_ornim_adherent_plural:0 "Iron Animist"
+ osh_ornim_desc:0 "The Iron Orcish faith is preserved against attack and concealed from outsiders, based on the simple tenet that each Iron Orc practices: listening. The ‘loud spirits’ of Oblivion, and the skies, and the world around, are heard; but it is the ‘quiet spirits’ that the Iron Orcs revere. The spirits of the rocks and sands guide their listeners to their homes, small grains of metal that form the basis of all Iron Orcish activity."

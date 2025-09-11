@@ -439,6 +439,11 @@
  desc_the_cyrodiil: "Реман, Сиродил, принёс мир Хартленду и объединил его народ, став единым с самой землёй."
  desc_worldly_god: "Реман, Мирской Бог — бог смертных, союз божественного и земного; рождённый человеком, он вознёсся и стал божеством после смерти благодаря своим великим деяниям."
  
+ #Trinimac
+ desc_paragon: "Trinimac, the Paragon, represents the true ideals of our people — strengh and unity."
+ desc_gold_champ: "Trinimac, the Golden Champion, is the god-king of our people, and through his leadership, we are united."
+ desc_blade_of_courage: "Trinimac, the Blade of Courage, remembers the evil done to him and his people and will not forget."
+ 
  action_pick_patron:0 "Выберите покровителя"
  action_pick_patron_label:0 "$action_pick_patron$"
  action_pick_patron_desc:2 "У вас нет покровителя.\n\n#help Ваша [Concept('faith', 'конфессия')|E] имеет покровителей. Каждая черта даёт вам бонус в той или иной форме.#!"

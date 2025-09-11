@@ -31,7 +31,7 @@
  
  action_can_use_writ_of_war:0 "Разрешение на войну"
  action_can_use_writ_of_war_label:0 "У вас есть неиспользованное [Concept('writ_of_war', 'разрешение на войну')|E]"
- action_can_use_writ_of_war_desc:0 "У вас есть неиспользованное [Concept('writ_of_war', 'разрешение на войну')|E].\n\n#help [Concept('writ_of_war', 'Разрешение на войну')|E] позволяет начать войну против [Concept('outlanders', 'чужеземцев')|E].\n\nУ вас осталось [GetGameTimeDifferenceForDiffDays( actor.MakeScope.VarRemaining( 'has_writ_of_war' ) )], чтобы использовать его."
+ action_can_use_writ_of_war_desc:0 "У вас есть неиспользованное [Concept('writ_of_war', 'разрешение на войну')|E].\n\n#help [Concept('writ_of_war', 'Разрешение на войну')|E] позволяет начать войну против правителей за пределами Морровинда.\n\nУ вас осталось [GetGameTimeDifferenceForDiffDays( actor.MakeScope.VarRemaining( 'has_writ_of_war' ) )], чтобы использовать его."
  action_can_use_writ_of_war_click:0 "#I Щёлкните, чтобы посмотреть#!"
 
  action_open_spellbook:0 "Наложить заклинание"

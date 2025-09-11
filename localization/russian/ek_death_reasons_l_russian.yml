@@ -159,6 +159,8 @@
  death_midden: "[Select_CString(CHARACTER.IsFemale, 'была захвачена', 'был захвачен' )] ужасами под Коллегией Винтерхолда"
  death_skeever: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] после укуса заражённого злокрыса"
  death_skeever_trap: "[Select_CString(CHARACTER.IsFemale, 'умудрилась', 'умудрился' )] погибнуть, угодив в капкан для злокрысов"
+ death_lifeforce_stolen: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от истощения жизненных сил в ходе некромантического ритуала"
+ death_lifeforce_stolen_killer: "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от истощения жизненных сил в ходе некромантического ритуала, проведённого [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'персонажем', '' )]"
 
  # purely historical
  death_orsinium:0 "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] во время осады Орсиниума"

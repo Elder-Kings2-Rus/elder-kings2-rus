@@ -12,7 +12,7 @@
 
  buy_writ_of_war_interaction:0 "Купить разрешение на войну"
  buy_writ_of_war_interaction_desc:0 "[Concept('writ_of_war', 'Разрешение на войну')|E] необходимо для объявления [Concept('war', 'войны')|E] правителям вне [Concept('grand_council', 'Великого совета')|E]."
- buy_writ_of_war_interaction_effect_tooltip:0 "Получить [Concept('writ_of_war', 'разрешение на войну')|E], которое можно использовать против правителей вне [Concept('grand_council', 'Великого совета')|E]."
+ buy_writ_of_war_interaction_effect_tooltip:0 "Получить [Concept('writ_of_war', 'разрешение на войну')|E], которое можно использовать против правителей вне Морровинда."
  buy_writ_of_war_interaction_cost:0 "У вас недостаточно [gold_i], чтобы купить разрешение на войну!"
  writ_of_war_expended_tooltip:0 "Разрешение на войну истекло из-за объявления войны"
 
@@ -28,7 +28,7 @@
  cyrodiilic_subject_interaction_not_cyrodiilic:0 "[culture|E] персонажа [recipient.GetTitledFirstName] принадлежит к #L $heritage_cyrodiilic_name$ому#! [Concept( 'heritage', 'наследию' )|El]"
  cyrodiilic_subject_interaction_not_imperial_legacy:0 "[culture|E] персонажа [recipient.GetTitledFirstName] имеет [Concept( 'tradition', 'традицию' )|El] [GetCultureTradition('tradition_imperial_legacy').GetName|V]"
  cyrodiilic_subject_interaction_no_other_scion:0 "Никакая иная #L [recipient.GetCulture.GetHeritage.GetName|l]ая#! [culture|El] не является имперским отпрыском"
- cyrodiilic_subject_gains_cultural_rights:0 "Каждый #L [recipient.GetCulture.GetCollectiveNoun|l]ий#! [vassal|El] получит [vassal_contract|El] «Защита культурных прав»"
+ cyrodiilic_subject_gains_cultural_rights:0 "Каждый #L [recipient.GetCulture.GetCollectiveNoun|l]ий#! [vassal|El] получит [vassal_contract|El] [GetSubjectContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )]"
 
  imperial_scion_tradition_cultural_acceptance_gain:0 "#L [recipient.GetCulture.GetCollectiveNoun]ая#! [culture|El] получит [EmptyScope.ScriptValue('major_cultural_acceptance_gain')|+0] [Concept( 'cultural_acceptance', 'терпимости культур' )|El] со всеми #L [actor.GetCulture.GetHeritage.GetName|l]ими#! [Concept( 'cultures', 'культурами' )|El]"
  imperial_scion_tradition_cultural_acceptance_loss:0 "#L [recipient.GetCulture.GetName]ая#! [culture|El] потеряет [EmptyScope.ScriptValue('major_cultural_acceptance_loss')|+0] [Concept( 'cultural_acceptance', 'терпимости культур' )|El] со всеми #L [recipient.GetCulture.GetHeritage.GetName|l]ими#! [Concept( 'cultures', 'культурами' )|El]" 
@@ -43,7 +43,7 @@
  actor_cyrodiilic_subject_interaction_not_cyrodiilic:0 "[culture|E] персонажа [actor.GetTitledFirstName] принадлежит к #L $heritage_cyrodiilic_name$ому#! [Concept( 'heritage', 'наследию' )|El]"
  actor_cyrodiilic_subject_interaction_not_imperial_legacy:0 "[culture|E] персонажа [actor.GetTitledFirstName] имеет [Concept( 'tradition', 'традицию' )|El] [GetCultureTradition('tradition_imperial_legacy').GetName|V]"
  actor_cyrodiilic_subject_interaction_no_other_scion:0 "Никакая иная #L [actor.GetCulture.GetHeritage.GetName|l]ая#! [culture|El] не является имперским отпрыском"
- actor_cyrodiilic_subject_gains_cultural_rights:0 "Каждый #L [actor.GetCulture.GetCollectiveNoun|l]ий#! [vassal|El] получит [vassal_contract|El] «Защита культурных прав»"
+ actor_cyrodiilic_subject_gains_cultural_rights:0 "Каждый #L [actor.GetCulture.GetCollectiveNoun|l]ий#! [vassal|El] получит [vassal_contract|El] [GetSubjectContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )]"
 
  imperial_scion_tradition_loss:0 "Дворняжки империи"
  imperial_scion_tradition_gain:0 "Привилегированные подданные"

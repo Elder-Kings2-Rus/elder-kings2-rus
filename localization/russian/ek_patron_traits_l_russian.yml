@@ -680,12 +680,30 @@
  trait_p_rm_the_cyrodiil_desc: "Последователь Ремана, «Сиродила»"
  trait_p_rm_the_cyrodiil_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Ремана, «Сиродила»."
 
- trait_p_rm_worldly_god: "Последователь Ремана, «Бога земли»"
- trait_p_rm_worldly_god_base: "Последователь Ремана, «Бога земли»"
+ trait_p_rm_worldly_god: "Последователь Ремана, «Мирского бога»"
+ trait_p_rm_worldly_god_base: "Последователь Ремана, «Мирского бога»"
  trait_p_rm_worldly_god_null: "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_rm_worldly_god_desc' )]"
- trait_p_rm_worldly_god_desc: "Последователь Ремана, «Бога земли»"
- trait_p_rm_worldly_god_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Ремана, «Бога земли»."
+ trait_p_rm_worldly_god_desc: "Последователь Ремана, «Мирского бога»"
+ trait_p_rm_worldly_god_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] является последователем Ремана, «Мирского бога»."
 
+#Trinimac
+ trait_p_tm_paragon: "Follower of Trinimac, the Paragon"
+ trait_p_tm_paragon_base: "Follower of Trinimac, the Paragon"
+ trait_p_tm_paragon_null: "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tm_paragon_desc' )]"
+ trait_p_tm_paragon_desc:0 "A follower of Trinimac, the Paragon"
+ trait_p_tm_paragon_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Trinimac, the Paragon."
+
+ trait_p_tm_gold_champ: "Follower of Trinimac, the Golden Champion"
+ trait_p_tm_gold_champ_base: "Follower of Trinimac, the Golden Champion"
+ trait_p_tm_gold_champ_null: "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tm_gold_champ_desc' )]"
+ trait_p_tm_gold_champ_desc: "A follower of Trinimac, the Golden Champion"
+ trait_p_tm_gold_champ_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Trinimac, the Golden Champion."
+
+ trait_p_tm_blade_of_courage: "Follower of Trinimac, the Blade of Courage"
+ trait_p_tm_blade_of_courage_base: "Follower of Trinimac, the Blade of Courage"
+ trait_p_tm_blade_of_courage_null: "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tm_blade_of_courage_desc' )]"
+ trait_p_tm_blade_of_courage_desc: "A follower of Trinimac, the Blade of Courage"
+ trait_p_tm_blade_of_courage_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Trinimac, the Blade of Courage."
 
  #Misc
  trait_birthsign:0 "Знак"

@@ -19,3 +19,11 @@
  choose_temple_one_name: "[GetFaithByKey('temple_one').GetAdjectiveNoTooltip]"
  SWITCH_CULT_CYRODIIL_FAITH: "Хвала богам!"
  switch_cult_cyrodiil_decision_confirm: "$SWITCH_CULT_CYRODIIL_FAITH$"
+ 
+ secure_heartlands_decision:0 "Secure the Heartlands"
+ secure_heartlands_decision_desc:0 "To claim the legacy of the Empire, one must first control its heart. If I manage to unite the Heartlands and pacify its nobles, I will be one step closer to being a true [ROOT.Char.GetTitleTierName] of Cyrodiil."
+ secure_heartlands_decision_tooltip:0 "Secure the Heartlands"
+ secure_heartlands_decision_confirm:0 "The Heartlands are ours!"
+ secure_heartlands_decision_vassal_heartlands_positive_opinion:0 "Every direct vassal in the Heartlands has a #P positive#! opinion of you"
+ secure_heartlands_decision_full_control_imperial_isle:0 "Every county in the Imperial Isle must have a [control|E] of 90 or more"
+ heartlands_secured_modifier_tooltip: "Every [de_jure|E] [county|E] in [GetTitleByKey('k_heartlands').GetName] will gain [GetModifier( 'heartlands_secured_modifier' ).GetNameWithTooltip|U] for 15 years"

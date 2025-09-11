@@ -1,0 +1,4 @@
+﻿l_russian:
+
+# EK NOTE: replaced "kumis" with "RegionalAlcoholicDrink"
+ nomad_events.0180.desc: "Еще издалека я слышу, как смеется [rival.GetTitledFirstName|l]. Подойдя ближе, я замечаю, что от [Select_CString(rival.IsFemale, 'нее', 'него')] разит напитком, что зовётся [rival.Custom('RegionalAlcoholicDrink')]. Меня [rival.GetTitledFirstName|l] не видит.\n\n«#EMP Кто#! будет нами править, когда [ROOT.Char.GetTitledFirstNameNoTooltip|l] станет кормом для птиц? [child.GetFirstName]? Да с такими ручками [Select_CString(child.IsFemale, 'она', 'он')] даже иголку не удержит — не то что меч!»\n\n«Нет уж. [Select_CString(child.IsFemale, 'Изнеженная', 'Изнеженный')] [child.GetFirstNameNoTooltip] нам не [ROOT.Char.GetTitleAsNameNoTooltip|l]»."

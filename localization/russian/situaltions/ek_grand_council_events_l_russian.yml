@@ -19,8 +19,8 @@
  grand_council.0002.tt: "[Concept('situation_phase', 'Фаза')|E] изменилась"
  #Writ of war events
  grand_council.1011.opening: "[recipient.Custom2('AppropriateGreeting', ROOT.Char)]"
- grand_council.1010: "После долгих молитв АЛМСИВИ и размышлений я [Select_CString(recipient.IsFemale, 'решила', 'решил' )] удовлетворить вашу просьбу о [Concept('writ_of_war', 'разрешении на войну')|E]."
- grand_council.1011:0 "После долгих молитв АЛМСИВИ и размышлений я [Select_CString(recipient.IsFemale, 'решила', 'решил' )] отклонить вашу просьбу о [Concept('writ_of_war', 'разрешении на войну')|E]."
+ grand_council.1010: "После долгих молитв АЛМСИВИ и размышлений я [Select_CString(recipient.IsFemale, 'решила', 'решил' )] удовлетворить вашу просьбу о разрешении на войну."
+ grand_council.1011:0 "После долгих молитв АЛМСИВИ и размышлений я [Select_CString(recipient.IsFemale, 'решила', 'решил' )] отклонить вашу просьбу о разрешении на войну."
  grand_council.1010.positive: "Да славится [ROOT.Char.GetFaith.HighGodName]!"
  grand_council.1011.negative: "Весьма прискорбно..."
  #Vvardenfell vote

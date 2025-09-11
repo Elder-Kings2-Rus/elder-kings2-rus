@@ -100,6 +100,12 @@
  religious_decision.0101.p_rm_light_of_man: "WIP"
  religious_decision.0101.p_rm_the_cyrodiil: "WIP"
  religious_decision.0101.p_rm_worldly_god: "WIP"
+ religious_decision.0101.p_rm_light_of_man: "WIP"
+ religious_decision.0101.p_rm_the_cyrodiil: "WIP"
+ religious_decision.0101.p_rm_worldly_god: "WIP"
+ religious_decision.0101.p_tm_paragon: "WIP"
+ religious_decision.0101.p_tm_gold_champ: "WIP"
+ religious_decision.0101.p_tm_blade_of_courage: "WIP"
 
 
  cultural_acceptance_event:0 "EK_WIP_PH_1-8-0"
@@ -387,7 +393,15 @@
  _rm_light_of_man: "_rm_light_of_man"
  _rm_the_cyrodiil: "_rm_the_cyrodiil"
  _rm_worldly_god: "_rm_worldly_god"
- 
+ _dibella_nord: "_dibella_nord"
+ _mara_nord: "_mara_nord"
+ _hare: "_hare"
+ _light_of_man: "_light_of_man"
+ _the_cyrodiil: "_the_cyrodiil"
+ _worldly_god: "_worldly_god"
+ _paragon: "_paragon"
+ _gold_champ: "_gold_champ"
+ _blade_of_courage: "_blade_of_courage" 
  
 
  
@@ -499,12 +513,16 @@
  p_vl_azura_nbg.dds:0 "p_vl_azura_nbg.dds"
  p_vl_boethiah_nbg.dds:0 "p_vl_boethiah_nbg.dds"
  p_vl_mephala_nbg.dds:0 "p_vl_mephala_nbg.dds"
+ p_at_moth_nbg.dds: "p_at_moth_nbg.dds"
+ p_at_wolf_nbg.dds: "p_at_wolf_nbg.dds"
+ p_at_hawk_nbg.dds: "p_at_hawk_nbg.dds"
+ 
 
  name_list_jaegi:0 "EK_WIP_PH_1-8-0"
 
- rite_of_passage_decision_lycanthropy_outlawed_tt:0 "EK_WIP_PH_1-8-0"
+ rite_of_passage_decision_lycanthropy_crime_tt:0 "EK_WIP_PH_1-8-0"
  rite_of_passage_decision_vampirism_legal_tt:0 "EK_WIP_PH_1-8-0"
- rite_of_passage_decision_vampirism_outlawed_tt:0 "EK_WIP_PH_1-8-0"
+ rite_of_passage_decision_vampirism_crime_tt:0 "EK_WIP_PH_1-8-0"
  child_extended_life_desc:0 "EK_WIP_PH_1-8-0"
 
  trait_magical_court:0 "EK_WIP_PH_1-8-0"

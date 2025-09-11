@@ -21,7 +21,7 @@
  reveal_necromancy_decision_confirm:0 "Они будут бояться меня."
 
  doctrine_necromancy_accepted_custom_desc:0 "Ваша [Concept('faith', 'конфессия')|E] имеет [Concept('doctrine', 'доктрину')|E] некромантии «[GetFaithDoctrine('doctrine_necromancy_accepted').GetBaseName]»"
- doctrine_necromancy_pragmatic_custom_desc:0 "Ваша [Concept('faith', 'конфессия')|E] имеет [Concept('doctrine', 'доктрину')|E] некромантии [GetFaithDoctrine('doctrine_necromancy_pragmatic').GetBaseName]»"
+ doctrine_necromancy_shunned_custom_desc:0 "Ваша [Concept('faith', 'конфессия')|E] имеет [Concept('doctrine', 'доктрину')|E] некромантии [GetFaithDoctrine('doctrine_necromancy_shunned').GetBaseName]»"
  doctrine_lichdom_accepted_custom_desc:0 "Ваша [Concept('faith', 'конфессия')|E] имеет [Concept('doctrines', 'доктрины')|E] некромантии «[GetFaithDoctrine('tenet_necromancy_worship').GetBaseName]» или «[GetFaithDoctrine('doctrine_pantheon_dragons').GetBaseName]»"
 
  life_extension_decision:0 "Увеличить продолжительность жизни"

@@ -6,3 +6,6 @@
  
  # these are edited to make their god reference make use of HighGodName instead, because HighGodName won't get fucked by our custom Daedra names
  tenet_polyamory_desc:0 "Наша любовь друг к другу должна быть столь же бескорыстной, как любовь [ROOT.Faith.HighGodNamePossessive] к нам. Отринем же дремучую идею об абсолютной власти одного человека над чувствами другого."
+ 
+ # this one is added because vanilla for some reason lists conversion resistance for the parameter but then checks the tenet directly for that effect, meaning other faiths with the same parameter get a wrong tooltip. thanks pdx
+ doctrine_parameter_sanctioned_false_conversion:0 "Заблудшие [characters|El] и [counties|El] иногда возвращаются в эту [Concept( 'faith', 'конфессию' )|El]"

@@ -2,21 +2,21 @@
  mystery_history_loc:0 "Происхождение этого народа окутано тайной"
  #Atlmer
  altmer_history_loc:0 "Происходят из легендарного [Glossary( 'Альдмериса', 'ALDMERIS_GLOSS' )] из [Glossary( 'Эры рассвета', 'DAWN_ERA_GLOSS' )]"
- direnni_history_loc:0 "Потомки #L [CULTURE.GetCollectiveNoun|l]их#! эльфов, заселивших Балфиеру в [Concept( 'compendium_first_era', 'Первой эре' )|E]"
- corelanya_history_loc:0 "Произошли от #L [CULTURE.GetCollectiveNoun|l]их#! инакомыслящих, ушедших в Хаммерфелл в #LORE [Concept('compendium_first_era', 'Первой эре')|E]#!" #NOTE: Dissidents = daedra worshippers (too long for culture desc)
+ direnni_history_loc:0 "Потомки #L [CULTURE.GetCollectiveNoun|l]их#! эльфов, заселивших Балфиеру в [Glossary( 'Первой эре', 'FIRST_ERA_GLOSS' )]"
+ corelanya_history_loc:0 "Произошли от #L [CULTURE.GetCollectiveNoun|l]их#! инакомыслящих, ушедших в Хаммерфелл в [Glossary( 'Первой эре', 'FIRST_ERA_GLOSS' )]" #NOTE: Dissidents = daedra worshippers (too long for culture desc)
  #Khajiit
- pellitinian_history_loc:0 "Возникли в Южном Эльсвейре после распада [Concept( 'compendium_sixteen_kingdoms', 'Шестнадцати королевств' )|E]"
- anequinan_history_loc:0 "Возникли в Северном Эльсвейре после распада [Concept( 'compendium_sixteen_kingdoms', 'Шестнадцати королевств' )|E]"
+ pellitinian_history_loc:0 "Возникли в Южном Эльсвейре после распада [Glossary( 'Шестнадцати королевств', 'SIXTEEN_K_GLOSS' )]"
+ anequinan_history_loc:0 "Возникли в Северном Эльсвейре после распада [Glossary( 'Шестнадцати королевств', 'SIXTEEN_K_GLOSS' )]"
  malapiit_history_loc:0 "Произошли от древних кошачьих демонов Нибена"
  baandari_history_loc: "Происходят от бродячего приплода Баан-Дара"
  #Falmer
  betrayal_history_loc:0 "Произошли от #L [CULTURE.GetCollectiveNoun|l]ой#! культуры за века после предательства двемеров"
  #Akaviri
- ilniviri_history_loc:0 "Потомки захватчиков-#L [CULTURE.GetName|l]#!, что переняли #L [TARGET_CULTURE.GetCollectiveNoun|l]ие#! обычаи в конце [Concept( 'compendium_first_era', 'Первой эры' )|E]"
+ ilniviri_history_loc:0 "Потомки захватчиков-#L [CULTURE.GetName|l]#!, что переняли имперские обычаи"
  rimmen_history_loc:0 "Произошли от #L [CULTURE.GetCollectiveNoun|l]их#! изгнанников, спасавшихся от преследований в Сиродиле"
  #Nord
  skyrim_history_loc:0 "Произошли от #L [CULTURE.GetCollectiveNoun|l]их#! поселенцев в [Glossary( 'Меретической эре', 'MERETHIC_GLOSS' )]"
- cyro_nord_history_loc:0 "Поселенцы-норды [Concept( 'compendium_first_era', 'Первой эры' )|E], что смешались с #L [TARGET_CULTURE.GetCollectiveNoun|l]им#! народом"
+ cyro_nord_history_loc:0 "Поселенцы-норды [Glossary( 'Первой эры', 'FIRST_ERA_GLOSS' )], что смешались с #L [TARGET_CULTURE.GetCollectiveNoun|l]им#! народом"
  skaal_history_loc:0 "Отделились от своих материковых собратьев после долгих лет изоляции"
  #Breton
  breton_history_loc:0 "Потомки древних #L [CULTURE.GetCollectiveNoun|l]их#! друидов"
@@ -24,7 +24,8 @@
  chimer_history_loc:0 "Последователи пророка Велота, отправившиеся за ним в изгнание"
  cantemiric_history_loc:0 "Последователи оракула Кантемир, отправившиеся за ней в Чернотопье"
  #Imperial
- imperial_history_loc: "Произошли от #L [GetCulturePillar('heritage_nedic_central').GetName|l]их#! племён под #L [TARGET_CULTURE.GetCollectiveNoun|l]им#! правлением"
+ heartlander_history_loc: "Formed from [CULTURE.GetName] under [TARGET_CULTURE.GetName] influence"
+ nibenese_history_loc: "Произошли от #L [GetCulturePillar('heritage_nedic_central').GetName|l]их#! племён под #L [TARGET_CULTURE.GetCollectiveNoun|l]им#! правлением"
  colovian_history_loc: "Произошли от #L [GetCulturePillar('heritage_nedic_central').GetName|l]их#! племён под нордским влиянием"
  strident_history_loc:0 "#L [CULTURE.GetCollectiveNoun]ий#! народ Золотого Берега, на который повлияли #L [TARGET_CULTURE.GetName|l]#!" 
  blackwood_history_loc:0 "Народ, сохранивший старые #L [CULTURE.GetCollectiveNoun|l]ие#! обычаи"
@@ -66,7 +67,7 @@
 #Imga
  imga_history_loc:0 "Они стары почти как сам Нирн, но никто не знает их истинного происхождения"
 #Lilmothiit
- lilmothiit_history_loc:0 "Обрели форму благодаря богу-лису #LORE [Concept('compendium_tseol', 'Цеолу')|E]#!"
+ lilmothiit_history_loc:0 "Обрели форму благодаря богу-лису Цеолу"
  #Dwemer
  amz_vtharden_history_loc:0 "Остались в Морровинде, поддержав Думака, короля гномов"
  amz_kagren_history_loc:0 "Последовали за кланом Руркен, поселившись в горах Драконьих Зубов"
