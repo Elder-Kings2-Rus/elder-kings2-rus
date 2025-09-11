@@ -21,7 +21,7 @@
  form_rivenspire_kingdom_decision_effects_de_jure_tt:0 "Все герцогства в пределах [Concept( 'region', 'региона' )|E] Ривенспайра становятся [de_jure|El] вассалами королевства Ривенспайр"
  # Wrothgarian Mountains
  form_greater_wrothgar_kingdom_decision:0 "Сформировать королевство Великого Ротгара"
- form_greater_wrothgar_kingdom_decision_desc:0 "На разрозненные земли Большого Ротгара на протяжении многих поколений претендовали бретонцы, орки и ричмены. Пришло время решить закрыть этот вопрос раз и навсегда, и объявить себя [Select_CString(ROOT.Char.IsFemale, 'единственной правительницей', 'единственным правителем' )] этого региона!"
+ form_greater_wrothgar_kingdom_decision_desc:0 "На разрозненные земли Большого Ротгара на протяжении многих поколений претендовали бретонцы, орки и предельцы. Пришло время решить закрыть этот вопрос раз и навсегда, и объявить себя [Select_CString(ROOT.Char.IsFemale, 'единственной правительницей', 'единственным правителем' )] этого региона!"
  form_greater_wrothgar_kingdom_decision_tooltip:0 "Вы создадите новое [Concept( 'kingdom', 'королевство' )|E] в Великом Ротгаре"
  form_greater_wrothgar_kingdom_decision_confirm:0 "Да здравствует [ROOT.Char.GetLadyLord|U] Великого Ротгара!"
  form_greater_wrothgar_kingdom_decision_effects_de_jure_tt:0 "Все герцогства в пределах [Concept( 'region', 'региона' )|E] Великого Ротгара становятся [de_jure|El] вассалами королевства Великий Ротгар"

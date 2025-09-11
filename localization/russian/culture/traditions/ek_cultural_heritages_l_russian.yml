@@ -3,7 +3,7 @@
  #heritage_aldmeri_name: "Aldmeri"
  heritage_aldmeri_name: "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), 'Альдмерск', Localize('no') )]"
  heritage_aldmeri_collective_noun:0 "Альдмеры"
- heritage_aldmeri_desc: "Высокие и светлокожие высшие эльфы родом с островов Саммерсет. Они вечно оплакивают свой утраченный [Glossary( 'Альдмерис', 'ALDMERIS_GLOSS' )] и считают себя прямыми потомками богов, создавших этот мир, стремясь чтить их каждым своим действием. Подобная фанатичная преданность предкам привела к формированию очень жёстко регламентированного общества, в котором каждый альтмер считается отпрыском божественных сущностей. Однако тем, кто не принадлежит к их роду, повезло куда меньше, и их открыто называют «низшими расами»."
+ heritage_aldmeri_desc: "Высокие и светлокожие высокие эльфы родом с островов Саммерсет. Они вечно оплакивают свой утраченный [Glossary( 'Альдмерис', 'ALDMERIS_GLOSS' )] и считают себя прямыми потомками богов, создавших этот мир, стремясь чтить их каждым своим действием. Подобная фанатичная преданность предкам привела к формированию очень жёстко регламентированного общества, в котором каждый альтмер считается отпрыском божественных сущностей. Однако тем, кто не принадлежит к их роду, повезло куда меньше, и их открыто называют «низшими расами»."
 
  #heritage_ayleid_name:0 "Ayleid"
  heritage_ayleid_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ) ), 'Айлейдск', Localize('no') )]"
