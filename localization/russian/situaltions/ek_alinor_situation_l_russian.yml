@@ -24,9 +24,9 @@
  situation_alinor_military_effects: "Влияние на боевые действия"
  situation_alinor_military_effects_concept: "[Concept('war', 'Война')|E]"
  situation_parameter_unable_to_declare_war_alinor: "Нельзя объявить [Concept('war', 'войну')|E] [Concept('rulers', 'правителям')|E] вне региона [GetGeographicalRegion('mundus_tamriel_summerset_isles').GetName]"
- situation_parameter_unable_to_demand_tribute_alinor: "Unable to demand [rulers|E] outside of [GetGeographicalRegion('mundus_tamriel_summerset_isles').GetName] as [tributaries|E]"
- situation_parameter_unable_to_start_dissolution_factions_alinor: "Unable to start [dissolution_factions|E] against [rulers|E] who are part of $alinor_isolationism_participant_group_ceremoniarchy_rulers$ [situation_participant_group|E]"
- situation_parameter_unable_to_start_independence_factions_alinor: "Unable to start [independence_factions|E] against [rulers|E] who are part of $alinor_isolationism_participant_group_ceremoniarchy_rulers$ [situation_participant_group|E]"
+ situation_parameter_unable_to_demand_tribute_alinor: "Нельзя превращать [Concept('rulers', 'правителей')|E] вне региона [GetGeographicalRegion('mundus_tamriel_summerset_isles').GetName] в [Concept('tributaries', 'данников')|E]"
+ situation_parameter_unable_to_start_dissolution_factions_alinor: "Нельзя организовывать [dissolution_factions|El] против [Concept('rulers', 'правителей')|E], которые являются частью [Concept('situation_participant_group', 'группы участников')|E] $alinor_isolationism_participant_group_ceremoniarchy_rulers$"
+ situation_parameter_unable_to_start_independence_factions_alinor: "Нельзя организовывать [independence_factions|El] против [Concept('rulers', 'правителей')|E], которые являются частью [Concept('situation_participant_group', 'группы участников')|E] $alinor_isolationism_participant_group_ceremoniarchy_rulers$"
  #Diplomacy
  situation_alinor_diplomacy_effects: "Влияние на дипломатию"
  situation_alinor_diplomacy_effects_concept: "[diplomacy|E]"
@@ -57,8 +57,8 @@
  alinor_isolationism_outlander_title_revocation: "[recipient.GetShortUIName|U] не [Select_CString( CHARACTER.IsLocalPlayer, 'следуете', 'следует')] [Concept('ceremoniarchy', 'церемониархии')|E], что позволяет [Select_CString( actor.IsLocalPlayer, 'вам', actor.GetHerHim)] отозвать [Select_CString( recipient.IsLocalPlayer, 'ваши', recipient.GetHerHis )] [Concept('titles', 'титулы')|E] без роста [Concept('tyrant', 'тирании')|E] из-за текущей [Concept('situation_phase', 'фазы')|E] [Concept('alinor_isolationism', 'изоляционизма Алинора')|E]"
  alinor_isolationism_outlander_vassal_revocation: "[recipient.GetShortUIName|U] не [Select_CString( CHARACTER.IsLocalPlayer, 'следуете', 'следует')] [Concept('ceremoniarchy', 'церемониархии')|E], что позволяет [Select_CString( actor.IsLocalPlayer, 'вам', actor.GetHerHim)] отозвать [Select_CString( recipient.IsLocalPlayer, 'ваших', recipient.GetHerHis )] [Concept('vassals', 'вассалов')|E] без роста [Concept('tyrant', 'тирании')|E] из-за текущей [Concept('situation_phase', 'фазы')|E] [Concept('alinor_isolationism', 'изоляционизма Алинора')|E]"
  alinor_isolationism_outlander_imprisonment: "[recipient.GetShortUIName|U] не [Select_CString( CHARACTER.IsLocalPlayer, 'следуете', 'следует')] [Concept('ceremoniarchy', 'церемониархии')|E], что позволяет [Select_CString( actor.IsLocalPlayer, 'вам', actor.GetHerHim)] заключить [Select_CString( recipient.IsLocalPlayer, 'вас', recipient.GetHerHis )] в темницу без роста [Concept('tyrant', 'тирании')|E] из-за текущей [Concept('situation_phase', 'фазы')|E] [Concept('alinor_isolationism', 'изоляционизма Алинора')|E]"
- unable_to_demand_tribute_alinor_tt: "Cannot demand [tributaries|E] outside of Alinor due to the current [alinor_isolationism|E] [situation_phase|E]"
- cannot_become_tributary_alinor_tt: "Cannot become [tributary|E] of this [ruler|E] due to the current [alinor_isolationism|E] [situation_phase|E]"
+ unable_to_demand_tribute_alinor_tt: "Нельзя требовать [Concept('tributaries', 'дань')|E] за пределами Алинора из-за текущей [Concept('situation_phase', 'фазы')|E] [Concept('alinor_isolationism', 'изоляционизма Алинора')|E]"
+ cannot_become_tributary_alinor_tt: "Нельзя стать [Concept('tributaries', 'данником')|E] этого [Concept('ruler', 'правителя')|E] из-за текущей [Concept('situation_phase', 'фазы')|E] [Concept('alinor_isolationism', 'изоляционизма Алинора')|E]"
  #Debug
  debug_change_alinor: "Изменить #bold фазу изоляционизма Алинора#!"
  debug_change_alinor_open: "Открытость"

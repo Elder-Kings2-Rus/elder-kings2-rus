@@ -68,8 +68,8 @@
  arcana_tradition_pale_shamans_3:0 "[GetTrait('education_intrigue_3').GetName(ROOT.Char)] (Бледные шаманы)"
  arcana_tradition_pale_shamans_4:0 "[GetTrait('education_intrigue_4').GetName(ROOT.Char)] (Бледные шаманы)"
  arcana_tradition_pale_shamans_5:0 "[GetTrait('education_intrigue_5').GetName(ROOT.Char)] (Бледные шаманы)"
- culture_parameter_imperial_battlemages_trait_bonuses: "[GetTrait('diligent').GetName( GetNullCharacter )], [GetTrait('education_magic_3').GetName( GetNullCharacter )], [GetTrait('education_magic_4').GetName( GetNullCharacter )], and [GetTrait('education_magic_5').GetName( GetNullCharacter )] [characters|E] gain additional monthly [influence|E]"
- culture_parameter_imperial_battlemages_trait_maluses: "[GetTrait( 'lazy' ).GetName( GetNullCharacter )], [GetTrait( 'arcana_bad_1' ).GetName( GetNullCharacter )], [GetTrait( 'arcana_bad_2' ).GetName( GetNullCharacter )], [GetTrait( 'arcana_bad_3' ).GetName( GetNullCharacter )] and [GetTrait( 'disrupted' ).GetName( GetNullCharacter )] [characters|E] have reduced monthly [influence|E]"
+ culture_parameter_imperial_battlemages_trait_bonuses: "[characters|E] со свойствами «[GetTrait('diligent').GetName( GetNullCharacter )]», «[GetTrait('education_magic_3').GetName( GetNullCharacter )]», «[GetTrait('education_magic_4').GetName( GetNullCharacter )]» и «[GetTrait('education_magic_5').GetName( GetNullCharacter )]» получают дополнительный ежемесячный прирост [Concept('influence', 'влияния')|E]"
+ culture_parameter_imperial_battlemages_trait_maluses: "[characters|E] со свойствами «[GetTrait( 'lazy' ).GetName( GetNullCharacter )]», «[GetTrait( 'arcana_bad_1' ).GetName( GetNullCharacter )]», «[GetTrait( 'arcana_bad_2' ).GetName( GetNullCharacter )]», «[GetTrait( 'arcana_bad_3' ).GetName( GetNullCharacter )]» и «[GetTrait( 'disrupted' ).GetName( GetNullCharacter )]» получают сниженный ежемесячный прирост [Concept('influence', 'влияния')|E]"
  
 ## TOURNAMENT PARAMETERS
  culture_parameter_can_host_arcane_clash_contests:0 "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'can_host_arcane_clash_contests_custom_effect_description_TOTO_DLC', 'can_host_arcane_clash_contests_custom_effect_description_NO_TOTO_DLC' )]"
@@ -195,8 +195,8 @@
  culture_parameter_tribal_holding_fort_level_in_valenwood_bonus:0 "[fort_level|E] для [Concept( 'tribes', 'племен' )|E] в Валенвуде: [fort_level_i]#P +[EmptyScope.ScriptValue('tribal_holding_fort_level_in_valenwood_bonus_value')|0]#!"
  culture_parameter_castle_holding_fort_level_in_valenwood_bonus:0 "[fort_level|E] для [Concept( 'castles', 'замков' )|E] в Валенвуде: [fort_level_i]#P +[EmptyScope.ScriptValue('castle_holding_fort_level_in_valenwood_bonus_value')|0]#!"
  culture_parameter_better_military_academies_buildings: "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_military_academy_01$#! предоставляет дополнительные бонусы [Concept('counties', 'графствам')|E] этой [Concept('culture', 'культуры')|E]"
- culture_parameter_better_leisure_palace_buildings: "The #V $building_type_leisure_palace_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]"
- culture_parameter_can_build_farm_estates_in_plains: "The #V $building_type_farm_estates_01$#! line of [buildings|E] can be constructed in #V Plains#! [terrain|E]"
+ culture_parameter_better_leisure_palace_buildings: "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_leisure_palace_01$#! предоставляет дополнительные бонусы [Concept('counties', 'графствам')|E] этой [Concept('culture', 'культуры')|E]"
+ culture_parameter_can_build_farm_estates_in_plains: "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_farm_estates_01$#! может быть построена во владениях с [Concept('terrain', 'типом местности')|E] #V равнина#!"
 
 ## TRAITS PARAMETERS
  culture_parameter_honorable_traits_bonuses:0 "[traits|E] [GetTrait('honest').GetName( GetNullCharacter )] и [GetTrait('arrogant').GetName( GetNullCharacter )] дают дополнительные бонусы"
@@ -272,8 +272,8 @@
  culture_parameter_mystic_trait_gives_martial_bonuses: "Линейка [Concept('traits', 'свойств')|E] «[GetTrait('lifestyle_mystic').GetName( GetNullCharacter )]» предоставляет дополнительные бонусы к [Concept('martial', 'военному делу')|E]"
  culture_parameter_mystic_trait_gives_diplomacy_bonuses: "Линейка [Concept('traits', 'свойств')|E] «[GetTrait('lifestyle_mystic').GetName( GetNullCharacter )]» предоставляет дополнительные бонусы к [Concept('diplomacy', 'дипломатии')|E]"
  culture_parameter_well_educated_leaders_more_respected: "[Concept('rulers', 'Правители')|E] с хорошими [Concept('education_traits', 'свойствами образования')|E], например «[GetTrait('education_martial_4').GetName( GetNullCharacter )]» или «[GetTrait('education_diplomacy_4').GetName( GetNullCharacter )]», вызывают #P восхищение#!"
- culture_parameter_bonuses_from_profligate_trait: "Characters with the [GetTrait('profligate').GetName( GetNullCharacter )] [trait|E] are seen as [prestige_i][prestigious|E]"
- culture_parameter_profligate_more_common: "[GetTrait('profligate').GetName( GetNullCharacter )] is more common"
+ culture_parameter_bonuses_from_profligate_trait: "Персонажи со [Concept('trait', 'свойством')|E] «[GetTrait('profligate').GetName( GetNullCharacter )]» считаются [prestige_i][Concept('prestigious', 'престижными')|E]"
+ culture_parameter_profligate_more_common: "Свойство «[GetTrait('profligate').GetName( GetNullCharacter )]» встречается чаще"
 
  ##CHILD PERSONALITY AND EDUCATION PARAMETERS
  culture_parameter_curious_trait_more_common:0 "[children|E] с большей вероятностью получат [Concept('trait', 'свойство')|E] «[GetTrait('curious').GetName( GetNullCharacter )]»"
@@ -473,10 +473,10 @@
  tradition_cyrodiilic_subject_desc:0 "Благодаря тесным связям с имперской администрацией, эта культура приветствует имперскую культуру и законы, а в обмен получает благосклонность и защиту со стороны своих имперских владык."
  tradition_colovian_core_name: "Короли запада"
  tradition_colovian_core_desc: "Наши предки давным-давно завоевали запад, но мы храним их дух пограничья, всегда готовые защищать свою землю и следовать за теми, кто достоин нашего уважения."
- tradition_heartlander_core_name: "But One City"
- tradition_heartlander_core_desc: "#italic “There is but one city in the Imperial Province, but one city in Tamriel, but one city in the World; that, my brothers, is the city of the Cyrodiils.”#!"
- tradition_imperial_battlemages_name: "Battlemage Aristocracy"
- tradition_imperial_battlemages_desc: "Our people were freed from slavery by battlemages, who learned the gift of magic from Shezarr. Since then we have been led by those most proficient at the arcane."
+ tradition_heartlander_core_name: "Лишь один город"
+ tradition_heartlander_core_desc: "#italic «Есть лишь один город в Имперской провинции, один город в Тамриэле, один город в мире; и, братья мои, это – город сиродильцев.»#!"
+ tradition_imperial_battlemages_name: "Боевые маги-аристократы"
+ tradition_imperial_battlemages_desc: "Наш народ был освобождён от рабства боевыми магами, постигшими дар магии от Шезарра. С тех пор нами правят те, кто наиболее искусен в чародейском искусстве."
  tradition_ut_nibenu_folklore_name:0 "Фольклор ут-нибену"
  tradition_ut_nibenu_folklore_desc:0 "Фольклор – жизненная сила этой культуры. Древние истории пережили рабство, господство империи, узы вассалитета и многое другое. Они живут в натянутой тетиве, легендах и бурной речной воде."
  tradition_imperial_legacy_name:0 "Имперское наследие"
