@@ -24,7 +24,7 @@
  chimer_history_loc:0 "Последователи пророка Велота, отправившиеся за ним в изгнание"
  cantemiric_history_loc:0 "Последователи оракула Кантемир, отправившиеся за ней в Чернотопье"
  #Imperial
- heartlander_history_loc: "Formed from [CULTURE.GetName] under [TARGET_CULTURE.GetName] influence"
+ heartlander_history_loc: "Произошли от #L [CULTURE.GetCollectiveNoun|l]их#! племён под #L [TARGET_CULTURE.GetCollectiveNoun|l]им#! влиянием"
  nibenese_history_loc: "Произошли от #L [GetCulturePillar('heritage_nedic_central').GetName|l]их#! племён под #L [TARGET_CULTURE.GetCollectiveNoun|l]им#! правлением"
  colovian_history_loc: "Произошли от #L [GetCulturePillar('heritage_nedic_central').GetName|l]их#! племён под нордским влиянием"
  strident_history_loc:0 "#L [CULTURE.GetCollectiveNoun]ий#! народ Золотого Берега, на который повлияли #L [TARGET_CULTURE.GetName|l]#!" 

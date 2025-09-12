@@ -122,17 +122,17 @@
 
  consume_interaction:0 "Поглотить"
  consume_interaction_desc:0 "Поглотить персонажа [recipient.GetShortUINameNoTooltip] в попытке усилить [Concept( 'tsaescence', 'цаэсценцию' )|E]. Однако в процессе вы можете изменить свои [Concept( 'personality_traits', 'свойства личности' )|E] и [skills|El]."
- consume_interaction_lifespan_trigger:0 "You have a [trait|E] that increases your [gc_lifespan|E]. This cannot stack with [tsaescence|E] without breaking age calculations."
+ consume_interaction_lifespan_trigger:0 "У вас есть [trait|El], увеличивающее вашу [Concept('gc_lifespan', 'продолжительность жизни')|E]. Оно не может сочетаться с [Concept( 'tsaescence', 'цаэсценцией' )|E], поскольку это нарушает расчёты возраста."
 
  thralldom_interaction:0 "Превратить в трэлла"
  thralldom_interaction_desc:0 "Вы убьёте персонажа [recipient.GetShortUINameNoTooltip], чтобы превратить [recipient.GetHerHis] труп в подчиняющегося вам раба."
  get_undead_thrall:0 "Вы превратите труп персонажа [recipient.GetShortUINameNoTooltip] в бездумного, но преданного раба-#TOOLTIP:GAME_TRAIT,undead_character,[GetNullCharacter] #L нежить#!#!."
 
- steal_lifeforce_interaction:0 "Steal Lifeforce"
- steal_lifeforce_interaction_desc:0 "You will drain [recipient.GetShortUINameNoTooltip]'s lifeforce to restore your decayed undead body."
- steal_lifeforce_interaction_no_decay:0 "Your body is suffering no undead decay."
- steal_lifeforce_interaction_too_low_health:0 "[recipient.GetShortUINameNoTooltip]'s [health|E] is too low to be of any use!"
- steal_lifeforce_interaction_effect_tooltip:0 "Reverse the undead decaying of your body based on [recipient.GetShortUINameNoTooltip]'s [health|E]"
+ steal_lifeforce_interaction:0 "Похитить жизненную силу"
+ steal_lifeforce_interaction_desc:0 "Вы истощите жизненную силу персонажа [recipient.GetShortUINameNoTooltip], чтобы восстановить своё разлагающееся неживое тело."
+ steal_lifeforce_interaction_no_decay:0 "Ваше тело не страдает от посмертного разложения."
+ steal_lifeforce_interaction_too_low_health:0 "Уровень [Concept( 'health', 'здоровья' )|E] персонажа [recipient.GetShortUINameNoTooltip] слишком низок, чтобы принести пользу!"
+ steal_lifeforce_interaction_effect_tooltip:0 "Этот обратит вспять разложение вашего тела. Изменение зависит от уровня [Concept( 'health', 'здоровья' )|E] персонажа [recipient.GetShortUINameNoTooltip]"
  
  skull_corruption_interaction:0 "Использовать Череп Порчи"
  skull_corruption_desc:0 "Используйте Череп Порчи на персонаже [recipient.GetShortUINameNoTooltip], чтобы заставить [recipient.GetHerHis] сражаться с двойником!"
