@@ -270,4 +270,6 @@
  god_malada_name:0 "Малада"
  god_malada_name_possessive:0 "Малады"
  modifier_spell_restless_dead:0 "Беспокойные мертвецы"
+ ek_ymis_events.0003.a.succes:0 "[old_orc.GetFirstName] сменил свою веру и остался при вашем дворе." # tt_succes -> succes
+ ek_ymis_events.0003.a.failure:0 "[old_orc.GetFirstName] не был убеждён и решил уйти." # tt_failure -> failure
  
