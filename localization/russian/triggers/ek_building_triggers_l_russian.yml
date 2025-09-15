@@ -1,7 +1,5 @@
 ﻿l_russian:
  ### Triggers
- county_opinion_must_be_positive:0 "[county_opinion|E] должно быть положительным ([autocracy|E] с #V [GetPlayer.Custom('GetCrownAuthority0')]#!)"
- county_opinion_must_be_high_enough:0 "[county_opinion|E] должно быть выше #V -10#! ([autocracy|E] с #V [GetPlayer.Custom('GetCrownAuthority1')]#!)"
  county_must_have_temple_holding:0 "Как минимум одна провинция в пределах графства должна иметь [temple_holding|El]"
  orphanage_already_present_trigger_desc:0 "В этом [Concept('county', 'графстве')|E] уже есть сиротский приют."
  has_pirate_government:0 "Владелец должен иметь пиратскую [Concept('government_form', 'форму правления')|E]" 
@@ -23,7 +21,7 @@
  holy_site_or_moon_worship:0 "[Concept('faith', 'Конфессия')|E] владельца должна считать это [Concept('holy_site', 'священным местом')|E] или иметь догмат [GetFaithDoctrine('tenet_moon_worship').GetBaseName]"
  holy_site_or_zenithar:0 "[Concept('faith', 'Конфессия')|E] владельца должна считать это [Concept('holy_site', 'священным местом')|E], иметь Зенитара, З'ена, Зета или Культ гильдий в своём [Concept('pantheon', 'пантеоне')|E] или являться Сиродильским культом."
  holy_site_or_arkay:0 "[Concept('faith', 'Конфессия')|E] владельца должна считать это [Concept('holy_site', 'священным местом')|E], иметь Аркея, Ту'вакку, Арк'ея или Оркея в своём [Concept('pantheon', 'пантеоне')|E] или являться Сиродильским культом."
- holy_site_or_khajiiti:0 "[Concept('faith', 'Конфессия')|E] владельца должна считать это [Concept('holy_site', 'священным местом')|E] или иметь каджитский пантеон или [Concept('pantheon', 'пантеон')|E] Риддл'Тар"
+ holy_site_or_khajiiti:0 "[Concept('faith', 'Конфессия')|E] владельца должна считать это [Concept('holy_site', 'священным местом')|E] или иметь каджитский пантеон или [Concept('pantheon', 'пантеон')|E] «Риддл'Тар»"
  holy_site_already_present_trigger_desc:0 "В этом [Concept('county', 'графстве')|E] не должно быть [Concept('special_building', 'особой постройки')|E] [Concept('holy_site', 'священного места')|E]. [Concept('decision', 'Решение')|E] #V «Переназначить священное место»#! может превратить [Concept('special_building', 'особую постройку')|E] в подходящую для вашей конфессии!"
  holy_site_or_azura:0 "[faith|E] владельца должна считать это [Concept('holy_site', 'священным местом')|E] или иметь Азуру в своём [Concept('pantheon', 'пантеоне')|E]"
  holy_site_or_tsaesci:0 "[faith|E] владельца должна считать это [Concept('holy_site', 'священным местом')|E] или владелец должен принадлежать к #V $heritage_tsaesci_name$ому#! [Concept('heritage', 'наследию')|E]"
@@ -33,8 +31,8 @@
  is_upgraded_over_time:0 "Это [building|El] будет расти со временем и не может быть улучшено обычными способами"
  has_reached_last_stage:0 "Это [building|El] достигло своей последней стадии и больше не будет расти."
  # Innovations
- innovation_war_magic_replacement_trigger_desc:0 "Имеет [Concept('innovation', 'инновацию')|E], которая эквивалента $innovation_war_magic$"
- innovation_magical_studies_replacement_trigger_desc:0 "Имеет [Concept('innovation', 'инновацию')|E], которая эквивалента $innovation_magical_studies$"
+ innovation_war_magic_replacement_trigger_desc:0 "Имеет [Concept('innovation', 'инновацию')|E], которая эквивалентна $innovation_war_magic$"
+ innovation_magical_studies_replacement_trigger_desc:0 "Имеет [Concept('innovation', 'инновацию')|E], которая эквивалентна $innovation_magical_studies$"
  # Funeral Doctrines
  burial_funeral_building_trigger_desc:0 "Конфессия владельца должна иметь [Concept( 'doctrine', 'доктрину' )|E] погребальных традиций, которая использует кладбища."
  green_pact_funeral_building_trigger_desc:0 "[doctrine|E] похорон в конфессии владельца – $doctrine_funeral_green_pact_name$."

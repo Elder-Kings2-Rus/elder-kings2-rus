@@ -1,12 +1,6 @@
 ﻿l_russian:
- crown_authority_0_hierocracy:0 "Дуалистический совет"
- crown_authority_0_default:0 "Автономные вассалы"
- crown_authority_1_hierocracy:0 "Слабый иерократический совет"
- crown_authority_1_default:0 "Ограниченная власть короны"
- crown_authority_2_hierocracy:0 "Сильный иерократический совет"
- crown_authority_2_default:0 "Высшая коронная власть"
- crown_authority_3_hierocracy:0 "Абсолютная иерократия"
- crown_authority_3_default:0 "Абсолютная власть короны"
+ crown_authority_0_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 Может создавать [Concept('tributaries', 'данников')|E]#!"
+ tribal_authority_0_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 Может создавать [Concept('tributaries', 'данников')|E]#!"
 
  religious_tolerance_law: "Религиозная терпимость"
  religious_tolerance_law_singular: "$religious_tolerance_law$"

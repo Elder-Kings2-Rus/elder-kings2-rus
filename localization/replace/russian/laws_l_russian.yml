@@ -11,6 +11,9 @@
  partition_succession_law_effects:1 "\n#V $partition_succession_law$ предполагает, что при [Concept( 'succession', 'наследовании' )] ваши [titles|l] будут равно поделены между вашими детьми, но старший ребёнок получит небольшое преимущество.#!\n\n#weak $partition_base_desc$#!"
  partition_base_desc:2 "#weak При наследовании все [Concept( 'titles', 'титулы' )|E], которыми владел покойный [Concept( 'ruler', 'правитель' )|E], поделят между собой [Concept( 'eligible_children', 'привилегированные дети' )|E], при этом [Concept( 'player_heir', 'наследнику-игроку' )|E] всегда достаются [Concept( 'primary_title', 'первый титул' )|E], [Concept( 'realm_capital', 'столица державы' )|E] и все соответствующие [Concept( 'de_jure', 'де-юре' )|E] титулы. \n\nМладшие дети получат титулы, начиная с равных по [Concept( 'rank', 'рангу' )|E] первому, а если таковых нет, то титулы более низкого уровня. Ваши наследники-игроки могут получать до срока только те титулы, которые перешли бы им по наследству.\n#!"
  
+ 
+ imperial_bureaucracy_0_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 [Concept('titles', 'Титулы')|E] вассалов не могут быть унаследованы персонажами за пределами [Concept('realm', 'державы')|E]#!\n$EFFECT_LIST_BULLET$Может создавать [Concept('tributaries', 'данников')|E]#!" #EK EDIT: added tributaries
+  
   crown_authority_0_effects_all_governments:0 ""
   crown_authority_1_effects_all_governments:0 ""
   crown_authority_2_effects_all_governments:0 ""
