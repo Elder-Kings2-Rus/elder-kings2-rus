@@ -281,19 +281,19 @@
  race_nord_4_name:0 "Норд IV"
  race_nord_4:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_4_name'), 'no' )]"
 
- race_nord_cyronord_1_name:0 "Сиро-Норд I"
+ race_nord_cyronord_1_name:0 "Сиро-норд I"
  race_nord_cyronord_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_cyronord_1_name'), 'no' )]"
 
- race_nord_cyronord_2_name:0 "Сиро-Норд II"
+ race_nord_cyronord_2_name:0 "Сиро-норд II"
  race_nord_cyronord_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_cyronord_2_name'), 'no' )]"
 
- race_nord_cyronord_3_name:0 "Сиро-Норд III"
+ race_nord_cyronord_3_name:0 "Сиро-норд III"
  race_nord_cyronord_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_cyronord_3_name'), 'no' )]"
 
- race_nord_cyronord_4_name:0 "Сиро-Норд IV"
+ race_nord_cyronord_4_name:0 "Сиро-норд IV"
  race_nord_cyronord_4:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_cyronord_4_name'), 'no' )]"
 
- race_nord_cyronord_5_name:0 "Сиро-Норд V"
+ race_nord_cyronord_5_name:0 "Сиро-норд V"
  race_nord_cyronord_5:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nord_cyronord_5_name'), 'no' )]"
 
  
