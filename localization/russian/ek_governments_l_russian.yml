@@ -70,8 +70,8 @@
  autocracy_vassal: "$autocracy_government$"
  autocracy_vassal_desc: "$game_concept_autocracy_desc$"
 
- vassal_revocation_tyranny_effect_low_ca_tyranny:0 "#N Ваша [Concept('tyranny', 'тирания')|E] возрастает из-за низкого [Concept('crown_authority', 'авторитета короны')|E]. Повысьте его до уровня #V [GetPlayer.Custom('GetCrownAuthority0')]#!, чтобы избежать дальнейшего роста тирании.#!"
- revocation_tyranny_effect_low_ca_tyranny:0 "#N Ваша [Concept('tyranny', 'тирания')|E] возрастает из-за низкого [Concept('crown_authority', 'авторитета короны')|E]. Повысьте его до уровня #V [GetPlayer.Custom('GetCrownAuthority0')]#!, чтобы избежать дальнейшего роста тирании.#!"
+ vassal_revocation_tyranny_effect_low_ca_tyranny:0 "#N Ваша [Concept('tyranny', 'тирания')|E] возрастает из-за низкого [Concept('crown_authority', 'авторитета короны')|E]. Повысьте его до уровня #V $crown_authority_0$#!, чтобы избежать дальнейшего роста тирании.#!"
+ revocation_tyranny_effect_low_ca_tyranny:0 "#N Ваша [Concept('tyranny', 'тирания')|E] возрастает из-за низкого [Concept('crown_authority', 'авторитета короны')|E]. Повысьте его до уровня #V $crown_authority_0$#!, чтобы избежать дальнейшего роста тирании.#!"
  ### Pirates
  pirate_government:0 "Пиратское государство"
  pirate_government_with_icon: "@government_type_pirate! $pirate_government$"
