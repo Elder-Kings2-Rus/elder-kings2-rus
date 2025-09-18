@@ -47,7 +47,7 @@
  race_argonian_name:0 "Аргонианин"
  race_argonian:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_ARGONIAN') ) ), Localize('race_argonian_name'), 'no' )]"
  
- race_argonian_naga_name:0 "Аргонианин, нага"
+ race_argonian_naga_name:0 "Аргонианин, наг"
  race_argonian_naga:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_ARGONIAN') ) ), Localize('race_argonian_naga_name'), 'no' )]"
 
  race_argonian_sarpa_name:0 "Аргонианин, сарпа"
