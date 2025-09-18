@@ -233,7 +233,7 @@
  NOT_IS_A_WITCH: "#bold Не#! [GetTrait('witch').GetName( CHARACTER.Self )]"
  race_argonian_snake_hood:0 "Змеиный капюшон"
  no_snake_hood:0 "Нет"
- naga_snake_hood_01:0 "Змеиный капюшон нага"
+ naga_snake_hood_01:0 "Змеиный капюшон нагов"
  ek_travel_events_valenwood.4005.a.success:0 "[hunter_character.GetFirstNameNoTooltip|U] сбивает мимиков"
  culture_parameter_can_build_quarries_in_hills: "Цепочку [Concept('buildings', 'зданий')|E] #V $building_type_quarries_01$#! всегда можно строить [Concept('counties', 'графствах')|E] этой [Concept('culture', 'культуры')|E] с холмами"
  nick_the_amber_scale:0 "Янтарная чешуя"
