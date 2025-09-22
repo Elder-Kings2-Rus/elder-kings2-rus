@@ -272,4 +272,6 @@
  modifier_spell_restless_dead:0 "Беспокойные мертвецы"
  ek_ymis_events.0003.a.succes:0 "[old_orc.GetFirstName] сменил свою веру и остался при вашем дворе." # tt_succes -> succes
  ek_ymis_events.0003.a.failure:0 "[old_orc.GetFirstName] не был убеждён и решил уйти." # tt_failure -> failure
+ reavers_flavor:0 "Беспринципные головорезы и жаждущие добычи налётчики."
+ reman_cult_devotee:0 "проситель"
  

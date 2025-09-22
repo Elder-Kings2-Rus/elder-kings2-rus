@@ -6,11 +6,11 @@
  magic_lifestyle_desc:0 "Фокус на обучении и применении магии через тщательное изучение пяти основных школ магии."
  magic_lifestyle_highlight_desc:0 "$magic_lifestyle_highlight_taught$"
  magic_lifestyle_highlight_taught:0 "[GetPlayer.Custom('education_magic_impact_magic_lifestyle_experience')]"
- education_magic_impact_magic_lifestyle_experience_5:0 "Из-за вашего [Concept( 'education', 'обучения' )|E] магии, ваш прирост [Concept( 'experience', 'опыта' )|El] для этого образа жизни увеличен на #P +50%#!."
- education_magic_impact_magic_lifestyle_experience_4:0 "Из-за вашего [Concept( 'education', 'обучения' )|E] магии, ваш прирост [Concept( 'experience', 'опыта' )|El] для этого образа жизни увеличен на #P +40%#!."
- education_magic_impact_magic_lifestyle_experience_3:0 "Из-за вашего [Concept( 'education', 'обучения' )|E] магии, ваш прирост [Concept( 'experience', 'опыта' )|El] для этого образа жизни увеличен на #P +30%#!."
- education_magic_impact_magic_lifestyle_experience_2:0 "Из-за вашего [Concept( 'education', 'обучения' )|E] магии, ваш прирост [Concept( 'experience', 'опыта' )|El] для этого образа жизни увеличен на #P +20%#!."
- education_magic_impact_magic_lifestyle_experience_1:0 "Из-за вашего [Concept( 'education', 'обучения' )|E] магии, ваш прирост [Concept( 'experience', 'опыта' )|El] для этого образа жизни увеличен на #P +10%#!."
+ education_magic_impact_magic_lifestyle_experience_5:0 "Из-за того, что вы [Concept( 'education', 'обучались' )|E] магии, ваш прирост [Concept( 'experience', 'опыта' )|El] для этого образа жизни увеличен на #P +50%#!."
+ education_magic_impact_magic_lifestyle_experience_4:0 "Из-за того, что вы [Concept( 'education', 'обучались' )|E] магии, ваш прирост [Concept( 'experience', 'опыта' )|El] для этого образа жизни увеличен на #P +40%#!."
+ education_magic_impact_magic_lifestyle_experience_3:0 "Из-за того, что вы [Concept( 'education', 'обучались' )|E] магии, ваш прирост [Concept( 'experience', 'опыта' )|El] для этого образа жизни увеличен на #P +30%#!."
+ education_magic_impact_magic_lifestyle_experience_2:0 "Из-за того, что вы [Concept( 'education', 'обучались' )|E] магии, ваш прирост [Concept( 'experience', 'опыта' )|El] для этого образа жизни увеличен на #P +20%#!."
+ education_magic_impact_magic_lifestyle_experience_1:0 "Из-за того, что вы [Concept( 'education', 'обучались' )|E] магии, ваш прирост [Concept( 'experience', 'опыта' )|El] для этого образа жизни увеличен на #P +10%#!."
 
  # give some flavor events to the focuses
  magic_theory_focus:0 "Теория"
