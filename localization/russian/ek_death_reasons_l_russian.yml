@@ -140,7 +140,7 @@
  death_failed_during_life_extension:0 "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] в попытке продлить свой срок жизни"
  death_became_bone_colossus:0 "[Select_CString(CHARACTER.IsFemale, 'была принесена', 'был принесен' )] в жертву, чтобы усилить костяного колосса своей душой"
  death_became_bone_colossus_killer:0 "[Select_CString(CHARACTER.IsFemale, 'была принесена', 'был принесен' )] в жертву [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'им персонажем', '' )] и [CHARACTER.GetHerHis] душа теперь привязана к костяному колоссу"
- death_apocrypha:0 "[Select_CString(CHARACTER.IsFemale, 'была заманена', 'был заманен' )] в Апокриф, где и [Select_CString(CHARACTER.IsFemale, 'заблудилась', заблудился' )] в его непостижимых тайнах"
+ death_apocrypha:0 "[Select_CString(CHARACTER.IsFemale, 'была заманена', 'был заманен' )] в Апокриф, где и [Select_CString(CHARACTER.IsFemale, 'заблудилась', 'заблудился' )] в его непостижимых тайнах"
  death_purged_undead:0 "[Select_CString(CHARACTER.IsFemale, 'была очищена', 'был очищен' )] с помощью мощной магии школы Восстановления"
  death_purged_undead_killer:0 "[Select_CString(CHARACTER.IsFemale, 'была очищена', 'был очищен' )] с помощью мощной магии школы Восстановления, применённой [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'им персонажем', '' )]"
  death_alit:0 "[Select_CString(CHARACTER.IsFemale, 'загрызена', 'загрызён' )] алитом насмерть"
