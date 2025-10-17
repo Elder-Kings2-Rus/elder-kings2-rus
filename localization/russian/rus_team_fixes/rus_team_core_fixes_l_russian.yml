@@ -274,4 +274,5 @@
  ek_ymis_events.0003.a.failure:0 "[old_orc.GetFirstName] не был убеждён и решил уйти." # tt_failure -> failure
  reavers_flavor:0 "Беспринципные головорезы и жаждущие добычи налётчики."
  reman_cult_devotee:0 "проситель"
+ Death_fight_killer_killer: "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] во время боя персонажем [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]" # ничего непонятно, но дубликат строки для killer_killer
  
