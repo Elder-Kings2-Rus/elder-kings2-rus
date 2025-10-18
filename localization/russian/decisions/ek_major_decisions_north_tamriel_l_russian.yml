@@ -122,4 +122,12 @@
  sack_orsinium_decision_desc:0 "Орочьи дикари снова отстроили свой «Город орков», превратив его в могучую крепость. И хотя на данный момент нам удалось покорить эту крепость, оставшиеся кланы орков уже собираются вернуть её. Чтобы окончательно сломить сопротивление орков, мы должны вновь разрушить город."
  sack_orsinium_decision_tooltip:0 "Разрушить Орсиниум, снова превратив его в руины"
  sack_orsinium_decision_confirm:0 "Отдать приказ"
- sack_orsinium_decision_orcish_vassal_tt:0 "[vassal|E] владеет графством [GetTitleByKey('c_old_orsinium').GetNameNoTier] и НЕ относится к [GetCulturePillar('heritage_orsimeri').GetName]ому [Concept( 'heritage', 'наследию' )|E]"
+ sack_orsinium_decision_orcish_vassal_tt:0 "[vassal|E] владеет графством [GetTitleByKey('c_old_orsinium').GetNameNoTier] и НЕ относится к [GetCulturePillar('heritage_orcish').GetName]ому [Concept( 'heritage', 'наследию' )|E]"
+ 
+ nords_militant_faith_decision: "Воинствующая вера"
+ nords_militant_faith_decision_desc: "В былые времена дух Шора вёл нас на войну в земли за пределами Скайрима. Но когда его дух исчез из мира, за ним последовали и наши амбиции. Лишь сильный король, способный объединить нордов, может вернуть былое величие."
+ nords_militant_faith_decision_tooltip: "Ваша [faith|El] получит [Concept('doctrine', 'доктрину')|E] [GetFaithDoctrine('nord_destiny_doctrine').GetBaseName]"
+ nords_militant_faith_decision_confirm: "Победа или Совнгард!"
+ militant_faith_holy_order_requirement: "Вы должны быть [Concept( 'holy_order_patron', 'покровителем' )|E] священного ордена"
+ incompatible_with_coe_decision: "#R Невозможно выполнить после#! использования [Concept('decision', 'решения')|E] $join_cote_decision$"
+ fervor_gain_militant_faith: "Песни о возвращении"

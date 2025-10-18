@@ -12,51 +12,16 @@
 
  
  ### Attrebus/Interregnum decisions
- attrebus_interregnum_decision:0 "Междуцарствие?"
- attrebus_interregnum_decision_desc:0 "[Glossary( 'Потентат', 'POTENTATE_GLOSS' )] пал, и Совет старейшин согласился предоставить вам чрезвычайные полномочия, дабы разобраться с потенциальным политическим кризисом.\n\nВам придётся действовать быстро, так как терпение верховного канцлера не бесконечно..."
- attrebus_interregnum_decision_tooltip:0 "Что новая эпоха принесёт Сиродилу?"
- attrebus_interregnum_decision_confirm:0 "Созвать Совет старейшин!"
- attrebus_interregnum_decision_required_tasks_tt:0 "Вы выполнили #R [THIS.Var('attrebus_required_tasks_complete').GetValue|0]#! из 1 требуемых для умиротворения Совета старейшин [Concept( 'required_tasks', 'задач' )|E]. У вас есть #R [THIS.Var('attrebus_years_pseudo_emperor_left').GetValue|0] лет#!, прежде чем терпение Совета Старейшин закончится."
- attrebus_interregnum_decision_optional_tasks_tt:0 "Вы выполнили #R [THIS.Var('attrebus_optional_tasks_complete').GetValue|0]#! из 2 [Concept( 'optional_tasks', 'дополнительных задач' )|E]. Эти задачи не позволят вам выиграть время при взаимодействии с Советом старейшин, но они дадут вам способ изменить Тамриэль, с чем Совет Старейшин при иных обстоятельствах был бы категорически несогласен."
- attrebus_interregnum_decision_early_effect_tt:0 "Вы также можете решить вернуть полномочия, данные вам Советом старейшин, раньше, чем они того потребуют. Вы не сможете дальше менять Сиродил и продвигать свои собственные амбиции. После этого начнётся Междуцарствие."
- attrebus_interregnum_decision_death_effect_tt:0 "Если вы умрёте до того, как Совет старейшин попросит вас вернуть власть, то они возьмут Имперский остров под свой контроль.\n#N Вы потеряете титул Сиродильский потентат.\nВсе территории за пределами основного [Concept('de_jure', 'де-юре')|E] титула вашего наследника будут потеряны.#!"
  
- attrebus_repay_debts_decision:0 "Выплатить долги Совету Старейшин"
- attrebus_repay_debts_decision_desc:0 "Совет Старейшин финансировал ваши военные усилия против Потентата, и вы должны вернуть долг. Хранилища Имперского города помогли несколько уменьшить сумму долга перед Советом, но этого было недостаточно."
- attrebus_repay_debts_decision_tooltip:0 "Выплатить долги Совету Старейшин"
- attrebus_repay_debts_decision_confirm:0 "Отправить средства верховному канцлеру."
- attrebus_potentate_attrebus_repay_debts_desc:0 "Ваш долг перед Советом Старейшин будет считаться погашенным"
- attrebus_potentate_required_task_2_fulfilled_desc:0 "Вы #P выполнили#! вторую [Concept( 'required_task', 'требуемую задачу' )|E], [required_task_2|E]"
- attrebus_potentate_ec_debts_repaid_desc:0 "Совет Старейшин получит доступ к более полной казне, когда начнёт править Имперским Островом."
- 
- attrebus_rebuild_imperial_legion_decision:0 "Возродить Имперский легион"
- attrebus_rebuild_imperial_legion_decision_desc:0 "Имперский легион — опора империй Алессии и Ремана — дезорганизован с последних дней правления Потентата. Десятилетия небрежности и предвзятости со стороны цаэски искалечили это почтенное учреждение, и нам, вероятно, придётся восстанавливать его с нуля..."
- attrebus_rebuild_imperial_legion_decision_tooltip:0 "Реформируйте Имперский легион и ещё раз покажите Тамриэлю, что Сиродил должен быть центром мира!"
- attrebus_rebuild_imperial_legion_decision_confirm:0 "Сформировать Первый легион!"
- attrebus_rebuild_imperial_legion_decision_1000_legionnaires:0 "В рядах ваших [Concept( 'men_at_arms', 'профессионалов' )|E] есть полностью усиленные #V $armored_legionaires$#! в составе как минимум 1000 воинов"
- attrebus_rebuild_imperial_legion_decision_300_lc:0 "В рядах ваших [Concept( 'men_at_arms', 'профессионалов' )|E] состоит как минимум 300 полностью усиленных [Concept( 'light_cavalry', 'лёгких всадников' )|E]"
- attrebus_rebuild_imperial_legion_decision_good_knights:0 "У вас есть как минимум #V 10 [Concept( 'knights', 'рыцарей' )|E]#!, чья #V [prowess|El] равна или превышает 12#!"
- attrebus_potentate_attrebus_imperial_legion_rebuilt_desc:0 "Имперский легион будет восстановлен, и вы будете иметь решающее слово в выборе его лидера"
- attrebus_potentate_attrebus_will_increase_personal_power_desc:0 "Эта задача приведёт к #P увеличению#! вашей личной власти и легитимности" 
- attrebus_potentate_optional_task_3_fulfilled_desc:0 "Вы #P выполнили#! третью [Concept( 'optional_task', 'дополнительную задачу' )|E], [optional_task_3|E]"
- 
- attrebus_draft_tsaesci_act_decision:0 "Подготовить проект закона о цаэски"
+ attrebus_draft_tsaesci_act_decision:0 "Подготовить проект указа о цаэски"
  attrebus_draft_tsaesci_act_decision_desc:0 "Власть акавирцев над Сиродилом и Тамриэлем большинство местных правителей считают тёмной частью истории этой провинции.\n\nДаже после падения Потентата некоторые провинции и правители Имперской провинции всё ещё держатся за старые акавирские устои, и Совет Старейшин поручил вам проследить за тем, чтобы ни один из них больше никогда не смог ступить на Сиродил и Имперский остров, дабы эта провинция не оказалась вновь под властью акавирцев."
  attrebus_draft_tsaesci_act_decision_tooltip:0 "Официально изгнать акавирцев из Сиродила"
  attrebus_draft_tsaesci_act_decision_confirm:0 "Обезглавить змею!"
  attrebus_draft_tsaesci_act_decision_no_tsaesci_ruler_imperial_isle:0 "Ни один правитель на Имперском острове не имеет [Concept( 'heritage', 'наследия' )|E] цаэски"
  attrebus_draft_tsaesci_act_decision_no_tsaesci_province_imperial_isle:0 "Ни одна провинция на Имперском Острове не имеет [Concept( 'heritage', 'наследия' )|E] цаэски"
- attrebus_draft_tsaesci_act_decision_effect_desc:0 "После составления закона о цаэски земли каждого правителя акавирского происхождения в вашей державе будут конфискованы и переданы вам. В каждом акавирском графстве изменится [culture|El], но [development|El] сократится вдвое.\nЭтот эффект также будет применяться к любому графству, которое станет частью вашей державы после принятия закона."
+ attrebus_draft_tsaesci_act_decision_effect_desc:0 "После составления указа о цаэски земли каждого правителя акавирского происхождения в вашей державе будут конфискованы и переданы вам. В каждом акавирском графстве изменится [culture|El], но [development|El] сократится вдвое.\nЭтот эффект также будет применяться к любому графству, которое станет частью вашей державы после принятия указа."
  attrebus_tsaesci_county_title:0 "Цаэски изгнаны"
  attrebus_tsaesci_county_desc:0 "Графство [title.GetBaseName] стало нашим, а его акавирское население было изгнано."
- 
- attrebus_a_militant_faith_decision:0 "Воинствующая вера"
- attrebus_a_militant_faith_decision_desc:0 "На протяжении веков наша конфессия, [ROOT.Char.GetFaith.GetAdjective], сосуществовала с различными мелкими культами и другими религиями. Хотя большинство наших верующих гордятся этим, некоторые представители духовенства указывают на то, что в грядущие времена наша конфессия должна быть сильной. Хотя я не принадлежу к духовенству, я знаю, что многие последуют моему примеру..."
- attrebus_a_militant_faith_decision_tooltip:0 "Мир меняется, и наша [faith|El] тоже должна измениться!"
- attrebus_a_militant_faith_decision_confirm:0 "Новый век для верующих?"
- attrebus_a_militant_faith_desc:0 "У вас будет возможность изменить свою конфессию:\n$EFFECT_LIST_BULLET$Сохранить [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName] и получить бонус к [Concept( 'fervor', 'рвению' )|E]\n$EFFECT_LIST_BULLET$Реформироваться в [GetFaithDoctrine('doctrine_pluralism_righteous').GetBaseName] и изменить доктрину [GetFaithDoctrine('tenet_adaptive').GetBaseName] на [GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName]\n$EFFECT_LIST_BULLET$Реформироваться в [GetFaithDoctrine('doctrine_pluralism_fundamentalist').GetBaseName] и изменить доктрину [GetFaithDoctrine('tenet_adaptive').GetBaseName] на [GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]"
- attrebus_potentate_optional_task_1_fulfilled_desc:0 "Вы #P выполнили#! первую [Concept( 'optional_task', 'дополнительную задачу' )|E], [optional_task_1|E]"
- attrebus_holy_order_requirement:0 "Вы должны основать [Concept('holy_order', 'священный орден')|E] и стать его [Concept('holy_order_patron', 'покровителем')|E]"
 
  potentate_control_heartlands_decision:0 "Потентат Хартленда"
  potentate_control_heartlands_decision_desc:0 "Мы, как потентаты поздней Империи Ремана, были управляющими Имперского острова на протяжении веков. Теперь, когда наше время почти закончилось, мы должны убедиться, что у нашего народа будет место в Тамриэле — и что подходит лучше, чем самое сердце Сиродила?"
@@ -69,7 +34,7 @@
  create_orsinium_decision_desc:0 "Королевство Орсиниум не раз создавалось, разрушалось и восстановилось за историю Тамриэля. Достаточно могущественный правитель-орк может объявить себя новым королем орков и восстановить старое королевство отверженного народа. \n \n( #S Примечание#!: Если вы [duke|El], вы сможете расширить [de_jure|El] границы Орсиниума только в пределах [Concept('de_jure', 'де-юре')|E] [Concept( 'kingdom', 'королевства' )|E], в котором вы его восстановили.)."
  create_orsinium_decision_tooltip:0 "Создать королевство Орсиниум!"
  create_orsinium_decision_confirm:0 "За Орсиниум!"
- create_orsinium_decision_cd:0 "У вашей [Concept( 'capital', 'столицы' )|E], которая не должна находиться внутри столичного герцогства другого [Concept( 'kingdom', 'королевства' )|E], есть [culture|El] #V $heritage_orsimeri_name$ого #! [Concept( 'heritage', 'наследия' )|E]"
+ create_orsinium_decision_cd:0 "У вашей [Concept( 'capital', 'столицы' )|E], которая не должна находиться внутри столичного герцогства другого [Concept( 'kingdom', 'королевства' )|E], есть [culture|El] #V $heritage_orcish_name$ого #! [Concept( 'heritage', 'наследия' )|E]"
  create_orsinium_decision_alt_cd:0 "Ваша [capital|El] не расположена внутри столичного [Concept( 'duchy', 'герцогства' )|E] другого [de_jure|El] [Concept( 'kingdom', 'королевства' )|E] (например, герцогство Имперский остров в королевстве Хартленд)"
  orsinium_hold_capital_duchy_cd:0 "Вы удерживаете [duchy|El], в котором расположена ваша [capital|El]"
  orsinium_county_culture_cd:0 "В вашей [Concept( 'capital', 'столице' )|E] распространена ваша культура"
@@ -100,7 +65,7 @@
  reintegrate_orsinium_decision_tooltip:0 "Уничтожить назойливый Орсиниум!"
  reintegrate_orsinium_decision_confirm:0 "Орсиниума больше нет!"
  reintegrate_orsinium_decision_cd:0 "Вы контролируете столичное [duchy|El] Орсиниума"
- no_orsimer_king_vassal_cd:0 "Орсиниум не принадлежит вассалу #V $heritage_orsimeri_name$ого#! [Concept( 'heritage', 'наследия' )|E]"
+ no_orsimer_king_vassal_cd:0 "Орсиниум не принадлежит вассалу #V $heritage_orcish_name$ого#! [Concept( 'heritage', 'наследия' )|E]"
  orsinium_culture_regains_pariah_status:0 "#L [regained_pariah_culture.GetCollectiveNoun]ая#! культура вернёт статус [Concept( 'pariah', 'отверженных' )|E] и они вновь получат [Concept( 'innovation', 'инновацию' )|E] #V Отверженный народ#!"
  
  ### Nibenay
@@ -157,14 +122,6 @@
  nibenay_march_west_decision.claim_colovia.tt:0 "Если вы заявите свои претензии на титул Коловия с помощью войны, вы станете императором Сиродила."
  nibenay_march_west_decision.no_colovia.tt:0 "В случае, если никто не претендует на западную половину Сиродила, вы сможете использовать [casus_belli|El] на эти земли, но по повышенной цене."
  
- ### Others
- establish_lingua_tamrielis_decision:0 "Создать Лингва Тамриэлис"
- establish_lingua_tamrielis_decision_desc:0 "В различных провинциях Тамриэля говорят на своих языках, и от этого страдает как торговля, так и межкультурные отношения. Теперь, когда я контролирую огромные территории, будет разумно добиться того, чтобы мой язык стал официальным языком Империи. А вскоре и весь Тамриэль последует этому примеру."
- establish_lingua_tamrielis_decision_tooltip:0 "Выдвиньте свой собственный язык на роль нового общего языка для Тамриэля!"
- establish_lingua_tamrielis_decision_confirm:0 "[ROOT.Char.GetCulture.GetNameNoTooltip] царствуют безраздельно!"
- every_county_your_culture_gets_modifier:0 "Каждое [county|El], как в вашем королевстве, так и за его пределами, что придерживается вашей культуры"
- completely_controls_two_empires_ct:0 "Вы имеете [Concept( 'completely_control', 'полный контроль' )|E] над двумя [Concept( 'empires', 'империями' )|E] с [de_jure|El] землёй"
-
  ###Nedic Confederation
  restore_nedic_kingdom_decision: "Объединить недийцев"
  restore_nedic_kingdom_decision_desc: "До пришествия [Glossary( 'Ра Гада', 'RAGADA_GLOSS' )] наш народ был объединён в свободную конфедерацию племен, присягнувших на верность верховному королю в Небесном Пределе. Хотя для нашего народа это уже далекое воспоминание, я могу претендовать на роль [Select_CString(ROOT.Char.IsFemale, 'наследницы', 'наследника' )] того королевства, вернув наши древние земли."

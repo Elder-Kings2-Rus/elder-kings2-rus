@@ -217,6 +217,7 @@
  gain_doctrine_spiritual_head:0 "Ваша [faith|El] получит доктрину [head_of_faith|El] — [GetFaithDoctrine('doctrine_spiritual_head').GetBaseName]"
  join_cote_decision_faith_hostility:0 "Ваша [faith|El] получит #P -5#! к [Concept( 'faith_hostility', 'враждебности' )|E] с конфессиями, чьим [Concept( 'head_of_faith', 'главой' )|E] является Совет Восьми"
  faith_not_considered_evil:0 "Ваша [faith|El] не считается [Concept( 'faith_evil', 'воплощённым злом' )|E] архипримасом"
+ incompatible_with_militant_faith: "#R Невозможно выполнить после #! использования [Concept('decision', 'решения')|E] $nords_militant_faith_decision$."
 
  consult_xarxeans_decision:0 "Посоветоваться с зарксейцами"
  consult_xarxeans_decision_desc:0 "Преемственность в рамках церемониархии может быть сложным делом, учитывающим такие факторы, как истинное происхождение, чистота поведения, соответствие священным числам и многое другое... Непредвиденное наследование случалось крайне редко.\n\nНо жрецы Заркса, которым доверены тайные формулы и задача ведения родословной, всегда могут подсказать мне, кто из моих отпрысков наиболее пригоден для этого."

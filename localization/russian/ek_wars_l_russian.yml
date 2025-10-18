@@ -102,3 +102,12 @@
  RECLAIM_HEART_OF_VALENWOOD_CB_NAME:1 "Возвращение Сердца Валенвуда"
  RECLAIM_HEART_OF_VALENWOOD_WAR_NAME:2 "Взыскание репараций с [Select_CString(DEFENDER.IsLocalPlayer, '', 'персонажа ' )][DEFENDER.GetShortUINamePossessive][Select_CString(DEFENDER.IsLocalPlayer, 'его персонажа', '' )] за набеги."
  RECLAIM_HEART_OF_VALENWOOD_WAR_NAME_BASE:0 "[attacker.GetShortUIName] вернёт [GetBuilding('heart_of_valenwood_01').GetName]"
+ 
+ dismantle_colovian_pretender_cb_victory_desc:1 "$e_colovian_estates$ будет уничтожен."
+ dismantle_colovian_pretender_cb_defeat_desc:1 "$e_colovian_estates$ останется нетронутым. [attacker.GetShortUIName|U] обязуется выплатить компенсацию."
+ dismantle_nibenese_pretender_cb_victory_desc:1 "$e_nibenay$ будет уничтожен."
+ dismantle_nibenese_pretender_cb_defeat_desc:1 "$e_nibenay$ останется нетронутым. [attacker.GetShortUIName|U] обязуется выплатить компенсацию."
+ dismantle_empire_pretender_cb_victory_desc:1 "[defender.GetPrimaryTitle.GetName] будет уничтожен."
+ dismantle_empire_pretender_cb_defeat_desc:1 "[defender.GetPrimaryTitle.GetName] останется нетронутым. [attacker.GetShortUIName|U] обязуется выплатить компенсацию."
+ dismantle_potentate_pretender_cb_victory_desc:1 "$e_cyrodiilic_potentate$ будет уничтожен."
+ dismantle_potentate_pretender_cb_defeat_desc:1 "$e_cyrodiilic_potentate$ останется нетронутым. [attacker.GetShortUIName|U] обязуется выплатить компенсацию.

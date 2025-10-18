@@ -233,4 +233,5 @@
  lover.3215.a.tt: "[lover.Custom('MusicalPerformer')|U], что служит мне, переместится [THIS.Char.Custom('GetCourt_RU_WhereTo')] во владении [court_location.GetNameNoTier]" # первое слово с заглавной буквы
  hold_court.8340.diplomacy: "«Моя родина — [birthplace.GetNameNoTierNoTooltip]. Я [Select_CString(candidate.IsFemale, 'побывала', 'побывал' )] при многих дворах, помогая местным владыкам достойно принимать их многочисленных гостей." # GetAdjectiveNoTooltip -> GetNameNoTierNoTooltip
  fund_inspiration.1051.desc.epic: "артефакт, не похожий ни на что из виденного мной ранее.\n\n[inspiration_owner.GetFirstNameNoTooltip] гордо улыбается: «[epic.GetDesc]»" # убрано первое слово 'находится', оно есть в 'fund_inspiration.1051.desc'
+ travel_events.3030.d: "Что ж, наш [ROOT.Char.Custom('GetCourt')] примет вас обоих." # проблемы со склонением слова двор/лагерь в оригинале
  
