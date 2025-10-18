@@ -312,6 +312,14 @@
  create_local_culture_greater_deshaan_decision_confirm:0 "$create_local_culture_decision_confirm$"
  create_local_culture_greater_deshaan_decision_tooltip:0 "$create_local_culture_decision_tooltip$"
  
+ create_local_culture_thir_decision:0 "$create_local_culture_decision$ Аантирине"
+ create_local_culture_thir_decision_desc:0 "Есть рассказы о древних племенах, живших на землях Аантирина столетия назад. Мы должны возродить их обычаи."
+ create_local_culture_thir_decision_courtiers_embrace_new_culture:0 "$create_local_culture_decision_courtiers_embrace_new_culture$"
+ create_local_culture_thir_decision_provinces_embrace_new_culture:0 "Все [counties|El] в вашем [Concept('domain', 'домене')|E], принадлежащие к региону Аантирин, с таким же [Concept('heritage', 'наследием')|E] как у вас, становятся #L [new_culture.GetCollectiveNoun|l]ими#!"
+ create_local_culture_thir_decision_capital_embrace_new_culture:0 "$create_local_culture_decision_capital_embrace_new_culture$"
+ create_local_culture_thir_decision_confirm:0 "$create_local_culture_decision_confirm$"
+ create_local_culture_thir_decision_tooltip:0 "$create_local_culture_decision_tooltip$"
+ 
  create_local_culture_padomay_coast_decision:0 "$create_local_culture_decision$ Падомайском побережье"
  create_local_culture_padomay_coast_decision_desc:0 "Есть рассказы о древних племенах, живших на землях Падомайского побережья столетия назад. Мы должны возродить их обычаи."
  create_local_culture_padomay_coast_decision_courtiers_embrace_new_culture:0 "$create_local_culture_decision_courtiers_embrace_new_culture$"

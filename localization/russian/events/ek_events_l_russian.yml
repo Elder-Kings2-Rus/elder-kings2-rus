@@ -207,7 +207,7 @@
 
  ek_daedric_artifacts.0010.desc:0 "Когда [boethiahs_champion.GetFirstName] падает наземь, я ощущаю неимоверное чувство удовлетворения. Но это чувство прерывается уже знакомым голосом, но теперь с другой интонацией.\n\n«Приветствую тебя, [Select_CString(ROOT.Char.IsFemale, 'избранная', 'избранный' )]! Победить одного из моих избранников — великая честь. Прими Золотой Меч, пронзи им своих врагов и принеси их души мне.»"
  ek_daedric_artifacts.0010.a:0 "Славься, Боэтия!"
- ek_daedric_artifacts.0010.b:0 "Это в твою честь, [ROOT.GetCharacter.GetFaith.HighGodName]."
+ ek_daedric_artifacts.0010.b:0 "Сгинь, во имя [ROOT.GetCharacter.GetFaith.HighGodNamePossessive]!."
  ek_daedric_artifacts.0010.b.toast:0 "Боэтия уходит оскорблённой."
 
  ek_daedric_artifacts.0011.t:0 "[Select_CString(recipient.IsFemale, 'Истинная подруга', 'Истинный друг' )]"
@@ -454,10 +454,38 @@
  ek_daedric_artifacts.0058.a.distant:0 "Всё это скоро закончится."
  ek_daedric_artifacts.0058.a.neighbor:0 "Мы должны подготовиться. Впереди нас ждут трудности."
 
- ek_daedric_artifacts.0059.t:0 "[Select_CString(malacaths_champion.IsFemale, 'Избранница', 'Избранник' )] Отверженных"
+ ek_daedric_artifacts.0059.t:0 "[Select_CString(malacaths_champion.IsFemale, 'Избранница', 'Избранник' )] проклятий"
  ek_daedric_artifacts.0059.desc:0 "Вестники сообщают о том, что $malacath_alt$ получил нового избранника, [Select_CString(malacaths_champion.IsFemale, 'самопровозглашённую исполнительницу', 'самопровозглашённого исполнителя' )] воли Князя в этом мире.\n\n[Select_CString(malacaths_champion.IsFemale, 'Носящая', 'Носящий' )] [malacaths_champion.GetHerHis] знак отличия, могучий молот, способный, по слухам, с одного удара изгнать любого [Glossary( 'даэдра', 'DAEDRA_GLOSS' )] в Пустоту, [malacaths_champion.GetSheHe] обязательно вызовет неприятности..."
  ek_daedric_artifacts.0059.a.distant:0 "Всё это скоро закончится."
  ek_daedric_artifacts.0059.a.neighbor:0 "Мы должны подготовиться. Впереди нас ждут трудности."
+
+ ek_daedric_artifacts.0060.t:0 "Вампирский клинок" #draft event loc, needs peer review
+ ek_daedric_artifacts.0060.descworthy:0 "Я осматриваю свою катану, и тут её острое лезвие задевает кожу, оставляя небольшой порез. Я тут же ощущаю, как крошечная часть моей жизненной силы утекает прочь. Потом я чувствую чужое присутствие, и таинственный голос шепчет мне на ухо. «Хорошо, ты [Select_CString(ROOT.Char.IsFemale, 'нашла', 'нашёл' )] мой клинок. Чувствуешь его силу? Чувствуешь его... голод? Ты станешь [Select_CString(ROOT.Char.IsFemale, 'достойной носительницей', 'достойным носителем' )] моего клинка. Пока он в твоих руках – ты будешь впитывать силу каждого поверженного врага. Иди же, сея ужас и смуту по земле во имя Мефалы!»"
+ ek_daedric_artifacts.0060.descunworthy:0 "Я осматриваю свою катану, и тут её острое лезвие задевает кожу, оставляя небольшой порез. Я тут же ощущаю, как крошечная часть моей жизненной силы утекает прочь. Потом я чувствую чужое присутствие, и таинственный голос шепчет мне на ухо. «Ты [Select_CString(ROOT.Char.IsFemale, 'нашла', 'нашёл' )] мой клинок. Чувствуешь его силу? Чувствуешь его... голод? Ты [Select_CString(ROOT.Char.IsFemale, 'недостойна', 'недостоин' )] носить его. Верни клинок немедленно – или познай последствия!»"
+ ek_daedric_artifacts.0060.a:0 "Благодарю тебя за дар, Прядильщица."
+ ek_daedric_artifacts.0060.b:0 "Я буду служить тебе, как шёпот во тьме."
+ ek_daedric_artifacts.0060.c:0 "Прочь, мерзкая даэдра!"
+ 
+ ek_daedric_artifacts.0061.t:0 "Мор и зараза"
+ ek_daedric_artifacts.0061.desc:0 "В последнее время я всё чаще размышляю о болезнях и чуме. Шепча себе под нос, я пытаюсь постичь их природу и то, как они влияют на порядок мира. И тогда я внезапно ощущаю чужое присутствие – потусторонний голос начинает говорить со мной: «Ты размышляешь о моих дарах, [Select_CString(ROOT.Char.IsFemale, 'смертная', 'смертный' )]? Хочешь ли служить мне и распространять их по земле? Я – князь чумы, Периайт. Служи мне, и я дарую тебе награду.»"
+ ek_daedric_artifacts.0061.a:0 "Я буду служить тебе, но тайно."
+ ek_daedric_artifacts.0061.b:0 "Я приношу клятву служения, Чумной лорд."
+ ek_daedric_artifacts.0061.c:0 "Сгинь, во имя [ROOT.GetCharacter.GetFaith.HighGodNamePossessive]!"
+ 
+ ek_daedric_artifacts.0062.t:0 "[Select_CString(sheogoraths_champion.IsFemale, 'Избранница', 'Избранник' )] теней" #draft title
+ ek_daedric_artifacts.0062.desc:0 "Вестники сообщают о том, что $nocturnal_alt$, получила нового избранника, [Select_CString(namiras_champion.IsFemale, 'самопровозглашённую исполнительницу', 'самопровозглашённого исполнителя' )] воли Князя в этом мире.\n\n[Select_CString(namiras_champion.IsFemale, 'Носящая', 'Носящий' )] [nocturnals_champion.GetHerHis] знак отличия – легендарный лук, по слухам, способный наделять своего владельца невидимость и великой стремительностью – [nocturnals_champion.GetSheHe] обязательно вызовет неприятности..."
+ ek_daedric_artifacts.0062.a.distant:0 "Всё это скоро закончится."
+ ek_daedric_artifacts.0062.a.neighbor:0 "Мы должны подготовиться. Впереди нас ждут трудности."
+ 
+ ek_daedric_artifacts.0063.t:0 "[Select_CString(sheogoraths_champion.IsFemale, 'Избранница', 'Избранник' )] вражды" #draft title
+ ek_daedric_artifacts.0063.desc:0 "Вестники сообщают о том, что $mephala_alt$, получила нового избранника, [Select_CString(namiras_champion.IsFemale, 'самопровозглашённую исполнительницу', 'самопровозглашённого исполнителя' )] воли Князя в этом мире.\n\n[Select_CString(namiras_champion.IsFemale, 'Носящая', 'Носящий' )] [mephalas_champion.GetHerHis] знак отличия – тёмный клинок, по слухам, способный поглощать жизненную сущность жертв – [mephalas_champion.GetSheHe] обязательно вызовет неприятности..."
+ ek_daedric_artifacts.0063.a.distant:0 "Всё это скоро закончится."
+ ek_daedric_artifacts.0063.a.neighbor:0 "Мы должны подготовиться. Впереди нас ждут трудности."
+ 
+ ek_daedric_artifacts.0064.t:0 "[Select_CString(sheogoraths_champion.IsFemale, 'Избранница', 'Избранник' )] чумы" #draft title
+ ek_daedric_artifacts.0064.desc:0 "Вестники сообщают о том, что $peryite_alt$, получил нового избранника, [Select_CString(namiras_champion.IsFemale, 'самопровозглашённую исполнительницу', 'самопровозглашённого исполнителя' )] воли Князя в этом мире.\n\n[Select_CString(namiras_champion.IsFemale, 'Носящая', 'Носящий' )] [peryites_champion.GetHerHis] знак отличия – древний щит, по слухам, способный отражать любое заклинание, направленное на его владельца – [peryites_champion.GetSheHe] обязательно вызовет неприятности..."
+ ek_daedric_artifacts.0064.a.distant:0 "Всё это скоро закончится."
+ ek_daedric_artifacts.0064.a.neighbor:0 "Мы должны подготовиться. Впереди нас ждут трудности."
  
  ek_orphanage.0001.t:0 "Рассмотрение вопроса о приёмном ребёнке" 
  ek_orphanage.0001.tribal_desc:0 "Когда я вхожу в жилище их [Select_CString(caretaker.IsFemale, 'воспитательницы', 'воспитателя' )], [caretaker.GetFirstName] приветствует меня, заметно обрадовавшись, и начинает рассказывать о детях.\n\n[caretaker.GetSheHe|U] знакомит меня с сиротами помладше и постарше, которые хотят попасть в новый любящий дом. Все они чисто одеты и приведены в порядок для встречи со мной в приюте. Я вижу беспокойство в их глазах. Один из них станет моим наследником, если всё сложится для них удачно.\n\nВдруг я вижу маленькую фигурку, спрятавшуюся за мебелью и смотрящую на меня. Когда я смотрю в ответ, [special_option.GetSheHe] отводит свой взгляд, явно смущаясь. «Не обращайте внимания. Это [special_option.GetFirstName], [Select_CString(special_option.IsFemale, 'наша особенная гостья', 'наш особенный гость' )]. [special_option.GetSheHe|U] уже давно [Select_CString(special_option.IsFemale, 'потеряла', 'потерял' )] надежду на новую семью.»"

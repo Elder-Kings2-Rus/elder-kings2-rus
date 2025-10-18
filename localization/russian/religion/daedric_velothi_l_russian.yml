@@ -1,11 +1,11 @@
 ﻿l_russian:
 
  # Velothi Faiths
- velothi_faiths:1 "Велотийск"
- velothi_faiths_adj:1 "Велотийская вера"
- velothi_faiths_adherent:1 "Велотиец"
- velothi_faiths_adherent_plural:1 "Велотийцы"
- velothi_faiths_desc:0 "Велотийские верования, возникшие во времена Исхода под предводительством пророка Велота, почитают [Glossary( 'хороших даэдра', 'GOOD_DAEDRA_GLOSS' )], трёх князей, которые помогали кимерам до, во время и после их опасного путешествия в [Glossary( 'Ресдайн', 'RESDAYN_GLOSS' )]. После возвышения [Glossary( 'Трибунала', 'TRIBUNAL_GLOSS' )] появились многочисленные ответвления веры – одни приняли власть Живых богов Морровинда, другие же отвергли её."
+ velothi_religion:1 "Велотийск"
+ velothi_religion_adj:1 "Велотийская вера"
+ velothi_religion_adherent:1 "Велотиец"
+ velothi_religion_adherent_plural:1 "Велотийцы"
+ velothi_religion_desc:0 "Велотийские верования, возникшие во времена Исхода под предводительством пророка Велота, почитают [Glossary( 'хороших даэдра', 'GOOD_DAEDRA_GLOSS' )], трёх князей, которые помогали кимерам до, во время и после их опасного путешествия в [Glossary( 'Ресдайн', 'RESDAYN_GLOSS' )]. После возвышения [Glossary( 'Трибунала', 'TRIBUNAL_GLOSS' )] появились многочисленные ответвления веры – одни приняли власть Живых богов Морровинда, другие же отвергли её."
  velothi_house_of_worship:0 "храм"
  velothi_house_of_worship_plural:0 "храмы"
  velothi_religious_symbol:0 "тройное знамя"

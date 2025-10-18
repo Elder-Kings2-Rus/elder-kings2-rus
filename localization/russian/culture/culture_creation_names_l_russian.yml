@@ -55,6 +55,10 @@
  cyrodiil_khajiit_name:0 "Ренадиты" #Renada (empire) + iit
  cyrodiil_khajiit_collective_noun:0 "Ренадитск"
  cyrodiil_khajiit_prefix:0 "Ренадо"
+ 
+ cyroorc_name: "Сиро-орки"
+ cyroorc_collective_noun: "Сиро-оркск"
+ cyroorc_prefix: "Сиро-орко"
 
 ###### ELSWEYR ######
  anequina_orc_name:0 "Дюнные орки"
@@ -81,10 +85,6 @@
  craglorner_name:0 "Краглорнцы" #Cyrodiilic + Yokudan in Craglorn
  craglorner_collective_noun:0 "Краглорнск"
  craglorner_prefix:0 "Краглорно"
-
- cyrosystrean_name:0 "Сиро-систресцы"
- cyrosystrean_collective_noun:0 "Сиро-систресск"
- cyrosystrean_prefix:0 "Систро"
 
  elinhiri_name:0 "Элинирцы" #Imperials in Craglorn
  elinhiri_collective_noun:0 "Элинирск"

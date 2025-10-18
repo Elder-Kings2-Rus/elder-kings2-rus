@@ -265,9 +265,6 @@
  debt_ec_raised_taxes:0 "Долг перед Советом старейшин"
  debt_ec_raised_taxes_desc:0 "Не имея возможности полностью погасить свой долг, правитель решил передать часть долга своей державе. Как и следовало ожидать, местные жители не в восторге от этого."
 
- caius_lex_chosen_ec_modifier:0 "Избранник Совета старейшин"
- caius_lex_chosen_ec_modifier_desc:0 "Пока Совет старейшин готовится к установлению контроля над Имперским островом, этот персонаж, скорее всего, будет поставлен Советом во главе Имперского города."
-
  direnni_reclaim_hegemony_1:0 "Экспансионизм Диренни"
  direnni_reclaim_hegemony_1_desc:0 "Стремясь восстановить былую Гегемонию Диренни, члены рода Диренни получили задачу завоевать то, что когда-то принадлежало им. Только время покажет, принесут ли их усилия плоды.\n\nЧлены этой [Concept('dynasty', 'династии')|E] также получают: #P -10%#! стоимости казус белли"
  direnni_reclaim_hegemony_2:0 "Новое возрождение Диренни"
@@ -306,10 +303,6 @@
 
  sacked_orsinium_modifier:0 "Разорение Орсиниума"
  sacked_orsinium_modifier_desc:0 "Вы разграбили Орсиниум, заслужив вечную ненависть орков."
-
- ### Lingua Tamrielis
- established_lingua_tamrielis_modifier:0 "Установлен Тамриэлик" # https://elderscrolls.fandom.com/ru/wiki/Тамриэлик или же просто оставить Lingua Tamrielis
- established_lingua_tamrielis_modifier_desc:0 "Этот персонаж установил свою культуру и язык в качестве языка, используемого во всём Тамриэле."
 
  ### Ristaag
  performed_ristaag_modifier:0 "Совершил Ристааг" # https://elderscrolls.fandom.com/ru/wiki/Ристааг_(квест)
@@ -963,3 +956,6 @@
 
  syrabane_heirs_dynasty_modifier: "Наследники Сирабейна"
  syrabane_heirs_dynasty_modifier_desc: "Эта династия претендует на прямое происхождение от Сирабейна, Бога-чародея."
+ 
+ warlord_emperor_modifier: "Император-военачальник"
+ warlord_emperor_modifier_desc: "Если [legitimacy_level|El] этого персонажа окажется ниже #V 4#! к моменту смерти, имперский [title|El] будет уничтожен. Все [vassals|El], не являющиеся [de_jure|El] вассалами других титулов, получат независимость.\n\n"

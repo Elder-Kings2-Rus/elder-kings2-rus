@@ -149,22 +149,22 @@
  #################
  ### Summerset ###
  #################
- cn_anirdala_adj: "Анирдалск"
- cn_celemora_adj: "Келеморск"
- cn_rosathil_adj: "Розатилск"
- cn_tor_hame_khard_adj: "Тор-хейм-хардск"
- cn_dirennis_adj: "Диреннийск"
- cn_sumurset_adj:0 "Самурсетск"
- cn_altmereth_adj:0 "Альтмеретск"
- cn_somorset_adj:0 "Соморсетск"
- cn_calcal_adj:0 "Цалькальск"
- cn_summurgsat_adj:0 "Саммурксатск"
- cn_karnstern_adj:0 "Карнштернск"
- cn_corrynde_adj:0 "Корриндск"
- cn_pasetelin_adj:0 "Пасетелинск"
- cn_sternidar_adj:0 "Сернидарск"
- cn_belinor_adj:0 "Белинорск"
- cn_iluvamir_adj:0 "Илувамирск"
+ #cn_anirdala_adj: "Анирдалск"
+ #cn_celemora_adj: "Келеморск"
+ #cn_rosathil_adj: "Розатилск"
+ #cn_tor_hame_khard_adj: "Тор-хейм-хардск"
+ #cn_dirennis_adj: "Диреннийск"
+ #cn_sumurset_adj:0 "Самурсетск"
+ #cn_altmereth_adj:0 "Альтмеретск"
+ #cn_somorset_adj:0 "Соморсетск"
+ #cn_calcal_adj:0 "Цалькальск"
+ #cn_summurgsat_adj:0 "Саммурксатск"
+ #cn_karnstern_adj:0 "Карнштернск"
+ #cn_corrynde_adj:0 "Корриндск"
+ #cn_pasetelin_adj:0 "Пасетелинск"
+ #cn_sternidar_adj:0 "Сернидарск"
+ #cn_belinor_adj:0 "Белинорск"
+ #cn_iluvamir_adj:0 "Илувамирск"
 
  #################
  ### Morrowind ###
@@ -181,7 +181,7 @@
 
  #Argonian
  cn_uxith_adj:0 "Укситск"
- cn_lukiul_uxith_adj:0 "Лукиул-укситск"
+ cn_lukiul_uxith_adj:0 "Лукьюл-узитск"
  #cn_huldarkorst_adj:0 "Хюльдаркорстск"
  #cn_olmgerdheim_adj:0 "Ольмгердхеймск"
  #cn_olmgerds_landing_adj:0 "Ольмгердск"

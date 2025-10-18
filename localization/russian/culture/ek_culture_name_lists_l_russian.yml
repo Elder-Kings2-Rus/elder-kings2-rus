@@ -12,11 +12,11 @@
  name_list_paatru:0 "Паатруанские"
  name_list_agaceph:0 "Агацефские"
  name_list_sarpa:0 "Сарпские"
- name_list_lukiul:0 "Оджельские"
+ name_list_ojel:0 "Оджельские"
  name_list_hapsleet:0 "Хапслитские"
  #ek_atmoran
  name_list_eastmarcher:0 "Истмарские"
- name_list_westmarcher:0 "Вестмарские"
+ name_list_westmarcher:0 "Вестмаркские"
  name_list_cyro_nord:0 "Сиро-нордские"
  name_list_atmoran:0 "Атморские"
  name_list_skaal:0 "Скаальские"
@@ -26,7 +26,7 @@
  name_list_bosmer:0 "Босмерские"
  #ek_breton
  name_list_glenumbran:0 "Гленумбрийские"
- name_list_systrean:0 "Систресские"
+ name_list_witchman:0 "Ведьмовские"
  name_list_northmen:0 "Северо-бретонские"
  name_list_iliac:0 "Илиакские"
  name_list_wrothgarian:0 "Ротгарианские"
@@ -37,8 +37,8 @@
  name_list_colovian:0 "Коловианские"
  name_list_strident:0 "Стридские"
  name_list_nibenese:0 "Нибенейские"
- name_list_rimmenese:0 "Римменийские"
- name_list_blackwood:0 "Нибенейские"
+ name_list_rimmenese:0 "Римменские"
+ name_list_nibenu:0 "Нибенейские"
  name_list_heartlander:0 "Хартлендские"
  #ek_dremora
  name_list_dremora:0 "Дреморские"
@@ -70,21 +70,21 @@
  #name_list_galen:0 "Galen"
  name_list_galen:0 "Северо-недийские"
  name_list_duraki:0 "Кептуанские"
- #ek_nedic_south
+ #Kothri
  name_list_nede:0 "Недийские"
  name_list_yespest:0 "Йеспестские"
- name_list_kothringi:0 "Котрингийские"
- name_list_horwalli:0 "Хорваллийские"
+ name_list_kothringi:0 "Котрингские"
+ name_list_horwalli:0 "Хорваллские"
  name_list_orma:0 "Ормские"
  #ek_old_breton
  name_list_bjoule:0 "Бьюльские"
  #ek_orsimeri
- name_list_mountain_orc:0 "Горно-оркские"
- name_list_iron_orc:0 "Железно-оркские"
- name_list_wood_orc:0 "Лесно-оркские"
+ name_list_mountain_orc:0 "Горно-орочьи"
+ name_list_iron_orc:0 "Железно-орочьи"
+ name_list_wood_orc:0 "Лесно-орочьи"
  #ek_yokudan
  name_list_yokudan:0 "Йокуданские"
- name_list_forebear:0 "Предшественские"
+ name_list_forebear:0 "Предшественнические"
  name_list_crown:0 "Венценосные"
  name_list_alikr:0 "Алик'рские"
  name_list_abecean:0 "Абесинские"

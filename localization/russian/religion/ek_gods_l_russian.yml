@@ -5,8 +5,6 @@
  # Nede-Nord
  aetherius_name:0 "Этериус"
  mundus_name:0 "Мундус"
-
- nedic_nordic_pantheon_name:0 "Пантеон нордов-недийцев"
  god_the_gods_name:1 "Боги"
    god_the_gods_name_possessive:0 "Богов"
  god_the_divines_name:0 "Божества"
@@ -1191,11 +1189,11 @@ GET_RANDOM_CUSTOM_VIVEC_NAME_POSSESSIVE: "[GetPlayer.Custom('GetCustomVivecNameP
 	 god_the_sun_name_possessive:0 "Солнца"
  god_sunlight_name:0 "Владыка солнечного Света"
 	 god_sunlight_name_possessive:0 "Владыки солнечного Света"
- god_magus_name:0 "Маг"
-	 god_magus_name_possessive:0 "Мага"
+ god_the_magus_name:0 "Магус"
+	 god_the_magus_name_possessive:0 "Магуса"
 
  # Atmoran
- atmoran_pantheon_name:0 "Тотемный пантеон"
+ atmoran_religion_name:0 "Тотемный пантеон"
  god_totems:0 "Тотемы"
  god_hawk_name:0  "Ястреб"
 	god_hawk_name_possessive:0 "Ястреба"

@@ -619,6 +619,10 @@
  nick_the_high_hlaalu_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat] был первым лидером дома Хлаалу, который был принят в Совет Неревара. Это подтвердило восхождение дома в число Великих домов. Хотя официальным титулом главы дома является грандмастер, титул «Верховный Хлаалу» всё ещё используется в некоторых источниках, особенно во внутренних летописях династии."
  nick_chevalier_renald: "Рыцарь"
  nick_chevalier_renald_desc: "$nick_hand_free_desc$"
+ nick_the_raven: "Ворон"
+ nick_the_raven_desc: "$nick_hand_free_desc$"
+ nick_the_iron: "[Select_CString(CHARACTER.IsFemale, 'Железная', 'Железный' )]"
+ nick_the_iron_desc: "$nick_hand_free_desc$"
 
  # House of Reveries
  nick_fire_bird:0 "Огненная птица"
