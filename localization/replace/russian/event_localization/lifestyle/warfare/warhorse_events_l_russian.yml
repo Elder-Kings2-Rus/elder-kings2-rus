@@ -5,7 +5,7 @@
  warhorse.0001.b:0 "В мифологии хватает грозных имен для [ROOT.Char.Custom('LocalMount')]!"
  warhorse.0001.c:0 "Это просто [ROOT.Char.Custom('LocalMount')], и имя будет соответствующее."
 
- warhorse.0002.desc:0 "Вдохновившись знаменитыми [ROOT.Char.Custom('LocalMountMultiple')] полководцев и героев прошлого, я назову своего скакуна в честь одного из них.."
+ warhorse.0002.desc:0 "Вдохновившись знаменитыми [ROOT.Char.Custom('LocalMountMultiple')] полководцев и героев прошлого, я назову своего скакуна в честь одного из них."
  warhorse.0002.coldwind:1 "Холодный Ветер — как медведь короля Торуга!"
  warhorse.0002.falk:0 "Фолк — как медвель Тулы Черепокола!"
  warhorse.0002.umbrage:0 "Обида — как чёрный сенч-лев Раджина!"
@@ -41,13 +41,13 @@
  warhorse.1101.desc:0 "Когда я подхожу к стойлам, то слышу счастливые звуки, которые издает [ROOT.Char.Custom('WarhorseStoryName')]. [ROOT.Char.Custom('HorseStorySheHe')|U] кажется, хочет размять [ROOT.Char.Custom('HorseStoryHerHis')] ноги в прекрасную погоду, и я не могу не согласиться."
 
  warhorse.1201.t:1 "[ROOT.Char.Custom('WarhorseStoryName')|U]: Больной скакун"
- warhorse.1201.desc:0 "Когда [ROOT.Char.Custom('WarhorseStoryName')] с трудом выходит из стойла, волоча ноги и опустив голову, у меня не остается сомнений: [ROOT.Char.Custom('HorseStoryMareStallion')] болеет.\n\nГлавный конюх уверяет, что от этой болезни есть лекарство, но оно дорого стоит.."
+ warhorse.1201.desc:0 "Когда [ROOT.Char.Custom('WarhorseStoryName')] с трудом выходит из стойла, волоча ноги и опустив голову, у меня не остается сомнений: [ROOT.Char.Custom('HorseStoryMareStallion')] болеет.\n\nГлавный конюх уверяет, что от этой болезни есть лекарство, но оно дорого стоит."
  
  warhorse.1301.t:1 "[ROOT.Char.Custom('WarhorseStoryName')|U]: [ROOT.Char.Custom('LocalMount')|U] Энтузиаст"
  warhorse.1301.desc:1 "[horse_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] осматривает [ROOT.Char.Custom('WarhorseStoryName')] сверху донизу, одобрительно кивая.\n\n"Вот это [ROOT.Char.Custom('HorseStoryMareStallion')], [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetTitleTierName|l]! Для меня было бы честью, если бы вы позволили мне проехаться»."
 
  warhorse.1401.t:1 "[ROOT.Char.Custom('WarhorseStoryName')|U]: Скакун Ужаса"
- warhorse.1401.desc:0 "С наступлением темноты я оказываюсь почти в одиночестве у загона для ездовых животных. Лишь [ROOT.Char.Custom('HorseStoryMareStallion')] [ROOT.Char.Custom('WarhorseStoryName')], переступая ногами, нарушает ночную тишину.. Есть что-то странное в [ROOT.Char.Custom('HorseStoryHerHis')] взгляде, что-то... #EMP пугающее#!.\n\n[ROOT.Char.Custom('HorseStoryHerHis')|U] взгляд преследует меня, когда я поворачиваюсь к выходу: я ещё долго не могу забыть пробежавший по моей спине холодок."
+ warhorse.1401.desc:0 "С наступлением темноты я оказываюсь почти в одиночестве у загона для ездовых животных. Лишь [ROOT.Char.Custom('HorseStoryMareStallion')] [ROOT.Char.Custom('WarhorseStoryName')], переступая ногами, нарушает ночную тишину. Есть что-то странное в [ROOT.Char.Custom('HorseStoryHerHis')] взгляде, что-то... #EMP пугающее#!.\n\n[ROOT.Char.Custom('HorseStoryHerHis')|U] взгляд преследует меня, когда я поворачиваюсь к выходу: я ещё долго не могу забыть пробежавший по моей спине холодок."
  warhorse.1401.a:0 "Это смешно – [ROOT.Char.Custom('HorseStorySheHe')] это всего лишь [ROOT.Char.Custom('LocalMount')|U]."
 
 

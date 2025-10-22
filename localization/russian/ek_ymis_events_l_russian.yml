@@ -191,7 +191,7 @@
 
  ek_ymis_events.0035.t:0 "Некромантия: дурная репутация"
  ek_ymis_events.0035.desc:0 "Все усилия скрыть истинную природу моих тёмных деяний оказались тщетными. Весть о моих некромантических способностях уже начала распространяться среди черни и дворян. Эти жалкие и бесхребетные существа используют этот повод, чтобы злословить, дав мне прозвище #EMP '[nickname_getter.GetTitledFirstNameNicknamedNoTooltip]'#! и призывая к покаянию.\n\nОни не получат ничего из этого! Я не сверну с этого пути и буду с гордостью носить новое имя, которое они дали мне в знак насмешки." 
- ek_ymis_events.0035.shunned:0 "Называйте меня как хотите.."
+ ek_ymis_events.0035.shunned:0 "Называйте меня как хотите."
  ek_ymis_events.0035.criminal:0 "Набожные глупцы."
  ek_ymis_events.0035.tt:0 "Вы получите неприятное прозвище"
 
@@ -252,7 +252,7 @@
  stress_threshold.1601.experimentalist.effect:0 "Когда я провожу время в моей лаборатории, то это всегда успокаивает мой разум"
  stress_threshold.1701.g.experimentalist.gain:0 "Мне нужно позабыть об этих мыслях с помощью новых экспериментов."
  stress_threshold.1701.g.experimentalist.effect:0 "$stress_threshold.1711.e.experimentalist.gain$"
- stress_threshold.1711.e.experimentalist.gain:0 "Я отвлеку себя новыми экспериментами.."
+ stress_threshold.1711.e.experimentalist.gain:0 "Я отвлеку себя новыми экспериментами."
  stress_threshold.1711.e.experimentalist.effect:0 "$stress_threshold.1711.e.experimentalist.gain$"
  stress_threshold.1721.i.experimentalist.gain:0 "$stress_threshold.1711.e.experimentalist.gain$"
  stress_threshold.1721.i.experimentalist.effect:0 "$stress_threshold.1711.e.experimentalist.gain$"

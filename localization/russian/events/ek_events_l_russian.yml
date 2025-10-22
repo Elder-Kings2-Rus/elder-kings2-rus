@@ -528,7 +528,7 @@
  ek_shadowscale_event.0003.option1:0 "Это мой долг и честь."
  ek_shadowscale_event.0003.option1.tooltip:0 "[shadowborn_hatchling.GetFullName] вступает в ряды Тёмных ящеров и расстаётся с вами навеки."
  ek_shadowscale_event.0003.option2:0 "Нет, вы их не получите!"
- ek_shadowscale_event.0003.option2.flavor:0 "Тёмные ящеры не забудут вашего отказа.."
+ ek_shadowscale_event.0003.option2.flavor:0 "Тёмные ящеры не забудут вашего отказа."
  ek_shadowscale_event.0004.t:0 "Запрос Тёмных ящеров"
  ek_shadowscale_event.0004.desc:0 "Пока я жду, когда представитель Тёмных ящеров явится за Тенерождёнными в [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], в том числе и за моими собственными, я задумываюсь о их будущем. Ждала ли их судьба опытных лидеров? А может, мудрецов или талантливых воинов?\n\nНо у вылупившихся под знаком Тени нет выбора. Они станут Тёмными ящерами, убийцами, которых Тёмное Братство обучит служить оккультному королю Аргонии. Или же они не переживут крайне изнурительных тренировок.\n\nЗатем древохранители нашего племени приветствуют процессию Тёмных ящеров. И через мгновение передо мной предстает один из них. «Время пришло, [ROOT.Char.GetFirstNameNoTooltip]». Но так ли это? Я могу бросить вызов Ситису и Хист. Я могу отказаться от чести быть [Select_CString(ROOT.Char.IsFemale, 'той', 'тем' )], у кого вылупился Тёмный ящер. Это навлечёт на меня позор... но у меня будут мои дети. Или, хотя бы, один из них?"
  ek_shadowscale_event.0004.option1:0 "Это мой долг и честь."
@@ -540,7 +540,7 @@
  ek_shadowscale_event.0004.option3.tooltip:0 "[shadowborn_hatchling_2.GetFullName] вступает в ряды Тёмных ящеров и расстаётся с вами навеки."
  ek_shadowscale_event.0004.option3.flavor:0 "Тёмные ящеры не забудут вашего отказа, но они будут помнить, что вы добровольно отказались от одного."
  ek_shadowscale_event.0004.option4:0 "Нет, вы не получите ни одного из них!"
- ek_shadowscale_event.0004.option4.flavor:0 "Тёмные ящеры не забудут вашего отказа.."
+ ek_shadowscale_event.0004.option4.flavor:0 "Тёмные ящеры не забудут вашего отказа."
 
  ek_health_recovery_veneration_of_diseases:0 "Я [Select_CString(ROOT.Char.IsFemale, 'пережила', 'пережил' )] одну болезнь, чтобы быть [Select_CString(ROOT.Char.IsFemale, 'носительницей', 'носителем' )] ещё множества других"
  ek_health_contraction_veneration_of_diseases:0 "Ещё один подарок от нашего покровителя"

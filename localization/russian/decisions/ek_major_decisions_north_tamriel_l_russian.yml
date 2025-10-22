@@ -129,5 +129,5 @@
  nords_militant_faith_decision_tooltip: "Ваша [faith|El] получит [Concept('doctrine', 'доктрину')|E] [GetFaithDoctrine('nord_destiny_doctrine').GetBaseName]"
  nords_militant_faith_decision_confirm: "Победа или Совнгард!"
  militant_faith_holy_order_requirement: "Вы должны быть [Concept( 'holy_order_patron', 'покровителем' )|E] священного ордена"
- incompatible_with_coe_decision: "#R Невозможно выполнить после#! использования [Concept('decision', 'решения')|E] $join_cote_decision$"
- fervor_gain_militant_faith: "Песни о возвращении"
+ incompatible_with_coe_decision: "#R Станет недоступно после#! использования [Concept('decision', 'решения')|E] $join_cote_decision$"
+ fervor_gain_militant_faith: "Песни возвращения"

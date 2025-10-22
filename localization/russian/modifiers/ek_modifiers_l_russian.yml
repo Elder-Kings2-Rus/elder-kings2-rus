@@ -76,8 +76,8 @@
  stationed_dragon_maa_siege_value_add:0 "[siege_progress|E] [Concept('stationed', 'расположенных')|E] здесь [Concept('dragon','драконов')|E]"
  stationed_dragon_maa_siege_value_mult:0 "Эффективность осады [Concept('stationed', 'расположенных')|E] здесь [Concept('dragon','драконов')|E]"
 
- monthly_magic_lifestyle_xp_gain_mult:0 "Ежемесячный опыт за [lifestyle|El] «Магия»"
- monthly_dark_arts_lifestyle_xp_gain_mult:0 "Ежемесячный опыт за [lifestyle|El] «Тёмные искусства»"
+ monthly_magic_lifestyle_xp_gain_mult:0 "Ежемесячный прирост опыта на [Concept('lifestyle', 'жизненном пути')|E] «Магия»"
+ monthly_dark_arts_lifestyle_xp_gain_mult:0 "Ежемесячный прирост опыта на [Concept('lifestyle', 'жизненном пути')|E] «Тёмные искусства»"
  
  ### Terrain
  ashlands_attrition_mult:1 "[command_modifier_i][attrition|E] в пепельных землях"

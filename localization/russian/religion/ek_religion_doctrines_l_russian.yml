@@ -171,7 +171,7 @@
     doctrine_sp_redguard_reman_name:0 "Реман"
      
  doctrine_sp_nord_name:0 "Нордский пантеон: #italic [secondary|El]#!"
-    doctrine_sp_nord_desc:0 "Боги Скайрима так же крепки и выносливы, как и его народ.. Мы позаимствуем их мощь."
+    doctrine_sp_nord_desc:0 "Боги Скайрима так же крепки и выносливы, как и его народ. Мы позаимствуем их мощь."
     doctrine_parameter_nord_pantheon_syncretism:0 "Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -15#! с [Concept('faiths', 'конфессиями')|E], у которых имеется доктрина [Concept('pantheon', 'пантеона')|E] [GetFaithDoctrine('doctrine_pantheon_nord').GetBaseName]"
     doctrine_sp_nord_alduin_name:0 "Алдуин"
     doctrine_parameter_pantheon_adds_deity_alduin:0 "Адепты могут принять Алдуина как своего [Concept( 'patron', 'покровителя' )|E] и получить свойство [GetTrait('p_at_dragon').GetName( GetNullCharacter )]"
@@ -2108,5 +2108,5 @@ tenet_personality_cult_name:0 "Культ личности"
  doctrine_parameter_adopt_prisoners_active:0 "Персонажи данной [Concept( 'faith', 'конфессии' )|E] могут усыновлять детей-пленников $heritage_argonian_name$ого [Concept( 'heritage', 'наследия' )|E] и делать их частью своей [Concept( 'dynasty', 'династии' )|El]."
  doctrine_parameter_hof_is_hierocracy:0 "[Concept('head_of_faith', 'Глава конфессии')|E] использует [Concept('government', 'форму правления')|E] «[GetGovernment('hierocracy_government').GetName]»"
  
- nord_destiny_doctrine_name: "Песни о возвращении"
+ nord_destiny_doctrine_name: "Песни возвращения"
  nord_destiny_doctrine_desc: "" 
