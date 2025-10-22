@@ -217,7 +217,7 @@
  gain_doctrine_spiritual_head:0 "Ваша [faith|El] получит доктрину [head_of_faith|El] — [GetFaithDoctrine('doctrine_spiritual_head').GetBaseName]"
  join_cote_decision_faith_hostility:0 "Ваша [faith|El] получит #P -5#! к [Concept( 'faith_hostility', 'враждебности' )|E] с конфессиями, чьим [Concept( 'head_of_faith', 'главой' )|E] является Совет Восьми"
  faith_not_considered_evil:0 "Ваша [faith|El] не считается [Concept( 'faith_evil', 'воплощённым злом' )|E] архипримасом"
- incompatible_with_militant_faith: "#R Невозможно выполнить после #! использования [Concept('decision', 'решения')|E] $nords_militant_faith_decision$."
+ incompatible_with_militant_faith: "#R Станет недоступно после#! использования [Concept('decision', 'решения')|E] $nords_militant_faith_decision$."
 
  consult_xarxeans_decision:0 "Посоветоваться с зарксейцами"
  consult_xarxeans_decision_desc:0 "Преемственность в рамках церемониархии может быть сложным делом, учитывающим такие факторы, как истинное происхождение, чистота поведения, соответствие священным числам и многое другое... Непредвиденное наследование случалось крайне редко.\n\nНо жрецы Заркса, которым доверены тайные формулы и задача ведения родословной, всегда могут подсказать мне, кто из моих отпрысков наиболее пригоден для этого."
@@ -370,8 +370,8 @@
  debug_mode_toggle_decision_confirm:0 "debug_mode_toggle_decision_confirm"
  
  ban_slavery_in_realm_decision:0 "Запретить рабство в державе"
- ban_slavery_in_realm_decision_desc:0 "#italic «...Я приказываю и отныне объявляю свободными всех лиц, содержащихся как рабы в державе [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]».#!"
- ban_slavery_in_realm_decision_tooltip:0 "Как можно владеть живым существом как имуществом?"
+ ban_slavery_in_realm_decision_desc:0 "#italic «...Сим я повелеваю и объявляю: все, кто удерживается в рабстве на территории державы [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], отныне и навсегда считаются свободными.»#!"
+ ban_slavery_in_realm_decision_tooltip:0 "Владеть живым существом, словно собственностью? Отвратительно!"
  ban_slavery_in_realm_decision_confirm:0 "Услышьте меня!"
  ban_slavery_in_realm_decision_effect:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_slave_markets_01$#! будет отключена и не может быть построена в пределах вашей [Concept('realm', 'державы')|E]"
  culture_keeps_slaves_tooltip:0 "Ваша [Concept('culture', 'культура')|E] позволяет содержать [Concept('slaves', 'рабов')|E]"
@@ -379,8 +379,8 @@
  slavery_stance_allowed_trigger:0 "Вы являетесь членом [Concept('grand_council_morrowind', 'Великого совета Морровинда')|E] и [Concept('slavery', 'рабство')|E] было запрещено верховными советниками"
 
  allow_slavery_in_realm_decision:0 "Отменить запрет на рабство"
- allow_slavery_in_realm_decision_desc:0 "В настоящее время владение рабов в этих землях запрещено. Возможно, кто-то мог бы рассмотреть возможность изменения этой политики?"
- allow_slavery_in_realm_decision_tooltip:0 "Собственность - это власть."
+ allow_slavery_in_realm_decision_desc:0 "В настоящее время владение рабами в этих землях запрещено. Возможно, стоит пересмотреть данную политику?"
+ allow_slavery_in_realm_decision_tooltip:0 "Собственность – это власть."
  allow_slavery_in_realm_decision_confirm:0 "Услышьте меня!"
  allow_slavery_in_realm_decision_effect:0 "Цепочка [Concept('buildings', 'зданий')|E] #V $building_type_slave_markets_01$#! станет активной и может быть построена в пределах вашей [Concept('realm', 'державы')|E]"
  allow_slavery_in_realm_decision_trigger:0 "[Concept('slavery', 'Рабство')|E] в настоящее время запрещено в этой [Concept('realm', 'державе')|E]"
