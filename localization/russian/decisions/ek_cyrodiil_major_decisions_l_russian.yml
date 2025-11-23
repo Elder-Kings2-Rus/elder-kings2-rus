@@ -41,7 +41,7 @@
  become_pretender_emperor_decision_tooltip: "Провозгласить себя [Select_CString(ROOT.Char.IsFemale, 'императрицей', 'императором' )]"
  become_pretender_emperor_decision_confirm: "Империя принадлежит мне!"
  become_pretender_emperor_decision_effect:0 "Будет создан [title|El] Империя [pretender_empire_house.GetBaseNameNoTooltip]. Он станет вашим [Concept( 'primary_title', 'главным титулом' )|E]"
- become_pretender_emperor_decision_title_break: "#N Вы провозгласите себя [Select_CString(ROOT.Char.IsFemale, 'императрицей', 'императором' )], но далеко не все признают ваши претензии. Если ваш [legitimacy_level|El] окажется ниже #V 4#! к моменту смерти, [title|El] Империя [pretender_empire_house.GetBaseNameNoTooltip] будет уничтожен. Все [vassals|El], не являющиеся [de_jure|El] вассалами других ваших титулов, получат независимость.#!"
+ become_pretender_emperor_decision_title_break: "#N Вы провозгласите себя императором, но далеко не все признают ваши претензии. Если ваш [legitimacy_level|El] окажется ниже #V 4#! к моменту смерти, [title|El] Империя [pretender_empire_house.GetBaseNameNoTooltip] будет уничтожен. Все [vassals|El], не являющиеся [de_jure|El] вассалами других ваших титулов, получат независимость.#!"
  become_pretender_emperor_decision_effect_opinion:0 "Правители [Concept( 'kingdom', 'королевского' )|E] уровня в регионе [GetGeographicalRegion('mundus_tamriel_cyrodiil').GetName] #n не одобрят этого#!"
  PRETENDER_EMPIRE_TITLE_NAME: "Империя [pretender_empire_house.GetBaseNameNoTooltip]"
  PRETENDER_EMPIRE_TITLE_NAME_ADJ: "[pretender_empire_house.GetBaseNameNoTooltip]ск"
