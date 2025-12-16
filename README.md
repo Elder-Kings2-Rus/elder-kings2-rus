@@ -5,7 +5,7 @@
 <img width="475" alt="2887695716_preview" src="https://github.com/Elder-Kings2-Rus/elder-kings2-rus/assets/25348662/4033bcb6-7dd1-481e-a629-d64cddc3c423">
 
 ## Скачать
-Google Drive - https://drive.google.com/file/d/1kLNeE4BtjYpjrp4OEjqFD9KXhEcELvzq
+Google Drive - https://drive.google.com/drive/folders/13GWKbfhClaIbSEEb46TH4OGUZTnFOLSh
 
 Steam - https://steamcommunity.com/sharedfiles/filedetails/?id=2887695716
 
