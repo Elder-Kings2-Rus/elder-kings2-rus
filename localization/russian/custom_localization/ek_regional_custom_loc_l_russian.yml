@@ -12,21 +12,17 @@
  ground_type_ash: "пепел"
 
  #RandomEntertainmentText
- random_entertainment_text_mystery_of_talara:0 "Тайна Талары"
  random_entertainment_text_forest_dark:0 "Тёмный лес"
- random_entertainment_text_hypothetical_treachery:0 "Предполагаемое коварство"
- random_entertainment_text_bankers_bet:0 "Пари банкира"
  random_entertainment_text_scared_little_snow_moth:0 "Пугливая Снежная Бабочка"
  random_entertainment_text_blue_book_of_riddles:0 "Синяя книга Загадок"
- random_entertainment_text_rear_guard:0 "Арьергард"
- random_entertainment_text_palla:0 "Палла"
  random_entertainment_text_deathbrand:0 "Печать Смерти"
- random_entertainment_text_beggar:0 "Нищий"
  random_entertainment_text_aoml:0 "Броня из мифов и легенд"
- random_entertainment_text_2920:0 "2920, последний год Первой эры"
+ random_entertainment_text_investigator_vale:0 "Детектив Вейл"
+ random_entertainment_text_clever_kail_perwa:0 "Умная Кайл-Перва и великое бахвальство"
+ random_entertainment_text_khunzar_ri:0 "Сказания о Кунзаре-ри"
+ random_entertainment_text_angry_alfiq:0 "Сказки о сердитом Альфике"
 
  #RandomReligiousText
- random_religious_text_sithis:0 "Ситис"
  random_religious_text_thief_gods_treasures:0 "Сокровища Бога-вора"
  random_religious_text_a_tale_forever_told:0 "Вечная история"
  random_religious_text_the_will_of_the_master:0 "Воля владыки"
@@ -38,6 +34,8 @@
  random_religious_text_aura_of_the_righteous:0 "Аура праведных"
  random_religious_text_zoaraym:0 "История мастера Зорайма"
  random_religious_text_end_of_the_journey:0 "Конец странствий"
+ random_religious_text_sermons_of_vivec:0 "36 уроков Вивека"
+ random_religious_text_shor_son_of_shor:0 "Шор сын Шора"
 
  #RandomInformativeText
  random_informative_text_mystery_of_artaeum:0 "Загадка Артейума"
@@ -61,6 +59,7 @@
  random_informative_text_dwarf_light:0 "Двемерский светильник"  
  random_informative_text_tla:0 "Топальская академия легионеров"   
  random_informative_text_tfoe:0 "Расцвет Элинира"   
+ random_informative_text_tales_dwemer:0 "Древние легенды двемеров"
 
  #RegionalDrink
  comberry_chai:0 "чай из комуники"
@@ -336,7 +335,6 @@
  #GetRegionalFish
  fish_slaughterfish: "рыба-убийца"
  fish_trodh: "тродх"
- fish_chub: "голавль"
  fish_longfin: "морской окунь"
  fish_dhufish: "жемчужный окунь"
  fish_shad: "пузанка"
@@ -435,3 +433,11 @@
  fish_systres_flounder: "камбала Систреса"
  fish_glimmertarn_darter: "мерцающий окунь"
  fish_gonfalon_rockfish: "знаменная скорпена"
+
+ #Knight errant stuff
+ GetKnightErrantAnimal_dragon: "дракона"
+ GetKnightErrantAnimal_gryphon: "грифона"
+ GetKnightErrantAnimal_hawk: "ястреба"
+ GetKnightErrantAnimal_bull: "быка"
+ GetKnightErrantAnimal_scarab: "скарабея"
+ GetKnightErrantAnimal_guar: "гуара"

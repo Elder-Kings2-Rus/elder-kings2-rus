@@ -67,11 +67,9 @@
  name_list_placeholder:0 "Заглушка?"
  #ek_nedic_north
  name_list_reachfolk:0 "Предельские"
- #name_list_galen:0 "Galen"
- name_list_galen:0 "Северо-недийские"
+ name_list_galen:0 "Галенские"
  name_list_duraki:0 "Кептуанские"
  #Kothri
- name_list_nede:0 "Недийские"
  name_list_yespest:0 "Йеспестские"
  name_list_kothringi:0 "Котрингские"
  name_list_horwalli:0 "Хорваллские"
@@ -91,4 +89,5 @@
  name_list_horsefolk:0 "Лошаднические"
  #ek_maormer
  name_list_maormer:0 "Маормерские"
-
+#ek_giantish
+ name_list_atmoran_giant: "Великанские"

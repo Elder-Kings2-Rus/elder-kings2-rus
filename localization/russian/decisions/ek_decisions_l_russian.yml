@@ -1,5 +1,6 @@
 ﻿l_russian:
  decision_group_type_ek_sb: "Решения особых построек"
+ decision_group_type_ek_magic: "Магические решения"
  # Coping mechanisms
  stress_loss_skooma_drinker_decision:1 "Выкурить или выпить скуму"
  stress_loss_skooma_drinker_decision_desc:1 "Я раскуриваю трубку и уже чувствую изысканный запах лунного сахара, наполняющий комнату. Я улыбаюсь, ведь это именно то, что мне нужно..."
@@ -210,14 +211,13 @@
 
  initiate_consolamentum_decision_age_tt:0 "Есть [ek_age_modifier|El], равный #N 60 годам#! для обычных людей"
 
- join_cote_decision:0 "Присоединиться к Совету Восьми"
- join_cote_decision_desc:0 "Божества давно передали духовную власть Алессии, которая также известна как Паравант, и поэтому Сиродил сохраняет статус «первого среди равных» в духовных вопросах. Совет Восьми существует для того, чтобы закрепить это положение в законе, и в то же время предоставить региональным часовням место за столом переговоров и возможность высказать своё мнение Архипримасу.\n\nКак фактический мирской лидер моей конфессии, я, безусловно, имею право голоса относительно её будущего. И вполне возможно, что наше духовенство больше выиграет от присоединения к Совету, чем наши верующие потеряют от подчинения авторитету Сиродила."
- join_cote_decision_tt:0 "Свяжите свою веру с сиродильским храмом"
+ form_cote_decision:0 "Объединить сиродильские культы"
+ form_cote_decision_desc:0 "Пути имперских культов давным-давно разошлись, и лишь поклонение Божествам оставалось объединяющим фактором. Чтобы сохранить единство веры и самой Империи, необходим новый духовный лидер."
+ form_cote_decision_tt:0 "Объединить сиродильские культы"
  join_cote_decision_confirm:0 "Единство во имя Божеств!"
- gain_doctrine_spiritual_head:0 "Ваша [faith|El] получит доктрину [head_of_faith|El] — [GetFaithDoctrine('doctrine_spiritual_head').GetBaseName]"
- join_cote_decision_faith_hostility:0 "Ваша [faith|El] получит #P -5#! к [Concept( 'faith_hostility', 'враждебности' )|E] с конфессиями, чьим [Concept( 'head_of_faith', 'главой' )|E] является Совет Восьми"
- faith_not_considered_evil:0 "Ваша [faith|El] не считается [Concept( 'faith_evil', 'воплощённым злом' )|E] архипримасом"
- incompatible_with_militant_faith: "#R Станет недоступно после#! использования [Concept('decision', 'решения')|E] $nords_militant_faith_decision$."
+ form_cote_gain_spiritual_head:0 "Все [Concept('faith', 'конфессии')|E] с доктриной [GetFaithDoctrine('special_doctrine_cyrodiilic_cult').GetBaseName] получат доктрины #TOOLTIP:GAME_FAITH_DOCTRINE,doctrine_spiritual_head духовного#! [Concept('head_of_faith', 'главы конфессии')|E] и #TOOLTIP:GAME_FAITH_DOCTRINE,doctrine_clerical_succession_spiritual_fixed_appointment духовного пожизненного духовенства#!"
+ form_cote_religious_head:0 "[GetTitleByKey('k_council_of_the_eight').GetName] станет вашим [Concept('head_of_faith', 'главой конфессии')|E]"
+ control_cyro_cult_counties:0 "Вы контролируете как минимум #V 75%#! [Concept( 'counties', 'графств' )|E] с [Concept('faiths', 'конфессиями')|E] с доктриной [GetFaithDoctrine('special_doctrine_cyrodiilic_cult').GetBaseName] в регионе [GetGeographicalRegion('mundus_tamriel_cyrodiil').GetName] (Текущее значение: [SCOPE.ScriptValue('cyro_cult_counties_percent_value')|0]%)"
 
  consult_xarxeans_decision:0 "Посоветоваться с зарксейцами"
  consult_xarxeans_decision_desc:0 "Преемственность в рамках церемониархии может быть сложным делом, учитывающим такие факторы, как истинное происхождение, чистота поведения, соответствие священным числам и многое другое... Непредвиденное наследование случалось крайне редко.\n\nНо жрецы Заркса, которым доверены тайные формулы и задача ведения родословной, всегда могут подсказать мне, кто из моих отпрысков наиболее пригоден для этого."
@@ -228,7 +228,8 @@
  claim_d_worm_kingdom:0 "Претендовать на лидерство в культе Червя"
  claim_d_worm_kingdom_desc:0 "После вознесения нашего лорда Маннимарко культ Червя был рассеян, лишенный централизованного руководства. Как [Select_CString(ROOT.Char.IsFemale, 'могущественная и уважаемая представительница', 'могущественный и уважаемый представитель' )] культа, я могу занять это положение."
  claim_d_worm_kingdom_tt:0 "Анахореты, слушайте меня и повинуйтесь!" 
- claim_d_worm_kingdom_effect:0 "[worm_kingdom.GetName] восстановлен под вашей властью"
+ claim_d_worm_kingdom_effect_1:0 "[worm_kingdom.GetName] восстановлен под вашей властью"
+ claim_d_worm_kingdom_effect_2:0 "[patron_trait|E] «[GetTrait('p_kw_wormking').GetName(GetNullCharacter)]» вновь доступно"
  claim_d_worm_kingdom_confirm:0 "Орден возрождён!"
 
  proclaim_disease_decision:0 "Вызвать болезнь"
@@ -419,3 +420,31 @@
  reveal_lycan_secret_decision_tooltip:0 "Раскрыть свою истинную природу"
  reveal_lycan_secret_decision_confirm:0 "#italic Повыть на луны#!"
  reveal_lycan_secret_decision_effect:0 "Объявить всему миру что вы — [GetTrait('lycan_character').GetName(GetNullCharacter)]"
+
+ #Tribute
+ tribute_mission_decision_tamriel:0 "$tribute_mission_decision$ державе [GetTitleByKey('h_tamriel').GetNameNoTierNoTooltip]"
+ tribute_mission_decision_desc_tamriel:0 "[GetTitleByKey('h_tamriel').GetHolder.GetTitleAsName|U] #ONCLICK:TITLE,h_tamriel #TOOLTIP:LANDED_TITLE,h_tamriel #L Тамриэлю#!#!#! $tribute_mission_decision_hegemony_common$"
+ tribute_mission_decision_tamriel_tooltip:0 "$tribute_mission_decision_tooltip$"
+ tribute_mission_decision_tamriel_confirm:0 "$tribute_mission_decision_confirm$"
+ tribute_mission_decision_effects_tamriel_tt:0 "Вы [Concept('travel', 'отправляетесь')|E] к #L [GetTitleByKey('h_tamriel').GetAdjective|l]ому#! [Concept('court', 'двору')|E], чтобы выплатить [Concept('tribute','дань')|E]"
+ tribute_mission_interaction_anticipated_rewards_tt_tamriel:0 "$tribute_mission_interaction_anticipated_rewards_tt_subject_standing$\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$BULLET_WITH_TAB$Возможность получить [GetTitleByKey('h_tamriel').GetHolder.GetCulture.GetCollectiveNounNoTooltip|l]ий [artifact_i][artifact|El]\n$BULLET_WITH_TAB$Возможность получить [GetTitleByKey('h_tamriel').GetHolder.GetFaith.GetNameNoTooltip|l]ого @skill_learning_icon! монаха"
+ neighboring_hegemon_title_tamriel:0 "[GetTitleByKey('h_tamriel').GetHolder.GetTitleAsNameNoTooltip]"
+ neighboring_hegemon_definitive_name_tamriel:0 "[GetTitleByKey('h_tamriel').GetDefinitiveNameNoTooltip]"
+
+ tribute_mission_decision_nordic_empire:0 "$tribute_mission_decision$ державе [GetTitleByKey('h_nordic_empire').GetNameNoTierNoTooltip]"
+ tribute_mission_decision_desc_nordic_empire:0 "[GetTitleByKey('h_nordic_empire').GetHolder.GetTitleAsName|U] #ONCLICK:TITLE,h_nordic_empire #TOOLTIP:LANDED_TITLE,h_nordic_empire #L Нордской империи#!#!#! $tribute_mission_decision_hegemony_common$"
+ tribute_mission_decision_nordic_empire_tooltip:0 "$tribute_mission_decision_tooltip$"
+ tribute_mission_decision_nordic_empire_confirm:0 "$tribute_mission_decision_confirm$"
+ tribute_mission_decision_effects_nordic_empire_tt:0 "Вы [Concept('travel', 'отправляетесь')|E] к #L [GetTitleByKey('h_nordic_empire').GetAdjective|l]ому#! [Concept('court', 'двору')|E], чтобы выплатить [Concept('tribute','дань')|E]"
+ tribute_mission_interaction_anticipated_rewards_tt_nordic_empire:0 "$tribute_mission_interaction_anticipated_rewards_tt_subject_standing$\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$BULLET_WITH_TAB$Возможность получить [GetTitleByKey('h_nordic_empire').GetHolder.GetCulture.GetCollectiveNounNoTooltip|l]ий [artifact_i][artifact|E]\n$BULLET_WITH_TAB$Возможность получить [GetTitleByKey('h_nordic_empire').GetHolder.GetFaith.GetNameNoTooltip|l]ого @skill_learning_icon! монаха"
+ neighboring_hegemon_title_nordic_empire:0 "[GetTitleByKey('h_nordic_empire').GetHolder.GetTitleAsNameNoTooltip]"
+ neighboring_hegemon_definitive_name_nordic_empire:0 "[GetTitleByKey('h_nordic_empire').GetDefinitiveNameNoTooltip]"
+
+ tribute_mission_decision_redguard_republic:0 "$tribute_mission_decision$ державе [GetTitleByKey('h_redguard_republic').GetNameNoTierNoTooltip]"
+ tribute_mission_decision_desc_redguard_republic:0 "[GetTitleByKey('h_redguard_republic').GetHolder.GetTitleAsName|U] #ONCLICK:TITLE,h_redguard_republic #TOOLTIP:LANDED_TITLE,h_redguard_republic #L Редгардской республики#!#!#! $tribute_mission_decision_hegemony_common$"
+ tribute_mission_decision_redguard_republic_tooltip:0 "$tribute_mission_decision_tooltip$"
+ tribute_mission_decision_redguard_republic_confirm:0 "$tribute_mission_decision_confirm$"
+ tribute_mission_decision_effects_redguard_republic_tt:0 "Вы [Concept('travel', 'отправляетесь')|E] к #L [GetTitleByKey('h_redguard_republic').GetAdjective|l]ому#! [Concept('court', 'двору')|E], чтобы выплатить [Concept('tribute','дань')|E]"
+ tribute_mission_interaction_anticipated_rewards_tt_redguard_republic:0 "$tribute_mission_interaction_anticipated_rewards_tt_subject_standing$\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$BULLET_WITH_TAB$Возможность получить [GetTitleByKey('h_redguard_republic').GetHolder.GetCulture.GetCollectiveNounNoTooltip|l]ий [artifact_i][artifact|E]\n$BULLET_WITH_TAB$Возможность получить [GetTitleByKey('h_redguard_republic').GetHolder.GetFaith.GetNameNoTooltip|l]ого @skill_learning_icon! монаха"
+ neighboring_hegemon_title_redguard_republic:0 "[GetTitleByKey('h_redguard_republic').GetHolder.GetTitleAsNameNoTooltip]"
+ neighboring_hegemon_definitive_name_redguard_republic:0 "[GetTitleByKey('h_redguard_republic').GetDefinitiveNameNoTooltip]"
