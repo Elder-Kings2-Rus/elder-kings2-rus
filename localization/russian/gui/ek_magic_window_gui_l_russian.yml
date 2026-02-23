@@ -1,4 +1,0 @@
-﻿l_russian:
-  BUTTON_SPELLBOOK: "Книга заклинаний"
-  BUTTON_RITUALS: "Ритуалы"
-  RITUAL_EFFECT: "#T [StaticModifier.GetName]#!\n[StaticModifier.GetDescWithEffects]"

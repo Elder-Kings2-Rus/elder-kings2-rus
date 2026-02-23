@@ -1,7 +1,0 @@
-﻿l_russian:
- #EK:EDIT Changed Tribal Court to Pirate Court
- court_tribal: "Пиратский двор"
- court_tribal_desc: "#low При дворе сила показывает кто прав - и залы будут украшены добычей и грабежом! \n\nПридворные приобретают свойства [GetTrait('warlike_court_1').GetName( GetNullCharacter )].#!"
- court_tribal_tooltip_desc: "Боевая доблесть и стойкость ценятся в $court_tribal$."
-
- NO_ROCO_WRONG_GOVERNMENT:1 "@warning_icon!#X У вас не [feudal_like_government|E] или [pirate_government|E]#!"

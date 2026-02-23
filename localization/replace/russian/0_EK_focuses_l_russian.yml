@@ -1,8 +1,0 @@
-﻿l_russian:
- 
-#Learning
- learning_medicine_focus:1 "Алхимия"
- learning_medicine_focus_modifier:1 "[GetFocus('learning_medicine_focus').GetName]"
- learning_medicine_focus_desc:0 "Понимание реагентов и способов их использования принесёт много пользы телу и душе."
- learning_medicine_focus_effect_desc:0 "Сосредоточение на алхимии даёт:"
- medicine_name:1 "Здоровое тело"

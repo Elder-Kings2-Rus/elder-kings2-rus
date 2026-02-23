@@ -1,9 +1,0 @@
-﻿l_russian:
-
- EVENT_WINDOW_OPTION_AVAILABLE_ALTERATION_PERK: "Эта возможность доступна благодаря тому, что у вас есть [perks|El] школы [alteration|E] "
- EVENT_WINDOW_OPTION_AVAILABLE_CONJURATION_PERK: "Эта возможность доступна благодаря тому, что у вас есть [perks|El] школы [conjuration|E]"
- EVENT_WINDOW_OPTION_AVAILABLE_DESTRUCTION_PERK: "Эта возможность доступна благодаря тому, что у вас есть [perks|El] школы [destruction|E]"
- EVENT_WINDOW_OPTION_AVAILABLE_ILLUSION_PERK: "Эта возможность доступна благодаря тому, что у вас есть [perks|El] школы [illusion|E]"
- EVENT_WINDOW_OPTION_AVAILABLE_RESTORATION_PERK: "Эта возможность доступна благодаря тому, что у вас есть [perks|El] школы [restoration|E]"
- EVENT_WINDOW_OPTION_AVAILABLE_ARCANA_SKILL: "Эта возможность доступна благодаря тому, что у вас есть высокий [skill|El] [Concept('arcana', 'арканы')|E]"
- EVENT_WINDOW_OPTION_AVAILABLE_VENERATION_OF_DISEASES: "Эта возможность доступна благодаря тому, что ваша [faith|El] имеет [doctrine|El] $tenet_veneration_of_diseases_name$"

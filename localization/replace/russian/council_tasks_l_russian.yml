@@ -1,3 +1,0 @@
-﻿l_russian:
- task_promote_culture_effect_desc:0 "#S При #V 100%#!#!:\n$TAB$ [county|E] изменит [Concept( 'culture', 'культуру' )|E] на #L[county.MakeScope.Var('culture_to_convert').Culture.GetCollectiveNoun]ую#!"
- task_promote_culture_acceptance_effect_desc:1 "\n$TAB$[cultural_acceptance|E] между #L [county.GetProvince.GetCounty.GetCulture.GetCollectiveNoun]ой#! и #L [county.MakeScope.Var('culture_to_convert').Culture.GetCollectiveNoun]ой#! уменьшится на [SCOPE.ScriptValue('culture_conversion_acceptance_impact')|N^/%]"

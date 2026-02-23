@@ -1,8 +1,0 @@
-﻿l_russian:
- control_duchy_capital:1 "Вы или ваш вассал контролируете столичную провинцию этого герцогства."
- subject_is_dynast_house_head_object:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][TARGET_CHARACTER.GetNamePossessiveOrMy|U][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' персонаж', '' )] - [Concept('house_head', 'глава дома')|E] или [Concept('dynasty', 'династии')|E] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] "
- subject_is_tributary_object: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][TARGET_CHARACTER.GetNamePossessiveOrMy|U][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' персонаж', '' )] - [Concept('suzerain', 'повелитель')|E] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] "
-
- MAGOCRATIC_CLAIMANT_IS_DISRUPTED:1 "[CHARACTER.GetShortUIName] – [GetTrait('disrupted').GetName( GetNullCharacter )] или [GetTrait('arcana_bad_3').GetName( GetNullCharacter )]"
- form_cyrodiil_legitimacy: "Ваш [legitimacy_level|El] должен быть выше 4. Или в ваших жилах должна течь драконья кровь."
- k_nibenay_decision_requirement:0 "Этот титул должен быть изначально создан через [Concept('decision', 'решения')|E] #V '$establish_new_nibenay_kingdom_decision$'#! или #V '$restore_nenalata_decision$'#! "

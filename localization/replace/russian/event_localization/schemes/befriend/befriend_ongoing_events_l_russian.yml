@@ -1,4 +1,0 @@
-﻿l_russian:
- befriend_ongoing.4060.desc:0 "Ходят слухи, что [target.GetTitledFirstName] превосходно владеет клинком. Говорят даже, что мало кто может продержаться против н[target.GetHerHis] дольше нескольких мгновений."
- befriend_ongoing.4064.a.desc:0 "[target.GetTitledFirstName] и я встретились для дружеского поединка, держа мечи. После двух чудесных часов звенящего танца из выпадов и блоков мы задержались еще на три для обсуждения техники и тактики."
- befriend_ongoing.6008.desc:0 "Похоже, [owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'отпустила', 'отпустил' )] меня не просто так. Освобождение [Select_CString(target.IsFemale, 'организовала', 'организовал' )] [Select_CString(target.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.GetTitledFirstName]!"

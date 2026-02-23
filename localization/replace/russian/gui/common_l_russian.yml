@@ -1,4 +1,0 @@
-﻿l_russian:
- VERSION_SHORT:0 "[GetGameVersionInfoShort], Контрольная сумма: [GetMPChecksum] $MODIFIED_CHECKSUM$\nElder Kings II - $EK_VERSION$"
-  #EK EDIT: original refers directly to the Great Steppe instead of whatever situation is happening
- SITUATION_START_EVENT_DESC: "#high В этой [Concept('situation', 'ситуации')|E] вы — один из участников группы «[Situation.GetParticipantGroupByCharacter( Character.Self ).GetNameNoTooltip]» в [Situation.GetNameNoTooltip].#!"

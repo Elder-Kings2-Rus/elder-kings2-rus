@@ -1,2 +1,0 @@
-﻿l_russian:
- elope.1001.end.desc:0 "Свет приближается, и мы уже можем различить два силуэта. Насколько можно видеть, у одного меч. Другой же... должно быть, это #EMP [target.GetSheHe]#!!\n\nЯ бегу навстречу, и [Select_CString(target.IsFemale, 'моя', 'мой' )] [target.Custom('LoverPetName')] бросается в мои объятия. Они быстрые, но сладкие, как мед. [target.GetHerHis|U] [target.Custom('HandClawPaw')] оказывается в моей и я пускаюсь бежать."

@@ -1,5 +1,0 @@
-﻿l_russian:
- seize_realm_valid_government_tt: "У [Select_CString(THIS.Char.IsLocalPlayer, '','персонажа ')][THIS.Char.GetShortUINamePossessive][Select_CString(THIS.Char.IsLocalPlayer, 'его персонажа','')] должна быть форма [Concept('government','правления')|E] [GetGovernment('feudal_government').GetName], [GetGovernment('autocracy_government').GetName], [GetGovernment('pirate_government').GetName] или [GetGovernment('tribal_government').GetName]" 
- 
- ### Reflavored Contracts to Quests ###
- evict_adventurer_interaction.tt.contracts_invalidated.t: "Изгнание аннулирует квесты"

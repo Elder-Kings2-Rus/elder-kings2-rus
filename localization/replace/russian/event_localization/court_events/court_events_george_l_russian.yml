@@ -1,7 +1,0 @@
-﻿l_russian:
-
-
- court.7600.desc:1 "[Select_CString(child.IsFemale, 'Моя', 'Мой' )] [child.Custom('GetDaughterSon')] [child.GetName] врывается в тронный зал с лицом, заляпанным грязью и кровью! Я замираю в ужасе и собираюсь отчитать [child.GetHerHis], как вдруг входит $master_of_hunt_court_position$ [huntmaster.GetFirstName], тоже в грязи и крови и с улыбкой до ушей.\n\n«[Select_CString(ROOT.Char.IsFemale, 'Госпожа', 'Господин' )], [child.GetName] заслуживает похвалы! Во время охоты [child.GetHerHim] удалось свалить могучего зверя, это лучшая добыча в этом году!»\n\nПросто слов нет. Мне вообще не было известно, что [child.GetSheHe] охотится!"
- 
- court.7630.c.speaker:0 "#italic "Почему бы вам обоим не разделить этот триумф?"#"
- court.7630.c.speaker.flavor:0 "Мой глашатай может изложить моё дело, если я того пожелаю."

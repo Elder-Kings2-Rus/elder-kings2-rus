@@ -1,7 +1,0 @@
-﻿l_russian:
- duel_for_claim_interaction_desc:0 "Правят лишь сильнейшие!"
- duel_for_claim_interaction.challenge_rejected.t:0 "[recipient.GetFirstNameNoTooltip] Отклонил вызов"
- duel_for_claim_default_interaction.challenge_rejected.t:0 "[recipient.GetFirstNameNoTooltip] Отклонил вызов"
-
- HIEROCRACY_USE_DEVOTION:0 "Провозгласить божественную заповедь"
- revoke_title_interaction_effect_hierocracy_use_devotion_tt:0 "Потратив значительную сумму [Concept('piety_experience', 'благочестия')|E], я смогу провозгласить приказ от Божественного и избежать того, чтобы меня считали [Concept('tyrant', 'тираном')|E]"

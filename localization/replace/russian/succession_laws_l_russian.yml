@@ -1,9 +1,0 @@
-﻿l_russian:
- saxon_elective_succession_law:1 "Бретонские выборы" #Note:Not sure we want this for Northmen or any Breton as it is very biased against succession in a single family, contrary to what we know. Feudal Elective is fine really
- saxon_elective_succession_law_subname:0 "Пэрство"
- scandinavian_elective_succession_law:1 "Народные выборы" #Ashlanders
- scandinavian_elective_succession_law_subname:0 "Преемственная ассамблея"
- succession_laws_must_have_valid_tanistry_culture:1 "У вас #bold нет#! подходящего [Concept( 'heritage', 'наследия' )|E]."
-
-
- 
