@@ -36,6 +36,7 @@
  ek_stress_threshold.0201.stress_vengeful_azura:0 "Мои враги будут раздавлены и уничтожены! $azura$ пообещала мне"
  ek_stress_threshold.0201.stress_vengeful_malacath:0 "Мои враги будут раздавлены и уничтожены! $malacath$ пообещал мне!"
  ek_stress_threshold.0201.stress_wrathful_mehrunes:0 "Убирайтесь! Все вы! Только $mehrunes_alt$ имеет здесь какой-то смысл!"
+ ek_stress_threshold.0201.stress_wrathful_molag:0 "Вон отсюда! Абсолютно все! Из вас всех только $molag_alt$ говорит дело!"
  ek_stress_threshold.0201.stress_zealous_meridia:0 "Я чувствую горящий свет в глубине моего сердца и моей души...."
  # Perks
  ek_stress_threshold.0201.stress_administrator_peryite:0 "Скоро все придет в порядок... Этого хочет $peryite$..."
@@ -47,11 +48,11 @@
  ek_stress_threshold.0201.stress_seducer_sanguine:0 "Одно из первых учений, которые преподал $sanguine_alt$..."
  ek_stress_threshold.0201.stress_torturer_molag:0 "Мне нужно, чтобы кто-то встал на дыбы... Того желает $molag$..."
  # Lifestyles
- ek_stress_threshold.0201.stress_herbalist_vaermina:0 "$vaermina$ шепчет возле алхимического алтаря..."
- ek_stress_threshold.0201.stress_hunter_hircine:0 "Я буду охотиться под личиной $hircine$а!"
- ek_stress_threshold.0201.stress_mystic_hermaeus:0 "$hermaeus_alt$ поможет мне познать тайны Аурбиса!"
- ek_stress_threshold.0201.stress_mystic_mehrunes:0 "Эзотерические тексты и секреты, которые таит $mehrunes$, скоро станут моими..."
- ek_stress_threshold.0201.stress_reveler_sanguine:0 "Почему мы все не такие, как $sanguine_alt$?"
+ ek_stress_threshold.0201.stress_lifestyle_herbalist_vaermina:0 "$vaermina$ шепчет возле алхимического алтаря..."
+ ek_stress_threshold.0201.stress_lifestyle_hunter_hircine:0 "Я буду охотиться под личиной $hircine$а!"
+ ek_stress_threshold.0201.stress_lifestyle_mystic_hermaeus:0 "$hermaeus_alt$ поможет мне познать тайны Аурбиса!"
+ ek_stress_threshold.0201.stress_lifestyle_mystic_mehrunes:0 "Эзотерические тексты и секреты, которые таит $mehrunes$, скоро станут моими..."
+ ek_stress_threshold.0201.stress_lifestyle_reveler_sanguine:0 "Почему мы все не такие, как $sanguine_alt$?"
  # Genetic
  ek_stress_threshold.0201.stress_beauty_good_azura:0 "Я и только я [Select_CString(ROOT.GetCharacter.IsFemale, 'достойна', 'достоин' )] идеального света, которым владеет $azura$!"
  ek_stress_threshold.0201.stress_beauty_bad_malacath:0 "Они насмехаются надо мной... отвергают меня... Но $malacath$ принимает таких как я..."

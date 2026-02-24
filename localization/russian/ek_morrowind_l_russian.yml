@@ -133,7 +133,7 @@
  vivec_fled:0 "Вивек потерял интерес"
  vivec_one_eyed:0 "Вивек вырвал глаз персонажа [army_commander.GetFirstName]"
  vivec_lunatic:0 "Вивек свёл персонажа [army_commander.GetFirstName] с ума"
- vivec_disrupted: "Вивек подорвал магические способности персонажа [army_commander.GetFirstName]"
+ vivec_disrupted: "Вивек истощил ману персонажа [army_commander.GetFirstName]"
  vivec_teleported:0 "Вивек телепортировал армию персонажа [army_commander.GetFirstName]"
  vivec_death: "Вивек убил персонажа [army_commander.GetFirstName]"
  vivec_dies_irae:0 "Вивек покарал персонажа [army_commander.GetFirstName] за дерзость"

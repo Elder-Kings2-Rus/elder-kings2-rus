@@ -409,7 +409,7 @@
  ek_daedric_artifacts.0049.a.distant:0 "Всё это скоро закончится."
  ek_daedric_artifacts.0049.a.neighbor:0 "Мы должны подготовиться. Впереди нас ждут трудности."
 
- ek_daedric_artifacts.0050.t:0 "[Select_CString(meridias_champion.IsFemale, 'Избранница', 'Избранник' )] Бесконечного Света"
+ ek_daedric_artifacts.0050.t:0 "[Select_CString(meridias_champion.IsFemale, 'Избранница', 'Избранник' )] Бесконечного Энергий"
  ek_daedric_artifacts.0050.desc:0 "Вестники сообщают о том, что $meridia_alt$ получила нового избранника, [Select_CString(meridias_champion.IsFemale, 'самопровозглашённую исполнительницу', 'самопровозглашённого исполнителя' )] воли Князя в этом мире.\n\n[Select_CString(meridias_champion.IsFemale, 'Носящая', 'Носящий' )] [meridias_champion.GetHerHis] знак отличия, вдохновляющий меч, сияющий звёздным светом, [meridias_champion.GetSheHe] обязательно вызовет неприятности..."
  ek_daedric_artifacts.0050.a.distant:0 "Всё это скоро закончится."
  ek_daedric_artifacts.0050.a.neighbor:0 "Мы должны подготовиться. Впереди нас ждут трудности."
@@ -434,7 +434,7 @@
  ek_daedric_artifacts.0054.a.distant:0 "Всё это скоро закончится."
  ek_daedric_artifacts.0054.a.neighbor:0 "Мы должны подготовиться. Впереди нас ждут трудности."
 
- ek_daedric_artifacts.0055.t:0 "[Select_CString(mehrunes_champion.IsFemale, 'Избранница', 'Избранник' )] Амбиций"
+ ek_daedric_artifacts.0055.t:0 "[Select_CString(mehrunes_champion.IsFemale, 'Избранница', 'Избранник' )] Разрушения"
  ek_daedric_artifacts.0055.desc:0 "Вестники сообщают о том, что $mehrunes_alt$ получил нового избранника, [Select_CString(mehrunes_champion.IsFemale, 'самопровозглашённую исполнительницу', 'самопровозглашённого исполнителя' )] воли Князя в этом мире.\n\n[Select_CString(mehrunes_champion.IsFemale, 'Носящая', 'Носящий' )] [mehrunes_champion.GetHerHis] знак отличия, страшный кинжал, убивающий любого, к кому прикасается, [mehrunes_champion.GetSheHe] обязательно вызовет неприятности..."
  ek_daedric_artifacts.0055.a.distant:0 "Всё это скоро закончится."
  ek_daedric_artifacts.0055.a.neighbor:0 "Мы должны подготовиться. Впереди нас ждут трудности."
@@ -444,7 +444,7 @@
  ek_daedric_artifacts.0056.a.distant:0 "Всё это скоро закончится."
  ek_daedric_artifacts.0056.a.neighbor:0 "Мы должны подготовиться. Впереди нас ждут трудности."
 
- ek_daedric_artifacts.0057.t:0 "[Select_CString(namiras_champion.IsFemale, 'Избранница', 'Избранник' )] Тьмы"
+ ek_daedric_artifacts.0057.t:0 "[Select_CString(namiras_champion.IsFemale, 'Избранница', 'Избранник' )] Разложения"
  ek_daedric_artifacts.0057.desc:0 "Вестники сообщают о том, что $namira_alt$ получила нового избранника, [Select_CString(namiras_champion.IsFemale, 'самопровозглашённую исполнительницу', 'самопровозглашённого исполнителя' )] воли Князя в этом мире.\n\n[Select_CString(namiras_champion.IsFemale, 'Носящая', 'Носящий' )] [namiras_champion.GetHerHis] знак отличия, могущественное кольцо, по слухам, наделяющее силой тех, кто практикует каннибализм, [namiras_champion.GetSheHe] обязательно вызовет неприятности..."
  ek_daedric_artifacts.0057.a.distant:0 "Всё это скоро закончится."
  ek_daedric_artifacts.0057.a.neighbor:0 "Мы должны подготовиться. Впереди нас ждут трудности."
@@ -459,7 +459,7 @@
  ek_daedric_artifacts.0059.a.distant:0 "Всё это скоро закончится."
  ek_daedric_artifacts.0059.a.neighbor:0 "Мы должны подготовиться. Впереди нас ждут трудности."
 
- ek_daedric_artifacts.0060.t:0 "Вампирский клинок" #draft event loc, needs peer review
+ ek_daedric_artifacts.0060.t:0 "Вампирский клинок"
  ek_daedric_artifacts.0060.descworthy:0 "Я осматриваю свою катану, и тут её острое лезвие задевает кожу, оставляя небольшой порез. Я тут же ощущаю, как крошечная часть моей жизненной силы утекает прочь. Потом я чувствую чужое присутствие, и таинственный голос шепчет мне на ухо. «Хорошо, ты [Select_CString(ROOT.Char.IsFemale, 'нашла', 'нашёл' )] мой клинок. Чувствуешь его силу? Чувствуешь его... голод? Ты станешь [Select_CString(ROOT.Char.IsFemale, 'достойной носительницей', 'достойным носителем' )] моего клинка. Пока он в твоих руках – ты будешь впитывать силу каждого поверженного врага. Иди же, сея ужас и смуту по земле во имя Мефалы!»"
  ek_daedric_artifacts.0060.descunworthy:0 "Я осматриваю свою катану, и тут её острое лезвие задевает кожу, оставляя небольшой порез. Я тут же ощущаю, как крошечная часть моей жизненной силы утекает прочь. Потом я чувствую чужое присутствие, и таинственный голос шепчет мне на ухо. «Ты [Select_CString(ROOT.Char.IsFemale, 'нашла', 'нашёл' )] мой клинок. Чувствуешь его силу? Чувствуешь его... голод? Ты [Select_CString(ROOT.Char.IsFemale, 'недостойна', 'недостоин' )] носить его. Верни клинок немедленно – или познай последствия!»"
  ek_daedric_artifacts.0060.a:0 "Благодарю тебя за дар, Прядильщица."
@@ -472,17 +472,17 @@
  ek_daedric_artifacts.0061.b:0 "Я приношу клятву служения, Чумной лорд."
  ek_daedric_artifacts.0061.c:0 "Сгинь, во имя [ROOT.GetCharacter.GetFaith.HighGodNamePossessive]!"
  
- ek_daedric_artifacts.0062.t:0 "[Select_CString(nocturnals_champion.IsFemale, 'Избранница', 'Избранник' )] теней" #draft title
+ ek_daedric_artifacts.0062.t:0 "[Select_CString(nocturnals_champion.IsFemale, 'Избранница', 'Избранник' )] теней"
  ek_daedric_artifacts.0062.desc:0 "Вестники сообщают о том, что $nocturnal_alt$, получила нового избранника, [Select_CString(nocturnals_champion.IsFemale, 'самопровозглашённую исполнительницу', 'самопровозглашённого исполнителя' )] воли Князя в этом мире.\n\n[Select_CString(nocturnals_champion.IsFemale, 'Носящая', 'Носящий' )] [nocturnals_champion.GetHerHis] знак отличия – легендарный лук, по слухам, способный наделять своего владельца невидимость и великой стремительностью – [nocturnals_champion.GetSheHe] обязательно вызовет неприятности..."
  ek_daedric_artifacts.0062.a.distant:0 "Всё это скоро закончится."
  ek_daedric_artifacts.0062.a.neighbor:0 "Мы должны подготовиться. Впереди нас ждут трудности."
  
- ek_daedric_artifacts.0063.t:0 "[Select_CString(mephalas_champion.IsFemale, 'Избранница', 'Избранник' )] вражды" #draft title
+ ek_daedric_artifacts.0063.t:0 "[Select_CString(mephalas_champion.IsFemale, 'Избранница', 'Избранник' )] шёпота"
  ek_daedric_artifacts.0063.desc:0 "Вестники сообщают о том, что $mephala_alt$, получила нового избранника, [Select_CString(mephalas_champion.IsFemale, 'самопровозглашённую исполнительницу', 'самопровозглашённого исполнителя' )] воли Князя в этом мире.\n\n[Select_CString(mephalas_champion.IsFemale, 'Носящая', 'Носящий' )] [mephalas_champion.GetHerHis] знак отличия – тёмный клинок, по слухам, способный поглощать жизненную сущность жертв – [mephalas_champion.GetSheHe] обязательно вызовет неприятности..."
  ek_daedric_artifacts.0063.a.distant:0 "Всё это скоро закончится."
  ek_daedric_artifacts.0063.a.neighbor:0 "Мы должны подготовиться. Впереди нас ждут трудности."
  
- ek_daedric_artifacts.0064.t:0 "[Select_CString(peryites_champion.IsFemale, 'Избранница', 'Избранник' )] чумы" #draft title
+ ek_daedric_artifacts.0064.t:0 "[Select_CString(peryites_champion.IsFemale, 'Избранница', 'Избранник' )] чумы"
  ek_daedric_artifacts.0064.desc:0 "Вестники сообщают о том, что $peryite_alt$, получил нового избранника, [Select_CString(peryites_champion.IsFemale, 'самопровозглашённую исполнительницу', 'самопровозглашённого исполнителя' )] воли Князя в этом мире.\n\n[Select_CString(peryites_champion.IsFemale, 'Носящая', 'Носящий' )] [peryites_champion.GetHerHis] знак отличия – древний щит, по слухам, способный отражать любое заклинание, направленное на его владельца – [peryites_champion.GetSheHe] обязательно вызовет неприятности..."
  ek_daedric_artifacts.0064.a.distant:0 "Всё это скоро закончится."
  ek_daedric_artifacts.0064.a.neighbor:0 "Мы должны подготовиться. Впереди нас ждут трудности."
@@ -1056,6 +1056,8 @@
  ek_faith_events.0004.desc:0 "Без руководства лорда [previous_worm_king.GetFirstName] власть Ордена Чёрного Червя рушится, а его духовенство разбегается. Однако их работа не закончена, поскольку повеление, произнесенное прежним господином при жизни, по-прежнему остаётся в силе:\n\n#italic Стыдите жрецов Аркея...\nВсе типы нежити должны служить мне и только мне.\nКак всегда, ждите в темноте...#!\n\nТолько истинный мастер, некромант, почти сравнимый по способностям с самим Богом Червей, может надеяться вернуть себе абсолютную религиозную власть над анахоретами."
  ek_faith_events.0004.option:0 "Мы вечно служим вам!"
  ek_faith_events.0004.flavor:0 "Достаточно могущественный и благочестивый [GetTrait('necromancer').GetName( GetNullCharacter )] [worm_cult.GetName] конфессии может претендовать на лидерство в Ордене Чёрного Червя, став его [Concept('head_of_faith', 'главой конфессии')|E]."
+ enable_mannimarco_patron: "[patron_trait|E] «[GetTrait('p_kw_mannimarco').GetName(GetNullCharacter)]» становится доступным"
+ disable_wormking_patron: "[patron_trait|E] «[GetTrait('p_kw_wormking').GetName(GetNullCharacter)]» становится доступным"
 
  ek_faith_events.0005.t:0 "[Select_CString(ROOT.Char.IsFemale, 'Новая', 'Новый' )] [ROOT.Char.GetLadyLord|U] Червей"
  ek_faith_events.0005.desc:0 "После того как наш любимый [mannimarco.GetTitledFirstName] стал богом, Орден Чёрного Червя распался, поскольку никто не был достаточно авторитетен, чтобы взять бразды правления в свои руки. Но Культ Червя выжил, и все надеялись, что однажды придёт наследник Короля Червей, чтобы занять законное место [Select_CString(ROOT.Char.IsFemale, 'повелительницы', 'повелителя' )] некромантов.\n\nЭтот день настал, и, глядя на своих собравшихся трэллов, я знаю, что на этот раз всё будет по-другому. Это будет не просто культ личности нашего Бога-Короля. Новый реформированный Орден будет существовать долгие века и переживёт саму смерть."
