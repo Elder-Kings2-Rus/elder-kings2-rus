@@ -1,0 +1,51 @@
+﻿l_russian:
+ feudal_government_desc:0 "\n$game_concept_feudal_desc$\n\n#F Феодализм — форма правления, восходящая к временам, когда эльфы властвовали над бретонскими народами. Когда гегемония Диренни над Хай Роком рухнула, их бывшие подданные унаследовали сложную систему данничества, основанную на формализованных отношениях с наследуемыми обязательствами. В этих обществах контроль над городами и замками определяет обязательства по передаче [Concept('taxes', 'налогов')|E] и [Concept('soldiers', 'ополчения')|E].#!"
+ tribal_government_desc:0 "\n$game_concept_tribal_desc$\n\n#F В племени нет ничего важнее силы. Племенной вождь опирается на уважение и славу, чтобы развивать свою державу и укреплять армии.#!"
+ 
+
+ jizya_special_rights:0 "Религиозный налог"
+ jizya_special_rights_granted:0 "Назначен религиозный налог"
+ jizya_special_rights_granted_short:0 "Назначен"
+ iqta_special_rights:0 "Налоговое хозяйство"
+ iqta_special_rights_granted:0 "Налоговое хозяйство даровано"
+ iqta_special_rights_granted_short:0 "Даровано"
+ ghazi_special_rights:0 "Защитник веры"
+ ghazi_special_rights_granted:0 "Провозглашён защитник веры"
+ ghazi_special_rights_granted_short:0 "Провозглашён"
+ 
+ #Tax decrees
+ 
+  jizya_special_rights_tax_collector: "Религиозный налог"
+  jizya_special_rights_tax_collector_desc: "#emphasis #bold Привилегии [Concept('vassal','вассала')|E]:#!#!\n[Concept('liege','Сюзерен')|E] не может [Concept('demand_conversion','требовать обращения')|E] [Concept('vassal','вассала')|E]\n[Concept('liege','Сюзерен')|E] не может [Concept('convert_county','обращать графства')|E] в землях [Concept('vassal','вассала')|E]\n[Concept('liege','Сюзерен')|E] не может использовать различия в [Concept('faith','конфессии')|E], чтобы избежать получения [Concept('tyranny','тирании')|E] при отъеме титулов\n[Concept('liege','Сюзерен')|E] не может отнять [Concept('titles','титулы')|E] у [Concept('vassals_possessive','вассалов')|E]\n\n#flavor [Concept('vassal','Вассалу')|E] гарантируется неотъемлемое право на [Concept('titles','титулы')|E], и [Concept('liege','сюзерен')|E] не может отнять их, даже если у него есть соответствующий [Concept('revoke_title_reason','повод')|E].\n\n$game_concept_vassal|U$ получает особую защиту, а держава официально признает его право на свободу [Concept('faith','вероисповедания')|E].#!"
+  jizya_special_rights_tax_collector_flavor_desc: "Это особый налог на религиозные меньшинства в обмен на привилегию мирно исповедовать свою неправильную конфессию."
+  unlock_jizya_contract_name: "[core_tenet|E] «[GetFaithDoctrine('tenet_tax_nonbelievers').GetBaseName]»"
+ 
+  jizya_special_rights:0 "$jizya_special_rights_tax_collector$" 
+  jizya_special_rights_default:0 "$jizya_special_rights$ по умолчанию" 
+  jizya_special_rights_default_short:0 "По умолчанию" 
+  jizya_special_rights_granted:0 "$jizya_special_rights$ навязан" 
+  jizya_special_rights_granted_desc:0 "$jizya_special_rights_tax_collector_desc$" 
+  jizya_special_rights_granted_short:0 "Даровано"
+ 
+ 
+  iqta_special_rights_tax_collector: "Налоговое хозяйство"
+  iqta_special_rights_tax_collector_desc: "У [Concept( 'vassal', 'вассала' )|E] меньше обязательств, но он помогает содержать [Concept( 'men_at_arms', 'профессиональные полки' )|E] [Concept( 'liege', 'сюзерена' )|E]."
+  iqta_special_rights_tax_collector_flavor_desc: "В системе налогового хозяйства местные магнаты получают широкие полномочия по сбору налогов от имени государства."
+ 
+ 
+  ghazi_special_rights_tax_collector: "Защитник веры"
+  ghazi_special_rights_tax_collector_desc: "#emphasis #bold Привилегии [Concept( 'vassal', 'вассала' )|E]:#!#!\n[Concept('vassal', 'Вассал')|E] тратит меньше [Concept( 'piety', 'благочестия' )|E] на [Concept('casus_bellis', 'казус белли')|E] «[Concept('holy_war', 'Священная война')|E]», но больше [prestige_i][Concept( 'prestige', 'престижа' )|E] на другие [Concept('casus_bellis', 'казус белли')|E]\n\n#flavor [Concept('liege', 'Сюзерен')|E] объявляет [Concept( 'vassal', 'вассала' )|E] защитником [Concept( 'faith', 'веры' )|E], которому вменяется расширять границы посредством [Concept( 'holy_war', 'священной войны' )|E].#!"
+  ghazi_special_rights_tax_collector_flavor_desc: "Воины конфессии, защищающие рубежи державы, ведут бесконечную войну против религиозных врагов государства."
+ 
+ 
+  deqhan_special_rights_tax_collector: "Децентрализованный налог"
+  deqhan_special_rights_tax_collector_flavor_desc: "В децентрализованной системе сбора налогов правители тщательно контролируют свои земли, чтобы получать больше дохода и поддерживать собственную репутацию."
+ 
+  maguh_special_rights_tax_collector: "Право на совет"
+  maguh_special_rights_tax_collector_flavor_desc: "Местным представителям предоставляются льготы для помощи в управлении их землями, а их советы выступают посредниками между правителем и подданными."
+ 
+  muqata_special_rights_tax_collector: "Покорение фронтира"
+  muqata_special_rights_tax_collector_flavor_desc: "Фронтиры не могут бесконечно оставаться пограничьем. Самым отдалённым землям предоставляется автономия и удержание доходов в свою пользу, чтобы способствовать стабильности, лояльности и развитию."
+  
+  strict_taxation_tax_collector: "Налог на роскошь"
+  strict_taxation_tax_collector_flavor_desc: "Налог на роскошь, который обычно взимается с богачей для дополнительного дохода в казну и помощи нуждающимся."

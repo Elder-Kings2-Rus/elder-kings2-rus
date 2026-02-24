@@ -35,7 +35,10 @@
  
  trait_order_member_ordinator:0 "Ординатор"
  trait_order_member_character_ordinator_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] служит [ROOT.Char.GetFaith.HighGodName] в качестве ординатора."
- 
+
+ trait_order_member_mane:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Забытая', 'Забытый')] Грива"
+ trait_order_member_character_mane_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился')] под Третьей Луной, но не [Select_CString(ROOT.GetCharacter.IsFemale, 'была избрана', 'был избран')] Гривой." 
+
  trait_knight_errant: "Странствующий герой"
  trait_knight_errant_character: "Странствующий герой"
  trait_knight_errant_desc: "Этот персонаж – прославленный герой. Он защищает слабых, оберегает беззащитных и карает порочных."

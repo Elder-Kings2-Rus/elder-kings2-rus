@@ -32,9 +32,9 @@
  game_concept_religious_family_desc:0 "$game_concept_religious_family$ — группа религий. $game_concept_religious_family$ определяет, как различные [religions|El] и их [faiths|El] относятся друг к другу.\n\nВ религиях тех, кто поклоняется [GetReligionFamily('rf_aedra').GetName], могут возникать [Concept( 'heresy', 'ереси' )|El].\n\n[GetReligionFamily('rf_daedra').GetName] поклоняются даэдрическим князьям. Конфессии, которые считают поклонение даэдра [Concept( 'criminal', 'преступным' )|E], будут считать большинство конфессий [GetReligionFamily('rf_daedra').GetName] воплощённым злом. В религиях возникают [Concept( 'heresy', 'ереси' )|El].\n\n[GetReligionFamily('rf_aurbis').GetName] поклоняется иным великим силам вселенной. Некоторые верования в этой семье по-прежнему могут быть связаны с аэдрическим или даэдрическим покровителем, но в целом они не фокусируются ни на одной из этих двух категорий. В религиях возникают [Concept( 'heresy', 'ереси' )|El]."
 
 # Culture Era replacements
- game_concept_tribal_desc:0 "У племенных королевств замедленно [Concept('development', 'развитие')|E], они не могут продвинуться дальше $culture_era_tribal$ [Concept('innovations', 'инноваций')|E], не могут строить новые [Concept('holdings', 'владения')|E] и обычно не могут изменить [Concept('succession_law', 'закон о наследовании')|E].\n\n Однако, они могут использовать [Concept('prestige', 'престиж')|E] вместо [Concept('gold', 'золота')|E] для строительства зданий и найма [Concept('men_at_arms', 'ополчения')|E], и имеют доступ к большему количеству [Concept('casus_belli', 'казус белли')|E] по сравнению с [Concept('feudal', 'феодальными')|E] королевствами. Армии неплеменных стран страдают от штрафа [Concept('supply_limit', 'ограничение снабжения')|E], находясь на территории враждебных племен."
+ game_concept_tribal_desc:0 "Племенные державы медленно [Concept( 'development', 'развиваются' )|El] и не могут создавать новые [holding|El], однако по сравнению с [Concept( 'feudal', 'феодальными' )|El] государствами они имеют доступ к дополнительным [casus_belli|El] и используют [Concept( 'house_unity', 'единство дома' )|E]. На их территории у враждебных армий неплеменных держав снижается [supply_limit|El]."
 
- game_concept_era_desc:1 "[Concept('innovations', 'инновации')|E] могут быть открыты, только если [Concept('culture', 'культура')|E] достигла требуемой эры. Следующая эра может начаться только после определенного года, и если было открыто не менее #V 50%#! инноваций предыдущей эры.\n\n[Concept('tribal_government', 'Племенные')|E] Правители могут использовать только $culture_era_tribal$ инновации."
+ game_concept_era_desc:1 "[innovations|E] можно открыть, когда [culture|El] достигает соответствующей эпохи. Новая эпоха наступает в определенный год, и только когда не менее #V 50%#! инноваций предыдущей эпохи уже открыто."
 
 # Barony to Lordship Tier replacement
  game_concept_barony_desc:0 "$game_concept_baronies$ — самые низкие [titles|El] и самые мелкие землевладения на карте. Они образуют более крупные [counties|El].\n\nЭти титулы всегда должны иметь [Concept('holder', 'владетеля')|E]."
@@ -42,13 +42,28 @@
  game_concept_county_desc:0 "$game_concept_county$ - это [Concept('titles', 'титул')|E] рангом ниже [Concept('duchy', 'герцогства')|E] и выше [Concept('barony', 'баронства')|E].\n\nТитул включает [Concept('county_capital', 'столицу')|E] графства, а также [Concept('de_jure', 'де-юре')|E] права на все лордства в графстве.\n\n\nCounties всегда имеют [Concept('holder', 'наместника')|E], так как столицы графств не могут быть разрушены."
 
  # Empire to High Kingdom replacement
- game_concept_title_desc:1 "$game_concept_title$ - это, по сути, свидетельство о праве на землю.\n\nНаименьшая единица земли на карте - [Concept('barony', 'баронство')|E]. $game_concept_baronies$ организованы в более крупные области, называемые [Concept('counties', 'графствами')|E]. Графства [Concept('de_jure', 'де-юре')|E] принадлежат [Concept('duchy', 'герцогству')|E], герцогства - [Concept('kingdom', 'королевству')|E], а королевства - [Concept('empire', 'империи')|E].\n\nГерцогства, королевства и верховные королевства не всегда имеют [Concept('holder', 'владельца')|E], но являются титулами, которые могут быть [Concept('created', 'созданы')|E] правителем, контролирующим достаточную часть соответствующей территории."
+ game_concept_title_desc:1 "$game_concept_title$ — это, в сущности, статус землевладельца.\n\nНаименьшим земельным наделом считается [barony|El]. Из них состоят более крупные территории, называемые [counties|El]. Графствами [de_jure|El] владеет [duchy|El], герцогствами — [kingdom|El], а над королевством простирает власть [empire|El].\n\nУ герцогств, королевств и верховных королевств не всегда есть [holder|El], но такой титул может [Concept( 'created', 'создать')|E] правитель, контролирующий достаточное количество соответствующих территорий."
+ #"An" to "a"
+ game_concept_king_desc: "$game_concept_king$ — это [Concept('ruler', 'правитель')|E], чьим [Concept('primary_title', 'первым титулом')|E] является [Concept('kingdom', 'королевство')|E].\n\nПо [Concept('rank', 'рангу')|E] король стоит выше [Concept('dukes', 'герцога')|E] и ниже [Concept('emperors', 'верховного короля')|E]. [Concept('vassals', 'Вассалами')|E] короля могут быть герцоги и ниже, а его [Concept('liege', 'сюзереном')|E] может быть как минимум верховный король."
  
  game_concept_empire:0 "Верховное королевство"
  game_concept_empires:0 "Верховные королевства"
- game_concept_emperor:0 "Верховный король/королева"
- game_concept_emperors:0 "Верховные короли/королевы"
- game_concept_empire_desc:1 "$game_concept_empires$ — [Concept( 'titles', 'титулы' )|E] высочайшего ранга.\n\n[holder|E] верховного королевства имеет [Concept( 'de_jure', 'де-юре' )|E] права на все входящие в нее территории, а короли могут быть его [Concept( 'vassals', 'вассалами' )|E].\n\nЕсли у верховного королевства нет владетеля, титул может стать спящим. Титул может создать [Concept( 'ruler', 'правитель' )|E], контролирующий более 80% графств в пределах верховного королевства.\n\n#italic "Есть только одна Империя в Тамриэле и только одна Империя в мире. Это, братья и сёстры мои, Империя Сиродила."#!"
+ game_concept_emperor:0 "Верховный король"
+ game_concept_emperors:0 "Верховные короли"
+ game_concept_empire_desc: "$game_concept_empire$ — это [Concept('title', 'титул')|E], стоящий [Concept('title_tier', 'уровнем')|E] ниже [Concept('hegemony', 'гегемонии')|E] и выше [Concept('kingdom', 'королевства')|E].\n\n[Concept('holder', 'Владетель')|E] верховного королевства имеет [Concept('de_jure', 'де-юре')|E] права на все входящие в него территории, его [Concept('vassals', 'вассалами')|E] могут быть [Concept('kings', 'короли')|E].\n\nЕсли у верховного королевства отсутствует владетель, титул может быть спящим. Создать такой титул может [Concept('ruler', 'правитель')|E], контролирующий не менее 80% входящих в него [Concept('counties', 'графств')|E]."
+ game_concept_emperor_desc: "$game_concept_emperor$ — это [Concept('ruler', 'правитель')|E], чьим [Concept('primary_title', 'первым титулом')|E] является [Concept('empire', 'верховное королевство')|E].\n\nПо [Concept('rank', 'рангу')|E] верховный король стоит выше [Concept('kings', 'короля')|E] и ниже [Concept('hegemons', 'гегемона')|E]. [Concept('vassals', 'Вассалами')|E] верховного короля могут быть короли и ниже, а его [Concept('liege', 'сюзереном')|E] может быть только гегемон."
+ emperor_modifier: "Верховный король"
+
+ #Hegemony to empire
+ game_concept_hegemony: "Империя"
+ game_concept_hegemonies: "Империи"
+ game_concept_hegemon: "Император"
+ game_concept_hegemons: "Императоры"
+ #Replaced "A" with "An" in descs
+ game_concept_hegemony_desc: "$game_concept_hegemony$ — это [Concept('title', 'титул')|E] высочайшего [Concept('title_tier', 'уровня')|E].\n\n[Concept('holder', 'Владетель')|E] империи имеет [Concept('de_jure', 'де-юре')|E] права на все входящие в неё территории, а его [Concept('vassals', 'вассалами')|E] могут быть [Concept('emperors', 'верховные короли')|E]."
+ game_concept_hegemon_desc: "$game_concept_hegemon$ — это [Concept('ruler', 'правитель')|E], чьим [Concept('primary_title', 'первым титулом')|E] является [Concept('hegemony', 'империя')|E].\n\nЭто высочайший из всех [Concept('rank', 'рангов')|E], стоящий выше [Concept('emperors', 'верховного короля')|E]. [Concept('vassals', 'Вассалом')|E] императора может быть правитель любого ранга, кроме другого императора. У императоров не бывает [Concept('liege', 'сюзерена')|E]."
+ BECOME_TRIBUTARY_INTERACTION_NAME_HEGEMONY: "Признать императора"
+ hegemon_modifier: "Император"
 
  game_concept_buy_claim_desc:2 "Это взаимодействие позволяет персонажу получить [Concept( 'unpressed_claim', 'слабую претензию' )|El] в обмен на [Concept( 'piety', 'благочестие' )|El].\n\n$EFFECT_LIST_BULLET$ [vassal|E] не может купить претензию на [titles|El] [Concept( 'liege', 'сюзерена' )|E], а сюзерен не может купить претензию на титулы любого вассала.\n$EFFECT_LIST_BULLET$ [king|E] или [emperor|El] не может покупать претензии на королевские титулы, а верховный король не может купить претензию на другие верховные королевства.\n$EFFECT_LIST_BULLET$ Никто не может купить претензию на титул [Concept( 'head_of_faith', 'главы конфессии' )|E]."
 
@@ -57,39 +72,41 @@
  
  game_concept_end_date_desc:0 "Игра закончится в 2Э 896."
  
-  #EK EDIT: renamed co-emperor to High Chancellor
-  game_concept_co_emperor: "Верховный канцлер" #Replaced co-emperor
-  game_concept_co_emperors: "Верховные канцлеры" #Replaced co-emperors
-  co_emperorship_diarch_title: "Верховный канцлер" #Replaced co-emperor
-  game_concept_duumvirate_desc: "При дуумвирате [Concept('empire','империя')|E] совместно управляется двумя [Concept('characters','персонажами')|E] — императором ([Concept('liege','сюзереном')|E]) и императором-соправителем.\n\nСоправитель пассивно повышает как собственное [Concept('influence','влияние')|E], так и влияние императора. Бонус к влиянию увеличивается за каждые [EmptyScope.ScriptValue('co_emperor_scale_years_in_job_value')|0] г., в течение которых соправитель занимает должность (включая время, проведенное в качестве [Concept('junior_emperor','номинального соправителя')|E]).\n\nВ реальности большая часть власти сконцентрирована в руках не [Concept('diarch','диарха')|E], а сюзерена, который носит императорский титул. В то же время соправитель обладает широкими полномочиями, которые позволяют активно влиять на жизнь [Concept('realm','державы')|E]. Кроме того, зачастую он является наиболее выгодным кандидатом на [Concept('administrative','административные')|E] должности.\n\nПри достаточно сильном нарушении [Concept( 'scales_of_power', 'равновесия сил' )|E] император-соправитель может воспользоваться [Concept('casus_belli','казус белли')|E] «[Concept('imperial_expedition_cb','Имперская экспедиция')|E]».\n\n#WEAK Соправитель может [Concept('usurp','узурпировать')|E] власть старшего императора, нанеся ему церемониальные увечья.#!"
+ #EK EDIT: renamed co-emperor to High Chancellor
+ game_concept_co_emperor: "Верховный канцлер" #Replaced co-emperor
+ game_concept_co_emperors: "Верховные канцлеры" #Replaced co-emperors
+ co_emperorship_diarch_title: "Верховный канцлер" #Replaced co-emperor
+ game_concept_duumvirate_desc: "При дуумвирате [Concept('empire','империя')|E] совместно управляется двумя [Concept('characters','персонажами')|E] — императором ([Concept('liege','сюзереном')|E]) и императором-соправителем.\n\nСоправитель пассивно повышает как собственное [Concept('influence','влияние')|E], так и влияние императора. Бонус к влиянию увеличивается за каждые [EmptyScope.ScriptValue('co_emperor_scale_years_in_job_value')|0] г., в течение которых соправитель занимает должность (включая время, проведенное в качестве [Concept('junior_emperor','номинального соправителя')|E]).\n\nВ реальности большая часть власти сконцентрирована в руках не [Concept('diarch','диарха')|E], а сюзерена, который носит императорский титул. В то же время соправитель обладает широкими полномочиями, которые позволяют активно влиять на жизнь [Concept('realm','державы')|E]. Кроме того, зачастую он является наиболее выгодным кандидатом на [Concept('administrative','административные')|E] должности.\n\nПри достаточно сильном нарушении [Concept( 'scales_of_power', 'равновесия сил' )|E] император-соправитель может воспользоваться [Concept('casus_belli','казус белли')|E] «[Concept('imperial_expedition_cb','Имперская экспедиция')|E]».\n\n#WEAK Соправитель может [Concept('usurp','узурпировать')|E] власть старшего императора, нанеся ему церемониальные увечья.#!"
   
-  game_concept_theme: "Провинция" #Replaced Theme
-  game_concept_themes: "Провинции" #Replaced Themes
-  game_concept_thematic: "Провинциальный" #Replaced Thematic
-  THEME_DUCHY_SORT_THEME_TROOPS: "Войска провинции" #Replaced Theme
+ game_concept_theme: "Провинция" #Replaced Theme
+ game_concept_themes: "Провинции" #Replaced Themes
+ game_concept_thematic: "Провинциальный" #Replaced Thematic
+ THEME_DUCHY_SORT_THEME_TROOPS: "Войска провинции" #Replaced Theme
   
-  game_concept_imperial_family: "Правящая семья" #Replaced Imperial
+ game_concept_imperial_family: "Правящая семья" #Replaced Imperial
  
-  eldest_imperial_son_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – старший сын"  #Replaced Imperial
-  eldest_imperial_daughter_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – старшая дочь"  #Replaced Imperial
-  eldest_imperial_child_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – старший ребёнок"  #Replaced Imperial
+ eldest_imperial_son_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – старший сын"  #Replaced Imperial
+ eldest_imperial_daughter_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – старшая дочь"  #Replaced Imperial
+ eldest_imperial_child_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – старший ребёнок"  #Replaced Imperial
  
-  councillor_position_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – [Concept( 'councillor', 'советник' )|E]"  #Replaced Imperial
-  court_position_succession_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – [Concept( 'court_position', 'должность при дворе' )|E]"  #Replaced Imperial
+ councillor_position_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – [Concept( 'councillor', 'советник' )|E]"  #Replaced Imperial
+ court_position_succession_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName] – [Concept( 'court_position', 'должность при дворе' )|E]"  #Replaced Imperial
  
-  #EK EDIT: Including these in blanked-out form since the logs complain when they mention commented-out game concepts.
-  game_concept_harrying_widget_i: ""
-  game_concept_harrying_widget: ""
-  game_concept_harrying_widget_desc: ""
-  game_concept_harrying_resistance: ""
-  game_concept_harrying_resistance_desc: ""
-  game_concept_harrying_pacification: ""
-  game_concept_harrying_pacification_desc: ""
+ #EK EDIT: Including these in blanked-out form since the logs complain when they mention commented-out game concepts.
+ game_concept_harrying_widget_i: ""
+ game_concept_harrying_widget: ""
+ game_concept_harrying_widget_desc: ""
+ game_concept_harrying_resistance: ""
+ game_concept_harrying_resistance_desc: ""
+ game_concept_harrying_pacification: ""
+ game_concept_harrying_pacification_desc: ""
  
-  #EK EDIT: replaced clan with autocracy
-  game_concept_tax_jurisdiction_desc: "Налоговая юрисдикция включает в себя группу [Concept( 'taxpayers', 'налогоплательщиков' )|E] из числа [Concept( 'autocracy', 'автократических' )|E] [Concept('vassals', 'вассалов' )|E]. Каждая юрисдикция поддерживает до #V 12#! налогоплательщиков.\n\nДля любой из юрисдикций можно издать [Concept( 'tax_decree', 'налоговый указ' )|E].\n\nКоличество доступных налоговых юрисдикций зависит от [Concept( 'rank', 'ранга' )|E], [Concept( 'traditions', 'традиций' )|E] и [Concept( 'innovations', 'инноваций' )|E].\n\nК каждой юрисдикции необходимо приписать [Concept( 'tax_collector', 'сборщика налогов' )|E]."
+ #EK EDIT: replaced clan with autocracy
+ game_concept_tax_jurisdiction_desc: "Налоговая юрисдикция включает в себя группу [Concept( 'taxpayers', 'налогоплательщиков' )|E] из числа [Concept( 'autocracy', 'автократических' )|E] [Concept('vassals', 'вассалов' )|E]. Каждая юрисдикция поддерживает до #V 12#! налогоплательщиков.\n\nДля любой из юрисдикций можно издать [Concept( 'tax_decree', 'налоговый указ' )|E].\n\nКоличество доступных налоговых юрисдикций зависит от [Concept( 'rank', 'ранга' )|E], [Concept( 'traditions', 'традиций' )|E] и [Concept( 'innovations', 'инноваций' )|E].\n\nК каждой юрисдикции необходимо приписать [Concept( 'tax_collector', 'сборщика налогов' )|E]."
   
-  game_concept_untaxed_jurisdiction_desc: "Юрисдикцией без налогов считается [Concept( 'tax_jurisdiction', 'налоговая юрисдикция' )|E], не имеющая [Concept( 'tax_collector', 'сборщика налогов' )|E]. Это означает, что приписанные к ней налогоплательщики не платят [Concept( 'taxes', 'налоги' )|E] и не предоставляют [Concept( 'levies', 'ополчение' )|E] [Concept( 'liege', 'сюзерену' )|E]."
-  game_concept_taxpayer_desc: "Налогоплательщики — это [Concept( 'autocracy', 'автократические' )|E] [Concept('vassals', 'вассалы' )|E], приписанные к [Concept( 'tax_jurisdiction', 'налоговой юрисдикции' )|E]. Они будут предоставлять ежемесячный доход от [Concept( 'tax', 'налогов' )|E] и [Concept( 'levies', 'ополчение' )|E] при условии, что вы назначили [Concept( 'tax_collector', 'сборщика налогов' )|E]."
+ game_concept_untaxed_jurisdiction_desc: "Юрисдикцией без налогов считается [Concept( 'tax_jurisdiction', 'налоговая юрисдикция' )|E], не имеющая [Concept( 'tax_collector', 'сборщика налогов' )|E]. Это означает, что приписанные к ней налогоплательщики не платят [Concept( 'taxes', 'налоги' )|E] и не предоставляют [Concept( 'levies', 'ополчение' )|E] [Concept( 'liege', 'сюзерену' )|E]."
+ game_concept_taxpayer_desc: "Налогоплательщики — это [Concept( 'autocracy', 'автократические' )|E] [Concept('vassals', 'вассалы' )|E], приписанные к [Concept( 'tax_jurisdiction', 'налоговой юрисдикции' )|E]. Они будут предоставлять ежемесячный доход от [Concept( 'tax', 'налогов' )|E] и [Concept( 'levies', 'ополчение' )|E] при условии, что вы назначили [Concept( 'tax_collector', 'сборщика налогов' )|E]."
   
-  game_concept_unassigned_vassal_desc: "Вассалами без налогов называются [Concept( 'autocracy', 'автократические' )|E] [Concept('vassals', 'вассалы' )|E], не приписанные к [Concept( 'tax_jurisdiction', 'налоговой юрисдикции' )|E] в качестве [Concept( 'taxpayers', 'налогоплательщиков' )|E], а потому не передающие сюзерену [Concept( 'taxes', 'налоги' )|E] и [Concept( 'levies', 'ополчение' )|E].\n\nОни начнут делать ежемесячные выплаты, если приписать их к юрисдикции со [Concept( 'tax_collector', 'сборщиком налогов' )|E]."
+ game_concept_unassigned_vassal_desc: "Вассалами без налогов называются [Concept( 'autocratic', 'автократические' )|E] [Concept('vassals', 'вассалы' )|E], не приписанные к [Concept( 'tax_jurisdiction', 'налоговой юрисдикции' )|E] в качестве [Concept( 'taxpayers', 'налогоплательщиков' )|E], а потому не передающие сюзерену [Concept( 'taxes', 'налоги' )|E] и [Concept( 'levies', 'ополчение' )|E].\n\nОни начнут делать ежемесячные выплаты, если приписать их к юрисдикции со [Concept( 'tax_collector', 'сборщиком налогов' )|E]."
+ #EK EDIT: added dynastic acclamation
+ game_concept_appointment_succession_law_desc: "Наследование через назначение предполагает, что [Concept('title', 'титул')|E] и все связанные с ним [Concept('holdings', 'владения')|E] получает кандидат с наивысшим [Concept('candidate_score', 'приоритетом претензий')|E].\n\nСуществуют следующие разновидности наследования через назначение:\n\nThe types are:\n$EFFECT_LIST_BULLET$[GetLaw('appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('acclamation_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('dynastic_acclamation_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('celestial_appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('celestial_military_appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('celestial_ministry_appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('celestial_grand_marshal_appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('meritocratic_appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('meritocratic_military_appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('japanese_appointment_succession_law').GetName]"
