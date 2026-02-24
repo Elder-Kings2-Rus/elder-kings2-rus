@@ -66,6 +66,7 @@
  return_great_house_capital_decision_desc_indoril: "С самого начала [GetTitleByKey('c_mournhold').GetNameNoTier] был столицей державы [GetTitleByKey('k_indoril').GetName]."
  return_great_house_capital_decision_desc_hlaalu: "С самого начала [GetTitleByKey('c_narsis').GetNameNoTier] был столицей державы [GetTitleByKey('k_hlaalu').GetName]."
  return_great_house_capital_decision_desc_dres: "С самого начала [GetTitleByKey('c_tear').GetNameNoTier] был столицей державы [GetTitleByKey('k_dres').GetName]."
+ return_great_house_capital_decision_desc_dagoth: "С самого начала [GetTitleByKey('c_kogoruhn').GetNameNoTier] был столицей державы [GetTitleByKey('k_dagoth').GetName]."
  return_great_house_capital_decision_desc_outro: "Поскольку я являюсь главой этого дома, у меня есть все права контролировать его."
  return_great_house_capital_decision_confirm: "Вернуть столицу Великого дома."
 
@@ -105,6 +106,7 @@
  expand_gh_de_jure_decision_desc: "Наш Великий дом заполучил новые территории в [Glossary( 'Ресдайне', 'RESDAYN_GLOSS' )] и теперь может официально заявить свои права на эти земли."
  expand_gh_de_jure: "Расширить владения Великого дома"
  expand_gh_de_jure_decision_confirm: "Расширить владения Великого дома"
+ shift_gh_fallback_name: "PLACEHOLDER"
  shift_julan_shar_name: "Джулан-Шар"
  shift_julan_shar_desc: "Джулан-Шар"
  shift_julan_shar_tooltip: "[Concept('duchies', 'Герцогства')|E] [GetTitleByKey('d_blacklight').GetNameNoTier], [GetTitleByKey('d_cormaris').GetNameNoTier] и [GetTitleByKey('d_selethis').GetNameNoTier] станут [de_jure|El] [Concept('vassal', 'вассалами')|E] вашего Великого дома"
@@ -227,3 +229,12 @@
  form_firewatch_kingdom_decision_confirm: "Новое королевство!"
  form_telvannis_kingdom_decision: "Создать королевство Телваннис"
  form_telvannis_kingdom_decision_confirm: "Новое королевство!"
+
+ #Sixth house restoration
+ revive_dagoth_culture_decision:0 "Возродить Шестой дом"
+ revive_dagoth_culture_decision_desc:0 "Дом Дагот был уничтожен и стёрт из истории. Но мы спим и видим…"
+ revive_dagoth_culture_decision_tooltip:0 "Возродить [GetTitleByKey('k_dagoth').GetName]"
+ revive_dagoth_culture_decision_confirm:0 "Пробудитесь!"
+ embrace_dagoth_culture_vassals_custom:0 "Все [Concept('vassal', 'вассалы')|E], принадлежащие к [Concept('culture', 'культуре')|E] с #V $heritage_dunmeri_name$им#! [Concept('heritage', 'наследием')|E] и #L [GetFaithByKey('sixth_house').GetName]ой#! [Concept('faith', 'конфессии')|E]"
+ embrace_dagoth_culture_counties_custom:0 "Все [Concept('county', 'графства')|E] с [Concept('culture', 'культурой')|E] с #V $heritage_dunmeri_name$им#! [Concept('heritage', 'наследием')|E] и #L [GetFaithByKey('sixth_house').GetName]ой#! [Concept('faith', 'конфессией')|E], находящиеся в регионе [GetGeographicalRegion('mundus_tamriel_morrowind_vvardenfell').GetName]" 
+ decision_embrace_dagoth_culture_get_innovations:0 "Кого-исранская [Concept('culture', 'культура')|E] открывает все [Concept('innovations', 'инновации')|E] вашей текущей [Concept('culture', 'культуры')|E]"

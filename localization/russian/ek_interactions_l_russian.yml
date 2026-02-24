@@ -90,7 +90,7 @@
  opinion_obligations_tt:0 "[vassal_contract|E] начнётся с [GetSubjectContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_opinion' )]"
  devotion_obligations:0 "Обычные обязательства (Набожность)"
  devotion_obligations_tt:0 "[vassal_contract|E] начнётся с [GetSubjectContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_devotion' )]"
- devotion_obligations_requirement:0 "#V [vassal.GetTitledFirstName]#! #bold не#! имеет #V [GetGovernment( 'theocracy_government' ).GetAdjective]ую форму правления#! или ваша форма правления #bold не#! является #V [GetGovernment( 'hierocracy_government' ).GetAdjective]ой#!"
+ devotion_obligations_requirement:0 "#V [vassal.GetTitledFirstName]#! #bold не#! имеет #V [GetGovernment( 'theocracy_government' ).GetAdjective|l]ую форму правления#!"
  fame_obligations:0 "Обычные обязательства (Слава)"
  fame_obligations_tt:0 "[vassal_contract|E] начнётся с [GetSubjectContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_fame' )]"
  arcana_obligations:0 "Обычные обязательства (Аркана)"
@@ -173,6 +173,11 @@
  send_knight_to_wander_return_title:0 "Скиталец возвращается"
  send_knight_to_wander_return_desc:0 "[recipient.GetFullName] [Select_CString(recipient.IsFemale, 'вернулась', 'вернулся' )] к вашему двору после странствия для увеличения своих [Concept( 'martial', 'военных' )|E] способностей."
  innovation_knightly_orders_wander:0 "Молодых придворных той же [Concept( 'culture', 'культуры' )|E] со [Concept( 'trait', 'свойством' )|E] Ученика рыцарства можно отправить в странствие, они временно станут [Concept( 'wanderers', 'скитальцами' )|E] в поисках славы и улучшения своих навыков."
+
+
+ ask_grok_is_this_real: "Грок, это правда?"
+ ek_ask_grok_is_this_real_interaxion_desc: "Вы спросите Грока, правда ли это."
+ ek_ask_grok_is_this_real_tooltip: "Грок, читая множество вопросов и ответов, научился словам из вашего языка и, убедительно складывая их в предложения спонтанным образом, может сказать вам, правда ли это."
 
  ### EK secrets
  CHARACTER_IS_A_VAMPIRE:0 "[CHARACTER.GetShortUIName|U] — [GetTrait('vampire_character').GetName( CHARACTER.Self )]"

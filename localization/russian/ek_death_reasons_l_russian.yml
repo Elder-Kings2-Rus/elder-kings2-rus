@@ -169,3 +169,4 @@
  death_wild_hunt:0 "[Select_CString(CHARACTER.IsFemale, 'превратилась', 'превратился' )] в чудовище в ходе Дикой охоты"
  death_dwemer_disappear:0 "[Select_CString(CHARACTER.IsFemale, 'исчезла', 'исчез' )] вместе с остальными двемерами во время Битвы у Красной горы"
  death_mehrunes: "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] даэдрическим князем Мерунесом Дагоном"
+ death_joined_greybeards:0 "[Select_CString(CHARACTER.IsFemale, 'присоединилась', 'присоединился' )] к Седобородым"

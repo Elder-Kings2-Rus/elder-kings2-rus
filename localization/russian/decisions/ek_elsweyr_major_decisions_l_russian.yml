@@ -32,6 +32,11 @@
  secede_from_elsweyr_decision_tooltip:0 "Объявить независимость от Эльсвейра"
  secede_from_elsweyr_decision_confirm:0 "Объявить независимость"
 
+ secede_from_elsweyr_tributary_decision:0 "Отделиться от Эльсвейра"
+ secede_from_elsweyr_tributary_decision_desc:0 "Власть Гривы рушится, и он больше не в состоянии повелевать нам. Пора перестать признавать его сюзеренитет над нами."
+ secede_from_elsweyr_tributary_decision_tooltip:0 "Вы прекратите платить дань Эльсвейру"
+ secede_from_elsweyr_tributary_decision_confirm:0 "Прекратить платить дань."
+
  restore_mane_in_torval_decision:0 "Вернуть Торвал Гриве"
  restore_mane_in_torval_decision_confirm:0 "Вернуть Торвал Гриве"
  restore_mane_in_torval_decision_desc:0 "Торвал, традиционно считавшийся центром власти Грив, был утрачен нашим духовным лидером. Однако это досадное упущение может быть исправлено с нашей помощью."

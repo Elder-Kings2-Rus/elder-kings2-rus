@@ -34,6 +34,11 @@
  action_can_use_writ_of_war_desc:0 "У вас есть неиспользованное [Concept('writ_of_war', 'разрешение на войну')|E].\n\n#help [Concept('writ_of_war', 'Разрешение на войну')|E] позволяет начать войну против правителей за пределами Морровинда.\n\nУ вас осталось [GetGameTimeDifferenceForDiffDays( actor.MakeScope.VarRemaining( 'has_writ_of_war' ) )], чтобы использовать его."
  action_can_use_writ_of_war_click:0 "#I Щёлкните, чтобы посмотреть#!"
 
+ action_fate_of_elsweyr:0 "Судьба Эльсвейра"
+ action_fate_of_elsweyr_label:0 "Конфедерация Эльсвейр на грани распада!"
+ action_fate_of_elsweyr_desc:0 "$elsweyr_dissolution.tt$\n\n#help В настоящее время вы контролируете #V [SCOPE.ScriptValue('counties_of_elsweyr_percent_value')]%#! территории Эльсвейра.#!" 
+ action_fate_of_elsweyr_click:0 "#I Щёлкните, чтобы посмотреть#!"
+
  action_open_spellbook:0 "Наложить заклинание"
  action_open_spellbook_label:0 "Вы можете $do_a_magic_interaction$"
  action_open_spellbook_desc:0 "Откройте книгу заклинаний, чтобы наложить на себя [Concept('spell', 'заклинание')|E].\n\nЧтобы выбрать другого [Concept('character', 'персонажа')|E], используйте на нём [Concept('interaction', 'взаимодействие')|E] «$do_a_magic_interaction$»!\n\n#help Это взаимодействие доступно, так как вы умеете пользоваться [Concept('magic', 'магией')|E] или потому что у вас нанят $court_mage_court_position$, который может накладывать заклинания по вашему приказу.#!"
