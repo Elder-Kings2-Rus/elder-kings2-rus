@@ -5,7 +5,7 @@
  vampiric_religion_adj:0 "Вампиризм"
  vampiric_religion_adherent:0 "Приверженец Крови"
  vampiric_religion_adherent_plural:0 "Приверженцы Крови"
- vampiric_religion_desc:0 "Хотя многие вампиры поклоняются Молагу Балу, Богу Вероломства, некоторые избегают его и следуют своим собственным, более многогранным путям."
+ vampiric_religion_desc:0 "Хотя многие вампиры поклоняются Молагу Балу, также известному как $molag_alt$, некоторые избегают его и следуют своим собственным, более многогранным путям."
  vampiric_high_god_name:0 "$god_molag_name$"
  vampiric_high_god_name_2:0 "$vampiric_high_god_name$" # Optional translation alt
  vampiric_high_god_name_3:0 "$vampiric_high_god_name$" # Optional translation alt
@@ -84,7 +84,7 @@
  scions_faith_adj:0 "Отпрыски Лами Бал"
  scions_faith_adherent:0 "Отпрыск"
  scions_faith_adherent_plural:0 "Отпрыски"
- scions_faith_desc:0 "Первым вампиром была Лами Бал, которую в смертной жизни звали Лами Беолфег. Она была жрицей Аркея, которую Молаг Бал жестоко осквернил и превратил в первого вампира. Она взяла имя Бал в насмешку над Богом Вероломства и поклялась, что свершит кровавую месть. Те, кто следует за Кровавой Матроной, разделяют её целеустремленную ненависть к Молагу Балу и Аркею, которые отвергли свою бывшую последовательницу."
+ scions_faith_desc:0 "Первым вампиром была Лами Бал, которую в смертной жизни звали Лами Беолфег. Она была жрицей Аркея, которую $molag_alt$ жестоко осквернил и превратил в первого вампира. Она взяла имя Бал в насмешку над Молагом Балом и поклялась, что свершит кровавую месть. Те, кто следует за Кровавой Матроной, разделяют её целеустремленную ненависть к Молагу Балу и Аркею, которые отвергли свою бывшую последовательницу."
  scions_faith_high_god_name:0 "$god_lamae_name$"
  scions_faith_high_god_name_2:0 "$scions_faith_high_god_name$" # Optional translation alt
  scions_faith_high_god_name_3:0 "$scions_faith_high_god_name$" # Optional translation alt

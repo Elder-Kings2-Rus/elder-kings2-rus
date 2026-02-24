@@ -8,7 +8,7 @@
  grand_council_participant_group_grand_council_members: "Члены Великого совета"
  grand_council_participant_group_grand_council_members_desc: "$game_concept_grand_council_member_desc$"
  grand_council_participant_group_ashlanders: "Эшлендеры"
- grand_council_participant_group_ashlanders_desc: "Эшлендеры - это данмеры-кочевники, которые отвергают власть Великого совета, обычно всё ещё исповедуя #L [GetFaithByKey('old_velothi').GetName|l]ую#! [Concept('faith', 'конфессию')|E]."
+ grand_council_participant_group_ashlanders_desc: "Эшлендеры - это данмеры-кочевники, которые отвергают власть Великого совета, обычно всё ещё исповедуя #L [GetFaithByKey('high_velothi').GetName|l]ую#! [Concept('faith', 'конфессию')|E]."
  grand_council_participant_group_outlanders: "Чужеземцы"
  grand_council_participant_group_outlanders_desc: "$game_concept_outlander_desc$"
  grand_council_participant_group_rulers_outside_gcm: "Правители за пределами Морровинда"
