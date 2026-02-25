@@ -43,7 +43,7 @@
 
  # Empire to High Kingdom replacement
  game_concept_title_desc:1 "$game_concept_title$ — это, в сущности, статус землевладельца.\n\nНаименьшим земельным наделом считается [barony|El]. Из них состоят более крупные территории, называемые [counties|El]. Графствами [de_jure|El] владеет [duchy|El], герцогствами — [kingdom|El], а над королевством простирает власть [empire|El].\n\nУ герцогств, королевств и верховных королевств не всегда есть [holder|El], но такой титул может [Concept( 'created', 'создать')|E] правитель, контролирующий достаточное количество соответствующих территорий."
- #"An" to "a"
+ #'An' to 'a'
  game_concept_king_desc: "$game_concept_king$ — это [Concept('ruler', 'правитель')|E], чьим [Concept('primary_title', 'первым титулом')|E] является [Concept('kingdom', 'королевство')|E].\n\nПо [Concept('rank', 'рангу')|E] король стоит выше [Concept('dukes', 'герцога')|E] и ниже [Concept('emperors', 'верховного короля')|E]. [Concept('vassals', 'Вассалами')|E] короля могут быть герцоги и ниже, а его [Concept('liege', 'сюзереном')|E] может быть как минимум верховный король."
  
  game_concept_empire:0 "Верховное королевство"

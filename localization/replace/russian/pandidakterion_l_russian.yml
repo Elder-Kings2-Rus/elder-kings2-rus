@@ -1,0 +1,15 @@
+﻿l_russian:
+ pandidakterion_university_modifier: "Имперский университет"
+ pandidakterion_university_modifier_desc: "Имперский университет, основанный в 2780 году императором Каставом и недавно восстановленный, славится вышедшими из его стен чиновниками, обеспечивающими бесперебойную работу императорского двора.\nСледующие [Concept('councillor_tasks', 'задания совета')|E] получают бонусы к эффективности:\n$BULLET_WITH_TAB$[Concept('domestic_affairs', '$task_domestic_affairs|q$')|E]\n$BULLET_WITH_TAB$[Concept('promote_culture', '$task_promote_culture|q$')|E]\n$BULLET_WITH_TAB$[Concept('organize_levies', '$task_organize_levies|q$')|E]\n$BULLET_WITH_TAB$[Concept('espionage', '$task_find_secrets|q$')|E]\n$BULLET_WITH_TAB$[Concept('fabricate_claim', '$task_fabricate_claim|q$')|E][AddLocalizationIf( HasDlcFeature( 'wards_and_wardens' ), 'pandidakterion_adult_education_bonus')]"
+ 
+ refounded_pandidakterion_memory: "Восстановлен Имперский университет"
+ refounded_pandidakterion_memory_desc: "Мной был вновь основан Имперский университет"
+ refounded_pandidakterion_memory_desc_second_perspective: "вами был вновь основан Имперский университет"
+ refounded_pandidakterion_memory_desc_third_perspective: "[owner.GetTitledFirstName] вновь [Select_CString(owner.IsFemale, 'основала', 'основал' )] Имперский университет"
+ 
+ adult_education_has_pandidakterion_desc: "\n#P +++ Имперский университет#!"
+
+ refound_pandidakterion_decision: "Восстановить Имперский университет"
+ refound_pandidakterion_decision_desc: "Император [GetScriptedCharacterByHistoryID( 'reman_101' ).GetFirstName] основал Имперский университет в 2780 году 1Э, и учреждение быстро стало одним из крупнейших центров учёности в Империи. Увы, его преемники были куда менее щедры к университету, предпочитая использовать казну Империи для военных кампаний. Положение не улучшилось и при потентатах, в результате чего Имперский университет оказался в тени нового Университета волшебства.\n\nЕсли мы хотим вновь сделать Имперский университет светочем тамриэльского знания, его необходимо обновить и реорганизовать."
+ refound_pandidakterion_decision_tooltip: "Расширить и реорганизовать Имперский университет"
+ pandidakterion_tt: "[GetTitleByKey('c_imperial_city').GetName] принадлежит вам"
