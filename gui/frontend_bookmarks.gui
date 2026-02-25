@@ -1956,9 +1956,192 @@ widget = {
 														align = nobaseline
 													}
 
+													#text_single = {
+													#	layoutpolicy_horizontal = expanding
+													#	text = "BOOKMARK_CHARACTER_RELIGION"
+													#	autoresize = no
+													#	align = nobaseline
+													#}
+				
 													text_single = {
 														layoutpolicy_horizontal = expanding
-														text = "BOOKMARK_CHARACTER_RELIGION"
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('imperial_cult'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_imper"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('court_dawnbeauty'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_court_dawnbeauty"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('nord_cult'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_nord_cult"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('code_of_malacath'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_code_of_malacath"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('anuic_skaal'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_anuic_skaal"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('sanguine_mysteries'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_sanguine_mysteries"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('twomoonsdance'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_twomoonsdance"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('greenpact'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_greenpact"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('vineduskpact'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_vineduskpact"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('tall_papa'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_tall_papa"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('redguard_cult'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_redguard_cult"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('malada'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_malada"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('lilmothiit_hist'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_lilmothiit_hist"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('aedric_nede'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_aedric_nede"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('hist'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_hist"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('xanmeer'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_xanmeer"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('auriel'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_auriel"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('breton_cult'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_breton_cult"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('old_velothi'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_old_velothi"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('osh_ornim'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_osh_ornim"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('reman_cult'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_reman_cult"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('mainland_auriel'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_mainland_auriel"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('molag_cult'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_molag_cult"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('blacksapmovement'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_blacksapmovement"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('goblin_shamanism'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_goblin_shamanism"
+														autoresize = no
+														align = nobaseline
+													}
+													text_single = {
+														layoutpolicy_horizontal = expanding
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('nedic_cult'))]"
+														text = "BOOKMARK_CHARACTER_RELIGION_nedic_cult"
 														autoresize = no
 														align = nobaseline
 													}
