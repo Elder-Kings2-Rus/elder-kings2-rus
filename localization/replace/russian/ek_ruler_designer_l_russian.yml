@@ -33,6 +33,7 @@
  RACE_LILMOTHIIT:0 "Лилмотит"
  RACE_IMGA:0 "Имга"
  RACE_DREMORA:0 "Дремора"
+ RACE_GIANT: "Giant"
 
 
  INCOMPATABLE_CULTURE:0 "@warning_icon!#X Неправильная культура#"
@@ -85,6 +86,12 @@
 
  race_imga_orangutang_name:0 "Имга II"
  race_imga_orangutang:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_IMGA') ) ), Localize('race_imga_orangutang_name'), 'no' )]"
+
+ race_giant_1_name:0 "Великан"
+ race_giant_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_GIANT') ) ), Localize('race_giant_1_name'), 'no' )]"
+
+ race_giant_kamal_name:0 "Камаль"
+ race_giant_kamal:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_GIANT') ) ), Localize('race_giant_kamal_name'), 'no' )]"
 
  ###Other
  race_dremora_name:0 "Дремора I"
@@ -225,20 +232,14 @@
  race_nede_3_name:0 "Недиец, северный III"
  race_nede_3:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_3_name'), 'no' )]"
 
- race_nede_1_dark_name:0 "Недиец, центральный I"
+ race_nede_1_dark_name:0 "Кепту I"
  race_nede_1_dark:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_1_dark_name'), 'no' )]"
 
- race_nede_2_dark_name:0 "Недиец, центральный II"
+ race_nede_2_dark_name:0 "Кепту II"
  race_nede_2_dark:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_2_dark_name'), 'no' )]"
 
- race_nede_3_dark_name:0 "Недиец, центральный III"
+ race_nede_3_dark_name:0 "Кепту III"
  race_nede_3_dark:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_3_dark_name'), 'no' )]"
-
- race_nede_blackmarsh_1_name:0 "Недиец, южный I"
- race_nede_blackmarsh_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_blackmarsh_1_name'), 'no' )]"
-
- race_nede_blackmarsh_2_name:0 "Недиец, южный II"
- race_nede_blackmarsh_2:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_nede_blackmarsh_2_name'), 'no' )]"
 
  race_orma_1_name:0 "Орма I"
  race_orma_1:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ), Localize('race_orma_1_name'), 'no' )]"

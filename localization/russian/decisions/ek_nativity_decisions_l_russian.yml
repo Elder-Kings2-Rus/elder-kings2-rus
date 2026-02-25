@@ -1,0 +1,12 @@
+﻿l_russian:
+
+ ek_add_nativity_region_decision:0 "Добавить родной регион"
+ ek_add_nativity_region_decision_desc:0 "С ростом нашей державы центр власти сместился в места, непривычные для нашего народа. Мы должны научить наш народ жить в этих незнакомых землях.\n\n#italic Можно добавить [Concept('nativity_region', 'родной регион')|E], только если в нём есть хотя бы одно [county|El] с вашей [Concept('culture', 'культурой')|E]. Затраты на это решение зависят от того, сколько у вас уже есть [Concept('nativity_regions', 'родных регионов')|E].#!"
+ ek_add_nativity_region_tooltip:0 "Выберите регион, в котором ваша [culture|El] станет [Concept('native', 'коренной')|E].\n\n#N Недоступно для [Concept('migratory', 'скитающихся')|E] культур.#!"
+ tooltip_culture_not_migratory:0 "Ваша культура не является [Concept('migratory', 'скитающейся')|E]"
+ below_nativity_zone_limit:0 "Число ваших родных регионов меньше максимума. #L [GetPlayer.GetCulture.GetCollectiveNoun]ая#! [culture|El] в данный момент является [Concept('native', 'коренной')|E] для [GetPlayer.GetCulture.MakeScope.ScriptValue('num_nativity_zones')|0]/[GetPlayer.GetCulture.MakeScope.ScriptValue('nativity_zones_limit')|0] [Concept('nativity_regions', 'регионов')|E]"
+ ek_add_nativity_region_decision_tooltip:0 "Выберите регион, в котором ваша [culture|El] станет [Concept('native', 'коренной')|E]."
+ ek_add_nativity_region_decision_confirm:0 "Заселить эти земли!"
+ CHOOSE_NATIVITY_REGION_DECISION_NEXT_STEP_BUTTON:0 "Выбрать регион"
+ add_nativity_region_pick_a_region:0 "Выбрать регион"
+ ek_add_nativity_region_decision_dummy_region:0 "#L [GetPlayer.GetCulture.GetCollectiveNoun]ая#! [culture|El] станет [Concept('native', 'коренной')|E] для выбранного [Concept('nativity_region', 'региона')|E]."

@@ -177,6 +177,7 @@
   river_nir_upper:0 "Верховье реки Нир"
  # SEA ZONES
   abecean_sea:0 "Абесинское море"
+  abecean_sea_hahd: "Республика Хад"
   sea_of_ghosts:0 "Море Призраков"
   sea_of_pearls:0 "Море Жемчуга"
  # Cyrodiil
@@ -231,7 +232,7 @@
   wayrest_coast:0 "Берег Вэйреста - Залив Илиак"
   thorstad_coast:0 "Берег Торстада - Залив Илиак"
   tava_coast:0 "Берег Тавы - Залив Илиак"
-  bhoriane_coast:0 "Республика Хад,\nскрытая средь волн\nзалива Деллез"
+  bhoriane_coast:0 "Берег Бориана - залив Илиак"
   gradkeep_bayou:0 "Градкипская пойма - Залив Илиак"
   sentinel_coast:0 "Берег Сентинеля - Залив Илиак"
   themond_coast:0 "Берег Темона - Залив Илиак"

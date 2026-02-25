@@ -6,7 +6,7 @@
  raiding.0011.desc_non_tribal_pacifism:0 "Ваши налётчики вернулись, привезя с собой [ROOT.Var('raid_loot').GetValue|V0] [Concept( 'gold', 'золота' )|E] в качестве добычи, но вы потратили [SCOPE.ScriptValue('non_tribal_loot_value')|V0] [Concept( 'prestige', 'престижа' )|E] и [Concept( 'piety', 'благочестия' )|E]."
 
  raiding.0011.t2:0 "Распределение добычи"
- raiding.0011.desc_pirate_redistribution_beginning:0 "[ROOT.Var('raid_loot').GetValue|V0] [Concept( 'raid_loot', 'добычи' )|E] было распределено в соответствии с вашими [Concept( 'amenities', 'удобствами' )|E]:"
+ raiding.0011.desc_pirate_redistribution_beginning:0 "[ROOT.Var('raid_loot').GetValue|V0] [Concept( 'loot', 'добычи' )|E] было распределено в соответствии с вашими [Concept( 'amenities', 'удобствами' )|E]:"
  raiding.0011.desc_pirate_redistribution_commoners:0 "\n [ROOT.Var('pirate_redistribution_commoners').GetValue|V1] [Concept( 'gold', 'золота' )|E] было отдано местным общинам."
  raiding.0011.desc_pirate_redistribution_crew:0 "\n [ROOT.Var('pirate_redistribution_crew').GetValue|V1] [Concept( 'gold', 'золота' )|E] было распределено между членами экипажа и солдатами."
  raiding.0011.desc_pirate_redistribution_knights:0 "\n [ROOT.Var('pirate_redistribution_knights').GetValue|V1] [Concept( 'gold', 'золота' )|E] были отдано вашим [Concept( 'knights', 'воителям' )|E]."

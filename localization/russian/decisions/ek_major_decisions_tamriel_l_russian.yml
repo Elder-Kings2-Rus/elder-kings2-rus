@@ -23,12 +23,6 @@
  attrebus_tsaesci_county_title:0 "Цаэски изгнаны"
  attrebus_tsaesci_county_desc:0 "Графство [title.GetBaseName] стало нашим, а его акавирское население было изгнано."
 
- potentate_control_heartlands_decision:0 "Потентат Хартленда"
- potentate_control_heartlands_decision_desc:0 "Мы, как потентаты поздней Империи Ремана, были управляющими Имперского острова на протяжении веков. Теперь, когда наше время почти закончилось, мы должны убедиться, что у нашего народа будет место в Тамриэле — и что подходит лучше, чем самое сердце Сиродила?"
- potentate_control_heartlands_decision_tooltip:0 "Наш народ найдет свой дом в сердце Империи!"
- potentate_control_heartlands_decision_effect:0 "Наша [culture|El] станет [Concept( 'native', 'коренной' )|E] для региона [GetGeographicalRegion('mundus_tamriel_cyrodiil_heartlands').GetName]"
- potentate_control_heartlands_decision_confirm:0 "Новый дом!"
- 
  ### Orsinium
  create_orsinium_decision:0 "Восстановить Орсиниум"
  create_orsinium_decision_desc:0 "Королевство Орсиниум не раз создавалось, разрушалось и восстановилось за историю Тамриэля. Достаточно могущественный правитель-орк может объявить себя новым королем орков и восстановить старое королевство отверженного народа. \n \n( #S Примечание#!: Если вы [duke|El], вы сможете расширить [de_jure|El] границы Орсиниума только в пределах [Concept('de_jure', 'де-юре')|E] [Concept( 'kingdom', 'королевства' )|E], в котором вы его восстановили.)."

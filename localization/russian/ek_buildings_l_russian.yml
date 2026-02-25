@@ -528,3 +528,10 @@
  kogoruhn_citadel_effect_desc:0 "@spellblades_icon! Сюзерену этого [Concept('county', 'графства')|E] доступны [Concept('regiment', 'полки')|E] пророков-сновидцев."
  dust_adeptorium_effect_desc:0 "@mages_icon! Сюзерену этого [Concept('county', 'графства')|E] доступны [Concept('regiment', 'полки')|E] адептов пепла."
  necrom_necropolis_effect_desc:0 "Сюзерен этого [Concept('county', 'графства')|E] может призвать [Concept('regiment', 'полки')|E] костяных ходоков, если его конфессия имеет догмат «Почитание предков»."
+
+ #Tribes
+ #EK TODO: add special desc
+ building_tribe_03: "$building_tribe_02$"
+ building_tribe_03_desc: "$building_tribe_02_desc$"
+ building_tribe_04: "$building_tribe_02$"
+ building_tribe_04_desc: "$building_tribe_02_desc$"

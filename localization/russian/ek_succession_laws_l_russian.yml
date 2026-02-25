@@ -121,6 +121,11 @@
  mage_magocratic_succession_law_effects:0 "В Академии или Коллегии магов выбирается старший Мастер-волшебник, который становится архимагом учреждения."
  mage_magocratic_succession_law_base_desc:0 "В Академии или Коллегии магов выбирается старший Мастер-волшебник, который становится архимагом учреждения."
 
+
+ dynastic_acclamation_succession_law:0 "Династическое провозглашение"
+ dynastic_acclamation_succession_law_subname:0 "$appointment_succession_law_subname$"
+ dynastic_acclamation_succession_law_effects:0 "\n#V Разновидность [Concept('appointment_succession_law', 'закона о наследовании через назначение')|E]. Наследование через династическое провозглашение предполагает, что [Concept('title', 'титул')|E] и все связанные с ним [Concept('holdings', 'владения')|E] получает кандидат с наивысшим [Concept('candidate_score', 'приоритетом претензий')|E].\n\nВ число потенциальных кандидатов входят [Concept('top_liege', 'верховные сюзерены')|E] [Concept( 'house', 'домов' )|E] всей [Concept('realm', 'державы')|E], а также их [Concept( 'close_family', 'близкие' )|E] и [Concept( 'extended_family', 'дальние родственники' )|E].\n#!"
+
  #Admin modifiers
  necromancer_and_criminal_desc: "[GetTrait('necromancer').GetName( GetNullCharacter )] #weak (считается [Concept('criminal', 'преступлением')|E])#!"
  lycan_and_criminal_desc: "[GetTrait('lycan_character').GetName( GetNullCharacter )] #weak (считается [Concept('criminal', 'преступлением')|E])#!"
@@ -143,3 +148,5 @@
  admin_great_house_founding_dynasty:0 "Принадлежит к [Concept('dynasty', 'династии')|E] основателей"
  admin_supported_house:0 "Успешная поддержка этого Великого дома"
  admin_undermined_house:0 "Успешная клевета политических оппонентов"
+ admin_not_crown_culture:0 "Не принадлежит к Венценосцам"
+ admin_not_forebear_culture:0 "Не принадлежит к Предшественникам"

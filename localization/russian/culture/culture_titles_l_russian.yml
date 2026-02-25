@@ -12,6 +12,8 @@
  king_female: "Королева"
  emperor: "Верховный король"
  emperor_female: "Верховная королева"
+ hegemon: "Император"
+ hegemon_female: "Императрица"
 
  baron_plural: "Лорды"
  count_plural: "Бароны"
@@ -29,6 +31,7 @@
  title_potentate_male: "Потентат"
  title_potentate_female: "Потентат"
  empire_potentate: "Потентат"
+ title_potentate_hegemony_male: "$title_potentate_male$"
 
  title_confederacy: "Конфедерация"
  title_general_male: "Генерал"
@@ -37,27 +40,47 @@
  title_grand_overlord: "Верховный владыка"
  title_grand_overlady: "Верховная владычица"
 
- title_tamriel_emperor: "Император"
- title_tamriel_empress: "Императрица"
- 
  warlord_emperor_male: "Император"
  warlord_emperor_female: "Императрица"
- empire_tamriel: "Империя"
 
- title_yokuda_emperor: "Император"
- title_yokuda_empress: "Императрица"
- empire_yokuda: "Империя"
+ title_cyrodiil_emperor: "Император"
+ title_cyrodiil_empress: "Императрица"
+ empire_cyrodiil: "Империя"
 
- title_hegemony_male: "Гегемон"
- title_hegemony_female: "Гегемон"
- empire_hegemony: "Гегемония"
+ title_vassal_emperor: "Верховный король"
+ title_vassal_empress: "Верховная королева"
+ empire_vassal: "Верховное королевство"
+ 
+ emperor_vassal_male_imperial: "Губернатор провинции"
+ emperor_vassal_female_imperial: "Губернатор провинции"
+ empire_vassal_imperial: "Провинция"
+
+ empire_provincial_governor_male: "Губернатор провинции"
+ empire_provincial_governor_female: "Губернатор провинции"
+ empire_province: "Провинция"
+
+ title_tamriel_empire_male: "[Character.Custom('TamrielHegemonMaleTitle')|U]"
+ title_tamriel_empire_female: "[Character.Custom('TamrielHegemonFemaleTitle')|U]"
+
+ title_aumapareshe: "Аума-Пар-Эш"
+ title_emenperor: "Эмен Перор Эль"
 
  title_aldmeri_dominion_male: "Аран Альдмерский"
  title_aldmeri_dominion_female: "Арана Альдмерская"
 
+ title_hegemony_male: "Гегемон"
+ title_hegemony_female: "Гегемона"
+ empire_hegemony: "Гегемония"
+
  title_mead_hall: "Зал"
  title_harbinger_male: "Предвестник"
  title_harbinger_female: "Предвестница"
+
+ title_king_captain_male: "Король-капитан"
+ title_king_captain_female: "Королева-капитан"
+
+ title_nordic_empire_male: "[Character.Custom('NordicHegemonMaleTitle')|U]"
+ title_nordic_empire_female: "[Character.Custom('NordicHegemonFemaleTitle')|U]"
 
  committee_republic_male: "Председатель"
  committee_republic_female: "Председательница"
@@ -65,10 +88,6 @@
 
  pale_watch_watchmaster_male: "Смотритель"
  pale_watch_watchmaster_female: "Смотрительница"
-
- duchy_feudal_systres_independent: "Герцогство"
- duke_feudal_male_systres_independent: "Герцог"
- duke_feudal_female_systres_independent: "Герцогиня"
 
  duke_archmage_male: "Архимаг"
  duke_archmage_female: "Архимаг"
@@ -373,7 +392,7 @@
  duke_landless_adventurer_female_camp: "Капитан"
  duchy_landless_adventurer_camp: "Лагерь"
  spouse_landless_adventurer_male: "Господин"
- spouse_landless_adventurer_holder_female: "Госпожа"
+ spouse_landless_adventurer_female: "Госпожа"
 
  duke_landless_adventurer_camp_mercenaries: "Капитан"
  duke_landless_adventurer_camp_wanderers: "[Character.Custom('MistressMaster')|U]"
@@ -609,6 +628,15 @@
  title_forebear_republic_male: "Диктатор"
  title_forebear_republic_female: "Диктатор"
 
+ title_president_male: "Президент"
+ title_president_female: "Президент"
+
+ title_king_of_redguard_male: "Король редгардов"
+ title_king_of_redguard_female: "Королева редгардов"
+
+ title_redguard_republic_male: "[Character.Custom('RedguardHegemonMaleTitle')|U]"
+ title_redguard_republic_female: "[Character.Custom('RedguardHegemonFemaleTitle')|U]"
+
  #Cyrodiilic Group#
  #Feudal
  duchy_feudal_cyrodiilic: "Виконтство"
@@ -670,14 +698,7 @@
  title_custodianship_ilniviri: "Кустодианство"
 
  #North Nedic Group#
- #Feudal 
- empire_feudal_reachfolk: "Верховное королевство"
- emperor_feudal_male_reachfolk: "Таг Ард"
- emperor_feudal_female_reachfolk: "Таг Ард"
- 
- kingdom_feudal_reachfolk: "Королевство"
- king_feudal_male_reachfolk: "Ард"
- king_feudal_female_reachfolk: "Ард"
+ #Feudal
 
  duchy_feudal_reachfolk_independent: "Клан"
  duke_feudal_male_reachfolk_independent: "Вождь вождей"
@@ -1123,10 +1144,12 @@
  count_theocracy_female_khajiiti_religion: "[CHARACTER.Custom('KhajiitClanMother')]"
  duke_theocracy_male_khajiiti_religion: "Лунный архиепископ"
  duke_theocracy_female_khajiiti_religion: "Лунная архиепископ"
- king_theocracy_male_khajiiti_religion: "Лунный король"
- king_theocracy_female_khajiiti_religion: "Лунная королева"
- emperor_theocracy_male_khajiiti_religion: "Лунный император"
- emperor_theocracy_female_khajiiti_religion: "Лунная императрица"
+ king_theocracy_male_khajiiti_religion: "Лунный первосвященник"
+ king_theocracy_female_khajiiti_religion: "Лунная первосвященница"
+ emperor_theocracy_male_khajiiti_religion: "Лунный король"
+ emperor_theocracy_female_khajiiti_religion: "Лунная королева"
+ #hegemon_theocracy_male_khajiiti_religion: "Moon-Emperor"
+ #hegemon_theocracy_female_khajiiti_religion: "Moon-Empress"
  moon_bishop: "Лунный епископ" 
  clan_mother: "Мать клана"
 
@@ -1230,6 +1253,8 @@
  title_princess: "Принцесса"
  prince_empire: "Принц"
  princess_empire: "Принцесса"
+ prince_hegemony: "Принц"
+ princess_hegemony: "Принцесса"
 
  ####################################################
  #Special titles

@@ -61,8 +61,8 @@
  cyroorc_prefix: "Сиро-орко"
 
 ###### ELSWEYR ######
- anequina_orc_name:0 "Дюнные орки"
- anequina_orc_collective_noun:0 "Дюнно-оркск"
+ anequina_orc_name:0 "Песчаные орки"
+ anequina_orc_collective_noun:0 "Песчано-оркск"
  anequina_orc_prefix:0 "Орко"
 
  pellitine_orc_name:0 "Тенмарские орки"
@@ -185,22 +185,14 @@
  skyrim_khajiit_collective_noun:0 "Овазитск"
  skyrim_khajiit_prefix:0 "Овазо"
 
-###### VALENWOOD ######
- ayleidbosmer_name:0 "Салиабойчи"
- ayleidbosmer_collective_noun:0 "Салиабойчск"
- ayleidbosmer_prefix:0 "Салио"
-
- grahthleel_name:0 "Гратхлилы" #Argonians in Valenwood
+ ###### VALENWOOD ######
+ grahthleel_name:0 "Гратхлил" #Argonian in Valenwood
  grahthleel_collective_noun:0 "Гратхлилск"
  grahthleel_prefix:0 "Грато"
 
  graymire_name:0 "Серотрясинцы"
  graymire_collective_noun:0 "Серотрясинск"
  graymire_prefix:0 "Серотрясинско"
- 
- salache_name:0 "Салаче" #Altmer + Bosmer
- salache_collective_noun:0 "Салачейск"
- salache_prefix:0 "Салачо"
  
  south_wealder_name:0 "Вельдцы" #Colovians in Arenthia
  south_wealder_collective_noun:0 "Вельдск"
@@ -240,7 +232,28 @@
  yokuda_khajiit_collective_noun:0 "Йокудитск"
  yokuda_khajiit_prefix:0 "Йокудо"
 
-###### MISC ######
+ ###### AYLEIDS ######
+ ayleidbosmer_name: "Бойчи" #Ayleid + Bosmeri
+ ayleidbosmer_collective_noun: "Бойчск"
+ ayleidbosmer_prefix: "Бойче"
+
+ salache_name:0 "Салачи" #altmer + bosmer
+ salache_collective_noun:0 "Салачск"
+ salache_prefix:0 "Сала"
+
+ spanache_name: "Спаначи" #Falmeri + Ayleid, Span being snow in Falmeris
+ spanache_collective_noun: "Спаначск"
+ spanache_prefix: "Спаначе"
+
+ vanuache_name: "Вануачи" #Dwemeri + Ayleid, Vanua being deep in Ayleidoon
+ vanuache_collective_noun: "Вануачск"
+ vanuache_prefix: "Вануаче"
+
+ gnithiche_name: "Гнитичи" #Chimeri + Ayleid, Gnithir being change in Ayleidoon
+ gnithiche_collective_noun: "Гнитичск"
+ gnithiche_prefix: "Гнитиче"
+
+ ###### MISC ######
  sea_orc_name:0 "Морские орки" #Orcs living on an island
  sea_orc_collective_noun:0 "Морско-оркск"
  sea_orc_prefix:0 "Орко"

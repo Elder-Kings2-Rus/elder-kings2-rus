@@ -1,0 +1,30 @@
+﻿l_russian:
+#EK EDIT: replaced runestone with standing stone
+ culture_parameter_has_access_to_runestones: "[Concept('rulers', 'Правители')|E] могут возводить стоячие камни в память о важных событиях своей жизни, получая [prestige_i] [Concept('prestige', 'престиж')|E]"
+ 
+ raise_runestone_decision: "Воздвигнуть стоячий камень"
+ raise_runestone_decision_desc: "[ROOT.Var('ancestor_to_bury').Char.Custom2('MyCharacterIntroduction', ROOT.Char)|U] теперь пирует в Совнгарде. Я воздвигну в [ROOT.Var('ancestor_to_bury').Char.GetHerHis] честь стоячий камень, чтобы прославить [ROOT.Var('ancestor_to_bury').Char.GetHerHis] и всех, кто носит имя [ROOT.Var('ancestor_to_bury').Char.GetDynasty.GetName]. [ROOT.Var('ancestor_to_bury').Char.GetFullNameNicknamedNoTooltip] навсегда останется жить в памяти своих потомков!"
+ raise_runestone_decision_tooltip: "Воздвигнуть стоячий камень: [ROOT.Char.Custom2('RelationToMeShort', ROOT.Var('ancestor_to_bury').Char)] заслуживает подобной чести"
+ raise_runestone_decision_warning: "@warning_icon! #X стоячий камень будет уничтожен, если правитель [Concept( 'county', 'графства' )|E] не будет принадлежать к вашей [Concept( 'dynasty', 'династии' )|E]#!"
+ raise_runestone_decision_confirm: "Воздвигнуть стоячий камень"
+ raise_runestone_decision_toast: "Воздвигнут стоячий камень"
+ raise_runestone_vassals: "Каждый вассал вашей [Concept( 'faith', 'веры' )|E]"
+
+ raise_stele_decision_name: "Воздвигнуть стоячий камень"
+ raise_stele_decision_desc: "У [GetPlayer.GetCulture.GetCollectiveNounNoTooltip|l]ого народа принято увековечивать важные события в виде резных монументов. Смерть возлюбленного, завершение конфликта, обретение земли и так далее. Возможно, мне пригодился бы такой камень..."
+ raise_stele_decision_tt.effects_list: "Одно из ваших [Concept( 'counties', 'графств' )|E] получит [Concept( 'modifiers', 'модификатор' )|E] из этого списка:\n#indent_newline:0 $EFFECT_LIST_BULLET$[GetModifier('fp1_stele_ancestors_strong').GetNameWithTooltip]\n#indent_newline:0 $EFFECT_LIST_BULLET$[GetModifier('fp1_stele_conquest_strong').GetNameWithTooltip]\n#indent_newline:0 $EFFECT_LIST_BULLET$[GetModifier('fp1_stele_promotion_strong').GetNameWithTooltip]"
+ raise_stele_decision_tt.variable_strength: "Усиливаются все модификаторы, построенные [Concept( 'cultures', 'культурами' )|E], использующими стоячие камни"
+ raise_stele_decision_tooltip: "Заплатите за создание стоячего камня в одном из ваших графств"
+ raise_stele_decision_confirm: "Но что на нем вырезать?"
+ fp1_raise_runestone_vassals: "$EFFECT_LIST_BULLET$Все [direct_vassals|El], также использующие стоячие камни"
+
+ fp1_stele_ancestors_strong: "Стоячий камень предков"
+ fp1_stele_conquest_strong: "Стоячий камень завоевания"
+ fp1_stele_promotion_strong: "Стоячий камень власти"
+
+ fp1_other_decisions.0101.desc: "Каждый стоячий камень хранит историю о важном событии в жизни заказчика. И скромный крестьянин, и [ROOT.Char.GetTitleAsNameNoTooltip|l], как я, — камень помнит всех.\n\nО чём расскажет монумент?"
+ fp1_other_decisions.0101.a.tt: "Стоячий камень расскажет о покойном родственнике..."
+ fp1_other_decisions.0101.b.tt: "Стоячий камень расскажет о ваших победоносных завоеваниях..."
+ fp1_other_decisions.0101.c.tt: "Стоячий камень расскажет о вашем пути во власть..."
+
+ fp1_other_decisions.0111.desc.intro: "Итак, с содержанием стоячего камня все ясно. Остается вопрос, куда мне его поставить?\n\n"

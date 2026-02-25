@@ -92,14 +92,22 @@
  d_laamp_saluphus_article: ""
  d_laamp_iocundus: "Экспедиция"
  d_laamp_iocundus_article: ""
+ d_laamp_vastarie: "Искатели Лелории"
+ d_laamp_vastarie_article: ""
+ d_laamp_manaz: "Лезвие Диагна" #Орихалковый Бог Лезвия
+ d_laamp_manaz_article: ""
+ d_laamp_nisren: "Верные ХунДинга"
+ d_laamp_nisren_article: ""
+ d_laamp_dovahater: "Рота реки Карт"
+ d_laamp_dovahater_article: ""
 
 
  ### EK2: CUSTOM FLAVOR TITLES ###
  # Special LAAMP names for certain people
  # By Juke
- ek_adventurer_name_exiled_akaviri:0 "Изгнанные акавирцы"
+ ek_adventurer_name_exiled_akaviri:0 "Акавирские изгнанники"
  ek_adventurer_name_exiled_akaviri_article:0 ""
- ek_adventurer_name_potentate_in_exile:0 "Потентат-в-изгнании"
+ ek_adventurer_name_potentate_in_exile:0 "Потентат в изгнании"
  ek_adventurer_name_potentate_in_exile_article:0 ""
  ek_adventurer_name_mannimarco:0 "Двор Червей"
  ek_adventurer_name_mannimarco_article:0 ""

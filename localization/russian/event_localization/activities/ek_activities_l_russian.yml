@@ -14,7 +14,6 @@
  activity_feast_province_desc_rootspire:0 "#P +++ $building_type_rootspire_01$#!"
  activity_feast_province_desc_hlalkeep:0 "#P +++ $building_type_hlalkeep_01$#!"
  activity_feast_province_desc_lichen_fields:0 "#P +++ $building_type_lichen_fields_01$#!"
- activity_feast_province_desc_tel_thenim:0 "#P --- $building_type_tel_thenim_01$#!"
  activity_feast_province_desc_graht_manors: "#P ++ $building_type_graht_manors_01$#!"
  activity_feast_province_desc_pact_provisions: "#P + $building_type_pact_provisions_01$#!"
 
@@ -33,7 +32,7 @@
  feast_cost_discount_rootspire:0 "В этом месте есть $building_type_rootspire_01$"
  feast_cost_discount_hlalkeep:0 "В этом месте есть $building_type_hlalkeep_01$"
  feast_cost_discount_lichen_fields:0 "В этом месте есть $building_type_lichen_fields_01$"
- feast_cost_discount_tel_thenim:0 "В этом месте есть $building_type_tel_thenim_01$"
+
  activity_pilgrimage.is_location_valid.at_war.top_liege:0 "Вы находитесь в состоянии войны с верховным сюзереном этого [Concept('holy_site', 'священного места')|E]"
  activity_pilgrimage.is_location_valid.at_war:0 "Вы находитесь в состоянии войны с владельцем этого [Concept('holy_site', 'священного места')|E]"
  activity_education.is_location_valid.at_war.top_liege:0 "Вы находитесь в состоянии войны с верховным сюзереном этой локации."

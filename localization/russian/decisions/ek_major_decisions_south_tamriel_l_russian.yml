@@ -10,6 +10,8 @@
  integrate_tearmarsh_black_marsh_decision_confirm:0 "Топи расширяются!"
  integrate_tearmarsh_black_marsh_decision_tooltip:0 "Болото Слёз уже некоторое время находится под нашим контролем, наконец пришло время интегрировать его в Чернотопье!"
 
+ integrate_tearmarsh_become_de_jure_tooltip:0 "Все [Concept('duchies', 'герцогства')|E] в пределах [Concept('region', 'региона')|E] [GetGeographicalRegion('mundus_tamriel_morrowind_tearmarsh').GetName] станут [de_jure|El] частью державы [GetTitleByKey('k_tearmarsh').GetName]"
+
  integrate_tearmarsh_cantemiris_decision:0 "Интегрировать Болото Слёз в Кантемирис"
  integrate_tearmarsh_cantemiris_decision_desc:0 "На протяжении многих поколений Болото Слёз было домом для воинственного Великого дома Дрес на границе с Чернотопьем. Но где же граница проходит по болотам? Болото Слёз - щедрая земля, и на её побережье можно возвести множество великих крепостей. Это также даст нам полный контроль над заливом Торн.\n\nС нашей стороны было бы мудро попытаться объединить эти земли, отбросив данмеров обратно в их проклятые пепельные земли."
  integrate_tearmarsh_cantemiris_decision_confirm:0 "Вперёд, кантемири!"

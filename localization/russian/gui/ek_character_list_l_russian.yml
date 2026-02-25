@@ -1,12 +1,10 @@
 ﻿l_russian:
  pirate_government_filter_option: "$game_concept_pirate$"
  academy_government_filter_option: "$game_concept_academy$"
- hierocracy_government_filter_option: "$game_concept_hierocracy$"
  autocracy_government_filter_option: "$game_concept_autocracy$"
  landed_order_government_filter_option: "$game_concept_landed_order$"
 
  pirate_government_filter_option_desc: "Показывает правителей только с [Concept( 'pirate', 'пиратской' )|E] [Concept( 'government', 'формой правления' )|E]"
  academy_government_filter_option_desc: "Показывает правителей только с [Concept( 'academy', 'академической' )|E] [Concept( 'government', 'формой правления' )|E]"
- hierocracy_government_filter_option_desc: "Показывает правителей только с [Concept( 'hierocracy', 'иерократической' )|E] [Concept( 'government', 'формой правления' )|E]"
  autocracy_government_filter_option_desc: "Показывает правителей только с [Concept( 'autocracy', 'автократической' )|E] [Concept( 'government', 'формой правления' )|E]"
  landed_order_government_filter_option_desc: "Показывает правителей только с [Concept( 'landed_order', 'орденской' )|E] [Concept( 'government', 'формой правления' )|E]"

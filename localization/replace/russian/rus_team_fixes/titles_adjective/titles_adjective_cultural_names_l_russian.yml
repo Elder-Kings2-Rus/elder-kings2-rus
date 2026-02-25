@@ -4,18 +4,10 @@
  ### High Rock ###
  #################
  cn_manmereth_adj:0 "Манмеретск"
- cn_betnar_adj:0 "Бетнарск"
  cn_khazun_ghash_adj:0 "Хазун-гашск"
  cn_grudgerock_adj:0 "Скало-раздорск"
  cn_farrund_adj:0 "Фаррундск"
  cn_farrund_hall_adj:0 "Фаррундхоллск"
- cn_lar_druaid_adj:0 "Лар-друайдск" # Reachfolk k_Jehanna
- cn_dru_druad_adj:0 "Дру-друайдск" # Reachfolk d_Jehanna
- cn_cul_druaid_adj:0 "Кул-друайдск" # Reachfolk c_Jehanna
- cn_lar_farun_adj:0 "Лар-фарунск" # Reachfolk k_Farrun
- cn_dru_farun_adj:0 "Дру-фарунск" # Reachfolk d_Farrun
- cn_cul_farun_adj:0 "Кул-фарунск" # Reachfolk c_Farrun
- cn_lar_wrogar_adj:0 "Лар-рогарск" # Reachfolk k_Wrothgar
  cn_cul_aloue_adj:0 "Кул-алоуск" # Reachfolk c_Coldperch
  cn_jehenna_adj:0 "Джехеннск" # PGE3/Skyrim name for Jehanna
  cn_vragerest_adj:0 "Враггенск" #Because Vrage started the invasion into High Rock
@@ -23,9 +15,7 @@
  cn_hoagsrest_adj:0 "Хоагск"
  cn_kjamlor_adj:0 "Кьямлейрск"
  cn_kjamlor_hall_adj:0 "Кьямлейрск"
- cn_kjambray_adj:0 "Кьямбрейск"
  cn_dolkenfall_adj:0 "Долкенфоллск"
- cn_daggerfell_adj:0 "Даггерфеллск"
  cn_dolkenfall_hall_adj:0 "Долкенфоллск"
  cn_invisible_college_dolkenfall_adj:0 "Долкенфоллск"
  cn_shornhjalmr_adj:0 "Шорнхьяльмрск"
@@ -362,3 +352,5 @@
  cn_castle_lilmoth_adj:0 "Край-лилмотск"
  #Kothringi
  cn_koth_adj:0 "Котрск"
+ cn_tam_rugh_adj: "Там-ругск"
+ cn_tam_riel_adj: "Там-риэльск"

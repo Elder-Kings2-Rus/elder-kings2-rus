@@ -109,5 +109,13 @@
  dismantle_nibenese_pretender_cb_defeat_desc:1 "$e_nibenay$ останется нетронутым. [attacker.GetShortUIName|U] обязуется выплатить компенсацию."
  dismantle_empire_pretender_cb_victory_desc:1 "[defender.GetPrimaryTitle.GetName] будет уничтожен."
  dismantle_empire_pretender_cb_defeat_desc:1 "[defender.GetPrimaryTitle.GetName] останется нетронутым. [attacker.GetShortUIName|U] обязуется выплатить компенсацию."
- dismantle_potentate_pretender_cb_victory_desc:1 "$e_cyrodiilic_potentate$ будет уничтожен."
- dismantle_potentate_pretender_cb_defeat_desc:1 "$e_cyrodiilic_potentate$ останется нетронутым. [attacker.GetShortUIName|U] обязуется выплатить компенсацию.
+ dismantle_potentate_pretender_cb_victory_desc:1 "$e_potentate$ будет уничтожен."
+ dismantle_potentate_pretender_cb_defeat_desc:1 "$e_potentate$ останется нетронутым. [attacker.GetShortUIName|U] обязуется выплатить компенсацию.
+
+ tamriel_reconquest_cb:0 "Имперская реконкиста" # скопировано из ванили
+ TAMRIEL_RECONQUEST_NAME:0 "Захватить все имперские провинции"
+ TAMRIEL_RECONQUEST_WAR_NAME:0 "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]#L [ATTACKER.GetPrimaryTitle.GetAdjective]о-[DEFENDER.GetPrimaryTitle.GetAdjective|l]ая#! имперская реконкиста"
+ TAMRIEL_RECONQUEST_WAR_NAME_BASE:0 "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]"
+ TAMRIEL_RECONQUEST_SPECIFIC_NAME:0 "Восстановить имперскую провинцию [TITLE.GetNameNoTier]"
+ TAMRIEL_RECONQUEST_WAR_SPECIFIC_NAME:0 "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective]о-[DEFENDER.GetPrimaryTitle.GetAdjective|l]ая#! имперская реконкиста"
+ TAMRIEL_RECONQUEST_WAR_SPECIFIC_NAME_BASE:0 "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]"

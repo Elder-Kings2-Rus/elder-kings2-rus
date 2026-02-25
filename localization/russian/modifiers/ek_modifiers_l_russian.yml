@@ -175,20 +175,11 @@
  academy_government_tax_contribution_add:1 "[modifier_base_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept( 'academy', 'академий' )|E]"
  academy_government_tax_contribution_mult:1 "[modifier_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept( 'academy', 'академий' )|E]"
 
- hierocracy_government_opinion:0 "Мнение [Concept( 'hierocracy', 'иерократического' )|E] правителя"
- hierocracy_government_tax_contribution_add:1 "[modifier_base_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept( 'hierocracy', 'иерократов' )|E]" #ошибка разрабов academy?
- hierocracy_government_tax_contribution_mult:1 "[modifier_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept( 'hierocracy', 'иерократов' )|E]" #ошибка разрабов academy?
-
  autocracy_government_opinion:0 "Мнение [Concept( 'autocracy', 'автократического' )|E] правителя"
  autocracy_government_tax_contribution_add:1 "[modifier_base_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept( 'autocracy', 'автократов' )|E]" #ошибка разрабов academy?
  autocracy_government_tax_contribution_mult:1 "[modifier_contribution|E]: [Concept( 'tax', 'налоги' )|E] с [Concept( 'vassal', 'вассалов' )|E]-[Concept( 'autocracy', 'автократов' )|E]" #ошибка разрабов academy?
 
  ### Event modifiers
- recent_migration_in:0 "Недавнее переселение"
- recent_migration_in_desc:0 "Недавно кочевой народ захватил контроль над провинцией."
- recent_migration_out:0 "Недавнее переселение"
- recent_migration_out_desc:0 "Когда-то эта провинция принадлежала кочевому народу, но недавно они ушли, оставив эту провинцию почти пустой."
-
  yummy_tea:0 "Вкусный чай"
  yummy_tea_desc:0 "У этого персонажа была прекрасная чашка чая."
 
@@ -255,15 +246,6 @@
  contrite_politician:0 "Раскаявшийся политик"
 
  bad_kinsman:0 "Плохой родственник"
- 
- ## Attrebus vs Potentate
- attrebus_opened_temple_district:0 "Открыт Храмовый район"
- attrebus_opened_temple_district_desc:0 "После того, как Храмовый район был закрыт для населения Имперского острова на протяжении десятилетий, он наконец-то доступен для проведения религиозных праздников"
- ic_attrebus_opened_temple_district:0 "Открыт Храмовый район"
- ic_attrebus_opened_temple_district_desc:0 "После того, как Храмовый район был закрыт для населения Имперского острова на протяжении десятилетий, он наконец-то доступен для проведения религиозных праздников"
-
- debt_ec_raised_taxes:0 "Долг перед Советом старейшин"
- debt_ec_raised_taxes_desc:0 "Не имея возможности полностью погасить свой долг, правитель решил передать часть долга своей державе. Как и следовало ожидать, местные жители не в восторге от этого."
 
  direnni_reclaim_hegemony_1:0 "Экспансионизм Диренни"
  direnni_reclaim_hegemony_1_desc:0 "Стремясь восстановить былую Гегемонию Диренни, члены рода Диренни получили задачу завоевать то, что когда-то принадлежало им. Только время покажет, принесут ли их усилия плоды.\n\nЧлены этой [Concept('dynasty', 'династии')|E] также получают: #P -10%#! стоимости казус белли"
@@ -373,8 +355,6 @@
  stress_experimentalist_modifier_10_desc:0 "Этот персонаж с трудом удерживает тревожные мысли - и находит в этом облегчение."
 
  ### Orsinium
- city_of_the_orcs:0 "Столица орков"
-
  orsinium_mountain_orc_advantage:0 "Защитники Орсиниума"
  orsinium_mountain_orc_advantage_desc:0 "Теперь, когда горные орки отвоевали или восстановили город Орсиниум, они готовы защищать его до смерти.\nМиллионы бретонцев, нордов и редгардов могут идти на него, и миллионы бретонцев, нордов и редгардов будут отбиты.\n\n#weak Примечание: Этот модификатор применяется к каждой провинции, которая является как [de_jure|El], так и де-факто вассалом королевства Орсиниум. За каждое герцогство, которое считается [de_jure|El] вассалом Орсиниума, этот модификатор теряет по одному множителю, начиная с 5 множителей.#!"
 
@@ -612,8 +592,6 @@
  ferocious_mages_desc:0 "Маги среди ваших войск специализируются на подавляющей силе, шоке и трепете, а также на оптимальном использовании самых разрушительных заклинаний."
  bungling_mages:0 "Невежественные маги"
  bungling_mages_desc:0 "Маги среди ваших войск были убеждены, что огневая мощь является единственным показателем их вклада в сражение, что мешает им применять тактические приемы."
- ashlander_exile_modifier:0 "Изгнанник-эшлендер"
- ashlander_exile_modifier_desc:0 "Этот персонаж был изгнан из своего эшлендерского племени."
  exiled_criminal:0 "Преступник был изгнан"
  exile_harboured:0 "Укрывал преступника"
  by_the_books:0 "По книгам"
@@ -631,8 +609,6 @@
  heart_over_reason:0 "Сердце превыше разума"
  heart_over_reason_desc:0 "Для этого персонажа благополучие других людей важнее собственного обучения."
  warded_capital:0 "Защищённая столица"
- warded:0 "Защищённый"
- warded_desc:0 "Этот персонаж был защищён защитным заклинанием."
  godlike_health:0 "Богоподобное здоровье"
  godlike_health_desc:0 "Этому персонажу удалось достичь такого уровня здоровья, о котором смертные не могли и мечтать."
  splendor:0 "Величие"
@@ -809,6 +785,7 @@
  verity_worthy_desc:0 "Этот персонаж был признан достойным Короной Истинности"
  verity_unworthy:0 "Недостойный"
  verity_unworthy_desc:0 "Этот персонаж был признан недостойным Короной Истинности"
+ crown_verity_tooltip:0 "Лишь те, кого Корона Истинности сочтёт достойными, могут носить её. Проверьте себя, воспользовавшись [Concept('decisions', 'решением')|E] #v «$crown_verity_decision$»#!."
 
  cuckoldry_psalter_modifier:0 "Псалтырь адюльтера"
  chastity_belt_modifier:0 "Пояс целомудрия"
@@ -956,6 +933,12 @@
 
  syrabane_heirs_dynasty_modifier: "Наследники Сирабейна"
  syrabane_heirs_dynasty_modifier_desc: "Эта династия претендует на прямое происхождение от Сирабейна, Бога-чародея."
- 
+
+ imperial_dynasty_modifier: "Имперская династия"
+ imperial_dynasty_modifier_desc: "Эта династия возвысилась, проявив себя истинными императорами Сиродила."
+
+ potentate_dynasty_modifier: "Династия потентатов"
+ potentate_dynasty_modifier_desc: "Эта династия восстановила Акавирский потентат, преданно ожидая возвращения истинного императора Сиродила."
+
  warlord_emperor_modifier: "Император-военачальник"
  warlord_emperor_modifier_desc: "Если [legitimacy_level|El] этого персонажа окажется ниже #V 4#! к моменту смерти, имперский [title|El] будет уничтожен. Все [vassals|El], не являющиеся [de_jure|El] вассалами других титулов, получат независимость.\n\n"

@@ -5,6 +5,8 @@
  ek_morrowind.0001.a.great:0 "Народ признаёт правоту ваших действий"
  ek_morrowind.0001.a.poor:0 "Народ возмущён этим пустым жестом"
  ek_morrowind.0001.b:0 "Завалить [disinherited.GetHerHis] прощальными подарками, пока [disinherited.GetSheHe] всё ещё здесь!"
+ ek_morrowind.0001.a.success.tooltip: "PLACEHOLDER"
+ ek_morrowind.0001.a.failure.tooltip: "PLACEHOLDER"
  ek_morrowind.0001.c:0 "Если уж на то пошло, то [disinherited.GetFirstNameNoTooltip] может с радостью присоединиться к этим отбросам."
  ek_morrowind.0001.c.success.tooltip:0 "Скандал утихает сам собой."
  ek_morrowind.0001.c.failure.tooltip:0 "Позор следует за именем вашего отверженного родича!"
@@ -131,7 +133,9 @@
  vivec_fled:0 "Вивек потерял интерес"
  vivec_one_eyed:0 "Вивек вырвал глаз персонажа [army_commander.GetFirstName]"
  vivec_lunatic:0 "Вивек свёл персонажа [army_commander.GetFirstName] с ума"
+ vivec_disrupted: "Вивек истощил ману персонажа [army_commander.GetFirstName]"
  vivec_teleported:0 "Вивек телепортировал армию персонажа [army_commander.GetFirstName]"
+ vivec_death: "Вивек убил персонажа [army_commander.GetFirstName]"
  vivec_dies_irae:0 "Вивек покарал персонажа [army_commander.GetFirstName] за дерзость"
 
  ek_morrowind.0015.t:0 "Вот и..."

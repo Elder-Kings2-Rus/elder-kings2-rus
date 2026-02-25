@@ -7,4 +7,3 @@
  
  demand_admin_landed_order: "[recipient.GetShortUIName|U] – это [landed_order_government|El]. Подобное [government|El] не может стать [Concept('administrative','бюрократией')|E]"
  demand_admin_academy: "[recipient.GetShortUIName|U] – это [academy_government|El]. Подобное [government|El] не может стать [Concept('administrative','бюрократией')|E]"
- demand_admin_hierocracy: "[recipient.GetShortUIName|U] – это [hierocracy_government|El]. Подобное [government|El] не может стать [Concept('administrative','бюрократией')|E]"

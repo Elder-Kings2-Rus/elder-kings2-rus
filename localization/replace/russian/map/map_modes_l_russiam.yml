@@ -1,3 +1,5 @@
 ﻿l_russian:
- dejure_empires:0 "Титулы верховных королевств"
- dejure_empires_desc:0 "$MAPMODE_DJ_EMPIRES$"
+ dejure_empires:0 "Верховные королевства"
+ MAPMODE_DJ_EMPIRES: "#T Верховные королевства\n#!Показывает на карте [Concept('titles', 'титулы')|E] [Concept('empire', 'верховных королевств')|E] и их [de_jure|El] земли на карте."
+ dejure_hegemonies: "Империи"
+ MAPMODE_DJ_HEGEMONIES: "#T Империи\n#!Показывает на карте [Concept('titles', 'титулы')|E] [Concept('hegemony', 'империй')|E] и их [Concept('de_jure', 'де-юре')|E] территории."

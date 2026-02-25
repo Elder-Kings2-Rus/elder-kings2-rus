@@ -76,7 +76,7 @@
  systres_yokuda_decision: "Вопрос Систреса"
  systres_yokuda_decision_confirm: "Систрес принадлежит Йокуде!"
  systres_yokuda_decision_tooltip: "Включить [Concept('kingdom', 'королевство')|E] Систрес в [Concept('de_jure', 'де-юре')|E] границы Йокуды"
- systres_yokudan_decision_desc: "Дуадри давным-давно обосновались на Систресе. Само собой разумеется, что мы должны закрепить йокуданское владычество над этими островами."
+ systres_yokuda_decision_desc: "Дуадри давным-давно обосновались на Систресе. Само собой разумеется, что мы должны закрепить йокуданское владычество над этими островами."
 
  systres_hammerfell_decision: "Вопрос Систреса"
  systres_hammerfell_decision_confirm: "Систрес принадлежит Хаммерфеллу!"
@@ -101,3 +101,13 @@
  solstheim_skyrim_decision_desc:0 "То, что Морровинд объявил Солстхейм своим, не отменяет того факта, что он был заселён древними атморцами со времён [Glossary( 'Меретической эры', 'MERETHIC_GLOSS' )]. Солстхейм принадлежит нордам, и я верну его."
  solstheim_skyrim_decision_tooltip:0 "Включить [Concept('kingdom', 'королевство')|E] Солстхейм в [Concept('de_jure', 'де-юре')|E] границы Скайрима"
  solstheim_skyrim_decision_confirm:0 "Солстхейм принадлежит Скайриму!"
+ #Eastern Isles
+ integrate_eastern_isles_decision:0 "Интегрировать Восточные острова"
+ integrate_eastern_isles_decision_desc:0 "Родной остров стал слишком мал для нашего народа. Если мы хотим процветать, то нужно осмелиться пересечь бурное море."
+ integrate_eastern_isles_decision_tooltip:0 "Восточные острова будут интегрированы в Солстхейм."
+ integrate_eastern_isles_decision_confirm:0 "Восточные острова принадлежат Солстхейму!"
+
+ return_eastern_isles_winterhold_decision:0 "Вернуть Восточные острова"
+ return_eastern_isles_winterhold_decision_desc:0 "Восточные острова были неправомерно отняты, но мы всё ещё можем вернуть их."
+ return_eastern_isles_winterhold_decision_tooltip:0 "Вернуть Восточные острова."
+ return_eastern_isles_winterhold_decision_confirm:0 "Восточные острова принадлежат Винтерхолду!"
