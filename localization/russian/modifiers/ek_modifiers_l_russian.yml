@@ -749,10 +749,11 @@
 
 
  ### Magocracy
- count_magocracy_mage_bonus_modifier:0 "Магократия - граф"
- duke_magocracy_mage_bonus_modifier:0 "Магократия - герцог"
- king_magocracy_mage_bonus_modifier:0 "Магократия - король"
- emperor_magocracy_mage_bonus_modifier:0 "Магократия - император"
+ count_magocracy_mage_bonus_modifier: "Магократия — [count|El]"
+ duke_magocracy_mage_bonus_modifier: "Магократия — [duke|El]"
+ king_magocracy_mage_bonus_modifier: "Магократия — [king|El]"
+ emperor_magocracy_mage_bonus_modifier: "Магократия — [emperor|El]"
+ hegemon_magocracy_mage_bonus_modifier: "Магократия — [hegemon|El]"
 
  ### Tribes
  tribal_expected_level_of_fame_below:0 "[expected_prestige_level|E] не достигнут"

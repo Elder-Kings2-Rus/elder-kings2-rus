@@ -1,7 +1,7 @@
 ﻿l_russian:
  ## MISCELLANEOUS
  h_tamriel:0 "Тамриэль"
- e_tamriel_adj:0 "Тамриэльск"
+ h_tamriel_adj:0 "Тамриэльск"
  e_ghost_sea:0 "Море Призраков"
  e_reach:0 "Предел"
  e_colovian_estates:0 "Коловианский союз"
@@ -143,10 +143,10 @@
  # Summerset
  k_auridon:0 "Ауридон"
  k_auridon_adj:0 "Ауридонск"
- h_aldmeri_dominion:0 "Альдмерский Доминион"
+ h_aldmeri_dominion:0 "Альдмерский доминион"
  h_aldmeri_dominion_adj:0 "Альдмерск" #or Aldmeri, but Dominion feels more fitting based on my time playing ESO
  h_aldmeri_dominion_article:0 ""
- h_nordic_empire: "Империя Нордов"
+ h_nordic_empire: "Нордская империя"
  h_nordic_empire_adj: "Нордск"
  h_nordic_empire_article: ""
  h_redguard_republic: "Редгардская республика"
@@ -166,7 +166,7 @@
  k_telvanni:0 "Дом Телванни"
  k_hlaalu:0 "Дом Хлаалу"
  k_dagoth:0 "Дом Дагот"
- d_dreamers: "Видящие"
+ d_dreamers: "Спящие"
  d_dreamers_article: ""
  k_sadras:0 "Дом Садрас"
  k_sul:0 "Дом Сул"

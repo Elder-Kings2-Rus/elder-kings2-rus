@@ -1,6 +1,6 @@
 ﻿l_russian:
- crown_authority_0_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 Может создавать [Concept('tributaries', 'данников')|E]#!"
- tribal_authority_0_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 Может создавать [Concept('tributaries', 'данников')|E]#!"
+ crown_authority_0_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 Можно создавать [Concept('tributaries', 'данников')|E]#!"
+ tribal_authority_0_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 Можно создавать [Concept('tributaries', 'данников')|E]#!"
 
  religious_tolerance_law: "Религиозная терпимость"
  religious_tolerance_law_singular: "$religious_tolerance_law$"

@@ -23,14 +23,14 @@
  witchman_history_loc:0 "Развилась в Пределе под гнётом альдмеров и нордов"
  karth_history_loc:0 "Произошла от племён Предела под гнётом нордов"
  northman_history_loc:0 "Потомки нордских поселенцев и северных бретонских племён"
- wrothgarian_history_loc:0 "#L [CULTURE.GetCollectiveNoun]ие#! поселенцы, осевшие в Ротгарианских горах"
+ wrothgarian_history_loc:0 "#L [CULTURE.GetCollectiveNoun|U]ие#! поселенцы, осевшие в Ротгарианских горах"
  #Chimer
  chimer_history_loc:0 "Последователи пророка Велота, отправившиеся за ним в изгнание"
  cantemiric_history_loc:0 "Последователи оракула Кантемир, отправившиеся за ней в Чернотопье"
  #Imperial
  heartlander_history_loc: "Произошли от #L [CULTURE.GetCollectiveNoun|l]их#! племён под #L [TARGET_CULTURE.GetCollectiveNoun|l]им#! влиянием"
- nibenese_history_loc:0 "Произошли от #L [GetCulturePillar('heritage_cyrod').GetName]их#! племён, которыми правили [CULTURE.GetName|l]"
- colovian_history_loc:0 "Произошли от #L [GetCulturePillar('heritage_cyrod').GetName]их#! племён, находившихся под нордским влиянием"
+ nibenese_history_loc:0 "Произошли от #L [GetCulturePillar('heritage_cyrod').GetName|l]их#! племён, которыми правили [CULTURE.GetName|l]"
+ colovian_history_loc:0 "Произошли от #L [GetCulturePillar('heritage_cyrod').GetName|l]их#! племён, находившихся под нордским влиянием"
  strident_history_loc:0 "#L [CULTURE.GetCollectiveNoun]ий#! народ Золотого Берега, на который повлияли #L [TARGET_CULTURE.GetName|l]#!" 
  nibenu_history_loc:0 "[CULTURE.GetName], заселившие плодородные Нибенейские низины"
  rimmenese_history_loc:0 "Происходят от #L [CULTURE.GetCollectiveNoun|l]их#! торговцев, поселившихся в землях Риммена" 

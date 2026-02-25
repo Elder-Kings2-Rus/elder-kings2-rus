@@ -15,8 +15,6 @@
  d_oracles_ruptga_adj: "Оракульск"
  d_icereach_adj:0 "Ледяно-пределск"
  # History Titles
- AKAVIRI_POTENTATE_adj:0 "Акавирск"
- CYRODIILIC_POTENTATE_adj:0 "Сиродильск"
  KEEP_GRATEFUL_adj:0 "Крепость-благодарностьск"
  # Pirates
  d_brethren_gold_coast_adj:0 "Золото-берегск"
@@ -39,11 +37,6 @@
  d_first_legion_adj:0 "Имперско-гвардейск"
  # Religious Heads
  k_council_of_the_eight_adj:0 "Совет-восьмийск"
- d_imperial_cult_adj:0 "Сиродилск"
- d_nord_cult_adj:0 "Скайримск"
- d_breton_cult_adj:0 "Хай-рокск"
- d_redguard_cult_adj:0 "Хаммерфеллск"
- d_kothringi_cult_adj:0 "Чернотопьск"
  d_scions_faith_adj:0 "Кроваво-отпрыскск"
  d_tonal_architects_adj:0 "Тонально-архитекторск"
  # Holy Orders
@@ -70,6 +63,7 @@
  k_telvanni_adj:0 "Телваннийск"
  k_hlaalu_adj:0 "Хлаалск"
  k_dagoth_adj:0 "Даготск"
+ d_dreamers_adj: "Спящск"
  k_sadras_adj:0 "Садрасск"
  k_sul_adj:0 "Сулск"
  k_veloth_adj:0 "Велотск"

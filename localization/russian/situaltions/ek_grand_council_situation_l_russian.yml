@@ -36,6 +36,8 @@
  situation_parameter_writ_of_war_purchased_from_hc: "Можно купить [Concept('writ_of_war', 'разрешение на войну')|E] у [Concept('high_councilor', 'верховного советника')|E], чтобы вести войну с [Concept('rulers', 'правителями')|E] вне Великого совета"
  situation_parameter_writ_of_war_purchased_independently: "Можно купить [Concept('writ_of_war', 'разрешение на войну')|E] независимо от [Concept('high_councilor', 'верховного советника')|E], чтобы вести войну с [Concept('rulers', 'правителями')|E] вне Великого совета"
  situation_parameter_only_high_councilor_can_wage_external_wars: "Только [Concept('high_councilor', 'верховный советник')|E] может вести войну с [Concept('rulers', 'правителями')|E] вне Великого совета"
+ situation_parameter_unable_to_start_dissolution_factions_gcm: "Нельзя создавать [Concept('dissolution_factions', 'фракции разделения')|E] против [Concept('grand_council_members', 'членов Великого совета')|E]"
+ situation_parameter_unable_to_start_independence_factions_gcm: "Нельзя создавать [Concept('independence_factions', 'фракции сепаратистов')|E] против [Concept('grand_council_members', 'членов Великого совета')|E]"
  #Schemes
  situation_grand_council_schemes_effects: "Влияние на происки"
  situation_grand_council_schemes_effects_concept: "[Concept('schemes', 'Происки')|E]"
@@ -102,6 +104,8 @@
  catalyst_situation_gcm_member_expanded_de_jure_desc: "[great_house_head|E] расширил свою [de_jure|El] территорию"
  catalyst_situation_hc_expanded_de_jure: "$catalyst_situation_hc_expanded_de_jure_desc$"
  catalyst_situation_hc_expanded_de_jure_desc: "[high_councilor|E] расширил свою [de_jure|El] территорию"
+ catalyst_situation_house_dagoth_revived: "$catalyst_situation_house_dagoth_revived_desc$"
+ catalyst_situation_house_dagoth_revived_desc: "Возвращение Потерянного дома"
  #Tooltips
  forbid_internal_wars_tooltip: "Вы не можете объявить войну другим [Concept('grand_council_members', 'членам Великого совета')|E] из-за [Concept('situation', 'ситуации')|E] [Concept('grand_council', 'Великого совета')|E]"
  writ_of_war_required_tooltip:0 "Объявление войны [Concept('rulers', 'правителям')|E] вне [Concept('grand_council', 'Великого совета')|E] требует [Concept('writ_of_war', 'разрешения на войну')|E]"

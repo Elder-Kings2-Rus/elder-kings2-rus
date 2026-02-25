@@ -1,8 +1,8 @@
 ﻿l_russian:
-#Mandala replacements
+ #Mandala replacements
  mandala_government: "Грива"
  mandala_government_adjective: "Гривск"
- mandala_government_realm: "Царство Гривы"
+ mandala_government_realm: "Владения Гривы"
  mandala_government_desc: "\n$game_concept_mandala_desc$\n\n#F Эта форма правления опирается на [GetFaithDoctrine('doctrine_mystical_birthright_head').GetBaseName] [Concept('head_of_faith', 'главы конфессии')|E]. Государственный аппарат поддерживается властью Гривы над общественным устройством и таким образом действует в интересах его последователей.#!"
  mandala_vassal: "Грива"
  khlon_glan_assist_provisioning_desc: "Этот персонаж сосредоточен на улучшении столицы Гривы."
@@ -66,7 +66,7 @@
  game_concept_mandala_radiance_desc: "Свойство [Concept('ruler', 'правителя')|E] [Concept('mandala', 'Грива')|E] привлекать и удерживать симпатии [Concept('subjects', 'субъектов')|E] называется великолепием Гривы. Его сила напрямую зависит от [Concept('piety_level', 'уровня набожности')|E] правителя, уровня [Concept('great_building', 'грандиозной постройки')|E] #V «[GetBuilding('mandala_capital_01').GetTypeName]»#! и уровня [Concept('mandala_aspect', 'аспекта Гривы')|E].\n\nТот, кому удается совместить все три фактора и увеличить свое великолепие, получает больше наград, субъектов и власти."
  game_concept_mandala_decree: "Указ Гривы"
  game_concept_mandala_decrees: "Указы Гривы"
- game_concept_mandala_decree_desc: "$game_concept_mandala_decrees$ — это указы о [Concept('prosperity_decree', 'процветании')|E], [Concept('expansion_decree', 'расширении')|E] и [Concept('reverence_decree', 'почитании')|E], которые может издавать [Concept('ruler', 'правитель')|E] [Concept('mandala', 'Гривы')|E].\n\nКак правило, державы Гривы чрезвычайно централизованы, власть над [Concept('subjects', 'субъектами')|E] и право издавать [Concept('laws', 'законы')|E] сосредоточены в руках правителя, и он вправе менять их, не спрашивая мнения подданных."
+ game_concept_mandala_decree_desc: "$game_concept_mandala_decrees$ — это указы о [Concept('prosperity_decree', 'процветании')|E], [Concept('expansion_decree', 'расширении')|E] и [Concept('reverence_decree', 'почитании')|E], которые может издавать [Concept('ruler', 'правитель')|E]-[Concept('mandala', 'Грива')|E].\n\nКак правило, державы Гривы чрезвычайно централизованы, власть над [Concept('subjects', 'субъектами')|E] и право издавать [Concept('laws', 'законы')|E] сосредоточены в руках правителя, и он вправе менять их, не спрашивая мнения подданных."
  game_concept_mandala_decree_reverence_desc: "[GetLaw('mandala_decree_reverence').GetName] велит [Concept('subjects', 'субъектам')|E] [Concept('mandala', 'Гривы')|E] посвятить себя духовному развитию и богослужению.\n\nЭтот указ Гривы требует [Concept('pilgrimages', 'паломничеств')|E], религиозных церемоний и [Concept('piety', 'благочестия')|E]."
  game_concept_mandala_aspect: "Аспект Гривы"
  game_concept_mandala_aspects: "Аспекты Гривы"
@@ -80,8 +80,8 @@
  turn_subject_into_mandala_interaction: "Предложить стать правителем Гривы"
  tgp_east_asia_interaction_events.1003.desc: "Настал тот момент, когда [recipient.GetPrimaryTitle.GetBaseNameNoTier] может стать полноценной частью [actor.GetPrimaryTitle.GetAdjectiveNoTooltip|l]ой Гривы. Я предлагаю тебе править, как [actor.GetPrimaryTitle.GetTierAsNameNoTooltip|l], пользуясь при этом полной поддержкой моих священников."
  ruined_my_temple_opinion: "Разрушили мой храм Гривы"
- mandala_plunder_cb_ended_invalid.desc: "Конфликт «[war.GetName]» завершился: либо [attacker.GetShortUIName] больше не [Concept('ruler', 'правитель')|E] [Concept('mandala', 'Гривы')|E] с [Concept('aspect_of_destruction', 'аспектом разрушения')|E] и запланированным [Concept('great_project', 'грандиозным проектом')|E], либо [defender.GetShortUIName] больше не правитель Гривы."
- mandala_raze_capital_structure_cb_ended_invalid.desc: "Конфликт «[war.GetName]» завершился: либо [attacker.GetShortUIName] больше не [Concept('ruler', 'правитель')|E] [Concept('mandala', 'Гривы')|E] с не[Concept('ruined', 'разрушенной')|E] столицей, либо [defender.GetShortUIName] больше не правитель Гривы с неразрушенной столицей."
+ mandala_plunder_cb_ended_invalid.desc: "Конфликт «[war.GetName]» завершился: либо [attacker.GetShortUIName] больше не [Concept('ruler', 'правитель')|E]-[Concept('mandala', 'Грива')|E] с [Concept('aspect_of_destruction', 'аспектом разрушения')|E] и запланированным [Concept('great_project', 'грандиозным проектом')|E], либо [defender.GetShortUIName] больше не правитель Гривы."
+ mandala_raze_capital_structure_cb_ended_invalid.desc: "Конфликт «[war.GetName]» завершился: либо [attacker.GetShortUIName] больше не [Concept('ruler', 'правитель')|E]-[Concept('mandala', 'Грива')|E] с не[Concept('ruined', 'разрушенной')|E] столицей, либо [defender.GetShortUIName] больше не правитель Гривы с неразрушенной столицей."
  mandala_forest_of_bunga_mas_modifier_desc: "Величественный золотой лес, что повествует о деяниях знаменитой династии Гривы."
  mandala_creator_modifier_desc: "Этот правитель Гривы непрестанно строит и создает."
  mandala_increments_of_peace_modifier_desc: "Этот правитель Гривы пытается избегать искушения воинственностью."

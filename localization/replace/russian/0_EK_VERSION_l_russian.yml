@@ -5,4 +5,4 @@
  TOP_BAR_VERSION:0 "Elder Kings II - #X $EK_BUILD$#! \nВерсия мода: $EK_VERSION$\nВерсия игры: [GetGameVersionInfo]\nКонтрольная сумма для мультиплеера: [GetMPChecksum|V] $MODIFIED_CHECKSUM$ [GetRandomLogInfo]"
  VERSION_SHORT:0 "[GetGameVersionInfoShort], Checksum: [GetMPChecksum] $MODIFIED_CHECKSUM$\nElder Kings II - $EK_VERSION$"
  EK_BUILD:0 "Public Build"
- EK_VERSION: "Walkabout (0.18.0)"
+ EK_VERSION: "Walkabout (0.18.0.1)"

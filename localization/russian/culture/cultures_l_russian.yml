@@ -71,7 +71,7 @@
  culture_custom_nativity_anequina:0 "[GetGeographicalRegion('custom_nativity_anequina').GetName]"
  anequina_tooltip:0 "Стать [Concept('native', 'коренными жителями')|E] региона [GetGeographicalRegion('custom_nativity_anequina').GetName]"
  culture_custom_nativity_pellitine:0 "[GetGeographicalRegion('custom_nativity_pellitine').GetName]"
- pellitine_tooltip:0 "Стать [Concept('native', 'коренными жителями')|E] региона [GetGeographicalRegion('custom_nativity_pellitine).GetName]"
+ pellitine_tooltip:0 "Стать [Concept('native', 'коренными жителями')|E] региона [GetGeographicalRegion('custom_nativity_pellitine').GetName]"
  culture_custom_nativity_vvardenfell:0 "[GetGeographicalRegion('custom_nativity_vvardenfell').GetName]"
  vvardenfell_tooltip:0 "Стать [Concept('native', 'коренными жителями')|E] региона [GetGeographicalRegion('custom_nativity_vvardenfell').GetName]"
  culture_custom_nativity_velothi_range:0 "[GetGeographicalRegion('custom_nativity_velothi_range').GetName]"
