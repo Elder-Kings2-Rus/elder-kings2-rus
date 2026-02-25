@@ -2,26 +2,32 @@
  
  convert_to_feudalism_liege_converted_decision:0 "Принять форму правления [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|l] через сюзерена"
  convert_to_feudalism_liege_converted_decision_desc:1 "Моя держава растет, и контролировать её всё сложнее. Мой сюзерен уже следует такой системе, как [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|l], и, когда я буду проводить реформы в своих владениях, мне стоит попросить [ROOT.Char.GetLiege.GetHerHis] помощи."
- convert_to_feudalism_liege_converted_decision_confirm:1 "Принять [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|U]"
- convert_to_feudalism_liege_converted_decision_tooltip:0 "Изменить тип [Concept( 'government', 'правительства' )|E] и стать [Concept( 'feudal_like_government', 'правительством феодального типа' )|E]"
+ convert_to_feudalism_liege_converted_decision_confirm:1 "Принять [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|l]"
+ convert_to_feudalism_liege_converted_decision_tooltip:0 "[government|E] меняет форму правления на [Concept('feudal_like_government', 'околофеодальную')|E]"
 
  convert_whole_realm_to_feudalism_decision:0 "Принять [ROOT.Char.Custom('GetTribalReformGovernment')|l]"
  convert_whole_realm_to_feudalism_decision_desc:0 "Чтобы держава [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] и дальше могла расширяться и развиваться, мы должны оставить старые пути и вместе принять новый способ администрирования."
  convert_whole_realm_to_feudalism_decision_confirm:0 "Принять [ROOT.Char.Custom('GetTribalReformGovernment')|l]"
- convert_whole_realm_to_feudalism_decision_tooltip:0 "[government|E] меняет форму правления и выбирает [feudal_like_government|El]"
- 
+ convert_whole_realm_to_feudalism_decision_tooltip:0 "[government|E] меняет форму правления на [Concept('feudal_like_government', 'околофеодальную')|E]"
+
  #False Conversion decisions - these are worded differently to fit our use of the system, which isn't really about hiding the old ways
- revoke_false_conversion_decision.tt:0 "Открыто обратиться в вашу секретную [Concept( 'faiths', 'конфессию' )|E]"
- revoke_false_conversion_decision.desc:0 "#F Хотя официально я исповедую [ROOT.Char.GetFaith.GetNameNoTooltip|l]ую конфессию, я не могу отказаться от многих личных ритуалов, которые я практикую втайне. Возможно, настало время делать это публично?#!"
+ revoke_false_conversion_decision.tt:0 "Публично объявить об обращении в вашу тайную [Concept('faith', 'конфессию')|E]"
+ revoke_false_conversion_decision.desc:0 "#F Хотя официально я следую [ROOT.Char.GetFaith.GetNameNoTooltip]им учениям, я не могу отказаться от множества привычных ритуалов и верований, которые практикую в секрете. Возможно, настало время делать это публично?#!"
  revoke_false_conversion_decision.desc.tt:0 "Вы открыто примете вашу тайную [Concept( 'faiths', 'конфессию' )|E]. Ваши [vassals|El] и [Concept( 'close_family', 'близкие родственники' )|E] могут обратиться вместе с вами"
 
- abandon_crypto_faith_decision.tt: "Прекратить исповедовать свою тайную конфессию"
+ abandon_crypto_faith_decision.tt: "Прекратить тайно исповедовать другую конфессию"
  abandon_crypto_faith_decision.desc: "#F Все эти тайные службы и читаемые шепотом молитвы меня утомили. И в то же время меня больше ничуть не смущает моя общественная жизнь в свете #L [ROOT.Char.GetFaith.GetName|l]ой#! веры. Возможно, пора раз и навсегда отринуть тайную веру.#!"
- abandon_crypto_faith_decision_confirm: "Отринуть крипто-конфессию"
- 
+ abandon_crypto_faith_decision_confirm: "Отказаться от тайной веры"
+
  # these are edited to make their god reference make use of HighGodName instead, because HighGodName won't get fucked by our custom Daedra names
  accept_cannibalism_decision_desc:1 "Мы созданы по образу и подобию [ROOT.Char.GetFaith.HighGodNamePossessive]. Когда мы поглощаем подобие божества, [ROOT.Char.GetFaith.HighGodNameAlternate] становится ближе."
- create_holy_order_decision_desc:0 "#F Воинов-защитников истинной веры не бывает слишком много. [ROOT.Char.GetFaith.HighGodName] оценит моё стремление дать им кров и оружие!#!"
- 
-  #EK EDIT: replaced clan with autocracy
-  vassals_can_become_administrative: "\nВсе [Concept('feudal','феодальные')|E] или [Concept('autocracy','автократические')|E] [Concept('vassal','вассалы')|E] в пределах вашей [Concept('de_jure','де-юре')|E] [Concept('realm','державы')|E], придерживающиеся вашей [Concept('faith','конфессии')|E], могут изменить свою [Concept('government','форму правления')|E] на [Concept('administrative','бюрократическую')|E] при выполнении одного из следующих условий:"
+ create_holy_order_decision_desc:0 "#F Воинов-защитников истинной веры не бывает слишком много. [ROOT.Char.GetFaith.HighGodName|U] оценит моё стремление дать им кров и оружие!#!"
+
+ #EK EDIT: replaced clan with autocracy
+ vassals_can_become_administrative: "\nВсе [Concept('feudal','феодальные')|E] или [Concept('autocracy','автократические')|E] [Concept('vassal','вассалы')|E] в пределах вашей [Concept('de_jure','де-юре')|E] [Concept('realm','державы')|E], придерживающиеся вашей [Concept('faith','конфессии')|E], могут изменить свою [Concept('government','форму правления')|E] на [Concept('administrative','бюрократическую')|E] при выполнении одного из следующих условий:"
+
+ #EK EDIT: replaced officer with knight
+ unity_reinforce_army_decision: "Пополнить армию верными рыцарями"
+ unity_reinforce_army_decision_desc: "Сила армии — в рыцарях, что командуют ею. Запросив умелых солдат у представителей своего дома, я получу бойцов с огромным опытом, которых можно назначить на руководящие должности и повысить боеспособность войск. Все члены семьи действуют во имя интересов дома, и все в выигрыше!"
+ unity_reinforce_army_decision_tooltip: "Попросить представителей вашего дома прислать вам талантливых солдат"
+ unity_reinforce_army_decision_confirm: "Отдать приказы."

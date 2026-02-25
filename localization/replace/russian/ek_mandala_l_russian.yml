@@ -1,8 +1,8 @@
 ﻿l_russian:
-#Mandala replacements
+ #Mandala replacements
  mandala_government: "Грива"
  mandala_government_adjective: "Гривск"
- mandala_government_realm: "Царство Гривы"
+ mandala_government_realm: "Владения Гривы"
  mandala_government_desc: "\n$game_concept_mandala_desc$\n\n#F Эта форма правления опирается на [GetFaithDoctrine('doctrine_mystical_birthright_head').GetBaseName] [Concept('head_of_faith', 'главы конфессии')|E]. Государственный аппарат поддерживается властью Гривы над общественным устройством и таким образом действует в интересах его последователей.#!"
  mandala_vassal: "Грива"
  khlon_glan_assist_provisioning_desc: "Этот персонаж сосредоточен на улучшении столицы Гривы."
