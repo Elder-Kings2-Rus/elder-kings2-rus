@@ -137,7 +137,7 @@
  
  nords_militant_faith_decision: "Воинствующая вера"
  nords_militant_faith_decision_desc: "В былые времена дух Шора вёл нас на войну в земли за пределами Скайрима. Но когда его дух исчез из мира, за ним последовали и наши амбиции. Лишь сильный король, способный объединить нордов, может вернуть былое величие."
- nords_militant_faith_decision_tooltip: "Ваша [faith|El] получит [Concept('doctrine', 'доктрину')|E] [GetFaithDoctrine('nord_destiny_doctrine').GetBaseName]"
+ nords_militant_faith_decision_tooltip: "Ваша [faith|El] получит [Concept('doctrine', 'доктрину')|E] «[GetFaithDoctrine('nord_destiny_doctrine').GetBaseName]»"
  nords_militant_faith_decision_confirm: "Победа или Совнгард!"
  militant_faith_holy_order_requirement: "Вы должны быть [Concept( 'holy_order_patron', 'покровителем' )|E] священного ордена"
  fervor_gain_militant_faith: "Песни возвращения"
