@@ -73,7 +73,7 @@
 
  arcana_claim_interaction:0 "Претендовать на землю через Аркану"
  arcana_claim_interaction_desc:0 "[Concept( 'claim', 'Претендовать' )|E] на [title|El], которым владеет [recipient.GetShortUINameNoTooltip], используя вашу превосходящую [Concept( 'arcana', 'Аркану' )|E] и [prestige|El]."
- arcana_claim_tier_trigger:0 "Нельзя претендовать на [titles|El] ранга [Concept( 'barony', 'баронств' )|E], [Concept( 'kingdom', 'королевств' )|E] или [Concept( 'empire', 'империй' )|E]"
+ arcana_claim_tier_trigger:0 "Нельзя претендовать на [titles|El] ранга [Concept( 'barony', 'баронств' )|E], [Concept( 'kingdom', 'королевств' )|E] или [Concept( 'empire', 'верховных королевств' )|E]"
 
 
  disrupt_arcana_interaction:0 "Прервать связь с магией"

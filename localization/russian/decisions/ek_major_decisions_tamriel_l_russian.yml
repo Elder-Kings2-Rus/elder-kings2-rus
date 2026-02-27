@@ -119,6 +119,6 @@
  ###Nedic Confederation
  restore_nedic_kingdom_decision: "Объединить недийцев"
  restore_nedic_kingdom_decision_desc: "До пришествия [Glossary( 'Ра Гада', 'RAGADA_GLOSS' )] наш народ был объединён в свободную конфедерацию племен, присягнувших на верность верховному королю в Небесном Пределе. Хотя для нашего народа это уже далекое воспоминание, я могу претендовать на роль [Select_CString(ROOT.Char.IsFemale, 'наследницы', 'наследника' )] того королевства, вернув наши древние земли."
- restore_nedic_kingdom_decision_tooltip: "Вы создадите новую [Concept('empire', 'империю')|E] для недийского народа"
+ restore_nedic_kingdom_decision_tooltip: "Вы создадите новое [Concept('empire', 'верховное королевство')|E] для недийского народа"
  restore_nedic_kingdom_decision_confirm: "Нас больше никто не поработит!"
  form_nedic_kingdom_scripted_effect_de_jure_tt: "Все королевства в пределах [Concept('region', 'региона')|E] [GetGeographicalRegion('ek_nedic_kingdom_region').GetName] станут [Concept('de_jure', 'де-юре')|E] вассалами державы [nedic_confederation.GetNameNoTier]"
