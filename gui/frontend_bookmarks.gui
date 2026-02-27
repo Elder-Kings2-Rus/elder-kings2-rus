@@ -1965,7 +1965,7 @@ widget = {
 				
 													text_single = {
 														layoutpolicy_horizontal = expanding
-														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('imperial_cult'))]"
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('eight_divines'))]"
 														text = "BOOKMARK_CHARACTER_RELIGION_imper"
 														autoresize = no
 														align = nobaseline
@@ -2021,14 +2021,14 @@ widget = {
 													}
 													text_single = {
 														layoutpolicy_horizontal = expanding
-														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('vineduskpact'))]"
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('pact_exemptions'))]"
 														text = "BOOKMARK_CHARACTER_RELIGION_vineduskpact"
 														autoresize = no
 														align = nobaseline
 													}
 													text_single = {
 														layoutpolicy_horizontal = expanding
-														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('tall_papa'))]"
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('walkabout'))]"
 														text = "BOOKMARK_CHARACTER_RELIGION_tall_papa"
 														autoresize = no
 														align = nobaseline
@@ -2077,7 +2077,7 @@ widget = {
 													}
 													text_single = {
 														layoutpolicy_horizontal = expanding
-														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('auriel'))]"
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('aedric'))]"
 														text = "BOOKMARK_CHARACTER_RELIGION_auriel"
 														autoresize = no
 														align = nobaseline
@@ -2091,7 +2091,7 @@ widget = {
 													}
 													text_single = {
 														layoutpolicy_horizontal = expanding
-														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('old_velothi'))]"
+														visible = "[EqualTo_string(BookmarkCharacter.GetReligionName,Localize('high_velothi'))]"
 														text = "BOOKMARK_CHARACTER_RELIGION_old_velothi"
 														autoresize = no
 														align = nobaseline
