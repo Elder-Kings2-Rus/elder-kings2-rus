@@ -1217,7 +1217,7 @@ GET_RANDOM_CUSTOM_VIVEC_NAME_POSSESSIVE: "[GetPlayer.Custom('GetCustomVivecNameP
 	god_dragon_name_possessive:0 "Дракона"
     god_hare_name: "Заяц"
  god_hare_name_possessive: "Зайца"
- god_dragon_plural_name:0  "Драконы" #for dragon cult
+ god_dragon_plural_name:0 "Драконы" #for dragon cult
 	god_dragon_plural_name_possessive:0 "Драконов"
  god_paarthurnax_name:0 "Партурнакс"
   god_paarthurnax_name_possessive:0 "Партурнакса"
