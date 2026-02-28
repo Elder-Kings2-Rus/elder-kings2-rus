@@ -702,9 +702,9 @@
     # Aspect of the Shadow
  doctrine_pantheon_aspect_hostile_scheme_name: "Аспект тени"
     doctrine_pantheon_aspect_hostile_scheme_desc: "Божественное таится в тени. Только из невидимости мы сможем по-настоящему благочестиво наносить удары."
-    doctrine_parameter_devotion_gives_hostile_scheme_power: "Каждый уровень [Concept( 'piety_experience', 'набожности' )|E] даёт следующее:\n$TAB$ #P +5#! к [Concept( 'success_chance', 'успеху' )|E] [Concept( 'hostile_scheme', 'враждебных происков' )|E]\n$TAB$ #P +5#! к [Concept( 'secrecy', 'секретности' )|E] [Concept( 'hostile_scheme', 'враждебных происков' )|E]"
-    doctrine_parameter_devotion_lvl_4_gives_hostile_scheme_defense: "По достижении [Concept( 'piety_level', 'уровня набожности' )|El] [GetModifier( 'piety_level_4' ).GetNameWithTooltip|L] вы получите #P +25#! [Concept( 'hostile_scheme_resistance', 'сопротивлению вражеским проискам' )|E]"
-    doctrine_parameter_devotion_lvl_5_gives_additional_hostile_scheme: "По достижении [Concept( 'piety_level', 'уровня набожности' )|El] [GetModifier( 'piety_level_5' ).GetNameWithTooltip|L] вы получите #P +1#! к максимуму [Concept( 'hostile_scheme', 'враждебных происков' )|E]"
+    doctrine_parameter_devotion_gives_hostile_scheme_power: "Каждый уровень [Concept( 'piety_experience', 'набожности' )|E] даёт следующее:\n$TAB$ #P +5#! к [Concept( 'success_chance', 'успеху' )|E] [Concept( 'hostile_scheme', 'агрессивных происков' )|E]\n$TAB$ #P +5#! к [Concept( 'secrecy', 'секретности' )|E] [Concept( 'hostile_scheme', 'агрессивных происков' )|E]"
+    doctrine_parameter_devotion_lvl_4_gives_hostile_scheme_defense: "По достижении [Concept( 'piety_level', 'уровня набожности' )|El] [GetModifier( 'piety_level_4' ).GetNameWithTooltip|L] вы получите #P +25#! [Concept( 'hostile_scheme_resistance', 'сопротивлению агрессивным проискам' )|E]"
+    doctrine_parameter_devotion_lvl_5_gives_additional_hostile_scheme: "По достижении [Concept( 'piety_level', 'уровня набожности' )|El] [GetModifier( 'piety_level_5' ).GetNameWithTooltip|L] вы получите #P +1#! к максимуму [Concept( 'hostile_scheme', 'агрессивных происков' )|E]"
     devotion_gives_hostile_scheme_power: "Священные тени"
     devotion_gives_hostile_scheme_power_desc: "Те, кто не таится в тени, недостойны божественного."
     devotion_gives_hostile_scheme_power_0: "$devotion_gives_hostile_scheme_power$: (0)"
@@ -721,7 +721,7 @@
     devotion_gives_hostile_scheme_power_5_desc: "$devotion_gives_hostile_scheme_power_desc$"
     devotion_gives_hostile_scheme_power_6: "$devotion_gives_hostile_scheme_power$: (6)"
     devotion_gives_hostile_scheme_power_6_desc: "$devotion_gives_hostile_scheme_power_desc$\n\n#weak Этот модификатор уровня даётся потому, что ваш уровень набожности — [GetModifier('piety_level_5' ).GetNameWithTooltip|L] и у вас есть достоинство «Светоч».#!"
- 
+
    doctrine_parameter_devotion_gives_health_penalty_negation: "Каждый уровень [Concept( 'piety_experience', 'набожности' )|E] даёт следующее: #P +0.25#! сопротивления к штрафам к [Concept( 'health', 'здоровью' )|El]."
    devotion_gives_health_penalty_negation: "Священный недуг"
    devotion_gives_health_penalty_negation_desc: "Мы должны нести болезнь в своих телах и приветствовать её объятия."
@@ -739,9 +739,9 @@
    devotion_gives_health_penalty_negation_5_desc: "$devotion_gives_health_penalty_negation_desc$"
    devotion_gives_health_penalty_negation_6: "$devotion_gives_health_penalty_negation$: (6)"
    devotion_gives_health_penalty_negation_6_desc: "$devotion_gives_health_penalty_negation_desc$"
-   
- doctrine_parameter_devotion_gives_tolerance_advantage: "Каждый уровень [Concept( 'piety_experience', 'набожности' )|E] даёт #P +2#! [faith_hostility|E] [advantage|E]"
- 
+
+ doctrine_parameter_devotion_gives_tolerance_advantage: "Каждый уровень [Concept( 'piety_experience', 'набожности' )|E] даёт #P +2#! к [Concept('advantage', 'преимуществу')|E] перед [Concept('faith_hostility', 'враждебной конфессией')|E]"
+
    doctrine_parameter_devotion_gives_health: "Каждый уровень [Concept( 'piety_experience', 'набожности' )|E] даёт следующее: #P +0.1#! бонус к [Concept( 'health', 'здоровью' )|El]."
    devotion_gives_health: "Благословенное здоровье"
    devotion_gives_health_desc: "Правоверных ждёт долгая и здоровая жизнь."
@@ -766,25 +766,25 @@
  #Imperial
  #Divines
  doctrine_pantheon_divines_name: "Божества"
-    doctrine_pantheon_divines_desc: "Мы поклоняемся Божествам, богам, которые пожертвовали своими жизнями, чтобы создать мир смертных."
-    doctrine_parameter_pantheon_adds_deities_divines: "Добавит следующих покровителей в [pantheon|El]: Акатош, Аркей, Дибелла, Джулианос, Кинарет, Мара, Стендарр, Зенитар"
+ doctrine_pantheon_divines_desc: "Мы поклоняемся Божествам, богам, которые пожертвовали своими жизнями, чтобы создать мир смертных."
+ doctrine_parameter_pantheon_adds_deities_divines: "Добавит следующих покровителей в [pantheon|El]: Акатош, Аркей, Дибелла, Джулианос, Кинарет, Мара, Стендарр, Зенитар"
  doctrine_parameter_divines_pantheon_hostility: "[divines_pantheon_hostility|E]"
  #Nordic pantheon
  doctrine_pantheon_nord_name: "Пантеон нордов"
-    doctrine_pantheon_nord_desc: "Мы поклоняемся традиционным нордским божествам: Мёртвым Богам, которые сражались и умерли, дабы наступил новый цикл; Богам Очага, которые следят за текущим циклом; Богам Испытания, которые угрожают Очагу, и Сумеречным Богам, которые открывают следующий цикл."
-    doctrine_parameter_pantheon_adds_deities_nord: "Добавит следующих покровителей в [pantheon|El]: Кин, Мара, Дибелла, Стун, Джунал, Шор, Тсун"
-    doctrine_parameter_nord_pantheon_hostility: "При расчёте [Concept('faith_hostility', 'враждебности')|E] этого [Concept('pantheon', 'пантеона')|E], она будет идентичной конфессиям с доктринами [GetFaithDoctrine('doctrine_pantheon_atmoran_totems').GetBaseName]"
+ doctrine_pantheon_nord_desc: "Мы поклоняемся традиционным нордским божествам: Мёртвым богам, которые сражались и умерли, дабы наступил новый цикл; Богам Очага, которые следят за текущим циклом; Богам Испытания, которые угрожают Очагу, и Сумеречным богам, которые открывают следующий цикл."
+ doctrine_parameter_pantheon_adds_deities_nord: "Добавит следующих покровителей в [pantheon|El]: Кин, Мара, Дибелла, Стун, Джунал, Шор, Тсун"
+ doctrine_parameter_nord_pantheon_hostility: "При расчёте [Concept('faith_hostility', 'враждебности')|E] этого [Concept('pantheon', 'пантеона')|E], она будет идентичной конфессиям с #TOOLTIP:GAME_FAITH_DOCTRINE,doctrine_pantheon_atmoran_totems #L атморским тотемическим#!#! пантеоном"
  #Redguard pantheon
  doctrine_pantheon_redguard_name: "Пантеон редгардов"
-    doctrine_pantheon_redguard_desc: "Мы нашли общие корни у верований наших предков и сиродильских Божеств. Имперские боги-герои примечательны и достойны подражания."
-    doctrine_parameter_pantheon_adds_deities_redguard: "Добавит следующих покровителей в [pantheon|El]: Акатош, Аркей, Кинарет, Зенитар, Морва, Онси, Руптга, Реман"
+ doctrine_pantheon_redguard_desc: "Мы нашли общие корни у верований наших предков и сиродильских Божеств. Имперские боги-герои примечательны и достойны подражания."
+ doctrine_parameter_pantheon_adds_deities_redguard: "Добавит следующих покровителей в [pantheon|El]: Акатош, Аркей, Кинарет, Зенитар, Морва, Онси, Руптга, Реман"
  #Breton
  doctrine_pantheon_breton_name: "Бретонский пантеон"
  doctrine_pantheon_breton_desc: "Мы поклоняемся восьми Божествам, но позабыть мудрых наставников наших предков — значит забыть наше благородное наследие."
  doctrine_parameter_pantheon_adds_deities_breton: "Добавит следующих покровителей в [pantheon|El]: Акатош, Аркей, Дибелла, Джулианос, Кинарет, Мара, Стендарр, Зенитар, Магнус, Джефре, Финастер"
  #The One
  doctrine_pantheon_the_one_name: "Единый"
-    doctrine_pantheon_the_one_desc: "Верховный Дух — единственное существо, достойное поклонения. Обезьяний Пророк указал нам путь, и благодаря его учениям мы освободились от эльфийского владычества."
+    doctrine_pantheon_the_one_desc: "Верховный дух — единственное существо, достойное поклонения. Обезьяний Пророк указал нам путь, и благодаря его учениям мы освободились от эльфийского владычества."
     doctrine_parameter_devotion_gives_reduced_cb_cost_against_elves: "Каждый уровень [Concept( 'piety_experience', 'набожности' )|E] снижает стоимость [casus_belli|El] против эльфийских правителей на #P 10%#!"
  doctrine_pantheon_lorkhan_name: "Потерянный Бог"
     doctrine_pantheon_lorkhan_desc: "Даже после своей смерти Потерянный Бог сражается рядом с нами, дабы мы могли быть свободными. Мы будем воспевать его имя везде, куда бы мы ни пошли, пока все человечество не будет освобождено от угнетателей!"
@@ -793,7 +793,7 @@
     doctrine_pantheon_heroes_desc: "Алессия. Пелинал. Морихаус. Реман. Бенду Оло. Это имена легендарных героев, известных во всём Тамриэле. Но в Сиродиле некоторые почитают их наравне с самими богами."
  doctrine_pantheon_thousand_cults_name: "Тысяча культов"
     doctrine_parameter_pantheon_adds_deities_thousand_cults: "Добавит следующие культы в [pantheon|El]: Культ Ака, Культ Потерянного, Культ Земли, Культ Мотылька Предка, Культ Богов-зверей, Культ Любви, Культ Гильдий, Культ Небес"
-    doctrine_pantheon_thousand_cults_desc: "Воздайте хвалу Тысяче Богов Долины, ибо их Культы укрывают наши души в этой и последующей жизни."
+    doctrine_pantheon_thousand_cults_desc: "Воздайте хвалу Тысяче богов Долины, ибо их культы укрывают наши души в этой и последующей жизни."
  doctrine_pantheon_reman_name: "Реман"
     doctrine_pantheon_reman_desc: "Реман «Свет Людей» Сиродил был драконорожденным героем Первой эры и основателем Второй империи Тамриэля. Первыми его начали почитать побеждённые им захватчики-акавирцы, однако с тех пор эта вера распространилось среди коренного населения."
     doctrine_parameter_pantheon_adds_deities_reman: "Добавит следующих покровителей в [pantheon|El]: Свет людей, Сиродил, Мирской бог"
@@ -819,9 +819,9 @@
     special_doctrine_cyrodiilic_cult_desc: "Каждый культ почитает Божеств по-своему, и Сиродил только выигрывает от такого широкого разнообразия традиций и ритуалов."
  doctrine_parameter_choose_cyrodiilic_cult: "Разблокировано [decision|El] #V «$switch_cult_cyrodiil_decision$»#!, позволяющее свободно обратиться в сиродильские культы"
  special_doctrine_khajiit_doctrine_name: "Анурр и Фадомай"
-    special_doctrine_khajiit_doctrine_desc: "Каджиты не видят особой разницы в духах, которых чужеземцы называют [Glossary( 'Аэдра', 'AEDRA_GLOSS' )] и [Glossary( 'Даэдра', 'DAEDRA_GLOSS' )]. На самом деле, все духи имеют общее происхождение - они дети Анурра и Фадомай. Благодаря такой точке зрения, поклонение божествам, к которым прочие отнеслись бы с отвращением, приобретает у каджитов благотворные и безобидные черты, отчего даже самые ревностные последователи Божеств не называют каджитов «даэдрапоклонниками»."
+    special_doctrine_khajiit_doctrine_desc: "Каджиты не видят особой разницы в духах, которых чужеземцы называют «[Glossary( 'аэдра', 'AEDRA_GLOSS' )]» и «[Glossary( 'даэдра', 'DAEDRA_GLOSS' )]». На самом деле, все духи имеют общее происхождение - они дети Анурра и Фадомай. Благодаря такой точке зрения, поклонение божествам, к которым прочие отнеслись бы с отвращением, приобретает у каджитов благотворные и безобидные черты, отчего даже самые ревностные последователи Божеств не называют каджитов «даэдрапоклонниками»."
  doctrine_parameter_faith_hostility_reduction: "Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -25#! с [Concept('faiths', 'конфессиями')|E], которые используют эту же [Concept('doctrine', 'доктрину')|E]"
- doctrine_parameter_faith_hostility_khajiit_reduction: "Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -15#! с [Concept('faiths', 'конфессиями')|E], которые принадлежат к [Concept('religious_family', 'религиозной концепции')|E] [GetReligionFamily('rf_aedra').GetName]"
+ doctrine_parameter_faith_hostility_khajiit_reduction: "Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -15#! с [Concept('faiths', 'конфессиями')|E], которые принадлежат к [Concept('religious_family', 'религиозной концепции')|E] «[GetReligionFamily('rf_aedra').GetName]»"
  doctrine_parameter_kept_on_faith_creation: "Сохраняется при создании новой [Concept('faiths', 'конфессии')|E]"
  doctrine_parameter_lost_on_faith_creation: "Теряется при создании новой [Concept('faiths', 'конфессии')|E]"
  # Aldmeri
@@ -829,7 +829,7 @@
     doctrine_pantheon_aedra_desc: "Мы поклоняемся [Glossary( 'аэдра', 'AEDRA_GLOSS' )] — бессмертным существам, которые принимали участие в создании измерения смертных. Мы почитаем всех, независимо от того, отдали ли они свои жизни или решили уйти, узнав о предательстве Лорхана."
     doctrine_parameter_pantheon_adds_deities_aedra: "Добавит следующих покровителей в [pantheon|El]: Аури-Эль, И'ффре, Магнус, Мара, Финастер, Сирабейн, Тринимак, Заркс, Стендарр"
     doctrine_parameter_aedric_pantheon_hostility: "[aedric_pantheon_hostility|E]"
-    doctrine_parameter_aedra_green_pact_hostility: "[Concept( 'faith_hostility', 'Враждебность' )|E] [Concept( 'faiths', 'конфессий' )|E] с [Concept( 'pantheon', 'пантеоном' )|E] «[GetFaithDoctrine('doctrine_pantheon_green_pact').GetBaseName]» снижается на #P -15#!"
+    doctrine_parameter_aedra_green_pact_hostility: "Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -15#! с [Concept('faiths', 'конфессиями')|E] с [Concept('pantheon', 'пантеоном')|E] #TOOLTIP:GAME_FAITH_DOCTRINE,doctrine_pantheon_green_pact #L Зелёного пакта#!#!"
     doctrine_pantheon_malada_name: "Малада"
     doctrine_pantheon_malada_desc: "Воздавай хвалу Высшим богам — тем благословенным духам, что пришли прежде и служат путеводными звёздами на пути к нашему спасению."
     doctrine_parameter_pantheon_adds_deities_malada: "Добавит следующих покровителей в [pantheon|El]: Аури-Эль, И'ффре, Магнус, Мара, Тринимак, Заркс, Зен, Мнемо-Ли, Зеро-Лиг"
@@ -838,17 +838,17 @@
     doctrine_parameter_pantheon_adds_deities_falmer: "Добавит следующих покровителей в [pantheon|El]: Аури-Эль, И'ффре, Магнус, Мара, Тринимак, Заркс"
  # Trinimac
  doctrine_pantheon_trinimac_name: "Тринимак"
-    doctrine_pantheon_trinimac_desc: "Тринимак — альдмерский герой-бог правды, чести и справедливости. В [Glossary( 'Эру Рассвета', 'DAWN_ERA_GLOSS' )] он убил предателя Лорхана за обман богов, а затем провёл многие века, проповедуя своим легионам преданных последователей о военных и духовных вопросах."
+    doctrine_pantheon_trinimac_desc: "Тринимак — альдмерский герой-бог правды, чести и справедливости. В [Glossary( 'Эру рассвета', 'DAWN_ERA_GLOSS' )] он убил предателя Лорхана за обман богов, а затем провёл многие века, проповедуя своим легионам преданных последователей о военных и духовных вопросах."
     doctrine_parameter_pantheon_adds_deities_trinimac: "Добавит следующих покровителей в [pantheon|El]: Идеал, Золотой герой, Клинок мужества"
  # Bosmeri
  doctrine_pantheon_green_pact_name: "Зелёный пакт"
-    doctrine_pantheon_green_pact_desc: "Тысячелетия назад Рассказчик И'ффре взял нас под свою защиту и связал с лесом. Мы защищали священные леса Валена на протяжении многих поколений, и деревья приняли нас в ответ."
+    doctrine_pantheon_green_pact_desc: "Тысячелетия назад Рассказчик И'ффре взял нас под свою защиту и связал с лесом. Мы защищали священные леса Валенвуда на протяжении многих поколений, и деревья приняли нас в ответ."
     doctrine_parameter_pantheon_adds_deities_green_pact: "Добавит следующих покровителей в [pantheon|El]: Аури-Эль, И'ффре, Мара, Стендарр, Заркс, З'ен, Аркей, Баан-Дар"
-    doctrine_parameter_green_pact_hostility: "При расчёте [Concept('faith_hostility', 'враждебности')|E] этого [Concept('pantheon', 'пантеона')|E], она будет идентичной конфессиям с доктриной [GetFaithDoctrine('doctrine_pantheon_wilderking').GetBaseName]. Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -15#! с [Concept('faiths', 'конфессиями')|E], у которых имеется доктрина [Concept('pantheon', 'пантеона')|E] [GetFaithDoctrine('doctrine_pantheon_aedra').GetBaseName] [pantheon|E]"
+    doctrine_parameter_green_pact_hostility: "При расчёте [Concept('faith_hostility', 'враждебности')|E] этого [Concept('pantheon', 'пантеона')|E], она будет идентичной конфессиям с пантеоном #TOOLTIP:GAME_FAITH_DOCTRINE,doctrine_pantheon_wilderking #L Лесного короля#!#!. Понизит [Concept('faith_hostility', 'враждебность')|E] на #P -15#! с [Concept('faiths', 'конфессиями')|E] с #TOOLTIP:GAME_FAITH_DOCTRINE,doctrine_pantheon_aedra #L аэдрическим#!#! [Concept('pantheon', 'пантеоном')|E]"
  doctrine_pantheon_wilderking_name: "Лесной король"
     doctrine_pantheon_wilderking_desc: "Лесной король безграничен. Войди во двор и склонись перед его троном. Опасайся гнева его Полых. Всегда уважай землю, ибо она и Лесной король - одно и то же."
     wilderking_custom_faith_blocker: "Только Лесной король может установить свой закон"
-    doctrine_parameter_wilderking_hostility: "При расчёте [Concept('faith_hostility', 'враждебности')|E] этого [Concept('pantheon', 'пантеона')|E], она будет идентичной конфессиям с доктриной [GetFaithDoctrine('doctrine_pantheon_green_pact').GetBaseName]"
+    doctrine_parameter_wilderking_hostility: "При расчёте [Concept('faith_hostility', 'враждебности')|E] этого [Concept('pantheon', 'пантеона')|E], она будет идентичной конфессиям с пантеоном #TOOLTIP:GAME_FAITH_DOCTRINE,doctrine_pantheon_green_pact #L Зелёного пакта#!#!"
  # Yokudan
  doctrine_pantheon_yokudan_name: "Йоку"
     doctrine_pantheon_yokudan_desc: "Мы почитаем Сатакала, Змея, явившегося Прежде. С каждым циклом всё больше духов учились выживать при переходе из нашего мира в другой, и теперь эти духи стоят подле с Сатакалом в нашем пантеоне."
