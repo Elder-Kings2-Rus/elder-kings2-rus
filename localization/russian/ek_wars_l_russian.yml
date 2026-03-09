@@ -3,7 +3,7 @@
  DEJURE_CB_KINGDOM_NAME:2 "Захватить [TITLE.GetBaseName] #weak ([de_jure|El])#!"
  DEJURE_CB_KINGDOM_NAME_GENERIC:1 "Захватить [de_jure|El] [kingdom|El]"
  CONQUEST_KINGDOM_CB_NAME:0 "Завоевать [kingdom|El]"
- CONQUEST_EMPIRE_CB_NAME:1 "Завоевать [Concept( 'empire', 'империю' )|E]"
+ CONQUEST_EMPIRE_CB_NAME:1 "Завоевать [Concept( 'empire', 'верховное королевство' )|E]"
 
  HOUSE_TOMB_0_CONQUEST_CB_NAME:0 "Вернуть [Concept('great_house_tomb', 'гробницу Великого дома')|E]"
  HOUSE_TOMB_0_CONQUEST_WAR_NAME:0 "Вернуть [Concept('great_house_tomb', 'гробницу Великого дома')|E]"

@@ -17,7 +17,7 @@
  EFFECTS_ONLY:0 "Эффекты"
  show_desc:0 "Показать описания"
  show_modifier:0 "Показать модификаторы покровителя"
- CONFIRM_PATRON:0 "Утвердить покровителя"
+ CONFIRM_PATRON:0 "Выбор покровителя"
  CONFIRM_PATRON_DESC:0 "Вы не сможете изменить своего покровителя в течение пяти лет"
  CONFIRM_PATRON_BUTTON:0 "[Trait.GetNameNoTooltip(GetPlayer)]"
  PATRON_TIMEOUT:0 "Вы не можете выбрать нового покровителя до [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'recent_patron_selected' ) )]"

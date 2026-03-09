@@ -42,11 +42,11 @@
  ## Formable Empires for AI
  form_elsweyr_ai_decision: "#R Реформировать Эльсвейр - ИИ#!"
  form_elsweyr_ai_decision_desc: "#R Вы не должны это видеть, это для ИИ.#!"
- form_elsweyr_ai_decision_tooltip: "Вы создадите новую [Concept('empire', 'империю')|E] в Эльсвейре."
+ form_elsweyr_ai_decision_tooltip: "Вы создадите новое [Concept('empire', 'верховное королевство')|E] в Эльсвейре."
  form_elsweyr_ai_decision_confirm: "[Select_CString(ROOT.Char.IsFemale, 'Следующая верховная королева', 'Следующий верховный король' )] Эльсвейра!"
  restore_elsweyr_percentage: "Вы контролируете #V 75%#! или больше [Concept('counties', 'графств')|E] в регионе [GetGeographicalRegion('mundus_tamriel_elsweyr').GetName] (Текущее значение: [SCOPE.ScriptValue('elsweyr_decision_region_owned_percent_value')|0]%)"
  form_skyrim_ai_decision: "#R Реформировать Скайрим - ИИ#!"
  form_skyrim_ai_decision_desc: "#R Вы не должны это видеть, это для ИИ.#!"
- form_skyrim_ai_decision_tooltip: "Вы создадите новую [Concept('empire', 'империю')|E] в Скайриме."
+ form_skyrim_ai_decision_tooltip: "Вы создадите новое [Concept('empire', 'верховное королевство')|E] в Скайриме."
  form_skyrim_ai_decision_confirm: "[Select_CString(ROOT.Char.IsFemale, 'Следующая верховная королева', 'Следующий верховный король' )] Скайрима!"
  restore_skyrim_percentage: "Вы контролируете #V 75%#! или больше [Concept('counties', 'графств')|E] в регионе [GetGeographicalRegion('mundus_tamriel_skyrim').GetName] (Текущее значение: [SCOPE.ScriptValue('skyrim_decision_region_owned_percent_value')|0]%)"

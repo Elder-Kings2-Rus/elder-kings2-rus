@@ -29,3 +29,16 @@
  piety_level_6_desc: "$piety_level_6$ — шестой [Concept('piety_level', 'уровень набожности')|E]. Следующий уровень — [GetModifier( 'piety_level_7' ).GetNameWithTooltip|L].\n\nКогда [Concept('ruler', 'правитель')|E]-[Concept('mandala', 'Грива')|E] умирает подобающим его [Concept('aspect', 'аспекту')|E] способом, достигнув уровня «[GetModifier( 'piety_level_5' ).GetNameWithTooltip|L]», его [Concept('heir', 'наследник')|E] получает возможность достичь этого уровня набожности.\n\nЭффекты:\n[GetPietyLevelDesc('(int32)6')|=+]"
  piety_level_7_desc: "$piety_level_7$ — седьмой [Concept('piety_level', 'уровень набожности')|E]. Следующий уровень — [GetModifier( 'piety_level_8' ).GetNameWithTooltip|L].\n\nКогда [Concept('ruler', 'правитель')|E]-[Concept('mandala', 'Грива')|E] умирает подобающим его [Concept('aspect', 'аспекту')|E] способом, достигнув уровня «[GetModifier( 'piety_level_6' ).GetNameWithTooltip|L]», его [Concept('heir', 'наследник')|E] получает возможность достичь этого уровня набожности.\n\nЭффекты:\n[GetPietyLevelDesc('(int32)7')|=+]"
  piety_level_8_desc: "$piety_level_8$ — восьмой, максимально возможный [Concept('piety_level', 'уровень набожности')|E] для [Concept('government', 'правительства')|E] [Concept('mandala', 'Гривы')|E].\n\nКогда [Concept('ruler', 'правитель')|E]-[Concept('mandala', 'Грива')|E] умирает подобающим его [Concept('aspect', 'аспекту')|E] способом, достигнув уровня «[GetModifier( 'piety_level_7' ).GetNameWithTooltip|L]», его [Concept('heir', 'наследник')|E] получает возможность достичь высшего уровня набожности.\n\nЭффекты:\n[GetPietyLevelDesc('(int32)8')|=+]"
+
+ #important_actions_l_russian.yml
+ action_no_mandala_aspect: "Не принят [Concept('mandala_aspect', 'аспект Гривы')|E]"
+ action_no_mandala_aspect_label: "Нет аспекта Гривы"
+ action_no_mandala_aspect_desc: "Ваш дом еще не принял [Concept('mandala_aspect', 'аспект Гривы')|E]\n\n#help Чтобы вступить на путь к божественности, вам с вашим [Concept('house', 'домом')|E] необходимо избрать [Concept('aspect', 'аспект')|E], который определит вашу общую судьбу.#!"
+ action_can_upgrade_mandala_aspect: "Улучшить [Concept('mandala_aspect', 'аспект Гривы')|E]"
+ action_can_upgrade_mandala_aspect_desc: "Вы можете улучшить свой [Concept('mandala_aspect', 'аспект Гривы')|E] и сделать его могущественнее"
+ action_no_mandala_decree: "Нет [Concept('mandala_decree', 'указа Гривы')|E]"
+ action_no_mandala_decree_desc: "Вы не выбрали [Concept('mandala_decree', 'указ Гривы')|E]\n\n#help Сделайте это, чтобы указ помог вам направить ваших [Concept('subjects', 'субъектов')|E], а вместе с ними и вашу державу в нужном направлении.#!"
+ action_new_mandala_ritual: "@task_contract_icon! Доступен ритуал Гривы"
+ action_new_mandala_ritual_label: "@task_contract_icon! Ритуал Гривы: [task_contract.GetType.GetName]"
+ action_new_mandala_ritual_combined_group_label: "@task_contract_icon! Доступны ритуалы Гривы"
+ action_new_mandala_ritual_combined_group_description: "Вам доступно несколько [Concept('mandala_rituals', 'ритуалов Гривы')|E]"

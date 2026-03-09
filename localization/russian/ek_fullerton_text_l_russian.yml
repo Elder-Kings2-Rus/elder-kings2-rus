@@ -1,9 +1,9 @@
 ﻿l_russian:
  ek_fullerton_events.9999.t:1 "Любопытная вещунья"
- ek_fullerton_events.9999.desc:1 "Незнакомка подходит ко мне, пока я нахожусь за пределами [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]. [wyress.GetFirstName] - сестра Ковена, последовательница религиозных обычаев наших бретонских предков. [wyress.GetSheHe|U] пришла ко мне с любопытным предложением: [wyress.GetSheHe] присоединится к моему двору и будет давать мне советы, если я подумаю о переходе в [wyress.GetFaith.GetName]\n\n\n[wyress.GetSheHe|U] уверяет меня, что [wyress.GetSheHe] не ожидает, что я присоединюсь к одному из исключительно женских [wyress.GetFaith.GetAdjectiveNoTooltip] ковенов. Все, что мне нужно, это жить по принципам вирдских верований - с уважением и бережным отношением к природе во всем, что я делаю. Взамен [wyress.GetSheHe] останется при моём дворе, чтобы давать советы и рекомендации из мудрости ковена."
- ek_fullerton_events.9999.a:1 "Мне не нужны советы от поклонников деревьев."
- ek_fullerton_events.9999.b:1 "Я послушаю советы [wyress.GetFirstName], но не приму [wyress.GetHerHis] проповедь."
- ek_fullerton_events.9999.c:1 "Я выслушаю все советы [wyress.GetFirstName]."
+ ek_fullerton_events.9999.desc:1 "Незнакомка подходит ко мне, пока я нахожусь за пределами [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]. [wyress.GetFirstName] - сестра Ковена, последовательница религиозных обычаев наших бретонских предков. [wyress.GetSheHe|U] пришла ко мне с любопытным предложением: [wyress.GetSheHe] присоединится к моему двору и будет давать мне советы, если я подумаю о переходе в [wyress.GetFaith.GetAdjective|l].\n\n\n[wyress.GetSheHe|U] уверяет меня, что [wyress.GetSheHe] не ожидает, что я присоединюсь к одному из исключительно женских [wyress.GetFaith.GetNameNoTooltip]их ковенов. Все, что мне нужно, это жить по принципам вирдских верований - с уважением и бережным отношением к природе во всем, что я делаю. Взамен [wyress.GetSheHe] останется при моём дворе, чтобы давать советы и рекомендации из мудрости ковена."
+ ek_fullerton_events.9999.a:1 "Мне не нужны советы от почитателей деревьев."
+ ek_fullerton_events.9999.b:1 "Я послушаю советы, что даёт [wyress.GetFirstName], но не приму [wyress.GetHerHis] проповедь."
+ ek_fullerton_events.9999.c:1 "Я выслушаю все советы, что даст [wyress.GetFirstName]."
  ek_fullerton_events.9999.c.tt_failure:1 "Проповедь вещуньи может быть убедительной…"
  ek_fullerton_events.9999.c.tt_success:1 "Вы можете отделить мудрость вещуньи от слов Ковена…"
 
