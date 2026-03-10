@@ -25,7 +25,7 @@
  form_western_reach_decision_tooltip: "Вы создадите новое [kingdom|El] в Западном Пределе"
  form_western_reach_decision_confirm: "Единый Предел!"
  form_western_reach_decision_effects_de_jure_tt: "Все герцогства в [Concept('region', 'регионе')|E] [GetGeographicalRegion('mundus_tamriel_reach_west_reach').GetName] станут [de_jure|El] вассалами державы [GetTitleByKey('k_western_reach').GetName]"
- form_western_reach_decision_greater_bangkorai: "Все герцогства в [Concept('region', 'регионе')|E] [GetGeographicalRegion('mundus_tamriel_border_greater_bangkorai').GetName] станут [de_jure|El] вассалами титула [GetTitleByKey('k_western_reach').GetName]"
+ form_western_reach_decision_greater_bangkorai: "Если был создан титул [GetTitleByKey('k_greater_bangkorai').GetName], все герцогства в [Concept('region', 'регионе')|E] [GetGeographicalRegion('mundus_tamriel_border_greater_bangkorai').GetName] станут [de_jure|El] вассалами титула [GetTitleByKey('k_western_reach').GetName]"
 
  # Bangkorai
  form_bangkorai_kingdom_decision:0 "Сформировать королевство Великий Бангкорай"

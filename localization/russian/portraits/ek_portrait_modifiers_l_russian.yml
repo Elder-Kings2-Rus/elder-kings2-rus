@@ -206,24 +206,24 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ayleid_01_common:0 "@ek_dlc_icon! Айлейдский простолюдин"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ayleid_01_low:0 "@ek_dlc_icon! Айлейдский мелкий дворянин"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ayleid_01_high:0 "@ek_dlc_icon! Айлейдский дворянин"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_south_nedic_01:0 "@ek_dlc_icon! Недийская мужская «одежда»"	
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ek2_kothri_01_low:0 "@ek_dlc_icon! Котрингский простолюдин 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ek2_kothri_02_low:0 "@ek_dlc_icon! Котрингский простолюдин 2"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ek2_kothri_01_high:0 "@ek_dlc_icon! Котрингский дворянин 1"
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ek2_kothri_02_high:0 "@ek_dlc_icon! Котрингский дворянин 2"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_01_common:0 "@ek_dlc_icon! Айлейдская одежда для ног простолюдина 1"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_02_common:0 "@ek_dlc_icon! Айлейдская одежда для ног простолюдина 2"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_01_low:0 "@ek_dlc_icon! Айлейдская одежда для ног мелкого дворянина 1"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_02_low:0 "@ek_dlc_icon! Айлейдская одежда для ног мелкого дворянина 2"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_01_high:0 "@ek_dlc_icon! Айлейдская одежда для ног дворянина 1"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_ayleid_02_high:0 "@ek_dlc_icon! Айлейдская одежда для ног дворянина 2"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_01_low:0 "@ek_dlc_icon! Недийская одежда для ног мелкого дворянина 1"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_02_low:0 "@ek_dlc_icon! Недийская одежда для ног мелкого дворянина 2"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_01_high:0 "@ek_dlc_icon! Недийская одежда для ног дворянина 1"
- PORTRAIT_MODIFIER_custom_legwear_male_legwear_south_nedic_02_high:0 "@ek_dlc_icon! Недийская одежда для ног дворянина 2"
+ PORTRAIT_MODIFIER_custom_legwear_m_legwear_sec_ek2_kothri_01_low:0 "@ek_dlc_icon! Котрингская одежда для ног"
  
- PORTRAIT_MODIFIER_custom_headgear_headgear_south_nedic_male_war_01_high:0 "@ek_dlc_icon! Недийский шлем пельтаста с гребнем"
- PORTRAIT_MODIFIER_custom_headgear_headgear_south_nedic_male_war_01_low:0 "@ek_dlc_icon! Недийский шлем пельтаста с гребнем 2" #Duplicate?
- PORTRAIT_MODIFIER_custom_headgear_headgear_south_nedic_male_war_02_low:0 "@ek_dlc_icon! Простой недийский шлем пельтаста"
+ PORTRAIT_MODIFIER_custom_headgear_headgear_south_nedic_male_war_01_high:0 "@ek_dlc_icon! Котрийский шлем пельтаста с гребнем"
+ PORTRAIT_MODIFIER_custom_headgear_headgear_south_nedic_male_war_01_low:0 "@ek_dlc_icon! Котрийский шлем пельтаста с гребнем 2" #Duplicate?
+ PORTRAIT_MODIFIER_custom_headgear_headgear_south_nedic_male_war_02_low:0 "@ek_dlc_icon! Простой котрийский шлем пельтаста"
 
- PORTRAIT_MODIFIER_custom_cloaks_clothes_south_nedic_male_war_01_low:0 "@ek_dlc_icon! Недийский щит пельтаста"
- PORTRAIT_MODIFIER_custom_cloaks_clothes_south_nedic_male_war_01_high:0 "@ek_dlc_icon! Недийский щит пельтаста 2" #Duplicate?
+ PORTRAIT_MODIFIER_custom_cloaks_clothes_south_nedic_male_war_01_low:0 "@ek_dlc_icon! Котрийский щит пельтаста"
+ PORTRAIT_MODIFIER_custom_cloaks_clothes_south_nedic_male_war_01_high:0 "@ek_dlc_icon! Котрийский щит пельтаста 2" #Duplicate?
 
 ### Female ###
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ayleid_crown_01:0 "@ek_dlc_icon! Айлейдская диадема"
@@ -231,20 +231,20 @@
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ayleid_02_common:0 "@ek_dlc_icon! Айлейдская простолюдинка"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ayleid_02_low:0 "@ek_dlc_icon! Айлейдская мелкая дворянка"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ayleid_02_high:0 "@ek_dlc_icon! Айлейдская дворянка"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_south_nedic_01_low:0 "@ek_dlc_icon! Недийская мелкая дворянка"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_south_nedic_01_high:0 "@ek_dlc_icon! Недийская дворянка"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_south_nedic_01_low:0 "@ek_dlc_icon! Котрийская простолюдинка"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_south_nedic_01_high:0 "@ek_dlc_icon! Котрийская дворянка"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_ayleid_01_common:0 "@ek_dlc_icon! Айлейдская одежда для ног простолюдинки"
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_ayleid_01_low:0 "@ek_dlc_icon! Айлейдская одежда для ног мелкой дворянки"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_ayleid_01_low:0 "@ek_dlc_icon! Штаны айлейдской простолюдинки"
  PORTRAIT_MODIFIER_custom_legwear_female_legwear_ayleid_01_high:0 "@ek_dlc_icon! Айлейдская одежда для ног дворянки"
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_south_nedic_01_low:0 "@ek_dlc_icon! Недийская одежда для ног мелкой дворянки"
- PORTRAIT_MODIFIER_custom_legwear_female_legwear_south_nedic_01_high:0 "@ek_dlc_icon! Недийская одежда для ног дворянки"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_south_nedic_01_low:0 "@ek_dlc_icon! Котрийские штаны простолюдинки"
+ PORTRAIT_MODIFIER_custom_legwear_female_legwear_south_nedic_01_high:0 "@ek_dlc_icon! Штаны котрийской дворянки"
 
- PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_ek2_horwalli_war_01_high:0 "@ek_dlc_icon! Недийский шлем пельтаста с гребнем"
- PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_ek2_horwalli_war_01_low:0 "@ek_dlc_icon! Недийский шлем пельтаста с гребнем 2" #Duplicate?
- PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_ek2_horwalli_war_02_low:0 "@ek_dlc_icon! Простой шлем недийца-пельтаста"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_ek2_horwalli_war_01_high:0 "@ek_dlc_icon! Котрийский шлем пельтаста с гребнем"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_ek2_horwalli_war_01_low:0 "@ek_dlc_icon! Котрийский шлем пельтаста с гребнем 2" #Duplicate?
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_ek2_horwalli_war_02_low:0 "@ek_dlc_icon! Простой шлем котрийского пельтаста"
 
- PORTRAIT_MODIFIER_custom_cloaks_clothes_south_nedic_female_war_01_low:0 "@ek_dlc_icon! Недийский щит пельтаста"
- PORTRAIT_MODIFIER_custom_cloaks_clothes_south_nedic_female_war_01_high:0 "@ek_dlc_icon! Недийский щит пельтаста 2" #Duplicate?
+ PORTRAIT_MODIFIER_custom_cloaks_clothes_south_nedic_female_war_01_low:0 "@ek_dlc_icon! Котрийский щит пельтаста"
+ PORTRAIT_MODIFIER_custom_cloaks_clothes_south_nedic_female_war_01_high:0 "@ek_dlc_icon! Котрийский щит пельтаста 2" #Duplicate?
  
  ### Cloaks ### 
  PORTRAIT_MODIFIER_custom_cloaks_male_clothes_ayleid_moonstone_01:0 "@ek_dlc_icon! Айлейдская мантия дворянина"

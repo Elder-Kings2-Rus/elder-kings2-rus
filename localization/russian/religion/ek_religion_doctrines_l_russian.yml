@@ -805,14 +805,13 @@
  doctrine_pantheon_forgotten_gods_name: "Забытые боги"
     doctrine_parameter_pantheon_adds_deities_forgotten_gods: "Добавит следующих покровителей в [pantheon|El]: Ноторго, Рэн, Вигрил, Шандар, Джим Сэй, Друага, К'Олвен, Сай, Эбонарм, Иус"
     doctrine_pantheon_forgotten_gods_desc: "Помните учения святых и богов, которые направляли наших предков задолго до того, как на нас посягнули чужеземные божества."
- special_doctrine_reach_spirits_name: "Духи Предела"
  doctrine_pantheon_magna_ge_name: "Магна-ге"
     doctrine_parameter_pantheon_adds_deities_magna_ge: "Добавит следующих покровителей в [pantheon|El]: Магнус, Мнемо-Ли, Зеро-Лиг"
     doctrine_pantheon_magna_ge_desc: "Девять снопов искр на небесах, Четыре звезды в моих глазах."
  doctrine_pantheon_lilmothiit_name: "Живой закон"
     doctrine_parameter_pantheon_adds_deities_lilmothiit: "Добавит следующих покровителей в [pantheon|El]: Цеол, Джефр"
     doctrine_pantheon_lilmothiit_desc: "Мы учимся у Богов Формирования, которые вдыхают в мир законы. Знать действия земли - значит управлять ею."
-    special_doctrine_reach_spirits_desc: "Предел — дом для многих верований, и все они составляют единое целое. Разрозненные племена могут служить разным богам, но в конечном итоге все они — народ Предела."
+
  special_doctrine_bretic_traditions_name: "Бретонские традиции"
     special_doctrine_bretic_traditions_desc: "Среди бретонцев можно найти много верований, которым поклонялись в этих землях задолго до Божеств. Все они заслуживают взаимного уважения."
  special_doctrine_cyrodiilic_cult_name: "Сиродильский культ"
@@ -1186,7 +1185,10 @@
  ### Crimes
  doctrine_parameter_witchcraft_crime_hostility: "[Concept('faith_hostility', 'Враждебность')|E] [Concept('faiths', 'конфессий')|E], в которых ведовство [GetFaithDoctrine('doctrine_witchcraft_accepted').GetBaseName], увеличивается на #N +5#!, а в которых ведовство – [GetFaithDoctrine('doctrine_witchcraft_virtuous').GetBaseName] – на #N +10#!"
  doctrine_parameter_witchcraft_accepted_hostility: "[Concept('faith_hostility', 'Враждебность')|E] [Concept('faiths', 'конфессий')|E], в которых ведовство - [GetFaithDoctrine('doctrine_witchcraft_crime').GetBaseName], увеличивается на #N +5#!"
- doctrine_parameter_witchcraft_virtuous_hostility: "[Concept('faith_hostility', 'Враждебность')|E] [Concept('faiths', 'конфессий')|E], в которых ведовство - [GetFaithDoctrine('doctrine_witchcraft_crime').GetBaseName], увеличивается на #N +10#!
+ doctrine_parameter_witchcraft_virtuous_hostility: "[Concept('faith_hostility', 'Враждебность')|E] [Concept('faiths', 'конфессий')|E], в которых ведовство - [GetFaithDoctrine('doctrine_witchcraft_crime').GetBaseName], увеличивается на #N +10#!"
+ doctrine_parameter_reach_witchcraft_illegal:0 "Персонажи со [Concept('trait', 'свойством')|E] «[GetTrait('hagraven').GetName( GetPlayer )]» или «[GetTrait('briarheart').GetName( GetPlayer )]» считаются [Concept( 'criminals', 'преступниками' )|E]"
+ doctrine_parameter_reach_witchcraft_shunned:0 "Персонажи со [Concept('trait', 'свойством')|E] «[GetTrait('hagraven').GetName( GetPlayer )]» или «[GetTrait('briarheart').GetName( GetPlayer )]» [Concept('shunned', 'порицаются')|E]"
+ doctrine_parameter_reach_witchcraft_accepted:0 "Персонажи со [Concept('trait', 'свойством')|E] «[GetTrait('hagraven').GetName( GetPlayer )]» или «[GetTrait('briarheart').GetName( GetPlayer )]» принимаются обществом"
 
  doctrine_adultery_name: "Измены"
  doctrine_adultery_crime_name: "Преступление"
@@ -1943,6 +1945,15 @@
    doctrine_requires_temporal_head_of_faith: "Требуется [doctrine|El] – [temporal_head_of_faith|El]"
 
  # Criminals are cool stuff
+
+
+ tenet_reach_spirits_name:0 "Духи Предела"
+    tenet_reach_spirits_desc:0 "Предел стал домом для множества верований, объединяемых в общую группу. Разрозненные племена поклоняются разным богам, но в конечном счёте все они составляют народ Предела."
+    witchcraft_must_be_accepted:0 "Несовместимо с любой [Concept( 'doctrine', 'доктриной' )|E], в которой ведовство [Concept('shunned', 'порицается')|E] или считается [Concept('criminal', 'преступлением')|E]"
+    tenet_reach_spirits_requirement:0 "Является #L [GetReligionByKey('reach_religion').GetName|l]ой#! конфессией"
+    doctrine_parameter_become_hagraven_active:0 "Женщины этой [Concept('faith', 'конфессии')|E] со свойством «[GetTrait('witch').GetName( GetNullCharacter )]» могут стать #TOOLTIP:GAME_TRAIT,hagraven,[GetNullCharacter] #L ворожеями#!#!"
+    doctrine_parameter_become_briarheart_active:0 "Персонажи этой [Concept('faith', 'конфессии')|E] могут стать #TOOLTIP:GAME_TRAIT,briarheart,[GetNullCharacter] #L вересковым сердцем#!#!"
+
  tenet_necromancy_worship_name: "Владычество над не-жизнью"
     tenet_necromancy_worship_desc: "Мы были благословлены способностями к некромантии. Эти силы должны считаться священными и частью нашей связи с божественным."
     NECROMANCY_MUST_BE_FULLY_ACCEPTED: "Несовместимо с любыми [Concept( 'doctrine', 'доктринами' )|E], для которых некромантия — [shunned|El] или [Concept( 'criminal', 'преступления' )|E]"

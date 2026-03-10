@@ -35,6 +35,16 @@
  became_lich_memory_desc_second_perspective:1 "вы стали личом с помощью великого тёмного ритуала."
  became_lich_memory_desc_third_perspective:0 "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'стала', 'стал' )] личом с помощью великого тёмного ритуала"
 
+ became_briarheart_memory:0 "Превращение в вересковое сердце"
+ became_briarheart_memory_desc:0 "пройдя через священный ритуал, я [Select_CString(ROOT.Char.IsFemale, 'стала', 'стал' )] вересковым сердцем"
+ became_briarheart_memory_desc_second_perspective:1 "пройдя через священный ритуал, вы стали вересковым сердцем"
+ became_briarheart_memory_desc_third_perspective:0 "пройдя через священный ритуал, [owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'стала', 'стал' )] вересковым сердцем"
+
+ became_hagraven_memory:0 "Превращение в ворожею"
+ became_hagraven_memory_desc:0 "пройдя через древний тёмный ритуал, я [Select_CString(ROOT.Char.IsFemale, 'стала', 'стал' )] ворожеей"
+ became_hagraven_memory_desc_second_perspective:1 "пройдя через древний тёмный ритуал, вы стали ворожеей"
+ became_hagraven_memory_desc_third_perspective:0 "пройдя через древний тёмный ритуал, [owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'стала', 'стал' )] ворожеей"
+
  became_adopted_memory:0 "Принятие в семью"
  became_adopted_memory_desc:0 "Я [Select_CString(ROOT.GetCharacter.IsFemale, 'была удочерена', 'был усыновлён' )] персонажем [new_parent.GetTitledFirstName] и теперь являюсь частью [new_parent.GetHerHis] семьи"
  became_adopted_memory_desc_second_perspective:1 "вы были [Select_CString(ROOT.GetCharacter.IsFemale, 'была удочерены', 'усыновлены' ] персонажем [new_parent.GetTitledFirstName] и теперь являюсь частью [new_parent.GetHerHis] семьи"

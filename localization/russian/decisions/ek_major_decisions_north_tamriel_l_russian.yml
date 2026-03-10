@@ -4,8 +4,8 @@
  form_reach_empire_decision_tooltip:0 "Вы создадите новое [Concept( 'empire', 'верховное королевство' )|E] в Пределе."
  form_reach_empire_decision_confirm:0 "Предел наконец-то будет объединен!"
  form_reach_empire_effect_de_jure_tt:0 "Все королевства в [Concept( 'region', 'регионе' )|E] [GetGeographicalRegion('mundus_tamriel_reach').GetName] станут [de_jure|El] частью державы [GetTitleByKey('e_reach').GetName]"
- form_reach_empire_effect_de_jure_tt_a:0 "Если следующие [Concept( 'kingdoms', 'королевства' )|E] [Concept('completely_controlled', 'полностью контролируются')|E], они станут [de_jure|El] частью державы [GetTitleByKey('e_reach').GetNameNoTier]: [GetTitleByKey('k_falkreath').GetNameNoTier], [GetTitleByKey('k_solitude').GetNameNoTier], [GetTitleByKey('k_bangkorai').GetNameNoTier]"
- form_reach_empire_effect_de_jure_tt_b:0 "[GetTitleByKey('d_darkfall').GetNameNoTier] станет [de_jure|El] частью державы [GetTitleByKey('k_markarth').GetName], если вы не владеете титулом [GetTitleByKey('k_solitude').GetNameNoTier]"
+ form_reach_empire_effect_de_jure_tt_a: "[GetTitleByKey('d_darkfall').GetNameNoTier] станет [de_jure|El] частью державы [GetTitleByKey('k_markarth').GetName]"
+ form_reach_empire_effect_de_jure_tt_b: "[GetTitleByKey('d_gavaudon').GetNameNoTier] станет [de_jure|El] частью державы [GetTitleByKey('k_evermore').GetName], [GetTitleByKey('k_western_reach').GetName] или [GetTitleByKey('k_greater_bangkorai').GetName] в зависимости от того, какая из них существует."
 
  turn_reach_nord_hold_decision:0 "Заселить Предел"
  turn_reach_nord_hold_decision_desc:0 "Обширные земли Предела слишком долго находились в руках колдунов и дикарей. Если мы хотим, чтобы Скайрим вернул себе былую славу, мы должны взять под контроль земли вокруг реки Карт и обеспечить возможность заселения этих земель нашим народом."

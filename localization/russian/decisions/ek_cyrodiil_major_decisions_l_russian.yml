@@ -35,8 +35,10 @@
  rebuild_imperial_legion_decision_desc: "[GetScriptedCharacterByHistoryID( 'akavir_100' ).GetTitledFirstName] умер и после его смерти Имперский город утратил контроль над своими легионами. Если я хочу вновь явить Тамриэлю мощь наших войск, придётся начинать с нуля..."
  rebuild_imperial_legion_decision_tooltip: "Восстановить Имперский легион"
  rebuild_imperial_legion_decision_confirm: "Сформировать Первый легион!"
- rebuild_imperial_legion_decision_1000_legionnaires: "У вас не менее 1000 полностью укомплектованных следующих [Concept( 'men_at_arms', 'профессионалов' )|E]: #V $armored_legionaires$#!"
- rebuild_imperial_legion_decision_300_lc: "У вас не менее 300 полностью укомплектованных следующих [Concept( 'men_at_arms', 'профессионалов' )|E]: [light_cavalry|E]"
+ rebuild_imperial_legion_decision_1000_legionnaires_1:0 "У вас есть не менее #V 1000#! полностью укомплектованных [Concept('men_at_arms', 'профессионалов')|E] типа [GetMaA('armored_legionaires').GetName]"
+ rebuild_imperial_legion_decision_1000_legionnaires_2: "У вашего [Concept('primary_title', 'первого титула')|E] есть не менее #V двух#! [Concept('regiment', 'полков')|E] по #V 500#! [Concept( 'title_men_at_arms', 'титулярных профессионалов' )|E] типа [GetMaA('armored_legionaires').GetName] в каждом"
+ rebuild_imperial_legion_decision_300_lc_1:0 "У вас есть не менее #V 300#! полностью укомплектованных [Concept('men_at_arms', 'профессионалов')|E] типа [light_cavalry|El]"
+ rebuild_imperial_legion_decision_300_lc_2: "У вашего [Concept('primary_title', 'первого титула')|E] есть не менее #V одного#! [Concept('regiment', 'полка')|E] из #V 300#! [Concept('title_men_at_arms', 'титулярных профессионалов')|E] типа [light_cavalry|El]"
  rebuild_legion_court_position_tooltip: "Доступна [Concept( 'court_position', 'должность при дворе' )|E] – [GetCourtPositionType('akolouthos_court_position').GetName()]"
 
  recognise_dawn_court_decision:0 "Признать Двор красы рассвета сиродильским культом"

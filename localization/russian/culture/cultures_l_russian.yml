@@ -6,6 +6,8 @@
  NATIVE_NOWHERE:0 "Нигде"
  NATIVE_NOMADIC:0 "Нигде, эта культура является мигрирующей"
 
+ culture_custom_nativity_dummy: "Нет доступных [Concept('nativity_regions', 'родных регионов')|E]."
+ dummy_tooltip:0 "Можно добавить [Concept('nativity_regions', 'родной регион')|E], только если хотя бы одно [county|El] в регионе принадлежит к вашей [Concept( 'culture', 'культуре' )|E]."
  culture_custom_nativity_glenumbra:0 "[GetGeographicalRegion('custom_nativity_glenumbra').GetName]"
  glenumbra_tooltip:0 "Стать [Concept('native', 'коренными жителями')|E] региона [GetGeographicalRegion('custom_nativity_glenumbra').GetName]"
  culture_custom_nativity_rivenspire:0 "[GetGeographicalRegion('custom_nativity_rivenspire').GetName]"

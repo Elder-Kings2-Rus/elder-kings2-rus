@@ -146,6 +146,8 @@
  arcana_lich_character:0 "[GetTrait('lich_character').GetName(ROOT.Char)]"
  #other
  arcana_adventurer:0 "[GetTrait('adventurer').GetName(ROOT.Char)]"
+ arcana_briarheart: "[GetTrait('briarheart').GetName(ROOT.Char)]"
+ arcana_hagraven: "[GetTrait('hagraven').GetName(ROOT.Char)]"
  #patron/birthsign
  arcana_p_ae_magnus:0 "[GetTrait('p_ae_magnus').GetName(ROOT.Char)]"
  arcana_p_dv_julianos:0 "[GetTrait('p_dv_julianos').GetName(ROOT.Char)]"

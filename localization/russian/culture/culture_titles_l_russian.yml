@@ -76,6 +76,9 @@
  title_harbinger_male: "Предвестник"
  title_harbinger_female: "Предвестница"
 
+ title_ysmir_male: "Исмир"
+ title_ysmir_female: "Исмир"
+
  title_king_captain_male: "Король-капитан"
  title_king_captain_female: "Королева-капитан"
 
@@ -628,11 +631,17 @@
  title_forebear_republic_male: "Диктатор"
  title_forebear_republic_female: "Диктатор"
 
- title_president_male: "Президент"
- title_president_female: "Президент"
+ title_crown_redguards_male: "Венценосный редгардов"
+ title_crown_redguards_female: "Венценосная редгардов"
+
+ title_president_redguards_male: "Президент редгардов"
+ title_president_redguards_female: "Президент редгардов"
 
  title_king_of_redguard_male: "Король редгардов"
  title_king_of_redguard_female: "Королева редгардов"
+
+ title_dictator_redguards_male: "Диктатор редгардов"
+ title_dictator_redguards_female: "Диктатор редгардов"
 
  title_redguard_republic_male: "[Character.Custom('RedguardHegemonMaleTitle')|U]"
  title_redguard_republic_female: "[Character.Custom('RedguardHegemonFemaleTitle')|U]"
