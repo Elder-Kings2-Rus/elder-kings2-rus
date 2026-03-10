@@ -46,7 +46,7 @@
  north_tamriel.0030.a.tooltip: "[GetTitleByKey('h_nordic_empire').GetName] сохранит своё изначальное название. Ваш персонаж будет использовать титул «$hegemon$» или «$hegemon_female$»."
  north_tamriel.0030.b: "Пора вернуть Старое королевство!"
  OLD_KINGDOM: "Старое королевство"
- north_tamriel.0030.b.tooltip: "[GetTitleByKey('h_nordic_empire').GetName] будет переименована в «$OLD_KINGDOM$». Ваш персонаж будет использовать титул «$title_harbinger_male$»."
+ north_tamriel.0030.b.tooltip: "[GetTitleByKey('h_nordic_empire').GetName] будет переименована в «$OLD_KINGDOM$». Ваш персонаж будет использовать титул «$title_ysmir_male$»."
  north_tamriel.0030.c: "Хвала Земле отцов!"
  FATHERLAND: "Земля отцов"
  north_tamriel.0030.c.tooltip: "[GetTitleByKey('h_nordic_empire').GetName] будет переименована в «$FATHERLAND$». Ваш персонаж будет использовать титул «$title_harbinger_male$»."

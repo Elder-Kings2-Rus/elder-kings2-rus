@@ -210,11 +210,7 @@
  destroy_hist_holding_interaction:0 "Уничтожить хист"
  destroy_hist_holding_interaction_desc:0 "Разрушить все [Concept('buildings', 'постройки')|E] в этом [Concept('holding', 'владении')|E] и превратить его в храм"
  destroy_hist_holding_interaction_notification:0 "Хист уничтожен"
-
- #Co-emperor (replaces vanilla)
- valid_co_emperor_powerful_family_trigger: "Только [Concept('house_heads', 'главы домов')|E] [Concept('powerful_families', 'могущественных семейств')|E] могут быть [Concept('co_emperors', 'соправителями')|E]"
- 
-  #weak_rulers_contest_rule version of house head challenge
+ #weak_rulers_contest_rule version of house head challenge
  ek_challenge_house_head_strong_interaction: "Бросить вызов главе дома"
  ek_challenge_house_head_strong_interaction.actor_default_victory.tt: "[actor.GetShortUIName|U] станет [Concept('house_head','главой дома')|E] [actor.GetHouse.GetBaseName]"
  ek_challenge_house_head_weak_interaction: "Бросить вызов главе дома"

@@ -72,16 +72,21 @@
  
  game_concept_end_date_desc:0 "Игра закончится в 2Э 896."
  
- #EK EDIT: renamed co-emperor to High Chancellor
- game_concept_co_emperor: "Верховный канцлер" #Replaced co-emperor
- game_concept_co_emperors: "Верховные канцлеры" #Replaced co-emperors
- co_emperorship_diarch_title: "Верховный канцлер" #Replaced co-emperor
- game_concept_duumvirate_desc: "При дуумвирате [Concept('empire','верховное королевство')|E] совместно управляется двумя [Concept('characters','персонажами')|E] — верховным королём ([Concept('liege','сюзереном')|E]) и верховным канцлером.\n\nСоправитель пассивно повышает как собственное [Concept('influence','влияние')|E], так и влияние верховного короля. Бонус к влиянию увеличивается за каждые [EmptyScope.ScriptValue('co_emperor_scale_years_in_job_value')|0] г., в течение которых соправитель занимает должность (включая время, проведенное в качестве [Concept('junior_emperor','номинального соправителя')|E]).\n\nВ реальности большая часть власти сконцентрирована в руках не [Concept('diarch','диарха')|E], а сюзерена, который носит титул верховного короля. В то же время соправитель обладает широкими полномочиями, которые позволяют активно влиять на жизнь [Concept('realm','державы')|E]. Кроме того, зачастую он является наиболее выгодным кандидатом на [Concept('administrative','административные')|E] должности.\n\nПри достаточно сильном нарушении [Concept( 'scales_of_power', 'равновесия сил' )|E] верховный канцлер может воспользоваться [Concept('casus_belli','казус белли')|E] «[Concept('imperial_expedition_cb','Имперская экспедиция')|E]».\n\n#WEAK Соправитель может [Concept('usurp','узурпировать')|E] власть старшего верховного короля, нанеся ему церемониальные увечья.#!"
+ #EK EDIT: renamed co-emperor to Viceroy
+ game_concept_co_emperor: "Наместник" #Replaced co-emperor
+ game_concept_co_emperors: "Наместники" #Replaced co-emperors
+ co_emperorship_diarch_title: "Наместник" #Replaced co-emperor
+ game_concept_duumvirate_desc: "При дуумвирате [Concept('empire', 'верховное королевство')|E] совместно управляется двумя [Concept('characters', 'персонажами')|E] — верховным королём ([Concept('liege', 'сюзереном')|E]) и наместником.\n\nНаместник пассивно повышает как собственное [Concept('influence', 'влияние')|E], так и влияние верховного короля. Бонус к влиянию увеличивается за каждые [EmptyScope.ScriptValue('co_emperor_scale_years_in_job_value')|0] г., в течение которых наместник занимает должность (включая время, проведенное в качестве [Concept('junior_emperor', 'номинального наместника')|E]).\n\nВ реальности большая часть власти сконцентрирована в руках не [Concept('diarch', 'диарха')|E], а сюзерена, который носит высший титул. В то же время наместник обладает широкими полномочиями, которые позволяют активно влиять на жизнь [Concept('realm', 'державы')|E]. Кроме того, зачастую он является наиболее выгодным кандидатом на [Concept('administrative', 'административные')|E] должности.\n\nПри достаточно сильном нарушении [Concept('scales_of_power', 'равновесия сил')|E] наместник может воспользоваться [Concept('casus_belli', 'казус белли')|E] «[Concept('imperial_expedition_cb', 'Имперская экспедиция')|E]».
+ ep3_truce_appointed_faction_leader_coruler: "Перемирие после повышения лидера фракции до наместника"
+ action_appoint_co_emperor_adult_child_label: "@declare_regent_icon! $action_appoint_co_emperor_adult_child$"
+ action_appoint_co_emperor_adult_child_desc: "Вы достигли почтенного возраста. Чтобы ваша династия не потеряла трон после вашей [Concept( 'character_death', 'безвременной кончины' )|E], возможно, стоит назначить одного из ваших [Concept('children', 'детей')|E] [Concept( 'duumvirate', 'наместником' )|E].$action_appoint_co_emperor_adult_child_help$"
+ request_co_emperor_interaction: "Назначьте меня наместником"
+ declare_me_co_emperor_interaction.tt.success: "Назначение наместником"
+ systematically_maim_character_interaction: "Нанести увечье наместнику"
   
  game_concept_theme: "Провинция" #Replaced Theme
  game_concept_themes: "Провинции" #Replaced Themes
  game_concept_thematic: "Провинциальный" #Replaced Thematic
- THEME_DUCHY_SORT_THEME_TROOPS: "Войска провинции" #Replaced Theme
   
  game_concept_imperial_family: "Правящая семья" #Replaced Imperial
  

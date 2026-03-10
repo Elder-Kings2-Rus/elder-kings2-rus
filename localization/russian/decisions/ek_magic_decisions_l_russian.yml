@@ -24,6 +24,26 @@
  doctrine_necromancy_shunned_custom_desc:0 "Ваша [Concept('faith', 'конфессия')|E] имеет [Concept('doctrine', 'доктрину')|E] некромантии [GetFaithDoctrine('doctrine_necromancy_shunned').GetBaseName]»"
  doctrine_lichdom_accepted_custom_desc:0 "Ваша [Concept('faith', 'конфессия')|E] имеет [Concept('doctrines', 'доктрины')|E] некромантии «[GetFaithDoctrine('tenet_necromancy_worship').GetBaseName]» или «[GetFaithDoctrine('doctrine_pantheon_dragons').GetBaseName]»"
 
+ become_hagraven_decision: "Стать ворожеёй"
+ become_hagraven_decision_desc: "Моя магическая сила не знает равных, но я всё ещё жажду большего. Я смогу достичь небывалых высот, прибегнув к запретной нечестивой магии и уподобившись пернатым каргам — ворожеям. Выбор передо мной предельно прост: сила в обмен на саму мою сущность, или же смерть в попытке её обрести."
+ become_hagraven_decision_tooltip: "Провести тёмный ритуал и стать #TOOLTIP:GAME_TRAIT,hagraven,[GetNullCharacter] #L ворожеей#!#!."
+ become_hagraven_decision_confirm: "Я сброшу старую кожу."
+ become_hagraven_decision_effect: "Вы начнёте подготовку к тёмному ритуалу"
+
+ become_hagraven_decision_ai:0 "Стать ворожеей (ИИ)"
+ become_hagraven_decision_ai_desc:0 "Если вы это видите, пожалуйста, сообщите об ошибке :)"
+ become_hagraven_decision_ai_confirm:0 "Я стану чем-то совершенно... иным."
+
+ become_briarheart_decision:0 "Стать вересковым сердцем"
+ become_briarheart_decision_desc:0 "Над Пределом навис ужасный рок! Долг требует жертвы: сердца гордого воина в обмен на силу, способную сокрушить врага. Моё сердце будет извлечено, а тело станет орудием мести. Мне нужно разыскать ворожей."
+ become_briarheart_decision_tooltip:0 "Провести священный ритуал и стать #TOOLTIP:GAME_TRAIT,briarheart,[GetNullCharacter] #L вересковым сердцем#!#!."
+ become_briarheart_decision_confirm:0 "Я стану живым оружием."
+ become_briarheart_decision_effect:0 "Вы начнёте подготовку к священному ритуалу"
+
+ become_briarheart_decision_ai:0 "Стать вересковым сердцем (ИИ)"
+ become_briarheart_decision_ai_desc:0 "Если вы это видите, пожалуйста, сообщите об ошибке :)"
+ become_briarheart_decision_ai_confirm:0 "Я стану живым оружием."
+
  life_extension_decision:0 "Увеличить продолжительность жизни"
  life_extension_decision_desc:0 "Перспектива долгой жизни, накопления мудрости и опыта и наблюдения за сменой поколений одновременно манит и пугает."
  life_extension_decision_tooltip:0 "Сделать шаг к бессмертию."

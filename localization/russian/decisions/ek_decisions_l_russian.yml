@@ -239,13 +239,6 @@
  proclaim_disease_decision_confirm:0 "Благослови меня, Чумной Владыка!"
 
  # Artifacts
-
- commission_banner_decision:0 "Заказать знамя"
- commission_banner_decision_desc:0 "Какой смысл от того, что я [ROOT.Char.GetTitleAsNameNoTooltip], если у меня нет ничего, что бы это продемонстрировало? Было бы неплохо повесить что-нибудь на стену..."
- commission_banner_decision_effect:0 "К вашему двору прибыл местный ткач с поддержанным [Concept('project', 'проектом')|E]"
- commission_banner_decision_confirm:0 "Нанять местного ткача"
- commission_banner_decision_tooltip:0 "Нанять местного ткача, чтобы он создал для вас настенный [artifact|El]"
-
  crown_verity_decision:0 "Суждение Истинности"
  crown_verity_decision_desc:0 "По традиции, восходящей к правлению Кьорика Белого, каждый правитель-норд, обладающий Короной Истинности, предстаёт перед Суждением Истинности, которое определяет, достоин ли данный правитель носить корону своих предков или же нет."
  crown_verity_judgement_tooltip:0 "Вы подвергнетесь Суждению Короны Истинности, дабы утвердить легитимность вашего правления над своими владениями!"

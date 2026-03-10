@@ -1,0 +1,6 @@
+﻿l_russian:
+#EK Edit: Devaraja —> lord
+ tgp_east_asia_interaction_events.0010.desc: "Отныне я служу [Select_CString(leaving_tributary.GetSuzerain.IsFemale, 'другой владычице', 'другому владыке' )]. [Select_CString(leaving_tributary.GetSuzerain.IsFemale, 'Она', 'Он' )] покажет нам истинный путь.\n\nДа здравствует [leaving_tributary.GetSuzerain.GetName]!"
+ tgp_east_asia_interaction_events.0020.desc: "[Select_CString(recipient.IsFemale, 'Моя владычица сумела', 'Мой владыка сумел' )] найти нужные слова.\n\nПозвольте послужить вам еще немного."
+ tgp_east_asia_interaction_events.0025.desc: "Меня не так легко обмануть, я вижу вашу ложь насквозь!\n\nЯ ожидаю большего от [Select_CString(recipient.IsFemale, 'своей владычицы', 'своего владыки' )]!"
+ tgp_east_asia_interaction_events.0035.desc: "[Select_CString(ROOT.Char.IsFemale, 'Вынуждена', 'Вынужден' )] сообщить, что я храню верность [Select_CString(recipient.GetSuzerain.IsFemale, 'своей владычице', 'своему владыке' )] и никогда [Select_CString(recipient.GetSuzerain.IsFemale, 'ей', 'ему' )] не изменю.\n\nВпредь не беспокойте нас."

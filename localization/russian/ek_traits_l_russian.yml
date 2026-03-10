@@ -77,10 +77,12 @@
  trait_undead_character_undead_version_of_desc:0 "[ROOT.Var('undead_version_of').Char.GetTitledFirstName] бродит по Нирну как жуткая нежить, пережив смерть."
 
  trait_hagraven:0 "Ворожея"
+ trait_hagraven_desc: "Этот персонаж, являющийся могущественной ведьмой, совершил древний тёмный ритуал и обменял часть своей человечности на великую магическую силу."
+ trait_hagraven_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip], [Select_CString(ROOT.GetCharacter.IsFemale, 'являющаяся могущественной ведьмой, совершила', 'являющийся могущественным колдуном, совершил' )] древний тёмный ритуал, обменяв часть своей человечности на великую магическую силу."
 
  trait_briarheart:0 "Вересковое сердце"
- trait_briarheart_desc:0 "Этот персонаж [Select_CString(ROOT.GetCharacter.IsFemale, 'является могущественной ведьмой. Она провела', 'является могущественным колдуном. Он провёл' )] старый и тёмный ритуал, чтобы обменять часть своей человечности на забытые силы."
- trait_briarheart_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'является могущественной ведьмой', 'является могущественным колдуном' )] и [Select_CString(ROOT.GetCharacter.IsFemale, 'она провела', 'он провёл' )] старый и тёмный ритуал, чтобы обменять часть своей человечности на забытые силы."
+ trait_briarheart_desc: "Сердце этого персонажа, являющегося опытным воином, было заменено бутоном вереска в ходе жуткого ритуала, превратившего его в живое оружие."
+ trait_briarheart_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip], [Select_CString(ROOT.GetCharacter.IsFemale, 'являющаяся опытной воительницей, лишилась', 'являющийся опытным воином, лишился' )] своего сердца, которое было заменено бутоном вереска в ходе жуткого ритуала, превратившего [Select_CString(ROOT.GetCharacter.IsFemale, 'её', 'его' )] в живое оружие."
 
  trait_education_magic:0 "Изучение магии"
  trait_education_magic_1:0 "Заклинатель-новичок"

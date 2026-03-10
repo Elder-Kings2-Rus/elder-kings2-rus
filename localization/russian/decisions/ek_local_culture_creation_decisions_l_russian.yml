@@ -375,4 +375,4 @@
  create_local_culture_padomaic_marshes_decision_capital_embrace_new_culture:0 "$create_local_culture_decision_capital_embrace_new_culture$"
  create_local_culture_padomaic_marshes_decision_confirm:0 "$create_local_culture_decision_confirm$"
  create_local_culture_padomaic_marshes_decision_tooltip:0 "$create_local_culture_decision_tooltip$"
- 
+ create_local_culture_innovations_tooltip: "Новая [culture|El] получит все [innovations|El] вашей нынешней [Concept('culture', 'культуры')|E]"
