@@ -51,11 +51,11 @@
  
  attrebus_potentate_cb:0 "Восстание против потентата"
  attrebus_potentate_cb_defeat_desc:0 "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'остаётесь', 'остаётся' )] потентатом Сиродила. [attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'заключены', Select_CString(attacker.IsFemale, 'заключена', 'заключён' ))] в темницу и [Select_CString(attacker.IsLocalPlayer, 'опозорены', Select_CString(attacker.IsFemale, 'опозорена', 'опозорен' ))], а Коловианский союз распадается."
- attrebus_potentate_cb_defeat_desc_defender:0 "Вы остаётесь потентатом Сиродила. [attacker.GetShortUIName|U] [Select_CString(attacker.IsFemale, 'заключена', 'заключён' )] в темницу, а Коловианский союз распадается..."
+ attrebus_potentate_cb_defeat_desc_defender:0 "Вы остаётесь потентатом Сиродила. [attacker.GetShortUIName|U] [Select_CString(attacker.IsFemale, 'заключена', 'заключён' )] в темницу, а Коловианский союз распадается"
  attrebus_potentate_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] остаётся потентатом Сиродила. Коловианский союз распадётся без единой цели, а вы будете брошены в подземелья Имперского города."
- attrebus_potentate_cb_victory_desc_defender:0 "[attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'сокрушите', 'сокрушит' )] Потентат, и Сиродил затаит дыхание, поскольку военачальник навсегда определит его историю..."
- attrebus_potentate_cb_victory_desc_attacker:0 "Потентат уничтожен. Поскольку Сиродил нуждается в сильной направляющей руке, а Совету старейшин необходимо провести некоторые реформы, вы останетесь за главного... на некоторое время."
- attrebus_potentate_cb_victory_desc:0 "[attacker.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'сокрушите', 'сокрушит' )] Потентат, и Сиродил затаит дыхание, поскольку военачальник навсегда определит его историю..."
+ attrebus_potentate_cb_victory_desc_defender:0 "[attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'сокрушите', 'сокрушит' )] Потентат и забирает его [Concept('vassals', 'вассалов' )|E]"
+ attrebus_potentate_cb_victory_desc_attacker:0 "Потентат уничтожен. Вы примете титул императора."
+ attrebus_potentate_cb_victory_desc:0 "[attacker.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'сокрушите', 'сокрушит' )] Потентат и забирает его [Concept('vassals', 'вассалов' )|E]"
  attrebus_potentate_cb_victory_with_liodes_desc:0 "Если [liodes.GetNameNicknamed] или [liodes.GetHerHis] потомки, всё ещё участвуют в войне, они получат все земли, принадлежащие потентату в пределах любого [de_jure|El] герцогства, в котором они владеют землями."
  attrebus_potentate_cb_seize_potentate_held_land:0 "Вы захватываете все земли, принадлежащие непосредственно потентату"
  dres_argonian_war_cb: "Кампания по возвращению юга"
@@ -99,10 +99,6 @@
  destroy_bridges_of_leyawiin_war_white_peace_desc: "Репарации не выплачиваются. [GetBuilding('bridges_leyawiin_02').GetName|U] останутся на месте."
  destroy_bridges_of_leyawiin_war_defeat_desc: "[attacker.GetShortUIName|U] [Select_CString( attacker.IsLocalPlayer, 'выплачиваете', 'выплачивает')] репарации [Select_CString(defender.IsLocalPlayer, '', 'персонажу ' )][defender.GetShortUINamePossessive][Select_CString(defender.IsLocalPlayer, 'ему персонажу', '' )], а [GetBuilding('bridges_leyawiin_02').GetName] останутся на месте."
 
- RECLAIM_HEART_OF_VALENWOOD_CB_NAME:1 "Возвращение Сердца Валенвуда"
- RECLAIM_HEART_OF_VALENWOOD_WAR_NAME:2 "Взыскание репараций с [Select_CString(DEFENDER.IsLocalPlayer, '', 'персонажа ' )][DEFENDER.GetShortUINamePossessive][Select_CString(DEFENDER.IsLocalPlayer, 'его персонажа', '' )] за набеги."
- RECLAIM_HEART_OF_VALENWOOD_WAR_NAME_BASE:0 "[attacker.GetShortUIName] вернёт [GetBuilding('heart_of_valenwood_01').GetName]"
- 
  dismantle_colovian_pretender_cb_victory_desc:1 "$e_colovian_estates$ будет уничтожен."
  dismantle_colovian_pretender_cb_defeat_desc:1 "$e_colovian_estates$ останется нетронутым. [attacker.GetShortUIName|U] обязуется выплатить компенсацию."
  dismantle_nibenese_pretender_cb_victory_desc:1 "$e_nibenay$ будет уничтожен."

@@ -1,9 +1,4 @@
 ﻿l_russian:
- pirate_succession_law:0 "Пиратская доля"
- pirate_succession_law_subname:0 "Каждая провинция решает, что лучше"
- pirate_succession_law_effects:0 "\n#V Согласно [Concept('succession', 'наследованию')|E] $pirate_succession_law$, каждое [county|El] будет решать, следовать ли за вашим [Concept('heir', 'наследником')|E], или же выбрать свой собственный курс#!\n\n#weak $pirate_succession_base_desc$#!"
- pirate_succession_base_desc:0 "#weak При этом наследовании, все [counties|El] принадлежащие умершему [Concept('ruler', 'правителю')|E] будут иметь возможность назначить местного правителя, в зависимости от их [Concept('county_opinion', 'народного мнения')|E] и [Concept('income', 'дохода')|E]. Командиры с похожей [Concept('culture', 'культурой')|E] или [Concept('faith', 'конфессией')|E] могут быть выбраны для руководства ими, а если таковых не найдется, будет создан новый правитель.\n\nПровинции, имеющие достаточно высокое [Concept('county_opinion', 'народное мнение')|E] останутся за главным наследником покойного правителя.\n\nВаша столичная провинция всегда будет передана вашему наследнику!\n#!"
- 
  pirate_elective_succession_law:0 "Выборный совет пиратов"
  tooltip_pirate_elective_taxes:0 "Общий [Concept('income', 'доход')|E] [Concept('county', 'графств')|E]: $VALUE|=+0$"
  pirate_elective_candidates:0 "Взрослые близкие родственники, командиры и вассалы-пираты"
@@ -101,7 +96,6 @@
  tooltip_altmeri_elector_vote_beauty_good:0 "[candidate.GetSheHe|U] - [Select_CString(candidate.IsFemale, 'прекрасная', 'прекрасный' )] [candidate.GetWomanMan]: $VALUE|=+0$"
  tooltip_altmeri_elector_vote_beauty_bad:0 "[candidate.GetSheHe|U] [Select_CString(candidate.IsFemale, 'уродливая', 'уродливый' )] [candidate.GetWomanMan]: $VALUE|=+0$"
  tooltip_altmeri_elector_vote_physique_bad:0 "[candidate.GetSheHe|U] [Select_CString(candidate.IsFemale, 'слабая', 'слабый' )] [candidate.GetWomanMan]: $VALUE|=+0$"
- tooltip_altmeri_elector_vote_impurity:0 "[candidate.GetSheHe|U] [Concept( 'impure', '[Select_CString(candidate.IsFemale, 'нечиста', 'нечист' )]' )|E]: $VALUE|=+0$"
  tooltip_altmeri_elector_vote_dislikes_apraxic:0 "Не нравится низкий [praxis|El]: $VALUE|=+0$"
  tooltip_altmeri_elector_vote_dislikes_praxic:0 "Не нравится высокий [praxis|El]: $VALUE|=+0$"
  tooltip_altmeri_elector_vote_prioritises_children:0 "[child|E] текущего правителя: $VALUE|=+0$"
@@ -142,7 +136,6 @@
  admin_vote_beauty_bad_desc: "Уродство"
  admin_vote_physique_good_desc: "Сила"
  admin_vote_physique_bad_desc: "Слабость"
- admin_vote_impurity_desc: "Является [Concept('impure', 'нечистым')|E]"
  admin_house_values_education_1: "Соответствует [Concept('great_house_value', 'ценностям')|E] Великого дома"
  admin_house_values_education_2: "Прекрасно соответствует [Concept('great_house_value', 'ценностям')|E] Великого дома"
  admin_great_house_founding_dynasty:0 "Принадлежит к [Concept('dynasty', 'династии')|E] основателей"

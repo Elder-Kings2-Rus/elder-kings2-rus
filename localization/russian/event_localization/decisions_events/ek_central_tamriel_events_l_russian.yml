@@ -59,6 +59,11 @@
  central_tamriel.0008.e: "Мы останемся верными управителями."
  central_tamriel.0008.e.tooltip: "[GetTitleByKey('h_tamriel').GetName] сохранит своё исходное название. Ваш персонаж будет использовать титул $title_potentate_male$."
 
+ central_tamriel.0009.t: "Признание Двора красы рассвета"
+ central_tamriel.0009.desc: "Пережив крах империи Ремана и падение старого Акавирского потентата, наши обычаи и верования уцелели и ныне переживают возрождение.\n\nПройдя через долгий путь синкретизма и смешения доктрин и канонов, мы наконец были приняты в число тысячи культов Сиродила."
+ central_tamriel.0009.a: "Это наш дом."
+ central_tamriel.0009.a.flavor: "Многовековая история вашей веры в Сиродиле наконец получила признание. Теперь она — «[GetFaithDoctrine('special_doctrine_cyrodiilic_cult').GetBaseName]», что снижает [Concept( 'faith_hostility', 'враждебность конфессий' )|El] по отношению ко всем остальным сиродильским культам."
+
 #Nenalata Restoration events
 #Restoration of Nenalata
  nenalata_restore.0001.t:0 "Восстановление Неналаты"

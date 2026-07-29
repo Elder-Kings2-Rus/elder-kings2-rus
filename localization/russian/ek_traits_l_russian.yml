@@ -1,8 +1,4 @@
 ﻿l_russian:
- trait_impure:0 "[Select_CString(ROOT.Char.IsFemale, 'Нечистая', 'Нечистый' )]"
- trait_impure_desc:0 "Нечистые запятнали свою веру и божественное наследие, будучи проклятыми деформированным телом или вступив в близкие отношения с другими нечистыми созданиями."
- trait_impure_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'запятнала', 'запятнал' )] свою веру и божественное наследие, будучи [Select_CString(ROOT.GetCharacter.IsFemale, 'проклятой', 'проклятым' )] деформированным телом или вступив в близкие отношения с другим нечистым созданием."
-
  trait_pirate:0 "Пират"
  trait_pirate_desc:0 "Этот персонаж – пират. Ярррр, дружище!"
  trait_pirate_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] – пират. Ярррр, дружище!\n\n#I При выборе этого свойства в редакторе персонажа в начале игры произойдёт событие, которое позволит вам начать игру с [Concept('pirate_government', 'пиратской формой правления')|E].#!"
@@ -135,8 +131,9 @@
  trait_experimentalist_necromancer_player:0 "Тайный некромант"
  trait_experimentalist_necromancer_player_desc:0 "Этот персонаж является тайным некромантом, хотя истинная природа [ROOT.GetCharacter.GetHerHis] тёмных делишек всё ещё скрыта от мира."
 
- trait_dragonborn:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Драконорождённая', 'Драконорождённый' )]"
- trait_dragonborn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'родилась', 'родился' )] с кровью и душой дракона. Известно, что драконорождённые пользуются благосклонностью богов."
+ trait_dragonborn: "[Select_CString(ROOT.GetCharacter.IsFemale, 'Драконорождённая', 'Драконорождённый' )]"
+ trait_dragonborn_desc: "Этот персонаж объединил Тамриэль под знаменем дракона."
+ trait_dragonborn_character_desc: "[ROOT.GetCharacter.GetTitledFirstNameNoTooltip] [Select_CString(ROOT.GetCharacter.IsFemale, 'объединила', 'объединил' )] Тамриэль под знаменем дракона."
 
  trait_bagarn:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Последняя', 'Последний' )] из своего рода"
  trait_bagarn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] – [Select_CString(ROOT.GetCharacter.IsFemale, 'последняя', 'последний' )] из своего рода. Нет никакой надежды на то, что [ROOT.GetCharacter.GetSheHe] когда-нибудь снова увидит своих родичей."

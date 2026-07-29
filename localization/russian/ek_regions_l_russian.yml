@@ -13,7 +13,6 @@
  mundus_tamriel_high_rock_fharun:0 "Фарун"
  mundus_tamriel_high_rock_jehanna:0 "Джеханна"
  mundus_tamriel_high_rock_greater_wrothgar:0 "Великий Ротгар"
- mundus_high_rock_settle_wrothgar: "Великий Ротгар"
  mundus_tamriel_high_rock_evermore:0 "Эвермор"
  mundus_tamriel_high_rock_greater_evermore:0 "Большой Эвермор"
  mundus_tamriel_hammerfell_bangkorai:0 "Бангкорай"
@@ -166,8 +165,8 @@
  mundus_tamriel_black_marsh_helstrom:0 "Хелстром"
  mundus_tamriel_black_marsh_murkwood:0 "Мрачнолесье"
  mundus_tamriel_black_marsh_middle_argonia:0 "Средняя Аргония"
- mundus_tamriel_black_marsh_shadowfen:0 "Тенетопь"
- mundus_tamriel_black_marsh_gideon:0 "Гидеон"
+ mundus_tamriel_black_marsh_shadowfen:0 "Кнахата"
+ mundus_tamriel_black_marsh_gideon:0 "Котерра"
  mundus_tamriel_black_marsh_onkobra:0 "Онкобра"
  mundus_tamriel_black_marsh_soulrest:0 "Соулрест"
  mundus_tamriel_black_marsh_murkmire:0 "Мрачные Трясины"
@@ -183,14 +182,13 @@
  mundus_tamriel_no_yokuda:0 "Тамриэль"
  
  ## Custom regions
- mundus_tamriel_direnni_hegemony_core:0 "Гегемония Диренни - Основная территория"
- mundus_tamriel_direnni_hegemony_form_a:0 "Гегемония Диренни - Западные владения"
- mundus_tamriel_direnni_hegemony_form_b:0 "Гегемония Диренни - Восточные владения"
+ mundus_tamriel_direnni_hegemony_core:0 "Основная территория гегемонии Диренни"
  mundus_tamriel_direnni_hegemony_full:0 "Гегемония Диренни"
- 
+ mundus_tamriel_direnni_southern_iliac: "Южный Илиак"
+
  mundus_tamriel_pirate_conf_the_isles:0 "Острова Абесинского моря"
  mundus_tamriel_xylo:0 "Западный Зило"
- ek_nedic_kingdom_region: "Недийская конфедерация"
+ ek_nedic_kingdom_region: "Гибельные земли"
  ek_region_crownlands: "Земли Венценосцев"
  ek_region_northern_crownlands: "Северные земли Венценосцев"
  ek_region_southern_forebears: "Южные земли Предшественников"
@@ -207,14 +205,14 @@
  ek_region_mournhold: "Морнхолд"
  ek_region_sunad_mora: "Сунад Мора"
  ek_region_dagon_urul: "Дагон Урул"
- ek_region_molag_ruhn: "Молаг Рун"
+ ek_region_molag_ruhn: "Молаг-Рун"
 
  ## Nativity regions
  custom_nativity_glenumbra:0 "Гленумбра"
  custom_nativity_rivenspire:0 "Ривенспайр"
  custom_nativity_stormhaven:0 "Стормхейвен"
  custom_nativity_greater_wrothgar:0 "Ротгарианские горы"
- custom_nativity_bangkorai:0 "Бангкорай"
+ custom_nativity_bangkorai:0 "Западный Предел"
  
  custom_nativity_craglorn:0 "Краглорн"
  custom_nativity_alikr:0 "Алик'р"
@@ -235,7 +233,6 @@
  custom_nativity_west_ghost:0 "Западный Призрак"
  custom_nativity_white_river:0 "Белая Река"
  custom_nativity_east_ghost:0 "Восточный Призрак"
- custom_nativity_dark_water:0 "Темноводье"
  custom_nativity_solstheim:0 "Солстхейм"
  
  custom_nativity_yokuda:0 "Йокуда"
@@ -260,8 +257,9 @@
  
  custom_nativity_middle_argonia:0 "Средняя Аргония"
  custom_nativity_onkobra:0 "Онкобра"
- custom_nativity_black_bays:0 "Чёрные бухты"
+ custom_nativity_benthic_yobesh:0 "Затонувший Йобеш"
  custom_nativity_padomaic_marshes:0 "Падомайские болота"
+ custom_nativity_eastern_topal:0 "Восточный Топал"
 
  ## Innovations regions
  world_innovation_longboats:0 "Шлюпы (Северное побережье Скайрима и Солстхейм)"
@@ -270,3 +268,10 @@
 
  xylo_river_region:0 "$river_xylo$"
  eshita_river_region:0 "$river_eshita$"
+ corbolo_river_region: "$corbolo_river$"
+ silverfish_river_region: "Река Серебрянки"
+ panther_river_region: "Река Пантера"
+ larsius_river_region: "$larsius_river$"
+ strid_river_region: "Река Стрид"
+ brena_river_region: "$brena_river$"
+ white_river_region: "Белая река"
