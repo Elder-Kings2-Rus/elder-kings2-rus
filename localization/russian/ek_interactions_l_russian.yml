@@ -179,6 +179,12 @@
  ek_ask_grok_is_this_real_interaxion_desc: "Вы спросите Грока, правда ли это."
  ek_ask_grok_is_this_real_tooltip: "Грок, читая множество вопросов и ответов, научился словам из вашего языка и, убедительно складывая их в предложения спонтанным образом, может сказать вам, правда ли это."
 
+
+ ask_zizemir_is_this_ideology: "Спросить Жижемира: это идеология?"
+ ek_ask_zizemir_is_this_ideology_interaxion_desc: "Вы спросите у Жижемира, не идеология ли это."
+ ek_ask_zizemir_is_this_ideology_tooltip: "Жижемиру ведомо много философии. Вопрос в том, сможете ли вы её понять?"
+
+
  ### EK secrets
  CHARACTER_IS_A_VAMPIRE:0 "[CHARACTER.GetShortUIName|U] — [GetTrait('vampire_character').GetName( CHARACTER.Self )]"
  IS_A_VAMPIRE:0 "[GetTrait('vampire_character').GetName( GetNullCharacter )]"
@@ -214,3 +220,6 @@
  ek_challenge_house_head_strong_interaction: "Бросить вызов главе дома"
  ek_challenge_house_head_strong_interaction.actor_default_victory.tt: "[actor.GetShortUIName|U] станет [Concept('house_head','главой дома')|E] [actor.GetHouse.GetBaseName]"
  ek_challenge_house_head_weak_interaction: "Бросить вызов главе дома"
+
+ refill_maa_pirate_interaction: "Пополнить профессионалов"
+ refill_maa_pirate_interaction_desc: "В отличие от [Concept('rulers', 'правителей')|E]-[Concept('landed', 'землевладельцев')|E], [Concept('pirates', 'пиратам')|E] не хватает надежных источников для пополнения войска, поэтому они ищут [Concept('reinforce_soldiers', 'подкрепления')|E] для пополнения [Concept('men_at_arms', 'профессиональных')|E] [Concept('regiments', 'полков')|E] после потерь."

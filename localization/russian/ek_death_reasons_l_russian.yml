@@ -91,6 +91,8 @@
  death_shadowscale_recruit:0 "[Select_CString(CHARACTER.IsFemale, 'завербована', 'завербован' )] Тёмными ящерами"
  death_flesh_sculpture:0 "[Select_CString(CHARACTER.IsFemale, 'была превращена', 'был превращён' )] в жуткую скульптуру из плоти"
  death_flesh_sculpture_killer:0 "[Select_CString(CHARACTER.IsFemale, 'была превращена', 'был превращён' )] в жуткую скульптуру из плоти [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetShortUINamePossessive][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]"
+ death_saturate: "[Select_CString(CHARACTER.IsFemale, 'была разложена', 'был разложен' )] на составные материалы"
+ death_saturate_killer: "[Select_CString(CHARACTER.IsFemale, 'была разложена', 'был разложен' )] на составные материалы [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetShortUINamePossessive][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]"
  death_adventure:0 "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] во время приключений"
  death_failed_during_lich_ascension:0 "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] в попытке стать личом"
  death_failed_after_lich_ascension:0 "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от последствий неудачного ритуала вознесения"
@@ -174,3 +176,4 @@
  death_dwemer_disappear:0 "[Select_CString(CHARACTER.IsFemale, 'исчезла', 'исчез' )] вместе с остальными двемерами во время Битвы у Красной горы"
  death_mehrunes: "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] даэдрическим князем Мерунесом Дагоном"
  death_joined_greybeards:0 "[Select_CString(CHARACTER.IsFemale, 'присоединилась', 'присоединился' )] к Седобородым"
+ death_planemeld: "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] в великом взрыве в Имперском городе"

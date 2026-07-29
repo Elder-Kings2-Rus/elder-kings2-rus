@@ -7,12 +7,6 @@
  become_pirate_government_decision_duchy_tier_title_ct:0 "Вы создадите титул герцогского уровня, подберёте имя и собственный флаг, который будет развеваться в открытом море"
  become_pirate_government_decision_total_loot_workaround_ct:0 "#N Приведённое ниже количество золота соответствует общей добыче, накопленной за годы налётов.#!"
  
- disorganized_military_reform_military_decision:0 "Реформировать [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|l]ую армию"
- disorganized_military_reform_military_decision_desc:0 "Большинство наших командиров не верит в элитных солдат и профессиональных воинов, предпочитая попросту заваливать врага массой тел.\n\nНо кто из нас хоть что-то смыслит в военном деле? Пришло время полностью изменить наши методы ведения войны и, наконец, сформировать настоящую армию, способную противостоять остальному Тамриэлю."
- disorganized_military_reform_military_decision_tooltip:0 "Реформируйте армию и станьте равным великим державам Тамриэля"
- disorganized_military_reform_military_decision_confirm:0 "[ROOT.Char.GetCulture.GetNameNoTooltip] своей мощью будут наводить ужас на Тамриэль!"
- has_military_lifestyle_traits:0 "У вас должно быть как минимум #V 2#! из следующих [Concept('traits', 'свойств')|E]: [GetTrait('strategist').GetName(GetNullCharacter)], [GetTrait('overseer').GetName(GetNullCharacter)], [GetTrait('gallant').GetName(GetNullCharacter)]"
-
  cast_off_pariah_status_decision:0 "Отбросить статус отверженных"
  cast_off_pariah_status_decision_desc:0 "Слишком долго «цивилизованное» общество относилось к нашему народу как к животным. Но разве наши города и дома уступают их? Наша культура столь же древняя, а традиции столь же велики.\n\nМы жили среди угнетателей так долго, что им не осталось иного выбора, кроме как признать нас. С моим личным авторитетом за спиной мы дадим понять: мы ничем не хуже.\n\nСегодня мы добьёмся признания."
  cast_off_pariah_status_decision_tooltip:0 "Мы не монстры!"

@@ -10,13 +10,12 @@
 
  # Specific
  fang_lair_effect_desc:0 "@necromancy_icon! Некроманты, владеющие этим [Concept('county', 'графством')|E], могут призвать воскрешённого из мёртвых дракона Турвокуна."
- bone_orchard_effect_desc:0 "@necromancy_icon! Некроманты, владеющие этим [Concept('county', 'графством')|E], могут пробудить покоящиеся здесь Кости Земли."
+ bone_orchard_effect_desc:0 "@necromancy_icon! Некроманты, владеющие этим [Concept('county', 'графством')|E], могут пробудить покоящееся здесь создание Дикой охоты."
  heart_of_valenwood_effect_desc:0 "@necromancy_icon! Некроманты, владеющие этим [Concept('county', 'графством')|E], получают на #P 25%#! больше ежемесячной [Concept('magicka', 'маны')|E] [magicka_i]."
  garlas_agea_effect_desc:0 "Владелец этого [Concept('county', 'графства')|E] получает на #P 10%#! больше ежемесячной [Concept('magicka', 'маны')|E] [magicka_i]."
  wilderkings_throne_effect_desc:0 "Владелец этого [Concept('county', 'графства')|E] может призвать Полых в трудную минуту."
  pridehome_temple_effect_desc:0 "@skirmishers_icon! Верховному сюзерену этого [Concept('county', 'графства')|E] доступны для найма [Concept('regiment', 'полки')|E] Прайда Алкоша, если он является [Concept('head_of_faith', 'главой конфессии')|E] с доктриной «[GetFaithDoctrine('doctrine_mystical_birthright_head').GetBaseName]»."
  halls_of_highmane_effect_desc:0 "Владелец этого [Concept('county', 'графства')|E] может пройти испытания Алкоша в качестве доказательства преданности."
- lily_path_effect_desc:0 "Владелец этого [Concept('county', 'графства')|E] может пройти Путь Лилии, чтобы доказать свою храбрость."
  hidden_moon_crypts_effect_desc:0 "@necromancy_icon! Некроманты, владеющие этим [Concept('county', 'графством')|E], могут призвать более сильную нежить с помощью [Concept('spell', 'заклинания')|E] «Поднять рыцаря-скелета»."
  white_gold_tower_effect_desc:0 "#P Повышает#! принятие [Concept('offer_vassalization', 'предложения вассализации')|E]"
  crystal_tower_effect_desc:0 "#P Повышает#! вероятность согласия на [Concept('marriage', 'брак')|E]"
@@ -176,7 +175,7 @@
  building_cidhna_mine_silver_mines_04_desc:1 "$building_type_cidhna_mine_silver_mines_01_desc$"
 
  building_type_nirncrux_mine_01:0 "Краглорнская шахта соли Нирна"
- building_type_nirncrux_mine_01_desc:0 "Соль Нирна – красный камень, встречающийся исключительно в Краглорне и поднимающийся из самых глубин Нирна. В сыром виде он выделяет резкий, ядовитый газ. Однако, если измельчить его в порошок, с помощью древнего недийского ритуала из каждой крупинки можно высвободить этерическую энергию, пригодную для множества магических применений."
+ building_type_nirncrux_mine_01_desc:0 "Соль Нирна – красный камень, встречающийся исключительно в Краглорне и поднимающийся из самых глубин Нирна. В сыром виде он выделяет резкий, ядовитый газ. Однако, если измельчить его в порошок, с помощью древнего ритуала из каждой крупинки можно высвободить этерическую энергию, пригодную для множества магических применений."
  building_nirncrux_mine_01:1 "$building_type_nirncrux_mine_01$"
  building_nirncrux_mine_01_desc:1 "$building_type_nirncrux_mine_01_desc$"
  building_nirncrux_mine_02:1 "$building_type_nirncrux_mine_01$"
@@ -185,6 +184,17 @@
  building_nirncrux_mine_03_desc:1 "$building_type_nirncrux_mine_01_desc$"
  building_nirncrux_mine_04:1 "$building_type_nirncrux_mine_01$"
  building_nirncrux_mine_04_desc:1 "$building_type_nirncrux_mine_01_desc$"
+
+ building_type_karanesh_sulfur_mines_01:0 "Каранешские серные шахты"
+ building_type_karanesh_sulfur_mines_01_desc:0 "Во времена древней Йокуды сера была важнейшим ресурсом для армий [Glossary( 'На-Тотамбу', 'NATOTAMBU_GLOSS' )]. Это вещество, которое в ходе переработки превращали в зажигательные смеси, позволяло обычным воинам тягаться с лучшими имперскими магами. Добываемая здесь сера имела множество применений: от вооружения морских судов, поливавших врага огнём с расстояния, до использования в метательных гранатах."
+ building_karanesh_sulfur_mines_01:1 "$building_type_karanesh_sulfur_mines_01$"
+ building_karanesh_sulfur_mines_01_desc:1 "$building_type_karanesh_sulfur_mines_01_desc$"
+ building_karanesh_sulfur_mines_02:1 "$building_type_karanesh_sulfur_mines_01$"
+ building_karanesh_sulfur_mines_02_desc:1 "$building_type_karanesh_sulfur_mines_01_desc$"
+ building_karanesh_sulfur_mines_03:1 "$building_type_karanesh_sulfur_mines_01$"
+ building_karanesh_sulfur_mines_03_desc:1 "$building_type_karanesh_sulfur_mines_01_desc$"
+ building_karanesh_sulfur_mines_04:1 "$building_type_karanesh_sulfur_mines_01$"
+ building_karanesh_sulfur_mines_04_desc:1 "$building_type_karanesh_sulfur_mines_01_desc$"
 
  # Generic Mines
  building_type_generic_sulfur_mines_01:0 "Серная шахта"
@@ -253,27 +263,16 @@
  building_generic_diamond_mines_04:1 "Бриллиантовый шахтёрский комплекс"
  building_generic_diamond_mines_04_desc:1 "$building_type_generic_diamond_mines_01_desc$"
 
- ##### Generic Buildings
- building_type_grand_cathedral_01:0 "Великий собор"
- building_type_grand_cathedral_01_desc:0 "Грандиозный собор, построенный в честь богов. По всему зданию размещены небольшие святилища, а в центре расположен источник, используемый для проведения священных обрядов и очищения каждого паломника, посетившего собор."
- building_grand_cathedral_01:0 "$building_type_grand_cathedral_01$"
- building_grand_cathedral_01_desc:0 "$building_type_grand_cathedral_01_desc$"
- 
- building_type_daedric_shrine_01:0 "Даэдрическое святилище"
- building_type_daedric_shrine_01_desc:0 "Великое святилище, посвящённое даэдрическим князьям.\n\nЖертвоприношения во имя [Glossary( 'даэдра', 'DAEDRA_GLOSS' )] проводятся почти каждый день, и кажется, что ужасающие силы Обливиона просачиваются из этого места."
- building_daedric_shrine_01:0 "$building_type_daedric_shrine_01$"
- building_daedric_shrine_01_desc:0 "$building_type_daedric_shrine_01_desc$"
- 
+ building_type_geir_portage_01:0 "Волок у водопада Гейр"
+ building_type_geir_portage_01_desc:0 "Сеть горных троп и древних подъёмников у водопада Гейр работает сегодня так же хорошо, как и во времена, когда её построили для Пяти сотен Соратников. Этот волок соединяет реку Трева — а через неё и весь Рифт — с Белой рекой и остальным Скайримом."
+ building_geir_portage_01:0 "$building_type_geir_portage_01$"
+ building_geir_portage_01_desc:0 "$building_type_geir_portage_01_desc$"
+
+ ##### Generic Buildings 
  building_type_great_wyrd_tree_01:0 "Великое Вещее древо"
  building_type_great_wyrd_tree_01_desc:0 "Уединённый сад в глубине леса, где Вещее древо поддерживает природный баланс во всём регионе.\nЗа древом и окружающей его провинцией заботится ковен сестёр-вещуний, следящих за тем, чтобы ничто не причинило ему вреда."
  building_great_wyrd_tree_01:0 "$building_type_great_wyrd_tree_01$"
  building_great_wyrd_tree_01_desc:0 "$building_type_great_wyrd_tree_01_desc$"
- 
- building_type_dragon_temple_01:0 "Драконий храм"
- building_type_dragon_temple_01_desc:0 "Гигантские храмы, посвящённые драконам – единственным истинным властителям этого мира. Через них они назначают своих вестников и управителей, а благословенные могут служить драконьему жрецу, обитающему здесь."
- building_dragon_temple_01:0 "$building_type_dragon_temple_01$"
- building_dragon_temple_01_desc:0 "$building_type_dragon_temple_01_desc$"
- dragon_temple:0 "[holder|E] этого [Concept('county', 'графства')|E]:\n$TAB$ #P -10%#! к затратам [Concept('piety', 'благочестия')|E] на #V «Призыв дракона»#!"
  
  building_type_generic_holy_site_01:0 "Священное место"
  building_type_generic_holy_site_01_desc:0 "Это место имеет особое значение для определённой веры, и её приверженцы могут освятить его, превратив в центр поклонения."

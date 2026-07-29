@@ -12,17 +12,17 @@
  # Mysticism
  dark_arts_mysticism_focus:0 "Мистицизм"
  dark_arts_mysticism_focus_modifier:1 "[GetFocus('dark_arts_mysticism_focus').GetName]"
- dark_arts_mysticism_focus_desc:0 "Тело — это просто сосуд для настоящей силы, которая заключена в душах и пережитках. Манипулировать ими - это путь как к великолепию, так и к ужасу."
+ dark_arts_mysticism_focus_desc:0 "Настоящая сила заключена в душах и отголосках."
  dark_arts_mysticism_focus_effect_desc:0 "Сосредоточившись на мистицизме, персонаж получает:"
  # Daedric Succour
  dark_arts_daedric_succour_focus:0 "Даэдрические планы"
  dark_arts_daedric_succour_focus_modifier:1 "[GetFocus('dark_arts_daedric_succour_focus').GetName]"
- dark_arts_daedric_succour_focus_desc:0 "Существует великое и ужасное знание, запечатанное на планах Обливиона. Обращение за советом к принцам даст доступ к некоторым из них."
+ dark_arts_daedric_succour_focus_desc:0 "Существует великое и ужасное знание, запечатанное на планах Обливиона."
  dark_arts_daedric_succour_focus_effect_desc:0 "Сосредоточившись на даэдрических планах, персонаж получает:"
  # Blood Magic
  dark_arts_blood_magic_focus:0 "Магия крови"
  dark_arts_blood_magic_focus_modifier:1 "[GetFocus('dark_arts_blood_magic_focus').GetName]"
- dark_arts_blood_magic_focus_desc:0 "Каждый шаг к истинной силе требует жертв. Но те, кто готов заплатить цену, в конце концов получат достойную награду."
+ dark_arts_blood_magic_focus_desc:0 "Каждый шаг к истинной силе требует жертв."
  dark_arts_blood_magic_focus_effect_desc:0 "Сосредоточившись на магии крови, персонаж получает:"
 
  # Perks

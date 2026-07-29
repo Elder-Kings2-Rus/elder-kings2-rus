@@ -80,3 +80,16 @@
  proclaim_third_era_decision_confirm:0 "Тамриэль объединён!"
  proclaim_third_era_decision_desc:0 "Слишком долго разобщённые народы Тамриэля оставались разделёнными. Теперь, когда все провинции объединены под властью одного правителя, можно провозгласить новую Империю, что величественнее всех прежних." #PLACEHOLDER
  proclaim_third_era_decision_effect_tooltip:0 "#bold Начнётся Третья эра.#!"
+ become_dragonborn_effect_tooltip: "Вы станете #bold драконорождённым#!, если ваша [culture|El] имеет хотя бы одно из следующего: #L [GetCulturePillar('heritage_cyrodiilic').GetName|l]ое#! [heritage|El], [tradition|El] «[GetCultureTradition('tradition_imperial_legacy').GetName]», [tradition|El] «[GetCultureTradition('tradition_cyrodiilic_subject').GetName]» или возможность отправлять персонажей в Имперский легион."
+ dragonborn_patron_effect_tooltip: "Конфессии, почитающие [pantheons|El] «[GetFaithDoctrine('doctrine_pantheon_divines').GetBaseName]» и «[GetFaithDoctrine('doctrine_pantheon_heroes').GetBaseName]», смогут выбрать драконорождённого в качестве своего [Concept('patron_deity', 'божества-покровителя')|E]"
+
+ restore_imperatum_saliache_decision: "Восстановить империю Салиачи"
+ restore_imperatum_saliache_decision_desc: "Империя Салиачи пала под людским натиском много веков назад. Только величайший из айлейдов способен повернуть этот вспять — и [ROOT.GetCharacter.GetSheHe] перед вами."
+ restore_imperatum_saliache_decision_confirm: "Восстановить империю Салиачи"
+ restore_imperatum_saliache_decision_tooltip: "Восстановить державу [GetTitleByKey('h_imperatum_saliache').GetName]"
+ reform_imperatum_saliache_scripted_effect_tooltip: "Каждое [Concept('empire', 'верховное королевство')|E] в полностью контролируемых [Concept('regions', 'регионах')|E] станет [de_jure|El] вассалом титула [GetTitleByKey('h_imperatum_saliache').GetNameNoTier]"
+
+ reunite_cyrodiil_ayleid_decision: "Вернуть Сирод"
+ reunite_cyrodiil_ayleid_decision_desc: "Сердце айлейдской империи было утеряно после восстания людей. Я же верну её нашему народу."
+ reunite_cyrodiil_ayleid_decision_confirm: "Вернуть Сирод"
+ reunite_cyrodiil_ayleid_decision_tooltip: "Вернуть [GetTitleByKey('e_cyrodiil').GetName]"

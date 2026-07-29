@@ -15,7 +15,12 @@
  dynn_singeaffameril_motto:0 "Забавно стремиться к процветанию в танце"
  dynn_fimie_motto:0 "Для понимания всей совокупности концепций вечных и эфемерных исправлений"
  dynn_lirsenan_motto:0 "Риторика, хорошая и плохая, превыше всего, и никто перед риторикой"
- dynn_hopchalk_motto: "Источник жизненной силы Коловии. Ну почти."
+ dynn_hopchalk_motto: "Источник жизненной силы Коловии. Ну почти"
+ dynn_summerborn_motto: "Ротгар был обещан нам пять тысяч лет назад"
+ dyn_vulpen_dynasty_motto: "Он есмь Иван-Порядок."
+ house_dyn_fullerton_riccarton_motto: "Обречён использовать оружие врагов своих, дабы сокрушить их"
+ dyn_fullerton_dynasty_motto: "Непримечательные поселенцы"
+
 
  #Placeholder Motto
  dynn_placeholder_motto:0 "Крутая односложная фраза будет добавлена"
@@ -322,7 +327,6 @@
  dynn_blackdrake_motto:0 "Пусть тьма поглотит наших врагов"
  dynn_sorrowsower_motto:0 "Мы пожинаем горе"
  dynn_ruthras_motto:0 "Красный во всех отношениях"
- dynn_ormaka_motto:0 "Видящий за вуалью"
  dynn_cinder_heart_motto:0 "Наша ненависть горит ярко"
  dynn_spiritblood_motto:0 "Прежде чем кто-нибудь сможет вспомнить"
  dynn_bullblood_motto:0 "Наш строй непоколебим"
@@ -343,12 +347,14 @@
 #Kothri Mottos
  dynn_zuukir_motto:0 "Верный императрице"
  dynn_lahk_motto:0 "Крепкий как гранит"
- dynn_vraseth_motto:0 "Архонт улыбается"
+ dynn_vraseth_motto:0 "Сердца и головы"
  dynn_atla_motto:0 "Все цепи ржавеют"
  dynn_atul_motto:0 "Наши надёжные руки"
  dynn_akneinas_motto:0 "Познай Господа своего"
  dynn_tark_motto:0 "Светлейший в колдовских обрядах"
  dynn_chiluk_motto:0 "Плыви до последнего света"
+ dynn_ormaka_motto: "Взглянем за завесу"
+ dynn_ormako_motto: "Возвеличивай чувства"
 
 #Nordic Mottos
  dynn_keeneye_motto:0 "Кьямлейр на горизонте"
@@ -394,8 +400,8 @@
  dynn_bloodskal_motto:0 "Кровь на льду" 
  dynn_heart_fang_motto:0 "Пережить охоту"
  dynn_ice_mane_motto:0 "Через долгую зиму"
- dynn_graymane_motto:0 "Здесь со времён первого снега в Скайриме"
- dynn_battleborn_motto:0 "Первые в битве – и последние на ногах после кружки эля!"
+ dynn_graymane_reference_motto:0 "Здесь со времён первого снега в Скайриме"
+ dynn_battleborn_reference_motto:0 "Первые в битве – и последние на ногах после кружки эля!"
  dynn_snow_shod_motto:0 "Тост за павших! Да откроет им врата Совнгард!"
 
 #Orc Mottos

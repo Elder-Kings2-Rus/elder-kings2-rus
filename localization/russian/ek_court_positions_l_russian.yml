@@ -36,6 +36,13 @@
  NOT_MARRIED_COURT_POSITION: "Этот персонаж #bold не#! обручён"
  ABOVE_45_COURT_POSITION: "Этому персонажу как минимум #V 45#! лет"
 
+ #Eparch
+ #Vanilla loc for comparison
+ #eparch_court_position: "Eparch"
+ #eparch_court_position_desc: "The Eparch is the main administrator and ultimate authority of the capital, second only to the reigning monarch."
+ eparch_prefect:0 "Префект"
+ eparch_prefect_desc:0 "Префект — главный управляющий и самая влиятельная фигура в столице после самого монарха."
+
  ##Enforcer
  enforcer_court_position:0 "Защитник"
  enforcer_court_position_desc:0 "$enforcer_court_position$ наблюдает за шумными городами державы и следит за тем, чтобы сюзерен получал должное уважение на каждой улице и углу, особенно если это уважение выражается в монетах."

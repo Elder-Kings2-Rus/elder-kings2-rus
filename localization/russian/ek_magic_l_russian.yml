@@ -59,7 +59,7 @@
  bloodworm_helmet_effect:0 "\n$EFFECT_LIST_BULLET$Усиливает [spell|El] «$claim_corpse_name$»"
 
  #try CHARACTER instead of charwindow, it needs to be Character.MakeScope.Char as just Character is not recognised
- arcana_title:0 "#bold;high;size:18 [arcana|E]: [Character.MakeScope.ScriptValue('arcana')|0]#! #bold;italic;low;size:18 ([Character.Custom('ArcanaLevel')])#!"
+ arcana_title:0 "#bold;high;size:8 [arcana|E]: [Character.MakeScope.ScriptValue('arcana')|0]#! #bold;italic;low;size:8 ([Character.Custom('ArcanaLevel')])#!"
  arcana_base:0 "Базовое: #high [Character.MakeScope.ScriptValue('arcana_base')|0]#!"
  #education
  #arcana_education_magic:0 "[Character.Custom('arcana_education_magic')]"
@@ -70,9 +70,7 @@
  arcana_education_magic_5:0 "[GetTrait('education_magic_5').GetName(ROOT.Char)]"
  #lifestyle
  #arcana_mystic:0 "[Character.Custom('arcana_mystic')]"
- arcana_mystic_1:0 "[GetTrait('lifestyle_mystic').GetName(ROOT.Char)]"
- arcana_mystic_2:0 "[GetTrait('lifestyle_mystic').GetName(ROOT.Char)]"
- arcana_mystic_3:0 "[GetTrait('lifestyle_mystic').GetName(ROOT.Char)]"
+ arcana_mystic: "[GetTrait('lifestyle_mystic').GetName(ROOT.Char)]"
  arcana_scholar:0 "[GetTrait('scholar').GetName(ROOT.Char)]"
  #personality
  arcana_lazy:0 "[GetTrait('lazy').GetName(ROOT.Char)]"
@@ -111,6 +109,7 @@
  arcana_racial_blindness:0 "[GetTrait('racial_blindness').GetName(ROOT.Char)]"
  #health
  arcana_infirm:0 "[GetTrait('infirm').GetName(ROOT.Char)]"
+ arcana_withering_mind: "[GetTrait('withering_mind').GetName(ROOT.Char)]"
  arcana_incapable:0 "[GetTrait('incapable').GetName(ROOT.Char)]"
  arcana_lunatic:0 "[GetTrait('lunatic_1').GetName(ROOT.Char)]"
  arcana_possessed:0 "[GetTrait('possessed_1').GetName(ROOT.Char)]"
@@ -186,7 +185,6 @@
  magicka_modifier_spell_shock:0 "[GetModifier('modifier_spell_shock').GetName]"
  arcana_cloning_mastery:0 "[GetModifier('cloning_mastery').GetName]"
  # Buildings
- magicka_building_corrupted_heart:0 "[GetBuilding('heart_of_valenwood_01').GetName]"
  magicka_building_garlas_agea:0 "[GetBuilding('garlas_agea_02').GetName]"
  # Class traits
  arcana_battlemage:0 "[GetTrait('battlemage').GetName(ROOT.Char)]"
@@ -390,7 +388,7 @@
  NO_SPELLS:0 "Нет заклинания"
 
  spell_name:0 "[Localize( Concatenate( Scope.GetFlagName, '_name' ) )]"
- spell_cost:0 "#size:11 [magicka_i] #! [EmptyScope.ScriptValue(Concatenate( Scope.GetFlagName, '_petty_cost' ))|0]"
+ spell_cost:0 "#size:1 [magicka_i] #! [EmptyScope.ScriptValue(Concatenate( Scope.GetFlagName, '_petty_cost' ))|0]"
  spell_hostile:0 "#N [Localize( Concatenate( Scope.GetFlagName, '_name' ) )] считается враждебным#!\n\nЭто снизит [opinion|El] цели о вас и будет считаться [Concept('crime', 'преступлением')|E] [crime_i]. Кроме того, целевой персонаж получит [casus_belli|El] против вас."
  spell_province:0 "Заклинание «[Localize( Concatenate( Scope.GetFlagName, '_name' ) )]» будет наложено на [county|El]."
  spell_secret:0 "Заклинание «[Localize( Concatenate( Scope.GetFlagName, '_name' ) )]» будет наложено #p тайно#! - цель не узнает, кто его произнёс!\n\nШтрафы от произнесения #n враждебного#! заклинания не применяются."
@@ -666,7 +664,7 @@
  GRAND_RITUAL_COST:0 "Стоимость"
  GRAND_RITUAL_INIT:0 "Инициировать ритуал"
 
- slot_title:0 "#bold;high;size:18 Слоты ритуалов: [GetPlayer.MakeScope.ScriptValue('ritual_slot_limit')|V0]#!"
+ slot_title:0 "#bold;high;size:8 Слоты ритуалов: [GetPlayer.MakeScope.ScriptValue('ritual_slot_limit')|V0]#!"
  slot_base:0 "Базовое значение: #high 1#!"
  slot_arcana:0 "[arcana|E]: [GetPlayer.MakeScope.ScriptValue('ritual_slots_arcana')|+=0]"
  slot_education_2:0 "[GetTrait('education_magic_2').GetName(GetPlayer)]: #P +1#!"

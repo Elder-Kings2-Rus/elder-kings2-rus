@@ -4,7 +4,7 @@
  game_concept_ek_feature:0 "Особенности EK2"
  game_concept_ek_features:0 "Особенности Elder Kings 2"
  game_concept_ek_features_pg:0 "Страница 1"
- game_concept_ek_features_desc:0 "Этот раздел описывает ключевые особенности EK2, с которыми связаны отдельные концепты:\n\n$BULLET_WITH_TAB$ Религия\n$TAB$$BULLET_WITH_TAB$ [fervor_equilibrium|E]\n$TAB$$BULLET_WITH_TAB$ [purity|E]\n$TAB$$BULLET_WITH_TAB$ [pantheon|E]\n$TAB$$BULLET_WITH_TAB$ [pantheon_secondary|E]\n$TAB$$BULLET_WITH_TAB$ [patron_trait|E]\n$TAB$$BULLET_WITH_TAB$ [abomination|E]\n$TAB$$BULLET_WITH_TAB$ [liturgical_language|E]\n$BULLET_WITH_TAB$ Культура\n$TAB$$BULLET_WITH_TAB$ [pariah|E]\n$TAB$$BULLET_WITH_TAB$ [daedric_race|E]\n$TAB$$BULLET_WITH_TAB$ [nativity_region|E]\n$TAB$$BULLET_WITH_TAB$ [migratory_culture|E]\n$TAB$$BULLET_WITH_TAB$ [culture_revival|E]\n$TAB$$BULLET_WITH_TAB$ [core_traditions|E]\n$BULLET_WITH_TAB$ Правительство\n$TAB$$BULLET_WITH_TAB$ [academy|E]\n$TAB$$BULLET_WITH_TAB$ [autocracy|E]\n$TAB$$BULLET_WITH_TAB$ [ceremoniarchy|E]\n$TAB$$BULLET_WITH_TAB$ [praxis|E]\n$TAB$$BULLET_WITH_TAB$ [feudal_like_government|E]\n$TAB$$BULLET_WITH_TAB$ [pirate|E]\n$TAB$$BULLET_WITH_TAB$ [pirate_share|E]\n$TAB$$BULLET_WITH_TAB$ [expected_prestige_level|E]\n$TAB$$BULLET_WITH_TAB$ [might_makes_right|E]\n\n < #V Страница 1#! – [ek_features_page2_pg|E] >"
+ game_concept_ek_features_desc:0 "Этот раздел описывает ключевые особенности EK2, с которыми связаны отдельные концепты:\n\n$BULLET_WITH_TAB$ Религия\n$TAB$$BULLET_WITH_TAB$ [fervor_equilibrium|E]\n$TAB$$BULLET_WITH_TAB$  [pantheon|E]\n$TAB$$BULLET_WITH_TAB$ [pantheon_secondary|E]\n$TAB$$BULLET_WITH_TAB$ [patron_trait|E]\n$TAB$$BULLET_WITH_TAB$ [abomination|E]\n$TAB$$BULLET_WITH_TAB$ [liturgical_language|E]\n$BULLET_WITH_TAB$ Культура\n$TAB$$BULLET_WITH_TAB$ [pariah|E]\n$TAB$$BULLET_WITH_TAB$ [daedric_race|E]\n$TAB$$BULLET_WITH_TAB$ [nativity_region|E]\n$TAB$$BULLET_WITH_TAB$ [migratory_culture|E]\n$TAB$$BULLET_WITH_TAB$ [culture_revival|E]\n$TAB$$BULLET_WITH_TAB$ [core_traditions|E]\n$BULLET_WITH_TAB$ Правительство\n$TAB$$BULLET_WITH_TAB$ [academy|E]\n$TAB$$BULLET_WITH_TAB$ [autocracy|E]\n$TAB$$BULLET_WITH_TAB$ [ceremoniarchy|E]\n$TAB$$BULLET_WITH_TAB$ [praxis|E]\n$TAB$$BULLET_WITH_TAB$ [feudal_like_government|E]\n$TAB$$BULLET_WITH_TAB$  [might_makes_right|E]\n\n < #V Страница 1#! – [ek_features_page2_pg|E] >"
  game_concept_ek_feature_page2:0 "Особенности EK2"
  game_concept_ek_features_page2:0 "Особенности Elder Kings 2"
  game_concept_ek_features_page2_pg:0 "Страница 2"
@@ -12,14 +12,6 @@
  
  game_concept_fervor_equilibrium:0 "Равновесие рвения"
  game_concept_fervor_equilibrium_desc:0 "Равновесие [Concept( 'fervor', 'рвения' )|E] [Concept( 'faith', 'конфессии' )|E] колеблется в диапазоне от #V 0#! до #V 100%#!. Рвение конфессии будет медленно увеличиваться или уменьшаться, пока не достигнет равновесия.\n\nРавновесие рвения конфессии в основном определяется её размером, поскольку более крупные конфессии имеют более низкий уровень равновесия по сравнению с малыми.\n\nНекоторые [Concept( 'core_tenets', 'догматы' )|E] и [Concept( 'doctrines', 'доктрины' )|E] также могут влиять на равновесие конфессии. Например, [GetFaithDoctrine('tenet_pentarchy').GetBaseName]."
- 
- game_concept_purity:0 "Чистота"
- game_concept_pure:0 "Чистый"
- game_concept_pures:0 "Чистые"
- game_concept_impurity:0 "Нечистость"
- game_concept_impure:0 "Нечистый"
- game_concept_impures:0 "Нечистые"
- game_concept_purity_desc:1 "Концепцию под названием '$game_concept_purity$' разделяет любая конфессия с догматом «Божественная чистота». Персонажи, принадлежащие к данным конфессиям, должны поддерживать чистоту своей родословной. Для этого требуется, чтобы их дети не имели отрицательных наследуемых черт вроде «горб» или «слабоумие». Также нужно следить за тем, чтобы не было никаких близких отношений с нечистыми или неверными персонажами.\n\nЛюбой персонаж, не сумевший гарантировать свою чистоту, получит черту [GetTrait('impure').GetName( GetNullCharacter )]."
  
  game_concept_abomination:0 "Мерзость"
  game_concept_abominations:0 "Мерзости"
@@ -67,12 +59,6 @@
  game_concept_secondary_pantheon:0 "Второстепенный пантеон"
  game_concept_secondary:0 "Второстепенный"
  game_concept_pantheon_secondary_desc:0 "Второстепенный пантеон позволяет конфессии дополнительно получить до трёх покровителей из отличающегося от основного [Concept( 'pantheon', 'пантеона' )|E]. Наличие второстепенного пантеона свидетельствует об определённом синкретизме либо о внешнем влиянии на данную конфессию. Второстепенный пантеон снижает [Concept('faith_hostility', 'враждебность')|E] со всеми [Concept('faiths', 'конфессиями')|E], у которых этот пантеон является основным."
-
- game_concept_divines_pantheon_hostility:0 "Враждебность конфессий с пантеонами Божеств"
- game_concept_divines_pantheon_hostility_desc:0 "С целью отразить взаимное восприятие [Concept( 'faith_hostility', 'враждебности конфессий' )|El] по отношению друг к другу, следующие [pantheons|El] считаются аналогичными, а враждебность конфессий снижена на #P -25#!:\n$BULLET_WITH_TAB$[GetFaithDoctrine('doctrine_pantheon_divines').GetBaseName]\n$BULLET_WITH_TAB$[GetFaithDoctrine('doctrine_pantheon_nord').GetBaseName]\n$BULLET_WITH_TAB$[GetFaithDoctrine('doctrine_pantheon_redguard').GetBaseName]\n$BULLET_WITH_TAB$[GetFaithDoctrine('doctrine_pantheon_breton').GetBaseName]\n$BULLET_WITH_TAB$[GetFaithDoctrine('doctrine_pantheon_nedic_aedra').GetBaseName]"
-
- game_concept_aedric_pantheon_hostility:0 "Враждебность конфессий с аэдрическими пантеонами"
- game_concept_aedric_pantheon_hostility_desc:0 "С целью отразить взаимное восприятие [Concept( 'faith_hostility', 'враждебности конфессий' )|El] по отношению друг к другу, следующие [pantheons|El] считаются аналогичными, а враждебность конфессий снижена на #P -25#!:\n$BULLET_WITH_TAB$[GetFaithDoctrine('doctrine_pantheon_aedra').GetBaseName]\n$BULLET_WITH_TAB$[GetFaithDoctrine('doctrine_pantheon_falmer').GetBaseName]\n$BULLET_WITH_TAB$[GetFaithDoctrine('doctrine_pantheon_malada').GetBaseName]"
 
  game_concept_liturgical_language:0 "Литургический язык"
  game_concept_liturgical_language_desc:0 "Хотя большинство [Concept( 'faiths', 'конфессий' )|E] предпочитают использовать [language|El] своих верующих для проведения религиозных обрядов и таинств, некоторые из них предпочитают использовать забытые или потусторонние языки в качестве литургического языка.\n\nОт [Concept( 'clergy', 'духовенства' )|E] этой конфессии ожидается знание данного языка, а те, кто не принадлежит к ней, но знает литургический язык, получают [piety|El] и бонус к [Concept( 'opinion', 'мнению' )|E] [Concept( 'clergy', 'духовенства' )|E].\n\n#F Глубокий язык Обливиона и язык драконов являются примерами таких литургических языков.#!"
@@ -155,10 +141,10 @@
 
  game_concept_great_house_tomb:0 "Гробница Великого дома"
  game_concept_tomb:0 "Гробница"
- game_concept_great_house_tomb_desc:0 "Данмеры Морровинда придают огромное значение почитанию предков и возводят великие гробницы в их честь, защищая их могущественной магией и странными ритуалами. Великие дома также не являются исключением – каждый из них владеет своей родовой гробницей, где покоятся их величайшие лидеры и герои.\n\nВот где расположены гробницы Великих Домов:\n• Дрес: $c_darmora$\n• Хлаалу: $c_molag_mar$\n• Индорил: $c_davon$\n• Редоран: $c_cormaris$\n• Телванни: $c_shevik$"
+ game_concept_great_house_tomb_desc:0 "Данмеры Морровинда придают огромное значение почитанию предков и возводят великие гробницы в их честь, защищая их могущественной магией и странными ритуалами. Великие дома также не являются исключением – каждый из них владеет своей родовой гробницей, где покоятся их величайшие лидеры и герои.\n\nВот где расположены гробницы Великих Домов:\n• Дрес: $c_darmora$\n• Хлаалу: $c_molag_mar$\n• Индорил: $c_darvonis$\n• Редоран: $c_cormaris$\n• Телванни: $c_shevik$"
 
  game_concept_high_councilor: "Верховный советник"
- game_concept_high_councilor_desc: "Верховный советник – глава Морровинда. Занимающий эту должность отвечает за внутреннюю и внешнюю политику страны, выдаёт [writs_of_war|El] другим членам [Concept('grand_council_morrowind', 'Великого совета')|E] и контролирует распределение [Concept('writs_of_execution', 'почётных приказов на казнь')|E]. В периоды централизации Верховный советник может разрешить колонизацию Вварденфелла или запретить рабство на всей территории Морровинда."
+ game_concept_high_councilor_desc: "Верховный советник – глава Морровинда. Занимающий эту должность отвечает за внутреннюю и внешнюю политику страны, выдаёт [writs_of_war|El] другим членам [Concept('grand_council_morrowind', 'Великого совета')|E] и контролирует распределение [Concept('writs_of_execution', 'почётных приказов на казнь')|E]. В периоды централизации Верховный советник может разрешить колонизацию Вварденфелла или запретить [slavery|El] на всей территории Морровинда."
 
  game_concept_alinor_isolationism: "Изоляционизм Алинора"
  game_concept_alinor_isolationism_desc: "$game_concept_alinor_isolationism$ отражает обособленность королевства высоких эльфов от дел остального Тамриэля. У [Concept('situation', 'ситуации')|E] есть две [Concept('situation_phases', 'фазы')|E]: $alinor_closed$ и $alinor_open$.\n\nВ [Concept('situation_phases', 'фазе')|E] $alinor_closed$ альтмеры отказываются от любых контактов с другими народами и не могут вести дипломатические переговоры или войны с кем-либо за пределами островов Саммерсет.\n\nВ [Concept('situation_phases', 'фазе')|E] $alinor_open$ острова открываются для чужеземцев, что создаёт новые перспективы для дипломатии и экспансии, однако такой подход вызывает недовольство среди коренных альтмеров."
@@ -166,13 +152,11 @@
  game_concept_feudal_like_government:0 "Правительство феодального типа"
  game_concept_feudal_like_government_desc:0 "[autocracy|E] и [feudalism|El] – высоко институционализированные и схожие с феодализмом типы правительства, которые открывают королевские дворы и позволяют основывать определённые королевства."
 
- game_concept_pirate:0 "Пираты"
+ game_concept_pirate: "Пират"
+ game_concept_pirates: "Пираты"
  game_concept_pirate_i: "@government_type_pirate!"
  game_concept_pirate_government:0 "Пиратское правительство"
- game_concept_pirate_desc:0 "Пиратские королевства – это [government_form|El], основанная на [Concept( 'raiding', 'налётах' )|E] и захвате [Concept( 'loot', 'добычи' )|E]. Каждый пиратский вассал предоставляет своему пиратскому сюзерену небольшую дань, захваченную в результате своих набегов.\n\n[holdings|E] под властью пиратов, как правило, дают меньше [Concept( 'taxes', 'налогов' )|E], поэтому пирату-правителю приходится полагаться на постоянные налёты и грабежи, чтобы добывать золото.\nВзамен, [counties|El] под властью правителя-пирата склонны игнорировать влияние различной [Concept( 'culture', 'культуры' )|E] и [Concept( 'faith', 'конфессии' )|E] на [county_opinion|El], что, в свою очередь, помогает пирату обезопасить передачу владений при наследовании типа [pirate_share|El].\n\nПоскольку пираты в значительной степени полагаются на заморские налёты и контроль над морями, любое не имеющее выхода к морю графство будет фактически независимым, не посылая ни налогов, ни [Concept( 'levy', 'ополчения' )|E]. Также они будут отделяться от державы при смене правителя.\n\nПиратские правители, желающие более надёжной преемственности и более спокойной жизни внутри страны, могут отказаться от своих пиратских путей и стать [Concept('feudal', 'феодальной')|E] или [Concept('autocratic', 'автократической')|E] державой."
- 
- game_concept_pirate_share:0 "Пиратская доля"
- game_concept_pirate_share_desc:0 "[succession_law|E] $game_concept_pirate_share$ постановляет, что каждое [county|El] может решать, последует ли оно за [Concept( 'heir', 'наследником' )|E] бывшего правителя, или же изберёт собственного. Если у графства будет высокое [Concept( 'county_opinion', 'мнение' )|E], это поможет обезопасить его передачу во время наследования."
+ game_concept_pirate_desc: "Пиратские державы подчиняются особой [Concept('government_form', 'форме правления')|E], центральным элементом в которой являются [Concept('raiding', 'налёты')|E] и [loot|El]. Количество [Concept( 'levies', 'ополчения' )|E] и [Concept( 'taxes', 'налогов' )|E], передаваемых [Concept( 'liege', 'сюзерену' )|E] его [Concept( 'vassals', 'вассалами' )|E], определяется уровнем [Concept( 'dread', 'ужаса' )|E] сюзерена. Правитель-пират, который захочет мирной жизни и стабильного наследования, может оставить пиратскую жизнь и сделать свою державу [Concept('autocracy', 'автократической')|E] или [Concept('feudal', 'феодальной')|E]."
  
  game_concept_academy:0 "Академия"
  game_concept_academy_i: "@government_type_academy!"
@@ -215,9 +199,6 @@
  game_concept_might_makes_right:0 "Право сильного"
  game_concept_might_makes_right_desc:0 "Некоторые действия, заблокированные [Concept( 'innovation', 'инновациями' )|E] – вроде [casus_bellis|El] – могут быть доступны [Concept( 'rulers', 'правителям' )|E], если у них достаточно высокий [prestige_level|El].\n\nНекоторые конфессии разрешают использовать [piety_level|El] и [piety|El] либо как необязательное, либо как дополнительное условие."
  
- game_concept_expected_prestige_level:0 "Ожидаемый уровень репутации"
- game_concept_expected_prestige_level_desc:0 "[Concept( 'tribal', 'Племенные' )|E] [Concept( 'rulers', 'правители' )|E] считаются легитимными, только если их имя пользуется славой и внушает страх. У каждого [Concept( 'rank', 'ранга' )|E] есть [prestige_level|El], которому нужно соответствовать.\n\nЕсли у вас не получится достигнуть такого [Concept( 'prestige_level', 'уровня репутации' )|E], вы столкнётесь с #N суровыми штрафами#! к [Concept( 'opinion', 'мнению' )|E] [Concept( 'vassal', 'вассалов' )|E], [Concept( 'domain_limit', 'пределу домена' )|E], [Concept( 'vassal_limit', 'максимуму вассалов' )|E], приросту [Concept( 'control', 'контроля' )|E], [Concept( 'county_opinion', 'народному мнению' )|E], [Concept( 'knight_effectiveness', 'эффективности рыцарей' )|E] и содержанию [Concept( 'men_at_arms', 'профессионалов' )|E].\nПревышение [Concept( 'prestige_level', 'уровня репутации' )|E] #P даёт бонусы#! в тех же областях.\n\nОжидаемый [prestige_level|El] выглядит следующим образом:\n* [count|E]: [GetModifier( 'prestige_level_1' ).GetNameWithTooltip|L]\n* [duke|E]: [GetModifier( 'prestige_level_2' ).GetNameWithTooltip|L]\n* [king|E]: [GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L]\n* [emperor|E]: [GetModifier( 'prestige_level_4' ).GetNameWithTooltip|L]\n\n#weak [perk|E] #V $a_life_of_glory_perk_name$#! снижает ожидаемый уровень репутации [Concept( 'tribal', 'племенных' )|E] [Concept( 'rulers', 'правителей' )|E] на один [Concept( 'prestige_level', 'уровень репутации' )|E]!"
-
  game_concept_daedric_boon:0 "Дар"
  game_concept_daedric_boons:0 "Дары"
  game_concept_daedric_boon_desc:0 "Дар – это подарок из Обливиона, предложенный вам [Glossary( 'князем даэдра', 'DAEDRA_GLOSS' )]. Дары имеют широкий диапазон силы и возможностей для использования. Например, это может быть небольшое увеличение [Concept( 'skills', 'навыков' )|E], дополнительные войска из Обливиона, получение [Concept( 'daedric_artifact', 'даэдрического артефакта' )|E] князя или даже начало полномасштабного [Concept( 'daedric_invasion', 'даэдрического вторжения' )|E].\n\nДары оплачиваются с помощью [Concept( 'daedric_ardor', 'страсти' )|E]."
@@ -250,11 +231,6 @@
  game_concept_daedric_secret:0 "Секрет"
  #game_concept_daedric_secret_desc:0 "Не все положительно относятся к [Glossary( 'князьям даэдра', 'DAEDRA_GLOSS' )]. Некоторые считают поклонение этим сущностям опасной затеей, ересью или даже преступлением. Но некоторые храбрецы или заблуждающиеся души всё же могут поклоняться князю, невзирая на опасность или цену.\n\nУ них есть доступ к небольшому ассортименту [Concept( 'daedric_boons', 'даров' )|E] и [Concept( 'daedric_sacrifices', 'жертвоприношений' )|E], доступных даэдрическому князю.\n\n[daedric_boons|E] как правило, требуют больше [Concept( 'daedric_ardor', 'страсти' )|E], а [daedric_sacrifices|El] дают меньше [Concept( 'daedric_ardor', 'страсти' )|E].\n\nДругими статусами являются: [daedric_focused|E], [daedric_pantheon|E], [daedric_allowed|E]."
  game_concept_daedric_secret_desc:0 "Не все видят [Glossary( 'князей даэдра', 'DAEDRA_GLOSS' )] в положительном свете. Для некоторых поклонение им считается опасным, еретическим или даже достойным преследования. Некоторые смелые или заблудшие души могут по-прежнему посвятить себя князю, невзирая на риск и последствия."
-
- game_concept_task_1_desc:0 "Теперь вы контролируете Сиродил, а значит, вы удовлетворили не только Совет Старейшин, но и собственные амбиции. Совет Старейшин согласился предоставить вам особые полномочия и власть над Сиродилом, но он #N требует постоянного подтверждения#!, так как от вас ожидается, что вы вернёте Рубиновый трон и передадите власть Верховному канцлеру, пока не будет найден достойный драконорождённый император."
- task_start:0 "#P Начало выполнения задачи#!"
- task_fulfill:0 "#P Выполнение задачи#!"
- task_reward:0 "#P Вознаграждение за выполнение этой задачи#!"
 
  game_concept_gc_lifespan:0 "Продолжительность жизни"
  game_concept_gc_longlived:0 "Долгожитель"

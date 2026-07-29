@@ -1,0 +1,15 @@
+﻿l_russian:
+ cadet_name_style_hyphenated_parent_houses_father_before_mother: "[new_house_head.GetFather.GetHouse.GetBaseNameNoTooltip]-[new_house_head.GetMother.GetHouse.GetBaseNameNoTooltip]"
+ cadet_name_style_hyphenated_parent_houses_mother_before_father: "[new_house_head.GetMother.GetHouse.GetBaseNameNoTooltip]-[new_house_head.GetFather.GetHouse.GetBaseNameNoTooltip]"
+ cadet_name_style_former_house_van_der_primary_title: "[former_house.GetBaseNameNoTooltip] ван дер [new_house_head.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ cadet_name_style_former_house_van_primary_title: "[former_house.GetBaseNameNoTooltip] ван [new_house_head.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ cadet_name_style_former_house_de_primary_title: "[former_house.GetBaseNameNoTooltip] де [new_house_head.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ cadet_name_style_former_house_du_primary_title: "[former_house.GetBaseNameNoTooltip] дю [new_house_head.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ cadet_name_style_former_house_de_la_primary_title: "[former_house.GetBaseNameNoTooltip] де ла [new_house_head.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ cadet_name_style_former_house_la_primary_title: "[former_house.GetBaseNameNoTooltip] ла [new_house_head.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ cadet_name_style_former_house_le_primary_title: "[former_house.GetBaseNameNoTooltip] ле [new_house_head.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ cadet_name_style_former_house_of_primary_title: "[former_house.GetBaseNameNoTooltip] [new_house_head.GetPrimaryTitle.GetAdjectiveNoTooltip]ий"
+ cadet_name_style_former_house_druid_of_galen_of_primary_title: "[former_house.GetBaseNameNoTooltip] из числа потомков друидов Галена из провинции [new_house_head.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ cadet_name_style_namesveldt: "[new_house_head.GetFirstNameNoTooltip]свельдт"
+
+ dynn_Financier: "Финансье"
