@@ -13,10 +13,6 @@
  required_other_magical_innovations:0 "Эта [innovation|El] необходима для всех других военных инноваций, связанных с магией"
  innovation_basic_armor_forging:0 "Базовая ковка доспехов"
  innovation_basic_armor_forging_desc:0 "Основные материалы и металлы позволяют создавать лёгкие, но эффективные доспехи. Кожа, железо и другие простые ресурсы могут быть широко использованы для экипировки практически любого бойца."
- innovation_disorganized_military:0 "Дезорганизованная армия"
- innovation_disorganized_military_desc:0 "Пока другие культуры полагаются на элиту и профессионалов, мы делаем ставку на подавляющую численность. Наши солдаты дешевы, многочисленны, так что вместе мы наводним поля сражений."
- cannot_research_men_at_arms_innovations:0 "#N Невозможно исследовать [Concept('innovations', 'инновации')|E], открывающие новых [Concept('men_at_arms', 'профессионалов')|E], а также увеличивающие размер их полков и содержание#!"
- innovation_disorganized_military_can_be_reformed:0 "Эта инновация может быть убрана сведущим в военном искусстве [Concept('cultural_head', 'культурным идеологом')|El], если он примет [decision|El] #V «Реформа армии»#!"
  innovation_leather_armor:0 "Кожаные доспехи"
  innovation_leather_armor_desc:0 "Кожа, что прочнее шкур и гибче металла, может широко применяться в наших армиях."
  unlock_maa_light_footmen: "Доступны [men_at_arms|El] – [GetMaA('light_footmen').GetName]"
@@ -60,6 +56,9 @@
  innovation_black_marsh_natives:0 "Жители болот"
  innovation_black_marsh_natives_desc:0 "Для большинства Чернотопье – совершенно негостеприимное место, буквально зловонный кошмар наяву. Но находятся те, кто свыкся с вечным гниением, кто знает, куда можно безопасно ступить и не провалиться в трясину, кто нетребователен к условиям и кому выразительное, пусть и омерзительное, многообразие топей предпочтительнее цивилизации, какой она бывает в землях с более благоприятным климатом."
  innovation_automatically_given_natives_of_black_marsh:0 "Эту [Concept( 'innovation', 'инновацию' )|E] автоматически получает любая культура, которая считается [Concept('native', 'коренной')|E] для любого [Concept('nativity_region', 'родного региона')|E] в [GetGeographicalRegion('mundus_tamriel_black_marsh').GetName]"
+ innovation_sled_dogs: "Собачьи упряжки"
+ innovation_sled_dogs_desc: "На холодном и скалистом севере Хай-Рока не обойтись без быстрых и маневренных собачьих упряжек, которые предоставляют надёжный транспорт как в повседневной, так и в военной сферах жизни."
+ ek_cheaper_to_adopt_dogs: "Собаки-питомцы обходятся дешевле"
 ### Pariah innovations
 # Pariah Folk
  innovation_pariah_folk:0 "Отверженный народ"
@@ -138,6 +137,9 @@
  unlocks_empire_conquest_cb_mmr:0 "Открывает [casus_belli|El] #V завоевание верховного королевства#! для персонажей с [Concept( 'prestige_level', 'уровнем репутации' )|E] равным или превышающим «[GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L]» #weak (подчиняется другим правилам [Concept( 'might_makes_right', 'права сильного' )|E])#!"
  
  ### Special
+
+ culture_parameter_ek_more_cadet_branches_cultural_innovation_seigneurialism_innovation_parameter: "$ek_culture_parameter_innovations_and_tradition_more_cadet_branches$"
+ culture_parameter_ek_more_cadet_branches_cultural_innovation_primogeniture_innovation_parameter: "$ek_culture_parameter_innovations_and_tradition_more_cadet_branches$"
 
  innovation_migratory_culture:0 "Скитающаяся культура"
  innovation_migratory_culture_desc:0 "Большинство предпочитает осесть в одном месте, мы же путешествуем по миру, а вместе с нами — и наш народ."

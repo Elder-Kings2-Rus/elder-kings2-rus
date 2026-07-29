@@ -25,7 +25,7 @@
  dwemeris_group_coa_gfx:0 "Двемерские"
  kothringi_coa_gfx:0 "Котрингские"
  horwalli_coa_gfx:0 "Хорваллские"
- nedic_coa_gfx:0 "Недийские"
+ nedic_coa_gfx:0 "Кептуйские"
  ayleid_group_coa_gfx:0 "Айлейдские"
  lilmothiit_group_coa_gfx:0 "Лилмотитские"
 
@@ -36,6 +36,7 @@
  argonian_unit_gfx:0 "Аргонианское"
  altmer_unit_gfx:0 "Альтмерское"
  imperial_unit_gfx: "Имперское"
+ giant_unit_gfx: "Великанское"
 
 
  northern_building_gfx:0 "Северная"
@@ -84,7 +85,7 @@
  ek_yokudan_clothing_gfx:0 "Йокуданская"
  ek_redguard_clothing_gfx:0 "Редгардская" 
  ek_nedic_south_clothing_gfx:0 "Котрингская" 
- ek_nedic_old_clothing_gfx:0 "Старонедийская" 
+ ek_nedic_old_clothing_gfx:0 "Нибенуйская" 
  ek_nedic_north_clothing_gfx:0 "Северонедийская"
  ek_dwemeri_clothing_gfx:0 "Двемерская" 
  ek_cyro_nordic_clothing_gfx:0 "Сиро-нордская" 

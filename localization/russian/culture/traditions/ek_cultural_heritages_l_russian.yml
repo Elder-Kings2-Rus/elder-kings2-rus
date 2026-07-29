@@ -73,7 +73,7 @@
  #heritage_kothri_name:0 "Котри"
  heritage_kothri_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ) ), 'Котрийск', Localize('no') )]"
  heritage_kothri_collective_noun:0 "Котри"
- heritage_kothri_desc:0 "Котри – человеческие племена, обитающие в болотах Чернотопья. Их происхождение восходит к недийцам, некогда населявшим земли вдоль реки Нибен."
+ heritage_kothri_desc:0 "Котри – человеческие племена, обитающие в болотах Чернотопья."
 
  #heritage_cyrod_name: "Cyrod"
  heritage_cyrod_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ) ), 'Сиродск', Localize('no') )]"
@@ -118,7 +118,7 @@
  #heritage_imgan_name:0 "Imga"
  heritage_imgan_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_IMGA') ) ), 'Имганск', Localize('no') )]"
  heritage_imgan_collective_noun:0 "Имга"
- heritage_imgan_desc:0 "Обезьяний народ, известный как «имга», обитает в Гриншейде и утверждает, что появился здесь ещё до босмеров. Частое владение множеством языков породило слухи об их крайней ксенофилии. По правде говоря, имга ценят благородство и отвагу – качества, которые, по их мнению, особенно присущи странникам. Истоки этого восходят к ранней [Glossary( 'Первой эре', 'FIRST_ERA_GLOSS' )], когда многие имга воспользовались административным вакуумом, чтобы стать странствующими наместниками или купцами в рамках мандата Каморана.\n\nРазбогатев, некоторые семьи покинули родной Валенвуд в поисках новых возможностей. Некоторые легенды упрямо утверждают, что одно из таких племён дало начало роду Марука, Пророка Единого. Хотя ни один источник не подтвердил, что он был имга, широко распространено мнение, что это так, поскольку телосложение Пророка не соответствовало ни людям, ни мерам."
+ heritage_imgan_desc: "Имга обладают обезьяньим мехом и лицами, но телом подобны крепким эльфам или людям; они хранят богатые устные предания, повествующие об обычаях, столь же древних, как и сам Валенвуд, а истоки их родословных уходят глубже корней даже самых старых деревьев."
 
  #heritage_atmoran_giant_name: "Atmoran Giant"
  heritage_atmoran_giant_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_GIANT') ) ), 'Атморско-великанск', Localize('no') )]"

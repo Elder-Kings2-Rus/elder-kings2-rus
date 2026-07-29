@@ -65,12 +65,21 @@
  title_aumapareshe: "Аума-Пар-Эш"
  title_emenperor: "Эмен Перор Эль"
 
+ title_aldmeris_male: "[Character.Custom('AldmerHegemonMaleTitle')|U]"
+ title_aldmeris_female: "[Character.Custom('AldmerHegemonFemaleTitle')|U]"
+
  title_aldmeri_dominion_male: "Аран Альдмерский"
  title_aldmeri_dominion_female: "Арана Альдмерская"
+
+ title_bosmeri_dominion_male: "Король босмеров"
+ title_bosmeri_dominion_female: "Королева босмеров"
 
  title_hegemony_male: "Гегемон"
  title_hegemony_female: "Гегемонесса"
  empire_hegemony: "Гегемония"
+
+ title_direnni_hegemony_male: "[Character.Custom('DirenniHegemonMaleTitle')|U]"
+ title_direnni_hegemony_female: "[Character.Custom('DirenniHegemonFemaleTitle')|U]"
 
  title_mead_hall: "Зал"
  title_harbinger_male: "Предвестник"
@@ -109,7 +118,7 @@
  imperial_city_protector_female: "Протектор"
  imperial_city_protectorate: "Протекторат"
 
- title_mannimarco: "Лорд"
+ title_mannimarco: "Король Червей"
 
  battlelord_title_male: "Повелитель битв"
  battlelord_title_female: "Повелительница битв"
@@ -453,8 +462,8 @@
  emperor_feudal_female_altmer: "Арана-Эль"
 
  kingdom_feudal_altmer: "Королевство"
- king_feudal_male_altmer: "Верховный кинлорд"
- king_feudal_female_altmer: "Верховная кинледи"
+ king_feudal_male_altmer: "Аран"
+ king_feudal_female_altmer: "Арана"
 
  duchy_feudal_altmer: "Кинхолд"
  duke_feudal_male_altmer: "Кинлорд"
@@ -524,8 +533,8 @@
  count_republic_male_nordic: "Старейшина"
  count_republic_female_nordic: "Старейшина"
 
- baron_republic_male_nordic: "Старейшина"
- baron_republic_female_nordic: "Старейшина"
+ baron_male_nordic: "Тан"
+ baron_female_nordic: "Тан"
 
  #Yokudan Group#
  #Feudal
@@ -648,25 +657,20 @@
 
  #Cyrodiilic Group#
  #Feudal
- duchy_feudal_cyrodiilic: "Виконтство"
- duke_feudal_male_cyrodiilic: "Виконт"
- duke_feudal_female_cyrodiilic: "Виконтесса"
+ duchy_vassal_cyrodilic: "Район"
+ duke_colovian_male: "Герцог"
+ duke_colovian_female: "Герцогиня"
 
- duchy_feudal_cyrodiilic_independent: "Герцогство"
- duke_feudal_male_cyrodiilic_independent: "Герцог"
- duke_feudal_female_cyrodiilic_independent: "Герцогиня"
-
- kingdom_feudal_nibenese: "Королевство"
  king_feudal_male_nibenese: "Владыка"
  king_feudal_female_nibenese: "Владычица"
 
- kingdom_feudal_cyrodiilic: "Имперское графство"
- king_feudal_male_cyrodiilic: "Имперский граф"
- king_feudal_female_cyrodiilic: "Имперская графиня"
+ king_colovian_male: "Король"
+ king_colovian_female: "Королева"
+ kingdom_colovian: "Королевство"
 
- kingdom_feudal_cyrodiil: "[CHARACTER.Custom('KingdomFeudalCyrodiil')]"
- king_feudal_male_cyrodiil: "[CHARACTER.Custom('KingFeudalMaleCyrodiil')]"
- king_feudal_female_cyrodiil: "[CHARACTER.Custom('KingFeudalFemaleCyrodiil')]"
+ kingdom_vassal_imperial: "Провинция"
+ king_vassal_imperial_male: "Губернатор провинции"
+ king_vassal_imperial_female: "Губернатор провинции"
 
  kingdom_feudal_nibenay_territory:0 "Территория"
 
@@ -689,10 +693,7 @@
  prince_male_ilniviri_empire: "Проконсул"
  prince_female_ilniviri_empire: "Проконсул"
  #Administrative
- duchy_administrative_ilniviri: "Префектура"
- duke_administrative_male_ilniviri: "Префект"
- duke_administrative_female_ilniviri: "Префект"
- 
+
  kingdom_administrative_ilniviri: "Проконсульство"
  king_administrative_male_ilniviri: "Проконсул"
  king_administrative_female_ilniviri: "Проконсул"
@@ -706,7 +707,6 @@
  title_custodian_ilniviri_female: "Хранительница"
  title_custodianship_ilniviri: "Кустодианство"
 
- #North Nedic Group#
  #Feudal
 
  duchy_feudal_reachfolk_independent: "Клан"
@@ -809,7 +809,11 @@
  emperor_feudal_male_ayleid: "Маларан"
  emperor_feudal_female_ayleid: "Маларана"
  empire_feudal_ayleid: "Маларансель"
- 
+
+ hegemon_feudal_male_ayleid: "Император"
+ hegemon_feudal_female_ayleid: "Императрица"
+ hegemony_feudal_ayleid: "Империя"
+
  count_feudal_independent_male_ayleid: "Аран" 
  count_feudal_independent_female_ayleid: "Арана" 
  county_feudal_independent_ayleid: "[CHARACTER.Custom('AyleidKingdomCounty')]"

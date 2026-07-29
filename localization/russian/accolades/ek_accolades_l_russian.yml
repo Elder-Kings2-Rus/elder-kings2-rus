@@ -2,10 +2,14 @@
 
  archmage_attribute_modifier:0 "[Concept( 'acclaimed_knight', 'Именитый рыцарь' )|E]-$archmage_attribute$"
  archmage_attribute:0 "Архимаг"
- accolade_archmage_adj:0 "Архимаг"
+ accolade_archmage_adj:0 "Архимагическ"
  accolade_archmage:0 "Архимаг"
+ archmage_attribute.unlock_tt: "Любое из следующего:\n$EFFECT_LIST_BULLET$[acclaimed_knight|E] имеет свойство «[GetTraitGroup('education_magic').GetName()]»\n$EFFECT_LIST_BULLET$[acclaimed_knight|E] имеет свойство «[GetTraitGroup('arcana_good').GetName()]»\n$EFFECT_LIST_BULLET$[acclaimed_knight|E] имеет свойство «[GetTrait('battlemage').GetName( GetNullCharacter )]»\n$EFFECT_LIST_BULLET$У [Concept('acclaimed_knight', 'именитого рыцаря')|E] [Concept('trait_level_track_xp', 'опыт свойства')|E] «[GetTrait('tourney_participant').GetName( GetNullCharacter )]» ветки «Магия» #V 20#! или выше"
+ archmage_attribute.unlock_tt_2: "Любое из следующего:\n$EFFECT_LIST_BULLET$[culture|E] [Concept('acclaimed_knight', 'именитого рыцаря')|E] открыла [Concept('innovation', 'инновацию')|E] #V $innovation_war_magic$#!\n$EFFECT_LIST_BULLET$Имеет [Concept('innovation', 'инновацию')|E], эквивалентную инновации «$innovation_war_magic$»\n\n[culture|E] [Concept('acclaimed_knight', 'именитого рыцаря')|E] имеет особых [Concept('men_at_arms', 'профессионалов')|E]-[Concept('mages', 'магов')|E]"
 
  spellsword_attribute_modifier:0 "[Concept( 'acclaimed_knight', 'Именитый рыцарь' )|E]-$spellsword_attribute$"
  spellsword_attribute:0 "Воин-маг"
- accolade_spellsword_adj:0 "Воин-маг"
+ accolade_spellsword_adj:0 "Магическ"
  accolade_spellsword:0 "Воин-маг"
+ spellsword_attribute.unlock_tt: "Любое из следующего:\n$EFFECT_LIST_BULLET$[acclaimed_knight|E] имеет свойство «[GetTraitGroup('education_magic').GetName()]»\n$EFFECT_LIST_BULLET$[acclaimed_knight|E] имеет свойство «[GetTraitGroup('arcana_good').GetName()]»\n$EFFECT_LIST_BULLET$[acclaimed_knight|E] имеет свойство «[GetTrait('battlemage').GetName( GetNullCharacter )]»\n$EFFECT_LIST_BULLET$У [Concept('acclaimed_knight', 'именитого рыцаря')|E] [Concept('trait_level_track_xp', 'опыт свойства')|E] «[GetTrait('tourney_participant').GetName( GetNullCharacter )]» ветки «Магия» #V 20#! или выше"
+ spellsword_attribute.unlock_tt_2: "Любое из следующего:\n$EFFECT_LIST_BULLET$[culture|E] [Concept('acclaimed_knight', 'именитого рыцаря')|E] открыла [Concept('innovation', 'инновацию')|E] #V $innovation_magical_studies$#!\n$EFFECT_LIST_BULLET$Имеет [Concept('innovation', 'инновацию')|E], эквивалентную инновации «$innovation_magical_studies$»\n\n[culture|E] [Concept('acclaimed_knight', 'именитого рыцаря')|E] имеет особых [Concept('men_at_arms', 'профессионалов')|E] — [Concept('spellblades', 'мечников-чародеев')|E]"
