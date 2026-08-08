@@ -109,3 +109,7 @@
  purity_arcana_good_2:0 "[GetTrait('arcana_good_2').GetName(ROOT.Char)]"
  purity_arcana_good_3:0 "[GetTrait('arcana_good_3').GetName(ROOT.Char)]"
  HOF_ASK_FOR_CLAIM_GREAT_HOUSE_HEAD:1 "[Concept('head_of_faith', 'Глава конфессии')|E] не станет даровать претензии на титулы [Concept('great_house_heads', 'глав Великих домов')|E]"
+
+ tribalize_castle_interaction: "Обратить владение в племенное"
+ tribalize_castle_interaction_desc: "$feudalize_holding_interaction_desc$"
+ tribalize_castle_interaction_notification: "Владение обращено в племенное"

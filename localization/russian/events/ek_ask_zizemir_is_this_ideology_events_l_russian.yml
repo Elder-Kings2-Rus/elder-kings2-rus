@@ -1,0 +1,14 @@
+﻿l_russian:
+ ek_ask_zizemir_is_this_ideology_events.0001.title: "Жижемир шмыгает носом" # https://ru.wikipedia.org/wiki/%D0%96%D0%B8%D0%B6%D0%B5%D0%BA,_%D0%A1%D0%BB%D0%B0%D0%B2%D0%BE%D0%B9
+ ek_ask_zizemir_is_this_ideology_events.0001.it_is_ideology: "Это… идеология."
+ ek_ask_zizemir_is_this_ideology_events.0001.your_faith_is_ideology: "«Ваша [Concept( 'faith', 'конфессия' )|E], [actor.GetFaith.GetAdjective|l], — Жижемир снова шмыгает носом, — это идеология в чистом виде»."
+ ek_ask_zizemir_is_this_ideology_events.0001.your_culture_is_ideology: "«Ваша [Concept('culture', 'культура')|E], [actor.GetCulture.GetName|l] — это… (Жижемир неразборчиво бормочет) …идеология»."
+ ek_ask_zizemir_is_this_ideology_events.0001.your_heritage_is_ideology: "«Это ваше [Concept('heritage', 'наследие')|E], [actor.GetCulture.GetHeritage.GetCollectiveNoun|l], — говорит Жижемир, шмыгая и бормоча, — это и есть идеология»."
+ ek_ask_zizemir_is_this_ideology_events.0001.your_dynasty_is_ideology: "Жижемир бормочет так тихо, что слов почти не разобрать. Можно расслышать лишь «[dynasty|El]», «[actor.GetDynasty.GetName]» и «идеология»."
+ ek_ask_zizemir_is_this_ideology_events.0001.your_house_is_ideology: "Жижемир шмыгает, бормоча что-то про «[house|El]», кого-то по имени «[actor.GetHouse.GetName]» и «идеологию»."
+ ek_ask_zizemir_is_this_ideology_events.0001.your_primary_title_is_ideology: "Жижемир говорит так медленно, что уже по первому слову, «[title|El]», становится ясно: сейчас он назовет [actor.GetPrimaryTitle.GetDefinitiveName] «идеологией»."
+ ek_ask_zizemir_is_this_ideology_events.0001.my_culture_is_ideology: "Стыдно признать, но… моя [recipient.GetCulture.GetCollectiveNounNoTooltip]ая [culture|El] — это идеология."
+ ek_ask_zizemir_is_this_ideology_events.0001.my_faith_is_ideology: "Я бы хотел выбросить это на свалку проявленных метафор… но моя [recipient.GetFaith.GetNameNoTooltip]ая [faith|El] — это идеология."
+ ek_ask_zizemir_is_this_ideology_events.0001.my_heritage_is_ideology: "Это… идеология, моё [recipient.GetCulture.GetHeritage.GetNameNoTooltip]ое [heritage|El]."
+ ek_ask_zizemir_is_this_ideology_events.0001.my_dynasty_is_ideology: "Идеология… вот чем является моя [dynasty|El], [recipient.GetDynasty.GetName]."
+ ek_ask_zizemir_is_this_ideology_events.0001.my_house_is_ideology: "Идеология… вот что такое мой [house|El], [recipient.GetHouse.GetName]."

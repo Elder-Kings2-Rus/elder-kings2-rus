@@ -156,9 +156,6 @@
  black_marsh_levy_size:0 "$MOD_LEVY_SIZE$ в Чернотопье"
  black_marsh_provisions_use_mult: "Расход [Concept('provisions','припасов лагеря')|E] при движении по местности: [GetTerrain( 'black_marsh' ).GetName]"
 
- ### Schemes
- max_steal_back_artifact_schemes_add: "Максимум [Concept('schemes', 'происков')|E] «[GetScheme('steal_back_artifact').GetTypeName]»"
-
  ## Travel
 
  ashlands_travel_danger:0 "[Concept( 'travel_danger', 'Опасность' )|E]: [GetTerrain( 'ashlands' ).GetName]"
@@ -759,32 +756,6 @@
  emperor_magocracy_mage_bonus_modifier: "Магократия — [emperor|El]"
  hegemon_magocracy_mage_bonus_modifier: "Магократия — [hegemon|El]"
 
- ### Tribes
- tribal_expected_level_of_fame_below:0 "[expected_prestige_level|E] не достигнут"
- tribal_expected_level_of_fame_below_desc:0 "Наш текущий [prestige_level|El] слишком низок, по сравнению с [Concept('expected_prestige_level','ожидаемым уровнем')|E]. Наши подданные и вассалы меньше уважают нас из-за этого."
- tribal_expected_level_of_fame_below_5:0 "$tribal_expected_level_of_fame_below$ (5)"
- tribal_expected_level_of_fame_below_5_desc:0 "$tribal_expected_level_of_fame_below_desc$"
- tribal_expected_level_of_fame_below_4:0 "$tribal_expected_level_of_fame_below$ (4)"
- tribal_expected_level_of_fame_below_4_desc:0 "$tribal_expected_level_of_fame_below_desc$"
- tribal_expected_level_of_fame_below_3:0 "$tribal_expected_level_of_fame_below$ (3)"
- tribal_expected_level_of_fame_below_3_desc:0 "$tribal_expected_level_of_fame_below_desc$"
- tribal_expected_level_of_fame_below_2:0 "$tribal_expected_level_of_fame_below$ (2)"
- tribal_expected_level_of_fame_below_2_desc:0 "$tribal_expected_level_of_fame_below_desc$"
- tribal_expected_level_of_fame_below_1:0 "$tribal_expected_level_of_fame_below$ (1)"
- tribal_expected_level_of_fame_below_1_desc:0 "$tribal_expected_level_of_fame_below_desc$"
- tribal_expected_level_of_fame_above:0 "Превышен [expected_prestige_level|El]"
- tribal_expected_level_of_fame_above_desc:0 "Наш текущий [prestige_level|El] превышает [expected_prestige_level|El]. Это повышает уважение к нам наших подданных и вассалов и ещё больше укрепляет наше государство."
- tribal_expected_level_of_fame_above_5:0 "$tribal_expected_level_of_fame_above$ (5)"
- tribal_expected_level_of_fame_above_5_desc:0 "$tribal_expected_level_of_fame_above_desc$"
- tribal_expected_level_of_fame_above_4:0 "$tribal_expected_level_of_fame_above$ (4)"
- tribal_expected_level_of_fame_above_4_desc:0 "$tribal_expected_level_of_fame_above_desc$"
- tribal_expected_level_of_fame_above_3:0 "$tribal_expected_level_of_fame_above$ (3)"
- tribal_expected_level_of_fame_above_3_desc:0 "$tribal_expected_level_of_fame_above_desc$"
- tribal_expected_level_of_fame_above_2:0 "$tribal_expected_level_of_fame_above$ (2)"
- tribal_expected_level_of_fame_above_2_desc:0 "$tribal_expected_level_of_fame_above_desc$"
- tribal_expected_level_of_fame_above_1:0 "$tribal_expected_level_of_fame_above$ (1)"
- tribal_expected_level_of_fame_above_1_desc:0 "$tribal_expected_level_of_fame_above_desc$"
-
  ### Artifact-Related
  verity_worthy:0 "Достойный"
  verity_worthy_desc:0 "Этот персонаж был признан достойным Короной Истинности"
@@ -947,3 +918,6 @@
 
  warlord_emperor_modifier: "Император-военачальник"
  warlord_emperor_modifier_desc: "Если [legitimacy_level|El] этого персонажа окажется ниже #V 4#! к моменту смерти, имперский [title|El] будет уничтожен. Все [vassals|El], не являющиеся [de_jure|El] вассалами других титулов, получат независимость.\n\n"
+
+ ek_landed_ruler_mystery_meat_modifier: "Таинственное мясо"
+ ek_landed_ruler_mystery_meat_modifier_desc: "[Glossary('Мясные', 'DARK_MEAT_GLOSS')] пиры королевства, равно как и вопросы пресоления — признанная привилегия знати. Нордские дворяне не любят, когда из них делают отбивные.\n\nСодержание [Concept( 'court_amenity', 'увеселений при дворе' )|E]: #P -10%#!"

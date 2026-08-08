@@ -19,10 +19,6 @@
  county_corruption_falmer_rampant_modifier_desc:0 "[county_corruption|E]\nФалмеры свободно разгуливают в этом [Concept('county', 'графстве')|E]."
  county_corruption_daedra_rampant_modifier:0 "Свирепствующие даэдра"
  county_corruption_daedra_rampant_modifier_desc:0 "[county_corruption|E]\nВедомые дреморой, даэдрические орды свободно разгуливают в этом [Concept('county', 'графстве')|E]."
- county_corruption_ashlanders_rampant_modifier:0 "Свирепствующие эшлендеры"
- county_corruption_ashlanders_rampant_modifier_desc:0 "[county_corruption|E]\nЭшлендеры свободно разгуливают в этом [Concept('county', 'графстве')|E]."
- county_corruption_slaves_rampant_modifier:0 "Свирепствующие рабы"
- county_corruption_slaves_rampant_modifier_desc:0 "[county_corruption|E]\nРабы свободно разгуливают в этом [Concept('county', 'графстве')|E]."
  recent_crisis_revolt:0 "Недавний [Concept('crisis', 'кризис')|E]"
  recent_crisis_revolt_desc:0 "Это [county|El] не может присоединиться к [Concept('crisis_factions', 'фракции кризиса')|E]\n#weak Недавний [crisis|El] в этой провинции серьёзно снизил численность проживающих в местных пещерах и руинах злодеев и преступников#!"
 
@@ -46,8 +42,9 @@
  plague_zombies_modifier_desc:0 "Это графство наводнено ожившими трупами жертв чумы"
  withered_crops_modifier:0 "Увядшие посевы"
  withered_crops_modifier_desc:0 "Урожай в этом графстве увядает и гниёт на полях"
- corrupted_heart_modifier:0 "Осквернённое Сердце"
- corrupted_heart_modifier_desc:0 "Это графство было изменено растущим влиянием осквернённого Сердца Валенвуда."
  
  akaviri_refugees_modifier: "Беженцы-акавирцы"
  heartlands_secured_modifier: "Хартленд под контролем"
+
+ tribalize_castle_modifier:0 "Назад к племенным корням"
+ tribalize_castle_modifier_desc:0 "Мы познакомили местных жителей с племенными обычаями, и теперь нам предстоит заново завоевать их преданность."
